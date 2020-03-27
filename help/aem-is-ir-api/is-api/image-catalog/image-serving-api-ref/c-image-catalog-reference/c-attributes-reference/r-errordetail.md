@@ -1,0 +1,50 @@
+---
+description: Details zur Fehlermeldung. Gibt die Detailebene für Fehlermeldungen an, die über HTTP als error.message-Wert zurückgegeben werden.
+seo-description: Details zur Fehlermeldung. Gibt die Detailebene für Fehlermeldungen an, die über HTTP als error.message-Wert zurückgegeben werden.
+seo-title: ErrorDetail
+solution: Experience Manager
+title: ErrorDetail
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# ErrorDetail{#errordetail}
+
+Details zur Fehlermeldung. Gibt die Detailebene für Fehlermeldungen an, die über HTTP als error.message-Wert zurückgegeben werden.
+
+Die folgenden Werte sind zulässig:
+
+<table id="simpletable_26DC72727F224F2C8E97BF26619DB68B"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>0 </p></td> 
+  <td class="stentry"> <p>Nur Titel. Gibt eine kurze allgemeine Beschreibung des Fehlers zurück. Empfohlen für Live-Server, auf die öffentlich zugegriffen werden kann. </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>Kurze Nachricht. Für zukünftige Verwendung reserviert. Gibt derzeit die gleichen Informationen wie 0 zurück. </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>2 </p></td> 
+  <td class="stentry"> <p>Detaillierte Meldung. Stellt Details zum Fehler auf Benutzerebene bereit. Kann vertrauliche Informationen wie Dateipfade enthalten. Empfohlen für Staging-, Qualitätssicherungs- und Anwendungsentwicklungsserver. </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java-Stapelspuren hinzu. Fehlerbilder enthalten keine Stapelspuren und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span>zurück. Diese Informationen können nützlich sein, wenn Berichte beim technischen Support von Scene7 auftreten. </p></td> 
+ </tr> 
+</table>
+
+## Eigenschaften {#section-e167895723ca4ad4ba283d3d7b4324de}
+
+Enumerierter Wert muss 0, 1, 2 oder 3 sein.
+
+## Standard {#section-8f27098e509945a18676aca0675c8f41}
+
+Vererbt von, `default::ErrorDetail` wenn nicht angegeben oder leer.
+
+## Verwandte Themen {#section-5451b0525ed74121950bfc34726c3970}
+
+[attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c)
