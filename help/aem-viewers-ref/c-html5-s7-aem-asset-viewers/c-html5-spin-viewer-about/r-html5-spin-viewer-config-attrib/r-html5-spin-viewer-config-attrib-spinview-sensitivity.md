@@ -1,0 +1,38 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: SpinView.sensibilität
+solution: Experience Manager
+title: SpinView.sensibilität
+topic: Dynamic media
+uuid: 82cf1f26-3af0-494f-b918-fdc318959c75
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# SpinView.sensibilität{#spinview-sensitivity}
+
+` [SpinView.|<containerId>_spinView.]sensitivity= *``*[, *`xSensitivitätSensitivität`*]`
+
+<table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Steuert die Empfindlichkeit der horizontalen und vertikalen Rotation, die mit einem Mausziehen oder Wischen ausgeführt wird. </p> <p> <span class="codeph"> xSensitivity</span> legt fest, wie viele vollständige horizontale Produktdrehungen durchgeführt werden, wenn der Benutzer die Maus horizontal von einer Seite der Ansicht zur anderen bewegt. Beispielsweise bedeutet dies, dass dem Benutzer drei vollständige Rotationssets für eine volle Ziehgeste angezeigt werden. </p> <p>Gleichermaßen steuert <span class="codeph"> ySensitivity</span> die Empfindlichkeit der vertikalen Drehung. Der Wert 1 bedeutet, dass bei einem vollständigen vertikalen Ziehen oder Wischen der Winkel der Ansicht von der obersten Rotationsebene zur untersten Ebene (oder umgekehrt) geändert wird. </p> <p>Wenn Sie einen negativen Wert für <span class="codeph"> ySensitivity</span> festlegen, wird die Richtung der vertikalen Rotation umgekehrt. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Eigenschaften {#section-65be9301796240e38f31818229da7acc}
+
+Optional.
+
+## Standard {#section-bd374ffc5182484faa77a7a3c8fa70f2}
+
+`5,2`
+
+## Beispiel {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+
+`sensitivity=4,-2`
