@@ -1,0 +1,23 @@
+---
+description: Dieser Abschnitt enthält Informationen zum Einrichten und Verwalten des Image Rendering-Servers.
+seo-description: Dieser Abschnitt enthält Informationen zum Einrichten und Verwalten des Image Rendering-Servers.
+seo-title: Server konfigurieren und verwalten
+solution: Experience Manager
+title: Server konfigurieren und verwalten
+topic: Scene7 Image Serving - Image Rendering API
+uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Server konfigurieren und verwalten{#configuring-and-managing-the-server}
+
+Dieser Abschnitt enthält Informationen zum Einrichten und Verwalten des Image Rendering-Servers.
+
+>[!NOTE] {class=&quot;- topic/note &quot;
+>
+>Image Serving muss ordnungsgemäß konfiguriert und funktionsfähig sein, damit Image Rendering ordnungsgemäß funktioniert.
+
+Weitere Informationen finden Sie unter Materialkatalog-Referenz, HTTP-Protokoll-Referenz, Versionshinweise, Image-Serving-Dokumentation
