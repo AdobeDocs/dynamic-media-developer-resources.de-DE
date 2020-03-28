@@ -1,0 +1,31 @@
+---
+description: Dokumentation zu Konfigurationsattributen für Video360 Viewer.
+seo-description: Dokumentation zu Konfigurationsattributen für Video360 Viewer.
+seo-title: Befehlsreferenz - Konfigurationsattribute
+solution: Experience Manager
+title: Befehlsreferenz - Konfigurationsattribute
+topic: Dynamic media
+uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Befehlsreferenz - Konfigurationsattribute{#command-reference-configuration-attributes}
+
+Dokumentation zu Konfigurationsattributen für Video360 Viewer.
+
+Jeder Konfigurationsbefehl kann in der URL oder mit `setParam()`oder `setParams()`oder beidem API-Methoden festgelegt werden. Jedes Konfigurationsattribut kann auch im serverseitigen Konfigurationssatz angegeben werden.
+
+Einige Konfigurationsbefehle können mit dem Klassennamen oder Instanznamen der entsprechenden Viewer-SDK-Komponente versehen werden. Der Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an die `setContainerId()` API-Methode übergeben wird. Die Dokumentation enthält ein optionales Präfix für solche Befehle. Der `playback` Befehl wird beispielsweise wie folgt dokumentiert:
+
+`[VideoPlayer.|<containerId>_videoPlayer].playback`
+
+Das bedeutet, dass Sie diesen Befehl wie folgt verwenden können:
+
+* `playback` (kurze Syntax)
+* `VideoPlayer.playback` (qualifiziert mit Komponentenklassenname)
+* `cont_videoPlayer.playback` (mit Komponenten-ID qualifiziert, vorausgesetzt, `cont` die ID des Container-Elements ist vorhanden)
+
+Siehe auch [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
