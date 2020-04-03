@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Richtlinien für den Beitrag zur Dokumentation der Ressourcen für Adobe Dynamic Media-Entwickler
 
-## Dokumentation zu Adobe Dynamic Media Developer Resources
+## Dokumentationsphilosophie
 
 Wir wissen, dass Adobe Dynamic Media-Benutzer in äußerst wettbewerbsfähigen Umgebung arbeiten und digitale Erlebnisse entwickeln, die sie von ihren Konkurrenten unterscheiden. Daher ist es unerlässlich, dass Adobe bei der Bereitstellung erweiterter neuer Tools diese Werkzeuge durch eine genaue und klare Dokumentation ergänzt, damit der Kunde seine Investition in dynamische Medien sofort nutzen und den ROI maximieren kann.
 
@@ -35,13 +35,13 @@ Ausnahmen von dieser Regel gelten für die Versionshinweise, in denen bekannte P
 
 Alle Ideen, die Sie zur Verbesserung der Dokumentation benötigen, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht dazu gedacht, Ihre Fragen zur Verwendung dynamischer Medien, zur Implementierung Ihres Projekts oder zur Lösung technischer Probleme zu beantworten.
 
-Fragen zur Verwendung dynamischer Medien oder technische Fehler, die Sie möglicherweise haben, sollten über den normalen Supportprozess gemeldet werden.
+Fragen zur Verwendung von dynamischen Medien oder technische Fehler, die Sie haben, sollten über das [Experience Cloud Enterprise Support-Portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) gemeldet oder in der [Experience Manager-Community diskutiert werden.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***Dokumentationsbeiträge sind kein Ersatz für Adobe-Support*** . Solche Beiträge, die Antworten auf Supportfragen anfordern, werden abgelehnt.
+***Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** , und solche Beiträge, die Antworten auf Supportfragen anfordern, werden abgelehnt.
 
 ### Die Beiträge müssen eindeutig auf die betroffenen Dokumentationsseiten verweisen.
 
-Wenn Sie ein Problem melden, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einschließen. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
+Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einfügen. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
 
 Dies gilt nicht für Pull-Anfragen, da Pull-Anfragen von ihrer Natur auf die betroffene(n) Seite(n) verweisen.
 
