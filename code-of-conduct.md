@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
@@ -45,4 +45,4 @@ Projektbetreuer, die den Verhaltenskodex nicht in gutem Glauben befolgen oder du
 
 ## Zuordnung
 
-Dieser Verhaltenskodex ist dem [Beitragskonvent](https://contributor-covenant.org), Version 1.4, angepasst, der unter [https://contributor-covenant.org/version/1/4 verfügbar ist.](https://contributor-covenant.org/version/1/4/)
+Dieser Verhaltenskodex wurde vom [Mitarbeiter-Konvent](https://contributor-covenant.org), Version 1.4, angepasst, der unter [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)verfügbar ist.
