@@ -7,7 +7,7 @@ title: Erstmalige Installation
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ Dieses Verfahren zeigt, wie Image Serving unter Linux zum ersten Mal installiert
    Wenn die Lizenzschlüssel-Datei Image Serving und/oder Image Rendering (mit [!DNL .sc8] Dateisuffix) verfügbar ist, kopieren Sie sie in diesen Ordner. Andernfalls fahren Sie mit der Installation fort und installieren Sie den Lizenzschlüssel später.
 1. Dekomprimieren Sie die Image Serving-Distribution-Tar-Datei und entfernen Sie sie.
 1. Führen Sie [!DNL ./install-is]den Installationsassistenten aus, der sich im [!DNL Setup] Ordner befindet.
+
    Wenn kein Lizenzschlüssel gefunden wird, werden Anweisungen zum Abrufen einer Lizenzdatei angezeigt. Führen Sie dies an dieser Stelle aus oder fahren Sie mit der Image Serving-Installation fort und installieren Sie den Lizenzschlüssel später.
 1. Wenn die Endbenutzer-Lizenzvereinbarung (EULA) angezeigt wird, lesen Sie die Lizenzvereinbarung und geben Sie dann ein, `y` um fortzufahren.
 
