@@ -7,14 +7,14 @@ title: Farbhandhabung
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # Farbhandhabung{#color-handling}
 
-Die RTF-Spezifikation erlaubt RGB-Farbwerte, die mit \colortbl angegeben werden. Jede Komponente wird separat mit den Befehlen \red, \green und \blue bereitgestellt.
+Die RTF-Spezifikation erlaubt die Angabe von RGB-Farbwerten mit `\colortbl`. Jede Komponente wird separat mit den Befehlen `\red`, `\green`und `\blue` bereitgestellt.
 
 Der proprietäre Befehl für die RTF-Erweiterung `\cmykcolortbl` ermöglicht die Angabe von CMYK-Farben, wobei jede Farbkomponente mit den Befehlen `\cyan`, `\magenta`, `\yellow`und `\black` versehen ist.
 
