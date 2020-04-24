@@ -7,7 +7,7 @@ title: Einschränkungen und bekannte Probleme
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -80,7 +80,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
 * Nicht-Pyramided Tiff- oder Vignettenanforderungen erzeugen eine ähnliche Fehlermeldung wie
 
-   *&quot;Bild C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt hat keinen gültigen DSF und Bereich von 2,25MPixel überschreitet max von 2MPixel&quot;* .
+   *&quot;Bild`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`hat keinen gültigen DSF und Bereich von 2,25MPixel überschreitet max von 2MPixel&quot;* .
 
    Best Practice ist die Verwendung von Pyramided Tiffs und Vignetten. Wenn Sie nicht-pyramidierte Zecken oder Vignetten verwenden müssen, befolgen Sie die unten stehenden Anweisungen, um die Größenbeschränkung zu erhöhen.
 
@@ -128,7 +128,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
    *Symptome*
 
-   Wiedergegebene SVG-Bilder, die Schriftdefinitionen enthalten, verwenden die falsche Schriftart.
+   Gerenderte SVG-Bilder, die Schriftdefinitionen enthalten, verwenden die falsche Schriftart.
 
    *Behelfslösung*
 
