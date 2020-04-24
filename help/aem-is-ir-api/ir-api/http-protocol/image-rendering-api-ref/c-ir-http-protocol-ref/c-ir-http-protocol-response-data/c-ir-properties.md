@@ -7,7 +7,7 @@ title: Eigenschaften
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -28,7 +28,7 @@ Die Antwortdaten sind so formatiert, dass sie als Java-Eigenschaften lesbar sind
 
 ` *[!DNL propertyValue]*` darf leer sein. Leerzeichen sind optional am Anfang und am Ende jeder Zeile und vor und nach dem Trennzeichen &#39;=&#39;. Ein- oder Dublette-Anführungszeichen können zum Umschließen von Zeichenfolgenwerten verwendet werden, sind jedoch nicht erforderlich.
 
-Zeichenfolgenwerte können Escape-Zeichen im JAVA-Stil enthalten, z. B. \n, \t, \:. oder \\.
+Zeichenfolgenwerte können Escape-Zeichen im JAVA-Stil enthalten, z. B. `\n`, `\t`, `\:`. oder `\\`.
 
 **Verwandte Themen**
 
