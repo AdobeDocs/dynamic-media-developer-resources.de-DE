@@ -1,20 +1,25 @@
 ---
-description: Anweisungen zum Installieren der Scene7 Viewer-API.
-seo-description: Anweisungen zum Installieren der Scene7 Viewer-API.
+description: Anweisungen zum Installieren der Dynamischen Medien-Viewer-API.
+seo-description: Anweisungen zum Installieren der Dynamischen Medien-Viewer-API.
 seo-title: Mehrere Viewer auf demselben Server installieren
 solution: Experience Manager
 title: Mehrere Viewer auf demselben Server installieren
 topic: Dynamic media
 uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
 
 # Mehrere Viewer auf demselben Server installieren{#installing-multiple-viewers-on-the-same-server}
 
-Anweisungen zum Installieren der Scene7 Viewer-API.
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
+Anweisungen zum Installieren der Dynamischen Medien-Viewer-API.
 
 Installieren und testen Sie Image Serving, bevor Sie die Image Serving-Viewer installieren.
 
@@ -22,7 +27,7 @@ Kopieren Sie die IS Viewer-Dateien auf Ihre Festplatte und stellen Sie die `s7vi
 
 >[!NOTE]
 >
->Für die Image Serving-Viewer gibt es keine Installation eines Upgrades. Adobe empfiehlt, dass Sie alle vorhandenen Scene7-Viewer-Ordner sichern, bevor Sie mit der Installation fortfahren.
+>Für die Image Serving-Viewer gibt es keine Installation eines Upgrades. Adobe empfiehlt, dass Sie alle vorhandenen Ordner mit dynamischen Medien-Viewern sichern, bevor Sie mit der Installation fortfahren.
 
 **So installieren Sie die Viewer auf demselben Server**
 
