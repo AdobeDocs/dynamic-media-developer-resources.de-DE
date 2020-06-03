@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Viewers Reference Guide
+user-guide-title: Referenzhandbuch zu Dynamischen Medien-Viewern
 translation-type: tm+mt
-source-git-commit: 58ac8050c9fc11557b3081eab3e6cacf03813441
+source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+workflow-type: tm+mt
+source-wordcount: '1898'
+ht-degree: 4%
 
 ---
 
@@ -17,9 +20,10 @@ source-git-commit: 58ac8050c9fc11557b3081eab3e6cacf03813441
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Mehrere Viewer auf demselben Server installieren](t-installing-the-viewers.md)
 + Versionshinweise Viewer {#viewers-release-notes}
-   + [Versionshinweise Viewer (5.13.1)](c-release-notes/c-rn-07-08-19.md)
+   + [Versionshinweise Viewer (5.14.1)](c-release-notes/c-rn-06-03-20.md)
    + Archiv {#archive}
       + [Versionshinweise - Archiv](c-release-notes/c-archive/c-archive.md)
+      + [Versionshinweise Viewer (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Versionshinweise Viewer (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Versionshinweise Viewer (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
       + [Scene7 Viewer 5.8.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-17.md)
