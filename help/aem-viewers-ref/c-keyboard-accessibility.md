@@ -1,24 +1,29 @@
 ---
-description: Auf alle Funktionen, die in der Benutzeroberfläche "Einfach zoomen", "E-Katalog", "E-Katalogsuche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, kann über die Tastatur zugegriffen werden.
-seo-description: Auf alle Funktionen, die in der Benutzeroberfläche "Einfach zoomen", "E-Katalog", "E-Katalogsuche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, kann über die Tastatur zugegriffen werden.
+description: Alle Funktionen, die in der Benutzeroberfläche "Einfaches Zoomen", "E-Katalog", "E-Katalog-Suche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Abmessungen", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, sind, sind über die Tastatur verfügbar.
+seo-description: Alle Funktionen, die in der Benutzeroberfläche "Einfaches Zoomen", "E-Katalog", "E-Katalog-Suche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Abmessungen", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, sind, sind über die Tastatur verfügbar.
 seo-title: Barrierefreiheit und Navigation
 solution: Experience Manager
 title: Barrierefreiheit und Navigation
 topic: Dynamic media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 0%
 
 ---
 
 
 # Barrierefreiheit und Navigation{#keyboard-accessibility-and-navigation}
 
-Auf alle Funktionen, die in der Benutzeroberfläche &quot;Einfach zoomen&quot;, &quot;E-Katalog&quot;, &quot;E-Katalogsuche&quot;, &quot;Flyout&quot;, &quot;Inline-Zoom&quot;, &quot;Gemischte Medien&quot;, &quot;Rotationsset&quot;, &quot;Video&quot;, &quot;Zoom&quot;, &quot;Karussell&quot;, &quot;Interaktives Bild&quot;, &quot;Interaktives Video&quot;und &quot;Video360&quot;verfügbar sind, kann über die Tastatur zugegriffen werden.
+Alle Funktionen, die in der Benutzeroberfläche &quot;Einfaches Zoomen&quot;, &quot;E-Katalog&quot;, &quot;E-Katalogsuche&quot;, &quot;Flyout&quot;, &quot;Inline-Zoom&quot;, &quot;Gemischte Medien&quot;, &quot;Rotationsset&quot;, &quot;Video&quot;, &quot;Zoom&quot;, &quot;Karussell&quot;, &quot;Abmessungen&quot;, &quot;Interaktives Bild&quot;, &quot;Interaktives Video&quot;und &quot;Video360&quot;verfügbar sind, sind, sind über die Tastatur verfügbar.
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Barrierefreiheit und Navigation {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Auf alle Funktionen, die in der Benutzeroberfläche &quot;Einfach zoomen&quot;, &quot;E-Katalog&quot;, &quot;E-Katalogsuche&quot;, &quot;Flyout&quot;, &quot;Inline-Zoom&quot;, &quot;Gemischte Medien&quot;, &quot;Rotationsset&quot;, &quot;Video&quot;, &quot;Zoom&quot;, &quot;Karussell&quot;, &quot;Interaktives Bild&quot;, &quot;Interaktives Video&quot;und &quot;Video360&quot;verfügbar sind, kann über die Tastatur zugegriffen werden.
+Alle Funktionen, die in der Benutzeroberfläche &quot;Einfaches Zoomen&quot;, &quot;E-Katalog&quot;, &quot;E-Katalogsuche&quot;, &quot;Flyout&quot;, &quot;Inline-Zoom&quot;, &quot;Gemischte Medien&quot;, &quot;Rotationsset&quot;, &quot;Video&quot;, &quot;Zoom&quot;, &quot;Karussell&quot;, &quot;Abmessungen&quot;, &quot;Interaktives Bild&quot;, &quot;Interaktives Video&quot;und &quot;Video360&quot;verfügbar sind, sind, sind über die Tastatur verfügbar.
 
 Endbenutzer können mithilfe der **[!UICONTROL Tabulatortaste]** und der Tastenkombination **[!UICONTROL Umschalt+Tab]** zwischen den Elementen der Benutzeroberfläche navigieren. Mithilfe der **[!UICONTROL Registerkarte]** wird der Eingabefokus auf das nächste Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Mit **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurückgesetzt. Der Fokusdurchlauf folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich in der Reihenfolge von links nach rechts und von oben nach unten.
 
