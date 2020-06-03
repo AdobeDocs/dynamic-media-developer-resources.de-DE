@@ -7,12 +7,15 @@ title: createFolder
 topic: Scene7 Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 20%
 
 ---
 
 
-# createFolder{#createfolder}
+# [!DNL createFolder]{#createfolder}
 
 Erstellt einen Ordner.
 
