@@ -7,7 +7,10 @@ title: setAssetSetDefinition
 topic: Scene7 Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 6%
 
 ---
 
@@ -61,7 +64,7 @@ Legen Sie `setDefinition` die Ersatzfunktionen inline fest. Diese werden währen
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> Masterdateipfad. </td> 
+   <td colname="col2"> Primär-Dateipfad. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
