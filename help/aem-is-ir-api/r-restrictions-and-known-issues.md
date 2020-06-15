@@ -7,7 +7,10 @@ title: Einschränkungen und bekannte Probleme
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung vo
 
 ## Beschränkungen für Bibliotheken von Drittanbietern {#section-79768b96bf634e44ab672c5b893f343d}
 
-Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild anzuwenden, wenn eines bereits erkannt wurde. Wenn ein Masterbild ausreichend bearbeitet wird, kann die Digimarc-Bibliothek möglicherweise trotzdem erkennen, dass das Wasserzeichen angewendet wurde. Sie kann diese Informationen jedoch möglicherweise nicht lesen. Dies führt zu einem neuen Bild, bei dem die ursprünglichen Digimarc-Informationen, die auf das Originalbild angewendet wurden, nicht abgerufen werden können. Image Serving kann jetzt das im Katalog &quot;Firma&quot;definierte Digimarc-Wasserzeichen anwenden.
+Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild anzuwenden, wenn eines bereits erkannt wurde. Wenn ein Primärbild ausreichend bearbeitet wird, kann die Digimarc-Bibliothek möglicherweise trotzdem erkennen, dass das Wasserzeichen angewendet wurde. Sie kann diese Informationen jedoch möglicherweise nicht lesen. Dies führt zu einem neuen Bild, bei dem die ursprünglichen Digimarc-Informationen, die auf das Originalbild angewendet wurden, nicht abgerufen werden können. Image Serving kann jetzt das im Katalog &quot;Firma&quot;definierte Digimarc-Wasserzeichen anwenden.
 
 ## Einschränkungen für Image Serving und Image Rendering {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
@@ -128,7 +131,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
    *Symptome*
 
-   Gerenderte SVG-Bilder, die Schriftdefinitionen enthalten, verwenden die falsche Schriftart.
+   Wiedergegebene SVG-Bilder, die Schriftdefinitionen enthalten, verwenden die falsche Schriftart.
 
    *Behelfslösung*
 
