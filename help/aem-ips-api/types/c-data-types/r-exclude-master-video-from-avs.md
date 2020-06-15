@@ -1,18 +1,21 @@
 ---
-description: Schließt das Mastervideo aus dem adaptiven Videoset aus.
-seo-description: Schließt das Mastervideo aus dem adaptiven Videoset aus.
+description: Schließt das primäre Video aus dem adaptiven Videoset aus.
+seo-description: Schließt das primäre Video aus dem adaptiven Videoset aus.
 seo-title: ExcludeMasterVideoFromAVS
 title: ExcludeMasterVideoFromAVS
 uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 9%
 
 ---
 
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
-Schließt das Mastervideo aus dem adaptiven Videoset aus.
+Schließt das primäre Video aus dem adaptiven Videoset aus.
 
 Syntax
 
