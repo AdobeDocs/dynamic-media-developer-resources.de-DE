@@ -1,20 +1,23 @@
 ---
-description: Erstellt ein neues Asset, das von einem vorhandenen Masterbild-Asset abgeleitet wurde.
-seo-description: Erstellt ein neues Asset, das von einem vorhandenen Masterbild-Asset abgeleitet wurde.
+description: Erstellt ein neues Asset, das von einem vorhandenen primären Quellbild-Asset abgeleitet ist.
+seo-description: Erstellt ein neues Asset, das von einem vorhandenen primären Quellbild-Asset abgeleitet ist.
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
 topic: Scene7 Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 8%
 
 ---
 
 
 # createDerivedAsset{#createderivedasset}
 
-Erstellt ein neues Asset, das von einem vorhandenen Masterbild-Asset abgeleitet wurde.
+Erstellt ein neues Asset, das von einem vorhandenen primären Quellbild-Asset abgeleitet ist.
 
 Syntax
 
@@ -40,7 +43,7 @@ Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operati
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle für die Firma, die das Asset enthält, von dem Sie das neue Asset ableiten werden. |
-| ` *`ownerHandle`*` | `xsd:string` | Ja | Das Handle zum Master-Bild-Asset, von dem das neue Bild abgeleitet wird. |
+| ` *`ownerHandle`*` | `xsd:string` | Ja | Das Handle zum primären Bild-Asset, von dem das neue Bild abgeleitet wird. |
 | ` *`folderHandle`*` | `xsd:string` | Ja | Das Handle für den Ordner, in dem das neue abgeleitete Asset erstellt wird. |
 | ` *`name`*` | `xsd:string` | Ja | Der Name des abgeleiteten Assets. |
 | ` *`type`*` | `xsd:string` | Ja | Der Asset-Typ des neuen abgeleiteten Assets: `AdjustedView` oder `LayerView`. |
