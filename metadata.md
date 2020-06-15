@@ -10,7 +10,10 @@ tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-vide
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
 index: true
 translation-type: tm+mt
-source-git-commit: 3c3386026eabee4fa9be3294a912d9d255ef622f
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
@@ -27,4 +30,4 @@ Die Datei &quot;metadata.md&quot;enthält Metadaten auf Repo-Ebene, die an die D
 | getting-started-url | Link zur Hilfeseite für den Einstieg |
 | tutorials-url | Link zu Videolehrgängen - entweder Helpx-Tutorials oder KT-Tutorials |
 | mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. default ist 2 |
-| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an |
+| git-repo | Gibt den Speicherort des primären Quell-Repo für die interne Verwendung an |
