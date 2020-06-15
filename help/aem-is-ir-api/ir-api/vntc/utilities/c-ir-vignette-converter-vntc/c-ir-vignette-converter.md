@@ -7,7 +7,10 @@ title: Vignette Converter
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Der Vignette Converter (vntc) ist ein Befehlszeilenprogramm, mit dem mit Image A
 
 [!DNL vntc] befindet sich in [!DNL *[!DNL install_root]*\ImageServing\bin]. Es verfügt über die folgenden Funktionen:
 
-* Konvertiert Master-Vignetten in Vignetten mit einer Auflösung, mit mehreren Auflösungen oder in Pyramidenvignetten (siehe [Vignettenskalierung](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
+* Konvertiert primäre Vignetten in Vignetten mit einer Auflösung, mit mehreren Auflösungen oder in Pyramidenvignetten (siehe [Vignettenskalierung](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
 * Erzeugt Stildateien für Produktionsschränke und Fenster (siehe `-resolution` und `-jpegquality`).
 
 * Kann verschiedene Dateiversionen von Vignetten-, Cabinets- und Fensterumschlagsformaten für die Verwendung mit älteren Versionen des Image Rendering erstellen.
