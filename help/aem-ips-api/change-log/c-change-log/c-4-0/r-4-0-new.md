@@ -7,7 +7,10 @@ title: Neue Hinzufügungen und Änderungen
 topic: Scene7 Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 2%
 
 ---
 
@@ -115,7 +118,7 @@ Viewer-Skins unterstützen zwei Parameter: `skinFg` und `skinBg`. Backend-Code f
 
 Implementierter `getAssociatedAssets` Vorgang.
 
-Der `ReprocessAssets` Auftragstyp wurde hinzugefügt, um die erneute Verarbeitung bereits hochgeladener Masterdateien zu ermöglichen, einschließlich der Wiedergabe von PDFs und der Neuoptimierung von Bildern.
+Der `ReprocessAssets` Auftragstyp wurde hinzugefügt, um die erneute Verarbeitung zuvor hochgeladener Primärquelldateien zu ermöglichen, einschließlich der Wiedergabe von PDFs und der Neuoptimierung von Bildern.
 
 Der `PropertySetType` Feldtyp wurde in `propertyType`. Dies wirkt sich auf den `createPropertySetType` Parameter und die `getPropertySetType/getPropertySetTypes` Antwort aus.
 
@@ -288,7 +291,7 @@ Es wurden zusätzliche Optionen hinzugefügt, um die Verarbeitung von PostScript
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> Farbraum </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Farbraum der Zielgruppe zum Rendern. </p> </td> 
+   <td colname="col4"> <p>Target-Farbraum zum Rendern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>Optional. </p> </td> 
@@ -317,7 +320,7 @@ Es wurden zusätzliche Optionen hinzugefügt, um die Verarbeitung von PostScript
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> Farbraum </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Farbraum der Zielgruppe zum Rendern. </p> </td> 
+   <td colname="col4"> <p>Target-Farbraum zum Rendern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
