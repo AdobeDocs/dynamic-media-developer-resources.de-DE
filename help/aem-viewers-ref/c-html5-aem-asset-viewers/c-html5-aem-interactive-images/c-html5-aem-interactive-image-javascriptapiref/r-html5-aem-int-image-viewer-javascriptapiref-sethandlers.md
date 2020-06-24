@@ -1,20 +1,23 @@
 ---
-description: JavaScript-API-Referenz für Video Image Viewer
-seo-description: JavaScript-API-Referenz für Video Image Viewer
+description: JavaScript-API-Referenz für den interaktiven Bild-Viewer
+seo-description: JavaScript-API-Referenz für den interaktiven Bild-Viewer
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
 topic: Dynamic media
 uuid: 93db9c88-890e-4be8-b82f-d15978a0cfac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 323a4f72b5bb46832a569ffad38104bac7da17df
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
 
 # setHandlers{#sethandlers}
 
-JavaScript-API-Referenz für Video Image Viewer
+JavaScript-API-Referenz für den interaktiven Bild-Viewer
 
 `setHandlers(handlers)`
 
@@ -25,7 +28,7 @@ Gibt 0 oder mehr Callback-Handler an. Durch einen Aufruf dieser Methode werden E
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {Objekt} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen. Der Eigenschaftsname ist der Name des unterstützten Viewer-Ereignisses. Der Eigenschaftswert ist ein JavaScript-Funktionsverweis auf einen entsprechenden Rückruf. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Ereignis-Rückrufe </a> . </p> </td> 
   </tr> 
  </tbody> 
