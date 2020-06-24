@@ -8,7 +8,10 @@ title: Spin
 topic: Dynamic media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2166'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Siehe [Systemanforderungen und -voraussetzungen](../../c-system-requirements-and
 
 ## Demo-URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
 ## Verwenden des Rotationsset-Viewers {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -184,7 +187,7 @@ Der Rotationsset-Viewer wird wie folgt zu einer Webseite hinzugefügt:
 
    Es wird ein CSS-basierter Ansatz empfohlen, der in diesem Beispiel verwendet wird.
 
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
    Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der `s7viewers.SpinViewer` Klasse, geben Sie alle Konfigurationsinformationen an den Konstruktor weiter und rufen Sie `init()` die Methode für eine Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Mindestens dieses Objekt verfügt über ein `containerId` Feld, das den Namen der Viewer-Container-ID und das verschachtelte `params` JSON-Objekt mit vom Viewer unterstützten Konfigurationsparametern enthält. Bei einem `params` Objekt muss mindestens die Image Serving-URL als Eigenschaft und das erste Asset als `serverUrl` `asset` Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und Beginn erstellen.
 
@@ -192,7 +195,7 @@ Der Rotationsset-Viewer wird wie folgt zu einer Webseite hinzugefügt:
 
    Gleichzeitig sollte das Container-Element nicht unbedingt bereits jetzt Teil des Webseitenlayouts sein. Sie kann beispielsweise mit dem ihr zugewiesenen `display:none` Stil ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. Wenn diese Aktion ausgeführt wird, wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die erforderlichen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()` Methode aufruft. Im Beispiel wird davon ausgegangen, dass `spinViewer` es sich um die Viewer-Instanz, `s7viewer` den Namen des Platzhalters, `DIV`die Image Serving-URL und [!DNL http://s7d1.scene7.com/is/image/] [!DNL Scene7SharedAssets/SpinSet_Sample] das Asset handelt.
+   Im Folgenden finden Sie ein Beispiel zum Erstellen einer Viewer-Instanz, bei der die notwendigen Mindestkonfigurationsoptionen an den Konstruktor übergeben und die `init()` Methode aufgerufen werden. Im Beispiel wird davon ausgegangen, dass `spinViewer` es sich um die Viewer-Instanz, `s7viewer` den Namen des Platzhalters, `DIV`die Image Serving-URL und [!DNL http://s7d1.scene7.com/is/image/] [!DNL Scene7SharedAssets/SpinSet_Sample] das Asset handelt.
 
    ```
    <script type="text/javascript"> 
@@ -259,7 +262,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung in fes
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Container-DIV.
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
 Alle oben genannten Schritte sind identisch mit denen der Einbettung in fester Größe. Hinzufügen den Container `DIV` zum bestehenden Inhaber `DIV`. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
@@ -293,7 +296,9 @@ var spinViewer = new s7viewers.SpinViewer({
 
 Die folgende Beispielseite zeigt die aktuelleren Anwendungsfälle für reaktionsfähiges Design-Einbetten mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Einbettung flexibler Größe mit definierter Breite und Höhe**
 
