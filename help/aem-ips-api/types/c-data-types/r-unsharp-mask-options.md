@@ -7,7 +7,10 @@ title: UnsharpMaskOptions
 topic: Scene7 Image Production System API
 uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 10%
 
 ---
 
@@ -92,5 +95,5 @@ Der `unsharpMaskOptions` Typ wird verwendet von:
 
 >[!MORELIKETHIS]
 >
->* [Image Serving API-Referenz: op_usm](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_usm.html)
+>* [Image Serving API-Referenz: op_usm](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
 
