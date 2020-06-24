@@ -1,14 +1,17 @@
 ---
 description: Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht umblättert oder berührt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 keywords: responsive
-seo-description: Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht umblättert oder berührt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
+seo-description: Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht berührt oder den Mauszeiger über die Ansicht bewegt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 seo-title: Inline-Zoom
 solution: Experience Manager
 title: Inline-Zoom
 topic: Dynamic media
 uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Siehe [Systemanforderungen und -voraussetzungen](../../c-system-requirements-and
 
 ## Demo-URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&stagesize=500,400)
+[http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
 
 ## Verwenden des Inline-Zoom-Viewers {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -117,7 +120,7 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Containers `DIV`.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 
@@ -196,7 +199,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Beachten Sie außerdem, dass das Standard-Viewer-CSS eine feste Größe für den Außenbereich bereitstellt.
 
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
    Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der `s7viewers.FlyoutViewer` Klasse, geben Sie alle Konfigurationsinformationen an den Konstruktor weiter und rufen Sie `init()` die Methode für eine Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das `containerId` Feld verfügen, das den Namen der Viewer-Container-ID und das verschachtelte `params` JSON-Objekt mit den vom Viewer unterstützten Konfigurationsparametern enthält. In diesem Fall muss für das `params` Objekt mindestens die Image Serving-URL als `serverUrl` -Eigenschaft, das anfängliche Asset als `asset` -Parameter, der Basispfad zum Laden von CSS als `contentUrl` -Parameter und der Vorgabenname als `config` -Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und Beginn erstellen.
 
@@ -204,7 +207,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mithilfe des ihr zugewiesenen `display:none` Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die erforderlichen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()` Methode aufruft. Im Beispiel wird davon ausgegangen, dass `inlineZoomViewer` es sich um die Viewer-Instanz handelt. der Name `s7viewer` des Platzhalters `DIV`; die `http://s7d1.scene7.com/is/image/` Image Serving-URL; und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die erforderlichen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()` Methode aufruft. Im Beispiel wird davon ausgegangen, dass `inlineZoomViewer` es sich um die Viewer-Instanz handelt. `s7viewer` der Name des Platzhalters `DIV`; `http://s7d1.scene7.com/is/image/` die Image Serving-URL; und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset:
 
    ```
    <script type="text/javascript"> 
@@ -275,7 +278,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Containers `DIV`.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
 Alle oben genannten Schritte sind mit den folgenden drei Ausnahmen identisch:
 
@@ -329,7 +332,9 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 Die folgende Beispielseite zeigt die aktuelleren Einsatzmöglichkeiten von reaktionsfähigem Design-Einbettung mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## Einbettung flexibler Größe mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 
