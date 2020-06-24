@@ -8,7 +8,10 @@ title: Einfaches Zoomen
 topic: Dynamic media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2072'
+ht-degree: 0%
 
 ---
 
@@ -110,7 +113,7 @@ Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach 
 
 Bei der responsiven Design-Einbettung wird davon ausgegangen, dass der Viewer die Größe zur Laufzeit ändern muss, je nach Größenänderung des Containers `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers der Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`und dabei die Höhe unbegrenzt bleibt, wählt der Viewer die Höhe automatisch entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass es an den Seiten aufgefüllt werden muss. Dieser Anwendungsfall ist der häufigste Fall für Webseiten, die reaktionsfähige Webdesign-Layoutrahmen wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers der Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`und dabei die Höhe unbegrenzt bleibt, wählt der Viewer die Höhe automatisch entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass es an den Seiten aufgefüllt werden muss. Dieser Anwendungsfall ist der häufigste Fall für Webseiten mit reaktionsfähigen Webdesign-Layoutrahmen wie Bootstrap, Foundation usw.
 
 Andernfalls füllt der Viewer, wenn die Webseite sowohl die Breite als auch die Höhe des Containers des Viewers festlegt `DIV`, nur diesen Bereich aus und entspricht der Größe des Webseitenlayouts. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung je nach Webbrowser-Fenstergröße angepasst wird.
 
@@ -121,7 +124,7 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Container-DIV.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 
@@ -181,7 +184,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Es wird ein CSS-basierter Ansatz empfohlen, der in diesem Beispiel verwendet wird.
 
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
    Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der `s7viewers.BasicZoomViewer` Klasse, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode für eine Viewer-Instanz auf `init()` . Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld &quot;containerId&quot;verfügen, das den Namen des Viewers `container ID` und des verschachtelten `params` JSON-Objekts mit vom Viewer unterstützten Konfigurationsparametern enthält. In diesem Fall muss für das `params` Objekt mindestens die Image Serving-URL als `serverUrl` -Eigenschaft und das ursprüngliche Asset als `asset` -Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und mit einem Beginn versehen.
 
@@ -189,7 +192,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mithilfe des ihr zugewiesenen `display:none` Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die erforderlichen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()` Methode aufruft. Im Beispiel wird davon ausgegangen, dass `basicZoomViewer` es sich um die Viewer-Instanz handelt. der Name `s7viewer` des Platzhalters `DIV`; ist `http://s7d1.scene7.com/is/image/` die Image Serving-URL und `Scene7SharedAssets/Backpack_B` das Asset:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die erforderlichen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()` Methode aufruft. Im Beispiel wird davon ausgegangen, dass `basicZoomViewer` es sich um die Viewer-Instanz handelt. `s7viewer` der Name des Platzhalters `DIV`; `http://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Scene7SharedAssets/Backpack_B` das Asset:
 
    ```
    <script type="text/javascript"> 
@@ -256,7 +259,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Container-DIV.
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
 Alle oben genannten Schritte sind identisch mit denen der Einbettung in fester Größe. Hinzufügen den Container DIV an das bestehende `"holder"` DIV. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
@@ -290,7 +293,7 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 
 Die folgende Beispielseite zeigt die aktuelleren Einsatzmöglichkeiten von reaktionsfähigem Design-Einbettung mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **Flexible Einbettung mit definierter Breite und Höhe**
 
