@@ -8,7 +8,10 @@ title: E-Katalog-Suche
 topic: Dynamic media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2228'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Siehe [Systemanforderungen und -voraussetzungen](../../c-system-requirements-and
 
 ## Demo-URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## Verwenden des E-Katalog-Viewers {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -193,7 +196,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mithilfe des ihr zugewiesenen `display:none` Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der notwendigen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` Methode. Im Beispiel wird davon ausgegangen, dass `eCatalogSearchViewer` es sich um die Viewer-Instanz handelt. der Name `s7viewer` des Platzhalters `DIV`; ist `http://s7d1.scene7.com/is/image/` die Image Serving-URL und `Viewers/Pluralist` das Asset:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der notwendigen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` Methode. Im Beispiel wird davon ausgegangen, dass `eCatalogSearchViewer` es sich um die Viewer-Instanz handelt. `s7viewer` der Name des Platzhalters `DIV`; `http://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Viewers/Pluralist` das Asset:
 
    ```
    <script type="text/javascript"> 
@@ -297,7 +300,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 Die folgende Beispielseite zeigt die aktuelleren Anwendungsfälle für reaktionsfähiges Design-Einbetten mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **Einbettung flexibler Größe mit definierter Breite und Höhe**
 
