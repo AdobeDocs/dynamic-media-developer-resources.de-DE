@@ -8,7 +8,10 @@ title: Zoom
 topic: Dynamic media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2460'
+ht-degree: 0%
 
 ---
 
@@ -164,7 +167,7 @@ Der relative Pfad sieht wie folgt aus:
 
    In diesem Viewer werden Miniaturansichten angezeigt, wenn Sie mit Sets mit mehreren Elementen arbeiten. Auf Desktop-Systemen werden Miniaturansichten unterhalb der Hauptversion der Ansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Hauptassets in der Laufzeit mithilfe der `setAsset()` API. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich &quot;Miniaturansichten&quot;unten verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die Größe des äußeren Viewers unverändert zu lassen und die Haupthöhe der Ansicht zu erhöhen und den Bereich der Miniaturansichten zu vergrößern. Oder Sie können die Größe der Hauptversion statisch beibehalten und den äußeren Viewer-Bereich reduzieren, damit der Inhalt der Ansicht nach oben verschoben werden kann, und den freien Bildschirmhintergrund aus den Miniaturbildern verwenden.
 
-   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe der CSS-Klasse der `.s7zoomviewer` obersten Ebene in absoluten Einheiten. Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
+   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe der CSS-Klasse der `.s7zoomviewer` obersten Ebene in absoluten Einheiten. Die Größe in CSS kann auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei korrekt festgelegt werden, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Zoom-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
@@ -181,7 +184,7 @@ Der relative Pfad sieht wie folgt aus:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html)
 
-   Um die Hauptdimensionen der Ansicht statisch zu gestalten, definieren Sie die Viewer-Größe in absoluten Maßeinheiten für die innere `Container` SDK-Komponente mithilfe des `.s7zoomviewer` CSS-Selektors oder mithilfe des `.s7container` `stagesize` Modifikators.
+   Um die Hauptabmessungen der Ansicht statisch zu gestalten, definieren Sie die Viewer-Größe in absoluten Maßeinheiten für die innere `Container` SDK-Komponente mithilfe des `.s7zoomviewer` CSS-Selektors oder mithilfe des `.s7container` `stagesize` Modifikators.
 
    Im Folgenden sehen Sie ein Beispiel für die Definition der Viewer-Größe für die innere `Container` SDK-Komponente, sodass der Hauptbereich Ansicht beim Wechseln des Assets seine Größe nicht ändert:
 
@@ -316,7 +319,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 Die folgende Beispielseite zeigt die aktuelleren Einsatzmöglichkeiten von reaktionsfähigem Design-Einbettung mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## Flexible Einbettung mit definierter Breite und Höhe {#section-3674e6c032594441a6576b7fb1de6e64}
 
