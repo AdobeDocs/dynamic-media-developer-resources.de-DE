@@ -7,7 +7,10 @@ title: Interaktives Video
 topic: Dynamic media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2243'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,7 @@ Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach 
 
 Bei der responsiven Design-Einbettung wird davon ausgegangen, dass der Viewer die Größe zur Laufzeit ändern muss, je nach Größenänderung des Containers `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers der Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`und dabei die Höhe unbegrenzt bleibt, wählt der Viewer die Höhe automatisch entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass es an den Seiten aufgefüllt werden muss. Dieser Anwendungsfall ist der häufigste Fall für Webseiten, die reaktionsfähige Webdesign-Layoutrahmen wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers der Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`und dabei die Höhe unbegrenzt bleibt, wählt der Viewer die Höhe automatisch entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass es an den Seiten aufgefüllt werden muss. Dieser Anwendungsfall ist der häufigste Fall für Webseiten mit reaktionsfähigen Webdesign-Layoutrahmen wie Bootstrap, Foundation usw.
 
 Andernfalls füllt der Viewer, wenn die Webseite sowohl die Breite als auch die Höhe des Containers des Viewers festlegt `DIV`, nur diesen Bereich aus und entspricht der Größe des Webseitenlayouts. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung je nach Webbrowser-Fenstergröße angepasst wird.
 
@@ -126,7 +129,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die statische Größe des Viewers festlegen, indem Sie ihn entweder für die CSS-Klasse der `.s7interactivevideoviewer` obersten Ebene in absoluten Einheiten deklarieren oder einen `stagesize` Modifikator verwenden.
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in AEM Assets einem Viewer-Vorgabendatensatz zugewiesen wird - On-Demand oder explizit mit `style` einem Befehl weitergegeben wird.
+   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später einem Viewer-Vorgabendatensatz in AEM Assets zugewiesen wird - On-Demand oder explizit mit `style` einem Befehl weitergegeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des interaktiven Video-Viewers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
@@ -139,7 +142,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den `stagesize` Modifikator im Viewer-Vorgabendatensatz in AEM Assets - On-Demand festlegen. Sie können sie auch explizit mit dem Viewer-Initialisierungscode mit `params` Collection oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, übergeben. Beispiel:
+   Sie können den `stagesize` Modifikator im Viewer-Vorgabendatensatz in AEM Assets einstellen - On-Demand. Sie können sie auch explizit mit dem Viewer-Initialisierungscode mit `params` Collection oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, übergeben. Beispiel:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -147,7 +150,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Es wird ein CSS-basierter Ansatz empfohlen, der in diesem Beispiel verwendet wird.
 
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
    Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der `s7viewers.InteractiveVideoViewer` Klasse, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode für eine Viewer-Instanz auf `init()` . Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über ein `containerId` Feld verfügen, das den Namen der Viewer-Container-ID und das verschachtelte `params` JSON-Objekt mit vom Viewer unterstützten Konfigurationsparametern enthält.
 
@@ -157,7 +160,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mithilfe des ihr zugewiesenen `display:none` Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. Dadurch wird der Ladevorgang des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die erforderlichen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()` Methode aufruft. Das Beispiel geht von Folgendem aus:
+   Im Folgenden finden Sie ein Beispiel zum Erstellen einer Viewer-Instanz, bei der die notwendigen Mindestkonfigurationsoptionen an den Konstruktor übergeben und die `init()` Methode aufgerufen werden. Das Beispiel geht von Folgendem aus:
 
    * Die Viewer-Instanz ist `interactiveVideoViewer`vorhanden.
    * Der Name des Platzhalters `DIV` lautet `s7viewer`.
@@ -240,7 +243,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Container-DIV.
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
 Alle oben genannten Schritte sind identisch mit denen der Einbettung in fester Größe. Hinzufügen den Container DIV an das bestehende `"holder"` DIV. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
@@ -278,7 +281,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 Die folgende Beispielseite zeigt die aktuelleren Einsatzmöglichkeiten von reaktionsfähigem Design-Einbettung mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Responsive Einbettung mit definierter Breite und Höhe**
 
