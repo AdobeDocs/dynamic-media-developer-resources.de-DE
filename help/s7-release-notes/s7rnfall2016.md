@@ -1,20 +1,23 @@
 ---
-description: Die neuesten Versionshinweise für Adobe Scene7 - Version Herbst 2016, Teil der Adobe Experience Manager-Lösung, in der Adobe Marketing Cloud.
-seo-description: Die neuesten Versionshinweise für Adobe Scene7 - Version Herbst 2016, Teil der Adobe Experience Manager-Lösung, in der Adobe Marketing Cloud.
+description: Die neuesten Versionshinweise zu Adobe Scene7 Herbst 2016 als Teil der Adobe Experience Manager-Lösung im Adobe Marketing Cloud.
+seo-description: Die neuesten Versionshinweise zu Adobe Scene7 Herbst 2016 als Teil der Adobe Experience Manager-Lösung im Adobe Marketing Cloud.
 seo-title: Scene7 Version Herbst 2016
 solution: Experience Manager
 title: Scene7 Version Herbst 2016
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2263'
+ht-degree: 0%
 
 ---
 
 
 # Scene7 Version Herbst 2016{#scene-fall-release}
 
-Die neuesten Versionshinweise für Adobe Scene7 - Version Herbst 2016, Teil der Adobe Experience Manager-Lösung, in der Adobe Marketing Cloud.
+Die neuesten Versionshinweise zu Adobe Scene7 Herbst 2016 als Teil der Adobe Experience Manager-Lösung im Adobe Marketing Cloud.
 
 ## Scene7 Version Herbst 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -53,12 +56,12 @@ Die vollständige Dokumentation finden Sie unter [https://docs.adobe.com/content
 * Fehlerbehebung, bei der die Begrüßungs-E-Mail an neue Scene7-Benutzer gesendet wurde, die keine Authentifizierung zur Steuerung bestimmter Einstellungen enthielten.
 * Fehlerkorrektur, bei der eine Liste des FTP-Ordners nicht abgerufen werden konnte, wenn ein beliebiger Ordner Sonderzeichen enthielt.
 * Konfigurieren Sie OKTA-Dienstleister für Scene7-Umgebung.
-* Unterstützung für Marketing Cloud-Organisations-ID für Viewer-Analytics hinzugefügt
+* Unterstützung für Marketing Cloud-Organisations-ID für Viewer Analytics hinzugefügt.
 * Scene7 SAML-Consumer implementiert.
 
 ## Viewer (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Eine vollständige Dokumentation finden Sie im [Scene7 Viewer-Referenzhandbuch](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+Eine vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Fehlerbehebungen für Image Serving 5.5.3**
 
@@ -68,7 +71,7 @@ Eine vollständige Dokumentation finden Sie im [Scene7 Viewer-Referenzhandbuch](
 
 ## Viewer (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Eine vollständige Dokumentation finden Sie im [Scene7 Viewer-Referenzhandbuch](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+Eine vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Fehlerbehebungen für Image Serving 5.5.2**
 
@@ -77,7 +80,7 @@ Eine vollständige Dokumentation finden Sie im [Scene7 Viewer-Referenzhandbuch](
 
 ## Viewer (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Eine vollständige Dokumentation finden Sie im [Scene7 Viewer-Referenzhandbuch](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+Eine vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Neue Funktionen, Verbesserungen und Fehlerkorrekturen für Image Serving 5.5.1**
 
@@ -192,7 +195,7 @@ Eine vollständige Dokumentation finden Sie im [Scene7 Viewer-Referenzhandbuch](
 
    * Beim Standbild kann der Fehler &quot;max. Größe&quot;auftreten. Bei der Firma müssen Sie möglicherweise die Limit-Einstellung für die Veröffentlichung auf dem Image-Server erhöhen.
    * Videountertitel erfordern einen Regelsatz für die Firma, wenn das Hosting der HTML-Seite von einem externen Server (nicht von einem Scene7-Server) bereitgestellt wird. Wenden Sie sich zwecks Hilfe an den Adobe-Support.
-   * Die Analytics-Verfolgung kann aufgrund der Pufferung einen falschen Wiedergabeprozentsatz melden
+   * Analytics-Verfolgung kann aufgrund der Pufferung einen falschen Wiedergabeprozentsatz melden
    * Auf iPad- oder Android-Geräten wird möglicherweise ein schwarzer Rahmen anstelle eines Standbilds angezeigt.
    * Beim Laden des Viewers auf iPad- oder Android-Geräten blinkt möglicherweise ein schwarzer Rahmen auf dem Bildschirm.
    * Auf iPad-Geräten werden schwarze Ränder neben der VideoPlayer-Komponente angezeigt, wenn der Hintergrund auf Weiß/Transparent eingestellt ist.
