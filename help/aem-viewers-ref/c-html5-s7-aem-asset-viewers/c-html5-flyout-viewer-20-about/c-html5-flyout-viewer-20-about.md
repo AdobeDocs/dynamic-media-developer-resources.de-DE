@@ -8,7 +8,10 @@ title: Flyout
 topic: Dynamic media
 uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2130'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +96,7 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Containers `DIV`.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 
@@ -180,7 +183,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mithilfe des ihr zugewiesenen `display:none` Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die erforderlichen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()` Methode aufruft. Im Beispiel wird davon ausgegangen, dass `flyoutViewer` es sich um die Viewer-Instanz handelt. der Name `s7viewer` des Platzhalters `DIV`; die `http://s7d1.scene7.com/is/image/` Image Serving-URL; und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset:
+   Im Folgenden finden Sie ein Beispiel zum Erstellen einer Viewer-Instanz, bei der die notwendigen Mindestkonfigurationsoptionen an den Konstruktor übergeben und die `init()` Methode aufgerufen werden. Im Beispiel wird davon ausgegangen, dass `flyoutViewer` es sich um die Viewer-Instanz handelt. `s7viewer` der Name des Platzhalters `DIV`; `http://s7d1.scene7.com/is/image/` die Image Serving-URL; und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset:
 
    ```
    <script type="text/javascript"> 
@@ -248,7 +251,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Containers `DIV`.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
 Alle oben genannten Schritte sind mit den folgenden drei Ausnahmen identisch:
 
@@ -300,7 +303,9 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 Die folgende Beispielseite zeigt die aktuelleren Einsatzmöglichkeiten von reaktionsfähigem Design-Einbettung mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## Einbettung flexibler Größe mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 
