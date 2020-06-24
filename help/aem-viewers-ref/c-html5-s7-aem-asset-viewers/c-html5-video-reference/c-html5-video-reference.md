@@ -8,7 +8,10 @@ title: Video
 topic: Dynamic media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2402'
+ht-degree: 0%
 
 ---
 
@@ -97,7 +100,7 @@ Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach 
 
 Bei der responsiven Design-Einbettung wird davon ausgegangen, dass die Größe des Viewers in der Laufzeit je nach Größenänderung des Containers möglicherweise angepasst werden muss `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen des Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers der Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`und dabei die Höhe unbegrenzt bleibt, wählt der Viewer die Höhe automatisch entsprechend dem Seitenverhältnis des verwendeten Assets aus. Auf diese Weise wird sichergestellt, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten aufgefüllt werden müssen. Dieser Anwendungsfall ist der häufigste Fall für Webseiten, die ein reaktionsfähiges Layout-Framework wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers der Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`und dabei die Höhe unbegrenzt bleibt, wählt der Viewer die Höhe automatisch entsprechend dem Seitenverhältnis des verwendeten Assets aus. Auf diese Weise wird sichergestellt, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten aufgefüllt werden müssen. Dieser Anwendungsfall ist der häufigste Fall für Webseiten, die ein Framework für reaktionsfähiges Layout verwenden, wie Bootstrap, Foundation usw.
 
 Andernfalls füllt der Viewer, wenn die Webseite sowohl die Breite als auch die Höhe des Containers des Viewers festlegt `DIV`, nur diesen Bereich und folgt der vom Webseitenlayout bereitgestellten Größe. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung der Größe des Webbrowser-Fensters entspricht.
 
@@ -108,7 +111,7 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Containers `DIV`.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 
@@ -170,7 +173,7 @@ Relativer Pfad sieht wie folgt aus:
 
    Es wird ein CSS-basierter Ansatz empfohlen, der in diesem Beispiel verwendet wird.
 
-1. Erstellen und Initialisieren des Viewers.
+1. Erstellen und Initialisieren des Viewers
 
    Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der `s7viewers.VideoViewer` Klasse, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode für eine Viewer-Instanz auf `init()` . Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über ein `containerId` Feld verfügen, das den Namen der Viewer-Container-ID und das verschachtelte `params` JSON-Objekt mit vom Viewer unterstützten Konfigurationsparametern enthält. In diesem Fall muss für das `params` Objekt mindestens die Image Serving-URL als `serverUrl` -Eigenschaft übergeben, die Video-Server-URL als `videoserverurl` -Eigenschaft und das ursprüngliche Asset als `asset` -Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und mit einem Beginn versehen.
 
@@ -247,7 +250,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ist der Einbettung in fester 
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Container-DIV.
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
 Alle oben genannten Schritte sind identisch mit denen der Einbettung in fester Größe. Hinzufügen Container `DIV` zum bestehenden Inhaber `DIV`. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
@@ -282,7 +285,9 @@ var videoViewer = new s7viewers.VideoViewer({
 
 Die folgende Beispielseite zeigt eine aktuellere Verwendung von reaktionsfähigem Design-Einbettungen mit uneingeschränkter Höhe:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Responsive Design-Einbettung mit definierter Breite und Höhe**
 
