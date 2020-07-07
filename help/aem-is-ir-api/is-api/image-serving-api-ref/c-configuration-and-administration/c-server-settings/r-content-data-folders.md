@@ -7,7 +7,10 @@ title: Inhaltsdatenordner
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ Der Speicherort der Quelldaten für statischen Inhalt, die über den [!DNL /is/s
 
 Mehrere Werte können durch Semikolons getrennt angegeben werden, um statische Inhalte über mehrere Dateisysteme zu verteilen. In der Regel werden dieselben Werte wie `IS::RootPath`.
 
-Der Plattformserver versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
+Der Platform-Server versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Standardmäßig ist dieses Feld absichtlich auf einen nicht vorhandenen Speicherort ( [!DNL *[!DNL install_folder]*/static]) eingestellt, wodurch der statische Inhaltsdienst effektiv deaktiviert wird.
 
