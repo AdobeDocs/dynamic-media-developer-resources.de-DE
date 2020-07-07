@@ -7,7 +7,10 @@ title: Allgemein
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ Allgemeine Servereinstellungen
 
 ## TC::PsPort - Port für die Hauptüberwachung {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Gibt den Haupt-Listening-Anschluss für den Plattformserver an. Dieser Anschluss wird auch verwendet, um auf die Dokumentations- und Beispielseiten für Image Serving, Image Rendering und Scene7 Viewer zuzugreifen (falls installiert).
+Gibt den Haupt-Listening-Anschluss für den Platform-Server an. Dieser Anschluss wird auch verwendet, um auf die Dokumentations- und Beispielseiten für Image Serving, Image Rendering und Scene7 Viewer zuzugreifen (falls installiert).
 
 ## IS::CacheServerUrl - Caching-Dienst-Stammordner-URL {#section-bcca227a1f91453b834db4ea050968e2}
 
@@ -36,7 +39,7 @@ Die Zeit, die der Image-Server auf die Bereitstellung der angeforderten Bilddate
 
 Auf &quot;false&quot;setzen, um Anforderungen zu deaktivieren, die keine gültige Katalog-ID im Pfad enthalten. Die Standardgrenze ist `true`. Bei Festlegung auf `false`wird bei Anforderungen ohne Katalog-ID ein Fehler zurückgegeben.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >`req=catalogprops` nicht dieser Einstellung unterliegt.
 
