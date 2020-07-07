@@ -7,9 +7,9 @@ title: Vignette Converter
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Beim Generieren von Produktionsvignetten wird die Pixelbreite der Ausgabevignett
 
 [!DNL vntc] begrenzt sich standardmäßig auf maximal 3 GB Arbeitsspeicher. Wenn Vntc diese Beschränkung erreicht, wird die Verarbeitung beendet und es wird ein Fehler ausgegeben. Diese Beschränkung kann mithilfe von `-maxmem`geändert werden.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Das Vignette-Aktualisierungstool in Image Authoring kann auch verwendet werden, um Vignetten für die Verwendung als Image Rendering vorzubereiten. Das Content Authoring-Tool ist in der Lage, Mögliche Dateien mit Schaltflächenstil für die Verwendung mit dem Image Rendering zu generieren. Verwenden Sie diese Option, [!DNL vntc] wenn die Verarbeitung automatisiert werden soll. Die Werkzeuge im Image Authoring beinhalten eine grafische Benutzeroberfläche, die in der Regel einfacher interaktiv zu verwenden ist.
 
