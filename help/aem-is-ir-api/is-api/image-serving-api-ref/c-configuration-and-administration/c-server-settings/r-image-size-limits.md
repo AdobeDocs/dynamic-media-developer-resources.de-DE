@@ -7,7 +7,10 @@ title: Bildgrößenbegrenzungen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Verwenden Sie diese Servereinstellungen, um Bildgrößenbeschränkungen festzule
 
 ## IS::MaxMessageSize - Maximale Antwortgröße {#section-bd942385d4d144cd904003695d72c85e}
 
-Begrenzt die Größe der Daten, die der Image-Server an den Platform Server senden darf. Dadurch wird die Größe des kodierten/komprimierten Antwortbilds begrenzt, das Image Serving über HTTP (Mbyte) an den Client zurückgeben kann.
+Begrenzt die Datengröße, die der Image-Server an den Platform-Server senden darf. Dadurch wird die Größe des kodierten/komprimierten Antwortbilds begrenzt, das Image Serving über HTTP (Mbyte) an den Client zurückgeben kann.
 
 ## IS::MaxRenderRgnPixels - Maximale Bildgröße {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -32,7 +35,7 @@ Begrenzt die Größe der Bilder, die der Image-Server mit dem `req=saveToFile` B
 
 Die maximale Größe (in Pixel) von Bildern, bei denen es sich nicht um PTIFFs handelt, die der Image-Server öffnen darf. Beim Image Serving wird ein Fehler zurückgegeben, wenn versucht wird, auf ein Bild zuzugreifen, das kein PTIFF-Bild ist und diesen Grenzwert überschreitet.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Wenn Sie diesen Wert zu hoch einstellen, wird der Image-Server möglicherweise nicht mehr über Arbeitsspeicher verfügen und es kann zu Fehlern, einschließlich Abstürzen, kommen.
 
