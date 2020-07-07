@@ -7,7 +7,10 @@ title: Imagemaps
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Quellbilder werden entweder über `catalog::Map` oder mit dem `map=` Befehl an I
 
 Eine Imagemap besteht aus einem oder mehreren HTML-AREA-Elementen, die ordnungsgemäß mit &quot;&lt;&quot;und &quot;>&quot;getrennt sind. Bei Bereitstellung über catalog::Map werden alle Pixelkoordinatenwerte in der Originalbildauflösung und relativ zur oberen linken Ecke des (unveränderten) Quellbilds angenommen. Bei Bereitstellung über einen `map=` Befehl werden die Koordinatenwerte als Ebenenkoordinaten relativ zur oberen linken Ecke der Ebene (nach `rotate=` und `extend=`) angenommen.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >%-Koordinaten sind derzeit nicht zulässig und können falsch verarbeitet werden.
 
