@@ -7,7 +7,10 @@ title: Bei Fehler umleiten
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Wenn diese Option aktiviert ist und während der Verarbeitung der Anforderung ei
 
 Die Umleitung von Fehlern wird aktiviert, indem `PS::errorRedirect.rootUrl` der HTTP-Domänenname und die Anschlussnummer des sekundären Servers festgelegt werden. Darüber hinaus wird die Zeitüberschreitung der Verbindung konfiguriert `PS::errorRedirect.connectTimeout` und die maximale Zeit, die der primäre Server auf eine Antwort vom sekundären Server wartet, bevor ein Fehler an den Client zurückgegeben wird, mit der konfiguriert wurde `PS::errorRedirect.socketTimeout`.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Wenn der sekundäre Server nicht kontaktiert werden kann, wird eine Textfehlermeldung an den Client zurückgegeben, auch wenn ein Standardbild oder ein Fehlerbild konfiguriert ist.
 
