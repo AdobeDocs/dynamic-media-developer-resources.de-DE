@@ -7,7 +7,10 @@ title: UseLastModified
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ Der Server verwendet den neuesten `vignette::TimeStamp` und aktuellen `catalog::
 
 Sollte nur aktiviert sein, wenn ein verteiltes Cache-Netzwerk wie Akamai verwendet wird, das keine Tag-Header unterstützt.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Bei der Verwendung von Last-Modified-Headern in einer Umgebung mit Lastenausgleich, bei der mehrere Image Serving/Rendering-Hosts verwendet werden, ist Vorsicht geboten. Die Zwischenspeicherung im Client kann besiegt werden und die Serverlast wird erhöht, wenn die Server aus irgendeinem Grund unterschiedliche Zeitstempel für dieselben Katalogeinträge haben. Eine solche Situation kann wie folgt eintreten:
 
