@@ -7,7 +7,10 @@ title: Validierung des Antwortcache
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Für typische Anwendungen, bei denen es sich hauptsächlich um in Bildkatalogen 
 
 Cache-Einträge werden ungültig und können erneut generiert werden, wenn sich ein an der Anforderung beteiligter Katalogeintrag so ändert, dass das Antwortbild wahrscheinlich geändert wird. Zum Beispiel der Inhalt von `catalog::Modifier` Änderungen.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Scene7-Pyramide TIFF-(PTIFF-)Bilder behalten das Dateidatum intern im Dateikopf zu Überprüfungszwecken bei. Die Dateiänderungszeit, die vom Dateisystem beibehalten wird, dient zur Überprüfung, ob sich eine Nicht-PTIFF-Datei geändert hat.
 
