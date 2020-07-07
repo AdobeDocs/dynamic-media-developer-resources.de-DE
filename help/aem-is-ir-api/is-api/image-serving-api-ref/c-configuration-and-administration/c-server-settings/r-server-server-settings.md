@@ -7,7 +7,10 @@ title: Server
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +23,23 @@ Verwenden Sie diese Servereinstellungen, um Ihren Server zu konfigurieren.
 
 Sowohl eine 32- als auch eine 64-Bit-Version des Image-Servers sind für Linux verfügbar. Geben Sie ImageServer64 bei Installation auf 64-Bit-Linux-Servern oder ImageServer32 (Standard) bei Installation auf 32-Bit-Servern an.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Die 64-Bit-Version des Image-Servers unterstützt keine FlashPix-Quelldateien.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Der 64-Bit-Modus wird unter Windows nicht unterstützt. Es `ImageServer32` kann nur angegeben werden. Andernfalls wird beim Image Serving kein Beginn ausgeführt.
 
-## SV::PsHeapSize - Plattform-Server-Heap-Größe {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Heap-Größe des Platform-Servers {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Die Java-Heap-Größe für den Plattformserver. Der Standardwert ist &quot; `512m`&quot;(512 MB).
+Die Java-Heap-Größe für den Platform-Server. Der Standardwert ist &quot; `512m`&quot;(512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - Image-Server-Listening-Anschluss {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Gibt den Anschluss an, der für die Kommunikation zwischen dem Plattformserver und dem Image-Server verwendet wird. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Host-System sonst nicht verwendet wird.
+Gibt den Anschluss an, der für die Kommunikation zwischen dem Platform-Server und dem Image-Server verwendet wird. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Host-System sonst nicht verwendet wird.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Damit Image Serving ordnungsgemäß funktioniert, muss für `IS::TcpPort` `PS::isConnection.port`und der gleiche Wert festgelegt werden.
 
