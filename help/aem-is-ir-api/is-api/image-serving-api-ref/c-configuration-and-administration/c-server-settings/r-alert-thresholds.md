@@ -7,7 +7,10 @@ title: Warnschwellenwerte
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Verwenden Sie diese Servereinstellungen, um Warnschwellenwerte zu konfigurieren.
 
 Eine Warnungsmeldung zur Antwortzeit wird ausgegeben, wenn die durchschnittliche Verarbeitungszeit einer Anforderung während des Stichprobenintervalls den hier festgelegten Schwellenwert überschreitet. ausgedrückt in msec; Ganzzahl 0 oder größer. Typische Werte liegen je nach Komplexität der Vorgänge zwischen 100 und 1000 msec.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Anforderungen, die zu einem 4xx- oder 5xx-Antwortstatus führen, werden für diesen Warnhinweis nicht berücksichtigt.
 
@@ -36,7 +39,7 @@ Eine minimale Traffic-Warnung wird gesendet, wenn die durchschnittliche Anzahl d
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Threshold {#section-ce6705045f6842769030ccb1894594cc}
 
-Gibt den minimalen freien Java-Heap-Speicherplatz an. Unmittelbar nach einem Java-Garbage Collection-Zyklus wird eine Warnung mit Priorität gesendet, wenn der freie Heap-Speicher unter diesem Schwellenwert liegt. 50 MB werden für den sicheren Betrieb des Plattformservers empfohlen. Durch die Beibehaltung des freien Heap-Speichers über diesem Wert wird die Häufigkeit von Garbage Collection-Zyklen reduziert, was die Serverleistung insgesamt verbessern kann. Ganzzahlwert in Byte, 0 oder größer.
+Gibt den minimalen freien Java-Heap-Speicherplatz an. Unmittelbar nach einem Java-Garbage Collection-Zyklus wird eine Warnung mit Priorität gesendet, wenn der freie Heap-Speicher unter diesem Schwellenwert liegt. 50 MB werden für den sicheren Betrieb des Platform-Servers empfohlen. Durch die Beibehaltung des freien Heap-Speichers über diesem Wert wird die Häufigkeit von Garbage Collection-Zyklen reduziert, was die Serverleistung insgesamt verbessern kann. Ganzzahlwert in Byte, 0 oder größer.
 
 ## AS::monitorAlertGenerator.maxOverlap - Maximale Anzahl gleichzeitiger Anfragen {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
