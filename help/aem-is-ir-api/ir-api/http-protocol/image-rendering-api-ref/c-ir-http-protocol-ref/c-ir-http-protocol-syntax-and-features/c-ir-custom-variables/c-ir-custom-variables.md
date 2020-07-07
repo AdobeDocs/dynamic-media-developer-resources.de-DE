@@ -7,7 +7,10 @@ title: Benutzerdefinierte Variablen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Der Abschnitt &quot;Abfrage&quot;von Anforderungen und die Zeichenfolgen &quot;v
 
 Variablen werden ähnlich wie andere Serverbefehle definiert, wobei die obige Syntax verwendet wird. Variablen müssen definiert werden, bevor auf sie verwiesen werden kann. Variablen, die in definiert sind, `vignette::Modifier` können in der URL-Anforderung referenziert werden und umgekehrt.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >*[!DNL value]* muss für eine sichere HTTP-Übertragung mit einem Pass URL-kodiert sein. Eine Dublette-Kodierung ist erforderlich, wenn die Übertragung über HTTP erfolgt. *[!DNL value]* Dies ist der Fall, wenn eine verschachtelte ausländische Anforderung ersetzt *[!DNL value]* wird.
 
