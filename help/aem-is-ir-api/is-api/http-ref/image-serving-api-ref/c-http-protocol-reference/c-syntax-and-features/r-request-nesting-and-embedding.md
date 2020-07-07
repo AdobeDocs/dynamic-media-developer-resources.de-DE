@@ -7,7 +7,10 @@ title: Verschachtelung und Einbettung anfordern
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Image Serving unterstützt das unbegrenzte Verschachteln von Image Serving-Anforderungen, das Einbetten von Image Rendering-Anforderungen sowie das Einbetten von Bildern, die von ausländischen Servern abgerufen werden. Diese Mechanismen werden nur von Ebenenbildern und Ebenenmasken unterstützt.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Bestimmte E-Mail-Clients und Proxyserver können die geschweiften Klammern für die Verschachtelungs- und Einbettungssyntax kodieren. Anwendungen, bei denen dies ein Problem ist, sollten Klammern anstelle geschweifter Klammern verwenden.
 
@@ -30,7 +33,7 @@ Beim `is` Token muss die Groß-/Kleinschreibung beachtet werden.
 
 Die verschachtelte Anforderung darf nicht den Serverstammpfad enthalten (in der Regel ` http:// *[!DNL server]*/is/image/'`).
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Die verschachtelten Anforderungstrennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) innerhalb verschachtelter Anforderungen dürfen nicht HTTP-kodiert sein. Verschachtelte Anforderungen müssen genauso wie die äußere (Verschachtelungs-) Anforderung kodiert werden.
 
@@ -62,7 +65,7 @@ Beim `ir` Token muss die Groß-/Kleinschreibung beachtet werden.
 
 *[!DNL renderRequest]* ist die übliche Image Rendering-Anforderung, mit Ausnahme des HTTP-Stammpfads ` http:// *[!DNL server]*/ir/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Die verschachtelten Anforderungstrennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) innerhalb verschachtelter Anforderungen dürfen nicht HTTP-kodiert sein. Eingebettete Anforderungen müssen genauso kodiert sein wie die äußere (Einbettungsanforderung).
 
@@ -87,13 +90,13 @@ Wenn der FXG-Grafik-Renderer (alias [!DNL AGMServer]) mit Image Serving installi
 
 Beim `fxg` Token muss die Groß-/Kleinschreibung beachtet werden.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Das Rendering von FXG-Grafiken ist nur in der von Scene7 gehosteten Umgebung verfügbar und erfordert möglicherweise zusätzliche Lizenzen. Weitere Informationen erhalten Sie vom Scene7-Support.
 
 *[!DNL renderRequest]* ist die übliche FXG-Renderanforderung, mit Ausnahme des HTTP-Stammpfads ` http:// *[!DNL server]*/agm/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Die Trennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) in verschachtelten Anforderungen dürfen nicht HTTP-kodiert sein. Eingebettete Anforderungen müssen genauso kodiert sein wie die äußere (Einbettungsanforderung).
 
@@ -119,7 +122,7 @@ Um eine ausländische URL für einen `src=` oder einen `mask=` Befehl anzugeben,
 
 Wichtig: Die Trennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) in verschachtelten Anforderungen dürfen nicht HTTP-kodiert sein. Eingebettete Anforderungen müssen genauso kodiert sein wie die äußere (Einbettungsanforderung).
 
-Vollständige absolute URLs (sofern festgelegt) und URLs relativ zu `attribute::AllowDirectUrls` `attribute::RootUrl` diesen sind zulässig. Ein Fehler tritt auf, wenn eine absolute URL eingebettet und ein Attribut: ist 0 `AllowDirectUrls` oder wenn eine relative URL angegeben ist und leer `attribute::RootUrl` ist.
+Vollständige absolute URLs (sofern festgelegt) und URLs relativ zu `attribute::AllowDirectUrls` `attribute::RootUrl` diesen sind zulässig. Ein Fehler tritt auf, wenn eine absolute URL eingebettet und ein Attribut: `AllowDirectUrls` ist 0, oder wenn eine relative URL angegeben ist und leer `attribute::RootUrl` ist.
 
 Wenngleich ausländische URLs nicht direkt in der Pfadkomponente der Anforderungs-URL angegeben werden können, ist es möglich, eine Vorverarbeitungsregel einzurichten, um die Konvertierung relativer Pfade in absolute URLs zu ermöglichen (siehe Beispiel unten).
 
@@ -127,7 +130,7 @@ Ausländische Bilder werden vom Server gemäß den in der HTTP-Antwort enthalten
 
 Dieser Mechanismus unterstützt dieselben Bilddateiformate, die vom Dienstprogramm &quot;Bildkonvertierung&quot;(IC) unterstützt werden, mit Ausnahme von Quellbildern mit 16 Bit pro Komponente.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Image Serving führt automatisch das Überprüfungsprogramm aus, wenn ein fremdes Bild zum ersten Mal verwendet wird, um sicherzustellen, dass das Bild gültig ist und während der Übertragung nicht beschädigt wurde. Dies kann beim ersten Zugriff zu einer leichten Verzögerung führen. Für eine optimale Leistung wird empfohlen, die Größe solcher Bilder zu begrenzen und/oder ein Bilddateiformat zu verwenden, das gut komprimiert wird.
 
