@@ -7,7 +7,10 @@ title: Aktualisieren von IS 4.7.4 oder höher
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Verwenden Sie dieses Verfahren, wenn Sie Scene7 Image Serving aktualisieren.
 
 Wenn Sie ein Upgrade von einer älteren Version von Image Serving durchführen, wenden Sie sich bitte an den Support, um den korrekten Prozess zu erhalten.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Der [!DNL webapps] Ordner kann bei der Aktualisierung gelöscht werden. Sichern Sie den [!DNL webapps] Ordner vor der Aktualisierung.
 
@@ -30,7 +33,7 @@ Wenn Sie ein Upgrade von einer älteren Version von Image Serving durchführen, 
    Auf der nächsten Seite werden die vorherigen Konfigurationseinstellungen angezeigt.
 1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Updateinstallation Beginn.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;
+   >[!NOTE]
    >
    >Das Installationsprogramm sichert die alten Serverkonfigurationsdateien im [!DNL BACKUP/] Ordner.
 
