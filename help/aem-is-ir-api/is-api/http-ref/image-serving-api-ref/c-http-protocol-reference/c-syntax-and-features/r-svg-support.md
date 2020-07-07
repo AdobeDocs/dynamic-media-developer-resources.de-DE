@@ -7,7 +7,10 @@ title: SVG-Unterstützung
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +39,11 @@ Bilder können mit dem `<image>` Element in SVG eingefügt werden. Bilder, auf d
 
 Geben Sie entweder eine vollständige Image Serving-Anforderung an, beginnend mit `http://`oder eine relative URL, beginnend mit `/is/image`. Wenn ein vollständiger HTTP-Pfad angegeben ist, wird der Domänenname aus dem Pfad entfernt, um in das relative Format zu konvertieren. Die Verwendung eines vollständigen HTTP-Pfads kann von Vorteil sein, da die Datei mit einem SVG-Renderer eines Drittanbieters in der Vorschau angezeigt werden kann.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Die Unterstützung für das Rendern von Bildern in dieser Version von Image Serving ist eingeschränkt. Verweisende Bilder aus SVG sollten nur in Situationen verwendet werden, in denen herkömmliche Bildservierungs- und Vorlagerungsmechanismen nicht ausreichen, um das gewünschte Ergebnis zu erzielen. Unter keinen Umständen sollte SVG zum Generieren von Mehrbild-Composites verwendet werden.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Die Größe von in SVG eingebetteten Bildern wird derzeit nicht automatisch angepasst. Stellen Sie sicher, dass alle href die erforderlichen Image Serving-Befehle enthalten, um die gewünschte Bildgröße (z. `wid=`). Wenn die Bildgröße nicht explizit festgelegt ist, wird `attribute::DefaultPix` sie angewendet.
 
