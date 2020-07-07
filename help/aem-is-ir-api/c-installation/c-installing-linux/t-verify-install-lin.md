@@ -7,7 +7,10 @@ title: Installation überprüfen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Der Image-Server wird als Linux-Daemon installiert.
 
    `> /sbin/service ImageServing status`
 
-   >[!NOTE] {class=&quot;- topic/note &quot;
+   >[!NOTE]
    >
    >Sie müssen über Root-Berechtigungen zum Ausführen dieser Skripten verfügen.
 
@@ -34,6 +37,6 @@ Der Image-Server wird als Linux-Daemon installiert.
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit &quot; `imageServer.`&quot; beginnen, was bedeutet, dass der Plattformserver erfolgreich mit dem Image-Server kommunizieren konnte.
+Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit &quot; `imageServer.`&quot; beginnen, was bedeutet, dass der Platform-Server erfolgreich mit dem Image-Server kommunizieren konnte.
 >Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentation- und Demo-Pakete durchgeführt werden, sofern sie installiert sind.
 
