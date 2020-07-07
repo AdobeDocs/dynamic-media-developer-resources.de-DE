@@ -7,7 +7,10 @@ title: Systemanforderungen und -voraussetzungen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Bevor Sie Scene7 Image Serving verwenden, stellen Sie sicher, dass Ihr System di
 
 Ihr Server sollte die folgenden Hardwareanforderungen erfüllen.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
->Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden in der Regel als NUMA-Plattformen (Nicht-Uniform Memory Architecture) konfiguriert. Das bedeutet, dass der Kernel beim Booten mehrere Speicherknoten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Mehrfach-Node-Konstrukt kann zu einer Speicherbelegung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft werden. Wenn die Speicherbelegung eintritt, kann der Kernel selbst dann Prozesse abbrechen (z. B. Image Server oder Platform Server), wenn verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe Systems, dass Sie NUMA deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die Option &quot; `numa=off` Beginn&quot;, um zu vermeiden, dass der Kernel diese Vorgänge stoppt.
+>Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden in der Regel als NUMA-Plattformen (Nicht-Uniform Memory Architecture) konfiguriert. Das bedeutet, dass der Kernel beim Booten mehrere Speicherknoten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Mehrfach-Node-Konstrukt kann zu einer Speicherbelegung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft werden. Wenn die Speicherbelegung eintritt, kann der Kernel selbst dann Prozesse abbrechen (z. B. Image-Server oder Platform-Server), wenn verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe Systems, dass Sie NUMA deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die Option &quot; `numa=off` Beginn&quot;, um zu vermeiden, dass der Kernel diese Vorgänge stoppt.
 
 **Windows**
 
