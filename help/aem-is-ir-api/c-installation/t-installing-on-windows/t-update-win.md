@@ -1,13 +1,13 @@
 ---
-description: Verwenden Sie dieses Verfahren, wenn Sie Scene7 Image Serving aktualisieren.
-seo-description: Verwenden Sie dieses Verfahren, wenn Sie Scene7 Image Serving aktualisieren.
+description: Verwenden Sie dieses Verfahren, wenn Sie das Scene7 Image Serving aktualisieren.
+seo-description: Verwenden Sie dieses Verfahren, wenn Sie das Scene7 Image Serving aktualisieren.
 seo-title: Aktualisieren von IS 4.7.4 oder höher
 solution: Experience Manager
 title: Aktualisieren von IS 4.7.4 oder höher
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Aktualisieren von IS 4.7.4 oder höher{#updating-from-is-or-later}
 
-Verwenden Sie dieses Verfahren, wenn Sie Scene7 Image Serving aktualisieren.
+Verwenden Sie dieses Verfahren, wenn Sie das Scene7 Image Serving aktualisieren.
 
 Wenn Sie ein Upgrade von einer älteren Version von Image Serving durchführen, wenden Sie sich bitte an den Support, um den korrekten Prozess zu erhalten.
 
@@ -40,7 +40,7 @@ Wenn Sie ein Upgrade von einer älteren Version von Image Serving durchführen, 
 1. Klicken Sie nach Abschluss der Installation auf &quot;Fertig stellen&quot;, um den Installationsassistenten zu beenden.
 
    In einigen Fällen kann der Installationsassistent den Neustart des Systems anfordern.
->Während einer Aktualisierung wird die [!DNL ImageServing/conf/server.xml] Datei auf die neuesten Einstellungen aktualisiert. Wenn Sie Werte geändert oder hinzugefügt haben, sollten Sie Ihre vorhandenen speichern [!DNL server.xml] und Ihre Änderungen nach der Aktualisierung erneut implementieren.
->
->Nach einer Updateinstallation sollten Sie den HTTP-Antwort-Cache erwärmen, bevor Sie den Server aktivieren. Weitere Informationen finden Sie in der Beschreibung des `playlog` Dienstprogramms.
 
+Während einer Aktualisierung wird die [!DNL ImageServing/conf/server.xml] Datei auf die neuesten Einstellungen aktualisiert. Wenn Sie Werte geändert oder hinzugefügt haben, sollten Sie Ihre vorhandenen speichern [!DNL server.xml] und Ihre Änderungen nach der Aktualisierung erneut implementieren.
+
+Nach einer Updateinstallation sollten Sie den HTTP-Antwort-Cache erwärmen, bevor Sie den Server aktivieren. Weitere Informationen finden Sie in der Beschreibung des `playlog` Dienstprogramms.
