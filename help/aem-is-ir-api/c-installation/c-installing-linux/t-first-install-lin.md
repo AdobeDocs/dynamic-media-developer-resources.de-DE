@@ -7,7 +7,10 @@ title: Erstmalige Installation
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -61,13 +64,14 @@ Dieses Verfahren zeigt, wie Image Serving unter Linux zum ersten Mal installiert
 
    Vergewissern Sie sich, dass alle angegebenen Anschlussnummern eindeutig sind und auf diesem Host nicht anders verwendet werden.
 
-   **Wichtig: **Wenn ein anderes Konto als Root angegeben ist, müssen Sie sicherstellen, dass die Zugriffsberechtigungen für alle Dateien und Ordner, die der Image-Server lesen und/oder schreiben muss, korrekt eingerichtet sind, wenn diese Ordner in den Konfigurationsdateien neu konfiguriert wurden.
->Image Serving ist jetzt auf installiert [!DNL /usr/local/Scene7/ImageServing]. Bestimmte Bildwiedergabeinhalte werden installiert [!DNL /usr/local/Scene7/ImageRendering].
->
->Gegen Ende der Installation versucht der Installationsassistent, Image Server Beginn. Wenn kein gültiger Lizenzschlüssel gefunden wird, kann der Image-Server keinen Beginn ausführen. Wenn eine gültige Lizenz vorhanden ist und Image Server immer noch nicht gestartet wird, lesen Sie die Protokolldateien.
->[!NOTE]
-Wenn die Lizenz nach der Installation von Image Serving installiert wurde, muss der Image-Server vor der Verwendung manuell gestartet werden.
->
->
->
+   >[!IMPORTANT]
+   >
+   >Wenn ein anderes Konto als Root angegeben ist, müssen Sie sicherstellen, dass die Zugriffsberechtigungen für alle Dateien und Ordner, die der Image-Server lesen und/oder schreiben muss, korrekt eingerichtet sind, wenn diese Ordner in den Konfigurationsdateien neu konfiguriert werden.
+   >
+   >Image Serving ist jetzt auf installiert [!DNL /usr/local/Scene7/ImageServing]. Bestimmte Bildwiedergabeinhalte werden installiert [!DNL /usr/local/Scene7/ImageRendering].
+   >
+   >Gegen Ende der Installation versucht der Installationsassistent, Image Server Beginn. Wenn kein gültiger Lizenzschlüssel gefunden wird, kann der Image-Server keinen Beginn ausführen. Wenn eine gültige Lizenz vorhanden ist und Image Server immer noch nicht gestartet wird, lesen Sie die Protokolldateien.
 
+>[!NOTE]
+>
+>Wenn die Lizenz nach der Installation von Image Serving installiert wurde, muss der Image-Server vor der Verwendung manuell gestartet werden.
