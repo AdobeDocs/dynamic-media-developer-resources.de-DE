@@ -7,14 +7,17 @@ title: InfoPanelPopup.template
 topic: Dynamic media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 4%
 
 ---
 
 
 # InfoPanelPopup.template{#infopanelpopup-template}
 
-[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]template= *`Vorlage`*`]
+`[InfoPanelPopup.|<containerId>_infoPanelPopup.]template= *`Vorlage`*`
 
 <table id="table_A6B1B446A7AE4A4A8B552C07EC88E518"> 
  <tbody> 
@@ -27,8 +30,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
       ]&gt;</code> </p> <p>Die eigentliche Syntax für die Inhaltsvorlage lautet wie folgt: </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
-      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
       &lt;/info&gt;</code> </p> <p>Das heißt, die Vorlage muss mit dem <span class="codeph"> &lt;info&gt;</span> -Element Beginn werden, das optionale <span class="codeph"> &lt;var&gt;</span> -Elemente enthalten kann. Der Vorlageninhalt selbst, <span class="codeph"> TEMPLATE_CONTENT</span> , ist HTML-Text. Darüber hinaus kann die Inhaltsvorlage Variablennamen enthalten, die in <span class="codeph"> $</span> -Zeichen eingeschlossen sind. Diese Zeichen werden durch die Variablenwerte ersetzt, die der Infoserver zurückgibt, oder durch Standardwerte. </p> <p>Standardvariablen, die in der Vorlage definiert werden, können entweder global (wenn das Rollover-Attribut nicht festgelegt ist) oder spezifisch für einen bestimmten Rollover-Schlüssel sein (wenn das Rollover-Attribut vorhanden ist). </p> <p>Bei der Vorlagenverarbeitung haben Variablen, die spezifisch für die Übertragung von Schlüsseln sind, Vorrang vor globalen Variablen. </p> </td> 
   </tr> 
  </tbody> 
