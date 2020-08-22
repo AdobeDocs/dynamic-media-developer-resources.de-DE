@@ -7,7 +7,10 @@ title: setContainerId
 topic: Dynamic media
 uuid: 19149e38-b9d2-4ecd-a555-92e2960f7ee3
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
@@ -18,14 +21,14 @@ JavaScript-API-Referenz für den E-Katalog-Viewer.
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-Legt die ID des [!DNL- `DOM` Containers (normalerweise ein [!DNL `DIV`]) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Container-Element zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn er ausgeführt [!DNL `init()`] wird. Es muss vorher aufgerufen werden [!DNL `init()`].
+Legt die ID des `DOM` Containers (normalerweise ein `DIV`) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Container-Element zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn er ausgeführt `init()` wird. Es muss vorher aufgerufen werden `init()`.
 
-Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem [!DNL `config`] JSON-Objekt an den Konstruktor übergeben werden.
+Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem `config` JSON-Objekt an den Konstruktor übergeben werden.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string} </span> ID des Containers. </p> </td> 
   </tr> 
  </tbody> 
