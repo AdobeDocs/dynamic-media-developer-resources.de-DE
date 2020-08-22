@@ -7,7 +7,10 @@ title: Spezielle Textelemente
 topic: Scene7 Image Serving - Image Rendering API
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
@@ -41,12 +44,12 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \{ </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
    <td> <p>Geschweifte Klammer. </p> </td> 
    <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \} </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
    <td> <p>Geschweifte Klammer. </p> </td> 
    <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
