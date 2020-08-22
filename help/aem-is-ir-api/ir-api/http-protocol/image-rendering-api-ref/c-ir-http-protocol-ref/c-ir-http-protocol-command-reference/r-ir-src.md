@@ -7,7 +7,10 @@ title: src
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +36,7 @@ Materialdatei. Gibt Materialdaten an, entweder in Form eines einzelnen Materialk
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}|{'ir{'<span class="varname"> irReq</span>'}|{{'<span class="varname"> ForeignReq</span>'}'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;lbrace;<span class="varname"> 'ForeignReq</span>' amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -91,9 +94,9 @@ Wenn kein Wert angegeben *`catId`* ist, wird der Sitzungskatalog verwendet.
 
 ## Unterstützte Dateiformate {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-Beim Rendern von Bildern werden dieselben Quellbildformate unterstützt wie beim Scene7-Image-Server.
+Das Image Rendering unterstützt dieselben Quellbildformate wie das Scene7 Image Serving.
 
-Anwendungen, bei denen Bilddaten in verschiedenen Auflösungen erforderlich sind, erzielen die besten Ergebnisse, wenn Sie das Scene7 Pyramid TIFF (PTIFF)-Format mit mehreren Auflösungen verwenden. Image Serving enthält das Dienstprogramm Image Converter (IC), mit dem PTIFF-Bilder aus jedem unterstützten Format erstellt werden.
+Anwendungen, bei denen Bilddaten in verschiedenen Auflösungen benötigt werden, funktionieren am besten mit dem Scene7 Pyramid TIFF (PTIFF)-Format mit mehreren Auflösungen. Image Serving enthält das Dienstprogramm Image Converter (IC), mit dem PTIFF-Bilder aus jedem unterstützten Format erstellt werden.
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Dokumentation zu Image Serving in der Beschreibung des IC-Dienstprogramms.
 
