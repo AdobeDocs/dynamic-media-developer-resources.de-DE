@@ -7,7 +7,10 @@ title: PageView.enableHD
 topic: Dynamic media
 uuid: 34c0e59f-4ed0-4b62-b661-aff20ff64ec4
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +38,7 @@ Optional.
 
 ## Standard {#section-50b22de303c1432094530e6583132c02}
 
-[!DNL `limit,1500`
+`limit,1500`
 
 ## Beispiel {#section-09433488774245d985acef6c0341ece0}
 
