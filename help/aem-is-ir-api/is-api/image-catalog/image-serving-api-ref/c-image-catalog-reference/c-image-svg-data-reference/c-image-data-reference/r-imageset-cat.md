@@ -1,36 +1,39 @@
 ---
-description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und von Scene7-Viewern verwendeter Steuerungsattribute.
-seo-description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und von Scene7-Viewern verwendeter Steuerungsattribute.
+description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Scene7-Viewern verwendet werden.
+seo-description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Scene7-Viewern verwendet werden.
 seo-title: Bildsatz
 solution: Experience Manager
 title: Bildsatz
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a34aaef-4053-4474-abb8-794331898d88
 translation-type: tm+mt
-source-git-commit: 06f227705765e4173e1c4b49dd7d8202884f5e07
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 2%
 
 ---
 
 
 # Bildsatz{#imageset}
 
-Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und von Scene7-Viewern verwendeter Steuerungsattribute.
+Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Scene7-Viewern verwendet werden.
 
 Ein Bildsatz besteht aus einer sortierten, kommagetrennten Liste von Elementen, bei der jedes Element aus einem oder mehreren Unterelementen (Bild-IDs, Muster-IDs, Mediendateipfade, Beschriftungen usw.) besteht, die durch Semikolons und/oder Doppelpunkte voneinander getrennt sind.
 
-Die geschachtelten Klammern &#39;{ }&#39; und die Klammern &#39;( )&#39; können verwendet werden, um bestimmte Inhalte (z. B. Farbwerte) abzugrenzen oder verschachtelte Sätze anzugeben. Auf diese Weise verwendete Klammern oder Klammern dürfen nicht verschlüsselt sein und müssen immer als übereinstimmende Paare angezeigt werden. Andernfalls tritt ein Fehler bei der Kataloganalyse auf.
+Geschachtelte Klammern `{ }` und Klammern `( )` können verwendet werden, um bestimmte Inhalte (z. B. Farbwerte) abzugrenzen oder verschachtelte Sätze anzugeben. Auf diese Weise verwendete Klammern oder Klammern dürfen nicht verschlüsselt sein und müssen immer als übereinstimmende Paare angezeigt werden. Andernfalls tritt ein Fehler bei der Kataloganalyse auf.
 
 >[!NOTE]
 >
 >Die folgenden Zeichen werden als Trennzeichen verwendet und müssen HTTP-kodiert sein, wenn sie im Satz als Teil von ID- oder Zeichenfolgenwerten angezeigt werden:
 >
->* ,
->* ;
->* :
->* {
->* }
->* (
->* )
+>* `,`
+>* `;`
+>* `:`
+>* `{`
+>* `}`
+>* `(`
+>* `)`
 
 
 
