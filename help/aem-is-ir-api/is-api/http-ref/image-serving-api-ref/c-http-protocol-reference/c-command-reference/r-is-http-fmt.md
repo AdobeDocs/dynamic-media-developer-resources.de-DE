@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
 translation-type: tm+mt
-source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 5%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
 Antwortbildformat.
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*]]
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg| jpg| pjpeg| png| png8| png-alpha| png8-alpha| tif| tif-alpha| swf| swf-alpha| swf3| swf3-alpha| eps| gif| gif-alpha| m3u8| f4m| web| webp-alpha| jpeg2000| jpeg2000-alpha| jpegxr| jpegxr-alpha
+*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alpha | swf | swf-alpha | swf3 | swf3-alpha | eps | gif | gif-alpha | m3u8 | f4m | web | webp-alpha | jpeg2000 | jpeg2000-alpha | jpegxr | jpegxr-alpha
 
 | *`format`* | Beschreibung |
 |---|---| 
@@ -35,12 +38,12 @@ Antwortbildformat.
 | `eps` | Unkomprimiertes binäres Encapsulated PostScript |
 | `gif` | GIF mit 2 bis 256 Farben |
 | `gif-alpha` | GIF-Format mit 2 bis 255 Farben plus Key-Farbtransparenz |
-| `swf` | Verlustfreies JPEG, das in eine Adobe AS2-SWF-Datei eingebettet ist |
-| `swf-alpha` | Verlustes JPEG und eine deflate komprimierte Maske, die in eine Adobe AS2-SWF-Datei eingebettet ist |
-| `swf3` | Verlustfreies JPEG, das in eine Adobe AS3-SWF-Datei eingebettet ist |
-| `swf3-alpha` | Verlustfreies JPEG und eine deflate-komprimierte Maske, die in eine Adobe AS3-SWF-Datei eingebettet ist. **Hinweis**: Die Formate swf und swf-alpha eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). swf3 und swf3-alpha werden für ActionScript3-Anwendungen (Flash Player 9 und höher) empfohlen |
+| `swf` | Verlustfreies JPEG, das in eine SWF-Datei der Adobe AS2 eingebettet ist |
+| `swf-alpha` | Verlustes JPEG und eine deflate-komprimierte Maske, die in eine Adobe AS2 SWF-Datei eingebettet ist |
+| `swf3` | Verlustfreies JPEG, eingebettet in eine Adobe AS3-SWF-Datei |
+| `swf3-alpha` | Verlustfreies JPEG und eine deflate-komprimierte Maske, die in eine Adobe AS3-SWF-Datei eingebettet ist. **Hinweis**: Die Formate swf und swf-alpha eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). swf3 und swf3-alpha werden für ActionScript3-Anwendungen empfohlen (Flash Player 9 und höher). |
 | `m3u8` | Manifestformat von Apple Streaming Server |
-| `f4m` | Manifestformat von Flash Streaming Server |
+| `f4m` | Manifestformat &quot;Flash Streaming Server&quot; |
 | `webp` | Verlustfreies und verlustfreies WebP |
 | `webp-alpha` | Verlustfreies und verlustfreies WebP mit Alpha-Kanal |
 | `jpeg2000` | Verlustfreies und verlustfreies JPEG 2000 |
@@ -82,8 +85,8 @@ In der folgenden Tabelle werden die gültigen Kombinationen aus *`format`*und *`
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i> Format</i></b> </th> 
-   <th class="entry"> <b> <i> pixelType</i></b> </th> 
+   <th class="entry"> <b> <i> format</i> </b> </th> 
+   <th class="entry"> <b> <i> pixelType</i> </b> </th> 
    <th class="entry"> <b> Antwort-MIME-Typ</b> </th> 
    <th class="entry"> <b>ICC-Profil einbetten</b> </th> 
    <th class="entry"> <b> Optionen</b> </th> 
@@ -116,13 +119,13 @@ In der folgenden Tabelle werden die gültigen Kombinationen aus *`format`*und *`
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span></span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>nur 'tiff'; 'tiff-alpha' unterstützt keine JPEG-Komprimierung. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, es sei denn, die <span class="varname"> Komprimierung </span> ist auf <span class="codeph"> jpeg eingestellt </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>nur 'tiff'; 'tiff-alpha' unterstützt keine JPEG-Komprimierung. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, es sei denn, die <span class="varname"> Komprimierung </span> ist auf <span class="codeph"> jpeg eingestellt </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, grau </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nein </p> <p> <p>Hinweis:  Der Adobe Flash Player ignoriert eingebettete ICC-Profil. </p> </p> </td> 
+   <td colname="col4"> <p>Nein </p> <p> <p>Hinweis:  Der Flash Player Adobe ignoriert eingebettete ICC-Profil. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -130,7 +133,7 @@ In der folgenden Tabelle werden die gültigen Kombinationen aus *`format`*und *`
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span></span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, es sei denn, die <span class="codeph"><span class="varname"> Komprimierung </span> ist auf </span> jpeg eingestellt <span class="codeph"> </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, es sei denn, die <span class="codeph"><span class="varname"> Komprimierung </span> ist auf </span> jpeg eingestellt <span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
