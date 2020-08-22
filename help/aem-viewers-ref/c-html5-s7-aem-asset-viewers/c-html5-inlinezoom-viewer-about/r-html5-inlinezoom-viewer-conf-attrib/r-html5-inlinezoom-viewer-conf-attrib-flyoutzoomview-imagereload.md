@@ -7,7 +7,10 @@ title: FlyoutZoomView.imagereload
 topic: Dynamic media
 uuid: 98a84ba1-4b89-424a-ac2e-4a59af33cec0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Bei einem Wert von <span class="codeph"> 0 </span>werden keine neuen Bilder während der Größenänderung geladen, und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Mit der Einstellung <span class="codeph"> 1 </span> können Sie einen oder mehrere BreitenHaltepunkte für das in die Hauptbild-Ansicht geladene Bild angeben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Haltepunkt, <span class="varname"> Breite </span>[; <span class="varname"> Breite </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Haltepunkt, <span class="varname"> Breite </span>; <span class="varname"> width </span> </span> </p> </td> 
    <td colname="col2"> <p>Breiten-Haltepunkte für das Bild, das in die Haupt-Ansicht geladen wird. </p> <p>Die Komponente verwendet immer die für die anfängliche Belastung am besten geeignete Größe. Nach dem Ändern der Größe wird sichergestellt, dass das Bild in der Haupt-Ansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Haltepunkt entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
   </tr> 
  </tbody> 
