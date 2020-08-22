@@ -7,7 +7,10 @@ title: glossmap
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -20,19 +23,19 @@ Glanz-Map-Bild. Ermöglicht eine Pixel-für-Pixel-Steuerung des Glanzlichts eine
 
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> EmbeddedReq</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}'}|{'{'<span class="varname"> ForeignReq</span>'}' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;' </span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 
   <td class="stentry"> <p>Glänzende Imagemap-Bilddatei (Graustufen). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span> </span> </p></td> 
   <td class="stentry"> <p>Anforderung an den Image-Server. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Foreign Req </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> ForeignReq </span> </span> </p></td> 
   <td class="stentry"> <p>Anforderung an einen ausländischen Server. </p></td> 
  </tr> 
 </table>
