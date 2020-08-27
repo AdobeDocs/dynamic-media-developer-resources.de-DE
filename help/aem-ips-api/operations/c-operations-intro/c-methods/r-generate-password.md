@@ -7,7 +7,10 @@ title: generatePassword
 topic: Scene7 Image Production System API
 uuid: e3367bfc-d437-4a61-83e8-69830154dc61
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 676a020ede1f460aa78e9c34eb3ed37f9e610b17
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 18%
 
 ---
 
@@ -23,6 +26,7 @@ Syntax
 * `IpsUser`
 * `IpsAdmin`
 * `IpsCompanyAdmin`
+* `TrialSiteAdmin`
 * `TrialSiteUser`
 * `ImagePortalAdmin`
 * `ImagePortalUser`
