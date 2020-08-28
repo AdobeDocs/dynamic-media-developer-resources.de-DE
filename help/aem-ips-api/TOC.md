@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: Dynamisches MedienImage Production System - API
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 3%
 
 ---
 
@@ -354,7 +357,6 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TagCondition](types/c-data-types/r-tag-condition.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
-   + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagFieldValues](types/c-data-types/r-tag-field-values.md)
    + [TagFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
    + [TagValueUpdate](types/c-data-types/r-tag-value-update.md)
@@ -422,8 +424,8 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [Numerische Operatoren/Datumsvergleiche](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [PDF-Prozesse](string-constants/c-string-constants/r-pdf-processes.md)
    + [Berechtigungstypen](string-constants/c-string-constants/r-permission-types.md)
-   + [Fotoshop-Ankermodi](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
-   + [Benennungsmodi für Fotoshop-Ebenen](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
+   + [Photoshop-Ankermodi](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
+   + [Photoshop-Ebenenbenennungsmodi](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript-Farbraummodi](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Profil-Klassen](string-constants/c-string-constants/r-profile-classes.md)
    + [Veröffentlichungsstatus](string-constants/c-string-constants/r-publish-state.md)
