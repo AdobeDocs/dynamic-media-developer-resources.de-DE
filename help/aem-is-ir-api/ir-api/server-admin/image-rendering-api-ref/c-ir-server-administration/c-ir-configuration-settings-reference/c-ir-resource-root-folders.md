@@ -7,7 +7,10 @@ title: Ressourcenstammordner (ir.resourceRootPaths)
 topic: Scene7 Image Serving - Image Rendering API
 uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 2bc6fe0369808990642cf7afdccff647c48260d9
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Die Liste von Pfaden, die durch Semikolons getrennt sind, dient als Grundlage für alle Datendateien mit relativen Dateipfaden.
 
-Kann entweder absolute Pfade oder Pfade relativ zu [!DNL *[!DNL install_folder]*] sein. Wenn mehrere Pfade angegeben sind, versucht der Server jeden Stamm in der angegebenen Reihenfolge, bis die Datei gefunden wurde. Die Standardeinstellung ist [!DNL ./ resources], für einen Standard-Stammpfad von [!DNL *[!DNL install_folder]*/resources].
+Kann entweder absolute Pfade oder relativ zu *[!DNL install_folder]* Pfaden sein. Wenn mehrere Pfade angegeben sind, versucht der Server jeden Stamm in der angegebenen Reihenfolge, bis die Datei gefunden wurde. Die Standardeinstellung ist [!DNL ./resources]für einen Standard-Stammpfad von [!DNL install_folder/resources].
