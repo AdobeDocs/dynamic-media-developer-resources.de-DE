@@ -1,15 +1,15 @@
 ---
-description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving berücksichtigt werden sollten.
-seo-description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving berücksichtigt werden sollten.
+description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving beachtet werden sollten.
+seo-description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving beachtet werden sollten.
 seo-title: Einschränkungen und bekannte Probleme
 solution: Experience Manager
 title: Einschränkungen und bekannte Probleme
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Einschränkungen und bekannte Probleme{#restrictions-and-known-issues}
 
-Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving berücksichtigt werden sollten.
+Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving beachtet werden sollten.
 
 ## Dokumentationsfehler {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -37,9 +37,9 @@ Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung vo
 * Wenn die letzte Textzeile nicht passt, wird die gesamte Zeile abgelegt, anstatt als Cut-off angezeigt zu werden.
 * `\slmult` und `\sl` verhalten sich anders als MS Word und `text=`, sie treten einfach für die aktuellen und nachfolgenden Absätze in Kraft.
 
-* `\sb` gilt für den ersten Absatz für MS Word und `text=`nicht für Adobe InDesign und Fotoshop.
+* `\sb` gilt für den ersten Absatz für MS Word und `text=`Adobe InDesign und Photoshop nicht tun dies.
 
-* `\sa` gilt für den letzten Absatz für MS Word und `text=`nicht für Adobe InDesign und Fotoshop.
+* `\sa` gilt für den letzten Absatz für MS Word und `text=`Adobe InDesign und Photoshop tun dies nicht.
 
 ## Abwärtskompatibilität {#section-a76842f751944f4fb664af296d064122}
 
@@ -89,19 +89,19 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
    *Problemumgehung*:
 
-   Erhöhen Sie für das Image Rendering nicht-pyramidierter Vignetten den Eigenschaftswert für IrMaxNonPyrVignetteSize in der Konfigurationsdatei [!DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml].
+   Erhöhen Sie für das Image Rendering nicht-pyramidierter Vignetten den Eigenschaftswert für IrMaxNonPyrVignetteSize in der [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] Konfigurationsdatei.
 
-   Erhöhen Sie für Image Serving non-pyramided TIFFs den Eigenschaftswert `MaxNonDsfSize` in der Konfigurationsdatei [!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml].
+   Erhöhen Sie bei nicht pyramidierten TIFFs für Image Serving den Eigenschaftswert `MaxNonDsfSize` in der [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] Konfigurationsdatei.
 
-* Adobe Fotoshop CS3 speichert keine PSD-Dateien mit Ebenen standardmäßig als Composite-Bild.
+* Adobe Photoshop CS3 speichert keine PSD-Dateien mit Ebenen standardmäßig als Composite-Bild.
 
    *Symptome*:
 
-   Die PSD-Datei mit Ebenen in Adobe Fotoshop CS3 wird als schwarz mit dem Text &quot;Diese Fotoshop-Datei mit Ebenen wurde nicht mit einem Composite-Bild gespeichert&quot; angezeigt. für das Image Serving-Antwortbild oder in IPS.
+   Die PSD-Datei mit Adobe Photoshop CS3-Ebenen wird schwarz mit der Meldung &quot;Diese Photoshop-Datei mit Ebenen wurde nicht mit einem Composite-Bild gespeichert.&quot; für das Image Serving-Antwortbild oder in IPS.
 
    *Behelfslösung*:
 
-   Speichern Sie die Adobe Fotoshop CS3-Datei mit aktivierter Maximierung der Kompatibilität.
+   Speichern Sie die Adobe Photoshop CS3-Datei mit aktivierter Maximierung der Kompatibilität.
 
 * Wenn einem CMYK-/JPEG-Antwortbild ICC-Profil zugewiesen wird, werden in einigen Browsern Farben invertiert.*Problemumgehung*:
 
@@ -119,8 +119,8 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 * PNG-Bilder mit 16 bpc werden für FotoFont-Text nicht unterstützt.
 * Farbkorrekturen für PNG-Profile mit eingebetteten Farbbildern verwenden hartcodierte Optionen. Render Intent ist relativ farbmetrisch und die Blackpoint-Kompensation ist für FotoFont-Text aktiviert.
 * Dateibasierte Suche wird nicht unterstützt, wenn die Sprachübersetzung in der Firma [!DNL ini] aktiviert ist.
-* Image Serving schreibt nicht geschlossene Fotoshop-Pfade nicht richtig.
-* Image Serving unterstützt derzeit nicht die Verarbeitung von TIFF-Dateien, die mit Adobe Media Encoder 4.0.1 oder früher exportiert wurden. Adobe Media Encoder ist in Premiere Pro CS4, After Effects CS4 und Creative Suite 4 Production Premium enthalten.
+* Image Serving schreibt nicht geschlossene Photoshop-Pfade nicht richtig.
+* Image Serving unterstützt derzeit nicht die Verarbeitung von TIFF-Dateien, die mit Adobe Media Encoder 4.0.1 oder früher exportiert wurden. Adobe Media Encoder ist im Lieferumfang von Premiere Pro CS4, After Effects CS4 und Creative Suite 4 Production Premium enthalten.
 * Bei der Verwendung `text=` mit Ebenen mit Selbstgrößenänderung werden keine RTF-Zeichenfolgen unterstützt, die für die Zeilenausrichtung mehr als eine Einstellung verwenden.
 
    *Beispiel*
@@ -135,7 +135,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
    *Behelfslösung*
 
-   Legen Sie die Eigenschaft `svgProvider.fontRoot=` in [!DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf] fest.
+   Legen Sie die Eigenschaft `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] fest.
 
 * Die Option &quot;Beschneiden&quot;wird derzeit verwendet, `bgColor=` `color=` anstatt einen neuen erweiterten Bereich zu füllen.
 
@@ -145,7 +145,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 ## Nur für das Rendering von Bildern geltende Einschränkungen {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Dekore und Wandmaterialien sind nicht abnehmbar.
-* Die Größe der Texturen ist relativ zur Größe der Vignettengröße begrenzt. In seltenen Fällen kann die Standardgrenze von 425 % der Ansicht eine Anwendung beeinträchtigen, die sehr große, nicht wiederholbare Texturen verwendet. Wenn es nicht möglich ist, die Anwendung oder den Inhalt so zu ändern, dass er innerhalb der vordefinierten Einschränkungen funktioniert, kann der Prozentsatz wie folgt erhöht werden. Öffnen Sie mithilfe eines Texteditors [!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml], suchen Sie einen neuen Prozentwert `IrMaxTextureSizeFactor` und geben Sie ihn ein. Die Änderung wird sofort wirksam, ohne den Image-Server neu zu starten.
+* Die Größe der Texturen ist relativ zur Größe der Vignettengröße begrenzt. In seltenen Fällen kann die Standardgrenze von 425 % der Ansicht eine Anwendung beeinträchtigen, die sehr große, nicht wiederholbare Texturen verwendet. Wenn es nicht möglich ist, die Anwendung oder den Inhalt so zu ändern, dass er innerhalb der vordefinierten Einschränkungen funktioniert, kann der Prozentsatz wie folgt erhöht werden. Öffnen Sie in einem Texteditor [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]nach einem neuen Prozentwert `IrMaxTextureSizeFactor` und geben Sie ihn ein. Die Änderung wird sofort wirksam, ohne den Image-Server neu zu starten.
 
 * Die JavaScript-Engines in Netscape- und Opera-Cache-Antwortdaten, selbst wenn der nocache-Header eingestellt ist. Dies beeinträchtigt das ordnungsgemäße Funktionieren von statusbezogenen Anfragen.
 
