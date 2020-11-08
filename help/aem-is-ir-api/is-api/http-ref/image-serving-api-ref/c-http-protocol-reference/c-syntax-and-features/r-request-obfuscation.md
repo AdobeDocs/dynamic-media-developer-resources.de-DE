@@ -7,7 +7,10 @@ title: Verschleierung anfordern
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 Der Inhalt des gesamten Modifikator-Teils der Anforderungszeichenfolge, einschließlich des optionalen Suffix &quot;lock&quot;, kann durch die Anwendung der Standard-Base64-Kodierung verdeckt werden.
 
 Der Server versucht zu dekodieren, wenn `attribute::RequestObfuscation` festgelegt. Wenn die Dekodierung fehlschlägt, wird die Anforderung abgelehnt. Wenn sowohl die Sperrung von Anforderungen als auch die Verschleierung von Anforderungen angewendet werden, muss das Suffix &quot;Sperren&quot;vor der Base64-Kodierung generiert und angehängt werden.
+
+>[!IMPORTANT]
+>
+>Wenn Sie diese Funktion aktivieren, beachten Sie, dass ihre Verwendung bestimmte Einschränkungen aufweist, die Folgendes umfassen:<br>- Die Benutzeroberfläche für dynamische Medien zeigt möglicherweise nicht die richtigen Details für das Feld &quot; **[!UICONTROL Letzte Veröffentlichung]** &quot;an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn die **[!UICONTROL Verschleierung]** von Anfragen und die **[!UICONTROL Anforderungssperrung]** aktiviert sind.
 
 ## Beispiel {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
