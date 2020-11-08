@@ -7,7 +7,10 @@ title: Sperren von Anforderungen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 Um die Möglichkeiten zur Bearbeitung von Anfragen zu reduzieren, wird eine einfache Sperrfunktion bereitgestellt.
 
 Wenn attribute::RequestLock festgelegt ist, muss der Anforderung ein Sperrwert in Form von `&xxxx`xxxx als vierstelliger Hexadezimalwert angehängt werden. Dieser Hexadezimalwert wird mithilfe eines einfachen Hashing-Algorithmus generiert, der auf den *Modifikatorteil* der Anforderung angewendet wird (nach dem &#39;?&#39;) , der den URL-Pfad von den *Modifikatoren* trennt). Dies muss erfolgen, nachdem die Anforderung vollständig HTTP-kodiert wurde, aber bevor sie (optional) verschleiert wird. Nach dem Entfernen der Verschleierung der Anforderung verwendet der Server denselben Hashing-Algorithmus für die Modifiziererzeichenfolge (mit Ausnahme der letzten 5 Zeichen, die den Sperrwert enthalten). Wenn der generierte Schlüssel nicht mit der Sperre übereinstimmt, wird die Anforderung abgelehnt.
+
+>[!IMPORTANT]
+>
+>Wenn Sie diese Funktion aktivieren, beachten Sie, dass ihre Verwendung bestimmte Einschränkungen aufweist, die Folgendes umfassen:<br>- Die Benutzeroberfläche für dynamische Medien zeigt möglicherweise nicht die richtigen Details für das Feld &quot; **[!UICONTROL Letzte Veröffentlichung]** &quot;an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn **[!UICONTROL Anforderungsverschleierung]** und **[!UICONTROL Anforderungssperrung]** aktiviert sind.
 
 C++-Beispielcode zum Generieren des Werts für die Anforderungssperre:
 
