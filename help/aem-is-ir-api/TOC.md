@@ -2,9 +2,13 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Serving and Rendering API
+user-guide-title: API zum Bereitstellen und Rendern von dynamischen Medien
+breadcrumb-title: API zum Bereitstellen und Rendern von dynamischen Medien
 translation-type: tm+mt
-source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 10%
 
 ---
 
@@ -132,7 +136,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
          + [Befehlsmakros](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md)
          + [Bildkataloge](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-catalogs.md)
          + [Objekt-ID-Übersetzung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md)
-         + [lokale Anpassung von Textzeichenfolgen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+         + [Lokale Anpassung von Textzeichenfolgen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
          + [SVG-Unterstützung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-svg-support.md)
          + [Vorverarbeitung anfordern](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md)
          + [Imagemaps](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md)
@@ -217,7 +221,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
          + [op_usm](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md)
          + [op_usmR](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usmr.md)
          + [opac](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md)
-         + [Herkunft](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+         + [herkunft](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
          + [pathAttr](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathattr.md)
          + [pathEmbed](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md)
          + [Perspektive](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md)
@@ -500,7 +504,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
    + Regelsatz {#rule-set-reference}
       + [Regelsatz](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md)
       + [adressfilter](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-addressfilter-rule.md)
-      + [Ausdruck](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-expression-rule.md)
+      + [ausdruck](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-expression-rule.md)
       + [Header](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-header-rule.md)
       + [Regel](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md)
       + [ruleSet](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
@@ -738,7 +742,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
       + Regelsatz {#rule-set-reference}
          + [Regelsatz](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md)
          + [adressfilter](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-addressfilter.md)
-         + [Ausdruck](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md)
+         + [ausdruck](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md)
          + [Regel](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-rule.md)
          + [ruleSet](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-ruleset.md)
          + [Ersatz](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-substitution.md)
