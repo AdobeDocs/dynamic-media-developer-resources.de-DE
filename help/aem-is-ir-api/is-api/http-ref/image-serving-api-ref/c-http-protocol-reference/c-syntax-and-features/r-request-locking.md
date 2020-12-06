@@ -7,9 +7,9 @@ title: Sperren von Anforderungen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Wenn attribute::RequestLock festgelegt ist, muss der Anforderung ein Sperrwert i
 
 >[!IMPORTANT]
 >
->Wenn Sie diese Funktion aktivieren, beachten Sie, dass ihre Verwendung bestimmte Einschränkungen aufweist, die Folgendes umfassen:<br>- Die Benutzeroberfläche für dynamische Medien zeigt möglicherweise nicht die richtigen Details für das Feld &quot; **[!UICONTROL Letzte Veröffentlichung]** &quot;an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn **[!UICONTROL Anforderungsverschleierung]** und **[!UICONTROL Anforderungssperrung]** aktiviert sind.
+>Wenn Sie diese Funktion aktivieren, beachten Sie, dass ihre Verwendung bestimmte Einschränkungen aufweist, die Folgendes umfassen:<br>- Die Benutzeroberfläche für dynamische Medien zeigt möglicherweise nicht die richtigen Details für das Feld &quot; **[!UICONTROL Letzte Veröffentlichung]** &quot;an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn die **[!UICONTROL Verschleierung]** von Anfragen und die **[!UICONTROL Anforderungssperrung]** aktiviert sind.<br>- Derzeit funktionieren einige Viewer für dynamische Medien nicht, wenn die **[!UICONTROL Verschleierung]** der Anforderung und die **[!UICONTROL Sperrung]** der Anforderung aktiviert sind.
 
 C++-Beispielcode zum Generieren des Werts für die Anforderungssperre:
 
