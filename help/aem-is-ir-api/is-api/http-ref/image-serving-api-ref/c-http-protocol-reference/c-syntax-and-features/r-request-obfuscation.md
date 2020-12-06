@@ -7,9 +7,9 @@ title: Verschleierung anfordern
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Der Server versucht zu dekodieren, wenn `attribute::RequestObfuscation` festgele
 
 >[!IMPORTANT]
 >
->Wenn Sie diese Funktion aktivieren, beachten Sie, dass ihre Verwendung bestimmte Einschränkungen aufweist, die Folgendes umfassen:<br>- Die Benutzeroberfläche für dynamische Medien zeigt möglicherweise nicht die richtigen Details für das Feld &quot; **[!UICONTROL Letzte Veröffentlichung]** &quot;an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn die **[!UICONTROL Verschleierung]** von Anfragen und die **[!UICONTROL Anforderungssperrung]** aktiviert sind.
+>Wenn Sie diese Funktion aktivieren, beachten Sie, dass ihre Verwendung bestimmte Einschränkungen aufweist, die Folgendes umfassen:<br>- Die Benutzeroberfläche für dynamische Medien zeigt möglicherweise nicht die richtigen Details für das Feld &quot; **[!UICONTROL Letzte Veröffentlichung]** &quot;an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn die **[!UICONTROL Verschleierung]** von Anfragen und die **[!UICONTROL Anforderungssperrung]** aktiviert sind.<br>- Derzeit funktionieren einige Viewer für dynamische Medien nicht, wenn die **[!UICONTROL Verschleierung]** der Anforderung und die **[!UICONTROL Sperrung]** der Anforderung aktiviert sind.
 
 ## Beispiel {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
