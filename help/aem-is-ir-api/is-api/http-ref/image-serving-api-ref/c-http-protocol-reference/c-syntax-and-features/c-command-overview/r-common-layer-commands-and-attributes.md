@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -46,7 +49,7 @@ Diese Befehle gelten für Bild-, Text- und Vollfarbebenen. Die meisten sind für
   <td class="stentry"> <p>Reduziert die Deckkraft der Ebene. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> Herkunft</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> herkunft</a> </p></td> 
   <td class="stentry"> <p>Legt den Herkunft-Punkt der Ebene fest. </p></td> 
  </tr> 
  <tr class="strow"> 
