@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: ZoomView.Transition
+seo-title: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.Transition
+title: ZoomView.transition
 topic: Dynamic media
 uuid: c7daf4e8-cb37-4f20-aaca-2ccde341d775
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 6%
 
 ---
 
 
-# ZoomView.Transition{#zoomview-transition}
+# ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *`Zeitbeschleunigung`*[, *``*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`Zeitbeschleunigung `*[, *``*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
