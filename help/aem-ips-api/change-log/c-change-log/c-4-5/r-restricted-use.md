@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 76a423e5-ff7d-44a3-aba4-af258ea55256
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -52,46 +55,46 @@ Diese Vorgänge und Typen können mit nachfolgenden Systemaktualisierungen deakt
 
 **Modifizierte Typen**
 
-* Änderung `ActiveJob` zur Einbeziehung eines `createVideoSitemapJob` Typs
+* `ActiveJob` wurde geändert, um einen `createVideoSitemapJob`-Typ einzuschließen
 
-* Änderung `ScheduledJob` zur Einbeziehung eines `createVideoSitemapJob` Typs
+* `ScheduledJob` wurde geändert, um einen `createVideoSitemapJob`-Typ einzuschließen
 
-* Änderung `ImageServingPublishJob` zur Aufnahme eines optionalen `contextHandle`
+* `ImageServingPublishJob` wurde geändert, um ein optionales `contextHandle` einzuschließen
 
-* Änderung `ImageRenderingPublishJob` zur Aufnahme eines optionalen `contextHandle`
+* `ImageRenderingPublishJob` wurde geändert, um ein optionales `contextHandle` einzuschließen
 
-* Änderung `MetadataField` zur Aufnahme eines optionalen `initialTagField`
+* `MetadataField` wurde geändert, um ein optionales `initialTagField` einzuschließen
 
-* In `MetadataCondition` Einschluss- und optionalen `caseSensitive` Parameter geändert
+* Der Parameter `MetadataCondition` wurde zum Einschließen und zum optionalen Parameter `caseSensitive` geändert.
 
-* Änderung `PropertySet` zum Hinzufügen eines optionalen `PermissionArray` als `permissions`
+* `PropertySet` wurde geändert, um ein optionales `PermissionArray` als `permissions` einzuschließen
 
-* Änderung `UploadDirectoryJob` zum Einschließen optionaler `xmpKeywords`Parameter `xmpTemplateId` und `xmpTemplateOverride` Parameter
+* Die Parameter `UploadDirectoryJob` wurden geändert, um optionale Parameter `xmpKeywords`, `xmpTemplateId` und `xmpTemplateOverride` einzuschließen.
 
-* Änderung `VideoPublishJob` zur Aufnahme eines optionalen `contextHandle`
+* `VideoPublishJob` wurde geändert, um ein optionales `contextHandle` einzuschließen
 
 **Geänderte Vorgänge**
 
-* Änderung `createAssetSet` zur Aufnahme eines optionalen `thumbAssetHandle`
+* `createAssetSet` wurde geändert, um ein optionales `thumbAssetHandle` einzuschließen
 
-* Änderung `createImageSet` zur Aufnahme eines optionalen `thumbAssetHandle`
+* `createImageSet` wurde geändert, um ein optionales `thumbAssetHandle` einzuschließen
 
-* Änderung `createMetadataField` zur Aufnahme eines optionalen `initialTagValue` Parameters
+* `createMetadataField` wurde geändert, um einen optionalen Parameter `initialTagValue` einzuschließen
 
-* Änderung `createPropertySet` zum Hinzufügen eines optionalen `PermissionUpdateArray` als `permissionArray`
+* `createPropertySet` wurde geändert, um ein optionales `PermissionUpdateArray` als `permissionArray` einzuschließen
 
-* Änderung `getImageServingPublishSettings` zur Aufnahme eines optionalen `contextHandle` Parameters
+* `getImageServingPublishSettings` wurde geändert, um einen optionalen Parameter `contextHandle` einzuschließen
 
-* Änderung `getImageRenderingPublishSettings` zur Aufnahme eines optionalen `contextHandle` Parameters
+* `getImageRenderingPublishSettings` wurde geändert, um einen optionalen Parameter `contextHandle` einzuschließen
 
-* Änderung `searchAssetsByFullText` zur Einbeziehung einer Reihe optionaler Parameter:
+* `searchAssetsByFullText` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
    * `SearchFilter` as- `filters` Parameter
 
    * `sortBy`
    * `sortDirection`
 
-* Änderung `searchAssetsByMetadata` zur Einbeziehung einer Reihe optionaler Parameter:
+* `searchAssetsByMetadata` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
    * `SearchFilter` as- `filters` Parameter
 
@@ -99,11 +102,11 @@ Diese Vorgänge und Typen können mit nachfolgenden Systemaktualisierungen deakt
    * `sortDirection`
    * `haystackSearch` Sequenz von sieben Parametern
 
-* Änderung `setAssetPublishState` zum Hinzufügen eines optionalen `HandleArray` als `contextHandleArray`
+* `setAssetPublishState` wurde geändert, um ein optionales `HandleArray` als `contextHandleArray` einzuschließen
 
-* Änderung `setImageServingPublishSettings` zur Aufnahme eines optionalen `contextHandle` Parameters
+* `setImageServingPublishSettings` wurde geändert, um einen optionalen Parameter `contextHandle` einzuschließen
 
-* Änderung `setImageRenderingPublishSettings` zur Aufnahme eines optionalen `contextHandle`Parameters
+* `setImageRenderingPublishSettings` wurde geändert, um einen optionalen `contextHandle`Parameter einzuschließen
 
-* Änderung `submitJob` zur Aufnahme eines optionalen `createVideoSitemap` Auftragstyps
+* `submitJob` wurde geändert, um einen optionalen `createVideoSitemap` Auftragstyp einzuschließen
 
