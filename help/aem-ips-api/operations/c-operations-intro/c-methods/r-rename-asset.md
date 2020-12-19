@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +21,7 @@ Benennt ein Asset um.
 
 >[!NOTE]
 >
->Der `renameFiles` Parameter wurde für frühere Versionen nicht mehr unterstützt und aus `renameAsset`entfernt. Der Pfad der virtuellen Datei wird an den Namen des neuen Assets angepasst (unter Beibehaltung der Dateierweiterung), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen Verweise auf diesen Parameter bei der Aktualisierung auf die neue API-Version entfernen.
+>Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus `renameAsset` entfernt. Der Pfad der virtuellen Datei wird an den Namen des neuen Assets angepasst (unter Beibehaltung der Dateierweiterung), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen Verweise auf diesen Parameter bei der Aktualisierung auf die neue API-Version entfernen.
 
 ## Autorisierte Benutzertypen {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -42,11 +45,11 @@ Benennt ein Asset um.
 | ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der das Asset gehört. |
 | ` *`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset, das Sie umbenennen möchten. |
 | ` *`newName`*` | `xsd:string` | Ja | Der neue Name des Assets. |
-| ` *`validateName`*` | `xsd:boolean` | Ja | Wenn der `validateName` Asset-Typ `true` und der Asset-Typ eine eindeutige IPS-ID erfordern, wird der neue Name auf globale Eindeutigkeit geprüft und es wird ein Fehler `renameAsset` ausgegeben, wenn er nicht eindeutig ist. |
+| ` *`validateName`*` | `xsd:boolean` | Ja | Wenn `validateName` `true` ist und für den Asset-Typ eine eindeutige IPS-ID erforderlich ist, wird der neue Name auf globale Eindeutigkeit überprüft und `renameAsset` gibt einen Fehler aus, wenn er nicht eindeutig ist. |
 
 **Output (renameAssetReturn)**
 
-Die IPS-API gibt keine Antwort für diesen Vorgang zurück. Hinweise zu diesem Element finden Sie in der Beschreibung des `<ns1:validateName>` Elements.
+Die IPS-API gibt keine Antwort für diesen Vorgang zurück. Hinweise zu diesem Element finden Sie in der Beschreibung des Elements `<ns1:validateName>`.
 
 ## Beispiele {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
