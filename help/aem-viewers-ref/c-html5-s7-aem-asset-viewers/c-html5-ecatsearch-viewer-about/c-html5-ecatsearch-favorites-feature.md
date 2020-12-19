@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
 
 # Suchfunktion{#search-feature}
 
-Der Viewer unterstützt die Textsuche über dem Kataloginhalt. Damit die Suchfunktion funktioniert, muss beim Hochladen der PDF-Quelldatei in das Scene7 Publishing System die Funktion &quot;Suchbegriffe extrahieren&quot;aktiviert sein.
+Der Viewer unterstützt die Textsuche über dem Kataloginhalt. Damit die Suchfunktion funktioniert, muss die Katalogfunktion &quot;Suchbegriffe extrahieren&quot;aktiviert sein, wenn die PDF-Quelldatei in das Scene7 Publishing System hochgeladen wird.
 
 Die Suchfunktion wird durch Aktivierung der Suchschaltfläche in der Hauptwerkzeugleiste ausgelöst. Diese Aktion öffnet das Suchergebnisbedienfeld mit einem Texteingabefeld. Ein Benutzer kann eine Suche mit Suchbegriffen durchführen, die durch Leerzeichen getrennt sind, oder mit Wortgruppen, die von Dubletten-Anführungszeichen umgeben sind.
 
