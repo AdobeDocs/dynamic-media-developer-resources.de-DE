@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: dd3777e1-4369-4f7e-a055-970b8eb3b018
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Wird auf " <span class="codeph"> Teilen</span> "eingestellt, damit der Viewer Druckbögen mit Dubletten als separate Seite anzeigen kann, wenn sie auf einem Mobilgerät im Hochformat verwendet werden. Auf " <span class="codeph"> solid</span> "eingestellt, um Druckbögen auf der Dublette unabhängig von der Geräteausrichtung immer als Vollbild anzuzeigen. </p> </td> 
+   <td colname="col2"> <p>Auf <span class="codeph"> split</span> setzen, damit der Viewer Dubletten-Seiten-Druckbögen als separate Seite anzeigen kann, wenn sie auf einem Mobilgerät im Hochformat verwendet werden. Auf <span class="codeph"> solid</span> setzen, um Druckbögen mit Dublette immer als Vollbild anzuzeigen, unabhängig von der Geräteausrichtung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
