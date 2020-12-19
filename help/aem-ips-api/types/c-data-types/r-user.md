@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 37e939ae-dd1a-4550-aa93-b7b091ebc339
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +29,7 @@ Syntax
 | ` *`firstName`*` | `xsd:string` | Vorname des Benutzers |
 | ` *`lastName`*` | `xsd:string` | Nachname des Benutzers |
 | ` *`E-Mail`*` | `xsd:string` | E-Mail-Adresse. |
-| ` *`defaultRole`*` | `xsd:string` | Legt die Rolle eines Benutzers in jeder Firma fest, zu der er gehört. Die Benutzerrolle setzt jedoch andere Benutzerrollen `IpsAmin` außer Kraft. |
+| ` *`defaultRole`*` | `xsd:string` | Legt die Rolle eines Benutzers in jeder Firma fest, zu der er gehört. Die Benutzerrolle `IpsAmin` überschreibt jedoch andere Benutzerrollen. |
 | ` *`isValid`*` | `xsd:boolean` | Bestimmt, ob der Benutzer gültig ist. |
 | ` *`passwordExpires`*` | `xsd:dateTime` | Legt das Ablaufdatum des Kennworts fest. |
 
