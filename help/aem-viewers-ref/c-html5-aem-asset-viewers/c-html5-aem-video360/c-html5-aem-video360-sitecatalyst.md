@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 0d4dee7b-3ffb-4bf5-93b1-67972bfc9b2a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 5%
 
 ---
 
 
-# Unterstützung der Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
 
 Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, den Rückruf des `trackEvent` Viewers abzuhören und das `eventInfo` Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf abzurufen und das `eventInfo`-Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -65,7 +68,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>wenn ein Asset mithilfe der <span class="codeph"> setAsset()- </span> API im Viewer getauscht wird. </p> </td> 
+   <td colname="col2"> <p>wenn ein Asset mit der API <span class="codeph"> setAsset() </span> im Viewer getauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -84,7 +87,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
    <td colname="col2"> <p>wenn die Wiedergabe einen der folgenden Meilensteine erreicht: 0 %, 25 %, 50 %, 75 % oder 100 %. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
    <td colname="col2"> <p>jedes Mal, wenn der Benutzer auf ein interaktives Farbfeld klickt. </p> </td> 
   </tr> 
  </tbody> 
