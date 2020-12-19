@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: SpinView.Transition
+seo-title: SpinView.transition
 solution: Experience Manager
-title: SpinView.Transition
+title: SpinView.transition
 topic: Dynamic media
 uuid: d5cc319a-fb0b-41d3-a118-f00376a127e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 6%
 
 ---
 
 
-# SpinView.Transition{#spinview-transition}
+# SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *`Zeitbeschleunigung`*[, *``*]`
+` [SpinView.|<containerId>_spinView.]transition= *`Zeitbeschleunigung `*[, *``*]`
 
 <table id="table_5B8094216AE94DC59671E06DB941A366"> 
  <tbody> 
