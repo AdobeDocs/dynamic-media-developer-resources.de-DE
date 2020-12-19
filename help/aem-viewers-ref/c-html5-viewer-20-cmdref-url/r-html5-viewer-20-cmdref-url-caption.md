@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +28,7 @@ Parameter, die allen Viewern gemein sind.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> -Datei </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Image Serving stellt die WebVTT-Datei bereit. </p> </td> 
   </tr> 
   <tr> 
@@ -50,26 +53,26 @@ Dieser Viewer unterstützt Untertitel über gehostete WebVTT-Dateien. Die mit di
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>test align </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|Beginn|end </span> </p> </td> 
-   <td colname="col4"> <p> Steuert die Ausrichtung des Textes. </p> <p>Der Standardwert ist <span class="codeph"> Mitte </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|Beginn|end  </span> </p> </td> 
+   <td colname="col4"> <p> Steuert die Ausrichtung des Textes. </p> <p>Der Standardwert ist <span class="codeph"> middle </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>Textposition </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Prozentsatz des Einschnitts in die VideoPlayer-Komponente am Anfang des Beschriftungstexts. </p> <p>Default is <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col4"> <p> Prozentsatz des Einschnitts in die VideoPlayer-Komponente am Anfang des Beschriftungstexts. </p> <p>Der Standardwert ist <span class="codeph"> 0% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>Liniengröße </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Prozentsatz der für Bildunterschriften verwendeten Videobreite. </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Prozentsatz der für Bildunterschriften verwendeten Videobreite. </p> <p>Der Standardwert ist <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>Zeilenposition </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Bestimmt die Zeilenposition auf der Seite. </p> <p>Wenn der Text als Ganzzahl ohne Prozentzeichen ausgedrückt wird, ist dies die Anzahl der Zeilen von oben, in denen der Text angezeigt wird. </p> <p>Wenn es als Prozentwert ausgedrückt wird, ist das Prozentzeichen das letzte Zeichen, dann wird der Beschriftungstext in Prozent unter dem Anzeigebereich angezeigt. </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Bestimmt die Zeilenposition auf der Seite. </p> <p>Wenn der Text als Ganzzahl ohne Prozentzeichen ausgedrückt wird, ist dies die Anzahl der Zeilen von oben, in denen der Text angezeigt wird. </p> <p>Wenn es als Prozentwert ausgedrückt wird, ist das Prozentzeichen das letzte Zeichen, dann wird der Beschriftungstext in Prozent unter dem Anzeigebereich angezeigt. </p> <p>Der Standardwert ist <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +82,7 @@ Beachten Sie, dass WebVTT-Funktionen, die in der WebVTT-Datei vorhanden sind, ni
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> -Datei </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Untertitelinhalt an. Die WebVTT-Datei wird von Image Serving bereitgestellt. </p> </td> 
   </tr> 
   <tr> 
