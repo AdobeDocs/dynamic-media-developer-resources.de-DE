@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 3%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# Zoom-Ansicht{#zoom-view}
 
 Die Ansicht besteht hauptsächlich aus dem Zoombild.
 
@@ -35,11 +38,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Haupt-Ansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Der Cursor wird über der Haupt-Ansicht angezeigt. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Beispiel - um die Ansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die `cursortype` Attributauswahl, die auf die `.s7zoomview` Klasse angewendet werden kann, und steuert den Cursortyp je nach Komponentenstatus und Benutzeraktion. The following `cursortype` values are supported:
+Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype`, die auf die Klasse `.s7zoomview` angewendet werden kann, und steuert den Cursortyp basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype`-Werte werden unterstützt:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,7 +71,7 @@ Auf Desktop-Systemen unterstützt die Komponente die `cursortype` Attributauswah
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht gezoombar ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
