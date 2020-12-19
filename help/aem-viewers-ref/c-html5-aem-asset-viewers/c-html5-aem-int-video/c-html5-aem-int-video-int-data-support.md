@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 0%
 
 ---
 
@@ -20,10 +23,10 @@ Das derzeit sichtbare Farbfeld entspricht dem Videozeitbereich, mit dem es verkn
 
 Interaktives Farbfeld kann entweder eine Quick-Ansicht auf der Hosting-Webseite aktivieren, indem ein JavaScript-Rückruf ausgelöst wird, oder es kann den Benutzer zu einer externen Webseite umleiten.
 
-## Informationen zur schnellen Ansicht {#section-7990e44f641042d2a38ba20c9413b3f8}
+## Info zur schnellen Ansicht {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Diese Arten interaktiver Muster sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in AEM Assets - On-Demand erstellt werden. Wenn ein Benutzer ein solches Farbfeld aktiviert, führt der Viewer einen `quickViewActivate` JavaScript-Rückruf aus und übergibt die Musterdaten an dieses. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn er ausgelöst wird, öffnet die Seite ihre eigene Quick Ansicht-Implementierung.
+Diese Arten interaktiver Muster sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in AEM Assets - On-Demand erstellt werden. Wenn ein Benutzer ein solches Farbfeld aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt die Musterdaten an dieses. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn er ausgelöst wird, öffnet die Seite ihre eigene Quick Ansicht-Implementierung.
 
-## Zu einer externen Webseite umleiten {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## Zu einer externen Webseite umleiten{#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-Für den Aktionstyp &quot;Schnellansicht&quot;in AEM Assets erstellte Farbfelder - On-Demand-Konvertierung des Benutzers zu einer externen URL. Je nach den Einstellungen zum Zeitpunkt des Authoring kann die URL entweder in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browserfenster geöffnet werden.
+Farbfelder, die für den Aktionstyp &quot;Quickview&quot;in AEM Assets erstellt wurden - On-Demand leitet den Benutzer zu einer externen URL um. Je nach den Einstellungen zum Zeitpunkt des Authoring kann die URL entweder in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browserfenster geöffnet werden.
