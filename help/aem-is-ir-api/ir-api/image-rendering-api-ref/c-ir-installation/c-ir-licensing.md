@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dbc4eddc-a518-4337-9e09-ba40c02de797
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
 
-# Licensing{#licensing}
+# Lizenzierung{#licensing}
 
 Es ist ein Scene7 Image Rendering-Lizenzschlüssel erforderlich, der auf jedem System installiert sein muss, auf dem Image Rendering installiert ist.
 
