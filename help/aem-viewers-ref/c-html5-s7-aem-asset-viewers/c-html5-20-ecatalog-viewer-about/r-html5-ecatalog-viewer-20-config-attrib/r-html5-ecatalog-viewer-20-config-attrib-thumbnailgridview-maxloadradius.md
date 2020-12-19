@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 13ea3917-346a-47c3-a535-f771910fa1c3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Komponentenvorladeverhalten an. </p> <p>Bei Festlegung auf <span class="codeph"> -1</span> werden die Miniaturansichten gleichzeitig geladen, wenn die Komponente initialisiert wird oder sich das Asset ändert. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> werden nur die sichtbaren Miniaturansichten geladen. </p> <p>Legt <span class="codeph"><span class="varname"> fest, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorgeladen werden sollen</span></span> . </p> </td> 
+   <td colname="col2"> <p>Gibt das Komponentenvorladeverhalten an. </p> <p>Bei Festlegung auf <span class="codeph"> -1</span> werden die Miniaturansichten gleichzeitig geladen, wenn die Komponente initialisiert wird oder sich das Asset ändert. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> werden nur die sichtbaren Miniaturansichten geladen. </p> <p>Legt <span class="codeph"><span class="varname"> preloadnbr</span></span> fest, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorgeladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
