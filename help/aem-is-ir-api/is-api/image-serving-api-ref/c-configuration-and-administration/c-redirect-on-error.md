@@ -32,9 +32,9 @@ Die folgenden Anforderungstypen werden umgeleitet:
 
 Fehler-Umleitung findet in keinem anderen Fall statt.
 
-Wenn diese Option aktiviert ist und während der Verarbeitung der Anforderung ein solcher Fehler auftritt, sendet der primäre Server die Anforderung zur Verarbeitung an den sekundären Server. Die Antwort wird dann direkt an den Kunden weitergeleitet, unabhängig davon, ob sie auf Erfolg oder Misserfolg hinweist. Der primäre Server markiert Protokolleinträge solcher weitergeleiteten Anforderungen mit Cache-Nutzung `REMOTE`. Die Antwortdaten werden vom primären Server nicht lokal zwischengespeichert.
+Wenn diese Option aktiviert ist und während der Verarbeitung der Anforderung ein solcher Fehler auftritt, sendet der primäre Server die Anforderung zur Verarbeitung an den sekundären Server. Die Antwort wird dann direkt an den Kunden weitergeleitet, unabhängig davon, ob sie auf Erfolg oder Misserfolg hinweist. Der primäre Server markiert Protokolleinträge solcher weitergeleiteten Anforderungen mit Cache-Verwendung von `REMOTE`. Die Antwortdaten werden vom primären Server nicht lokal zwischengespeichert.
 
-Die Umleitung von Fehlern wird aktiviert, indem `PS::errorRedirect.rootUrl` der HTTP-Domänenname und die Anschlussnummer des sekundären Servers festgelegt werden. Darüber hinaus wird die Zeitüberschreitung der Verbindung konfiguriert `PS::errorRedirect.connectTimeout` und die maximale Zeit, die der primäre Server auf eine Antwort vom sekundären Server wartet, bevor ein Fehler an den Client zurückgegeben wird, mit der konfiguriert wurde `PS::errorRedirect.socketTimeout`.
+Die Fehlerumleitung wird aktiviert, indem `PS::errorRedirect.rootUrl` auf den HTTP-Domänennamen und die Anschlussnummer des sekundären Servers eingestellt wird. Darüber hinaus wird die Zeitüberschreitung der Verbindung mit `PS::errorRedirect.connectTimeout` konfiguriert und die maximale Zeit, die der primäre Server auf eine Antwort vom sekundären Server wartet, bevor ein Fehler an den Client zurückgegeben wird, mit `PS::errorRedirect.socketTimeout` konfiguriert wird.
 
 >[!NOTE]
 >
