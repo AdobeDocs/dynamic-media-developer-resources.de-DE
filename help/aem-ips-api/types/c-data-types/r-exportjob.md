@@ -42,30 +42,30 @@ ExportJob unterstützt die folgenden Asset-Typen nicht:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> Typen:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>Liste von <span class="codeph"> assetHandle</span> , die exportiert werden müssen. Siehe <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
+   <td colname="col3" valign="top"> <p>Liste von <span class="codeph"> assetHandle</span>, die exportiert werden müssen. Siehe <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Gibt den <span class="codeph"> Exporttyp an.Mögliche Werte</span>: [orig, convert] </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col3"> <p>Gibt den Typ von <span class="codeph"> export.Mögliche Werte</span> an: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
-      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Wenn <span class="codeph"> "fmt=orig</span>"festgelegt ist, werden die Assets als Original exportiert </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">Wenn <span class="codeph"> fmt=convert</span>, werden die Assets in das Format konvertiert, das in den Eingabeparametern <span class="codeph"> is_modifer</span> oder <span class="codeph"> macro</span> angegeben ist. </li> 
+      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Wenn <span class="codeph"> fmt=orig</span>, werden die Assets als Original exportiert </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">Wenn <span class="codeph"> fmt=convert</span>, werden die Assets in das Format konvertiert, das in den Eingabeparametern <span class="codeph"> is_modifer</span> oder <span class="codeph"> macro</span> angegeben ist </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Gibt die URL-Zeichenfolge zum Rendern von <span class="codeph"> ImageServer</span> an, die an die ExportJob- <span class="codeph"> Konvertierungsanforderung</span> angehängt wird. </p> <p>Einzelheiten zum Senden der IS-Modifikatoren finden Sie in der <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS-Dokumentation</a> . </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col3"> <p>Gibt die Zeichenfolge <span class="codeph"> ImageServer</span> für die Render-URL an, die an die Anforderung ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der IS-Modifikatoren finden Sie in der <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html">-IS-Dokumentation</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p></p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>Auswahl der E-Mail-Einstellung. Mögliche Werte: </p> <p> 
      <ul id="ul_0EEDAE11B7CD4C53A6E4B2B8CB2CF730"> 
       <li id="li_F235F93828594ED78C6D464440F953FF"> <span class="codeph"> All</span> </li> 
@@ -77,13 +77,13 @@ ExportJob unterstützt die folgenden Asset-Typen nicht:
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>Gibt die IP-Adresse des Kunden oder Kunden an, der die Exportanforderung initiiert hat. </p> <p> <p>Hinweis:  Dieser Parameter wird derzeit nicht aktiv ausgefüllt und ist ausschließlich für die zukünftige Verwendung reserviert. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Bei ExportJob-Anforderungen, bei denen `fmt=convert` und sowohl `is_modifier` als auch `macro` bereitgestellt werden, respektiert die Zieldatei das von `macro`angegebene Format. Beispiel:
+Bei ExportJob-Anforderungen, bei denen `fmt=convert` und `is_modifier` und `macro` bereitgestellt werden, respektiert die Zieldatei das Format, das `macro` bereitstellt. Beispiel:
 
 ```
 input_file = fileToExport.jpg
