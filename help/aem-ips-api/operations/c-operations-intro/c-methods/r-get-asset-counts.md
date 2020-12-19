@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Ruft die Assets und die Anzahl der Assets ab, die mit einer bestimmten Firma verknüpft sind.
 
-Das `countArray` zurückgegebene Element besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`), von denen jeder über ein eigenes Zählfeld (Datentyp `xsd:int`) verfügt, sodass mehrere Asset-Typen pro Element des Arrays dargestellt werden können.
+Das zurückgegebene `countArray` besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`), von denen jedes über ein eigenes Zählfeld (Datentyp `xsd:int`) verfügt, sodass mehrere Asset-Typen pro Element des Arrays angezeigt werden können.
 Syntax
 
 ## Autorisierte Benutzertypen {#section-6234754722184e828352f10eb18fbce9}
@@ -47,7 +50,7 @@ Syntax
 
 ## Beispiele {#section-6052a503eb3843f6adb99e200fdba280}
 
-Dieses Codebeispiel verwendet das Handle der Firma als Feld in der an den IPS-Webdienstserver `getAssetCountsParam` gesendeten Datei, um die Elementanzahl abzurufen.
+Dieses Codebeispiel verwendet das Handle der Firma als Feld im Feld `getAssetCountsParam`, das an den IPS-Webdienstserver gesendet wird, um die Asset-Zählung abzurufen.
 
 **Anforderung**
 
