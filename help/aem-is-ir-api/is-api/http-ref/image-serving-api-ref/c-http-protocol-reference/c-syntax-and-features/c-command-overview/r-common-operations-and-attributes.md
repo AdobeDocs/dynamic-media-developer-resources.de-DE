@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
 
 
-# Gemeinsame Aktionen{#common-operations}
+# Allgemeine Vorgänge{#common-operations}
 
 Diese Befehle gelten für Bild-, Text- und Vollfarbschichten. Sie eignen sich im Allgemeinen auch für Composite-Bilder und einfache Bildanforderungen ohne Ebenen.
 
