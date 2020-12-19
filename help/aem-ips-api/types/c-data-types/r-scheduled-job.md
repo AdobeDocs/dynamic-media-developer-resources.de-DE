@@ -31,8 +31,8 @@ Syntax
 | ` *`originalName`*` | `xsd:string` | Ursprünglicher Name des geplanten Auftrags. |
 | ` *`type`*` | `xsd:string` | Auftragstyp. |
 | ` *`submitUserEmail`*` | `xsd:string` | Die E-Mail-Adresse des Benutzers, der den Auftrag geplant hat. |
-| ` *`locale`*` | `xsd:string` | Das Gebietsschema, das für Auftragsprotokolldetails und E-Mail-lokale Anpassungen verwendet wird. Gebietsschemata werden angegeben als `<language_code>[- <country_code>]`, wobei der Sprachencode aus Kleinbuchstaben und aus zwei Buchstaben besteht, wie in ISO-639 angegeben, und der optionale Ländercode aus Großbuchstaben und zwei Buchstaben gemäß ISO-3166 besteht. Die Zeichenfolge für Englisch (USA) lautet beispielsweise: `en-US`. |
-| ` *`description`*` | `xsd:string` | Eine Beschreibung des Auftrags, wie ursprünglich unter `submitJob`. |
+| ` *`locale`*` | `xsd:string` | Das Gebietsschema, das für Auftragsprotokolldetails und E-Mail-lokale Anpassungen verwendet wird. Gebietsschemata werden als `<language_code>[- <country_code>]` angegeben, wobei der Sprachencode aus Kleinbuchstaben und aus zwei Buchstaben besteht, wie in ISO-639 angegeben, und der optionale Ländercode aus Großbuchstaben besteht, und aus zwei Buchstaben, wie in ISO-3166 angegeben. Die Zeichenfolge für Englisch (USA) lautet beispielsweise: `en-US`. |
+| ` *`description`*` | `xsd:string` | Eine Beschreibung des Auftrags, wie ursprünglich unter `submitJob` angegeben. |
 | ` *`execSchedule`*` | `xsd:string` | Wenn die Ausführung des Auftrags geplant ist. |
 | ` *`nextFireTime`*` | `xsd:dateTime` | Datum, Uhrzeit und Zeitzone, in der der Auftrag ausgelöst wird. |
 | ` *`timeZone`*` | `xsd:dateTime` | Die Zeitzone des geplanten Auftrags. |
@@ -50,7 +50,7 @@ Syntax
 
 ## Anmerkungen {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Wenn Sie in einen Auftragstypwert eingeben, gibt das System einen Auftrag zurück, der auf diesem Typ basiert. `submitJob` Die folgenden Aufträge können zurückgegeben werden:
+Wenn Sie in `submitJob` einen Auftragstypwert angeben, gibt das System einen Auftrag basierend auf diesem Typ zurück. Die folgenden Aufträge können zurückgegeben werden:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
