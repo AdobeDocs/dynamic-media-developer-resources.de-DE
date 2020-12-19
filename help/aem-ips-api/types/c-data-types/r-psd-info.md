@@ -1,6 +1,6 @@
 ---
-description: Eigenschaften von Fotoshop-Dateien.
-seo-description: Eigenschaften von Fotoshop-Dateien.
+description: Photoshop-Dateieigenschaften.
+seo-description: Photoshop-Dateieigenschaften.
 seo-title: PsdInfo
 solution: Experience Manager
 title: PsdInfo
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 0512f996-ddeb-4c3c-a2e8-bef59ea99f9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 21%
 
 ---
 
 
 # PsdInfo{#psdinfo}
 
-Eigenschaften von Fotoshop-Dateien.
+Photoshop-Dateieigenschaften.
 
 Syntax
 
