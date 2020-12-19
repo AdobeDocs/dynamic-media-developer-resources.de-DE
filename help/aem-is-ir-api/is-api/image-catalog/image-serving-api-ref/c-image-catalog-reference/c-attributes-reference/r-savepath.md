@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02b88e83-7fee-40d4-95ea-daba9a608e8e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -20,11 +23,11 @@ Stammpfad für saveToFile=. Relativer Pfad für den Stammordner, in den mit req=
 
 ## Eigenschaften {#section-343d1371e966491c92854a8df14c3c50}
 
-Textzeichenfolge. Muss leer oder ein gültiger relativer Ordnerpfad sein. Immer mit dem absoluten Root-Pfad kombiniert mit `ImageServer::SaveDirectory`.
+Textzeichenfolge. Muss leer oder ein gültiger relativer Ordnerpfad sein. Immer mit dem absoluten Stammpfad kombiniert, der mit `ImageServer::SaveDirectory` konfiguriert wurde.
 
 ## Standard {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-Vererbt von, `default::SavePath` wenn nicht definiert. Das Speichern in Dateien ist deaktiviert, wenn der aufgelöste Wert leer ist.
+Vererbt von `default::SavePath`, wenn nicht definiert. Das Speichern in Dateien ist deaktiviert, wenn der aufgelöste Wert leer ist.
 
 ## Verwandte Themen {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 
