@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Verschachtelung und Einbettung anfordern{#request-nesting-and-embedding}
+# Verschachtelung und Einbettung von Anforderungen{#request-nesting-and-embedding}
 
 Image Serving unterstützt das unbegrenzte Verschachteln von Image Serving-Anforderungen, das Einbetten von Image Rendering-Anforderungen sowie das Einbetten von Bildern, die von ausländischen Servern abgerufen werden. Diese Mechanismen werden nur von Ebenenbildern und Ebenenmasken unterstützt.
 
@@ -25,17 +25,17 @@ Image Serving unterstützt das unbegrenzte Verschachteln von Image Serving-Anfor
 
 ## Verschachtelte Image Serving-Anforderungen {#section-6954202119e0466f8ff27c79f4f039c8}
 
-Eine gesamte Image Serving-Anforderung kann als Ebenenquelle verwendet werden, indem Sie sie mithilfe der folgenden Syntax im Befehl `src=` (oder `mask=`) angeben:
+Eine gesamte Image Serving-Anforderung kann als Ebenenquelle verwendet werden, indem sie sie mit der folgenden Syntax im Befehl `src=` (oder `mask=`) angibt:
 
 `…&src=is( nestedRequest)&…`
 
-Beim `is` Token muss die Groß-/Kleinschreibung beachtet werden.
+Beim Token `is` wird die Groß-/Kleinschreibung beachtet.
 
-Die verschachtelte Anforderung darf nicht den Serverstammpfad enthalten (in der Regel ` http:// *[!DNL server]*/is/image/'`).
+Die verschachtelte Anforderung darf nicht den Serverstammpfad enthalten (normalerweise ` http:// *[!DNL server]*/is/image/'`).
 
 >[!NOTE]
 >
->Die verschachtelten Anforderungstrennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) innerhalb verschachtelter Anforderungen dürfen nicht HTTP-kodiert sein. Verschachtelte Anforderungen müssen genauso wie die äußere (Verschachtelungs-) Anforderung kodiert werden.
+>Die verschachtelten Anforderungstrennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) in verschachtelten Anforderungen dürfen nicht HTTP-kodiert sein. Verschachtelte Anforderungen müssen genauso wie die äußere (Verschachtelungs-) Anforderung kodiert werden.
 
 Vorverarbeitungsregeln werden auf verschachtelte Anforderungen angewendet.
 
@@ -51,23 +51,23 @@ Die folgenden Befehle werden ignoriert, wenn sie in verschachtelten Anforderunge
 
 Wenn das Ergebnisbild der verschachtelten Anforderungen Maskendaten (Alpha) enthält, wird es als Ebenenmaske an die Einbettungsebene übergeben.
 
-Auch werden ignoriert `attribute::MaxPix`und `attribute::DefaultPix` der Bildkatalog, der für die verschachtelte Anforderung gilt.
+Auch werden die Zeichen `attribute::MaxPix`und `attribute::DefaultPix` des Bildkatalogs ignoriert, die für die verschachtelte Anforderung gelten.
 
-Das Bildergebnis einer verschachtelten IS-Anforderung kann optional zwischengespeichert werden, indem `cache=on`sie einbezogen wird. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn erwartet wird, dass das Zwischenbild in einer anderen Anforderung innerhalb eines angemessenen Zeitraums wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden im verlustfreien Format zwischengespeichert.
+Das Bildergebnis einer verschachtelten IS-Anforderung kann optional zwischengespeichert werden, indem `cache=on` eingeschlossen wird. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn erwartet wird, dass das Zwischenbild in einer anderen Anforderung innerhalb eines angemessenen Zeitraums wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden im verlustfreien Format zwischengespeichert.
 
-## Eingebettete Bildwiedergabeanforderungen {#section-69c5548db930412b9b90d9b2951a6969}
+## Eingebettete Image Render-Anforderungen {#section-69c5548db930412b9b90d9b2951a6969}
 
 Wenn Scene7 Image Rendering auf dem Server aktiviert ist, können Renderanforderungen als Ebenenquellen verwendet werden, indem sie im Befehl src= (oder mask=) angegeben werden. Verwenden Sie die folgende Syntax:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-Beim `ir` Token muss die Groß-/Kleinschreibung beachtet werden.
+Beim Token `ir` wird die Groß-/Kleinschreibung beachtet.
 
-*[!DNL renderRequest]* ist die übliche Image Rendering-Anforderung, mit Ausnahme des HTTP-Stammpfads ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]* ist die übliche Image Rendering-Anforderung, mit Ausnahme des HTTP-Stammpfads  ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->Die verschachtelten Anforderungstrennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) innerhalb verschachtelter Anforderungen dürfen nicht HTTP-kodiert sein. Eingebettete Anforderungen müssen genauso kodiert sein wie die äußere (Einbettungsanforderung).
+>Die verschachtelten Anforderungstrennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) in verschachtelten Anforderungen dürfen nicht HTTP-kodiert sein. Eingebettete Anforderungen müssen genauso kodiert sein wie die äußere (Einbettungsanforderung).
 
 Die folgenden Bildwiedergabebefehle werden ignoriert, wenn sie in verschachtelten Anforderungen angegeben werden:
 
@@ -78,23 +78,23 @@ Die folgenden Bildwiedergabebefehle werden ignoriert, wenn sie in verschachtelte
 * `printRes=`
 * `req=`
 
-Auch werden ignoriert `attribute::MaxPix` und `attribute::DefaultPix` der Materialkatalog, der für die verschachtelte Render-Anforderung gilt.
+Auch werden die Elemente `attribute::MaxPix` und `attribute::DefaultPix` des Materialkatalogs ignoriert, die für die verschachtelte Render-Anforderung gelten.
 
-Das Bildergebnis einer verschachtelten IR-Anforderung kann optional zwischengespeichert werden, indem auch `cache=on`die Option einbezogen wird. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn erwartet wird, dass das Zwischenbild in einer anderen Anforderung innerhalb eines angemessenen Zeitraums wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden im verlustfreien Format zwischengespeichert.
+Das Bildergebnis einer verschachtelten IR-Anforderung kann optional mit `cache=on` zwischengespeichert werden. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn erwartet wird, dass das Zwischenbild in einer anderen Anforderung innerhalb eines angemessenen Zeitraums wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden im verlustfreien Format zwischengespeichert.
 
 ## Eingebettete FXG-Renderanforderungen {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-Wenn der FXG-Grafik-Renderer (alias [!DNL AGMServer]) mit Image Serving installiert und aktiviert ist, können FXG-Anforderungen als Ebenenquellen verwendet werden, indem sie in `src=` (oder `mask=`) Befehlen angegeben werden. Verwenden Sie die folgende Syntax:
+Wenn der FXG-Grafik-Renderer (auch [!DNL AGMServer]) installiert und mit Image Serving aktiviert ist, können FXG-Anforderungen als Ebenenquellen verwendet werden, indem sie in den Befehlen `src=` (oder `mask=`) angegeben werden. Verwenden Sie die folgende Syntax:
 
 `…&src=fxg( renderRequest)&…`
 
-Beim `fxg` Token muss die Groß-/Kleinschreibung beachtet werden.
+Beim Token `fxg` wird die Groß-/Kleinschreibung beachtet.
 
 >[!NOTE]
 >
 >Das Rendering von FXG-Grafiken ist nur in der von Scene7 gehosteten Umgebung verfügbar und erfordert möglicherweise zusätzliche Lizenzen. Weitere Informationen erhalten Sie vom Scene7-Support.
 
-*[!DNL renderRequest]* ist die übliche FXG-Renderanforderung, mit Ausnahme des HTTP-Stammpfads ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]* ist die übliche FXG-Renderanforderung, mit Ausnahme des HTTP-Stammpfads  ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
@@ -116,13 +116,13 @@ Image Serving unterstützt den Zugriff auf Quellbilder auf ausländischen HTTP-S
 >
 >Für Remote-URLs wird nur das HTTP-Protokoll unterstützt.
 
-Um eine ausländische URL für einen `src=` oder einen `mask=` Befehl anzugeben, trennen Sie die ausländische URL oder das URL-Fragment in Klammern:
+Um eine ausländische URL für einen Befehl `src=` oder `mask=` anzugeben, trennen Sie die ausländische URL oder das URL-Fragment in Klammern:
 
 `…&src=( foreignUrl)&…`
 
 Wichtig: Die Trennzeichen ( `'(',')'`) und die Befehlstrennzeichen ( `'?'`, `'&'`, `'='`) in verschachtelten Anforderungen dürfen nicht HTTP-kodiert sein. Eingebettete Anforderungen müssen genauso kodiert sein wie die äußere (Einbettungsanforderung).
 
-Vollständige absolute URLs (sofern festgelegt) und URLs relativ zu `attribute::AllowDirectUrls` `attribute::RootUrl` diesen sind zulässig. Ein Fehler tritt auf, wenn eine absolute URL eingebettet und ein Attribut: `AllowDirectUrls` ist 0, oder wenn eine relative URL angegeben ist und leer `attribute::RootUrl` ist.
+Vollständige absolute URLs (wenn `attribute::AllowDirectUrls` eingestellt ist) und URLs relativ zu `attribute::RootUrl` sind zulässig. Ein Fehler tritt auf, wenn eine absolute URL eingebettet und ein Attribut: `AllowDirectUrls` ist 0, oder wenn eine relative URL angegeben ist und `attribute::RootUrl` leer ist.
 
 Wenngleich ausländische URLs nicht direkt in der Pfadkomponente der Anforderungs-URL angegeben werden können, ist es möglich, eine Vorverarbeitungsregel einzurichten, um die Konvertierung relativer Pfade in absolute URLs zu ermöglichen (siehe Beispiel unten).
 
@@ -134,7 +134,7 @@ Dieser Mechanismus unterstützt dieselben Bilddateiformate, die vom Dienstprogra
 >
 >Image Serving führt automatisch das Überprüfungsprogramm aus, wenn ein fremdes Bild zum ersten Mal verwendet wird, um sicherzustellen, dass das Bild gültig ist und während der Übertragung nicht beschädigt wurde. Dies kann beim ersten Zugriff zu einer leichten Verzögerung führen. Für eine optimale Leistung wird empfohlen, die Größe solcher Bilder zu begrenzen und/oder ein Bilddateiformat zu verwenden, das gut komprimiert wird.
 
-## Restrictions {#section-fb68e3f0d40947feb94d7bf183b64929}
+## Einschränkungen {#section-fb68e3f0d40947feb94d7bf183b64929}
 
 Die Größe des Bildes, das durch verschachtelte/eingebettete Anforderungen generiert wurde, wird normalerweise automatisch optimiert. Wenn die Zwischenspeicherung von verschachtelten Anforderungsbildern aktiviert ist, können durch Angabe der exakten Größe des verschachtelten Bildes inkrementelle Leistungssteigerungen erzielt werden, sodass bei der Wiederverwendung des Cache-Eintrags keine weitere Skalierung erforderlich ist.
 
@@ -152,9 +152,9 @@ Mit leichten Änderungen können Sie das Bild der Ebene 0 vorskalieren und dauer
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Einbetten von Anforderungen für Scene7-Image Rendering**
+**Einbetten von Anforderungen für Scene7 Image Rendering**
 
-Verwenden einer in [!DNL myCatalog/myTemplate]gespeicherten Vorlage; Erstellen Sie das Bild für Ebene2 der Vorlage mit Scene7 Image Rendering:
+Verwenden einer in [!DNL myCatalog/myTemplate] gespeicherten Vorlage; Generieren des Bilds für &quot;layer2&quot;der Vorlage mit Scene7 Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -162,4 +162,4 @@ Beachten Sie die geschachtelten geschachtelten geschweiften Klammern. Die Image 
 
 ## Verwandte Themen {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference, [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Image Serving Utilities](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference,  [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e),  [Image Serving Utilities](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
