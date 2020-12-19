@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -49,7 +52,7 @@ Syntax
 
 ## Beispiele {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-In diesem Beispiel wird einem in der Anforderung angegebenen Projekt in einem Asset-Handle-Array ein einzelnes Asset (durch dessen Handle referenziert) hinzugefügt. Der Vorgang wurde erfolgreich abgeschlossen, wenn die Antwort `successCount` zurückgegeben wurde `1`.
+In diesem Beispiel wird einem in der Anforderung angegebenen Projekt in einem Asset-Handle-Array ein einzelnes Asset (durch dessen Handle referenziert) hinzugefügt. Der Vorgang wurde erfolgreich abgeschlossen, wenn die Antwort `successCount` `1` zurückgibt.
 
 **Anforderung**
 
