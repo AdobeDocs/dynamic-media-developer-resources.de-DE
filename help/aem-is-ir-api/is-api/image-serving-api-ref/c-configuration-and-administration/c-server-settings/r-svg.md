@@ -19,13 +19,13 @@ ht-degree: 1%
 
 Die Einstellungen in diesem Abschnitt müssen nur berücksichtigt werden, wenn das SVG-Rendering erforderlich ist.
 
-## SV::SvgHeapSize - SVG-Heap-Größe {#section-59ab17681daa4be8b5d794713e1a504e}
+## SV::SvgHeapSize - SVG Heap Size {#section-59ab17681daa4be8b5d794713e1a504e}
 
 Die Java-Heap-Größe für den SVG-Renderer. Der Standardwert ist &quot;200m&quot;(200 MB).
 
 ## PS::svgProvider.rootPaths - SVG-Datenstammordner {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-Der Speicherort der SVG-Quelldatendateien. Kann ein oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]* sein, durch Semikolons getrennt. Normalerweise auf denselben Wert wie `IS::RootPath`.
+Der Speicherort der SVG-Quelldatendateien. Kann ein oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]* sein, durch Semikolons getrennt. Normalerweise auf denselben Wert wie `IS::RootPath` eingestellt.
 
 ## PS::svgProvider.SVGFileSizeLimit - Maximale SVG-Dateigröße {#section-b9c81e3e104642ebbdd9f000843d3256}
 
@@ -35,15 +35,15 @@ Maximale Größe der SVG-Quelldatei in kBytes. Der Server gibt einen Fehler zur�
 
 Begrenzt die Größe der Bilder, die SVGRender produzieren kann. Ganzzahlwert größer als 0 in Millionen Pixeln. Ein Fehler wird zurückgegeben, wenn ein Rendervorgang die Größenbeschränkung überschreitet. Die Standardgrenze ist 4.
 
-## PS::svgProvider.port - Platform Server-Listening-Anschluss {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Platform Server Listening Port {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-Der Anschluss, der für SvgRender verwendet wird, um Bilder vom Platform-Server abzurufen, die in SVG-Renderings eingebettet werden sollen.
+Der Anschluss, der für SvgRender verwendet wird, um Bilder vom Plattformserver abzurufen, die in SVG-Renderings eingebettet werden sollen.
 
-Wichtig Damit die SVGRender-Komponente ordnungsgemäß funktioniert, muss diese Konfigurationsoption auf denselben Wert wie `TC::PsPort`.
+Wichtig Für die ordnungsgemäße Funktion der SVGRender-Komponente muss diese Konfigurationsoption auf denselben Wert wie `TC::PsPort` eingestellt werden.
 
-## PS::svgProvider.fontRoot - Ordner mit SVG-Schriftartdateien {#section-a8d45b0d68504945b8780f5eac351b0d}
+## PS::svgProvider.fontRoot - SVG Font Files Folder {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Gibt an, wo der SvgRender die Schriftartdateien findet, die für die Wiedergabe von SVG-Text benötigt werden; in der Regel einen der unter `IS::RootPaths`. Der Standardwert ist [!DNL *[!DNL install_folder]*/images].
+Gibt an, wo der SvgRender die Schriftartdateien findet, die für die Wiedergabe von SVG-Text benötigt werden; in der Regel einer der unter `IS::RootPaths` angegebenen Pfade. Der Standardwert ist [!DNL *[!DNL install_folder]*/images].
 
 ## SVG::SVGRender.port, IS::SVGTcpPort - SVG Communications Port {#section-608687123aa644b7b58fe42385d71b79}
 
@@ -51,5 +51,5 @@ Konfiguriert den Anschluss, an dem der Image-Server und die SVGRender-Komponente
 
 >[!NOTE]
 >
->Damit die SVGRender-Komponente ordnungsgemäß funktioniert, muss dieselbe Anschlussnummer für `SVG::SVGRender.port` und `IS::SVGTcpPort`angegeben werden.
+>Damit die SVGRender-Komponente ordnungsgemäß funktioniert, muss dieselbe Anschlussnummer für `SVG::SVGRender.port` und `IS::SVGTcpPort` angegeben werden.
 
