@@ -1,18 +1,21 @@
 ---
 description: Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen "Erste Seite"und "Letzte Seite"sowie einen Seitenindikator enthält, wenn dieser in CSS verfügbar ist.
 seo-description: Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen "Erste Seite"und "Letzte Seite"sowie einen Seitenindikator enthält, wenn dieser in CSS verfügbar ist.
-seo-title: Sekundäre Steuerleiste
+seo-title: Sekundär-Steuerleiste
 solution: Experience Manager
-title: Sekundäre Steuerleiste
+title: Sekundär-Steuerleiste
 topic: Dynamic media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
 
-# Sekundäre Steuerleiste{#secondary-control-bar}
+# Sekundär-Steuerleiste{#secondary-control-bar}
 
 Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen &quot;Erste Seite&quot;und &quot;Letzte Seite&quot;sowie einen Seitenindikator enthält, wenn dieser in CSS verfügbar ist.
 
@@ -43,13 +46,13 @@ Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Kla
    <td colname="col2"> <p>Die Höhe der Hauptsteuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe der sekundären Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer grauen sekundären Steuerleiste, die 72 Pixel hoch und am unteren Rand des Viewer-Containers positioniert ist.
+Beispiel: Zum Einrichten einer grauen sekundären Steuerleiste, die 72 Pixel hoch und unten im Viewer-Container positioniert ist.
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  
