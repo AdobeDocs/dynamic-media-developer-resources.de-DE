@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Innerhalb dieses Typs ist das Feld &quot;pageReset&quot;für RenderSet- und Katalog-Bild-Asset-Typen von Bedeutung:
 
-* Zeigt beispielsweise `RenderSet`den Beginn einer neuen Render-Ansicht/Mustergruppe `pageReset` an.
+* Für `RenderSet` gibt `pageReset` den Beginn einer neuen Render-Ansicht/Mustergruppe an.
 
-* Bei &quot;Katalog&quot; `pageReset` wird der Beginn einer neuen Ansicht angezeigt. In der Regel gibt es pro Ansicht zwei Seitenbilder, aber Sie können mehr oder weniger haben.
+* Für Katalog gibt `pageReset` den Beginn einer neuen Ansicht an. In der Regel gibt es pro Ansicht zwei Seitenbilder, aber Sie können mehr oder weniger haben.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,14 +35,14 @@ Innerhalb dieses Typs ist das Feld &quot;pageReset&quot;für RenderSet- und Kata
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Asset-Handle im Image-Set-Member-Array. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> pageReset <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Setzt die Seite zurück. <p>Die Einstellung wird ignoriert und der Wert wird für <span class="codeph"> ImageSet</span> und <span class="codeph"> Rotationsset</span>auf true festgelegt. </p></td> 
+   <td colname="col3">Setzt die Seite zurück. <p>Die Einstellung wird ignoriert und der Wert wird für <span class="codeph"> ImageSet</span> und <span class="codeph"> SpinSet</span> auf true gesetzt. </p></td> 
   </tr> 
  </tbody> 
 </table>
