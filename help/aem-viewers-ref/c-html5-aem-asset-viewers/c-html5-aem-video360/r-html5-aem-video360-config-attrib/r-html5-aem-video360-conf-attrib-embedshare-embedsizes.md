@@ -1,18 +1,21 @@
 ---
 description: Konfigurationsattribut für Video360 Viewer.
 seo-description: Konfigurationsattribut für Video360 Viewer.
-seo-title: EmbedShare.embedsize
+seo-title: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embedsize
+title: EmbedShare.embedsizes
 topic: Dynamic media
 uuid: d3eea508-fb1e-4147-b853-a16f51725dd7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
 
-# EmbedShare.embedsize{#embedshare-embedsizes}
+# EmbedShare.embedsizes{#embedshare-embedsizes}
 
 Konfigurationsattribut für Video360 Viewer.
 
