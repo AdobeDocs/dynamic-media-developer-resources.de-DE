@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 2%
 
 ---
 
 
-# Suchergebnisbereich{#search-results-panel}
+# Suchergebnisbedienfeld{#search-results-panel}
 
 Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben und dem Hauptbereich, in dem Informationsmeldungen oder Suchergebnisse angezeigt werden.
 
@@ -35,11 +38,11 @@ Wenn das Bedienfeld aktiv ist, wird die Benutzeroberfläche des Viewers mit eine
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Farbe der Überlagerung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
    <td colname="col2"> <p>Deckkraft der Farbe. </p> </td> 
   </tr> 
  </tbody> 
@@ -105,7 +108,7 @@ Das Sucheingabefeld wird durch den folgenden CSS-Klassenselektor gesteuert:
    <td colname="col2"> <p>Höhe des Sucheingabefelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
    <td colname="col2"> <p> Die innere Umrandung zwischen den Grenzen des Eingabefelds und dem Eingabetext. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +120,7 @@ Das Sucheingabefeld wird durch den folgenden CSS-Klassenselektor gesteuert:
    <td colname="col2"> <p>Rand des Sucheingabefelds </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,19 +147,19 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des &quot;Aussehgl
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Die URL zum Symbol "Aussehen". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
    <td colname="col2"> <p>Die Größe des Symbols für "aussehendes Glas". </p> </td> 
   </tr> 
   <tr> 
@@ -164,13 +167,13 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des &quot;Aussehgl
    <td colname="col2"> <p>Rand der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Rand der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: So richten Sie eine Suchschaltfläche mit einem 26 x 26 Pixel großen &quot;Aussehen&quot;-Symbol ein. 30 Pixel mit einem Rand von 1 Pixel:
+Beispiel: Zum Einrichten einer Suchschaltfläche mit dem Symbol &quot;Aussehendes Glas&quot;im Format 26 x 26 Pixel; 30 Pixel mit einem Rand von 1 Pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -198,15 +201,15 @@ Im Suchergebnisbedienfeld wird möglicherweise eine Textaufforderung angezeigt, 
    <td colname="col2"> <p> Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +217,9 @@ Im Suchergebnisbedienfeld wird möglicherweise eine Textaufforderung angezeigt, 
 
 >[!NOTE]
 >
->Dieser Textbereich unterstützt die `state` Attributauswahl, mit der verschiedene Stile auf verschiedene Textmeldungen angewendet werden können. Dies `state='prompt'` entspricht insbesondere der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. `state='results'` entspricht dem Text mit Informationen über Suchtreffer; und `state='no_results'` entspricht dem Text, der angezeigt wird, wenn die Abfrage keine Ergebnisse zurückgegeben hat.
+>Dieser Textbereich unterstützt die Attributauswahl `state`, mit der verschiedene Stile auf verschiedene Textmeldungen angewendet werden können. Insbesondere entspricht `state='prompt'` der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. `state='results'` entspricht dem Text mit Informationen über Suchtreffer; und `state='no_results'` entspricht dem Text, der angezeigt wird, wenn die Abfrage keine Ergebnisse zurückgegeben hat.
 
-Der Nachrichtentext kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Der Nachrichtentext kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Zum Einrichten eines Textfelds mit einer grauen 18-Pixel-Schrift:
 
@@ -238,8 +241,8 @@ Die Suchergebnisse werden für Seiten mit Suchtreffer als einzelne Spalte oder e
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell festgelegt wurden </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span> festgelegt wurden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,11 +266,11 @@ Das Erscheinungsbild einzelner Miniaturansichten wird mit der folgenden CSS-Klas
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
@@ -298,15 +301,15 @@ Die Darstellung der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klas
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
@@ -336,19 +339,19 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften top, lef
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlauftaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,9 +359,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften top, lef
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf `"up"`, `"down"`, `"over"`und `"disabled"` Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf die Schaltflächenzustände `"up"`, `"down"`, `"over"` und `"disabled"` angewendet werden können.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Um eine Bildlaufschaltfläche einzurichten, die 125 x 35 Pixel groß ist und für jeden Status ein anderes Bildmaterial enthält:
 
