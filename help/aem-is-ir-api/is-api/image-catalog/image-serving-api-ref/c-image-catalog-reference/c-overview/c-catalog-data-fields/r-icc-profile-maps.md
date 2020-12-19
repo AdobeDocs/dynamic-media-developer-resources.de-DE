@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b244c95a-3198-4d6c-836f-f199022348b4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 
 
-# ICC-Profile{#icc-profile-maps}
+# ICC-Profil-Maps{#icc-profile-maps}
 
 Die folgenden Felder werden in ICC-Profil-Zuordnungsdateien erkannt.
 
@@ -22,7 +25,7 @@ Die folgenden Felder werden in ICC-Profil-Zuordnungsdateien erkannt.
   <td class="stentry"> <p>Name des Profils (Indexschlüssel) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md#reference-d0db8b059a60437992fe1ae35761cb95" type="reference" format="dita" scope="local"> Profilpfad</a></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md#reference-d0db8b059a60437992fe1ae35761cb95" type="reference" format="dita" scope="local"> ProfilePath</a></span> </p> </td> 
   <td class="stentry"> <p>Dateipfad des ICC-Profils. </p></td> 
  </tr> 
 </table>
