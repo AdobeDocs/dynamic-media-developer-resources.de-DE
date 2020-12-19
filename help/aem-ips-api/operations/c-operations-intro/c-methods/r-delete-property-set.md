@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b4fdf51f-89ec-4a69-9179-078ee8e1937f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 11%
 
 ---
 
@@ -39,7 +42,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-In diesem Codebeispiel wird das Handle des Satzes als Feld in dem an den IPS-Webdienstserver `deletePropertySetParam` gesendeten Feld verwendet, um den Eigenschaftensatz zu löschen.
+In diesem Codebeispiel wird das Handle des Satzes als Feld im Feld `deletePropertySetParam` verwendet, das an den IPS-Webdienstserver gesendet wird, um den Eigenschaftensatz zu löschen.
 
 **Anforderung**
 
