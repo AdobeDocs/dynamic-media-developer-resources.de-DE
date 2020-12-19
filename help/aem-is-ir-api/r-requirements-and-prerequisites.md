@@ -15,17 +15,17 @@ ht-degree: 0%
 ---
 
 
-# Systemanforderungen und -voraussetzungen{#system-requirements-and-prerequisites}
+# Systemanforderungen und Voraussetzungen{#system-requirements-and-prerequisites}
 
 Bevor Sie Scene7 Image Serving verwenden, stellen Sie sicher, dass Ihr System die Systemanforderungen erfüllt.
 
-## Serverhardware {#section-f3c14a7bc1b745118602659628df779f}
+## Server-Hardware {#section-f3c14a7bc1b745118602659628df779f}
 
 Ihr Server sollte die folgenden Hardwareanforderungen erfüllen.
 
 >[!NOTE]
 >
->Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden in der Regel als NUMA-Plattformen (Nicht-Uniform Memory Architecture) konfiguriert. Das bedeutet, dass der Kernel beim Booten mehrere Speicherknoten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Mehrfach-Node-Konstrukt kann zu einer Speicherbelegung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft werden. Wenn die Speicherbelegung eintritt, kann der Kernel selbst dann Prozesse abbrechen (z. B. Image-Server oder Platform-Server), wenn verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe Systems, dass Sie NUMA deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die Option &quot; `numa=off` Beginn&quot;, um zu vermeiden, dass der Kernel diese Vorgänge stoppt.
+>Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden in der Regel als NUMA-Plattformen (Nicht-Uniform Memory Architecture) konfiguriert. Das bedeutet, dass der Kernel beim Booten mehrere Speicherknoten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Mehrfach-Node-Konstrukt kann zu einer Speicherbelegung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft werden. Wenn die Speicherbelegung eintritt, kann der Kernel selbst dann Prozesse abbrechen (z. B. Image Server oder Platform Server), wenn verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe Systems, dass Sie NUMA deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die Option `numa=off` Beginn, um zu vermeiden, dass der Kernel diese Vorgänge stoppt.
 
 **Windows**
 
@@ -43,7 +43,7 @@ Ihr Server sollte die folgenden Hardwareanforderungen erfüllen.
 * 2 GB freier Festplattenspeicher für die Installation und den einfachen Betrieb, zusätzlicher Speicherplatz für Quellbilder, Protokolle, Datencache und Manifestdateien erforderlich.
 * Fast-Ethernet-Netzwerkschnittstellenkarte.
 
-**Hinweis (Linux):** Image Serving funktioniert nicht, wenn SELinux aktiviert ist. Diese Option ist standardmäßig aktiviert. Um SELinux zu deaktivieren, bearbeiten Sie die [!DNL /etc/selinux/config] Datei und ändern Sie den SELinux-Wert von:
+**Hinweis (Linux):** Image Serving funktioniert nicht mit aktiviertem SELinux. Diese Option ist standardmäßig aktiviert. Um SELinux zu deaktivieren, bearbeiten Sie die [!DNL /etc/selinux/config]-Datei und ändern Sie den SELinux-Wert von:
 
 `SELINUX=enforcing`
 
@@ -51,13 +51,13 @@ in / zu
 
 `SELINUX=disabled`
 
-**Hinweis (Linux):** Stellen Sie sicher, dass der Hostname des Servers auf eine IP-Adresse aufgelöst werden kann. Wenn dies nicht möglich ist, fügen Sie den vollständig qualifizierten Hostnamen und die IP-Adresse wie im folgenden Beispiel [!DNL /etc/hosts] hinzu.
+**Hinweis (Linux):** Stellen Sie sicher, dass der Hostname des Servers auf eine IP-Adresse aufgelöst werden kann. Wenn dies nicht möglich ist, fügen Sie den vollständig qualifizierten Hostnamen und die IP-Adresse zu [!DNL /etc/hosts] hinzu, wie im folgenden Beispiel.
 
 `<ip address> <fully qualified hostname>`
 
-## Serversoftware {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
+## Server-Software {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Scene7 Image Serving erfordert die folgende Serversoftware.
+Für Scene7 Image Serving ist folgende Serversoftware erforderlich.
 
 **Windows**
 
