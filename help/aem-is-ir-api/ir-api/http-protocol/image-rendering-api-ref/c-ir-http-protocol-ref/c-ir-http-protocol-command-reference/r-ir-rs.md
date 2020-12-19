@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +40,7 @@ Materialattribut.
 
 ## Beispiel {#section-47e4811882574441a4d517e42a35f352}
 
-Nach einigen Experimenten im Image Authoring wird festgestellt, dass die Unschärfemaske (USM) die richtige Scharfzeichnung für die jeweilige Anwendung und das Material bereitstellt. Die Zeichenfolge für die Rendereinstellungen, die USM konfiguriert, wird in den `rs=` Befehl kopiert, der mit diesem Material verwendet werden soll:
+Nach einigen Experimenten im Image Authoring wird festgestellt, dass die Unschärfemaske (USM) die richtige Scharfzeichnung für die jeweilige Anwendung und das Material bereitstellt. Die Zeichenfolge für die Rendereinstellungen, die USM konfiguriert, wird zur Verwendung mit diesem Material in den Befehl `rs=` kopiert:
 
 `…&rs=U2V20W50X2&…`
 
