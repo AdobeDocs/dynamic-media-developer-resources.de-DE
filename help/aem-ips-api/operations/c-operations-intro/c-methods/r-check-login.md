@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 11%
 
 ---
 
@@ -50,7 +53,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## Beispiele {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Dieser Beispielcode verwendet einen Firmen-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu ermitteln, ob sich ein Benutzer beim IPS anmelden kann. Wenn sich der Benutzer anmelden *kann* , gibt diese Methode die Zeichenfolge zurück, `ValidLogin`. Wenn sich der Benutzer *nicht anmelden kann* , gibt diese Methode die Zeichenfolge zurück, `InvalidLogin`.
+Dieser Beispielcode verwendet einen Firmen-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu ermitteln, ob sich ein Benutzer beim IPS anmelden kann. Wenn sich der Benutzer *can* anmeldet, gibt diese Methode die Zeichenfolge `ValidLogin` zurück. Wenn sich der Benutzer *nicht* anmelden kann, gibt diese Methode die Zeichenfolge `InvalidLogin` zurück.
 
 **Anforderung**
 
