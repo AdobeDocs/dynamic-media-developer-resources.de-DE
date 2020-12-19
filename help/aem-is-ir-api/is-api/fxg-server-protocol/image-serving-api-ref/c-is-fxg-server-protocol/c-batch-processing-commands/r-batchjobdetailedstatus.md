@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a79302ce-745b-44d8-9cb6-ed8d37530197
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 1%
 
 ---
 
 
-# batchjobdetailler Status{#batchjobdetailedstatus}
+# batchjobdetaillstatus{#batchjobdetailedstatus}
 
 Abrufen des detaillierten Status eines gesendeten Auftrags.
 
@@ -20,14 +23,14 @@ Dieser Parameter:
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
   <td class="stentry"> <p>Job-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p> </td> 
  </tr> 
 </table>
 
 Gibt zurück:
 
-Detaillierter Status des Auftrags im XML-Format; Fehler, wenn ungültig `jobid` ist oder der Auftrag gelöscht wurde.
+Detaillierter Status des Auftrags im XML-Format; Fehler, wenn `jobid` ungültig ist oder der Auftrag gelöscht wurde.
 
 ## Beispiel {#section-55f463750afe4814b5fdbaa2f1aafab4}
 
