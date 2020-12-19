@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Jeder Materialkatalog besteht aus einer erforderlichen *Katalogattributdatei* un
 
 Katalogdatendateien werden mit Materialkatalogen nach Dateiverweisen in der Katalogattributdatei verknüpft. Die gleiche Katalogdatendatei kann für mehrere Materialkataloge freigegeben werden.
 
-Katalogattributdateien müssen über ein Suffix [!DNL .ini] verfügen und sich im *Katalogordner* &quot;Image Rendering&quot;befinden ( [!DNL PlatformServer::ir.catalogRootPath]). Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den der Render-Server zugreifen kann.
+Katalogattributdateien müssen über das Suffix [!DNL .ini] verfügen und sich im Ordner *Katalog* ( [!DNL PlatformServer::ir.catalogRootPath]) befinden. Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den der Render-Server zugreifen kann.
 
 **Aktualisieren von Materialkatalogen**
 
@@ -37,7 +40,7 @@ Der Standardkatalog enthält Standardwerte für alle Katalogattribute für alle 
 
 Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (ICC-Profile) bereit, wenn kein spezifischer Materialkatalog an einem Vorgang beteiligt ist.
 
-Damit der Render-Server ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog benannt werden, muss immer im Katalogordner vorhanden sein und muss vollständig mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme [!DNL default.ini]`attribute::RootId` und der Verweise auf die verschiedenen Katalogdatendateien, die alle optional sind.
+Damit der Render-Server ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog mit dem Namen [!DNL default.ini], immer im Katalogordner vorhanden sein und mit allen erforderlichen Attributen gefüllt werden, mit Ausnahme von `attribute::RootId` und der Verweise auf die verschiedenen Katalogdatendateien, die alle optional sind.
 
 **Verwandte Themen**
 
