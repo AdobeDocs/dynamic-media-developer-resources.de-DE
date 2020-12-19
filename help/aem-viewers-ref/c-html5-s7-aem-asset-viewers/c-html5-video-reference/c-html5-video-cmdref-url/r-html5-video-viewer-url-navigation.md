@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +26,7 @@ Der Viewer unterstützt die Videokapitelnavigation über gehostete WebVTT-Dateie
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Datei</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zu WebVTT-Navigationsinhalten an. Image Serving sollte die WebVTT-Datei hosten. </p> </td> 
   </tr> 
  </tbody> 
