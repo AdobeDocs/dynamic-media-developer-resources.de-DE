@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -30,20 +33,20 @@ Wählen Sie Ebene. Wählt eine Ebene aus und Beginn ein neues Ebenendefinitionss
   <td class="stentry"> <p>Wählen Sie das Composite-Bild aus. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Name</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p></td> 
   <td class="stentry"> <p>Name der Ebene. </p></td> 
  </tr> 
 </table>
 
-Alle Befehle im Ebenensegment werden auf die angegebene Ebene angewendet. Ein Ebenensegment wird durch den nächsten `layer=` oder den nächsten `effect=` Befehl oder das Ende der Anforderung beendet.
+Alle Befehle im Ebenensegment werden auf die angegebene Ebene angewendet. Ein Ebenensegment wird durch den nächsten Befehl `layer=` oder `effect=` oder das Ende der Anforderung beendet.
 
-Wählen Sie `layer=comp` das Composite-Bild (oder bei einigen Befehlen die Ansicht) aus.
+Geben Sie `layer=comp` an, um das Composite-Bild (oder bei einigen Befehlen die Ansicht) auszuwählen.
 
 Die Nummer der Ebene gibt die z-Reihenfolge der Ebene an. Ebenen mit einer höheren Nummerierung werden über Ebenen mit einer niedrigeren Nummerierung platziert.
 
 Die Nummern der Ebenen müssen nicht aufeinander folgen. Ebene 0 ist erforderlich.
 
-Ein Name kann einer Ebene mit der `layer= *``*, *`Kommandovariante &quot;name`*` &quot;zugewiesen werden. Sobald eine benannte Ebene definiert ist, kann sie mit ` layer= *`Namen`*`referenziert werden, ohne dass die Nummer der Ebene angegeben werden muss. Mit mehreren `layer= *``*, *`Namensbefehlen`*` können der gleichen Ebene mehrere Namen zugewiesen werden.
+Ein Name kann einer Ebene mit der Befehlsvariante `layer= *`n`*, *`name`*` zugewiesen werden. Sobald eine benannte Ebene definiert ist, kann auf sie mit ` layer= *`name`*` verwiesen werden, ohne dass die Nummer der Ebene angegeben werden muss. Mit mehreren Befehlen `layer= *`n`*, *`name`*` können derselben Ebene mehrere Namen zugewiesen werden.
 
 >[!NOTE]
 >
@@ -51,22 +54,22 @@ Ein Name kann einer Ebene mit der `layer= *``*, *`Kommandovariante &quot;name`*`
 
 ## Eigenschaften {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-Ebene, Befehl. Substitutionsvariablenverweise werden in nicht unterstützt `layer=`.
+Ebene, Befehl. Substitutionsvariablenverweise werden in `layer=` nicht unterstützt.
 
-`comp` ist nicht als *`name`* Zeichenfolge zulässig. Es wird ein Fehler zurückgegeben, wenn dieselbe Ebene mehr als einer Ebene zugewiesen *`name`* wird oder wenn auf eine Ebene verwiesen wird, auf die zuvor noch nicht *`name`* definiert wurde.
+`comp` ist nicht als  *`name`* Zeichenfolge zulässig. Ein Fehler wird zurückgegeben, wenn dieselbe *`name`* mehreren Ebenen zugewiesen ist oder wenn eine Ebene durch *`name`* referenziert wird, die zuvor nicht definiert wurde.
 
 ## Standard {#section-091859a03f8048c2b7092f0fec9c1006}
 
-`layer=comp`. Viele Befehle und Attribute gelten für Ebene 0, wenn `layer=comp`sie angewendet werden.
+`layer=comp`. Viele Befehle und Attribute gelten für Ebene 0, wenn `layer=comp`.
 
 ## Sonderfälle {#section-e087cb2e3562473e8d391abfa3b9489f}
 
-* Wenn der gleiche Name mehreren Ebenen zugeordnet ist (z. B.: `layer=1,image&layer=2,image`) ein Fehler auftritt.
-* Wenn derselbe Name mehrmals einer einzelnen Ebene zugeordnet wird (z. B.: `layer=1,image&layer=1,image`) wird der Umfang wie gewohnt ohne Fehler festgelegt.
+* Wenn der gleiche Name mehreren Ebenen zugeordnet ist (z. B.: `layer=1,image&layer=2,image`), tritt ein Fehler auf.
+* Wenn derselbe Name mehrmals einer einzelnen Ebene zugeordnet wird (z. B.: `layer=1,image&layer=1,image`), wird der Gültigkeitsbereich wie gewohnt ohne Fehler festgelegt.
 * Es werden mehrere Namen für dieselbe Ebene unterstützt.
 
    Sie können entweder einen Namen verwenden, um auf die Ebene zu verweisen (z. B.: `layer=1,image&layer=1,picture`).
-* Wenn ein referenzierter Name nie einer Ebenennummer zugeordnet wird (z. B.: `layer=1,image&layer=picture`) ein Fehler auftritt.
+* Wenn ein referenzierter Name nie einer Ebenennummer zugeordnet wird (z. B.: `layer=1,image&layer=picture`), tritt ein Fehler auf.
 * Substitutionsvariablen werden in Ebenenmodifikatoren nicht unterstützt (z. B.: `layer=$image$`).
 
    Dies gilt für alle Permutationen, nicht nur für Ebenennamen, sondern auch für Ebenenmodifikatoren im Allgemeinen.
@@ -75,4 +78,4 @@ Ebene, Befehl. Substitutionsvariablenverweise werden in nicht unterstützt `laye
 
 ## Beispiel {#section-cc40de6a0a754178aa752601539c815b}
 
-Siehe Beispiele in [Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Siehe Beispiele unter [Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
