@@ -25,7 +25,7 @@ Damit die Änderungen wirksam werden, starten Sie den Image-Server nach der Bear
 
 >[!NOTE]
 >
->Ändern Sie nicht die Struktur der Elemente `<imageserverregistry>`, einschließlich der Reihenfolge der Elemente. Gehen Sie beim Bearbeiten dieser Datei mit Bedacht vor, da andernfalls der Image-Server möglicherweise nicht in Beginn gehen kann.
+>Ändern Sie nicht die Struktur von `<imageserverregistry>`, einschließlich der Reihenfolge der Elemente. Gehen Sie beim Bearbeiten dieser Datei mit Bedacht vor, da andernfalls der Image-Server möglicherweise nicht in Beginn gehen kann.
 
 Im Folgenden wird veranschaulicht, welche Elemente geändert werden können. Andere Elemente sind vorhanden, die nicht geändert werden dürfen. Die Reihenfolge der unten aufgeführten Elemente spiegelt nicht die Reihenfolge wider, in der sie in der Datei enthalten sein müssen.
 
@@ -55,4 +55,4 @@ Im Folgenden wird veranschaulicht, welche Elemente geändert werden können. And
 
 ## Anmerkungen {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Es können mehrere `<RootPath>` Elemente vorhanden sein (eines für jeden Ordner der Quelldatendatei). Image Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.
+Es können mehrere `<RootPath>`-Elemente vorhanden sein (eines für jeden Ordner der Quelldatendatei). Image Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.
