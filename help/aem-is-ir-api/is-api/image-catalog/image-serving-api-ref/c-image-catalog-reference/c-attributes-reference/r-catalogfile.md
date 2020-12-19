@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Pfade für Bilddatendateien. Gibt die Dateien an, die die Bilddaten für diesen Katalog enthalten.
 
-Bilddatendateien werden in der angegebenen Reihenfolge geladen. Wenn derselbe `catalog::Id` Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in unterschiedlichen Katalogdateien), hat die letzte Instanz Vorrang.
+Bilddatendateien werden in der angegebenen Reihenfolge geladen. Wenn derselbe `catalog::Id`-Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in unterschiedlichen Katalogdateien), hat die letzte Instanz Vorrang.
 
 ## Eigenschaften {#section-6da55f145ecd4e31a5de52637a436983}
 
