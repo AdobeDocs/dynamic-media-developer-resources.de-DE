@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 19b37bd4-f7cf-4b5f-be1a-b2d9fda5b4b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -26,14 +29,14 @@ Stellt das Ablaufintervall für bestimmte nicht bildbezogene Antworten bereit, e
 
 ## Eigenschaften {#section-d37e3113f4b1468b86b5a14e80d94c83}
 
-Real number, 0 oder höher. Anzahl der Stunden bis zum Ablauf seit der Generierung der Antwortdaten. Auf 0 setzen, um das Antwortbild immer sofort ablaufen zu lassen, wodurch die Client-Zwischenspeicherung für Standard-Bildantworten deaktiviert wird. Auf -1 setzen, um zu markieren, dass *nie abläuft*.
+Reale Zahl, 0 oder höher. Anzahl der Stunden bis zum Ablauf seit der Generierung der Antwortdaten. Auf 0 setzen, um das Antwortbild immer sofort ablaufen zu lassen, wodurch die Client-Zwischenspeicherung für Standard-Bildantworten deaktiviert wird. Auf -1 setzen, um als *nie ablaufen* zu markieren.
 
 ## Standard {#section-96981360c0234b7f824d2ff7c25a7954}
 
-Vererbt von, `default::NonImgExpiration` wenn nicht definiert oder leer.
+Vererbt von `default::NonImgExpiration`, wenn nicht definiert oder leer.
 
 TTL (Time-To-Live) ist die Dauer, bevor der Cache abläuft. Die Standard-TTL beträgt 6 Minuten.
 
 ## Verwandte Themen {#section-4549c5594a5547beb8b129ec8d0e6aa6}
 
-[Katalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) , [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433)
+[Katalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) ,  [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433)
