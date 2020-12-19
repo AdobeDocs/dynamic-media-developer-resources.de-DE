@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 08a03140-c8cc-49d8-9575-ae153b3899c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 15%
 
 ---
 
@@ -29,6 +32,6 @@ Syntax
 | ` *`width`*` | `xsd:int` | Breite der Zoom-Zielgruppe. |
 | ` *`height`*` | `xsd:int` | Höhe der Zoom-Zielgruppe. |
 | ` *`Benutzerdaten`*` | `xsd:string` | Benutzerdaten im Zusammenhang mit der Zoom-Zielgruppe. |
-| ` *`Position`*` | `xsd:int` | Ermöglicht die Anordnung von mit einem Asset verknüpften Zoom-Zielgruppen basierend auf der Position |
+| ` *`position`*` | `xsd:int` | Ermöglicht die Anordnung von mit einem Asset verknüpften Zoom-Zielgruppen basierend auf der Position |
 | ` *`lastModified`*` | `xsd:dateTime` | Datum der letzten Änderung. |
 
