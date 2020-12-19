@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5fd6c6c5-5fa5-498c-877a-1f50f710bf7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Setzt den Anschluss der Ansicht zurück, wenn sich das Bild ändert. Bei einem Wert von <span class="codeph"> 0</span> wird der Anschluss der aktuellen Ansicht mit der bestmöglichen Passform beibehalten, wobei das Seitenverhältnis des neu eingestellten Bildes beibehalten wird. </p> </td> 
+   <td colname="col2"> <p> Setzt den Anschluss der Ansicht zurück, wenn sich das Bild ändert. Bei Festlegung auf <span class="codeph"> 0</span> wird der aktuelle Ansicht-Anschluss mit der bestmöglichen Passform beibehalten, wobei das Seitenverhältnis des neu eingestellten Bildes beibehalten wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
