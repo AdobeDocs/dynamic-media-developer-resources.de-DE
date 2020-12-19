@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 11%
 
 ---
 
@@ -34,7 +37,7 @@ Der Viewer unterstützt Untertitel über gehostete WebVTT-Dateien. Überschneide
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>Textausrichtung </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|Beginn|end</span> </p> </td> 
-   <td colname="col4"> <p> Textausrichtung steuern </p> <p>Der Standardwert ist <span class="codeph"> Mitte</span>. </p> </td> 
+   <td colname="col4"> <p> Textausrichtung steuern </p> <p>Der Standardwert ist <span class="codeph"> middle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
