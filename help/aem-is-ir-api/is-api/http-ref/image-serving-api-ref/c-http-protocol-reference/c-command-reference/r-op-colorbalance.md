@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 177aa6e3-1b32-4254-85f1-d7fe14116e3c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +40,7 @@ Grau- und CMYK-Eingabebilddaten werden mithilfe einer naiven Konvertierung in RG
 
 ## Eigenschaften {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist. Von Effektebenen ignoriert. CMYK-Bilder und -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
+Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert. CMYK-Bilder und -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
 
 ## Standard {#section-08d84ef715964f7daea86f5ef237d199}
 
@@ -47,4 +50,4 @@ Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls 
 
 Pushen Sie den Farbbalance in Richtung Rot:
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`...
