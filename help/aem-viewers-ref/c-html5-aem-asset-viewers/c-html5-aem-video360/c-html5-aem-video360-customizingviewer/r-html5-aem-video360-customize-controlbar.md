@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +46,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
    <td colname="col2"> <p>Höhe der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 
