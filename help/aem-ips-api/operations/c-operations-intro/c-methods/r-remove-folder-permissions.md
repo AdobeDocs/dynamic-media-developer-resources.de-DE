@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 11%
 
 ---
 
@@ -39,19 +42,19 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Der Griff zur Firma mit Ordnern, die Sie entfernen möchten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Behandeln Sie den Ordner. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> <p>Wenn <span class="codeph"> true</span>: 
@@ -71,7 +74,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-In diesem Codebeispiel werden Berechtigungen aus einem Ordner und seinen Unterordnern entfernt. Legen Sie `updateChildren` fest, `false` ob Sie nur Berechtigungen aus dem übergeordneten Ordner entfernen müssen.
+In diesem Codebeispiel werden Berechtigungen aus einem Ordner und seinen Unterordnern entfernt. Setzen Sie `updateChildren` auf `false`, wenn Sie nur Berechtigungen aus dem übergeordneten Ordner entfernen müssen.
 
 **Anforderung**
 
