@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 084d09dd-3f8e-4d2b-8a1c-21d87d925b14
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ Legen Sie den Anschnittrand fest. Legt den in der PDF-Datei festgelegten Anschni
 
 `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` in
 
-Standardmäßig `bleedMargin` wird die Größe des Dokuments auf die von `viewWidth` und `viewHeight`festgelegt. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den *[!DNL top]* Wert gesetzt, wenn dieser nicht angegeben ist.
+Standardmäßig ist `bleedMargin` auf die volle Größe des Dokuments eingestellt, das durch `viewWidth` und `viewHeight` definiert wird. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den Wert *[!DNL top]* gesetzt, wenn nicht angegeben.
