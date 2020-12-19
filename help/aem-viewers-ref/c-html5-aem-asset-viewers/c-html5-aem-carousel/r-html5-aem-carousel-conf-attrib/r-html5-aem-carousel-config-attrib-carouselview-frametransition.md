@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9539ede1-08fb-4bfc-8a5a-870c7d84de7f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -19,16 +22,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade|slide </span> </p> </td> 
-   <td colname="col2"> <p>Gibt den Typ des Effekts an, der bei einer Bildänderung angewendet wird. <span class="codeph"> keiner </span> steht für keine Transition; Frame-Änderung wird sofort ausgeführt. </p> <p> <span class="codeph"> "Überblenden" </span> bedeutet eine Überblendung zwischen alten und neuen Frames. </p> <p> <span class="codeph"> Dia </span> aktiviert die Transition, bei der der alte Rahmen aus der Ansicht verschoben wird und der neue Rahmen hineingegleitet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade|slide  </span> </p> </td> 
+   <td colname="col2"> <p>Gibt den Typ des Effekts an, der bei einer Bildänderung angewendet wird. <span class="codeph"> keiner  </span> steht für keine Transition; Frame-Änderung wird sofort ausgeführt. </p> <p> <span class="codeph"> "Überblenden" </span> bedeutet eine Überblendung zwischen alten und neuen Frames. </p> <p> <span class="codeph"> Dia  </span> aktiviert die Transition, bei der der alte Rahmen aus der Ansicht verschoben wird und der neue Rahmen hineingegleitet wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Dauer </span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt die Dauer (in Sekunden) des Effekts <span class="codeph"> "Überblendung" </span> oder " <span class="codeph"> Überlagerung"der </span> Transition an. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Dauer  </span> </span> </p> </td> 
+   <td colname="col2"> <p>Gibt die Dauer (in Sekunden) des Effekts <span class="codeph"> Überblendung </span> oder <span class="codeph"> Transition </span> an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Abstand </span></span> </p> </td> 
-   <td colname="col2"> <p>Der Abstand zwischen benachbarten Frames in der <span class="codeph"> Dia- </span> Transition liegt zwischen <span class="codeph"> 0 </span> und <span class="codeph"> 1 </span> und ist relativ zur Komponentenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Abstand  </span> </span> </p> </td> 
+   <td colname="col2"> <p>Der Abstand zwischen benachbarten Frames in der <span class="codeph">-Transition </span> hat den Bereich zwischen <span class="codeph"> 0 </span> und <span class="codeph"> 1 </span> und ist relativ zur Komponentenbreite. </p> </td> 
   </tr> 
  </tbody> 
 </table>
