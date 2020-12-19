@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: efb272b5-e30e-44d5-9dec-0529b1074ed2
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
@@ -25,8 +28,8 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
    <td colname="col2"> <p> Aktiviert bzw. deaktiviert die Möglichkeit, mit einer Maus oder mit Touch-Gesten durch die Miniaturansichten zu blättern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td colname="col2"> <p> Liegt im <span class="codeph"> Bereich 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Wenn auf <span class="codeph"> 1 gesetzt, bewegt </span> es sich mit der Maus. </p> <p>Bei einem Wert von <span class="codeph"> 0 können Sie </span> sich nicht in die falsche Richtung bewegen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Befindet sich im Bereich <span class="codeph"> 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Wenn auf <span class="codeph"> 1 </span> eingestellt, wird es mit der Maus verschoben. </p> <p>Wenn Sie auf <span class="codeph"> 0 </span> eingestellt sind, können Sie sich nicht in die falsche Richtung bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
