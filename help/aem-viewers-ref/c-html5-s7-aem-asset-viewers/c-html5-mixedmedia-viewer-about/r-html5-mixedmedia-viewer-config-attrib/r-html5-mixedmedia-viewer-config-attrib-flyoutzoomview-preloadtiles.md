@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9989916-d0f3-4268-932a-e12c693f5b74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Auf <span class="codeph"> 1</span> setzen, um das Vorausladen des gezoomten Bildes zu aktivieren. </p> <p>Auf <span class="codeph"> 0</span> einstellen, um das Zoombild nach Bedarf inkrementell zu laden. </p> <p> <p>Hinweis:  Wenn Sie diese Option aktivieren, kann dies zu einer wesentlich höheren Bandbreitennutzung führen, da das gezoomte Bild vollständig geladen werden muss - auch wenn der Benutzer keine Zoomaktion durchführt. </p> </p> </td> 
+   <td colname="col2"> <p> Auf <span class="codeph"> 1</span> setzen, um das Vorausladen des gezoomten Bildes zu aktivieren. </p> <p>Legen Sie <span class="codeph"> 0</span> fest, um das Zoombild nach Bedarf inkrementell zu laden. </p> <p> <p>Hinweis:  Wenn Sie diese Option aktivieren, kann dies zu einer wesentlich höheren Bandbreitennutzung führen, da das gezoomte Bild vollständig geladen werden muss - auch wenn der Benutzer keine Zoomaktion durchführt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
