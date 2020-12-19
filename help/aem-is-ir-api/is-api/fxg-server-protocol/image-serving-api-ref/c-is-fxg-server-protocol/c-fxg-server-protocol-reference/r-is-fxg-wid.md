@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -27,11 +30,11 @@ Breite der Ansicht. Gibt die Breite des Antwortbilds (Ansicht) an.
 
 ## Standard {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-Wenn weder `wid=`, `hei=`noch `scale=` angegeben, ist das Antwortbild die in der FXG-Ansicht angegebene Standardgröße.
+Wenn weder `wid=`, `hei=` noch `scale=` angegeben sind, ist das Antwortbild die in der FXG-Ansicht angegebene Standardgröße.
 
 Rasterformate werden mit der Einstellung &quot;Standardgröße für Ansichten&quot;(oder &quot;DefaultPix&quot;) gerendert. Klicken Sie auf **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]** und geben Sie dann die Werte für Breite und Höhe ein. Kleinere Größen bieten eine bessere Leistung. Sie müssen Ihre Einstellungen speichern und eine Image Serving-Veröffentlichung durchführen, um eine Änderung anzuwenden.
 
-Wenn Sie einen `scale=1` Befehl anwenden, wird eine Rasterformatanforderung in der im FXG angegebenen Größe gerendert.
+Wenn Sie einen Befehl `scale=1` anwenden, wird eine Rasterformatanforderung in der im FXG angegebenen Größe gerendert.
 
 ## Beispiel {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
