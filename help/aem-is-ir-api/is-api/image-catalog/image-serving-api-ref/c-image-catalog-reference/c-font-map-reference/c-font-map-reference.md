@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ Wenn für einen Bildkatalog eine Schriftartzuordnung erforderlich ist, muss der 
 
 Einträge in der Schriftzuordnung eines bestimmten Bildkatalogs setzen Einträge in der Schriftzuordnung des Standardkatalogs außer Kraft.
 
-Image Serving unterstützt die Schriftarten Adobe Type 1, OpenType und TrueType.
+Image Serving unterstützt Schriftarten vom Typ 1, OpenType und TrueType.
 
 `textPs=` unterstützt auch CID-, ATC- und Bitmap-Schriftarten.
 
