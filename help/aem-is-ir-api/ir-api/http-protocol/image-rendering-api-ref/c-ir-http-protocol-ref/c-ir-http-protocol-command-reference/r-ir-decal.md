@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ Materialauswahl. Beginn eines Materialspezifikationssegments (MSS) für ein nich
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
   <td class="stentry"> <p>Ignoriert. </p> </td> 
  </tr> 
 </table>
