@@ -1,6 +1,6 @@
 ---
-description: Hinzufügen Rauschen. Fügt dem Vordergrund oder dem Vordergrund einer Effektebene zufällige Geräusche hinzu.
-seo-description: Hinzufügen Rauschen. Fügt dem Vordergrund oder dem Vordergrund einer Effektebene zufällige Geräusche hinzu.
+description: hinzufügen Rauschen. Fügt dem Vordergrund oder dem Vordergrund einer Effektebene zufällige Geräusche hinzu.
+seo-description: hinzufügen Rauschen. Fügt dem Vordergrund oder dem Vordergrund einer Effektebene zufällige Geräusche hinzu.
 seo-title: op_geräusch
 solution: Experience Manager
 title: op_geräusch
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
 
 # op_geräusch{#op-noise}
 
-Hinzufügen Rauschen. Fügt dem Vordergrund oder dem Vordergrund einer Effektebene zufällige Geräusche hinzu.
+hinzufügen Rauschen. Fügt dem Vordergrund oder dem Vordergrund einer Effektebene zufällige Geräusche hinzu.
 
 `op_noise= *``*[,uniform|gaussian[, *`Valmonochrom`*]]`
 
@@ -43,7 +46,7 @@ Hinzufügen Rauschen. Fügt dem Vordergrund oder dem Vordergrund einer Effektebe
 
 ## Eigenschaften {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist.
+Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`.
 
 ## Standard {#section-d548868fa4b64a60bcb481cad1f8113e}
 
