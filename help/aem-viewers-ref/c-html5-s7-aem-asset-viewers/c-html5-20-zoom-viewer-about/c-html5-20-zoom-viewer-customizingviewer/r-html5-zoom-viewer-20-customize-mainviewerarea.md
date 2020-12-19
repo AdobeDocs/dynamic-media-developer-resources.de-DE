@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 1%
 
 ---
 
 
-# Hauptbereich des Viewers{#main-viewer-area}
+# Hauptviewer-Bereich{#main-viewer-area}
 
 Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Zoombild und die Farbfelder befinden. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Beim Arbeiten im eingebetteten Modus (wenn dem Hauptviewer eine explizite Größe gegeben wird) verringert der Viewer automatisch die Höhe seines Hauptbereichs um die Höhe der Farbfeldkomponente, die mit dem einzelnen Bild funktioniert. Daher sind keine Farbfelder erforderlich.
+Beim Arbeiten im eingebetteten Modus (wenn dem Hauptviewer eine explizite Größe gegeben wird) verringert der Viewer automatisch die Höhe seines Hauptbereichs um die Höhe der Farbfeldkomponente, die mit dem einzelnen Bild funktioniert, und daher sind keine Farbfelder erforderlich.
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
@@ -45,7 +48,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
