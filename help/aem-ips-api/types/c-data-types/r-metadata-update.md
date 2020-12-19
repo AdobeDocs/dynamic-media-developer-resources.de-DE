@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
@@ -32,37 +35,37 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Handle für Metadatenfelder. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Wert</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Aktualisierungswert der Metadaten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Boolescher Metadatenwert (nur für boolesche Felder). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> LongVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
    <td colname="col3"> Wert für lange Metadaten (nur für Felder mit int-Typ). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Dublette</span> </td> 
    <td colname="col3"> Metadatenwert der Dublette (nur für Felder mit Fließkomma-Typ). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Datum</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Datumsmetadatenwert (nur für datentypisierte Felder). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3"> <p>Fügt die vorhandene Tag-Wert-Liste für das Asset hinzu. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
@@ -71,7 +74,7 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3">Ersetzt die vorhandene Tag-Wert-Liste für das Asset. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
@@ -80,7 +83,7 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3"> Löscht die angegebenen Werte aus der Tag-Wert-Liste des Assets, falls vorhanden. </td> 
   </tr> 
