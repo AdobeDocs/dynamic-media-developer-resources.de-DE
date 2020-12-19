@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
@@ -39,7 +42,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-In diesem Codebeispiel wird das Metadatenfeld einer Firma gelöscht. Es verwendet den Firmen-Handle und den Metadaten-Handle als Felder in der an den IPS-Webdienstserver `deleteMetadataFieldParam` weitergeleiteten Datei, um diese Aktion auszuführen.
+In diesem Codebeispiel wird das Metadatenfeld einer Firma gelöscht. Es verwendet den Firmen-Handle und den Metadaten-Handle als Felder im `deleteMetadataFieldParam`, die an den IPS-Webdienstserver übergeben werden, um diese Aktion auszuführen.
 
 **Anforderung**
 
