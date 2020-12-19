@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: swatches.pagemode
+seo-title: Swatches.pagemode
 solution: Experience Manager
-title: swatches.pagemode
+title: Swatches.pagemode
 topic: Dynamic media
 uuid: 531b9119-1433-4856-aaeb-9ba31378a457
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
 
-# swatches.pagemode{#swatches-pagemode}
+# Swatches.pagemode{#swatches-pagemode}
 
 `[Swatches.|<containerId>_swatches.]pagemode=0|1`
 
