@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Wenn ein bestimmtes Attribut nicht in einem bestimmten Bildkatalog gefunden werd
 
 Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (Makros, Schriftarten, ICC-Profil, Vorverarbeitungsregeln anfordern) bereit, wenn kein bestimmter Bildkatalog an einem Vorgang beteiligt ist.
 
-Damit der Plattformserver ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog benannt werden, muss immer im Katalogordner vorhanden sein und muss mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme [!DNL default.ini]`attribute::RootId` der Verweise auf die verschiedenen Katalogdatendateien, die alle optional sind.
+Damit der Plattformserver ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog den Namen [!DNL default.ini] haben, muss sich immer im Katalogordner befinden und muss mit allen erforderlichen Attributen gefüllt werden, mit Ausnahme von `attribute::RootId` und der Verweise auf die verschiedenen Katalogdatendateien, die alle optional sind.
 
 >[!NOTE]
 >
->Alle Katalogattributdateien [!DNL default.ini] müssen einen eindeutigen `attribute::RootId` Wert enthalten. `attribute::RootId` in [!DNL default.ini] muss leer sein.
+>Alle Katalogattributdateien mit Ausnahme von [!DNL default.ini] müssen einen eindeutigen `attribute::RootId`-Wert enthalten. `attribute::RootId` in  [!DNL default.ini] muss leer sein.
 
