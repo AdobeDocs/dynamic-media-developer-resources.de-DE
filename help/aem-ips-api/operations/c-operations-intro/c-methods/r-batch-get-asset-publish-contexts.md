@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -34,6 +37,7 @@ Syntax
 >
 >* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückgeben zu können.
 >* Alle Benutzer haben Zugriff auf die freigegebene Firma.
+
 >
 
 
