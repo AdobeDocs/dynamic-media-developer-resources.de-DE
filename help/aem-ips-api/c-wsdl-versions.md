@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Der IPS-Webdienst wird von einer Reihe von WSDL-Dokumenten (Web Services Descrip
 
 ## WSDL-Zugriff {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-Greifen Sie wie unten dargestellt auf die Scene7-WSDLs zu.
+Greifen Sie wie unten dargestellt auf die Scene7 WSDLs zu.
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
@@ -80,43 +83,43 @@ Denken Sie daran, dass Sie Ihren Code möglicherweise ändern müssen, wenn Sie 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>6.8/2014R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.6/2013R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ipsApi-2013-02-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> ipsApi-2013-02-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.0/2012R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.5 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
+   <td colname="col1"> <p>4,5 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.4 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.2 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ipsApi-2008-01-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
+   <td colname="col1"> <p>4,0 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> ipsApi-2008-01-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pre-4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +134,7 @@ Der IPS-API-Webdienst unterstützt nur eine SOAP-Bindung.
 
 **Unterstützte Transporte**
 
-Die IPS API SOAP-Bindung unterstützt nur HTTP-Transport. Nehmen Sie alle SOAP-Anforderungen mit der HTTPS POST-Methode vor.
+Die IPS API SOAP-Bindung unterstützt nur HTTP-Transport. Nehmen Sie alle SOAP-Anforderungen mit der HTTPS-POST vor.
 
 **SOAP-Aktionsheader**
 
@@ -139,11 +142,11 @@ Um eine Anforderung zu verarbeiten, setzen Sie den SOAPAction-HTTP-Header auf de
 
 **Nachrichtenformat**
 
-Der Stil &quot;Dokument/Literal&quot;wird für alle Eingabe- und Ausgabemeldungen verwendet, deren Typen auf der XML-Schema-Definitionssprache ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) basieren und in der WSDL-Datei angegeben sind. Für alle Typen sind qualifizierte Namensraum erforderlich, die den in der WSDL-Datei angegebenen Wert für die Zielgruppe verwenden.
+Der Stil &quot;Dokument/Literal&quot;wird für alle Eingabe- und Ausgabemeldungen verwendet, deren Typen auf der XML-Schema-Definitionssprache ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) basieren und die in der WSDL-Datei angegeben sind. Für alle Typen sind qualifizierte Namensraum erforderlich, die den in der WSDL-Datei angegebenen Wert für die Zielgruppe verwenden.
 
 **Authentifizierung anfordern**
 
-Die bevorzugte Methode zur Übergabe von Authentifizierungsberechtigungen in API-Anforderungen besteht darin, das `authHeader` Element zu verwenden, wie in der IPS-API-WSDL definiert.
+Die bevorzugte Methode zum Übergeben von Authentifizierungsberechtigungen in API-Anforderungen ist die Verwendung des Elements `authHeader`, wie in der IPS API-WSDL definiert.
 
 ```
 <element name="authHeader"> 
@@ -181,30 +184,30 @@ Die bevorzugte Methode zur Übergabe von Authentifizierungsberechtigungen in API
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> Optionales Gebietsschema für Anforderung. See <b>Locale</b> for details. </p> </td> 
+   <td colname="col2"> <p> Optionales Gebietsschema für Anforderung. Weitere Informationen finden Sie unter <b>Gebietsschema</b>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appName  </span> </p> </td> 
    <td colname="col2"> <p> Aufruf des Anwendungsnamens. Dieser Parameter ist optional, es wird jedoch empfohlen, ihn in alle Anforderungen einzubeziehen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appVersion </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
    <td colname="col2"> <p> Aufruf der Anwendungsversion. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gzipResponse </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
    <td colname="col2"> <p> Optionales Flag zum Aktivieren oder Deaktivieren der gzip-Komprimierung der Antwort-XML. Standardmäßig werden Antworten gzip-komprimiert, wenn der HTTP Accept-Encoding-Header die Unterstützung für gzip anzeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode  </span> </p> </td> 
    <td colname="col2"> <p> Optionaler Parameter zum Überschreiben des HTTP-Statuscodes für Fehlerantworten. Standardmäßig geben Fehlerantworten den HTTP-Statuscode 500 zurück (Interner Serverfehler). Einige Clientplattformen, einschließlich Adobe Flash, können den Antworttext nur lesen, wenn ein Statuscode von 200 (OK) zurückgegeben wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Das `authHeader` Element wird unabhängig von der API-Version immer im Namensraum definiert `http://www.scene7.com/IpsApi/xsd`.
+Das `authHeader`-Element wird unabhängig von der API-Version immer im Namensraum `http://www.scene7.com/IpsApi/xsd` definiert.
 
-Im Folgenden finden Sie ein Beispiel für die Verwendung des `authHeader` Elements in einem SOAP-Anforderungs-Header:
+Das folgende Beispiel zeigt die Verwendung des Elements `authHeader` in einem SOAP-Anforderungs-Header:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +222,17 @@ Im Folgenden finden Sie ein Beispiel für die Verwendung des `authHeader` Elemen
 
 **Andere Methoden zur Anforderungsauthentifizierung**
 
-Wenn es aus irgendeinem Grund nicht möglich ist, dass Ihre Clientanwendung den `authHeader` SOAP-Header übergibt, können API-Anforderungen auch Anmeldeinformationen mit der HTTP Basic-Authentifizierung angeben (wie in RFC 2617 angegeben).
+Wenn es aus irgendeinem Grund nicht möglich ist, dass Ihre Clientanwendung den SOAP-Header `authHeader` übergibt, können API-Anforderungen auch Anmeldeinformationen mithilfe der HTTP Basic-Authentifizierung angeben (wie in RFC 2617 angegeben).
 
-Für die HTTP Basic-Authentifizierung muss der HTTP-Header-Abschnitt jeder SOAP POST-Anforderung eine Kopfzeile des Formulars enthalten:
+Für die HTTP Basic-Authentifizierung muss der HTTP-Header-Abschnitt jeder SOAP-POST-Anforderung eine Kopfzeile des Formulars enthalten:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Bei `base64()` Anwendung der standardmäßigen Base64-Kodierung ist `<IPS_user_email>` die E-Mail-Adresse eines gültigen IPS-Benutzers und `<password>` das Kennwort des Benutzers angegeben.
+Dabei ist `base64()` die standardmäßige Base64-Kodierung, `<IPS_user_email>` die E-Mail-Adresse eines gültigen IPS-Benutzers und `<password>` das Kennwort des Benutzers.
 
-Senden Sie den Autorisierungs-Header mit der ursprünglichen Anforderung präventiv. Wenn keine Authentifizierungsberechtigungen in der Anforderung enthalten sind, antwortet `IpsApiService` nicht mit einem Statuscode von `401 (Unauthorized)`. Stattdessen `500 (Internal Server Error)` wird ein Statuscode mit einem SOAP-Fehlerkörper zurückgegeben, der angibt, dass die Anforderung nicht authentifiziert werden konnte.
+Senden Sie den Autorisierungs-Header mit der ursprünglichen Anforderung präventiv. Wenn keine Authentifizierungsberechtigungen in der Anforderung enthalten sind, antwortet `IpsApiService` nicht mit dem Statuscode `401 (Unauthorized)`. Stattdessen wird ein Statuscode von `500 (Internal Server Error)` mit einem SOAP-Fehlerkörper zurückgegeben, der angibt, dass die Anforderung nicht authentifiziert werden konnte.
 
-Vor IPS 3.8 wurde die Authentifizierung über den SOAP-Header mithilfe der Elemente `AuthUser` und `AuthPassword` im Namensraum implementiert `http://www.scene7.com/IpsApi`. Beispiel:
+Vor IPS 3.8 wurde die Authentifizierung über den SOAP-Header mithilfe der Elemente `AuthUser` und `AuthPassword` im Namensraum `http://www.scene7.com/IpsApi` implementiert. Beispiel:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,7 +241,7 @@ Vor IPS 3.8 wurde die Authentifizierung über den SOAP-Header mithilfe der Eleme
 </soap:Header>
 ```
 
-Dieser Stil wird noch aus Gründen der Abwärtskompatibilität unterstützt, wurde jedoch zugunsten des `authHeader` Elements aufgegeben.
+Dieser Stil wird noch aus Gründen der Abwärtskompatibilität unterstützt, wurde jedoch zugunsten des Elements `authHeader` aufgegeben.
 
 **Autorisierung anfordern**
 
@@ -246,7 +249,7 @@ Nachdem die Anmeldeinformationen des Aufrufers authentifiziert wurden, wird die 
 
 **Beispiel für SOAP-Anforderung und -Antwort**
 
-Das folgende Beispiel zeigt einen vollständigen `addCompany` Vorgang, einschließlich HTTP-Kopfzeilen:
+Das folgende Beispiel zeigt einen vollständigen `addCompany`-Vorgang, einschließlich HTTP-Header:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +303,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP-Fehler**
 
-Wenn ein Vorgang auf eine Ausnahmebedingung trifft, wird ein SOAP-Fehler als SOAP-Nachrichtentext anstelle der normalen Antwort zurückgegeben. Wenn beispielsweise ein Benutzer ohne Administratorrechte versucht, die vorherige `addCompany` Anforderung zu senden, wird die folgende Antwort zurückgegeben:
+Wenn ein Vorgang auf eine Ausnahmebedingung trifft, wird ein SOAP-Fehler als SOAP-Nachrichtentext anstelle der normalen Antwort zurückgegeben. Wenn ein Benutzer, der keine Administratorrechte besitzt, beispielsweise versucht, die vorherige `addCompany`-Anforderung zu senden, wird die folgende Antwort zurückgegeben:
 
 ```
 HTTP/1.1 500 Internal Server Error 
