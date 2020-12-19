@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 11%
 
 ---
 
@@ -33,8 +36,8 @@ Der Viewer unterstützt Untertitel über gehostete WebVTT-Dateien. Überschneide
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>Textausrichtung </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|Beginn|end </span> </p> </td> 
-   <td colname="col4"> <p> Textausrichtung steuern </p> <p>Der Standardwert ist <span class="codeph"> Mitte </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|Beginn|end  </span> </p> </td> 
+   <td colname="col4"> <p> Textausrichtung steuern </p> <p>Der Standardwert ist <span class="codeph"> middle </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
@@ -62,7 +65,7 @@ Andere WebVTT-Funktionen, die in der WebVTT-Datei vorhanden sind, werden nicht u
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> -Datei </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Stellen Sie die WebVTT-Datei per Image Serving bereit. </p> </td> 
   </tr> 
   <tr> 
