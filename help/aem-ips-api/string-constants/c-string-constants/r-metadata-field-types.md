@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Syntax
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Ein Sonderfall [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das in die Werte [!DNL `True`] und [!DNL `False`]Werte initialisiert wurde.
+* [!DNL `BooleanTag`]: Ein Sonderfall  [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das in die Werte  [!DNL `True`] und  [!DNL `False`]Werte initialisiert wurde.
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -32,7 +35,7 @@ Syntax
 * [!DNL `Int`]
 * [!DNL `MultiFixedTag`]: Null oder mehr Zeichenfolgenwerte aus einem geschlossenen Wörterbuch. Das Wörterbuch kann nur von Administratoren geändert werden.
 * [!DNL `MultiTag`]: Null oder mehr Zeichenfolgenwerte.
-* [!DNL `SingleFixedTag`]: Ein einzelner Zeichenfolgenwert aus einem geschlossenen Wörterbuch. Wenn `setAssetMetadata` oder `batchSetAssetMetadata` ein Wert nicht im Wörterbuch aufgerufen wird, wird ein Fehler zurückgegeben. Das Wörterbuch kann nur von Administratoren geändert werden.
+* [!DNL `SingleFixedTag`]: Ein einzelner Zeichenfolgenwert aus einem geschlossenen Wörterbuch. Wenn `setAssetMetadata` oder `batchSetAssetMetadata` mit einem Wert aufgerufen werden, der nicht im Wörterbuch enthalten ist, wird ein Fehler zurückgegeben. Das Wörterbuch kann nur von Administratoren geändert werden.
 
 * [!DNL `SingleTag`]: Ein beliebiger Zeichenfolgenwert.
 * [!DNL `String`]
