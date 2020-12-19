@@ -8,22 +8,25 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8594f746-0e58-4a59-933c-a44dc0b06c25
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 0%
 
 ---
 
 
 # Ansicht-Transformation für Bilder{#view-transform-for-images}
 
-Das Bild, das dem Client als Antwort auf eine `req=img` Anforderung zurückgegeben wird, wird vom Composite-Bild abgeleitet, indem die folgenden Werte berücksichtigt werden: `wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix`und die Größe des Composite-Bildes.
+Das Bild, das dem Client als Antwort auf eine `req=img`-Anforderung zurückgegeben wird, wird vom Composite-Bild abgeleitet, indem die folgenden Werte berücksichtigt werden: `wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix` und die Größe des Composite-Bildes.
 
-Wenn `wid=` und `hei=` Sie dies nicht tun, wird das Composite-Bild so skaliert, dass es vollständig in die Ansicht rect von `scl=` und `wid=` `hei=`. Wenn das Seitenverhältnis des Ansicht rect sich von dem des Composite-Bilds unterscheidet, wird das skalierte Composite-Bild innerhalb des Ansicht-Rects mit dem `align=` Wert (falls angegeben) ausgerichtet oder anderweitig zentriert. Alle Leerzeichen, die nicht von Bilddaten abgedeckt werden, werden mit `bgc=` oder, falls nicht angegeben, mit `attribute::BkgColor`gefüllt.
+Wenn `wid=` und `hei=` angegeben sind und `scl=` nicht, wird das Composite-Bild so skaliert, dass es vollständig in den durch `wid=` und `hei=` definierten Ansicht-Rekt passt. Wenn das Seitenverhältnis des Ansicht rect sich von dem des Composite-Bilds unterscheidet, wird das skalierte Composite-Bild innerhalb des Ansicht-Rects mit dem Wert `align=` (sofern angegeben) ausgerichtet oder anderweitig zentriert. Alle Leerzeichen, die nicht von Bilddaten abgedeckt werden, werden mit `bgc=` oder, falls nicht angegeben, mit `attribute::BkgColor` gefüllt.
 
-Wenn `scl=` angegeben, wird das Composite-Bild um diesen Skalierungsfaktor skaliert. Wenn `wid=` und/oder `hei=` auch angegeben wird, wird das skalierte Bild zugeschnitten `wid=` `hei=` und/oder es wird zusätzlicher Speicherplatz hinzugefügt, je nach Bedarf. `align=` gibt an, wo das Bild beschnitten wird oder zusätzlicher Speicherplatz hinzugefügt wird und zusätzlicher Speicherplatz mit `bgc=` oder `attribute::BkgColor`gefüllt wird.
+Wenn `scl=` angegeben ist, wird das Composite-Bild um diesen Skalierungsfaktor skaliert. Wenn auch `wid=` und/oder `hei=` angegeben ist, wird das skalierte Bild auf `wid=` zugeschnitten und/oder `hei=` oder es wird nach Bedarf zusätzlicher Speicherplatz hinzugefügt. `align=` gibt an, wo das Bild beschnitten wird oder zusätzlicher Speicherplatz hinzugefügt wird und zusätzlicher Speicherplatz mit  `bgc=` oder  `attribute::BkgColor`gefüllt wird.
 
-Wenn weder `wid=`noch `hei=` noch `scl=` angegeben wurden und die Breite oder Höhe des Composite-Bilds größer ist `attribute::DefaultPix`, wird das Composite-Bild skaliert, um nicht größer zu sein `attribute::DefaultPix`. Andernfalls wird das Composite-Bild ohne Skalierung verwendet.
+Wenn weder `wid=` noch `hei=` noch `scl=` angegeben sind und die Breite oder Höhe des Composite-Bildes `attribute::DefaultPix` überschreitet, wird das Composite-Bild skaliert, um nicht größer als `attribute::DefaultPix` zu sein. Andernfalls wird das Composite-Bild ohne Skalierung verwendet.
 
-Um sicherzustellen, dass das Bild der Ansicht ohne weitere Skalierung zurückgegeben wird, geben Sie `scl=1`an.
+Um sicherzustellen, dass das Ansicht-Image ohne weitere Skalierung zurückgegeben wird, geben Sie `scl=1` an.
 
-Wenn dies angegeben `rgn=` ist, wird das Antwortbild entsprechend abgeschnitten, um die endgültige Antwortbildgröße zu erhalten. Diese Größe wird mit `attribute::MaxPix` (sofern definiert) verglichen und es wird ein Fehler generiert, wenn das Antwortbild in beiden Dimensionen größer ist.
+Wenn `rgn=` angegeben ist, wird das Antwortbild entsprechend beschnitten, um die endgültige Antwortbildgröße zu erhalten. Diese Größe wird mit `attribute::MaxPix` (sofern definiert) verglichen. Wenn das Antwortbild größer ist, wird ein Fehler erzeugt.
 
-Wenn Daten ohne Alpha `fmt=` angegeben werden, werden alle transparenten Bereiche im Antwortbild mit `bgc=` oder `attribute::BkgColor`gefüllt.
+Wenn `fmt=` Daten ohne Alpha angibt, werden transparente Bereiche im Antwortbild mit `bgc=` oder `attribute::BkgColor` gefüllt.
