@@ -1,6 +1,6 @@
 ---
-description: Legt ein XMP-Metadatenpaket für ein Asset fest oder aktualisiert es.
-seo-description: Legt ein XMP-Metadatenpaket für ein Asset fest oder aktualisiert es.
+description: Legt ein XMP Metadatenpaket für ein Asset fest oder aktualisiert es.
+seo-description: Legt ein XMP Metadatenpaket für ein Asset fest oder aktualisiert es.
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 22%
 
 ---
 
 
 # updateXMPPacket{#updatexmppacket}
 
-Legt ein XMP-Metadatenpaket für ein Asset fest oder aktualisiert es.
+Legt ein XMP Metadatenpaket für ein Asset fest oder aktualisiert es.
 
 Syntax
 
@@ -36,13 +39,13 @@ Syntax
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
 | ` *`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| ` *`compressionPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP-Paket, das Sie einstellen oder aktualisieren möchten. |
+| ` *`compressionPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP Paket, das Sie einstellen oder aktualisieren möchten. |
 
 **Output (updateXMPPacketReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`Erfolg`*` | `xsd:boolean` | Ja | Gibt zurück, `true` wenn das Paket aktualisiert wurde. |
+| ` *`Erfolg`*` | `xsd:boolean` | Ja | Gibt `true` zurück, wenn das Paket aktualisiert wurde. |
 
 ## Beispiele {#section-38b556b94e5044bf97a954519ff6c212}
 
