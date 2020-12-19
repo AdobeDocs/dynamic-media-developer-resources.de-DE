@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d3294434-a44b-4742-9d77-a6945760d33c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ In der folgenden Tabelle werden die einzelnen Typen von Standardwarnungen beschr
   <tr> 
    <td> <p>Hohe Konsequenz </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Wird ausgegeben, wenn die Anzahl der gleichzeitig verarbeiteten Anforderungen (die <i>Überschneidung</i>) den angegebenen Schwellenwert überschreitet. Kann auf eine Überlastungsbedingung des Servers hindeuten. </td> 
+   <td> Wird ausgegeben, wenn die Anzahl der gleichzeitig verarbeiteten Anforderungen (die <i>überlappende</i>) den angegebenen Schwellenwert überschreitet. Kann auf eine Überlastungsbedingung des Servers hindeuten. </td> 
   </tr> 
   <tr> 
    <td> <p>Minimaler Traffic </p> </td> 
