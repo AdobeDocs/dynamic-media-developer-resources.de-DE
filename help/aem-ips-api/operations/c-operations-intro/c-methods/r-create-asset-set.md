@@ -45,38 +45,38 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Das Handle für die Firma, die den Asset-Set enthalten soll. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Das Handle für den Ordner, in dem der neue Asset-Satz erstellt wird. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Asset-Name. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Eine eindeutige ID, die vom Client für den Asset-Set-Typ erstellt wird. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Die Parameter in der Zeichenfolge für die festgelegte Definition. <p>Diese müssen in dem vom Zielgruppe-Viewer angegebenen Format aufgelöst werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Handhabung des Assets, das als Miniaturansicht für den neuen Bildsatz fungiert. Ist dies nicht der Fall, versucht IPS, das erste Bild-Asset zu verwenden, auf das der Satz verweist. </td> 
   </tr> 
@@ -89,7 +89,7 @@ Sie können Ersatzfunktionen in einer Zeile angeben, die während der Katalogsuc
 
 >[!NOTE]
 >
->Die Griffliterale in den Listen der Parameter müssen in Klammern stehen `([])`. Der gesamte Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabestrategie kopiert.
+>Die Handle-Literale in den Parameter-Listen müssen von Klammern `([])` umgeben sein. Der gesamte Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabestrategie kopiert.
 
 | **Substitutionsfunktion** | **Rückgabe** |
 |---|---|
