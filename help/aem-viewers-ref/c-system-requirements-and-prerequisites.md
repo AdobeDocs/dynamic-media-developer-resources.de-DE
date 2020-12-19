@@ -22,7 +22,7 @@ Systemanforderungen für HTML5-Viewer.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Serverhardware und -software {#section-05099146f1f0418988c196635110bee6}
+## Server-Hardware und -Software {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 oder höher.
 * HTML5-Viewer erfordern SDK JavaScript-serverseitige Bibliotheken 3.9.1 oder höher.
@@ -49,7 +49,7 @@ Systemanforderungen für HTML5-Viewer.
 
 >[!NOTE]
 >
->Ab dem 30. September 2018 wird die Unterstützung für Transport Layer Security 1.0 (TLS 1.0) von Adobe Dynamic Media Classic Viewers eingestellt. Demzufolge unterstützt Dynamic Media Classic keine Viewer mehr in den folgenden Browsern und/oder Plattformen, die TLS 1.0 unterstützen. (Adobe Systems empfiehlt die Verwendung von TLS 1.2 oder höher.)
+>Ab dem 30. September 2018 beendet die Adobe Dynamic Media Classic Viewers die Unterstützung von Transport Layer Security 1.0 (TLS 1.0). Daher unterstützt Dynamic Media Classic keine Viewer mehr in den folgenden Browsern und/oder Plattformen, die TLS 1.0 unterstützen. (Adobe Systems empfiehlt die Verwendung von TLS 1.2 oder höher.)
 
 * Android 2.3.7
 * Android 4.0.4
@@ -71,6 +71,6 @@ Systemanforderungen für HTML5-Viewer.
 
 >[!NOTE]
 >
->FLASH VIEWERS ENDE-OF-LIFE - Ab dem 31. Januar 2017 hat Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website:
+>FLASH VIEWERS END-OF-LIFE - Ab dem 31. Januar 2017 hat Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website:
 
 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
