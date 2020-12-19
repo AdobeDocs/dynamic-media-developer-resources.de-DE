@@ -1,6 +1,6 @@
 ---
-description: Das Vignette-Authoring-Tool (Teil des Scene7-Image-Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenrendering-Engine auf niedriger Ebene.
-seo-description: Das Vignette-Authoring-Tool (Teil des Scene7-Image-Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenrendering-Engine auf niedriger Ebene.
+description: Das Vignette Authoring-Tool (Teil des Scene7 Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
+seo-description: Das Vignette Authoring-Tool (Teil des Scene7 Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
 seo-title: Erweiterte Rendereinstellungen
 solution: Experience Manager
 title: Erweiterte Rendereinstellungen
@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 24%
 
 ---
 
 
 # Erweiterte Rendereinstellungen{#advanced-render-settings}
 
-Das Vignette-Authoring-Tool (Teil des Scene7-Image-Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenrendering-Engine auf niedriger Ebene.
+Das Vignette Authoring-Tool (Teil des Scene7 Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
 
 >[!NOTE]
 >
->Rendereinstellungen sind eine erweiterte Funktion von Image Rendering und Image Authoring. Wenden Sie sich an den technischen Support von Adobe oder Ihren Adobe-Consulting-Kundenbetreuer, um Schulungen und/oder Konsultationen zur Verwendung der Render-Einstellungen zu erhalten.
+>Rendereinstellungen sind eine erweiterte Funktion von Image Rendering und Image Authoring. Wenden Sie sich an den technischen Support der Adobe oder an Ihren Ansprechpartner für Adobe, um Schulungen, Beratungen oder beides zu erhalten, wenn Sie Rendereinstellungen verwenden möchten.
 
-Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist möglich, dieselben Einstellungen im Bild-Rendering mit dem `rs=` Befehl (oder mit dem `catalog::RenderSettings` Wert) anzuwenden. Dieser Mechanismus wird verwendet, um für jedes Material unterschiedliche Scharfzeichnungsoptionen auszuwählen und das Verhalten der Beleuchtungswiedergabebesatzalgorithmen zu ändern, z. B. die Sättigung von Lichtern oder den Kontrast in Schatten.
+Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist möglich, dieselben Einstellungen im Image Rendering mit dem Befehl `rs=` (oder mit dem Wert `catalog::RenderSettings`) anzuwenden. Dieser Mechanismus wird verwendet, um für jedes Material unterschiedliche Scharfzeichnungsoptionen auszuwählen und das Verhalten der Beleuchtungswiedergabebesatzalgorithmen zu ändern, z. B. die Sättigung von Lichtern oder den Kontrast in Schatten.
 
-## Erweiterte Rendereinstellungen (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## Erweiterte Rendereinstellung (rs=) Werte {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -52,14 +55,14 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM-Betrag (%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM-Radius (Pixel). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -73,7 +76,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Größenänderungsmodus. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -109,7 +112,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Zufallsrate. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „5“. </p> </td> 
   </tr> 
@@ -130,7 +133,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Beispiele/Pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
   </tr> 
@@ -138,7 +141,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
    <td colname="col1"> <p>J </p> </td> 
    <td colname="col2"> <p>Poisson: Verwenden Sie Umschalter. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
   </tr> 
   <tr> 
@@ -298,7 +301,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
  </tbody> 
 </table>
 
-## Beispieleinstellungen für erweiterte Wiedergabe {#section-56528569eae44ecd997a289b211ff256}
+## Beispiel für erweiterte Rendereinstellungen {#section-56528569eae44ecd997a289b211ff256}
 
 <table id="table_062DCF66ACCC4A6997E3CA951C0A12B8"> 
  <thead> 
