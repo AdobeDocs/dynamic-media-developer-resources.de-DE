@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
 
-# Image Rendering HTTP-Kodierung{#image-rendering-http-encoding}
+# Image Rendering HTTP encoding{#image-rendering-http-encoding}
 
 Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werden, sodass die Wertzeichenfolgen nicht die reservierten Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; enthalten.
 
