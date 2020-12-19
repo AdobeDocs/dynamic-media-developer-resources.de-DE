@@ -1,6 +1,6 @@
 ---
-description: Der Video-Viewer unterstützt die sofortige Verfolgung durch Adobe Analytics.
-seo-description: Der Video-Viewer unterstützt die sofortige Verfolgung durch Adobe Analytics.
+description: Der Video-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
+seo-description: Der Video-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
 seo-title: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
@@ -8,25 +8,28 @@ topic: Dynamic media
 uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
 
-# Unterstützung der Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
 
-Der Video-Viewer unterstützt die sofortige Verfolgung durch Adobe Analytics.
+Der Video-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
 
 ## Vordefinierte Verfolgung {#section-3b101fe30be943c1b679fd5c273569ca}
 
-Der Video-Viewer unterstützt die sofortige Verfolgung durch Adobe Analytics.
+Der Video-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
 
-Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als `config2` Parameter.
+Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als Parameter `config2`.
 
 Der Viewer sendet außerdem eine einzige Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerspezifische Verfolgung {#section-ab10bd7caf184721a366cf3953071934}
 
-Zur Integration mit Analysesystemen von Drittanbietern müssen Sie bei Bedarf auf `trackEvent` Viewer-Rückruf- und Prozessargument `eventInfo` der Rückruffunktion hören. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, nach Bedarf auf das `trackEvent`-Viewer-Rückruffunktion zu warten und das `eventInfo`-Argument der Rückruffunktion zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -67,7 +70,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset mithilfe der <span class="codeph"> setAsset()- </span> API im Viewer getauscht wird. </p> </td> 
+   <td colname="col2"> <p>ein Asset mit der API <span class="codeph"> setAsset() </span> im Viewer getauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
