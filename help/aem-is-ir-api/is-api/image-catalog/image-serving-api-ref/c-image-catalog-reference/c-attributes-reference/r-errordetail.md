@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +36,7 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java-Stapelspuren hinzu. Fehlerbilder enthalten keine Stapelspuren und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span>zurück. Diese Informationen können nützlich sein, wenn Berichte beim technischen Support von Scene7 auftreten. </p></td> 
+  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java-Stapelspuren hinzu. Fehlerbilder enthalten keine Stapelspuren und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. Diese Informationen können nützlich sein, wenn Berichte beim Scene7 Tech Support auftreten. </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +46,7 @@ Enumerierter Wert muss 0, 1, 2 oder 3 sein.
 
 ## Standard {#section-8f27098e509945a18676aca0675c8f41}
 
-Vererbt von, `default::ErrorDetail` wenn nicht angegeben oder leer.
+Von `default::ErrorDetail` übernommen, wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-5451b0525ed74121950bfc34726c3970}
 
