@@ -1,6 +1,6 @@
 ---
-description: URL-Präfix für Flash Streaming Server. URL-Präfix für Flash-Streaming-Server, das beim Generieren von f4m-Antworten mit req=mbrSet verwendet wird.
-seo-description: URL-Präfix für Flash Streaming Server. URL-Präfix für Flash-Streaming-Server, das beim Generieren von f4m-Antworten mit req=mbrSet verwendet wird.
+description: URL-Präfix des Flash-Streaming-Servers. Flash Streaming Server-URL-Präfix, das beim Generieren von Multi-Bit-Rate von f4m-Antworten mit req=mbrSet verwendet wird.
+seo-description: URL-Präfix des Flash-Streaming-Servers. Flash Streaming Server-URL-Präfix, das beim Generieren von Multi-Bit-Rate von f4m-Antworten mit req=mbrSet verwendet wird.
 seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-URL-Präfix für Flash Streaming Server. URL-Präfix für Flash-Streaming-Server, das beim Generieren von f4m-Antworten mit req=mbrSet verwendet wird.
+URL-Präfix des Flash-Streaming-Servers. Flash Streaming Server-URL-Präfix, das beim Generieren von Multi-Bit-Rate von f4m-Antworten mit req=mbrSet verwendet wird.
 
 ## Eigenschaften {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
