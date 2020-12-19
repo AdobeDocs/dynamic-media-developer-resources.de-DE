@@ -23,7 +23,7 @@ Siehe auch [Hochladen von Assets über HTTP-POSTs zum Hochladen...](../../c-http
 
 >[!NOTE]
 >
->Alle POST-Anforderungen für einen Upload-Auftrag müssen von derselben IP-Adresse stammen.
+>Alle Anfragen zur POST eines Upload-Auftrags müssen von derselben IP-Adresse stammen.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -101,7 +101,7 @@ Siehe auch [Hochladen von Assets über HTTP-POSTs zum Hochladen...](../../c-http
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:MediaOptions</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Optionen, mit denen Sie ein Miniaturbild aus dem Video festlegen können. </p> <p>Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> Medienoptionen</a>. </p> </td> 
+   <td colname="col4"> <p>Optionen, mit denen Sie ein Miniaturbild aus dem Video festlegen können. </p> <p>Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> überschreiben</span> </span> </td> 
@@ -137,7 +137,7 @@ Siehe auch [Hochladen von Assets über HTTP-POSTs zum Hochladen...](../../c-http
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Steuert die Beibehaltung einer vorhandenen Schnittdefinition. Der Standardwert ist „true“.</p> <p>Wenn Sie den Parameter manualCropOptions und die entsprechenden Werte angeben, werden die neuen Werte (außer 0,0,0,0) unabhängig vom Wert preserveCrop auf das Asset angewendet.</p><p>Wenn Sie den Parameter manualCropOptions <i>nicht</i> angeben, wird der Wert von preserveCrop beibehalten. Bei "true"werden die vorhandenen preserveCrop-Werte beibehalten. Bei false werden die preserveCrop-Werte entfernt.</p><p>Beispiel:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
+   <td colname="col4"> <p>Steuert die Beibehaltung einer vorhandenen Schnittdefinition. Der Standardwert ist „true“.</p> <p>Wenn Sie den Parameter manualCropOptions und die entsprechenden Werte angeben, werden die neuen Werte (außer 0,0,0,0) unabhängig vom Wert preserveCrop auf das Asset angewendet.</p><p>Wenn Sie <i>not</i> den Parameter manualCropOptions angeben, wird der Wert von preserveCrop beibehalten. Und bei true werden die vorhandenen preserveCrop-Werte beibehalten. Bei false werden die preserveCrop-Werte entfernt.</p><p>Beispiel:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
