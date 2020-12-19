@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82284e25-cfe0-4cf8-b410-b49196cc721c
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Ein Material besteht aus einem Satz von *Attributen*. Einige Attribute sind für
 
 Alle Attribute, die innerhalb eines Materialspezifikationssegments (MSS) auftreten, aber weder oben noch in den spezifischen Materialtabellen unten aufgeführt sind, werden vom Server ignoriert.
 
-In den folgenden Tabellen werden die grundlegenden Materialattribute Liste. IR unterstützt zusätzliche Attribute zur Steuerung [erweiterter Rendereffekte](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
+In den folgenden Tabellen werden die grundlegenden Materialattribute Liste. IR unterstützt zusätzliche Attribute zur Steuerung von [erweiterten Rendereffekten](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
 
 Sofern nicht anders angegeben, sind alle Materialattribute optional mit geeigneten Standardwerten.
 
