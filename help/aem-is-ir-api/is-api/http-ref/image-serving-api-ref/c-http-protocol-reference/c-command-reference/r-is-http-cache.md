@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 1%
 
 ---
 
@@ -35,24 +38,24 @@ Cachesteuerung. Ermöglicht die selektive Deaktivierung der clientseitigen Zwisc
  </tr> 
 </table>
 
-Wenn nur ein ` *`CacheControl`*` -Wert angegeben ist, wird er sowohl auf Client- als auch auf Server-Caches angewendet.
+Wenn nur ein ` *`cacheControl`*`-Wert angegeben ist, wird er sowohl auf Client- als auch auf Server-Caches angewendet.
 
-Der `validate` Suchbegriff ermöglicht das Aktualisieren von Cache-Einträgen nach einer Änderung der Bilddateien, ohne dass der Cache-Eintrag automatisch ablaufen muss. Die Zwischenspeicherung im Client wird von diesem Befehl nicht beeinflusst.
+Das Schlüsselwort `validate` erlaubt das Aktualisieren von Cache-Einträgen, nachdem Bilddateien geändert wurden, ohne dass der Cache-Eintrag automatisch ablaufen muss. Die Zwischenspeicherung im Client wird von diesem Befehl nicht beeinflusst.
 
-Der `update` Suchbegriff kann verwendet werden, um die Aktualisierung serverseitiger Cache-Einträge zu erzwingen. Dies ist nützlich, wenn Ressourcen geändert wurden, die nicht direkt vom Cache-Überprüfungsmechanismus verfolgt werden, z. B. wenn eine Schriftartdatei ohne Änderung des Dateinamens oder der zugehörigen Schriftart-ID geändert wird.
+Mit dem Schlüsselwort `update` können Sie erzwingen, serverseitige Cache-Einträge zu aktualisieren. Dies ist nützlich, wenn Ressourcen geändert wurden, die nicht direkt vom Cache-Überprüfungsmechanismus verfolgt werden, z. B. wenn eine Schriftartdatei ohne Änderung des Dateinamens oder der zugehörigen Schriftart-ID geändert wird.
 
-Wenn dies in einer verschachtelten Anforderung angegeben ist, `cache=on` wird die permanente, serverseitige Zwischenspeicherung des von der verschachtelten Anforderung generierten Bildes aktiviert. Es sollte darauf geachtet werden, dass die Zwischenspeicherung für verschachtelte Anforderungen nur aktiviert wird, wenn erwartet wird, dass dieselbe verschachtelte Anforderung wiederholt mit genau denselben Parametern aufgerufen wird.
+Wenn in einer verschachtelten Anforderung angegeben, aktiviert `cache=on` die permanente, serverseitige Zwischenspeicherung des von der verschachtelten Anforderung generierten Bildes. Es sollte darauf geachtet werden, dass die Zwischenspeicherung für verschachtelte Anforderungen nur aktiviert wird, wenn erwartet wird, dass dieselbe verschachtelte Anforderung wiederholt mit genau denselben Parametern aufgerufen wird.
 
 ## Eigenschaften {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Wird ignoriert, wenn die Anforderung kein Antwortbild zurückgibt. *`clientControl`*wird ignoriert, wenn die clientseitige Zwischenspeicherung vom Bildkatalog deaktiviert wird (wenn `catalog::Expiration` ein negativer Wert vorliegt).
+Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Wird ignoriert, wenn die Anforderung kein Antwortbild zurückgibt. *`clientControl`*wird ignoriert, wenn die clientseitige Zwischenspeicherung vom Bildkatalog deaktiviert wird (wenn `catalog::Expiration` einen negativen Wert hat).
 
-Clientseitige Cachesteuerung ( `on` und `off` nur) steht auch für statische Inhaltsanforderungen zur Verfügung [!DNL /is/content/].
+Clientseitige Cache-Steuerung ( `on` und `off`) ist auch für statische Inhaltsanforderungen unter [!DNL /is/content/] verfügbar.
 
 ## Standard {#section-4124b2c836e2491489b9009a92fe4f22}
 
-`cache=on,on` für HTTP-Anforderungen, `cache=off` für verschachtelte/eingebettete Anforderungen `cache=on` für statische Inhaltsanforderungen.
+`cache=on,on` für HTTP-Anforderungen,  `cache=off` für verschachtelte/eingebettete Anforderungen  `cache=on` für statische Inhaltsanforderungen.
 
 ## Verwandte Themen {#section-7c2ac171fa0e4aa4a2e9955fd2d2013e}
 
-[Katalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) , [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[Katalog::Ablauf](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) ,  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
