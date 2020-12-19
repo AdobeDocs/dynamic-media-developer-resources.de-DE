@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ In der Befehlssequenz URL oder Katalog::Modifier wird eine Ebenendefinitionssequ
 
 Alle Befehle innerhalb der Ebenendefinitionssequenz sind mit der Ebene verknüpft.
 
-Der `layer=` Befehl gibt eine Ebenennummer an, bei der es sich um eine Ganzzahl von 0 oder größer handeln muss. Alle Befehle in Ebenendefinitionssequenzen mit derselben Ebenenzahl werden auf dieselbe Ebene angewendet. Wenn derselbe Befehl mehrmals auftritt, ist die letzte Instanz gültig.
+Der Befehl `layer=` gibt eine Ebenennummer an, bei der es sich um eine Ganzzahl von 0 oder größer handeln muss. Alle Befehle in Ebenendefinitionssequenzen mit derselben Ebenenzahl werden auf dieselbe Ebene angewendet. Wenn derselbe Befehl mehrmals auftritt, ist die letzte Instanz gültig.
