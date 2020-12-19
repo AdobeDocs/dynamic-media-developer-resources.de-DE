@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 11%
 
 ---
 
@@ -39,13 +42,13 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Behandeln Sie den Benutzer, dessen Gruppenmitgliedschaft Sie hinzufügen möchten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array von Handles zu den Gruppen, zu denen die Firma gehören soll. </p> </td> 
@@ -59,7 +62,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-In diesem Beispiel wird einer Firma mit ` *`groupHandleArray`*`eine Gruppe hinzugefügt. In diesem Beispiel wird nur eine Gruppe verwendet.
+In diesem Beispiel wird einer Firma mit ` *`groupHandleArray`*` eine Gruppe hinzugefügt. In diesem Beispiel wird nur eine Gruppe verwendet.
 
 **Anforderung**
 
