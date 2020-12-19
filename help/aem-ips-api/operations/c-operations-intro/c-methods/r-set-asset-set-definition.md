@@ -44,15 +44,15 @@ Syntax
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
-## setDefinition-Parameter: Info {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition-Parameter: Über {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **setDefinition-Funktionen**
 
-Legen Sie `setDefinition` die Ersatzfunktionen inline fest. Diese werden während einer Katalogsuche oder bei der Veröffentlichung behoben. Ersatzzeichenfolgen haben das Format `${<substitution_func>}`und beinhalten Folgendes:
+Legen Sie die Ersetzungsfunktionen für `setDefinition` inline fest. Diese werden während einer Katalogsuche oder bei der Veröffentlichung behoben. Ersatzzeichenfolgen haben das Format `${<substitution_func>}` und beinhalten Folgendes:
 
 >[!NOTE]
 >
->Handle-Literale in den Listen der Parameter müssen in Klammern stehen `([])`. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabestrategie kopiert.
+>Handle-Literale in den Parameter Listen müssen von Klammern `([])` umgeben sein. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabestrategie kopiert.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -63,19 +63,19 @@ Legen Sie `setDefinition` die Ersatzfunktionen inline fest. Diese werden währen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Primär-Dateipfad. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Katalog-ID. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> Asset_Handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> Metadatenwert. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Katalog-ID. Gilt für bildbasierte Assets (Image, Angepasste Ansicht, Layer Ansicht). <p>Bei anderen Assets wird die Katalog-ID des Daumenassets zurückgegeben (sofern vorhanden). Wenn dem Asset kein Thumb-Asset zugeordnet ist, gibt die Funktion eine leere Zeichenfolge zurück. </p> </td> 
   </tr> 
  </tbody> 
