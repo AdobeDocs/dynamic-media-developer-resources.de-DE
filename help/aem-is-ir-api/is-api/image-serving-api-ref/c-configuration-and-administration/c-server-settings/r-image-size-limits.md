@@ -15,23 +15,23 @@ ht-degree: 0%
 ---
 
 
-# Bildgrößenbegrenzungen{#image-size-limits}
+# Maximale Bildgröße{#image-size-limits}
 
 Verwenden Sie diese Servereinstellungen, um Bildgrößenbeschränkungen festzulegen.
 
-## IS::MaxMessageSize - Maximale Antwortgröße {#section-bd942385d4d144cd904003695d72c85e}
+## IS::MaxMessageSize - Antwortgrößenbeschränkung {#section-bd942385d4d144cd904003695d72c85e}
 
-Begrenzt die Datengröße, die der Image-Server an den Platform-Server senden darf. Dadurch wird die Größe des kodierten/komprimierten Antwortbilds begrenzt, das Image Serving über HTTP (Mbyte) an den Client zurückgeben kann.
+Begrenzt die Größe der Daten, die der Image-Server an den Platform Server senden darf. Dadurch wird die Größe des kodierten/komprimierten Antwortbilds begrenzt, das Image Serving über HTTP (Mbyte) an den Client zurückgeben kann.
 
-## IS::MaxRenderRgnPixels - Maximale Bildgröße {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
+## IS::MaxRenderRgnPixels - Maximale Bildgröße für Ausgabe {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
 Begrenzt die Größe der Bilder, die vom Image-Server erstellt werden können (mit Ausnahme der in einer Datei gespeicherten Bilder). Ganzzahlwert größer als 0 in Millionen Pixeln. Ein Fehler wird zurückgegeben, wenn ein Rendervorgang die Größenbeschränkung überschreitet. Der Standardwert ist „16“.
 
 ## IS::MaxSavePixels - Größenbeschränkung zum Speichern in Dateien {#section-d1547c4afa88467080ab08356f775e06}
 
-Begrenzt die Größe der Bilder, die der Image-Server mit dem `req=saveToFile` Befehl in Dateien schreibt. Ganzzahlwert größer als 0 in Millionen Pixeln. Wenn der Dateispeichervorgang diesen Grenzwert überschreitet, wird ein Fehler zurückgegeben. Der Standardwert ist 100 Millionen Pixel.
+Begrenzt die Größe der Bilder, die der Image-Server mit dem Befehl `req=saveToFile` in Dateien schreibt. Ganzzahlwert größer als 0 in Millionen Pixeln. Wenn der Dateispeichervorgang diesen Grenzwert überschreitet, wird ein Fehler zurückgegeben. Der Standardwert ist 100 Millionen Pixel.
 
-## IS::MaxNonDsfSize - Größenbeschränkung für Nicht-PTIFF-Eingabebilder {#section-50de28a7158a436393cce5da0d1e4d46}
+## IS::MaxNonDsfSize - Size limit for non-PTIFF Input Images {#section-50de28a7158a436393cce5da0d1e4d46}
 
 Die maximale Größe (in Pixel) von Bildern, bei denen es sich nicht um PTIFFs handelt, die der Image-Server öffnen darf. Beim Image Serving wird ein Fehler zurückgegeben, wenn versucht wird, auf ein Bild zuzugreifen, das kein PTIFF-Bild ist und diesen Grenzwert überschreitet.
 
