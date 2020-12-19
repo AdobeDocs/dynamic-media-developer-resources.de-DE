@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0900f678-d7ec-4653-bc8a-21b8da7d5044
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 1%
 
 ---
 
@@ -43,13 +46,13 @@ Das Erscheinungsbild der Hauptsteuerleiste wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p>Die Höhe der Hauptsteuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe der Hauptsteuerleiste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten einer grauen Hauptkontrollleiste, die 36 Pixel hoch und oben im Viewer-Container positioniert ist.
+**Beispiel** : Zur Einrichtung einer grauen Hauptkontrollleiste, die 36 Pixel hoch und oben im Viewer-Container positioniert ist.
 
 ```
 .s7ecatalogviewer .s7controlbar { 
@@ -74,8 +77,8 @@ Die Bildlauffunktion ist für die Hauptsteuerleiste aktiviert und für die sekun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Position </span> </p> </td> 
-   <td colname="col2"> <p>Bei Festlegung auf " <span class="codeph"> Statisch"ist </span> die Bildlauffunktion deaktiviert. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolut fest, </span> um die Bildlauffunktion zu aktivieren. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col2"> <p>Bei Festlegung auf <span class="codeph"> static </span> ist die Bildlauffunktion deaktiviert. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolut </span> fest, um die Bildlauffunktion zu aktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +102,7 @@ Das Erscheinungsbild dieses Containers für die Bildlaufschaltfläche wird mit d
    <td colname="col2"> <p>Normalerweise sollte gleich oder größer als die Breite der Bildlaufschaltfläche selbst sein. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Containers. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,19 +123,19 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,11 +143,11 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Selektoren `state` und `selected` Attribute, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Dies `state="selected"` entspricht insbesondere dem Status der Schaltfläche für den Bildlauf, wenn der Inhalt der Steuerleiste nach links verschoben werden kann; entspricht `state="default"` dem Status, in dem der Inhalt vollständig nach links durchlaufen wird und die Bildlauftaste andeutet, dass er in den Ausgangszustand zurückversetzt wird.
+>Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, mit denen verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können. Insbesondere entspricht `state="selected"` dem Anfangszustand der Bildlaufschaltfläche, wenn der Inhalt der Steuerleiste nach links durchlaufen werden kann; `state="default"` entspricht dem Status, in dem der Inhalt bis ganz nach links durchlaufen wird und die Bildlauftaste vorschlägt, ihn zum Ausgangszustand zurückzukehren.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-**Beispiel** : Um die Bildlauffunktion in der Hauptsteuerungsleiste für Mobiltelefone zu aktivieren, richten Sie eine Bildlauftaste mit 64 x 64 Pixel ein, die ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind:
+**Beispiel** : Um die Bildlauffunktion in der Hauptsteuerleiste für Mobiltelefone zu aktivieren und eine Bildlauftaste mit 64 x 64 Pixel einzurichten, die ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind:
 
 ```
 .s7ecatalogviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 
