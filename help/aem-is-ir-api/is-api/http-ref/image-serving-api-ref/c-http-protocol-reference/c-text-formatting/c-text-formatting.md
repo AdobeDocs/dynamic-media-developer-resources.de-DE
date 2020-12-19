@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 Image Serving bietet mehrere Alternativen zum Rendern von Text, auf die mit den Befehlen text= und textPs= zugegriffen werden kann.
 
-`textPs=` bietet eine hohe Ähnlichkeit mit Text, der mit Adobe Fotoshop und Illustrator gerendert wird. `text=` ist mit Text, der mit Windows Wordpad gerendert wird, relativ kompatibel.
+`textPs=` bietet eine hohe Ähnlichkeit mit dem mit Adobe Photoshop und Illustrator gerenderten Text. `text=` ist mit Text, der mit Windows Wordpad gerendert wird, relativ kompatibel.
 
 >[!NOTE]
 >
->Zusätzlich zu den an anderer Stelle aufgeführten Unterschieden `text=` entstehen im gerenderten Text geringfügige Unterschiede im Vergleich zu `textPs=`. Beispielsweise haben die Unterstriche nicht dieselbe Dicke und Position und die Kursivformatierung wird in einem etwas anderen Winkel dargestellt. Wenn der Text nicht in den verfügbaren Platz passt, `text=` kann die letzte Zeile teilweise beschnitten werden, während nur vollständige Zeilen gerendert `textPs=` werden.
+>Zusätzlich zu den an anderer Stelle aufgelisteten Unterschieden führt `text=` zu subtilen Unterschieden im gerenderten Text im Vergleich zu `textPs=`. Beispielsweise haben die Unterstriche nicht dieselbe Dicke und Position und die Kursivformatierung wird in einem etwas anderen Winkel dargestellt. Wenn Text nicht in den verfügbaren Platz passt, kann `text=` die letzte Zeile teilweise beschneiden, während `textPs=` nur vollständige Zeilen wiedergibt.
 
 Alle Textbefehle akzeptieren formatierten Text, der auf einer Untergruppe der RTF-Spezifikation (Rich Text Format) basiert. Jede Textebene kann einen anderen Textbefehl angeben.
 
@@ -37,7 +40,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen für jeden Textbefehl
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> Adobe Fotoshop-kompatibel </p> </td> 
+   <td> <p> Adobe Photoshop-kompatibel </p> </td> 
    <td> <p> nein </p> </td> 
    <td> <p> begrenzt </p> </td> 
    <td> <p> </p> </td> 
@@ -153,7 +156,7 @@ Einige Textverarbeitungen erzeugen ziemlich große Dateien, die umfangreiche Pr�
 
 Die Sprachkodierung auf Basis von UTF-8- und ISO-Standards wird in RTF-Zeichenfolgen als Alternative zu den Standard-RTF-Zeichenkodierungsmechanismen unterstützt. Dadurch können Anwendungen nicht-englischsprachigen Text ohne Kenntnisse der RTF-Kodierung an den Server senden.
 
-Alle nicht HTTP-konformen Zeichen müssen mit einem korrekten Escape versehen werden, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen mit Escape-Zeichen versehen werden, wenn die Zeichenfolge in das `catalog::Modifiers` Feld eines Bildkatalogdatensatzes eingebunden ist. Steuerzeichen einschließlich `<CR>`, `<LF>``<TAB>` und sollten immer entfernt werden.
+Alle nicht HTTP-konformen Zeichen müssen mit einem korrekten Escape versehen werden, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen mit Escape-Zeichen versehen werden, wenn die Zeichenfolge in das Feld `catalog::Modifiers` eines Bildkatalogdatensatzes eingebunden ist. Steuerzeichen wie `<CR>`, `<LF>` und `<TAB>` sollten immer entfernt werden.
 
 Die Image Serving-Textmaschinen interpretieren einen Teil der Befehle, die in der RTF-Spezifikation, Version 1.6, definiert sind. Diese Untergruppe konzentriert sich auf die Schriftart-/Zeichenformatierung, die einfache Absatzformatierung und die Unterstützung für internationale Schriftarten und Zeichensätze. Erweiterte Formatierungskonstrukte wie Stylesheets und Tabellen werden derzeit nicht unterstützt.
 
