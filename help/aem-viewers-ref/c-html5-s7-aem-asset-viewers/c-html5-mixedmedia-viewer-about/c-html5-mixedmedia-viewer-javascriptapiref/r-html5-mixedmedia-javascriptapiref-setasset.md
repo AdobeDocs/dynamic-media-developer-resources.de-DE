@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,17 +21,17 @@ JavaScript-API-Referenz für gemischte Medien-Viewer.
 
 ` setAsset( *`asset`*[,data]))`
 
-Legt das neue Asset und optional zusätzliche Asset-Daten fest. Sie können diesen Parameter jederzeit aufrufen, entweder vor oder nach `init()`. Wenn es nach `init()`dem Aufruf aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset und optional zusätzliche Asset-Daten fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`asset`*` - { `String`} neue Asset-ID oder explizite gemischte Mediensets, mit optionalen Image Serving-Modifikatoren nach `?`.
+` *`asset`*`  - {  `String`} neue Asset-ID oder explizite gemischte Mediensets, mit optionalen Image Serving-Modifikatoren nach  `?`.
 
 Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt.
 
-` *`data`*` - { `JSON`} Speicherort der neuen Untertiteldatei.
+` *`data`*` - {  `JSON`} Speicherort der neuen Untertiteldatei.
 
 Ist dies nicht der Fall, ist die Beschriftungsschaltfläche in der Benutzeroberfläche nicht sichtbar. Die mit diesem Parameter angegebenen Bildunterschriften gelten für das Video, das zuerst im gemischten Medienset angezeigt wird. nachfolgende Videos werden ohne Bildunterschriften abgespielt. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
 
@@ -41,17 +44,17 @@ Ist dies nicht der Fall, ist die Beschriftungsschaltfläche in der Benutzeroberf
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Posterbild </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Posterbild  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das im ersten Bild vor dem Abspielen des Beginns angezeigt wird. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> caption </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> caption  </span> </p> </td> 
    <td colname="col2"> <p> Speicherort der neuen Untertiteldatei. </p> <p>Ist dies nicht der Fall, ist die Beschriftungsschaltfläche in der Benutzeroberfläche nicht sichtbar. Die mit diesem Parameter angegebenen Beschriftungen gelten für das Video, das zuerst im Medienset angezeigt wird. Nachfolgende Videos werden ohne Bildunterschriften wiedergegeben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 Keine.
 
