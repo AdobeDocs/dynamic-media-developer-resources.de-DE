@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Bei Festlegung auf <span class="codeph"> 1</span> füllt die Komponente das Dropdown-Feld mit Elementen für alle Seiten, auch für diejenigen, für die keine Beschriftung definiert ist. </p> <p>Wenn auf <span class="codeph"> 0</span> eingestellt, werden nur Elemente mit expliziten Bezeichnungen im Dropdown-Bedienfeld angezeigt. </p> </td> 
+   <td> <p> Bei Festlegung auf <span class="codeph"> 1</span> füllt die Komponente das Dropdown-Feld mit Elementen für alle Seiten, auch für diejenigen, für die keine Beschriftung definiert ist. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> werden nur Elemente mit expliziten Bezeichnungen im Dropdown-Bedienfeld angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
