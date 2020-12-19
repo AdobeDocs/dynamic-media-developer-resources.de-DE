@@ -21,21 +21,21 @@ Verwenden Sie dieses Verfahren, wenn Sie Scene7 Image Serving unter Linux aktual
 
 Wenn Sie ein Upgrade von einer älteren Version von Image Serving durchführen, wenden Sie sich bitte an den Support, um den korrekten Prozess zu erhalten.
 
-Der [!DNL webapps] Ordner kann bei der Aktualisierung gelöscht werden. Sichern Sie den [!DNL webapps] Ordner vor der Aktualisierung.
+Der Ordner [!DNL webapps] kann bei der Aktualisierung gelöscht werden. Sichern Sie den Ordner [!DNL webapps] vor der Aktualisierung.
 
 1. Melden Sie sich mit Root-Berechtigungen beim Serverhost an.
 1. Dekomprimieren Sie die Image Serving-Distribution-Tar-Datei und entfernen Sie sie.
-1. Führen Sie [!DNL ./install-is] den Installationsassistenten aus, der sich im [!DNL setup] Ordner befindet.
+1. Führen Sie [!DNL ./install-is] aus, um den Installationsassistenten zu starten, der sich im Ordner [!DNL setup] befindet.
 
    Das Updateinstallationsprogramm überprüft die Integrität und Version des installierten Pakets. Bei erfolgreichem Abschluss wird der Endbenutzer-Lizenzvertrag (&quot;EULA&quot;) angezeigt.
-1. Lesen Sie die Lizenzvereinbarung und geben Sie dann &quot; **[!UICONTROL y]**&quot;ein, um mit der Installation fortzufahren.
+1. Lesen Sie die Lizenzvereinbarung und geben Sie dann &quot;**[!UICONTROL y]**&quot;ein, um mit der Installation fortzufahren.
 
-   Das Installationsprogramm sichert die alten Serverkonfigurationsdateien im [!DNL BACKUP/] Ordner.
+   Das Installationsprogramm sichert die alten Serverkonfigurationsdateien im Ordner [!DNL BACKUP/].
 
    Nach Abschluss der Installation wird folgende Meldung angezeigt:
 
    `Image Server was started successfully`
 
-Während einer Aktualisierung wird die [!DNL ImageServing/conf/server.xml] Datei auf die neuesten Einstellungen aktualisiert. Wenn Sie Werte geändert oder hinzugefügt haben, sollten Sie Ihre vorhandenen speichern [!DNL server.xml] und Ihre Änderungen nach der Aktualisierung erneut implementieren.
+Während einer Aktualisierung wird die Datei [!DNL ImageServing/conf/server.xml] auf die neuesten Einstellungen aktualisiert. Wenn Sie Werte geändert oder hinzugefügt haben, sollten Sie Ihre vorhandenen [!DNL server.xml] speichern und Ihre Änderungen nach der Aktualisierung erneut implementieren.
 
-Nach einer Updateinstallation sollten Sie den HTTP-Antwort-Cache erwärmen, bevor Sie den Server aktivieren. Weitere Informationen finden Sie in der Beschreibung des [!DNL playlog] Dienstprogramms.
+Nach einer Updateinstallation sollten Sie den HTTP-Antwort-Cache erwärmen, bevor Sie den Server aktivieren. Weitere Informationen finden Sie in der Beschreibung des Dienstprogramms [!DNL playlog].
