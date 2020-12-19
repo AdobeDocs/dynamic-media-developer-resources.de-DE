@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 1%
 
 ---
 
 
-# op_stroke{#op-contrast}
+# op_counter{#op-contrast}
 
 Kontrast anpassen. Passt den Bildkontrast an, indem die Helligkeit von Pixeln mit mehr als 50 % Helligkeit erhöht und die Helligkeit von Pixeln mit weniger als 50 % Helligkeit verringert wird.
 
@@ -27,7 +30,7 @@ Kontrast anpassen. Passt den Bildkontrast an, indem die Helligkeit von Pixeln mi
 
 ## Eigenschaften {#section-d319ed55057344eab0a3c93f720acdbf}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist. Von Effektebenen ignoriert.
+Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert.
 
 ## Standard {#section-896d1b1f7f084e929355a4684f3e833b}
 
@@ -37,6 +40,6 @@ Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls 
 
 Verkleinern Sie den Kontrast und die Schärfe einer Bildebene mit höherer Qualität, um sie visuell an ein Hintergrundbild mit niedriger Qualität anzupassen:
 
-… `&op_blur=3&op_contrast=-12&`
+... `&op_blur=3&op_contrast=-12&`
 
 Eine zukünftige Version verwendet möglicherweise die mittlere Helligkeit des Bildes anstelle einer festen 50 % Helligkeit.
