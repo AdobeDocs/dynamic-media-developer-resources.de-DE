@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ Druckauflösung. Überschreibt den Wert für die Druckauflösung, der im Antwort
  </tr> 
 </table>
 
-Die Druckauflösung wird normalerweise `catalog::PrintResolution` bei Katalogeinträgen durch den Wert für die Druckauflösung definiert, der im Quellbild eingebettet ist. Bei einer Vorlage oder einem Verbundbild mit Ebenen ist die in die Antwortdatei eingebettete Standarddruckauflösung die Druckauflösung des Ebenenbilds mit der niedrigsten Ebenenzahl.
+Die Druckauflösung wird normalerweise durch `catalog::PrintResolution` bei Katalogeinträgen definiert, andernfalls durch den im Quellbild eingebetteten Wert für die Druckauflösung. Bei einer Vorlage oder einem Verbundbild mit Ebenen ist die in die Antwortdatei eingebettete Standarddruckauflösung die Druckauflösung des Ebenenbilds mit der niedrigsten Ebenenzahl.
 
 Durch Festlegen der Druckauflösung wird die Pixelgröße des Antwortbilds nicht geändert.
 
