@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Muster.Ziehen aktivieren
+seo-title: Swatches.enabledragging
 solution: Experience Manager
-title: Muster.Ziehen aktivieren
+title: Swatches.enabledragging
 topic: Dynamic media
 uuid: f676b0b1-2ce0-4409-8db6-ce162b03053b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 9%
 
 ---
 
 
-# Muster.Ziehen aktivieren{#swatches-enabledragging}
+# Swatches.enabledragging{#swatches-enabledragging}
 
 ` [Swatches.|<containerId>_swatches.]enabledragging=0|1[, *`overdragvalue`*]`
 
@@ -23,8 +26,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p> Aktiviert bzw. deaktiviert die Möglichkeit, dass ein Benutzer die Muster mit einer Maus oder mit Berührungsgesten durchblättert </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td> <p> Funktionen innerhalb des <span class="codeph"> Bereichs 0-1 </span> . Es handelt sich um einen <span class="codeph"> Wert von </span> % für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. Wenn es auf <span class="codeph"> 1 eingestellt ist, </span>bewegt es sich mit der Maus. Wenn sie auf <span class="codeph"> 0 gesetzt ist, </span>lässt sie Sie überhaupt nicht in die falsche Richtung. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td> <p> Funktionen im Bereich <span class="codeph"> 0-1 </span>. Es handelt sich um einen <span class="codeph"> % </span>-Wert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. Wenn sie auf <span class="codeph"> 1 </span> eingestellt ist, wird sie mit der Maus verschoben. Wenn sie auf <span class="codeph"> 0 </span> eingestellt ist, können Sie sich nicht in die falsche Richtung bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
