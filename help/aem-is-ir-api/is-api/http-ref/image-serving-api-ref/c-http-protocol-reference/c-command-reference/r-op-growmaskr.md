@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
 
-# op_largeMaskR{#op-growmaskr}
+# op_GrowthMaskR{#op-growmaskr}
 
 Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radius > 0) oder eine Erosion (Radius &lt; 0) auf die Maskendaten an.
 
@@ -21,7 +24,7 @@ Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radiu
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>Dilate/erode radius in pixeln, wobei <span class="codeph"><span class="varname"> radiusR</span></span> wie vorhanden angewendet wird, unabhängig davon, ob die Maske neu berechnet wird (int -100..100). </p></td> 
+  <td class="stentry"> <p>Dilate/erode radius in pixel, wobei <span class="codeph"><span class="varname"> radiusR</span></span> wie vorhanden angewendet wird, unabhängig davon, ob die Maske neu berechnet wird (int -100..100). </p></td> 
  </tr> 
 </table>
 
@@ -29,7 +32,7 @@ Wird hauptsächlich dazu verwendet, eine Maske leicht zu vergrößern oder zu ve
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gilt für die aktuelle Ebene oder für die Ebene, `0` wenn `layer=comp`.
+Gilt für die aktuelle Ebene oder für die Ebene `0`, wenn `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 
