@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: print.printquality
+seo-title: Print.printquality
 solution: Experience Manager
-title: print.printquality
+title: Print.printquality
 topic: Dynamic media
 uuid: fbecd11f-e7c6-4c70-9ff3-eef8e323d5f3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '20'
+ht-degree: 40%
 
 ---
 
 
-# print.printquality{#print-printquality}
+# Print.printquality{#print-printquality}
 
 ` [Print.|<containerId>_print.]printquality= *`Größe`*`
 
