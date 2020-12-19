@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 770cbb87-af86-48dc-88a0-e74f6716f545
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -18,20 +21,20 @@ JavaScript-API-Referenz für Karussell-Viewer.
 
 ` setAsset( *`asset`*)`
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit aufrufen, entweder vor oder nach `init()`. Wenn es nach `init()`dem Aufruf aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset</span> </span> </p> </td> 
    <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID. </p> <p>Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 Keine.
 
