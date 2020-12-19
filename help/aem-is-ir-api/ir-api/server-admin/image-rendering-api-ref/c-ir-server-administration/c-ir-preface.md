@@ -1,6 +1,6 @@
 ---
-description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7-Image Rendering beschrieben.
-seo-description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7-Image Rendering beschrieben.
+description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7 Image Rendering beschrieben.
+seo-description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7 Image Rendering beschrieben.
 seo-title: Serververwaltungsvorgabe
 solution: Experience Manager
 title: Serververwaltungsvorgabe
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
 
-# Serververwaltungsvorgabe{#server-administration-preface}
+# Server-Verwaltungswort{#server-administration-preface}
 
-In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7-Image Rendering beschrieben.
+In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7 Image Rendering beschrieben.
 
 **Vorgesehene Audience**
 
