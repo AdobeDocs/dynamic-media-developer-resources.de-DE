@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Alle Quelldatendateien müssen für den Image-Server zugänglich sein. Image Ser
   <td class="stentry"> <p><span class="codeph"> IS::RootPath/attribute::RootPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath  </span></span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> catalogPath|requestPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -41,9 +44,9 @@ Alle Quelldatendateien müssen für den Image-Server zugänglich sein. Image Ser
 
 Der Server kombiniert Pfadsegmente von rechts nach links, bis ein absoluter Dateipfad festgelegt ist.
 
-Alle ` *`rootPath`*` -Segmente können leere, relative oder absolute Pfadsegmente sein.
+Alle ` *`rootPath`*`-Segmente können leere, relative oder absolute Pfadsegmente sein.
 
-` *`catalogPath`*` ist entweder ein absoluter oder ein relativer Dateipfad/Dateiname. ` *`requestPath`*` muss ein relativer Dateipfad/Dateiname sein.
+` *`Fügen Sie `*` hier entweder einen absoluten oder relativen Dateipfad/Dateinamen ein. ` *``*` requestPath muss ein relativer Dateipfad/Name sein.
 
 `Multiple IS::RootPath` Werte können in ImageServerRegistry.xml (oder über die Admin-Oberfläche) definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Image-Server versucht, alternative Pfade in der angegebenen Reihenfolge zu verwenden, bis die Datendatei gefunden wurde.
 
