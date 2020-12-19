@@ -33,7 +33,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Schließt die Mastervideodatei aus dem adaptiven Videoset aus. </p> <p>Der Standardwert ist true. </p> </td> 
+   <td colname="col3"> <p>Schließt die Übergeordnet-Videodatei aus dem adaptiven Videoset aus. </p> <p>Der Standardwert ist true. </p> </td> 
   </tr> 
  </tbody> 
 </table>
