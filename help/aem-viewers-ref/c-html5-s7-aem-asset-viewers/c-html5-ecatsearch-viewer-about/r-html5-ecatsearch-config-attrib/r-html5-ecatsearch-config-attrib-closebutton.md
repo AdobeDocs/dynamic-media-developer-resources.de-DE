@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
 
-# Schließen{#closebutton}
+# closeButton{#closebutton}
 
 [!DNL `closebutton=0|1`]
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Auf <span class="codeph"> 1 einstellen, </span> um die Anzeige der Schließen-Schaltfläche zu aktivieren. Oder setzen Sie auf <span class="codeph"> 0, </span> um die Schaltfläche zum Schließen auszublenden. </p> <p>Die Schließen-Schaltfläche wird nur auf Touch-Geräten unterstützt. es kann nicht auf Desktop-Systemen angezeigt werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Auf <span class="codeph"> 1 </span> setzen, um die Anzeige der Schließen-Schaltfläche zu aktivieren. Oder setzen Sie auf <span class="codeph"> 0 </span>, um die Schließen-Schaltfläche auszublenden. </p> <p>Die Schließen-Schaltfläche wird nur auf Touch-Geräten unterstützt. es kann nicht auf Desktop-Systemen angezeigt werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
