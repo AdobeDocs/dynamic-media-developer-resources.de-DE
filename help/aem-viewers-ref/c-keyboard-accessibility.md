@@ -25,11 +25,11 @@ Alle Funktionen, die in der Benutzeroberfläche &quot;Einfaches Zoomen&quot;, &q
 
 Alle Funktionen, die in der Benutzeroberfläche &quot;Einfaches Zoomen&quot;, &quot;E-Katalog&quot;, &quot;E-Katalogsuche&quot;, &quot;Flyout&quot;, &quot;Inline-Zoom&quot;, &quot;Gemischte Medien&quot;, &quot;Rotationsset&quot;, &quot;Video&quot;, &quot;Zoom&quot;, &quot;Karussell&quot;, &quot;Abmessungen&quot;, &quot;Interaktives Bild&quot;, &quot;Interaktives Video&quot;und &quot;Video360&quot;verfügbar sind, sind, sind über die Tastatur verfügbar.
 
-Endbenutzer können mithilfe der **[!UICONTROL Tabulatortaste]** und der Tastenkombination **[!UICONTROL Umschalt+Tab]** zwischen den Elementen der Benutzeroberfläche navigieren. Mithilfe der **[!UICONTROL Registerkarte]** wird der Eingabefokus auf das nächste Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Mit **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurückgesetzt. Der Fokusdurchlauf folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich in der Reihenfolge von links nach rechts und von oben nach unten.
+Endbenutzer können mithilfe der Tastenkombinationen **[!UICONTROL Tab]** und **[!UICONTROL Umschalt+Tab]** zwischen den Elementen der Viewer-Benutzeroberfläche navigieren. Mithilfe von **[!UICONTROL Tab]** wird der Eingabefokus auf das nächste Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Durch die Verwendung von **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurückgesetzt. Der Fokusdurchlauf folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich in der Reihenfolge von links nach rechts und von oben nach unten.
 
 Je nach Betriebssystem- und Webbrowsereinstellungen erhält das Benutzeroberflächenelement mit Eingabefokus möglicherweise eine visuelle Fokusanzeige. Der visuelle Indikator kann beispielsweise ein dünner Rand sein, der um das Element der Benutzeroberfläche gerendert wird.
 
-Sie können diese Fokushervorhebung im Viewer-CSS deaktivieren oder anpassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. &quot;Einfach vergrößern&quot;oder &quot;Interaktives Video&quot;) auf ***Anpassen des Namens des Viewers ***> Hervorhebung**des Fokus **.
+Sie können diese Fokushervorhebung im Viewer-CSS deaktivieren oder anpassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. &quot;Einfach vergrößern&quot;oder &quot;Interaktives Video&quot;) auf **Anpassen *Name des Viewers*** >** Fokusmarkierung **.
 
 Tastenanschläge, die von einzelnen Elementen der Benutzeroberfläche des Viewers unterstützt werden, sind in den meisten Fällen offensichtlich und leicht zu entdecken.
 
@@ -47,7 +47,7 @@ Tastenanschläge, die von einzelnen Elementen der Benutzeroberfläche des Viewer
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ein- oder Auszoomen </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> bzw. <span class="uicontrol"> - </span>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> +  </span> bzw.  <span class="uicontrol"> -  </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom zurücksetzen </p> </td> 
