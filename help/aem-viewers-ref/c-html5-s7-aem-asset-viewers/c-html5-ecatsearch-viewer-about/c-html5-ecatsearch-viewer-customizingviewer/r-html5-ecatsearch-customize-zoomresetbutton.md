@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 19ef5c77-8352-4021-a022-adec6ecbf078
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 1%
 
 ---
 
 
-# Zurücksetzen-Schaltfläche für Zoom{#zoom-reset-button}
+# Schaltfläche zum Zurücksetzen des Zooms{#zoom-reset-button}
 
 Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Haupt-Ansicht zurückgesetzt. Diese Schaltfläche wird in der Hauptsteuerungsleiste auf Desktop-Systemen und Tablets angezeigt. Auf Mobiltelefonen wird diese Schaltfläche in der unteren Mitte über dem Bild angezeigt. Es wird jedoch nicht angezeigt, wenn sich das Bild im Reset-Status befindet. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
@@ -57,11 +60,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,9 +72,9 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Um eine Zoom-Reset-Schaltfläche einzurichten, die 28 x 28 Pixel (auf dem Desktop) 4 Pixel vom unteren Rand und 47 Pixel vom rechten Rand der Hauptsteuerungsleiste entfernt ist, und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt.
 
