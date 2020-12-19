@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: b910a837-07ba-4e06-aee8-c22619ed0a92
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 
-# Schaltfläche &quot;Abspielen/Anhalten&quot;{#play-pause-button}
+# Abspielen/Anhalten-Schaltfläche{#play-pause-button}
 
 Durch die Schaltfläche &quot;Abspielen/Anhalten&quot;wird der Videoinhalt vom Videoplayer abgespielt oder angehalten, wenn der Benutzer darauf klickt.
 
@@ -26,7 +29,7 @@ Der folgende CSS-Klassenselektor steuert das Aussehen der Schaltfläche:
 .s7videoviewer .s7playpausebutton
 ```
 
-## CSS-Eigenschaften der Schaltfläche &quot;Abspielen/Anhalten&quot; {#css-properties-of-the-play-pause-button}
+## CSS-Eigenschaften der Wiedergabe/Pause-Schaltfläche {#css-properties-of-the-play-pause-button}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -55,11 +58,11 @@ Der folgende CSS-Klassenselektor steuert das Aussehen der Schaltfläche:
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +70,11 @@ Der folgende CSS-Klassenselektor steuert das Aussehen der Schaltfläche:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die `state`-, `selected`- als auch die `replay` Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können. Dies `selected='true'` entspricht insbesondere dem Status &quot;play&quot;und `selected='false'` dem Status &quot;pause&quot;;
+>Diese Schaltfläche unterstützt sowohl die Attribute `state`, `selected` als auch `replay`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;play&quot;und `selected='false'` dem Status &quot;pause&quot;.
 >
 >`replay='true'` eingestellt ist, wenn das Video das Ende erreicht hat und wenn auf die Schaltfläche geklickt wird, beginnt die Wiedergabe von Anfang an.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
