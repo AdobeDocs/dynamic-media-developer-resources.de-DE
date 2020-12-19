@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 58d26f4d-03a6-4f57-bc8e-117355c0d74c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +25,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`url`*` | `xsd:string` | Image-Server-URL, die die Vorlage darstellt. Kombiniert `urlModifier` und `urlPostAp- plyModifier` Felder. |
-| ` *`urlModifier`*` | `xsd:string` | Befehle zum Image Serving-Protokoll, die vor Anforderung oder `urlPostApplyModifier` Befehlen angewendet werden sollen. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Befehle zum Image Serving-Protokoll, die nach `urlModifier` und nach Befehlen angewendet werden. |
+| ` *`url`*` | `xsd:string` | Image-Server-URL, die die Vorlage darstellt. Kombiniert die Felder `urlModifier` und `urlPostAp- plyModifier`. |
+| ` *`urlModifier`*` | `xsd:string` | Image Serving-Protokollbefehle, die vor der Anforderung oder den Befehlen `urlPostApplyModifier` angewendet werden sollen. |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | Image Serving-Protokollbefehle, die nach `urlModifier` angewendet werden, und Anforderungsbefehle. |
 
