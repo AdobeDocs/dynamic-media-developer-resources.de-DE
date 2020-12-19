@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3192d810-fb30-44ae-9939-98e890c76e5c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`
 
-Steuert das Erscheinungsbild der Komponente, wenn auf Desktop-Systemen auf `PageView.frametransition` oder `turn` `auto` festgelegt ist.
+Steuert die Komponentendarstellung, wenn `PageView.frametransition` auf `turn` oder `auto` auf Desktop-Systemen eingestellt ist.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -34,7 +37,7 @@ Steuert das Erscheinungsbild der Komponente, wenn auf Desktop-Systemen auf `Page
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Flag (entweder <span class="codeph"> 0</span> oder <span class="codeph"> 1</span>), durch die der Rand um die Drehseite ein- und ausgeschaltet wird. </p> </td> 
+   <td colname="col2"> <p> Das Flag (entweder <span class="codeph"> 0</span> oder <span class="codeph"> 1</span>), durch das der Rand um die Seite herum ein- und ausgeschaltet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
