@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Validierungsrichtlinie für den Server-Cache Gibt an, wann serverseitige Cache-Einträge validiert werden.
 
-Bei der ablaufbasierten Validierung werden Quellmaterialien und Vignetten regelmäßig überprüft, ob sie sich geändert haben. Bei katalogbasierter Validierung werden Quellbilder erst überprüft, nachdem der `catalog::TimeStamp` Wert geändert wurde.
+Bei der ablaufbasierten Validierung werden Quellmaterialien und Vignetten regelmäßig überprüft, ob sie sich geändert haben. Bei katalogbasierter Validierung werden Quellbilder erst überprüft, nachdem der Wert `catalog::TimeStamp` geändert wurde.
 
 Katalogbasierte Validierung wird empfohlen, wenn sowohl Material- als auch Vignettenkataloge verwendet werden. Eine ablaufbasierte Validierung sollte verwendet werden, wenn in Image Rendering-Anforderungen direkt über den Pfad auf Vignetten verwiesen wird.
 
@@ -26,7 +29,7 @@ Enum. 0 zur Auswahl der ablaufbasierten Validierung. 1 zur Auswahl der Katalogba
 
 ## Standard {#section-e09f3af8b6b3497d963199988dc5345d}
 
-Vererbt von, `default::CacheValidationPolicy` wenn nicht definiert oder leer.
+Vererbt von `default::CacheValidationPolicy`, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-b374e4d908e24af8995b2b376ca1be8b}
 
