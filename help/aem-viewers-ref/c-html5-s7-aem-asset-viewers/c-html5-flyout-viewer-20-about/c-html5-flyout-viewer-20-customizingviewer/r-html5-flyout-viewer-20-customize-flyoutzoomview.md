@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 2%
 
 ---
 
 
-# Flyout zoom view{#flyout-zoom-view}
+# Flyout-Zoom-Ansicht{#flyout-zoom-view}
 
 Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild in der Flyout-Ansicht, dem markierten Navigationsbereich über dem statischen Bild und der Tipp-Meldung, die auf dem statischen Ansicht angezeigt wird.
 
@@ -37,7 +40,7 @@ Das Erscheinungsbild der Hauptklasse wird mit der folgenden CSS-Klassenauswahl g
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe der Haupt-Ansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,11 +123,11 @@ Es ist möglich, Hintergrund, Rahmen, Transparenz und ähnliche Attribute mithil
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Die Farbe der Hervorhebung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
    <td colname="col2"> <p> Markieren Sie Deckkraft. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-..) ); </span> </p> </td> 
   </tr> 
   <tr> 
@@ -147,7 +150,7 @@ Beispiel: So richten Sie grüne Hervorhebung mit 40 % Transparenz und einem rote
 
 **CSS-Eigenschaften des Cursors**
 
-Wenn der `highlightmode` Parameter auf `cursor`festgelegt ist, wird die Hervorhebung in der Hauptversion durch die Cursorgrafik mit fester Ansicht ersetzt, die mit der CSS-Klassenauswahl gesteuert wird:
+Wenn der Parameter `highlightmode` auf `cursor` festgelegt ist, werden die Hervorhebungen in der Hauptversion durch die Cursorgrafik mit fester Ansicht ersetzt, die mit der CSS-Klassenauswahl gesteuert wird:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +170,15 @@ Zu den CSS-Eigenschaften gehören:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Cursorgrafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Cursorbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Cursorhöhe. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +186,11 @@ Zu den CSS-Eigenschaften gehören:
 
 >[!NOTE]
 >
->Cursor unterstützt die `input` Attributauswahl, die verwendet werden kann, um verschiedene Cursorgrafiken und -größen für verschiedene Geräte anzuwenden. Insbesondere `input="mouse"` entspricht es den Desktop-Systemen und `input="touch"` den Touch-Geräten.
+>Cursor unterstützt die Attributauswahl `input`, mit der verschiedene Cursorgrafiken und -größen auf verschiedene Geräte angewendet werden können. Insbesondere entspricht `input="mouse"` den Desktop-Systemen und `input="touch"` den Touch-Geräten.
 
 **CSS-Eigenschaften der Überlagerung**
 
-Wenn der `overlay` Parameter auf `1`eingestellt ist, wird der Bereich um den Markierungsrahmen oder das Cursorbild mit dem CSS-Klassenselektor gesteuert:
+Wenn der Parameter `overlay` auf `1` eingestellt ist, wird der Bereich um den Markierungsrahmen oder das Cursorbild mit dem CSS-Klassenselektor gesteuert:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +206,11 @@ Wenn der `overlay` Parameter auf `1`eingestellt ist, wird der Bereich um den Mar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Überlagerungsfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
    <td colname="col2"> <p>Deckkraft der Überlagerung. </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +224,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilfe von CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit `left` oder `right` Eigenschaften wird nicht unterstützt.
+Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilfe von CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -240,11 +243,11 @@ Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilf
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
@@ -252,21 +255,21 @@ Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilf
    <td colname="col2"> <p>Umrandung des Nachrichtentextes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfüllfarbe des Nachrichtentextes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Rahmenradius des Nachrichtentextes im Hintergrund </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrunddeckkraft des Nachrichtentextes. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col2"> <p>Hintergrunddeckkraft des Nachrichtentextes. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Tippmeldung kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) der Benutzeroberfläche.
+Die Tippmeldung kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 Beispiel: So richten Sie eine halbtransparente Tipp-Meldung mit einer weißen Arial-12-Pixel-Schrift ein, die um 50 Pixel vom unteren Rand der Ansicht, einer Auffüllung und einem gerundeten Rand versetzt ist:
 
