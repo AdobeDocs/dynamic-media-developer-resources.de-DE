@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +23,9 @@ Progressiver JPEG-Scan. Progressives JPEG zeigt ein Bild so an, dass es zunächs
 
 Die tatsächliche Geschwindigkeit jedes Scans hängt von der Übertragungsgeschwindigkeit des Systems des Benutzers und des Computers ab, der die Daten empfängt und dekomprimiert.
 
-`Auto` verwendet die Scan-Einstellungen, die von der unabhängigen JPEG-Bibliothek berechnet werden und vom Farbmodell abhängen. Die Werte von `3`, `4`entsprechen `5` der Einstellung &quot;Scan&quot;in Adobe Fotoshop, wenn Sie eine JPEG-Datei als PJPEG (Progressives JPEG) speichern.
+`Auto` verwendet die Scan-Einstellungen, die von der unabhängigen JPEG-Bibliothek berechnet werden und vom Farbmodell abhängen. Die Werte von `3`, `4`, `5` entsprechen der Scan-Einstellung, die in Adobe Photoshop gefunden wird, wenn Sie eine JPEG-Datei als PJPEG (Progressives JPEG) speichern.
 
-Wenn `pscan` kein Wert festgelegt ist, wird der Standardwert `auto`verwendet.
+Wenn `pscan` nicht eingestellt ist, wird standardmäßig `auto` verwendet.
 
 ## Eigenschaften {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
