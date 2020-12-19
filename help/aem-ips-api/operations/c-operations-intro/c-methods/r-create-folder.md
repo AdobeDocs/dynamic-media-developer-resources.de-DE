@@ -21,7 +21,7 @@ Erstellt einen Ordner.
 
 >[!NOTE]
 >
->Der neue Ordner ist dem Ordner &quot;Images&quot;untergeordnet, auch wenn Sie einen Ordner angeben, `/` der den Stammordner der Firma angibt.
+>Der neue Ordner ist auf den Ordner &quot;Images&quot;Untergeordnet, selbst wenn Sie ein `/` angeben, um den Stammordner der Firma anzugeben.
 
 Syntax
 
