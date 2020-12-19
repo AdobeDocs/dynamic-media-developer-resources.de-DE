@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 07e2c55b-2388-44c8-83ab-338997c5cb71
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ Konfigurationsattribut für Video-Viewer für gemischte Medien.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Steuert, ob das Video über eine sichere SSL-Verbindung (HTTPS) oder über eine unsichere Verbindung (HTTP) bereitgestellt wird. </p> <p>Bei Festlegung auf <span class="codeph"> auto</span> wird das Video-Versand-Protokoll vom Protokoll der Einbettungswebseite übernommen. Wenn die Webseite über HTTPS geladen wird, wird das Video auch über HTTPS bereitgestellt und umgekehrt. Befindet sich die Webseite auf HTTP, wird das Video über HTTP bereitgestellt. </p> <p>Bei Festlegung auf " <span class="codeph"> on</span>"erfolgt der Video-Versand immer über eine sichere Verbindung, unabhängig vom Webseitenprotokoll. </p> <p>Betrifft nur veröffentlichte Video-Versand und wird bei der Vorschau von Videos im Autorenmodus ignoriert. </p> </td> 
+   <td colname="col2"> <p> Steuert, ob das Video über eine sichere SSL-Verbindung (HTTPS) oder über eine unsichere Verbindung (HTTP) bereitgestellt wird. </p> <p>Bei Festlegung auf <span class="codeph"> auto</span> wird das Video-Versand-Protokoll vom Protokoll der Einbettungswebseite übernommen. Wenn die Webseite über HTTPS geladen wird, wird das Video auch über HTTPS bereitgestellt und umgekehrt. Befindet sich die Webseite auf HTTP, wird das Video über HTTP bereitgestellt. </p> <p>Bei Festlegung auf <span class="codeph"> auf</span> tritt der Video-Versand immer über eine sichere Verbindung auf, unabhängig vom Webseitenprotokoll. </p> <p>Betrifft nur veröffentlichte Video-Versand und wird bei der Vorschau von Videos im Autorenmodus ignoriert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +50,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Siehe auch [Secure Video Versand](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb).
+Siehe auch [Sicherer Versand](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb).
