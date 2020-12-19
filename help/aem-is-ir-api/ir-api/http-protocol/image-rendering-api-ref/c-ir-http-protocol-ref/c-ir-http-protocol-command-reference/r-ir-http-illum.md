@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ Lichtbildauswahl. Gibt die Beleuchtungskarte an, mit der dieses Material gerende
 
 Wenn die angegebene Beleuchtungskarte in der Vignette &quot;Zielgruppe&quot;nicht verfügbar ist, wird stattdessen die nächste verfügbare Karte verwendet.
 
-`illum=-1` gibt an, dass die Beleuchtungszuordnung automatisch anhand des `gloss=` Wertes ausgewählt wird.
+`illum=-1` gibt an, dass die Beleuchtungszuordnung automatisch anhand des  `gloss=` Wertes ausgewählt wird.
 
 ## Eigenschaften {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
