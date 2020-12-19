@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 715154b6-f9ac-459e-a566-f78a4ca4580d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
@@ -16,8 +19,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Bilddaten werden zurückgegeben, wenn eine Anforderung erfolgreich abgeschlossen wurde und die Anforderung entweder keinen Befehl req= enthält oder wenn req=img oder req=tmb.
 
-Der MIME-Typ der HTTP-Antwort wird durch `fmt=`oder, falls `fmt=` nicht angegeben, `<image/jpeg>`durch Angabe bestimmt.
+Der MIME-Typ der HTTP-Antwort wird von `fmt=` oder, wenn `fmt=` nicht angegeben ist, von `<image/jpeg>` bestimmt.
 
-Der HTTP-Antwortstatus lautet &quot;200 OK&quot;, wenn die Anforderungsmethode eine nicht bedingte `GET` oder `HEAD`.
+Der HTTP-Antwortstatus ist &quot;200 OK&quot;, wenn die Anforderungsmethode ein bedingungsloser `GET` oder `HEAD` war.
 
-Der Server kann mit dem Status &#39;304&#39; (nicht geändert) antworten und keine Bilddaten als Antwort auf eine bedingte `GET` Anforderung (die eine gültige `If-Modified-Since` oder `If-None-Match` Kopfzeile enthält) zurückgeben.
+Der Server kann mit dem Status &#39;304&#39; (nicht modifiziert) antworten und keine Bilddaten als Antwort auf eine bedingte `GET`-Anforderung (die eine gültige `If-Modified-Since`- oder `If-None-Match`-Kopfzeile enthält) zurückgeben.
