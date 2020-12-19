@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
@@ -18,31 +21,31 @@ Um einer Webseite eine Bibliothek mit interaktiven Bildern hinzuzufügen und vor
 
 **So verwenden Sie die Bibliothek &quot;Responsive Image&quot;**
 
-1. In SPS [erstellen Sie eine Bildvorgabe](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) , falls Sie die Bibliothek für interaktives Bild mit Vorgaben verwenden möchten.
+1. Erstellen Sie in SPS [eine Bildvorgabe](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html), falls Sie die Bibliothek für interaktives Bild mit Vorgaben verwenden möchten.
 
-   Verwenden Sie beim Definieren von Bildvorgaben, die mit der Bibliothek für interaktive Bilder verwendet werden, keine Einstellungen, die sich auf die Bildgröße auswirken, z. B. `wid=`, `hei=`oder `scl=`. Geben Sie keine Größenfelder in der Bildvorgabe an. Lassen Sie sie stattdessen als leere Werte.
-1. Hinzufügen Sie die JavaScript-Bibliotheksdatei auf Ihre Webseite.
+   Verwenden Sie beim Definieren von Bildvorgaben, die mit der Bibliothek für interaktives Bild verwendet werden, keine Einstellungen, die sich auf die Bildgröße auswirken, z. B. `wid=`, `hei=` oder `scl=`. Geben Sie keine Größenfelder in der Bildvorgabe an. Lassen Sie sie stattdessen als leere Werte.
+1. hinzufügen Sie die JavaScript-Bibliotheksdatei auf Ihre Webseite.
 
-   Bevor Sie die Bibliotheks-API verwenden können, stellen Sie sicher, dass Sie `responsive_image.js`diese einschließen. Diese JavaScript-Datei befindet sich im `libs/` Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Bevor Sie die Bibliotheks-API verwenden können, stellen Sie sicher, dass Sie `responsive_image.js` einschließen. Diese JavaScript-Datei befindet sich im Unterordner `libs/` Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
    `<s7viewers_root>/libs/responsive_image.js`
 1. Richten Sie vorhandene Bilder ein.
 
-   Die Bibliothek liest bestimmte Konfigurationsattribute aus einer Bildinstanz, mit der sie arbeitet. Definieren Sie Attribute, bevor die `s7responsiveImage` API-Funktion für ein solches Bild aufgerufen wird.
+   Die Bibliothek liest bestimmte Konfigurationsattribute aus einer Bildinstanz, mit der sie arbeitet. Definieren Sie Attribute, bevor für dieses Bild die API-Funktion `s7responsiveImage` aufgerufen wird.
 
-   Es wird außerdem empfohlen, die vorhandene Bild-URL in das `data-src` Attribut einzufügen. Richten Sie dann das vorhandene `src` Attribut so ein, dass ein 1x1 GIF-Bild als Daten-URI kodiert wird. Dadurch wird die Anzahl der HTTP-Anforderungen verringert, die von der Webseite zum Ladezeitpunkt gesendet werden. Beachten Sie jedoch, dass es besser ist, ein `title` Attribut für die Bildinstanz einzurichten, wenn SEO (Suchmaschinenoptimierung) benötigt wird.
+   Es wird außerdem empfohlen, die vorhandene Bild-URL in das Attribut `data-src` einzufügen. Richten Sie dann das vorhandene `src`-Attribut so ein 1x1 GIF-Bild ein, dass es als Daten-URI kodiert wird. Dadurch wird die Anzahl der HTTP-Anforderungen verringert, die von der Webseite zum Ladezeitpunkt gesendet werden. Beachten Sie jedoch, dass es besser ist, ein `title`-Attribut für die Bildinstanz einzurichten, wenn SEO (Suchmaschinenoptimierung) benötigt wird.
 
-   Im Folgenden finden Sie ein Beispiel für die Definition des `data-breakpoints` Attributs für das Bild und die Verwendung eines 1x1 GIF, das als Daten-URI kodiert wurde:
+   Im Folgenden finden Sie ein Beispiel für die Definition des Attributs `data-breakpoints` für das Bild und die Verwendung eines 1x1 GIF-Codes als Daten-URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. Rufen Sie die `s7responsiveImage` API-Funktion für jede Bildinstanz auf, die von der Bibliothek verwaltet wird.
+1. Rufen Sie die API-Funktion `s7responsiveImage` für jede Bildinstanz auf, die von der Bibliothek verwaltet wird.
 
-   Rufen Sie die `s7responsiveImage` API-Funktion für jede Bildinstanz auf, die von der Bibliothek verwaltet wird. Nach einem solchen Aufruf ersetzt die Bibliothek das Originalbild durch das Bild, das gemäß der Laufzeitgröße des `IMG` Elements im Webseitenlayout und der Bildschirmdichte des Geräts vom Image Serving heruntergeladen wird.
+   Rufen Sie die API-Funktion `s7responsiveImage` für jede Bildinstanz auf, die von der Bibliothek verwaltet wird. Nach einem solchen Aufruf ersetzt die Bibliothek das Originalbild durch das Bild, das gemäß der Laufzeitgröße des Elements `IMG` im Webseitenlayout und der Bildschirmdichte des Gerätebildschirms vom Image Serving heruntergeladen wird.
 
-   Der folgende Code ist ein Beispiel für den Aufruf der `s7responsiveImage` API-Funktion für ein Bild, vorausgesetzt, dass es sich um eine ID des Bildes `responsiveImage` handelt:
+   Der folgende Code ist ein Beispiel für den Aufruf der API-Funktion `s7responsiveImage` für ein Bild, vorausgesetzt, `responsiveImage` ist eine ID des Bildes:
 
    ```
    <script type="text/javascript"> 
@@ -85,12 +88,12 @@ Der folgende Code ist ein vollständiges Beispiel für eine triviale Webseite, a
 
 **Verwenden von intelligentem Beschneiden**
 
-In AEM 6.4 und Scene7 Viewers 5.9 stehen zwei Smart-Beschneidungsmodi zur Verfügung:
+In AEM 6.4 und Scene7 Viewers 5.9 sind zwei Smart-Beschneidungsmodi verfügbar:
 
-* **Manuell** - benutzerdefinierte Haltepunkte und entsprechende Bilddienstbefehle werden innerhalb eines Attributs im Bildelement definiert.
-* **Smart Crop** - Berechnete Smart-Schnittdarstellungen werden automatisch vom Versand-Server abgerufen. Die beste Darstellung wird unter Verwendung der Laufzeitgröße des Bildelements ausgewählt.
+* **Manuell**  - benutzerdefinierte Haltepunkte und entsprechende Bilddienstbefehle werden innerhalb eines Attributs im Bildelement definiert.
+* **Smart-Zuschneiden**  - berechnete Smart-Zuschneiden-Darstellungen werden automatisch vom Versand-Server abgerufen. Die beste Darstellung wird unter Verwendung der Laufzeitgröße des Bildelements ausgewählt.
 
-Um den Smart-Zuschneidemodus zu verwenden, setzen Sie das `data-mode` Attribut auf `smart crop`. Beispiel:
+Um den Smart-Zuschneidemodus zu verwenden, legen Sie das `data-mode`-Attribut auf `smart crop` fest. Beispiel:
 
 ```
 <img 
@@ -99,7 +102,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-Das zugehörige Bildelement löst während der Laufzeit ein `s7responsiveViewer` Ereignis aus, wenn sich der Haltepunkt ändert.
+Das zugehörige Bildelement löst während der Laufzeit ein `s7responsiveViewer`-Ereignis aus, wenn sich der Haltepunkt ändert.
 
 ```
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
