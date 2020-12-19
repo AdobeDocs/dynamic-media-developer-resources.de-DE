@@ -21,15 +21,15 @@ Verwenden Sie diese Servereinstellungen für Inhaltsdatenordner.
 
 ## IS::RootPath - Stammordner für Bilddaten {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-Der Speicherort aller Quelldaten, einschließlich Bildern, Schriftarten und ICC-Profilen. Dabei kann es sich um einen oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]* einer Datei handeln, die durch Semikolons getrennt sind. Wenn leer, *[!DNL install_folder]* ist der Standardstamm. Es können mehrere Werte angegeben werden, um Bilddaten über mehrere Dateisysteme zu verteilen. Der Image-Server versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
+Der Speicherort aller Quelldaten, einschließlich Bildern, Schriftarten und ICC-Profilen. Dabei kann es sich um einen oder mehrere absolute Dateipfade oder Pfade im Verhältnis zu *[!DNL install_folder]* handeln, die durch Semikolons getrennt sind. Wenn leer, ist *[!DNL install_folder]* der Standardstamm. Es können mehrere Werte angegeben werden, um Bilddaten über mehrere Dateisysteme zu verteilen. Der Image-Server versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
 
-## PS::staticContent.rootPath - Statische Stammordner für Inhaltsdaten {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
+## PS::staticContent.rootPath - Static Content Data Root Folders {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-Der Speicherort der Quelldaten für statischen Inhalt, die über den [!DNL /is/static] Kontext bereitgestellt werden sollen. Kann ein oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]* sein, durch Semikolons getrennt. Wenn leer, *[!DNL install_folder]* ist der Standardstamm.
+Der Speicherort der Quelldaten für statischen Inhalt, die über den [!DNL /is/static]-Kontext bereitgestellt werden sollen. Kann ein oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]* sein, durch Semikolons getrennt. Wenn leer, ist *[!DNL install_folder]* der Standardstamm.
 
-Mehrere Werte können durch Semikolons getrennt angegeben werden, um statische Inhalte über mehrere Dateisysteme zu verteilen. In der Regel werden dieselben Werte wie `IS::RootPath`.
+Mehrere Werte können durch Semikolons getrennt angegeben werden, um statische Inhalte über mehrere Dateisysteme zu verteilen. Normalerweise werden dieselben Werte wie `IS::RootPath` festgelegt.
 
-Der Platform-Server versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
+Der Plattformserver versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
 
 >[!NOTE]
 >
@@ -37,4 +37,4 @@ Der Platform-Server versucht die Stammpfade in der angegebenen Reihenfolge, bis 
 
 ## IS::SaveDirectory - File Save Root Folder {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-Der Stammpfad für `attribute::SavePath` (wird verwendet `req=saveToFile`). Der Image-Server muss über Zugriffsberechtigungen für den Unterordner verfügen, in dem er Bilddateien erstellen wird.
+Der Stammpfad für `attribute::SavePath` (wird von `req=saveToFile` verwendet). Der Image-Server muss über Zugriffsberechtigungen für den Unterordner verfügen, in dem er Bilddateien erstellen wird.
