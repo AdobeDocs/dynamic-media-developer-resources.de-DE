@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 68%
 
 ---
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-Der Modifikator &quot;Festlegen&quot; `markOverflowingTextFrames=1` über einen URL-Aufruf kennzeichnet alle Textrahmen, in denen Text durch ein Pluszeichen überschrieben wird. In SPS-Previewer ist die Übersatzanzeige standardmäßig auf &quot; `TRUE`&quot;eingestellt.
+Das Festlegen des Modifikators `markOverflowingTextFrames=1` durch einen URL-Aufruf markiert alle Textrahmen, in denen Text durch ein Pluszeichen überschrieben wird. Außerdem ist in der SPS-Vorschau die Übersatzanzeige standardmäßig auf &quot; `TRUE`&quot;eingestellt.
 
 Der Standardwert ist „0“.
