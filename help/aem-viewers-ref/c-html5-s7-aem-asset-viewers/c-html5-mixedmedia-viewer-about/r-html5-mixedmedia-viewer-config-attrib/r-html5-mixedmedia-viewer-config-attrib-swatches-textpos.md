@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: swatches.textpos
+seo-title: Swatches.textpos
 solution: Experience Manager
-title: swatches.textpos
+title: Swatches.textpos
 topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
 
-# swatches.textpos{#swatches-textpos}
+# Swatches.textpos{#swatches-textpos}
 
 `[Swatches.|<containerId>_swatches.]textpos=bottom|top|left|right|none|tooltip`
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Gibt an, wo die Beschriftung relativ zum Musterminiaturbild gezeichnet wird. Das heißt, die Beschriftung wird an der angegebenen Position relativ zur Musterminiatur zentriert. Wenn <span class="codeph"> QuickInfo</span> angegeben ist, wird keine Beschriftung gezeichnet. </p> </td> 
+   <td> <p> Gibt an, wo die Beschriftung relativ zum Musterminiaturbild gezeichnet wird. Das heißt, die Beschriftung wird an der angegebenen Position relativ zur Musterminiatur zentriert. Wenn <span class="codeph"> tooltip</span> angegeben ist, wird keine Beschriftung gezeichnet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
