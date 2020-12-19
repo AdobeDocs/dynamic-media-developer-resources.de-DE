@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Installation überprüfen{#verifying-the-installation}
+# Überprüfen der Installation{#verifying-the-installation}
 
 Überprüfen Sie nach der Installation von Image Serving unter Linux die Installation.
 
@@ -37,6 +37,6 @@ Der Image-Server wird als Linux-Daemon installiert.
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit &quot; `imageServer.`&quot; beginnen, was bedeutet, dass der Platform-Server erfolgreich mit dem Image-Server kommunizieren konnte.
->Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentation- und Demo-Pakete durchgeführt werden, sofern sie installiert sind.
+Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit &quot; `imageServer.`&quot;beginnen. Dies weist darauf hin, dass der Plattformserver erfolgreich mit dem Image-Server kommunizieren konnte.
+>Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentation- und Demopakete durchgeführt werden, sofern sie installiert sind.
 
