@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +35,7 @@ Ein Array von Meldungen, die auf eine der URL reagieren, die in der CDN-Anfrage 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> Elemente</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> Typen:OperationFault</span> </p> </td> 
    <td> <p> Die Liste von Meldungen, die aus der CDN-Anfrage resultieren, ungültig. </p> </td> 
   </tr> 
