@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +38,7 @@ Das Erscheinungsbild der Hauptklasse wird mit der folgenden CSS-Klassenauswahl g
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe der Haupt-Ansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Sie können Schriftschnitt, Größendarstellung und vertikalen Offset mithilfe von CSS konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit `left` oder `right` Eigenschaften wird nicht unterstützt.
+Sie können Schriftschnitt, Größendarstellung und vertikalen Offset mithilfe von CSS konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
 
 **CSS-Eigenschaften der Tippmeldung**
 
@@ -70,11 +73,11 @@ Sie können Schriftschnitt, Größendarstellung und vertikalen Offset mithilfe v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfüllfarbe der Nachricht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Rahmenradius des Nachrichtenhintergrunds. </p> </td> 
   </tr> 
   <tr> 
@@ -86,15 +89,15 @@ Sie können Schriftschnitt, Größendarstellung und vertikalen Offset mithilfe v
    <td colname="col2"> <p>Farbe des Tipp-Textes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrunddeckkraft der Nachricht. </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +107,7 @@ Sie können Schriftschnitt, Größendarstellung und vertikalen Offset mithilfe v
  </tbody> 
 </table>
 
-Die Tippmeldung kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) der Benutzeroberfläche.
+Die Tippmeldung kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Beispiel: Um eine halbtransparente Tipp-Meldung mit einer weißen Arial-12-Pixel-Schrift einzurichten, werden 50 Pixel vom unteren Rand der Ansicht, der Auffüllung und einem gerundeten Rand versetzt:
 
