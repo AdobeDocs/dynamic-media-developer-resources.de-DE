@@ -95,7 +95,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:MediaOptions</span> </td> 
-   <td colname="col3"> <p>Optionen, mit denen Sie ein Miniaturbild aus dem Video festlegen können. </p> <p>Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> Medienoptionen</a>. </p> </td> 
+   <td colname="col3"> <p>Optionen, mit denen Sie ein Miniaturbild aus dem Video festlegen können. </p> <p>Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> überschreiben</span> </span> </td> 
@@ -110,7 +110,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:FotoshopOptions</span> </td> 
-   <td colname="col3"> <p>Optionen zum Hochladen von Fotoshop-Dateien auf den Image-Server. </p> </td> 
+   <td colname="col3"> <p>Optionen zum Hochladen von Photoshop-Dateien auf den Image-Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -118,7 +118,7 @@ Syntax
    <td colname="col3"> <p>Die URL des Dateiupload-Ziels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> - </span>Auftrag </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> Typen:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Details zu einem Image Rendering-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt wird. </p> </td> 
   </tr> 
@@ -192,13 +192,13 @@ Syntax
 
 ## Anmerkungen {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Sie `CropOptions`können beispielsweise nur eine der folgenden Optionen auswählen:
+Für `CropOptions` können Sie nur eine der folgenden Optionen auswählen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Sie `PublishJob`können beispielsweise nur eine der folgenden Optionen auswählen:
+Für `PublishJob` können Sie nur eine der folgenden Optionen auswählen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
