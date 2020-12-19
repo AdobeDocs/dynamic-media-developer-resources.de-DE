@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 5%
 
 ---
 
@@ -16,8 +19,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Diese Seite enthält eine Verknüpfung zu verschiedenen Image-Server-Beispielen.
 
-* [adjust1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
-* [adjust2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
+* [adapt1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
+* [adapt2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
 * [erweitert](http://crc.scene7.com/is-docs/examples/advanced.htm)
 * [ankers](http://crc.scene7.com/is-docs/examples/anchors.htm)
 * [catalog1](http://crc.scene7.com/is-docs/examples/catalog1.htm)
@@ -29,5 +32,5 @@ Diese Seite enthält eine Verknüpfung zu verschiedenen Image-Server-Beispielen.
 * [Vorlagen](http://crc.scene7.com/is-docs/examples/templates.htm)
 * [Text](http://crc.scene7.com/is-docs/examples/text.htm)
 * [Qualität der Ansicht](http://crc.scene7.com/is-docs/examples/view-quality.htm)
-* [Ansicht](http://crc.scene7.com/is-docs/examples/view-size.htm)
+* [ansicht](http://crc.scene7.com/is-docs/examples/view-size.htm)
 
