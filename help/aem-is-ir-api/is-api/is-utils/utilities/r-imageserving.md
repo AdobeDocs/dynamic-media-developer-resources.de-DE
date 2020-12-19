@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +38,7 @@ Image Serving-Steuerelementskript. Dieses Skript wird zum Beginn, Beenden oder N
    <td colname="col2"> <p> Beginn des Server Supervisor und aller anderen Image Serving-Komponenten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
    <td colname="col2"> <p> Beenden Sie alle Image Serving-Komponenten, einschließlich Server Supervisor. </p> </td> 
   </tr> 
   <tr> 
@@ -43,11 +46,11 @@ Image Serving-Steuerelementskript. Dieses Skript wird zum Beginn, Beenden oder N
    <td colname="col2"> <p>Starten Sie alle Image Serving-Komponenten einschließlich Server Supervisor neu. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Neustart {| is| svg } </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Neustart { | is | svg }  </span> </p> </td> 
    <td colname="col2"> <p> Startet Tomcat/Platform Server, den Image-Server oder SVG neu. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps| is| svg ] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
    <td colname="col2"> <p>Gibt Informationen zur Betriebszeit und aktuellen Speicherbelegung für Image-Server, Tomcat/Platform-Server und SVGserver oder zum Status nur für den angegebenen Server zurück; Stattdessen wird eine Informationsmeldung zurückgegeben, wenn der Server Supervisor nicht ausgeführt wird. </p> </td> 
   </tr> 
  </tbody> 
