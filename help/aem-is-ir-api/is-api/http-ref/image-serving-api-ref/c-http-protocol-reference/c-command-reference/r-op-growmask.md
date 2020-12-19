@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 016501e8-33c5-4c9e-8d26-120b1e929c55
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
 
-# op_largeMask{#op-growmask}
+# op_GrowthMask{#op-growmask}
 
 Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radius > 0) oder eine Erosion (Radius &lt; 0) auf die Maskendaten an.
 
@@ -29,7 +32,7 @@ Wird hauptsächlich dazu verwendet, eine Maske leicht zu vergrößern oder zu ve
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gilt für die aktuelle Ebene oder für die Ebene, `0` wenn `layer=comp`.
+Gilt für die aktuelle Ebene oder für die Ebene `0`, wenn `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 
