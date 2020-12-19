@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wann das Infofeld angezeigt werden soll. </p> <p>Bei Einstellung auf <span class="codeph"> 1</span>wird das Infofeld angezeigt, wenn die Maus in den Imagemap-Bereich gelangt (falls die Imagemap nicht leer ist, <span class="codeph"> rollover_key</span> -Attribut). </p> <p>Wenn der Wert auf <span class="codeph"> 0</span> eingestellt ist, wird beim Klicken auf die Imagemap das Infofeld ausgelöst (wenn die Imagemap über einen nicht leeren <span class="codeph"> rollover_key</span> -Wert und leere <span class="codeph"> href</span> -Attribute verfügt). </p> <p> Wird auf Touch-Geräten einschließlich Touch-fähigen Desktop-Systemen ignoriert und automatisch auf <span class="codeph"> 0</span>eingestellt. </p> </td> 
+   <td colname="col2"> <p>Gibt an, wann das Infofeld angezeigt werden soll. </p> <p>Wenn der Wert auf <span class="codeph"> 1</span> eingestellt ist, wird das Infofeld angezeigt, wenn die Maus in den Imagemap-Bereich eindringt (wenn die Imagemap nicht leer ist, <span class="codeph"> rollover_key</span> Attribut). </p> <p>Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, wird beim Klicken auf die Imagemap das Infofeld ausgelöst (wenn die Imagemap ein nicht leeres <span class="codeph"> rollover_key</span> und leere <span class="codeph"> href</span>-Attribute hat). </p> <p> Wird auf Touch-Geräten einschließlich Touch-fähigen Desktop-Systemen ignoriert und automatisch auf <span class="codeph"> 0</span> eingestellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
