@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 
-**Nur** für dynamische Medien in AEM: Neben den grundlegenden Bildeinstellungen, die in der Benutzeroberfläche verfügbar sind, unterstützt AEM [!DNL Dynamic Media] ( [!DNL Adobe Experience Manager]) zahlreiche erweiterte Bildänderungen, die Sie im Feld &quot; **Bildmodifikatoren** &quot;angeben können. Diese Parameter werden unten definiert. Beachten Sie jedoch, dass folgende Funktionen in dynamischen Medien in AEM nicht unterstützt werden.
+**Nur für Dynamic Media in AEM**: Neben den grundlegenden Bildeinstellungen, die auf der Benutzeroberfläche verfügbar sind, unterstützt AEM  [!DNL Dynamic Media] in (  [!DNL Adobe Experience Manager]) zahlreiche erweiterte Bildänderungen, die Sie im Feld  **Bildmodifikatoren** angeben können. Diese Parameter werden unten definiert. Beachten Sie jedoch, dass folgende Funktionen in Dynamic Media in AEM nicht unterstützt werden.
 
 * Farbkorrekturbefehle: `icc=` und `iccEmbed=`.
 * Grundlegende Befehle zum Vorbereiten und Wiedergeben von Text: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` und `textPs=`.
@@ -30,7 +33,7 @@ In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Siehe auch &quot;Dynamic Media- [Bildvorgabeoptionen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) &quot;in der Dokumentation zu AEM 6.5.
+Siehe auch Dynamic Media [Bildvorgabeoptionen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) in der Dokumentation zu AEM 6.5.
 
 * [align](r-align.md)
 * [anchor](r-anchor.md)
@@ -79,7 +82,7 @@ Siehe auch &quot;Dynamic Media- [Bildvorgabeoptionen](https://docs.adobe.com/con
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [Herkunft](r-origin.md)
+* [herkunft](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [Perspektive](r-perspective.md)
