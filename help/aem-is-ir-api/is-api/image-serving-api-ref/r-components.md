@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 2%
 
 ---
 
@@ -50,17 +53,17 @@ Scene7 Image Serving umfasst die folgenden Komponenten:
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE Text Render Component </p> </td> 
-   <td colname="col2"> <p>Eine oder mehrere Instanzen des Textwiedergabediensts sind möglicherweise aktiv, wenn <span class="codeph"> textPs=</span> -Vorgänge ausgeführt werden. </p> </td> 
+   <td colname="col2"> <p>Eine oder mehrere Instanzen des Textwiedergabediensts können aktiv sein, wenn <span class="codeph"> textPs=</span>-Vorgänge ausgeführt werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG-Renderkomponente </p> </td> 
    <td colname="col2"> <p>Eigenständige Java-Anwendung (nicht von Tomcat gehostet). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Scene7 Image Rendering (auch als Scene7 Image Rendering bezeichnet) Rendering-Server) </p> </td> 
+   <td colname="col1"> <p>Scene7 Image Rendering (auch bekannt als Rendering-Server) </p> </td> 
    <td colname="col2"> <p>Hierfür ist eine separate Lizenz erforderlich. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Alle Bildwiedergabefunktionen sind in den Plattformserver und den Image-Server integriert, ohne dass separate ausführbare Komponenten vorhanden sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Konfigurationseinstellungen werden über den Standardkatalog ( [!DNL default.ini]) oder bestimmte Bildkataloge bereitgestellt (weitere Informationen finden Sie unter [Bildkataloge](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) ).
+Weitere Konfigurationseinstellungen werden vom Standardkatalog ( [!DNL default.ini]) oder bestimmten Bildkatalogen bereitgestellt (weitere Informationen finden Sie unter [Bildkataloge](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)).
