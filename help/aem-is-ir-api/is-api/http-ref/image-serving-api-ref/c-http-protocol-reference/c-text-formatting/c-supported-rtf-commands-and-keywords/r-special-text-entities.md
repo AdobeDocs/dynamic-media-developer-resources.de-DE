@@ -39,22 +39,22 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>Rücker Schrägstrich. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;Klammer;  </span> </td> 
    <td> <p>Geschweifte Klammer. </p> </td> 
    <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;break;  </span> </td> 
    <td> <p>Geschweifte Klammer. </p> </td> 
    <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>Geschütztes Leerzeichen. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>Optionaler Bindestrich. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
