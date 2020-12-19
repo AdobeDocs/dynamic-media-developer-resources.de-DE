@@ -22,12 +22,12 @@ Dieses Verfahren zeigt, wie Image Serving unter Linux zum ersten Mal installiert
 1. Melden Sie sich mit Stammberechtigungen beim Serverhost an.
 1. Erstellen Sie den Ordner [!DNL /usr/local/scene7/licenses].
 
-   Wenn die Lizenzschlüssel-Datei Image Serving und/oder Image Rendering (mit [!DNL .sc8] Dateisuffix) verfügbar ist, kopieren Sie sie in diesen Ordner. Andernfalls fahren Sie mit der Installation fort und installieren Sie den Lizenzschlüssel später.
+   Wenn die Lizenzschlüssel-Datei Image Serving und/oder Image Rendering (mit dem Suffix [!DNL .sc8]) verfügbar ist, kopieren Sie sie in diesen Ordner. Andernfalls fahren Sie mit der Installation fort und installieren Sie den Lizenzschlüssel später.
 1. Dekomprimieren Sie die Image Serving-Distribution-Tar-Datei und entfernen Sie sie.
-1. Führen Sie [!DNL ./install-is]den Installationsassistenten aus, der sich im [!DNL Setup] Ordner befindet.
+1. Führen Sie [!DNL ./install-is] im Ordner [!DNL Setup] aus, um den Installationsassistenten zu starten.
 
    Wenn kein Lizenzschlüssel gefunden wird, werden Anweisungen zum Abrufen einer Lizenzdatei angezeigt. Führen Sie dies an dieser Stelle aus oder fahren Sie mit der Image Serving-Installation fort und installieren Sie den Lizenzschlüssel später.
-1. Wenn die Endbenutzer-Lizenzvereinbarung (EULA) angezeigt wird, lesen Sie die Lizenzvereinbarung und geben Sie dann ein, `y` um fortzufahren.
+1. Wenn die Endbenutzer-Lizenzvereinbarung (EULA) angezeigt wird, lesen Sie die Lizenzvereinbarung und geben Sie `y` ein, um fortzufahren.
 
    Das Installationsprogramm zeigt die in der folgenden Tabelle aufgeführten Eingabeaufforderungen an.
 
@@ -60,7 +60,7 @@ Dieses Verfahren zeigt, wie Image Serving unter Linux zum ersten Mal installiert
  </tbody> 
 </table>
 
-1. Drücken Sie die **[!UICONTROL Eingabetaste]** , um den Standardwert anzunehmen oder einen anderen Wert anzugeben.
+1. Drücken Sie **[!UICONTROL Geben Sie]** ein, um den Standardwert zu akzeptieren oder einen anderen Wert anzugeben.
 
    Vergewissern Sie sich, dass alle angegebenen Anschlussnummern eindeutig sind und auf diesem Host nicht anders verwendet werden.
 
@@ -68,7 +68,7 @@ Dieses Verfahren zeigt, wie Image Serving unter Linux zum ersten Mal installiert
    >
    >Wenn ein anderes Konto als Root angegeben ist, müssen Sie sicherstellen, dass die Zugriffsberechtigungen für alle Dateien und Ordner, die der Image-Server lesen und/oder schreiben muss, korrekt eingerichtet sind, wenn diese Ordner in den Konfigurationsdateien neu konfiguriert werden.
    >
-   >Image Serving ist jetzt auf installiert [!DNL /usr/local/Scene7/ImageServing]. Bestimmte Bildwiedergabeinhalte werden installiert [!DNL /usr/local/Scene7/ImageRendering].
+   >Image Serving ist jetzt auf [!DNL /usr/local/Scene7/ImageServing] installiert. Bestimmte Bildwiedergabeinhalte werden auf [!DNL /usr/local/Scene7/ImageRendering] installiert.
    >
    >Gegen Ende der Installation versucht der Installationsassistent, Image Server Beginn. Wenn kein gültiger Lizenzschlüssel gefunden wird, kann der Image-Server keinen Beginn ausführen. Wenn eine gültige Lizenz vorhanden ist und Image Server immer noch nicht gestartet wird, lesen Sie die Protokolldateien.
 
