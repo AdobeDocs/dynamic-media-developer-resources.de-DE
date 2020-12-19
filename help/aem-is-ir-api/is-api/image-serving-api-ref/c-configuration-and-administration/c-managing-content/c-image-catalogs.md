@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7d7285e2-ee9c-4e88-b270-b686d1984d82
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ Bildkataloge bieten viele Serverkonfigurationseinstellungen sowie Schriftarten, 
 
 Sie ordnen Bild- und statische Inhalts-IDs, die in Anforderungen verwendet werden, den tatsächlichen Dateipfaden zu, speichern verschiedene Bildmetadaten wie Imagemaps und bieten Container für Vorlagen und Bildsätze.
 
-Auf Bildkataloge kann nur vom Plattformserver zugegriffen werden, nie vom Image-Server. Katalogattributdateien müssen das Suffix .ini haben und im Katalogordner des Plattformservers abgelegt werden ( `PS::CatalogFolder`). Mindestens der Standardbildkatalog ist erforderlich und muss mit allen Attributen gefüllt werden, damit der Plattformserver ordnungsgemäß funktioniert.
+Auf Bildkataloge kann nur vom Plattformserver zugegriffen werden, nie vom Image-Server. Katalogattributdateien müssen das Suffix .ini haben und im Katalogordner des Plattformservers ( `PS::CatalogFolder`) abgelegt werden. Mindestens der Standardbildkatalog ist erforderlich und muss mit allen Attributen gefüllt werden, damit der Plattformserver ordnungsgemäß funktioniert.
