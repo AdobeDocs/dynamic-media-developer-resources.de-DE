@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Durchsucht das Metadaten-Index-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
 
-Während `searchAssetsByMetadata` Sie die Suche nach benutzerdefinierten Metadatenfeldern durchführen können, werden diese Felder nicht zurückgegeben, wenn sie in der `responseMetadataArray`Tabelle angegeben sind. Zur Veranschaulichung dieses Punktes ist das folgende Codebeispiel dargestellt:
+Während `searchAssetsByMetadata` die Suche nach benutzerdefinierten Metadatenfeldern ermöglicht, werden diese Felder nicht zurückgegeben, wenn sie in `responseMetadataArray` angegeben sind. Zur Veranschaulichung dieses Punktes ist das folgende Codebeispiel dargestellt:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +36,7 @@ gibt einen Nullwert zurück:
 </items>
 ```
 
-Um dieses Problem zu umgehen, können Sie die `fieldHandles` Elemente verwenden, die von der Suche zurückgegeben werden, um ausgeführt zu werden `getAssets` (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte für benutzerdefinierte Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
+Um dieses Problem zu umgehen, können Sie die Elemente `fieldHandles` verwenden, die von der Suche zurückgegeben werden, um `getAssets` auszuführen (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte für benutzerdefinierte Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
 
 ```java
 <ns:metadataConditionArray>
@@ -70,49 +73,49 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` Elemente verwenden,
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Der Griff zur Firma. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filter</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filter</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> Typ:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Filter, die Ihnen bei der Definition von Suchkriterien helfen. </p> <p>Siehe <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> metadataConditionArray <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Bedingungen, die Suchkriterien definieren. Weitere Informationen finden Sie unten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Zusätzliche Felder, die Sie in der Asset-Zusammenfassung für die Antwort ausgefüllt haben möchten. Die Felder müssen im normalisierten Format angegeben werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> recordsPerPage <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Die Anzahl der von der Antwort zurückgegebenen Assets. Der Standardwert ist 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Ergebnisseite</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt die Seite der zurückzugebenden Ergebnisse basierend auf der Seitengröße <span class="codeph"> recordsPerPage</span> an. </p> </td> 
+   <td colname="col4"> <p>Gibt die Seite der zurückzugebenden Ergebnisse basierend auf dem Seitenformat <span class="codeph"> recordsPerPage</span> an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortieren nach</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Sortieren nach ausgewähltem Asset-Feld </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Sortierrichtung</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Auswahl der Sortierrichtung. Aufsteigend ist der Standardwert. </p> </td> 
@@ -127,7 +130,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` Elemente verwenden,
 | ` *`totalRows`*` | `xsd:int` | Nein | Anzahl der Übereinstimmungen. |
 | ` *`assetArray`*` | `types:AssetArray` | Nein | Array von Assets, die von der Suche zurückgegeben werden. |
 
-## metadataConditionArray-Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## metadataConditionArray Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **Elementstruktur**
 
@@ -156,13 +159,13 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` Elemente verwenden,
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (entspricht `modified_at` (Datum im Formular: 25. Juli 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (entspricht  `modified_at` (Datum im Formular): 25. Juli 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Zugelassene Operatoren**
 
-Die [!DNL operator] definiert den Vergleich des Werts und umfasst:
+Das [!DNL operator] definiert, wie der Wert verglichen wird und umfasst:
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +174,15 @@ Die [!DNL operator] definiert den Vergleich des Werts und umfasst:
 * `StartsWith`
 * `EndsWith`
 
-Der Begriff `comparison_value` ist der zu suchende Begriff.
+Das `comparison_value` ist der Begriff, nach dem gesucht werden soll.
 
 ## Beispiele {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Dieses Codebeispiel führt eine Suche mit den folgenden Metadatenkriterien durch:
 
-* `name` enthält `1000801`.
+* `name` enthält  `1000801`.
 
-* `dc.rights` field gleich `Per Jessen Schmidt`.
+* `dc.rights` field gleich  `Per Jessen Schmidt`.
 
 **Anforderung**
 
