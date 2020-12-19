@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0dcebbce-f449-4f5f-acbc-02960e1dbdba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Gibt das Komponentenvorladeverhalten an. </p> <p>Bei Festlegung auf <span class="codeph"> -1</span> lädt die Komponente alle Karussell-Frames im Leerlauf vorab. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> lädt die Komponente nur den derzeit sichtbaren, vorherigen und nächsten Frame. </p> <p><span class="codeph"><span class="varname"> "</span></span>preloadnbrings"definiert, wie viele unsichtbare Rahmen um den derzeit angezeigten Rahmen vorab geladen werden, wenn sie sich im Leerlauf befinden. </p> </td> 
+   <td> <p>Gibt das Komponentenvorladeverhalten an. </p> <p>Bei Festlegung auf <span class="codeph"> -1</span> lädt die Komponente alle Karussell-Frames im Leerlauf vorab. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> lädt die Komponente nur den derzeit sichtbaren Rahmen, den vorherigen und den nächsten Frame. </p> <p><span class="codeph"><span class="varname"> "</span></span>preloadnbrings"definiert, wie viele unsichtbare Rahmen um den derzeit angezeigten Rahmen vorab geladen werden, wenn sie sich im Leerlauf befinden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
