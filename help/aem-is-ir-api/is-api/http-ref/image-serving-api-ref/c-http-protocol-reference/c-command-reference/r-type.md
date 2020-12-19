@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 44906190-516c-481c-9714-bb19d77af33c
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 5%
 
 ---
 
@@ -25,16 +28,16 @@ Filter für statischen Inhaltstyp. Gibt eine Filterzeichenfolge für statischen 
  </tr> 
 </table>
 
-Der Server vergleicht die Zeitangabe mit dem Wert `catalog::Type` des angeforderten statischen Inhaltselements. Das Element wird an den Client zurückgegeben, wenn die Werte übereinstimmen (Groß-/Kleinschreibung beachten). Andernfalls wird ein Fehler zurückgegeben.
+Der Server vergleicht das Feld mit dem Wert von `catalog::Type` des angeforderten statischen Inhaltselements. Das Element wird an den Client zurückgegeben, wenn die Werte übereinstimmen (Groß-/Kleinschreibung beachten). Andernfalls wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-529b088434a44a9f86a64ef548d2925b}
 
-Wird nur für statische Inhaltsanforderungen (nicht Bildanforderungen) unterstützt, die über bereitgestellt werden. Wird ignoriert, wenn `catalog::Type` leer oder nicht definiert ist.
+Wird nur für statische Inhaltsanforderungen (nicht Bildanforderungen) unterstützt, die über bereitgestellt werden. Wird ignoriert, wenn `catalog::Type` leer ist oder nicht definiert ist.
 
 ## Standard {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-Es wird keine Typübereinstimmung angewendet, wenn `type=` weder angegeben noch leer ist.
+Es wird keine Typübereinstimmung angewendet, wenn `type=` nicht angegeben ist oder leer ist.
 
 ## Verwandte Themen {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
-[Bereitstellen von statischen (Nicht-Bild-)Inhalten](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [Katalog::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+[Bereitstellen von statischen (Nicht-Bild-)Inhalten](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da),  [Katalog::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
