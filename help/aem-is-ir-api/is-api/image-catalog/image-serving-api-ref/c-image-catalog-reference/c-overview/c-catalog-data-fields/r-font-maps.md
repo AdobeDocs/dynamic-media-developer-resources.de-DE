@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 836131e6-d899-4e36-a837-df46bf27a6b2
 translation-type: tm+mt
 source-git-commit: e1129b9c05eb97551a358d1da0a19a9e7950844b
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
 
-# Schriftarten{#font-maps}
+# Schriftkarten{#font-maps}
 
 Die folgenden Felder werden in Schriftartzuordnungsdateien erkannt.
 
