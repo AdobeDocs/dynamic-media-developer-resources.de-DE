@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ Dieser Parameter:
 
 Gibt zurück:
 
-Status des Auftrags zum Zeitpunkt des Eingangs der Löschanforderung, Fehler, wenn der Auftrag ungültig `jobid` ist oder bereits gelöscht wurde.
+Status des Auftrags zum Zeitpunkt des Eingangs der Löschanforderung, Fehler, wenn `jobid` ungültig ist oder der Auftrag bereits gelöscht wurde.
 
 ## Beispiel {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
