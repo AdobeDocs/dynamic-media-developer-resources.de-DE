@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +34,7 @@ Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern
 | ` *`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Firma. |
 | ` *`groupHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Gruppe. |
 | ` *`userRoleArray`*` | `types:StringArray` | Nein | Filtern Sie die Ergebnisse nach Benutzerrolle. |
-| ` *`charFilterField`*` | `xsd:string` | Nein | Ergebnisse nach dem Zeichenfolgenpräfix des Felds filtern (siehe [!DNL Trash State).] |
+| ` *`charFilterField`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach dem Zeichenfolgenpräfix des Felds (siehe [!DNL Trash State).] |
 | ` *`charFilter`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach einem bestimmten Zeichen. |
 | ` *`sortBy`*` | `xsd:string` | Nein | Auswahl der Benutzersortierungsfelder. |
 | ` *`recordsPerPage`*` | `xsd:int` | Nein | Gibt die angegebene Anzahl von Datensätzen pro Seite zurück. |
