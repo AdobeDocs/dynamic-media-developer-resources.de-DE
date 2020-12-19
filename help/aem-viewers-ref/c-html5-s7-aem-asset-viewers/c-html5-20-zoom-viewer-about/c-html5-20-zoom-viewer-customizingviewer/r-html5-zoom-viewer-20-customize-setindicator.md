@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 802916a6-cec5-469b-b54c-dd379925a8c2
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
 
-# Indikator festlegen{#set-indicator}
+# Indikator{#set-indicator} festlegen
 
 Unter &quot;Sset-Indikator&quot;versteht man eine Reihe von Punkten, die über den Farbfeldern dargestellt werden, wenn ein Viewer auf einem Touch-Gerät verwendet wird. Die Punkte helfen Benutzern, durch die Seiten von Miniaturbildern zu navigieren, wenn keine Bildlaufschaltflächen verfügbar sind.
 
@@ -35,7 +38,7 @@ Das Erscheinungsbild des Containers für den Set-Indikator wird mithilfe der fol
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe im Hexadezimalformat des Satzindikators. </p> </td> 
   </tr> 
  </tbody> 
@@ -70,27 +73,27 @@ Das Erscheinungsbild eines einzelnen Datensatzindikatorpunkts wird mit der CSS-K
    <td colname="col2"> <p>Höhe des festgelegten Indikatorpunkts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Linker Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Oberer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Rechter Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Unterer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Rahmenradius in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +101,7 @@ Das Erscheinungsbild eines einzelnen Datensatzindikatorpunkts wird mit der CSS-K
 
 >[!NOTE]
 >
->Der Punkt &quot;Indikator einstellen&quot;unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere `state="selected"` entspricht dies der aktuellen Seite der Miniaturansichten und `state="unselected"` dem Standardpunktstatus.
+>Der Anzeigepunkt &quot;Festlegen&quot;unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der aktuellen Seite der Miniaturansichten, `state="unselected"` dem Standardpunktstatus.
 
 Beispiel: Um den Anzeigepunkt auf 15 x 15 Pixel mit zwei Pixel horizontalem Rand, fünf Pixel oberem Rand, einem Pixel unteren Rand, zwölf Pixel Radius, #D5D3D3-Standardfarbe und #939393 zu setzen, legen Sie folgende Farbe fest:
 
