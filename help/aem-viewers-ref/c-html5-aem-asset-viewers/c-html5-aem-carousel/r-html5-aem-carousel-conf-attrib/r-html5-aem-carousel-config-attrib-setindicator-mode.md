@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cfb549c2-e0cf-46c3-b5b7-219c8c1bee94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numeric|dotted</span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert den Renderstil des Satzindikators. </p> <p>Bei Festlegung auf <span class="codeph"> gepunktete</span> Elemente rendert die Komponente identische Indikatoren für alle Seiten. </p> <p>Bei Festlegung auf <span class="codeph"> numerisch</span> wird in jedem Indikatorelement eine 1-basierte Seitenzahl eingefügt. </p> <p>Der <span class="codeph"> numerische</span> Betriebsmodus wird auf Geräten, die Berührungseingabe ermöglichen, nicht unterstützt. Stattdessen verwendet die Komponente auf solchen Geräten gepunktete <span class="codeph"> Elemente</span> . </p> </td> 
+   <td colname="col2"> <p> Konfiguriert den Renderstil des Satzindikators. </p> <p>Bei Festlegung auf <span class="codeph"> dotted</span> gibt die Komponente identische Indikatoren für alle Seiten wieder. </p> <p>Bei Festlegung auf <span class="codeph"> numerisch</span> wird in jedem Indikatorelement eine 1-basierte Seitenzahl eingefügt. </p> <p>Der Betriebsmodus <span class="codeph"> numerisch</span> wird auf Geräten, die Berührungseingabe ermöglichen, nicht unterstützt. Stattdessen verwendet die Komponente auf solchen Geräten <span class="codeph"> gepunktete</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
