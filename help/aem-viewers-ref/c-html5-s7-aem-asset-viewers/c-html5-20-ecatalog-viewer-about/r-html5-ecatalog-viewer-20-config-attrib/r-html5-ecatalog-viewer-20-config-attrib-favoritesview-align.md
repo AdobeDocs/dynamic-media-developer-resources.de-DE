@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavoritenView.align
+seo-title: FavoritesView.align
 solution: Experience Manager
-title: FavoritenView.align
+title: FavoritesView.align
 topic: Dynamic media
 uuid: 3fcf8e75-988c-4e6b-a22b-4e5a68387f54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 7%
 
 ---
 
 
-# FavoritenView.align{#favoritesview-align}
+# FavoritesView.align{#favoritesview-align}
 
 `[FavoritesView.|<containerId>_favoritesView.]align=left|center|right,top|center|bottom`
 
