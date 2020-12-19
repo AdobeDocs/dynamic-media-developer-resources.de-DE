@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 7%
 
 ---
 
@@ -45,25 +48,25 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Behandeln Sie die Firma, der das Asset gehört. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Asset-Handle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Das Array der gewünschten Antwortfelder. Siehe response- FieldArray/excludeFieldArray in der Einführung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Das Array der ausgeschlossenen Antwortfelder. Siehe response- FieldArray/excludeFieldArray in der Einführung. </p> </td> 
@@ -84,49 +87,49 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AssetArray</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Array von Set- und Vorlagenelementen, die das spezifizierte Asset enthalten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AssetArray</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Array von Assets, die vom angegebenen Set- oder Vorlagenasset enthalten sind. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AssetArray</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Array von Assets, auf die in einer Ebene oder einer Vorlagen-URL verwiesen wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AssetArray</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Array von Assets, die Eigentümer des angegebenen Assets sind. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> abgeleitetes <span class="varname"> Array</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> abgeleitetesArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AssetArray</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Array von Assets, die zum Generieren des angegebenen Assets verwendet wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das <span class="codeph"> generatorArray</span> Liste die Art und Weise, wie dieses Asset erstellt wurde. Wenn <span class="codeph"> assetHandler</span> z. B. eine Bildseite einer PDF-Datei war, würde dies das PDF-Prozessor-Tool enthalten und auf das PDF-Dateielement verweisen. </p> </td> 
+   <td colname="col4"> <p>Das <span class="codeph"> generatorArray</span> Liste der Erstellung dieses Assets. Wenn <span class="codeph"> assetHandler</span> beispielsweise eine Bildseite einer PDF-Datei war, enthält dies das PDF-Prozessor-Tool und verweist auf das PDF-Dateielement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das <span class="codeph"> generierte Array</span> kehrt die Art und Weise um, wie dieses Asset erstellt wurde. Beispielsweise könnte das <span class="codeph"> generierteArray</span> die Liste der Bilder enthalten, die aus diesem <span class="codeph"> assetHandler</span> generiert wurden, wenn es sich um ein PDFFile-Asset handelte. </p> </td> 
+   <td colname="col4"> <p>Das generierte <span class="codeph">-Array</span> kehrt die Art und Weise um, wie dieses Asset erstellt wurde. Beispielsweise könnte das generierte <span class="codeph">-Array</span> die Liste der Bilder enthalten, die aus diesem <span class="codeph"> assetHandler</span> generiert wurden, wenn es sich um ein PDFFile-Asset handelte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:Asset</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Die mit dem Anforderungs-Asset verknüpften Miniaturansichtselementinformationen. Wenn kein Thumb-Asset zugewiesen ist, wird das Feld in der Antwort weggelassen. </p> </td> 
@@ -134,11 +137,11 @@ Syntax
  </tbody> 
 </table>
 
-Sie können die Parameter verwenden `responseFieldArray` oder `excludeFieldArray` die Antwortgröße einschränken. Insbesondere werden die `GenerationInfo` Elemente, die zurückgegeben werden, `generatorArray` oder `generatedArray` die standardmäßig sowohl den Originator als auch die generierten Asset-Datensätze enthalten. Bei einem PDF-Asset-Typ führt dieses Verhalten zu unerwünschten Mehrfachkopien des &quot;Originator&quot;-PDF-Asset-Datensatzes in der Antwort. Sie können dieses Problem beheben, indem Sie `generatedArray/items/originator` zu `excludeFieldArray`hinzufügen. Sie können auch eine explizite Liste von Antwortfeldern angeben, die Sie einbeziehen möchten `responseFieldArray`.
+Sie können die Parameter `responseFieldArray` oder `excludeFieldArray` verwenden, um die Antwortgröße zu begrenzen. Insbesondere die Elemente `GenerationInfo`, die standardmäßig in `generatorArray` oder `generatedArray` zurückgegeben werden, enthalten sowohl den Originator als auch die generierten Asset-Datensätze. Bei einem PDF-Asset-Typ führt dieses Verhalten zu unerwünschten Mehrfachkopien des &quot;Originator&quot;-PDF-Asset-Datensatzes in der Antwort. Sie können dieses Problem beheben, indem Sie `generatedArray/items/originator` zu `excludeFieldArray` hinzufügen. Sie können auch eine explizite Liste von Antwortfeldern angeben, die Sie in `responseFieldArray` einbeziehen möchten.
 
 ## Beispiele {#section-8946ea4b9cb94912a8408249c897f192}
 
-Das folgende grundlegende Beispiel ist eine Anforderung an den Handle des Generators für ein Bild, das aus einer PDF extrahiert wird. Es enthält eine Länge `containerArray` von eins mit einem Element einschließlich der `assetHandle` des PDF-Dokuments.
+Das folgende grundlegende Beispiel ist eine Anforderung an den Handle des Generators für ein Bild, das aus einer PDF extrahiert wird. Es enthält eine `containerArray` der Länge 1 mit einem Element einschließlich der `assetHandle` der PDF-Datei.
 
 **Anforderung**
 
@@ -253,7 +256,7 @@ Das umgekehrte Beispiel oben lautet wie folgt:
 </soapenv:Envelope>
 ```
 
-In diesem nächsten Beispiel wird einer Firma mit `groupHandleArray`einer Gruppe eine Gruppe hinzugefügt. In diesem Beispiel wird nur eine Gruppe verwendet.
+In diesem nächsten Beispiel wird einer Firma mit `groupHandleArray` eine Gruppe hinzugefügt. In diesem Beispiel wird nur eine Gruppe verwendet.
 
 **Anforderung**
 
