@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 07154e06-c386-45a7-b5ac-60f0aef3c362
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 2%
 
 ---
 
@@ -22,4 +25,4 @@ Enum. Auf 0 setzen, um die Anforderungsvertuschung zu deaktivieren, oder auf 1, 
 
 ## Standard {#section-e7f49493d9a940acb4f7938df7cac44d}
 
-Vererbt von, `default::RequestObfuscation` wenn nicht definiert oder leer.
+Vererbt von `default::RequestObfuscation`, wenn nicht definiert oder leer.
