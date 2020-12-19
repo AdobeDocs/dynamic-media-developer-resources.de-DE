@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Verwenden Sie diese Servereinstellungen, um das Überwachungs- und Warnsystem zu konfigurieren.
 
-## AS::monitorAlertGenerator.enableGlobalAlerting - Warnsystem aktivieren {#section-612f8ea61794426ab205e22e5f665fa9}
+## AS::monitorAlertGenerator.enableGlobalAlerting - Warnsystem Aktivieren {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Aktivieren Sie die E-Mail-Benachrichtigung, indem Sie auf &quot;true&quot;setzen und die Einstellungen für die E-Mail-Benachrichtigung konfigurieren. Die Einstellung zum `false` Ausschalten aller E-Mail-Warnungen kann nützlich sein, wenn ein Server zur Wartung offline geschaltet wird. Boolesch.
+Aktivieren Sie die E-Mail-Benachrichtigung, indem Sie auf &quot;true&quot;setzen und die Einstellungen für die E-Mail-Benachrichtigung konfigurieren. Durch die Einstellung auf `false` werden alle E-Mail-Warnungen deaktiviert - dies kann nützlich sein, wenn ein Server für die Wartung offline geschaltet wird. Boolesch.
 
-## AS::mailSender.host - SMTP-Host {#section-151df07e7b44446581339bb7abeeba7a}
+## AS::mailSender.host - SMTP Host {#section-151df07e7b44446581339bb7abeeba7a}
 
 Die IP-Adresse des SMTP-E-Mail-Servers.
 
@@ -34,7 +37,7 @@ Eine oder mehrere E-Mail-Adressen, an die Warnungen gesendet werden sollen. Verw
 
 ## AS::monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-Die E-Mail-Adresse, die im Feld &quot; **[!UICONTROL Von]** E-Mail&quot;verwendet werden soll.
+Die E-Mail-Adresse, die im E-Mail-Feld **[!UICONTROL Von]** verwendet werden soll.
 
 ## AS::monitorAlertGenerator.alertInterval - Überwachungsintervall {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -44,6 +47,6 @@ Das Überwachungssystem sammelt während des Warnungsintervalls Alarmbedingungen
 
 Mindestzeit nach einer Heap Space-Warnung, bevor eine andere ausgegeben wird. Intervallzeit in msec. Ganzzahlwert, 0 oder größer.
 
-## AS::monitorAlertGenerator.minTrafficForAlerts - Minimaler Traffic zur Aktivierung der Warnung {#section-8b4db2d6f96642309ca35c49eb3ab230}
+## AS::monitorAlertGenerator.minTrafficForAlerts - Minimum Traffic to Enable Alerting {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-Anforderungen pro Sekunde Wenn der Traffic unter diesen Schwellenwert fällt, werden keine Antwortzeit- und Fehlerwarnungen ausgegeben. Auf 0 setzen, um Antwortzeit- und Fehlerwarnungen unabhängig vom Traffic-Volumen zu senden. Real value 0 or large.
+Anforderungen pro Sekunde Wenn der Traffic unter diesen Schwellenwert fällt, werden keine Antwortzeit- und Fehlerwarnungen ausgegeben. Auf 0 setzen, um Antwortzeit- und Fehlerwarnungen unabhängig vom Traffic-Volumen zu senden. Realer Wert 0 oder größer.
