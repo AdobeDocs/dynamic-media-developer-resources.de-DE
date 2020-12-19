@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a7056c16-1d05-44c8-9dd5-8969f64d3383
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
 
-# Vignettenzuordnungsverweis{#vignette-map-reference}
+# Vignette-Map-Referenz{#vignette-map-reference}
 
 Wenn für einen Materialkatalog eine Vignettenzuordnung erforderlich ist, muss der relative oder absolute Pfad der Vignettenzuordnungsdatei in attribute::VignetteMapFile angegeben werden.
 
