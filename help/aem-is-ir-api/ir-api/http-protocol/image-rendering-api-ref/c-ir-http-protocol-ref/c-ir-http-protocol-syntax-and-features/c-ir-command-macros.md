@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 1%
 
 ---
 
 
-# Befehlsmakros *{#command-macros}
+# Befehls-Makros *{#command-macros}
 
 Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit.
 
@@ -24,9 +27,9 @@ Makros sind in separaten Makro-Definitionsdateien definiert, die an Materialkata
 
 *[!DNL name]* nicht zwischen Groß- und Kleinschreibung unterscheidet und aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen, -Zeichen, -Zeichen, -Zeichen und -Zeichen bestehen kann. Zeichen.
 
-Rufen Sie Makros an einer beliebigen Stelle in einer Anforderung nach dem &#39;?&#39; oder an einer beliebigen Stelle innerhalb eines `vignette::Modifier` Felds auf. Makros können nur einen oder mehrere vollständige Bildwiedergabebefehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;getrennt werden.
+Aufrufen von Makros an einer beliebigen Stelle in einer Anforderung nach dem &quot;?&quot;oder an einer beliebigen Stelle innerhalb eines Felds `vignette::Modifier`. Makros können nur einen oder mehrere vollständige Bildwiedergabebefehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;getrennt werden.
 
-Makroaufrufe werden während der Analyse durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros setzen dieselben Befehle in der Anforderung außer Kraft, wenn sie vor dem Makroaufruf in der Anforderung auftreten. Dies unterscheidet sich von `vignette::Modifier`dem, bei dem Befehle in der Anforderungszeichenfolge Befehle in der `vignette::Modifier` Zeichenfolge immer außer Kraft setzen, unabhängig von der Position in der Anforderung.
+Makroaufrufe werden während der Analyse durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros setzen dieselben Befehle in der Anforderung außer Kraft, wenn sie vor dem Makroaufruf in der Anforderung auftreten. Dies unterscheidet sich von `vignette::Modifier`, wobei Befehle in der Anforderungszeichenfolge Befehle in der `vignette::Modifier`-Zeichenfolge immer außer Kraft setzen, unabhängig von der Position in der Anforderung.
 
 Befehlsmakros können keine Argumentwerte haben, aber benutzerdefinierte Variablen können verwendet werden, um Werte aus der Anforderung an das Makro zu übergeben.
 
@@ -46,11 +49,11 @@ Das Makro wird wie folgt verwendet:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Da die dritte Anforderung unterschiedlich `qlt=` ist, überschreiben wir den Wert einfach, nachdem das Makro aufgerufen wurde (Angabe `qlt=`*vor *`$render$`hat keine Auswirkungen).
+Da `qlt=` für die dritte Anforderung unterschiedlich ist, überschreiben wir einfach den Wert, nachdem das Makro aufgerufen wurde (die Angabe `qlt=`*bevor* `$render$`keine Auswirkungen haben würde).
 
 **Verwandte Themen**
 
-`catalog::MacroFile`, `catalog::Modifier`Makrodefinitionsreferenz
+`catalog::MacroFile`,  `catalog::Modifier`Makrodefinitionsreferenz
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->
 
