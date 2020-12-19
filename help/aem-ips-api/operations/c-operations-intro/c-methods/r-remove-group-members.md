@@ -1,6 +1,6 @@
 ---
-description: Entfernt Firma-Benutzer aus einer bestimmten Gruppe.
-seo-description: Entfernt Firma-Benutzer aus einer bestimmten Gruppe.
+description: Entfernt Firmen aus einer bestimmten Gruppe.
+seo-description: Entfernt Firmen aus einer bestimmten Gruppe.
 seo-title: removeGroupMembers
 solution: Experience Manager
 title: removeGroupMembers
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 9%
 
 ---
 
 
 # removeGroupMembers{#removegroupmembers}
 
-Entfernt Firma-Benutzer aus einer bestimmten Gruppe.
+Entfernt Firmen aus einer bestimmten Gruppe.
 
 **Unterschiede zwischen Entfernen-Befehlen**
 
