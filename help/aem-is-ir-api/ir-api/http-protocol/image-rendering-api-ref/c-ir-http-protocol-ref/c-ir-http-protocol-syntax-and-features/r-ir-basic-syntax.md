@@ -1,6 +1,6 @@
 ---
-description: In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering-HTTP-Protokolls beschrieben.
-seo-description: In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering-HTTP-Protokolls beschrieben.
+description: In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering HTTP-Protokolls beschrieben.
+seo-description: In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering HTTP-Protokolls beschrieben.
 seo-title: Grundlegende Syntax des Image Rendering-HTTP-Protokolls
 solution: Experience Manager
 title: Grundlegende Syntax des Image Rendering-HTTP-Protokolls
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e01314f0-6aaa-41ca-8c05-d5db3148a071
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 4%
 
 ---
 
 
-# Grundlegende Syntax des Image Rendering-HTTP-Protokolls{#image-rendering-http-protocol-basic-syntax}
+# Grundlegende Syntax des Image Rendering HTTP-Protokolls{#image-rendering-http-protocol-basic-syntax}
 
-In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering-HTTP-Protokolls beschrieben.
+In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering HTTP-Protokolls beschrieben.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -33,31 +36,31 @@ In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering-HTTP
    <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> port</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> Vignette </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> Vignette  </span> </p> </td> 
    <td colname="col2"> <p>Vignettenbezeichner (relativer Dateipfad oder Vignettenkatalogeintrag). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> Modifikatoren </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> Modifikator</span> *[ &amp; <span class="varname"> Modifikator</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp;  <span class="varname"> Modifikator</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modifier </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> command</span> | { $ <span class="varname"> macro</span> $ }| { .<span class="varname"> comment</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname"> command</span> | { $  <span class="varname"> macro</span> $ } | { .<span class="varname"> comment</span> } </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> command </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> command  </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> macro </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> macro  </span> </p> </td> 
    <td colname="col2"> <p>Name eines Befehlmakros. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> Kommentar </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> Kommentar  </span> </p> </td> 
    <td colname="col2"> <p>Kommentarzeichenfolge (vom Server ignoriert). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> cmdName </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> cmdName  </span> </p> </td> 
    <td colname="col2"> <p>Name eines Befehls oder Attributs. </p> </td> 
   </tr> 
   <tr> 
@@ -71,11 +74,11 @@ In diesem Abschnitt wird die grundlegende Syntax des Scene7 Image Rendering-HTTP
  </tbody> 
 </table>
 
-*`server`*, *`cmdName`*, *`macro`* und *`var`* die Groß-/Kleinschreibung wird nicht beachtet. Der Server behält die Groß-/Kleinschreibung aller anderen Zeichenfolgenwerte bei.
+*`server`*,  *`cmdName`*,  *`macro`* und  *`var`* unterscheiden nicht zwischen Groß- und Kleinschreibung. Der Server behält die Groß-/Kleinschreibung aller anderen Zeichenfolgenwerte bei.
 
 **Server-ID**
 
-Für alle HTTP-Anfragen zum Image Rendering ist der `/ir/render`&quot;Stammkontext&quot;erforderlich.
+Der Stammkontext &#39; `/ir/render`&#39; ist für alle HTTP-Anfragen zum Image Rendering erforderlich.
 
 **Kommentare**
 
@@ -83,4 +86,4 @@ Kommentare können überall in Anforderungszeichenfolgen eingebettet werden und 
 
 **HTTP-Dekodierung**
 
-Beim Rendern werden zunächst die eingehende Anforderung extrahiert *`object`* und *`modifiers`* daraus extrahiert. *`object`* wird dann in Pfadelemente aufgeteilt, die einzeln HTTP-dekodiert sind. Die *`modifiers`* Zeichenfolge wird in *`command`*= *`value`* *`value`* -Paare aufgeteilt und anschließend vor der Befehlsverarbeitung HTTP-dekodiert.
+Beim Rendern werden zunächst *`object`* und *`modifiers`* aus der eingehenden Anforderung extrahiert. *`object`* wird dann in Pfadelemente aufgeteilt, die einzeln HTTP-dekodiert sind. Die *`modifiers`*-Zeichenfolge wird in *`command`*= *`value`*-Paare getrennt und *`value`* wird dann vor der befehlsspezifischen Verarbeitung HTTP-dekodiert.
