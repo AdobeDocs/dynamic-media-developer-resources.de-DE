@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
 
-# Hauptbereich des Viewers{#main-viewer-area}
+# Hauptviewer-Bereich{#main-viewer-area}
 
 Der Hauptbereich der Ansicht ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt wird.
 
@@ -43,7 +46,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
