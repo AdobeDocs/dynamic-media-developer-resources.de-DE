@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 21%
 
 ---
 
@@ -32,6 +35,7 @@ Syntax
 >
 >* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückgeben zu können.
 >* Alle Benutzer haben Zugriff auf die freigegebene Firma.
+
 >
 
 
@@ -51,13 +55,13 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Benutzen Sie die Firma. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> contextType <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4">Der Typ des Veröffentlichungskontexts, den Sie zurückgeben möchten. Umfasst: 
