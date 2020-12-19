@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 8ad882f9-5a7d-4a5c-a36b-98ad1f61e0b4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 17%
 
 ---
 
 
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= *`xywh`*, *``*, *``*, *``*`
+` [ZoomView.|<containerId>_zoomView.]rgn= *`xywh `*, *``*, *``*, *``*`
 
 <table id="table_68D8AADB572F4C2095967D12162F8991"> 
  <tbody> 
