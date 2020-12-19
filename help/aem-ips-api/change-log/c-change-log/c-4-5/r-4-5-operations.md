@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4002670-c830-474e-bb84-343f76b6fb80
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
@@ -35,15 +38,15 @@ Syntax
 * `updateTagFieldValues`
 * `updateXMPPacket`
 
-## Geänderte Vorgänge {#section-1c022cc62d274c349837013f1c02ca51}
+## Modifizierte Vorgänge {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` enthält `animatedGifInfo`, `swcInfo`, `cssInfo`und `javascriptInfo` Parameter.
+* `Asset` enthält  `animatedGifInfo`,  `swcInfo`,  `cssInfo`und  `javascriptInfo` Parameter.
 
-* `createMetadataField` enthält einen optionalen `isHidden` Parameter.
+* `createMetadataField` enthält einen optionalen  `isHidden` Parameter.
 
-* `saveMetadataField` enthält einen optionalen `isHidden` Parameter.
+* `saveMetadataField` enthält einen optionalen  `isHidden` Parameter.
 
 * `searchAssets`
 * 
-* Der `renameFiles` Parameter wurde für frühere Versionen nicht mehr unterstützt und aus dem `renameAsset` Vorgang entfernt. Der Pfad der virtuellen Datei wird an den Namen des neuen Assets angepasst (unter Beibehaltung der Dateierweiterung), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen Verweise auf diesen Parameter bei der Aktualisierung auf die neue API-Version entfernen.
+* Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus dem Vorgang `renameAsset` entfernt. Der Pfad der virtuellen Datei wird an den Namen des neuen Assets angepasst (unter Beibehaltung der Dateierweiterung), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen Verweise auf diesen Parameter bei der Aktualisierung auf die neue API-Version entfernen.
 
