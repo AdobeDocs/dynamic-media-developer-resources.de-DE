@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ Ganzzahl und Flag, durch Kommas getrennt. Der erste Wert liegt im Bereich 1.100 
 
 ## Standard {#section-60900c0fb8c54444b2361513232514db}
 
-Vererbt von, `default::JpegQuality` wenn nicht definiert oder leer.
+Vererbt von `default::JpegQuality`, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-8928a28fcbfe401cad4d4021a7a1c268}
 
