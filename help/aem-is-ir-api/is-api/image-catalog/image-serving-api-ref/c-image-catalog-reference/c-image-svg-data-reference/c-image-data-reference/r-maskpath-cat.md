@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 3%
 
 ---
 
@@ -26,9 +29,9 @@ Textzeichenfolgenwert. Optional. Wenn angegeben, muss es sich um einen gültigen
 
 Wenn sowohl ein Hauptbild ( `catalog::Path`) als auch ein Maskenbild ( `catalog::MaskPath`) in einem Katalogdatensatz definiert sind, müssen beide exakt dieselbe Pixelgröße haben. Maskenbilder müssen 8-Bit-Graustufen aufweisen.
 
-`mask=` in der Anforderung außer Kraft `catalog::MaskPath`.
+`mask=` in der Anforderung außer Kraft  `catalog::MaskPath`.
 
-`catalog::MaskPath` überschreibt den Alpha-Kanal im Hauptbild ( `catalog::Path`), falls vorhanden und wenn der Alpha-Kanal nicht zugeordnet ist (d. h. nicht vormultipliziert). Wenn das Alpha-Bild vormultipliziert wird, `catalog::MaskPath` wird es ignoriert und der Alpha-Kanal wird immer verwendet.
+`catalog::MaskPath` überschreibt den Alpha-Kanal im Hauptbild (  `catalog::Path`), falls vorhanden und wenn der Alpha-Kanal nicht zugeordnet ist (d. h. nicht vormultipliziert). Wenn der Alpha-Wert des Bilds vormultipliziert wird, wird `catalog::MaskPath` ignoriert und der Alpha-Kanal wird immer verwendet.
 
 ## Standard {#section-78533e35bfec469ba087cb68a35bb81b}
 
@@ -36,4 +39,4 @@ Keine.
 
 ## Verwandte Themen {#section-68d262f5949c4959b8723ba44611d1dc}
 
-[attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md), [catalog::Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c), [mask=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md), [req=mask](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)
+[attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ,  [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md),  [catalog::Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c),  [mask=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md),  [req=mask](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)
