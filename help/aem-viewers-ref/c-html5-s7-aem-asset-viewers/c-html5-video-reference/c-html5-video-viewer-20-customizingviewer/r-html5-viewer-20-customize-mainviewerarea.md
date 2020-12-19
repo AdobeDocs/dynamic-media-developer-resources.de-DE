@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
 
-# Hauptbereich des Viewers{#main-viewer-area}
+# Hauptviewer-Bereich{#main-viewer-area}
 
 Der Hauptbereich der Ansicht ist vom Video belegt. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
 
@@ -37,7 +40,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Anzeigebereich
    <td colname="col2"> <p>Viewer-Höhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
