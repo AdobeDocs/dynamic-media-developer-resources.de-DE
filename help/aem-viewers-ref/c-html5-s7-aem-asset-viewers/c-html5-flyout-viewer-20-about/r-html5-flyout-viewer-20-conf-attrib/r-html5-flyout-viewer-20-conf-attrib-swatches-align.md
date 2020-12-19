@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Muster.align
+seo-title: Swatches.align
 solution: Experience Manager
-title: Muster.align
+title: Swatches.align
 topic: Dynamic media
 uuid: 4437ee11-8675-4c11-b436-414cdbb4b2e7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 7%
 
 ---
 
 
-# Muster.align{#swatches-align}
+# Swatches.align{#swatches-align}
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
