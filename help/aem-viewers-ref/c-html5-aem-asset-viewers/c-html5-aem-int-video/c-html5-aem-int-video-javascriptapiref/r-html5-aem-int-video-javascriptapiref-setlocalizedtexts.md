@@ -8,30 +8,33 @@ topic: Dynamic media
 uuid: 11844a71-adb0-42a9-9b58-b69821070fd2
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 2%
 
 ---
 
 
-# setLocalizedTextes{#setlocalizedtexts}
+# setLocalizedTexte{#setlocalizedtexts}
 
 JavaScript-API-Referenz für den interaktiven Video-Viewer.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
-Legt lokale Anpassung-SYMBOL-Werte für ein oder mehrere Gebietsschemas fest. Dieser Parameter muss zuvor aufgerufen werden `init()`.
+Legt lokale Anpassung-SYMBOL-Werte für ein oder mehrere Gebietsschemas fest. Dieser Parameter muss vor `init()` aufgerufen werden.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span></span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Object </span>} JSON-Objekt mit lokale Anpassungen-Daten. </p> <p>Weitere Informationen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Lokale Anpassung der Elemente der Benutzeroberfläche </a> . </p> <p>Weitere Informationen zum Inhalt des Objekts finden Sie im <i>Viewer SDK-Benutzerhandbuch</i> und im Beispiel. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo  </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Object </span>} JSON-Objekt mit lokale Anpassungen-Daten. </p> <p>Weitere Informationen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Lokale Anpassung der Benutzeroberflächenelemente </a>. </p> <p>Weitere Informationen zum Inhalt des Objekts finden Sie im <i>Viewer-SDK-Benutzerhandbuch</i> und im Beispiel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 Keine.
 
