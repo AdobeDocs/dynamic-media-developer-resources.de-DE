@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2226a368-5db5-42a1-94be-b219560e3891
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Viewer-Layout auf Geräten mit Touch-Funktion an. Wenn der Parameter auf <span class="codeph"> 1 eingestellt ist </span>, zeigt der Viewer Muster unterhalb der Hauptversion auf dem Desktop an. Auf Touch-fähigen Geräten werden die Muster über der Haupt-Ansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 festgelegt ist, werden </span>die Farbfelder auf allen Gerätetypen unter der Haupt-Ansicht dargestellt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Gibt das Viewer-Layout auf Geräten mit Touch-Funktion an. Wenn der Parameter auf <span class="codeph"> 1 </span> eingestellt ist, zeigt der Viewer Muster unter der Haupt-Ansicht auf dem Desktop an. Auf Touch-fähigen Geräten werden die Muster über der Haupt-Ansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 </span> eingestellt ist, werden die Farbfelder auf allen Gerätetypen unter der Haupt-Ansicht dargestellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
