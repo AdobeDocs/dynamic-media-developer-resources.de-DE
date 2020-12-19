@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 5%
 
 ---
 
@@ -35,13 +38,13 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java-Stapelspuren hinzu. Fehlerbilder enthalten keine Stapelspuren und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span>zurück. </p></td> 
+  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java-Stapelspuren hinzu. Fehlerbilder enthalten keine Stapelspuren und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. </p></td> 
  </tr> 
 </table>
 
 * Level 0 wird für Live-Server empfohlen, auf die öffentlich zugegriffen werden kann.
 * Stufe 2 wird für Staging-, Qualitätssicherungs- und Anwendungsentwicklungsserver empfohlen.
-* Informationen der Stufe 3 können nützlich sein, wenn Berichte beim technischen Support von Scene7 auftreten.
+* Informationen der Stufe 3 können hilfreich sein, wenn Probleme mit dem Scene7 Tech Support auftreten.
 
 ## Eigenschaften {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
@@ -49,7 +52,7 @@ Enumerierter Wert muss 0, 1, 2 oder 3 sein.
 
 ## Standard {#section-5e78d550050840cc9a1de811c581b94f}
 
-Vererbt von, `default::ErrorDetail` wenn nicht angegeben oder leer.
+Von `default::ErrorDetail` übernommen, wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-474e71922d194c7ca06f2aad3b30e025}
 
