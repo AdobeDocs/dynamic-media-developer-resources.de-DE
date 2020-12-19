@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: db1321fb-6d52-4add-8877-0c13eb12e6af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +21,7 @@ JavaScript-API-Referenz für Video360-Viewer.
 
 `setAsset(asset)`
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit aufrufen, entweder vor oder nach `init()`. Wenn es nach `init()`dem Aufruf aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -31,7 +34,7 @@ Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 Keine.
 
