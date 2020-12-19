@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 937988ba-43c3-4542-8e48-9f94cf3f61ad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 0%
 
 ---
 
 
-# Common thumbnail attributes{#common-thumbnail-attributes}
+# Allgemeine Attribute für Miniaturansichten{#common-thumbnail-attributes}
 
 Katalogattributdateien erkennen diese häufig verwendeten Attribute für Miniaturansichten.
 
