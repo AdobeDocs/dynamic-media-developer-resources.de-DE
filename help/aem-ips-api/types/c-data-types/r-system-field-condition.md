@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Eine Systemfeldsuchbedingung für den Vorgang searchAssets.
 
-Übergeben Sie bei unären Vergleichen genau einen Wert ( `boolVal`, `longVal`, `doubleVal`oder `dateVal`) je nach Systemfeldtyp. Übergeben Sie für Suchbereiche `min<Type>` und `max<Type>` Parameter und übergeben Sie einen `op` Wert von `Between` oder `NotBetween`.
+Bei unären Vergleichen müssen Sie je nach Systemfeldtyp genau einen Wert ( `boolVal`, `longVal`, `doubleVal` oder `dateVal`) übergeben. Übergeben Sie für Suchbereiche die Parameter `min<Type>` und `max<Type>` und übergeben Sie den Wert `op` von `Between` oder `NotBetween`.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
