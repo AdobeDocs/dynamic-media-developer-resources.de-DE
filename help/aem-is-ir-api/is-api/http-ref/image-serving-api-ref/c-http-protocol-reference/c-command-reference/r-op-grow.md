@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
 
-# op_large{#op-grow}
+# op_Growth{#op-grow}
 
 Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radius > 0) oder eine Erosion (Radius &lt; 0) auf die Bilddaten an.
 
@@ -25,13 +28,13 @@ Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radiu
  </tr> 
 </table>
 
-` *`Der Radius`*` wird in Pixeln relativ zum Composite-Bild angegeben. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
+` *``*` Radiusis in Pixeln relativ zum Composite-Bild. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
 
 Wird hauptsächlich zur Änderung der Größe von Ebeneneffekten verwendet. Auch nützlich, um spezielle Effekte auf Textebenen oder Vollfarben-Ebenen mit Masken zu erzielen.
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist.
+Ebenenattribut. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 
