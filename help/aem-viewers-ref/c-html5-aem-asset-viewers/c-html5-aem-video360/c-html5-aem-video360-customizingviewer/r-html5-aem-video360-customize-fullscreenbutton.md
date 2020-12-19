@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: d09832e4-5058-420a-8ee9-c6b5a2d42190
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 2%
 
 ---
 
 
-# Full screen button{#full-screen-button}
+# Vollbildmodus-Schaltfläche{#full-screen-button}
 
 Durch Klicken auf die Schaltfläche im Vollbildmodus gelangt der Videoplayer in den Vollbildmodus oder beendet ihn.
 
@@ -55,11 +58,11 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mithilfe der CSS-Kl
    <td colname="col2"> <p>Die Höhe der Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Das angezeigte Bild für einen Schaltflächenstatus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +70,11 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mithilfe der CSS-Kl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die `state` als auch die `selected` Attributselektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dies dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt sowohl die Attributselektoren `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Zum Einrichten einer Vollbildschaltfläche von 32 x 32 Pixel, die 6 Pixel von der oberen und rechten Kante der Steuerleiste entfernt positioniert ist. Zeigen Sie außerdem ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände an, wenn diese ausgewählt oder nicht ausgewählt sind.
+**Beispiel** : Zum Einrichten einer Vollbildschaltfläche von 32 x 32 Pixeln, die 6 Pixel von der oberen und rechten Kante der Steuerleiste entfernt angeordnet ist. Zeigen Sie außerdem ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände an, wenn diese ausgewählt oder nicht ausgewählt sind.
 
 ```
 .s7video360viewer . s7fullscreenbutton { 
