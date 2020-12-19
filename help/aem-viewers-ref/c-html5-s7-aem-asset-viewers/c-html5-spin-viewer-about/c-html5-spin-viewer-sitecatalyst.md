@@ -8,25 +8,28 @@ topic: Dynamic media
 uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 2%
 
 ---
 
 
-# Unterstützung der Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
 
 Der Rotationsset-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
 
 ## Vordefinierte Verfolgung {#section-d06145cfa2b9491bb485b599368d466e}
 
-Der Rotationsset-Viewer unterstützt die sofortige Verfolgung durch Adobe Analytics.
+Der Rotationsset-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
 
-Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als `config2` Parameter.
+Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als Parameter `config2`.
 
 Der Viewer sendet außerdem eine einzige Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerspezifische Verfolgung {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu prüfen und das `eventInfo` Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf abzurufen und das `eventInfo`-Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -66,7 +69,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset mithilfe der <span class="codeph"> setAsset()- </span> API im Viewer getauscht wird. </p> </td> 
+   <td colname="col2"> <p>ein Asset im Viewer mit der API <span class="codeph"> setAsset() </span> getauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
