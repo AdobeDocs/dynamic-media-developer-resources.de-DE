@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
 
-# Spiegelungen{#reflections}
+# Reflections{#reflections}
 
 Vignetten können so erstellt werden, dass sie Beinahe-3D-Reflexionsdaten enthalten.
 
@@ -28,17 +31,17 @@ Wenn dies so verfasst wird, werden die folgenden Materialattribute zur Definitio
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> gloss=</span></a> </p> </td> 
+   <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> gloss=</span> </a> </p> </td> 
    <td> <p>Oberflächenglanz </p> </td> 
    <td> <p>Aus Vignette </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span></a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap=  </span> </a> </p> </td> 
    <td> <p>Glanzvariation (Graustufenbild) </p> </td> 
    <td> <p>Keine </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> Roh= </span></a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> raw=  </span> </a> </p> </td> 
    <td> <p>Oberflächenrauigkeit </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
@@ -50,6 +53,6 @@ Wenn dies so verfasst wird, werden die folgenden Materialattribute zur Definitio
  </tbody> 
 </table>
 
-Der Renderer passt den Bereich des Attributs `gloss=` und des `rough=` Attributs entsprechend an `type=`. Einige Werkstofftypen wie Gewebe sind im Allgemeinen weniger reflektierend als Werkstoffe wie Stein oder Metall, und die gleiche Glanzmenge, die für eines angegeben wird, führt zu einem anderen Reflexionseffekt als die andere. `gloss=`und Rauigkeit haben einen ziemlich breiten Umfang, wenn `type=` nicht angegeben oder auf 0 gesetzt ist.
+Der Renderer passt den Bereich der Attribute `gloss=` und `rough=` entsprechend `type=` an. Einige Werkstofftypen wie Gewebe sind im Allgemeinen weniger reflektierend als Werkstoffe wie Stein oder Metall, und die gleiche Glanzmenge, die für eines angegeben wird, führt zu einem anderen Reflexionseffekt als die andere. `gloss=`und Rauigkeit haben einen ziemlich breiten Umfang, wenn nicht angegeben oder auf 0 gesetzt  `type=` ist.
 
 `glossmap=` kann verwendet werden, um die Glanz eines Materials Pixel für Pixel zu steuern.
