@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 6%
 
 ---
 
 
-# Katalogprops{#catalogprops}
+# catalogprops{#catalogprops}
 
 Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfad angegebenen Bildkatalogs zurück.
 
@@ -25,9 +28,9 @@ Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfa
  </tr> 
 </table>
 
-Lassen Sie die Katalog-ID weg, um die standardmäßigen Katalogeigenschaften abzurufen ( [!DNL default.ini]). The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiration`.
+Lassen Sie die Katalog-ID weg, um die standardmäßigen Katalogeigenschaften abzurufen ( [!DNL default.ini]). Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des `req=` Parameters angeben:
+Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -80,7 +83,7 @@ Die folgenden Eigenschaftswerte werden zurückgegeben:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>oder, falls nicht vorhanden, die letzte geänderte Zeit der <span class="varname"> Katalog</span><span class="filepath"> -INI</span> -Datei </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span>, oder, falls nicht vorhanden, die letzte geänderte Zeit der  <span class="varname"> catalog</span><span class="filepath"> .</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
