@@ -1,6 +1,6 @@
 ---
-description: Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Füllmethoden, die in Fotoshop verfügbar sind. Weitere Informationen finden Sie in der Fotoshop-Dokumentation.
-seo-description: Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Füllmethoden, die in Fotoshop verfügbar sind. Weitere Informationen finden Sie in der Fotoshop-Dokumentation.
+description: Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Übergangsmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Photoshop-Dokumentation.
+seo-description: Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Übergangsmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Photoshop-Dokumentation.
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
 
 # blendMode{#blendmode}
 
-Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Füllmethoden, die in Fotoshop verfügbar sind. Weitere Informationen finden Sie in der Fotoshop-Dokumentation.
+Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Übergangsmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Photoshop-Dokumentation.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
