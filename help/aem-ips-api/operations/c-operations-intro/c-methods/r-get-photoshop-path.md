@@ -1,6 +1,6 @@
 ---
-description: Gibt Koordinaten für die quadrilaterale Ebene zurück, die den benannten Fotoshop-Pfad einschließen.
-seo-description: Gibt Koordinaten für die quadrilaterale Ebene zurück, die den benannten Fotoshop-Pfad einschließen.
+description: Gibt Koordinaten für die quadrilaterale Darstellung des benannten Photoshop-Pfads zurück.
+seo-description: Gibt Koordinaten für die quadrilaterale Darstellung des benannten Photoshop-Pfads zurück.
 seo-title: getFotoshopPath
 solution: Experience Manager
 title: getFotoshopPath
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 17%
 
 ---
 
 
 # getFotoshopPath{#getphotoshoppath}
 
-Gibt Koordinaten für die quadrilaterale Ebene zurück, die den benannten Fotoshop-Pfad einschließen.
+Gibt Koordinaten für die quadrilaterale Darstellung des benannten Photoshop-Pfads zurück.
 
 Syntax
 
@@ -27,7 +30,7 @@ Syntax
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## Parameter {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -37,7 +40,7 @@ Syntax
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie die Firma mit dem Bild, mit dem Sie arbeiten möchten. |
 | ` *`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
-| ` *`pathName`*` | `xsd:string` | Ja | Name des Fotoshop-Pfads, den Sie zurückgeben möchten. |
+| ` *`pathName`*` | `xsd:string` | Ja | Name des Photoshop-Pfads, den Sie zurückgeben möchten. |
 
 **Output (getFotoshopPathReturn)**
 
