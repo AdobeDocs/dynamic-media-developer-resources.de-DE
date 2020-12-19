@@ -23,7 +23,7 @@ Einstellungen, die die Bildschärfe für optimierte Pyramidendateien verbessern.
 
 ## Parameter {#section-c3f0d03136ba4422819cb463bd393885}
 
-Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n an`*".`
+Geben Sie einen Wert für `unsharpMaskOptions`-Optionen mit `minOccurs=" *`n`*".` ein
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -65,7 +65,7 @@ Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n an`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> Monochrom</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Die Werte enthalten nur <span class="codeph"> 0</span> oder <span class="codeph"> 1</span> . </p><p>Auf <span class="codeph"> 0</span> eingestellt, um jede Farbkomponente separat anzuwenden, oder auf <span class="codeph"> 1</span> , um nur die Bildhelligkeit (Intensität) anzuwenden. Auch die Ebenenmaske oder die Composite-Maske wird scharfgezeichnet. </p><p><span class="codeph"><span class="varname"> Monochrom</span></span> wird bei Graustufenbildern ignoriert. </p></td>
+   <td colname="col3"><p>Zu den Werten gehören nur <span class="codeph"> 0</span> oder <span class="codeph"> 1</span>. </p><p>Auf <span class="codeph"> 0</span> setzen, um jede Farbkomponente separat anzuwenden, oder auf <span class="codeph"> 1</span>, um nur die Bildhelligkeit (Intensität) anzuwenden. Auch die Ebenenmaske oder die Composite-Maske wird scharfgezeichnet. </p><p><span class="codeph"><span class="varname"> Bei Graustufenbildern werden </span></span> Monochrome ignoriert. </p></td>
   </tr>
  </tbody>
 </table>
@@ -86,7 +86,7 @@ Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n an`
 
 ## Verwendet von {#section-db8124a5468b498694a780f8a56a4560}
 
-Der `unsharpMaskOptions` Typ wird verwendet von:
+Der Typ `unsharpMaskOptions` wird verwendet von:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
