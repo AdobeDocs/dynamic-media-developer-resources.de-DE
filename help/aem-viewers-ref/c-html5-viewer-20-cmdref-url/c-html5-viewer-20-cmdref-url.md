@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5fe3d1eb-28b6-41c9-9116-5b900664cd83
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Dokumentation zur Befehlsreferenz, die allen Viewern gemein ist.
 
-Die unten aufgeführten Befehle werden entweder über URL oder mithilfe von API `setParam()` oder `setParams()` Methoden angewendet.
+Die unten aufgeführten Befehle werden entweder über URL oder mithilfe der API-Methoden `setParam()` oder `setParams()` angewendet.
