@@ -15,7 +15,7 @@ ht-degree: 21%
 ---
 
 
-# Image Serving HTTP-Kodierung{#image-serving-http-encoding}
+# Image Serving HTTP encoding{#image-serving-http-encoding}
 
 Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werden, sodass die Wertzeichenfolgen nicht die reservierten Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; enthalten.
 
@@ -36,7 +36,7 @@ Andernfalls gelten Standard-HTTP-Kodierungsregeln. Die HTTP-Spezifikation erford
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -62,12 +62,12 @@ Andernfalls gelten Standard-HTTP-Kodierungsregeln. Die HTTP-Spezifikation erford
   </tr> 
   <tr> 
    <td colname="col1"> <p>&amp;lbrace; </p> </td> 
-   <td colname="col2"> <p>7B </p> </td> 
+   <td colname="col2"> <p>7 B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>&amp;rbrace; </p> </td> 
-   <td colname="col2"> <p>7D </p> </td> 
+   <td colname="col2"> <p>7 D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ Reservierte Zeichen müssen ebenfalls kodiert sein.
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ </p> </td> 
-   <td colname="col2"> <p>2B </p> </td> 
+   <td colname="col2"> <p>2 B </p> </td> 
    <td colname="col3"> <p>43 </p> </td> 
   </tr> 
   <tr> 
@@ -146,17 +146,17 @@ Reservierte Zeichen müssen ebenfalls kodiert sein.
   </tr> 
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
-   <td colname="col2"> <p>3A </p> </td> 
+   <td colname="col2"> <p>3 A </p> </td> 
    <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
-   <td colname="col2"> <p>3B </p> </td> 
+   <td colname="col2"> <p>3 B </p> </td> 
    <td colname="col3"> <p>59 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>= </p> </td> 
-   <td colname="col2"> <p>3D </p> </td> 
+   <td colname="col2"> <p>3 D </p> </td> 
    <td colname="col3"> <p>61 </p> </td> 
   </tr> 
   <tr> 
@@ -186,4 +186,4 @@ Wenn Verschleierung angewendet wird, kann die Kodierung auf das Entfernen der Ze
 
 ## Verwandte Themen {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Verschleierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)von Anforderungen, [HTTP/1.1-Spezifikation (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Verschleierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d) von Anforderungen,  [HTTP/1.1-Spezifikation (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
