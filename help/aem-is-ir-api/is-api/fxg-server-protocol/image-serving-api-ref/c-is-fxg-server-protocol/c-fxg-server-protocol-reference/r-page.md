@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 6%
 
 ---
 
@@ -27,4 +30,4 @@ Seite abrufen. Ruft eine bestimmte Seite in einem mehrseitigen FXG ab.
 
 ## Standard {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Wenn `page` keine Angabe gemacht wird, wird die erste Seite für die Rasterausgabe und alle Seiten für die PDF-Ausgabe zurückgegeben.
+Wenn `page` nicht angegeben ist, wird die erste Seite für die Rasterausgabe und alle Seiten für die PDF-Ausgabe zurückgegeben.
