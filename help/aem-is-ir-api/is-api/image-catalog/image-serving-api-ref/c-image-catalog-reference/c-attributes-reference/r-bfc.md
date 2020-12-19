@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ea27f001-6d7d-4df4-b88c-60859a92e096
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +25,8 @@ Browser-Formatkonvertierung. Gibt an, ob die Konvertierungsfunktion des Browser-
 
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> true|false </span> </p> </td> 
-  <td class="stentry"> <p>Gibt an, ob die Konvertierungsfunktion für das Browser-Format beim Konvertieren von JPEG- oder PNG-Bildern in kleinere browserspezifische Dateiformate aktiviert ( <span class="codeph"> true </span>) oder deaktiviert ( <span class="codeph"> false </span>) ist. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> true|false  </span> </p> </td> 
+  <td class="stentry"> <p>Gibt an, ob die Konvertierungsfunktion für das Browser-Format beim Konvertieren von JPEG- oder PNG-Bildern in kleinere browserspezifische Dateiformate aktiviert ist ( <span class="codeph"> true </span>) oder deaktiviert ( <span class="codeph"> false </span>). </p> </td> 
  </tr> 
 </table>
 
