@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ Konfigurationsattribut für Karussell-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,Dauer][,Richtung]</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie lange die einzelnen Banner im Karussell angezeigt werden und in Richtung der automatischen Schleife. </p> <p>Für die automatische Loop-Deaktivierung auf <span class="codeph"> 0</span> eingestellt. </p> <p>Die Einstellung <span class="codeph"> 1</span> für die automatische Schleife mit der Dauer der Transition in Sekunden, die von der <span class="codeph"> Dauer</span>gesteuert wird. </p> <p>Die Richtung der automatischen Schleife wird mit <span class="codeph"> Richtung</span>gesteuert. Die <span class="codeph"> Richtung</span> liegt zwischen <span class="codeph"> 1</span> rechts nach links und <span class="codeph"> 0</span> links nach rechts. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie lange die einzelnen Banner im Karussell angezeigt werden und in Richtung der automatischen Schleife. </p> <p>Für die automatische Loop-Deaktivierung auf <span class="codeph"> 0</span> setzen. </p> <p>Stellen Sie <span class="codeph"> 1</span> ein, um die automatische Schleife mit der Transition in Sekunden einzuschalten, die von <span class="codeph"> Dauer</span> gesteuert wird. </p> <p>Die Richtung der automatischen Schleife wird mit <span class="codeph"> Richtung</span> gesteuert. Die <span class="codeph">-Richtung</span> hat den Bereich zwischen <span class="codeph"> 1</span> von rechts nach links und <span class="codeph"> 0</span> von links nach rechts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
