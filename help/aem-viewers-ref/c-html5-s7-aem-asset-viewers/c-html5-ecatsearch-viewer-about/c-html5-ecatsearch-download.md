@@ -3,11 +3,14 @@ description: 'null'
 seo-description: 'null'
 seo-title: Download
 solution: Experience Manager
-title: Download
+title: Herunterladen
 topic: Dynamic media
 uuid: 5899d665-b0e8-4f02-915b-55dcd2563b83
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +22,6 @@ Der elektronische Katalog kann als PDF-Datei mit der Schaltfläche &quot;Herunte
 Die Schaltfläche &quot;Herunterladen&quot;ist in der Benutzeroberfläche des Viewers automatisch verfügbar, wenn Folgendes eintritt:
 
 * In der Firma des Kunden befindet sich eine eigentliche PDF-Datei.
-* Der Name entspricht dem Namen des E-Katalog-Assets, das an den Viewer übergeben wird und eine `.pdf` Erweiterung enthält.
+* Der Name entspricht dem Namen des E-Katalog-Assets, das an den Viewer übergeben wird und die Erweiterung `.pdf` enthält.
 * Die PDF-Datei wird im SPS (Scene7 Publishing System) veröffentlicht.
 
