@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5d990af-1c5a-4253-8ecd-b51119cee3a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ JavaScript-API-Referenz für Flyout-Viewer.
 
 Beginn der Initialisierung des Flyout-Viewers. Bis zu diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Container-Element noch nicht Teil des Webseitenlayouts ist (z. B. mit dem ihm zugewiesenen `display:none` Stil ausgeblendet), setzt der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt aus, an dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Container-Element noch nicht Teil des Webseitenlayouts ist (es kann beispielsweise mit dem ihm zugewiesenen `display:none`-Stil ausgeblendet werden), setzt der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt aus, zu dem die Webseite das Container-Element wieder in das Layout einfügt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
 Diese Methode sollte nur einmal während des Lebenszyklus des Viewers aufgerufen werden. Folgsame Aufrufe werden ignoriert.
 
@@ -28,7 +31,7 @@ Diese Methode sollte nur einmal während des Lebenszyklus des Viewers aufgerufen
 
 Keine.
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 `{Object}` Ein Verweis auf die Viewer-Instanz.
 
