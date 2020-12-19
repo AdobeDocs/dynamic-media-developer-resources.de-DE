@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 937d2d73-5e6d-4276-a4f9-892af97a2b86
 translation-type: tm+mt
 source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +21,7 @@ Schriftart Name. Der Schriftartname, genau wie im Befehl RTF \fonttbl angegeben.
 
 ## Eigenschaften {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die Schriftzuordnung. Derselbe font::Name-Wert kann bis zu viermal in derselben Schriftartzuordnungsdatei auftreten, aber jeder Datensatz muss eine andere Kombination aus `font::Bold` und `font::Italic` Werten aufweisen.
+Textzeichenfolge. Erforderlich. Primär-Indexschlüssel für die Schriftzuordnung. Derselbe font::Name-Wert kann bis zu viermal in derselben Schriftartzuordnungsdatei auftreten, aber jeder Datensatz muss eine andere Kombination aus `font::Bold`- und `font::Italic`-Werten aufweisen.
 
 ## Standard {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 
