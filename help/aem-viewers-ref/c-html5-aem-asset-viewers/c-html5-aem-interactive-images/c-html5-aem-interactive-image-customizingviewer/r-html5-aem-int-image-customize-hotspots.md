@@ -1,6 +1,6 @@
 ---
-description: Der Viewer zeigt Hotspot-Symbole über der Haupt-Ansicht an Orten an, an denen Hotspots ursprünglich in den dynamischen Medien von AEM Assets - On-Demand - verfasst wurden.
-seo-description: Der Viewer zeigt Hotspot-Symbole über der Haupt-Ansicht an Orten an, an denen Hotspots ursprünglich in den dynamischen Medien von AEM Assets - On-Demand - verfasst wurden.
+description: Der Viewer zeigt Hotspot-Symbole über der wichtigsten Ansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - verfasst wurden.
+seo-description: Der Viewer zeigt Hotspot-Symbole über der wichtigsten Ansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - verfasst wurden.
 seo-title: Hotspots
 solution: Experience Manager
 title: Hotspots
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 2%
 
 ---
 
 
 # Hotspots{#hotspots}
 
-Der Viewer zeigt Hotspot-Symbole über der Haupt-Ansicht an Orten an, an denen Hotspots ursprünglich in den dynamischen Medien von AEM Assets - On-Demand - verfasst wurden.
+Der Viewer zeigt Hotspot-Symbole über der wichtigsten Ansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - verfasst wurden.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,11 +38,11 @@ Das Erscheinungsbild des Hotspot-Symbols wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Hotspot-Symbolgrafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
