@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
@@ -16,14 +19,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch über ein .ini-Dateisuffix verfügen. Sie können problemlos mit jedem Texteditor gepflegt werden.
 
-Katalogattributdateien bestehen aus einer Reihe von Textdatensätzen, die durch einen einzelnen `<CR>` (ASCII-Code `0xD`), einen einzelnen `<LF>` (ASCII-Code `0xA`) oder ein `<CR><LF>` Paar getrennt sind. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren durch Komma getrennten Attributwerten:
+Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, die durch ein einzelnes `<CR>` (ASCII-Code `0xD`), ein einzelnes `<LF>` (ASCII-Code `0xA`) oder ein `<CR><LF>`-Paar getrennt sind. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren durch Komma getrennten Attributwerten:
 
 ` *``*= *`Namenswerte`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> Werte</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> Werte</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> values</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
@@ -31,7 +34,7 @@ Katalogattributdateien bestehen aus einer Reihe von Textdatensätzen, die durch 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Attributwert. Muss keine <span class="codeph"> &lt;CR&gt;</span> - oder <span class="codeph"> &lt;LF&gt;</span> -Zeichen enthalten, es sei denn, ein umgekehrter Schrägstrich unmittelbar vor dem Zeilenumbruchzeichen ist mit einem Escape-Zeichen versehen. </p></td> 
+  <td class="stentry"> <p>Attributwert. Muss keine <span class="codeph">- oder </span>- oder <span class="codeph">-</span>-Zeichen enthalten, es sei denn, ein einzelner umgekehrter Schrägstrich unmittelbar vor dem Zeilenumbruchzeichen ist mit einem Escape-Zeichen versehen. </p></td> 
  </tr> 
 </table>
 
