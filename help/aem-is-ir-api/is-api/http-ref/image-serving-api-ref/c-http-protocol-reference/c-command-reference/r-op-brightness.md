@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +30,7 @@ Passen Sie die Helligkeit an. Verringert oder erhöht die Bildhelligkeit.
 
 ## Eigenschaften {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist. Von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
+Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
 
 ## Standard {#section-be56be0759634c79b4f264f194a94dbc}
 
