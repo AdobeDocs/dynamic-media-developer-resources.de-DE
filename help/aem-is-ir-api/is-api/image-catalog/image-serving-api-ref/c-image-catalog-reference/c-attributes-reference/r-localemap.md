@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 1%
 
 ---
 
@@ -33,19 +36,19 @@ ID-Übersetzungszuordnung. Gibt die Regeln an, mit denen generische Bild-IDs in 
  </tr> 
 </table>
 
-`LocaleMap` bezieht sich auf eine `locId` Datei, die einer beliebigen Anzahl von `locSuffix`Benutzern zugeordnet werden kann.
+`LocaleMap` bezieht sich auf eine  `locId` Datei, die einer beliebigen Anzahl von zugeordnet werden kann  `locSuffix`.
 
-Empty *`locSuffix`* values are permitted. *`locSuffix`* Werte müssen in der Reihenfolge sortiert werden, in der sie gesucht werden sollen. Die erste Übereinstimmung wird zurückgegeben.
+Leere *`locSuffix`*-Werte sind zulässig. *`locSuffix`* Werte müssen in der Reihenfolge sortiert werden, in der sie gesucht werden sollen. Die erste Übereinstimmung wird zurückgegeben.
 
-Image Serving sucht nach den *`locId`* Werten, bei denen die Groß-/Kleinschreibung nicht mit dem in der Anforderung angegebenen `locale=` Wert übereinstimmt. Wenn eine Übereinstimmung gefunden wird, wird der erste zugeordnete *`locSuffix`* Wert an die ursprüngliche Katalog-ID angehängt. Wenn dieser Katalogeintrag vorhanden ist, wird er verwendet, andernfalls wird der nächste *`locSuffix`* Wert versucht. Wenn keiner der *`locSuffix`* Werte mit einem Katalogeintrag übereinstimmt, gibt Image Serving einen Fehler oder ein Standardbild zurück.
+Image Serving sucht die *`locId`*-Werte nach einer Übereinstimmung, bei der die Groß-/Kleinschreibung nicht berücksichtigt wird, mit dem in der Anforderung angegebenen Wert. `locale=` Wenn eine Übereinstimmung gefunden wird, wird der erste zugehörige *`locSuffix`*-Wert an die ursprüngliche Katalog-ID angehängt. Wenn dieser Katalogeintrag vorhanden ist, wird er verwendet, andernfalls wird der nächste *`locSuffix`*-Wert versucht. Wenn keiner der *`locSuffix`*-Werte mit einem Katalogeintrag übereinstimmt, gibt Image Serving einen Fehler oder ein Standardbild zurück.
 
-Ein leerer *`locId`* Wert stimmt mit leeren und unbekannten `locale=` Zeichenfolgen überein. Dadurch kann eine Standardregel für unbekannte Gebietsschemata definiert werden.
+Ein leerer *`locId`*-Wert stimmt mit leeren und unbekannten `locale=`-Zeichenfolgen überein. Dadurch kann eine Standardregel für unbekannte Gebietsschemata definiert werden.
 
 Wenn die ID-Übersetzung aktiviert ist, wird sie auf alle IDs angewendet, die auf Bildkatalog- und statische Inhaltskatalogeinträge verweisen.
 
 ## Eigenschaften {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-Ein oder mehrere Elemente, durch|, wobei jedes Element aus zwei oder mehr durch Kommas getrennten Zeichenfolgenwerten besteht. *`locId`* und `locale=` werden verglichen. Groß-/Kleinschreibung nicht beachten.
+Ein oder mehrere Elemente, durch |, wobei jedes Element aus zwei oder mehr durch Kommas getrennten Zeichenfolgenwerten besteht. *`locId`* und  `locale=` werden verglichen. Groß-/Kleinschreibung nicht beachten.
 
 ## Verwandte Themen {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 
