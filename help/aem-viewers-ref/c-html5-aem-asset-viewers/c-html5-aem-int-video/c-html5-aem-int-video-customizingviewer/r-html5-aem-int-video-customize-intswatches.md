@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 2%
 
 ---
 
@@ -103,7 +106,7 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Bannerbedienfel
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Bannerbedienfelds. </p> </td> 
   </tr> 
   <tr> 
@@ -115,25 +118,25 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Bannerbedienfel
    <td colname="col2"> <p>Rand um das Bannerbedienfeld herum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung  </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftart-Gewichtung, die für den Text im Bannerbedienfeld verwendet wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftgröße, die für den Text im Bannerbedienfeld verwendet wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftfamilie, die für den Text im Bannerbedienfeld verwendet wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftausrichtung für den Text im Bannerbedienfeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfo für Banner kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Die QuickInfo für Banner kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -159,7 +162,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Muster:
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Farbfeldbereichs. </p> </td> 
   </tr> 
  </tbody> 
@@ -179,13 +182,13 @@ Der folgende CSS-Klassenselektor steuert den Abstand zwischen den Musterminiatur
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell`
 
-## CSS-Eigenschaften des Farbfeldminiaturenabstands {#css-properties-of-the-swatches-thumbnail-spacing}
+## CSS-Eigenschaften der Farbfelder-Miniaturabstände {#css-properties-of-the-swatches-thumbnail-spacing}
 
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Randes, der für <span class="codeph"> .s7thumbcell festgelegt wurde </span>. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche Abstand zwischen den Miniaturansichten entspricht der Summe des linken und rechten Randes, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,11 +212,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der einzelnen Mini
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
@@ -225,7 +228,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der einzelnen Mini
 
 >[!NOTE]
 >
->Miniaturansicht unterstützt die `state` Attributauswahl, mit der Sie verschiedene Skins auf verschiedene Miniaturansichten anwenden können. entspricht insbesondere `state="selected"` der Miniaturansicht des derzeit ausgewählten Bildes; entspricht `state="default"` dem Rest der Miniaturansichten; wird `state="over"` beim Bewegen der Maus verwendet.
+>Miniaturansicht unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf verschiedene Miniaturansichten anwenden können. Insbesondere entspricht `state="selected"` der Miniaturansicht des aktuell ausgewählten Bildes. `state="default"` entspricht dem Rest der Miniaturansichten; `state="over"` wird beim Bewegen der Maus verwendet.
 
 ## Beispiel {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -247,7 +250,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
@@ -255,11 +258,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
    <td colname="col2"> <p>Beschriftungsrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
  </tbody> 
@@ -285,26 +288,26 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltflächen
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS `top`, `left`, `bottom`und `right` -Eigenschaften zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Die Bildlaufschaltflächen können nicht mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` positioniert werden. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 ## CSS-Eigenschaften des Erscheinungsbilds der Schaltflächen für den Bildlauf nach oben und unten {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlauftaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Die Position innerhalb des Grafik-Sprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -312,13 +315,13 @@ Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS `top`, `left`
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die `state` Attributauswahl, mit der Sie verschiedene Skins auf die Schaltflächenzustände anwenden können: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;und &quot; `disabled`&quot;.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf die Schaltflächenzustände anwenden können: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;und &quot; `disabled`&quot;.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#section-e6ce4fa084b84288bc7583342b2c510c}
 
-Um eine Bildlaufschaltfläche von 60 x 36 Pixel einzurichten, müssen Sie für jeden Status ein anderes Bildmaterial verwenden, das aus dem Sprite-Bild der Komponente stammt:
+Um eine Bildlaufschaltfläche von 60 x 36 Pixeln einzurichten, müssen Sie für jeden Status ein anderes Bildmaterial verwenden, das aus dem Sprite-Bild der Komponente stammt:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton { 
