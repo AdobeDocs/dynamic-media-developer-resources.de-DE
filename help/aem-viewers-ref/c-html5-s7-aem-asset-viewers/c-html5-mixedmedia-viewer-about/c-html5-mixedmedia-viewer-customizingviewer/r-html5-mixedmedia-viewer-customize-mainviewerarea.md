@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 9d0a23e2-97c2-441e-8e4c-ef528ff654d2
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
 
-# Hauptbereich des Viewers{#main-viewer-area}
+# Hauptviewer-Bereich{#main-viewer-area}
 
 Der Hauptbereich der Ansicht ist die Fläche, die von der Hauptfläche der Ansicht und der Muster belegt ist. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
 
@@ -43,7 +46,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
