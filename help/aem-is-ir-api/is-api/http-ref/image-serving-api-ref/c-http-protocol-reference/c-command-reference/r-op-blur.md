@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +32,7 @@ Weichzeichnen des Bildes. Wendet einen Weichzeichnungsfilter auf die Bilddaten a
 
 ## Eigenschaften {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist.
+Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`.
 
 ## Standard {#section-a976cb86620d489085a8fc9bae2626c0}
 
@@ -37,6 +40,6 @@ Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls 
 
 ## Beispiel {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Weichzeichnen des Hintergrunds eines Bildes Auf ein anderes Maskenbild wird verwiesen `catalog::MaskPath`. Beachten Sie, dass dies explizit angegeben werden `layer=0`muss. Andernfalls `op_blur` wird das gesamte Composite-Bild angewendet.
+Weichzeichnen des Hintergrunds eines Bildes Ein separates Maskenbild wird von `catalog::MaskPath` referenziert. Beachten Sie, dass `layer=0`explizit angegeben werden muss. Andernfalls wird `op_blur` auf das gesamte Composite-Bild angewendet.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`
