@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: SpinView.lockDirection
+seo-title: SpinView.lockdirection
 solution: Experience Manager
-title: SpinView.lockDirection
+title: SpinView.lockdirection
 topic: Dynamic media
 uuid: adea34ca-adbe-465e-8991-f39a7a81d611
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 5%
 
 ---
 
 
-# SpinView.lockDirection{#spinview-lockdirection}
+# SpinView.lockdirection{#spinview-lockdirection}
 
 `[SpinView.|<containerId>_spinView.]lockdirection=0|1`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob im Falle eines 2D-Rotationssets eine Änderung der Rotationsrichtung zulässig ist. </p> <p>Bei Einstellung auf <span class="codeph"> 1 </span>gibt die Komponente die primäre Drag- oder Blätterrichtung (horizontal oder vertikal) am Beginn der Geste an. Danach bleibt die Richtung erhalten, bis die Geste endet. Wenn der Benutzer beispielsweise eine horizontale Drehung Beginn und dann beschließt, die Ziehbewegung in vertikaler Richtung fortzusetzen, führt die Komponente keine vertikale Drehung durch; sondern nur die horizontale Bewegung der Maus oder des Wischens. </p> <p>Mit dem Wert <span class="codeph"> 0 </span> kann der Benutzer die Rotationsrichtung während des Gestenfortschritts jederzeit ändern. Die Einstellung hat keine Auswirkung, wenn das Rotationsset 1D ist. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob im Falle eines 2D-Rotationssets eine Änderung der Rotationsrichtung zulässig ist. </p> <p>Bei Festlegung auf <span class="codeph"> 1 </span> gibt die Komponente die primäre Drag- oder Blätterrichtung (horizontal oder vertikal) am Beginn der Geste an. Danach bleibt die Richtung erhalten, bis die Geste endet. Wenn der Benutzer beispielsweise eine horizontale Drehung Beginn und dann beschließt, die Ziehbewegung in vertikaler Richtung fortzusetzen, führt die Komponente keine vertikale Drehung durch; sondern nur die horizontale Bewegung der Maus oder des Wischens. </p> <p>Mit dem Wert <span class="codeph"> 0 </span> kann ein Benutzer die Rotationsrichtung während des Gestenfortschritts jederzeit ändern. Die Einstellung hat keine Auswirkung, wenn das Rotationsset 1D ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
