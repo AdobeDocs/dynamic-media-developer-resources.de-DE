@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e3b9a304-5c43-46ce-8e87-860b49006a37
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +27,7 @@ Syntax
 |---|---|---|
 | ` *`name`*` | `xsd:string` | Der Name der Imagemap-Definition. |
 | ` *`shapeType`*` | `xsd:string` | Einer der Regionsformwerte. |
-| ` *`Region`*` | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf den HTML- `<area>` Tag-Attributen. |
-| ` *`Aktion`*` | `xsd:string` | Andere Attribute, die in das HTML- `<area>` Tag eingeschlossen werden sollen, einschließlich der `href` -URL. |
+| ` *`Region`*` | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf den HTML `<area>`-Tag-Attributen. |
+| ` *`Aktion`*` | `xsd:string` | Andere Attribute, die in das HTML `<area>`-Tag eingeschlossen werden sollen, einschließlich der `href`-URL. |
 | ` *`aktiviert`*` | `xsd:boolean` | True, wenn die Imagemap aktiviert ist. |
 
