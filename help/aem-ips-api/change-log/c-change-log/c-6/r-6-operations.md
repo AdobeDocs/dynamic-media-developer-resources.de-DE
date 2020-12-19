@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
@@ -27,27 +30,29 @@ Syntax
 * `updateAssetSet`
 * `updateImageSet`
 
-## Geänderte Vorgänge {#section-f4e8755527444266ae806e3f4c851ae6}
+## Modifizierte Vorgänge {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **Hinzugefügt**
 
-* Hinzugefügt `isHidden` und `initialTagValue` zu:
+* `isHidden` und `initialTagValue` wurden hinzugefügt zu:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* Hinzugefügt `thumbAssetHandle` zu:
+* `thumbAssetHandle` hinzugefügt zu:
 
    * `createImageSet`
    * `createAssetSet`
-   Hinzugefügt `companyHandle` zu:
+
+   `companyHandle` hinzugefügt zu:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
-   Hinzugefügt `contextHandle` zu:
+
+   `contextHandle` hinzugefügt zu:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -61,28 +66,28 @@ Syntax
    * `getUsers`.
    * `getUserChars`.
 
-* Hinzugefügt `permissionArray` zu `createPropertySet`.
+* `permissionArray` zu `createPropertySet` hinzugefügt.
 
-* Hinzugefügt `exportJob` zu `submitJob`.
+* `exportJob` zu `submitJob` hinzugefügt.
 
 **Geändert**
 
-* In `addUser` und `setUser`, geändert `role` in `defaultRole`.
+* In `addUser` und `setUser` wurde `role` in `defaultRole` geändert.
 
-* In `getCompanyMembers`, geändert `userArray` zu `memberArray`.
+* In `getCompanyMembers` wurde `userArray` in `memberArray` geändert.
 
-* In `getCompanyMembership`, geändert `companyArray` zu `membershipArray`.
+* In `getCompanyMembership` wurde `companyArray` in `membershipArray` geändert.
 
-* In `addUser`, `setCompanyMembership`und `addCompanyMembership`, geändert `membershipArray` zu `companyHandleArray`.
+* In `addUser`, `setCompanyMembership` und `addCompanyMembership` wurde `membershipArray` in `companyHandleArray` geändert.
 
-* In `getCompanyMembership`, geändert `companyArray` zu `membershipArray`.
+* In `getCompanyMembership` wurde `companyArray` in `membershipArray` geändert.
 
-* In `getUserChars`ist `includeInvalid` jetzt optional.
+* In `getUserChars` ist `includeInvalid` jetzt optional.
 
 **Entfernt**
 
-* Entfernt `renameFiles` von `renameAsset`.
+* `renameFiles` aus `renameAsset` entfernt.
 
-* Removed `getXMPPanelViewDefinition`.
-* Entfernt `searchAssetsByFulltext` und `searchAssetsBySimilarity`.
+* `getXMPPanelViewDefinition` entfernt.
+* `searchAssetsByFulltext` und `searchAssetsBySimilarity` entfernt.
 
