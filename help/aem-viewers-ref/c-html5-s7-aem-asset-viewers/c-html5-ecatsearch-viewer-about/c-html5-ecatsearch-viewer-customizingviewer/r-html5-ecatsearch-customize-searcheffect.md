@@ -1,5 +1,5 @@
 ---
-description: Der Viewer zeigt Suchergebnisregionen über der Hauptversion an, um im Ansicht gefundene Wörter oder Ausdrücke hervorzuheben.
+description: Der Viewer zeigt Suchergebnisregionen über der Hauptversion an, um im Katalog gefundene Ansichten hervorzuheben.
 seo-description: Der Viewer zeigt Suchergebnisregionen über der Hauptversion an, um im Katalog gefundene Ansichten hervorzuheben.
 seo-title: Sucheffekt
 solution: Experience Manager
@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Das Erscheinungsbild von Suchergebnisregionen wird mit der folgenden CSS-Klassen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrund der Suchergebnisregion. </p> </td> 
   </tr> 
  </tbody> 
