@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
@@ -30,9 +33,9 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Elemente</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Eine kommagetrennte Liste von Suchbegriffen, die in den <span class="codeph"> Knoten dc:subject=</span> XMP-Eigenschaft zusammengeführt werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, muss ihm ein umgekehrter Schrägstrich (\) vorangestellt werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden. </p> </td> 
+   <td colname="col3"> <p>Eine kommagetrennte Liste von Suchbegriffen, die in den Eigenschaftenknoten <span class="codeph"> dc:subject=</span> XMP zusammengeführt werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, muss ihm ein umgekehrter Schrägstrich (\) vorangestellt werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
