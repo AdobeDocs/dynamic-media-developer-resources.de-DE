@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +32,7 @@ Passen Sie die Sättigung an. Ändert die Sättigung jedes sichtbaren Pixels der
 
 ## Eigenschaften {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist. Von Effektebenen ignoriert.
+Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert.
 
 ## Standard {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
