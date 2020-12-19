@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 20%
 
 ---
 
@@ -37,7 +40,7 @@ Syntax
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
 | ` *`jobHandle`*` | `xsd:string` | Nein | Auftragsbearbeitung |
-| ` *`originalName`*` | `xsd:string` | Nein | Der von angegebene Name `submitJob`. |
+| ` *`originalName`*` | `xsd:string` | Nein | Der von `submitJob` angegebene Name. |
 
 **Output (getScheduledJobsReturn)**
 
