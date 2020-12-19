@@ -1,6 +1,6 @@
 ---
-description: Der Viewer für gemischte Medien unterstützt die sofortige Verfolgung durch Adobe Analytics.
-seo-description: Der Viewer für gemischte Medien unterstützt die sofortige Verfolgung durch Adobe Analytics.
+description: Der Viewer für gemischte Medien unterstützt die sofortige Adobe Analytics-Verfolgung.
+seo-description: Der Viewer für gemischte Medien unterstützt die sofortige Adobe Analytics-Verfolgung.
 seo-title: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
@@ -8,23 +8,26 @@ topic: Dynamic media
 uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 5%
 
 ---
 
 
-# Unterstützung der Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
 
-Der Viewer für gemischte Medien unterstützt die sofortige Verfolgung durch Adobe Analytics.
+Der Viewer für gemischte Medien unterstützt die sofortige Adobe Analytics-Verfolgung.
 
 ## Vordefinierte Verfolgung {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Der Viewer für gemischte Medien unterstützt die [!DNL Adobe Analytics] sofortige Verfolgung. Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als `config2` Parameter.
+Der Viewer für gemischte Medien unterstützt standardmäßig [!DNL Adobe Analytics]-Verfolgung. Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als Parameter `config2`.
 
 Der Viewer sendet außerdem eine einzige Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, den Rückruf des `trackEvent` Viewers abzuhören und das `eventInfo` Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf abzurufen und das `eventInfo`-Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -65,7 +68,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset mithilfe der <span class="codeph"> setAsset()- </span> API im Viewer getauscht wird. </p> </td> 
+   <td colname="col2"> <p>ein Asset mit der API <span class="codeph"> setAsset() </span> im Viewer getauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
