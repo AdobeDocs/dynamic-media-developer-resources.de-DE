@@ -23,7 +23,7 @@ Syntax
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Abgeleitete Assets geben Befehle zum Image-Server-Protokoll an, mit denen die Darstellung des Eigentümerbilds geändert wird. Der `AdjustedView` abgeleitete Typ unterstützt das Anwenden einfacher Änderungen auf ein einzelnes Bild (z. B. durch Angabe eines Rechtecks für die Beschneidung), während `LayerView` dadurch eine mehrschichtige Ansicht erstellt wird, die Text oder weitere Bilder enthalten kann.
+Abgeleitete Assets geben Befehle zum Image-Server-Protokoll an, mit denen die Darstellung des Eigentümerbilds geändert wird. Der abgeleitete Typ `AdjustedView` unterstützt das Anwenden einfacher Änderungen auf ein einzelnes Bild (z. B. durch Angabe eines Zuschnittrahmens), während `LayerView` beim Erstellen einer mehrschichtigen Ansicht hilft, die Text oder zusätzliche Bilder enthalten kann.
 
 Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)) wird ein abgeleitetes Bild mit dem Bild des Eigentümers verknüpft. Durch Änderungen am Bild des Eigentümers werden verknüpfte abgeleitete Assets geändert. Wenn Sie das Eigentümerbild löschen, werden alle zugehörigen abgeleiteten Bilder gelöscht.
 
@@ -47,8 +47,8 @@ Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operati
 | ` *`folderHandle`*` | `xsd:string` | Ja | Das Handle für den Ordner, in dem das neue abgeleitete Asset erstellt wird. |
 | ` *`name`*` | `xsd:string` | Ja | Der Name des abgeleiteten Assets. |
 | ` *`type`*` | `xsd:string` | Ja | Der Asset-Typ des neuen abgeleiteten Assets: `AdjustedView` oder `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | Nein | Befehle zum Image Serving oder Image Rendering, die *vor* der Anforderung oder den `urlPostApplyModifier` Befehlen angewendet werden. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nein | Befehle zum Image Serving oder Image Rendering, die *nach* der Anforderung oder den `urlPostApplyModifier` Befehlen angewendet werden. |
+| ` *`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle wurden mit *vor* der Anforderung oder mit `urlPostApplyModifier` Befehlen angewendet. |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | Nein | Für die Befehle zum Image Serving oder Image Rendering wurde *after* auf die Anforderung oder `urlPostApplyModifier`-Befehle angewendet. |
 
 **Output (createDerivedAssetParam)**
 
@@ -58,7 +58,7 @@ Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operati
 
 ## Beispiele {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-Der Beispielcode erstellt ein abgeleitetes Asset mit einer angepassten Ansicht `urlModifier` und `urlPostApplyModifier` mit beliebigen Werten. Die Antwort gibt das Handle an das neu abgeleitete Asset zurück.
+Der Beispielcode erstellt ein abgeleitetes Asset mit einer angepassten Ansicht und `urlModifier` und `urlPostApplyModifier` mit beliebigen Werten. Die Antwort gibt das Handle an das neu abgeleitete Asset zurück.
 
 **Anforderung**
 
