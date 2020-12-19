@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 11%
 
 ---
 
@@ -42,13 +45,13 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Das Handle der Firma, zu der die Assets gehören. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Das Array der zu löschenden Assets. </p> </td> 
@@ -69,31 +72,31 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Die Anzahl der erfolgreich gelöschten Assets. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Die Assets, die eine Warnung generiert haben, als der Vorgang versuchte, sie zu löschen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Die Assets, die einen Fehler erzeugt haben, als der Vorgang versuchte, sie zu löschen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Das Array mit den Details zu den Assets, die eine Warnung generiert haben, wenn der Vorgang versucht hat, sie zu löschen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Das Array der Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, einen Fehler generiert haben. </p> </td> 
@@ -103,7 +106,7 @@ Syntax
 
 ## Beispiele {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Dieses Codebeispiel sendet ein Handle an eine Firma und ein Array von Asset-Handles in einer `deleteAssetsParam` Anforderung an den Webdienstserver. `deleteAssetsReturn` gibt einen Erfolgszähler von 2 zurück, der angibt, dass beide Assets gelöscht wurden.
+Dieses Codebeispiel sendet ein Handle an eine Firma und ein Array von Asset-Handles in einer `deleteAssetsParam`-Anforderung an den Webdienstserver. `deleteAssetsReturn` gibt einen Erfolgszähler von 2 zurück, der angibt, dass beide Assets gelöscht wurden.
 
 **Anforderung**
 
