@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +40,7 @@ Der Client kann eine optionale eindeutige Anforderungskennung ( *`reqId`*) angeb
 </varname>" );
 ```
 
-Die `s7jsonResponse` JavaScript-Funktion muss vom Client definiert werden. In seiner einfachsten Form könnte die Funktion wie folgt aussehen:
+Die JavaScript-Funktion `s7jsonResponse` muss vom Client definiert werden. In seiner einfachsten Form könnte die Funktion wie folgt aussehen:
 
 ```
 var responseData; 
@@ -47,16 +50,16 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des `req=` Parameters angeben:
+Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler]`
 
 `<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z-, A-Z- und 0-9-Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
 
-Das Scene7 Image Serving Viewers-Paket enthält ein Dienstprogramm zum Anfordern und Analysieren von JSONP-formatierten Daten aus dem Image Serving.
+Das Scene7 Image Serving Viewers-Paket enthält ein Dienstprogramm zum Anfordern und Parsen von JSONP-formatierten Daten aus Image Serving.
 
-Weitere Informationen zum JSONP-Format finden Sie unter [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) .
+Weitere Informationen zum JSONP-Format finden Sie unter [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP).
 
-Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](http://www.json.org) .
+Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](http://www.json.org).
 
 Siehe auch [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).
