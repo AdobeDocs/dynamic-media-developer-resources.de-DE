@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 22%
 
 ---
 
@@ -101,7 +104,7 @@ Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
 </table>
 
-Wird in Verbindung mit `gloss=` und `rough=` zur Steuerung von Reflektions- und Glanzeffektverhalten verwendet. Unterschiedliche Materialien werden unterschiedliche Effekte hervorbringen, auch wenn `gloss=` und `rough=` sind die gleichen.
+Wird in Verbindung mit `gloss=` und `rough=` verwendet, um Reflektions- und Glanz-Effekt-Verhalten zu steuern. Unterschiedliche Materialien erzeugen unterschiedliche Effekte, selbst wenn `gloss=` und `rough=` gleich sind.
 
 ## Eigenschaften {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +112,8 @@ Materialattribut. Wird ignoriert, wenn die Vignette keine 3D-Reflexionsdaten ent
 
 ## Standard {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` wenn das Material auf einem Katalogeintrag basiert. Otherwise `type=0`. Wenn keine Angabe gemacht wird oder wenn `type=0`der Server eine geeignete Standardeinstellung auswählt, die vom Objekt &quot;Zielgruppe&quot;und den anderen Materialattributen abhängt.
+`catalog::Type` wenn das Material auf einem Katalogeintrag basiert. Andernfalls `type=0`. Wenn nicht angegeben oder `type=0`, wählt der Server abhängig vom Objekt &quot;Zielgruppe&quot;und den anderen Materialattributen eine geeignete Standardeinstellung aus.
 
 ## Verwandte Themen {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rau=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [raw=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
