@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavoritenView.favoritesThumbView
+seo-title: FavoritesView.favoritesThumbView
 solution: Experience Manager
-title: FavoritenView.favoritesThumbView
+title: FavoritesView.favoritesThumbView
 topic: Dynamic media
 uuid: 5c362eb3-dece-4546-8a79-fd79c2852a78
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 13%
 
 ---
 
 
-# FavoritenView.favoritesThumbView{#favoritesview-favoritesthumbview}
+# FavoritesView.favoritesThumbView{#favoritesview-favoritesthumbview}
 
 ` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`Gebiet`*`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Gebiet</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Beschneidungsbereich für die Favoritenminiatur an. Wird als relativer Wert zur Gesamtframegröße mit einem Bereich von <span class="codeph"> 0</span> bis <span class="codeph"> 1,0</span>angegeben. </p> <p>Der Wert <span class="codeph"> 1</span> bedeutet, dass das gesamte Bild für die Miniaturansicht verwendet wird. </p> <p>Bei einem Wert von <span class="codeph"> 0,1</span> werden nur 10 % der Bildgröße verwendet. </p> </td> 
+   <td colname="col2"> <p> Gibt den Beschneidungsbereich für die Favoritenminiatur an. Wird als relativer Wert zur Gesamtbildgröße angegeben, wobei der Bereich zwischen <span class="codeph"> 0</span> und <span class="codeph"> 1.0</span> liegt. </p> <p>Der Wert <span class="codeph"> 1</span> bedeutet, dass das gesamte Bild für die Miniaturansicht verwendet wird. </p> <p>Der Wert <span class="codeph"> 0.1</span> bedeutet, dass nur 10 % der Bildgröße verwendet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
