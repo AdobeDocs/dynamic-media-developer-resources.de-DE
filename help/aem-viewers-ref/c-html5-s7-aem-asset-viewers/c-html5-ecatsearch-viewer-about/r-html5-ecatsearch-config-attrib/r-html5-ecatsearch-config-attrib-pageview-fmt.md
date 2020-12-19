@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: bbae406c-9169-4944-8e91-f2d7c8011520
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet. Wenn das angegebene Format mit <span class="codeph"> -alpha</span>endet, rendert die Komponente die Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als undurchsichtig. Die Komponente hat standardmäßig einen weißen Hintergrund. Um die Transparenz zu gewährleisten, legen Sie daher die CSS-Eigenschaft <span class="codeph"> background-color</span> auf <span class="codeph"> transparent</span>fest. </p> </td> 
+   <td colname="col2"> <p> Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet. Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als undurchsichtig. Die Komponente hat standardmäßig einen weißen Hintergrund. Um ihn transparent zu machen, setzen Sie die CSS-Eigenschaft <span class="codeph"> background-color</span> auf <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
