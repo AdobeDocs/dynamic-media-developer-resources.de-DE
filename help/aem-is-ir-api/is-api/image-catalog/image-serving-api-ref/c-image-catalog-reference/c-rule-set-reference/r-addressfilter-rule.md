@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 4%
 
 ---
 
 
 # adressfilter{#addressfilter}
 
-Adressfilterelement. Optional in `<rule>` und `<pathrule>` -Elementen.
+Adressfilterelement. Optional in den Elementen `<rule>` und `<pathrule>`.
 
-Überschreibt, `attribute::ClientAddressFilter` wenn die Regel angewendet wird.
+Überschreibt `attribute::ClientAddressFilter`, wenn die Regel angewendet wird.
 
 ## Attribute {#section-31e9ad29e9934933ac154bccbc729172}
 
@@ -24,15 +27,15 @@ Keine.
 
 ## Daten {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-Kommagetrennte Liste von IP-Adressen. Jede einzelne Adresse kann ein optionales Suffix &quot;netmask&quot;enthalten, um die Angabe der IP-Adressbereiche zu ermöglichen. See `attribute::ClientAddressFilter` for details.
+Kommagetrennte Liste von IP-Adressen. Jede einzelne Adresse kann ein optionales Suffix &quot;netmask&quot;enthalten, um die Angabe der IP-Adressbereiche zu ermöglichen. Weitere Informationen finden Sie unter `attribute::ClientAddressFilter`.
 
 ## Beschreibung {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-Der Zugriff auf diesen Bildkatalog kann auf eine oder mehrere bestimmte Client-IP-Adressen beschränkt werden, indem sie in einem `<addressfilter>` Element angegeben werden. Der Fehler &quot;Anforderung verweigert&quot;wird an den Client zurückgegeben, wenn die Client-IP-Adresse nicht übereinstimmt.
+Der Zugriff auf diesen Bildkatalog kann auf eine oder mehrere bestimmte Client-IP-Adressen beschränkt werden, indem sie in einem `<addressfilter>`-Element angegeben werden. Der Fehler &quot;Anforderung verweigert&quot;wird an den Client zurückgegeben, wenn die Client-IP-Adresse nicht übereinstimmt.
 
-Der Zugriff ist nicht eingeschränkt, wenn `<addressfilter>` er leer oder nicht angegeben ist.
+Der Zugriff ist nicht eingeschränkt, wenn `<addressfilter>` leer oder nicht angegeben ist.
 
-Wenn das Element `<expression>` im `<rule>` Element fehlt oder leer ist, `<addressfilter>` wird es auf alle Anforderungen angewendet.
+Wenn das Element `<expression>` im Element `<rule>` fehlt oder leer ist, wird das Element `<addressfilter>` auf alle Anforderungen angewendet.
 
 ## Verwandte Themen {#section-6f51ec2218d9450bb7642f9fdad1988a}
 
