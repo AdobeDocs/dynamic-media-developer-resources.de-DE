@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 4%
 
 ---
 
 
-# Ansicht, Befehle{#view-commands}
+# Ansicht{#view-commands}
 
 Diese Befehle gelten unabhängig davon, wo in der Anforderung sie angezeigt werden.
 
