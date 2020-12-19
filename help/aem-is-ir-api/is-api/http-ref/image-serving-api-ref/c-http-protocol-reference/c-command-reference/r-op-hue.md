@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ Basierend auf einem 360-Grad-Farbtonbereich.
 
 ## Eigenschaften {#section-55779644700b4c808a624cdf5a04447e}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist. Von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
+Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
 
 ## Standard {#section-7314580251f5456fa1f381ec9e99e0bb}
 
