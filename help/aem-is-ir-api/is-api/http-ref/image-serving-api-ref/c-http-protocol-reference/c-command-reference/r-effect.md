@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -25,13 +28,13 @@ Wählen Sie Effektebene. Wählt eine Effektebene aus und Beginn ein neues Ebenen
  </tr> 
 </table>
 
-Alle Befehle im neuen Segment werden auf die angegebene Effektebene angewendet. Ein Effekt-Ebenensegment wird durch den nächsten `layer=` oder `effect=` -Befehl oder durch das Ende der Anforderung beendet.
+Alle Befehle im neuen Segment werden auf die angegebene Effektebene angewendet. Ein Effekt-Ebenensegment wird durch den nächsten Befehl `layer=` oder `effect=` oder durch das Ende der Anforderung beendet.
 
 *`n`* muss bei äußeren Ebeneneffekten kleiner als 0 (d. h. bei Effekten hinter der übergeordneten Ebene) und größer als 0 bei inneren Ebeneneffekten (d. h. bei Effekten innerhalb der übergeordneten Ebene) sein. Die Nummern der Effektebenen müssen nicht aufeinander folgen.
 
 Die Nummer der Effektebene gibt die z-Reihenfolge an, wenn mehrere Effektebenen für dieselbe übergeordnete Ebene vorhanden sind. Ebenen mit einer höheren Nummerierung werden über Ebenen mit einer niedrigeren Nummerierung platziert.
 
-Effektebenen können angehängt werden `layer=comp`.
+Effektebenen können an `layer=comp` angehängt werden.
 
 ## Eigenschaften {#section-e11f795deff345779ce280a82cf221ca}
 
