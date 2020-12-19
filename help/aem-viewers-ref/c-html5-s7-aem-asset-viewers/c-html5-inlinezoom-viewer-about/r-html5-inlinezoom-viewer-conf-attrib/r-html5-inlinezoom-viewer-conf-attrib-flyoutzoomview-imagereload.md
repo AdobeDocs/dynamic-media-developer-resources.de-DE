@@ -23,10 +23,10 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Bei einem Wert von <span class="codeph"> 0 </span>werden keine neuen Bilder während der Größenänderung geladen, und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Mit der Einstellung <span class="codeph"> 1 </span> können Sie einen oder mehrere BreitenHaltepunkte für das in die Hauptbild-Ansicht geladene Bild angeben. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Bei Festlegung auf <span class="codeph"> 0 </span> lädt die Komponente keine neuen Bilder während der Größenänderung und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Bei Festlegung auf <span class="codeph"> 1 </span> können Sie einen oder mehrere BreitenHaltepunkte für das Bild angeben, das in die Haupt-Ansicht geladen wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Haltepunkt, <span class="varname"> Breite </span>; <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Haltepunkt,  <span class="varname"> Breite  </span>;  <span class="varname"> width  </span> </span> </p> </td> 
    <td colname="col2"> <p>Breiten-Haltepunkte für das Bild, das in die Haupt-Ansicht geladen wird. </p> <p>Die Komponente verwendet immer die für die anfängliche Belastung am besten geeignete Größe. Nach dem Ändern der Größe wird sichergestellt, dass das Bild in der Haupt-Ansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Haltepunkt entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
   </tr> 
  </tbody> 
