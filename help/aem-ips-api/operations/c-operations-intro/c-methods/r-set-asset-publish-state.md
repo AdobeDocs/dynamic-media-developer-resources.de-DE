@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
@@ -45,19 +48,19 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Der Griff zur Firma. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Asset-Handle. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">Verfügbare Status: 
@@ -67,8 +70,8 @@ Syntax
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -81,7 +84,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-c31ead6d0e594317a12c120509527792}
 
-In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mit `NotMarkedForPublish`festgelegt.
+In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mit `NotMarkedForPublish` festgelegt.
 
 **Anforderung**
 
