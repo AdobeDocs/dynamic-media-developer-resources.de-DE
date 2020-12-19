@@ -1,6 +1,6 @@
 ---
-description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder in InDesign als PDF-Vorgaben generiert wird.
-seo-description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder in InDesign als PDF-Vorgaben generiert wird.
+description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder in den PDF-Vorgaben in InDesign generiert wird.
+seo-description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder in den PDF-Vorgaben in InDesign generiert wird.
 seo-title: joboption
 solution: Experience Manager
 title: joboption
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 42%
 
 ---
 
 
 # joboption{#joboption}
 
-PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld &quot;PDF-Optionen speichern&quot;oder in InDesign als PDF-Vorgaben generiert wird.
+PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld &quot;PDF-Optionen speichern&quot;oder in den PDF-Vorgaben in InDesign generiert wird.
 
 ` joboption= *`Wert`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> -Wert</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
   <td class="stentry"> <p>Die IPSID der Auftragsoptionendatei. </p></td> 
  </tr> 
 </table>
