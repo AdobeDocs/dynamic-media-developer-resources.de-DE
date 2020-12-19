@@ -1,29 +1,32 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: ZoomView.Transition
+seo-title: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.Transition
+title: ZoomView.transition
 topic: Dynamic media
 uuid: f579397b-a449-42fe-b0a7-f0da65a6a248
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 5%
 
 ---
 
 
-# ZoomView.Transition{#zoomview-transition}
+# ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *`Zeitbeschleunigung`*[, *``*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`Zeitbeschleunigung `*[, *``*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Zeit</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> time</span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt die Zeit in Sekunden an, die die Animation für eine einzelne Zoomschritt-Aktion dauert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Lockerung</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> lockern</span> </span> </p> </td> 
    <td colname="col2"> <p> Erstellt eine Illusion der Beschleunigung oder Verzögerung, die die Transition natürlicher erscheinen lässt. Sie können die Lockerung auf einen der folgenden einstellen: </p> <p> 
      <ul id="ul_DA0D1CF2F2484410BFCCACA86661702E"> 
       <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0 (auto) </li> 
