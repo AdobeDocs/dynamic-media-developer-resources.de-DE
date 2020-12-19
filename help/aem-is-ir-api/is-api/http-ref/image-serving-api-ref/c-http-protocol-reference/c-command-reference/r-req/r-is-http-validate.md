@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5322c484-2cf5-4022-9863-73fc525beb56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 5%
 
 ---
 
@@ -20,18 +23,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_F214CDA7580A46C0B5CF14CF13AA9B0A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span> </span> </p> </td> 
   <td class="stentry"> <p>Eindeutige Anforderungskennung. </p></td> 
  </tr> 
 </table>
 
-Analysiert die Anforderungszeichenfolge so, als `req=img` wären sie angegeben, ohne Variablen zu ersetzen und referenzierte Objekte (Bilder, ICC-Profile, Schriftarten usw.) auszuwerten. Die standardmäßige Fehlerantwort wird zurückgegeben, wenn die Analyse fehlschlägt. Andernfalls wird die folgende Eigenschaft zurückgegeben:
+Analysiert die Anforderungszeichenfolge so, als wäre `req=img` angegeben, ohne jedoch Variablen zu ersetzen und referenzierte Objekte (Bilder, ICC-Profile, Schriftarten usw.) auszuwerten. Die standardmäßige Fehlerantwort wird zurückgegeben, wenn die Analyse fehlschlägt. Andernfalls wird die folgende Eigenschaft zurückgegeben:
 
 `request.isValid=1`
 
 Die HTTP-Antwort kann nicht zwischengespeichert werden.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des `req=` Parameters angeben:
+Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
