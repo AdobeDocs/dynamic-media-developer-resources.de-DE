@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ Bild skalieren. Skaliert ein Bild nach Faktor relativ zum Bild mit voller Auflö
 
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Faktor</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> factor</span></span> </p> </td> 
   <td class="stentry"> <p>Skalierungsfaktor (real, &gt;0). </p></td> 
  </tr> 
 </table>
