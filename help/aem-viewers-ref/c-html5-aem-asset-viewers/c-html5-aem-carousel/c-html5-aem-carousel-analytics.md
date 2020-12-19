@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 
 
-# Unterstützung der Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
 
 ## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu prüfen und das `eventInfo` Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern müssen Sie den `trackEvent`-Viewer-Rückruf abhören und das `eventInfo`-Argument der Rückruffunktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -57,7 +60,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
    <td colname="col2"> <p>Der Viewer wird zuerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> BANNER  </span> </p> </td> 
    <td colname="col2"> <p>das Karussell-Bannerbild geändert wird. </p> </td> 
   </tr> 
   <tr> 
