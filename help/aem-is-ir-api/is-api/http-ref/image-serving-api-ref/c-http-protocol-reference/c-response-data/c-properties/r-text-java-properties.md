@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
 
-# Eigenschaften von Text (Java){#text-java-properties}
+# Texteigenschaften (Java){#text-java-properties}
 
 Wenn Text als Antwortformat angegeben wird, werden die Antwortdaten als Java-Eigenschaften lesbar formatiert.
 
@@ -35,4 +38,4 @@ Eine typische Antwort auf Texteigenschaften hat folgende allgemeine Struktur:
 
 *`propertyValue`* darf leer sein. Leerzeichen sind optional am Anfang und am Ende jeder Zeile und vor und nach dem Trennzeichen =. Ein- oder Dublette-Anführungszeichen können zum Umschließen von Zeichenfolgenwerten verwendet werden, sind jedoch nicht erforderlich.
 
-Zeichenfolgenwerte können Escape-Zeichen im JAVA-Stil wie `\n`, `\t`, `\:`oder `\\`enthalten.
+Zeichenfolgenwerte können Escape-Zeichen im JAVA-Stil enthalten, z. B. `\n`, `\t`, `\:` oder `\\`.
