@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 39f74e9f-f04c-4c41-9669-029499388708
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Typ des Effekts an, der bei einer Asset-Änderung auf die Haupt-Ansicht angewendet wird. Die <span class="codeph"> Keine</span> steht für keine Transition, die Hauptänderung der Ansicht passiert sofort. Die <span class="codeph"> Überblendung</span> aktiviert eine Transition mit Überblendungen, bei der das alte Bild ausgeblendet und das neue Bild eingeblendet wird </p> </td> 
+   <td colname="col2"> <p> Gibt den Typ des Effekts an, der bei einer Asset-Änderung auf die Haupt-Ansicht angewendet wird. Die <span class="codeph"> none</span> steht für keine Transition, die Hauptänderung der Ansicht erfolgt sofort. Die Überblendung <span class="codeph"> aktiviert eine Überblendungsoption, bei der das alte Bild ausgeblendet und das neue Bild eingeblendet wird</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 
