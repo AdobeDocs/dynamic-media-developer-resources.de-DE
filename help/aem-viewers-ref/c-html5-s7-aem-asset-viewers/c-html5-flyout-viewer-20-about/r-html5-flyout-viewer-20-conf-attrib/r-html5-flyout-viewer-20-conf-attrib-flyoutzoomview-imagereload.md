@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1de87e2f-5cb9-406a-96bc-3486c2592951
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 5%
 
 ---
 
@@ -20,10 +23,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Bei Festlegung auf <span class="codeph"> 0 </span>lädt die Komponente keine neuen Bilder während der Größenanpassung. Die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Durch die Einstellung <span class="codeph"> 1 </span> können Sie einen oder mehrere BreitenHaltepunkte für das Bild angeben, das in die Hauptbild-Ansicht geladen wird. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Bei Festlegung auf <span class="codeph"> 0 </span> lädt die Komponente keine neuen Bilder während der Größenanpassung. Die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Wenn Sie auf <span class="codeph"> 1 </span> festlegen, können Sie einen oder mehrere BreitenHaltepunkte für das in die Hauptbild geladene Ansicht angeben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Haltepunkt, <span class="varname"> Breite </span>[; <span class="varname"> width </span>] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Haltepunkt,  <span class="varname"> Breite  </span>[;  <span class="varname"> width  </span>]  </span> </p> </td> 
    <td colname="col2"> <p> Breiten-Haltepunkte für das Bild, das in die Haupt-Ansicht geladen wird. Die Komponente verwendet immer die für die anfängliche Belastung am besten geeignete Größe. Nach der Größenanpassung wird sichergestellt, dass das Bild in der Haupt-Ansicht immer mit der Breite des nächstgrößeren Haltepunkts heruntergeladen und auf dem Client herunterskaliert wird. </p> </td> 
   </tr> 
  </tbody> 
