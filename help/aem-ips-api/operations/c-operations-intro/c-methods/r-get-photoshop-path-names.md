@@ -1,6 +1,6 @@
 ---
-description: Gibt ein Array mit Fotoshop-Pfadnamen für das angegebene Bild zurück.
-seo-description: Gibt ein Array mit Fotoshop-Pfadnamen für das angegebene Bild zurück.
+description: Gibt ein Array mit Photoshop-Pfadnamen für das angegebene Bild zurück.
+seo-description: Gibt ein Array mit Photoshop-Pfadnamen für das angegebene Bild zurück.
 seo-title: getFotoshopPathNames
 solution: Experience Manager
 title: getFotoshopPathNames
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
 
 # getFotoshopPathNames{#getphotoshoppathnames}
 
-Gibt ein Array mit Fotoshop-Pfadnamen für das angegebene Bild zurück.
+Gibt ein Array mit Photoshop-Pfadnamen für das angegebene Bild zurück.
 
 Syntax
 
@@ -41,7 +44,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | Ja | Ein Array von Fotoshop-Pfadnamen in einem Bild. |
+| ` *`pathNameArray`*` | `types:StringArray` | Ja | Ein Array mit Photoshop-Pfadnamen in einem Bild. |
 
 ## Beispiele {#section-6d316f14b4184d42af4ca3f717b042dd}
 
