@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Server konfigurieren und verwalten{#configuring-and-managing-the-server}
+# Konfigurieren und Verwalten des Servers{#configuring-and-managing-the-server}
 
 Dieser Abschnitt enthält Informationen zum Einrichten und Verwalten des Image Rendering-Servers.
 
