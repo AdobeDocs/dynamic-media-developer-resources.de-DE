@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 
 Im Folgenden finden Sie die Liste der von der Scene7 Image Serving Text Engine unterstützten Suchbegriffe und Befehle.
 
-Einzelheiten zu den einzelnen Suchbegriffen und Befehlen finden Sie in der veröffentlichten [RTF 1.6-Spezifikation](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) .
+Einzelheiten zu den einzelnen Suchbegriffen oder Befehlen finden Sie in der veröffentlichten Spezifikation [RTF 1.6.](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)
 
 RTF-Befehle, die unten nicht aufgeführt sind, werden vom Parser ignoriert.
 
