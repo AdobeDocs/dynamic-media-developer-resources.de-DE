@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 427daeae-f7b4-4eb0-a285-e5b16c538239
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -18,24 +21,24 @@ JavaScript-API-Referenz für gemischte Medien-Viewer.
 
 ` setParam( *`name, value`*)`
 
-Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Modifikator des Software Development Kits. Dieser Parameter wird zuvor aufgerufen `init()`. Diese Methode ist optional, wenn Viewer-Konfigurationsinformationen mit dem `config` JSON-Objekt an den Konstruktor übergeben werden.
+Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Modifikator des Software Development Kits. Dieser Parameter wird vor `init()` aufgerufen. Diese Methode ist optional, wenn Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Name </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> Name des Parameters. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Name des Parameters. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> -Wert des Parameters. Der Wert kann nicht in Prozent kodiert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Wert des Parameters. Der Wert kann nicht in Prozent kodiert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 Keine.
 
