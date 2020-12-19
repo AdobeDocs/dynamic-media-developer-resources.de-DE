@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ Der Sitzungskatalog enthält die folgenden Sitzungsstandardwerte:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
-   <td> <p> Stamm-URL für relative HTTP-Dateipfade in <span class="codeph"> src=</span> -Befehlen </p> </td> 
+   <td> <p> Stamm-URL für relative HTTP-Dateipfade in den Befehlen <span class="codeph"> src=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
@@ -78,11 +81,11 @@ Der Sitzungskatalog enthält die folgenden Sitzungsstandardwerte:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailSel</span> </p> </td> 
-   <td> <p> Gibt Verhalten an, wenn der Befehl <span class="codeph"> sel=</span> fehlschlägt </p> </td> 
+   <td> <p> Gibt Verhalten an, wenn ein Befehl <span class="codeph"> sel=</span> fehlschlägt </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailObj</span> </p> </td> 
-   <td> <p> Gibt Verhalten an, wenn ein <span class="codeph"> Befehl "obj=</span> "fehlschlägt </p> </td> 
+   <td> <p> Gibt Verhalten an, wenn ein Befehl <span class="codeph"> obj=</span> fehlschlägt </p> </td> 
   </tr> 
  </tbody> 
 </table>
