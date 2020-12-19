@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: ad815ca0-834c-404e-8baa-744a9d57dbd6
 translation-type: tm+mt
 source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
 
 
-# Nur Viewer für AEM Assets{#viewers-for-aem-assets-only}
+# Viewer nur für AEM Assets{#viewers-for-aem-assets-only}
 
-Die folgenden Viewer können ausschließlich unter Adobe Experience Manager Assets verwendet werden.
+Die folgenden Viewer arbeiten ausschließlich unter Adobe Experience Manager Assets.
 
 * [Karussell](c-html5-aem-carousel/c-html5-aem-carousel.md)
 * [Interaktives Bild](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
