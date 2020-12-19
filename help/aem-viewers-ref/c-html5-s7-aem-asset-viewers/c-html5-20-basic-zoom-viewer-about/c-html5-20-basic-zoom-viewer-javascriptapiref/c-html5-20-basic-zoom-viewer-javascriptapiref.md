@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 18cf3d32-329c-412b-97cf-c940ed25acff
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Die Hauptklasse des einfachen Zoom-Viewers ist BasicZoomViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 
-In allen folgenden Beispielen steht `<instance>` der tatsächliche Name des JavaScript-Viewer-Objekts, das von der `s7viewers.BasicZoomViewer` Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.BasicZoomViewer`-Klasse instanziiert wird.
