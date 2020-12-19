@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +34,7 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Haupt-Ansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +42,7 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
 
 Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht abspielen kann.
 
-Siehe [Lokale Anpassung der Elemente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)der Benutzeroberfläche.
+Siehe [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayer-Größe von 512 x 288 Pixel.
 
@@ -76,15 +79,15 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p> Höhe des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p> Animationssymbol links, normalerweise minus die Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> Animationssymbole am oberen Rand, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Knob-Grafik. </p> </td> 
   </tr> 
  </tbody> 
