@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +27,11 @@ Timeouts und andere Sicherheitsvorkehrungen stellen sicher, dass das System auch
 
 Der Cache-Cluster kann in einer der beiden grundlegenden Konfigurationen ausgeführt werden:
 
-* Bei `PS::cacheCluster.updateLocalCache` Aktivierung (Standard) wird jeder auf einem Peer-Server gefundene Cache-Eintrag in den lokalen Cache kopiert.
+* Ist `PS::cacheCluster.updateLocalCache` aktiviert (Standard), wird jeder auf einem Peer-Server gefundene Cache-Eintrag in den lokalen Cache kopiert.
 
    Diese Konfiguration verringert den Traffic zwischen den Peer-Servern. Es bietet außerdem die schnellsten Reaktionszeiten, sodass alle Cache-Einträge auf alle Server im Cluster repliziert werden müssen. Dies ist die empfohlene Konfiguration.
 
-* Wenn diese Option deaktiviert `PS::cacheCluster.updateLocalCache` ist, werden Daten von anderen Servern nicht in den lokalen Cache kopiert.
+* Wenn `PS::cacheCluster.updateLocalCache` deaktiviert ist, werden Daten von anderen Servern nicht in den lokalen Cache kopiert.
 
    Dadurch wird der verfügbare Speicherplatz für Cachedaten multipliziert. Sie erhöht jedoch den Traffic zwischen den Peer-Servern und verringert die Gesamtansprechzeit. Verwenden Sie diese Konfiguration nur, wenn Sie niedrige Cache-Trefferraten sehen.
 
