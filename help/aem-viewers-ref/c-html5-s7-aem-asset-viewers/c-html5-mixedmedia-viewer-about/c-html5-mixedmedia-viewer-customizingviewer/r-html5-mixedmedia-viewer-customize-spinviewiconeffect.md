@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +38,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Rotationsanzeigegrafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +56,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Der Rotationsanzeiger unterstützt den `state` Attributselektor, der bei eindimensionalen Rotationsset auf `spin_1D` und bei `spin_2D` mehrdimensionalen Rotationsset auf eingestellt ist.
+Der Rotationsanzeiger unterstützt den Attributselektor `state`, der bei eindimensionalen Rotationsset auf `spin_1D` und bei mehrdimensionalen Rotationsset auf `spin_2D` eingestellt ist.
 
 Beispiel: Zum Einrichten eines Zoomindikators für 100 x 100 Pixel.
 
