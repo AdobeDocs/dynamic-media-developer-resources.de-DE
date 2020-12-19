@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6aaac931-af78-4f63-9345-6c2580f52414
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet. Es kann sich um einen beliebigen Wert handeln, den Image Server und der Client-Browser unterstützen. Wenn das angegebene Format mit <span class="codeph"> -alpha</span>endet, rendert die Komponente die Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als undurchsichtig. </p> </td> 
+   <td> <p>Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet. Es kann sich um einen beliebigen Wert handeln, den Image Server und der Client-Browser unterstützen. Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als undurchsichtig. </p> </td> 
   </tr> 
  </tbody> 
 </table>
