@@ -32,7 +32,7 @@ ht-degree: 4%
       ]&gt;</code> </p> <p>Die eigentliche Syntax für die Inhaltsvorlage lautet wie folgt: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>Das heißt, die Vorlage muss mit dem <span class="codeph"> &lt;info&gt;</span> -Element Beginn werden, das optionale <span class="codeph"> &lt;var&gt;</span> -Elemente enthalten kann. Der Vorlageninhalt selbst, <span class="codeph"> TEMPLATE_CONTENT</span> , ist HTML-Text. Darüber hinaus kann die Inhaltsvorlage Variablennamen enthalten, die in <span class="codeph"> $</span> -Zeichen eingeschlossen sind. Diese Zeichen werden durch die Variablenwerte ersetzt, die der Infoserver zurückgibt, oder durch Standardwerte. </p> <p>Standardvariablen, die in der Vorlage definiert werden, können entweder global (wenn das Rollover-Attribut nicht festgelegt ist) oder spezifisch für einen bestimmten Rollover-Schlüssel sein (wenn das Rollover-Attribut vorhanden ist). </p> <p>Bei der Vorlagenverarbeitung haben Variablen, die spezifisch für die Übertragung von Schlüsseln sind, Vorrang vor globalen Variablen. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Das heißt, die Vorlage muss mit dem <span class="codeph"> &lt;info&gt;</span>-Element Beginn werden, das optionale Elemente <span class="codeph"> &lt;var&gt;</span> enthalten kann. Der Vorlageninhalt selbst, <span class="codeph"> TEMPLATE_CONTENT</span>, ist HTML-Text. Darüber hinaus kann die Inhaltsvorlage Variablennamen enthalten, die in &lt; a0/&gt; $<span class="codeph">-Zeichen eingeschlossen sind. </span> Diese Zeichen werden durch die Variablenwerte ersetzt, die der Infoserver zurückgibt, oder durch Standardwerte. </p> <p>Standardvariablen, die in der Vorlage definiert werden, können entweder global (wenn das Rollover-Attribut nicht festgelegt ist) oder spezifisch für einen bestimmten Rollover-Schlüssel sein (wenn das Rollover-Attribut vorhanden ist). </p> <p>Bei der Vorlagenverarbeitung haben Variablen, die spezifisch für die Übertragung von Schlüsseln sind, Vorrang vor globalen Variablen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,6 +51,6 @@ Keine.
 
 ## Beispiel {#section-16d184665c484964af9a22f79ff3f840}
 
-Unter der Annahme, dass die Info-Server-Antwort den Produktnamen als Variable zurückgibt `$1$` und die Produkt-Image-URL als Variable zurückgegeben wird `$2$`.
+Unter der Annahme, dass die Info-Server-Antwort den Produktnamen als Variable `$1$` und die Produkt-Bild-URL als Variable `$2$` zurückgibt.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
