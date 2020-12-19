@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ defaultLocale:"en"
 
 Im obigen Beispiel definiert das lokale Anpassung-Objekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt lokale Anpassung für zwei Benutzeroberflächenelemente in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte das lokale Anpassung-Objekt als Feldwert des Konfigurationsobjekts an den Viewer-Konstruktor `localizedTexts` übergeben. Eine andere Option besteht darin, das lokale Anpassung-Objekt durch Aufrufen der `setLocalizedTexts(localizationInfo)` Methode zu übergeben.
+Der Webseitencode sollte das lokale Anpassung-Objekt an den Viewer-Konstruktor als Wert des Felds `localizedTexts` des Konfigurationsobjekts übergeben. Eine andere Option besteht darin, das Objekt &quot;lokale Anpassung&quot;durch Aufruf der Methode `setLocalizedTexts(localizationInfo)` weiterzugeben.
 
 Die folgenden SYMBOLs werden unterstützt:
 
@@ -53,27 +56,27 @@ Die folgenden SYMBOLs werden unterstützt:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Status der Schaltfläche zum Abspielen der Pause. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Nicht ausgewählte Schaltfläche zum Abspielen der Pause. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO  </span> </p> </td> 
    <td colname="col2"> <p> QuickInfo und ARIA-Beschriftung für die Schaltflächen "Zurück"und "Weiter". </p> <p>Akzeptiert zwei Ersetzungstoken: <span class="codeph"> $CURRENT_FRAME$ </span> für den aktuellen Folienindex und <span class="codeph"> $TOTAL_FRAMES$ </span> für die Gesamtzahl der Folien. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
    <td colname="col2"> <p> ARIA-Beschriftung für Viewer-Element der obersten Ebene. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p> ARIA-Rollenbeschreibung für die Hauptkomponente Ansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CarouselView.USAGE_HINT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CarouselView.USAGE_HINT  </span> </p> </td> 
    <td colname="col2"> <p> ARIA-Verwendungshinweise für Tastaturbenutzer. </p> </td> 
   </tr> 
  </tbody> 
