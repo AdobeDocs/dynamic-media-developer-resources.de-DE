@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a23fa941-6dd2-41c0-aca9-06f0cdb027b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Wert</span> </p> </td> 
-   <td colname="col2"> <p> Legt die Video-Bitrate (in Kbit/s oder Kbit/s) fest, die für die anfängliche Wiedergabe von Videos auf einem Desktop verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Video-Set vorhanden ist, wird der Videoplayer mit dem Video mit der nächstniedrigeren Bitrate Beginn. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> wird der Videoplayer von der niedrigstmöglichen Bitrate Beginn. </p> <p>Gilt nur für Systeme, die keine native Unterstützung für HTML5-HLS-Videos haben (z. B. Firefox, Chrome und Internet Explorer 11 unter Windows 10), und wenn der Wiedergabemodus auf auto eingestellt ist. </p> </td> 
+   <td colname="col2"> <p> Legt die Video-Bitrate (in Kbit/s oder Kbit/s) fest, die für die anfängliche Wiedergabe von Videos auf einem Desktop verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Video-Set vorhanden ist, wird der Videoplayer mit dem Video mit der nächstniedrigeren Bitrate Beginn. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> wird der Videoplayer mit der niedrigstmöglichen Bitrate Beginn. </p> <p>Gilt nur für Systeme, die keine native Unterstützung für HTML5-HLS-Videos haben (z. B. Firefox, Chrome und Internet Explorer 11 unter Windows 10), und wenn der Wiedergabemodus auf auto eingestellt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
