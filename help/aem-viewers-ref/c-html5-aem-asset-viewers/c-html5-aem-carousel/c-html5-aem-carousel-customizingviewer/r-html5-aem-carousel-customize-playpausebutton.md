@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Die Schaltfläche ist nur sichtbar, wenn der `CarouselViewer.autoplay` Parameter auf `1`; ansonsten ist er ausgeblendet. Mithilfe von CSS können Sie diese Schaltfläche relativ zur Steuerungsleiste, in der sie enthalten ist, in der Größe, in der Skin und an der Position positionieren.
+Die Schaltfläche ist nur sichtbar, wenn der Parameter `CarouselViewer.autoplay` auf `1` eingestellt ist. ansonsten ist er ausgeblendet. Mithilfe von CSS können Sie diese Schaltfläche relativ zur Steuerungsleiste, in der sie enthalten ist, in der Größe, in der Skin und an der Position positionieren.
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
@@ -59,15 +62,15 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Cursortyp. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,9 +78,9 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
 Beispiel: Um eine Wiedergabepause-Schaltfläche mit 28 x 28 Pixeln einzurichten, die 17 Pixel vom unteren Rand und 12 Pixel vom linken Rand des Viewers positioniert ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind.
 
