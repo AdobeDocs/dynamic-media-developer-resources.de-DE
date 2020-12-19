@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 1%
 
 ---
 
@@ -28,13 +31,13 @@ Syntax
 * `createImageSet`
 * `getImageSetMembers`
 
-## Geänderte Vorgänge {#section-25eee732b69c49d0a27b1f3290f8654a}
+## Modifizierte Vorgänge {#section-25eee732b69c49d0a27b1f3290f8654a}
 
 **searchAssets**
 
-* Mit dem optionalen `publishState` Parameter können Sie nach dem Status des `MarkedForPublish/NotMarkedForPublish` Assets suchen.
+* Mit dem optionalen Parameter `publishState` können Sie nach dem Asset-Status `MarkedForPublish/NotMarkedForPublish` suchen.
 
 **getJobLogs**
 
-* Mit dem optionalen `userHandle` Parameter können Sie Auftragsprotokolle abrufen, die von einem bestimmten Benutzer gesendet wurden.
+* Mit dem optionalen Parameter `userHandle` können Sie Auftragsprotokolle abrufen, die von einem bestimmten Benutzer gesendet wurden.
 
