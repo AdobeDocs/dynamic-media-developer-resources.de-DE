@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dbc594de-05b9-4efa-93a6-4fdcf1981d8d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +25,7 @@ Echte Zahl, größer als 0. Normalerweise ausgedrückt als Pixel pro Zoll, kann 
 
 ## Standard {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-Vererbt von, `default::Resolution` wenn nicht definiert oder leer.
+Vererbt von `default::Resolution`, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-dffa1f318fd84833b74d08d09c24c974}
 
