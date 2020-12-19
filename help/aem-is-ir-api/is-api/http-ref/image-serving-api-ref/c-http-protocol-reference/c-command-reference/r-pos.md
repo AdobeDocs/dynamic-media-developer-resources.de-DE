@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 3%
 
 ---
 
@@ -31,9 +34,9 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-Gibt bei Bild-, Text- und Volltonfarbenebenen die Position eines Ebenenankers relativ zum Ebenenanker 0 `pos=` an. `posN=` Koordinatenwerte werden relativ zur tatsächlichen Ebene 0 rect normalisiert.
+Bei Bild-, Text- und Volltonfarbebenen gibt `pos=` die Position eines Ebenenankers relativ zum Ebenenanker 0 an. `posN=` Koordinatenwerte werden relativ zur tatsächlichen Ebene 0 rect normalisiert.
 
-Bei Effektebenen `pos=` verschiebt die Effektebene relativ zur übergeordneten Ebene.
+Bei Effektebenen verschiebt `pos=` die Effektebene relativ zur übergeordneten Ebene.
 
 Positive Werte verschieben die Ebene nach rechts/unten, negativ nach links/oben. `posN=0.5,0.5` verschiebt die Ebene um die Hälfte der Ebene 0 Breite und Höhe nach unten und rechts.
 
@@ -51,4 +54,4 @@ Siehe Beispiel A in [Vorlagen](../../../../../is-api/http-ref/image-serving-api-
 
 ## Verwandte Themen {#section-812d95575ba542808e8387d0a8650606}
 
-[Herkunft=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138)
+[herkunft=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138)
