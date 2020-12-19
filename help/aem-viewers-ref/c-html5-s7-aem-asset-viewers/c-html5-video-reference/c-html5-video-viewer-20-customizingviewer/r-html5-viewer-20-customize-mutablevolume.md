@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: d7eafff8-dd98-42e2-9d45-e291fe372d8c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
 
-# Mutable volume{#mutable-volume}
+# Mutables Volume{#mutable-volume}
 
 Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der der Benutzer den Videoplayer-Sound stummschalten oder deaktivieren kann.
 
@@ -47,7 +50,7 @@ Das Aussehen des Bereichs für veränderbare Lautstärke wird mit der folgenden 
    <td colname="col2"> <p>Die Höhe der Steuerung des veränderlichen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Die Farbe der Lautstärkeregelung. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,11 +69,11 @@ Sie können das Hintergrundbild für jeden Schaltflächenstatus steuern. Die Gr�
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Das für einen Schaltflächenstatus angezeigte Bild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -78,7 +81,7 @@ Sie können das Hintergrundbild für jeden Schaltflächenstatus steuern. Die Gr�
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die `state` als auch die `selected` Attributselektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dies dem Status &quot;muted&quot;und `selected='false'` dem Status &quot;unmuted&quot;.
+>Diese Schaltfläche unterstützt sowohl die Attributselektoren `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;muted&quot;und `selected='false'` dem Status &quot;unmuted&quot;.
 
 Der Bereich für die vertikale Lautstärkenleiste wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -91,15 +94,15 @@ Der Bereich für die vertikale Lautstärkenleiste wird mit der folgenden CSS-Kla
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe des vertikalen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Die Breite des vertikalen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des vertikalen Volumens. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,15 +120,15 @@ Die Gleise innerhalb der vertikalen Lautstärkeregelung wird mit den folgenden C
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe der Steuerung des vertikalen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Steuerung des vertikalen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der vertikalen Lautstärkeregelung. </p> </td> 
   </tr> 
  </tbody> 
@@ -142,19 +145,19 @@ Der vertikale Lautstärkeregler wird mit der folgenden CSS-Klassenauswahl gesteu
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Grafik mit vertikalem Lautstärkeregler. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite des Reglers für die vertikale Lautstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe des vertikalen Lautstärkereglers. </p> </td> 
   </tr> 
   <tr> 
@@ -164,7 +167,7 @@ Der vertikale Lautstärkeregler wird mit der folgenden CSS-Klassenauswahl gesteu
  </tbody> 
 </table>
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 ## Beispiele {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -231,7 +234,7 @@ background-image:url(images/volumeKnob.png);
 }
 ```
 
-Im Folgenden sehen Sie ein Beispiel dafür, wie Sie den Videoplayer so anpassen können, dass der Ton während der Wiedergabe deaktiviert wird. Hinzufügen den folgenden Code in den Einbettungscode des Viewers:
+Im Folgenden sehen Sie ein Beispiel dafür, wie Sie den Videoplayer so anpassen können, dass der Ton während der Wiedergabe deaktiviert wird. hinzufügen den folgenden Code in den Einbettungscode des Viewers:
 
 ```
                 "handlers":{ 
@@ -242,4 +245,4 @@ Im Folgenden sehen Sie ein Beispiel dafür, wie Sie den Videoplayer so anpassen 
                 }
 ```
 
-Im obigen Codebeispiel wird die Lautstärke auf `0` der `mutableVolume` Komponente eingestellt. Dann wird dieselbe Komponente deaktiviert, sodass sie vom Endbenutzer nicht verwendet werden kann.
+Im obigen Codebeispiel wird die Lautstärke auf `0` für die `mutableVolume`-Komponente eingestellt. Dann wird dieselbe Komponente deaktiviert, sodass sie vom Endbenutzer nicht verwendet werden kann.
