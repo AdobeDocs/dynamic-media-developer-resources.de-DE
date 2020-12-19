@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5490e4c7-b52a-4b2e-b002-34afaa242c08
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -20,11 +23,11 @@ Bild vorhanden.
 
 *`reqId`* Kennung der eindeutigen Anforderung
 
-Returns a single property named `catalogRecord.exists`. Der Eigenschaftswert wird auf &quot;1&quot;gesetzt, wenn der angegebene Katalogeintrag im Bild oder Standardkatalog vorhanden ist, andernfalls auf &quot;0&quot;. `req=exists` -Anfragen für den `/is/content` Kontext weisen darauf hin, dass im statischen Inhaltskatalog ein bestimmter Datensatz vorhanden ist oder fehlt.
+Gibt eine einzelne Eigenschaft mit dem Namen `catalogRecord.exists` zurück. Der Eigenschaftswert wird auf &quot;1&quot;gesetzt, wenn der angegebene Katalogeintrag im Bild oder Standardkatalog vorhanden ist, andernfalls auf &quot;0&quot;. `req=exists` -Anfragen für den  `/is/content` Kontext weisen darauf hin, dass im statischen Inhaltskatalog ein bestimmter Datensatz vorhanden ist oder fehlt.
 
-Andere Befehle in der Anforderungszeichenfolge werden ignoriert. The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiration`.
+Andere Befehle in der Anforderungszeichenfolge werden ignoriert. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des `req=` Parameters angeben:
+Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
