@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 0%
 
 ---
 
@@ -20,16 +23,16 @@ Die Viewer können auf diese Weise Antworten generieren, um die Präsentation ei
 
 ## Anforderungssyntax {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-Die eingestellte Antwort für einen Datensatz `catalog::ImageSet` kann mit dem `req=set` Modifikator abgerufen werden und die Katalogdatensatz-ID im Netzpfad referenziert werden. Alternativ kann der Bildsatz direkt in der URL mit dem `imageset=` Modifikator angegeben werden. Wenn der `imageset=` Modifikator zum Angeben des Bildsatzes verwendet wird, sollte der gesamte Wert in geschweifte Klammern gesetzt werden, um den Bildsatzwert zu vermeiden und sicherzustellen, dass eingeschlossene Modifikatoren nicht als Bestandteil der URL-Abfrage-Zeichenfolge interpretiert werden.
+Die set-Antwort für ein `catalog::ImageSet` kann mit dem Modifikator `req=set` abgerufen werden und auf die Katalog-Record-ID im Netzpfad verweisen. Alternativ kann der Bildsatz direkt in der URL mit dem Modifikator `imageset=` angegeben werden. Wenn der Modifikator `imageset=` verwendet wird, um den Bildsatz anzugeben, sollte der gesamte Wert in geschweifte Klammern gesetzt werden, um dem Bildsatzwert zu entkommen und sicherzustellen, dass eingeschlossene Modifikatoren nicht als Bestandteil der URL-Abfrage-Zeichenfolge interpretiert werden.
 
-## Arten von eingestellten Antworten {#section-93eb0a1f70344da2a888e56372ad3896}
+## Typen der eingestellten Antworten {#section-93eb0a1f70344da2a888e56372ad3896}
 
 Der festgelegte Mechanismus unterstützt die folgenden Arten von Antworten:
 
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>einfache Bilder </p></td> 
-  <td class="stentry"> <p>Ein Bilddatensatz ohne <span class="codeph"> Katalog::ImageSet</span> definiert. </p></td> 
+  <td class="stentry"> <p>Ein Bilddatensatz ohne Definition von <span class="codeph"> catalog::ImageSet</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>einfache Videos </p></td> 
@@ -65,19 +68,19 @@ Der festgelegte Mechanismus unterstützt die folgenden Arten von Antworten:
  </tr> 
 </table>
 
-## Typerkennung nach außen {#section-3dd6e453528d46898e559d31458a59ba}
+## Erkennung des äußeren Einstellungstyps {#section-3dd6e453528d46898e559d31458a59ba}
 
-Wenn eine `req=set` Anforderung empfangen wird, wird der Typ der zu generierenden Antwort vom Wert `catalog::AssetType`von bestimmt. Wenn `catalog::AssetType` der Antworttyp nicht definiert ist, wird er durch die folgenden Regeln bestimmt:
+Wenn eine `req=set`-Anforderung empfangen wird, wird der Typ der zu generierenden Antwort durch den Wert `catalog::AssetType` bestimmt. Wenn `catalog::AssetType` nicht definiert ist, wird der Antworttyp durch die folgenden Regeln bestimmt:
 
-* Wenn Datensatz im Bildkatalog gefunden wird UND definiert `catalog::ImageSet` ist
+* Wenn Datensatz im Bildkatalog gefunden wird UND `catalog::ImageSet` definiert ist
 
    * Angenommen, ein E-Katalog-Satz enthält mindestens einen Eintrag im Bildsatz-Datensatzfeld einen Doppelpunkt
    * Nehmen Sie an, dass ein Medienset mindestens einen Eintrag im Bildsatz-Feld zwei Semikolons enthält.
    * Angenommen, ein Bildsatz enthält mindestens einen Eintrag im Bildsatz-Feld ein Semikolon.
-   * Angenommen, ein Rotationsset enthält keinen Doppelpunkt oder Semikolon, aber mindestens ein Eintrag enthält einen Referenzsatz oder einen Inline-Satz (dies ist ein 2D-Rotationsset).
+   * Angenommen, ein Rotationsset enthält keinen Eintrag mit Doppelpunkt oder Semikolon, aber mindestens ein Eintrag enthält referenzierten Satz oder einen Inline-Satz (dies ist ein 2D-Rotationsset).
    * Nehmen Sie einen unbekannten Satz an, wenn kein Eintrag Doppelpunkt, kein Semikolon oder einen Referenzsatz oder einen Inline-Satz enthält (d. h. eine kommagetrennte Liste von Bildern).
 
-* Wenn sowohl in Bild- als auch in statischen Inhaltskatalogen Datensätze gefunden werden
+* Wenn Datensätze in beiden Bild- UND statischen Inhaltskatalogen gefunden werden
 
    * Gehen Sie von Video aus, wenn die Dateierweiterung in folgendem Satz liegt: mp3, mp4, flv, f4v, swf, xml
    * Ansonsten Bild annehmen
@@ -96,11 +99,11 @@ Wenn eine `req=set` Anforderung empfangen wird, wird der Typ der zu generierende
    * Nehmen Sie ein dateibasiertes Video an, wenn die Dateierweiterung in folgendem Satz liegt: mp3, mp4, flv, f4v, swf, xml
    * Ansonsten dateibasiertes Bild
 
-In allen Fällen entspricht die resultierende XML-Antwort dem angegebenen XML-Dokument, wobei die Set-Stamm-Node dem erkannten Typ entspricht.
+In allen Fällen entspricht die resultierende XML-Antwort dem angegebenen XML-Dokument, wobei der Set-Stammknoten dem erkannten Typ entspricht.
 
-## Typerkennung für Innen-Set {#section-8f46490e467247e69ce284704def06f3}
+## Innen-Set-Typerkennung {#section-8f46490e467247e69ce284704def06f3}
 
-Wenn der äußere Satz als Typ-Mediensatz erkannt wird, enthält die Antwort eine Reihe von Medienset-Elementen, die den einzelnen Mediensatzeinträgen in `catalog::ImageSet`entsprechen. Wenn der optionale Typparameter für einen bestimmten Mediensatzeintrag angegeben ist, wird er einem Ausgabetyp gemäß der folgenden Tabelle zugeordnet:
+Wenn der äußere Satz als Typ-Mediensatz erkannt wird, enthält die Antwort eine Reihe von Medienset-Elementen, die jedem Medienset-Eintrag in `catalog::ImageSet` entsprechen. Wenn der optionale Typparameter für einen bestimmten Mediensatzeintrag angegeben ist, wird er einem Ausgabetyp gemäß der folgenden Tabelle zugeordnet:
 
 | Eingabetyp | Ausgabetyp |
 |---|---|
@@ -126,23 +129,23 @@ Die zurückgegebene XML-Antwort entspricht der folgenden Spezifikation:
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-Der `labelkey=` Modifikator wird zusammen mit dem `catalog::UserData`Feld verwendet, um Beschriftungen für Bilder und Muster zu generieren. Das `catalog:UserData` Feld wird als Satz Schlüssel/Wert-Paare analysiert und die Schlüssel-Indizes in diesem Satz, um den Wert für den angegebenen Schlüssel abzurufen. Dieser Wert wird dann im *`l`* -Attribut für den *`s`* und zurückgegeben *`i`*.
+Der Modifikator `labelkey=` wird zusammen mit dem Feld `catalog::UserData`verwendet, um Beschriftungen für Bilder und Muster zu generieren. Das Feld `catalog:UserData` wird als Satz Schlüssel/Wert-Paare analysiert und die Schlüssel-Indizes in diesem Satz, um den Wert für den angegebenen Schlüssel abzurufen. Dieser Wert wird dann im *`l`*-Attribut für *`s`* und *`i`* zurückgegeben.
 
 ## Erzwungene Beschränkungen {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-Um die Größe der Antwort zu begrenzen und Probleme mit Selbstverweisen zu vermeiden, wird die maximale Verschachtelungstiefe von der Servereigenschaft gesteuert `PS::fvctx.nestingLimit`. Wenn diese Grenze überschritten wird, wird ein Fehler zurückgegeben.
+Um die Größe der Antwort zu begrenzen und Probleme mit selbstreferenzierenden Elementen zu vermeiden, wird die maximale Verschachtelungstiefe durch die Servereigenschaft `PS::fvctx.nestingLimit` gesteuert. Wenn diese Grenze überschritten wird, wird ein Fehler zurückgegeben.
 
-Um die Größe der XML-Antworten für große E-Katalog-Sets zu beschränken, werden private Metadaten für Prospektset-Elemente entsprechend der Servereigenschaft unterdrückt `PS::fvctx.brochureLimit`. Alle mit der Broschüre verknüpften privaten Metadaten werden exportiert, bis die Prospektbeschränkung erreicht ist. Sobald der Grenzwert überschritten wurde, werden private Maps und Benutzerdaten unterdrückt und ein entsprechendes Flag wird gesetzt, um anzugeben, welcher Datentyp unterdrückt wurde.
+Um die Größe der XML-Antworten für große E-Katalog-Sets zu beschränken, werden private Metadaten für Prospektset-Elemente entsprechend der Servereigenschaft `PS::fvctx.brochureLimit` unterdrückt. Alle mit der Broschüre verknüpften privaten Metadaten werden exportiert, bis die Prospektbeschränkung erreicht ist. Sobald der Grenzwert überschritten wurde, werden private Maps und Benutzerdaten unterdrückt und ein entsprechendes Flag wird gesetzt, um anzugeben, welcher Datentyp unterdrückt wurde.
 
 Verschachtelte Mediensets werden nicht unterstützt. Ein verschachtelter Mediensatz ist definiert als ein Mediensatz, der ein Mediensatzelement vom Typ Mediensatz enthält. Wenn diese Bedingung erkannt wird, wird ein Fehler zurückgegeben.
 
 ## Beispiele {#section-588c9d33aa05482c86cd2b1936887228}
 
-Beispiel-XML-Antworten für eine `req=set` Anforderung finden Sie auf der Seite Eigenschaften unter der Kopfzeile HTML-Beispiele.
+Beispiel-XML-Antworten für `req=set`-Anforderungen finden Sie auf der Seite Eigenschaften unter HTML-Beispiele.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## Verwandte Themen {#section-625ec466c948476e800dc0c52a4532d3}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [Bildkatalog-Referenz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3),  [catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md),  [Bildkatalog-Referenz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
 
