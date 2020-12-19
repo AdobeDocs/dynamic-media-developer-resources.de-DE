@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +29,7 @@ Assets werden bis zum manuellen Leeren im Papierkorb oder bis zum Verlassen des 
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## Parameter {#section-8e1fb0ee3aae453581e99ef76e298569}
 
