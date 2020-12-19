@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Breite</span>,<span class="varname"> Höhe</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Gesamtbreite und -höhe des Viewers. Der Wert <span class="codeph"> 0,0</span> bedeutet, dass die Größe des Viewers den CSS-Regeln und dem Webseitenlayout entspricht. </p> </td> 
+   <td colname="col2"> <p> Die Gesamtbreite und -höhe des Viewers. Der Wert von <span class="codeph"> 0,0</span> bedeutet, dass die Größe des Viewers den CSS-Regeln und dem Webseitenlayout entspricht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
