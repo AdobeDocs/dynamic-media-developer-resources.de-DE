@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 2%
 
 ---
 
 
-# Hauptbereich des Viewers{#main-viewer-area}
+# Hauptviewer-Bereich{#main-viewer-area}
 
 Der Hauptbereich der Ansicht ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
 
@@ -43,7 +46,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +54,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
 
 ## Beispiel {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
+Um einen Viewer mit einem weißen Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel festzulegen.
 
 ```
 .s7interactivevideoviewer { 
