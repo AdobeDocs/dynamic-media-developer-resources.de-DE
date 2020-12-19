@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 74d660a1-95b3-4009-92f3-228cbe6aedc7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ JavaScript-API-Referenz für Video-Viewer.
 
 Beginns der Initialisierung des Video-Viewers. Bis zu diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Container-Element noch nicht Teil des Webseitenlayouts ist (z. B. kann es mithilfe des ihm zugewiesenen `display:none` Stils ausgeblendet werden), setzt der Viewer den Initialisierungsprozess so lange aus, bis die Webseite das Container-Element wieder in das Layout zurückbringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Container-Element noch nicht Teil des Webseitenlayouts ist (z. B. mit dem ihm zugewiesenen `display:none`-Stil ausgeblendet werden kann), setzt der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt aus, zu dem die Webseite das Container-Element wieder in das Layout einfügt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
 Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. nachfolgende Aufrufe werden ignoriert.
 
@@ -28,7 +31,7 @@ Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. na
 
 Keine.
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 `{Object}` Ein Verweis auf die Viewer-Instanz.
 
