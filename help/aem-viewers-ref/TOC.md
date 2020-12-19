@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Referenzhandbuch zu Dynamischen Medien-Viewern
+user-guide-title: Dynamic Media Viewer-Referenzhandbuch
 translation-type: tm+mt
 source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
 workflow-type: tm+mt
@@ -12,14 +12,14 @@ ht-degree: 4%
 ---
 
 
-# Referenzhandbuch zu Dynamischen Medien-Viewern {#library}
+# Dynamic Media Viewer-Referenzhandbuch {#library}
 
-+ [Ressourcen für Entwickler von dynamischen Medien - Startseite](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Referenzhandbuch zu Dynamischen Medien-Viewern](/help/aem-viewers-ref/home.md)
++ [Dynamic Media Developer Resources - Startseite](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media Viewer-Referenzhandbuch](/help/aem-viewers-ref/home.md)
 + [Beispiele für die Viewer-Bibliothek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Mehrere Viewer auf demselben Server installieren](t-installing-the-viewers.md)
-+ Versionshinweise Viewer {#viewers-release-notes}
++ Versionshinweise zu Viewern {#viewers-release-notes}
    + [Versionshinweise Viewer (5.14.1)](c-release-notes/c-rn-06-03-20.md)
    + Archiv {#archive}
       + [Versionshinweise - Archiv](c-release-notes/c-archive/c-archive.md)
@@ -172,7 +172,7 @@ ht-degree: 4%
          + [Schaltfläche &quot;Vorherige Seite&quot;](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-previouspagebutton.md)
          + [Drucken](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-print.md)
          + [Schaltfläche &quot;Favorit entfernen&quot;](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-removefavorite.md)
-         + [Sekundäre Steuerleiste](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-secondarycontrolbar.md)
+         + [Sekundär-Steuerleiste](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-secondarycontrolbar.md)
          + [Social Sharing](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-socialshare.md)
          + [Inhaltsverzeichnis](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-tableofcontents.md)
          + [Miniaturansichten](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnails.md)
@@ -291,7 +291,7 @@ ht-degree: 4%
          + [Suchschaltfläche](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-searchbutton.md)
          + [Sucheffekt](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-searcheffect.md)
          + [Suchergebnisbereich](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-searchresultspanel.md)
-         + [Sekundäre Steuerleiste](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-secondarycontrolbar.md)
+         + [Sekundär-Steuerleiste](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-secondarycontrolbar.md)
          + [Social Sharing](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-socialshare.md)
          + [Inhaltsverzeichnis](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-tableofcontents.md)
          + [Miniaturansichten](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnails.md)
@@ -464,7 +464,7 @@ ht-degree: 4%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.Transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + JavaScript-API-Referenz für den Viewer für gemischte Medien {#jsapi-mixed-media}
+      + JavaScript-API-Referenz für gemischte Media Viewer {#jsapi-mixed-media}
          + [JavaScript-API-Referenz für den Viewer für gemischte Medien](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
@@ -477,7 +477,7 @@ ht-degree: 4%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
       + [Ereignis-Rückrufe](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
-      + Anpassen des gemischten Medien-Viewers {#customing-mixed-media}
+      + Anpassen des gemischten Media Viewers {#customing-mixed-media}
          + [Anpassen des gemischten Medien-Viewers](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [Beschriftungsschaltfläche](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
          + [Schaltfläche &quot;Schließen&quot;](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
@@ -691,7 +691,7 @@ ht-degree: 4%
       + [Lokale Anpassung der Elemente der Benutzeroberfläche](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [Vollbildunterstützung](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [Viewer SDK-Namensraum](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ Nur Viewer für AEM Assets {#viewers-for-aem-assets-only}
++ Viewer nur für AEM Assets {#viewers-for-aem-assets-only}
    + [Nur Viewer für AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + Karussell {#carousel}
       + [Karussell](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
@@ -870,8 +870,8 @@ ht-degree: 4%
          + [Video360Player.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-iconeffect.md)
          + [Video360Player.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-initialbitrate.md)
          + [Video360Player.loop](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-loop.md)
-         + [Video360Player.mutevolume](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-mutevolume.md)
-         + [Video360Player.playback](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-playback.md)
+         + [Video360Player.multevolume](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-mutevolume.md)
+         + [Video360Player.play](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-playback.md)
          + [Video360Player.posterimage](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-posterimage.md)
          + [Video360Player.preload](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-preload.md)
          + [Video360Player.progressivebitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-progressivebitrate.md)
@@ -885,7 +885,7 @@ ht-degree: 4%
          + [Befehlsreferenz - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
-      + JavaScript-API-Referenz für Video360-Viewer {#jsapi-video360}
+      + JavaScript-API-Referenz für Video360 Viewer {#jsapi-video360}
          + [JavaScript-API-Referenz für Video360-Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
@@ -924,7 +924,7 @@ ht-degree: 4%
       + [Vollbildunterstützung](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
       + [Externe Videounterstützung](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
       + [Viewer SDK-Namensraum](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
-+ Befehlsreferenz für alle Viewer - Konfigurationsattribute {#command-reference-common-to-all-viewers-config-attrib}
++ Befehlsreferenz, die allen Viewern gemein ist - Konfigurationsattribute {#command-reference-common-to-all-viewers-config-attrib}
    + [Befehlsreferenz für alle Viewer - Konfigurationsattribute](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md)
    + [stageSize](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-stagesize.md)
    + [style](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-style.md)
