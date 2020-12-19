@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
 
-# Befehle für die Einfarbenebene{#solid-color-layer-commands}
+# Befehle für die Farbflächenebene{#solid-color-layer-commands}
 
 Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen auch für Farbflächenebenen.
 
