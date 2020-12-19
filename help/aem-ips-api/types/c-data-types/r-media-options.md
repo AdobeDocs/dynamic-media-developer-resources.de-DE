@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 5%
 
 ---
 
@@ -30,19 +33,19 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:HandleArray</span> </td> 
-   <td colname="col3">Ein Array von <span class="codeph"> Eigenschaftensätzen</span> behandelt das Verweisen auf Videokodierungsvorgaben zum Transkodieren von Videos. </td> 
+   <td colname="col3">Ein Array von <span class="codeph"> PropertySet</span> behandelt das Verweisen auf Videokodierungsvorgaben zum Transkodieren von Videos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateMiniaturansicht</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Wenn "true", wird der erste Frame des Videos extrahiert und als Miniaturbild verwendet. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ThumbnailOptions</span> </td> 
-   <td colname="col3">Optional. Ermöglicht die Auswahl eines bestimmten Videobilds, das als Miniaturbild verwendet werden soll. <p>Wenn Sie ein Miniaturbild angeben möchten, geben Sie die Zeit (in Millisekunden nach dem Beginn) für den zu verwendenden Frame ein. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Wenn Sie die Uhrzeit falsch angeben, <span class="codeph"> ist "Miniaturansicht</span> "standardmäßig auf "true"eingestellt. </p></p><p>Siehe <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> Miniaturoptionen</a>. </p></td> 
+   <td colname="col3">Optional. Ermöglicht die Auswahl eines bestimmten Videobilds, das als Miniaturbild verwendet werden soll. <p>Wenn Sie ein Miniaturbild angeben möchten, geben Sie die Zeit (in Millisekunden ab Beginn) für den zu verwendenden Frame ein. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Wenn Sie die Uhrzeit falsch angeben, wird <span class="codeph"> generateThumbnail</span> standardmäßig auf true gesetzt. </p></p><p>Siehe <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +64,7 @@ Syntax
 
 ## Verwendet von {#section-87cb83407198432c95eaa2db9f12f9db}
 
-Der `mediaOptions` Typ wird verwendet von:
+Der Typ `mediaOptions` wird verwendet von:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
