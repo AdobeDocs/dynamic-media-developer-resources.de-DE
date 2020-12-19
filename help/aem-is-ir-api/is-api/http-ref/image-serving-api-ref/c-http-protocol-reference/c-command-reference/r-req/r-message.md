@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
@@ -25,4 +28,4 @@ Client-Nachricht. Bietet einen Mechanismus, mit dem Clients Kurztexte in das Ser
  </tr> 
 </table>
 
-Die HTTP-Antwort kann nicht zwischengespeichert werden. Eine leere Antwort wird mit dem MIME-Typ zurückgegeben `text/plain`.
+Die HTTP-Antwort kann nicht zwischengespeichert werden. Eine leere Antwort wird mit dem MIME-Typ `text/plain` zurückgegeben.
