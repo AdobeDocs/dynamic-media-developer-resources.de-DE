@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
 
-# Variablenverarbeitung in eingebetteten Fremdanforderungen{#variable-processing-in-embedded-foreign-requests}
+# Variablenverarbeitung in eingebetteten ausländischen Anforderungen{#variable-processing-in-embedded-foreign-requests}
 
 $var$ Verweise, die an einer beliebigen Stelle innerhalb der geschweiften Klammern einer eingebetteten Fremdanforderung auftreten, werden durch übereinstimmende Variablendefinitionswerte ersetzt.
 
