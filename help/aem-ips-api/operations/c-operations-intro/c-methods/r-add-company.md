@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +21,7 @@ Fügt dem System eine Firma hinzu.
 
 Sendet den Namen der Firma, die dem System hinzugefügt werden soll, und sendet optional, ob die Firma abläuft.
 
-Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ ` *`companyInfo`*` ab, der einen Firmen-Handle und beschreibende Felder enthält. Wenn der angeforderte Firmen-Name bereits im System vorhanden ist, wird ein `ipsApiFault`zurückgegeben.
+Wenn dieser Vorgang aufgerufen wird, erhält das System den Typ ` *`companyInfo`*`, der einen Firmen-Handle und beschreibende Felder enthält. Wenn der angeforderte Firmen-Name bereits im System vorhanden ist, wird ein `ipsApiFault` ausgegeben.
 
 ## Autorisierte Benutzertypen {#section-ae926c7672984be79f6102748accab72}
 
@@ -41,7 +44,7 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ ` *`companyInfo`*` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Firmenname</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Der Name der hinzuzufügenden Firma. </p> </td> 
@@ -68,7 +71,7 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ ` *`companyInfo`*` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handhabung und Name, Stammpfad, Ablaufdatum und Uhrzeit der neuen Firma. </p> </td> 
