@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Anmerkungen zur Kompatibilität{#compatibility-notes}
+# Kompatibilitätsanweisungen{#compatibility-notes}
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
@@ -41,7 +41,7 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 
 * Gerät, das im Hochformat als Tablet erkannt wird und bei Vollbild in den Browsereinstellungen aktiviert ist.
 
-## Galaxie Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
+## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
 * Durch Tippen auf die Dublette in einem Viewer wird möglicherweise die gesamte Seite statt nur des Viewers gezoomt, wobei die Browser-seitige Skalierung aktiviert ist.
 
@@ -49,12 +49,12 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 
 * Der E-Katalog zeigt einen falschen Seitenbogen mit Ausrichtung im Hoch- und Querformat an.
 
-## HTC-Mobilgeräte {#section-dc42c80414c842e488738fc157c55b01}
+## HTC Mobile Devices {#section-dc42c80414c842e488738fc157c55b01}
 
 * Die Unmöglichkeit, natives Pinch-Zoom zu deaktivieren, ist eine &quot;Funktion&quot; des HTC UI Wrapper (HTC Sense). Diese Funktion kann dazu führen, dass die gesamte Seite mit der Geste &quot;Zum Zoomen auf Pinch-to-Zoom&quot;im Viewer gezoomt wird. Verwenden Sie stattdessen eine Dublette-Tippen-Geste.
 * Imagemap-Symbole können sich überlappen, wenn Imagemaps klein und nahe beieinander sind.
 
-## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## HTML5-Video-Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
 * `IntialBitRate` wird nur bei Software-HLS und Flash-HDS-Wiedergabe unterstützt. Es funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
 * Die progressive Wiedergabe von OGG und WebM wird nicht unterstützt.
@@ -73,7 +73,7 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 oder höher: Mit den Einstellungen für das Internet-Plug-in kann die Wiedergabe von Flash-Videos verhindert werden.
+* Safari 6.1 oder höher: Durch die Einstellungen für das Internet-Plug-in kann die Videowiedergabe im Flash verhindert werden.
 * Die Suche nach Videos mit HLS-Streaming in Safari kann inkonsistent sein.
 * Es kann nicht versucht werden, das Ende des Videos in Safari 6 mithilfe des HLS-Streaming zu suchen.
 
