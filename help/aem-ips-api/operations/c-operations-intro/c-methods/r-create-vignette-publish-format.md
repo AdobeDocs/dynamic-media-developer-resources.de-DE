@@ -52,67 +52,67 @@ Neuere Image Rendering-Serverversionen unterstützen Pyramidenvignetten, sodass 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Name zur Identifizierung des Vignettenveröffentlichungsformats. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> <p>Gibt die Zielgruppe der resultierenden Vignettenbreite in Pixel an. </p> <p>Verwenden Sie Null, damit die Ausgabevignette dieselbe Größe hat wie die primäre Vignette. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Erstellt eine zum Zoomen auf dem Image Rendering-Server optimierte Pryramidenvignette. Ausgehend von der Maximalgröße, die in den Feldern zur Bestimmung der Größe der Zielvignette festgelegt wird, werden in einer einzigen Vignettendatei Ansichten in verschiedenen Größen erstellt. Die Größe jeder weiteren Ansicht wird jedesmal halbiert, bis Höhe und Breite bei 128 x 128 Pixeln liegen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt die Breite der resultierenden Miniaturansichten in Pixel an. Diese Einstellung ist optional. Ohne Miniaturansicht als Null belassen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt das Dateiformat für die veröffentlichten Vignetten an. Bei einer neuen Version von Image Authoring und einer älteren Version des Image Rendering-Servers müssen Sie eine Vignettenversion angeben, die der ImageRendering-Server lesen kann. Wenn Sie eine höhere Version angeben, kann der Image Rendering-Server die veröffentlichten Vignetten nicht lesen. Auf null setzen, um Vignetten mit der neuesten Version zu veröffentlichen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt das Zeichen an, durch das der Vignettenname und das Suffix mit der Breite getrennt werden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt das Zeichen an, durch das der Vignettenname und das Suffix mit der Breite getrennt werden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> scharfzeichnen</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Wendet das Scharfzeichnen auf das Hauptbild der Ansicht für jede veröffentlichte Vignettengröße an. Das Scharfzeichnen kann die Weichzeichnung kompensieren, wenn die Vignetten skaliert werden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Die digitale Unschärfemaske ist eine flexible und leistungsstarke Methode, um die Schärfe zu erhöhen, besonders bei gescannten Bildern. Dadurch wird die Größenordnung jedes Überschießens gesteuert (je dunkler und hell die Kantengrenzen werden). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Beeinflusst die Größe der zu verbessernden Kanten oder die Breite der Kantenfelge, sodass ein kleineres Radium die Detailgenauigkeit der Skalierung verbessert. Höhere Radiuswerte können Halos an den Kanten verursachen. Die feinen Details benötigen einen kleineren Radius, da winzige Details derselben Größe oder kleiner als der Radius verloren gehen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Steuert die minimale Helligkeitsänderung, die scharfgezeichnet werden soll, oder wie weit die angrenzenden Tonwerte voneinander entfernt sein müssen, bevor der Filter funktioniert. Durch diese Einstellung können ausgeprägtere Kanten scharfgezeichnet werden, während subtilere Kanten unberührt bleiben. Der zulässige Bereich von 0 bis 255. </td> 
   </tr> 
