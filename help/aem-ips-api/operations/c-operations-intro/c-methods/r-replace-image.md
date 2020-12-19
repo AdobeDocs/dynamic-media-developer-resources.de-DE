@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -45,7 +48,7 @@ Syntax
 
 ## Beispiele {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Dieses Codebeispiel ersetzt ein Bild und wendet einen Befehl `urlModifier` an, der angibt, dass der Image-Server beim Ersetzen keine Aktion ausführt.
+Dieses Codebeispiel ersetzt ein Bild und wendet ein `urlModifier` durch einen Befehl an, der angibt, dass der Image-Server beim Ersetzen keine Aktion ausführt.
 
 **Anforderung**
 
