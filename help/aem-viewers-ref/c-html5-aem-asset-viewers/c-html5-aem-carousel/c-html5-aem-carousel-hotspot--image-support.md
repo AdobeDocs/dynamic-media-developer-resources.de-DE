@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +25,8 @@ Hotspots und Regionen können entweder eine Schnellfunktion auf der Hosting-Webs
 
 ## Hotspots für die schnelle Ansicht {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellere Ansicht&quot;in dynamischen Medien von AEM erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine Imagemap aktiviert, führt der Viewer den `quickViewActivate` JavaScript-Rückruf aus und übergibt den Hotspot oder die Imagemap-Daten an ihn. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite ausgelöst wird, öffnet sie ihre eigene Quick Ansicht-Implementierung.
+Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellere Ansicht&quot;in Dynamic Media AEM erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine Imagemap aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt den Hotspot oder die Imagemap-Daten an ihn. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite ausgelöst wird, öffnet sie ihre eigene Quick Ansicht-Implementierung.
 
-## Zu externer Webseite umleiten {#section-ef820c71251e4215800bb99c0c9ebe16}
+## Zu externer Webseite umleiten{#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Hotspots oder Imagemaps, die für den Aktionstyp &quot;Schnellere Ansicht&quot;in dynamischen Medien von AEM erstellt wurden, leiten den Benutzer an eine externe URL weiter. Abhängig von den beim Authoring vorgenommenen Einstellungen wird die URL in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browserfenster geöffnet.
+Hotspots oder Imagemaps, die für den Aktionstyp &quot;Quick Ansicht&quot;in Dynamic Media erstellt wurden, leiten den Benutzer AEM an eine externe URL weiter. Abhängig von den beim Authoring vorgenommenen Einstellungen wird die URL in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browserfenster geöffnet.
