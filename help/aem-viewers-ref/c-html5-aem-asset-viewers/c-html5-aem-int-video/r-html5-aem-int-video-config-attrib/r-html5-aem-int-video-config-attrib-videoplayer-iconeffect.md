@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a403d44d-d5b5-4d09-876e-39146585704f
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +25,11 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert die Anzeige des IconEffect über dem Video, wenn das Video angehalten wird. Auf einigen Geräten werden native Steuerelemente verwendet. In solchen Fällen wird der Modifikator " <span class="codeph"> iconeffect</span> "ignoriert. </p> </td> 
+   <td colname="col2"> <p> Aktiviert die Anzeige des IconEffect über dem Video, wenn das Video angehalten wird. Auf einigen Geräten werden native Steuerelemente verwendet. In solchen Fällen wird der Modifikator <span class="codeph"> iconeffect</span> ignoriert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Zähler</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie oft IconEffect maximal angezeigt und wieder angezeigt wird. Der Wert <span class="codeph"> -1</span> bedeutet, dass das Symbol unbegrenzt angezeigt wird. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie oft IconEffect maximal angezeigt und wieder angezeigt wird. Der Wert <span class="codeph"> -1</span> gibt an, dass das Symbol unbegrenzt angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> verblassen</span></span> </p> </td> 
@@ -34,7 +37,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach dem Ausblenden der Animation und vor dem Ausblenden der Beginn. Auf <span class="codeph"> 0</span> eingestellt, um das automatische Ausblenden zu deaktivieren. </p> </td> 
+   <td colname="col2"> <p> Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach dem Ausblenden der Animation und vor dem Ausblenden der Beginn. Auf <span class="codeph"> 0</span> setzen, um das automatische Ausblenden zu deaktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
