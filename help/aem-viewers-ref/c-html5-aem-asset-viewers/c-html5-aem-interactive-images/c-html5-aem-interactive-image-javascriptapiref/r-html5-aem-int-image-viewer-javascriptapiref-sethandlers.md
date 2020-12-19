@@ -21,20 +21,20 @@ JavaScript-API-Referenz für den interaktiven Bild-Viewer
 
 `setHandlers(handlers)`
 
-Gibt 0 oder mehr Callback-Handler an. Durch einen Aufruf dieser Methode werden Ereignis-Handler, die zuvor für diese Viewer-Instanz zugewiesen wurden, vollständig überschrieben. Muss vorher aufgerufen werden `init()`.
+Gibt 0 oder mehr Callback-Handler an. Durch einen Aufruf dieser Methode werden Ereignis-Handler, die zuvor für diese Viewer-Instanz zugewiesen wurden, vollständig überschrieben. Muss vor `init()` aufgerufen werden.
 
 ## Parameter {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Objekt} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen. Der Eigenschaftsname ist der Name des unterstützten Viewer-Ereignisses. Der Eigenschaftswert ist ein JavaScript-Funktionsverweis auf einen entsprechenden Rückruf. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Ereignis-Rückrufe </a> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Objekt}  </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen. Der Eigenschaftsname ist der Name des unterstützten Viewer-Ereignisses. Der Eigenschaftswert ist ein JavaScript-Funktionsverweis auf einen entsprechenden Rückruf. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Ereignis-Rückrufe </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
 
 Keine.
 
