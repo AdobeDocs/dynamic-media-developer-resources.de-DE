@@ -26,7 +26,7 @@ Der Flyout-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoo
 
 Der Viewer-Typ ist 504.
 
-Siehe [Systemanforderungen und -voraussetzungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 ## Demo-URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -40,7 +40,7 @@ Der Flyout-Viewer ist nur für die integrierte Verwendung vorgesehen, d. h. er w
 
 Konfigurationen und Skins ähneln denen anderer Viewer. Sie können benutzerdefinierte CSS verwenden, um Skins anzuwenden.
 
-Siehe [Befehlsreferenz, die allen Viewern gemein ist - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Siehe [Befehlsreferenz, die allen Viewern gemein ist - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz, die allen Viewern gemein ist - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interaktion mit dem Flyout-Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -69,11 +69,11 @@ Der Flyout-Viewer unterstützt Single-Touch- und Multi-Touch-Gesten, die in ande
  </tbody> 
 </table>
 
-Der Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
+Der Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf die Webbrowser Chrome, Internet Explorer 11 und Edge beschränkt.
 
 Auf diesen Viewer kann vollständig über die Tastatur zugegriffen werden.
 
-Siehe [Barrierefreiheit und Navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)über die Tastatur.
+Siehe [Barrierefreiheit und Navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Einbetten des Flyout-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -81,13 +81,13 @@ Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhal
 
 Der Einbettungsmodus für feste Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Option eignet sich am besten für Webseiten mit einem statischen Seitenlayout.
 
-Der responsive Design-Einbettungsmodus setzt voraus, dass die Größe des Viewers während der Laufzeit je nach Größenänderung des Containers ggf. angepasst werden muss `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Der responsive Design-Einbettungsmodus setzt voraus, dass die Größe des Viewers während der Laufzeit je nach Größenänderung des Containers `DIV` ggf. angepasst werden muss. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Wenn Sie den Einbettungsmodus für reaktionsfähige Designs mit dem Flyout-Viewer verwenden, stellen Sie sicher, dass Sie explizite Haltepunkte für das Hauptbild der Ansicht mit dem `imagereload` Parameter angeben. Im Idealfall sollten Sie Ihre Haltepunkte mit den vom CSS der Webseite diktierten BreitenHaltepunkten des Viewers abgleichen.
+Wenn Sie den Einbettungsmodus für reaktionsfähige Designs mit dem Flyout-Viewer verwenden, stellen Sie sicher, dass Sie explizite Haltepunkte für das Hauptbild der Ansicht mit dem Parameter `imagereload` angeben. Im Idealfall sollten Sie Ihre Haltepunkte mit den vom CSS der Webseite diktierten BreitenHaltepunkten des Viewers abgleichen.
 
-Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers einer Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`und dabei die Höhe unbegrenzt bleibt, wählt der Viewer die Höhe automatisch entsprechend dem Seitenverhältnis des verwendeten Assets aus. Das bedeutet, dass der Vermögenswert perfekt in die Ansicht passt, ohne dass eine seitliche Auffüllung erforderlich ist. Dieser spezielle Anwendungsfall ist der häufigste Fall für Webseiten, die reaktionsfähige Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers einer Webseite unterschiedlich. `DIV` Wenn auf der Webseite nur die Breite des Containers `DIV` festgelegt wird und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Das bedeutet, dass der Vermögenswert perfekt in die Ansicht passt, ohne dass eine seitliche Auffüllung erforderlich ist. Dieser spezielle Anwendungsfall ist der häufigste Fall für Webseiten, die reaktionsfähige Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
 
-Andernfalls füllt der Viewer, wenn die Webseite sowohl die Breite als auch die Höhe des Containers des Viewers festlegt, nur diesen Bereich `DIV`und folgt der vom Webseitenlayout bereitgestellten Größe. Ein gutes Verwendungsfallbeispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung der Größe des Webbrowser-Fensters entspricht.
+Andernfalls füllt der Viewer, wenn die Webseite sowohl die Breite als auch die Höhe des Containers des Viewers `DIV` festlegt, nur diesen Bereich und folgt der vom Webseitenlayout bereitgestellten Größe. Ein gutes Verwendungsfallbeispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung der Größe des Webbrowser-Fensters entspricht.
 
 **Einbettung fester Größe**
 
@@ -96,15 +96,15 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Containers `DIV`.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 
-   Zum Erstellen eines Viewers müssen Sie im HTML-Kopf ein Skript-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie `FlyoutViewer.js`dies berücksichtigen. `FlyoutViewer.js` befindet sich im folgenden [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Zum Erstellen eines Viewers müssen Sie im HTML-Kopf ein Skript-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie `FlyoutViewer.js` einschließen. `FlyoutViewer.js` befindet sich im folgenden  [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Scene7-Server bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Scene7-Server an, auf denen die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Scene7-Server bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem Adobe Scene7-Server an, auf dem die IS-Viewer installiert sind.
 
 Ein relativer Pfad sieht wie folgt aus:
 
@@ -114,18 +114,18 @@ Ein relativer Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Sie sollten nur auf die JavaScript- `include` Hauptdatei des Viewers auf Ihrer Seite verweisen. Sie sollten keine weiteren JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus dem `Utils.js` Kontextpfad (so genanntes konsolidiertes SDK) geladene HTML5 SDK- `/s7viewers` Bibliothek `include`. Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig durch die Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Ältere Versionen des sekundären Viewers werden von Adobe nicht `includes` auf dem Server gespeichert.
+>Sie sollten nur auf die JavaScript-Hauptdatei des Viewers `include` auf Ihrer Seite verweisen. Sie sollten keine weiteren JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Insbesondere sollten Sie nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek verweisen, die vom Viewer aus dem Kontextpfad `/s7viewers` geladen wird (so genanntes konsolidiertes SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js`- oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig durch die Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Ältere Versionen des sekundären Viewers `includes` werden von der Adobe nicht auf dem Server gespeichert.
 >
 >
->Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion durch direkte Verweise auf sekundäres JavaScript, das vom Viewer auf der Seite `include` verwendet wird, in Zukunft unterbrochen.
+>Infolgedessen wird die Viewer-Funktionalität bei der Bereitstellung einer neuen Produktversion durch die direkte Referenz auf sekundäres JavaScript `include`, das vom Viewer auf der Seite verwendet wird, in Zukunft unterbrochen.
 
 1. Definieren des Container-DIV.
 
-   Hinzufügen ein leeres DIV-Element auf die Seite, auf der der Viewer angezeigt werden soll. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird.
+   hinzufügen ein leeres DIV-Element auf die Seite, auf der der Viewer angezeigt werden soll. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h. die `position` CSS-Eigenschaft ist auf `relative` oder `absolute`eingestellt.
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `position` oder `relative` eingestellt.`absolute`
 
-   Es liegt in der Verantwortung der Webseite, das geeignete Element `z-index` für das Platzhalter-DIV-Element anzugeben. Dadurch wird sichergestellt, dass der Flyout-Bereich des Viewers über den anderen Webseitenelementen angezeigt wird.
+   Es liegt in der Verantwortung der Webseite, das richtige `z-index` für das Platzhalter-DIV-Element anzugeben. Dadurch wird sichergestellt, dass der Flyout-Bereich des Viewers über den anderen Webseitenelementen angezeigt wird.
 
    Das folgende Beispiel zeigt ein definiertes Platzhalter-DIV-Element:
 
@@ -135,11 +135,11 @@ Ein relativer Pfad sieht wie folgt aus:
 
 1. Einstellen der Viewer-Größe.
 
-   In diesem Viewer werden Miniaturansichten angezeigt, wenn Sie mit Sets mit mehreren Elementen arbeiten. Auf Desktop-Systemen werden Miniaturansichten unterhalb der Hauptversion der Ansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Hauptassets während der Laufzeit mithilfe der `setAsset()` API. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich &quot;Miniaturansichten&quot;im unteren Bereich verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die Größe des äußeren Viewers beizubehalten und die Haupthöhe der Ansicht zu erhöhen und den Bereich der Miniaturansichten zu belassen. Oder Sie können die Größe der Hauptseite statisch beibehalten und den äußeren Viewer-Bereich reduzieren, damit der Inhalt der Ansicht nach oben verschoben werden kann, und dann die freie Seitenposition verwenden, die von den Miniaturbildern übrig bleibt.
+   In diesem Viewer werden Miniaturansichten angezeigt, wenn Sie mit Sets mit mehreren Elementen arbeiten. Auf Desktop-Systemen werden Miniaturansichten unterhalb der Hauptversion der Ansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Hauptassets während der Laufzeit mit der API `setAsset()`. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich &quot;Miniaturansichten&quot;im unteren Bereich verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die Größe des äußeren Viewers beizubehalten und die Haupthöhe der Ansicht zu erhöhen und den Bereich der Miniaturansichten zu belassen. Oder Sie können die Größe der Hauptseite statisch beibehalten und den äußeren Viewer-Bereich reduzieren, damit der Inhalt der Ansicht nach oben verschoben werden kann, und dann die freie Seitenposition verwenden, die von den Miniaturbildern übrig bleibt.
 
-   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe der CSS-Klasse der `.s7flyoutviewer` obersten Ebene in absoluten Einheiten. Die Größe in CSS kann auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei korrigiert werden, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit dem Stilbefehl übergeben wird.
+   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe der CSS-Klasse der obersten Ebene in absoluten Einheiten. `.s7flyoutviewer` Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit dem Stilbefehl übergeben wird.
 
-   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Flyout-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) .
+   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Flyout-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451).
 
    Das folgende Beispiel zeigt die Definition der statischen äußeren Viewer-Größe in einer HTML-Seite:
 
@@ -154,9 +154,9 @@ Ein relativer Pfad sieht wie folgt aus:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html)
 
-   Um die Hauptdimensionen der Ansicht statisch zu machen, definieren Sie die Viewer-Größe in absoluten Maßeinheiten für die innere SDK- mithilfe des `Container` `.s7flyoutviewer .s7container` CSS-Selektors. Darüber hinaus sollten Sie die für die CSS-Klasse der `.s7flyoutviewer` obersten Ebene definierte feste Größe im Standard-Viewer-CSS außer Kraft setzen, indem Sie sie auf `auto`.
+   Um die Hauptabmessungen der Ansicht statisch zu machen, definieren Sie die Viewer-Größe in absoluten Maßeinheiten für die innere SDK-Komponente `Container` mithilfe des CSS-Selektors `.s7flyoutviewer .s7container`. Darüber hinaus sollten Sie die für die CSS-Klasse der obersten Ebene definierte feste Größe im Standard-Viewer-CSS außer Kraft setzen, indem Sie sie auf `.s7flyoutviewer` festlegen.`auto`
 
-   Im Folgenden sehen Sie ein Beispiel für die Definition der Viewer-Größe für die innere `Container` SDK-Komponente, sodass der Hauptbereich Ansicht beim Wechseln des Assets seine Größe nicht ändert:
+   Im Folgenden sehen Sie ein Beispiel für die Definition der Viewer-Größe für die innere SDK-Komponente `Container`, sodass der Hauptbereich &quot;Ansicht&quot;beim Wechseln des Assets seine Größe nicht ändert:
 
    ```
    #s7viewer.s7flyoutviewer { 
@@ -175,15 +175,15 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Beachten Sie außerdem, dass das Standard-Viewer-CSS eine feste Größe für den Außenbereich bereitstellt.
 
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der `s7viewers.FlyoutViewer` Klasse, geben Sie alle Konfigurationsinformationen an den Konstruktor weiter und rufen Sie `init()` die Methode für eine Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das `containerId` Feld verfügen, das den Namen der Viewer-Container-ID und das verschachtelte `params` JSON-Objekt mit den vom Viewer unterstützten Konfigurationsparametern enthält. In diesem Fall muss für das `params` Objekt mindestens die Image Serving-URL als `serverUrl` -Eigenschaft und das ursprüngliche Asset als `asset` -Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und Beginn erstellen.
+   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.FlyoutViewer`, geben Sie alle Konfigurationsinformationen an den Konstruktor weiter und rufen Sie die Methode `init()` für eine Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld `containerId` verfügen, das den Namen der Viewer-Container-ID und das verschachtelte `params`-JSON-Objekt mit den vom Viewer unterstützten Konfigurationsparametern enthält. In diesem Fall muss für das `params`-Objekt mindestens die Image Serving-URL als `serverUrl`-Eigenschaft und das ursprüngliche Asset als `asset`-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und Beginn erstellen.
 
-   Es ist wichtig, dass der Viewer-Container dem DOM hinzugefügt wird, damit der Viewer-Code das Container-Element anhand seiner ID finden kann. Einige Browser zögern die Erstellung von DOM bis zum Ende der Webseite. Um eine maximale Kompatibilität zu gewährleisten, rufen Sie die `init()` Methode direkt vor dem schließenden `BODY` Tag oder im Body- `onload()` Ereignis auf.
+   Es ist wichtig, dass der Viewer-Container dem DOM hinzugefügt wird, damit der Viewer-Code das Container-Element anhand seiner ID finden kann. Einige Browser zögern die Erstellung von DOM bis zum Ende der Webseite. Um eine maximale Kompatibilität zu gewährleisten, rufen Sie die `init()`-Methode direkt vor dem schließenden `BODY`-Tag oder im Body `onload()`-Ereignis auf.
 
-   Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mithilfe des ihr zugewiesenen `display:none` Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit dem `display:none`-Stil ausgeblendet werden, der ihm zugewiesen wurde. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel zum Erstellen einer Viewer-Instanz, bei der die notwendigen Mindestkonfigurationsoptionen an den Konstruktor übergeben und die `init()` Methode aufgerufen werden. Im Beispiel wird davon ausgegangen, dass `flyoutViewer` es sich um die Viewer-Instanz handelt. `s7viewer` der Name des Platzhalters `DIV`; `http://s7d1.scene7.com/is/image/` die Image Serving-URL; und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die notwendigen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()`-Methode aufruft. Das Beispiel geht davon aus, dass `flyoutViewer` die Viewer-Instanz ist. `s7viewer` ist der Name des Platzhalters `DIV`; `http://s7d1.scene7.com/is/image/` ist die Image Serving-URL; und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset:
 
    ```
    <script type="text/javascript"> 
@@ -228,7 +228,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
 ## Responsive Design-Einbettung mit unbeschränkter Höhe {#section-056cb574713c4d07be6d07cf3c598839}
 
-Bei der Integration reaktionsfähiger Designs verfügt die Webseite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers vorgibt `DIV`. Im folgenden Beispiel nehmen Sie an, dass die Webseite dem Container des Viewers erlaubt, 40 % der Fenstergröße des Webbrowsers zu verbrauchen, wobei die Höhe unbegrenzt bleibt. `DIV` Der HTML-Code der Webseite würde wie folgt aussehen:
+Bei der Integration reaktionsfähiger Designs verfügt die Webseite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Im folgenden Beispiel nehmen Sie an, dass die Webseite dem Container des Viewers `DIV` erlaubt, 40 % der Größe des Webbrowser-Fensters zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
 ```
 <!DOCTYPE html> 
@@ -251,12 +251,12 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
 1. Definieren des Containers `DIV`.
 1. Einstellen der Viewer-Größe.
-1. Erstellen und Initialisieren des Viewers
+1. Erstellen und Initialisieren des Viewers.
 
 Alle oben genannten Schritte sind mit den folgenden drei Ausnahmen identisch:
 
-* den Container `DIV` dem bestehenden &quot;Inhaber&quot; hinzufügen `DIV`;
-* Parameter mit expliziten Haltepunkten hinzugefügt `imagereload` werden;
+* den Container `DIV` zum vorhandenen &quot;Halter&quot; `DIV` hinzufügen;
+* Parameter `imagereload` mit expliziten Haltepunkten hinzugefügt;
 * anstatt eine feste Viewer-Größe mit absoluten Einheiten festzulegen, verwenden Sie CSS, das die Breite und Höhe des Viewers wie folgt auf 100 % setzt:
 
 ```
@@ -307,9 +307,9 @@ Die folgende Beispielseite zeigt die aktuelleren Einsatzmöglichkeiten von reakt
 
 <!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
-## Einbettung flexibler Größe mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
+## Einbetten flexibler Größe mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 
-Bei Einbettung in flexibler Größe mit definierter Breite und Höhe ist der Webseitenstil anders. Es bietet beide Größen für das `"holder"` DIV und zentriert es im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und des `BODY` Elements auf 100 Prozent.
+Bei Einbettung in flexibler Größe mit definierter Breite und Höhe ist der Webseitenstil anders. Es stellt beide Größen für das DIV `"holder"` bereit und zentriert es im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 Prozent.
 
 ```
 <!DOCTYPE html> 
@@ -378,9 +378,9 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## Einbetten mithilfe der Setter-basierten API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Einbetten mit Setter-basierter API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-Anstatt JSON-basierte Initialisierung zu verwenden, ist es möglich, set-basierte API- und no-args-Konstruktoren zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit `setContainerId()`-, `setParam()`- und `setAsset()` -API-Methoden mit separaten JavaScript-Aufrufen angegeben.
+Anstatt JSON-basierte Initialisierung zu verwenden, ist es möglich, set-basierte API- und no-args-Konstruktoren zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` und mit separaten JavaScript-Aufrufen angegeben.
 
 Im folgenden Beispiel wird die Einbettung in feste Größe mit setter-basierter API veranschaulicht:
 
