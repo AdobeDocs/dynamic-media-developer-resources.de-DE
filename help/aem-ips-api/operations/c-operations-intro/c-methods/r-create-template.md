@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Erstellt ein Bild mit Ebenen, das mehrere Text- und Bildebenen haben kann.
 
-Der `urlModifier` Parameter gibt die im Image-Server-Katalog gespeicherten Protokollbefehle an, die vor den vom Benutzer bereitgestellten Befehlen auf die URL angewendet wurden. Der `urlPostApplyModifier` Parameter gibt Protokollbefehle an, die nach beliebigen URL-Befehlen angewendet werden, wodurch widersprüchliche benutzerdefinierte Einstellungen außer Kraft gesetzt werden.
+Der Parameter `urlModifier` gibt die im Image-Server-Katalog gespeicherten Protokollbefehle an, die vor den vom Benutzer bereitgestellten Befehlen in der URL angewendet wurden. Der Parameter `urlPostApplyModifier` gibt Protokollbefehle an, die nach beliebigen URL-Befehlen angewendet werden. Dadurch werden widersprüchliche benutzerdefinierte Einstellungen außer Kraft gesetzt.
 
 ## Autorisierte Benutzertypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +50,7 @@ Der `urlModifier` Parameter gibt die im Image-Server-Katalog gespeicherten Proto
 
 ## Beispiele {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Dieses Codebeispiel erstellt eine Vorlage in einem Ordner, der von einem Handle mit dem Namen `APIcreateTemplate`, einem `urlModifier`und einem `urlPostApplyModifier`festgelegt wird. Die Antwort gibt den Handle an die neu erstellte Vorlage zurück.
+In diesem Codebeispiel wird eine Vorlage in einem von einem Handle angegebenen Ordner mit dem Namen `APIcreateTemplate`, `urlModifier` und `urlPostApplyModifier` erstellt. Die Antwort gibt den Handle an die neu erstellte Vorlage zurück.
 
 **Anforderung**
 
