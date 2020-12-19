@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 4%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Modifikatorzeichenfolge für die Postfix-Anforderung. Keine oder mehr Bildservierungsbefehle, durch &quot;&amp;&quot;getrennt.
 
-Befehle in diesem Feld überschreiben Befehle in der HTTP-Anforderung und in immer `catalog::Modifier`.
+Befehle in diesem Feld überschreiben Befehle in der HTTP-Anforderung und in `catalog::Modifier`.
 
-`catalog::PostModifier` ist nützlich, wenn bestimmte Bilder spezielle Einstellungen erfordern, die normalerweise über die URL gesteuert werden, z. B. `qlt=` oder `resmode=`. `catalog::Modifier` sollte zur Einstellung der meisten IS-Befehle im Bildkatalog verwendet werden.
+`catalog::PostModifier` ist nützlich, wenn bestimmte Bilder spezielle Einstellungen erfordern, die normalerweise über die URL gesteuert werden, z. B.  `qlt=` oder  `resmode=`. `catalog::Modifier` sollte zur Einstellung der meisten IS-Befehle im Bildkatalog verwendet werden.
 
-Makros sind in zulässig, `catalog::PostModifier`solange sie im selben Katalog oder im Standardkatalog definiert sind. Auch benutzerspezifische Variablen können verwendet werden.
+Makros sind in `catalog::PostModifier` zulässig, sofern sie im selben Katalog oder im Standardkatalog definiert sind. Auch benutzerspezifische Variablen können verwendet werden.
 
 >[!NOTE]
 >
->Wenn eine Anforderung mehrere Ebenen umfasst, wird nur der Inhalt `catalog::PostModifier` der Ebene 0 angewendet. `catalog::PostModifier` von allen anderen Ebenen ignoriert.
+>Wenn eine Anforderung mehrere Ebenen umfasst, wird nur der Inhalt von `catalog::PostModifier` der Ebene 0 angewendet. `catalog::PostModifier` von allen anderen Ebenen ignoriert.
 
 ## Eigenschaften {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
