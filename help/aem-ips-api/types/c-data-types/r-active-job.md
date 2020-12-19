@@ -63,7 +63,7 @@ Geben Sie einen Auftragstypwert an, um den Auftragstyp zurückzugeben. Sie könn
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Ursprünglicher Name des mit dem Auftrag gesendeten <span class="codeph"> ActiveJob</span> -Typs. </td> 
+   <td colname="col3">Ursprünglicher Name des mit dem Auftrag gesendeten Typs <span class="codeph"> ActiveJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -83,12 +83,12 @@ Geben Sie einen Auftragstypwert an, um den Auftragstyp zurückzugeben. Sie könn
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Das Gebietsschema für Auftragsprotokolldetails und E-Mail-lokale Anpassung. <p>Geben Sie Gebietsschemata als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>an, wobei der Sprachencode aus Kleinbuchstaben und aus zwei Buchstaben besteht, wie in ISO-639 angegeben, und der optionale Ländercode aus Großbuchstaben besteht, die aus zwei Buchstaben bestehen, wie in ISO-3166 angegeben. Die Zeichenfolge für Englisch (USA) lautet beispielsweise: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Das Gebietsschema für Auftragsprotokolldetails und E-Mail-lokale Anpassung. <p>Geben Sie Gebietsschemata als <span class="codeph">&lt;language_code&gt;[-&lt;country_code&gt;]</span> an, wobei der Sprachencode ein Kleinbuchstabe und ein Zweibuchstaben-Code gemäß ISO-639 ist. Der optionale Ländercode ist ein aus Großbuchstaben bestehender Zweibuchstaben-Code gemäß ISO-3166. Die Zeichenfolge für Englisch (USA) lautet beispielsweise: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Auftragsbeschreibung, die ursprünglich im <span class="codeph"> submitJob</span>angegeben wurde. </td> 
+   <td colname="col3">Auftragsbeschreibung wurde ursprünglich in <span class="codeph"> submitJob</span> angegeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
