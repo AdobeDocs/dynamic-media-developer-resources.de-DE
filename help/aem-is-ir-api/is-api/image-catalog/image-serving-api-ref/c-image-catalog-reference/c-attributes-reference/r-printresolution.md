@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 45%
 
 ---
 
@@ -22,7 +25,7 @@ Ganzzahl, größer als 0. In Punkten pro Zoll ausgedrückt.
 
 ## Standard {#section-b5d70865fe8d40229d8d91404fdf3244}
 
-Vererbt von, `default::Resolution` wenn nicht definiert oder leer.
+Vererbt von `default::Resolution`, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-54f8797a2b694d91a316f0d7414fac32}
 
