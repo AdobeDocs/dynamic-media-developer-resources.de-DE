@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 10%
 
 ---
 
@@ -21,8 +24,8 @@ Sie können den folgenden Befehl sowohl aus der URL-Abfrage als auch aus der Kon
 <table id="table_F800F787CF0342749B934DAEB600C0EB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span></span> </p> </td> 
-   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er für den HTML-Seitenspeicherort des Viewers und den Wert des Parameters <span class="codeph"> contentUrl=</span> aufgelöst. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der Parameter <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er für den HTML-Speicherort der Viewer-Seite und den Wert des Parameters <span class="codeph"> contentUrl=</span> aufgelöst. </p> </td> 
   </tr> 
  </tbody> 
 </table>
