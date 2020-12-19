@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: df669b2e-31da-4de0-b480-e54402c9545c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +24,8 @@ Konfigurationsattribut für Video Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span></span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einfaches Klicken/Tippen zum Umschalten zwischen Wiedergabe/Pause. Wenn Sie auf " <span class="codeph"> Ohne</span> "einstellen, wird das einmalige Klicken/Tippen zum Abspielen/Anhalten deaktiviert. Wenn "playPause"festgelegt ist, wird durch Klicken auf das Video zwischen dem Abspielen und Anhalten des Videos umgeschaltet <span class="codeph"></span>. Auf einigen Geräten können Sie native Steuerelemente verwenden. In einem solchen Fall ist das <span class="codeph"> Verhalten von</span> "singleclick"deaktiviert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einfaches Klicken/Tippen zum Umschalten zwischen Wiedergabe/Pause. Wenn Sie auf <span class="codeph"> none</span> festlegen, wird Single-Click/tap zum Abspielen/Anhalten deaktiviert. Wenn auf <span class="codeph"> playPause</span> festgelegt, wird durch Klicken auf das Video zwischen dem Abspielen und Anhalten des Videos umgeschaltet. Auf einigen Geräten können Sie native Steuerelemente verwenden. In diesem Fall ist das Verhalten <span class="codeph"> singleclick</span> deaktiviert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
