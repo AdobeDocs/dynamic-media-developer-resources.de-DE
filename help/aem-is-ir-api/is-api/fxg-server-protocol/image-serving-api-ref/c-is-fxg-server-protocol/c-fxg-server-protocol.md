@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 translation-type: tm+mt
 source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 86%
 
 ---
 
@@ -16,14 +19,14 @@ source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
 
 Zur Manipulation von Grafiken können Sie Referenzpunkte verwenden, die den Orientierungspunkten auf einem Kompass gleichen.
 
-Mit Referenzpunkten können Sie eine Grafik in Relation zu einem Referenzpunkt drehen, skalieren oder ihre Größe ändern. Die Referenzpunkte sind `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south`und `southeast`. Beispielsweise können Sie eine Grafik auf ihrem Mittelpunkt 45 Grad drehen, indem Sie den Referenzpunkt center verwenden. Auf der nachfolgenden Abbildung werden die Positionen der Referenzpunkte gezeigt, eine Grafik, die auf Basis des Referenzpunkts `northWest` um 20 Grad gedrehte Grafik und die auf Basis des Referenzpunkts `east` um 20 Grad gedrehte Grafik.
+Mit Referenzpunkten können Sie eine Grafik in Relation zu einem Referenzpunkt drehen, skalieren oder ihre Größe ändern. Die Referenzpunkte sind `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` und `southeast`. Beispielsweise können Sie eine Grafik auf ihrem Mittelpunkt 45 Grad drehen, indem Sie den Referenzpunkt center verwenden. Auf der nachfolgenden Abbildung werden die Positionen der Referenzpunkte gezeigt, eine Grafik, die auf Basis des Referenzpunkts `northWest` um 20 Grad gedrehte Grafik und die auf Basis des Referenzpunkts `east` um 20 Grad gedrehte Grafik.
 
 ![](assets/wp_ref_points.png)
 
 * A. Positionen von Referenzpunkten
 * B. Eine Grafik
-* C. The graphic rotated 20 degrees from its `northWest` reference point
-* D. The graphic rotated 20 degrees from its `east` reference point
+* C. Die um 20 Grad gedrehte Grafik vom `northWest`-Bezugspunkt
+* D. Die um 20 Grad gedrehte Grafik ab ihrem `east` Referenzpunkt
 
 Die Syntax lautet:
 
