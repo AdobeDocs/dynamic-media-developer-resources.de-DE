@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamisches MedienImage Production System - API
+user-guide-title: Dynamic Media Image Production System API
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
@@ -12,10 +12,10 @@ ht-degree: 3%
 ---
 
 
-# Dynamisches MedienImage Production System - API {#image-production-api}
+# Dynamic Media Image Production System API {#image-production-api}
 
-+ [Ressourcen für Entwickler von dynamischen Medien - Startseite](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Informationen zur API des dynamischen Medienproduktionssystems](c-overview.md)
++ [Dynamic Media Developer Resources - Startseite](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Informationen zur Dynamic Media Image Production System API](c-overview.md)
 + [Veraltete Aufrufe](c-deprecated-calls.md)
 + [IPS Web Service WSDL Versionen](c-wsdl-versions.md)
 + Vorgangsmethoden {#operation-methods}
@@ -400,7 +400,7 @@ ht-degree: 3%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ String-Konstanten {#sting-constants}
++ Zeichenfolgenkonstanten {#sting-constants}
    + [String-Konstanten](string-constants/c-string-constants/c-string-constants.md)
    + [Aktive Auftragszustände](string-constants/c-string-constants/r-active-job-states.md)
    + [Asset-Suchsystemfelder](string-constants/c-string-constants/r-asset-search-system-fields.md)
