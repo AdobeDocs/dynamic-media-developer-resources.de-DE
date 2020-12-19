@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
 
-# Spin view{#spin-view}
+# Rotationsset-Ansicht{#spin-view}
 
 Die Ansicht &quot;Main&quot;besteht aus dem Rotationsbild, wenn es sich bei dem aktuellen Asset um ein Rotationsset handelt.
 
@@ -35,7 +38,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat der Rotationsfarbe. </p> </td> 
   </tr> 
  </tbody> 
