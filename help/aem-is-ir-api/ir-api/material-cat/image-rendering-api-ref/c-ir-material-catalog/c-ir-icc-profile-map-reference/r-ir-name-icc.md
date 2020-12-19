@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f293ceb0-65dc-414c-8ff7-21e70f0315a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ Name des Profils-Tastaturbefehls. Ein Kurzbefehl für das Profil Farbe.
 
 ## Eigenschaften {#section-52a4b91bbfa045c49c9541444fad2027}
 
-Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die ICC-Profil-Map. Jeder `icc::Name` Wert muss innerhalb der Tabelle eindeutig sein und darf keine &quot;,&quot;-Zeichen enthalten.
+Textzeichenfolge. Erforderlich. Primär-Indexschlüssel für die ICC-Profil-Map. Jeder `icc::Name`-Wert muss innerhalb der Tabelle eindeutig sein und darf keine &quot;,&quot;-Zeichen enthalten.
 
 ## Standard {#section-9d23d9b082f541b5b29b4ff92e942942}
 
