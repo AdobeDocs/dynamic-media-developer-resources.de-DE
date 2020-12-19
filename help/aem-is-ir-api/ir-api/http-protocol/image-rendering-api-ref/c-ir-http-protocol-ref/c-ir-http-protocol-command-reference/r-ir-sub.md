@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 6%
 
 ---
 
