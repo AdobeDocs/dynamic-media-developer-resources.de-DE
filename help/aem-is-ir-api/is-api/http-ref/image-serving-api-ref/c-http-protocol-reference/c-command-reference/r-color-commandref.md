@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
@@ -20,18 +23,18 @@ Ebenenfarbe. Gibt die Vordergrundfarbe und Deckkraft von Volltonfarbe- und Effek
 
 <table id="simpletable_68645167998A42229CEF858909FD447E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Farbe </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color  </span> </span> </p> </td> 
   <td class="stentry"> <p>Farbwert Grau, RGB oder CMYK, mit oder ohne Alpha. </p> </td> 
  </tr> 
 </table>
 
-Bei Bild- und Textebenen `color=` füllt transparente und halbtransparente Bereiche innerhalb des Begrenzungsrechtecks der Ebene mit der angegebenen Farbe* vor* `rotate=` und `extend=` werden angewendet.
+Bei Bild- und Textebenen füllt `color=` transparente und halbtransparente Bereiche innerhalb des Begrenzungsrechtecks der Ebene mit der angegebenen Farbe*, bevor* `rotate=` und `extend=` angewendet werden.
 
 ## Eigenschaften {#section-d6e74c36a49547849212e4db8927e678}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für die Ebene 0, falls `layer=comp`dies der Fall ist.
+Ebenenattribut. Gilt für die aktuelle Ebene oder für die Ebene 0, wenn `layer=comp`.
 
-*`color`* im Arbeitsfarbraum vorhanden ist, der dem Pixeltyp *`color`* entspricht. *`color`* wird genau konvertiert, wenn das Ebenenbild zum Zeitpunkt der Zusammenführung einen anderen Pixeltyp aufweist.
+*`color`* im Arbeitsfarbraum vorhanden ist, der dem Pixeltyp  *`color`* entspricht. *`color`* wird genau konvertiert, wenn das Ebenenbild zum Zeitpunkt der Zusammenführung einen anderen Pixeltyp aufweist.
 
 ## Standard {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -45,4 +48,4 @@ Im folgenden Vorlagenfragment setzen wir den Texthintergrund auf eine 50%ige und
 
 ## Verwandte Themen {#section-f0e059f857b64b61ab4f23312b8dc619}
 
-[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [extended=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [Farbmanagement](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93),  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5),  [extended=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [Farbmanagement](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
