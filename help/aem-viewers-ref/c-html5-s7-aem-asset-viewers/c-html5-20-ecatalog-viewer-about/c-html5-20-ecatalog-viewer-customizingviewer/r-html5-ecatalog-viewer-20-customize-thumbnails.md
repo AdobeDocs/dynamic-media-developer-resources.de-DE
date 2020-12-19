@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 2%
 
 ---
 
@@ -35,29 +38,29 @@ Das Erscheinungsbild des Containers thumbnails wird mithilfe der folgenden CSS-K
    <td colname="col2"> <p> Der vertikale Versatz des Containers "Miniaturansichten"vom oberen Rand des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Der obere Rand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Der linke Rand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Der rechte Rand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Der untere Rand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe des Bereichs "Miniaturansichten". </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um Miniaturansichten so einzurichten, dass sie einen Abstand von 32 Pixeln von oben, einen Ränder von 5 Pixeln von links und rechts und einen Rand von 8 Pixeln von unten mit `0xDDDDDD` Hintergrund haben.
+Beispiel: Um Miniaturansichten so einzurichten, dass sie 32 Pixel von oben, 5 Pixel Ränder von links und rechts und 8 Pixel Ränder von unten mit einem Hintergrund von `0xDDDDDD` versetzen.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -83,7 +86,7 @@ Der Abstand zwischen den Miniaturbildern wird mit der folgenden CSS-Klassenauswa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche horizontale Abstand der Miniaturansichten entspricht der Summe des linken und rechten Randes, der für <span class="codeph"> .s7thumbcell festgelegt wurde </span>. Der vertikale Abstand der Miniaturansichten entspricht der Summe des oberen und unteren Randes. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche horizontale Abstand der Miniaturansichten ist gleich der Summe des linken und rechten Randes, der für <span class="codeph"> .s7thumbcell </span> festgelegt wird. Der vertikale Abstand der Miniaturansichten entspricht der Summe des oberen und unteren Randes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +124,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
    <td colname="col2"> <p>Der Rand der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe der Miniaturansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +134,7 @@ Bei Touch-Geräten kann der Viewer bei der Drehung in den Hochformat die Größe
 
 >[!NOTE]
 >
->Miniaturansicht unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere `state="selected"` entspricht dies der Miniaturansicht des Bildes, das derzeit in der Haupt-Ansicht angezeigt wird, dem Rest der Miniaturbilder `state="default"` entspricht und beim Bewegen der Maus verwendet `state="over"` wird.
+>Die Miniaturansicht unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der Miniaturansicht für das Bild, das derzeit in der Haupt-Ansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten entspricht und `state="over"` beim Bewegen der Maus verwendet wird.
 
 Beispiel: Zum Einrichten von Miniaturbildern mit einer Größe von 120 x 85 Pixel, einem weißen Hintergrund, einem hellgrauen Standardrand und einem dunkelgrauen Rahmen.
 
@@ -160,11 +163,11 @@ Die Darstellung der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +195,7 @@ Wenn mehr Miniaturansichten vorhanden sind, als vertikal in die Ansicht passen k
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Die Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
@@ -234,11 +237,11 @@ Die Bildlaufleistenspur ist der Bereich zwischen den Schaltflächen für den obe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Die Breite der Bildlaufleistenspur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe der Bildlaufleistenspur. </p> </td> 
   </tr> 
  </tbody> 
@@ -266,27 +269,27 @@ Der Bildlaufleistenminiaturbereich bewegt sich vertikal innerhalb des Bildlaufsp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Die Breite des Bildlaufleistenminiaturbilds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Miniaturansicht der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p>Die vertikale Umrandung zwischen dem oberen Rand der Bildlaufleistenspur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Die vertikale Auffüllung zwischen dem unteren Rand der Bildlaufleistenspur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Daumenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -294,7 +297,7 @@ Der Bildlaufleistenminiaturbereich bewegt sich vertikal innerhalb des Bildlaufsp
 
 >[!NOTE]
 >
->Thumb unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf die Daumenzustände `up`, `down`, `over`und `disabled`angewendet werden können.
+>Thumb unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf die Thumb-Status `up`, `down`, `over` und `disabled` angewendet werden können.
 
 Beispiel: Zum Einrichten eines Bildlaufleistenminiaturbilds mit 28 x 45 Pixeln, mit 10 Pixeln am oberen und unteren Rand und unterschiedlicher Grafik für jeden Status.
 
@@ -327,7 +330,7 @@ Die Darstellung der Schaltflächen für den oberen und unteren Bildlauf wird mit
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS `top`, `left`, `bottom`und `right` -Eigenschaften zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, die Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -338,19 +341,19 @@ Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS `top`, `left`
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Die Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Daumenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -358,9 +361,9 @@ Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS `top`, `left`
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen die `state` Attributauswahl, mit der verschiedene Skins auf die verschiedenen Schaltflächenzustände `up`, `down`, `over`und `disabled`angewendet werden können.
+>Diese Schaltflächen unterstützen die Attributauswahl `state`, mit der verschiedene Skins auf die verschiedenen Schaltflächenzustände `up`, `down`, `over` und `disabled` angewendet werden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Um Bildlaufschaltflächen einzurichten, die 28 x 32 Pixel groß sind und für jeden Status ein anderes Bildmaterial haben.
 
