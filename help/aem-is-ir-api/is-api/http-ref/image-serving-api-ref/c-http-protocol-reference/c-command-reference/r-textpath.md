@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a2f0047b-ad62-4605-a723-b43d53fbea56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 3%
 
 ---
 
@@ -25,21 +28,21 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-Weitere Informationen, einschließlich einer Beschreibung von finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) *`pathDefinition`*.
+Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d).
 
 >[!NOTE]
 >
->Im Gegensatz dazu `clipPath=`werden Textpfade nicht automatisch geschlossen, wenn &quot;z&quot;oder &quot;Z&quot;am Ende eines Unterpfads nicht angegeben ist.
+>Im Gegensatz zu `clipPath=` werden Textpfade nicht automatisch geschlossen, wenn &#39;z&#39; oder &#39;Z&#39; am Ende eines Unterpfads nicht angegeben ist.
 
 *`pathDefinition`* kann mehrere Unterpfade enthalten. Der Text wird auf den Unterpfaden in der angegebenen Reihenfolge gerendert.
 
-Mit den RTF-Befehlen `\ql`, `\qc`, `\qr`, `\li`und `\ri` können Sie den gerenderten Text entlang des Pfades positionieren.
+Die RTF-Befehle `\ql`, `\qc`, `\qr`, `\li` und `\ri` können verwendet werden, um den gerenderten Text entlang dem Pfad zu positionieren.
 
 ## Eigenschaften {#section-068137df436c46b9b55d271eb60e7285}
 
-Textebenenattribut ( `textPs=` nur). Wird von anderen Ebenen ignoriert. Gilt für `layer=0` die angegebenen Werte `layer=comp`. Wird ignoriert, wenn `textPs=` sie vorhanden sind.
+Textebenenattribut ( `textPs=` nur). Wird von anderen Ebenen ignoriert. Gilt für `layer=0`, wenn für `layer=comp` angegeben. Wird ignoriert, wenn `textPs=` vorhanden ist.
 
-Wenn eine Ebene sowohl `textPath=` als auch `textFlowPath=`eine Ebene enthält, wird ein Fehler zurückgegeben.
+Wenn eine Ebene sowohl `textPath=` als auch `textFlowPath=` enthält, wird ein Fehler zurückgegeben.
 
 ## Standard {#section-697b1f2cfc43498080a31327e6eb173d}
 
@@ -47,4 +50,4 @@ Keine, für Standard-Textwiedergabe.
 
 ## Verwandte Themen {#section-3050d8f47e1d4f5c9b474dece45ea93d}
 
-[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [Textebenen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) ,  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef),  [Textebenen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
