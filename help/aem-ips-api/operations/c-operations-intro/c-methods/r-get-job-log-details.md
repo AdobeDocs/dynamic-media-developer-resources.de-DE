@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Ruft die Details des Auftragsprotokolls einer Firma ab.
 
-Das `logMessage` Antwortfeld wird basierend auf dem `authHeader` Feld lokalisiert `locale` .
+Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` lokalisiert.
 
 ## Autorisierte Benutzertypen {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -44,49 +47,49 @@ Das `logMessage` Antwortfeld wird basierend auf dem `authHeader` Feld lokalisier
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Das Handle der Firma, zu der das Auftragsprotokoll gehört. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Ein Handle für einen aktiven oder abgeschlossenen Auftrag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Ursprünglicher Name des Auftragsprotokolls. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Eine oder mehrere Protokolltyp-Konstanten. Falls vorhanden, werden nur die angegebenen Protokolltypen zurückgegeben. Standardmäßig werden alle Protokolltypen zurückgegeben. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> recordsPerPage <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Maximale Anzahl der <span class="codeph"> DetailArray</span> -Elemente, die zurückgegeben werden sollen. Der Höchst- und Standardwert ist 1000. </td> 
+   <td colname="col4">Maximale Anzahl der zurückzugebenden <span class="codeph"> detailArray</span>-Elemente. Der Höchst- und Standardwert ist 1000. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Ergebnisseite</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Seitenzahl der zurückzugebenden <span class="codeph"> DatensätzePerPage</span>-Ergebnisse. Der Standardwert ist 1. </td> 
+   <td colname="col4">Seitenzahl der zurückzugebenden <span class="codeph"> recordsPerPage</span>-Ergebnisse. Der Standardwert ist 1. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortieren nach</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> <p>Einer der Konstantenwerte für "Auftragsdetails-Sortierfeld"(Datum oder LogType). Der Standardwert ist Datum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Sortierrichtung</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> <p>Eine der Zeichenfolgenkonstanten "Sortierrichtung". Der Standardwert ist aufsteigend. </p> </td> 
