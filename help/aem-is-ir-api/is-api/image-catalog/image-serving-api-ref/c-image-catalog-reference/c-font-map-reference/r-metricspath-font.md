@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b59110bf-330f-4ca4-8b0a-219a61d383f7
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 Dateipfad für Schriftmetriken. Pfad und Name einer Schriftartmetrikdatei, einschließlich Dateisuffix.
 
-Wird für Adobe Type 1-Schriftarten verwendet. Wenn keine Angabe gemacht wird, versucht der Server, eine Schriftartmetrikdatei im selben Ordner zu finden, in dem sich die Hauptschriftartdatei befindet. Es tritt ein Fehler auf, wenn eine erforderliche Schriftartmetrikdatei zum Rendern nicht gefunden werden kann.
+Wird für Adobe Typ 1-Schriftarten verwendet. Wenn keine Angabe gemacht wird, versucht der Server, eine Schriftartmetrikdatei im selben Ordner zu finden, in dem sich die Hauptschriftartdatei befindet. Es tritt ein Fehler auf, wenn eine erforderliche Schriftartmetrikdatei zum Rendern nicht gefunden werden kann.
 
 ## Eigenschaften {#section-955268c581574875b05253d9e14544f3}
 
-Textzeichenfolge. Optional für Adobe Type 1-Dateien. Muss leer oder ein gültiger Dateipfad für den Image-Server sein, entweder absolut oder relativ zu `attribute::RootPath`.
+Textzeichenfolge. Optional für Adobe Typ 1-Dateien. Muss leer oder ein gültiger Image-Server-Dateipfad sein, entweder absolut oder relativ zu `attribute::RootPath`.
 
 ## Standard {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 
