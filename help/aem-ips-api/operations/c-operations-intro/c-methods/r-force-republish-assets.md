@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 8%
 
 ---
 
@@ -42,25 +45,25 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Behandeln Sie die Firma mit den zurückzusetzenden Elementen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt an, dass die Dateien für das Asset erneut auf den Versand-Servern veröffentlicht werden. Die Standardeinstellung ist " <span class="codeph"> true</span>". </p> </td> 
+   <td colname="col4"> <p>Gibt an, dass die Dateien für das Asset erneut auf den Versand-Servern veröffentlicht werden. Die Standardeinstellung ist <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt an, dass die Katalogmetadaten, die für die Bereitstellung des Assets verwendet werden, synchronisiert werden, um sicherzustellen, dass sie aktuell sind. Dieser Parameter wird verwendet, um Racebedingungen zu lösen, die bei fast gleichzeitigen Aktualisierungen desselben Datensatzes auftreten können. Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Gibt an, dass die Katalogmetadaten, die für die Bereitstellung des Assets verwendet werden, synchronisiert werden, um sicherzustellen, dass sie aktuell sind. Dieser Parameter wird verwendet, um Racebedingungen zu lösen, die bei fast gleichzeitigen Aktualisierungen desselben Datensatzes auftreten können. Die Standardeinstellung ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array von Handles zu Assets, deren Veröffentlichungsstatus zurückgesetzt werden soll. </p> </td> 
@@ -81,7 +84,7 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array von Aktualisierungen des Veröffentlichungsstatus. </p> </td> 
