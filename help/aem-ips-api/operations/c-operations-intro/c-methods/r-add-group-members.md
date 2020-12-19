@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 11%
 
 ---
 
@@ -40,7 +43,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-In diesem Beispiel wird ` *`addGroupMembersParam`*` verwendet, um einer Firma einen Benutzer hinzuzufügen. Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
+In diesem Beispiel wird ` *`addGroupMembersParam`*` verwendet, um einen Benutzer einer einzelnen Firma hinzuzufügen. Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 **Anforderung**
 
