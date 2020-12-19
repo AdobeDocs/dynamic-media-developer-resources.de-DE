@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: TableOfContents.Wälzende
+seo-title: TableOfContents.bearing
 solution: Experience Manager
-title: TableOfContents.Wälzende
+title: TableOfContents.bearing
 topic: Dynamic media
 uuid: 832ebacf-d57f-4efa-ab1a-6a454f7c7a32
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 
 
-# TableOfContents.Wälzende{#tableofcontents-bearing}
+# TableOfContents.bearing{#tableofcontents-bearing}
 
 [!DNL `[TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`autoHideDelay`*]`]
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Steuert die Richtung der Darstellung des Dropdown-Bedienfelds. </p> <p>Wenn die Komponente auf <span class="codeph"> vertikal</span>angepasst wurde, verschiebt sie zunächst die Position des Bedienfelds an den unteren Rand der Schaltfläche und versucht, das Bedienfeld von der Basisposition nach rechts oder links zu rollen. Bei jedem Versuch prüft die Komponente, ob der Bereich von einem externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche nach rechts und links zu wiederholen. </p> <p>Bei Festlegung auf " <span class="codeph"> passseitig</span>"verwendet die Komponente eine ähnliche Logik, verschiebt die Basis jedoch zunächst nach rechts und versucht dabei, die Richtung nach unten und nach oben auszurollen. Dann verschiebt es die Basis nach links, versucht die Richtung nach unten und nach oben auszurollen. </p> </td> 
+   <td> <p> Steuert die Richtung der Darstellung des Dropdown-Bedienfelds. </p> <p>Bei Festlegung auf <span class="codeph"> fit-vertical</span> verschiebt die Komponente zunächst die Position des Basispanels an den unteren Rand der Schaltfläche und versucht, das Bedienfeld von der Basisposition nach rechts oder links zu verschieben. Bei jedem Versuch prüft die Komponente, ob der Bereich von einem externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche nach rechts und links zu wiederholen. </p> <p>Bei Festlegung auf <span class="codeph"> fit-lateral</span> verwendet die Komponente eine ähnliche Logik, verschiebt die Basis jedoch zunächst nach rechts und versucht dabei, die Richtung nach unten und nach oben auszurollen. Dann verschiebt es die Basis nach links, versucht die Richtung nach unten und nach oben auszurollen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
