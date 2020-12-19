@@ -9,6 +9,9 @@ topic: Dynamic media
 uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den interaktiven Bild-Viewer erfolgen durch Erstellung einer benutzerdefinierten CSS.
 
-Der empfohlene Arbeitsablauf besteht darin, die Standard-CSS-Datei für den entsprechenden Viewer zu übernehmen, sie an einen anderen Speicherort zu kopieren, sie anzupassen und den Speicherort der angepassten Datei im `style=` Befehl anzugeben.
+Der empfohlene Arbeitsablauf besteht darin, die Standard-CSS-Datei für den entsprechenden Viewer zu übernehmen, sie an einen anderen Speicherort zu kopieren, sie anzupassen und den Speicherort der angepassten Datei im Befehl `style=` anzugeben.
 
 Standard-CSS-Dateien finden Sie im folgenden Verzeichnis:
 
@@ -27,11 +30,11 @@ Die benutzerdefinierte CSS-Datei muss dieselben Klassendeklarationen wie die Sta
 
 Alternativ können Sie benutzerdefinierte CSS-Regeln bereitstellen, indem Sie eingebettete Stile direkt auf der Webseite oder in einer verknüpften externen CSS-Regel verwenden.
 
-Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer seinem Container-DOM-Element `.s7interactiveimage` Klasse zuweist. Wenn Sie eine externe CSS-Datei verwenden, die mit dem `style=` Befehl übergeben wird, verwenden Sie `.s7interactiveimage` class als übergeordnete Klasse in der untergeordneten Auswahl für Ihre CSS-Regeln. Wenn Sie eingebettete Stile auf der Webseite hinzufügen, qualifizieren Sie diesen Selektor zusätzlich mit einer ID des Container-DOM-Elements wie folgt:
+Beachten Sie beim Erstellen benutzerdefinierter CSS, dass der Viewer dem Container-DOM-Element die Klasse `.s7interactiveimage` zuweist. Wenn Sie eine externe CSS-Datei verwenden, die mit dem Befehl `style=` übergeben wird, verwenden Sie die Klasse `.s7interactiveimage` als übergeordnete Klasse in der untergeordneten Auswahl für Ihre CSS-Regeln. Wenn Sie eingebettete Stile auf der Webseite hinzufügen, qualifizieren Sie diesen Selektor zusätzlich mit einer ID des Container-DOM-Elements wie folgt:
 
 `#<containerId>.s7interactiveimage`
 
-## Responsive CSS erstellen {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Erstellen von reaktionsfähigem CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Es ist möglich, verschiedene Geräte und Einbettungsgrößen in CSS Zielgruppe, damit Ihre Inhalte je nach Benutzergerät oder Webseitenlayout unterschiedlich angezeigt werden. Dazu gehören u. a. verschiedene Layouts, die Elementgröße der Benutzeroberfläche und die Auflösung von Grafiken.
 
@@ -41,9 +44,9 @@ Der Viewer unterstützt zwei Mechanismen zum Erstellen von Responsive-Design-CSS
 
 Zur Unterstützung bei der Erstellung reaktionsfähiger CSS unterstützt der Viewer CSS-Markierungen. Hierbei handelt es sich um spezielle CSS-Klassen, die dynamisch dem Viewer-Container-Element der obersten Ebene zugewiesen werden. Sie basieren auf der Laufzeit-Viewer-Größe und dem Eingabetyp, der auf dem aktuellen Gerät verwendet wird.
 
-Die erste Gruppe von CSS-Markern enthält `.s7size_large`, `.s7size_medium`und `.s7size_small` Klassen. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Wenn der Viewer-Bereich beispielsweise gleich oder größer als die Größe eines gemeinsamen Desktop-Monitors ist, verwenden Sie `.s7size_large`ihn. Wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt, zuweisen `.s7size_medium`. Verwenden Sie für Bereiche, die mit Mobiltelefonbildschirmen vergleichbar sind, `.s7size_small`. Diese CSS-Marker dienen vor allem dazu, unterschiedliche Layouts der Benutzeroberfläche für verschiedene Bildschirme und Viewer-Größen zu erstellen.
+Die erste Gruppe von CSS-Markern enthält die Klassen `.s7size_large`, `.s7size_medium` und `.s7size_small`. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Wenn der Viewer-Bereich beispielsweise gleich oder größer als die Größe eines allgemeinen Desktop-Monitors ist, verwenden Sie `.s7size_large`. Wenn der Bereich nahe an einem gängigen Tablet-Gerät liegt, weisen Sie `.s7size_medium` zu. Verwenden Sie für Bereiche, die mit Mobiltelefonbildschirmen vergleichbar sind, `.s7size_small`. Diese CSS-Marker dienen vor allem dazu, unterschiedliche Layouts der Benutzeroberfläche für verschiedene Bildschirme und Viewer-Größen zu erstellen.
 
-Die zweite Gruppe von CSS-Markern enthält `.s7mouseinput` und `.s7touchinput`. Die CSS-Markierung `.s7touchinput` wird eingestellt, wenn das aktuelle Gerät Berührungseingaben vornehmen kann. Andernfalls `.s7mouseinput` wird verwendet. Diese Markierungen sind hauptsächlich dazu bestimmt, Benutzeroberflächeneingabeelemente mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen zu erstellen, da für gewöhnlich Touch-Eingaben größere Elemente erforderlich sind.
+Die zweite Gruppe von CSS-Markern enthält `.s7mouseinput` und `.s7touchinput`. Die CSS-Markierung `.s7touchinput` wird gesetzt, wenn das aktuelle Gerät Berührungseingaben vornehmen kann. Andernfalls wird `.s7mouseinput` verwendet. Diese Markierungen sind hauptsächlich dazu bestimmt, Benutzeroberflächeneingabeelemente mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen zu erstellen, da für gewöhnlich Touch-Eingaben größere Elemente erforderlich sind.
 
 Im folgenden CSS-Beispiel wird die Größe der Zoomschaltfläche auf Systemen mit Mauseingabe auf 28 x 28 Pixel und auf Touch-Eingabegeräten auf 56 x 56 Pixel eingestellt. Wenn die Größe des Viewers noch kleiner ist, wird er auf 20 x 20 Pixel eingestellt.
 
@@ -127,7 +130,7 @@ Es ist nicht erforderlich, die gesamte CSS des Viewers in jeder Mediendatei-Abfr
 
 ## CSS-Sprites {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Viele Elemente der Benutzeroberfläche des Viewers werden mit Bitmapgrafiken formatiert und haben mehr als einen bestimmten visuellen Status. Ein gutes Beispiel ist eine Schaltfläche mit normalerweise mindestens drei verschiedenen Status: `up`, `over`und `down`. Jeder Status erfordert eine eigene Bitmap-Grafik, die zugewiesen wird.
+Viele Elemente der Benutzeroberfläche des Viewers werden mit Bitmapgrafiken formatiert und haben mehr als einen bestimmten visuellen Status. Ein gutes Beispiel ist eine Schaltfläche mit normalerweise mindestens drei verschiedenen Status: `up`, `over` und `down`. Jeder Status erfordert eine eigene Bitmap-Grafik, die zugewiesen wird.
 
 Bei einem klassischen Stilverfahren würde das CSS für jeden Status des Elements der Benutzeroberfläche einen separaten Verweis auf die einzelne Bilddatei auf dem Server haben. Im Folgenden finden Sie ein Beispiel-CSS zum Formatieren einer Zoom-in-Schaltfläche:
 
@@ -142,7 +145,7 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 
 Der Nachteil dieses Ansatzes besteht darin, dass der Endbenutzer flackernde oder verzögerte Antworten auf die Benutzeroberfläche erfährt, wenn das Element zum ersten Mal interagiert wird. Diese Aktion tritt auf, weil die Bildgrafik für den Status des neuen Elements noch nicht heruntergeladen wurde. Dieser Ansatz kann sich außerdem geringfügig negativ auf die Leistung auswirken, da die Anzahl der HTTP-Aufrufe an den Server zunimmt.
 
-CSS-Sprites sind andere Methoden, bei denen Bildgrafiken für alle Elementzustände in einer einzigen PNG-Datei namens &quot;Sprite&quot;kombiniert werden. Ein solches &quot;Sprite&quot;hat alle visuellen Zustände für das jeweilige Element nacheinander positioniert. Beim Formatieren eines Benutzeroberflächenelements mit Sprites wird für alle verschiedenen Status im CSS auf dasselbe Sprite-Bild verwiesen. Die `background-position` Eigenschaft wird für jeden Status verwendet, um anzugeben, welcher Teil des &quot;Sprite&quot;-Bildes verwendet wird. Sie können ein &quot;Sprite&quot;-Bild auf jede geeignete Weise strukturieren. Normalerweise wird das Bild vertikal gestapelt.
+CSS-Sprites sind andere Methoden, bei denen Bildgrafiken für alle Elementzustände in einer einzigen PNG-Datei namens &quot;Sprite&quot;kombiniert werden. Ein solches &quot;Sprite&quot;hat alle visuellen Zustände für das jeweilige Element nacheinander positioniert. Beim Formatieren eines Benutzeroberflächenelements mit Sprites wird für alle verschiedenen Status im CSS auf dasselbe Sprite-Bild verwiesen. Die `background-position`-Eigenschaft wird für jeden Status verwendet, um anzugeben, welcher Teil des &quot;sprite&quot;-Bildes verwendet wird. Sie können ein &quot;Sprite&quot;-Bild auf jede geeignete Weise strukturieren. Normalerweise wird das Bild vertikal gestapelt.
 
 Im Folgenden sehen Sie ein Beispiel für die Formatierung derselben Einzoom-Schaltfläche mit einem &quot;Sprite&quot;-Attribut:
 
@@ -156,17 +159,17 @@ background-position: -0px -0px; width: 56px; height: 56px;
 }
 ```
 
-## Allgemeine Hinweise und Hinweise zur Formatierung {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Allgemeine Hinweise und Hinweise zum Stil {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Beim Anpassen der Viewer-Benutzeroberfläche mit CSS wird die Verwendung der `!IMPORTANT` Regel nicht unterstützt, um Viewer-Elemente zu formatieren. Insbesondere sollte `!IMPORTANT` keine Regel verwendet werden, um Standard- oder Laufzeitstile zu überschreiben, die vom Viewer- oder Viewer-SDK bereitgestellt werden. Der Grund dafür ist, dass es das Verhalten von richtigen Komponenten beeinflussen kann. Stattdessen sollten Sie CSS-Selektoren mit der richtigen Spezifität verwenden, um CSS-Eigenschaften festzulegen, die in diesem Viewer-Referenzhandbuch dokumentiert sind.
+* Beim Anpassen der Viewer-Benutzeroberfläche mit CSS wird die Verwendung der `!IMPORTANT`-Regel nicht unterstützt, um Viewer-Elemente zu formatieren. Insbesondere sollte die `!IMPORTANT`-Regel nicht verwendet werden, um Standard- oder Laufzeitformatierungen zu überschreiben, die vom Viewer- oder Viewer-SDK bereitgestellt werden. Der Grund dafür ist, dass es das Verhalten von richtigen Komponenten beeinflussen kann. Stattdessen sollten Sie CSS-Selektoren mit der richtigen Spezifität verwenden, um CSS-Eigenschaften festzulegen, die in diesem Viewer-Referenzhandbuch dokumentiert sind.
 * Alle Pfade zu externen Assets innerhalb von CSS werden mit dem CSS-Speicherort und nicht mit dem HTML-Seitenspeicherort des Viewers aufgelöst. Achten Sie auf diese Regel, wenn Sie die Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie entweder die Standardelemente oder aktualisieren Sie alle Pfade innerhalb der benutzerdefinierten CSS.
 * Das bevorzugte Format für Bitmapgrafiken ist PNG.
-* Bitmapgrafiken werden mithilfe der `background-image` Eigenschaft Benutzeroberflächenelementen zugewiesen.
-* Die `width` und `height` Eigenschaften eines Elements der Benutzeroberfläche definieren seine logische Größe. Die Größe der an weitergeleiteten Bitmap wirkt sich nicht auf ihre logische Größe aus. `background-image`
-* Um die hohe Pixeldichte hochauflösender Bildschirme wie Retina zu verwenden, geben Sie Bitmapgrafiken doppelt so groß wie die Elementgröße der logischen Benutzeroberfläche an. Wenden Sie dann die `-webkit-background-size:contain` Eigenschaft an, um den Hintergrund auf die Elementgröße der logischen Benutzeroberfläche herunterzuskalieren.
-* Um eine Schaltfläche aus der Benutzeroberfläche zu entfernen, fügen Sie sie `display:none` der CSS-Klasse hinzu.
-* Sie können verschiedene Formate für Farbwerte verwenden, die von CSS unterstützt werden. Wenn Sie Transparenz benötigen, verwenden Sie das Format `rgba(R,G,B,A)`. Andernfalls können Sie das Format verwenden `#RRGGBB`.
+* Bitmapgrafiken werden Benutzeroberflächenelementen mithilfe der Eigenschaft `background-image` zugewiesen.
+* Die Eigenschaften `width` und `height` eines Elements der Benutzeroberfläche definieren seine logische Größe. Die Größe der an `background-image` übergebenen Bitmap hat keine Auswirkungen auf die logische Größe.
+* Um die hohe Pixeldichte hochauflösender Bildschirme wie Retina zu verwenden, geben Sie Bitmapgrafiken doppelt so groß wie die Elementgröße der logischen Benutzeroberfläche an. Wenden Sie dann die `-webkit-background-size:contain`-Eigenschaft an, um den Hintergrund auf die Elementgröße der logischen Benutzeroberfläche herunterzuskalieren.
+* Um eine Schaltfläche aus der Benutzeroberfläche zu entfernen, fügen Sie der CSS-Klasse `display:none` hinzu.
+* Sie können verschiedene Formate für Farbwerte verwenden, die von CSS unterstützt werden. Wenn Sie Transparenz benötigen, verwenden Sie das Format `rgba(R,G,B,A)`. Andernfalls können Sie das Format `#RRGGBB` verwenden.
 
-## Allgemeine Benutzeroberflächenelemente {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Allgemeine Elemente der Benutzeroberfläche {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Nachstehend finden Sie eine Referenzdokumentation zu Elementen der Benutzeroberfläche, die für den Video-Image-Viewer gilt:
