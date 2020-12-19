@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +25,14 @@ Hiermit können Sie auf den Begrenzungsrahmen eines eingebetteten benannten Pfad
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Name des Pfads, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> ist der Name eines Pfades, der im Quellbild der Ebene eingebettet ist. Der Pfad wird nach Bedarf automatisch transformiert, um die relative Ausrichtung am Bildinhalt beizubehalten. Wenn mehr als ein <span class="codeph"><span class="varname"> Pfadname</span></span> angegeben ist, wird der Server nacheinander auf den Begrenzungsrahmen jedes Pfads zugeschnitten. Jeder <span class="codeph"><span class="varname"> Pfadname</span></span> , der im Quellbild nicht gefunden wird, wird ignoriert. </p> </td> 
+   <td colname="col2"> <p>Name des Pfads, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathNames ist der Name eines Pfads, der im Quellbild der Ebene eingebettet ist. Der Pfad wird nach Bedarf automatisch transformiert, um die relative Ausrichtung am Bildinhalt beizubehalten. Wenn mehr als ein <span class="codeph"><span class="varname"> pathName</span></span> angegeben ist, wird der Server nacheinander auf den Begrenzungsrahmen jedes Pfads gekürzt. Alle <span class="codeph"><span class="varname"> pathName</span></span>, die nicht im Quellbild gefunden wurden, werden ignoriert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das Composite-Bild, falls `layer=comp`dies der Fall ist. Von Effektebenen ignoriert.
+Ebenenattribut. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert.
 
 `cropPathE=` wird ignoriert, wenn im Quellbild der Ebene kein Pfad mit dem angegebenen Namen gefunden wird oder wenn die Ebenenquelle kein Bild ist.
 
@@ -39,4 +42,4 @@ Ohne, wenn die Ebene nicht weiter beschnitten werden soll.
 
 ## Verwandte Themen {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[beschneiden](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[beschneiden](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab),  [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
