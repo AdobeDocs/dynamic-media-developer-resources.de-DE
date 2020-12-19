@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
@@ -21,4 +24,4 @@ Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, w
 
 ## Verwandte Themen {#section-71ecb73e7cdd44f68aea67b64dc9c3ed}
 
-[E-Mail-Warnhinweissystem](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-monitoring-and-alerting-system.md#reference-4b604b5f8b014ecca89cf55d8ebb2d39), [Warnschwellenwerte](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-alert-thresholds.md#reference-a77d3f92f456419a878bf18782d38922)
+[E-Mail-Warnhinweissystem](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-monitoring-and-alerting-system.md#reference-4b604b5f8b014ecca89cf55d8ebb2d39),  [Warnschwellenwerte](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-alert-thresholds.md#reference-a77d3f92f456419a878bf18782d38922)
