@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 5%
 
 ---
 
@@ -20,9 +23,9 @@ Dezimalgröße. Breite, Höhe und Dicke eines dekalen Materialobjekts.
 
 Drei durch Kommas getrennte reale Zahlen. Darf nicht negativ sein. Legen Sie nicht verwendete Werte auf 0 fest. Nachfolgende Nullen können weggelassen werden.
 
-Geben Sie nur dann Breite und Höhe an, wenn das Bild so gestreckt werden soll, dass es an die angegebene Größe angepasst wird (das Seitenverhältnis kann sich ändern). Legen Sie entweder Breite oder Höhe fest, um das Bild proportional zu skalieren. Legen Sie Breite und Höhe auf 0 fest, um die Objektgröße `catalog::Resolution`zu bestimmen.
+Geben Sie nur dann Breite und Höhe an, wenn das Bild so gestreckt werden soll, dass es an die angegebene Größe angepasst wird (das Seitenverhältnis kann sich ändern). Legen Sie entweder Breite oder Höhe fest, um das Bild proportional zu skalieren. Legen Sie Breite und Höhe auf 0 fest, um `catalog::Resolution`die Objektgröße zu bestimmen.
 
-Geben Sie einen Dickenwert an, um dem Dekorobjekt einen Schlagschatten hinzuzufügen. Optional für dekale Materialien, die von allen anderen Materialien ignoriert werden.
+Geben Sie einen Dickenwert ein, um dem Dekorobjekt einen Schlagschatten hinzuzufügen. Optional für dekale Materialien, die von allen anderen Materialien ignoriert werden.
 
 ## Standard {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
@@ -40,7 +43,7 @@ Geben Sie einen Dickenwert an, um dem Dekorobjekt einen Schlagschatten hinzuzuf�
   <td class="stentry"> <p>Der Abstufungsgrad ist 5 Zoll breit, die Höhe wird durch das Seitenverhältnis des Bildes bestimmt und ein Schlagschatten wird basierend auf einer Stärke von 1 Zoll gerendert. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>0,0,,5 </p></td> 
   <td class="stentry"> <p>Die dekale Breite und Höhe wird durch Katalog::Resolution bestimmt und ist ½ Zoll dick. </p></td> 
  </tr> 
 </table>
