@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -40,7 +43,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-67b86d259df24938896fe19061845811}
 
-Mit diesem Codebeispiel wird der Benutzer zum Mitglied einer Gruppe. Hinzufügen einem Benutzer mehrere Gruppen mit dem Gruppen-Handle-Array.
+Mit diesem Codebeispiel wird der Benutzer zum Mitglied einer Gruppe. hinzufügen einem Benutzer mehrere Gruppen mit dem Gruppen-Handle-Array.
 
 **Anforderung**
 
