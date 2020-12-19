@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 
 # Header{#header}
 
-HTTP-Antwort-Header-Element. Optional in `<rule>` Elementen.
+HTTP-Antwort-Header-Element. Optional in `<rule>`-Elementen.
 
 ## Attribute {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;**: Erforderlich. Gibt den Namen des HTTP-Headers an.
+**`Name`= &quot;*text*&quot;** : Erforderlich. Gibt den Namen des HTTP-Headers an.
 
-**`Action`= &quot;set&quot;|`"add"`**: Optional. Der Standardwert ist`"set"`der, der alle aktuellen Kopfzeilenwerte ersetzt. Geben Sie`"add"`an, den Kopfzeilenwert durch ein Komma getrennt anzuhängen.
+**`Action`= &quot;set&quot; |`"add"`**: Optional. Der Standardwert ist `"set"`, wodurch jeder aktuelle Header-Wert ersetzt wird. Geben Sie `"add"` an, um den Kopfzeilenwert durch ein Komma zu trennen.
 
 ## Daten {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +46,6 @@ Die folgende Regel wendet einen benutzerdefinierten Header an, wenn der Header-W
 </rule>
 ```
 
-Diese Regel wird durch die folgende Anforderung ausgelöst, bei der der HTTP-Antwort-Header festgelegt wird `Edge-Control::no-store`:
+Diese Regel wird durch die folgende Anforderung ausgelöst, indem der HTTP-Antwort-Header `Edge-Control::no-store` festgelegt wird:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`
