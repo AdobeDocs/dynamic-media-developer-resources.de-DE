@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 1b552aec-837a-4df4-91dc-615ceead92b3
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 1%
 
 ---
 
 
-# Fokushervorhebung{#focus-highlight}
+# Fokusmarkierung{#focus-highlight}
 
 Die Hervorhebung des Eingabefokus, die um das Benutzeroberflächenelement des fokussierten Viewers angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 
@@ -33,7 +36,7 @@ Das Erscheinungsbild wird mit der folgenden CSS-Klassenauswahl gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Umriss </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Umriss  </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 
