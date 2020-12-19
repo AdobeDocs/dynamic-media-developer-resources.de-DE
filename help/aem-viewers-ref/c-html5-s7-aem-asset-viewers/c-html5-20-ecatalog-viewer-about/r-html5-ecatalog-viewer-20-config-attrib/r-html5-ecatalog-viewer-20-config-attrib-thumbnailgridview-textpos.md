@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1d4f2704-fce1-4d51-b5d1-b5f514ec6877
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Gibt an, wo die Beschriftung relativ zum Miniaturbild gezeichnet wird. Das heißt, die Beschriftung wird an der angegebenen Position relativ zur Miniaturansicht zentriert. </p> <p>Wenn die <span class="codeph"> QuickInfo</span> angegeben ist, wird der Beschriftungstext als schwebende QuickInfo über dem Miniaturbild angezeigt. Auf <span class="codeph"> none</span> eingestellt, um die Beschriftung zu deaktivieren. </p> </td> 
+   <td> <p> Gibt an, wo die Beschriftung relativ zum Miniaturbild gezeichnet wird. Das heißt, die Beschriftung wird an der angegebenen Position relativ zur Miniaturansicht zentriert. </p> <p>Wenn <span class="codeph"> tooltip</span> angegeben ist, wird der Beschriftungstext als schwebende QuickInfo über dem Miniaturbild angezeigt. Auf <span class="codeph"> none</span> setzen, um die Beschriftung zu deaktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
