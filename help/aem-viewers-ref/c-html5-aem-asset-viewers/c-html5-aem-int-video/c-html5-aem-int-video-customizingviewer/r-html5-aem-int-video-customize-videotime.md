@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 8cec89b9-b3e8-4c58-90d9-7ab56698e35d
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 2%
 
 ---
 
 
-# Video time{#video-time}
+# Videozeit{#video-time}
 
 Die Videozeit ist die numerische Anzeige, die die aktuelle Zeit und Dauer des gerade wiedergegebenen Videos anzeigt.
 
@@ -43,11 +46,11 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
    <td colname="col2"> <p> Die Breite der Videozeitsteuerung. Diese Eigenschaft ist erforderlich, damit Internet Explorer 8 oder höher ordnungsgemäß funktioniert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftfamilie, die für die Zeitanzeige verwendet wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftgröße, die für die Zeitanzeige verwendet wird. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +62,7 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Stellen Sie die Videozeit auf hellgrau (hexadezimal `#BBBBBB`) ein, wobei die Größe 12 Pixel beträgt, 15 Pixel von der oberen Ecke der Steuerungsleiste und 80 Pixel von der oberen und rechten Kante der Steuerleiste entfernt sind.
+Stellen Sie die Videozeit auf hellgrau (hexadezimal `#BBBBBB`) ein, wobei die Größe 12 Pixel beträgt, 15 Pixel von der oberen Ecke der Steuerungsleiste entfernt und 80 Pixel von der oberen und rechten Kante der Steuerungsleiste entfernt sind.
 
 ```
 .s7interactivevideoviewer .s7videotime { 
