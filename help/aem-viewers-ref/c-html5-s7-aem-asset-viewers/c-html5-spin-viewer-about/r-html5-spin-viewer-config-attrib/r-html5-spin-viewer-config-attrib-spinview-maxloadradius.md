@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8f475fa8-92d1-4663-bc12-1e65b76076ba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Steuert die Qualität von vorab geladenen Frames. Wenn die Einstellung auf <span class="codeph"> 1</span> Frames festgelegt ist, werden hochqualitative Frames geladen, die der Größe der Komponente entsprechen. Bei Festlegung auf <span class="codeph"> 0</span> wird nur die Kachel mit niedriger Auflösung geladen. </p> <p>Das Vorausladen in hoher Auflösung verbessert die Benutzerfreundlichkeit, insbesondere wenn die automatische Rotation aktiviert ist. Gleichzeitig wird die Beginn-Zeit verkürzt und der Netzwerkverbrauch steigt, daher sollten Sie vorsichtig sein. Wenn eine hochauflösende Vorladung verwendet wird, befinden sich die vorgeladenen Frames immer in der ursprünglichen Auflösung, in der die Komponente ursprünglich geladen wurde. </p> </td> 
+   <td colname="col2"> <p> Steuert die Qualität von vorab geladenen Frames. Bei Festlegung auf <span class="codeph"> 1</span> werden Frames in hoher Qualität geladen, die der Größe der Komponente entsprechen. Bei Festlegung auf <span class="codeph"> 0</span> wird nur die Kachel mit niedriger Auflösung geladen. </p> <p>Das Vorausladen in hoher Auflösung verbessert die Benutzerfreundlichkeit, insbesondere wenn die automatische Rotation aktiviert ist. Gleichzeitig wird die Beginn-Zeit verkürzt und der Netzwerkverbrauch steigt, daher sollten Sie vorsichtig sein. Wenn eine hochauflösende Vorladung verwendet wird, befinden sich die vorgeladenen Frames immer in der ursprünglichen Auflösung, in der die Komponente ursprünglich geladen wurde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
