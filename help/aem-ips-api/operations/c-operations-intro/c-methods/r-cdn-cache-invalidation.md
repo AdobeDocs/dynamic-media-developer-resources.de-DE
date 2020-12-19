@@ -1,6 +1,6 @@
 ---
-description: Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache mit HTTP-Antworten zu ungültigen.
-seo-description: Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache mit HTTP-Antworten zu ungültigen.
+description: Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
+seo-description: Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
 seo-title: cdnCacheInvalidation
 solution: Experience Manager
 title: cdnCacheInvalidation
@@ -8,29 +8,32 @@ topic: Scene7 Image Production System API
 uuid: 16cf53d4-4101-405c-b008-009b6ac62169
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 3%
 
 ---
 
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache mit HTTP-Antworten zu ungültigen.
+Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
 
-## cdnCacheInvalidation: Info {#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation: Über {#section-4f70d2bc79d64288b961836ab17e9690}
 
-Die CDN-Cache-Ungültigmachung zwingt dazu, alle HTTP-Anforderungen für diese URLs anhand der aktuellen veröffentlichten Daten im Scene7-Netzwerk erneut zu validieren, sobald diese Ungültigkeitserklärung über das CDN-Netzwerk verarbeitet wurde. Alle URLs, die nicht mit der Scene7-Dienst-URL-Struktur verbunden sind und die beim Erstellen der Firma zugewiesene Stamm-ID der Scene7-Firma direkt abgleichen, führen zu einem API-Fehler für die gesamte Anforderung. Ungültige URLs, die vom CDN nicht unterstützt werden und für ungültig gehalten werden, führen auch zu einem API-Fehler für die gesamte Anforderung.
+Die CDN-Cache-Ungültigmachung zwingt dazu, dass alle HTTP-Anforderungen für diese URLs anhand der aktuellen veröffentlichten Daten im Scene7-Netzwerk erneut überprüft werden, sobald diese Ungültigmachung über das CDN-Netzwerk verarbeitet wird. Alle URLs, die nicht mit der URL-Struktur des Scene7-Dienstes verbunden sind und direkt mit der beim Erstellen der Firma zugewiesenen Scene7-Firma-Stamm-ID übereinstimmen, führen zu einem API-Fehler für die gesamte Anforderung. Ungültige URLs, die vom CDN nicht unterstützt werden und für ungültig gehalten werden, führen auch zu einem API-Fehler für die gesamte Anforderung.
 
 **Häufigkeit der Anwendung: Regeln**
 
-Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Scene7 gesteuert. Das CDN behält sich das Ermessen vor, die Reaktion auf diese Ungültigkeiten zu mindern, um eine optimale Leistung seines Dienstes für seine Nutzer zu gewährleisten. Sollte Scene7 über eine Übernutzung dieser Funktion benachrichtigt werden, müssen wir die Funktion entweder pro Firma oder vollständig im gesamten Dienst deaktivieren.
+Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Scene7 kontrolliert. Das CDN behält sich das Ermessen vor, die Reaktion auf diese Ungültigkeiten zu mindern, um eine optimale Leistung seines Dienstes für seine Nutzer zu gewährleisten. Sollte Scene7 über eine Übernutzung dieser Funktion informiert werden, müssen wir entweder die Funktion pro Firma oder vollständig im gesamten Service deaktivieren.
 
 **Bestätigungs-E-Mails**
 
-Bestätigungs-E-Mails des Scene7-CDN-Partners können an den Ersteller der Liste oder bis zu fünf weitere E-Mail-Adressen gesendet werden. Die API sendet die Bestätigung, wenn das gesamte CDN-Netzwerk benachrichtigt wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein einzelner Aufruf an `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der bereitgestellten URLs die Anzahl übersteigt, die Scene7 dem CDN-Partner in einer einzigen Benachrichtigung senden kann. Derzeit würde dies der Fall sein, wenn die Anforderung 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
+Bestätigungs-E-Mails des Scene7 CDN-Partners können an den Ersteller der Liste oder bis zu 5 weitere E-Mail-Adressen gesendet werden. Die API sendet die Bestätigung, wenn das gesamte CDN-Netzwerk benachrichtigt wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein einzelner Aufruf von `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der bereitgestellten URLs die Anzahl übersteigt, die Scene7 dem CDN-Partner bei einer einzigen Benachrichtigung zukommen lassen kann. Derzeit würde dies der Fall sein, wenn die Anforderung 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
 
 **Unterstützt seit**
 
-6.0
+6,0
 
 ## Autorisierte Benutzertypen {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -39,7 +42,7 @@ Bestätigungs-E-Mails des Scene7-CDN-Partners können an den Ersteller der Liste
 
 ## Parameter {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Eingabe** ( `cdnCacheInvalidationParam`)
+**Eingabe** (  `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -52,21 +55,21 @@ Bestätigungs-E-Mails des Scene7-CDN-Partners können an den Ersteller der Liste
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> Ja </p> </td> 
    <td> <p> Das Handle der Firma, die mit den zu ungültigen URLs verbunden ist. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> urlArray</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> Typen:UrlArray</span> </p> </td> 
    <td> <p> Ja </p> </td> 
-   <td> <p> Liste von bis zu 1000 URLs, die aus dem CDN-Cache ungültig gemacht werden. Alle URLS müssen die Stamm-ID der Scene7-Firma enthalten, damit sie ungültig wird. </p> </td> 
+   <td> <p> Liste von bis zu 1000 URLs, die aus dem CDN-Cache ungültig gemacht werden. Alle URLS müssen die Scene7-Firma-Stamm-ID enthalten, damit sie ungültig wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output**( `cdnCacheInvalidationReturn`)
+**Output**(  `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
@@ -82,7 +85,7 @@ Bestätigungs-E-Mails des Scene7-CDN-Partners können an den Ersteller der Liste
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Ein Handle, das auf die Bereinigungsanforderung verweist. </p> <p>Die <span class="codeph"> cdnCacheInvalidation</span> -API macht den Cache jetzt fast sofort ungültig (~5 Sekunden). Daher ist die Abfrage des Status der Ungültigerklärung im Allgemeinen nicht mehr erforderlich. </p> 
+   <td colname="col4"> <p>Ein Handle, das auf die Bereinigungsanforderung verweist. </p> <p>Die API <span class="codeph"> cdnCacheInvalidation</span> macht den Cache jetzt fast sofort ungültig (~5 Sekunden). Daher ist die Abfrage des Status der Ungültigerklärung im Allgemeinen nicht mehr erforderlich. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
