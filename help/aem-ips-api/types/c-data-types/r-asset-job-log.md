@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 5%
 
 ---
 
@@ -30,37 +33,37 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Auftragsbearbeitung </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Auftragsname. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Meldung im Auftragsprotokoll. <p><span class="codeph"> Das Antwortfeld logMessage</span> wird basierend auf dem <span class="codeph"> Gebietsschema-Feld authHeader</span> lokalisiert. </p></td> 
+   <td colname="col3">Meldung im Auftragsprotokoll. <p><span class="codeph"> Das Feld </span> logMessageresponse wird basierend auf dem Feld  <span class="codeph"> </span> authHeaderlocale lokalisiert. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Auftragstyp im Protokolleintrag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> E-Mail des Benutzers, der den Auftrag gesendet hat. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Auftragsdatum. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:JobLogDetailArray</span> </td> 
    <td colname="col3"> Array von Hilfsauftragsprotokollmeldungen für jedes Auftragsprotokoll. </td> 
   </tr> 
