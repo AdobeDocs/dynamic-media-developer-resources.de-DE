@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
@@ -44,15 +47,15 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Es ist entweder <span class="codeph"> das UnternehmenHandle <span class="varname"></span> oder </span> der <span class="codeph"> Unternehmensname <span class="varname"> erforderlich</span> </span> . </p> </td> 
+   <td colname="col3"> <p>Es ist entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> erforderlich. </p> </td> 
    <td colname="col4"> <p>Der Griff der Firma, deren Informationen Sie abrufen möchten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Firmenname</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Es ist entweder <span class="codeph"> das UnternehmenHandle <span class="varname"></span> oder </span> der <span class="codeph"> Unternehmensname <span class="varname"> erforderlich</span> </span> . </p> </td> 
+   <td colname="col3"> <p>Es ist entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> erforderlich. </p> </td> 
    <td colname="col4"> <p>Der Name der Firma, deren Informationen Sie abrufen möchten. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +74,7 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:Firma</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handhabung und andere beschreibende Informationen zur Firma. </p> </td> 
