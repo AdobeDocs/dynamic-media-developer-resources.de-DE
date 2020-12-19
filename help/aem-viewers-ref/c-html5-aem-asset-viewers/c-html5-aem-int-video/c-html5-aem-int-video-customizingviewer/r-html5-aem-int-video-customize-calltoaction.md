@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ Das Aktionsaufruf-Bedienfeld wird nach dem Ende des Videos angezeigt und zeigt a
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Das Bedienfeld besteht aus einem Kopfzeilenbereich, der den Videotitel, eine Wiederholungsschaltfläche in der oberen rechten Ecke und tatsächliche interaktive Muster, die als durchlaufbares Raster angezeigt werden, anzeigt. Sie können das Bedienfeld mit dem [Konfigurationsattribut callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) deaktivieren.
+Das Bedienfeld besteht aus einem Kopfzeilenbereich, der den Videotitel, eine Wiederholungsschaltfläche in der oberen rechten Ecke und tatsächliche interaktive Muster, die als durchlaufbares Raster angezeigt werden, anzeigt. Sie können das Bedienfeld mit dem Konfigurationsattribut [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) deaktivieren.
 
 Der Aktionsaufruf-Bereich nimmt immer den gesamten verfügbaren Viewer-Bereich ein.
 
@@ -35,7 +38,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Hintergrundfar
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe des Aktionsaufrufs. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,12 +62,12 @@ Der folgende CSS-Klassenselektor steuert das Aussehen der Kopfzeile im Aktionsau
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## CSS-Eigenschaften der Kopfzeile des Aktionsbedienfelds {#css-properties-of-the-call-to-action-panel-header}
+## CSS-Eigenschaften des Aktionsbedienfeld-Headers {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Kopfzeile. </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +75,7 @@ Der folgende CSS-Klassenselektor steuert das Aussehen der Kopfzeile im Aktionsau
    <td colname="col2"> <p>Höhe der Kopfzeile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Unterer Rand der Kopfzeile. </p> </td> 
   </tr> 
  </tbody> 
@@ -107,27 +110,27 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Kopfzeiltitels
    <td colname="col2"> <p> Textfarbe im Banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Zeilenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Ausrichtung des Texts im Banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
    <td colname="col2"> <p>Auffüllung links. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-right  </span> </p> </td> 
    <td colname="col2"> <p> Rechte Auffüllung, um Platz für die Schaltfläche "Wiedergabe"zu schaffen. </p> </td> 
   </tr> 
  </tbody> 
@@ -171,15 +174,15 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Position innerhalb des Grafik-Sprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -187,7 +190,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
 ## Beispiel {#example-3}
 
@@ -231,7 +234,7 @@ Mit dem folgenden CSS-Klassenselektor wird das Erscheinungsbild der Ansicht des 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Miniaturansichtsbereichs. </p> </td> 
   </tr> 
  </tbody> 
@@ -261,7 +264,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Thumb-Zelle im
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Größe des horizontalen und vertikalen Randes um die einzelnen Miniaturansichten. </p> <p>Der tatsächliche horizontale Abstand der Miniaturansichten entspricht der Summe des linken und rechten Randes, der für <span class="codeph"> .s7thumbcell festgelegt wurde </span>. Dieselbe Regel gilt auch für den vertikalen Abstand. </p> </td> 
+   <td colname="col2"> <p> Größe des horizontalen und vertikalen Randes um die einzelnen Miniaturansichten. </p> <p>Der tatsächliche horizontale Abstand der Miniaturansichten entspricht der Summe des linken und rechten Randes, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. Dieselbe Regel gilt auch für den vertikalen Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,11 +295,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
@@ -308,7 +311,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 
 >[!NOTE]
 >
->Miniaturansicht unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. entspricht insbesondere `state="selected"` der Miniaturansicht des derzeit ausgewählten Bildes; entspricht `state="default"` dem Rest der Miniaturansichten; wird `state="over"` beim Bewegen der Maus verwendet.
+>Die Miniaturansicht unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der Miniaturansicht für das derzeit ausgewählte Bild. `state="default"` entspricht dem Rest der Miniaturansichten; `state="over"` wird beim Bewegen der Maus verwendet.
 
 ## Beispiel {#example-6}
 
@@ -334,19 +337,19 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Textfarbe der Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Ausrichtung der Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
  </tbody> 
@@ -380,7 +383,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Bildlaufleiste
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
@@ -426,11 +429,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Bildlaufleiste
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Leiste. </p> </td> 
   </tr> 
  </tbody> 
@@ -462,35 +465,35 @@ Der folgende CSS-Klassenselektor steuert das Aussehen der Thumb-Höhe und andere
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breite des Daumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe des Daumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Umrandung zwischen der Oberkante der Spur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Umrandung zwischen dem unteren Ende der Leiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Rahmenradius. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Farbe des Daumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bild, das für einen bestimmten Daumenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -498,7 +501,7 @@ Der folgende CSS-Klassenselektor steuert das Aussehen der Thumb-Höhe und andere
 
 >[!NOTE]
 >
->Thumb unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf die folgenden verschiedenen Thumb-Status angewendet werden können: `"up"`, `"down"`, `"over"`und `"disabled"`.
+>Thumb unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf die folgenden verschiedenen Thumb-Status angewendet werden können: `"up"`, `"down"`, `"over"` und `"disabled"`.
 
 ## Beispiel {#example-10}
 
@@ -531,19 +534,19 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften top
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -551,9 +554,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften top
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen die `state` Attributauswahl, mit der verschiedene Skins auf die folgenden verschiedenen Thumb-Status angewendet werden können: `"up"`, `"down"`, `"over"`und `"disabled"`.
+>Diese Schaltflächen unterstützen die Attributauswahl `state`, mit der verschiedene Skins auf die folgenden verschiedenen Thumb-Status angewendet werden können: `"up"`, `"down"`, `"over"` und `"disabled"`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokale Anpassung der Elemente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)der Benutzeroberfläche.
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#example-11}
 
