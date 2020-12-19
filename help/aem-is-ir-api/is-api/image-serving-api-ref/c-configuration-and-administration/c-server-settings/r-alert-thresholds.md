@@ -33,13 +33,13 @@ Eine Fehlerwarnung wird ausgegeben, wenn das Verhältnis der HTTP-Fehlerantworte
 
 Der reale Wert liegt zwischen 0,0 und 1,0. Normalerweise zwischen 0,005 und 0,1. Auf 1 setzen, um Fehlerwarnungen zu deaktivieren.
 
-## AS::monitorAlertGenerator.minRequestRate - Schwellenwert für niedrigen Traffic {#section-8dfb89ed138640fd86f5ce1dae2a533e}
+## AS::monitorAlertGenerator.minRequestRate - Low Traffic Threshold {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
-Eine minimale Traffic-Warnung wird gesendet, wenn die durchschnittliche Anzahl der während des aktuellen Stichprobenintervalls eingegangenen Anfragen pro Sekunde unter diesen Schwellenwert fällt. Deaktivieren Sie die Warnung, indem Sie diesen Wert auf 0 setzen. In Anforderungen pro Sekunde ausgedrückt. Real value 0 or large.
+Eine minimale Traffic-Warnung wird gesendet, wenn die durchschnittliche Anzahl der während des aktuellen Stichprobenintervalls eingegangenen Anfragen pro Sekunde unter diesen Schwellenwert fällt. Deaktivieren Sie die Warnung, indem Sie diesen Wert auf 0 setzen. In Anforderungen pro Sekunde ausgedrückt. Realer Wert 0 oder größer.
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Threshold {#section-ce6705045f6842769030ccb1894594cc}
 
-Gibt den minimalen freien Java-Heap-Speicherplatz an. Unmittelbar nach einem Java-Garbage Collection-Zyklus wird eine Warnung mit Priorität gesendet, wenn der freie Heap-Speicher unter diesem Schwellenwert liegt. 50 MB werden für den sicheren Betrieb des Platform-Servers empfohlen. Durch die Beibehaltung des freien Heap-Speichers über diesem Wert wird die Häufigkeit von Garbage Collection-Zyklen reduziert, was die Serverleistung insgesamt verbessern kann. Ganzzahlwert in Byte, 0 oder größer.
+Gibt den minimalen freien Java-Heap-Speicherplatz an. Unmittelbar nach einem Java-Garbage Collection-Zyklus wird eine Warnung mit Priorität gesendet, wenn der freie Heap-Speicher unter diesem Schwellenwert liegt. 50 MB werden für den sicheren Betrieb des Plattformservers empfohlen. Durch die Beibehaltung des freien Heap-Speichers über diesem Wert wird die Häufigkeit von Garbage Collection-Zyklen reduziert, was die Serverleistung insgesamt verbessern kann. Ganzzahlwert in Byte, 0 oder größer.
 
 ## AS::monitorAlertGenerator.maxOverlap - Maximale Anzahl gleichzeitiger Anfragen {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
