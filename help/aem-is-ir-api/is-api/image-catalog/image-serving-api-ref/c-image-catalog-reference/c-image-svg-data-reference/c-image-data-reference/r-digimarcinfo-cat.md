@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
 
 ` *``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`type`*` aktiviert die Digimarc-Einbettung und gibt den Wasserzeichentyp an:
+` *``*` typeenable Digimarc embedding and specify the watermark type:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -55,12 +58,12 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
  </tbody> 
 </table>
 
-` *`Flags`*` ist ein Bitfeld mit drei Werten. Setzen Sie Bit 0 auf den Hinweis kopiergeschützter Inhalte, Bit 1 auf eingeschränkten Inhalt und Bit 2 auf erwachsenen Inhalt:
+` *`Ein `*` Bitfeld mit drei Werten wird markiert. Setzen Sie Bit 0 auf den Hinweis kopiergeschützter Inhalte, Bit 1 auf eingeschränkten Inhalt und Bit 2 auf erwachsenen Inhalt:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> Flags</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> Flags</span> </span> </p> </th> 
    <th class="entry"> <p><b>Beschreibung</b> </p> </th> 
   </tr> 
  </thead>
@@ -70,7 +73,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Kopiergeschützt. </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +103,14 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
  </tbody> 
 </table>
 
-Die Interpretation von ` *`val1`*` und ` *`val2`*` hängt vom ` *`Typ`*`ab:
+Die Interpretation von ` *`val1`*` und ` *`val2`*` hängt von ` *`type`*` ab:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -117,7 +120,7 @@ Die Interpretation von ` *`val1`*` und ` *`val2`*` hängt vom ` *`Typ`*`ab:
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Nicht verwendet. </p> </td> 
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
@@ -127,7 +130,7 @@ Die Interpretation von ` *`val1`*` und ` *`val2`*` hängt vom ` *`Typ`*`ab:
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Transaktions-ID. </p> </td> 
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
@@ -157,4 +160,4 @@ Von Attribut übernommen::DigimarcInfo, wenn das Feld nicht vorhanden oder leer 
 
 ## Verwandte Themen {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
