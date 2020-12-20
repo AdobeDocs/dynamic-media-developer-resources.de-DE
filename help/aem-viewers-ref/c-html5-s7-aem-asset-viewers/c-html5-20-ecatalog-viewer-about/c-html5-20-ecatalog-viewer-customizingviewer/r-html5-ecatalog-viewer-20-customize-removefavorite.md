@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
 
-# Schaltfläche &quot;Favorit entfernen&quot;{#remove-favorite-button}
+# Schaltfläche &quot;Favoriten entfernen&quot;{#remove-favorite-button}
 
 Die Position der Schaltfläche &quot;Favoriten entfernen&quot;wird vollständig über das Menü &quot;Favoriten&quot;verwaltet.
 
@@ -29,11 +32,11 @@ Die Darstellung der Schaltfläche &quot;Favorite entfernen&quot;wird mit der fol
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -49,9 +52,9 @@ Die Darstellung der Schaltfläche &quot;Favorite entfernen&quot;wird mit der fol
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die `state` als auch die `selected` Attributselektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Dies `selected='true'` entspricht insbesondere dem Status, in dem ein Benutzer durch Klicken oder Tippen ein neues Favoritensymbol hinzufügen kann. `selected='false'` entspricht dem normalen Betriebsmodus, wenn ein Benutzer Seiten heranzoomen, schwenken und austauschen kann.
+>Diese Schaltfläche unterstützt sowohl die Attributselektoren `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status, in dem ein Benutzer durch Klicken oder Tippen ein neues Favoritensymbol hinzufügen kann. `selected='false'` entspricht dem normalen Betriebsmodus, wenn ein Benutzer Seiten heranzoomen, schwenken und austauschen kann.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) der Benutzeroberfläche.
+Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Um eine Schaltfläche &quot;Favoriten entfernen&quot;einzurichten, die 28 x 28 Pixel groß ist und für jeden der vier Schaltflächenzustände ein anderes Bild anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind.
 
