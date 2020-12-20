@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 10%
 
 ---
 
@@ -35,7 +38,7 @@ Syntax
 | ` *`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
 | ` *`name`*` | `xsd:string` | Ja | Asset-Name. |
 | ` *`type`*` | `xsd:string` | Ja | Der Asset-Typ, auf den Sie die Viewer-Konfiguration anwenden möchten. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Das Array der auf das Asset `ConfigSettings` angewendeten Variablen. |
+| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Das Array von `ConfigSettings`, das auf das Asset angewendet wird. |
 
 **Output (setViewerConfigSettingsParam)**
 
