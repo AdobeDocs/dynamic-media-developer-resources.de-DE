@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
 translation-type: tm+mt
 source-git-commit: 93c8d3016b21b0ea5689d79115588f13e702cf9f
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
 
-# Image_SVG-Daten{#image-svg-data}
+# Image_SVG data{#image-svg-data}
 
 Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
 
-## Catalog management {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
+## Katalogverwaltung {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 
 <table id="table_823F89CAD494441690D28F18005F774C"> 
  <tbody> 
@@ -27,7 +30,7 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
  </tbody> 
 </table>
 
-## Request attributes {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
+## Anforderungsattribute {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
 
 <table id="table_C070C676835F49918E1B3BBF81471B09"> 
  <tbody> 
@@ -40,21 +43,21 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
    <td colname="col2"> <p>Cache-Ablauf (Time-to-Live) für Antwortbilder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modifikator</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modifikator</a> </span> </p> </td> 
    <td colname="col2"> <p>Modifikatoren für Präfix-Anforderungen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a> </span> </p> </td> 
    <td colname="col2"> <p>Modifikatoren für Postfix-Anforderungen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> Zeitstempel</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p> </td> 
    <td colname="col2"> <p>Zeitstempel der Dateiänderung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Image attributes {#section-74c4d124255d4218ade87d7d1677c76d}
+## Bildattribute {#section-74c4d124255d4218ade87d7d1677c76d}
 
 <table id="table_F2A33C2EB17A4EACB00DDEF7FB1BB0D4"> 
  <tbody> 
@@ -71,11 +74,11 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
    <td colname="col2"> <p>Bild-/SVG-Dateipfad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> Druckauflösung</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> PrintResolution</a></span> </p> </td> 
    <td colname="col2"> <p>Druckauflösung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> Entschließung</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> Auflösung</a></span> </p> </td> 
    <td colname="col2"> <p>Objektauflösung. </p> </td> 
   </tr> 
   <tr> 
@@ -100,16 +103,16 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
  </tbody> 
 </table>
 
-## Zusätzliche Daten {#section-bff4e1f9af9d45f1872abac3b414a629}
+## Hilfedaten {#section-bff4e1f9af9d45f1872abac3b414a629}
 
 <table id="table_B6A9A702F533494E85CEC1AD42EC728A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Asset- <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-assettype-cat.md" type="reference" format="dita" scope="local"> Typ</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-assettype-cat.md" type="reference" format="dita" scope="local"> AssetType</a></span> </p> </td> 
    <td colname="col2"> <p>Asset-Typ. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> Bildsatz</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> ImageSet</a></span> </p> </td> 
    <td colname="col2"> <p>Bildsatzdaten. </p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +124,7 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
    <td colname="col2"> <p>Daten zur Zoom-Zielgruppe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> Benutzerdaten</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p> </td> 
    <td colname="col2"> <p>Benutzerdefinierte Daten. </p> </td> 
   </tr> 
  </tbody> 
