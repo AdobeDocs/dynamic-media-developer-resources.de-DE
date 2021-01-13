@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Ereignis-Rückrufe
+description: Ereignis-Rückrufe
 solution: Experience Manager
 title: Ereignis-Rückrufe
 topic: Dynamic media
 uuid: b9252d4b-cff1-42eb-9e56-553091f854b5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -23,8 +21,8 @@ Callback-Handler werden zugewiesen, indem Ereignis und entsprechende Handler-Fun
 
 Folgende Viewer-Ereignis werden unterstützt:
 
-* `initComplete` - wird ausgelöst, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
-* `trackEvent` - löst jedes Mal aus, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
+* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
+* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 
    * `objID {String}` nicht verwendet.
    * `compClass {String}` nicht verwendet.
@@ -32,7 +30,7 @@ Folgende Viewer-Ereignis werden unterstützt:
    * `timeStamp {Number}` Zeitstempel des Ereignisses.
    * `eventInfo {String}` ereignis-Nutzlast.
 
-* `quickViewActivate` - wird ausgelöst, wenn ein Benutzer auf ein interaktives Farbfeld innerhalb der Komponente für interaktive Farbfelder oder im Bildschirm &quot;Aktionsaufruf&quot;am Ende der Videowiedergabe klickt oder tippt. Der Callback-Handler akzeptiert das einzige Argument, bei dem es sich um ein JSON-Objekt mit den folgenden Feldern handelt:
+* `quickViewActivate` - Trigger, wenn ein Benutzer auf ein interaktives Farbfeld innerhalb der Komponente für interaktive Farbfelder oder im Bildschirm &quot;Aktionsaufruf&quot;klickt oder tippt, der am Ende der Videowiedergabe angezeigt wird. Der Callback-Handler akzeptiert das einzige Argument, bei dem es sich um ein JSON-Objekt mit den folgenden Feldern handelt:
 
    * `sku` {  `String`} SKU-Wert, der mit dem interaktiven Muster verknüpft ist.
    * `<additionalVariable>` {  `String`} Null oder mehr zusätzliche Variablen, die mit dem interaktiven Muster verknüpft sind.
