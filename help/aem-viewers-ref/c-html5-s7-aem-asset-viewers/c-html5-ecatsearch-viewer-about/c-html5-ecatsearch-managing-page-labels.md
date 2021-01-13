@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Verwalten von Seitenbeschriftungen
+description: Verwalten von Seitenbeschriftungen
 solution: Experience Manager
 title: Verwalten von Seitenbeschriftungen
 topic: Dynamic media
 uuid: 49444fe6-ef34-4e5b-a293-e23830a67b4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
