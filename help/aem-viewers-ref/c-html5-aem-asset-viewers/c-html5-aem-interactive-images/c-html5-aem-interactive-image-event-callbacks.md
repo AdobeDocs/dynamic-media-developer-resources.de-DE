@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Ereignis-Rückrufe
+description: Ereignis-Rückrufe
 solution: Experience Manager
 title: Ereignis-Rückrufe
 topic: Dynamic media
 uuid: 4a3dc8d7-2eb3-4244-849b-01d1314e43f2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 2%
+source-wordcount: '213'
+ht-degree: 1%
 
 ---
 
@@ -33,11 +31,11 @@ Folgende Viewer-Ereignis werden unterstützt:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> initComplete  </span> </p> </td> 
-   <td colname="col2"> <p>Wird ausgelöst, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die API <span class="codeph"> getComponent() </span> verwendet werden kann. Der Callback-Handler nimmt keine Argumente an. </p> </td> 
+   <td colname="col2"> <p>Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die API <span class="codeph"> getComponent() </span> verwendet werden kann. Der Callback-Handler nimmt keine Argumente an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trackEvent </span> </p> </td> 
-   <td colname="col2"> <p> Wird jedes Mal ausgelöst, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Verfolgungssystem wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente: </p> <p> 
+   <td colname="col2"> <p> Jedes Mal, wenn ein Ereignis im Viewer auftritt, wird der Trigger von einem Ereignis-Verfolgungssystem wie Adobe Analytics verarbeitet. Der Callback-Handler akzeptiert die folgenden Argumente: </p> <p> 
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
       <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String}  </span> - aktuell nicht verwendet. </p> </li> 
       <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String}  </span> - aktuell nicht verwendet. </p> </li> 
@@ -48,7 +46,7 @@ Folgende Viewer-Ereignis werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> Wird ausgelöst, wenn der Benutzer einen Hotspot mit zugehörigen Quick-Ansicht-Daten aktiviert. Der Callback-Handler akzeptiert das folgende Argument: </p> <p> 
+   <td colname="col2"> <p> Trigger, wenn der Benutzer einen Hotspot mit zugehörigen Quick Ansicht-Daten aktiviert. Der Callback-Handler akzeptiert das folgende Argument: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object}  </span> - ein JSON-Objekt, das Daten aus der Hotspot-Definition enthält. Das Feld <span class="codeph"> sku </span> ist obligatorisch, während andere Felder optional sind und von der Source Hotspot-Definition abhängen. </p> </li> 
      </ul> </p> </td> 
