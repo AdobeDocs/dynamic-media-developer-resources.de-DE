@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Hotspot- und Imagemaps-Unterstützung
+description: Hotspot- und Imagemaps-Unterstützung
 solution: Experience Manager
 title: Hotspot- und Imagemaps-Unterstützung
 topic: Dynamic media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ Hotspots und Regionen können entweder eine Schnellfunktion auf der Hosting-Webs
 
 ## Hotspots für die schnelle Ansicht {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellere Ansicht&quot;in Dynamic Media AEM erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine Imagemap aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt den Hotspot oder die Imagemap-Daten an ihn. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite ausgelöst wird, öffnet sie ihre eigene Quick Ansicht-Implementierung.
+Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellere Ansicht&quot;in Dynamic Media AEM erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine Imagemap aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt den Hotspot oder die Imagemap-Daten an ihn. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite Trigger wird, öffnet sie ihre eigene Quick Ansicht-Implementierung.
 
 ## Zu externer Webseite umleiten{#section-ef820c71251e4215800bb99c0c9ebe16}
 
