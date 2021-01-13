@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Viewer-Referenzhandbuch
 translation-type: tm+mt
-source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1901'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 4%
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Mehrere Viewer auf demselben Server installieren](t-installing-the-viewers.md)
 + Versionshinweise zu Viewern {#viewers-release-notes}
-   + [Versionshinweise Viewer (5.14.1)](c-release-notes/c-rn-06-03-20.md)
+   + [Versionshinweise Viewer (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archiv {#archive}
       + [Versionshinweise - Archiv](c-release-notes/c-archive/c-archive.md)
+      + [Versionshinweise Viewer (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Versionshinweise Viewer (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Versionshinweise Viewer (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Versionshinweise Viewer (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
@@ -35,6 +36,8 @@ ht-degree: 4%
       + [Scene7 Viewer 5.0.1 - Versionshinweise](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Scene7 Viewer 4.9.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Anmerkungen zur Kompatibilität](c-compatibility-notes.md)
++ [Barrierefreiheit und Navigation](c-keyboard-accessibility.md)
++ [Viewer-SDK-Tutorial](c-tutorial.md)
 + Viewer für AEM Assets und Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Viewer für AEM Assets und Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Einfaches Zoomen {#basic-zoom}
@@ -939,5 +942,4 @@ ht-degree: 4%
    + [initialFrame](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-initialframe.md)
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
-+ [Barrierefreiheit und Navigation](c-keyboard-accessibility.md)
-+ [Viewer-SDK-Tutorial](c-tutorial.md)
+
