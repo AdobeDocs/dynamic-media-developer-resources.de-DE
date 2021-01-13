@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: String-Konstanten
+description: String-Konstanten
 solution: Experience Manager
 title: String-Konstanten
 topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 10%
+source-wordcount: '109'
+ht-degree: 9%
 
 ---
 
@@ -33,7 +31,7 @@ ht-degree: 10%
 * [Auftragsprotokolldateitypen](r-job-log-file-types.md)
 * [Sortierfelder für Auftragsprotokoll](r-job-log-sort-fields.md)
 * [Auftragsprotokolltypen](r-job-log-types.md)
-* [Auftragsauslöserstatus](r-job-trigger-states.md)
+* [Status des Job Triggers](r-job-trigger-states.md)
 * [Auftragstypen](r-job-types.md)
 * [Metadatenfeldtypen](r-metadata-field-types.md)
 * [Numerische Operatoren/Datumsvergleiche](r-numeric-date-comparison-operators.md)
