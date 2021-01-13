@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Ereignis-Rückrufe
+description: Ereignis-Rückrufe
 solution: Experience Manager
 title: Ereignis-Rückrufe
 topic: Dynamic media
 uuid: 15d9e064-c076-4f6d-9222-d2c51160b60c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +21,9 @@ Callback-Handler werden zugewiesen, indem Ereignis und entsprechende Handler-Fun
 
 Folgende Viewer-Ereignis werden unterstützt:
 
-* `initComplete` - wird ausgelöst, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
+* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
 
-* `trackEvent` - löst jedes Mal aus, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
+* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 
    * `objID {String}` nicht verwendet.
    * `compClass {String}` nicht verwendet.
