@@ -2,10 +2,10 @@
 description: PermissionSet
 solution: Experience Manager
 title: PermissionSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d77d8fbd-ff41-4312-8c0d-f2d846149e3f
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '19'
 ht-degree: 26%
@@ -21,6 +21,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`PermissionSetHandle`*` | `xsd:string` | Umgang mit einem Berechtigungssatz. |
-| ` *`permissionArray`*` | `types:PermissionArray` | Ein Array von Berechtigungen. |
+| `*`PermissionSetHandle`*` | `xsd:string` | Umgang mit einem Berechtigungssatz. |
+| `*`permissionArray`*` | `types:PermissionArray` | Ein Array von Berechtigungen. |
 
