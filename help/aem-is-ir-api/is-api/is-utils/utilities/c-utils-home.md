@@ -1,15 +1,12 @@
 ---
-description: Das Handbuch Image Serving utilities enthält Informationen zu Dienstprogrammen, die mit dem Scene7 Image Server und dem Image Rendering verwendet werden.
-seo-description: Das Handbuch Image Serving utilities enthält Informationen zu Dienstprogrammen, die mit dem Scene7 Image Server und dem Image Rendering verwendet werden.
-seo-title: Image Serving-Dienstprogramme
+description: Das Handbuch Image Serving utilities enthält Informationen zu Dienstprogrammen, die mit dem Dynamic Media Image Server und dem Image Rendering verwendet werden.
 solution: Experience Manager
 title: Image Serving-Dienstprogramme
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d79e5dbc-0d1a-4bd2-8d0d-d5bc0344a30f
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Image Serving utilities{#image-serving-utilities}
 
-Das Handbuch Image Serving utilities enthält Informationen zu Dienstprogrammen, die mit dem Scene7 Image Server und dem Image Rendering verwendet werden.
+Das Handbuch Image Serving utilities enthält Informationen zu Dienstprogrammen, die mit dem Dynamic Media Image Server und dem Image Rendering verwendet werden.
 
 * [Ort der Versorgungseinrichtungen](c-location-of-utilities.md)
 * [ic](r-ic.md)
