@@ -4,10 +4,10 @@ seo-description: Bildkonvertierungsdienstprogramm.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
-source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 2%
@@ -27,11 +27,11 @@ Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter eins
 
 ## Nutzung {#section-fb5293fa79894442aba831c1e14c5cc9}
 
-`ic -convert` `[`*`options`*`]` *`sourceFiledestFile`*
+`ic -convert` `[`*`options`*`]`*`sourceFiledestFile`*
 
-` ic -convert` `[`*`options`*`]` *`sourceFolderdestFolder`*
+` ic -convert` `[`*`options`*`]`*`sourceFolderdestFolder`*
 
-` -c -convert` `[`*`options`*`]` *`sourceFiledestFolder`*
+` -c -convert` `[`*`options`*`]`*`sourceFiledestFolder`*
 
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
@@ -110,7 +110,7 @@ Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter eins
    <p> Gibt an, welche Bildecke ein Seed-Point verwendet werden soll. Wird ignoriert, wenn der Modus 1 ist.</p>
    <p><i><b>mode</b></i> -0 | 1</p>
    <p>auf 0 setzen, um je nach Farbe des angegebenen Eckpixel abgeschnitten zu werden; funktioniert mit vormultiplizierten Farbdaten, wenn Alpha-Daten mit dem Quellbild verknüpft sind.</p>
-   <p>Auf 1 setzen, um basierend auf Alpha-Daten zu beschneiden; corner wird ignoriert und 0 ist immer der Seed-Wert. Es wird keine Beschneidung angewendet, wenn keine Alpha-Daten mit dem Quellbild verknüpft sind.</p> 
+   <p>Auf 1 setzen, um basierend auf Alpha-Daten zu beschneiden; corner wird ignoriert und 0 ist immer der Seed-Wert; Es wird keine Beschneidung angewendet, wenn keine Alpha-Daten mit dem Quellbild verknüpft sind.</p> 
    <p><i><b>Toleranz</b></i>  - Übereinstimmung mit Toleranz. Real value 0.0 to 1.0. Gibt die Toleranz für übereinstimmende Pixelkomponentenwerte an. Für genaue Übereinstimmungen auf 0 setzen.</p>
    <p><i><b>infoFile</b></i>  - Pfad und Name der XML-Ausgabedatei, in die die Daten zum Beschneiden geschrieben werden.</p>
 
@@ -256,7 +256,7 @@ In der folgenden Tabelle werden die Bilddateiformate und Formatoptionen Liste, d
   <tr> 
    <td> <b> BMP</b> <p> (Windows Bitmap) </p> </td> 
    <td> <p> RGB | indexiert </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> unkomprimiert | RLE </p> </td> 
    <td> <p> 5/6 Bit/Kanal deutet auf eine Unterstützung für 16-Bit-RGB (5-5-5 und 5-6-5 Bit/Kanal) hin. </p> </td> 
   </tr> 
@@ -291,7 +291,7 @@ In der folgenden Tabelle werden die Bilddateiformate und Formatoptionen Liste, d
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grau | grayA </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> unkomprimiert | komprimiert </p> </td> 
    <td> <p> Nur zusammengeführtes Bild; Ebenen und zusätzliche Kanal werden ignoriert. </p> </td> 
   </tr> 
@@ -305,7 +305,7 @@ In der folgenden Tabelle werden die Bilddateiformate und Formatoptionen Liste, d
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | grau | grayA | indexiert </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> komprimiert </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
