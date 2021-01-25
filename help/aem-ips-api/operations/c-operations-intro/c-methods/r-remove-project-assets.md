@@ -4,10 +4,10 @@ seo-description: Entfernt Assets aus einem Projekt. Zerstört die Assets nicht.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 10%
@@ -35,19 +35,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit den Assets, die Sie verschieben möchten. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | Das Handle zu den zu verschiebenden Projekt-Assets. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Ja | Array von Handles zu den Assets, die Sie verschieben möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit den Assets, die Sie verschieben möchten. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Das Handle zu den zu verschiebenden Projekt-Assets. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array von Handles zu den Assets, die Sie verschieben möchten. |
 
 **Output (removeProjectAssetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Asset-Anzahl erfolgreich entfernt. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Projekt zu entfernen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Projekt zu entfernen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, sie aus dem Projekt zu entfernen. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, sie aus dem Projekt zu entfernen. |
+| `*`successCount`*` | `xsd:int` | Ja | Asset-Anzahl erfolgreich entfernt. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Projekt zu entfernen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Projekt zu entfernen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, sie aus dem Projekt zu entfernen. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, sie aus dem Projekt zu entfernen. |
 
 ## Beispiele {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
