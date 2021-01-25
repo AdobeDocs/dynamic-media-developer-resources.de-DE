@@ -4,12 +4,12 @@ seo-description: Bildkataloge werden verwendet, um Informationen über Bilder un
 seo-title: Überblick
 solution: Experience Manager
 title: Überblick
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,6 @@ Katalogdatendateien werden nach Dateiverweisen in der Katalogattributdatei mit B
 
 Katalogattributdateien müssen über ein [!DNL .ini]-Dateisuffix verfügen und sich im Katalogordner des Plattformservers ( `PlatformServer::catalog.rootPath`) befinden. Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den der Plattformserver zugreifen kann.
 
-In diesem Dokument wird das Dateiformat des Bildkatalogs für das Scene7 Image Serving-System beschrieben. Die beabsichtigte Audience sind erfahrene Programmierer und Website-Entwickler, die Scene7 Image Serving für eine Web- oder benutzerdefinierte Anwendung nutzen möchten.
+In diesem Dokument wird das Dateiformat des Bildkatalogs für das Dynamic Media Image Serving-System beschrieben. Die beabsichtigte Audience sind erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Web- oder benutzerdefinierte Anwendung nutzen möchten.
 
-Es wird davon ausgegangen, dass der Leser im Allgemeinen mit dem Scene7 Image Serving-System, den allgemeinen Standards und Konventionen des HTTP-Protokolls und der grundlegenden Terminologie der Bildbearbeitung vertraut ist.
+Es wird davon ausgegangen, dass der Leser im Allgemeinen mit dem Dynamic Media Image Serving-System, den allgemeinen Standards und Konventionen des HTTP-Protokolls und der grundlegenden Terminologie der Bildbearbeitung vertraut ist.
