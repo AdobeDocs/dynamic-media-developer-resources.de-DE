@@ -1,15 +1,12 @@
 ---
-description: Vignetten sind Bilder, die mit Scene7 Image Authoring zur Verwendung mit Image Rendering erstellt wurden.
-seo-description: Vignetten sind Bilder, die mit Scene7 Image Authoring zur Verwendung mit Image Rendering erstellt wurden.
-seo-title: Vignetten
+description: Vignetten sind Bilder, die mit Dynamic Media Image Authoring zur Verwendung mit Image Rendering erstellt wurden.
 solution: Experience Manager
 title: Vignetten
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Vignetten{#vignettes}
 
-Vignetten sind Bilder, die mit Scene7 Image Authoring zur Verwendung mit Image Rendering erstellt wurden.
+Vignetten sind Bilder, die mit Dynamic Media Image Authoring zur Verwendung mit Image Rendering erstellt wurden.
 
 IR unterstützt zwei grundlegende Vignettentypen: *2D* und *3D*. Raumszenen sind in der Regel 3D-Vignetten, die Reflexionen wiedergeben können, während die meisten anderen Szenen, wie Bekleidung oder Polsterie, normalerweise 2D-Vignetten sind, die keine Reflektionsrendering-Funktion haben.
 
