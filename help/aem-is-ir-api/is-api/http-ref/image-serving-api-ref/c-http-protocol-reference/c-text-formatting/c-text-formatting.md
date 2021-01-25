@@ -4,12 +4,12 @@ seo-description: Image Serving bietet mehrere Alternativen zum Rendern von Text,
 seo-title: Textformatierung
 solution: Experience Manager
 title: Textformatierung
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen für jeden Textbefehl
 
 RTF-konforme Zeichenfolgen können manuell oder durch Formatierung des gewünschten Textes in einem Texteditor oder Textverarbeitungsprogramm, der RTF-Dateien speichern kann, zusammengestellt werden. Die RTF-Datei kann dann in einem Texteditor geöffnet und der relevante RTF-Rohinhalt der Datei in die Anforderungs-URL kopiert werden.
 
-Einige Textverarbeitungen erzeugen ziemlich große Dateien, die umfangreiche Präambel enthalten, die nicht von Scene7 Image Serving verwendet werden. Es wird empfohlen, die nicht verwendeten RTF-Elemente aus der Zeichenfolge zu entfernen, bevor die Zeichenfolge an die Textbefehle übergeben wird.
+Einige Textverarbeitungen erzeugen ziemlich große Dateien, die umfangreiche Präambel enthalten, die nicht von Dynamic Media Image Serving verwendet werden. Es wird empfohlen, die nicht verwendeten RTF-Elemente aus der Zeichenfolge zu entfernen, bevor die Zeichenfolge an die Textbefehle übergeben wird.
 
 Die Sprachkodierung auf Basis von UTF-8- und ISO-Standards wird in RTF-Zeichenfolgen als Alternative zu den Standard-RTF-Zeichenkodierungsmechanismen unterstützt. Dadurch können Anwendungen nicht-englischsprachigen Text ohne Kenntnisse der RTF-Kodierung an den Server senden.
 
