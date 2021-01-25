@@ -4,10 +4,10 @@ seo-description: Kontrast anpassen. Passt den Bildkontrast an, indem die Helligk
 seo-title: op_stroke
 solution: Experience Manager
 title: op_stroke
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 1%
