@@ -4,10 +4,10 @@ seo-description: Gibt ein Array mit Photoshop-Pfadnamen für das angegebene Bild
 seo-title: getFotoshopPathNames
 solution: Experience Manager
 title: getFotoshopPathNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 17%
@@ -37,14 +37,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie die Firma mit dem Bild vor, mit dem Sie arbeiten möchten. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie die Firma mit dem Bild vor, mit dem Sie arbeiten möchten. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
 
 **Output (getFotoshopPathNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | Ja | Ein Array mit Photoshop-Pfadnamen in einem Bild. |
+| `*`pathNameArray`*` | `types:StringArray` | Ja | Ein Array mit Photoshop-Pfadnamen in einem Bild. |
 
 ## Beispiele {#section-6d316f14b4184d42af4ca3f717b042dd}
 
