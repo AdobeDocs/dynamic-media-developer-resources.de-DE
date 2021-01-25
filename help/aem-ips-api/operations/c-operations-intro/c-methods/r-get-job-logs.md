@@ -4,10 +4,10 @@ seo-description: Ruft die angegebenen Auftragsprotokolle für die ausgewählte F
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 10%
@@ -39,19 +39,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nein | Der Griff der Firma. |
-| ` *`userHandle`*` | `xsd:string` | Nein | Ruft Protokolle für Aufträge ab, die von einem bestimmten Benutzer gesendet wurden. |
-| ` *`sortBy`*` | `xsd:string` | Nein | Ermöglicht die Auswahl der Sortierfelder. |
-| ` *`sortDirection`*` | `xsd:string` | Nein | Sortierreihenfolge (aufsteigend oder absteigend). |
-| ` *`startDate`*` | `xsd:dateTime` | Nein | Datum und Uhrzeit des Beginns des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld ein. |
-| ` *`endDate`*` | `xsd:dateTime` | Nein | Datum und Uhrzeit des Endes des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld ein. |
-| ` *`numRows`*` | `xsd:int` | Nein | Maximale Anzahl der zurückzugebenden Zeilen. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Der Griff der Firma. |
+| `*`userHandle`*` | `xsd:string` | Nein | Ruft Protokolle für Aufträge ab, die von einem bestimmten Benutzer gesendet wurden. |
+| `*`sortBy`*` | `xsd:string` | Nein | Ermöglicht die Auswahl der Sortierfelder. |
+| `*`sortDirection`*` | `xsd:string` | Nein | Sortierreihenfolge (aufsteigend oder absteigend). |
+| `*`startDate`*` | `xsd:dateTime` | Nein | Datum und Uhrzeit des Beginns des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld ein. |
+| `*`endDate`*` | `xsd:dateTime` | Nein | Datum und Uhrzeit des Endes des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld ein. |
+| `*`numRows`*` | `xsd:int` | Nein | Maximale Anzahl der zurückzugebenden Zeilen. |
 
 **Output (getJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | Ja | Array von Auftragsprotokollen. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Ja | Array von Auftragsprotokollen. |
 
 ## Beispiele {#section-35871c94b4a44559912577efddbc46a6}
 
