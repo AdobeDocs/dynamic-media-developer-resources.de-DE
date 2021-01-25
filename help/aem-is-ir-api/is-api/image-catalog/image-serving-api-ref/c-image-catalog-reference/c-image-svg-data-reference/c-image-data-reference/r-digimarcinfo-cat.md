@@ -4,10 +4,10 @@ seo-description: Digimarc-Bildinformationen. Aktiviert die Digimarc-Einbettung u
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 12%
@@ -23,9 +23,9 @@ Digimarc-Bildinformationen. Aktiviert die Digimarc-Einbettung und gibt den Typ d
 
 Vier Ganzzahlwerte, durch Kommas getrennt.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *``*` typeenable Digimarc embedding and specify the watermark type:
+`*``*` typeenable Digimarc embedding and specify the watermark type:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
  </tbody> 
 </table>
 
-` *`Ein `*` Bitfeld mit drei Werten wird markiert. Setzen Sie Bit 0 auf den Hinweis kopiergeschützter Inhalte, Bit 1 auf eingeschränkten Inhalt und Bit 2 auf erwachsenen Inhalt:
+`*`Ein `*` Bitfeld mit drei Werten wird markiert. Setzen Sie Bit 0 auf den Hinweis kopiergeschützter Inhalte, Bit 1 auf eingeschränkten Inhalt und Bit 2 auf erwachsenen Inhalt:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,7 +73,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Kopiergeschützt. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
    <td> <p>Eingeschränkt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Kopiergeschützt, eingeschränkt. </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
  </tbody> 
 </table>
 
-Die Interpretation von ` *`val1`*` und ` *`val2`*` hängt von ` *`type`*` ab:
+Die Interpretation von `*`val1`*` und `*`val2`*` hängt von `*`type`*` ab:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -120,7 +120,7 @@ Die Interpretation von ` *`val1`*` und ` *`val2`*` hängt von ` *`type`*` ab:
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Nicht verwendet. </p> </td> 
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
