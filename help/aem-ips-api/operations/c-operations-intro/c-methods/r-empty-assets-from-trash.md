@@ -4,10 +4,10 @@ seo-description: Leert Assets aus dem IPS-Papierkorb.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 7%
@@ -37,18 +37,18 @@ Assets werden bis zum manuellen Leeren im Papierkorb oder bis zum Verlassen des 
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, der die Assets gehören. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Ja | Das Array der Griffe, die die Elemente darstellen, die aus dem Papierkorb geleert werden sollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, der die Assets gehören. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Das Array der Griffe, die die Elemente darstellen, die aus dem Papierkorb geleert werden sollen. |
 
 **Output (emptyAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | Ja | Die Anzahl der Assets, die erfolgreich aus dem Papierkorb geleert wurden. |
-| ` *`warningCount`*` | `xsd:Int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Papierkorb zu leeren. |
-| ` *`errorCount`*` | `xsd:Int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Papierkorb zu leeren. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit den Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, sie aus dem Papierkorb zu leeren. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, sie aus dem Papierkorb zu leeren. |
+| `*`successCount`*` | `xsd:Int` | Ja | Die Anzahl der Assets, die erfolgreich aus dem Papierkorb geleert wurden. |
+| `*`warningCount`*` | `xsd:Int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Papierkorb zu leeren. |
+| `*`errorCount`*` | `xsd:Int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Papierkorb zu leeren. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit den Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, sie aus dem Papierkorb zu leeren. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, sie aus dem Papierkorb zu leeren. |
 
 ## Beispiele {#section-6154a873b6c342bf92e2036280cafdcf}
 
