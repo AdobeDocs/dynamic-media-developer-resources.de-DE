@@ -4,10 +4,10 @@ seo-description: Assets, die zu einem Bildsatz gehören.
 seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -25,6 +25,6 @@ Beim Zurücksetzen der Seite wird mit einem [!DNL eCatalog] eine neue Seite Begi
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`asset`*` | `type:Asset` | Assets im Bildsatz-Array. |
-| ` *`pageReset`*` | `xsd:boolean` | Beginn einer neuen Seite. Die Einstellung wird ignoriert und der Wert wird für `eCatalog`- und `RenderSet`-Sätze auf `true` gezwungen. |
+| `*`asset`*` | `type:Asset` | Assets im Bildsatz-Array. |
+| `*`pageReset`*` | `xsd:boolean` | Beginn einer neuen Seite. Die Einstellung wird ignoriert und der Wert wird für `eCatalog`- und `RenderSet`-Sätze auf `true` gezwungen. |
 
