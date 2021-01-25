@@ -4,10 +4,10 @@ seo-description: Gibt Koordinaten für die quadrilaterale Darstellung des benann
 seo-title: getFotoshopPath
 solution: Experience Manager
 title: getFotoshopPath
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 17%
@@ -38,15 +38,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie die Firma mit dem Bild, mit dem Sie arbeiten möchten. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
-| ` *`pathName`*` | `xsd:string` | Ja | Name des Photoshop-Pfads, den Sie zurückgeben möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie die Firma mit dem Bild, mit dem Sie arbeiten möchten. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
+| `*`pathName`*` | `xsd:string` | Ja | Name des Photoshop-Pfads, den Sie zurückgeben möchten. |
 
 **Output (getFotoshopPathReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | Ja | Gibt Bildkoordinaten basierend auf dem Pfad zurück. Siehe [PerectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | Ja | Gibt Bildkoordinaten basierend auf dem Pfad zurück. Siehe [PerectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Beispiele {#section-1f0461cbdc184c8d8925336d5279db47}
 
