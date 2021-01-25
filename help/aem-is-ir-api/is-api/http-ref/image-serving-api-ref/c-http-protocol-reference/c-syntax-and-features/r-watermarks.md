@@ -1,15 +1,12 @@
 ---
 description: Image Serving implementiert eine einfache visuelle Wasserzeichenfunktion.
-seo-description: Image Serving implementiert eine einfache visuelle Wasserzeichenfunktion.
-seo-title: Wasserzeichen
 solution: Experience Manager
 title: Wasserzeichen
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -23,7 +20,7 @@ Bei einem Wasserzeichen handelt es sich in der Regel um ein halbtransparentes Bi
 
 Die Wasserzeichen-Funktion wird aktiviert, indem `attribute::Watermark` auf einen gültigen Katalogeintrag gesetzt wird, der das Wasserzeichenbild oder die Vorlage enthalten würde. Wenn `attribute::Watermark` in einem benannten Katalog eingestellt ist, fügt der Server das Wasserzeichen allen Bildanforderungen hinzu, die auf die Katalog-ID in der Anforderungs-URL verweisen. Wenn `default::Watermark` eingestellt ist (im Standardkatalog, [!DNL default.ini]), wird das Wasserzeichen auf alle Bildanforderungen angewendet, unabhängig davon, ob sie auf einen Katalog verweisen oder nicht.
 
-Wasserzeichen werden nicht auf Bilder angewendet, die aufgrund von Miniaturansichtsanforderungen ( `req=tmb`) und bestimmten Anforderungen von Scene7-Viewern zurückgegeben werden.
+Wasserzeichen werden nicht auf Bilder angewendet, die aufgrund von Miniaturansichtsanforderungen ( `req=tmb`) und bestimmten Anforderungen von Dynamic Media-Viewern zurückgegeben werden.
 
 ## Skalierung und Ausrichtung {#section-89ef9e5926ae438abbd8e70332749b76}
 
