@@ -4,12 +4,12 @@ seo-description: Konfigurationsattribute werden als Attribute direkt auf einem I
 seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Mehrere Bildservierungsbefehle oder Bildvorgabennamen werden durch das Zeichen &
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Die folgenden beiden Modi für das intelligente Beschneiden sind in AEM 6.4 und höher und in Scene7 Viewers 5.9 und höher verfügbar:
+Die folgenden beiden Modi für das intelligente Beschneiden sind in AEM 6.4 und höher und in Dynamic Media Viewers 5.9 und höher verfügbar:
 
 * **Manuell**  - benutzerdefinierte Haltepunkte und entsprechende Bilddienstbefehle werden innerhalb eines Attributs im Bildelement definiert.
 * **Smart-Zuschneiden**  - berechnete Smart-Zuschneiden-Darstellungen werden automatisch vom Versand-Server abgerufen. Die beste Darstellung wird unter Verwendung der Laufzeitgröße des Bildelements ausgewählt.
