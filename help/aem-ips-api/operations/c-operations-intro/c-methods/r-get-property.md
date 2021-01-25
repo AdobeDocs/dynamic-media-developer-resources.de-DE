@@ -4,10 +4,10 @@ seo-description: Ruft Zeichenfolgenwerte der Systemeigenschaften ab, die mit Ima
 seo-title: getProperty
 solution: Experience Manager
 title: getProperty
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 11%
@@ -48,13 +48,13 @@ Zu den unterstützten Systemeigenschaften gehören:
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`name`*` | `xsd:string` | Ja | Der Name der abzurufenden Eigenschaft. |
+| `*`name`*` | `xsd:string` | Ja | Der Name der abzurufenden Eigenschaft. |
 
 **Output (getPropertyReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`Wert`*` | `xsd:string` | Ja | Der Eigenschaftswert. |
+| `*`Wert`*` | `xsd:string` | Ja | Der Eigenschaftswert. |
 
 ## Beispiele {#section-3f80a78dd60c404181b34d3a912d7a36}
 
