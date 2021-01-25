@@ -4,10 +4,10 @@ seo-description: Image Rendering unterstützt Farbraumkonvertierungen auf der Gr
 seo-title: Image Rendering-Farbmanagement *
 solution: Experience Manager
 title: Image Rendering-Farbmanagement *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
 translation-type: tm+mt
-source-git-commit: b27327f940202b1883a654702aa386c7ae83c856
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -75,6 +75,6 @@ Wenn `icc=` nicht angegeben ist, wird das ICC-Profil für den Arbeitsfarbraum ei
 
 Alle vom Server verwendeten Profil müssen der ICC-Spezifikation entsprechen. ICC-Profil-Dateien haben in der Regel ein [!DNL .icc]- oder [!DNL .icm]-Dateisuffix und befinden sich zusammen mit Materialdatendateien.
 
-Es wird empfohlen, alle Profil-Profil in der ICC-Profil-Map des Standardkatalogs oder eines bestimmten Materialkatalogs zu registrieren und anstelle von Dateipfaden Verknüpfungskennungen ( `icc=`) zu verwenden.`icc::Name`
+Es wird empfohlen, alle Profil-Profil in der ICC-Profil-Map des Standardkatalogs oder eines bestimmten Materialkatalogs zu registrieren und anstelle von Dateipfaden Verknüpfungskennungen ( `icc::Name`) zu verwenden.`icc=`
 
 Die Profile müssen in der ICC-Profil-Map des Materialkatalogs oder im Standardkatalog registriert sein.
