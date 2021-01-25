@@ -4,10 +4,10 @@ seo-description: Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
-source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 12%
@@ -31,9 +31,9 @@ Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Der Griff der Firma, die das Tag-Feld enthält. |
-| ` *`fieldHandle`*` | `xsd:string` | Ja | Der Griff des zu ändernden Tag-Felds. |
-| ` *`valueArray`*` | `types:StringArray` | Ja | Ein Array von Tag-Werten, die aus dem Wörterbuch des Felds gelöscht werden sollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff der Firma, die das Tag-Feld enthält. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | Der Griff des zu ändernden Tag-Felds. |
+| `*`valueArray`*` | `types:StringArray` | Ja | Ein Array von Tag-Werten, die aus dem Wörterbuch des Felds gelöscht werden sollen. |
 
 **Output (deleteTagFieldValuesParam)**
 
