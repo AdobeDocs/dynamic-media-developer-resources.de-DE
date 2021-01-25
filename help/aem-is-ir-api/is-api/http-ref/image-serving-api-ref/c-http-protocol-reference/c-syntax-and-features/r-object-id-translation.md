@@ -4,10 +4,10 @@ seo-description: Image Serving bietet einen Mechanismus zum Übersetzen externer
 seo-title: Objekt-ID-Übersetzung
 solution: Experience Manager
 title: Objekt-ID-Übersetzung
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 9%
@@ -35,7 +35,7 @@ Alle Verweise auf Einträge in Bild-, SVG- und statischen Inhaltskatalogen werde
 
 `attribute::LocaleMap` definiert die Regeln, die vom Server zur Bestimmung der ID des lokalisierten Inhalts verwendet werden, wobei die generische Objekt-ID und der  `locale=` Wert als Eingabe angegeben werden.
 
-`attribute::LocaleMap` besteht aus einer Liste von  *Gebietsschemas*  für die Eingabe (die mit den angegebenen Werten übereinstimmen  `locale=`), die jeweils keine oder mehrere Gebietsschema-Suffixe für die Ausgabe enthalten (  ` *`locSuffixes`*`).
+`attribute::LocaleMap` besteht aus einer Liste von  *Gebietsschemas*  für die Eingabe (die mit den angegebenen Werten übereinstimmen  `locale=`), die jeweils keine oder mehrere Gebietsschema-Suffixe für die Ausgabe enthalten (  `*`locSuffixes`*`).
 
 `attribute::LocaleMap` könnte z. B. wie folgt aussehen:
 
