@@ -4,10 +4,10 @@ seo-description: Ruft alle derzeit aktiven Aufträge ab.
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 15%
@@ -38,15 +38,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nein | Der Griff zur Firma. |
-| ` *`jobHandle`*` | `xsd:string` | Nein | Der Griff zum Auftrag. |
-| ` *`originalName`*` | `xsd:string` | Nein | Ursprünglicher Auftragsname. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Der Griff zur Firma. |
+| `*`jobHandle`*` | `xsd:string` | Nein | Der Griff zum Auftrag. |
+| `*`originalName`*` | `xsd:string` | Nein | Ursprünglicher Auftragsname. |
 
 **Output (getActiveJobsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`jobArray`*` | `xsd:string` | Ja | Array aktiver Aufträge. |
+| `*`jobArray`*` | `xsd:string` | Ja | Array aktiver Aufträge. |
 
 ## Beispiele {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
