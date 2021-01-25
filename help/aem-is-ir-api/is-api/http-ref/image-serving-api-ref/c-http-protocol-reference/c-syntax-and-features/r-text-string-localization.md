@@ -4,10 +4,10 @@ seo-description: Bei der lokale Anpassung von Textzeichenfolgen können Bildkata
 seo-title: Lokale Anpassung von Textzeichenfolgen
 solution: Experience Manager
 title: Lokale Anpassung von Textzeichenfolgen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -124,7 +124,7 @@ In der Übersetzungskarte für das Beispiel wird angegeben, dass in diesem Fall 
 
 Mehrere *`locId`*-Werte können mit jedem *`locale`* in der Übersetzungszuordnung verknüpft werden. Dies ermöglicht die Unterstützung länderspezifischer oder regionsspezifischer Variationen (z.B. Englisch in den USA oder Englisch in Großbritannien) für die Auswahl von *`stringElements`*, während die meisten Inhalte mit gängigen Basisgebietsschemata (z.B. internationales Englisch) verarbeitet werden.
 
-In unserem Beispiel möchten wir Unterstützung für US-spezifisches Englisch ( ` *`locId`* EUS`) und für britisches Englisch ( ` *`locId`* EUK`) hinzufügen, um die gelegentliche alternative Schreibweise zu unterstützen. Wenn es EUK oder EUS nicht gibt, würden wir auf E zurückgreifen. Auch österreichisch-spezifische deutsche Varianten ( `DAT`) könnten bei Bedarf zur Verfügung gestellt werden, während häufig gebräuchliches Deutsch *`localizedStrings`* (gekennzeichnet mit `D`) zurückgegeben wird.
+In unserem Beispiel möchten wir Unterstützung für US-spezifisches Englisch ( `*`locId`* EUS`) und für britisches Englisch ( `*`locId`* EUK`) hinzufügen, um die gelegentliche alternative Schreibweise zu unterstützen. Wenn es EUK oder EUS nicht gibt, würden wir auf E zurückgreifen. Auch österreichisch-spezifische deutsche Varianten ( `DAT`) könnten bei Bedarf zur Verfügung gestellt werden, während häufig gebräuchliches Deutsch *`localizedStrings`* (gekennzeichnet mit `D`) zurückgegeben wird.
 
 `attribute::LocaleStrMap` würde wie folgt aussehen:
 
