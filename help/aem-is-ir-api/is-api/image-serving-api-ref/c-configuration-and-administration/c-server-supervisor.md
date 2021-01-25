@@ -1,15 +1,15 @@
 ---
-description: Image Serving-Komponenten werden vom Server Supervisor verwaltet, einem Linux-Daemon oder Windows-Dienst (S7Supervisor.exe, in der Systemsteuerung als "Scene7 Image Serving"aufgeführt).
-seo-description: Image Serving-Komponenten werden vom Server Supervisor verwaltet, einem Linux-Daemon oder Windows-Dienst (S7Supervisor.exe, in der Systemsteuerung als "Scene7 Image Serving"aufgeführt).
+description: Image Serving-Komponenten werden vom Server Supervisor verwaltet, einem Linux-Daemon oder Windows-Dienst (S7Supervisor.exe, in der Systemsteuerung als "Dynamic Media Image Serving"aufgeführt).
+seo-description: Image Serving-Komponenten werden vom Server Supervisor verwaltet, einem Linux-Daemon oder Windows-Dienst (S7Supervisor.exe, in der Systemsteuerung als "Dynamic Media Image Serving"aufgeführt).
 seo-title: Server Supervisor
 solution: Experience Manager
 title: Server Supervisor
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Server Supervisor{#server-supervisor}
 
-Image Serving-Komponenten werden vom Server Supervisor verwaltet, einem Linux-Daemon oder Windows-Dienst (S7Supervisor.exe, in der Systemsteuerung als &quot;Scene7 Image Serving&quot;aufgeführt).
+Image Serving-Komponenten werden vom Server Supervisor verwaltet, einem Linux-Daemon oder Windows-Dienst (S7Supervisor.exe, in der Systemsteuerung als &quot;Dynamic Media Image Serving&quot;aufgeführt).
 
 Der Server Supervisor ist nicht nur dafür verantwortlich, andere Image Serving-Komponenten zu starten und zu beenden, sondern auch dafür verantwortlich, den Zustand dieser anderen Komponenten zu gewährleisten. Bei einem Absturz einer Komponente wird sie automatisch neu gestartet, um alle Dienstunterbrechungen zu minimieren.
 
