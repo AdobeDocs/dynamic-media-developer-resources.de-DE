@@ -4,10 +4,10 @@ seo-description: Farbquantisierung. Gibt Farbquantisierungsattribute für die GI
 seo-title: quantifizieren
 solution: Experience Manager
 title: quantifizieren
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Farbquantisierung. Gibt Farbquantisierungsattribute für die GIF-Ausgabekonverti
 
 Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Wird nur verwendet, wenn `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` oder `fmt=png8-alpha`. Andernfalls ignoriert.
 
-Die mit ` *`colorList`*` angegebenen Farben müssen aus RGB-Werten im hex6-Format (siehe ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) ohne Präfix &#39; `0x`&#39; bestehen. Andere Farbspezifikatoren sind nicht zulässig. *`numColors`* muss zwischen 2 und 256 liegen.
+Die mit `*`colorList`*` angegebenen Farben müssen aus RGB-Werten im hex6-Format (siehe ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) ohne Präfix &#39; `0x`&#39; bestehen. Andere Farbspezifikatoren sind nicht zulässig. *`numColors`* muss zwischen 2 und 256 liegen.
 
 ## Standard {#section-ca3e817617244e8798ccff67b2023a32}
 
