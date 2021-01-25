@@ -1,15 +1,15 @@
 ---
-description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving beachtet werden sollten.
-seo-description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving beachtet werden sollten.
+description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Dynamic Media Image Serving beachtet werden sollten.
+seo-description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Dynamic Media Image Serving beachtet werden sollten.
 seo-title: Einschränkungen und bekannte Probleme
 solution: Experience Manager
 title: Einschränkungen und bekannte Probleme
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Einschränkungen und bekannte Probleme{#restrictions-and-known-issues}
 
-Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Scene7 Image Serving beachtet werden sollten.
+Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Dynamic Media Image Serving beachtet werden sollten.
 
 ## Dokumentationsfehler {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -137,7 +137,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
    Legen Sie die Eigenschaft `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] fest.
 
-* Zuschneiden wird derzeit anstelle von `bgColor=` verwendet, um einen neu erweiterten Bereich auszufüllen.`color=`
+* Zuschneiden wird derzeit anstelle von `color=` verwendet, um einen neu erweiterten Bereich auszufüllen.`bgColor=`
 
 * Die Farbkonvertierung ist ggf. nicht korrekt, wenn `bgColor=` nicht mit dem Grundfarbraum für Profil übereinstimmt.
 * Effekte auf äußeren Ebenen werden nicht gerendert, wenn die Ebene keine Maske- oder Alpha-Daten hat.
