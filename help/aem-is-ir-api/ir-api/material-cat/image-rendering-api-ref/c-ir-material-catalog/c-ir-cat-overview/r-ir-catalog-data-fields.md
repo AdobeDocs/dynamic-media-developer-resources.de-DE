@@ -4,10 +4,10 @@ seo-description: Die folgenden Katalogdatenfelder stehen zur Verfügung.
 seo-title: Katalogdatenfelder
 solution: Experience Manager
 title: Katalogdatenfelder
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 027ac3d6-3d64-4507-b17f-5ede48d55560
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 11%
