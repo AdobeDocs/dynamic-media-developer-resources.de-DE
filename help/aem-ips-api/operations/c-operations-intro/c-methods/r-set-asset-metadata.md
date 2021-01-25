@@ -4,10 +4,10 @@ seo-description: Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 9%
@@ -40,9 +40,9 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit dem Asset, das Sie aktualisieren möchten. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset. |
-| ` *`updateArray`*` | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Aktualisierungsarray. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit dem Asset, das Sie aktualisieren möchten. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Aktualisierungsarray. |
 
 **Output (setAssetMetadataReturn)**
 
