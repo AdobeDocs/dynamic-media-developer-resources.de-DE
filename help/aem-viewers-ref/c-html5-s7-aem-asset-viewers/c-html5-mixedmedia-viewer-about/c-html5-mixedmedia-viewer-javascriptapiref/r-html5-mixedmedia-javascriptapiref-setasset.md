@@ -7,7 +7,7 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -27,11 +27,11 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewe
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`asset`*`  - {  `String`} neue Asset-ID oder explizite gemischte Mediensets, mit optionalen Image Serving-Modifikatoren nach  `?`.
+`*`asset`*`  - {  `String`} neue Asset-ID oder explizite gemischte Mediensets, mit optionalen Image Serving-Modifikatoren nach  `?`.
 
 Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt.
 
-` *`data`*` - {  `JSON`} Speicherort der neuen Untertiteldatei.
+`*`data`*` - {  `JSON`} Speicherort der neuen Untertiteldatei.
 
 Ist dies nicht der Fall, ist die Beschriftungsschaltfläche in der Benutzeroberfläche nicht sichtbar. Die mit diesem Parameter angegebenen Bildunterschriften gelten für das Video, das zuerst im gemischten Medienset angezeigt wird. nachfolgende Videos werden ohne Bildunterschriften abgespielt. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
 
