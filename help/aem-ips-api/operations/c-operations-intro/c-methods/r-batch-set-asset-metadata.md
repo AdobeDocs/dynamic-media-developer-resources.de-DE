@@ -4,10 +4,10 @@ seo-description: Legt Asset-Metadaten im Stapelmodus fest.
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 13%
@@ -36,18 +36,18 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Metadaten Sie bei einem Stapelvorgang festlegen möchten. |
-| ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | Ja | Das Array der auf die Assets angewendeten Metadaten-Aktualisierungen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Metadaten Sie bei einem Stapelvorgang festlegen möchten. |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Ja | Das Array der auf die Assets angewendeten Metadaten-Aktualisierungen. |
 
 **Output (batchSetAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Metadaten. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Metadaten festzulegen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Metadaten festzulegen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details, die mit den Assets verknüpft sind, die Warnungen generieren, wenn der Vorgang versucht hat, Metadaten für die Assets im Stapelverfahren festzulegen. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, Metadaten für die Assets im Stapelverfahren festzulegen. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Metadaten. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Metadaten festzulegen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Metadaten festzulegen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details, die mit den Assets verknüpft sind, die Warnungen generieren, wenn der Vorgang versucht hat, Metadaten für die Assets im Stapelverfahren festzulegen. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, Metadaten für die Assets im Stapelverfahren festzulegen. |
 
 ## Beispiele {#section-2de798ac920e4b47b971b1729a64395b}
 
