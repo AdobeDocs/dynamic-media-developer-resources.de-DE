@@ -4,10 +4,10 @@ seo-description: Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benut
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 9%
@@ -29,22 +29,22 @@ Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`includeInactive`*` | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Nicht-IPS-Administratoren müssen Mitglied von mindestens einer Firma sein, um für alle API-Aufrufe autorisiert zu sein. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer über keine aktive Firma verfügt. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Nein | Hiermit können Sie ungültige Benutzer ein-/ausschließen. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Firma. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Gruppe. |
-| ` *`userRoleArray`*` | `types:StringArray` | Nein | Filtern Sie die Ergebnisse nach Benutzerrolle. |
-| ` *`charFilterField`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach dem Zeichenfolgenpräfix des Felds (siehe [!DNL Trash State).] |
-| ` *`charFilter`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach einem bestimmten Zeichen. |
-| ` *`sortBy`*` | `xsd:string` | Nein | Auswahl der Benutzersortierungsfelder. |
-| ` *`recordsPerPage`*` | `xsd:int` | Nein | Gibt die angegebene Anzahl von Datensätzen pro Seite zurück. |
-| ` *`resultsPage`*` | `xsd:int` | Nein | Ergebnisseite. |
+| `*`includeInactive`*` | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Nicht-IPS-Administratoren müssen Mitglied von mindestens einer Firma sein, um für alle API-Aufrufe autorisiert zu sein. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer über keine aktive Firma verfügt. |
+| `*`includeInvalid`*` | `xsd:boolean` | Nein | Hiermit können Sie ungültige Benutzer ein-/ausschließen. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Firma. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Gruppe. |
+| `*`userRoleArray`*` | `types:StringArray` | Nein | Filtern Sie die Ergebnisse nach Benutzerrolle. |
+| `*`charFilterField`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach dem Zeichenfolgenpräfix des Felds (siehe [!DNL Trash State).] |
+| `*`charFilter`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach einem bestimmten Zeichen. |
+| `*`sortBy`*` | `xsd:string` | Nein | Auswahl der Benutzersortierungsfelder. |
+| `*`recordsPerPage`*` | `xsd:int` | Nein | Gibt die angegebene Anzahl von Datensätzen pro Seite zurück. |
+| `*`resultsPage`*` | `xsd:int` | Nein | Ergebnisseite. |
 
 **Ausgabe (getUsersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`userArray`*` | `types:UserArray` | Ja | Ein Array von Benutzern. |
+| `*`userArray`*` | `types:UserArray` | Ja | Ein Array von Benutzern. |
 
 ## Beispiele {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
