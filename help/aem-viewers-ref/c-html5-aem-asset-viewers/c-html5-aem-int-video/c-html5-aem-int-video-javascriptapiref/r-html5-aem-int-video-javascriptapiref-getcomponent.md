@@ -7,7 +7,7 @@ title: getComponent
 topic: Dynamic media
 uuid: e69da809-584c-4311-95c6-3efe9d15ad1f
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` :  `{String}` eine ID der vom Viewer verwendeten Viewer-SDK-Komponente. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
+`*`componentID`*` :  `{String}` eine ID der vom Viewer verwendeten Viewer-SDK-Komponente. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
