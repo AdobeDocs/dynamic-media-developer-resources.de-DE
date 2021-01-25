@@ -4,10 +4,10 @@ seo-description: Ordnet ein Asset den Veröffentlichungskontexten zu, in denen e
 seo-title: AssetPublishContexts
 solution: Experience Manager
 title: AssetPublishContexts
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 7%
@@ -25,6 +25,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Umgang mit dem Asset. |
-| ` *`publishContextArray`*` | `types:PublishContextArray` | Ein Array von Veröffentlichungs-Kontexten, in denen das Asset zur Veröffentlichung markiert ist. |
+| `*`assetHandle`*` | `xsd:string` | Umgang mit dem Asset. |
+| `*`publishContextArray`*` | `types:PublishContextArray` | Ein Array von Veröffentlichungs-Kontexten, in denen das Asset zur Veröffentlichung markiert ist. |
 
