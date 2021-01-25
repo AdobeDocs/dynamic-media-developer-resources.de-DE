@@ -4,10 +4,10 @@ seo-description: Eigenschaften einer Microsoft Excel-Datei.
 seo-title: ExcelInfo
 solution: Experience Manager
 title: ExcelInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 27c11719-ac8f-43b2-a08a-cb46f47b8006
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 18%
@@ -25,7 +25,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Pfad zur Datei. |
-| ` *`originalFile`*` | `xsd:string` | Dateiname. |
-| ` *`fileSize`*` | `xsd:int` | Dateigröße. |
+| `*`originalPath`*` | `xsd:string` | Pfad zur Datei. |
+| `*`originalFile`*` | `xsd:string` | Dateiname. |
+| `*`fileSize`*` | `xsd:int` | Dateigröße. |
 
