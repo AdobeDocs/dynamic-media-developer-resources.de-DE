@@ -1,15 +1,12 @@
 ---
-description: Die interaktive Bildbibliothek ist ein JavaScript-Modul, mit dem die Qualität der von Scene7 bereitgestellten und in responsive Webseiten eingebetteten Bilder dynamisch angepasst wird. Darüber hinaus bietet es eine verbesserte Bildqualität auf Geräten mit hochauflösenden Bildschirmen. Die Bibliothek kann auch Ergebnisse aus Smart-Zuschneiden und Smart-Muster responsiv rendern.
-seo-description: Die interaktive Bildbibliothek ist ein JavaScript-Modul, mit dem die Qualität der von Scene7 bereitgestellten und in responsive Webseiten eingebetteten Bilder dynamisch angepasst wird. Darüber hinaus bietet es eine verbesserte Bildqualität auf Geräten mit hochauflösenden Bildschirmen. Die Bibliothek kann auch Ergebnisse aus Smart-Zuschneiden und Smart-Muster responsiv rendern.
-seo-title: Info zur Bibliothek mit interaktiven Bildern
+description: Die interaktive Bildbibliothek ist ein JavaScript-Modul, mit dem die Qualität der von Dynamic Media bereitgestellten und in responsive Webseiten eingebetteten Bilder dynamisch angepasst wird. Darüber hinaus bietet es eine verbesserte Bildqualität auf Geräten mit hochauflösenden Bildschirmen. Die Bibliothek kann auch Ergebnisse aus Smart-Zuschneiden und Smart-Muster responsiv rendern.
 solution: Experience Manager
 title: Info zur Bibliothek mit interaktiven Bildern
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # Info zur Bibliothek für interaktives Bild{#about-responsive-image-library}
 
-Die interaktive Bildbibliothek ist ein JavaScript-Modul, mit dem die Qualität der von Scene7 bereitgestellten und in responsive Webseiten eingebetteten Bilder dynamisch angepasst wird. Darüber hinaus bietet es eine verbesserte Bildqualität auf Geräten mit hochauflösenden Bildschirmen. Die Bibliothek kann auch Ergebnisse aus Smart-Zuschneiden und Smart-Muster responsiv rendern.
+Die interaktive Bildbibliothek ist ein JavaScript-Modul, mit dem die Qualität der von Dynamic Media bereitgestellten und in responsive Webseiten eingebetteten Bilder dynamisch angepasst wird. Darüber hinaus bietet es eine verbesserte Bildqualität auf Geräten mit hochauflösenden Bildschirmen. Die Bibliothek kann auch Ergebnisse aus Smart-Zuschneiden und Smart-Muster responsiv rendern.
 
 ## Demo-URLs {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-Der einfachste Anwendungsfall der Bibliothek für interaktives Bild besteht darin, eine Liste von Haltepunktwerten für die Bildbreite zu definieren. Diese Liste stellt sicher, dass die entsprechende Darstellung geladen und angezeigt wird, wenn die Größe eines Bildes geändert wird, da sich das Layout einer Webseite ändert, indem der Benutzer die Größe des Browserfensters ändert oder die Ausrichtung des Geräts ändert. Die Bibliothek überwacht kontinuierlich die Bildgröße auf dem Bildschirm und holt jedes Mal, wenn eine neue Haltepunktbreite erreicht wird, eine neue Bilddarstellung von Scene7 ab.
+Der einfachste Anwendungsfall der Bibliothek für interaktives Bild besteht darin, eine Liste von Haltepunktwerten für die Bildbreite zu definieren. Diese Liste stellt sicher, dass die entsprechende Darstellung geladen und angezeigt wird, wenn die Größe eines Bildes geändert wird, da sich das Layout einer Webseite ändert, indem der Benutzer die Größe des Browserfensters ändert oder die Ausrichtung des Geräts ändert. Die Bibliothek überwacht kontinuierlich die Bildgröße auf dem Bildschirm und holt jedes Mal, wenn eine neue Haltepunktbreite erreicht wird, eine neue Bilddarstellung von Dynamic Media ab.
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ Der einfachste Anwendungsfall der Bibliothek für interaktives Bild besteht dari
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>Im folgenden Bootstrap wird der gleiche Verwendungsfall auf einer Webseite veranschaulicht. Gemäß Bootstrap-CSS kann die Layoutzelle, der das interaktive Bild hinzugefügt wird, eine der folgenden Breiten annehmen: 360, 720 und 940 Pixel. Dies sind die genauen Werte, die als Haltepunkte an die Bibliothek für interaktives Bild übergeben werden. Scene7 stellt daher sicher, dass die Netzwerkbandbreite des Clients effektiv genutzt wird. Darüber hinaus wird sichergestellt, dass das Bild in der exakten Größe angezeigt wird, die angesichts des aktuellen Webseitenlayouts erforderlich ist, ohne dass visuelle Artefakte durch Skalieren des clientseitigen Browsers entstehen. </p> <p>Klicken Sie auf die URL, um die Webseite zu öffnen, die Größe des Browser-Fensters zu ändern, um auf unterschiedliche LayoutHaltepunkte zuzugreifen und den Netzwerkverkehr zu überwachen. </p> <p>Zu den erweiterten Verwendungsbeispielen zählen die Zuweisung verschiedener Bildvorgaben oder Bildserstellungs-Befehle oder beides mit unterschiedlichen Haltepunktwerten. </p> </td> 
+   <td colname="col2"> <p>Im folgenden Bootstrap wird der gleiche Verwendungsfall auf einer Webseite veranschaulicht. Gemäß Bootstrap-CSS kann die Layoutzelle, der das interaktive Bild hinzugefügt wird, eine der folgenden Breiten annehmen: 360, 720 und 940 Pixel. Dies sind die genauen Werte, die als Haltepunkte an die Bibliothek für interaktives Bild übergeben werden. Dynamic Media stellt daher sicher, dass die Netzwerkbandbreite des Clients effektiv genutzt wird. Darüber hinaus wird sichergestellt, dass das Bild in der exakten Größe angezeigt wird, die angesichts des aktuellen Webseitenlayouts erforderlich ist, ohne dass visuelle Artefakte durch Skalieren des clientseitigen Browsers entstehen. </p> <p>Klicken Sie auf die URL, um die Webseite zu öffnen, die Größe des Browser-Fensters zu ändern, um auf unterschiedliche LayoutHaltepunkte zuzugreifen und den Netzwerkverkehr zu überwachen. </p> <p>Zu den erweiterten Verwendungsbeispielen zählen die Zuweisung verschiedener Bildvorgaben oder Bildserstellungs-Befehle oder beides mit unterschiedlichen Haltepunktwerten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ Der einfachste Anwendungsfall der Bibliothek für interaktives Bild besteht dari
 
 **Serverhardware und -software**
 
-* Scene7 Image Serving 6.0.1 oder höher.
+* Dynamic Media Image Serving 6.0.1 oder höher.
 
 **Mindestanforderungen an den Client-Browser**
 
