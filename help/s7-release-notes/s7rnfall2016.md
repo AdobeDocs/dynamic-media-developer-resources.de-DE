@@ -7,9 +7,9 @@ title: Scene7 Version Herbst 2016
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Die neuesten Versionshinweise für [!DNL Adobe Scene7] Herbstversion 2016 der [!
 * [Viewer (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Viewer (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Viewer (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2 und Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [HTML5 Viewer-SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media Image Serving 6.3.2 und Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Allgemein {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Eine vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](http
    * Auf iPad-Geräten werden schwarze Ränder neben der VideoPlayer-Komponente angezeigt, wenn der Hintergrund auf Weiß/Transparent eingestellt ist.
    * Das letzte Videobild kann auf iPad mit iOS 7 verzerrt sein.
    * Während der Videosuche im HLS-Streaming-Modus in Chrome, Firefox und Internet Explorer kann es gelegentlich zu Makroblockierungen kommen.
-   * Das Standbild wird möglicherweise zum ersten Besucher nicht im Microsoft Edge-Browser angezeigt.
-   * Das Standbild kann nach dem Laden des Videos in Internet Explorer 9 ausgeblendet werden, wenn die progressive Wiedergabe verwendet wird.
+      * Das Standbild wird möglicherweise zum ersten Besucher nicht im Microsoft Edge-Browser angezeigt.
+      * Das Standbild kann nach dem Laden des Videos in Internet Explorer 9 ausgeblendet werden, wenn die progressive Wiedergabe verwendet wird.
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ Das Benutzerhandbuch befindet sich im Ordner &quot;Adobe HTML5 Viewer SDK&quot;d
    * Das Standbild wird möglicherweise zum ersten Besucher nicht im Microsoft Edge-Browser angezeigt.
    * Das Standbild kann nach dem Laden des Videos in Internet Explorer 9 ausgeblendet werden, wenn die progressive Wiedergabe verwendet wird.
 
-## Scene7 Image Serving 6.3.2 und Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 und Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * IC-Dienstprogramm - `downsample2x2`-Flag wird nicht mehr unterstützt. Dieses Flag war ein schlechter 2x2 Downsampling, der nicht mehr von IPS verwendet wird.
 * CORS-Header - Derzeit ist der CORS-Header für `/is/content/`-Anforderungen konfiguriert.
