@@ -4,10 +4,10 @@ seo-description: Gibt Zip-Dateidaten zurück.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 21%
@@ -39,14 +39,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Zip-Datei enthält. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Behandeln Sie die Zip-Datei. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Zip-Datei enthält. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Behandeln Sie die Zip-Datei. |
 
 **Output (getZipEntriesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`zipArray`*` | `types:ZipEntryArray` | Ja | Array von Einträgen in einer Zip-Datei. |
+| `*`zipArray`*` | `types:ZipEntryArray` | Ja | Array von Einträgen in einer Zip-Datei. |
 
 ## Beispiele {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
