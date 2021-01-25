@@ -4,10 +4,10 @@ seo-description: Bild vervielfältigen/erodieren. Wendet einen morphologischen F
 seo-title: op_large
 solution: Experience Manager
 title: op_large
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radiu
  </tr> 
 </table>
 
-` *``*` Radiusis in Pixeln relativ zum Composite-Bild. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
+`*``*` Radiusis in Pixeln relativ zum Composite-Bild. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
 
 Wird hauptsächlich zur Änderung der Größe von Ebeneneffekten verwendet. Auch nützlich, um spezielle Effekte auf Textebenen oder Vollfarben-Ebenen mit Masken zu erzielen.
 
