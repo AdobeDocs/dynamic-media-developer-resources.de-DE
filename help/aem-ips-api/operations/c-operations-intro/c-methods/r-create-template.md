@@ -4,10 +4,10 @@ seo-description: Erstellt ein Bild mit Ebenen, das mehrere Text- und Bildebenen 
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 10%
@@ -35,18 +35,18 @@ Der Parameter `urlModifier` gibt die im Image-Server-Katalog gespeicherten Proto
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Die Firma, zu der die Vorlage gehört. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | Der Ordner-Handle, der den Ordner darstellt, in dem sich die Vorlage befindet. |
-| ` *`name`*` | `xsd:string` | Ja | Vorlagenname. |
-| ` *`type`*` | `xsd:string` | Ja | Vorlagentyp. |
-| ` *`urlModifier`*` | `xsd:string` | Ja | Gibt die im IS-Katalog gespeicherten Image-Server-Befehle an, die vor den vom Benutzer bereitgestellten Befehlen auf die URL angewendet werden. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nein | Gibt Protokollbefehle an, die nach jedem URL-Befehl angewendet werden, wodurch die vom Benutzer bereitgestellten Einstellungen außer Kraft gesetzt werden. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Die Firma, zu der die Vorlage gehört. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Der Ordner-Handle, der den Ordner darstellt, in dem sich die Vorlage befindet. |
+| `*`name`*` | `xsd:string` | Ja | Vorlagenname. |
+| `*`type`*` | `xsd:string` | Ja | Vorlagentyp. |
+| `*`urlModifier`*` | `xsd:string` | Ja | Gibt die im IS-Katalog gespeicherten Image-Server-Befehle an, die vor den vom Benutzer bereitgestellten Befehlen auf die URL angewendet werden. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Gibt Protokollbefehle an, die nach jedem URL-Befehl angewendet werden, wodurch die vom Benutzer bereitgestellten Einstellungen außer Kraft gesetzt werden. |
 
 **Output (createTemplateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | Der Griff zur Vorlage. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Der Griff zur Vorlage. |
 
 ## Beispiele {#section-09adb4d2f0c944af875c4463a461f55d}
 
