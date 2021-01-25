@@ -1,15 +1,15 @@
 ---
-description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7 Image Rendering beschrieben.
-seo-description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7 Image Rendering beschrieben.
+description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
+seo-description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
 seo-title: Serververwaltungsvorgabe
 solution: Experience Manager
 title: Serververwaltungsvorgabe
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Server-Verwaltungswort{#server-administration-preface}
 
-In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Scene7 Image Rendering beschrieben.
+In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
 
 **Vorgesehene Audience**
 
-Diese Dokumentation richtet sich an Systemadministratoren und Webmaster, die Scene7 Image Rendering installieren, konfigurieren und verwalten müssen.
+Diese Dokumentation richtet sich an Systemadministratoren und Webmaster, die Dynamic Media Image Rendering installieren, konfigurieren und verwalten müssen.
 
 **Dokument-Übereinkommen**
 
