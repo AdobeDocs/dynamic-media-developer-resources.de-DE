@@ -4,10 +4,10 @@ seo-description: Legt bildspezifische Felder für ein oder mehrere Bild-Assets f
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 9%
@@ -36,18 +36,18 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Bild-Assets enthält. |
-| ` *`updateArray`*` | `types:ImageFieldUpdateArray` | Ja | Das Array der Bildfelder wird aktualisiert. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Bild-Assets enthält. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Ja | Das Array der Bildfelder wird aktualisiert. |
 
 **Output (batchSetImageFields)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Bildfelder. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, die Bildfelder festzulegen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, die Bildfelder festzulegen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Bildfelder. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, die Bildfelder festzulegen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, die Bildfelder festzulegen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
 
 ## Beispiele {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
