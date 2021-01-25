@@ -4,10 +4,10 @@ seo-description: Wird von getGenerationInfo/engine verwendet.
 seo-title: Generierungsinformationen
 solution: Experience Manager
 title: Generierungsinformationen
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7e0ddd2c-25b5-4ff6-9906-bc6072f55681
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '20'
 ht-degree: 10%
