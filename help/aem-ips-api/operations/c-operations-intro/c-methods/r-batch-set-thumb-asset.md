@@ -4,10 +4,10 @@ seo-description: Legt das Miniaturbild für ein oder mehrere Assets fest.
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 13%
@@ -50,18 +50,18 @@ Zulässige Asset-Typen für Miniaturansichten bestehen aus den folgenden:
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Assets enthält. |
-| ` *`updateArray`*` | `types:ThumbAssetUpdateArray` | Ja | Das Aktualisierungsarray. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Assets enthält. |
+| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | Ja | Das Aktualisierungsarray. |
 
 **Output (batchSetThumbAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Miniaturansichten. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, die Miniaturansichten festzulegen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, die Miniaturansichten festzulegen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Miniaturansichten. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, die Miniaturansichten festzulegen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, die Miniaturansichten festzulegen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
 
 ## Beispiele {#section-6de69a8680c24c1486c5f01488393381}
 
