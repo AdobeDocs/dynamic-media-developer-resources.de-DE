@@ -1,16 +1,13 @@
 ---
 description: Erstellt ein Benutzerkonto und fügt dieses einer oder mehreren Firmen hinzu.
-seo-description: Erstellt ein Benutzerkonto und fügt dieses einer oder mehreren Firmen hinzu.
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 13%
 
 ---
 
@@ -34,20 +31,20 @@ Wenn Sie einen Benutzer zu mehreren Firmen hinzufügen, geben Sie diese Firmen a
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | Ja | Der Vorname des Benutzers. |
-| ` *`lastName`*` | `xsd:string` | Ja | Der Nachname des Benutzers. |
-| ` *`E-Mail`*` | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Legt die Rolle eines Benutzers in jeder Firma fest, zu der er gehört. Beachten Sie jedoch, dass die `IpsAdmin`-Rolle andere Einstellungen pro Firma außer Kraft setzt. |
-| ` *`Passwort`*` | `xsd:string` | Ja | Legt das Kennwort des Benutzers fest |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Nein | Legt den Ablauf des Kennworts fest. Geben Sie die Zeitzone beim Übergeben der Anforderung an. Die Zeitzonen werden auf &quot;Central Time&quot;eingestellt. |
-| ` *`isValid`*` | `xsd:boolean` | Ja | Bestimmt, ob der Benutzer gültig ist. |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | Ein Array von Firmen-Handles. |
+| `*`firstName`*` | `xsd:string` | Ja | Der Vorname des Benutzers. |
+| `*`lastName`*` | `xsd:string` | Ja | Der Nachname des Benutzers. |
+| `*`E-Mail`*` | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
+| `*`defaultRole`*` | `xsd:string` | Ja | Legt die Rolle eines Benutzers in jeder Firma fest, zu der er gehört. Beachten Sie jedoch, dass die `IpsAdmin`-Rolle andere Einstellungen pro Firma außer Kraft setzt. |
+| `*`Passwort`*` | `xsd:string` | Ja | Legt das Kennwort des Benutzers fest |
+| `*`passwordExpires`*` | `xsd:dateTime` | Nein | Legt den Ablauf des Kennworts fest. Geben Sie die Zeitzone beim Übergeben der Anforderung an. Die Zeitzonen werden auf &quot;Central Time&quot;eingestellt. |
+| `*`isValid`*` | `xsd:boolean` | Ja | Bestimmt, ob der Benutzer gültig ist. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | Ein Array von Firmen-Handles. |
 
 **Output (addUserParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Ja | Das Handle für den Benutzer. |
+| `*`userHandle`*` | `xsd:string` | Ja | Das Handle für den Benutzer. |
 
 ## Beispiele {#section-2547cef622734b71919eef849960b5cb}
 
