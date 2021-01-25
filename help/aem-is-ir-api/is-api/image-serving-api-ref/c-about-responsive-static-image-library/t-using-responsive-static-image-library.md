@@ -1,15 +1,12 @@
 ---
 description: Um einer Webseite eine Bibliothek mit interaktiven Bildern hinzuzufügen und vorhandene Bilder mit der Bibliothek zu verwalten, führen Sie die folgenden Schritte aus.
-seo-description: Um einer Webseite eine Bibliothek mit interaktiven Bildern hinzuzufügen und vorhandene Bilder mit der Bibliothek zu verwalten, führen Sie die folgenden Schritte aus.
-seo-title: Verwenden der Bibliothek für interaktives Bild
 solution: Experience Manager
 title: Verwenden der Bibliothek für interaktives Bild
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ Der folgende Code ist ein vollständiges Beispiel für eine triviale Webseite, a
 
 **Verwenden von intelligentem Beschneiden**
 
-In AEM 6.4 und Scene7 Viewers 5.9 sind zwei Smart-Beschneidungsmodi verfügbar:
+In AEM 6.4 und Dynamic Media Viewers 5.9 sind zwei Smart-Beschneidungsmodi verfügbar:
 
 * **Manuell**  - benutzerdefinierte Haltepunkte und entsprechende Bilddienstbefehle werden innerhalb eines Attributs im Bildelement definiert.
 * **Smart-Zuschneiden**  - berechnete Smart-Zuschneiden-Darstellungen werden automatisch vom Versand-Server abgerufen. Die beste Darstellung wird unter Verwendung der Laufzeitgröße des Bildelements ausgewählt.
