@@ -1,15 +1,12 @@
 ---
-description: Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
-seo-description: Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
-seo-title: cdnCacheInvalidation
+description: Leitet die bereitgestellte Liste von URLs an den Dynamic Media CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
@@ -17,19 +14,19 @@ ht-degree: 3%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Leitet die bereitgestellte Liste von URLs an den Scene7 CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
+Leitet die bereitgestellte Liste von URLs an den Dynamic Media CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache der HTTP-Antworten für ungültig zu erklären.
 
 ## cdnCacheInvalidation: Über {#section-4f70d2bc79d64288b961836ab17e9690}
 
-Die CDN-Cache-Ungültigmachung zwingt dazu, dass alle HTTP-Anforderungen für diese URLs anhand der aktuellen veröffentlichten Daten im Scene7-Netzwerk erneut überprüft werden, sobald diese Ungültigmachung über das CDN-Netzwerk verarbeitet wird. Alle URLs, die nicht mit der URL-Struktur des Scene7-Dienstes verbunden sind und direkt mit der beim Erstellen der Firma zugewiesenen Scene7-Firma-Stamm-ID übereinstimmen, führen zu einem API-Fehler für die gesamte Anforderung. Ungültige URLs, die vom CDN nicht unterstützt werden und für ungültig gehalten werden, führen auch zu einem API-Fehler für die gesamte Anforderung.
+Die CDN-Cache-Ungültigmachung zwingt dazu, dass alle HTTP-Anforderungen für diese URLs anhand der aktuellen veröffentlichten Daten im Dynamic Media-Netzwerk erneut validiert werden, nachdem diese Ungültigkeitserklärung über das CDN-Netzwerk verarbeitet wurde. Alle URLs, die nicht mit der URL-Struktur des Dynamic Media-Dienstes verbunden sind und direkt mit der beim Erstellen der Firma zugewiesenen Dynamic Media-Firma-Stamm-ID übereinstimmen, führen zu einem API-Fehler für die gesamte Anforderung. Ungültige URLs, die vom CDN nicht unterstützt werden und für ungültig gehalten werden, führen auch zu einem API-Fehler für die gesamte Anforderung.
 
 **Häufigkeit der Anwendung: Regeln**
 
-Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Scene7 kontrolliert. Das CDN behält sich das Ermessen vor, die Reaktion auf diese Ungültigkeiten zu mindern, um eine optimale Leistung seines Dienstes für seine Nutzer zu gewährleisten. Sollte Scene7 über eine Übernutzung dieser Funktion informiert werden, müssen wir entweder die Funktion pro Firma oder vollständig im gesamten Service deaktivieren.
+Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Dynamic Media gesteuert. Das CDN behält sich das Ermessen vor, die Reaktion auf diese Ungültigkeiten zu mindern, um eine optimale Leistung seines Dienstes für seine Nutzer zu gewährleisten. Sollte Dynamic Media über eine Übernutzung dieser Funktion informiert werden, müssen wir entweder die Funktion pro Firma oder vollständig im gesamten Service deaktivieren.
 
 **Bestätigungs-E-Mails**
 
-Bestätigungs-E-Mails des Scene7 CDN-Partners können an den Ersteller der Liste oder bis zu 5 weitere E-Mail-Adressen gesendet werden. Die API sendet die Bestätigung, wenn das gesamte CDN-Netzwerk benachrichtigt wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein einzelner Aufruf von `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der bereitgestellten URLs die Anzahl übersteigt, die Scene7 dem CDN-Partner bei einer einzigen Benachrichtigung zukommen lassen kann. Derzeit würde dies der Fall sein, wenn die Anforderung 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
+Bestätigungs-E-Mails des Dynamic Media CDN-Partners können an den Ersteller der Liste oder bis zu 5 weitere E-Mail-Adressen gesendet werden. Die API sendet die Bestätigung, wenn das gesamte CDN-Netzwerk benachrichtigt wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein einzelner Aufruf von `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der bereitgestellten URLs die Anzahl übersteigt, die Dynamic Media dem CDN-Partner bei einer einzigen Benachrichtigung zukommen lassen kann. Derzeit würde dies der Fall sein, wenn die Anforderung 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
 
 **Unterstützt seit**
 
@@ -64,7 +61,7 @@ Bestätigungs-E-Mails des Scene7 CDN-Partners können an den Ersteller der Liste
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> Typen:UrlArray</span> </p> </td> 
    <td> <p> Ja </p> </td> 
-   <td> <p> Liste von bis zu 1000 URLs, die aus dem CDN-Cache ungültig gemacht werden. Alle URLS müssen die Scene7-Firma-Stamm-ID enthalten, damit sie ungültig wird. </p> </td> 
+   <td> <p> Liste von bis zu 1000 URLs, die aus dem CDN-Cache ungültig gemacht werden. Alle URLS müssen die Dynamic Media-Firma-Stamm-ID enthalten, damit sie ungültig wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
