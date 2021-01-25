@@ -4,10 +4,10 @@ seo-description: Metadaten werden für Thumb-Assets aktualisiert.
 seo-title: ThumbAssetUpdateArray
 solution: Experience Manager
 title: ThumbAssetUpdateArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 43b96b01-3a88-48cc-b653-262c9fb798a5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 18%
@@ -25,5 +25,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`Elemente`*` | `types:ThumbAssetUpdates` | Ein Array von Thumb-Assets wird aktualisiert. |
+| `*`Elemente`*` | `types:ThumbAssetUpdates` | Ein Array von Thumb-Assets wird aktualisiert. |
 
