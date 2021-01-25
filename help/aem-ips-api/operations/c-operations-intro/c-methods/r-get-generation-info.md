@@ -4,10 +4,10 @@ seo-description: Gibt 2 verschiedene Arten von Informationen basierend auf den w
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 8%
@@ -39,18 +39,18 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`Codebegriff`*` | `xsd:string` | Ja | Der Griff zur Firma. |
-| ` *`Codebegriff`*` | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftschnitte. |
-| ` *`Codebegriff`*` | `xsd:string` | Nein | Das Handle des Assets zur Abfrage für generierte Assets. |
-| ` *`Codebegriff`*` | `xsd:string` | Nein | Das Handle des Assets zur Abfrage für Assets und Motoren, die bei seiner Erstellung verwendet werden. |
-| ` *`Codebegriff`*` | `xsd:StringArray` | Nein | Eigenschaften, die im Vorgang enthalten sind. |
-| ` *`Codebegriff`*` | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
+| `*`Codebegriff`*` | `xsd:string` | Ja | Der Griff zur Firma. |
+| `*`Codebegriff`*` | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftschnitte. |
+| `*`Codebegriff`*` | `xsd:string` | Nein | Das Handle des Assets zur Abfrage für generierte Assets. |
+| `*`Codebegriff`*` | `xsd:string` | Nein | Das Handle des Assets zur Abfrage für Assets und Motoren, die bei seiner Erstellung verwendet werden. |
+| `*`Codebegriff`*` | `xsd:StringArray` | Nein | Eigenschaften, die im Vorgang enthalten sind. |
+| `*`Codebegriff`*` | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
 
 **Output (getGenerationInfoReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | Ja | Array von Generierungsinformationen. |
+| `*`generationArray`*` | `types:GenerationInfoArray` | Ja | Array von Generierungsinformationen. |
 
 ## Beispiele {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
