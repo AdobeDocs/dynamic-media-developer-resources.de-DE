@@ -1,15 +1,12 @@
 ---
-description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Scene7-Viewern verwendet werden.
-seo-description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Scene7-Viewern verwendet werden.
-seo-title: Bildsatz
+description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Dynamic Media-Viewern verwendet werden.
 solution: Experience Manager
 title: Bildsatz
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 1a34aaef-4053-4474-abb8-794331898d88
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 2%
 
 # Bildsatz{#imageset}
 
-Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Scene7-Viewern verwendet werden.
+Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Dynamic Media-Viewern verwendet werden.
 
 Ein Bildsatz besteht aus einer sortierten, kommagetrennten Liste von Elementen, bei der jedes Element aus einem oder mehreren Unterelementen (Bild-IDs, Muster-IDs, Mediendateipfade, Beschriftungen usw.) besteht, die durch Semikolons und/oder Doppelpunkte voneinander getrennt sind.
 
@@ -49,24 +46,24 @@ Die folgenden Set-Definitionen werden vom Image Serving nativ unterstützt. Der 
 
 Jedes Element in einem grundlegenden Musterset besteht aus einem Verweis auf einen Bilddatensatz und einem optionalen separaten Verweis auf einen Bilddatensatz, der als Muster verwendet wird.
 
-| ` *`basicSwatchSet`*` | ` *``*&#42;[',' *`swatchItemsSwatchItem`*]` |
+| `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemsSwatchItem`*]` |
 |---|---|
-| ` *`swatchItem`*` | ` *``*[';' *`imageIdswatch`*]` |
-| ` *`Farbfeld`*` | ` *`swatchId`*|solidColorSpecifier` |
-| ` *`imageId`*` | IS-Bildreferenz (Katalog/ID) |
-| ` *`swatchId`*` | IS-Bildreferenz (Katalog/ID) |
-| ` *`solidColorSpecifier`*` | ` '{0x' *`rrggbblabel `* [ *``*]'}'` |
-| ` *`rggbb`*` | Packung mit 6-stelligem hexadezimalen RGB-Farbwert für Farbfelder mit Volltonfarbe |
-| ` *`label`*` | Optionale Textbeschriftung für Farbfelder mit Volltonfarbe |
+| `*`swatchItem`*` | `*``*[';' *`imageIdswatch`*]` |
+| `*`Farbfeld`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`imageId`*` | IS-Bildreferenz (Katalog/ID) |
+| `*`swatchId`*` | IS-Bildreferenz (Katalog/ID) |
+| `*`solidColorSpecifier`*` | ` '{0x' *`rrggbblabel `* [ *``*]'}'` |
+| `*`rggbb`*` | Packung mit 6-stelligem hexadezimalen RGB-Farbwert für Farbfelder mit Volltonfarbe |
+| `*`label`*` | Optionale Textbeschriftung für Farbfelder mit Volltonfarbe |
 
 **Hierarchische Mustersets**
 
 Jedes Element in einem hierarchischen Musterset kann aus einem einfachen Musterset oder einem Verweis auf einen Musterset-Datensatz bestehen (für solche Elemente sind Mustersets erforderlich).
 
-| ` *`hierarchySwatchSet`*` | ` *``* &#42;[ ',' *`hierarchySwatchItemHierarchicalSwatchItem`* ]` |
+| `*`hierarchySwatchSet`*` | `*``* &#42;[ ',' *`hierarchySwatchItemHierarchicalSwatchItem`* ]` |
 |---|---|
-| ` *`hierarchySwatchItem`*` | ` *``* | { *``* ';' *`swatchItemBasicSwatchSetIdswatch`* }` |
-| ` *`basicSwatchSetId`*` | IS-Verweis (Katalog/ID) auf einen Katalogdatensatz, der ein einfaches Musterset definiert |
+| `*`hierarchySwatchItem`*` | `*``* | { *``* ';' *`swatchItemBasicSwatchSetIdswatch`* }` |
+| `*`basicSwatchSetId`*` | IS-Verweis (Katalog/ID) auf einen Katalogdatensatz, der ein einfaches Musterset definiert |
 
 **Grundlegende Rotationssets**
 
@@ -78,38 +75,38 @@ Ein einfaches Rotationsset besteht aus einer einfachen Liste von Bild-IDs.
 
 Jedes Element in einem zweidimensionalen Rotationsset kann aus einem einfachen Bild, einem Verweis auf ein einfaches Rotationsset oder einem durch geschweifte Klammern getrennten grundlegenden Rotationsset bestehen. Klammern können anstelle von geschweiften Klammern verwendet werden.
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
-| ` *`basicSpinSetId`*` | IS-Verweis (Katalog/ID) auf einen Katalogdatensatz, der ein einfaches Rotationsset definiert |
+| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
+| `*`basicSpinSetId`*` | IS-Verweis (Katalog/ID) auf einen Katalogdatensatz, der ein einfaches Rotationsset definiert |
 
 **Seitensätze**
 
 Jedes Element in einem Seitensatz kann aus bis zu drei mit Doppelpunkten getrennten Seitenbildern bestehen.
 
-| ` *`pageSet`*` | ` *``* &#42;[ , *`pageItemItem`* ]` |
+| `*`pageSet`*` | `*``* &#42;[ , *`pageItemItem`* ]` |
 |---|---|
-| ` *`pageItem`*` | ` *``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
+| `*`pageItem`*` | `*``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
 
 **Mediensets**
 
 Jedes Element in einem Mediensatz kann aus einem Bild, einem einfachen Musterset, einem hierarchischen Musterset, einem einfachen Rotationsset, einem zweidimensionalen Rotationsset, einem Seitensatz oder einem Video-Asset bestehen. Jedes Medienset-Element kann auch ein optionales Muster und eine Typkennung enthalten.
 
-| ` *`mediaSet`*` | ` *``* &#42;[ , *`item`* ]` |
+| `*`mediaSet`*` | `*``* &#42;[ , *`item`* ]` |
 |---|---|
-| ` *`Element`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemRecutItemimageItemItemIDreserved`* ] ] ]` |
-| ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *``* ; *`recutswatchId`*` |
-| ` *`imageItem`*` | ` *``* ; [ *`imageIdswatchId`* ]` |
-| ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
-| ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| ` *`swatchId`*` | IS-Bild-ID |
-| ` *`video`*` | Pfad der Video-/Animationsdatei oder statische Katalog-ID |
-| ` *`recut`*` | XML-Dateipfad der Neuschnittanzeige oder statische Katalog-ID |
-| ` *`imageId`*` | IS-Bild-ID |
-| ` *`setId`*` | IS-Verweis auf Bild-, Rotationsset- oder E-Katalog-Set |
-| ` *`inlineSet`*` | Inline-Bild-, Rotationsset- oder E-Katalog-Set |
-| ` *`reserviert`*` | Für zukünftige Verwendung reserviert |
+| `*`Element`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemRecutItemimageItemItemIDreserved`* ] ] ]` |
+| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
+| `*`recutItem`*` | `*``* ; *`recutswatchId`*` |
+| `*`imageItem`*` | `*``* ; [ *`imageIdswatchId`* ]` |
+| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
+| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`swatchId`*` | IS-Bild-ID |
+| `*`video`*` | Pfad der Video-/Animationsdatei oder statische Katalog-ID |
+| `*`recut`*` | XML-Dateipfad der Neuschnittanzeige oder statische Katalog-ID |
+| `*`imageId`*` | IS-Bild-ID |
+| `*`setId`*` | IS-Verweis auf Bild-, Rotationsset- oder E-Katalog-Set |
+| `*`inlineSet`*` | Inline-Bild-, Rotationsset- oder E-Katalog-Set |
+| `*`reserviert`*` | Für zukünftige Verwendung reserviert |
 
 **Videosets**
 
