@@ -4,10 +4,10 @@ seo-description: Ruft die Auftragsprotokolle für ein Asset ab. Elemente, die im
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 8%
@@ -39,14 +39,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der das Asset gehört. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset mit den abzurufenden Auftragsprotokollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der das Asset gehört. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset mit den abzurufenden Auftragsprotokollen. |
 
 **Output (getAssetJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | Ja | Auftragsprotokollarray. |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | Ja | Auftragsprotokollarray. |
 
 ## Beispiele {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
