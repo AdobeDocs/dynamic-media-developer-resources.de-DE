@@ -1,15 +1,12 @@
 ---
-description: Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb der von Scene7 entwickelten Anwendungen verwendet werden.
-seo-description: Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb der von Scene7 entwickelten Anwendungen verwendet werden.
-seo-title: Eingeschränkte Verwendung
+description: Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb der von Dynamic Media entwickelten Anwendungen verwendet werden.
 solution: Experience Manager
 title: Eingeschränkte Verwendung
-topic: Scene7 Image Production System API
-uuid: 76a423e5-ff7d-44a3-aba4-af258ea55256
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Eingeschränkte Verwendung{#restricted-use}
 
-Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb der von Scene7 entwickelten Anwendungen verwendet werden.
+Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb der von Dynamic Media entwickelten Anwendungen verwendet werden.
 
 Diese Vorgänge und Typen können mit nachfolgenden Systemaktualisierungen deaktiviert, geändert oder eingestellt werden.
 
