@@ -1,16 +1,13 @@
 ---
 description: Details zur Fehlermeldung. Gibt die Detailebene für Fehlermeldungen an, die über HTTP als error.message-Wert zurückgegeben werden.
-seo-description: Details zur Fehlermeldung. Gibt die Detailebene für Fehlermeldungen an, die über HTTP als error.message-Wert zurückgegeben werden.
-seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +33,7 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java-Stapelspuren hinzu. Fehlerbilder enthalten keine Stapelspuren und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. Diese Informationen können nützlich sein, wenn Berichte beim Scene7 Tech Support auftreten. </p></td> 
+  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java-Stapelspuren hinzu. Fehlerbilder enthalten keine Stapelspuren und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. Diese Informationen können nützlich sein, wenn der Berichte Probleme mit dem technischen Support von Dynamic Media hat. </p></td> 
  </tr> 
 </table>
 
