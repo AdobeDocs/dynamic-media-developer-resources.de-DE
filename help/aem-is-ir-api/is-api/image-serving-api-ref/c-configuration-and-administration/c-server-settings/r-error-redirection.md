@@ -4,10 +4,10 @@ seo-description: Verwenden Sie diese Servereinstellungen, um Fehler umzuleiten.
 seo-title: Fehler-Umleitung
 solution: Experience Manager
 title: Fehler-Umleitung
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
