@@ -4,10 +4,10 @@ seo-description: Substitutionsvariablen werden verwendet, um Werte aus der Anfor
 seo-title: Substitutionsvariablen
 solution: Experience Manager
 title: Substitutionsvariablen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Variablenwerte, die in fremde Anfragen ersetzt werden sollen, müssen in der Reg
 
 ## Vordefinierte Pfadvariable {#section-930d0dd12e8f49499becc9fe8df24092}
 
-Das im Anforderungspfad angegebene *`object`* wird der vordefinierten Variablen ` *`$object`*` zugewiesen. &#39; ` $ *`object`*$`&#39; kann an einer beliebigen Stelle in der Anforderung platziert werden, in der Vorlage, auf die die Anforderung verweist, oder in einer verschachtelten/eingebetteten Anforderung, in der ein solches Objekt zulässig ist, einschließlich des Werts `src=` und `mask=` sowie des Pfads einer verschachtelten/eingebetteten Anforderung.
+Das im Anforderungspfad angegebene *`object`* wird der vordefinierten Variablen `*`$object`*` zugewiesen. &#39; ` $ *`object`*$`&#39; kann an einer beliebigen Stelle in der Anforderung platziert werden, in der Vorlage, auf die die Anforderung verweist, oder in einer verschachtelten/eingebetteten Anforderung, in der ein solches Objekt zulässig ist, einschließlich des Werts `src=` und `mask=` sowie des Pfads einer verschachtelten/eingebetteten Anforderung.
 
 Beispielsweise wird in der folgenden Anforderung das im Pfad angegebene Bild als Quelle einer Ebene in einer verschachtelten Anforderung wiederverwendet:
 
@@ -92,13 +92,13 @@ Dies entspricht
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-Die Definition von ` *`$object`*` kann überschrieben werden, indem ` $ *`object`*=` explizit mit dem gewünschten Wert angegeben wird.
+Die Definition von `*`$object`*` kann überschrieben werden, indem ` $ *`object`*=` explizit mit dem gewünschten Wert angegeben wird.
 
 Die vordefinierte Pfadvariable wird häufig zusammen mit `template=` verwendet.
 
 ## Standard {#section-b02483d15529444586a2e9504805b155}
 
-Keine. Nur definierte Variablen werden vom Server ersetzt (mit Ausnahme der vordefinierten Pfadvariablen $object, die immer ersetzt werden). Vorkommnisse von ` $ *`var`*$` bleiben literal, wenn ` *`var`*`nicht mit einer vorhandenen Variablendefinition übereinstimmen kann.
+Keine. Nur definierte Variablen werden vom Server ersetzt (mit Ausnahme der vordefinierten Pfadvariablen $object, die immer ersetzt werden). Vorkommnisse von ` $ *`var`*$` bleiben literal, wenn `*`var`*`nicht mit einer vorhandenen Variablendefinition übereinstimmen kann.
 
 ## Beispiele {#section-fba9393df6984247b7e30b3f93992e86}
 
