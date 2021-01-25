@@ -4,10 +4,10 @@ seo-description: Substitutionsvariable wird verwendet, um Werte von der Anforder
 seo-title: Ersatzvariablen
 solution: Experience Manager
 title: Ersatzvariablen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -34,6 +34,6 @@ Substitutionsvariable wird verwendet, um Werte von der Anforderungs-URL auf auf 
 
 * Variablendefinitionen und -verweise können im Abschnitt &quot;Abfrage&quot;der Anforderungs-URL auftreten.
 * Variablen werden wie oben definiert, ähnlich wie andere IS-Befehle. der führende &#39;$&#39; identifiziert den Befehl als Variablendefinition.
-* Beim Variablennamen ` *`var`*` wird die Groß-/Kleinschreibung beachtet und kann aus einer beliebigen Kombination von Buchstaben, Zahlen, &#39;-&#39; und &#39;_&#39; bestehen.
+* Beim Variablennamen `*`var`*` wird die Groß-/Kleinschreibung beachtet und kann aus einer beliebigen Kombination von Buchstaben, Zahlen, &#39;-&#39; und &#39;_&#39; bestehen.
 * Wichtiger Wert muss für eine sichere HTTP-Übertragung mit einer einzigen Pass-URL kodiert sein.
 
