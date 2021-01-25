@@ -4,10 +4,10 @@ seo-description: Benennt ein Asset um.
 seo-title: renameAsset
 solution: Experience Manager
 title: renameAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 7%
@@ -42,10 +42,10 @@ Benennt ein Asset um.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der das Asset gehört. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset, das Sie umbenennen möchten. |
-| ` *`newName`*` | `xsd:string` | Ja | Der neue Name des Assets. |
-| ` *`validateName`*` | `xsd:boolean` | Ja | Wenn `validateName` `true` ist und für den Asset-Typ eine eindeutige IPS-ID erforderlich ist, wird der neue Name auf globale Eindeutigkeit überprüft und `renameAsset` gibt einen Fehler aus, wenn er nicht eindeutig ist. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der das Asset gehört. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset, das Sie umbenennen möchten. |
+| `*`newName`*` | `xsd:string` | Ja | Der neue Name des Assets. |
+| `*`validateName`*` | `xsd:boolean` | Ja | Wenn `validateName` `true` ist und für den Asset-Typ eine eindeutige IPS-ID erforderlich ist, wird der neue Name auf globale Eindeutigkeit überprüft und `renameAsset` gibt einen Fehler aus, wenn er nicht eindeutig ist. |
 
 **Output (renameAssetReturn)**
 
