@@ -4,12 +4,12 @@ seo-description: Cache-Einträge werden automatisch aktualisiert, indem entweder
 seo-title: Validierung des Antwortcache
 solution: Experience Manager
 title: Validierung des Antwortcache
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Cache-Einträge werden ungültig und können erneut generiert werden, wenn sich 
 
 >[!NOTE]
 >
->Scene7 Pyramid TIFF-(PTIFF-)Bilder behalten das Dateidatum intern im Dateikopf zu Überprüfungszwecken bei. Die Dateiänderungszeit, die vom Dateisystem beibehalten wird, dient zur Überprüfung, ob sich eine Nicht-PTIFF-Datei geändert hat.
+>Dynamic Media Pyramid TIFF-(PTIFF-)Bilder behalten das Dateidatum intern im Dateikopf zu Überprüfungszwecken bei. Die Dateiänderungszeit, die vom Dateisystem beibehalten wird, dient zur Überprüfung, ob sich eine Nicht-PTIFF-Datei geändert hat.
 
 Nur Bilddateien nehmen am Cache-Validierungsprozess teil. Änderungen an Schriftartdateien oder ICC-Profil-Dateien führen nicht zur automatischen Ungültigmachung von Cache-Einträgen.
