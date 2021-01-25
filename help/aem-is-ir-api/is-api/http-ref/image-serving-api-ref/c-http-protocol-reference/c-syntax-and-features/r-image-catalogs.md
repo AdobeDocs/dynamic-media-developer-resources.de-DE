@@ -4,10 +4,10 @@ seo-description: Die Funktionen und die Syntax von Bildkatalogen werden in diese
 seo-title: Bildkataloge
 solution: Experience Manager
 title: Bildkataloge
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ Bildkataloge Angebot der folgenden Funktionen:
 
 * Beständige Verknüpfung von Bildern mit bestimmten Metadaten und Modifikatorbefehlen zulassen.
 
-   Auf Einträge in Bildkatalogen wird mit der Kurzbefehlsnotation ` *`rootId/objId`*` verwiesen, wobei ` *`rootId`*` den Bildkatalog identifiziert und ` *`objId`*` einen Datensatz im Katalog identifiziert.
+   Auf Einträge in Bildkatalogen wird mit der Kurzbefehlsnotation `*`rootId/objId`*` verwiesen, wobei `*`rootId`*` den Bildkatalog identifiziert und `*`objId`*` einen Datensatz im Katalog identifiziert.
 * Geben Sie Standardwerte für bestimmte Anforderungsattribute an, z. B. für die JPEG-Qualität oder für die Anwendung eines Wasserzeichens.
 * Verwalten von Schriftarten, ICC-Profilen, Makrodefinitionen und Anforderungsvorlagen
 
 Auch wenn keine bestimmten Bildkataloge definiert sind, stehen alle Funktionen von Bildkatalogen über den Standardkatalog ( [!DNL default.ini]) zur Verfügung.
 
-Wenn ` *`rootId`*` im URL-Pfad der Anforderung mit `attribute::RootId` eines bestimmten Bildkatalogs übereinstimmt, wird dieser Katalog zum Hauptkatalog für diese Anforderung. Der Hauptkatalog enthält die Standardattribute und -einstellungen für die gesamte Anforderung. Wenn keine Übereinstimmung gefunden wird, wird stattdessen der Standardkatalog verwendet.
+Wenn `*`rootId`*` im URL-Pfad der Anforderung mit `attribute::RootId` eines bestimmten Bildkatalogs übereinstimmt, wird dieser Katalog zum Hauptkatalog für diese Anforderung. Der Hauptkatalog enthält die Standardattribute und -einstellungen für die gesamte Anforderung. Wenn keine Übereinstimmung gefunden wird, wird stattdessen der Standardkatalog verwendet.
 
 Ein Katalog, der in einem Befehl `src=` oder `mask=` identifiziert wird, stellt die folgenden Katalogattribute und Daten für die aktuelle Ebene bereit:
 
@@ -104,7 +104,7 @@ Innerhalb derselben Ebene müssen `src=` und `mask=` auf denselben Bildkatalog v
 
 Ein in einem `icc=`-Befehl identifizierter Katalog wird nur zum Nachschlagen eines Eintrags aus der ICC-Profil-Tabelle des Katalogs verwendet. Es sind keine anderen Katalogattribute oder Daten betroffen.
 
-Wenn ` *`rootId`*` zu einem Katalog aufgelöst wird und ` *`objId`*` in diesem Katalog mit einem `catalog::Id` übereinstimmt, wird ` *`rootId/objId`*` effektiv durch den Katalogeintrag in etwa wie folgt ersetzt:
+Wenn `*`rootId`*` zu einem Katalog aufgelöst wird und `*`objId`*` in diesem Katalog mit einem `catalog::Id` übereinstimmt, wird `*`rootId/objId`*` effektiv durch den Katalogeintrag in etwa wie folgt ersetzt:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
