@@ -1,15 +1,12 @@
 ---
 description: Alle Konfigurationsdateien befinden sich in install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Der Server muss möglicherweise neu gestartet werden, damit die Änderungen wirksam werden.
-seo-description: Alle Konfigurationsdateien befinden sich in install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Der Server muss möglicherweise neu gestartet werden, damit die Änderungen wirksam werden.
-seo-title: Serverkonfigurationsdateien
 solution: Experience Manager
 title: Serverkonfigurationsdateien
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Alle Konfigurationsdateien befinden sich in install_folder/conf und können mit 
 
 >[!NOTE]
 >
->Die meisten Serverkonfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Diese Eigenschaften sind für den internen Servergebrauch bestimmt und dürfen nur nach ausdrücklicher Anweisung des Scene7 Tech Support geändert werden.
+>Die meisten Serverkonfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Diese Eigenschaften sind für den internen Servergebrauch bestimmt und dürfen nur nach ausdrücklicher Anweisung des technischen Kundendiensts von Dynamic Media geändert werden.
 
 In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdateien besprochen:
 
