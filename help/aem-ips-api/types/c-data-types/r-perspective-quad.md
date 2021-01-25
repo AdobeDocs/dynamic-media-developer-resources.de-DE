@@ -4,10 +4,10 @@ seo-description: Bildstandortkoordinaten, die vom getFotoshopPath-Vorgang zurüc
 seo-title: PerectiveQuad
 solution: Experience Manager
 title: PerectiveQuad
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 17%
@@ -25,14 +25,14 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`x0`*` | `xsd:double` | Die X-Achsen-Koordinate oben links. |
-| ` *`y0`*` | `xsd:double` | Koordinate der y-Achse oben links |
-| ` *`x1`*` | `xsd:double` | Koordinate oben rechts x-Achse. |
-| ` *`y1`*` | `xsd:double` | Koordinate rechts oben. |
-| ` *`x2`*` | `xsd:double` | Die X-Achsen-Koordinate unten rechts. |
-| ` *`y2`*` | `xsd:double` | Unten rechts y-Achsen-Koordinate. |
-| ` *`x3`*` | `xsd:double` | X-Achsen-Koordination unten links. |
-| ` *`y3`*` | `xsd:double` | Koordinate der Y-Achse unten links |
+| `*`x0`*` | `xsd:double` | Die X-Achsen-Koordinate oben links. |
+| `*`y0`*` | `xsd:double` | Koordinate der y-Achse oben links |
+| `*`x1`*` | `xsd:double` | Koordinate oben rechts x-Achse. |
+| `*`y1`*` | `xsd:double` | Koordinate rechts oben. |
+| `*`x2`*` | `xsd:double` | Die X-Achsen-Koordinate unten rechts. |
+| `*`y2`*` | `xsd:double` | Unten rechts y-Achsen-Koordinate. |
+| `*`x3`*` | `xsd:double` | X-Achsen-Koordination unten links. |
+| `*`y3`*` | `xsd:double` | Koordinate der Y-Achse unten links |
 
 ## Beispiel {#section-19ed4409ff3a41c9b52a9c9424612927}
 
