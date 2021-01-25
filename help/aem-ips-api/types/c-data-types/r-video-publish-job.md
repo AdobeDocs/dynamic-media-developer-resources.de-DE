@@ -4,10 +4,10 @@ seo-description: Veröffentlicht Dateien auf den konfigurierten Video-Veröffent
 seo-title: VideoPublishJob
 solution: Experience Manager
 title: VideoPublishJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 430cdb75-b909-4023-8627-e9db1991b533
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 10%
@@ -25,7 +25,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`emailSetting`*` | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
-| ` *`httpCompletionUrl`*` | `xsd:string` | URL zum Versenden eines Vervollständigungsschreibens. |
-| ` *`contextHandle`*` | `xsd:string` | Behandeln Sie den Veröffentlichungskontext. |
+| `*`emailSetting`*` | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
+| `*`httpCompletionUrl`*` | `xsd:string` | URL zum Versenden eines Vervollständigungsschreibens. |
+| `*`contextHandle`*` | `xsd:string` | Behandeln Sie den Veröffentlichungskontext. |
 
