@@ -4,10 +4,10 @@ seo-description: Erstellt eine voreingestellte Ansicht, die bestimmt, was ein Be
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 11%
@@ -34,17 +34,17 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Viewer-Vorgaben und -Elemente enthält. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | Das Handle des Ordners, der die Assets enthält. |
-| ` *`name`*` | `xsd:string` | Ja | Viewer-Name. |
-| ` *`type`*` | `xsd:string` | Ja | Viewer-Typ. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Griffe von Bildern enthält, auf die Sie Vorgaben anwenden. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Viewer-Vorgaben und -Elemente enthält. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Das Handle des Ordners, der die Assets enthält. |
+| `*`name`*` | `xsd:string` | Ja | Viewer-Name. |
+| `*`type`*` | `xsd:string` | Ja | Viewer-Typ. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Griffe von Bildern enthält, auf die Sie Vorgaben anwenden. |
 
 **Output (createViewerPresetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Ja | Handhabung der Vorgabe für den Viewer. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Ja | Handhabung der Vorgabe für den Viewer. |
 
 ## Beispiele {#section-c88ea63536f3461cbe4677ba53f875dd}
 
