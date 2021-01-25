@@ -4,10 +4,10 @@ seo-description: Überprüft, ob sich ein Benutzer mit einer bestimmten Firma (a
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 11%
@@ -41,15 +41,15 @@ ht-degree: 11%
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nein | Das Handle der Firma, in der sich der Benutzer befindet. |
-| ` *`E-Mail`*` | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
-| ` *`Passwort`*` | `xsd:string` | Ja | Das Kennwort des Benutzers. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Das Handle der Firma, in der sich der Benutzer befindet. |
+| `*`E-Mail`*` | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
+| `*`Passwort`*` | `xsd:string` | Ja | Das Kennwort des Benutzers. |
 
 **Output (checkLoginParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`status`*` | `xsd:string` | Ja | Anmeldestatus des Benutzers. |
+| `*`status`*` | `xsd:string` | Ja | Anmeldestatus des Benutzers. |
 
 ## Beispiele {#section-23f90100a9d94bc7b4045634cccd1b98}
 
