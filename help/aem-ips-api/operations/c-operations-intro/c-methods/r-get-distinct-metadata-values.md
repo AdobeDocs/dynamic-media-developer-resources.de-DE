@@ -4,10 +4,10 @@ seo-description: Gibt alle Werte für ein Metadatenfeld zurück.
 seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 21%
@@ -37,14 +37,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, für die Sie Daten abrufen möchten. |
-| ` *`metadataKey`*` | `xsd:string` | Ja | Metadatenschlüssel in Punktnotation. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, für die Sie Daten abrufen möchten. |
+| `*`metadataKey`*` | `xsd:string` | Ja | Metadatenschlüssel in Punktnotation. |
 
 **Output (getDistinctMetadataValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`valueArray`*` | `types:ValueArray` | Ja | Werte des angeforderten Metadatenfelds. |
+| `*`valueArray`*` | `types:ValueArray` | Ja | Werte des angeforderten Metadatenfelds. |
 
 ## Beispiele {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
