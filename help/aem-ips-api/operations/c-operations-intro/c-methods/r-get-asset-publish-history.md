@@ -4,10 +4,10 @@ seo-description: Gibt den Veröffentlichungsverlauf für ein Asset zurück.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 16%
@@ -39,14 +39,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle für die Firma mit dem Asset-Veröffentlichungsverlauf. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Das Asset mit dem Veröffentlichungsverlauf, den Sie untersuchen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für die Firma mit dem Asset-Veröffentlichungsverlauf. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Asset mit dem Veröffentlichungsverlauf, den Sie untersuchen möchten. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | Der Veröffentlichungsverlauf des Assets. |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | Der Veröffentlichungsverlauf des Assets. |
 
 ## Beispiele {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
