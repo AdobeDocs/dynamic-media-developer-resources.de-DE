@@ -1,15 +1,12 @@
 ---
-description: In diesem Dokument wird das HTTP-Protokoll für Scene7 Image Rendering beschrieben.
-seo-description: In diesem Dokument wird das HTTP-Protokoll für Scene7 Image Rendering beschrieben.
-seo-title: Einführung
+description: In diesem Dokument wird das HTTP-Protokoll für Dynamic Media Image Rendering beschrieben.
 solution: Experience Manager
 title: Einführung
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -17,15 +14,15 @@ ht-degree: 1%
 
 # Einführung{#introduction}
 
-In diesem Dokument wird das HTTP-Protokoll für Scene7 Image Rendering beschrieben.
+In diesem Dokument wird das HTTP-Protokoll für Dynamic Media Image Rendering beschrieben.
 
-Nur die öffentlich zugänglichen Aspekte des Protokolls werden beschrieben. Der Server unterstützt möglicherweise zusätzliche Befehle, die für die Verwendung durch Scene7 Client-Software reserviert sind.
+Nur die öffentlich zugänglichen Aspekte des Protokolls werden beschrieben. Der Server unterstützt möglicherweise zusätzliche Befehle, die für die Verwendung durch Dynamic Media Client-Software reserviert sind.
 
 **Vorgesehene Audience**
 
-Diese Dokumentation richtet sich an erfahrene Programmierer und Website-Entwickler, die Scene7 Image Rendering für eine Website oder eine benutzerdefinierte Anwendung nutzen möchten.
+Diese Dokumentation richtet sich an erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Rendering für eine Website oder eine benutzerdefinierte Anwendung nutzen möchten.
 
-Es wird davon ausgegangen, dass der Leser mit Scene7 Image Authoring und Image Rendering, allgemeinen Standards und Konventionen des HTTP-Protokolls und grundlegenden Terminologie der Bildbearbeitung vertraut ist.
+Es wird davon ausgegangen, dass der Leser mit Dynamic Media Image Authoring und Image Rendering, allgemeinen Standards und Konventionen des HTTP-Protokolls und grundlegenden Terminologie der Bildbearbeitung vertraut ist.
 
 **Dokument-Übereinkommen**
 
@@ -100,4 +97,4 @@ Es wird davon ausgegangen, dass der Leser mit Scene7 Image Authoring und Image R
 
 ** *`MSS`* ** Materialspezifikationssegment: eine Reihe von Materialattributen zwischen zwei Auswahlbefehlen in der Anforderung.
 
-** *`vignette`* ** Ein in Scene7 Image Authoring für die Verwendung mit Image Rendering vorbereitetes Bild.
+** *`vignette`* ** Ein in Dynamic Media Image Authoring für die Verwendung mit Image Rendering vorbereitetes Bild.
