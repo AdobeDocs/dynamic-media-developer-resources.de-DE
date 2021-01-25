@@ -4,10 +4,10 @@ seo-description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssät
 seo-title: Befehlsmakros
 solution: Experience Manager
 title: Befehlsmakros
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit. Makros
  </tr> 
 </table>
 
-` *`Bei `*` Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden und es kann sich um eine beliebige Kombination aus ASCII-Buchstaben, -Zahlen, -Zeichen, -Zeichen, -Zeichen und -Zeichen handeln. Zeichen.
+`*`Bei `*` Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden und es kann sich um eine beliebige Kombination aus ASCII-Buchstaben, -Zahlen, -Zeichen, -Zeichen, -Zeichen und -Zeichen handeln. Zeichen.
 
 Makros können an einer beliebigen Stelle in einer Anforderung nach dem &quot;?&quot;aufgerufen werden, ebenso an einer beliebigen Stelle innerhalb eines Felds `catalog::Modifier` oder `catalog::PostModifier`. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;Trennzeichen getrennt werden.
 
