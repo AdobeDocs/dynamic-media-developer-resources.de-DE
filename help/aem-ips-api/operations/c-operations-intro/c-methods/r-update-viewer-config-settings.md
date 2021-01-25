@@ -4,10 +4,10 @@ seo-description: Aktualisiert die Konfigurationseinstellungen des SWF-Viewers.
 seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 13%
@@ -34,9 +34,9 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Benutzen Sie die Firma. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Array von Konfigurationseinstellungen, die Sie auf den Viewer anwenden möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Benutzen Sie die Firma. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Array von Konfigurationseinstellungen, die Sie auf den Viewer anwenden möchten. |
 
 **Output (updateViewerConfigSettingsReturn)**
 
