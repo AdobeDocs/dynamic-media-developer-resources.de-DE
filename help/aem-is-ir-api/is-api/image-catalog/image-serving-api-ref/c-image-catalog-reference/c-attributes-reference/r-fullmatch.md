@@ -4,10 +4,10 @@ seo-description: Katalogzuordnungsoption.
 seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 2%
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 Katalogzuordnungsoption.
 
-Ein Katalogeintrag wird in HTTP-Anforderungen als Paar ` *`rootId`*/ *`imageId`*` angegeben. Bei der Analyse wird ein Katalog ausgewählt, wenn ` *`rootId`*` mit dem `attribute::RootId`-Wert des Katalogs übereinstimmt und der Katalogeintrag durch Übereinstimmung ` *`imageId`*` mit einem `catalog::Id`-Wert identifiziert wird. Wenn ein Katalog gefunden wird, aber kein Katalogeintrag mit ` *`imageId`*` übereinstimmt, kann der Server eine der beiden folgenden Aufgaben ausführen:
+Ein Katalogeintrag wird in HTTP-Anforderungen als Paar `*`rootId`*/ *`imageId`*` angegeben. Bei der Analyse wird ein Katalog ausgewählt, wenn `*`rootId`*` mit dem `attribute::RootId`-Wert des Katalogs übereinstimmt und der Katalogeintrag durch Übereinstimmung `*`imageId`*` mit einem `catalog::Id`-Wert identifiziert wird. Wenn ein Katalog gefunden wird, aber kein Katalogeintrag mit `*`imageId`*` übereinstimmt, kann der Server eine der beiden folgenden Aufgaben ausführen:
 
-Wenn `attribute::FullMatch` nicht eingestellt ist, verwendet der Server die Attribute des entsprechenden Katalogs. In diesem Fall wird ` *`rootId`*` durch `attribute::RootPath` ersetzt (oder `default::RootPath`, falls in diesem Katalog nicht angegeben).
+Wenn `attribute::FullMatch` nicht eingestellt ist, verwendet der Server die Attribute des entsprechenden Katalogs. In diesem Fall wird `*`rootId`*` durch `attribute::RootPath` ersetzt (oder `default::RootPath`, falls in diesem Katalog nicht angegeben).
 
-Wenn `attribute::FullMatch` eingestellt ist, ignoriert der Server den Katalog vollständig, als wäre kein Katalog zugeordnet worden, und fährt mit den Standardkatalogattributen fort. In diesem Fall bleibt ` *`rootId`*` Teil des Pfads (dem `default::RootPath` vorangestellt wird).
+Wenn `attribute::FullMatch` eingestellt ist, ignoriert der Server den Katalog vollständig, als wäre kein Katalog zugeordnet worden, und fährt mit den Standardkatalogattributen fort. In diesem Fall bleibt `*`rootId`*` Teil des Pfads (dem `default::RootPath` vorangestellt wird).
 
 ## Eigenschaften {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
