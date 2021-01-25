@@ -1,15 +1,12 @@
 ---
 description: 'Zusätzlich zum für die Installation der Software erforderlichen Speicherplatz verfügt Image Serving über die folgenden Speicherplatzanforderungen '
-seo-description: 'Zusätzlich zum für die Installation der Software erforderlichen Speicherplatz verfügt Image Serving über die folgenden Speicherplatzanforderungen '
-seo-title: Speicherplatzanforderungen und Empfehlungen
 solution: Experience Manager
 title: Speicherplatzanforderungen und Empfehlungen
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ Zusätzlich zu dem für die Installation der Software erforderlichen Speicherpla
 
 ## Speicherplatzanforderungen für Quellbilder {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Es wird empfohlen, alle Quellbilder mit dem Bildkonverter-Befehlszeilenwerkzeug (IC) in das Pyramid TIFF-Dateiformat (PTIFF) zu konvertieren. Diese Konvertierung gewährleistet eine optimale Laufzeitleistung des Image Serving für alle Anwendungen. Während der Image-Server alle von IC akzeptierten Quelldateiformate verarbeiten kann, bietet Scene7 keine Unterstützung für solche Verwendungen.
+Es wird empfohlen, alle Quellbilder mit dem Bildkonverter-Befehlszeilenwerkzeug (IC) in das Pyramid TIFF-Dateiformat (PTIFF) zu konvertieren. Diese Konvertierung gewährleistet eine optimale Laufzeitleistung des Image Serving für alle Anwendungen. Während der Image-Server alle von IC akzeptierten Quelldateiformate verarbeiten kann, bietet Dynamic Media keine Unterstützung für solche Verwendungen.
 
 Wenn Sie PTIFF-Dateien verwenden, können Sie mithilfe der folgenden Faustregeln die Platzanforderungen festlegen.
 
