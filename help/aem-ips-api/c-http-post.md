@@ -1,15 +1,12 @@
 ---
 description: Das Hochladen von Assets in das Scene7 Production System umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordination aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
-seo-description: Das Hochladen von Assets in das Scene7 Production System umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordination aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
-seo-title: Hochladen von Assets über HTTP POSTs zum UploadFile-Servlet
 solution: Experience Manager
 title: Hochladen von Assets über HTTP POSTs zum UploadFile-Servlet
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >Alle Anfragen zur POST eines Upload-Auftrags müssen von derselben IP-Adresse stammen.
 
-**Zugriff auf URLs für Scene7-Regionen**
+**Zugriff auf URLs für Dynamic Media-Regionen**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
