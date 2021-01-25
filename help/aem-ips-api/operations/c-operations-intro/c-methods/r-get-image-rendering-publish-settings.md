@@ -4,10 +4,10 @@ seo-description: Nur zur internen Verwendung. Siehe Abschnitt zu Katalogattribut
 seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 14%
@@ -34,12 +34,12 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Veröffentlichungseinstellungen für das Rendern von Bildern Sie erhalten möchten. |
-| ` *`contextHandle`*` | `xsd:string` | Ja | Behandeln Sie den Veröffentlichungskontext. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Veröffentlichungseinstellungen für das Rendern von Bildern Sie erhalten möchten. |
+| `*`contextHandle`*` | `xsd:string` | Ja | Behandeln Sie den Veröffentlichungskontext. |
 
 **Output (getImageRenderingPublishSettingsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`publishSettingsArray`*` | `type:ConfigSettingArray` | Ja | Einstellungen für das Rendern von Bildern. |
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Ja | Einstellungen für das Rendern von Bildern. |
 
