@@ -4,12 +4,12 @@ seo-description: Erweiterte Rendereinstellungen. Gibt erweiterte Rendereinstellu
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Erweiterte Rendereinstellungen. Gibt erweiterte Rendereinstellungen an, die beim
  </tr> 
 </table>
 
-Dient zum Optimieren des Renderscheins. Verwenden Sie die Renderfunktion des Vignette Authoring-Tools (Teil des Scene7 Image Authoring-Pakets), um Zeichenfolgen für Rendereinstellungen zu erstellen.
+Dient zum Optimieren des Renderscheins. Verwenden Sie die Renderfunktion des Vignette Authoring-Tools (Teil des Dynamic Media Image Authoring-Pakets), um Zeichenfolgen für Rendereinstellungen zu erstellen.
 
 ## Eigenschaften {#section-9a2b2228789046658cb80eddf343af75}
 
