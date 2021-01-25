@@ -4,13 +4,13 @@ seo-description: Ebenenbild.
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 2%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -43,10 +43,6 @@ Siehe [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-proto
 Verschachtelte oder eingebettete Anforderungen werden durch geschweifte Klammern eingeschlossen. Präfix einer eingebetteten Image Serving-Anforderung mit `is`, einer eingebetteten Image Rendering-Anforderung mit `ir` und einer FXG-Grafikwiedergabeanforderung mit `fxg`. Eine Anforderung an einen Fremdserver wird angenommen, wenn kein Präfix angegeben ist.
 
 Siehe [Verschachtelung und Einbettung anfordern](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
-
->[!NOTE]
->
->Das Rendering von FXG-Grafiken ist nur in der von Scene7 gehosteten Umgebung verfügbar und erfordert möglicherweise zusätzliche Lizenzen. Weitere Informationen erhalten Sie vom Scene7-Support.
 
 ## Eigenschaften {#section-2c22bb89a35d470f833df8ba898efd93}
 
