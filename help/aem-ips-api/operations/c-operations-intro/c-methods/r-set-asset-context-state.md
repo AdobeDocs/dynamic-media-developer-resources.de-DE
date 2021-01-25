@@ -4,10 +4,10 @@ seo-description: Festlegen oder Aktualisieren des Veröffentlichungsstatus für 
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 9%
@@ -41,17 +41,17 @@ Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere 
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Benutzen Sie die Firma. |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | Ein Array mit Assets und ihren neuen Veröffentlichungsstatus. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Benutzen Sie die Firma. |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | Ein Array mit Assets und ihren neuen Veröffentlichungsstatus. |
 
 **Output (setAssetsContexStateReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Die Anzahl der Assets wurde erfolgreich geändert. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets zu ändern. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets zu ändern. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie zu ändern. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der Assets wurde erfolgreich geändert. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets zu ändern. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets zu ändern. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie zu ändern. |
 
 ## Beispiele {#section-283a073f3cb14bcda5abed863c538aa4}
 
