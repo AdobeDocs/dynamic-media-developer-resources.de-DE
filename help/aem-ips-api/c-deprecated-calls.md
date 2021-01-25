@@ -1,15 +1,12 @@
 ---
-description: API-Aufrufe des Image Production Systems und zugehörige Parameter, die nicht mehr verwendet werden.
-seo-description: API-Aufrufe des Image Production Systems und zugehörige Parameter, die nicht mehr verwendet werden.
-seo-title: Veraltete Aufrufe
-solution: Experience Manager
 title: Veraltete Aufrufe
-topic: Scene7 Image Production System API
-uuid: 03925728-f011-45f0-84a6-808dff0fd529
+description: API-Aufrufe des Image Production Systems und zugehörige Parameter, die nicht mehr in Dynamic Media verwendet werden.
+solution: Experience Manager
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ API-Aufrufe des Image Production Systems und zugehörige Parameter, die nicht me
 
 ## Veraltete Aufrufe {#topic-654c0466e6434fe4a95953322255b08c}
 
-API-Aufrufe des Image Production Systems und zugehörige Parameter, die nicht mehr verwendet werden.
+API-Aufrufe des Image Production Systems und zugehörige Parameter, die nicht mehr in Dynamic Media verwendet werden.
 
 * `addMediaPortalEvent` - Veraltet von Vorgängen. Mit diesem Aufruf können Sie ein Media Portal-Ereignis zum IPS hinzufügen.
 * `getMediaPortalEvent` - Veraltet von Vorgängen. Mit diesem Aufruf können Sie Media Portal-Ereignis abrufen, die bestimmten Kriterien entsprechen.
