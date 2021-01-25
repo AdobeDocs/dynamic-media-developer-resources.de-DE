@@ -4,10 +4,10 @@ seo-description: Pfad des Ebenenclips. Gibt einen Clip-Pfad für die aktuelle Eb
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -36,13 +36,13 @@ Pfad des Ebenenclips. Gibt einen Clip-Pfad für die aktuelle Ebene an.
 
 Alle Teile der Ebene, die außerhalb des durch `clipPath=` definierten Bereichs liegen, werden transparent dargestellt.
 
-` *``*` pathNames ist der Name eines Pfads, der im Quellbild der Ebene eingebettet ist. Der Pfad wird automatisch transformiert, um die relative Ausrichtung am Bildinhalt beizubehalten. Wenn mehr als ein ` *`pathName`*` angegeben ist, beschneidet der Server das Bild an den Schnittpunkt dieser Pfade. Alle ` *`pathName`*`, die nicht im Quellbild gefunden wurden, werden ignoriert.
+`*``*` pathNames ist der Name eines Pfads, der im Quellbild der Ebene eingebettet ist. Der Pfad wird automatisch transformiert, um die relative Ausrichtung am Bildinhalt beizubehalten. Wenn mehr als ein `*`pathName`*` angegeben ist, beschneidet der Server das Bild an den Schnittpunkt dieser Pfade. Alle `*`pathName`*`, die nicht im Quellbild gefunden wurden, werden ignoriert.
 
 >[!NOTE]
 >
->Für ` *`pathName`*` werden nur ASCII-Zeichenfolgen unterstützt.
+>Für `*`pathName`*` werden nur ASCII-Zeichenfolgen unterstützt.
 
-` *`Mit `*` pathDefinition können explizite Pfaddaten in Pixel-Koordinaten der Ebene angegeben werden.
+`*`Mit `*` pathDefinition können explizite Pfaddaten in Pixel-Koordinaten der Ebene angegeben werden.
 
 Wenn `size=` angegeben ist und nicht 0,0, wird die Ebene vorab skaliert. In diesem Fall sind die Pfadkoordinaten relativ zur oberen linken Ecke des Ebenenrechtecks und die Ebene wird basierend auf `origin=` oder deren Standard positioniert. Sämtliche Bereiche des Pfades außerhalb des Rechtecks der Ebene bleiben transparent.
 
@@ -52,9 +52,9 @@ Wenn `size=` nicht für eine Volltonfarbe oder Textebene angegeben ist, wird die
 >
 >`scale=`,  `rotate=`und  `anchor=` Befehle sind nicht zulässig, um Farbflächenebenen selbst zu skalieren.
 
-` *``*` pathDefinitionakzeptiert eine Zeichenfolge, die dem Wert des  `d=` Attributs des SVG- `<path>` Elements ähnlich ist, mit der Ausnahme, dass zur Trennung von Werten Kommas anstelle von Leerzeichen verwendet werden. ` *``*` pathDefinition kann einen oder mehrere Unterpfade mit geschlossener Schleife enthalten.
+`*``*` pathDefinitionakzeptiert eine Zeichenfolge, die dem Wert des  `d=` Attributs des SVG- `<path>` Elements ähnlich ist, mit der Ausnahme, dass zur Trennung von Werten Kommas anstelle von Leerzeichen verwendet werden. `*``*` pathDefinition kann einen oder mehrere Unterpfade mit geschlossener Schleife enthalten.
 
-Die folgenden Pfadbefehle werden in ` *`pathDefinition`*` unterstützt:
+Die folgenden Pfadbefehle werden in `*`pathDefinition`*` unterstützt:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
