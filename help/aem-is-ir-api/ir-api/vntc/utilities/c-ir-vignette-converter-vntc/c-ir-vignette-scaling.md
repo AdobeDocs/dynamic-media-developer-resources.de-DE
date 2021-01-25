@@ -4,12 +4,12 @@ seo-description: Es werden vier allgemeine Typen von Produktionsvignetten unters
 seo-title: Vignettenskalierung
 solution: Experience Manager
 title: Vignettenskalierung
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Es werden vier allgemeine Typen von Produktionsvignetten unterstützt.
    Wird empfohlen, wenn alle gewünschten Render-Bildgrößen bekannt sind. Bietet bessere Qualität und schnelleres Rendering als bei Vignetten mit einer Auflösung und Pyramide, da das Bild nach dem Rendering nicht skaliert werden muss.
 * Pyramide
 
-   Optimal geeignet, wenn mehrere Bildgrößen benötigt werden und die genauen Größen nicht vorab bestimmt werden und wenn einer der Scene7 Flash-Zoom-Viewer verwendet wird.
+   Optimaler Zweck, der empfohlen wird, wenn mehrere Bildgrößen benötigt werden und die genauen Größen nicht vorab bestimmt werden und der Dynamic Media-Zoom-Viewer verwendet wird.
 * Pyramide mit einer oder mehreren zusätzlichen Auflösungen
 
    Bietet hohe Qualität für bestimmte Größen und bietet gleichzeitig Flexibilität und Unterstützung für Zoom-Viewer.
