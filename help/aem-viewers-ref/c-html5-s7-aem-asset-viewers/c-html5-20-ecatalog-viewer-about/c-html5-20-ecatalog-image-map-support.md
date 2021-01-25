@@ -7,7 +7,7 @@ title: Unterstützung von Imagemaps
 topic: Dynamic media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Durch Klicken auf eine Imagemap wird ein interner Seitenwechsel im Viewer durchg
 
 ` href=target: *`idx`*`
 
-wobei ` *`idx`*` ein auf null basierender Index des Katalogspreads ist.
+wobei `*`idx`*` ein auf null basierender Index des Katalogspreads ist.
 
 Das folgende Beispiel zeigt ein `href`-Attribut für eine Imagemap, die auf den 3D-Druckbogen im E-Katalog verweist:
 
