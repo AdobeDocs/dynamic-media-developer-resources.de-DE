@@ -4,10 +4,10 @@ seo-description: Der Server überwacht kontinuierlich den Katalogordner und läd
 seo-title: Aktualisieren von Bildkatalogen
 solution: Experience Manager
 title: Aktualisieren von Bildkatalogen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Der Server überwacht kontinuierlich den Katalogordner und lädt automatisch einen Bildkatalog einschließlich der zugehörigen Katalogdatendateien neu, wenn er feststellt, dass die Hauptkatalogattributdatei geändert wurde.
 
-Um Bildkataloge auf dem Server zu aktualisieren, ersetzen Sie zunächst alle Katalogdatendateien, die geändert werden müssen, und ersetzen Sie dann die Katalogattributdatei (bzw. &quot;touch&quot;, um das Dateidatum zu aktualisieren), um eine erneute Katalogladung auszulösen.
+Um Bildkataloge auf dem Server zu aktualisieren, ersetzen Sie zunächst alle Katalogdatendateien, die geändert werden müssen, und ersetzen Sie dann die Katalogattributdatei (bzw. &quot;touch&quot;, um das Dateidatum zu aktualisieren), um sie erneut zu laden.
 
 ## Inkrementelle Updates {#section-2c0f2c1b8480486d86920b5f2cfe72d2}
 
