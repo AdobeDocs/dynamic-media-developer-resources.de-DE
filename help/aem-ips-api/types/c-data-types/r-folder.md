@@ -4,10 +4,10 @@ seo-description: Hierarchische Datenspeicherung oder Asset-Objekt. Ordner könne
 seo-title: Ordner
 solution: Experience Manager
 title: Ordner
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 10%
@@ -25,11 +25,11 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Ordner-Handle. |
-| ` *`Pfade`*` | `xsd:string` | Ordnerpfad. |
-| ` *`lastModified`*` | `xsd:dateTime` | Datum der letzten Änderung. |
-| ` *`childLastModified`*` | `xsd:dateTime` | Datum der letzten Änderung für untergeordnete Unterordner und Ordner-Assets. |
-| ` *`permissionsSetHandle`*` | `xsd:string` | Ordnerberechtigungshandle. |
-| ` *`hasSubfolder`*` | `types:Boolean` | Bestimmt, ob ein Ordner Unterordner enthält. |
-| ` *`subfolderArray`*` | `types:FolderArray` | Ein Array von Unterordnern in einem Ordner. |
+| `*`folderHandle`*` | `xsd:string` | Ordner-Handle. |
+| `*`Pfade`*` | `xsd:string` | Ordnerpfad. |
+| `*`lastModified`*` | `xsd:dateTime` | Datum der letzten Änderung. |
+| `*`childLastModified`*` | `xsd:dateTime` | Datum der letzten Änderung für untergeordnete Unterordner und Ordner-Assets. |
+| `*`permissionsSetHandle`*` | `xsd:string` | Ordnerberechtigungshandle. |
+| `*`hasSubfolder`*` | `types:Boolean` | Bestimmt, ob ein Ordner Unterordner enthält. |
+| `*`subfolderArray`*` | `types:FolderArray` | Ein Array von Unterordnern in einem Ordner. |
 
