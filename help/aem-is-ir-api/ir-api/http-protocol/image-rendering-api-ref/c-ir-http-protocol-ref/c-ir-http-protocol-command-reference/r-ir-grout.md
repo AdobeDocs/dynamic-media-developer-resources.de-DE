@@ -4,10 +4,10 @@ seo-description: Kachelgrottenfarbe und -dicke. Simuliert die Leiste für kerami
 seo-title: Ground
 solution: Experience Manager
 title: Ground
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -41,13 +41,13 @@ Für eine maximale Kontrolle des Aussehens des Bodens gelten folgende Anforderun
 
 ## Eigenschaften {#section-de78b678245b4ffda48097c345949e77}
 
-Materialattribut. ` *`Die `*` Farbe muss ein RGB-Farbwert sein. ` *`Die `*` Breite muss einen realen Wert 0 oder größer sein.
+Materialattribut. `*`Die `*` Farbe muss ein RGB-Farbwert sein. `*`Die `*` Breite muss einen realen Wert 0 oder größer sein.
 
 Wird ignoriert, wenn &quot;Repeat = 4, 5, 7, 8, 9, 14 oder höher&quot;oder bei anderen Materialien als wiederholbaren Texturen angegeben.
 
 ## Standard {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Wenn `grout=` nicht angegeben ist, wird der Grund im Bild nicht geändert. Wenn ` grout= *`color`*` angegeben ist, wird ` *`width`*` standardmäßig auf `catalog::GroutWidth` gesetzt.
+Wenn `grout=` nicht angegeben ist, wird der Grund im Bild nicht geändert. Wenn ` grout= *`color`*` angegeben ist, wird `*`width`*` standardmäßig auf `catalog::GroutWidth` gesetzt.
 
 ## Verwandte Themen {#section-8d472906a44943f5a8557e98f2fbc71f}
 
