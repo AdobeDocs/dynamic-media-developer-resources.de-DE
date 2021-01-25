@@ -4,12 +4,12 @@ seo-description: Daten zur Zoom-Zielgruppe. Keine oder mehr Zoom-Zielgruppe-Eige
 seo-title: Ziele
 solution: Experience Manager
 title: Ziele
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Ziel. *`num`*.rect ist für jede Zoom-Zielgruppe erforderlich und muss ein Recht
 
 Bei Anwendungen, die die Rotationsset- und Prospekt-Viewer-Clients einbeziehen, müssen die Zoom-Zielgruppen in demselben Katalogdatensatz definiert werden, der den Bildsatz definiert. Alle Zoomdefinitionen in den Katalogdatensätzen der Bildsätze werden vom Viewer ignoriert.
 
-Die Scene7-Viewer erwarten Zielgruppen der Koordinaten des bereits durch die Befehle von `catalog::Modifier` angepassten Bildes mit voller Auflösung.
+Die Dynamic Media-Viewer erwarten Zielgruppen der Koordinaten des bereits durch die Befehle von `catalog::Modifier` angepassten Bildes mit voller Auflösung.
 
 ## Eigenschaften {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
