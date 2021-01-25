@@ -4,10 +4,10 @@ seo-description: Legt die Befehle des Image Serving- oder Image Rendering-Protok
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 6%
@@ -36,10 +36,10 @@ Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Ka
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| ` *`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung oder den Befehlen `urlPostApplyModifier` angewendet werden sollen. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die nach `urlModifier` angewendet werden, und Anforderungsbefehle. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
+| `*`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung oder den Befehlen `urlPostApplyModifier` angewendet werden sollen. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die nach `urlModifier` angewendet werden, und Anforderungsbefehle. |
 
 **Output (setUrlModifierReturn)**
 
