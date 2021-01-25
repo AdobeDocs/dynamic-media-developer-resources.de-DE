@@ -4,10 +4,10 @@ seo-description: Eine Systemfeldsuchbedingung für den Vorgang searchAssets.
 seo-title: SystemFieldCondition
 solution: Experience Manager
 title: SystemFieldCondition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 6%
@@ -25,19 +25,19 @@ Bei unären Vergleichen müssen Sie je nach Systemfeldtyp genau einen Wert ( `bo
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`Feld`*` | `xsd:string` | Auswahl der Systemfelder für die Asset-Suche. |
-| ` *`op`*` | `xsd:string` | Auswahl von Stringvergleichsoperatoren. |
-| ` *`Wert`*` | `xsd:string` | Zu testender Wert. |
-| ` *`boolVal`*` | `xsd:boolean` | Boolescher Vergleichswert. |
-| ` *`longVal`*` | `xsd:long` | Langer Vergleichswert. |
-| ` *`minLong`*` | `xsd:long` | Untere Begrenzung des langen Bereichs. |
-| ` *`maxLong`*` | `xsd:long` | Obere Grenze des langen Bereichs. |
-| ` *`doubleVal`*` | `xsd:double` | Vergleichswert der Dublette. |
-| ` *`minDouble`*` | `xsd:double` | Untere Begrenzung des Bereichs Dublette. |
-| ` *`maxDouble`*` | `xsd:double` | Obere Begrenzung des Bereichs Dublette. |
-| ` *`dateVal`*` | `xsd:dateTime` | Datumsvergleichswert. |
-| ` *`minDate`*` | `xsd:dateTime` | Minimum des Datumsbereichs. |
-| ` *`maxDate`*` | `xsd:dateTime` | Maximum für Datumsbereich. |
+| `*`Feld`*` | `xsd:string` | Auswahl der Systemfelder für die Asset-Suche. |
+| `*`op`*` | `xsd:string` | Auswahl von Stringvergleichsoperatoren. |
+| `*`Wert`*` | `xsd:string` | Zu testender Wert. |
+| `*`boolVal`*` | `xsd:boolean` | Boolescher Vergleichswert. |
+| `*`longVal`*` | `xsd:long` | Langer Vergleichswert. |
+| `*`minLong`*` | `xsd:long` | Untere Begrenzung des langen Bereichs. |
+| `*`maxLong`*` | `xsd:long` | Obere Grenze des langen Bereichs. |
+| `*`doubleVal`*` | `xsd:double` | Vergleichswert der Dublette. |
+| `*`minDouble`*` | `xsd:double` | Untere Begrenzung des Bereichs Dublette. |
+| `*`maxDouble`*` | `xsd:double` | Obere Begrenzung des Bereichs Dublette. |
+| `*`dateVal`*` | `xsd:dateTime` | Datumsvergleichswert. |
+| `*`minDate`*` | `xsd:dateTime` | Minimum des Datumsbereichs. |
+| `*`maxDate`*` | `xsd:dateTime` | Maximum für Datumsbereich. |
 
 ## Beispiel {#section-347d4aabfff44530adba03d1dc0b9968}
 
