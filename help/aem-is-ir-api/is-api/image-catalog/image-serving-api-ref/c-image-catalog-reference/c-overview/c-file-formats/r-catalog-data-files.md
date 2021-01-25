@@ -4,10 +4,10 @@ seo-description: Katalogdatendateien können einen beliebigen Namen und Dateisuf
 seo-title: Katalogdatendateien
 solution: Experience Manager
 title: Katalogdatendateien
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f66e2fe-5b8a-43d3-bf2e-8dd79da6a581
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Leerzeichen können nicht als Feldtrennzeichen verwendet werden. Im Header-Daten
 
 In den Datensätzen weisen zwei benachbarte `<TAB>`-Zeichen auf ein leeres Feld hin. Leere Felder übernehmen möglicherweise Standardwerte entweder aus den Katalogattributen oder aus den Standardeinstellungen des Servers.
 
-Datenfelder können optional durch Anführungszeichen der Dublette eingeschlossen werden. Sie dürfen keine &lt; a0/>-, `<CR>`- oder `<LF>`-Zeichen enthalten, es sei denn, der Datenwert ist vom Typ text und von Anführungszeichen für die Dublette eingeschlossen. `<TAB>` Datenfelder dürfen nicht HTTP-kodiert sein.
+Datenfelder können optional durch Anführungszeichen der Dublette eingeschlossen werden. Sie dürfen keine &lt; a0/>-, `<LF>`- oder `<TAB>`-Zeichen enthalten, es sei denn, der Datenwert ist vom Typ text und von Anführungszeichen für die Dublette eingeschlossen. `<CR>` Datenfelder dürfen nicht HTTP-kodiert sein.
 
 Wenn nicht anders angegeben, werden mehrere Datenwerte im gleichen Feld durch Kommas getrennt.
 
