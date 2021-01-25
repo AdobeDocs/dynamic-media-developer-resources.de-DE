@@ -4,10 +4,10 @@ seo-description: Asset-Typen und zählen Sie für eine Firma.
 seo-title: AssetCount
 solution: Experience Manager
 title: AssetCount
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 15b745fb-203a-4301-b1ea-8e12ea7450e8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 8%
@@ -23,6 +23,6 @@ Zu den Asset-Typen gehören [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] und and
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`assetType`*` | `xsd:string` | Der mit der Zählung verknüpfte Asset-Typ. |
-| ` *`Zähler`*` | `xsd:int` | Anzahl der `assetType`-Elemente in der Firma. |
+| `*`assetType`*` | `xsd:string` | Der mit der Zählung verknüpfte Asset-Typ. |
+| `*`Zähler`*` | `xsd:int` | Anzahl der `assetType`-Elemente in der Firma. |
 
