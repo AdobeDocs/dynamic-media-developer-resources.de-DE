@@ -4,12 +4,12 @@ seo-description: Image Serving unterstützt das unbegrenzte Verschachteln von Im
 seo-title: Verschachtelung und Einbettung anfordern
 solution: Experience Manager
 title: Verschachtelung und Einbettung anfordern
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Das Bildergebnis einer verschachtelten IS-Anforderung kann optional zwischengesp
 
 ## Eingebettete Image Render-Anforderungen {#section-69c5548db930412b9b90d9b2951a6969}
 
-Wenn Scene7 Image Rendering auf dem Server aktiviert ist, können Renderanforderungen als Ebenenquellen verwendet werden, indem sie im Befehl src= (oder mask=) angegeben werden. Verwenden Sie die folgende Syntax:
+Wenn Dynamic Media Image Rendering auf dem Server aktiviert ist, können Renderanforderungen als Ebenenquellen verwendet werden, indem sie im Befehl src= (oder mask=) angegeben werden. Verwenden Sie die folgende Syntax:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ Beim Token `fxg` wird die Groß-/Kleinschreibung beachtet.
 
 >[!NOTE]
 >
->Das Rendering von FXG-Grafiken ist nur in der von Scene7 gehosteten Umgebung verfügbar und erfordert möglicherweise zusätzliche Lizenzen. Weitere Informationen erhalten Sie vom Scene7-Support.
+>Das Rendering von FXG-Grafiken ist nur in der von Dynamic Media gehosteten Umgebung verfügbar und erfordert möglicherweise zusätzliche Lizenzen. Weitere Informationen erhalten Sie beim technischen Support von Dynamic Media.
 
 *[!DNL renderRequest]* ist die übliche FXG-Renderanforderung, mit Ausnahme des HTTP-Stammpfads  ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ Mit leichten Änderungen können Sie das Bild der Ebene 0 vorskalieren und dauer
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Einbetten von Anforderungen für Scene7 Image Rendering**
+**Einbetten von Anforderungen für Dynamic Media Image Rendering**
 
-Verwenden einer in [!DNL myCatalog/myTemplate] gespeicherten Vorlage; Generieren des Bilds für &quot;layer2&quot;der Vorlage mit Scene7 Image Rendering:
+Verwenden einer in [!DNL myCatalog/myTemplate] gespeicherten Vorlage; Generieren des Bilds für &quot;layer2&quot;der Vorlage mit Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
