@@ -4,10 +4,10 @@ seo-description: Ruft die mit der angegebenen Firma verknüpften Eigenschaftssat
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 11%
@@ -60,7 +60,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`typeArray`*` | `types:PropertySetTypeArray` | Ja | Ein Array von Eigenschaftssatztypen, die mit der angegebenen Firma verknüpft sind, oder, falls keine Firma angegeben wurde, mit den Typen des globalen Eigenschaftensatzes. |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | Ja | Ein Array von Eigenschaftssatztypen, die mit der angegebenen Firma verknüpft sind, oder, falls keine Firma angegeben wurde, mit den Typen des globalen Eigenschaftensatzes. |
 
 ## Beispiele {#section-280c406a90864409856aee44d4069a52}
 
