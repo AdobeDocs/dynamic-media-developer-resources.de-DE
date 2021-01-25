@@ -4,10 +4,10 @@ seo-description: Legt Metadatenfelder für Schriftarten fest.
 seo-title: batchSetFontFields
 solution: Experience Manager
 title: batchSetFontFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 14%
@@ -33,18 +33,18 @@ Legt Metadatenfelder für Schriftarten fest.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Behandeln Sie die Firma, in der sich die Schriftarten befinden. |
-| ` *`updateArray`*` | `types:FontFieldUpdateArray` | Ja | Array von Aktualisierungen für Schriftartenfelder. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Behandeln Sie die Firma, in der sich die Schriftarten befinden. |
+| `*`updateArray`*` | `types:FontFieldUpdateArray` | Ja | Array von Aktualisierungen für Schriftartenfelder. |
 
 **Output (batchSetFontFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Schriftartfelder. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Schriftartfelder festzulegen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Schriftartfelder festzulegen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Schriftartfelder. |
+| `*`warningCount`*` | `xsd:int` | Ja | Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Schriftartfelder festzulegen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Schriftartfelder festzulegen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
 
 ## Beispiele {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
