@@ -4,10 +4,10 @@ seo-description: Ruft die Assets und die Anzahl der Assets ab, die mit einer bes
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -40,13 +40,13 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit den Elementen, die gezählt werden sollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit den Elementen, die gezählt werden sollen. |
 
 **Output (getAssetCountsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`countArray`*` | `types:AssetCountArray` | Nein | Ein Array von Asset-Typen mit jeweils einem eigenen Zählfeld, das die Darstellung mehrerer Asset-Typen pro Element des Arrays ermöglicht. |
+| `*`countArray`*` | `types:AssetCountArray` | Nein | Ein Array von Asset-Typen mit jeweils einem eigenen Zählfeld, das die Darstellung mehrerer Asset-Typen pro Element des Arrays ermöglicht. |
 
 ## Beispiele {#section-6052a503eb3843f6adb99e200fdba280}
 
