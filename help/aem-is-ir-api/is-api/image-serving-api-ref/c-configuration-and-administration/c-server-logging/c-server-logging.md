@@ -1,15 +1,12 @@
 ---
 description: Alle Protokolldateien werden in denselben Protokollordner geschrieben, der mit dem TC-Verzeichnis angegeben wurde.
-seo-description: Alle Protokolldateien werden in denselben Protokollordner geschrieben, der mit dem TC-Verzeichnis angegeben wurde.
-seo-title: Serverprotokollierung
 solution: Experience Manager
 title: Serverprotokollierung
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -25,7 +22,7 @@ Wichtig Eine ausreichende Menge an Speicherplatz muss für Protokolldateien rese
 
 Der Plattformserver und der Image-Server erstellen die drei unten beschriebenen Protokolldateitypen.
 
-Andere Image Serving-Komponenten und bestimmte andere Scene7-Pakete, z. B. die Scene7 Viewer, können auch Protokolldateien im selben Ordner erstellen. Diese Protokolldateien sind für die interne Verwendung durch Scene7 bestimmt und können vom Scene7 Support zur Fehlerbehebung angefordert werden.
+Andere Image Serving-Komponenten und bestimmte andere Dynamic Media-Pakete, z. B. die Dynamic Media Viewer, können auch Protokolldateien im selben Ordner erstellen. Diese Protokolldateien sind für den internen Gebrauch von Dynamic Media bestimmt und können vom technischen Support von Dynamic Media für die Fehlerbehebung angefordert werden.
 
 * [Zugriffsprotokoll](c-access-log.md)
 * [Ablaufverfolgungsprotokoll](c-trace-log.md)
