@@ -4,10 +4,10 @@ seo-description: Prüft auf IPS-ID-Konflikte, indem Asset-Namen mit allen Namen 
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 10%
@@ -38,14 +38,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nein | Das Handle der Firma, in der sich der Benutzer befindet. |
-| ` *`assetNamesArray`*` | `types:StringArray` | Ja | Ein Array mit zu prüfenden Asset-Namen. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Das Handle der Firma, in der sich der Benutzer befindet. |
+| `*`assetNamesArray`*` | `types:StringArray` | Ja | Ein Array mit zu prüfenden Asset-Namen. |
 
 **Output (checkAssetNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`inUseNameArray`*` | `types:StringArray` | Ja | Ein Array mit den verwendeten Asset-Namen. |
+| `*`inUseNameArray`*` | `types:StringArray` | Ja | Ein Array mit den verwendeten Asset-Namen. |
 
 ## Beispiele {#section-bc5d120d74614a63a425ca3acc337219}
 
