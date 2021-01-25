@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Viewer-Referenzhandbuch
 translation-type: tm+mt
-source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 4%
       + [Versionshinweise Viewer (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Versionshinweise Viewer (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Versionshinweise Viewer (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Scene7 Viewer 5.8.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Scene7 Viewer 5.5.2 - Versionshinweise](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Scene7 Viewer 5.4.2 - Versionshinweise](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Scene7 Viewer 5.2.3 - Versionshinweise](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Scene7 Viewer 5.2.2 - Versionshinweise](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Scene7 Viewer 5.1.1 - Versionshinweise](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Scene7 Viewer 5.0.1 - Versionshinweise](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Scene7 Viewer 4.9.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [Viewer 5.8.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [Viewer 5.5.2 - Versionshinweise](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [Viewer 5.4.2 - Versionshinweise](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [Viewer 5.2.3 - Versionshinweise](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [Viewer 5.2.2 - Versionshinweise](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [Viewer 5.1.1 - Versionshinweise](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [Viewer 5.0.1 - Versionshinweise](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [Viewer 4.9.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Anmerkungen zur Kompatibilität](c-compatibility-notes.md)
 + [Barrierefreiheit und Navigation](c-keyboard-accessibility.md)
 + [Viewer-SDK-Tutorial](c-tutorial.md)
