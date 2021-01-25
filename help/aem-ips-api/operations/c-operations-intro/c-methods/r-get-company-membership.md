@@ -4,10 +4,10 @@ seo-description: Ruft die Mitgliedschaften eines Benutzers in einem Firma-Array 
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 16%
@@ -40,13 +40,13 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Nein | Das Handle an den Benutzer, dessen Mitgliedschaft Sie erhalten möchten. |
+| `*`userHandle`*` | `xsd:string` | Nein | Das Handle an den Benutzer, dessen Mitgliedschaft Sie erhalten möchten. |
 
 **Output (getCompanyMembershipReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`membershipArray`*` | `types:CompanyMembershipArray` | Ja | Array von Firmen. |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | Ja | Array von Firmen. |
 
 ## Beispiele {#section-e4958d104ea344a4a79f57d07b46eba7}
 
