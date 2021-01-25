@@ -4,10 +4,10 @@ seo-description: Löscht ein Asset.
 seo-title: deleteAsset
 solution: Experience Manager
 title: deleteAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 12%
@@ -40,8 +40,8 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der der Ordner gehört. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Das Handle des zu löschenden Assets. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der der Ordner gehört. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle des zu löschenden Assets. |
 
 **Output (deleteAssetParam)**
 
