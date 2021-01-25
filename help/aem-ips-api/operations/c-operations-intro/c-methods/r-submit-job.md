@@ -4,10 +4,10 @@ seo-description: Sendet einen Auftrag an das System.
 seo-title: submitJob
 solution: Experience Manager
 title: submitJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d3a83b59-bcd7-4ae9-b1ee-e515fc3c9261
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 8%
@@ -160,7 +160,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`jobHandle`*` | `xsd:string` | Ja | Auftragsbearbeitung |
+| `*`jobHandle`*` | `xsd:string` | Ja | Auftragsbearbeitung |
 
 ## Beispiele {#section-40ac77d14adf4588ba2575be6879b2d2}
 
