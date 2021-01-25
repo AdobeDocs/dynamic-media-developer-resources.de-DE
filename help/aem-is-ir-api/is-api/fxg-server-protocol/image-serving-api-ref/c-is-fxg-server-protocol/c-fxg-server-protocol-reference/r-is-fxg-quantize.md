@@ -4,10 +4,10 @@ seo-description: Farbquantisierung. Gibt Farbquantisierungsattribute für die GI
 seo-title: quantifizieren
 solution: Experience Manager
 title: quantifizieren
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 624cdc45-51f2-4b18-a658-311770974521
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Farbquantisierung. Gibt Farbquantisierungsattribute für die GIF-Ausgabekonverti
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Kommagetrennte Liste von erzwungenen RGB-Farben im Hex6-Format. Ermöglicht Ihnen das Festlegen erzwungener Farben, die in einer Palette "<span class="codeph"> adaptive </span>"enthalten sein sollen. Wenn die angegebene Anzahl von Farben kleiner als <span class="codeph"> numColors </span> ist, werden zusätzliche Farben basierend auf dem Bildinhalt berechnet. </p> <p>Wird nur verwendet, wenn <span class="codeph"> fmt=gif </span> oder <span class="codeph"> fmt=gif-alpha </span>. Andernfalls ignoriert. Die mit <span class="codeph"> <span class="varname"> colorList </span> </span> &lt;a3/&gt; angegebenen Farben müssen RGB-Werte im hex6-Format sein (siehe <span class="codeph"> color </span>). keine anderen Farbspezifikatoren zulässig sind. </p> </td> 
+  <td class="stentry"> <p>Kommagetrennte Liste von erzwungenen RGB-Farben im Hex6-Format. Ermöglicht Ihnen das Festlegen erzwungener Farben, die in einer Palette "<span class="codeph"> adaptive </span>"enthalten sein sollen. Wenn die angegebene Anzahl von Farben kleiner als <span class="codeph"> numColors </span> ist, werden zusätzliche Farben basierend auf dem Bildinhalt berechnet. </p> <p>Wird nur verwendet, wenn <span class="codeph"> fmt=gif </span> oder <span class="codeph"> fmt=gif-alpha </span>. Andernfalls ignoriert. Die mit <span class="codeph"> <span class="varname"> colorList </span> </span>  angegebenen Farben müssen RGB-Werte im hex6-Format sein (siehe <span class="codeph"> color </span>). keine anderen Farbspezifikatoren zulässig sind. </p> </td> 
  </tr> 
 </table>
 
