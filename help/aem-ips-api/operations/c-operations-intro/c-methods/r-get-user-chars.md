@@ -4,10 +4,10 @@ seo-description: Ruft eine Liste der in einem bestimmten Feld verwendeten Zeiche
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 11%
@@ -34,19 +34,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`charField`*` | `xsd:string` | Ja | Legt den Papierkorbsstatus fest, nach dem gesucht werden soll. |
-| ` *`includeInactive`*` | `xsd:boolean` | Ja | Inaktive Benutzer ein- oder ausschließen. Nicht-IPS-Administratoren müssen Mitglied von mindestens einer Firma sein, um für alle API-Aufrufe autorisiert zu sein. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer über keine aktive Firma verfügt. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Nein | Schließen Sie ungültige Benutzer ein oder aus. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Firma. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Nein | Die Ergebnisse der Filter basieren auf Gruppen. |
-| ` *`userRoleArray`*` | `types:StringArray` | Nein | Filter werden basierend auf der Benutzerrolle angezeigt. |
-| ` *`numChars`*` | `xsd:int` | Nein | Aktivieren Sie >1 Zeichen. |
+| `*`charField`*` | `xsd:string` | Ja | Legt den Papierkorbsstatus fest, nach dem gesucht werden soll. |
+| `*`includeInactive`*` | `xsd:boolean` | Ja | Inaktive Benutzer ein- oder ausschließen. Nicht-IPS-Administratoren müssen Mitglied von mindestens einer Firma sein, um für alle API-Aufrufe autorisiert zu sein. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer über keine aktive Firma verfügt. |
+| `*`includeInvalid`*` | `xsd:boolean` | Nein | Schließen Sie ungültige Benutzer ein oder aus. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Firma. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Die Ergebnisse der Filter basieren auf Gruppen. |
+| `*`userRoleArray`*` | `types:StringArray` | Nein | Filter werden basierend auf der Benutzerrolle angezeigt. |
+| `*`numChars`*` | `xsd:int` | Nein | Aktivieren Sie >1 Zeichen. |
 
 **Output (getUserCharsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`userCharsArray`*` | `types:StringArray` | Ja | Ein Array von Zeichenpräfixen. |
+| `*`userCharsArray`*` | `types:StringArray` | Ja | Ein Array von Zeichenpräfixen. |
 
 ## Beispiele {#section-3702f165e8b041139a6144f4a76ca25f}
 
