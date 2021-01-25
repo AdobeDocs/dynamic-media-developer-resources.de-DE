@@ -4,10 +4,10 @@ seo-description: Farbprofil für Ausgabe.
 seo-title: icc
 solution: Experience Manager
 title: icc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cfbd18aa-cbba-4085-920d-1f54645d0f89
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 5%
@@ -66,7 +66,7 @@ Anforderungsattribut. Der Server gibt einen Fehler zurück, wenn ein Bildtyp mit
 
 ## Standard {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-Wenn das Farbmanagement aktiviert ist und `icc=` nicht angegeben ist, stellt der Server das in das Ausgabebild ( `attribute::IccProfile*`) konvertierte Profil ( &lt;a1/>) bereit, das dem mit `fmt=` angegebenen Bildtyp entspricht.
+Wenn das Farbmanagement aktiviert ist und `icc=` nicht angegeben ist, stellt der Server das in das Ausgabebild ( `attribute::IccProfile*`) konvertierte Profil ( ) bereit, das dem mit `fmt=` angegebenen Bildtyp entspricht.
 
 Wenn nicht angegeben, wird *`renderIntent`* von `attribute::IccRenderIntent` geerbt, *`blackpointComp`* von `attribute::IccBlackPointCompensation` und *`dither`* wird von `attribute::IccDither` geerbt.
 
