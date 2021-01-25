@@ -2,10 +2,10 @@
 description: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd60e5db-9219-41a8-947f-0d497b39e727
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Mil
 
 *`offset`* ist ein Zeitzonenversatz in Stunden oder  `hours:minutes`, relativ zum GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
 
-Alle Elemente der String-formatierten Datums-/Uhrzeitwerte müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei ` *`catalog`*.ini` verwendet.
+Alle Elemente der String-formatierten Datums-/Uhrzeitwerte müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei `*`catalog`*.ini` verwendet.
 
 ## Standard {#section-0cbf801401ff4857bdda168fd12358af}
 
