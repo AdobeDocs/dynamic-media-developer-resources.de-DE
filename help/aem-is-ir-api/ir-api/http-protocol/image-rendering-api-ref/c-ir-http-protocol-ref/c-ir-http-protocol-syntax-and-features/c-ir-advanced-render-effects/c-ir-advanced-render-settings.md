@@ -1,15 +1,15 @@
 ---
-description: Das Vignette Authoring-Tool (Teil des Scene7 Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
-seo-description: Das Vignette Authoring-Tool (Teil des Scene7 Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
+description: Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
+seo-description: Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
 seo-title: Erweiterte Rendereinstellungen
 solution: Experience Manager
 title: Erweiterte Rendereinstellungen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # Erweiterte Rendereinstellungen{#advanced-render-settings}
 
-Das Vignette Authoring-Tool (Teil des Scene7 Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
+Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
 
 >[!NOTE]
 >
@@ -55,14 +55,14 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM-Betrag (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM-Radius (Pixel). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -76,7 +76,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Größenänderungsmodus. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -112,7 +112,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Zufallsrate. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „5“. </p> </td> 
   </tr> 
@@ -133,7 +133,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Beispiele/Pixel. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
   </tr> 
@@ -141,7 +141,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
    <td colname="col1"> <p>J </p> </td> 
    <td colname="col2"> <p>Poisson: Verwenden Sie Umschalter. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
   </tr> 
   <tr> 
