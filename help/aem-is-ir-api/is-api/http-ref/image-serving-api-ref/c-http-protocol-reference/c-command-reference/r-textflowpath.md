@@ -4,10 +4,10 @@ seo-description: Textflussbereich. Gibt einen oder mehrere Regionen an, in die d
 seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
