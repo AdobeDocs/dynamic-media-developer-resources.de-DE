@@ -5,9 +5,9 @@ title: InfoPanelPopup.infoServerUrl
 topic: Dynamic media
 uuid: 0d0f2fd8-b3fc-46fd-8720-9c4c51db9646
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>Die URL-Vorlage des Infoservers wird verwendet, um Schlüssel/Wert-Paare für die Variablenersetzung in der Inhaltsvorlage des Infofelds abzurufen. Die angegebene Vorlage enthält in der Regel Makro-Platzhalter, die durch die tatsächlichen Daten ersetzt werden, bevor die Anforderung an den Server gesendet wird. </p> <p><span class="codeph"> $1$</span> wird durch den Rollover-Wert ersetzt, der die  <span class="codeph"> </span> InfoPanelPopupaktivierung auslöste. </p> <p><span class="codeph"> $2$</span> wird durch die Sequenznummer des aktuellen Bilds im Bildsatz ersetzt. </p> <p><span class="codeph"> $3$</span> wird durch das erste Pfadelement ersetzt, das im Namen des übergeordneten Satzes des aktuellen Elements angegeben ist. Er entspricht normalerweise der Katalog-ID. </p> <p><span class="codeph"> $4$</span> wird durch das folgende Element im Pfad ersetzt und entspricht der Asset-ID. Die eigentliche Syntax der Infoserver-Anfrage ist vom Infoserver abhängig und unterscheidet sich von Server zu Server. Beispiel: Die folgende Vorlage ist eine typische Scene7 Info-Server-Anforderungsvorlage: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>Die URL-Vorlage des Infoservers wird verwendet, um Schlüssel/Wert-Paare für die Variablenersetzung in der Inhaltsvorlage des Infofelds abzurufen. Die angegebene Vorlage enthält in der Regel Makro-Platzhalter, die durch die tatsächlichen Daten ersetzt werden, bevor die Anforderung an den Server gesendet wird. </p> <p><span class="codeph"> $1$</span> wird durch den Rollover-Wert ersetzt, der die  <span class="codeph"> </span> InfoPanelPopupaktivierung auslöste. </p> <p><span class="codeph"> $2$</span> wird durch die Sequenznummer des aktuellen Bilds im Bildsatz ersetzt. </p> <p><span class="codeph"> $3$</span> wird durch das erste Pfadelement ersetzt, das im Namen des übergeordneten Satzes des aktuellen Elements angegeben ist. Er entspricht normalerweise der Katalog-ID. </p> <p><span class="codeph"> $4$</span> wird durch das folgende Element im Pfad ersetzt und entspricht der Asset-ID. Die eigentliche Syntax der Infoserver-Anfrage ist vom Infoserver abhängig und unterscheidet sich von Server zu Server. Beispiel: Die folgende Vorlage ist eine typische Dynamic Media Info-Server-Anforderungsvorlage: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
