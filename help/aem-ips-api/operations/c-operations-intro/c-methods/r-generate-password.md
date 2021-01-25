@@ -4,10 +4,10 @@ seo-description: Erstellt ein neues Kennwort.
 seo-title: generatePassword
 solution: Experience Manager
 title: generatePassword
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3367bfc-d437-4a61-83e8-69830154dc61
 translation-type: tm+mt
-source-git-commit: 676a020ede1f460aa78e9c34eb3ed37f9e610b17
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 18%
@@ -43,7 +43,7 @@ Keine.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`Passwort`*` | `xsd:string` | Ja | Ein neues Kennwort. |
+| `*`Passwort`*` | `xsd:string` | Ja | Ein neues Kennwort. |
 
 ## Beispiele {#section-f580fefdccec46fe95359e3aef0ed17f}
 
