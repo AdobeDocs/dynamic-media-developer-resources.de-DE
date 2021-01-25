@@ -4,10 +4,10 @@ seo-description: Eigenschaftensätze sind anwendungsspezifische Sätze von Name-
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 6%
@@ -34,17 +34,17 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Ja | Das Handle zum Eigenschaftssatztyp. |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | Ja | Das Handle für den primären Eigentümer der festgelegten Eigenschaft. |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | Nein | Das Handle für den sekundären Eigentümer der festgelegten Eigenschaft. |
-| ` *`propertyArray`*` | `types:PropertyArray` | Ja | Das Array der Eigenschaften. |
-| ` *`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
+| `*`typeHandle`*` | `xsd:string` | Ja | Das Handle zum Eigenschaftssatztyp. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Ja | Das Handle für den primären Eigentümer der festgelegten Eigenschaft. |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | Nein | Das Handle für den sekundären Eigentümer der festgelegten Eigenschaft. |
+| `*`propertyArray`*` | `types:PropertyArray` | Ja | Das Array der Eigenschaften. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
 
 **Output (createPropertySetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | Ja | Das Handle für die neue Eigenschaft. |
+| `*`setHandle`*` | `xsd:string` | Ja | Das Handle für die neue Eigenschaft. |
 
 ## Beispiele {#section-4e1f5b2883664bc88f590fcd253df22b}
 
