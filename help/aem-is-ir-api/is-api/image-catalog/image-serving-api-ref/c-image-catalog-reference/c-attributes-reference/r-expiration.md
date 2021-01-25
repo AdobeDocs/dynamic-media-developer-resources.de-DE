@@ -4,10 +4,10 @@ seo-description: Standardmäßige Clientcache-Zeit bis zum Live-Betrieb. Bietet 
 seo-title: Ablauf
 solution: Experience Manager
 title: Ablauf
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 26b2abee-8bd1-4011-90ff-f5143826ac0d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
