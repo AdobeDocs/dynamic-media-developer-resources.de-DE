@@ -1,15 +1,12 @@
 ---
 description: Fügt einem Projekt ein oder mehrere Assets hinzu.
-seo-description: Fügt einem Projekt ein oder mehrere Assets hinzu.
-seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
-topic: Scene7 Image Production System API
-uuid: 48abea17-058e-4469-bb16-0abee8ef5214
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 11%
 
 ---
@@ -36,19 +33,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Behandeln Sie die mit dem aktuellen Projekt verknüpfte Firma. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | Bearbeiten Sie das Projekt, dem Sie Assets hinzufügen. |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | Ja | Array von Assets, die Sie dem aktuellen Projekt hinzufügen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Behandeln Sie die mit dem aktuellen Projekt verknüpfte Firma. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Bearbeiten Sie das Projekt, dem Sie Assets hinzufügen. |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | Ja | Array von Assets, die Sie dem aktuellen Projekt hinzufügen. |
 
 **Output (addProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich hinzugefügten Assets. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets zu einem Projekt hinzuzufügen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets zu einem Projekt hinzuzufügen. |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Nein | Array von Warnungen, die von Assets generiert wurden, wenn der Vorgang versuchte, sie einem Projekt hinzuzufügen. |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie einem Projekt hinzuzufügen. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich hinzugefügten Assets. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets zu einem Projekt hinzuzufügen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets zu einem Projekt hinzuzufügen. |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Nein | Array von Warnungen, die von Assets generiert wurden, wenn der Vorgang versuchte, sie einem Projekt hinzuzufügen. |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie einem Projekt hinzuzufügen. |
 
 ## Beispiele {#section-bee5be2402f54cb9a3a02cc07def4135}
 
