@@ -4,10 +4,10 @@ seo-description: PDF-Dateieigenschaften.
 seo-title: PdfInfo
 solution: Experience Manager
 title: PdfInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6143e7bd-f0d1-4388-a5ae-f8d40ad34175
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 26%
@@ -25,7 +25,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Dateipfad. |
-| ` *`originalFile`*` | `xsd:int` | Dateiname. |
-| ` *`fileSize`*` | `xsd:int` | Dateigröße. |
+| `*`originalPath`*` | `xsd:string` | Dateipfad. |
+| `*`originalFile`*` | `xsd:int` | Dateiname. |
+| `*`fileSize`*` | `xsd:int` | Dateigröße. |
 
