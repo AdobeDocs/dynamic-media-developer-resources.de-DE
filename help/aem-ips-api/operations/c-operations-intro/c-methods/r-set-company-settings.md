@@ -4,10 +4,10 @@ seo-description: Legt verschiedene Konfigurationswerte für die Firma fest.
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 12%
@@ -34,15 +34,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| ` *`overwriteMode`*` | `xsd:string` | Nein | Asset-Überschreibungsmodus. |
-| ` *`preservePublishState`*` | `xsd:boolean` | Nein | Auf `true` setzen, um den Veröffentlichungsstatus beim erneuten Hochladen eines Assets beizubehalten. |
-| ` *`defaultSourceProfileHandle`*` | `xsd:string` | Nein | IccProfile-Asset, das als Standard-Quellfarben-Profil verwendet wird. |
-| ` *`defaultDisplayProfileHandle`*` | `xsd:string` | Nein | IccProfile-Asset, das als standardmäßiges Profil für die Anzeigefarbe verwendet wird. |
-| ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | Nein | XSL-Asset, das zum Zuordnen von IPTC- und EXIF-Metadaten zu IPS-Metadatenfeldern verwendet wird. |
-| ` *`xmpMappingXsltHandle`*` | `xsd:string` | Nein | XSL-Asset, das zum Zuordnen XMP Metadaten zu IPS-Metadatenfeldern verwendet wird. |
-| ` *`diskSpaceWarningMin`*` | `xsd:int` | Nein | Minimaler freier Speicherplatz (in KB), der verfügbar ist, bevor eine Warnmeldung gesendet wird. |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | Nein | Auf `true` setzen, um Firmen-Administratoren eine Benachrichtigung zu senden, wenn Assets aus dem Papierkorb geleert werden. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`overwriteMode`*` | `xsd:string` | Nein | Asset-Überschreibungsmodus. |
+| `*`preservePublishState`*` | `xsd:boolean` | Nein | Auf `true` setzen, um den Veröffentlichungsstatus beim erneuten Hochladen eines Assets beizubehalten. |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | Nein | IccProfile-Asset, das als Standard-Quellfarben-Profil verwendet wird. |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | Nein | IccProfile-Asset, das als standardmäßiges Profil für die Anzeigefarbe verwendet wird. |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | Nein | XSL-Asset, das zum Zuordnen von IPTC- und EXIF-Metadaten zu IPS-Metadatenfeldern verwendet wird. |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | Nein | XSL-Asset, das zum Zuordnen XMP Metadaten zu IPS-Metadatenfeldern verwendet wird. |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | Nein | Minimaler freier Speicherplatz (in KB), der verfügbar ist, bevor eine Warnmeldung gesendet wird. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Nein | Auf `true` setzen, um Firmen-Administratoren eine Benachrichtigung zu senden, wenn Assets aus dem Papierkorb geleert werden. |
 
 **Output (setCompanySettingsReturn)**
 
