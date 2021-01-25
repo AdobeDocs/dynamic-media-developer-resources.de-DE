@@ -4,10 +4,10 @@ seo-description: Aktualisiert Tag-Wörterbuchwerte für ein Tag-Feld.
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 12%
@@ -66,11 +66,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Tag-Felder. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Tag-Felder zu aktualisieren. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Tag-Felder zu aktualisieren. |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Tag-Felder. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Tag-Felder zu aktualisieren. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Tag-Felder zu aktualisieren. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
 
 ## Beispiele {#section-bb4dcf97044c4675974c9b8d27674001}
 
