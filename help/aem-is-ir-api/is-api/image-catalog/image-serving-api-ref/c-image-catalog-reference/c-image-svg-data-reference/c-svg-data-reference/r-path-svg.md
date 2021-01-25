@@ -2,12 +2,12 @@
 description: Pfad
 solution: Experience Manager
 title: Pfad
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Textzeichenfolge. Erforderlich für Bild- und SVG-Datensätze, kann für Vorlage
 
 Eine vollständige Liste der unterstützten Bilddateiformate finden Sie in der Beschreibung des Bildkonverters (IC).
 
-Anwendungen, bei denen Bilddaten in verschiedenen Auflösungen benötigt werden, funktionieren am besten, wenn das Scene7 Pyramid TIFF (PTIFF)-Format mit mehreren Auflösungen verwendet wird. Das IC-Dienstprogramm wird zum Erstellen von PTIFF-Bildern aus jedem unterstützten Bildformat verwendet.
+Anwendungen, bei denen Bilddaten in verschiedenen Auflösungen benötigt werden, funktionieren am besten, wenn das Dynamic Media Pyramid TIFF (PTIFF)-Format mit mehreren Auflösungen verwendet wird. Das IC-Dienstprogramm wird zum Erstellen von PTIFF-Bildern aus jedem unterstützten Bildformat verwendet.
 
 ## Standard {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
