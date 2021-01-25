@@ -4,10 +4,10 @@ seo-description: Durchsucht das Metadaten-Index-Repository nach den angegebenen 
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 6%
@@ -127,8 +127,8 @@ Um dieses Problem zu umgehen, können Sie die Elemente `fieldHandles` verwenden,
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | Nein | Anzahl der Übereinstimmungen. |
-| ` *`assetArray`*` | `types:AssetArray` | Nein | Array von Assets, die von der Suche zurückgegeben werden. |
+| `*`totalRows`*` | `xsd:int` | Nein | Anzahl der Übereinstimmungen. |
+| `*`assetArray`*` | `types:AssetArray` | Nein | Array von Assets, die von der Suche zurückgegeben werden. |
 
 ## metadataConditionArray Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
