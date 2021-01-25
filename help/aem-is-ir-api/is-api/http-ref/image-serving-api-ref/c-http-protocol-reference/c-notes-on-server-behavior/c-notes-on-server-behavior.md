@@ -4,10 +4,10 @@ seo-description: Es gibt verschiedene Fragen zum Serververhalten, die berücksic
 seo-title: Hinweise zum Serververhalten
 solution: Experience Manager
 title: Hinweise zum Serververhalten
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cca17322-4058-43cc-b022-ef8df52c0888
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
