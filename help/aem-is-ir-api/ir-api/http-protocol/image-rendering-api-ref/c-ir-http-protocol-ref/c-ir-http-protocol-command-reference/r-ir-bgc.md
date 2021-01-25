@@ -4,12 +4,12 @@ seo-description: Hintergrundfarbe. Gibt die Subtraktionsfarbe für farbige Textu
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Hintergrundfarbe. Gibt die Subtraktionsfarbe für farbige Texturen und Dekore an
 
 Der Texturkolorisierungsalgorithmus des Image Rendering ist ganz einfach - die Komponentenwerte von `bgc=` werden von denen der Texturpixel abgezogen, `color=` hinzugefügt und schließlich wird das Ergebnis auf `0,0,0` und `255,255,255` geklickt.
 
-Bei typischen Verwendungen der Texturfärbung ist der Wert für `bgc=` möglicherweise die wichtigste oder dominierende Farbe im Texturbild. Scene7 Image Authoring bietet halbautomatische Werkzeuge, mit denen Sie vernünftige `bgc=`-Farbwerte aus Texturbildern extrahieren können.
+Bei typischen Verwendungen der Texturfärbung ist der Wert für `bgc=` möglicherweise die wichtigste oder dominierende Farbe im Texturbild. Dynamic Media Image Authoring bietet halbautomatische Werkzeuge, mit denen Sie vernünftige `bgc=`-Farbwerte aus Texturbildern extrahieren können.
 
 Wenn ein Texturmaterial auf ein nicht texturierbares Vignettenobjekt angewendet wird, wird `bgc=` als Vordergrundfarbe angewendet, wenn `color=` nicht angegeben ist.
 
