@@ -4,10 +4,10 @@ seo-description: Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werd
 seo-title: Image Rendering HTTP-Kodierung
 solution: Experience Manager
 title: Image Rendering HTTP-Kodierung
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 1%
