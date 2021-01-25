@@ -4,10 +4,10 @@ seo-description: Profil der Ausgabefarbe.
 seo-title: icc
 solution: Experience Manager
 title: icc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95a05fe5-d6b3-4118-aab4-4664ccee2850
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -60,7 +60,7 @@ CMYK-Ausgabegerät-Profil unterstützen mit höherer Wahrscheinlichkeit untersch
 
 ## Standard {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-Wenn das Farbmanagement aktiviert ist und `icc=` nicht angegeben ist, stellt der Server das in das Ausgabebild ( `attribute::IccProfile*`) konvertierte Profil ( &lt;a1/>) bereit, das dem mit `fmt=` angegebenen Bildtyp entspricht.
+Wenn das Farbmanagement aktiviert ist und `icc=` nicht angegeben ist, stellt der Server das in das Ausgabebild ( `attribute::IccProfile*`) konvertierte Profil ( ) bereit, das dem mit `fmt=` angegebenen Bildtyp entspricht.
 
 Wenn nicht angegeben, wird *`renderIntent`* von `attribute::IccRenderIntent` geerbt und *`blackpointComp`* von `attribute::IccBlackPointCompensation` übernommen.
 
