@@ -4,12 +4,12 @@ seo-description: Pfad der Bilddatei. Relativer Pfad und Name einer Textur- oder 
 seo-title: Pfad *
 solution: Experience Manager
 title: Pfad *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
@@ -29,9 +29,9 @@ Textzeichenfolge. Erforderlich für Textur- und Dekormaterialien, optional für 
 
 ## Unterstützte Dateiformate {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Das Image Rendering unterstützt dieselben Quellbildformate wie das Scene7 Image Serving.
+Das Image Rendering unterstützt dieselben Quellbildformate wie das Dynamic Media Image Serving.
 
-Anwendungen, bei denen Bilddaten in verschiedenen Auflösungen benötigt werden, funktionieren am besten, wenn das Scene7 Pyramid TIFF (PTIFF)-Format mit mehreren Auflösungen verwendet wird. Image Serving enthält das Dienstprogramm Image Converter (IC), mit dem PTIFF-Bilder aus jedem unterstützten Format erstellt werden.
+Anwendungen, bei denen Bilddaten in verschiedenen Auflösungen benötigt werden, funktionieren am besten, wenn das Dynamic Media Pyramid TIFF (PTIFF)-Format mit mehreren Auflösungen verwendet wird. Image Serving enthält das Dienstprogramm Image Converter (IC), mit dem PTIFF-Bilder aus jedem unterstützten Format erstellt werden.
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Dokumentation zu Image Serving in der Beschreibung des IC-Dienstprogramms.
 
