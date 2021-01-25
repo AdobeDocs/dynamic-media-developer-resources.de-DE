@@ -4,10 +4,10 @@ seo-description: Legt die Imagemap für ein Asset fest.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -36,15 +36,15 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array vordefinierter Imagemaps. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array vordefinierter Imagemaps. |
 
 **Output (setImageMapsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | Ja | Ein Array mit Imagemap-Handles, die auf das Asset angewendet werden. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Ja | Ein Array mit Imagemap-Handles, die auf das Asset angewendet werden. |
 
 ## Beispiele {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
