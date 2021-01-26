@@ -4,10 +4,10 @@ seo-description: Der Karussell-Viewer ist ein Viewer, der ein Karussell nicht zo
 seo-title: Karussell
 solution: Experience Manager
 title: Karussell
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1978'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Das Navigieren durch den Karussellsatz erfolgt über eine horizontale Blätterge
 
 Der Viewer kann Hotspots oder Regionen über dem Bannerbild rendern, um den interaktiven Bereich des Produkts anzuzeigen.
 
-Durch Klicken oder Tippen auf einen Hotspot oder eine Region wird während der Autorenzeit eine Aktion ausgelöst, die mit dem Hotspot oder einer Region verknüpft ist. Die Aktion kann auf eine andere Seite der Website umgeleitet werden oder sie kann Produktinformationen an die Webseitenlogik zurückgeben, was wiederum eine Quickview mit verwandten Produktinhalten auslösen kann.
+Durch Klicken oder Tippen auf einen Hotspot oder eine Region wird eine Aktion Trigger, die während der Autorenzeit damit verknüpft ist. Die Aktion kann auf eine andere Seite der Website umgeleitet werden, oder sie kann Produktinformationen an die Webseitenlogik weiterleiten, die wiederum einen QuickView-Trigger mit zugehörigen Produktinhalten weiterleiten kann.
 
 Der Viewer kann vollständig über die Tastatur aufgerufen werden.
 
