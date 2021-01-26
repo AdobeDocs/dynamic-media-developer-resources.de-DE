@@ -4,10 +4,10 @@ seo-description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, wi
 seo-title: Schaltfläche "Miniaturansichten"
 solution: Experience Manager
 title: Schaltfläche "Miniaturansichten"
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
