@@ -4,10 +4,10 @@ seo-description: Popup für das Infofeld wird mitten im Viewer-Bereich angezeigt
 seo-title: Popup im Infofeld
 solution: Experience Manager
 title: Popup im Infofeld
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 2%
