@@ -4,10 +4,10 @@ seo-description: Die Ansicht besteht hauptsächlich aus dem Zoombild.
 seo-title: Zoom-Ansicht
 solution: Experience Manager
 title: Zoom-Ansicht
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
