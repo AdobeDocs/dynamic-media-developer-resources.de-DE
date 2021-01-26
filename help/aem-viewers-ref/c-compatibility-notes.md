@@ -4,10 +4,10 @@ seo-description: Kompatibilitätshinweise für Betriebssysteme, Browser und Mobi
 seo-title: Anmerkungen zur Kompatibilität
 solution: Experience Manager
 title: Anmerkungen zur Kompatibilität
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
