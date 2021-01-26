@@ -1,16 +1,14 @@
 ---
 description: Der Viewer für die E-Katalog-Suche ist ein Katalog-Viewer, der elektronische Prospekte auf Druckbogen oder Seite nach Seite anzeigt. Der E-Katalog ermöglicht Benutzern das Navigieren durch den Katalog mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des speziellen Miniaturansichtsmodus. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
 keywords: responsive
-seo-description: Der Viewer für die E-Katalog-Suche ist ein Katalog-Viewer, der elektronische Prospekte auf Druckbogen oder Seite nach Seite anzeigt. Der E-Katalog ermöglicht Benutzern das Navigieren durch den Katalog mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des speziellen Miniaturansichtsmodus. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
-seo-title: E-Katalog-Suche
 solution: Experience Manager
 title: E-Katalog-Suche
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Scene7-Server bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem Adobe Scene7-Server an, auf dem die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Dynamic Media-Server der Adobe bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Dynamic Media-Server der Adobe an, auf denen die IS-Viewer installiert sind.
 
 Der relative Pfad sieht wie folgt aus:
 
@@ -156,7 +154,7 @@ Der relative Pfad sieht wie folgt aus:
 
    hinzufügen ein leeres DIV-Element auf die Seite, auf der der Viewer angezeigt werden soll. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `position` oder `relative` eingestellt.`absolute`
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `relative` oder `absolute` eingestellt.`position`
 
    Das folgende Beispiel zeigt ein definiertes Platzhalter-DIV-Element:
 
@@ -166,7 +164,7 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Einstellen der Viewer-Größe
 
-   Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `.s7ecatalogsearchviewer` verwenden.`stagesize`
+   Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `stagesize` verwenden.`.s7ecatalogsearchviewer`
 
    Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
 
