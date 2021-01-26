@@ -4,10 +4,10 @@ seo-description: Die Position der Schaltfl채che wird vollst채ndig 체ber das Men�
 seo-title: Schaltfl채che "Ansicht - Alle Favoriten"
 solution: Experience Manager
 title: Schaltfl채che "Ansicht - Alle Favoriten"
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8824deb5-3bdc-4681-85ac-7f86a76cf3b5
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
