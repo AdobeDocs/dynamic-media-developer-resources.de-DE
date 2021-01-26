@@ -4,10 +4,10 @@ seo-description: Die Hervorhebung des Eingabefokus, die um das fokussierte Viewe
 seo-title: Fokushervorhebung
 solution: Experience Manager
 title: Fokushervorhebung
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5ae9c445-4be2-467e-a268-9c56b7859d47
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
