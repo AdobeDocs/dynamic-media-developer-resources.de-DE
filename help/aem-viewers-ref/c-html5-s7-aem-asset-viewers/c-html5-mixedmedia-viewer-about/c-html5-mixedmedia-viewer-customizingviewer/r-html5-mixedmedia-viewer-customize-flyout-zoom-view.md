@@ -4,10 +4,10 @@ seo-description: Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statische
 seo-title: Flyout-Zoom-Ansicht
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 5%
