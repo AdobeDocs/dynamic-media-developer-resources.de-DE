@@ -4,10 +4,10 @@ seo-description: Das Wiedergabesymbol wird im Hauptbereich der Ansicht überlage
 seo-title: Symbol, Effekt
 solution: Experience Manager
 title: Symbol, Effekt
-topic: Dynamic media
+topic: Dynamic Media
 uuid: dcab487d-0bd6-4899-82e2-e29fa812a864
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
