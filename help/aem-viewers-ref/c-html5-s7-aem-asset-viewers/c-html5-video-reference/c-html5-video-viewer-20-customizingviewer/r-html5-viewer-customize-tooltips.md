@@ -4,10 +4,10 @@ seo-description: Auf Desktop-Systemen verfügen einige Elemente der Benutzerober
 seo-title: QuickInfos
 solution: Experience Manager
 title: QuickInfos
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 01be5c3b-2f10-492c-a9b1-91cdbefea589
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 5%
