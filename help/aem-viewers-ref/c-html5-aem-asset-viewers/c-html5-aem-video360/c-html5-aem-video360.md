@@ -1,15 +1,12 @@
 ---
-description: Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und vom Scene7 Publishing System oder von AEM Dynamic Media geliefert werden.
-seo-description: Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und vom Scene7 Publishing System oder von AEM Dynamic Media geliefert werden.
-seo-title: Video360
+description: Der HTML5 Video360 Viewer ist ein 360-Grad-Video-Player, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und von Dynamic Media Classic oder AEM Dynamic Media geliefert werden.
 solution: Experience Manager
 title: Video360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und vom Scene7 Publishing System oder von AEM Dynamic Media geliefert werden.
+Der HTML5 Video360 Viewer ist ein 360-Grad-Video-Player, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und von Dynamic Media Classic oder AEM Dynamic Media geliefert werden.
 
 360-Grad-Videos, auch als immersive Videos oder kugelförmige Videos bezeichnet, sind Videoaufnahmen, bei denen eine Ansicht in jede Richtung gleichzeitig aufgezeichnet wird, die mit einer Allrichtungskamera oder einer Kamerasammlung aufgenommen wurden. Es werden sowohl einzelne Video- als auch adaptive Videosets unterstützt. Der Viewer unterstützt außerdem die Arbeit mit progressiven Video- und HLS-Streams, die auf einem externen Speicherort gehostet werden.
 
