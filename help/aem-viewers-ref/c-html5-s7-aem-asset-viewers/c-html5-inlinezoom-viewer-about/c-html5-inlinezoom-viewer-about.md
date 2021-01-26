@@ -1,16 +1,13 @@
 ---
 description: Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht berührt oder den Mauszeiger über die Ansicht bewegt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 keywords: responsive
-seo-description: Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht berührt oder den Mauszeiger über die Ansicht bewegt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
-seo-title: Inline-Zoom
 solution: Experience Manager
 title: Inline-Zoom
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Scene7-Server bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem Adobe Scene7-Server an, auf dem die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Dynamic Media-Server der Adobe bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Dynamic Media-Server der Adobe an, auf denen die IS-Viewer installiert sind.
 
 Ein relativer Pfad sieht wie folgt aus:
 
@@ -147,7 +144,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    hinzufügen ein leeres DIV-Element auf die Seite, auf der der Viewer angezeigt werden soll. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `position` oder `relative` eingestellt.`absolute`
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `relative` oder `absolute` eingestellt.`position`
 
    Es liegt in der Verantwortung der Webseite, das richtige `z-index` für das Platzhalter-DIV-Element anzugeben. Dadurch wird sichergestellt, dass der Flyout-Bereich des Viewers über den anderen Webseitenelementen angezeigt wird.
 
@@ -178,7 +175,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html)
 
-   Um die Hauptabmessungen der Ansicht statisch zu machen, definieren Sie die Viewer-Größe in absoluten Maßeinheiten für die innere SDK-Komponente `Container` mithilfe des CSS-Selektors `.s7flyoutviewer .s7container`. Darüber hinaus sollten Sie die für die CSS-Klasse der obersten Ebene definierte feste Größe im Standard-Viewer-CSS außer Kraft setzen, indem Sie sie auf `.s7flyoutviewer` festlegen.`auto`
+   Um die Hauptabmessungen der Ansicht statisch zu machen, definieren Sie die Viewer-Größe in absoluten Maßeinheiten für die innere SDK-Komponente `Container` mithilfe des CSS-Selektors `.s7flyoutviewer .s7container`. Darüber hinaus sollten Sie die für die CSS-Klasse der obersten Ebene definierte feste Größe im Standard-Viewer-CSS außer Kraft setzen, indem Sie sie auf `auto` festlegen.`.s7flyoutviewer`
 
    Im Folgenden sehen Sie ein Beispiel für die Definition der Viewer-Größe für die innere SDK-Komponente `Container`, sodass der Hauptbereich &quot;Ansicht&quot;beim Wechseln des Assets seine Größe nicht ändert:
 
