@@ -5,10 +5,10 @@ seo-description: Der einfache Zoom-Viewer ist ein Bild-Viewer, der ein einzelnes
 seo-title: Einfaches Zoomen
 solution: Experience Manager
 title: Einfaches Zoomen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Der relative Pfad sieht wie folgt aus:
 
    hinzufügen ein leeres DIV-Element auf die Seite, auf der der Viewer angezeigt werden soll. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird durch CSS festgelegt.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `position` oder `relative` eingestellt.`absolute`
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `relative` oder `absolute` eingestellt.`position`
 
    Das folgende Beispiel zeigt ein definiertes Platzhalter-DIV-Element:
 
@@ -161,7 +161,7 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Einstellen der Viewer-Größe
 
-   Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `.s7basiczoomviewer` verwenden.`stagesize`
+   Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `stagesize` verwenden.`.s7basiczoomviewer`
 
    Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in SPS einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl weitergegeben wird.
 
