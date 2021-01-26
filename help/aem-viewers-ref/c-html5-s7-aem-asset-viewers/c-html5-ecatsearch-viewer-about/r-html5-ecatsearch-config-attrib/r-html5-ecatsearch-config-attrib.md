@@ -4,10 +4,10 @@ seo-description: Dokumentation zu Konfigurationsattributen für den E-Katalog-Vi
 seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e1111ce2-67e8-449a-9cc2-bb53b61158a9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Dokumentation zu Konfigurationsattributen für den E-Katalog-Viewer.
 
-Jeder Konfigurationsbefehl kann in der URL oder mit den API-Methoden `setParam()`, `setParams()` oder &lt;a1/> oder beide festgelegt werden. Sie können auch jedes Konfigurationsattribut angeben, das im serverseitigen Konfigurationssatz angegeben ist.
+Jeder Konfigurationsbefehl kann in der URL oder mit den API-Methoden `setParam()`, `setParams()` oder  oder beide festgelegt werden. Sie können auch jedes Konfigurationsattribut angeben, das im serverseitigen Konfigurationssatz angegeben ist.
 
 Bei einigen Konfigurationsbefehlen können Sie ihnen den Klassennamen oder Instanznamen der entsprechenden Viewer-SDK-Komponente voranstellen. Der Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an die API-Methode `setContainerId()` übergeben wird. Die Dokumentation enthält ein optionales Präfix für solche Befehle. Der Befehl `zoomstep` wird beispielsweise wie folgt dokumentiert:
 
