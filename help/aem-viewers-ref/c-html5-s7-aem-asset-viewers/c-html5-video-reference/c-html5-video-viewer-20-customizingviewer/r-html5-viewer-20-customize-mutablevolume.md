@@ -4,10 +4,10 @@ seo-description: Das Steuerelement für veränderliche Lautstärke wird zunächs
 seo-title: Wechselbares Volumen
 solution: Experience Manager
 title: Wechselbares Volumen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d7eafff8-dd98-42e2-9d45-e291fe372d8c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 2%
