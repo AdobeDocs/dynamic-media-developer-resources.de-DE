@@ -4,10 +4,10 @@ seo-description: Dokumentation zu Konfigurationsattributen für Video360 Viewer.
 seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Dokumentation zu Konfigurationsattributen für Video360 Viewer.
 
-Jeder Konfigurationsbefehl kann in der URL oder mit den API-Methoden `setParam()`, `setParams()` oder &lt;a1/> oder beide festgelegt werden. Jedes Konfigurationsattribut kann auch im serverseitigen Konfigurationssatz angegeben werden.
+Jeder Konfigurationsbefehl kann in der URL oder mit den API-Methoden `setParam()`, `setParams()` oder  oder beide festgelegt werden. Jedes Konfigurationsattribut kann auch im serverseitigen Konfigurationssatz angegeben werden.
 
 Einige Konfigurationsbefehle können mit dem Klassennamen oder Instanznamen der entsprechenden Viewer-SDK-Komponente versehen werden. Der Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an die API-Methode `setContainerId()` übergeben wird. Die Dokumentation enthält ein optionales Präfix für solche Befehle. Der Befehl `playback` wird beispielsweise wie folgt dokumentiert:
 
