@@ -4,10 +4,10 @@ seo-description: Der Interactive Video Viewer ist ein Videoplayer, der Streaming
 seo-title: Interaktives Video
 solution: Experience Manager
 title: Interaktives Video
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2243'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Beachten Sie, dass auf Touch-Geräten die Lautstärkeregelung in der Benutzerobe
 
 Wenn der Viewer im Popupmodus ausgeführt wird, ist in der Benutzeroberfläche keine Vollbildschaltfläche verfügbar.
 
-Der Viewer zeigt ein Bedienfeld mit interaktiven Farbfeldern rechts neben dem Videoanzeigebereich an. Die Liste der Farbfelder wird bei der Videowiedergabe automatisch angepasst, sodass die dem aktuellen Videobereich entsprechenden Farbfelder angezeigt werden. Durch Klicken oder Tippen auf ein Farbfeld wird eine Aktion ausgelöst, die während der Autorenzeit mit diesem Farbfeld verknüpft wurde. Je nachdem, wie Sie ihn einrichten, kann der Auslöser zu einer anderen Seite der Website umleiten oder Produktinformationen an die Webseitenlogik weiterleiten, was wiederum das Öffnen einer Schnellseite auslösen kann, die den zugehörigen Produktinhalt anzeigt.
+Der Viewer zeigt ein Bedienfeld mit interaktiven Farbfeldern rechts neben dem Videoanzeigebereich an. Die Liste der Farbfelder wird bei der Videowiedergabe automatisch angepasst, sodass die dem aktuellen Videobereich entsprechenden Farbfelder angezeigt werden. Durch Klicken auf oder Tippen auf ein Farbfeld wird eine Aktion Trigger, die während der Autorenzeit mit diesem Farbfeld verknüpft wurde. Je nachdem, wie Sie es einrichten, kann der Trigger zu einer anderen Seite auf der Website umleiten oder Produktinformationen an die Webseitenlogik weiterleiten, die wiederum das Öffnen einer Quick-Ansicht, die zugehörige Produktinhalte anzeigt, Trigger haben kann.
 
 Es ist möglich, schnell durch den Videoinhalt zu navigieren, wenn das Videochaptern aktiviert ist. Videokapitel werden als Markierungen in der Videobildschirmspur angezeigt und zeigen den Kapiteltitel und die Beschreibung beim Rollover (oder bei einem einzigen Tippen auf Touch-Systemen) an. Der Kunde kann zu einem bestimmten Kapitel &quot;suchen&quot;, indem er auf eine Kapitelmarke klickt oder auf eine Kapitelbeschreibungsblase tippt.
 
