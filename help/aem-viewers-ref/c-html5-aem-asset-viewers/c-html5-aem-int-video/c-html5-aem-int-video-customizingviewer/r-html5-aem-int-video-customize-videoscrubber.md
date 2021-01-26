@@ -4,10 +4,10 @@ seo-description: Der Video-Scrubber ist der horizontale Regler, mit dem ein Benu
 seo-title: Video-Scrubber
 solution: Experience Manager
 title: Video-Scrubber
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 2%
@@ -462,7 +462,7 @@ Der Keil-Anschluss am unteren Rand der Kapitelblase wird durch den folgenden CSS
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-width  </span> </p> </td> 
-   <td colname="col2"> <p> Breite des Wedge-Anschlusses. </p> <p>Definiert als <span class="codeph"> &lt;width&gt; </span> &lt;a1/&gt;, sodass dieselbe Breite nur für die oberen und horizontalen Ränder definiert wird und die untere Rahmenbreite <span class="codeph"> 0 </span> ist. </p> </td> 
+   <td colname="col2"> <p> Breite des Wedge-Anschlusses. </p> <p>Definiert als <span class="codeph"> &lt;width&gt; </span> , sodass dieselbe Breite nur für die oberen und horizontalen Ränder definiert wird und die untere Rahmenbreite <span class="codeph"> 0 </span> ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
