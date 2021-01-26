@@ -4,10 +4,10 @@ seo-description: Der Flyout-Viewer unterstützt standardmäßig die Adobe Analyt
 seo-title: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ac5a2de9-6275-434f-ae09-a588f4a71aa6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
