@@ -2,10 +2,10 @@
 description: Verwalten von Seitenbeschriftungen
 solution: Experience Manager
 title: Verwalten von Seitenbeschriftungen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ab3df37d-113b-4762-ba9c-b92ffc41f1a2
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
