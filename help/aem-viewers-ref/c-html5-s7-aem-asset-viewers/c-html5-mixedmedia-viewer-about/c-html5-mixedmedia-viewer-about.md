@@ -5,10 +5,10 @@ seo-description: Der Viewer für gemischte Medien ist ein Medien-Viewer. Es unte
 seo-title: Gemischte Medien
 solution: Experience Manager
 title: Gemischte Medien
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Der relative Pfad sieht wie folgt aus:
 
    hinzufügen ein leeres DIV-Element auf die Seite, auf der der Viewer angezeigt werden soll. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird durch CSS festgelegt.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `position` oder `relative` eingestellt.`absolute`
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `relative` oder `absolute` eingestellt.`position`
 
    Stellen Sie sicher, dass die Vollbildfunktion in Internet Explorer ordnungsgemäß funktioniert. Vergewissern Sie sich, dass keine anderen Elemente im DOM eine höhere Stapelreihenfolge aufweisen als das Platzhalter-DIV.
 
