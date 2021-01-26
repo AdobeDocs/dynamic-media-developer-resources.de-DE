@@ -4,10 +4,10 @@ seo-description: Konfigurationsattribut für Karussell-Viewer.
 seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 80053511-f0e2-49f6-a1db-cd96c7788703
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Konfigurationsattribut für Karussell-Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touch-Ereignis an, das in der Steuerleiste registriert ist, und der Zeitsteuerungsleiste an. </p> <p>Wenn die Komponente auf <span class="codeph"> -1</span> eingestellt ist, löst sie nie ihren Auto-Ausblendeffekt aus und bleibt daher immer auf dem Bildschirm sichtbar. </p> </td> 
+   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touch-Ereignis an, das in der Steuerleiste registriert ist, und der Zeitsteuerungsleiste an. </p> <p>Wenn die Komponente auf <span class="codeph"> -1</span> eingestellt ist, wird ihr automatischer Ausblendeffekt nie Trigger und bleibt daher immer auf dem Bildschirm sichtbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 
