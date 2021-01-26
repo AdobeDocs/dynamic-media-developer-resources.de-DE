@@ -4,10 +4,10 @@ seo-description: Der Hauptbereich der Ansicht ist der Bereich, in dem sich das K
 seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e337058e-1b51-4bc8-bfdb-95c1500db16a
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
