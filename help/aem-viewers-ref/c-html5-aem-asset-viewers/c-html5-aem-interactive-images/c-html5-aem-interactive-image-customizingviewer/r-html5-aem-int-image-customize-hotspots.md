@@ -4,10 +4,10 @@ seo-description: Der Viewer zeigt Hotspot-Symbole über der wichtigsten Ansicht 
 seo-title: Hotspots
 solution: Experience Manager
 title: Hotspots
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 2%
