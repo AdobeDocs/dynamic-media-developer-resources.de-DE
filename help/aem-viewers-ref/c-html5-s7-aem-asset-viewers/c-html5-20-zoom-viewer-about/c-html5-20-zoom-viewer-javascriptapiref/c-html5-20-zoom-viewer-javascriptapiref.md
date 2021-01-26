@@ -4,10 +4,10 @@ seo-description: Die Hauptklasse des Zoom-Viewers ist BasicZoomViewer. Sie wird 
 seo-title: JavaScript-API-Referenz für Zoom-Viewer
 solution: Experience Manager
 title: JavaScript-API-Referenz für Zoom-Viewer
-topic: Dynamic media
+topic: Dynamic Media
 uuid: add69992-7613-4ec2-9845-f01bf0392d0c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
