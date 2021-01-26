@@ -4,10 +4,10 @@ seo-description: Durch Klicken oder Tippen auf diese Schaltfläche gelangt der B
 seo-title: Schaltfläche "Nächste Seite"
 solution: Experience Manager
 title: Schaltfläche "Nächste Seite"
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 38be0f94-42eb-42ca-8e56-935aeeb4dc2b
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
