@@ -3,10 +3,10 @@ description: Anpassen des Video-Viewers
 keywords: responsive
 solution: Experience Manager
 title: Anpassen des Video-Viewers
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e18fdf8b-5834-4c99-b8a3-90d1f8310dc1
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer dem Con
 
 ## Erstellen von reaktionsfähigem CSS {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
 
-Es ist möglich, verschiedene Geräte in CSS Zielgruppe, damit Ihre Inhalte je nach Gerät des Benutzers unterschiedlich angezeigt werden. Dieses Targeting umfasst, aber nicht ausschließlich, verschiedene Elementgrößen und Auflösung von Grafiken in der Benutzeroberfläche.
+Es ist möglich, verschiedene Geräte in CSS Zielgruppe, damit Ihre Inhalte je nach Gerät des Benutzers unterschiedlich angezeigt werden. Dieses Targeting umfasst, aber nicht ausschließlich, unterschiedliche Elementgrößen und Auflösung von Grafiken in der Benutzeroberfläche.
 
 Der Viewer unterstützt zwei Mechanismen zum Erstellen von Responsive-Design-CSS: CSS-Marker und Standard-CSS-Media-Abfragen. Sie können diese unabhängig oder zusammen verwenden.
 
