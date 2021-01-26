@@ -4,10 +4,10 @@ seo-description: Das Bedienfeld für interaktive Muster wird neben dem Videoinha
 seo-title: Interaktive Muster
 solution: Experience Manager
 title: Interaktive Muster
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
