@@ -1,15 +1,12 @@
 ---
-description: Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich im Scene7 Publishing System erstellt wurden, oder rendert exakte Ansichten, die der Form der Originalbilder entsprechen.
-seo-description: Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich im Scene7 Publishing System erstellt wurden, oder rendert exakte Ansichten, die der Form der Originalbilder entsprechen.
-seo-title: Imagemap-Effekt
+description: Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich in Dynamic Media Classic erstellt wurden, oder rendert exakte Bereiche, die mit der Form der Original-Imagemaps übereinstimmen.
 solution: Experience Manager
 title: Imagemap-Effekt
 topic: Dynamic Media
-uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Imagemap-Effekt{#image-map-effect}
 
-Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich im Scene7 Publishing System erstellt wurden, oder rendert exakte Ansichten, die der Form der Originalbilder entsprechen.
+Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich in Dynamic Media Classic erstellt wurden, oder rendert exakte Bereiche, die mit der Form der Original-Imagemaps übereinstimmen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
