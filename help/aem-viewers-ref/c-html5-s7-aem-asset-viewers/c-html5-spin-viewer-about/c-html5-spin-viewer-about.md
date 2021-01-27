@@ -8,9 +8,9 @@ title: Rotation
 topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Der Rotationsset-Viewer wird wie folgt zu einer Webseite hinzugefügt:
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Scene7-Server bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem Adobe Scene7-Server an, auf dem die IS-Viewer installiert sind.
+   Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Dynamic Media-Server der Adobe bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Dynamic Media-Server der Adobe an, auf denen die IS-Viewer installiert sind.
 
    Der relative Pfad sieht wie folgt aus:
 
@@ -165,7 +165,7 @@ Der Rotationsset-Viewer wird wie folgt zu einer Webseite hinzugefügt:
 
    Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `stagesize` verwenden.`.s7spinviewer`
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
+   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Rotationsset-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55).
 
@@ -178,7 +178,7 @@ Der Rotationsset-Viewer wird wie folgt zu einer Webseite hinzugefügt:
    }
    ```
 
-   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz im Scene7 Publishing System festlegen oder ihn explizit mit der `params`-Sammlung an den Viewer-Initialisierungscode übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit der `params`-Auflistung übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
 
    ```
     spinViewer.setParam("stagesize", 
