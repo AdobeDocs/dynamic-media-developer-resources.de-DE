@@ -1,15 +1,12 @@
 ---
 description: Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil der Adobe Experience Manager-Lösung in der Adobe Marketing Cloud.
-seo-description: Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil der Adobe Experience Manager-Lösung in der Adobe Marketing Cloud.
-seo-title: Scene7 Version Herbst 2016
 solution: Experience Manager
 title: Scene7 Version Herbst 2016
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil der Adobe Expe
 Die neuesten Versionshinweise für [!DNL Adobe Scene7] Herbstversion 2016 der [!DNL Adobe Experience Manager]-Lösung in [!DNL Adobe Marketing Cloud].
 
 * [Allgemein](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Viewer (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Viewer (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Viewer (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 Viewer-SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Image Serving 6.3.2 und Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2 und Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Allgemein {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Die vollständige Dokumentation finden Sie unter [https://docs.adobe.com/content
 * Die Videoneuschnitt-Funktion wurde aus der [!DNL Adobe Scene7 Publishing System]-Benutzeroberfläche entfernt.
 * Es wurde nach Bedarf und nach Möglichkeit eine Authentifizierung für alle Scene7-Servlets hinzugefügt.
 * Fehlerkorrektur mit der Ansicht der Liste im Papierkorb.
-* Die Benutzerfunktion **SPSAdmin** aus User Management wurde aus Sicherheitsgründen entfernt.
+* Die Benutzerfunktion **Dynamic Media Classic erstellen (Scene7) Admin** wurde aus Sicherheitsgründen aus User Management entfernt.
 * FTP WebAdmin unterstützt jetzt die OKTA-Authentifizierung.
 * Die Funktion des Standardkennworts für neue Media Portal-Benutzer wurde entfernt.
 * Fehlerkorrektur mit dem temporären Kennwort, das beim Hinzufügen eines neuen Benutzers generiert wurde. Das Kennwort entsprach nicht den erforderlichen Kennwortanforderungen.
