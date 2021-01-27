@@ -7,9 +7,9 @@ title: Druckfunktion
 topic: Dynamic Media
 uuid: 4932042a-1421-4589-8bf5-88bbe38d774d
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Mit dem Viewer können Sie den Kataloginhalt auf einem Drucker ausgeben.
 
 Die Druckfunktion wird durch eine entsprechende Schaltfläche in der Symbolleiste ausgelöst. Durch Klicken auf die Schaltfläche können Benutzer einen Druckbereich und die Anzahl der Seiten pro Blatt auswählen.
 
-Die Druckqualität kann mit dem Konfigurationsparameter `printquality` angepasst werden. Beachten Sie, dass die Einstellung von `printquality` auf Werte, die deutlich höher als der Standardwert sind, nicht empfohlen wird. Der Grund dafür ist, dass es zu einem sehr hohen Speicherverbrauch des Webbrowsers auf dem Client-System führt. Achten Sie außerdem darauf, dass die für Ihre SPS-Firma festgelegte maximale Bildreaktionsgröße größer ist als der konfigurierte Wert `printquality`.
+Die Druckqualität kann mit dem Konfigurationsparameter `printquality` angepasst werden. Beachten Sie, dass die Einstellung von `printquality` auf Werte, die deutlich höher als der Standardwert sind, nicht empfohlen wird. Der Grund dafür ist, dass es zu einem sehr hohen Speicherverbrauch des Webbrowsers auf dem Client-System führt. Achten Sie außerdem darauf, dass die für Ihre Dynamic Media Classic-Firma festgelegte maximale Bildreaktionsgröße größer ist als der konfigurierte Wert `printquality`.
 
 >[!NOTE]
 >
