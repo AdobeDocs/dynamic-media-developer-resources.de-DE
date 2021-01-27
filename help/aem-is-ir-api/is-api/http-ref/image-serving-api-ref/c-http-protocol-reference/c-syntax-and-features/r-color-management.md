@@ -1,15 +1,12 @@
 ---
 description: Image Serving unterstützt Farbraumkonvertierungen, die auf Farbraum-Profilen basieren, die der ICC-Spezifikation (International Color Consortium) entsprechen.
-seo-description: Image Serving unterstützt Farbraumkonvertierungen, die auf Farbraum-Profilen basieren, die der ICC-Spezifikation (International Color Consortium) entsprechen.
-seo-title: Image Serving-Farbmanagement
 solution: Experience Manager
 title: Image Serving-Farbmanagement
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 6291372e-ec4c-4fbd-bffc-b55b1bf2f8cf
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -107,15 +104,15 @@ Zusätzliche Profile können den Standardkatalogen hinzugefügt werden, entweder
 |`JapanColorWebCoated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc|
 |`NewsprintSNAP2007`|US Newsprint (SNAP 2007)|USNewsprintSNAP2007.icc|
-|`PS4Default`|Photoshop 4 Standard-CMYK|Photoshop4DefaultCMYK.icc|
-|`PS5Default`|Fotoshopp 5 Standard-CMYK|Photoshop5DefaultCMYK.icc|
+|`PS4Default`|Photoshop 4 Standard CMYK|Photoshop4DefaultCMYK.icc|
+|`PS5Default`|Photoshop 5 Standard-CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|U.S. Sheetfeed Coated v2|USSheetfeedCoated.icc|
 |`SheetfedUncoated`|U.S. Sheetfeed Ungestern v2|USSheetfeedUnbeschichtete.icc|
-|`UncoatedFogra29`|Ungestrichenes FOGRA29 (ISO 12647-2:2004)|UngestrichenFOGRA29.icc|
+|`UncoatedFogra29`|Ungestrichenes FOGRA29 (ISO 12647-2:2004)|Ungestrichenes FOGRA29.icc|
 |`WebCoated`|U.S. Web Coated (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
-|`WebCoatedGrade3`|Web Coated SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc|
-|`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc|
+|`WebCoatedGrade3`|Webbeschichtete SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc|
+|`WebCoatedGrade5`|Webbeschichtete SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|U.S. Web Ungestern v2|USWebUnbeschichtete.icc|
 
 Die folgende Tabelle gilt für *Dynamic Media Classic (Scene7) Image Serving* und *Dynamic Media* (wird im Ausführungsmodus `dynamicmedia_scene7` ausgeführt).
@@ -145,16 +142,16 @@ Die folgende Tabelle gilt für *Dynamic Media Classic (Scene7) Image Serving* un
 |`JapanColorUncoated`|Japan Color 2001 Ungestrichen|JapanColor2001Ungestrichen.icc|
 |`Japan Color 2003 Web Coated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc|
-|`PS4Default`|Photoshop 4 Standard CMYK|Photoshop4DefaultCMYK.icc|
-|`PS5Default`|Photoshop 5 Standard CMYK|Photoshop5DefaultCMYK.icc|
+|`PS4Default`|Photoshop 4 Standard-CMYK|Photoshop4DefaultCMYK.icc|
+|`PS5Default`|Photoshop 5 Standard-CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|U.S. Sheetfeed Coated v2|USSheetfeedCoated.icc|
 |`SheetfedUncoated`|U.S. Sheetfeed Ungestern v2|USSheetfeedUnbeschichtete.icc|
 |`UncoatedFogra29`|Ungestrichenes FOGRA29 (ISO 12647-2:2004)|Ungestrichenes FOGRA29.icc|
 |`US Newsprint (SNAP 2007)`|US Newsprint (SNAP 2007)|USNewsprintSNAP2007.icc|
 |`WebCoated`|U.S. Web Coated (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
-|`Web Coated SWOP 2006 Grade 3 Paper`|Web Coated SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc|
-|`Web Coated SWOP Grade 5 Paper`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc|
+|`Web Coated SWOP 2006 Grade 3 Paper`|Webbeschichtete SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc|
+|`Web Coated SWOP Grade 5 Paper`|Webbeschichtete SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|U.S. Web Ungestern v2|USWebUnbeschichtete.icc|
 
 ## Verwandte Themen {#section-39159397e80b4efca5f631eab8b9aa06}
