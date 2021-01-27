@@ -1,10 +1,10 @@
 ---
-description: Das Hochladen von Assets in das Scene7 Production System umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordination aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
+description: Das Hochladen von Assets in Dynamic Media Classic umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordinierung aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
 solution: Experience Manager
 title: Hochladen von Assets über HTTP POSTs zum UploadFile-Servlet
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Hochladen von Assets mithilfe von HTTP-POSTs zum UploadFile-Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Das Hochladen von Assets in das Scene7 Production System umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordination aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
+Das Hochladen von Assets in Dynamic Media Classic umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordinierung aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
 
 Verwenden Sie die folgende URL, um auf das UploadFile-Servlet zuzugreifen:
 
