@@ -4,10 +4,10 @@ seo-description: Verwaltet Rechte zum Zugriff, Ändern, Erstellen oder Löschen 
 seo-title: Berechtigung
 solution: Experience Manager
 title: Berechtigung
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -25,9 +25,9 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | Gruppengriff. |
-| ` *`groupName`*` | `xsd:string` | Gruppenname. |
-| ` *`permissionType`*` | `xsd:string` | Auswahl des Berechtigungstyps. |
-| ` *`isAllowed`*` | `xsd:boolean` | Bestimmt, ob die Berechtigung zulässig ist. |
-| ` *`isOverride`*` | `xsd:boolean` | Stellt fest, ob die Berechtigung eine andere überschreibt. |
+| `*`groupHandle`*` | `xsd:string` | Gruppengriff. |
+| `*`groupName`*` | `xsd:string` | Gruppenname. |
+| `*`permissionType`*` | `xsd:string` | Auswahl des Berechtigungstyps. |
+| `*`isAllowed`*` | `xsd:boolean` | Bestimmt, ob die Berechtigung zulässig ist. |
+| `*`isOverride`*` | `xsd:boolean` | Stellt fest, ob die Berechtigung eine andere überschreibt. |
 
