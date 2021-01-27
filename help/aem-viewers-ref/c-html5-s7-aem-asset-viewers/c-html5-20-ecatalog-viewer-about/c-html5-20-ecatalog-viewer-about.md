@@ -1,16 +1,13 @@
 ---
 description: Der E-Katalog-Viewer ist ein Katalog-Viewer, der elektronische Prospekte auf Druckbogen oder Seite nach Seite anzeigt. Der E-Katalog ermöglicht Benutzern das Navigieren durch den Katalog mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des speziellen Miniaturansichtsmodus. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
 keywords: responsive
-seo-description: Der E-Katalog-Viewer ist ein Katalog-Viewer, der elektronische Prospekte auf Druckbogen oder Seite nach Seite anzeigt. Der E-Katalog ermöglicht Benutzern das Navigieren durch den Katalog mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des speziellen Miniaturansichtsmodus. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
-seo-title: eCatalog
 solution: Experience Manager
-title: E-Katalog
+title: eCatalog
 topic: Dynamic Media
-uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -173,7 +170,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `stagesize` verwenden.`.s7ecatalogviewer`
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
+   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des E-Katalog-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -186,7 +183,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz im Scene7 Publishing System festlegen oder ihn explizit mit der `params`-Sammlung an den Viewer-Initialisierungscode übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit der `params`-Auflistung übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
 
    ```
    eCatalogViewer.setParam("stagesize", 
