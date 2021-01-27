@@ -1,23 +1,20 @@
 ---
-description: Popup für das Infofeld wird mitten im Viewer-Bereich angezeigt, wenn ein Benutzer eine Imagemap aktiviert, deren Eigenschaft rollover_key im Scene7 Publishing System definiert ist, und wenn die Infofeldfunktion für den Viewer ordnungsgemäß konfiguriert ist.
-seo-description: Popup für das Infofeld wird mitten im Viewer-Bereich angezeigt, wenn ein Benutzer eine Imagemap aktiviert, deren Eigenschaft rollover_key im Scene7 Publishing System definiert ist, und wenn die Infofeldfunktion für den Viewer ordnungsgemäß konfiguriert ist.
-seo-title: Popup im Infofeld
+description: Popup für Infofelder wird mitten im Viewer angezeigt, wenn ein Benutzer eine Imagemap aktiviert, deren Eigenschaft rollover_key in Dynamic Media Classic definiert ist, und wenn die Funktion für das Infofeld für den Viewer ordnungsgemäß konfiguriert ist.
 solution: Experience Manager
 title: Popup im Infofeld
 topic: Dynamic Media
-uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 2%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
 
 # Infofeld-Popup{#info-panel-popup}
 
-Popup für das Infofeld wird mitten im Viewer-Bereich angezeigt, wenn ein Benutzer eine Imagemap aktiviert, deren Eigenschaft rollover_key im Scene7 Publishing System definiert ist, und wenn die Infofeldfunktion für den Viewer ordnungsgemäß konfiguriert ist.
+Popup für Infofelder wird mitten im Viewer angezeigt, wenn ein Benutzer eine Imagemap aktiviert, deren Eigenschaft rollover_key in Dynamic Media Classic definiert ist, und wenn die Funktion für das Infofeld für den Viewer ordnungsgemäß konfiguriert ist.
 
 Der Hintergrund des Infofelds deckt den gesamten Viewer-Bereich ab und wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
