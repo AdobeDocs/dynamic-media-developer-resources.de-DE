@@ -7,9 +7,9 @@ title: joboption
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 42%
 
 ---
@@ -28,7 +28,7 @@ PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist ei
  </tr> 
 </table>
 
-Die Auftragsoptionendatei kann vom IPS/SPS hochgeladen und veröffentlicht werden. Die in der Auftragsoptionendatei enthaltenen PDF-Optionen werden beim Generieren der PDF-Datei verwendet.
+Die Auftragsoptionendatei kann von IPS/Dynamic Media Classic hochgeladen und veröffentlicht werden. Die in der Auftragsoptionendatei enthaltenen PDF-Optionen werden beim Generieren der PDF-Datei verwendet.
 
 Die folgenden Optionen werden derzeit unterstützt:
 
