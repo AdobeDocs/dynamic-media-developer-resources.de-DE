@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 
 ## Server-Hardware und -Software {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic (früher Scene7) Image Serving 6.7.1 oder höher.
+* Dynamic Media Classic Image Serving 6.7.1 oder höher.
 * HTML5-Viewer erfordern SDK JavaScript-serverseitige Bibliotheken 3.10.2 oder höher.
 * Social-Funktionen von &quot;E-Mail an Freunde&quot;erfordern s7ondemand 5.0.9 oder höher.
 * E-Katalog-Viewer - Für die Unterstützung des Infofelds ist Info Server 2.1.8 oder höher erforderlich.
