@@ -1,16 +1,13 @@
 ---
-description: Der Video-Viewer ist ein Videoplayer, der Streaming- und Progressiv-Videos im H.264-Format wiedergibt. Es wird vom Scene7 Publishing System oder AEM Dynamic Media bereitgestellt.
+description: Der Video-Viewer ist ein Videoplayer, der Streaming- und Progressiv-Videos im H.264-Format wiedergibt. Es wird von Dynamic Media Classic oder AEM Dynamic Media geliefert.
 keywords: responsive
-seo-description: Der Video-Viewer ist ein Videoplayer, der Streaming- und Progressiv-Videos im H.264-Format wiedergibt. Es wird vom Scene7 Publishing System oder AEM Dynamic Media bereitgestellt.
-seo-title: Video
 solution: Experience Manager
 title: Video
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Video{#video}
 
-Der Video-Viewer ist ein Videoplayer, der Streaming- und Progressiv-Videos im H.264-Format wiedergibt. Es wird vom Scene7 Publishing System oder AEM Dynamic Media bereitgestellt.
+Der Video-Viewer ist ein Videoplayer, der Streaming- und Progressiv-Videos im H.264-Format wiedergibt. Es wird von Dynamic Media Classic oder AEM Dynamic Media geliefert.
 
 Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -152,7 +149,7 @@ Relativer Pfad sieht wie folgt aus:
 
    Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `stagesize` verwenden.`.s7videoviewer`
 
-   Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
+   Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später einem Viewer-Vorgabendatensatz in Dynamic Media Classic zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Video-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e).
 
@@ -165,7 +162,7 @@ Relativer Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz im Scene7 Publishing System oder explizit mit der `params`-Sammlung an den Viewer-Initialisierungscode übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, wie im Folgenden dargestellt:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit der `params`-Auflistung übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
