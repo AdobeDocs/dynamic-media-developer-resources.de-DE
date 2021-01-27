@@ -8,9 +8,9 @@ title: Einfaches Zoomen
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `stagesize` verwenden.`.s7basiczoomviewer`
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in SPS einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl weitergegeben wird.
+   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit einem Stilbefehl übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des einfachen Zoom-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -176,7 +176,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in SPS festlegen oder ihn explizit mit der `params`-Sammlung an den Viewer-Initialisierungscode übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, wie folgt:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit der `params`-Auflistung übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
