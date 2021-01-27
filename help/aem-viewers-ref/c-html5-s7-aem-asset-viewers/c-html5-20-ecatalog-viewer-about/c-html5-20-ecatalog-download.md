@@ -5,10 +5,10 @@ title: Herunterladen
 topic: Dynamic Media
 uuid: 84c1c9f5-ad96-447e-be78-bae2b7095a29
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
@@ -21,5 +21,5 @@ Die Schaltfläche &quot;Herunterladen&quot;ist in der Benutzeroberfläche des Vi
 
 * In der Firma des Kunden befindet sich eine eigentliche PDF-Datei.
 * Der Name entspricht dem Namen des E-Katalog-Assets, das an den Viewer übergeben wird und die Erweiterung `.pdf` enthält.
-* Die PDF-Datei wird im SPS veröffentlicht.
+* Die PDF-Datei wird in Dynamic Media Classic veröffentlicht.
 
