@@ -7,7 +7,7 @@ title: Asset
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -57,15 +57,15 @@ oder
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen expliziten Bildsatz an, der aus einer sortierten Folge von Elementen oder Rahmen besteht, die durch Kommas getrennt sind. </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Gibt einen expliziten Bildsatz an, der aus einer sortierten Folge von Elementen oder Rahmen besteht, die durch Kommas getrennt sind. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen expliziten Bildsatz an, bei dem jeder Rahmen über eigene Image Serving-Modifikatoren verfügt. In diesem Fall wird die Liste der Rahmen in Klammern eingeschlossen. Achten Sie darauf, dass Sie die HTTP-Kodierung der Dublette auf alle Kommas anwenden, die im frame-spezifischen Image Serving-Modifikator vorhanden sind. </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Gibt einen expliziten Bildsatz an, bei dem jeder Rahmen über eigene Image Serving-Modifikatoren verfügt. In diesem Fall wird die Liste der Rahmen in Klammern eingeschlossen. Achten Sie darauf, dass Sie die HTTP-Kodierung der Dublette auf alle Kommas anwenden, die im frame-spezifischen Image Serving-Modifikator vorhanden sind. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt ein explizites mehrdimensionales Rotationsset mit der folgenden Syntax an: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> wobei <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> eine kommagetrennte Liste von Frames für eine gegebene horizontale Achse ist. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> sollten dieselbe Anzahl von Frames haben. </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p>Gibt ein explizites mehrdimensionales Rotationsset mit der folgenden Syntax an: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> wobei <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> eine kommagetrennte Liste von Frames für eine gegebene horizontale Achse ist. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> sollten dieselbe Anzahl von Frames haben. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Modifikatoren  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ oder
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Einzelnes Video oder adaptives Videoset. </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Einzelnes Video oder adaptives Videoset. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Einzelnes Bild. </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Einzelnes Bild. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Musterset. </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Musterset. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Musterbild. </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p>Musterbild. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ oder
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> spin  </span> </p> <p>Für Rotationsset. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>Für ein einzelnes Video. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>Für adaptive Videosets. </p> </li> 
-     </ul> </p> <p> <p>Hinweis:  Diese Funktion wird im Adobe Scene7 Publishing System unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+     </ul> </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Modifikatoren  </span> </span> </p> </td> 
