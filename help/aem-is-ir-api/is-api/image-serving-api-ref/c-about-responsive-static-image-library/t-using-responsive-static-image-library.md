@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Verwenden der Bibliothek für interaktives Bild
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Um einer Webseite eine Bibliothek mit interaktiven Bildern hinzuzufügen und vor
 
 **So verwenden Sie die Bibliothek &quot;Responsive Image&quot;**
 
-1. Erstellen Sie in SPS [eine Bildvorgabe](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html), falls Sie die Bibliothek für interaktives Bild mit Vorgaben verwenden möchten.
+1. Erstellen Sie in Dynamic Media Classic [eine Bildvorgabe](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html), falls Sie die Bibliothek für interaktives Bild mit Vorgaben verwenden möchten.
 
    Verwenden Sie beim Definieren von Bildvorgaben, die mit der Bibliothek für interaktives Bild verwendet werden, keine Einstellungen, die sich auf die Bildgröße auswirken, z. B. `wid=`, `hei=` oder `scl=`. Geben Sie keine Größenfelder in der Bildvorgabe an. Lassen Sie sie stattdessen als leere Werte.
 1. hinzufügen Sie die JavaScript-Bibliotheksdatei auf Ihre Webseite.
