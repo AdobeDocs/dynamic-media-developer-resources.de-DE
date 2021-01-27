@@ -1,16 +1,13 @@
 ---
 description: Der Viewer für gemischte Medien ist ein Medien-Viewer. Es unterstützt Mediensets, die Bilder, Mustersets, Rotationssets, Videos und adaptive Videosets enthalten.
 keywords: responsive
-seo-description: Der Viewer für gemischte Medien ist ein Medien-Viewer. Es unterstützt Mediensets, die Bilder, Mustersets, Rotationssets, Videos und adaptive Videosets enthalten.
-seo-title: Gemischte Medien
 solution: Experience Manager
 title: Gemischte Medien
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Scene7-Server bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem Adobe Scene7-Server an, auf dem die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Dynamic Media Classic-Server der Adobe bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Server der Adobe Dynamic Media Classic an, auf denen die IS-Viewer installiert sind.
 
 Der relative Pfad sieht wie folgt aus:
 
@@ -175,7 +172,7 @@ Der relative Pfad sieht wie folgt aus:
 
    In diesem Viewer werden Miniaturansichten angezeigt, wenn Sie mit Sets mit mehreren Elementen arbeiten. Auf Desktop-Systemen werden Miniaturansichten unterhalb der Hauptversion der Ansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Hauptassets während der Laufzeit mit der API `setAsset()`. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich &quot;Miniaturansichten&quot;unten verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die Größe des äußeren Viewers beizubehalten und die Haupthöhe der Ansicht zu erhöhen und den Bereich der Miniaturansichten zu belassen. Oder Sie können die Größe der Hauptversion statisch beibehalten und den äußeren Viewer-Bereich reduzieren, damit der Inhalt der Ansicht nach oben verschoben werden kann, und dann die freie Seitenposition verwenden, die von den Miniaturbildern entfernt wird.
 
-   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe der CSS-Klasse der obersten Ebene in absoluten Einheiten. `.s7mixedmediaviewer` Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später im Scene7 Publishing System einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit dem Stilbefehl übergeben wird.
+   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe der CSS-Klasse der obersten Ebene in absoluten Einheiten. `.s7mixedmediaviewer` Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit dem Stilbefehl übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Viewers für gemischte Medien](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4).
 
@@ -207,7 +204,7 @@ Der relative Pfad sieht wie folgt aus:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz im Scene7 Publishing System festlegen oder ihn explizit mit der `params`-Sammlung an den Viewer-Initialisierungscode übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;dieser Hilfe beschrieben, wie im Folgenden dargestellt:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit der `params`-Auflistung übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;dieser Hilfe beschrieben, wie im folgenden Beispiel:
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
