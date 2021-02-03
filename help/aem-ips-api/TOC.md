@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Dynamic Media Image Production System API {#image-production-api}
 
-+ [Dynamic Media Developer Resources - Startseite](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media Developer Resources - Startseite](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Informationen zur Dynamic Media Image Production System API](c-overview.md)
 + [Veraltete Aufrufe](c-deprecated-calls.md)
 + [IPS Web Service WSDL Versionen](c-wsdl-versions.md)
@@ -418,7 +418,7 @@ ht-degree: 3%
    + [Auftragsprotokolldateitypen](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Sortierfelder für Auftragsprotokoll](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Auftragsprotokolltypen](string-constants/c-string-constants/r-job-log-types.md)
-   + [Auftragsauslöserstatus](string-constants/c-string-constants/r-job-trigger-states.md)
+   + [Status des Job Triggers](string-constants/c-string-constants/r-job-trigger-states.md)
    + [Auftragstypen](string-constants/c-string-constants/r-job-types.md)
    + [Metadatenfeldtypen](string-constants/c-string-constants/r-metadata-field-types.md)
    + [Numerische Operatoren/Datumsvergleiche](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
