@@ -1,15 +1,12 @@
 ---
 description: Alle Funktionen, die in der Benutzeroberfläche "Einfaches Zoomen", "E-Katalog", "E-Katalog-Suche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Abmessungen", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, sind, sind über die Tastatur verfügbar.
-seo-description: Alle Funktionen, die in der Benutzeroberfläche "Einfaches Zoomen", "E-Katalog", "E-Katalog-Suche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Abmessungen", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, sind, sind über die Tastatur verfügbar.
-seo-title: Barrierefreiheit und Navigation
 solution: Experience Manager
 title: Barrierefreiheit und Navigation
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
