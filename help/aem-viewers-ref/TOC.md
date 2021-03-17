@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Viewer-Referenzhandbuch
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1897'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 # Dynamic Media Viewer-Referenzhandbuch {#library}
 
 + [Dynamic Media Developer Resources - Startseite](/help/landing/home.md)
-+ [Dynamic Media Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en)
++ [Dynamic Media Viewer-Referenzhandbuch](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [Beispiele für die Viewer-Bibliothek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Mehrere Viewer auf demselben Server installieren](t-installing-the-viewers.md)
