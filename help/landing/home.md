@@ -4,9 +4,9 @@ seo-title: Adobe Dynamic Media-Entwicklerressourcen-Handbücher für Viewer, Ima
 description: Adobe Dynamic Media-Entwicklerressourcen
 seo-description: Adobe Dynamic Media-Entwicklerressourcen-Handbücher für Viewer, Image Serving, Image Rendering und Bildproduktion
 translation-type: tm+mt
-source-git-commit: b31ff703a522becd22b417a40fe02d6a5ff7ca70
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '164'
 ht-degree: 2%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # Entwicklerressourcen für Dynamic Media{#dynamic-media-developer-resource}
 
-* [Viewer-ReferenzhandbuchAnpassen ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) <!-- (/help/aem-viewers-ref/home.md) -->
+* [Viewer-ReferenzhandbuchAnpassen ](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 von Dynamic Media-Viewern für die Verwendung auf Desktop- und Touchscreen-Geräten. Zu den Medientypen, mit denen Sie arbeiten können, zählen interaktive Bilder und Videos, 360-Grad-Video, Karussells, Bild-Zoom, Video, Ekataloge, Flyouts, gemischte Medien und Rotationssets.
-* [Image Serving/Image Rendering ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) <!-- (/help/aem-is-ir-api/home.md) -->
+* [Image Serving/Image Rendering ](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 APIDocumentation zu IS- (Image Serving) und IR- (Image Rendering-) APIs und verwandten Technologien. Wenn Sie die Dynamic Media Classic-Integration mit AEM bearbeiten, sollten Sie auf den IS-Teil der API verweisen.
 * [Image Production System ](/help/aem-ips-api/c-overview.md)
 APITDie IPS (Image Production System) Web Service API ermöglicht externen Anwendungen und Drittanbieterentwicklern den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
