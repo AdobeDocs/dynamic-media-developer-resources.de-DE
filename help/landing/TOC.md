@@ -8,7 +8,7 @@ breadcrumb-title: Entwicklerressourcen für Dynamic Media
 user-guide-description: Zugriff auf Entwicklerressourcen für Dynamic Media, wie das Viewer-Referenzhandbuch, die Image Production System API, die Image Serving and Rendering API und Versionshinweise zu archived Scene7.
 index: y
 translation-type: tm+mt
-source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 88%
@@ -18,14 +18,12 @@ ht-degree: 88%
 
 # Entwicklerressourcen für Dynamic Media{#landing}
 
-+ [Startseite](/help/landing/home.md)
++ [Startseite](home.md)
 
 <!--This TOC may not be necessary. Not sure, so leaving it in.
-+ [Viewers Reference Guide](/help/aem-viewers-ref/home.md)
-+ [IS/IR API](/help/aem-is-ir-api/home.md)
++ [Viewers Reference Guide](/help/aem-viewers-ref/homeviewers.md)
++ [IS/IR API](/help/aem-is-ir-api/homeisir.md)
 + [IPS API](/help/aem-ips-api/c-overview.md)
 + [Image Authoring](/help/aem-ia/aem-ia-home.md)
-+ Vignette Automation Module for Python{#vignette}
-  + [Vignette Automation Module for Python](/help/vignette-automation-module-for-python/c-vampyhome.md)
-+ [Dynamic Media Classic Release Notes](/help/s7-release-notes/home.md)
++ [Dynamic Media Classic Release Notes](/help/s7-release-notes/homern.md)
 -->
