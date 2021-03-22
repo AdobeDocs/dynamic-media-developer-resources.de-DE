@@ -4,13 +4,14 @@ seo-description: In diesem Abschnitt werden alle bearbeitbaren Konfigurationsein
 seo-title: Servereinstellungen
 solution: Experience Manager
 title: Servereinstellungen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dc4deefe-c354-4d01-a1d2-815597994adc
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '84'
+ht-degree: 4%
 
 ---
 
