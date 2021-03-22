@@ -4,12 +4,13 @@ seo-description: Diese Kategorie umfasst Farben für Wände, Holz und Trimm, Aut
 seo-title: Feste Farben
 solution: Experience Manager
 title: Feste Farben
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
