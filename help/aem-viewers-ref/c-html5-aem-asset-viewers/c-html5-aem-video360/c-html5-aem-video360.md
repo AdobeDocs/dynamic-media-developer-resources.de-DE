@@ -2,11 +2,12 @@
 description: Der HTML5 Video360 Viewer ist ein 360-Grad-Video-Player, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und von Dynamic Media Classic oder AEM Dynamic Media geliefert werden.
 solution: Experience Manager
 title: Video360
-topic: Dynamic Media
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2593'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ Beachten Sie, dass auf Touch-Geräten die Lautstärkeregelung in der Benutzerobe
 
 Wenn der Viewer im Popupmodus ausgeführt wird, ist in der Benutzeroberfläche keine Vollbildschaltfläche verfügbar.
 
-Der Viewer unterstützt außerdem eine Reihe von Social Media-Sharing-Werkzeugen. Sie stehen als eine einzige Schaltfläche in der Benutzeroberfläche zur Verfügung, die durch Klicken oder Tippen auf eine Freigabebeschaltfläche in eine Freigabebeschaltfläche umgewandelt wird. Die Freigabe-Symbolleiste enthält ein Symbol für jeden unterstützten Freigabetyp, z. B. Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe per E-Mail, die Einbettung von Teilen oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer über einen Social Media-Dienst zu einem Standardfreigabedialogfeld um. Wenn ein Freigabe-Tool aktiviert ist, wird die Videowiedergabe automatisch angehalten. Die Freigabe von Werkzeugen ist im Vollbildmodus aufgrund von Webbrowser-Sicherheitsbeschränkungen nicht verfügbar.
+Der Viewer unterstützt außerdem eine Reihe von Social Media-Sharing-Werkzeugen. Sie stehen als eine einzige Schaltfläche in der Benutzeroberfläche zur Verfügung, die durch Klicken oder Tippen auf eine Freigabebeschaltfläche in eine Freigabebeschaltfläche umgewandelt wird. Die Freigabe-Symbolleiste enthält ein Symbol für jeden unterstützten Freigabetyp, z. B. Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe per E-Mail, die Einbettung von Teilen oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer über einen Social Media-Dienst zu einem Standardfreigabedialogfeld um. Wenn ein Freigabe-Tool aktiviert ist, wird die Videowiedergabe automatisch angehalten. Freigeben-Werkzeuge sind aufgrund von Sicherheitsbeschränkungen im Webbrowser nicht im Vollbildmodus verfügbar.
 
 Der Viewer unterstützt 360 Videowiedergaben auf VR-Headsets (wie Oculus Go und Oculus Rift), VR HMD (Head-Motion Display)-Halterungen (wie Google Pboard) und nicht für VR geeignete Geräte (wie Desktop-Browser, Tablets und Mobiltelefone, die nicht mit VR HMD-Halterungen verbunden sind).
 
