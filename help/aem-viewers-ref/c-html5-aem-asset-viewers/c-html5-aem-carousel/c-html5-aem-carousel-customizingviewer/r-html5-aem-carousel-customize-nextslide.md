@@ -4,12 +4,13 @@ seo-description: Wenn Sie auf die Schaltfläche "Nächste Folie"klicken oder dar
 seo-title: Nächste Folie
 solution: Experience Manager
 title: Nächste Folie
-topic: Dynamic Media
 uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
+feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
