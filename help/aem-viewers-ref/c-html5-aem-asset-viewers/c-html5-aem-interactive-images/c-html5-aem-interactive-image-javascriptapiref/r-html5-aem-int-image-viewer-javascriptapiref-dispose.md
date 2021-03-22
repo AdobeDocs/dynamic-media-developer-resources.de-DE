@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für Video-Bild-Viewer.
 seo-title: dispose
 solution: Experience Manager
 title: dispose
-topic: Dynamic Media
 uuid: d9698486-8ffd-4b12-844b-e80b929675ec
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
