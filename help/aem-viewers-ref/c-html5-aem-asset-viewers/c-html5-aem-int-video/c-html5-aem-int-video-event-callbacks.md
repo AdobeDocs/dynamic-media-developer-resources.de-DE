@@ -2,12 +2,13 @@
 description: Ereignis-Rückrufe
 solution: Experience Manager
 title: Ereignis-Rückrufe
-topic: Dynamic Media
 uuid: b9252d4b-cff1-42eb-9e56-553091f854b5
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Folgende Viewer-Ereignis werden unterstützt:
    * `compClass {String}` nicht verwendet.
    * `instName {String}` einem Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
    * `timeStamp {Number}` Zeitstempel des Ereignisses.
-   * `eventInfo {String}` ereignis-Nutzlast.
+   * `eventInfo {String}` Ereignis-Nutzlast.
 
 * `quickViewActivate` - Trigger, wenn ein Benutzer auf ein interaktives Farbfeld innerhalb der Komponente für interaktive Farbfelder oder im Bildschirm &quot;Aktionsaufruf&quot;klickt oder tippt, der am Ende der Videowiedergabe angezeigt wird. Der Callback-Handler akzeptiert das einzige Argument, bei dem es sich um ein JSON-Objekt mit den folgenden Feldern handelt:
 
