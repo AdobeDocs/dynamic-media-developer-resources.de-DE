@@ -1,13 +1,14 @@
 ---
-description: Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht berührt oder den Mauszeiger über die Ansicht bewegt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
+description: Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht umblättert oder berührt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 keywords: responsive
 solution: Experience Manager
 title: Inline-Zoom
-topic: Dynamic Media
+feature: Dynamic Media Classic, Viewer, SDK/API, Inline-Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Inline-Zoom{#inline-zoom}
 
-Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht berührt oder den Mauszeiger über die Ansicht bewegt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
+Der Inline-Zoom-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild mit der gezoomten Version über dem statischen Bild angezeigt, wenn ein Benutzer die Hauptansicht umblättert oder berührt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 
 >[!NOTE]
 >
@@ -66,7 +67,7 @@ Der Inline-Zoom-Viewer unterstützt Single-Touch- und Multi-Touch-Gesten, die in
  </tbody> 
 </table>
 
-Der Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf die Webbrowser Chrome, Internet Explorer 11 und Edge beschränkt.
+Der Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
 
 Auf diesen Viewer kann vollständig über die Tastatur zugegriffen werden.
 
