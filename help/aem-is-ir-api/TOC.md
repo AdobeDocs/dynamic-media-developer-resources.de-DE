@@ -1,13 +1,13 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: Dynamic Media Image Serving and Rendering API
 breadcrumb-title: Dynamic Media Image Serving and Rendering API
+feature-set: Experience Manager Assets
+user-guide-description: Dokumentation zur Ansicht von IS (Image Serving) und IR (Image Rendering) APIs und dazugehörigen Technologien.
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1466'
 ht-degree: 10%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 10%
 
 # Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
-+ [Dynamic Media Developer Resources - Startseite](/help/landing/home.md)
 + [Dynamic Media Image Serving und Image Rendering API - Startseite](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [Über diese Version](r-about-this-release.md)
 + [Systemanforderungen und -voraussetzungen](r-requirements-and-prerequisites.md)
