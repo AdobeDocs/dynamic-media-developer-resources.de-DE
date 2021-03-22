@@ -1,23 +1,25 @@
 ---
 title: Versionshinweise zur Adobe Dynamic Media Classic
-description: Versionshinweise für die Adobe Dynamic Media Classic, Teil der Adobe Experience Manager-Lösung in der Adobe Experience Cloud.
+description: '"Versionshinweise für Adobe Dynamic Media Classic, Teil der Adobe Experience Manager-Lösung in der Adobe Experience Cloud."'
 author: Rick Brough
 cloud: experience-cloud
 product: Dynamic Media Classic
 archtype: end-user
-user-guide: null
+feature-set: Experience Manager Assets
+feature: Dynamic Media Classic
+role: Entwickler, Geschäftspraktiker
+user-guide-description: Die neuesten Versionshinweise für Adobe Dynamic Media Classic, Teil der Adobe Experience Manager-Lösung in der Adobe Experience Cloud.
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
 
 # Dynamic Media Versionshinweise {#release-notes}
 
-+ [Dynamic Media Developer Resources - Startseite](/help/landing/home.md)
 + [Neueste Versionshinweise](s7rn2017.md)
 + Archiv {#archive-release-notes}
    + [Scene7 Version Herbst 2016](s7rnfall2016.md)
