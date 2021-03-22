@@ -4,12 +4,13 @@ seo-description: Die vom Image Rendering unterstützten Befehle sind unten nach 
 seo-title: Übersicht über das Image Rendering des HTTP-Protokolls
 solution: Experience Manager
 title: Übersicht über das Image Rendering des HTTP-Protokolls
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3278c781-968a-4bde-b469-84e8dcfb0e9a
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
