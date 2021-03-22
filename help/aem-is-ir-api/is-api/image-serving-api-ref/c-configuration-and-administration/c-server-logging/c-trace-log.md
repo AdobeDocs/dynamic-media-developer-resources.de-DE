@@ -4,12 +4,13 @@ seo-description: Der Plattformserver schreibt Datensätze in diese Protokolldate
 seo-title: Ablaufverfolgungsprotokoll
 solution: Experience Manager
 title: Ablaufverfolgungsprotokoll
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 227b4c6c-38d3-4acd-8cfd-aa812c3f260d
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
