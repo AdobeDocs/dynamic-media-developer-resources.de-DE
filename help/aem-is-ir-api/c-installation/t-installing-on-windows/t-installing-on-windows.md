@@ -4,12 +4,13 @@ seo-description: Image Serving kann unter 64-Bit Windows installiert werden.
 seo-title: Installieren unter Windows
 solution: Experience Manager
 title: Installieren unter Windows
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2646f61-24f4-4b15-b148-f8d615378fe0
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
