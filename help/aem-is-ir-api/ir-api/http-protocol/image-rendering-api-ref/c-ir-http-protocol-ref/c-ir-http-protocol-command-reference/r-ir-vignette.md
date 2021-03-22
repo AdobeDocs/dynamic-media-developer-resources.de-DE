@@ -4,12 +4,13 @@ seo-description: Vignettendatei. Gibt die für diese Anforderung zu verwendende 
 seo-title: Vignette
 solution: Experience Manager
 title: Vignette
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8bba4ad4-bd55-4c55-8ebf-585371cf33f1
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '142'
 ht-degree: 4%
 
 ---
