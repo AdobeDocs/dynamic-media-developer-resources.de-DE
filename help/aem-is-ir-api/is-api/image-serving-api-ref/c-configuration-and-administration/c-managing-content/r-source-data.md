@@ -4,12 +4,13 @@ seo-description: Zu den Image Serving-Quelldatendateien gehören Bild- und Maske
 seo-title: Quelldaten
 solution: Experience Manager
 title: Quelldaten
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -48,6 +49,6 @@ Alle `*`rootPath`*`-Segmente können leere, relative oder absolute Pfadsegmente 
 
 `*`Fügen Sie `*` hier entweder einen absoluten oder relativen Dateipfad/Dateinamen ein. `*``*` requestPath muss ein relativer Dateipfad/Name sein.
 
-`Multiple IS::RootPath` Werte können in ImageServerRegistry.xml (oder über die Admin-Oberfläche) definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Image-Server versucht, alternative Pfade in der angegebenen Reihenfolge zu verwenden, bis die Datendatei gefunden wurde.
+`Multiple IS::RootPath` Werte können in ImageServerRegistry.xml (oder über die Admin-Oberfläche) definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Image-Server versucht, in der angegebenen Reihenfolge alternative Pfade auszuprobieren, bis die Datendatei gefunden wurde.
 
 Neue Datendateien jeder Art können jederzeit hinzugefügt werden, ohne den Server zu beenden.
