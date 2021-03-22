@@ -4,12 +4,13 @@ seo-description: Dokumentation zu Konfigurationsattributen für Video Viewer.
 seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-topic: Dynamic Media
 uuid: 837cf230-f7dd-4010-a299-c3267d11e200
+feature: Dynamic Media Classic, Viewer, SDK/API, Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
