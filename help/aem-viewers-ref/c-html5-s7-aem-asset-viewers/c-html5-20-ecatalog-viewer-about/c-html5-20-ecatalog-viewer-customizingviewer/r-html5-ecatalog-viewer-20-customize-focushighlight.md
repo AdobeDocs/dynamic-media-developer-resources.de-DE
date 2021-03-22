@@ -4,12 +4,13 @@ seo-description: Hervorhebung des Eingabefokus, der um das Element der fokussier
 seo-title: Fokushervorhebung
 solution: Experience Manager
 title: Fokushervorhebung
-topic: Dynamic Media
 uuid: 50411b68-8d01-4240-b548-a6c51374a8c6
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
