@@ -4,12 +4,13 @@ seo-description: Boldface Flag. Gibt an, ob die Schriftartdatei, auf die dieser 
 seo-title: Fett
 solution: Experience Manager
 title: Fett
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 7%
 
 ---
