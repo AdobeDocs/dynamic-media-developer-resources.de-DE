@@ -4,12 +4,13 @@ seo-description: Miniaturansichten bestehen aus einem Raster von Miniaturbildern
 seo-title: Miniaturansichten
 solution: Experience Manager
 title: Miniaturansichten
-topic: Dynamic Media
 uuid: 623f6c7a-4ec7-4708-a7ed-1aa42a21e430
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '924'
 ht-degree: 2%
 
 ---
