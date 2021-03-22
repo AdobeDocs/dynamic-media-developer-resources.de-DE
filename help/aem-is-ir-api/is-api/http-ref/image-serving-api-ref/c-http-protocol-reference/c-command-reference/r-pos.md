@@ -4,13 +4,14 @@ seo-description: Ebenenposition.
 seo-title: pos
 solution: Experience Manager
 title: pos
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
@@ -54,4 +55,4 @@ Siehe Beispiel A in [Vorlagen](../../../../../is-api/http-ref/image-serving-api-
 
 ## Verwandte Themen {#section-812d95575ba542808e8387d0a8650606}
 
-[herkunft=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138)
+[Herkunft=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138)
