@@ -4,12 +4,13 @@ seo-description: Bild vervielfältigen/erodieren. Wendet einen morphologischen F
 seo-title: op_large
 solution: Experience Manager
 title: op_large
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
