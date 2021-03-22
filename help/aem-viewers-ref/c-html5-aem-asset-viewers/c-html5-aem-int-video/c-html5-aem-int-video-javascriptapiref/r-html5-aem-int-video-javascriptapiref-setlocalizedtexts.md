@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für den interaktiven Video-Viewer.
 seo-title: setLocalizedTextes
 solution: Experience Manager
 title: setLocalizedTextes
-topic: Dynamic Media
 uuid: 11844a71-adb0-42a9-9b58-b69821070fd2
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '90'
 ht-degree: 2%
 
 ---
