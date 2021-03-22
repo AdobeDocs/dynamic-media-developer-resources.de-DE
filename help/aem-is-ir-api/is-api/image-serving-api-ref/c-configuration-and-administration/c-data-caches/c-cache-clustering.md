@@ -4,12 +4,13 @@ seo-description: Das Cache-Clustering ermöglicht es mehreren Servern mit Lasten
 seo-title: Cache-Clustering
 solution: Experience Manager
 title: Cache-Clustering
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
