@@ -4,12 +4,13 @@ seo-description: Themen in diesem Abschnitt beschreiben die Syntax und Funktione
 seo-title: Syntax und Funktionen
 solution: Experience Manager
 title: Syntax und Funktionen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Themen in diesem Abschnitt beschreiben die Syntax und Funktionen der HTTP-Protok
 * [Befehlsmakros](r-is-http-command-macros.md)
 * [Bildkataloge](r-image-catalogs.md)
 * [Objekt-ID-Übersetzung](r-object-id-translation.md)
-* [Lokale Anpassung von Textzeichenfolgen](r-text-string-localization.md)
+* [lokale Anpassung von Textzeichenfolgen](r-text-string-localization.md)
 * [SVG-Unterstützung](r-svg-support.md)
 * [Vorverarbeitung anfordern](r-request-preprocessing.md)
 * [Imagemaps](r-image-maps.md)
