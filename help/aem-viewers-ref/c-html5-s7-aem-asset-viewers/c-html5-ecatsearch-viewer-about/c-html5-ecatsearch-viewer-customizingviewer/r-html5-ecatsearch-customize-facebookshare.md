@@ -4,12 +4,13 @@ seo-description: Das Freigeben-Tool für Facebook besteht aus einer Schaltfläch
 seo-title: Facebook-Freigabe
 solution: Experience Manager
 title: Facebook-Freigabe
-topic: Dynamic Media
 uuid: 1b79ad43-7fdf-4046-a225-1f585ff839b6
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
