@@ -4,12 +4,13 @@ seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild
 seo-title: Schaltfläche "Vergrößern"
 solution: Experience Manager
 title: Schaltfläche "Vergrößern"
-topic: Dynamic Media
 uuid: 86e5806b-a711-440c-95b6-a35420667182
+feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '300'
 ht-degree: 2%
 
 ---
