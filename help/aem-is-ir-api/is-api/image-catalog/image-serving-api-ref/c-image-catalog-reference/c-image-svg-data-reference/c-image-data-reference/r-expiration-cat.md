@@ -2,12 +2,13 @@
 description: Ablauf
 solution: Experience Manager
 title: Ablauf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5c9e5f76-c65f-4193-adf7-fb635fc5a071
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -31,7 +32,7 @@ Bestimmte Arten von Antworten (z. B. Fehlerantworten) werden immer für einen so
 
 ## Eigenschaften {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Real number, -2, -1 oder 0 oder höher. Anzahl der Stunden bis zum Ablauf seit der Generierung des Antwortbilds. Auf 0 setzen, um das Antwortbild immer sofort ablaufen zu lassen, wodurch die Zwischenspeicherung des Clients effektiv deaktiviert wird. Auf -1 setzen, um als *`never expire`* zu markieren. In diesem Fall gibt der Server bei Anforderung von bedingten GET immer den Status 304 (nicht modifiziert) zurück, ohne zu prüfen, ob die Datei tatsächlich geändert wurde. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
+Real number, -2, -1 oder 0 oder höher. Anzahl der Stunden bis zum Ablauf seit der Generierung des Antwortbilds. Auf 0 setzen, um das Antwortbild immer sofort ablaufen zu lassen, wodurch die Zwischenspeicherung des Clients effektiv deaktiviert wird. Auf -1 setzen, um als *`never expire`* zu markieren. In diesem Fall gibt der Server bei Anforderung von bedingten GET immer den Status 304 zurück (nicht geändert), ohne zu prüfen, ob die Datei tatsächlich geändert wurde. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
 
 ## Standard {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
