@@ -4,12 +4,13 @@ seo-description: Der Indikator "Festlegen"ist eine Reihe von Punkten, die am unt
 seo-title: Indikator festlegen
 solution: Experience Manager
 title: Indikator festlegen
-topic: Dynamic Media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
+feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
