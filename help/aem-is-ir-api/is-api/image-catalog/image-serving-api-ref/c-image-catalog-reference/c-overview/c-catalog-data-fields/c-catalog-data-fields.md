@@ -4,12 +4,13 @@ seo-description: In diesem Abschnitt werden die Katalogdatenfelder beschrieben.
 seo-title: Katalogdatenfelder
 solution: Experience Manager
 title: Katalogdatenfelder
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: adba052d-a88b-4350-a4f8-faf649ca0e60
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
