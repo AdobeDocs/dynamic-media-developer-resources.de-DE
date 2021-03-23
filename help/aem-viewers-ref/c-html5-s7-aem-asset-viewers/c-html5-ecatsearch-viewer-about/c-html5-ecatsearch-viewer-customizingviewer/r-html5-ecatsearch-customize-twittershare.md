@@ -4,12 +4,13 @@ seo-description: Das Twitter-Freigeben-Tool besteht aus einer Schaltfläche, die
 seo-title: Twitter-Freigabe
 solution: Experience Manager
 title: Twitter-Freigabe
-topic: Dynamic Media
 uuid: 609d3c3f-290d-4c21-b61e-70831bee74ea
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
