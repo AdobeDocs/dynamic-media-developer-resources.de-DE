@@ -4,12 +4,13 @@ seo-description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, wi
 seo-title: Schaltfläche "Rechts drehen"
 solution: Experience Manager
 title: Schaltfläche "Rechts drehen"
-topic: Dynamic Media
 uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 3%
 
 ---
