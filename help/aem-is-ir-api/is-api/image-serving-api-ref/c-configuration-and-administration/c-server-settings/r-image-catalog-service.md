@@ -4,12 +4,13 @@ seo-description: Verwenden Sie diese Servereinstellungen für den Bildkatalogdie
 seo-title: Bildkatalogdienst
 solution: Experience Manager
 title: Bildkatalogdienst
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Verwenden Sie diese Servereinstellungen für den Bildkatalogdienst.
 
 ## CS::catalog.rootPath - Bildkatalogordner {#section-02d107f157384b18835f884f24fea3aa}
 
-Speicherort des Bildkatalogordners (in dem sich alle [!DNL catalog.ini]-Dateien befinden müssen). Kann ein absoluter Dateipfad oder ein Pfad relativ zum *[!DNL install_folder]* sein. Der Server überwacht diesen Ordner kontinuierlich und lädt Kataloge neu, wenn eine neue Hauptkatalogdatei (mit dem Suffix [!DNL .ini]) erkannt wird oder sich die letzte geänderte Zeit einer vorhandenen Hauptkatalogdatei geändert hat.
+Speicherort des Bildkatalogordners (in dem sich alle [!DNL catalog.ini]-Dateien befinden müssen). Kann ein absoluter Dateipfad oder ein Pfad relativ zum *[!DNL install_folder]* sein. Der Server überwacht diesen Ordner kontinuierlich und lädt Kataloge, wenn eine neue Hauptkatalogdatei (mit dem Suffix [!DNL .ini]) erkannt wird oder sich die letzte geänderte Zeit einer vorhandenen Hauptkatalogdatei geändert hat.
 
 ## CS::catalog.cacheRoot - Katalog-Cache-Ordner {#section-73e499c3a5974f1aa4251e70272ff503}
 
