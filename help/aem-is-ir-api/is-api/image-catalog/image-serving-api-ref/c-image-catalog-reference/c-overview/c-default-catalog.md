@@ -4,12 +4,13 @@ seo-description: Der Standardkatalog enthält Standardwerte für alle Katalogatt
 seo-title: Standardkatalog
 solution: Experience Manager
 title: Standardkatalog
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
