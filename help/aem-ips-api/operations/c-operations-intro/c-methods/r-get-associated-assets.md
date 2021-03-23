@@ -4,13 +4,14 @@ seo-description: Ruft Assets ab, die mit einem angegebenen Asset verknüpft sind
 seo-title: getAssociatedAssets
 solution: Experience Manager
 title: getAssociatedAssets
-topic: Dynamic Media Image Production System API
 uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
+feature: Dynamic Media Classic, SDK/API, Asset Management
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 7%
+source-wordcount: '429'
+ht-degree: 6%
 
 ---
 
