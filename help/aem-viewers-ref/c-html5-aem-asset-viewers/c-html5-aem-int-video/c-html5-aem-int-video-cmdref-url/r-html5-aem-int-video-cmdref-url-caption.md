@@ -4,13 +4,14 @@ seo-description: URL-Befehl für den interaktiven Video-Viewer.
 seo-title: caption
 solution: Experience Manager
 title: caption
-topic: Dynamic Media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 11%
+source-wordcount: '217'
+ht-degree: 10%
 
 ---
 
@@ -66,7 +67,7 @@ Andere WebVTT-Funktionen, die in der WebVTT-Datei vorhanden sind, werden nicht u
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Stellen Sie die WebVTT-Datei per Image Serving bereit. </p> </td> 
+   <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Die WebVTT-Datei wird über Image Serving bereitgestellt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
