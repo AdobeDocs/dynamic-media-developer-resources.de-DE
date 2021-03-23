@@ -4,12 +4,13 @@ seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild
 seo-title: Schaltfläche "Verkleinern"
 solution: Experience Manager
 title: Schaltfläche "Verkleinern"
-topic: Dynamic Media
 uuid: 2e95855a-c3af-4a79-a33a-f27d88dc14a4
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '299'
 ht-degree: 2%
 
 ---
