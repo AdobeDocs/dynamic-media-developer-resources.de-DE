@@ -4,12 +4,13 @@ seo-description: Ruft die Details des Auftragsprotokolls einer Firma ab.
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-topic: Dynamic Media Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '231'
 ht-degree: 9%
 
 ---
