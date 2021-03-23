@@ -4,12 +4,13 @@ seo-description: Das Tool zum Weitergeben per E-Mail besteht aus einer Schaltfl�
 seo-title: Email-Freigabe
 solution: Experience Manager
 title: Email-Freigabe
-topic: Dynamic Media
 uuid: 4c6abb74-7e13-4fed-bbfb-45e388627578
+feature: Dynamic Media Classic, Viewer, SDK/API, Video
+role: Entwickler, Gesch채ftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3030'
 ht-degree: 2%
 
 ---
@@ -690,7 +691,7 @@ Alle statischen Beschriftungen, die links neben den Formulareingabefeldern angez
  </tbody> 
 </table>
 
-Beispiel: Um die Beschriftungen f체r Eingabefelder auf eine Breite von 50 Pixeln, rechtsb체ndig, mit einer Auff체llung von zehn Pixeln und einem Rand von zehn Pixeln rechts festzulegen, m체ssen Sie Folgendes festlegen:
+Beispiel: Um die Beschriftungen f체r Eingabefelder auf eine Breite von 50 Pixel, rechtsb체ndig, mit einer Auff체llung von zehn Pixeln und einem Rand von zehn Pixeln rechts festzulegen, m체ssen Sie folgende Werte eingeben:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputlabel { 
