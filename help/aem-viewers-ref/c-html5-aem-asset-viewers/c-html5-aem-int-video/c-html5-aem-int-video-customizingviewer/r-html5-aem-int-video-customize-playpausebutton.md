@@ -4,12 +4,13 @@ seo-description: Durch die Schaltfläche "Abspielen/Anhalten"wird der Videoinhal
 seo-title: Schaltfläche "Abspielen/Anhalten"
 solution: Experience Manager
 title: Schaltfläche "Abspielen/Anhalten"
-topic: Dynamic Media
 uuid: d6dd795d-f608-4304-8221-251d0a082421
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '295'
 ht-degree: 2%
 
 ---
