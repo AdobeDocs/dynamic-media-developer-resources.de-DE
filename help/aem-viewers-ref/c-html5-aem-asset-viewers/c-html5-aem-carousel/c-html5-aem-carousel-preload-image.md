@@ -4,12 +4,13 @@ seo-description: Das Vorlade-Bild ist ein Bild für die Vorschau von statischen 
 seo-title: Vorab-Bild
 solution: Experience Manager
 title: Vorab-Bild
-topic: Dynamic Media
 uuid: bae99269-fd55-485e-b78e-873b77541d91
+feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
