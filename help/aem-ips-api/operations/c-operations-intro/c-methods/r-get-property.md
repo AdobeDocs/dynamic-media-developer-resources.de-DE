@@ -4,13 +4,14 @@ seo-description: Ruft Zeichenfolgenwerte der Systemeigenschaften ab, die mit Ima
 seo-title: getProperty
 solution: Experience Manager
 title: getProperty
-topic: Dynamic Media Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 11%
+source-wordcount: '150'
+ht-degree: 10%
 
 ---
 
