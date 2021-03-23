@@ -4,12 +4,13 @@ seo-description: Alle Viewer-Komponenten unterstützen ARIA-Rollen und -Attribut
 seo-title: Unterstützung von Technologien
 solution: Experience Manager
 title: Unterstützung von Technologien
-topic: Dynamic Media
 uuid: 99fdb4fd-5a3d-4c4e-b1c5-10651c08bf39
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom, Barrierefreiheit
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
