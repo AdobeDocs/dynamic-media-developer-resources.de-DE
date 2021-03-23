@@ -4,12 +4,13 @@ seo-description: Diese Befehle gelten unabhängig davon, wo in der Anforderung s
 seo-title: Anforderungsbefehle
 solution: Experience Manager
 title: Anforderungsbefehle
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5566bbcd-baf8-4003-b61d-df4e414df781
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '163'
 ht-degree: 2%
 
 ---
