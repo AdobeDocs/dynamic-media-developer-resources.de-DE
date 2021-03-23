@@ -4,12 +4,13 @@ seo-description: Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben
 seo-title: Suchergebnisbereich
 solution: Experience Manager
 title: Suchergebnisbereich
-topic: Dynamic Media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '963'
 ht-degree: 2%
 
 ---
@@ -315,7 +316,7 @@ Die Darstellung der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klas
  </tbody> 
 </table>
 
-Beispiel: So richten Sie Beschriftungen mit 12 Pixel, grauer Helvetica-Schrift ein:
+Beispiel: So richten Sie Beschriftungen ein, die eine 12-Pixel-Schrift, eine graue Schrift verwenden:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
