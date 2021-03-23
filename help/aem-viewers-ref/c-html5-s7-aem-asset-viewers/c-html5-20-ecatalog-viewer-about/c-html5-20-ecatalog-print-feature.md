@@ -4,12 +4,13 @@ seo-description: Mit dem Viewer können Sie den Kataloginhalt auf einem Drucker 
 seo-title: Druckfunktion
 solution: Experience Manager
 title: Druckfunktion
-topic: Dynamic Media
 uuid: 4ff170a3-ce37-454f-b4b0-b323de3dc9c9
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
