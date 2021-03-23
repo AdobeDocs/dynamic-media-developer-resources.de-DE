@@ -4,12 +4,13 @@ seo-description: Muster bestehen aus einer Reihe von Miniaturbildern mit optiona
 seo-title: Muster
 solution: Experience Manager
 title: Muster
-topic: Dynamic Media
 uuid: d44e775d-5253-4990-98a4-84ff50db09b9
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '513'
 ht-degree: 3%
 
 ---
