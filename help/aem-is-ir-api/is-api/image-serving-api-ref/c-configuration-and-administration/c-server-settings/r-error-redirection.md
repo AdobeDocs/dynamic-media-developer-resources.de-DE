@@ -4,12 +4,13 @@ seo-description: Verwenden Sie diese Servereinstellungen, um Fehler umzuleiten.
 seo-title: Fehler-Umleitung
 solution: Experience Manager
 title: Fehler-Umleitung
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Die Stamm-URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) f체r die sekund�
 
 ## PS::errorRedirect.connectTimeout - Redirect Connection Timeout {#section-3971be8f720d4b32a2cc7860b4085971}
 
-Maximale Zeit (in msec) wartet der Server, bis eine Verbindung mit dem sekund채ren Server hergestellt ist, bevor ein Fehler an den Client zur체ckgegeben wird.
+Maximale Zeit (in msec) wartet der Server, bis eine Verbindung mit dem sekund채ren Server hergestellt wird, bevor ein Fehler an den Client zur체ckgegeben wird.
 
 ## PS::errorRedirect.socketTimeout - Redirect Response Timeout {#section-69d8579f748d4044bca99dfb64dd523c}
 
