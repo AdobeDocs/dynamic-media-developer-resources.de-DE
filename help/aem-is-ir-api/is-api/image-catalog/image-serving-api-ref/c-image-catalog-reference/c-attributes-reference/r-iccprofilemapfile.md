@@ -4,12 +4,13 @@ seo-description: Dateipfad der ICC-Profil-Map. Gibt die Datei an, die die ICC-Pr
 seo-title: IccProfileMapFile
 solution: Experience Manager
 title: IccProfileMapFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: da7e6b02-8fe6-4045-b4c5-b46d7bdd6ee2
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '98'
 ht-degree: 4%
 
 ---
