@@ -4,12 +4,13 @@ seo-description: Das Inhaltsverzeichnis ist eine Schaltfläche in der Hauptsteue
 seo-title: Inhaltsverzeichnis
 solution: Experience Manager
 title: Inhaltsverzeichnis
-topic: Dynamic Media
 uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1097'
 ht-degree: 2%
 
 ---
