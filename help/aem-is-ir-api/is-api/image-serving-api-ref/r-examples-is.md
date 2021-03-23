@@ -4,12 +4,13 @@ seo-description: Diese Seite enthält eine Verknüpfung zu verschiedenen Image-S
 seo-title: Beispiele für Image-Server
 solution: Experience Manager
 title: Beispiele für Image-Server
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 5%
 
 ---
@@ -32,5 +33,5 @@ Diese Seite enthält eine Verknüpfung zu verschiedenen Image-Server-Beispielen.
 * [Vorlagen](http://crc.scene7.com/is-docs/examples/templates.htm)
 * [Text](http://crc.scene7.com/is-docs/examples/text.htm)
 * [Qualität der Ansicht](http://crc.scene7.com/is-docs/examples/view-quality.htm)
-* [ansicht](http://crc.scene7.com/is-docs/examples/view-size.htm)
+* [Ansicht](http://crc.scene7.com/is-docs/examples/view-size.htm)
 
