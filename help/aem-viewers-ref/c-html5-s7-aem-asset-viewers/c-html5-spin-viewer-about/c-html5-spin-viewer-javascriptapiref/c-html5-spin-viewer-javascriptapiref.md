@@ -4,12 +4,13 @@ seo-description: Die Hauptklasse des Rotationsset-Viewers ist der Rotationsset-V
 seo-title: JavaScript-API-Referenz für den Rotationsset-Viewer
 solution: Experience Manager
 title: JavaScript-API-Referenz für den Rotationsset-Viewer
-topic: Dynamic Media
 uuid: c38d3336-504b-4b14-9a6a-ba8eab9e2f3e
+feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
