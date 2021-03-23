@@ -1,12 +1,13 @@
 ---
-description: Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil der Adobe Experience Manager-Lösung in der Adobe Marketing Cloud.
+description: '"Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil der Adobe Experience Manager-Lösung in der Adobe Marketing Cloud."'
 solution: Experience Manager
 title: Scene7 Version Herbst 2016
-topic: Dynamic Media
+feature: Dynamic Media Classic
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
