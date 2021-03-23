@@ -4,12 +4,13 @@ seo-description: Überprüft, ob sich ein Benutzer mit einer bestimmten Firma (a
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '171'
 ht-degree: 11%
 
 ---
