@@ -4,12 +4,13 @@ seo-description: Diese Befehle gelten für Bild-, Text- und Vollfarbschichten. S
 seo-title: Gemeinsame Aktionen
 solution: Experience Manager
 title: Gemeinsame Aktionen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
