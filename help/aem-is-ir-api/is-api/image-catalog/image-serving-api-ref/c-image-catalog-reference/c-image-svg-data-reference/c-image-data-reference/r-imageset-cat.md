@@ -2,11 +2,12 @@
 description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Dynamic Media-Viewern verwendet werden.
 solution: Experience Manager
 title: Bildsatz
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API, Bildsätze
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 2%
 
 ---
@@ -73,7 +74,7 @@ Ein einfaches Rotationsset besteht aus einer einfachen Liste von Bild-IDs.
 
 **zweidimensionale Rotationssets**
 
-Jedes Element in einem zweidimensionalen Rotationsset kann aus einem einfachen Bild, einem Verweis auf ein einfaches Rotationsset oder einem durch geschweifte Klammern getrennten grundlegenden Rotationsset bestehen. Klammern können anstelle von geschweiften Klammern verwendet werden.
+Jedes Element in einem zweidimensionalen Rotationsset kann aus einem einfachen Bild, einem Verweis auf ein einfaches Rotationsset oder einem einfachen Inline-Rotationsset bestehen, das durch geschweifte Klammern getrennt ist. Klammern können anstelle von geschweiften Klammern verwendet werden.
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
