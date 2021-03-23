@@ -4,12 +4,13 @@ seo-description: Das Image Serving API-Handbuch enthält Informationen zum Einri
 seo-title: Image Serving API
 solution: Experience Manager
 title: Image Serving API
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a90088a8-94f4-4e36-aaa2-03c07e8522b0
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
