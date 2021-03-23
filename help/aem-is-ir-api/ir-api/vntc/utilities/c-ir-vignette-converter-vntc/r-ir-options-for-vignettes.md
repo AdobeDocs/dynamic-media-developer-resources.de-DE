@@ -4,12 +4,13 @@ seo-description: Die folgenden Optionen steuern die Verarbeitung von Vignettenda
 seo-title: Optionen für Vignetten
 solution: Experience Manager
 title: Optionen für Vignetten
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
