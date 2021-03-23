@@ -4,12 +4,13 @@ seo-description: Durch Klicken auf die Schaltfläche im Vollbildmodus wird der V
 seo-title: Schaltfläche "Video im Vollbildmodus"
 solution: Experience Manager
 title: Schaltfläche "Video im Vollbildmodus"
-topic: Dynamic Media
 uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
