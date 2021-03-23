@@ -4,12 +4,13 @@ seo-description: Der Hauptbereich der Ansicht ist der Bereich, der von dem 360-V
 seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-topic: Dynamic Media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '156'
 ht-degree: 2%
 
 ---
