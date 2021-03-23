@@ -4,12 +4,13 @@ seo-description: Standardmäßige Clientcache-Zeit bis zum Live-Betrieb. Bietet 
 seo-title: Ablauf
 solution: Experience Manager
 title: Ablauf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 26b2abee-8bd1-4011-90ff-f5143826ac0d
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
