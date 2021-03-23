@@ -4,12 +4,13 @@ seo-description: Scharfzeichnen der Textur. Gibt die Scharfzeichnung an, die bei
 seo-title: spitze
 solution: Experience Manager
 title: spitze
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---
@@ -42,7 +43,7 @@ Scharfzeichnen der Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses 
 
 `sharp=1` das Scharfzeichnen nach der Wiedergabe des Materials vornimmt;  `sharp=2` wendet das Scharfzeichnen nach der anfänglichen Skalierung der Textur an, bevor sie jedoch in die Szene umgewandelt wird;  `sharp=3` Wendet Scharfzeichnen vor und nach der Transformation an.
 
-Der Scharfzeichnungsalgorithmus und die Schärfungsmenge sowie andere USM-Parameter (Unschärfemaske) werden durch die Standardmateriellvorlage gesteuert, die von der Vignette oder mit `rs=` bereitgestellt wird.
+Der Scharfzeichnungsalgorithmus und die Stärke der Scharfzeichnung sowie andere USM-Parameter (Unschärfemaske) werden durch die Standardmateriellvorlage gesteuert, die von der Vignette oder mit `rs=` bereitgestellt wird.
 
 ## Eigenschaften {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
