@@ -4,12 +4,13 @@ seo-description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoin
 seo-title: Videoplayer
 solution: Experience Manager
 title: Videoplayer
-topic: Dynamic Media
 uuid: d7431a7b-6078-45d6-a364-434b3b44ecf4
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '308'
 ht-degree: 1%
 
 ---
