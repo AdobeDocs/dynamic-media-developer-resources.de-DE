@@ -2,12 +2,13 @@
 description: Ereignis-Rückrufe
 solution: Experience Manager
 title: Ereignis-Rückrufe
-topic: Dynamic Media
 uuid: 696838d2-11e4-4ef8-9cd3-136c5d5f6ed9
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,6 @@ Folgende Viewer-Ereignis werden unterstützt:
    * `compClass {String}` nicht verwendet.
    * `instName {String}` einem Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
    * `timeStamp {Number}` Zeitstempel des Ereignisses.
-   * `eventInfo {String}` ereignis-Nutzlast.
+   * `eventInfo {String}` Ereignis-Nutzlast.
 
 Siehe auch [MixedMediaViewer](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-mixedmediaviewer.md#reference-59b70dd7b58c43059bd85e3295441195) und [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-sethandlers.md#reference-09523cf4f448400b83f7906688368bf3).
