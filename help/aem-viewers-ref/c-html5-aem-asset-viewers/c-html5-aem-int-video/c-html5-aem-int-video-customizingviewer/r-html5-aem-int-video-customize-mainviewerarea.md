@@ -4,12 +4,13 @@ seo-description: Der Hauptbereich der Ansicht ist der Bereich, der von den inter
 seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-topic: Dynamic Media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
