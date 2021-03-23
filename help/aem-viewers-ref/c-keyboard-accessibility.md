@@ -2,11 +2,12 @@
 description: Alle Funktionen, die in der Benutzeroberfläche "Einfaches Zoomen", "E-Katalog", "E-Katalog-Suche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Abmessungen", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, sind, sind über die Tastatur verfügbar.
 solution: Experience Manager
 title: Barrierefreiheit und Navigation
-topic: Dynamic Media
+feature: Dynamic Media Classic,Viewer,SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
