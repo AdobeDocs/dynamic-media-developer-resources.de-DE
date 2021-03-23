@@ -4,12 +4,13 @@ seo-description: In diesem Dokument wird der Materialkatalog für Dynamic Media 
 seo-title: Einführung
 solution: Experience Manager
 title: Einführung
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
