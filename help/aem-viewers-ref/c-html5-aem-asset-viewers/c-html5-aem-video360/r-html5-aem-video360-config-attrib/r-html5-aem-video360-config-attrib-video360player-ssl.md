@@ -4,12 +4,13 @@ seo-description: Konfigurationsattribut für Video360 Viewer.
 seo-title: Video360Player.ssl
 solution: Experience Manager
 title: Video360Player.ssl
-topic: Dynamic Media
 uuid: 00c8295c-cc41-489c-a444-ba9189426a20
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '194'
 ht-degree: 5%
 
 ---
