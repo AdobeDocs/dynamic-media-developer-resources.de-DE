@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für Video-Viewer.
 seo-title: VideoViewer
 solution: Experience Manager
 title: VideoViewer
-topic: Dynamic Media
 uuid: ad180d92-3e5c-4ded-b82b-79c23aa5c597
+feature: Dynamic Media Classic, Viewer, SDK/API, Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---
