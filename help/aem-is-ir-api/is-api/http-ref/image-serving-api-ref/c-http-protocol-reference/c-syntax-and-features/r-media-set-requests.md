@@ -4,12 +4,13 @@ seo-description: Image Serving bietet einen Mechanismus zum Abrufen einer hierar
 seo-title: Medienset-Anforderungen
 solution: Experience Manager
 title: Medienset-Anforderungen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -99,7 +100,7 @@ Wenn eine `req=set`-Anforderung empfangen wird, wird der Typ der zu generierende
    * Nehmen Sie ein dateibasiertes Video an, wenn die Dateierweiterung in folgendem Satz liegt: mp3, mp4, flv, f4v, swf, xml
    * Ansonsten dateibasiertes Bild
 
-In allen Fällen entspricht die resultierende XML-Antwort dem angegebenen XML-Dokument, wobei der Set-Stammknoten dem erkannten Typ entspricht.
+In allen Fällen entspricht die resultierende XML-Antwort dem angegebenen XML-Dokument, wobei die Set-Stamm-Node dem erkannten Typ entspricht.
 
 ## Innen-Set-Typerkennung {#section-8f46490e467247e69ce284704def06f3}
 
