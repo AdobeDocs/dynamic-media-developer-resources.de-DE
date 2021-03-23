@@ -4,12 +4,13 @@ seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild
 seo-title: Zurücksetzen-Schaltfläche für Zoom
 solution: Experience Manager
 title: Zurücksetzen-Schaltfläche für Zoom
-topic: Dynamic Media
 uuid: b3119094-ab50-4aa4-a0ac-11d90f109908
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
