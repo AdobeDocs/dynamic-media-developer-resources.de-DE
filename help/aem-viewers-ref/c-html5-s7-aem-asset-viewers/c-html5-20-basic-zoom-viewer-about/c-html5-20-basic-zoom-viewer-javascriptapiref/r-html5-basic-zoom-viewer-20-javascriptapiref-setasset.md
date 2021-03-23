@@ -4,13 +4,14 @@ seo-description: JavaScript-API-Referenz für einfachen Zoom-Viewer.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: af433f15-34a0-4867-97c5-acab47e3e008
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
