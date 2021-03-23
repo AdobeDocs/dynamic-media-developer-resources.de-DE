@@ -4,12 +4,13 @@ seo-description: Das Dienstprogramm "playlog"kann verwendet werden, um Inhalte f
 seo-title: Das Dienstprogramm "playlog"
 solution: Experience Manager
 title: Das Dienstprogramm "playlog"
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -21,9 +22,9 @@ Das Dienstprogramm &quot;playlog&quot;kann verwendet werden, um Inhalte für den
 
 Der vorhandene Image Serving-HTTP-Antwort-Cache ist nach einer Aktualisierung der Hauptversion nicht mehr nutzbar (wenn die erste oder zweite Ziffer der Versionsnummer geändert wurde). Wenn der Server nach der Aktualisierung live in Vollladeregel übertragen werden soll, wird der Server möglicherweise überlastet und die ersten Stunden nach fehlenden Cache-Anforderungen übergeben, bis der Cache ausreichend gefüllt ist und die Cache-Trefferrate steigt.
 
-Um diese anfängliche Ladespitze zu vermeiden, kann das `playlog`-Dienstprogramm verwendet werden, um Inhalte für den HTTP-Antwort-Cache vorzugenerieren. `playlog` extrahiert HTTP-Anforderungen aus einer vorhandenen Zugriffsprotokolldatei und sendet diese an den Server, um Cache-Einträge zu generieren. Für typische Verwendungsszenarien reicht es aus, eine einzelne Zugriffsprotokolldatei wiederzugeben, die den Traffic für einen ganzen Tag enthält.
+Um diese anfängliche Ladespitze zu vermeiden, kann das `playlog`-Dienstprogramm verwendet werden, um Inhalte für den HTTP-Antwort-Cache vorzugenerieren. `playlog` extrahiert HTTP-Anforderungen aus einer vorhandenen Zugriffsprotokolldatei und sendet diese an den Server, um Cache-Einträge zu generieren. Für typische Verwendungsszenarien reicht es aus, eine einzelne Zugriffsprotokolldatei wiederzugeben, die den gesamten Traffic enthält.
 
-Neben dem Hochladen des HTTP-Antwort-Cache nach der Installation der Aktualisierung wird das Dienstprogramm auch verwendet, um Cache-Inhalte vorzugenerieren, wenn einer Umgebung mit Lastenausgleich ein neuer Server hinzugefügt wird. einfach eine aktuelle Protokolldatei von einem der anderen Server wiedergeben.
+Zusätzlich zum Hochladen des HTTP-Antwort-Cache nach der Installation der Aktualisierung wird das Dienstprogramm auch zum Vorgenerieren von Cache-Inhalten verwendet, wenn einer Umgebung mit Lastenausgleich ein neuer Server hinzugefügt wird. einfach eine aktuelle Protokolldatei von einem der anderen Server wiedergeben.
 
 `playlog` kann so konfiguriert werden, dass die meisten Zugriffsprotokolldateien unterstützt werden, die von früheren Versionen von Image Serving generiert wurden.
 
