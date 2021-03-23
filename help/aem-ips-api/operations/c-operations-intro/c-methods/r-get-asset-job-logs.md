@@ -4,13 +4,14 @@ seo-description: Ruft die Auftragsprotokolle für ein Asset ab. Elemente, die im
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
+feature: Dynamic Media Classic, SDK/API, Asset Management
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 8%
+source-wordcount: '202'
+ht-degree: 7%
 
 ---
 
