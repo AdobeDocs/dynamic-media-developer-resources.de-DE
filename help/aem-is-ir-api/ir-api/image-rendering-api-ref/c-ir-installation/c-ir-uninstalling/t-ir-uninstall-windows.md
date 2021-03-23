@@ -4,12 +4,13 @@ seo-description: Befolgen Sie diese Anweisungen, um das Image Rendering auf eine
 seo-title: Deinstallation unter Windows
 solution: Experience Manager
 title: Deinstallation unter Windows
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b20bf37-4147-4169-ac5e-42e7b330ca51
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
