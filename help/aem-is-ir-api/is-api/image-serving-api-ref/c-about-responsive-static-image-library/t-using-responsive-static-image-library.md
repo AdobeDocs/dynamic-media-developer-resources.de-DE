@@ -2,11 +2,12 @@
 description: Um einer Webseite eine Bibliothek mit interaktiven Bildern hinzuzufügen und vorhandene Bilder mit der Bibliothek zu verwalten, führen Sie die folgenden Schritte aus.
 solution: Experience Manager
 title: Verwenden der Bibliothek für interaktives Bild
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
