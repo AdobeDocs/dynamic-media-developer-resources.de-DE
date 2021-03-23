@@ -4,12 +4,13 @@ seo-description: Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten
 seo-title: Flyout-Zoom-Ansicht
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-topic: Dynamic Media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
+feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 2%
 
 ---
@@ -150,7 +151,7 @@ Beispiel: So richten Sie grüne Hervorhebung mit 40 % Transparenz und einem rote
 
 **CSS-Eigenschaften des Cursors**
 
-Wenn der Parameter `highlightmode` auf `cursor` festgelegt ist, werden die Hervorhebungen in der Hauptversion durch die Cursorgrafik mit fester Ansicht ersetzt, die mit der CSS-Klassenauswahl gesteuert wird:
+Wenn der Parameter `highlightmode` auf `cursor` eingestellt ist, werden die Hervorhebungen in der Hauptversion durch die Cursorgrafik mit fester Ansicht ersetzt, die mit der CSS-Klassenauswahl gesteuert wird:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
