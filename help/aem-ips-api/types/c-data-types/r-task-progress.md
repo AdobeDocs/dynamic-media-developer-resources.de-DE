@@ -4,12 +4,13 @@ seo-description: Informationen zum Fortschritt der Aufgabe.
 seo-title: TaskProgress
 solution: Experience Manager
 title: TaskProgress
-topic: Dynamic Media Image Production System API
 uuid: b3b67803-147a-48a3-acc3-d608e01e0800
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '149'
 ht-degree: 3%
 
 ---
