@@ -4,12 +4,13 @@ seo-description: Ebenengröße. Gibt die Größe oder maximale Ebenengröße fü
 seo-title: Größe
 solution: Experience Manager
 title: Größe
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9c13062-7974-4dd9-aff4-f9502bcf442e
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '453'
 ht-degree: 1%
 
 ---
