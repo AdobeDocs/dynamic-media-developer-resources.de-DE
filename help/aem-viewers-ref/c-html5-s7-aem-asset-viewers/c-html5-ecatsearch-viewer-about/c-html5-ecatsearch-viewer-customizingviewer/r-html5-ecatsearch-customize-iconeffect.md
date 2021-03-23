@@ -4,12 +4,13 @@ seo-description: Der Zoomindikator wird über dem Hauptbereich der Ansicht angez
 seo-title: Symbol, Effekt
 solution: Experience Manager
 title: Symbol, Effekt
-topic: Dynamic Media
 uuid: 4995ac11-f591-4d1d-a292-be5d55aebf98
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '210'
 ht-degree: 1%
 
 ---
