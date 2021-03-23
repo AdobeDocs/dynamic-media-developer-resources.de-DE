@@ -4,13 +4,14 @@ seo-description: Hiermit können Sie auf den Begrenzungsrahmen eines eingebettet
 seo-title: cutPathE
 solution: Experience Manager
 title: cutPathE
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ Hiermit können Sie auf den Begrenzungsrahmen eines eingebetteten benannten Pfad
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Name des Pfads, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathNames ist der Name eines Pfads, der im Quellbild der Ebene eingebettet ist. Der Pfad wird nach Bedarf automatisch transformiert, um die relative Ausrichtung am Bildinhalt beizubehalten. Wenn mehr als ein <span class="codeph"><span class="varname"> pathName</span></span> angegeben ist, wird der Server nacheinander auf den Begrenzungsrahmen jedes Pfads gekürzt. Alle <span class="codeph"><span class="varname"> pathName</span></span>, die nicht im Quellbild gefunden wurden, werden ignoriert. </p> </td> 
+   <td colname="col2"> <p>Name des Pfads, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathNames ist der Name eines Pfads, der im Quellbild der Ebene eingebettet ist. Der Pfad wird nach Bedarf automatisch transformiert, um die relative Ausrichtung am Bildinhalt beizubehalten. Wenn mehr als ein <span class="codeph"><span class="varname"> pathName</span></span> angegeben ist, schneidet der Server nacheinander auf den Begrenzungsrahmen jedes Pfads ab. Alle <span class="codeph"><span class="varname"> pathName</span></span>, die nicht im Quellbild gefunden wurden, werden ignoriert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
