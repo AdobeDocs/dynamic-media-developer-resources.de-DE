@@ -4,13 +4,14 @@ seo-description: Nur für Scene7-Entwickler. Weitere Informationen finden Sie im
 seo-title: setImageServingPublishSettings
 solution: Experience Manager
 title: setImageServingPublishSettings
-topic: Dynamic Media Image Production System API
 uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 13%
+source-wordcount: '76'
+ht-degree: 11%
 
 ---
 
