@@ -4,13 +4,14 @@ seo-description: Wird von ScheduledJob/triggerState verwendet.
 seo-title: Status des Job Triggers
 solution: Experience Manager
 title: Status des Job Triggers
-topic: Dynamic Media Image Production System API
 uuid: 2217374c-db38-4453-8b93-f10553ce52c7
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '30'
+ht-degree: 6%
 
 ---
 
