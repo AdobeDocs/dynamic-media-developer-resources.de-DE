@@ -4,12 +4,13 @@ seo-description: Verwenden Sie diese Servereinstellungen für den Zugriff auf di
 seo-title: Zugriffsprotokollierung
 solution: Experience Manager
 title: Zugriffsprotokollierung
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea7d5d39-3f0a-45f0-bc28-6828a9c9da50
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '704'
 ht-degree: 4%
 
 ---
