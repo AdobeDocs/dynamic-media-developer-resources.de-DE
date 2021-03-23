@@ -4,12 +4,13 @@ seo-description: Der Image-Server schreibt Datensätze in diese Protokolldatei, 
 seo-title: Image-Server-Protokoll
 solution: Experience Manager
 title: Image-Server-Protokoll
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5a1a54bd-5553-43a4-9cd6-182ba474c2d0
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
