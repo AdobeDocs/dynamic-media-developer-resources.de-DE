@@ -4,12 +4,13 @@ seo-description: HTTP-Antwort-Header-Element. Optional in <rule>-Elementen.
 seo-title: Header
 solution: Experience Manager
 title: Header
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '154'
 ht-degree: 4%
 
 ---
