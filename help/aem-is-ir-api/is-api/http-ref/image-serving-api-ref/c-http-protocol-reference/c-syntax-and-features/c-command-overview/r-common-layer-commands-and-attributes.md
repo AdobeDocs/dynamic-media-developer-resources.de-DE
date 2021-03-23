@@ -4,12 +4,13 @@ seo-description: Diese Befehle gelten für Bild-, Text- und Vollfarbebenen. Die 
 seo-title: Allgemeine Ebenenbefehle
 solution: Experience Manager
 title: Allgemeine Ebenenbefehle
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
@@ -49,7 +50,7 @@ Diese Befehle gelten für Bild-, Text- und Vollfarbebenen. Die meisten sind für
   <td class="stentry"> <p>Reduziert die Deckkraft der Ebene. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> herkunft</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> Herkunft</a> </p></td> 
   <td class="stentry"> <p>Legt den Herkunft-Punkt der Ebene fest. </p></td> 
  </tr> 
  <tr class="strow"> 
