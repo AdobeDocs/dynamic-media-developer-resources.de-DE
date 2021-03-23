@@ -4,12 +4,13 @@ seo-description: Dokumentation zu Konfigurationsattributen für den interaktiven
 seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-topic: Dynamic Media
 uuid: ef118730-1bd2-4b88-917c-1fa51c6a488b
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
