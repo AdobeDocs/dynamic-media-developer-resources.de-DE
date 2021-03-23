@@ -4,12 +4,13 @@ seo-description: Für das Verschachteln und Einbetten gelten einige Einschränku
 seo-title: Einschränkungen
 solution: Experience Manager
 title: Einschränkungen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 05e97255-db4d-4587-94d2-a7ea608ff7d4
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
