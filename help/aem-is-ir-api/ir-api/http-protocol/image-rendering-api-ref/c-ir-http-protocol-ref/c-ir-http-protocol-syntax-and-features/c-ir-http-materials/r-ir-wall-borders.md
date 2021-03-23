@@ -4,12 +4,13 @@ seo-description: Ein Material gilt als Wandrand, wenn es in einem MSS-Umrandungs
 seo-title: Mauergrenzen
 solution: Experience Manager
 title: Mauergrenzen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 40acd667-5e8b-4425-b44a-0681e608d189
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 4%
 
 ---
