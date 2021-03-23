@@ -4,12 +4,13 @@ seo-description: Auftragstyp, um den autorisierten Export bereits hochgeladener 
 seo-title: ExportJob
 solution: Experience Manager
 title: ExportJob
-topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 10%
 
 ---
