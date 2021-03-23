@@ -4,12 +4,13 @@ seo-description: Durch Klicken oder Tippen auf diese Schaltfläche gelangt der B
 seo-title: Großer nächster Seitenschaltfläche
 solution: Experience Manager
 title: Großer nächster Seitenschaltfläche
-topic: Dynamic Media
 uuid: b68332b1-7b6b-46d8-8a0a-aa5a78fca5fb
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
