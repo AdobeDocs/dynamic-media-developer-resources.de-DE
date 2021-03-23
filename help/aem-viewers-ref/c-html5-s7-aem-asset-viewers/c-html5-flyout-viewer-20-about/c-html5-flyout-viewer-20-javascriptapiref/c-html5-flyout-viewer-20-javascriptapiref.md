@@ -4,12 +4,13 @@ seo-description: Die Hauptklasse des Flyout-Viewers ist FlyoutViewer. Sie wird i
 seo-title: JavaScript-API-Referenz für Flyout-Viewer
 solution: Experience Manager
 title: JavaScript-API-Referenz für Flyout-Viewer
-topic: Dynamic Media
 uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
+feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
