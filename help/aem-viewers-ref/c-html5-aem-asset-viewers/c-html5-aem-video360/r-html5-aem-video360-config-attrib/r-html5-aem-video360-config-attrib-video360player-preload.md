@@ -4,13 +4,14 @@ seo-description: Gibt an, ob der Viewer mit dem Laden von Videoinhalten vor den 
 seo-title: Video360Player.preload
 solution: Experience Manager
 title: Video360Player.preload
-topic: Dynamic Media
 uuid: 6e3b95b8-d585-4164-8665-6211000689fe
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
