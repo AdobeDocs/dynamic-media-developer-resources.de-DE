@@ -4,13 +4,14 @@ seo-description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
 seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-topic: Dynamic Media
 uuid: 2b004ebf-41e6-4895-a578-bb9094f40924
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
