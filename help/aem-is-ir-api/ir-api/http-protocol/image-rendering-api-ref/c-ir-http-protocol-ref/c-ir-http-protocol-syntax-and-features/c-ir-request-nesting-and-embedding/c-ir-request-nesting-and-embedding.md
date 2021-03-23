@@ -4,12 +4,13 @@ seo-description: Image Rendering ermöglicht das Einbetten von Image Serving-Anf
 seo-title: Verschachtelung und Einbettung von Anforderungen *
 solution: Experience Manager
 title: Verschachtelung und Einbettung von Anforderungen *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1884ae71-6ff5-4945-9411-a7183c32b772
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
