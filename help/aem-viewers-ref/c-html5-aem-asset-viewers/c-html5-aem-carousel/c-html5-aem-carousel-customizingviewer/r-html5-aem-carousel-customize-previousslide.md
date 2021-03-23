@@ -4,12 +4,13 @@ seo-description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, ke
 seo-title: Vorherige Folie
 solution: Experience Manager
 title: Vorherige Folie
-topic: Dynamic Media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
+feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 2%
 
 ---
