@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für den Inline-Zoom-Viewer.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 50fde4b0-2fd8-4341-bb2f-b1785f82ebc1
+feature: Dynamic Media Classic, Viewer, SDK/API, Inline-Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
