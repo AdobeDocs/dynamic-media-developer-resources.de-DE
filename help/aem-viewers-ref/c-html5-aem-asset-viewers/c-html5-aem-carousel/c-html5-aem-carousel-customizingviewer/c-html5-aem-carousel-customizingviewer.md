@@ -5,12 +5,13 @@ seo-description: Alle visuellen Anpassungen und die meisten Verhaltensanpassunge
 seo-title: Anpassen des Karussell-Viewers
 solution: Experience Manager
 title: Anpassen des Karussell-Viewers
-topic: Dynamic Media
 uuid: a35dac3c-8785-42bf-8284-e400128f213c
+feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
