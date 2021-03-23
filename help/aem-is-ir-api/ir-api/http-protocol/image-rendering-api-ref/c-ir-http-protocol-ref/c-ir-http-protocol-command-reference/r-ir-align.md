@@ -4,13 +4,14 @@ seo-description: Renderausrichtung der Textur. Gibt an, welche der vom ausgewäh
 seo-title: align
 solution: Experience Manager
 title: align
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 4%
+source-wordcount: '205'
+ht-degree: 3%
 
 ---
 
