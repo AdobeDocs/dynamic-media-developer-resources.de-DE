@@ -4,12 +4,13 @@ seo-description: Über die Schaltfläche "Abspielen/Anhalten"kann ein Benutzer d
 seo-title: PlayPause-Schaltfläche
 solution: Experience Manager
 title: PlayPause-Schaltfläche
-topic: Dynamic Media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
+feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
