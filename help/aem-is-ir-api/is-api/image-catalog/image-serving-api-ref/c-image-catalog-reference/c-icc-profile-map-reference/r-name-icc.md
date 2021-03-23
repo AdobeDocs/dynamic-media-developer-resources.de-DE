@@ -4,13 +4,14 @@ seo-description: Name des Profils-Tastaturbefehls. Ein Kurzbefehl für das Profi
 seo-title: Name
 solution: Experience Manager
 title: Name
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eca98f72-f863-4b7f-961e-81252f907d45
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 11%
+source-wordcount: '67'
+ht-degree: 10%
 
 ---
 
