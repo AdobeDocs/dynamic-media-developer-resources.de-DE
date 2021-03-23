@@ -4,13 +4,14 @@ seo-description: Client-Nachricht. Bietet einen Mechanismus, mit dem Clients Kur
 seo-title: message
 solution: Experience Manager
 title: message
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
