@@ -4,12 +4,13 @@ seo-description: Es gibt zwei Möglichkeiten, Image Serving unter Linux zu start
 seo-title: Starten oder Beenden unter Linux
 solution: Experience Manager
 title: Starten oder Beenden unter Linux
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 92cf60c4-3f80-42bc-b135-17bc22ba151e
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
