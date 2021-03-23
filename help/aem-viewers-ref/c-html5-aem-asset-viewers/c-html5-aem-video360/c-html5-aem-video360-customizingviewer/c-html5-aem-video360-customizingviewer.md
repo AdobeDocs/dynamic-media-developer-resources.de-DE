@@ -5,12 +5,13 @@ seo-description: Alle visuellen Anpassungen und die meisten Verhaltensanpassunge
 seo-title: Anpassen des Video360-Viewers
 solution: Experience Manager
 title: Anpassen des Video360-Viewers
-topic: Dynamic Media
 uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -46,7 +47,7 @@ Zur Unterstützung bei der Erstellung reaktionsfähiger CSS unterstützt der Vie
 
 Die erste Gruppe von CSS-Markern umfasst die Klassen `.s7size_large`, `.s7size_medium` und `.s7size_small`. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Wenn der Viewer-Bereich größer oder gleich der Größe eines gemeinsamen Desktop-Monitors ist, wird `.s7size_large` verwendet; Wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt, wird `.s7size_medium` zugewiesen. Für Bereiche, die mit Mobiltelefonbildschirmen vergleichbar sind, ist `.s7size_small` eingestellt. Diese CSS-Marker dienen vor allem dazu, unterschiedliche Layouts der Benutzeroberfläche für verschiedene Bildschirme und Viewer-Größen zu erstellen.
 
-Die zweite Gruppe von CSS-Markern enthält `.s7mouseinput` und `.s7touchinput`. `.s7touchinput` eingestellt ist, wenn das aktuelle Gerät über Touch-Eingabefunktionen verfügt; andernfalls  `.s7mouseinput` verwendet. Diese Markierungen sind hauptsächlich dazu bestimmt, Benutzeroberflächeneingabeelemente mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen zu erstellen, da für gewöhnlich Touch-Eingaben größere Elemente erforderlich sind. Beachten Sie, dass für den Fall, dass das Gerät sowohl Mauseingabe- als auch Berührungsfunktionen hat, `.s7touchinput` eingestellt ist und der Viewer eine touchfreundliche Benutzeroberfläche wiedergibt.
+Die zweite Gruppe von CSS-Markern enthält `.s7mouseinput` und `.s7touchinput`. `.s7touchinput` eingestellt ist, wenn das aktuelle Gerät über Touch-Eingabefunktionen verfügt; andernfalls  `.s7mouseinput` verwendet. Diese Markierungen sind hauptsächlich dazu bestimmt, Benutzeroberflächeneingabeelemente mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen zu erstellen, da für gewöhnlich Touch-Eingaben größere Elemente erforderlich sind. Beachten Sie, dass für den Fall, dass das Gerät sowohl über Maus- als auch Touch-Funktionen verfügt, `.s7touchinput` eingestellt ist und der Viewer eine touchfreundliche Benutzeroberfläche wiedergibt.
 
 Im folgenden CSS-Beispiel wird die Schaltflächengröße für Wiedergabe/Pause auf 28 x 28 Pixel bei Systemen mit Mauseingabe und auf Touch-Geräten auf 56 x 56 Pixel eingestellt. Außerdem wird die Schaltfläche vollständig ausgeblendet, wenn die Viewer-Größe erheblich reduziert wird:
 
