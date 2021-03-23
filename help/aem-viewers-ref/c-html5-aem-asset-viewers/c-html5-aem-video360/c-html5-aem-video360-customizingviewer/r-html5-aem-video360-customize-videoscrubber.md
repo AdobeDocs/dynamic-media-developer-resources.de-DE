@@ -4,12 +4,13 @@ seo-description: Der Video-Scrubber ist der horizontale Regler, mit dem ein Benu
 seo-title: Video-Scrubber
 solution: Experience Manager
 title: Video-Scrubber
-topic: Dynamic Media
 uuid: c68d3693-3772-470a-893a-b701ddec3414
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '391'
 ht-degree: 2%
 
 ---
