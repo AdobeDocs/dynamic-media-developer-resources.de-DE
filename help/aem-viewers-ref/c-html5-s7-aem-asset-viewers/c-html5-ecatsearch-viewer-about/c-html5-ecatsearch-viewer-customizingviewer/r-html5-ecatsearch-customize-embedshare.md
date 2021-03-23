@@ -4,12 +4,13 @@ seo-description: Das Werkzeug "Freigabe einbetten"besteht aus einer Schaltfläch
 seo-title: Freigabe einbetten
 solution: Experience Manager
 title: Freigabe einbetten
-topic: Dynamic Media
 uuid: 73d259fe-0978-4f47-95f6-bbfcd3b7bad1
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2640'
+source-wordcount: '2651'
 ht-degree: 2%
 
 ---
@@ -468,7 +469,7 @@ Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Eins
 
 Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit der Schaltfläche &quot;Abbrechen&quot;im Format 64 x 34, einer Schaltfläche &quot;Alles auswählen&quot;im Format 82 x 34 und einer für jeden Schaltflächenstatus unterschiedlichen Textfarbe und Hintergrundfarbe:
+Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit der Schaltfläche &quot;Abbrechen&quot;im Format 64 x 34, der Schaltfläche &quot;Alles auswählen&quot;im Format 82 x 34 und einer für jeden Schaltflächenstatus unterschiedlichen Textfarbe und Hintergrundfarbe:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogfooter { 
