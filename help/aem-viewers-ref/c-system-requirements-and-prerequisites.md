@@ -2,12 +2,13 @@
 title: Systemanforderungen für Dynamic Media HTML5-Viewer
 description: Systemanforderungen für Dynamic Media HTML5-Viewer.
 solution: Experience Manager
-topic: Dynamic Media
 contentOwner: Rick Brough
+feature: Dynamic Media Classic,Viewer,SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: da9f05a51ff8abd88f16024bccd1c7170a36d40f
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -64,4 +65,4 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 
 >[!NOTE]
 >
->FLASH-VIEWER-ENDE-OF-LIFE — Ab dem 31. Januar 2017 hat das Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt.
+>Flash-VIEWER-ENDE-OF-LIFE — Ab dem 31. Januar 2017 hat das Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt.
