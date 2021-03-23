@@ -2,11 +2,12 @@
 description: Das Hochladen von Assets in Dynamic Media Classic umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordinierung aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
 solution: Experience Manager
 title: Hochladen von Assets über HTTP POSTs zum UploadFile-Servlet
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API, Asset Management
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -86,7 +87,7 @@ Siehe [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b
 
 Sie können davon ausgehen, dass sich der Parameter `uploadParams` für einzelne Dateien im Rahmen desselben Auftrags ändern kann, aber das ist nicht der Fall. Verwenden Sie dieselben `uploadParams`-Parameter für den gesamten Auftrag.
 
-Die anfängliche POST für einen neuen Upload-Auftrag sollte den Parameter `jobName` angeben, vorzugsweise mithilfe eines eindeutigen Auftragsnamens, um die anschließende Auftragsstatusabfrage und die Auftragsprotokoll-Abfragen zu vereinfachen. Zusätzliche Anforderungen für die POST des gleichen Upload-Auftrags sollten den Parameter `jobHandle` anstelle von `jobName` angeben, wobei der Wert `jobHandle` verwendet wird, der von der ursprünglichen Anforderung zurückgegeben wird.
+Bei der Anforderung der ersten POST für einen neuen Upload-Auftrag sollte der Parameter `jobName` angegeben werden, vorzugsweise mithilfe eines eindeutigen Auftragsnamens, um die anschließende Auftragsstatusabfrage und die Auftragsprotokoll-Abfragen zu vereinfachen. Zusätzliche Anforderungen für die POST des gleichen Upload-Auftrags sollten den Parameter `jobHandle` anstelle von `jobName` angeben, wobei der Wert `jobHandle` verwendet wird, der von der ursprünglichen Anforderung zurückgegeben wird.
 
 Bei der Anforderung der endgültigen POST für einen Upload-Auftrag sollte der Parameter `endJob` auf &quot;true&quot;gesetzt werden, damit für diesen Auftrag keine weiteren  POST-Tests durchgeführt werden. Dies wiederum ermöglicht es dem Auftrag, sofort nach der Erfassung aller POSTed-Dateien abzuschließen. Andernfalls wird die Auftragsdauer verkürzt, wenn innerhalb von 30 Minuten keine weiteren POST empfangen werden.
 
