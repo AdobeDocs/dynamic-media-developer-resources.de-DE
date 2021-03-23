@@ -4,12 +4,13 @@ seo-description: Der Interactive Video Viewer ist ein Videoplayer, der Streaming
 seo-title: Interaktives Video
 solution: Experience Manager
 title: Interaktives Video
-topic: Dynamic Media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Der Interactive Video Viewer ist ein Videoplayer, der Streaming- und Progressiv-Videos im H.264-Format wiedergibt.
 
-Der Viewer zeigt auch interaktive Produktfelder neben dem Videoinhalt an. Es werden sowohl einzelne Video- als auch adaptive Videosets unterstützt. Es wurde für die Verwendung mit Desktop- und mobilen Webbrowsern entwickelt, die HTML5-Videos unterstützen. Der Viewer unterstützt optionale Untertitel, die über Videoinhalten, Videokapitelnavigation und Social Sharing-Werkzeugen angezeigt werden. Dieser Viewer soll Ihnen bei der Implementierung eines &quot;Shoppable Video&quot;-Erlebnisses helfen. Das heißt, Benutzer können ein mit einem bestimmten Videozeitbereich verknüpftes Muster auswählen und zu einer Schnellseite oder Produktdetailseite auf der Website des Kunden weitergeleitet werden.
+Der Viewer zeigt auch interaktive Produktfelder neben dem Videoinhalt an. Es werden sowohl einzelne Video- als auch adaptive Videosets unterstützt. Es wurde für die Verwendung mit Desktop- und mobilen Webbrowsern entwickelt, die HTML5-Videos unterstützen. Der Viewer unterstützt optionale Untertitel, die über Videoinhalten, Videokapitelnavigation und Social Sharing-Werkzeugen angezeigt werden. Dieser Viewer soll Ihnen bei der Implementierung eines &quot;Shoppable Video&quot;-Erlebnisses helfen. Das heißt, Benutzer können ein mit einem bestimmten Videozeitbereich verknüpftes Muster auswählen und zu einer Schnellseite oder Produktdetailseite auf der Website des Kunden umgeleitet werden.
 
 Der Viewer-Typ ist 510.
 
@@ -57,7 +58,7 @@ Der Viewer zeigt ein Bedienfeld mit interaktiven Farbfeldern rechts neben dem Vi
 
 Es ist möglich, schnell durch den Videoinhalt zu navigieren, wenn das Videochaptern aktiviert ist. Videokapitel werden als Markierungen in der Videobildschirmspur angezeigt und zeigen den Kapiteltitel und die Beschreibung beim Rollover (oder bei einem einzigen Tippen auf Touch-Systemen) an. Der Kunde kann zu einem bestimmten Kapitel &quot;suchen&quot;, indem er auf eine Kapitelmarke klickt oder auf eine Kapitelbeschreibungsblase tippt.
 
-Der Viewer unterstützt außerdem eine Reihe von Social Media-Sharing-Werkzeugen. Sie stehen als eine einzige Schaltfläche in der Benutzeroberfläche zur Verfügung, die durch Klicken oder Tippen auf eine Freigabebeschaltfläche in eine Freigabebeschaltfläche umgewandelt wird. Die Freigabe-Symbolleiste enthält ein Symbol für jeden unterstützten Freigabetyp, z. B. Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe per E-Mail, die Einbettung von Teilen oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer über einen Social Media-Dienst zu einem Standardfreigabedialogfeld um. Wenn ein Freigabe-Tool aktiviert ist, wird die Videowiedergabe automatisch angehalten. Die Freigabe von Werkzeugen ist im Vollbildmodus aufgrund von Webbrowser-Sicherheitsbeschränkungen nicht verfügbar.
+Der Viewer unterstützt außerdem eine Reihe von Social Media-Sharing-Werkzeugen. Sie stehen als eine einzige Schaltfläche in der Benutzeroberfläche zur Verfügung, die durch Klicken oder Tippen auf eine Freigabebeschaltfläche in eine Freigabebeschaltfläche umgewandelt wird. Die Freigabe-Symbolleiste enthält ein Symbol für jeden unterstützten Freigabetyp, z. B. Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe per E-Mail, die Einbettung von Teilen oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer über einen Social Media-Dienst zu einem Standardfreigabedialogfeld um. Wenn ein Freigabe-Tool aktiviert ist, wird die Videowiedergabe automatisch angehalten. Freigeben-Werkzeuge sind aufgrund von Sicherheitsbeschränkungen im Webbrowser nicht im Vollbildmodus verfügbar.
 
 Der Viewer kann vollständig über die Tastatur aufgerufen werden. Siehe [Barrierefreiheit und Navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
