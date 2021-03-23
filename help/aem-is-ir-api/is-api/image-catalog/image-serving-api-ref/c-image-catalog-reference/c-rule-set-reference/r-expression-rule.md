@@ -1,21 +1,22 @@
 ---
 description: Reguläres Musterelement für Ausdruck. Optional in <rule>-Elementen.
 seo-description: Reguläres Musterelement für Ausdruck. Optional in <rule>-Elementen.
-seo-title: ausdruck
+seo-title: Ausdruck
 solution: Experience Manager
-title: ausdruck
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Ausdruck
 uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 4%
 
 ---
 
 
-# ausdruck{#expression}
+# Ausdruck{#expression}
 
 Reguläres Musterelement für Ausdruck. Optional in `<rule>`-Elementen.
 
