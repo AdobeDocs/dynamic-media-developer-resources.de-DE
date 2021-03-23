@@ -4,12 +4,13 @@ seo-description: Image Rendering ist in die Image Server- und Platform Server-Ko
 seo-title: Starten und Beenden des Servers
 solution: Experience Manager
 title: Starten und Beenden des Servers
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: edd588ce-fbc0-4003-b007-a5dc9a84ad8a
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
