@@ -4,13 +4,14 @@ seo-description: Bild skalieren. Skaliert ein Bild nach Faktor relativ zum Bild 
 seo-title: scale
 solution: Experience Manager
 title: scale
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
