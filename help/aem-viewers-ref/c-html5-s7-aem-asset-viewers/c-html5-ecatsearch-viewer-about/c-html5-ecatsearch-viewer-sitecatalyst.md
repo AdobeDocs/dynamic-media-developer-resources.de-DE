@@ -4,12 +4,13 @@ seo-description: Der E-Katalog-Search-Viewer unterstützt standardmäßig die Ad
 seo-title: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-topic: Dynamic Media
 uuid: 2e1e2bc6-5372-4ba2-b6d7-8b760b1b0a8a
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
