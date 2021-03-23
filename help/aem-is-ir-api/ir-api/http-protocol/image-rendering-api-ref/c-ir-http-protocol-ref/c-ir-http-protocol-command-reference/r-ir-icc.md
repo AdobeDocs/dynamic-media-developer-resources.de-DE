@@ -4,12 +4,13 @@ seo-description: Profil der Ausgabefarbe.
 seo-title: icc
 solution: Experience Manager
 title: icc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95a05fe5-d6b3-4118-aab4-4664ccee2850
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
 
 <table id="simpletable_DF1914FD351E4F2BA61372A52F0CFFBF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> profil</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Profil</span></span> </p></td> 
   <td class="stentry"> <p>ICC-Profil. </p></td> 
  </tr> 
  <tr class="strow"> 
