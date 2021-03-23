@@ -4,13 +4,14 @@ seo-description: Wird von ActiveJob/type und ScheduledJob/type verwendet.
 seo-title: Auftragstypen
 solution: Experience Manager
 title: Auftragstypen
-topic: Dynamic Media Image Production System API
 uuid: ec55f636-d5c9-419c-b965-eee17ed7e2e7
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
