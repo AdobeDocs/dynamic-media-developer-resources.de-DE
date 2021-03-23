@@ -4,12 +4,13 @@ seo-description: Die Hauptklasse des E-Katalog-Viewers ist eCatalogViewer. Sie w
 seo-title: JavaScript-API-Referenz für den E-Katalog-Viewer
 solution: Experience Manager
 title: JavaScript-API-Referenz für den E-Katalog-Viewer
-topic: Dynamic Media
 uuid: 96ce27fa-0509-4b8c-a4ba-f405830970c3
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
