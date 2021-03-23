@@ -4,12 +4,13 @@ seo-description: Maximale Antwortbildgröße. Maximale Breite und Höhe des Antw
 seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 22c5fac8-1e64-4917-8bb8-69a95ab549cb
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
