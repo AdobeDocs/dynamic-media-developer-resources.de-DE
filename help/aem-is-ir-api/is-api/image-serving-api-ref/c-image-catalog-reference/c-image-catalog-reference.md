@@ -4,12 +4,13 @@ seo-description: Bildkataloge bieten dem Server Informationen zu Bildern und unt
 seo-title: Bildkatalogverweis
 solution: Experience Manager
 title: Bildkatalogverweis
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
