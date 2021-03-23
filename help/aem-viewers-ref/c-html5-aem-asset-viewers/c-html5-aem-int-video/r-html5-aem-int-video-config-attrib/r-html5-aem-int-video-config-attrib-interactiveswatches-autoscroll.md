@@ -4,13 +4,14 @@ seo-description: Konfigurationsattribut für den interaktiven Video-Viewer.
 seo-title: InteractiveSwatches.autoscroll
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-topic: Dynamic Media
 uuid: 050e932b-089f-448e-a9de-38cc04c55a49
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
