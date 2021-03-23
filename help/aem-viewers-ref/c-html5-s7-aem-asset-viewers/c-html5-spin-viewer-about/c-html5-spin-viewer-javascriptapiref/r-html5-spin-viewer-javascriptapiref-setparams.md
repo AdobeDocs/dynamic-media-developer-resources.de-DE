@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für den Rotationsset-Viewer.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: f0eedfbd-eb32-49db-bca4-cc7b14d5495e
+feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '115'
 ht-degree: 1%
 
 ---
