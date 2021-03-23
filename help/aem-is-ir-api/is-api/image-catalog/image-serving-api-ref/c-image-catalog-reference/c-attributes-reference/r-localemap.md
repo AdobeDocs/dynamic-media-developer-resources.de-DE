@@ -4,12 +4,13 @@ seo-description: ID-Übersetzungszuordnung. Gibt die Regeln an, mit denen generi
 seo-title: LocaleMap
 solution: Experience Manager
 title: LocaleMap
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
@@ -52,4 +53,4 @@ Ein oder mehrere Elemente, durch |, wobei jedes Element aus zwei oder mehr durch
 
 ## Verwandte Themen {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 
-Lokale Anpassung Support, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attribute::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)
+lokale Anpassung Support, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attribute::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)
