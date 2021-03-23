@@ -4,13 +4,14 @@ seo-description: Ersetzt Bilddaten für ein Bild-Asset.
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
+feature: Dynamic Media Classic, SDK/API, Asset Management
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 15%
+source-wordcount: '120'
+ht-degree: 14%
 
 ---
 
