@@ -4,12 +4,13 @@ seo-description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssät
 seo-title: Befehlsmakros
 solution: Experience Manager
 title: Befehlsmakros
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
