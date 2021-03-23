@@ -4,13 +4,14 @@ seo-description: Konfigurationsattribut für den interaktiven Video-Viewer.
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-topic: Dynamic Media
 uuid: 6cc91f08-fff1-4b93-9807-5435335c8df5
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
