@@ -4,12 +4,13 @@ seo-description: Das Tool zum Teilen von Links besteht aus einer Schaltfläche, 
 seo-title: Linkfreigabe
 solution: Experience Manager
 title: Linkfreigabe
-topic: Dynamic Media
 uuid: 80ecbaca-9092-40b6-bb24-4b233356de3f
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1434'
 ht-degree: 2%
 
 ---
