@@ -4,12 +4,13 @@ seo-description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoin
 seo-title: Video360-Player
 solution: Experience Manager
 title: Video360-Player
-topic: Dynamic Media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -93,7 +94,7 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: So richten Sie eine Pufferung auf 101 Pixel breit und 29 Pixel hoch ein:
+Beispiel: Um eine Pufferung mit einer Breite von 101 Pixeln und einer Höhe von 29 Pixeln einzurichten, müssen Sie eine Animation mit Pufferung einrichten:
 
 ```
 .s7video360viewer .s7video360player .s7waiticon { 
