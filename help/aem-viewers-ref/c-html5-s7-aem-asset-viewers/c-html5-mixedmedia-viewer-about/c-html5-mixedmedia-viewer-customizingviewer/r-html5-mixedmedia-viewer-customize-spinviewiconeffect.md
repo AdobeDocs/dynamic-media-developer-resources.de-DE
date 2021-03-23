@@ -4,12 +4,13 @@ seo-description: Der Rotationsindikator wird über dem Bereich der Ansicht über
 seo-title: Effekt "Ansicht drehen"
 solution: Experience Manager
 title: Effekt "Ansicht drehen"
-topic: Dynamic Media
 uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---
