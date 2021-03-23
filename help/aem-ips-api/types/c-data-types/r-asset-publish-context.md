@@ -4,13 +4,14 @@ seo-description: Ordnet ein Asset den Veröffentlichungskontexten zu, in denen e
 seo-title: AssetPublishContexts
 solution: Experience Manager
 title: AssetPublishContexts
-topic: Dynamic Media Image Production System API
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
+feature: Dynamic Media Classic, SDK/API, Asset Management
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
