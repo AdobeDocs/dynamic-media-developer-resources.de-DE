@@ -4,12 +4,13 @@ seo-description: '"Sset-Indikator"ist eine Reihe von Punkten, die auf den Hauptf
 seo-title: Indikator festlegen
 solution: Experience Manager
 title: Indikator festlegen
-topic: Dynamic Media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
