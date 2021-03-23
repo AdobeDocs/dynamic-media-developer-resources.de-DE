@@ -4,12 +4,13 @@ seo-description: Die variable Deckkraft wird für einfarbige und wiederholbare T
 seo-title: Unterschiedliche Materialdeckkraft
 solution: Experience Manager
 title: Unterschiedliche Materialdeckkraft
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6af07ea8-44ba-4253-8a26-614725af2f46
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
