@@ -4,12 +4,13 @@ seo-description: 'Die grundlegende Syntax des HTTP-Protokolls lautet wie folgt:'
 seo-title: Grundlegende Syntax des Image Serving-HTTP-Protokolls
 solution: Experience Manager
 title: Grundlegende Syntax des Image Serving-HTTP-Protokolls
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
