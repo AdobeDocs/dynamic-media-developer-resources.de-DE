@@ -3,12 +3,13 @@ description: Der Viewer für die E-Katalog-Suche ist ein Katalog-Viewer, der ele
 keywords: responsive
 solution: Experience Manager
 title: E-Katalog-Suche
-topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ Der E-Katalog-Search-Viewer unterstützt die folgenden Berührungsgesten, die in
 
 Es ist möglich, einen realistischen Animationseffekt für Seitenumbrüche zu aktivieren, um zwischen Katalogseiten zu navigieren. In solchen Fällen kann ein Benutzer eine Seitenecke halten und ziehen und die Seite spiegeln.
 
-Dieser Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf die Webbrowser Chrome, Internet Explorer 11 und Edge beschränkt.
+Dieser Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
 
 ## Social-Media-Freigabe-Tools mit dem E-Katalog-Search-Viewer {#section-eb575084a99647c3a9591f439f40b412}
 
