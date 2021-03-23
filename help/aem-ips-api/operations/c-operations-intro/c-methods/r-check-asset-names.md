@@ -4,12 +4,13 @@ seo-description: Prüft auf IPS-ID-Konflikte, indem Asset-Namen mit allen Namen 
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '144'
 ht-degree: 10%
 
 ---
