@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für Flyout-Viewer
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 039d5df8-e912-4868-8ae6-855617693797
+feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
