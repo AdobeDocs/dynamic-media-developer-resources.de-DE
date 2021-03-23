@@ -4,13 +4,14 @@ seo-description: Rules Container-Element. Eine gültige Regelsatzdatei enthält 
 seo-title: ruleSet
 solution: Experience Manager
 title: ruleSet
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea44d7e6-8d82-41bb-a3b7-ec413c31afe0
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 6%
+source-wordcount: '53'
+ht-degree: 5%
 
 ---
 
