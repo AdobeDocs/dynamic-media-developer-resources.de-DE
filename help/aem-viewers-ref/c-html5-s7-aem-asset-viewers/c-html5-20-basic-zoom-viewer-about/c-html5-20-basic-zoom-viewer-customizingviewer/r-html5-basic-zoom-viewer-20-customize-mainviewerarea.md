@@ -4,13 +4,14 @@ seo-description: Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Z
 seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-topic: Dynamic Media
 uuid: f37b8d25-4bd6-481e-88e7-98192186b177
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
