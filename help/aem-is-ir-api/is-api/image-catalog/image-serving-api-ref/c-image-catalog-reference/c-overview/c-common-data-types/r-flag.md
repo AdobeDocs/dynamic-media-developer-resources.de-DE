@@ -4,12 +4,13 @@ seo-description: Markieren Sie den Datentyp.
 seo-title: Markierung
 solution: Experience Manager
 title: Markierung
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 85c60ef4-4509-41e0-b846-3cfc54689272
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
