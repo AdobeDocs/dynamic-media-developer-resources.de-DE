@@ -4,12 +4,13 @@ seo-description: Dieser Abschnitt enthält Anweisungen zum Starten und Beenden d
 seo-title: Image Serving starten und beenden
 solution: Experience Manager
 title: Image Serving starten und beenden
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1b9f90a1-5ce4-49ed-b412-32d0c914b333
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
