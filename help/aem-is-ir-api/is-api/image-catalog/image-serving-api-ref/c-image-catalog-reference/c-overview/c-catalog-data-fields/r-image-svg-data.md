@@ -4,13 +4,14 @@ seo-description: Die folgenden Felder werden in Bild- und SVG-Datendateien erkan
 seo-title: Image_SVG-Daten
 solution: Experience Manager
 title: Image_SVG-Daten
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 2%
 
 ---
 
@@ -88,7 +89,7 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
  </tbody> 
 </table>
 
-## Attribute für Miniaturansichten {#section-c5ac27bcd4224a80b7f42ead249027b1}
+## Miniaturattribute {#section-c5ac27bcd4224a80b7f42ead249027b1}
 
 <table id="table_E07909B6C16F4D9686ADA381A4178E25"> 
  <tbody> 
