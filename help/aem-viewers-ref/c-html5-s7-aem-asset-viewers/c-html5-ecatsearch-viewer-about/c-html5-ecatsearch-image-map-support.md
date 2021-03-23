@@ -4,12 +4,13 @@ seo-description: Der E-Katalog-Search-Viewer unterstützt das Rendering von Imag
 seo-title: Unterstützung von Imagemaps
 solution: Experience Manager
 title: Unterstützung von Imagemaps
-topic: Dynamic Media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
