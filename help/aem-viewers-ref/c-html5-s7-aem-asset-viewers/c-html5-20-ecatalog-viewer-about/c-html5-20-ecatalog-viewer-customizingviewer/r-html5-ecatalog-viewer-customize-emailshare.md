@@ -4,12 +4,13 @@ seo-description: Das Tool zum Weitergeben per E-Mail besteht aus einer Schaltfl�
 seo-title: Email-Freigabe
 solution: Experience Manager
 title: Email-Freigabe
-topic: Dynamic Media
 uuid: e080ae49-c38f-43c3-a7b9-d5f8f41ba6d0
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3083'
 ht-degree: 1%
 
 ---
@@ -287,7 +288,7 @@ Die Schließen-Schaltfläche wird mit dem folgenden CSS-Klassenselektor gesteuer
 
 Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Zum Einrichten eines Dialogfeldheaders mit Auffüllung, einem Symbol mit 24 x 17 Pixeln, einem fett gedruckten Titel mit 16 Punkten und einer Schaltfläche mit 28 x 28 Pixel &quot;Schließen&quot;zwei Pixel von oben und zwei Pixel von rechts vom Container des Dialogfelds:
+Beispiel: Zum Einrichten eines Dialogfeldheaders mit Auffüllung, einem Symbol mit 24 x 17 Pixeln, einem fett gedruckten Titel mit 16 Punkten und einer Schaltfläche zum Schließen mit 28 x 28 Pixel, die zwei Pixel von oben und zwei Pixel von rechts vom Container des Dialogfelds positioniert ist:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogheader { 
@@ -692,7 +693,7 @@ Alle statischen Beschriftungen, die links neben den Formulareingabefeldern angez
  </tbody> 
 </table>
 
-Beispiel: Um die Beschriftungen für Eingabefelder auf eine Breite von 50 Pixeln, rechtsbündig, mit einer Auffüllung von zehn Pixeln und einem Rand von zehn Pixeln rechts festzulegen, müssen Sie Folgendes festlegen:
+Beispiel: Um die Beschriftungen für Eingabefelder auf eine Breite von 50 Pixel, rechtsbündig, mit einer Auffüllung von zehn Pixeln und einem Rand von zehn Pixeln rechts festzulegen, müssen Sie folgende Werte eingeben:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialoginputlabel { 
