@@ -2,11 +2,12 @@
 description: Image Serving unterstützt Farbraumkonvertierungen, die auf Farbraum-Profilen basieren, die der ICC-Spezifikation (International Color Consortium) entsprechen.
 solution: Experience Manager
 title: Image Serving-Farbmanagement
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
