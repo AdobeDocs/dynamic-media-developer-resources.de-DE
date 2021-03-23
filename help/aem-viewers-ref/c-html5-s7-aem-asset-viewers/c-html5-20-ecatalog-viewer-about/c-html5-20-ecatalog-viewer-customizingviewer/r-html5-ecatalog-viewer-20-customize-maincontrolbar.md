@@ -4,12 +4,13 @@ seo-description: Die Hauptsteuerungsleiste ist der rechteckige Bereich auf Deskt
 seo-title: Hauptsteuerleiste
 solution: Experience Manager
 title: Hauptsteuerleiste
-topic: Dynamic Media
 uuid: 0900f678-d7ec-4653-bc8a-21b8da7d5044
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
