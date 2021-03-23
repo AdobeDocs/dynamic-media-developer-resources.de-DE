@@ -5,12 +5,13 @@ seo-description: Alle visuellen Anpassungen und die meisten Verhaltensanpassunge
 seo-title: Anpassen des E-Katalog-Search-Viewers
 solution: Experience Manager
 title: Anpassen des E-Katalog-Search-Viewers
-topic: Dynamic Media
 uuid: a715399b-7b02-4656-8257-4c390c6f629c
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
