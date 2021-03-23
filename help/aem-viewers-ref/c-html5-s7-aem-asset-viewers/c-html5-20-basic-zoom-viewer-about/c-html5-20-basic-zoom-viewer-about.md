@@ -5,12 +5,13 @@ seo-description: Der einfache Zoom-Viewer ist ein Bild-Viewer, der ein einzelnes
 seo-title: Einfaches Zoomen
 solution: Experience Manager
 title: Einfaches Zoomen
-topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -75,7 +76,7 @@ Wenn der Viewer die Blättergeste eines Benutzers nicht verarbeiten kann, leitet
  </tbody> 
 </table>
 
-Der Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf die Webbrowser Chrome, Internet Explorer 11 und Edge beschränkt.
+Der Viewer unterstützt auch die Eingabe per Touch- und Mausklick auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
 
 Auf diesen Viewer kann vollständig über die Tastatur zugegriffen werden.
 
