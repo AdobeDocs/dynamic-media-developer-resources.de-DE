@@ -2,12 +2,13 @@
 description: Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 3.7.
 solution: Experience Manager
 title: Vorgänge - Neu und geändert
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 2%
+source-wordcount: '55'
+ht-degree: 1%
 
 ---
 
