@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für den Rotationsset-Viewer.
 seo-title: setLocalizedTextes
 solution: Experience Manager
 title: setLocalizedTextes
-topic: Dynamic Media
 uuid: bf136479-8ac8-4151-8911-377eed631aa2
+feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
