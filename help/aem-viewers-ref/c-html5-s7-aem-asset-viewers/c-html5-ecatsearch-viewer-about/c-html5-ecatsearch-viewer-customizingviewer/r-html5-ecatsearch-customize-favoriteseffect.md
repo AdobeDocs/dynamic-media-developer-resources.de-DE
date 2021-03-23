@@ -4,12 +4,13 @@ seo-description: Der Viewer zeigt Favoritensymbole über der Haupt-Ansicht an de
 seo-title: Favoriten, Effekt
 solution: Experience Manager
 title: Favoriten, Effekt
-topic: Dynamic Media
 uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
