@@ -4,12 +4,13 @@ seo-description: Bildanker (Hotspot). Gibt den Texturankerpunkt (Hotspot) der wi
 seo-title: anchor
 solution: Experience Manager
 title: Anker
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1e695882-f97a-4208-b595-2851b91bdbfe
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
