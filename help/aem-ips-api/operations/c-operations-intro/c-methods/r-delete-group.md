@@ -4,13 +4,14 @@ seo-description: Löscht eine Gruppe.
 seo-title: deleteGroup
 solution: Experience Manager
 title: deleteGroup
-topic: Dynamic Media Image Production System API
 uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 13%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 
@@ -33,7 +34,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die der zu löschenden Gruppe angehört. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die zur zu löschenden Gruppe gehört. |
 | `*`groupHandle`*` | `xsd:string` | Ja | Das Handle der Gruppe, die Sie löschen möchten. |
 
 **Output (deleteGroupParam)**
