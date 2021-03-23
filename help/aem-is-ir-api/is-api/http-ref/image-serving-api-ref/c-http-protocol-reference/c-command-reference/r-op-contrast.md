@@ -4,12 +4,13 @@ seo-description: Kontrast anpassen. Passt den Bildkontrast an, indem die Helligk
 seo-title: op_stroke
 solution: Experience Manager
 title: op_stroke
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
