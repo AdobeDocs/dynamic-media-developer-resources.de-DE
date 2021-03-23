@@ -3,12 +3,13 @@ description: Anpassen des Flyout-Viewers
 keywords: responsive
 solution: Experience Manager
 title: Anpassen des Flyout-Viewers
-topic: Dynamic Media
 uuid: 10b5caa4-5298-43fa-af86-4f0b77be967b
+feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
