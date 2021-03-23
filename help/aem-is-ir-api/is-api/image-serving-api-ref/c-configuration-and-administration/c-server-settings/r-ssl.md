@@ -4,13 +4,14 @@ seo-description: Verwenden Sie diese Servereinstellungen für SSL.
 seo-title: SSL
 solution: Experience Manager
 title: SSL
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dec9bd09-8191-4010-8898-2890ffbe9ca7
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 7%
+source-wordcount: '105'
+ht-degree: 6%
 
 ---
 
