@@ -4,12 +4,13 @@ seo-description: Image Serving unterstützt das unbegrenzte Verschachteln von Im
 seo-title: Verschachtelung und Einbettung anfordern
 solution: Experience Manager
 title: Verschachtelung und Einbettung anfordern
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
