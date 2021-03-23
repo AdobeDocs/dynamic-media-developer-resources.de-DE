@@ -4,12 +4,13 @@ seo-description: Die Steuerleiste ist der rechteckige Bereich, der alle für den
 seo-title: Steuerungsleiste
 solution: Experience Manager
 title: Steuerungsleiste
-topic: Dynamic Media
 uuid: 5686b670-3c8c-4bef-b428-dc468f6ca05d
+feature: Dynamic Media Classic, Viewer, SDK/API, Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
