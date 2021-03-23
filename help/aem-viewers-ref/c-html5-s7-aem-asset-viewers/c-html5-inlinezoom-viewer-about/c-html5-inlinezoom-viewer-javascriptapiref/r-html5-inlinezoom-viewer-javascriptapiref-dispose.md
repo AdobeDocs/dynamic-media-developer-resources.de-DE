@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für den Inline-Zoom-Viewer.
 seo-title: dispose
 solution: Experience Manager
 title: dispose
-topic: Dynamic Media
 uuid: 020c1477-3188-4962-b8f2-7b640475ed84
+feature: Dynamic Media Classic, Viewer, SDK/API, Inline-Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
