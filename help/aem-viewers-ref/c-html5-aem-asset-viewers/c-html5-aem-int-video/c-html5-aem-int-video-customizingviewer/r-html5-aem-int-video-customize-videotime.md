@@ -4,12 +4,13 @@ seo-description: Die Videozeit ist die numerische Anzeige, die die aktuelle Zeit
 seo-title: Videozeit
 solution: Experience Manager
 title: Videozeit
-topic: Dynamic Media
 uuid: 8cec89b9-b3e8-4c58-90d9-7ab56698e35d
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
