@@ -1,21 +1,22 @@
 ---
 description: Bestimmte Inhalte, die im Video-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 seo-description: Bestimmte Inhalte, die im Video-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
-seo-title: Lokale Anpassung der Elemente der Benutzeroberfläche
+seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 solution: Experience Manager
-title: Lokale Anpassung der Elemente der Benutzeroberfläche
-topic: Dynamic Media
+title: lokale Anpassung der Elemente der Benutzeroberfläche
 uuid: 05b88ef9-0d90-4143-8558-d0d32943c348
+feature: Dynamic Media Classic, Viewer, SDK/API, Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
 
-# Lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+# lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
 Bestimmte Inhalte, die im Video-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 
