@@ -4,12 +4,13 @@ seo-description: Der Hauptbereich der Ansicht ist der Bereich, der von der Flyou
 seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-topic: Dynamic Media
 uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
+feature: Dynamic Media Classic, Viewer, SDK/API, Inline-Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
