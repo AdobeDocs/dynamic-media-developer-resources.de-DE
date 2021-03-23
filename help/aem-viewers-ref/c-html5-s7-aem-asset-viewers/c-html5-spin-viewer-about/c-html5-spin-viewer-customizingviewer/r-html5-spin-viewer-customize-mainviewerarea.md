@@ -4,13 +4,14 @@ seo-description: Der Hauptbereich der Ansicht ist der Bereich, in dem sich das R
 seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-topic: Dynamic Media
 uuid: 8395386b-4039-4a47-8d31-a341813c2647
+feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 
