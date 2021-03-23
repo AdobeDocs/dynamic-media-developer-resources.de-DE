@@ -2,12 +2,13 @@
 description: Download
 solution: Experience Manager
 title: Herunterladen
-topic: Dynamic Media
 uuid: 73f012dc-4fd0-4460-87d8-3079bcd7a9de
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
