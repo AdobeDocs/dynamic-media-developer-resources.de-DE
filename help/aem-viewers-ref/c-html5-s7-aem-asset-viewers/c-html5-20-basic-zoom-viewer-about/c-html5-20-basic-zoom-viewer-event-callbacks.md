@@ -2,12 +2,13 @@
 description: Ereignis-Rückrufe
 solution: Experience Manager
 title: Ereignis-Rückrufe
-topic: Dynamic Media
 uuid: 1b9af9e4-463a-4982-9e81-681ebebfd6d7
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,6 @@ Folgende Viewer-Ereignis werden unterstützt:
    * `compClass {String}` nicht verwendet.
    * `instName {String}` einem Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
    * `timeStamp {Number}` Zeitstempel des Ereignisses.
-   * `eventInfo {String}` ereignis-Nutzlast.
+   * `eventInfo {String}` Ereignis-Nutzlast.
 
 Siehe auch [BasicZoomViewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-basiczoomviewer.md#reference-bd16cadc0c054fafb0db4994741d47cd) und [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-sethandlers.md#reference-b748b29eaafa463a9d1723cb7b86f0d9).
