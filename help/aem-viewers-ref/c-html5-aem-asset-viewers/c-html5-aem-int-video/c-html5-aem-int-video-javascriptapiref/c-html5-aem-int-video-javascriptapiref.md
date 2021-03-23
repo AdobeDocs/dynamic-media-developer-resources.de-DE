@@ -4,12 +4,13 @@ seo-description: Die Hauptklasse des interaktiven Bild-Viewers ist InteractiveVi
 seo-title: JavaScript-API-Referenz für den interaktiven Video-Viewer
 solution: Experience Manager
 title: JavaScript-API-Referenz für den interaktiven Video-Viewer
-topic: Dynamic Media
 uuid: a389d884-1e16-4ba8-86e4-f00956be0465
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
