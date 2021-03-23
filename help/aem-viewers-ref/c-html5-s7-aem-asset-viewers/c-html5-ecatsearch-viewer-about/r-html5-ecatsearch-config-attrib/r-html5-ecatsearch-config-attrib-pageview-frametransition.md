@@ -2,12 +2,13 @@
 description: PageView.frametransition
 solution: Experience Manager
 title: PageView.frametransition
-topic: Dynamic Media
 uuid: 12595a89-bad5-4224-aeff-52ce6bb615ee
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '137'
 ht-degree: 5%
 
 ---
