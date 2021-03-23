@@ -4,12 +4,13 @@ seo-description: vntc generiert Textdaten, die entweder an die Stderr- oder die 
 seo-title: Ausgabe
 solution: Experience Manager
 title: Ausgabe
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2041600-408f-481c-95fc-3c112def7b8a
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -59,7 +60,7 @@ Die folgenden Eigenschaften werden generiert:
   <td class="stentry"> <p><span class="varname"> </span> ivalis 1, wenn  <span class="varname"> </span> sourceFileis eine Übergeordnet Vignette ist, 0, wenn sie zuvor mit  <span class="filepath"> </span> vnUpdate oder  <span class="filepath"> vntc</span> verarbeitet wurde. Nur Vignetten. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">übergeordnet=<span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">Übergeordnet=<span class="varname"> ival</span></span> </p></td> 
   <td class="stentry"> <p><span class="varname"> "</span> ivalis 0", wenn  <span class="varname"> </span> sourceFileis einen Schaltflächenstil enthält, der JPEG-Bilddaten enthält (in diesem Fall wird auch eine Warnung ausgegeben), andernfalls "1". Nur Möbel- und Fensterbehang für Stildateien. </p></td> 
  </tr> 
  <tr class="strow"> 
