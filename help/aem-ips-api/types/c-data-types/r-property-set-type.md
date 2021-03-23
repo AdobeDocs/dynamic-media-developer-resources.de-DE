@@ -4,12 +4,13 @@ seo-description: Gültige Werte für die Felder PropertySetType und createProper
 seo-title: PropertySetType
 solution: Experience Manager
 title: PropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 83220180-3272-4552-974d-a73e6aad3483
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '97'
 ht-degree: 4%
 
 ---
