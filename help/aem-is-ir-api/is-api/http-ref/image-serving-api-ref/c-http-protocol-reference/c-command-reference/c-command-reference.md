@@ -4,12 +4,13 @@ seo-description: In diesem Abschnitt werden die HTTP-Protokollbefehle beschriebe
 seo-title: Befehlsreferenz
 solution: Experience Manager
 title: Befehlsreferenz
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 10%
 
 ---
@@ -23,7 +24,7 @@ In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 
 * Farbkorrekturbefehle: `icc=` und `iccEmbed=`.
 * Grundlegende Befehle zum Vorbereiten und Wiedergeben von Text: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` und `textPs=`.
-* Lokale Anpassung, Befehle: `locale=` und `req=xlate`.
+* lokale Anpassung, Befehle: `locale=` und `req=xlate`.
 * `req=set` ist nicht für die allgemeine Verwendung verfügbar.
 * `req=mbrset`
 * `req=saveToFile`
@@ -82,7 +83,7 @@ Siehe auch Dynamic Media [Bildvorgabeoptionen](https://experienceleague.adobe.co
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [herkunft](r-origin.md)
+* [Herkunft](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [Perspektive](r-perspective.md)
