@@ -4,12 +4,13 @@ seo-description: Eine Image Server-(IS-)Anforderung kann als Materialbild verwen
 seo-title: Eingebettete Image-Server-Anforderungen
 solution: Experience Manager
 title: Eingebettete Image-Server-Anforderungen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
