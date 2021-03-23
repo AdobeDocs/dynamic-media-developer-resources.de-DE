@@ -1,21 +1,22 @@
 ---
 description: Bestimmte Inhalte, die im Rotationsset-Viewer angezeigt werden, unterliegen der lokale Anpassung, einschließlich Zoomschaltflächen und einer Schaltfläche im Vollbildmodus.
 seo-description: Bestimmte Inhalte, die im Rotationsset-Viewer angezeigt werden, unterliegen der lokale Anpassung, einschließlich Zoomschaltflächen und einer Schaltfläche im Vollbildmodus.
-seo-title: Lokale Anpassung der Elemente der Benutzeroberfläche
+seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 solution: Experience Manager
-title: Lokale Anpassung der Elemente der Benutzeroberfläche
-topic: Dynamic Media
+title: lokale Anpassung der Elemente der Benutzeroberfläche
 uuid: bf38bdef-a31f-4f2f-a8f5-3d3d4eac95ab
+feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 
-# Lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+# lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
 Bestimmte Inhalte, die im Rotationsset-Viewer angezeigt werden, unterliegen der lokale Anpassung, einschließlich Zoomschaltflächen und einer Schaltfläche im Vollbildmodus.
 
