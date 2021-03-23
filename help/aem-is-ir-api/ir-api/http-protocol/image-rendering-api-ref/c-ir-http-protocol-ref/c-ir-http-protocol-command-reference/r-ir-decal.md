@@ -4,13 +4,14 @@ seo-description: Materialauswahl. Beginn eines Materialspezifikationssegments (M
 seo-title: dekal
 solution: Experience Manager
 title: dekal
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
