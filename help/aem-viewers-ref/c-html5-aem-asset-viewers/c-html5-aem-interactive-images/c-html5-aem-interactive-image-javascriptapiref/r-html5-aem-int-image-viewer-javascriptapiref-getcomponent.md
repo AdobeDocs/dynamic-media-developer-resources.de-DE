@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für Video-Bild-Viewer.
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 6dd112f1-7b34-4d04-969e-b0cef46b4ad4
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
