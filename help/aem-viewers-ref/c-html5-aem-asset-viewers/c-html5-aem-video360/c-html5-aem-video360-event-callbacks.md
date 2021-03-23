@@ -2,12 +2,13 @@
 description: Ereignis-Rückrufe
 solution: Experience Manager
 title: Ereignis-Rückrufe
-topic: Dynamic Media
 uuid: c347f178-254e-45da-b06d-394098064693
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,6 @@ Folgende Viewer-Ereignis werden unterstützt:
    * `compClass {String}` nicht verwendet.
    * `instName {String}` einem Instanznamen der HTML5 Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
    * `timeStamp {Number}` Zeitstempel des Ereignisses.
-   * `eventInfo {String}` ereignis-Nutzlast.
+   * `eventInfo {String}` Ereignis-Nutzlast.
 
 Siehe auch [Video360Viewer](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md#reference-bd16cadc0c054fafb0db4994741d47cd) und [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643).
