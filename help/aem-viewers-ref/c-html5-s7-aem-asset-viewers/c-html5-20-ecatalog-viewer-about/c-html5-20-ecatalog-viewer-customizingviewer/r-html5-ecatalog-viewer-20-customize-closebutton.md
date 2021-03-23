@@ -4,12 +4,13 @@ seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird die zuge
 seo-title: Schaltfläche "Schließen"
 solution: Experience Manager
 title: Schaltfläche "Schließen"
-topic: Dynamic Media
 uuid: b0de1600-6b02-4b59-aac6-ade0ec6dc087
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '317'
 ht-degree: 2%
 
 ---
