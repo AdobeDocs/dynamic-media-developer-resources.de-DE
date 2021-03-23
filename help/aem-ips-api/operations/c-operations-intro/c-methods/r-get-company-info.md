@@ -4,12 +4,13 @@ seo-description: Gibt Informationen zur angegebenen Firma zurück, einschließli
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-topic: Dynamic Media Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 6%
 
 ---
