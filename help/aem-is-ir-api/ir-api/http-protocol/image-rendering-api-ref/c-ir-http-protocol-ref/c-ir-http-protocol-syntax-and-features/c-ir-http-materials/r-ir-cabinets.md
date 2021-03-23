@@ -4,12 +4,13 @@ seo-description: Die Cabinets-Materialien geben eine Möbeldatei (.vnc Dateierwe
 seo-title: Möbel
 solution: Experience Manager
 title: Möbel
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 5%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 5%
 
 Die Cabinets-Materialien geben eine Möbeldatei (.vnc Dateierweiterung) an, eine spezielle Datendatei, die fotografische Darstellungen der Schränke sowie parametrische Layoutdefinitionen und weitere Informationen enthält, die für das Rendering der Schachtelfronten erforderlich sind.
 
-[!DNL vnc] Dateien können entweder eine wiederholbare Holzkornstruktur enthalten, oder die Textur kann extern über ein zweites Argument an  `src=`bereitgestellt werden. Bestimmte [!DNL vnc]-Dateien ermöglichen das Färben oder Texturieren ausgewählter Bereiche von Schaltflächenfronten (üblicherweise für Laminatschränke verwendet).
+[!DNL vnc] Dateien können entweder eine wiederholbare Holzkornstruktur enthalten oder die Textur kann extern über ein zweites Argument an  `src=`bereitgestellt werden. Bestimmte [!DNL vnc]-Dateien ermöglichen das Färben oder Texturieren ausgewählter Bereiche von Schaltflächenfronten (üblicherweise für Laminatschränke verwendet).
 
 Möbel können nur auf Möbel des Schranks aufgetragen werden.
 
