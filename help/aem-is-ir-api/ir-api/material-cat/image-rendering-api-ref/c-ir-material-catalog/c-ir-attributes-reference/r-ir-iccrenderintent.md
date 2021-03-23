@@ -4,12 +4,13 @@ seo-description: Renderpriorität für Farbkonvertierung. Stellt die standardmä
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9648405-32c3-4762-bbb2-11e97d4f8374
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -25,7 +26,7 @@ Enum. Für die Wahrnehmbarkeit auf 0 gesetzt, für die relative Farbmetrik auf 1
 
 ## Standard {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-Vererbt von `default::IccRenderIntent`wenn nicht definiert. Wenn leer, wird &quot;relativer farbmetrischer&quot; Wert angewendet.
+Vererbt von `default::IccRenderIntent`wenn nicht definiert. Ist der Wert leer, wird &quot;relativ farbmetrisch&quot;angewendet.
 
 ## Verwandte Themen {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 
