@@ -4,13 +4,14 @@ seo-description: Löscht eine Zoom-Zielgruppe.
 seo-title: deleteZoomTarget
 solution: Experience Manager
 title: deleteZoomTarget
-topic: Dynamic Media Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 12%
+source-wordcount: '93'
+ht-degree: 11%
 
 ---
 
