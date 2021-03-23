@@ -4,12 +4,13 @@ seo-description: Alle Schriftarten, auf die in der RTF-Zeichenfolge verwiesen wi
 seo-title: Schriftverarbeitung
 solution: Experience Manager
 title: Schriftverarbeitung
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a751973-5dae-472e-a908-bf24fa59d031
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ Die beste Qualität für kursiven und fett gedruckten Text wird durch die Regist
 
 Die mit `attribute::DefaultFont` angegebene Schriftart wird verwendet, wenn keine explizit in der RTF-Zeichenfolge angegeben ist.
 
-Image Serving unterstützt TrueType-, OpenType- und Adobe Type 1-Schriftarten (nur Windows).
+Image Serving unterstützt TrueType-, OpenType-, Adobe Type 1- (nur Windows) Schriftarten.
 
 ## Fotofont® font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
