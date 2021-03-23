@@ -1,21 +1,22 @@
 ---
 description: Bestimmte Inhalte, die im Karussell-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören Navigationsschaltflächen für Dias.
 seo-description: Bestimmte Inhalte, die im Karussell-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören Navigationsschaltflächen für Dias.
-seo-title: Lokale Anpassung der Elemente der Benutzeroberfläche
+seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 solution: Experience Manager
-title: Lokale Anpassung der Elemente der Benutzeroberfläche
-topic: Dynamic Media
+title: lokale Anpassung der Elemente der Benutzeroberfläche
 uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
+feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
 
-# Lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+# lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
 Bestimmte Inhalte, die im Karussell-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören Navigationsschaltflächen für Dias.
 
