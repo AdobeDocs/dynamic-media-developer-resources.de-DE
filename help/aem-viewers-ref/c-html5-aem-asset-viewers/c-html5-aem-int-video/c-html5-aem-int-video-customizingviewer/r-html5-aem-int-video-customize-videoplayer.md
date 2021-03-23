@@ -4,12 +4,13 @@ seo-description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoin
 seo-title: Videoplayer
 solution: Experience Manager
 title: Videoplayer
-topic: Dynamic Media
 uuid: ff0f78b1-ff88-47b8-a118-4e0b3e75f341
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -136,7 +137,7 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: So richten Sie eine Pufferung auf 101 Pixel breit und 29 Pixel hoch ein:
+Beispiel: Um eine Pufferung mit einer Breite von 101 Pixeln und einer Höhe von 29 Pixeln einzurichten, müssen Sie eine Animation mit Pufferung einrichten:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon { 
