@@ -2,12 +2,13 @@
 description: HTTPS-Video-Versand
 solution: Experience Manager
 title: HTTPS-Video-Versand
-topic: Dynamic Media
 uuid: 7f8c1fe6-b464-4d80-9ffe-a36081825d49
+feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
