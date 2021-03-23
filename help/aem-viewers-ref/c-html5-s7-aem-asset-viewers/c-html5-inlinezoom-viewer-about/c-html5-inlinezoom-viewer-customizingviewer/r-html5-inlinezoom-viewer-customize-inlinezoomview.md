@@ -4,12 +4,13 @@ seo-description: Die Haupt-Ansicht besteht aus dem statischen Bild, dem gezoomte
 seo-title: Flyout-Zoom-Ansicht
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-topic: Dynamic Media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
+feature: Dynamic Media Classic, Viewer, SDK/API, Inline-Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '302'
 ht-degree: 2%
 
 ---
