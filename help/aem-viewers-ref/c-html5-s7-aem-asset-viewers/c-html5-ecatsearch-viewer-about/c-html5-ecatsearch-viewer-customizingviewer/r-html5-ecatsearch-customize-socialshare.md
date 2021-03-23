@@ -4,12 +4,13 @@ seo-description: Das Social Sharing-Tool wird standardmäßig in der oberen link
 seo-title: Social Sharing
 solution: Experience Manager
 title: Social Sharing
-topic: Dynamic Media
 uuid: 6d463eb1-c6bf-4f1c-90e4-b5ef1e5a1538
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
