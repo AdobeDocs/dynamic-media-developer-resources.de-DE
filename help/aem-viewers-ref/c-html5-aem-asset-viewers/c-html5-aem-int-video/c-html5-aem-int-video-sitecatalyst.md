@@ -4,12 +4,13 @@ seo-description: Der HTML5-Video360-Viewer unterstützt standardmäßig die Adob
 seo-title: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-topic: Dynamic Media
 uuid: b5ab903b-3365-45e3-9542-c290c6c42670
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
+role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---
