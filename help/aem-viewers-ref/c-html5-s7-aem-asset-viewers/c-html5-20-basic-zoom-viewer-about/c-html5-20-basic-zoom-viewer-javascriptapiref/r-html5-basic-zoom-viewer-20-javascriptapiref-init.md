@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für einfachen Zoom-Viewer.
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: a2a4fb97-89ec-41d2-ada7-8ff1775eaefa
+feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 2%
 
 ---
