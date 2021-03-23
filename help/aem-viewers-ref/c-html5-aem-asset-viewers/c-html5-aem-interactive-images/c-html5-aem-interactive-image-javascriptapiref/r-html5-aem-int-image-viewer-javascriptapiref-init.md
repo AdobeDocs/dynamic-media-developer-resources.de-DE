@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für den interaktiven Bild-Viewer.
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: 915f15cf-152a-424d-b7ea-a083891bb954
+feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
