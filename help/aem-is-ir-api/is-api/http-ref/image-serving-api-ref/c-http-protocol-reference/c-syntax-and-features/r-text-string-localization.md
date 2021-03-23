@@ -1,15 +1,16 @@
 ---
 description: Bei der lokale Anpassung von Textzeichenfolgen können Bildkataloge mehrere Gebietsschema-spezifische Darstellungen für denselben Zeichenfolgenwert enthalten.
 seo-description: Bei der lokale Anpassung von Textzeichenfolgen können Bildkataloge mehrere Gebietsschema-spezifische Darstellungen für denselben Zeichenfolgenwert enthalten.
-seo-title: Lokale Anpassung von Textzeichenfolgen
+seo-title: lokale Anpassung von Textzeichenfolgen
 solution: Experience Manager
-title: Lokale Anpassung von Textzeichenfolgen
-topic: Dynamic Media Image Serving - Image Rendering API
+title: lokale Anpassung von Textzeichenfolgen
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
