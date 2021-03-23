@@ -3,11 +3,12 @@ description: Der Video-Viewer ist ein Videoplayer, der Streaming- und Progressiv
 keywords: responsive
 solution: Experience Manager
 title: Video
-topic: Dynamic Media
+feature: Dynamic Media Classic, Viewer, SDK/API, Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2383'
 ht-degree: 0%
 
 ---
@@ -49,7 +50,7 @@ Wenn der Viewer im Popupmodus ausgeführt wird, ist die Schaltfläche für den V
 
 Es ist möglich, schnell durch den Inhalt eines Videos zu navigieren, wenn das Videochaptern aktiviert ist. Videokapitel werden als Markierungen in der Videomaterial-Navigationsleiste angezeigt und zeigen den Kapiteltitel und die zugehörige Beschreibung bei einem Mausklick über oder mit einem einzigen Tippen auf Touchsysteme an. Benutzer können nach einem bestimmten Kapitel suchen, indem sie auf eine Kapitelmarke klicken oder auf die Kapitelbeschreibung tippen.
 
-Der Viewer unterstützt sowohl Berührungseingaben als auch Mauseingaben auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf die Webbrowser Chrome, Internet Explorer 11 und Edge beschränkt.
+Der Viewer unterstützt sowohl Berührungseingaben als auch Mauseingaben auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
 
 Auf diesen Viewer kann vollständig über die Tastatur zugegriffen werden.
 
