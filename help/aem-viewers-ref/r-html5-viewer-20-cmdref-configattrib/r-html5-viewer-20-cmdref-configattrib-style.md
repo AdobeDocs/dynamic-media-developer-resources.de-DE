@@ -2,13 +2,14 @@
 description: style
 solution: Experience Manager
 title: style
-topic: Dynamic Media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
+feature: Dynamic Media Classic,Viewer,SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 8%
+source-wordcount: '106'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +29,7 @@ Sie können den folgenden Befehl sowohl aus der URL-Abfrage als auch aus der Kon
  </tbody> 
 </table>
 
-Alle Asset-Verweise in der CSS-Datei werden mit dem Speicherort der CSS-Datei aufgelöst, nicht mit dem Speicherort der aufrufenden HTML-Seite.
+Alle Asset-Verweise in der CSS-Datei werden mit dem Speicherort der CSS-Datei und nicht mit dem Speicherort der aufrufenden HTML-Seite aufgelöst.
 
 ## Eigenschaften {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
