@@ -4,12 +4,13 @@ seo-description: Durch Klicken oder Tippen auf diese Schaltfläche gelangt der B
 seo-title: Schaltfläche "Erste Seite"
 solution: Experience Manager
 title: Schaltfläche "Erste Seite"
-topic: Dynamic Media
 uuid: fd164899-505c-448b-8dba-7581d97d87b6
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
