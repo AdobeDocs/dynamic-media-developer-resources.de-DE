@@ -4,13 +4,14 @@ seo-description: Ebenentext. Gibt Text und Formatierungsinhalte für eine Texteb
 seo-title: Text
 solution: Experience Manager
 title: Text
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5b4f9282-83a3-488d-b5d2-deb2c92de564
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '189'
+ht-degree: 5%
 
 ---
 
