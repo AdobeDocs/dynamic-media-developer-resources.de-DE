@@ -4,12 +4,13 @@ seo-description: Durch Klicken auf die Schaltfläche im Vollbildmodus gelangt de
 seo-title: Schaltfläche "Vollbild"
 solution: Experience Manager
 title: Schaltfläche "Vollbild"
-topic: Dynamic Media
 uuid: d09832e4-5058-420a-8ee9-c6b5a2d42190
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
