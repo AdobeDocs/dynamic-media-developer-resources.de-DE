@@ -4,12 +4,13 @@ seo-description: Gibt einen beschnittenen Bereich für ein Bild basierend auf se
 seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-topic: Dynamic Media Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
+feature: Dynamic Media Classic, SDK/API
+role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '174'
 ht-degree: 13%
 
 ---
