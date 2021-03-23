@@ -4,13 +4,14 @@ seo-description: Konfigurationsattribut für Video360 Viewer.
 seo-title: Video360Player.waiticon
 solution: Experience Manager
 title: Video360Player.waiticon
-topic: Dynamic Media
 uuid: c28cfba4-2bc9-4f02-9f99-7a8fa96ac592
+feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 32%
+source-wordcount: '45'
+ht-degree: 24%
 
 ---
 
