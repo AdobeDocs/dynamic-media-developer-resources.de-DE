@@ -2,12 +2,13 @@
 description: Verwalten von Seitenbeschriftungen
 solution: Experience Manager
 title: Verwalten von Seitenbeschriftungen
-topic: Dynamic Media
 uuid: ab3df37d-113b-4762-ba9c-b92ffc41f1a2
+feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
