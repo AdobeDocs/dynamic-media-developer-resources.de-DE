@@ -4,12 +4,13 @@ seo-description: JavaScript-API-Referenz für Flyout-Viewer.
 seo-title: setLocalizedTextes
 solution: Experience Manager
 title: setLocalizedTextes
-topic: Dynamic Media
 uuid: 69341735-5ebe-4e3b-acad-b6b916b11bb5
+feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
+role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---
