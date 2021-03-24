@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -123,7 +123,7 @@ Antwortbildformat. Gibt das Bildkodierungsformat für an den Client gesendete Bi
 
 `qlt-` legt die JPEG-Kodierungsoptionen für die folgenden Formate fest: JPEG, TIFF mit JPEG-Komprimierung, PDF mit JPEG-Komprimierung und SWF-Datei. Verwenden Sie `quantize=`, wenn `fmt=gif` oder `fmt=gif-alpha`. Weitere Informationen finden Sie in den Befehlsbeschreibungen. Die anderen Formate haben keine einstellbaren Optionen.
 
-8 Bit pro Pixelkomponente werden für alle Formate und Pixeltypen zurückgegeben.
+Acht Bit pro Pixelkomponente werden für alle Formate und Pixeltypen zurückgegeben.
 
 In der folgenden Tabelle werden die gültigen Kombinationen von *`format`* und *`pixelType`*, die entsprechenden HTTP-Antwort-MIME-Typen, ob ICC-Profil eingebettet werden können (siehe [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)) und welche formatspezifischen Optionsbefehle angewendet werden können.
 
@@ -199,7 +199,7 @@ In der folgenden Tabelle werden die gültigen Kombinationen von *`format`* und *
 
 Gibt das Kodierungsformat für an den Client gesendete Antwortbilddaten und den entsprechenden MIME-Typ der Antwort für den HTTP-Antwort-Header an.
 
-`png-alpha` gibt nicht verknüpftes Alpha zurück (d. h., Alpha multipliziert die Pixelwerte nicht), während  `tif-alpha`und  `swf-alpha` gibt verknüpftes Alpha zurück (d. h. die Alpha-Werte werden vormultipliziert mit den Alpha-Werten). Der Alpha-Kanal entspricht dem Umkehren der Vignettenhintergrundmaske für `req=img` und der Gruppen- oder Objektmaske für `req=object`. Um Alpha bei Verwendung einer verschachtelten IR-Anforderung anzuwenden, fügen Sie der eingebetteten IR-Anforderung und der Hauptanforderung `fmt=` mit dem entsprechenden Alpha-Dateiformat hinzu. Wenn ein CMYK- oder Graustufen-ICC-Profil mit `icc=` angegeben ist, werden keine Alpha-Daten zurückgegeben.
+`png-alpha` gibt nicht verknüpftes Alpha zurück (d. h., Alpha multipliziert die Pixelwerte nicht), während  `tif-alpha`und  `swf-alpha` gibt verknüpftes Alpha zurück (d. h. die Alpha-Werte werden vormultipliziert mit den Alpha-Werten). Der Alpha-Kanal entspricht dem Umkehren der Vignettenhintergrundmaske für `req=img` und der Gruppen- oder Objektmaske, wenn `req=object` vorhanden ist. Um Alpha bei Verwendung einer verschachtelten IR-Anforderung anzuwenden, fügen Sie der eingebetteten IR-Anforderung und der Hauptanforderung `fmt=` mit dem entsprechenden Alpha-Dateiformat hinzu. Wenn ein CMYK- oder Graustufen-ICC-Profil mit `icc=` angegeben ist, werden keine Alpha-Daten zurückgegeben.
 
 ## Eigenschaften {#section-eb12a82c69d84622bcea153dd84d95b3}
 
