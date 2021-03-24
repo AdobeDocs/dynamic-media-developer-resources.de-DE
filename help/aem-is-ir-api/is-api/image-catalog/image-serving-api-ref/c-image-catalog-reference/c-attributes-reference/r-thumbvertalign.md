@@ -1,17 +1,14 @@
 ---
 description: Vertikale Ausrichtung für Miniaturansichten. Gibt die vertikale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, die durch wid= und hei= oder durch das Attribut DefaultThumbPix angegeben wird.
-seo-description: Vertikale Ausrichtung für Miniaturansichten. Gibt die vertikale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, die durch wid= und hei= oder durch das Attribut DefaultThumbPix angegeben wird.
-seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
