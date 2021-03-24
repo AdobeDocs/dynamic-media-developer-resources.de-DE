@@ -1,16 +1,13 @@
 ---
 description: Bildsatzdaten aus dem Bildkatalog. Gibt Bildsatzdaten für den Bildkatalogeintrag zurück, der im URL-Pfad angegeben ist.
-seo-description: Bildsatzdaten aus dem Bildkatalog. Gibt Bildsatzdaten für den Bildkatalogeintrag zurück, der im URL-Pfad angegeben ist.
-seo-title: imageset
 solution: Experience Manager
 title: imageset
-uuid: 8854e903-a85f-403a-ae3d-b7281a236262
 feature: Dynamic Media Classic, SDK/API, Bildsätze
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
