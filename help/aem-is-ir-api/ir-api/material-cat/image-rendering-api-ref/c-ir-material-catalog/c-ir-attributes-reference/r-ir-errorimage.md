@@ -1,16 +1,13 @@
 ---
 description: Fehlermeldungsbild. Beim Rendern von Bildern wird normalerweise ein Fehlerstatus mit einer Textmeldung zurückgegeben, wenn ein Fehler auftritt. Attribut ErrorImage ermöglicht die Konfiguration eines Bildes, das im Fehlerfall zurückgegeben werden kann.
-seo-description: Fehlermeldungsbild. Beim Rendern von Bildern wird normalerweise ein Fehlerstatus mit einer Textmeldung zurückgegeben, wenn ein Fehler auftritt. Attribut ErrorImage ermöglicht die Konfiguration eines Bildes, das im Fehlerfall zurückgegeben werden kann.
-seo-title: ErrorImage *
 solution: Experience Manager
 title: ErrorImage *
-uuid: 6c8801d0-8cd0-4477-9a60-ccbb343a0747
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
