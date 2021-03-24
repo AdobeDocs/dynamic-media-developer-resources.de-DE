@@ -1,16 +1,13 @@
 ---
 description: Wenden Sie sich wie folgt an den technischen Support.
-seo-description: Wenden Sie sich wie folgt an den technischen Support.
-seo-title: Technische Unterstützung
 solution: Experience Manager
 title: Technische Unterstützung
-uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
