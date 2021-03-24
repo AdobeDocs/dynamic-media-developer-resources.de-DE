@@ -1,16 +1,13 @@
 ---
 description: Bildkonvertierungsdienstprogramm.
-seo-description: Bildkonvertierungsdienstprogramm.
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -257,7 +254,7 @@ In der folgenden Tabelle werden die Bilddateiformate und Formatoptionen Liste, d
   <tr> 
    <td> <b> BMP</b> <p> (Windows Bitmap) </p> </td> 
    <td> <p> RGB | indexiert </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> unkomprimiert | RLE </p> </td> 
    <td> <p> 5/6 Bit/Kanal deutet auf eine Unterstützung für 16-Bit-RGB (5-5-5 und 5-6-5 Bit/Kanal) hin. </p> </td> 
   </tr> 
@@ -313,7 +310,7 @@ In der folgenden Tabelle werden die Bilddateiformate und Formatoptionen Liste, d
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grau | grayA | indexiert </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> unkomprimiert | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | Pakete </p> </td> 
    <td> <p> Mit Ausnahme des ersten verknüpften Alpha-Kanals werden zusätzliche Kanal ignoriert. </p> </td> 
   </tr> 
