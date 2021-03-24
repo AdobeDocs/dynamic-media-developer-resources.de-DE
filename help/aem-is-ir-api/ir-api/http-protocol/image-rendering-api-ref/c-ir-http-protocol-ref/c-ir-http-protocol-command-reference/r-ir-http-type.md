@@ -1,17 +1,14 @@
 ---
 description: Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
-seo-description: Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
-seo-title: Typ
 solution: Experience Manager
 title: Typ
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 21%
+source-wordcount: '164'
+ht-degree: 22%
 
 ---
 
