@@ -1,16 +1,13 @@
 ---
 description: 'Die grundlegende Syntax des HTTP-Protokolls lautet wie folgt:'
-seo-description: 'Die grundlegende Syntax des HTTP-Protokolls lautet wie folgt:'
-seo-title: Grundlegende Syntax des Image Serving-HTTP-Protokolls
 solution: Experience Manager
 title: Grundlegende Syntax des Image Serving-HTTP-Protokolls
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -47,19 +44,19 @@ Die grundlegende Syntax des HTTP-Protokolls lautet wie folgt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-  <td class="stentry"> <p>Name eines Befehlmakros. </p></td> 
+  <td class="stentry"> <p>Name eines Befehlmakros.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Kommentar</span> </span> </p></td> 
-  <td class="stentry"> <p>Kommentarzeichenfolge (vom Server ignoriert). </p></td> 
+  <td class="stentry"> <p>Kommentarzeichenfolge (vom Server ignoriert).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Einer der unterstützten Befehl- oder Attributnamen. </p></td> 
+  <td class="stentry"> <p>Einer der unterstützten Befehl- oder Attributnamen.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>Name einer benutzerdefinierten Variablen. </p></td> 
+  <td class="stentry"> <p>Name einer benutzerdefinierten Variablen.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -85,7 +82,7 @@ Image Serving extrahiert zunächst *`object`* und *`modifiers`* aus der eingehen
 
 ## Kommentare {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Kommentare können überall in Anforderungszeichenfolgen eingebettet werden und durch einen Punkt (.) gekennzeichnet werden. unmittelbar nach dem Befehl separator(&amp;). Der Kommentar wird durch das nächste Vorkommen eines (nicht kodierten) Befehlstrennzeichens beendet. Diese Funktion kann verwendet werden, um Informationen zur Anforderung hinzuzufügen, die nicht zur Verwendung mit Image Serving bestimmt sind, wie Zeitstempel, Datenbank-IDs usw.
+Kommentare können überall in Anforderungszeichenfolgen eingebettet werden und durch einen Punkt (.) gekennzeichnet werden. unmittelbar nach dem Befehl separator(&amp;). Der Kommentar wird durch das nächste Vorkommen eines (nicht kodierten) Befehlstrennzeichens beendet. Mit dieser Funktion können Informationen zur Anforderung hinzugefügt werden, die nicht für die Verwendung mit Image Serving bestimmt sind, z. B. Zeitstempel und Datenbank-IDs.
 
 ## Verwandte Themen {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
