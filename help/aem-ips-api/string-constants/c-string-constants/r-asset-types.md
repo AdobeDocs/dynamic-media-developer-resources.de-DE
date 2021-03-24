@@ -1,16 +1,13 @@
 ---
 description: Beschreibt Werte, die von verschiedenen Eingabeparametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel.
-seo-description: Beschreibt Werte, die von verschiedenen Eingabeparametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel.
-seo-title: Asset-Typen
 solution: Experience Manager
 title: Asset-Typen
-uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '47'
 ht-degree: 12%
 
 ---
