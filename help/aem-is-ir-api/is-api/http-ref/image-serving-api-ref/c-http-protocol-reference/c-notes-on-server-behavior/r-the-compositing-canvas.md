@@ -1,16 +1,13 @@
 ---
 description: Wenn req=img, wird die Größe der Arbeitsfläche zum Erstellen von Compositing vollständig von der Größe der Ebene 0 bestimmt.
-seo-description: Wenn req=img, wird die Größe der Arbeitsfläche zum Erstellen von Compositing vollständig von der Größe der Ebene 0 bestimmt.
-seo-title: Die Arbeitsfläche zum Erstellen von Kompositionen
 solution: Experience Manager
 title: Die Arbeitsfläche zum Erstellen von Kompositionen
-uuid: 7ec2f1b3-61fc-4bfe-96d2-a5946a238e74
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
