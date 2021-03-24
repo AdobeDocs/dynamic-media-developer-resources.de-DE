@@ -1,17 +1,14 @@
 ---
 description: Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
-seo-description: Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
-seo-title: Spezielle Textelemente
 solution: Experience Manager
 title: Spezielle Textelemente
-uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 4%
 
 ---
 
