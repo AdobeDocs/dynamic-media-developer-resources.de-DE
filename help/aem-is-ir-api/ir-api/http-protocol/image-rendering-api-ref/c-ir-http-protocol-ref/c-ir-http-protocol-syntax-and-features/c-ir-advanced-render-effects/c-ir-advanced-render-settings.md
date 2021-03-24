@@ -5,7 +5,7 @@ title: Erweiterte Rendereinstellungen
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 25%
@@ -60,7 +60,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM-Radius (Pixel). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -139,7 +139,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
    <td colname="col1"> <p>J </p> </td> 
    <td colname="col2"> <p>Poisson: Verwenden Sie Umschalter. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
   </tr> 
   <tr> 
