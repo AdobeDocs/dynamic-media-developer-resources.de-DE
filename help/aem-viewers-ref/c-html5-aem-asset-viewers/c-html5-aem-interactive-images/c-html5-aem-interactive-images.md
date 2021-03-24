@@ -1,16 +1,13 @@
 ---
 description: Der interaktive Bild-Viewer ist ein Viewer, der ein einzelnes, nicht zoombares Bild mit klickbaren Hotspots anzeigt. Der Zweck dieses Viewers ist die Implementierung eines "Shoppable Banner"-Erlebnisses. Das heißt, der Benutzer kann einen Hotspot über dem Bannerbild auswählen und zu einer Quick-Ansicht oder Produktdetailseite auf Ihrer Website weitergeleitet werden. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
-seo-description: Der interaktive Bild-Viewer ist ein Viewer, der ein einzelnes, nicht zoombares Bild mit klickbaren Hotspots anzeigt. Der Zweck dieses Viewers ist die Implementierung eines "Shoppable Banner"-Erlebnisses. Das heißt, der Benutzer kann einen Hotspot über dem Bannerbild auswählen und zu einer Quick-Ansicht oder Produktdetailseite auf Ihrer Website weitergeleitet werden. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
-seo-title: Interaktives Bild
 solution: Experience Manager
 title: Interaktives Bild
-uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
