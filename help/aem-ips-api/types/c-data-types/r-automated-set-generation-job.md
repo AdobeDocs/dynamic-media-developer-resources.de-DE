@@ -1,16 +1,13 @@
 ---
 description: Gruppieren Sie Dateien mithilfe eines Asset-Handle-Liste-Arrays in Sets.
-seo-description: Gruppieren Sie Dateien mithilfe eines Asset-Handle-Liste-Arrays in Sets.
-seo-title: AutomatedSetGenerationJob
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
