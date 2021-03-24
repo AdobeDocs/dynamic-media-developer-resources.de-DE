@@ -1,16 +1,13 @@
 ---
 description: Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, unterliegen der lokale Anpassung, einschließlich Zoom-Schaltflächen, Schaltflächen zum Ändern der Seite, Miniaturansicht, Schaltfläche im Vollbildmodus, Schaltfläche zum Schließen und Schaltflächen für die Bildlaufleiste.
-seo-description: Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, unterliegen der lokale Anpassung, einschließlich Zoom-Schaltflächen, Schaltflächen zum Ändern der Seite, Miniaturansicht, Schaltfläche im Vollbildmodus, Schaltfläche zum Schließen und Schaltflächen für die Bildlaufleiste.
-seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 solution: Experience Manager
 title: lokale Anpassung der Elemente der Benutzeroberfläche
-uuid: 836cb874-2ce6-4737-9c10-f41af003a285
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
