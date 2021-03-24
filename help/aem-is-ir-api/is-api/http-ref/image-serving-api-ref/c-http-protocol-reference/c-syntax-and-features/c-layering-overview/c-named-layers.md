@@ -1,16 +1,13 @@
 ---
 description: Mit dem Befehl layer= können Sie einer Ebene einen Namen zuweisen und später auf dieselbe Ebene anhand des Namens und nicht anhand der Nummer der Ebene verweisen.
-seo-description: Mit dem Befehl layer= können Sie einer Ebene einen Namen zuweisen und später auf dieselbe Ebene anhand des Namens und nicht anhand der Nummer der Ebene verweisen.
-seo-title: Benannte Ebenen
 solution: Experience Manager
 title: Benannte Ebenen
-uuid: dad30027-338b-4387-9a14-b26c1b925b18
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
