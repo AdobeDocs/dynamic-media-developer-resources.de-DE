@@ -2,11 +2,10 @@
 description: Richtung
 solution: Experience Manager
 title: Richtung
-uuid: 0a30f3b0-64c8-4799-b4f5-fc8996a8b5a4
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 3%
