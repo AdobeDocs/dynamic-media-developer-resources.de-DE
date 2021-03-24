@@ -1,17 +1,14 @@
 ---
 description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Haupt-Ansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Haupt-Ansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-title: Zurücksetzen-Schaltfläche für Zoom
 solution: Experience Manager
 title: Zurücksetzen-Schaltfläche für Zoom
-uuid: b3119094-ab50-4aa4-a0ac-11d90f109908
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '219'
+ht-degree: 3%
 
 ---
 
