@@ -1,17 +1,14 @@
 ---
 description: Die folgenden Felder werden in ICC-Profil-Zuordnungsdateien erkannt.
-seo-description: Die folgenden Felder werden in ICC-Profil-Zuordnungsdateien erkannt.
-seo-title: ICC-Profile
 solution: Experience Manager
 title: ICC-Profile
-uuid: b244c95a-3198-4d6c-836f-f199022348b4
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 1%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
