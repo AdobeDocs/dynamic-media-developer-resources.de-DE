@@ -1,17 +1,14 @@
 ---
 description: Der Viewer zeigt Favoritensymbole über der Haupt-Ansicht an den Stellen an, an denen sie ursprünglich vom Benutzer hinzugefügt wurden.
-seo-description: Der Viewer zeigt Favoritensymbole über der Haupt-Ansicht an den Stellen an, an denen sie ursprünglich vom Benutzer hinzugefügt wurden.
-seo-title: Favoriten, Effekt
 solution: Experience Manager
 title: Favoriten, Effekt
-uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
