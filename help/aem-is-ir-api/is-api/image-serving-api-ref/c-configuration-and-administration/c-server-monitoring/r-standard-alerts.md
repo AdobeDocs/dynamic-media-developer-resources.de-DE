@@ -1,16 +1,13 @@
 ---
 description: Standardwarnungen werden mit einer konsolidierten E-Mail-Nachricht am Ende des konfigurierten Mittelungsintervalls gesendet.
-seo-description: Standardwarnungen werden mit einer konsolidierten E-Mail-Nachricht am Ende des konfigurierten Mittelungsintervalls gesendet.
-seo-title: Standardwarnungen
 solution: Experience Manager
 title: Standardwarnungen
-uuid: d3294434-a44b-4742-9d77-a6945760d33c
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
