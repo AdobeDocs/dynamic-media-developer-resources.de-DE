@@ -1,17 +1,14 @@
 ---
 description: In diesem Abschnitt werden die HTTP-Protokollsyntax und die Funktionen für das Dynamic Media Image Rendering beschrieben.
-seo-description: In diesem Abschnitt werden die HTTP-Protokollsyntax und die Funktionen für das Dynamic Media Image Rendering beschrieben.
-seo-title: Syntax und Funktionen des HTTP-Protokolls
 solution: Experience Manager
 title: Syntax und Funktionen des HTTP-Protokolls
-uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 
