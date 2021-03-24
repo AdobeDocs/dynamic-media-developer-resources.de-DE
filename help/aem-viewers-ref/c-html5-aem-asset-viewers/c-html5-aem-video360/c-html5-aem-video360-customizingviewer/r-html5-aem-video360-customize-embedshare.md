@@ -1,16 +1,13 @@
 ---
 description: Das Werkzeug "Freigabe einbetten"besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-description: Das Werkzeug "Freigabe einbetten"besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-title: Freigabe einbetten
 solution: Experience Manager
 title: Freigabe einbetten
-uuid: 768e8eb5-ec35-4028-be96-268f8220fe07
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2606'
 ht-degree: 2%
 
 ---
