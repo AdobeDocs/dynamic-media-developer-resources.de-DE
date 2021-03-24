@@ -1,17 +1,14 @@
 ---
 description: Konfigurationsattribut für den interaktiven Video-Viewer.
-seo-description: Konfigurationsattribut für den interaktiven Video-Viewer.
-seo-title: CallToAction.fmt
 solution: Experience Manager
 title: CallToAction.fmt
-uuid: c85160e2-431f-42af-a468-c754bfe86ecd
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
