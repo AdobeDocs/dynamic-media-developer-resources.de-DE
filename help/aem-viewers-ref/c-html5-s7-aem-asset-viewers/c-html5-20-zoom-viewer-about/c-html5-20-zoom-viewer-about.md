@@ -1,17 +1,14 @@
 ---
 description: Der Zoom-Viewer ist ein Bild-Viewer, der ein Zoombild anzeigt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es verfügt über Zoomwerkzeuge, Vollbildunterstützung, Farbfelder und eine optionale Schließen-Schaltfläche. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 keywords: responsive
-seo-description: Der Zoom-Viewer ist ein Bild-Viewer, der ein Zoombild anzeigt. Dieser Viewer funktioniert mit Bildsätzen, und die Navigation erfolgt mithilfe von Farbfeldern. Es verfügt über Zoomwerkzeuge, Vollbildunterstützung, Farbfelder und eine optionale Schließen-Schaltfläche. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
-seo-title: Zoom
 solution: Experience Manager
 title: Zoom
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
