@@ -1,16 +1,13 @@
 ---
 description: Die SvgRender-Komponente ist eine unabhängige Java-Anwendung.
-seo-description: Die SvgRender-Komponente ist eine unabhängige Java-Anwendung.
-seo-title: SVG konfigurieren
 solution: Experience Manager
 title: SVG konfigurieren
-uuid: f6e131af-283e-4649-b349-123489c0838d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '73'
 ht-degree: 2%
 
 ---
