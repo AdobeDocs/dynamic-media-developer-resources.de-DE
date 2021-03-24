@@ -1,16 +1,13 @@
 ---
 description: Die folgenden Optionen steuern die Verarbeitung von Kabinettstil-Dateien. Sie werden ignoriert, wenn sourceFile keine Möbeldatei ist oder wenn -info angegeben ist.
-seo-description: Die folgenden Optionen steuern die Verarbeitung von Kabinettstil-Dateien. Sie werden ignoriert, wenn sourceFile keine Möbeldatei ist oder wenn -info angegeben ist.
-seo-title: Optionen für Schalterstildateien
 solution: Experience Manager
 title: Optionen für Schalterstildateien
-uuid: bca84724-d710-45da-86e9-7385f689fd4b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
