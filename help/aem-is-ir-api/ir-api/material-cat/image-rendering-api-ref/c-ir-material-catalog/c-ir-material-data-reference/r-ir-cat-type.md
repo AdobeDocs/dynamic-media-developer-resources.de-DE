@@ -1,17 +1,14 @@
 ---
 description: Art des Materials. Oberflächenart des Materials. Wird in Verbindung mit Katalog-Glanz und Katalog-Raueit verwendet, um 3D Reflektion Rendereffekte zu steuern.
-seo-description: Art des Materials. Oberflächenart des Materials. Wird in Verbindung mit Katalog-Glanz und Katalog-Raueit verwendet, um 3D Reflektion Rendereffekte zu steuern.
-seo-title: Typ
 solution: Experience Manager
 title: Typ
-uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 26%
+source-wordcount: '141'
+ht-degree: 29%
 
 ---
 
