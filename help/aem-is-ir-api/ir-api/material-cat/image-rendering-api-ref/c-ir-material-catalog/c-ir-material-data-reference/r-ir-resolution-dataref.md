@@ -1,16 +1,13 @@
 ---
 description: Auflösung. "Real-world"-Bildauflösung, die normalerweise in Pixel pro Zoll angegeben wird, aber auch in anderen Einheiten, z. B. in Pixeln pro Meter, enthalten sein kann.
-seo-description: Auflösung. "Real-world"-Bildauflösung, die normalerweise in Pixel pro Zoll angegeben wird, aber auch in anderen Einheiten, z. B. in Pixeln pro Meter, enthalten sein kann.
-seo-title: Auflösung
 solution: Experience Manager
 title: Auflösung
-uuid: 281c7ff6-8f78-4654-98ec-0db4299b80d9
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
