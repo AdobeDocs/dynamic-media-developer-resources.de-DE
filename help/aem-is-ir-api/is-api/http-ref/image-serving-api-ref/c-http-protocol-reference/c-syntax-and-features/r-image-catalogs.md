@@ -1,16 +1,13 @@
 ---
 description: Die Funktionen und die Syntax von Bildkatalogen werden in diesem Abschnitt beschrieben.
-seo-description: Die Funktionen und die Syntax von Bildkatalogen werden in diesem Abschnitt beschrieben.
-seo-title: Bildkataloge
 solution: Experience Manager
 title: Bildkataloge
-uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
