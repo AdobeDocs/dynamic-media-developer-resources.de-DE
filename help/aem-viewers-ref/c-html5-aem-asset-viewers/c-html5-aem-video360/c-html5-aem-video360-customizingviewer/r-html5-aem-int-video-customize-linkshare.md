@@ -1,16 +1,13 @@
 ---
 description: Das Tool zum Teilen von Links besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird, sowie dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-description: Das Tool zum Teilen von Links besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird, sowie dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-title: Linkfreigabe
 solution: Experience Manager
 title: Linkfreigabe
-uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
