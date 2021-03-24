@@ -1,16 +1,13 @@
 ---
 description: Das Social Sharing-Tool wird standardmäßig in der oberen linken Ecke angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
-seo-description: Das Social Sharing-Tool wird standardmäßig in der oberen linken Ecke angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
-seo-title: Social Sharing
 solution: Experience Manager
 title: Social Sharing
-uuid: 6d463eb1-c6bf-4f1c-90e4-b5ef1e5a1538
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
