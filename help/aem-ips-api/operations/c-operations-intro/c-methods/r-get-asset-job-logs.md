@@ -1,17 +1,14 @@
 ---
 description: Ruft die Auftragsprotokolle für ein Asset ab. Elemente, die im Array zurückgegeben werden, enthalten detaillierte Informationen zu jedem Eintrag im Auftragsprotokoll für dieses Asset. Das Antwortfeld logMessage wird basierend auf dem Feld authHeader lokalisiert.
-seo-description: Ruft die Auftragsprotokolle für ein Asset ab. Elemente, die im Array zurückgegeben werden, enthalten detaillierte Informationen zu jedem Eintrag im Auftragsprotokoll für dieses Asset. Das Antwortfeld logMessage wird basierend auf dem Feld authHeader lokalisiert.
-seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 7%
+source-wordcount: '165'
+ht-degree: 9%
 
 ---
 
