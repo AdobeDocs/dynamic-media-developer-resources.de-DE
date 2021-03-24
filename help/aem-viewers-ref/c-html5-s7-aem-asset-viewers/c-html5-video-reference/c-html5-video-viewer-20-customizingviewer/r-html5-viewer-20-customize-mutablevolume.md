@@ -1,16 +1,13 @@
 ---
 description: Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der der Benutzer den Videoplayer-Sound stummschalten oder deaktivieren kann.
-seo-description: Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der der Benutzer den Videoplayer-Sound stummschalten oder deaktivieren kann.
-seo-title: Wechselbares Volumen
 solution: Experience Manager
 title: Wechselbares Volumen
-uuid: d7eafff8-dd98-42e2-9d45-e291fe372d8c
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
