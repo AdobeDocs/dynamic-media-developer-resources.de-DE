@@ -1,16 +1,13 @@
 ---
 description: Cache-Einträge werden automatisch aktualisiert, indem entweder katalogbasierte oder ablaufbasierte Cache-Validierung verwendet wird, wie mit dem Attribut CacheValidationPolicy (in default.ini oder der .ini-Datei eines bestimmten Bildkatalogs) ausgewählt.
-seo-description: Cache-Einträge werden automatisch aktualisiert, indem entweder katalogbasierte oder ablaufbasierte Cache-Validierung verwendet wird, wie mit dem Attribut CacheValidationPolicy (in default.ini oder der .ini-Datei eines bestimmten Bildkatalogs) ausgewählt.
-seo-title: Validierung des Antwortcache
 solution: Experience Manager
 title: Validierung des Antwortcache
-uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
