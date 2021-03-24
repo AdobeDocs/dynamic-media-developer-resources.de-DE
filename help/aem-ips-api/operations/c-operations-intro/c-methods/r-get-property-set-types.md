@@ -1,17 +1,14 @@
 ---
 description: Ruft die mit der angegebenen Firma verknüpften Eigenschaftssatztypen oder globale Eigenschaftssatztypen ab, wenn keine Firma angegeben ist.
-seo-description: Ruft die mit der angegebenen Firma verknüpften Eigenschaftssatztypen oder globale Eigenschaftssatztypen ab, wenn keine Firma angegeben ist.
-seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 10%
+source-wordcount: '120'
+ht-degree: 12%
 
 ---
 
