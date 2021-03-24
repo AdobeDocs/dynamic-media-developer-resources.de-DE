@@ -1,16 +1,13 @@
 ---
 description: Der Zoomindikator wird über dem Zoombereich der Ansicht angezeigt. Es wird angezeigt, wenn sich das Bild im Reset-Zustand befindet und es auch vom iconeffect-Parameter abhängt.
-seo-description: Der Zoomindikator wird über dem Zoombereich der Ansicht angezeigt. Es wird angezeigt, wenn sich das Bild im Reset-Zustand befindet und es auch vom iconeffect-Parameter abhängt.
-seo-title: Symbol für Zoom-Ansicht
 solution: Experience Manager
 title: Symbol für Zoom-Ansicht
-uuid: 69a44789-9587-4459-9c75-048773c9e368
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
