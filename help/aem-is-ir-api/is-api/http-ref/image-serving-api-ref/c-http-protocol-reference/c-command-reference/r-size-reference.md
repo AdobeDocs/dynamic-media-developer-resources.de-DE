@@ -1,16 +1,13 @@
 ---
 description: Ebenengröße. Gibt die Größe oder maximale Ebenengröße für eine Ebene an, bevor "rotate=", "perspective="und "extended="auf die Ebene angewendet werden.
-seo-description: Ebenengröße. Gibt die Größe oder maximale Ebenengröße für eine Ebene an, bevor "rotate=", "perspective="und "extended="auf die Ebene angewendet werden.
-seo-title: Größe
 solution: Experience Manager
 title: Größe
-uuid: c9c13062-7974-4dd9-aff4-f9502bcf442e
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
