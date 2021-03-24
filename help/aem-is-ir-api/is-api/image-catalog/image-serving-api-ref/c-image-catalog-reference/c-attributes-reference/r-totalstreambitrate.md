@@ -1,17 +1,14 @@
 ---
 description: Gesamte Stream-Bitrate. Ein langer Wert, der die gesamte Stream-Bitrate für das Video-Asset darstellt.
-seo-description: Gesamte Stream-Bitrate. Ein langer Wert, der die gesamte Stream-Bitrate für das Video-Asset darstellt.
-seo-title: TotalStreamBitRate
 solution: Experience Manager
 title: TotalStreamBitRate
-uuid: 0fdb7189-cae6-4cf0-ae00-f46a7709fc46
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '73'
+ht-degree: 6%
 
 ---
 
