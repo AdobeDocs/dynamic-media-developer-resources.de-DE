@@ -1,17 +1,14 @@
 ---
 description: Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
-seo-description: Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
-seo-title: Erweiterte Rendereinstellungen
 solution: Experience Manager
 title: Erweiterte Rendereinstellungen
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 24%
+source-wordcount: '615'
+ht-degree: 25%
 
 ---
 
@@ -134,7 +131,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Beispiele/Pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
   </tr> 
@@ -142,7 +139,7 @@ Diese Einstellungen werden interaktiv im Image Authoring gesteuert. Es ist mögl
    <td colname="col1"> <p>J </p> </td> 
    <td colname="col2"> <p>Poisson: Verwenden Sie Umschalter. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
   </tr> 
   <tr> 
