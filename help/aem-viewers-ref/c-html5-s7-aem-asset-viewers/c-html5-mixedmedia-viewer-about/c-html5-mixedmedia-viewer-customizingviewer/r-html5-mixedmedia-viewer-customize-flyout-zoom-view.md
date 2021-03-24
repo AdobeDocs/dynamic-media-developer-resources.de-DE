@@ -1,16 +1,13 @@
 ---
 description: Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Ansicht, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
-seo-description: Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Ansicht, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
-seo-title: Flyout-Zoom-Ansicht
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '257'
 ht-degree: 4%
 
 ---
