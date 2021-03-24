@@ -1,16 +1,13 @@
 ---
 description: Der Hauptbereich der Ansicht ist vom Video belegt. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
-seo-description: Der Hauptbereich der Ansicht ist vom Video belegt. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
-seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
