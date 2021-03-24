@@ -1,17 +1,14 @@
 ---
 description: Der Rotationsset-Viewer ist ein Bildbetrachter, der eine 360-Grad-Ansicht des Bildes oder, falls erforderlich, eine mehrdimensionale Ansicht bereitstellt. Es verfügt über Zoom- und Rotationswerkzeuge, Vollbildunterstützung und eine optionale Schließen-Schaltfläche. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 keywords: responsive
-seo-description: Der Rotationsset-Viewer ist ein Bildbetrachter, der eine 360-Grad-Ansicht des Bildes oder, falls erforderlich, eine mehrdimensionale Ansicht bereitstellt. Es verfügt über Zoom- und Rotationswerkzeuge, Vollbildunterstützung und eine optionale Schließen-Schaltfläche. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
-seo-title: Spin
 solution: Experience Manager
-title: Rotation
-uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+title: Spin
 feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
