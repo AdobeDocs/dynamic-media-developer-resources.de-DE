@@ -1,16 +1,13 @@
 ---
 description: Dieses Dokument verwendet die folgenden Konventionen.
-seo-description: Dieses Dokument verwendet die folgenden Konventionen.
-seo-title: Dokument-Übereinkommen
 solution: Experience Manager
 title: Dokument-Übereinkommen
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ Dieses Dokument verwendet die folgenden Konventionen.
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>literal </p> </td> 
-  <td class="stentry"> <p>In Syntaxabschnitten ist nichtkursiver Text literal; dies gilt nicht für Leerzeichen und die Symbole [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>In Syntaxabschnitten ist nichtkursiver Text literal. Diese Regel gilt nicht für Leerzeichen und die Symbole [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -71,7 +68,7 @@ Dieses Dokument verwendet die folgenden Konventionen.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[  <span class="varname"> optional  </span>]  </span> </p> </td> 
-  <td class="stentry"> <p>Das <span class="varname"> optionale </span>-Syntaxelement kann jederzeit wiederholt werden. </p> </td> 
+  <td class="stentry"> <p>Das <span class="varname"> optionale </span>-Syntaxelement kann nicht oder nur mehrmals wiederholt werden. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1  </span>|  <span class="varname"> Element 2  </span> </span> </p> </td> 
