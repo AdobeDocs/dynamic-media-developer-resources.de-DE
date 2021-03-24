@@ -1,17 +1,14 @@
 ---
 description: Diese Befehle gelten für Bild-, Text- und Vollfarbschichten. Sie eignen sich im Allgemeinen auch für Composite-Bilder und einfache Bildanforderungen ohne Ebenen.
-seo-description: Diese Befehle gelten für Bild-, Text- und Vollfarbschichten. Sie eignen sich im Allgemeinen auch für Composite-Bilder und einfache Bildanforderungen ohne Ebenen.
-seo-title: Gemeinsame Aktionen
 solution: Experience Manager
 title: Gemeinsame Aktionen
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 3%
 
 ---
 
