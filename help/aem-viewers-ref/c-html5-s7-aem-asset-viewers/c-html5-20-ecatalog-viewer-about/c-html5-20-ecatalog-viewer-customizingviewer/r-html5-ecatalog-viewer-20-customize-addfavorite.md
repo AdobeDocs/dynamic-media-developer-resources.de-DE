@@ -1,16 +1,13 @@
 ---
 description: Die Position der Schaltfläche "Hinzufügen Favoriten"wird vollständig über das Menü "Favoriten"verwaltet.
-seo-description: Die Position der Schaltfläche "Hinzufügen Favoriten"wird vollständig über das Menü "Favoriten"verwaltet.
-seo-title: Schaltfläche "Hinzufügen Favoriten"
 solution: Experience Manager
 title: Schaltfläche "Hinzufügen Favoriten"
-uuid: 0e2f7187-d5a9-42a4-b918-e4782d62be6c
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
