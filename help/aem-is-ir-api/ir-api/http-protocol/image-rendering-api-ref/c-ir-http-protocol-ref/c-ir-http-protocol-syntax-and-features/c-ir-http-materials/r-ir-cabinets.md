@@ -1,16 +1,13 @@
 ---
 description: Die Cabinets-Materialien geben eine Möbeldatei (.vnc Dateierweiterung) an, eine spezielle Datendatei, die fotografische Darstellungen der Schränke sowie parametrische Layoutdefinitionen und weitere Informationen enthält, die für das Rendering der Schachtelfronten erforderlich sind.
-seo-description: Die Cabinets-Materialien geben eine Möbeldatei (.vnc Dateierweiterung) an, eine spezielle Datendatei, die fotografische Darstellungen der Schränke sowie parametrische Layoutdefinitionen und weitere Informationen enthält, die für das Rendering der Schachtelfronten erforderlich sind.
-seo-title: Möbel
 solution: Experience Manager
 title: Möbel
-uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
