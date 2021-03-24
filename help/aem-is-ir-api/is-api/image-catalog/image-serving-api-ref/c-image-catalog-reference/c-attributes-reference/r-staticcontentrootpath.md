@@ -1,17 +1,14 @@
 ---
 description: Statischer Pfad zum Stammordner für Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
-seo-description: Statischer Pfad zum Stammordner für Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
-seo-title: StaticContentRootPath
 solution: Experience Manager
 title: StaticContentRootPath
-uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 
