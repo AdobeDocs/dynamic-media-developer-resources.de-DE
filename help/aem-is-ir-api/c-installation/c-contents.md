@@ -1,16 +1,13 @@
 ---
 description: Nach der Installation enthält die Ordnerhierarchie in install_root die unten aufgeführten Dateien und Ordner.
-seo-description: Nach der Installation enthält die Ordnerhierarchie in install_root die unten aufgeführten Dateien und Ordner.
-seo-title: Inhalt
 solution: Experience Manager
 title: Inhalt
-uuid: 4c92c916-3b6a-4ac8-8d32-121f79da100a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
