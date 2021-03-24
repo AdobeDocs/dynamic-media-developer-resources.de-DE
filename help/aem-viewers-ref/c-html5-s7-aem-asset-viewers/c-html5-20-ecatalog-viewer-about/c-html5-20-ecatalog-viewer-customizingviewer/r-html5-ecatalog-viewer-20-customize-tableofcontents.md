@@ -1,17 +1,14 @@
 ---
 description: Das Inhaltsverzeichnis ist eine Schaltfläche in der Hauptsteuerungsleiste. Wenn diese Option aktiviert ist, wird ein Dropdownfeld mit einer Liste von Seitenindizes und -beschriftungen angezeigt.
-seo-description: Das Inhaltsverzeichnis ist eine Schaltfläche in der Hauptsteuerungsleiste. Wenn diese Option aktiviert ist, wird ein Dropdownfeld mit einer Liste von Seitenindizes und -beschriftungen angezeigt.
-seo-title: Inhaltsverzeichnis
 solution: Experience Manager
 title: Inhaltsverzeichnis
-uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 2%
+source-wordcount: '1068'
+ht-degree: 1%
 
 ---
 
