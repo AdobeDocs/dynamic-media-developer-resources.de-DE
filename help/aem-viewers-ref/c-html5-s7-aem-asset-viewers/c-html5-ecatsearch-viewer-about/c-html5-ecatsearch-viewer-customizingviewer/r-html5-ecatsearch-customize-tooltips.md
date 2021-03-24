@@ -1,16 +1,13 @@
 ---
 description: Auf Desktop-Systemen haben einige Benutzeroberflächenelemente wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
-seo-description: Auf Desktop-Systemen haben einige Benutzeroberflächenelemente wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
-seo-title: QuickInfos
 solution: Experience Manager
 title: QuickInfos
-uuid: 2cbf8a22-5d0e-46e3-b6e3-29739439558b
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
