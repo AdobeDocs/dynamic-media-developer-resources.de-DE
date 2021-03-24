@@ -1,17 +1,14 @@
 ---
 description: Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten können Server in Cache-Netzwerken wie Akamai, Browser-Caches und Unternehmensproxy-Server-Caches Image Serving-Antworten speichern, die über längere Zeit veraltet sein können.
-seo-description: Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten können Server in Cache-Netzwerken wie Akamai, Browser-Caches und Unternehmensproxy-Server-Caches Image Serving-Antworten speichern, die über längere Zeit veraltet sein können.
-seo-title: id
 solution: Experience Manager
 title: id
-uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
