@@ -1,16 +1,13 @@
 ---
 description: Die Ansicht "Favoriten"besteht aus einer Spalte mit Miniaturbildern.
-seo-description: Die Ansicht "Favoriten"besteht aus einer Spalte mit Miniaturbildern.
-seo-title: Favoriten-Ansicht
 solution: Experience Manager
 title: Favoriten-Ansicht
-uuid: 6b954bec-0678-4970-b83a-c2d8fea06a25
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
