@@ -1,16 +1,13 @@
 ---
 description: Druckauflösung. Druckauflösung für das Bild in voller Größe.
-seo-description: Druckauflösung. Druckauflösung für das Bild in voller Größe.
-seo-title: PrintResolution
 solution: Experience Manager
 title: PrintResolution
-uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '74'
 ht-degree: 6%
 
 ---
