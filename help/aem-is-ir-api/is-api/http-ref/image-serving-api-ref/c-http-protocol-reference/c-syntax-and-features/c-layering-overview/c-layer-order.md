@@ -1,16 +1,13 @@
 ---
 description: Die Ebenennummer bestimmt auch die z-Reihenfolge.
-seo-description: Die Ebenennummer bestimmt auch die z-Reihenfolge.
-seo-title: Ebenenreihenfolge
 solution: Experience Manager
 title: Ebenenreihenfolge
-uuid: 090f3873-8355-4b11-b05f-f34c74f02a5b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
