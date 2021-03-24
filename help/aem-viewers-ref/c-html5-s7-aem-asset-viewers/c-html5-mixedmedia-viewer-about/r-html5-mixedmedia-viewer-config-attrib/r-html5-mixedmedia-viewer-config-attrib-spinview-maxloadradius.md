@@ -1,17 +1,14 @@
 ---
 description: Stellt die maximale Anzahl von Frames dar, die im Voraus in jede Richtung geladen werden sollen, wenn die Rotationsansicht im Leerlauf ist.
-seo-description: Stellt die maximale Anzahl von Frames dar, die im Voraus in jede Richtung geladen werden sollen, wenn die Rotationsansicht im Leerlauf ist.
-seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
