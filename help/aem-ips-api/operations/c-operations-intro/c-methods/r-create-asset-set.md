@@ -1,16 +1,13 @@
 ---
 description: Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, die auf einem Image-Server veröffentlicht wird.
-seo-description: Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, die auf einem Image-Server veröffentlicht wird.
-seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '312'
 ht-degree: 6%
 
 ---
