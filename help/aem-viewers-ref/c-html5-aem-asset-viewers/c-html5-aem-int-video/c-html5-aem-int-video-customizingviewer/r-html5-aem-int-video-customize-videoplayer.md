@@ -1,16 +1,13 @@
 ---
 description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
-seo-description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
-seo-title: Videoplayer
 solution: Experience Manager
 title: Videoplayer
-uuid: ff0f78b1-ff88-47b8-a118-4e0b3e75f341
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '304'
 ht-degree: 1%
 
 ---
