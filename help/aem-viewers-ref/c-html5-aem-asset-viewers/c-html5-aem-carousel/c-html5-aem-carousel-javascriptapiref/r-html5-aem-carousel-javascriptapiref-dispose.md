@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Karussell-Viewer.
-seo-description: JavaScript-API-Referenz für Karussell-Viewer.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: 6b4e5bd0-5a32-4e4e-a9a1-c26e8e266aa6
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
