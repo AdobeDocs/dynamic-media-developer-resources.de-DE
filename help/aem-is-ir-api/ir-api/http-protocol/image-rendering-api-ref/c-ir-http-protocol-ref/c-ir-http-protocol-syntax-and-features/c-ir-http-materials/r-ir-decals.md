@@ -1,16 +1,13 @@
 ---
 description: Dekormaterialien umfassen Bekleidungskonstrukte wie Bekleidungsstücke, T-Shirt-Abdrücke, bestickte oder gedruckte Logos sowie nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen verwendet werden, wie z. B. Flächentrogs, Wand-Hing-Kunst, Schilder usw.
-seo-description: Dekormaterialien umfassen Bekleidungskonstrukte wie Bekleidungsstücke, T-Shirt-Abdrücke, bestickte oder gedruckte Logos sowie nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen verwendet werden, wie z. B. Flächentrogs, Wand-Hing-Kunst, Schilder usw.
-seo-title: Dezimalstellen
 solution: Experience Manager
 title: Dezimalstellen
-uuid: 6e64f382-f15f-4018-b00c-4fd21a4ebc8c
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
