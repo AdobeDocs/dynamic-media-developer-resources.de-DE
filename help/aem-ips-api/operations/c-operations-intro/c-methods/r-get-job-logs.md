@@ -1,17 +1,14 @@
 ---
 description: Ruft die angegebenen Auftragsprotokolle für die ausgewählte Firma ab. Sie können nach Zeichen, Richtung, Beginn- und Enddatum und Anzahl der Zeilen sortieren.
-seo-description: Ruft die angegebenen Auftragsprotokolle für die ausgewählte Firma ab. Sie können nach Zeichen, Richtung, Beginn- und Enddatum und Anzahl der Zeilen sortieren.
-seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 9%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
