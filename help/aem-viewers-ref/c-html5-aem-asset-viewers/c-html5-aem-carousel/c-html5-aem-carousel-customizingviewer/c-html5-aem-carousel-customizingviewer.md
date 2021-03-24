@@ -1,17 +1,14 @@
 ---
 description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den Karussell-Viewer erfolgen durch Erstellung einer benutzerdefinierten CSS.
 keywords: responsive
-seo-description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den Karussell-Viewer erfolgen durch Erstellung einer benutzerdefinierten CSS.
-seo-title: Anpassen des Karussell-Viewers
 solution: Experience Manager
 title: Anpassen des Karussell-Viewers
-uuid: a35dac3c-8785-42bf-8284-e400128f213c
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
