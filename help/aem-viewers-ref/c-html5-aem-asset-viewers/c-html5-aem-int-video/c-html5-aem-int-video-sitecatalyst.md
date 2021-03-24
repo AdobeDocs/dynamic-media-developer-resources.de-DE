@@ -1,16 +1,13 @@
 ---
 description: Der HTML5-Video360-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
-seo-description: Der HTML5-Video360-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
-seo-title: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-uuid: b5ab903b-3365-45e3-9542-c290c6c42670
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
