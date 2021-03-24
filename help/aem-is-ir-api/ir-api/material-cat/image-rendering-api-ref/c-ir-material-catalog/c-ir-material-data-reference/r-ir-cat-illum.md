@@ -1,17 +1,14 @@
 ---
 description: Lichtbildauswahl. Ermöglicht die explizite Auswahl der Beleuchtungskarte, die bei der Wiedergabe dieses Materials verwendet werden soll.
-seo-description: Lichtbildauswahl. Ermöglicht die explizite Auswahl der Beleuchtungskarte, die bei der Wiedergabe dieses Materials verwendet werden soll.
-seo-title: Illum
 solution: Experience Manager
 title: Illum
-uuid: 2df0abbb-0d54-41b7-80c4-b914c18cd1b1
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 3%
+source-wordcount: '92'
+ht-degree: 4%
 
 ---
 
