@@ -1,17 +1,14 @@
 ---
 description: Das Tool zum Weitergeben per E-Mail besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird, sowie dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-description: Das Tool zum Weitergeben per E-Mail besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird, sowie dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-title: Email-Freigabe
 solution: Experience Manager
 title: Email-Freigabe
-uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '3084'
-ht-degree: 1%
+source-wordcount: '3044'
+ht-degree: 2%
 
 ---
 
