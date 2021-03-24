@@ -5,7 +5,7 @@ title: Glanz
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Ganzzahl. Prozentzahl im Bereich 0...100. Optional für alle Materialien. Wird n
 
 ## Standard {#section-2352721073524f1a8d461f64a363aac9}
 
-Ein Standardwert wird von der Vignette bereitgestellt, wenn dieser Wert auf -1 festgelegt ist.
+Ein Standardwert wird von der Vignette bereitgestellt, wenn dieser Wert auf -1 gesetzt ist.
 
 ## Verwandte Themen {#section-0213bbdb7d6d4974a7c53822957717c1}
 
