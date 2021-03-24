@@ -1,16 +1,13 @@
 ---
 description: Verwenden Sie diese Servereinstellungen für den Bildkatalogdienst.
-seo-description: Verwenden Sie diese Servereinstellungen für den Bildkatalogdienst.
-seo-title: Bildkatalogdienst
 solution: Experience Manager
 title: Bildkatalogdienst
-uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
