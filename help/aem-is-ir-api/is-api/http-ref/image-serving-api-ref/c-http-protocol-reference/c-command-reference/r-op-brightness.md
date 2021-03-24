@@ -1,16 +1,13 @@
 ---
 description: Passen Sie die Helligkeit an. Verringert oder erhöht die Bildhelligkeit.
-seo-description: Passen Sie die Helligkeit an. Verringert oder erhöht die Bildhelligkeit.
-seo-title: op_brightness
 solution: Experience Manager
 title: op_brightness
-uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---
