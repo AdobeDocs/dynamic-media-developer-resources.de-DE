@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für den E-Katalog-Viewer.
-seo-description: JavaScript-API-Referenz für den E-Katalog-Viewer.
-seo-title: setParams
 solution: Experience Manager
 title: setParams
-uuid: 8ae0dd87-eae8-4201-b47c-cbd2ffcf6fb2
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '107'
 ht-degree: 1%
 
 ---
