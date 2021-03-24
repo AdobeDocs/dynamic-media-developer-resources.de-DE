@@ -1,16 +1,13 @@
 ---
 description: Konfigurationsattribut für Video Viewer.
-seo-description: Konfigurationsattribut für Video Viewer.
-seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-uuid: abd98898-d7d8-468f-b696-052e61e171b5
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
