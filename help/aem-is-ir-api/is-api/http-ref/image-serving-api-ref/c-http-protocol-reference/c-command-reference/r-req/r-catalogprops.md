@@ -1,17 +1,14 @@
 ---
 description: Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfad angegebenen Bildkatalogs zurück.
-seo-description: Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfad angegebenen Bildkatalogs zurück.
-seo-title: Katalogprops
 solution: Experience Manager
 title: Katalogprops
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +26,7 @@ Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfa
  </tr> 
 </table>
 
-Lassen Sie die Katalog-ID weg, um die standardmäßigen Katalogeigenschaften abzurufen ( [!DNL default.ini]). Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
+Um die Standardkatalogeigenschaften ( [!DNL default.ini]) abzurufen, lassen Sie die Katalog-ID weg. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
 
 Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
