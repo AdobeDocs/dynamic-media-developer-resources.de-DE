@@ -1,16 +1,13 @@
 ---
 description: Der E-Katalog-Viewer unterstützt das Rendering von Imagemap-Symbolen über der Haupt-Ansicht.
-seo-description: Der E-Katalog-Viewer unterstützt das Rendering von Imagemap-Symbolen über der Haupt-Ansicht.
-seo-title: Unterstützung von Imagemaps
 solution: Experience Manager
 title: Unterstützung von Imagemaps
-uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
