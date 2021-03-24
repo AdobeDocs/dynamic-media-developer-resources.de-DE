@@ -1,17 +1,14 @@
 ---
 description: Wird von SystemFieldCondition/field verwendet.
-seo-description: Wird von SystemFieldCondition/field verwendet.
-seo-title: Asset-Suchsystemfelder
 solution: Experience Manager
 title: Asset-Suchsystemfelder
-uuid: 2af88d8a-4f04-4a90-8f60-ff0c32197023
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
