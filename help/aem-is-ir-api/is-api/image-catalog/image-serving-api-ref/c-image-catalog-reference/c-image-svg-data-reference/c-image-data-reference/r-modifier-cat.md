@@ -1,16 +1,13 @@
 ---
 description: Modifikatorzeichenfolge für die Präfix-Anforderung. Keine oder mehr Bildservierungsbefehle, durch "&"getrennt.
-seo-description: Modifikatorzeichenfolge für die Präfix-Anforderung. Keine oder mehr Bildservierungsbefehle, durch "&"getrennt.
-seo-title: Modifikator
 solution: Experience Manager
 title: Modifikator
-uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
