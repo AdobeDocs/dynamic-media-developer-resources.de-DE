@@ -1,16 +1,13 @@
 ---
 description: Das Social Sharing-Tool wird standardmäßig oben rechts angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
-seo-description: Das Social Sharing-Tool wird standardmäßig oben rechts angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
-seo-title: Social Sharing
 solution: Experience Manager
 title: Social Sharing
-uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
