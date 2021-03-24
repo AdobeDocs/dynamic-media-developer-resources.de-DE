@@ -1,16 +1,13 @@
 ---
 description: Alle Viewer-Komponenten unterstützen ARIA-Rollen und -Attribute (Accessible Rich Internet Applications), um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
-seo-description: Alle Viewer-Komponenten unterstützen ARIA-Rollen und -Attribute (Accessible Rich Internet Applications), um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
-seo-title: Unterstützung von Technologien
 solution: Experience Manager
 title: Unterstützung von Technologien
-uuid: 72b414f4-b647-4afa-a409-a8ba90227d3f
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner, Barrierefreiheit
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
