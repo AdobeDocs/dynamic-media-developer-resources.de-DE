@@ -1,16 +1,13 @@
 ---
 description: Attribute der Textebene. Gibt zusätzliche Attribute für Textebenen an, die nicht als RTF-Befehle verfügbar sind.
-seo-description: Attribute der Textebene. Gibt zusätzliche Attribute für Textebenen an, die nicht als RTF-Befehle verfügbar sind.
-seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
