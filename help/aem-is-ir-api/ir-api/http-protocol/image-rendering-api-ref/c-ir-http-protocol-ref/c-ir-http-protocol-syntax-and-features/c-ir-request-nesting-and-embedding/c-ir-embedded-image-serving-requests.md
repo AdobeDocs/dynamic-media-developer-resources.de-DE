@@ -1,16 +1,13 @@
 ---
 description: Eine Image Server-(IS-)Anforderung kann als Materialbild verwendet werden.
-seo-description: Eine Image Server-(IS-)Anforderung kann als Materialbild verwendet werden.
-seo-title: Eingebettete Image-Server-Anforderungen
 solution: Experience Manager
 title: Eingebettete Image-Server-Anforderungen
-uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
