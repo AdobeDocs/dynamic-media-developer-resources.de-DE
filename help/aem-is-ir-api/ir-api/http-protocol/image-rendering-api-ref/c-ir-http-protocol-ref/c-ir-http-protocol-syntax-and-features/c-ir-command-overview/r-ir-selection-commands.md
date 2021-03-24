@@ -1,16 +1,13 @@
 ---
 description: Mit diesen Befehlen werden Vignettengruppen, Objekte, Unterbereiche von Gruppen oder Objekten ausgewählt.
-seo-description: Mit diesen Befehlen werden Vignettengruppen, Objekte, Unterbereiche von Gruppen oder Objekten ausgewählt.
-seo-title: Auswahlbefehle
 solution: Experience Manager
 title: Auswahlbefehle
-uuid: fac4080b-3b7e-46ac-a564-3a7eff80c9eb
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
