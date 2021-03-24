@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Video-Viewer.
-seo-description: JavaScript-API-Referenz für Video-Viewer.
-seo-title: init
 solution: Experience Manager
 title: init
-uuid: 74d660a1-95b3-4009-92f3-228cbe6aedc7
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
