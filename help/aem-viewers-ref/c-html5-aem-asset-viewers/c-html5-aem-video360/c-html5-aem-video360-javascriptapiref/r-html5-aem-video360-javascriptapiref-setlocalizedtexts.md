@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Video360-Viewer.
-seo-description: JavaScript-API-Referenz für Video360-Viewer.
-seo-title: setLocalizedTextes
 solution: Experience Manager
 title: setLocalizedTextes
-uuid: dd9cf899-8855-463b-a142-698fd1a650fe
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '80'
 ht-degree: 2%
 
 ---
