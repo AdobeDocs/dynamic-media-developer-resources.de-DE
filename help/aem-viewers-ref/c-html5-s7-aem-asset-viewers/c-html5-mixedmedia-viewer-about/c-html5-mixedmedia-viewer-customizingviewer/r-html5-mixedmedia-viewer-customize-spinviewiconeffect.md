@@ -1,16 +1,13 @@
 ---
 description: Der Rotationsindikator wird über dem Bereich der Ansicht überlagert. Es wird angezeigt, wenn sich das Bild in einem Reset-Zustand befindet und es hängt auch vom iconeffect-Parameter ab.
-seo-description: Der Rotationsindikator wird über dem Bereich der Ansicht überlagert. Es wird angezeigt, wenn sich das Bild in einem Reset-Zustand befindet und es hängt auch vom iconeffect-Parameter ab.
-seo-title: Effekt "Ansicht drehen"
 solution: Experience Manager
 title: Effekt "Ansicht drehen"
-uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
