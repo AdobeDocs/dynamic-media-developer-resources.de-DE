@@ -1,16 +1,13 @@
 ---
 description: Dieser Abschnitt enthält Anweisungen zum Starten und Beenden des Image-Servers unter Windows und Linux.
-seo-description: Dieser Abschnitt enthält Anweisungen zum Starten und Beenden des Image-Servers unter Windows und Linux.
-seo-title: Image Serving starten und beenden
 solution: Experience Manager
 title: Image Serving starten und beenden
-uuid: 1b9f90a1-5ce4-49ed-b412-32d0c914b333
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
