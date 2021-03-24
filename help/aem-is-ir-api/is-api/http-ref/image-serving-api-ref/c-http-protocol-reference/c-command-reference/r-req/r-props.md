@@ -1,17 +1,14 @@
 ---
 description: Eigenschaften von Antwortdaten. Wertet die aktuelle Anforderung so aus, als wäre es eine Bildanforderung (req=img), gibt der Server jedoch anstelle der Bildausgabe ausgewählte Eigenschaften des Antwortbilds zurück.
-seo-description: Eigenschaften von Antwortdaten. Wertet die aktuelle Anforderung so aus, als wäre es eine Bildanforderung (req=img), gibt der Server jedoch anstelle der Bildausgabe ausgewählte Eigenschaften des Antwortbilds zurück.
-seo-title: props
 solution: Experience Manager
 title: props
-uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 7%
+source-wordcount: '369'
+ht-degree: 8%
 
 ---
 
