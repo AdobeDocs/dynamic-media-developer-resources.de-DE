@@ -1,17 +1,14 @@
 ---
 description: Dateipfad des Profils. Pfad und Name der ICC-Profil-Datei, einschließlich Dateisuffix.
-seo-description: Dateipfad des Profils. Pfad und Name der ICC-Profil-Datei, einschließlich Dateisuffix.
-seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
-uuid: 82fd2cee-ad15-4dd3-8864-9976470fc847
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '63'
+ht-degree: 9%
 
 ---
 
