@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Video-Viewer.
-seo-description: JavaScript-API-Referenz für Video-Viewer.
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: ab078f32-c523-4b6c-a0d6-45dd2af35b36
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
