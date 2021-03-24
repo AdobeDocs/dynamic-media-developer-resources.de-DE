@@ -1,16 +1,13 @@
 ---
 description: Verwenden Sie diese Servereinstellungen für SSL.
-seo-description: Verwenden Sie diese Servereinstellungen für SSL.
-seo-title: SSL
 solution: Experience Manager
 title: SSL
-uuid: dec9bd09-8191-4010-8898-2890ffbe9ca7
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 6%
 
 ---
