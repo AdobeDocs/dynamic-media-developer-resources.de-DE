@@ -1,16 +1,13 @@
 ---
 description: Dokumentation zu Konfigurationsattributen für den Flyout-Viewer
-seo-description: Dokumentation zu Konfigurationsattributen für den Flyout-Viewer
-seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-uuid: d7e89a24-a235-4f20-86d1-25aacd118880
 feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
