@@ -1,17 +1,14 @@
 ---
 description: Hiermit können Sie auf den Begrenzungsrahmen eines eingebetteten benannten Pfads zuschneiden. Diese Beschneidung ändert wiederum die Größe des Bildes.
-seo-description: Hiermit können Sie auf den Begrenzungsrahmen eines eingebetteten benannten Pfads zuschneiden. Diese Beschneidung ändert wiederum die Größe des Bildes.
-seo-title: cutPathE
 solution: Experience Manager
 title: cutPathE
-uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
