@@ -1,17 +1,14 @@
 ---
 description: Stellt eine Firma dar.
-seo-description: Stellt eine Firma dar.
-seo-title: Firma
 solution: Experience Manager
 title: Firma
-uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 27%
+source-wordcount: '39'
+ht-degree: 28%
 
 ---
 
