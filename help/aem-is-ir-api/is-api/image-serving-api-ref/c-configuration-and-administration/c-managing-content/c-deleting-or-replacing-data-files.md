@@ -1,16 +1,13 @@
 ---
 description: Das Hinzufügen neuer Datendateien ist einfach und unkompliziert, aber beim Ersetzen vorhandener Datendateien, die vom Server aktiv verwendet werden, muss besondere Vorsicht geboten werden. Anstatt diese Dateien einfach zu ersetzen, wird empfohlen, der Ersatzdatei einen neuen Namen zu geben (z. B. ein Versionssuffix an den Dateinamen anhängen). Nachdem die neue Datei live geschaltet wurde, kann die alte Version gelöscht werden.
-seo-description: Das Hinzufügen neuer Datendateien ist einfach und unkompliziert, aber beim Ersetzen vorhandener Datendateien, die vom Server aktiv verwendet werden, muss besondere Vorsicht geboten werden. Anstatt diese Dateien einfach zu ersetzen, wird empfohlen, der Ersatzdatei einen neuen Namen zu geben (z. B. ein Versionssuffix an den Dateinamen anhängen). Nachdem die neue Datei live geschaltet wurde, kann die alte Version gelöscht werden.
-seo-title: Löschen oder Ersetzen von Datendateien
 solution: Experience Manager
 title: Löschen oder Ersetzen von Datendateien
-uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
