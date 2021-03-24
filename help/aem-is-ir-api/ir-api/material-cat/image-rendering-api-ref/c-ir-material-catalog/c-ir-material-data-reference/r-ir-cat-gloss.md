@@ -1,17 +1,14 @@
 ---
 description: Oberflächenglanz Gibt die relative Glanz der Materialoberfläche an.
-seo-description: Oberflächenglanz Gibt die relative Glanz der Materialoberfläche an.
-seo-title: Glanz
 solution: Experience Manager
 title: Glanz
-uuid: 7db83f99-15ab-4c43-adfb-07ad0b0c9707
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +29,7 @@ Ganzzahl. Prozentzahl im Bereich 0...100. Optional für alle Materialien. Wird n
 
 ## Standard {#section-2352721073524f1a8d461f64a363aac9}
 
-Ein Standardwert wird von der Vignette bereitgestellt, wenn dieser Wert auf -1 gesetzt ist.
+Ein Standardwert wird von der Vignette bereitgestellt, wenn dieser Wert auf -1 festgelegt ist.
 
 ## Verwandte Themen {#section-0213bbdb7d6d4974a7c53822957717c1}
 
