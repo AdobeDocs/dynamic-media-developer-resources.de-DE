@@ -2,11 +2,10 @@
 description: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-uuid: d5399638-3fc5-4f95-841d-5c6d4d35bda2
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
