@@ -1,16 +1,13 @@
 ---
 description: Anforderungsregelelement. Eine oder mehrere Regeln sind im Element <ruleSet> optional.
-seo-description: Anforderungsregelelement. Eine oder mehrere Regeln sind im Element <ruleSet> optional.
-seo-title: Regel
 solution: Experience Manager
 title: Regel
-uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '305'
 ht-degree: 6%
 
 ---
