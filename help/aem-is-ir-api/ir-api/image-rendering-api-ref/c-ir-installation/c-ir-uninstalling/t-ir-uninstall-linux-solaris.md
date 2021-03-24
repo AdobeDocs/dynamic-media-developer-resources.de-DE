@@ -1,16 +1,13 @@
 ---
 description: Befolgen Sie diese Anweisungen, um das Image Rendering auf einem Linux- oder Solaris-System zu deinstallieren.
-seo-description: Befolgen Sie diese Anweisungen, um das Image Rendering auf einem Linux- oder Solaris-System zu deinstallieren.
-seo-title: Deinstallation unter Linux und Solaris
 solution: Experience Manager
 title: Deinstallation unter Linux und Solaris
-uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
