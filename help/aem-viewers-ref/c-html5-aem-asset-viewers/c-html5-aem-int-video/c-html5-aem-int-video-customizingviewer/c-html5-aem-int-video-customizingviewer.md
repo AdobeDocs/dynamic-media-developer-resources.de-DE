@@ -1,17 +1,14 @@
 ---
 description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den interaktiven Video-Viewer erfolgen durch Erstellung einer benutzerdefinierten CSS.
 keywords: responsive
-seo-description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den interaktiven Video-Viewer erfolgen durch Erstellung einer benutzerdefinierten CSS.
-seo-title: Anpassen des interaktiven Video-Viewers
 solution: Experience Manager
 title: Anpassen des interaktiven Video-Viewers
-uuid: a24e7ada-c874-468b-ac44-a51d581d4479
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
