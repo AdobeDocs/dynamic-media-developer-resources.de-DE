@@ -1,17 +1,14 @@
 ---
 description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den Zoom-Viewer erfolgen durch Erstellung eines benutzerdefinierten CSS.
 keywords: responsive
-seo-description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den Zoom-Viewer erfolgen durch Erstellung eines benutzerdefinierten CSS.
-seo-title: Anpassen des Zoom-Viewers
 solution: Experience Manager
 title: Anpassen des Zoom-Viewers
-uuid: 7ecbc4cc-b5c0-4f4a-b747-03c484de6851
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1333'
 ht-degree: 0%
 
 ---
