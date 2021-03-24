@@ -1,16 +1,13 @@
 ---
 description: Das Twitter-Freigeben-Tool besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird. Wenn auf die Schaltfläche geklickt wird, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-description: Das Twitter-Freigeben-Tool besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird. Wenn auf die Schaltfläche geklickt wird, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
-seo-title: Twitter-Freigabe
 solution: Experience Manager
 title: Twitter-Freigabe
-uuid: 609d3c3f-290d-4c21-b61e-70831bee74ea
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
