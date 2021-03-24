@@ -1,16 +1,13 @@
 ---
 description: Durch die Schaltfläche "Abspielen/Anhalten"wird der Videoinhalt vom Videoplayer abgespielt oder angehalten, wenn der Benutzer darauf klickt.
-seo-description: Durch die Schaltfläche "Abspielen/Anhalten"wird der Videoinhalt vom Videoplayer abgespielt oder angehalten, wenn der Benutzer darauf klickt.
-seo-title: Schaltfläche "Abspielen/Anhalten"
 solution: Experience Manager
 title: Schaltfläche "Abspielen/Anhalten"
-uuid: d6dd795d-f608-4304-8221-251d0a082421
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
