@@ -1,16 +1,13 @@
 ---
 description: Antwortbild-Anpassungsmodus. Gibt an, wie der Skalierungsfaktor berechnet wird, mit dem das Composite-Bild auf das Antwortbild skaliert wird, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
-seo-description: Antwortbild-Anpassungsmodus. Gibt an, wie der Skalierungsfaktor berechnet wird, mit dem das Composite-Bild auf das Antwortbild skaliert wird, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
-seo-title: anpassen
 solution: Experience Manager
 title: anpassen
-uuid: 669fe757-f3a1-4cd4-b46c-6fbe5a039ce0
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
