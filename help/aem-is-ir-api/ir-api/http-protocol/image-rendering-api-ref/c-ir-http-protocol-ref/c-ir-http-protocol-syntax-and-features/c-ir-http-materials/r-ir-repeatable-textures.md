@@ -1,16 +1,13 @@
 ---
 description: Zu den wiederholbaren Texturen gehören Innen- und Außenmaterialien wie Stoffe (sowohl Bekleidung als auch Polstermöbel), Wand-zu-Wand-Bodenbeläge, Tapeten, Deckmaterialien, Korntexturen aus Holz, Dachdeckungs- und Seitenmaterialien sowie alle anderen allgemeinen Texturen.
-seo-description: Zu den wiederholbaren Texturen gehören Innen- und Außenmaterialien wie Stoffe (sowohl Bekleidung als auch Polstermöbel), Wand-zu-Wand-Bodenbeläge, Tapeten, Deckmaterialien, Korntexturen aus Holz, Dachdeckungs- und Seitenmaterialien sowie alle anderen allgemeinen Texturen.
-seo-title: Wiederholbare Texturen
 solution: Experience Manager
 title: Wiederholbare Texturen
-uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
