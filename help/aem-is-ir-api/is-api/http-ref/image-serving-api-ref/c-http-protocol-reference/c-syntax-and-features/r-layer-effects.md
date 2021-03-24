@@ -1,16 +1,13 @@
 ---
 description: Ebenenschatten- und Schein-Effekte im Photoshop-Stil werden mithilfe spezieller Unterebenen (Effektebenen) implementiert, die an jede Ebene (die übergeordnete Ebene), einschließlich layer=0 und layer=comp, angehängt werden können.
-seo-description: Ebenenschatten- und Schein-Effekte im Photoshop-Stil werden mithilfe spezieller Unterebenen (Effektebenen) implementiert, die an jede Ebene (die übergeordnete Ebene), einschließlich layer=0 und layer=comp, angehängt werden können.
-seo-title: Ebeneneffekte
 solution: Experience Manager
 title: Ebeneneffekte
-uuid: 076e98de-cbbb-457b-984a-367a935b4356
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
