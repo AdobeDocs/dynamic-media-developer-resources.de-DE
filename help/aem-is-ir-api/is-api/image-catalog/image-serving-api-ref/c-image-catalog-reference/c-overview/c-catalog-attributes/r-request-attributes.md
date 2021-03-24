@@ -1,16 +1,13 @@
 ---
 description: Katalogattributdateien erkennen diese Anforderungsattribute.
-seo-description: Katalogattributdateien erkennen diese Anforderungsattribute.
-seo-title: Anforderungsattribute
 solution: Experience Manager
 title: Anforderungsattribute
-uuid: 02156b81-9f18-461e-94c1-43b1155c4ab6
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
