@@ -1,17 +1,14 @@
 ---
 description: Löscht einen Eigenschaftensatz und alle zugehörigen Eigenschaften.
-seo-description: Löscht einen Eigenschaftensatz und alle zugehörigen Eigenschaften.
-seo-title: deletePropertySet
 solution: Experience Manager
 title: deletePropertySet
-uuid: b4fdf51f-89ec-4a69-9179-078ee8e1937f
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 11%
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
 
