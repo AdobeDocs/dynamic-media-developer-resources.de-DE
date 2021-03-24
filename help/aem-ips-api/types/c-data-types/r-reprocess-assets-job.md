@@ -1,16 +1,13 @@
 ---
 description: Auftragstyp, um die erneute Verarbeitung bereits hochgeladener Primärdateien zu ermöglichen, einschließlich der Wiedergabe von PDFs und der Neuoptimierung von Bildern.
-seo-description: Auftragstyp, um die erneute Verarbeitung bereits hochgeladener Primärdateien zu ermöglichen, einschließlich der Wiedergabe von PDFs und der Neuoptimierung von Bildern.
-seo-title: ReprocessAssetsJob
 solution: Experience Manager
 title: ReprocessAssetsJob
-uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '474'
 ht-degree: 2%
 
 ---
