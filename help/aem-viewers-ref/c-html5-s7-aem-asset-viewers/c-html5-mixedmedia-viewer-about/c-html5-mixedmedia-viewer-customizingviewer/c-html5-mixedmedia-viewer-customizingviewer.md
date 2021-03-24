@@ -1,17 +1,14 @@
 ---
 description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den gemischten MedienViewer erfolgen durch Erstellung einer benutzerdefinierten CSS.
 keywords: responsive
-seo-description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen für den gemischten MedienViewer erfolgen durch Erstellung einer benutzerdefinierten CSS.
-seo-title: Anpassen des gemischten Medien-Viewers
 solution: Experience Manager
 title: Anpassen des gemischten Medien-Viewers
-uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
