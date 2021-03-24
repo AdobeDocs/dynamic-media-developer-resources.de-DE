@@ -1,16 +1,13 @@
 ---
 description: Rechteck der endgültigen Ansicht. Ermöglicht das Zerlegen der endgültigen Ansicht in mehrere Bänder oder Kacheln, die vom Kunden nahtlos und ohne Artefakte an den Rändern geliefert und wiederaufgebaut werden können.
-seo-description: Rechteck der endgültigen Ansicht. Ermöglicht das Zerlegen der endgültigen Ansicht in mehrere Bänder oder Kacheln, die vom Kunden nahtlos und ohne Artefakte an den Rändern geliefert und wiederaufgebaut werden können.
-seo-title: rect
 solution: Experience Manager
 title: rect
-uuid: c4830fc5-d102-4789-8753-0a660d4a557e
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
