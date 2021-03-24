@@ -1,17 +1,14 @@
 ---
 description: Webdomänen für Flash-Anwendungen. Adobe Flash-Anwendungen benötigen unter Umständen Zugriff auf die Eigenschaften von Bildern, die im SWF-Format bereitgestellt werden. Die SWF muss explizit Zugriff gewähren, indem sie den Namen der Anwendungsdomäne(n) registriert, denen sie vertraut.
-seo-description: Webdomänen für Flash-Anwendungen. Adobe Flash-Anwendungen benötigen unter Umständen Zugriff auf die Eigenschaften von Bildern, die im SWF-Format bereitgestellt werden. Die SWF muss explizit Zugriff gewähren, indem sie den Namen der Anwendungsdomäne(n) registriert, denen sie vertraut.
-seo-title: TrustedDomains *
 solution: Experience Manager
 title: TrustedDomains *
-uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
