@@ -1,17 +1,14 @@
 ---
 description: Quelldatenstammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die in diesem Bildkatalog verwiesen wird.
-seo-description: Quelldatenstammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die in diesem Bildkatalog verwiesen wird.
-seo-title: RootPath *
 solution: Experience Manager
 title: RootPath *
-uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
