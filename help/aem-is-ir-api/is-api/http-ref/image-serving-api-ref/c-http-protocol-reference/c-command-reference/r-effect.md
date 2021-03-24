@@ -1,16 +1,13 @@
 ---
 description: Wählen Sie Effektebene. Wählt eine Effektebene aus und Beginn ein neues Ebenensegment in der Anforderungszeichenfolge, das mit der aktuellen Ebene verknüpft ist.
-seo-description: Wählen Sie Effektebene. Wählt eine Effektebene aus und Beginn ein neues Ebenensegment in der Anforderungszeichenfolge, das mit der aktuellen Ebene verknüpft ist.
-seo-title: effect
 solution: Experience Manager
 title: effect
-uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
