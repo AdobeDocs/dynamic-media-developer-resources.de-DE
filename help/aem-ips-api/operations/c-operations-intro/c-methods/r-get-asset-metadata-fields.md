@@ -1,17 +1,14 @@
 ---
 description: Gibt alle Metadatenfelder zurück, gruppiert nach Asset-Typ.
-seo-description: Gibt alle Metadatenfelder zurück, gruppiert nach Asset-Typ.
-seo-title: getAssetMetadataFields
 solution: Experience Manager
 title: getAssetMetadataFields
-uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 feature: Dynamic Media Classic, SDK/API, Metadaten, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 18%
+source-wordcount: '73'
+ht-degree: 20%
 
 ---
 
