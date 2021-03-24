@@ -1,16 +1,13 @@
 ---
 description: Der interaktive Video-Viewer unterstützt das Rendern interaktiver Muster auf der Grundlage interaktiver Daten, die als Konfigurationsparameter an den Viewer übergeben werden.
-seo-description: Der interaktive Video-Viewer unterstützt das Rendern interaktiver Muster auf der Grundlage interaktiver Daten, die als Konfigurationsparameter an den Viewer übergeben werden.
-seo-title: Interaktive Datenunterstützung
 solution: Experience Manager
 title: Interaktive Datenunterstützung
-uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
