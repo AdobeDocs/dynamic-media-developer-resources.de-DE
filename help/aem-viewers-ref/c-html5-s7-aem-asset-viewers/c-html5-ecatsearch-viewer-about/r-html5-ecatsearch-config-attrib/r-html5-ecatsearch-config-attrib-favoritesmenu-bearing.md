@@ -1,17 +1,14 @@
 ---
 description: Gibt die Richtung der Diashow-Animation für den Schaltflächen-Container an.
-seo-description: Gibt die Richtung der Diashow-Animation für den Schaltflächen-Container an.
-seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-uuid: c3f415ad-f976-464a-9067-a5d526908352
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
