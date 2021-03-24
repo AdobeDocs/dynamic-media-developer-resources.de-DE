@@ -1,16 +1,13 @@
 ---
 description: Obwohl Bild- und SVG-Daten sehr ähnlich sind, werden sie in separaten Tabellen im Bildkatalog gespeichert.
-seo-description: Obwohl Bild- und SVG-Daten sehr ähnlich sind, werden sie in separaten Tabellen im Bildkatalog gespeichert.
-seo-title: Bild-/SVG-Datenverweis
 solution: Experience Manager
 title: Bild-/SVG-Datenverweis
-uuid: 80e41e58-f20e-45fb-b180-28b2c4b30808
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
