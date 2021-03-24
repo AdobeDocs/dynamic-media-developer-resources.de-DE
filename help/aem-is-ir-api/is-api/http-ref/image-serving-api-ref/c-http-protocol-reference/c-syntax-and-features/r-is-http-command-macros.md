@@ -1,16 +1,13 @@
 ---
 description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit. Makros sind in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
-seo-description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit. Makros sind in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
-seo-title: Befehlsmakros
 solution: Experience Manager
 title: Befehlsmakros
-uuid: a6ff5642-6716-484f-b37e-066994362a9b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
