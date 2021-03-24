@@ -1,17 +1,14 @@
 ---
 description: Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern angegeben ist. Mit diesem Vorgang können Sie zurückgegebene Benutzer sortieren und nach Zeichen filtern.
-seo-description: Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern angegeben ist. Mit diesem Vorgang können Sie zurückgegebene Benutzer sortieren und nach Zeichen filtern.
-seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 9%
+source-wordcount: '216'
+ht-degree: 10%
 
 ---
 
