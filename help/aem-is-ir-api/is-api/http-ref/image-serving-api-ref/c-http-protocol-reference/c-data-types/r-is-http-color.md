@@ -1,16 +1,13 @@
 ---
 description: Farbwerte. Sie können Farbwerte entweder mit hexadezimaler Notation, einer kommagetrennten Liste von Komponentenwerten oder mit Dezimalstellen angeben.
-seo-description: Farbwerte. Sie können Farbwerte entweder mit hexadezimaler Notation, einer kommagetrennten Liste von Komponentenwerten oder mit Dezimalstellen angeben.
-seo-title: Farbe
 solution: Experience Manager
 title: Farbe
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -39,7 +36,7 @@ Farbwerte. Sie können Farbwerte entweder mit hexadezimaler Notation, einer komm
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>gepackter zweistelliger hexadezimaler Farbwert (GG) </p></td> 
+  <td class="stentry"> <p>gepackter zweistelliger hexadezimaler Graufarbwert (GG) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
@@ -47,15 +44,15 @@ Farbwerte. Sie können Farbwerte entweder mit hexadezimaler Notation, einer komm
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>Sechstelliger hexadezimaler RGB-Farbwert (RRGGBB) </p></td> 
+  <td class="stentry"> <p>gepackter sechsstelliger hexadezimaler RGB-Farbwert (RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>8-stelliger hexadezimaler RGBA- (RRGGBBAA) oder CMYK- (CCMMYKK-) Farbwert (falls mit dem Suffix 'k' angegeben) </p></td> 
+  <td class="stentry"> <p>abgepackter achtstelliger hexadezimaler RGBA- (RRGGBBAA) oder CMYK- (CCMMYKK-) Farbwert (falls mit dem Suffix 'k' angegeben) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>Zehn-stellige hexadezimale CMYK mit Alphawert (CCYMMKAA) </p> </td> 
+  <td class="stentry"> <p>abgepacktes zehnstelliges hexadezimales CMYK mit Alphawert (CCYMMKAA) </p> </td> 
  </tr> 
 </table>
 
