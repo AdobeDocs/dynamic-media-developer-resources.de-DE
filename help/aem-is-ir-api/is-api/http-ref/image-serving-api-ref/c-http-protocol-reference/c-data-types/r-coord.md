@@ -1,16 +1,13 @@
 ---
 description: Pixel-Koordinaten. Dient zum Festlegen von Bildkoordinaten, z. B. Bildversatzwerten oder Schnittparametern, in Form eines Pixelversatzes relativ zur oberen linken Ecke eines Bilds oder eines Ebenenrechtecks.
-seo-description: Pixel-Koordinaten. Dient zum Festlegen von Bildkoordinaten, z. B. Bildversatzwerten oder Schnittparametern, in Form eines Pixelversatzes relativ zur oberen linken Ecke eines Bilds oder eines Ebenenrechtecks.
-seo-title: Kohle
 solution: Experience Manager
 title: Kohle
-uuid: dd49f12b-5a87-4157-9e44-4beb66f83770
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
