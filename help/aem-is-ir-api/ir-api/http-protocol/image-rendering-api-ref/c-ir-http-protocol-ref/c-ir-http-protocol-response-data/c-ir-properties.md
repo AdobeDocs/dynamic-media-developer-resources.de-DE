@@ -1,16 +1,13 @@
 ---
 description: Eigenschaftsdaten werden als Antwort auf die folgenden req=-Typen imageprops und props zurückgegeben.
-seo-description: Eigenschaftsdaten werden als Antwort auf die folgenden req=-Typen imageprops und props zurückgegeben.
-seo-title: Eigenschaften
 solution: Experience Manager
 title: Eigenschaften
-uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '107'
 ht-degree: 4%
 
 ---
