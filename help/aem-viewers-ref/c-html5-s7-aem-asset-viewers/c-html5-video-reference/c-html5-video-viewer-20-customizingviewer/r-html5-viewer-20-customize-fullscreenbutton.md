@@ -1,16 +1,13 @@
 ---
 description: Durch Klicken auf die Schaltfläche im Vollbildmodus gelangt der Videoplayer in den Vollbildmodus oder beendet ihn.
-seo-description: Durch Klicken auf die Schaltfläche im Vollbildmodus gelangt der Videoplayer in den Vollbildmodus oder beendet ihn.
-seo-title: Schaltfläche "Vollbild"
 solution: Experience Manager
 title: Schaltfläche "Vollbild"
-uuid: c6b90158-8658-49f1-86c3-c3dd00fe9070
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '260'
 ht-degree: 2%
 
 ---
