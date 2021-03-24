@@ -1,17 +1,14 @@
 ---
 description: Pixelgröße. Dient zum Festlegen von Bildgrößen oder Rechteckgrößen in Pixel.
-seo-description: Pixelgröße. Dient zum Festlegen von Bildgrößen oder Rechteckgrößen in Pixel.
-seo-title: Größe
 solution: Experience Manager
 title: Größe
-uuid: 765700ae-aeb2-435c-89ab-61d7007a1b8a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 4%
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
