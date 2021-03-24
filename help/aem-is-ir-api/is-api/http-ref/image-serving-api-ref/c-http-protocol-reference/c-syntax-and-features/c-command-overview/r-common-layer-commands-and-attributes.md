@@ -1,17 +1,14 @@
 ---
 description: Diese Befehle gelten für Bild-, Text- und Vollfarbebenen. Die meisten sind für das Composite-Bild und für einfache Anforderungen ohne Ebenen nicht aussagekräftig. Sie gelten nicht für Effektebenen.
-seo-description: Diese Befehle gelten für Bild-, Text- und Vollfarbebenen. Die meisten sind für das Composite-Bild und für einfache Anforderungen ohne Ebenen nicht aussagekräftig. Sie gelten nicht für Effektebenen.
-seo-title: Allgemeine Ebenenbefehle
 solution: Experience Manager
 title: Allgemeine Ebenenbefehle
-uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '144'
+ht-degree: 3%
 
 ---
 
