@@ -1,17 +1,14 @@
 ---
 description: Passen Sie die Sättigung an. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des Composite-Bildes.
-seo-description: Passen Sie die Sättigung an. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des Composite-Bildes.
-seo-title: op_Saturation
 solution: Experience Manager
 title: op_Saturation
-uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
