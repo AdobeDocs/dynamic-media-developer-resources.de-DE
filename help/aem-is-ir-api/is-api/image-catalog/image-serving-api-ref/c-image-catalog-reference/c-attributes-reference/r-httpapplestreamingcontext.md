@@ -1,17 +1,14 @@
 ---
 description: Apple Streaming Server-URL-Präfix. Das Apple Streaming Server-URL-Präfix, das beim Generieren von m3u8-Antworten mit mehreren Bitraten mit req=mbrSet verwendet wird.
-seo-description: Apple Streaming Server-URL-Präfix. Das Apple Streaming Server-URL-Präfix, das beim Generieren von m3u8-Antworten mit mehreren Bitraten mit req=mbrSet verwendet wird.
-seo-title: HttpAppleStreamingContext
 solution: Experience Manager
 title: HttpAppleStreamingContext
-uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
