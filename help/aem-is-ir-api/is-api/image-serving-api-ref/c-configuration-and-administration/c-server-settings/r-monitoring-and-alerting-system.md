@@ -1,16 +1,13 @@
 ---
 description: Verwenden Sie diese Servereinstellungen, um das Überwachungs- und Warnsystem zu konfigurieren.
-seo-description: Verwenden Sie diese Servereinstellungen, um das Überwachungs- und Warnsystem zu konfigurieren.
-seo-title: Überwachungs- und Warnsystem
 solution: Experience Manager
 title: Überwachungs- und Warnsystem
-uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
