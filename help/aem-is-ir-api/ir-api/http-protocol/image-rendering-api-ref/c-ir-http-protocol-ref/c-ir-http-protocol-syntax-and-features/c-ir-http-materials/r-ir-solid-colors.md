@@ -1,17 +1,14 @@
 ---
 description: Diese Kategorie umfasst Farben für Wände, Holz und Trimm, Automobil sowie alle anderen Anwendungen, bei denen Texturen nicht erforderlich sind.
-seo-description: Diese Kategorie umfasst Farben für Wände, Holz und Trimm, Automobil sowie alle anderen Anwendungen, bei denen Texturen nicht erforderlich sind.
-seo-title: Feste Farben
 solution: Experience Manager
 title: Feste Farben
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
