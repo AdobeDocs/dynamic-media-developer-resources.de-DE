@@ -1,17 +1,14 @@
 ---
 description: Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zurück, um zu erzwingen, dass das Asset im nächsten Veröffentlichungsauftrag erneut veröffentlicht wird.
-seo-description: Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zurück, um zu erzwingen, dass das Asset im nächsten Veröffentlichungsauftrag erneut veröffentlicht wird.
-seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
-uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 7%
+source-wordcount: '169'
+ht-degree: 8%
 
 ---
 
