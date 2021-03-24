@@ -1,17 +1,14 @@
 ---
 description: Durch Klicken auf die Schaltfläche im Vollbildmodus wird der Viewer in den Vollbildmodus versetzt oder beendet. Es wird verwendet, wenn der Viewer Videos anzeigt und sich in der Steuerungsleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt.
-seo-description: Durch Klicken auf die Schaltfläche im Vollbildmodus wird der Viewer in den Vollbildmodus versetzt oder beendet. Es wird verwendet, wenn der Viewer Videos anzeigt und sich in der Steuerungsleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt.
-seo-title: Schaltfläche "Video im Vollbildmodus"
 solution: Experience Manager
 title: Schaltfläche "Video im Vollbildmodus"
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 2%
 
 ---
 
