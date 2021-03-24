@@ -1,16 +1,13 @@
 ---
 description: Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben und dem Hauptbereich, in dem Informationsmeldungen oder Suchergebnisse angezeigt werden.
-seo-description: Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben und dem Hauptbereich, in dem Informationsmeldungen oder Suchergebnisse angezeigt werden.
-seo-title: Suchergebnisbereich
 solution: Experience Manager
 title: Suchergebnisbereich
-uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -77,7 +74,7 @@ Beispiel: Um ein Suchergebnisbedienfeld mit einer Breite von 250 Pixel an große
 }
 ```
 
-Oben im Suchergebnisbedienfeld befindet sich das Sucheingabefeld. Die Auffüllung an den Seiten des Eingabefelds wird durch den folgenden CSS-Klassenselektor gesteuert:
+Der obere Bereich des Suchergebnisbedienfelds ist dem Sucheingabefeld gewidmet. Die Auffüllung an den Seiten des Eingabefelds wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
