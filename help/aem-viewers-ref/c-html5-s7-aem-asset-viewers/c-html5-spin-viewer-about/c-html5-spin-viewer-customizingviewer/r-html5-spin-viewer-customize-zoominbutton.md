@@ -1,16 +1,13 @@
 ---
 description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Ansicht vergrößert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Ansicht vergrößert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-title: Schaltfläche "Vergrößern"
 solution: Experience Manager
 title: Schaltfläche "Vergrößern"
-uuid: 86e5806b-a711-440c-95b6-a35420667182
 feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
