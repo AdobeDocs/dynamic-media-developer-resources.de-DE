@@ -1,16 +1,13 @@
 ---
 description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Ansicht verkleinert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Ansicht verkleinert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-title: Schaltfläche "Verkleinern"
 solution: Experience Manager
 title: Schaltfläche "Verkleinern"
-uuid: edc46e24-d3d9-4d1e-8676-ec441936458d
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
