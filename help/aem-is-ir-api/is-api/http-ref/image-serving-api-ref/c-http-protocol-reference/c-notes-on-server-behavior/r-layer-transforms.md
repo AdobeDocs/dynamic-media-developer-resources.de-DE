@@ -1,16 +1,13 @@
 ---
 description: Transformationen werden auf Quellbilder und Textebenen angewendet.
-seo-description: Transformationen werden auf Quellbilder und Textebenen angewendet.
-seo-title: Ebenentransformationen
 solution: Experience Manager
 title: Ebenentransformationen
-uuid: b32b5af4-66ad-474a-9bca-4b6da8f43bf9
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
