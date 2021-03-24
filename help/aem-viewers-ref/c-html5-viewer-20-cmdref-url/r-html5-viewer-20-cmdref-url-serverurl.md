@@ -1,16 +1,13 @@
 ---
 description: Parameter, die allen Viewern gemein sind.
-seo-description: Parameter, die allen Viewern gemein sind.
-seo-title: serverUrl
 solution: Experience Manager
 title: serverUrl
-uuid: a079a223-7478-4b6a-bc99-284e3366fb30
 feature: Dynamic Media Classic,Viewer,SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
