@@ -1,16 +1,13 @@
 ---
 description: Bilddaten werden zurückgegeben, wenn eine Anforderung erfolgreich abgeschlossen wurde und die Anforderung entweder keinen req=-Befehl enthält oder wenn req= einen der folgenden Werte img enthält, debug
-seo-description: Bilddaten werden zurückgegeben, wenn eine Anforderung erfolgreich abgeschlossen wurde und die Anforderung entweder keinen req=-Befehl enthält oder wenn req= einen der folgenden Werte img enthält, debug
-seo-title: Bilder
 solution: Experience Manager
 title: Bilder
-uuid: 8e8c5ec9-dc15-4894-b6a1-8e5241f03977
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
