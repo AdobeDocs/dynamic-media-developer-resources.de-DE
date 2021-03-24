@@ -1,17 +1,14 @@
 ---
 description: Gibt Koordinaten für die quadrilaterale Darstellung des benannten Photoshop-Pfads zurück.
-seo-description: Gibt Koordinaten für die quadrilaterale Darstellung des benannten Photoshop-Pfads zurück.
-seo-title: getFotoshopPath
 solution: Experience Manager
 title: getFotoshopPath
-uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 16%
+source-wordcount: '93'
+ht-degree: 18%
 
 ---
 
