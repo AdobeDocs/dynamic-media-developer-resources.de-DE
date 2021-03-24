@@ -1,16 +1,13 @@
 ---
 description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, kehrt ein Benutzer zur vorherigen Folie im Karussellsatz zurück. Diese Schaltfläche wird auf Touch-Geräten nicht angezeigt. Sie können diese Schaltfläche mit CSS skalieren, per Skin positionieren.
-seo-description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, kehrt ein Benutzer zur vorherigen Folie im Karussellsatz zurück. Diese Schaltfläche wird auf Touch-Geräten nicht angezeigt. Sie können diese Schaltfläche mit CSS skalieren, per Skin positionieren.
-seo-title: Vorherige Folie
 solution: Experience Manager
 title: Vorherige Folie
-uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
