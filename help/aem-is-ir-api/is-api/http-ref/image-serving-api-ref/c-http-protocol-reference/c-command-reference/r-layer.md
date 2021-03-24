@@ -1,16 +1,13 @@
 ---
 description: Wählen Sie Ebene. Wählt eine Ebene aus und Beginn ein neues Ebenendefinitionssegment in der Befehlssequenz.
-seo-description: Wählen Sie Ebene. Wählt eine Ebene aus und Beginn ein neues Ebenendefinitionssegment in der Befehlssequenz.
-seo-title: layer
 solution: Experience Manager
 title: layer
-uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
