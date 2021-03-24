@@ -1,16 +1,13 @@
 ---
 description: Über die Schaltfläche "Abspielen/Anhalten"kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
-seo-description: Über die Schaltfläche "Abspielen/Anhalten"kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
-seo-title: PlayPause-Schaltfläche
 solution: Experience Manager
 title: PlayPause-Schaltfläche
-uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
