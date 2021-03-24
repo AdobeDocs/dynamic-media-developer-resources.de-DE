@@ -1,16 +1,13 @@
 ---
 description: Konfigurationsattribut für Video Viewer.
-seo-description: Konfigurationsattribut für Video Viewer.
-seo-title: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-uuid: 211e0107-b6d1-43d6-b79d-34ed54383f80
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
