@@ -1,16 +1,13 @@
 ---
 description: Seite abrufen. Ruft eine bestimmte Seite in einem mehrseitigen FXG ab.
-seo-description: Seite abrufen. Ruft eine bestimmte Seite in einem mehrseitigen FXG ab.
-seo-title: Seite
 solution: Experience Manager
 title: Seite
-uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '57'
 ht-degree: 5%
 
 ---
