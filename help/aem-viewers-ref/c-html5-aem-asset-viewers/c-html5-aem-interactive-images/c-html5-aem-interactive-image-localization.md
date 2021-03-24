@@ -1,15 +1,12 @@
 ---
 description: Bestimmte Inhalte, die im interaktiven Bild-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören QuickInfos zu Elementen in der Benutzeroberfläche und eine Informationsmeldung, die von der Flyout-Zoom-Ansicht beim Laden angezeigt wird.
-seo-description: Bestimmte Inhalte, die im interaktiven Bild-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören QuickInfos zu Elementen in der Benutzeroberfläche und eine Informationsmeldung, die von der Flyout-Zoom-Ansicht beim Laden angezeigt wird.
-seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 title: lokale Anpassung der Elemente der Benutzeroberfläche
-uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
