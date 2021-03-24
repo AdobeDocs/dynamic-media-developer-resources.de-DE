@@ -1,16 +1,13 @@
 ---
 description: Auftragstyp, um den autorisierten Export bereits hochgeladener Dateien zu ermöglichen.
-seo-description: Auftragstyp, um den autorisierten Export bereits hochgeladener Dateien zu ermöglichen.
-seo-title: ExportJob
 solution: Experience Manager
 title: ExportJob
-uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '213'
 ht-degree: 10%
 
 ---
