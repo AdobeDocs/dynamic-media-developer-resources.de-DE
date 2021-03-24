@@ -1,16 +1,13 @@
 ---
 description: Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
-seo-description: Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
-seo-title: Anmerkungen zur Kompatibilität
 solution: Experience Manager
 title: Anmerkungen zur Kompatibilität
-uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 feature: Dynamic Media Classic,Viewer,SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
