@@ -1,16 +1,13 @@
 ---
 description: Der Video-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
-seo-description: Der Video-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
-seo-title: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
