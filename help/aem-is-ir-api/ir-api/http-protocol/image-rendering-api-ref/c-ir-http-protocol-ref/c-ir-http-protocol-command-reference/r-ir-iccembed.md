@@ -1,17 +1,14 @@
 ---
 description: ICC-Profil einbetten. Gibt an, ob das funktionierende ICC-Profil oder das mit icc= angegebene Profil in das Antwortbild eingebettet werden soll.
-seo-description: ICC-Profil einbetten. Gibt an, ob das funktionierende ICC-Profil oder das mit icc= angegebene Profil in das Antwortbild eingebettet werden soll.
-seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-uuid: a53580f4-86bc-4dbf-87ee-8829091b6381
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
