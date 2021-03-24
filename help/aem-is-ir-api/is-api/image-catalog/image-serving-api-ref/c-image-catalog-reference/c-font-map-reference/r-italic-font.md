@@ -1,17 +1,14 @@
 ---
 description: Italienische Flagge.
-seo-description: Italienische Flagge.
-seo-title: Kursiv
 solution: Experience Manager
 title: Kursiv
-uuid: 4a484a3f-18b9-4fa7-bcbb-2dee947e9c2a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 12%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
