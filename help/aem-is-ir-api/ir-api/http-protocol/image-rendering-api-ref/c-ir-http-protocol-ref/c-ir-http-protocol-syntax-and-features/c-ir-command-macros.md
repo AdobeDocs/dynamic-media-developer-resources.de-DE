@@ -1,16 +1,13 @@
 ---
 description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit.
-seo-description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit.
-seo-title: Befehlsmakros *
 solution: Experience Manager
 title: Befehlsmakros *
-uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
