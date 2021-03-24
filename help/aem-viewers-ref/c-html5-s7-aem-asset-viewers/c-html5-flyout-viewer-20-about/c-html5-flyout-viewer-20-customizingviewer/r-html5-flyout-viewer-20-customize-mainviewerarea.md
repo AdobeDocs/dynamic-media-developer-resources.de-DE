@@ -1,16 +1,13 @@
 ---
 description: Der Hauptbereich der Ansicht ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt wird.
-seo-description: Der Hauptbereich der Ansicht ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt wird.
-seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
 feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '102'
 ht-degree: 2%
 
 ---
