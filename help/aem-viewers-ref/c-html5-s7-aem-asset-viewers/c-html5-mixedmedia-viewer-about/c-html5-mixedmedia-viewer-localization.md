@@ -1,16 +1,13 @@
 ---
 description: Bestimmte Inhalte, die vom gemischten MedienViewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören Zoomschaltflächen, Rotationsschaltflächen, Video-Steuerelemente, Schaltfläche "Schließen"im Vollbildmodus und Bildlaufschaltflächen.
-seo-description: Bestimmte Inhalte, die vom gemischten MedienViewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören Zoomschaltflächen, Rotationsschaltflächen, Video-Steuerelemente, Schaltfläche "Schließen"im Vollbildmodus und Bildlaufschaltflächen.
-seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 solution: Experience Manager
 title: lokale Anpassung der Elemente der Benutzeroberfläche
-uuid: 4da776f4-e370-444b-b31c-6b032483861d
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
