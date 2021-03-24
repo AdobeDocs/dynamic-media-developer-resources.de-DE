@@ -1,16 +1,13 @@
 ---
 description: Beim Definieren eines Makros geben Sie den Namen und die Definition an.
-seo-description: Beim Definieren eines Makros geben Sie den Namen und die Definition an.
-seo-title: Referenz zur Makrodefinition
 solution: Experience Manager
 title: Referenz zur Makrodefinition
-uuid: 3c3d3e13-a7cb-4f12-9de5-2c0788d847f7
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
