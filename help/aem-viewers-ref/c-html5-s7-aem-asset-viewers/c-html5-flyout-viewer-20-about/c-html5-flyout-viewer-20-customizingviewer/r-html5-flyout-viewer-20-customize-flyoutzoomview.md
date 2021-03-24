@@ -1,17 +1,14 @@
 ---
 description: Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild in der Flyout-Ansicht, dem markierten Navigationsbereich über dem statischen Bild und der Tipp-Meldung, die auf dem statischen Ansicht angezeigt wird.
-seo-description: Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild in der Flyout-Ansicht, dem markierten Navigationsbereich über dem statischen Bild und der Tipp-Meldung, die auf dem statischen Ansicht angezeigt wird.
-seo-title: Flyout-Zoom-Ansicht
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 2%
+source-wordcount: '631'
+ht-degree: 3%
 
 ---
 
