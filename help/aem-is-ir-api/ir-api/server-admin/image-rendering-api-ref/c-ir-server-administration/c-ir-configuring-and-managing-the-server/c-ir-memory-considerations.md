@@ -1,16 +1,13 @@
 ---
 description: Der beim Image Rendering verwendete Arbeitsspeicher kann stark variieren und hängt stark von der tatsächlichen Serverlast und -nutzung ab (z. B. wenige bzw. viele verschiedene Vignetten, Größe und Komplexität der Vignetten usw.).
-seo-description: Der beim Image Rendering verwendete Arbeitsspeicher kann stark variieren und hängt stark von der tatsächlichen Serverlast und -nutzung ab (z. B. wenige bzw. viele verschiedene Vignetten, Größe und Komplexität der Vignetten usw.).
-seo-title: Überlegungen zum Speicher
 solution: Experience Manager
 title: Überlegungen zum Speicher
-uuid: 21247081-ff27-4237-93da-5fc996417dfd
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
