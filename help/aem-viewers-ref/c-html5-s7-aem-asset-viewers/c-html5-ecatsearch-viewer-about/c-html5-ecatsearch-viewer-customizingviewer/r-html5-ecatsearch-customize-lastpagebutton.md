@@ -1,16 +1,13 @@
 ---
 description: Durch Klicken oder Tippen auf diese Schaltfläche gelangt der Benutzer zur letzten Seite des Katalogs. Diese Schaltfläche wird in der Hauptsteuerungsleiste auf Desktop-Systemen und Tablets angezeigt. auf Mobiltelefonen wird sie einer sekundären Steuerleiste hinzugefügt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-description: Durch Klicken oder Tippen auf diese Schaltfläche gelangt der Benutzer zur letzten Seite des Katalogs. Diese Schaltfläche wird in der Hauptsteuerungsleiste auf Desktop-Systemen und Tablets angezeigt. auf Mobiltelefonen wird sie einer sekundären Steuerleiste hinzugefügt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-title: Schaltfläche "Letzte Seite"
 solution: Experience Manager
 title: Schaltfläche "Letzte Seite"
-uuid: 4cdcd2b7-a6d3-48c0-ba65-5339d232a954
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
