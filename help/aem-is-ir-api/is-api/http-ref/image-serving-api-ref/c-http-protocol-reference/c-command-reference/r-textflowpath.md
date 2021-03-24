@@ -1,17 +1,14 @@
 ---
 description: Textflussbereich. Gibt einen oder mehrere Regionen an, in die der mit textPs= angegebene Text fließen soll.
-seo-description: Textflussbereich. Gibt einen oder mehrere Regionen an, in die der mit textPs= angegebene Text fließen soll.
-seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 5%
 
 ---
 
