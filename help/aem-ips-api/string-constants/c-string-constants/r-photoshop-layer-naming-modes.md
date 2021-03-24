@@ -1,17 +1,14 @@
 ---
 description: Wird von FotoshopOptions/layerNaming verwendet.
-seo-description: Wird von FotoshopOptions/layerNaming verwendet.
-seo-title: Photoshop-Ebenenbenennungsmodi
 solution: Experience Manager
 title: Photoshop-Ebenenbenennungsmodi
-uuid: bade8ee9-766f-4c03-88d4-4d54faecd40e
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 6%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
