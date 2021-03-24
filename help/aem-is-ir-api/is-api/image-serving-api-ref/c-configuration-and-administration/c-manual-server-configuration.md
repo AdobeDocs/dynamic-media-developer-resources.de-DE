@@ -1,16 +1,13 @@
 ---
 description: Viele Aspekte von Image Serving und Image Rendering können manuell konfiguriert werden, indem die entsprechenden Konfigurationsdateien bearbeitet werden.
-seo-description: Viele Aspekte von Image Serving und Image Rendering können manuell konfiguriert werden, indem die entsprechenden Konfigurationsdateien bearbeitet werden.
-seo-title: Serverkonfiguration
 solution: Experience Manager
 title: Serverkonfiguration
-uuid: ee6346df-24cc-43be-ba79-c1cba2f237e3
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
