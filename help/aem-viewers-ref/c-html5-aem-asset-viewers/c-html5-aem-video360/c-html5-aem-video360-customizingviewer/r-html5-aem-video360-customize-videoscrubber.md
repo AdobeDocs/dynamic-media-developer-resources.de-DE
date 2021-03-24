@@ -1,17 +1,14 @@
 ---
 description: Der Video-Scrubber ist der horizontale Regler, mit dem ein Benutzer dynamisch nach einer beliebigen Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
-seo-description: Der Video-Scrubber ist der horizontale Regler, mit dem ein Benutzer dynamisch nach einer beliebigen Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
-seo-title: Video-Scrubber
 solution: Experience Manager
 title: Video-Scrubber
-uuid: c68d3693-3772-470a-893a-b701ddec3414
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
