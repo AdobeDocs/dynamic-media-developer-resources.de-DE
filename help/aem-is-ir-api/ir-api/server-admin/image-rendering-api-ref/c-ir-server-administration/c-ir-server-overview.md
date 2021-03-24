@@ -1,16 +1,13 @@
 ---
 description: In dieser Dokumentation wird beschrieben, wie Sie den Dynamic Media Image Rendering-Server verwalten.
-seo-description: In dieser Dokumentation wird beschrieben, wie Sie den Dynamic Media Image Rendering-Server verwalten.
-seo-title: Übersicht zur Serververwaltung
 solution: Experience Manager
 title: Übersicht zur Serververwaltung
-uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
