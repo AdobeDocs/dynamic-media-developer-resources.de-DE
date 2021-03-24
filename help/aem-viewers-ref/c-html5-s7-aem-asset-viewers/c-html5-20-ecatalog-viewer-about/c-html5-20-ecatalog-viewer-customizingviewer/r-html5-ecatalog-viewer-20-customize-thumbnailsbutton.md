@@ -1,17 +1,14 @@
 ---
 description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, wird der Viewer zwischen der Haupt- und der Miniaturansicht umgeschaltet. Diese Schaltfläche wird in der Hauptsteuerungsleiste angezeigt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, wird der Viewer zwischen der Haupt- und der Miniaturansicht umgeschaltet. Diese Schaltfläche wird in der Hauptsteuerungsleiste angezeigt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-title: Schaltfläche "Miniaturansichten"
 solution: Experience Manager
 title: Schaltfläche "Miniaturansichten"
-uuid: a1a7f4b0-672e-4b83-9b21-0b8c6fc3f24a
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 1%
 
 ---
 
