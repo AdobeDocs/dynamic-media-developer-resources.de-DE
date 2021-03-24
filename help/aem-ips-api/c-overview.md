@@ -1,16 +1,13 @@
 ---
 description: Die IPS (Image Production System) Web Service API ermöglicht externen Anwendungen und Entwicklern von Drittanbieteranwendungen den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
-seo-description: Die IPS (Image Production System) Web Service API ermöglicht externen Anwendungen und Entwicklern von Drittanbieteranwendungen den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
-seo-title: Informationen zur Image Production System-API
 solution: Experience Manager
 title: Informationen zur Image Production System-API
-uuid: 22f5a601-165a-4dc2-b545-2aa1d6f5a370
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
