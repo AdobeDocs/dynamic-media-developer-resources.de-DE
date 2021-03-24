@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Video-Viewer
-seo-description: JavaScript-API-Referenz für Video-Viewer
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: a2b073ab-d8a7-43cc-9cc8-80dd05a386f0
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '221'
 ht-degree: 1%
 
 ---
