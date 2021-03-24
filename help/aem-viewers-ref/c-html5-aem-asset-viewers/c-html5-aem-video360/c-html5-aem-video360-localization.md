@@ -1,16 +1,13 @@
 ---
 description: Bestimmte Inhalte, die vom Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht abgespielt werden kann.
-seo-description: Bestimmte Inhalte, die vom Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht abgespielt werden kann.
-seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 solution: Experience Manager
 title: lokale Anpassung der Elemente der Benutzeroberfläche
-uuid: d5e75af0-03d6-4357-a540-4094313ed026
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
