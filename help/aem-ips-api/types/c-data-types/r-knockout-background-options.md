@@ -1,16 +1,13 @@
 ---
 description: Maskiert den Hintergrund für ausgewählte Bilder (aussparend). Dadurch können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. Ein optionaler Parameter, der standardmäßig deaktiviert ist.
-seo-description: Maskiert den Hintergrund für ausgewählte Bilder (aussparend). Dadurch können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. Ein optionaler Parameter, der standardmäßig deaktiviert ist.
-seo-title: KnockoutBackgroundOptions
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-uuid: 1486d646-f42a-4ed4-9450-313950969c39
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '174'
 ht-degree: 2%
 
 ---
