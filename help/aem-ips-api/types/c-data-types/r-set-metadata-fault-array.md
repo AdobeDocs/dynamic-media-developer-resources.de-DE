@@ -1,17 +1,14 @@
 ---
 description: Ein Array von Metadatenfehlern.
-seo-description: Ein Array von Metadatenfehlern.
-seo-title: SetMetadataFaultArray
 solution: Experience Manager
 title: SetMetadataFaultArray
-uuid: 9a56312d-51a3-476c-b0a7-b5117f47b52c
 feature: Dynamic Media Classic, SDK/API, Metadaten
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 16%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
