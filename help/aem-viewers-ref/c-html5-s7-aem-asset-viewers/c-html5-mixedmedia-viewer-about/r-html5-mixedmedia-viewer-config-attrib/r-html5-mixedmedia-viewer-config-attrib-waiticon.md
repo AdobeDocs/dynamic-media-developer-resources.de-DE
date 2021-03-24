@@ -1,17 +1,14 @@
 ---
 description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
-seo-description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
-seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-uuid: d57aa367-27cd-4aa2-b1bb-05a29b0c245a
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
