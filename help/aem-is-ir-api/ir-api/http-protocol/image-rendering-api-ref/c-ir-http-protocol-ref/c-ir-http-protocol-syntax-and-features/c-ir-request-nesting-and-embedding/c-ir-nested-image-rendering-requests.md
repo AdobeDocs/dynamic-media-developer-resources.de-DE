@@ -1,16 +1,13 @@
 ---
 description: Für erweiterte Anwendungen ist es möglich, das Ergebnis eines Rendervorgangs als Materialbild zu verwenden, genau wie ein Bild, das von Image Serving erhalten wurde.
-seo-description: Für erweiterte Anwendungen ist es möglich, das Ergebnis eines Rendervorgangs als Materialbild zu verwenden, genau wie ein Bild, das von Image Serving erhalten wurde.
-seo-title: Verschachtelte Image Rendering-Anforderungen
 solution: Experience Manager
 title: Verschachtelte Image Rendering-Anforderungen
-uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
