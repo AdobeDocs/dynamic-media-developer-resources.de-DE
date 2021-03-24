@@ -1,16 +1,13 @@
 ---
 description: Mit diesen Befehlen können Sie Ebeneneffekte wie Schlagschatten- oder Schein-Effekte definieren. Effektebenen ignorieren alle anderen Befehle.
-seo-description: Mit diesen Befehlen können Sie Ebeneneffekte wie Schlagschatten- oder Schein-Effekte definieren. Effektebenen ignorieren alle anderen Befehle.
-seo-title: Ebeneneffekt, Befehle
 solution: Experience Manager
 title: Ebeneneffekt, Befehle
-uuid: 5fef90d1-0507-497b-9187-869672996852
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
