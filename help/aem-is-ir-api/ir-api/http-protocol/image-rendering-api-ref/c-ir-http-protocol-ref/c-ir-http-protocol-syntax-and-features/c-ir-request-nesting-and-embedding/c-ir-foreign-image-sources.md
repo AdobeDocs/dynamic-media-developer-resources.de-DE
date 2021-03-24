@@ -1,16 +1,13 @@
 ---
 description: Image Serving unterstützt den Zugriff auf Quellbilder auf ausländischen HTTP- und FTP-Servern.
-seo-description: Image Serving unterstützt den Zugriff auf Quellbilder auf ausländischen HTTP- und FTP-Servern.
-seo-title: Ausländische Bildquellen
 solution: Experience Manager
 title: Ausländische Bildquellen
-uuid: 28a17400-4807-4e14-937a-80309be53d55
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
