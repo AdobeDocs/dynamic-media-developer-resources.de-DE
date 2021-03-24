@@ -1,16 +1,13 @@
 ---
 description: Muster bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlaufschaltflächen auf der linken und rechten Seite. Bildlaufschaltflächen sind nur dann auf dem Desktop sichtbar, wenn alle Miniaturansichten nicht in die Breite des Containers passen. Auf Mobilgeräten oder, wenn Miniaturansichten in die Breite des Containers passen, werden die Bildlaufschaltflächen nicht angezeigt.
-seo-description: Muster bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlaufschaltflächen auf der linken und rechten Seite. Bildlaufschaltflächen sind nur dann auf dem Desktop sichtbar, wenn alle Miniaturansichten nicht in die Breite des Containers passen. Auf Mobilgeräten oder, wenn Miniaturansichten in die Breite des Containers passen, werden die Bildlaufschaltflächen nicht angezeigt.
-seo-title: Muster
 solution: Experience Manager
 title: Muster
-uuid: d44e775d-5253-4990-98a4-84ff50db09b9
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '458'
 ht-degree: 3%
 
 ---
