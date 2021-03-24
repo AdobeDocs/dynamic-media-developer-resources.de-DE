@@ -1,16 +1,13 @@
 ---
 description: Konfigurationsattribut für Video Viewer.
-seo-description: Konfigurationsattribut für Video Viewer.
-seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-uuid: d7d92d63-a4c2-4bd9-b0fd-fdfd47504a39
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
