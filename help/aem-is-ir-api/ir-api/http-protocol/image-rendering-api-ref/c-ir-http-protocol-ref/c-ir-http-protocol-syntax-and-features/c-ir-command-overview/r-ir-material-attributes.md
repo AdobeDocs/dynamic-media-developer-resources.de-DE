@@ -1,16 +1,13 @@
 ---
 description: Diese Attribute definieren Materialien, die auf das ausgewählte Objekt angewendet werden sollen.
-seo-description: Diese Attribute definieren Materialien, die auf das ausgewählte Objekt angewendet werden sollen.
-seo-title: Materialattribute
 solution: Experience Manager
 title: Materialattribute
-uuid: afdff304-f607-4820-bdb2-f428271efb87
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---
