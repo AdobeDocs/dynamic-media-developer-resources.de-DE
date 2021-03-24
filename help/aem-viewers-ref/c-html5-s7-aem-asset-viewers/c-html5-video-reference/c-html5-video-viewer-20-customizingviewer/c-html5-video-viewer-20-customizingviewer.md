@@ -3,11 +3,10 @@ description: Anpassen des Video-Viewers
 keywords: responsive
 solution: Experience Manager
 title: Anpassen des Video-Viewers
-uuid: e18fdf8b-5834-4c99-b8a3-90d1f8310dc1
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 0%
