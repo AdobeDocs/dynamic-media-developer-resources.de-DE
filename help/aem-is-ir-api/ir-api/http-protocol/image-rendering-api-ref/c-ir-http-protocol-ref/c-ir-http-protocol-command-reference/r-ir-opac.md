@@ -5,7 +5,7 @@ title: opac
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -28,9 +28,9 @@ Deckkraft. Gibt die Materialdeckkraft an.
 
 Die folgenden Material-/Objektkombinationen unterstützen variable Deckkraft:
 
-* Einfarbige und wiederholbare Texturen, die auf texturierbare überlappende Objekte angewendet werden.
+* Feste Farbe und wiederholbare Texturen, die auf texturale überlappende Objekte angewendet werden.
 * Fensterbedeckende Materialien, die auf Fensterbedeckungsobjekte angewendet werden.
-* Auf texturierbare Objekte oder Wandobjekte angewendete Dekore.
+* Auf Textobjekte oder Wandobjekte angewendete Dekore.
 
 Wenn das Material ein Bild mit einem Alpha-Kanal enthält, kann `opac=` verwendet werden, um das Bild transparenter, aber nicht undurchsichtiger zu machen.
 
