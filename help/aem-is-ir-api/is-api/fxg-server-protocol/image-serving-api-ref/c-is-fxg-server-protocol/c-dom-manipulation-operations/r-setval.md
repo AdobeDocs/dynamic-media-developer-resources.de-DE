@@ -1,16 +1,13 @@
 ---
 description: Legen Sie einen Textknotenwert für s7 elementID fest.
-seo-description: Legen Sie einen Textknotenwert für s7 elementID fest.
-seo-title: setVal
 solution: Experience Manager
 title: setVal
-uuid: 27ced070-6434-477d-aacf-053d53ee58ff
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
