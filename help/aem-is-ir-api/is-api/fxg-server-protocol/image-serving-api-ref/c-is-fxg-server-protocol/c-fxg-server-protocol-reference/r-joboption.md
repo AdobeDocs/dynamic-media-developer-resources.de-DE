@@ -1,17 +1,14 @@
 ---
 description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder in den PDF-Vorgaben in InDesign generiert wird.
-seo-description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder in den PDF-Vorgaben in InDesign generiert wird.
-seo-title: joboption
 solution: Experience Manager
 title: joboption
-uuid: 7288cf29-850f-4121-8425-5f995daac22d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 41%
+source-wordcount: '236'
+ht-degree: 46%
 
 ---
 
