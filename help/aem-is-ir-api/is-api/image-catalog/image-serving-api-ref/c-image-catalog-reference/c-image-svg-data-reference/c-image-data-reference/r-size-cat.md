@@ -1,17 +1,14 @@
 ---
 description: Bildgröße. Die Pixelgröße des Bildes mit voller Auflösung, auf das vom Katalogpfad verwiesen wird.
-seo-description: Bildgröße. Die Pixelgröße des Bildes mit voller Auflösung, auf das vom Katalogpfad verwiesen wird.
-seo-title: Größe
 solution: Experience Manager
 title: Größe
-uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 11%
+source-wordcount: '112'
+ht-degree: 9%
 
 ---
 
