@@ -1,17 +1,14 @@
 ---
 description: Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, wenn bestimmte Leistungs- oder Fehlerschwellenwerte überschritten werden. Das System überwacht gemeinsam alle auf dem Server bereitgestellten Webanwendungen.
-seo-description: Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, wenn bestimmte Leistungs- oder Fehlerschwellenwerte überschritten werden. Das System überwacht gemeinsam alle auf dem Server bereitgestellten Webanwendungen.
-seo-title: Serverüberwachung
 solution: Experience Manager
 title: Serverüberwachung
-uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 1%
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
