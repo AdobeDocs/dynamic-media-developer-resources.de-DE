@@ -1,17 +1,14 @@
 ---
 description: Ruft einen Eigenschaftssatztyp mithilfe eines Handles zu einer Firma und den Namen des Eigenschaftssatztyps ab. Ruft eine Typstruktur mit dem Griff zum Typ und dem Eigenschaftstyp ab.
-seo-description: Ruft einen Eigenschaftssatztyp mithilfe eines Handles zu einer Firma und den Namen des Eigenschaftssatztyps ab. Ruft eine Typstruktur mit dem Griff zum Typ und dem Eigenschaftstyp ab.
-seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 9%
+source-wordcount: '160'
+ht-degree: 11%
 
 ---
 
