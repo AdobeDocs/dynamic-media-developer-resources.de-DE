@@ -1,16 +1,13 @@
 ---
 description: Im kontinuierlichen Zoommodus besteht die Hauptansicht aus der Ansicht des Zoombilds, wenn es sich bei dem aktuellen Asset um ein einzelnes Bild handelt.
-seo-description: Im kontinuierlichen Zoommodus besteht die Hauptansicht aus der Ansicht des Zoombilds, wenn es sich bei dem aktuellen Asset um ein einzelnes Bild handelt.
-seo-title: Zoom-Ansicht
 solution: Experience Manager
 title: Zoom-Ansicht
-uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
