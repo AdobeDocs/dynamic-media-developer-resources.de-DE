@@ -1,17 +1,14 @@
 ---
 description: Der Hauptbereich der Ansicht ist der Bereich, der von dem 360-Video belegt wird. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
-seo-description: Der Hauptbereich der Ansicht ist der Bereich, der von dem 360-Video belegt wird. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
-seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
