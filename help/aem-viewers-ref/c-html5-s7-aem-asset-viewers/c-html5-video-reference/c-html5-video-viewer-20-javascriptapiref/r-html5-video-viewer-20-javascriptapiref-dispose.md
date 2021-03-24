@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Video-Viewer.
-seo-description: JavaScript-API-Referenz für Video-Viewer.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: fbd85880-041a-4482-8897-1941bffa7955
 feature: Dynamic Media Classic, Viewer, SDK/API, Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
