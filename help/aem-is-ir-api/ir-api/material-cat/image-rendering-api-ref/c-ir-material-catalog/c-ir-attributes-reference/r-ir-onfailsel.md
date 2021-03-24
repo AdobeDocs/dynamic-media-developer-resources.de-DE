@@ -1,17 +1,14 @@
 ---
 description: Behandlung von Auswahlfehlern auswählen Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl sel= fehlschlägt, weil die angegebene Pixelposition nicht im Maskenbereich eines auswählbaren Objekts liegt.
-seo-description: Behandlung von Auswahlfehlern auswählen Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl sel= fehlschlägt, weil die angegebene Pixelposition nicht im Maskenbereich eines auswählbaren Objekts liegt.
-seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-uuid: 073b6651-970c-460c-b044-e3ef37cc677a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 10%
+source-wordcount: '128'
+ht-degree: 12%
 
 ---
 
