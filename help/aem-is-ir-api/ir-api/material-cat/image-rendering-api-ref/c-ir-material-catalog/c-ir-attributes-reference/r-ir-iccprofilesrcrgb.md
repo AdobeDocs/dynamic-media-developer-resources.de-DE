@@ -1,17 +1,14 @@
 ---
 description: RGB-Standardeingabefarbe Profil. Gibt den Namen des ICC-Profils an, das für RGB-Materialbilder und -Vignetten verwendet werden soll, die kein Profil einbetten, sowie für RGB-Farbwerte, die mit verschiedenen Bildwiedergabebefehlen wie bgc= und color= angegeben wurden.
-seo-description: RGB-Standardeingabefarbe Profil. Gibt den Namen des ICC-Profils an, das für RGB-Materialbilder und -Vignetten verwendet werden soll, die kein Profil einbetten, sowie für RGB-Farbwerte, die mit verschiedenen Bildwiedergabebefehlen wie bgc= und color= angegeben wurden.
-seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-uuid: 9657e296-0d2a-4b05-9be7-5a54d3277f90
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
