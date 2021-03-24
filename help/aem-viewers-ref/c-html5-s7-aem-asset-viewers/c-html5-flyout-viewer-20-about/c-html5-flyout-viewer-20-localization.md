@@ -1,16 +1,13 @@
 ---
 description: Bestimmte Inhalte, die der Flyout-Viewer anzeigt, unterliegen der lokale Anpassung. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und Informationsmeldungen, die von der Flyout-Zoom-Ansicht beim Laden angezeigt werden.
-seo-description: Bestimmte Inhalte, die der Flyout-Viewer anzeigt, unterliegen der lokale Anpassung. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und Informationsmeldungen, die von der Flyout-Zoom-Ansicht beim Laden angezeigt werden.
-seo-title: lokale Anpassung der Elemente der Benutzeroberfläche
 solution: Experience Manager
 title: lokale Anpassung der Elemente der Benutzeroberfläche
-uuid: efba09ad-200b-4540-8876-c9e462ec233a
 feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
