@@ -1,16 +1,13 @@
 ---
 description: Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Die Kompatibilität mit SVG 1.1 ist erforderlich.
-seo-description: Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Die Kompatibilität mit SVG 1.1 ist erforderlich.
-seo-title: SVG-Unterstützung
 solution: Experience Manager
 title: SVG-Unterstützung
-uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
