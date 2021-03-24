@@ -1,16 +1,13 @@
 ---
 description: Vignettendateien können während der Live-Schaltung durch den Befehl req=release ersetzt oder gelöscht werden, bevor die Datei überschrieben wird.
-seo-description: Vignettendateien können während der Live-Schaltung durch den Befehl req=release ersetzt oder gelöscht werden, bevor die Datei überschrieben wird.
-seo-title: Löschen oder Ersetzen von Quelldatendateien
 solution: Experience Manager
 title: Löschen oder Ersetzen von Quelldatendateien
-uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
