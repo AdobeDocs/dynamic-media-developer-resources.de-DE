@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Video-Viewer.
-seo-description: JavaScript-API-Referenz für Video-Viewer.
-seo-title: setLocalizedTextes
 solution: Experience Manager
 title: setLocalizedTextes
-uuid: 8c9e0d6d-d7b0-494f-b7b7-6542fb51466a
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '80'
 ht-degree: 2%
 
 ---
