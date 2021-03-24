@@ -1,17 +1,14 @@
 ---
 description: RGB-Standard-Ausgabefarbe-Profil. Gibt den Namen des ICC-Profils an, das für RGB-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde, und für bestimmte RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen wie bgc= und color= angegeben wurden.
-seo-description: RGB-Standard-Ausgabefarbe-Profil. Gibt den Namen des ICC-Profils an, das für RGB-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde, und für bestimmte RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen wie bgc= und color= angegeben wurden.
-seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-uuid: 0fe63607-c328-468a-aa55-0c4d16cf9f0f
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '160'
+ht-degree: 2%
 
 ---
 
