@@ -1,17 +1,14 @@
 ---
 description: Boldface Flag. Gibt an, ob die Schriftartdatei, auf die dieser Schriftartzuordnungsdatensatz verweist, bei Anforderung durch den RTF-Befehl fett face (\b) verwendet werden soll.
-seo-description: Boldface Flag. Gibt an, ob die Schriftartdatei, auf die dieser Schriftartzuordnungsdatensatz verweist, bei Anforderung durch den RTF-Befehl fett face (\b) verwendet werden soll.
-seo-title: Fett
 solution: Experience Manager
 title: Fett
-uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
