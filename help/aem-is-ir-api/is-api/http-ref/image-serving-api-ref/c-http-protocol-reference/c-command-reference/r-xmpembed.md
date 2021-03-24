@@ -1,16 +1,13 @@
 ---
 description: Betten Sie XMP Metadaten ein. Gibt an, ob XMP Metadaten im Antwortbild enthalten sein sollen.
-seo-description: Betten Sie XMP Metadaten ein. Gibt an, ob XMP Metadaten im Antwortbild enthalten sein sollen.
-seo-title: xmpEmbed
 solution: Experience Manager
 title: xmpEmbed
-uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
