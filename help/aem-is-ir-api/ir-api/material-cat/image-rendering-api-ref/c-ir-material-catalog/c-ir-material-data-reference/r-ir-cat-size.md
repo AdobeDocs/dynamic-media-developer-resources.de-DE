@@ -1,16 +1,13 @@
 ---
 description: Dezimalgröße. Breite, Höhe und Dicke eines dekalen Materialobjekts.
-seo-description: Dezimalgröße. Breite, Höhe und Dicke eines dekalen Materialobjekts.
-seo-title: Größe
 solution: Experience Manager
 title: Größe
-uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '220'
 ht-degree: 5%
 
 ---
