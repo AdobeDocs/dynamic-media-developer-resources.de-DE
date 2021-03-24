@@ -1,17 +1,14 @@
 ---
 description: Digimarc-Bildinformationen. Aktiviert die Digimarc-Einbettung und gibt den Typ des Wasserzeichens und alle zugehörigen bildspezifischen Daten an.
-seo-description: Digimarc-Bildinformationen. Aktiviert die Digimarc-Einbettung und gibt den Typ des Wasserzeichens und alle zugehörigen bildspezifischen Daten an.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 12%
+source-wordcount: '238'
+ht-degree: 13%
 
 ---
 
@@ -82,7 +79,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
    <td> <p>Eingeschränkt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Kopiergeschützt, eingeschränkt. </p> </td> 
   </tr> 
   <tr> 
