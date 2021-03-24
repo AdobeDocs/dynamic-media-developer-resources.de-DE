@@ -1,17 +1,14 @@
 ---
 description: Speicherplatzstatistiken für ein Asset oder einen Ordner.
-seo-description: Speicherplatzstatistiken für ein Asset oder einen Ordner.
-seo-title: DiskUsage
 solution: Experience Manager
 title: DiskUsage
-uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 12%
 
 ---
 
