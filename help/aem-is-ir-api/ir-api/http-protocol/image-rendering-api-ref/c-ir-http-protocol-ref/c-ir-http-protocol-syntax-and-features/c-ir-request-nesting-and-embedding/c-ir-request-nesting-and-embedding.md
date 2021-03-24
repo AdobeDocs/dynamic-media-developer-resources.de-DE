@@ -1,16 +1,13 @@
 ---
 description: Image Rendering ermöglicht das Einbetten von Image Serving-Anforderungen und HTTP-Anforderungen an ausländische Server, um Materialbilder abzurufen, die für wiederholbare Texturen und Dekore verwendet werden.
-seo-description: Image Rendering ermöglicht das Einbetten von Image Serving-Anforderungen und HTTP-Anforderungen an ausländische Server, um Materialbilder abzurufen, die für wiederholbare Texturen und Dekore verwendet werden.
-seo-title: Verschachtelung und Einbettung von Anforderungen *
 solution: Experience Manager
 title: Verschachtelung und Einbettung von Anforderungen *
-uuid: 1884ae71-6ff5-4945-9411-a7183c32b772
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
