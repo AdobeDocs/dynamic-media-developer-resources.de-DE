@@ -1,17 +1,14 @@
 ---
 description: Ausrichtung der Textur. Ausrichtung der Textur bei Anwendung auf miteinander verbundene Vignettenobjekte, z. B. die Polsterteile eines Möbelstücks. Wird hauptsächlich für Polsterwiedergabeanwendungen verwendet, möglicherweise für Anwendungen für fortgeschrittene Bekleidung.
-seo-description: Ausrichtung der Textur. Ausrichtung der Textur bei Anwendung auf miteinander verbundene Vignettenobjekte, z. B. die Polsterteile eines Möbelstücks. Wird hauptsächlich für Polsterwiedergabeanwendungen verwendet, möglicherweise für Anwendungen für fortgeschrittene Bekleidung.
-seo-title: Ausrichtung
 solution: Experience Manager
 title: Ausrichtung
-uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 4%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
