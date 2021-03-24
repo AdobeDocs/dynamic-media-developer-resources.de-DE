@@ -1,17 +1,14 @@
 ---
 description: URL-Befehl für Video-Viewer.
-seo-description: URL-Befehl für Video-Viewer.
-seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-uuid: 551338fe-8fc6-4045-8205-4cf102782f8d
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 6%
+source-wordcount: '55'
+ht-degree: 7%
 
 ---
 
