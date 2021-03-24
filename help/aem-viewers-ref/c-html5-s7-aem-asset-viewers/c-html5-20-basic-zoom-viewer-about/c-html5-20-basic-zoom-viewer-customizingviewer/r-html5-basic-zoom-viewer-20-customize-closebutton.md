@@ -1,16 +1,13 @@
 ---
 description: Durch Klicken oder Tippen auf diese Schaltfläche wird die zugehörige Webseite geschlossen. Diese Schaltfläche wird nur angezeigt, wenn der Parameter closeButton auf 1 gesetzt ist. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-description: Durch Klicken oder Tippen auf diese Schaltfläche wird die zugehörige Webseite geschlossen. Diese Schaltfläche wird nur angezeigt, wenn der Parameter closeButton auf 1 gesetzt ist. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-title: Schaltfläche "Schließen"
 solution: Experience Manager
 title: Schaltfläche "Schließen"
-uuid: a5280ec8-fbb5-42d4-9504-2f1141fe7c79
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
