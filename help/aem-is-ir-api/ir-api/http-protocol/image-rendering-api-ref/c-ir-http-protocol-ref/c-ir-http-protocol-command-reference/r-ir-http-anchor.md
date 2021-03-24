@@ -1,17 +1,14 @@
 ---
 description: Bildanker (Hotspot). Gibt den Texturankerpunkt (Hotspot) der wiederholbaren Textur oder des Dekormaterials an.
-seo-description: Bildanker (Hotspot). Gibt den Texturankerpunkt (Hotspot) der wiederholbaren Textur oder des Dekormaterials an.
-seo-title: anchor
 solution: Experience Manager
-title: Anker
-uuid: 1e695882-f97a-4208-b595-2851b91bdbfe
+title: anchor
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 3%
+source-wordcount: '210'
+ht-degree: 2%
 
 ---
 
