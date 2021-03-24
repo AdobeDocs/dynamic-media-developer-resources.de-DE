@@ -1,16 +1,13 @@
 ---
 description: Die Transformationen der Bildebene werden in Schritt 2 für Miniaturansichten wie folgt geändert (d. h. bei req=tmb).
-seo-description: Die Transformationen der Bildebene werden in Schritt 2 für Miniaturansichten wie folgt geändert (d. h. bei req=tmb).
-seo-title: Skalierung von Miniaturbildern
 solution: Experience Manager
 title: Skalierung von Miniaturbildern
-uuid: df935d40-84c6-4018-9e41-faef4653ff1f
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
