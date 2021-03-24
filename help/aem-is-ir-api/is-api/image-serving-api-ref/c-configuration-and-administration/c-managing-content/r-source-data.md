@@ -1,16 +1,13 @@
 ---
 description: Zu den Image Serving-Quelldatendateien gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
-seo-description: Zu den Image Serving-Quelldatendateien gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
-seo-title: Quelldaten
 solution: Experience Manager
 title: Quelldaten
-uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
