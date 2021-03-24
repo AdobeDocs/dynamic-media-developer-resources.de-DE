@@ -1,16 +1,13 @@
 ---
 description: Es gibt verschiedene Fragen zum Serververhalten, die berücksichtigt werden sollten.
-seo-description: Es gibt verschiedene Fragen zum Serververhalten, die berücksichtigt werden sollten.
-seo-title: Hinweise zum Serververhalten
 solution: Experience Manager
 title: Hinweise zum Serververhalten
-uuid: cca17322-4058-43cc-b022-ef8df52c0888
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
