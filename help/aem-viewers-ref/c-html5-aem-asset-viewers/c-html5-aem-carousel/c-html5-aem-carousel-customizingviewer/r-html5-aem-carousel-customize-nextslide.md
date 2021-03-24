@@ -1,16 +1,13 @@
 ---
 description: Wenn Sie auf die Schaltfläche "Nächste Folie"klicken oder darauf tippen, wird ein Benutzer zur nächsten Folie im Karussellsatz verschoben.
-seo-description: Wenn Sie auf die Schaltfläche "Nächste Folie"klicken oder darauf tippen, wird ein Benutzer zur nächsten Folie im Karussellsatz verschoben.
-seo-title: Nächste Folie
 solution: Experience Manager
 title: Nächste Folie
-uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
