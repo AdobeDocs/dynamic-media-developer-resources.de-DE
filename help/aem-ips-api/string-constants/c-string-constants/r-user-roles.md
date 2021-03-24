@@ -1,16 +1,13 @@
 ---
 description: Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel
-seo-description: Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel
-seo-title: Benutzerrollen
 solution: Experience Manager
 title: Benutzerrollen
-uuid: d971c6aa-981a-4e15-b268-7bd685bad03b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '43'
 ht-degree: 13%
 
 ---
