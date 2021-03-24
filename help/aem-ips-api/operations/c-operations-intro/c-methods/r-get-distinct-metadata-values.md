@@ -1,17 +1,14 @@
 ---
 description: Gibt alle Werte für ein Metadatenfeld zurück.
-seo-description: Gibt alle Werte für ein Metadatenfeld zurück.
-seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 feature: Dynamic Media Classic, SDK/API, Metadaten
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 19%
+source-wordcount: '73'
+ht-degree: 21%
 
 ---
 
