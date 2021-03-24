@@ -1,16 +1,13 @@
 ---
 description: Der Rotationsindikator wird auf dem Hauptbereich der Ansicht überlagert. Es wird angezeigt, wenn sich das Bild in einem Reset-Zustand befindet und es hängt auch vom iconeffect-Parameter ab.
-seo-description: Der Rotationsindikator wird auf dem Hauptbereich der Ansicht überlagert. Es wird angezeigt, wenn sich das Bild in einem Reset-Zustand befindet und es hängt auch vom iconeffect-Parameter ab.
-seo-title: Symbol, Effekt
 solution: Experience Manager
 title: Symbol, Effekt
-uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
 feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '155'
 ht-degree: 1%
 
 ---
