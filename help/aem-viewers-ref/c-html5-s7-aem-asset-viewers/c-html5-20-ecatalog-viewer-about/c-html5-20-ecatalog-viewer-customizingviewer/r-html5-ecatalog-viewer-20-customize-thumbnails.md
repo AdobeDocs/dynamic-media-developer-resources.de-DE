@@ -1,16 +1,13 @@
 ---
 description: Miniaturansichten bestehen aus einem Raster von Miniaturbildern mit einer optionalen Bildlaufleiste auf der rechten Seite, um einen vertikalen Bildlauf zu ermöglichen.
-seo-description: Miniaturansichten bestehen aus einem Raster von Miniaturbildern mit einer optionalen Bildlaufleiste auf der rechten Seite, um einen vertikalen Bildlauf zu ermöglichen.
-seo-title: Miniaturansichten
 solution: Experience Manager
 title: Miniaturansichten
-uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
