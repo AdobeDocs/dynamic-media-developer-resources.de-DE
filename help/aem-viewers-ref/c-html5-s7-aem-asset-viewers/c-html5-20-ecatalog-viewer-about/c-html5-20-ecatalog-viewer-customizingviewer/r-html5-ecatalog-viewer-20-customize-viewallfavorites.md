@@ -1,16 +1,13 @@
 ---
 description: Die Position der Schaltfläche wird vollständig über das Menü "Favoriten"verwaltet.
-seo-description: Die Position der Schaltfläche wird vollständig über das Menü "Favoriten"verwaltet.
-seo-title: Schaltfläche "Ansicht - Alle Favoriten"
 solution: Experience Manager
 title: Schaltfläche "Ansicht - Alle Favoriten"
-uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
