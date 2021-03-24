@@ -1,17 +1,14 @@
 ---
 description: Der Hauptbereich der Ansicht ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
-seo-description: Der Hauptbereich der Ansicht ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
-seo-title: Hauptbereich des Viewers
 solution: Experience Manager
 title: Hauptbereich des Viewers
-uuid: 3e04c578-dcb2-4034-8809-dc949be80097
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 2%
+source-wordcount: '129'
+ht-degree: 3%
 
 ---
 
