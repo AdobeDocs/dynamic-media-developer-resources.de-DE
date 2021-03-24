@@ -1,17 +1,14 @@
 ---
 description: Der einfache Zoom-Viewer ist ein Bild-Viewer, der ein einzelnes zoombares Bild anzeigt. Es verfügt über Zoomwerkzeuge, Vollbildunterstützung und eine optionale Schließen-Schaltfläche. Dieser Viewer ist der leichteste. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 keywords: responsive
-seo-description: Der einfache Zoom-Viewer ist ein Bild-Viewer, der ein einzelnes zoombares Bild anzeigt. Es verfügt über Zoomwerkzeuge, Vollbildunterstützung und eine optionale Schließen-Schaltfläche. Dieser Viewer ist der leichteste. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
-seo-title: Einfaches Zoomen
 solution: Experience Manager
 title: Einfaches Zoomen
-uuid: 5466d647-af70-4503-9898-bb712ba6a007
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2044'
 ht-degree: 0%
 
 ---
