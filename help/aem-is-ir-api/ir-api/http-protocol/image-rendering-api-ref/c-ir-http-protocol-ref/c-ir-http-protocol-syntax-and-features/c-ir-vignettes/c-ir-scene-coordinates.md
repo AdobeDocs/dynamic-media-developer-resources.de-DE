@@ -1,17 +1,14 @@
 ---
 description: Der Szenenkoordinatenraum dient zur Angabe von Größen und Abständen auf den texturierbaren Objektflächen.
-seo-description: Der Szenenkoordinatenraum dient zur Angabe von Größen und Abständen auf den texturierbaren Objektflächen.
-seo-title: Scene-Koordinaten
 solution: Experience Manager
 title: Scene-Koordinaten
-uuid: d1215ba2-9cad-4cf6-a57e-7c1d845b0199
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
