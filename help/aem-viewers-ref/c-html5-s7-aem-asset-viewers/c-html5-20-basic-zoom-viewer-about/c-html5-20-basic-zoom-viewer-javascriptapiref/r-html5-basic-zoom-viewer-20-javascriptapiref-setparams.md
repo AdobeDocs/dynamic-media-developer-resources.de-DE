@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für einfachen Zoom-Viewer.
-seo-description: JavaScript-API-Referenz für einfachen Zoom-Viewer.
-seo-title: setParams
 solution: Experience Manager
 title: setParams
-uuid: 8c2a740f-deed-4f03-9405-36533ba1b0aa
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
