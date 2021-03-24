@@ -1,17 +1,14 @@
 ---
 description: Ruft ein Array von Mitgliedern ab, die sich in einem Bildsatz befinden.
-seo-description: Ruft ein Array von Mitgliedern ab, die sich in einem Bildsatz befinden.
-seo-title: getImageSetMembers
 solution: Experience Manager
 title: getImageSetMembers
-uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
 feature: Dynamic Media Classic, SDK/API, Bildsätze
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 13%
+source-wordcount: '103'
+ht-degree: 15%
 
 ---
 
