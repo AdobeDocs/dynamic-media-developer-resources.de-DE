@@ -1,16 +1,13 @@
 ---
 description: Ersetzungszeichenfolgen-Element. Optional in <rule>-Elementen.
-seo-description: Ersetzungszeichenfolgen-Element. Optional in <rule>-Elementen.
-seo-title: Ersatz
 solution: Experience Manager
 title: Ersatz
-uuid: f72902b1-0b0f-4401-9c3c-46573048cb25
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '144'
 ht-degree: 3%
 
 ---
