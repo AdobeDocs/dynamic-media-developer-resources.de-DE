@@ -1,16 +1,13 @@
 ---
 description: Zeitstempel der Dateiänderung. Gibt das Datum/die Uhrzeit der letzten Änderung des Bildes und/oder der mit diesem Katalogeintrag verknüpften Datendateien an.
-seo-description: Zeitstempel der Dateiänderung. Gibt das Datum/die Uhrzeit der letzten Änderung des Bildes und/oder der mit diesem Katalogeintrag verknüpften Datendateien an.
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
