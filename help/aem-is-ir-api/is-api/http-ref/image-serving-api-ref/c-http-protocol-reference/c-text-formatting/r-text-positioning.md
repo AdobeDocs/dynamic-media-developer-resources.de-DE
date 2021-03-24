@@ -1,16 +1,13 @@
 ---
 description: Der text=-Renderer positioniert Text grundlegend anders als der textPs=-Renderer, wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. auch bei Angabe von size=).
-seo-description: Der text=-Renderer positioniert Text grundlegend anders als der textPs=-Renderer, wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. auch bei Angabe von size=).
-seo-title: Textpositionierung
 solution: Experience Manager
 title: Textpositionierung
-uuid: 77289c50-2f3a-4486-8274-eecfd6e5452f
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
