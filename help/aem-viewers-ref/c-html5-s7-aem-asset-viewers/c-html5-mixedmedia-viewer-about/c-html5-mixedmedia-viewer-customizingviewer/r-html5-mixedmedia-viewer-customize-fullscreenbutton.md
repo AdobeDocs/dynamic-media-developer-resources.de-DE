@@ -1,17 +1,14 @@
 ---
 description: Durch Klicken auf diese Schaltfläche wird der Vollbildmodus vom Viewer gestartet bzw. beendet. Es wird verwendet, wenn der Viewer Bilder oder Rotationssets anzeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-description: Durch Klicken auf diese Schaltfläche wird der Vollbildmodus vom Viewer gestartet bzw. beendet. Es wird verwendet, wenn der Viewer Bilder oder Rotationssets anzeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-seo-title: Schaltfläche "Vollbild"
 solution: Experience Manager
 title: Schaltfläche "Vollbild"
-uuid: ef3a0c21-88e0-4a10-9b89-da862b579b17
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '321'
+ht-degree: 2%
 
 ---
 
