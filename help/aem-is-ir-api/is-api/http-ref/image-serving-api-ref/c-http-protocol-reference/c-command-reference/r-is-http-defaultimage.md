@@ -1,16 +1,13 @@
 ---
 description: Standardbild für Antwort. Gibt das Bild oder den Katalogeintrag an, der verwendet werden soll, wenn ein Bild nicht gefunden werden kann.
-seo-description: Standardbild für Antwort. Gibt das Bild oder den Katalogeintrag an, der verwendet werden soll, wenn ein Bild nicht gefunden werden kann.
-seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '226'
 ht-degree: 2%
 
 ---
