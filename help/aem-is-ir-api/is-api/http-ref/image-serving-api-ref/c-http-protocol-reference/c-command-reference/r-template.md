@@ -1,16 +1,13 @@
 ---
 description: Erstellen einer Vorlage. Ermöglicht das Festlegen einer Compositing-Vorlage in einem anderen Katalog als dem Hauptkatalog.
-seo-description: Erstellen einer Vorlage. Ermöglicht das Festlegen einer Compositing-Vorlage in einem anderen Katalog als dem Hauptkatalog.
-seo-title: Vorlage
 solution: Experience Manager
 title: Vorlage
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 6%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 6%
 
 # Vorlage{#template}
 
-Erstellen einer Vorlage. Ermöglicht das Festlegen einer Compositing-Vorlage in einem anderen Katalog als dem Hauptkatalog.
+Erstellen einer Vorlage. Hiermit können Sie eine Compositing-Vorlage in einem anderen Katalog als dem Hauptkatalog angeben.
 
 `template= *`Vorlage`*`
 
@@ -31,9 +28,9 @@ Erstellen einer Vorlage. Ermöglicht das Festlegen einer Compositing-Vorlage in 
 
 *`template`* muss ein Bildkatalogeintrag mit dem Vorlagentext in  `catalog::Modifier`sein.
 
-Wenn `template=` vorhanden ist, wird das im Anforderungspfad angegebene Objekt nicht als Quelle für Ebene 0 angewendet, sondern kann mit der vordefinierten Pfadvariablen `$object$` als `src=`- oder `mask=`-Wert an einer beliebigen Stelle in der Vorlage referenziert werden. `src=` `catalog::Modifier` des im Anforderungspfad angegebenen Objekts wird nur in Verbindung mit der Ersetzung  `$object$` innerhalb der Vorlage angewendet, während  `catalog::PostModifier` dies immer angewendet wird.
+Wenn `template=` vorhanden ist, wird das im Anforderungspfad angegebene Objekt nicht als Quelle für Ebene 0 angewendet. Sie kann jedoch an einer beliebigen Stelle in der Vorlage als `src=` oder `mask=` referenziert werden, indem die vordefinierte Pfadvariable `$object$` als `src=`-Wert verwendet wird. `catalog::Modifier` des im Anforderungspfad angegebenen Objekts wird nur mit der Ersetzung durch  `$object$` die Vorlage angewendet, während  `catalog::PostModifier` es immer angewendet wird.
 
-Ebene 0 ist im Vorlagenkörper definiert und kann ein Bild, eine Volltonfarbe, Text oder eine verschachtelte oder eingebettete Anforderungsebene sein.
+Ebene 0 ist im Vorlagenkörper definiert und kann eine Bild-, Farbton-, Text- oder verschachtelte oder eingebettete Anforderungsebene sein.
 
 `catalog:PostModifier` von  *`object`* wird ignoriert, wenn  *`object`* mit verwendet  `template=`wird.
 
