@@ -1,16 +1,13 @@
 ---
 description: URL-Befehl für den interaktiven Video-Viewer.
-seo-description: URL-Befehl für den interaktiven Video-Viewer.
-seo-title: Navigation
 solution: Experience Manager
 title: Navigation
-uuid: eecc7458-153c-4f36-b29e-97451f275c0c
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '66'
 ht-degree: 12%
 
 ---
