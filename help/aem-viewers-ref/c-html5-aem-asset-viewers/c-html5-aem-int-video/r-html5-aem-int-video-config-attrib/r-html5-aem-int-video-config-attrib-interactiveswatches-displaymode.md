@@ -1,17 +1,14 @@
 ---
 description: Konfigurationsattribut für den interaktiven Video-Viewer.
-seo-description: Konfigurationsattribut für den interaktiven Video-Viewer.
-seo-title: InteractiveSwatches.displaymode
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-uuid: 279b1632-cf03-454d-b15f-9e785daad692
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
