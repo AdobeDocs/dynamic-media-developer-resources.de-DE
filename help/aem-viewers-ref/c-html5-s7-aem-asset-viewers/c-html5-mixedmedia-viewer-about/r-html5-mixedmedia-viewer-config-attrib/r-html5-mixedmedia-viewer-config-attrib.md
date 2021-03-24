@@ -1,16 +1,13 @@
 ---
 description: Dokumentation zu Konfigurationsattributen für gemischten Media Viewer.
-seo-description: Dokumentation zu Konfigurationsattributen für gemischten Media Viewer.
-seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-uuid: c0f09a05-f024-4cf0-a65f-0bfee015f635
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
