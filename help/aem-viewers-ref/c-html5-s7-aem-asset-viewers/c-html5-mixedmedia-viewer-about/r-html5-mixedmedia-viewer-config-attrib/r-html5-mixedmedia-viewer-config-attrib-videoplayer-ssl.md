@@ -1,16 +1,13 @@
 ---
 description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
-seo-description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
-seo-title: VideoPlayer.ssl
 solution: Experience Manager
 title: VideoPlayer.ssl
-uuid: 07e2c55b-2388-44c8-83ab-338997c5cb71
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
