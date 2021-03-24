@@ -1,16 +1,13 @@
 ---
 description: Die Hauptklasse des E-Katalog-Search-Viewers ist eCatalogSearchViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
-seo-description: Die Hauptklasse des E-Katalog-Search-Viewers ist eCatalogSearchViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
-seo-title: JavaScript-API-Referenz für den E-Katalog-Search-Viewer
 solution: Experience Manager
 title: JavaScript-API-Referenz für den E-Katalog-Search-Viewer
-uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
