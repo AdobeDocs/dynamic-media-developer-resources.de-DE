@@ -1,16 +1,13 @@
 ---
 description: Ist für einen Bildkatalog eine ICC-Profil-Map erforderlich, muss der relative oder absolute Pfad der Profil-Map-Datei im Attribut IccProfileMapFile angegeben werden.
-seo-description: Ist für einen Bildkatalog eine ICC-Profil-Map erforderlich, muss der relative oder absolute Pfad der Profil-Map-Datei im Attribut IccProfileMapFile angegeben werden.
-seo-title: ICC-Profil-Map-Referenz
 solution: Experience Manager
 title: ICC-Profil-Map-Referenz
-uuid: 3f95a24b-98fe-408c-bdc2-4272266b7e86
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
