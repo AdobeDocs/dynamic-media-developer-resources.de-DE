@@ -1,16 +1,13 @@
 ---
 description: Dokumentation zu Konfigurationsattributen für Karussell-Viewer.
-seo-description: Dokumentation zu Konfigurationsattributen für Karussell-Viewer.
-seo-title: Befehlsreferenz - Konfigurationsattribute
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-uuid: 036af728-ab00-4db3-98cf-d16f1bffa064
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
