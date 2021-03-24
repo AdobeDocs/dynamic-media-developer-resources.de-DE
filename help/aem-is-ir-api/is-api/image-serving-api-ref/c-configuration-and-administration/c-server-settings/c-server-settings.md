@@ -1,17 +1,14 @@
 ---
 description: In diesem Abschnitt werden alle bearbeitbaren Konfigurationseinstellungen beschrieben, die nach Interessensgebieten gruppiert sind.
-seo-description: In diesem Abschnitt werden alle bearbeitbaren Konfigurationseinstellungen beschrieben, die nach Interessensgebieten gruppiert sind.
-seo-title: Servereinstellungen
 solution: Experience Manager
 title: Servereinstellungen
-uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
