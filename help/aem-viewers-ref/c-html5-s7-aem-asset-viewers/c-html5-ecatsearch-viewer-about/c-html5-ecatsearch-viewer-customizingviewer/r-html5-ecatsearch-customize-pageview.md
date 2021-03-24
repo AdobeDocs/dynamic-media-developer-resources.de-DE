@@ -1,17 +1,14 @@
 ---
 description: Die Hauptversion besteht aus dem Katalogbild. Es kann wischen, um zu einer anderen Seite zu gelangen, oder gezoomt.
-seo-description: Die Hauptversion besteht aus dem Katalogbild. Es kann wischen, um zu einer anderen Seite zu gelangen, oder gezoomt.
-seo-title: Ansicht der Seite
 solution: Experience Manager
 title: Ansicht der Seite
-uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 2%
+source-wordcount: '392'
+ht-degree: 3%
 
 ---
 
