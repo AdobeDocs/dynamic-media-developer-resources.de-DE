@@ -1,14 +1,12 @@
 ---
 title: Adobe Dynamic Media-Entwicklerressourcen
-seo-title: Adobe Dynamic Media-Entwicklerressourcen-Handbücher für Viewer, Image Serving, Image Rendering und Bildproduktion
 description: Adobe Dynamic Media-Entwicklerressourcen
-seo-description: Adobe Dynamic Media-Entwicklerressourcen-Handbücher für Viewer, Image Serving, Image Rendering und Bildproduktion
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
