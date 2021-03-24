@@ -1,16 +1,13 @@
 ---
 description: Der Viewer unterstützt den Vollbildmodus.
-seo-description: Der Viewer unterstützt den Vollbildmodus.
-seo-title: Vollbildunterstützung
 solution: Experience Manager
 title: Vollbildunterstützung
-uuid: 459430f8-beba-421a-9485-bc49a5d166c4
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
