@@ -1,16 +1,13 @@
 ---
 description: $var$-Verweise können an einer beliebigen Stelle innerhalb der geschweiften Klammern einer verschachtelten Image Serving- oder Image Rendering-Anforderung auftreten, auch links neben dem "?" Trennen des Pfads von der Abfrage.
-seo-description: $var$-Verweise können an einer beliebigen Stelle innerhalb der geschweiften Klammern einer verschachtelten Image Serving- oder Image Rendering-Anforderung auftreten, auch links neben dem "?" Trennen des Pfads von der Abfrage.
-seo-title: Variablenverarbeitung in verschachtelten Anforderungen
 solution: Experience Manager
 title: Variablenverarbeitung in verschachtelten Anforderungen
-uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
