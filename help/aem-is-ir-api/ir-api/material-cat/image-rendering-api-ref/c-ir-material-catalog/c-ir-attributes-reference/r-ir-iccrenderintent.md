@@ -1,16 +1,13 @@
 ---
 description: Renderpriorität für Farbkonvertierung. Stellt die standardmäßige Renderpriorität für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit icc= angegeben wurde.
-seo-description: Renderpriorität für Farbkonvertierung. Stellt die standardmäßige Renderpriorität für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit icc= angegeben wurde.
-seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-uuid: a9648405-32c3-4762-bbb2-11e97d4f8374
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
