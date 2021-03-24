@@ -1,17 +1,14 @@
 ---
 description: Eigenschaften eines CSS-Datei-Assets.
-seo-description: Eigenschaften eines CSS-Datei-Assets.
-seo-title: CssInfo
 solution: Experience Manager
 title: CssInfo
-uuid: 88575f2b-ace4-4a93-8e35-9685f5893530
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 15%
+source-wordcount: '38'
+ht-degree: 18%
 
 ---
 
