@@ -1,16 +1,13 @@
 ---
 description: textPs= implementiert einen proprietären Kopiereinpassungsalgorithmus, mit dem die Schriftgröße(n) automatisch angepasst wird, um den Textbereich optimal mit Text zu füllen, wodurch zusätzlicher Platz am unteren Rand minimiert wird und ein Überlauf vermieden wird.
-seo-description: textPs= implementiert einen proprietären Kopiereinpassungsalgorithmus, mit dem die Schriftgröße(n) automatisch angepasst wird, um den Textbereich optimal mit Text zu füllen, wodurch zusätzlicher Platz am unteren Rand minimiert wird und ein Überlauf vermieden wird.
-seo-title: Kopiereinpassung
 solution: Experience Manager
 title: Kopiereinpassung
-uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
