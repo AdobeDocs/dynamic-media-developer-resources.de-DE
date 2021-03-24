@@ -1,17 +1,14 @@
 ---
 description: Verschiebt mehrere Assets unabhängig voneinander. Dies erfolgt mit dem AssetMove-Typ, der im assetMoveArray enthalten ist. Jedes AssetMove-Feld enthält einen Zielordner.
-seo-description: Verschiebt mehrere Assets unabhängig voneinander. Dies erfolgt mit dem AssetMove-Typ, der im assetMoveArray enthalten ist. Jedes AssetMove-Feld enthält einen Zielordner.
-seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '218'
+ht-degree: 9%
 
 ---
 
