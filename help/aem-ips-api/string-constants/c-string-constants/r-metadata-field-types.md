@@ -1,16 +1,13 @@
 ---
 description: Wird von MetadataField/type, saveMetadataFieldParam/fieldType und createMetadataField/fieldType verwendet.
-seo-description: Wird von MetadataField/type, saveMetadataFieldParam/fieldType und createMetadataField/fieldType verwendet.
-seo-title: Metadatenfeldtypen
 solution: Experience Manager
 title: Metadatenfeldtypen
-uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 feature: Dynamic Media Classic, SDK/API, Metadaten
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '103'
 ht-degree: 1%
 
 ---
