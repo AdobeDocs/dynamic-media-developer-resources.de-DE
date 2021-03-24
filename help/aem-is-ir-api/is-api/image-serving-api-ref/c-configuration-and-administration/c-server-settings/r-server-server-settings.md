@@ -1,16 +1,13 @@
 ---
 description: Verwenden Sie diese Servereinstellungen, um Ihren Server zu konfigurieren.
-seo-description: Verwenden Sie diese Servereinstellungen, um Ihren Server zu konfigurieren.
-seo-title: Server
 solution: Experience Manager
 title: Server
-uuid: 50db98cc-8354-4884-9416-00808828061b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
