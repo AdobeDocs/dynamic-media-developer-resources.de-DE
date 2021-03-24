@@ -1,17 +1,14 @@
 ---
 description: Legen Sie einen neuen Satz von Status-Flags für den Veröffentlichungskontext fest, der mit einem Asset verknüpft ist.
-seo-description: Legen Sie einen neuen Satz von Status-Flags für den Veröffentlichungskontext fest, der mit einem Asset verknüpft ist.
-seo-title: AssetContextStateUpdate
 solution: Experience Manager
 title: AssetContextStateUpdate
-uuid: 74bc693f-1ce9-4dcf-92f5-1177668ea3ef
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
