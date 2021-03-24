@@ -1,17 +1,14 @@
 ---
 description: Mit Image Serving können Sie eine beliebige Anzahl von Bild-, Text- und Farbebenen zu einem Composite-Bild kombinieren.
-seo-description: Mit Image Serving können Sie eine beliebige Anzahl von Bild-, Text- und Farbebenen zu einem Composite-Bild kombinieren.
-seo-title: Überblick über die Ebenen
 solution: Experience Manager
 title: Überblick über die Ebenen
-uuid: 74c0855b-050a-4631-adea-9488bca67fd2
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
 
