@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für Karussell-Viewer.
-seo-description: JavaScript-API-Referenz für Karussell-Viewer.
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: 770cbb87-af86-48dc-88a0-e74f6716f545
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '84'
 ht-degree: 3%
 
 ---
