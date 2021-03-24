@@ -1,16 +1,13 @@
 ---
 description: Ähnliche Anforderungen wie Beispiel A, verwenden Sie jedoch einen Hintergrund mit fester Farbe und lassen Sie die Höhe des Composite variieren, um Bilder mit unterschiedlichen Seitenverhältnissen aufzunehmen.
-seo-description: Ähnliche Anforderungen wie Beispiel A, verwenden Sie jedoch einen Hintergrund mit fester Farbe und lassen Sie die Höhe des Composite variieren, um Bilder mit unterschiedlichen Seitenverhältnissen aufzunehmen.
-seo-title: Beispiel B
 solution: Experience Manager
 title: Beispiel B
-uuid: 13120562-9201-4733-bd9d-4a54eac913e9
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
