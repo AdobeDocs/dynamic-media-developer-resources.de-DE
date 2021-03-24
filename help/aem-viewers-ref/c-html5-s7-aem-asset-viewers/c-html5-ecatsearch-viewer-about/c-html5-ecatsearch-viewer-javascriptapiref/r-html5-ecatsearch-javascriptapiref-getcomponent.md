@@ -1,16 +1,13 @@
 ---
 description: JavaScript-API-Referenz für den E-Katalog-Viewer
-seo-description: JavaScript-API-Referenz für den E-Katalog-Viewer
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: 4e5b79b5-4a2b-427a-b527-81247a6b740d
 feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
