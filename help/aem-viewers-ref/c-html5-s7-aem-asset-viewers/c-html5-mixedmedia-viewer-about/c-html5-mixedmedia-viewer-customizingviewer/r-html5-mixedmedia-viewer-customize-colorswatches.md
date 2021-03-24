@@ -1,16 +1,13 @@
 ---
 description: Farbfelder bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite. Farbfelder sind nur dann auf dem Desktop sichtbar, wenn alle Miniaturansichten nicht in die Breite des Containers passen. Auf Mobilgeräten oder, wenn Miniaturansichten in die Breite des Containers passen, werden keine Bildlaufschaltflächen angezeigt.
-seo-description: Farbfelder bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite. Farbfelder sind nur dann auf dem Desktop sichtbar, wenn alle Miniaturansichten nicht in die Breite des Containers passen. Auf Mobilgeräten oder, wenn Miniaturansichten in die Breite des Containers passen, werden keine Bildlaufschaltflächen angezeigt.
-seo-title: Farbfelder
 solution: Experience Manager
 title: Farbfelder
-uuid: 868d938f-578a-4ecf-8a71-9569450492fb
 feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
