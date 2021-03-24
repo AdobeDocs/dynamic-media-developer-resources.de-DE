@@ -1,16 +1,13 @@
 ---
 description: Standardmäßige Clientcache-Zeit bis zum Live-Betrieb. Bietet ein Standard-Ablaufintervall, falls ein bestimmter Katalogeintrag keinen gültigen Katalogablaufwert enthält.
-seo-description: Standardmäßige Clientcache-Zeit bis zum Live-Betrieb. Bietet ein Standard-Ablaufintervall, falls ein bestimmter Katalogeintrag keinen gültigen Katalogablaufwert enthält.
-seo-title: Ablauf
 solution: Experience Manager
 title: Ablauf
-uuid: 26b2abee-8bd1-4011-90ff-f5143826ac0d
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '126'
 ht-degree: 4%
 
 ---
