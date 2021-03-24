@@ -1,16 +1,13 @@
 ---
 description: Reguläres Musterelement für Ausdruck. Optional in <rule>-Elementen.
-seo-description: Reguläres Musterelement für Ausdruck. Optional in <rule>-Elementen.
-seo-title: Ausdruck
 solution: Experience Manager
 title: Ausdruck
-uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '164'
 ht-degree: 4%
 
 ---
