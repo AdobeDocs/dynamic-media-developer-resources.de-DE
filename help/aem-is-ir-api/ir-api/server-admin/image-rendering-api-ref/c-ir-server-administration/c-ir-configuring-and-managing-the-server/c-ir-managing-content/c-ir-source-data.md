@@ -1,16 +1,13 @@
 ---
 description: Zu den Quelldatendateien für das Image Rendering gehören Vignettendateien, Materialdateien (Bilder für wiederholbare Texturen und Dekore sowie Schrank- und Fensterbedeckungsdateien) und ICC-Profile.
-seo-description: Zu den Quelldatendateien für das Image Rendering gehören Vignettendateien, Materialdateien (Bilder für wiederholbare Texturen und Dekore sowie Schrank- und Fensterbedeckungsdateien) und ICC-Profile.
-seo-title: Quelldaten
 solution: Experience Manager
 title: Quelldaten
-uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
