@@ -1,17 +1,14 @@
 ---
 description: Graustufen-Standardfarbraum. Gibt den Namen des ICC-Profils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde.
-seo-description: Graustufen-Standardfarbraum. Gibt den Namen des ICC-Profils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde.
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: 064be242-d964-4fb8-99ea-78bb5599e70f
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
