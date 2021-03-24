@@ -1,17 +1,14 @@
 ---
 description: Die Hervorhebung des Eingabefokus, die um das Benutzeroberflächenelement des fokussierten Viewers angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
-seo-description: Die Hervorhebung des Eingabefokus, die um das Benutzeroberflächenelement des fokussierten Viewers angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
-seo-title: Fokushervorhebung
 solution: Experience Manager
 title: Fokushervorhebung
-uuid: 1b552aec-837a-4df4-91dc-615ceead92b3
 feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '88'
+ht-degree: 1%
 
 ---
 
