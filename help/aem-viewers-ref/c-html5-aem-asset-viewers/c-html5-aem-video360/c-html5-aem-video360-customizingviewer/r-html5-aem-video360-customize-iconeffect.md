@@ -1,17 +1,14 @@
 ---
 description: Das Wiedergabesymbol wird im Hauptbereich der Ansicht überlagert. Es wird angezeigt, wenn das Video angehalten wird oder das Ende des Videos erreicht wird, und es hängt auch vom iconeffect-Parameter ab.
-seo-description: Das Wiedergabesymbol wird im Hauptbereich der Ansicht überlagert. Es wird angezeigt, wenn das Video angehalten wird oder das Ende des Videos erreicht wird, und es hängt auch vom iconeffect-Parameter ab.
-seo-title: Symbol, Effekt
 solution: Experience Manager
 title: Symbol, Effekt
-uuid: a1e7d877-097c-4f43-8a6d-9627dc4924b1
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
