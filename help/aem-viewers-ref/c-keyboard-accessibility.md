@@ -5,13 +5,12 @@ title: Barrierefreiheit und Navigation
 feature: Dynamic Media Classic,Viewer,SDK/API
 role: Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Barrierefreiheit und Navigation{#keyboard-accessibility-and-navigation}
 
@@ -25,7 +24,7 @@ Alle Funktionen, die in der Benutzeroberfläche &quot;Einfaches Zoomen&quot;, &q
 
 Endbenutzer können mithilfe der Tastenkombinationen **[!UICONTROL Tab]** und **[!UICONTROL Umschalt+Tab]** zwischen den Elementen der Viewer-Benutzeroberfläche navigieren. Mithilfe von **[!UICONTROL Tab]** wird der Eingabefokus auf das nächste Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Durch die Verwendung von **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurückgesetzt. Der Fokusdurchlauf folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich in der Reihenfolge von links nach rechts und von oben nach unten.
 
-Je nach Betriebssystem- und Webbrowsereinstellungen erhält das Benutzeroberflächenelement mit Eingabefokus möglicherweise eine visuelle Fokusanzeige. Der visuelle Indikator kann beispielsweise ein dünner Rand sein, der um das Element der Benutzeroberfläche gerendert wird.
+Je nach Betriebssystem- und Webbrowsereinstellungen erhält das Benutzeroberflächenelement mit Eingabefokus eine visuelle Fokusanzeige. Der visuelle Indikator kann beispielsweise ein dünner Rand sein, der um das Element der Benutzeroberfläche gerendert wird.
 
 Sie können diese Fokushervorhebung im Viewer-CSS deaktivieren oder anpassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. &quot;Einfach vergrößern&quot;oder &quot;Interaktives Video&quot;) auf **Anpassen *Name des Viewers*** >** Fokusmarkierung **.
 
@@ -133,4 +132,3 @@ Tastenanschläge, die von einzelnen Elementen der Benutzeroberfläche des Viewer
   </tr> 
  </tbody> 
 </table>
-
