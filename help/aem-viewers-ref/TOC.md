@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media Viewer-Referenzhandbuch
 feature-set: Experience Manager Assets
 user-guide-description: Passen Sie Dynamic Media-Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Schließen Sie interaktive Bilder und Videos, Karussells, Rotationssets und mehr ein.
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1916'
 ht-degree: 4%
 
 ---
@@ -19,21 +19,22 @@ ht-degree: 4%
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Mehrere Viewer auf demselben Server installieren](t-installing-the-viewers.md)
 + Versionshinweise zu Viewern {#viewers-release-notes}
+   + [Versionshinweise Viewer (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Versionshinweise Viewer (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archiv {#archive}
       + [Versionshinweise - Archiv](c-release-notes/c-archive/c-archive.md)
-      + [Versionshinweise Viewer (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-      + [Versionshinweise Viewer (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-      + [Versionshinweise Viewer (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-      + [Versionshinweise Viewer (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Viewer 5.8.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Viewer 5.5.2 - Versionshinweise](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Viewer 5.4.2 - Versionshinweise](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Viewer 5.2.3 - Versionshinweise](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Viewer 5.2.2 - Versionshinweise](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Viewer 5.1.1 - Versionshinweise](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Viewer 5.0.1 - Versionshinweise](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Viewer 4.9.2 - Versionshinweise](c-release-notes/c-archive/c-rn-09-18-13.md)
+         + [Versionshinweise Viewer (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+         + [Versionshinweise Viewer (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+         + [Versionshinweise Viewer (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+         + [Versionshinweise Viewer (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+         + [Versionshinweise Viewer (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+         + [Versionshinweise Viewer (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+         + [Versionshinweise Viewer (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+         + [Versionshinweise Viewer (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+         + [Versionshinweise Viewer (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+         + [Versionshinweise Viewer (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+         + [Versionshinweise Viewer (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+         + [Versionshinweise Viewer (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Anmerkungen zur Kompatibilität](c-compatibility-notes.md)
 + [Barrierefreiheit und Navigation](c-keyboard-accessibility.md)
 + [Viewer-SDK-Tutorial](c-tutorial.md)
