@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setLocalizedTextes
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
+exl-id: 8ffb8960-187a-43ab-8081-7dfd95d4c75d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 2%
 
 ---
-
 
 # setLocalizedTexte{#setlocalizedtexts}
 
@@ -41,4 +41,3 @@ Keine.
 ```
 <instance>.setLocalizedTexts({"en":{"PanLeftButton.TOOLTIP":"Left"},"fr":{"PanLeftButton.TOOLTIP":"Gauchiste"},defaultLocale:"en"})
 ```
-
