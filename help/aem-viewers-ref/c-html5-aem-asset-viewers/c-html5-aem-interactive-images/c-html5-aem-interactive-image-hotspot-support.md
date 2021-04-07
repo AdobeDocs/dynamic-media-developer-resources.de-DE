@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Hotspot-Unterstützung
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
 role: Entwickler, Geschäftspraktiker
+exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
 
 ---
-
 
 # Hotspot-Unterstützung{#hotspot-support}
 
