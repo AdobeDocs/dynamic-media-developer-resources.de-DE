@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
 role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
+exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 3%
 
 ---
-
 
 # Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
 
@@ -84,4 +84,3 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
  </tbody> 
 </table>
-
