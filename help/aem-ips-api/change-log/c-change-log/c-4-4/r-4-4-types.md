@@ -4,8 +4,9 @@ solution: Experience Manager
 title: Datentypen neu und geändert
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
+exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 3%
