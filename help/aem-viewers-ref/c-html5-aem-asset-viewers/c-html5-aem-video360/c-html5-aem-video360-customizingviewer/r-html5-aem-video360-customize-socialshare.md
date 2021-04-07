@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Social Sharing
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
+exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 1%
 
 ---
-
 
 # Social Sharing{#social-share}
 
@@ -127,4 +127,3 @@ Das Erscheinungsbild des Bedienfelds mit den einzelnen Social Sharing-Symbolen w
  background-color: transparent; 
 }
 ```
-
