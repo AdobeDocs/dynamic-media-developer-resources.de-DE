@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Preloadimage
 feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
 role: Entwickler, Geschäftspraktiker
+exl-id: 5bb61804-8c61-473f-a8a7-aa30a410e22b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 12%
 
 ---
-
 
 # preloadimage{#preloadimage}
 
@@ -41,4 +41,3 @@ Optional.
 ```
 preloadImage=0
 ```
-
