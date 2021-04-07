@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Nächste Folie
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
+exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%
 
 ---
-
 
 # Nächste Folie{#next-slide}
 
@@ -103,4 +103,3 @@ Beispiel: Zum Einrichten einer Schaltfläche für eine vorherige Folie, die 60 x
 .s7carouselviewer.s7mouseinput .s7panrightbutton[state='down'] { background-position: -0px -0px; } 
 .s7carouselviewer.s7mouseinput .s7panrightbutton[state='disabled'] { background-position: -0px -60px; }
 ```
-
