@@ -5,13 +5,12 @@ title: Hochladen von Assets über HTTP POSTs zum UploadFile-Servlet
 feature: Dynamic Media Classic, SDK/API, Asset Management
 role: Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 3%
 
 ---
-
 
 # Hochladen von Assets mithilfe von HTTP-POSTs zum UploadFile-Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
@@ -205,4 +204,3 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
-
