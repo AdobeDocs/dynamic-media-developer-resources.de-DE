@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Schaltfläche "Abspielen/Anhalten"
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
+exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
 
 ---
-
 
 # Abspielen/Anhalten-Schaltfläche{#play-pause-button}
 
@@ -120,4 +120,3 @@ background-image:url(images/replayBtn_down.png);
 background-image:url(images/replayBtn_disabled.png); 
 }
 ```
-
