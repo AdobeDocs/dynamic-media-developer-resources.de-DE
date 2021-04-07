@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Unterstützung von Technologien
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner, Barrierefreiheit
 role: Entwickler, Geschäftspraktiker
+exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
 
 ---
-
 
 # Unterstützung durch unterstützende Technologien{#assistive-technology-support}
 
