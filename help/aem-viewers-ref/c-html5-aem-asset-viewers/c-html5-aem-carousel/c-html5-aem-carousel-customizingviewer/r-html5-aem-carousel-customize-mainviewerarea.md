@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Hauptbereich des Viewers
 feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
 role: Entwickler, Geschäftspraktiker
+exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
 
 ---
-
 
 # Hauptviewer-Bereich{#main-viewer-area}
 
@@ -59,4 +59,3 @@ Beispiel: Um einen Viewer mit einem weißen Hintergrund ( `#FFFFFF`) einzurichte
  height: 500px;  
 }
 ```
-
