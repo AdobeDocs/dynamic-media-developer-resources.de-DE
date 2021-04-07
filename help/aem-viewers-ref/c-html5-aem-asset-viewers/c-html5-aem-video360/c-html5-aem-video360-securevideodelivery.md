@@ -4,14 +4,14 @@ solution: Experience Manager
 title: HTTPS-Video-Versand
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
+exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
 
 ---
-
 
 # HTTPS-Video-Versand{#https-video-delivery}
 
@@ -59,4 +59,3 @@ Abhängig von der Methode zum Veröffentlichen von Dynamic Media-Videos, die Sie
    ```
 
    Siehe auch [Einbetten des Videos auf einer Webseite](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)
-
