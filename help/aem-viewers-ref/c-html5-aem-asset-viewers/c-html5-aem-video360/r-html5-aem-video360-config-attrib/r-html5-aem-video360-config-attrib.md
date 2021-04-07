@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
 feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
 role: Entwickler, Geschäftspraktiker
+exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Befehlsreferenz - Konfigurationsattribute{#command-reference-configuration-attributes}
 
