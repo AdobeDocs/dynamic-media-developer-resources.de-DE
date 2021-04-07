@@ -4,14 +4,14 @@ solution: Experience Manager
 title: ipsApiFault
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
+exl-id: 48be47f6-4c1c-4f19-afa7-f643e504c287
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 28%
 
 ---
-
 
 # ipsApiFault{#ipsapifault}
 
@@ -32,4 +32,3 @@ Syntax
 |---|---|---|
 | `code` | `xsd:int` | Fehler-ID |
 | `reason` | `xsd:string` | Eine informative Meldung, die den Fehler beschreibt. |
-
