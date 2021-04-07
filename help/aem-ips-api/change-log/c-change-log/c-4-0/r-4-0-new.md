@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Neue Hinzufügungen und Änderungen
 feature: Dynamic Media Classic, SDK/API
 role: Entwickler, Administrator
+exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 2%
 
 ---
-
 
 # Neue Hinzufügungen und Änderungen{#new-additions-and-changes}
 
@@ -363,4 +363,3 @@ Die Konfigurationseigenschaft `webservice.gzip.response` wurde geändert, um ein
   </tr> 
  </tbody> 
 </table>
-
