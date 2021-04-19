@@ -2,16 +2,16 @@
 description: Wird von ViewerPresetInfo verwendet.
 solution: Experience Manager
 title: Viewer-Typ
-feature: Dynamic Media Classic, SDK/API, Viewer
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Viewer
+role: Developer,Administrator
+exl-id: 35a11828-d188-4025-8133-154437ba2466
 translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '18'
+ht-degree: 33%
 
 ---
-
 
 # Viewer-Typ{#viewer-type}
 
@@ -27,4 +27,3 @@ Syntax
 * [!DNL `AdvancedZoom`]
 * [!DNL `Spin`]
 * [!DNL `All custom types`]
-
