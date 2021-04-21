@@ -2,8 +2,8 @@
 description: Pfaddaten einbetten. Gibt an, ob Photoshop-Pfade aus der Quellbilddatei der Ebene 0 in das Antwortbild einbezogen werden sollen.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Progressiver JPEG-Scan. Progressives JPEG zeigt ein Bild so an, dass es zunächst ein verschwommenes/minderwertiges Foto in seiner Gesamtheit anzeigt. Wenn das Scannen fortgesetzt wird, wird es klarer, wenn die Daten des Bildes umfassender heruntergeladen werden. Mit diesem Parameter können Sie festlegen, wie viele Scans (3, 4 oder 5) erforderlich sind, damit das gesamte Bild angezeigt wird.
 solution: Experience Manager
 title: pscan
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Durch die Schaltfläche "Abspielen/Anhalten"wird der Videoinhalt vom Videoplayer abgespielt oder angehalten, wenn der Benutzer darauf klickt.
 solution: Experience Manager
 title: Schaltfläche "Abspielen/Anhalten"
-feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

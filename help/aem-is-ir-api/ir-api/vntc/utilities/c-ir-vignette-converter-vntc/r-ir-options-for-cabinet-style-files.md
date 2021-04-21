@@ -2,8 +2,8 @@
 description: Die folgenden Optionen steuern die Verarbeitung von Kabinettstil-Dateien. Sie werden ignoriert, wenn sourceFile keine Möbeldatei ist oder wenn -info angegeben ist.
 solution: Experience Manager
 title: Optionen für Schalterstildateien
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Die Position der Schaltfläche wird vollständig über das Menü "Favoriten"verwaltet.
 solution: Experience Manager
 title: Schaltfläche "Ansicht - Alle Favoriten"
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Katalog-ID. Das HTTP-Pfadelement, mit dem dieser Katalog in der Vignette-, Material- oder ICC-Profil-Objektspezifikation in HTTP-Anforderungen identifiziert werden soll.
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

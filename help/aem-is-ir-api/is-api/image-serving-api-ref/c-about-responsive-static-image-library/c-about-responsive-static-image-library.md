@@ -2,8 +2,8 @@
 description: Die interaktive Bildbibliothek ist ein JavaScript-Modul, mit dem die Qualität der von Dynamic Media bereitgestellten und in responsive Webseiten eingebetteten Bilder dynamisch angepasst wird. Darüber hinaus bietet es eine verbesserte Bildqualität auf Geräten mit hochauflösenden Bildschirmen. Die Bibliothek kann auch Ergebnisse aus Smart-Zuschneiden und Smart-Muster responsiv rendern.
 solution: Experience Manager
 title: Info zur Bibliothek mit interaktiven Bildern
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

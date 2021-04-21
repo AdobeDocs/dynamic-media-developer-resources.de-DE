@@ -2,8 +2,8 @@
 description: Aktualisiert einen Bildsatz.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic, SDK/API, Bildsätze
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

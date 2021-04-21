@@ -2,8 +2,8 @@
 description: Das Vorlade-Bild ist ein Bild für die Vorschau von statischen Assets, das direkt nach dem Aufruf der init()-Methode geladen wird und das beim Herunterladen von Viewer-SDK-Bibliotheken sowie von Asset- und Vorgabeninformationen angezeigt wird. Das Vorlade-Bild dient dazu, die Ladezeit des Viewers visuell zu verbessern und dem Benutzer Inhalte schnell bereitzustellen.
 solution: Experience Manager
 title: Vorab-Bild
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 8caf156f-d641-44e9-94f9-5ba3245061a3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Das Bild, das dem Client als Antwort auf eine Anforderung von req=tmb zurückgegeben wird, wird vom Composite-Bild abgeleitet, indem die folgenden Werte mit wid=, hei=, attribute DefaultThumbPix und attribute MaxPix berücksichtigt werden.
 solution: Experience Manager
 title: Ansicht-Transformation für Miniaturansichten
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

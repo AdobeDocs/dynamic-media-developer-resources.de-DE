@@ -2,8 +2,8 @@
 description: Dekormaterialien umfassen Bekleidungskonstrukte wie Bekleidungsstücke, T-Shirt-Abdrücke, bestickte oder gedruckte Logos sowie nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen verwendet werden, wie z. B. Flächentrogs, Wand-Hing-Kunst, Schilder usw.
 solution: Experience Manager
 title: Dezimalstellen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

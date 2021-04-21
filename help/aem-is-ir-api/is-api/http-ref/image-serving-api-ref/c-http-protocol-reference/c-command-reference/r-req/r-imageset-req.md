@@ -2,8 +2,8 @@
 description: Bildsatzdaten aus dem Bildkatalog. Gibt Bildsatzdaten für den Bildkatalogeintrag zurück, der im URL-Pfad angegeben ist.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic, SDK/API, Bildsätze
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

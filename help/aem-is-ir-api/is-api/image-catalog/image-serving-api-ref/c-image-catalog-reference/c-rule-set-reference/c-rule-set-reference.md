@@ -2,8 +2,8 @@
 description: Image Serving unterstützt einen einfachen Mechanismus zur Vorverarbeitung von Anforderungen, der auf Regeln für die Übereinstimmung und Ersetzung von regulären Ausdrücken basiert.
 solution: Experience Manager
 title: Regelsatz
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

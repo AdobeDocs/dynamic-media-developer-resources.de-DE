@@ -2,8 +2,8 @@
 description: Resamplingmodus. Wählen Sie den Resampling- und/oder Interpolationsalgorithmus, der zum Skalieren von Bilddaten verwendet werden soll. Gilt auch für die Drehung von Textebenen und die Größenanpassung von Composite-Bildern während der Transformation der Ansicht.
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
 source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db

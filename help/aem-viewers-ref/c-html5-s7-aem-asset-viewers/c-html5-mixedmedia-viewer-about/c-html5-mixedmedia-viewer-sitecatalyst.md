@@ -2,8 +2,8 @@
 description: Der Viewer für gemischte Medien unterstützt die sofortige Adobe Analytics-Verfolgung.
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
-role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Enthält zusätzliche Meldungen, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Beinhaltet Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
 solution: Experience Manager
 title: JobLogDetailAux
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

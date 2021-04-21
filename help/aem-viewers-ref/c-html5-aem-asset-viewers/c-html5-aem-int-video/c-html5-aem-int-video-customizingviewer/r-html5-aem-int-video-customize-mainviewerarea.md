@@ -2,8 +2,8 @@
 description: Der Hauptbereich der Ansicht ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
 solution: Experience Manager
 title: Hauptbereich des Viewers
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

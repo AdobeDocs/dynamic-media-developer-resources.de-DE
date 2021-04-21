@@ -2,8 +2,8 @@
 description: 'Innerhalb dieses Typs ist das Feld "pageReset"für RenderSet- und Katalog-Bildelementtypen von Bedeutung '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic, SDK/API, Bildsätze
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

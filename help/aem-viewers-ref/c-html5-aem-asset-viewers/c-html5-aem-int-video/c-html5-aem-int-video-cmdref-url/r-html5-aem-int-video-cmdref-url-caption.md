@@ -2,8 +2,8 @@
 description: URL-Befehl für den interaktiven Video-Viewer.
 solution: Experience Manager
 title: caption
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

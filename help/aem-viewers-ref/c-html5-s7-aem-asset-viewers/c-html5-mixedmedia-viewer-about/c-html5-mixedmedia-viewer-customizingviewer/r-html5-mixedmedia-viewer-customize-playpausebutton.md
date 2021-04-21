@@ -2,8 +2,8 @@
 description: Durch die Schaltfläche "Abspielen/Anhalten"wird der Videoinhalt vom Videoplayer abgespielt oder angehalten, wenn der Benutzer darauf klickt.
 solution: Experience Manager
 title: Schaltfläche "Abspielen/Anhalten"
-feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

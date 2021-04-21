@@ -2,8 +2,8 @@
 description: Ein Image-Server-Proxy kann verwendet werden, um die Größe von Bildern für japanische Telefone zu ändern.
 solution: Experience Manager
 title: Image-Server-Proxy
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

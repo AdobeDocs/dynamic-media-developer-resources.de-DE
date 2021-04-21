@@ -2,8 +2,8 @@
 description: Der Stammordner für den Cache des Katalogsystems.
 solution: Experience Manager
 title: Katalog-Cache-Ordner (ir.catalogCacheRoot)
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

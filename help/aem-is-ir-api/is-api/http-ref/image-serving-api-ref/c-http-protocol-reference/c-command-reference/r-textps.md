@@ -2,8 +2,8 @@
 description: Ebenentext (Adobe Photoshop-kompatibel). Gibt den Textkörper für eine Textebene an.
 solution: Experience Manager
 title: textPs
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

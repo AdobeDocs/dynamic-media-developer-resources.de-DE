@@ -3,8 +3,8 @@ description: Der Video-Viewer ist ein Videoplayer, der Streaming- und Progressiv
 keywords: responsive
 solution: Experience Manager
 title: Video
-feature: Dynamic Media Classic, Viewer, SDK/API, Video
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: Der Flyout-Viewer ist ein Bild-Viewer. Es wird ein statisches Bild 
 keywords: responsive
 solution: Experience Manager
 title: Flyout
-feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

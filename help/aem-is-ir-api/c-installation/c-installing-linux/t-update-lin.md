@@ -2,8 +2,8 @@
 description: Verwenden Sie dieses Verfahren, wenn Sie Dynamic Media Image Serving unter Linux aktualisieren.
 solution: Experience Manager
 title: Aktualisieren von IS 4.7.4 oder höher
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

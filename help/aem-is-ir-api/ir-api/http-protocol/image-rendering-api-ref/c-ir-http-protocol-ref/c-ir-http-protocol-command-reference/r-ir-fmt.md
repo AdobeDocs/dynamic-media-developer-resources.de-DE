@@ -2,8 +2,8 @@
 description: Antwortbildformat. Gibt das Bildkodierungsformat für an den Client gesendete Bilddaten und den entsprechenden MIME-Typ der Antwort für den HTTP-Antwort-Header an.
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt

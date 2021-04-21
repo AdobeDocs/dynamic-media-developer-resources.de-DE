@@ -2,8 +2,8 @@
 description: Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Übergangsmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Photoshop-Dokumentation.
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

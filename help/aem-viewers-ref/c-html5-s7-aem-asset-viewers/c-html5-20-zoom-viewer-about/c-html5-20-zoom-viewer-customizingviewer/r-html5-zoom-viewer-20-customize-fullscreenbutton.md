@@ -2,8 +2,8 @@
 description: Verursacht, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn der Benutzer darauf klickt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System den nativen Vollbildmodus nicht unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 title: Schaltfläche "Vollbild"
-feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

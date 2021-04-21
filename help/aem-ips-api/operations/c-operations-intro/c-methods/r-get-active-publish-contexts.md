@@ -2,8 +2,8 @@
 description: Ruft eine Liste aktiver Kontexte für die Veröffentlichung für die angegebene Firma ab. Ein Veröffentlichungskontext gilt als aktiv, wenn mindestens ein aktiver Server für den Kontext definiert ist.
 solution: Experience Manager
 title: getActivePublishContext
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

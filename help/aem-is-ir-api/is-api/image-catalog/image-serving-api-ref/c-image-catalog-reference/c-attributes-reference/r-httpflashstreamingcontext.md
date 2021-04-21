@@ -2,8 +2,8 @@
 description: URL-Präfix des Flash-Streaming-Servers. Flash Streaming Server-URL-Präfix, das beim Generieren von Multi-Bit-Rate von f4m-Antworten mit req=mbrSet verwendet wird.
 solution: Experience Manager
 title: HttpFlashStreamingContext
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

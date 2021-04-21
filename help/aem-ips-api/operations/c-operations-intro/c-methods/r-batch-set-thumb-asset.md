@@ -2,8 +2,8 @@
 description: Legt das Miniaturbild für ein oder mehrere Assets fest.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic, SDK/API, Asset Management
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

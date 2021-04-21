@@ -2,8 +2,8 @@
 description: Enthält Informationen zu einem Metadatenobjekt der Firma wie ID, Name und Typ.
 solution: Experience Manager
 title: CompanyMetadataInfo
-feature: Dynamic Media Classic, SDK/API, Metadaten
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

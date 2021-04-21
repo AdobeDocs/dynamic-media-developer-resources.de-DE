@@ -2,8 +2,8 @@
 description: Gibt alle Ordner und Unterordner ab dem Ordnerpfad zurück. Die getFolders-Antwort gibt maximal 100.000 Ordner zurück.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

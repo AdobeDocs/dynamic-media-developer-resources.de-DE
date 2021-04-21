@@ -2,8 +2,8 @@
 description: Verfügbare Gebietsschema-spezifische Versionen. Gibt eine Liste der verfügbaren Gebietsschema-spezifischen Versionen der Katalog-ID zurück, die im Anforderungspfad angegeben ist.
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Legt die Befehle des Image Serving- oder Image Rendering-Protokolls für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne ihn zu zerstören.
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

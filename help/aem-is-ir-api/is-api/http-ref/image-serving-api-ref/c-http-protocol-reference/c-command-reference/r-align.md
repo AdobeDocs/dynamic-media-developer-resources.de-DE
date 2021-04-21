@@ -2,8 +2,8 @@
 description: Bild mit Ansicht ausrichten Richtet das Composite-Bild (möglicherweise nach der Skalierung, wenn auch scl= angegeben ist) innerhalb des Rechtecks der Ansicht, das durch wid= und hei= definiert wird.
 solution: Experience Manager
 title: align
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

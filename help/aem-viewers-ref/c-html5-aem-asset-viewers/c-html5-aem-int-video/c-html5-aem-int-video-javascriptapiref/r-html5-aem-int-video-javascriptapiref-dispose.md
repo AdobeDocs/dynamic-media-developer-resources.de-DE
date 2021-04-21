@@ -2,8 +2,8 @@
 description: JavaScript-API-Referenz für den interaktiven Video-Viewer.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

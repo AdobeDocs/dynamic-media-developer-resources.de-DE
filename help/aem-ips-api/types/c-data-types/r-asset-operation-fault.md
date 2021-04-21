@@ -2,8 +2,8 @@
 description: Enthält Informationen zu Warn- oder Fehlerbedingungen, die während eines Batch-Asset-Vorgangs generiert wurden. Die Felder Code und Grund entsprechen den Feldern der Fehlermeldung, die für den entsprechenden Nicht-Batch-Vorgang ausgegeben wurden.
 solution: Experience Manager
 title: AssetOperationFault
-feature: Dynamic Media Classic, SDK/API, Asset Management
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

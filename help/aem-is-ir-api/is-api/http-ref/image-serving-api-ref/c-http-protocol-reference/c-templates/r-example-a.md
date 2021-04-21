@@ -2,8 +2,8 @@
 description: Erstellen Sie eine Vorlage mit fester Größe mit einem statischen Hintergrundbild, einem variablen Bild, das am Hintergrund in der linken Mitte ausgerichtet und auf maximal 80 % der Breite und Höhe des Hintergrunds skaliert ist, und einer Textebene mit vertikalem Text, der auf der rechten Kante der Arbeitsfläche zentriert ist.
 solution: Experience Manager
 title: Beispiel A
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Der Sitzungskatalog ist der Materialkatalog, der Sitzungsattribute für die Anforderung sowie einen standardmäßigen catId-Wert für alle Befehle src=, vignette= und icc= bereitstellt.
 solution: Experience Manager
 title: Sitzungskatalog
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

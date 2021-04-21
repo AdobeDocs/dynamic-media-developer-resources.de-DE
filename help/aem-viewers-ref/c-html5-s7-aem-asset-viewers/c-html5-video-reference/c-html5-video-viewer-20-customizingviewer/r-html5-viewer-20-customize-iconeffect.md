@@ -2,8 +2,8 @@
 description: Das Wiedergabesymbol wird im Hauptbereich der Ansicht überlagert. Es wird angezeigt, wenn das Video angehalten wird oder das Ende des Videos erreicht wird, und es hängt auch vom iconeffect-Parameter ab.
 solution: Experience Manager
 title: Symbol, Effekt
-feature: Dynamic Media Classic, Viewer, SDK/API, Video
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

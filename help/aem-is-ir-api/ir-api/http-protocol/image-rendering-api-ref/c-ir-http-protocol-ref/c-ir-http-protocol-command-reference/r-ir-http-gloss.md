@@ -2,8 +2,8 @@
 description: Materialoberflächenglanz. Gibt die relative Glanz der Materialoberfläche an. Dient zur Auswahl der Beleuchtungskarte und zur Steuerung des Renderings von Glanzeffekten und 3D-Reflexionen.
 solution: Experience Manager
 title: gloss
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

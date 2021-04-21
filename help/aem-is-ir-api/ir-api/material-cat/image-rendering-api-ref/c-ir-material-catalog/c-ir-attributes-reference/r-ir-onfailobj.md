@@ -2,8 +2,8 @@
 description: Verarbeitung von Objektauswahlfehlern Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad nicht mit der Vignettenobjekthierarchie übereinstimmen kann.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

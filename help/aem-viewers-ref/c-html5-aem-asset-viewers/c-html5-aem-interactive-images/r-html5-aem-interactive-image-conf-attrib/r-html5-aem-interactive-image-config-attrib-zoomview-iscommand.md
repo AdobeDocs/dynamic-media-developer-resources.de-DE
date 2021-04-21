@@ -2,8 +2,8 @@
 description: Die Image Serving-Befehlszeichenfolge, die auf das Zoombild angewendet wird.
 solution: Experience Manager
 title: ZoomView.iscommand
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

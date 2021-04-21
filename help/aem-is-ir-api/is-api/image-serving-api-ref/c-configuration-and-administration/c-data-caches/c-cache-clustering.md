@@ -2,8 +2,8 @@
 description: Das Cache-Clustering ermöglicht es mehreren Servern mit Lastenausgleich, Cache-Einträge im primären Antwortcache und im sekundären Datencache (für verschachtelte/eingebettete Anforderungen) auszutauschen, wodurch die Reaktionsgeschwindigkeit des Servers erheblich gesteigert werden kann, da der Cache-Eintrag nicht mehr auf mehreren Servern generiert werden muss.
 solution: Experience Manager
 title: Cache-Clustering
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

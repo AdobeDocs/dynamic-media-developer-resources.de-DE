@@ -2,8 +2,8 @@
 description: Alle Konfigurationsdateien befinden sich in install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Der Server muss möglicherweise neu gestartet werden, damit die Änderungen wirksam werden.
 solution: Experience Manager
 title: Serverkonfigurationsdateien
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

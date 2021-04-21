@@ -2,8 +2,8 @@
 description: Bildsatzdaten. Bietet einen Mechanismus zum Definieren sortierter Bildsätze und Steuerungsattribute, die von den Dynamic Media-Viewern verwendet werden.
 solution: Experience Manager
 title: Bildsatz
-feature: Dynamic Media Classic, SDK/API, Bildsätze
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

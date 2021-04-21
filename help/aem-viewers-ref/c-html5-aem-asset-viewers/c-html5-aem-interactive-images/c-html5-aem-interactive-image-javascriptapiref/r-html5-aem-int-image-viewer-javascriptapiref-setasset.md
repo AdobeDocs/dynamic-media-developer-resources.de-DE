@@ -2,8 +2,8 @@
 description: JavaScript-API-Referenz für Video-Bild-Viewer.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: e5f88bc9-a880-45eb-9554-57e185937d29
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

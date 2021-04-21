@@ -2,8 +2,8 @@
 description: Die Hauptklasse des interaktiven Bild-Viewers ist InteractiveImage. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 solution: Experience Manager
 title: JavaScript-API-Referenz für den interaktiven Bild-Viewer
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Eine Prioritätswarnung wird gesendet, wenn der freie Java-Heap-Speicherplatz unmittelbar nach einem Java-Garbage Collection-Zyklus unter dem angegebenen Schwellenwert liegt.
 solution: Experience Manager
 title: Warnung zur Priorität des Heap-Speicherplatzes
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

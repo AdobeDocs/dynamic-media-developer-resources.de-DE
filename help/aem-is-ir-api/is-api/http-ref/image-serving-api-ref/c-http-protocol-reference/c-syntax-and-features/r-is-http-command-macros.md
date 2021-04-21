@@ -2,8 +2,8 @@
 description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit. Makros sind in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
 solution: Experience Manager
 title: Befehlsmakros
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

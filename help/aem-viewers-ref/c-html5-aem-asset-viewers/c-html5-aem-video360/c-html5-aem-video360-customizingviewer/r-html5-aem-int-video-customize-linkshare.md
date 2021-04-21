@@ -2,8 +2,8 @@
 description: Das Tool zum Teilen von Links besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird, sowie dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
 solution: Experience Manager
 title: Linkfreigabe
-feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

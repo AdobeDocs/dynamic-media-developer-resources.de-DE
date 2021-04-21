@@ -2,8 +2,8 @@
 description: Der Hauptbereich der Ansicht ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt wird.
 solution: Experience Manager
 title: Hauptbereich des Viewers
-feature: Dynamic Media Classic, Viewer, SDK/API, Flyout
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

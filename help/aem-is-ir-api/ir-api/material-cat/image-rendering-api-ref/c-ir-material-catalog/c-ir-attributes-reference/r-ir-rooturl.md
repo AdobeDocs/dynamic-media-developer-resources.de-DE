@@ -2,8 +2,8 @@
 description: Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. Attribut RootUrl wird anstelle des Attributs RootPath verwendet, wenn ein src=-Wert von { geschweifte Klammern } eingeschlossen wird.
 solution: Experience Manager
 title: RootUrl *
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

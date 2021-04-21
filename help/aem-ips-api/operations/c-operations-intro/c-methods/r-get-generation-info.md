@@ -2,8 +2,8 @@
 description: Gibt 2 verschiedene Arten von Informationen basierend auf den weitergeleiteten Parametern zurück. originatorHandle gibt Informationen zu Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen zu Schritten zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet werden.
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Dokumentation zu Konfigurationsattributen für den interaktiven Video-Viewer.
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Die Details eines Auftragsprotokolls, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic, SDK/API, Asset Management
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

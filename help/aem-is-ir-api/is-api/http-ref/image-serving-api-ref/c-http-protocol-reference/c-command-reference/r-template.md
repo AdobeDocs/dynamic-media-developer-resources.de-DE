@@ -2,8 +2,8 @@
 description: Erstellen einer Vorlage. Ermöglicht das Festlegen einer Compositing-Vorlage in einem anderen Katalog als dem Hauptkatalog.
 solution: Experience Manager
 title: Vorlage
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

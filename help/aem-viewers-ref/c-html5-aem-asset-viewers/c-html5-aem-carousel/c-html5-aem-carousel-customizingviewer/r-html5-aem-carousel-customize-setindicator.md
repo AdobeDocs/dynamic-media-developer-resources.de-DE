@@ -2,8 +2,8 @@
 description: Der Indikator "Festlegen"ist eine Reihe von Punkten, die am unteren Rand des Viewers gerendert werden. Es zeigt die aktuelle Position innerhalb des Satzes an.
 solution: Experience Manager
 title: Indikator festlegen
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

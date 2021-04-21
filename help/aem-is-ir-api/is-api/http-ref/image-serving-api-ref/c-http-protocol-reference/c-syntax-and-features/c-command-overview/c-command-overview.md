@@ -2,8 +2,8 @@
 description: Die von Image Serving unterstützten Befehle sind unten nach grober Kategorie gruppiert aufgeführt. Einzelheiten zur Verwendung und Anwendbarkeit finden Sie in den jeweiligen Befehlsbeschreibungen.
 solution: Experience Manager
 title: Übersicht über das Image Serving-HTTP-Protokoll
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

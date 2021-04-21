@@ -2,8 +2,8 @@
 description: Das Hinzufügen neuer Datendateien ist einfach und unkompliziert, aber beim Ersetzen vorhandener Datendateien, die vom Server aktiv verwendet werden, muss besondere Vorsicht geboten werden. Anstatt diese Dateien einfach zu ersetzen, wird empfohlen, der Ersatzdatei einen neuen Namen zu geben (z. B. ein Versionssuffix an den Dateinamen anhängen). Nachdem die neue Datei live geschaltet wurde, kann die alte Version gelöscht werden.
 solution: Experience Manager
 title: Löschen oder Ersetzen von Datendateien
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Fügt einem Array von Gruppen einen Benutzer hinzu.
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

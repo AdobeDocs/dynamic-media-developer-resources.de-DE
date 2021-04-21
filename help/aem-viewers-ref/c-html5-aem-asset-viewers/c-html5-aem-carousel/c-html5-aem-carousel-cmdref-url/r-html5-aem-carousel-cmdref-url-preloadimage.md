@@ -2,8 +2,8 @@
 description: URL-Befehl für Karussell-Viewer.
 solution: Experience Manager
 title: preloadimage**
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

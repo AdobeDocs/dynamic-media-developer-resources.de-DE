@@ -2,8 +2,8 @@
 description: Das Bedienfeld für interaktive Muster wird neben dem Videoinhalt angezeigt, wenn interaktive Daten in der Konfiguration an den Viewer weitergeleitet wurden. Es besteht aus einem Banner am oberen Rand, mit dem Text wie "Zur Ansicht klicken", einer oder mehreren interaktiven Farbfeldern und zwei Bildlaufschaltflächen (nur auf Desktop-Systemen verfügbar) gerendert werden.
 solution: Experience Manager
 title: Interaktive Muster
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

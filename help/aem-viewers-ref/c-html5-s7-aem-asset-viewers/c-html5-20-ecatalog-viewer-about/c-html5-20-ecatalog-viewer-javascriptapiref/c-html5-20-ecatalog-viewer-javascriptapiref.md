@@ -2,8 +2,8 @@
 description: Die Hauptklasse des E-Katalog-Viewers ist eCatalogViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 solution: Experience Manager
 title: JavaScript-API-Referenz für den E-Katalog-Viewer
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

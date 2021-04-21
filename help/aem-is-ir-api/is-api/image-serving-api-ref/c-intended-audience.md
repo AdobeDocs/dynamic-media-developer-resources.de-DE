@@ -2,8 +2,8 @@
 description: Erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Website oder eine benutzerdefinierte Anwendung nutzen möchten.
 solution: Experience Manager
 title: Vorgesehene Audience
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

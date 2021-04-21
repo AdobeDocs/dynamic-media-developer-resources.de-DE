@@ -2,8 +2,8 @@
 description: JavaScript-API-Referenz für den interaktiven Video-Viewer.
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Region von Interesse. Gibt einen rechteckigen Interessenbereich (ROI) im Gesamtbild in Pixel an.
 solution: Experience Manager
 title: rgn
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Die Videozeit ist die numerische Anzeige, die die aktuelle Zeit und Dauer des gerade wiedergegebenen Videos anzeigt.
 solution: Experience Manager
 title: Videozeit
-feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 78657fd2-e805-4047-be0a-592143025986
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Standardgröße für Miniaturansichten. Wird anstelle des Attributs DefaultPix für Miniaturansichtsanforderungen (req=tmb) verwendet.
 solution: Experience Manager
 title: DefaultThumbPix
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

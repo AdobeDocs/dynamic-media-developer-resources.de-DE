@@ -2,8 +2,8 @@
 description: Diese Befehle gelten für Bild-, Text- und Vollfarbebenen. Die meisten sind für das Composite-Bild und für einfache Anforderungen ohne Ebenen nicht aussagekräftig. Sie gelten nicht für Effektebenen.
 solution: Experience Manager
 title: Allgemeine Ebenenbefehle
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

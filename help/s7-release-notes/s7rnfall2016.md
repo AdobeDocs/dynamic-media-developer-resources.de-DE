@@ -3,7 +3,7 @@ description: '"Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil
 solution: Experience Manager
 title: Scene7 Version Herbst 2016
 feature: Dynamic Media Classic
-role: Entwickler, Geschäftspraktiker
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

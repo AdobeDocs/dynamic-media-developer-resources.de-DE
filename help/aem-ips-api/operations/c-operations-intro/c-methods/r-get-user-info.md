@@ -2,8 +2,8 @@
 description: Ruft Informationen zu einem Benutzer ab. Verwenden Sie die E-Mail-Adresse und das Kennwort eines Systembenutzers als Anmeldeinformationen für die Autorisierung der Anforderung. Andernfalls ruft der Vorgang Informationen zum Standardbenutzer ab.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

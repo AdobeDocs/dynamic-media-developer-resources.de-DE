@@ -2,8 +2,8 @@
 description: Ruft alle Tag-Wörterbuchwerte ab, die für ein oder mehrere Tag-Felder definiert sind.
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Übersatztextrahmen mit Pluszeichen anzeigen. Ein Indikator für Textüberlauf wird angezeigt, wenn Text in einem Textrahmen (oder bei verkettetem Text im letzten Textrahmen) den vorgesehenen Platz überschreitet. Der Indikator ist ein rotes Kästchen mit einem Pluszeichen.
 solution: Experience Manager
 title: markOverflowingTextFrames
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

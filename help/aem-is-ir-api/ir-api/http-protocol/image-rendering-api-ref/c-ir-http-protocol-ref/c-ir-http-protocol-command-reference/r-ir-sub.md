@@ -2,8 +2,8 @@
 description: Unterauswahl. Ermöglicht das Anwenden unterschiedlicher Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe sowie das Entfernen zuvor angewendeter Materialien.
 solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

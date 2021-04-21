@@ -2,8 +2,8 @@
 description: Ruft alle mit dem angegebenen Asset verknüpften Viewer-Konfigurationseinstellungen ab.
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer-Vorgaben
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

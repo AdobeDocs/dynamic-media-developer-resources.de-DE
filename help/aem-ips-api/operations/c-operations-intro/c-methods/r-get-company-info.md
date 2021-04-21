@@ -2,8 +2,8 @@
 description: Gibt Informationen zur angegebenen Firma zurück, einschließlich des Firma-Handles, des Namens der Firma, des Stammpfads und des Ablaufdatums. Sie müssen entweder companyHandle oder companyName angeben, deren Informationen Sie abrufen möchten.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

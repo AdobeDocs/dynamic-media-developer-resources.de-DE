@@ -2,8 +2,8 @@
 description: Diese Befehle gelten unabhängig davon, wo in der Anforderung sie angezeigt werden.
 solution: Experience Manager
 title: Anforderungsbefehle
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

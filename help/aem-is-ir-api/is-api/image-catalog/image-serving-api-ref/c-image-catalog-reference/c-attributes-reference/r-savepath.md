@@ -2,8 +2,8 @@
 description: Stammpfad für saveToFile=. Relativer Pfad für den Stammordner, in den mit req=saveToFile generierte Bilder geschrieben werden sollen.
 solution: Experience Manager
 title: SavePath
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

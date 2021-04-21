@@ -2,8 +2,8 @@
 description: Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich in Dynamic Media Classic erstellt wurden, oder rendert exakte Bereiche, die mit der Form der Original-Imagemaps übereinstimmen.
 solution: Experience Manager
 title: Imagemap-Effekt
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

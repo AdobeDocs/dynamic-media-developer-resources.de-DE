@@ -2,8 +2,8 @@
 description: Standard-Renderbildgröße. Der Server schränkt die Größe von Antwortbildern auf diese Breite und Höhe ein, wenn in der Anforderung nicht explizit die Größe der Ansicht mit wid= oder hei= angegeben wird.
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

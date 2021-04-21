@@ -2,8 +2,8 @@
 description: Speicherort des Katalogordners (in dem sich alle catalog.ini-Dateien befinden müssen).
 solution: Experience Manager
 title: Katalogordner (ir.catalogRootPath)
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

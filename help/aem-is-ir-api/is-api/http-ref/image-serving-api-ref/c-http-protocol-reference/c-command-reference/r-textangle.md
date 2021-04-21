@@ -2,8 +2,8 @@
 description: Textwiedergaberichtung. Gibt den Winkel an, in dem der mit textPs= angegebene Text angeordnet und in das Textfeld gerendert wird (definiert mit size= oder textFlowPath=).
 solution: Experience Manager
 title: textAngle
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

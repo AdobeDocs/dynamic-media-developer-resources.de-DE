@@ -2,8 +2,8 @@
 description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Ansicht vergrößert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 title: Schaltfläche "Vergrößern"
-feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

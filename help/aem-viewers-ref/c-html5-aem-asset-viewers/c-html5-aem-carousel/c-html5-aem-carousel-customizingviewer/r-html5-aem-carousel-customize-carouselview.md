@@ -2,8 +2,8 @@
 description: Die Hauptansicht besteht aus der Ansicht des Banners.
 solution: Experience Manager
 title: Karussell-Ansicht
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: aa41b209-11c7-4744-aaa5-dc0b503607c6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

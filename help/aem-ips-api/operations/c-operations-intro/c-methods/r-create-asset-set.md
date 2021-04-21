@@ -2,8 +2,8 @@
 description: Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, die auf einem Image-Server veröffentlicht wird.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic, SDK/API, Asset Management
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

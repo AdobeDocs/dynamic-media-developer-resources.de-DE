@@ -2,8 +2,8 @@
 description: Ruft die angegebenen Auftragsprotokolle für die ausgewählte Firma ab. Sie können nach Zeichen, Richtung, Beginn- und Enddatum und Anzahl der Zeilen sortieren.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

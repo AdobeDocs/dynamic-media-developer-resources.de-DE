@@ -2,8 +2,8 @@
 description: Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

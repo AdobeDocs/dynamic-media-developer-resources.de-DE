@@ -2,8 +2,8 @@
 description: Die Hauptsteuerungsleiste ist der rechteckige Bereich auf Desktop-Systemen und Tablets, der alle Steuerelemente der Benutzeroberfläche (mit Ausnahme der Schaltflächen "Große Seite") enthält, die für den E-Katalog-Viewer verfügbar sind.
 solution: Experience Manager
 title: Hauptsteuerleiste
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

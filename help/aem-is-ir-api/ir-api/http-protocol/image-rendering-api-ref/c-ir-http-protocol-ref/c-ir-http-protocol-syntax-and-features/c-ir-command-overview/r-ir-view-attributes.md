@@ -2,8 +2,8 @@
 description: Diese Befehle sind von Position unabhängig und können an einer beliebigen Stelle in einer Anforderung auftreten.
 solution: Experience Manager
 title: Ansichten-Attribute
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

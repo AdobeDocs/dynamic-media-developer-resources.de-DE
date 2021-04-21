@@ -2,8 +2,8 @@
 description: Verwendung der Bildmaske. Gibt an, wie der Kanal "Maske"oder "Alpha"für Bildoperationen verwendet wird (z. B. "colorize="). Wenn in einer Effektebene angegeben, kann der Effekt auf den Hintergrundbereich der übergeordneten Ebene oder auf das gesamte Rechteck der übergeordneten Ebene angewendet werden.
 solution: Experience Manager
 title: maskUse
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

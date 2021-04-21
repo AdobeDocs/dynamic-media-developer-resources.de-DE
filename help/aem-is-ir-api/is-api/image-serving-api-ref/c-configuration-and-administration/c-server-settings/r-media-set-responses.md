@@ -2,8 +2,8 @@
 description: Die Einstellungen in diesem Abschnitt gelten für die Medienset-Antworten, die mit dem Modifikator req=set abgerufen werden.
 solution: Experience Manager
 title: Medienset-Antworten
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

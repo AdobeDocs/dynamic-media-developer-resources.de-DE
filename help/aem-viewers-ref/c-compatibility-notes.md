@@ -2,8 +2,8 @@
 description: Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 solution: Experience Manager
 title: Anmerkungen zur Kompatibilität
-feature: Dynamic Media Classic,Viewer,SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

@@ -2,8 +2,8 @@
 description: Nur zur internen Verwendung. Die Benutzer sollten auf den Abschnitt Image Serving Image Catalog Reference - Attribute Reference verweisen.
 solution: Experience Manager
 title: getImageServingPublishSettings
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

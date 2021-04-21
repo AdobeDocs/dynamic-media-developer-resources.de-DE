@@ -3,8 +3,8 @@ description: Alle visuellen Anpassungen und die meisten Verhaltensanpassungen f√
 keywords: responsive
 solution: Experience Manager
 title: Anpassen des interaktiven Bild-Viewers
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
-role: Entwickler, Gesch√§ftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

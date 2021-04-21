@@ -2,8 +2,8 @@
 description: Katalogdatensatzkennung. Schlüsselwert, nach dem die Materialdatensätze vom Render-Server angesehen werden. Typischerweise eine kurze und eindeutige Materialkennung, z. B. eine SKU-Nummer.
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

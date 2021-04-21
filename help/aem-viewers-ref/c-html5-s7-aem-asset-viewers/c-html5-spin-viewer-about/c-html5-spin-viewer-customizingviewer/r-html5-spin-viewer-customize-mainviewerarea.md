@@ -2,8 +2,8 @@
 description: Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Rotationsbild befindet. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
 solution: Experience Manager
 title: Hauptbereich des Viewers
-feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

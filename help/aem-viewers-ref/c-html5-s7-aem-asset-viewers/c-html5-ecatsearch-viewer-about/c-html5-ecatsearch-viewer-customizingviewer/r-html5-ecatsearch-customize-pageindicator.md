@@ -2,8 +2,8 @@
 description: Der Seitenindikator zeigt den aktuellen Seitenindex und die Gesamtzahl der Seiten an. Es wird in der Hauptsteuerungsleiste auf Desktop-Systemen und Tablets angezeigt, auf Mobiltelefonen wird es der sekundären Steuerungsleiste hinzugefügt. Der Seitenindikator kann mithilfe von CSS skaliert, gestapelt und positioniert werden.
 solution: Experience Manager
 title: Seitenindikator
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Unterstützung der Adobe Analytics-Verfolgung
 solution: Experience Manager
 title: Unterstützung der Adobe Analytics-Verfolgung
-feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
-role: Entwickler,Business Practitioner,Dateningenieur,Datenarchitektur
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

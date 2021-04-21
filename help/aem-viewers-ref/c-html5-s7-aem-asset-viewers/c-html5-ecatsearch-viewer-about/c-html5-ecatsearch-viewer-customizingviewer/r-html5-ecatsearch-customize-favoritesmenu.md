@@ -2,8 +2,8 @@
 description: Die Dropdown-Liste "Favoriten"wird in der Steuerungsleiste angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn ein Benutzer auf eine Schaltfläche klickt oder darauf tippt. Das Bedienfeld enthält einzelne Favoriten-Werkzeuge.
 solution: Experience Manager
 title: Favoriten, Menü
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

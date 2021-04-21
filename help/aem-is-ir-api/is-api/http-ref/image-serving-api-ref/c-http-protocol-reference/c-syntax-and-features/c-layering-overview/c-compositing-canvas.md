@@ -2,8 +2,8 @@
 description: Ebenen werden in der vom Befehl layer= festgelegten Reihenfolge zusammengefügt, wobei Ebenen mit einer höheren Nummerierung Ebenen mit einer niedrigeren Nummerierung ausblenden.
 solution: Experience Manager
 title: Die Arbeitsfläche zum Erstellen von Kompositionen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

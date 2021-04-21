@@ -2,8 +2,8 @@
 description: Eigenschaftensätze sind anwendungsspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatztyp an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatztyp nicht zulässt, dass mehrere Sätze an ein Objekt angehängt werden (PropertySetType/allowMultipleisfalse) und das Objekt bereits über einen zugeordneten Satz desselben Typs verfügt, ersetzt der neue Satz den vorhandenen.
 solution: Experience Manager
 title: createPropertySet
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

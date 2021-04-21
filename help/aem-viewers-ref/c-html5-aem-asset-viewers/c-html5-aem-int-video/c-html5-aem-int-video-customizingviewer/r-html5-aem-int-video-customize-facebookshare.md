@@ -2,8 +2,8 @@
 description: Das Freigeben-Tool für Facebook besteht aus einer Schaltfläche, die dem Social Sharing-Bedienfeld hinzugefügt wird. Wenn auf die Schaltfläche geklickt wird, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social Sharing-Tool verwaltet.
 solution: Experience Manager
 title: Facebook-Freigabe
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 209dfe87-ca9d-405f-ba78-4e88f6ebe1d2
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

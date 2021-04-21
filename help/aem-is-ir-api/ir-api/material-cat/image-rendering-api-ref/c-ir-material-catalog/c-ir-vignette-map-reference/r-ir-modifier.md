@@ -2,8 +2,8 @@
 description: Anforderungs-Modifikator-Zeichenfolge. Keine oder mehr Bildwiedergabebefehle, durch "&"getrennt. Dient zum Speichern von Vorlagen und Modifikatoren, die bei jeder Anforderung dieses Vignettenzuordnungseintrags angewendet werden.
 solution: Experience Manager
 title: Modifikator
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

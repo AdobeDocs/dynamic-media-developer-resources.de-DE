@@ -2,8 +2,8 @@
 description: Statischer Pfad zum Stammordner für Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
 solution: Experience Manager
 title: StaticContentRootPath
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

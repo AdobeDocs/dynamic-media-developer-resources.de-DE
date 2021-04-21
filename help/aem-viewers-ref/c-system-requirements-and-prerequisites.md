@@ -3,8 +3,8 @@ title: Systemanforderungen für Dynamic Media HTML5-Viewer
 description: Systemanforderungen für Dynamic Media HTML5-Viewer.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,Viewer,SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
 source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743

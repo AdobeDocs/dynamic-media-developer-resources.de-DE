@@ -2,8 +2,8 @@
 description: Die variable Deckkraft wird für einfarbige und wiederholbare Texturen unterstützt, die auf überlappende Objekte angewendet werden, sowie für Dekore und Fensterbedeckungsmaterialien.
 solution: Experience Manager
 title: Unterschiedliche Materialdeckkraft
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Fehlermeldungsbild. Beim Rendern von Bildern wird normalerweise ein Fehlerstatus mit einer Textmeldung zurückgegeben, wenn ein Fehler auftritt. Attribut ErrorImage ermöglicht die Konfiguration eines Bildes, das im Fehlerfall zurückgegeben werden kann.
 solution: Experience Manager
 title: ErrorImage *
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

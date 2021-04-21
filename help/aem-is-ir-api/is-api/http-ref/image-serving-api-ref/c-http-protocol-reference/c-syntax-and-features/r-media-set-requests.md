@@ -2,8 +2,8 @@
 description: Image Serving bietet einen Mechanismus zum Abrufen einer hierarchischen Textantwort (xml oder json), die alle Ressourcen und Metadaten darstellt, die mit dem Katalog ImageSet für einen bestimmten Datensatz verknüpft sind.
 solution: Experience Manager
 title: Medienset-Anforderungen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Katalogdatendateien können einen beliebigen Namen und Dateisuffix haben (mit Ausnahme von .ini). Sie können problemlos mit Anwendungen verwaltet werden, die tabulatorgetrennte Textdatendateien unterstützen, wie Microsoft Excel und Access.
 solution: Experience Manager
 title: Katalogdatendateien
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

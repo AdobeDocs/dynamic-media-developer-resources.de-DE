@@ -2,8 +2,8 @@
 description: Perspektivische Transformation. Wenden Sie eine perspektivische Transformation auf das Ebenenquellenbild an, um den festgelegten Bereich mit dem quadrilateralen zu füllen. Andere Bereiche der Ebene bleiben transparent.
 solution: Experience Manager
 title: Perspektive
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Zoomdaten zu Zielgruppen aus dem Bildkatalog. Gibt Zoomdaten für die Zielgruppe des Bildkatalogeintrags zurück, der im URL-Pfad angegeben ist.
 solution: Experience Manager
 title: als Target vorsehen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

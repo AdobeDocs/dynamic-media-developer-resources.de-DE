@@ -2,8 +2,8 @@
 description: Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenwiedergabefunktion auf niedriger Ebene.
 solution: Experience Manager
 title: Erweiterte Rendereinstellungen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

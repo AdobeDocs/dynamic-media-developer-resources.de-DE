@@ -2,8 +2,8 @@
 description: Legt das Kennwort eines bestimmten Benutzers oder des Standardbenutzers auf einen bestimmten Wert fest, je nachdem, ob Sie ein Benutzerhandle angeben.
 solution: Experience Manager
 title: setPassword
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

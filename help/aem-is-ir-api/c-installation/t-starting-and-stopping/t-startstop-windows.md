@@ -2,8 +2,8 @@
 description: Unter Windows gibt es mehrere Mechanismen, um den Image-Server und den Plattformserver unter Windows Beginn bzw. zu beenden
 solution: Experience Manager
 title: Windows starten oder beenden
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

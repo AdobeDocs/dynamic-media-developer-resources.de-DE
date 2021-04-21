@@ -3,8 +3,8 @@ description: Anpassen des Inline-Zoom-Viewers
 keywords: responsive
 solution: Experience Manager
 title: Anpassen des Inline-Zoom-Viewers
-feature: Dynamic Media Classic, Viewer, SDK/API, Inline-Zoom
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Das Social Sharing-Tool wird standardmäßig oben rechts angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
 solution: Experience Manager
 title: Social Sharing
-feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

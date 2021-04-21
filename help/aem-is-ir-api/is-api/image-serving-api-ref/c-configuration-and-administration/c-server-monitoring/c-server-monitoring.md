@@ -2,8 +2,8 @@
 description: Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, wenn bestimmte Leistungs- oder Fehlerschwellenwerte überschritten werden. Das System überwacht gemeinsam alle auf dem Server bereitgestellten Webanwendungen.
 solution: Experience Manager
 title: Serverüberwachung
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

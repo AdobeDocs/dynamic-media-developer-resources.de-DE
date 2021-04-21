@@ -2,8 +2,8 @@
 description: CMYK-Standardeingabefarben-Profil. Gibt den Namen des ICC-Profils an, das für CMYK-Materialbilder verwendet werden soll, die kein Profil einbetten.
 solution: Experience Manager
 title: IccProfileSrcCmyk
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

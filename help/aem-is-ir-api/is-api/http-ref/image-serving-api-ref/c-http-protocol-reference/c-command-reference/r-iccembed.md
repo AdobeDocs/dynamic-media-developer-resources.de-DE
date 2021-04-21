@@ -2,8 +2,8 @@
 description: Profil "Farbe einbetten". Gibt an, ob das funktionierende ICC-Profil oder das mit icc= angegebene Profil in das Antwortbild eingebettet werden soll.
 solution: Experience Manager
 title: iccEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

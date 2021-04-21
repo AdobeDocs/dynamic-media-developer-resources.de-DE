@@ -2,8 +2,8 @@
 description: Der Rotationsindikator wird auf dem Hauptbereich der Ansicht überlagert. Es wird angezeigt, wenn sich das Bild in einem Reset-Zustand befindet und es hängt auch vom iconeffect-Parameter ab.
 solution: Experience Manager
 title: Symbol, Effekt
-feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

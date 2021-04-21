@@ -2,8 +2,8 @@
 description: Datendateien mit statischen Inhalten werden nur vom Plattformserver aufgerufen.
 solution: Experience Manager
 title: Statische Inhaltsquellendaten
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Standardauflösung für Miniaturansichten. Stellt eine Standardeinstellung für die Auflösung des Miniaturansichtsobjekts bereit, falls ein bestimmter Katalogeintrag keinen gültigen Wert für "ThumbRes"enthält.
 solution: Experience Manager
 title: ThumbRes
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

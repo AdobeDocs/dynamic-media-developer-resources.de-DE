@@ -2,8 +2,8 @@
 description: Ermöglicht Administratoren das Erstellen neuer Metadatenfelder zur Koordinierung mit Content-Management- oder Vorlagensystemen. Beispiele für erstellte Metadatenfelder sind Suchbegriffe, Informationen zum Autor des Bildes oder Copyright-Inhaberinformationen.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic, SDK/API, Metadaten
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

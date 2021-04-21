@@ -2,8 +2,8 @@
 description: Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 4.4.
 solution: Experience Manager
 title: Vorgänge - Neu und geändert
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

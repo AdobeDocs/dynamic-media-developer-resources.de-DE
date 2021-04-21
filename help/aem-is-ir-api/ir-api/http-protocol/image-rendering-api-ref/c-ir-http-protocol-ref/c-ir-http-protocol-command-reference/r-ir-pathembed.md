@@ -2,8 +2,8 @@
 description: Pfaddaten einbetten. Gibt an, ob in die Vignette eingebettete Photoshop-Pfade in das Antwortbild einbezogen werden sollen.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

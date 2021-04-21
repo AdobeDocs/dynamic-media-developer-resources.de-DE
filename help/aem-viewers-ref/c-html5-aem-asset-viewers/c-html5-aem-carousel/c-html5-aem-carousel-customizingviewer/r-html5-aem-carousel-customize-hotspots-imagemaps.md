@@ -2,8 +2,8 @@
 description: Der Viewer zeigt Hotspot-Symbole über der wichtigsten Ansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - verfasst wurden.
 solution: Experience Manager
 title: Hotspots und Imagemaps
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

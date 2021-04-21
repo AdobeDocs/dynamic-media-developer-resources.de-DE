@@ -2,8 +2,8 @@
 description: Die Hauptklasse des einfachen Zoom-Viewers ist BasicZoomViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 solution: Experience Manager
 title: JavaScript-API-Referenz für einfachen Zoom-Viewer
-feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

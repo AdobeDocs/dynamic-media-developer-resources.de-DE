@@ -2,8 +2,8 @@
 description: Das Hochladen von Assets in Dynamic Media Classic umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag zur Koordinierung aller mit den hochgeladenen Aktivitäten verknüpften Protokolldateien einrichten.
 solution: Experience Manager
 title: Hochladen von Assets über HTTP POSTs zum UploadFile-Servlet
-feature: Dynamic Media Classic, SDK/API, Asset Management
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

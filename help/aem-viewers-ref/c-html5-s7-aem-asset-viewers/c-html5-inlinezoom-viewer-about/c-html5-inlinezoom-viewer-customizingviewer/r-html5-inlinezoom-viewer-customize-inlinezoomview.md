@@ -2,8 +2,8 @@
 description: Die Haupt-Ansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-feature: Dynamic Media Classic, Viewer, SDK/API, Inline-Zoom
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

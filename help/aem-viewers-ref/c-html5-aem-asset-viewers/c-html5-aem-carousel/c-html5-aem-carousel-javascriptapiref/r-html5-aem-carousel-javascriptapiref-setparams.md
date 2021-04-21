@@ -2,8 +2,8 @@
 description: JavaScript-API-Referenz für Karussell-Viewer.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Standardmäßige Clientcache-Zeit bis zum Live-Betrieb. Bietet ein Standard-Ablaufintervall, falls ein bestimmter Katalogeintrag keinen gültigen Katalogablaufwert enthält.
 solution: Experience Manager
 title: Ablauf
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

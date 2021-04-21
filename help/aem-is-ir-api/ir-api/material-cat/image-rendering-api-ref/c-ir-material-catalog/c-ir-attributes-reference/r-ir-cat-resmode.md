@@ -2,8 +2,8 @@
 description: Resamplingmodus. Standard für resMode=. Gibt die Attribute für Neuberechnung und Interpolation an, die zum Skalieren des gerenderten Bildes auf die endgültige Größe verwendet werden.
 solution: Experience Manager
 title: ResMode
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

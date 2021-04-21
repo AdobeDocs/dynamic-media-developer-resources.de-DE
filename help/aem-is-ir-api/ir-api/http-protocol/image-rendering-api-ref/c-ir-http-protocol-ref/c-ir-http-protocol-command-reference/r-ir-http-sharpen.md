@@ -2,8 +2,8 @@
 description: Scharfzeichnen des Antwortbilds. Optionales Scharfzeichnen kann angewendet werden, nachdem das gerenderte Bild basierend auf wid= oder hei= skaliert wurde.
 solution: Experience Manager
 title: scharfzeichnen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

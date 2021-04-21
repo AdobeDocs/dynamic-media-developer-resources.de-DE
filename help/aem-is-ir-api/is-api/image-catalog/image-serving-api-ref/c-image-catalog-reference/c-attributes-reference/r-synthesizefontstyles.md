@@ -2,8 +2,8 @@
 description: Aktivieren Sie synthetisierte Schriftvarianten. Steuert, ob der Server eine Fehlermeldung erzeugen oder einen fett, kursiv oder fett/kursiv formatierten Schriftstil synthetisieren soll, wenn ein solcher Stil angefordert wird, der jedoch nicht in der Schriftartzuordnung gefunden werden kann.
 solution: Experience Manager
 title: SynthesizeFontStyles
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

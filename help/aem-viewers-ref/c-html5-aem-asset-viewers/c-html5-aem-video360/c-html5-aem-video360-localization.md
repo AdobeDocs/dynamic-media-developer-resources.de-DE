@@ -2,8 +2,8 @@
 description: Bestimmte Inhalte, die vom Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht abgespielt werden kann.
 solution: Experience Manager
 title: lokale Anpassung der Elemente der Benutzeroberfläche
-feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

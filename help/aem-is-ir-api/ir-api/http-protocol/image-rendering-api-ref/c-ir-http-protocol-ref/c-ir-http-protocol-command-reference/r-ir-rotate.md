@@ -2,8 +2,8 @@
 description: Werkstoffdrehwinkel Definiert den Drehwinkel für Materialien.
 solution: Experience Manager
 title: drehen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

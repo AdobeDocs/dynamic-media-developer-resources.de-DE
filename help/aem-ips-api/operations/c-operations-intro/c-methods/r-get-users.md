@@ -2,8 +2,8 @@
 description: Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern angegeben ist. Mit diesem Vorgang können Sie zurückgegebene Benutzer sortieren und nach Zeichen filtern.
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

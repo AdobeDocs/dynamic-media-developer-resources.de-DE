@@ -2,8 +2,8 @@
 description: Unter "Sset-Indikator"versteht man eine Reihe von Punkten, die über den Farbfeldern dargestellt werden, wenn ein Viewer auf einem Touch-Gerät verwendet wird. Die Punkte helfen Benutzern, durch die Seiten von Miniaturbildern zu navigieren, wenn keine Bildlaufschaltflächen verfügbar sind.
 solution: Experience Manager
 title: Indikator festlegen
-feature: Dynamic Media Classic, Viewer, SDK/API, Zoom
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

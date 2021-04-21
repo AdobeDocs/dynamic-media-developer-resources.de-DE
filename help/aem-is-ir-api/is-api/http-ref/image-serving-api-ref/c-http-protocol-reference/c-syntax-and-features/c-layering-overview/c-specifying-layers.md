@@ -2,8 +2,8 @@
 description: In der URL- oder Katalog-Modifizierer-Befehlssequenz wird eine Ebenendefinitionssequenz mit dem Befehl layer= ausgeführt und mit einem anderen Befehl layer=, einem Befehl effect= oder dem Ende der URL beendet.
 solution: Experience Manager
 title: Festlegen von Ebenen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

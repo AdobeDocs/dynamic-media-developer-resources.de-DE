@@ -2,8 +2,8 @@
 description: Oberflächenrauigkeit. Gibt die relative Glanz der Materialoberfläche an. Wird in Verbindung mit Katalogtyp und Katalogglanz verwendet, um 3D-Reflektionseffekte zu steuern.
 solution: Experience Manager
 title: Rauigkeit
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

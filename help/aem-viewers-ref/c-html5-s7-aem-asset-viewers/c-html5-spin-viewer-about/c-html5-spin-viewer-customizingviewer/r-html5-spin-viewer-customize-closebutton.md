@@ -2,8 +2,8 @@
 description: Durch Klicken oder Tippen auf diese Schaltfläche wird die zugehörige Webseite geschlossen. Diese Schaltfläche wird nur angezeigt, wenn der Parameter closeButton auf 1 gesetzt ist. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 title: Schaltfläche "Schließen"
-feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Scharfzeichnen der Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
 solution: Experience Manager
 title: spitze
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

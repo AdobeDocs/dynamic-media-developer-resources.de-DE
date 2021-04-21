@@ -2,8 +2,8 @@
 description: IS-Server können so konfiguriert werden, dass sie bei Anforderungen, die ein Quellbild beinhalten, das nicht erfolgreich geöffnet oder gelesen werden kann, auf andere Server wechseln.
 solution: Experience Manager
 title: Bei Fehler umleiten
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

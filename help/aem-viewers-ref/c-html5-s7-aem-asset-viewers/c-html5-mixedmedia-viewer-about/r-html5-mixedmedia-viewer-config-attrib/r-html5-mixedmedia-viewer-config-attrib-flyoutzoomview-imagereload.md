@@ -2,8 +2,8 @@
 description: Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft.
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

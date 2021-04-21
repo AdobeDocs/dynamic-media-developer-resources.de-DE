@@ -2,8 +2,8 @@
 description: Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Aktualisierungen, um Werte in einem Stapel festzulegen.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic, SDK/API, Metadaten, Asset Management
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

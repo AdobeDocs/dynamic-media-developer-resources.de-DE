@@ -2,8 +2,8 @@
 description: Pfad der Maskendatei. Relativer oder absoluter Pfad und Name für eine mit diesem Katalogdatensatz verknüpfte Maskenbilddatei.
 solution: Experience Manager
 title: MaskPath
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

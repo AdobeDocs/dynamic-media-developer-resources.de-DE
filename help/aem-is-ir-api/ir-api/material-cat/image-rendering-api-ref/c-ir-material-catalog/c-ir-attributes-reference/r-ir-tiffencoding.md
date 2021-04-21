@@ -2,8 +2,8 @@
 description: TIFF-Kodierungsformat. Gibt das Komprimierungsformat für TIFF-Bilder an (im Grunde die Standardeinstellung für den dritten Wert des Befehls "fmt=").
 solution: Experience Manager
 title: TiffEncoding
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

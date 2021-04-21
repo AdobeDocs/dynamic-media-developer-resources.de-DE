@@ -2,8 +2,8 @@
 description: Prüft auf IPS-ID-Konflikte, indem Asset-Namen mit allen Namen eines Image Serving-/Image Rendering-Katalogs einer Firma verglichen werden.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

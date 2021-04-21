@@ -2,8 +2,8 @@
 description: Erstellt einen Bildsatz.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic, SDK/API, Bildsätze
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

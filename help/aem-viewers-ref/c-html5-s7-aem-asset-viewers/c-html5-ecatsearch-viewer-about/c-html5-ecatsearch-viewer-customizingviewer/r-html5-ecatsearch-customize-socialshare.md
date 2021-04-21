@@ -2,8 +2,8 @@
 description: Das Social Sharing-Tool wird standardmäßig in der oberen linken Ecke angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
 solution: Experience Manager
 title: Social Sharing
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

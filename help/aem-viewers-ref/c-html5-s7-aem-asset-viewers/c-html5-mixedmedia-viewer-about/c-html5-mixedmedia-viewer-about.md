@@ -3,8 +3,8 @@ description: Der Viewer für gemischte Medien ist ein Medien-Viewer. Es unterst�
 keywords: responsive
 solution: Experience Manager
 title: Gemischte Medien
-feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

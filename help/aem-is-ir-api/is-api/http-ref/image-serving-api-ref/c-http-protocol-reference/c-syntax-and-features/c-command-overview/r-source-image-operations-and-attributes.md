@@ -2,8 +2,8 @@
 description: Diese Befehle gelten für Quellbilder, die entweder in einfachen Anforderungen oder in Bildebenen verwendet werden, sowie für Masken, die an einfarbige Ebenen angehängt sind.
 solution: Experience Manager
 title: Quellbildoperationen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

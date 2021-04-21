@@ -2,8 +2,8 @@
 description: Sie müssen das IR 3.x-Kompatibilitätsmodul einrichten und konfigurieren.
 solution: Experience Manager
 title: IR 3.x-Kompatibilitätsmodul einrichten und konfigurieren
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

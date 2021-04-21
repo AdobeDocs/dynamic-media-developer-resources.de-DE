@@ -2,8 +2,8 @@
 description: Maskiert einen Teil eines Bildes. Die Maske wird immer mit dem Bild verknüpft. Erstellen Sie eine Maske aus ImageInfo.
 solution: Experience Manager
 title: Maske
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

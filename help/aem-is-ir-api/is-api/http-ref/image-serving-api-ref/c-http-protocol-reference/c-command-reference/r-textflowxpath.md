@@ -2,8 +2,8 @@
 description: Textfluss-Ausschlussbereich. Gibt einen oder mehrere Regionen an, die vom Textfluss ausgeschlossen werden sollen.
 solution: Experience Manager
 title: textFlowXPath
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

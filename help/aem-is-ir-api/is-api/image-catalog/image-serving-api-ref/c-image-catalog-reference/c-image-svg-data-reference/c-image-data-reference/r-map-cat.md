@@ -2,8 +2,8 @@
 description: Imagemap-Daten. Keine oder mehr vollständige HTML <AREA>-Elemente, von vorne nach hinten sortiert.
 solution: Experience Manager
 title: Map
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

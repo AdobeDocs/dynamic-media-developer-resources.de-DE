@@ -2,8 +2,8 @@
 description: Überprüft, ob sich ein Benutzer mit einer bestimmten Firma (anhand von Handle identifiziert), E-Mail-Adresse und Kennwort anmelden kann.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

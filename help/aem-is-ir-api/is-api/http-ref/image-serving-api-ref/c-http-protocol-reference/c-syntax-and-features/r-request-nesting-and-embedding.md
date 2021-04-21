@@ -2,8 +2,8 @@
 description: Image Serving unterstützt das unbegrenzte Verschachteln von Image Serving-Anforderungen, das Einbetten von Image Rendering-Anforderungen sowie das Einbetten von Bildern, die von ausländischen Servern abgerufen werden. Diese Mechanismen werden nur von Ebenenbildern und Ebenenmasken unterstützt.
 solution: Experience Manager
 title: Verschachtelung und Einbettung anfordern
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

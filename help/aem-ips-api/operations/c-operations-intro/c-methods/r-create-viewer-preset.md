@@ -2,8 +2,8 @@
 description: Erstellt eine voreingestellte Ansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann von jedem in IPS verfügbaren Typ sein. Die voreingestellte Ansicht wird angewendet, wenn die Assets veröffentlicht werden.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,Viewer-Vorgaben
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 title: VideoScrubber.chaptertimepattern
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 93c1d38c-1f45-4794-8084-f520f9caf257
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

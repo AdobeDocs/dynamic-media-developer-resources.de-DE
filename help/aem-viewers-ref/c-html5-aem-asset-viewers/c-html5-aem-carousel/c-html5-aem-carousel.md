@@ -2,8 +2,8 @@
 description: Der Karussell-Viewer ist ein Viewer, der ein Karussell nicht zoombarer Bannerbilder mit klickbaren Hotspots oder Regionen anzeigt. Der Zweck dieses Viewers ist die Implementierung eines "Einkaufswagenerlebnisses", bei dem Benutzer einen Hotspot oder eine Region über dem Bannerbild auswählen und zu einer Quickview- oder Produktdetailseite auf der Website des Kunden umgeleitet werden können. Es wurde für den Einsatz auf Desktop- und Mobilgeräten entwickelt.
 solution: Experience Manager
 title: Karussell
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

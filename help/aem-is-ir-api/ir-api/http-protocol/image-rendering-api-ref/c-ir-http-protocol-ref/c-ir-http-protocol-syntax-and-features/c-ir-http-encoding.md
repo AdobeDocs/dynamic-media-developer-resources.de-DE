@@ -2,8 +2,8 @@
 description: Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werden, sodass die Wertzeichenfolgen nicht die reservierten Zeichen '=', '&' und '%' enthalten.
 solution: Experience Manager
 title: Image Rendering HTTP-Kodierung
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

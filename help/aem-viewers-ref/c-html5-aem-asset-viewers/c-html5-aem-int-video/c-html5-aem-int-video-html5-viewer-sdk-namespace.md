@@ -2,8 +2,8 @@
 description: Viewer SDK-Namensraum
 solution: Experience Manager
 title: Viewer SDK-Namensraum
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 4a4d821e-9351-4efa-8849-968e746911f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Ruft die mit der angegebenen Firma verknüpften Eigenschaftssatztypen oder globale Eigenschaftssatztypen ab, wenn keine Firma angegeben ist.
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

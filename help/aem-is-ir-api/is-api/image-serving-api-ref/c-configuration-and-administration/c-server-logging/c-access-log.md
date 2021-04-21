@@ -2,8 +2,8 @@
 description: Dies ist das primäre Protokoll, das alle HTTP-Anforderungen verfolgt, die an den Plattformserver gesendet werden. Bei aktiviertem Image Rendering werden die Daten des Zugriffsprotokolls in dieselbe Datei geschrieben.
 solution: Experience Manager
 title: Zugriffsprotokoll
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

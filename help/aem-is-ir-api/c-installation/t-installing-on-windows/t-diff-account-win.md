@@ -2,8 +2,8 @@
 description: Nach der Installation müssen Sie Dienste einrichten, die unter dem anderen Benutzerkonto ausgeführt werden können.
 solution: Experience Manager
 title: Installieren unter einem anderen Benutzerkonto als dem Administrator
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

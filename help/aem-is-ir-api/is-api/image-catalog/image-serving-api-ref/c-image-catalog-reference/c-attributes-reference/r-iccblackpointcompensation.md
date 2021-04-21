@@ -2,8 +2,8 @@
 description: Schwarzpunktkompensation. Gibt an, ob bei Farbkonvertierungen eine Blackpoint-Kompensation angewendet werden soll, wenn keine explizite Auswahl mit icc= erfolgt.
 solution: Experience Manager
 title: IccBlackPointCompensation
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

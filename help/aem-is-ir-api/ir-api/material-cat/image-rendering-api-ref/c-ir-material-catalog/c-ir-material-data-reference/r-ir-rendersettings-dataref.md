@@ -2,8 +2,8 @@
 description: Erweiterte Rendereinstellungen. Erweiterte Rendereinstellungen werden zur Steuerung von Aspekten der Render-Engine auf niedriger Ebene verwendet, wie z. B. der Art der Materialschärfung und Parameter oder bestimmte Parameter der Beleuchtungsalgorithmen.
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

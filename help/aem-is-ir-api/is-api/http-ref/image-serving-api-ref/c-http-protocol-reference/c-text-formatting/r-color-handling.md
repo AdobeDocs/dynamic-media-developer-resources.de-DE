@@ -2,8 +2,8 @@
 description: Die RTF-Spezifikation erlaubt die Angabe von RGB-Farbwerten mit &bsol;colortbl. Jede Komponente wird separat mit den Befehlen &bsol;red, &bsol;green und &bsol;blue bereitgestellt.
 solution: Experience Manager
 title: Farbhandhabung
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

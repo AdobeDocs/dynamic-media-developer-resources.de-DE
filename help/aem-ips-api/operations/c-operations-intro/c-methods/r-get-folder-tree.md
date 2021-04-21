@@ -2,8 +2,8 @@
 description: Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die getFolderTree-Antwort ist auf maximal 100.000 Ordner beschränkt
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

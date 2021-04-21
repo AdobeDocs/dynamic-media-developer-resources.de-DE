@@ -2,8 +2,8 @@
 description: Gesamte Stream-Bitrate. Ein langer Wert, der die gesamte Stream-Bitrate für das Video-Asset darstellt.
 solution: Experience Manager
 title: TotalStreamBitRate
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

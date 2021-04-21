@@ -2,8 +2,8 @@
 description: Miniaturansichten bestehen aus einem Raster von Miniaturbildern mit einer optionalen Bildlaufleiste auf der rechten Seite, um einen vertikalen Bildlauf zu ermöglichen.
 solution: Experience Manager
 title: Miniaturansichten
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

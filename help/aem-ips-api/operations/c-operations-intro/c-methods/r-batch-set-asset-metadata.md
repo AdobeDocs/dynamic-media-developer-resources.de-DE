@@ -2,7 +2,7 @@
 description: Legt Asset-Metadaten im Stapelmodus fest.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic, SDK/API, Metadaten, Asset Management
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Administrator
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 translation-type: tm+mt

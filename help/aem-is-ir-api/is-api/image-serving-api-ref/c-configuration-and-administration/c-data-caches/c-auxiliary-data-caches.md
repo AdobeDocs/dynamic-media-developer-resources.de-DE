@@ -2,8 +2,8 @@
 description: Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie cache=on in der verschachtelten/eingebetteten Anforderung angeben. Diese Daten werden im proprietären Format im Antwortdaten-Cache gespeichert.
 solution: Experience Manager
 title: Hilfedatenzwischenspeicher
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

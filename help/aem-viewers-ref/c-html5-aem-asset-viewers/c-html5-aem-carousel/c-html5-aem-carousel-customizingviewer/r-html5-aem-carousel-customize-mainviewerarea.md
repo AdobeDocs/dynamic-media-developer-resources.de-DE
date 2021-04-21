@@ -2,8 +2,8 @@
 description: Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Karussellbannerbild befindet. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
 solution: Experience Manager
 title: Hauptbereich des Viewers
-feature: Dynamic Media Classic, Viewer, SDK/API, Karussell-Banner
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

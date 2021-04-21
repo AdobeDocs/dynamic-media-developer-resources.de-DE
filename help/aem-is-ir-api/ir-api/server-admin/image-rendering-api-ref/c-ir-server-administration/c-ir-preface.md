@@ -2,8 +2,8 @@
 description: In dieser Dokumentation werden Probleme mit der Serververwaltung behandelt und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
 solution: Experience Manager
 title: Serververwaltungsvorgabe
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator, Business Practitioner
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

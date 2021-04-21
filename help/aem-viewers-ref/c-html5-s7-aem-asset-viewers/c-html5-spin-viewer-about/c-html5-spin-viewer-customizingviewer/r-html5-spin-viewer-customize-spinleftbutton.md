@@ -2,8 +2,8 @@
 description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, wird das Bild in der Ansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Außerdem wird die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Größe, Skin und Position der Schaltfläche mithilfe von CSS festlegen.
 solution: Experience Manager
 title: Schaltfläche "Nach links drehen"
-feature: Dynamic Media Classic, Viewer, SDK/API, Rotationssets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Das Viewer-SDK stellt eine Reihe von JavaScript-basierten Komponenten für die benutzerdefinierte Viewer-Entwicklung bereit. Bei den Viewern handelt es sich um webbasierte Anwendungen, mit denen Rich-Media-Inhalte der Adobe Dynamic Media in Webseiten eingebettet werden können.
 solution: Experience Manager
 title: Viewer-SDK-Tutorial
-feature: Dynamic Media Classic,Viewer,SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

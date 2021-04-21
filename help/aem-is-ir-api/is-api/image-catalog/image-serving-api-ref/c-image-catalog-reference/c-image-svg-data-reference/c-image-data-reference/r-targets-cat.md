@@ -2,8 +2,8 @@
 description: Daten zur Zoom-Zielgruppe. Keine oder mehr Zoom-Zielgruppe-Eigenschaften, die zusammen mit dem Zoom-Viewer-Client verwendet werden können.
 solution: Experience Manager
 title: Ziele
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

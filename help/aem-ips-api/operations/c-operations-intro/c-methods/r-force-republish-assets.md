@@ -2,8 +2,8 @@
 description: Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zurück, um zu erzwingen, dass das Asset im nächsten Veröffentlichungsauftrag erneut veröffentlicht wird.
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

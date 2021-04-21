@@ -2,8 +2,8 @@
 description: Bildmaske. Fordert die Maskendaten (Alpha-Kanal) an.
 solution: Experience Manager
 title: Maske
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

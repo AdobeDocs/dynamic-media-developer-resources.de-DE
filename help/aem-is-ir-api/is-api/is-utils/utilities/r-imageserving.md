@@ -2,8 +2,8 @@
 description: Image Serving-Steuerelementskript. Dieses Skript wird zum Beginn, Beenden oder Neustart des Image Serving Server Supervisor verwendet, der wiederum alle anderen Image Serving-Komponenten Beginn, anhält oder neu startet.
 solution: Experience Manager
 title: ImageServing
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

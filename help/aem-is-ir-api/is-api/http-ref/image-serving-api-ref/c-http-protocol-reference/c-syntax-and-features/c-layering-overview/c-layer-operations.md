@@ -2,8 +2,8 @@
 description: Neben der Größenanpassung (Größe=) und Positionierung (pos=) von Ebenen relativ zu Ebene 0 und der Angabe der Zusammenstellungsreihenfolge (z-Reihenfolge) mit dem Befehl layer= können Ebenen gedreht (gedreht=) und umgedreht (flip=) werden.
 solution: Experience Manager
 title: Ebenenoperationen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

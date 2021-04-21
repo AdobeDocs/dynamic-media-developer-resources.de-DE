@@ -3,8 +3,8 @@ description: Der Viewer für die E-Katalog-Suche ist ein Katalog-Viewer, der ele
 keywords: responsive
 solution: Experience Manager
 title: E-Katalog-Suche
-feature: Dynamic Media Classic, Viewer, SDK/API, E-Katalog-Suche
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

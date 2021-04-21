@@ -2,8 +2,8 @@
 description: Erstellt eine Kopie eines vorhandenen Bild-Assets. Die angegebenen Image-Server-Protokollbefehle werden angewendet, um eine neue Kopie zu generieren
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

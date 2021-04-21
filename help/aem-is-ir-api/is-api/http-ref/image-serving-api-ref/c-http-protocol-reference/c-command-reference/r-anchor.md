@@ -2,8 +2,8 @@
 description: Bildanker. Definiert den Verankerungspunkt des Bilds, der Volltonfarbe oder des Rechtecks des Textbegrenzungsrahmens, bevor die Transformationen angewendet werden (Beschneiden=, Skalieren=, Drehen=, Flip=). Dient auch als Mittelpunkt der Drehung für rotate=.
 solution: Experience Manager
 title: anchor
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

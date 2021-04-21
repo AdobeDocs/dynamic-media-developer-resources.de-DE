@@ -2,8 +2,8 @@
 description: Schaltet die Anzeige der Bildunterschrift ein oder aus. Es ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist. Mit CSS können Sie die Größe, Skin und Position dieser Schaltfläche relativ zur Steuerungsleiste, in der sie enthalten ist, anpassen.
 solution: Experience Manager
 title: Beschriftungsschaltfläche
-feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Pixel-Koordinaten. Dient zum Festlegen von Bildkoordinaten, z. B. Bildversatzwerten oder Schnittparametern, in Form eines Pixelversatzes relativ zur oberen linken Ecke eines Bilds oder eines Ebenenrechtecks.
 solution: Experience Manager
 title: Kohle
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

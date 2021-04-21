@@ -2,8 +2,8 @@
 description: Image Serving bietet mehrere Alternativen zum Rendern von Text, auf die mit den Befehlen text= und textPs= zugegriffen werden kann.
 solution: Experience Manager
 title: Textformatierung
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

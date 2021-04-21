@@ -2,8 +2,8 @@
 description: Image Serving bietet einen Mechanismus zum Übersetzen externer Objekt-IDs in Gebietsschema-spezifische Objekt-(Katalog-)IDs. Die Hauptanwendung dient der Bereitstellung von Gebietsschema-spezifischen Inhalten und Inhalten, die von mehreren Gebietsschemas gemeinsam genutzt werden, ohne dass die Client-Anwendung die Gebietsschema-spezifischen Objekt-IDs kennen muss.
 solution: Experience Manager
 title: Objekt-ID-Übersetzung
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Sie können Image Serving verwenden, um Nicht-Bildinhalte in Katalogen zu verwalten und über einen separaten /is/content-Kontext bereitzustellen.
 solution: Experience Manager
 title: Bereitstellen von statischen Inhalten (ohne Bilder)
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

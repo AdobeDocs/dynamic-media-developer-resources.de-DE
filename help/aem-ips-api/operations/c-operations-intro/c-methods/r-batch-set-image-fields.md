@@ -2,8 +2,8 @@
 description: Legt bildspezifische Felder für ein oder mehrere Bild-Assets fest.
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

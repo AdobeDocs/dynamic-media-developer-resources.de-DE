@@ -2,8 +2,8 @@
 description: Auf Desktop-Systemen haben einige Benutzeroberflächenelemente wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
 solution: Experience Manager
 title: QuickInfos
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Bilder
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

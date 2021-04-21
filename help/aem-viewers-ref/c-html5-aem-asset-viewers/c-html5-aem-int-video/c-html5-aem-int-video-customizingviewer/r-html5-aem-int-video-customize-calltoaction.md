@@ -2,8 +2,8 @@
 description: Das Aktionsaufruf-Bedienfeld wird nach dem Ende des Videos angezeigt und zeigt alle interaktiven Muster an, die mit dem betreffenden Video verknüpft sind.
 solution: Experience Manager
 title: Aktionsaufruf
-feature: Dynamic Media Classic, Viewer, SDK/API, Interaktive Videos
-role: Entwickler, Geschäftspraktiker
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

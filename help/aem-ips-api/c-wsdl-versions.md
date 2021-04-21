@@ -2,8 +2,8 @@
 description: Der IPS-Webdienst wird von einer Reihe von WSDL-Dokumenten (Web Services Description Language) unterstützt, auf die von jeder IPS-Installation, auf der die IPS-Webdienstkomponente installiert ist, zugegriffen wird. Jede IPS-API-Version enthält eine neue WSDL-Datei, die auf einen XML-Namensraum mit Versionsnummer verweist. Frühere WSDL Namensraum-Versionen werden ebenfalls unterstützt, um die Abwärtskompatibilität mit bestehenden Anwendungen zu gewährleisten.
 solution: Experience Manager
 title: IPS Web Service WSDL Versionen
-feature: Dynamic Media Classic, SDK/API
-role: Entwickler, Administrator
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
