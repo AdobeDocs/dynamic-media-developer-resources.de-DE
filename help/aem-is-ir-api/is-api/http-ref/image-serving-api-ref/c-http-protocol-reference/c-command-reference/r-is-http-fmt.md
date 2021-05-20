@@ -4,14 +4,13 @@ solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
+source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '914'
 ht-degree: 5%
 
 ---
-
 
 # fmt{#fmt}
 
@@ -19,66 +18,67 @@ Antwortbildformat.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alpha | swf | swf-alpha | swf3 | swf3-alpha | eps | gif | gif-alpha | m3u8 | f4m | web | webp-alpha | jpeg2000 | jpeg2000-alpha | jpegxr | jpegxr-alpha
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Beschreibung |
-|---|---| 
-| `jpeg` | Lossy JPEG |
-| `jpg` | Lossy JPG |
-| `pjpeg` | Progressives JPEG |
-| `png` | 24-Bit-verlustfreies PNG-Format |
-| `png8` | 8-Bit-verlustfreies PNG-Format |
-| `png-alpha` | 24-Bit-verlustfreies PNG-Format mit Alpha-Kanal |
-| `png8-alpha` | 8-Bit-verlustfreies PNG-Format mit Alpha-Kanal |
-| `tif` | TIFF |
-| `tif-alpha` | TIFF mit Alpha-Kanal |
-| `pdf` | In PDF eingebettetes Bild |
+|---|---|
+| `avif-alpha` | Lustfreies und verlustfreies AVIF mit Alphakanal <br><br>*Veröffentlichungszeitleiste für dieses Format:* <br><b>Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Nahost, Afrika</b> - 24. Mai 2021<br><b>Asien-Pazifik</b> - 24. Juni 2021 |
+| `avif` | Verlorene und verlustfreie AVIF <br><br>*Veröffentlichungszeitleiste für dieses Format:*<br><b> Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Mittlerer Osten, Afrika</b> - 24. Mai 2021<br><b>Asien-Pazifik</b> - 24. Juni 2021 |
 | `eps` | Unkomprimiertes binäres Encapsulated PostScript |
-| `gif` | GIF mit 2 bis 256 Farben |
+| `f4m` | Manifestformat des Flash-Streaming-Servers |
 | `gif-alpha` | GIF-Format mit 2 bis 255 Farben plus Key-Farbtransparenz |
-| `swf` | Verlustfreies JPEG, das in eine SWF-Datei der Adobe AS2 eingebettet ist |
-| `swf-alpha` | Verlustes JPEG und eine deflate-komprimierte Maske, die in eine Adobe AS2 SWF-Datei eingebettet ist |
-| `swf3` | Verlustfreies JPEG, eingebettet in eine Adobe AS3-SWF-Datei |
-| `swf3-alpha` | Verlustfreies JPEG und eine deflate-komprimierte Maske, die in eine Adobe AS3-SWF-Datei eingebettet ist. **Hinweis**: Die Formate swf und swf-alpha eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). swf3 und swf3-alpha werden für ActionScript3-Anwendungen empfohlen (Flash Player 9 und höher). |
-| `m3u8` | Manifestformat von Apple Streaming Server |
-| `f4m` | Manifestformat &quot;Flash Streaming Server&quot; |
-| `webp` | Verlustfreies und verlustfreies WebP |
-| `webp-alpha` | Verlustfreies und verlustfreies WebP mit Alpha-Kanal |
-| `jpeg2000` | Verlustfreies und verlustfreies JPEG 2000 |
-| `jpeg2000-alpha` | Verlustfreies und verlustfreies JPEG 2000 mit Alpha-Kanal |
-| `jpegxr` | Verlustfreies und verlustfreies JPEG XR |
-| `jpegxr-alpha` | Verlustfreies und verlustfreies JPEG XR mit Alpha-Kanal |
+| `gif` | GIF mit 2 bis 256 Farben |
+| `jpeg` | Lossy JPEG |
+| `jpeg2000-alpha` | verlustfreies und verlustfreies JPEG 2000 mit Alphakanal |
+| `jpeg2000` | Verlust und verlustfreies JPEG 2000 |
+| `jpegxr-alpha` | verlustfreies und verlustfreies JPEG XR mit Alphakanal |
+| `jpegxr` | verlustfreies und verlustfreies JPEG XR |
+| `jpg` | Lossy JPG |
+| `m3u8` | Apple Streaming Server-Manifestformat |
+| `pdf` | Bild in PDF eingebettet |
+| `pjpeg` | Progressives JPEG |
+| `png-alpha` | 24-Bit-verlustfreies PNG mit Alphakanal |
+| `png` | 24-Bit-verlustfreies PNG |
+| `png8-alpha` | 8-Bit-verlustfreies PNG mit Alphakanal |
+| `png8` | verlustfreies 8-Bit-PNG |
+| `swf-alpha` | Lossy JPEG und eine deflate-komprimierte Maske, eingebettet in eine Adobe AS2 swf-Datei |
+| `swf` | Lossy JPEG eingebettet in eine Adobe AS2 swf-Datei |
+| `swf3-alpha` | Lossy JPEG und eine deflate-komprimierte Maske eingebettet in eine Adobe AS3 swf-Datei. **Hinweis:** Die Formate swf und swf-alpha eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). Die Formate swf3 und swf3-alpha werden für ActionScript 3-Anwendungen empfohlen (Flash Player 9 und höher). |
+| `swf3` | Lossy JPEG eingebettet in eine Adobe AS3 swf-Datei |
+| `tif-alpha` | TIFF mit Alphakanal |
+| `tif` | TIFF |
+| `webp-alpha` | Verlust und verlustfreies WebP mit Alphakanal |
+| `webp` | Verlust und verlustfreies WebP |
 
-
-| *`pixelType`* — rgb | grau | cmyk |
+| *`pixelType`* – rgb | grau | cmyk |
 | *`pixelType`* | Beschreibung |
 |---|---|
-| `rgb` | Gibt RGB-Bilddaten zurück. |
-| `gray` | Gibt Graustufen-Bilddaten zurück. |
 | `cmyk` | CMYK-Bilddaten zurückgeben. |
+| `gray` | Graustufen-Bilddaten zurückgeben. |
+| `rgb` | Gibt RGB-Bilddaten zurück. |
 
-| *`compression`* — none | lzw | zip | jpeg | verlustbehaftet | verlustfrei |
+| *`compression`* – none | lzw | zip | jpeg | verlustbehaftet | verlustfrei |
 | *`compression`* | Beschreibung |
 |---|---|
-| `none` | Nicht komprimiert |
-| `lzw` | LZW-Komprimierung (Lempel-Ziv-Welch) (verlustfrei) |
-| `zip` | &quot;Deflate&quot;-Komprimierung (verlustfrei) |
 | `jpeg` | JPEG-Komprimierung (verlustbehaftet) |
 | `lossy` | WebP-, JPEG 2000- und JPEG XR-Komprimierung (verlustbehaftet) |
 | `lossless` | WebP-, JPEG 2000- und JPEG XR-Komprimierung (verlustfrei) |
+| `lzw` | LZW-Komprimierung (Lempel-Ziv-Welch) (verlustfrei) |
+| `none` | Nicht komprimiert |
+| `zip` | Komprimierung &quot;Deflate&quot;(verlustfrei) |
 
-* *`format`* gibt das Bildkodierungsformat für an den Client gesendete Bilddaten und den entsprechenden MIME-Typ der Antwort für den HTTP-Antwort-Header an.
-* *`pixelType`* kann verwendet werden, um die Konvertierung des Ausgabefarbraums auszuführen, wenn  `icc=` nicht angegeben.
+* *`format`* gibt das Bildkodierungsformat für an den Client gesendete Bilddaten und den entsprechenden Antwort-MIME-Typ für den HTTP-Antwort-Header an.
+* *`pixelType`* kann verwendet werden, um die Konvertierung des Ausgabefarbraums auszuführen, wenn nicht angegeben  `icc=` ist.
 
-   Es wird das Profil für die Standardfarbe entsprechend *`pixelType`* angewendet. Wenn das Farbmanagement deaktiviert ist, wird eine naive Konversion angewendet. *`pixelType`* wird ignoriert, wenn angegeben  `icc=` wird, was den Ausgabepipeltyp bestimmt.
+   Es wird das standardmäßige Farbprofil angewendet, das *`pixelType`* entspricht. Wenn das Farbmanagement deaktiviert ist, wird eine naive Konversion angewendet. *`pixelType`* wird ignoriert, wenn angegeben  `icc=` ist, was den Ausgabepipeltyp bestimmt.
 
-* *`compression`* ist nur zulässig, wenn  `tif`,  `tif-alpha`,  `pdf`,  `webp`,  `webp-alpha`,  `jpeg2000`,  `jpeg2000-alpha`,  `jpegxr`oder  `jpegxr-alpha` als  *`format`*. Die für diese Bildformate unterstützten Komprimierungsoptionen finden Sie in der folgenden Tabelle.
+* *`compression`* ist nur zulässig, wenn  `tif`,  `tif-alpha`,  `pdf`,  `webp`,  `webp-alpha`,  `jpeg2000`,  `jpeg2000-alpha`,  `jpegxr` oder  `jpegxr-alpha` als  *`format`* angegeben ist. Die für diese Bildformate unterstützten Komprimierungsoptionen finden Sie in der folgenden Tabelle.
 
-Sie können `qlt=` verwenden, um die JPEG-Kodierungsoptionen für folgende Formate festzulegen: JPEG, TIFF mit JPEG-Komprimierung, PDF mit JPEG-Komprimierung und SWF. WebP, JPEG 2000 und JPEG XR verwenden auch `qlt=`, aber die Werte führen zu unterschiedlichen Qualitäten für die verschiedenen Formate. Verwenden Sie `quantize=`, wenn `fmt=gif` oder `fmt=gif-alpha`. Weitere Informationen finden Sie in den Befehlsbeschreibungen. Die anderen Formate haben keine einstellbaren Optionen.
+Sie können `qlt=` verwenden, um die JPEG-Kodierungsoptionen für diese Formate festzulegen: JPEG, TIFF mit JPEG-Komprimierung, PDF mit JPEG-Komprimierung und SWF. WebP, JPEG 2000 und JPEG XR verwenden auch `qlt=`, aber die Werte führen zu unterschiedlichen Qualitäten für die verschiedenen Formate. Verwenden Sie `quantize=`, wenn `fmt=gif` oder `fmt=gif-alpha`. Weitere Informationen finden Sie in den Befehlsbeschreibungen. Die anderen Formate verfügen nicht über konfigurierbare Optionen.
 
 8 Bit pro Pixelkomponente werden für alle *`formats`* und *`pixelTypes`* (8 Bit pro Pixel für GIF) zurückgegeben.
 
-Die folgende Tabelle Liste die gültigen Kombinationen aus *`format`*und *`pixelType`*, die entsprechenden HTTP-Antwort-MIME-Typen, ob ICC-Profil eingebettet werden können (siehe [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) und welche formatspezifischen Optionen Sie anwenden können.
+In der folgenden Tabelle sind die gültigen Kombinationen aus *`format`*und *`pixelType`*, die entsprechenden HTTP-Antwort-MIME-Typen, ob ICC-Profile eingebettet werden können (siehe [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) und welche formatspezifischen Optionen Sie anwenden können.
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
@@ -96,7 +96,7 @@ Die folgende Tabelle Liste die gültigen Kombinationen aus *`format`*und *`pixel
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed=  </span>,  <span class="codeph"> pscan=  </span>,  <span class="codeph"> qlt=  </span>,  <span class="codeph"> xmpEmbed=  </span> </p> <p>Der Parameter <span class="codeph"> pscan= </span> gilt nur für das pjpeg-Format. </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed=  </span>,  <span class="codeph"> pscan=  </span>,  <span class="codeph"> qlt=  </span>,  <span class="codeph"> xmpEmbed=  </span> </p> <p>Der Parameter <span class="codeph"> pscan= </span> gilt nur für das PJPEG-Format. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> png, png-alpha </p> </td> 
@@ -117,13 +117,13 @@ Die folgende Tabelle Liste die gültigen Kombinationen aus *`format`*und *`pixel
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression  </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>nur 'tiff'; 'tiff-alpha' unterstützt keine JPEG-Komprimierung. </p> <p> <span class="codeph"> qlt=  </span> </p> <p> <span class="codeph"> qlt=  </span> wird ignoriert, es sei denn, die  <span class="varname"> Komprimierung  </span> ist auf  <span class="codeph"> jpeg eingestellt  </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compression  </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>nur "tiff"; 'tiff-alpha' unterstützt keine JPEG-Komprimierung. </p> <p> <span class="codeph"> qlt=  </span> </p> <p> <span class="codeph"> qlt=  </span> wird ignoriert, es sei denn, die  <span class="varname"> Komprimierung  </span> ist auf  <span class="codeph"> jpeg festgelegt  </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, grau </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nein </p> <p> <p>Hinweis:  Der Flash Player Adobe ignoriert eingebettete ICC-Profil. </p> </p> </td> 
+   <td colname="col4"> <p>Nein </p> <p> <p>Hinweis:  Der Adobe-Flash Player ignoriert eingebettete ICC-Profile. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt=  </span>,  <span class="codeph"> attribute::TrustedDomains  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -131,7 +131,7 @@ Die folgende Tabelle Liste die gültigen Kombinationen aus *`format`*und *`pixel
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression  </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt=  </span> wird ignoriert, es sei denn, die  <span class="codeph"> <span class="varname"> Komprimierung  </span> </span> ist auf  <span class="codeph"> jpeg eingestellt  </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compression  </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt=  </span> wird ignoriert, es sei denn, die  <span class="codeph"> <span class="varname"> Komprimierung  </span> </span> ist auf  <span class="codeph"> jpeg festgelegt  </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
@@ -142,17 +142,17 @@ Die folgende Tabelle Liste die gültigen Kombinationen aus *`format`*und *`pixel
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> gif, gif-alpha </p> </td> 
-   <td colname="col2"> <p>rgb, grau </p> <p>Daten werden nach der Konvertierung in Grau oder RGB in eine Palette umgewandelt. </p> </td> 
+   <td colname="col2"> <p>rgb, grau </p> <p>Die Daten werden nach der Konvertierung in Grau oder RGB in eine Palette umgewandelt. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>Nein </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> quantize=  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p>web, webp-alpha </p> </td> 
+   <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>Nein </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression  </span> </span> (  <span class="codeph"> verlustbehaftet  </span>,  <span class="codeph"> verlustfrei  </span>) </p> <p> <span class="codeph"> qlt=  </span> wird für  <span class="codeph"> verlustfrei ignoriert  </span>. </p> <p>Da es kein Konzept für die Chrominanz-Neuberechnung im WebP-Format gibt, wird der zweite Wert ( <span class="codeph"> 1 </span>) ignoriert, wenn Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (z. B. <span class="codeph"> qlt=80,1 </span>) verwenden. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Komprimierung  </span> </span> (  <span class="codeph"> verlustbehaftet  </span>,  <span class="codeph"> verlustfrei  </span>) </p> <p> <span class="codeph"> qlt=  </span> wird für  <span class="codeph"> verlustfrei ignoriert  </span>. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, wird der zweite Wert ( <span class="codeph"> qlt </span> (z. B. <span class="codeph"> qlt=80,1 </span>) ignoriert, wenn Sie einen zweiten Wert mit <span class="codeph"> verwenden.</span> </span></p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
@@ -167,6 +167,13 @@ Die folgende Tabelle Liste die gültigen Kombinationen aus *`format`*und *`pixel
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>Nein </p> </td> 
    <td> <p>Wie oben. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p>Nein </p> </td> 
+   <td> <p>Wie oben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -175,35 +182,35 @@ Die folgende Tabelle Liste die gültigen Kombinationen aus *`format`*und *`pixel
 
 Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn `req=img` (Standard) oder `req=mask`; andernfalls ignoriert.
 
-*`type`* wird ignoriert, wenn angegeben  `iccProfile=` wird.
+*`type`* wird ignoriert, wenn angegeben  `iccProfile=` ist.
 
 ## Standard {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, wobei die Variable wie folgt verarbeitet  *`defaultType`* wird: Wenn  `icc=` angegeben,  *`defaultType`* entspricht dies dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, ist *`defaultType`* `gray`, wenn `req=mask`, andernfalls `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, wobei der wie folgt verarbeitet  *`defaultType`* wird: Wenn angegeben  `icc=` ist,  *`defaultType`* entspricht dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, ist *`defaultType`* `gray`, wenn `req=mask`, andernfalls `rgb`.
 
 ## Beispiele {#section-b93222e652df404a84c69025247f07df}
 
-**Fordern Sie ein kleines Bild mit niedriger Vorschau im JPEG-Format (Standard) an:**
+**Anfordern eines kleinen, qualitativ minderwertigen Vorschaubilds im JPEG-Format (Standard):**
 
 ` http:// *`Server`*/myRootId/myImageId?qlt=60&wid=200`
 
-**Erfordert dasselbe Bild, das in Graustufen konvertiert wurde:**
+**Fordern Sie dasselbe Bild, das in Graustufen konvertiert wurde, an:**
 
 ` http:// *`Server`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
 
-**Fordern Sie dasselbe Bild in einem verlustfreien Format mit Alpha-Kanal und hoher Auflösung an:**
+**Fordern Sie dasselbe Bild in einem verlustfreien Format mit Alphakanal und hoher Auflösung an:**
 
 ` http:// *`Server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**Fordern Sie den Alpha-Kanal für dasselbe Bild wie ein Graustufenbild-TIFF-Bild an:**
+**Fordern Sie den Alphakanal für dasselbe Bild wie ein TIFF-Bild in Graustufen an:**
 
 ` http:// *`Server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
-**Konvertieren Sie dasselbe Bild mit den standardmäßigen ICC-Profilen in cmyk:**
+**Konvertieren Sie dasselbe Bild mithilfe der standardmäßigen ICC-Profile in cmyk:**
 
 ` http:// *`Server`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**Konvertieren Sie dasselbe Bild mit einem anderen ICC-Profil in cmyk und betten Sie das Profil in das TIFF-Bild ein:**
+**Konvertieren Sie dasselbe Bild mithilfe eines anderen ICC-Profils in cmyk und betten Sie das Profil in das TIFF-Bild ein:**
 
 ` http:// *`Server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
@@ -211,34 +218,34 @@ Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn
 
 ` http:// *`Server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Konvertieren Sie das Bild in eine bitonale GIF-Datei mit Key-Farbtransparenz und erzwingen Sie Farben in Schwarzweiß:**
+**Konvertieren Sie das Bild in eine bitonale GIF-Datei mit Schlüsselfarbtransparenz und erzwingen Sie Farben in Schwarzweiß:**
 
 ` http:// *`Server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
-**Verlust bei einer Qualitätseinstellung von 80:**
+**Verlust mit einer Qualitätseinstellung von 80:**
 
 ` http:// *`Server`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
 
-**Verlustfrei mit Alpha:**
+**Lossless mit Alpha:**
 
 ` http:// *`Server`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
 
-**Verlust bei einer Qualitätseinstellung von 80:**
+**Verlust mit einer Qualitätseinstellung von 80:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000&qlt=80`
 
-**Verlustfrei mit Alpha:**
+**Lossless mit Alpha:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000-alpha,,lossless`
 
-**Verlust bei einer Qualitätseinstellung von 80:**
+**Verlust mit einer Qualitätseinstellung von 80:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpegxr&qlt=80`
 
-**Verlustfrei mit Alpha:**
+**Lossless mit Alpha:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpegxr-alpha,,lossless`
 
 ## Verwandte Themen {#section-fce8d69c74234bf48cf814d799409541}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38),  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135)pathEmbed=,pscan.
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38),  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [pathEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301),  [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135).
