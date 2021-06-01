@@ -5,7 +5,7 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
+source-git-commit: 3ddb4c9291ee5439b67d78305589596b7935106c
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 5%
@@ -22,8 +22,8 @@ Antwortbildformat.
 
 | *`format`* | Beschreibung |
 |---|---|
-| `avif-alpha` | Lustfreies und verlustfreies AVIF mit Alphakanal <br><br>*Veröffentlichungszeitleiste für dieses Format:* <br><b>Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Nahost, Afrika</b> - 24. Mai 2021<br><b>Asien-Pazifik</b> - 24. Juni 2021 |
-| `avif` | Verlorene und verlustfreie AVIF <br><br>*Veröffentlichungszeitleiste für dieses Format:*<br><b> Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Mittlerer Osten, Afrika</b> - 24. Mai 2021<br><b>Asien-Pazifik</b> - 24. Juni 2021 |
+| `avif-alpha` | verlustfreies und verlustfreies AVIF mit Alphakanal <br><br>*Veröffentlichungszeitleiste für dieses Format:* <br><b>Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Nahost, Afrika</b> - 28. Juni 2021<br><b>Asien-Pazifik</b> - 29. Juni 20221 |
+| `avif` | Verlorene und verlustfreie AVIF <br><br>*Veröffentlichungszeitleiste für dieses Format:*<br><b> Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Mittlerer Osten, Afrika</b> - 28. Juni 2021<br><b>Asien-Pazifik</b> - 29. Juni 2021 |
 | `eps` | Unkomprimiertes binäres Encapsulated PostScript |
 | `f4m` | Manifestformat des Flash-Streaming-Servers |
 | `gif-alpha` | GIF-Format mit 2 bis 255 Farben plus Key-Farbtransparenz |
