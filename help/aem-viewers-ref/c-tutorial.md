@@ -1,51 +1,50 @@
 ---
-description: Das Viewer-SDK stellt eine Reihe von JavaScript-basierten Komponenten für die benutzerdefinierte Viewer-Entwicklung bereit. Bei den Viewern handelt es sich um webbasierte Anwendungen, mit denen Rich-Media-Inhalte der Adobe Dynamic Media in Webseiten eingebettet werden können.
+description: Das Viewer-SDK bietet eine Reihe JavaScript-basierter Komponenten für die benutzerdefinierte Viewer-Entwicklung. Die Viewer sind webbasierte Anwendungen, mit denen von Adobe Dynamic Media bereitgestellte Rich-Media-Inhalte in Webseiten eingebettet werden können.
 solution: Experience Manager
 title: Viewer-SDK-Tutorial
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-
 # Viewer-SDK-Tutorial{#viewer-sdk-tutorial}
 
-Das Viewer-SDK stellt eine Reihe von JavaScript-basierten Komponenten für die benutzerdefinierte Viewer-Entwicklung bereit. Bei den Viewern handelt es sich um webbasierte Anwendungen, mit denen Rich-Media-Inhalte der Adobe Dynamic Media in Webseiten eingebettet werden können.
+Das Viewer-SDK bietet eine Reihe JavaScript-basierter Komponenten für die benutzerdefinierte Viewer-Entwicklung. Die Viewer sind webbasierte Anwendungen, mit denen von Adobe Dynamic Media bereitgestellte Rich-Media-Inhalte in Webseiten eingebettet werden können.
 
-Das SDK bietet beispielsweise interaktives Zoomen und Schwenken. Darüber hinaus bietet es 360°-Ansicht und Videowiedergabe von Assets, die über die Backend-Anwendung Dynamic Media Classic in Adobe Dynamic Media hochgeladen wurden.
+Das SDK bietet beispielsweise interaktives Zoomen und Schwenken. Darüber hinaus erhalten Sie eine 360°-Ansicht und Videowiedergabe von Assets, die über die Backend-Anwendung Dynamic Media Classic in Adobe Dynamic Media hochgeladen wurden.
 
-Obwohl die Komponenten auf HTML5-Funktionen basieren, sind sie für die Verwendung auf Android- und Apple iOS-Geräten und Desktops, einschließlich Internet Explorer und höher, ausgelegt. Diese Art von Erfahrung bedeutet, dass Sie einen einzigen Arbeitsablauf für alle unterstützten Plattformen bereitstellen können.
+Obwohl die Komponenten auf HTML5-Funktionen basieren, sind sie für die Verwendung auf iOS-Geräten von Android und Apple sowie Desktops, einschließlich Internet Explorer und höher, entwickelt worden. Diese Art von Erlebnis bedeutet, dass Sie einen einzigen Workflow für alle unterstützten Plattformen bereitstellen können.
 
-Das SDK besteht aus UI-Komponenten, aus denen der Viewer-Inhalt besteht. Sie können diese Komponenten mithilfe von CSS und Nicht-UI-Komponenten gestalten, die eine unterstützende Rolle haben, wie z. B. das Abrufen und Parsen von Definitionen oder Tracking. Alle Verhalten von Komponenten können mithilfe von Modifikatoren angepasst werden, die Sie auf verschiedene Weise angeben können, z. B. als `name=value`-Paare in der URL.
+Das SDK besteht aus UI-Komponenten, aus denen Viewer-Inhalte bestehen. Sie können diese Komponenten über CSS gestalten und nicht über Benutzeroberflächen-Komponenten verfügen, die eine unterstützende Rolle haben, z. B. Abrufen und Analysieren von Set-Definitionen oder Tracking. Das Verhalten aller Komponenten kann mithilfe von Modifikatoren angepasst werden, die Sie auf verschiedene Weise angeben können, z. B. als `name=value`-Paare in der URL.
 
-Dieses Lernprogramm enthält die folgende Reihenfolge der Aufgaben, mit denen Sie einen einfachen Zoom-Viewer erstellen können:
+Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie einen einfachen Zoom-Viewer erstellen können:
 
-* [Laden Sie das neueste Viewer-SDK von Adobe Developer Connection herunter](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Herunterladen des neuesten Viewer-SDK aus Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [Laden des Viewer-SDK](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [Hinzufügen eines Stils zum Viewer](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [Hinzufügen von Stilen zum Viewer](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Einschließen von Container und ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
-* [Hinzufügen von MediaSet- und Musterkomponenten zum Viewer](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
+* [Hinzufügen von MediaSet- und Farbfeldkomponenten zum Viewer](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
 * [Hinzufügen von Schaltflächen zum Viewer](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
-* [Konfigurieren der Farbfelder vertikal](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
+* [Vertikale Konfiguration der Farbfelder](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Laden Sie das neueste Viewer-SDK von Adobe Developer Connection herunter.{#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Laden Sie das neueste Viewer-SDK von Adobe Developer Connection herunter {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Laden Sie das neueste Viewer-SDK von Adobe Developer Connection [hier](https://marketing.adobe.com/developer/devcenter/scene7/show) herunter.
+1. Laden Sie das neueste Viewer-SDK von Adobe Developer Connection herunter <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
-   >Sie können diese Übung abschließen, ohne das Viewer-SDK-Paket herunterladen zu müssen, da das SDK tatsächlich remote geladen wird. Das Viewer-Paket enthält jedoch weitere Beispiele und eine API-Referenzhandbuch, die Sie beim Erstellen Ihrer eigenen Viewer als hilfreich erachten können.
+   >Sie können dieses Tutorial abschließen, ohne das Viewer-SDK-Paket herunterladen zu müssen, da das SDK tatsächlich remote geladen wird. Das Viewer-Paket enthält jedoch zusätzliche Beispiele und ein API-Referenzhandbuch, das Sie beim Erstellen Ihrer eigenen Viewer als hilfreich finden.
 
 ## Laden des Viewer-SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
-1. Beginn durch Einrichten einer neuen Seite, um den grundlegenden Zoom-Viewer zu entwickeln, den Sie erstellen werden.
+1. Richten Sie zunächst eine neue Seite ein, um den einfachen Zoom-Viewer zu entwickeln, den Sie erstellen werden.
 
-   Betrachten Sie diesen Bootstrap- oder Loader-Code, um eine leere SDK-Anwendung einzurichten. Öffnen Sie Ihren bevorzugten Texteditor und fügen Sie das folgende HTML-Markup hinzu:
+   Betrachten Sie diesen Bootstrap- oder loader -Code, um eine leere SDK-Anwendung einzurichten. Öffnen Sie Ihren bevorzugten Texteditor und fügen Sie das folgende HTML-Markup ein:
 
    ```
    <!DOCTYPE html> 
@@ -80,7 +79,7 @@ Dieses Lernprogramm enthält die folgende Reihenfolge der Aufgaben, mit denen Si
    </html>
    ```
 
-   hinzufügen Sie den folgenden JavaScript-Code innerhalb des `script`-Tags, um das `ParameterManager` zu initialisieren. Auf diese Weise können Sie SDK-Komponenten innerhalb der Funktion `initViewer` erstellen und instanziieren:
+   Fügen Sie den folgenden JavaScript-Code innerhalb des Tags `script` hinzu, um den `ParameterManager` zu initialisieren. Auf diese Weise können Sie die Erstellung und Instanziierung von SDK-Komponenten innerhalb der Funktion `initViewer` vorbereiten:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -116,15 +115,15 @@ Dieses Lernprogramm enthält die folgende Reihenfolge der Aufgaben, mit denen Si
 
 1. Speichern Sie die Datei als leere Vorlage. Sie können jeden gewünschten Dateinamen verwenden.
 
-   Sie werden diese leere Vorlagendatei als Referenz verwenden, wenn Sie in Zukunft neue Viewer erstellen. Diese Vorlage funktioniert lokal und wird von einem Webserver bereitgestellt.
+   Sie werden diese leere Vorlagendatei als Referenz verwenden, wenn Sie in Zukunft neue Viewer erstellen. Diese Vorlage funktioniert lokal und wenn sie von einem Webserver bereitgestellt wird.
 
-Sie fügen Ihrem Viewer jetzt den Stil hinzu.
+Sie fügen Ihrem Viewer jetzt Stil hinzu.
 
-## Hinzufügen eines Stils zum Viewer {#section-3783125360a1425eae5a5a334867cc32}
+## Hinzufügen des Stils zum Viewer {#section-3783125360a1425eae5a5a334867cc32}
 
-1. Für diesen Vollbild-Viewer, den Sie erstellen, können Sie einige einfache Stile hinzufügen.
+1. Für diesen vollständigen Seiten-Viewer, den Sie erstellen, können Sie einige grundlegende Stile hinzufügen.
 
-   hinzufügen Sie den folgenden `style`-Block am unteren Rand von `head`:
+   Fügen Sie den folgenden `style`-Block am unteren Rand von `head` hinzu:
 
    ```
    <style> 
@@ -147,9 +146,9 @@ Sie werden nun die Komponenten `Container` und `ZoomView` einschließen.
 
 ## Einschließen von Container und ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
-1. Erstellen Sie einen tatsächlichen Viewer, indem Sie die Komponenten `Container` und `ZoomView` einbeziehen.
+1. Erstellen Sie einen tatsächlichen Viewer, indem Sie die Komponenten `Container` und `ZoomView` einfügen.
 
-   Fügen Sie die folgenden `include`-Anweisungen nach dem Laden des Skripts [!DNL Utils.js] am unteren Rand des Elements `<head>` ein:
+   Fügen Sie die folgenden `include`-Anweisungen am unteren Rand des Elements `<head>` ein - nachdem das Skript [!DNL Utils.js] geladen wurde:
 
    ```
    <!-- 
@@ -164,7 +163,7 @@ Sie werden nun die Komponenten `Container` und `ZoomView` einschließen.
 
 1. Erstellen Sie jetzt Variablen, um auf die verschiedenen SDK-Komponenten zu verweisen.
 
-   hinzufügen Sie die folgenden Variablen am Anfang der anonymen Hauptfunktion direkt über `s7sdk.Util.init()`:
+   Fügen Sie die folgenden Variablen oben in der anonymen Hauptfunktion hinzu, direkt über `s7sdk.Util.init()`:
 
    ```
    var container, zoomView;
@@ -191,7 +190,7 @@ Sie werden nun die Komponenten `Container` und `ZoomView` einschließen.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Damit der oben genannte Code ordnungsgemäß ausgeführt werden kann, fügen Sie einen `containerResize`-Ereignis-Handler und eine Hilfsfunktion hinzu:
+1. Damit der obige Code ordnungsgemäß ausgeführt werden kann, fügen Sie einen `containerResize`-Ereignishandler und eine Hilfsfunktion hinzu:
 
    ```
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -206,32 +205,32 @@ Sie werden nun die Komponenten `Container` und `ZoomView` einschließen.
    }
    ```
 
-1. Vorschau der Seite, damit Sie sehen können, was Sie erstellt haben. Ihre Seite sieht wie folgt aus:
+1. Zeigen Sie eine Vorschau der Seite an, damit Sie sehen können, was Sie erstellt haben. Ihre Seite sieht wie folgt aus:
 
    ![](assets/viewer-1.jpg)
 
-Sie fügen nun die Komponenten `MediaSet` und `Swatches` Ihrem Viewer hinzu.
+Sie fügen nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
 
-## Hinzufügen von MediaSet- und Musterkomponenten zu Ihrem Viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
+## Hinzufügen von MediaSet- und Farbfeldkomponenten zum Viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. Damit Benutzer Bilder aus einem Satz auswählen können, können Sie die Komponenten `MediaSet` und `Swatches` hinzufügen.
+1. Um Benutzern die Möglichkeit zu geben, Bilder aus einem Set auszuwählen, können Sie die Komponenten `MediaSet` und `Swatches` hinzufügen.
 
-   hinzufügen das folgende SDK enthält:
+   Fügen Sie das folgende SDK hinzu:
 
    ```
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
    s7sdk.Util.lib.include('s7sdk.set.Swatches');
    ```
 
-1. Aktualisieren Sie die Liste der Variablen wie folgt:
+1. Aktualisieren Sie die Variablenliste mit folgendem Code:
 
    ```
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instanziieren Sie die Komponenten `MediaSet` und `Swatches` innerhalb der Funktion `initViewer`.
+1. Instanziieren Sie die Komponenten `MediaSet` und `Swatches` innerhalb der Funktion `initViewer` .
 
-   Stellen Sie sicher, dass die `Swatches`-Instanz nach den Komponenten `ZoomView` und `Container` instanziiert wird. Andernfalls wird die `Swatches`-Stapelreihenfolge ausgeblendet:
+   Stellen Sie sicher, dass Sie die `Swatches` -Instanz nach den Komponenten `ZoomView` und `Container` instanziieren. Andernfalls wird die `Swatches` durch die Stapelreihenfolge ausgeblendet:
 
    ```
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -245,7 +244,7 @@ Sie fügen nun die Komponenten `MediaSet` und `Swatches` Ihrem Viewer hinzu.
    swatches.addEventListener(s7sdk.event.AssetEvent.SWATCH_SELECTED_EVENT, swatchSelected, false);
    ```
 
-1. Fügen Sie jetzt die folgenden Ereignis-Handler-Funktionen hinzu:
+1. Fügen Sie nun die folgenden Ereignis-Handler-Funktionen hinzu:
 
    ```
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
@@ -267,7 +266,7 @@ Sie fügen nun die Komponenten `MediaSet` und `Swatches` Ihrem Viewer hinzu.
    }
    ```
 
-1. Positionieren Sie die Farbfelder unten im Viewer, indem Sie dem Element `style` die folgende CSS hinzufügen:
+1. Positionieren Sie die Farbfelder am unteren Rand des Viewers, indem Sie dem Element `style` die folgende CSS hinzufügen:
 
    ```
    /* Align swatches to bottom of viewer */ 
@@ -279,39 +278,39 @@ Sie fügen nun die Komponenten `MediaSet` und `Swatches` Ihrem Viewer hinzu.
    }
    ```
 
-1. Vorschau des Viewers.
+1. Vorschau des Viewers
 
-   Beachten Sie, dass sich die Farbfelder unten links im Viewer befinden. Damit die Farbfelder die gesamte Viewer-Breite annehmen, müssen Sie einen Aufruf hinzufügen, um die Größe der Farbfelder manuell zu ändern, sobald der Benutzer die Größe des Browsers ändert. hinzufügen Sie Folgendes zur Funktion `resizeViewer`:
+   Beachten Sie, dass sich die Farbfelder unten links im Viewer befinden. Damit die Farbfelder die gesamte Viewer-Breite annehmen, fügen Sie einen Aufruf hinzu, um die Größe der Farbfelder manuell zu ändern, sobald der Benutzer die Größe seines Browsers ändert. Fügen Sie der Funktion `resizeViewer` Folgendes hinzu:
 
    ```
    swatches.resize(width, swatches.getHeight());
    ```
 
-   Ihr Viewer sieht jetzt wie das folgende Bild aus. Versuchen Sie, die Größe des Browser-Fensters des Viewers zu ändern, und beachten Sie das resultierende Verhalten.
+   Ihr Viewer sieht nun wie das folgende Bild aus. Versuchen Sie, die Größe des Browser-Fensters des Viewers zu ändern, und beachten Sie das daraus resultierende Verhalten.
 
    ![](assets/viewer-2.jpg)
 
-Sie können Ihrem Viewer jetzt Schaltflächen zum Zoomen, Herauszoomen und Zurücksetzen des Zooms hinzufügen.
+Sie fügen Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Zurücksetzen des Zooms hinzu.
 
 ## Hinzufügen von Schaltflächen zum Viewer {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
-1. Derzeit kann der Benutzer nur mit Klick- oder Berührungsgesten zoomen. Fügen Sie dem Viewer daher einige einfache Schaltflächen zur Zoomsteuerung hinzu.
+1. Derzeit kann der Benutzer nur mit Klick- oder Berührungsgesten zoomen. Fügen Sie daher einige einfache Zoom-Steuerelement-Schaltflächen zum Viewer hinzu.
 
-   hinzufügen die folgenden Schaltflächenkomponenten:
+   Fügen Sie die folgenden Schaltflächenkomponenten hinzu:
 
    ```
    s7sdk.Util.lib.include('s7sdk.common.Button');
    ```
 
-1. Aktualisieren Sie die Liste der Variablen wie folgt:
+1. Aktualisieren Sie die Variablenliste mit folgendem Code:
 
    ```
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instanziieren Sie Schaltflächen am unteren Rand der Funktion `initViewer`.
+1. Schaltflächen am unteren Rand der Funktion `initViewer` instanziieren.
 
-   Beachten Sie, dass die Reihenfolge wichtig ist, es sei denn, Sie geben in CSS `z-index` an:
+   Beachten Sie, dass die Reihenfolge wichtig ist, es sei denn, Sie geben die `z-index` in CSS an:
 
    ```
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -325,7 +324,7 @@ Sie können Ihrem Viewer jetzt Schaltflächen zum Zoomen, Herauszoomen und Zurü
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Definieren Sie nun einige grundlegende Stile für die Schaltflächen, indem Sie dem `style`-Block oben in Ihrer Datei Folgendes hinzufügen:
+1. Definieren Sie nun einige grundlegende Stile für die Schaltflächen, indem Sie dem `style` -Block oben in Ihrer Datei Folgendes hinzufügen:
 
    ```
    /* define styles common to all button components and their sub-classes */ 
@@ -351,23 +350,23 @@ Sie können Ihrem Viewer jetzt Schaltflächen zum Zoomen, Herauszoomen und Zurü
     }
    ```
 
-1. Vorschau des Viewers. Es sieht wie folgt aus:
+1. Vorschau des Viewers Sie sieht wie folgt aus:
 
    ![](assets/viewer-3.jpg)
 
-   Sie konfigurieren die Muster jetzt so, dass sie vertikal auf der rechten Seite ausgerichtet werden.
+   Sie konfigurieren die Farbfelder jetzt so, dass sie vertikal auf der rechten Seite ausgerichtet werden.
 
-## Konfigurieren der Farbfelder vertikal {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## Vertikale Konfiguration der Farbfelder {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Sie können Modifikatoren direkt auf der `ParameterManager`-Instanz konfigurieren.
+1. Sie können Modifikatoren direkt in der `ParameterManager`-Instanz konfigurieren.
 
-   hinzufügen Sie die folgenden Elemente oben in der Funktion `initViewer`, um das `Swatches`-Miniaturlayout als einzelne Zeile zu konfigurieren:
+   Fügen Sie oben in der Funktion `initViewer` Folgendes hinzu, um das `Swatches` Miniaturlayout als einzelne Zeile zu konfigurieren:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Aktualisieren Sie den folgenden Größenaufruf innerhalb von `resizeViewer`:
+1. Aktualisieren Sie den folgenden Größenaufruf in `resizeViewer`:
 
    ```
    swatches.resize(swatches.getWidth(), height);
@@ -384,11 +383,10 @@ Sie können Ihrem Viewer jetzt Schaltflächen zum Zoomen, Herauszoomen und Zurü
    }
    ```
 
-1. Vorschau des Viewers. Es sieht wie folgt aus:
+1. Vorschau des Viewers Sie sieht wie folgt aus:
 
    ![](assets/viewer-4.jpg)
 
-   Ihr einfacher Zoom-Viewer ist jetzt abgeschlossen.
+   Ihr einfacher Zoom-Viewer ist jetzt fertig.
 
-   Dieses Viewer-Tutorial gibt einen Überblick über die Grundlagen des Dynamic Media Viewer-SDK. Während Sie mit dem SDK arbeiten, können Sie die verschiedenen Standardkomponenten verwenden, um mühelos Rich-View-Erlebnisse für Ihre Zielgruppe-Audiencen zu erstellen und zu gestalten.
-
+   Dieses Viewer-Tutorial behandelt die Grundlagen dessen, was das Dynamic Media Viewer SDK bietet. Bei der Arbeit mit dem SDK können Sie die verschiedenen Standardkomponenten verwenden, um mühelos Rich-View-Erlebnisse für Ihre Zielgruppen zu erstellen und zu gestalten.
