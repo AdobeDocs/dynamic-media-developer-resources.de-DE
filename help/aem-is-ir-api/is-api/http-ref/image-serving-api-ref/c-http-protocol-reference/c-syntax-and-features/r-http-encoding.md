@@ -1,23 +1,22 @@
 ---
-description: Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werden, sodass die Wertzeichenfolgen nicht die reservierten Zeichen '=', '&' und '%' enthalten.
+description: Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert sein, sodass die Wertzeichenfolgen die reservierten Zeichen '=', '&' und '%' nicht enthalten.
 solution: Experience Manager
 title: Image Serving HTTP-Kodierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 22%
+source-wordcount: '234'
+ht-degree: 23%
 
 ---
 
+# Image Serving HTTP-Kodierung{#image-serving-http-encoding}
 
-# Image Serving HTTP encoding{#image-serving-http-encoding}
+Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert sein, sodass die Wertzeichenfolgen die reservierten Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; nicht enthalten.
 
-Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werden, sodass die Wertzeichenfolgen nicht die reservierten Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; enthalten.
-
-Andernfalls gelten Standard-HTTP-Kodierungsregeln. Die HTTP-Spezifikation erfordert die Kodierung der unsicheren Zeichen sowie aller Steuerzeichen wie `<return>` und `<tab>`. Die URL-Kodierung eines Zeichens besteht aus einem &quot;%&quot;-Symbol, gefolgt von der zweistelligen hexadezimalen Darstellung (ohne Groß-/Kleinschreibung) des ISO-Lateinischen Codepunkts für das Zeichen. Unsichere Zeichen und Codepunkte sind:
+Andernfalls gelten die standardmäßigen HTTP-Kodierungsregeln. Die HTTP-Spezifikation erfordert die Kodierung der unsicheren Zeichen sowie aller Steuerzeichen wie `<return>` und `<tab>`. Die URL-Kodierung eines Zeichens besteht aus einem &quot;%&quot;-Symbol, gefolgt von der zweistelligen hexadezimalen Darstellung (ohne Groß-/Kleinschreibung) des ISO-Latin-Codepunkts für das Zeichen. Unsichere Zeichen und Codepunkte sind:
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -59,12 +58,12 @@ Andernfalls gelten Standard-HTTP-Kodierungsregeln. Die HTTP-Spezifikation erford
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace </p> </td> 
    <td colname="col2"> <p>7 B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
+   <td colname="col1"> <p>&amp;rbrace </p> </td> 
    <td colname="col2"> <p>7 D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -99,7 +98,7 @@ Andernfalls gelten Standard-HTTP-Kodierungsregeln. Die HTTP-Spezifikation erford
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>` </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -111,7 +110,7 @@ Reservierte Zeichen müssen ebenfalls kodiert sein.
 <table id="table_A6C808A05EA6420F8125186D3D5C9E33"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Reserviertes Zeichen </th> 
+   <th colname="col1" class="entry"> Reservierte Zeichen </th> 
    <th colname="col2" class="entry"> Codepunkte (Hex) </th> 
    <th colname="col3" class="entry"> Codepunkte (Dez.) </th> 
   </tr> 
@@ -129,7 +128,7 @@ Reservierte Zeichen müssen ebenfalls kodiert sein.
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ </p> </td> 
-   <td colname="col2"> <p>2 B </p> </td> 
+   <td colname="col2"> <p>2B </p> </td> 
    <td colname="col3"> <p>43 </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +144,7 @@ Reservierte Zeichen müssen ebenfalls kodiert sein.
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3 A </p> </td> 
-   <td colname="col3"> <p>78 </p> </td> 
+   <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
@@ -174,14 +173,14 @@ Reservierte Zeichen müssen ebenfalls kodiert sein.
 
 `…&$text=rate&weight=85% 27#&…`
 
-Wenn keine Verschleierung angewendet wird, muss das obige Fragment wie folgt kodiert werden:
+Wenn die Verschleierung nicht angewendet wird, muss das obige Anforderungsfragment wie folgt kodiert werden:
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-Wenn Verschleierung angewendet wird, kann die Kodierung auf das Entfernen der Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; beschränkt werden:
+Wenn die Verschleierung angewendet wird, kann die Kodierung darauf beschränkt sein, die Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; zu entfernen:
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## Verwandte Themen {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Verschleierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d) von Anforderungen,  [HTTP/1.1-Spezifikation (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Verschleierung von Anfragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d),  [HTTP/1.1-Spezifikation (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
