@@ -1,27 +1,26 @@
 ---
-description: Die Hervorhebung des Eingabefokus, die um das fokussierte Viewer-UI-Element angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
+description: Die Hervorhebung des Eingabefokus, die um das fokussierte Element der Viewer-Benutzeroberfläche herum angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 solution: Experience Manager
 title: Fokushervorhebung
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d29dab2-6f01-4328-9e92-0c370acaa2d6
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 1%
 
 ---
 
+# Fokushervorhebung{#focus-highlight}
 
-# Fokusmarkierung{#focus-highlight}
-
-Die Hervorhebung des Eingabefokus, die um das fokussierte Viewer-UI-Element angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
+Die Hervorhebung des Eingabefokus, die um das fokussierte Element der Viewer-Benutzeroberfläche herum angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften**
 
-Das Erscheinungsbild wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer *:focus
@@ -36,17 +35,16 @@ Das Erscheinungsbild wird mit der folgenden CSS-Klassenauswahl gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Umriss  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Entwurf  </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um die standardmäßige Browserfokushervorhebung für alle Elemente der Benutzeroberfläche des Viewers zu deaktivieren, fügen Sie den folgenden CSS-Selektor zum Stylesheet des Viewers hinzu:
+Beispiel: Um die standardmäßige Browserfokus-Hervorhebung für alle Elemente der Viewer-Benutzeroberfläche zu deaktivieren, fügen Sie den folgenden CSS-Selektor zum Stylesheet des Viewers hinzu:
 
 ```
 .s7mixedmediaviewer *:focus { 
  outline: none; 
 }
 ```
-
