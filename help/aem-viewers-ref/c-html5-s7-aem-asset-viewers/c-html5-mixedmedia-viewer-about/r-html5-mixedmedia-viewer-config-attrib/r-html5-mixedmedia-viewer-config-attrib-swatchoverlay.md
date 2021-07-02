@@ -2,16 +2,15 @@
 description: swatchoverlay
 solution: Experience Manager
 title: swatchoverlay
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
-
 
 # swatchoverlay{#swatchoverlay}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Viewer-Layout auf Geräten mit Touch-Funktion an. Wenn der Parameter auf <span class="codeph"> 1 </span> eingestellt ist, zeigt der Viewer Muster unter der Haupt-Ansicht auf dem Desktop an. Auf Touch-fähigen Geräten werden die Muster über der Haupt-Ansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 </span> eingestellt ist, werden die Farbfelder auf allen Gerätetypen unter der Haupt-Ansicht dargestellt. </p> </td> 
+   <td colname="col2"> <p>Gibt das Viewer-Layout auf Touch-fähigen Geräten an. Wenn der Parameter auf <span class="codeph"> 1 </span> gesetzt ist, zeigt der Viewer Farbfelder unter der Hauptansicht auf dem Desktop an. Auf Touch-fähigen Geräten werden die Farbfelder über der Hauptansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 </span> festgelegt ist, werden Farbfelder unter der Hauptansicht auf allen Gerätetypen dargestellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
