@@ -2,16 +2,15 @@
 description: SpinView.enableHD
 solution: Experience Manager
 title: SpinView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '90'
 ht-degree: 6%
 
 ---
-
 
 # SpinView.enableHD{#spinview-enablehd}
 
@@ -21,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Aktivieren, begrenzen oder deaktivieren Sie die Optimierung für Geräte, bei denen <span class="codeph"> devicePixelRatio</span> größer als <span class="codeph"> 1</span> ist, d. h. für Geräte mit hoher Auflösung wie iPhone4 und ähnliche Geräte. Wenn die Komponente aktiv ist, beschränkt sie die Größe der IS-Bildanforderung so, als hätte das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> und verringert dadurch die Bandbreite. </p> </td> 
+   <td colname="col2"> <p> Aktivieren, beschränken oder deaktivieren Sie die Optimierung für Geräte, bei denen <span class="codeph"> devicePixelRatio</span> größer ist als <span class="codeph"> 1</span>, d. h. Geräte mit einer High-Density-Anzeige wie iPhone4 und ähnliche Geräte. Wenn diese Option aktiviert ist, beschränkt die Komponente die Größe der IS-Bildanforderung so, als hätte das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> und reduziert daher die Bandbreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Nummer</span></span> </p> </td> 
-   <td colname="col2"> <p> Bei Verwendung der Einstellung <span class="codeph"> limit</span> aktiviert die Komponente eine hohe Pixeldichte nur bis zum angegebenen Grenzwert. </p> </td> 
+   <td colname="col2"> <p> Bei Verwendung der Einstellung <span class="codeph"> limit</span> ermöglicht die Komponente eine hohe Pixeldichte nur bis zum angegebenen Limit. </p> </td> 
   </tr> 
  </tbody> 
 </table>
