@@ -1,21 +1,20 @@
 ---
-description: Die Ansicht "Main"besteht aus dem Rotationsbild, wenn es sich bei dem aktuellen Asset um ein Rotationsset handelt.
+description: Die Hauptansicht besteht aus dem Rotationsbild, wenn das aktuelle Asset ein Rotationsset ist.
 solution: Experience Manager
-title: Ansicht
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Rotationsansicht
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
 
+# Rotationsansicht{#spin-view}
 
-# Rotationsset-Ansicht{#spin-view}
-
-Die Ansicht &quot;Main&quot;besteht aus dem Rotationsbild, wenn es sich bei dem aktuellen Asset um ein Rotationsset handelt.
+Die Hauptansicht besteht aus dem Rotationsbild, wenn das aktuelle Asset ein Rotationsset ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,16 +36,15 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat der Rotationsfarbe. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Rotationsansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um die Ansicht transparent zu machen.
+Beispiel - um die Rotationsansicht transparent zu machen.
 
 ```
 .s7mixedmediaviewer .s7spinview { 
  background-color: transparent; 
 }
 ```
-
