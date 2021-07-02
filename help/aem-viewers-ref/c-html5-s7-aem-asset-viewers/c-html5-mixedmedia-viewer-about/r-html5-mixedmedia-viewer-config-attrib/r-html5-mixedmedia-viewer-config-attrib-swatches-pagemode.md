@@ -2,16 +2,15 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: feef9531-043c-44b6-a768-9f7f5b4aed71
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 6%
 
 ---
-
 
 # Swatches.pagemode{#swatches-pagemode}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Beim Umblättern führen die Bildlaufschaltflächen automatisch dazu, dass die Muster eine ganze Seitenlänge überschreiten. </p> <p>Zusätzliche Leerzeichen werden auf der letzten Seite angezeigt, wenn die Muster nicht passen. Außerdem hat die letzte Seite dieselbe Anzahl von Zellen wie jede vorherige Seite. </p> <p>Der Bildlaufschritt wird ignoriert, und der Bildlauf mit der Maus erfolgt nur auf vollständigen Seiten. </p> </td> 
+   <td colname="col2"> <p> Wenn die Bildlauftasten umgeschaltet sind, führen sie automatisch dazu, dass die Farbfelder eine volle Seitenlänge überschreiten. </p> <p>Zusätzliche Leerzeichen werden auf der letzten Seite angezeigt, wenn die Farbfelder nicht passen. Außerdem weist die letzte Seite dieselbe Anzahl von Zellen auf wie jede vorherige Seite. </p> <p>Der Bildlaufschritt wird ignoriert und der Mauslauf erfolgt nur auf vollständigen Seiten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
