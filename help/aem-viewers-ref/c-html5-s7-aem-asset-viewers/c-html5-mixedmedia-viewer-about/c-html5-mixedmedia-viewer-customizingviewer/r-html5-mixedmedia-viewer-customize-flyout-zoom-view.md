@@ -1,27 +1,26 @@
 ---
-description: Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Ansicht, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
+description: Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '254'
 ht-degree: 4%
 
 ---
 
-
 # Flyout-Zoom-Ansicht{#flyout-zoom-view}
 
-Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Ansicht, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
+Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild der Hauptklasse wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Hauptansicht wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview
@@ -37,12 +36,12 @@ Das Erscheinungsbild der Hauptklasse wird mit der folgenden CSS-Klassenauswahl g
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Die Hintergrundfarbe der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p> Die Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: So machen Sie die Ansicht transparent:
+Beispiel - um die Hauptansicht transparent zu machen:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview { 
@@ -58,7 +57,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Sie können Schriftschnitt, Größendarstellung und vertikalen Offset mithilfe von CSS konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
+Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
 
 **CSS-Eigenschaften der Tippmeldung**
 
@@ -72,42 +71,42 @@ Sie können Schriftschnitt, Größendarstellung und vertikalen Offset mithilfe v
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfüllfarbe der Nachricht. </p> </td> 
+   <td colname="col2"> <p>Füllfarbe für den Nachrichtenhintergrund. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> Rahmenradius des Nachrichtenhintergrunds. </p> </td> 
+   <td colname="col2"> <p> Radius des Nachrichtenhintergrunds </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Versatz unten in der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p> Versatz unten in der Hauptansicht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Farbe des Tipp-Textes. </p> </td> 
+   <td colname="col2"> <p>Textfarbe für Tipps. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrunddeckkraft der Nachricht. </p> </td> 
+   <td colname="col2"> <p> Deckkraft des Nachrichtenhintergrunds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p> Umrandung des Nachrichtentextes. </p> </td> 
+   <td colname="col2"> <p> Auffüllung um den Nachrichtentext. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Tippmeldung kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die Tipp-Nachricht kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Beispiel: Um eine halbtransparente Tipp-Meldung mit einer weißen Arial-12-Pixel-Schrift einzurichten, werden 50 Pixel vom unteren Rand der Ansicht, der Auffüllung und einem gerundeten Rand versetzt:
+Beispiel: So richten Sie eine halbtransparente Tipp-Meldung mit weißer Arial-12-px-Schriftart ein, die 50 Pixel vom unteren Rand der Hauptansicht, des Abstands und eines gerundeten Rahmens entfernt ist:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
