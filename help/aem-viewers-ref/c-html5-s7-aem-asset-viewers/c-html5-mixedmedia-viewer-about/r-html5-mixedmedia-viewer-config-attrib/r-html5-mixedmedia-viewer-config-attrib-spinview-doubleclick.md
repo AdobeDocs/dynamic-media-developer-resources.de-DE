@@ -2,16 +2,15 @@
 description: SpinView.doubleclick
 solution: Experience Manager
 title: SpinView.doubleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 65e2f2c9-ee2c-45a8-9935-a33089b8c379
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.doubleclick{#spinview-doubleclick}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Zuordnung von Dublette-Klick/Tippen zu Rotationsaktionen. Wenn Sie auf <span class="codeph"> none </span> festlegen, wird die Dublette-Klick-/Tippen-Rotation deaktiviert. Wenn <span class="codeph"> auf </span> gesetzt, klicken Sie in einem Rotationsschritt auf das Bild. STRG+Klick dreht einen Rotationsschritt aus. Wenn Sie auf <span class="codeph"> zurücksetzen </span> klicken, wird die Rotation durch einen einzigen Klick auf das Bild auf die ursprüngliche Rotation zurückgesetzt. Für <span class="codeph"> zoomReset </span> wird das Zurücksetzen angewendet, wenn der aktuelle Rotationsfaktor auf oder über den angegebenen Grenzwert hinausgeht, andernfalls wird das Drehen angewendet. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Zuordnung von Doppelklick/Tippen zu Rotations-Aktionen. Wenn Sie auf <span class="codeph"> none </span> festlegen, wird das doppelte Klicken/Tippen-Rotieren deaktiviert. Wenn auf <span class="codeph"> Zoomen Sie </span>, indem Sie in einem Rotationsschritt auf die Bilddrehung klicken. Bei gedrückter Strg-Taste wird ein Rotationsschritt ausgelöst. Wenn Sie auf <span class="codeph"> setzen </span>, wird durch einen einzelnen Klick auf das Bild die Rotation auf die ursprüngliche Rotation zurückgesetzt. Für <span class="codeph"> zoomReset </span> wird das Zurücksetzen angewendet, wenn der aktuelle Rotationsfaktor den angegebenen Grenzwert erreicht oder überschreitet. Andernfalls wird die Rotation angewendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,7 +31,7 @@ Optional.
 
 ## Standard {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` auf Desktop-Computern;  `zoomReset` auf Touch-Geräten.
+`reset` auf Desktop-Computern,  `zoomReset` auf Touch-Geräten.
 
 ## Beispiel {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
