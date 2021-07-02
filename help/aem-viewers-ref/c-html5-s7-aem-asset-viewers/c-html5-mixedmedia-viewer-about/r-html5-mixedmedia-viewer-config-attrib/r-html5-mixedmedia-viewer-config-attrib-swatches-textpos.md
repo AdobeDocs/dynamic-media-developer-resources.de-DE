@@ -2,16 +2,15 @@
 description: Swatches.textpos
 solution: Experience Manager
 title: Swatches.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.textpos{#swatches-textpos}
 
@@ -23,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Gibt an, wo die Beschriftung relativ zum Musterminiaturbild gezeichnet wird. Das heißt, die Beschriftung wird an der angegebenen Position relativ zur Musterminiatur zentriert. Wenn <span class="codeph"> tooltip</span> angegeben ist, wird keine Beschriftung gezeichnet. </p> </td> 
+   <td> <p> Gibt an, wo die Beschriftung relativ zum Musterminiaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Musterminiatur zentriert. Wenn <span class="codeph"> tooltip</span> angegeben ist, wird keine Beschriftung gezeichnet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
