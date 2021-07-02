@@ -2,16 +2,15 @@
 description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 solution: Experience Manager
 title: Videoplayer
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2f92d76e-3104-4ad8-9426-662275492251
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
-
 
 # Videoplayer{#video-player}
 
@@ -19,9 +18,9 @@ Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer an
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Rechteckanzeigebereichs des Videoplayers zentriert.
+Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Anzeigebereichs für das Rechteck des Videoplayers zentriert.
 
-Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
 
 ```
 .s7mixedmediaviewer .s7videoplayer
@@ -38,9 +37,9 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
  </tbody> 
 </table>
 
-Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht abspielen kann, kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht wiedergeben kann, kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Beispiel: So machen Sie den Videoplayer transparent:
+Beispiel - So machen Sie den Videoplayer transparent:
 
 ```
 .s7mixedmediaviewer .s7videoplayer { 
@@ -48,7 +47,7 @@ Beispiel: So machen Sie den Videoplayer transparent:
 }
 ```
 
-Beschriftungen werden im Video-Player in internen Container eingefügt. Die Position dieses Containers wird von unterstützten WebVTT-Positionierungsoperatoren gesteuert. Der Beschriftungstext selbst befindet sich innerhalb dieses Containers. sein Stil wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Untertitel werden im Video-Player in einen internen Container eingefügt. Die Position dieses Containers wird durch unterstützte WebVTT-Positionierungsoperatoren gesteuert. Der Beschriftungstext selbst befindet sich in diesem Container. Der Stil wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption
@@ -73,21 +72,21 @@ Beschriftungen werden im Video-Player in internen Container eingefügt. Die Posi
    <td colname="col2"> <p>Beschriftungstextfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung  </span> </p> </td> 
-   <td colname="col2"> <p>Schriftart-Gewichtung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - So richten Sie den Beschriftungstext auf einem halbtransparenten schwarzen Hintergrund auf einen hellgrauen Arial mit 14 Pixel ein:
+Beispiel - So richten Sie Beschriftungstext auf einem halbtransparenten schwarzen Hintergrund auf 14 Pixel hellgraue Arial ein:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption { 
@@ -99,7 +98,7 @@ Beispiel - So richten Sie den Beschriftungstext auf einem halbtransparenten schw
 }
 ```
 
-Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7waiticon
@@ -125,11 +124,11 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbol links, normalerweise minus die Hälfte der Breite des Symbols. </p> </td> 
+   <td colname="col2"> <p> Animationssymbol am linken Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbole am oberen Rand, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
+   <td colname="col2"> <p> Der obere Rand des Animationssymbols, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -138,7 +137,7 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: So richten Sie eine Animation mit Pufferung auf eine Breite von 101 Pixeln und eine Höhe von 29 Pixeln ein:
+Beispiel: Um eine Pufferanimation auf 101 Pixel breit und 29 Pixel hoch einzurichten:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7waiticon { 
@@ -149,4 +148,3 @@ Beispiel: So richten Sie eine Animation mit Pufferung auf eine Breite von 101 Pi
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
