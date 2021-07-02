@@ -1,21 +1,20 @@
 ---
-description: Stellt die maximale Anzahl von Frames dar, die im Voraus in jede Richtung geladen werden sollen, wenn die Rotationsansicht im Leerlauf ist.
+description: Stellt die maximale Anzahl von Frames dar, die bei inaktiver SpinView in jede Richtung vorgeladen werden sollen.
 solution: Experience Manager
 title: SpinView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e64fcd95-9660-4c1f-91b2-3ffc5a7493ce
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 3%
 
 ---
 
-
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
-Stellt die maximale Anzahl von Frames dar, die im Voraus in jede Richtung geladen werden sollen, wenn die Rotationsansicht im Leerlauf ist.
+Stellt die maximale Anzahl von Frames dar, die bei inaktiver SpinView in jede Richtung vorgeladen werden sollen.
 
 ` [SpinView.|<containerId>_spinView.]maxloadradius= *``*[, *`valueHeighRes`*]`
 
@@ -23,11 +22,11 @@ Stellt die maximale Anzahl von Frames dar, die im Voraus in jede Richtung gelade
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Wert</span></span> </p> </td> 
-   <td colname="col2"> <p> Der Wert <span class="codeph"> -1</span> lädt alle Frames im Satz vorab. Die vorgeladenen Frames werden immer mit der ursprünglichen Auflösung angezeigt, mit der die SpinView ursprünglich geladen wurde. </p> </td> 
+   <td colname="col2"> <p> Der Wert <span class="codeph"> -1</span> lädt alle Frames im Satz vorab. Die vorgeladenen Frames werden immer mit der ursprünglichen Auflösung angezeigt, die die SpinView ursprünglich geladen hatte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Steuert die Qualität von vorab geladenen Frames. </p> <p>Bei Festlegung auf <span class="codeph"> 1</span> werden die Frames in hoher Qualität geladen und entsprechen der Größe der Komponente. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> wird nur die Kachel mit niedriger Auflösung geladen. </p> <p>Das Vorausladen in hoher Auflösung verbessert die Benutzerfreundlichkeit, insbesondere wenn die automatische Rotation aktiviert ist. Gleichzeitig wird die Beginn-Zeit verkürzt und der Netzwerkverbrauch erhöht, daher sollte er mit Vorsicht verwendet werden. Wenn eine hochauflösende Vorladung verwendet wird, befinden sich die vorab geladenen Frames immer in der ursprünglichen Auflösung, in der die Komponente ursprünglich geladen wurde. </p> </td> 
+   <td colname="col2"> <p> Steuert die Qualität der vorgeladenen Frames. </p> <p>Wenn auf <span class="codeph"> 1</span> gesetzt, werden die Frames in hoher Qualität geladen und entsprechen der Größe der Komponente. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, wird nur die Kachel mit niedriger Auflösung für die Vorschau geladen. </p> <p>Das Vorausfüllen in hoher Auflösung verbessert das Benutzererlebnis, insbesondere bei aktivierter automatischer Rotation. Gleichzeitig führt dies zu einer langsameren Startzeit und einem höheren Netzwerkverbrauch, daher sollte es mit Vorsicht verwendet werden. Bei Verwendung einer hochauflösenden Vorlast befinden sich die vorgeladenen Frames immer in der ursprünglichen Auflösung, in der die Komponente ursprünglich geladen wurde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
