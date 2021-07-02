@@ -2,16 +2,15 @@
 description: ZoomView.singleclick
 solution: Experience Manager
 title: ZoomView.singleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0fcc1f5c-a735-430d-be0c-c00ed08830df
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
-
 
 # ZoomView.singleclick{#zoomview-singleclick}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einzelklick/Tippen zu Zoomaktionen. Wenn Sie auf <span class="codeph"> none </span> festlegen, wird der Einklick-/Tippen-Zoom deaktiviert. Wenn auf <span class="codeph"> </span> festgelegt, klicken Sie in einem Zoomschritt auf das Bild. Strg+Klicken verkleinert einen Zoomschritt. Wenn Sie auf <span class="codeph"> zurücksetzen </span> klicken, wird der Zoom durch einen einzigen Klick auf das Bild auf den anfänglichen Zoomgrad zurückgesetzt. Für <span class="codeph"> zoomReset </span> wird das Zurücksetzen angewendet, wenn der aktuelle Zoomfaktor den angegebenen Grenzwert erreicht oder überschreitet, andernfalls wird das Zoomen angewendet. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einzelklicks/Tippen zu Zoom-Aktionen. Wird auf <span class="codeph"> none </span> gesetzt, wird der Zoom durch einfaches Klicken/Tippen deaktiviert. Wenn auf <span class="codeph"> Zoomen </span> festgelegt, wird das Bild durch Klicken in einem Zoomschritt vergrößert. Strg+Klicken Zoomt einen Zoomschritt aus. Wird auf <span class="codeph"> </span> zurückgesetzt, wird der Zoom durch einen einzelnen Klick auf das Bild auf den anfänglichen Zoomfaktor zurückgesetzt. Für <span class="codeph"> zoomReset </span> wird das Zurücksetzen angewendet, wenn der aktuelle Zoomfaktor den angegebenen Grenzwert erreicht oder überschreitet. Andernfalls wird der Zoom angewendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,7 +31,7 @@ Optional.
 
 ## Standard {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`zoomReset` auf Desktop-Computern;  `none` auf Touch-Geräten.
+`zoomReset` auf Desktop-Computern,  `none` auf Touch-Geräten.
 
 ## Beispiel {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
