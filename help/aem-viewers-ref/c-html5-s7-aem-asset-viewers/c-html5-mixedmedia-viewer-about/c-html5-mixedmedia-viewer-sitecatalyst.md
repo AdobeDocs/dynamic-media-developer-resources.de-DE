@@ -1,31 +1,30 @@
 ---
-description: Der Viewer für gemischte Medien unterstützt die sofortige Adobe Analytics-Verfolgung.
+description: Der Viewer für gemischte Medien unterstützt standardmäßig das Adobe Analytics-Tracking.
 solution: Experience Manager
-title: Unterstützung der Adobe Analytics-Verfolgung
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Unterstützung für Adobe Analytics-Tracking
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3b28c853-3747-4805-a141-3cce1398d783
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
 
+# Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+Der Viewer für gemischte Medien unterstützt standardmäßig das Adobe Analytics-Tracking.
 
-Der Viewer für gemischte Medien unterstützt die sofortige Adobe Analytics-Verfolgung.
+## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-## Vordefinierte Verfolgung {#section-ba994f079d0343c8ae48adffaa3195a3}
+Der Viewer für gemischte Medien unterstützt die standardmäßige [!DNL Adobe Analytics]-Verfolgung. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
-Der Viewer für gemischte Medien unterstützt standardmäßig [!DNL Adobe Analytics]-Verfolgung. Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als Parameter `config2`.
+Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-Der Viewer sendet außerdem eine einzige Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
+## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
-
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf abzurufen und das `eventInfo`-Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Um in Analytics-Systeme von Drittanbietern zu integrieren, müssen Sie den Viewer-Rückruf `trackEvent` überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -50,13 +49,13 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 });
 ```
 
-Der Viewer verfolgt die folgenden SDK-Ereignis:
+Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK-Ereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet, wenn... </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
+   <th colname="col2" class="entry"> <p>Gesendet, wenn ... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -66,7 +65,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset mit der API <span class="codeph"> setAsset() </span> im Viewer getauscht wird. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -74,32 +73,31 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>ein Bild ist geflogen. </p> </td> 
+   <td colname="col2"> <p>ein Bild eingeplant ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> ein Bild geändert wird, indem auf ein Farbfeld geklickt oder darauf getippt wird. </p> </td> 
+   <td colname="col2"> <p> ein Bild geändert wird, indem Sie auf ein Muster klicken oder tippen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>die Wiedergabe gestartet wird. </p> </td> 
+   <td colname="col2"> <p>Die Wiedergabe wird gestartet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>Wiedergabe angehalten. </p> </td> 
+   <td colname="col2"> <p>Die Wiedergabe wurde angehalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>Wiedergabe beendet wird. </p> </td> 
+   <td colname="col2"> <p>Die Wiedergabe wird angehalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>die Wiedergabe einen der folgenden Meilensteine erreicht: 0%, 25%, 50%, 75% und 100%. </p> </td> 
+   <td colname="col2"> <p>Die Wiedergabe erreicht einen der folgenden Meilensteine: 0 %, 25 %, 50 %, 75 % und 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
-   <td colname="col2"> <p>Spin wird ausgeführt. </p> </td> 
+   <td colname="col2"> <p>drehen wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
