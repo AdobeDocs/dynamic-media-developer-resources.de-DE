@@ -2,16 +2,15 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3336c4d2-0d1d-4c6f-8163-8a84a8be8c20
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.iscommand{#swatches-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf alle Farbfelder angewendet wird. Wenn dies in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span> HTTP-kodieren. </p> <p> <p>Hinweis:  Bildgrößenbearbeitungsbefehle werden nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf alle Farbfelder angewendet wird. Wenn sie in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26</span> und <span class="codeph"> %3D</span> HTTP-kodieren. </p> <p> <p>Hinweis:  Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
