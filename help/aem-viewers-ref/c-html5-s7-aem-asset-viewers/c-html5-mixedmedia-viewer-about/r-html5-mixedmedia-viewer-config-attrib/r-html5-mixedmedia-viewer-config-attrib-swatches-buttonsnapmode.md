@@ -2,16 +2,15 @@
 description: Swatches.buttonsnapmode
 solution: Experience Manager
 title: Swatches.buttonsnapmode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3be4a886-cc33-42f8-8f0a-e41d8dd5da33
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
-
 
 # Swatches.buttonsnapmode{#swatches-buttonsnapmode}
 
@@ -20,16 +19,16 @@ ht-degree: 7%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> Snapin</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Momentan</span> </span> </p> </td> 
    <td> <p>Dadurch werden die Schaltflächen neben den Farbfeldern ausgerichtet. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> Snapout</span> </span> </p> </td> 
-   <td> <p>Dadurch werden die Schaltflächen neben dem Komponentenrand ausgerichtet. </p> </td> 
+   <td> <p>Hierdurch werden die Schaltflächen neben dem Komponentenrahmen ausgerichtet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overlay</span> </span> </p> </td> 
-   <td> <p>Die Schaltflächen werden über den Farbfeldern dargestellt. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Overlay</span> </span> </p> </td> 
+   <td> <p>Hierdurch werden die Schaltflächen über den Farbfeldern gerendert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
