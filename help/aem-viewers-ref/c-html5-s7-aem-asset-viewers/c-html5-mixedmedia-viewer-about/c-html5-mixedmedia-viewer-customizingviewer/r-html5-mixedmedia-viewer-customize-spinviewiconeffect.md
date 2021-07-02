@@ -1,21 +1,20 @@
 ---
-description: Der Rotationsindikator wird über dem Bereich der Ansicht überlagert. Es wird angezeigt, wenn sich das Bild in einem Reset-Zustand befindet und es hängt auch vom iconeffect-Parameter ab.
+description: Der Rotationsindikator wird im Rotationsansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet, und sie hängt auch vom iconffekt -Parameter ab.
 solution: Experience Manager
-title: Effekt "Ansicht drehen"
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Symbol für Rotationsansicht
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
 
+# Symbol für Rotationsansicht{#spin-view-icon-effect}
 
-# Effekt &quot;Ansicht drehen&quot;{#spin-view-icon-effect}
-
-Der Rotationsindikator wird über dem Bereich der Ansicht überlagert. Es wird angezeigt, wenn sich das Bild in einem Reset-Zustand befindet und es hängt auch vom iconeffect-Parameter ab.
+Der Rotationsindikator wird im Rotationsansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet, und sie hängt auch vom iconffekt -Parameter ab.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,15 +36,15 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Rotationsanzeigegrafik. </p> </td> 
+   <td colname="col2"> <p> Grafiken für Rotationsindikatoren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Rotationsanzeigebreite. </p> </td> 
+   <td colname="col2"> <p>Breite der Rotationsanzeige. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -54,9 +53,9 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Der Rotationsanzeiger unterstützt den Attributselektor `state`, der bei eindimensionalen Rotationsset auf `spin_1D` und bei mehrdimensionalen Rotationsset auf `spin_2D` eingestellt ist.
+Der Rotationsindikator unterstützt die Attributauswahl `state` , die bei eindimensionalem Rotationsset auf `spin_1D` und bei mehrdimensionalem Rotationsset auf `spin_2D` gesetzt ist.
 
-Beispiel: Zum Einrichten eines Zoomindikators für 100 x 100 Pixel.
+Beispiel: Zum Einrichten eines Zoom-Indikators mit einer Größe von 100 x 100 Pixel.
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect { 
@@ -70,4 +69,3 @@ background-image: url(images/spinIcon_1D.png);
 background-image: url(images/spinIcon_2D.png); 
 }
 ```
-
