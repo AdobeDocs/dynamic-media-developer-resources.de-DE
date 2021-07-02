@@ -2,16 +2,15 @@
 description: Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet.
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 4%
 
 ---
-
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
@@ -23,7 +22,7 @@ Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Serve
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als undurchsichtig. </p> <p>Beachten Sie, dass die Komponente standardmäßig einen weißen Hintergrund hat. Um ihn vollständig transparent zu machen, setzen Sie die CSS-Eigenschaft <span class="codeph"> background-color</span> auf <span class="codeph"> transparent</span>. </p> </td> 
+   <td colname="col2"> <p> Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. </p> <p>Beachten Sie, dass die Komponente standardmäßig einen weißen Hintergrund hat. Um es vollständig transparent zu machen, setzen Sie daher die CSS-Eigenschaft <span class="codeph"> background-color</span> auf <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
