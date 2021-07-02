@@ -1,21 +1,20 @@
 ---
-description: Schaltet die Anzeige der Bildunterschrift ein oder aus. Es ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist. Mit CSS können Sie die Größe, Skin und Position dieser Schaltfläche relativ zur Steuerungsleiste, in der sie enthalten ist, anpassen.
+description: Schaltet die Anzeige der Untertitel ein bzw. aus. Sie ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist. Sie können CSS verwenden, um diese Schaltfläche in der Größe, der Haut und der Position relativ zur Steuerleiste zu positionieren, die sie enthält.
 solution: Experience Manager
-title: Beschriftungsschaltfläche
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Schaltfläche "Beschriftung"
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
 
+# Schaltfläche &quot;Beschriftung&quot;{#caption-button}
 
-# Beschriftungsschaltfläche{#caption-button}
-
-Schaltet die Anzeige der Bildunterschrift ein oder aus. Es ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist. Mit CSS können Sie die Größe, Skin und Position dieser Schaltfläche relativ zur Steuerungsleiste, in der sie enthalten ist, anpassen.
+Schaltet die Anzeige der Untertitel ein bzw. aus. Sie ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist. Sie können CSS verwenden, um diese Schaltfläche in der Größe, der Haut und der Position relativ zur Steuerleiste zu positionieren, die sie enthält.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,19 +36,19 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p>Position vom linken Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,18 +64,18 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl und die ausgewählten Attributselektoren, mit denen verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können. `state` Insbesondere entspricht `selected='true'` dem Status, wenn Beschriftungen sichtbar sind, und `selected='false'` wird verwendet, wenn Beschriftungen ausgeblendet werden.
+>Diese Schaltfläche unterstützt den Attributselektor `state` und ausgewählte Attributselektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status, in dem Beschriftungen sichtbar sind, und `selected='false'` wird verwendet, wenn Beschriftungen ausgeblendet werden.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Beispiel: Zum Einrichten einer Untertitel-Schaltfläche mit 28 x 28 Pixeln, die vier Pixel von oben und 68 Pixel von der rechten Kante der Steuerleiste positioniert ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind.
+Beispiel: Zum Einrichten einer Untertitelschaltfläche mit 28 x 28 Pixel, vier Pixel von der oberen und 68 Pixel von der rechten Kante der Steuerleiste entfernt, und zum Anzeigen eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 
@@ -111,4 +110,3 @@ background-image:url(images/v2/ClosedCaptionButton_down.png);
 background-image:url(images/v2/ClosedCaptionButton_disabled.png);  
 }
 ```
-
