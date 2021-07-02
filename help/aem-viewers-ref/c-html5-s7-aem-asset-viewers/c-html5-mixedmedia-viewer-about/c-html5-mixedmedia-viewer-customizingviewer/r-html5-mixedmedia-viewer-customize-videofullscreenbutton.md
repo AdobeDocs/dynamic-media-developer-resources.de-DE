@@ -1,51 +1,50 @@
 ---
-description: Durch Klicken auf die Schaltfläche im Vollbildmodus wird der Viewer in den Vollbildmodus versetzt oder beendet. Es wird verwendet, wenn der Viewer Videos anzeigt und sich in der Steuerungsleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt.
+description: Durch die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer angeklickt wird. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
 solution: Experience Manager
 title: Schaltfläche "Video im Vollbildmodus"
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
 
+# Schaltfläche &quot;Video im Vollbildmodus&quot;{#video-full-screen-button}
 
-# Schaltfläche für den Vollbildmodus für Videos{#video-full-screen-button}
-
-Durch Klicken auf die Schaltfläche im Vollbildmodus wird der Viewer in den Vollbildmodus versetzt oder beendet. Es wird verwendet, wenn der Viewer Videos anzeigt und sich in der Steuerungsleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt.
+Durch die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer angeklickt wird. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Sie können die Größe, Skin und Position der Schaltfläche im Vollbildmodus relativ zur Steuerungsleiste, in der sie enthalten ist, mithilfe von CSS festlegen.
+Sie können die Vollbildschaltfläche in Bezug auf die sie enthaltende Steuerleiste durch CSS anpassen, gestalten und positionieren.
 
-Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mithilfe der CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassenauswahl gesteuert:
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche im Vollbildmodus**
+**CSS-Eigenschaften der Schaltfläche &quot;Vollbild&quot;**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p> Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p> Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p> Position vom rechten Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p> Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p> Position vom linken Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p> Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,24 +56,24 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mithilfe der CSS-Kl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Das angezeigte Bild für einen Schaltflächenstatus. </p> </td> 
+   <td colname="col2"> <p> Das angezeigte Bild für einen gegebenen Schaltflächenstatus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die Attributselektoren `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Um eine Schaltfläche im Vollbildmodus einzurichten, die 32 x 32 Pixel groß und 6 Pixel von der oberen und rechten Kante der Steuerungsleiste entfernt ist. Zeigen Sie außerdem ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände an, wenn diese ausgewählt oder nicht ausgewählt sind.
+So richten Sie eine Vollbildschaltfläche von 32 x 32 Pixel ein und positionieren 6 Pixel von der oberen und rechten Kante der Steuerleiste. Zeigen Sie außerdem ein anderes Bild für jeden der vier Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 
@@ -108,4 +107,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
