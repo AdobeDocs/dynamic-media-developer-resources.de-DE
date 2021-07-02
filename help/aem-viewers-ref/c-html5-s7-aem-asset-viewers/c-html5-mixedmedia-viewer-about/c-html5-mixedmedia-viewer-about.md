@@ -3,10 +3,10 @@ description: Der Viewer für gemischte Medien ist ein Medien-Viewer. Es unterst�
 keywords: responsiv
 solution: Experience Manager
 title: Gemischte Medien
-feature: Dynamic Media Classic,Viewer,SDK/API,Mix-Mediensets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Auf diesen Viewer kann vollständig über die Tastatur zugegriffen werden.
 
 Siehe [Barrierefreiheit und Navigation über die Tastatur](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Einbetten des Viewers für gemischte Medien {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Einbetten von Viewer für gemischte Medien {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der den Viewer beim Klicken in einem separaten Browser-Fenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung fester Größe und Einbettung responsiver Designs.
 
@@ -124,7 +124,7 @@ Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschied
 
 Andernfalls füllt der Viewer, wenn die Web-Seite die Breite und Höhe für den Container des Viewers `DIV` festlegt, nur diesen Bereich und folgt der Größe, die das Layout der Web-Seite bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
-## Feste Größe Einbetten {#section-17d162f76ffa4804b27928f51e7bea1d}
+## Einbetten fester Größe {#section-17d162f76ffa4804b27928f51e7bea1d}
 
 Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
 
@@ -331,7 +331,7 @@ Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit 
 
 [Alternativer Demostandort](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## Flexible Größe einbetten mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
+## Flexible Größeneinbettung mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 
 Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Es stellt beide Größen für den DIV `"holder"` bereit und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 Prozent.
 
@@ -398,7 +398,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Einbetten mit Setter-basierter API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Einbetten mit der Setter-basierten API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
 
