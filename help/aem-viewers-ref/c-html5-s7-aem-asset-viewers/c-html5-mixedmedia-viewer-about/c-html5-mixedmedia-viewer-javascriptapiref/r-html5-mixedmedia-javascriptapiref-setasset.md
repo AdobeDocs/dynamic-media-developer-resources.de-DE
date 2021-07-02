@@ -1,21 +1,20 @@
 ---
-description: JavaScript-API-Referenz für gemischte Medien-Viewer.
+description: JavaScript-API-Referenz für Viewer für gemischte Medien.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
 
-
 # setAsset{#setasset}
 
-JavaScript-API-Referenz für gemischte Medien-Viewer.
+JavaScript-API-Referenz für Viewer für gemischte Medien.
 
 ` setAsset( *`asset`*[,data]))`
 
@@ -25,34 +24,34 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewe
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`asset`*`  - {  `String`} neue Asset-ID oder explizite gemischte Mediensets, mit optionalen Image Serving-Modifikatoren nach  `?`.
+`*`asset`*`  - {  `String`} neue Asset-ID oder explizites gemischtes Medienset, wobei optionale Image Serving-Modifikatoren nach angehängt  `?`werden.
 
 Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt.
 
-`*`data`*` - {  `JSON`} Speicherort der neuen Untertiteldatei.
+`*`data`*`  - {  `JSON`} Speicherort der neuen Untertiteldatei.
 
-Ist dies nicht der Fall, ist die Beschriftungsschaltfläche in der Benutzeroberfläche nicht sichtbar. Die mit diesem Parameter angegebenen Bildunterschriften gelten für das Video, das zuerst im gemischten Medienset angezeigt wird. nachfolgende Videos werden ohne Bildunterschriften abgespielt. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
+Wenn keine Beschriftungsschaltfläche angegeben ist, ist sie in der Benutzeroberfläche nicht sichtbar. Mit diesem Parameter angegebene Untertitel gelten für das Video, das zuerst im gemischten Medienset angezeigt wird. nachfolgende Videos werden ohne Untertitel wiedergegeben. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Komponenten-ID </p> </th> 
-   <th colname="col2" class="entry"> <p>Name der Viewer SDK-Komponentenklasse </p> </th> 
+   <th colname="col2" class="entry"> <p>Name der Komponentenklasse des Viewer-SDK </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Posterbild  </span> </p> </td> 
-   <td colname="col2"> <p>Das Bild, das im ersten Bild vor dem Abspielen des Beginns angezeigt wird. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posterimage  </span> </p> </td> 
+   <td colname="col2"> <p>Bild, das im ersten Frame angezeigt werden soll, bevor das Video abgespielt wird. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> caption  </span> </p> </td> 
-   <td colname="col2"> <p> Speicherort der neuen Untertiteldatei. </p> <p>Ist dies nicht der Fall, ist die Beschriftungsschaltfläche in der Benutzeroberfläche nicht sichtbar. Die mit diesem Parameter angegebenen Beschriftungen gelten für das Video, das zuerst im Medienset angezeigt wird. Nachfolgende Videos werden ohne Bildunterschriften wiedergegeben. </p> </td> 
+   <td colname="col2"> <p> Speicherort der neuen Untertiteldatei. </p> <p>Wenn keine Beschriftungsschaltfläche angegeben ist, ist sie in der Benutzeroberfläche nicht sichtbar. Mit diesem Parameter angegebene Untertitel gelten für das Video, das zuerst im Medienset angezeigt wird. Nachfolgende Videos werden ohne Untertitel wiedergegeben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
@@ -64,15 +63,14 @@ Referenz zu einzelnen Mediensätzen:
 <instance>.setAsset("Scene7SharedAssets/Mixed_Media_Set_Sample")
 ```
 
-Explizites Medienset:
+Expliziter Mediensatz:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_J;;advanced_image;,Scene7SharedAssets/Frame-6;;advanced_image;,Scene7SharedAssets/Frame-2;;advanced_image;,Scene7SharedAssets/SpinSet_Sample;;spin;,Scene7SharedAssets/ImageSet-Colors-Sample;;advanced_swatchset;,Scene7SharedAssets/Glacier_Climber_640x360;Scene7SharedAssets/Glacier_Climber_640x360;video;")
 ```
 
-Scharfzeichnungsmodifizierer, der allen Bildern im Satz hinzugefügt wird:
+Der Scharfzeichnungsmodifikator wurde allen Bildern im Set hinzugefügt:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Mixed_Media_Set_Sample?op_sharpen=1")
 ```
-
