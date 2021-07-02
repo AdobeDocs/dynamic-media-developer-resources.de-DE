@@ -2,16 +2,15 @@
 description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
 solution: Experience Manager
 title: VideoPlayer.waiticon
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1adc823a-07d6-447f-9560-c737d3963eb9
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
-
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für Video-Viewer für gemischte Medien.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert bzw. deaktiviert die Anzeige der Pufferung (Wartesymbol). </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die Anzeige der Pufferanimation (Wartesymbol). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ Optional.
 ```
 waiticon=0
 ```
-
