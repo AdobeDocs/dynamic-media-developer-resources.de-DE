@@ -2,28 +2,27 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4f25112b-9e51-4a0e-9500-1b5ab0f4de87
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '93'
 ht-degree: 4%
 
 ---
-
 
 # Swatches.align{#swatches-align}
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Gibt die interne Ausrichtung (Verankerung) des Containers &quot;Muster&quot;im Komponentenbereich an. Bei Farbfeldern wird der Container für die Miniaturansicht so angepasst, dass nur eine ganze Anzahl von Farbfeldern angezeigt wird. Infolgedessen gibt es einige Auffüllung zwischen internen und externen Komponentengrenzen. Dieser Befehl gibt an, wie der Container für interne Muster innerhalb der Komponente positioniert wird.
+Gibt die interne Ausrichtung (Verankerung) des Farbfeldcontainers im Komponentenbereich an. In Farbfeldern wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Farbfeldern angezeigt wird. Daher gibt es einige Abstände zwischen dem internen Container und den externen Komponentengrenzen. Dieser Befehl gibt an, wie der interne Farbfeldcontainer innerhalb der Komponente positioniert wird.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Legt die Ausrichtung der horizontalen Muster fest. </p> </td> 
+   <td> <p> Legt die Ausrichtung der horizontalen Farbfelder fest. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
