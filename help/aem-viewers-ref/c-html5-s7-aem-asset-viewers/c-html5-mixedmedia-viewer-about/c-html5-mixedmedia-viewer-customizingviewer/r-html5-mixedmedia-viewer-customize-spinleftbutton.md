@@ -1,21 +1,20 @@
 ---
-description: Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, wird das Bild in der Ansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Außerdem wird die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Größe, Skin und Position der Schaltfläche mithilfe von CSS festlegen.
+description: Wenn Sie auf diese Schaltfläche klicken oder tippen, wird das Bild in der Hauptansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Außerdem ist die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 title: Schaltfläche "Nach links drehen"
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0c7ca422-f4ac-4ad1-ab51-8521b4d4b20e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '339'
 ht-degree: 4%
 
 ---
 
-
 # Schaltfläche &quot;Nach links drehen&quot;{#spin-left-button}
 
-Wenn Sie auf diese Schaltfläche klicken oder darauf tippen, wird das Bild in der Ansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Bildschirmgröße zu speichern. Außerdem wird die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Größe, Skin und Position der Schaltfläche mithilfe von CSS festlegen.
+Wenn Sie auf diese Schaltfläche klicken oder tippen, wird das Bild in der Hauptansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Außerdem ist die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,19 +36,19 @@ Die Schaltfläche wird einem internen Container hinzugefügt, der mit dem CSS-Kl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p>Position vom linken Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -62,7 +61,7 @@ Die Schaltfläche wird einem internen Container hinzugefügt, der mit dem CSS-Kl
  </tbody> 
 </table>
 
-Das Erscheinungsbild dieser Schaltfläche im Container wird mithilfe der CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild dieser Schaltfläche im Container wird mit dem CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panleftbutton
@@ -78,19 +77,19 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mithilfe der CSS-Kla
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p>Position vom linken Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
@@ -106,18 +105,18 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mithilfe der CSS-Kla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Beispiel: Um eine linke Rotationsschaltfläche mit 28 x 28 Pixeln einzurichten, die sich am linken Rand des inneren Containers befindet und für jeden der vier verschiedenen Schaltflächenzustände ein anderes Bild anzeigt:
+Beispiel: Zum Einrichten einer Schaltfläche mit der linken Maustaste, die 28 x 28 Pixel groß ist und sich am linken Rand des inneren Containers befindet und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panleftbutton { 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinLeftButton_light_down.png);
 background-image:url(images/v2/SpinLeftButton_light_disabled.png); 
 }
 ```
-
