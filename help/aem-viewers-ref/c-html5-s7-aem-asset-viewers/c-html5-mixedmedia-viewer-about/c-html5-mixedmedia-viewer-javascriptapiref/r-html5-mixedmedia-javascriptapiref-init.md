@@ -1,27 +1,26 @@
 ---
-description: JavaScript-API-Referenz für gemischte Medien-Viewer.
+description: JavaScript-API-Referenz für Viewer für gemischte Medien.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4fb40cec-172a-41b3-98fc-927da88c7cb9
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 2%
 
 ---
 
-
 # init{#init}
 
-JavaScript-API-Referenz für gemischte Medien-Viewer.
+JavaScript-API-Referenz für Viewer für gemischte Medien.
 
 `init()`
 
-Beginn für die Initialisierung des gemischten Medien-Viewers. Bis zu diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
+Startet die Initialisierung des Viewers für gemischte Medien. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Container-Element noch nicht Teil des Webseitenlayouts ist (es kann beispielsweise mit dem ihm zugewiesenen `display:none`-Stil ausgeblendet werden), setzt der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt aus, zu dem die Webseite das Container-Element wieder in das Layout einfügt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Container-Element noch nicht Teil des Web-Seiten-Layouts ist (z. B. kann es mit dem ihm zugewiesenen `display:none`-Stil ausgeblendet werden), setzt der Viewer den Initialisierungsprozess so lange aus, bis die Web-Seite das Container-Element wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
 Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. nachfolgende Aufrufe werden ignoriert.
 
@@ -29,7 +28,7 @@ Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. na
 
 Keine.
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Ein Verweis auf die Viewer-Instanz.
 
@@ -38,4 +37,3 @@ Keine.
 ```
 <instance>.init()
 ```
-
