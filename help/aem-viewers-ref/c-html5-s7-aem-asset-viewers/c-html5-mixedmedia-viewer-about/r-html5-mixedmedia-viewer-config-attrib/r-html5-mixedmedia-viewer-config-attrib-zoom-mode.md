@@ -1,29 +1,28 @@
 ---
-description: Legt den Typ der Zoominteraktion fest.
+description: Legt den Typ der Zoom-Interaktion fest.
 solution: Experience Manager
 title: zoomMode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a399ed5e-acc3-4c45-9c84-9fa572667489
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 2%
 
 ---
 
-
 # zoomMode{#zoommode}
 
-Legt den Typ der Zoominteraktion fest.
+Legt den Typ der Zoom-Interaktion fest.
 
 `zoomMode=continuous|inline|auto`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> uous|inline|auto  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> "Fortlaufend" </span> ermöglicht klassischen Zoom, bei dem das Bild beim Klicken, Tippen auf die Dublette oder Herausziehen in der Ansicht allmählich vergrößert wird. Sie müssen den Zoomstatus explizit verkleinern oder zurücksetzen, um zur ursprünglichen Ansicht zurückzukehren. </p> <p> <span class="codeph"> inline  </span> ermöglicht sofortiges Zoomen, wobei das gezoomte Bild sofort angezeigt wird, wenn Sie den Mauszeiger über die Haupt-Ansicht auf dem Desktop bewegen oder ein Touch-Gerät berühren und halten; wird automatisch der Anfangsstatus zurückgesetzt, sobald Sie die Maus von der Ansicht bewegen oder den Finger loslassen. Beachten Sie, dass in <span class="codeph"> eingebettete Bildsätze im Modus </span> reduziert und als einzelne Miniaturansichten angezeigt werden. <span class="codeph"> auto  </span> aktiviert den Inline-Modus auf dem Desktop und den kontinuierlichen Modus auf Touch-Geräten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> "Fortlaufend" </span> ermöglicht den klassischen Zoom, bei dem das Bild beim Klicken, Doppeltippen oder Verkleinern in der Hauptansicht nach und nach vergrößert wird. Sie müssen den Zoom-Status explizit verkleinern oder zurücksetzen, um zur Ansicht beim Öffnen zurückzukehren. </p> <p> <span class="codeph"> Inline  </span> ermöglicht sofortigen Zoom, wobei das gezoomte Bild sofort angezeigt wird, wenn Sie den Mauszeiger über die Hauptansicht auf dem Desktop bewegen oder ein Touchgerät berühren und halten. Das Bild wechselt automatisch in den ursprünglichen Zustand zurück, sobald Sie die Maus aus der Ansicht bewegen oder den Finger freigeben. Beachten Sie, dass verschachtelte Bildsets im Inline-Modus </span> im <span class="codeph">-Modus reduziert und als einzelne Miniaturansichten angezeigt werden. <span class="codeph"> automatisch  </span> aktiviert den Inline-Modus auf dem Desktop und den kontinuierlichen Modus auf Touch-Geräten. </span></p> </td> 
   </tr> 
  </tbody> 
 </table>
