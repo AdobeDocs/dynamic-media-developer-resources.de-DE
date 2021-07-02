@@ -1,20 +1,19 @@
 ---
-description: Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
+description: Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
-title: JavaScript-API-Referenz für den Viewer für gemischte Medien
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Javascript-API-Referenz für Viewer für gemischte Medien
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a557ffab-b9e6-4a7c-89c2-1f7b89cd6209
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
+# Javascript-API-Referenz für Viewer für gemischte Medien{#javascript-api-reference-for-mixed-media-viewer}
 
-# JavaScript-API-Referenz für gemischte Media Viewer{#javascript-api-reference-for-mixed-media-viewer}
+Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
-
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.MixedMediaViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.MixedMediaViewer`-Klasse instanziiert wird.
