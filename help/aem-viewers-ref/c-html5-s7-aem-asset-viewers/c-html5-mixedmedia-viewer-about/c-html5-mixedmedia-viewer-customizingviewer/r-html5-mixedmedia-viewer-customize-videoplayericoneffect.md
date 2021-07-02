@@ -1,21 +1,20 @@
 ---
-description: Das Wiedergabesymbol wird im Bereich "Ansicht"überlagert. Es wird angezeigt, wenn das Video angehalten wird oder das Ende des Videos erreicht wird, und es hängt auch vom iconeffect-Parameter ab.
+description: Das Wiedergabesymbol wird im Videoansichtsbereich überlagert. Es wird angezeigt, wenn das Video angehalten wird oder wenn das Ende des Videos erreicht wird, und es hängt auch vom iconffekt -Parameter ab.
 solution: Experience Manager
-title: Video-Player-Symboleffekt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Videoplayer-Symboleffekt
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1e0bd97f-20e9-41e6-95fc-d693644152da
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 1%
 
 ---
 
+# Videoplayer-Symboleffekt{#video-player-icon-effect}
 
-# Video-Player-Symboleffekt{#video-player-icon-effect}
-
-Das Wiedergabesymbol wird im Bereich &quot;Ansicht&quot;überlagert. Es wird angezeigt, wenn das Video angehalten wird oder das Ende des Videos erreicht wird, und es hängt auch vom iconeffect-Parameter ab.
+Das Wiedergabesymbol wird im Videoansichtsbereich überlagert. Es wird angezeigt, wenn das Video angehalten wird oder wenn das Ende des Videos erreicht wird, und es hängt auch vom iconffekt -Parameter ab.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +34,7 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,11 +47,11 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
  </tbody> 
 </table>
 
-Der Symboleffekt unterstützt die Attributauswahl `state`. `state="play"` wird verwendet, wenn das Video in der Mitte der Wiedergabe angehalten wird, und  `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
+Der Symboleffekt unterstützt die Attributauswahl `state`. `state="play"` wird verwendet, wenn das Video während der Wiedergabe angehalten wird, und  `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Richten Sie ein Wiedergabesymbol im Format 100 x 100 Pixel ein.
+Richten Sie ein Wiedergabesymbol mit 100 x 100 Pixel ein.
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7iconeffect { 
@@ -65,4 +64,3 @@ background-image: url(images/playIcon.png);
 background-image: url(images/replayIcon.png); 
 }
 ```
-
