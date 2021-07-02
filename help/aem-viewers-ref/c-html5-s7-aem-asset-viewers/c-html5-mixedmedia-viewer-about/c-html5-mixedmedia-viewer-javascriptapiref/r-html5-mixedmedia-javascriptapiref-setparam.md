@@ -1,25 +1,24 @@
 ---
-description: JavaScript-API-Referenz für gemischte Medien-Viewer.
+description: JavaScript-API-Referenz für Viewer für gemischte Medien.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 610a5a7d-1314-48bc-a640-319139d64adc
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 2%
 
 ---
 
-
 # setParam{#setparam}
 
-JavaScript-API-Referenz für gemischte Medien-Viewer.
+JavaScript-API-Referenz für Viewer für gemischte Medien.
 
 ` setParam( *`name, value`*)`
 
-Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Modifikator des Software Development Kits. Dieser Parameter wird vor `init()` aufgerufen. Diese Methode ist optional, wenn Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
+Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Software Development Kit-Modifikator. Dieser Parameter wird vor `init()` aufgerufen. Diese Methode ist optional, wenn Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -31,12 +30,12 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewe
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Wert des Parameters. Der Wert kann nicht in Prozent kodiert werden. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}- </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
@@ -45,4 +44,3 @@ Keine.
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-
