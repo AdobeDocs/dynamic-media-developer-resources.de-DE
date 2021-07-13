@@ -3,15 +3,14 @@ description: Digimarc-Benutzerinformationen. Gibt die Benutzerinformationen für
 solution: Experience Manager
 title: DigimarcId
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
-
 
 # DigimarcId{#digimarcid}
 
@@ -23,22 +22,22 @@ Fünf oder sechs kommagetrennte Ganzzahlen. Die dritte und vierte Zahl werden ni
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-Die Variablen `creator-id` und `creator-pin` werden von Digimarc bereitgestellt, wenn der Dienst erworben wird. Die nicht verwendeten Werte sollten leer bleiben.
+Die `creator-id` und `creator-pin` werden von Digimarc beim Kauf des Dienstes bereitgestellt. Die nicht verwendeten Werte sollten leer gelassen werden.
 
-`durability` gibt die Einbettungsstärke des Digimarc-Wasserzeichens an. Es kann 1, 2, 3 oder 4 sein, wobei 1 die schwächste und 4 die stärkste Haltbarkeit angibt.
+`durability` gibt die Einbettungsstärke des Wasserzeichens Digimarc an. Es kann 1, 2, 3 oder 4 sein, wobei 1 auf die schwächste und 4 auf die höchste Dauerhaftigkeit zeigt.
 
-Setzen Sie `chroma` auf 1, um das Wasserzeichen in die Chrominanzdaten des Bildes zu kodieren, oder auf 0 (Standard), um es in die Luminanz zu kodieren. Diese Einstellung wird ignoriert, wenn Graustufenbilder ausgegeben werden.
+Setzen Sie `chroma` auf 1, um das Wasserzeichen in die Chrominanz-Daten des Bildes zu kodieren, oder auf 0 (Standard), um es in die Luminanz zu kodieren. Diese Einstellung wird bei der Ausgabe von Graustufenbildern ignoriert.
 
 ## Standard {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-Vererbt von `default::DigimarcId`, wenn nicht definiert oder leer.
+Wird von `default::DigimarcId` übernommen, wenn nicht definiert oder leer.
 
 ## Beispiel {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
-Geben Sie eine Digimarc-Ersteller-ID mit einer Haltbarkeit von 4 an.
+Geben Sie eine Test-Digimarc-Ersteller-ID mit einer Dauerhaftigkeit von 4 an.
 
 `DigimarcId= 404407,32,,,4`
 
 ## Verwandte Themen {#section-75d4d2afd1df4127b31b1a82f30079d8}
 
-[Katalog::DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)
+[catalog: DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)
