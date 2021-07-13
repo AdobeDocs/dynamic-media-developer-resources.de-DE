@@ -4,9 +4,9 @@ keywords: responsiv
 solution: Experience Manager
 title: Flyout
 feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Si
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interaktion mit Flyout-Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interaktion mit dem Flyout-Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 Flyout-Viewer unterstützt Einzelkontakt- und Multi-Touch-Gesten, die in anderen Mobile Apps häufig vorkommen.
 
@@ -223,7 +223,7 @@ Ein relativer Pfad sieht wie folgt aus:
    </html>
    ```
 
-## Responsives Design, eingebettet in unbegrenzte Höhe {#section-056cb574713c4d07be6d07cf3c598839}
+## Responsives Design mit uneingeschränkter Höhe {#section-056cb574713c4d07be6d07cf3c598839}
 
 Bei der Einbettung responsiver Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Für das folgende Beispiel nehmen Sie an, dass die Web-Seite es dem Container des Viewers `DIV` ermöglicht, 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
@@ -304,7 +304,7 @@ Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit 
 
 [Alternativer Demostandort](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## Flexible Größe einbetten mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
+## Flexible Größeneinbettung mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 
 Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Es stellt beide Größen für den DIV `"holder"` bereit und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 Prozent.
 
@@ -375,7 +375,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## Einbetten mit Setter-basierter API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Einbetten mit der Setter-basierten API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
 
