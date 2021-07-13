@@ -1,25 +1,23 @@
 ---
-description: Beim Image Rendering wird eine Größenbeschränkung von zwei Megapixeln für nicht pyramidenförmige Vignetten erzwungen.
+description: Beim Rendern von Bildern wird eine Größenbeschränkung von zwei Megapixeln für Vignetten ohne Pyramiden erzwungen.
 solution: Experience Manager
-title: Begrenzung der Vignettengröße
+title: Größenbeschränkung für Vignetten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 69116b7f-45c0-42ed-9114-d01db3ce16be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
+# Größenbeschränkung für Vignetten{#vignette-size-limitation}
 
-# Begrenzung der Vignettengröße{#vignette-size-limitation}
+Beim Rendern von Bildern wird eine Größenbeschränkung von zwei Megapixeln für Vignetten ohne Pyramiden erzwungen.
 
-Beim Image Rendering wird eine Größenbeschränkung von zwei Megapixeln für nicht pyramidenförmige Vignetten erzwungen.
-
-Ändern Sie den Wert von `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf], wenn Ihre Anwendung Unterstützung für Nicht-Pyramidenvignetten mit einem Bildbereich (Breite x Höhe) erfordert, der größer als dieser Grenzwert ist.
+Ändern Sie den Wert von `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf], wenn Ihre Anwendung Unterstützung für nicht-pyramid-Vignetten mit einem Bildbereich (Breite x Höhe) erfordert, der größer als dieser Grenzwert ist.
 
 >[!NOTE]
 >
->`attribute::MaxPix` und  `IS::MaxMessageSize` ggf. auch angepasst werden müssen, um ungewöhnlich große Antwortbildgrößen zu ermöglichen. Weitere Informationen finden Sie in der Dokumentation zum Image-Server.
-
+>`attribute::MaxPix` und  `IS::MaxMessageSize` möglicherweise auch so angepasst werden müssen, dass ungewöhnlich große Antwortbildgrößen zugelassen werden. Weitere Informationen finden Sie in der Dokumentation zur Image-Serving .
