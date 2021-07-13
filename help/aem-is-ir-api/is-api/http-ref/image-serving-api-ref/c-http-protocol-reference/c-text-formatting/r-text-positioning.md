@@ -1,47 +1,46 @@
 ---
-description: Der text=-Renderer positioniert Text grundlegend anders als der textPs=-Renderer, wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. auch bei Angabe von size=).
+description: Der Renderer text= positioniert Text grundlegend anders als der Renderer textPs= , wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. wenn auch size= angegeben wird).
 solution: Experience Manager
 title: Textpositionierung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 092444bf-9964-4d97-b06e-3add033da284
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-
 # Textpositionierung{#text-positioning}
 
-Der text=-Renderer positioniert Text grundlegend anders als der textPs=-Renderer, wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. auch bei Angabe von size=).
+Der Renderer text= positioniert Text grundlegend anders als der Renderer textPs= , wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. wenn auch size= angegeben wird).
 
-Die Ebenen `text=`und `textPs=` mit der Selbstgrößenänderung haben ein ähnliches Aussehen und eine ähnliche Positionierung.
+Die Ebenen `text=`und `textPs=`, die sich selbst anpassen, weisen ein ähnliches Erscheinungsbild und eine ähnliche Positionierung auf.
 
-`textPs=` Richtet den oberen Rand der Zeichenzelle am oberen Rand des Textfelds aus (unter der Annahme  `\vertalt`), auch wenn dies dazu führt, dass Teile der gerenderten Textzeichen teilweise über die Begrenzung des Textfelds hinausgehen. Gerenderte Schriftzeichen bestimmter Schriften können auch etwas über den linken und rechten Rand des Textfelds hinaus ragen. Für Anwendungen, bei denen der gesamte gerenderte Text im Ebenenrechteck enthalten sein muss, können die RTF-Befehle `\marg*` oder `textFlowPath=` verwendet werden, um den Text-Renderbereich anzupassen.
+`textPs=` Richtet den oberen Rand der Zeichenzelle am oberen Rand des Textfelds aus (unter Annahme  `\vertalt`), selbst wenn dadurch Teile der gerenderten Textzeichen teilweise außerhalb der Textfeldgrenze liegen. Gerenderte Glyphen bestimmter Schriftarten können auch geringfügig über die linke und rechte Kante des Textfelds hinausragen. Bei Anwendungen, bei denen der gesamte gerenderte Text im Ebenenrechteck enthalten sein muss, können die RTF-Befehle `\marg*` oder `textFlowPath=` verwendet werden, um den Textwiedergabebereich anzupassen.
 
 Im Gegensatz dazu verschiebt `text=` den gerenderten Text nach Bedarf und gewährleistet, dass alle gerenderten Glyphen vollständig in das angegebene Textfeld passen.
 
-Auch wenn `text=` für einfache Anwendungen leicht einfacher zu verwenden ist, ist die genaue Positionierung von `textPs=`-Angeboten unabhängig von Schriftarten und Texteffekten möglich.
+`text=` ist zwar für einfache Anwendungen etwas einfacher zu verwenden, `textPs=` bietet jedoch eine genaue Positionierung, unabhängig von Schriftflächen und Texteffekten.
 
 ## Beispiele {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
-Die folgenden Beispiele beziehen sich auf Text in vordefinierter Größe. Das Verhalten von Text mit Selbstgrößenänderung ist anders.
+Die folgenden Beispiele beziehen sich auf vorformatierten Text. Das Verhalten bei der selbstdimensionierten Textgröße unterscheidet sich.
 
-** `Text=` bietet immer einen engen Rand oben:**
+** `Text=` bietet immer einen schmalen Rand oben:**
 
 ![](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` rendert Text eng am oberen Rand des Textfelds ausgerichtet. Dies kann zu einer leichten Beschneidung führen, selbst bei gängigen Schriftarten wie Arial:***
+** `textPs=` rendert Text eng am oberen Rand des Textfelds ausgerichtet, was zu einer leichten Beschneidung führen kann, selbst bei gängigen Schriftarten wie Arial:**
 
 ![](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` verschiebt den gerenderten Text automatisch nach unten, um eine Beschneidung zu vermeiden:**
+** `text=` verschiebt den gerenderten Text automatisch nach unten, um das Beschneiden zu vermeiden:**
 
 ![](assets/tp03.png)
 
@@ -53,13 +52,13 @@ Die folgenden Beispiele beziehen sich auf Text in vordefinierter Größe. Das Ve
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20{\up20Raised%20}Normal`
 
-**Mit einem oberen Rand von 10 pt (200 Twips) wird dieser Text ohne Beschneiden gerendert:**
+**Ein Ränder von 10 pt (200 Twips) oben rendert diesen Text ohne Beschneiden:**
 
 ![](assets/tp05.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\margt200\fs40Normal%20{\up20Raised}%20Normal`
 
-**Gerenderte Glyphen bestimmter Skriptschriftarten können erheblich über das Textfeld hinausgehen:**
+**Gerenderte Glyphen bestimmter Skriptschriftarten können sich deutlich außerhalb des Textfelds erstrecken:**
 
 ![](assets/tp06.png)
 
