@@ -1,29 +1,28 @@
 ---
-description: Bestimmte Inhalte, die im Rotationsset-Viewer angezeigt werden, unterliegen der lokale Anpassung, einschließlich Zoomschaltflächen und einer Schaltfläche im Vollbildmodus.
+description: Bestimmte Inhalte, die der Rotationsset-Viewer anzeigt, können lokalisiert werden, einschließlich Zoom-Schaltflächen und Vollbildschaltflächen.
 solution: Experience Manager
-title: lokale Anpassung der Elemente der Benutzeroberfläche
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Lokalisierung der Elemente der Benutzeroberfläche
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: f4c0f16b-dbb9-4505-a3f2-d504ae21c3f0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
+# Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-# lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+Bestimmte Inhalte, die der Rotationsset-Viewer anzeigt, können lokalisiert werden, einschließlich Zoom-Schaltflächen und Vollbildschaltflächen.
 
-Bestimmte Inhalte, die im Rotationsset-Viewer angezeigt werden, unterliegen der lokale Anpassung, einschließlich Zoomschaltflächen und einer Schaltfläche im Vollbildmodus.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für das englische Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Sie kann auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festlegen.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch einen speziellen Viewer SDK-Bezeichner namens SYMBOL dargestellt. Jedem SYMBOL ist ein Standardtextwert für das englische Gebietsschema ( `"en"`) zugeordnet, das mit dem vordefinierten Viewer bereitgestellt wird. Außerdem können benutzerdefinierte Werte für so viele Gebietsschemas wie erforderlich festgelegt werden.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
 
-Beim Beginn des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird auf den Standardtext zurückgesetzt.
+Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
-Benutzerdefinierte Daten zur lokale Anpassung können als JSON-Objekt der lokale Anpassung an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
-
-Ein Beispiel für ein solches lokale Anpassung-Objekt ist Folgendes:
+Ein Beispiel für ein solches Lokalisierungsobjekt ist:
 
 ```
 { 
@@ -39,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das lokale Anpassung-Objekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt lokale Anpassung für zwei Benutzeroberflächenelemente in jedem Gebietsschema bereit.
+Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemata ( `"en"` und `"fr"`) und stellt die Lokalisierung von zwei Benutzeroberflächenelementen in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte das lokale Anpassung-Objekt an den Viewer-Konstruktor als Wert des Felds `localizedTexts` des Konfigurationsobjekts übergeben. Eine andere Option besteht darin, das Objekt &quot;lokale Anpassung&quot;durch Aufruf der `setLocalizedTexts(localizationInfo)`-Methode zu übergeben.
+Der Webseitencode sollte das Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der Methode `setLocalizedTexts(localizationInfo)` weiterzugeben.
 
 Die folgenden SYMBOLs werden unterstützt:
 
@@ -59,7 +58,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SpinView.ROLE_DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-Rollenbeschreibung für die Hauptkomponente Ansicht. </p> </td> 
+   <td colname="col2"> <p>ARIA-Rollenbeschreibung für die Hauptansichtskomponente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SpinView.USAGE_HINT  </span> </p> </td> 
@@ -67,7 +66,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Schließen-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Schließen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP  </span> </p> </td> 
@@ -87,7 +86,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche im Vollbildmodus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche im Vollbildmodus im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP  </span> </p> </td> 
@@ -95,8 +94,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PanRightButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Rechtes Drehen </p> </td> 
+   <td colname="col2"> <p>Drehen Sie die rechte Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
