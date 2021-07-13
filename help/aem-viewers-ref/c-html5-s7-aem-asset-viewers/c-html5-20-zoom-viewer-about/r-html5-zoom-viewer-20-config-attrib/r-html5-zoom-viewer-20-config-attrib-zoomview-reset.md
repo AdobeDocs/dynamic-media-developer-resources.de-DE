@@ -2,16 +2,15 @@
 description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: 89407f4d-ff83-46e5-89f0-4fc3547c700b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
-
 
 # ZoomView.reset{#zoomview-reset}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Setzt den Anschluss der Ansicht zurück, wenn sich das Bild ändert. Bei Festlegung auf <span class="codeph"> 0</span> wird der aktuelle Ansicht-Anschluss mit der bestmöglichen Passform beibehalten, wobei das Seitenverhältnis des neu eingestellten Bildes beibehalten wird. </p> </td> 
+   <td colname="col2"> <p> Setzt den Viewport zurück, wenn sich der Frame (Bild) ändert. Wenn auf <span class="codeph"> 0</span> gesetzt, wird der aktuelle Ansichtsport mit der bestmöglichen Anpassung beibehalten, wobei das Seitenverhältnis des neu festgelegten Bildes beibehalten wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
