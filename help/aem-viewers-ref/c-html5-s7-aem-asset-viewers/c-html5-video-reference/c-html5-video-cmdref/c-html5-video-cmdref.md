@@ -1,36 +1,35 @@
 ---
-description: Dokumentation zu Konfigurationsattributen für Video Viewer.
+description: Dokumentation zu Konfigurationsattributen für Video-Viewer.
 solution: Experience Manager
 title: Befehlsreferenz - Konfigurationsattribute
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
-
 # Befehlsreferenz - Konfigurationsattribute{#command-reference-configuration-attributes}
 
-Dokumentation zu Konfigurationsattributen für Video Viewer.
+Dokumentation zu Konfigurationsattributen für Video-Viewer.
 
-Sie können jeden Konfigurationsbefehl in der URL festlegen. Sie können auch die API-Methoden `setParam()` oder `setParams()` oder beide verwenden, um einen beliebigen Konfigurationsbefehl festzulegen. Sie können auch jedes Konfigurationsattribut im serverseitigen Konfigurationssatz angeben.
+Sie können einen beliebigen Konfigurationsbefehl in der URL festlegen. Sie können auch die API-Methoden `setParam()`, `setParams()` oder beides verwenden, um einen beliebigen Konfigurationsbefehl festzulegen. Sie können auch jedes Konfigurationsattribut im serverseitigen Konfigurationseintrag angeben.
 
-Sie können bestimmten Konfigurationsbefehlen den Klassennamen oder den Instanznamen der entsprechenden Viewer-SDK-Komponente voranstellen. Der Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an die API-Methode `setContainerId()` übergeben wird. Die Dokumentation enthält optionale Präfixe für solche Befehle. Zum Beispiel wird `playback` wie folgt dokumentiert:
+Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder dem Instanznamen der entsprechenden Viewer SDK-Komponente voranstellen. Der Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an die API-Methode `setContainerId()` übergeben wird. Die Dokumentation enthält optionale Präfixe für solche Befehle. `playback` wird beispielsweise wie folgt dokumentiert:
 
 ```
 [VideoPlayer.|<containerId>_videoPlayer].playback
 ```
 
-Dies bedeutet, dass dieser Befehl wie folgt verwendet wird:
+bedeutet, dass dieser Befehl wie folgt verwendet wird:
 
 * `playback` (kurze Syntax)
-* `VideoPlayer.playback` (qualifiziert mit Komponentenklassenname)
-* `cont_videoPlayer.playback` (mit Komponenten-ID qualifiziert, vorausgesetzt, dass dies die ID des Container-Elements  `cont` ist)
+* `VideoPlayer.playback` (qualifiziert mit dem Namen der Komponentenklasse)
+* `cont_videoPlayer.playback` (qualifiziert mit Komponenten-ID, vorausgesetzt, dass  `cont` die ID des Container-Elements ist)
 
-Siehe [Befehlsreferenz, die allen Viewern gemein ist - Konfigurationsattribute](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
 
-Siehe [Befehlsreferenz, die allen Viewern gemein ist - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Siehe [Befehlsreferenz für alle Viewer - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
