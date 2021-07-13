@@ -1,21 +1,20 @@
 ---
-description: Überschneidende Objekte anzeigen Gibt an, ob sich überschneidende Objekte angezeigt oder ausgeblendet werden sollen.
+description: Anzeigen von überlappenden Objekten Gibt an, ob sich überschneidende Objekte angezeigt oder ausgeblendet werden sollen.
 solution: Experience Manager
 title: ShowOverlapObjs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 46%
+source-wordcount: '44'
+ht-degree: 50%
 
 ---
 
-
 # ShowOverlapObjs{#showoverlapobjs}
 
-Überschneidende Objekte anzeigen Gibt an, ob sich überschneidende Objekte angezeigt oder ausgeblendet werden sollen.
+Anzeigen von überlappenden Objekten Gibt an, ob sich überschneidende Objekte angezeigt oder ausgeblendet werden sollen.
 
 ## Eigenschaften {#section-3e82e9b98d7a46f884d8b9798cec35c2}
 
@@ -23,4 +22,4 @@ Flag.
 
 ## Standard {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Vererbt von `default::ShowOverlapObjs`, wenn nicht definiert oder leer.
+Wird von `default::ShowOverlapObjs` übernommen, wenn nicht definiert oder leer.
