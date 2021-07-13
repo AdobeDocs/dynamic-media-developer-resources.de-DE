@@ -1,21 +1,20 @@
 ---
-description: Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus für die Skalierung des gerenderten Bildes auf die mit wid=, hei= oder scl= angegebene Größe aus.
+description: Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, um das gerenderte Bild auf die mit wid=, hei= oder scl= angegebene Größe zu skalieren.
 solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0926dcfe-881c-4b52-b08d-c56afa0ba04d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 13%
 
 ---
 
-
 # resMode{#resmode}
 
-Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus für die Skalierung des gerenderten Bildes auf die mit wid=, hei= oder scl= angegebene Größe aus.
+Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, um das gerenderte Bild auf die mit wid=, hei= oder scl= angegebene Größe zu skalieren.
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
@@ -27,22 +26,22 @@ Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus für 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt bikubische Interpolation aus. CPU-intensiver als bilineare Interpolation, liefert aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten. </p> </td> 
+   <td colname="col2"> <p>Wählt bikubische Interpolation aus. CPU-intensiver als bilineare Interpolation, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse liefern als bikubisch bei höheren CPU-Kosten. </p> <p> <span class="codeph"> "sharp" </span> wurde durch " <span class="codeph"> sharp2"ersetzt  </span>, was eine geringere Wahrscheinlichkeit hat, Aliasing-Artefakte zu verursachen, auch bekannt als Moiré. </p> </td> 
+   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus aus. Kann bei höheren CPU-Kosten etwas schärfere Ergebnisse als bikubisch liefern. </p> <p> <span class="codeph"> " </span> scharf"wurde durch " <span class="codeph"> schärfer2"ersetzt,  </span>was die Wahrscheinlichkeit verringert, Aliasing-Artefakte zu verursachen, auch Moiré genannt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Bisharp  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt den standardmäßigen Resampler <span class="keyword"> Adobe Photoshop </span> zum Reduzieren der Bildgröße aus, der unter <span class="keyword"> Adobe Photoshop </span> als "bikubischer Scharfzeichner"bezeichnet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Bischarp  </span> </p> </td> 
+   <td colname="col2"> <p>Wählt den standardmäßigen <span class="keyword"> Adobe Photoshop </span>-Resampler zum Reduzieren der Bildgröße aus, der in <span class="keyword"> Adobe Photoshop </span> als "bikubisch schärfer"bezeichnet wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-ea7029f37e094d9cb85646b85fbac0ce}
 
-Kann an einer beliebigen Stelle innerhalb der Anforderung auftreten. Wird ignoriert, wenn keine endgültige Bildskalierung angewendet wird.
+Kann an einer beliebigen Stelle in der Anfrage auftreten. Wird ignoriert, wenn keine endgültige Bildskalierung angewendet wird.
 
 ## Standard {#section-900872fb93dc41efb3e8ad5b62aadc38}
 
