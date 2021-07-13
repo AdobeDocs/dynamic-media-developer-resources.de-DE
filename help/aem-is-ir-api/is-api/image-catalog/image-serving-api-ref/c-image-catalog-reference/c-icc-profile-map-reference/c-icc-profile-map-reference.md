@@ -1,22 +1,21 @@
 ---
-description: Ist für einen Bildkatalog eine ICC-Profil-Map erforderlich, muss der relative oder absolute Pfad der Profil-Map-Datei im Attribut IccProfileMapFile angegeben werden.
+description: Wenn für einen Bildkatalog eine ICC-Profilzuordnung erforderlich ist, muss der relative oder absolute Pfad der Profilzuordnungsdatei im Attribut IccProfileMapFile angegeben werden.
 solution: Experience Manager
-title: ICC-Profil-Map-Referenz
+title: Referenz zur ICC-Profilzuordnung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f6b75a15-55b4-44e7-a409-2eaed4e752c5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
+# Referenz zur ICC-Profilzuordnung{#icc-profile-map-reference}
 
-# ICC-Profil-Map-Referenz{#icc-profile-map-reference}
+Wenn für einen Bildkatalog eine ICC-Profilzuordnung erforderlich ist, muss der relative oder absolute Pfad der Profilzuordnungsdatei im Attribut angegeben werden::IccProfileMapFile.
 
-Wenn für einen Bildkatalog eine ICC-Profil-Map erforderlich ist, muss der relative oder absolute Pfad der Profil-Map-Datei in attribute::IccProfileMapFile angegeben werden.
+Einträge in der ICC-Profilzuordnung eines bestimmten Bildkatalogs überschreiben Einträge in der ICC-Profilzuordnung des Standardkatalogs.
 
-Einträge in der ICC-Profil-Map eines bestimmten Bildkatalogs setzen Einträge in der ICC-Profil-Map des Standardkatalogs außer Kraft.
-
-Image Serving unterstützt Farbdateien, die der ICC-Spezifikation entsprechen.
+Image Serving unterstützt Farbprofildateien, die der ICC-Spezifikation entsprechen.
