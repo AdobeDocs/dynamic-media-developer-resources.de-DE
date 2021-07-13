@@ -1,65 +1,64 @@
 ---
-description: Image Serving bietet einen Mechanismus zum Übersetzen externer Objekt-IDs in Gebietsschema-spezifische Objekt-(Katalog-)IDs. Die Hauptanwendung dient der Bereitstellung von Gebietsschema-spezifischen Inhalten und Inhalten, die von mehreren Gebietsschemas gemeinsam genutzt werden, ohne dass die Client-Anwendung die Gebietsschema-spezifischen Objekt-IDs kennen muss.
+description: Image Serving bietet einen Mechanismus zum Übersetzen externer Objekt-IDs in Gebietsschema-spezifische Objekt-IDs (Katalog). Die primäre Anwendung dient der Bereitstellung von gebietsschemaspezifischen Inhalten und Inhalten, die von mehreren Gebietsschemas gemeinsam genutzt werden, ohne dass die Client-Anwendung die gebietsschemaspezifischen Objekt-IDs kennen muss.
 solution: Experience Manager
 title: Objekt-ID-Übersetzung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '703'
 ht-degree: 9%
 
 ---
 
-
 # Objekt-ID-Übersetzung{#object-id-translation}
 
-Image Serving bietet einen Mechanismus zum Übersetzen externer Objekt-IDs in Gebietsschema-spezifische Objekt-(Katalog-)IDs. Die Hauptanwendung dient der Bereitstellung von Gebietsschema-spezifischen Inhalten und Inhalten, die von mehreren Gebietsschemas gemeinsam genutzt werden, ohne dass die Client-Anwendung die Gebietsschema-spezifischen Objekt-IDs kennen muss.
+Image Serving bietet einen Mechanismus zum Übersetzen externer Objekt-IDs in Gebietsschema-spezifische Objekt-IDs (Katalog). Die primäre Anwendung dient der Bereitstellung von gebietsschemaspezifischen Inhalten und Inhalten, die von mehreren Gebietsschemas gemeinsam genutzt werden, ohne dass die Client-Anwendung die gebietsschemaspezifischen Objekt-IDs kennen muss.
 
-Die Anwendung kann nur mit globalen Objekt-IDs geschrieben werden, und Image Serving ersetzt automatisch Gebietsschema-spezifische Bilder und andere Inhalte, sofern verfügbar.
+Die Anwendung kann nur mit globalen Objekt-IDs geschrieben werden, und Image Serving ersetzt automatisch gebietsschemaspezifische Bilder und andere Inhalte, sofern verfügbar.
 
 *`locale`* wird in Image Serving-Anforderungen mit dem Befehl `locale=` angegeben.
 
 >[!NOTE]
 >
->Die Übersetzung der Objekt-ID gilt nur für katalogbasierte Verwendung von Image Serving. Dateinamen können nicht übersetzt werden.
+>Die Übersetzung der Objekt-ID gilt nur für die katalogbasierte Verwendung von Image Serving. Dateinamen können nicht übersetzt werden.
 
 ## Ebene {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-Alle Verweise auf Einträge in Bild-, SVG- und statischen Inhaltskatalogen werden für Übersetzungsschriften berücksichtigt, und ICC-Profil-Verweise werden nicht übersetzt. Zusätzlich zu den *`object`* im Pfad von [!DNL /is/image] und [!DNL /is/static requests] unterliegen diese Befehle und Katalogattribute der ID-Übersetzung: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` und `attribute::Watermark`.
+Alle Verweise auf Einträge in Bild-, SVG- und statischen Inhaltskatalogen werden für Übersetzungsschriftarten berücksichtigt und ICC-Profilverweise werden nicht übersetzt. Zusätzlich zu den *`object`* im Pfad [!DNL /is/image] und [!DNL /is/static requests] können diese Befehle und Katalogattribute mit ID übersetzt werden: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` und `attribute::Watermark`.
 
 ## ID-Übersetzungszuordnung {#section-9e417b352c314dfe94e831fdd62cddc8}
 
-`attribute::LocaleMap` definiert die Regeln, die vom Server zur Bestimmung der ID des lokalisierten Inhalts verwendet werden, wobei die generische Objekt-ID und der  `locale=` Wert als Eingabe angegeben werden.
+`attribute::LocaleMap` definiert die Regeln, die vom Server zur Bestimmung der ID des lokalisierten Inhalts verwendet werden, angegeben als Eingabe der generischen Objekt-ID und des  `locale=` Werts.
 
-`attribute::LocaleMap` besteht aus einer Liste von  *Gebietsschemas*  für die Eingabe (die mit den angegebenen Werten übereinstimmen  `locale=`), die jeweils keine oder mehrere Gebietsschema-Suffixe für die Ausgabe enthalten (  `*`locSuffixes`*`).
+`attribute::LocaleMap` besteht aus einer Liste von Eingabe- *Gebietsschemas*  (entspricht den mit  `locale=` angegebenen Werten) mit jeweils keinem oder mehreren Gebietsschema-Suffixen (  `*`locSuffixes`*`).
 
-`attribute::LocaleMap` könnte z. B. wie folgt aussehen:
+`attribute::LocaleMap` könnte beispielsweise wie folgt aussehen:
 
 `en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
-Die Anforderung `/is/image/myCat/myImg?locale=de_de` gibt das mit dem Katalogeintrag `myCat/myImg_D` verknüpfte Bild zurück (vorausgesetzt, dass ein solcher Katalogeintrag vorhanden ist).
+Die Anfrage `/is/image/myCat/myImg?locale=de_de` gibt das Bild zurück, das mit dem Katalogeintrag `myCat/myImg_D` verknüpft ist (vorausgesetzt, ein solcher Katalogeintrag ist vorhanden).
 
-Weitere Informationen finden Sie in der Beschreibung von `attribute::LocaleMap`.
+Weitere Informationen finden Sie in der Beschreibung von `attribute::LocaleMap` .
 
 ## Der Übersetzungsprozess {#section-1f64db17e9f644d88e09853670e14a16}
 
-Bei dem obigen Beispiel sucht der Server zuerst nach dem *`locale`* &quot; `de_de`&quot;in der ID-Übersetzungszuordnung. Anschließend wird das *`locSuffixes`*, das mit diesem Eintrag verknüpft ist, in diesem Fall &quot; `_D`&quot;und &quot;&quot;(leeres Suffix) durchlaufen. Für jede Iteration wird das Suffix an die Bild-ID und die resultierende ID angehängt, die auf Vorhandensein im Katalog getestet wurde. Wenn dieser gefunden wird, wird dieser Katalogeintrag verwendet, andernfalls wird der nächste getestet. In diesem Beispiel werden die folgenden Einträge überprüft: `myCat/myImg_D` und `myCat/myImg`. Wenn keine Übereinstimmung gefunden wird, gibt der Server einen Fehler oder ein Standardbild zurück (sofern konfiguriert).
+Im obigen Beispiel sucht der Server zunächst in der ID-Übersetzungszuordnung nach *`locale`* &quot; `de_de`&quot;. Anschließend wird über die *`locSuffixes`* iteriert, die diesem Eintrag zugeordnet ist, in diesem Fall &quot; `_D`&quot;und &quot;&quot; (leeres Suffix). Für jede Iteration wird das Suffix an die Bild-ID und die resultierende ID angehängt, die auf Existenz im Katalog getestet wurde. Wenn dieser Katalogeintrag gefunden wird, wird er verwendet, andernfalls wird der nächste getestet. In diesem Beispiel werden diese Einträge überprüft: `myCat/myImg_D` und `myCat/myImg`. Wenn keine Übereinstimmung gefunden wird, gibt der Server einen Fehler oder ein Standardbild zurück (sofern konfiguriert).
 
 ## Unbekannte Gebietsschemata {#section-b2f3c83f2dc845d69b5908107b775537}
 
-Im obigen Beispiel enthält `attribute::LocaleMap` eine leere *`locale`*, die die Standardübersetzungsregel definiert, die für unbekannte `locale=`-Werte verwendet wird (d. h. für Werte, die nicht explizit in der Übersetzungskarte aufgeführt sind). Wenn diese Übersetzungszuordnung auf die Anforderung `/is/image/myCat/myImg?locale=ja` angewendet wurde, würde sie auf `myCat/myImg_E` aufgelöst, falls vorhanden, oder auf andere `myCat/myImg`.
+Im obigen Beispiel enthält `attribute::LocaleMap` einen leeren *`locale`* -Wert, der die standardmäßige Übersetzungsregel definiert, die für unbekannte `locale=` -Werte verwendet wird (d. h. für Werte, die nicht explizit in der Übersetzungskarte aufgeführt sind). Wenn diese Übersetzungszuordnung auf die Anfrage `/is/image/myCat/myImg?locale=ja` angewendet würde, würde sie zu `myCat/myImg_E` aufgelöst, sofern vorhanden, oder anderweitig `myCat/myImg`.
 
-Wenn in einer Übersetzungszuordnung keine Standardübersetzungsregel angegeben ist, wird für alle Anforderungen mit unbekannten Werten `locale=` ein Fehler zurückgegeben.
+Wenn in einer Übersetzungszuordnung keine standardmäßige Übersetzungsregel angegeben ist, wird für alle Anforderungen mit unbekannten `locale=` -Werten ein Fehler zurückgegeben.
 
 ## Beispiele {#section-cc40bb00ee9248bb8cb23e17d7a5984c}
 
-**mehrstufige Suche**
+**Mehrstufige Suche**
 
-Es ist oft wünschenswert, Gebietsschemata zu gruppieren (z. B. europäische, Nahost- und Nordamerika), um regionale Standards zu erfüllen. Dies kann mit einer mehrstufigen Suche erreicht werden.
+Es ist oft wünschenswert, Gebietsschemata (z. B. europäisch, mittelöstlich, nordamerikanisch) zu gruppieren, um regionale Standards zu erreichen. Dies kann mit einer mehrstufigen Suche erreicht werden.
 
-In diesem Beispiel möchten wir Sammlungen für die Verwendung im Westen und im Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden anschließend für bestimmte Gebietsschemata ( `m1`, `m2` für zwei Varianten im mittleren Osten und `w1`, `w2` und `w3` für drei westliche Gebietsschemata) weiter optimiert, mit der Ausnahme, dass Bilder für `w1` und `w3` freigegeben werden. Unbekannte Gebietsschemas sind nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf Gebietsschema-spezifische Bilder.
+In diesem Beispiel möchten wir Sammlungen für die Verwendung im Westen und im Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden dann für bestimmte Gebietsschemata weiter verfeinert ( `m1`, `m2` für zwei mittlere östliche Varianten und `w1`, `w2` und `w3` für drei westliche Gebietsschemata), bis auf die Tatsache, dass Bilder für `w1` und `w3` freigegeben werden. Unbekannte Gebietsschemas sind nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf Gebietsschema-spezifische Bilder.
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -69,7 +68,7 @@ Die folgende Tabelle zeigt, welche Katalogeinträge berücksichtigt werden und i
  <thead> 
   <tr> 
    <th class="entry"> <b> <i>locale</i> </b> </th> 
-   <th class="entry"> <b>Zu durchsuchende Katalog-IDs</b> </th> 
+   <th class="entry"> <b>Zu suchende Katalog-IDs</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -96,11 +95,11 @@ Die folgende Tabelle zeigt, welche Katalogeinträge berücksichtigt werden und i
  </tbody> 
 </table>
 
-**Nach bestimmten IDs suchen**
+**Suche nach bestimmten IDs**
 
-Einige Konventionen zur Bildbenennung unterstützen möglicherweise keine generischen Bild-IDs intern. Die generischen IDs der Anforderung müssen immer einer bestimmten ID im Katalog zugeordnet werden. Oft ist die genaue spezifische ID möglicherweise nicht bekannt.
+Einige Bildbenennungskonventionen unterstützen möglicherweise interne generische Bild-IDs nicht. Die generischen IDs aus der Anfrage müssen immer einer bestimmten ID im Katalog zugeordnet sein. Oft ist die genaue spezifische ID möglicherweise nicht bekannt.
 
-In diesem Beispiel können Bilder für alle Sprachen das Suffix `_1`, `_2` oder `_3` haben. Für französische Gebietsschemata spezifische Bilder können das Suffix `_22` oder `_23` haben und für deutsche Gebietsschemas spezifische Bilder können das Suffix `_470` oder `_480` haben.
+Für dieses Beispiel können Bilder für alle Sprachen das Suffix `_1`, `_2` oder `_3` haben. Für französische Gebietsschemata spezifische Bilder können das Suffix `_22` oder `_23` aufweisen und für deutsche Gebietsschemas spezifische Bilder können das Suffix `_470` oder `_480` aufweisen.
 
 `attribute::LocaleMap: ,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3| de_at,_470,_480,_1,_2,_3| de_de,_470,_480,_1,_2,_3`
 
@@ -110,7 +109,7 @@ Die folgende Tabelle zeigt, welche Katalogeinträge berücksichtigt werden und i
  <thead> 
   <tr> 
    <th class="entry"> <b> <i>locale</i> </b> </th> 
-   <th class="entry"> <b>Zu durchsuchende Output-IDs</b> </th> 
+   <th class="entry"> <b>Zu suchende Ausgabe-IDs</b> </th> 
   </tr> 
  </thead>
  <tbody> 
