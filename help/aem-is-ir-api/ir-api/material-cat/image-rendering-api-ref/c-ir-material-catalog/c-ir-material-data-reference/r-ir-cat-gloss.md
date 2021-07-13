@@ -1,35 +1,34 @@
 ---
-description: Oberflächenglanz Gibt die relative Glanz der Materialoberfläche an.
+description: Oberflächenglanz Gibt das relative Glanz der Materialoberfläche an.
 solution: Experience Manager
 title: Glanz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 72c5d2f9-a7e6-4ad3-aebe-6a1b1fa5453f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
-
 # Glanz{#gloss}
 
-Oberflächenglanz Gibt die relative Glanz der Materialoberfläche an.
+Oberflächenglanz Gibt das relative Glanz der Materialoberfläche an.
 
-Dieser Wert wird vom Renderer für folgende Zwecke verwendet:
+Dieser Wert wird vom Renderer für die folgenden Zwecke verwendet:
 
 * Wählen Sie die Beleuchtungskarte aus, wenn `catalog::Illum` -1 ist.
-* Steuert das Rendern des Glanz-Effekts (Spiegelreflexion) in Verbindung mit `catalog::Type`.
-* Steuert 3D-Reflektionseffekte in Verbindung mit `catalog::Type` und `catalog::Roughness`.
+* Steuert das Glanzeffekt (spekuläre Reflexion)-Rendering in Verbindung mit `catalog::Type`.
+* Steuert 3D-Reflektion-Rendereffekte in Verbindung mit `catalog::Type` und `catalog::Roughness`.
 
 ## Eigenschaften {#section-ddc475c0556f4f67b4cf62bd1bcd4bf7}
 
-Ganzzahl. Prozentzahl im Bereich 0...100. Optional für alle Materialien. Wird nur für Vignetten mit mehreren Reflexionskarten oder Vignetten mit 3D-Reflektionsfähigkeit verwendet. Leer lassen oder auf -1 setzen, wenn nicht bekannt oder nicht erforderlich.
+Ganzzahl. Prozentzahl im Bereich 0...100. Optional für alle Materialien. Wird nur für Vignetten mit mehreren Reflektionskarten oder Vignetten mit 3D-Reflektionsfunktion verwendet. Leer lassen oder auf -1 setzen, falls nicht bekannt oder nicht erforderlich.
 
 ## Standard {#section-2352721073524f1a8d461f64a363aac9}
 
-Ein Standardwert wird von der Vignette bereitgestellt, wenn dieser Wert auf -1 gesetzt ist.
+Ein Standardwert wird von der Vignette bereitgestellt, wenn dieser Wert auf -1 festgelegt ist.
 
 ## Verwandte Themen {#section-0213bbdb7d6d4974a7c53822957717c1}
 
