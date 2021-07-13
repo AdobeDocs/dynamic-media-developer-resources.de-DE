@@ -3,15 +3,14 @@ description: InitialFrame
 solution: Experience Manager
 title: InitialFrame
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 28b6b981-94f6-4136-b322-992e18d154db
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
-
 
 # InitialFrame{#initialframe}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen 0-basierten Druckbogen-Index an, der beim Laden des Viewers angezeigt wird. Der Index entspricht dem Index des Druckbogens im Querformat. Wenn der Viewer zum Hochformat gedreht wird, zeigt der Viewer die Seite ganz links vom Druckbogen an, auf den <span class="codeph"> frameIdx</span> zeigt. </p> </td> 
+   <td colname="col2"> <p> Gibt einen nullbasierten Spread-Index an, der beim Laden des Viewers angezeigt werden soll. Der Index entspricht dem Index des Streams im Querformat. Wenn der Viewer auf das Hochformat gedreht wird, zeigt der Viewer die am weitesten links liegende Seite des breiteten Bereichs an, auf die <span class="codeph"> frameIdx</span> verweist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ Wenn in der Viewer-URL angegeben.
 ```
 initialFrame=2
 ```
-
