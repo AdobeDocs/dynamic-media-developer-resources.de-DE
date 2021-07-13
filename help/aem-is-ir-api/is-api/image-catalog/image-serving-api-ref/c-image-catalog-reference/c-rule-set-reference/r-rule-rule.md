@@ -3,19 +3,18 @@ description: Anforderungsregelelement. Eine oder mehrere Regeln sind im Element 
 solution: Experience Manager
 title: Regel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 6%
 
 ---
 
-
 # Regel{#rule}
 
-Anforderungsregelelement. Eine oder mehrere Regeln sind im `<ruleset>`-Element optional.
+Anforderungsregelelement. Eine oder mehrere Regeln sind im Element `<ruleset>` optional.
 
 ## Attribute {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -23,7 +22,7 @@ Anforderungsregelelement. Eine oder mehrere Regeln sind im `<ruleset>`-Element o
 
 `Replace = "first" | "all"`: Optional. Der Standardwert ist &quot;first&quot;.
 
-`RequestType` =  *&quot;`types`&quot;*: Optional. Gibt an, für welchen Eingabekontext die Regel gilt. *`types`* ist eine kommagetrennte Liste, die eines oder mehrere der in der folgenden Tabelle aufgeführten Token enthalten kann. Wenn `RequestType` nicht angegeben ist, gilt die Regel für Anforderungen, die auf allen unterstützten Kontexten empfangen werden.
+`RequestType` =  *&quot;`types`&quot;*: Optional. Gibt an, für welchen Eingabekontext die Regel gilt. *`types`* ist eine kommagetrennte Liste, die einen oder mehrere der in der folgenden Tabelle aufgeführten Token enthalten kann. Wenn `RequestType` nicht angegeben ist, gilt die Regel für Anforderungen, die in allen unterstützten Kontexten empfangen werden.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -52,9 +51,9 @@ Anforderungsregelelement. Eine oder mehrere Regeln sind im `<ruleset>`-Element o
  </tbody> 
 </table>
 
-**`Name = "text"`**: Optional. Dient zur Identifizierung des Elements `<rule>` in Debugging-Protokollen und Fehlermeldungen.
+**`Name = "text"`**: Optional. Wird verwendet, um das Element `<rule>` in Debugging-Protokollen und Fehlermeldungen zu identifizieren.
 
-`  *`Attribut`* ="value"`: Optional. `<rule>` -Elemente können eines der folgenden Attribute in jeder beliebigen Kombination definieren. Wenn die Regel angegeben wurde und eine Übereinstimmung erzielt wurde, überschreiben sie die entsprechenden Katalogattribute für diese Anforderung. Die Standardgrenze ist `RequestType="is"`.
+`  *`Attribut`* ="value"`: Optional. `<rule>` -Elemente können eines der folgenden Attribute in jeder beliebigen Kombination definieren. Wenn angegeben und die Regel erfolgreich abgeglichen wurde, überschreiben sie die entsprechenden Katalogattribute für diese Anfrage. Die Standardgrenze ist `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -103,9 +102,9 @@ Anforderungsregelelement. Eine oder mehrere Regeln sind im `<ruleset>`-Element o
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie in der Beschreibung des entsprechenden Attributs für den Bildkatalog.
+Weitere Informationen finden Sie in der Beschreibung des entsprechenden Bildkatalogattributs.
 
-Die Ablaufattribute setzen nur die Standardattributwerte außer Kraft. Die Außerkraftsetzung wird ignoriert, wenn ein bestimmter `catalog::Expiration`-Wert für die Anforderung gilt.
+Die Ablaufattribute überschreiben nur die standardmäßigen Attributwerte. Die Überschreibung wird ignoriert, wenn ein bestimmter `catalog::Expiration` -Wert für die Anforderung gilt.
 
 ## Daten {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -116,15 +115,15 @@ Die Ablaufattribute setzen nur die Standardattributwerte außer Kraft. Die Auße
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> &lt;substitution&gt;</span> </p></td> 
-  <td class="stentry"> <p>optional </p></td> 
+  <td class="stentry"> <p>Optional </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span> </p></td> 
-  <td class="stentry"> <p>optional </p></td> 
+  <td class="stentry"> <p>Optional </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> &lt;Header&gt;</span> </p></td> 
-  <td class="stentry"> <p>optional </p></td> 
+  <td class="stentry"> <p>Optional </p></td> 
  </tr> 
 </table>
 
@@ -132,8 +131,8 @@ Die Ablaufattribute setzen nur die Standardattributwerte außer Kraft. Die Auße
 
 Wenn sowohl `<expression>` als auch `<substitution>` angegeben sind und keine erfassten Unterzeichenfolgen verwendet werden, wird die erste übereinstimmende Unterzeichenfolge durch `<substitution>` ersetzt.
 
-Wenn `<expression>` nicht angegeben ist, wird ein beliebiger Pfad übereinstimmen und `<substitution>` wird an das Ende des Pfades angehängt.
+Wenn `<expression>` nicht angegeben ist, stimmt ein beliebiger Pfad überein mit und `<substitution>` wird an das Ende des Pfads angehängt.
 
-Wenn `<substitution>` nicht angegeben ist, findet keine Pfad- oder Abfrage-Transformation statt, jedoch werden alle angegebenen Katalogattribute überschrieben. Wenn `<substitution>` leer ist, wird die übereinstimmende Unterzeichenfolge entfernt.
+Wenn `<substitution>` nicht angegeben ist, erfolgt keine Pfad- oder Abfrageumwandlung, jedoch werden alle angegebenen Katalogattribute überschrieben. Wenn `<substitution>` leer ist, wird die übereinstimmende Unterzeichenfolge entfernt.
 
-`<addressfilter>` wird nur angewendet, wenn eine Übereinstimmung auftritt, und bevor Abfragen angewendet werden.
+`<addressfilter>` wird nur angewendet, wenn eine Übereinstimmung vorliegt, und bevor Abfrageregeln angewendet werden.
