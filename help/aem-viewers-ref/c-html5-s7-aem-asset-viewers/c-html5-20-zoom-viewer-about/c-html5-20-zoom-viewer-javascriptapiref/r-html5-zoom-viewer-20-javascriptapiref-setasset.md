@@ -2,16 +2,15 @@
 description: JavaScript-API-Referenz für Video-Viewer.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: 4fc94f30-e330-4c8a-b6da-d870e4f8e4ab
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 2%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -23,7 +22,7 @@ JavaScript-API-Referenz für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> String </span>} neue Asset-ID, expliziter Bildsatz oder expliziter Bildsatz mit frame-spezifischen Image Serving-Modifikatoren, mit optionalen globalen Image Serving-Modifikatoren nach "?". </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>} neue Asset-ID, expliziter Bildsatz oder expliziter Bildsatz mit bildspezifischen Image Serving-Modifikatoren, wobei optionale globale Image Serving-Modifikatoren nach "?"angehängt werden. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,39 +31,38 @@ Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Einzelbild-Referenz:
+Einzelbildreferenz:
 
 ```
  <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-Einzelner Verweis auf einen Bildsatz, der in einem Katalog definiert ist:
+Einzelverweis auf ein in einem Katalog definiertes Bildset:
 
 ```
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Expliziter Bildsatz:
+Explizites Bildset:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-Explizite Bildsätze mit Bildserving-Modifikatoren:
+Explizites Bildset mit Frame-spezifischen Image Serving-Modifikatoren:
 
 ```
  <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
 ```
 
-Scharfzeichnungsmodifizierer, der allen Bildern im Satz hinzugefügt wird:
+Der Scharfzeichnungsmodifikator wurde allen Bildern im Set hinzugefügt:
 
 ```
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample?op_sharpen=1")
 ```
-
