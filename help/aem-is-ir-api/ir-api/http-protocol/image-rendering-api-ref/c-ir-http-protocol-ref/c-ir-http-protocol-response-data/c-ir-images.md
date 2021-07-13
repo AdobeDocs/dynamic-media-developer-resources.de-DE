@@ -1,24 +1,23 @@
 ---
-description: 'Bilddaten werden zurückgegeben, wenn eine Anforderung erfolgreich abgeschlossen wurde und die Anforderung entweder keinen Befehl req= enthält oder wenn req= einen der folgenden Werte hat: img, debug.'
+description: 'Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen req= -Befehl enthält oder wenn req= einen der folgenden Werte hat: img, debug.'
 solution: Experience Manager
 title: Bilder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 089aaf9d-f414-4ca4-9d6d-7f429de2531e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
 
-
 # Bilder{#images}
 
-Bilddaten werden zurückgegeben, wenn eine Anforderung erfolgreich abgeschlossen wurde und die Anforderung entweder keinen Befehl req= enthält oder wenn req= einen der folgenden Werte aufweist: img, debug
+Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen req= -Befehl enthält oder wenn req= einen der folgenden Werte aufweist: img, debug
 
-Der MIME-Typ der HTTP-Antwort wird von `fmt=` oder, wenn `fmt=` nicht angegeben ist, vom Wert von `attribute::Format` bestimmt.
+Der MIME-Typ der HTTP-Antwort wird von `fmt=` bestimmt. Wenn `fmt=` nicht angegeben ist, hängt er vom Wert von `attribute::Format` ab.
 
-Der HTTP-Antwortstatus ist &quot;200 OK&quot;, wenn die Anforderungsmethode ein bedingungsloser `GET` oder `HEAD` war.
+Der HTTP-Antwortstatus lautet &quot;200 OK&quot;, wenn die Anforderungsmethode eine unbedingte `GET` oder `HEAD` war.
 
-Der Server kann mit dem Status &#39;304&#39; (nicht modifiziert) antworten und keine Bilddaten als Antwort auf eine bedingte `GET`-Anforderung zurückgeben (wobei das [!DNL If-Modified-Since]-Feld im `request-header` vorhanden ist).
+Der Server kann mit dem Status &#39;304&#39; (nicht geändert) antworten und keine Bilddaten aufgrund einer bedingten `GET`-Anfrage zurückgeben (wobei das Feld [!DNL If-Modified-Since] im Feld `request-header` vorhanden ist).
