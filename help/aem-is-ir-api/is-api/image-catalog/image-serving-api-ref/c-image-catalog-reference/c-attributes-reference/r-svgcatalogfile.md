@@ -3,25 +3,24 @@ description: SVG-Datendateipfade. Gibt die Dateien an, die die SVG-Daten für di
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 654579a2-33ff-4633-a6d0-3c03ec8d5aed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 4%
 
 ---
-
 
 # SvgCatalogFile{#svgcatalogfile}
 
 SVG-Datendateipfade. Gibt die Dateien an, die die SVG-Daten für diesen Katalog enthalten.
 
-SVG-Datendateien werden nach allen Bilddatendateien in der angegebenen Reihenfolge geladen. Wenn derselbe `catalog::Id`-Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in einer anderen Bild- oder SVG-Katalogdatei), hat die letzte Instanz Vorrang.
+SVG-Datendateien werden nach allen Bilddatendateien in der angegebenen Reihenfolge geladen. Wenn derselbe `catalog::Id` -Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in unterschiedlichen Bild- oder SVG-Katalogdateien), hat die letzte Instanz Vorrang.
 
 ## Eigenschaften {#section-fc2d549f76474792837b2b92ec2087ea}
 
-Ein oder mehrere durch Kommas getrennte Textzeichenfolgenwerte. Optional. Jeder Wert muss ein absoluter Dateipfad oder Pfad relativ zum Katalogordner sein.
+Ein oder mehrere Textzeichenwerte, durch Kommas getrennt. Optional. Jeder Wert muss ein absoluter Dateipfad oder Pfad relativ zum Katalogordner sein.
 
 ## Standard {#section-a4e58951f3c249599665b823566433c9}
 
