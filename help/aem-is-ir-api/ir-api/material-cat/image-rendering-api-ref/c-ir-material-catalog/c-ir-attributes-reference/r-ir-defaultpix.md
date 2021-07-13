@@ -1,21 +1,20 @@
 ---
-description: Standard-Renderbildgröße. Der Server schränkt die Größe von Antwortbildern auf diese Breite und Höhe ein, wenn in der Anforderung nicht explizit die Größe der Ansicht mit wid= oder hei= angegeben wird.
+description: Standardgröße des Renderbilds. Der Server schränkt Antwortbilder so ein, dass sie nicht größer als diese Breite und Höhe sind, wenn die Anforderung die Anzeigegröße nicht explizit mit wid= oder hei= angibt.
 solution: Experience Manager
 title: DefaultPix
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: d60f2b8c-5213-42ad-8ec9-7e7797d74e09
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 3%
 
 ---
 
-
 # DefaultPix{#defaultpix}
 
-Standard-Renderbildgröße. Der Server schränkt die Größe von Antwortbildern auf diese Breite und Höhe ein, wenn in der Anforderung nicht explizit die Größe der Ansicht mit wid= oder hei= angegeben wird.
+Standardgröße des Renderbilds. Der Server schränkt Antwortbilder so ein, dass sie nicht größer als diese Breite und Höhe sind, wenn die Anforderung die Anzeigegröße nicht explizit mit wid= oder hei= angibt.
 
 ## Eigenschaften {#section-9dc5474fc75842308796ab6440b29611}
 
@@ -25,7 +24,7 @@ Gilt nicht für verschachtelte/eingebettete Anforderungen.
 
 ## Standard {#section-1935781c561e4679aa87a5bcced8df90}
 
-Vererbt von `default::DefaultPix`, wenn nicht definiert oder leer.
+Wird von `default::DefaultPix` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-d28f18d29ef14692b8706ca08e754f54}
 
