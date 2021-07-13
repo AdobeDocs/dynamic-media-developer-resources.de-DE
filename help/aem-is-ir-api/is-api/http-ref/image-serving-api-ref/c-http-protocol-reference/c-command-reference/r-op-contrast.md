@@ -1,19 +1,18 @@
 ---
 description: Kontrast anpassen. Passt den Bildkontrast an, indem die Helligkeit von Pixeln mit mehr als 50 % Helligkeit erhöht und die Helligkeit von Pixeln mit weniger als 50 % Helligkeit verringert wird.
 solution: Experience Manager
-title: op_stroke
+title: op_contrast
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
 
-
-# op_counter{#op-contrast}
+# op_contrast{#op-contrast}
 
 Kontrast anpassen. Passt den Bildkontrast an, indem die Helligkeit von Pixeln mit mehr als 50 % Helligkeit erhöht und die Helligkeit von Pixeln mit weniger als 50 % Helligkeit verringert wird.
 
@@ -28,16 +27,16 @@ Kontrast anpassen. Passt den Bildkontrast an, indem die Helligkeit von Pixeln mi
 
 ## Eigenschaften {#section-d319ed55057344eab0a3c93f720acdbf}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert.
 
 ## Standard {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, ohne dass sich der Kontrast ändert. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
+`op_contrast=0`, ohne Kontraständerung. CMYK-Bilder oder -Ebenen werden vor der Anwendung des Vorgangs in RGB konvertiert.
 
 ## Beispiel {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
-Verkleinern Sie den Kontrast und die Schärfe einer Bildebene mit höherer Qualität, um sie visuell an ein Hintergrundbild mit niedriger Qualität anzupassen:
+Verringern Sie den Kontrast und die Schärfe einer höheren Bildschicht, um sie visuell an ein Hintergrundbild mit niedriger Qualität anzupassen:
 
 ... `&op_blur=3&op_contrast=-12&`
 
-Eine zukünftige Version verwendet möglicherweise die mittlere Helligkeit des Bildes anstelle einer festen 50 % Helligkeit.
+In einer künftigen Version wird möglicherweise die mittlere Helligkeit des Bildes anstelle einer fixierten 50-%-Helligkeit verwendet.
