@@ -1,29 +1,28 @@
 ---
-description: Um die Möglichkeiten zur Bearbeitung von Anfragen zu reduzieren, wird eine einfache Sperrfunktion bereitgestellt.
+description: Um die Möglichkeiten zur Bearbeitung von Anfragen zu reduzieren, wird eine einfache Sperreinrichtung bereitgestellt.
 solution: Experience Manager
 title: Sperren von Anforderungen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
+# Sperren von Anforderungen{#request-locking}
 
-# Anforderungssperrung{#request-locking}
+Um die Möglichkeiten zur Bearbeitung von Anfragen zu reduzieren, wird eine einfache Sperreinrichtung bereitgestellt.
 
-Um die Möglichkeiten zur Bearbeitung von Anfragen zu reduzieren, wird eine einfache Sperrfunktion bereitgestellt.
-
-Wenn attribute::RequestLock festgelegt ist, muss der Anforderung ein Sperrwert in Form von `&xxxx` angehängt werden, wobei xxxx ein vierstelliger Hexadezimalwert ist. Dieser Hexadezimalwert wird mithilfe eines einfachen Hashing-Algorithmus generiert, der auf den Abschnitt *Modifikatoren* der Anforderung angewendet wird (nach dem &#39;?&#39; , der den URL-Pfad von den Modifikatoren *a1/> trennt.* Dies muss erfolgen, nachdem die Anforderung vollständig HTTP-kodiert wurde, aber bevor sie (optional) verschleiert wird. Nach dem Entfernen der Verschleierung der Anforderung verwendet der Server denselben Hashing-Algorithmus für die Modifiziererzeichenfolge (mit Ausnahme der letzten 5 Zeichen, die den Sperrwert enthalten). Wenn der generierte Schlüssel nicht mit der Sperre übereinstimmt, wird die Anforderung abgelehnt.
+Wenn attribute::RequestLock festgelegt ist, muss ein Sperrwert in Form von `&xxxx` an die Anfrage angehängt werden, wobei xxxx ein vierstelliger Hexadezimalwert ist. Dieser hexadezimale Wert wird mithilfe eines einfachen Hashing-Algorithmus generiert, der auf den *modifiers* -Teil der Anforderung angewendet wird (nach dem &quot;?&quot; , der den URL-Pfad vom *modifiers* trennt. Dies muss erfolgen, nachdem die Anforderung vollständig HTTP-kodiert wurde, aber bevor sie (optional) verschleiert wird. Nach dem Deaktivieren der Anforderung verwendet der Server denselben Hashing-Algorithmus für die Modifikatorzeichenfolge (mit Ausnahme der letzten 5 Zeichen, die den Sperrwert enthalten). Wenn der generierte Schlüssel nicht mit der Sperre übereinstimmt, wird die Anforderung abgelehnt.
 
 >[!IMPORTANT]
 >
->Wenn Sie diese Funktion aktivieren, beachten Sie, dass die Verwendung bestimmter Einschränkungen eingeschränkt ist, darunter:<br>- Die Dynamic Media-Benutzeroberfläche zeigt möglicherweise nicht die richtigen Details für das Feld **[!UICONTROL Zuletzt veröffentlicht]** an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn **[!UICONTROL die]** Verschleierung der Anforderung und die  **[!UICONTROL Sperrung der]** Anforderung aktiviert sind.<br>- Derzeit funktionieren einige Dynamic Media-Viewer nicht, wenn  **[!UICONTROL Verschleierung]** der Anforderung und Sperren der  **[!UICONTROL Anforderung]** aktiviert sind.
+>Wenn Sie diese Funktion aktivieren, beachten Sie, dass die Verwendung dieser Funktion gewissen Einschränkungen unterliegt, darunter:<br>- Die Dynamic Media-Benutzeroberfläche zeigt möglicherweise nicht die richtigen Details für das Feld **[!UICONTROL Zuletzt veröffentlicht]** an. Dies wirkt sich jedoch nicht auf die Veröffentlichung aus.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn die **[!UICONTROL Verschleierung]** von Anfragen und die  **[!UICONTROL Sperrung von]** Anfragen aktiviert sind.<br>- Derzeit funktionieren einige Dynamic Media-Viewer nicht, wenn die  **[!UICONTROL Verschleierung]** von Anfragen und die Sperrung von  **[!UICONTROL Anfragen]** aktiviert sind.
 
-C++-Beispielcode zum Generieren des Werts für die Anforderungssperre:
+C++-Beispielcode zum Generieren des Anforderungssperrwerts:
 
 ```
 unsigned int lockValue(const char *str) 
