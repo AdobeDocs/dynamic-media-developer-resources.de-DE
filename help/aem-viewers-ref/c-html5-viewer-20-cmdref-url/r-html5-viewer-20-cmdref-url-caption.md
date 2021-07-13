@@ -1,21 +1,20 @@
 ---
-description: Parameter, die allen Viewern gemein sind.
+description: Parameter, die allen Viewern gemeinsam sind.
 solution: Experience Manager
 title: caption
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '269'
 ht-degree: 6%
 
 ---
 
 # caption{#caption}
 
-Parameter, die allen Viewern gemein sind.
+Parameter, die allen Viewern gemeinsam sind.
 
 >[!NOTE]
 >
@@ -31,12 +30,12 @@ Parameter, die allen Viewern gemein sind.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Standard-Beschriftungsstatus an. Aktiviert ist <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col2"> <p> Gibt den standardmäßigen Beschriftungsstatus an. Aktiviert ist <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dieser Viewer unterstützt Untertitel über gehostete WebVTT-Dateien. Die mit diesem Parameter angegebenen Beschriftungen gelten für das Video, das in Mediensets zuerst angezeigt wird. nachfolgende Videos werden ohne Bildunterschriften abgespielt. Überschneidende Hinweise und Regionen werden nicht unterstützt. Unterstützte Cue-Positionierungsoperatoren:
+Dieser Viewer unterstützt die Untertitelung über gehostete WebVTT-Dateien. Mit diesem Parameter angegebene Untertitel gelten für das Video, das in Mediensets zuerst angezeigt wird. nachfolgende Videos werden ohne Untertitel wiedergegeben. Überschneidende Hinweise und Regionen werden nicht unterstützt. Unterstützte Cue-Point-Positionierungsoperatoren:
 
 <table id="table_E752D7D8C1AA40C6B8A7057D2BB379C1"> 
  <thead> 
@@ -50,42 +49,42 @@ Dieser Viewer unterstützt Untertitel über gehostete WebVTT-Dateien. Die mit di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
-   <td colname="col2"> <p>test align </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|Beginn|end  </span> </p> </td> 
+   <td colname="col2"> <p>Testausrichtung </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
    <td colname="col4"> <p> Steuert die Ausrichtung des Textes. </p> <p>Der Standardwert ist <span class="codeph"> middle </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>Textposition </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Prozentsatz des Einschnitts in die VideoPlayer-Komponente am Anfang des Beschriftungstexts. </p> <p>Der Standardwert ist <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col4"> <p> Prozentsatz des Einsatzes in die VideoPlayer-Komponente für den Anfang des Beschriftungstextes. </p> <p>Der Standardwert ist <span class="codeph"> 0% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
-   <td colname="col2"> <p>Liniengröße </p> </td> 
+   <td colname="col2"> <p>Zeilengröße </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Prozentsatz der für Bildunterschriften verwendeten Videobreite. </p> <p>Der Standardwert ist <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Prozentsatz der für Untertitel verwendeten Videobreite. </p> <p>Der Standardwert ist <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>Zeilenposition </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Bestimmt die Zeilenposition auf der Seite. </p> <p>Wenn der Text als Ganzzahl ohne Prozentzeichen ausgedrückt wird, ist dies die Anzahl der Zeilen von oben, in denen der Text angezeigt wird. </p> <p>Wenn es als Prozentwert ausgedrückt wird, ist das Prozentzeichen das letzte Zeichen, dann wird der Beschriftungstext in Prozent unter dem Anzeigebereich angezeigt. </p> <p>Der Standardwert ist <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Bestimmt die Zeilenposition auf der Seite. </p> <p>Wenn es als Ganzzahl ohne Prozentzeichen ausgedrückt wird, dann ist es die Anzahl der Zeilen oben, in denen der Text angezeigt wird. </p> <p>Wenn es als Prozentwert ausgedrückt wird, ist das Prozentzeichen das letzte Zeichen. Dann wird der Beschriftungstext angezeigt, der den Prozentwert des Anzeigebereichs nach unten zeigt. </p> <p>Der Standardwert ist <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beachten Sie, dass WebVTT-Funktionen, die in der WebVTT-Datei vorhanden sind, nicht unterstützt werden. Sie werden jedoch die Untertitel nicht stören.
+Beachten Sie, dass WebVTT-Funktionen, die in der WebVTT-Datei vorhanden sind, nicht unterstützt werden. Sie stören jedoch nicht die Untertitelung.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Untertitelinhalt an. Die WebVTT-Datei wird von Image Serving bereitgestellt. </p> </td> 
+   <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Die WebVTT-Datei wird von Image Serving bereitgestellt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Standard-Beschriftungsstatus an. </p> <p>Aktiviert ist <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col2"> <p> Gibt den standardmäßigen Beschriftungsstatus an. </p> <p>Aktiviert ist <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
