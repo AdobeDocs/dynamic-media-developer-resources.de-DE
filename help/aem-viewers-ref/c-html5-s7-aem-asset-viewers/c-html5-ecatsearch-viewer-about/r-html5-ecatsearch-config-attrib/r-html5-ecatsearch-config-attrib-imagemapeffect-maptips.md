@@ -3,15 +3,14 @@ description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 922649e9-865a-4b53-8507-a21611a6d0ac
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
-
 
 # ImageMapEffect.mapTips{#imagemapeffect-maptips}
 
@@ -21,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob QuickInfos für einzelne Elemente des Map-Bereichs aktiviert sind. </p> <p> Wird auf Touch-Geräten einschließlich Touch-fähigen Desktop-Systemen ignoriert. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob QuickInfos für einzelne Zuordnungsbereichselemente aktiviert sind. </p> <p> Auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
