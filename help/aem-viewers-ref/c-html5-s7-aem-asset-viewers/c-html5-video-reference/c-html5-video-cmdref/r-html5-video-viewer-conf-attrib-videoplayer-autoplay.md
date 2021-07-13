@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für Video Viewer.
+description: Konfigurationsattribut für Video-Viewer.
 solution: Experience Manager
 title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: ec0bb98a-7c0b-4ed7-b47d-7c103b6a5943
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Konfigurationsattribut für Video Viewer.
+Konfigurationsattribut für Video-Viewer.
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob der Viewer das Video beim Laden Beginn. Einige Systeme, wie bestimmte Mobilgeräte, unterstützen AutoPlay nicht. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob der Viewer die Wiedergabe des Videos beim Laden startet. Einige Systeme, wie bestimmte Mobilgeräte, unterstützen AutoPlay nicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ Optional.
 ```
 autoplay=1
 ```
-
