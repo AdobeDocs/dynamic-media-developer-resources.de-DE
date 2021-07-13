@@ -3,15 +3,14 @@ description: Ebenenbild.
 solution: Experience Manager
 title: src
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 88b89e70-59cf-4fb9-bbe7-0ac5eff792f1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 3%
 
 ---
-
 
 # src{#src}
 
@@ -26,7 +25,7 @@ Ebenenbild.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> nestedRequest  </span> </p> </td> 
-  <td class="stentry"> <p>Verschachteltes Image Serving, Image Rendering oder externe Anforderung. </p> </td> 
+  <td class="stentry"> <p>Verschachtelte Image-Serving-, Bild-Rendering- oder externe Anforderung. </p> </td> 
  </tr> 
 </table>
 
@@ -38,15 +37,15 @@ Gibt das Quellbild für eine Bildebene an.
 
 Siehe [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0).
 
-Verschachtelte oder eingebettete Anforderungen werden durch geschweifte Klammern eingeschlossen. Präfix einer eingebetteten Image Serving-Anforderung mit `is`, einer eingebetteten Image Rendering-Anforderung mit `ir` und einer FXG-Grafikwiedergabeanforderung mit `fxg`. Eine Anforderung an einen Fremdserver wird angenommen, wenn kein Präfix angegeben ist.
+Verschachtelte oder eingebettete Anforderungen werden durch geschweifte Klammern eingeschlossen. Stellen Sie einer eingebetteten Image Serving-Anfrage das Präfix `is`, einer eingebetteten Image Rendering-Anforderung mit `ir` und einer FXG-Grafikrenderanforderung mit `fxg` voran. Wenn kein Präfix angegeben ist, wird eine Anfrage an einen Fremdserver angenommen.
 
-Siehe [Verschachtelung und Einbettung anfordern](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
+Siehe [Anforderungsverschachtelung und -einbettung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
 
 ## Eigenschaften {#section-2c22bb89a35d470f833df8ba898efd93}
 
-Ebenenattribut. Gilt für `layer=0`, wenn `layer=comp`. Gegenseitig exklusiv mit `text=` und `textPs=` in derselben Ebene; das letzte Vorkommen von `text=`, `textPs=` oder `src=` siegt und bestimmt, ob es sich um ein Bild oder eine Textebene handelt. Von Effektebenen ignoriert.
+Ebenenattribut. Gilt für `layer=0`, wenn `layer=comp`. Mutual exklusiv mit `text=` und `textPs=` in derselben Ebene; Das letzte Vorkommen von `text=`, `textPs=` oder `src=` hat Vorrang und bestimmt, ob es sich um ein Bild oder eine Textebene handelt. Wird von Effektebenen ignoriert.
 
-*`object`*kann nicht in einen anderen Katalogeintrag aufgelöst werden, der den Befehl `src=` oder `mask=` in seinem `catalog::Modifier` enthält. (Verwenden Sie die Anforderungsverschachtelung, um einen ähnlichen Effekt zu erzielen.)
+*`object`*darf nicht in einen anderen Katalogdatensatz aufgelöst werden, der einen `src=`- oder `mask=`-Befehl in seinem `catalog::Modifier` enthält. (Verwenden Sie die Anfrageverschachtelung, um einen ähnlichen Effekt zu erzielen.)
 
 Bei den Präfixen `is`, `ir` und `fxg` wird zwischen Groß- und Kleinschreibung unterschieden.
 
@@ -56,4 +55,4 @@ Für Ebene 0 wird das Objekt aus der Pfadkomponente der URL verwendet, wenn `src
 
 ## Verwandte Themen {#section-e467e03330564796932ac081f1c9c1d0}
 
-[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ,  [attribute::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494),  [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f),  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)  [object,Templates,Request Verschachtelung und Einbettung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
+[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ,  [attribute::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494),  [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f),  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0),  [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e),  [Verschachtelung und Einbettung anfordern](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
