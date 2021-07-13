@@ -1,27 +1,26 @@
 ---
-description: Der Indikator "Festlegen"ist eine Reihe von Punkten, die am unteren Rand des Viewers gerendert werden. Es zeigt die aktuelle Position innerhalb des Satzes an.
+description: Set Indicator ist eine Reihe von Punkten, die unten im Viewer gerendert werden. Sie zeigt die aktuelle Position innerhalb des Sets an.
 solution: Experience Manager
-title: Indikator festlegen
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+title: Anzeige einstellen
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
 
-# Indikator{#set-indicator} festlegen
+# Anzeige einstellen{#set-indicator}
 
-Der Indikator &quot;Festlegen&quot;ist eine Reihe von Punkten, die am unteren Rand des Viewers gerendert werden. Es zeigt die aktuelle Position innerhalb des Satzes an.
+Set Indicator ist eine Reihe von Punkten, die unten im Viewer gerendert werden. Sie zeigt die aktuelle Position innerhalb des Sets an.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**CSS-Eigenschaften des Satzindikators**
+**CSS-Eigenschaften des Set Indicators**
 
-Das Erscheinungsbild des Containers für den Set-Indikator wird mithilfe der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7carouselviewer .s7setindicator
@@ -37,16 +36,16 @@ Das Erscheinungsbild des Containers für den Set-Indikator wird mithilfe der fol
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Die Hintergrundfarbe im Hexadezimalformat des Satzindikators. </p> </td> 
+   <td colname="col2"> <p>Die Hintergrundfarbe im hexadezimalen Format des Set-Indikators. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Der Indikator &quot;Festlegen&quot;unterstützt den Modus-Attributselektor, mit dem Sie verschiedene Stile für gepunktete und numerische Betriebsmodi anwenden können. Insbesondere entspricht `mode="numeric"` dem numerischen Betriebsmodus; `mode="dotted"` entspricht dem Standardpunktstatus.
+>Der Festlegen-Indikator unterstützt die Modusattributauswahl, mit der Sie verschiedene Stile für gepunktete und numerische Vorgangsmodi anwenden können. Insbesondere entspricht `mode="numeric"` dem numerischen Betriebsmodus; `mode="dotted"` entspricht dem Standardpunktstatus.
 
-Beispiel: So richten Sie einen Indikator mit einem weißen Hintergrund ein:
+Beispiel: Zum Einrichten eines Set-Indikators mit weißem Hintergrund:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -54,7 +53,7 @@ Beispiel: So richten Sie einen Indikator mit einem weißen Hintergrund ein:
 }
 ```
 
-Das Erscheinungsbild eines einzelnen Satzindikatorpunkts wird mit der CSS-Klassenauswahl gesteuert. Sie gilt für Elemente sowohl im gepunkteten als auch im numerischen Betriebsmodus.
+Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS-Klassenauswahl gesteuert. Sie gilt für Elemente sowohl im gepunkteten als auch im numerischen Betriebsmodus.
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
@@ -68,11 +67,11 @@ Das Erscheinungsbild eines einzelnen Satzindikatorpunkts wird mit der CSS-Klasse
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite des Punkts für den Indikator. </p> </td> 
+   <td colname="col2"> <p>Breite des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des festgelegten Indikatorpunkts. </p> </td> 
+   <td colname="col2"> <p>Höhe des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
@@ -96,14 +95,14 @@ Das Erscheinungsbild eines einzelnen Satzindikatorpunkts wird mit der CSS-Klasse
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe im Hexadezimalformat. </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Name der Schriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
@@ -111,7 +110,7 @@ Das Erscheinungsbild eines einzelnen Satzindikatorpunkts wird mit der CSS-Klasse
    <td colname="col2"> <p>Schriftfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertikale Ausrichtung  </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Ausrichtung des Bannerindex. </p> </td> 
   </tr> 
   <tr> 
@@ -123,9 +122,9 @@ Das Erscheinungsbild eines einzelnen Satzindikatorpunkts wird mit der CSS-Klasse
 
 >[!NOTE]
 >
->Die Elemente für die Einstellung unterstützen die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` dem aktuellen Element im Satz; `state="unselected"` entspricht dem Standardelementstatus.
+>Die Festlegen-Indikatorelemente unterstützen die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` dem aktuellen Element im Satz; `state="unselected"` entspricht dem standardmäßigen Elementstatus.
 
-Beispiel: Zum Einrichten der Anzeige im gepunkteten Modus für Desktop-Systeme, die 20 Pixel vom unteren Rand des Viewers entfernt positioniert werden. Nicht ausgewählte Punkte sind schwarz mit 50 % Transparenz, 15 x 15 Pixel mit 7 Pixel abgerundeten Ecken. Die ausgewählten Punkte sind schwarz mit 90 % Transparenz, 18 x 18 Pixel mit 9 Pixel abgerundeten Ecken. Der Abstand zwischen Punkten beträgt 5 Pixel.
+Beispiel: Zum Einrichten einer Set-Anzeige im gepunkteten Modus für Desktop-Systeme, die 20 Pixel vom unteren Rand des Viewers entfernt werden sollen. Nicht ausgewählte Punkte sind schwarz mit 50 % Transparenz, 15 x 15 Pixel mit 7 Pixel abgerundeten Ecken. Ausgewählte Punkte sind schwarz mit 90 % Transparenz, 18 x 18 Pixel mit 9 Pixel abgerundeten Ecken. Der Abstand zwischen Punkten beträgt 5 Pixel.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 
