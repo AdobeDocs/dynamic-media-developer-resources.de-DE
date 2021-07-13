@@ -1,29 +1,28 @@
 ---
-description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit.
+description: Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze.
 solution: Experience Manager
 title: Befehlsmakros
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: dc149977-3ca8-4612-ad05-4d565440d00a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
+# Befehlsmakros{#command-macros}
 
-# Befehls-Makros{#command-macros}
+Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze.
 
-Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit.
+Makros werden in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
 
-Makros sind in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
+Makros können an beliebiger Stelle in einer Anfrage nach dem &quot;?&quot; aufgerufen werden, ebenso an einer beliebigen Stelle in einem `catalog::Modifier` -Feld. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen. Daher müssen sie durch &#39;&amp;&#39;-Trennzeichen eingeschlossen sein (außer am Anfang oder Ende der Modifikatorzeichenfolge).
 
-Makros können an beliebiger Stelle in einer Anforderung nach dem &#39;?&#39; sowie an einer beliebigen Stelle innerhalb eines `catalog::Modifier`-Felds aufgerufen werden. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen. Daher müssen sie durch &quot;&amp;&quot;Trennzeichen eingeschlossen sein (außer am Anfang oder am Ende der Modifiziererzeichenfolge).
+Makroaufrufe werden während des Parsens durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dies unterscheidet sich von `catalog::Modifier`, wobei Befehle in der Anforderungszeichenfolge Befehle in der `catalog::Modifier`-Zeichenfolge immer außer Kraft setzen, unabhängig von der Position in der Anforderung.
 
-Makroaufrufe werden während der Analyse durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros setzen dieselben Befehle in der Anforderung außer Kraft, wenn sie vor dem Makroaufruf in der Anforderung auftreten. Dies unterscheidet sich von `catalog::Modifier`, wobei Befehle in der Anforderungszeichenfolge Befehle in der `catalog::Modifier`-Zeichenfolge immer außer Kraft setzen, unabhängig von der Position in der Anforderung.
-
-Makros können verschachtelt sein, mit der folgenden Einschränkung: Ein Makro kann nur dann aufgerufen werden, wenn es zum Zeitpunkt der Analyse der Makrodefinition bereits definiert ist, entweder indem es früher in derselben Makrodefinitionsdatei angezeigt wird oder indem die Definition für ein solches eingebettetes Makro in die Standarddatei für die Makrodefinition eingefügt wird.
+Makros können verschachtelt sein, mit der folgenden Einschränkung: Ein Makro kann nur aufgerufen werden, wenn es zum Zeitpunkt der Analyse der Makrodefinition bereits definiert ist, indem es entweder früher in derselben Makrodefinitionsdatei erscheint oder indem die Definition für ein solches eingebettetes Makro in die Standard-Makrodefinitionsdatei aufgenommen wird.
 
 Makros können nützlich sein, wenn dieselben Attribute auf verschiedene Bilder angewendet werden sollen.
 
@@ -33,11 +32,11 @@ Makros können nützlich sein, wenn dieselben Attribute auf verschiedene Bilder 
 
 [!DNL http://server/cat/8243?wid=480&fmt=pdf&imageRes=300]
 
-Wir können ein Makro für die allgemeinen Attribute definieren:
+Wir können ein Makro für die gemeinsamen Attribute definieren:
 
 `view wid=240&fmt=pdf&imageRes=300`
 
-Das Makro wird wie folgt verwendet:
+Das Makro würde wie folgt verwendet:
 
 [!DNL http://server/cat/1345?$view$]
 
@@ -45,6 +44,6 @@ Das Makro wird wie folgt verwendet:
 
 [!DNL http://server/cat/8243?$view$&wid=480]
 
-Da `wid=` für die dritte Anforderung unterschiedlich ist, überschreiben wir einfach den Wert *nachdem* das Makro aufgerufen wurde (die Angabe `wid=`*bevor* `$view$` keine Auswirkungen hat).
+Da `wid=` für die dritte Anforderung anders ist, überschreiben wir einfach den Wert *nach* das Makro wird aufgerufen (die Angabe `wid=`*bevor* `$view$` keine Auswirkungen hat).
 
 + [name](r-name.md)
