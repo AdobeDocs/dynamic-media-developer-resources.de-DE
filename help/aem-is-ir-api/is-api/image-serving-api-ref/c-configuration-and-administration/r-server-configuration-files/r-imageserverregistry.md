@@ -3,29 +3,28 @@ description: Enthält Image-Server-Konfigurationseinstellungen.
 solution: Experience Manager
 title: ImageServerRegistry.xml
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
-
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
 Enthält Image-Server-Konfigurationseinstellungen.
 
-Beim Ändern dieser XML-Datei muss darauf geachtet werden, dass die gültige XML-Syntax beibehalten wird. Andernfalls kann der Image-Server nicht in Beginn geraten.
+Beim Ändern dieser XML-Datei muss darauf geachtet werden, dass die gültige XML-Syntax beibehalten wird. Andernfalls kann der Image-Server möglicherweise nicht gestartet werden.
 
-Damit die Änderungen wirksam werden, starten Sie den Image-Server nach der Bearbeitung dieser Datei neu. Nur die unten aufgeführten Elementwerte werden für Änderungen unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur, wenn Sie vom technischen Support von Dynamic Media beraten werden.
+Damit Änderungen wirksam werden, starten Sie den Image-Server nach der Bearbeitung dieser Datei neu. Nur die unten aufgeführten Elementwerte werden für Änderungen unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur auf Empfehlung des technischen Kundendienstes von Dynamic Media.
 
 >[!NOTE]
 >
->Ändern Sie nicht die Struktur von `<imageserverregistry>`, einschließlich der Reihenfolge der Elemente. Gehen Sie beim Bearbeiten dieser Datei mit Bedacht vor, da andernfalls der Image-Server möglicherweise nicht in Beginn gehen kann.
+>Ändern Sie nicht die Struktur von `<imageserverregistry>`, einschließlich der Reihenfolge der Elemente. Gehen Sie beim Bearbeiten dieser Datei vorsichtig vor. Andernfalls kann der Image-Server möglicherweise nicht gestartet werden.
 
-Im Folgenden wird veranschaulicht, welche Elemente geändert werden können. Andere Elemente sind vorhanden, die nicht geändert werden dürfen. Die Reihenfolge der unten aufgeführten Elemente spiegelt nicht die Reihenfolge wider, in der sie in der Datei enthalten sein müssen.
+Die folgende Abbildung zeigt, welche Elemente geändert werden können. Andere Elemente sind vorhanden, die nicht geändert werden dürfen. Die folgende Reihenfolge der Elemente spiegelt nicht die Reihenfolge wider, in der sie in der Datei vorhanden sein müssen.
 
 ```
 <imageserverregistry>
@@ -53,4 +52,4 @@ Im Folgenden wird veranschaulicht, welche Elemente geändert werden können. And
 
 ## Anmerkungen {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Es können mehrere `<RootPath>`-Elemente vorhanden sein (eines für jeden Ordner der Quelldatendatei). Image Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.
+Es können mehrere `<RootPath>` -Elemente vorhanden sein (eines für jeden Ordner der Quelldatendatei). Image Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.
