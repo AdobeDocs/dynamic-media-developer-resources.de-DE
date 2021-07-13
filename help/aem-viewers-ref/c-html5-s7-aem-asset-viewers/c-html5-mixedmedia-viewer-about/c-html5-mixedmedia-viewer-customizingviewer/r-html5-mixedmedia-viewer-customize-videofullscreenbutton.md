@@ -3,9 +3,9 @@ description: Durch die Schaltfläche im Vollbildmodus gelangt der Viewer in den 
 solution: Experience Manager
 title: Schaltfläche "Video im Vollbildmodus"
 feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 2%
