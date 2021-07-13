@@ -1,25 +1,24 @@
 ---
-description: Standard-Gebietsschema-ID. Gebietsschema-ID, die für lokale Anpassungen-/Übersetzungszwecke verwendet wird, wenn locale= nicht in der Anforderung angegeben ist.
+description: Standard-Gebietsschema-ID. Locale ID, die für Lokalisierungs-/Übersetzungszwecke verwendet wird, wenn locale= nicht in der Anfrage angegeben ist.
 solution: Experience Manager
 title: DefaultLocale
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a7f40099-c89c-4653-aa50-f0475257a82b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 4%
 
 ---
 
-
 # DefaultLocale{#defaultlocale}
 
-Standard-Gebietsschema-ID. Gebietsschema-ID, die für lokale Anpassungen-/Übersetzungszwecke verwendet wird, wenn locale= nicht in der Anforderung angegeben ist.
+Standard-Gebietsschema-ID. Locale ID, die für Lokalisierungs-/Übersetzungszwecke verwendet wird, wenn locale= nicht in der Anfrage angegeben ist.
 
 ## Eigenschaften {#section-a101e9658d304e9caf032a99ecb80386}
 
-Textzeichenfolge. Wird ignoriert, wenn `attribute::LocaleMap` und `attribute::LocaleStrMap` leer sind oder wenn `locale=` angegeben und nicht leer ist.
+Textzeichenfolge. Ignoriert, wenn `attribute::LocaleMap` und `attribute::LocaleStrMap` leer sind oder `locale=` angegeben und nicht leer ist.
 
 ## Verwandte Themen {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 
