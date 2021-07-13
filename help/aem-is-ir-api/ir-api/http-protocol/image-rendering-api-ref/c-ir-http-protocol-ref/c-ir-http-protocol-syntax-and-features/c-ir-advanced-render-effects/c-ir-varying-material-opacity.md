@@ -1,24 +1,23 @@
 ---
-description: Die variable Deckkraft wird für einfarbige und wiederholbare Texturen unterstützt, die auf überlappende Objekte angewendet werden, sowie für Dekore und Fensterbedeckungsmaterialien.
+description: Die variable Deckkraft wird für feste Farben und wiederholbare Texturen unterstützt, die auf überlappende Objekte angewendet werden, sowie für Decals und Fensterabdeckungsmaterialien.
 solution: Experience Manager
 title: Unterschiedliche Materialdeckkraft
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 65f4b578-0c64-4515-8184-2908b317a983
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-
 # Unterschiedliche Materialdeckkraft{#varying-material-opacity}
 
-Die variable Deckkraft wird für einfarbige und wiederholbare Texturen unterstützt, die auf überlappende Objekte angewendet werden, sowie für Dekore und Fensterbedeckungsmaterialien.
+Die variable Deckkraft wird für feste Farben und wiederholbare Texturen unterstützt, die auf überlappende Objekte angewendet werden, sowie für Decals und Fensterabdeckungsmaterialien.
 
-Informationen zur Deckkraft können einfach mit einem RGB-Kanal mit einem Alpha-Bild bereitgestellt werden. Darüber hinaus kann die Gesamtdeckkraft mit dem Befehl `opacity=` geändert werden (sowohl für RGB- als auch für RGBA-Bilder).
+Informationen zur Deckkraft können einfach über ein RGB-Bild mit einem Alphakanal bereitgestellt werden. Darüber hinaus kann die Gesamtdeckkraft mit dem Befehl `opacity=` variieren (sowohl für RGB- als auch für RGBA-Bilder).
 
-An den Wall-Rändern werden auch RGBA-Bilder unterstützt, vor allem zur Unterstützung von durchgestrichenen Rändern.
+Pinnwände unterstützen auch RGBA-Bilder, vor allem zur Unterstützung von durchgeschnittenen Grenzen.
 
-Die [!DNL vnw]-Dateien, die Fensterbeläge definieren, können einen Deckkraftwert-Kanal enthalten, der vom Renderer mit dem Alpha-Kanal der wiederholbaren Textur und dem `opacity=`-Wert kombiniert wird, um eine vollständige Palette von Deckkrafteffekten für schiere und durchsichtige Fensterbehandlungen zu bieten.
+Die [!DNL vnw]-Dateien, die Fensterbeläge definieren, können einen Deckkraftkanal enthalten, der vom Renderer mit dem Alphakanal der wiederholbaren Textur und dem `opacity=`-Wert kombiniert wird, um eine vollständige Palette von Deckkrafteffekten für die Scher- und durchsichtige Fensterbearbeitung zu liefern.
