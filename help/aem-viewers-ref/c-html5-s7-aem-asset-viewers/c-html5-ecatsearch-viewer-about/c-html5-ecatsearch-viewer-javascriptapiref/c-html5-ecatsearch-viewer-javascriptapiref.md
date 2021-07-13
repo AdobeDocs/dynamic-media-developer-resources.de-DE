@@ -1,23 +1,22 @@
 ---
-description: Die Hauptklasse des E-Katalog-Search-Viewers ist eCatalogSearchViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
+description: Die Hauptklasse des eCatalog Search-Viewers ist eCatalogSearchViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 solution: Experience Manager
-title: JavaScript-API-Referenz für den E-Katalog-Search-Viewer
+title: Javascript-API-Referenz für eCatalog Search Viewer
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
+# Javascript-API-Referenz für eCatalog Search Viewer{#javascript-api-reference-for-ecatalog-search-viewer}
 
-# JavaScript-API-Referenz für den E-Katalog-Search-Viewer{#javascript-api-reference-for-ecatalog-search-viewer}
+Die Hauptklasse des eCatalog Search-Viewers ist eCatalogSearchViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 
-Die Hauptklasse des E-Katalog-Search-Viewers ist eCatalogSearchViewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
-
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.eCatalogSearchViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.eCatalogSearchViewer`-Klasse instanziiert wird.
 
 * [dispose](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
@@ -26,6 +25,6 @@ In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen d
 * [setAsset](r-html5-ecatsearch-javascriptapiref-setasset.md)
 * [setContainerId](r-html5-ecatsearch-javascriptapiref-setcontainerid.md)
 * [setHandlers](r-html5-ecatsearch-javascriptapiref-sethandlers.md)
-* [setLocalizedTextes](r-html5-ecatsearch-javascriptapiref-setlocalizedtexts.md)
+* [setLocalizedTexte](r-html5-ecatsearch-javascriptapiref-setlocalizedtexts.md)
 * [setParam](r-html5-ecatsearch-javascriptapiref-setparam.md)
 * [setParams](r-html5-ecatsearch-javascriptapiref-setparams.md)
