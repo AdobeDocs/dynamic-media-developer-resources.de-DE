@@ -1,32 +1,31 @@
 ---
-description: Cache-Einträge werden automatisch aktualisiert, indem entweder katalogbasierte oder ablaufbasierte Cache-Validierung verwendet wird, wie mit dem Attribut CacheValidationPolicy (in default.ini oder der .ini-Datei eines bestimmten Bildkatalogs) ausgewählt.
+description: Cache-Einträge werden automatisch aktualisiert, indem entweder eine katalogbasierte oder eine ablaufbasierte Cache-Validierung verwendet wird, wie mit dem Attribut CacheValidationPolicy ausgewählt (in default.ini oder der .ini-Datei eines bestimmten Bildkatalogs).
 solution: Experience Manager
-title: Validierung des Antwortcache
+title: Validierung des Antwort-Cache
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
+# Validierung des Antwort-Cache{#response-cache-validation}
 
-# Validierung des Antwortcache{#response-cache-validation}
+Cache-Einträge werden automatisch aktualisiert, indem entweder eine katalogbasierte oder eine ablaufbasierte Cache-Validierung verwendet wird, die mit dem Attribut::CacheValidationPolicy ausgewählt wurde (in default.ini oder der .ini-Datei eines bestimmten Bildkatalogs).
 
-Cache-Einträge werden automatisch aktualisiert, indem entweder katalogbasierte oder ablaufbasierte Cache-Validierung verwendet wird, wie mit attribute::CacheValidationPolicy ausgewählt (in default.ini oder der .ini-Datei eines bestimmten Bildkatalogs).
+Bei katalogbasierter Validierung wird ein vorhandener Cache-Eintrag als veraltet betrachtet, wenn `catalog::LastModified` (oder `attribute::LastModified` oder die Dateiänderungszeit der [!DNL catalog.ini]-Datei kürzer ist als der Zeitpunkt, zu dem der Cache-Eintrag erstellt wurde.
 
-Bei katalogbasierter Validierung wird ein vorhandener Cache-Eintrag als &quot;statisch&quot;betrachtet, wenn `catalog::LastModified` (oder `attribute::LastModified` oder die Dateiänderungszeit der [!DNL catalog.ini]-Datei) kürzer ist als der Zeitpunkt, zu dem der Cache-Eintrag erstellt wurde.
+Bei einer ablaufbasierten Validierung wird ein Cache-Eintrag nach 5 Minuten seit der letzten Validierung veraltet. In beiden Fällen validiert der Server veraltete Cache-Einträge, indem er die Dateidaten aller Bilddateien überprüft, die an der Erstellung der Anforderung beteiligt waren. Wenn sich die Dateidaten nicht geändert haben, wird der Zeitstempel des Cache-Eintrags aktualisiert und das zwischengespeicherte Datum als gültig betrachtet.
 
-Bei einer ablaufbasierten Validierung wird ein Cache-Eintrag nach 5 Minuten seit der letzten Validierung statisch. In beiden Fällen validiert der Server statische Cache-Einträge, indem er die Dateidaten aller Bilddateien überprüft, die mit der Erstellung der Anforderung befasst waren. Wenn sich die Dateidaten nicht geändert haben, wird der Zeitstempel des Cache-Eintrags aktualisiert und das zwischengespeicherte Datum als gültig betrachtet.
+Für typische Anwendungen, die hauptsächlich Bilder betreffen, die in Bildkatalogen registriert sind, bietet eine Katalogbasierte Validierung einen Leistungsvorteil. Anwendungen, die keine Bildkataloge beinhalten, sollten die ablaufbasierte Cache-Validierung verwenden. Eine Möglichkeit, dies zu erreichen, besteht darin, `attribute::cacheValidationPolicy=0` in [!DNL default.ini] und `1` in allen spezifischen Bildkatalogdateien festzulegen.
 
-Für typische Anwendungen, bei denen es sich hauptsächlich um in Bildkatalogen registrierte Bilder handelt, bietet eine katalogbasierte Validierung einen Leistungsvorteil. Anwendungen, die keine Bildkataloge beinhalten, sollten eine ablaufbasierte Cache-Validierung verwenden. Eine Möglichkeit, dies zu erreichen, besteht darin, `attribute::cacheValidationPolicy=0` in [!DNL default.ini] und `1` in allen Bildkatalogdateien einzustellen.
-
-Cache-Einträge werden ungültig und können erneut generiert werden, wenn sich ein an der Anforderung beteiligter Katalogeintrag so ändert, dass das Antwortbild wahrscheinlich geändert wird. Beispielsweise ändert sich der Inhalt von `catalog::Modifier`.
+Cache-Einträge werden ungültig und können neu generiert werden, wenn sich ein an der Anfrage beteiligter Katalogeintrag so ändert, dass das Antwortbild wahrscheinlich geändert wird. Beispielsweise ändert sich der Inhalt von `catalog::Modifier`.
 
 >[!NOTE]
 >
->Dynamic Media Pyramid TIFF-(PTIFF-)Bilder behalten das Dateidatum intern im Dateikopf zu Überprüfungszwecken bei. Die Dateiänderungszeit, die vom Dateisystem beibehalten wird, dient zur Überprüfung, ob sich eine Nicht-PTIFF-Datei geändert hat.
+>Dynamic Media Pyramid TIFF (PTIFF)-Bilder behalten das Dateidatum intern im Dateiheader zu Überprüfungszwecken bei. Die vom Dateisystem gepflegte Dateiänderungszeit wird verwendet, um zu überprüfen, ob sich eine Nicht-PTIFF-Datei geändert hat.
 
-Nur Bilddateien nehmen am Cache-Validierungsprozess teil. Änderungen an Schriftartdateien oder ICC-Profil-Dateien führen nicht zur automatischen Ungültigmachung von Cache-Einträgen.
+Nur Bilddateien nehmen am Cache-Validierungsprozess teil. Änderungen an Schriftartendateien oder ICC-Profildateien führen nicht zur automatischen Invalidierung von Cache-Einträgen.
