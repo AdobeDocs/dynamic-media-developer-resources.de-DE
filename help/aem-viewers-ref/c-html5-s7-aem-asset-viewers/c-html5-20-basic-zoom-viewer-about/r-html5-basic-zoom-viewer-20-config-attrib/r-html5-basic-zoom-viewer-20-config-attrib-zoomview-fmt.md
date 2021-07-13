@@ -2,16 +2,15 @@
 description: ZoomView.fmt
 solution: Experience Manager
 title: ZoomView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: 7cb75d38-a577-4e06-b679-c4e00db5059a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
-
 
 # ZoomView.fmt{#zoomview-fmt}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet. Wenn das angegebene Format mit "-alpha"endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als undurchsichtig. Die Komponente hat standardmäßig einen weißen Hintergrund. Um ihn transparent zu machen, legen Sie daher die CSS-Eigenschaft "background-color"auf transparent fest. </p> </td> 
+   <td colname="col2"> <p> Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet. Wenn das angegebene Format mit "-alpha"endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. Die Komponente hat standardmäßig einen weißen Hintergrund. Um dies transparent zu machen, setzen Sie daher die CSS-Eigenschaft "background-color"auf "transparent". </p> </td> 
   </tr> 
  </tbody> 
 </table>
