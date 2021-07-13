@@ -1,21 +1,20 @@
 ---
-description: Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfad angegebenen Bildkatalogs zurück.
+description: Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anfragepfad angegebenen Bildkatalogs zurück.
 solution: Experience Manager
-title: Katalogprops
+title: Katalogproben
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 6%
 
 ---
 
+# Katalogproben{#catalogprops}
 
-# catalogprops{#catalogprops}
-
-Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfad angegebenen Bildkatalogs zurück.
+Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anfragepfad angegebenen Bildkatalogs zurück.
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -26,13 +25,13 @@ Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anforderungspfa
  </tr> 
 </table>
 
-Um die Standardkatalogeigenschaften ( [!DNL default.ini]) abzurufen, lassen Sie die Katalog-ID weg. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
+Um die standardmäßigen Katalogeigenschaften ( [!DNL default.ini]) abzurufen, lassen Sie die Katalog-ID weg. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
+Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen, den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` anzugeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z-, A-Z- und 0-9-Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
 
 Die folgenden Eigenschaftswerte werden zurückgegeben:
 
@@ -49,7 +48,7 @@ Die folgenden Eigenschaftswerte werden zurückgegeben:
    <td> <p> <span class="codeph"> attribute::BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Katalog::defaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::defaultExt</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
   </tr> 
@@ -81,7 +80,7 @@ Die folgenden Eigenschaftswerte werden zurückgegeben:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>, oder, falls nicht vorhanden, die letzte geänderte Zeit der  <span class="varname"> catalog</span><span class="filepath"> .</span> inifile </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span> oder, falls nicht vorhanden, die letzte Änderungszeit des  <span class="varname"> Katalogs</span><span class="filepath"> .</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -139,10 +138,9 @@ Die folgenden Eigenschaftswerte werden zurückgegeben:
    <td> <p> <span class="codeph"> attribute::ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Katalog::Wasserzeichen</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog:watermark</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> <span class="codeph"> attribute::Watermark</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
