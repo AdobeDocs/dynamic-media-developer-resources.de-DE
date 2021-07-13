@@ -1,39 +1,37 @@
 ---
-description: Verwenden Sie diese Servereinstellungen, um Bildgrößenbeschränkungen festzulegen.
+description: Verwenden Sie diese Servereinstellungen, um die Bildgröße zu begrenzen.
 solution: Experience Manager
-title: Bildgrößenbegrenzungen
+title: Bildgrößenbeschränkungen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
+# Bildgrößenbeschränkungen{#image-size-limits}
 
-# Maximale Bildgröße{#image-size-limits}
+Verwenden Sie diese Servereinstellungen, um die Bildgröße zu begrenzen.
 
-Verwenden Sie diese Servereinstellungen, um Bildgrößenbeschränkungen festzulegen.
+## IS::MaxMessageSize - Maximale Antwortgröße {#section-bd942385d4d144cd904003695d72c85e}
 
-## IS::MaxMessageSize - Antwortgrößenbeschränkung {#section-bd942385d4d144cd904003695d72c85e}
+Beschränkt die Größe der Daten, die der Image-Server an den Platform-Server senden darf. Dadurch wird die Größe des kodierten/komprimierten Antwortbilds begrenzt, das Image Serving über HTTP (Mbytes) an den Client zurückgeben kann.
 
-Begrenzt die Größe der Daten, die der Image-Server an den Platform Server senden darf. Dadurch wird die Größe des kodierten/komprimierten Antwortbilds begrenzt, das Image Serving über HTTP (Mbyte) an den Client zurückgeben kann.
+## IS::MaxRenderRgnPixels - Maximale Größe des Ausgabebilds {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
-## IS::MaxRenderRgnPixels - Maximale Bildgröße für Ausgabe {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
+Beschränkt die Größe der vom Image-Server erzeugten Bilder (ohne in einer Datei gespeicherte Bilder). Ganzzahlwert größer als 0 in Millionen von Pixeln. Wenn ein Rendervorgang die Größenbeschränkung überschreiten würde, wird ein Fehler zurückgegeben. Der Standardwert ist „16“.
 
-Begrenzt die Größe der Bilder, die vom Image-Server erstellt werden können (mit Ausnahme der in einer Datei gespeicherten Bilder). Ganzzahlwert größer als 0 in Millionen Pixeln. Ein Fehler wird zurückgegeben, wenn ein Rendervorgang die Größenbeschränkung überschreitet. Der Standardwert ist „16“.
+## IS::MaxSavePixels - Größenbeschränkung für das Speichern in Dateien {#section-d1547c4afa88467080ab08356f775e06}
 
-## IS::MaxSavePixels - Größenbeschränkung zum Speichern in Dateien {#section-d1547c4afa88467080ab08356f775e06}
+Beschränkt die Größe der Bilder, die der Image-Server mit dem Befehl `req=saveToFile` in Dateien schreibt. Ganzzahlwert größer als 0 in Millionen von Pixeln. Wenn der Dateispeichervorgang diese Grenze überschreitet, wird ein Fehler zurückgegeben. Der Standardwert beträgt 100 Millionen Pixel.
 
-Begrenzt die Größe der Bilder, die der Image-Server mit dem Befehl `req=saveToFile` in Dateien schreibt. Ganzzahlwert größer als 0 in Millionen Pixeln. Wenn der Dateispeichervorgang diesen Grenzwert überschreitet, wird ein Fehler zurückgegeben. Der Standardwert ist 100 Millionen Pixel.
+## IS::MaxNonDsfSize - Größenbeschränkung für Nicht-PTIFF-Eingabebilder {#section-50de28a7158a436393cce5da0d1e4d46}
 
-## IS::MaxNonDsfSize - Size limit for non-PTIFF Input Images {#section-50de28a7158a436393cce5da0d1e4d46}
-
-Die maximale Größe (in Pixel) von Bildern, bei denen es sich nicht um PTIFFs handelt, die der Image-Server öffnen darf. Beim Image Serving wird ein Fehler zurückgegeben, wenn versucht wird, auf ein Bild zuzugreifen, das kein PTIFF-Bild ist und diesen Grenzwert überschreitet.
+Die maximale Größe (in Pixeln) von Bildern, bei denen es sich nicht um PTIFFs handelt, die der Image-Server öffnen darf. Image Serving gibt einen Fehler zurück, wenn versucht wird, auf ein Nicht-PTIFF-Bild zuzugreifen, das diese Grenze überschreitet.
 
 >[!NOTE]
 >
->Wenn Sie diesen Wert zu hoch einstellen, wird der Image-Server möglicherweise nicht mehr über Arbeitsspeicher verfügen und es kann zu Fehlern, einschließlich Abstürzen, kommen.
-
+>Wird dieser Wert zu hoch eingestellt, kann der Image-Server an Speicher verhungern und zu Fehlern, einschließlich Abstürzen, führen.
