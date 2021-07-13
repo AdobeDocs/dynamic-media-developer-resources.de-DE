@@ -1,23 +1,22 @@
 ---
-description: Wenn JavaScript™ als Antwortformat angegeben ist, werden die Antwortdaten als JavaScript™-Include-Datei analysiert.
+description: Wenn JavaScript™ als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als JavaScript™-Include-Datei analysiert werden.
 solution: Experience Manager
 title: JavaScript™-Eigenschaften
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 12e69221-4a2c-4ec6-b38b-0a8d98d3c4a6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-
 # JavaScript™-Eigenschaften{#javascript-properties}
 
-Wenn JavaScript™ als Antwortformat angegeben ist, werden die Antwortdaten als JavaScript™-Include-Datei analysiert.
+Wenn JavaScript™ als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als JavaScript™-Include-Datei analysiert werden.
 
-Eine typische Antwort auf JavaScript™-Eigenschaften weist folgende allgemeine Struktur auf:
+Eine typische JavaScript™-Eigenschaftenantwort weist folgende allgemeine Struktur auf:
 
 ```
            
@@ -30,9 +29,9 @@ Eine typische Antwort auf JavaScript™-Eigenschaften weist folgende allgemeine 
 ...
 ```
 
-*`propertyValue`* darf leer sein. Leerzeichen sind optional am Anfang und am Ende jeder Zeile und vor und nach dem Trennzeichen =. Alle Werte sind durch einfache Anführungszeichen eingeschlossen. Einfache Anführungszeichen in Zeichenfolgen werden mit zwei aufeinander folgenden einfachen Anführungszeichen versehen.
+*`propertyValue`* kann leer sein. Leerzeichen sind am Anfang und Ende jeder Zeile sowie vor und nach dem Trennzeichen = optional. Alle Werte sind durch einfache Anführungszeichen eingeschlossen. Einzelne Anführungszeichen in Zeichenfolgen werden mit zwei aufeinander folgenden einfachen Anführungszeichen maskiert.
 
-Um eine JavaScript™-Eigenschaftenantwort zu analysieren, müssen alle Objekte oder Objekte, auf die in der Antwort verwiesen wird, erstellt werden, bevor die Eigenschaftendatei geladen wird. Im Folgenden finden Sie ein Beispiel für die Verwendung von `req=props` zum Abrufen der Antwortbildgröße in JavaScript™:
+Um eine JavaScript™-Eigenschaftenantwort zu analysieren, müssen alle Objekte oder Objekte, auf die in der Antwort verwiesen wird, erstellt werden, bevor die Eigenschaftendatei geladen wird. Im Folgenden finden Sie ein Beispiel für die Verwendung von `req=props` zum Abrufen der Größe des Antwortbilds in JavaScript™:
 
 ```
 <script> image = new Object; </script> 
@@ -41,4 +40,3 @@ src='http://myServer/is/image/myImage?req=props,javascript'>
 <script> alert("Size: " + image.width + " , " + 
 image.height); </script>
 ```
-
