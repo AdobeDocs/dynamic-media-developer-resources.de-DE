@@ -1,21 +1,20 @@
 ---
-description: Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansicht) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
+description: Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
 solution: Experience Manager
 title: hei
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 3%
 
 ---
 
-
 # hei{#hei}
 
-Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansicht) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
+Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
 
 ` hei= *`val`*`
 
@@ -26,32 +25,32 @@ Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansicht) an, wenn die Anpass
  </tr> 
 </table>
 
-Wenn sowohl `wid=` als auch `scl=` angegeben sind, kann das Composite-Bild gemäß dem Attribut `align=`abgeschnitten werden. Wenn `fit=` vorhanden ist, gibt `hei=` die exakte, die minimale oder die maximale Bildhöhe für die Antwort an. Weitere Informationen finden Sie in der Beschreibung von ` [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)`.
+Wenn sowohl `wid=` als auch `scl=` angegeben sind, kann das zusammengesetzte Bild gemäß dem Attribut `align=`zugeschnitten werden. Wenn `fit=` vorhanden ist, gibt `hei=` die genaue, minimale oder maximale Bildhöhe der Antwort an. Weitere Informationen finden Sie in der Beschreibung von ` [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)` .
 
-Wenn `scl=` nicht angegeben ist, wird das Composite-Bild an die Größe angepasst. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Rechteck &quot;Breite/Höhe&quot;passt, wobei so wenig Hintergrundbereich wie möglich sichtbar bleibt. In diesem Fall wird das Ansicht gemäß dem Attribut `align=` innerhalb des Rechtecks positioniert. Der Hintergrundbereich wird mit `bgc=` oder, falls nicht mit `attribute::BkgColor` angegeben, gefüllt.
+Wenn `scl=` nicht angegeben ist, wird das Composite-Bild auf die Anpassung skaliert. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das breite/hei-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar ist. in diesem Fall wird das Bild innerhalb des Ansichtsrechtecks gemäß dem Attribut `align=` positioniert. Der Hintergrundbereich wird mit `bgc=` oder, falls nicht angegeben, mit `attribute::BkgColor` gefüllt.
 
 >[!NOTE]
 >
->Wenn die berechnete Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
+>Wenn die berechnete Größe des Antwortbilds größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-534923644a1e464496eeba83dedcbd3c}
 
-Ansicht. Gilt unabhängig von der aktuellen Ebeneneinstellung.
+Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Standard {#section-76544d34806d4124a8b173e229cba71f}
 
-Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des Composite-Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
+Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
 
 ## Beispiele {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-ein Bild anfordern, das in ein Rechteck der Größe 200 x 200 passt; Richten Sie das Bild oben links aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor` gefüllt.
+ein Bild anfordern, das in ein 200 x 200-Rechteck passt; Wenn das Bild nicht quadratisch ist, richten Sie es oben links aus. Jeder Hintergrundbereich wird mit `attribute::BkgColor` gefüllt.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-Das gleiche Bild, das mit einer festen Höhe von 200 Pixel, jedoch mit einer variablen Breite geliefert wird, die dem Seitenverhältnis des Bilds entspricht. In diesem Fall hat das zurückgegebene Bild nie Füllbereiche im Hintergrund. Beachten Sie, dass `align=` in diesem Fall keinerlei Auswirkungen haben würde.
+Das gleiche Bild, das mit einer festen Höhe von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Breite, die dem Seitenverhältnis des Bildes entspricht. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. Beachten Sie, dass `align=` in diesem Fall überhaupt keine Auswirkungen haben würde.
 
 `http://server/myRootId/myImageId?hei=200`
 
 ## Verwandte Themen {#section-796e059e42ea4e86ab90ea3d024850ec}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc),  [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)  [rgn=attribute::DefaultPix,attribute::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc),  [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [rgn=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f),  [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1),  [attribute::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)
