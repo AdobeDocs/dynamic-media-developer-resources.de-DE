@@ -1,34 +1,33 @@
 ---
-description: Ereignis-Rückrufe
+description: Ereignisrückrufe
 solution: Experience Manager
-title: Ereignis-Rückrufe
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Ereignisrückrufe
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: 14b317ab-82fb-4f55-babe-72c24e6afc2c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
+# Ereignisrückrufe{#event-callbacks}
 
-# Ereignis-Rückrufe{#event-callbacks}
+Der Viewer unterstützt JavaScript-Ereignis-Rückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
 
-Der Viewer unterstützt JavaScript-Ereignis-Rückrufe, die die Webseite zur Verfolgung des Viewer-Initialisierungsprozesses oder -Laufzeitverhaltens verwendet.
+Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
 
-Callback-Handler werden zugewiesen, indem Ereignis und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
+Zu den unterstützten Viewer-Ereignissen zählen:
 
-Folgende Viewer-Ereignis werden unterstützt:
+* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
 
-* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
+* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, der von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 
-* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
-
-   * `objID {String}` nicht verwendet.
-   * `compClass {String}` nicht verwendet.
-   * `instName {String}` einem Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
-   * `timeStamp {Number}` Zeitstempel des Ereignisses.
-   * `eventInfo {String}` Ereignis-Nutzlast.
+   * `objID {String}` wird derzeit nicht verwendet.
+   * `compClass {String}` wird derzeit nicht verwendet.
+   * `instName {String}` einen Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
+   * `timeStamp {Number}` Ereigniszeitstempel.
+   * `eventInfo {String}` Ereignis-Payload.
 
 Siehe auch [BasicZoomViewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-basiczoomviewer.md#reference-bd16cadc0c054fafb0db4994741d47cd) und [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-sethandlers.md#reference-b748b29eaafa463a9d1723cb7b86f0d9).
