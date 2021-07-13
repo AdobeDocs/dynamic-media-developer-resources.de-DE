@@ -1,23 +1,22 @@
 ---
-description: Ein Material gilt als Wandrand, wenn es in einem MSS-Umrandungsmessgerät angegeben ist (eingeführt mit Unter=3.5).
+description: Ein Material gilt als Wandrahmen, wenn es in einem Wandrahmen-MSS (eingeführt mit "sub=3.5") angegeben ist.
 solution: Experience Manager
 title: Mauergrenzen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 4%
 
 ---
 
+# Mauergrenzen{#wall-borders}
 
-# Pinnwände{#wall-borders}
+Ein Material gilt als Wandrahmen, wenn es in einem Wandrahmen-MSS (eingeführt mit &quot;sub=3.5&quot;) angegeben ist.
 
-Ein Material gilt als Wandrand, wenn es in einem MSS-Umrandungsmessgerät angegeben ist (eingeführt mit Unter=3.5).
-
-Bilder mit einer Randtextur können einen Alpha-Kanal enthalten, um die Form des Randes zu definieren. Wandbegrenzungen können nur auf Wandobjekte angewendet werden.
+Pinnwandrahmentexturbilder können einen Alphakanal enthalten, um die Form des Rands zu definieren. Wandrahmen können nur auf Wandobjekte angewendet werden.
 
 <table id="table_906C5CC4CADF4024AA0E29544AF48080"> 
  <thead> 
@@ -40,14 +39,13 @@ Bilder mit einer Randtextur können einen Alpha-Kanal enthalten, um die Form des
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Ausrichtung der horizontalen Textur (Y-Wert wird ignoriert) </p> </td> 
+   <td colname="col2"> <p>Horizontale Texturausrichtung (y-Wert wird ignoriert) </p> </td> 
    <td colname="col3"> <p>0 (linke Bildkante) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Scharfzeichnen </p> </td> 
-   <td colname="col3"> <p>0 (kein Scharfzeichnen) </p> </td> 
+   <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
