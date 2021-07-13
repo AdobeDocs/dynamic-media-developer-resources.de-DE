@@ -1,21 +1,20 @@
 ---
-description: Image Serving-Steuerelementskript. Dieses Skript wird zum Beginn, Beenden oder Neustart des Image Serving Server Supervisor verwendet, der wiederum alle anderen Image Serving-Komponenten Beginn, anhält oder neu startet.
+description: Image Serving Control-Skript. Mit diesem Skript wird der Image Serving Server Supervisor gestartet, beendet oder neu gestartet, der alle anderen Image Serving-Komponenten startet, stoppt oder neu startet.
 solution: Experience Manager
 title: ImageServing
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 2%
 
 ---
 
-
 # ImageServing{#imageserving}
 
-Image Serving-Steuerelementskript. Dieses Skript wird zum Beginn, Beenden oder Neustart des Image Serving Server Supervisor verwendet, der wiederum alle anderen Image Serving-Komponenten Beginn, anhält oder neu startet.
+Image Serving Control-Skript. Mit diesem Skript wird der Image Serving Server Supervisor gestartet, beendet oder neu gestartet, der alle anderen Image Serving-Komponenten startet, stoppt oder neu startet.
 
 ## Nutzung {#section-6832b5b10404442a9d3a3eca92041002}
 
@@ -33,24 +32,23 @@ Image Serving-Steuerelementskript. Dieses Skript wird zum Beginn, Beenden oder N
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> starten </span> </p> </td> 
-   <td colname="col2"> <p> Beginn des Server Supervisor und aller anderen Image Serving-Komponenten. </p> </td> 
+   <td colname="col2"> <p> Starten Sie den Server Supervisor und alle anderen Image Serving-Komponenten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
-   <td colname="col2"> <p> Beenden Sie alle Image Serving-Komponenten, einschließlich Server Supervisor. </p> </td> 
+   <td colname="col2"> <p> Beenden Sie alle Image Serving-Komponenten, einschließlich des Server Supervisors. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Neu starten </span> </p> </td> 
-   <td colname="col2"> <p>Starten Sie alle Image Serving-Komponenten einschließlich Server Supervisor neu. </p> </td> 
+   <td colname="col2"> <p>Starten Sie alle Image Serving-Komponenten einschließlich des Server Supervisors neu. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Neustart { | is | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> Startet Tomcat/Platform Server, den Image-Server oder SVG neu. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Neustart { ps | is | svg }  </span> </p> </td> 
+   <td colname="col2"> <p> Startet Tomcat/Platform-Server, den Image-Server oder SVG neu. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Gibt Informationen zur Betriebszeit und aktuellen Speicherbelegung für Image-Server, Tomcat/Platform-Server und SVGserver oder zum Status nur für den angegebenen Server zurück; Stattdessen wird eine Informationsmeldung zurückgegeben, wenn der Server Supervisor nicht ausgeführt wird. </p> </td> 
+   <td colname="col2"> <p>Gibt Informationen zur Betriebszeit und aktuellen Speicherbelegung für Image-Server, Tomcat/Platform-Server und SVG-Server oder den Status nur für den angegebenen Server zurück; Stattdessen wird eine Informationsmeldung zurückgegeben, wenn der Server-Supervisor nicht ausgeführt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
