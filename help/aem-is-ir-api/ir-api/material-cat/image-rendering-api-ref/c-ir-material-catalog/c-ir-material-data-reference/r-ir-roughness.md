@@ -1,29 +1,28 @@
 ---
-description: Oberflächenrauigkeit. Gibt die relative Glanz der Materialoberfläche an. Wird in Verbindung mit Katalogtyp und Katalogglanz verwendet, um 3D-Reflektionseffekte zu steuern.
+description: Oberflächenrauigkeit. Gibt das relative Glanz der Materialoberfläche an. Wird zusammen mit Katalogtyp und Katalogglanz verwendet, um 3D-Reflexeffekte zu steuern.
 solution: Experience Manager
 title: Rauigkeit
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 61d956ec-62dd-4879-877e-2ac422396e2e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 3%
 
 ---
 
-
 # Rauigkeit{#roughness}
 
-Oberflächenrauigkeit. Gibt die relative Glanz der Materialoberfläche an. Wird in Verbindung mit Katalog::Type and catalog::Gloss verwendet, um 3D-Reflektions-Rendereffekte zu steuern.
+Oberflächenrauigkeit. Gibt das relative Glanz der Materialoberfläche an. Wird zusammen mit catalog::Type und catalog::Gloss verwendet, um 3D-Reflektionseffekte zu steuern.
 
 ## Eigenschaften {#section-70c3f2394fd8477ca83a369448907971}
 
-Ganzzahl. Prozentwert im Bereich 0...100. Optional für alle Materialien. Wird nur für Vignetten mit mehreren Reflexionskarten oder Vignetten mit 3D-Reflektionsfähigkeit verwendet. Leer lassen oder auf -1 setzen, wenn nicht bekannt oder nicht erforderlich.
+Ganzzahl. Prozentwert im Bereich 0...100. Optional für alle Materialien. Wird nur für Vignetten mit mehreren Reflektionskarten oder Vignetten mit 3D-Reflektionsfunktion verwendet. Leer lassen oder auf -1 setzen, falls nicht bekannt oder nicht erforderlich.
 
 ## Standard {#section-c6d5c0613a8745ddbd9f43c8c90b1580}
 
--1; Es wird ein Serverstandard verwendet.
+-1; wird eine Server-Standardeinstellung verwendet.
 
 ## Verwandte Themen {#section-d08b59eb76824226b89c6fdf86bb5ce5}
 
