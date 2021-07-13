@@ -1,25 +1,24 @@
 ---
-description: Unterstützung der Adobe Analytics-Verfolgung
+description: Unterstützung für Adobe Analytics-Tracking
 solution: Experience Manager
-title: Unterstützung der Adobe Analytics-Verfolgung
+title: Unterstützung für Adobe Analytics-Tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
-# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+# Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
 Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
+## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf abzurufen und das `eventInfo`-Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Um in Analytics-Systeme von Drittanbietern zu integrieren, müssen Sie den Viewer-Rückruf `trackEvent` überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -50,12 +49,12 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 });
 ```
 
-Der Viewer verfolgt die folgenden SDK-Ereignis:
+Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK-Ereignis </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
    <th colname="col2" class="entry"> <p>Gesendet... </p> </th> 
   </tr> 
  </thead>
@@ -66,15 +65,15 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>wenn ein Asset mit der API <span class="codeph"> setAsset() </span> im Viewer getauscht wird. </p> </td> 
+   <td colname="col2"> <p>wenn ein Asset im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>beim Abspielen von Beginn. </p> </td> 
+   <td colname="col2"> <p>wenn die Wiedergabe beginnt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>wenn die Wiedergabe angehalten wird. </p> </td> 
+   <td colname="col2"> <p>wenn die Wiedergabe angehalten wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
@@ -86,7 +85,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
-   <td colname="col2"> <p>jedes Mal, wenn der Benutzer auf ein interaktives Farbfeld klickt. </p> </td> 
+   <td colname="col2"> <p>jedes Mal, wenn der Benutzer auf ein interaktives Muster klickt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
