@@ -1,27 +1,26 @@
 ---
-description: Die Haupt-Ansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
+description: Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
 solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Inline-Zoom
+role: Developer,User
+exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
 
-
 # Flyout-Zoom-Ansicht{#flyout-zoom-view}
 
-Die Haupt-Ansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
+Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**CSS-Eigenschaften der Haupt-Ansicht**
+**CSS-Eigenschaften der Hauptansicht**
 
-Das Erscheinungsbild der Hauptklasse wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Hauptansicht wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -37,12 +36,12 @@ Das Erscheinungsbild der Hauptklasse wird mit der folgenden CSS-Klassenauswahl g
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Die Hintergrundfarbe der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p> Die Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: So machen Sie die Ansicht transparent:
+Beispiel - um die Hauptansicht transparent zu machen:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -58,7 +57,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilfe von CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
+Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -70,23 +69,23 @@ Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilf
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Versatz unten in der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p>Versatz unten in der Hauptansicht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Umrandung des Nachrichtentextes. </p> </td> 
+   <td colname="col2"> <p>Auffüllung um den Nachrichtentext. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -94,7 +93,7 @@ Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilf
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p>Rahmenradius des Nachrichtentextes im Hintergrund </p> </td> 
+   <td colname="col2"> <p>Hintergrundrahmenradius des Nachrichtentextes </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
@@ -103,11 +102,11 @@ Es ist möglich, Schriftstil, Größendarstellung und vertikalen Versatz mithilf
  </tbody> 
 </table>
 
-Die Tippmeldung kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
+Die Tipp-Nachricht kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 .
 
-Beispiel: So richten Sie eine halbtransparente Tipp-Meldung mit einer weißen Arial-12-Pixel-Schrift ein, die um 50 Pixel vom unteren Rand der Ansicht, einer Auffüllung und einem gerundeten Rand versetzt ist:
+Beispiel: Zum Einrichten einer halbtransparenten Tipp-Meldung mit weißer Arial-12-Pixel-Schriftart, 50 Pixel Abstand vom unteren Rand der Hauptansicht, Abstand und gerundeter Rahmen:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
