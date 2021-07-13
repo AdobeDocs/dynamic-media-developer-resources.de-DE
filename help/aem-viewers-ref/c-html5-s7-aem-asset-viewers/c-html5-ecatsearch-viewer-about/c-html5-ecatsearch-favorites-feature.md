@@ -3,22 +3,21 @@ description: Suchfunktion
 solution: Experience Manager
 title: Suchfunktion
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d9bee7a6-332f-481b-b0aa-9caa0b6d982c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
-
 # Suchfunktion{#search-feature}
 
-Der Viewer unterstützt die Textsuche über dem Kataloginhalt. Damit die Suchfunktion funktioniert, muss die Katalogfunktion &quot;Suchbegriffe extrahieren&quot;aktiviert sein, wenn die PDF-Quelldatei nach Dynamic Media Classic hochgeladen wird.
+Der Viewer unterstützt die Textsuche über den Kataloginhalt. Damit die Suchfunktion funktioniert, muss die Funktion &quot;Suchbegriffe extrahieren&quot;aktiviert sein, wenn die PDF-Quelldatei in Dynamic Media Classic hochgeladen wird.
 
-Die Suchfunktion wird durch Aktivierung der Suchschaltfläche in der Hauptwerkzeugleiste ausgelöst. Diese Aktion öffnet das Suchergebnisbedienfeld mit einem Texteingabefeld. Ein Benutzer kann eine Suche mit Suchbegriffen durchführen, die durch Leerzeichen getrennt sind, oder mit Wortgruppen, die von Dubletten-Anführungszeichen umgeben sind.
+Die Suchfunktion wird durch die Aktivierung einer Suchschaltfläche in der Symbolleiste ausgelöst. Durch diese Aktion wird ein Suchergebnisbereich mit einem Texteingabefeld angezeigt. Benutzer können eine Suche mithilfe von durch Leerzeichen getrennten Keywords oder durch Verwendung von Phrasen durchführen, die von doppelten Anführungszeichen umgeben sind.
 
-Die Suchergebnisse werden als Miniaturansichten der Seiten angezeigt, auf denen der Suchtext gefunden wurde. Darüber hinaus zeigt der Viewer die Gesamtzahl der Seiten und Treffer an, die während der Suche gefunden wurden. Der Benutzer kann auf die Miniaturansicht eines Suchergebnisses klicken oder darauf tippen, um zur entsprechenden Seite des Katalogs zu navigieren.
+Suchergebnisse werden als Miniaturansichten von Seiten angezeigt, auf denen Suchtext gefunden wurde. Darüber hinaus zeigt der Viewer die Gesamtzahl der bei der Suche gefundenen Seiten und Treffer an. Der Benutzer kann auf die Miniaturansicht eines Suchergebnisses klicken oder tippen, um zur entsprechenden Seite des Katalogs zu navigieren.
 
-Schließlich hebt der Viewer die Treffer der Suche in der Haupt-Ansicht mit halbtransparenten gelben Bereichen hervor.
+Schließlich hebt der Viewer Suchtreffer in der Hauptansicht mit halbtransparenten gelben Bereichen hervor.
