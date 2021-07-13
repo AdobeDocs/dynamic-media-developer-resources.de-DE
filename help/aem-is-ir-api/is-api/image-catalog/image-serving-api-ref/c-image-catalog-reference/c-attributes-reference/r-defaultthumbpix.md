@@ -1,23 +1,22 @@
 ---
-description: Standardgröße für Miniaturansichten. Wird anstelle des Attributs DefaultPix für Miniaturansichtsanforderungen (req=tmb) verwendet.
+description: Standardgröße der Miniaturansichten. Wird anstelle des Attributs DefaultPix für Miniaturanfragen verwendet (req=tmb).
 solution: Experience Manager
 title: DefaultThumbPix
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c1413da0-a68d-4345-928f-b532991966a8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # DefaultThumbPix{#defaultthumbpix}
 
-Standardgröße für Miniaturansichten. Wird anstelle von attribute verwendet::DefaultPix für Miniaturansichtsanforderungen (req=tmb).
+Standardgröße der Miniaturansichten. Wird anstelle von attribute::DefaultPix für Miniaturanfragen verwendet (req=tmb).
 
-Der Server schränkt die Größe von Antwortbildern auf diese Breite und Höhe ein, wenn in einer Miniaturansichtsanforderung ( `req=tmb`) nicht explizit angegeben ist, welche Ansicht nicht explizit mit `wid=`, `hei=` oder `scl=` angegeben wird.
+Der Server schränkt Antwortbilder so ein, dass sie nicht größer als diese Breite und Höhe sind. Wenn eine Miniaturanfrage ( `req=tmb`) die Größe nicht explizit angibt, geben Sie die Anzeigegröße nicht explizit mit `wid=`, `hei=` oder `scl=` an.
 
 ## Eigenschaften {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
@@ -27,7 +26,7 @@ Gilt nicht für verschachtelte/eingebettete Anforderungen.
 
 ## Standard {#section-2c4a4f14540449638822913513170ff1}
 
-Vererbt von `default::DefaultThumbPix`, wenn nicht definiert oder leer.
+Wird von `default::DefaultThumbPix` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 
