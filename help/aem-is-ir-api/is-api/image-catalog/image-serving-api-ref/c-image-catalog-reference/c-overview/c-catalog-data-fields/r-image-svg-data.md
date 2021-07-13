@@ -1,19 +1,18 @@
 ---
 description: Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
 solution: Experience Manager
-title: Image_SVG-Daten
+title: Bild_SVG-Daten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
-
-# Image_SVG data{#image-svg-data}
+# Bild_SVG-Daten{#image-svg-data}
 
 Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
 
@@ -23,7 +22,7 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"> ID</a></span> </p> </td> 
-   <td colname="col2"> <p>Katalogdatensatzkennung (Indexschlüssel). </p> </td> 
+   <td colname="col2"> <p>Kennung des Katalogdatensatzes (Indexschlüssel). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,8 +40,8 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
    <td colname="col2"> <p>Cache-Ablauf (Time-to-Live) für Antwortbilder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modifikator</a> </span> </p> </td> 
-   <td colname="col2"> <p>Modifikatoren für Präfix-Anforderungen. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modifier</a> </span> </p> </td> 
+   <td colname="col2"> <p>Voranschlag-Anforderungs-Modifikatoren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a> </span> </p> </td> 
@@ -65,7 +64,7 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md" type="reference" format="dita" scope="local"> MaskPath</a></span> </p> </td> 
-   <td colname="col2"> <p>Pfad der Maskendatei. </p> </td> 
+   <td colname="col2"> <p>Maskieren Sie den Dateipfad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md" type="reference" format="dita" scope="local"> Pfad</a></span> </p> </td> 
@@ -86,22 +85,22 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
  </tbody> 
 </table>
 
-## Miniaturattribute {#section-c5ac27bcd4224a80b7f42ead249027b1}
+## Attribute der Miniaturansicht {#section-c5ac27bcd4224a80b7f42ead249027b1}
 
 <table id="table_E07909B6C16F4D9686ADA381A4178E25"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
-   <td colname="col2"> <p>Auflösung von Miniaturbildern. </p> </td> 
+   <td colname="col2"> <p>Auflösung der Miniaturansichten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03" type="reference" format="dita" scope="local"> ThumbType</a></span> </p> </td> 
-   <td colname="col2"> <p>Miniaturansichtstyp. </p> </td> 
+   <td colname="col2"> <p>Typ der Miniaturansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Hilfedaten {#section-bff4e1f9af9d45f1872abac3b414a629}
+## Zusätzliche Daten {#section-bff4e1f9af9d45f1872abac3b414a629}
 
 <table id="table_B6A9A702F533494E85CEC1AD42EC728A"> 
  <tbody> 
@@ -114,12 +113,12 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
    <td colname="col2"> <p>Bildsatzdaten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md" type="reference" format="dita" scope="local"> Map</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md" type="reference" format="dita" scope="local"> Zuordnung</a></span> </p> </td> 
    <td colname="col2"> <p>Imagemap-Daten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Zielgruppen</a></span> </p> </td> 
-   <td colname="col2"> <p>Daten zur Zoom-Zielgruppe. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Ziele</a></span> </p> </td> 
+   <td colname="col2"> <p>Zoom der Zieldaten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p> </td> 
@@ -127,4 +126,3 @@ Die folgenden Felder werden in Bild- und SVG-Datendateien erkannt.
   </tr> 
  </tbody> 
 </table>
-
