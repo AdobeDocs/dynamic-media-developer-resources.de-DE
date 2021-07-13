@@ -3,23 +3,22 @@ description: Verwenden Sie diese Servereinstellungen, um Ihren Server zu konfigu
 solution: Experience Manager
 title: Server
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
-
 
 # Server{#server}
 
 Verwenden Sie diese Servereinstellungen, um Ihren Server zu konfigurieren.
 
-## SV::ImageServerMode - Image Server Mode {#section-991b287f2dde4f77a24fc69d5b32cabd}
+## SV::ImageServerMode - Image-Server-Modus {#section-991b287f2dde4f77a24fc69d5b32cabd}
 
-Sowohl eine 32- als auch eine 64-Bit-Version des Image-Servers sind für Linux verfügbar. Geben Sie ImageServer64 bei Installation auf 64-Bit-Linux-Servern oder ImageServer32 (Standard) bei Installation auf 32-Bit-Servern an.
+Sowohl eine 32- als auch eine 64-Bit-Version des Image-Servers sind für Linux verfügbar. Geben Sie ImageServer64 bei der Installation auf 64-Bit-Linux-Servern oder ImageServer32 (Standard) bei der Installation auf 32-Bit-Servern an.
 
 >[!NOTE]
 >
@@ -27,34 +26,34 @@ Sowohl eine 32- als auch eine 64-Bit-Version des Image-Servers sind für Linux v
 
 >[!NOTE]
 >
->Der 64-Bit-Modus wird unter Windows nicht unterstützt. Es kann nur `ImageServer32` angegeben werden. Andernfalls wird beim Image Serving kein Beginn ausgeführt.
+>Der 64-Bit-Modus wird unter Windows nicht unterstützt. Es dürfen nur `ImageServer32` angegeben werden. Andernfalls wird das Image Serving nicht gestartet.
 
 ## SV::PsHeapSize - Plattform-Server-Heap-Größe {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Die Java-Heap-Größe für den Plattformserver. Der Standardwert ist &quot; `512m`&quot;(512 MB).
+Die Java-Heap-Größe für den Platform-Server. Die Standardeinstellung ist &quot; `512m`&quot; (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Gibt den Anschluss an, der für die Kommunikation zwischen dem Plattformserver und dem Image-Server verwendet wird. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Host-System sonst nicht verwendet wird.
+Gibt den Anschluss an, der für die Kommunikation zwischen dem Platform-Server und dem Image-Server verwendet wird. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Hostsystem sonst nicht verwendet wird.
 
 >[!NOTE]
 >
->Damit Image Serving korrekt ausgeführt werden kann, muss derselbe Wert für `IS::TcpPort` und `PS::isConnection.port` festgelegt werden.
+>Damit das Image Serving ordnungsgemäß funktioniert, muss derselbe Wert für `IS::TcpPort` und `PS::isConnection.port` festgelegt werden.
 
-## IS::PhysicalMemory - Image Server Memory Limit {#section-85e37aa2ac6e456eb698da716dd3247d}
+## IS::PhysicalMemory - Speicherlimit für Image-Server {#section-85e37aa2ac6e456eb698da716dd3247d}
 
-Die ungefähre Grenze für Bilddaten im Arbeitsspeicher, ausgedrückt als Prozentsatz des physischen Speichers. Der gültige Bereich liegt zwischen 10 % und 90 %. Der Image-Server versucht, die Verwendung des Bildspeichers möglichst auf die angegebene Menge zu beschränken. Die Höchstgrenze kann bei Aktivität der Schwerindustrie vorübergehend überschritten werden.
+Die ungefähre Grenze für Bilddaten im Arbeitsspeicher, ausgedrückt als Prozentsatz des physischen Arbeitsspeichers. Der gültige Bereich liegt zwischen 10 % und 90 %. Der Image-Server versucht, die Verwendung des Bildspeichers nach Möglichkeit auf die angegebene Menge zu beschränken. Die Höchstgrenze kann während der Aktivität der schweren Verarbeitung vorübergehend überschritten werden.
 
-## IS::WorkerThreads - Anzahl der Image-Server-Worker-Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Anzahl der Image Server-Worker-Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Die maximale Anzahl von Threads, die der Image-Server zur Verarbeitung von Bilddaten verwendet. Der Standardwert ist 0, was es dem Image-Server ermöglicht, die Thread-Anzahl automatisch zu optimieren.
 
-Einige Betriebssysteme haben Threadingmodelle mit hohem Kontextumschaltaufwand. In einem solchen Fall kann sich die Gesamtleistung des Servers verbessern, wenn eine bestimmte Thread-Anzahl ausgewählt wird (z. B. ein Thread pro CPU). Einige Experimente sind möglicherweise erforderlich, um die optimale Einstellung zu finden. Weitere Informationen finden Sie in den Versionshinweisen zum Image-Server und in der Dokumentation zum Betriebssystem.
+Einige Betriebssysteme verfügen über Threading-Modelle mit einem hohen kontextbezogenen Switching-Overhead. Unter solchen Umständen kann sich die Gesamtleistung des Servers bei Auswahl einer bestimmten Thread-Anzahl (z. B. ein Thread pro CPU) verbessern. Möglicherweise sind einige Experimente erforderlich, um die optimale Einstellung zu finden. Weitere Informationen finden Sie in den Image Serving-Versionshinweisen und in der Dokumentation zum Betriebssystem.
 
 ## IS::NumberOfTextServers - Anzahl der Textserverinstanzen {#section-971e20a90c1a473598fba738ed95671a}
 
-Die maximale Anzahl an gleichzeitig aktiven Textrenderern. 0 (Standard) entspricht der 1,5-fachen Anzahl verfügbarer CPU-Kerne.
+Die maximale Anzahl von Text-Renderern, die gleichzeitig aktiv sein können. 0 (Standard) entspricht dem 1,5-fachen der Anzahl der verfügbaren CPU-Kerne.
 
-## IS::TextServerTcpPortRange - Textserver-Kommunikationsports {#section-a13465de88ed4df09931e5ba840c1942}
+## IS::TextServerTcpPortRange - Text Server Communication Ports {#section-a13465de88ed4df09931e5ba840c1942}
 
-Die für die Textserverkommunikation zu verwendenden Anschlüsse. Geben Sie die erste und letzte Anschlussnummer mit &quot;-&quot;an.
+Die für die Textserverkommunikation zu verwendenden Ports. Geben Sie die erste und letzte Portnummer, getrennt durch &#39;-&#39;, an.
