@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für den interaktiven Video-Viewer.
+description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Konfigurationsattribut für den interaktiven Video-Viewer.
+Konfigurationsattribut für interaktiven Video-Viewer.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert/deaktiviert die Titelleiste der Kapitelbezeichnung. Die Kapitelzeit wird nicht angezeigt, wenn die Titelleiste deaktiviert ist. </p> </td> 
+   <td colname="col2"> <p> Aktiviert/deaktiviert die Titelleiste der Kapitelbeschriftung. Die Startzeit des Kapitels wird nicht angezeigt, wenn die Titelleiste deaktiviert ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
