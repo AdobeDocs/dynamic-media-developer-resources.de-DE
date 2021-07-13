@@ -1,27 +1,26 @@
 ---
-description: Unter "Sset-Indikator"versteht man eine Reihe von Punkten, die über den Farbfeldern dargestellt werden, wenn ein Viewer auf einem Touch-Gerät verwendet wird. Die Punkte helfen Benutzern, durch die Seiten von Miniaturbildern zu navigieren, wenn keine Bildlaufschaltflächen verfügbar sind.
+description: Set Indicator ist eine Reihe von Punkten, die auf Farbfeldern gerendert werden, wenn ein Viewer auf einem Touch-Gerät verwendet wird. Die Punkte helfen Benutzern, durch Seiten von Miniaturansichten zu navigieren, wenn keine Bildlaufschaltflächen verfügbar sind.
 solution: Experience Manager
-title: Indikator festlegen
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Anzeige einstellen
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
 
+# Anzeige einstellen{#set-indicator}
 
-# Indikator{#set-indicator} festlegen
-
-Unter &quot;Sset-Indikator&quot;versteht man eine Reihe von Punkten, die über den Farbfeldern dargestellt werden, wenn ein Viewer auf einem Touch-Gerät verwendet wird. Die Punkte helfen Benutzern, durch die Seiten von Miniaturbildern zu navigieren, wenn keine Bildlaufschaltflächen verfügbar sind.
+Set Indicator ist eine Reihe von Punkten, die auf Farbfeldern gerendert werden, wenn ein Viewer auf einem Touch-Gerät verwendet wird. Die Punkte helfen Benutzern, durch Seiten von Miniaturansichten zu navigieren, wenn keine Bildlaufschaltflächen verfügbar sind.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**CSS-Eigenschaften des Satzindikators**
+**CSS-Eigenschaften des Set Indicators**
 
-Das Erscheinungsbild des Containers für den Set-Indikator wird mithilfe der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7zoomviewer .s7setindicator
@@ -37,12 +36,12 @@ Das Erscheinungsbild des Containers für den Set-Indikator wird mithilfe der fol
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Die Hintergrundfarbe im Hexadezimalformat des Satzindikators. </p> </td> 
+   <td colname="col2"> <p>Die Hintergrundfarbe im hexadezimalen Format des Set-Indikators. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: So richten Sie einen Indikator mit einem weißen Hintergrund ein:
+Beispiel: Zum Einrichten eines Set-Indikators mit weißem Hintergrund:
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -50,7 +49,7 @@ Beispiel: So richten Sie einen Indikator mit einem weißen Hintergrund ein:
 }
 ```
 
-Das Erscheinungsbild eines einzelnen Datensatzindikatorpunkts wird mit der CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS-Klassenauswahl gesteuert:
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -64,11 +63,11 @@ Das Erscheinungsbild eines einzelnen Datensatzindikatorpunkts wird mit der CSS-K
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite des Punkts für den Indikator. </p> </td> 
+   <td colname="col2"> <p>Breite des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des festgelegten Indikatorpunkts. </p> </td> 
+   <td colname="col2"> <p>Höhe des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
@@ -92,16 +91,16 @@ Das Erscheinungsbild eines einzelnen Datensatzindikatorpunkts wird mit der CSS-K
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe im Hexadezimalformat. </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Der Anzeigepunkt &quot;Festlegen&quot;unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der aktuellen Seite der Miniaturansichten, `state="unselected"` dem Standardpunktstatus.
+>Der Set Indicator Punkt unterstützt die Attributauswahl `state`, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der aktuellen Seite der Miniaturansichten, `state="unselected"` entspricht dem Standardpunktstatus.
 
-Beispiel: Um den Anzeigepunkt auf 15 x 15 Pixel mit zwei Pixel horizontalem Rand, fünf Pixel oberem Rand, einem Pixel unteren Rand, zwölf Pixel Radius, #D5D3D3-Standardfarbe und #939393 zu setzen, legen Sie folgende Farbe fest:
+Beispiel: Um einen festgelegten Anzeigepunkt auf 15 x 15 Pixel festzulegen, mit zwei Pixel horizontaler Rand, fünf Pixel oberer Rand, einem Pixel unteren Rand, zwölf Pixel Radius, #D5D3D3 Standardfarbe und #9393 aktiver Farbe:
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 
@@ -118,4 +117,3 @@ Beispiel: Um den Anzeigepunkt auf 15 x 15 Pixel mit zwei Pixel horizontalem Rand
  background-color:#939393;  
 }
 ```
-
