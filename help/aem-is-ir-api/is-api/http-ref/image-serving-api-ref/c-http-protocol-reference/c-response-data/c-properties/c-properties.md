@@ -1,30 +1,29 @@
 ---
-description: Eigenschaftsdaten werden als Antwort auf mehrere req=-Typen zurückgegeben.
+description: Eigenschaftsdaten werden als Reaktion auf mehrere req=-Typen zurückgegeben.
 solution: Experience Manager
 title: Eigenschaften
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
 
-
 # Eigenschaften{#properties}
 
-Eigenschaftendaten werden als Antwort auf die folgenden `req=`-Typen zurückgegeben:
+Eigenschaftsdaten werden als Antwort auf die folgenden `req=`-Typen zurückgegeben:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` Antworten werden nur dann als Eigenschaften formatiert, wenn der Inhalt dem  `catalog::UserData` Eigenschaftenformat entspricht.
+`userdata` -Antworten werden nur dann als Eigenschaften formatiert, wenn der Inhalt von  `catalog::UserData` dem Eigenschaftenformat entspricht.
 
-* [Eigenschaften von Text (Java)](r-text-java-properties.md)
+* [Texteigenschaften (Java)](r-text-java-properties.md)
 * [JavaScript-Eigenschaften](r-javascript-properties.md)
 * [XML-Eigenschaften](r-xml-properties.md)
 * [JSONP-Eigenschaften](r-json-properties.md)
