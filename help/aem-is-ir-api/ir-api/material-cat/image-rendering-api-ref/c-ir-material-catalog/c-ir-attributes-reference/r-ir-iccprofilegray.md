@@ -1,29 +1,28 @@
 ---
-description: Graustufen-Standardfarbraum. Gibt den Namen des ICC-Profils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde.
+description: Graustufen-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist.
 solution: Experience Manager
 title: IccProfileGray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 21f37090-a68c-4d86-a807-bda243a8f99e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
-
 # IccProfileGray{#iccprofilegray}
 
-Graustufen-Standardfarbraum. Gibt den Namen des ICC-Profils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde.
+Graustufen-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist.
 
 ## Eigenschaften {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name`-Wert aus der ICC-Profil-Map dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufen-Profil sein.
+Textzeichenfolge. Falls angegeben, muss ein gültiger `icc::Name` Wert aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
 
 ## Standard {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 
-Vererbt von `default::IccProfileGray`, wenn nicht definiert oder leer.
+Wird von `default::IccProfileGray` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-cd43189611f4426aacddcc604eb02a10}
 
