@@ -3,15 +3,14 @@ description: Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen 
 solution: Experience Manager
 title: Bildschichtbefehle
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
-
 
 # Bildschichtbefehle{#image-layer-commands}
 
@@ -23,4 +22,3 @@ Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen auch für Bil
   <td class="stentry"> <p>Gibt das Quellbild an. </p></td> 
  </tr> 
 </table>
-
