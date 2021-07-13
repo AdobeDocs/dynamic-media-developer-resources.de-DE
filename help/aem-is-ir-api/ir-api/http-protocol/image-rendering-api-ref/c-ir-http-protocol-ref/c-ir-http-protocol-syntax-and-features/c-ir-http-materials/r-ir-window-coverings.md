@@ -1,27 +1,26 @@
 ---
-description: Die Fensterverkleidungsmaterialien umfassen sowohl weiche Fensterverkleidungen (Tränen, Täler, Café-Vorhänge) als auch harte Fensterverkleidungen (Schattierungen und Jalousien).
+description: Zu den Materialien für die Fensterbedeckung gehören sowohl weiche Fensterverkleidungen (Tränen, Täler, Café-Vorhänge) als auch harte Fensterverkleidungen (Schattierungen und Jalousien).
 solution: Experience Manager
-title: Fensterbeläge
+title: Fensterverkleidungen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
 
+# Fensterverkleidungen{#window-coverings}
 
-# Fensterbeläge{#window-coverings}
+Zu den Materialien für die Fensterbedeckung gehören sowohl weiche Fensterverkleidungen (Tränen, Täler, Café-Vorhänge) als auch harte Fensterverkleidungen (Schattierungen und Jalousien).
 
-Die Fensterverkleidungsmaterialien umfassen sowohl weiche Fensterverkleidungen (Tränen, Täler, Café-Vorhänge) als auch harte Fensterverkleidungen (Schattierungen und Jalousien).
+Fensterabdeckungsmaterialien spezifizieren eine *Fensterbedeckungsstil-Datei* ( [!DNL .vnw] Dateierweiterung), eine spezielle Datendatei ähnlich einer Vignette, die Maske-, Beleuchtungs-, Layout- und Texturdaten enthält, die die Fensterbedeckung definieren.
 
-Fensterabdeckende Materialien geben eine *Fensterbedeckungsstil-Datei* ( [!DNL .vnw] Dateierweiterung) an, eine spezielle Datendatei ähnlich einer Vignette, die Maske-, Beleuchtungs-, Layout- und Texturdaten enthält, die die Fensterbedeckung definieren.
+[!DNL vnw] -Dateien enthalten nicht die Farbe und Textur (Stoff) für die Fensterbedeckung. Diese Informationen werden getrennt angegeben, ähnlich wie wiederholbare Texturen.
 
-[!DNL vnw] Dateien enthalten nicht die Farbe und Textur (Stoff) für die Fensterbedeckung. Diese Informationen werden separat angegeben, ähnlich wie bei wiederholbaren Texturen.
-
-Fensterbedeckende Materialien können nur auf Fensterbedeckungsrahmen-Objekte angewendet werden, bei denen es sich um überlappende Objekte handelt.
+Fensterabdeckende Materialien können nur auf Fensterabdeckungsrahmen-Objekte angewendet werden, die sich überschneiden.
 
 <table id="table_545865B054E84592BDAEDA57DBFAE9B3"> 
  <thead> 
@@ -34,7 +33,7 @@ Fensterbedeckende Materialien können nur auf Fensterbedeckungsrahmen-Objekte an
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Stildatei für die Fensterabdeckung; erforderlich. </p> </td> 
+   <td colname="col2"> <p>Stildatei für das Fenster; erforderlich. </p> </td> 
    <td colname="col3"> <p>Keine. </p> </td> 
   </tr> 
   <tr> 
@@ -54,14 +53,13 @@ Fensterbedeckende Materialien können nur auf Fensterbedeckungsrahmen-Objekte an
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Feste Farbe (oder färbt Textur). </p> </td> 
-   <td colname="col3"> <p>128 (neutrales Grau) </p> </td> 
+   <td colname="col2"> <p>Feste Farbe (oder färbt die Textur). </p> </td> 
+   <td colname="col3"> <p>128 (neutral gray) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Scharfzeichnen. </p> </td> 
-   <td colname="col3"> <p>0 (kein Scharfzeichnen) </p> </td> 
+   <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
