@@ -2,16 +2,15 @@
 description: closebutton
 solution: Experience Manager
 title: closebutton
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: a9219ccd-f645-4bdd-a400-8ed6b1e8feec
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '30'
+ht-degree: 16%
 
 ---
-
 
 # closebutton{#closebutton}
 
@@ -21,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p> Auf <span class="codeph"> 1</span> setzen, um die Anzeige der Schließen-Schaltfläche zu aktivieren, oder auf <span class="codeph"> 0</span> setzen, um die Schließen-Schaltfläche auszublenden. </p> </td> 
+   <td colname="col2"> <p> Setzen Sie sie auf <span class="codeph"> 1</span>, um die Anzeige der Schließen-Schaltfläche zu aktivieren, oder auf <span class="codeph"> 0</span>, um die Schließen-Schaltfläche auszublenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
