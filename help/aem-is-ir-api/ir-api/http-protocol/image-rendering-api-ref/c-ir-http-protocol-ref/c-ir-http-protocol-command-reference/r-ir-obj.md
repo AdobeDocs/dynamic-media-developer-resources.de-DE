@@ -1,21 +1,20 @@
 ---
-description: Wählen Sie das Objekt anhand des Namens aus. Wählt die angegebene Vignettengruppe anhand des Namens aus und Beginn ein neues MSS.
+description: Wählen Sie das Objekt anhand des Namens aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
 solution: Experience Manager
 title: obj
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 17387203-f7a7-4876-a15b-2084894f981d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 4%
 
 ---
 
-
 # obj{#obj}
 
-Wählen Sie das Objekt anhand des Namens aus. Wählt die angegebene Vignettengruppe anhand des Namens aus und Beginn ein neues MSS.
+Wählen Sie das Objekt anhand des Namens aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
 
 ` obj= *`name`*`
 
@@ -26,9 +25,9 @@ Wählen Sie das Objekt anhand des Namens aus. Wählt die angegebene Vignettengru
  </tr> 
 </table>
 
-Untergruppen oder einzelne Objekte können mithilfe eines vollständig qualifizierten Gruppenpfads ausgewählt werden (d. h. durch Angabe des Namens der Zielpopulation oder des Objekts, dem alle übergeordneten Gruppen vorangestellt sind, getrennt durch / (Schrägstriche).
+Untergruppen oder einzelne Objekte können über einen vollständig qualifizierten Gruppenpfad ausgewählt werden (d. h. durch Angabe des Namens der Zielgruppe oder des Objekts, dem alle übergeordneten Gruppen vorangestellt sind, getrennt durch / (Schrägstriche).
 
-Wenn keine Gruppe/kein Objekt mit dem angegebenen Namen gefunden wird, wird die unter `attribute::OnObjFail` angegebene Aktion ausgeführt.
+Wenn keine Gruppe/kein Objekt mit dem angegebenen Namen gefunden wird, wird die in `attribute::OnObjFail` angegebene Aktion ausgeführt.
 
 ## Eigenschaften {#section-9463b36e8ff74c81a70c7c2b58927430}
 
