@@ -2,16 +2,15 @@
 description: FlyoutZoomView.highlightmode
 solution: Experience Manager
 title: FlyoutZoomView.highlightmode
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+role: Developer,User
+exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
-
 
 # FlyoutZoomView.highlightmode{#flyoutzoomview-highlightmode}
 
@@ -21,15 +20,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> highlight|cursor  </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Typ des zu verwendenden Navigationsrahmens an. Bei Einstellung auf <span class="codeph"> Cursor </span> verwendet die Komponente einen Referenz-Cursor fester Größe. Es ist möglich, verschiedene Cursorgrafiken für Desktop-Systeme und Touch-Geräte zu haben, diese werden mit <span class="codeph"> .s7cursor </span> CSS-Klasse und <span class="codeph"> input=mouse|touch </span> Attributauswahl gesteuert. Auf Desktop-Systemen wird ein Ankerpunkt in der Mitte des Cursorbereichs gesetzt, während sich der Anker auf den Touchgeräten in der unteren Mitte des Cursors befindet. Bei Einstellung auf <span class="codeph"> Hervorhebung </span> verwendet die Komponente einen Navigationsrahmen variabler Größe. Die Größe und Form des Rahmens hängen vom Zoomfaktor und der Größe der Flyout-Ansicht ab. </p> </td> 
+   <td colname="col2"> <p> Gibt den Typ des zu verwendenden Navigationsrahmens an. Wenn die Komponente auf <span class="codeph"> Cursor </span> gesetzt ist, verwendet sie einen Referenz-Cursor fester Größe. Es ist möglich, verschiedene Cursorgrafiken für Desktop-Systeme und Touch-Geräte zu verwenden. Dies wird mit der <span class="codeph"> .s7cursor </span> CSS-Klasse und der <span class="codeph"> input=mouse|touch </span> -Attributauswahl gesteuert. Auf Desktop-Systemen wird ein Ankerpunkt in der Mitte des Cursor-Bereichs festgelegt, während sich der Anker auf Touch-Geräten in der unteren Mitte des Cursors befindet. Wenn <span class="codeph"> die Markierung </span> festgelegt ist, verwendet die Komponente einen Navigationsrahmen mit variabler Größe. Größe und Form des Rahmens hängen vom Zoomfaktor und der Größe der Flyout-Ansicht ab. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Legt die Zeit (in Sekunden) fest, die es dauert, bis die Markierung oder der Cursor eingeblendet wird, nachdem sie vom Benutzer aktiviert wurde. "Einblenden"wird nur auf Touch-Geräte angewendet. auf Desktop-Systemen wird sie von der Komponente ignoriert. </p> <p>Einblenden gilt für die folgenden UI-Elemente: Markierungsrahmen, fester Cursor, Überlagerung (in dem Fall <span class="codeph"> Überlagerung </span> auf <span class="codeph"> 1 </span> eingestellt ist). Die Flyout-Ansicht-Animation beginnt erst, nachdem die Hervorhebung/der Cursor in der Animation ausgeblendet wurde. Es gibt keine Animation zum Ausblenden. Wenn der Benutzer das Flyout deaktiviert, werden die entsprechenden Elemente der Benutzeroberfläche (Cursor, Hervorhebung und Überlagerung) sofort ausgeblendet. </p> </td> 
+   <td colname="col2"> <p> Legt die Zeit (in Sekunden) fest, in der die Hervorhebung oder der Cursor nach der Aktivierung durch den Benutzer ausgeblendet werden muss. "Einblenden"wird nur auf Touch-Geräten angewendet; auf Desktop-Systemen wird sie von der Komponente ignoriert. </p> <p>Die Einblendung gilt für die folgenden Elemente der Benutzeroberfläche: Markierungsrahmen, fester Cursor, Überlagerung (in dem Fall, dass der Parameter <span class="codeph"> für die Überlagerung </span> auf <span class="codeph"> 1 </span> gesetzt ist). Die Animation der Flyout-Ansicht beginnt erst, nachdem das Hervorheben/Verbergen der Animation abgeschlossen ist. Es gibt keine verblassende Animation. Wenn der Benutzer den Flyout deaktiviert, werden die entsprechenden Elemente der Benutzeroberfläche (Cursor, Hervorheben und Überlagern) sofort ausgeblendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free  </span> </p> </td> 
-   <td colname="col2"> <p> Steuert die Positionierung des Navigationsrahmens. </p> <p>Wenn auf <span class="codeph"> auf ein Bild </span> gesetzt, kann der Navigationsrahmen nur innerhalb des eigentlichen Bildbereichs innerhalb der Haupt-Ansicht positioniert werden. </p> <p>Bei Festlegung auf <span class="codeph"> free </span> kann ein Benutzer den Navigationsrahmen an eine beliebige Stelle im Bereich der logischen Hauptversion verschieben, auch außerhalb des Bildinhalts. </p> </td> 
+   <td colname="col2"> <p> Steuert die Positionierung des Navigationsrahmens. </p> <p>Wenn auf <span class="codeph"> für Bild </span> gesetzt, kann der Navigationsrahmen nur innerhalb des tatsächlichen Bildbereichs in der Hauptansicht positioniert werden. </p> <p>Wenn auf <span class="codeph"> free </span> gesetzt, kann ein Benutzer den Navigationsrahmen an eine beliebige Stelle im logischen Hauptansichtsbereich verschieben, auch außerhalb des Bildinhalts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
