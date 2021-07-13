@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für Video Viewer.
+description: Konfigurationsattribut für Video-Viewer.
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
-
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Konfigurationsattribut für Video Viewer.
+Konfigurationsattribut für Video-Viewer.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Legt den Stummmodus für die Videowiedergabe beim ersten Laden fest. Ist der Wert auf <span class="codeph"> 1 </span> eingestellt, wird das Volumen stummgeschaltet. Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten ermöglicht das Stummschalten der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos. </p> </td> 
+   <td colname="col2"> <p> Legt den stummschalteten Modus für die Videowiedergabe beim ersten Laden fest. Wenn auf <span class="codeph"> 1 </span> gesetzt, wird das Volumen stummgeschaltet. Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten kann das Mutation der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos ermöglichen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
