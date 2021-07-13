@@ -3,15 +3,14 @@ description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1cc46e3d-c9c7-4946-b957-ba4eff20dee0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
-
 
 # FavoritesView.align{#favoritesview-align}
 
@@ -20,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right, top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Miniaturansichten-Containers im Komponentenbereich an. </p> <p>In FavoritenView wird der Container für die interne Miniaturansicht so angepasst, dass nur eine ganze Anzahl von Miniaturbildern angezeigt wird. Das führt dazu, dass zwischen dem internen Container und den externen Komponentengrenzen eine gewisse Auffüllung besteht. </p> <p>Dieser Modifikator gibt an, wie der Container für interne Miniaturansichten horizontal in der Komponente positioniert wird. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
+   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. </p> <p>In FavoritenView wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. </p> <p>Dieser Modifikator gibt an, wie der interne Miniaturansichtsbehälter horizontal innerhalb der Komponente positioniert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
