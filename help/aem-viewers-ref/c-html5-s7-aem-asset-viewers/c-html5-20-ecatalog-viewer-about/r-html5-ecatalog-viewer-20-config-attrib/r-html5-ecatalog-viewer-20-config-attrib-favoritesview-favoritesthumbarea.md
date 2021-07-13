@@ -3,15 +3,14 @@ description: FavoritesView.favoritesThumbView
 solution: Experience Manager
 title: FavoritesView.favoritesThumbView
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
-
 
 # FavoritesView.favoritesThumbView{#favoritesview-favoritesthumbview}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Gebiet</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Beschneidungsbereich für die Favoritenminiatur an. Wird als relativer Wert zur Gesamtbildgröße angegeben, wobei der Bereich zwischen <span class="codeph"> 0</span> und <span class="codeph"> 1.0</span> liegt. </p> <p>Der Wert <span class="codeph"> 1</span> bedeutet, dass das gesamte Bild für die Miniaturansicht verwendet wird. </p> <p>Der Wert <span class="codeph"> 0.1</span> bedeutet, dass nur 10 % der Bildgröße verwendet werden. </p> </td> 
+   <td colname="col2"> <p> Gibt den Zuschnittbereich für die Miniaturansicht "Favoriten"an. Wird als relativer Wert zur Gesamtbildgröße ausgedrückt, mit einem Bereich von <span class="codeph"> 0</span> bis <span class="codeph"> 1,0</span>. </p> <p>Der Wert <span class="codeph"> 1</span> bedeutet, dass das gesamte Bild-Bild für die Miniaturansicht verwendet wird. </p> <p>Der Wert <span class="codeph"> 0.1</span> bedeutet, dass nur 10 % der Rahmengröße verwendet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
