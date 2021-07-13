@@ -1,21 +1,20 @@
 ---
-description: Der Viewer zeigt Favoritensymbole über der Haupt-Ansicht an den Stellen an, an denen sie ursprünglich vom Benutzer hinzugefügt wurden.
+description: Der Viewer zeigt Favoriten-Symbole über der Hauptansicht an den Stellen an, an denen sie ursprünglich vom Benutzer hinzugefügt wurde.
 solution: Experience Manager
-title: Favoriten, Effekt
+title: Favoriteneffekt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7603c873-a2d1-4a24-85a6-8e56a1f207de
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
 
-
 # Favoriteneffekt{#favorites-effect}
 
-Der Viewer zeigt Favoritensymbole über der Haupt-Ansicht an den Stellen an, an denen sie ursprünglich vom Benutzer hinzugefügt wurden.
+Der Viewer zeigt Favoriten-Symbole über der Hauptansicht an den Stellen an, an denen sie ursprünglich vom Benutzer hinzugefügt wurde.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +34,7 @@ Das Erscheinungsbild des Favoritensymbols wird mit der folgenden CSS-Klassenausw
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ Das Erscheinungsbild des Favoritensymbols wird mit der folgenden CSS-Klassenausw
  </tbody> 
 </table>
 
-Beispiel: Richten Sie ein Favoritensymbol mit 36 x 36 Pixeln ein.
+Beispiel: Richten Sie ein Favoritensymbol mit 36 x 36 Pixel ein.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon { 
@@ -58,7 +57,7 @@ Beispiel: Richten Sie ein Favoritensymbol mit 36 x 36 Pixeln ein.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype`, die Sie auf die Klasse `.s7favoriteseffect` anwenden können, und steuert den Cursortyp basierend auf der ausgewählten Benutzeraktion. Die folgenden `cursortype`-Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die Sie auf die Klasse `.s7favoriteseffect` anwenden und den Typ des Cursors basierend auf der ausgewählten Benutzeraktion steuern können. Die folgenden `cursortype` -Werte werden unterstützt:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -68,16 +67,16 @@ Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
-   <td colname="col2"> <p>Der angezeigte Benutzer entfernt ein vorhandenes Favoritensymbol. </p> </td> 
+   <td colname="col2"> <p>Angezeigte Benutzer entfernt ein vorhandenes Favoritensymbol. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_Ansicht  </span> </p> </td> 
-   <td colname="col2"> <p>Wird im normalen Betriebsmodus angezeigt, wenn die Bearbeitung der Favoriten nicht aktiv ist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
+   <td colname="col2"> <p>Wird im normalen Betriebsmodus angezeigt, wenn die Favoritenbearbeitung nicht aktiv ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Sie haben unterschiedliche Mauszeiger für jeden Typ des Komponentenstatus.
+Beispiel: Für jeden Komponententyp gibt es unterschiedliche Mauszeiger.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect[cursortype="mode_add"] { 
@@ -90,4 +89,3 @@ cursor: not-allowed;
 cursor: auto; 
 }
 ```
-
