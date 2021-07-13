@@ -1,31 +1,30 @@
 ---
-description: Die Ansicht "Favoriten"besteht aus einer Spalte mit Miniaturbildern.
+description: Die Favoritenansicht besteht aus einer Spalte mit Miniaturbildern.
 solution: Experience Manager
-title: Favoriten-Ansicht
+title: Favoritenansicht
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
 
+# Favoritenansicht{#favorites-view}
 
-# Favoriten-Ansicht{#favorites-view}
-
-Die Ansicht &quot;Favoriten&quot;besteht aus einer Spalte mit Miniaturbildern.
+Die Favoritenansicht besteht aus einer Spalte mit Miniaturbildern.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-Das Erscheinungsbild des Containers der Favoriten-Ansicht wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Favoriten-Ansichtscontainers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-Die Position und Höhe der Favoriten-Ansicht wird von der Ansicht verwaltet; in CSS ist es nur möglich, die Breite zu definieren.
+Die Position und Höhe der Favoriten-Ansicht werden von der Ansicht verwaltet. in CSS ist es nur möglich, die Breite zu definieren.
 
 **CSS-Eigenschaften der Favoriten-Ansicht**
 
@@ -42,7 +41,7 @@ Die Position und Höhe der Favoriten-Ansicht wird von der Ansicht verwaltet; in 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Favoriten-Ansicht mit einer Breite von 100 Pixeln und einem halbtransparenten grauen Hintergrund.
+Beispiel: Zum Einrichten einer Favoriten-Ansicht mit einer Breite von 100 Pixel und einem halbtransparenten grauen Hintergrund.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -51,7 +50,7 @@ Beispiel: Zum Einrichten einer Favoriten-Ansicht mit einer Breite von 100 Pixeln
 }
 ```
 
-Der Abstand zwischen den Favoriten-Miniaturbildern wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Abstand zwischen Favoriten-Miniaturansichten wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell
@@ -63,7 +62,7 @@ Der Abstand zwischen den Favoriten-Miniaturbildern wird mit der folgenden CSS-Kl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche Abstand zwischen den Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des oberen und unteren Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,9 +102,9 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Die Miniaturansicht unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der kürzlich vom Benutzer ausgewählten Miniaturansicht. `state="default"` entspricht dem Rest der Miniaturansichten. Und `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansichten unterstützen den Attributselektor `state`, der verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht, die der Benutzer kürzlich ausgewählt hat. `state="default"` entspricht dem Rest der Miniaturansichten. Und `state="over"` wird beim Bewegen der Maus verwendet.
 
-Beispiel: Zum Einrichten von Miniaturbildern mit 75 x 75 Pixel, einem hellgrauen Standardrand und einem dunkelgrauen ausgewählten Rand.
+Beispiel: Zum Einrichten von Miniaturansichten mit 75 x 75 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen Rahmen.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -120,28 +119,28 @@ Beispiel: Zum Einrichten von Miniaturbildern mit 75 x 75 Pixel, einem hellgrauen
 }
 ```
 
-Die Darstellung der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label
 ```
 
-**CSS-Eigenschaften der Favoritenbeschriftung**
+**CSS-Eigenschaften der Bezeichnung &quot;Favoriten&quot;**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-famiy  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Beschriftungen mit einer Helvetica-Schrift von 14 Pixel.
+Beispiel - zum Einrichten von Bezeichnungen mit einer Helvetica-Schrift von 14 Pixel.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 
@@ -149,4 +148,3 @@ Beispiel: Zum Einrichten von Beschriftungen mit einer Helvetica-Schrift von 14 P
  font-size: 14px; 
 }
 ```
-
