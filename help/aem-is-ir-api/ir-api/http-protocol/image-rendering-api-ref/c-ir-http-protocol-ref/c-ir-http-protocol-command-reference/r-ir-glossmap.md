@@ -1,50 +1,49 @@
 ---
-description: Glanz-Map-Bild. Ermöglicht eine Pixel-für-Pixel-Steuerung des Glanzlichts einer wiederholbaren Textur, eines Hintergrundbilds/Randes oder eines Dezimalbereichs.
+description: Gloss-Map-Bild. Ermöglicht die pixelweise Steuerung des Glanzes einer wiederholbaren Textur, eines Hintergrundbilds/einer Hintergrundfarbe oder eines Decals.
 solution: Experience Manager
 title: glossmap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 922fc527-be19-4d7a-b265-7bdb1de80990
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
 
-
 # glossmap{#glossmap}
 
-Glanz-Map-Bild. Ermöglicht eine Pixel-für-Pixel-Steuerung des Glanzlichts einer wiederholbaren Textur, eines Hintergrundbilds/Randes oder eines Dezimalbereichs.
+Gloss-Map-Bild. Ermöglicht die pixelweise Steuerung des Glanzes einer wiederholbaren Textur, eines Hintergrundbilds/einer Hintergrundfarbe oder eines Decals.
 
 `glossmap={ *``*| *`glossMapFileEmbeddedReq`*}`
 
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">&amp;blbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'  </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'  </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 
-  <td class="stentry"> <p>Glänzende Imagemap-Bilddatei (Graustufen). </p></td> 
+  <td class="stentry"> <p>Gloss-Map-Bilddatei (Graustufen). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span> </span> </p></td> 
-  <td class="stentry"> <p>Anforderung an den Image-Server. </p></td> 
+  <td class="stentry"> <p>Anforderung an Image-Server. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> ForeignReq  </span> </span> </p></td> 
-  <td class="stentry"> <p>Anforderung an einen ausländischen Server. </p></td> 
+  <td class="stentry"> <p>Anfrage an einen ausländischen Server. </p></td> 
  </tr> 
 </table>
 
-Gilt für Materialien wie metallische Lackeffekte, gestanzte Folienhintergründe und Rahmen, metallische Gewebe usw.
+Gilt für Materialien wie metallische Farbeffekte, gestrichelte Folienhintergrund und Rahmen, metallische Fässer und so weiter.
 
-Das Bild für die Gloss-Map muss 8-Bit-Graustufen aufweisen und dieselbe Größe haben wie das mit `src=` angegebene primäre Bild. Weitere Informationen finden Sie in der Beschreibung von [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca).
+Das Glossardiagramm muss 8-Bit-Graustufen aufweisen und genau die Größe des mit `src=` angegebenen Primärbilds aufweisen. Weitere Informationen finden Sie in der Beschreibung von [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) .
 
 ## Eigenschaften {#section-26375672d69849be9b026cc93c3bc558}
 
-Materialattribut. Unterstützt durch wiederholbare Texturen, Hintergrundbilder, Rahmen und Dekore. Durch feste Farbe, Schrank und Fensterbedeckungsmaterialien ignoriert. Weitere Informationen finden Sie unter [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca).
+Materialattribut. Unterstützt durch wiederholbare Texturen, Wallpaper, Rahmen und Decals. Ignoriert von Materialien mit fester Farbe, Schrank und Fensterbezug. Weitere Informationen finden Sie unter [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) .
 
 ## Standard {#section-d9ac031fb2f94482ac3fe2283d7cb168}
 
