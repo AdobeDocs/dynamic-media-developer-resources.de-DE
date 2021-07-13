@@ -1,21 +1,20 @@
 ---
-description: Gesamte Stream-Bitrate. Ein langer Wert, der die gesamte Stream-Bitrate für das Video-Asset darstellt.
+description: Gesamte Stream-Bitrate. Long-Wert, der die gesamte Stream-Bitrate für das Video-Asset darstellt.
 solution: Experience Manager
 title: TotalStreamBitRate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 476da561-e067-49ec-aefc-eda11c35b814
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
-
 # TotalStreamBitRate{#totalstreambitrate}
 
-Gesamte Stream-Bitrate. Ein langer Wert, der die gesamte Stream-Bitrate für das Video-Asset darstellt.
+Gesamte Stream-Bitrate. Long-Wert, der die gesamte Stream-Bitrate für das Video-Asset darstellt.
 
 Wird von `req=set`- und `req=mbrSet`Anforderungen zum Exportieren von Bitratendaten verwendet.
 
