@@ -1,21 +1,20 @@
 ---
-description: JavaScript-API-Referenz für Video-Bild-Viewer.
+description: JavaScript-API-Referenz für Video Image Viewer.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Interaktive Bilder
+role: Developer,User
 exl-id: e5f88bc9-a880-45eb-9554-57e185937d29
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---
 
 # setAsset{#setasset}
 
-JavaScript-API-Referenz für Video-Bild-Viewer.
+JavaScript-API-Referenz für Video Image Viewer.
 
 ` setAsset( *`asset`*)`
 
@@ -32,13 +31,13 @@ Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-ima
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Einzelbild-Referenz:
+Einzelbildreferenz:
 
 ```
 <instance>.setAsset("/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.jpg")
