@@ -2,13 +2,12 @@
 description: JavaScript-API-Referenz für Karussell-Viewer.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: 32636cf9-3dc7-4299-a7b7-cf803ca36514
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 3%
 
 ---
@@ -19,7 +18,7 @@ JavaScript-API-Referenz für Karussell-Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Legt die ID des DOM-Containers (normalerweise ein `DIV`) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Container-Element zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Es muss vor `init()` aufgerufen werden.
+Legt die Kennung des DOM-Containers (normalerweise ein `DIV`) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Sie muss vor `init()` aufgerufen werden.
 
 Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
@@ -29,12 +28,12 @@ Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> ID des Containers. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Kennung des Containers. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
