@@ -2,16 +2,15 @@
 description: ZoomView.iconeffect
 solution: Experience Manager
 title: ZoomView.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: faec00b3-b981-4831-bc97-dff442389133
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
-
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
@@ -21,11 +20,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert die Anzeige des IconEffect auf dem oberen Bildrand, wenn das Bild zurückgesetzt wird. Es ist empfehlenswert, eine verfügbare Aktion zur Interaktion mit dem Bild auszuführen. </p> </td> 
+   <td colname="col2"> <p> Aktiviert die Anzeige von IconEffect über dem Bild, wenn das Bild zurückgesetzt ist und eine verfügbare Aktion vorgeschlagen wird, um mit dem Bild zu interagieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie oft IconEffect maximal angezeigt und wieder angezeigt wird. Der Wert <span class="codeph"> -1</span> gibt an, dass das Symbol immer unbegrenzt angezeigt wird. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie oft IconEffect maximal angezeigt und wieder angezeigt wird. Der Wert <span class="codeph"> -1</span> zeigt an, dass das Symbol immer unbegrenzt angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> verblassen</span> </span> </p> </td> 
@@ -33,7 +32,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach Abschluss der Einblendeanimation, aber vor dem Ausblenden der Beginn. Die Einstellung <span class="codeph"> 0</span> deaktiviert das automatische Ausblenden. </p> </td> 
+   <td colname="col2"> <p>Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit, nachdem die Einblendung-Animation abgeschlossen ist, aber bevor die Ausblendung beginnt. Die Einstellung <span class="codeph"> 0</span> deaktiviert das automatische Ausblenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
