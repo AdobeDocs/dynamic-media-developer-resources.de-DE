@@ -3,27 +3,26 @@ description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
-
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`
 
-Steuert die Komponentendarstellung, wenn `PageView.frametransition` auf `turn` oder `auto` auf Desktop-Systemen eingestellt ist.
+Steuert das Erscheinungsbild der Komponente, wenn `PageView.frametransition` auf `turn` oder `auto` auf Desktop-Systemen eingestellt ist.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Breite (in Pixel) des Seitenteilschattens, der die linken und rechten Seiten im Druckbogen trennt. Sie steuert auch die Breite des laufenden Schattens, der neben der Drehseite angezeigt wird. </p> </td> 
+   <td colname="col2"> <p> Die Breite des Seitenspaltenschattens in Pixel, der die linken und rechten Seiten im Druckbogen trennt. Sie steuert auch die Breite des laufenden Shadow, der neben der Drehseite angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
@@ -35,7 +34,7 @@ Steuert die Komponentendarstellung, wenn `PageView.frametransition` auf `turn` o
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> Das Flag (entweder <span class="codeph"> 0</span> oder <span class="codeph"> 1</span>), durch das der Rand um die Seite herum ein- und ausgeschaltet wird. </p> </td> 
+   <td colname="col2"> <p> Die Markierung (entweder <span class="codeph"> 0</span> oder <span class="codeph"> 1</span>), die den Rahmen um die sich drehende Seite ein- und ausschaltet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
@@ -43,7 +42,7 @@ Steuert die Komponentendarstellung, wenn `PageView.frametransition` auf `turn` o
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Farbe der festen Füllung des Komponentenbereichs, der während der Seitenumblätteranimation im RRGGBB-Format verwendet wird. </p> </td> 
+   <td colname="col2"> <p> Die Farbe der durchgehenden Füllung des Komponentenbereichs, der während der Seitenumkehranimation verwendet wird, im RRGGBB-Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
