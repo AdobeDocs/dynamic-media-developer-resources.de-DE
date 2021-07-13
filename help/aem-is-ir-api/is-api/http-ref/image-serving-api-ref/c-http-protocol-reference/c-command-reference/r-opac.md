@@ -1,28 +1,27 @@
 ---
-description: Passen Sie die Bilddeckkraft an. Ermöglicht die Verringerung der Vordergrunddeckkraft eines Bildes, Textes, einer Volltonfarbe oder einer Effektebene.
+description: Passen Sie die Bilddeckkraft an. Ermöglicht die Verringerung der Vordergrunddeckkraft eines Bildes, Textes, einer Vollfarbe oder einer Effektebene.
 solution: Experience Manager
 title: opac
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 2%
 
 ---
 
-
 # opac{#opac}
 
-Passen Sie die Bilddeckkraft an. Ermöglicht die Verringerung der Vordergrunddeckkraft eines Bildes, Textes, einer Volltonfarbe oder einer Effektebene.
+Passen Sie die Bilddeckkraft an. Ermöglicht die Verringerung der Vordergrunddeckkraft eines Bildes, Textes, einer Vollfarbe oder einer Effektebene.
 
 `opac= *``*[, *`opacityfillOpacity`*]`
 
 <table id="simpletable_DA4B5D86C496480886FADB284AD6047F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> Deckkraft</span> </p> </td> 
-  <td class="stentry"> <p>Primär-Deckkraft (0...100 int). </p></td> 
+  <td class="stentry"> <p>Primäre Deckkraft (0...100 int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> fillOpacity</span> </p></td> 
@@ -30,27 +29,27 @@ Passen Sie die Bilddeckkraft an. Ermöglicht die Verringerung der Vordergrunddec
  </tr> 
 </table>
 
-Die Vordergrunddeckkraft einer Bildebene wird durch die Ebenenmaske oder den Alpha-Kanal des Bilds bestimmt oder, wenn keine der beiden vorhanden ist, 100 %. Die Vordergrunddeckkraft einer Textebene beträgt 100 % und die einer Vollfarbenebene wird durch `color=` eingestellt.
+Die Vordergrunddeckkraft einer Bildebene wird durch die Ebenenmaske oder den Alphakanal des Bildes bestimmt oder, wenn keines vorhanden ist, 100 %. Die Vordergrunddeckkraft einer Textebene beträgt 100 %, die einer durchgehenden Farbschicht wird durch `color=` festgelegt.
 
-`opac=` ändert die Deckkraft von Bereichen, die mit  `color=` oder  `bgColor=`mit Ausnahme der Vordergrundbereiche von Volltonfarben- und Effektebenen (mit  `color=`) gefüllt sind, nie.
+`opac=` ändert nie die Deckkraft von Bereichen, die mit  `color=` oder  `bgColor=`, mit Ausnahme der Vordergrundbereiche von festen Farbe und Effektschichten (mit  `color=`) gefüllt sind.
 
-Wenn dies in einer Bild-, Text- oder Vollfarbenebene angegeben ist, wendet *`opacity`* die gesamte Ebene einschließlich aller zugehörigen Effektebenen an, während *`fillOpacity`* nur für den Inhalt der primären Ebene gilt. Wenn in einer Effektebene angegeben, wird *`opacity`* auf die Effektebene angewendet, während *`fillOpacity`* ignoriert wird.
+Wenn dies in einer Bild-, Text- oder einfarbigen Farbschicht angegeben ist, wendet *`opacity`* die gesamte Ebene einschließlich aller zugehörigen Effektebenen an, während *`fillOpacity`* nur für den Inhalt der primären Ebene gilt. Wenn in einer Effektebene angegeben, gilt *`opacity`* für die Effektebene, während *`fillOpacity`* ignoriert wird.
 
-Die effektive Deckkraft für den Inhalt der Hauptschicht ist ( *`opacity`* * *`fillOpacity`* / 100). Die effektive Deckkraft für Effektebenen ist (Haupt *`opacity`* * Effekt *`opacity`* / 100).
+Die effektive Deckkraft für den Inhalt der Hauptschicht ist ( *`opacity`* * *`fillOpacity`* / 100). Die effektive Deckkraft für Effektschichten ist (main *`opacity`* * Effect *`opacity`* / 100).
 
 ## Eigenschaften {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`.
+Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`
 
 ## Standard {#section-abba67ed028049048ae43405ea69b164}
 
-`opac=100,100`, damit sich die Deckkraft der Ebene nicht ändert.
+`opac=100,100`, um die Deckkraft der Schicht nicht zu ändern.
 
 ## Beispiel {#section-9710810e96af40538652e8ae4aadd3be}
 
 ... `&layer=1&text=variable%20opacity&opac=90,70&effect=-1&opac=50&`...
 
-Die Texttrübung in diesem Beispiel beträgt 90*70/100=63% und die Effekteschichtdeckkraft 90*50/100=45%.
+Die Textdeckkraft in diesem Beispiel beträgt 90*70/100=63% und die Deckkraft der Effekteschicht beträgt 90*50/100=45%.
 
 ## Verwandte Themen {#section-dbdad35ccd544590b4b11d31a9ab062e}
 
