@@ -1,23 +1,22 @@
 ---
-description: Wenn Text als Antwortformat angegeben wird, werden die Antwortdaten als Java-Eigenschaften lesbar formatiert.
+description: Wenn Text als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als Java-Eigenschaften lesbar sind.
 solution: Experience Manager
-title: Eigenschaften von Text (Java)
+title: Texteigenschaften (Java)
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 46f5dbc8-fbdc-4204-a6a0-60f34378c3e1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-
 # Texteigenschaften (Java){#text-java-properties}
 
-Wenn Text als Antwortformat angegeben wird, werden die Antwortdaten als Java-Eigenschaften lesbar formatiert.
+Wenn Text als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als Java-Eigenschaften lesbar sind.
 
-Eine typische Antwort auf Texteigenschaften hat folgende allgemeine Struktur:
+Eine typische Antwort mit den Texteigenschaften hat diese allgemeine Struktur:
 
 ```
 #S7Z OK
@@ -34,6 +33,6 @@ Eine typische Antwort auf Texteigenschaften hat folgende allgemeine Struktur:
 ...
 ```
 
-*`propertyValue`* darf leer sein. Leerzeichen sind optional am Anfang und am Ende jeder Zeile und vor und nach dem Trennzeichen =. Ein- oder Dublette-Anführungszeichen können zum Umschließen von Zeichenfolgenwerten verwendet werden, sind jedoch nicht erforderlich.
+*`propertyValue`* kann leer sein. Leerzeichen sind am Anfang und Ende jeder Zeile sowie vor und nach dem Trennzeichen = optional. Einfache oder doppelte Anführungszeichen können zum Umschließen von Zeichenfolgenwerten verwendet werden, sind jedoch nicht erforderlich.
 
 Zeichenfolgenwerte können Escape-Zeichen im JAVA-Stil enthalten, z. B. `\n`, `\t`, `\:` oder `\\`.
