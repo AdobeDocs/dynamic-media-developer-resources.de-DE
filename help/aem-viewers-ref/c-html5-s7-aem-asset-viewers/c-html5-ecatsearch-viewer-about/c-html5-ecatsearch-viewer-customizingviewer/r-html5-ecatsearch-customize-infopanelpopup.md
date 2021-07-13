@@ -1,23 +1,22 @@
 ---
-description: Popup für Infofelder wird mitten im Viewer angezeigt, wenn ein Benutzer eine Imagemap aktiviert, deren Eigenschaft rollover_key in Dynamic Media Classic definiert ist, und wenn die Funktion für das Infofeld für den Viewer ordnungsgemäß konfiguriert ist.
+description: Popup für Info-Bedienfeld wird in der Mitte des Viewer-Bereichs angezeigt, wenn ein Benutzer eine Imagemap aktiviert, für die in Dynamic Media Classic eine Eigenschaft rollover_key definiert ist, und wenn die Funktion für das Infofeld für den Viewer ordnungsgemäß konfiguriert ist.
 solution: Experience Manager
-title: Popup im Infofeld
+title: Popup für Infobereich
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 2%
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
+# Popup für Infobereich{#info-panel-popup}
 
-# Infofeld-Popup{#info-panel-popup}
+Popup für Info-Bedienfeld wird in der Mitte des Viewer-Bereichs angezeigt, wenn ein Benutzer eine Imagemap aktiviert, für die in Dynamic Media Classic eine Eigenschaft rollover_key definiert ist, und wenn die Funktion für das Infofeld für den Viewer ordnungsgemäß konfiguriert ist.
 
-Popup für Infofelder wird mitten im Viewer angezeigt, wenn ein Benutzer eine Imagemap aktiviert, deren Eigenschaft rollover_key in Dynamic Media Classic definiert ist, und wenn die Funktion für das Infofeld für den Viewer ordnungsgemäß konfiguriert ist.
-
-Der Hintergrund des Infofelds deckt den gesamten Viewer-Bereich ab und wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Hintergrund des Infobereichs umfasst den gesamten Viewer-Bereich und wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay`
 
@@ -31,16 +30,16 @@ Der Hintergrund des Infofelds deckt den gesamten Viewer-Bereich ab und wird mit 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfüllung im Infofeld. </p> </td> 
+   <td colname="col2"> <p>Hintergrundfüllung des Infofelds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie das Infofeld-Popup auf einen halbtransparenten schwarzen Hintergrund ein.
+Beispiel: Richten Sie das Infofeld-Popup ein, um einen halbtransparenten schwarzen Hintergrund zu verwenden.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay { 
@@ -48,7 +47,7 @@ Beispiel: Richten Sie das Infofeld-Popup auf einen halbtransparenten schwarzen H
 }
 ```
 
-Das Infofeld-Dialogfeld wird standardmäßig in der Mitte des Viewer-Bereichs angezeigt. Sie können jedoch Größe, Ausrichtung, Hintergrund und Rand mit der CSS-Klassenauswahl steuern.
+Das Dialogfeld &quot;Infobereich&quot;wird standardmäßig in der Mitte des Viewer-Bereichs angezeigt. Es ist jedoch möglich, Größe, Ausrichtung, Hintergrund und Rahmen mit dem CSS-Klassenselektor zu steuern.
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7overlay`
 
@@ -70,7 +69,7 @@ Das Infofeld-Dialogfeld wird standardmäßig in der Mitte des Viewer-Bereichs an
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Dialogbreite </p> </td> 
+   <td colname="col2"> <p>Dialogfeldbreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -78,15 +77,15 @@ Das Infofeld-Dialogfeld wird standardmäßig in der Mitte des Viewer-Bereichs an
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p>Der linke Rand des Infofeld-Dialogfelds kann für die Zentrierung verwendet werden. </p> </td> 
+   <td colname="col2"> <p>Der linke Rand des Infofeld-Dialogfelds kann zu zentrierenden Zwecken verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p>Oberer Rand des Infofeld-Dialogfelds, kann für zentrierende Zwecke verwendet werden. </p> </td> 
+   <td colname="col2"> <p>Der obere Rand des Infofeld-Dialogfelds kann zu zentrierenden Zwecken verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Interne Dialogfüllung. </p> </td> 
+   <td colname="col2"> <p>Interner Abstand im Dialogfeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -94,16 +93,16 @@ Das Infofeld-Dialogfeld wird standardmäßig in der Mitte des Viewer-Bereichs an
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p>Rahmenradius des Dialogfelds. </p> </td> 
+   <td colname="col2"> <p>Dialogfeldradius. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
-   <td colname="col2"> <p>Dialog-Schatten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
+   <td colname="col2"> <p>Dialogschatten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie ein Infofeld-Dialogfeld mit 300 x 200 Pixeln ein, das im Viewer-Bereich zentriert ist. oben mit 40 Pixel aufgefüllt und an allen anderen Seiten mit 10 Pixel aufgefüllt, ein hellgrauer Hintergrund sowie ein Rahmenradius und ein Schlagschatten mit 10 Pixel.
+Beispiel: Einrichten des Infofelddialogfelds mit 300 x 200 Pixel, das im Viewer-Bereich zentriert ist; hat oben einen Abstand von 40 Pixel und auf allen anderen Seiten einen Abstand von 10 Pixel, einen hellgrauen Hintergrund sowie einen Rahmenradius von 10 Pixel und einen Schlagschatten.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -123,7 +122,7 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 ```
 
-Das Dialogfeld &quot;Infofeld&quot;hat eine Schaltfläche zum Schließen. Durch Klicken oder Tippen auf die Schaltfläche wird das Dialogfeld geschlossen.
+Das Dialogfeld &quot;Info Panel&quot;verfügt über eine Schaltfläche zum Schließen. Durch Klicken oder Tippen auf die Schaltfläche wird das Dialogfeld geschlossen.
 
 Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -167,7 +166,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,9 +175,9 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 >
 >Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf verschiedene Schaltflächenzustände anwenden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Um eine Schaltfläche zum Schließen des Dialogfelds einzurichten, die 28 x 28 Pixel groß ist, 5 Pixel vom oberen und rechten Rand des Infofelddialogfelds entfernt und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt.
+Beispiel: Um eine Schaltfläche zum Schließen eines Dialogfelds einzurichten, die 28 x 28 Pixel groß ist, 5 Pixel von der oberen und rechten Kante des Infofeld-Dialogfelds entfernt ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus anzeigt.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton { 
@@ -200,4 +199,3 @@ background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png);
 background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png); 
 }
 ```
-
