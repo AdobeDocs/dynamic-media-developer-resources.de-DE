@@ -1,21 +1,20 @@
 ---
-description: Der Hauptbereich der Ansicht ist vom Video belegt. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
+description: Der Hauptansichtsbereich wird durch das Video belegt. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 solution: Experience Manager
-title: Hauptbereich des Viewers
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Hauptanzeige-Bereich
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
 
+# Hauptanzeige-Bereich{#main-viewer-area}
 
-# Hauptviewer-Bereich{#main-viewer-area}
-
-Der Hauptbereich der Ansicht ist vom Video belegt. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich wird durch das Video belegt. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -39,14 +38,14 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Anzeigebereich
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-So richten Sie einen Video-Viewer mit einem weißen Hintergrund (#FFFFFF) ein und passen die Größe 512 x 288 Pixel an:
+So richten Sie einen Video-Viewer mit weißem Hintergrund (#FFFFFF) ein und machen seine Größe 512 x 288 Pixel groß:
 
 ```
 .s7videoviewer { 
@@ -55,4 +54,3 @@ So richten Sie einen Video-Viewer mit einem weißen Hintergrund (#FFFFFF) ein un
  height: 288px;  
 }
 ```
-
