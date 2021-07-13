@@ -1,21 +1,20 @@
 ---
-description: Breite des Antwortbilds. Gibt die Skalierung des gerenderten Bildes an, sodass das Antwortbild nicht größer als der angegebene Wert ist, wobei das Seitenverhältnis des Bilds beibehalten wird.
+description: Replizieren Sie die Bildbreite. Gibt die Skalierung des gerenderten Bildes an, sodass das Antwortbild nicht größer als der angegebene Wert ist, während das Seitenverhältnis des Bildes beibehalten wird.
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: a77b71c3-8600-4d7a-ba52-e158cf9668eb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
 
-
 # wid{#wid}
 
-Breite des Antwortbilds. Gibt die Skalierung des gerenderten Bildes an, sodass das Antwortbild nicht größer als der angegebene Wert ist, wobei das Seitenverhältnis des Bilds beibehalten wird.
+Replizieren Sie die Bildbreite. Gibt die Skalierung des gerenderten Bildes an, sodass das Antwortbild nicht größer als der angegebene Wert ist, während das Seitenverhältnis des Bildes beibehalten wird.
 
 `wid= *`val`*`
 
@@ -26,11 +25,11 @@ Breite des Antwortbilds. Gibt die Skalierung des gerenderten Bildes an, sodass d
  </tr> 
 </table>
 
-Das Bild wird nicht eingefügt, wenn sowohl `wid=` als auch `hei=` angegeben ist und `wid`/ `hei` sich vom Seitenverhältnis des Bilds unterscheidet.
+Das Bild wird nicht eingefügt, wenn sowohl `wid=` als auch `hei=` angegeben ist und `wid`/ `hei` sich vom Seitenverhältnis des Bildes unterscheidet.
 
-`wid=` und  `hei=` arbeiten Sie zusammen, um die Größe des Bildes zu definieren, das vom Server zurückgegeben wird. Wenn `scl=` nach `wid=` oder `hei=` in der URL kommt, werden diese Befehle abgebrochen und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
+`wid=` und  `hei=` arbeiten zusammen, um die Größe des vom Server zurückgegebenen Bildes zu definieren. Wenn `scl=` nach `wid=` oder `hei=` in der URL kommt, werden diese Befehle abgebrochen und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
 
-Wenn `wid=` oder `hei=` nach `scl=` in der URL eingehen, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
+Wenn `wid=` oder `hei=` in der URL nach `scl=` kommt, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
 
 >[!NOTE]
 >
@@ -38,11 +37,11 @@ Wenn `wid=` oder `hei=` nach `scl=` in der URL eingehen, brechen sie `scl=` ab u
 
 ## Eigenschaften {#section-2d067c6d371748e19cb157684700a49d}
 
-Kann an einer beliebigen Stelle innerhalb der Anforderung auftreten. Wenn Sie die Bildgröße mit `wid=`, `hei=` oder `scl=` ändern, wird der Wert für die Druckauflösung, der im Antwortbild eingebettet ist, nicht geändert. Wird ignoriert, wenn `scl=` nach `wid=` oder `hei=` in der Befehlssequenz auftritt.
+Kann an einer beliebigen Stelle in der Anfrage auftreten. Wenn Sie die Bildgröße mit `wid=`, `hei=` oder `scl=` ändern, wird der im Antwortbild eingebettete Wert für die Druckauflösung nicht geändert. Ignoriert, wenn `scl=` nach `wid=` oder `hei=` in der Befehlssequenz auftritt.
 
 ## Standard {#section-c7c6efa03d864592a3398b6f1de5a0b0}
 
-Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, wird das Antwortbild so skaliert, dass es in die von `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansicht der Vignette.
+Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, wird das Antwortbild so skaliert, dass es in die von `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
 
 ## Verwandte Themen {#section-450dfc12b1d440e2a3172a69d91db51f}
 
