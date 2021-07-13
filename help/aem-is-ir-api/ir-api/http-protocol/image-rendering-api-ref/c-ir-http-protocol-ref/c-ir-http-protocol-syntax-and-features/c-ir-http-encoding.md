@@ -1,25 +1,24 @@
 ---
-description: Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werden, sodass die Wertzeichenfolgen nicht die reservierten Zeichen '=', '&' und '%' enthalten.
+description: Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert sein, sodass die Wertzeichenfolgen die reservierten Zeichen '=', '&' und '%' nicht enthalten.
 solution: Experience Manager
-title: Image Rendering HTTP-Kodierung
+title: Bild-Rendering HTTP-Kodierung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
 
+# Bild-Rendering HTTP-Kodierung{#image-rendering-http-encoding}
 
-# Image Rendering HTTP encoding{#image-rendering-http-encoding}
+Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert sein, sodass die Wertzeichenfolgen die reservierten Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; nicht enthalten.
 
-Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert werden, sodass die Wertzeichenfolgen nicht die reservierten Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; enthalten.
+Andernfalls gelten die standardmäßigen HTTP-Kodierungsregeln. Die HTTP-Spezifikation erfordert die Kodierung der unsicheren Zeichen wie &#39; (Leerzeichen), &#39;&#39; (doppeltes Anführungszeichen), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; und &#39;>&#39; sowie aller Steuerzeichen wie `<return>` und `<tab>`.
 
-Andernfalls gelten Standard-HTTP-Kodierungsregeln. Die HTTP-Spezifikation erfordert die Kodierung der unsicheren Zeichen wie &#39; (Leerzeichen), &#39;&#39;(Dublette-Anführungszeichen), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; und &#39;>&#39; sowie aller Steuerzeichen wie `<return>` und `<tab>`.
-
-**Vorsicht:** Geschweifte Klammern { }, die als Anforderungstrennzeichen verwendet werden, dürfen nicht kodiert werden. Bestimmte E-Mail-Clients kodieren unglücklicherweise geschweifte Klammern in eingebetteter HTTP-Anforderung. Sollte dies ein Problem sein, erlaubt das Image Rendering die Verwendung von Klammern ( ) anstelle von geschweiften Klammern.
+**Vorsicht:** Geschweifte Klammern { }, die als Trennzeichen für Anforderungsverschachtelungen verwendet werden, dürfen nicht kodiert werden. Manche E-Mail-Clients kodieren leider geschweifte Klammern in eingebetteten HTTP-Anforderungen. Sollte dies ein Problem sein, können beim Rendern von Bildern Klammern ( ) anstelle von geschweiften Klammern verwendet werden.
 
 ## Beispiel {#section-3edc5b8ee2354220a281b01722ad337a}
 
