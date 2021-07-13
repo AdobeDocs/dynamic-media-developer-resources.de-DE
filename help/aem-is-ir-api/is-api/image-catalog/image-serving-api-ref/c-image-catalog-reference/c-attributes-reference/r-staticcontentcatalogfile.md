@@ -1,27 +1,26 @@
 ---
-description: Datendateipfade für statischen Inhalt. Gibt die Dateien an, die die statischen Inhaltsdaten für diesen Katalog enthalten.
+description: Datendateipfade für statische Inhaltskataloge. Gibt die Dateien an, die die statischen Inhaltsdaten für diesen Katalog enthalten.
 solution: Experience Manager
 title: StaticContentCatalogFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---
 
-
 # StaticContentCatalogFile{#staticcontentcatalogfile}
 
-Datendateipfade für statischen Inhalt. Gibt die Dateien an, die die statischen Inhaltsdaten für diesen Katalog enthalten.
+Datendateipfade für statische Inhaltskataloge. Gibt die Dateien an, die die statischen Inhaltsdaten für diesen Katalog enthalten.
 
-Datendateien für statische Inhalte werden in der angegebenen Reihenfolge geladen. Wenn derselbe `static::Id`-Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in unterschiedlichen Katalogdateien), hat die letzte Instanz Vorrang.
+Datendateien des statischen Inhaltskatalogs werden in der angegebenen Reihenfolge geladen. Wenn derselbe `static::Id` -Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in unterschiedlichen Katalogdateien), hat die letzte Instanz Vorrang.
 
 ## Eigenschaften {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
-Ein oder mehrere durch Kommas getrennte Textzeichenfolgenwerte. Optional. Jeder Wert muss ein absoluter Dateipfad oder Pfad relativ zum Katalogordner sein.
+Ein oder mehrere Textzeichenwerte, durch Kommas getrennt. Optional. Jeder Wert muss ein absoluter Dateipfad oder Pfad relativ zum Katalogordner sein.
 
 ## Standard {#section-702edfbc00c54fc29e412a3ff99fef2b}
 
