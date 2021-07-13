@@ -3,15 +3,14 @@ description: JavaScript-API-Referenz für den E-Katalog-Viewer.
 solution: Experience Manager
 title: setParams
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cbd7987b-5e47-4ac0-8235-a217e5e6dee9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 1%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -19,7 +18,7 @@ JavaScript-API-Referenz für den E-Katalog-Viewer.
 
 [!DNL ` setParams( *`params`*)`]
 
-Legt einen oder mehrere Parameter auf einen bestimmten Wert fest. Die Methodenargument-Syntax ist mit einer URL-Abfrage identisch. Das heißt, sie repräsentiert Paare des Typs &quot;name=Wert&quot;, die durch [!DNL `&`] getrennt sind. Genau wie in einer Abfrage-Zeichenfolge werden die Namen und Werte in Prozent mit UTF8 kodiert. Bevor Sie [!DNL `init()`] aufrufen, muss dieser Parameter aufgerufen werden.
+Legt einen oder mehrere Parameter auf einen bestimmten Wert fest. Die Methodenargument-Syntax ist mit einer URL-Abfragezeichenfolge identisch. Das heißt, es stellt Name=Wert-Paare dar, getrennt durch [!DNL `&`]. Genau wie in einer Abfragezeichenfolge sind die Namen und Werte mit UTF8 prozentual kodiert. Bevor Sie [!DNL `init()`] aufrufen, muss dieser Parameter aufgerufen werden.
 
 Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt [!DNL `config`] an den Konstruktor übergeben werden.
 
@@ -34,7 +33,7 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-view
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
@@ -43,4 +42,3 @@ Keine.
 ```
 <instance>.setParams("PageView.zoomstep=2,3&PageView.iscommand=op_sharpen%3d1")
 ```
-
