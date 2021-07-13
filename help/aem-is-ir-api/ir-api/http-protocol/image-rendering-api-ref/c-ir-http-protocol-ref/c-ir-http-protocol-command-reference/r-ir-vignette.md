@@ -1,28 +1,27 @@
 ---
-description: Vignettendatei. Gibt die für diese Anforderung zu verwendende Vignette an.
+description: Vignette-Datei. Gibt die Vignette an, die für diese Anforderung verwendet werden soll.
 solution: Experience Manager
 title: Vignette
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 4%
 
 ---
 
-
 # Vignette{#vignette}
 
-Vignettendatei. Gibt die für diese Anforderung zu verwendende Vignette an.
+Vignette-Datei. Gibt die Vignette an, die für diese Anforderung verwendet werden soll.
 
 `vignette=[ *``*/] *``*|[catId/] *`catIdrecIdfile`*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>Materielle Katalog-ID (Übereinstimmung mit <span class="codeph"> Attribut::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Materialkatalog-ID (Übereinstimmung mit <span class="codeph"> Attribut::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
@@ -30,19 +29,19 @@ Vignettendatei. Gibt die für diese Anforderung zu verwendende Vignette an.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> Datei</span> </p></td> 
-  <td class="stentry"> <p>Pfad und Name der relativen Vignettendatei. </p></td> 
+  <td class="stentry"> <p>Relativer Vignettendateipfad und -name. </p></td> 
  </tr> 
 </table>
 
 Sie können entweder einen Vignettenzuordnungseintrag oder eine Vignettendatei angeben. Remote-URLs sind nicht zulässig.
 
-`vignette=` kann als Alternative zur Angabe der Vignette im Anforderungs-URL-Pfad verwendet werden. Wird hauptsächlich zur Angabe von Vignetten über Variablen in Vorlagen verwendet.
+`vignette=` kann als Alternative zur Angabe der Vignette im Anfragepfad-URL verwendet werden. Wird hauptsächlich verwendet, um Vignetten über Variablen in Vorlagen anzugeben.
 
 Wenn *`catId`* nicht angegeben ist, wird der Sitzungskatalog verwendet.
 
 ## Eigenschaften {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 
-Kann an einer beliebigen Stelle innerhalb der Anforderung auftreten. Überschreibt die mit dem Anforderungs-URL-Pfad angegebene Vignette.
+Kann an einer beliebigen Stelle in der Anfrage auftreten. Überschreibt die Vignette, die mit dem Anforderungs-URL-Pfad angegeben wurde.
 
 ## Standard {#section-db0618d48bc84dc8abcc989550349ccc}
 
