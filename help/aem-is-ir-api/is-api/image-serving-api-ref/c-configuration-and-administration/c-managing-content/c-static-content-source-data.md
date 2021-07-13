@@ -1,23 +1,22 @@
 ---
-description: Datendateien mit statischen Inhalten werden nur vom Plattformserver aufgerufen.
+description: Auf statische Inhaltsquellendatendateien kann nur vom Platform Server zugegriffen werden.
 solution: Experience Manager
 title: Statische Inhaltsquellendaten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-
 # Statische Inhaltsquellendaten{#static-content-source-data}
 
-Datendateien mit statischen Inhalten werden nur vom Plattformserver aufgerufen.
+Auf statische Inhaltsquellendatendateien kann nur vom Platform Server zugegriffen werden.
 
-Der Pfad für Datendateien mit statischen Inhalten wird wie folgt aufgelöst:
+Der Pfad für statische Inhaltsdatendateien wird wie folgt aufgelöst:
 
 `PS::staticContent.rootPaths/attribute::StaticContentRootPath/static::Path`
 
@@ -25,6 +24,6 @@ Der Server kombiniert Pfadsegmente von rechts nach links, bis ein absoluter Date
 
 Alle ` *[!DNL rootPath]*`-Segmente können leere, relative oder absolute Pfadsegmente sein.
 
-` *[!DNL catalogPath]*` ist entweder ein absoluter oder ein relativer Dateipfad/Name. *[!DNL requestPath]* muss ein relativer Dateipfad/Name sein.
+` *[!DNL catalogPath]*` ist entweder ein absoluter oder ein relativer Dateipfad/-name. *[!DNL requestPath]* muss ein relativer Dateipfad/Name sein.
 
-Mehrere `PS::staticContent.rootPaths`-Werte können in [!DNL PlatformServer.conf] definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Plattformserver versucht alternative Pfade in der angegebenen Reihenfolge zu verwenden, bis die Datendatei gefunden wurde.
+In [!DNL PlatformServer.conf] können mehrere `PS::staticContent.rootPaths`-Werte definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Platform Server versucht alternative Pfade in der angegebenen Reihenfolge, bis die Datendatei gefunden wird.
