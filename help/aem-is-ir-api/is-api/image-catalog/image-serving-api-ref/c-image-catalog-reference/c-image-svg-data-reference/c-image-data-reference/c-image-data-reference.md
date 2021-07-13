@@ -1,21 +1,20 @@
 ---
-description: In diesem Abschnitt werden die Bilddatenattribute beschrieben.
+description: In diesem Abschnitt werden die Attribute der Bilddaten beschrieben.
 solution: Experience Manager
 title: Bilddatenreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 91454a49-2bb4-46f7-ace9-8e53fbbb4ea5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 22%
+source-wordcount: '45'
+ht-degree: 24%
 
 ---
 
-
 # Bilddatenreferenz{#image-data-reference}
 
-In diesem Abschnitt werden die Bilddatenattribute beschrieben.
+In diesem Abschnitt werden die Attribute der Bilddaten beschrieben.
 
 * [Anker](r-anchor-cat.md)
 * [AssetType](r-assettype-cat.md)
