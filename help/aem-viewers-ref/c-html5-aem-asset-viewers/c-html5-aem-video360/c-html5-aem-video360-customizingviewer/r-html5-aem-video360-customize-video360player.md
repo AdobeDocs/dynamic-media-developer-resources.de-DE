@@ -3,25 +3,24 @@ description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt
 solution: Experience Manager
 title: Video360-Player
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
 
-# Video360 player{#video-player}
+# Video360-Player{#video-player}
 
 Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Rechteckanzeigebereichs des Videoplayers zentriert.
+Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Anzeigebereichs für das Rechteck des Videoplayers zentriert.
 
-Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
 
 ```
 .s7video360viewer .s7video360player
@@ -33,16 +32,16 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht abspielen kann.
+Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht wiedergeben kann.
 
-Siehe [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayer-Größe von 512 x 288 Pixel.
+Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayergröße von 512 x 288 Pixel.
 
 ```
 .s7video360viewer .s7video360player{ 
@@ -52,7 +51,7 @@ background-color: transparent;
 
 <!--<a id="section_5B82913FF3C44B7B8187969CB15E9560"></a>-->
 
-Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7video360viewer .s7video360player .s7waiticon
@@ -78,11 +77,11 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbol links, normalerweise minus die Hälfte der Breite des Symbols. </p> </td> 
+   <td colname="col2"> <p> Animationssymbol am linken Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbole am oberen Rand, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
+   <td colname="col2"> <p> Der obere Rand des Animationssymbols, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -91,7 +90,7 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: Um eine Pufferung mit einer Breite von 101 Pixeln und einer Höhe von 29 Pixeln einzurichten, müssen Sie eine Animation mit Pufferung einrichten:
+Beispiel: Zum Einrichten einer Pufferanimation, die 101 Pixel breit und 29 Pixel hoch ist:
 
 ```
 .s7video360viewer .s7video360player .s7waiticon { 
