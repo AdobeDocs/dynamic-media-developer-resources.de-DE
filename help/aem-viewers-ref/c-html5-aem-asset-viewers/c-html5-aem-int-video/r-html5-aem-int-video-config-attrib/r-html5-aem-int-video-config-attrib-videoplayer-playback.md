@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für den interaktiven Video-Viewer.
+description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
 title: VideoPlayer.playback
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: fa49e025-1a46-4be7-ad1e-eda3b31bdc8d
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
 
 # VideoPlayer.playback{#videoplayer-playback}
 
-Konfigurationsattribut für den interaktiven Video-Viewer.
+Konfigurationsattribut für interaktiven Video-Viewer.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]playback=auto|progressive`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Legt den Wiedergabetyp fest, der vom Viewer verwendet wird. </p> <p>Wenn <span class="codeph"> auto</span> eingestellt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten das HTML5-Streaming-Video im HLS-Format und kehrt auf bestimmten Systemen wie älteren Internet Explorer- und Android-Systemen zur progressiven HTML5-Wiedergabe zurück. </p> <p>Wenn <span class="codeph"> progressiv</span> eingestellt ist, verwendet der Viewer nur HTML5-Wiedergabe, wie von Browsern nativ unterstützt, und gibt Video progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Auswahl der Wiedergabe in den nativen Modi <span class="codeph"> auto</span> und <span class="codeph"> Progressiv</span> finden Sie im HTML5 Viewers SDK Benutzerhandbuch. </p> </td> 
+   <td colname="col2"> <p> Legt den vom Viewer verwendeten Wiedergabetyp fest. </p> <p>Wenn <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format und greift auf bestimmte Systeme wie älteren Internet Explorer und Android auf die progressive HTML5-Wiedergabe zurück. </p> <p>Wenn <span class="codeph"> progressiv</span> festgelegt ist, verlässt sich der Viewer nur auf die HTML5-Wiedergabe, die von Browsern nativ unterstützt wird, und gibt Videos progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Wiedergabeauswahl in den nativen Modi <span class="codeph"> auto</span> und <span class="codeph"> progressiv</span> finden Sie im Benutzerhandbuch zum HTML5-Viewer-SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>
