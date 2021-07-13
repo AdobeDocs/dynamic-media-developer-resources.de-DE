@@ -1,25 +1,24 @@
 ---
-description: Die Cabinets-Materialien geben eine Möbeldatei (.vnc Dateierweiterung) an, eine spezielle Datendatei, die fotografische Darstellungen der Schränke sowie parametrische Layoutdefinitionen und weitere Informationen enthält, die für das Rendering der Schachtelfronten erforderlich sind.
+description: Cabinets-Materialien spezifizieren eine Kabinettdatei (.vnc-Dateierweiterung), eine spezielle Datendatei mit fotografischen Darstellungen von Kabinetten, parametrischen Layoutdefinitionen und anderen Informationen, die für das Rendern von Kabinettfronten erforderlich sind.
 solution: Experience Manager
 title: Möbel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 5%
 
 ---
 
-
 # Möbel{#cabinets}
 
-Die Cabinets-Materialien geben eine Möbeldatei (.vnc Dateierweiterung) an, eine spezielle Datendatei, die fotografische Darstellungen der Schränke sowie parametrische Layoutdefinitionen und weitere Informationen enthält, die für das Rendering der Schachtelfronten erforderlich sind.
+Cabinets-Materialien spezifizieren eine Kabinettdatei (.vnc-Dateierweiterung), eine spezielle Datendatei mit fotografischen Darstellungen von Kabinetten, parametrischen Layoutdefinitionen und anderen Informationen, die für das Rendern von Kabinettfronten erforderlich sind.
 
-[!DNL vnc] Dateien können entweder eine wiederholbare Holzkornstruktur enthalten oder die Textur kann extern über ein zweites Argument an  `src=`bereitgestellt werden. Bestimmte [!DNL vnc]-Dateien ermöglichen das Färben oder Texturieren ausgewählter Bereiche von Schaltflächenfronten (üblicherweise für Laminatschränke verwendet).
+[!DNL vnc] -Dateien können entweder eine wiederholbare Holzkornstruktur enthalten oder die Textur kann extern über ein zweites Argument zu  `src=`bereitgestellt werden. Bestimmte [!DNL vnc]-Dateien ermöglichen das Einfärben oder Texturieren ausgewählter Bereiche von Kabinenfronten (typischerweise für Laminatkabinettstile verwendet).
 
-Möbel können nur auf Möbel des Schranks aufgetragen werden.
+Kabinettmaterialien können nur auf Kabinettgegenstände aufgebracht werden.
 
 <table id="table_0B16200886FE4DFEBB1E4BE8FBA67EE4"> 
  <thead> 
@@ -32,12 +31,12 @@ Möbel können nur auf Möbel des Schranks aufgetragen werden.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Möbeldatei; erforderlich. </p> </td> 
+   <td colname="col2"> <p>Kabinettstil-Datei; erforderlich. </p> </td> 
    <td colname="col3"> <p>Keine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Optionale Textur-Bilddatei (zweiter Wert für <span class="codeph"> src= </span>). </p> </td> 
+   <td colname="col2"> <p>Optionale Texturbilddatei (zweiter Wert für <span class="codeph"> src= </span>). </p> </td> 
    <td colname="col3"> <p>Keine. </p> </td> 
   </tr> 
   <tr> 
@@ -47,19 +46,18 @@ Möbel können nur auf Möbel des Schranks aufgetragen werden.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Färbt Schrank und/oder Textur. </p> </td> 
+   <td colname="col2"> <p>Colorisiert Schrank und/oder Textur. </p> </td> 
    <td colname="col3"> <p>Keine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Scharfzeichnen. </p> </td> 
-   <td colname="col3"> <p>0 (kein Scharfzeichnen) </p> </td> 
+   <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> flags=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Spezielle Render-Flags. </p> </td> 
+   <td colname="col2"> <p>Spezielle Rendermarkierungen. </p> </td> 
    <td colname="col3"> <p>0 (keine Flags) </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
