@@ -3,15 +3,14 @@ description: Print.printquality
 solution: Experience Manager
 title: Print.printquality
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a6282054-e64a-4fb1-aa8d-2d8cb935d505
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # Print.printquality{#print-printquality}
 
@@ -21,7 +20,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Größe</span></span> </p> </td> 
-   <td colname="col2"> <p> Die maximale Größe des zu druckenden Bildes. </p> </td> 
+   <td colname="col2"> <p> Die maximale Größe des Bildes, das zum Drucken gesendet wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
