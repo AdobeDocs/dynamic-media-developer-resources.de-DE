@@ -3,15 +3,14 @@ description: In diesem Abschnitt werden die SVG-Datenattribute beschrieben.
 solution: Experience Manager
 title: SVG-Datenreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 583c7bd1-8d97-444e-a49f-56a2f94829be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 9%
+source-wordcount: '29'
+ht-degree: 10%
 
 ---
-
 
 # SVG-Datenreferenz{#svg-data-reference}
 
