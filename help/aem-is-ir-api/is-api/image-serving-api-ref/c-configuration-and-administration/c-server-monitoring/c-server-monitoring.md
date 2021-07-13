@@ -1,24 +1,23 @@
 ---
-description: Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, wenn bestimmte Leistungs- oder Fehlerschwellenwerte überschritten werden. Das System überwacht gemeinsam alle auf dem Server bereitgestellten Webanwendungen.
+description: Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, wenn bestimmte Leistungs- oder Fehlerschwellen überschritten werden. Das System überwacht kollektiv alle Webanwendungen, die auf dem Server bereitgestellt werden.
 solution: Experience Manager
 title: Serverüberwachung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: c751d653-da5d-4573-99fd-fb9113977160
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '78'
 ht-degree: 2%
 
 ---
 
-
 # Serverüberwachung{#server-monitoring}
 
-Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, wenn bestimmte Leistungs- oder Fehlerschwellenwerte überschritten werden. Das System überwacht gemeinsam alle auf dem Server bereitgestellten Webanwendungen.
+Der Server kann so konfiguriert werden, dass E-Mail-Warnungen gesendet werden, wenn bestimmte Leistungs- oder Fehlerschwellen überschritten werden. Das System überwacht kollektiv alle Webanwendungen, die auf dem Server bereitgestellt werden.
 
-* [Standardwarnungen](r-standard-alerts.md)
-* [Warnung zur Priorität des Heap-Speicherplatzes](c-heap-space-priority-alert.md)
+* [Standardmäßige Warnungen](r-standard-alerts.md)
+* [Warnung zur Heap-Platzierungspriorität](c-heap-space-priority-alert.md)
 
 ## Verwandte Themen {#section-71ecb73e7cdd44f68aea67b64dc9c3ed}
 
