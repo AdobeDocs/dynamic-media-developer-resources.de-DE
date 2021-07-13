@@ -3,15 +3,14 @@ description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 7%
 
 ---
-
 
 # portraitFrames{#portraitframes}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Auf <span class="codeph"> split</span> setzen, damit der Viewer Dubletten-Seiten-Druckbögen als separate Seite anzeigen kann, wenn sie auf einem Mobilgerät im Hochformat verwendet werden. Auf <span class="codeph"> solid</span> setzen, um Druckbögen mit Dublette immer als Vollbild anzuzeigen, unabhängig von der Geräteausrichtung. </p> </td> 
+   <td colname="col2"> <p>Setzen Sie dies auf <span class="codeph"> split</span> , damit der Viewer doppelte Seitenaufteilungen bei Verwendung auf Mobilgeräten im Hochformat als separate Seite anzeigen kann. Auf <span class="codeph"> solid</span> setzen, um doppelseitige Druckbögen unabhängig von der Geräteausrichtung immer als solides Bild anzuzeigen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
