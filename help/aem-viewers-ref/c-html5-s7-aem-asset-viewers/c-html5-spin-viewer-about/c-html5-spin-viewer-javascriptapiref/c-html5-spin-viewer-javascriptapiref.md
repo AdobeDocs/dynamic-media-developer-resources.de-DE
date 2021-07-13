@@ -1,20 +1,19 @@
 ---
-description: Die Hauptklasse des Rotationsset-Viewers ist der Rotationsset-Viewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
+description: Die Hauptklasse des Rotationsset-Viewers ist SpinViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
-title: JavaScript-API-Referenz für den Rotationsset-Viewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Javascript-API-Referenz für Rotationsset-Viewer
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: c32cccf8-fbaa-4fed-a95f-0f052141f312
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
+# Javascript-API-Referenz für Rotationsset-Viewer{#javascript-api-reference-for-spin-viewer}
 
-# JavaScript-API-Referenz für den Rotationsset-Viewer{#javascript-api-reference-for-spin-viewer}
+Die Hauptklasse des Rotationsset-Viewers ist SpinViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-Die Hauptklasse des Rotationsset-Viewers ist der Rotationsset-Viewer. Sie wird im Namensraum s7viewers deklariert. Diese JavaScript-API umfasst Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
-
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.SpinViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.SpinViewer`-Klasse instanziiert wird.
