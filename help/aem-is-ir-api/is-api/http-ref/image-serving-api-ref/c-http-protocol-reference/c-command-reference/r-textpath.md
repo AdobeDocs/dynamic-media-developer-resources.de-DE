@@ -1,21 +1,20 @@
 ---
-description: Textpfad. Gibt den Pfad an, der als Grundlage für den mit textPs= bereitgestellten Text verwendet werden soll.
+description: Textpfad. Gibt den Pfad an, der als Grundlinie für den Text verwendet werden soll, der mit textPs= bereitgestellt wird.
 solution: Experience Manager
 title: textPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1c515786-bbba-44d3-837e-b474af293b7e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '145'
 ht-degree: 4%
 
 ---
 
-
 # textPath{#textpath}
 
-Textpfad. Gibt den Pfad an, der als Grundlage für den mit textPs= bereitgestellten Text verwendet werden soll.
+Textpfad. Gibt den Pfad an, der als Grundlinie für den Text verwendet werden soll, der mit textPs= bereitgestellt wird.
 
 textPath= *`pathDefinition`*
 
@@ -26,25 +25,25 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d).
+Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) .
 
 >[!NOTE]
 >
->Im Gegensatz zu `clipPath=` werden Textpfade nicht automatisch geschlossen, wenn &#39;z&#39; oder &#39;Z&#39; am Ende eines Unterpfads nicht angegeben ist.
+>Im Gegensatz zu `clipPath=` werden Textobjekte nicht automatisch geschlossen, wenn am Ende eines Unterpfads &quot;z&quot;oder &quot;Z&quot;nicht angegeben ist.
 
-*`pathDefinition`* kann mehrere Unterpfade enthalten. Der Text wird auf den Unterpfaden in der angegebenen Reihenfolge gerendert.
+*`pathDefinition`* kann mehrere Unterpfade umfassen. Text wird auf den Unterpfaden in der angegebenen Reihenfolge gerendert.
 
-Die RTF-Befehle `\ql`, `\qc`, `\qr`, `\li` und `\ri` können verwendet werden, um den gerenderten Text entlang dem Pfad zu positionieren.
+Die RTF-Befehle `\ql`, `\qc`, `\qr`, `\li` und `\ri` können verwendet werden, um den gerenderten Text entlang des Pfads zu positionieren.
 
 ## Eigenschaften {#section-068137df436c46b9b55d271eb60e7285}
 
-Textebenenattribut ( `textPs=` nur). Wird von anderen Ebenen ignoriert. Gilt für `layer=0`, wenn für `layer=comp` angegeben. Wird ignoriert, wenn `textPs=` vorhanden ist.
+Textebenenattribut ( nur `textPs=`). Wird von anderen Ebenen ignoriert. Gilt für `layer=0`, falls für `layer=comp` angegeben. Wird ignoriert, wenn `textPs=` vorhanden ist.
 
 Wenn eine Ebene sowohl `textPath=` als auch `textFlowPath=` enthält, wird ein Fehler zurückgegeben.
 
 ## Standard {#section-697b1f2cfc43498080a31327e6eb173d}
 
-Keine, für Standard-Textwiedergabe.
+Keine, für standardmäßiges Text-Rendering.
 
 ## Verwandte Themen {#section-3050d8f47e1d4f5c9b474dece45ea93d}
 
