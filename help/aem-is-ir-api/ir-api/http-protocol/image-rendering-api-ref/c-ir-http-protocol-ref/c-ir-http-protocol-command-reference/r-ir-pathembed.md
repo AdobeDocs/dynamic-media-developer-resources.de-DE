@@ -1,21 +1,20 @@
 ---
-description: Pfaddaten einbetten. Gibt an, ob in die Vignette eingebettete Photoshop-Pfade in das Antwortbild einbezogen werden sollen.
+description: Einbetten von Pfaddaten. Gibt an, ob in die Vignette eingebettete Photoshop-Pfade im Antwortbild enthalten sein sollen.
 solution: Experience Manager
 title: pathEmbed
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 66cc57ef-964e-4062-bb66-efeda15be744
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
 
-
 # pathEmbed{#pathembed}
 
-Pfaddaten einbetten. Gibt an, ob in die Vignette eingebettete Photoshop-Pfade in das Antwortbild einbezogen werden sollen.
+Einbetten von Pfaddaten. Gibt an, ob in die Vignette eingebettete Photoshop-Pfade im Antwortbild enthalten sein sollen.
 
 `pathEmbed=0|1`
 
@@ -23,11 +22,11 @@ Pfaddaten einbetten. Gibt an, ob in die Vignette eingebettete Photoshop-Pfade in
 
 Anforderungsattribut. Wird ignoriert, wenn die Vignette keine Pfaddaten enthält. Die Pfaddaten werden bei Bedarf auf `wid=` und/oder `hei=` skaliert.
 
-Wird ignoriert, wenn das Ausgabebildformat keine Pfadeinbettung unterstützt. Eine Liste der Ausgabebildformate, die die Pfadeinbettung unterstützen, finden Sie in der Beschreibung von `fmt=`.
+Wird ignoriert, wenn das Ausgabebildformat keine Pfadeinbettung unterstützt. Eine Liste der Ausgabebildformate, die die Pfadeinbettung unterstützen, finden Sie in der Beschreibung von `fmt=` .
 
 ## Standard {#section-3be88ed9053b48919ff33af9418078cc}
 
-`pathEmbed=0`, damit keine Pfade in Ausgabebilder einbettet werden.
+`pathEmbed=0`, damit keine Pfade in Ausgabebilder eingebettet werden.
 
 ## Verwandte Themen {#section-4e6151658c384b6f9d0446f55dde7b7f}
 
