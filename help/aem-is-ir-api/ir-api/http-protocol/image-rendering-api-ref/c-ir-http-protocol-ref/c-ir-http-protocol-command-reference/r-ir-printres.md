@@ -1,21 +1,20 @@
 ---
-description: Druckauflösung. Überschreibt den Wert für die Druckauflösung, der im Antwortbild eingebettet ist.
+description: Druckauflösung. Überschreibt den Wert der Druckauflösung, der im Antwortbild eingebettet ist.
 solution: Experience Manager
 title: printRes
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: de02d058-e538-4d67-9413-e2e47dd2fd67
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
 
-
 # printRes{#printres}
 
-Druckauflösung. Überschreibt den Wert für die Druckauflösung, der im Antwortbild eingebettet ist.
+Druckauflösung. Überschreibt den Wert der Druckauflösung, der im Antwortbild eingebettet ist.
 
 `printRes= *`val`*`
 
@@ -28,11 +27,11 @@ Druckauflösung. Überschreibt den Wert für die Druckauflösung, der im Antwort
 
 Die Druckauflösung wird normalerweise durch den in der Vignette eingebetteten Wert für die Druckauflösung definiert.
 
-Durch Festlegen der Druckauflösung wird die Pixelgröße des Antwortbilds nicht geändert.
+Durch das Festlegen der Druckauflösung wird die Pixelgröße des Antwortbilds nicht geändert.
 
 ## Eigenschaften {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
-Kann an beliebiger Stelle in der Anforderung angegeben werden.
+Kann an einer beliebigen Stelle in der Anfrage angegeben werden.
 
 ## Standard {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
