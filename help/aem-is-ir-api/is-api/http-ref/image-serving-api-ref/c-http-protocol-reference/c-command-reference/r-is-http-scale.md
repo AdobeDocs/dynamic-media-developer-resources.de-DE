@@ -1,36 +1,35 @@
 ---
-description: Bild skalieren. Skaliert ein Ebenenquellbild nach Faktor relativ zum Bild mit voller Auflösung.
+description: Bild skalieren. Skaliert ein Ebenenquellenbild nach Faktor im Verhältnis zum Bild mit voller Auflösung.
 solution: Experience Manager
 title: scale
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 5%
 
 ---
 
-
 # scale{#scale}
 
-Bild skalieren. Skaliert ein Ebenenquellbild nach Faktor relativ zum Bild mit voller Auflösung.
+Bild skalieren. Skaliert ein Ebenenquellenbild nach Faktor im Verhältnis zum Bild mit voller Auflösung.
 
-`scale= *`factor`*`
+`scale= *`Faktor`*`
 
 <table id="simpletable_AC596A87494A4213A7D1C76612E8F2FD"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> factor</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> Faktor</span> </p> </td> 
   <td class="stentry"> <p>Skalierungsfaktor (real, größer als 0,0). </p></td> 
  </tr> 
 </table>
 
-Bei `scale=1` wird keine Skalierung angewendet. *`factor`* kleiner als 1,0 nach unten skaliert und größer als 1,0 vergrößert das Quellbild.
+Bei `scale=1` wird keine Skalierung angewendet. *`factor`* kleiner als 1,0 Downskala und größer als 1,0 vergrößert das Quellbild.
 
 ## Eigenschaften {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Quellenbild/Maskenattribut. Wird ignoriert, wenn `size=` auch für die aktuelle Ebene angegeben ist. Überschreibt `res=`. Gilt für Ebene 0, wenn für `layer=comp` angegeben. Wird ignoriert, wenn die Ebene nicht mit einem Bild oder einer Maske verknüpft ist.
+Quellbild-/Maskenattribut. Wird ignoriert, wenn `size=` auch für die aktuelle Ebene angegeben ist. Überschreibt `res=`. Gilt für Ebene 0, wenn für `layer=comp` angegeben. Wird ignoriert, wenn die Ebene nicht mit einem Bild oder einer Maske verknüpft ist.
 
 ## Standard {#section-26e64904362342a5a62c5f6598f330c4}
 
