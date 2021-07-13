@@ -3,29 +3,28 @@ description: stageSize
 solution: Experience Manager
 title: stageSize
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # stageSize{#stagesize}
 
 >[!NOTE]
 >
->Dieses Attribut gilt für den Zoom-Viewer, den Video-Viewer, den Rotationsset-Viewer, den interaktiven Bild-Viewer, den interaktiven Video-Viewer und den Karussell-Viewer.
+>Dieses Attribut gilt für den Zoom-Viewer, Video-Viewer, Rotationsset-Viewer, interaktiven Bild-Viewer, interaktiven Video-Viewer und Karussell-Viewer.
 
 `stageSize= *``*, *`widthheight`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Breite</span>,<span class="varname"> Höhe</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Gesamtbreite und -höhe des Viewers. Der Wert von <span class="codeph"> 0,0</span> bedeutet, dass die Größe des Viewers den CSS-Regeln und dem Webseitenlayout entspricht. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> width</span>,<span class="varname"> height</span></span> </p> </td> 
+   <td colname="col2"> <p> Die Gesamtbreite und -höhe des Viewers. Der Wert <span class="codeph"> 0,0</span> bedeutet, dass die Größe des Viewers entsprechend den CSS-Regeln und dem Layout der Web-Seite angepasst wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
