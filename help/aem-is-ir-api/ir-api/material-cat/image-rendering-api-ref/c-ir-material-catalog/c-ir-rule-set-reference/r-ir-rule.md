@@ -1,41 +1,40 @@
 ---
-description: Anforderungsregelelement. Eines oder mehrere sind im Element <ruleSet> optional.
+description: Anforderungsregelelement. Eine oder mehrere sind im Element <ruleSet> optional.
 solution: Experience Manager
 title: Regel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 5%
 
 ---
 
-
 # Regel{#rule}
 
-Anforderungsregelelement. Eines oder mehrere sind im Element `<ruleset>` optional.
+Anforderungsregelelement. Eine oder mehrere sind im Element `<ruleset>` optional.
 
 ## Attribute {#section-aa23349645434db99d46957a96f2e1e1}
 
 `OnMatch="break"|"continue"|"error"` Optional. Der Standardwert ist &quot;break&quot;.
 
-` Name=" *``*"` textOptional. Dient zur Identifizierung des Elements `<rule>` in Debugging-Protokollen und Fehlermeldungen.
+` Name=" *``*"` textOptional. Wird verwendet, um das Element `<rule>` in Debugging-Protokollen und Fehlermeldungen zu identifizieren.
 
-Darüber hinaus können `<rule>`-Elemente eines der folgenden Attribute in jeder beliebigen Kombination definieren. Wenn die Regel angegeben wurde und eine Übereinstimmung erzielt wurde, setzen sie die entsprechenden Katalogattribute für diese Anforderung außer Kraft.
+Darüber hinaus können `<rule>` -Elemente eines der folgenden Attribute in jeder beliebigen Kombination definieren. Wenn angegeben und die Regel erfolgreich abgeglichen wurde, überschreiben sie die entsprechenden Katalogattribute für diese Anfrage.
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>&lt;rule&gt; attribute </p> </th> 
-   <th colname="col2" class="entry"> <p>Entsprechendes Attribut "Bildkatalog" </p> </th> 
+   <th colname="col2" class="entry"> <p>Entsprechendes Bildkatalog-Attribut </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> DefaultPix  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute::DefautPix  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute::DefaultPix  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ErrorImage  </span> </p> </td> 
@@ -56,9 +55,9 @@ Darüber hinaus können `<rule>`-Elemente eines der folgenden Attribute in jeder
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie in der Beschreibung des entsprechenden Attributs für den Bildkatalog.
+Weitere Informationen finden Sie in der Beschreibung des entsprechenden Bildkatalogattributs.
 
-Das Ablaufattribut setzt nur den Standardwert des Attributs außer Kraft. wird ignoriert, wenn ein bestimmter `catalog::Expiration`-Wert für die Anforderung gilt.
+Das Attribut Gültigkeit überschreibt nur den standardmäßigen Attributwert. wird ignoriert, wenn ein bestimmter `catalog::Expiration` -Wert für die Anforderung gilt.
 
 ## Daten {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -81,8 +80,8 @@ Das Ablaufattribut setzt nur den Standardwert des Attributs außer Kraft. wird i
 
 Wenn sowohl `<expression>` als auch `<substitution>` angegeben sind und keine erfassten Unterzeichenfolgen verwendet werden, wird die erste übereinstimmende Unterzeichenfolge durch `<substitution>` ersetzt.
 
-Wenn `<expression>` nicht angegeben ist, stimmt jeder Pfad überein und `<substitution>` wird an das Ende des Pfades angehängt.
+Wenn `<expression>` nicht angegeben ist, stimmt ein beliebiger Pfad überein und `<substitution>` wird an das Ende des Pfads angehängt.
 
 Wenn `<substitution>` nicht angegeben ist, wird die übereinstimmende Unterzeichenfolge entfernt.
 
-`<addressfilter>` wird nur angewendet, wenn eine Übereinstimmung auftritt, und bevor Abfragen angewendet werden.
+`<addressfilter>` wird nur angewendet, wenn eine Übereinstimmung vorliegt, und bevor Abfrageregeln angewendet werden.
