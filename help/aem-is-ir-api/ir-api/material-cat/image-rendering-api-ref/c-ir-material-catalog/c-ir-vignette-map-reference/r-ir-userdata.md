@@ -3,21 +3,20 @@ description: Benutzerdaten. Der Server gibt den Inhalt dieses Felds als Antwort 
 solution: Experience Manager
 title: Benutzerdaten *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '69'
+ht-degree: 17%
 
 ---
-
 
 # Benutzerdaten *{#userdata}
 
 Benutzerdaten. Der Server gibt den Inhalt dieses Felds als Antwort auf req=userdata an den Client zurück.
 
-Neue Zeilen können mit &#39;??&#39; entkommen. Der Server ersetzt &#39;??&#39; mit `<cr><lf>`, bevor der Inhalt dieses Felds zurückgegeben wird.
+Neue Zeilen können mit &quot;??&quot;maskiert werden. Der Server ersetzt &quot;??&quot; mit `<cr><lf>` , bevor der Inhalt dieses Felds zurückgegeben wird.
 
 ## Eigenschaften {#section-4e3904e047a84cc790ce77c56d3e0b21}
 
