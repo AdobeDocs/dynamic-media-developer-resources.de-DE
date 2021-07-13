@@ -1,27 +1,26 @@
 ---
-description: Änderungszeitstempel. Gibt das Datum/die Uhrzeit der letzten Änderung dieser Vignette an.
+description: Zeitstempel der Änderung. Gibt Datum/Uhrzeit der letzten Änderung dieser Vignette an.
 solution: Experience Manager
 title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
 
-
 # TimeStamp{#timestamp}
 
-Änderungszeitstempel. Gibt das Datum/die Uhrzeit der letzten Änderung dieser Vignette an.
+Zeitstempel der Änderung. Gibt Datum/Uhrzeit der letzten Änderung dieser Vignette an.
 
-Wenn `attribute::UseLastModified` eingestellt ist, werden der letzte `vignette::TimeStamp`- und `catalog::TimeStamp`Wert der Vignette und alle an der Anforderung beteiligten Materialien in der HTTP-Antwort als zuletzt geänderte Kopfzeile zurückgegeben.
+Wenn `attribute::UseLastModified` festgelegt ist, werden der neueste `vignette::TimeStamp`- und `catalog::TimeStamp`Wert der Vignette und alle an der Anforderung beteiligten Materialien in der HTTP-Antwort als Header der letzten Änderung zurückgegeben.
 
 >[!NOTE]
 >
->Die tatsächliche Dateizeit der Vignettendatei wird zu diesem Zweck nicht verwendet.
+>Die tatsächliche Dateizeit der Vignettendatei wird zu diesem Zweck nie verwendet.
 
 `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet (siehe  ` [attribute::CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4)`).
 
@@ -34,14 +33,14 @@ Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Mil
 *[!DNL mm]*/  *[!DNL dd]*/  *[!DNL yyyy]* *[!DNL hh]*:  *[!DNL mm]*: *[!DNL ss]*GMT  *[!DNL offset]*
 
 * *[!DNL hh]* liegt im Bereich von 0 bis 23.
-* *[!DNL zzz]* ist ein 3- oder 4-stelliger Zeitzonencode wie &#39;GMT&#39; oder &#39;PST&#39;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für Pacific Standard Time im Vergleich zu &quot;PDT&quot;für Pacific Daylight Savings Time).
-* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zum GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
+* *[!DNL zzz]* ist ein 3- oder 4-stelliger Zeitzonen-Code wie &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für die Pacific Standard Time, im Gegensatz zu &quot;PDT&quot;für die Sommerzeit im Pazifik).
+* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
 
-Alle Elemente der String-formatierten Datums-/Uhrzeitwerte müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei [!DNL *[!DNL catalog]*.ini] verwendet.
+Alle Elemente von String formatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der [!DNL *[!DNL catalog]*.ini]-Datei verwendet.
 
 ## Standard {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-`attribute::TimeStamp` ist das Feld leer oder nicht vorhanden.
+`attribute::TimeStamp` ist, ist das Feld leer oder nicht vorhanden.
 
 ## Verwandte Themen {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 
