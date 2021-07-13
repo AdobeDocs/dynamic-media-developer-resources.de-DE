@@ -1,21 +1,20 @@
 ---
-description: Materielle Auflösung. Gibt die Auflösung der wiederholbaren Textur oder des Dezimalbilds an.
+description: Materialauflösung. Gibt die Auflösung der wiederholbaren Textur oder des Decalbilds an.
 solution: Experience Manager
 title: res
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: f207355d-5819-47fc-bda5-27a411449569
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
-
 # res{#res}
 
-Materielle Auflösung. Gibt die Auflösung der wiederholbaren Textur oder des Dezimalbilds an.
+Materialauflösung. Gibt die Auflösung der wiederholbaren Textur oder des Decalbilds an.
 
 ` res= *`val`*`
 
@@ -26,11 +25,11 @@ Materielle Auflösung. Gibt die Auflösung der wiederholbaren Textur oder des De
  </tr> 
 </table>
 
-Bei einem dekalen Material hat `size=` Vorrang, wenn sowohl `size=` als auch `res=` angegeben sind.
+Bei dekalen Materialien hat `size=` Vorrang, wenn sowohl `size=` als auch `res=` angegeben sind.
 
 ## Eigenschaften {#section-6a458ddc202f46e0b668c9f040a65cef}
 
-Materialattribut. Wird von festen Farbstoffen ignoriert. Nur mit Schrank- und Fensterbezug Materialien nur, wenn auch eine Textur verwendet wird.
+Materialattribut. Ignoriert durch feste Farbstoffe. Nur durch Schrank- und Fensterbeläge Materialien nur bei Verwendung einer Textur.
 
 ## Standard {#section-ee4088a994014df59105fc1dbb2aa042}
 
@@ -38,4 +37,4 @@ Materialattribut. Wird von festen Farbstoffen ignoriert. Nur mit Schrank- und Fe
 
 ## Verwandte Themen {#section-c00f6fb7b3e74719ac361de9a9ce4e52}
 
-[Materialauflösung](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b),  [size=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988),  [Katalog::Auflösung](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7),  [Attribut::Auflösung](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806)
+[Materialauflösung](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b),  [size=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988),  [catalog::Resolution](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7),  [attribute::Resolution](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806)
