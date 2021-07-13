@@ -3,15 +3,14 @@ description: In diesem Dokument wird das HTTP-Protokoll für Dynamic Media Image
 solution: Experience Manager
 title: HTTP-Protokollreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b80d10a8-3b10-4daa-8559-dc36f7a54382
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '37'
 ht-degree: 2%
 
 ---
-
 
 # HTTP-Protokollreferenz{#http-protocol-reference}
 
