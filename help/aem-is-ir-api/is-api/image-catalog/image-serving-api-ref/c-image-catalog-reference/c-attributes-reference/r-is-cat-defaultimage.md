@@ -1,35 +1,34 @@
 ---
-description: Standardbild für Antwort. Gibt das Bild oder den Katalogeintrag an, der verwendet werden soll, wenn eine Bilddatei nicht gefunden werden kann und defaultImage= in der Anforderung nicht angegeben ist.
+description: Standardbild für Antworten. Gibt den Bild- oder Katalogeintrag an, der verwendet werden soll, falls eine Bilddatei nicht gefunden werden kann und defaultImage= in der Anfrage nicht angegeben ist.
 solution: Experience Manager
 title: DefaultImage
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2044b447-0ee1-4964-b751-8637c5e115d1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
 
-
 # DefaultImage{#defaultimage}
 
-Standardbild für Antwort. Gibt das Bild oder den Katalogeintrag an, der verwendet werden soll, wenn eine Bilddatei nicht gefunden werden kann und defaultImage= in der Anforderung nicht angegeben ist.
+Standardbild für Antworten. Gibt den Bild- oder Katalogeintrag an, der verwendet werden soll, falls eine Bilddatei nicht gefunden werden kann und defaultImage= in der Anfrage nicht angegeben ist.
 
 Kann entweder ein Katalogeintrag (einschließlich einer Vorlage) oder ein relativer Pfad (zu `attribute::RootPath`) oder ein absoluter Bilddateipfad sein. Nützlich zum Ersetzen fehlender Bilder durch Standardbilder.
 
 ## Eigenschaften {#section-b6d8193827c34e5f948792aba8b8daaf}
 
-Textzeichenfolge. Wenn angegeben, muss entweder ein gültiger `catalog::Id`-Wert in diesem Bildkatalog oder ein relativer (zu `attribute::RootPath`) oder ein absoluter Pfad zu einer Bilddatei sein, auf die der Image-Server zugreifen kann.
+Textzeichenfolge. Wenn angegeben, muss entweder ein gültiger `catalog::Id`-Wert in diesem Bildkatalog oder ein relativer Pfad (zu `attribute::RootPath`) oder ein absoluter Pfad zu einer Bilddatei sein, auf die der Image-Server zugreifen kann.
 
 ## Einschränkungen {#section-5d8ea872f0b0415fbd3a83410bbcf512}
 
-Ausländische Bildquellen werden nicht durch den Standard-Bildmechanismus abgedeckt. Wenn eine ausländische Bildquelle nicht gültig ist, wird ein Fehler zurückgegeben.
+Ausländische Bildquellen werden vom standardmäßigen Bildmechanismus nicht abgedeckt. Wenn eine ausländische Bildquelle ungültig ist, wird ein Fehler zurückgegeben.
 
 ## Standard {#section-d88bc8fc71bd413e8f70281d57e1ba1c}
 
-Vererbt von `default::DefaultImage`, wenn nicht definiert. Wenn definiert, aber leer, ist das Standardbildverhalten deaktiviert, auch wenn `default::DefaultImage` definiert ist.
+Vererbt von `default::DefaultImage` , falls nicht definiert. Wenn definiert, aber leer, wird das standardmäßige Bildverhalten deaktiviert, auch wenn `default::DefaultImage` definiert ist.
 
 ## Verwandte Themen {#section-dc0fb4e72294442882b33a479fbc2b82}
 
