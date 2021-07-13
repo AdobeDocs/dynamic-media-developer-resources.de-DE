@@ -3,12 +3,11 @@ description: JavaScript-API-Referenz für Video360-Viewer
 solution: Experience Manager
 title: setVideo
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 4%
 
 ---
@@ -19,7 +18,7 @@ JavaScript-API-Referenz für Video360-Viewer
 
 `setVideo(videoUrl)`
 
-Legt neues externes Video fest. Kann jederzeit aufgerufen werden, sowohl vor als auch nach `init()`. Wenn der Viewer nach `init()` aufgerufen wird, tauscht er das Video in der Laufzeit aus.
+Legt neues externes Video fest. Kann jederzeit vor und nach `init()` aufgerufen werden. Wenn nach `init()` aufgerufen wird, tauscht der Viewer das Video in der Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -34,7 +33,7 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
