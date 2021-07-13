@@ -1,21 +1,20 @@
 ---
-description: Materialauswahl. Beginn eines Materialspezifikationssegments (MSS) für ein nicht wiederholbares Dekormaterial.
+description: Auswahl von Decal-Material. Startet ein Materialspezifikationssegment (MSS) für ein nicht wiederholbares Dekormaterial.
 solution: Experience Manager
-title: dekal
+title: dekcal
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
+# dekcal{#decal}
 
-# decal{#decal}
-
-Materialauswahl. Beginn eines Materialspezifikationssegments (MSS) für ein nicht wiederholbares Dekormaterial.
+Auswahl von Decal-Material. Startet ein Materialspezifikationssegment (MSS) für ein nicht wiederholbares Dekormaterial.
 
 ` decal[= *`val`*]`
 
