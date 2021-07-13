@@ -1,28 +1,27 @@
 ---
-description: Antwortbild-Anpassungsmodus. Gibt an, wie der Skalierungsfaktor berechnet wird, mit dem das Composite-Bild auf das Antwortbild skaliert wird, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
+description: Antwortbild-Fit-Modus. Gibt an, wie der Skalierungsfaktor berechnet wird, der verwendet wird, um das zusammengesetzte Bild auf das Antwortbild zu skalieren, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
 solution: Experience Manager
 title: anpassen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
 
-
 # anpassen{#fit}
 
-Antwortbild-Anpassungsmodus. Gibt an, wie der Skalierungsfaktor berechnet wird, mit dem das Composite-Bild auf das Antwortbild skaliert wird, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
+Antwortbild-Fit-Modus. Gibt an, wie der Skalierungsfaktor berechnet wird, der verwendet wird, um das zusammengesetzte Bild auf das Antwortbild zu skalieren, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
 
 ` fit= *``*, *`modeupscale`*`
 
 <table id="simpletable_50FBDC6B7CB2448891DD0F491DEB5ACF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mode  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> fit|constrain|cut|wrap|strecken|fit|vfit  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> fit|constrain|crop|wrap|extending|hfit|vfit  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> upscale  </span> </span> </p> </td> 
@@ -30,7 +29,7 @@ Antwortbild-Anpassungsmodus. Gibt an, wie der Skalierungsfaktor berechnet wird, 
  </tr> 
 </table>
 
-In der folgenden Beschreibung der Modusoptionen wird davon ausgegangen, dass *`xScale`* das Verhältnis der Breite des Composite-Bildes zur Breite des Antwortbilds und *`yScale`* das Verhältnis der Höhe des Composite-Bilds zur Höhe des Antwortbilds ist.
+In der folgenden Beschreibung der Modusoptionen wird davon ausgegangen, dass *`xScale`* das Verhältnis zwischen der Breite des zusammengesetzten Bildes und der Breite des Antwortbilds und *`yScale`* das Verhältnis der Höhe des zusammengesetzten Bildes zur Höhe des Antwortbilds ist.
 
 <table id="table_33408ECA9D164AFAA249F8589060545E"> 
  <thead> 
@@ -42,42 +41,42 @@ In der folgenden Beschreibung der Modusoptionen wird davon ausgegangen, dass *`x
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> anpassen </span> </p> </td> 
-   <td colname="col2"> <p>Skaliert das Composite-Bild so, dass es in den mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> zugewiesenen Raum passt, wobei minimale Leerzeichen und keine Beschneidung vorhanden sind. Das Antwortbild hat die exakte Größe, die mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben wird. Es wird die kleinere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> angewendet. </p> </td> 
+   <td colname="col2"> <p>Skaliert das zusammengesetzte Bild so, dass es in den mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> zugewiesenen Platz passt, wobei nur minimale Leerzeichen und kein Zuschneiden vorhanden sind. Das Antwortbild hat die exakte Größe, die mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben wird. Die kleinere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> wird angewendet. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> einschränken  </span> </p> </td> 
-   <td colname="col2"> <p>Skaliert das Composite-Bild wie <span class="codeph"> in </span>, sodass es in den mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> zugewiesenen Raum passt. Das tatsächliche Antwortbild kann jedoch kleiner sein als mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben, um Leerzeichen zu vermeiden. Es wird die kleinere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> angewendet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> beschränken  </span> </p> </td> 
+   <td colname="col2"> <p>Skaliert das zusammengesetzte Bild wie <span class="codeph"> in </span>, sodass es in den mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> zugewiesenen Platz passt. Das tatsächliche Antwortbild kann jedoch kleiner sein als mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben, um Leerzeichen zu vermeiden. Die kleinere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> wird angewendet. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> Zuschneiden </span> </p> </td> 
-   <td colname="col2"> <p>Skaliert das Composite-Bild so, dass es das gesamte Antwortbild mit minimalem Beschneiden und ohne Leerzeichen füllt. Es wird der größere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> angewendet. </p> </td> 
+   <td colname="col2"> <p>Skaliert das zusammengesetzte Bild so, dass es das gesamte Antwortbild mit minimalem Zuschnitt und ohne Leerzeichen füllt. Der größere Wert von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> wird angewendet. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> umbruch </span> </p> </td> 
-   <td colname="col2"> <p>Skaliert das Composite-Bild wie <span class="codeph"> Zuschneiden </span>, sodass es das gesamte Antwortbild abdeckt. Das tatsächliche Antwortbild kann jedoch größer sein als mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben, um Zuschneidungen zu vermeiden. Es wird der größere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span>angewendet. </p> </td> 
+   <td colname="col2"> <p>Skaliert das zusammengesetzte Bild wie <span class="codeph"> Zuschneiden </span> so, dass es das gesamte Antwortbild abdeckt. Das tatsächliche Antwortbild kann jedoch größer sein als mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben, um Zuschnitte zu vermeiden. Der größere Wert von <span class="varname"> xScale </span> und <span class="varname"> yScale </span>wird angewendet. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> strecken  </span> </p> </td> 
-   <td colname="col2"> <p>Skaliert das Composite-Bild unabhängig in x und y, um das gesamte Antwortbild ohne Beschneiden und ohne Leerzeichen zu füllen. Dadurch wird normalerweise das Seitenverhältnis des Bildes geändert. <span class="varname"> xScale  </span> wird für die horizontale Skalierung und  <span class="varname"> yScale  </span> für die vertikale Skalierung verwendet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dehnen  </span> </p> </td> 
+   <td colname="col2"> <p>Skaliert das zusammengesetzte Bild unabhängig in x und y, um das gesamte Antwortbild ohne Zuschneiden und ohne Leerzeichen zu füllen. Dadurch wird normalerweise das Seitenverhältnis des Bildes geändert. <span class="varname"> xScale  </span> wird für die horizontale Skalierung und  <span class="varname"> yScale  </span> für die vertikale Skalierung verwendet. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> hfit  </span> </p> </td> 
-   <td colname="col2"> <p>Wendet <span class="varname"> xScale </span> an, um das Bild horizontal anzupassen, wobei sich der Zuschnitt oder Whitespace wahrscheinlich oben und/oder unten befinden. Nützlich für spezielle Anwendungen. </p> </td> 
+   <td colname="col2"> <p>Wendet <span class="varname"> xScale </span> an, um das Bild horizontal anzupassen, wobei sich wahrscheinlich der Zuschnitt oder der Leerraum oben und/oder unten befindet. Nützlich für spezielle Anwendungen. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> vfit  </span> </p> </td> 
-   <td colname="col2"> <p>Wendet <span class="varname"> yScale </span> an, um das Bild vertikal anzupassen, wobei sich der Zuschnitt oder Whitespace wahrscheinlich links und/oder rechts befindet. Nützlich für spezielle Anwendungen. </p> </td> 
+   <td colname="col2"> <p>Wendet <span class="varname"> yScale </span> an, um das Bild vertikal anzupassen, wobei sich wahrscheinlich der Zuschnitt oder der Leerraum links und/oder rechts befindet. Nützlich für spezielle Anwendungen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Setzen Sie *`upscale`* auf &#39;1&#39;, um Upscaling zuzulassen, oder auf &#39;0&#39;, um *`xScale`*und *`yScale`* auf 1:1 zu beschränken. Wenn die Skalierung deaktiviert ist, kann es zu zusätzlichen Leerzeichen kommen, wenn das Composite-Bild kleiner als das Antwortbild ist.
+Setzen Sie *`upscale`* auf &quot;1&quot;, um die Upskalierung zuzulassen, oder auf &quot;0&quot;, um die Beschränkung von *`xScale` und *`yScale`* auf 1:1 zu ermöglichen. Wenn die Upskalierung deaktiviert ist, kann es zu zusätzlichen Leerzeichen kommen, wenn das zusammengesetzte Bild kleiner als das Antwortbild ist.
 
-Zuschneiden und Leerzeichen werden standardmäßig zentriert. ihre Position kann mit `align=` gesteuert werden. Die Farbe und Deckkraft der Füllung von Leerzeichen wird durch `bgc=` bestimmt.
+Zuschnitt und Leerzeichen werden standardmäßig zentriert. ihre Position kann mit `align=` gesteuert werden. Die Farbe und Deckkraft der Whitespace-Füllung wird durch `bgc=` bestimmt.
 
 ## Eigenschaften {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-Ansicht. Gilt unabhängig von der aktuellen Ebeneneinstellung. Es muss auch mindestens eines von `wid=` oder `hei=` angegeben werden, andernfalls wird ein Fehler zurückgegeben. sowohl `wid=` als auch `hei=` müssen angegeben werden, damit die Anpassungsmodi sich wie beschrieben verhalten. Ein Fehler wird zurückgegeben, wenn `req=tmb` ebenfalls angegeben ist.
+Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung. Es muss mindestens einer von `wid=` oder `hei=` angegeben werden, andernfalls wird ein Fehler zurückgegeben. sowohl `wid=` als auch `hei=` müssen angegeben werden, damit sich die Anpassungsmodi wie beschrieben verhalten. Ein Fehler wird zurückgegeben, wenn auch `req=tmb` angegeben ist.
 
 ## Standard {#section-3a553b4b29ef447a8331d6954f3f06da}
 
