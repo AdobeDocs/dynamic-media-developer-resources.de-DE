@@ -2,16 +2,15 @@
 description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+role: Developer,User
+exl-id: 89aafe05-a4d8-41c9-8621-9097f8dbc275
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 9%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
-
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
@@ -30,7 +29,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-Gibt die Anzahl der Farbfelder an, die bei jedem Klick oder Tippen auf die entsprechende Bildlauftaste durchlaufen werden sollen.
+Gibt die Anzahl der Farbfelder an, die bei jedem Klick oder Tippen auf die entsprechende Bildlaufschaltfläche gescrollt werden sollen.
 
 ## Eigenschaften {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
