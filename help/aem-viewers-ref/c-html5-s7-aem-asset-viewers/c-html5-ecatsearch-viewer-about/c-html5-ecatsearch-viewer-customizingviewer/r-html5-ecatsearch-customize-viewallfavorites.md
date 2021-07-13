@@ -1,25 +1,24 @@
 ---
-description: Die Position der Schaltfläche wird vollständig über das Menü "Favoriten"verwaltet.
+description: Die Position der Schaltfläche wird vollständig über das Menü Favoriten verwaltet.
 solution: Experience Manager
-title: Schaltfläche "Ansicht - Alle Favoriten"
+title: Schaltfläche "Alle Favoriten anzeigen"
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d048ffc4-7819-4897-8ea3-8b678365d5e9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
+# Schaltfläche &quot;Alle Favoriten anzeigen&quot;{#view-all-favorites-button}
 
-# Schaltfläche &quot;Alle Favoriten&quot;für Ansicht{#view-all-favorites-button}
-
-Die Position der Schaltfläche wird vollständig über das Menü &quot;Favoriten&quot;verwaltet.
+Die Position der Schaltfläche wird vollständig über das Menü Favoriten verwaltet.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Das Erscheinungsbild der Schaltfläche &quot;Alle Favoriten&quot;der Ansicht wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Schaltfläche Alle Favoriten anzeigen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7viewallfavoritebutton
@@ -35,7 +34,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Alle Favoriten&quot;der Ansicht wir
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -50,11 +49,11 @@ Das Erscheinungsbild der Schaltfläche &quot;Alle Favoriten&quot;der Ansicht wir
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die Attributselektoren `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status, in dem ein Benutzer durch Klicken oder Tippen ein neues Favoritensymbol hinzufügen kann. `selected='false'` entspricht dem normalen Betriebsmodus, wenn ein Benutzer Seiten heranzoomen, schwenken und austauschen kann.
+>Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status, in dem ein Benutzer durch Klicken oder Tippen ein neues Favoritensymbol hinzufügen kann. `selected='false'` entspricht dem normalen Betriebsmodus, in dem ein Benutzer Seiten zoomen, schwenken und austauschen kann.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Um eine Schaltfläche mit den Favoriten &quot;Ansicht&quot;einzurichten, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenzustände ein anderes Bild anzeigt, wenn sie ausgewählt ist oder nicht.
+Beispiel: Zum Einrichten einer Schaltfläche Alle Favoriten anzeigen , die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt, wenn diese ausgewählt sind oder nicht.
 
 ```
 .s7ecatalogsearchviewer .s7viewallfavoritebutton { 
@@ -86,4 +85,3 @@ background-image:url(images/v2/ViewAllFavoritesButton_dark_over.png);
 background-image:url(images/v2/ViewAllFavoritesButton_dark_disabled.png); 
 }
 ```
-
