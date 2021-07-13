@@ -3,15 +3,14 @@ description: Die in diesem Abschnitt beschriebenen Attribute werden in Katalogat
 solution: Experience Manager
 title: Katalogattribute
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 591dbbbf-770b-4566-9dc2-9f1eefe438e4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
-
 
 # Katalogattribute{#catalog-attributes}
 
@@ -19,8 +18,8 @@ Die in diesem Abschnitt beschriebenen Attribute werden in Katalogattributdateien
 
 * [Katalogverwaltung](r-catalog-management.md)
 * [Anforderungsattribute](r-request-attributes.md)
-* [Standardanforderungsattribute](r-default-request-attributes.md)
-* [Farbmanagementattribute](r-color-management-attributes.md)
+* [Standardmäßige Anfrageattribute](r-default-request-attributes.md)
+* [Farbverwaltungsattribute](r-color-management-attributes.md)
 * [Allgemeine Attribute für Miniaturansichten](r-common-thumbnail-attributes.md)
-* [Standardwerte für Katalogfelder](r-defaults-for-catalog-fields.md)
+* [Standardeinstellungen für Katalogfelder](r-defaults-for-catalog-fields.md)
 * [Videoattribute](r-video-attributes.md)
