@@ -3,15 +3,14 @@ description: Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
 solution: Experience Manager
 title: Katalogverwaltung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c29858a7-6695-4c40-a818-4161a2e97ff5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # Katalogverwaltung{#catalog-management}
 
@@ -28,7 +27,7 @@ Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md#reference-1d5505d9d1b74fe5ba63fbdf7893eb0d" type="reference" format="dita" scope="local"> StaticContentCatalogFile</a> </span> </p></td> 
-  <td class="stentry"> <p>Namen der zugehörigen Datendateien für statischen Inhalt. </p></td> 
+  <td class="stentry"> <p>Namen der zugehörigen statischen Inhaltsdatendateien. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md#reference-22e077d4595b45b6a6e549b8499ecb76" type="reference" format="dita" scope="local"> FontMapFile</a> </span> </p></td> 
@@ -40,7 +39,7 @@ Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </span> </p></td> 
-  <td class="stentry"> <p>Name der zugehörigen ICC-Profil-Map-Datei. </p></td> 
+  <td class="stentry"> <p>Name der zugehörigen ICC-Profilzuordnungsdatei. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> RuleSetFile</a> </span> </p></td> 
@@ -48,19 +47,19 @@ Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546" type="reference" format="dita" scope="local"> RootId</a> </span> </p></td> 
-  <td class="stentry"> <p>Katalog-ID. </p></td> 
+  <td class="stentry"> <p>Katalogkennung. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local"> RootPath</a> </span> </p></td> 
-  <td class="stentry"> <p>Stammpfad für nicht-statische Quelldatendateien (Profile, Schriftarten). </p></td> 
+  <td class="stentry"> <p>Stammpfad für nicht statische Quelldatendateien (Bilder, Profile, Schriftarten). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5" type="reference" format="dita" scope="local"> StaticContentRootPath</a> </span> </p></td> 
-  <td class="stentry"> <p>Stammpfad für Datendateien mit statischen Inhalten. </p></td> 
+  <td class="stentry"> <p>Stammpfad für statische Inhaltsquellendatendateien. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> SavePath</a> </span> </p></td> 
-  <td class="stentry"> <p>Stammpfad für Bilder, die in eine Datei auf dem Server geschrieben werden. </p></td> 
+  <td class="stentry"> <p>Stammpfad für Bilder, die in eine Datei auf dem Server geschrieben wurden. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch</a> </span> </p></td> 
@@ -76,15 +75,14 @@ Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57" type="reference" format="dita" scope="local"> CacheValidationPolicy</a> </span> </p></td> 
-  <td class="stentry"> <p>Validierungsrichtlinie für den Server-Cache </p></td> 
+  <td class="stentry"> <p>Validierungsrichtlinie für Server-Cache. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8" type="reference" format="dita" scope="local"> UseLastModified</a> </span> </p></td> 
-  <td class="stentry"> <p>Zuletzt geänderte HTTP-Antwort-Kopfzeilen aktivieren. </p></td> 
+  <td class="stentry"> <p>Zuletzt geänderte HTTP-Antwortheader aktivieren. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles</a> </span> </p></td> 
-  <td class="stentry"> <p>Aktivieren Sie synthetische fett-/kursiv formatierte Stile. </p></td> 
+  <td class="stentry"> <p>Aktivieren Sie synthetische fett/kursiv formatierte Stile. </p></td> 
  </tr> 
 </table>
-
