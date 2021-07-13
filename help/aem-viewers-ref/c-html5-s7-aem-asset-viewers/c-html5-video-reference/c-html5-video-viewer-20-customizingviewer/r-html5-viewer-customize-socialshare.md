@@ -1,54 +1,53 @@
 ---
-description: Das Social Sharing-Tool wird standardmäßig oben rechts angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
+description: Das Social-Sharing-Tool wird standardmäßig in der oberen rechten Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Tools zur Freigabe enthält.
 solution: Experience Manager
-title: Social Sharing
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Social Share
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
 
+# Social Share{#social-share}
 
-# Social Sharing{#social-share}
-
-Das Social Sharing-Tool wird standardmäßig oben rechts angezeigt. Es besteht aus einer Schaltfläche und einem Bereich, der erweitert wird, wenn der Benutzer auf eine Schaltfläche klickt oder darauf tippt und einzelne Freigabewerkzeuge enthält.
+Das Social-Sharing-Tool wird standardmäßig in der oberen rechten Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Tools zur Freigabe enthält.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Die Position und Größe des Social Sharing-Tools in der Benutzeroberfläche des Viewers wird wie folgt gesteuert:
+Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in der Viewer-Benutzeroberfläche wird wie folgt gesteuert:
 
 ```
 .s7videoviewer .s7socialshare
 ```
 
-**CSS-Eigenschaften des Social Sharing-Tools**
+**CSS-Eigenschaften des Tools für die Freigabe in sozialen Netzwerken**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p> Vertikale Position des Social Sharing-Tools im Verhältnis zum Viewer-Container. </p> </td> 
+   <td colname="col2"> <p> Vertikale Position des Tools für die Freigabe in sozialen Netzwerken relativ zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p> Horizontale Position des Social Sharing-Werkzeugs relativ zum Viewer-Container. </p> </td> 
+   <td colname="col2"> <p> Horizontale Position des Tools für die Freigabe in sozialen Netzwerken im Verhältnis zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Die Breite des Social Sharing-Tools. </p> </td> 
+   <td colname="col2"> <p> Die Breite des Social-Sharing-Tools. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Die Höhe des Social Sharing-Tools. </p> </td> 
+   <td colname="col2"> <p>Die Höhe des Social-Sharing-Tools. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie ein Social Sharing-Tool ein, das vier Pixel von oben und fünf Pixel von rechts vom Viewer-Container positioniert wird und eine Größe von 28 x 28 Pixel aufweist.
+Beispiel: Richten Sie ein Social-Sharing-Tool ein, das vier Pixel von der Oberseite und fünf Pixel von der rechten Seite des Viewer-Containers positioniert und auf 28 x 28 Pixel skaliert ist.
 
 ```
 .s7videoviewer .s7socialshare { 
@@ -59,7 +58,7 @@ Beispiel: Richten Sie ein Social Sharing-Tool ein, das vier Pixel von oben und f
 }
 ```
 
-Das Erscheinungsbild der Schaltfläche für das Social Sharing-Tool wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Schaltfläche für das Social-Sharing-Tool wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7videoviewer .s7socialshare .s7socialbutton
@@ -75,18 +74,18 @@ Das Erscheinungsbild der Schaltfläche für das Social Sharing-Tool wird mit der
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
-Beispiel: Richten Sie eine Social Sharing-Tool-Schaltfläche ein, mit der für jeden der vier Schaltflächenzustände ein anderes Bild angezeigt wird.
+Beispiel: Richten Sie eine Schaltfläche für das Social-Sharing-Tool ein, die für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
 
 ```
 .s7videoviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -103,13 +102,13 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-Das Erscheinungsbild des Bedienfelds mit den einzelnen Social Sharing-Symbolen wird mithilfe der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Bedienfelds, das die einzelnen Symbole für die Freigabe in sozialen Netzwerken enthält, wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7videoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**CSS-Eigenschaften des Social Sharing-Bedienfelds**
+**CSS-Eigenschaften des Bedienfelds &quot;Social Share&quot;**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
@@ -127,4 +126,3 @@ Beispiel: Richten Sie ein Bedienfeld ein, das eine transparente Farbe hat:
  background-color: transparent; 
 }
 ```
-
