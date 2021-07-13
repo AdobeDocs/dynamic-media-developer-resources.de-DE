@@ -1,25 +1,24 @@
 ---
-description: Auflösung. "Real-world"-Bildauflösung, die normalerweise in Pixel pro Zoll angegeben wird, aber auch in anderen Einheiten, z. B. in Pixeln pro Meter, enthalten sein kann.
+description: Auflösung. Bildauflösung "Echtzeit", die normalerweise in Pixel pro Zoll ausgedrückt wird, aber auch in anderen Einheiten wie Pixeln pro Meter enthalten sein kann.
 solution: Experience Manager
 title: Auflösung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 7%
 
 ---
 
-
 # Auflösung{#resolution}
 
-Auflösung. &quot;Real-world&quot;-Bildauflösung, die normalerweise in Pixel pro Zoll angegeben wird, aber auch in anderen Einheiten, z. B. in Pixeln pro Meter, enthalten sein kann.
+Auflösung. Bildauflösung &quot;Echtzeit&quot;, die normalerweise in Pixel pro Zoll ausgedrückt wird, aber auch in anderen Einheiten wie Pixeln pro Meter enthalten sein kann.
 
 ## Eigenschaften {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-Echte Zahl, größer als 0. Erforderlich für Textur- und Dekormaterialien, es sei denn, die Bildauflösung ist mit attribute::Resolution identisch. Ingnotiert von festen Farben und Möbeln.
+Real Zahl, größer als 0. Erforderlich für Textur- und Dekormaterialien, es sei denn, die Bildauflösung ist mit der des Attributs::Resolution identisch. Ignoriert durch feste Farbe und Möbel.
 
 ## Standard {#section-b1d044e211194242a900aaef4a8c8e6f}
 
