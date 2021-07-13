@@ -3,9 +3,9 @@ description: Die Videozeit ist die numerische Anzeige, die die aktuelle Zeit und
 solution: Experience Manager
 title: Videodauer
 feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 2%
