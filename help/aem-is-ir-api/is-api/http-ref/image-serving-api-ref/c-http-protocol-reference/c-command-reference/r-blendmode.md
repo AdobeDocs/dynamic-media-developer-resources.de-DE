@@ -1,21 +1,20 @@
 ---
-description: Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Übergangsmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Photoshop-Dokumentation.
+description: Übergangsmodus. Gibt den Typ der beim Zusammenstellen der Ebene verwendeten Mischung an. Simuliert häufig verwendete Mischmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Dokumentation zu Photoshop .
 solution: Experience Manager
 title: blendMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 15%
 
 ---
 
+# mergeMode{#blendmode}
 
-# blendMode{#blendmode}
-
-Übergangsmodus. Gibt die Art der Mischung an, die beim Zusammenstellen der Ebene verwendet wird. Simuliert häufig verwendete Übergangsmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Photoshop-Dokumentation.
+Übergangsmodus. Gibt den Typ der beim Zusammenstellen der Ebene verwendeten Mischung an. Simuliert häufig verwendete Mischmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Dokumentation zu Photoshop .
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
