@@ -1,23 +1,22 @@
 ---
-description: Das Handbuch Image Serving utilities enthält Informationen zu Dienstprogrammen, die mit dem Dynamic Media Image Server und dem Image Rendering verwendet werden.
+description: Das Handbuch zu Image Serving-Dienstprogrammen enthält Informationen zu Dienstprogrammen, die mit Dynamic Media Image Server und Image Rendering verwendet werden.
 solution: Experience Manager
 title: Image Serving-Dienstprogramme
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: afca4d90-546f-4725-85b4-25bd487d50f6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
 
+# Image Serving-Dienstprogramme{#image-serving-utilities}
 
-# Image Serving utilities{#image-serving-utilities}
+Das Handbuch zu Image Serving-Dienstprogrammen enthält Informationen zu Dienstprogrammen, die mit Dynamic Media Image Server und Image Rendering verwendet werden.
 
-Das Handbuch Image Serving utilities enthält Informationen zu Dienstprogrammen, die mit dem Dynamic Media Image Server und dem Image Rendering verwendet werden.
-
-* [Ort der Versorgungseinrichtungen](c-location-of-utilities.md)
+* [Standort der Versorgungsunternehmen](c-location-of-utilities.md)
 * [ic](r-ic.md)
 * [ImageServing](r-imageserving.md)
 * [validieren](r-is-utils-validate.md)
