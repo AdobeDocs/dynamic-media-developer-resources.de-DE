@@ -3,15 +3,14 @@ description: Bild (Standard). Fordert Standardbilddaten an.
 solution: Experience Manager
 title: img
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5338358e-755b-41d6-a941-8754d0deb9aa
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # img{#img}
 
@@ -19,6 +18,6 @@ Bild (Standard). Fordert Standardbilddaten an.
 
 `req=img`
 
-Das Antwortdatenformat und der AntwortmIME-Typ werden von `fmt=` bestimmt. `req=img` ist der Standardanforderungstyp und muss nicht explizit angegeben werden. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
+Das Antwortdatenformat und der Antwort-MIME-Typ werden von `fmt=` bestimmt. `req=img` ist der standardmäßige Anfragetyp und muss nicht explizit angegeben werden. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
 
-Andere Anforderungsbefehle werden wie dokumentiert angewendet.
+Andere Anfragebefehle werden wie dokumentiert angewendet.
