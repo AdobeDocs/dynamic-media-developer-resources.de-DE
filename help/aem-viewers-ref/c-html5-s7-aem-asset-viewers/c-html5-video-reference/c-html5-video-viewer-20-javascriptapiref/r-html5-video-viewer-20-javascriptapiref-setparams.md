@@ -2,16 +2,15 @@
 description: JavaScript-API-Referenz für Video-Viewer.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -19,7 +18,7 @@ JavaScript-API-Referenz für Video-Viewer.
 
 ` setParams( *`params`*)`
 
-Legt einen oder mehrere Parameter auf einen bestimmten Wert fest. Die Methodenargument-Syntax ist mit einer URL-Abfrage identisch. Das heißt, sie repräsentiert Paare des Typs &quot;name=Wert&quot;, die durch `&` getrennt sind. Dasselbe wie in einer Abfrage-Zeichenfolge sind Namen und Werte in Prozent mit UTF8 kodiert. Bevor Sie `init()` aufrufen, muss dieser Parameter aufgerufen werden.
+Legt einen oder mehrere Parameter auf einen bestimmten Wert fest. Die Methodenargument-Syntax ist mit einer URL-Abfragezeichenfolge identisch. Das heißt, es stellt Name=Wert-Paare dar, getrennt durch `&`. Dasselbe wie in einer Abfragezeichenfolge sind Namen und Werte prozentual mit UTF8 kodiert. Bevor Sie `init()` aufrufen, muss dieser Parameter aufgerufen werden.
 
 Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
@@ -34,7 +33,7 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
@@ -43,4 +42,3 @@ Keine.
 ```
 <instance>.setParams("style=customStyle.css&VideoPlayer.playback=progressive")
 ```
-
