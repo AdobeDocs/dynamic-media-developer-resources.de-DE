@@ -1,21 +1,20 @@
 ---
-description: Der Zoomindikator wird über dem Hauptbereich der Ansicht angezeigt. Es wird angezeigt, wenn sich das Bild im Reset-Zustand befindet und es auch vom iconeffect-Parameter abhängt.
+description: Der Zoom-Indikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet und auch vom iconffekt-Parameter abhängig ist.
 solution: Experience Manager
-title: Symbol, Effekt
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Symboleffekt
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: 5f50cb66-e5b4-42c6-8917-a954d8d80154
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
 
-
 # Symboleffekt{#icon-effect}
 
-Der Zoomindikator wird über dem Hauptbereich der Ansicht angezeigt. Es wird angezeigt, wenn sich das Bild im Reset-Zustand befindet und es auch vom iconeffect-Parameter abhängt.
+Der Zoom-Indikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet und auch vom iconffekt-Parameter abhängig ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,28 +36,28 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Bildmaterial für Zoomindikatoren </p> </td> 
+   <td colname="col2"> <p> Zoom-Indikatorgrafik. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite des Zoomindikators. </p> </td> 
+   <td colname="col2"> <p>Zoom-Indikatorbreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Zoomindikators. </p> </td> 
+   <td colname="col2"> <p>Zoomanzeigenhöhe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Der Symboleffekt unterstützt die Attributauswahl `media-type`, mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen die Mauseingabe normalerweise verwendet wird, und `media-type='multitouch'` Geräten mit Berührungseingabe.
+>Der Symboleffekt unterstützt die Attributauswahl `media-type`, mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen normalerweise die Mauseingabe verwendet wird, und `media-type='multitouch'` Geräten mit Touch-Eingabe.
 
-Beispiel: So richten Sie einen Zoomindikator mit 100 x 100 Pixel ein, der für Desktop-Systeme und Touch-Geräte unterschiedliche Grafiken enthält.
+Beispiel: Einrichten eines Zoom-Indikators mit einer Größe von 100 x 100 Pixel mit unterschiedlichen Grafiken für Desktop-Systeme und Touch-Geräte.
 
 ```
 .s7zoomviewer .s7zoomview .s7iconeffect { 
@@ -72,4 +71,3 @@ Beispiel: So richten Sie einen Zoomindikator mit 100 x 100 Pixel ein, der für D
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
