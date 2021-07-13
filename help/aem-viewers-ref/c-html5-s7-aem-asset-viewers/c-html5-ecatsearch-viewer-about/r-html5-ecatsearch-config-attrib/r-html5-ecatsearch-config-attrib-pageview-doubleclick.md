@@ -3,15 +3,14 @@ description: PageView.doubleclick
 solution: Experience Manager
 title: PageView.doubleclick
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e6baef83-b4a8-4bef-bb13-263f3875030d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
-
 
 # PageView.doubleclick{#pageview-doubleclick}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Zuordnung von Dublette-Klick/Tippen zu Zoomaktionen. Wenn Sie auf <span class="codeph"> none </span> festlegen, wird der Zoom bei Dublette-Klick/Tippen deaktiviert. Wenn auf <span class="codeph"> </span> festgelegt, klicken Sie in einem Zoomschritt auf das Bild. Strg+Klicken verkleinert einen Zoomschritt. Wenn Sie auf <span class="codeph"> zurücksetzen </span> klicken, wird der Zoom durch einen einzigen Klick auf das Bild auf den anfänglichen Zoomgrad zurückgesetzt. Für <span class="codeph"> zoomReset </span> wird das Zurücksetzen angewendet, wenn der aktuelle Zoomfaktor den angegebenen Grenzwert erreicht oder überschreitet, andernfalls wird das Zoomen angewendet. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Zuordnung von Doppelklick/Tippen zu Zoom-Aktionen. Wenn Sie auf <span class="codeph"> none </span> festlegen, wird der Doppelklick/Tippen auf Zoom deaktiviert. Wenn auf <span class="codeph"> Zoomen </span> festgelegt, wird das Bild durch Klicken in einem Zoomschritt vergrößert. Strg+Klicken Zoomt einen Zoomschritt aus. Wird auf <span class="codeph"> </span> zurückgesetzt, wird der Zoom durch einen einzelnen Klick auf das Bild auf den anfänglichen Zoomfaktor zurückgesetzt. Für <span class="codeph"> zoomReset </span> wird das Zurücksetzen angewendet, wenn der aktuelle Zoomfaktor den angegebenen Grenzwert erreicht oder überschreitet. Andernfalls wird der Zoom angewendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,7 +31,7 @@ Optional.
 
 ## Standard {#section-814d6bc6a0834005a0a72c7040e45693}
 
-[!DNL `reset`] auf Desktop-Computern;  [!DNL `zoomReset`] auf Touch-Geräten.
+[!DNL `reset`] auf Desktop-Computern,  [!DNL `zoomReset`] auf Touch-Geräten.
 
 ## Beispiel {#section-986e7672f3694b7aa7572fb4428172ca}
 
