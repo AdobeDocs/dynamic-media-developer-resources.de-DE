@@ -1,21 +1,20 @@
 ---
-description: Parameter, die allen Viewern gemein sind.
+description: Parameter, die allen Viewern gemeinsam sind.
 solution: Experience Manager
 title: asset
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
 
-# asset{#asset}
+# Asset{#asset}
 
-Parameter, die allen Viewern gemein sind.
+Parameter, die allen Viewern gemeinsam sind.
 
 ` asset= *`assetId`*`
 
@@ -28,7 +27,7 @@ Parameter, die allen Viewern gemein sind.
  </tbody> 
 </table>
 
-Diese Eigenschaft ist erforderlich, es sei denn, der Parameter `video` wird verwendet. Siehe [Unterstützung für externe Videos](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) unter Video oder [Unterstützung für externe Videos](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) unter Video360.
+Diese Eigenschaft ist erforderlich, es sei denn, der Parameter `video` wird verwendet. Siehe [Externe Video-Unterstützung](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) unter Video oder [Externe Video-Unterstützung](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) unter Video360.
 
 oder
 
@@ -38,36 +37,36 @@ oder
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt ein einzelnes Bild oder einen Karussellsatz an. Wenden Sie die HTTP-Kodierung der Dublette auf alle unsicheren Zeichen an, die im Bildnamen oder im Karussellsatznamen vorhanden sind. </p> </td> 
+   <td colname="col2"> <p> Gibt ein einzelnes Bild oder Karussellset an. Wenden Sie eine doppelte HTTP-Kodierung auf alle nicht sicheren Zeichen an, die im Bildnamen oder im Karussellset-Namen vorhanden sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 oder
 
-` asset= *``* | *``* | *``* | *``* [%3F *`imageListimageListWithModifiersmultiDimensionalSpinSetmodifiers`*]`
+` asset= *``* | *``* | *``* | *``* [%3F *`imageimageListimageListWithModifiersmultiDimensionalSpinSetmodifiers`*]`
 
 <table id="table_A2A0ACD942E942BC99AF0DC80FB1C670"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt ein einzelnes Bild an. Wenden Sie die HTTP-Kodierung der Dublette auf alle unsicheren Zeichen an, die im Bildnamen vorhanden sind. </p> <p>Oder gibt einen Verweis auf einen Bildsatz an. Der Viewer ruft Bildsätze vom Server ab, indem er die Anforderung <span class="codeph"> req=set IS </span> verwendet. </p> </td> 
+   <td colname="col2"> <p> Gibt ein einzelnes Bild an. Wenden Sie eine doppelte HTTP-Kodierung auf alle nicht sicheren Zeichen an, die im Bildnamen vorhanden sind. </p> <p>Oder gibt einen Verweis auf ein Bildset an. Der Viewer ruft Bildsets vom Server mithilfe der Anforderung <span class="codeph"> req=set IS </span> ab. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen expliziten Bildsatz an, der aus einer sortierten Folge von Elementen oder Rahmen besteht, die durch Kommas getrennt sind. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Gibt einen expliziten Bildsatz an, der aus einer sortierten Sequenz von Elementen oder Rahmen besteht, getrennt durch Kommas. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen expliziten Bildsatz an, bei dem jeder Rahmen über eigene Image Serving-Modifikatoren verfügt. In diesem Fall wird die Liste der Rahmen in Klammern eingeschlossen. Achten Sie darauf, dass Sie die HTTP-Kodierung der Dublette auf alle Kommas anwenden, die im frame-spezifischen Image Serving-Modifikator vorhanden sind. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Gibt ein explizites Bildset an, in dem jeder Frame über eigene Image Serving-Modifikatoren verfügt. In diesem Fall wird die Liste der Frames in Klammern eingeschlossen. Stellen Sie sicher, dass Sie die doppelte HTTP-Kodierung auf alle Kommas anwenden, die im frame-spezifischen Image Serving-Modifikator vorhanden sind. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt ein explizites mehrdimensionales Rotationsset mit der folgenden Syntax an: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> wobei <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> eine kommagetrennte Liste von Frames für eine gegebene horizontale Achse ist. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> sollten dieselbe Anzahl von Frames haben. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p>Gibt unter Verwendung der folgenden Syntax ein explizites mehrdimensionales Rotationsset an: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> wobei <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> eine kommagetrennte Liste von Frames für eine bestimmte horizontale Achse ist. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> sollten dieselbe Anzahl von Frames aufweisen. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Modifikatoren  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Image Serving-Befehle, <span class="codeph"> &amp; </span> und <span class="codeph"> = </span>-Trennzeichen müssen als <span class="codeph"> %26 </span> und <span class="codeph"> %3D </span> HTTP-kodiert sein. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifiers  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Image Serving-Befehle; <span class="codeph"> &amp; </span> und <span class="codeph"> = </span> Trennzeichen müssen HTTP-kodiert sein als <span class="codeph"> %26 </span> bzw. <span class="codeph"> %3D </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,38 +79,38 @@ oder
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> mediaSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen Verweis auf einen Mediensatz an. Der Viewer ruft Mediensets vom Server ab, indem er die IS-Anforderung "req=set"verwendet. </p> </td> 
+   <td colname="col2"> <p> Gibt einen Verweis auf ein Medienset an. Der Viewer ruft mithilfe der IS-Anfrage req=set Mediensets vom Server ab. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Einzelnes Video oder adaptives Videoset. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Video  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Einzelnes Video oder adaptives Videoset. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Einzelnes Bild. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Einzelnes Bild. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Musterset. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Musterset. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Musterbild. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p>Musterbild. </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Medienset-Elementtyp-ID kann einer der folgenden sein: </p> <p> 
+   <td colname="col2"> <p> Die Elementtyp-ID für Mediensets kann eine der folgenden sein: </p> <p> 
      <ul id="ul_3100F9356628498DA820C07F6F69CC9B"> 
       <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image  </span> </p> <p>Für ein einzelnes Bild. </p> </li> 
       <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset  </span> </p> <p>Für verschachtelte Mustersets. </p> </li> 
-      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> spin  </span> </p> <p>Für Rotationsset. </p> </li> 
-      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>Für ein einzelnes Video. </p> </li> 
+      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> drehen  </span> </p> <p>Für Rotationssets. </p> </li> 
+      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> Video  </span> </p> <p>Für ein einzelnes Video. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>Für adaptive Videosets. </p> </li> 
-     </ul> </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. es wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
+     </ul> </p> <p> <p>Hinweis:  Diese Funktion wird in Adobe Dynamic Media Classic unterstützt. wird in Adobe Experience Manager Assets nicht unterstützt. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Modifikatoren  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Image Serving-Befehle, <span class="codeph"> &amp; </span> und <span class="codeph"> = </span>-Trennzeichen müssen als <span class="codeph"> %26 </span> und <span class="codeph"> %3D </span> HTTP-kodiert sein. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifiers  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Image Serving-Befehle; <span class="codeph"> &amp; </span> und <span class="codeph"> = </span> Trennzeichen müssen HTTP-kodiert sein als <span class="codeph"> %26 </span> bzw. <span class="codeph"> %3D </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,25 +159,25 @@ oder
 asset=Viewers/space_station_360-AVS
 ```
 
-Einzelner Verweis auf einen Bildsatz, der in einem Katalog definiert ist:
+Einzelverweis auf ein in einem Katalog definiertes Bildset:
 
 ```
 asset=Viewers/Pluralist
 ```
 
-Expliziter Bildsatz:
+Explizites Bildset:
 
 ```
 asset=Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C
 ```
 
-Explizite Bildsätze mit Bildserving-Modifikatoren:
+Explizites Bildset mit Frame-spezifischen Image Serving-Modifikatoren:
 
 ```
 asset=(Scene7SharedAssets/Backpack_B%3Fop_colorize%3D255%252C0%252C0,Scene7SharedAssets/Backpack_B%3Fop_colorize%3D0x00ff00)
 ```
 
-Einzelner Verweis auf ein Rotationsset, das in einem Katalog definiert ist:
+Einzelverweis auf ein Rotationsset, das in einem Katalog definiert ist:
 
 ```
 asset=Scene7SharedAssets/SpinSet-Sample
@@ -202,13 +201,13 @@ Referenz zu einzelnen gemischten Mediensets:
  asset=Scene7SharedAssets/Mixed_Media_Set_Sample
 ```
 
-Explizite gemischte Mediensets:
+Explizites gemischtes Medienset:
 
 ```
 asset=Scene7SharedAssets/Backpack_J;;advanced_image;,Scene7SharedAssets/Frame-6;;advanced_image;,Scene7SharedAssets/Frame-2;;advanced_image;,Scene7SharedAssets/SpinSet_Sample;;spin;,Scene7SharedAssets/ImageSet-Colors-Sample;;advanced_swatchset;,Scene7SharedAssets/Glacier_Climber_640x360;Scene7SharedAssets/Glacier_Climber_640x360;video;
 ```
 
-Scharfzeichnungsmodifizierer, der allen Bildern im Satz hinzugefügt wird:
+Der Scharfzeichnungsmodifikator wurde allen Bildern im Set hinzugefügt:
 
 ```
 asset=Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C%3Fop_sharpen=%3D1
