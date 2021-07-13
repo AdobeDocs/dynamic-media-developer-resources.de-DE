@@ -1,22 +1,21 @@
 ---
-description: Der Auflösungswert einer wiederholbaren Textur oder eines anderen Materials definiert die Größe des Materialbilds im Szenenkoordinatenraum.
+description: Der Auflösungswert einer wiederholbaren Textur oder eines anderen Materials definiert die Größe des Materialbilds im Koordinatenraum der Szene.
 solution: Experience Manager
 title: Materialauflösung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8a02e555-87cf-47a8-823d-d6833c0fd9c7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
-
 # Materialauflösung{#material-resolution}
 
-Der Auflösungswert einer wiederholbaren Textur oder eines anderen Materials definiert die Größe des Materialbilds im Szenenkoordinatenraum.
+Der Auflösungswert einer wiederholbaren Textur oder eines anderen Materials definiert die Größe des Materialbilds im Koordinatenraum der Szene.
 
-Die Werte für die Auflösung der Textur werden in Pixel pro Zoll angegeben (oder je nachdem, welche Einheiten die Vignette für den Szenenkoordinatenraum vorgibt).
+Die Werte für die Texturauflösung werden in Pixel pro Zoll angegeben (oder je nachdem, welche Einheiten die Vignette für den Koordinatenraum der Szene vorgibt).
 
 Die Materialauflösung wird mit `res=` angegeben.
