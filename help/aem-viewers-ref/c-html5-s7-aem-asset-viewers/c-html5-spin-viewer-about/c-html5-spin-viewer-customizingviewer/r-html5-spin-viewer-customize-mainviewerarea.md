@@ -1,21 +1,20 @@
 ---
-description: Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Rotationsbild befindet. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
+description: Der Hauptansichtsbereich ist der Bereich, der vom Rotationsbild belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 solution: Experience Manager
-title: Hauptbereich des Viewers
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Hauptanzeige-Bereich
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: 6cd9c375-8890-4033-b187-b95b26dd6009
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
 
+# Hauptanzeige-Bereich{#main-viewer-area}
 
-# Hauptviewer-Bereich{#main-viewer-area}
-
-Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Rotationsbild befindet. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich ist der Bereich, der vom Rotationsbild belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -45,12 +44,12 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Viewers mit einem weißen Hintergrund ( `#FFFFFF`) und zur Größe von 512 x 288 Pixeln.
+Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
 
 ```
 .s7spinviewer { 
@@ -59,4 +58,3 @@ Beispiel: Zum Einrichten eines Viewers mit einem weißen Hintergrund ( `#FFFFFF`
  height: 288px;  
 }
 ```
-
