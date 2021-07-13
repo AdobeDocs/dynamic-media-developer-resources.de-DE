@@ -1,26 +1,25 @@
 ---
-description: Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen auch für Textebenen.
+description: Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen für Textebenen.
 solution: Experience Manager
-title: Befehle für Textebenen
+title: Textebenen-Befehle
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 1%
 
 ---
 
+# Textebenen-Befehle{#text-layer-commands}
 
-# Textebenenbefehle{#text-layer-commands}
-
-Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen auch für Textebenen.
+Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen für Textebenen.
 
 <table id="simpletable_DBCF90E140684FD19098EA810369337B"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767" type="reference" format="dita" scope="local"> textPs</a> </p></td> 
-  <td class="stentry"> <p>Bietet RTF für den Photoshop-kompatiblen Text-Renderer. </p></td> 
+  <td class="stentry"> <p>Stellt RTF für den Photoshop-kompatiblen Text-Renderer bereit. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d" type="reference" format="dita" scope="local"> textAttr</a> </p></td> 
@@ -44,11 +43,10 @@ Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen auch für Tex
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textangle.md#reference-447f624c0e764d0cb5c75846d1b44d15" type="reference" format="dita" scope="local"> textAngle</a> </p></td> 
-  <td class="stentry"> <p>Legt den Winkel der Textgrundlinie fest. </p></td> 
+  <td class="stentry"> <p>Legt den Grundwinkel des Textes fest. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f" type="reference" format="dita" scope="local"> Text</a> </p></td> 
   <td class="stentry"> <p>Stellt Ebenentext für den herkömmlichen Text-Renderer bereit. </p></td> 
  </tr> 
 </table>
-
