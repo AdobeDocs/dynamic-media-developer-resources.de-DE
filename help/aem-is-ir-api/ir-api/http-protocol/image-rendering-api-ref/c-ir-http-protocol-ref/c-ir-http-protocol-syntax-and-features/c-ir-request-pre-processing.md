@@ -1,32 +1,31 @@
 ---
-description: Das Image Rendering bietet einen einfachen Anforderungs-Vorprozessor basierend auf Übereinstimmungs- und Substitutionsregeln für reguläre Ausdruck.
+description: Das Bild-Rendering bietet einen einfachen Anforderungs-Vorprozessor, der auf Übereinstimmungs- und Ersatzregeln für reguläre Ausdrücke basiert.
 solution: Experience Manager
-title: Vorverarbeitung anfordern *
+title: Vorab-Bearbeitung anfordern *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
+# Vorab-Bearbeitung anfordern *{#request-pre-processing}
 
-# Vorverarbeitung anfordern *{#request-pre-processing}
+Das Bild-Rendering bietet einen einfachen Anforderungs-Vorprozessor, der auf Übereinstimmungs- und Ersatzregeln für reguläre Ausdrücke basiert.
 
-Das Image Rendering bietet einen einfachen Anforderungs-Vorprozessor basierend auf Übereinstimmungs- und Substitutionsregeln für reguläre Ausdruck.
+Regelsammlungen (Regelsätze) können an jeden Materialkatalog angehängt werden, einschließlich des Standardkatalogs. Regeln werden mit XML-formatierten Dateien angegeben.
 
-Regelsammlungen (Regelsätze) können an jeden Materialkatalog, einschließlich des Standardkatalogs, angehängt werden. Regeln werden mit XML-formatierten Dateien angegeben.
+Vorab-Verarbeitungsregeln für Anfragen können den Pfad und die Abfrageabschnitte von Anforderungen ändern, bevor sie vom Image Rendering-Parser verarbeitet werden. Dazu gehören das Manipulieren des Pfads, das Hinzufügen von Befehlen, das Ändern von Befehlswerten und das Anwenden von Vorlagen oder Makros. Regeln können auch verwendet werden, um bestimmte Funktionen zu konfigurieren und zu überschreiben, die normalerweise nur mit Katalogattributen gesteuert werden, z. B. das Festlegen der standardmäßigen Antwortbildgröße oder das Eingrenzen des HTTP-Dienstes auf bestimmte Client-IP-Adressen.
 
-Vorverarbeitungsregeln für Anfragen können die Pfad- und Abfrage von Anforderungen ändern, bevor sie vom Image Rendering-Parser verarbeitet werden. Dazu gehören die Änderung des Pfads, das Hinzufügen von Befehlen, das Ändern von Befehlswerten und das Anwenden von Vorlagen oder Makros. Regeln können auch verwendet werden, um bestimmte Funktionen zu konfigurieren und außer Kraft zu setzen, die normalerweise nur mit Katalogattributen gesteuert werden, wie z. B. das Festlegen der standardmäßigen Antwortbildgröße oder die Beschränkung des HTTP-Dienstes auf bestimmte Client-IP-Adressen.
+Vorab-Verarbeitungsregeln für Anfragen eignen sich für eine Vielzahl von Anwendungen, von denen einige im Folgenden aufgeführt sind:
 
-Vorverarbeitungsregeln für Anfragen sind für eine Vielzahl von Anwendungen geeignet, von denen einige im Folgenden aufgeführt sind:
+* Implementieren Sie einen Mechanismus *virtuelle Pfade*, der eine Neukodifizierung des Anfragepfads zu Datei-, FTP- und HTTP-Pfaden ermöglicht.
+* Die Verwendung von CPU-intensiven Befehlen wird untersagt, um Servermissbrauch zu verhindern.
+* Steuern Sie die Bildqualitätseinstellungen (z. B. JPEG-Qualität oder Scharfzeichnen) je nach Anfragepfad oder Bildname.
 
-* Implementieren Sie einen *Virtual Pfade*-Mechanismus, der eine Neuzuordnung des Anforderungspfads zu Datei-, FTP- und HTTP-Pfaden ermöglicht.
-* Die Verwendung von CPU-intensiven Befehlen zur Verhinderung von Servermissbrauch wird untersagt.
-* Kontrollieren Sie die Bildqualitätseinstellungen (z. B. JPEG-Qualität oder Scharfzeichnen) je nach Anforderungspfad oder Bildname.
+Ausführliche Informationen zum Erstellen, Verwenden und Verwalten von Regelsätzen finden Sie in der Referenz zu Regelsätzen.
 
-Ausführliche Informationen zum Erstellen, Verwenden und Verwalten von Regelsätzen finden Sie in der Regelsatzreferenz.
-
-Siehe auch Regelsatzreferenz, Attribut::RuleSetFile
+Siehe auch Regelsatzreferenz, attribute::RuleSetFile
