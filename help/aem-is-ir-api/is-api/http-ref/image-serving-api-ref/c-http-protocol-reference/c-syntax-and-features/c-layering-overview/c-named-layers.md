@@ -1,20 +1,19 @@
 ---
-description: Mit dem Befehl layer= können Sie einer Ebene einen Namen zuweisen und später auf dieselbe Ebene anhand des Namens und nicht anhand der Nummer der Ebene verweisen.
+description: Mit dem Befehl layer= kann einer Ebene ein Name zugewiesen werden, der später nach Namen und nicht nach Ebenennummer auf dieselbe Ebene verweist.
 solution: Experience Manager
-title: Benannte Ebenen
+title: Spezifische Ebenen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 23eab9c7-7a16-4902-920e-6ee3e78daa18
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
 
+# Spezifische Ebenen{#named-layers}
 
-# Benannte Ebenen{#named-layers}
+Mit dem Befehl layer= kann einer Ebene ein Name zugewiesen werden, der später nach Namen und nicht nach Ebenennummer auf dieselbe Ebene verweist.
 
-Mit dem Befehl layer= können Sie einer Ebene einen Namen zuweisen und später auf dieselbe Ebene anhand des Namens und nicht anhand der Nummer der Ebene verweisen.
-
-Auf diese Weise kann eine Vorlage benannte Ebenen definieren, auf die dann über die Anforderungs-URL verwiesen werden kann, ohne dass Variablen verwendet werden müssen.
+Auf diese Weise kann eine Vorlage benannte Ebenen definieren, die dann über die Anfrage-URL referenziert werden können, ohne Variablen verwenden zu müssen.
