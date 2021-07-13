@@ -1,21 +1,20 @@
 ---
-description: Bildkataloge bieten dem Server Informationen zu Bildern und unterstützenden Daten wie Schriftarten und ICC-Profilen.
+description: Bildkataloge liefern dem Server Informationen über Bilder und unterstützende Daten wie Schriftarten und ICC-Profile.
 solution: Experience Manager
-title: Bildkatalogverweis
+title: Bildkatalogreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 1%
 
 ---
 
+# Bildkatalogreferenz{#image-catalog-reference}
 
-# Bildkatalogverweis{#image-catalog-reference}
-
-Bildkataloge bieten dem Server Informationen zu Bildern und unterstützenden Daten wie Schriftarten und ICC-Profilen.
+Bildkataloge liefern dem Server Informationen über Bilder und unterstützende Daten wie Schriftarten und ICC-Profile.
 
 * [Überblick](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
 * [Aktualisieren von Bildkatalogen](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
