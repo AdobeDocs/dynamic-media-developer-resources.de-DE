@@ -3,21 +3,20 @@ description: Stammpfad für saveToFile=. Relativer Pfad für den Stammordner, in
 solution: Experience Manager
 title: SavePath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 6e2814b9-898f-4cf4-8e4f-aa972d554213
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
-
 
 # SavePath{#savepath}
 
 Stammpfad für saveToFile=. Relativer Pfad für den Stammordner, in den mit req=saveToFile generierte Bilder geschrieben werden sollen.
 
-`SavePath` ist ein Textzeichenfolgenwert.
+`SavePath` ist ein Textstring-Wert.
 
 ## Eigenschaften {#section-343d1371e966491c92854a8df14c3c50}
 
@@ -25,7 +24,7 @@ Textzeichenfolge. Muss leer oder ein gültiger relativer Ordnerpfad sein. Immer 
 
 ## Standard {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-Vererbt von `default::SavePath`, wenn nicht definiert. Das Speichern in Dateien ist deaktiviert, wenn der aufgelöste Wert leer ist.
+Vererbt von `default::SavePath` , falls nicht definiert. Das Speichern in Dateien ist deaktiviert, wenn der aufgelöste Wert leer ist.
 
 ## Verwandte Themen {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 
