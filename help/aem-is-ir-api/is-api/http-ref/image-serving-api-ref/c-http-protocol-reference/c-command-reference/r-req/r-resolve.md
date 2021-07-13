@@ -1,24 +1,23 @@
 ---
-description: Debug-Anforderung. Dieser Debugging-Befehl analysiert und verarbeitet die Anforderung, führt Bildkatalogsuche, Katalogmodifikator-Einschlüsse, Makro- und Variablenersetzungen usw. aus, genau wie req=img.
+description: Debug-Anfrage. Dieser Debugging-Befehl analysiert und verarbeitet die Anforderung, führt Bildkatalogsuche, Katalogmodifikations-Einschlüsse, Makro- und Variablenersetzungen usw. wie req=img aus.
 solution: Experience Manager
 title: auflösen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ef357c19-e725-4904-b635-102e75ff7518
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
 
-
 # auflösen{#resolve}
 
-Debug-Anforderung. Dieser Debugging-Befehl analysiert und verarbeitet die Anforderung, führt Bildkatalogsuche, Katalog::Modifier-Einschlüsse, Makro- und Variablenersetzungen usw. aus, genau wie req=img.
+Debug-Anfrage. Dieser Debugging-Befehl analysiert und verarbeitet die Anforderung, führt Bildkatalog-Suchvorgänge, Katalog::Modifier-Einschlüsse, Makro- und Variablenersetzungen usw. aus, wie req=img.
 
 `req=resolve`
 
-Die letzte Anforderungszeichenfolge wird anstelle des Ergebnisbilds mit dem MIME-Typ `text/plain` zurückgegeben.
+Die endgültige Anforderungszeichenfolge wird anstelle des Ergebnisbilds mit dem MIME-Typ `text/plain` zurückgegeben.
 
 Die HTTP-Antwort kann nicht zwischengespeichert werden.
