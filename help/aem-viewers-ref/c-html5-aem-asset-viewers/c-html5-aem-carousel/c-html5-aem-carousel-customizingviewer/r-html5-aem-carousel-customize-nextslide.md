@@ -1,25 +1,24 @@
 ---
-description: Wenn Sie auf die Schaltfläche "Nächste Folie"klicken oder darauf tippen, wird ein Benutzer zur nächsten Folie im Karussellsatz verschoben.
+description: Wenn Sie auf die Schaltfläche Nächste Folie klicken oder tippen, wird ein Benutzer zur nächsten Folie im Karussellset geleitet.
 solution: Experience Manager
 title: Nächste Folie
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
 # Nächste Folie{#next-slide}
 
-Wenn Sie auf die Schaltfläche &quot;Nächste Folie&quot;klicken oder darauf tippen, wird ein Benutzer zur nächsten Folie im Karussellsatz verschoben.
+Wenn Sie auf die Schaltfläche Nächste Folie klicken oder tippen, wird ein Benutzer zur nächsten Folie im Karussellset geleitet.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Diese Schaltfläche wird auf Touch-Geräten nicht angezeigt. Sie können diese Schaltfläche mit CSS skalieren, per Skin positionieren.
+Diese Schaltfläche wird auf Touch-Geräten nicht angezeigt. Sie können diese Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
@@ -37,11 +36,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position oben am Rand des Viewers. </p> </td> 
+   <td colname="col2"> <p>Position am oberen Rand der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position rechts neben dem Viewer-Rand. </p> </td> 
+   <td colname="col2"> <p>Position rechts neben der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
@@ -49,7 +48,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position am unteren Rand des Viewer-Rahmens. </p> </td> 
+   <td colname="col2"> <p>Position am unteren Rand der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,10 +64,10 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor  </span> </p> </td> 
    <td colname="col2"> <p>Cursortyp. </p> </td> 
   </tr> 
  </tbody> 
@@ -76,11 +75,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
-Beispiel: Zum Einrichten einer Schaltfläche für eine vorherige Folie, die 60 x 60 Pixel groß ist, 10 Pixel vom rechten und vertikal zentrierten Rand des Viewers entfernt angeordnet ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt.
+Beispiel: Zum Einrichten einer vorherigen Schaltfläche mit einer Größe von 60 x 60 Pixel, einer Positionierung von 10 Pixel vom rechten und vertikal zentrierten Viewer-Rahmen und der Anzeige eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 
