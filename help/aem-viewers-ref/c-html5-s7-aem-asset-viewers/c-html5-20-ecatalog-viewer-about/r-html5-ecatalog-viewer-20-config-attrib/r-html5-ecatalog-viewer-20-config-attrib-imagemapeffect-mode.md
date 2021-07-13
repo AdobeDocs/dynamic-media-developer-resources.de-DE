@@ -3,15 +3,14 @@ description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 86a3f04f-6593-4778-a8a4-1ec19800ceeb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 4%
 
 ---
-
 
 # ImageMapEffect.mode{#imagemapeffect-mode}
 
@@ -23,10 +22,10 @@ ht-degree: 4%
    <td colname="col1"> <p> <span class="codeph"> icon|region|auto|none  </span> </p> </td> 
    <td colname="col2"> <p>Gibt das Erscheinungsbild der Imagemap an. </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> Symbole  </span> für die Symbolzuordnung werden auf Desktop- und Touch-Geräten statisch angezeigt. </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> region  </span> rendert Imagemap-Regionen; auf dem Desktop werden sie beim Rollover und auf Touch-Geräten immer sichtbar angezeigt. </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> automatisch  </span> auf Desktop-Systemen werden Imagemap-Bereiche beim Rollover und auf Touch-Geräten immer sichtbar. </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> "none" </span> deaktiviert Imagemaps. </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> Symbole  </span> für Symbolzuordnungen werden auf dem Desktop und Touch-Geräten statisch angezeigt. </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> region  </span> rendert Imagemap-Regionen; auf dem Desktop werden sie beim Rollover und auf Touch-Geräten immer sichtbar. </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> automatisch  </span> auf Desktop-Systemen angezeigt werden, werden beim Rollover Bildzuordnungsbereiche angezeigt und auf Touch-Geräten sind immer Zuordnungssymbole sichtbar. </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> Keine  </span> deaktiviert Imagemaps. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
