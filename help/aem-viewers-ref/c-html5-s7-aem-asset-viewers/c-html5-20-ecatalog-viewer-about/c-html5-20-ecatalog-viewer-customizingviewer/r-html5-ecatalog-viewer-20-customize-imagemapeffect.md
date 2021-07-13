@@ -1,21 +1,20 @@
 ---
-description: Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich in Dynamic Media Classic erstellt wurden, oder rendert exakte Bereiche, die mit der Form der Original-Imagemaps übereinstimmen.
+description: Je nach Wert des Parameter mode zeigt der Viewer Imagemap-Symbole über der Hauptansicht an Stellen an, an denen Karten ursprünglich in Dynamic Media Classic erstellt wurden, oder rendert exakte Bereiche, die mit der Form der Originalbildzuordnungen übereinstimmen.
 solution: Experience Manager
-title: Imagemap-Effekt
+title: Bild-Map-Effekt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 3816118f-4eb7-4436-9f54-155dde077734
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '321'
 ht-degree: 1%
 
 ---
 
+# Bild-Map-Effekt{#image-map-effect}
 
-# Imagemap-Effekt{#image-map-effect}
-
-Je nach dem Wert des Parameters mode zeigt der Viewer Imagemap-Symbole über der Hauptversion an Orten an, an denen Maps ursprünglich in Dynamic Media Classic erstellt wurden, oder rendert exakte Bereiche, die mit der Form der Original-Imagemaps übereinstimmen.
+Je nach Wert des Parameter mode zeigt der Viewer Imagemap-Symbole über der Hauptansicht an Stellen an, an denen Karten ursprünglich in Dynamic Media Classic erstellt wurden, oder rendert exakte Bereiche, die mit der Form der Originalbildzuordnungen übereinstimmen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,7 +28,7 @@ Das Erscheinungsbild des Imagemap-Symbols wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Die CSS-Klasse `s7mapoverlay`, die in der Vergangenheit zum Formatieren von Imagemap-Symbolen verwendet wurde, ist jetzt veraltet. Verwenden Sie stattdessen `s7icon`.
+>Die CSS-Klasse `s7mapoverlay`, die in der Vergangenheit zum Formatieren von Imagemap-Symbolen verwendet wurde, wird jetzt nicht mehr unterstützt. Verwenden Sie stattdessen `s7icon` .
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -41,15 +40,15 @@ Das Erscheinungsbild des Imagemap-Symbols wird mit der folgenden CSS-Klassenausw
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Imagemap-Symbol-Grafik. </p> </td> 
+   <td colname="col2"> <p>Bildzuordnungssymbol. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite des Imagemap-Symbols in Pixel. </p> </td> 
+   <td colname="col2"> <p>Bildzuordnungssymbolbreite in Pixel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -60,9 +59,9 @@ Das Erscheinungsbild des Imagemap-Symbols wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Das Symbol &quot;Imagemap&quot;unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf die Symbolzustände `default` und `active` anwenden können.
+>Das Symbol &quot;Imagemap&quot;unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf die Symbolstatus `default` und `active` anwenden können.
 
-Beispiel: Richten Sie ein Imagemap-Symbol mit 28 x 28 Pixeln ein, das für jeden der beiden verschiedenen Symbolstatus ein anderes Bild anzeigt.
+Beispiel: Richten Sie ein Imagemap-Symbol mit 28 x 28 Pixel ein, das für jeden der beiden verschiedenen Symbolstatus ein anderes Bild anzeigt.
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7icon { 
@@ -78,7 +77,7 @@ opacity: 1;
 }
 ```
 
-Siehe auch [Imagemap-Unterstützung](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+Siehe auch [Unterstützung von Imagemaps](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
 
 Das Erscheinungsbild des Imagemap-Bereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -96,20 +95,20 @@ Das Erscheinungsbild des Imagemap-Bereichs wird mit der folgenden CSS-Klassenaus
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p> Füllfarbe des Imagemap-Bereichs. </p> <p>Wird im Format #RRGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) angegeben. </p> </td> 
+   <td colname="col2"> <p> Füllfarbe für Imagemap-Bereich. </p> <p>Wird im Format #RGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) angegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Füllfarbe des Imagemap-Bereichs. </p> <p>Wird im Format #RRGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) angegeben. </p> </td> 
+   <td colname="col2"> <p> Füllfarbe für Imagemap-Bereich. </p> <p>Wird im Format #RGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) angegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
-   <td colname="col2"> <p> Randstil für Imagemap-Bereiche. </p> <p>Angegeben als <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> color </span> </span>, wobei <span class="codeph"> <span class="varname"> width </span> </span> in Pixel und <span class="codeph"> <span class="varname"> color </span> </span> festgelegt ist #RRGGBB, RGB(R,G,B) oder RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Randstil der Imagemap </p> <p>Wird angegeben als <span class="codeph"> <span class="varname"> Breite </span> Feste <span class="varname"> Farbe </span> </span>, wobei <span class="codeph"> <span class="varname"> Breite </span> </span> in Pixel und <span class="codeph"> <span class="varname"> Farbe </span> </span> festgelegt ist. #RRGGBB, RGB(R,G,B) oder RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie einen transparenten Imagemap-Bereich mit `1` Pixel schwarzem Rand ein:
+Beispiel: Richten Sie einen transparenten Imagemap-Bereich mit `1` Pixelschwarzrahmen ein:
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 
@@ -117,4 +116,3 @@ Beispiel: Richten Sie einen transparenten Imagemap-Bereich mit `1` Pixel schwarz
  background: RGBA(0,0,0,0);  
 }
 ```
-
