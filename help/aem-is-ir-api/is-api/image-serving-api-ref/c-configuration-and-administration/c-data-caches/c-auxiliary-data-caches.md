@@ -1,22 +1,21 @@
 ---
-description: Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie cache=on in der verschachtelten/eingebetteten Anforderung angeben. Diese Daten werden im proprietären Format im Antwortdaten-Cache gespeichert.
+description: Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie in der verschachtelten/eingebetteten Anforderung cache=on angeben. Diese Daten werden im Cache der Antwortdaten im proprietären Format gespeichert.
 solution: Experience Manager
-title: Hilfedatenzwischenspeicher
+title: Zusätzliche Daten-Caches
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 39906c86-fd9e-4961-a8ba-2ac44c4214a2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
-
 # Zusätzliche Daten-Caches{#auxiliary-data-caches}
 
-Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie cache=on in der verschachtelten/eingebetteten Anforderung angeben. Diese Daten werden im proprietären Format im Antwortdaten-Cache gespeichert.
+Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie in der verschachtelten/eingebetteten Anforderung cache=on angeben. Diese Daten werden im Cache der Antwortdaten im proprietären Format gespeichert.
 
-Bilder von ausländischen HTTP-Servern werden auch im Antwortdaten-Cache gespeichert. Solche Bilder werden automatisch mit dem Überprüfungsprogramm validiert, bevor der Cache-Eintrag generiert wird.
+Bilder, die von ausländischen HTTP-Servern abgerufen werden, werden auch im Cache der Antwortdaten gespeichert. Solche Bilder werden automatisch mit dem Überprüfungsdienstprogramm validiert, bevor der Cache-Eintrag generiert wird.
 
-Der Plattformserver erstellt Bildkatalogdaten für einen effizienten Zugriff. Diese Daten werden in `CS::CatalogCacheFolder` gespeichert.
+Der Platform Server stellt Bildkatalogdaten für einen effizienten Zugriff zusammen. Diese Daten werden in `CS::CatalogCacheFolder` gespeichert.
