@@ -1,21 +1,20 @@
 ---
-description: Textfluss-Ausschlussbereich. Gibt einen oder mehrere Regionen an, die vom Textfluss ausgeschlossen werden sollen.
+description: Textflussausschlussbereich. Gibt einen oder mehrere Bereiche an, die vom Textfluss ausgeschlossen werden sollen.
 solution: Experience Manager
 title: textFlowXPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2430ab43-c032-4c2f-93c3-225e8116f100
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 8%
 
 ---
 
-
 # textFlowXPath{#textflowxpath}
 
-Textfluss-Ausschlussbereich. Gibt einen oder mehrere Regionen an, die vom Textfluss ausgeschlossen werden sollen.
+Textflussausschlussbereich. Gibt einen oder mehrere Bereiche an, die vom Textfluss ausgeschlossen werden sollen.
 
 `textFlowXPath= *`pathDefinition`*`
 
@@ -26,11 +25,11 @@ Textfluss-Ausschlussbereich. Gibt einen oder mehrere Regionen an, die vom Textfl
  </tr> 
 </table>
 
-Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d). Wenn keine Pfaddefinition angegeben ist, wird `textFlowXPath=` ignoriert.
+Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) . Wenn keine Pfaddefinition angegeben ist, wird `textFlowXPath=` ignoriert.
 
 ## Eigenschaften {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-Textebenenattribut ( `textPs=` nur). Wird von anderen Ebenen ignoriert oder ohne `textFlowPath=` angegeben. Gilt für `layer=0`, wenn für `layer=comp` angegeben.
+Textebenenattribut ( nur `textPs=`). Wird von anderen Ebenen ignoriert oder wenn ohne `textFlowPath=` angegeben. Gilt für `layer=0`, falls für `layer=comp` angegeben.
 
 ## Standard {#section-9405cda904684d829ed12a9e40a4dc46}
 
