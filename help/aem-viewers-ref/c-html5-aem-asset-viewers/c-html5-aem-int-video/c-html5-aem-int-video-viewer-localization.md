@@ -1,29 +1,28 @@
 ---
-description: Bestimmte Inhalte, die im interaktiven Video-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören QuickInfos zu Elementen in der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+description: Bestimmte Inhalte, die der interaktive Video-Viewer anzeigt, können lokalisiert werden. Dazu gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 solution: Experience Manager
-title: lokale Anpassung der Elemente der Benutzeroberfläche
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+title: Lokalisierung der Elemente der Benutzeroberfläche
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+# Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-Bestimmte Inhalte, die im interaktiven Video-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dazu gehören QuickInfos zu Elementen in der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+Bestimmte Inhalte, die der interaktive Video-Viewer anzeigt, können lokalisiert werden. Dazu gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch den speziellen Viewer SDK-Bezeichner SYMBOL dargestellt. Jedes SYMBOL verfügt über einen Standardtextwert für ein englisches Gebietsschema ( `"en"`), das mit dem standardmäßigen Viewer bereitgestellt wird, und kann auch benutzerdefinierte Werte für so viele Gebietsschemas wie erforderlich enthalten.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Außerdem können benutzerdefinierte Werte für beliebig viele Gebietsschemata festgelegt werden.
 
-Beim Beginn des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für dieses Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird auf den Standardtext zurückgesetzt.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für dieses Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
 
-Benutzerdefinierte Daten zur lokale Anpassung können als JSON-Objekt der lokale Anpassung an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemata, SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
+Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
-Ein Beispiel für ein solches lokale Anpassung-Objekt ist Folgendes:
+Ein Beispiel für ein solches Lokalisierungsobjekt ist:
 
 ```
 { 
@@ -39,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das lokale Anpassung-Objekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt lokale Anpassung für zwei Benutzeroberflächenelemente in jedem Gebietsschema bereit.
+Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemata ( `"en"` und `"fr"`) und stellt die Lokalisierung für zwei Benutzeroberflächenelemente in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte das lokale Anpassung-Objekt an den Viewer-Konstruktor als Wert des Felds `localizedTexts` des Konfigurationsobjekts übergeben. Eine andere Option besteht darin, das Objekt &quot;lokale Anpassung&quot;durch Aufruf der Methode `setLocalizedTexts(localizationInfo)` weiterzugeben.
+Der Webseitencode sollte das Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der Methode `setLocalizedTexts(localizationInfo)` weiterzugeben.
 
 Die folgenden SYMBOLs werden unterstützt:
 
@@ -49,7 +48,7 @@ Die folgenden SYMBOLs werden unterstützt:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SYMBOL </p> </th> 
-   <th colname="col2" class="entry"> <p>QuickInfo für... </p> </th> 
+   <th colname="col2" class="entry"> <p>QuickInfo für ... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -59,15 +58,15 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> Status der Schaltfläche zum Abspielen der Pause. </p> </td> 
+   <td colname="col2"> <p> Status der ausgewählten Wiedergabe-Pause-Schaltfläche </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Deaktivierte Wiedergabe-Pause-Schaltflächenstatus </p> </td> 
+   <td colname="col2"> <p>Status der Schaltfläche "Pause"für die Wiedergabe deaktiviert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
-   <td colname="col2"> <p> Status der Schaltfläche "Pause wiedergeben". </p> </td> 
+   <td colname="col2"> <p> Schaltflächenstatus "Pause wiedergeben" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
@@ -75,7 +74,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Videozeit in der Steuerungsleiste. </p> </td> 
+   <td colname="col2"> <p>Videozeit in der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -83,11 +82,11 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Deaktivierte veränderbare Lautstärke. </p> </td> 
+   <td colname="col2"> <p>Deaktivierte veränderliche Lautstärke. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p> Lautstärkeregler-Knopfbeschriftung durch das ARIA <span class="codeph"> aria-value-ext </span> Attribut offen gelegt. </p> </td> 
+   <td colname="col2"> <p> Lautstärkeregler-Drehbeschriftung, die über das ARIA-Attribut <span class="codeph"> aria-value-text </span> verfügbar gemacht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -95,15 +94,15 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche im Vollbildmodus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche im Vollbildmodus im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> Status der ausgewählten Untertitel-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p> Status der ausgewählten Untertitelschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> Deaktivieren Sie den Status der Schaltfläche "Untertitel". </p> </td> 
+   <td colname="col2"> <p> Status der Untertitelschaltfläche wurde deaktiviert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> InteractiveSwatches.BANNER  </span> </p> </td> 
@@ -111,23 +110,23 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Blättern Sie nach oben. </p> </td> 
+   <td colname="col2"> <p>Scrollen Sie nach oben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Blättern Sie nach unten. </p> </td> 
+   <td colname="col2"> <p>Scrollen Sie nach unten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Social Sharing-Tool. </p> </td> 
+   <td colname="col2"> <p>Social-Freigabe-Tool. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche zum Teilen von Links. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Linkfreigabe". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER  </span> </p> </td> 
-   <td colname="col2"> <p>Link-Dialogfeld-Kopfzeile. </p> </td> 
+   <td colname="col2"> <p>Link-Dialogfeldüberschrift. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
@@ -135,7 +134,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>Beschreibung des Share-Links. </p> </td> 
+   <td colname="col2"> <p>Beschreibung des Freigabe-Links. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL  </span> </p> </td> 
@@ -147,23 +146,23 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alles auswählen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION  </span> </p> </td> 
-   <td colname="col2"> <p> Klicken Sie auf "Alle". </p> </td> 
+   <td colname="col2"> <p> Schaltfläche "Alle auswählen" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Freigeben"für Facebook. </p> </td> 
+   <td colname="col2"> <p>Facebook-Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche zum Freigeben von Twitter. </p> </td> 
+   <td colname="col2"> <p>Twitter-Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche zum Schließen des Aktionsbedienfelds </p> </td> 
+   <td colname="col2"> <p>Aktionsfeld Schließen -Schaltfläche aufrufen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
