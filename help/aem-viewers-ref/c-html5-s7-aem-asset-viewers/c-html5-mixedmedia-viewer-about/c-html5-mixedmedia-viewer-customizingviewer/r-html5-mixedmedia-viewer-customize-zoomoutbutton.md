@@ -3,9 +3,9 @@ description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in 
 solution: Experience Manager
 title: Schaltfläche "Auszoomen"
 feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3e464e02-bcff-4ddc-b47c-84d0eee7f779
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 2%
