@@ -1,21 +1,20 @@
 ---
-description: Rules Container-Element. Eine gültige Regelsatzdatei enthält ein Element.
+description: Regel-Container-Element. Eine gültige Regelsatzdatei enthält ein <ruleSet> -Element.
 solution: Experience Manager
-title: ruleSet
+title: ruleset
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 506eee1b-bd9f-42b7-bd9b-9bc04a1d0939
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 7%
+source-wordcount: '37'
+ht-degree: 8%
 
 ---
 
+# ruleset{#ruleset}
 
-# ruleSet{#ruleset}
-
-Rules Container-Element. Eine gültige Regelsatzdatei enthält ein `<ruleset>`-Element.
+Regel-Container-Element. Eine gültige Regelsatzdatei enthält ein `<ruleset>` -Element.
 
 ## Attribute {#section-4840a223a0c34c50a1b6f4b7b9beb2c2}
 
@@ -23,4 +22,4 @@ Keine.
 
 ## Daten {#section-e14075abf630473bba78b5032e4e5a11}
 
-Keine oder mehr `<rule>`-Elemente.
+Keine oder mehr `<rule>` -Elemente.
