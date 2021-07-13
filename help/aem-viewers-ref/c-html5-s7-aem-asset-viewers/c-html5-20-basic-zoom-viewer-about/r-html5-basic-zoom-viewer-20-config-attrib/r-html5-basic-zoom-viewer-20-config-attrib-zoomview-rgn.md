@@ -2,26 +2,25 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
-
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= *`xywh `*, *``*, *``*, *``*`
+` [ZoomView.|<containerId>_zoomView.]rgn= *``*, *``*, *``*, *`xywh`*`
 
 <table id="table_68D8AADB572F4C2095967D12162F8991"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Anfänglicher Interessensbereich in Pixelkoordinaten. Wenn dieser Wert nicht angegeben wird, wird das gesamte Bild in den ursprünglichen Viewport integriert. </p> </td> 
+   <td colname="col2"> <p> Anfänglicher Interessensbereich in Pixelkoordinaten. Wenn dieser Wert nicht angegeben ist, wird das gesamte Bild in den ersten Viewport eingefügt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
