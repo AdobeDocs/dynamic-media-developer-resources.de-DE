@@ -3,21 +3,20 @@ description: Enthält Einstellungen für das Überwachungs-/Warnsystem.
 solution: Experience Manager
 title: monitor.conf
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 09c30680-dd9f-4744-b5ec-105721058883
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # monitor.conf{#monitor-conf}
 
 Enthält Einstellungen für das Überwachungs-/Warnsystem.
 
-Diese Datei ist eine JAVA-Eigenschaftendatei. Es ist darauf zu achten, dass die entsprechenden Konventionen eingehalten werden. Andernfalls kann der Beginn des Plattformservers fehlschlagen. Beachten Sie insbesondere, dass ein umgekehrter Schrägstrich (\\) oder ein einzelner Schrägstrich (/) anstelle eines umgekehrten Schrägstrichs (\) in Windows-Dateipfaden verwendet werden muss, da der umgekehrte Schrägstrich in diesem Dateityp als Escape-Zeichen verwendet wird.
+Diese Datei ist eine JAVA-Eigenschaftendatei. Es ist darauf zu achten, dass die entsprechenden Konventionen eingehalten werden. Andernfalls kann der Platform Server möglicherweise nicht gestartet werden. Beachten Sie insbesondere, dass in Windows-Dateipfaden ein doppelter umgekehrter Schrägstrich &quot;\&quot;oder ein einfacher Schrägstrich &quot;/&quot;anstelle eines umgekehrten Schrägstrichs &quot;\&quot;verwendet werden muss, da der umgekehrte Schrägstrich in diesem Dateityp als Escape-Zeichen verwendet wird.
 
 Änderungen an dieser Datei werden kurz nach dem Speichern der Datei wirksam.
 
@@ -27,8 +26,7 @@ Diese Datei ist eine JAVA-Eigenschaftendatei. Es ist darauf zu achten, dass die 
   <td class="stentry"> <p> <span class="codeph"> monitorAlertGenerator.enableGlobalAlerting=false  </span> </p> <p> <span class="codeph"> mailSender.host=127.0.0.1  </span> </p> <p> <span class="codeph"> mailSender.port=25  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.messageTo=noone@scene7.com  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.messageFrom=noone@scene7.com  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.alertInterval=600000  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.heapSpaceResetInterval=600000  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.minTrafficForAlerts=0.0  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Warnschwellenwerte </p> </td> 
+  <td class="stentry"> <p>Warnschwellen </p> </td> 
   <td class="stentry"> <p> monitorAlertGenerator.maxAverageResponseTime=200 </p> <p> monitorAlertGenerator.maxErrorRate=0.05 </p> <p> monitorAlertGenerator.minRequestRate=0.0 </p> <p> monitorAlertGenerator.minFreeHeapSpace=52428800 </p> <p> monitorAlertGenerator.maxOverlap=20 </p> <p> monitorAlertGenerator.lockedThreshold=60000 </p> </td> 
  </tr> 
 </table>
-
