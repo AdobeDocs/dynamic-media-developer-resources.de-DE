@@ -1,21 +1,20 @@
 ---
-description: Reguläres Musterelement für Ausdruck. Optional in <rule>-Elementen.
+description: Musterelement für reguläre Ausdrücke. Optional in <Regel> -Elementen.
 solution: Experience Manager
 title: Ausdruck
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 84b0bb22-7462-4038-9d14-2707999b5548
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 4%
 
 ---
 
-
 # Ausdruck{#expression}
 
-Reguläres Musterelement für Ausdruck. Optional in `<rule>`-Elementen.
+Musterelement für reguläre Ausdrücke. Optional in `<rule>` -Elementen.
 
 ## Attribute {#section-2d438c889ae84b6da7e0ed84b5d021a0}
 
@@ -23,23 +22,23 @@ Keine.
 
 ## Daten {#section-e2601008d71243109af1a8c55b58416d}
 
-Musterzeichenfolge für regulären Ausdruck.
+Musterzeichenfolge für reguläre Ausdrücke.
 
 ## Beschreibung {#section-759bfb738ddb45dba1f0807aba8c1113}
 
-Das `<expression>`-Element kann leer sein oder eine einfache Suchzeichenfolge oder ein reguläres Ausdruck-Muster enthalten. Das Muster wird auf die gesamte Anforderungszeichenfolge angewendet.
+Das Element `<expression>` kann leer sein oder eine einfache Suchzeichenfolge oder ein Muster für reguläre Ausdrücke enthalten. Das Muster wird auf die gesamte Anforderungszeichenfolge angewendet.
 
-Eine Übereinstimmung tritt immer dann ein, wenn `<expression>` leer ist oder nicht angegeben ist. entspricht der Angabe von `<expression>.*</expression>`.
+Eine Übereinstimmung tritt immer dann auf, wenn `<expression>` leer oder nicht angegeben ist. Dies entspricht der Angabe von `<expression>.*</expression>`.
 
-Die Implementierung basiert auf dem Java-Paket [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/), das eine ähnliche Syntax für reguläre Ausdruck wie Perl bereitstellt.
+Die Implementierung basiert auf dem Java-Paket [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/), das eine reguläre Ausdruckssyntax ähnlich der von Perl bereitstellt.
 
 ## Anmerkungen {#section-10b472a902674893b49ca49a7052c366}
 
-Die Zeichenfolge für Ausdruck darf keine wörtlichen &lt;- und &amp;-Zeichen enthalten. Diese reservierten Zeichen können mit `&` bzw. `<` kodiert werden, oder die gesamte Zeichenfolge kann in einen XML `CDATA`-Abschnitt eingeschlossen werden:
+Die Zeichenfolge des Ausdrucks darf keine Zeichen &lt; und &amp; enthalten. Diese reservierten Zeichen können mit `&` und `<` kodiert werden oder die gesamte Zeichenfolge kann in einen XML `CDATA`-Abschnitt eingeschlossen werden:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Alle Zeichen zwischen den Tags `<expression>` und `</expression>` werden an den Parser des regulären Ausdrucks übergeben, einschließlich Zeichen außerhalb des optionalen Abschnitts `CDATA`. Es sollte darauf geachtet werden, dass keine zusätzlichen Leerzeichen verwendet werden.
+Alle Zeichen zwischen den Tags `<expression>` und `</expression>` werden an den Parser für reguläre Ausdrücke übergeben, einschließlich Zeichen außerhalb des optionalen Abschnitts `CDATA` . Es sollte darauf geachtet werden, zusätzliche Leerzeichen zu vermeiden.
 
 ## Verwandte Themen {#section-ca98548917d945f4b71f18208f0e6840}
 
