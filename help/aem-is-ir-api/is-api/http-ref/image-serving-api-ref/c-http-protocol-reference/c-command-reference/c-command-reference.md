@@ -3,35 +3,34 @@ description: In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 solution: Experience Manager
 title: Befehlsreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 10%
 
 ---
-
 
 # Befehlsreferenz{#command-reference}
 
 In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 
-**Nur für Dynamic Media in AEM**: Neben den grundlegenden Bildeinstellungen, die auf der Benutzeroberfläche verfügbar sind, unterstützt AEM  [!DNL Dynamic Media] in (  [!DNL Adobe Experience Manager]) zahlreiche erweiterte Bildänderungen, die Sie im Feld  **Bildmodifikatoren** angeben können. Diese Parameter werden unten definiert. Beachten Sie jedoch, dass folgende Funktionen in Dynamic Media in AEM nicht unterstützt werden.
+**Nur für Dynamic Media in AEM**: Neben den grundlegenden Bildeinstellungen, die in der Benutzeroberfläche verfügbar sind, unterstützt  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) zahlreiche erweiterte Bildänderungen, die Sie im Feld  **Bildmodifikatoren** angeben können. Diese Parameter sind unten definiert. Beachten Sie jedoch, dass die folgende Funktion in Dynamic Media in AEM nicht unterstützt wird.
 
 * Farbkorrekturbefehle: `icc=` und `iccEmbed=`.
-* Grundlegende Befehle zum Vorbereiten und Wiedergeben von Text: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` und `textPs=`.
-* lokale Anpassung, Befehle: `locale=` und `req=xlate`.
-* `req=set` ist nicht für die allgemeine Verwendung verfügbar.
+* Grundlegende Befehle zum Vorlagen- und Text-Rendering: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` und `textPs=`.
+* Lokalisierungsbefehle: `locale=` und `req=xlate`.
+* `req=set` ist nicht für die allgemeine Anwendung verfügbar.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Nicht-Core-Dynamic Media-Dienste: SVG, Image Rendering und Web-to-Print.
+* Nicht zum Kerngeschäft gehörende Dynamic Media-Dienste: SVG, Bild-Rendering und Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Siehe auch Dynamic Media [Bildvorgabeoptionen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) in der Dokumentation zu AEM 6.5.
+Weitere Informationen finden Sie unter Dynamic Media [Bildvorgabenoptionen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) in der AEM 6.5-Dokumentation.
 
 * [align](r-align.md)
 * [anchor](r-anchor.md)
@@ -42,12 +41,12 @@ Siehe auch Dynamic Media [Bildvorgabeoptionen](https://experienceleague.adobe.co
 * [cache](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
-* [color](r-color-commandref.md)
+* [Farbe](r-color-commandref.md)
 * [Zuschneiden](r-crop.md)
-* [cutPathE](r-croppath.md)
+* [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
-* [effect](r-effect.md)
-* [effectMask](r-effectmask.md)
+* [Effekt](r-effect.md)
+* [EffectMask](r-effectmask.md)
 * [erweitern](r-extend.md)
 * [anpassen](r-fit.md)
 * [flip](r-flip.md)
@@ -59,28 +58,28 @@ Siehe auch Dynamic Media [Bildvorgabeoptionen](https://experienceleague.adobe.co
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [layer](r-layer.md)
-* [locale](r-locale.md)
+* [Layer](r-layer.md)
+* [standort](r-locale.md)
 * [Karte](r-map.md)
-* [Maske](r-mask.md)
+* [mask](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
 * [op_colorize](r-op-colorize.md)
-* [op_stroke](r-op-contrast.md)
-* [op_large](r-op-grow.md)
-* [op_largeMask](r-op-growmask.md)
-* [op_largeMaskR](r-op-growmaskr.md)
+* [op_contrast](r-op-contrast.md)
+* [op_expand](r-op-grow.md)
+* [op_expandMask](r-op-growmask.md)
+* [op_expandMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
 * [op_geräusch](r-op-noise.md)
-* [op_Saturation](r-op-saturation.md)
+* [op_sättigung](r-op-saturation.md)
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [Herkunft](r-origin.md)
+* [origin](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [Perspektive](r-perspective.md)
@@ -94,7 +93,7 @@ Siehe auch Dynamic Media [Bildvorgabeoptionen](https://experienceleague.adobe.co
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
-* [rotate](r-rotate.md)
+* [drehen](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [Größe](r-size-reference.md)
@@ -107,6 +106,6 @@ Siehe auch Dynamic Media [Bildvorgabeoptionen](https://experienceleague.adobe.co
 * [textFlowXPath](r-textflowxpath.md)
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
-* [type](r-type.md)
+* [Typ](r-type.md)
 * [wid](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)
