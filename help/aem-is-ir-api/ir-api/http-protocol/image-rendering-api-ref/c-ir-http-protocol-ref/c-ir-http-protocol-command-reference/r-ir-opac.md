@@ -3,15 +3,14 @@ description: Deckkraft. Gibt die Materialdeckkraft an.
 solution: Experience Manager
 title: opac
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
+role: Developer,User
+exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
-
 
 # opac{#opac}
 
@@ -26,18 +25,18 @@ Deckkraft. Gibt die Materialdeckkraft an.
  </tr> 
 </table>
 
-Die folgenden Material-/Objektkombinationen unterstützen variable Deckkraft:
+Die folgenden Material-/Objektkombinationen unterstützen die variable Deckkraft:
 
-* Feste Farbe und wiederholbare Texturen, die auf texturale überlappende Objekte angewendet werden.
-* Fensterbedeckende Materialien, die auf Fensterbedeckungsobjekte angewendet werden.
-* Auf Textobjekte oder Wandobjekte angewendete Dekore.
+* Durchgehende Farbe und wiederholbare Texturen, die auf Texturüberlappungsobjekte angewendet werden.
+* Fensterabdeckende Materialien, die auf Fensterrahmen angewendet werden.
+* Auf Textobjekte oder Wandobjekte angewendete Deklarationen.
 
-Wenn das Material ein Bild mit einem Alpha-Kanal enthält, kann `opac=` verwendet werden, um das Bild transparenter, aber nicht undurchsichtiger zu machen.
+Wenn das Material ein Bild mit einem Alphakanal enthält, kann `opac=` verwendet werden, um das Bild transparenter, aber nicht undurchsichtiger zu machen.
 
 ## Eigenschaften {#section-352f7b82ede54159b6afb90ae4b559ec}
 
-Materialattribut. Wird ignoriert, wenn die aktuelle Objektauswahl oder das Material keine Deckkraft unterstützt.
+Materialattribut. Wird ignoriert, wenn die aktuelle Objektauswahl oder das Material die Deckkraft nicht unterstützt.
 
 ## Standard {#section-bd45105b1e614f96ad5d521e3ef65736}
 
-`opac=100`, für vollständig undurchsichtiges Material (wenn das Bild keinen Alpha-Kanal enthält).
+`opac=100`, für ein vollständig undurchsichtiges Material (wenn das Bild keinen Alphakanal enthält).
