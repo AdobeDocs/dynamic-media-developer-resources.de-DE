@@ -2,16 +2,15 @@
 description: Swatches.partialswatches
 solution: Experience Manager
 title: Swatches.partialswatches
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: b2a65077-c322-446a-8d71-bded292215bf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
-
 
 # Swatches.partialswatches{#swatches-partialswatches}
 
@@ -21,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Gibt an, ob der Bildlauf in der Komponente gestoppt werden kann, wenn eines der Muster teilweise sichtbar ist (der Bildlauf ist nicht ausgerichtet). Der empfohlene Wert ist <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Gibt an, ob die Komponente das Scrollen stoppt, wenn eines der Muster teilweise sichtbar ist (Scrollen ist nicht ausgerichtet). Der empfohlene Wert ist <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
