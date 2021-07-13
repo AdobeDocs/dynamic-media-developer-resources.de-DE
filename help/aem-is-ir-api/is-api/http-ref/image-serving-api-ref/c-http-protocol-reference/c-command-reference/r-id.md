@@ -1,21 +1,20 @@
 ---
-description: Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten können Server in Cache-Netzwerken wie Akamai, Browser-Caches und Unternehmensproxy-Server-Caches Image Serving-Antworten speichern, die über längere Zeit veraltet sein können.
+description: Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten speichern Server in Caching-Netzwerken wie Akamai, Browser-Caches und Unternehmens-Proxy-Server-Caches möglicherweise Image Serving-Antworten, die für einige Zeiträume veraltet sein können.
 solution: Experience Manager
 title: id
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
 
-
 # id{#id}
 
-Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten können Server in Cache-Netzwerken wie Akamai, Browser-Caches und Unternehmensproxy-Server-Caches Image Serving-Antworten speichern, die über längere Zeit veraltet sein können.
+Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten speichern Server in Caching-Netzwerken wie Akamai, Browser-Caches und Unternehmens-Proxy-Server-Caches möglicherweise Image Serving-Antworten, die für einige Zeiträume veraltet sein können.
 
 ` id= *`val`*`
 
@@ -26,11 +25,11 @@ Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten können 
  </tr> 
 </table>
 
-Image Serving enthält einen Versionsverwaltungsmechanismus, der dazu beitragen kann, die Wahrscheinlichkeit zu verringern, dass eine Anwendung einen veralteten Cache-Eintrag verwendet. Dieser Mechanismus umfasst die Verwendung von `req=props` zum Abrufen von Versionskennzeichenfolgen für Bilddaten und Metadaten (z. B. Imagemap- oder Zoomdaten). Die Zeichenfolge für die Versionskennung wird dann mit dem Befehl `id=` zu zwischengespeicherten Image-Server-Anforderungen hinzugefügt.
+Image Serving umfasst einen Versionierungsmechanismus, der dazu beitragen kann, die Wahrscheinlichkeit zu verringern, dass ein veralteter Cache-Eintrag von einer Anwendung verwendet wird. Dieser Mechanismus beinhaltet die Verwendung von `req=props` zum Abrufen von Versions-ID-Zeichenfolgen für Bilddaten und Metadaten (z. B. Imagemap- oder Zoom-Zieldaten). Die Zeichenfolge der Versionskennung wird dann zu zwischenspeicherbaren Image Serving-Anforderungen mit dem Befehl `id=` hinzugefügt.
 
-Wenn sich ein Quellbild oder Metadaten ändert, ändert sich auch der entsprechende Wert für die Version-ID. Durch die Verwendung eines aktuellen Version-ID-Werts mit dem Befehl `id=` wird sichergestellt, dass auf alte Cache-Einträge nicht mehr zugegriffen wird.
+Wenn sich ein Quellbild oder Metadaten ändert, ändert sich auch der entsprechende Versions-ID-Wert. Durch die Verwendung eines aktuellen Versions-ID-Werts mit dem Befehl `id=` wird sichergestellt, dass nicht mehr auf alte Cache-Einträge zugegriffen wird.
 
-In der folgenden Tabelle werden die Versionskennzeichenfolgen für jeden `req=`-Typ Liste:
+In der folgenden Tabelle sind die Versions-ID-Zeichenfolgen aufgeführt, die für jeden `req=`-Typ verwendet werden sollen:
 
 <table id="table_AE39BEBE18864880BBBF1C4F16785E2D"> 
  <thead> 
@@ -49,7 +48,7 @@ In der folgenden Tabelle werden die Versionskennzeichenfolgen für jeden `req=`-
    <td> <p> metadata.version </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Maske </p> </td> 
+   <td> <p> mask </p> </td> 
    <td> <p> image.version </p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +70,7 @@ In der folgenden Tabelle werden die Versionskennzeichenfolgen für jeden `req=`-
  </tbody> 
 </table>
 
-`req=` Typen, die oben nicht aufgeführt sind, haben entweder eine kurze TTL (  `attribute::NonImgExpiration`) oder ihre Antworten sind überhaupt nicht zwischengespeichert. die Aufnahme  `id=` mit solchen Anträgen keinen Vorteil hat.
+`req=` nicht oben aufgeführte Typen verfügen entweder über eine kurze TTL (  `attribute::NonImgExpiration`) oder ihre Antworten sind überhaupt nicht zwischenspeicherbar. Es gibt keinen Vorteil,  `id=` mit solchen Anfragen zu arbeiten.
 
 ## Eigenschaften {#section-62e973d0d5884abebbb0679f9278ae2c}
 
@@ -83,7 +82,7 @@ Keine.
 
 ## Beispiel {#section-a5fb871e0ec8485c91c4fca78895d17f}
 
-Siehe die Beschreibung von [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) zum Beispiel Verwendung.
+Siehe Beschreibung von [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) zum Beispiel Verwendung.
 
 ## Siehe auch {#section-6b4befb47202415195a68516f60e9988}
 
