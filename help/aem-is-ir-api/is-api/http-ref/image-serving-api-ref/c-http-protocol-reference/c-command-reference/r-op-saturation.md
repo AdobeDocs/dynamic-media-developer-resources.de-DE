@@ -1,21 +1,20 @@
 ---
-description: Passen Sie die Sättigung an. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des Composite-Bildes.
+description: Sättigung anpassen. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des zusammengesetzten Bildes.
 solution: Experience Manager
-title: op_Saturation
+title: op_sättigung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 3%
 
 ---
 
+# op_sättigung{#op-saturation}
 
-# op_Saturation{#op-saturation}
-
-Passen Sie die Sättigung an. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des Composite-Bildes.
+Sättigung anpassen. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des zusammengesetzten Bildes.
 
 `op_saturation= *`adj`*`
 
@@ -26,18 +25,18 @@ Passen Sie die Sättigung an. Ändert die Sättigung jedes sichtbaren Pixels der
  </tr> 
 </table>
 
-`op_saturation=-100` Sättigt die Sättigung des Bildes vollständig.
+`op_saturation=-100` entfernt das Bild vollständig.
 
 ## Eigenschaften {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert.
 
 ## Standard {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, ohne dass sich die Sättigung ändert. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
+`op_saturation=0`, um keine Sättigung zu ändern. CMYK-Bilder oder -Ebenen werden vor der Anwendung des Vorgangs in RGB konvertiert.
 
 ## Beispiel {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Bearbeiten Sie ein Farbfoto, um ein &quot;high-key&quot;-Erscheinungsbild zu erzielen:
+Bearbeiten Sie ein Farbfoto, um ein &quot;High-Key&quot;-Erscheinungsbild zu erhalten:
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`
