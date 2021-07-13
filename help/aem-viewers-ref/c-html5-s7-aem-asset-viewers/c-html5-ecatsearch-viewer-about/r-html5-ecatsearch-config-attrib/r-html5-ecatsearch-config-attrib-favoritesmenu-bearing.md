@@ -1,21 +1,20 @@
 ---
-description: Gibt die Richtung der Diashow-Animation für den Schaltflächen-Container an.
+description: Gibt die Richtung der Folienanimation für den Schaltflächencontainer an.
 solution: Experience Manager
 title: FavoritesMenu.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2466a288-59c2-4a5e-b0bd-ff5b42dcacdb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
 
-
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
-Gibt die Richtung der Diashow-Animation für den Schaltflächen-Container an.
+Gibt die Richtung der Folienanimation für den Schaltflächencontainer an.
 
 [!DNL `[FavoritesMenu.|<containerId>_favoritesMenu.]bearing=up|down|left|right|fit-vertical|fit-lateral`]
 
@@ -23,7 +22,7 @@ Gibt die Richtung der Diashow-Animation für den Schaltflächen-Container an.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> Bei Festlegung auf <span class="codeph"> nach oben</span>, <span class="codeph"> nach unten</span>, <span class="codeph"> links</span> oder <span class="codeph"> rechts</span> wird das Bedienfeld ohne zusätzliche Begrenzungsüberprüfung in die angegebene Richtung verschoben, was dazu führt, dass der Bereich durch einen äußeren Container beschnitten wird. </p> <p>Bei Festlegung auf <span class="codeph"> fit-vertical</span> verschiebt die Komponente zunächst die Position des Basisbedienfelds an den unteren Rand des Favoritenmenüs und versucht, das Bedienfeld in einer der folgenden Richtungen von dieser Basisposition aus auszurollen: unten, rechts, links. Bei jedem Versuch prüft die Komponente, ob der Bereich von einem externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche von oben nach rechts und links zu wiederholen. </p> <p>Bei Festlegung auf <span class="codeph"> fit-lateral</span> verwendet die Komponente eine ähnliche Logik. Die Basis wird zuerst nach rechts verschoben und versucht nach rechts, nach unten und nach oben auszurollen. Dann verschiebt es die Basis nach links und versucht nach links, nach unten und nach oben auszurollen. </p> </td> 
+   <td colname="col2"> <p> Wenn der Wert auf <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span> oder <span class="codeph"> right</span> festgelegt ist, wird der Bereich in die angegebene Richtung ohne zusätzliche Prüfung der Begrenzungen verschoben, was dazu führt, dass der Bereich durch einen externen Container beschnitten wird. </p> <p>Wenn der Wert auf <span class="codeph"> fit-vertical</span> festgelegt ist, verschiebt die Komponente zunächst die Position des Bedienfelds auf das untere Ende des Favoriten-Menüs und versucht, das Bedienfeld in eine der folgenden Richtungen von dieser Basisposition aus einzuführen: unten, rechts, links. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld durch einen externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche von oben, rechts und links zu wiederholen. </p> <p>Wenn auf <span class="codeph"> fit-lateral</span> festgelegt, verwendet die Komponente eine ähnliche Logik. Die Basis wird zuerst nach rechts verschoben und versucht nach rechts, nach unten und nach oben zu rollen. Dann wechselt er die Basis nach links, versucht nach links, nach unten und nach oben, die Richtung zu verschieben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
