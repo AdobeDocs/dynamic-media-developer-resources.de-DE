@@ -1,21 +1,19 @@
 ---
-description: Die Transformationen der Bildebene werden in Schritt 2 für Miniaturansichten wie folgt geändert (d. h. bei req=tmb).
+description: Schritt 2 der Bildschicht ändert sich wie folgt für Miniaturansichten (d. h. wenn req=tmb).
 solution: Experience Manager
-title: Skalierung von Miniaturbildern
+title: Skalierung von Miniaturansichten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 08290258-4fc8-4a6a-ba8f-6bdcd969fa3c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
+# Skalierung von Miniaturansichten{#thumbnail-scaling}
 
-# Miniaturansicht-Skalierung{#thumbnail-scaling}
+Schritt 2 der Bildschicht ändert sich wie folgt für Miniaturansichten (d. h. wenn req=tmb).
 
-Die Transformationen der Bildebene werden in Schritt 2 für Miniaturansichten wie folgt geändert (d. h. bei req=tmb).
-
-* `2.` Wenn  `size=` angegeben, passen Sie das Bild (zugeschnitten) mithilfe von Miniaturansichtsregeln in das  `size=` Rechteck ein. Wenn `size=` nicht angegeben ist, passen Sie die Skalierung basierend auf `res=` oder, wenn `res=` nicht angegeben ist, passen Sie das (zugeschnittene) Bild mithilfe der unten aufgeführten Miniaturansichtsregeln in den Arbeitsflächenrect ein.
-
+* `2.` Wenn  `size=` angegeben ist, passen Sie das Bild (beschnitten) mithilfe von Miniaturregeln in das  `size=` rect an. Wenn `size=` nicht angegeben ist, skalieren Sie basierend auf `res=` oder, wenn `res=` nicht angegeben ist, passen Sie das (zugeschnittene) Bild mithilfe der unten beschriebenen Regeln für die Miniaturansicht in den Arbeitsflächenrect an.
