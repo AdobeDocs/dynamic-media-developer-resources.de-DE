@@ -1,30 +1,29 @@
 ---
-description: Art des Materials. Oberflächenart des Materials. Wird in Verbindung mit Katalog-Glanz und Katalog-Raueit verwendet, um 3D Reflektion Rendereffekte zu steuern.
+description: Art des Materials. Oberflächenart des Materials. Wird zusammen mit Katalog-Gloss und Katalog-Roughness verwendet, um 3D Reflexeffekte zu steuern.
 solution: Experience Manager
 title: Typ
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '138'
 ht-degree: 29%
 
 ---
 
-
 # Typ{#type}
 
-Art des Materials. Oberflächenart des Materials. Wird in Verbindung mit Katalog::Glanz und Katalog::Raueit verwendet, um 3D-Reflektions-Rendereffekte zu steuern.
+Art des Materials. Oberflächenart des Materials. Wird zusammen mit catalog::Gloss und catalog::Roughness verwendet, um 3D-Reflektion Rendereffekte zu steuern.
 
 ## Eigenschaften {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-Enum. Optional für alle Materialien. Wird ignoriert, wenn die Vignette keine 3D-Reflektions-Rendering-Funktion hat.
+Enum. Optional für alle Materialien. Wird ignoriert, wenn die Vignette keine 3D-Reflektion-Rendering-Funktion aufweist.
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Unbekannt verwendet der Server die Standardeinstellung. </p> </td> 
+  <td class="stentry"> <p>Unbekannt: Server verwendet den Standard. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -52,7 +51,7 @@ Enum. Optional für alle Materialien. Wird ignoriert, wenn die Vignette keine 3D
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Enamel/Lacquer. </p> </td> 
+  <td class="stentry"> <p>Email/Lacquer. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
@@ -96,7 +95,7 @@ Enum. Optional für alle Materialien. Wird ignoriert, wenn die Vignette keine 3D
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>Schiergewebe. </p> </td> 
+  <td class="stentry"> <p>Gewebe. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -106,8 +105,8 @@ Enum. Optional für alle Materialien. Wird ignoriert, wenn die Vignette keine 3D
 
 ## Standard {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0; Der Server bestimmt anhand anderer Materialattribute einen geeigneten Standard.
+0; Der Server bestimmt anhand anderer materieller Attribute einen geeigneten Standard.
 
 ## Verwandte Themen {#section-a51850093b7140e683a0f8b07845843c}
 
-[Katalog::Gloss](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [Katalog::Roughness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
+[catalog::Gloss](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [catalog::Roughness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
