@@ -1,23 +1,22 @@
 ---
-description: Italienische Flagge.
+description: Italics-Markierung.
 solution: Experience Manager
 title: Kursiv
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 11%
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
-
 # Kursiv{#italic}
 
-Italienische Flagge.
+Italics-Markierung.
 
-Gibt an, ob die Schriftartdatei, auf die dieser Schriftartzuordnungsdatensatz verweist, verwendet werden soll, wenn der Befehl RTF italics ( `\i`) dies erfordert.
+Gibt an, ob die von diesem Schriftartdatensatz referenzierte Schriftartdatei verwendet werden soll, wenn sie vom RTF-Befehl ( `\i`) kursiv angefordert wird.
 
 ## Eigenschaften {#section-607e76490e87418496d1c6763018a14f}
 
