@@ -2,13 +2,12 @@
 description: CarouselView.maxloadradius
 solution: Experience Manager
 title: CarouselView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Gibt das Komponentenvorladeverhalten an. </p> <p>Bei Festlegung auf <span class="codeph"> -1</span> lädt die Komponente alle Karussell-Frames im Leerlauf vorab. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> lädt die Komponente nur den derzeit sichtbaren Rahmen, den vorherigen und den nächsten Frame. </p> <p><span class="codeph"><span class="varname"> "</span></span>preloadnbrings"definiert, wie viele unsichtbare Rahmen um den derzeit angezeigten Rahmen vorab geladen werden, wenn sie sich im Leerlauf befinden. </p> </td> 
+   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn auf <span class="codeph"> -1</span> gesetzt, lädt die Komponente alle Karussellrahmen im Leerlauf vorab. </p> <p>Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, lädt die Komponente nur den derzeit sichtbaren Frame, den vorherigen und den nächsten Frame. </p> <p><span class="codeph"><span class="varname"> </span></span>preloadnbrennen definiert, wie viele unsichtbare Rahmen um den aktuell angezeigten Frame im Leerlauf vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
