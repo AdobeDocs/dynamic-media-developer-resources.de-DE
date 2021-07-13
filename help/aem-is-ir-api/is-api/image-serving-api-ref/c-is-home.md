@@ -1,22 +1,21 @@
 ---
-description: Das Image Serving API-Handbuch enthält Informationen zum Einrichten und Verwenden der Image Serving API.
+description: Das Image Serving API-Handbuch enthält Informationen zum Einrichten und Verwenden der Image Serving-API.
 solution: Experience Manager
-title: Image Serving API
+title: Image Serving-API
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c2bc6728-e8c4-43f6-a3e7-33c9336774b2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
+# Image Serving-API{#image-serving-api}
 
-# Image Serving API{#image-serving-api}
+Das Image Serving API-Handbuch enthält Informationen zum Einrichten und Verwenden der Image Serving-API.
 
-Das Image Serving API-Handbuch enthält Informationen zum Einrichten und Verwenden der Image Serving API.
-
-* [Vorgesehene Audience](c-intended-audience.md)
+* [Vorgesehene Zielgruppe](c-intended-audience.md)
 * [Image Serving-Komponenten](r-components.md)
 * [Konfiguration und Verwaltung](c-configuration-and-administration/c-configuration-and-administration.md)
