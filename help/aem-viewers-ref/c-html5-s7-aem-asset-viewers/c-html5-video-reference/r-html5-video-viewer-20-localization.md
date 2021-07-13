@@ -1,29 +1,28 @@
 ---
-description: Bestimmte Inhalte, die im Video-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+description: Bestimmte Inhalte, die der Video-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 solution: Experience Manager
-title: lokale Anpassung der Elemente der Benutzeroberfläche
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Lokalisierung der Elemente der Benutzeroberfläche
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
+# Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-# lokale Anpassung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+Bestimmte Inhalte, die der Video-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 
-Bestimmte Inhalte, die im Video-Viewer angezeigt werden, unterliegen der lokale Anpassung. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für das englische Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch einen speziellen Viewer SDK-Bezeichner namens SYMBOL dargestellt. Jedem SYMBOL ist ein Standardtextwert für das englische Gebietsschema ( `"en"`) zugeordnet, das mit dem vordefinierten Viewer bereitgestellt wird. Es können auch benutzerdefinierte Werte für so viele Gebietsschemas wie nötig festgelegt werden.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
 
-Beim Beginn des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird auf den Standardtext zurückgesetzt.
+Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
-Benutzerdefinierte Daten zur lokale Anpassung können als JSON-Objekt der lokale Anpassung an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemata, SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
-
-Ein Beispiel für ein solches lokale Anpassung-Objekt ist Folgendes:
+Ein Beispiel für ein solches Lokalisierungsobjekt ist:
 
 ```
 { 
@@ -39,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das lokale Anpassung-Objekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt lokale Anpassung für zwei Benutzeroberflächenelemente in jedem Gebietsschema bereit.
+Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemata ( `"en"` und `"fr"`) und stellt die Lokalisierung von zwei Benutzeroberflächenelementen in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte ein solches lokale Anpassung-Objekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine andere Option besteht darin, das Objekt &quot;lokale Anpassung&quot;durch Aufruf der `setLocalizedTexts(localizationInfo)`-Methode zu übergeben.
+Der Webseitencode sollte dieses Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der Methode `setLocalizedTexts(localizationInfo)` weiterzugeben.
 
 Die folgenden SYMBOLs werden unterstützt:
 
@@ -59,15 +58,15 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den Status der ausgewählten Schaltfläche zum Abspielen der Pause. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den Status der ausgewählten Wiedergabe-Pause-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den Status der deaktivierten Schaltfläche zum Abspielen der Pause. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den deaktivierten Status der Schaltfläche "Pause". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den Status der Schaltfläche zum Abspielen der Pause. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den Status der Wiedergabe-Pause-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
@@ -75,11 +74,11 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Videozeit in der Steuerungsleiste. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Videozeit in der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den ausgewählten Status für veränderliche Lautstärke. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den ausgewählten Status mit veränderlichem Volumen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -87,11 +86,11 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p> Lautstärkeregler-Knopfbeschriftung durch das ARIA <span class="codeph"> aria-value-ext </span> Attribut offen gelegt. </p> </td> 
+   <td colname="col2"> <p> Lautstärkeregler-Drehbeschriftung, die über das ARIA-Attribut <span class="codeph"> aria-value-text </span> verfügbar gemacht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den Status der ausgewählten Schaltfläche im Vollbildmodus. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den ausgewählten Schaltflächenstatus im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -99,19 +98,19 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den Status der ausgewählten Untertitel-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den Status der ausgewählten Untertitelschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den Status der deaktivierten Untertitel-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den Status der deaktivierten Untertitelschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für das Social Sharing-Tool. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für das Social-Sharing-Tool. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "E-Mail-Freigabe". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die E-Mail-Freigabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.HEADER  </span> </p> </td> 
@@ -119,31 +118,31 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für das E-Mail-Dialogfeld oben rechts, Schaltfläche zum Schließen. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für das E-Mail-Dialogfeld oben rechts auf der Schließen-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Fehlermeldung, die angezeigt wird, wenn die E-Mail-Adresse fehlerhaft ist. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Fehlermeldung, die angezeigt wird, wenn die E-Mail-Adresse falsch formatiert ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO  </span> </p> </td> 
    <td colname="col2"> <p>Beschriftung für das Eingabefeld "An". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_HINZUFÜGEN  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Hinzufügen weitere E-Mail-Adresse". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD  </span> </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Weitere E-Mail-Adresse hinzufügen". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.HINZUFÜGEN  </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Hinzufügen weitere E-Mail-Adresse". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.ADD  </span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Weitere E-Mail-Adresse hinzufügen". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.VON  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM  </span> </p> </td> 
    <td colname="col2"> <p>Beschriftung für das Eingabefeld "Von". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE  </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Eingabefeld "Nachricht". </p> </td> 
+   <td colname="col2"> <p>Titel des Eingabefelds "Nachricht". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_REMOVE  </span> </p> </td> 
@@ -159,11 +158,11 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche zum Schließen, die nach dem Senden des Formulars unten im Dialogfeld angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Schließen", die nach der Formularübermittlung unten im Dialogfeld angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche zum Schließen, die nach dem Senden des Formulars unten im Dialogfeld angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Schaltfläche zum Schließen, die nach der Übermittlung des Formulars unten im Dialogfeld angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ACTION  </span> </p> </td> 
@@ -175,7 +174,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS  </span> </p> </td> 
-   <td colname="col2"> <p>Bestätigungsmeldung angezeigt, wenn die E-Mail erfolgreich gesendet wurde. </p> </td> 
+   <td colname="col2"> <p>Bestätigungsnachricht angezeigt, wenn E-Mail erfolgreich gesendet wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_FAILURE  </span> </p> </td> 
@@ -187,11 +186,11 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Kopfzeile des Dialogfelds "Einbetten". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Kopfzeile des Einbettungsdialogfelds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für das Einbettungsdialogfeld oben rechts, Schaltfläche zum Schließen. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für das Einbettungsdialogfeld oben rechts, die Schließen-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.DESCRIPTION  </span> </p> </td> 
@@ -211,11 +210,11 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alles auswählen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP-AKTION  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Alles auswählen". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE  </span> </p> </td> 
@@ -227,15 +226,15 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Kopfzeile des Dialogfelds "Link". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Kopfzeile des Link-Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für das Link-Dialogfeld oben rechts, Schaltfläche zum Schließen. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für das Dialogfeld "Link"oben rechts auf der Schließen-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>Beschreibung des Share-Links. </p> </td> 
+   <td colname="col2"> <p>Beschreibung des Freigabe-Links. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL  </span> </p> </td> 
@@ -247,19 +246,19 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alles auswählen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP-AKTION  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Alles auswählen". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Freigeben"in Facebook. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Facebook-Freigabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Twitter-Freigabe". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Twitter-Freigabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
@@ -267,4 +266,3 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
  </tbody> 
 </table>
-
