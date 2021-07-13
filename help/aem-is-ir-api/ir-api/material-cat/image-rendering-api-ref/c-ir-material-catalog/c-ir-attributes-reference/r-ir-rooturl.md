@@ -1,21 +1,20 @@
 ---
-description: Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. Attribut RootUrl wird anstelle des Attributs RootPath verwendet, wenn ein src=-Wert von { geschweifte Klammern } eingeschlossen wird.
+description: Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. Attribut RootUrl wird anstelle des Attributs RootPath verwendet, wenn ein src= -Wert von { geschweifte Klammern } eingeschlossen ist.
 solution: Experience Manager
 title: RootUrl *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # RootUrl *{#rooturl}
 
-Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. attribute::RootUrl wird anstelle von attribute::RootPath verwendet, wenn ein src=-Wert von { geschweifte Klammern } eingeschlossen wird.
+Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. attribute::RootUrl wird anstelle von attribute::RootPath verwendet, wenn ein src= -Wert durch { geschweifte Klammern } eingeschlossen ist.
 
 ## Eigenschaften {#section-69cd0f71ea614770a8778c745d23197a}
 
@@ -23,7 +22,7 @@ Textzeichenfolgenwert. Absoluter URL-Stammpfad, einschließlich der führenden P
 
 ## Standard {#section-7a81569728474725a70f3a2cc4d48e85}
 
-Vererbt von `default::RootUrl`, wenn nicht definiert. Wenn definiert, aber leer, werden relative URLs von diesem Materialkatalog nicht unterstützt.
+Vererbt von `default::RootUrl` , falls nicht definiert. Wenn definiert, aber leer, werden relative URLs von diesem Materialkatalog nicht unterstützt.
 
 ## Verwandte Themen {#section-e33bbe7034b24367b68f9142718a8be1}
 
