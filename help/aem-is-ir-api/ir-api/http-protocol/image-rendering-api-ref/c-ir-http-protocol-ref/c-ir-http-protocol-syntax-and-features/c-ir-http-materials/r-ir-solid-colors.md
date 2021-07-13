@@ -1,25 +1,24 @@
 ---
-description: Diese Kategorie umfasst Farben für Wände, Holz und Trimm, Automobil sowie alle anderen Anwendungen, bei denen Texturen nicht erforderlich sind.
+description: Diese Materialkategorie umfasst Farben für Wände, Holz und Trimm, Automobil sowie alle anderen Anwendungen, bei denen Texturen nicht benötigt werden.
 solution: Experience Manager
 title: Feste Farben
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
 
-
 # Feste Farben{#solid-colors}
 
-Diese Kategorie umfasst Farben für Wände, Holz und Trimm, Automobil sowie alle anderen Anwendungen, bei denen Texturen nicht erforderlich sind.
+Diese Materialkategorie umfasst Farben für Wände, Holz und Trimm, Automobil sowie alle anderen Anwendungen, bei denen Texturen nicht benötigt werden.
 
-Sie können beispielsweise Festfarben verwenden, um die Farbe eines Bekleidungsartikels zu variieren, bei dem keine Änderungen der Textur erforderlich sind, oder um die Farbe für den Plastikschnitt und den Teppich eines Automobil-Innenraums festzulegen. Ein Material gilt als Volltonfarbe, wenn kein `src=`-Wert im MSS vorhanden ist.
+Sie können beispielsweise feste Farben verwenden, um die Farbe eines Bekleidungsartikels zu variieren, bei dem keine Texturänderungen erforderlich sind, oder um die Farbe für den Plastikbesatz und die Teppichzeichnung eines Automobil-Innenraums festzulegen. Ein Material gilt als feste Farbe, wenn kein `src=`-Wert im MSS vorhanden ist.
 
-Einfarbige Farben können auf alle renderbaren Objekte angewendet werden.
+Auf alle renderbaren Objekte können feste Farben angewendet werden.
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 
@@ -37,4 +36,3 @@ Einfarbige Farben können auf alle renderbaren Objekte angewendet werden.
   </tr> 
  </tbody> 
 </table>
-
