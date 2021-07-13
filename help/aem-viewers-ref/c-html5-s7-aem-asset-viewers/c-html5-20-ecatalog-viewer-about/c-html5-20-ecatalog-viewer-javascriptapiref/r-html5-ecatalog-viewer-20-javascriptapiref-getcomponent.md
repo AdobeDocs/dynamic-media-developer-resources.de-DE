@@ -1,35 +1,34 @@
 ---
-description: JavaScript-API-Referenz für den E-Katalog-Viewer
+description: JavaScript-API-Referenz für den eCatalog-Viewer
 solution: Experience Manager
 title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 86f0802c-a53e-426d-9f64-21d8002b8b69
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
 
-
 # getComponent{#getcomponent}
 
-JavaScript-API-Referenz für den E-Katalog-Viewer
+JavaScript-API-Referenz für den eCatalog-Viewer
 
 `getComponent(componentId)`
 
-Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des standardmäßigen Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst nach der Ausführung des Viewer-Rückrufs auf, da die Komponente sonst noch nicht von der Viewer-Logik erstellt wurde.`initComplete`
+Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des vordefinierten Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst auf, nachdem der Viewer-Rückruf `initComplete` ausgeführt wurde. Andernfalls kann die Komponente noch nicht von der Viewer-Logik erstellt werden.
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` :  `{String}` eine ID der vom Viewer verwendeten Viewer-SDK-Komponente. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
+`*`componentID`*`  -  `{String}` eine ID der vom Viewer verwendeten Viewer-SDK-Komponente. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Komponenten-ID </p> </th> 
-   <th colname="col2" class="entry"> <p>Name der Viewer SDK-Komponentenklasse </p> </th> 
+   <th colname="col2" class="entry"> <p>Name der Komponentenklasse des Viewer-SDK </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -192,13 +191,13 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
  </tbody> 
 </table>
 
-Beim Arbeiten mit SDK-APIs ist es wichtig, den richtigen voll qualifizierten SDK-Namensraum zu verwenden, wie unter [Viewer-SDK-Namensraum](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05) beschrieben.
+Beim Arbeiten mit SDK-APIs ist es wichtig, den richtigen vollständig qualifizierten SDK-Namespace zu verwenden, wie unter [Viewer SDK-Namespace](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05) beschrieben.
 
-Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur *Viewer SDK API*.
+Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur *Viewer-SDK-API* .
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` eine Referenz zur Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn `componentId` keine unterstützte Viewer-Komponente ist oder die Komponente noch nicht von der Viewer-Logik erstellt wurde.
+`{Object}` einen Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder die Komponente noch nicht von der Viewer-Logik erstellt wurde.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
@@ -209,4 +208,3 @@ Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumenta
 } 
 })
 ```
-
