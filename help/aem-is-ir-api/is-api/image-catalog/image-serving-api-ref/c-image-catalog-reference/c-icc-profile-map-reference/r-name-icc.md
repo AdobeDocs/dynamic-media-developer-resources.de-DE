@@ -1,25 +1,24 @@
 ---
-description: Name des Profils-Tastaturbefehls. Ein Kurzbefehl für das Profil Farbe.
+description: Name des Profilkürzels. Ein Kurzbefehl für das Farbprofil.
 solution: Experience Manager
 title: Name
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 197197c9-ac2b-406e-ae1e-722577767bdc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
-
 # Name{#name}
 
-Name des Profils-Tastaturbefehls. Ein Kurzbefehl für das Profil Farbe.
+Name des Profilkürzels. Ein Kurzbefehl für das Farbprofil.
 
 ## Eigenschaften {#section-30fc50f71f4a4ea7b14b2524d1f2b698}
 
-Textzeichenfolge. Erforderlich. Primär-Indexschlüssel für die ICC-Profil-Map. Jeder `icc::Name`-Wert muss innerhalb der Tabelle eindeutig sein und darf kein &#39;,&#39;-Zeichen enthalten.
+Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die ICC-Profilzuordnung. Jeder `icc::Name` -Wert muss innerhalb der Tabelle eindeutig sein und darf keine &#39;,&#39;-Zeichen enthalten.
 
 ## Standard {#section-47a56671d1e94497aa7ea83fe9590c05}
 
