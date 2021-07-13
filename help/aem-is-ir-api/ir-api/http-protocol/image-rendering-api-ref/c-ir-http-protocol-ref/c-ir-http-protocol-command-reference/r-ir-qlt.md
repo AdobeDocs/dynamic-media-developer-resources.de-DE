@@ -1,46 +1,45 @@
 ---
-description: JPEG-Qualität. Gibt JPEG-Kodierungsattribute zur Steuerung der Komprimierungsstufe an.
+description: JPEG-Qualität. Gibt JPEG-Kodierungsattribute an, um die Komprimierungsstufe zu steuern.
 solution: Experience Manager
 title: qlt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 49af2620-081f-4bcc-8245-5aa6bab89a05
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '198'
 ht-degree: 7%
 
 ---
 
-
 # qlt{#qlt}
 
-JPEG-Qualität. Gibt JPEG-Kodierungsattribute zur Steuerung der Komprimierungsstufe an.
+JPEG-Qualität. Gibt JPEG-Kodierungsattribute an, um die Komprimierungsstufe zu steuern.
 
 ` qlt= *``*[. *`qualitychroma`*]`
 
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> Qualität </span> </p> </td> 
-  <td class="stentry"> <p>Qualität der JPEG-Kodierung (1...100) </p> </td> 
+  <td class="stentry"> <p>JPEG-Kodierungsqualität (1...100) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> Chroma  </span> </p> </td> 
-  <td class="stentry"> <p>JPEG-Farb-Downsampling (0 = normal, 1 = deaktiviert); optional ist, ist der Standardwert 0. </p> </td> 
+  <td class="stentry"> <p>JPEG-Chromatizitäts-Downsampling (0=normal, 1=disable); optional ist, ist der Standardwert 0. </p> </td> 
  </tr> 
 </table>
 
-Gibt JPEG-Kodierungsattribute zur Steuerung der Komprimierungsstufe an. Dies wiederum ändert die Dateigröße (die Menge der Antwortdaten) und indirekt die visuelle Qualität des resultierenden Bildes.
+Gibt JPEG-Kodierungsattribute an, um die Komprimierungsstufe zu steuern. Dies ändert wiederum die Dateigröße (die Menge der Antwortdaten) und indirekt die visuelle Qualität des resultierenden Bildes.
 
-Höhere *`quality`*-Werte erhöhen die Dateigröße und -qualität, niedrigere Werte verringern die Dateigröße und verringern die wahrgenommene Bildqualität. Bei Werten über 90 entstehen oft Bilder, die vom nicht komprimierten Bild kaum zu unterscheiden sind.
+Höhere *`quality`*-Werte erhöhen die Dateigröße und -qualität, niedrigere Werte verringern die Dateigröße und reduzieren die wahrgenommene Bildqualität. Bei Werten über 90 entstehen oft Bilder, die vom nicht komprimierten Bild kaum zu unterscheiden sind.
 
-Setzen Sie das *`chroma`*-Flag, um die für typische JPEG-Kodierer verwendete Farb-Downsampling zu deaktivieren. Dies kann die wahrgenommene Schärfe der Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung des Farbtons und nicht der Helligkeit definiert wird. Das Festlegen dieses Flag kann zu einer leichten Vergrößerung der Datei führen. Experimentieren Sie mit dieser Einstellung, wenn der Text etwas verschwommen aussieht.
+Setzen Sie das Flag *`chroma`*, um das Chromatizitäts-Downsampling zu deaktivieren, das von typischen JPEG-Kodierern verwendet wird. Dies kann die wahrgenommene Schärfe der Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung der Farbe und nicht durch die Helligkeit definiert wird. Das Festlegen dieses Flag kann zu einer leichten Vergrößerung der Datei führen. Experimentieren Sie mit dieser Einstellung, wenn Text etwas verschwommen scheint.
 
 ## Eigenschaften {#section-897b61c786dd4230a2c5807f2f40e722}
 
-Kann an beliebiger Stelle in der Anforderung auftreten.
+Kann an einer beliebigen Stelle in der Anfrage auftreten.
 
-Wird ignoriert, wenn das Ausgabebildformat keine JPEG-Komprimierung unterstützt. Eine Liste der Ausgabebildformate, die die JPEG-Komprimierung unterstützen, finden Sie in der Beschreibung von `fmt=`.
+Wird ignoriert, wenn das Ausgabebildformat keine JPEG-Komprimierung unterstützt. Eine Liste der Ausgabebildformate, die die JPEG-Komprimierung unterstützen, finden Sie in der Beschreibung von `fmt=` .
 
 ## Standard {#section-1c1257df843c475bbac6aadaffcb6347}
 
