@@ -1,21 +1,20 @@
 ---
-description: Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit. Makros sind in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
+description: Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze. Makros werden in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
 solution: Experience Manager
 title: Befehlsmakros
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
 
+# Befehlsmakros{#command-macros}
 
-# Befehls-Makros{#command-macros}
-
-Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit. Makros sind in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
+Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze. Makros werden in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
 
 `$ *`name`*$`
 
@@ -26,15 +25,15 @@ Befehlsmakros stellen benannte Tastaturbefehle für Befehlssätze bereit. Makros
  </tr> 
 </table>
 
-`*`Bei `*` Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden und es kann sich um eine beliebige Kombination aus ASCII-Buchstaben, -Zahlen, -Zeichen, -Zeichen, -Zeichen und -Zeichen handeln. Zeichen.
+`*``*` Bei Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden und es kann sich um eine Kombination aus ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; handeln. Zeichen.
 
-Makros können an einer beliebigen Stelle in einer Anforderung nach dem &quot;?&quot;aufgerufen werden, ebenso an einer beliebigen Stelle innerhalb eines Felds `catalog::Modifier` oder `catalog::PostModifier`. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;Trennzeichen getrennt werden.
+Makros können an beliebiger Stelle in einer Anfrage nach dem &quot;?&quot; aufgerufen werden, ebenso an einer beliebigen Stelle innerhalb eines Felds `catalog::Modifier` oder `catalog::PostModifier`. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;Trennzeichen getrennt werden.
 
-Makroaufrufe werden während der Analyse durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros setzen dieselben Befehle in der Anforderung außer Kraft, wenn sie vor dem Makroaufruf in der Anforderung auftreten. Dies unterscheidet sich von `catalog::Modifier`, wobei Befehle in der Anforderungszeichenfolge Befehle in der `catalog::Modifier`-Zeichenfolge immer außer Kraft setzen, unabhängig von der Position in der Anforderung.
+Makroaufrufe werden während des Parsens durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dies unterscheidet sich von `catalog::Modifier`, wobei Befehle in der Anforderungszeichenfolge Befehle in der `catalog::Modifier`-Zeichenfolge immer außer Kraft setzen, unabhängig von der Position in der Anforderung.
 
-Befehlsmakros können keine Argumentwerte haben, aber benutzerdefinierte Variablen können verwendet werden, um Werte aus der Anforderung an das Makro zu übergeben.
+Befehlsmakros können keine Argumentwerte haben, aber benutzerdefinierte Variablen können verwendet werden, um Werte aus der Anfrage an das Makro zu übergeben.
 
-Makros können verschachtelt sein, mit der folgenden Einschränkung: Ein Makro kann nur dann aufgerufen werden, wenn es zum Zeitpunkt der Analyse der Makrodefinition bereits definiert ist, entweder indem es früher in derselben Makrodefinitionsdatei angezeigt wird oder indem die Definition für ein solches eingebettetes Makro in der Standarddatei für die Makrodefinition platziert wird.
+Makros können verschachtelt sein, mit der folgenden Einschränkung: Ein Makro kann nur aufgerufen werden, wenn es zum Zeitpunkt der Analyse der Makrodefinition bereits definiert ist, indem es entweder früher in derselben Makrodefinitionsdatei erscheint oder indem die Definition für ein solches eingebettetes Makro in die Standard-Makrodefinitionsdatei aufgenommen wird.
 
 ## Beispiel {#section-2f73d36ac8d64254a03bae5afeae2fb9}
 
@@ -42,16 +41,16 @@ Makros können nützlich sein, wenn dieselben Attribute auf verschiedene Bilder 
 
 `http://server/cat/1345?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/1435?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/8243?wid=480&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1`
 
-Wir können ein Makro für die allgemeinen Attribute definieren:
+Wir können ein Makro für die gemeinsamen Attribute definieren:
 
 `view wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1`
 
-Das Makro wird wie folgt verwendet:
+Das Makro würde wie folgt verwendet:
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-Da `wid=` für die dritte Anforderung unterschiedlich ist, überschreiben wir einfach den Wert *nachdem* das Makro aufgerufen wurde (die Angabe `wid=`*bevor* `$view$` keine Auswirkungen hat).
+Da `wid=` für die dritte Anforderung anders ist, überschreiben wir einfach den Wert *nach* das Makro wird aufgerufen (die Angabe `wid=`*bevor* `$view$` keine Auswirkungen hat).
 
 ## Verwandte Themen {#section-8cdba0ed2480444ca61e719e54f8871c}
 
-[Katalog::MakroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) ,  [Katalog::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md),  [Makro-Definitionsreferenz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
+[catalog::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) ,  [catalog::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md), Referenz zur  [Makrodefinition](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
