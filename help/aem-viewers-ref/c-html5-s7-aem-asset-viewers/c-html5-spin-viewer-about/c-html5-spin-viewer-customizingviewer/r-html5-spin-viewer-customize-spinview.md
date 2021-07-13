@@ -1,21 +1,20 @@
 ---
-description: Die Ansicht besteht hauptsächlich aus dem Rotationsbild.
+description: Die Hauptansicht besteht aus dem Rotationsbild.
 solution: Experience Manager
-title: Ansicht
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Rotationsansicht
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
 
+# Rotationsansicht{#spin-view}
 
-# Rotationsset-Ansicht{#spin-view}
-
-Die Ansicht besteht hauptsächlich aus dem Rotationsbild.
+Die Hauptansicht besteht aus dem Rotationsbild.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,16 +36,15 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um die Ansicht transparent zu machen.
+Beispiel - um die Hauptansicht transparent zu machen.
 
 ```
 .s7spinviewer .s7spinview { 
  background-color: transparent; 
 }
 ```
-
