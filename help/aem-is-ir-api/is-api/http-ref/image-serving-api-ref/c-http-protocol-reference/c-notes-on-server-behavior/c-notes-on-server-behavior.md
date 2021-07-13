@@ -1,26 +1,25 @@
 ---
-description: Es gibt verschiedene Fragen zum Serververhalten, die berücksichtigt werden sollten.
+description: Es gibt mehrere Probleme mit dem Serververhalten, die berücksichtigt werden sollten.
 solution: Experience Manager
 title: Hinweise zum Serververhalten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 88bc0ff2-604d-4065-9a53-0884457f0e14
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-
 # Hinweise zum Serververhalten{#notes-on-server-behavior}
 
-Es gibt verschiedene Fragen zum Serververhalten, die berücksichtigt werden sollten.
+Es gibt mehrere Probleme mit dem Serververhalten, die berücksichtigt werden sollten.
 
-* [Die Arbeitsfläche zum Erstellen von Kompositionen](r-the-compositing-canvas.md)
+* [Die Arbeitsfläche für die Zusammenstellung](r-the-compositing-canvas.md)
 * [Ebenentransformationen](r-layer-transforms.md)
-* [Skalierung von Miniaturbildern](r-thumbnail-scaling.md)
-* [Miniaturansichtsregeln](r-thumbnail-rules.md)
+* [Skalierung von Miniaturansichten](r-thumbnail-scaling.md)
+* [Regeln für Miniaturansichten](r-thumbnail-rules.md)
 * [Ebenenplatzierung](r-layer-placement.md)
-* [Ansicht-Transformation für Bilder](r-view-transform-for-images.md)
-* [Ansicht-Transformation für Miniaturansichten](r-view-transform-for-thumbnails.md)
+* [Transformation für Bilder anzeigen](r-view-transform-for-images.md)
+* [Transformation für Miniaturansichten anzeigen](r-view-transform-for-thumbnails.md)
