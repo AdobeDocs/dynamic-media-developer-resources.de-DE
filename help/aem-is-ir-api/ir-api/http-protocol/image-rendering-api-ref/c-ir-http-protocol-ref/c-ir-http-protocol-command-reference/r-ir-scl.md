@@ -1,21 +1,20 @@
 ---
-description: Ansicht skalieren. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor im Verhältnis zur Vignette mit voller Auflösung.
+description: Skalierungsansicht. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor im Verhältnis zur Vignette mit voller Auflösung.
 solution: Experience Manager
 title: scl
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e36db25c-af45-4256-b982-b7b06b87f5f9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
 
-
 # scl{#scl}
 
-Ansicht skalieren. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor im Verhältnis zur Vignette mit voller Auflösung.
+Skalierungsansicht. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor im Verhältnis zur Vignette mit voller Auflösung.
 
 `scl= *`invFactor`*`
 
@@ -28,7 +27,7 @@ Ansicht skalieren. Skaliert das gerenderte Bild um den angegebenen Skalierungsfa
 
 Wenn `scl=` nach `wid=` oder `hei=` in der URL kommt, werden diese Befehle abgebrochen und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
 
-Wenn `wid=` oder `hei=` nach `scl=` in der URL eingehen, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
+Wenn `wid=` oder `hei=` in der URL nach `scl=` kommt, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
 
 >[!NOTE]
 >
@@ -36,13 +35,13 @@ Wenn `wid=` oder `hei=` nach `scl=` in der URL eingehen, brechen sie `scl=` ab u
 
 ## Eigenschaften {#section-170458cbd6984bd59a3434431258b20f}
 
-Kann an einer beliebigen Stelle innerhalb der Anforderung auftreten. Wird ignoriert, wenn `wid=` oder `hei=` nach `scl=` in der Befehlssequenz auftreten.
+Kann an einer beliebigen Stelle in der Anfrage auftreten. Ignoriert, wenn `wid=` oder `hei=` in der Befehlssequenz nach `scl=` vorkommen.
 
-Durch Ändern der Bildgröße mit `scl=` wird der Wert für die Druckauflösung, der im Antwortbild eingebettet ist, nicht geändert.
+Wenn Sie die Bildgröße mit `scl=` ändern, wird der im Antwortbild eingebettete Wert für die Druckauflösung nicht geändert.
 
 ## Standard {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, wird das Antwortbild so skaliert, dass es in die von `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansicht der Vignette.
+Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, wird das Antwortbild so skaliert, dass es in die von `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
 
 ## Verwandte Themen {#section-cc5002a1d49340bbb5c7a5864c297621}
 
