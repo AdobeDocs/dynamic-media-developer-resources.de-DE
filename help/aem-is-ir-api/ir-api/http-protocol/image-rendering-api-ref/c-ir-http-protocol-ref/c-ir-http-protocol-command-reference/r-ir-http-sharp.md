@@ -1,28 +1,27 @@
 ---
-description: Scharfzeichnen der Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
+description: Scharfzeichnen Sie die Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
 solution: Experience Manager
-title: spitze
+title: scharf
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 6%
 
 ---
 
+# scharf{#sharp}
 
-# sharp{#sharp}
-
-Scharfzeichnen der Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
+Scharfzeichnen Sie die Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
 
 `sharp=0|1|2|3`
 
 <table id="simpletable_04B4EAA7CE7D4ED48A61A50CD001388F"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Kein Scharfzeichnen. </p> </td> 
+  <td class="stentry"> <p>Keine Scharfzeichnung. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -30,21 +29,21 @@ Scharfzeichnen der Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0 alternatives Scharfzeichnen (früh). </p> </td> 
+  <td class="stentry"> <p>0 alternative Scharfzeichnung (früh). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Mehr Scharfzeichnen (früh und spät). </p> </td> 
+  <td class="stentry"> <p>Mehr Scharfzeichnung (früh und spät). </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` das Scharfzeichnen nach der Wiedergabe des Materials vornimmt;  `sharp=2` wendet das Scharfzeichnen nach der anfänglichen Skalierung der Textur an, bevor sie jedoch in die Szene umgewandelt wird;  `sharp=3` Wendet Scharfzeichnen vor und nach der Transformation an.
+`sharp=1` wendet Scharfzeichnen nach dem Rendern des Materials an;  `sharp=2` wendet die Scharfzeichnung nach der anfänglichen Skalierung der Textur an, bevor sie in die Szene umgewandelt wird;  `sharp=3` wendet die Scharfzeichnung sowohl vor als auch nach der Transformation an.
 
-Der Scharfzeichnungsalgorithmus und die Stärke der Scharfzeichnung sowie andere USM-Parameter (Unschärfemaske) werden durch die Standardmateriellvorlage gesteuert, die von der Vignette oder mit `rs=` bereitgestellt wird.
+Der Scharfzeichnungsalgorithmus und die Menge der Scharfzeichnung und andere USM-Parameter (Unschärfemaske) werden durch die von der Vignette bereitgestellte Standard-Materialvorlage oder mit `rs=` gesteuert.
 
 ## Eigenschaften {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-Materialattribut. Wird von festen Farbstoffen ignoriert.
+Materialattribut. Ignoriert durch feste Farbstoffe.
 
 ## Standard {#section-febfa16e65864987b4d328e2ff1df64d}
 
@@ -52,4 +51,4 @@ Materialattribut. Wird von festen Farbstoffen ignoriert.
 
 ## Verwandte Themen {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
-[Katalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e),  [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
+[catalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e),  [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
