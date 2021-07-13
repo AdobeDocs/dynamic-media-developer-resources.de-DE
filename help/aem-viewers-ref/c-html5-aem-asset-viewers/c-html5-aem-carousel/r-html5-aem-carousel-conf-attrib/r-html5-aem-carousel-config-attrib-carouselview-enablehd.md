@@ -2,13 +2,12 @@
 description: CarouselView.enableHD
 solution: Experience Manager
 title: CarouselView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 6%
 
 ---
@@ -21,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Aktivieren, begrenzen oder deaktivieren Sie die Optimierung für Geräte, bei denen <span class="codeph"> devicePixelRatio</span> größer als <span class="codeph"> 1</span> ist, d. h. Geräte mit hoher Auflösung wie iPhone4 und ähnliche Geräte. </p> <p>Wenn die Komponente aktiv ist, beschränkt sie die Größe der IS-Bildanforderung so, als hätte das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> und verringert so die Bandbreite. </p> <p>Siehe Beispiel unten. </p> </td> 
+   <td colname="col2"> <p> Aktivieren, beschränken oder deaktivieren Sie die Optimierung für Geräte, bei denen <span class="codeph"> devicePixelRatio</span> größer ist als <span class="codeph"> 1</span>, d. h. Geräte mit hoher Dichte wie iPhone4 und ähnliche Geräte. </p> <p>Wenn diese Option aktiviert ist, beschränkt die Komponente die Größe der IS-Bildanforderung so, als hätte das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> und reduziert so die Bandbreite. </p> <p>Siehe Beispiel unten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Nummer</span></span> </p> </td> 
-   <td colname="col2"> <p> Bei Verwendung der Einstellung <span class="codeph"> limit</span> aktiviert die Komponente eine hohe Pixeldichte nur bis zum angegebenen Grenzwert. </p> <p>Siehe Beispiel unten. </p> </td> 
+   <td colname="col2"> <p> Bei Verwendung der Einstellung <span class="codeph"> limit</span> ermöglicht die Komponente eine hohe Pixeldichte nur bis zum angegebenen Limit. </p> <p>Siehe Beispiel unten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
