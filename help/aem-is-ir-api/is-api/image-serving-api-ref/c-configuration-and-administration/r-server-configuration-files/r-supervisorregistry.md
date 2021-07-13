@@ -3,23 +3,22 @@ description: Enthält Konfigurationseinstellungen für den Server-Supervisor.
 solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Administrator,User
+exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
 Enthält Konfigurationseinstellungen für den Server-Supervisor.
 
-Achten Sie beim Bearbeiten dieser XML-Datei darauf, die gültige XML-Syntax beizubehalten, da andernfalls der Image-Server möglicherweise nicht in Beginn geraten kann.
+Achten Sie bei der Bearbeitung dieser XML-Datei darauf, die gültige XML-Syntax beizubehalten. Andernfalls kann der Image-Server möglicherweise nicht gestartet werden.
 
-Starten Sie Image Serving nach der Bearbeitung dieser Datei neu, um sicherzustellen, dass Ihre Änderungen wirksam werden. Nur die unten hervorgehobenen Element-/Attributwerte werden für Änderungen unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur, wenn Sie vom technischen Support von Dynamic Media beraten werden.
+Starten Sie Image Serving nach der Bearbeitung dieser Datei neu, um sicherzustellen, dass Ihre Änderungen wirksam werden. Nur die im Folgenden hervorgehobenen Element-/Attributwerte werden für Änderungen unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur auf Empfehlung des technischen Kundendienstes von Dynamic Media.
 
 ```
 <supervisor>
@@ -68,4 +67,3 @@ Starten Sie Image Serving nach der Bearbeitung dieser Datei neu, um sicherzustel
     </servers>
 </supervisor>
 ```
-
