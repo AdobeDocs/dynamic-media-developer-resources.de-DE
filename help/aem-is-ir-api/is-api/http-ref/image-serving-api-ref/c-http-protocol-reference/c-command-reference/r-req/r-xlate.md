@@ -1,21 +1,20 @@
 ---
-description: Verfügbare Gebietsschema-spezifische Versionen. Gibt eine Liste der verfügbaren Gebietsschema-spezifischen Versionen der Katalog-ID zurück, die im Anforderungspfad angegeben ist.
+description: Verfügbare gebietsschemaspezifische Versionen. Gibt eine Liste der verfügbaren gebietsschemaspezifischen Versionen der im Anfragepfad angegebenen Katalog-ID zurück.
 solution: Experience Manager
 title: xlate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 4%
 
 ---
 
-
 # xlate{#xlate}
 
-Verfügbare Gebietsschema-spezifische Versionen. Gibt eine Liste der verfügbaren Gebietsschema-spezifischen Versionen der Katalog-ID zurück, die im Anforderungspfad angegeben ist.
+Verfügbare gebietsschemaspezifische Versionen. Gibt eine Liste der verfügbaren gebietsschemaspezifischen Versionen der im Anfragepfad angegebenen Katalog-ID zurück.
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -34,8 +33,8 @@ Beispiel:
 
 Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
+Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen, den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` anzugeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z-, A-Z- und 0-9-Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
