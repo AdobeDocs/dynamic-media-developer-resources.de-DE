@@ -1,27 +1,26 @@
 ---
-description: Das Bedienfeld für interaktive Muster wird neben dem Videoinhalt angezeigt, wenn interaktive Daten in der Konfiguration an den Viewer weitergeleitet wurden. Es besteht aus einem Banner am oberen Rand, mit dem Text wie "Zur Ansicht klicken", einer oder mehreren interaktiven Farbfeldern und zwei Bildlaufschaltflächen (nur auf Desktop-Systemen verfügbar) gerendert werden.
+description: Das interaktive Bedienfeld "Muster"wird neben dem Videoinhalt angezeigt, wenn interaktive Daten in der Konfiguration an den Viewer übergeben wurden. Es besteht aus einem Banner oben, das Text wie "Click to View", eine Spalte mit mindestens einem interaktiven Farbfeld und zwei Bildlauftasten (nur auf Desktop-Systemen verfügbar) rendert.
 solution: Experience Manager
 title: Interaktive Muster
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
 
 # Interaktive Muster{#interactive-swatches}
 
-Das Bedienfeld für interaktive Muster wird neben dem Videoinhalt angezeigt, wenn interaktive Daten in der Konfiguration an den Viewer weitergeleitet wurden. Es besteht aus einem Banner am oberen Rand, mit dem Text wie &quot;Zur Ansicht klicken&quot;, einer oder mehreren interaktiven Farbfeldern und zwei Bildlaufschaltflächen (nur auf Desktop-Systemen verfügbar) gerendert werden.
+Das interaktive Bedienfeld &quot;Muster&quot;wird neben dem Videoinhalt angezeigt, wenn interaktive Daten in der Konfiguration an den Viewer übergeben wurden. Es besteht aus einem Banner oben, das Text wie &quot;Click to View&quot;, eine Spalte mit mindestens einem interaktiven Farbfeld und zwei Bildlauftasten (nur auf Desktop-Systemen verfügbar) rendert.
 
 <!--<a id="section_235621A1533A49AAADB64A7C3191F735"></a>-->
 
-Auf Desktop-Systemen und Touch-Geräten werden interaktive Muster im Querformat vertikal rechts neben dem Videoinhalt gerendert. Auf Touch-Geräten im Hochformat werden sie am unteren Rand des Viewers als horizontale Zeile mit Farbfeldern angezeigt.
+Auf Desktop-Systemen und Touch-Geräten werden interaktive Muster im Querformat vertikal rechts neben dem Videoinhalt gerendert. Auf Touch-Geräten mit Hochformatausrichtung werden sie unten im Viewer als horizontale Zeile mit Farbfeldern angezeigt.
 
-Der folgende CSS-Klassenselektor steuert die Position und Ausrichtung des interaktiven Farbfelderbedienfelds:
+Der folgende CSS-Klassenselektor steuert die Position und Ausrichtung des interaktiven Bedienfelds &quot;Muster&quot;:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches
@@ -33,41 +32,41 @@ Der folgende CSS-Klassenselektor steuert die Position und Ausrichtung des intera
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite des Bedienfelds für interaktive Muster </p> </td> 
+   <td colname="col2"> <p>Breite des interaktiven Farbfeldbedienfelds </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des interaktiven Farbfelderbedienfelds. </p> </td> 
+   <td colname="col2"> <p>Höhe des interaktiven Farbfeldbedienfelds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position des Bedienfelds für interaktive Muster am Anfang. </p> </td> 
+   <td colname="col2"> <p>Position am oberen Rand des interaktiven Bedienfelds "Muster". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Unterste Position des interaktiven Farbfelderbedienfelds. </p> </td> 
+   <td colname="col2"> <p>Untere Position des interaktiven Bedienfelds "Muster". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p>Linke Position des interaktiven Farbfelderbedienfelds. </p> </td> 
+   <td colname="col2"> <p>Linke Position des interaktiven Bedienfelds "Muster". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Die rechte Position des interaktiven Farbfelderbedienfelds. </p> </td> 
+   <td colname="col2"> <p>Die rechte Position des interaktiven Bedienfelds "Muster". </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Laufzeitposition und Ausrichtung des interaktiven Farbfelderbedienfelds wird durch eine Kombination der oben genannten CSS-Eigenschaften wie folgt definiert:
+Die Laufzeitposition und -ausrichtung des interaktiven Bedienfelds wird durch eine Kombination der oben genannten CSS-Eigenschaften wie folgt definiert:
 
-* Um interaktive Muster horizontal am unteren Rand des Viewers zu rendern, legen Sie die Höhe auf einen absoluten Pixelwert fest. links und unten bis 0px; width, right und top to auto.
-* Um interaktive Muster vertikal rechts neben dem Videoinhalt zu rendern, legen Sie die Breite auf ein absolutes Pixel fest. rechts und oben bis 0px; Höhe, links und unten nach Auto.
+* Um interaktive Muster horizontal am unteren Rand des Viewers zu rendern, legen Sie die Höhe auf einen absoluten Pixelwert fest. von links und von unten nach 0px; width, right und top to auto.
+* Um interaktive Muster vertikal rechts neben dem Videoinhalt zu rendern, legen Sie die Breite auf ein absolutes Pixel fest. von rechts und von oben bis 0px; Höhe, links und unten bis Auto.
 
-Es ist möglich, CSS-Markierungen in Verbindung mit dieser Formatierung zu verwenden, um eine adaptive Platzierung des interaktiven Farbfelderbedienfelds zu erreichen.
+Es ist möglich, CSS-Markierungen in Verbindung mit diesem Stil zu verwenden, um eine adaptive Platzierung des interaktiven Bedienfelds &quot;Farbfelder&quot;zu erreichen.
 
 ## Beispiel {#example}
 
-So richten Sie ein interaktives Farbfeldbedienfeld ein, das am unteren Rand des Viewers auf Touch-Geräten im Querformat horizontal dargestellt und in allen anderen Fällen vertikal rechts neben dem Videoinhalt angezeigt wird:
+So richten Sie ein interaktives Bedienfeld für Muster ein, das am unteren Rand des Viewers auf Touch-Geräten im Querformat horizontal dargestellt und in allen anderen Fällen vertikal rechts neben dem Videoinhalt angezeigt wird:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -91,9 +90,9 @@ So richten Sie ein interaktives Farbfeldbedienfeld ein, das am unteren Rand des 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Größe und Position des Banners werden von der Komponente für interaktive Muster verwaltet, die auf anderen Stilen basiert, die mit CSS angewendet werden, und können nicht explizit festgelegt werden.
+Größe und Position des Banners werden von der interaktiven Farbfeldkomponente verwaltet, die auf anderen Stilen basiert, die mit CSS angewendet werden, und können nicht explizit festgelegt werden.
 
-Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Bannerbedienfelds:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Bannerbereichs:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7banner
@@ -109,36 +108,36 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Bannerbedienfel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Textfarbe im Bannerbedienfeld. </p> </td> 
+   <td colname="col2"> <p>Textfarbe im Bannerbereich. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
    <td colname="col2"> <p>Rand um das Bannerbedienfeld herum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung  </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftart-Gewichtung, die für den Text im Bannerbedienfeld verwendet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col2"> <p>Die Schriftstärke für den Text im Bannerbereich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftgröße, die für den Text im Bannerbedienfeld verwendet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col2"> <p>Die Schriftgröße, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftfamilie, die für den Text im Bannerbedienfeld verwendet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col2"> <p>Die Schriftfamilie, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftausrichtung für den Text im Bannerbedienfeld. </p> </td> 
+   <td colname="col2"> <p>Die Schriftausrichtung für den Text im Bannerbereich. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfo für Banner kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die Banner-QuickInfo kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Um ein Banner mit dunkelgrauem Hintergrund einzurichten, heller grauer Rand mit zwei Pixeln und weißer Text horizontal zentriert:
+Um ein Banner mit dunkelgrauem Hintergrund einzurichten, verwenden Sie einen helleren, zwei Pixel langen Rahmen und den horizontal zentrierten weißen Text:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7banner { 
@@ -176,24 +175,24 @@ So richten Sie einen Farbfeldbereich mit dunkelgrauem Hintergrund ein:
 }
 ```
 
-Der folgende CSS-Klassenselektor steuert den Abstand zwischen den Musterminiaturen:
+Der folgende CSS-Klassenselektor steuert den Abstand zwischen Musterminiaturansichten:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell`
 
-## CSS-Eigenschaften der Farbfelder-Miniaturabstände {#css-properties-of-the-swatches-thumbnail-spacing}
+## CSS-Eigenschaften des Farbfeldminiaturenabstands {#css-properties-of-the-swatches-thumbnail-spacing}
 
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche Abstand zwischen den Miniaturansichten entspricht der Summe des linken und rechten Randes, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Miniaturansichtabstand entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-So legen Sie einen vertikalen Abstand von 10 Pixel fest:
+So legen Sie den vertikalen Abstand auf 10 Pixel fest:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -201,7 +200,7 @@ So legen Sie einen vertikalen Abstand von 10 Pixel fest:
 }
 ```
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der einzelnen Miniaturansichten:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild einzelner Miniaturansichten:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb`
 
@@ -226,11 +225,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der einzelnen Mini
 
 >[!NOTE]
 >
->Miniaturansicht unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf verschiedene Miniaturansichten anwenden können. Insbesondere entspricht `state="selected"` der Miniaturansicht des aktuell ausgewählten Bildes. `state="default"` entspricht dem Rest der Miniaturansichten; `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansicht unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf verschiedene Miniaturansichten anwenden können. Insbesondere `state="selected"` entspricht der Miniaturansicht für das aktuell ausgewählte Bild; `state="default"` entspricht dem Rest der Miniaturansichten; `state="over"` wird beim Bewegen der Maus verwendet.
 
 ## Beispiel {#section-69fec189ffaa440b97b6b846c320b75b}
 
-So richten Sie Miniaturansichten mit 100 x 75 Pixeln ein:
+So richten Sie Miniaturansichten mit einer Größe von 100 x 75 Pixel ein:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb { 
@@ -243,7 +242,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label`
 
-## CSS-Eigenschaften des Erscheinungsbilds der Miniaturansichten-Beschriftung {#css-properties-of-the-appearance-of-the-thumbnail-label}
+## CSS-Eigenschaften des Erscheinungsbilds der Bezeichnung der Miniaturansicht {#css-properties-of-the-appearance-of-the-thumbnail-label}
 
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
@@ -253,14 +252,14 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftungsrand. </p> </td> 
+   <td colname="col2"> <p>Beschriftungsrahmen </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
  </tbody> 
@@ -268,7 +267,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 
 ## Beispiel {#section-eb141eb6c1154183baa69796edb90536}
 
-So richten Sie Beschriftungen so ein, dass sie linksbündig, weiß, 12 Pixel in Helvetica-Schrift und einen unteren Rand verwenden:
+So richten Sie Beschriftungen für linksbündig, weiß, 12 Pixel in der Helvetica-Schriftart und einen unteren Rand ein:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 
@@ -280,15 +279,15 @@ font-size: 12px;
 }
 ```
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltflächen für den Bildlauf nach oben und nach unten:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Bildlaufschaltflächen nach oben und unten:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton`
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Die Bildlaufschaltflächen können nicht mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` positioniert werden. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, die Bildlauftasten mithilfe der CSS-Eigenschaften `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
-## CSS-Eigenschaften des Erscheinungsbilds der Schaltflächen für den Bildlauf nach oben und unten {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
+## CSS-Eigenschaften des Erscheinungsbilds der Bildlaufschaltflächen nach oben und unten {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
@@ -298,7 +297,7 @@ Die Bildlaufschaltflächen können nicht mit den Eigenschaften CSS `top`, `left`
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Bildlauftaste. </p> </td> 
+   <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -306,20 +305,20 @@ Die Bildlaufschaltflächen können nicht mit den Eigenschaften CSS `top`, `left`
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>Die Position innerhalb des Grafik-Sprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p>Die Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf die Schaltflächenzustände anwenden können: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;und &quot; `disabled`&quot;.
+>Diese Schaltfläche unterstützt den Attributselektor `state` , mit dem Sie verschiedene Skins auf die Schaltflächenzustände anwenden können: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;und &quot; `disabled`&quot;.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#section-e6ce4fa084b84288bc7583342b2c510c}
 
-Um eine Bildlaufschaltfläche von 60 x 36 Pixeln einzurichten, müssen Sie für jeden Status ein anderes Bildmaterial verwenden, das aus dem Sprite-Bild der Komponente stammt:
+Um eine Bildlaufschaltfläche von 60 x 36 Pixel einzurichten, verwenden Sie für jeden Status ein anderes Bildmaterial und nehmen dieses Bildmaterial aus dem Sprite-Bild der Komponente:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton { 
