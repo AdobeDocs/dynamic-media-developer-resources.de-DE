@@ -1,22 +1,21 @@
 ---
-description: Die Bildwiedergabe wird mit fileinstall_folder/conf/ImageRendering.conf konfiguriert.
+description: Das Bild-Rendering wird mit fileinstall_folder/conf/ImageRendering.conf konfiguriert.
 solution: Experience Manager
-title: Image Rendering einrichten und konfigurieren
+title: Einrichten und Konfigurieren des Bild-Renderings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 126833bf-16db-40f1-8179-7775e9063081
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
+# Einrichten und Konfigurieren des Bild-Renderings{#setup-and-configure-image-rendering}
 
-# Image Rendering{#setup-and-configure-image-rendering} einrichten und konfigurieren
+Das Bild-Rendering wird mit fileinstall_folder/conf/ImageRendering.conf konfiguriert.
 
-Die Bildwiedergabe wird mit fileinstall_folder/conf/ImageRendering.conf konfiguriert.
+Weitere Informationen finden Sie im Abschnitt Konfiguration der Dokumentation . Nur unter Windows ist der Zugriff auf diese Datei auch über das Startmenü möglich: **[!UICONTROL Startmenü]** > **[!UICONTROL Programme]** > **[!UICONTROL Scene7]** > **[!UICONTROL Konfigurationsdatei für die Bildwiedergabe bearbeiten]**.
 
-Weitere Informationen finden Sie im Abschnitt &quot;Konfiguration&quot;der Dokumentation. Auf diese Datei kann auch unter Windows über das Menü &quot;Beginn&quot;zugegriffen werden: **[!UICONTROL Beginn menu]** > **[!UICONTROL Programm]** > **[!UICONTROL Scene7]** > **[!UICONTROL Bildwiedergabekonfigurationsdatei bearbeiten]**.
-
-Informationen zum Beenden und Beginn des Image Renderings finden Sie in der Image Serving-Dokumentation. Das Image Rendering kann nicht separat vom Image Serving beendet oder gestartet werden.
+Informationen zum Anhalten und Starten des Bild-Renderings finden Sie in der Dokumentation zum Image Serving . Das Bild-Rendering kann nicht separat vom Image Serving angehalten oder gestartet werden.
