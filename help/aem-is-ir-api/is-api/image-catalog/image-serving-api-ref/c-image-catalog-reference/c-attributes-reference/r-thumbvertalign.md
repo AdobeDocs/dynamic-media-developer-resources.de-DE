@@ -1,21 +1,20 @@
 ---
-description: Vertikale Ausrichtung für Miniaturansichten. Gibt die vertikale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, die durch wid= und hei= oder durch das Attribut DefaultThumbPix angegeben wird.
+description: Vertikale Ausrichtung für Miniaturansichten. Gibt die vertikale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, das durch wid= und hei= oder durch das Attribut DefaultThumbPix angegeben wird.
 solution: Experience Manager
 title: ThumbVertAlign
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: bb1aa398-5638-4109-bf05-bc51ace4146d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
 
-
 # ThumbVertAlign{#thumbvertalign}
 
-Vertikale Ausrichtung für Miniaturansichten. Gibt die vertikale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, die durch wid= und hei= oder durch attribute::DefaultThumbPix angegeben wird.
+Vertikale Ausrichtung für Miniaturansichten. Gibt die vertikale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, das durch wid= und hei= oder durch Attribut::DefaultThumbPix angegeben wird.
 
 Wird nur für Miniaturansichten ( `req=tmb`) verwendet.
 
@@ -25,7 +24,7 @@ Enum. Zulässige Werte sind 1, 2 und 3 für die obere, mittlere und untere Ausri
 
 ## Standard {#section-30caa4e772254419ad7a3a89d440666c}
 
-Vererbt von `default::ThumbHorizAlign`, wenn nicht definiert oder leer.
+Wird von `default::ThumbHorizAlign` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-c4cd5209d994498eb56a78fcd5bbdfa4}
 
