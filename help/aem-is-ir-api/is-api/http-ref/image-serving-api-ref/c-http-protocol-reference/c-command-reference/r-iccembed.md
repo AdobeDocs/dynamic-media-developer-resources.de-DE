@@ -1,21 +1,20 @@
 ---
-description: Profil "Farbe einbetten". Gibt an, ob das funktionierende ICC-Profil oder das mit icc= angegebene Profil in das Antwortbild eingebettet werden soll.
+description: Farbprofil einbetten. Gibt an, ob das funktionierende ICC-Farbprofil oder das mit icc= angegebene Profil in das Antwortbild eingebettet werden soll.
 solution: Experience Manager
 title: iccEmbed
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: bc5637f6-5452-4bfb-bf30-def6f153f4ad
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 4%
 
 ---
 
-
 # iccEmbed{#iccembed}
 
-Profil &quot;Farbe einbetten&quot;. Gibt an, ob das funktionierende ICC-Profil oder das mit icc= angegebene Profil in das Antwortbild eingebettet werden soll.
+Farbprofil einbetten. Gibt an, ob das funktionierende ICC-Farbprofil oder das mit icc= angegebene Profil in das Antwortbild eingebettet werden soll.
 
 `iccEmbed=0|1`
 
@@ -25,9 +24,9 @@ Anforderungsattribut. Wird ignoriert, wenn kein Profil zum Einbetten verfügbar 
 
 ## Standard {#section-01948f6cd7a2415091004cd7526436c7}
 
-`iccEmbed=0`, um keine Einbettung von ICC-Profilen in Ausgabebilder vorzunehmen. Wird ignoriert, wenn das Ausgabebildformat die Einbettung von ICC-Profilen nicht unterstützt.
+`iccEmbed=0`, damit keine ICC-Profile in Ausgabebilder eingebettet werden. Wird ignoriert, wenn das Einbetten von ICC-Profilen im Ausgabebildformat nicht unterstützt wird.
 
-Weitere Informationen finden Sie unter [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a).
+Weitere Informationen finden Sie unter [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) .
 
 ## Verwandte Themen {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 
