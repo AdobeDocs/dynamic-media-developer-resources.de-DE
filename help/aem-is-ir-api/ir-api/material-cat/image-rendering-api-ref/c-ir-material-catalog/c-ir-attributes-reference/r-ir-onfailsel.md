@@ -1,21 +1,20 @@
 ---
-description: Behandlung von Auswahlfehlern auswählen Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl sel= fehlschlägt, weil die angegebene Pixelposition nicht im Maskenbereich eines auswählbaren Objekts liegt.
+description: Umgang mit Auswahlfehlern wählen. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl sel= fehlschlägt, da sich die angegebene Pixelposition nicht im Maskenbereich eines auswählbaren Objekts befindet.
 solution: Experience Manager
 title: OnFailSel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 12%
 
 ---
 
-
 # OnFailSel{#onfailsel}
 
-Behandlung von Auswahlfehlern auswählen Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl sel= fehlschlägt, weil die angegebene Pixelposition nicht im Maskenbereich eines auswählbaren Objekts liegt.
+Umgang mit Auswahlfehlern wählen. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl sel= fehlschlägt, da sich die angegebene Pixelposition nicht im Maskenbereich eines auswählbaren Objekts befindet.
 
 ## Eigenschaften {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -24,7 +23,7 @@ Enum.
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Von <span class="codeph"> default::OnFailSel </span> übernehmen. </p> </td> 
+  <td class="stentry"> <p>Vererben Sie von <span class="codeph"> default::OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -32,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>die Auswahl aufheben; Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
+  <td class="stentry"> <p>Auswahl aufheben; Alle Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -46,7 +45,7 @@ Enum.
 
 ## Standard {#section-c25f458f9f8f4236963a95779529e664}
 
-Vererbt von `default::OnFailSel`, wenn nicht definiert.
+Vererbt von `default::OnFailSel` , falls nicht definiert.
 
 ## Verwandte Themen {#section-f8b15dd64c674c5484d190dd9e3016af}
 
