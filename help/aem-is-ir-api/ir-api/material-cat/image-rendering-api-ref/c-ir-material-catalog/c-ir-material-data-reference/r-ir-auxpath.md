@@ -1,29 +1,28 @@
 ---
-description: Datendateipfad. Relativer Pfad und Name für mit diesem Bild verbundene Nicht-Bilddatendateien.
+description: Datendateipfad. Relativer Pfad und Name für Nicht-Bilddatendateien, die mit diesem Bild verknüpft sind.
 solution: Experience Manager
 title: AuxPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 55f82596-72f0-48c4-9b3a-f10ea5f610f1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
 
-
 # AuxPath{#auxpath}
 
-Datendateipfad. Relativer Pfad und Name für mit diesem Bild verbundene Nicht-Bilddatendateien.
+Datendateipfad. Relativer Pfad und Name für Nicht-Bilddatendateien, die mit diesem Bild verknüpft sind.
 
-Der Server kombiniert diesen Wert mit dem Attribut::RootPath, um den tatsächlichen Dateipfad zu erstellen. Kann auch ein absoluter Dateipfad sein.
+Der Server kombiniert diesen Wert mit dem Attribut::RootPath , um den tatsächlichen Dateipfad zu erstellen. Kann auch ein absoluter Dateipfad sein.
 
-Dient zum Angeben einer Möbeldatei im Möbelstil für ein Möbelstück oder einer Fensterbedeckungsdatei für ein Fensterbezugsmaterial. Leer lassen für alle anderen Materialien.
+Wird verwendet, um eine Schrank-Stildatei für ein Schrank-Material oder eine Fensterbezugstafel für ein Fenster mit Material anzugeben. Für alle anderen Materialien leer lassen.
 
 ## Eigenschaften {#section-4268350054b7421da0ce0327f0731a52}
 
-Textzeichenfolgenwert. Bei Angabe muss es sich um einen gültigen relativen oder absoluten Dateipfad handeln. Erforderlich für Möbel- und Fensterbezugsmaterialien. Muss für alle anderen Materialien leer sein.
+Textzeichenfolgenwert. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Dateipfad handeln. Erforderlich für Möbel- und Fensterbedeckungen. Muss für alle anderen Materialien leer sein.
 
 ## Standard {#section-287005c2d8e948fa958f69ba7b90b437}
 
