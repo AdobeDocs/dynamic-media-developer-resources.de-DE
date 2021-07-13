@@ -1,28 +1,27 @@
 ---
-description: Bild in Datei speichern
+description: Speichern Sie das Bild in der Datei.
 solution: Experience Manager
 title: saveToFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 3%
 
 ---
 
-
 # saveToFile{#savetofile}
 
-Bild in Datei speichern
+Speichern Sie das Bild in der Datei.
 
 `req=saveToFile&name= *``*[&timeout= *`fileval`*]`
 
 <table id="simpletable_5674FD9655FE4CDDB0E5DC8655890A66"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> Datei</span> </p> </td> 
-  <td class="stentry"> <p>Relativer Pfad zur Bilddatei der Zielgruppe. </p></td> 
+  <td class="stentry"> <p>Relativer Pfad zur Zielbilddatei. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
@@ -32,7 +31,7 @@ Bild in Datei speichern
 
 Speichert das Antwortbild in einer Datei auf dem Server, anstatt es an den Client zurückzugeben.
 
-Nach erfolgreichem Abschluss der Speicheranforderung gibt die Anforderung mehrere Java-formatierte Eigenschaften zurück, darunter die folgenden:
+Wenn die Speicheranfrage erfolgreich abgeschlossen wurde, gibt die Anfrage mehrere Java-formatierte Eigenschaften zurück, darunter die folgenden:
 
 <table id="table_8BA8F75A0B7241BAB9B4359F97C21137"> 
  <thead> 
@@ -56,15 +55,15 @@ Nach erfolgreichem Abschluss der Speicheranforderung gibt die Anforderung mehrer
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> </span> falls erfolgreich. </p> </td> 
+   <td> <p> <span class="codeph"> </span> Sofern erfolgreich. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Gibt HTTP-Antwortstatus 200 bei erfolgreicher Ausführung und 403 zurück, wenn die Anforderung fehlschlägt oder abgelaufen ist. Die Antwort hat den MIME-Typ `text/plain` und kann nicht zwischengespeichert werden.
+Gibt den HTTP-Antwortstatus 200 bei Erfolg zurück und 403, wenn die Anfrage fehlschlägt oder eine Zeitüberschreitung auftritt. Die Antwort hat den MIME-Typ `text/plain` und ist nicht zwischenspeicherbar.
 
-Wichtiges Speichern in Dateien muss aktiviert werden, indem der Pfad zu einem vorhandenen schreibbaren Ordner in `attribute::SavePath` angegeben wird. `saveToFile=` schlägt fehl, wenn  `attribute::SavePath` leer ist.
+&quot;Wichtiges Speichern in Dateien&quot;muss aktiviert sein, indem der Pfad zu einem vorhandenen beschreibbaren Ordner in `attribute::SavePath` angegeben wird. `saveToFile=` schlägt fehl, wenn leer  `attribute::SavePath` ist.
 
-*`file`* ist erforderlich und muss ein relativer Pfad sein, der mit  `attribute::SavePath`kombiniert wird. Mit Image Serving werden keine Ordner erstellt. Der Ordner &quot;Zielgruppe&quot;muss auf dem Server vorhanden sein und über die entsprechenden Dateieinstellungen zum Erstellen von  für Image Serving verfügen.
+*`file`* ist erforderlich und muss ein relativer Pfad sein, der mit kombiniert wird  `attribute::SavePath`. Image Serving erstellt keine Ordner. Der Zielordner muss auf dem Server vorhanden sein und über die entsprechenden Berechtigungseinstellungen für Image Serving verfügen, um Dateien zu erstellen.
 
-`timeout=` ist optional. Der Standardwert für die Zeitüberschreitung ist 60.000 msec oder der Wert, der mit `PS::SaveTimeout` konfiguriert wurde.
+`timeout=` ist optional. Der Standardwert für die Zeitüberschreitung beträgt 60.000 ms oder der Wert, der mit `PS::SaveTimeout` konfiguriert ist.
