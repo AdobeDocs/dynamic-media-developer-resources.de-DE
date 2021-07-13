@@ -3,15 +3,14 @@ description: Digimarc-Bildinformationen. Aktiviert die Digimarc-Einbettung und g
 solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 13%
 
 ---
-
 
 # DigimarcInfo{#digimarcinfo}
 
@@ -19,11 +18,11 @@ Digimarc-Bildinformationen. Aktiviert die Digimarc-Einbettung und gibt den Typ d
 
 ## Eigenschaften {#section-62af219e8bac422b8541841221c9ce4f}
 
-Vier Ganzzahlwerte, durch Kommas getrennt.
+Vier ganzzahlige Werte, durch Kommas getrennt.
 
 `*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-`*``*` typeenable Digimarc embedding and specify the watermark type:
+`*``*` typeenable Digimarc embedding und gibt den Wasserzeichentyp an:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -51,12 +50,12 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
-   <td> <p>Jahre des Urheberrechts. </p> </td> 
+   <td> <p>Urheberrechtsjahre. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-`*`Ein `*` Bitfeld mit drei Werten wird markiert. Setzen Sie Bit 0 auf den Hinweis kopiergeschützter Inhalte, Bit 1 auf eingeschränkten Inhalt und Bit 2 auf erwachsenen Inhalt:
+`*``*` markiert ein Bitfeld mit drei Werten. Setzen Sie Bit 0, um den kopiergeschützten Inhalt anzugeben, Bit 1, um eingeschränkten Inhalt anzugeben, und Bit 2, um erwachsenen Inhalt anzugeben:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -92,11 +91,11 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
   </tr> 
   <tr> 
    <td> <p><b>6</b> </p> </td> 
-   <td> <p>Eingeschränkte Inhalte für Erwachsene. </p> </td> 
+   <td> <p>Eingeschränkter Inhalt für Erwachsene. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
-   <td> <p>Kopiergeschützter, eingeschränkter, ausgereifter Inhalt </p> </td> 
+   <td> <p>Kopiergeschützte, eingeschränkte, ausgereifte Inhalte. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +117,7 @@ Die Interpretation von `*`val1`*` und `*`val2`*` hängt von `*`type`*` ab:
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Nicht verwendet. </p> </td> 
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
@@ -135,26 +134,26 @@ Die Interpretation von `*`val1`*` und `*`val2`*` hängt von `*`type`*` ab:
   <tr> 
    <td> <p><b>4</b> </p> </td> 
    <td> <p>Erstes Jahr des Urheberrechts. </p> </td> 
-   <td> <p>Zweites Urheberrechtsjahr. </p> </td> 
+   <td> <p>Zweites Jahr des Urheberrechts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Standard {#section-4bb97e5f79074be89cc691e73449eb43}
 
-Von Attribut übernommen::DigimarcInfo, wenn das Feld nicht vorhanden oder leer ist.
+Wird vom -Attribut übernommen::DigimarcInfo , wenn das Feld nicht vorhanden oder leer ist.
 
 ## Beispiele {#section-0f14727a0a2a408781c9df71fed7f42d}
 
-&quot;0,0,0,0&quot;deaktiviert die Digimarc-Wasserzeichen für dieses Bild.
+&quot;0,0,0,0&quot;deaktiviert das Digimarc-Wasserzeichen für dieses Bild.
 
-&quot;1,5,0,0&quot;gibt ein einfaches Wasserzeichen mit dem Flag für jugendfreie und kopiergeschützte Inhalte an.
+&quot;1,5,0,0&quot;gibt ein Grundwasserzeichen mit dem Flag für jugendfreie und kopiergeschützte Inhalte an.
 
 &quot;2,0,4567,0&quot;gibt ein Wasserzeichen mit einer Bild-ID an.
 
-&quot;3,2,56483,0&quot;gibt ein Wasserzeichen mit einer Transaktions-ID und dem Kennzeichensatz für eingeschränkten Inhalt an.
+&quot;3,2,56483,0&quot;bezeichnet ein Wasserzeichen mit einer Transaktions-ID und der Markierung für eingeschränkten Inhalt, die festgelegt ist.
 
-&quot;4,0,1998,2001&quot; bezeichnet ein Wasserzeichen mit Urheberrechtsjahren.
+&quot;4,0,1998,2001&quot;bezeichnet ein Wasserzeichen mit Urheberrechtsjahren.
 
 ## Verwandte Themen {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
