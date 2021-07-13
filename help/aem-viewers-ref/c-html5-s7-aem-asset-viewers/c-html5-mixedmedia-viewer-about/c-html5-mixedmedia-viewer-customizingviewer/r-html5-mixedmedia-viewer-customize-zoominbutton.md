@@ -3,9 +3,9 @@ description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in 
 solution: Experience Manager
 title: Schaltfläche "Vergrößern"
 feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 663f9bb5-c432-4b34-ac76-a62826994a81
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 2%
