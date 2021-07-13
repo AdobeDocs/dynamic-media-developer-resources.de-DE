@@ -1,29 +1,28 @@
 ---
-description: Renderpriorität für Farbkonvertierung. Stellt die standardmäßige Renderpriorität für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit icc= angegeben wurde.
+description: Rendering-Absicht für Farbkonvertierung. Stellt die standardmäßige Rendering-Absicht für Farbkonvertierungen bereit, wenn der Rendering-Intent nicht mit icc= angegeben ist.
 solution: Experience Manager
 title: IccRenderIntent
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 732b1935-6556-4420-a056-4e00cb3ed152
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
-
 # IccRenderIntent{#iccrenderintent}
 
-Renderpriorität für Farbkonvertierung. Stellt die standardmäßige Renderpriorität für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit icc= angegeben wurde.
+Rendering-Absicht für Farbkonvertierung. Stellt die standardmäßige Rendering-Absicht für Farbkonvertierungen bereit, wenn der Rendering-Intent nicht mit icc= angegeben ist.
 
 ## Eigenschaften {#section-2540099fb2fc47d29b04642da4f5922a}
 
-Enum. Für die Wahrnehmbarkeit auf 0 gesetzt, für die relative Farbmetrik auf 1, für die Sättigung auf 2, für die absolute Farbmetrik auf 3.
+Enum. Setzen Sie den Wert auf 0 für wahrnehmungsorientiert, 1 für relativ farbmetrisch, 2 für Sättigung, 3 für absolut farbmetrisch.
 
 ## Standard {#section-61a05067905b44099c228e15de279dbd}
 
-Vererbt von `default::IccRenderIntent`, wenn nicht definiert oder leer.
+Wird von `default::IccRenderIntent` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-7da9ff3038ca452a9f7375a1ca0581af}
 
