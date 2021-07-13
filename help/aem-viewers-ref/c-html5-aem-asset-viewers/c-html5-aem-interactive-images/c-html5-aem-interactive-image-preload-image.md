@@ -1,29 +1,28 @@
 ---
-description: Das Vorlade-Bild ist ein Bild für die Vorschau von statischen Assets, das direkt nach dem Aufruf der init()-Methode geladen wird und das beim Herunterladen von Viewer-SDK-Bibliotheken sowie von Asset- und Vorgabeninformationen angezeigt wird. Das Vorlade-Bild dient dazu, die Ladezeit des Viewers visuell zu verbessern und dem Benutzer Inhalte schnell bereitzustellen.
+description: Das Vorlade-Bild ist ein statisches Asset-Vorschaubild, das direkt nach dem Aufruf der init()-Methode geladen wird und beim Herunterladen von Viewer-SDK-Bibliotheken, Asset- und Vorgabeninformationen angezeigt wird. Das Vorlade-Bild soll die Ladezeit des Viewers visuell verbessern und dem Benutzer Inhalte schnell präsentieren.
 solution: Experience Manager
 title: Vorab-Bild
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Interaktive Bilder
+role: Developer,User
 exl-id: 54bea5fc-916c-4a58-bc06-b726884d488a
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# Bild vor dem Laden{#preload-image}
+# Vorab-Bild{#preload-image}
 
-Das Vorlade-Bild ist ein Bild für die Vorschau von statischen Assets, das direkt nach dem Aufruf der init()-Methode geladen wird und das beim Herunterladen von Viewer-SDK-Bibliotheken sowie von Asset- und Vorgabeninformationen angezeigt wird. Das Vorlade-Bild dient dazu, die Ladezeit des Viewers visuell zu verbessern und dem Benutzer Inhalte schnell bereitzustellen.
+Das Vorlade-Bild ist ein statisches Asset-Vorschaubild, das direkt nach dem Aufruf der init()-Methode geladen wird und beim Herunterladen von Viewer-SDK-Bibliotheken, Asset- und Vorgabeninformationen angezeigt wird. Das Vorlade-Bild soll die Ladezeit des Viewers visuell verbessern und dem Benutzer Inhalte schnell präsentieren.
 
-Das Vorlade-Bild funktioniert bei der gängigsten Viewer-Einbettungsmethode, bei der reaktionsfähiges Einbetten mit uneingeschränkter Höhe erfolgt. Siehe die Überschrift [Einbettung von Responsive Design mit unbeschränkter Höhe](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
+Das Vorabladen von Bildern eignet sich gut für die gängigste Viewer-Einbettungsmethode, bei der eine responsive Einbettung mit uneingeschränkter Höhe erfolgt. Siehe Überschrift [Responsives Design, das mit unbeschränkter Höhe eingebettet wird](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-Die Funktion hat jedoch gewisse Einschränkungen, wenn andere Einbettungsmethoden oder bestimmte Konfigurationsoptionen verwendet werden. In folgenden Fällen kann das Vorladen des Bildes fehlschlagen:
+Die Funktion weist jedoch bestimmte Einschränkungen auf, wenn andere Einbettungsmethoden oder bestimmte Konfigurationsoptionen verwendet werden. In folgenden Fällen kann das Vorausfüllen des Bildes nicht ordnungsgemäß dargestellt werden:
 
-* Wenn die Größe des Viewers festgelegt ist und die Größe entweder mit dem Konfigurationsattribut `stagesize` im Viewer-Vorgabendatensatz oder in der externen Viewer-CSS-Datei für das Element des Viewer-Containers der obersten Ebene definiert wird.
-* Wenn die Einbettung in flexibler Größe mit der definierten Breite- und Höhe des Viewers verwendet wird. Siehe Überschrift [Einbettung flexibler Größe mit definierter Breite und Höhe](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
+* Wenn der Viewer eine feste Größe hat und die Größe entweder mithilfe des Konfigurationsattributs `stagesize` innerhalb des Viewer-Vorgabendatensatzes oder in der externen Viewer-CSS-Datei für das Viewer-Container-Element der obersten Ebene definiert wird.
+* Wenn die flexible Einbettung mit der Breite und Höhe verwendet wird, wird die Viewer-Einbettungsmethode verwendet. Siehe Überschrift [Flexible Größe, eingebettet in Breite und Höhe definiert](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-Wenn Sie den Viewer in einem der oben aufgeführten Betriebsmodi verwenden, müssen Sie die Funktion für das Vorladen von Bildern möglicherweise mit dem Konfigurationsattribut `preloadImage` deaktivieren.
+Sie müssen die Funktion zum Vorausfüllen von Bildern unter Verwendung des Konfigurationsattributs `preloadImage` deaktivieren, wenn Sie den Viewer in einem der oben aufgeführten Vorgangsmodi verwenden.
 
-Außerdem wird das Vorlade-Bild nicht verwendet - auch wenn es in der Konfiguration aktiviert ist - wenn der Viewer in das DOM-Element eingebettet ist und die CSS-Einstellung `display:none` verwendet oder von der DOM-Struktur getrennt wird.
+Außerdem wird das Vorlade-Bild nicht verwendet - auch wenn es in der Konfiguration aktiviert ist - wenn der Viewer in das DOM-Element eingebettet ist und die CSS-Einstellung `display:none` verwendet oder von der DOM-Struktur getrennt ist.
