@@ -1,21 +1,20 @@
 ---
-description: Parameter, die allen Viewern gemein sind.
+description: Parameter, die allen Viewern gemeinsam sind.
 solution: Experience Manager
 title: config
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 4%
 
 ---
 
 # config{#config}
 
-Parameter, die allen Viewern gemein sind.
+Parameter, die allen Viewern gemeinsam sind.
 
 ` config= *`configId`*`
 
@@ -23,7 +22,7 @@ Parameter, die allen Viewern gemein sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Katalog/ID für die Viewer-Konfiguration. </p> <p> Gibt einen Bildkatalogeintrag an, der die Viewer-Konfigurationseigenschaften im Katalog <span class="codeph"> enthält::UserData </span>. Wenn dieser Befehl vorhanden ist, sendet der Viewer den Befehl <span class="codeph"> req=userdata </span> für <span class="codeph"> configId </span> an den Server und extrahiert Eigenschaften aus der Antwort. Die Eigenschaften werden zum Initialisieren des Viewers verwendet. Wenn die URL-Zeichenfolge dieselben Eigenschaften angibt, überschreiben sie die Werte aus dem Katalog <span class="codeph">::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Katalog/ID für die Viewer-Konfiguration. </p> <p> Gibt einen Bildkatalogeintrag an, der die Viewer-Konfigurationseigenschaften im Katalog <span class="codeph"> enthält::UserData </span>. Wenn dieser Befehl vorhanden ist, sendet der Viewer den Befehl <span class="codeph"> req=userdata </span> für <span class="codeph"> configId </span> an den Server und extrahiert Eigenschaften aus der Antwort. Die Eigenschaften werden verwendet, um den Viewer zu initialisieren. Wenn die URL-Zeichenfolge dieselben Eigenschaften angibt, überschreiben sie die Werte aus <span class="codeph"> catalog::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,9 +116,9 @@ Dies entspricht den folgenden Befehlen, die explizit in der URL angegeben werden
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## Beispiel 4 {#section-19b988551d1d492a9079948e0b04b38f}
+## Beispiel 5 {#section-19b988551d1d492a9079948e0b04b38f}
 
-Eine Viewer-Vorgabe mit dem Namen `Carousel_Dotted_light` der folgenden Daten:
+Eine Viewer-Vorgabe mit dem Namen `Carousel_Dotted_light` enthält die folgenden Daten:
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
