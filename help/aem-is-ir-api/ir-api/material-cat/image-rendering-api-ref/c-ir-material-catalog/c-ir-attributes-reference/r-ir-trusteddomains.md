@@ -1,29 +1,28 @@
 ---
-description: Webdomänen für Flash-Anwendungen. Adobe Flash-Anwendungen benötigen unter Umständen Zugriff auf die Eigenschaften von Bildern, die im SWF-Format bereitgestellt werden. Die SWF muss explizit Zugriff gewähren, indem sie den Namen der Anwendungsdomäne(n) registriert, denen sie vertraut.
+description: Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die im swf-Format bereitgestellt werden. Der swf muss den Zugriff explizit gewähren, indem er den Namen der Anwendungsdomänen registriert, denen er vertraut.
 solution: Experience Manager
 title: TrustedDomains *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
-
 # TrustedDomains *{#trusteddomains}
 
-Webdomänen für Flash-Anwendungen. Adobe Flash-Anwendungen benötigen unter Umständen Zugriff auf die Eigenschaften von Bildern, die im SWF-Format bereitgestellt werden. Die SWF muss explizit Zugriff gewähren, indem sie den Namen der Anwendungsdomäne(n) registriert, denen sie vertraut.
+Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die im swf-Format bereitgestellt werden. Der swf muss den Zugriff explizit gewähren, indem er den Namen der Anwendungsdomänen registriert, denen er vertraut.
 
 ## Eigenschaften {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-Zeichenfolge, die eine kommagetrennte Liste von Webdomänennamen enthält. Wenn diese Variable leer ist, müssen Anwendungen von derselben Domäne wie das Image Rendering bereitgestellt werden, damit sie auf die Eigenschaften von Bildern in [!DNL swf]-formatierten Antworten zugreifen können.
+Zeichenfolge, die eine kommagetrennte Liste mit Webdomänennamen enthält. Wenn dieses Feld leer ist, müssen Anwendungen von derselben Domäne wie das Bild-Rendering bereitgestellt werden, damit sie auf die Eigenschaften von Bildern in Antworten zugreifen können, die im Format [!DNL swf] formatiert sind.
 
 ## Standard {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-Vererbt von `default::TrustedDomains`, wenn nicht vorhanden.
+Vererbt von `default::TrustedDomains` , falls nicht vorhanden.
 
 ## Verwandte Themen {#section-2f829671c385411d8e1a7525def5529f}
 
