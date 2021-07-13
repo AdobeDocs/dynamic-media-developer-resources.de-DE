@@ -2,16 +2,15 @@
 description: URL-Befehl für Video-Viewer.
 solution: Experience Manager
 title: Navigation
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '60'
+ht-degree: 13%
 
 ---
-
 
 # Navigation{#navigation}
 
@@ -25,7 +24,7 @@ Der Viewer unterstützt die Videokapitelnavigation über gehostete WebVTT-Dateie
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt eine URL oder einen Pfad zu WebVTT-Navigationsinhalten an. Image Serving sollte die WebVTT-Datei hosten. </p> </td> 
+   <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Navigationsinhalt an. Image Serving sollte die WebVTT-Datei hosten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,4 +42,3 @@ Keine.
 ```
 navigation=Scene7SharedAssets/adobe_qbc_final_nc
 ```
-
