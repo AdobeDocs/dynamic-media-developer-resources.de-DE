@@ -1,29 +1,28 @@
 ---
-description: Standardmäßige JPEG-Kodierungsqualität. Legt die Standardqualitätseinstellung für JPEG-kodierte Antwortbilder fest.
+description: Standardmäßige JPEG-Kodierungsqualität. Gibt die Standardqualitätseinstellung für JPEG-kodierte Antwortbilder an.
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
 
-
 # JpegQuality{#jpegquality}
 
-Standardmäßige JPEG-Kodierungsqualität. Legt die Standardqualitätseinstellung für JPEG-kodierte Antwortbilder fest.
+Standardmäßige JPEG-Kodierungsqualität. Gibt die Standardqualitätseinstellung für JPEG-kodierte Antwortbilder an.
 
 ## Eigenschaften {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Ganzzahl und Flag, durch Kommas getrennt. Der erste Wert liegt im Bereich 1.100 und definiert die Qualität. Der zweite Wert kann 0 für normales Verhalten oder 1 für die Deaktivierung der Chromatanz-Downsampling sein, die normalerweise von JPEG-Kodierern verwendet wird.
+Ganzzahl und Markierung, durch Kommas getrennt. Der erste Wert liegt im Bereich 1.100 und definiert die Qualität. Der zweite Wert kann 0 für normales Verhalten oder 1 für die Deaktivierung des Chromatizitäts-Downsampling sein, das normalerweise von JPEG-Kodierern verwendet wird.
 
 ## Standard {#section-60900c0fb8c54444b2361513232514db}
 
-Vererbt von `default::JpegQuality`, wenn nicht definiert oder leer.
+Wird von `default::JpegQuality` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-8928a28fcbfe401cad4d4021a7a1c268}
 
