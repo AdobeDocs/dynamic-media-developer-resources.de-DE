@@ -1,42 +1,41 @@
 ---
-description: Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radius > 0) oder eine Erosion (Radius < 0) auf die Bilddaten an.
+description: Bild verkleinern/erodieren. Wendet eine morphologische Verfärbung (Radius > 0) oder eine Erdung (Radius < 0) auf die Bilddaten an.
 solution: Experience Manager
-title: op_large
+title: op_expand
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
 
+# op_expand{#op-grow}
 
-# op_Growth{#op-grow}
-
-Bild vervielfältigen/erodieren. Wendet einen morphologischen Farbverlauf (Radius > 0) oder eine Erosion (Radius &lt; 0) auf die Bilddaten an.
+Bild verkleinern/erodieren. Wendet eine morphologische Verfärbung (Radius > 0) oder eine Erdung (Radius &lt; 0) auf die Bilddaten an.
 
 `op_grow= *`radius`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p> </td> 
-  <td class="stentry"> <p>Dilate/erode radius in pixel (int -100..100). </p></td> 
+  <td class="stentry"> <p>Radius zum Verdünnen/Erodieren in Pixel (int -100..100). </p></td> 
  </tr> 
 </table>
 
-`*``*` Radiusis in Pixeln relativ zum Composite-Bild. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
+`*``*` radiusis in Pixel relativ zum Composite-Bild. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
 
-Wird hauptsächlich zur Änderung der Größe von Ebeneneffekten verwendet. Auch nützlich, um spezielle Effekte auf Textebenen oder Vollfarben-Ebenen mit Masken zu erzielen.
+Wird hauptsächlich verwendet, um die Größe von Ebeneneffekten zu ändern. Auch nützlich, um besondere Effekte auf Textebenen oder solide Farbschichten mit Masken zu erzielen.
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`.
+Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_grow=0`, ohne dass sich dies ändert.
+`op_grow=0`, ohne Änderung.
 
 ## Verwandte Themen {#section-ad3e5cecfc3448a38ea06093e015c88a}
 
