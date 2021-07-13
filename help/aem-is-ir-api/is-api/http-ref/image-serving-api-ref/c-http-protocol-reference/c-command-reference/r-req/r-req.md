@@ -1,32 +1,31 @@
 ---
-description: Anforderungstyp Gibt den Anforderungstyp an.
+description: Anfragetyp. Gibt den Anforderungstyp an.
 solution: Experience Manager
 title: req
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+role: Developer,User
+exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 9%
 
 ---
 
-
 # req{#req}
 
-Anforderungstyp Gibt den Anforderungstyp an.
+Anfragetyp. Gibt den Anforderungstyp an.
 
 `req={catalogprops|exists|imageprops|imageset|img|loadcache|map|mask|mbrSet|message|props|resolve|saveToFile|set|targets|tmb|userdata|validate|xlate|xmp}[, *`optionen`*]`
 
-* [Katalogprops](r-catalogprops.md)
+* [Katalogproben](r-catalogprops.md)
 * [vorhanden](r-exists.md)
 * [imageprops](r-imageprops.md)
 * [imageset](r-imageset-req.md)
 * [img](r-img.md)
 * [loadcache](r-loadcache.md)
 * [Karte](r-map-req.md)
-* [Maske](r-mask-req.md)
+* [mask](r-mask-req.md)
 * [mbrSet](r-mbrset.md)
 * [message](r-message.md)
 * [props](r-props.md)
@@ -40,7 +39,7 @@ Anforderungstyp Gibt den Anforderungstyp an.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Sofern in den detaillierten Beschreibungen nichts anderes angegeben ist, gibt der Server `text` Antworten mit dem MIME-Typ `text/plain` zurück. Bei vielen Anforderungstypen können Sie einen Antworttyp angeben, z. B. `text`, das ist in der Regel der Standardwert `javascript`, `xml` oder `json`. Die zugehörigen Antwort-MIME-Typen sind `text/plain`, `text/javascript`, `text/xml` und `text/javascript`.
+Sofern in den detaillierten Beschreibungen nichts anderes angegeben ist, gibt der Server `text` Antworten mit dem MIME-Typ `text/plain` zurück. Bei vielen Anfragetypen können Sie einen Antworttyp angeben, z. B. `text`, der normalerweise der Standardwert `javascript`, `xml` oder `json` ist. Die zugehörigen Antwort-MIME-Typen sind `text/plain`, `text/javascript`, `text/xml` und `text/javascript`.
 
 Sofern nicht anders angegeben, formatieren Antworten die Antwort als Satz von `name=value`-Paaren.
 
