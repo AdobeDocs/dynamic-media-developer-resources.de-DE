@@ -1,21 +1,20 @@
 ---
-description: Textflussbereich. Gibt einen oder mehrere Regionen an, in die der mit textPs= angegebene Text fließen soll.
+description: Textflussbereich. Gibt einen oder mehrere Bereiche an, in die der mit textPs= angegebene Text fließen soll.
 solution: Experience Manager
 title: textFlowPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b5575d17-150b-421c-b298-077b577eb95c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 5%
 
 ---
 
-
 # textFlowPath{#textflowpath}
 
-Textflussbereich. Gibt einen oder mehrere Regionen an, in die der mit textPs= angegebene Text fließen soll.
+Textflussbereich. Gibt einen oder mehrere Bereiche an, in die der mit textPs= angegebene Text fließen soll.
 
 ` textFlowPath= *`pathDefinition`*`
 
@@ -26,17 +25,17 @@ Textflussbereich. Gibt einen oder mehrere Regionen an, in die der mit textPs= an
  </tr> 
 </table>
 
-Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d).
+Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) .
 
 Die RTF-Randbefehle `\margl`, `\margr`, `\margt` und `\margb` werden ignoriert, wenn `textFlowPath=` vorhanden ist. Wenn keine Pfaddefinition angegeben ist, wird `textFlowPath=` ignoriert.
 
 ## Eigenschaften {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-Textebenenattribut ( `textPs=` nur). Wird von anderen Ebenen ignoriert. Gilt für `layer=0`, wenn für `layer=comp` angegeben.
+Textebenenattribut ( nur `textPs=`). Wird von anderen Ebenen ignoriert. Gilt für `layer=0`, falls für `layer=comp` angegeben.
 
 ## Standard {#section-68c4559b9e8242059b82e5a39a455dfc}
 
-Wie das Ebenenrechteck; Text füllt das gesamte Rechteck der Ebene.
+Wie das Ebenenrechteck; Text füllt das gesamte Ebenenrechteck.
 
 ## Verwandte Themen {#section-592b0039cf99471188db6a7df44b450a}
 
