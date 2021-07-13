@@ -1,21 +1,20 @@
 ---
-description: Parameter, die allen Viewern gemein sind.
+description: Parameter, die allen Viewern gemeinsam sind.
 solution: Experience Manager
 title: config2
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
 # config2{#config}
 
-Parameter, die allen Viewern gemein sind.
+Parameter, die allen Viewern gemeinsam sind.
 
 >[!NOTE]
 >
@@ -27,7 +26,7 @@ Parameter, die allen Viewern gemein sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> Name der Konfigurationsvorgabe <span class="keyword"> Adobe Analytics</span> </p> </td> 
+   <td colname="col2"> <p> Name der Konfigurationsvorgabe <span class="keyword"> Adobe Analytics</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
