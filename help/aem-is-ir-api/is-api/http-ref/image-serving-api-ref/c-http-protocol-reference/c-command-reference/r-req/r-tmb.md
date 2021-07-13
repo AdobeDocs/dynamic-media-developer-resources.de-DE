@@ -1,26 +1,25 @@
 ---
-description: Miniaturbild. Fordert Bilddaten an, die mithilfe von Katalogminiaturkriterien formatiert und in der Größe angepasst wurden.
+description: Miniaturbild. Fordert Bilddaten an, die mithilfe von Kriterien für Katalogminiaturansichten formatiert und formatiert wurden.
 solution: Experience Manager
 title: tmb
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9bdcc1c4-fe2b-4316-a472-07a533f105a0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-
 # tmb{#tmb}
 
-Miniaturbild. Fordert Bilddaten an, die mithilfe von Katalogminiaturkriterien formatiert und in der Größe angepasst wurden.
+Miniaturbild. Fordert Bilddaten an, die mithilfe von Kriterien für Katalogminiaturansichten formatiert und formatiert wurden.
 
 `req=tmb`
 
-Das Antwortdatenformat und der AntwortmIME-Typ werden von `fmt=` bestimmt. Unterstützt alle Befehle mit Ausnahme von `fit=`.
+Das Antwortdatenformat und der Antwort-MIME-Typ werden durch `fmt=` bestimmt. Unterstützt alle Befehle außer `fit=`.
 
 Siehe [Skalierung der Miniaturansichten](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f).
 
-Die HTTP-Antwort kann mit der TTL auf der Grundlage von `catalog::Expiration` zwischengespeichert werden.
+Die HTTP-Antwort kann mit der TTL basierend auf `catalog::Expiration` zwischengespeichert werden.
