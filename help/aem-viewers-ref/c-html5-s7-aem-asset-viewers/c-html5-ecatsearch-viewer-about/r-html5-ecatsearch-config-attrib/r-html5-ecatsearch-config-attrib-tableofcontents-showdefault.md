@@ -3,15 +3,14 @@ description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 9%
 
 ---
-
 
 # TableOfContents.showdefault{#tableofcontents-showdefault}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Bei Festlegung auf <span class="codeph"> 1</span> füllt die Komponente das Dropdown-Feld mit Elementen für alle Seiten, auch für diejenigen, für die keine Beschriftung definiert ist. </p> <p>Bei Festlegung auf <span class="codeph"> 0</span> werden nur Elemente mit expliziten Bezeichnungen im Dropdown-Bedienfeld angezeigt. </p> </td> 
+   <td> <p> Wenn der Wert auf <span class="codeph"> 1</span> festgelegt ist, füllt die Komponente das Dropdown-Bedienfeld mit Elementen für alle Seiten, auch für diejenigen, die keine Beschriftung definiert haben. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur Elemente mit expliziten Bezeichnungen im Dropdown-Bedienfeld angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
