@@ -1,23 +1,22 @@
 ---
-description: Videogröße Ermöglicht die Angabe einer Größe, die jedem Videodatensatz zugeordnet ist.
+description: Videogröße. Ermöglicht die Angabe einer Größe, die mit jedem Videonamen verknüpft ist.
 solution: Experience Manager
 title: VideoSize
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e70db18f-a8fd-4e47-85e3-a0f1f9a945d9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 8%
 
 ---
 
-
 # VideoSize{#videosize}
 
-Videogröße Ermöglicht die Angabe einer Größe, die jedem Videodatensatz zugeordnet ist.
+Videogröße. Ermöglicht die Angabe einer Größe, die mit jedem Videonamen verknüpft ist.
 
-Wird von `req=set`-Anforderungen zum Exportieren von Videogrößendaten verwendet.
+Wird von `req=set`-Anforderungen verwendet, um Daten zur Videogröße zu exportieren.
 
 ## Eigenschaften {#section-93a2631a57e2423ea6b40f68c55062a1}
 
