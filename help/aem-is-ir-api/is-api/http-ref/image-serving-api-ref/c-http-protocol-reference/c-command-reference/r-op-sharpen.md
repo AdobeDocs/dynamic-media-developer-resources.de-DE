@@ -1,29 +1,28 @@
 ---
-description: Scharfzeichnen des Bildes. Wendet einen grundlegenden Scharfzeichnungsfilter auf die Ebene oder auf das endgültige Bild der Ansicht an, wenn layer=comp skaliert wird.
+description: Scharfzeichnen Sie das Bild. Wendet einen einfachen Scharfzeichnungsfilter auf die Ebene oder das endgültige Ansichtsbild an, nachdem die Skalierung abgeschlossen ist (wenn layer=comp).
 solution: Experience Manager
 title: op_sharpen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 7%
 
 ---
 
-
 # op_sharpen{#op-sharpen}
 
-Scharfzeichnen des Bildes. Wendet einen grundlegenden Scharfzeichnungsfilter auf die Ebene oder auf das endgültige Bild der Ansicht an, wenn layer=comp skaliert wird.
+Scharfzeichnen Sie das Bild. Wendet einen einfachen Scharfzeichnungsfilter auf die Ebene oder das endgültige Ansichtsbild an, nachdem die Skalierung abgeschlossen ist (wenn layer=comp).
 
 `op_sharpen=0|1`
 
-Die Ebenenmaske oder die Composite-Maske wird ebenfalls scharfgezeichnet.
+Die Ebenenmaske oder die zusammengesetzte Maske wird ebenfalls scharfgezeichnet.
 
 ## Eigenschaften {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Ebenenattribut oder Ansicht-Attribut. Gilt für die aktuelle Ebene oder für die letzte Ansicht, wenn `layer=comp`. Von Effektebenen ignoriert.
+Ebenenattribut oder Ansichtsattribut. Gilt für die aktuelle Ebene oder für das endgültige Ansichtsbild, wenn `layer=comp` Wird von Effektebenen ignoriert.
 
 ## Standard {#section-665709700fff458e9dbbf8a78e8ecf71}
 
@@ -31,7 +30,7 @@ Ebenenattribut oder Ansicht-Attribut. Gilt für die aktuelle Ebene oder für die
 
 ## Beispiel {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Kompensieren Sie die leichte Unschärfe, die durch das Neuberechnen des Bildes entsteht. Außerdem erhöhen wir die JPEG-Qualität, um zusätzliche JPEG-Artefakte entlang der scharfgezeichneten Kanten zu vermeiden.
+Kompensieren Sie die leichte Unschärfe, die durch das Neuberechnen von Bildern verursacht wird. Außerdem erhöhen wir die JPEG-Qualität, um zusätzliche JPEG-Artefakte entlang der scharfgezeichneten Kanten zu vermeiden.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 
