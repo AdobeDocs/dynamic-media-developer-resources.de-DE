@@ -1,21 +1,20 @@
 ---
-description: Die folgenden Dokument-Eigenschaften werden in Textfeldern unterstützt.
+description: Die folgenden Dokumenteigenschaften werden in Textfeldern unterstützt.
 solution: Experience Manager
-title: Eigenschaften von Dokumenten (Textfeld)
+title: Dokumenteigenschaften (Textfeld)
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e9d21a39-4d98-4115-8179-ab5acf713c80
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
 
+# Dokumenteigenschaften (Textfeld){#document-text-box-properties}
 
-# Eigenschaften von Dokument (Textfeld){#document-text-box-properties}
-
-Die folgenden Dokument-Eigenschaften werden in Textfeldern unterstützt.
+Die folgenden Dokumenteigenschaften werden in Textfeldern unterstützt.
 
 <table id="table_8E1DF8E6BD894D7A9ACFC839918E2315"> 
  <thead> 
@@ -49,22 +48,22 @@ Die folgenden Dokument-Eigenschaften werden in Textfeldern unterstützt.
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>Farbtabelle für Image Serving-Farben. </p> </td> 
-   <td> <p>Dynamic Media-Erweiterung; Nur <span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Dynamic Media-Erweiterung; <span class="codeph"> textPs= </span> nur </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Rote Farbkomponente. </p> </td> 
-   <td> <p>Darf nur in <span class="codeph"> \colortbl </span> angezeigt werden; 0...255 </p> </td> 
+   <td> <p>Kann nur in <span class="codeph"> \colortbl </span> angezeigt werden; 0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \green  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Grüne Farbkomponente. </p> </td> 
-   <td> <p>Darf nur in <span class="codeph"> \colortbl </span> angezeigt werden; 0...255 </p> </td> 
+   <td> <p>Kann nur in <span class="codeph"> \colortbl </span> angezeigt werden; 0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \blue  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Blaue Farbkomponente. </p> </td> 
-   <td> <p>Darf nur in <span class="codeph"> \colortbl </span> angezeigt werden; 0...255 </p> </td> 
+   <td> <p>Kann nur in <span class="codeph"> \colortbl </span> angezeigt werden; 0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
@@ -89,26 +88,26 @@ Die folgenden Dokument-Eigenschaften werden in Textfeldern unterstützt.
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Linker Rand. </p> </td> 
-   <td> <p>Twips; Nur <span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> nur </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margr  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Rechter Rand. </p> </td> 
-   <td> <p>Twips; Nur <span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> nur </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margt  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Oberer Rand. </p> </td> 
-   <td> <p>Twips; Nur <span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> nur </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margb  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Unterer Rand. </p> </td> 
-   <td> <p>Twips; Nur <span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> nur </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \vertalt  </span> </td> 
-   <td> <p>Text im Textfeld oben ausrichten </p> </td> 
+   <td> <p>Text in Textfeldern oben ausrichten. </p> </td> 
    <td> <p>Standard </p> </td> 
   </tr> 
   <tr> 
@@ -118,14 +117,13 @@ Die folgenden Dokument-Eigenschaften werden in Textfeldern unterstützt.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \vertalc  </span> </td> 
-   <td> <p>Zentriert Text im Textfeld. </p> </td> 
+   <td> <p>Text im Textfeld zentrieren. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \stextflow  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Textflussausrichtung </p> </td> 
-   <td> <p>Sprachspezifischer Textfluss; <span class="codeph"> textPs= </span> nur 0 (Standard) links-rechts, oben-unten (europäisch) 1 oben-unten, rechts-links (Fertig-Osten) </p> </td> 
+   <td> <p>Textflussausrichtung. </p> </td> 
+   <td> <p>Sprachspezifischer Textfluss; <span class="codeph"> textPs= </span> nur 0 (Standard), links, unten (europäisch) 1 oben unten, rechts links (Fertig Osten) </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
