@@ -1,50 +1,49 @@
 ---
-description: Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anwenden von "Beschneiden="und vor "Drehen="und "Erweitern=".
+description: Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anwenden von "crop="und vor "rotate="und "expand="horizontal.
 solution: Experience Manager
 title: flip
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
-
 # flip{#flip}
 
-Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anwenden von &quot;Beschneiden=&quot;und vor &quot;Drehen=&quot;und &quot;Erweitern=&quot;.
+Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anwenden von &quot;crop=&quot;und vor &quot;rotate=&quot;und &quot;expand=&quot;horizontal.
 
 `flip=lr|ud|lrud`
 
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr  </span> </p> </td> 
-  <td class="stentry"> <p>Ebene horizontal spiegeln (links nach rechts). </p> </td> 
+  <td class="stentry"> <p>Ebene horizontal spiegeln (links rechts). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ud  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> Cloud  </span> </p> </td> 
   <td class="stentry"> <p>Ebene vertikal spiegeln (nach unten). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud  </span> </p> </td> 
-  <td class="stentry"> <p>Horizontal und vertikal spiegeln </p> </td> 
+  <td class="stentry"> <p>sowohl horizontal als auch vertikal spiegeln </p> </td> 
  </tr> 
 </table>
 
 Kann auch auf Textebenen angewendet werden.
 
-Einige Befehle, einschließlich `extend=`, gelten implizit für Ebene 0 anstelle der Composite-Ebene, wenn `layer=comp` ausgewählt ist. In solchen Szenarien werden alle Befehle, die automatisch der Ebene 0 zugewiesen werden, vor den Befehlen angewendet, die für `layer=comp` gelten. Wenn `layer=comp`, `extend=` vor `flip=` angewendet wird.
+Einige Befehle, einschließlich `extend=`, gelten implizit für Ebene 0 anstelle der Composite-Ebene, wenn `layer=comp` ausgewählt ist. In solchen Szenarien werden alle Befehle, die automatisch der Ebene 0 zugewiesen werden, vor den Befehlen angewendet, die für `layer=comp` gelten. Wenn `layer=comp`, wird `extend=` also vor `flip=` angewendet.
 
 >[!NOTE]
 >
->Die umgedrehte Ebene wird basierend auf dem Ebenenanker positioniert. unterschiedliche Werte für &quot;flip=&quot;führen zu unterschiedlichen Ebenenpositionen, wenn sich der Anker nicht in der Mitte der Ebene befindet.
+>Die gespiegelte Ebene wird basierend auf dem Ebenenanker positioniert. Wenn sich der Anker nicht in der Mitte der Ebene befindet, ergibt das unterschiedliche &quot;flip=&quot;-Werte unterschiedliche Ebenenpositionen.
 
 ## Eigenschaften {#section-294da2af7be746b5adfc35e29ee68217}
 
-Ebene, Befehl. Gilt für die aktuelle Ebene oder für das Composite-Bild, wenn `layer=comp`. Von Effektebenen ignoriert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert.
 
 ## Standard {#section-502044f81a89492198d5f12a738459ea}
 
