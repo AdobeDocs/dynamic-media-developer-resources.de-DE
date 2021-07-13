@@ -2,16 +2,15 @@
 description: FlyoutZoomView.imagereload
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Inline-Zoom
+role: Developer,User
+exl-id: 84dd1e40-2ab8-4356-9eff-8766432b539b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
-
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
@@ -21,11 +20,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Bei Festlegung auf <span class="codeph"> 0 </span> lädt die Komponente keine neuen Bilder während der Größenänderung und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Bei Festlegung auf <span class="codeph"> 1 </span> können Sie einen oder mehrere BreitenHaltepunkte für das Bild angeben, das in die Haupt-Ansicht geladen wird. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Auf <span class="codeph"> 0 </span> gesetzt, lädt die Komponente keine neuen Bilder während der Größenanpassung und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Auf <span class="codeph"> 1 </span> setzen ermöglicht die Angabe eines oder mehrerer Breitenhaltepunkte für das Bild, das in die Hauptansicht geladen wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Haltepunkt,  <span class="varname"> Breite  </span>;  <span class="varname"> width  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Breiten-Haltepunkte für das Bild, das in die Haupt-Ansicht geladen wird. </p> <p>Die Komponente verwendet immer die für die anfängliche Belastung am besten geeignete Größe. Nach dem Ändern der Größe wird sichergestellt, dass das Bild in der Haupt-Ansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Haltepunkt entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breakpoint,  <span class="varname"> Breite  </span>;  <span class="varname"> width  </span> </span> </p> </td> 
+   <td colname="col2"> <p>Breiten-Haltepunkte für das Bild, das in die Hauptansicht geladen wird. </p> <p>Die Komponente verwendet immer die beste Anpassungsgröße für das anfängliche Laden. Nach der Größenanpassung wird sichergestellt, dass das Bild in der Hauptansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Breakpoint entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
