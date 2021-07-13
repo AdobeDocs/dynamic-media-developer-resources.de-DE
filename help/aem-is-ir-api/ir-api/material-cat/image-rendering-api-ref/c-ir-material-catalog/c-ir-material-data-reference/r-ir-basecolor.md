@@ -1,31 +1,30 @@
 ---
-description: Dominante Bildfarbe. Subtraktive Farbe, verwendet für Texturfärbung. Sollte die durchschnittliche dominierende Farbe im Texturbild sein.
+description: Dominante Bildfarbe. Subtraktive Farbe, verwendet für Texturfärbung. Sollte die durchschnittliche dominante Farbe im Texturbild sein.
 solution: Experience Manager
 title: BaseColor
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
-
 # BaseColor{#basecolor}
 
-Dominante Bildfarbe. Subtraktive Farbe, verwendet für Texturfärbung. Sollte die durchschnittliche dominierende Farbe im Texturbild sein.
+Dominante Bildfarbe. Subtraktive Farbe, verwendet für Texturfärbung. Sollte die durchschnittliche dominante Farbe im Texturbild sein.
 
 Sie können `BaseColor`auch als Füllfarbe verwenden, wenn ein Texturmaterial ohne `catalog::Color` auf ein nicht texturierbares Vignettenobjekt angewendet wird.
 
 ## Eigenschaften {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
-Farbe. Ingnotiert von festen Farben und Möbeln.
+Farbe. Ignoriert durch feste Farbe und Möbel.
 
 ## Standard {#section-ca1813a6fcb24645b5835af0891b279d}
 
-`0x808080` (neutrales Grau).
+`0x808080` (neutral gray).
 
 ## Verwandte Themen {#section-befd1fb832c447579185b62ac39df67b}
 
