@@ -1,27 +1,26 @@
 ---
-description: Modifikatorzeichenfolge für die Präfix-Anforderung. Keine oder mehr Bildservierungsbefehle, durch "&"getrennt.
+description: Präfix-Anfrage-Modifikatorzeichenfolge. Keine oder mehr Image Serving-Befehle, durch '&'-Zeichen getrennt.
 solution: Experience Manager
 title: Modifikator
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 7%
 
 ---
 
-
 # Modifikator{#modifier}
 
-Modifikatorzeichenfolge für die Präfix-Anforderung. Keine oder mehr Bildservierungsbefehle, durch &quot;&amp;&quot;getrennt.
+Präfix-Anfrage-Modifikatorzeichenfolge. Keine oder mehr Image Serving-Befehle, durch &#39;&amp;&#39;-Zeichen getrennt.
 
-Dient zum dauerhaften Ändern von Bildern und Speichern des Textkörpers der Vorlagen.
+Wird verwendet, um Bilder dauerhaft zu ändern und den Hauptteil von Vorlagen zu speichern.
 
-Befehle in diesem Feld werden durch dieselben Befehle in der Anforderung oder Vorlage, auf die dieser Datensatz verweist, sowie durch Befehle in `catalog::PostModifier` überschrieben
+Befehle in diesem Feld werden durch dieselben Befehle in der Anforderung oder Vorlage, von der aus dieser Datensatz referenziert wird, und durch Befehle in `catalog::PostModifier` überschrieben
 
-Makros sind in `catalog::Modifier` zulässig, sofern sie im selben Katalog oder im Standardkatalog definiert sind. Auch benutzerspezifische Variablen können verwendet werden.
+Makros sind in `catalog::Modifier` zulässig, sofern sie im selben Katalog oder im Standardkatalog definiert sind. Auch benutzerdefinierte Variablen können verwendet werden.
 
 ## Eigenschaften {#section-6674388f77d644469371a17e8809c45f}
 
@@ -33,4 +32,4 @@ Keine.
 
 ## Verwandte Themen {#section-7a67803d141b442180c418c1f3cff029}
 
-[Katalog::PostModifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md#reference-4bc3738a812b4e7c8a180e27bfbd770b)
+[catalog::PostModifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md#reference-4bc3738a812b4e7c8a180e27bfbd770b)
