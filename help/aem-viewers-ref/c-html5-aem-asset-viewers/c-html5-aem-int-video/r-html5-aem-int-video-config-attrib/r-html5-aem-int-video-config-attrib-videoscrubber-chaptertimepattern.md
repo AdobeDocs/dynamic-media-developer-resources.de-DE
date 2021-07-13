@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für den interaktiven Video-Viewer.
+description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
 title: VideoScrubber.chaptertimepattern
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: 93c1d38c-1f45-4794-8084-f520f9caf257
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
 
 # VideoScrubber.chaptertimepattern{#videoscrubber-chaptertimepattern}
 
-Konfigurationsattribut für den interaktiven Video-Viewer.
+Konfigurationsattribut für interaktiven Video-Viewer.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]chaptertimepattern=[h:]m|mm:s|ss`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Legt das Muster für die Zeit fest, die in der Titelleiste der Kapitelliste angezeigt wird, wobei <span class="codeph"> h</span> Stunden, <span class="codeph"> m</span> für Minuten und <span class="codeph"> s</span> für Sekunden darstellt. </p> <p>Die Anzahl der Buchstaben, die für jede Zeiteinheit verwendet werden, bestimmt die Anzahl der Stellen, die für die Einheit angezeigt werden sollen. Wenn die Zahl nicht in die angegebene Zahl passt, wird der entsprechende Wert in der nachfolgenden Einheit angezeigt. </p> <p>Wenn die aktuelle Filmzeit beispielsweise 67 Minuten und 5 Sekunden beträgt, wird ein Zeitmuster von <span class="codeph"> m:ss</span> als 67:05 angezeigt. Die gleiche Zeit wird als 1:07:5 angezeigt, wenn das Zeitmuster <span class="codeph"> h:mm:s</span> ist. </p> </td> 
+   <td colname="col2"> <p> Legt das Muster für die Zeit fest, die in der Titelleiste der Kapitelbezeichnung angezeigt wird. Dabei steht <span class="codeph"> h</span> für Stunden, <span class="codeph"> m</span> für Minuten und <span class="codeph"> s</span> für Sekunden. </p> <p>Die Anzahl der für jede Zeiteinheit verwendeten Buchstaben bestimmt die Anzahl der für die Einheit anzuzeigenden Ziffern. Wenn die Zahl nicht in die angegebenen Ziffern passt, wird der entsprechende Wert in der nachfolgenden Einheit angezeigt. </p> <p>Wenn die aktuelle Filmzeit beispielsweise 67 Minuten und 5 Sekunden beträgt, wird als Zeitmuster <span class="codeph"> m:ss</span> 67:05 angezeigt. Die gleiche Zeit wird als 1:07:5 angezeigt, wenn das Zeitmuster <span class="codeph"> h:mm:s</span> ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
