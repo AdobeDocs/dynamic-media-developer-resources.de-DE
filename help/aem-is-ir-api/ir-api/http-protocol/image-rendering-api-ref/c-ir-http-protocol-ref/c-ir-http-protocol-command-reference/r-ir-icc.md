@@ -1,66 +1,65 @@
 ---
-description: Profil der Ausgabefarbe.
+description: Profil der Ausgabefarben.
 solution: Experience Manager
 title: icc
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 39b25f7c-ed3c-4132-8241-e7f3aab07b00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 1%
 
 ---
 
-
 # icc{#icc}
 
-Profil der Ausgabefarbe.
+Profil der Ausgabefarben.
 
 icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
 
 <table id="simpletable_DF1914FD351E4F2BA61372A52F0CFFBF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Profil</span></span> </p></td> 
-  <td class="stentry"> <p>ICC-Profil. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> profile</span></span> </p></td> 
+  <td class="stentry"> <p>ICC-Farbprofil. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> renderIntent  </span> </span> </p></td> 
-  <td class="stentry"> <p>wahrnehmungsfähig | relative | Sättigung | absolut </p></td> 
+  <td class="stentry"> <p>wahrnehmungsorientiert | relativ | Sättigung | absolut </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> blackpointComp</span> </span> </p></td> 
-  <td class="stentry"> <p>1, um die Blackpoint-Kompensation zu aktivieren, 0, um sie zu deaktivieren. </p></td> 
+  <td class="stentry"> <p>1 zur Aktivierung, 0 zur Deaktivierung der Blackpoint-Kompensation. </p></td> 
  </tr> 
 </table>
 
-*`profile`* Gibt das Profil für den Ausgabefarbraum an, in den das gerenderte Profil konvertiert werden soll, wenn es sich vom bearbeiteten unterscheidet. *`profile`* muss entweder eine gültige  `icc::Name` Definition in der ICC-Profil-Map eines Bildkatalogs oder eines Standardkatalogs oder ein relativer Pfad zu einer Profil-Datei sein (normalerweise mit  [!DNL .icc]oder  [!DNL .icm] Suffix).
+*`profile`* gibt das Profil des Ausgabefarbraums an, in den das gerenderte Bild konvertiert werden soll, wenn es sich von dem des Arbeitsprofils unterscheidet. *`profile`* muss entweder eine gültige  `icc::Name` Definition in der ICC-Profilzuordnung eines Bildkatalogs oder Standardkatalogs oder ein relativer Pfad zu einer Profildatei sein (normalerweise mit  [!DNL .icc]oder dem  [!DNL .icm] Suffix).
 
 >[!NOTE]
 >
 >*`profile`* darf keine &quot;,&quot;-Zeichen enthalten, auch wenn HTTP-kodiert.
 
-*`renderIntent`* ermöglicht das Überschreiben der standardmäßigen Renderpriorität.
+*`renderIntent`* ermöglicht das Überschreiben des standardmäßigen Rendering-Intents.
 
-*`blackpointComp`* aktiviert die Blackpoint-Kompensation, wenn das Output-Profil diese Funktion unterstützt.
+*`blackpointComp`* ermöglicht eine Blackpoint-Kompensation, wenn das Ausgabeprofil diese Funktion unterstützt.
 
 >[!NOTE]
 >
->Nicht alle Farbkonvertierungen unterstützen alle Auswahlmöglichkeiten *`renderIntent`* und *`blackpointComp`*. Normalerweise werden diese Einstellungen nur berücksichtigt, wenn das ICC-Output-Profil ein Ausgabegerät wie einen Drucker oder einen Monitor kennzeichnet. Einige ICC-Output-Profil unterstützen auch nicht alle *`renderIntent`*-Auswahlmöglichkeiten.
+>Nicht alle Farbkonvertierungen unterstützen alle *`renderIntent`*- und *`blackpointComp`*-Optionen. In der Regel werden diese Einstellungen nur berücksichtigt, wenn das ICC-Ausgabeprofil ein Ausgabegerät wie einen Drucker oder einen Monitor charakterisiert. Einige ICC-Ausgabeprofile unterstützen auch nicht alle *`renderIntent`*-Optionen.
 
 ## Eigenschaften {#section-b4042623a8ea40248c11b2153e5906b1}
 
-Kann an einer beliebigen Stelle innerhalb der Anforderung auftreten. Es wird ein Fehler zurückgegeben, wenn der Bildtyp mit `fmt=` nicht mit *`profile`* übereinstimmt.
+Kann an einer beliebigen Stelle in der Anfrage auftreten. Ein Fehler wird zurückgegeben, wenn der Bildtyp mit `fmt=` nicht mit *`profile`* übereinstimmt.
 
 *`renderIntent`* und  *`blackpointComp`* werden ignoriert, wenn sie nicht mit dem angegebenen ICC-Profil kompatibel sind.
 
-CMYK-Ausgabegerät-Profil unterstützen mit höherer Wahrscheinlichkeit unterschiedliche Renderprioritäten.
+Die Wahrscheinlichkeit, dass CMYK-Ausgabegeräteprofile verschiedene Rendering-Intents unterstützen, ist höher.
 
 ## Standard {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-Wenn das Farbmanagement aktiviert ist und `icc=` nicht angegeben ist, stellt der Server das in das Ausgabebild ( `attribute::IccProfile*`) konvertierte Profil ( ) bereit, das dem mit `fmt=` angegebenen Bildtyp entspricht.
+Wenn das Farbmanagement aktiviert ist und `icc=` nicht angegeben ist, stellt der Server das in das Ausgabeprofil ( `attribute::IccProfile*`) konvertierte Bild bereit, das dem mit `fmt=` angegebenen Bildtyp entspricht.
 
-Wenn nicht angegeben, wird *`renderIntent`* von `attribute::IccRenderIntent` geerbt und *`blackpointComp`* von `attribute::IccBlackPointCompensation` übernommen.
+Wenn nichts angegeben ist, wird *`renderIntent`* von `attribute::IccRenderIntent` übernommen und *`blackpointComp`* wird von `attribute::IccBlackPointCompensation` übernommen.
 
 ## Verwandte Themen {#section-37ef83149fd74345956a98f633cc0294}
 
