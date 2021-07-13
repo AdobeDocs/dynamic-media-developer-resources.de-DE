@@ -3,37 +3,36 @@ description: '"Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil
 solution: Experience Manager
 title: Scene7 Version Herbst 2016
 feature: Dynamic Media Classic
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
 
-
 # Scene7 Version Herbst 2016{#scene-fall-release}
 
-Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016, Teil der Adobe Experience Manager-Lösung in der Adobe Marketing Cloud.
+Die neuesten Versionshinweise zur Adobe Scene7-Herbstversion 2016, Teil der Adobe Experience Manager-Lösung in der Adobe Marketing Cloud.
 
 ## Scene7 Version Herbst 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-Die neuesten Versionshinweise für [!DNL Adobe Scene7] Herbstversion 2016 der [!DNL Adobe Experience Manager]-Lösung in [!DNL Adobe Marketing Cloud].
+Die aktuellen Versionshinweise für [!DNL Adobe Scene7] Herbstversion 2016 im Abschnitt [!DNL Adobe Experience Manager] der [!DNL Adobe Marketing Cloud]-Lösung.
 
 * [Allgemein](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Viewer (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Viewer (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Viewer (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [HTML5 Viewer-SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [HTML5-Viewer-SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
 * [Dynamic Media Classic Image Serving 6.3.2 und Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Allgemein {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe freut sich, die Verfügbarkeit von HTTP/2-Versänden mit dem allgemeinen Vorteil einer verbesserten Performance bekannt zu geben.
+Adobe freut sich, die Bereitstellung von Inhalten über HTTP/2 mit dem allgemeinen Vorteil einer verbesserten Leistung bekannt zu geben.
 
-Siehe [HTTP2-Versand der Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalt über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
@@ -41,97 +40,97 @@ Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen**
 
-* Die Videoneuschnitt-Funktion wurde aus der [!DNL Adobe Scene7 Publishing System]-Benutzeroberfläche entfernt.
-* Es wurde nach Bedarf und nach Möglichkeit eine Authentifizierung für alle Scene7-Servlets hinzugefügt.
-* Fehlerkorrektur mit der Ansicht der Liste im Papierkorb.
-* Die Benutzerfunktion **Dynamic Media Classic erstellen (Scene7) Admin** wurde aus Sicherheitsgründen aus User Management entfernt.
+* Die Funktion zum erneuten Ausführen von Videos wurde aus der Benutzeroberfläche von [!DNL Adobe Scene7 Publishing System] entfernt.
+* Es wurde eine Authentifizierung für alle Scene7-Servlets hinzugefügt, wo dies erforderlich und möglich ist.
+* Fehlerbehebung bei der Listenansicht im Papierkorbsymbol.
+* Die Benutzerfunktion **Dynamic Media Classic (Scene7)-Admin** wurde aus Sicherheitsgründen aus der Benutzerverwaltung entfernt.
 * FTP WebAdmin unterstützt jetzt die OKTA-Authentifizierung.
-* Die Funktion des Standardkennworts für neue Media Portal-Benutzer wurde entfernt.
-* Fehlerkorrektur mit dem temporären Kennwort, das beim Hinzufügen eines neuen Benutzers generiert wurde. Das Kennwort entsprach nicht den erforderlichen Kennwortanforderungen.
-* Es wurden Probleme mit WebAdmin-Root-Disk vollständig behoben.
-* Fehlerkorrektur, bei der ein Benutzer deaktiviert wird, der nicht sofort in der Benutzeroberfläche angezeigt wird.
-* Fehlerkorrektur, bei der ein Benutzer gelöscht wurde, ohne dass Sie ihn später erneut erstellen konnten.
-* Fehlerbehebung, bei der die Begrüßungs-E-Mail an neue Scene7-Benutzer gesendet wurde, die keine Authentifizierung zur Steuerung bestimmter Einstellungen enthielten.
-* Fehlerkorrektur, bei der eine Liste des FTP-Ordners nicht abgerufen werden konnte, wenn ein beliebiger Ordner Sonderzeichen enthielt.
-* Konfigurieren Sie OKTA-Dienstleister für Scene7-Umgebung.
-* Unterstützung für Marketing Cloud-Organisations-ID für Viewer-Analytics hinzugefügt.
+* Die Funktion des Standardkennworts, das für neue Media Portal-Benutzer erstellt wurde, wurde entfernt.
+* Fehlerbehebung für das temporäre Kennwort, das beim Hinzufügen eines neuen Benutzers generiert wurde. Das Kennwort entsprach nicht den erforderlichen Kennwortanforderungen.
+* Behobene Probleme mit WebAdmin root disk full.
+* Fehlerkorrektur - die Deaktivierung eines Benutzers wird nicht sofort in der Benutzeroberfläche angezeigt.
+* Fehlerbehebung beim Löschen eines Benutzers, der es nicht ermöglichte, den Benutzer später erneut zu erstellen.
+* Fehlerkorrektur - die Begrüßungs-E-Mail wird an neue Scene7-Benutzer gesendet, die keine Authentifizierung zur Steuerung bestimmter Einstellungen enthalten.
+* Fehlerkorrektur - Es wurde eine FTP-Ordnerliste nicht mehr abgerufen, wenn ein Ordner Sonderzeichen im Namen hatte.
+* Konfigurieren Sie die OKTA-Dienstanbieter für Scene7-Umgebungen.
+* Unterstützung für Marketing Cloud-Organisations-ID für Viewer Analytics hinzugefügt.
 * Scene7 SAML-Consumer implementiert.
 
 ## Viewer (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Eine vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
-**Fehlerbehebungen für Image Serving 5.5.3**
+**Fehlerkorrekturen für Image Serving 5.5.3**
 
 * Kompatibilität mit RequireJS- und DOJO-Bibliotheken.
 
-   Konsolidierte SDK-JS-Zwischenspeicherung während der Viewer-Bereitstellung.
+   Konsolidiertes SDK-JS-Caching während der Viewer-Implementierung.
 
 ## Viewer (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Eine vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
-**Fehlerbehebungen für Image Serving 5.5.2**
+**Fehlerkorrekturen für Image Serving 5.5.2**
 
 * Video konnte in Internet Explorer 11 unter Windows 7 nicht wiedergegeben werden.
-* `initialframe` hatte keine Auswirkungen auf den Hochformat-Modus auf Mobilgeräten für den HTML5-E-Katalog.
+* `initialframe` hatte keine Auswirkungen auf den Hochformat-Modus auf Mobilgeräten für HTML5 eCatalog.
 
 ## Viewer (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Eine vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
-**Neue Funktionen, Verbesserungen und Fehlerkorrekturen für Image Serving 5.5.1**
+**Neue Funktionen, Verbesserungen und Fehlerbehebungen für Image Serving 5.5.1**
 
-* HTML5-E-Katalog-Viewer mit Suchfunktion.
-* HLS-Streaming-Video-Wiedergabe als Standard-Video-Versand für die meisten Desktop-Systeme hinzugefügt. Flash-basiertes HDS-Video-Streaming ist weiterhin als alternative Wiedergabemöglichkeit verfügbar.
-* Unterstützung für Geräte mit Maus- und Berührungseingabe unter Chrome Browser hinzugefügt.
-* Marketing Cloud-Organisations-ID-Unterstützung zur Analytics-Integration hinzugefügt.
-* Aktualisieren Sie die AppMeasurement JavaScript-Bibliothek auf Version 1.6.1.
+* HTML5-eCatalog-Viewer mit Suchfunktion.
+* Die HLS-Streaming-Videowiedergabe wurde als standardmäßige Videobereitstellungsmethode für die meisten Desktop-Systeme hinzugefügt. Flash-basiertes HDS-Video-Streaming ist weiterhin als alternative Wiedergabeoption verfügbar.
+* Unterstützung für Geräte mit Maus- und Touch-Eingabe hinzugefügt, die im Chrome-Browser ausgeführt werden.
+* Die Analytics-Integration wird nun mit der Marketing Cloud-Organisations-ID unterstützt.
+* Aktualisierung der AppMeasurement JavaScript-Bibliothek auf Version 1.6.1.
 * Unterstützung für die Ausrichtung von rechts nach links im E-Katalog-Viewer hinzugefügt.
-* Behebung eines Problems, bei dem `tip=0,-1,0` einen Fehler in Bezug auf die Entfernung verursachte.
+* Es wurde ein Problem behoben, bei dem `tip=0,-1,0` einen Fehler wegen ungenügender Reichweite verursachte.
 
-**Anmerkungen zur Kompatibilität**
+**Kompatibilitätshinweise**
 
 * Blackberry
 
-   * Inkompatibilität mit älteren AVS-Sets. Kunden müssen möglicherweise AVS-Sets erneut hochladen, um die Wiedergabe zu ermöglichen.
+   * Inkompatibilität mit älteren AVS-Sets. Clients müssen möglicherweise AVS-Sets erneut hochladen, um die Wiedergabe zu ermöglichen.
 
 * Allgemein
 
-   * Die seitliche Skalierung des Browsers kann dazu führen, dass die Benutzeroberfläche und die Bilder verschwommen werden, wenn der Benutzer die Seite vergrößert. Die Formatierung der Benutzeroberfläche wird ggf. je nach Zoom falsch angezeigt. Dies wird in den Vollbildmodus übertragen.
-   * Aufgrund der Größenbeschränkung auf Mobilgeräten verwendet der Viewer für gemischte Medien eine Foliengeste, um Frames in eingebetteten Bildsätzen auszutauschen, anstatt auf die Komponente für eingebettete Farbfelder zu tippen. Die Komponente ist als visueller Indikator vorhanden.
+   * Die Browser-seitige Skalierung kann dazu führen, dass die Benutzeroberfläche und Bilder beim Vergrößern der Seite durch den Benutzer verschwommen werden. Die Formatierung der Benutzeroberfläche wird je nach Zoom möglicherweise auch falsch angezeigt. Dies wird in den Vollbildmodus übertragen.
+   * Aufgrund der Größenbeschränkung auf Mobilgeräten verwendet der Viewer für gemischte Medien eine Foliengeste, um Frames in eingebetteten Bildsets zu tauschen, anstatt auf die Komponente für eingebettete Muster zu tippen. Die Komponente ist als visueller Indikator vorhanden.
    * In Internet Explorer-Browsern und einigen Touch-Geräten belegt der Vollbildmodus nicht den gesamten Gerätebildschirm. Stattdessen wird die Größe der Anwendung an die Größe des Browser-Fensters angepasst.
-   * Die Schaltfläche &quot;Schließen&quot;funktioniert nicht unter iOS 8.0 und 8.1, tritt aber nicht mehr unter iOS 8.2 auf
+   * Die Schaltfläche &quot;Schließen&quot;funktioniert nicht in iOS 8.0 und 8.1, tritt aber nicht mehr in iOS 8.2 auf
 
 * Galaxy SIII
 
-   * Speicherleck bei HTML5-Viewern im Zoom- und E-Katalog. Wiederholte Navigation durch Frames kann zu einem Absturz des Browsers führen.
-   * Durch Tippen auf die Dublette im Viewer kann es vorkommen, dass die ganze Seite gezoomt wird und nicht nur der Viewer mit aktivierter Browser-Seitenanpassung.
+   * Speicherleck bei HTML5-Viewern für Zoom und eCatalog. Eine wiederholte Navigation durch Frames kann zum Absturz des Browsers führen.
+   * Doppeltippen auf den Viewer kann dazu führen, dass die ganze Seite vergrößert wird, anstatt dass nur der Viewer mit aktivierter Browser-seitiger Skalierung angezeigt wird.
 
 * Galaxy S4
 
-   * Gerät, das im Hochformat als Tablet erkannt wird und bei Vollbild in den Browsereinstellungen aktiviert ist.
+   * Gerät als Tablet im Hochformat erkannt, wobei Vollbild in den Browsereinstellungen aktiviert ist.
 
-* Galaxie Nexus
+* Galaxy Nexus
 
-   * Durch Tippen auf die Dublette im Viewer kann es vorkommen, dass die ganze Seite gezoomt wird und nicht nur der Viewer mit aktivierter Browser-Seitenanpassung.
+   * Doppeltippen auf den Viewer kann dazu führen, dass die ganze Seite vergrößert wird, anstatt dass nur der Viewer mit aktivierter Browser-seitiger Skalierung angezeigt wird.
 
 * Galaxy Nexus 10 und Galaxy Tablet
 
-   * E-Katalog mit falscher Seitenausrichtung im Hoch- und Querformat
+   * eCatalog mit falscher Seitenausrichtung im Hoch- und Querformat.
 
 * HTC-Mobilgeräte
 
-   * HTC-Mobilgeräte unsere Ergebnisse zeigen, dass die Unfähigkeit, natives Pinch-Zoom zu deaktivieren, eine &quot;Funktion&quot; des HTC UI Wrapper (HTC Sense) ist. Dies kann dazu führen, dass die ganze Seite beim Verwenden der Geste &quot;Zum Zoomen ziehen&quot;im Viewer gezoomt wird. Verwenden Sie stattdessen Dublette-Tippen.
-   * Imagemap-Symbole können sich überlappen, wenn Imagemaps klein und nahe beieinander sind.
+   * HTC-Mobilgeräte zeigen unsere Ergebnisse, dass die Unfähigkeit, natives Pinch-Zoom zu deaktivieren, eine &quot;Funktion&quot;des HTC UI Wrapper (HTC Sense) ist. Dies kann dazu führen, dass die gesamte Seite beim Verwenden der Geste &quot;Pinch to Zoom&quot;(Pinch-to-Zoom) im Viewer vergrößert wird. Verwenden Sie stattdessen Doppeltippen.
+   * Imagemap-Symbole können sich überschneiden, wenn Imagemaps klein sind und nahe beieinander liegen.
 
 * HTML5-Video
 
-   * Internet Explorer 9: benutzerdefinierte Standbilder werden nicht angezeigt.
-   * `IntialBitRate` -Modifikator wird nur für die Wiedergabe von Software-HLS und Flash-HDS unterstützt. Es funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
-   * Die progressive Wiedergabe von OGG und WebM wird derzeit nicht unterstützt.
-   * Die Browser-Skalierung kann dazu führen, dass der Videoplayer in einer falschen Größe angezeigt wird (einschließlich der Anzeigeeinstellungen des Windows OS-Bedienfelds)
-   * Die Suche nach Videos mit HLS-Streaming in Safari kann inkonsistent sein.
+   * Internet Explorer 9: benutzerdefinierte Posterbilder werden nicht angezeigt.
+   * `IntialBitRate` -Modifikator wird nur bei Software-HLS- und Flash-HDS-Wiedergabe unterstützt. Es funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
+   * Die progressive OGG- und WebM-Wiedergabe wird derzeit nicht unterstützt.
+   * Die Browserskalierung kann dazu führen, dass der Videoplayer eine falsche Größe anzeigt (einschließlich Anzeigeeinstellungen im Windows OS-Bedienfeld)
+   * Die Videosuche mit HLS-Streaming in Safari kann inkonsistent sein.
 
 * Internet Explorer
 
@@ -141,14 +140,14 @@ Eine vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](http
 
 * iOS
 
-   * Große E-Kataloge können auf dem iPad 2 zum Absturz des Browsers führen.
-   * iPhone 6+-Telefone werden von den Viewern als Tablets erkannt.
+   * Große eKataloge können auf dem iPad 2 zum Absturz des Browsers führen.
+   * iPhone 6+ Telefone werden von den Betrachtern als Tablets erkannt.
 
 * Safari
 
-   * Safari 6.1 oder höher: Die Einstellungen für Internet-Plug-ins können die Videowiedergabe im Flash verhindern.
-   * Video-Suche mit HLS-Streaming in Safari kann inkonsistent sein.
-   * Es kann nicht versucht werden, das Ende des Videos in Safari 6 mithilfe des HLS-Streaming zu suchen.
+   * Safari 6.1 oder höher: Einstellungen für Internet-Plug-ins können die Videowiedergabe von Flashs verhindern.
+   * Das &quot;Suchen&quot;von Videos mit HLS-Streaming in Safari kann inkonsistent sein.
+   * Das Ende des Videos in Safari 6 kann nicht mithilfe von HLS-Streaming gesucht werden.
 
 **Bekannte Probleme und Einschränkungen**
 
@@ -156,29 +155,29 @@ Eine vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](http
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [] FlyoutIE9 bleibt manchmal nach dem Ausschalten der Maus auf dem Bildschirm.
-* Die Browser-Skalierung führt zu einer falschen Größenanpassung.
-* iPad 2: Ein großes E-Katalog-Asset stürzt Safari unter iOS ab.
+* [] FlyoutIE9 bleibt manchmal auf dem Bildschirm, wenn die Maus ausgeschaltet ist.
+* Die Browserskalierung führt zu einer falschen Größenanpassung.
+* iPad 2: Das große eCatalog-Asset stürzt Safari unter iOS ab.
 * Alle Viewer
 
    * Wasserzeichen, Verschleierung und Sperren werden nicht unterstützt.
    * Bildvorgaben werden nicht unterstützt.
-   * Das Hinzufügen oder Entfernen des Viewers aus dem DOM mithilfe von CSS `display:none` oder durch dynamisches Entfernen des Viewers vom übergeordneten Knoten wird derzeit nicht unterstützt.
+   * Das Hinzufügen oder Entfernen des Viewers aus dem DOM mithilfe des CSS `display:none` oder durch das dynamische Trennen vom übergeordneten Knoten wird derzeit nicht unterstützt.
 
 * HTML5 Alle Viewer
 
-   * Das Einbetten des Viewers in die Tabelle kann zu einer fehlerhaften Größe oder Platzierung des Viewers im nicht nativen Vollbildmodus führen. Verwenden Sie stattdessen DIVs.
-   * Parameter mit expliziten Instanznamen im Code erfordern auch Instanznamen in der URL, die überschrieben werden müssen (z. B. `zoomView.iconfeffect=0`).
-   * Die Beschneidung des Image Serving-Befehls wird derzeit nicht unterstützt.
-   * Die Schaltfläche &quot;Schließen&quot;funktioniert nur, wenn der Viewer im untergeordneten Fenster geöffnet ist.
+   * Das Einbetten des Viewers in eine Tabelle kann zu einer falschen Größe oder Platzierung des Viewers im nicht nativen Vollbildmodus führen. Verwenden Sie stattdessen DIVs.
+   * Parameter mit expliziten Instanznamen im Code erfordern auch, dass Instanznamen in der URL überschrieben werden (z. B. `zoomView.iconfeffect=0`).
+   * Image Serving-Befehl &quot;Zuschneiden&quot;wird derzeit nicht unterstützt.
+   * Die Schaltfläche Schließen funktioniert nur, wenn der Viewer im untergeordneten Fenster geöffnet ist.
    * Der Modifikator `iscommands` unterstützt keine Image Serving-Modifikatoren, die sich auf die Bildgröße auswirken.
 
-* HTML5-E-Katalog
+* HTML5-eCatalog
 
-   * Wenn Sie zu einer anderen HTML-Seite navigieren und gelegentlich zurückkehren, wird der Viewer auf die erste Seite zurückgesetzt.
-   * Das Seitenlayout wird gelegentlich nach dem Drehen des iOS-Geräts falsch angezeigt. Durch das Vergrößern der Seite wird das Layout korrigiert.
-   * Interne Links nur zur Seite ganz links in mehrseitigen Druckbögen. Betrifft Mobilgeräte im Hochformat.
-   * InitialFrame verknüpft nur mit der Seite ganz links in mehrseitigen Druckbögen. Betrifft Mobilgeräte im Hochformat.
+   * Wenn Sie zu einer anderen HTML-Seite navigieren und diese wiedergeben, führt dies gelegentlich dazu, dass der Viewer auf die erste Seite zurückgesetzt wird.
+   * Gelegentlich wird das Seitenlayout nach dem Drehen des iOS-Geräts falsch angezeigt. Durch das Vergrößern der Seite wird das Layout korrigiert.
+   * Interne Links führen nur zu der am weitesten links gelegenen Seite in mehrseitigen Tabellen. Betrifft Mobilgeräte im Hochformat.
+   * InitialFrame verknüpft nur mit der ganz links gelegenen Seite in mehrseitigen Tabellen. Betrifft Mobilgeräte im Hochformat.
    * Aufgrund von Browserbeschränkungen ist die Druckfunktion in IE9 nicht verfügbar.
 
 * HTML5 MixedMedia
@@ -187,167 +186,166 @@ Eine vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](http
 
 * HTML5 Social
 
-   * Um Miniaturansichten in ausgehenden E-Mails korrekt wiedergeben zu können, muss der Modifikator `serverurl` über eine absolute URL verfügen.
+   * Um Miniaturansichten in ausgehenden E-Mails korrekt wiederzugeben, muss der Modifikator `serverurl` über eine absolute URL verfügen.
 
 * HTML5-Video
 
-   * Beim Standbild kann der Fehler &quot;max. Größe&quot;auftreten. Bei der Firma müssen Sie möglicherweise die Limit-Einstellung für die Veröffentlichung auf dem Image-Server erhöhen.
-   * Videountertitel erfordern einen Regelsatz für die Firma, wenn das Hosting der HTML-Seite von einem externen Server (nicht von einem Scene7-Server) bereitgestellt wird. Wenden Sie sich an den Support der Adobe.
-   * Die Analytics-Verfolgung kann aufgrund der Pufferung einen falschen Wiedergabeprozentsatz melden
-   * Auf iPad- oder Android-Geräten wird möglicherweise ein schwarzer Rahmen anstelle eines Standbilds angezeigt.
-   * Beim Laden des Viewers auf iPad- oder Android-Geräten blinkt möglicherweise ein schwarzer Rahmen auf dem Bildschirm.
-   * Auf iPad-Geräten werden schwarze Ränder neben der VideoPlayer-Komponente angezeigt, wenn der Hintergrund auf Weiß/Transparent eingestellt ist.
+   * Beim Posterbild kann der Fehler &quot;max size&quot;auftreten. Das Unternehmen muss möglicherweise die Limit-Einstellung für die Image Serving-Veröffentlichung erhöhen.
+   * Für Videobeschriftungen ist ein Regelsatz des Unternehmens erforderlich, wenn das Hosten der HTML-Seite von einem externen Server (nicht von einem Scene7-Server) aus erfolgt. Wenden Sie sich für Unterstützung an den Support der Adobe.
+   * Das Analytics-Tracking meldet aufgrund der Pufferung möglicherweise einen falschen Wiedergabeprozentsatz
+   * Auf iPad- oder Android-Geräten wird möglicherweise ein schwarzer Frame anstelle eines Standbilds angezeigt.
+   * Beim Laden des Viewers auf iPad- oder Android-Geräten blinkt möglicherweise ein schwarzer Frame auf dem Bildschirm.
+   * Auf iPad-Geräten werden schwarze Rahmen neben der VideoPlayer-Komponente angezeigt, wenn der Hintergrund auf Weiß/Transparent eingestellt ist.
    * Das letzte Videobild kann auf iPad mit iOS 7 verzerrt sein.
-   * Während der Videosuche im HLS-Streaming-Modus in Chrome, Firefox und Internet Explorer kann es gelegentlich zu Makroblockierungen kommen.
-      * Das Standbild wird möglicherweise zum ersten Besucher nicht im Microsoft Edge-Browser angezeigt.
-      * Das Standbild kann nach dem Laden des Videos in Internet Explorer 9 ausgeblendet werden, wenn die progressive Wiedergabe verwendet wird.
+   * Gelegentlich kann es bei der Videosuche im HLS-Streaming-Modus in Chrome-, Firefox- und Internet Explorer-Browsern zu Makroblockierungen kommen.
+      * Das Posterbild wird möglicherweise nicht zum ersten Mal im Microsoft Edge-Browser angezeigt.
+      * Das Standbild kann sich nach dem Laden des Videos in Internet Explorer 9 verbergen, wenn die progressive Wiedergabe verwendet wird.
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-Das Benutzerhandbuch befindet sich im Ordner &quot;Adobe HTML5 Viewer SDK&quot;der Clientinstallation. Die Dokumentation zur Komponenten-API befindet sich im Unterordner docs der Clientinstallation.
+Das Benutzerhandbuch befindet sich im Ordner &quot;Adobe HTML5 Viewer SDK&quot;der Client-Installation. Die Dokumentation zur Komponenten-API finden Sie im Unterordner docs der Client-Installation.
 
 **Fehlerbehebungen für 3.0.2**
 
-* VideoPlayer - Videowiedergabe in Internet Explorer 11 unter Windows 7 fehlgeschlagen
-* TableOfContents - `initialframe` hatte keine Auswirkungen auf den Hochformat-Modus auf Mobilgeräten für den HTML5-E-Katalog-Viewer.
+* VideoPlayer - Video konnte in Internet Explorer 11 unter Windows 7 nicht wiedergegeben werden
+* TableOfContents - `initialframe` hat den Hochformat-Modus auf Mobilgeräten für den HTML5-eCatalog-Viewer nicht beeinflusst.
 
-**Neue Funktionen, Verbesserungen und Fehlerkorrekturen für 3.0.1**
+**Neue Funktionen, Verbesserungen und Fehlerbehebungen für 3.0.1**
 
 * Allgemein
 
-   * HLS-Streaming-Video-Wiedergabe als Standard-Video-Versand für die meisten Desktop-Systeme hinzugefügt. Flash-basiertes HDS-Video-Streaming ist weiterhin als alternative Wiedergabemöglichkeit verfügbar.
-   * SearchManager-, SearchPanel-, SearchEffect- und SearchButton-Komponenten wurden hinzugefügt, um die neue Suchfunktion in E-Katalog-Viewern zu unterstützen.
-   * Unterstützung für Geräte mit Maus- und Berührungseingabe im Chrome-Browser hinzugefügt.
-   * Erkennung von Android-Versionen neu gestaltet, um zukünftige Versionen des Betriebssystems zu unterstützen
-   * hinzufügen Unterstützung für die Ausrichtung von rechts nach links in eCatalog-spezifischen SDK-Komponenten.
+   * Die HLS-Streaming-Videowiedergabe wurde als standardmäßige Videobereitstellungsmethode für die meisten Desktop-Systeme hinzugefügt. Flash-basiertes HDS-Video-Streaming ist weiterhin als alternative Wiedergabeoption verfügbar.
+   * Die Komponenten SearchManager, SearchPanel, SearchEffect und SearchButton wurden hinzugefügt, um die neue Suchfunktion in eCatalog-Viewern zu unterstützen.
+   * Unterstützung für Geräte mit Maus- und Touch-Eingabe im Chrome-Browser hinzugefügt.
+   * Umgestaltete Android-Versionserkennung zur Unterstützung künftiger Versionen des Betriebssystems
+   * Unterstützung für die Ausrichtung von rechts nach links in eCatalog-spezifischen SDK-Komponenten.
 
 * ControlBar
 
-   * Es wurde ein optionaler Bildlauf für ControlBar-Inhalte hinzugefügt, falls dieser nicht in die verfügbare Breite passt.
+   * Es wurde ein optionaler Bildlauf für ControlBar-Inhalt hinzugefügt, falls dieser nicht in die verfügbare Breite passt.
 
 * FlyoutzoomView
 
-   * Der Fall, in dem `tip=0,-1,0` einen Fehler außerhalb des zulässigen Bereichs verursachte, wurde behoben.
+   * Es wurde ein Fall behoben, bei dem `tip=0,-1,0` einen Fehler wegen Nichtverfügbarkeit verursachte.
 
-**Anmerkungen zur Kompatibilität**
+**Kompatibilitätshinweise**
 
 * Android 4.x
 
-   * Um die Standardeinstellung zu deaktivieren, müssen Sie die folgende CSS-Regel für die Komponente blau markieren:
+   * Um die Standardeinstellung zu deaktivieren, muss die folgende CSS-Regel für die Komponente blau markiert werden:
 
       `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
-* Blackberry
+* BlackBerry
 
    * Die Videowiedergabe kann beim Ändern von Bitratenströmen in AVS-Sets beendet werden.
 
 * Chrome
 
-   * Sämtliche API-Aufrufe, die die Wiederherstellung der Komponenten erzwingen, können aufgrund der internen Zwischenspeicherung in Chrome ignoriert werden.
+   * Alle API-Aufrufe, die die Neuerstellung von Komponenten erzwingen, können aufgrund der internen Zwischenspeicherung von Chrome ignoriert werden.
 
 * Galaxy SIII
 
    * Der Viewer kann manchmal nicht in den Vollbildmodus geladen werden.
-   * Pageview leidet derzeit unter einem Speicherleck auf dem Gerät.
-   * Durch Tippen auf die Dublette werden Viewer und Seite vergrößert, wenn die Browser-seitige Skalierung aktiv ist.
+   * Die Seitenansicht leidet derzeit an einem Speicherleck auf dem Gerät.
+   * Durch Doppeltippen-Geste werden der Viewer und die Seite vergrößert, wenn die Browser-seitige Skalierung aktiv ist.
 
-* Galaxie Nexus
+* Galaxy Nexus
 
-   * Artefakte, die über einigen Ansichten angezeigt werden.
-   * Durch Tippen auf die Dublette werden Viewer und Seite vergrößert, wenn die Browser-seitige Skalierung aktiv ist.
+   * Artefakte, die über einigen Ansichtskomponenten angezeigt werden.
+   * Durch Doppeltippen-Geste werden der Viewer und die Seite vergrößert, wenn die Browser-seitige Skalierung aktiv ist.
 
 * iPad 3
 
-   * Das iPad 3 verfügt über eine native Auflösung von 2048 x 1536. Dies kann zu Anzeigeproblemen führen, wenn die Firma &quot;IS publish&quot;hat und die Bildgrößenbeschränkung niedriger als diese eingestellt ist.
+   * Das iPad 3 verfügt über eine native Auflösung von 2048 x 1536. Dies kann zu Anzeigeproblemen führen, wenn die IS-Veröffentlichung des Unternehmens, die Bildgrößenbegrenzung, niedriger ist als diese.
 
 * iPhone4
 
-   * Symbol für Wiederholung der Symbolwiedergabe, das nach dem Bildlauf auf der Seite durch das Wiedergabesymbol ersetzt wird.
+   * Symbol &quot;Wiederholung der Symbolwiedergabe&quot;wurde nach dem Scrollen der Seite durch das Wiedergabesymbol ersetzt.
 
 * Internet Explorer
 
-   * In IE 10 und älteren Vollbildmodus nicht den gesamten Bildschirm belegt, sondern nur die Größe der Anwendung auf die Größe des Browserfensters.
+   * Im IE 10 und älteren Vollbildmodus wird nicht der gesamte Bildschirm angezeigt, sondern nur die Größe der Anwendung auf die Größe des Browserfensters geändert.
    * Der Rendermodus &quot;Quirks&quot;wird nicht unterstützt.
    * Internet Explorer auf Mobilgeräten wird derzeit nicht unterstützt.
-   * Util.js kann beim Laden fehlschlagen, wenn es asynchron eingeschlossen wird.
-   * Das Symbol &quot;IconEffect&quot;blockiert Klickkomponenten in SpinView- und ZoomView-Ereignissen.
+   * Wenn Util.js asynchron eingeschlossen ist, kann es sein, dass das Laden von Util.js fehlschlägt.
+   * Symbol &quot;IconEffect&quot;blockiert Klickereignisse in den Komponenten SpinView und ZoomView .
 
-* Videoplayer für native Geräte
+* Native Geräte-Videoplayer
 
-   * Die Überlagerung von Komponenten der Benutzeroberfläche über VideoPlayer wird nicht unterstützt, wenn VideoPlayer zum Aufrufen des nativen Players des Geräts verwendet wird.
+   * Die Ebenen-UI-Komponenten über VideoPlayer werden nicht unterstützt, wenn VideoPlayer zum Aufrufen des nativen Players des Geräts verwendet wird.
    * Die Videowiedergabe im nativen Modus ist in Safari 6 inkonsistent.
-   * Bei der nativen Wiedergabe wird das Wiederholungssymbol nach dem Bildlauf durch das Wiedergabesymbol ersetzt.
+   * Die native Wiedergabe ersetzt das Wiederholungssymbol durch das Wiedergabesymbol nach dem Scrollen der Seite.
 
 * Touch-Geräte
 
-   * Der Vollbildmodus belegt nicht den gesamten Gerätebildschirm, sondern ändert lediglich die Größe des Browser-Fensters.
+   * Der Vollbildmodus belegt nicht den gesamten Gerätebildschirm, sondern ändert lediglich die Größe der Anwendung auf die Größe des Browser-Fensters.
    * Benutzerdefinierte Cursor funktionieren nicht auf Touch-Geräten.
-   * Die Seitenanpassung auf Touch-Geräten wird derzeit nicht unterstützt. Zum Einbetten von HTML5-Viewern ist ein Viewport-Meta-Tag mit entsprechenden Einstellungen erforderlich.
+   * Die Seitenskalierung auf Touch-Geräten wird derzeit nicht unterstützt. Zum Einbetten von HTML5-Viewern ist ein Viewport-Meta-Tag mit entsprechenden Einstellungen erforderlich.
 
 * Xoom
 
-   * Durch Tippen auf die Dublette werden Viewer und Seite vergrößert, wenn die Browser-seitige Skalierung aktiv ist.
+   * Durch Doppeltippen-Geste werden der Viewer und die Seite vergrößert, wenn die Browser-seitige Skalierung aktiv ist.
 
 **Bekannte Probleme und Einschränkungen**
 
 * Alle Komponenten
 
-   * In den Versionen 2.7.2 und früher wurden einige Komponenten mithilfe der API `insertBefore()` zum DOM hinzugefügt. Daher würden sich solche Komponenten in der Stapelreihenfolge am unteren Rand befinden, unabhängig davon, wann eine Komponenteninstanz relativ zu anderen Komponenten erstellt wird. Ab Version 2.8.1 verwenden alle Komponenten jetzt die API `appendChild()`, was bedeutet, dass die Reihenfolge der Komponentenstapelung der Reihenfolge der Instanzerstellung entspricht.
+   * In den Versionen 2.7.2 und früher wurden einige Komponenten mithilfe der API `insertBefore()` zum DOM hinzugefügt. Daher würden sich solche Komponenten in der Stapelreihenfolge am unteren Rand befinden, unabhängig davon, ob die Komponenteninstanz relativ zu anderen Komponenten erstellt wird. Mit Version 2.8.1 verwenden jetzt alle Komponenten die `appendChild()`-API, was bedeutet, dass die Komponentenstapelreihenfolge mit der Reihenfolge der Instanzerstellung übereinstimmt.
 
-   * Die Verwendung des Modifikators `iscommand` zum Festlegen des Alpha-Kanal-Formats des Bilds wird nicht unterstützt. Verwenden Sie stattdessen den Parameter component `FMT`.
-   * Die Eigenschaft CSS transform wird derzeit nicht unterstützt.
+   * Die Verwendung des Modifikators `iscommand` zum Festlegen des Alphakanalformats für Bilder wird nicht unterstützt. Verwenden Sie stattdessen den Parameter `FMT` .
+   * CSS-Transformationseigenschaft wird derzeit nicht unterstützt.
 
 * Touch-Geräte
 
-   * Durch die Geste &quot;Pinch&quot;auf Touch-Geräten wird kein Zoom-Ereignis generiert
+   * Pinch-Gesten auf Touch-Geräten generiert kein Zoom-Ereignis
 
 * Behälter
 
-   * Rahmen, Umrandung und Ränder auf dem Container werden nicht unterstützt. Adobe schlägt vor, dem übergeordneten DIV Stilelemente hinzuzufügen.
-   * Sie müssen explizit die Größe des Containers festlegen, damit die Komponentengröße korrekt angepasst werden kann.
+   * Rahmen, Abstände und Ränder im Container werden nicht unterstützt. Adobe empfiehlt das Hinzufügen von Stilelementen zum übergeordneten DIV.
+   * Sie müssen die Containergröße explizit festlegen, da sonst die Größe der Komponenten korrekt sein kann.
 
 * Druckkomponente
 
-   * Aufgrund von Einschränkungen des Browsers kann es vorkommen, dass die Druckkomponente den Inhalt in Internet Explorer 9 nicht ordnungsgemäß auf dem Papier skaliert.
+   * Aufgrund von Browserbeschränkungen skaliert die Druckkomponente in Internet Explorer 9 den Inhalt möglicherweise nicht ordnungsgemäß auf dem Papier.
 
 * IconEffect-Komponente
 
-   * IconEffect erzeugt einen Skriptfehler in Internet Explorer, wenn `autohide` deaktiviert ist (auf `0` eingestellt).
+   * IconEffect erzeugt einen Skriptfehler in Internet Explorer, wenn `autohide` deaktiviert ist (festgelegt auf `0`).
 
 * ImageMapEffect-Komponente
 
-   * Verzögerung bei der Neupositionierung des Symbols beim Schwenken des Bilds auf der Ansicht.
+   * Verzögerung mit Neupositionierungssymbol beim Schwenken des Bildes auf der Ansichtskomponente
 
 * MediaSet-Komponente
 
-   * Inline-Assets erfordern dieselbe Kodierung wie die URL.
+   * Inline-Assets erfordern dieselbe Kodierung wie auf der URL.
 
 * NavigationView-Komponente
 
-   * Derzeit unterstützt die Komponente nicht die Größenanpassung.
+   * Derzeit unterstützt die Komponente keine Größenanpassung.
 
 * PageScrubber-Komponente
 
-   * Wenn auf dem iPhone 5 die Seitenumbruchzeichenblase auf Text eingestellt ist, werden Artefakte angezeigt, wenn die Schaltfläche entlang der Leiste verschoben wird. Die Verwendung von `-webkit-background-clip: content;` im Stil kann das Problem umgehen.
+   * Wenn auf dem iPhone 5 die &quot;PageScrubber&quot;-Blase auf Text gesetzt ist, werden Artefakte angezeigt, wenn die Schaltfläche entlang der Spur bewegt wird. Die Verwendung von `-webkit-background-clip: content;` im Stil funktioniert um das Problem herum.
 
 * SpinView-Komponente
 
-   * SpinView scheint manchmal nach dem Wischen einzufrieren und das Gerät zu drehen, während sich das Bild dreht.
+   * SpinView scheint manchmal nach dem Wischen einzufrieren und das Gerät zu drehen, während das Bild gedreht wird.
 
 * Farbfeldkomponente
 
-   * Bei der Auswahl eines Felds ohne Rand werden 2 Highlights angezeigt.
-   * Auto-Scrolling mit `selectSwatch()`-Methode funktioniert nicht korrekt.
+   * Bei der Auswahl eines Out-of-Bounds-Musters werden zwei Highlights angezeigt.
+   * Automatischer Bildlauf mit `selectSwatch()`-Methode funktioniert nicht ordnungsgemäß.
 
 * VideoPlayer
 
-   * Videoframe wird nicht aktualisiert, wenn die Suche auf 100 Prozent eingestellt ist und der Fallback auf auto eingestellt ist.
-   * Während der Videosuche im HLS-Streaming-Modus in Chrome, Firefox und Internet Explorer kann es zu gelegentlichen Makro-Blockierungen kommen.
-   * Das Standbild wird möglicherweise zum ersten Besucher nicht im Microsoft Edge-Browser angezeigt.
-   * Das Standbild kann nach dem Laden des Videos in Internet Explorer 9 ausgeblendet werden, wenn die progressive Wiedergabe verwendet wird.
+   * Der Videoframe wird nicht aktualisiert, wenn die Suche auf 100 % festgelegt ist und der Fallback auf &quot;auto&quot;eingestellt ist.
+   * Gelegentlich kann es während der Videosuche im HLS-Streaming-Modus in Chrome-, Firefox- und Internet Explorer-Browsern zu Makroblockierungen kommen.
+   * Das Posterbild wird möglicherweise nicht zum ersten Mal im Microsoft Edge-Browser angezeigt.
+   * Das Standbild kann sich nach dem Laden des Videos in Internet Explorer 9 verbergen, wenn die progressive Wiedergabe verwendet wird.
 
 ## Dynamic Media Image Serving 6.3.2 und Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC-Dienstprogramm - `downsample2x2`-Flag wird nicht mehr unterstützt. Dieses Flag war ein schlechter 2x2 Downsampling, der nicht mehr von IPS verwendet wird.
-* CORS-Header - Derzeit ist der CORS-Header für `/is/content/`-Anforderungen konfiguriert.
-
+* IC-Dienstprogramm - die Markierung `downsample2x2` wird nicht mehr unterstützt. Diese Markierung war ein schlechter Downsampler von 2x2-Qualität, der nicht mehr von IPS verwendet wird.
+* CORS-Kopfzeile - Derzeit ist der CORS-Header für `/is/content/`-Anforderungen konfiguriert.
