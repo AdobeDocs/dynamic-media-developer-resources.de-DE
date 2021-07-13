@@ -1,29 +1,28 @@
 ---
-description: Renderpriorität für Farbkonvertierung. Stellt die standardmäßige Renderpriorität für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit icc= angegeben wurde.
+description: Rendering-Absicht für Farbkonvertierung. Stellt die standardmäßige Rendering-Absicht für Farbkonvertierungen bereit, wenn der Rendering-Intent nicht mit icc= angegeben ist.
 solution: Experience Manager
 title: IccRenderIntent
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 86cc907d-556c-40ec-a104-2f0dcf9ed1ce
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
 
-
 # IccRenderIntent{#iccrenderintent}
 
-Renderpriorität für Farbkonvertierung. Stellt die standardmäßige Renderpriorität für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit icc= angegeben wurde.
+Rendering-Absicht für Farbkonvertierung. Stellt die standardmäßige Rendering-Absicht für Farbkonvertierungen bereit, wenn der Rendering-Intent nicht mit icc= angegeben ist.
 
 ## Eigenschaften {#section-0a38c60e1525426185616c42824aee2c}
 
-Enum. Für die Wahrnehmbarkeit auf 0 gesetzt, für die relative Farbmetrik auf 1, für die Sättigung auf 2, für die absolute Farbmetrik auf 3. Lassen Sie den Wert leer oder legen Sie ihn auf einen anderen Wert fest, um die im Profil &quot;Farbe&quot;definierte standardmäßige Renderpriorität zu verwenden.
+Enum. Setzen Sie den Wert auf 0 für wahrnehmungsorientiert, 1 für relativ farbmetrisch, 2 für Sättigung, 3 für absolut farbmetrisch. Leer lassen oder auf einen anderen Wert setzen, um den im Farbprofil definierten Standard-Rendering-Intent zu verwenden.
 
 ## Standard {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-Vererbt von `default::IccRenderIntent`wenn nicht definiert. Ist der Wert leer, wird &quot;relativ farbmetrisch&quot;angewendet.
+Vererbt von `default::IccRenderIntent`falls nicht definiert. Wenn leer, wird &quot;relativ farbmetrisch&quot;angewendet.
 
 ## Verwandte Themen {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 
