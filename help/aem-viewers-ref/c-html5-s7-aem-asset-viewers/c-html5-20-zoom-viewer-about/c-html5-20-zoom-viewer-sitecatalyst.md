@@ -1,29 +1,28 @@
 ---
-description: Unterstützung der Adobe Analytics-Verfolgung
+description: Unterstützung für Adobe Analytics-Tracking
 solution: Experience Manager
-title: Unterstützung der Adobe Analytics-Verfolgung
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Unterstützung für Adobe Analytics-Tracking
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User,Data Engineer,Data Architect
+exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
 
+# Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-## Vordefinierte Verfolgung {#section-ba994f079d0343c8ae48adffaa3195a3}
+Der Video-Viewer unterstützt standardmäßig das [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
-Der Video-Viewer unterstützt standardmäßig die Verfolgung. [!DNL Adobe Analytics] Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als Parameter `config2`.
+Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-Der Viewer sendet außerdem eine einzige Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
+## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
-
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf abzurufen und das `eventInfo`-Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Um in Analytics-Systeme von Drittanbietern zu integrieren, müssen Sie den Viewer-Rückruf `trackEvent` überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -47,13 +46,13 @@ var zoomViewer = new s7viewers.ZoomViewer({
 });
 ```
 
-Der Viewer verfolgt die folgenden SDK-Ereignis:
+Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK-Ereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet, wenn... </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
+   <th colname="col2" class="entry"> <p>Gesendet, wenn ... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -63,7 +62,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset im Viewer mit der API <span class="codeph"> setAsset() </span> getauscht wird. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -71,12 +70,11 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>ein Bild ist geflogen. </p> </td> 
+   <td colname="col2"> <p>ein Bild eingeplant ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> ein Bild geändert wird, indem auf ein Farbfeld geklickt oder darauf getippt wird. </p> </td> 
+   <td colname="col2"> <p> ein Bild geändert wird, indem Sie auf ein Muster klicken oder tippen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
