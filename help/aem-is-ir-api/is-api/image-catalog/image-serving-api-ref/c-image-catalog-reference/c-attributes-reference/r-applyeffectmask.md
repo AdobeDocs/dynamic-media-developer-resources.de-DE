@@ -1,20 +1,19 @@
 ---
-description: Wendet optional die letzte Maske auf Effektebenen an, um den Bereich der Überschneidung zwischen Effekt und Ebene zu maskieren.
+description: Optional kann die endgültige Maske auf Effektebenen angewendet werden, um den Bereich der Überlappung zwischen einem Effekt und einer Ebene zu verschleiern.
 solution: Experience Manager
 title: ApplyEffectMask
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 51965151-03c9-4dbf-ba03-80bfa495439e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
 
-
 # ApplyEffectMask{#applyeffectmask}
 
-Wendet optional die letzte Maske auf Effektebenen an, um den Bereich der Überschneidung zwischen Effekt und Ebene zu maskieren.
+Optional kann die endgültige Maske auf Effektebenen angewendet werden, um den Bereich der Überlappung zwischen einem Effekt und einer Ebene zu verschleiern.
 
-Gültige Werte sind 0 und 1. 0 bedeutet, dass keine Effektmaske angewendet wird. 1 bedeutet, Effektmaske anzuwenden. ist standardmäßig 1.
+Gültige Werte sind 0 und 1. 0 bedeutet, dass keine Effektmaske angewendet wird. 1 bedeutet, die Effektmaske anzuwenden. Der Standardwert ist 1.
