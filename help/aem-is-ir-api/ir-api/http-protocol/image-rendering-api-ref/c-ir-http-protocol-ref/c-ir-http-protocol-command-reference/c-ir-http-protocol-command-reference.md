@@ -1,19 +1,17 @@
 ---
 description: Diese Befehlsreferenz enthält Details zu den HTTP-Protokollbefehlen.
 solution: Experience Manager
-title: HTTP-Protokoll-Referenz
+title: HTTP-Protokoll-Befehlsreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 77a9b7c5-a369-4544-bc19-1c01ef9b1d8b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '36'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
-
-# HTTP-Protokoll, Befehlsreferenz{#http-protocol-command-reference}
+# HTTP-Protokoll-Befehlsreferenz{#http-protocol-command-reference}
 
 Diese Befehlsreferenz enthält Details zu den HTTP-Protokollbefehlen.
-
