@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für den interaktiven Video-Viewer.
+description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
 title: CallToAction.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
 
 # CallToAction.align{#calltoaction-align}
 
-Konfigurationsattribut für den interaktiven Video-Viewer.
+Konfigurationsattribut für interaktiven Video-Viewer.
 
 `[CallToAction.|<containerId>_callToAction.]align=left|center|right`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Miniaturansichten-Containers im Komponentenbereich an. </p> <p>Beim Aktionsaufruf wird die Größe des internen Miniaturbilds so angepasst, dass nur eine ganze Anzahl von Miniaturbildern angezeigt wird. Das führt dazu, dass zwischen dem internen Container und den externen Komponentengrenzen eine gewisse Auffüllung besteht. </p> <p>Dieser Modifikator gibt an, wie der Container für interne Miniaturansichten horizontal in der Komponente positioniert wird. </p> </td> 
+   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. </p> <p>Beim Aktionsaufruf wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. </p> <p>Dieser Modifikator gibt an, wie der interne Miniaturansichtsbehälter horizontal innerhalb der Komponente positioniert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
