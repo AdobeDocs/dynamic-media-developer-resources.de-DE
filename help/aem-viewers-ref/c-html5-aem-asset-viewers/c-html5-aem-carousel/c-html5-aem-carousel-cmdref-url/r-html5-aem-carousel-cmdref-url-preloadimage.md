@@ -2,14 +2,13 @@
 description: URL-Befehl für Karussell-Viewer.
 solution: Experience Manager
 title: preloadimage**
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +22,7 @@ URL-Befehl für Karussell-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktivieren Sie (<span class="codeph"> 1</span>) oder deaktivieren Sie (<span class="codeph"> 0</span>) die Funktion zum Vorausladen von Bildern. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Vorlade-Bild</a>. </p> </td> 
+   <td colname="col2"> <p> Aktivieren Sie (<span class="codeph"> 1</span>) oder deaktivieren Sie die Funktion zum Vorausfüllen des Bildes (<span class="codeph"> 0</span>). </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Bild vorab laden</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
