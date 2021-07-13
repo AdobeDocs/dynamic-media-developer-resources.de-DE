@@ -1,24 +1,23 @@
 ---
-description: Bildmaske. Fordert die Maskendaten (Alpha-Kanal) an.
+description: Bildmaske. Fordert die Maskendaten (Alphakanal) an.
 solution: Experience Manager
-title: Maske
+title: mask
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+role: Developer,User
+exl-id: 0e743fe5-a623-4f5f-bc61-536ed70532bf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-
 # mask{#mask}
 
-Bildmaske. Fordert die Maskendaten (Alpha-Kanal) an.
+Bildmaske. Fordert die Maskendaten (Alphakanal) an.
 
 `req=mask`
 
-Unterstützt dieselben Befehle wie `req=img`. Er wird auf die gleiche Weise vom Server verarbeitet, aber anstatt die RGB- oder RGBA-Daten zurückzugeben, verwirft der Server die Farbinformationen und gibt nur die Daten zur Maske (Alpha-Kanal) zurück. Das Antwortdatenformat und der AntwortmIME-Typ werden von `fmt=` bestimmt.
+Unterstützt dieselben Befehle wie `req=img`. Er wird auf die gleiche Weise vom Server verarbeitet, aber anstatt die RGB- oder RGBA-Daten zurückzugeben, verwirft der Server die Farbinformationen und gibt nur die Maskendaten (Alphakanal) zurück. Das Antwortdatenformat und der Antwort-MIME-Typ werden von `fmt=` bestimmt.
 
 Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
