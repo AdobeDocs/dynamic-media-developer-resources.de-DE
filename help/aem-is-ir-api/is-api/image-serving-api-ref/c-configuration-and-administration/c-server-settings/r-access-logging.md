@@ -1,45 +1,44 @@
 ---
-description: Verwenden Sie diese Servereinstellungen für den Zugriff auf die Protokollierung.
+description: Verwenden Sie diese Servereinstellungen für den Protokollierungszugriff.
 solution: Experience Manager
 title: Zugriffsprotokollierung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '691'
 ht-degree: 4%
 
 ---
 
-
 # Zugriffsprotokollierung{#access-logging}
 
-Verwenden Sie diese Servereinstellungen für den Zugriff auf die Protokollierung.
+Verwenden Sie diese Servereinstellungen für den Protokollierungszugriff.
 
 Syntax
 
-## TC::directory - Protokolldateiordner {#section-5d9e2168d4504bbe9868b7d6051c9d67}
+## TC::directory - Log File Folder {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Der Ordner, in den der Plattformserver Protokolldateien schreibt. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`* sein. Der Standardwert ist [!DNL  *`install_folder`*/logs].
+Der Ordner, in den der Platform Server Protokolldateien schreibt. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`* sein. Der Standardwert ist [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
->Der neue Ordner muss erstellt werden, bevor diese Einstellung geändert werden kann. Stellen Sie sicher, dass der Ordner über die richtigen Lese-/Schreibzugriffsberechtigungen verfügt, wenn Image Serving für die Ausführung unter einem anderen Benutzerkonto als Root installiert ist.
+>Der neue Ordner muss erstellt werden, bevor diese Einstellung geändert werden kann. Stellen Sie sicher, dass der Ordner über die richtigen Lese-/Schreibzugriffsberechtigungen verfügt, wenn Image Serving für die Ausführung unter einem anderen Benutzerkonto als dem Stammordner installiert ist.
 
-## TC::maxDays - Anzahl der Tage zum Speichern von Protokolldateien {#section-45cbecffc5694c87b7d5c176a44a4885}
+## TC::maxDays - Anzahl der Tage zum Aufbewahren von Protokolldateien {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Die Anzahl der Tage der Protokolldateien sollte beibehalten werden. Neue Protokolldateien werden jeden Tag um Mitternacht erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der vom Image-Server oder Render-Server geschriebenen Dateien. Der Standardwert ist „10“.
+Die Anzahl der Tage, in denen Protokolldateien gespeichert werden sollen, sollte beibehalten werden. Neue Protokolldateien werden täglich um Mitternacht erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der Dateien, die vom Image-Server oder Render-Server geschrieben wurden. Der Standardwert ist „10“.
 
-## TC::prefix - Name der Protokolldatei für Zugriff {#section-1003856323b844049632710a5a056aa7}
+## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
 
-Namenpräfix für die Datei, in die die Protokolldaten geschrieben werden. Das Datum und das Dateisuffix ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Ablaufverfolgungsprotokolldatei unterscheiden. Die Standardgrenze ist &quot; `access-`&quot;.
+Namenpräfix für die Datei, in die Zugriffsprotokolldaten geschrieben werden. Das Datum und das Dateisuffix ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Ablaufverfolgungsprotokolldatei unterscheiden. Die Standardgrenze ist &quot; `access-`&quot;.
 
-## TC::pattern - Access Log Pattern {#section-22775ea85cee444d8a7d7336a3b1feef}
+## TC::pattern - Zugriffsprotokollmuster {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-Gibt das Datenmuster für Protokolldatensätze zum Zugriff auf den Plattformserver an. Die Musterzeichenfolge gibt Variablen an, die durch die entsprechenden Werte ersetzt werden. Alle anderen Zeichen in der Musterzeichenfolge werden wörtlich in den Protokolldatensatz übertragen.
+Gibt das Datenmuster für die Protokolleinträge für den Zugriff auf Platform Server an. Die Musterzeichenfolge gibt Variablen an, die durch ihre entsprechenden Werte ersetzt werden. Alle anderen Zeichen in der Musterzeichenfolge werden wörtlich in den Protokolldatensatz übertragen.
 
-Um das Dienstprogramm zum Aufwärmen des Zwischenspeichers verwenden zu können, müssen Leerzeichen als Feldtrenner verwendet werden. Der Plattformserver ersetzt alle Leerzeichen und &quot;%&quot;-Zeichen in Feldwerten durch `%20` bzw. `%25`.
+Um das Dienstprogramm zum Aufwärmen des Caches zu verwenden, müssen Leerzeichen als Feldtrennzeichen verwendet werden. Der Platform Server ersetzt alle Leerzeichen und &quot;%&quot;-Zeichen in Feldwerten durch `%20` bzw. `%25`.
 
 Die folgenden Mustervariablen werden unterstützt:
 
@@ -61,23 +60,23 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %b </span> </p> </td> 
-   <td> <p>Anzahl der Antwortbyte ohne HTTP-Header oder '', wenn Null. </p> </td> 
+   <td> <p>Anzahl der Byte-Antworten ohne HTTP-Header oder "", wenn null. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %B </span> </p> </td> 
-   <td> <p>Anzahl der Antwortbyte ohne HTTP-Header. </p> </td> 
+   <td> <p>Anzahl der Byte-Antworten ohne HTTP-Header. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %D </span> </p> </td> 
-   <td> <p>Anforderungsverarbeitungszeit in Millisekunden. </p> </td> 
+   <td> <p>Verarbeitungszeit für Anfragen in Millisekunden. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %I </span> </p> </td> 
-   <td> <p>thread-ID (für Querverweise zu Debug-/Fehlerprotokolleinträgen). </p> </td> 
+   <td> <p>Thread-ID (für Querverweise auf Debug-/Fehlerprotokolleinträge). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>Datum und Uhrzeit, formatiert als <span class="codeph"> <span class="varname"> yyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS- </span> Offset  </span> </p> <p> ( <span class="varname"> SSS </span> sind msec, <span class="varname"> offset </span> ist der GMT-Zeitversatz); der Zeitwert wird erfasst, wenn die Antwort an den Client gesendet wird. </p> </td> 
+   <td> <p>Datum und Uhrzeit, formatiert als <span class="codeph"> <span class="varname"> yyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS- </span> Versatz  </span> </p> <p> ( <span class="varname"> SSS </span> sind msec, <span class="varname"> Offset </span> ist der GMT-Zeitversatz); der Zeitwert erfasst wird, wenn die Antwort an den Client gesendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -89,11 +88,11 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %p </span> </p> </td> 
-   <td> <p>Lokaler Port, an dem diese Anforderung eingegangen ist. </p> </td> 
+   <td> <p>Lokaler Port, an dem diese Anfrage empfangen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>Zeichenfolge der Abfrage (mit vorangestelltem "?" sofern vorhanden). </p> </td> 
+   <td> <p>Abfragezeichenfolge (mit dem Präfix "?") sofern vorhanden). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
@@ -101,15 +100,15 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>Entspricht <span class="codeph"> %r </span>, wendet jedoch eine eingeschränkte HTTP-Kodierung auf den URI an, um Probleme bei der Protokollanalyse zu vermeiden. </p> </td> 
+   <td> <p>Entspricht <span class="codeph"> %r </span>, wendet jedoch eine begrenzte HTTP-Kodierung auf den URI an, um Probleme bei der Protokollanalyse zu vermeiden. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
-   <td> <p>HTTP-Antwortstatuscode. </p> </td> 
+   <td> <p>HTTP-Antwortstatus-Code. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %S </span> </p> </td> 
-   <td> <p>Benutzer-Sitzungs-ID. </p> </td> 
+   <td> <p>Sitzungs-ID des Benutzers. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %t </span> </p> </td> 
@@ -117,7 +116,7 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %u </span> </p> </td> 
-   <td> <p>Remote-Benutzer, der authentifiziert wurde (falls vorhanden), andernfalls ''. </p> </td> 
+   <td> <p>Remote-Benutzer, der authentifiziert wurde (falls vorhanden), else ''. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %U </span> </p> </td> 
@@ -129,15 +128,15 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %T </span> </p> </td> 
-   <td> <p>Verarbeitungszeit der Anforderung in Sekunden </p> </td> 
+   <td> <p>Verarbeitungszeit für Anfragen in Sekunden. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheKey}r  </span> </p> </td> 
-   <td> <p>Cache-Schlüssel für den Plattformserver (Cache-Dateiordner/Name). </p> </td> 
+   <td> <p>Cache-Schlüssel für Platform Server (Cache-Dateiordner/-name). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r  </span> </p> </td> 
-   <td> <p>Platform Server Cache Management-Schlüsselwort: <span class="codeph"> { REUSED | ERSTELLT | AKTUALISIERT | REMOTE | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | ÜBERPRÜFT | IGNORIERT | UNDEFINED } </span>. </p> </td> 
+   <td> <p>Keyword zur Verwaltung des Platform Server-Cache: <span class="codeph"> { REUSED | ERSTELLT | AKTUALISIERT | REMOTE | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | ÜBERPRÜFT | IGNORIERT | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r  </span> </p> </td> 
@@ -145,11 +144,11 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p>%{context}r </p> </td> 
-   <td> <p>Der Zielkontext, wenn ein Kontext nach vorne auftritt. </p> </td> 
+   <td> <p>Der Zielkontext, wenn ein Kontext weitergeleitet wird. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r  </span> </p> </td> 
-   <td> <p>Der Antwortkopfwert <span class="codeph"> etag </span> (MD5-Signatur der Antwortdaten). </p> </td> 
+   <td> <p>Der Antwortkopfzeilenwert <span class="codeph"> etag </span> (MD5-Signatur der Antwortdaten). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r  </span> </p> </td> 
@@ -157,54 +156,54 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{FetchTime}r  </span> </p> </td> 
-   <td> <p>Zeit zum Abrufen des Cache-Eintrags oder der Daten vom Image-Server. </p> </td> 
+   <td> <p>Zeit, die benötigt wird, um den Cache-Eintrag oder Daten vom Image-Server abzurufen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ParseTime}r  </span> </p> </td> 
-   <td> <p>Zeit für die Anforderungsanalyse und die Suche nach Bildkatalogen. </p> </td> 
+   <td> <p>Zeit für Anforderungsanalyse und Bildkatalog-Suche. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PathBasedAccess}r  </span> </p> </td> 
-   <td> <p>Gibt an, ob mit dieser Anforderung ein pfadbasierter Zugriff außerhalb des Katalogsystems versucht wurde. </p> </td> 
+   <td> <p>Gibt an, ob diese Anfrage einen pfadbasierten Zugriff außerhalb des Katalogsystems versucht hat. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r  </span> </p> </td> 
-   <td> <p>IP-Adresse des Peer-Servers im Cache-Cluster, der den Cache-Eintrag bereitgestellt hat, oder '-', wenn <span class="codeph"> CacheUse </span> weder <span class="codeph"> noch <span class="codeph"> REMOTE_CREATED </span> noch </span> REMOTE_UPDATED  ist. </p> </td> 
+   <td> <p>IP-Adresse des Peer-Servers im Cache-Cluster, der den Cache-Eintrag bereitgestellt hat, oder "-", wenn <span class="codeph"> CacheUse </span> weder <span class="codeph"> REMOTE_CREATED </span> noch <span class="codeph"> REMOTE_UPDATED </span> ist. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r  </span> </p> </td> 
-   <td> <p>Fehler-Kategorie: </p> <p> 
+   <td> <p>Fehlerkategorie: </p> <p> 
      <ul id="ul_BA2A18337D374939AC9BF2424247E40F"> 
       <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0 = kein Fehler. </p> </li> 
-      <li id="li_CCEE27F75BD34195895428188B2C30AA"> <p>1 = Bild(e) nicht auf dem Server gefunden. </p> </li> 
+      <li id="li_CCEE27F75BD34195895428188B2C30AA"> <p>1 = Bild(e) auf dem Server nicht gefunden. </p> </li> 
       <li id="li_315BBCC7B4C1443495C9C2B3F9800C1F"> <p> 2 = IS-Protokollverwendungsfehler oder ein Inhaltsfehler, der nicht 1 ist. </p> </li> 
-      <li id="li_E028FFF165BD4535875F8684FCAF1859"> <p>3 = sonstiger Serverfehler. </p> </li> 
-      <li id="li_5AFFB0EE80484885BCDACD9DF3EF58F7"> <p>4 = Anfrage wegen vorübergehender Serverüberlastung abgelehnt. </p> </li> 
+      <li id="li_E028FFF165BD4535875F8684FCAF1859"> <p>3 = anderer Serverfehler. </p> </li> 
+      <li id="li_5AFFB0EE80484885BCDACD9DF3EF58F7"> <p>4 = Anfrage aufgrund einer temporären Serverüberlastung abgelehnt. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r  </span> </p> </td> 
-   <td> <p>Der Wert in der oberen Leiste von <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p>Der obere Wert von <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r  </span> </p> </td> 
-   <td> <p>Die Stamm-ID des Hauptkatalogs der Anforderung. </p> </td> 
+   <td> <p>Die Stamm-ID des Hauptkatalogs der Anfrage. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r  </span> </p> </td> 
    <td> <p>Die Zeit, die Platform Server benötigt, um eine Antwort zu senden, nachdem Daten in den Ausgabestream geschrieben wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Size}r  </span> </p> </td> 
-   <td> <p>Wie <span class="codeph"> %B </span>, enthält aber Werte für 304 (nicht modifizierte) Antworten. </p> </td> 
+   <td> <p> <span class="codeph"> %{size}r  </span> </p> </td> 
+   <td> <p>Wie <span class="codeph"> %B </span>, enthält jedoch Werte für 304 (nicht geänderte) Antworten. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{TransformierteUrl}r  </span> </p> </td> 
-   <td> <p>Die endgültige URL nach allen Regeltransformationen. </p> </td> 
+   <td> <p> <span class="codeph"> %{TransformedUrl}r  </span> </p> </td> 
+   <td> <p>Die endgültige URL nach allen Regelsatztransformationen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{  <span class="varname"> httpRequestHeader  </span>}i  </span> </p> </td> 
-   <td> <p>Der Wert des angegebenen HTTP-Anforderungsheaders. </p> </td> 
+   <td> <p>Der -Wert des angegebenen HTTP-Anforderungsheaders. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{  <span class="varname"> httpResponseHeader  </span>}  </span> </p> </td> 
