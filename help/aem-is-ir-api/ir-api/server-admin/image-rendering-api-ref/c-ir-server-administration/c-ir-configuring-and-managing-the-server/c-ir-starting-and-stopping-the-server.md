@@ -1,20 +1,19 @@
 ---
-description: Image Rendering ist in die Image Server- und Platform Server-Komponenten von Image Serving eingebettet.
+description: Das Bild-Rendering ist in die Image Server- und Platform Server-Komponenten von Image Serving eingebettet.
 solution: Experience Manager
 title: Starten und Beenden des Servers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 79ec6e27-4964-41bc-b8ae-fc50cc59e728
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
-
 # Starten und Beenden des Servers{#starting-and-stopping-the-server}
 
-Image Rendering ist in die Image Server- und Platform Server-Komponenten von Image Serving eingebettet.
+Das Bild-Rendering ist in die Image Server- und Platform Server-Komponenten von Image Serving eingebettet.
 
-Weitere Informationen finden Sie in der Image Serving-Dokumentation.
+Weitere Informationen finden Sie in der Dokumentation zur Image-Serving .
