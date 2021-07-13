@@ -1,24 +1,22 @@
 ---
-description: Unter Windows gibt es mehrere Mechanismen, um den Image-Server und den Plattformserver unter Windows Beginn bzw. zu beenden
+description: Es gibt verschiedene Mechanismen, um Image-Server und Platform Server unter Windows zu starten/anzuhalten
 solution: Experience Manager
-title: Windows starten oder beenden
+title: Starten oder Beenden unter Windows
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 9c7dc74a-5965-428f-9146-6b39c46b318f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-
 # Starten oder Beenden unter Windows{#starting-or-stopping-on-windows}
 
-Unter Windows gibt es mehrere Mechanismen, um den Image-Server und den Plattformserver unter Windows Beginn bzw. zu beenden
+Es gibt verschiedene Mechanismen, um Image-Server und Platform Server unter Windows zu starten/anzuhalten
 
-1. Wählen Sie eine der folgenden Optionen, um das Image Serving zu Beginn oder zu beenden:
+1. Wählen Sie eine der folgenden Optionen aus, um Image Serving zu starten oder zu beenden:
 
-* Die Windows-Dienststeuerung kann zum Beginn, Beenden, Neustart und Überprüfen des Status des Dynamic Media Image Serving-Dienstes verwendet werden.
-* **[!UICONTROL Beginn Menu]**>  **[!UICONTROL All Programms]**>  **[!UICONTROL Dynamic Media (Scene7)]**>  **[!UICONTROL Image Serving]**>  **[!UICONTROL Control]** Services stellt Befehle zum Beginn, Beenden und Neustart des Dynamic Media Image Serving-Dienstes bereit.
-
+* Über die Windows Service-Systemsteuerung kann der Status des Dynamic Media Image Serving-Dienstes gestartet, beendet, neu gestartet und überprüft werden.
+* **[!UICONTROL Startmenü]** >  **[!UICONTROL Alle Programme]** >  **[!UICONTROL Dynamic Media (Scene7)]** >  **[!UICONTROL Image Serving]** >  **[!UICONTROL Control]** Service stellt Befehle zum Starten, Beenden und Neustart des Dynamic Media Image Serving-Dienstes bereit.
