@@ -1,33 +1,32 @@
 ---
-description: Aktivieren Sie synthetisierte Schriftvarianten. Steuert, ob der Server eine Fehlermeldung erzeugen oder einen fett, kursiv oder fett/kursiv formatierten Schriftstil synthetisieren soll, wenn ein solcher Stil angefordert wird, der jedoch nicht in der Schriftartzuordnung gefunden werden kann.
+description: Aktivieren Sie synthetisierte Schriftvarianten. Steuert, ob der Server eine Fehlerantwort generieren oder einen fett, kursiv oder fett/kursiv formatierten Schriftstil synthetisieren soll, wenn ein solcher Stil angefordert wird, der jedoch nicht in der Schriftzuordnung zu finden ist.
 solution: Experience Manager
 title: SynthesizeFontStyles
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
-
 # SynthesizeFontStyles{#synthesizefontstyles}
 
-Aktivieren Sie synthetisierte Schriftvarianten. Steuert, ob der Server eine Fehlermeldung erzeugen oder einen fett, kursiv oder fett/kursiv formatierten Schriftstil synthetisieren soll, wenn ein solcher Stil angefordert wird, der jedoch nicht in der Schriftartzuordnung gefunden werden kann.
+Aktivieren Sie synthetisierte Schriftvarianten. Steuert, ob der Server eine Fehlerantwort generieren oder einen fett, kursiv oder fett/kursiv formatierten Schriftstil synthetisieren soll, wenn ein solcher Stil angefordert wird, der jedoch nicht in der Schriftzuordnung zu finden ist.
 
 >[!NOTE]
 >
->Die Synthese von Schriftstilen führt häufig zu einer geringeren Qualität der Darstellung als bei der Verwendung von tatsächlichen Schriftarten für solche Stile.
+>Die Synchronisierung von Schriftstilen führt häufig zu einer geringeren Qualität bei der Darstellung als bei der Verwendung von tatsächlichen Schriftarten für solche Stile.
 
 ## Eigenschaften {#section-3205560a74774ebf9c916b07bd15aca6}
 
-Flag. Auf 0 setzen, um die synthetischen Schriftschnitte zu deaktivieren, und auf 1, um sie zu aktivieren.
+Flag. Legen Sie auf 0 fest, um die Stile für synthetische Schriftarten zu deaktivieren, und auf 1, um sie zu aktivieren.
 
 ## Standard {#section-71f94aa65e404d14b441674c040b59e3}
 
-Vererbt von `default::SynthesizeFontStyles`, wenn nicht definiert oder leer.
+Wird von `default::SynthesizeFontStyles` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-47a79659cc844272b6d5f36c946e12ac}
 
