@@ -1,21 +1,20 @@
 ---
-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Haupt-Ansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Hauptansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
-title: Zurücksetzen-Schaltfläche für Zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Schaltfläche "Zoom zurücksetzen"
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: 18663c1f-5645-41c7-bf26-241ad7c2c3b5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
 
+# Schaltfläche &quot;Zoom zurücksetzen&quot;{#zoom-reset-button}
 
-# Schaltfläche zum Zurücksetzen des Zooms{#zoom-reset-button}
-
-Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Haupt-Ansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Hauptansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,19 +36,19 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p>Position vom linken Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,18 +64,18 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Siehe [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Um eine Zoom-Zurücksetzschaltfläche einzurichten, die 32 x 32 Pixel groß ist, sechs Pixel vom oberen und rechten Rand des Viewers entfernt und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt.
+Beispiel: Zum Einrichten einer Zoom-Reset-Schaltfläche mit einer Größe von 32 x 32 Pixel, sechs Pixel von der oberen und rechten Kante des Viewers entfernt und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
 
 ```
 .s7zoomviewer .s7zoomresetbutton { 
@@ -98,4 +97,3 @@ background-image:url(images/v2/ZoomResetButton_dark_down.png);
 background-image:url(images/v2/ZoomResetButton_dark_disabled.png); 
 }
 ```
-
