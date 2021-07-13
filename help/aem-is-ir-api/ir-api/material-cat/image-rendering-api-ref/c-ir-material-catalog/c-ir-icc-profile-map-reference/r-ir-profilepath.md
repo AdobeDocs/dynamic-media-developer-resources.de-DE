@@ -1,21 +1,20 @@
 ---
-description: Dateipfad des Profils. Pfad und Name der ICC-Profil-Datei, einschließlich Dateisuffix.
+description: Pfad der Profildatei. Pfad und Name der ICC-Farbprofildatei, einschließlich Dateisuffix.
 solution: Experience Manager
-title: ProfilePath
+title: ProfilPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
+# ProfilPath{#profilepath}
 
-# ProfilePath{#profilepath}
-
-Dateipfad des Profils. Pfad und Name der ICC-Profil-Datei, einschließlich Dateisuffix.
+Pfad der Profildatei. Pfad und Name der ICC-Farbprofildatei, einschließlich Dateisuffix.
 
 ## Eigenschaften {#section-5b75d459083f49f3bbd89ce8458559f7}
 
