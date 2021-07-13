@@ -1,21 +1,20 @@
 ---
-description: Bit-Rate für Audiodateien. Ein langer Wert, der die Audio-Bitrate für das Video-Asset angibt.
+description: Bit-Rate für Audiodateien. Long-Wert, der die Audio-Bit-Rate für das Video-Asset darstellt.
 solution: Experience Manager
 title: AudioBitRate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 15%
+source-wordcount: '68'
+ht-degree: 16%
 
 ---
 
-
 # AudioBitRate{#audiobitrate}
 
-Bit-Rate für Audiodateien. Ein langer Wert, der die Audio-Bitrate für das Video-Asset angibt.
+Bit-Rate für Audiodateien. Long-Wert, der die Audio-Bit-Rate für das Video-Asset darstellt.
 
 Wird von `req=set`- und `req=mbrSet`Anforderungen zum Exportieren von Bitratendaten verwendet.
 
