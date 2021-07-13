@@ -1,21 +1,20 @@
 ---
-description: Werkstoffdrehwinkel Definiert den Drehwinkel für Materialien.
+description: Werkstoffdrehwinkel. Definiert den Drehwinkel für Materialien.
 solution: Experience Manager
 title: drehen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
 
+# drehen{#rotate}
 
-# rotate{#rotate}
-
-Werkstoffdrehwinkel Definiert den Drehwinkel für Materialien.
+Werkstoffdrehwinkel. Definiert den Drehwinkel für Materialien.
 
 ` rotate= *`Winkel`*`
 
@@ -26,21 +25,21 @@ Werkstoffdrehwinkel Definiert den Drehwinkel für Materialien.
  </tr> 
 </table>
 
-Drehen Sie wiederholbare Texturmaterialien (ohne Wallpaper) um ein Vielfaches von 45 Grad, wenn sie auf flache Objekte oder Plane Objekte angewendet werden.
+Wiederholbare Texturmaterialien (ohne Wallpaper) um ein Vielfaches von 45 Grad drehen, wenn sie auf flache Objekte oder Planobjekte angewendet werden.
 
-Drehen Sie wiederholbare Texturmaterialien mit beliebigen Winkeln, wenn sie auf Flusslinien- und Sketch-Objekte angewendet werden.
+Drehen Sie wiederholbare Texturmaterialien um beliebige Winkel, wenn sie auf Flowline- und Sketch-Objekte angewendet werden.
 
 Drehen Sie dekale Materialien nach beliebigen Winkeln.
 
-Positive Winkel drehen im Uhrzeigersinn. Die Textur oder der Dekorationspunkt wird um den Ankerpunkt ( `anchor=`) gedreht. Der Verankerungspunkt bleibt an der Herkunft des Zielgruppe-Objekts ausgerichtet.
+Positive Winkel drehen den Uhrzeigersinn. Die Textur oder die Decke wird um den Ankerpunkt ( `anchor=`) gedreht. der Ankerpunkt bleibt an der Herkunft des Zielobjekts ausgerichtet.
 
 ## Eigenschaften {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Materialattribut. Eingebettet in einfarbige Materialien, Tapeten, Schränke und Fensterbehandlungen. *`angle`* muss ein Vielfaches von 45 für wiederholbare Texturen sein, es sei denn, sie werden auf Textlinien- oder Skizzierobjekte angewendet.
+Materialattribut. Ignoriert durch feste Farbe, Tapeten, Schrank und Fensterbehandlungsmaterialien. *`angle`* muss ein Vielfaches von 45 für wiederholbare Texturen sein, es sei denn, dies wird auf Fluss- oder Sketch-Objekte angewendet.
 
 ## Standard {#section-14c991e71b74449db8ff18a775949b28}
 
-`rotate=0`, ohne Drehung.
+`rotate=0`, um keine Drehung durchzuführen.
 
 ## Verwandte Themen {#section-f73c00e9368b478dac1fd15bb4367a12}
 
