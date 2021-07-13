@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für Video Viewer.
+description: Konfigurationsattribut für Video-Viewer.
 solution: Experience Manager
 title: VideoPlayer.ssl
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
 
-
 # VideoPlayer.ssl{#videoplayer-ssl}
 
-Konfigurationsattribut für Video Viewer.
+Konfigurationsattribut für Video-Viewer.
 
 >[!NOTE]
 >
@@ -27,7 +26,7 @@ Konfigurationsattribut für Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Steuert, ob das Video über eine sichere SSL-Verbindung (HTTPS) oder über eine unsichere Verbindung (HTTP) bereitgestellt wird. </p> <p>Bei Festlegung auf <span class="codeph"> auto</span> wird das Video-Versand-Protokoll vom Protokoll der Einbettungswebseite übernommen. Wenn die Webseite über HTTPS geladen wird, wird das Video auch über HTTPS bereitgestellt und umgekehrt. Befindet sich die Webseite auf HTTP, wird das Video über HTTP bereitgestellt. </p> <p>Bei Festlegung auf <span class="codeph"> auf</span> tritt der Video-Versand immer über eine sichere Verbindung auf, unabhängig vom Webseitenprotokoll. </p> <p>Betrifft nur veröffentlichte Video-Versand und wird bei der Vorschau von Videos im Autorenmodus ignoriert. </p> </td> 
+   <td colname="col2"> <p> Steuert, ob das Video über eine sichere SSL-Verbindung (HTTPS) oder eine unsichere Verbindung (HTTP) bereitgestellt wird. </p> <p>Wenn auf <span class="codeph"> auto</span> festgelegt, wird das Videobereitstellungsprotokoll vom Protokoll der eingebetteten Webseite übernommen. Wenn die Webseite über HTTPS geladen wird, wird das Video auch über HTTPS bereitgestellt und umgekehrt. Wenn sich die Webseite auf HTTP befindet, wird das Video über HTTP bereitgestellt. </p> <p>Wenn auf <span class="codeph"> unter</span> gesetzt, erfolgt die Videobereitstellung immer über eine sichere Verbindung, unabhängig vom Webseitenprotokoll. </p> <p>Betrifft nur die veröffentlichte Videobereitstellung und wird bei der Videovorschau im Autorenmodus ignoriert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Siehe auch [Sicherer Versand](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).
+Siehe auch [Sichere Videobereitstellung](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).
