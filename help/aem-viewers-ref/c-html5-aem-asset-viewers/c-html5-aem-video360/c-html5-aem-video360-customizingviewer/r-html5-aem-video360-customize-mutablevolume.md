@@ -1,27 +1,26 @@
 ---
-description: Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der der Benutzer den Videoplayer-Sound stummschalten oder deaktivieren kann.
+description: Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der ein Benutzer den Video-Player-Ton stummschalten oder deaktivieren kann.
 solution: Experience Manager
-title: Wechselbares Volumen
+title: Veränderliches Volumen
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: eb30ea49-e0ae-4ef4-a5b3-e245d96ce0db
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '479'
 ht-degree: 2%
 
 ---
 
-# Mutables Volume{#mutable-volume}
+# Veränderliches Volumen{#mutable-volume}
 
-Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der der Benutzer den Videoplayer-Sound stummschalten oder deaktivieren kann.
+Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der ein Benutzer den Video-Player-Ton stummschalten oder deaktivieren kann.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Wenn ein Benutzer den Mauszeiger über die Schaltfläche bewegt, wird ein Schieberegler angezeigt, mit dem der Benutzer die Lautstärke einstellen kann. Das veränderliche Lautstärkeregler kann relativ zur zugehörigen Steuerleiste durch CSS skaliert, geschliffen und positioniert werden.
+Wenn ein Benutzer über die Schaltfläche blättert, wird ein Regler angezeigt, mit dem der Benutzer die Lautstärke einstellen kann. Die veränderliche Lautstärkeregelung kann durch CSS relativ zur sie enthaltenden Steuerleiste skaliert, gehärtet und positioniert werden.
 
-Das Aussehen des Bereichs für veränderbare Lautstärke wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des veränderlichen Lautstärkeregments wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7video360viewer .s7mutablevolume
@@ -33,11 +32,11 @@ Das Aussehen des Bereichs für veränderbare Lautstärke wird mit der folgenden 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p> Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p> Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p> Position vom rechten Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p> Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -45,22 +44,22 @@ Das Aussehen des Bereichs für veränderbare Lautstärke wird mit der folgenden 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Die Höhe der Steuerung des veränderlichen Volumens. </p> </td> 
+   <td colname="col2"> <p>Die Höhe der veränderlichen Lautstärkeregelung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Die Farbe der Lautstärkeregelung. </p> </td> 
+   <td colname="col2"> <p> Die Farbe der veränderlichen Lautstärkeregelung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Darstellung der Schaltflächen &quot;Stummschalten/Unmutieren&quot;wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Aussehen der Schaltfläche zum Stummschalten/Unmutieren wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7video360viewer .s7mutablevolume .s7mutebutton
 ```
 
-Sie können das Hintergrundbild für jeden Schaltflächenstatus steuern. Die Größe der Schaltfläche wird von der Größe der Lautstärkeregelung übernommen.
+Sie können das Hintergrundbild für jeden Schaltflächenstatus steuern. Die Größe der Schaltfläche wird von der Größe des Lautstärkereglers übernommen.
 
 **CSS-Eigenschaften des Schaltflächenbilds**
 
@@ -68,26 +67,26 @@ Sie können das Hintergrundbild für jeden Schaltflächenstatus steuern. Die Gr�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Das für einen Schaltflächenstatus angezeigte Bild. </p> </td> 
+   <td colname="col2"> <p> Das für einen bestimmten Schaltflächenstatus angezeigte Bild. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die Attributselektoren `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;muted&quot;und `selected='false'` dem Status &quot;unmuted&quot;.
+>Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;muted&quot;und `selected='false'` dem Status &quot;unmuted&quot;.
 
-Der Bereich für die vertikale Lautstärkenleiste wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Bereich für den vertikalen Volumenbalken wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume
 ```
 
-**CSS-Eigenschaften des Bereichs der vertikalen Lautstärkenleiste**
+**CSS-Eigenschaften des Bereichs mit der vertikalen Lautstärkenleiste**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
@@ -106,14 +105,14 @@ Der Bereich für die vertikale Lautstärkenleiste wird mit der folgenden CSS-Kla
  </tbody> 
 </table>
 
-Die Gleise innerhalb der vertikalen Lautstärkeregelung wird mit den folgenden CSS-Klassenselektoren gesteuert:
+Die Steuerung des Gleises innerhalb der vertikalen Lautstärke wird mit den folgenden CSS-Klassenselektoren gesteuert:
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume .s7track 
 .s7video360viewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**CSS-Eigenschaften der Leiste innerhalb der Steuerung der vertikalen Lautstärke**
+**CSS-Eigenschaften des Gleises innerhalb der Steuerung der vertikalen Lautstärke**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -132,27 +131,27 @@ Die Gleise innerhalb der vertikalen Lautstärkeregelung wird mit den folgenden C
  </tbody> 
 </table>
 
-Der vertikale Lautstärkeregler wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Regler für das vertikale Volumen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume .s7knob
 ```
 
-**CSS-Eigenschaften des Reglers für die Steuerung der vertikalen Lautstärke**
+**CSS-Eigenschaften des Reglers für die vertikale Lautstärkeregelung**
 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Grafik mit vertikalem Lautstärkeregler. </p> </td> 
+   <td colname="col2"> <p> Vertikale Lautstärkeregler-Grafik. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Breite des Reglers für die vertikale Lautstärke. </p> </td> 
+   <td colname="col2"> <p>Breite des vertikalen Lautstärkereglers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
@@ -165,9 +164,9 @@ Der vertikale Lautstärkeregler wird mit der folgenden CSS-Klassenauswahl gesteu
  </tbody> 
 </table>
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiele** : Um eine Stummschaltfläche einzurichten, die 32 x 32 Pixel groß und 6 Pixel von oben und 38 Pixel von der rechten Kante der Steuerleiste positioniert ist. Zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände an, wenn diese ausgewählt sind oder nicht.
+**Beispiele** : Um eine Stummschaltfläche einzurichten, die 32 x 32 Pixel groß und 6 Pixel von der oberen Seite und 38 Pixel von der rechten Kante der Steuerleiste positioniert ist. Zeigen Sie für jeden der vier Schaltflächenstatus ein anderes Bild an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7video360viewer .s7mutablevolume { 
@@ -202,7 +201,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-Im Folgenden sehen Sie ein Beispiel dafür, wie Sie den Lautstärkeregler innerhalb der Steuerung für veränderliche Lautstärke gestalten können.
+Im Folgenden finden Sie ein Beispiel dafür, wie Sie den Lautstärkeregler innerhalb des veränderlichen Lautstärkereglers formatieren können.
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume { 
