@@ -1,22 +1,21 @@
 ---
-description: Ist für einen Bildkatalog eine ICC-Profil-Map erforderlich, muss der relative oder absolute Pfad der Profil-Map-Datei im Attribut IccProfileMapFile angegeben werden.
+description: Wenn für einen Bildkatalog eine ICC-Profilzuordnung erforderlich ist, muss der relative oder absolute Pfad der Profilzuordnungsdatei im Attribut IccProfileMapFile angegeben werden.
 solution: Experience Manager
-title: ICC-Profil-Map-Referenz
+title: Referenz zur ICC-Profilzuordnung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 3c90a1fa-fa38-4d20-9694-1654ac9690e2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
+# Referenz zur ICC-Profilzuordnung{#icc-profile-map-reference}
 
-# ICC-Profil-Map-Referenz{#icc-profile-map-reference}
+Wenn für einen Bildkatalog eine ICC-Profilzuordnung erforderlich ist, muss der relative oder absolute Pfad der Profilzuordnungsdatei im Attribut angegeben werden::IccProfileMapFile.
 
-Wenn für einen Bildkatalog eine ICC-Profil-Map erforderlich ist, muss der relative oder absolute Pfad der Profil-Map-Datei in attribute::IccProfileMapFile angegeben werden.
+Einträge in der ICC-Profilzuordnung eines bestimmten Materialkatalogs überschreiben Einträge in der ICC-Profilzuordnung des Standardkatalogs.
 
-Einträge in der ICC-Profil-Map eines bestimmten Materialkatalogs setzen Einträge in der ICC-Profil-Map des Standardkatalogs außer Kraft.
-
-Image Rendering unterstützt Farbdateien, die der ICC-Spezifikation entsprechen.
+Das Bild-Rendering unterstützt Farbprofildateien, die der ICC-Spezifikation entsprechen.
