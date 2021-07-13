@@ -1,27 +1,26 @@
 ---
-description: Dekormaterialien umfassen Bekleidungskonstrukte wie Bekleidungsstücke, T-Shirt-Abdrücke, bestickte oder gedruckte Logos sowie nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen verwendet werden, wie z. B. Flächentrogs, Wand-Hing-Kunst, Schilder usw.
+description: Zu den Dekollatmaterialien gehören Bekleidungskonstrukte wie Applices, T-Shirt-Abdrücke, bestickte oder gedruckte Logos sowie nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen wie Bereichsrugs, Wandmalerei, Schilder usw. verwendet werden.
 solution: Experience Manager
-title: Dezimalstellen
+title: Dezimalzahlen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
+# Dezimalzahlen{#decals}
 
-# Decals{#decals}
+Zu den Dekollatmaterialien gehören Bekleidungskonstrukte wie Applices, T-Shirt-Abdrücke, bestickte oder gedruckte Logos sowie nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen wie Bereichsrugs, Wandmalerei, Schilder usw. verwendet werden.
 
-Dekormaterialien umfassen Bekleidungskonstrukte wie Bekleidungsstücke, T-Shirt-Abdrücke, bestickte oder gedruckte Logos sowie nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen verwendet werden, wie z. B. Flächentrogs, Wand-Hing-Kunst, Schilder usw.
+Ein Material gilt als entschlüsselt, wenn es in einem dekalen MSS angegeben ist. Ein Decal ist normalerweise ein RGBA-Bild, wobei der Alphakanal die Form des Decals definiert.
 
-Ein Material gilt als dekalisch, wenn es in einem dekalen MSS angegeben ist. Ein Abruf ist normalerweise ein RGBA-Bild, wobei der Alpha-Kanal die Form des Abrufs definiert.
+Ein Decal kann auf jedes flache, fließende, skizzierte, ebene oder Wandobjekt angewendet werden (es sei denn, die Markierung &quot;Keine Textur&quot;ist gesetzt). Dezimalstellen werden auf das Objekt angewendet, indem das `anchor=` des Decals am dekalen Ausgangspunkt des Vignettenobjekts ausgerichtet wird. Die Position kann mit `pos=` weiter angepasst werden.
 
-Auf jedes Flachobjekt, jede Fließlinie, jede Skizze, jede Ebene oder jedes Wandobjekt kann ein Dekorationszeichen angewendet werden (es sei denn, das Flag &quot;Keine Textur&quot;ist gesetzt). Dezimalstellen werden auf das Objekt angewendet, indem die Dezimalstelle `anchor=` an der Dezimalstelle des Vignettenobjekts ausgerichtet wird. Die Position kann mit `pos=` weiter angepasst werden.
-
-Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Stärke definiert und das Vignettenobjekt einen Lichtvektor definiert.
+Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Dicke definiert und das Vignettenobjekt einen Lichtvektor definiert.
 
 <table id="table_3F119BC9B7654FD092826A34F5827268"> 
  <thead> 
@@ -39,7 +38,7 @@ Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Stärke definiert
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Dezimalbreite, -höhe und -dicke (für Schlagschatten). </p> </td> 
+   <td colname="col2"> <p>Decal width, height, and thickness (für drop Shadow). </p> </td> 
    <td colname="col3"> <p> <span class="varname"> imageWidth  </span> x  <span class="codeph"> res  </span>,  <span class="varname"> imageHeight  </span> x  <span class="codeph"> res, 0  </span> </p> </td> 
   </tr> 
   <tr> 
@@ -49,24 +48,23 @@ Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Stärke definiert
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Dezimalausrichtungspunkt </p> </td> 
-   <td colname="col3"> <p>Bildmitte. </p> </td> 
+   <td colname="col2"> <p>Dezimalausrichtungspunkt. </p> </td> 
+   <td colname="col3"> <p>Bildzentrum. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8" type="reference" format="dita" scope="local"> <span class="codeph"> pos=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Relative Abstandsposition. </p> </td> 
+   <td colname="col2"> <p>Relative Position des Abrufs. </p> </td> 
    <td colname="col3"> <p>0, 0 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> opac=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Decale Deckkraft. </p> </td> 
-   <td colname="col3"> <p>100% </p> </td> 
+   <td colname="col3"> <p>100 % </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </td> 
+   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf=  </span> </a> </td> 
    <td colname="col2"> <p>Scharfzeichnen. </p> </td> 
-   <td colname="col3"> <p>0 (kein Scharfzeichnen) </p> </td> 
+   <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
