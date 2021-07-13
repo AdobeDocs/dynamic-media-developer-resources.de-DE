@@ -1,25 +1,24 @@
 ---
-description: Der Video-Scrubber ist der horizontale Regler, mit dem ein Benutzer dynamisch nach einer beliebigen Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
+description: Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
 solution: Experience Manager
-title: Video-Scrubber
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Videobauber
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1025'
 ht-degree: 2%
 
 ---
 
+# Videobauber{#video-scrubber}
 
-# Video-Scrubber{#video-scrubber}
-
-Der Video-Scrubber ist der horizontale Regler, mit dem ein Benutzer dynamisch nach einer beliebigen Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
+Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Der Navigationsleisten-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber in die Haut zu stecken. ihre Höhe und ihre vertikale Position durch CSS ändern.
+Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber zu entlüften. ihre Höhe und vertikale Position durch CSS ändern.
 
 Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -29,30 +28,30 @@ Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-K
 .s7videoviewer .s7videoscrubber .s7knob
 ```
 
-**CSS-Eigenschaften des Videobildschirms**
+**CSS-Eigenschaften des Video-Scrubbers**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Videobildschirms. </p> </td> 
+   <td colname="col2"> <p>Höhe des Video-Scrubbers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Die Farbe des Videobildschirms. </p> </td> 
+   <td colname="col2"> <p>Die Farbe des Video-Scrubbers. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die folgenden CSS-Klassenselektoren verfolgen Hintergrund-, Wiedergabe- und Load-Indikatoren:
+Die folgenden CSS-Klassenselektoren verfolgen Hintergrund-, Wiedergabe- und Lastindikatoren:
 
 ```
 .s7videoviewer .s7videoscrubber .s7track 
@@ -60,17 +59,17 @@ Die folgenden CSS-Klassenselektoren verfolgen Hintergrund-, Wiedergabe- und Load
 .s7videoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**CSS-Eigenschaften der Verfolgung**
+**CSS-Eigenschaften des Tracks**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der entsprechenden Spur. </p> </td> 
+   <td colname="col2"> <p>Höhe der entsprechenden Strecke. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Die Farbe der entsprechenden Spur. </p> </td> 
+   <td colname="col2"> <p>Die Farbe der entsprechenden Strecke. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +86,7 @@ Der folgende CSS-Klassenselektor steuert den Knoten:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Vertikaler Knopfversatz. </p> </td> 
+   <td colname="col2"> <p>Vertikaler Drehversatz. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -95,7 +94,7 @@ Der folgende CSS-Klassenselektor steuert den Knoten:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Knopfes. </p> </td> 
+   <td colname="col2"> <p>Höhe des Knotens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -103,44 +102,44 @@ Der folgende CSS-Klassenselektor steuert den Knoten:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mit dem folgenden CSS-Klassenselektor wird die Wiedergabedauer gesteuert:
+Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
 
 ```
 .s7videoviewer .s7videoscrubber .s7videotime
 ```
 
-**CSS-Eigenschaften der Wiedergabepause**
+**CSS-Eigenschaften der wiedergegebenen Blase**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p> Die Schriftfamilie, die für die Zeitanzeige verwendet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col2"> <p> Die Schriftfamilie, die für die Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p> Die Schriftgröße, die für die Zeitanzeige verwendet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col2"> <p> Die Schriftgröße, die für die Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Die Schriftfarbe, die für die Zeitanzeige verwendet wird. </p> </td> 
+   <td colname="col2"> <p> Die Schriftfarbe für die Zeitanzeige. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Punktflächenbreite. </p> </td> 
+   <td colname="col2"> <p>Blasenbereichbreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Punktflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Blasenbereichshöhe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Punktflächenfüllung. </p> </td> 
+   <td colname="col2"> <p>Blasenflächen-Umrandung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -148,18 +147,18 @@ Mit dem folgenden CSS-Klassenselektor wird die Wiedergabedauer gesteuert:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
-   <td colname="col2"> <p>Ausrichtung des Textes am Blasenbereich </p> </td> 
+   <td colname="col2"> <p>Ausrichtung des Texts am Blasenbereich </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfo zum Video-Scrubber kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
+Die QuickInfo für Video-Scrubber kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
-**Beispiel** : Zum Einrichten eines Video-Viewers mit einem Video-Scrubber mit benutzerdefinierten Trackfarben, die 10 Pixel hoch und 10 Pixel und 35 Pixel von der oberen und linken Kante der Steuerungsleiste entfernt sind.
+**Beispiel** : Zum Einrichten eines Video-Viewers mit einem Video-Scrubber mit benutzerdefinierten Spurfarben mit einer Größe von 10 Pixel und einer Positionierung von 10 Pixel und 35 Pixel von der oberen und linken Kante der Steuerleiste.
 
 ```
 .s7videoviewer .s7videoscrubber  { 
@@ -182,9 +181,9 @@ background-color:#888888;
 }
 ```
 
-Wenn die Videokapplung mit dem Parameter `navigation` aktiviert ist, werden die Kapitelpositionen als Markierungen über der Videobildspur angezeigt.
+Wenn die Videokapzeichnung mit dem Parameter `navigation` aktiviert ist, werden Kapitelspeicherorte als Markierungen auf der Video-Scrubber-Spur angezeigt.
 
-Die Videokapitelmarke wird von der folgenden CSS-Klassenauswahl gesteuert:
+Die Videokapitelmarke wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
  .s7videoviewer .s7videoscrubber .s7navigation
@@ -204,20 +203,20 @@ Die Videokapitelmarke wird von der folgenden CSS-Klassenauswahl gesteuert:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Grafik zur Videokapitelmarke. </p> </td> 
+   <td colname="col2"> <p>Grafik zur Videokapitelmarkierung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf verschiedene Schaltflächenzustände anwenden können. Insbesondere entspricht `selected='default'` dem standardmäßigen Videokapitelmarkierungsstatus und `selected='over'` wird verwendet, wenn die Videokapitelmarke durch eine Maus- oder Berührungsgeste aktiviert wird.
+>Diese Schaltfläche unterstützt den Attributselektor `state`, mit dem Sie verschiedene Skins auf verschiedene Schaltflächenzustände anwenden können. Insbesondere entspricht `selected='default'` dem standardmäßigen Videokapitelmarkierungsstatus und `selected='over'` wird verwendet, wenn die Videokapitelmarke durch eine Maus- oder Berührungsgeste aktiviert wird.
 
-**Beispiel** : Um eine Kapitelmarke für Videos mit 5 x 8 Pixeln einzurichten, die für den Status &quot;Standard&quot;und &quot;Over&quot;eine andere Grafik verwendet.
+**Beispiel**  - Zum Einrichten einer Videokapitelmarke mit einer Größe von 5 x 8 Pixel und verwendet unterschiedliche Grafiken für den Status &quot;Standard&quot;und &quot;über&quot;.
 
 ```
 .s7videoviewer .s7videoscrubber .s7navigation { 
@@ -232,7 +231,7 @@ background-image: url("images/v2/VideoScrubberDiamond_over.png");
 }
 ```
 
-Die Kapitelblase für Videos wird über der Videokapitelmarke platziert und zeigt den Beginn, die Uhrzeit und die Beschreibung für ein bestimmtes Kapitel an. Es ist möglich, die maximale Blasenbreite und den vertikalen Versatz relativ zur Videobildspur zu steuern. Der Rest wird automatisch von der Komponente berechnet.
+Die Kapitelblase für Videos wird über der Videokapitelmarke positioniert und zeigt den Titel, die Startzeit und die Beschreibung für ein bestimmtes Kapitel an. Es ist möglich, die maximale Blasenbreite und den vertikalen Versatz relativ zum Video-Scrubber-Track zu steuern. Der Rest wird automatisch von der Komponente berechnet.
 
 Die Kapitelblase für Videos wird durch den folgenden CSS-Klassenselektor gesteuert:
 
@@ -246,16 +245,16 @@ Die Kapitelblase für Videos wird durch den folgenden CSS-Klassenselektor gesteu
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
-   <td colname="col2"> <p>Maximale Breite des Videokapitels. </p> </td> 
+   <td colname="col2"> <p>Maximale Breite der Videokapitelblase. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Vertikaler Versatz zur Videobildspur. </p> </td> 
+   <td colname="col2"> <p>Vertikaler Versatz der Video-Scrubber-Spur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um eine Videokapitelblase einzurichten, die 235 Pixel breit und acht Pixel hoch vom unteren Rand der Videokassettenspur entfernt ist.
+**Beispiel** : Zum Einrichten einer Videokapitelblase, die 235 Pixel breit und 8 Pixel nach oben vom unteren Rand der Videokassettenspur entfernt ist.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter { 
@@ -264,15 +263,15 @@ bottom:8px;
 }
 ```
 
-Die Kapitelblase für Videos besteht aus einer optionalen Kopfzeile und einem optionalen Inhalt. Die Kopfzeile verfügt über die optionale Kapitelzeit und den Beginn des Kapitels.
+Die Kapitelblase für Videos besteht aus einer optionalen Kopfzeile und einem optionalen Inhalt. Die Kopfzeile verfügt über die optionale Kapitelstartzeit und den Kapiteltitel.
 
-Die Kopfzeile wird von der folgenden CSS-Klassenauswahl gesteuert:
+Die Kopfzeile wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header
 ```
 
-**CSS-Eigenschaften der Kopfzeile des Videokapitels**
+**CSS-Eigenschaften des Kapitelblasen-Headers des Videos**
 
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
@@ -282,20 +281,20 @@ Die Kopfzeile wird von der folgenden CSS-Klassenauswahl gesteuert:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand für Videokapitelblasen-Kopfzeilentext. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand für Kopfzeilentext von Videokapiteln. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe für Videokapitelblase-Kopfzeile. </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe der Videokapitelblase mit Kopfzeile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Kopfzeile des Videokapitels </p> </td> 
+   <td colname="col2"> <p>Höhe der Textlinie der Videokapitelblase in der Kopfzeile. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten eines Videokapitelblasen-Headers mit einer Höhe von 22 Pixel, einer Zeilenhöhe von 22 Pixel, einem horizontalen Rand von 12 Pixel und einem grauen Hintergrund.
+**Beispiel** : Zum Einrichten eines Kapitelblasen-Headers für Videos, der 22 Pixel hoch ist, einer 22 Pixel langen Zeilenhöhe, einem horizontalen Rand von 12 Pixel und einem grauen Hintergrund.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header { 
@@ -306,13 +305,13 @@ background-color: rgba(51, 51, 51, 0.8);
 }
 ```
 
-Die Beginn-Zeit des Videokapitels wird durch die folgende CSS-Klassenauswahl gesteuert:
+Die Startzeit des Videokapitels wird durch die folgende CSS-Klassenauswahl gesteuert:
 
 ```
  .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7starttime
 ```
 
-**CSS-Eigenschaften der Videokapitel-Beginn-Zeit**
+**CSS-Eigenschaften der Videokapitelstartzeit**
 
 <table id="table_D58D6B22BAEE4E26BAAB34783AE5A044"> 
  <tbody> 
@@ -321,25 +320,25 @@ Die Beginn-Zeit des Videokapitels wird durch die folgende CSS-Klassenauswahl ges
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung  </span> </p> </td> 
-   <td colname="col2"> <p>Schriftart-Gewichtung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-right  </span> </p> </td> 
-   <td colname="col2"> <p> Auffüllung zwischen der Beginn- und Kapitelzeit. </p> </td> 
+   <td colname="col2"> <p> Abstand zwischen der Startzeit und dem Kapiteltitel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten der Kapitelzeit mit einer grauen 10 Pixel hohen Verdana-Schrift und einer 10 Pixel langen Auffüllung rechts.
+**Beispiel**  - Zum Einrichten der Kapitelstartzeit mit der grauen 10 Pixel Verdana-Schriftart und dem Abstand von 10 Pixel auf der rechten Seite.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7starttime { 
@@ -350,7 +349,7 @@ padding-right: 10px;
 }
 ```
 
-Der Titel des Videokapitels wird von der folgenden CSS-Klassenauswahl gesteuert:
+Der Videokapiteltitel wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7title
@@ -362,24 +361,24 @@ Der Titel des Videokapitels wird von der folgenden CSS-Klassenauswahl gesteuert:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p>Textfarbe des Videokapitels </p> </td> 
+   <td colname="col2"> <p>Textfarbe für Videokapiteltitel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung  </span> </p> </td> 
-   <td colname="col2"> <p>Gewichtung der Videokapitelschrift </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col2"> <p>Schriftgröße für Videokapiteltitel </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße des Videokapitels </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col2"> <p>Schriftgröße für Videokapiteltitel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie des Videokapitels </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col2"> <p>Schriftfamilie der Videokapiteltitel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten eines Videokapiteltitels mit einer weißen, fett gedruckten Verdana-Schrift mit zehn Pixeln.
+**Beispiel**  - Zum Einrichten eines Videokapiteltitels mit einer weißen, fett gedruckten Verdana-Schriftart mit zehn Pixel.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7title { 
@@ -390,7 +389,7 @@ font-weight: bold;
 }
 ```
 
-Die Beschreibung des Videokapitels wird von der folgenden CSS-Klassenauswahl gesteuert:
+Die Beschreibung des Videokapitels wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
  .s7videoviewer .s7videoscrubber .s7chapter .s7description
@@ -409,29 +408,29 @@ Die Beschreibung des Videokapitels wird von der folgenden CSS-Klassenauswahl ges
    <td colname="col2"> <p>Hintergrundfarbe der Videokapitelbeschreibung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung  </span> </p> </td> 
-   <td colname="col2"> <p>Gewichtung der Videokapitelbeschreibung </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col2"> <p>Schriftstärke der Videokapitelbeschreibung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Videokapitelbeschreibung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie der Videokapitelbeschreibung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
-   <td colname="col2"> <p>Zeilenhöhe der Videokapitelbeschreibung. </p> </td> 
+   <td colname="col2"> <p>Zeilenhöhe der Videokapitelbeschreibung </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Beschreibung des Videokapitels nach innen. </p> </td> 
+   <td colname="col2"> <p>Beschreibung des Videokapitels - innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um eine Videokapitelbeschreibung mit einer dunkelgrauen, 11 Pixel großen Verdana-Schrift und einem hellgrauen Hintergrund einzurichten, 5 Pixel Zeilenhöhe, 12 Pixel horizontale Auffüllung, 12 Pixel obere Auffüllung und 9 Pixel untere Auffüllung.
+**Beispiel** : Um eine Videokapitelbeschreibung mit einer dunkelgrauen, 11 Pixel großen Verdana-Schriftart mit hellgrauem Hintergrund einzurichten; 5 Pixelzeilenhöhe, 12 Pixel horizontaler Abstand, 12 Pixel oberer Abstand und 9 Pixel untere Abstände.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -444,7 +443,7 @@ padding: 12px 12px 9px;
 }
 ```
 
-Der Keil-Anschluss am unteren Rand der Kapitelblase wird durch den folgenden CSS-Klassenselektor gesteuert:
+Der Keil-Connector am unteren Rand der Kapitelblase wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
  .s7videoviewer .s7videoscrubber .s7chapter .s7tail
@@ -456,20 +455,20 @@ Der Keil-Anschluss am unteren Rand der Kapitelblase wird durch den folgenden CSS
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p>Farbe des Wedge-Connectors. </p> <p>Definiert als <span class="codeph"> &lt;color&gt; transparent </span>, sodass nur die Farbe des oberen Randes definiert und die verbleibenden Ränder transparent bleiben. </p> </td> 
+   <td colname="col2"> <p>Farbe des Wedge-Connectors. </p> <p>Definiert als <span class="codeph"> &lt;color&gt; transparent </span> , sodass nur die Farbe des oberen Rands definiert und die verbleibenden Ränder transparent bleiben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-width  </span> </p> </td> 
-   <td colname="col2"> <p> Breite des Wedge-Anschlusses. </p> <p>Definiert als <span class="codeph"> &lt;width&gt; </span> , sodass dieselbe Breite nur für die oberen und horizontalen Ränder definiert wird und die untere Rahmenbreite <span class="codeph"> 0 </span> ist. </p> </td> 
+   <td colname="col2"> <p> Breite des Wedge-Connectors. </p> <p>Definiert als <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> , sodass dieselbe Breite nur für die oberen und horizontalen Ränder und die untere Rahmenbreite <span class="codeph"> 0 </span> definiert ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Definiert nur einen negativen unteren Rand. Es sollte denselben Wert haben wie der von <span class="codeph"> border-width </span>. </p> </td> 
+   <td colname="col2"> <p> Definiert nur eine negative untere Marge. Sie sollte denselben Wert wie <span class="codeph"> border-width </span> haben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : So richten Sie einen grauen, sechs Pixel langen Keil-Anschluss ein:
+**Beispiel** : So richten Sie einen grauen, sechs Pixel großen Keil-Connector ein:
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7tail { 
@@ -478,4 +477,3 @@ border-width: 6px 6px 0;
 margin: 0 0 0 -6px; 
 }
 ```
-
