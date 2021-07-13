@@ -1,27 +1,26 @@
 ---
-description: Pfade für Bilddatendateien. Gibt die Dateien an, die die Bilddaten für diesen Katalog enthalten.
+description: Bilddatendateipfade. Gibt die Dateien an, die die Bilddaten für diesen Katalog enthalten.
 solution: Experience Manager
 title: CatalogFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 4%
 
 ---
 
-
 # CatalogFile{#catalogfile}
 
-Pfade für Bilddatendateien. Gibt die Dateien an, die die Bilddaten für diesen Katalog enthalten.
+Bilddatendateipfade. Gibt die Dateien an, die die Bilddaten für diesen Katalog enthalten.
 
-Bilddatendateien werden in der angegebenen Reihenfolge geladen. Wenn derselbe `catalog::Id`-Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in unterschiedlichen Katalogdateien), hat die letzte Instanz Vorrang.
+Bilddatendateien werden in der angegebenen Reihenfolge geladen. Wenn derselbe `catalog::Id` -Wert in mehr als einem Datensatz auftritt (entweder in derselben oder in unterschiedlichen Katalogdateien), hat die letzte Instanz Vorrang.
 
 ## Eigenschaften {#section-6da55f145ecd4e31a5de52637a436983}
 
-Ein oder mehrere durch Kommas getrennte Textzeichenfolgenwerte. Optional. Jeder Wert muss ein absoluter Dateipfad oder Pfad relativ zum Katalogordner sein.
+Ein oder mehrere Textzeichenwerte, durch Kommas getrennt. Optional. Jeder Wert muss ein absoluter Dateipfad oder Pfad relativ zum Katalogordner sein.
 
 ## Standard {#section-80f91cd7a6b2479ebb310319e9c74da7}
 
