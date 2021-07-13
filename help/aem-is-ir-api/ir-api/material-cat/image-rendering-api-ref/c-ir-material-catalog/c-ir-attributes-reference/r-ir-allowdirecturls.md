@@ -1,23 +1,22 @@
 ---
-description: Absolute Quell-URLs zulassen.
+description: Zulassen absoluter Quell-URLs.
 solution: Experience Manager
 title: AllowDirectURLs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: f9ab0c0e-989c-42ce-b9dd-4ca2f6b382d2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
-
 # AllowDirectURLs{#allowdirecturls}
 
-Absolute Quell-URLs zulassen.
+Zulassen absoluter Quell-URLs.
 
-Auf 1 setzen, um absolute HTTP-URLs (beginnend mit &quot; `http://`&quot;) in `src=`-Befehlen zuzulassen. Auf 0 setzen, um absolute URLs nicht zuzulassen.
+Setzen Sie dies auf 1, um absolute HTTP-URLs (beginnend mit &quot; `http://`&quot;) in `src=`-Befehlen zuzulassen. Auf 0 setzen, um absolute URLs zu deaktivieren.
 
 ## Eigenschaften {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
@@ -25,7 +24,7 @@ Flag.
 
 ## Standard {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-Vererbt von `default::AllowDirectUrls`, wenn nicht definiert oder leer.
+Wird von `default::AllowDirectUrls` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-66e0c597a8b04155b40538385312b389}
 
