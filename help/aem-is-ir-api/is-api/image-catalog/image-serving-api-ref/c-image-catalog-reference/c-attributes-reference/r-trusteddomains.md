@@ -1,31 +1,30 @@
 ---
-description: Webdomänen für Flash-Anwendungen. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die mit "fmt=swf"oder "fmt=swf3"bereitgestellt werden.
+description: Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die mit fmt=swf oder fmt=swf3 bereitgestellt werden.
 solution: Experience Manager
 title: TrustedDomains
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 925ac9d1-203c-4814-a701-71060bf47c20
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
 
-
 # TrustedDomains{#trusteddomains}
 
-Webdomänen für Flash-Anwendungen. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die mit &quot;fmt=swf&quot;oder &quot;fmt=swf3&quot;bereitgestellt werden.
+Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die mit fmt=swf oder fmt=swf3 bereitgestellt werden.
 
-Die SWF muss den Zugriff explizit gewähren, indem sie den Namen der Anwendungsdomänen registriert, denen sie vertrauen.
+Der swf muss den Zugriff explizit gewähren, indem er den Namen der Anwendungsdomänen registriert, denen er vertraut.
 
 ## Eigenschaften {#section-e7f95bbb749f441e83e90c2bc3d5a6e0}
 
-Zeichenfolge, die eine kommagetrennte Liste von Webdomänennamen enthält. Wenn diese Variable leer ist, müssen Anwendungen von derselben Domäne wie das Image Rendering bereitgestellt werden, damit sie auf die Eigenschaften von Bildern in SWF-formatierten Antworten zugreifen können.
+Zeichenfolge, die eine kommagetrennte Liste mit Webdomänennamen enthält. Wenn dieses Feld leer ist, müssen Anwendungen von derselben Domäne wie das Bild-Rendering bereitgestellt werden, damit sie auf die Eigenschaften von Bildern in swf-formatierten Antworten zugreifen können.
 
 ## Standard {#section-5c52ed3c7310488380f5a6f9540bf981}
 
-Vererbt von `default::TrustedDomains`, wenn nicht vorhanden.
+Vererbt von `default::TrustedDomains` , falls nicht vorhanden.
 
 ## Verwandte Themen {#section-65d0846e41674882a4d0d56a8f6d524b}
 
