@@ -1,21 +1,20 @@
 ---
-description: Bit-Rate für Videos. Ermöglicht die Angabe einer mit jedem Videodatensatz verknüpften Bitrate.
+description: Bit-Rate für Videos. Ermöglicht die Angabe einer Bitrate, die mit jedem Videodatensatz verknüpft ist.
 solution: Experience Manager
 title: VideoBitRate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e94d7338-5831-476b-b905-5c9419849c3f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '59'
+ht-degree: 18%
 
 ---
 
-
 # VideoBitRate{#videobitrate}
 
-Bit-Rate für Videos. Ermöglicht die Angabe einer mit jedem Videodatensatz verknüpften Bitrate.
+Bit-Rate für Videos. Ermöglicht die Angabe einer Bitrate, die mit jedem Videodatensatz verknüpft ist.
 
 Wird von `req=set`- und `req=mbrSet`Anforderungen zum Exportieren von Bitratendaten verwendet.
 
