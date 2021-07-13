@@ -3,15 +3,14 @@ description: Legen Sie den Medienrand fest. Legt den in der PDF-Datei festgelegt
 solution: Experience Manager
 title: mediaMargin
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 5bba0dc2-a496-4380-9def-12f9e683eafb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # mediaMargin{#mediamargin}
 
@@ -19,4 +18,4 @@ Legen Sie den Medienrand fest. Legt den in der PDF-Datei festgelegten Medienrand
 
 ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` in
 
-Standardmäßig ist `mediaMargin` auf die volle Größe des Dokuments eingestellt, das durch `viewWidth` und `viewHeight` definiert wird. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den Wert *[!DNL top]* gesetzt, wenn nicht angegeben.
+Standardmäßig ist `mediaMargin` auf die vollständige Größe des Dokuments eingestellt, das durch `viewWidth` und `viewHeight` definiert wird. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den Wert *[!DNL top]* gesetzt, falls nicht anders angegeben.
