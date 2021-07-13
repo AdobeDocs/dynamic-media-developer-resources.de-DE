@@ -1,23 +1,22 @@
 ---
-description: Alle Katalogattribute sind optional, mit Ausnahme von Katalog-RootId.
+description: Alle Katalogattribute sind optional, mit Ausnahme der Katalog-RootId.
 solution: Experience Manager
-title: Attributverweis
+title: Attributreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
 
-
-# Attributverweis{#attributes-reference}
+# Attributreferenz{#attributes-reference}
 
 Alle Katalogattribute sind optional, mit Ausnahme von catalog::RootId.
 
-Alle Attribute sind in der Standardkatalogattributdatei ( [!DNL default.ini]) erforderlich.
+Alle Attribute sind in der standardmäßigen Katalogattributdatei ( [!DNL default.ini]) erforderlich.
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
