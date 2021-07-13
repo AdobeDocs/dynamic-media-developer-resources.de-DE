@@ -1,24 +1,23 @@
 ---
-description: Laden Sie den Server-Cache vorab. Führt die Anforderung genau wie req=img aus, aber statt das Bild zurückzugeben, gibt der Server die Länge des Antwortbilds (image.length) zurück, formatiert als Textdaten mit MIME-Typ text/plain.
+description: Vorausfüllen des Server-Cache Führt die Anfrage wie req=img aus, aber anstatt das Bild zurückzugeben, gibt der Server die Länge des Antwortbilds (image.length) zurück, formatiert als Textdaten mit dem MIME-Typ text/plain.
 solution: Experience Manager
 title: loadcache
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+role: Developer,User
+exl-id: 653842e9-bed1-462a-bb1f-39ac1ac9512c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-
 # loadcache{#loadcache}
 
-Laden Sie den Server-Cache vorab. Führt die Anforderung genau wie req=img aus, aber statt das Bild zurückzugeben, gibt der Server die Länge des Antwortbilds (image.length) zurück, formatiert als Textdaten mit MIME-Typ text/plain.
+Vorausfüllen des Server-Cache Führt die Anfrage wie req=img aus, aber anstatt das Bild zurückzugeben, gibt der Server die Länge des Antwortbilds (image.length) zurück, formatiert als Textdaten mit dem MIME-Typ text/plain.
 
 `req=loadcache`
 
 Die HTTP-Antwort kann nicht zwischengespeichert werden.
 
-Andere Befehle in der Anforderung gelten wie dokumentiert.
+Andere Befehle in der Anfrage gelten wie dokumentiert.
