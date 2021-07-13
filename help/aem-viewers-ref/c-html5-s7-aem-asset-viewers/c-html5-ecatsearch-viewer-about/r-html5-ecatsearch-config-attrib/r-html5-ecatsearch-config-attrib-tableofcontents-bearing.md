@@ -3,15 +3,14 @@ description: TableOfContents.bearing
 solution: Experience Manager
 title: TableOfContents.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d8b88ea2-38fe-41b8-89cb-c3603c513142
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
-
 
 # TableOfContents.bearing{#tableofcontents-bearing}
 
@@ -21,11 +20,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Steuert die Richtung der Darstellung des Dropdown-Bedienfelds. </p> <p>Bei Festlegung auf <span class="codeph"> fit-vertical</span> verschiebt die Komponente zunächst die Position des Basispanels an den unteren Rand der Schaltfläche und versucht, das Bedienfeld von der Basisposition nach rechts oder links zu verschieben. Bei jedem Versuch prüft die Komponente, ob der Bereich von einem externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche nach rechts und links zu wiederholen. </p> <p>Bei Festlegung auf <span class="codeph"> fit-lateral</span> verwendet die Komponente eine ähnliche Logik, verschiebt die Basis jedoch zunächst nach rechts und versucht dabei, die Richtung nach unten und nach oben auszurollen. Dann verschiebt es die Basis nach links, versucht die Richtung nach unten und nach oben auszurollen. </p> </td> 
+   <td> <p> Steuert die Richtung des Dropdown-Bedienfeldaussehens. </p> <p>Wenn der Wert auf <span class="codeph"> fit-vertical</span> festgelegt ist, verschiebt die Komponente zunächst die Position des Bedienfelds am unteren Rand der Schaltfläche und versucht, das Bedienfeld von der Basisposition entweder nach rechts oder nach links zu verschieben. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld durch einen externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche in die rechte und linke Richtung zu wiederholen. </p> <p>Wenn der Wert auf <span class="codeph"> fit-lateral</span> festgelegt ist, verwendet die Komponente eine ähnliche Logik, verschiebt jedoch zuerst die Basis nach rechts, versucht nach unten und nach oben Rollout-Anweisungen. Dann wechselt er die Basis nach links, versucht nach unten und nach oben, die Richtung einzuführen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Legt die Verzögerung in Sekunden für den Dropdown-Zeitgeber für das automatische Ausblenden fest, mit dem der Bereich ausgeblendet wird, wenn sich ein Benutzer im Leerlauf befindet. </p> </td> 
+   <td> <p> Legt die Verzögerung in Sekunden für den Zeitgeber für das automatische Ausblenden fest, der das Bedienfeld ausblendet, wenn ein Benutzer inaktiv ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
