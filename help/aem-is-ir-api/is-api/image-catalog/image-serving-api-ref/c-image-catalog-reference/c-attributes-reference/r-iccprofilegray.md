@@ -1,29 +1,28 @@
 ---
-description: Graustufen-Standard-Ausgabefarbe-Profil. Gibt den Namen des ICC-Profils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde, und für bestimmte Graustufen-Farbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+description: Graustufen-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist, und für bestimmte Graustufenfarbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben werden.
 solution: Experience Manager
 title: IccProfileGray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4964c3b3-799d-40cb-bc5f-d08acfd41ed9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 2%
 
 ---
 
-
 # IccProfileGray{#iccprofilegray}
 
-Graustufen-Standard-Ausgabefarbe-Profil. Gibt den Namen des ICC-Profils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben wurde, und für bestimmte Graustufen-Farbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+Graustufen-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist, und für bestimmte Graustufenfarbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben werden.
 
 ## Eigenschaften {#section-03f090ee2acf4537b83f78840d23ecab}
 
-Textzeichenfolge. Ist dies der Fall, muss es sich um einen gültigen `icc::Name`-Wert aus der ICC-Profil-Map entweder dieses Bildkatalogs oder des Standardkatalogs oder um einen Dateipfad relativ zu `attribute::RootPath` handeln. Das referenzierte ICC-Profil muss ein Graustufen-Profil sein.
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
 
 ## Standard {#section-95ba3ab15edc4259b657c6ebf8783d61}
 
-Vererbt von `default::IccProfileGray`, wenn nicht definiert oder leer.
+Wird von `default::IccProfileGray` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-b737b9a6a8bd4997b660292301ba967b}
 
