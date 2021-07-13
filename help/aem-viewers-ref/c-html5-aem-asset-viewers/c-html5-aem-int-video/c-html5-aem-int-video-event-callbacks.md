@@ -1,36 +1,35 @@
 ---
-description: Ereignis-Rückrufe
+description: Ereignisrückrufe
 solution: Experience Manager
-title: Ereignis-Rückrufe
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+title: Ereignisrückrufe
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: af051437-28e5-416f-a61a-0abafb1814b2
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# Ereignis-Rückrufe{#event-callbacks}
+# Ereignisrückrufe{#event-callbacks}
 
-Der Viewer unterstützt JavaScript-Ereignis-Rückrufe, die die Webseite zur Verfolgung des Viewer-Initialisierungsprozesses oder -Laufzeitverhaltens verwendet.
+Der Viewer unterstützt JavaScript-Ereignis-Rückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
 
-Callback-Handler werden zugewiesen, indem Ereignis und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
+Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
 
-Folgende Viewer-Ereignis werden unterstützt:
+Zu den unterstützten Viewer-Ereignissen zählen:
 
-* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
-* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
+* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
+* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, der von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 
-   * `objID {String}` nicht verwendet.
-   * `compClass {String}` nicht verwendet.
-   * `instName {String}` einem Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
-   * `timeStamp {Number}` Zeitstempel des Ereignisses.
-   * `eventInfo {String}` Ereignis-Nutzlast.
+   * `objID {String}` wird derzeit nicht verwendet.
+   * `compClass {String}` wird derzeit nicht verwendet.
+   * `instName {String}` einen Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
+   * `timeStamp {Number}` Ereigniszeitstempel.
+   * `eventInfo {String}` Ereignis-Payload.
 
-* `quickViewActivate` - Trigger, wenn ein Benutzer auf ein interaktives Farbfeld innerhalb der Komponente für interaktive Farbfelder oder im Bildschirm &quot;Aktionsaufruf&quot;klickt oder tippt, der am Ende der Videowiedergabe angezeigt wird. Der Callback-Handler akzeptiert das einzige Argument, bei dem es sich um ein JSON-Objekt mit den folgenden Feldern handelt:
+* `quickViewActivate` - Trigger, wenn ein Benutzer innerhalb der interaktiven Farbfeldkomponente oder im am Ende der Videowiedergabe angezeigten Bildschirm &quot;Aktionsaufruf&quot;auf ein interaktives Muster klickt oder tippt. Der Callback-Handler akzeptiert das einzige Argument, bei dem es sich um ein JSON-Objekt mit den folgenden Feldern handelt:
 
    * `sku` {  `String`} SKU-Wert, der mit dem interaktiven Muster verknüpft ist.
    * `<additionalVariable>` {  `String`} Null oder mehr zusätzliche Variablen, die mit dem interaktiven Muster verknüpft sind.
