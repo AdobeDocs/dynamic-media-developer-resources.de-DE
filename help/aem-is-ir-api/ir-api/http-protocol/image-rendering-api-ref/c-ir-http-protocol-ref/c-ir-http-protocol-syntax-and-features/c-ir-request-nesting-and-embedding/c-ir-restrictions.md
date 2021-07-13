@@ -3,20 +3,19 @@ description: Für das Verschachteln und Einbetten gelten einige Einschränkungen
 solution: Experience Manager
 title: Einschränkungen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: ac2fd40b-a2f6-4f6f-9d10-3da3d701042b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
-
-# Beschränkungen{#restrictions}
+# Einschränkungen{#restrictions}
 
 Für das Verschachteln und Einbetten gelten einige Einschränkungen.
 
-Für eine gute Serverleistung sollte die Auflösung der von verschachtelten Anforderungen zurückgegebenen Bilder der Texturauflösung des Objekts/der Objekte, auf das/die das Material angewendet wird, angemessen entsprechen.
+Für eine gute Server-Leistung sollte die Auflösung der von verschachtelten Anforderungen zurückgegebenen Bilder in angemessener Weise mit der Texturauflösung der Objekte übereinstimmen, auf die das Material angewendet wird.
 
-Ausländische Bilder werden lokal zwischengespeichert. Änderungen an solchen Bildern werden erst erkannt, nachdem der lokale Cache-Eintrag statisch ist (basierend auf dem HTTP-Header expires).
+Ausländische Bilder werden lokal zwischengespeichert. Änderungen an solchen Bildern werden erst erkannt, nachdem der lokale Cache-Eintrag veraltet ist (basierend auf dem ablaufenden HTTP-Header).
