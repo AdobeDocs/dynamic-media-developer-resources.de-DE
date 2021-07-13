@@ -1,28 +1,27 @@
 ---
-description: Scharfzeichnen des Antwortbilds. Optionales Scharfzeichnen kann angewendet werden, nachdem das gerenderte Bild basierend auf wid= oder hei= skaliert wurde.
+description: Antwortbild scharfzeichnen. Die optionale Scharfzeichnung kann angewendet werden, nachdem das gerenderte Bild basierend auf wid= oder hei= skaliert wurde.
 solution: Experience Manager
-title: scharfzeichnen
+title: Scharfzeichnen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 10%
 
 ---
 
+# Scharfzeichnen{#sharpen}
 
-# sharpen{#sharpen}
-
-Scharfzeichnen des Antwortbilds. Optionales Scharfzeichnen kann angewendet werden, nachdem das gerenderte Bild basierend auf wid= oder hei= skaliert wurde.
+Antwortbild scharfzeichnen. Die optionale Scharfzeichnung kann angewendet werden, nachdem das gerenderte Bild basierend auf wid= oder hei= skaliert wurde.
 
 `sharpen=0|1`
 
 <table id="simpletable_E14B914834A241BA8B5FC42F07D34EEB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>Kein Scharfzeichnen. </p></td> 
+  <td class="stentry"> <p>Keine Scharfzeichnung. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -36,4 +35,4 @@ Scharfzeichnen des Antwortbilds. Optionales Scharfzeichnen kann angewendet werde
 
 ## Verwandte Themen {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[Attribut::Scharfzeichnen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) ,  [scharf=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
