@@ -1,21 +1,20 @@
 ---
-description: Ersetzungszeichenfolgen-Element. Optional in <rule>-Elementen.
+description: Ersatzzeichenfolgen-Element. Optional in <Regel> -Elementen.
 solution: Experience Manager
-title: Ersatz
+title: Substitution
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 3%
 
 ---
 
+# Substitution{#substitution}
 
-# Ersatz{#substitution}
-
-Ersetzungszeichenfolgen-Element. Optional in `<rule>`-Elementen.
+Ersatzzeichenfolgen-Element. Optional in `<rule>` -Elementen.
 
 ## Attribute {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -29,14 +28,14 @@ Ersatzzeichenfolge.
 
 Definiert eine Ersatzzeichenfolge für die übereinstimmende Zeichenfolge oder Unterzeichenfolge im Pfad oder in der Abfrage.
 
-Wenn der Ausdruck &quot;pattern&quot;Unterabschnitte (mit Klammern getrennt) enthält, wird die erste übereinstimmende Unterzeichenfolge durch die Ersatzzeichenfolge ersetzt. Wenn der Ausdruck &quot;pattern&quot;keine Unter-Ausdruck enthält, wird die gesamte übereinstimmende Zeichenfolge ersetzt.
+Wenn der Musterausdruck Unterausdrücke enthält (durch Klammern getrennt), wird die erste übereinstimmende Unterzeichenfolge durch die Ersatzzeichenfolge ersetzt. Wenn der Musterausdruck keine Unterausdrücke enthält, wird die gesamte übereinstimmende Zeichenfolge ersetzt.
 
-Ist `<expression>` leer oder fehlt, wird die Ersatzzeichenfolge an den Pfad oder die Abfrage angehängt.
+Wenn `<expression>` leer oder fehlt, wird die Ersatzzeichenfolge an den Pfad oder die Abfrage angehängt.
 
-Ist `<substitution>` leer, wird die übereinstimmende Zeichenfolge oder Unterzeichenfolge entfernt. Wenn `<substitution>` nicht angegeben ist, wird der Pfad oder die Abfrage-Zeichenfolge nicht geändert.
+Wenn `<substitution>` leer ist, wird die übereinstimmende Zeichenfolge oder Unterzeichenfolge entfernt. Wenn `<substitution>` nicht angegeben ist, wird der Pfad oder die Abfragezeichenfolge nicht geändert.
 
-## Hinweis {#section-90fe89bb17a04804b7ff3c93df082892}
+## Notiz {#section-90fe89bb17a04804b7ff3c93df082892}
 
-Die Ersatzzeichenfolge darf keine wörtlichen &lt;- und &amp;-Zeichen enthalten. Diese reservierten Zeichen können mit `&` bzw. `<` kodiert werden, oder die gesamte Zeichenfolge kann in einen XML `CDATA`-Abschnitt eingeschlossen werden:
+Die Ersatzzeichenfolge darf keine &lt;- und &amp;-Zeichen in Textform enthalten. Diese reservierten Zeichen können mit `&` und `<` kodiert werden oder die gesamte Zeichenfolge kann in einen XML `CDATA`-Abschnitt eingeschlossen werden:
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`
