@@ -1,21 +1,20 @@
 ---
-description: Verarbeitung von Objektauswahlfehlern Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad nicht mit der Vignettenobjekthierarchie übereinstimmen kann.
+description: Umgang mit Fehlern bei der Objektauswahl. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad in der Vignettenobjekthierarchie nicht übereinstimmt.
 solution: Experience Manager
 title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 13%
 
 ---
 
-
 # OnFailObj{#onfailobj}
 
-Verarbeitung von Objektauswahlfehlern Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad nicht mit der Vignettenobjekthierarchie übereinstimmen kann.
+Umgang mit Fehlern bei der Objektauswahl. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad in der Vignettenobjekthierarchie nicht übereinstimmt.
 
 ## Eigenschaften {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
@@ -24,7 +23,7 @@ Enum.
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Übernehmen Sie <span class="codeph"> default::OnFailObj </span>. </p> </td> 
+  <td class="stentry"> <p>Vererben Sie von <span class="codeph"> default::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -32,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>die Auswahl aufheben; Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
+  <td class="stentry"> <p>Auswahl aufheben; Alle Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -46,7 +45,7 @@ Enum.
 
 ## Standard {#section-a5a95a2b4a204a4eae350e5b544d1513}
 
-Vererbt von `default::OnFailObj`, wenn nicht definiert.
+Vererbt von `default::OnFailObj` , falls nicht definiert.
 
 ## Verwandte Themen {#section-806dc2c5973c41f683af085b3315043c}
 
