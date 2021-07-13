@@ -1,31 +1,30 @@
 ---
 description: In dieser Dokumentation wird beschrieben, wie Sie den Dynamic Media Image Rendering-Server verwalten.
 solution: Experience Manager
-title: Übersicht zur Serververwaltung
+title: Übersicht über die Serververwaltung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 294cd068-8676-4932-a3ad-1a3c5bfa691e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-
-# Überblick über die Serververwaltung{#server-administration-overview}
+# Übersicht über die Serververwaltung{#server-administration-overview}
 
 In dieser Dokumentation wird beschrieben, wie Sie den Dynamic Media Image Rendering-Server verwalten.
 
-Das Image Rendering besteht aus zwei Hauptkomponenten:
+Das Bild-Rendering besteht aus zwei Hauptkomponenten:
 
-* Ein Java-Paket wird mit dem Image Serving Platform Server bereitgestellt und verwaltet Client-Verbindungen, Zwischenspeicherung und Materialkataloge.
-* Ein natives Codemodul wird als Erweiterungsbibliothek für den Image-Server bereitgestellt und implementiert die wichtigsten Bildwiedergabefunktionen.
+* Ein Java-Paket wird mit dem Image Serving Platform Server bereitgestellt und verwaltet die Client-Verbindung, Zwischenspeicherung und Materialkataloge.
+* Ein natives Codemodul wird als Erweiterungsbibliothek für den Image-Server bereitgestellt und implementiert die Kernfunktionen zum Rendern von Bildern.
 
-Beide Komponenten werden kollektiv als *Render-Server* bezeichnet.
+Beide Komponenten werden zusammen als *Render Server* bezeichnet.
 
-Beim Image Rendering werden viele Server-Funktionen mit Image Serving gemeinsam verwendet. Alle Optionen werden durch Bearbeiten einer Konfigurationsdatei konfiguriert. Weitere Konfigurationsattribute werden vom Standardkatalog ( [!DNL default.ini]) oder bestimmten Materialkatalogen bereitgestellt. Weitere Informationen finden Sie unter Materialkataloge.
+Das Bild-Rendering nutzt viele Server-Einrichtungen für das Image-Serving. Alle Optionen werden durch Bearbeiten einer Konfigurationsdatei konfiguriert. Zusätzliche Konfigurationsattribute werden vom Standardkatalog ( [!DNL default.ini]) oder spezifischen Materialkatalogen bereitgestellt. Weitere Informationen finden Sie unter Materialkataloge .
 
-Der Installationsordner für das Image Rendering ( *[!DNL install_folder]*) ist [!DNL *[!DNL install_root]*/ImageRendering]. Unter Windows ist der Standardwert *[!DNL install_root]* `C:\Program Files\Scene7`. Während der Installation kann ein anderer Ordner angegeben werden. Unter Linux muss *[!DNL install_root]* immer [!DNL /usr/local/scene7] sein. Symbolische Links können verwendet werden.
+Der Ordner &quot;Image Rendering install&quot;( *[!DNL install_folder]*) ist [!DNL *[!DNL install_root]*/ImageRendering]. Unter Windows ist der Standardwert *[!DNL install_root]* `C:\Program Files\Scene7`. Ein anderer Ordner kann während der Installation angegeben werden. Unter Linux muss *[!DNL install_root]* immer [!DNL /usr/local/scene7] sein. Symbolische Links können verwendet werden.
 
-Bei allen Dateipfaden wird unter UNIX die Groß-/Kleinschreibung beachtet und unter Windows wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+Bei allen Dateipfaden wird unter UNIX zwischen Groß- und Kleinschreibung unterschieden und unter Windows wird zwischen Groß- und Kleinschreibung unterschieden.
