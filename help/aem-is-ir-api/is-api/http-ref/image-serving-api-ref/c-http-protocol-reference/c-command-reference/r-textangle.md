@@ -1,21 +1,20 @@
 ---
-description: Textwiedergaberichtung. Gibt den Winkel an, in dem der mit textPs= angegebene Text angeordnet und in das Textfeld gerendert wird (definiert mit size= oder textFlowPath=).
+description: Text-Rendering-Richtung. Gibt den Winkel an, bei dem mit textPs= angegebener Text im Textfeld angeordnet und gerendert wird (definiert mit size= oder textFlowPath=).
 solution: Experience Manager
 title: textAngle
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 102dbdc0-77b8-4c60-b456-6cf693e0b38b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 5%
 
 ---
 
-
 # textAngle{#textangle}
 
-Textwiedergaberichtung. Gibt den Winkel an, in dem der mit textPs= angegebene Text angeordnet und in das Textfeld gerendert wird (definiert mit size= oder textFlowPath=).
+Text-Rendering-Richtung. Gibt den Winkel an, bei dem mit textPs= angegebener Text im Textfeld angeordnet und gerendert wird (definiert mit size= oder textFlowPath=).
 
 ` textAngle= *`Winkel`*`
 
@@ -30,11 +29,11 @@ Bei positiven Werten wird der Text im Uhrzeigersinn gedreht. `textAngle=90` zeic
 
 ## Eigenschaften {#section-6d586a632daa4261a8ce62db56140b36}
 
-Ebenenattribut. Gilt für `layer=0`, wenn `layer=comp`. Wird ignoriert, wenn `textPs=` für diese Ebene nicht angegeben ist oder `textPath=` angegeben wurde.
+Ebenenattribut. Gilt für `layer=0`, wenn `layer=comp`. Wird ignoriert, wenn `textPs=` nicht für diese Ebene angegeben ist oder `textPath=` angegeben ist.
 
 ## Standard {#section-49a9f5819c994c27928282c14b2bb2a7}
 
-`textAngle=0` für keine Drehung.
+`textAngle=0` für keine Rotation.
 
 ## Verwandte Themen {#section-dccc29ff33704061b2519b56b7be45fd}
 
