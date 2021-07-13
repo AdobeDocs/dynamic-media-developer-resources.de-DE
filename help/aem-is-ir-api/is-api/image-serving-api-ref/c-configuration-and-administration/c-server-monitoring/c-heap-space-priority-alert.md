@@ -1,20 +1,19 @@
 ---
-description: Eine Prioritätswarnung wird gesendet, wenn der freie Java-Heap-Speicherplatz unmittelbar nach einem Java-Garbage Collection-Zyklus unter dem angegebenen Schwellenwert liegt.
+description: Ein Warnhinweis mit Priorität wird gesendet, wenn der freie Java-Heap-Speicher unmittelbar nach einem Java-Speicherbereinigungszyklus unter dem angegebenen Schwellenwert liegt.
 solution: Experience Manager
-title: Warnung zur Priorität des Heap-Speicherplatzes
+title: Warnung zur Heap-Platzierungspriorität
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 32951003-386f-4ea2-a5a0-f4d2e6d95ba5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
+# Warnung zur Heap-Platzierungspriorität{#heap-space-priority-alert}
 
-# Warnung zur Priorität des Heap-Speichers{#heap-space-priority-alert}
+Ein Warnhinweis mit Priorität wird gesendet, wenn der freie Java-Heap-Speicher unmittelbar nach einem Java-Speicherbereinigungszyklus unter dem angegebenen Schwellenwert liegt.
 
-Eine Prioritätswarnung wird gesendet, wenn der freie Java-Heap-Speicherplatz unmittelbar nach einem Java-Garbage Collection-Zyklus unter dem angegebenen Schwellenwert liegt.
-
-Wiederholte Warnungen sollten durch Vergrößerung des Java-Heap-Speichers behoben werden. Nachfolgende Vorkommnisse dieser Bedingung führen erst dann zu einer E-Mail-Benachrichtigung, wenn die mit `AS::monitorAlertGenerator.heapSpaceResetInterval` angegebene Verzögerung abgelaufen ist.
+Wiederholte Warnhinweise sollten durch Vergrößerung des Java-Heap-Speichers behoben werden. Nachfolgende Vorkommnisse dieser Bedingung führen erst zu einem E-Mail-Warnhinweis, wenn die mit `AS::monitorAlertGenerator.heapSpaceResetInterval` angegebene Verzögerungszeit abgelaufen ist.
