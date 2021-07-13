@@ -1,19 +1,17 @@
 ---
-description: Der Plattformserver schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen, Ereignisse zum Starten, Herunterfahren und Laden von Katalogen aufzuzeichnen.
+description: Der Platform Server schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen sowie die Ereignisse beim Start, Herunterfahren und Laden des Katalogs aufzuzeichnen.
 solution: Experience Manager
-title: Ablaufverfolgungsprotokoll
+title: Ablaufprotokoll
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 0bc16400-0ac3-4a11-9d28-c1f47a7020de
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
 
+# Ablaufprotokoll{#trace-log}
 
-# Ablaufverfolgungsprotokoll{#trace-log}
-
-Der Plattformserver schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen, Ereignisse zum Starten, Herunterfahren und Laden von Katalogen aufzuzeichnen.
-
+Der Platform Server schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen sowie die Ereignisse beim Start, Herunterfahren und Laden des Katalogs aufzuzeichnen.
