@@ -1,21 +1,20 @@
 ---
-description: Pixelgröße. Dient zum Festlegen von Bildgrößen oder Rechteckgrößen in Pixel.
+description: Pixelgröße. Wird verwendet, um Bildgrößen oder Rechteckgrößen in Pixel anzugeben.
 solution: Experience Manager
 title: Größe
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 644659a7-8f34-4de0-aa94-bc33909ff361
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 3%
 
 ---
 
-
 # Größe{#size}
 
-Pixelgröße. Dient zum Festlegen von Bildgrößen oder Rechteckgrößen in Pixel.
+Pixelgröße. Wird verwendet, um Bildgrößen oder Rechteckgrößen in Pixel anzugeben.
 
 <table id="simpletable_06761BED6FF14C2A83745A78B10D3419"> 
  <tr class="strow"> 
@@ -28,4 +27,4 @@ Pixelgröße. Dient zum Festlegen von Bildgrößen oder Rechteckgrößen in Pixe
  </tr> 
 </table>
 
-Sowohl *`px`* als auch *`py`* müssen größer als 0 sein. `0,0` kann angeben, dass ein bestimmter Standardwert verwendet werden sollte.
+Sowohl *`px`* als auch *`py`* müssen größer als 0 sein. `0,0` kann angeben, dass ein bestimmter Standardwert verwendet werden soll.
