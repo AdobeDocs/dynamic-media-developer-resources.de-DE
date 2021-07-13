@@ -1,21 +1,20 @@
 ---
-description: Überschneidungsobjekt ausblenden Blendet alle überlappenden Objekte oder Fensterverkleidungen aus, die in der aktuellen Auswahl auf Fensterverkleidungsrahmen angewendet werden.
+description: Überschneidungsobjekt ausblenden. Blendet alle überlappenden Objekte oder Fensterverkleidungen aus, die auf Fensterverkleidungsrahmen in der aktuellen Auswahl angewendet werden.
 solution: Experience Manager
 title: ausblenden
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 7%
 
 ---
 
-
 # ausblenden{#hide}
 
-Überschneidungsobjekt ausblenden Blendet alle überlappenden Objekte oder Fensterverkleidungen aus, die in der aktuellen Auswahl auf Fensterverkleidungsrahmen angewendet werden.
+Überschneidungsobjekt ausblenden. Blendet alle überlappenden Objekte oder Fensterverkleidungen aus, die auf Fensterverkleidungsrahmen in der aktuellen Auswahl angewendet werden.
 
 `hide[= *`val`*]`
 
@@ -28,11 +27,11 @@ ht-degree: 7%
 
 ## Eigenschaften {#section-2952fa43df0547b187b834c819c517ca}
 
-Gilt für die aktuelle Gruppen- oder Objektauswahl. Wird ignoriert, wenn die aktuelle Auswahl keine überlappenden Objekte oder Fensterverkleidungsrahmen enthält oder wenn keine überlappenden Objekte sichtbar sind.
+Gilt für die aktuelle Gruppen- oder Objektauswahl. Wird ignoriert, wenn die aktuelle Auswahl keine überlappenden Objekte oder Fensterumschlagrahmen enthält oder wenn keine überlappenden Objekte sichtbar sind.
 
 ## Standard {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
-Wenn keine Angabe gemacht wird, bleibt die aktuelle Sichtbarkeit der ausgewählten überlappenden Objekte erhalten.
+Wenn nichts angegeben, wird die aktuelle Sichtbarkeit der ausgewählten überlappenden Objekte beibehalten.
 
 ## Verwandte Themen {#section-72c5e811b45347acacc64c6df85c7ef2}
 
