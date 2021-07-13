@@ -1,36 +1,35 @@
 ---
-description: In diesem Beispiel wird Image Serving verwendet, um ein Objekt zu färben und einen Ausdruck mit benutzerdefiniertem Text in einem Satz Vignetten anzuwenden.
+description: In diesem Beispiel wird das Image Serving verwendet, um ein Objekt zu kolorisieren und einen Decal anzuwenden, der benutzerdefinierten Text in einem Satz von Vignetten enthält.
 solution: Experience Manager
 title: Beispiele
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 85f11642-e1ff-4bf0-bd21-d419805cff4a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '146'
 ht-degree: 1%
 
 ---
 
-
 # Beispiele{#examples}
 
-In diesem Beispiel wird Image Serving verwendet, um ein Objekt zu färben und einen Ausdruck mit benutzerdefiniertem Text in einem Satz Vignetten anzuwenden.
+In diesem Beispiel wird das Image Serving verwendet, um ein Objekt zu kolorisieren und einen Decal anzuwenden, der benutzerdefinierten Text in einem Satz von Vignetten enthält.
 
-Mit IR-Variablen werden die Vignette, das Logo-Bild und der benutzerdefinierte Text identifiziert.
+IR -Variablen werden verwendet, um die Vignette, das Logo-Bild und den benutzerdefinierten Text zu identifizieren.
 
-Das Feld `vignette::Modifier` im Datensatz *template* in der Vignettenzuordnung des Materialkatalogs `myCat` enthält Folgendes:
+Das Feld `vignette::Modifier` im Datensatz *template* in der Vignettenkarte des Materialkatalogs `myCat` enthält Folgendes:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Alle verwendeten Vignetten werden in der Vignettenkarte des Materialkatalogs `myCat` aufgeführt.
+Alle verwendeten Vignetten werden in der Vignettenkarte des Materialkatalogs `myCat` aufgelistet.
 
-Der Client kann jetzt die folgende Anforderung zum Abrufen des Standardbilds ausführen (dabei werden die am Anfang der Vorlage definierten Variablen verwendet):
+Der Client kann nun die folgende Anfrage zum Abrufen des Standardbilds stellen (dabei werden die am Anfang der Vorlage definierten Variablen verwendet):
 
 [!DNL `https://server/myCat/template`]
 
-Die folgende Anforderung gibt bestimmte Inhalte an, die gerendert werden sollen:
+Die folgende Anfrage gibt bestimmte Inhalte an, die gerendert werden sollen:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Weitere Informationen zum Befehl Image Serving `text=` finden Sie in der Dokumentation zum Image-Server.
+Weitere Informationen zum Image-Serving-Befehl `text=` finden Sie in der Image Serving-Dokumentation .
