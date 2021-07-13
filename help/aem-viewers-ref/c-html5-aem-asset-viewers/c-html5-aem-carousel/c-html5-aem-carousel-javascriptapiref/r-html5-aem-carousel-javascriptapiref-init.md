@@ -2,13 +2,12 @@
 description: JavaScript-API-Referenz für Karussell-Viewer.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
@@ -19,9 +18,9 @@ JavaScript-API-Referenz für Karussell-Viewer.
 
 `init()`
 
-Beginn der Initialisierung des Karussell-Viewers. Bis zu diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
+Startet die Initialisierung des Karussell-Viewers. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Container-Element noch nicht Teil des Webseitenlayouts ist (es kann beispielsweise mit dem ihm zugewiesenen `display:none`-Stil ausgeblendet werden), setzt der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt aus, zu dem die Webseite das Container-Element wieder in das Layout einfügt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Container-Element noch nicht Teil des Web-Seiten-Layouts ist (z. B. kann es mit dem ihm zugewiesenen `display:none`-Stil ausgeblendet werden), setzt der Viewer den Initialisierungsprozess so lange aus, bis die Web-Seite das Container-Element wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
 Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. nachfolgende Aufrufe werden ignoriert.
 
@@ -29,7 +28,7 @@ Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. na
 
 Keine.
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Ein Verweis auf die Viewer-Instanz.
 
