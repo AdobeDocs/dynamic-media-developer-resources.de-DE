@@ -2,13 +2,12 @@
 description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 solution: Experience Manager
 title: Videoplayer
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -19,9 +18,9 @@ Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer an
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Rechteckanzeigebereichs des Videoplayers zentriert.
+Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Anzeigebereichs für das Rechteck des Videoplayers zentriert.
 
-Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
 
 ```
 .s7interactivevideoviewer .s7videoplayer
@@ -33,16 +32,16 @@ Die folgende CSS-Klassenauswahl steuert das Erscheinungsbild des Videoplayers:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht abspielen kann.
+Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht wiedergeben kann.
 
-Siehe [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayer-Größe von 512 x 288 Pixel.
+Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayergröße von 512 x 288 Pixel.
 
 ```
 .s7interactivevideoviewer .s7videoplayer{ 
@@ -50,32 +49,32 @@ background-color: transparent;
 }
 ```
 
-Untertitel werden in einen internen Container im Videoplayer eingefügt. Die Position dieses Containers wird von unterstützten WebVTT-Positionierungsoperatoren gesteuert. Der Beschriftungstext selbst befindet sich in diesem Container und sein Stil wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Geschlossene Untertitel werden in einen internen Container im Videoplayer eingefügt. Die Position dieses Containers wird durch unterstützte WebVTT-Positionierungsoperatoren gesteuert. Der Beschriftungstext selbst befindet sich in diesem Container und sein Stil wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
-**CSS-Eigenschaften von Untertiteln**
+**CSS-Eigenschaften von verdeckten Untertiteln**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrund für Bildunterschrift </p> </td> 
+   <td colname="col2"> <p>Geschlossener Beschriftungstexthintergrund. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Untertitel-Textfarbe schließen </p> </td> 
+   <td colname="col2"> <p>Textfarbe für Beschriftung schließen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-Gewichtung  </span> </p> </td> 
-   <td colname="col2"> <p> Gewichtung der Bildunterschrift </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col2"> <p> Schriftstärke der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p> Schriftgröße der Bildunterschrift. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col2"> <p> Schriftgröße der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Geschlossene Beschriftungsschrift. </p> </td> 
   </tr> 
  </tbody> 
@@ -83,7 +82,7 @@ Untertitel werden in einen internen Container im Videoplayer eingefügt. Die Pos
 
 ## Beispiel {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-So richten Sie den Bildunterschriften-Text auf einem halbtransparenten schwarzen Hintergrund auf 14 Pixel (hellgrau, Arial) ein:
+So richten Sie Beschriftungstext auf einem halbtransparenten schwarzen Hintergrund auf 14 Pixel, hellgrau, Arial ein:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 
@@ -95,7 +94,7 @@ So richten Sie den Bildunterschriften-Text auf einem halbtransparenten schwarzen
 }
 ```
 
-Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon
@@ -121,11 +120,11 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbol links, normalerweise minus die Hälfte der Breite des Symbols. </p> </td> 
+   <td colname="col2"> <p> Animationssymbol am linken Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbole am oberen Rand, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
+   <td colname="col2"> <p> Der obere Rand des Animationssymbols, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -134,7 +133,7 @@ Das Erscheinungsbild der Pufferanimation wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: Um eine Pufferung mit einer Breite von 101 Pixeln und einer Höhe von 29 Pixeln einzurichten, müssen Sie eine Animation mit Pufferung einrichten:
+Beispiel: Zum Einrichten einer Pufferanimation, die 101 Pixel breit und 29 Pixel hoch ist:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon { 
