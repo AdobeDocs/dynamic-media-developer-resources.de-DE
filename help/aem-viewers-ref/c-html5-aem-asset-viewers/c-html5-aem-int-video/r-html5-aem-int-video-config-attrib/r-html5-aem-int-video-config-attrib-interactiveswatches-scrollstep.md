@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für den interaktiven Video-Viewer.
+description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
 title: InteractiveSwatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: 15bf7af8-428b-4c1c-b7ad-004563347d7c
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 7%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 # InteractiveSwatches.scrollstep{#interactiveswatches-scrollstep}
 
-Konfigurationsattribut für den interaktiven Video-Viewer.
+Konfigurationsattribut für interaktiven Video-Viewer.
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`Schritt`*`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Schritt</span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der Farbfelder an, die bei jedem Tippen auf die entsprechende Bildlauftaste durchlaufen werden sollen. </p> <p>Wenn der angegebene Wert größer als die Anzahl der sichtbaren interaktiven Muster ist, wird bei jedem Tippen nur nach der Anzahl der sichtbaren Farbfelder geblättert, um zu verhindern, dass ein Farbfeld weggelassen wird. </p> </td> 
+   <td colname="col2"> <p>Gibt die Anzahl der Farbfelder an, die bei jedem Tippen auf die entsprechende Bildlaufschaltfläche gescrollt werden sollen. </p> <p>Wenn der angegebene Wert größer ist als die Anzahl der sichtbaren interaktiven Muster, wird bei jedem Tippen nur nach der Anzahl der sichtbaren Farbfelder gescrollt, um zu verhindern, dass ein Farbmuster weggelassen wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
