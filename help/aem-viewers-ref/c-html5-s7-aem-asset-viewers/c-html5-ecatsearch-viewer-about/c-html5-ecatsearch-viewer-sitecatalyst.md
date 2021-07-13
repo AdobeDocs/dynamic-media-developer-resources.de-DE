@@ -1,31 +1,30 @@
 ---
-description: Der E-Katalog-Search-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
+description: Der eCatalog Search Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 solution: Experience Manager
-title: Unterstützung der Adobe Analytics-Verfolgung
+title: Unterstützung für Adobe Analytics-Tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User,Data Engineer,Data Architect
+exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
 
+# Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+Der eCatalog Search Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
-Der E-Katalog-Search-Viewer unterstützt standardmäßig die Adobe Analytics-Verfolgung.
+## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-## Vordefinierte Verfolgung {#section-ba994f079d0343c8ae48adffaa3195a3}
+Der eCatalog Search Viewer unterstützt das native [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
-Der E-Katalog-Search-Viewer unterstützt standardmäßig die Verfolgung. [!DNL Adobe Analytics] Um die Verfolgung zu aktivieren, übergeben Sie den richtigen Vorgabennamen für die Firma als Parameter `config2`.
+Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-Der Viewer sendet außerdem eine einzige Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
+## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
-
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf abzurufen und das `eventInfo`-Argument der Rückruffunktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Um in Analytics-Systeme von Drittanbietern zu integrieren, müssen Sie den Viewer-Rückruf `trackEvent` überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
@@ -49,13 +48,13 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 });
 ```
 
-Der Viewer verfolgt die folgenden SDK-Ereignis:
+Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK-Ereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet, wenn... </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
+   <th colname="col2" class="entry"> <p>Gesendet, wenn ... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -65,7 +64,7 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset im Viewer mit der API <span class="codeph"> setAsset() </span> getauscht wird. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -73,24 +72,23 @@ Der Viewer verfolgt die folgenden SDK-Ereignis:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>ein Bild ist geflogen. </p> </td> 
+   <td colname="col2"> <p>ein Bild eingeplant ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> ein Bild durch Klicken oder Tippen auf ein Farbfeld geändert wird. </p> </td> 
+   <td colname="col2"> <p> ein Bild geändert wird, indem auf ein Muster geklickt oder darauf getippt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAGE </span> </p> </td> 
-   <td colname="col2"> <p> ein aktueller Frame in der Haupt-Ansicht geändert wird. </p> </td> 
+   <td colname="col2"> <p> wird ein aktueller Frame in der Hauptansicht geändert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ITEM </span> </p> </td> 
-   <td colname="col2"> <p>ein Popup für das Infofeld aktiviert ist. </p> </td> 
+   <td colname="col2"> <p>Ein Popup für das Informationsfeld wird aktiviert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>Ein Benutzer navigiert zu einer anderen Seite, weil er auf die Imagemap klickt. </p> </td> 
+   <td colname="col2"> <p>ein Benutzer zu einer anderen Seite navigiert, weil er auf die Imagemap klickt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
