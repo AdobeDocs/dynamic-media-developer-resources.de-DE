@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für Video Viewer.
+description: Konfigurationsattribut für Video-Viewer.
 solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
-
 # VideoPlayer.loop{#videoplayer-loop}
 
-Konfigurationsattribut für Video Viewer.
+Konfigurationsattribut für Video-Viewer.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob das Video nach Abschluss der Wiedergabe erneut abgespielt werden soll. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob das Video nach Abschluss der Wiedergabe erneut wiedergegeben werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ Optional.
 ```
 loop=1
 ```
-
