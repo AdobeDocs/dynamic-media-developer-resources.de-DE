@@ -2,16 +2,15 @@
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Inline-Zoom
+role: Developer,User
+exl-id: 39cb629a-3940-4206-91cd-fe9a9f4d9f75
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 9%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
-
 
 # FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> Gibt den Typ des Effekts an, der bei einer Asset-Änderung auf die Haupt-Ansicht angewendet wird. </p> <p><span class="codeph"> Ohne Transition </span> erfolgt eine Änderung der Ansicht sofort. </p> <p><span class="codeph"> Deaktiviert </span> die Überblendungsfunktion, bei der das alte Bild ausgeblendet und das neue Bild eingeblendet wird. </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> Gibt den Typ des Effekts an, der auf die Hauptansicht bei der Asset-Änderung angewendet wird. </p> <p><span class="codeph"> </span> Nicht-Grundlagen für keine Transition, wird die Hauptansicht sofort geändert. </p> <p><span class="codeph"> </span> Deaktiviert eine blendübergreifende Transition, bei der das alte Bild ausgeblendet und das neue Bild ausgeblendet wird </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 
