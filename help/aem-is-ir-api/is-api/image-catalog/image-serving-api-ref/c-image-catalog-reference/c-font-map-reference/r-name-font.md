@@ -1,25 +1,24 @@
 ---
-description: Schriftart Name. Der Schriftartname, genau wie im Befehl RTF \fonttbl angegeben.
+description: Name der Schriftart. Der Schriftartname, genau wie im RTF \fonttbl-Befehl angegeben.
 solution: Experience Manager
 title: Name
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cf3bc6ca-ffe2-4417-8ce8-ec68c7039365
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 9%
 
 ---
 
-
 # Name{#name}
 
-Schriftart Name. Der Schriftartname, genau wie im Befehl RTF \fonttbl angegeben.
+Name der Schriftart. Der Schriftartname, genau wie im RTF \fonttbl-Befehl angegeben.
 
 ## Eigenschaften {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-Textzeichenfolge. Erforderlich. Primär-Indexschlüssel für die Schriftzuordnung. Derselbe font::Name-Wert kann bis zu viermal in derselben Schriftartzuordnungsdatei auftreten, aber jeder Datensatz muss eine andere Kombination aus `font::Bold`- und `font::Italic`-Werten aufweisen.
+Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die Schriftzuordnung. Dieselbe Schriftart::Name kann bis zu viermal in derselben Schriftartzuordnungsdatei vorkommen, aber jeder Datensatz muss eine andere Kombination aus `font::Bold` und `font::Italic` Werten aufweisen.
 
 ## Standard {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 
