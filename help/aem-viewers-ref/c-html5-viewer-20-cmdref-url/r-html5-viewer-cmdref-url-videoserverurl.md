@@ -1,21 +1,20 @@
 ---
-description: Parameter, die allen Viewern gemein sind.
+description: Parameter, die allen Viewern gemeinsam sind.
 solution: Experience Manager
 title: videoServerUrl
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-Parameter, die allen Viewern gemein sind.
+Parameter, die allen Viewern gemeinsam sind.
 
 >[!NOTE]
 >
@@ -27,14 +26,14 @@ Parameter, die allen Viewern gemein sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Der Stammpfad des Videoservers. Wenn keine Domäne angegeben ist, wird stattdessen die Domäne angewendet, von der die Seite bereitgestellt wird. Es gilt die Standardauflösung für URI-Pfade. </p> </td> 
+   <td colname="col2"> <p> Der Stammpfad des Videoservers. Wenn keine Domäne angegeben ist, wird stattdessen die Domäne angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Optional. Nicht erforderlich für Standard-Software als Service-Nutzung.
+Optional. Nicht erforderlich für Standardsoftware als Service-Nutzung.
 
 ## Standard {#section-d411e450028c460392cb8508f8ccc5d9}
 
