@@ -1,27 +1,26 @@
 ---
-description: Der Inhalt des gesamten Modifikator-Teils der Anforderungszeichenfolge, einschließlich des optionalen Suffix "lock", kann durch die Anwendung der Standard-Base64-Kodierung verdeckt werden.
+description: Der Inhalt des gesamten Modifikatorteils der Anforderungszeichenfolge, einschließlich des optionalen Suffixes für die Sperre, kann durch Anwendung der standardmäßigen Base64-Kodierung verdeckt werden.
 solution: Experience Manager
-title: Verschleierung anfordern
+title: Verschleierung von Anfragen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
 
+# Verschleierung von Anfragen{#request-obfuscation}
 
-# Anforderungsverschleierung{#request-obfuscation}
+Der Inhalt des gesamten Modifikatorteils der Anforderungszeichenfolge, einschließlich des optionalen Suffixes für die Sperre, kann durch Anwendung der standardmäßigen Base64-Kodierung verdeckt werden.
 
-Der Inhalt des gesamten Modifikator-Teils der Anforderungszeichenfolge, einschließlich des optionalen Suffix &quot;lock&quot;, kann durch die Anwendung der Standard-Base64-Kodierung verdeckt werden.
-
-Der Server versucht zu dekodieren, wenn `attribute::RequestObfuscation` eingestellt ist. Wenn die Dekodierung fehlschlägt, wird die Anforderung abgelehnt. Wenn sowohl die Sperrung von Anforderungen als auch die Verschleierung von Anforderungen angewendet werden, muss das Suffix &quot;Sperren&quot;vor der Base64-Kodierung generiert und angehängt werden.
+Der Server versucht zu dekodieren, ob `attribute::RequestObfuscation` festgelegt ist. Wenn die Dekodierung fehlschlägt, wird die Anfrage abgelehnt. Wenn sowohl die Sperrung von Anforderungen als auch die Verschleierung von Anforderungen angewendet werden, muss das Suffix &quot;Sperren&quot;vor der Base64-Kodierung generiert und angehängt werden.
 
 >[!IMPORTANT]
 >
->Wenn Sie diese Funktion aktivieren, beachten Sie, dass die Verwendung bestimmter Einschränkungen eingeschränkt ist, darunter:<br>- Die Dynamic Media-Benutzeroberfläche zeigt möglicherweise nicht die richtigen Details für das Feld **[!UICONTROL Zuletzt veröffentlicht]** an. Diese Auswirkung hat jedoch keine Auswirkungen auf die Veröffentlichung.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn **[!UICONTROL die]** Verschleierung der Anforderung und die  **[!UICONTROL Sperrung der]** Anforderung aktiviert sind.<br>- Derzeit funktionieren einige Dynamic Media-Viewer nicht, wenn  **[!UICONTROL Verschleierung]** der Anforderung und Sperren der  **[!UICONTROL Anforderung]** aktiviert sind.
+>Wenn Sie diese Funktion aktivieren, beachten Sie, dass die Verwendung dieser Funktion gewissen Einschränkungen unterliegt, darunter:<br>- Die Dynamic Media-Benutzeroberfläche zeigt möglicherweise nicht die richtigen Details für das Feld **[!UICONTROL Zuletzt veröffentlicht]** an. Dies wirkt sich jedoch nicht auf die Veröffentlichung aus.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn die **[!UICONTROL Verschleierung]** von Anfragen und die  **[!UICONTROL Sperrung von]** Anfragen aktiviert sind.<br>- Derzeit funktionieren einige Dynamic Media-Viewer nicht, wenn die  **[!UICONTROL Verschleierung]** von Anfragen und die Sperrung von  **[!UICONTROL Anfragen]** aktiviert sind.
 
 ## Beispiel {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
@@ -31,7 +30,7 @@ kodiert in:
 
 `http://server/myTemplate?dHh0PW15IHRleHQgc3RyaW5nJiRpbWc9bXlJbWFnZQ==`
 
-Alle Vorkommnisse von &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; in Wertzeichenfolgen müssen mit &#39;%xx&#39;-Kodierung Escape-Zeichen ausgeführt werden, bevor die Anforderung verschleiert wird. Es ist nicht erforderlich, den Teil der Anforderung vor oder nach der Verschleierung durch http-kodieren zu lassen, selbst wenn die Sperrung der Anforderung angewendet wird, da die base64-Kodierung für die HTTP-Übertragung sicher ist.**
+Alle Vorkommen von &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; in Wertzeichenfolgen müssen mit &#39;%xx&#39;-Kodierung maskiert werden, bevor die Anfrage verschleiert wird. Es ist nicht erforderlich, den *Modifikator*-Teil der Anforderung entweder vor oder nach der Verschleierung durch HTTP zu kodieren, selbst wenn die Anforderungssperrung angewendet wird, da die Base64-Kodierung für die HTTP-Übertragung sicher ist.
 
 ## Verwandte Themen {#section-7ea59724c97c4ee9a510dbbc1f79e564}
 
