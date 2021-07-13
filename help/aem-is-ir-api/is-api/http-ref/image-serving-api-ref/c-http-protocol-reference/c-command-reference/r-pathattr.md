@@ -3,15 +3,14 @@ description: Attribute für Text auf Pfad.
 solution: Experience Manager
 title: pathAttr
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # pathAttr{#pathattr}
 
@@ -26,23 +25,23 @@ Attribute für Text auf Pfad.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos  </span> </p> </td> 
-  <td class="stentry"> <p>Textposition auf Beginn (real 0.0...1.0). </p> </td> 
+  <td class="stentry"> <p>Textstartposition auf Pfad (real 0.0...1.0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos  </span> </p> </td> 
-  <td class="stentry"> <p>Textendposition auf Pfad (real 0.0...&lt;2.0). </p> </td> 
+  <td class="stentry"> <p>Textende Position auf Pfad (real 0.0...&lt;2.0). </p> </td> 
  </tr> 
 </table>
 
-Geben Sie `norm` an, um Text beginnend beim ersten Pfadscheitelpunkt und `reverse` zu zeichnen, um den Text in die entgegengesetzte Richtung, beginnend beim letzten Scheitelpunkt, zu zeichnen.
+Geben Sie `norm` an, um Text beginnend beim ersten Pfadvertex und `reverse` zu zeichnen, um Text in die entgegengesetzte Richtung zu zeichnen, beginnend beim letzten Scheitelpunkt.
 
-*`startPos`* und  *`endPos`* ermöglichen die Anpassung an die Stelle auf dem Pfad, an der der Text gezeichnet wird. 0.0 entspricht dem ersten Scheitelpunkt im Pfad und 1.0 dem letzten Scheitelpunkt; Zwischenwerte geben den Abstand zwischen dem ersten und dem letzten Scheitelpunkt an.
+*`startPos`* und  *`endPos`* erlauben die Anpassung, wo auf dem Pfad der Text gezeichnet wird. 0.0 entspricht dem ersten Scheitelpunkt im Pfad und 1.0 dem letzten Scheitelpunkt; Zwischenwerte geben den Abstand zwischen dem ersten und dem letzten Scheitelpunkt an.
 
 ## Eigenschaften {#section-80f266da4e2549d89f022a3f9ff4584d}
 
 Ebenenattribut. Wird ignoriert, wenn die Ebene keine `textPs=`- und `textPath=`-Befehle enthält.
 
-*`startPos`* muss größer als oder gleich 0 und kleiner als 1,0 sein.  *`endPos`* muss größer  *`startPos`* und kleiner als 1,0 sein, wenn sie auf einen offenen Pfad angewendet wird, oder kleiner gleich (  *`startPos`* + 1,0), wenn sie auf einen geschlossenen Pfad angewendet wird.
+*`startPos`* muss größer als oder gleich 0 und kleiner als 1,0 sein.  *`endPos`* muss größer  *`startPos`* und kleiner als 1,0 sein, wenn sie auf einen offenen Pfad angewendet werden, oder kleiner oder gleich (  *`startPos`* + 1,0) bei Anwendung auf einen geschlossenen Pfad.
 
 ## Standard {#section-3e757970885c45e7b6100e78dc08626f}
 
