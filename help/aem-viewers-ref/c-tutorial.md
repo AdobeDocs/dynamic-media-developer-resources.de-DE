@@ -3,9 +3,9 @@ description: Das Viewer-SDK bietet eine Reihe JavaScript-basierter Komponenten f
 solution: Experience Manager
 title: Viewer-SDK-Tutorial
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
 * [Hinzufügen von Schaltflächen zum Viewer](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Vertikale Konfiguration der Farbfelder](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Laden Sie das neueste Viewer-SDK von Adobe Developer Connection herunter {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Herunterladen des neuesten Viewer-SDK aus Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Laden Sie das neueste Viewer-SDK von Adobe Developer Connection herunter <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
@@ -119,7 +119,7 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
 
 Sie fügen Ihrem Viewer jetzt Stil hinzu.
 
-## Hinzufügen des Stils zum Viewer {#section-3783125360a1425eae5a5a334867cc32}
+## Hinzufügen von Stilen zum Viewer {#section-3783125360a1425eae5a5a334867cc32}
 
 1. Für diesen vollständigen Seiten-Viewer, den Sie erstellen, können Sie einige grundlegende Stile hinzufügen.
 
