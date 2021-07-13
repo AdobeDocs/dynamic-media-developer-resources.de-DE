@@ -1,29 +1,28 @@
 ---
-description: Der HTML5 Video360 Viewer ist ein 360-Grad-Video-Player, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und von Dynamic Media Classic oder AEM Dynamic Media geliefert werden.
+description: Der HTML5-Video360-Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert sind und von Dynamic Media Classic oder AEM Dynamic Media bereitgestellt werden.
 solution: Experience Manager
 title: Video360
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
 
-
 # Video360{#video}
 
-Der HTML5 Video360 Viewer ist ein 360-Grad-Video-Player, der Streaming- und progressive 360-Videos abspielt, die im H.264-Format kodiert wurden und von Dynamic Media Classic oder AEM Dynamic Media geliefert werden.
+Der HTML5-Video360-Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert sind und von Dynamic Media Classic oder AEM Dynamic Media bereitgestellt werden.
 
-360-Grad-Videos, auch als immersive Videos oder kugelförmige Videos bezeichnet, sind Videoaufnahmen, bei denen eine Ansicht in jede Richtung gleichzeitig aufgezeichnet wird, die mit einer Allrichtungskamera oder einer Kamerasammlung aufgenommen wurden. Es werden sowohl einzelne Video- als auch adaptive Videosets unterstützt. Der Viewer unterstützt außerdem die Arbeit mit progressiven Video- und HLS-Streams, die auf einem externen Speicherort gehostet werden.
+360-Grad-Videos, auch als interaktive Videos oder kugelförmige Videos bezeichnet, sind Videoaufnahmen, bei denen gleichzeitig eine Ansicht in jede Richtung aufgezeichnet wird, die mit einer omnidirektionalen Kamera oder einer Kamerasammlung aufgenommen wurde. Es werden sowohl einzelne Video- als auch adaptive Videosets unterstützt. Der Viewer unterstützt außerdem die Arbeit mit progressiven Video- und HLS-Streams, die auf einem externen Standort gehostet werden.
 
-Das empfohlene Seitenverhältnis für 360-Videos ist 2:1. Rauschunterdrückung wird nicht unterstützt. Der Viewer kann nur mit 360 Videos verwendet werden. Wenn Sie versuchen, ein Video abzuspielen, das nicht 360 ist, wird die Videowiedergabe verzerrt.
+Das empfohlene Seitenverhältnis für 360-Grad-Videos ist 2:1. Geodätischer Klang wird nicht unterstützt. Der Viewer wurde nur für 360-Grad-Videos entwickelt. Ein Versuch, ein Video abzuspielen, das nicht 360 ist, führt zu einer verzerrten Videowiedergabe.
 
-Der Viewer wurde für die Verwendung mit Desktop- und mobilen Webbrowsern entwickelt, die HTML5-Videos unterstützen. Der Viewer unterstützt optionale Werkzeuge zum Weitergeben in sozialen Netzwerken.
+Der Viewer wurde für die Verwendung sowohl in Desktop- als auch mobilen Webbrowsern entwickelt, die HTML5-Videos unterstützen. Der Viewer unterstützt optionale Tools zur Freigabe in sozialen Netzwerken.
 
-Der Video360-Viewer verwendet die HTML5-Streaming-Videowiedergabe im HLS-Format in seiner Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die kein HTML5-Streaming unterstützen, greift der Viewer auf den progressiven HTML5-Versand zurück.
+Der Video360-Viewer verwendet die HTML5-Streaming-Videowiedergabe im HLS-Format in seiner Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, greift der Viewer auf die progressive HTML5-Videobereitstellung zurück.
 
 Der Viewer-Typ ist 517.
 
@@ -35,102 +34,102 @@ Der Viewer-Typ ist 517.
 
 Siehe [Systemanforderungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Verwenden von Video360 Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Verwenden des Video360-Viewers {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Der HTML5-Video360-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfedateien dar (ein einzelnes JavaScript enthält alle von diesem Viewer verwendeten HTML5-Viewer-SDK-Komponenten, Assets, CSS), die vom Viewer zur Laufzeit heruntergeladen werden.
+HTML5-Video360-Viewer stellen eine JavaScript-Hauptdatei und eine Reihe von Hilfedateien dar (ein einzelnes JavaScript-Element enthält alle HTML5-Viewer-SDK-Komponenten, die von diesem Viewer verwendet werden, Assets, CSS), die vom Viewer zur Laufzeit heruntergeladen werden.
 
-Der HTML5 Video360 Viewer kann sowohl im Popupmodus mithilfe einer produktionsfertigen HTML-Seite, die mit IS-Viewern bereitgestellt wird, als auch im eingebetteten Modus verwendet werden, wobei er mithilfe der dokumentierten API in die Zielgruppe-Webseite integriert wird.
+HTML5-Video360-Viewer kann sowohl im Popup-Modus mit produktionsbereiten HTML-Seiten verwendet werden, die mit IS-Viewern bereitgestellt werden, als auch im eingebetteten Modus, wo sie mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
-Konfiguration und Skin ähneln denen der anderen in diesem Handbuch beschriebenen Viewer. Alle Skins werden mithilfe von CSS (Custom Cascading Style Sheets) realisiert.
+Die Konfiguration und das Skinning ähneln der anderen in diesem Handbuch beschriebenen Viewer. Die gesamte Skinnerung erfolgt über benutzerdefinierte CSS-Stylesheets (Cascading Style Sheets).
 
-Siehe [Befehlsreferenz, die allen Viewern gemein ist - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz, die allen Viewern gemein ist - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-Für 360-Videoinhalte sind höhere Kodierungseinstellungen erforderlich als für Videos, die nicht dem 360-Standard entsprechen. Das heißt, 360 Inhalte müssen in einer höheren Auflösung als 360 Videos vorliegen, um die gleiche wahrnehmbare Qualität zu erzielen. Es wird empfohlen, die folgenden Einstellungen für adaptive Video-Vorgaben für 360-Videos zu berücksichtigen:
+Für 360-Grad-Videoinhalte sind höhere Kodierungseinstellungen erforderlich als für standardmäßige Videos, die nicht 360 sind. Anders ausgedrückt: 360 Inhalte müssen in einer höheren Auflösung als 360 Videos vorliegen, um die gleiche wahrnehmbare Qualität zu erzielen. Es wird empfohlen, die folgenden Einstellungen für adaptive Videovorgaben für 360-Grad-Videos zu berücksichtigen:
 
-* 720p, 2500 Kbit/s
-* 1080p, 5000 Kbit/s
-* 1440p, 6600 Kbit/s
+* 720 p, 2500 kBit/s
+* 1080p, 5000 kBit/s
+* 1440p, 6600 kBit/s
 
-Beachten Sie jedoch, dass die Bereitstellung von Videos, die mit solchen Einstellungen hoher Qualität kodiert wurden, eine Verbindung mit hoher Bandbreite auf dem Gerät des Endbenutzers erfordert.
+Beachten Sie jedoch, dass die Bereitstellung von Videos, die mit solchen Einstellungen hoher Qualität kodiert wurden, eine hohe Bandbreite auf dem Gerät eines Endbenutzers erfordert.
 
-## Interaktion mit Video360 Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interagieren mit dem Video360-Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Der HTML5 Video360 Viewer bietet eine Reihe standardmäßiger Steuerelemente der Benutzeroberfläche für die Videowiedergabe, z. B. &quot;Abspielen/Anhalten&quot;-Schaltfläche, Video-Scrubber-Videozeitblase, Wiedergabedauer/Gesamtzeit-Indikator, Lautstärkeregler und Vollbildschaltfläche. Alle diese Steuerelemente werden in der Steuerleiste ganz unten in der Benutzeroberfläche des Viewers gruppiert.
+HTML5 Video360 Viewer bietet eine Reihe von Standardsteuerelementen für die Videowiedergabe, wie z. B. Wiedergabe/Pause-Schaltfläche, Video-Scrubber-Videozeitblase, Wiedergabe/Gesamtzeit-Anzeige, Lautstärkeregler und Vollbildschaltflächen. Alle diese Steuerelemente sind in einer Steuerleiste am unteren Rand der Viewer-Benutzeroberfläche gruppiert.
 
-Beachten Sie, dass auf Touch-Geräten die Lautstärkeregelung in der Benutzeroberfläche ausgeblendet ist, da die Lautstärke nur über die Hardwareschaltflächen des Geräts gesteuert werden kann.
+Beachten Sie, dass auf Touch-Geräten die Lautstärkeregelung in der Benutzeroberfläche ausgeblendet ist, da es nur möglich ist, die Lautstärke mithilfe der Hardwaretasten des Geräts zu steuern.
 
-Wenn der Viewer im Popupmodus ausgeführt wird, ist in der Benutzeroberfläche keine Vollbildschaltfläche verfügbar.
+Wenn der Viewer im Popup-Modus ausgeführt wird, ist in der Benutzeroberfläche keine Vollbildschaltfläche verfügbar.
 
-Der Viewer unterstützt außerdem eine Reihe von Social Media-Sharing-Werkzeugen. Sie stehen als eine einzige Schaltfläche in der Benutzeroberfläche zur Verfügung, die durch Klicken oder Tippen auf eine Freigabebeschaltfläche in eine Freigabebeschaltfläche umgewandelt wird. Die Freigabe-Symbolleiste enthält ein Symbol für jeden unterstützten Freigabetyp, z. B. Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe per E-Mail, die Einbettung von Teilen oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer über einen Social Media-Dienst zu einem Standardfreigabedialogfeld um. Wenn ein Freigabe-Tool aktiviert ist, wird die Videowiedergabe automatisch angehalten. Freigeben-Werkzeuge sind aufgrund von Sicherheitsbeschränkungen im Webbrowser nicht im Vollbildmodus verfügbar.
+Der Viewer unterstützt auch eine Vielzahl von Tools zur Freigabe in Social Media. Sie sind als einzelne Schaltfläche in der Benutzeroberfläche verfügbar, die sich zu einer Freigabesymbolleiste erweitert, wenn der Benutzer darauf klickt oder tippt. Die Freigabesymbolleiste enthält ein Symbol für jeden unterstützten Freigabekanaltyp wie Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe von E-Mails, die Einbettung von Freigabe oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Formular für die Dateneingabe an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer von einem Social-Media-Dienst zu einem standardmäßigen Dialogfeld für die Freigabe um. Außerdem wird die Videowiedergabe automatisch angehalten, wenn ein Freigabe-Tool aktiviert wird. Die Freigabe-Tools sind aufgrund der Sicherheitseinschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
 
-Der Viewer unterstützt 360 Videowiedergaben auf VR-Headsets (wie Oculus Go und Oculus Rift), VR HMD (Head-Motion Display)-Halterungen (wie Google Pboard) und nicht für VR geeignete Geräte (wie Desktop-Browser, Tablets und Mobiltelefone, die nicht mit VR HMD-Halterungen verbunden sind).
+Der Viewer unterstützt die 360-Grad-Videowiedergabe auf VR-Headsets (wie Oculus Go und Oculus Rift), VR HMD (Head-Mountain Display)-Bereitstellungen (wie Google Pboard) und nicht VR-fähigen Geräten (wie Desktop-Browser, Tablets und Mobiltelefone, die nicht mit VR-HMD-Bereitstellungen verbunden sind).
 
-Zur Ansicht von 360-Videoinhalten auf VR-Headset ist keine zusätzliche Konfiguration erforderlich. Der Viewer erkennt automatisch das Vorhandensein des VR-Headsets und zeigt die Schaltfläche &quot;VR&quot;über dem Videoinhalt an. Durch Aktivierung dieser &quot;VR&quot;-Schaltfläche wird die Videowiedergabe in den VR-Modus umgeschaltet. Der Viewer unterstützt das VR-Rendering nur in Browsern mit WebVR-Unterstützung.
+Zur Anzeige von 360-Grad-Videoinhalten auf VR-Headset ist keine zusätzliche Konfiguration erforderlich. Der Viewer erkennt automatisch das Vorhandensein eines VR-Headsets und zeigt die Schaltfläche &quot;VR&quot;über dem Videoinhalt an. Durch Aktivierung dieser &quot;VR&quot;-Schaltfläche wird das Video-Rendering in den VR-Modus geändert. Der Viewer unterstützt das VR-Rendering nur in Browsern mit WebVR-Unterstützung.
 
-Um VR HMD-Anschlüsse verwenden zu können, muss der Modifikator `Video360Player.vrrender` in der Konfiguration des Viewers auf `1` eingestellt werden, was das stereoskopische Rendering erzwingt.
+Um VR zu verwenden, muss der Modifikator `Video360Player.vrrender` in der Viewer-Konfiguration auf `1` gesetzt werden, was das stereoskopische Rendering erzwingt.
 
-Bei VR-Headsets und VR-HMD-Befestigungspunkten erfolgt eine Änderung der Ansicht je nach Headset-Bewegung. Im VR-Modus wird keine andere Wiedergabesteuerung bereitgestellt.
+Bei VR-Headsets und VR-HMD-Bereitstellungen erfolgt eine Änderung der Sichtweise als Reaktion auf die Kopfzeilenbewegung. Im VR-Modus wird keine andere Wiedergabesteuerung bereitgestellt.
 
-Beim Anzeigen von 360 Videos auf Geräten ohne VR-Unterstützung kann der Endbenutzer die Video-Wiedergabe und -Ansicht mit Maus, Touch oder Tastatur steuern.
+Beim Ansehen von 360-Grad-Videos auf nicht VR-fähigen Geräten kann der Endbenutzer die Maus, Berührung oder Tastatur verwenden, um die Videowiedergabe und den Anzeigepunkt zu steuern.
 
-Der Viewer unterstützt sowohl Berührungseingaben als auch Mauseingaben auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
+Der Viewer unterstützt sowohl die Touch-Eingabe als auch die Mauseingabe auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome-, Internet Explorer 11- und Edge-Webbrowser beschränkt.
 
-Der Viewer kann vollständig über die Tastatur aufgerufen werden. Siehe [Barrierefreiheit und Navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Auf den Viewer kann vollständig über die Tastatur zugegriffen werden. Siehe [Barrierefreiheit und Navigation über die Tastatur](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Einbetten von Video360 Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Einbetten des Video360-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, über den der Viewer bei einem Klick in einem separaten Browserfenster geöffnet wird. In anderen Fällen ist es erforderlich, den Viewer direkt auf der Hostingseite einzubetten. Im letzteren Fall verfügt die Webseite möglicherweise über ein statisches Seitenlayout oder über ein reaktionsfähiges Design, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung in fester Größe und Einbettung in reaktionsfähiges Design.
+Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der den Viewer beim Klicken in einem separaten Browser-Fenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt auf der Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung in feste Größe und Einbettung in responsives Design.
 
-Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilgeräten unterstützt. In den meisten Fällen kann jeweils nur ein Video abgespielt werden. Wenn ein Beginn ein Video abspielt und dann versucht, ein weiteres Video abzuspielen, wird das erste Video automatisch angehalten. Das automatisch angehaltene Video speichert seine aktuelle Wiedergabezeit, sodass der Benutzer jederzeit darauf zurückgreifen und die Wiedergabe fortsetzen kann. Die einzige Ausnahme für diese Regel ist der Chrome-Browser auf Android 4.x-Geräten, die Videos parallel abspielen können.
+Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilgeräten unterstützt. In den meisten Fällen kann jeweils nur ein Video abgespielt werden. Wenn ein Benutzer mit der Wiedergabe eines Videos beginnt und dann versucht, ein weiteres Video abzuspielen, wird das erste Video automatisch angehalten. Das automatisch angehaltene Video speichert die aktuelle Wiedergabedauer, sodass der Benutzer jederzeit darauf zugreifen und die Wiedergabe fortsetzen kann. Die einzige Ausnahme ist der Chrome-Browser auf Android 4.x-Geräten, die Videos parallel wiedergeben können.
 
-**Popup-Modus**
+**Über den Popup-Modus**
 
-Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Browserfenster-Bereich und passt sich an, falls die Größe des Browsers oder die Geräteausrichtung geändert wird.
+Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert oder die Geräteausrichtung geändert wird.
 
-Dieser Modus ist der am häufigsten verwendete für Mobilgeräte. Die Webseite lädt den Viewer mit dem JavaScript-Aufruf `window.open()`, dem ordnungsgemäß konfigurierten `A` HTML-Element oder einer anderen geeigneten Methode.
+Dieser Modus wird am häufigsten für Mobilgeräte verwendet. Die Webseite lädt den Viewer mit dem JavaScript-Aufruf `window.open()`, dem ordnungsgemäß konfigurierten HTML-Element `A` oder einer anderen geeigneten Methode.
 
 Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Es heißt [!DNL Video360Viewer.html] und befindet sich im Unterordner [!DNL html5/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
-Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS erzielen.
+Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS erreichen.
 
-Im Folgenden finden Sie ein Beispiel für HTML-Code, mit dem der Viewer in einem neuen Fenster geöffnet wird:
+Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
 ```
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
 
-**Einbettungsmodus mit fester Größe und Einbettungsmodus für reaktionsfähiges Design**
+**Über den Einbettungsmodus mit fester Größe und den Einbettungsmodus für responsives Design**
 
-Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt, die möglicherweise bereits über Kundeninhalte verfügt, die nicht mit dem Viewer zusammenhängen. Der Viewer belegt normalerweise nur einen Teil der Immobilie einer Webseite.
+Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt, die möglicherweise bereits über Kundeninhalte verfügt, die nicht mit dem Viewer in Verbindung stehen. Der Viewer belegt normalerweise nur einen Teil der Immobilien einer Web-Seite.
 
-Die wichtigsten Anwendungsfälle sind Webseiten, die auf Desktop- oder Tablet-Geräte ausgerichtet sind, sowie reaktionsfähige Seiten, die das Layout automatisch an den Gerätetyp anpassen.
+Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Seiten, auf denen das Layout automatisch an den Gerätetyp angepasst wird.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Dies ist die beste Wahl für Webseiten mit einem statischen Layout.
+Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Dies ist die beste Wahl für Webseiten mit statischem Layout.
 
-Bei der responsiven Designeinbettung wird davon ausgegangen, dass die Größe des Viewers zur Laufzeit entsprechend der Größenänderung des Containers `DIV` ggf. angepasst werden muss. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Responsive Designeinbettung setzt voraus, dass der Viewer die Größe möglicherweise zur Laufzeit ändert, wenn die Größe des Containers `DIV` geändert wird. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für reaktionsfähiges Design verhält sich der Viewer je nach Größe des Containers `DIV` der Webseite unterschiedlich. Wenn auf der Webseite nur die Breite des Containers `DIV` festgelegt wird und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass es an den Seiten aufgefüllt werden muss. Dieser Anwendungsfall ist der häufigste Fall für Webseiten mit reaktionsfähigen Webdesign-Layoutrahmen wie Bootstrap, Foundation usw.
+Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe der Web-Seite für den Container `DIV` angepasst wird. Wenn die Web-Seite nur die Breite des Containers `DIV` festlegt und dabei die Höhe unbegrenzt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Webdesign-Layoutrahmen wie Bootstrap, Foundation usw. verwenden.
 
-Andernfalls füllt der Viewer, wenn die Webseite sowohl die Breite als auch die Höhe des Containers des Viewers `DIV` festlegt, nur diesen Bereich und folgt der vom Webseitenlayout bereitgestellten Größe. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung je nach Webbrowser-Fenstergröße angepasst wird.
+Andernfalls füllt der Viewer, wenn die Web-Seite die Breite und Höhe für den Container des Viewers `DIV` festlegt, nur diesen Bereich und folgt der Größe, die das Layout der Web-Seite bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
 **Einbettung fester Größe**
 
-Der Viewer wird wie folgt zu einer Webseite hinzugefügt:
+Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
 
-1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Definieren des Containers `DIV`.
-1. Einstellen der Viewer-Größe.
+1. Festlegen der Viewer-Größe
 1. Erstellen und Initialisieren des Viewers.
 
-1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 
-   Zum Erstellen eines Viewers müssen Sie im HTML-Kopf ein Skript-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL Video360Viewer.js] einschließen. Die Datei [!DNL Video360Viewer.js] befindet sich im Unterordner [!DNL html5/js/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL Video360Viewer.js] angeben. Die Datei [!DNL Video360Viewer.js] befindet sich im Unterordner [!DNL html5/js/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Dynamic Media Classic-Server der Adobe bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Server der Adobe Dynamic Media Classic an, auf denen die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und von derselben Domäne aus bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf denen die IS-Viewer installiert sind.
 
 Der relative Pfad sieht wie folgt aus:
 
@@ -140,34 +139,34 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Sie sollten nur auf die JavaScript-Hauptdatei des Viewers `include` auf Ihrer Seite verweisen. Sie sollten keine weiteren JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Insbesondere sollten Sie nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek verweisen, die vom Viewer aus dem Kontextpfad `/s7viewers` geladen wird (so genanntes konsolidiertes SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js`- oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig durch die Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Ältere Versionen des sekundären Viewers `includes` werden von der Adobe nicht auf dem Server gespeichert.
+>Sie sollten nur auf die JavaScript-Hauptdatei für den Viewer `include` auf Ihrer Seite verweisen. Sie sollten keine zusätzlichen JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5-SDK-Bibliothek `Utils.js` , die vom Viewer aus dem Kontextpfad `/s7viewers` geladen wird (so genanntes konsolidiertes SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe behält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server bei.
 >
 >
->Infolgedessen wird die Viewer-Funktionalität bei der Bereitstellung einer neuen Produktversion durch die direkte Referenz auf sekundäres JavaScript `include`, das vom Viewer auf der Seite verwendet wird, in Zukunft unterbrochen.
+>Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion zukünftig beeinträchtigt, wenn ein direkter Verweis auf ein sekundäres JavaScript `include` gesetzt wird, das vom Viewer auf der Seite verwendet wird.
 
 1. Definieren des Containers `DIV`.
 
-   hinzufügen Sie ein leeres `DIV`-Element auf die Seite, auf der der Viewer angezeigt werden soll. Das `DIV`-Element muss seine ID definiert haben, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird durch CSS festgelegt.
+   Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres `DIV` -Element hinzu. Die Kennung des Elements `DIV` muss definiert sein, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird über CSS angegeben.
 
-   Der Platzhalter `DIV` ist ein positioniertes Element, d. h., die CSS-Eigenschaft ist auf `relative` oder `absolute` eingestellt.`position`
+   Der Platzhalter `DIV` ist ein positioniertes Element, d. h. die CSS-Eigenschaft `position` ist auf `relative` oder `absolute` festgelegt.
 
-   Damit die Vollbildfunktion in Internet Explorer ordnungsgemäß funktioniert, müssen Sie sicherstellen, dass keine anderen Elemente im DOM vorhanden sind, die eine höhere Stapelreihenfolge aufweisen als Ihr Platzhalter `DIV`.
+   Damit die Vollbildfunktion in Internet Explorer ordnungsgemäß funktioniert, dürfen keine anderen Elemente im DOM vorhanden sein, die eine höhere Stapelreihenfolge aufweisen als Ihr Platzhalter `DIV`.
 
-   Das folgende Beispiel zeigt ein definiertes Platzhalterelement `DIV`:
+   Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalterelement `DIV` :
 
    ```
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
    ```
 
-1. Einstellen der Viewer-Größe
+1. Viewer-Größe festlegen
 
-   Sie können die statische Größe des Viewers festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Maßeinheiten deklarieren oder indem Sie den Modifikator `stagesize` verwenden.`.s7video360viewer`
+   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene `.s7video360viewer` in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später einem Viewer-Vorgabendatensatz in AEM Assets zugewiesen wird - On-Demand oder explizit mit dem Befehl `style` weitergegeben wird.
+   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in AEM Assets einem Viewer-Vorgabendatensatz zugewiesen wird - On-Demand oder explizit mit dem Befehl `style` übergeben wird.
 
-   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Video360-Viewers](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
+   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Video360-Viewers](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
-   Im Folgenden finden Sie ein Beispiel zum Definieren einer statischen Viewer-Größe auf der HTML-Seite:
+   Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
    ```
    #s7viewer.s7video360viewer { 
@@ -176,7 +175,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den Modifikator `stagesize` im Viewer-Vorgabendatensatz in AEM Assets - On-Demand festlegen. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, übergeben:
+   Sie können den Modifikator `stagesize` im Viewer-Vorgabendatensatz in AEM Assets - On-Demand festlegen. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` oder als API-Aufruf übergeben, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
 
    ```
    video360viewer.setParam("stagesize", "640,640");
@@ -186,20 +185,20 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Erstellen und Initialisieren des Viewers.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.Video360Viewer`, geben Sie alle Konfigurationsinformationen an den Konstruktor weiter und rufen Sie die Methode `init()` für eine Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld `containerId` verfügen, das den Namen der Viewer-Container-ID und das verschachtelte `params`-JSON-Objekt mit vom Viewer unterstützten Konfigurationsparametern enthält.
+   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.Video360Viewer`, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode `init()` in einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld `containerId` verfügen, das den Namen der Viewer-Container-ID enthält und das verschachtelte `params` JSON-Objekt mit Konfigurationsparametern enthält, die vom Viewer unterstützt werden.
 
-   In diesem Fall muss für das `params`-Objekt mindestens die Image Serving-URL als `serverUrl`-Eigenschaft und das ursprüngliche Asset als `asset`-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und mit einer Videoserver-URL, die als `videoserverurl`-Eigenschaft übergeben wird, einem anfänglichen Asset als `asset`-Parameter und interaktiven Daten als `interactivedata`-Eigenschaft übergeben. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und Beginn erstellen.
+   In diesem Fall muss für das `params`-Objekt mindestens die Image-Serving-URL als `serverUrl`-Eigenschaft und das erste Asset als `asset`-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile, einer Videoserver-URL, die als Eigenschaft `videoserverurl` übergeben wird, einem anfänglichen Asset als Parameter `asset` und interaktiven Daten als Eigenschaft `interactivedata` erstellen und starten. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
 
-   Es ist wichtig, dass der Viewer-Container dem DOM hinzugefügt wird, damit der Viewer-Code das Container-Element anhand seiner ID finden kann. Einige Browser zögern die Erstellung von DOM bis zum Ende der Webseite. Um eine maximale Kompatibilität zu gewährleisten, rufen Sie die `init()`-Methode direkt vor dem schließenden `BODY`-Tag oder im Body `onload()`-Ereignis auf.
+   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()`-Methode direkt vor dem schließenden `BODY`-Tag oder das `onload()`-Ereignis im Hauptteil auf.
 
-   Gleichzeitig sollte das Container-Element nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit dem `display:none`-Stil ausgeblendet werden, der ihm zugewiesen wurde. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Zeitpunkt, zu dem die Webseite das Container-Element wieder in das Layout zurückführt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Containerelement nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit dem `display:none`-Stil ausgeblendet werden, der ihm zugewiesen ist. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das die notwendigen Mindestkonfigurationsoptionen an den Konstruktor übergibt und die `init()`-Methode aufruft. Das Beispiel geht von Folgendem aus:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. Im Beispiel wird von Folgendem ausgegangen:
 
    * Die Viewer-Instanz ist `video360Viewer`.
    * Der Name des Platzhalters `DIV` ist `s7viewer`.
    * Die Image Serving-URL ist `https://s7d9.scene7.com/is/image`.
-   * Die URL des Videoservers ist `https://s7d9.scene7.com/is/content`.
+   * Die Videoserver-URL lautet `https://s7d9.scene7.com/is/content`.
    * Das Asset ist `Viewers/space_station_360-AVS`.
 
    ```
@@ -215,7 +214,7 @@ Der relative Pfad sieht wie folgt aus:
    </script>
    ```
 
-   Der folgende Code ist ein vollständiges Beispiel für eine triviale Webseite, die den Video360-Viewer mit einer festen Größe einbettet:
+   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Video360-Viewer mit einer festen Größe einbettet:
 
    ```
    <!DOCTYPE html> 
@@ -245,9 +244,9 @@ Der relative Pfad sieht wie folgt aus:
    </html>
    ```
 
-**Responsive Design-Einbettung mit unbeschränkter Höhe**
+**Responsives Design mit uneingeschränkter Höhe**
 
-Bei der Integration reaktionsfähiger Designs verfügt die Webseite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Im folgenden Beispiel nehmen Sie an, dass die Webseite dem Container des Viewers `DIV` erlaubt, 40 % der Größe des Webbrowser-Fensters zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
+Bei der Einbettung responsiver Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Für das folgende Beispiel nehmen Sie an, dass die Web-Seite es dem Container des Viewers `DIV` ermöglicht, 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
 ```
 <!DOCTYPE html> 
@@ -265,13 +264,13 @@ Bei der Integration reaktionsfähiger Designs verfügt die Webseite normalerweis
 </html>
 ```
 
-Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Einbetten in feste Größe. Der einzige Unterschied besteht darin, dass Sie die Viewer-Größe nicht explizit definieren müssen.
+Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Einbetten fester Größe. Der einzige Unterschied besteht darin, dass Sie die Viewer-Größe nicht explizit definieren müssen.
 
-1. Hinzufügen der JavaScript-Datei für den Viewer zur Webseite
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Definieren des Container-DIV.
 1. Erstellen und Initialisieren des Viewers.
 
-Alle oben genannten Schritte sind identisch mit denen der Einbettung in fester Größe. hinzufügen Sie den Container DIV an das vorhandene `"holder"` DIV. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie das Container-DIV zum vorhandenen DIV `"holder"` hinzu. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
 ```
 <!DOCTYPE html> 
@@ -304,7 +303,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 **Responsive Einbettung mit definierter Breite und Höhe**
 
-Bei responsiver Einbettung mit definierter Breite und Höhe ist der Webseitenstil anders. Es stellt beide Größen für das DIV `"holder"` bereit und zentriert es im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 Prozent.
+Bei responsiver Einbettung mit definierter Breite und Höhe ist der Webseitenstil anders. Es bietet beide Größen für den DIV `"holder"` und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 Prozent.
 
 ```
 <!DOCTYPE html> 
@@ -330,7 +329,7 @@ height: 60%;
 </html>
 ```
 
-Die übrigen Einbettungsschritte sind identisch mit den Schritten, die für eine reaktionsfähige Einbettung mit uneingeschränkter Höhe verwendet werden. Das resultierende Beispiel lautet:
+Die übrigen Schritte zum Einbetten sind mit den Schritten identisch, die für das responsive Einbetten mit uneingeschränkter Höhe verwendet werden. Das folgende Beispiel zeigt:
 
 ```
 <!DOCTYPE html> 
@@ -369,11 +368,11 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
-**Einbetten mithilfe der Setter-basierten API**
+**Einbetten mit Setter-basierter API**
 
-Anstatt JSON-basierte Initialisierung zu verwenden, ist es möglich, set-basierte API- und no-args-Konstruktoren zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` und mit separaten JavaScript-Aufrufen angegeben.
+Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Die Verwendung dieses API-Konstruktors akzeptiert keine Parameter und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
 
-Im folgenden Beispiel wird die Einbettung in feste Größe mit der setter-basierten API veranschaulicht:
+Das folgende Beispiel zeigt die Verwendung der Einbettung mit fester Größe in die setter-basierte API:
 
 ```
 <!DOCTYPE html> 
@@ -400,4 +399,3 @@ video360Viewer.init();
 </body> 
 </html>
 ```
-
