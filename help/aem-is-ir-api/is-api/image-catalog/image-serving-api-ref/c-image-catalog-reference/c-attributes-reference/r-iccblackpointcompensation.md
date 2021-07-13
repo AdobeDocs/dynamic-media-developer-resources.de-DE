@@ -1,29 +1,28 @@
 ---
-description: Schwarzpunktkompensation. Gibt an, ob bei Farbkonvertierungen eine Blackpoint-Kompensation angewendet werden soll, wenn keine explizite Auswahl mit icc= erfolgt.
+description: Tiefenkompensierung. Gibt an, ob bei Farbkonvertierungen eine Blackpoint-Kompensation angewendet werden soll, wenn keine explizite Auswahl mit icc= vorgenommen wird.
 solution: Experience Manager
 title: IccBlackPointCompensation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9cf6a415-cc82-40e9-a8b9-a687ca95560e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
 
-
 # IccBlackPointCompensation{#iccblackpointcompensation}
 
-Schwarzpunktkompensation. Gibt an, ob bei Farbkonvertierungen eine Blackpoint-Kompensation angewendet werden soll, wenn keine explizite Auswahl mit icc= erfolgt.
+Tiefenkompensierung. Gibt an, ob bei Farbkonvertierungen eine Blackpoint-Kompensation angewendet werden soll, wenn keine explizite Auswahl mit icc= vorgenommen wird.
 
 ## Eigenschaften {#section-ea27b8089b89468bbc38e9e7154ea413}
 
-Flag. Auf 0 setzen, um die Blackpoint-Kompensation zu deaktivieren, oder auf 1.
+Flag. Legen Sie auf 0 fest, um die Blackpoint-Kompensation zu deaktivieren, oder auf 1, um sie zu aktivieren.
 
 ## Standard {#section-0d79b203be4c434f927b7c03c7a0062d}
 
-Vererbt von `default::IccBlackPointCompensation`, wenn nicht definiert oder leer.
+Wird von `default::IccBlackPointCompensation` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-c6ae25de4b5b45dcb068340acfee91be}
 
