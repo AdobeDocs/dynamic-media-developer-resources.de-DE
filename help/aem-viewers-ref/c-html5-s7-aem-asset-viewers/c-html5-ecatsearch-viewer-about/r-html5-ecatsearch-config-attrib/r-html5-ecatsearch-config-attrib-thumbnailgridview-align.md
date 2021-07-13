@@ -3,15 +3,14 @@ description: ThumbnailGridView.align
 solution: Experience Manager
 title: ThumbnailGridView.align
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1d7dd7f5-a5b4-43aa-9682-61f22a078f88
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.align{#thumbnailgridview-align}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Gibt die interne horizontale Ausrichtung (Verankerung) des Containers "Miniaturansichten"im Komponentenbereich an. In ThumbnailGridView wird der Container für die interne Miniaturansicht so angepasst, dass nur eine ganze Reihe von Miniaturansichten angezeigt wird. Das führt dazu, dass zwischen dem internen Container und den externen Komponentengrenzen eine gewisse Auffüllung besteht. Dieser Modifikator gibt an, wie der Container für interne Miniaturansichten horizontal in der Komponente positioniert wird. </p> </td> 
+   <td> <p> Gibt die interne horizontale Ausrichtung (Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. In ThumbnailGridView wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. Dieser Modifikator gibt an, wie der interne Miniaturansichtsbehälter horizontal innerhalb der Komponente positioniert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
