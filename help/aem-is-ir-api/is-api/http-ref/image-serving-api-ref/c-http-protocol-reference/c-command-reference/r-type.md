@@ -1,40 +1,39 @@
 ---
-description: Filter für statischen Inhaltstyp. Gibt eine Filterzeichenfolge für statischen Inhalt an, der über "/is/content"bereitgestellt wird.
+description: Filter für statischen Inhaltstyp. Gibt eine Filterzeichenfolge für statischen Inhalt an, der über /is/content bereitgestellt wird.
 solution: Experience Manager
 title: Typ
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
 
-
 # Typ{#type}
 
-Filter für statischen Inhaltstyp. Gibt eine Filterzeichenfolge für statischen Inhalt an, der über &quot;/is/content&quot;bereitgestellt wird.
+Filter für statischen Inhaltstyp. Gibt eine Filterzeichenfolge für statischen Inhalt an, der über /is/content bereitgestellt wird.
 
 `type= *`val`*`
 
 <table id="simpletable_B66354A826434A678F3DBC686A0F1436"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>Geben Sie die Filterzeichenfolge ein. </p></td> 
+  <td class="stentry"> <p>Geben Sie eine Filterzeichenfolge ein. </p></td> 
  </tr> 
 </table>
 
-Der Server vergleicht das Feld mit dem Wert von `catalog::Type` des angeforderten statischen Inhaltselements. Das Element wird an den Client zurückgegeben, wenn die Werte übereinstimmen (Groß-/Kleinschreibung beachten). Andernfalls wird ein Fehler zurückgegeben.
+Der Server vergleicht das Intervall mit dem Wert `catalog::Type` des angeforderten statischen Inhaltselements. Das Element wird an den Client zurückgegeben, wenn die Werte übereinstimmen (Groß-/Kleinschreibung beachten). Andernfalls wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-529b088434a44a9f86a64ef548d2925b}
 
-Wird nur für statische Inhaltsanforderungen (nicht Bildanforderungen) unterstützt, die über bereitgestellt werden. Wird ignoriert, wenn `catalog::Type` leer ist oder nicht definiert ist.
+Wird nur für statische (Nicht-Bild-) Inhaltsanforderungen unterstützt, die über bereitgestellt werden. Wird ignoriert, wenn `catalog::Type` leer oder nicht definiert ist.
 
 ## Standard {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-Es wird keine Typübereinstimmung angewendet, wenn `type=` nicht angegeben ist oder leer ist.
+Wenn `type=` nicht angegeben oder leer ist, wird keine Typübereinstimmung angewendet.
 
 ## Verwandte Themen {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
