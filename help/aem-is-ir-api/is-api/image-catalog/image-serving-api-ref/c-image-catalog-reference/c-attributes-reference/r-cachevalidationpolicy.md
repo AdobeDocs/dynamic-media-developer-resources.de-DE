@@ -1,34 +1,33 @@
 ---
-description: Validierungsrichtlinie für den Server-Cache Gibt an, wann serverseitige Cache-Einträge validiert werden.
+description: Validierungsrichtlinie für Server-Cache. Gibt an, wann serverseitige Cache-Einträge validiert werden.
 solution: Experience Manager
 title: CacheValidationPolicy
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d54a8ab9-d6b3-4eae-95c6-c4ab6f00ebde
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---
 
-
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-Validierungsrichtlinie für den Server-Cache Gibt an, wann serverseitige Cache-Einträge validiert werden.
+Validierungsrichtlinie für Server-Cache. Gibt an, wann serverseitige Cache-Einträge validiert werden.
 
 Bei der ablaufbasierten Validierung werden Quellbilder regelmäßig überprüft, ob sie sich geändert haben. Bei katalogbasierter Validierung werden Quellbilder erst überprüft, nachdem der Wert `catalog::TimeStamp` geändert wurde.
 
-Eine katalogbasierte Validierung wird empfohlen, wenn Bildkataloge verwendet werden. Eine ablaufbasierte Validierung sollte verwendet werden, wenn direkt auf Bilder verwiesen wird, ohne dass ein Bildkatalog verwendet wird.
+Eine Catalog-basierte Validierung wird empfohlen, wenn Bildkataloge verwendet werden. Eine ablaufbasierte Validierung sollte verwendet werden, wenn Bilder direkt referenziert werden, ohne dass ein Bildkatalog verwendet wird.
 
 ## Eigenschaften {#section-650cbddd81a24c3b8b70479248a45dc9}
 
-Enum. 0 zur Auswahl der ablaufbasierten Validierung, 1 zur Auswahl der katalogbasierten Cache-Validierung.
+Enum. 0 zum Auswählen einer ablaufbasierten Validierung, 1 zum Auswählen einer Katalogbasierten Cache-Validierung.
 
 ## Standard {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-Vererbt von `default::CacheValidationPolicy`, wenn nicht definiert oder leer.
+Wird von `default::CacheValidationPolicy` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-a0c922fa519641f2bce05e75e4eb51d0}
 
-[Katalog::TimeStamp](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-timestamp-svg.md#reference-59a27b72f4cb4a53a3baba83214c4ded)
+[catalog::TimeStamp](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-timestamp-svg.md#reference-59a27b72f4cb4a53a3baba83214c4ded)
