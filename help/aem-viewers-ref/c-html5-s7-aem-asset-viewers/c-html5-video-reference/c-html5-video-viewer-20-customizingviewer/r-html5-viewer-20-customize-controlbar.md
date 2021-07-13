@@ -1,25 +1,24 @@
 ---
-description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und darunter liegt, wie z. B. die Schaltfläche zum Abspielen/Anhalten, Lautstärkeregler usw.
+description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren UI-Steuerelemente enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche, Lautstärkeregler usw.
 solution: Experience Manager
-title: Steuerungsleiste
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Kontrollleiste
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
 
+# Kontrollleiste{#control-bar}
 
-# Steuerungsleiste{#control-bar}
-
-Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und darunter liegt, wie z. B. die Schaltfläche zum Abspielen/Anhalten, Lautstärkeregler usw.
+Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren UI-Steuerelemente enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche, Lautstärkeregler usw.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Die Steuerungsleiste nimmt immer die gesamte verfügbare Viewer-Breite ein. Sie können die Farbe, Höhe und vertikale Position mit CSS relativ zum Video-Viewer-Container ändern.
+Die Steuerleiste nimmt immer die gesamte verfügbare Viewer-Breite ein. Es ist möglich, die Farbe, Höhe und vertikale Position durch CSS in Bezug auf den Video-Viewer-Container zu ändern.
 
 Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 
@@ -33,11 +32,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -52,7 +51,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-So richten Sie einen Video-Viewer mit einer grauen Steuerungsleiste ein, die 30 Pixel hoch ist und sich oben im Video-Viewer-Container befindet.
+Um einen Video-Viewer mit einer grauen Steuerleiste einzurichten, die 30 Pixel groß ist und sich oben im Video-Viewer-Container befindet.
 
 ```
 .s7videoviewer .s7controlbar {  
@@ -62,4 +61,3 @@ height: 30px;
 background-color: rgb(51, 51, 51); 
 }
 ```
-
