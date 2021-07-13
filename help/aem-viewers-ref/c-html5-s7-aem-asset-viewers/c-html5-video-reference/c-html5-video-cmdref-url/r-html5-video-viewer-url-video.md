@@ -2,18 +2,17 @@
 description: URL-Befehl für Video-Viewer.
 solution: Experience Manager
 title: Video
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
-
-# video{#video}
+# Video{#video}
 
 URL-Befehl für Video-Viewer.
 
@@ -30,7 +29,7 @@ URL-Befehl für Video-Viewer.
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Erforderlich. (Es sei denn, der Parameter `asset` wird verwendet. Siehe [Externe Video-Unterstützung](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
+Erforderlich. (Sofern nicht der Parameter `asset` verwendet wird. Siehe [Externe Video-Unterstützung](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 
@@ -41,4 +40,3 @@ Keine.
 ```
 video=https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4
 ```
-
