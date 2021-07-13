@@ -1,21 +1,20 @@
 ---
-description: Sie können Image Serving verwenden, um Nicht-Bildinhalte in Katalogen zu verwalten und über einen separaten /is/content-Kontext bereitzustellen.
+description: Sie können Image Serving verwenden, um Nicht-Bild-Inhalte in Katalogen zu verwalten und über einen separaten /is/content-Kontext bereitzustellen.
 solution: Experience Manager
-title: Bereitstellen von statischen Inhalten (ohne Bilder)
+title: Bereitstellen von statischen (Nicht-Bild-)Inhalten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
 # Bereitstellen von statischen (Nicht-Bild-)Inhalten{#serving-static-non-image-contents}
 
-Sie können Image Serving verwenden, um Nicht-Bildinhalte in Katalogen zu verwalten und über einen separaten /is/content-Kontext bereitzustellen.
+Sie können Image Serving verwenden, um Nicht-Bild-Inhalte in Katalogen zu verwalten und über einen separaten /is/content-Kontext bereitzustellen.
 
 Diese Funktion ermöglicht die separate Konfiguration der TTL für jedes Element.
 
@@ -32,16 +31,16 @@ Image Serving unterstützt die folgenden Befehle unter [!DNL /is/content]:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache  </a> </p> </td> 
-  <td class="stentry"> <p>Ermöglicht die Deaktivierung der clientseitigen Zwischenspeicherung. </p> </td> 
+  <td class="stentry"> <p>Ermöglicht das Deaktivieren der clientseitigen Zwischenspeicherung. </p> </td> 
  </tr> 
 </table>
 
-## Grundlegende Syntax {#section-42103439011540b2b9da3b5eebb442cd}
+## Basissyntax {#section-42103439011540b2b9da3b5eebb442cd}
 
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> anfordern  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http://  <span class="varname"> server  </span>/is/content[/catalog/  <span class="varname"> item  </span>][? <span class="varname"> Modifikatoren  </span>]  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Anfrage  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http://  <span class="varname"> server  </span>/is/content[/catalog/  <span class="varname"> item  </span>][? <span class="varname"> modifiers  </span>]  </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server  </span> </span> </p> </td> 
@@ -49,19 +48,19 @@ Image Serving unterstützt die folgenden Befehle unter [!DNL /is/content]:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Katalog  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Katalog-ID. </p> </td> 
+  <td class="stentry"> <p>Katalogkennung. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item  </span> </span> </p> </td> 
-  <td class="stentry"> <p>ID des statischen Inhaltselements. </p> </td> 
+  <td class="stentry"> <p>Kennung des statischen Inhaltselements. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Modifikatoren  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modifiers  </span> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command  </span>*[&amp;  <span class="varname"> command  </span>]  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName  </span>=  <span class="varname"> Wert  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName  </span>=  <span class="varname"> value  </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName  </span> </span> </p> </td> 
@@ -75,7 +74,7 @@ Image Serving unterstützt die folgenden Befehle unter [!DNL /is/content]:
 
 ## Statische Inhaltskataloge {#section-91014f17f0d543d7aaf24539b2d7d4b9}
 
-Statische Inhaltskataloge sind ähnlich wie Bildkataloge, unterstützen jedoch weniger Datenfelder:
+Statische Inhaltskataloge ähneln Bildkatalogen, unterstützen jedoch weniger Datenfelder:
 
 <table id="table_71A565DF5EC94913AD35CB13B0C7A27D"> 
  <thead> 
@@ -86,50 +85,50 @@ Statische Inhaltskataloge sind ähnlich wie Bildkataloge, unterstützen jedoch w
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Katalog::ID  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::Id  </span> </p> </td> 
    <td colname="col2"> <p>Die Katalogdatensatzkennung für dieses statische Inhaltselement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Katalog::Pfad  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::Path  </span> </p> </td> 
    <td colname="col2"> <p>Der Dateipfad für dieses Inhaltselement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Katalog::Ablauf  </span> </p> </td> 
-   <td colname="col2"> <p>Die TTL für dieses Inhaltselement; <span class="codeph"> attribute::Expiration </span> wird verwendet, wenn nicht angegeben oder leer. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::Expiration  </span> </p> </td> 
+   <td colname="col2"> <p>TTL für dieses Inhaltselement; <span class="codeph"> attribute::Expiration </span> wird verwendet, wenn kein Wert angegeben oder leer ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Katalog::TimeStamp  </span> </p> </td> 
-   <td colname="col2"> <p>Zeitstempel der Dateiänderung; erforderlich, wenn katalogbasierte Validierung mit dem Attribut <span class="codeph"> aktiviert ist::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::TimeStamp  </span> </p> </td> 
+   <td colname="col2"> <p>Zeitstempel der Dateiänderung; erforderlich, wenn die Katalogbasierte Validierung mit dem Attribut <span class="codeph">::CacheValidationPolicy </span> aktiviert ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Katalog::UserData  </span> </p> </td> 
-   <td colname="col2"> <p>Optionale Metadaten, die mit diesem statischen Inhaltselement verknüpft sind; für den Client mit <span class="codeph"> req=userdata </span> verfügbar. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::UserData  </span> </p> </td> 
+   <td colname="col2"> <p>Optionale Metadaten, die mit diesem statischen Inhaltselement verknüpft sind; verfügbar für den Client mit <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Katalog::UserType  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::UserType  </span> </p> </td> 
    <td colname="col2"> <p>Optionaler Datentyp; kann verwendet werden, um Anforderungen nach statischen Inhalten mit dem Befehl <span class="codeph"> type= zu filtern.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Filtern von statischem Inhalt {#section-4c41bf41ff994910840c1352683d1f37}
+## Filtern von statischen Inhalten {#section-4c41bf41ff994910840c1352683d1f37}
 
-Dieser Mechanismus kann dazu beitragen, dass Kunden nur Inhalte erhalten, die ihren Bedürfnissen entsprechen. Wenn der statische Inhalt mit entsprechenden `catalog::UserType`-Werten versehen ist, kann der Client der Anforderung den Befehl `type=` hinzufügen. Image Serving vergleicht den mit dem Befehl `type=` bereitgestellten Wert mit dem Wert `catalog::UserType` und gibt im Falle einer Nichtübereinstimmung einen Fehler anstelle von potenziell unangemessenen Inhalten zurück.
+Dieser Mechanismus kann dazu beitragen, dass Kunden nur Inhalte erhalten, die ihren Bedürfnissen entsprechen. Wenn der statische Inhalt mit geeigneten `catalog::UserType` -Werten getaggt wird, kann der Client den Befehl `type=` zur Anfrage hinzufügen. Image Serving vergleicht den mit dem Befehl `type=` bereitgestellten Wert mit dem Wert `catalog::UserType` und gibt im Fall einer Nichtübereinstimmung einen Fehler anstelle von möglicherweise ungeeigneten Inhalten zurück.
 
 ## Videountertiteldateien {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
-Sie können Videountertiteldateien (WebVTT), CSS oder beliebige Textdateien im JSONP-Format einschließen. Die JSON-Antwort wird nachfolgend beschrieben.
+Sie können Videountertiteldateien (WebVTT), CSS oder beliebige Textdateien im JSONP-Format einschließen. Die JSON-Antwort wird unten beschrieben.
 
-* Bei WebVTT-Dateien lautet der Mime-Typ der Antwort text/javascript. JSON wird nicht zurückgegeben; stattdessen wird Javascript zurückgegeben, das eine Methode mit JSON aufruft. Die ID und der Handler sind optional.
-* Bei CSS-Dateien lautet der MIME-Typ der Antwort text/javascript. Die ID und der Handler sind optional.
+* Bei WebVTT-Dateien lautet der MIME-Typ der Antwort text/javascript. JSON wird nicht zurückgegeben; Stattdessen wird JavaScript zurückgegeben, das eine Methode mit JSON aufruft. Sowohl die ID als auch der Handler sind optional.
+* Bei CSS-Dateien lautet der MIME-Typ der Antwort text/javascript. Sowohl die ID als auch der Handler sind optional.
 * Standardmäßig wird die UTF-8-Kodierung angewendet, um sicherzustellen, dass sie korrekt dekodiert ist. Die standardmäßige Größenbeschränkung beträgt 2 MB.
 
-Sie können auch Spuren für andere Arten von Metadaten mit Zeitbegrenzung verwenden. Die Quelldaten für jedes track-Element sind eine Textdatei, die aus einer Liste von Timed-Hinweisen besteht. Cues können Daten in Formaten wie JSON oder CSV enthalten.
+Sie können auch Tracks für andere Arten zeitgesteuerter Metadaten verwenden. Die Quelldaten für jedes Verfolgungselement sind Textdateien, die aus einer Liste zeitgesteuerter Hinweise bestehen. Cues können Daten in Formaten wie JSON oder CSV enthalten.
 
-Weitere Informationen zum JSONP-Format finden Sie unter [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP).
+Weitere Informationen zum JSONP-Format finden Sie unter [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) .
 
-Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](http://www.json.org).
+Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](http://www.json.org) .
 
 ## Verwandte Themen {#section-7b28631016044a22a3a6762fd64771e9}
 
-[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ,  [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [Bildkatalog-Referenz](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
+[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ,  [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [Image Catalog Reference](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
