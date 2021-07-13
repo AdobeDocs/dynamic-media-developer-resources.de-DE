@@ -1,21 +1,20 @@
 ---
-description: Anforderungstyp Gibt den Anforderungstyp an.
+description: Anfragetyp. Gibt den Anforderungstyp an.
 solution: Experience Manager
 title: req
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
 
-
 # req{#req}
 
-Anforderungstyp Gibt den Anforderungstyp an.
+Anfragetyp. Gibt den Anforderungstyp an.
 
 `req={validate|contents|oversetstatus|exists}`
 
@@ -29,20 +28,19 @@ Anforderungstyp Gibt den Anforderungstyp an.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> validieren</span> </p> </td> 
-   <td colname="col2"> <p> Gibt Fehler beim Rendern der FXG-Datei mit den bereitgestellten URL-Modifikatoren zurück. </p> </td> 
+   <td colname="col2"> <p> Gibt Fehler beim Rendern des FXG mit den bereitgestellten URL-Modifikatoren zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Inhalt</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die XML-Liste aller Elemente mit dem Attributwert <span class="codeph"> s7:element</span> und einer Liste aller Seiten im fxg-Dokument zurück. </p> </td> 
+   <td colname="col2"> <p> Gibt eine XML-Liste aller Elemente mit dem Attributwert <span class="codeph"> s7:element</span> und einer Liste aller Seiten im FXG-Dokument zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Gibt die XML-Liste zurück, deren <span class="codeph"> &lt;RichText/&gt;</span> -Elemente überschrieben werden. </p> <p>Gibt eine XML-Liste von <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>-Elementen zurück, die zur Verarbeitung auf Clientseite überschrieben werden. Es werden nur <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>-Elemente zurückgegeben, die Übersatz sind. <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> elementidis ein erforderliches  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> Attribut bei Verwendung von  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Beliebige Übersatzelemente <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> ohne <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> werden nicht aufgelistet. Jedes <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>-Element in der Liste hat das <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> und den Begrenzungsrahmen des Übersatztextrahmens. Das Attribut <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> gibt den Textindex im Textabschnitt an, bis zu dem Text in den Rahmen passen konnte. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatusonly gilt nur für  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> Elemente im angeforderten FXG. Es werden keine <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>-Elemente aus eingebetteten FXGs Liste. </p> </td> 
+   <td colname="col2"> <p>Gibt die XML-Liste zurück, deren <span class="codeph"> &lt;RichText/&gt;</span> -Elemente überschrieben werden. </p> <p>Gibt eine XML-Liste mit <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> Elementen zurück, die für die Verarbeitung auf Client-Seite überschrieben sind. Nur <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> überschriebene Elemente werden zurückgegeben. <span class="+ topic/ph pr-d/codeph codeph"> s7: </span> elementidis ist ein erforderliches  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> Attribut bei Verwendung von  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Alle Übersatzelemente <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> ohne <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> werden nicht aufgeführt. Jedes <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> -Element in der Liste hat den <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> und den Begrenzungsrahmen des übergesetzten Textrahmens. Das Attribut <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> gibt den Textindex in der Story an, bis zu dem der Text in den Frame passt. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatusonly gilt nur für  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> Elemente in der angeforderten FXG. Es werden keine <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> -Elemente aus eingebetteten FXGs aufgelistet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vorhanden</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>reqId, eindeutige Anforderungskennung </p> <p>Gibt eine einzelne Eigenschaft mit dem Namen catalogRecord.exists zurück. Der Eigenschaftswert wird auf "1"gesetzt, wenn der angegebene Katalogeintrag im Bild oder Standardkatalog vorhanden ist, andernfalls auf "0". "req=exists"-Anforderungen für den Kontext "/is/content"weisen auf das Vorhandensein oder Fehlen eines bestimmten Datensatzes im statischen Inhaltskatalog hin. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>eindeutige Anforderungskennung von reqId </p> <p>Gibt eine einzelne Eigenschaft mit dem Namen catalogRecord.exists zurück. Der Eigenschaftswert wird auf "1"gesetzt, wenn der angegebene Katalogeintrag im Bild oder Standardkatalog vorhanden ist, andernfalls auf "0". req=exists -Anforderungen für den /is/content-Kontext zeigen an, ob ein angegebener Datensatz im statischen Inhaltskatalog vorhanden ist oder nicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
