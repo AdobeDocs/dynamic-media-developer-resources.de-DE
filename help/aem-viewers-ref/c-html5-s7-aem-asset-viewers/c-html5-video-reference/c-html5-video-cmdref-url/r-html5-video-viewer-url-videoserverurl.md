@@ -2,16 +2,15 @@
 description: URL-Befehl für Video-Viewer.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Video
+role: Developer,User
+exl-id: 945c32e0-a67b-4c27-b661-26510615d757
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 6%
 
 ---
-
 
 # videoServerUrl{#videoserverurl}
 
@@ -23,14 +22,14 @@ URL-Befehl für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Der Stammpfad des Videoservers. Wenn keine Domäne angegeben ist, wird stattdessen die Domäne angewendet, von der die Seite bereitgestellt wird. Es gilt die Standardauflösung für URI-Pfade. </p> </td> 
+   <td colname="col2"> <p> Der Stammpfad des Videoservers. Wenn keine Domäne angegeben ist, wird stattdessen die Domäne angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Optional. Für die standardmäßige SaaS-Nutzung nicht erforderlich.
+Optional. Nicht für die standardmäßige SaaS-Nutzung erforderlich.
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 
@@ -41,4 +40,3 @@ Optional. Für die standardmäßige SaaS-Nutzung nicht erforderlich.
 ```
 videoServerUrl=http://s7d1.scene7.com/is/content/
 ```
-
