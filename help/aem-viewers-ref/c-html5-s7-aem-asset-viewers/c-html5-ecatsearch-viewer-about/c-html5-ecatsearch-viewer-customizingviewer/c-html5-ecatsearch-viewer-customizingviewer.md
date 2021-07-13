@@ -4,9 +4,9 @@ keywords: responsiv
 solution: Experience Manager
 title: Anpassen des eCatalog Search-Viewers
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 0%
@@ -168,7 +168,7 @@ background-position: -0px -560px;
 ## Allgemeine Hinweise und Hinweise zu Stilen {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Beim Anpassen der Viewer-Benutzeroberfläche mit CSS wird die Verwendung der `!IMPORTANT`-Regel nicht unterstützt, um Viewer-Elemente zu formatieren. Insbesondere sollte die Regel `!IMPORTANT` nicht verwendet werden, um Standard- oder Laufzeitstile zu überschreiben, die vom Viewer- oder Viewer-SDK bereitgestellt werden. Der Grund dafür ist, dass dies das Verhalten von richtigen Komponenten beeinflussen kann. Stattdessen sollten Sie CSS-Selektoren mit der richtigen Spezifität verwenden, um CSS-Eigenschaften festzulegen, die in diesem Referenzhandbuch dokumentiert sind.
-* Alle Pfade zu externen Assets innerhalb von CSS werden mit dem CSS-Speicherort und nicht mit dem HTML-Seitenspeicherort des Viewers aufgelöst. Beachten Sie diese Regel, wenn Sie die Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie entweder die Standard-Assets sowie die Pfade oder aktualisieren Sie sie in der benutzerdefinierten CSS.
+* Alle Pfade zu externen Assets innerhalb von CSS werden mit dem CSS-Speicherort und nicht mit dem HTML-Seitenspeicherort des Viewers aufgelöst. Beachten Sie diese Regel, wenn Sie die Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie entweder die standardmäßigen Assets sowie oder aktualisieren Sie Pfade innerhalb des benutzerdefinierten CSS.
 * Das bevorzugte Format für Bitmap-Grafiken ist PNG.
 * Bitmap-Grafiken werden Benutzeroberflächenelementen mithilfe der `background-image` -Eigenschaft zugewiesen.
 * Die Eigenschaften `width` und `height` eines Benutzeroberflächenelements definieren die logische Größe. Die Größe der an `background-image` übergebenen Bitmap wirkt sich nicht auf die logische Größe aus.
@@ -176,7 +176,7 @@ background-position: -0px -560px;
 * Um eine Schaltfläche aus der Benutzeroberfläche zu entfernen, fügen Sie `display:none` zur CSS-Klasse hinzu.
 * Sie können verschiedene Formate für Farbwerte verwenden, die von CSS unterstützt werden. Wenn Sie Transparenz benötigen, verwenden Sie das Format `rgba(R,G,B,A)`. Andernfalls können Sie das Format `#RRGGBB` verwenden.
 
-## Allgemeine Elemente der Benutzeroberfläche {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Allgemeine Benutzeroberflächen-Elemente {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Im Folgenden finden Sie die Referenzdokumentation zu Elementen der Benutzeroberfläche, die für den eCatalog Search Viewer gilt:
 
