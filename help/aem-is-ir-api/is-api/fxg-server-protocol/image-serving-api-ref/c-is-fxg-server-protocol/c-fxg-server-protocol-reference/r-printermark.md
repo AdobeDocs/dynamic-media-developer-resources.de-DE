@@ -1,25 +1,24 @@
 ---
-description: Anzeigen von Druckmarken. Gibt an, wie die Druckmarken angezeigt werden.
+description: Anzeigen von Druckermarkierungen. Gibt an, wie die Druckermarkierungen angezeigt werden.
 solution: Experience Manager
 title: printerMark
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 30%
+source-wordcount: '120'
+ht-degree: 31%
 
 ---
 
-
 # printerMark{#printermark}
 
-Anzeigen von Druckmarken. Gibt an, wie die Druckmarken angezeigt werden.
+Anzeigen von Druckermarkierungen. Gibt an, wie die Druckermarkierungen angezeigt werden.
 
-` printerMark= *`Trim `*, *`marksbleed `*, *`marksregistration `*, *`marksccolor `*, *`barspage information styleline `*, *``*, *` `*, *`weightLayer embed`*`
+` printerMark= *`trim `*, *`marksbleed `*, *`marksregistration `*, *`markscolor `*, *`barspage information styleline `*, *``*, *` `*, *`gewichtt layer embed`*`
 
-Die verschiedenen Markierungen können deaktiviert oder aktiviert werden. Der Stil der Druckmarken kann auch gesteuert werden.
+Die verschiedenen Markierungen können deaktiviert oder aktiviert werden. Der Stil der Druckermarkierungen kann ebenfalls gesteuert werden.
 
 Die folgenden Werte sind gültig:
 
@@ -52,11 +51,11 @@ Die folgenden Werte sind gültig:
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>Standard </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>Standard ist Standard </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist "Standard" </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>line Gewichtung= </p></td> 
-  <td class="stentry"> <p>Jeder Wert im Bereich 0.125 - 2.0, beide Werte inklusive. </p></td> 
+  <td class="stentry"> <p>Zeilengewicht = </p></td> 
+  <td class="stentry"> <p>Jeder Wert im Bereich 0,125-2,0, beide Werte enthalten. </p></td> 
   <td class="stentry"> <p>Der Standardwert ist „0.25“. </p></td> 
  </tr> 
  <tr class="strow"> 
