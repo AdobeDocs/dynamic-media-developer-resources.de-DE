@@ -1,21 +1,20 @@
 ---
-description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder in den PDF-Vorgaben in InDesign generiert wird.
+description: PDF-Auftragsoptionen anwenden Eine Auftrags- oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder von PDF-Vorgaben im InDesign generiert wird.
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 46%
+source-wordcount: '233'
+ht-degree: 47%
 
 ---
 
-
 # joboption{#joboption}
 
-PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld &quot;PDF-Optionen speichern&quot;oder in den PDF-Vorgaben in InDesign generiert wird.
+PDF-Auftragsoptionen anwenden Eine Auftrags- oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld &quot;PDF-Optionen speichern&quot;oder von PDF-Vorgaben im InDesign generiert wird.
 
 ` joboption= *`Wert`*`
 
@@ -26,7 +25,7 @@ PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder PDF-Vorgabe ist ei
  </tr> 
 </table>
 
-Die Auftragsoptionendatei kann von IPS/Dynamic Media Classic hochgeladen und veröffentlicht werden. Die in der Auftragsoptionendatei enthaltenen PDF-Optionen werden beim Generieren der PDF-Datei verwendet.
+Die Auftragsoptionendatei kann von IPS/Dynamic Media Classic hochgeladen und veröffentlicht werden. Die in der Auftragsoptionendatei enthaltenen PDF-Optionen werden bei der Erstellung der PDF-Datei verwendet.
 
 Die folgenden Optionen werden derzeit unterstützt:
 
@@ -41,7 +40,7 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Schriftarten </p></td> 
-  <td class="stentry"> <p> Alle Schriften einbetten </p> <p> OpenType-Schriftarten einbetten </p> <p> Subset-Schriften, wenn Prozentsatz der Zeichen kleiner ist als: </p> <p> Liste immer einbetten </p> <p> Liste niemals einbetten </p> </td> 
+  <td class="stentry"> <p> Alle Schriftarten einbetten </p> <p> OpenType-Schriftarten einbetten </p> <p> Subset-Schriften, wenn Prozentsatz der Zeichen kleiner ist als: </p> <p> Liste immer einbetten </p> <p> Liste niemals einbetten </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Farbe </p></td> 
@@ -78,7 +77,6 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Standards </p></td> 
-  <td class="stentry"> <p>Kompatibilitätsstandard. </p></td> 
+  <td class="stentry"> <p>Compliance-Standard. </p></td> 
  </tr> 
 </table>
-
