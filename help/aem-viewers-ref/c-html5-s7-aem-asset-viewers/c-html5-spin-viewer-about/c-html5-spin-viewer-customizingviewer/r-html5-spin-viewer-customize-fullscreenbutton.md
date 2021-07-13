@@ -1,21 +1,20 @@
 ---
-description: Durch Klicken auf diese Schaltfläche wird der Vollbildmodus vom Viewer gestartet bzw. beendet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+description: Diese Schaltfläche bewirkt, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn er vom Benutzer angeklickt wird. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 title: Schaltfläche "Vollbild"
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
 
+# Schaltfläche &quot;Vollbild&quot;{#full-screen-button}
 
-# Vollbildmodus-Schaltfläche{#full-screen-button}
-
-Durch Klicken auf diese Schaltfläche wird der Vollbildmodus vom Viewer gestartet bzw. beendet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popupmodus funktioniert und das System keinen nativen Vollbildmodus unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+Diese Schaltfläche bewirkt, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn er vom Benutzer angeklickt wird. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,19 +36,19 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p>Position vom linken Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Auffüllung. </p> </td> 
+   <td colname="col2"> <p>Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,18 +64,18 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p>Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die Attributselektoren `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98).
 
-Beispiel: Um eine Vollbildschaltfläche mit 32 x 32 Pixeln einzurichten, die sechs Pixel vom oberen und rechten Rand des Viewers entfernt ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind:
+Beispiel: Zum Einrichten einer Vollbildschaltfläche mit einer Größe von 32 x 32 Pixel, die sechs Pixel vom oberen und rechten Rand des Viewers entfernt ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus anzeigt, sofern ausgewählt oder nicht ausgewählt:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 
@@ -110,4 +109,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
