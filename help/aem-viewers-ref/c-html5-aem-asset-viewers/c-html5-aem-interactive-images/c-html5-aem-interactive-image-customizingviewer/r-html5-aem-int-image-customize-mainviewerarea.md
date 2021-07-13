@@ -1,21 +1,20 @@
 ---
-description: Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Zoombild befindet. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
+description: Der Hauptansichtsbereich ist der Bereich, der vom Zoombild belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 solution: Experience Manager
-title: Hauptbereich des Viewers
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Hauptanzeige-Bereich
+feature: Dynamic Media Classic,Viewer,SDK/API,Interaktive Bilder
+role: Developer,User
+exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
 
+# Hauptanzeige-Bereich{#main-viewer-area}
 
-# Hauptviewer-Bereich{#main-viewer-area}
-
-Der Hauptbereich der Ansicht ist der Bereich, in dem sich das Zoombild befindet. Normalerweise wird sie auf den verfügbaren Gerätebildschirm eingestellt, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich ist der Bereich, der vom Zoombild belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -45,12 +44,12 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um einen Viewer mit einem weißen Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 1174 x 500 Pixel festzulegen.
+Beispiel: Zum Einrichten eines Viewers mit weißem Hintergrund ( `#FFFFFF`) und seiner Größe 1174 x 500 Pixel.
 
 ```
 .s7interactiveimage { 
@@ -59,4 +58,3 @@ Beispiel: Um einen Viewer mit einem weißen Hintergrund ( `#FFFFFF`) einzurichte
  height: 500px;  
 }
 ```
-
