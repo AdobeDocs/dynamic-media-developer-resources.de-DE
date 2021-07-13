@@ -3,9 +3,9 @@ description: Diese Schaltfläche bewirkt, dass der Viewer den Vollbildmodus aufr
 solution: Experience Manager
 title: Schaltfläche "Vollbild"
 feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 2%
