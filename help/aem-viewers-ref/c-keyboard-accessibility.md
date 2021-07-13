@@ -1,35 +1,34 @@
 ---
-description: Alle Funktionen, die in der Benutzeroberfläche "Einfaches Zoomen", "E-Katalog", "E-Katalog-Suche", "Flyout", "Inline-Zoom", "Gemischte Medien", "Rotationsset", "Video", "Zoom", "Abmessungen", "Karussell", "Interaktives Bild", "Interaktives Video"und "Video360"verfügbar sind, sind, sind über die Tastatur verfügbar.
+description: Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katalog, die E-Katalogsuche, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Zoom, Dimensional (3D), Karussell, interaktives Bild, interaktives Video und Video360 verfügbar sind, sind über die Tastatur verfügbar.
 solution: Experience Manager
-title: Barrierefreiheit und Navigation
+title: Tastaturzugriff und Navigation
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
-# Barrierefreiheit und Navigation{#keyboard-accessibility-and-navigation}
+# Tastaturzugriff und Navigation{#keyboard-accessibility-and-navigation}
 
-Alle Funktionen, die in der Benutzeroberfläche &quot;Einfaches Zoomen&quot;, &quot;E-Katalog&quot;, &quot;E-Katalogsuche&quot;, &quot;Flyout&quot;, &quot;Inline-Zoom&quot;, &quot;Gemischte Medien&quot;, &quot;Rotationsset&quot;, &quot;Video&quot;, &quot;Zoom&quot;, &quot;Karussell&quot;, &quot;Abmessungen&quot;, &quot;Interaktives Bild&quot;, &quot;Interaktives Video&quot;und &quot;Video360&quot;verfügbar sind, sind, sind über die Tastatur verfügbar.
+Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katalog, die E-Katalogsuche, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Zoom, Karussell, Dimensional (3D), interaktive Bilder, interaktive Videos und Video360 verfügbar sind, sind über die Tastatur verfügbar.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Barrierefreiheit und Navigation {#topic-f5650e9493404e55a3627c8d1366b861}
+## Tastaturzugriff und Navigation {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Alle Funktionen, die in der Benutzeroberfläche &quot;Einfaches Zoomen&quot;, &quot;E-Katalog&quot;, &quot;E-Katalogsuche&quot;, &quot;Flyout&quot;, &quot;Inline-Zoom&quot;, &quot;Gemischte Medien&quot;, &quot;Rotationsset&quot;, &quot;Video&quot;, &quot;Zoom&quot;, &quot;Karussell&quot;, &quot;Abmessungen&quot;, &quot;Interaktives Bild&quot;, &quot;Interaktives Video&quot;und &quot;Video360&quot;verfügbar sind, sind, sind über die Tastatur verfügbar.
+Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katalog, die E-Katalogsuche, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Zoom, Karussell, Dimensional (3D), interaktive Bilder, interaktive Videos und Video360 verfügbar sind, sind über die Tastatur verfügbar.
 
-Endbenutzer können mithilfe der Tastenkombinationen **[!UICONTROL Tab]** und **[!UICONTROL Umschalt+Tab]** zwischen den Elementen der Viewer-Benutzeroberfläche navigieren. Mithilfe von **[!UICONTROL Tab]** wird der Eingabefokus auf das nächste Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Durch die Verwendung von **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurückgesetzt. Der Fokusdurchlauf folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich in der Reihenfolge von links nach rechts und von oben nach unten.
+Ein Endbenutzer kann mithilfe der Tastenanschläge **[!UICONTROL Tab]** und **[!UICONTROL Umschalt+Tab]** zwischen Elementen der Viewer-Benutzeroberfläche navigieren. Durch Verwendung von **[!UICONTROL Tab]** wird der Eingabefokus auf das nächste Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Durch Verwendung von **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurückgesetzt. Das Fokus-Traversal folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich von links nach rechts und dann von oben nach unten.
 
-Je nach Betriebssystem- und Webbrowsereinstellungen erhält das Benutzeroberflächenelement mit Eingabefokus eine visuelle Fokusanzeige. Der visuelle Indikator kann beispielsweise ein dünner Rand sein, der um das Element der Benutzeroberfläche gerendert wird.
+Je nach Betriebssystem und Webbrowsereinstellungen erhält das Element der Benutzeroberfläche mit Eingabefokus eine visuelle Fokusanzeige. Beispielsweise kann der visuelle Indikator ein dünner Rahmen sein, der um das Element der Benutzeroberfläche gerendert wird.
 
-Sie können diese Fokushervorhebung im Viewer-CSS deaktivieren oder anpassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. &quot;Einfach vergrößern&quot;oder &quot;Interaktives Video&quot;) auf **Anpassen *Name des Viewers*** >** Fokusmarkierung **.
+Es ist möglich, diese Fokushervorhebung im Viewer-CSS zu deaktivieren oder anzupassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. Basic Zoom or Interactive Video) auf **Anpassen *Name des Viewers*** >** Fokusmarkierung **.
 
-Tastenanschläge, die von einzelnen Elementen der Benutzeroberfläche des Viewers unterstützt werden, sind in den meisten Fällen offensichtlich und leicht zu entdecken.
+Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers unterstützt werden, sind in den meisten Fällen offensichtlich und leicht zu entdecken.
 
 <table id="table_8C49100412224324BF1DBF7FDFDCCBF8"> 
  <thead> 
@@ -44,91 +43,91 @@ Tastenanschläge, die von einzelnen Elementen der Benutzeroberfläche des Viewer
    <td colname="col2"> <p>Leerzeichen oder Eingabetaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ein- oder Auszoomen </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> +  </span> bzw.  <span class="uicontrol"> -  </span>. </p> </td> 
+   <td colname="col1"> <p>Vergrößern oder Verkleinern </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> +  </span> oder  <span class="uicontrol"> -  </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom zurücksetzen </p> </td> 
-   <td colname="col2"> <p>Esc-Taste. </p> </td> 
+   <td colname="col2"> <p>Esc-Schlüssel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bildschwenk </p> </td> 
-   <td colname="col2"> <p>Nach oben, Nach unten, Nach links oder Nach rechts. </p> </td> 
+   <td colname="col2"> <p>Nach oben, Nach unten, Nach-links oder Nach-rechts-Pfeiltaste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Drehen eines 360-Grad-Bildes </p> </td> 
-   <td colname="col2"> <p>Verwenden Sie die Pfeiltasten, wenn das Bild zurückgesetzt wird. </p> <p>Verwenden Sie beim Arbeiten mit mehrdimensionalen Rotationssets die Nach-oben- oder Nach-unten-Taste. </p> </td> 
+   <td colname="col2"> <p>Verwenden Sie Pfeiltasten, wenn das Bild zurückgesetzt ist. </p> <p>Verwenden Sie beim Arbeiten mit mehrdimensionalen Rotationssets die Nach-oben- oder Nach-unten-Pfeiltaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Produktfeldauswahl </p> </td> 
-   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Taste; Home oder End key. </p> </td> 
+   <td colname="col1"> <p>Auswahl von Produktmustern </p> </td> 
+   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Pfeiltaste; Home- oder End-Schlüssel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Produktmuster-Aktivierung </p> </td> 
+   <td colname="col1"> <p>Aktivierung von Produktmustern </p> </td> 
    <td colname="col2"> <p>Leerzeichen oder Eingabetaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video und interaktives Video, allmählicher Rücklauf </p> </td> 
-   <td colname="col2"> <p>Nach-links- oder Nach-oben-Taste. </p> </td> 
+   <td colname="col1"> <p>Video und interaktives Video, stufenweise zurückspulen </p> </td> 
+   <td colname="col2"> <p>Nach-links- oder Nach-oben-Pfeiltaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video und interaktives Video - schnell vorwärts </p> </td> 
-   <td colname="col2"> <p>Nach-rechts- oder Nach-unten-Taste. </p> </td> 
+   <td colname="col1"> <p>Video und interaktives Video, schnell vorwärts </p> </td> 
+   <td colname="col2"> <p>Pfeiltaste nach rechts oder unten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video und interaktives Video - ganz nach vorne oder Ende </p> </td> 
-   <td colname="col2"> <p>Start- bzw. Endschlüssel. </p> </td> 
+   <td colname="col1"> <p>Video und interaktives Video, Anfang oder Ende </p> </td> 
+   <td colname="col2"> <p>Home- bzw. End-Schlüssel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video und interaktives Video, Steuerung der Lautstärke, wenn der Fokus auf den Regler liegt </p> </td> 
-   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Taste; Home oder End key. </p> </td> 
+   <td colname="col1"> <p>Video und interaktives Video: Steuern Sie die Lautstärke, wenn der Fokus auf den Regler liegt </p> </td> 
+   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Pfeiltaste; Home- oder End-Schlüssel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video und interaktives Video, veränderliche Lautstärke </p> </td> 
-   <td colname="col2"> <p>Mit den Tasten "Pfeil", "Start"und "Ende"können Sie die Lautstärke steuern, wenn der Fokus auf den Schieberegler gelegt wird. </p> </td> 
+   <td colname="col2"> <p>Taste "Pfeil", "Startseite"und "Ende", um die Lautstärke zu steuern, wenn der Fokus auf den Regler gelegt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video: Wenn das modale Dialogfeld angezeigt wird, wird die Fokusüberschreitung auf Dialogfeldsteuerelemente beschränkt. </p> </td> 
+   <td colname="col1"> <p>Video: Wenn das modale Dialogfeld angezeigt wird, wird die Fokus-Umkehrung auf Dialogfeldsteuerelemente beschränkt. </p> </td> 
    <td colname="col2"> <p>Esc-Taste zum Schließen des Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Karussell, Bannerbild in der Haupt-Ansicht ändern </p> </td> 
-   <td colname="col2"> <p>Nach-links- oder Nach-rechts-Taste. </p> </td> 
+   <td colname="col1"> <p>Karussell, Bannerbild in der Hauptansicht ändern </p> </td> 
+   <td colname="col2"> <p>Nach-links- oder Nach-rechts-Pfeiltaste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Karussell, Hotspot-Auswahl und Hotspot-Aktivierung </p> </td> 
-   <td colname="col2"> <p>Hotspot-Auswahl: Nach oben, Nach unten, Nach-links oder Nach-rechts-Taste </p> <p>Hotspot-Aktivierung: Leerzeichen oder Eingabetaste. </p> </td> 
+   <td colname="col2"> <p>Hotspot-Auswahl: Nach-oben-, Nach-unten-, Links- oder Nach-rechts-Pfeiltaste </p> <p>Hotspot-Aktivierung: Leerzeichen oder Eingabetaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog ändern Sie das Seitenbild in der Haupt-Ansicht </p> </td> 
-   <td colname="col2"> <p> Nach-links- oder Nach-rechts-Taste. </p> </td> 
+   <td colname="col1"> <p>eCatalog das Seitenbild in der Hauptansicht ändern </p> </td> 
+   <td colname="col2"> <p> Pfeiltasten nach links oder rechts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog, Miniaturansicht </p> </td> 
-   <td colname="col2"> <p>Pfeiltasten; Start- und Endschlüssel. </p> </td> 
+   <td colname="col1"> <p>eCatalog, Auswahl von Miniaturansichten </p> </td> 
+   <td colname="col2"> <p>Pfeiltasten; Home- und End-Schlüssel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog, Farbfelder, Aktivierung </p> </td> 
+   <td colname="col1"> <p>eCatalog, Farbfeldaktivierung </p> </td> 
    <td colname="col2"> <p>Leerzeichen oder Eingabetaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog, Hotspot-Auswahl </p> </td> 
+   <td colname="col1"> <p>eCatalog, Hotspot-Auswahl </p> </td> 
    <td colname="col2"> <p>Pfeiltasten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog, Aktivierung </p> </td> 
-   <td colname="col2"> <p>Leertaste oder Eingabetaste. </p> </td> 
+   <td colname="col1"> <p>eCatalog, Aktivierung </p> </td> 
+   <td colname="col2"> <p>Leerzeichen oder Eingabetaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog aktivieren, Dropdown-Komponenten </p> </td> 
-   <td colname="col2"> <p> Nach-unten-Taste; Leerzeichen oder Eingabetaste. </p> </td> 
+   <td colname="col1"> <p>eCatalog zur Aktivierung von Dropdown-Komponenten </p> </td> 
+   <td colname="col2"> <p> Nach-unten-Pfeiltaste; Leerzeichen oder Eingabetaste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog, wenn der Fokus im Dropdown-Bedienfeld liegt </p> </td> 
+   <td colname="col1"> <p>eCatalog, wenn der Fokus im Dropdown-Bedienfeld liegt </p> </td> 
    <td colname="col2"> <p>Verwenden Sie die Pfeiltasten, um ein bestimmtes Element im Bedienfeld auszuwählen, bevor Sie es aktivieren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>E-Katalog, wenn ein modales Dialogfeld angezeigt wird, wird die Fokusüberschreitung auf Steuerelemente im Dialogfeld beschränkt. </p> </td> 
+   <td colname="col1"> <p>eCatalog: Wenn ein modales Dialogfeld angezeigt wird, beschränkt sich die Fokus-Umkehrung auf Dialogfeldsteuerelemente. </p> </td> 
    <td colname="col2"> <p>Esc-Taste zum Schließen des Dialogfelds. </p> </td> 
   </tr> 
  </tbody> 
