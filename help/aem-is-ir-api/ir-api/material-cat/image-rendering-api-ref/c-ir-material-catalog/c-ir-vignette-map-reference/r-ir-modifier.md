@@ -1,23 +1,22 @@
 ---
-description: Anforderungs-Modifikator-Zeichenfolge. Keine oder mehr Bildwiedergabebefehle, durch "&"getrennt. Dient zum Speichern von Vorlagen und Modifikatoren, die bei jeder Anforderung dieses Vignettenzuordnungseintrags angewendet werden.
+description: Anforderungs-Modifikatorzeichenfolge. Keine oder mehr Bild-Rendering-Befehle, getrennt durch "&"-Zeichen. Dient zum Speichern von Vorlagen und Modifikatoren, die bei jeder Anforderung für diesen Vignettenzuordnungseintrag angewendet werden sollen.
 solution: Experience Manager
 title: Modifikator
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 19b6dd5d-847d-46a2-8138-2b35d2e9b930
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
 
-
 # Modifikator{#modifier}
 
-Anforderungs-Modifikator-Zeichenfolge. Keine oder mehr Bildwiedergabebefehle, durch &quot;&amp;&quot;getrennt. Dient zum Speichern von Vorlagen und Modifikatoren, die bei jeder Anforderung dieses Vignettenzuordnungseintrags angewendet werden.
+Anforderungs-Modifikatorzeichenfolge. Keine oder mehr Bild-Rendering-Befehle, getrennt durch &quot;&amp;&quot;-Zeichen. Dient zum Speichern von Vorlagen und Modifikatoren, die bei jeder Anforderung für diesen Vignettenzuordnungseintrag angewendet werden sollen.
 
-Befehle in diesem Feld werden von denselben Befehlen in der Anforderung oder Vorlage überschrieben, auf die dieser Datensatz verweist.
+Befehle in diesem Feld werden durch dieselben Befehle in der Anforderung oder Vorlage überschrieben, von der aus dieser Datensatz referenziert wird.
 
 ## Eigenschaften {#section-b7b01c307ebc41d48c34db77307dbfd1}
 
