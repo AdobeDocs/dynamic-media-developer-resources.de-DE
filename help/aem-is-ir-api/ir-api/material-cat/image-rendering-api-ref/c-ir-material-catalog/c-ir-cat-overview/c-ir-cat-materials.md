@@ -1,20 +1,19 @@
 ---
-description: Weitere Informationen zu Materialien, die vom Image Rendering verwendet werden, finden Sie unter Materialien in der HTTP-Protokoll-Referenz.
+description: Informationen zu den vom Image Rendering verwendeten Materialien finden Sie unter Materialien in der HTTP-Protokollreferenz.
 solution: Experience Manager
 title: Materialien
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6c1b8a9b-ac32-42df-a59a-05933b614907
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
 
-
 # Materialien{#materials}
 
-Weitere Informationen zu Materialien, die vom Image Rendering verwendet werden, finden Sie unter Materialien in der HTTP-Protokoll-Referenz.
+Informationen zu den vom Image Rendering verwendeten Materialien finden Sie unter Materialien in der HTTP-Protokollreferenz.
 
 Siehe [Materialien](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f).
