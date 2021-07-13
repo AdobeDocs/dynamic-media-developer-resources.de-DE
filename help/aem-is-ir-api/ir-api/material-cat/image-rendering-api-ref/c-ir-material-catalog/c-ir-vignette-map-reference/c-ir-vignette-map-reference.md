@@ -1,20 +1,19 @@
 ---
 description: Wenn für einen Materialkatalog eine Vignettenzuordnung erforderlich ist, muss der relative oder absolute Pfad der Vignettenzuordnungsdatei im Attribut VignetteMapFile angegeben werden.
 solution: Experience Manager
-title: Vignettenzuordnungsverweis
+title: Vignettenzuordnungsreferenz
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 77e4d131-f043-4091-8bf7-f85cc0e98002
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
+# Vignettenzuordnungsreferenz{#vignette-map-reference}
 
-# Vignette-Map-Referenz{#vignette-map-reference}
+Wenn für einen Materialkatalog eine Vignettenzuordnung erforderlich ist, muss der relative oder absolute Pfad der Vignettenzuordnungsdatei im Attribut::VignetteMapFile angegeben werden.
 
-Wenn für einen Materialkatalog eine Vignettenzuordnung erforderlich ist, muss der relative oder absolute Pfad der Vignettenzuordnungsdatei in attribute::VignetteMapFile angegeben werden.
-
-Einträge in der Vignettenzuordnungsdatei eines bestimmten Materialkatalogs setzen Einträge in der Vignettenzuordnungsdatei des Standardkatalogs außer Kraft.
+Einträge in der Vignettenzuordnungsdatei eines bestimmten Materialkatalogs überschreiben Einträge in der Vignettenzuordnungsdatei des Standardkatalogs.
