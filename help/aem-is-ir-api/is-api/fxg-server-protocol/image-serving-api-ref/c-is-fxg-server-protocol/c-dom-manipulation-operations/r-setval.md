@@ -1,17 +1,16 @@
 ---
-description: Legen Sie einen Textknotenwert für s7 elementID fest.
+description: Legen Sie den Textknotenwert für s7 elementID fest.
 solution: Experience Manager
 title: setVal
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
-
 
 # setVal{#setval}
 
@@ -23,7 +22,7 @@ Wenn für ein FXG-Knotenelement ein `s7:elementID` definiert ist, kann der Textw
 
 ## Beispiel {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-Wenn ein `s7:elementID="paragraph1"`-Attribut für einen `TextGraphic`-Knoten definiert ist, ist Folgendes gültig:
+Angenommen, ein `s7:elementID="paragraph1"` -Attribut ist für einen `TextGraphic` -Knoten definiert, dann ist Folgendes gültig:
 
 `&setVal.paragraph=Hello`
 
