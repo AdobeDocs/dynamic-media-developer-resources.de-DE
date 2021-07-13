@@ -1,28 +1,27 @@
 ---
-description: Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
+description: Materialoberflächenart. Gibt den Oberflächentyp des Materials an.
 solution: Experience Manager
 title: Typ
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 333b8954-e256-4ba1-8055-c4d625470673
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 22%
 
 ---
 
-
 # Typ{#type}
 
-Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
+Materialoberflächenart. Gibt den Oberflächentyp des Materials an.
 
 `type=0...19`
 
 <table id="simpletable_482728CD58144E7BBB2912B2F105FDCA"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>Unbekannt, Server verwendet Standard </p></td> 
+  <td class="stentry"> <p>Unbekannt: Server verwendet Standard </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -30,7 +29,7 @@ Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Naturholz </p></td> 
+  <td class="stentry"> <p>Naturwald </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
@@ -38,7 +37,7 @@ Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p></td> 
-  <td class="stentry"> <p>Brushed Metal </p></td> 
+  <td class="stentry"> <p>Gebürstetes Metall </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p></td> 
@@ -50,7 +49,7 @@ Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>Enamel/Lacquer </p></td> 
+  <td class="stentry"> <p>Email/Lacquer </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -102,15 +101,15 @@ Werkstoffoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
 </table>
 
-Wird in Verbindung mit `gloss=` und `rough=` verwendet, um Reflektions- und Glanz-Effekt-Verhalten zu steuern. Unterschiedliche Materialien erzeugen unterschiedliche Effekte, selbst wenn `gloss=` und `rough=` gleich sind.
+Wird zusammen mit `gloss=` und `rough=` verwendet, um Reflektions- und Glanzeffektverhalten zu steuern. Unterschiedliche Materialien erzeugen unterschiedliche Effekte, selbst wenn `gloss=` und `rough=` gleich sind.
 
 ## Eigenschaften {#section-2345b2508273426295ce8ac46182ea64}
 
-Materialattribut. Wird ignoriert, wenn die Vignette keine 3D-Reflexionsdaten enthält oder wenn Glanzeffekte in der Vignette deaktiviert sind.
+Materialattribut. Wird ignoriert, wenn die Vignette keine 3D-Reflektionsdaten enthält oder wenn Glanzeffekte in der Vignette deaktiviert sind.
 
 ## Standard {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` wenn das Material auf einem Katalogeintrag basiert. Andernfalls `type=0`. Wenn nicht angegeben oder `type=0`, wählt der Server abhängig vom Objekt &quot;Zielgruppe&quot;und den anderen Materialattributen eine geeignete Standardeinstellung aus.
+`catalog::Type` wenn das Material auf einem Katalogeintrag basiert. Andernfalls `type=0`. Wenn nicht angegeben oder `type=0`, wählt der Server je nach Zielobjekt und anderen Materialattributen einen geeigneten Standard aus.
 
 ## Verwandte Themen {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
