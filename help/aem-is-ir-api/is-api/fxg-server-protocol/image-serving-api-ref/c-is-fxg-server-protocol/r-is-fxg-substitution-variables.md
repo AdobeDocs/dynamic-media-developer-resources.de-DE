@@ -1,21 +1,20 @@
 ---
-description: Substitutionsvariable wird verwendet, um Werte von der Anforderungs-URL auf auf dem Server gespeicherte FXG-Vorlagen zu übertragen.
+description: Ersatzvariable wird verwendet, um Werte von der Anforderungs-URL an auf dem Server gespeicherte FXG-Vorlagen zu übertragen.
 solution: Experience Manager
 title: Ersatzvariablen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
+# Ersatzvariablen{#substitution-variables}
 
-# Substitutionsvariablen{#substitution-variables}
-
-Substitutionsvariable wird verwendet, um Werte von der Anforderungs-URL auf auf dem Server gespeicherte FXG-Vorlagen zu übertragen.
+Ersatzvariable wird verwendet, um Werte von der Anforderungs-URL an auf dem Server gespeicherte FXG-Vorlagen zu übertragen.
 
 ` $ *``*= *`varvalue`*`
 
@@ -26,12 +25,11 @@ Substitutionsvariable wird verwendet, um Werte von der Anforderungs-URL auf auf 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Wert, auf den die Variable festgelegt werden soll (Zeichenfolge). </p> </td> 
+  <td class="stentry"> <p>Wert, auf den die Variable gesetzt werden soll (Zeichenfolge). </p> </td> 
  </tr> 
 </table>
 
-* Variablendefinitionen und -verweise können im Abschnitt &quot;Abfrage&quot;der Anforderungs-URL auftreten.
-* Variablen werden wie oben definiert, ähnlich wie andere IS-Befehle. der führende &#39;$&#39; identifiziert den Befehl als Variablendefinition.
-* Beim Variablennamen `*`var`*` wird die Groß-/Kleinschreibung beachtet und kann aus einer beliebigen Kombination von Buchstaben, Zahlen, &#39;-&#39; und &#39;_&#39; bestehen.
-* Wichtiger Wert muss für eine sichere HTTP-Übertragung mit einer einzigen Pass-URL kodiert sein.
-
+* Variablendefinitionen und -verweise können im Abfrageabschnitt der Anforderungs-URL auftreten.
+* Variablen werden wie oben definiert, ähnlich wie andere IS-Befehle; Der vorangestellte &#39;$&#39; gibt den Befehl als Variablendefinition an.
+* Beim Variablennamen `*`var`*` wird zwischen Groß- und Kleinschreibung unterschieden und kann aus einer beliebigen Kombination von Buchstaben, Zahlen, &#39;-&#39; und &#39;_&#39; bestehen.
+* Für eine sichere HTTP-Übertragung muss der wichtige Wert als URL-kodiert mit einem Durchgang angegeben werden.
