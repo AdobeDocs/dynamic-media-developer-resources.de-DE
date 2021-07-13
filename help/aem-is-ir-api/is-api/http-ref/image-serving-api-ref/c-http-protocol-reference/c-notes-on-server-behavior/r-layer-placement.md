@@ -1,27 +1,25 @@
 ---
-description: Die Ebenen werden positioniert, indem die Herkunft der Ebene (Herkunft=) an der Herkunft der Hintergrundebene an einem durch "pos="festgelegten Offset ausgerichtet wird.
+description: Die Ebenen werden positioniert, indem der Ebenenursprung (origin=) an der Herkunft der Hintergrundebene an einem durch pos= festgelegten Versatz ausgerichtet wird.
 solution: Experience Manager
 title: Ebenenplatzierung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1ce7bef3-a0f8-44fc-a146-7e819c30eee8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-
 # Ebenenplatzierung{#layer-placement}
 
-Die Ebenen werden positioniert, indem die Herkunft der Ebene (Herkunft=) an der Herkunft der Hintergrundebene an einem durch &quot;pos=&quot;festgelegten Offset ausgerichtet wird.
+Die Ebenen werden positioniert, indem der Ebenenursprung (origin=) an der Herkunft der Hintergrundebene an einem durch pos= festgelegten Versatz ausgerichtet wird.
 
-Wenn die Herkunft der Ebene nicht explizit für eine Bildebene angegeben ist, wird sie wie folgt berechnet:
+Wenn der Ebenenursprung nicht explizit für eine Bildebene angegeben ist, wird er wie folgt berechnet:
 
 1. Legen Sie den Bildanker fest. Verwenden Sie `anchor=` oder, falls nicht angegeben, `catalog::Anchor`.
-1. Wenn der Bildanker definiert ist, wenden Sie die Ebene transformiert an und `extend=`, um sie in einen Herkunft=-Wert zu konvertieren.
-1. Wenn kein Bildanker definiert ist, wird die Herkunft der Ebene in der Mitte des Ebenenrechtecks platziert (nach dem Anwenden von `extend=`).
+1. Wenn der Bildanker definiert ist, wenden Sie die Ebene an, um sie zu transformieren, und `extend=` , um sie in den Wert origin= zu konvertieren.
+1. Wenn kein Bildanker definiert ist, wird der Ebenenursprung in der Mitte des Ebenenrechtecks platziert (nach dem Anwenden von `extend=`).
 
 ![](assets/layerplacement.png)
-
