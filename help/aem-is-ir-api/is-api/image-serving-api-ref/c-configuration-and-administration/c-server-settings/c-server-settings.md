@@ -1,34 +1,33 @@
 ---
-description: In diesem Abschnitt werden alle bearbeitbaren Konfigurationseinstellungen beschrieben, die nach Interessensgebieten gruppiert sind.
+description: In diesem Abschnitt werden alle bearbeitbaren Konfigurationseinstellungen beschrieben, gruppiert nach Interessensgebieten.
 solution: Experience Manager
 title: Servereinstellungen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: c3296c7a-35b3-4f01-a793-35c8304ffd95
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
-
 # Servereinstellungen{#server-settings}
 
-In diesem Abschnitt werden alle bearbeitbaren Konfigurationseinstellungen beschrieben, die nach Interessensgebieten gruppiert sind.
+In diesem Abschnitt werden alle bearbeitbaren Konfigurationseinstellungen beschrieben, gruppiert nach Interessensgebieten.
 
 * [Allgemein](r-general.md)
 * [Inhaltsdatenordner](r-content-data-folders.md)
-* [Server-Cache](r-server-caches.md)
-* [Bildgrößenbegrenzungen](r-image-size-limits.md)
+* [Server-Caches](r-server-caches.md)
+* [Bildgrößenbeschränkungen](r-image-size-limits.md)
 * [Bildkatalogdienst](r-image-catalog-service.md)
 * [SSL](r-ssl.md)
 * [Server](r-server-server-settings.md)
 * [Zugriffsprotokollierung](r-access-logging.md)
-* [Debug_trace-Protokollierung](r-debug-trace-logging.md)
-* [Fehler-Umleitung](r-error-redirection.md)
+* [Debug_Trace-Protokollierung](r-debug-trace-logging.md)
+* [Fehlerumleitung](r-error-redirection.md)
 * [Cache-Clustering](r-cache-clustering.md)
 * [Überwachungs- und Warnsystem](r-monitoring-and-alerting-system.md)
-* [Warnschwellenwerte](r-alert-thresholds.md)
+* [Warnschwellen](r-alert-thresholds.md)
 * [SVG](r-svg.md)
 * [Medienset-Antworten](r-media-set-responses.md)
