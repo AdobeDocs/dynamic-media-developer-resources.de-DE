@@ -1,27 +1,26 @@
 ---
-description: Alle Konfigurationsdateien befinden sich in install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Der Server muss möglicherweise neu gestartet werden, damit die Änderungen wirksam werden.
+description: Alle Konfigurationsdateien befinden sich im Ordner install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Möglicherweise muss der Server neu gestartet werden, damit die Änderungen wirksam werden.
 solution: Experience Manager
 title: Serverkonfigurationsdateien
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Administrator,User
+exl-id: 6261844c-b63d-477b-8a48-963be868aa22
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-
 # Serverkonfigurationsdateien{#server-configuration-files}
 
-Alle Konfigurationsdateien befinden sich in install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Der Server muss möglicherweise neu gestartet werden, damit die Änderungen wirksam werden.
+Alle Konfigurationsdateien befinden sich im Ordner install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Möglicherweise muss der Server neu gestartet werden, damit die Änderungen wirksam werden.
 
 >[!NOTE]
 >
->Die meisten Serverkonfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Diese Eigenschaften sind für den internen Servergebrauch bestimmt und dürfen nur nach ausdrücklicher Anweisung des technischen Kundendiensts von Dynamic Media geändert werden.
+>Die meisten Serverkonfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Diese Eigenschaften sind für die interne Verwendung des Servers bestimmt und dürfen nur geändert werden, wenn dies vom technischen Support von Dynamic Media ausdrücklich angewiesen ist.
 
-In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdateien besprochen:
+In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdateien erläutert:
 
 <table id="table_D307B20E65B742A7AC3DEBF1E650719E"> 
  <thead> 
@@ -33,7 +32,7 @@ In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdat
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
-   <td> <p>Serverüberwachungskonfiguration. </p> </td> 
+   <td> <p>Server-Supervisor-Konfiguration. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
@@ -45,11 +44,11 @@ In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdat
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
-   <td> <p>Konfiguration des Katalogdienstes. </p> </td> 
+   <td> <p>Konfiguration des Katalogdienstes . </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> monitor.conf</span> </p> </td> 
-   <td> <p>Serverüberwachungskonfiguration. </p> </td> 
+   <td> <p>Konfiguration der Serverüberwachung. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> ImageServerRegistry.xml</span> </p> </td> 
@@ -58,4 +57,4 @@ In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdat
  </tbody> 
 </table>
 
-Die Konfigurationsdateien werden später in diesem Dokument ausführlicher erläutert.
+Die Konfigurationsdateien werden weiter unten in diesem Dokument erläutert.
