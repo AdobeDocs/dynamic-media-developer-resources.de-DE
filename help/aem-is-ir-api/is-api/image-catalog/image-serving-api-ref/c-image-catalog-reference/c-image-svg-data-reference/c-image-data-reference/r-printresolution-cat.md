@@ -3,21 +3,20 @@ description: Druckauflösung. Druckauflösung für das Bild in voller Größe.
 solution: Experience Manager
 title: PrintResolution
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 6%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
-
 
 # PrintResolution{#printresolution}
 
 Druckauflösung. Druckauflösung für das Bild in voller Größe.
 
-Dieser Wert wird in die Kopfzeile des Antwortbilds eingebettet, es sei denn, er wird mit `printRes=` überschrieben.
+Dieser Wert wird in die Kopfzeile des Antwortbilds eingebettet, es sei denn, er wird durch `printRes=` überschrieben.
 
 ## Eigenschaften {#section-de3c1f73da7b43208beeec841c1778c1}
 
