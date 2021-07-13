@@ -1,40 +1,38 @@
 ---
-description: Überprüfen Sie nach der Installation von Image Serving unter Linux die Installation.
+description: Nachdem Sie Image Serving unter Linux installiert haben, überprüfen Sie die Installation.
 solution: Experience Manager
 title: Installation überprüfen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 273478ab-f245-48ef-a125-fb738054484e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
+# Installation überprüfen{#verifying-the-installation}
 
-# Überprüfen der Installation{#verifying-the-installation}
-
-Überprüfen Sie nach der Installation von Image Serving unter Linux die Installation.
+Nachdem Sie Image Serving unter Linux installiert haben, überprüfen Sie die Installation.
 
 Der Image-Server wird als Linux-Daemon installiert.
 
-**So überprüfen Sie die Installation**
+**Überprüfen der Installation**
 
-1. Stellen Sie sicher, dass Image Serving für den automatischen Beginn konfiguriert ist und dass es ausgeführt wird:
+1. Stellen Sie sicher, dass Image Serving so konfiguriert ist, dass es automatisch gestartet wird und ausgeführt wird:
 
    `> /sbin/service ImageServing status`
 
    >[!NOTE]
    >
-   >Sie müssen über Root-Berechtigungen zum Ausführen dieser Skripten verfügen.
+   >Sie müssen über Root-Berechtigungen verfügen, um diese Skripte ausführen zu können.
 
-1. Öffnen Sie einen Internetbrowser auf demselben oder einem anderen Host und überprüfen Sie die StandardserAntwort(en):
+1. Öffnen Sie einen Internet-Browser auf demselben oder einem anderen Host und überprüfen Sie die standardmäßigen Server-Antworten:
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit &quot; `imageServer.`&quot;beginnen. Dies weist darauf hin, dass der Plattformserver erfolgreich mit dem Image-Server kommunizieren konnte.
->Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentation- und Demopakete durchgeführt werden, sofern sie installiert sind.
-
+Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit &quot;`imageServer.`&quot;beginnen und angeben, dass der Platform-Server erfolgreich mit dem Image-Server kommunizieren konnte.
+>Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentations- und Demopakete durchgeführt werden, sofern sie installiert sind.
