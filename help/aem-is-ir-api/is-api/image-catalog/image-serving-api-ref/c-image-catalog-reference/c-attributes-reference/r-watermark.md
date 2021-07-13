@@ -1,17 +1,16 @@
 ---
-description: Wasserzeichenauswahl. Gibt die Katalog-ID des Katalogdatensatzes an, der als Wasserzeichenbild oder Vorlage verwendet werden soll.
+description: Wasserzeichenauswahl. Gibt die Katalogkennung des Katalogdatensatzes an, der als Wasserzeichenbild oder Vorlage verwendet werden soll.
 solution: Experience Manager
 title: Wasserzeichen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 54c27ea0-e87f-41ce-ae8d-71c9fabe412e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 5%
 
 ---
-
 
 # Wasserzeichen{#watermark}
 
@@ -21,12 +20,12 @@ Falls angegeben, wendet der Server das Wasserzeichen auf die angeforderten Bildd
 
 ## Eigenschaften {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `Catalog::Id`-Wert in diesem Bildkatalog (oder im Standardkatalog, falls unter [!DNL default.ini] angegeben) sein.
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `Catalog::Id` -Wert in diesem Bildkatalog sein (oder im Standardkatalog, falls in [!DNL default.ini] angegeben).
 
 ## Standard {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Vererbt von `default::Watermark`, wenn nicht definiert. Wenn definiert, aber leer, wird für diesen Bildkatalog kein Wasserzeichen angewendet, auch wenn `default::Watermark` definiert ist.
+Vererbt von `default::Watermark` , falls nicht definiert. Wenn definiert, aber leer, wird für diesen Bildkatalog kein Wasserzeichen angewendet, selbst wenn `default::Watermark` definiert ist.
 
 ## Verwandte Themen {#section-f15dbe31013849828d78588742dde58e}
 
-[Katalog::ID](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
+[catalog::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
