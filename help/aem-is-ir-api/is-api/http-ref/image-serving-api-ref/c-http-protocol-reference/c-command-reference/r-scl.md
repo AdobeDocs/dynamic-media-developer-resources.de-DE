@@ -1,21 +1,20 @@
 ---
-description: Ansicht skalieren. Skaliert das Composite-Bild um das Gegenteil von invFactor.
+description: Skalierungsansicht. Skaliert das zusammengesetzte Bild um das Gegenteil von invFactor.
 solution: Experience Manager
 title: scl
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 5%
 
 ---
 
-
 # scl{#scl}
 
-Ansicht skalieren. Skaliert das Composite-Bild um das Gegenteil von invFactor.
+Skalierungsansicht. Skaliert das zusammengesetzte Bild um das Gegenteil von invFactor.
 
 `scl= *`invFactor`*`
 
@@ -26,7 +25,7 @@ Ansicht skalieren. Skaliert das Composite-Bild um das Gegenteil von invFactor.
  </tr> 
 </table>
 
-Bei `scl=1` wird keine Skalierung angewendet. *`invFactor`* größer als 1,0 nach unten skaliert und kleiner als 1,0 vergrößert das Composite-Bild.
+Bei `scl=1` wird keine Skalierung angewendet. *`invFactor`* größer als 1,0 Downskala und kleiner als 1,0 vergrößert das Composite-Bild.
 
 Wenn `scl=` angegeben ist und `wid=` und/oder `hei=` ebenfalls vorhanden sind, wird das Bild nach der Skalierung auf `wid=` und/oder `hei=` zugeschnitten.
 
@@ -36,15 +35,15 @@ Wenn `scl=` angegeben ist und `wid=` und/oder `hei=` ebenfalls vorhanden sind, w
 
 ## Eigenschaften {#section-60af012719db477db4a4703e9a6da5f5}
 
-Ansicht-Attribut. Gilt unabhängig von der aktuellen Ebeneneinstellung.
+Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Standard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des Composite-Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
+Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
 
 ## Beispiel {#section-a33f6239476a4b438d939656ad99aa76}
 
-Eine allgemeine Anwendung von `scl=` finden Sie im Beispiel unter [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096).
+Eine gängige Anwendung von `scl=` finden Sie im Beispiel unter [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) .
 
 ## Verwandte Themen {#section-ccefd5de59924059903d66d4974ce317}
 
