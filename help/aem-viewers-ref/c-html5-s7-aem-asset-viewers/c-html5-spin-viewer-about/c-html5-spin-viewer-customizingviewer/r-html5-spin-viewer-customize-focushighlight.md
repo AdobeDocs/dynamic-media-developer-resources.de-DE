@@ -1,27 +1,26 @@
 ---
-description: Die Hervorhebung des Eingabefokus, die um das fokussierte Viewer-UI-Element angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
+description: Die Hervorhebung des Eingabefokus, die um das fokussierte Element der Viewer-Benutzeroberfläche herum angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 solution: Experience Manager
 title: Fokushervorhebung
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: dc59e081-97cc-46fe-a8f7-0690833a8290
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
 
+# Fokushervorhebung{#focus-highlight}
 
-# Fokusmarkierung{#focus-highlight}
-
-Die Hervorhebung des Eingabefokus, die um das fokussierte Viewer-UI-Element angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
+Die Hervorhebung des Eingabefokus, die um das fokussierte Element der Viewer-Benutzeroberfläche herum angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften**
 
-Das Erscheinungsbild wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7spinviewer *:focus
@@ -36,17 +35,16 @@ Das Erscheinungsbild wird mit der folgenden CSS-Klassenauswahl gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Umriss  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Entwurf  </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um die standardmäßige Browserfokushervorhebung für alle Elemente der Benutzeroberfläche des Viewers zu deaktivieren, fügen Sie den folgenden CSS-Selektor zum Stylesheet des Viewers hinzu:
+Beispiel: Um die standardmäßige Browserfokus-Hervorhebung für alle Elemente der Viewer-Benutzeroberfläche zu deaktivieren, fügen Sie den folgenden CSS-Selektor zum Stylesheet des Viewers hinzu:
 
 ```
 .s7spinviewer *:focus { 
  outline: none; 
 }
 ```
-
