@@ -3,17 +3,16 @@ description: Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben und
 solution: Experience Manager
 title: Suchergebnisbereich
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
 
-
-# Suchergebnisbedienfeld{#search-results-panel}
+# Suchergebnisbereich{#search-results-panel}
 
 Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben und dem Hauptbereich, in dem Informationsmeldungen oder Suchergebnisse angezeigt werden.
 
@@ -21,7 +20,7 @@ Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben und dem Hauptber
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Wenn das Bedienfeld aktiv ist, wird die Benutzeroberfläche des Viewers mit einer halbtransparenten Füllung abgedeckt. Die Farbe und Deckkraft dieser Füllung wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Wenn das Bedienfeld aktiv ist, wird die Viewer-Benutzeroberfläche mit einer halbtransparenten Füllung abgedeckt. Die Farbe und Deckkraft dieser Füllung wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -46,7 +45,7 @@ Wenn das Bedienfeld aktiv ist, wird die Benutzeroberfläche des Viewers mit eine
  </tbody> 
 </table>
 
-Das Suchergebnisbedienfeld nimmt immer die gesamte verfügbare Viewer-Höhe ein. Sie können die Breite jedoch konfigurieren. Sie können die Breite auf einen absoluten Pixelwert einstellen. Dies ist eine Standardeinstellung für Haltepunkte mittlerer und großer Größe. Oder Sie können die Breite auf 100 % einstellen, damit das Suchergebnisbedienfeld den gesamten Viewer-Bereich abdeckt. Die Bereichsbreite wird durch den folgenden CSS-Klassenselektor gesteuert:
+Das Suchergebnisbedienfeld belegt immer die gesamte verfügbare Viewer-Höhe. Sie können jedoch die Breite konfigurieren. Sie können die Breite auf einen absoluten Pixelwert einstellen, der eine Standardeinstellung für Breakpoints mittlerer und großer Größe ist. Alternativ können Sie die Breite auf 100 % festlegen, damit der Suchergebnisbereich den gesamten Viewer-Bereich einnimmt. Die Bereichsbreite wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -63,7 +62,7 @@ Das Suchergebnisbedienfeld nimmt immer die gesamte verfügbare Viewer-Höhe ein.
  </tbody> 
 </table>
 
-Beispiel: Um ein Suchergebnisbedienfeld mit einer Breite von 250 Pixel an großen und mittelgroßen Haltepunkten einzurichten, verwenden Sie ein Bedienfeld mit voller Größe für einen kleinen Haltepunkt:
+Beispiel: Um ein Suchergebnisbedienfeld mit einer Breite von 250 Pixel für große und mittelgroße Breakpoints einzurichten, verwenden Sie ein Bedienfeld mit voller Größe für einen kleinen Breakpoint:
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -74,13 +73,13 @@ Beispiel: Um ein Suchergebnisbedienfeld mit einer Breite von 250 Pixel an große
 }
 ```
 
-Der obere Bereich des Suchergebnisbedienfelds ist dem Sucheingabefeld gewidmet. Die Auffüllung an den Seiten des Eingabefelds wird durch den folgenden CSS-Klassenselektor gesteuert:
+Oben im Suchergebnisbereich befindet sich das Sucheingabefeld. Der Abstand auf den Seiten des Eingabefelds wird durch die folgende CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
 ```
 
-**CSS-Eigenschaften des Containers für die Sucheingabe**
+**CSS-Eigenschaften des Sucheingabecontainers**
 
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
@@ -91,7 +90,7 @@ Der obere Bereich des Suchergebnisbedienfelds ist dem Sucheingabefeld gewidmet. 
  </tbody> 
 </table>
 
-Das Sucheingabefeld wird durch den folgenden CSS-Klassenselektor gesteuert:
+Das Eingabefeld für die Suche wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput
@@ -107,7 +106,7 @@ Das Sucheingabefeld wird durch den folgenden CSS-Klassenselektor gesteuert:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
-   <td colname="col2"> <p> Die innere Umrandung zwischen den Grenzen des Eingabefelds und dem Eingabetext. </p> </td> 
+   <td colname="col2"> <p> Der innere Abstand zwischen dem Eingabefeldbereich und dem Eingabetext. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
@@ -118,13 +117,13 @@ Das Sucheingabefeld wird durch den folgenden CSS-Klassenselektor gesteuert:
    <td colname="col2"> <p>Rand des Sucheingabefelds </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: So richten Sie ein Sucheingabefeld mit 0 Pixel Höhe und 14 Pixel Textschriftart ein:
+Beispiel: Zum Einrichten eines Sucheingabefelds mit 0 Pixel Höhe und 14 Pixel Textschrift:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput { 
@@ -134,7 +133,7 @@ Beispiel: So richten Sie ein Sucheingabefeld mit 0 Pixel Höhe und 14 Pixel Text
 }
 ```
 
-Die Suchschaltfläche links neben dem Sucheingabefeld in Form des &quot;Aussehglases&quot; wird standardmäßig von der folgenden CSS-Klassenauswahl gesteuert:
+Die Suchschaltfläche links neben dem Sucheingabefeld in Form des standardmäßig &quot;Look-glass&quot;wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
  .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton
@@ -154,11 +153,11 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des &quot;Aussehgl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Die URL zum Symbol "Aussehen". </p> </td> 
+   <td colname="col2"> <p>Die URL zum "Look-glass"-Symbolbild. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
-   <td colname="col2"> <p>Die Größe des Symbols für "aussehendes Glas". </p> </td> 
+   <td colname="col2"> <p>Die Größe des Symbols "Aussehendes Glas". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
@@ -171,7 +170,7 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des &quot;Aussehgl
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Suchschaltfläche mit dem Symbol &quot;Aussehendes Glas&quot;im Format 26 x 26 Pixel; 30 Pixel mit einem Rand von 1 Pixel:
+Beispiel: Zum Einrichten einer Suchschaltfläche mit einem 26 x 26 Pixel &quot;Look glass&quot;-Symbol. 30 Pixel mit einem Rahmen von 1 Pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -184,7 +183,7 @@ Beispiel: Zum Einrichten einer Suchschaltfläche mit dem Symbol &quot;Aussehende
 }
 ```
 
-Im Suchergebnisbedienfeld wird möglicherweise eine Textaufforderung angezeigt, wenn die Funktion zum ersten Mal aufgerufen wird. Es zeigt dem Benutzer auch eine Meldung an, wenn die Suche keine Ergebnisse zurückgegeben hat. In allen Fällen wird Text im Hauptteil des Suchergebnisbedienfelds angezeigt und über die folgende CSS-Klassenauswahl gesteuert:
+Im Suchergebnisbereich wird möglicherweise eine Textaufforderung angezeigt, wenn die Funktion zum ersten Mal aufgerufen wird. Er zeigt dem Benutzer auch eine Nachricht an, wenn bei seiner Suche keine Ergebnisse zurückgegeben wurden. In allen Fällen wird Text im Hauptteil des Bedienfelds für Suchergebnisse angezeigt und über die folgende CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -199,7 +198,7 @@ Im Suchergebnisbedienfeld wird möglicherweise eine Textaufforderung angezeigt, 
    <td colname="col2"> <p> Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
@@ -207,7 +206,7 @@ Im Suchergebnisbedienfeld wird möglicherweise eine Textaufforderung angezeigt, 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -215,11 +214,11 @@ Im Suchergebnisbedienfeld wird möglicherweise eine Textaufforderung angezeigt, 
 
 >[!NOTE]
 >
->Dieser Textbereich unterstützt die Attributauswahl `state`, mit der verschiedene Stile auf verschiedene Textmeldungen angewendet werden können. Insbesondere entspricht `state='prompt'` der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. `state='results'` entspricht dem Text mit Informationen über Suchtreffer; und `state='no_results'` entspricht dem Text, der angezeigt wird, wenn die Abfrage keine Ergebnisse zurückgegeben hat.
+>Dieser Textbereich unterstützt die Attributauswahl `state`, mit der verschiedene Stile auf verschiedene Textnachrichten angewendet werden können. Insbesondere `state='prompt'` entspricht der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. `state='results'` entspricht dem Text mit Informationen zu Suchtreffern; und `state='no_results'` dem Text entspricht, der angezeigt wird, wenn die Suchanfrage keine Ergebnisse zurückgegeben hat.
 
-Der Nachrichtentext kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Der Nachrichtentext kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Zum Einrichten eines Textfelds mit einer grauen 18-Pixel-Schrift:
+Beispiel: Zum Einrichten eines Textfelds, das eine graue 18-Pixel-Schriftart verwendet:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -228,7 +227,7 @@ Beispiel: Zum Einrichten eines Textfelds mit einer grauen 18-Pixel-Schrift:
 }
 ```
 
-Die Suchergebnisse werden für Seiten mit Suchtreffer als einzelne Spalte oder einzelne Zeile mit Miniaturansichten dargestellt. Der Abstand zwischen den Miniaturbildern der Suchergebnisse wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Suchergebnisse werden als einzelne Spalte oder einzelne Zeile von Miniaturansichten für Seiten mit Suchtreffern gerendert. Der Abstand zwischen den Miniaturansichten der Suchergebnisse wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
@@ -240,12 +239,12 @@ Die Suchergebnisse werden für Seiten mit Suchtreffer als einzelne Spalte oder e
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Randes um die einzelnen Miniaturansichten. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span> festgelegt wurden. </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span> festgelegt wurden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: So legen Sie einen Abstand von 10 Pixeln fest:
+Beispiel - zum Einrichten eines 10-Pixel-Abstands:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -278,7 +277,7 @@ Das Erscheinungsbild einzelner Miniaturansichten wird mit der folgenden CSS-Klas
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Miniaturbildern mit 215 x 129 Pixel, einem hellgrauen Standardrand und einem dunkelgrauen Rahmen:
+Beispiel: Zum Einrichten von Miniaturansichten mit 215 x 129 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -287,7 +286,7 @@ Beispiel: Zum Einrichten von Miniaturbildern mit 215 x 129 Pixel, einem hellgrau
 }
 ```
 
-Die Darstellung der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
  .s7ecatalogsearchviewer 
@@ -303,17 +302,17 @@ Die Darstellung der Miniaturansichtsbeschriftung wird mit der folgenden CSS-Klas
    <td colname="col2"> <p> Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: So richten Sie Beschriftungen ein, die eine 12-Pixel-Schrift, eine graue Schrift verwenden:
+Beispiel - zum Einrichten von Beschriftungen mit 12 Pixel, Grau, Helvetica-Schriftart:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -323,16 +322,16 @@ Beispiel: So richten Sie Beschriftungen ein, die eine 12-Pixel-Schrift, eine gra
 }
 ```
 
-Auf Systemen, die die Mauseingabe verwenden, werden am unteren Rand des Suchergebnisbedienfelds zwei Bildlaufschaltflächen angezeigt, mit denen ein Benutzer durch die Suchergebnisse blättern kann. Das Erscheinungsbild der Schaltflächen für den Bildlauf nach oben und nach unten wird mithilfe der folgenden CSS-Klassenselektoren gesteuert:
+Auf Systemen, die die Mauseingabe verwenden, werden unten im Suchergebnisbereich zwei Bildlauftasten angezeigt, um durch die Suchergebnisse zu blättern. Das Erscheinungsbild der Bildlaufschaltflächen nach oben und unten wird mithilfe der folgenden CSS-Klassenselektoren gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton 
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften top, left, bottom und right zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften oben, links, unten und rechts zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
-**CSS-Eigenschaften der Schaltflächen &quot;Nach oben&quot;und &quot;Nach unten&quot;**
+**CSS-Eigenschaften der Schaltflächen zum Bildlauf nach oben und unten**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
@@ -342,7 +341,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften top, lef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Bildlauftaste. </p> </td> 
+   <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -350,7 +349,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften top, lef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -359,9 +358,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften top, lef
 >
 >Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf die Schaltflächenzustände `"up"`, `"down"`, `"over"` und `"disabled"` angewendet werden können.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Um eine Bildlaufschaltfläche einzurichten, die 125 x 35 Pixel groß ist und für jeden Status ein anderes Bildmaterial enthält:
+Beispiel: Um eine Bildlaufschaltfläche mit 125 x 35 Pixel einzurichten, die für jeden Status unterschiedliche Grafiken enthält:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 
@@ -396,4 +395,3 @@ Beispiel: Um eine Bildlaufschaltfläche einzurichten, die 125 x 35 Pixel groß i
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton[state='disabled'] { 
  background-image:url(images/sdk/searchpanel_scroll_down_disabled.png);
 ```
-
