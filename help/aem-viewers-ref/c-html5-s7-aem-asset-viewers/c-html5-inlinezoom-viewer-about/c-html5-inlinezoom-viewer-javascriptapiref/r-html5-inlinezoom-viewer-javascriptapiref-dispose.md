@@ -1,29 +1,28 @@
 ---
-description: JavaScript-API-Referenz für den Inline-Zoom-Viewer.
+description: JavaScript-API-Referenz für Inline-Zoom-Viewer.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Inline-Zoom
+role: Developer,User
+exl-id: 7e525bc1-6986-414c-acc0-e011dfd7b84b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
 
-
 # dispose{#dispose}
 
-JavaScript-API-Referenz für den Inline-Zoom-Viewer.
+JavaScript-API-Referenz für Inline-Zoom-Viewer.
 
 `dispose()`
 
-Löscht diese Viewer-Instanz, indem alle von der Viewer-Logik verwendeten Ressourcen freigegeben und alle inneren Objekte und Komponenten gelöscht werden, die vom Viewer zur Laufzeit erstellt wurden.
+Stellt diese Viewer-Instanz bereit, indem alle von der Viewer-Logik verwendeten Ressourcen freigegeben und alle inneren Objekte und Komponenten gelöscht werden, die vom Viewer zur Laufzeit erstellt wurden.
 
-Der Webseitencode sollte auch die Viewer-Instanzvariable löschen und den Viewer vollständig aus dem Webbrowser-Speicher entfernen.
+Der Webseitencode sollte auch die Viewer-Instanzvariable löschen, um den Viewer vollständig aus dem Webbrowser-Speicher zu entfernen.
 
-Wenn der Webseitencode registrierte Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden, oder gespeicherte externe Verweise auf solche Komponenten, müssen diese Listener explizit vom Webseitencode nicht registriert werden. Solche externen Komponentenverweise müssen gelöscht werden, bevor `dispose()` aufgerufen wird.
+Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden, oder externe Verweise auf solche Komponenten gespeichert hat, müssen diese Listener explizit vom Webseitencode abgemeldet werden. Solche externen Komponentenverweise müssen vor dem Aufruf von `dispose()` gelöscht werden.
 
 Greifen Sie nach dem Aufruf von `dispose()` nicht mehr auf die Viewer-API zu.
 
@@ -31,7 +30,7 @@ Greifen Sie nach dem Aufruf von `dispose()` nicht mehr auf die Viewer-API zu.
 
 Keine.
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
@@ -40,4 +39,3 @@ Keine.
 ```
 <instance>.dispose()
 ```
-
