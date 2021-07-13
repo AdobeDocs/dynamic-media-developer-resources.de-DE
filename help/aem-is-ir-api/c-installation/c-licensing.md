@@ -1,22 +1,21 @@
 ---
-description: Für die Verwendung von Image Serving ist ein Dynamic Media Image Serving-Lizenzschlüssel erforderlich, der auf jedem System installiert sein muss, auf dem Image Serving verwendet werden soll.
+description: Um Image Serving zu verwenden, ist ein Dynamic Media Image Serving-Lizenzschlüssel erforderlich und muss auf jedem System installiert sein, auf dem Image Serving verwendet werden soll.
 solution: Experience Manager
 title: Lizenzierung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: dea93601-28f4-439d-9443-267bb8d8eefc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-
 # Lizenzierung{#licensing}
 
-Für die Verwendung von Image Serving ist ein Dynamic Media Image Serving-Lizenzschlüssel erforderlich, der auf jedem System installiert sein muss, auf dem Image Serving verwendet werden soll.
+Um Image Serving zu verwenden, ist ein Dynamic Media Image Serving-Lizenzschlüssel erforderlich und muss auf jedem System installiert sein, auf dem Image Serving verwendet werden soll.
 
-Für die Verwendung des Image Rendering ist ein Dynamic Media Image Rendering-Lizenzschlüssel erforderlich. Image Rendering kann ohne Image Serving-Lizenz verwendet werden und umgekehrt.
+Um Image Rendering zu verwenden, ist ein Dynamic Media Image Rendering-Lizenzschlüssel erforderlich. Image Rendering kann ohne Image Serving-Lizenz verwendet werden und umgekehrt.
 
 Das Installationsverfahren umfasst Schritte zum Abrufen und Installieren der erforderlichen Lizenzschlüssel.
