@@ -1,21 +1,20 @@
 ---
-description: Diese Befehle sind von Position unabhängig und können an einer beliebigen Stelle in einer Anforderung auftreten.
+description: Diese Befehle sind positionsunabhängig und können an einer beliebigen Stelle in einer Anfrage auftreten.
 solution: Experience Manager
-title: Ansichten-Attribute
+title: Anzeigen von Attributen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
 
+# Anzeigen von Attributen{#view-attributes}
 
-# Ansichten-Attribute{#view-attributes}
-
-Diese Befehle sind von Position unabhängig und können an einer beliebigen Stelle in einer Anforderung auftreten.
+Diese Befehle sind positionsunabhängig und können an einer beliebigen Stelle in einer Anfrage auftreten.
 
 <table id="simpletable_D30C7420AECD44ADBD7B0728594FF5FA"> 
  <tr class="strow"> 
@@ -28,15 +27,15 @@ Diese Befehle sind von Position unabhängig und können an einer beliebigen Stel
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-printres.md#reference-ff897ad013fb410b96edaa2c79edfddd" type="reference" format="dita" scope="local"> printRes</a> </span> </p></td> 
-  <td class="stentry"> <p>Wert für die Druckauflösung, der im Antwortbild eingebettet ist. </p></td> 
+  <td class="stentry"> <p>Wert für die Druckauflösung, der in das Antwortbild eingebettet ist. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478" type="reference" format="dita" scope="local"> hei</a></span> </p></td> 
-  <td class="stentry"> <p>Skaliert das gerenderte Bild auf die angegebene Höhe. </p></td> 
+  <td class="stentry"> <p>Skalieren Sie das gerenderte Bild auf die angegebene Höhe. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec" type="reference" format="dita" scope="local"> wid</a></span> </p></td> 
-  <td class="stentry"> <p>Skaliert das gerenderte Bild auf die angegebene Breite. </p></td> 
+  <td class="stentry"> <p>Skalieren Sie das gerenderte Bild auf die angegebene Breite. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-scl.md#reference-b14b51a6cbe34f0bba42880540592f29" type="reference" format="dita" scope="local"> scl</a></span> </p></td> 
@@ -44,19 +43,19 @@ Diese Befehle sind von Position unabhängig und können an einer beliebigen Stel
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md#reference-851a5b636f8948cfb11456c9b7dab0d3" type="reference" format="dita" scope="local"> resMode</a></span> </p></td> 
-  <td class="stentry"> <p>Resamplingmodus für endgültige Bildskalierung. </p></td> 
+  <td class="stentry"> <p>Resamplingmodus für die endgültige Bildskalierung. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"> scharfzeichnen</a></span> </p></td> 
-  <td class="stentry"> <p>Replizieren Sie das Scharfzeichnen von Bildern. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"> Scharfzeichnen</a></span> </p></td> 
+  <td class="stentry"> <p>Replizieren Sie die Scharfzeichnung von Bildern. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06" type="reference" format="dita" scope="local"> icc</a></span> </p></td> 
-  <td class="stentry"> <p>Profil der Ausgabefarbe. </p></td> 
+  <td class="stentry"> <p>Profil der Ausgabefarben. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed</a></span> </p></td> 
-  <td class="stentry"> <p>Betten Sie das Profil in das Antwortbild ein. </p></td> 
+  <td class="stentry"> <p>Betten Sie das Farbprofil in das Antwortbild ein. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> pathEmbed</a></span> </p></td> 
@@ -71,4 +70,3 @@ Diese Befehle sind von Position unabhängig und können an einer beliebigen Stel
   <td class="stentry"> <p>Überschreiben Sie das standardmäßige Verhalten zum Zwischenspeichern von Antworten. </p></td> 
  </tr> 
 </table>
-
