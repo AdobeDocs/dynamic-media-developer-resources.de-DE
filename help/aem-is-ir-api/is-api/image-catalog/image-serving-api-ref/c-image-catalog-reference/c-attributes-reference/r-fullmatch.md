@@ -3,33 +3,32 @@ description: Katalogzuordnungsoption.
 solution: Experience Manager
 title: FullMatch
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1a267c48-a8eb-426a-a70a-bdb9f5f20efb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 2%
 
 ---
-
 
 # FullMatch{#fullmatch}
 
 Katalogzuordnungsoption.
 
-Ein Katalogeintrag wird in HTTP-Anforderungen als Paar `*`rootId`*/ *`imageId`*` angegeben. Bei der Analyse wird ein Katalog ausgewählt, wenn `*`rootId`*` mit dem `attribute::RootId`-Wert des Katalogs übereinstimmt und der Katalogeintrag durch Übereinstimmung `*`imageId`*` mit einem `catalog::Id`-Wert identifiziert wird. Wenn ein Katalog gefunden wird, aber kein Katalogeintrag mit `*`imageId`*` übereinstimmt, kann der Server eine der beiden folgenden Aufgaben ausführen:
+Ein Katalogeintrag wird in HTTP-Anforderungen als `*`rootId`*/ *`imageId`*`-Paar angegeben. Beim Analysieren wird ein Katalog ausgewählt, wenn `*`rootId`*` mit dem `attribute::RootId`-Wert des Katalogs übereinstimmt und der Katalogdatensatz durch Abgleich von `*`imageId`*` mit einem `catalog::Id`-Wert identifiziert wird. Wenn ein Katalog gefunden wird, aber kein Katalogeintrag mit `*`imageId`*` übereinstimmt, kann der Server eine der beiden folgenden Aktionen durchführen:
 
-Wenn `attribute::FullMatch` nicht eingestellt ist, verwendet der Server die Attribute des entsprechenden Katalogs. In diesem Fall wird `*`rootId`*` durch `attribute::RootPath` ersetzt (oder `default::RootPath`, falls in diesem Katalog nicht angegeben).
+Wenn `attribute::FullMatch` nicht festgelegt ist, verwendet der Server die Attribute des übereinstimmenden Katalogs. In diesem Fall wird `*`rootId`*` durch `attribute::RootPath` ersetzt (oder `default::RootPath`, falls in diesem Katalog nicht angegeben).
 
-Wenn `attribute::FullMatch` eingestellt ist, ignoriert der Server den Katalog vollständig, als wäre kein Katalog zugeordnet worden, und fährt mit den Standardkatalogattributen fort. In diesem Fall bleibt `*`rootId`*` Teil des Pfads (dem `default::RootPath` vorangestellt wird).
+Wenn `attribute::FullMatch` festgelegt ist, ignoriert der Server den Katalog vollständig, als wäre kein Katalog zugeordnet worden, und verwendet stattdessen die standardmäßigen Katalogattribute. In diesem Fall bleibt `*`rootId`*` Teil des Pfads (der `default::RootPath` vorangestellt wird).
 
 ## Eigenschaften {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
-Flag. Für das Standardverhalten auf 0 oder auf 1 setzen, um das vollständige Übereinstimmungsverhalten zu aktivieren.
+Flag. Legen Sie für das Standardverhalten auf 0 oder auf 1 fest, um das vollständige Übereinstimmungsverhalten zu aktivieren.
 
 ## Standard {#section-01c9ea1f1f1d4fd3b5f92799ec8383ff}
 
-Vererbt von `default::FullMatch`, wenn nicht definiert oder leer.
+Wird von `default::FullMatch` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-42da0ba53e0b4c089c62108785faf5a9}
 
