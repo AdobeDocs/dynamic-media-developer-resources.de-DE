@@ -3,15 +3,14 @@ description: Die folgenden Felder werden in Makrodefinitionsdateien erkannt.
 solution: Experience Manager
 title: Makrodefinitionen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0d95d288-8bd5-4ba8-a673-2a84f39a5dc6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 2%
 
 ---
-
 
 # Makrodefinitionen{#macro-definitions}
 
@@ -27,4 +26,3 @@ Die folgenden Felder werden in Makrodefinitionsdateien erkannt.
   <td class="stentry"> <p>Makrodefinition. </p></td> 
  </tr> 
 </table>
-
