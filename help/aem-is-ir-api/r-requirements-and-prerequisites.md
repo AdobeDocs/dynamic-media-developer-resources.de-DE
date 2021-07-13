@@ -1,47 +1,46 @@
 ---
 description: Bevor Sie Dynamic Media Image Serving verwenden, stellen Sie sicher, dass Ihr System die Systemanforderungen erfüllt.
 solution: Experience Manager
-title: Systemanforderungen und -voraussetzungen
+title: Systemanforderungen und Voraussetzungen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # Systemanforderungen und Voraussetzungen{#system-requirements-and-prerequisites}
 
 Bevor Sie Dynamic Media Image Serving verwenden, stellen Sie sicher, dass Ihr System die Systemanforderungen erfüllt.
 
-## Server-Hardware {#section-f3c14a7bc1b745118602659628df779f}
+## Serverhardware {#section-f3c14a7bc1b745118602659628df779f}
 
 Ihr Server sollte die folgenden Hardwareanforderungen erfüllen.
 
 >[!NOTE]
 >
->Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden in der Regel als NUMA-Plattformen (Nicht-Uniform Memory Architecture) konfiguriert. Das bedeutet, dass der Kernel beim Booten mehrere Speicherknoten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Mehrfach-Node-Konstrukt kann zu einer Speicherbelegung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft werden. Wenn die Speicherbelegung eintritt, kann der Kernel selbst dann Prozesse abbrechen (z. B. Image Server oder Platform Server), wenn verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe Systems, dass Sie NUMA deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die Option `numa=off` Beginn, um zu vermeiden, dass der Kernel diese Vorgänge stoppt.
+>Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden normalerweise als NUMA-Plattformen (Non-Uniform Memory Architecture) konfiguriert. Dies bedeutet, dass der Kernel mehrere Speicherknoten beim Booten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Konstrukt mit mehreren Knoten kann zu einer Speichererschöpfung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft sind. Wenn die Speichererschöpfung eintritt, kann der Kernel Prozesse beenden (z. B. den Image-Server oder Platform-Server), obwohl verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe Systems, NUMA zu deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die Startoption `numa=off`, um zu vermeiden, dass der Kernel diese Prozesse stoppt.
 
 **Windows**
 
 * Intel Xeon® oder AMD® Opteron-CPU mit mindestens 4 Kernen.
 * Mindestens 16 GB RAM.
-* Swap-Raum, der mindestens doppelt so groß ist wie der physische Arbeitsspeicher (RAM).
-* 2 GB freier Festplattenspeicher für die Installation und den einfachen Betrieb, zusätzlicher Speicherplatz für Quellbilder, Protokolle, Datencache und Manifestdateien erforderlich.
+* Tauschen Sie Speicherplatz aus, der mindestens dem Zweifachen des physischen Arbeitsspeichers (RAM) entspricht.
+* 2 GB verfügbarer Festplattenspeicher für die Installation und den grundlegenden Betrieb, zusätzlicher Speicherplatz für Quellbilder, Protokolle, Daten-Caches und Manifestdateien.
 * Fast-Ethernet-Netzwerkschnittstellenkarte.
 
 **Linux**
 
 * Intel Xeon® oder AMD® Opteron-CPU mit mindestens 4 Kernen.
 * Mindestens 16 GB RAM.
-* Austausch deaktiviert (empfohlen).
-* 2 GB freier Festplattenspeicher für die Installation und den einfachen Betrieb, zusätzlicher Speicherplatz für Quellbilder, Protokolle, Datencache und Manifestdateien erforderlich.
+* Swapping deaktiviert (empfohlen).
+* 2 GB verfügbarer Festplattenspeicher für die Installation und den grundlegenden Betrieb, zusätzlicher Speicherplatz für Quellbilder, Protokolle, Daten-Caches und Manifestdateien.
 * Fast-Ethernet-Netzwerkschnittstellenkarte.
 
-**Hinweis (Linux):** Image Serving funktioniert nicht mit aktiviertem SELinux. Diese Option ist standardmäßig aktiviert. Um SELinux zu deaktivieren, bearbeiten Sie die [!DNL /etc/selinux/config]-Datei und ändern Sie den SELinux-Wert von:
+**Hinweis (Linux):** Image Serving funktioniert nicht mit aktiviertem SELinux. Diese Option ist standardmäßig aktiviert. Um SELinux zu deaktivieren, bearbeiten Sie die Datei [!DNL /etc/selinux/config] und ändern Sie den SELinux-Wert von:
 
 `SELINUX=enforcing`
 
@@ -49,13 +48,13 @@ in / zu
 
 `SELINUX=disabled`
 
-**Hinweis (Linux):** Stellen Sie sicher, dass der Hostname des Servers auf eine IP-Adresse aufgelöst werden kann. Wenn dies nicht möglich ist, fügen Sie den vollständig qualifizierten Hostnamen und die IP-Adresse zu [!DNL /etc/hosts] hinzu, wie im folgenden Beispiel.
+**Hinweis (Linux):**  Stellen Sie sicher, dass der Hostname des Servers in eine IP-Adresse aufgelöst werden kann. Wenn dies nicht möglich ist, fügen Sie [!DNL /etc/hosts] den vollständig qualifizierten Hostnamen und die IP-Adresse wie im folgenden Beispiel hinzu.
 
 `<ip address> <fully qualified hostname>`
 
 ## Server-Software {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Für Dynamic Media Image Serving ist folgende Serversoftware erforderlich.
+Dynamic Media Image Serving erfordert die folgende Serversoftware.
 
 **Windows**
 
@@ -64,10 +63,9 @@ Für Dynamic Media Image Serving ist folgende Serversoftware erforderlich.
 
 **Linux**
 
-* Red Hat® Enterprise 5 oder CentOS 5.5 und höher, mit neuesten Fix-Patches.
+* Red Hat® Enterprise 5 oder CentOS 5.5 und höher mit aktuellen Fix-Patches.
 * 64-Bit-Betriebssystem.
 
-**Hinweis:** Um Image Serving unter Windows verwenden zu können, müssen Sie Microsoft Visual Studio 2010 neu verteilen. Die Redistributable ist unter folgender Adresse verfügbar:
+**Hinweis:** Um Image Serving unter Windows zu verwenden, müssen Sie Microsoft Visual Studio 2010 Redistributable installieren. Die Redistributable ist unter folgender Adresse verfügbar:
 
 [http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
-
