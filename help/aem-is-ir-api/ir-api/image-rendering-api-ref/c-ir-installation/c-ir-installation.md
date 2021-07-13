@@ -1,19 +1,17 @@
 ---
-description: Sie müssen die Bildwiedergabe konfigurieren, bevor Sie sie verwenden können.
+description: Sie müssen das Bild-Rendering konfigurieren, bevor Sie es verwenden können.
 solution: Experience Manager
 title: Konfiguration
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: ada9ae15-5ab7-43b5-a021-77c1a985e3b0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 6%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
-
 # Konfiguration{#configuration}
 
-Sie müssen die Bildwiedergabe konfigurieren, bevor Sie sie verwenden können.
-
+Sie müssen das Bild-Rendering konfigurieren, bevor Sie es verwenden können.
