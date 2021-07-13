@@ -1,27 +1,26 @@
 ---
 description: Sie müssen das IR 3.x-Kompatibilitätsmodul einrichten und konfigurieren.
 solution: Experience Manager
-title: IR 3.x-Kompatibilitätsmodul einrichten und konfigurieren
+title: Einrichten und Konfigurieren des Kompatibilitätsmoduls IR 3.x
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 44fbc6be-7681-402a-936a-0511e138365c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-
-# Einrichten und Konfigurieren des IR 3.x-Kompatibilitätsmoduls{#setup-and-configure-ir-x-compatibility-module}
+# Einrichten und Konfigurieren des Kompatibilitätsmoduls IR 3.x{#setup-and-configure-ir-x-compatibility-module}
 
 Sie müssen das IR 3.x-Kompatibilitätsmodul einrichten und konfigurieren.
 
 1. Stopp `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
-1. Wechseln Sie zum Ordner für ImageServer-Webapps.
-1. Kopieren Sie den Inhalt des Ordners [!DNL ir] in den Ordner [!DNL ROOT].
+1. Wechseln Sie zum Verzeichnis &quot;ImageServer webapps&quot;.
+1. Kopieren Sie den Inhalt des Ordners [!DNL ir] in das Verzeichnis [!DNL ROOT] .
 1. Öffnen Sie [!DNL ROOT/WEB-INF/web.xml] in einem Texteditor.
-1. Suchen Sie nach der Zeile `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
+1. Suchen Sie nach der Zeile `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->` .
 1. Heben Sie die Auskommentierung der Tags `<servlet>` und `<servlet-mapping>` auf.
 1. Starten Sie `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>` neu.
 
@@ -33,7 +32,7 @@ Sie müssen das IR 3.x-Kompatibilitätsmodul einrichten und konfigurieren.
 
 `cd WEB-INF`
 
-Bearbeiten Sie dann [!DNL web.xml]mit Ihrem Lieblings-Editor, um die Auskommentierung der Tags `<servlet>` und `<servlet-mapping>` aufzuheben.
+Bearbeiten Sie dann [!DNL web.xml]mit Ihrem bevorzugten Editor, um die Auskommentierung der `<servlet>` - und `<servlet-mapping>` -Tags aufzuheben.
 
 **Windows-Beispiel**
 
