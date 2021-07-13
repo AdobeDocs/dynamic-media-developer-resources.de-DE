@@ -1,21 +1,20 @@
 ---
-description: Katalogattributdateien erkennen diese häufig verwendeten Attribute für Miniaturansichten.
+description: Katalogattributdateien erkennen diese gebräuchlichen Attribute für Miniaturansichten.
 solution: Experience Manager
 title: Allgemeine Attribute für Miniaturansichten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1289f251-61f0-4355-9dd2-f9b0690e355c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-
 # Allgemeine Attribute für Miniaturansichten{#common-thumbnail-attributes}
 
-Katalogattributdateien erkennen diese häufig verwendeten Attribute für Miniaturansichten.
+Katalogattributdateien erkennen diese gebräuchlichen Attribute für Miniaturansichten.
 
 <table id="simpletable_D10CFB19EA674FE4808D384C9498170F"> 
  <tr class="strow"> 
@@ -31,4 +30,3 @@ Katalogattributdateien erkennen diese häufig verwendeten Attribute für Miniatu
   <td class="stentry"> <p>Vertikale Ausrichtung für Miniaturansichten. </p></td> 
  </tr> 
 </table>
-
