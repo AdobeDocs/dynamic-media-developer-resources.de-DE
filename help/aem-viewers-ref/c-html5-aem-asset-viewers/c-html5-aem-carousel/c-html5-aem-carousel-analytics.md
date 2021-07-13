@@ -1,25 +1,24 @@
 ---
-description: Unterstützung der Adobe Analytics-Verfolgung
+description: Unterstützung für Adobe Analytics-Tracking
 solution: Experience Manager
-title: Unterstützung der Adobe Analytics-Verfolgung
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+title: Unterstützung für Adobe Analytics-Tracking
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
 
-# Unterstützung für Adobe Analytics-Verfolgung{#support-for-adobe-analytics-tracking}
+# Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-## Benutzerspezifische Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
+## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-Zur Integration in Analysesysteme von Drittanbietern müssen Sie den `trackEvent`-Viewer-Rückruf abhören und das `eventInfo`-Argument der Rückruffunktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den Viewer-Rückruf `trackEvent` zu überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -43,27 +42,27 @@ var carouselViewer = new s7viewers.CarouselViewer({
 });
 ```
 
-Der Viewer verfolgt die folgenden SDK-Ereignis:
+Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK-Ereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet, wenn... </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
+   <th colname="col2" class="entry"> <p>Gesendet, wenn ... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>Der Viewer wird zuerst geladen. </p> </td> 
+   <td colname="col2"> <p>der Viewer zuerst geladen wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> BANNER  </span> </p> </td> 
-   <td colname="col2"> <p>das Karussell-Bannerbild geändert wird. </p> </td> 
+   <td colname="col2"> <p>das Karussellbannerbild geändert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>aktiviert der Benutzer den Hotspot. </p> </td> 
+   <td colname="col2"> <p>der Benutzer den Hotspot aktiviert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
