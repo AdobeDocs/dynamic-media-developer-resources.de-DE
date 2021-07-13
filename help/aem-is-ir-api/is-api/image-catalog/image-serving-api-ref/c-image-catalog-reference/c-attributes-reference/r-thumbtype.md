@@ -1,21 +1,20 @@
 ---
-description: Standardtyp für Miniaturansichten. Stellt eine Standardeinstellung für den Miniaturansichtstyp bereit, falls ein bestimmter Katalogeintrag keinen gültigen Wert für den Typ "ThumbType"enthält.
+description: Standardtyp für Miniaturansichten. Stellt eine Standardeinstellung für den Miniaturansichtstyp bereit, falls ein bestimmter Katalogdatensatz keinen gültigen ThumbType-Katalogwert enthält.
 solution: Experience Manager
 title: ThumbType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
 
-
 # ThumbType{#thumbtype}
 
-Standardtyp für Miniaturansichten. Stellt eine Standardeinstellung für den Miniaturansichtstyp bereit, falls ein bestimmter Katalogeintrag keinen gültigen Katalog enthält::ThumbType-Wert.
+Standardtyp für Miniaturansichten. Stellt eine Standardeinstellung für den Miniaturansichtstyp bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Wert für catalog::ThumbType enthält.
 
 Wird nur für Miniaturansichten ( `req=tmb`) verwendet.
 
@@ -25,8 +24,8 @@ Enum. Zulässige Werte sind 1, 2 und 3 für die Miniaturansichten *`crop`*, *`fi
 
 ## Standard {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-Vererbt von `default::ThumbType`wenn nicht definiert oder leer.
+Vererbt von `default::ThumbType`wenn nicht definiert oder wenn leer.
 
 ## Verwandte Themen {#section-986c97470c494bfd8f179cecf8cc3ccc}
 
-[Katalog::ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03)
+[catalog::ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03)
