@@ -1,27 +1,26 @@
 ---
-description: Der Viewer zeigt Suchergebnisregionen über der Hauptversion an, um im Katalog gefundene Ansichten hervorzuheben.
+description: Der Viewer zeigt Suchergebnisbereiche über der Hauptansicht an, um im Katalog gefundene Wörter oder Ausdrücke hervorzuheben.
 solution: Experience Manager
 title: Sucheffekt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
 
-
 # Sucheffekt{#search-effect}
 
-Der Viewer zeigt Suchergebnisregionen über der Hauptversion an, um im Katalog gefundene Ansichten hervorzuheben.
+Der Viewer zeigt Suchergebnisbereiche über der Hauptansicht an, um im Katalog gefundene Wörter oder Ausdrücke hervorzuheben.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild von Suchergebnisregionen wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild von Suchergebnisbereichen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -40,11 +39,10 @@ Das Erscheinungsbild von Suchergebnisregionen wird mit der folgenden CSS-Klassen
  </tbody> 
 </table>
 
-Beispiel: So richten Sie Suchergebnisregionen mit einer halbtransparenten, gelben Füllung ein:
+Beispiel - zum Einrichten von Suchergebnisbereichen mit einer halbtransparenten, gelben Füllung:
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 
  background: rgba(255,255,0, 0.5); 
 }
 ```
-
