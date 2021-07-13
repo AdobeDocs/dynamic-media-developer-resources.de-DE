@@ -1,21 +1,20 @@
 ---
-description: Die Hauptansicht besteht aus der Ansicht des Banners.
+description: Die Hauptansicht besteht aus dem Bannerbild.
 solution: Experience Manager
-title: Karussell-Ansicht
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+title: Karussellansicht
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: aa41b209-11c7-4744-aaa5-dc0b503607c6
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
 
-# Karussell-Ansicht{#carousel-view}
+# Karussellansicht{#carousel-view}
 
-Die Hauptansicht besteht aus der Ansicht des Banners.
+Die Hauptansicht besteht aus dem Bannerbild.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,12 +36,12 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Haupt-Ansicht. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um die Ansicht transparent zu machen.
+Beispiel - um die Hauptansicht transparent zu machen.
 
 ```
 .s7carouselviewer .s7carouselview { 
