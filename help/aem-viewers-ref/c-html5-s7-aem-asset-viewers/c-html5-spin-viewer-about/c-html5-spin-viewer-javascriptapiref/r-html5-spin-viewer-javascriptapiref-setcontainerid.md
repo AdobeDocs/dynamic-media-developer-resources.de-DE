@@ -1,25 +1,24 @@
 ---
-description: JavaScript-API-Referenz für den Rotationsset-Viewer.
+description: JavaScript-API-Referenz für Rotationsset-Viewer.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+role: Developer,User
+exl-id: 5859800f-7d01-4c32-a67f-211578d5c50b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 2%
 
 ---
 
-
 # setContainerId{#setcontainerid}
 
-JavaScript-API-Referenz für den Rotationsset-Viewer.
+JavaScript-API-Referenz für Rotationsset-Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Legt die ID des DOM-Containers (normalerweise ein DIV) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Container-Element zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Es muss vor `init()` aufgerufen werden.
+Legt die ID des DOM-Containers (normalerweise ein DIV) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Sie muss vor `init()` aufgerufen werden.
 
 Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
@@ -27,12 +26,12 @@ Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> ID des Containers. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Kennung des Containers. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
@@ -41,4 +40,3 @@ Keine.
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
