@@ -3,15 +3,14 @@ description: JPEG-Größe in KiloBytes. Gibt die maximale Größe der JPEG-Antwo
 solution: Experience Manager
 title: jpegSize
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 4%
 
 ---
-
 
 # jpegSize{#jpegsize}
 
@@ -26,9 +25,9 @@ JPEG-Größe in KiloBytes. Gibt die maximale Größe der JPEG-Antwort in Kilobyt
  </tr> 
 </table>
 
-Wenn dies auf einen positiven Wert festgelegt ist und die JPEG-Antwort mit der angegebenen JPEG-Qualität diesen Wert nicht überschreitet, wird dieses Bild als Antwort zurückgegeben. Andernfalls verringert sich die JPEG-Qualität, bis entweder ein Bild erzeugt wird, das der angegebenen Größe entspricht, oder bis festgestellt wird, dass es nicht passen kann. Im letzteren Fall schlägt die Anforderung mit einem Fehler fehl.
+Wenn dies auf einen positiven Wert festgelegt ist und die JPEG-Antwort mit der angegebenen JPEG-Qualität diesen Wert nicht überschreitet, wird dieses Bild als Antwort zurückgegeben. Andernfalls nimmt die JPEG-Qualität ab, bis entweder ein Bild erzeugt wird, das der angegebenen Größe entspricht, oder bis festgestellt wird, dass die Bildgröße nicht erreicht werden kann. Im letzteren Fall schlägt die Anfrage mit einem Fehler fehl.
 
-Der Wert 0 bedeutet, dass die Antwort nicht durch die Größe eingeschränkt wird.
+Der Wert 0 bedeutet, dass die Antwort nicht durch die Größe eingeschränkt ist.
 
 Negative Werte sind nicht zulässig.
 
