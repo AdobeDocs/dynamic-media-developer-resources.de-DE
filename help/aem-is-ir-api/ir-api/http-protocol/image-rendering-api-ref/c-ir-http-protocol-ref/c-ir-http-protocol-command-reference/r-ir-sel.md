@@ -3,15 +3,14 @@ description: Wählen Sie das Objekt nach Pixelposition aus.
 solution: Experience Manager
 title: sel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
-
 
 # sel{#sel}
 
@@ -22,7 +21,7 @@ Wählen Sie das Objekt nach Pixelposition aus.
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> x,y  </span> </p> </td> 
-  <td class="stentry"> <p>Wählen Sie die Koordinaten der Position in Pixel (int, int). </p> </td> 
+  <td class="stentry"> <p>Wählen Sie die Koordinaten des Speicherorts in Pixel (int, int). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> Ebene </span> </p> </td> 
@@ -30,21 +29,21 @@ Wählen Sie das Objekt nach Pixelposition aus.
  </tr> 
 </table>
 
-Wählt die Gruppe oder das Objekt mit den Pixelkoordinaten aus, die von *`x, y`* angegeben werden, und Beginn ein neues MSS. Wenn sich kein auswählbares Objekt an der Pickposition befindet oder die Pickposition ungültig ist, wird die von `attribute::OnFailSel` angegebene Aktion ausgeführt.
+Wählt die Gruppe oder das Objekt auf den von *`x, y`* angegebenen Pixelkoordinaten aus und startet einen neuen MSS. Wenn sich kein auswählbares Objekt an der Position der Auswahl befindet oder die Position der Auswahl ungültig ist, wird die von `attribute::OnFailSel` angegebene Aktion ausgeführt.
 
-*`level`* gibt an, ob die Gruppe &quot;äußerste Kante&quot;oder ein Drilldown zu einer verschachtelten Gruppe oder einem verschachtelten Objekt ausgewählt werden soll. Wenn *`level`* nicht angegeben ist, wird die äußerste Gruppe ausgewählt. Auf 1 setzen, um eine Gruppenebene unterhalb der äußersten Gruppe auszuwählen. Auf eine große Zahl einstellen (z. B. 99), um das innerste auswählbare Objekt oder die innerste Gruppe auszuwählen.
+*`level`* Gibt an, ob die äußerste Gruppe ausgewählt oder ein Drilldown zu einer verschachtelten Gruppe oder einem verschachtelten Objekt durchgeführt werden soll. Wenn *`level`* nicht angegeben ist, wird die äußerste Gruppe ausgewählt. Auf 1 setzen, um eine Gruppenebene unterhalb der äußersten Gruppe auszuwählen. Legen Sie eine große Zahl fest (z. B. 99), um das am meisten auswählbare Objekt oder die Gruppe auszuwählen.
 
 ## Eigenschaften {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
 Auswahlbefehl; MSS-Trennzeichen. Die Objektauswahl ist so lange persistent, bis ein anderes Objekt ausgewählt ist, entweder mit `obj=` oder `sel=`.
 
-*`x, y`* muss zwischen 0, 0 (obere linke Ecke des Bilds) und  *`wid`*-1,  *`hei`*-1 (untere, rechte Ecke des Bilds) liegen, wobei  *`wid`* und  *`hei`* die Größe der nicht skalierten Vignettengröße beträgt.
+*`x, y`* muss im Bereich 0, 0 (obere linke Ecke des Bildes) bis  *`wid`*-1,  *`hei`*-1 (untere, rechte Ecke des Bildes) liegen, wobei  *`wid`* und die Größe der nicht skalierten Vignettenansicht  *`hei`* ist.
 
 Wenn angegeben, muss *`level`* 0 oder größer sein.
 
 ## Standard {#section-e13c705a3e76468894b4ec190ed8a893}
 
-Keine für *`x, y`*. *`level`* ist standardmäßig 0.
+Keine für *`x, y`*. *`level`* ist standardmäßig auf 0 gesetzt.
 
 ## Verwandte Themen {#section-486842570b4e4bf895f6ccc172ebd8b2}
 
