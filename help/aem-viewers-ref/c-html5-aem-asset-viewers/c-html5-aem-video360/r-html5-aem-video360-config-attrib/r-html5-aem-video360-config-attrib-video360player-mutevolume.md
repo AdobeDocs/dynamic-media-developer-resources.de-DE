@@ -3,13 +3,12 @@ description: Konfigurationsattribut für Video360 Viewer.
 solution: Experience Manager
 title: Video360Player.mutevolume
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 13%
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Legt den Stummmodus für die Videowiedergabe beim ersten Laden fest. Ist der Wert auf <span class="codeph"> 1 </span> eingestellt, wird das Volumen stummgeschaltet. Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten ermöglicht das Stummschalten der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos. </p> </td> 
+   <td colname="col2"> <p> Legt den stummschalteten Modus für die Videowiedergabe beim ersten Laden fest. Wenn auf <span class="codeph"> 1 </span> gesetzt, wird das Volumen stummgeschaltet. Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten kann das Mutation der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos ermöglichen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
