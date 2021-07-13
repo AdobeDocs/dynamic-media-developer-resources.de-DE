@@ -1,25 +1,24 @@
 ---
-description: Über die Schaltfläche "Abspielen/Anhalten"kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
+description: Mit der Schaltfläche Wiedergabe/Pause kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
 solution: Experience Manager
 title: PlayPause-Schaltfläche
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
 
 # PlayPause-Schaltfläche{#playpause-button}
 
-Über die Schaltfläche &quot;Abspielen/Anhalten&quot;kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
+Mit der Schaltfläche Wiedergabe/Pause kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Die Schaltfläche ist nur sichtbar, wenn der Parameter `CarouselViewer.autoplay` auf `1` eingestellt ist. ansonsten ist er ausgeblendet. Mithilfe von CSS können Sie diese Schaltfläche relativ zur Steuerungsleiste, in der sie enthalten ist, in der Größe, in der Skin und an der Position positionieren.
+Die Schaltfläche ist nur sichtbar, wenn der Parameter `CarouselViewer.autoplay` auf `1` gesetzt ist. andernfalls ist es ausgeblendet. Mithilfe von CSS können Sie diese Schaltfläche in Bezug auf die sie enthaltende Steuerleiste anpassen, ausblenden und positionieren.
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
@@ -37,11 +36,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p>Position oben am Rand des Viewers. </p> </td> 
+   <td colname="col2"> <p>Position am oberen Rand der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position rechts neben dem Viewer-Rand. </p> </td> 
+   <td colname="col2"> <p>Position rechts neben der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
@@ -49,7 +48,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position am unteren Rand des Viewer-Rahmens. </p> </td> 
+   <td colname="col2"> <p>Position am unteren Rand der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,10 +64,10 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildausschnitt, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor  </span> </p> </td> 
    <td colname="col2"> <p>Cursortyp. </p> </td> 
   </tr> 
  </tbody> 
@@ -76,11 +75,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo für Schaltflächen kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokale Anpassung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
-Beispiel: Um eine Wiedergabepause-Schaltfläche mit 28 x 28 Pixeln einzurichten, die 17 Pixel vom unteren Rand und 12 Pixel vom linken Rand des Viewers positioniert ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenzustände anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind.
+Beispiel: Um eine Wiedergabe-Pause-Schaltfläche mit 28 x 28 Pixel einzurichten, die 17 Pixel vom unteren Rand und 12 Pixel vom linken Rand des Viewers entfernt ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind.
 
 ```
 .s7carouselviewer .s7playpausebutton { 
