@@ -1,23 +1,22 @@
 ---
-description: Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen "Erste Seite"und "Letzte Seite"sowie einen Seitenindikator enthält, wenn dieser in CSS verfügbar ist.
+description: Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen "Erste und Letzte Seite"und einen Seitenindikator enthält, wenn er in CSS verfügbar gemacht wird.
 solution: Experience Manager
-title: Sekundär-Steuerleiste
+title: Sekundäre Steuerleiste
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
 
+# Sekundäre Steuerleiste{#secondary-control-bar}
 
-# Sekundär-Steuerleiste{#secondary-control-bar}
+Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen &quot;Erste und Letzte Seite&quot;und einen Seitenindikator enthält, wenn er in CSS verfügbar gemacht wird.
 
-Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen &quot;Erste Seite&quot;und &quot;Letzte Seite&quot;sowie einen Seitenindikator enthält, wenn dieser in CSS verfügbar ist.
-
-Standardmäßig wird sie nur auf Mobiltelefonen angezeigt und befindet sich unten im Viewer. Es benötigt immer die gesamte verfügbare Viewer-Breite. Die Farbe, Höhe und vertikale Position können mit CSS relativ zum Viewer-Container geändert werden.
+Standardmäßig wird sie nur auf Mobiltelefonen angezeigt und befindet sich unten im Viewer. Es benötigt immer die gesamte verfügbare Viewer-Breite. Es ist möglich, die Farbe, Höhe und vertikale Position durch CSS in Relation zum Viewer-Container zu ändern.
 
 Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -50,7 +49,7 @@ Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Kla
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer grauen sekundären Steuerleiste, die 72 Pixel hoch und unten im Viewer-Container positioniert ist.
+Beispiel: Zum Einrichten einer grauen sekundären Steuerleiste, die 72 Pixel groß und am unteren Rand des Viewer-Containers positioniert ist.
 
 ```
 .s7ecatalogviewer .s7secondarycontrols .s7controlbar {  
@@ -58,4 +57,3 @@ Beispiel: Zum Einrichten einer grauen sekundären Steuerleiste, die 72 Pixel hoc
  height: 72px; 
 }
 ```
-
