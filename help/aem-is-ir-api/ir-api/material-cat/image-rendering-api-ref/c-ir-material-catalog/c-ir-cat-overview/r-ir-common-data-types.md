@@ -3,15 +3,14 @@ description: Katalogattribute und -felder können Daten eines der folgenden Type
 solution: Experience Manager
 title: Allgemeine Datentypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 9af44474-0512-452a-af9e-48918e9da6ca
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # Allgemeine Datentypen{#common-data-types}
 
@@ -19,7 +18,7 @@ Katalogattribute und -felder können Daten eines der folgenden Typen enthalten.
 
 **Farbe**
 
-Farbwert. Hexadezimaler, gepackter RGB-Wert, optional mit vorangestelltem Wert 0x. Der RGB-Wert `128,255,0` kann beispielsweise als `0x80ff00` oder `80ff00` angegeben werden.
+Farbwert. Hexadezimaler, gepackter RGB-Wert, optional mit vorangestelltem 0x. Beispielsweise kann der RGB-Wert `128,255,0` als `0x80ff00` oder `80ff00` angegeben werden.
 
 **Markierung**
 
@@ -27,7 +26,7 @@ Farbwert. Hexadezimaler, gepackter RGB-Wert, optional mit vorangestelltem Wert 0
 
 **Enum**
 
-0 steht für einen unbekannten oder nicht angegebenen Wert, der mit einem leeren Feld identisch ist. Gültige Werte für `enum` sind fortlaufende Ganzzahlwerte, beginnend mit 1.
+0 steht für einen unbekannten oder nicht angegebenen Wert, der mit einem leeren Feld übereinstimmt. Gültige `enum` -Werte sind aufeinander folgende Ganzzahlzahlen, beginnend bei 1.
 
 **Ganzzahl**
 
@@ -35,8 +34,8 @@ Signierter ganzzahliger Wert (z. B. 0, -12, 34). 0 oder negative Werte können e
 
 **Real number**
 
-Unterschriebene Gleitkommawerte (z. B. `0, 12.5, 245 , -2.34e4`). 0 oder negative Werte können eine besondere Bedeutung haben.
+Signierter Gleitkommawert (z. B. `0, 12.5, 245 , -2.34e4`). 0 oder negative Werte können eine besondere Bedeutung haben.
 
 **Textzeichenfolge**
 
-Stringtrennzeichen sind optional, es sei denn, die Zeichenfolge enthält `<CR>`-, `<LF>`- oder `<TAB>`-Zeichen. Einfache und Dubletten-Anführungszeichen können als Trennzeichen verwendet werden. Wenn Anführungszeichen verwendet werden, muss jedes in die Zeichenfolge eingebettete Anführungszeichen mit zwei aufeinander folgenden Anführungszeichen (z. B. &#39; `This month''s Special`&#39;).
+Zeichenfolgentrennzeichen sind optional, es sei denn, die Zeichenfolge enthält beliebige Zeichen `<CR>`, `<LF>` oder `<TAB>`. Einfache und doppelte Anführungszeichen können als Trennzeichen verwendet werden. Wenn Anführungszeichen verwendet werden, muss jedes in die Zeichenfolge eingebettete Anführungszeichen durch zwei aufeinander folgende Anführungszeichen (z. B. &#39; `This month''s Special`&#39;).
