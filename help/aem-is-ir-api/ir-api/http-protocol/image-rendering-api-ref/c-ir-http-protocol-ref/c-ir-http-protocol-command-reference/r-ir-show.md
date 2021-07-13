@@ -1,21 +1,20 @@
 ---
-description: Überschneidungsobjekt anzeigen Zeigt alle zuvor ausgeblendeten überlappenden Objekte (einschließlich Rahmenobjekte für Fensterbearbeitung) in der aktuellen Auswahl an.
+description: Überschneidungsobjekt anzeigen. Macht alle zuvor ausgeblendeten Überschneidungsobjekte (einschließlich Fensterüberlagerungsrahmen) in der aktuellen Auswahl sichtbar.
 solution: Experience Manager
 title: anzeigen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 8%
 
 ---
 
-
 # anzeigen{#show}
 
-Überschneidungsobjekt anzeigen Zeigt alle zuvor ausgeblendeten überlappenden Objekte (einschließlich Rahmenobjekte für Fensterbearbeitung) in der aktuellen Auswahl an.
+Überschneidungsobjekt anzeigen. Macht alle zuvor ausgeblendeten Überschneidungsobjekte (einschließlich Fensterüberlagerungsrahmen) in der aktuellen Auswahl sichtbar.
 
 `Show[= *`val`*]`
 
@@ -28,11 +27,11 @@ ht-degree: 8%
 
 ## Eigenschaften {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-Wird ignoriert, wenn die aktuelle Auswahl keine überlappenden Objekte enthält oder wenn keine überlappenden Objekte ausgeblendet werden.
+Wird ignoriert, wenn die aktuelle Auswahl keine überlappenden Objekte enthält oder wenn keine überlappenden Objekte ausgeblendet sind.
 
 ## Standard {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Keine, um die Sichtbarkeit des Objekts zu ändern.
+Keine, keine Änderung der Sichtbarkeit des Objekts.
 
 ## Verwandte Themen {#section-2a1a37a35dfb41758897164e14f0105f}
 
