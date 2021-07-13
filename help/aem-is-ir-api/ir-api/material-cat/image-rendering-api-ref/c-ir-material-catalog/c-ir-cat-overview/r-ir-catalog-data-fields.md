@@ -1,21 +1,20 @@
 ---
-description: Die folgenden Katalogdatenfelder stehen zur Verfügung.
+description: Die folgenden Katalogdatenfelder sind verfügbar.
 solution: Experience Manager
 title: Katalogdatenfelder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 11%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
-
 # Katalogdatenfelder{#catalog-data-fields}
 
-Die folgenden Katalogdatenfelder stehen zur Verfügung.
+Die folgenden Katalogdatenfelder sind verfügbar.
 
 <table id="simpletable_C2D795844F624470871959842AF50BF3"> 
  <thead class="sthead"> 
@@ -24,7 +23,7 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md#reference-cba2a53a952e403fb57a4e8569f9cf85" type="reference" format="dita" scope="local"> Id</a> </p></td> 
-  <td class="stentry"> <p>Materialbezeichner (Indexschlüssel). </p></td> 
+  <td class="stentry"> <p>Materialkennung (Indexschlüssel). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319" type="reference" format="dita" scope="local"> TimeStamp</a> </p></td> 
@@ -32,7 +31,7 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce" type="reference" format="dita" scope="local"> Ablauf</a> </p></td> 
-  <td class="stentry"> <p>Ablauf des Client-Cache (Zeit bis zum Live-Intervall). </p></td> 
+  <td class="stentry"> <p>Client-Cache-Ablauf (Zeit bis zum Live-Intervall). </p></td> 
  </tr> 
 </table>
 
@@ -43,11 +42,11 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md#reference-59ebb624250a4965ad1737578a2ab590" type="reference" format="dita" scope="local"> Pfad </a> </p></td> 
-  <td class="stentry"> <p>Pfad oder URL der Bilddatendatei. </p></td> 
+  <td class="stentry"> <p>Pfad der Bilddatendatei oder URL. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath  </a> </p></td> 
-  <td class="stentry"> <p>Sekundär Datendateipfad oder URL. </p></td> 
+  <td class="stentry"> <p>Sekundärer Datendateipfad oder URL. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> Auflösung </a> </p></td> 
@@ -55,7 +54,7 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab" type="reference" format="dita" scope="local"> Anker </a> </p></td> 
-  <td class="stentry"> <p>Textur-/Dekorankerpunkt (Hotspot). </p></td> 
+  <td class="stentry"> <p>Textur-/Decal-Ankerpunkt (Hotspot). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552" type="reference" format="dita" scope="local"> Farbe </a> </p></td> 
@@ -63,11 +62,11 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor  </a> </p></td> 
-  <td class="stentry"> <p>Subtraktive Farbe für ein färbbares Material. </p></td> 
+  <td class="stentry"> <p>Subtraktive Farbe für ein kolorierbares Material. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> Illum  </a> </p></td> 
-  <td class="stentry"> <p>Lichtbildauswahl. </p></td> 
+  <td class="stentry"> <p>Beleuchtungszuordnungsauswahl. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb" type="reference" format="dita" scope="local"> Glanz</a> </p></td> 
@@ -83,7 +82,7 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> Scharf</a> </p></td> 
-  <td class="stentry"> <p>Textur-/Dekorschärfe. </p></td> 
+  <td class="stentry"> <p>Textur/dekale Scharfzeichnung. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e" type="reference" format="dita" scope="local"> Repeat</a> </p></td> 
@@ -91,11 +90,11 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399" type="reference" format="dita" scope="local"> Ausrichtung</a> </p></td> 
-  <td class="stentry"> <p>Strukturausrichtung zwischen Objekten </p></td> 
+  <td class="stentry"> <p>Texturausrichtung zwischen Objekten. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md#reference-a698b0d2652f4ea8a2b006fbf59cf4f1" type="reference" format="dita" scope="local"> Größe</a> </p></td> 
-  <td class="stentry"> <p>Größe der Dekal-/Überlagerungsebene. </p></td> 
+  <td class="stentry"> <p>Größe der Decal-/Overlay-Ebene. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings  </a> </p></td> 
@@ -114,11 +113,11 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1" type="reference" format="dita" scope="local"> TimeStamp</a> </p> </td> 
-  <td class="stentry"> <p>Zeitstempel der Vignettenmodifikation. </p></td> 
+  <td class="stentry"> <p>Zeitstempel der Vignettenmodifizierung. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c" type="reference" format="dita" scope="local"> Ablauf</a> </p></td> 
-  <td class="stentry"> <p>Ablauf des Client-Cache (Zeit bis zum Live-Intervall). </p></td> 
+  <td class="stentry"> <p>Client-Cache-Ablauf (Zeit bis zum Live-Intervall). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md#reference-aa1c007b63a04351b89881933deaf59c" type="reference" format="dita" scope="local"> Pfad</a> </p></td> 
@@ -126,7 +125,7 @@ Die folgenden Katalogdatenfelder stehen zur Verfügung.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> Modifikator</a> </p></td> 
-  <td class="stentry"> <p>Vordefinierte Anforderungsmodifikatoren. </p></td> 
+  <td class="stentry"> <p>Vordefinierte Anforderungs-Modifikatoren. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> Benutzerdaten</a> </p></td> 
@@ -151,20 +150,19 @@ Die folgenden Felder werden in Makrodefinitionsdateien erkannt:
  </tr> 
 </table>
 
-Die folgenden Felder werden in ICC-Profil-Zuordnungsdateien erkannt:
+Die folgenden Felder werden in ICC-Farbprofilzuordnungsdateien erkannt:
 
 <table id="simpletable_54ED156EDA394412B5C4C49AA3A32828"> 
  <thead class="sthead"> 
-  <td class="stentry"> ICC-Profile</td> 
+  <td class="stentry"> ICC-Profilkarten</td> 
   <td class="stentry"> <p>Beschreibung </p></td> 
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2" type="reference" format="dita" scope="local"> Name</a> </p></td> 
-  <td class="stentry"> <p>Name des Profils (Indexschlüssel) </p></td> 
+  <td class="stentry"> <p>Name des Farbprofils (Indexschlüssel). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md#reference-06f756dd364945ee9b50fd94db46e5be" type="reference" format="dita" scope="local"> ProfilePath</a> </p></td> 
-  <td class="stentry"> <p>Dateipfad des ICC-Profils. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md#reference-06f756dd364945ee9b50fd94db46e5be" type="reference" format="dita" scope="local"> ProfilPath</a> </p></td> 
+  <td class="stentry"> <p>Dateipfad des ICC-Farbprofils. </p></td> 
  </tr> 
 </table>
-
