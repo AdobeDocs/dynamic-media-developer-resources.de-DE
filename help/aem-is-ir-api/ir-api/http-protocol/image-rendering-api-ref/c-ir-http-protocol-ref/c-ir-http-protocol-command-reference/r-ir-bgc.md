@@ -1,21 +1,20 @@
 ---
-description: Hintergrundfarbe. Gibt die Subtraktionsfarbe für farbige Texturen und Dekore an.
+description: Hintergrundfarbe. Gibt die subtraktive Farbe für kolorierbare Texturen und Dekorationen an.
 solution: Experience Manager
 title: bgc
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 6%
 
 ---
 
-
 # bgc{#bgc}
 
-Hintergrundfarbe. Gibt die Subtraktionsfarbe für farbige Texturen und Dekore an.
+Hintergrundfarbe. Gibt die subtraktive Farbe für kolorierbare Texturen und Dekorationen an.
 
 `bgc= *[!DNL color]*`
 
@@ -26,19 +25,19 @@ Hintergrundfarbe. Gibt die Subtraktionsfarbe für farbige Texturen und Dekore an
  </tr> 
 </table>
 
-Der Texturkolorisierungsalgorithmus des Image Rendering ist ganz einfach - die Komponentenwerte von `bgc=` werden von denen der Texturpixel abgezogen, `color=` hinzugefügt und schließlich wird das Ergebnis auf `0,0,0` und `255,255,255` geklickt.
+Der Texturkolorisierungsalgorithmus des Bild-Renderings ist ganz einfach - die Komponentenwerte von `bgc=` werden von denen der Texturpixel subtrahiert, `color=` wird hinzugefügt und schließlich wird das Ergebnis auf `0,0,0` und `255,255,255` gekürzt.
 
-Bei typischen Verwendungen der Texturfärbung ist der Wert für `bgc=` möglicherweise die wichtigste oder dominierende Farbe im Texturbild. Dynamic Media Image Authoring bietet halbautomatische Werkzeuge, mit denen Sie vernünftige `bgc=`-Farbwerte aus Texturbildern extrahieren können.
+Für typische Verwendungen der Texturkolorisierung kann der Wert für `bgc=` die wichtigste oder dominierende Farbe im Texturbild sein. Dynamic Media Image Authoring bietet halbautomatische Tools, die vernünftige `bgc=` Farbwerte aus Texturbildern extrahieren.
 
 Wenn ein Texturmaterial auf ein nicht texturierbares Vignettenobjekt angewendet wird, wird `bgc=` als Vordergrundfarbe angewendet, wenn `color=` nicht angegeben ist.
 
 ## Eigenschaften {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
-Materialattribut. Ingnotiert von festen Farben und Möbeln.
+Materialattribut. Ignoriert durch feste Farbe und Möbel.
 
 ## Standard {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
-`catalog::BaseColor` wenn das Material auf einem Katalogeintrag basiert, andernfalls  `bgc=808080` (neutral grau).
+`catalog::BaseColor` wenn das Material auf einem Katalogeintrag basiert, andernfalls ( `bgc=808080` neutral gray).
 
 ## Beispiel {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
@@ -48,4 +47,4 @@ Färben eines Bekleidungsgewebes, dessen Textur die dominierende RGB-Farbe hat 1
 
 ## Verwandte Themen {#section-de9958dd63a742b4b5d780c59a57da33}
 
-[Katalog::BaseColor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8) ,  [color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa)
+[catalog::BaseColor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8) ,  [color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa)
