@@ -1,64 +1,63 @@
 ---
-description: Texturwiederholungsmodus. Gibt an, wie Texturbilder gekachelt werden, um die Zielgruppe zu füllen.
+description: Texturwiederholungsmodus. Gibt an, wie Texturbilder gekachelt werden, um die Zielfläche zu füllen.
 solution: Experience Manager
 title: Repeat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 20%
 
 ---
 
+# Wiederholen{#repeat}
 
-# Repeat{#repeat}
-
-Texturwiederholungsmodus. Gibt an, wie Texturbilder gekachelt werden, um die Zielgruppe zu füllen.
+Texturwiederholungsmodus. Gibt an, wie Texturbilder gekachelt werden, um die Zielfläche zu füllen.
 
 ## Eigenschaften {#section-cef4109cddf54ce095c3293d85bc412d}
 
-Enum. Wird nur für wiederholbare Texturen verwendet. Für alle anderen Materialien ignoriert.
+Enum. Wird nur für wiederholbare Texturen verwendet. Ignoriert für alle anderen Materialien.
 
-Folgende Werte sind für wiederholbare Texturmaterialien zulässig:
+Die folgenden Werte sind für wiederholbare Texturmaterialien zulässig:
 
 <table id="simpletable_C24FDA80A8AC431DA3FC86188E3774E1" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>0 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Gleich wiederholen. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Wiederholen Sie den Vorgang sofort. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>1 </p></td> 
-  <td class="- topic/stentry stentry"> <p>4-Wege zufällige Kacheln. </p></td> 
+  <td class="- topic/stentry stentry"> <p>4-Wege-zufällige Neigung. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>2 </p></td> 
-  <td class="- topic/stentry stentry"> <p>8-Wege zufällige Kachelung. </p></td> 
+  <td class="- topic/stentry stentry"> <p>8-Wege-zufällige Neigung. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>3 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Diamantenfliese. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Rautenkippen. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Quarter-Drop-Wallpaper hängen. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Vierteljährliches Hintergrundbild. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Hintergrund </p></td> 
+  <td class="- topic/stentry stentry"> <p>Der dritte Tropfen Hintergrundbild. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Halbe Tropfen Tapete hängen. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Halbtropfen Hintergrundbild hängen. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Fünfter-Tropfen-Tapete hängt. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Der fünfte Tropfen Hintergrundbild hängt. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Das Rückwärtsgehen des Hintergrundbilds hängt. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Das umgekehrte Hintergrundbild hängt. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
@@ -66,11 +65,11 @@ Folgende Werte sind für wiederholbare Texturmaterialien zulässig:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Zufälliger Tropfen. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Zufälliger Abfall. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Verdeckt. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Random über. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>12 </p></td> 
@@ -78,7 +77,7 @@ Folgende Werte sind für wiederholbare Texturmaterialien zulässig:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>13 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Spiegeln (Bookmatch). </p></td> 
+  <td class="- topic/stentry stentry"> <p>Mirror (bookmatch). </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>14 </p></td> 
@@ -90,7 +89,7 @@ Folgende Werte sind für wiederholbare Texturmaterialien zulässig:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Randomizer mit niedriger Frequenz. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Randomizer mit geringer Häufigkeit. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
