@@ -1,21 +1,20 @@
 ---
-description: Der Hauptbereich der Ansicht ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt wird.
+description: Der Hauptansichtsbereich ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt ist.
 solution: Experience Manager
-title: Hauptbereich des Viewers
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Hauptanzeige-Bereich
+feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+role: Developer,User
+exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
+# Hauptanzeige-Bereich{#main-viewer-area}
 
-# Hauptviewer-Bereich{#main-viewer-area}
-
-Der Hauptbereich der Ansicht ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt wird.
+Der Hauptansichtsbereich ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -45,12 +44,12 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Flyout-Viewers mit weißem Hintergrund ( `#FFFFFF`) und zur Größe von 260 x 500 Pixeln.
+Beispiel: Zum Einrichten eines Flyout-Viewers mit weißem Hintergrund ( `#FFFFFF`) und seiner Größe 260 x 500 Pixel.
 
 ```
 .s7flyoutviewer { 
@@ -59,4 +58,3 @@ Beispiel: Zum Einrichten eines Flyout-Viewers mit weißem Hintergrund ( `#FFFFFF
  height: 500px;  
 }
 ```
-
