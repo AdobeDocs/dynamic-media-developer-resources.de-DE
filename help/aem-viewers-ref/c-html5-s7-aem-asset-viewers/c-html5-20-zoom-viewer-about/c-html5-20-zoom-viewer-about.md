@@ -4,9 +4,9 @@ keywords: responsiv
 solution: Experience Manager
 title: Zoom
 feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -258,7 +258,7 @@ Der relative Pfad sieht wie folgt aus:
    </html>
    ```
 
-## Responsives Design, eingebettet in unbegrenzte Höhe {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
+## Responsives Design mit uneingeschränkter Höhe {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
 Bei der Einbettung responsiver Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Für das folgende Beispiel nehmen Sie an, dass die Web-Seite es dem Container des Viewers `DIV` ermöglicht, 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
@@ -384,7 +384,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 </html> 
 ```
 
-## Einbetten mit setter-basierter API {#section-44e014925f24418b900696003855c0a9}
+## Einbetten mit einer setter-basierten API {#section-44e014925f24418b900696003855c0a9}
 
 Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Die Verwendung dieses API-Konstruktors akzeptiert keine Parameter und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
 
