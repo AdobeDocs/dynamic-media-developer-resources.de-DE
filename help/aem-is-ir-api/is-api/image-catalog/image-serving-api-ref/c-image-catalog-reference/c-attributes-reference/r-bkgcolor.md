@@ -3,15 +3,14 @@ description: Standardmäßige Hintergrundfarbe. RGB-Wert, mit dem alle Bereiche 
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 63%
+source-wordcount: '65'
+ht-degree: 66%
 
 ---
-
 
 # BkgColor{#bkgcolor}
 
@@ -23,7 +22,7 @@ Farbe.
 
 ## Standard {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-Vererbt von `default::BkgColor`, wenn nicht definiert oder leer.
+Wird von `default::BkgColor` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-90967e515a0d46bd8a9361fd49fc43cf}
 
