@@ -1,23 +1,22 @@
 ---
-description: Die vom Image Rendering unterstützten Befehle sind unten nach Kategorie gruppiert aufgeführt.
+description: Die vom Bild-Rendering unterstützten Befehle sind unten nach Kategorie gruppiert aufgeführt.
 solution: Experience Manager
-title: Übersicht über das Image Rendering des HTTP-Protokolls
+title: Übersicht über den Befehl zum Rendern des HTTP-Protokolls
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 082fc1b6-f571-4613-b03a-318f0c80e924
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
+# Übersicht über den Befehl zum Rendern des HTTP-Protokolls{#image-rendering-http-protocol-command-overview}
 
-# Übersicht über den Befehl zum Rendern des HTTP-Protokolls für Bilder{#image-rendering-http-protocol-command-overview}
+Die vom Bild-Rendering unterstützten Befehle sind unten nach Kategorie gruppiert aufgeführt.
 
-Die vom Image Rendering unterstützten Befehle sind unten nach Kategorie gruppiert aufgeführt.
-
-* [Ansichten-Attribute](r-ir-view-attributes.md)
+* [Anzeigen von Attributen](r-ir-view-attributes.md)
 * [Auswahlbefehle](r-ir-selection-commands.md)
 * [Materialattribute](r-ir-material-attributes.md)
 * [Verschiedene Befehle](r-ir-miscellaneous-commands.md)
