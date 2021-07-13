@@ -1,21 +1,20 @@
 ---
-description: Standardzeitstempel für die Änderung. Stellt einen Standardwert für den Katalog TimeStamp und Vignette TimeStamp bereit. Falls nicht angegeben, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei "catalog.ini".
+description: Standardzeitstempel der Änderung. Stellt einen Standardwert für den Katalog TimeStamp und Vignette TimeStamp bereit. Wenn kein Wert angegeben wird, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei catalog.ini.
 solution: Experience Manager
 title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
 
-
 # TimeStamp{#timestamp}
 
-Standardzeitstempel für die Änderung. Stellt einen Standardwert für Katalog bereit::TimeStamp und Vignette::TimeStamp. Falls nicht angegeben, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei &quot;catalog.ini&quot;.
+Standardzeitstempel der Änderung. Stellt einen Standardwert für den Katalog bereit::TimeStamp und Vignette::TimeStamp. Wenn kein Wert angegeben wird, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei catalog.ini.
 
 ## Eigenschaften {#section-910e2562b41c47b78ee6216deeabbbd5}
 
@@ -27,16 +26,16 @@ Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Mil
 
 *[!DNL hh]* liegt im Bereich von 0 bis 23.
 
-*[!DNL zzz]* ist ein 3- oder 4-stelliger Zeitzonencode wie &#39;GMT&#39; oder &#39;PST&#39;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für Pacific Standard Time im Vergleich zu &quot;PDT&quot;für Pacific Daylight Savings Time).
+*[!DNL zzz]* ist ein 3- oder 4-stelliger Zeitzonen-Code wie &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für die Pacific Standard Time, im Gegensatz zu &quot;PDT&quot;für die Sommerzeit im Pazifik).
 
-*[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zum GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
+*[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
 
-Alle Elemente der String-formatierten Datums-/Uhrzeitwerte müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei [!DNL *[!DNL catalog]*.ini] verwendet.
+Alle Elemente von String formatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der [!DNL *[!DNL catalog]*.ini]-Datei verwendet.
 
 ## Standard {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
-Wenn leer oder nicht definiert, verwendet der Server die Dateiänderungszeit dieser [!DNL *[!DNL catalog]*.ini] Datei.
+Wenn leer oder nicht definiert, verwendet der Server die Dateiänderungszeit dieser [!DNL *[!DNL catalog]*.ini]-Datei.
 
 ## Verwandte Themen {#section-764188f9b1734ad1a6270f5fecd28532}
 
-[Katalog::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) ,  [Vignette::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1),  [Attribut::UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d),  [Attribut::CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4)
+[catalog::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) ,  [vignette::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1),  [attribute::UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d),  [attribute::CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4)
