@@ -3,9 +3,9 @@ description: Karussell-Viewer ist ein Viewer, der ein Karussell nicht zoombarer 
 solution: Experience Manager
 title: Karussell
 feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Die Konfiguration und das Skinning ähneln denen der anderen in dieser Hilfe bes
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagieren mit dem Karussell-Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interagieren mit Karussellansicht {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 Das Navigieren durch das Karussellset erfolgt über eine horizontale Wischbewegung über die Hauptansicht oder mit zwei Pfeiltasten, die auf dem Desktop-Gerät verfügbar sind. Anzeigepunkte festlegen zeigt die aktuelle Position im Satz an.
 
@@ -52,7 +52,7 @@ Auf den Viewer kann vollständig über die Tastatur zugegriffen werden.
 
 Siehe [Barrierefreiheit und Navigation über die Tastatur](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Einbetten des Karussell-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Einbetten von Karussell-Viewern {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **Über den Popup-Modus**
 
