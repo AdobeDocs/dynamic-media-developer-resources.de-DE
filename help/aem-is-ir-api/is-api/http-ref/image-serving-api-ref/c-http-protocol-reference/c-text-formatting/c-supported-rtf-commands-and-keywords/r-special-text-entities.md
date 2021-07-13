@@ -3,15 +3,14 @@ description: Verwenden Sie beim Formatieren von Text die folgenden speziellen En
 solution: Experience Manager
 title: Spezielle Textelemente
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
-
 
 # Spezielle Textelemente{#special-text-entities}
 
@@ -28,7 +27,7 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \par</span> </td> 
-   <td> <p>Absatzumbruch. </p> </td> 
+   <td> <p>Absatzunterbrechung. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -38,16 +37,16 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \\  </span> </td> 
-   <td> <p>Rücker Schrägstrich. </p> </td> 
+   <td> <p>Schrägstrich. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;Klammer;  </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
    <td> <p>Geschweifte Klammer. </p> </td> 
    <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;break;  </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace;  </span> </td> 
    <td> <p>Geschweifte Klammer. </p> </td> 
    <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
@@ -58,7 +57,7 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>Geschützter Bindestrich. </p> </td> 
+   <td> <p>Ununterbrochene Bindestriche. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
@@ -68,4 +67,3 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
   </tr> 
  </tbody> 
 </table>
-
