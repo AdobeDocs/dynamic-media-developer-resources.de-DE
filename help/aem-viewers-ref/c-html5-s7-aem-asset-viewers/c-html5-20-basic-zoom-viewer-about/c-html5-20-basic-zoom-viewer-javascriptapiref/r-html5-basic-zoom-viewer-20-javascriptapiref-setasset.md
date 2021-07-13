@@ -2,16 +2,15 @@
 description: JavaScript-API-Referenz für einfachen Zoom-Viewer.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+role: Developer,User
+exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 3%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -23,7 +22,7 @@ JavaScript-API-Referenz für einfachen Zoom-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} Neue Asset-ID, mit optionalen IS-Modifikatoren nach "?" </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID, mit optionalen IS-Modifikatoren nach "?" </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,21 +31,20 @@ Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Gibt {#section-1d3cf85bc7cc4dfe9670e038d02b9101} zurück
+## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Keine.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Einzelbild-Referenz:
+Einzelbildreferenz:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-Scharfzeichnungsmodifizierer, der allen Bildern im Satz hinzugefügt wird:
+Der Scharfzeichnungsmodifikator wurde allen Bildern im Set hinzugefügt:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B?op_sharpen=1")
 ```
-
