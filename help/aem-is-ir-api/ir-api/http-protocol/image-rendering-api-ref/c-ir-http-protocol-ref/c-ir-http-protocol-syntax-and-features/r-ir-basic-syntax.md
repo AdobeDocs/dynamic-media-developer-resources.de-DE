@@ -1,21 +1,20 @@
 ---
-description: In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Rendering HTTP-Protokolls beschrieben.
+description: In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Rendering-HTTP-Protokolls beschrieben.
 solution: Experience Manager
-title: Grundlegende Syntax des Image Rendering-HTTP-Protokolls
+title: Grundlegende Syntax des HTTP-Protokolls "Image Rendering"
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 4%
 
 ---
 
+# Grundlegende Syntax des HTTP-Protokolls &quot;Image Rendering&quot;{#image-rendering-http-protocol-basic-syntax}
 
-# Grundlegende Syntax des Image Rendering HTTP-Protokolls{#image-rendering-http-protocol-basic-syntax}
-
-In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Rendering HTTP-Protokolls beschrieben.
+In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Rendering-HTTP-Protokolls beschrieben.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -31,15 +30,15 @@ In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Renderi
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> Server </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> port</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> server_address</span> [:<span class="varname"> port</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> Vignette  </span> </p> </td> 
-   <td colname="col2"> <p>Vignettenbezeichner (relativer Dateipfad oder Vignettenkatalogeintrag). </p> </td> 
+   <td colname="col2"> <p>Vignettenspezifikator (relativer Dateipfad oder Vignettenkatalogeintrag). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> Modifikatoren </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp;  <span class="varname"> Modifikator</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp;  <span class="varname"> modifier</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modifier </span> </p> </td> 
@@ -47,15 +46,15 @@ In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Renderi
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> command  </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> macro  </span> </p> </td> 
-   <td colname="col2"> <p>Name eines Befehlmakros. </p> </td> 
+   <td colname="col2"> <p>Name eines Befehlsmakros. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> Kommentar  </span> </p> </td> 
-   <td colname="col2"> <p>Kommentarzeichenfolge (vom Server ignoriert). </p> </td> 
+   <td colname="col1"> <p><span class="varname"> comment  </span> </p> </td> 
+   <td colname="col2"> <p>Kommentar-Zeichenfolge (vom Server ignoriert). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> cmdName  </span> </p> </td> 
@@ -74,14 +73,14 @@ In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Renderi
 
 *`server`*,  *`cmdName`*,  *`macro`* und  *`var`* unterscheiden nicht zwischen Groß- und Kleinschreibung. Der Server behält die Groß-/Kleinschreibung aller anderen Zeichenfolgenwerte bei.
 
-**Server-ID**
+**Server-Kennung**
 
-Der Stammkontext &#39; `/ir/render`&#39; ist für alle HTTP-Anfragen zum Image Rendering erforderlich.
+Der Stammkontext &quot;`/ir/render`&quot;ist für alle HTTP-Anforderungen an das Bild-Rendering erforderlich.
 
 **Kommentare**
 
-Kommentare können überall in Anforderungszeichenfolgen eingebettet werden und durch einen Punkt (.) gekennzeichnet werden unmittelbar nach dem Befehlstrennzeichen (&amp;). Der Kommentar wird durch das nächste Vorkommen eines (nicht kodierten) Befehlstrennzeichens beendet. Diese Funktion kann verwendet werden, um Informationen zur Anforderung hinzuzufügen, die nicht zur Verwendung mit Image Serving bestimmt sind, wie Zeitstempel, Datenbank-IDs usw.
+Kommentare können überall in Anforderungszeichenfolgen eingebettet werden und werden durch einen Punkt (.) unmittelbar auf das Befehlstrennzeichen (&amp;) folgen. Der Kommentar wird durch das nächste Vorkommen eines (nicht codierten) Befehlstrennzeichens beendet. Diese Funktion kann verwendet werden, um Informationen zur Anforderung hinzuzufügen, die nicht für die Image-Serving-Verwendung vorgesehen ist, wie z. B. Zeitstempel, Datenbank-IDs usw.
 
 **HTTP-Dekodierung**
 
-Beim Rendern werden zunächst *`object`* und *`modifiers`* aus der eingehenden Anforderung extrahiert. *`object`* wird dann in Pfadelemente aufgeteilt, die einzeln HTTP-dekodiert sind. Die *`modifiers`*-Zeichenfolge wird in *`command`*= *`value`*-Paare getrennt und *`value`* wird dann vor der befehlsspezifischen Verarbeitung HTTP-dekodiert.
+Beim Rendern von Bildern werden zunächst *`object`* und *`modifiers`* aus der eingehenden Anforderung extrahiert. *`object`* wird dann in Pfadelemente aufgeteilt, die einzeln HTTP-dekodiert sind. Die *`modifiers`*-Zeichenfolge wird in *`command`*= *`value`*-Paare unterteilt und *`value`* wird dann vor der befehlsspezifischen Verarbeitung HTTP-dekodiert.
