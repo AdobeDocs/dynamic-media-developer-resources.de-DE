@@ -1,21 +1,20 @@
 ---
-description: Konfigurationsattribut für den interaktiven Video-Viewer.
+description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
 title: InteractiveSwatches.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: 6f5ec9e3-9912-4f6a-b848-de0076c4b86f
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
 
 # InteractiveSwatches.direction{#interactiveswatches-direction}
 
-Konfigurationsattribut für den interaktiven Video-Viewer.
+Konfigurationsattribut für interaktiven Video-Viewer.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]direction=auto|left|right`
 
@@ -23,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p>Auf <span class="codeph"> links </span> setzen, um die Füllreihenfolge von links nach rechts festzulegen. </p> <p>Bei Auswahl von <span class="codeph"> rechts </span> wird die Reihenfolge umgekehrt, sodass die Ansicht von oben nach unten in der rechten Richtung gefüllt wird. </p> <p>Wenn <span class="codeph"> auto </span> festgelegt ist, wendet die Komponente den Modus right an, wenn das Gebietsschema auf " <span class="codeph"> ja </span>"eingestellt ist. Andernfalls wird <span class="codeph"> links </span> verwendet. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p>Legen Sie <span class="codeph"> links </span> fest, um die Füllreihenfolge von links nach rechts festzulegen. </p> <p>Wird auf <span class="codeph"> rechts </span> gesetzt, wird die Reihenfolge umgekehrt, sodass die Ansicht von rechts nach links in Richtung von oben nach unten gefüllt wird. </p> <p>Wenn <span class="codeph"> auto </span> festgelegt ist, wendet die Komponente den richtigen Modus an, wenn das Gebietsschema auf " <span class="codeph"> ja </span>"festgelegt ist. Andernfalls wird <span class="codeph"> left </span> verwendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
