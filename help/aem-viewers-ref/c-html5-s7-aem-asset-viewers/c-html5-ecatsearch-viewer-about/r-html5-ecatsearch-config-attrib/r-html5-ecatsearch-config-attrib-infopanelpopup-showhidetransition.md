@@ -3,15 +3,14 @@ description: InfoPanelPopup.showhidetransition
 solution: Experience Manager
 title: InfoPanelPopup.showhidetransition
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 04dac817-e273-4e9e-8ddf-b009f0b04d25
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 15%
+source-wordcount: '37'
+ht-degree: 16%
 
 ---
-
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
@@ -25,7 +24,7 @@ ht-degree: 15%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> Zeit</span></span> </p> </td> 
-   <td> <p> Dauer (in Sekunden) der Animation zum Ein- oder Ausblenden </p> </td> 
+   <td> <p> Dauer (in Sekunden) für die Ein- oder Ausblenden-Animation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
