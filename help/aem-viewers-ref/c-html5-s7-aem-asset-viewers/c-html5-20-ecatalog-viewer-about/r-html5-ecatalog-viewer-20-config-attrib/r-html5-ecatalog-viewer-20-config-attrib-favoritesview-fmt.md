@@ -3,15 +3,14 @@ description: FavoritesView.fmt
 solution: Experience Manager
 title: FavoritesView.fmt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d14f8a0c-5fb5-4315-ba8b-79add6d389b0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
-
 
 # FavoritesView.fmt{#favoritesview-fmt}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird. Das Format ist ein beliebiger Wert, der vom Image-Server und vom Client-Browser unterstützt wird. </p> <p>Wenn das Bildformat mit <span class="codeph"> -alpha</span> endet, rendert die Komponente die Bilder als transparenten Inhalt. Bei allen anderen Bildformatwerten behandelt die Komponente Bilder als undurchsichtig. </p> </td> 
+   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird. Das Format ist ein beliebiger Wert, der vom Image-Server und vom Client-Browser unterstützt wird. </p> <p>Wenn das Bildformat mit <span class="codeph"> -alpha</span> endet, rendert die Komponente die Bilder als transparenten Inhalt. Bei allen anderen Bildformatwerten behandelt die Komponente Bilder als deckend. </p> </td> 
   </tr> 
  </tbody> 
 </table>
