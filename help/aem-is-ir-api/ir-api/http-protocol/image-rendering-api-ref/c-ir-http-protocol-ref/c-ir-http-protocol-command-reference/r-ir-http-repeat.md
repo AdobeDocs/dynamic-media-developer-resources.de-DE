@@ -3,15 +3,14 @@ description: Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederho
 solution: Experience Manager
 title: wiederholen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 16%
 
 ---
-
 
 # wiederholen{#repeat}
 
@@ -22,39 +21,39 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
 <table id="simpletable_0D54E62EAF50482A95EDE166D0645D9E"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Gleich wiederholen. </p> </td> 
+  <td class="stentry"> <p>Wiederholen Sie den Vorgang sofort. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>4-Wege zufällige Kacheln. </p> </td> 
+  <td class="stentry"> <p>4-Wege-zufällige Neigung. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>8-Wege zufällige Kachelung. </p> </td> 
+  <td class="stentry"> <p>8-Wege-zufällige Neigung. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Diamantenfliese. </p> </td> 
+  <td class="stentry"> <p>Rautenkippen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Quarter-Drop-Wallpaper hängen. </p> </td> 
+  <td class="stentry"> <p>Vierteljährliches Hintergrundbild. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Hintergrund </p> </td> 
+  <td class="stentry"> <p>Der dritte Tropfen Hintergrundbild. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Halbe Tropfen Tapete hängen. </p> </td> 
+  <td class="stentry"> <p>Halbtropfen Hintergrundbild hängen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Fünfter-Tropfen-Tapete hängt. </p> </td> 
+  <td class="stentry"> <p>Der fünfte Tropfen Hintergrundbild hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Hintergrundbild umkehren. </p> </td> 
+  <td class="stentry"> <p>Umgekehrtes Hintergrundbild hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
@@ -62,11 +61,11 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
-  <td class="stentry"> <p>Zufälliger Tropfen. </p> </td> 
+  <td class="stentry"> <p>Zufälliger Abfall. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>Verdeckt. </p> </td> 
+  <td class="stentry"> <p>Random über. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
@@ -74,7 +73,7 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>Spiegeln (Bookmatch). </p> </td> 
+  <td class="stentry"> <p>Mirror (bookmatch). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -86,7 +85,7 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>Randomizer mit niedriger Frequenz. </p> </td> 
+  <td class="stentry"> <p>Randomizer mit geringer Häufigkeit. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
@@ -102,16 +101,16 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
 </table>
 
-Die zufälligen Quilting-Modi (14...18) können zur Synthese von Texturen aus Bildern verwendet werden, die nicht leicht wiederholbar sind. der Algorithmus erzeugt ganz zufällige oder teilweise zufällige Texturen, die auf dem Originalbild basieren.
+Die zufälligen Quiltiermodi (14...18) können verwendet werden, um Texturen aus nicht leicht wiederholbaren Bildern zu synthetisieren. der Algorithmus erzeugt vollständig zufällige oder teilweise zufällige Texturen basierend auf dem Originalbild.
 
 ## Eigenschaften {#section-262bf540930d4890b678ea00cefe1909}
 
-Materialattribut. Die Materialien sind mit festen Farben, Dekormaterialien und Möbeln versehen.
+Materialattribut. Ignoriert durch feste Farbe, Dekormaterial und Möbel.
 
 ## Standard {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, wenn das Material auf einem Katalogeintrag basiert, andernfalls  `0` (gerade Wiederholung).
+`catalog::Repeat`, wenn das Material auf einem Katalogeintrag basiert, andernfalls ( `0` gerade Wiederholung).
 
 ## Verwandte Themen {#section-ac99113b64654d75a3a86e41db546269}
 
-[Katalog::Repeat](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
+[catalog::Repeat](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
