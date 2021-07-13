@@ -1,21 +1,20 @@
 ---
-description: Unterauswahl. Ermöglicht das Anwenden unterschiedlicher Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe sowie das Entfernen zuvor angewendeter Materialien.
+description: Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe sowie das Entfernen zuvor angewendeter Materialien.
 solution: Experience Manager
 title: sub
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 6%
 
 ---
 
-
 # sub{#sub}
 
-Unterauswahl. Ermöglicht das Anwenden unterschiedlicher Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe sowie das Entfernen zuvor angewendeter Materialien.
+Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe sowie das Entfernen zuvor angewendeter Materialien.
 
 `sub=0|1|2|3|4|5`
 
@@ -34,21 +33,21 @@ Unterauswahl. Ermöglicht das Anwenden unterschiedlicher Materialien auf verschi
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Wählen Sie den oberen Rand aus. </p> </td> 
+  <td class="stentry"> <p>Wählen Sie den oberen Randbereich aus. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Wählen Sie den mittleren Wandbegrenzungsbereich aus. </p> </td> 
+  <td class="stentry"> <p>Wählen Sie den mittleren Randbereich aus. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Wählen Sie den Randbereich der unteren Wand aus. </p> </td> 
+  <td class="stentry"> <p>Wählen Sie den unteren Randbereich aus. </p> </td> 
  </tr> 
 </table>
 
-Derzeit nur für Wandobjekte unterstützt. Hiermit wird ein vorhergehendes MSS beendet und ein neuer MSS-Dienst für das Material, das auf die angegebene Unterauswahl angewendet werden soll, Beginn.
+Derzeit nur für Wandobjekte unterstützt. Beendet ein vorheriges MSS und beginnt mit einem neuen MSS für das Material, das auf die angegebene Unterauswahl angewendet werden soll.
 
-Ein für die obere oder untere Wand definiertes Material wird auf die gesamte Wand angewendet, es sei denn, es wurde auch ein anderes Material für die andere Hälfte der Wand angegeben.
+Ein für die obere oder untere Wand festgelegtes Material wird auf die gesamte Wand angewendet, es sei denn, es wurde auch ein anderes Material für die andere Hälfte der Wand angegeben.
 
 ## Eigenschaften {#section-b202139d6d0847cc8d520a154104ab9d}
 
