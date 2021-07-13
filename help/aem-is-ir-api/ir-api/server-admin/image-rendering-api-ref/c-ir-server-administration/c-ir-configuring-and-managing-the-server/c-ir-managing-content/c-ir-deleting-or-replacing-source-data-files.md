@@ -1,30 +1,29 @@
 ---
-description: Vignettendateien können während der Live-Schaltung durch den Befehl req=release ersetzt oder gelöscht werden, bevor die Datei überschrieben wird.
+description: Vignettendateien können während der Live-Schaltung des Servers ersetzt oder gelöscht werden, indem Sie den Befehl req=release verwenden, unmittelbar bevor die Datei überschrieben wird.
 solution: Experience Manager
-title: Löschen oder Ersetzen von Quelldatendateien
+title: Quelldatendateien löschen oder ersetzen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
+# Quelldatendateien löschen oder ersetzen{#deleting-or-replacing-source-data-files}
 
-# Löschen oder Ersetzen von Quelldatendateien{#deleting-or-replacing-source-data-files}
-
-Vignettendateien können während der Live-Schaltung durch den Befehl req=release ersetzt oder gelöscht werden, bevor die Datei überschrieben wird.
+Vignettendateien können während der Live-Schaltung des Servers ersetzt oder gelöscht werden, indem Sie den Befehl req=release verwenden, unmittelbar bevor die Datei überschrieben wird.
 
 >[!NOTE]
 >
->Eine Datendatei darf nicht ersetzt oder gelöscht werden, während der Render-Server darauf zugreift.
+>Eine Datendatei darf nicht ersetzt oder gelöscht werden, während der Render Server darauf zugreift.
 
-Beachten Sie, dass beim Löschen oder Ersetzen einer Quelldatendatei der Render-Server die Datei nur bis zur nächsten Anforderung schließt, die auf diese Vignette zugreift. Mehrere weitere Zustellversuche sind ggf. erforderlich, wenn eine Datei stark verwendet wird.
+Beachten Sie, dass das Löschen oder Ersetzen einer Quelldatendatei nur dazu führt, dass der Render Server die Datei schließt, bis die nächste Anforderung, die auf diese Vignette zugreift, ausgeführt wird. Wenn eine Datei häufig verwendet wird, können mehrere weitere Versuche erforderlich sein.
 
-Der Render-Server muss beendet werden, um andere Datendateien zu ersetzen.
+Der Render-Server muss angehalten werden, um andere Datendateien zu ersetzen.
 
-Plattformserver-Cache-Einträge werden automatisch ungültig, wenn Materialdateien oder Vignetten ersetzt werden. Durch das Ersetzen von ICC-Profil-Dateien werden keine Zwischenspeicher ungültig.
+Zwischenspeichereinträge des Platform-Servers werden automatisch invalidiert, wenn Materialdateien oder Vignetten ersetzt werden. Durch das Ersetzen von ICC-Profildateien werden Caches nicht invalidiert.
 
-Um die Komplikationen beim Ersetzen von Dateien zu vermeiden, wird empfohlen, einer Ersatzdatei einen neuen Namen zu geben und die entsprechenden Katalogeinträge zu aktualisieren. Dadurch können Datendateien ersetzt werden, während der Server live ist, und Server-Cache-Einträge werden automatisch deaktiviert, ohne dass ein weiterer Eingriff erforderlich ist. Dieser Ansatz kann für alle Datendateien verwendet werden, die von Bildkatalogen verwaltet werden.
+Um das Ersetzen von Dateien zu vermeiden, wird empfohlen, einer Ersatzdatei einen neuen Namen zu geben und die entsprechenden Katalogeinträge zu aktualisieren. Dies ermöglicht das Ersetzen von Datendateien, während der Server aktiv ist, und bewirkt, dass Server-Cache-Einträge automatisch ohne zusätzliche Intervention veraltet werden. Dieser Ansatz kann für alle Datendateien verwendet werden, die von Bildkatalogen verwaltet werden.
