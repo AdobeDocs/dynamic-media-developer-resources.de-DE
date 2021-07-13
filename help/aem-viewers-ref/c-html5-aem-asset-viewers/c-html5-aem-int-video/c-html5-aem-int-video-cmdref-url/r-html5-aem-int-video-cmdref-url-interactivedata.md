@@ -1,25 +1,24 @@
 ---
-description: URL-Befehl für den interaktiven Video-Viewer.
+description: URL-Befehl für interaktiven Video-Viewer.
 solution: Experience Manager
 title: interactivedata
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+role: Developer,User
 exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
 
 # interactivedata{#interactivedata}
 
-URL-Befehl für den interaktiven Video-Viewer.
+URL-Befehl für interaktiven Video-Viewer.
 
 `interactivedata= *`Datei`*`
 
-Interaktive Daten ordnen bestimmte Zeitbereiche im Videoinhalt den Produktdaten zu, die später in interaktiven Farbfeldern neben dem Video angezeigt werden. Er ist auch im Aktionsaufruf-Bedienfeld enthalten, das beim Abschluss der Videowiedergabe angezeigt wird. Es enthält auch einen Titel für das interaktive Video, das im Aktionsaufruf-Bedienfeld angezeigt wird.
+Interaktive Daten ordnen bestimmte Zeitbereiche im Videoinhalt den Produktdaten zu, die später in interaktiven Farbfeldern neben dem Video angezeigt werden. Sie ist auch im Aktionsaufruf-Bedienfeld enthalten, das am Ende der Videowiedergabe angezeigt wird. Außerdem wird ein Titel für das interaktive Video bereitgestellt, das im Aktionsaufruf-Bedienfeld angezeigt wird.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
