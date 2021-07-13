@@ -1,21 +1,20 @@
 ---
-description: Resamplingmodus. Wählen Sie den Resampling- und/oder Interpolationsalgorithmus, der zum Skalieren von Bilddaten verwendet werden soll. Gilt auch für die Drehung von Textebenen und die Größenanpassung von Composite-Bildern während der Transformation der Ansicht.
+description: Resamplingmodus. Auswahl des Resampling- und/oder Interpolationsalgorithmus zur Skalierung von Bilddaten. Gilt auch für die Drehung von Textebenen und die Größenanpassung von zusammengesetzten Bildern während der Ansichtsumwandlung.
 solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-translation-type: tm+mt
-source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 6%
 
 ---
 
 # resMode{#resmode}
 
-Resamplingmodus. Wählen Sie den Resampling- und/oder Interpolationsalgorithmus, der zum Skalieren von Bilddaten verwendet werden soll. Gilt auch für die Drehung von Textebenen und die Größenanpassung von Composite-Bildern während der Transformation der Ansicht.
+Resamplingmodus. Auswahl des Resampling- und/oder Interpolationsalgorithmus zur Skalierung von Bilddaten. Gilt auch für die Drehung von Textebenen und die Größenanpassung von zusammengesetzten Bildern während der Ansichtsumwandlung.
 
 `resMode=bilin|bicub|sharp2|bisharp`
 
@@ -23,32 +22,32 @@ Resamplingmodus. Wählen Sie den Resampling- und/oder Interpolationsalgorithmus,
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt die standardmäßige bi-lineare Interpolation aus. Schnellste Neuberechnungsmethode; einige Aliasing-Artefakte sind bemerkbar. </p> </td> 
+   <td colname="col2"> <p>Wählt die standardmäßige bilineare Interpolation aus. schnellste Resamplingmethode; einige Aliasing-Artefakte sind sichtbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt bikubische Interpolation aus. CPU-intensiver als bilineare Interpolation, liefert aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten. </p> </td> 
+   <td colname="col2"> <p>Wählt bikubische Interpolation aus. CPU-intensiver als bi-lineare Interpolation, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen. <span class="codeph"> spitze  </span> wurde durch  <span class="codeph"> sharp2 ersetzt  </span>, was eine geringere Wahrscheinlichkeit hat, Aliasartefakte zu verursachen (Moiré). </p> </td> 
+   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen. <span class="codeph"> Die  </span> Funktion "scharf"wurde durch " <span class="codeph"> scharf2"ersetzt,  </span>was die Wahrscheinlichkeit verringert, Aliasing-Artefakte (Moiré) zu verursachen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Bisharp  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt Photoshop Standard-Resampler zum Reduzieren der Bildgröße aus, der in Adobe Photoshop als "bikubischer Scharfzeichner"bezeichnet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Bischarp  </span> </p> </td> 
+   <td colname="col2"> <p>Wählt Photoshop Standard-Resampler zum Reduzieren der Bildgröße aus, die in Adobe Photoshop als "bikubisch schärfer"bezeichnet wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->Um das Seitenverhältnis eines Bilds beizubehalten, wenn Sie sowohl `resMode=bisharp` als auch `fit=stretch` verwenden, empfiehlt es sich, entweder den Parameter width oder den Parameter height zu verwenden. Wenn beide Parameter definiert werden müssen, können Sie sie wie im folgenden Beispiel in eine andere Ebene einschließen:
+>Um das Seitenverhältnis eines Bildes beizubehalten, wenn Sie sowohl `resMode=bisharp` als auch `fit=stretch` verwenden, empfiehlt es sich, entweder den Parameter &quot;width&quot;oder den Parameter &quot;height&quot;zu verwenden. Wenn beide Parameter definiert werden müssen, können Sie sie wie im folgenden Beispiel in eine andere Ebene einschließen:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
 ## Eigenschaften {#section-a171bacf4ddf43c782e46b86a16d443e}
 
-Anforderungsattribut. Gilt für alle Skalierungsvorgänge, die mit der Erstellung des endgültigen Antwortbilds verbunden sind, einschließlich der Skalierung aller Ebenen.
+Anforderungsattribut. Gilt für alle Skalierungsvorgänge, die an der Erstellung des endgültigen Antwortbilds beteiligt sind, einschließlich aller Ebenen-Skalierung.
 
 ## Standard {#section-d5e1b26f5703461395018a3a627f7283}
 
@@ -56,7 +55,7 @@ Anforderungsattribut. Gilt für alle Skalierungsvorgänge, die mit der Erstellun
 
 ## Beispiel {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Rufen Sie eine qualitativ hochwertige Darstellung eines in einem Bildkatalog gespeicherten Bildes mit Ebenen ab. Das Bild kann Text enthalten. Das Bild wird in einer Bildbearbeitungsanwendung weiter verarbeitet und benötigt daher einen Alpha-Kanal mit dem Bild.
+Rufen Sie eine hochwertige Ausgabe eines in einem Bildkatalog gespeicherten Bildes mit Ebenen ab. Das Bild kann Text enthalten. Das Bild wird in einer Bildbearbeitungsanwendung weiter verarbeitet und benötigt daher einen Alphakanal mit dem Bild.
 
 ` http:// *`Server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
