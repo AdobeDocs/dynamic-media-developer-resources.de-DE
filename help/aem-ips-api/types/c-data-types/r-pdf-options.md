@@ -3,15 +3,14 @@ description: PDF-Dateioptionen.
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 9%
 
 ---
-
 
 # PDFOptions{#pdfoptions}
 
@@ -25,8 +24,7 @@ Syntax
 |---|---|---|
 | `*`verarbeiten`*` | `xsd:string` | Auswahl von &quot;PDF-Prozessen&quot;. |
 | `*`resolution`*` | `xsd:double` | Dateiauflösung. |
-| `*`Farbraum`*` | `xsd:string` | Auswahl des Colorspace-Modus nach dem Skript. |
-| `*`pdfCatalog`*` | `xsd:boolean` | Ob eine mehrseitige PDF nach dem Rendern in einen E-Katalog kombiniert werden soll (Standard ist true). |
-| `*`extractSearchWords`*` | `xsd:boolean` | Gibt an, ob Suchbegriffe aus der PDF-Datei extrahiert werden sollen. |
+| `*`Farbraum`*` | `xsd:string` | Auswahl des Farbmodus nach dem Skript. |
+| `*`pdfCatalog`*` | `xsd:boolean` | Ob nach dem Rendern eine mehrseitige PDF-Datei in einen E-Katalog kombiniert werden soll (Standard ist &quot;true&quot;). |
+| `*`extractSearchWords`*` | `xsd:boolean` | Ob Suchbegriffe aus der PDF-Datei extrahiert werden sollen. |
 | `*`extractLinks`*` | `xsd:boolean` | Ob PDF-Links in Imagemaps extrahiert werden sollen, die den gerasterten Seiten in IPS zugewiesen sind. |
-
