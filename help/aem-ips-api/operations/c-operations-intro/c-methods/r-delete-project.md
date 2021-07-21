@@ -1,21 +1,20 @@
 ---
-description: Löscht ein Projekt aus einer Firma. Die Verknüpfungen zwischen den Assets und dem Projekt sind beschädigt, aber die Assets werden nicht aus dem IPS gelöscht.
+description: Löscht ein Projekt aus einem Unternehmen. Die Verknüpfungen zwischen den Assets und dem Projekt sind fehlerhaft, die Assets werden jedoch nicht aus dem IPS gelöscht.
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
-
 # deleteProject{#deleteproject}
 
-Löscht ein Projekt aus einer Firma. Die Verknüpfungen zwischen den Assets und dem Projekt sind beschädigt, aber die Assets werden nicht aus dem IPS gelöscht.
+Löscht ein Projekt aus einem Unternehmen. Die Verknüpfungen zwischen den Assets und dem Projekt sind fehlerhaft, die Assets werden jedoch nicht aus dem IPS gelöscht.
 
 Syntax
 
@@ -34,16 +33,16 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Der Name der mit dem Projekt verknüpften Firma. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Das zu löschende Handle des Projekts. |
+| `*`companyName`*` | `xsd:string` | Ja | Der Name des mit dem Projekt verknüpften Unternehmens. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Der Handle für das zu löschende Projekt. |
 
-**Output (deleteProjectReturn)**
+**Ausgabe (deleteProjectReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-e38507f1f7ec41b9a625f47390490254}
 
-In diesem Codebeispiel werden das Firmen-Handle und das Projekthandle als an den IPS-Webdienstserver gesendete Felder im deleteProjectParam verwendet, um das Projekt zu löschen.
+In diesem Codebeispiel werden das Unternehmens-Handle und das Projekt-Handle als Felder im deleteProjectParam verwendet, die an den IPS-Webdienstserver gesendet werden, um das Projekt zu löschen.
 
 **Anforderung**
 
