@@ -1,21 +1,20 @@
 ---
-description: Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern angegeben ist. Mit diesem Vorgang können Sie zurückgegebene Benutzer sortieren und nach Zeichen filtern.
+description: Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gruppen- und Benutzerrollen angegeben sind. Dieser Vorgang ermöglicht die Sortierung der zurückgegebenen Benutzer und die Filterung nach Zeichen.
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 10%
 
 ---
 
-
 # getUsers{#getusers}
 
-Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern angegeben ist. Mit diesem Vorgang können Sie zurückgegebene Benutzer sortieren und nach Zeichen filtern.
+Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gruppen- und Benutzerrollen angegeben sind. Dieser Vorgang ermöglicht die Sortierung der zurückgegebenen Benutzer und die Filterung nach Zeichen.
 
 ## Autorisierte Benutzertypen {#section-6a8f23cc6b22442d8776f701016971ed}
 
@@ -27,14 +26,14 @@ Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Nicht-IPS-Administratoren müssen Mitglied von mindestens einer Firma sein, um für alle API-Aufrufe autorisiert zu sein. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer über keine aktive Firma verfügt. |
+| `*`includeInactive`*` | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
 | `*`includeInvalid`*` | `xsd:boolean` | Nein | Hiermit können Sie ungültige Benutzer ein-/ausschließen. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Firma. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Gruppe. |
-| `*`userRoleArray`*` | `types:StringArray` | Nein | Filtern Sie die Ergebnisse nach Benutzerrolle. |
-| `*`charFilterField`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach dem Zeichenfolgenpräfix des Felds (siehe [!DNL Trash State).] |
-| `*`charFilter`*` | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach einem bestimmten Zeichen. |
-| `*`sortBy`*` | `xsd:string` | Nein | Auswahl der Benutzersortierungsfelder. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Ergebnisse nach Unternehmen filtern. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Ergebnisse nach Gruppe filtern. |
+| `*`userRoleArray`*` | `types:StringArray` | Nein | Ergebnisse nach Benutzerrolle filtern. |
+| `*`charFilterField`*` | `xsd:string` | Nein | Ergebnisse nach dem Zeichenfolgenpräfix des Felds filtern (siehe [!DNL Trash State).] |
+| `*`charFilter`*` | `xsd:string` | Nein | Ergebnisse nach einem bestimmten Zeichen filtern. |
+| `*`sortBy`*` | `xsd:string` | Nein | Auswahl der Sortierungsfelder für Benutzer. |
 | `*`recordsPerPage`*` | `xsd:int` | Nein | Gibt die angegebene Anzahl von Datensätzen pro Seite zurück. |
 | `*`resultsPage`*` | `xsd:int` | Nein | Ergebnisseite. |
 
@@ -42,11 +41,11 @@ Ruft ein Benutzerarray ab, das nach Firmen-, Gruppen- und Benutzerrollenhandlern
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | Ja | Ein Array von Benutzern. |
+| `*`userArray`*` | `types:UserArray` | Ja | Eine Gruppe von Benutzern. |
 
 ## Beispiele {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-Dieses Codebeispiel gibt das Array der Benutzer für mehrere optionale Parameter zurück. Benutzerrollen, Filterfelder für Benutzerzeichen und Benutzersortierungsfelder werden mithilfe bestimmter Zeichenfolgenkonstanten bestimmt.
+Dieses Codebeispiel gibt das Array von Benutzern für mehrere optionale Parameter zurück. Benutzerrollen, Benutzerzeichenfilterfelder und Benutzersortierungsfelder werden mithilfe bestimmter Zeichenfolgenkonstanten bestimmt.
 
 **Anforderung**
 
@@ -81,4 +80,3 @@ Dieses Codebeispiel gibt das Array der Benutzer für mehrere optionale Parameter
    </userArray>
 </getUsersReturn>
 ```
-
