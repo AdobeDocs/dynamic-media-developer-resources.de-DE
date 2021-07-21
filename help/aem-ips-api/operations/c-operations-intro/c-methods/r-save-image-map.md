@@ -1,21 +1,20 @@
 ---
-description: Erstellen Sie eine neue Imagemap oder bearbeiten Sie eine vorhandene Map.
+description: Erstellen Sie eine neue Imagemap oder bearbeiten Sie eine vorhandene Zuordnung.
 solution: Experience Manager
 title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 8%
 
 ---
 
-
 # saveImageMap{#saveimagemap}
 
-Erstellen Sie eine neue Imagemap oder bearbeiten Sie eine vorhandene Map.
+Erstellen Sie eine neue Imagemap oder bearbeiten Sie eine vorhandene Zuordnung.
 
 Syntax
 
@@ -34,7 +33,7 @@ Syntax
 
 ## Parameter {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
-**Input (saveImageMapParam)**
+**Eingabe (saveImageMapParam)**
 
 <table id="table_49649036F46941D2B1F28515674E533B"> 
  <thead> 
@@ -50,7 +49,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Griff zur Firma mit der Imagemap, die Sie speichern möchten. </td> 
+   <td colname="col4"> Das Handle für das Unternehmen mit der Imagemap, die Sie speichern möchten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
@@ -62,13 +61,13 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Der Griff zur Imagemap. Erstellt eine Imagemap mit NULL. </td> 
+   <td colname="col4"> Das Handle zur Imagemap. Erstellt eine Imagemap mit NULL. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Name der Imagemap, die erstellt oder gespeichert wird. </td> 
+   <td colname="col4"> Der Name der erstellten oder gespeicherten Imagemap. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
@@ -86,7 +85,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> action  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Der <span class="codeph"> href </span>-Wert, der der Imagemap zugeordnet ist, wie in der IPS-Schnittstelle angegeben. </p> <p>Um den <span class="codeph"> href </span>-Wert abzurufen, klicken Sie auf das Bild in der IPS-Schnittstelle, kopieren Sie die URL in dieses Element und formatieren Sie dann die IPS-URL als geeignete URL. Beispiel: <span class="codeph"> &amp; </span> wird <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Der <span class="codeph"> href </span> -Wert, der der Imagemap zugeordnet ist, wie in der IPS-Schnittstelle angegeben. </p> <p>Um den Wert <span class="codeph"> href </span> zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL und fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als ordnungsgemäße URL. Beispiel: <span class="codeph"> &amp; </span> wird zu <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
@@ -103,15 +102,15 @@ Syntax
  </tbody> 
 </table>
 
-**Output (saveImageMapReturn)**
+**Ausgabe (saveImageMapReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`imageMapHandle`*` | `xsd:string` | Ja | Der Griff zur neuen oder bearbeiteten Imagemap. |
+| `*`imageMapHandle`*` | `xsd:string` | Ja | Das Handle zur neuen oder bearbeiteten Imagemap. |
 
 ## Beispiele {#section-fdac488b640f427c8aa3d549c5032851}
 
-In diesem Codebeispiel wird eine neue Imagemap für ein Asset erstellt. Es wird ein durch eine Regions-Form-String-Konstante definierter Formtyp verwendet und gibt einen Griff an die neue Imagemap zurück.
+In diesem Codebeispiel wird eine neue Imagemap für ein Asset erstellt. Es wird ein durch eine Regions-Form-String-Konstante bestimmter Formtyp verwendet und ein Handle an die neue Imagemap zurückgegeben.
 
 **Anforderung**
 
@@ -135,4 +134,3 @@ In diesem Codebeispiel wird eine neue Imagemap für ein Asset erstellt. Es wird 
    <imageMapHandle>34191|8|554</imageMapHandle> 
 </saveImageMapReturn>
 ```
-
