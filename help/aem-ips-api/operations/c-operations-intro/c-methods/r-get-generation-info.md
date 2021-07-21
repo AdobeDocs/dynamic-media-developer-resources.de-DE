@@ -1,21 +1,20 @@
 ---
-description: Gibt 2 verschiedene Arten von Informationen basierend auf den weitergeleiteten Parametern zurück. originatorHandle gibt Informationen zu Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen zu Schritten zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet werden.
+description: Gibt basierend auf den übergebenen Parametern zwei verschiedene Arten von Informationen zurück. originatorHandle gibt Informationen zu Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen zu den Schritten zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet wurden.
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 9%
 
 ---
 
-
 # getGenerationInfo{#getgenerationinfo}
 
-Gibt 2 verschiedene Arten von Informationen basierend auf den weitergeleiteten Parametern zurück. originatorHandle gibt Informationen zu Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen zu Schritten zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet werden.
+Gibt basierend auf den übergebenen Parametern zwei verschiedene Arten von Informationen zurück. originatorHandle gibt Informationen zu Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen zu den Schritten zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet wurden.
 
 Syntax
 
@@ -33,18 +32,18 @@ Syntax
 
 ## Parameter {#section-b7fa94c82147455888e8469fa5f6922b}
 
-**Input (getGenerationInfoParam)**
+**Eingabe (getGenerationInfoParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Codebegriff`*` | `xsd:string` | Ja | Der Griff zur Firma. |
-| `*`Codebegriff`*` | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftschnitte. |
-| `*`Codebegriff`*` | `xsd:string` | Nein | Das Handle des Assets zur Abfrage für generierte Assets. |
-| `*`Codebegriff`*` | `xsd:string` | Nein | Das Handle des Assets zur Abfrage für Assets und Motoren, die bei seiner Erstellung verwendet werden. |
-| `*`Codebegriff`*` | `xsd:StringArray` | Nein | Eigenschaften, die im Vorgang enthalten sind. |
-| `*`Codebegriff`*` | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
+| `*`Codeausdruck`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| `*`Codeausdruck`*` | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftstile. |
+| `*`Codeausdruck`*` | `xsd:string` | Nein | Das Handle des Assets, das nach generierten Assets abgefragt werden soll. |
+| `*`Codeausdruck`*` | `xsd:string` | Nein | Der Handle des Assets, mit dem nach Assets und Engines abgefragt werden soll, die bei seiner Generierung verwendet werden. |
+| `*`Codeausdruck`*` | `xsd:StringArray` | Nein | Eigenschaften, die im Vorgang enthalten sind. |
+| `*`Codeausdruck`*` | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
 
-**Output (getGenerationInfoReturn)**
+**Ausgabe (getGenerationInfoReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -52,7 +51,7 @@ Syntax
 
 ## Beispiele {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Dieses Codebeispiel gibt Informationen zu Assets zurück, die aus einem bestimmten Asset generiert wurden. Es werden keine Informationen zu den Schritten abgerufen, die zum Generieren des angegebenen Assets verwendet werden. Die Antwort wird wegen ihrer Kürze abgeschnitten.
+Dieses Codebeispiel gibt Informationen zu Assets zurück, die aus einem bestimmten Asset generiert wurden. Es werden keine Informationen zu Schritten abgerufen, die zum Generieren des angegebenen Assets verwendet werden. Die Antwort wird aus Gründen der Kürze abgeschnitten.
 
 **Anforderung**
 
@@ -78,4 +77,3 @@ Dieses Codebeispiel gibt Informationen zu Assets zurück, die aus einem bestimmt
    </generationArray>
 </getGenerationInfoReturn>
 ```
-
