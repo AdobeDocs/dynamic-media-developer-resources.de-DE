@@ -3,15 +3,14 @@ description: Löscht eine Gruppe.
 solution: Experience Manager
 title: deleteGroup
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 12%
+source-wordcount: '91'
+ht-degree: 13%
 
 ---
-
 
 # deleteGroup{#deletegroup}
 
@@ -31,16 +30,16 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die zur zu löschenden Gruppe gehört. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Das Handle der Gruppe, die Sie löschen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, das zu der Gruppe gehört, die Sie löschen möchten. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Der Handle für die Gruppe, die Sie löschen möchten. |
 
-**Output (deleteGroupParam)**
+**Ausgabe (deleteGroupParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-Dieser Beispielcode löscht eine Gruppe aus einer Firma. Es ist ein Gruppengriff erforderlich, den Sie von einem anderen Vorgang abrufen müssen.
+Mit diesem Beispielcode wird eine Gruppe aus einem Unternehmen gelöscht. Dazu ist ein Gruppenhandle erforderlich, den Sie von einem anderen Vorgang abrufen müssen.
 
 **Anforderung**
 
