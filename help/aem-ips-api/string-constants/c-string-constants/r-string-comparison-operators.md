@@ -1,21 +1,20 @@
 ---
-description: Verwendet von SystemFieldCondition/op und MetadataCondition/op.
+description: Wird von SystemFieldCondition/op und MetadataCondition/op verwendet.
 solution: Experience Manager
-title: Zeichenfolgenvergleichsoperatoren
+title: Operatoren für Zeichenfolgenvergleich
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 97256368-aaf8-437f-9c2a-8265249f87dd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
+# Operatoren für Zeichenfolgenvergleich{#string-comparison-operators}
 
-# Zeichenfolgenvergleichsoperatoren{#string-comparison-operators}
-
-Verwendet von SystemFieldCondition/op und MetadataCondition/op.
+Wird von SystemFieldCondition/op und MetadataCondition/op verwendet.
 
 Syntax
 
@@ -27,4 +26,3 @@ Syntax
 * [!DNL `NotContains`]
 * [!DNL `StartsWith`]
 * [!DNL `EndsWith`]
-
