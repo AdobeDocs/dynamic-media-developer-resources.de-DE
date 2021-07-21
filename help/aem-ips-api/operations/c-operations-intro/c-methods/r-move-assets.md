@@ -1,21 +1,20 @@
 ---
-description: Verschiebt mehrere Assets unabhängig voneinander. Dies erfolgt mit dem AssetMove-Typ, der im assetMoveArray enthalten ist. Jedes AssetMove-Feld enthält einen Zielordner.
+description: Verschiebt mehrere Assets unabhängig voneinander. Dies wird mit dem AssetMove -Typ erreicht, der im assetMoveArray enthalten ist. Jedes AssetMove -Feld enthält einen Zielordner.
 solution: Experience Manager
 title: moveAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '216'
 ht-degree: 9%
 
 ---
 
-
 # moveAssets{#moveassets}
 
-Verschiebt mehrere Assets unabhängig voneinander. Dies erfolgt mit dem AssetMove-Typ, der im assetMoveArray enthalten ist. Jedes AssetMove-Feld enthält einen Zielordner.
+Verschiebt mehrere Assets unabhängig voneinander. Dies wird mit dem AssetMove -Typ erreicht, der im assetMoveArray enthalten ist. Jedes AssetMove -Feld enthält einen Zielordner.
 
 Syntax
 
@@ -30,14 +29,14 @@ Syntax
 
 ## Parameter {#section-7d47f663474b41cc83439288ac133cc5}
 
-**Input (moveAssetsReturn)**
+**Eingabe (moveAssetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit den zu verschiebenden Assets. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | Ja | Ein Asset-Verschiebungsarray. Es enthält ein Asset und einen Asset-Zielordner. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle an das Unternehmen mit Assets, die verschoben werden sollen. |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | Ja | Ein Asset-Verschiebe-Array. Sie enthält ein Asset und einen Asset-Zielordner. |
 
-**Output (moveAssetsReturn)**
+**Ausgabe (moveAssetsReturn)**
 
 <table id="table_FD902FAB4F98413C8A051270ADD7D9C7"> 
  <thead> 
@@ -53,19 +52,19 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Asset-Anzahl erfolgreich verschoben. </td> 
+   <td colname="col4"> Asset-Anzahl wurde erfolgreich verschoben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Anzahl der Assets, die Warnungen generiert haben, wenn der Vorgang versucht hat, sie zu verschieben. </td> 
+   <td colname="col4"> Zählung der Assets, die Warnungen generiert haben, wenn der Vorgang versucht hat, sie zu verschieben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Anzahl der Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, sie zu verschieben. </td> 
+   <td colname="col4"> Zählung der Assets, die beim Versuch, sie zu verschieben, Fehler erzeugt haben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
@@ -94,7 +93,7 @@ Syntax
 
 ## Beispiele {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Dieses Codebeispiel verschiebt Assets an einen bestimmten Ort, der durch `assetMoveArray` angegeben wird. Das Array enthält den Asset-Handle und den zugehörigen Ordner-Handle. Die Antwort zeigt an, dass die Assets erfolgreich verschoben wurden.
+Mit diesem Codebeispiel werden Assets an einen bestimmten Speicherort verschoben, der durch `assetMoveArray` angegeben wird. Das -Array enthält das Asset-Handle und dessen Ordner-Handle. Die Antwort gibt an, dass die Assets erfolgreich verschoben wurden.
 
 **Anforderung**
 
@@ -123,4 +122,3 @@ Dieses Codebeispiel verschiebt Assets an einen bestimmten Ort, der durch `assetM
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
