@@ -1,21 +1,20 @@
 ---
-description: Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Aktualisierungen, um Werte in einem Stapel festzulegen.
+description: Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Updates, um Werte in einem Batch festzulegen.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten,Asset Management
+role: Developer,Admin
+exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setAssetMetadata{#setassetmetadata}
 
-Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Aktualisierungen, um Werte in einem Stapel festzulegen.
+Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Updates, um Werte in einem Batch festzulegen.
 
 Syntax
 
@@ -30,25 +29,25 @@ Syntax
 
 >[!NOTE]
 >
->Der Benutzer muss über Lesezugriff auf das Asset verfügen.
+>Der Benutzer muss Lesezugriff auf das Asset haben.
 
 ## Parameter {#section-bcdcff30905e444388811e897b2824bd}
 
-**Input (setAssetMetadataParam)**
+**Eingabe (setAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit dem Asset, das Sie aktualisieren möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset, das Sie aktualisieren möchten. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Aktualisierungsarray. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Update-Array. |
 
-**Output (setAssetMetadataReturn)**
+**Ausgabe (setAssetMetadataReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-Dieses Codebeispiel verwendet ein Array von Metadaten-Aktualisierungen, um die Metadaten des angegebenen Assets festzulegen.
+Dieses Codebeispiel verwendet ein Array von Metadaten-Updates, um die Metadaten des angegebenen Assets festzulegen.
 
 **Anforderung**
 
