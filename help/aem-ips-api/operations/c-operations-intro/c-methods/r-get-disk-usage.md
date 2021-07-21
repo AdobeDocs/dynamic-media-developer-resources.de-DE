@@ -1,21 +1,20 @@
 ---
-description: Gibt Informationen zur Dateistruktur einer Firma (Anzahl der Dateien usw.) zurück.
+description: Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück.
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 13%
 
 ---
 
-
 # getDiskUsage{#getdiskusage}
 
-Gibt Informationen zur Dateistruktur einer Firma (Anzahl der Dateien usw.) zurück.
+Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück.
 
 ## Autorisierte Benutzertypen {#authorized-user-types}
 
@@ -26,21 +25,21 @@ Gibt Informationen zur Dateistruktur einer Firma (Anzahl der Dateien usw.) zurü
 
 ## Parameter {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
 
-**Input (getDiskUsageParam)**
+**Eingabe (getDiskUsageParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Speichernutzung Sie abrufen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, dessen Festplattenauslastung Sie abrufen möchten. |
 
-**Output (getDiskUsageReturn)**
+**Ausgabe (getDiskUsageReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | Ja | Array der verwendeten Firma. |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | Ja | Array der Unternehmensdatenträger. |
 
 ## Beispiele {#section-cb16a97badc94076ad5da277db5ed16a}
 
-Der Name dieser Anforderung ist irreführend. Statt lediglich einen Skalarwert zurückzugeben, der den von einer Firma belegten Speicherplatz widerspiegelt, werden auch andere Informationen über die Struktur einer Firma abgerufen.
+Der Name dieser Anfrage ist irreführend. Statt lediglich einen Skalarwert zurückzugeben, der angibt, wie viel Festplattenspeicher ein Unternehmen verwendet, erhält es auch andere Informationen über die Struktur eines Unternehmens.
 
 **Anforderung**
 
@@ -65,4 +64,3 @@ Der Name dieser Anforderung ist irreführend. Statt lediglich einen Skalarwert z
    </diskUsageArray>
 </getDiskUsageReturn>
 ```
-
