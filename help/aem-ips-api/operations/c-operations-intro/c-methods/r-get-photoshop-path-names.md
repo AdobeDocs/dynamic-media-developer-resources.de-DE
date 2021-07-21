@@ -3,15 +3,14 @@ description: Gibt ein Array mit Photoshop-Pfadnamen für das angegebene Bild zur
 solution: Experience Manager
 title: getFotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 19%
 
 ---
-
 
 # getFotoshopPathNames{#getphotoshoppathnames}
 
@@ -31,18 +30,18 @@ Syntax
 
 ## Parameter {#section-605a4aab23104489a21f7f7f5849801b}
 
-**Input (getFotoshopPathNamesParam)**
+**Eingabe (getFotoshopPathNamesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie die Firma mit dem Bild vor, mit dem Sie arbeiten möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen, das das Bild enthält, mit dem Sie arbeiten möchten. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
 
-**Output (getFotoshopPathNamesReturn)**
+**Ausgabe (getFotoshopPathNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | Ja | Ein Array mit Photoshop-Pfadnamen in einem Bild. |
+| `*`pathNameArray`*` | `types:StringArray` | Ja | Ein Array von Photoshop-Pfadnamen in einem Bild. |
 
 ## Beispiele {#section-6d316f14b4184d42af4ca3f717b042dd}
 
@@ -65,4 +64,3 @@ Syntax
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-
