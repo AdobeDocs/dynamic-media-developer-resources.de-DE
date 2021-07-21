@@ -3,15 +3,14 @@ description: Entfernt Ordnerberechtigungen.
 solution: Experience Manager
 title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 10830980-d504-4610-96c9-730937453256
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 11%
 
 ---
-
 
 # removeFolderPermissions{#removefolderpermissions}
 
@@ -27,7 +26,7 @@ Syntax
 
 ## Parameter {#section-7efa68377fd846219b906d354ae64ed3}
 
-**Input (removeFolderPermissionsParam)**
+**Eingabe (removeFolderPermissionsParam)**
 
 <table id="table_15223256C63C4F008BDB1DF6F0AFE6A8"> 
  <thead> 
@@ -43,13 +42,13 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Griff zur Firma mit Ordnern, die Sie entfernen möchten. </td> 
+   <td colname="col4"> Der Handle für das Unternehmen mit Ordnern mit Berechtigungen, die Sie entfernen möchten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Behandeln Sie den Ordner. </td> 
+   <td colname="col4"> Verarbeiten Sie den Ordner. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
@@ -57,7 +56,7 @@ Syntax
    <td colname="col3"> Ja </td> 
    <td colname="col4"> <p>Wenn <span class="codeph"> true</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">Das Entfernen von Berechtigungen wird durch alle Vorgänge mit Ordnerberechtigungen übertragen. </li> 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">Das Löschen von Berechtigungen wird durch alle Ordnerberechtigungsvorgänge übertragen. </li> 
      </ul> </p> <p>Wenn <span class="codeph"> false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">Der Vorgang betrifft nur den angegebenen Ordner. </li> 
@@ -66,13 +65,13 @@ Syntax
  </tbody> 
 </table>
 
-**Output (removeFolderPermissionsReturn)**
+**Ausgabe (removeFolderPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-In diesem Codebeispiel werden Berechtigungen aus einem Ordner und seinen Unterordnern entfernt. Setzen Sie `updateChildren` auf `false`, wenn Sie nur Berechtigungen aus dem übergeordneten Ordner entfernen müssen.
+In diesem Codebeispiel werden Berechtigungen aus einem Ordner und seinen Unterordnern entfernt. Setzen Sie `updateChildren` auf `false` , wenn Sie nur Berechtigungen aus dem übergeordneten Ordner entfernen müssen.
 
 **Anforderung**
 
