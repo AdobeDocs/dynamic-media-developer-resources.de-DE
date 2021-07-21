@@ -3,15 +3,14 @@ description: Ein MediaPortal-Ereignis.
 solution: Experience Manager
 title: MPEvent
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 13%
 
 ---
-
 
 # MPEvent{#mpevent}
 
@@ -27,7 +26,7 @@ Syntax
 | `*`createDate`*` | `xsd:dateTime` | Erstellungsdatum des Ereignisses. |
 | `*`ipsUser`*` | `xsd:string` | System oder Benutzer, die das Ereignis auslösen. |
 | `*`companyId`*` | `xsd:int` | Firmen-ID. |
-| `*`companyName`*` | `xsd:string` | Firmenname. |
+| `*`companyName`*` | `xsd:string` | Unternehmensname. |
 | `*`jobName`*` | `xsd:string` | Ein eindeutiger Auftragsname. |
 | `*`jobDescription`*` | `xsd:string` | Eine nützliche Beschreibung für den Auftrag. |
 | `*`string1`*` | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
@@ -40,8 +39,7 @@ Syntax
 | `*`int3`*` | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
 | `*`int4`*` | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
 | `*`int5`*` | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
-| `*`float1`*` | `xsd:double` | Halter für Schwimmwesten (fakultativ). |
-| `*`float2`*` | `xsd:double` | Halter für Schwimmwesten (fakultativ). |
-| `*`float3`*` | `xsd:double` | Halter für Schwimmwesten (fakultativ). |
-| `*`time1`*` | `xsd:dateTime` | Inhaber für Datums-/Zeitstempelinformationen (optional). |
-
+| `*`float1`*` | `xsd:double` | Inhaber von Float-Informationen (optional). |
+| `*`float2`*` | `xsd:double` | Inhaber von Float-Informationen (optional). |
+| `*`float3`*` | `xsd:double` | Inhaber von Float-Informationen (optional). |
+| `*`time1`*` | `xsd:dateTime` | Inhaber für Datum-/Zeitstempelinformationen (optional). |
