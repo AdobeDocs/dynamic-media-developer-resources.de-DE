@@ -3,15 +3,14 @@ description: Erstellen oder bearbeiten Sie eine Gruppe.
 solution: Experience Manager
 title: saveGroup
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 19%
 
 ---
-
 
 # saveGroup{#savegroup}
 
@@ -27,24 +26,24 @@ Syntax
 
 ## Parameter {#section-743610e98dd5494baffcbad6401038eb}
 
-**Input (saveGroupParam)**
+**Eingabe (saveGroupParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit der zu speichernden Gruppe. |
-| `*`groupHandle`*` | `xsd:string` | Nein | Der Griff zur Gruppe. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen mit der Gruppe, die Sie speichern möchten. |
+| `*`groupHandle`*` | `xsd:string` | Nein | Das Handle für die Gruppe. |
 | `*`name`*` | `xsd:string` | Ja | Gruppenname. |
 | `*`isSystemDefined`*` | `xsd:boolean` | Ja | `false` ist Standard. |
 
-**Output (saveGroupReturn)**
+**Ausgabe (saveGroupReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Ja | Gruppengriff. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Gruppieren. |
 
 ## Beispiele {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Dieses Codebeispiel erstellt eine Gruppe, die zu einer bestimmten Firma gehört. Wenn die Gruppe bereits vorhanden ist, wird sie mit den angegebenen Parameterwerten gespeichert.
+Dieses Codebeispiel erstellt eine Gruppe, die zu einem bestimmten Unternehmen gehört. Wenn die Gruppe bereits existiert, wird sie mit den von Ihnen angegebenen Parameterwerten gespeichert.
 
 **Anforderung**
 
@@ -63,4 +62,3 @@ Dieses Codebeispiel erstellt eine Gruppe, die zu einer bestimmten Firma gehört.
    <groupHandle>281</groupHandle>
 </saveGroupReturn>
 ```
-
