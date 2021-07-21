@@ -3,15 +3,14 @@ description: Änderungsprotokoll
 solution: Experience Manager
 title: Änderungsprotokoll
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 15228b48-90a8-4d45-ade3-d5c6962549eb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 0%
+source-wordcount: '18'
+ht-degree: 38%
 
 ---
-
 
 # Änderungsprotokoll{#change-log}
 
