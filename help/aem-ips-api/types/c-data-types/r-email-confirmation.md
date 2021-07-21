@@ -3,15 +3,14 @@ description: Sendet eine E-Mail an einen angegebenen Empfänger als Antwort auf 
 solution: Experience Manager
 title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: b4698637-a897-47fa-92d4-4ab400e56962
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
-
 
 # EmailConfirmation{#emailconfirmation}
 
@@ -23,6 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`ccOriginator`*` | `xsd:boolean` | Wenn &quot;true&quot;, enthält das Benutzerkonto des Webdiensts, bei dem es sich um eine Liste von E-Mails handelt, die eine E-Mail-Bestätigung vom Dynamic Media CDN erhalten sollen. |
-| `*`ccOthersArray`*` | `types:EmailArray` | Ein Array von E-Mail-Adressen (maximal 5), die für den Empfang der Bestätigungsbenachrichtigung vom Dynamic Media CDN vorgesehen sind. |
-
+| `*`ccOriginator`*` | `xsd:boolean` | Wenn der Wert &quot;true&quot;lautet, enthält das Webdienst-Benutzerkonto des Benutzers, bei dem es sich um eine Liste von E-Mails handelt, die vom Dynamic Media-CDN per E-Mail bestätigt werden sollen. |
+| `*`ccOthersArray`*` | `types:EmailArray` | Eine Gruppe von E-Mail-Adressen (maximal 5), die die Bestätigungsbenachrichtigung vom Dynamic Media CDN erhalten. |
