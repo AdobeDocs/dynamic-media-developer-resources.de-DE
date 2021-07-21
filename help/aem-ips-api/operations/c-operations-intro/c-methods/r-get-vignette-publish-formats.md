@@ -3,15 +3,14 @@ description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 22%
 
 ---
-
 
 # getVignettePublishFormats{#getvignettepublishformats}
 
@@ -26,13 +25,13 @@ Syntax
 
 ## Parameter {#section-ba28150e6d8c4aa0b4ec72451ba7bc71}
 
-**Input (getVignettePublishFormatsParam)**
+**Eingabe (getVignettePublishFormatsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 
-**Output (getVignettePublishFormatsReturn)**
+**Ausgabe (getVignettePublishFormatsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -40,7 +39,7 @@ Syntax
 
 ## Beispiele {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-Dieses Codebeispiel gibt zwei Vignettenveröffentlichungsformate zurück, die mit einer bestimmten Firma verknüpft sind. Informationen werden in einem Array zurückgegeben, das aufgrund der Kürze abgeschnitten wird.
+Dieses Codebeispiel gibt zwei Vignettenveröffentlichungsformate zurück, die mit einem bestimmten Unternehmen verknüpft sind. Informationen werden in einem Array zurückgegeben, das aus Gründen der Kürze abgeschnitten wird.
 
 **Anforderung**
 
@@ -64,4 +63,3 @@ Dieses Codebeispiel gibt zwei Vignettenveröffentlichungsformate zurück, die mi
    </vignetteFormatArray>
 </getVignettePublishFormatsReturn>
 ```
-
