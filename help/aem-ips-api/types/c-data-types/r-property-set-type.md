@@ -1,23 +1,22 @@
 ---
-description: Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam.
+description: Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam .
 solution: Experience Manager
 title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 4%
 
 ---
 
-
 # PropertySetType{#propertysettype}
 
-Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam.
+Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam .
 
-Die Werte umfassen:
+Zu den Werten gehören:
 
 * `UserProperty`
 * `CompanyProperty`
@@ -42,7 +41,7 @@ Die Werte umfassen:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Firma Handle. <p>Hinweis:  Der Typ ist global, wenn der Firmen-Handle nicht vorhanden ist. </p></td> 
+   <td colname="col3">Handle des Unternehmens. <p>Hinweis:  Der Typ ist global, wenn der Unternehmens-Handle nicht vorhanden ist. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -57,8 +56,7 @@ Die Werte umfassen:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Gibt an, ob für diesen Typ mehrere Instanzen eines Eigenschaftensatzes an ein Objekt angehängt werden dürfen. </td> 
+   <td colname="col3"> Gibt an, ob mehrere Instanzen von Eigenschaftssätzen an ein Objekt für diesen Typ angehängt werden sollen. </td> 
   </tr> 
  </tbody> 
 </table>
-
