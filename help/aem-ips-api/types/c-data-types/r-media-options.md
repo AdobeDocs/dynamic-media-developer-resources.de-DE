@@ -1,21 +1,20 @@
 ---
-description: Generiert ein Miniaturbild für Ihr Video.
+description: Erzeugt ein Miniaturbild für Ihr Video.
 solution: Experience Manager
 title: MediaOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f37d935d-fe74-4878-8477-d2144d58d982
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 5%
 
 ---
 
-
 # MediaOptions{#mediaoptions}
 
-Generiert ein Miniaturbild für Ihr Video.
+Erzeugt ein Miniaturbild für Ihr Video.
 
 Syntax
 
@@ -33,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:HandleArray</span> </td> 
-   <td colname="col3">Ein Array von <span class="codeph"> PropertySet</span> behandelt das Verweisen auf Videokodierungsvorgaben zum Transkodieren von Videos. </td> 
+   <td colname="col3">Ein Array von <span class="codeph"> PropertySet</span> verarbeitet Verweise auf Videokodierungsvorgaben zur Transkodierung von Videos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
@@ -43,7 +42,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ThumbnailOptions</span> </td> 
-   <td colname="col3">Optional. Ermöglicht die Auswahl eines bestimmten Videobilds, das als Miniaturbild verwendet werden soll. <p>Wenn Sie ein Miniaturbild angeben möchten, geben Sie die Zeit (in Millisekunden ab Beginn) für den zu verwendenden Frame ein. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Wenn Sie die Uhrzeit falsch angeben, wird <span class="codeph"> generateThumbnail</span> standardmäßig auf true gesetzt. </p></p><p>Siehe <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
+   <td colname="col3">Optional. Ermöglicht die Auswahl eines bestimmten Video-Frames als Miniaturbild. <p>Um ein Miniaturbild anzugeben, geben Sie die Zeit (in Millisekunden ab Videostart) für den Frame weiter, den Sie verwenden möchten. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Wenn Sie die Zeit falsch angeben, wird <span class="codeph"> generateThumbnail</span> standardmäßig auf "true"gesetzt. </p></p><p>Siehe <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +61,8 @@ Syntax
 
 ## Verwendet von {#section-87cb83407198432c95eaa2db9f12f9db}
 
-Der Typ `mediaOptions` wird verwendet von:
+Der Typ `mediaOptions` wird wie folgt verwendet:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
