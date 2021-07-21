@@ -3,15 +3,14 @@ description: Ruft Aufträge ab, deren Ausführung geplant ist.
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '80'
+ht-degree: 21%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -32,15 +31,15 @@ Syntax
 
 ## Parameter {#section-2af604ff8282460990b9237158187f8f}
 
-**Input (getScheduledJobsParam)**
+**Eingabe (getScheduledJobsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
-| `*`jobHandle`*` | `xsd:string` | Nein | Auftragsbearbeitung |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| `*`jobHandle`*` | `xsd:string` | Nein | Auftragshandle. |
 | `*`originalName`*` | `xsd:string` | Nein | Der von `submitJob` angegebene Name. |
 
-**Output (getScheduledJobsReturn)**
+**Ausgabe (getScheduledJobsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -48,7 +47,7 @@ Syntax
 
 ## Beispiele {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Dieses Codebeispiel gibt alle geplanten Aufträge in einem Auftrags-Array zurück. Das Array selbst enthält detaillierte Informationen zu den Aufträgen.
+Dieses Codebeispiel gibt alle geplanten Aufträge in einem Auftrags-Array zurück. Das -Array selbst enthält detaillierte Informationen zu den Aufträgen.
 
 **Anforderung**
 
@@ -78,4 +77,3 @@ Dieses Codebeispiel gibt alle geplanten Aufträge in einem Auftrags-Array zurüc
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
