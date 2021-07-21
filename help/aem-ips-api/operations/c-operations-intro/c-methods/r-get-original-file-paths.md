@@ -1,21 +1,20 @@
 ---
-description: Ruft die ursprünglichen Dateipfade der Assets einer Firma ab.
+description: Ruft die ursprünglichen Dateipfade der Assets eines Unternehmens ab.
 solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
 
-
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-Ruft die ursprünglichen Dateipfade der Assets einer Firma ab.
+Ruft die ursprünglichen Dateipfade der Assets eines Unternehmens ab.
 
 Syntax
 
@@ -35,14 +34,14 @@ Syntax
 
 ## Parameter {#section-a6b394daba6e49a8882cf3051035d9d1}
 
-**Input (getOriginalFilePathsParam)**
+**Eingabe (getOriginalFilePathsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array von Handles zu Assets, deren ursprünglicher Dateipfad Sie abrufen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array von Handles zu Assets, deren ursprünglichen Dateipfad Sie abrufen möchten. |
 
-**Output (getOriginalFilePathsReturn)**
+**Ausgabe (getOriginalFilePathsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -74,4 +73,3 @@ Dieses Codebeispiel gibt die Dateipfade von Assets zurück, die mit eindeutigen 
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
