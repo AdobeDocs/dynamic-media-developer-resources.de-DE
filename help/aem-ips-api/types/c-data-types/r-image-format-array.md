@@ -3,15 +3,14 @@ description: Array von Bildformaten.
 solution: Experience Manager
 title: ImageFormatArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: daf6049f-24e8-4a4b-a9b3-c7f4f2e56f81
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # ImageFormatArray{#imageformatarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:ImageFormat` | Array von Bildformaten. |
-
