@@ -1,21 +1,20 @@
 ---
-description: Ruft alle Systemeigenschaften in einer einzigen Anforderung ab.
+description: Ruft alle Systemeigenschaften in einer einzigen Anfrage ab.
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '60'
+ht-degree: 18%
 
 ---
 
-
 # getSystemProperties{#getsystemproperties}
 
-Ruft alle Systemeigenschaften in einer einzigen Anforderung ab.
+Ruft alle Systemeigenschaften in einer einzigen Anfrage ab.
 
 Syntax
 
@@ -33,11 +32,11 @@ Syntax
 
 ## Parameter {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**Input (getSystemPropertiesParam)**
+**Eingabe (getSystemPropertiesParam)**
 
 Keine.
 
-**Output (getSystemPropertiesReturn)**
+**Ausgabe (getSystemPropertiesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +44,7 @@ Keine.
 
 ## Beispiele {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-Dieses Codebeispiel gibt ein Array von Systemeigenschaften zurück. Die Reaktion wurde wegen ihrer Kürze abgeschnitten.
+Dieses Codebeispiel gibt ein Array von Systemeigenschaften zurück. Die Antwort wurde wegen der Kürze gekürzt.
 
 **Anforderung**
 
@@ -70,4 +69,3 @@ Dieses Codebeispiel gibt ein Array von Systemeigenschaften zurück. Die Reaktion
    </propertyArray> 
 </getSystemPropertiesReturn>
 ```
-
