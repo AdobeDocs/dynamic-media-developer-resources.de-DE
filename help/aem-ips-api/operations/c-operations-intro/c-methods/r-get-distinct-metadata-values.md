@@ -2,16 +2,15 @@
 description: Gibt alle Werte für ein Metadatenfeld zurück.
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
-
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
@@ -31,14 +30,14 @@ Syntax
 
 ## Parameter {#section-600f36a32ff147cb83149943d37843e2}
 
-**Input (getDistinctMetadataValuesParam)**
+**Eingabe (getDistinctMetadataValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, für die Sie Daten abrufen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, für das Sie Daten abrufen möchten. |
 | `*`metadataKey`*` | `xsd:string` | Ja | Metadatenschlüssel in Punktnotation. |
 
-**Output (getDistinctMetadataValuesReturn)**
+**Ausgabe (getDistinctMetadataValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -95,4 +94,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
