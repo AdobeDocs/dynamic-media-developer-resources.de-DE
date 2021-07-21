@@ -1,21 +1,20 @@
 ---
-description: Erstellen oder bearbeiten Sie eine Zoom-Zielgruppe.
+description: Erstellen oder bearbeiten Sie ein Zoomziel.
 solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 20%
 
 ---
 
-
 # saveZoomTarget{#savezoomtarget}
 
-Erstellen oder bearbeiten Sie eine Zoom-Zielgruppe.
+Erstellen oder bearbeiten Sie ein Zoomziel.
 
 Syntax
 
@@ -30,29 +29,29 @@ Syntax
 
 ## Parameter {#section-4a23983cae4e49a098e9bbe736933996}
 
-**Input (saveZoomTargetParam)**
+**Eingabe (saveZoomTargetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit der zu speichernden Zoom-Zielgruppe. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Der Griff zur Zoom-Zielgruppe. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Nein | Bearbeitet oder erstellt eine Zoom-Zielgruppe. |
-| `*`name`*` | `xsd:string` | Ja | Name der Zoom-Zielgruppe. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zum Unternehmen mit dem Zoomziel, das Sie speichern möchten. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Der Griff zum Zoomziel. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Nein | Bearbeiten oder erstellen Sie ein Zoomziel. |
+| `*`name`*` | `xsd:string` | Ja | Zoom-Zielname. |
 | `*`xPosition`*` | `xsd:int` | Ja | Position des linken Pixels. |
-| `*`yPosition`*` | `xsd:int` | Ja | Position der obersten Pixel. |
-| `*`width`*` | `xsd:int` | Ja | Breite der Zoom-Zielgruppe. |
-| `*`height`*` | `xsd:int` | Ja | Höhe der Zoom-Zielgruppe. |
+| `*`yPosition`*` | `xsd:int` | Ja | Position des obersten Pixels. |
+| `*`width`*` | `xsd:int` | Ja | Zoom der Zielbreite |
+| `*`height`*` | `xsd:int` | Ja | Zoom der Zielhöhe |
 | `*`Benutzerdaten`*` | `xsd:string` | Ja | Für kundenspezifische Informationen. Kann beliebige Datentypen enthalten. |
 
-**Output (saveZoomTargetReturn)**
+**Ausgabe (saveZoomTargetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Behandeln Sie die neu erstellte Zoom-Zielgruppe. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Bearbeiten Sie das neu erstellte Zoomziel. |
 
 ## Beispiele {#section-509c472c316549cdb228d7e1cfa8400a}
 
-In diesem Codebeispiel wird eine Zoom-Zielgruppe gespeichert. Die Antwort gibt den Zifferngriff der Zielgruppe zurück.
+Mit diesem Codebeispiel wird ein Zoomziel gespeichert. Die Antwort gibt den Zoom-Ziel-Handle zurück.
 
 **Anforderung**
 
@@ -76,4 +75,3 @@ In diesem Codebeispiel wird eine Zoom-Zielgruppe gespeichert. Die Antwort gibt d
    <zoomTargetHandle>34194|9|301</zoomTargetHandle>
 </saveZoomTargetReturn>
 ```
-
