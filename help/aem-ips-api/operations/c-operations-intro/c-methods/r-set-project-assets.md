@@ -1,21 +1,20 @@
 ---
-description: Assets in einem Projekt zuweisen oder aktualisieren
+description: Zuweisen oder Aktualisieren von Assets in einem Projekt.
 solution: Experience Manager
 title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 18%
 
 ---
 
-
 # setProjectAssets{#setprojectassets}
 
-Assets in einem Projekt zuweisen oder aktualisieren
+Zuweisen oder Aktualisieren von Assets in einem Projekt.
 
 Syntax
 
@@ -30,15 +29,15 @@ Syntax
 
 ## Parameter {#section-bd51ef23deaf434ba2efb8cef2a8b4a5}
 
-**Input (setProjectAssetsParam)**
+**Eingabe (setProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`companyName`*` | `xsd:string` | Ja | Handle des Unternehmens. |
 | `*`projectHandle`*` | `xsd:string` | Ja | Projekthandle. |
 | `*`assetHandleArray`*` | `types:HandleArray` | Ja | Das Array der Asset-Handles, die Sie mit dem Projekt verknüpfen möchten. |
 
-**Output (setProjectAssetsReturn)**
+**Ausgabe (setProjectAssetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Dieses Codebeispiel weist einem Projekt ein Asset zu. Die Anforderung gibt einen Erfolgszähler von 1 zurück.
+In diesem Codebeispiel wird einem Projekt ein Asset zugewiesen. Die Anfrage gibt eine Erfolgsanzahl von 1 zurück.
 
 **Anforderung**
 
@@ -69,4 +68,3 @@ Dieses Codebeispiel weist einem Projekt ein Asset zu. Die Anforderung gibt einen
    <errorCount>0</errorCount>
 </setProjectAssetsReturn>
 ```
-
