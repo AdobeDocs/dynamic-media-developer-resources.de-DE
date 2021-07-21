@@ -1,21 +1,20 @@
 ---
-description: Ein Array mit Veröffentlichungsverlauf.
+description: Ein Array von Veröffentlichungsverhalten.
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a3c5c523-0157-449d-b03c-56b23501e822
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-
 # PublishHistoryArray{#publishhistoryarray}
 
-Ein Array mit Veröffentlichungsverlauf.
+Ein Array von Veröffentlichungsverhalten.
 
 Syntax
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:PublishHistory` | Das Array des Veröffentlichungsverlaufs. |
-
