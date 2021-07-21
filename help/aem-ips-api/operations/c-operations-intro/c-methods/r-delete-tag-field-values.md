@@ -3,15 +3,14 @@ description: Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 solution: Experience Manager
 title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 12%
+source-wordcount: '92'
+ht-degree: 13%
 
 ---
-
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
@@ -25,15 +24,15 @@ Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 
 ## Parameter {#section-5db64a6ae238426395bc760b83587260}
 
-**Input (deleteTagFieldValuesParam)**
+**Eingabe (deleteTagFieldValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff der Firma, die das Tag-Feld enthält. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | Der Griff des zu ändernden Tag-Felds. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, das das Tag-Feld enthält. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
 | `*`valueArray`*` | `types:StringArray` | Ja | Ein Array von Tag-Werten, die aus dem Wörterbuch des Felds gelöscht werden sollen. |
 
-**Output (deleteTagFieldValuesParam)**
+**Ausgabe (deleteTagFieldValuesParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
