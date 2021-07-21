@@ -1,21 +1,20 @@
 ---
-description: Ein Array mit Zoom-Zielgruppen.
+description: Ein Array von Zoomzielen.
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: eb397fdc-39e3-4fa2-8891-4c692cbaa9a3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-
 # ZoomTargetArray{#zoomtargetarray}
 
-Ein Array mit Zoom-Zielgruppen.
+Ein Array von Zoomzielen.
 
 Syntax
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:ZoomTarget` | Array von Zoom-Zielgruppen. |
-
+| `*`Elemente`*` | `types:ZoomTarget` | Array von Zoomzielen. |
