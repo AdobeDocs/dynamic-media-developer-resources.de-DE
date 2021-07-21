@@ -3,15 +3,14 @@ description: Optionen für eine Adobe Illustrator-Datei.
 solution: Experience Manager
 title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -25,6 +24,5 @@ Syntax
 |---|---|---|
 | `*`verarbeiten`*` | `xsd:string` | Auswahl der Illustrator-Prozesse. |
 | `*`resolution`*` | `xsd:string` | Dateiauflösung. |
-| `*`colorSpace`*` | `xsd:string` | Farbraum der Zielgruppe. |
-| `*`alpha`*` | `xsd:boolean` | Gibt an, ob die Datei in ein Bild gerastert werden soll. Wenn dies der Fall ist, erstellen Sie einen transparenten Hintergrund, wenn die Originaldatei auf diese Weise zum Erstellen von Überlagerungslogos definiert ist. |
-
+| `*`colorSpace`*` | `xsd:string` | Zielfarbraum. |
+| `*`alpha`*` | `xsd:boolean` | Ob die Datei in ein Bild gerastert werden soll. Wenn dies der Fall ist, erstellen Sie einen transparenten Hintergrund, wenn die Originaldatei so definiert ist, dass sie Logos überlagert. |
