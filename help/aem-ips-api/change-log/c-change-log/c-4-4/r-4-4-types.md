@@ -1,14 +1,13 @@
 ---
 description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.4.
 solution: Experience Manager
-title: Datentypen neu und geändert
+title: Neue und geänderte Datentypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
-translation-type: tm+mt
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
@@ -32,18 +31,18 @@ Syntax
 * `IccProfileFieldUpdate`
 * `IccProfileFieldUpdateArray`
 
-## Modifizierte Typen {#section-dfd062062ad444b0876bbc951fb1560c}
+## Geänderte Typen {#section-dfd062062ad444b0876bbc951fb1560c}
 
 **Asset**
 
-hinzugefügte Parameter:
+Hinzugefügte Parameter:
 
 * `subtype`
 * `assetSetInfo`
 
 **JobLog**
 
-hinzugefügte Parameter:
+Hinzugefügte Parameter:
 
 * `transferSuccessCount`
 * `transferErrorCount`
@@ -51,6 +50,6 @@ hinzugefügte Parameter:
 
 **PDFInfo**
 
-hinzugefügte Parameter:
+Hinzugefügte Parameter:
 
 * `extractLinks`
