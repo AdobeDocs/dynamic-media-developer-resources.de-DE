@@ -3,15 +3,14 @@ description: Wird von getGenerationInfo/engine verwendet.
 solution: Experience Manager
 title: Generierungsinformationen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0293d28e-a023-4a79-9a3b-fc7b5cfbc98a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
-
 
 # Generierungsinformationen{#generation-info}
 
@@ -26,4 +25,3 @@ Syntax
 * [!DNL `ImageConvert`]
 * [!DNL `SceneAuthoring`]
 * [!DNL `Aco`]
-
