@@ -1,21 +1,20 @@
 ---
-description: Löscht das Metadatenfeld einer Firma.
+description: Löscht das Metadatenfeld eines Unternehmens.
 solution: Experience Manager
 title: deleteMetadataField
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 10%
 
 ---
 
-
 # deleteMetadataField{#deletemetadatafield}
 
-Löscht das Metadatenfeld einer Firma.
+Löscht das Metadatenfeld eines Unternehmens.
 
 Syntax
 
@@ -27,20 +26,20 @@ Syntax
 
 ## Parameter {#section-73f12a30cc4340b6b32dd11effd5195e}
 
-**Input (deleteMetadataFieldParam)**
+**Eingabe (deleteMetadataFieldParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die das zu löschende Metadatenfeld enthält. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | Das Handle zum zu löschenden Metadatenfeld. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, das das zu löschende Metadatenfeld enthält. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | Der Handle für das zu löschende Metadatenfeld. |
 
-**Output (deleteMetadataFieldParam)**
+**Ausgabe (deleteMetadataFieldParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-In diesem Codebeispiel wird das Metadatenfeld einer Firma gelöscht. Es verwendet den Firmen-Handle und den Metadaten-Handle als Felder im `deleteMetadataFieldParam`, die an den IPS-Webdienstserver übergeben werden, um diese Aktion auszuführen.
+In diesem Codebeispiel wird das Metadatenfeld eines Unternehmens gelöscht. Es verwendet das Handle des Unternehmens und das Metadatenhandle als Felder im `deleteMetadataFieldParam`, das an den IPS-Webdienstserver übergeben wird, um diese Aktion durchzuführen.
 
 **Anforderung**
 
