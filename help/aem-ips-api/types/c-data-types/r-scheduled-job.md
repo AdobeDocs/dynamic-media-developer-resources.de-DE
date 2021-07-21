@@ -3,15 +3,14 @@ description: Ein Auftrag, der ausgeführt werden soll.
 solution: Experience Manager
 title: ScheduledJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 4%
 
 ---
-
 
 # ScheduledJob{#scheduledjob}
 
@@ -23,32 +22,32 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Firma Handle. |
-| `*`jobHandle`*` | `xsd:string` | Terminierte Auftragsverwaltung. |
+| `*`companyHandle`*` | `xsd:string` | Handle des Unternehmens. |
+| `*`jobHandle`*` | `xsd:string` | Handhabung geplanter Aufträge. |
 | `*`name`*` | `xsd:string` | Auftragsname. |
 | `*`originalName`*` | `xsd:string` | Ursprünglicher Name des geplanten Auftrags. |
 | `*`type`*` | `xsd:string` | Auftragstyp. |
 | `*`submitUserEmail`*` | `xsd:string` | Die E-Mail-Adresse des Benutzers, der den Auftrag geplant hat. |
-| `*`locale`*` | `xsd:string` | Das Gebietsschema, das für Auftragsprotokolldetails und E-Mail-lokale Anpassungen verwendet wird. Gebietsschemata werden als `<language_code>[- <country_code>]` angegeben, wobei der Sprachencode aus Kleinbuchstaben und aus zwei Buchstaben besteht, wie in ISO-639 angegeben, und der optionale Ländercode aus Großbuchstaben besteht, und aus zwei Buchstaben, wie in ISO-3166 angegeben. Die Zeichenfolge für Englisch (USA) lautet beispielsweise: `en-US`. |
+| `*`locale`*` | `xsd:string` | Das Gebietsschema, das für Auftragsprotokolldetails und die E-Mail-Lokalisierung verwendet werden soll. Gebietsschemata werden als `<language_code>[- <country_code>]` angegeben, wobei der Sprachcode ein aus zwei Buchstaben bestehender Code in Kleinbuchstaben ist, wie in ISO-639 angegeben, und der optionale Ländercode ein aus zwei Buchstaben bestehender Code in Großbuchstaben ist, wie in ISO-3166 angegeben. Die Gebietsschema-Zeichenfolge für Englisch (USA) lautet beispielsweise: `en-US`. |
 | `*`description`*` | `xsd:string` | Eine Beschreibung des Auftrags, wie ursprünglich unter `submitJob` angegeben. |
-| `*`execSchedule`*` | `xsd:string` | Wenn die Ausführung des Auftrags geplant ist. |
-| `*`nextFireTime`*` | `xsd:dateTime` | Datum, Uhrzeit und Zeitzone, in der der Auftrag ausgelöst wird. |
+| `*`execSchedule`*` | `xsd:string` | Wann der Auftrag ausgeführt werden soll. |
+| `*`nextFireTime`*` | `xsd:dateTime` | Datum, Uhrzeit und Zeitzone, zu der der Auftrag ausgelöst wird. |
 | `*`timeZone`*` | `xsd:dateTime` | Die Zeitzone des geplanten Auftrags. |
-| `*`triggerState`*` | `xsd:int` | Auswahl des Triggers. |
-| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Auftragsdetails für einen Image Serving-Veröffentlichungsauftrag. |
-| `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Auftragsdetails für einen Bildwiedergabeauftrag. |
-| `*`videoPublishJob`*` | `types:VideoPublishJob` | Auftragsdetails für einen Videoveröffentlichungsauftrag. Siehe [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
-| `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Auftragsdetails für einen Veröffentlichungsauftrag im Serververzeichnis. |
+| `*`triggerState`*` | `xsd:int` | Auswahl des Status des Triggers. |
+| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Auftragsdetails für einen Image-Serving-Veröffentlichungsauftrag. |
+| `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Auftragsdetails für einen Bildrendering-Auftrag. |
+| `*`videoPublishJob`*` | `types:VideoPublishJob` | Auftragsdetails für einen Video-Veröffentlichungsauftrag. Siehe [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Auftragsdetails für einen Veröffentlichungsauftrag in Serverordnern. |
 | `*`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | Auftragsdetails für einen Upload-Ordnerauftrag. |
 | `*`uploadUrlsJob`*` | `types:UploadUrlsJob` | Auftragsdetails für einen Upload-URLs-Auftrag. |
 | `*`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | `*`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | `*`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| `*`exportJob`*` | `types:ExportJob` | Zulassen des autorisierten Exports von zuvor hochgeladenen Dateien. Siehe [Exportauftrag](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| `*`exportJob`*` | `types:ExportJob` | Zulassen des autorisierten Exports von zuvor hochgeladenen Dateien. Siehe [Export Job](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Anmerkungen {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Wenn Sie in `submitJob` einen Auftragstypwert angeben, gibt das System einen Auftrag basierend auf diesem Typ zurück. Die folgenden Aufträge können zurückgegeben werden:
+Wenn Sie in `submitJob` einen Auftragstyp angeben, gibt das System einen Auftrag zurück, der auf diesem Typ basiert. Die folgenden Aufträge können zurückgegeben werden:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -56,4 +55,3 @@ Wenn Sie in `submitJob` einen Auftragstypwert angeben, gibt das System einen Auf
 * `serverDirectoryPublishJob`
 * `uploadDirectorhJob`
 * `uploadUrlsJob`
-
