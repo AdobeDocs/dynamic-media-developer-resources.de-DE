@@ -2,16 +2,15 @@
 description: Aktualisieren von Feldmetadaten.
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 12%
 
 ---
-
 
 # updateMetadataField{#updatemetadatafield}
 
@@ -27,7 +26,7 @@ Syntax
 
 ## Parameter {#section-69681ed1ddff437ca1c73f46fe835c96}
 
-**Input (updateMetadataFieldParam)**
+**Eingabe (updateMetadataFieldParam)**
 
 <table id="table_65D6EE6C402E4F01819822A855B6BB7F"> 
  <thead> 
@@ -43,7 +42,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Firma Handle. </td> 
+   <td colname="col4"> Handle des Unternehmens. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -67,24 +66,24 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> IPS-systemspezifische Metadaten ausblenden oder verfügbar machen </td> 
+   <td colname="col4"> Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Ein boolesches Flag, das angibt, ob das Metadatenfeld beim Festlegen des Werts erzwungen (validiert) wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn unter <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> ein unzulässiger Wert festgelegt wurde. </p> </td> 
+   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Ermöglicht die Erstellung eines Satzes von freigegebenen nummerierten Werten, auf die ausgewählte Tags verweisen können. </td> 
+   <td colname="col4"> Ermöglicht die Erstellung eines Satzes gemeinsamer Auflistungswerte, auf den ausgewählte Tags verweisen können. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (updateMetadataFieldReturn)**
+**Ausgabe (updateMetadataFieldReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -92,7 +91,7 @@ Syntax
 
 ## Beispiele {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-Diese Codebeispiel-Aktualisierungen weisen einem Metadatenfeld einen neuen Namen und einen neuen Standardwert zu. Die Antwort gibt einen Handle an das aktualisierte Feld zurück.
+Diese Codebeispielaktualisierungen weisen einem Metadatenfeld einen neuen Namen und einen neuen Standardwert zu. Die Antwort gibt ein Handle an das aktualisierte Feld zurück.
 
 **Anforderung**
 
@@ -112,4 +111,3 @@ Diese Codebeispiel-Aktualisierungen weisen einem Metadatenfeld einen neuen Namen
    <fieldHandle>m|21|IMAGE|updateMetadataField</fieldHandle>
 </updateMetadataFieldReturn>
 ```
-
