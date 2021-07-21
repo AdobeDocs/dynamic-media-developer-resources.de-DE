@@ -2,16 +2,15 @@
 description: Wird von MetadataField/type, saveMetadataFieldParam/fieldType und createMetadataField/fieldType verwendet.
 solution: Experience Manager
 title: Metadatenfeldtypen
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 1%
 
 ---
-
 
 # Metadatenfeldtypen{#metadata-field-types}
 
@@ -23,7 +22,7 @@ Syntax
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Ein Sonderfall  [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das in die Werte  [!DNL `True`] und  [!DNL `False`]Werte initialisiert wurde.
+* [!DNL `BooleanTag`]: Ein Sonderfall von  [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das in die Werte  [!DNL `True`] und  [!DNL `False`]initialisiert wurde.
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -31,10 +30,9 @@ Syntax
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]: Null oder mehr Zeichenfolgenwerte aus einem geschlossenen Wörterbuch. Das Wörterbuch kann nur von Administratoren geändert werden.
+* [!DNL `MultiFixedTag`]: Null oder mehr Zeichenfolgenwerte aus einem geschlossenen Wörterbuch. Nur Admin-Benutzer können das Wörterbuch ändern.
 * [!DNL `MultiTag`]: Null oder mehr Zeichenfolgenwerte.
-* [!DNL `SingleFixedTag`]: Ein einzelner Zeichenfolgenwert aus einem geschlossenen Wörterbuch. Wenn `setAssetMetadata` oder `batchSetAssetMetadata` mit einem Wert aufgerufen werden, der nicht im Wörterbuch enthalten ist, wird ein Fehler zurückgegeben. Das Wörterbuch kann nur von Administratoren geändert werden.
+* [!DNL `SingleFixedTag`]: Ein einzelner Zeichenfolgenwert aus einem geschlossenen Wörterbuch. Wenn `setAssetMetadata` oder `batchSetAssetMetadata` mit einem Wert aufgerufen werden, der nicht im Wörterbuch enthalten ist, wird ein Fehler zurückgegeben. Nur Admin-Benutzer können das Wörterbuch ändern.
 
-* [!DNL `SingleTag`]: Ein beliebiger Zeichenfolgenwert.
+* [!DNL `SingleTag`]: Jeder einzelne Zeichenfolgenwert.
 * [!DNL `String`]
-
