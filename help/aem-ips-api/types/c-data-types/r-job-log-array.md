@@ -3,15 +3,14 @@ description: Ein Array von Auftragsprotokollen.
 solution: Experience Manager
 title: JobLogArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e61f26c0-7a5d-4217-b940-0cfbb2ad96e9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
-
 
 # JobLogArray{#joblogarray}
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:JobLog` | Das Array der Auftragsprotokolle. |
-
+| `*`Elemente`*` | `types:JobLog` | Das Array von Auftragsprotokollen. |
