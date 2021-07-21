@@ -3,15 +3,14 @@ description: Legt die Ordnerberechtigungen fest.
 solution: Experience Manager
 title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 14%
 
 ---
-
 
 # setFolderPermissions{#setfolderpermissions}
 
@@ -27,22 +26,22 @@ Syntax
 
 ## Parameter {#section-2a41135054954396b40f1228f2e63b42}
 
-**Input (setFolderPermissionsParam)**
+**Eingabe (setFolderPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
 | `*`folderHandle`*` | `xsd:string` | Ja | Ordner-Handle. |
-| `*`setChildren`*` | `xsd:boolean` | Ja | Legt Berechtigungen für untergeordnete Elemente fest, die dem Ordner gehören. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | Ja | Berechtigungsarray. |
+| `*`setChildren`*` | `xsd:boolean` | Ja | Legt Berechtigungen für untergeordnete Elemente fest, die zum Ordner gehören. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` | Ja | Berechtigungs-Array. |
 
-**Output (setFolderPermissionsReturn)**
+**Ausgabe (setFolderPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-01730da4be874553ab44e3241cdf6357}
 
-In diesem Codebeispiel werden ein Firmen-Handle, ein Ordnerhandle und ein Berechtigungsarray mit detaillierten Informationen zum Ordner angegeben. Es werden dieselben Berechtigungen für die untergeordneten Elemente des übergeordneten Ordners angewendet.
+In diesem Codebeispiel werden ein Unternehmens-Handle, ein Ordner-Handle und ein Berechtigungs-Array mit detaillierten Informationen zum Ordner angegeben. Sie wendet dieselben Berechtigungen für die untergeordneten Elemente des übergeordneten Ordners an.
 
 **Anforderung**
 
