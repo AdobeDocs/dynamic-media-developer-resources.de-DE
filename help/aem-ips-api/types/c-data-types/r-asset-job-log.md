@@ -1,21 +1,20 @@
 ---
-description: Die Details eines Auftragsprotokolls, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
+description: Die Details eines Auftragsprotokolleintrags, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
 solution: Experience Manager
 title: AssetJobLog
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 6%
 
 ---
 
-
 # AssetJobLog{#assetjoblog}
 
-Die Details eines Auftragsprotokolls, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
+Die Details eines Auftragsprotokolleintrags, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
 
 Syntax
 
@@ -33,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Auftragsbearbeitung </td> 
+   <td colname="col3"> Auftragshandle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -63,8 +62,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:JobLogDetailArray</span> </td> 
-   <td colname="col3"> Array von Hilfsauftragsprotokollmeldungen für jedes Auftragsprotokoll. </td> 
+   <td colname="col3"> Array von Protokollnachrichten für Hilfsaufträge für jedes Auftragsprotokoll. </td> 
   </tr> 
  </tbody> 
 </table>
-
