@@ -1,17 +1,16 @@
 ---
 description: Beschreibt neue und geänderte Typen für die IPS-API Version 6.
 solution: Experience Manager
-title: Datentypen neu und geändert
+title: Neue und geänderte Datentypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 1%
 
 ---
-
 
 # Datentypen: Neu und geändert{#data-types-new-and-modified}
 
@@ -37,7 +36,7 @@ Syntax
 * `PublishContext`
 * `PublishContextArray`
 
-## Modifizierte Typen {#section-56b834b1a3b843279d8715b4a4f3890b}
+## Geänderte Typen {#section-56b834b1a3b843279d8715b4a4f3890b}
 
 **Hinzugefügt**
 
@@ -51,7 +50,7 @@ Syntax
 
 * `exportJob` zu `ActiveJob` und `ScheduledJob` hinzugefügt.
 
-* `optmizedPath` und `optimizedFile` zu `PsdInfo` hinzugefügt.
+* `optmizedPath` und `optimizedFile` wurden zu `PsdInfo` hinzugefügt.
 
 * `contextHandle` hinzugefügt zu:
 
@@ -72,4 +71,3 @@ Syntax
 * In `Folder` wurde `permissions` in `permissionsSetHandle` geändert.
 
 * In `AssetSummary` sind `type` und `name` jetzt optional.
-
