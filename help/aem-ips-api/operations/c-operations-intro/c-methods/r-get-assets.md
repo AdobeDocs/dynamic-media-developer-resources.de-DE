@@ -1,21 +1,20 @@
 ---
-description: Gibt Assets vom IPS zurück.
+description: Gibt Assets von IPS zurück.
 solution: Experience Manager
 title: getAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 14%
+source-wordcount: '125'
+ht-degree: 15%
 
 ---
 
-
 # getAssets{#getassets}
 
-Gibt Assets vom IPS zurück.
+Gibt Assets von IPS zurück.
 
 Syntax
 
@@ -37,7 +36,7 @@ Syntax
 
 ## Parameter {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
-**Input (getAssetParam)**
+**Eingabe (getAssetParam)**
 
 <table id="table_15CDEFC7F836411C80AA122E3A701C77"> 
  <thead> 
@@ -53,13 +52,13 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Griff der Firma. </p> </td> 
+   <td colname="col4"> <p>Das Handle des Unternehmens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Stellen Sie die Identität eines bestimmten Benutzers fest. Wird nur von Administratoren verwendet. </p> </td> 
+   <td colname="col4"> <p>Identität eines bestimmten Benutzers annehmen. Wird nur von Administratoren verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
@@ -71,7 +70,7 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn dies ausgeschlossen ist, wird der Stammordner für Firmen verwendet. </p> </td> 
+   <td colname="col4"> <p>Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
@@ -83,7 +82,7 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Felder und Unterfelder, die von der Antwort ausgeschlossen werden. </p> </td> 
+   <td colname="col4"> <p>Felder und Unterfelder, die von der Antwort ausgeschlossen sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,5 +107,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
-
