@@ -1,19 +1,18 @@
 ---
 description: Wird ausgelöst, wenn ein authentifizierter Benutzer nicht über ausreichende Berechtigungen zum Ausführen einer Aufgabe verfügt.
 solution: Experience Manager
-title: authorizedFault
+title: authorizationFault
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 76965735-92d8-46be-b589-67cad3b987dc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 24%
+source-wordcount: '59'
+ht-degree: 25%
 
 ---
 
-
-# authorizedFault{#authorizationfault}
+# authorizationFault{#authorizationfault}
 
 Wird ausgelöst, wenn ein authentifizierter Benutzer nicht über ausreichende Berechtigungen zum Ausführen einer Aufgabe verfügt.
 
@@ -40,4 +39,3 @@ Syntax
 |---|---|---|
 | `code` | `xsd:int` | Fehler-ID |
 | `reason` | `xsd:string` | Eine informative Meldung, die den Fehler beschreibt. |
-
