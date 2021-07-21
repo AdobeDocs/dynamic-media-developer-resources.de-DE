@@ -1,21 +1,20 @@
 ---
-description: Maskiert einen Teil eines Bildes. Die Maske wird immer mit dem Bild verknüpft. Erstellen Sie eine Maske aus ImageInfo.
+description: Verbindet einen Teil eines Bildes. Die Maske ist dem Bild immer zugeordnet. Erhalten Sie eine Maske von ImageInfo.
 solution: Experience Manager
 title: Maske
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '75'
+ht-degree: 13%
 
 ---
 
-
 # Maske{#mask}
 
-Maskiert einen Teil eines Bildes. Die Maske wird immer mit dem Bild verknüpft. Erstellen Sie eine Maske aus ImageInfo.
+Verbindet einen Teil eines Bildes. Die Maske ist dem Bild immer zugeordnet. Erhalten Sie eine Maske von ImageInfo.
 
 Syntax
 
@@ -23,9 +22,8 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | Maskenkopf. |
-| `*`name`*` | `xsd:string` | Name der Maske. |
+| `*`maskHandle`*` | `xsd:string` | Maskieren Sie den Griff. |
+| `*`name`*` | `xsd:string` | Maskenname. |
 | `*`maskPath`*` | `xsd:string` | Relativer Pfad zur Maske. |
 | `*`maskFile`*` | `xsd:string` | Maskendatei. |
 | `*`lastModified`*` | `types:dateTime` | Datum, Uhrzeit und Zeitzone der letzten Änderung der Maske. |
-
