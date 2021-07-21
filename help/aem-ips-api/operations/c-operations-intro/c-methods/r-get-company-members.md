@@ -1,21 +1,20 @@
 ---
-description: Gibt die Benutzer einer Firma zurück, die von einem Firmen-Handle angegeben wurde.
+description: Gibt die Benutzer eines Unternehmens zurück, die von einem Handle des Unternehmens angegeben wurden.
 solution: Experience Manager
 title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
-
 # getCompanyMembers{#getcompanymembers}
 
-Gibt die Benutzer einer Firma zurück, die von einem Firmen-Handle angegeben wurde.
+Gibt die Benutzer eines Unternehmens zurück, die von einem Handle des Unternehmens angegeben wurden.
 
 Syntax
 
@@ -28,14 +27,14 @@ Syntax
 
 ## Parameter {#section-5602e4d6f2214e398e6a804e61f1a088}
 
-**Input (getCompanyMembersParam)**
+**Eingabe (getCompanyMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zu der Firma, deren Mitglieder Sie abrufen möchten. |
-| `*`includeInvalid`*` | `xsd:boolean` | Ja | Schließen Sie ungültige Firmen ein. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, dessen Mitglieder Sie erhalten möchten. |
+| `*`includeInvalid`*` | `xsd:boolean` | Ja | Schließen Sie ungültige Unternehmen ein. |
 
-**Output (getCompanyMembersReturn)**
+**Ausgabe (getCompanyMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -43,7 +42,7 @@ Syntax
 
 ## Beispiele {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Dieses Codebeispiel gibt alle Member einer Firma in einem Benutzerarray zurück. Die Antwort wurde wegen ihrer Kürze abgeschnitten.
+Dieses Codebeispiel gibt alle Mitglieder eines Unternehmens in einem Benutzer-Array zurück. Die Antwort wurde aus Gründen der Kürze abgeschnitten.
 
 **Anforderung**
 
@@ -72,4 +71,3 @@ Dieses Codebeispiel gibt alle Member einer Firma in einem Benutzerarray zurück.
    </memberArray>
 </getCompanyMembersReturn>
 ```
-
