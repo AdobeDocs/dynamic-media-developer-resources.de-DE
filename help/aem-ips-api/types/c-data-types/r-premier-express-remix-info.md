@@ -1,21 +1,20 @@
 ---
-description: Eigenschaften eines PremierExpressRemix-Dateiassets.
+description: Eigenschaften eines PremierExpressRemix-Datei-Assets.
 solution: Experience Manager
 title: PremierExpressRemixInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 725612b5-6e60-4c43-b33a-11c6fccb3c1d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
 
-
 # PremierExpressRemixInfo{#premierexpressremixinfo}
 
-Eigenschaften eines PremierExpressRemix-Dateiassets.
+Eigenschaften eines PremierExpressRemix-Datei-Assets.
 
 Syntax
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Dateipfad. |
 | `*`originalFile`*` | `xsd:string` | Dateiname. |
 | `*`fileSize`*` | `xsd:int` | Dateigröße. |
-
