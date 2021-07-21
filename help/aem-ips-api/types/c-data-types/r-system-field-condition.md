@@ -1,21 +1,20 @@
 ---
-description: Eine Systemfeldsuchbedingung für den Vorgang searchAssets.
+description: Eine Systemfeldsuchbedingung für den Vorgang "searchAssets".
 solution: Experience Manager
 title: SystemFieldCondition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ebd12727-dbb3-40dc-b631-945415331be6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 6%
 
 ---
 
-
 # SystemFieldCondition{#systemfieldcondition}
 
-Eine Systemfeldsuchbedingung für den Vorgang searchAssets.
+Eine Systemfeldsuchbedingung für den Vorgang &quot;searchAssets&quot;.
 
 Bei unären Vergleichen müssen Sie je nach Systemfeldtyp genau einen Wert ( `boolVal`, `longVal`, `doubleVal` oder `dateVal`) übergeben. Übergeben Sie für Suchbereiche die Parameter `min<Type>` und `max<Type>` und übergeben Sie den Wert `op` von `Between` oder `NotBetween`.
 
@@ -23,19 +22,19 @@ Bei unären Vergleichen müssen Sie je nach Systemfeldtyp genau einen Wert ( `bo
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Feld`*` | `xsd:string` | Auswahl der Systemfelder für die Asset-Suche. |
-| `*`op`*` | `xsd:string` | Auswahl von Stringvergleichsoperatoren. |
-| `*`Wert`*` | `xsd:string` | Zu testender Wert. |
+| `*`Feld`*` | `xsd:string` | Auswahl der Asset-Suchsystemfelder. |
+| `*`op`*` | `xsd:string` | Auswahl der Operatoren für Zeichenfolgenvergleich. |
+| `*`Wert`*` | `xsd:string` | Wert, mit dem getestet werden soll. |
 | `*`boolVal`*` | `xsd:boolean` | Boolescher Vergleichswert. |
-| `*`longVal`*` | `xsd:long` | Langer Vergleichswert. |
-| `*`minLong`*` | `xsd:long` | Untere Begrenzung des langen Bereichs. |
+| `*`longVal`*` | `xsd:long` | Long-Vergleichswert. |
+| `*`minLong`*` | `xsd:long` | Untere Grenze des langen Bereichs. |
 | `*`maxLong`*` | `xsd:long` | Obere Grenze des langen Bereichs. |
-| `*`doubleVal`*` | `xsd:double` | Vergleichswert der Dublette. |
-| `*`minDouble`*` | `xsd:double` | Untere Begrenzung des Bereichs Dublette. |
-| `*`maxDouble`*` | `xsd:double` | Obere Begrenzung des Bereichs Dublette. |
+| `*`doubleVal`*` | `xsd:double` | Doppelter Vergleichswert. |
+| `*`minDouble`*` | `xsd:double` | Untere Grenze des doppelten Bereichs. |
+| `*`maxDouble`*` | `xsd:double` | Obere Grenze des Doppelbereichs. |
 | `*`dateVal`*` | `xsd:dateTime` | Datumsvergleichswert. |
-| `*`minDate`*` | `xsd:dateTime` | Minimum des Datumsbereichs. |
-| `*`maxDate`*` | `xsd:dateTime` | Maximum für Datumsbereich. |
+| `*`minDate`*` | `xsd:dateTime` | Datumsbereich Minimum. |
+| `*`maxDate`*` | `xsd:dateTime` | Maximaler Datumsbereich. |
 
 ## Beispiel {#section-347d4aabfff44530adba03d1dc0b9968}
 
@@ -49,4 +48,3 @@ Bei unären Vergleichen müssen Sie je nach Systemfeldtyp genau einen Wert ( `bo
    </items>
 </systemFieldConditionArray>
 ```
-
