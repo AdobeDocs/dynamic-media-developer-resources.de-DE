@@ -1,21 +1,20 @@
 ---
-description: Prüft auf IPS-ID-Konflikte, indem Asset-Namen mit allen Namen eines Image Serving-/Image Rendering-Katalogs einer Firma verglichen werden.
+description: Überprüft, ob Konflikte mit IPS-IDs auftreten, indem Asset-Namen mit allen Namen des Namespace des Image Serving/Image Rendering-Katalogs eines Unternehmens verglichen werden.
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 12%
 
 ---
 
-
 # checkAssetNames{#checkassetnames}
 
-Prüft auf IPS-ID-Konflikte, indem Asset-Namen mit allen Namen eines Image Serving-/Image Rendering-Katalogs einer Firma verglichen werden.
+Überprüft, ob Konflikte mit IPS-IDs auftreten, indem Asset-Namen mit allen Namen des Namespace des Image Serving/Image Rendering-Katalogs eines Unternehmens verglichen werden.
 
 Syntax
 
@@ -32,22 +31,22 @@ Syntax
 
 ## Parameter {#section-9c75b00f2072453abea0bdefc6ad7c99}
 
-**Input (checkAssetNamesParam)**
+**Eingabe (checkAssetNamesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Das Handle der Firma, in der sich der Benutzer befindet. |
-| `*`assetNamesArray`*` | `types:StringArray` | Ja | Ein Array mit zu prüfenden Asset-Namen. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen, das den Benutzer enthält. |
+| `*`assetNamesArray`*` | `types:StringArray` | Ja | Ein Array von Asset-Namen, die überprüft werden sollen. |
 
-**Output (checkAssetNamesReturn)**
+**Ausgabe (checkAssetNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | Ja | Ein Array mit den verwendeten Asset-Namen. |
+| `*`inUseNameArray`*` | `types:StringArray` | Ja | Ein Array der verwendeten Asset-Namen. |
 
 ## Beispiele {#section-bc5d120d74614a63a425ca3acc337219}
 
-Dieser Beispielcode fordert die Namen der Assets an, die für eine bestimmte Firma verwendet werden. Die Antwort gibt ein Array von Asset-Namen zurück, die verwendet werden.
+Dieser Beispielcode fordert die Asset-Namen an, die für ein bestimmtes Unternehmen verwendet werden. Die Antwort gibt ein Array von Asset-Namen zurück, die verwendet werden.
 
 **Anforderung**
 
@@ -70,4 +69,3 @@ Dieser Beispielcode fordert die Namen der Assets an, die für eine bestimmte Fir
    </inUseNameArray>
 </checkAssetNamesReturn>
 ```
-
