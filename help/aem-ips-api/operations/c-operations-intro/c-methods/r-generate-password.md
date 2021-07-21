@@ -3,15 +3,14 @@ description: Erstellt ein neues Kennwort.
 solution: Experience Manager
 title: generatePassword
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 18%
 
 ---
-
 
 # generatePassword{#generatepassword}
 
@@ -33,11 +32,11 @@ Syntax
 
 ## Parameter {#section-d516615c906240819a284786efb19863}
 
-**Input (generatePasswordParam)**
+**Eingabe (generatePasswordParam)**
 
 Keine.
 
-**Output (generatePasswordParam)**
+**Ausgabe (generatePasswordParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +44,7 @@ Keine.
 
 ## Beispiele {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-Dieses Codebeispiel generiert ein Kennwort. Es ist ungewöhnlich, da die Anforderung einfach ein Parameter ohne eingeschlossene Elemente oder Werte ist. IPS gibt ein sicheres Kennwort zurück.
+Dieses Codebeispiel generiert ein Kennwort. Dies ist ungewöhnlich, da es sich bei der Anfrage lediglich um einen Parameter ohne eingeschlossene Elemente oder Werte handelt. IPS gibt ein sicheres Kennwort zurück.
 
 **Anforderung**
 
@@ -61,4 +60,3 @@ Dieses Codebeispiel generiert ein Kennwort. Es ist ungewöhnlich, da die Anforde
    <password>1\7aQRn]</password>
 </generatePasswordReturn>
 ```
-
