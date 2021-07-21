@@ -1,21 +1,20 @@
 ---
-description: Aktualisiert Metadaten im Stapelmodus.
+description: Aktualisiert Metadaten im Batch-Modus.
 solution: Experience Manager
 title: BatchMetadataUpdate
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 07998708-f7c2-42bc-b128-c81f86fd1760
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
-
 # BatchMetadataUpdate{#batchmetadataupdate}
 
-Aktualisiert Metadaten im Stapelmodus.
+Aktualisiert Metadaten im Batch-Modus.
 
 Syntax
 
@@ -24,5 +23,4 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`assetHandleArray`*` | `types:HandleArray` | Array von Asset-Handles. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Array von Metadaten-Aktualisierungshandeln. |
-
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Array von Metadaten-Update-Handles. |
