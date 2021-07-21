@@ -1,17 +1,16 @@
 ---
 description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.2.
 solution: Experience Manager
-title: Datentypen neu und geändert
+title: Neue und geänderte Datentypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
-
 
 # Datentypen: Neu und geändert{#data-types-new-and-modified}
 
@@ -26,11 +25,11 @@ Syntax
 * `PdfSettings`
 * `PremeierExpressRemixInfo`
 
-## Modifizierte Typen {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
+## Geänderte Typen {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
 
 **Asset**
 
-hinzugefügte Parameter:
+Hinzugefügte Parameter:
 
 * `readyForPublish`
 * `trashState`
@@ -44,7 +43,7 @@ Entfernte Parameter:
 
 **ReprocessAssetsJob**
 
-hinzugefügte Parameter:
+Hinzugefügte Parameter:
 
 * `preservePublishState`
 * `preserveCrop`
@@ -52,7 +51,7 @@ hinzugefügte Parameter:
 
 **UploadDirectoryJob**
 
-hinzugefügte Parameter:
+Hinzugefügte Parameter:
 
 * `preservePublishState`
 * `preserveCrop`
@@ -60,8 +59,7 @@ hinzugefügte Parameter:
 
 **UploadUrlsJob**
 
-hinzugefügte Parameter:
+Hinzugefügte Parameter:
 
 * `preservePublishState`
 * `preserveCrop`
-
