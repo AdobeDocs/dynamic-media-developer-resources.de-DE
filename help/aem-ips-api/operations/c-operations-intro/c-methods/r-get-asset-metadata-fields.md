@@ -2,16 +2,15 @@
 description: Gibt alle Metadatenfelder zurück, gruppiert nach Asset-Typ.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten,Asset Management
+role: Developer,Admin
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -31,13 +30,13 @@ Syntax
 
 ## Parameter {#section-5dd58970d61d4d4a928e36ffceca6f5e}
 
-**Input (getAssetMetadataFieldsParam)**
+**Eingabe (getAssetMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Metadaten Sie abrufen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Metadaten Sie abrufen möchten. |
 
-**Output (getAssetMetadataFieldsReturn)**
+**Ausgabe (getAssetMetadataFieldsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -57,7 +56,7 @@ Syntax
 
 >[!NOTE]
 >
->Kürzlich wegen der Kürze.
+>Kürzt aus Gründen der Kürze.
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -68,4 +67,3 @@ Syntax
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
