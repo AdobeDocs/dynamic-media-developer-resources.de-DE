@@ -1,21 +1,20 @@
 ---
-description: Aktualisiert die Set-Definition für einen vorhandenen Asset-Set.
+description: Aktualisiert die Set-Definition für ein vorhandenes Asset-Set.
 solution: Experience Manager
 title: setAssetSetDefinition
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 6%
 
 ---
 
-
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Aktualisiert die Set-Definition für einen vorhandenen Asset-Set.
+Aktualisiert die Set-Definition für ein vorhandenes Asset-Set.
 
 Syntax
 
@@ -30,51 +29,51 @@ Syntax
 
 ## Parameter {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**Input (setAssetDefinitionParam)**
+**Eingabe (setAssetDefinitionParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit dem Asset-Set. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen mit dem Asset-Satz. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Asset-Set-Handle |
 | `*`setDefinition`*` | `xsd:string` | Ja | Definitionszeichenfolge. Siehe unten. |
 
-**Output (setAssetSetDefinitionReturn)**
+**Ausgabe (setAssetSetDefinitionReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
-## setDefinition-Parameter: Über {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition-Parameter: Info {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **setDefinition-Funktionen**
 
-Legen Sie die Ersetzungsfunktionen für `setDefinition` inline fest. Diese werden während einer Katalogsuche oder bei der Veröffentlichung behoben. Ersatzzeichenfolgen haben das Format `${<substitution_func>}` und beinhalten Folgendes:
+Geben Sie die Ersatzfunktionen `setDefinition` inline an. Diese werden bei der Katalogsuche oder bei der Veröffentlichung behoben. Ersatzzeichenfolgen haben das Format `${<substitution_func>}` und enthalten Folgendes:
 
 >[!NOTE]
 >
->Handle-Literale in den Parameter Listen müssen von Klammern `([])` umgeben sein. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabestrategie kopiert.
+>Handle-Literale in den Parameterlisten müssen von Klammern `([])` umgeben sein. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabezeichenfolge kopiert.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Substitutionsfunktion </th> 
-   <th colname="col2" class="entry"> Gibt die </th> 
+   <th colname="col2" class="entry"> Gibt den </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> Primär-Dateipfad. </td> 
+   <td colname="col2"> Primärer Dateipfad. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalog([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Katalog-ID. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> Asset_Handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>], [  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> Metadatenwert. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> Katalog-ID. Gilt für bildbasierte Assets (Image, Angepasste Ansicht, Layer Ansicht). <p>Bei anderen Assets wird die Katalog-ID des Daumenassets zurückgegeben (sofern vorhanden). Wenn dem Asset kein Thumb-Asset zugeordnet ist, gibt die Funktion eine leere Zeichenfolge zurück. </p> </td> 
+   <td colname="col2"> Katalog-ID. Gilt für bildbasierte Assets (Bild, Angepasste Ansicht, Ebenenansicht). <p>Für andere Assets gibt die Katalog-ID des Miniaturanzeigers zurück (falls vorhanden). Wenn dem Asset kein Miniatur-Asset zugeordnet ist, gibt die Funktion eine leere Zeichenfolge zurück. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +88,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-Löst zur Nachschlagezeit oder zur Veröffentlichungszeit Folgendes auf:
+Löst zum Such- oder Veröffentlichungszeitpunkt Folgendes auf:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 
