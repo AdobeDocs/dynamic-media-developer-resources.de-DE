@@ -3,15 +3,14 @@ description: Löscht ein Asset.
 solution: Experience Manager
 title: deleteAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
-
 
 # deleteAsset{#deleteasset}
 
@@ -38,16 +37,16 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der der Ordner gehört. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle des zu löschenden Assets. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Ordner gehört. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das zu löschende Asset. |
 
-**Output (deleteAssetParam)**
+**Ausgabe (deleteAssetParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-d5657289f5234bb0a613dcf691507958}
 
-Dieser Beispielcode löscht alle Asset-Typen aus einer bestimmten Firma. Es ist ein Asset-Handle erforderlich, das Sie von einem anderen Vorgang abrufen müssen.
+Mit diesem Beispielcode werden alle Asset-Typen aus einem bestimmten Unternehmen gelöscht. Dazu ist ein Asset-Handle erforderlich, das Sie von einem anderen Vorgang abrufen müssen.
 
 **Anforderung**
 
