@@ -3,15 +3,14 @@ description: Veröffentlicht Dateien auf den Image-Servern.
 solution: Experience Manager
 title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 11%
 
 ---
-
 
 # ImageServingPublishJob{#imageservingpublishjob}
 
@@ -25,5 +24,4 @@ Syntax
 |---|---|---|
 | `*`publishType`*` | `xsd:string` | Einer der verfügbaren Veröffentlichungstypen. |
 | `*`emailSetting`*` | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL zum Versenden eines Vervollständigungsschreibens. |
-
+| `*`httpCompletionUrl`*` | `xsd:string` | URL zum Senden einer Fertigstellungsbenachrichtigung. |
