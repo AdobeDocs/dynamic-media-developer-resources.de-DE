@@ -1,21 +1,20 @@
 ---
-description: Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel
+description: Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel .
 solution: Experience Manager
 title: Benutzerrollen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
-
 # Benutzerrollen{#user-roles}
 
-Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel
+Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel .
 
 Syntax
 
@@ -39,4 +38,3 @@ Syntax
 * [!DNL `ImagePortalUser`]
 * [!DNL `ImagePortalContrib`]
 * [!DNL `ImagePortalContribUser`]
-
