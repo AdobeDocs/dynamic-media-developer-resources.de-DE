@@ -3,15 +3,14 @@ description: Ein Eintrag in einer ZIP-Datei.
 solution: Experience Manager
 title: ZipEntry
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 12%
 
 ---
-
 
 # ZipEntry{#zipentry}
 
@@ -24,8 +23,7 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`name`*` | `xsd:string` | Name der Einsendung. |
-| `*`isDirectory`*` | `xsd:boolean` | Bestimmt, ob der Eintrag ein Ordner ist. |
+| `*`isDirectory`*` | `xsd:boolean` | Bestimmt, ob der Eintrag ein Verzeichnis ist. |
 | `*`lastModified`*` | `xsd:dateTime` | Datum und Uhrzeit der letzten Änderung. |
 | `*`compressionSize`*` | `xsd:long` | Komprimierte Größe. |
 | `*`uncompressionSize`*` | `xsd:long` | Unkomprimierte Größe. |
-
