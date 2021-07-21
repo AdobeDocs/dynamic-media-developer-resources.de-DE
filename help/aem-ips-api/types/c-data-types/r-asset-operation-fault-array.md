@@ -1,21 +1,20 @@
 ---
-description: Ein Array mit Fehlern bei der Asset-Operation.
+description: Ein Array von Fehlern beim Asset-Vorgang.
 solution: Experience Manager
 title: AssetOperationFaultArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 8bc6bfaa-eecf-4346-af57-25df2a471a1f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
-
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
-Ein Array mit Fehlern bei der Asset-Operation.
+Ein Array von Fehlern beim Asset-Vorgang.
 
 Syntax
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:AssetOperationFault` | Ein Array mit Fehlerelementen für den Asset-Vorgang. |
-
+| `*`Elemente`*` | `types:AssetOperationFault` | Ein Array von Fehlerelementen für den Asset-Vorgang. |
