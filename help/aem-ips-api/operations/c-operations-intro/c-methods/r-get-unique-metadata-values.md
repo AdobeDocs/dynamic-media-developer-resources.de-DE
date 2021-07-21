@@ -2,16 +2,15 @@
 description: Ruft eindeutige Metadatenfeldwerte ab.
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
-
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
@@ -31,14 +30,14 @@ Syntax
 
 ## Parameter {#section-b9d1413811c24566b6d095701f0f66db}
 
-**Input (getUniqueMetadataValuesParam)**
+**Eingabe (getUniqueMetadataValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Benutzen Sie die Firma. |
-| `*`fieldHandle`*` | `xsd:string` | Nein | Umgang mit dem Metadatenfeld. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| `*`fieldHandle`*` | `xsd:string` | Nein | Umgang mit Metadatenfeldern. |
 
-**Output (getUniqueMetadataValuesReturn)**
+**Ausgabe (getUniqueMetadataValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-Dieses Codebeispiel verwendet einen Feldgriff, um bestimmte Metadatenwerte zurückzugeben.
+In diesem Codebeispiel wird ein Feld-Handle verwendet, um bestimmte Metadatenwerte zurückzugeben.
 
 **Anforderung**
 
@@ -66,4 +65,3 @@ Dieses Codebeispiel verwendet einen Feldgriff, um bestimmte Metadatenwerte zurü
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
