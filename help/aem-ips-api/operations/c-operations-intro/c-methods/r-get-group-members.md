@@ -1,21 +1,20 @@
 ---
-description: Ruft die Benutzer ab, die zu einer bestimmten Firma und Gruppe gehören.
+description: Ruft die Benutzer ab, die zu einem bestimmten Unternehmen und einer bestimmten Gruppe gehören.
 solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
 
-
 # getGroupMembers{#getgroupmembers}
 
-Ruft die Benutzer ab, die zu einer bestimmten Firma und Gruppe gehören.
+Ruft die Benutzer ab, die zu einem bestimmten Unternehmen und einer bestimmten Gruppe gehören.
 
 Syntax
 
@@ -27,18 +26,18 @@ Syntax
 
 ## Parameter {#section-b798b06354c946abbb90fa72cc9c67fd}
 
-**Input (getGroupMembersParam)**
+**Eingabe (getGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
-| `*`groupHandle`*` | `xsd:string` |  | Der Griff zur Gruppe. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| `*`groupHandle`*` | `xsd:string` |  | Das Handle für die Gruppe. |
 
-**Output (getGroupMembersReturn)**
+**Ausgabe (getGroupMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | Ja | Ein Array von Benutzergriffen. |
+| `*`userHandleArray`*` | `type:HandleArray` | Ja | Ein Array von Benutzerhandlern. |
 
 ## Beispiele {#section-aaa340dba6b64cce9bcd8303cf999166}
 
@@ -62,4 +61,3 @@ Dieses Codebeispiel gibt ein Benutzerhandle-Array zurück, das alle Benutzer ent
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-
