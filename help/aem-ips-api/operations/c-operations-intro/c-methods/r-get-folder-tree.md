@@ -1,21 +1,20 @@
 ---
-description: Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die getFolderTree-Antwort ist auf maximal 100.000 Ordner beschränkt
+description: Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort "getFolderTree"ist auf maximal 100.000 Ordner beschränkt
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 9%
 
 ---
 
-
 # getFolderTree{#getfoldertree}
 
-Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die getFolderTree-Antwort ist auf maximal 100.000 Ordner beschränkt
+Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort &quot;getFolderTree&quot;ist auf maximal 100.000 Ordner beschränkt
 
 Syntax
 
@@ -31,33 +30,33 @@ Syntax
 
 >[!NOTE]
 >
->Der Benutzer muss über Lesezugriff auf den Ordner verfügen, um Daten darauf zurückgeben zu können.
+>Der Benutzer muss Lesezugriff auf den Ordner haben, um Daten darauf zurückzugeben.
 
 ## Parameter {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
-**Input (getFolderTreeParam)**
+**Eingabe (getFolderTreeParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
-| `*`accessUserHandle`*` | `xsd:string` | Nein | Wird nur von Administratoren verwendet, um die Identität eines bestimmten Benutzers zu imitieren. |
-| `*`accessGroupHandle`*` | `xsd:string` | Nein | Dient zum Filtern nach einer bestimmten Gruppe, einschließlich derjenigen, zu denen die Firma gehört. |
-| `*`folderPath`*` | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn dies ausgeschlossen ist, wird der Stammordner für Firmen verwendet. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| `*`accessUserHandle`*` | `xsd:string` | Nein | Wird nur von Administratoren verwendet, um die Identität eines bestimmten Benutzers zu übernehmen. |
+| `*`accessGroupHandle`*` | `xsd:string` | Nein | Wird verwendet, um nach einer bestimmten Gruppe zu filtern, einschließlich derjenigen, zu der das Unternehmen gehört. |
+| `*`folderPath`*` | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
 | `*`Tiefe`*` | `xsd:int` | Ja | Der Wert null ruft den Ordner der obersten Ebene ab. Jeder andere Wert gibt die Tiefe an, die in den Baum absinkt. |
 | `*`assetTypeArray`*` | `types:StringArray` | Nein | Gibt Ordner zurück, die nur bestimmte Asset-Typen enthalten. |
 | `*`responseFieldArray`*` | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
 | `*`excludeFieldArray`*` | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in der Antwort ausschließen möchten. |
 
-**Output (getFolderTreeReturn)**
+**Ausgabe (getFolderTreeReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Ordner`*` | `types:folders` | Nein | Die Hierarchie der Ordner in einer Baumstruktur. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
+| `*`Ordner`*` | `types:folders` | Nein | Die Hierarchie von Ordnern in einer Baumstruktur. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
 | `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Beispiele {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Dieses Codebeispiel verwendet einen Firma-Handle und einen Tiefenstufe-Parameter, um die Tiefe zu bestimmen, die die Antwort zurückgeben soll. Die Antwort enthält Ordner und Unterordner-Arrays mit zugehörigen Elementen. Stellen Sie den Wert für die Tiefe auf eine kleinere Zahl ein, um tiefer in die Ordnerstruktur zu suchen.
+Dieses Codebeispiel verwendet einen Unternehmens-Handle und einen Tiefenparameter, um die Tiefe zu bestimmen, die die Antwort zurückgeben soll. Die Antwort enthält Ordner und Unter-Ordner-Arrays mit verwandten Ordnern. Setzen Sie den Wert für die Tiefe auf eine kleinere Zahl, um tiefer in die Ordnerstruktur zu suchen.
 
 **Anforderung**
 
@@ -132,4 +131,3 @@ Dieses Codebeispiel verwendet einen Firma-Handle und einen Tiefenstufe-Parameter
   <permissionSetArray>
 </getFolderTreeReturn>
 ```
-
