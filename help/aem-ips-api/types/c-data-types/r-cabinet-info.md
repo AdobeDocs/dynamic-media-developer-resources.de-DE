@@ -1,21 +1,20 @@
 ---
-description: Eigenschaften eines Schrankelements.
+description: Eigenschaften eines Kabinett-Assets.
 solution: Experience Manager
 title: CabinetInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 78ec00cd-c410-412c-970f-96226563a45a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
 
-
 # CabinetInfo{#cabinetinfo}
 
-Eigenschaften eines Schrankelements.
+Eigenschaften eines Kabinett-Assets.
 
 Syntax
 
@@ -23,11 +22,10 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Relativer Weg zum ursprünglichen Schrank. |
+| `*`originalPath`*` | `xsd:string` | Relativer Weg zum ursprünglichen Kabinett. |
 | `*`originalFile`*` | `xsd:string` | Name des Kabinetts. |
-| `*`fileSize`*` | `xsd:int` | Möbelgröße. |
-| `*`imagePath`*` | `xsd:string` | Relativer Pfad zum mit der Vignette verknüpften Schrank. |
+| `*`fileSize`*` | `xsd:int` | Kabinettgröße. |
+| `*`imagePath`*` | `xsd:string` | Relativer Pfad zum Kabinett, das mit der Vignette verbunden ist. |
 | `*`imageFile`*` | `xsd:string` | Dateiname des mit der Vignette verknüpften Kabinetts. |
 | `*`optimizedPath`*` | `xsd:string` | Pfad zum IPS-optimierten Gehäuse. |
-| `*`optimizedFile`*` | `xsd:string` | IPS-optimierte Schrankdatei. |
-
+| `*`optimizedFile`*` | `xsd:string` | IPS-optimierte Kabinendatei. |
