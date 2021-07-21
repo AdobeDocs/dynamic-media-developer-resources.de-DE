@@ -2,16 +2,15 @@
 description: Benutzerdefinierte Felddefinitionen für bestimmte Assets.
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
-
 
 # MetadataField{#metadatafield}
 
@@ -58,23 +57,22 @@ Rufen Sie Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getA
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Bestimmt, ob das Metadatenfeld vom Benutzer definiert wurde. </td> 
+   <td colname="col3"> Bestimmt, ob das Metadatenfeld vom Benutzer definiert wurde oder nicht. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">IPS-systemspezifische Metadaten ausblenden oder verfügbar machen Von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a> zurückgegeben. </td> 
+   <td colname="col3">Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. Wird von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a> zurückgegeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Ein boolesches Flag, das angibt, ob der Metadatenfeldtyp beim Festlegen des Werts erzwungen (validiert) wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn unter <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> ein unzulässiger Wert festgelegt wurde. </p> </td> 
+   <td colname="col3"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob der Metadatenfeldtyp erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Ermöglicht die Erstellung eines Satzes von freigegebenen nummerierten Werten, auf die ausgewählte Tags verweisen können. </td> 
+   <td colname="col3"> Ermöglicht die Erstellung eines Satzes gemeinsamer Auflistungswerte, auf den ausgewählte Tags verweisen können. </td> 
   </tr> 
  </tbody> 
 </table>
-
