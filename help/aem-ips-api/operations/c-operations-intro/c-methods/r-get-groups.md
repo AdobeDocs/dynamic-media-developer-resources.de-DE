@@ -1,21 +1,20 @@
 ---
-description: Gibt Firmen zurück.
+description: Gibt Unternehmensgruppen zurück.
 solution: Experience Manager
 title: getGroups
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 20%
+source-wordcount: '66'
+ht-degree: 21%
 
 ---
 
-
 # getGroups{#getgroups}
 
-Gibt Firmen zurück.
+Gibt Unternehmensgruppen zurück.
 
 Syntax
 
@@ -31,7 +30,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 
 **Ausgabe (getGroupsReturn)**
 
@@ -41,7 +40,7 @@ Syntax
 
 ## Beispiele {#section-ed0708f611574354bf0c6ea83912b531}
 
-Dieser Code gibt ein Array zurück, das alle Gruppen enthält, die zu einer bestimmten Firma gehören, sowie spezifische Informationen zu jeder Gruppe.
+Dieser Code gibt ein Array zurück, das alle Gruppen enthält, die zu einem bestimmten Unternehmen gehören, sowie spezifische Informationen zu den einzelnen Gruppen.
 
 **Anforderung**
 
@@ -63,4 +62,3 @@ Dieser Code gibt ein Array zurück, das alle Gruppen enthält, die zu einer best
    </groupArray>
 </getGroupsReturn>
 ```
-
