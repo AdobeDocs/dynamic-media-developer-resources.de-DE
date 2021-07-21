@@ -1,21 +1,20 @@
 ---
-description: Optionen, die beim automatischen Beschneiden von Bildern auf Grundlage der Transparenz verwendet werden.
+description: Optionen, die beim automatischen Zuschneiden von Bildern basierend auf Transparenz verwendet werden
 solution: Experience Manager
 title: AutoTransparentCropOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
-
 # AutoTransparentCropOptions{#autotransparentcropoptions}
 
-Optionen, die beim automatischen Beschneiden von Bildern auf Grundlage der Transparenz verwendet werden.
+Optionen, die beim automatischen Zuschneiden von Bildern basierend auf Transparenz verwendet werden
 
 Syntax
 
@@ -32,13 +31,12 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> Toleranz</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:Dublette</span> </td> 
-   <td colname="col3">Entfernt weißen Abstand von Bildkanten, basierend auf Transparenz. Verwendet: 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3">Entfernt Leerraum von Bildkanten basierend auf Transparenz. Verwendet: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0, um Farben exakt abzugleichen. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1, um die meisten Farbunterschiede zu aktivieren. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 , um die meisten Farbunterschiede zu aktivieren. </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-
