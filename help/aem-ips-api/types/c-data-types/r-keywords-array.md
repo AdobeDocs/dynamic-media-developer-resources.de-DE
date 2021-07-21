@@ -3,15 +3,14 @@ description: Ein Array von Suchbegriffen.
 solution: Experience Manager
 title: KeywordsArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ec87de9e-f3d0-404e-b16f-4c5d373e5a6f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # KeywordsArray{#keywordsarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:Keywords` | Ein Array von Suchbegriffen. |
-
