@@ -1,21 +1,20 @@
 ---
-description: Ein Array mit Aktualisierungsfehlern für den Tag-Wert.
+description: Ein Array von Tag-Wert-Aktualisierungsfehlern.
 solution: Experience Manager
 title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 76622042-0fb4-4ec4-834b-d64d79af6a94
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
-
 # TagValueUpdateFaultArray{#tagvalueupdatefaultarray}
 
-Ein Array mit Aktualisierungsfehlern für den Tag-Wert.
+Ein Array von Tag-Wert-Aktualisierungsfehlern.
 
 Syntax
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:TagValueUpdateFault` | Ein Array mit Aktualisierungsfehlern für den Tag-Wert (Fehlermeldungen). |
-
+| `*`Elemente`*` | `types:TagValueUpdateFault` | Ein Array von Tag-Wert-Aktualisierungsfehlern (Fehlermeldungen). |
