@@ -1,23 +1,22 @@
 ---
-description: Stellt fest, ob ein Stapel Assets veröffentlicht werden kann.
+description: Bestimmt, ob ein Asset-Batch zur Veröffentlichung bereit ist.
 solution: Experience Manager
 title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 11%
+source-wordcount: '158'
+ht-degree: 12%
 
 ---
 
-
 # setAssetsPublishState{#setassetspublishstate}
 
-Stellt fest, ob ein Stapel Assets veröffentlicht werden kann.
+Bestimmt, ob ein Asset-Batch zur Veröffentlichung bereit ist.
 
-Dies ist die Stapelversion von [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+Dies ist die Batch-Version von [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
 ## Autorisierte Benutzertypen {#section-0804726f683944dbbe9acfc3d35ccf25}
 
@@ -34,20 +33,20 @@ Dies ist die Stapelversion von [setAssetState](../../../operations/c-operations-
 
 ## Parameter {#section-3e49d7859f8647b990d75373cc8dbc24}
 
-**Input (setAssetsPublishStateParam)**
+**Eingabe (setAssetsPublishStateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Ja | Array mit Werten für den Veröffentlichungsstatus der Assets. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Ja | Array von Veröffentlichungsstatuswerten für die Assets. |
 
-**Output (setAssetsPublishStateParam)**
+**Ausgabe (setAssetsPublishStateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Assets. |
-| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Assets, die beim Versuch der Aktualisierung eine Warnung generiert haben. |
-| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Assets, die beim Versuch des Vorgangs, sie zu löschen, einen Fehler generiert haben. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Assets, die eine Warnung generiert haben, als der Vorgang versuchte, sie zu aktualisieren. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Assets, die einen Fehler generiert haben, als der Vorgang versuchte, sie zu löschen. |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die eine Warnung generiert haben. |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die einen Fehler generiert haben. |
 
@@ -83,4 +82,3 @@ In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets festgelegt
    </complexType>
 </element>
 ```
-
