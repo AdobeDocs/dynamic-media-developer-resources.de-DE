@@ -1,21 +1,20 @@
 ---
-description: Ein optionaler Typ, mit dem Sie einen bestimmten Videobild als Miniaturbild auswählen können.
+description: Ein optionaler Typ, mit dem Sie einen bestimmten Videoframe auswählen können, der als Miniaturbild verwendet werden soll.
 solution: Experience Manager
 title: ThumbnailOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 6%
 
 ---
 
-
 # ThumbnailOptions{#thumbnailoptions}
 
-Ein optionaler Typ, mit dem Sie einen bestimmten Videobild als Miniaturbild auswählen können.
+Ein optionaler Typ, mit dem Sie einen bestimmten Videoframe auswählen können, der als Miniaturbild verwendet werden soll.
 
 Syntax
 
@@ -33,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Legt die Zeit (in Millisekunden ab Video-Beginn) für den Frame fest, den Sie für die Videominiatur verwenden möchten. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Das System verwendet das erste Bild des Videos für die Miniaturansicht, wenn Sie die Uhrzeit falsch angeben. Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>Legt die Zeit (in Millisekunden ab Videostart) für den Frame fest, den Sie für die Videominiatur verwenden möchten. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Das System verwendet den ersten Frame des Videos für die Miniaturansicht, wenn Sie die Zeit falsch angeben. Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +46,3 @@ Syntax
       </sequence>
 </complexType>
 ```
-
