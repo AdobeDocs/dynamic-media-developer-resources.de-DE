@@ -1,21 +1,20 @@
 ---
-description: Erstellt eine Kopie eines vorhandenen Bild-Assets. Die angegebenen Image-Server-Protokollbefehle werden angewendet, um eine neue Kopie zu generieren
+description: Erstellt eine Kopie eines vorhandenen Bild-Assets. Die angegebenen Image-Server-Protokollbefehle werden angewendet, um die neue Kopie zu generieren
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 13%
 
 ---
 
-
 # copyImage{#copyimage}
 
-Erstellt eine Kopie eines vorhandenen Bild-Assets. Die angegebenen Image-Server-Protokollbefehle werden angewendet, um eine neue Kopie zu generieren
+Erstellt eine Kopie eines vorhandenen Bild-Assets. Die angegebenen Image-Server-Protokollbefehle werden angewendet, um die neue Kopie zu generieren
 
 Syntax
 
@@ -30,7 +29,7 @@ Syntax
 
 ## Parameter {#section-bf36fcbfda6742f5b9c6b02ea27e5b9d}
 
-**Input (copyImageParam)**
+**Eingabe (copyImageParam)**
 
 <table id="table_F6B14D4875F2424D98B8C4899B1DD867"> 
  <thead> 
@@ -46,7 +45,7 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Griff zu der Firma, die das Bild enthält. </p> </td> 
+   <td colname="col4"> <p>Das Handle für das Unternehmen, das das Bild enthält. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
@@ -58,7 +57,7 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Handle in den Ordner, in den das Bild kopiert werden soll. </p> </td> 
+   <td colname="col4"> <p>Der Handle in den Ordner, in den das Bild kopiert werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
@@ -75,7 +74,7 @@ Syntax
  </tbody> 
 </table>
 
-**Output (copyImageParam)**
+**Ausgabe (copyImageParam)**
 
 <table id="table_5E4ED83047314DFABC1BFAAC76C0EAC3"> 
  <thead> 
@@ -91,14 +90,14 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Griff zum kopierten Bild. </p> </td> 
+   <td colname="col4"> <p>Der Handle zum kopierten Bild. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiele {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-Mit dem Beispielcode wird ein Bild kopiert, das durch Firma, Asset, Ordnerhandle und den Namen festgelegt wurde.
+Der Beispielcode kopiert ein Bild, das nach Unternehmen, Asset, Ordner-Handle und Name angegeben ist.
 
 **Anforderung**
 
@@ -119,4 +118,3 @@ Mit dem Beispielcode wird ein Bild kopiert, das durch Firma, Asset, Ordnerhandle
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
