@@ -1,12 +1,11 @@
 ---
-description: Legt Asset-Metadaten im Stapelmodus fest.
+description: Legt Asset-Metadaten mithilfe des Batch-Modus fest.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
+feature: Dynamic Media Classic,SDK/API,Metadaten,Asset Management
+role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-translation-type: tm+mt
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 13%
@@ -15,7 +14,7 @@ ht-degree: 13%
 
 # batchSetAssetMetadata{#batchsetassetmetadata}
 
-Legt Asset-Metadaten im Stapelmodus fest.
+Legt Asset-Metadaten mithilfe des Batch-Modus fest.
 
 Syntax
 
@@ -30,22 +29,22 @@ Syntax
 
 ## Parameter {#section-7111ac93bc7747f69ba14db4ac3912b0}
 
-**Input (batchSetAssetMetadataParam)**
+**Eingabe (batchSetAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Metadaten Sie bei einem Stapelvorgang festlegen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Metadaten Sie in einem Batch-Vorgang festlegen möchten. |
 | `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Ja | Das Array der auf die Assets angewendeten Metadaten-Aktualisierungen. |
 
-**Output (batchSetAssetMetadataParam)**
+**Ausgabe (batchSetAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Metadaten. |
-| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Metadaten festzulegen. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Metadaten festzulegen. |
 | `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Metadaten festzulegen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details, die mit den Assets verknüpft sind, die Warnungen generieren, wenn der Vorgang versucht hat, Metadaten für die Assets im Stapelverfahren festzulegen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, Metadaten für die Assets im Stapelverfahren festzulegen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generieren, wenn der Vorgang versucht hat, Metadaten für die Assets im Batch-Modus festzulegen. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generieren, wenn der Vorgang versucht hat, Metadaten für die Assets im Batch-Modus festzulegen. |
 
 ## Beispiele {#section-2de798ac920e4b47b971b1729a64395b}
 
