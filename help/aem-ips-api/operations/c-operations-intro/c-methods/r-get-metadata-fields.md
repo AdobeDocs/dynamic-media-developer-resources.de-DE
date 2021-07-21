@@ -1,21 +1,20 @@
 ---
-description: Ruft die mit einem Asset verknüpften benutzerdefinierten Metadatenfelder ab.
+description: Ruft die benutzerdefinierten Metadatenfelder ab, die mit einem Asset verknüpft sind.
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 14%
 
 ---
 
-
 # getMetadataFields{#getmetadatafields}
 
-Ruft die mit einem Asset verknüpften benutzerdefinierten Metadatenfelder ab.
+Ruft die benutzerdefinierten Metadatenfelder ab, die mit einem Asset verknüpft sind.
 
 Syntax
 
@@ -31,22 +30,22 @@ Syntax
 
 ## Parameter {#section-bac949e59c0546429c5786fe422d750d}
 
-**Input (getMetadataFieldsParam)**
+**Eingabe (getMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff der Firma. |
-| `*`assetType`*` | `xsd:string` | Ja | Asset-Typen, aus denen Metadaten abgerufen werden. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens. |
+| `*`assetType`*` | `xsd:string` | Ja | Asset-Typen, aus denen Metadaten abgerufen werden sollen. |
 
-**Output (getMetadataFieldsParam)**
+**Ausgabe (getMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Codebegriff`*` | `Code Phrase` |  |  |
+| `*`Codeausdruck`*` | `Code Phrase` |  |  |
 
 ## Beispiele {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Dieses Codebeispiel gibt Metadaten-Assets für den angegebenen Typ und die angegebene Firma zurück. Die Antwort enthält ein Array von Metadatenfeldern in einem Feldarray. Nicht alle Assets haben die gleichen Metadaten. Der IPS-Benutzer definiert das Metadatenfeld des Assets.
+Dieses Codebeispiel gibt Metadaten-Assets für den angegebenen Typ und das angegebene Unternehmen zurück. Die Antwort enthält ein Array von Metadatenfeldern in einem Feld-Array. Nicht alle Assets verfügen über dieselben Metadaten. Der IPS-Benutzer definiert das Metadatenfeld des Assets.
 
 **Anforderung**
 
@@ -73,4 +72,3 @@ Dieses Codebeispiel gibt Metadaten-Assets für den angegebenen Typ und die angeg
    </fieldArray>
 </getMetadataFieldsReturn>
 ```
-
