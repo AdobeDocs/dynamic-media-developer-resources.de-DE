@@ -3,15 +3,14 @@ description: Bestimmt, ob ein Asset veröffentlicht werden kann.
 solution: Experience Manager
 title: setAssetPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 12%
 
 ---
-
 
 # setAssetPublishState{#setassetpublishstate}
 
@@ -33,7 +32,7 @@ Syntax
 
 ## Parameter {#section-09d2ba001a2a455a9102550272f3eecb}
 
-**Input (setAssetPublishStateParam)**
+**Eingabe (setAssetPublishStateParam)**
 
 <table id="table_23CB72BFB8984CDF82D7207E7D82FC43"> 
  <thead> 
@@ -49,7 +48,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Griff zur Firma. </td> 
+   <td colname="col4"> Der Handle für das Unternehmen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -69,7 +68,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codebegriff  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
