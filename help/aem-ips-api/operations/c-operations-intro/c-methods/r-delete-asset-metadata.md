@@ -1,21 +1,20 @@
 ---
-description: Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von Metadaten, die gelöscht werden, um Werte in einem Stapel festzulegen.
+description: Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von Metadaten-Löschungen, um Werte in einem Batch festzulegen.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten,Asset Management
+role: Developer,Admin
+exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 8%
 
 ---
 
-
 # deleteAssetMetadata{#deleteassetmetadata}
 
-Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von Metadaten, die gelöscht werden, um Werte in einem Stapel festzulegen.
+Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von Metadaten-Löschungen, um Werte in einem Batch festzulegen.
 
 Syntax
 
@@ -34,7 +33,7 @@ Syntax
 
 ## Parameter {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Input (deleteAssetMetadataParam)**
+**Eingabe (deleteAssetMetadataParam)**
 
 <table id="table_A4438E2FE5F245E5B73F46CD887BE70F"> 
  <thead> 
@@ -50,13 +49,13 @@ Syntax
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Handle der Firma, zu der der Ordner gehört. </p> </td> 
+   <td colname="col4"> <p>Der Handle des Unternehmens, zu dem der Ordner gehört. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Handle des zu löschenden Assets. </p> </td> 
+   <td colname="col4"> <p>Das Handle für das zu löschende Asset. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
@@ -73,7 +72,7 @@ Syntax
  </tbody> 
 </table>
 
-**Output (deleteAssetMetadataParam)**
+**Ausgabe (deleteAssetMetadataParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -104,4 +103,3 @@ Beispielaufruf
  </deleteAssetMetadataParam>
 </ac:Request>
 ```
-
