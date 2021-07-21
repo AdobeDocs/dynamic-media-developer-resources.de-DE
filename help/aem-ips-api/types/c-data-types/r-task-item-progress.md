@@ -1,21 +1,20 @@
 ---
-description: Statusinformationen zum Aufgaben-Element.
+description: Informationen zum Fortschritt des Aufgabenelements.
 solution: Experience Manager
 title: TaskItemProgress
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 568a5601-b928-447d-8297-01139f36cf73
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '38'
 ht-degree: 15%
 
 ---
 
-
 # TaskItemProgress{#taskitemprogress}
 
-Statusinformationen zum Aufgaben-Element.
+Informationen zum Fortschritt des Aufgabenelements.
 
 Syntax
 
@@ -25,6 +24,5 @@ Syntax
 |---|---|---|
 | `*`itemName`*` | `xsd:string` | Name des verarbeiteten Elements. |
 | `*`progress`*` | `xsd:double` | Fortschritt abgeschlossen %. |
-| `*`progressMessage`*` | `xsd:string` | Prozessmeldung. |
+| `*`progressMessage`*` | `xsd:string` | Verarbeitungsmeldung. |
 | `*`lastProgressUpdate`*` | `xsd:dateTime` | Zeitpunkt der letzten Aktualisierung. |
-
