@@ -3,15 +3,14 @@ description: Ein Array von Berechtigungen.
 solution: Experience Manager
 title: PermissionArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2d96a0ac-038a-4813-97b2-bdf3f3f0c6e2
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
-
 
 # PermissionArray{#permissionarray}
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:Permission` | Das Berechtigungsarray. |
-
+| `*`Elemente`*` | `types:Permission` | Das Berechtigungs-Array. |
