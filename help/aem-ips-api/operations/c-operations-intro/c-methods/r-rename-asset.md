@@ -3,15 +3,14 @@ description: Benennt ein Asset um.
 solution: Experience Manager
 title: renameAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
-
 
 # renameAsset{#renameasset}
 
@@ -19,7 +18,7 @@ Benennt ein Asset um.
 
 >[!NOTE]
 >
->Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus `renameAsset` entfernt. Der Pfad der virtuellen Datei wird an den Namen des neuen Assets angepasst (unter Beibehaltung der Dateierweiterung), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen Verweise auf diesen Parameter bei der Aktualisierung auf die neue API-Version entfernen.
+>Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus `renameAsset` entfernt. Der virtuelle Dateipfad wird so geändert, dass er mit dem neuen Asset-Namen übereinstimmt (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen beim Aktualisieren auf die neue API-Version Verweise auf diesen Parameter entfernen.
 
 ## Autorisierte Benutzertypen {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -40,18 +39,18 @@ Benennt ein Asset um.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der das Asset gehört. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Asset gehört. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset, das Sie umbenennen möchten. |
 | `*`newName`*` | `xsd:string` | Ja | Der neue Name des Assets. |
-| `*`validateName`*` | `xsd:boolean` | Ja | Wenn `validateName` `true` ist und für den Asset-Typ eine eindeutige IPS-ID erforderlich ist, wird der neue Name auf globale Eindeutigkeit überprüft und `renameAsset` gibt einen Fehler aus, wenn er nicht eindeutig ist. |
+| `*`validateName`*` | `xsd:boolean` | Ja | Wenn `validateName` `true` ist und der Asset-Typ eine eindeutige IPS-ID erfordert, wird der neue Name auf globale Eindeutigkeit überprüft und `renameAsset` gibt einen Fehler aus, wenn er nicht eindeutig ist. |
 
-**Output (renameAssetReturn)**
+**Ausgabe (renameAssetReturn)**
 
-Die IPS-API gibt keine Antwort für diesen Vorgang zurück. Hinweise zu diesem Element finden Sie in der Beschreibung des Elements `<ns1:validateName>`.
+Die IPS-API gibt keine Antwort für diesen Vorgang zurück. Einschränkungen zu diesem Element finden Sie in der Beschreibung des Elements `<ns1:validateName>` .
 
 ## Beispiele {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
-Dieses Codebeispiel benennt ein Asset um
+Mit diesem Codebeispiel wird ein Asset umbenannt.
 
 **Anforderung**
 
