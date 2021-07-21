@@ -3,15 +3,14 @@ description: Stellt Assets aus dem Papierkorb wieder her.
 solution: Experience Manager
 title: restoreAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 12%
 
 ---
-
 
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
@@ -30,26 +29,26 @@ Syntax
 
 ## Parameter {#section-200a61d040c94e489a85241b29cd499a}
 
-**Input (restoreAssetsFromTrashParam)**
+**Eingabe (restoreAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zu einer Firma mit den Assets, die Sie wiederherstellen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für ein Unternehmen mit den Assets, die Sie wiederherstellen möchten. |
 | `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array von Handles für die Assets, die Sie wiederherstellen möchten. |
 
-**Output (restoreAssetsFromTrashReturn)**
+**Ausgabe (restoreAssetsFromTrashReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Ja | Anzahl der Assets, die erfolgreich aus dem Papierkorb entfernt wurden. |
-| `*`warningCount`*` | `xsd:int` | Ja | Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Papierkorb wiederherzustellen. |
+| `*`warningCount`*` | `xsd:int` | Ja | Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Assets aus dem Papierkorb wiederherzustellen. |
 | `*`errorCount`*` | `xsd:int` | Ja | Anzahl der Fehler, die beim Versuch generiert wurden, Assets aus dem Papierkorb wiederherzustellen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versucht hat, Assets aus dem Papierkorb wiederherzustellen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, Assets aus dem Papierkorb wiederherzustellen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, Assets aus dem Papierkorb wiederherzustellen. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, Assets aus dem Papierkorb wiederherzustellen. |
 
 ## Beispiele {#section-98fe0394b0634ca397c395f14f8a9358}
 
-Dieses Codebeispiel stellt Assets aus dem Papierkorb wieder her. Die Antwort zeigt an, dass der Vorgang erfolgreich abgeschlossen wurde.
+Dieses Codebeispiel stellt Assets aus dem Papierkorb wieder her. Die Antwort gibt an, dass der Vorgang erfolgreich abgeschlossen wurde.
 
 **Anforderung**
 
@@ -72,4 +71,3 @@ Dieses Codebeispiel stellt Assets aus dem Papierkorb wieder her. Die Antwort zei
    <errorCount>0</errorCount>
 </restoreAssetsFromTrashReturn
 ```
-
