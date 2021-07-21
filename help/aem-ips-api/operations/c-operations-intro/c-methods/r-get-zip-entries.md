@@ -3,15 +3,14 @@ description: Gibt Zip-Dateidaten zurück.
 solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
-
 
 # getZipEntries{#getzipentries}
 
@@ -33,14 +32,14 @@ Syntax
 
 ## Parameter {#section-aa3f498fe76d4a5f99c42d64520fadce}
 
-**Input (getZipEntriesParam)**
+**Eingabe (getZipEntriesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Zip-Datei enthält. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Behandeln Sie die Zip-Datei. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, das die Zip-Datei enthält. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Bearbeiten Sie die ZIP-Datei. |
 
-**Output (getZipEntriesReturn)**
+**Ausgabe (getZipEntriesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -48,7 +47,7 @@ Syntax
 
 ## Beispiele {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Dieses Codebeispiel gibt Zip-Dateiinformationen zurück, einschließlich komprimierter und unkomprimierter Größe.
+Dieses Codebeispiel gibt Informationen zur Postleitzahl zurück, einschließlich der komprimierten und unkomprimierten Größe.
 
 **Anforderung**
 
@@ -75,4 +74,3 @@ Dieses Codebeispiel gibt Zip-Dateiinformationen zurück, einschließlich komprim
    </zipArray>
 </getZipEntriesReturn>
 ```
-
