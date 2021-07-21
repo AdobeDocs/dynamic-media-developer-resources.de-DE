@@ -1,21 +1,20 @@
 ---
-description: Ruft Eigenschaftensätze ab, die mit einem Typhandgriff verknüpft sind.
+description: Ruft Eigenschaftssätze ab, die mit einem Typhandle verknüpft sind.
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 17%
 
 ---
 
-
 # getPropertySets{#getpropertysets}
 
-Ruft Eigenschaftensätze ab, die mit einem Typhandgriff verknüpft sind.
+Ruft Eigenschaftssätze ab, die mit einem Typhandle verknüpft sind.
 
 Syntax
 
@@ -37,19 +36,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | Das Handle zum Eigenschaftssatztyp. |
+| `*`typeHandle`*` | `xsd:string` | Ja | Der Handle für den Eigenschaftssatz-Typ. |
 | `*`primaryOwnerHandle`*` | `xsd:string` | Ja | Der primäre Eigentümer der an das Datenbankobjekt gebundenen Daten. |
 | `*`secondaryOwnerHandle`*` | `xsd:string` | Nein | Ein optionaler sekundärer Eigentümer der Daten. |
 
-**Output (getPropertySetsReturn)**
+**Ausgabe (getPropertySetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Ja | Arry of property sets. |
+| `*`setArray`*` | `types:PropertySetArray` | Ja | Array von Eigenschaftssätzen. |
 
 ## Beispiele {#section-1358af974eab4259864910337a6f0bd2}
 
-Dieses Codebeispiel gibt Eigenschaftssätze ihres primären Eigentümers zurück, die von einem Typhandle angegeben werden.
+Dieses Codebeispiel gibt Eigenschaftssätze des primären Eigentümers zurück, die durch einen Typhandle angegeben werden.
 
 **Anforderung**
 
@@ -86,4 +85,3 @@ Dieses Codebeispiel gibt Eigenschaftssätze ihres primären Eigentümers zurück
    </setArray>
 </getPropertySetsReturn>
 ```
-
