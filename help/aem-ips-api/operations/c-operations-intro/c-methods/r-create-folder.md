@@ -3,15 +3,14 @@ description: Erstellt einen Ordner.
 solution: Experience Manager
 title: createFolder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 17%
 
 ---
-
 
 # [!DNL createFolder]{#createfolder}
 
@@ -19,7 +18,7 @@ Erstellt einen Ordner.
 
 >[!NOTE]
 >
->Der neue Ordner ist auf den Ordner &quot;Images&quot;Untergeordnet, selbst wenn Sie ein `/` angeben, um den Stammordner der Firma anzugeben.
+>Der neue Ordner ist auf den Ordner Bilder Untergeordnet, auch wenn Sie einen `/` angeben, um den Stammordner des Unternehmens anzugeben.
 
 Syntax
 
@@ -38,22 +37,22 @@ Syntax
 
 ## Parameter {#section-c00d8d89cf114886a535056f2a1bf892}
 
-**Input (createFolder)**
+**Eingabe (createFolder)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Die Handhabung der Firma |
-| `*`folderPath`*` | `xsd:string` | Ja | Der Stammordner, der zum Abrufen von Ordnern und allen Unterordnern auf Blattebene verwendet wird. Wenn dies ausgeschlossen ist, wird der Stammordner für Firmen verwendet. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Umgang mit dem Unternehmen |
+| `*`folderPath`*` | `xsd:string` | Ja | Der Stammordner, der zum Abrufen von Ordnern und allen Unterordnern auf Blattebene verwendet wird. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
 
-**Output (createFolderParam)**
+**Ausgabe (createFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Handhabung des neuen Ordners. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Umgang mit dem neuen Ordner. |
 
 ## Beispiele {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Mit diesem Beispielcode wird ein Ordner im Stammordner einer Firma erstellt. Die Antwort gibt den Handle des neu erstellten Ordners zurück.
+Dieser Beispielcode erstellt einen Ordner im Stammverzeichnis eines Unternehmens. Die Antwort gibt den Handle des neu erstellten Ordners zurück.
 
 **Anforderung**
 
@@ -71,4 +70,3 @@ Mit diesem Beispielcode wird ein Ordner im Stammordner einer Firma erstellt. Die
    <folderHandle xmlns="http://www.scene7.com/IpsApi/xsd">MyCompany/SpinSets/</folderHandle>
 </ns1:createFolderReturn>
 ```
-
