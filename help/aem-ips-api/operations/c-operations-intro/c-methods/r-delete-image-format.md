@@ -1,21 +1,20 @@
 ---
-description: Löscht ein Bildformat. Rufen Sie das Format-Handle von saveImageFormat ab.
+description: Löscht ein Bildformat. Rufen Sie den Bildformat-Handle von saveImageFormat ab.
 solution: Experience Manager
 title: deleteImageFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 11%
 
 ---
 
-
 # deleteImageFormat{#deleteimageformat}
 
-Löscht ein Bildformat. Rufen Sie das Format-Handle von saveImageFormat ab.
+Löscht ein Bildformat. Rufen Sie den Bildformat-Handle von saveImageFormat ab.
 
 Syntax
 
@@ -28,20 +27,20 @@ Syntax
 
 ## Parameter {#section-462c05d9aad746ee8d2be0656041b693}
 
-**Input (deleteImageFormatParam)**
+**Eingabe (deleteImageFormatParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die das zu löschende Bildformat enthält. |
-| `*`imageFormatHandle`*` | `xsd:string` | Ja | Der Griff zum Bildformat, das Sie löschen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, das das Bildformat enthält, das Sie löschen möchten. |
+| `*`imageFormatHandle`*` | `xsd:string` | Ja | Der Handle mit dem Bildformat, das Sie löschen möchten. |
 
-**Output (deleteImageFormatParam)**
+**Ausgabe (deleteImageFormatParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-Dieses Codebeispiel löscht ein Bildformat aus einer Firma. Rufen Sie den Bildformatgriff von einem anderen Vorgang ab.
+Mit diesem Codebeispiel wird ein Bildformat aus einem Unternehmen gelöscht. Rufen Sie den Bildformat-Handle von einem anderen Vorgang ab.
 
 **Anforderung**
 
