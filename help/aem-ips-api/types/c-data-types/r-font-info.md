@@ -1,21 +1,20 @@
 ---
-description: Eigenschaften von Schrift-Assets
+description: Schrift-Asset-Eigenschaften.
 solution: Experience Manager
 title: FontInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-
 # FontInfo{#fontinfo}
 
-Eigenschaften von Schrift-Assets
+Schrift-Asset-Eigenschaften.
 
 Syntax
 
@@ -23,7 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Schriftartpfad. |
+| `*`originalPath`*` | `xsd:string` | Schriftpfad. |
 | `*`originalFile`*` | `xsd:string` | Schriftname. |
 | `*`fileSize`*` | `xsd:int` | Schriftgröße. |
-
