@@ -3,15 +3,14 @@ description: Lädt URLs von dem Speicherort hoch, an den Sie Dateien abrufen mö
 solution: Experience Manager
 title: UploadUrlsJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
-
 
 # UploadUrlsJob{#uploadurlsjob}
 
@@ -33,27 +32,27 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AutoColorCropOptions</span> </td> 
-   <td colname="col3"> Optionen für die automatische Beschneidung von Bildern basierend auf Farbe. </td> 
+   <td colname="col3"> Optionen für automatische Zuschnitte von Bildern basierend auf Farben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AutoSetCreationOptions</span> </td> 
-   <td colname="col3"> Array von Skripten zur automatischen Set-Generierung, die auf hochgeladene Dateien angewendet werden sollen. </td> 
+   <td colname="col3"> Array von Skripten zur automatischen Set-Generierung, die auf hochgeladene Dateien angewendet werden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AutoTransparentCropOptions</span> </td> 
-   <td colname="col3"> Entfernt den Leerraum von den Kanten der Bilder, basierend auf Transparenz. </td> 
+   <td colname="col3"> Entfernt den Leerraum von den Kanten der Bilder basierend auf Transparenz. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createMask</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Legt fest, ob eine Maske erstellt werden soll. </td> 
+   <td colname="col3"> Ob eine Maske erstellt werden soll. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ColorManagementOptions</span> </td> 
-   <td colname="col3"> Optionen, die Sie beim Hochladen angeben können. Die Einstellung wirkt sich darauf aus, wie die Farbe für den Hochladevorgang verwaltet wird. </td> 
+   <td colname="col3"> Optionen, die Sie während eines Uploads angeben können. Die Einstellung wirkt sich darauf aus, wie die Farbe für den Upload verwaltet wird. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
@@ -73,12 +72,12 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3">Maskiert den Hintergrund für ausgewählte Bilder. Dadurch können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. Optional. Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
+   <td colname="col3">Maskieren Sie den Hintergrund für ausgewählte Bilder. Auf diese Weise können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. Optional. Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ManualCropOptions</span> </td> 
-   <td colname="col3"> Optionen für manuelle Beschneidungen von Bildern. </td> 
+   <td colname="col3"> Optionen für manuelles Zuschneiden von Bildern. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
@@ -88,10 +87,10 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrls</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3">Gibt die Anzahl der URLs zurück, die in einem Auftrag gesendet wurden. Verwendet von <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>. </td> 
+   <td colname="col3">Gibt die Anzahl der URLs zurück, die in einem Auftrag gesendet wurden. Wird von <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a> verwendet. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> überschreiben</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> overwrite</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Gibt an, ob Dateien beim Hochladen überschrieben werden sollen. </td> 
   </tr> 
@@ -108,12 +107,12 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Die URL, unter der die Dateien hochgeladen werden. </td> 
+   <td colname="col3"> Die URL, in die die Dateien hochgeladen werden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ImageRendingPublishJob</span> </td> 
-   <td colname="col3"> Details zu einem Image Rendering-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt wird. </td> 
+   <td colname="col3"> Details für einen Image Rendering-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt wird. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </td> 
@@ -123,32 +122,32 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:PostScriptOptions</span> </td> 
-   <td colname="col3"> Optionen zum Hochladen von PostScript-Dateien auf den Image-Server. </td> 
+   <td colname="col3"> Optionen zum Hochladen von Post-Script-Dateien auf den Image-Server. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:VideoPublishJob</span> </td> 
-   <td colname="col3"> Details zu einem Videoveröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt wird. </td> 
+   <td colname="col3"> Details zu einem Video-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt wird. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Steuert die Beibehaltung einer vorhandenen Schnittdefinition. Standard ist true </td> 
+   <td colname="col3"> Steuert die Beibehaltung einer vorhandenen Definition des Zuschnitts. Standardwert ist "true" </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Steuert, ob der Veröffentlichungsstatus eines vorhandenen Assets beim Überschreiben beibehalten wird. Ist dies nicht der Fall, wird die Standardeinstellung für die Firma verwendet. </td> 
+   <td colname="col3"> Steuert, ob der Veröffentlichungsstatus eines vorhandenen Assets beim Überschreiben beibehalten wird. Wenn nicht festgelegt, wird die Standardeinstellung für das Unternehmen verwendet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:HandleArray</span> </td> 
-   <td colname="col3"> Array von Projekthandles. </td> 
+   <td colname="col3"> Array von Projekt-Handles. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Ob die Dateien als veröffentlichungsbereit markiert wurden. </td> 
+   <td colname="col3"> Gibt an, ob die Dateien für die Veröffentlichung markiert sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
@@ -158,7 +157,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:UnsharpMaskOptions</span> </td> 
-   <td colname="col3">Optionen, mit denen Sie die Einstellungen für Unschärfemaske beim Erstellen einer optimierten Pyramidendatei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. Siehe <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
+   <td colname="col3">Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. Siehe <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnschärfemaskeOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 
@@ -186,4 +185,3 @@ Für `PublishJob` können Sie nur eine der folgenden Optionen auswählen:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postvideoPublishJob`
-
