@@ -3,15 +3,14 @@ description: Array von Gruppen.
 solution: Experience Manager
 title: GroupArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b3ddc10f-e153-4498-afeb-c97d7371e3d3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 25%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
-
 
 # GroupArray{#grouparray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:Group` | Array von Gruppen. |
-
