@@ -1,21 +1,20 @@
 ---
-description: Eigenschaften eines Viewer-Vorgabenassets.
+description: Eigenschaften eines Viewer-Vorgabe-Assets.
 solution: Experience Manager
 title: ViewerPresetInfo
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Viewer-Vorgaben
+role: Developer,Admin
+exl-id: fe57499a-00c0-4dab-b163-ea24ea6998e8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
-
 # ViewerPresetInfo{#viewerpresetinfo}
 
-Eigenschaften eines Viewer-Vorgabenassets.
+Eigenschaften eines Viewer-Vorgabe-Assets.
 
 Syntax
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`type`*` | `xsd:string` | Auswahl des Viewer-Typs. |
 | `*`configSettingArray`*` | `types:ConfigSettingArray` | Array mit Viewer-Konfigurationseinstellungen. |
-
