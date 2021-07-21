@@ -1,19 +1,18 @@
 ---
 description: Wird von getUsersParam und getUserCharsParam/charField verwendet.
 solution: Experience Manager
-title: Filter für Benutzerzeichen
+title: Felder für Benutzerzeichenfilter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
-
-# Filter für Benutzerzeichen{#user-char-filter-fields}
+# Felder für Benutzerzeichenfilter{#user-char-filter-fields}
 
 Wird von getUsersParam und getUserCharsParam/charField verwendet.
 
@@ -27,4 +26,3 @@ Syntax
 * [!DNL `Email`]
 * [!DNL `StartsWith`]
 * [!DNL `EndsWith`]
-
