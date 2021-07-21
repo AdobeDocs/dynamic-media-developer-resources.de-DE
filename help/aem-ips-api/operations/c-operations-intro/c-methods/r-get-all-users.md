@@ -3,15 +3,14 @@ description: Ruft alle Benutzer in einem Array ab.
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllUsers{#getallusers}
 
@@ -28,7 +27,7 @@ Syntax
 
 ## Parameter {#section-f092ca72f2024d66a1cec690aeab870a}
 
-**Input (getAllUsersParam)**
+**Eingabe (getAllUsersParam)**
 
 <table id="table_1FE6DDADBD134E6D8BD4B52F1EAD2E85"> 
  <thead> 
@@ -44,25 +43,25 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Auf: 
+   <td colname="col4">Legen Sie Folgendes fest: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> ungültige Benutzer </span> tatsächlich einschließen. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> Benutzer </span> mit ungültigem Status werden nicht ausgelassen. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> , um ungültige Benutzer einzuschließen. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> werden ungültige Benutzer weggelassen. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getAllUsersReturn)**
+**Ausgabe (getAllUsersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`userArray`*` | `types:UserArray` | Ja | Array aller Benutzer. |
-| `*`Codebegriff`*` | `Code Phrase` |  |  |
+| `*`Codeausdruck`*` | `Code Phrase` |  |  |
 
 ## Beispiele {#section-9c9a2d335513478da20652c1b1443731}
 
-Dieses Codebeispiel gibt alle Benutzer zurück. Die Antwort wird wegen ihrer Kürze abgeschnitten.
+Dieses Codebeispiel gibt alle Benutzer zurück. Die Antwort wird aus Gründen der Kürze abgeschnitten.
 
 **Anforderung**
 
@@ -90,4 +89,3 @@ Dieses Codebeispiel gibt alle Benutzer zurück. Die Antwort wird wegen ihrer Kü
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-
