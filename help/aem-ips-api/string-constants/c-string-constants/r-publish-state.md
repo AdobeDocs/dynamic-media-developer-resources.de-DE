@@ -3,15 +3,14 @@ description: Wird von searchAssetsParam/publishState, setAssetPublishStateParam/
 solution: Experience Manager
 title: Veröffentlichungsstatus
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '29'
 ht-degree: 6%
 
 ---
-
 
 # Veröffentlichungsstatus{#publish-state}
 
@@ -23,4 +22,3 @@ Syntax
 
 * [!DNL `MarkedForPublish`]
 * [!DNL `NotMarkedForPublish`]
-
