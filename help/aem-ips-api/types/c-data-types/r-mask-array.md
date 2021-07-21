@@ -1,21 +1,20 @@
 ---
-description: Ein Array von Masken.
+description: Eine Gruppe von Masken.
 solution: Experience Manager
 title: MaskArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a0539a30-051c-4442-abae-99588bdfff10
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
 
-
 # MaskArray{#maskarray}
 
-Ein Array von Masken.
+Eine Gruppe von Masken.
 
 Syntax
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:Mask` | Array von Masken. |
-
