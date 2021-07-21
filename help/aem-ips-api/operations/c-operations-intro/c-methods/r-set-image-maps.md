@@ -3,21 +3,20 @@ description: Legt die Imagemap für ein Asset fest.
 solution: Experience Manager
 title: setImageMaps
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 10%
 
 ---
-
 
 # setImageMaps{#setimagemaps}
 
 Legt die Imagemap für ein Asset fest.
 
-Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihenfolge angewendet, in der sie aus dem Array abgerufen werden. Das bedeutet, dass die zweite Imagemap die erste, die dritte die zweite Überlagerung usw. überlagert.
+Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihenfolge des Abrufs aus dem Array angewendet. Das bedeutet, dass die zweite Imagemap die erste, die dritte die zweite und so weiter überlagert.
 
 ## Autorisierte Benutzertypen {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -30,15 +29,15 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 
 ## Parameter {#section-2292ec1aead947ef8741dd0653a41f42}
 
-**Input (setImageMapsParam)**
+**Eingabe (setImageMapsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array vordefinierter Imagemaps. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array von vordefinierten Imagemaps. |
 
-**Output (setImageMapsReturn)**
+**Ausgabe (setImageMapsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +45,7 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 
 ## Beispiele {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-In diesem Codebeispiel werden zwei Imagemaps für ein Bild-Asset festgelegt. Der Code gibt den Formtyp, den Bereich und die Aktion an, die beim Aufrufen der Imagemaps durchgeführt werden. Die Antwort enthält ein Array mit Griffen auf die Imagemaps.
+In diesem Codebeispiel werden zwei Imagemaps für ein Bild-Asset festgelegt. Der Code gibt den Formtyp, den Bereich und die Aktion an, die beim Aufrufen der Imagemaps ausgeführt werden. Die Antwort enthält ein Array mit Griffen an die Imagemaps.
 
 **Anforderung**
 
@@ -72,4 +71,3 @@ In diesem Codebeispiel werden zwei Imagemaps für ein Bild-Asset festgelegt. Der
    </imageMapArray>
 </setImageMapsParam>
 ```
-
