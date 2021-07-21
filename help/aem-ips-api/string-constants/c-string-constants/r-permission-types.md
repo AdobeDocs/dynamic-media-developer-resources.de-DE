@@ -3,15 +3,14 @@ description: Wird von PermissionsUpdate/permissionType, Permission/permissionTyp
 solution: Experience Manager
 title: Berechtigungstypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f58d2606-d794-4d4f-9566-02dfda5e0654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
-
 
 # Berechtigungstypen{#permission-types}
 
@@ -24,4 +23,3 @@ Syntax
 * [!DNL `Read`]
 * [!DNL `Write`]
 * [!DNL `Delete`]
-
