@@ -1,21 +1,20 @@
 ---
-description: Löscht den Eigenschaftssatztyp und den zugehörigen Eigenschaftensatz und die zugehörigen Eigenschaften.
+description: Löscht einen Eigenschaftssatztyp und den zugehörigen Eigenschaftssatz und die zugehörigen Eigenschaften.
 solution: Experience Manager
 title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
 
-
 # deletePropertySetType{#deletepropertysettype}
 
-Löscht den Eigenschaftssatztyp und den zugehörigen Eigenschaftensatz und die zugehörigen Eigenschaften.
+Löscht einen Eigenschaftssatztyp und den zugehörigen Eigenschaftssatz und die zugehörigen Eigenschaften.
 
 Syntax
 
@@ -28,19 +27,19 @@ Syntax
 
 ## Parameter {#section-1c8973f5d35f44b4a6a483a41609e455}
 
-**Input (deletePropertySetTypeParam)**
+**Eingabe (deletePropertySetTypeParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | Der Handle für den zu löschenden Eigenschaftssatztyp. |
+| `*`typeHandle`*` | `xsd:string` | Ja | Der Handle für den zu löschenden Eigenschaftssatz. |
 
-**Output (deletePropertySetTypeParam)**
+**Ausgabe (deletePropertySetTypeParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-In diesem Codebeispiel wird der Handle des Typs als Feld im Feld `deletePropertySetTypeParam` verwendet, das an den IPS-Webdienstserver gesendet wird, um den Eigenschaftssatztyp zu löschen.
+In diesem Codebeispiel wird das Handle des Typs als Feld im `deletePropertySetTypeParam` verwendet, das an den IPS-Webdienstserver gesendet wird, um den Eigenschaftssatztyp zu löschen.
 
 **Anforderung**
 
