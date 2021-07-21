@@ -1,21 +1,20 @@
 ---
-description: Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, die auf einem Image-Server veröffentlicht wird.
+description: Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, der auf einem Image-Server veröffentlicht werden soll.
 solution: Experience Manager
 title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 6%
 
 ---
 
-
 # createAssetSet{#createassetset}
 
-Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, die auf einem Image-Server veröffentlicht wird.
+Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, der auf einem Image-Server veröffentlicht werden soll.
 
 Syntax
 
@@ -30,7 +29,7 @@ Syntax
 
 ## Parameter {#section-3580b586296e42a5b21426085b1bb72d}
 
-**Input (createAssetSet)**
+**Eingabe (createAssetSet)**
 
 <table id="table_2C70C33A127242FC828FCD8EC852E1EC"> 
  <thead> 
@@ -46,7 +45,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Das Handle für die Firma, die den Asset-Set enthalten soll. </td> 
+   <td colname="col4"> Das Handle für das Unternehmen, das das Asset-Set enthalten wird. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
@@ -64,56 +63,56 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Eine eindeutige ID, die vom Client für den Asset-Set-Typ erstellt wird. </td> 
+   <td colname="col4"> Eine eindeutige Kennung, die vom Client für den Asset-Set-Typ erstellt wurde. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Die Parameter in der Zeichenfolge für die festgelegte Definition. <p>Diese müssen in dem vom Zielgruppe-Viewer angegebenen Format aufgelöst werden. </p> </td> 
+   <td colname="col4"> Die Parameter in der Definitionszeichenfolge des Sets. <p>Diese müssen in dem Format aufgelöst werden, das vom Ziel-Viewer angegeben wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Handhabung des Assets, das als Miniaturansicht für den neuen Bildsatz fungiert. Ist dies nicht der Fall, versucht IPS, das erste Bild-Asset zu verwenden, auf das der Satz verweist. </td> 
+   <td colname="col4"> Handle des Assets, das als Miniaturansicht für das neue Bildset dient. Wenn kein Wert angegeben ist, versucht IPS, das erste Bild-Asset zu verwenden, auf das vom Set verwiesen wird. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Ersatzfunktionen für setDefinition**
 
-Sie können Ersatzfunktionen in einer Zeile angeben, die während der Katalogsuche oder -veröffentlichung aufgelöst werden. Ersatzzeichenfolgen haben das Format `${<substitution_func>}`. Die verfügbaren Funktionen werden nachfolgend aufgelistet.
+Sie können Ersatzfunktionen in Zeilen angeben, die während der Katalogsuche oder -veröffentlichung aufgelöst werden. Ersatzzeichenfolgen haben das Format `${<substitution_func>}`. Die verfügbaren Funktionen werden unten aufgelistet.
 
 >[!NOTE]
 >
->Die Handle-Literale in den Parameter-Listen müssen von Klammern `([])` umgeben sein. Der gesamte Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabestrategie kopiert.
+>Die Handle-Literale in Parameterlisten müssen von Klammern `([])` umgeben sein. Sämtlicher Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabezeichenfolge kopiert.
 
 | **Substitutionsfunktion** | **Rückgabe** |
 |---|---|
-| `getFilePath([asset_handle>])` | Der primäre Dateipfad des Assets. |
+| `getFilePath([asset_handle>])` | Der Dateipfad der Primärquelle des Assets. |
 | `getCatalogId([<asset_handle>])` | Die Katalog-ID des Assets. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Metadatenwerte für das Asset. |
-| `getThumbCatalogId([<asset_handle>])` | Die Katalog-ID des Assets (nur für bildbasierte Assets). Die Katalog-ID des zugehörigen Daumenassets (für andere Assets). Wenn kein verknüpftes Thumb-Asset verfügbar ist, gibt die Funktion eine leere Zeichenfolge zurück. |
+| `getThumbCatalogId([<asset_handle>])` | Die Katalog-ID des Assets (nur für bildbasierte Assets). Die Katalog-ID des zugehörigen Miniatur-Assets (für andere Assets). Wenn kein verknüpftes Miniatur-Asset verfügbar ist, gibt die Funktion eine leere Zeichenfolge zurück. |
 
-**Beispiel für einen MediensetDefinition-String**
+**Beispiel für Media setDefinition String**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-Beim Suchen oder Veröffentlichen eines Katalogs wird diese in eine Zeichenfolge wie die folgende aufgelöst:
+Bei Katalogsuche oder Veröffentlichungszeit wird dies in eine Zeichenfolge ähnlich der folgenden aufgelöst:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
 ```
 
-**Output (createAssetSet)**
+**Ausgabe (createAssetSet)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle zum Asset-Set. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für den Asset-Satz. |
 
 ## Beispiele {#section-fed53089de824d67ab96cd9103d384b4}
 
@@ -135,4 +134,3 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
    <assetHandle>a|1801|44|1801</assetHandle> 
 </createAssetSetReturn>
 ```
-
