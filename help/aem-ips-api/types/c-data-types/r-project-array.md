@@ -3,15 +3,14 @@ description: Eine Reihe von Projekten.
 solution: Experience Manager
 title: ProjectArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6f9b5a38-49b1-4975-8ab9-c129a8e07d05
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
-
 
 # ProjectArray{#projectarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:Project` | Das Projekt-Array. |
-
