@@ -1,21 +1,20 @@
 ---
-description: Hält einen derzeit ausgeführten Auftrag an.
+description: Stoppt einen laufenden Vorgang.
 solution: Experience Manager
 title: stopJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 19%
+source-wordcount: '59'
+ht-degree: 20%
 
 ---
 
-
 # stopJob{#stopjob}
 
-Hält einen derzeit ausgeführten Auftrag an.
+Stoppt einen laufenden Vorgang.
 
 Syntax
 
@@ -32,14 +31,14 @@ Syntax
 
 ## Parameter {#section-2b64f074e37c4c38849994f3bc65342a}
 
-**Input (stopJobParam)**
+**Eingabe (stopJobParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| `*`jobHandle`*` | `xsd:string` | Ja | Behandeln Sie den Auftrag, den Sie beenden möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
+| `*`jobHandle`*` | `xsd:string` | Ja | Führen Sie den Vorgang aus, den Sie stoppen möchten. |
 
-**Output (stopJobReturn0**
+**Ausgabe (stopJobReturn0)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
