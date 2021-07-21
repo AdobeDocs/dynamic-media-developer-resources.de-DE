@@ -1,21 +1,20 @@
 ---
-description: Gibt die Kontexte zum Veröffentlichen für zur Veröffentlichung markierte Assets zurück.
+description: Gibt den Veröffentlichungskontext für Assets zurück, die zur Veröffentlichung markiert wurden.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
 
-
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-Gibt die Kontexte zum Veröffentlichen für zur Veröffentlichung markierte Assets zurück.
+Gibt den Veröffentlichungskontext für Assets zurück, die zur Veröffentlichung markiert wurden.
 
 Syntax
 
@@ -34,7 +33,7 @@ Syntax
 >[!NOTE]
 >
 >* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückgeben zu können.
->* Alle Benutzer haben Zugriff auf die freigegebene Firma.
+>* Alle Benutzer haben Zugriff auf das freigegebene Unternehmen.
 
 >
 
@@ -42,18 +41,18 @@ Syntax
 
 ## Parameter {#section-1742fcb196224545b270eb8241f757a8}
 
-**Input (batchGetAssetPublishContextsParam)**
+**Eingabe (batchGetAssetPublishContextsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Benutzen Sie die Firma. |
-| `*`assetHandleArray`*` | ` `Typen:HandleArray&quot; | Ja | Eine Liste von Assets, die Sie für aktive (zur Veröffentlichung markierte) Kontexte Abfrage haben möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| `*`assetHandleArray`*` | ` `Typen:HandleArray&quot; | Ja | Eine Liste der Assets, die für aktive (zur Veröffentlichung markierte) Kontexte abgefragt werden sollen. |
 
-**Output (batchGetAssetPublishContextsReturn)**
+**Ausgabe (batchGetAssetPublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Ja | Ein Array von Kontexten zum Veröffentlichen, in denen jedes Asset zur Veröffentlichung markiert ist. |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Ja | Ein Array von Veröffentlichungskontexten, in denen jedes Asset zur Veröffentlichung markiert ist. |
 
 ## Beispiele {#section-457f6809ccfa425b9a0976313d613f4e}
 
@@ -102,4 +101,3 @@ Syntax
   </assetPublishContextsArray>
 </batchGetAssetPublishContextsReturn>
 ```
-
