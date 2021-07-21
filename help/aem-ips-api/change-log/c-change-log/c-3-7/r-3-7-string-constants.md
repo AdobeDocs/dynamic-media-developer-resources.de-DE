@@ -1,19 +1,18 @@
 ---
 description: Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API Version 3.7.
 solution: Experience Manager
-title: String-Konstanten neu und geändert
+title: Zeichenfolgenkonstanten neu und geändert
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 6%
 
 ---
 
-
-# String-Konstanten: Neu und geändert{#string-constants-new-and-modified}
+# Zeichenfolgenkonstanten: Neu und geändert{#string-constants-new-and-modified}
 
 Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API Version 3.7.
 
@@ -35,9 +34,8 @@ Syntax
 * `Job Log Sort Fields`
 * `Email settings`
 
-## Modifizierte Konstanten {#section-559927ae41e64ac285ac3d907ce3afb6}
+## Geänderte Konstanten {#section-559927ae41e64ac285ac3d907ce3afb6}
 
 **Asset-Typen**
 
 * `Zip` hinzugefügt.
-
