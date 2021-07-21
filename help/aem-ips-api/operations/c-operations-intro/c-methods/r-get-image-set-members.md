@@ -1,21 +1,20 @@
 ---
-description: Ruft ein Array von Mitgliedern ab, die sich in einem Bildsatz befinden.
+description: Ruft eine Gruppe von Mitgliedern ab, die sich in einem Bildset befinden.
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bildsets
+role: Developer,Admin
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 15%
 
 ---
 
-
 # getImageSetMembers{#getimagesetmembers}
 
-Ruft ein Array von Mitgliedern ab, die sich in einem Bildsatz befinden.
+Ruft eine Gruppe von Mitgliedern ab, die sich in einem Bildset befinden.
 
 Syntax
 
@@ -32,22 +31,22 @@ Syntax
 
 >[!NOTE]
 >
->Erfordert Lesezugriff auf das Bild- und Mitgliederset-Asset.
+>Erfordert Lesezugriff auf das Bild und das Asset des Mitgliedersets.
 
 ## Parameter {#section-a67ba98095574533980997c83ceaa316}
 
-**Input (getImageSetMembersParam)**
+**Eingabe (getImageSetMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zu der Firma, die den Bildsatz enthält. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Asset-Handle des Bildsatzes. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, das das Bildset enthält. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Asset-Handle für Bildsets. |
 
-**Output (getImageSetMembersReturn)**
+**Ausgabe (getImageSetMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`memberArray`*` | `types:ImageSetMemberArray` | Nein | Array von Bildsatzmitgliedern. |
+| `*`memberArray`*` | `types:ImageSetMemberArray` | Nein | Array von Bildset-Mitgliedern. |
 
 ## Beispiele {#section-888a9a78033346f39b171229de93dfa0}
 
@@ -69,4 +68,3 @@ Dieses Codebeispiel gibt bestimmte Bildsatzmitglieder zurück. Die Antwort gibt 
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
