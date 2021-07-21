@@ -1,21 +1,20 @@
 ---
-description: Ruft die Mitgliedschaften eines Benutzers in einem Firma-Array ab.
+description: Ruft die Mitgliedschaften eines Benutzers in einem Unternehmens-Array ab.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
 
-
 # getCompanyMembership{#getcompanymembership}
 
-Ruft die Mitgliedschaften eines Benutzers in einem Firma-Array ab.
+Ruft die Mitgliedschaften eines Benutzers in einem Unternehmens-Array ab.
 
 Syntax
 
@@ -34,21 +33,21 @@ Syntax
 
 ## Parameter {#section-8745c360c3e1400a88e9bdb26bcb93de}
 
-**Input (getCompanyMembershipParam)**
+**Eingabe (getCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nein | Das Handle an den Benutzer, dessen Mitgliedschaft Sie erhalten möchten. |
+| `*`userHandle`*` | `xsd:string` | Nein | Der Handle für den Benutzer, dessen Mitgliedschaften Sie erhalten möchten. |
 
-**Output (getCompanyMembershipReturn)**
+**Ausgabe (getCompanyMembershipReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`membershipArray`*` | `types:CompanyMembershipArray` | Ja | Array von Firmen. |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | Ja | Array von Unternehmensmitgliedschaften. |
 
 ## Beispiele {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Dieses Codebeispiel nimmt ein Benutzerhandle und ruft alle Benutzermitgliedschaften für die Firma in einem Array ab. Die Antwort wurde wegen ihrer Kürze abgeschnitten.
+Dieses Codebeispiel übernimmt ein Benutzerhandbuch und ruft alle Unternehmensmitgliedschaften des Benutzers in einem Array ab. Die Antwort wurde aus Gründen der Kürze abgeschnitten.
 
 **Anforderung**
 
@@ -73,4 +72,3 @@ Dieses Codebeispiel nimmt ein Benutzerhandle und ruft alle Benutzermitgliedschaf
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
