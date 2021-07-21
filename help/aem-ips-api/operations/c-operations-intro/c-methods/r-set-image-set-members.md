@@ -1,23 +1,22 @@
 ---
-description: Legt die Liste der mit einem Bildsatz verknüpften Assets fest.
+description: Legt die Liste der mit einem Bildset verknüpften Assets fest.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bildsets
+role: Developer,Admin
+exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setImageSetMembers{#setimagesetmembers}
 
-Legt die Liste der mit einem Bildsatz verknüpften Assets fest.
+Legt die Liste der mit einem Bildset verknüpften Assets fest.
 
-Dieser Vorgang ignoriert den Parameter `pageReset` für `ImageSets` und `SpinSets` und erzwingt den Wert auf true.
+Bei diesem Vorgang wird der Parameter `pageReset` für `ImageSets` und `SpinSets` ignoriert und der Wert auf &quot;true&quot;erzwungen.
 
 ## Autorisierte Benutzertypen {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -30,11 +29,11 @@ Dieser Vorgang ignoriert den Parameter `pageReset` für `ImageSets` und `SpinSet
 
 >[!NOTE]
 >
->Der Benutzer muss Lese- und Schreibzugriff auf das Bildsatz-Asset und Lesezugriff auf die einzelnen Member-Assets haben.
+>Der Benutzer muss Lese- und Schreibzugriff auf das Bildset-Asset und Lesezugriff auf jedes Mitglied-Asset haben.
 
 ## Parameter {#section-2f46efcd24c648aeacba738509426e46}
 
-**Input (setImageSetMembersParam)**
+**Eingabe (setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
@@ -50,30 +49,30 @@ Dieser Vorgang ignoriert den Parameter `pageReset` für `ImageSets` und `SpinSet
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Firma Handle. </p> </td> 
+   <td colname="col4"> <p>Handle des Unternehmens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Bildsatz-Handle. </td> 
+   <td colname="col4"> Bildset-Handle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Array von Asset-Mitgliedern, die zum Bildsatz gehören. </td> 
+   <td colname="col4"> Array von Asset-Elementen, die zum Bildset gehören. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (setImageSetMembersReturn)**
+**Ausgabe (setImageSetMembersReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-7b87219034464aa98524178ccee27738}
 
-Dieses Codebeispiel verwendet ein Member-Array, um die Mitglieder eines Bildsatzes festzulegen.
+In diesem Codebeispiel wird ein Member-Array verwendet, um die Mitglieder eines Bildsets festzulegen.
 
 **Anforderung**
 
