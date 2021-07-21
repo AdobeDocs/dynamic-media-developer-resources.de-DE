@@ -3,15 +3,14 @@ description: Legt Benutzerattribute fest (z. B. Name, E-Mail, Rolle usw.)
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 16%
 
 ---
-
 
 # setUserInfo{#setuserinfo}
 
@@ -28,20 +27,20 @@ Syntax
 
 ## Parameter {#section-71b457921fe74acb862a1e112e550211}
 
-**Input (setUserInfoParam)**
+**Eingabe (setUserInfoParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nein | Benutzerhandle. |
+| `*`userHandle`*` | `xsd:string` | Nein | Benutzerhandbuch. |
 | `*`firstName`*` | `xsd:string` | Ja | Vorname. |
 | `*`lastName`*` | `xsd:string` | Ja | Nachname. |
 | `*`E-Mail`*` | `xsd:string` | Ja | Benutzer-E-Mail. |
-| `*`defaultRole`*` | `xsd:string` | Ja | Legt die Rolle eines Benutzers in jeder Firma fest, zu der er gehört. Beachten Sie jedoch, dass die `IpsAdmin`-Rolle andere Einstellungen pro Firma außer Kraft setzt. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Nein | Das Ablaufdatum des Kennworts festlegen. |
+| `*`defaultRole`*` | `xsd:string` | Ja | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Beachten Sie jedoch, dass die Rolle `IpsAdmin` andere Unternehmenseinstellungen außer Kraft setzt. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Nein | Legen Sie das Ablaufdatum für das Kennwort fest. |
 | `*`isValid`*` | `xsd:boolean` | Ja | Bestimmt, ob der Benutzer ein gültiger IPS-Benutzer ist. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Ein Array von Firmen-Handles. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Ein Array von Unternehmens-Handles. |
 
-**Output (setUserInfoReturn)**
+**Ausgabe (setUserInfoReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
