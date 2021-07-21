@@ -1,21 +1,20 @@
 ---
-description: Benannter Satz von Benutzern, die für die Zuweisung von Berechtigungen verwendet werden.
+description: Spezifischer Satz von Benutzern, die zum Zuweisen von Berechtigungen verwendet werden.
 solution: Experience Manager
 title: Gruppe
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 16%
+source-wordcount: '47'
+ht-degree: 17%
 
 ---
 
-
 # Gruppe{#group}
 
-Benannter Satz von Benutzern, die für die Zuweisung von Berechtigungen verwendet werden.
+Spezifischer Satz von Benutzern, die zum Zuweisen von Berechtigungen verwendet werden.
 
 Syntax
 
@@ -23,8 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Gruppengriff. |
-| `*`companyHandle`*` | `xsd:string` | Firma Handle. |
+| `*`groupHandle`*` | `xsd:string` | Gruppieren. |
+| `*`companyHandle`*` | `xsd:string` | Handle des Unternehmens. |
 | `*`name`*` | `xsd:string` | Gruppenname. |
-| `*`ist SystemDefined`*` | `xsd:string` | Gibt an, ob die Gruppe vom System definiert wird. |
-
+| `*`is SystemDefined`*` | `xsd:string` | Gibt an, ob die Gruppe vom System definiert wird. |
