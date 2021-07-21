@@ -1,21 +1,20 @@
 ---
-description: Informationen für ICC-Profil-Eigenschaften aktualisieren
+description: Aktualisieren Sie Informationen für ICC-Profileigenschaften.
 solution: Experience Manager
 title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
-
 # IccProfileFieldUpdate{#iccprofilefieldupdate}
 
-Informationen für ICC-Profil-Eigenschaften aktualisieren
+Aktualisieren Sie Informationen für ICC-Profileigenschaften.
 
 Syntax
 
@@ -23,8 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Handhabung des zu aktualisierenden ICC-Profil-Assets. |
-| `*`Klasse`*` | `xsd:string` | Profil-Klassen (für Werte siehe &quot;Profil-Klassen&quot;). |
-| `*`colorSpace`*` | `xsd:string` | Farbraum des Profils (für Werte siehe &quot;Farbräume&quot;). |
-| `*`pcsType`*` | `xsd:string` | Profil-Verbindungsraum (für Werte siehe &quot;Farbräume&quot;). |
-
+| `*`assetHandle`*` | `xsd:string` | Umgang mit dem zu aktualisierenden ICC-Profil-Asset. |
+| `*`Klasse`*` | `xsd:string` | Profilklassen (Werte finden Sie unter &quot;Profilklassen&quot;). |
+| `*`colorSpace`*` | `xsd:string` | Profil-Farbraum (Werte finden Sie unter &quot;Farbräume&quot;). |
+| `*`pcsType`*` | `xsd:string` | Profil-Verbindungsraum (Werte finden Sie unter &quot;Farbräume&quot;). |
