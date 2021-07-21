@@ -3,15 +3,14 @@ description: Legt Tag-Wörterbuchwerte für ein vorhandenes Tag-Feld fest.
 solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 14%
+source-wordcount: '86'
+ht-degree: 15%
 
 ---
-
 
 # setTagFieldValues{#settagfieldvalues}
 
@@ -31,11 +30,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | Tag-Feldgriff. |
-| `*`valueArray`*` | `types:StringArray` | Ja | Ein Array von Tag-Werten, die das vorhandene Wörterbuch des Felds ersetzen. Asset-Verknüpfungen werden beibehalten, wenn ein neuer Wert mit einem vorhandenen Wert übereinstimmt. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | Tag-Feld-Handle. |
+| `*`valueArray`*` | `types:StringArray` | Ja | Ein Array von Tag-Werten, die das vorhandene Wörterbuch des Felds ersetzen. Asset-Zuordnungen werden beibehalten, wenn ein neuer Wert mit einem vorhandenen Wert übereinstimmt. |
 
-**Output (setTagFieldValuesReturn)**
+**Ausgabe (setTagFieldValuesReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
