@@ -3,15 +3,14 @@ description: Führt einen bestimmten Auftrag aus.
 solution: Experience Manager
 title: executeJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
-
 
 # executeJob{#executejob}
 
@@ -32,7 +31,7 @@ Syntax
 
 ## Parameter {#section-2c61b2bffcf9479a9391f2c13fdf7d53}
 
-**Input (executeJobParam)**
+**Eingabe (executeJobParam)**
 
 <table id="table_FA410513908F4084A21A5F0A9431006C"> 
  <thead> 
@@ -48,18 +47,18 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Griff der Firma, zu der der Auftrag gehört. </p> </td> 
+   <td colname="col4"> <p>Der Handle des Unternehmens, zu dem der Auftrag gehört. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Griff zum auszuführenden Auftrag. </p> </td> 
+   <td colname="col4"> <p>Der Handle für den auszuführenden Auftrag. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (executeJobReturn)**
+**Ausgabe (executeJobReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
