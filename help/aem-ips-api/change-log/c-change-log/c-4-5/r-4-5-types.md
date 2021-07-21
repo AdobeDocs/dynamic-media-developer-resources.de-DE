@@ -1,17 +1,16 @@
 ---
 description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.5.
 solution: Experience Manager
-title: Datentypen neu und geändert
+title: Neue und geänderte Datentypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
-
 
 # Datentypen: Neu und geändert{#data-types-new-and-modified}
 
@@ -40,13 +39,12 @@ Syntax
 * `TagValueUpdateFaultArray`
 * `UrlArray`
 
-## Modifizierte Typen {#section-6ecdf752cc1a4636a583b4c546a0fccf}
+## Geänderte Typen {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* Asset enthält ein neues `fileName`-Feld, das den Namen der virtuellen Datei zurückgibt.
-* `AssetSummary` gibt ein  `type` und- `name` Feld zurück
+* Asset enthält ein neues `fileName` -Feld, das den virtuellen Dateinamen zurückgibt.
+* `AssetSummary` gibt ein  `type` und - `name` Feld zurück
 
 * `MetadataField` beinhaltet `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` benötigt eine  `urlArray` und fügt eine optionale  `numUrls` Anzahl hinzu
-
+* `UploadUrlsJob` erfordert eine  `urlArray` und fügt eine optionale  `numUrls` Anzahl hinzu
