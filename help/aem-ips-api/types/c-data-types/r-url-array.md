@@ -1,21 +1,20 @@
 ---
-description: Ein Array von URLS zum Ungültigmachen des CDN-Cache.
+description: Ein Array von URLS zur Invalidierung des CDN-Cache.
 solution: Experience Manager
 title: UrlArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 8%
 
 ---
 
-
 # UrlArray{#urlarray}
 
-Ein Array von URLS zum Ungültigmachen des CDN-Cache.
+Ein Array von URLS zur Invalidierung des CDN-Cache.
 
 **Unterstützt seit**
 
@@ -35,8 +34,7 @@ Ein Array von URLS zum Ungültigmachen des CDN-Cache.
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> Die Liste der zu ungültigen URLs. Maximal 1000 URLs nach WSDL-Definition. </p> </td> 
+   <td> <p> Die Liste der URLs, die ungültig gemacht werden sollen. Gemäß WSDL-Definition auf maximal 1000 URLs begrenzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
