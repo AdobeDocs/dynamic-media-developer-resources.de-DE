@@ -1,21 +1,20 @@
 ---
-description: Ein Benutzer von Ressourcen und Typen im System.
+description: Benutzer von Ressourcen und Typen im System.
 solution: Experience Manager
 title: Benutzer
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
 
-
 # Benutzer{#user}
 
-Ein Benutzer von Ressourcen und Typen im System.
+Benutzer von Ressourcen und Typen im System.
 
 Syntax
 
@@ -23,11 +22,10 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`userHandle`*` | `xsd:string` | Benutzerhandle. |
-| `*`firstName`*` | `xsd:string` | Vorname des Benutzers |
-| `*`lastName`*` | `xsd:string` | Nachname des Benutzers |
+| `*`userHandle`*` | `xsd:string` | Benutzerhandbuch. |
+| `*`firstName`*` | `xsd:string` | Vorname des Benutzers. |
+| `*`lastName`*` | `xsd:string` | Nachname des Benutzers. |
 | `*`E-Mail`*` | `xsd:string` | E-Mail-Adresse. |
-| `*`defaultRole`*` | `xsd:string` | Legt die Rolle eines Benutzers in jeder Firma fest, zu der er gehört. Die Benutzerrolle `IpsAmin` überschreibt jedoch andere Benutzerrollen. |
+| `*`defaultRole`*` | `xsd:string` | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Die Benutzerrolle `IpsAmin` überschreibt jedoch andere Benutzerrollen. |
 | `*`isValid`*` | `xsd:boolean` | Bestimmt, ob der Benutzer gültig ist. |
 | `*`passwordExpires`*` | `xsd:dateTime` | Legt das Ablaufdatum des Kennworts fest. |
-
