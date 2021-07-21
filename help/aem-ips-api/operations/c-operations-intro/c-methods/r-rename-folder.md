@@ -3,15 +3,14 @@ description: Benennt einen Ordner um.
 solution: Experience Manager
 title: renameFolder
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 20%
 
 ---
-
 
 # renameFolder{#renamefolder}
 
@@ -34,23 +33,23 @@ Syntax
 
 ## Parameter {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Input (renameFolderParam)**
+**Eingabe (renameFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Bearbeiten Sie die Firma mit Ordnern, die Sie umbenennen möchten. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Behandeln Sie den Ordner. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Verarbeiten Sie das Unternehmen mit Ordnern, die Sie umbenennen möchten. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Verarbeiten Sie den Ordner. |
 | `*`folderName`*` | `xsd:string` | Ja | Neuer Ordnername. |
 
-**Output (renameFolderReturn)**
+**Ausgabe (renameFolderReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Behandeln Sie den umbenannten Ordner. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Wechseln Sie zum umbenannten Ordner. |
 
 ## Beispiele {#section-98bdd2f88d164f488676e90aba1dc864}
 
-In diesem Codebeispiel wird ein Ordner umbenannt.
+Mit diesem Codebeispiel wird ein Ordner umbenannt.
 
 **Anforderung**
 
@@ -69,4 +68,3 @@ In diesem Codebeispiel wird ein Ordner umbenannt.
    <folderHandle>MyCompany/My Newly Renamed PDF Folder/</folderHandle>
 </renameFolderReturn>
 ```
-
