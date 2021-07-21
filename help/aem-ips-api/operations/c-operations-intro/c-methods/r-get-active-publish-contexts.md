@@ -1,21 +1,20 @@
 ---
-description: Ruft eine Liste aktiver Kontexte für die Veröffentlichung für die angegebene Firma ab. Ein Veröffentlichungskontext gilt als aktiv, wenn mindestens ein aktiver Server für den Kontext definiert ist.
+description: Ruft eine Liste aktiver Veröffentlichungskontexte für das angegebene Unternehmen ab. Ein Veröffentlichungskontext wird als aktiv betrachtet, wenn mindestens ein aktiver Server für den Kontext definiert ist.
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 10%
 
 ---
 
-
 # getActivePublishContext{#getactivepublishcontext}
 
-Ruft eine Liste aktiver Kontexte für die Veröffentlichung für die angegebene Firma ab. Ein Veröffentlichungskontext gilt als aktiv, wenn mindestens ein aktiver Server für den Kontext definiert ist.
+Ruft eine Liste aktiver Veröffentlichungskontexte für das angegebene Unternehmen ab. Ein Veröffentlichungskontext wird als aktiv betrachtet, wenn mindestens ein aktiver Server für den Kontext definiert ist.
 
 Syntax
 
@@ -33,15 +32,14 @@ Syntax
 
 ## Parameter {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**Input (getActivePublishContextsParam)**
+**Eingabe (getActivePublishContextsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für aktive Kontexte mit Veröffentlichung der Firma zur Abfrage |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, um nach aktiven Veröffentlichungskontexten zu suchen |
 
-**Output (getActivePublishContextsReturn)**
+**Ausgabe (getActivePublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | Ja | Das Array der aktiven Kontexte für Veröffentlichungen, die null oder mehr Werte aus dem Veröffentlichungskontext enthalten können. |
-
+| `*`contextArray`*` | `types:StringArray` | Ja | Das Array aktiver Veröffentlichungskontexte, die null oder mehr Werte aus dem Veröffentlichungskontext enthalten können. |
