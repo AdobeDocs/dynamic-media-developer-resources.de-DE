@@ -1,36 +1,35 @@
 ---
-description: Aktualisiert einen Bildsatz.
+description: Aktualisiert ein Bildset.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bildsets
+role: Developer,Admin
+exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
 
-
 # updateImageSet{#updateimageset}
 
-Aktualisiert einen Bildsatz.
+Aktualisiert ein Bildset.
 
 Syntax
 
 ## Parameter {#section-3be47dbbce474ce78676b05e163492e3}
 
-**Input (updateImageSetParam)**
+**Eingabe (updateImageSetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zu der Firma, die den Bildsatz enthält, den Sie ändern möchten. |
-| `*`assetHandle`*` | `xsd:string` | Ys | Der Griff zum Bildsatz, den Sie ändern möchten. |
-| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | Nein | Setzt Bildsatzmitglieder zurück. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nein | Das Handle des Assets, das als Miniaturansicht für den Bildsatz fungiert. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, das das zu ändernde Bildset enthält. |
+| `*`assetHandle`*` | `xsd:string` | JS | Das Handle für das Bildset, das Sie ändern möchten. |
+| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | Nein | Setzt Bildset-Mitglieder zurück. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Nein | Der Handle des Assets, das als Miniaturansicht für das Bildset dient. |
 
-**Output (updateImageSetReturn)**
+**Ausgabe (updateImageSetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -67,4 +66,3 @@ Syntax
 ```java
 <updateImageSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
