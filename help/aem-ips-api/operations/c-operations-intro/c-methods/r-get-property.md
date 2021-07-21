@@ -1,32 +1,31 @@
 ---
-description: Ruft Zeichenfolgenwerte der Systemeigenschaften ab, die mit Image Portal zusammenhängen.
+description: Ruft Zeichenfolgenwerte von Systemeigenschaften ab, die sich auf Image Portal beziehen.
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 11%
 
 ---
 
-
 # getProperty{#getproperty}
 
-Ruft Zeichenfolgenwerte der Systemeigenschaften ab, die mit Image Portal zusammenhängen.
+Ruft Zeichenfolgenwerte von Systemeigenschaften ab, die sich auf Image Portal beziehen.
 
 Zu den unterstützten Systemeigenschaften gehören:
 
 * `IpsVersion`: IPS-Versionsnummer.
-* `IpsImageServerUrl`: Vollständiges externes URL-Präfix für den IPS-Image-Server.
+* `IpsImageServerUrl`: Vollständiges, externes URL-Präfix für den IPS-Image-Server.
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: URL-Präfix zum Rendern von SVG-Assets.
-* `SvgRenderEnabled`: True, wenn SVG-Assets von  `SvgRenderRootUrl`dargestellt werden können.
+* `SvgRenderEnabled`: True , wenn SVG-Assets von gerendert werden können  `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Maximale Größe (in Byte) der bei einem Hochladen zulässigen Dateidaten  [!DNL POST]. Das System lehnt Dateien ab, die größer als die Obergrenze sind.
+* `UploadPostMaxFileSize`: Maximale Größe (in Byte) der bei einem Upload zulässigen Dateidaten  [!DNL POST]. Das System lehnt Dateien ab, die größer als das Limit sind.
 
 ## Autorisierte Benutzertypen {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -42,13 +41,13 @@ Zu den unterstützten Systemeigenschaften gehören:
 
 ## Parameter {#section-e3d389d183b244c2a5ef39c0ec331b5e}
 
-**Input (getPropertyParam)**
+**Eingabe (getPropertyParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`name`*` | `xsd:string` | Ja | Der Name der abzurufenden Eigenschaft. |
 
-**Output (getPropertyReturn)**
+**Ausgabe (getPropertyReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -56,7 +55,7 @@ Zu den unterstützten Systemeigenschaften gehören:
 
 ## Beispiele {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-Dieses Codebeispiel verwendet eine IPS-Eigenschaftenzeichenfolgen-Konstante, um einen bestimmten Wert zurückzugeben. In diesem Beispiel ist die IPS-Eigenschaft die Version des IPS-Servers.
+In diesem Codebeispiel wird eine IPS-Eigenschaften-String-Konstante verwendet, um einen bestimmten Wert zurückzugeben. In diesem Beispiel ist die IPS-Eigenschaft die Version des IPS-Servers.
 
 **Anforderung**
 
@@ -73,4 +72,3 @@ Dieses Codebeispiel verwendet eine IPS-Eigenschaftenzeichenfolgen-Konstante, um 
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
