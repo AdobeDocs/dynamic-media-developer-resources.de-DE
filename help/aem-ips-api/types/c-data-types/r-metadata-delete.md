@@ -2,16 +2,15 @@
 description: Metadaten, die aus dem Asset gelöscht werden sollen.
 solution: Experience Manager
 title: MetadataDelete
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '32'
+ht-degree: 15%
 
 ---
-
 
 # MetadataDelete{#metadatadelete}
 
@@ -37,4 +36,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
