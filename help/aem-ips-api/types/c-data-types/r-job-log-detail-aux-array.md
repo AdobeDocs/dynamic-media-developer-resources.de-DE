@@ -1,21 +1,20 @@
 ---
-description: Array von Hilfsprotokolldetailtypen.
+description: Array von zusätzlichen Auftragsprotokolldetailtypen.
 solution: Experience Manager
 title: JobLogDetailAuxArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 69662118-8dbc-47ce-a6e3-0f2edf0109ac
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 16%
+source-wordcount: '35'
+ht-degree: 17%
 
 ---
 
-
 # JobLogDetailAuxArray{#joblogdetailauxarray}
 
-Array von Hilfsprotokolldetailtypen.
+Array von zusätzlichen Auftragsprotokolldetailtypen.
 
 Syntax
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:JobLogDetailAux` | Ein Array mit zusätzlichen Auftragsprotokolldetailtypen. |
-
+| `*`Elemente`*` | `types:JobLogDetailAux` | Ein Array von ergänzenden Auftragsprotokolldetailtypen. |
