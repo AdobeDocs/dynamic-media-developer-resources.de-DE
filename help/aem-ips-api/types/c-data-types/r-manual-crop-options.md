@@ -1,21 +1,20 @@
 ---
-description: Manuelle Beschneidungsoptionen für Bilder.
+description: Manuelles Zuschneiden von Optionen für Bilder.
 solution: Experience Manager
 title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 14%
 
 ---
 
-
 # ManualCropOptions{#manualcropoptions}
 
-Manuelle Beschneidungsoptionen für Bilder.
+Manuelles Zuschneiden von Optionen für Bilder.
 
 Syntax
 
@@ -23,8 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`links`*` | `xsd:int` | Die linke Position der manuellen Beschneidung in Pixel. |
-| `*`rechts`*` | `xsd:int` | Die rechte Position der manuellen Beschneidung in Pixel. |
-| `*`Anfang`*` | `xsd:int` | Die obere Position der manuellen Beschneidung in Pixel. |
-| `*`unten`*` | `xsd:int` | Die untere Position der manuellen Beschneidung in Pixel. |
-
+| `*`links`*` | `xsd:int` | Die linke Position des manuellen Zuschnitts in Pixel. |
+| `*`rechts`*` | `xsd:int` | Die rechte Position des manuellen Zuschnitts in Pixel. |
+| `*`Anfang`*` | `xsd:int` | Die obere Position des manuellen Zuschnitts in Pixel. |
+| `*`unten`*` | `xsd:int` | Die untere Position des manuellen Zuschnitts in Pixel. |
