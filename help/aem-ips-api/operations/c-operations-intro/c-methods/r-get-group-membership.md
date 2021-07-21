@@ -3,15 +3,14 @@ description: Gibt die Mitglieder einer Gruppe zurück.
 solution: Experience Manager
 title: getGroupMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
-
 
 # getGroupMembership{#getgroupmembership}
 
@@ -31,14 +30,14 @@ Syntax
 
 ## Parameter {#section-2e92f850254e46e48403acaa215341a5}
 
-**Input (getGroupMembershipParam)**
+**Eingabe (getGroupMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nein | Das Handle für den Benutzer. |
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Griff zur Firma. |
+| `*`userHandle`*` | `xsd:string` | Nein | Der Handle für den Benutzer. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen. |
 
-**Output (getGroupMembershipReturn)**
+**Ausgabe (getGroupMembershipReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-Dieses Codebeispiel gibt alle Mitglieder einer Gruppe zurück. Da die Firmen- und Benutzergriffe optional sind, kann der Vorgang alle Gruppenmitglieder zurückgeben.
+Dieses Codebeispiel gibt alle Mitglieder einer Gruppe zurück. Da die Handles für Unternehmen und Benutzer optional sind, kann der Vorgang alle Mitglieder aller Gruppen zurückgeben.
 
 **Anforderung**
 
@@ -64,4 +63,3 @@ Dieses Codebeispiel gibt alle Mitglieder einer Gruppe zurück. Da die Firmen- un
       <items>
          <groupHandle>225</groupHandle><companyHandle>47</companyHandle><name>MyGroup</name><isSystemDefined>false</isSystemDefined></items></groupArray></getGroupMembershipReturn>
 ```
-
