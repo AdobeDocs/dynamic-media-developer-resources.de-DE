@@ -1,21 +1,20 @@
 ---
-description: Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 3.7.
+description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.7.
 solution: Experience Manager
 title: Vorgänge - Neu und geändert
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 1f11a686-7239-4922-a608-5330864184ac
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 1%
 
 ---
 
-
 # Vorgänge: Neu und geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 3.7.
+Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.7.
 
 Syntax
 
@@ -37,7 +36,7 @@ Syntax
 * `executeJob`
 * `deleteJob`
 
-## Modifizierte Vorgänge {#section-596ea55a371e4c2ab5531e21ea9d8090}
+## Geänderte Vorgänge {#section-596ea55a371e4c2ab5531e21ea9d8090}
 
 **searchAsset**
 
@@ -51,5 +50,4 @@ Syntax
 **getFolderTree**
 
 * `excludeFieldArray` und `getUniqueMetadataValues` hinzugefügt.
-* Es wurde `fieldHandle` ein erforderlicher Parameter erstellt.
-
+* `fieldHandle` wurde zu einem erforderlichen Parameter gemacht.
