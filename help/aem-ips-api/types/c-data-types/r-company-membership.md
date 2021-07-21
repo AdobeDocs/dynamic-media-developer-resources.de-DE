@@ -3,15 +3,14 @@ description: CompanyMembership
 solution: Experience Manager
 title: CompanyMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
-
 
 # CompanyMembership{#companymembership}
 
@@ -22,6 +21,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`firma`*` | `types:Company` |  |
-| `*`role`*` | `xsd:string` |  |
-| `*`isActive`*` | `xsd:boolean` | Legt den Benutzerstatus für jede Firma fest, zu der sie gehören. |
-
+| `*`Rolle`*` | `xsd:string` |  |
+| `*`isActive`*` | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |
