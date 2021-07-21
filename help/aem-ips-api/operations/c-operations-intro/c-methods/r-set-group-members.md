@@ -1,23 +1,22 @@
 ---
-description: Legt die Gruppenmitgliedschaft von Benutzern fest, die zu einer bestimmten Firma gehören.
+description: Legt die Gruppenmitgliedschaft von Benutzern fest, die zu einem bestimmten Unternehmen gehören.
 solution: Experience Manager
 title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setGroupMembers{#setgroupmembers}
 
-Legt die Gruppenmitgliedschaft von Benutzern fest, die zu einer bestimmten Firma gehören.
+Legt die Gruppenmitgliedschaft von Benutzern fest, die zu einem bestimmten Unternehmen gehören.
 
-Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die erforderlichen Berechtigungen zum Durchführen dieses Vorgangs verfügen. Dies gilt auch dann, wenn einer der Benutzer im user handle-Array nicht zur im Firma-Handle angegebenen Firma gehört,
+Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die erforderlichen Berechtigungen zum Ausführen dieses Vorgangs verfügen. Dies trifft auch zu, wenn einer der Benutzer im Benutzerhandle-Array nicht zu dem im Unternehmens-Handle angegebenen Unternehmen gehört.
 
 ## Autorisierte Benutzertypen {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -27,15 +26,15 @@ Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die er
 
 ## Parameter {#section-6a18562fc8e942af94be10bbb8c51151}
 
-**Input (setGroupMembersParam)**
+**Eingabe (setGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Gruppengriff. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Gruppieren. |
 | `*`userHandleArray`*` | `types:HandleArray` | Ja | Array von Handles für Benutzer, deren Gruppenmitgliedschaft Sie festlegen möchten. |
 
-**Output (setGroupMembersReturn)**
+**Ausgabe (setGroupMemberReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
