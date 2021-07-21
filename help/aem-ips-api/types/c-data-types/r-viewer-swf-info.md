@@ -2,16 +2,15 @@
 description: Eigenschaften eines Viewer-SWF-Datei-Assets.
 solution: Experience Manager
 title: ViewerSwfInfo
-feature: Dynamic Media Classic,SDK/API,Viewers
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Viewer
+role: Developer,Admin
+exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 13%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
-
 
 # ViewerSwfInfo{#viewerswfinfo}
 
@@ -23,7 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Relativer Pfad zur ursprünglich hochgeladenen SWF-Datei des Viewers. |
-| `*`originalFile`*` | `xsd:string` | Dateiname der ursprünglichen SWF-Datei des Viewers. |
+| `*`originalPath`*` | `xsd:string` | Relativer Pfad zur ursprünglich hochgeladenen Viewer-SWF-Datei. |
+| `*`originalFile`*` | `xsd:string` | Dateiname der ursprünglichen Viewer-SWF-Datei. |
 | `*`fileSize`*` | `xsd:int` | Dateigröße. |
-
