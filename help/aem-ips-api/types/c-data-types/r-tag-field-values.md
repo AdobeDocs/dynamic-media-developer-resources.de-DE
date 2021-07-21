@@ -3,15 +3,14 @@ description: Ein Array von Werten für ein Tag-Feld.
 solution: Experience Manager
 title: TagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
-
 
 # TagFieldValues{#tagfieldvalues}
 
@@ -23,6 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Tag-Feldgriff. |
+| `*`fieldHandle`*` | `xsd:string` | Tag-Feld-Handle. |
 | `*`valueArray`*` | `xsd:StringArray` | Ein Array von Werten für ein Tag-Feld. |
-
