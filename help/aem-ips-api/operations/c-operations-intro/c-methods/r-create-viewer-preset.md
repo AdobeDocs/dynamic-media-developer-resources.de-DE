@@ -1,21 +1,20 @@
 ---
-description: Erstellt eine voreingestellte Ansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann von jedem in IPS verfügbaren Typ sein. Die voreingestellte Ansicht wird angewendet, wenn die Assets veröffentlicht werden.
+description: Erstellt eine Vorgabenansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann einen beliebigen Typ aufweisen, der in IPS verfügbar ist. Die Vorgabenansicht wird angewendet, wenn die Assets veröffentlicht werden.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
+feature: Dynamic Media Classic,SDK/API,Viewer-Vorgaben
+role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 13%
 
 ---
 
 # createViewerPreset{#createviewerpreset}
 
-Erstellt eine voreingestellte Ansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann von jedem in IPS verfügbaren Typ sein. Die voreingestellte Ansicht wird angewendet, wenn die Assets veröffentlicht werden.
+Erstellt eine Vorgabenansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann einen beliebigen Typ aufweisen, der in IPS verfügbar ist. Die Vorgabenansicht wird angewendet, wenn die Assets veröffentlicht werden.
 
 Syntax
 
@@ -28,25 +27,25 @@ Syntax
 
 ## Parameter {#section-aa6dc37e327541ebbfed7685cd8071ff}
 
-**Input (createViewerPresetParam)**
+**Eingabe (createViewerPresetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, die die Viewer-Vorgaben und -Elemente enthält. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Das Handle des Ordners, der die Assets enthält. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, das die Viewer-Vorgaben und Assets enthält. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Der Handle des Ordners, der die Assets enthält. |
 | `*`name`*` | `xsd:string` | Ja | Viewer-Name. |
 | `*`type`*` | `xsd:string` | Ja | Viewer-Typ. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Griffe von Bildern enthält, auf die Sie Vorgaben anwenden. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Handles von Bildern enthält, auf die Sie Vorgaben anwenden. |
 
-**Output (createViewerPresetReturn)**
+**Ausgabe (createViewerPresetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Ja | Handhabung der Vorgabe für den Viewer. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Ja | Handhabung der Vorgabe an den Viewer. |
 
 ## Beispiele {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-In diesem Codebeispiel wird eine Video-Player-Vorgabe erstellt. Die Antwort gibt einen Griff zur Vorgabe zurück.
+In diesem Codebeispiel wird eine Videoplayer-Vorgabe erstellt. Die Antwort gibt einen Handle an die Vorgabe zurück.
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
