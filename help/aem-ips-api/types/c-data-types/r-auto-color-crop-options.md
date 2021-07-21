@@ -1,21 +1,20 @@
 ---
-description: Optionen zum automatischen Beschneiden von Bildern basierend auf Farbe.
+description: Optionen zum automatischen Zuschneiden von Bildern basierend auf Farben.
 solution: Experience Manager
 title: AutoColorCropOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 9%
 
 ---
 
-
 # AutoColorCropOptions{#autocolorcropoptions}
 
-Optionen zum automatischen Beschneiden von Bildern basierend auf Farbe.
+Optionen zum automatischen Zuschneiden von Bildern basierend auf Farben.
 
 Syntax
 
@@ -37,13 +36,12 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Toleranz</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:Dublette</span> </td> 
-   <td colname="col3">Farbübereinstimmungsspezifikation. Verwendet: 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3">Spezifikation der Farbübereinstimmung. Verwendet: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0, um Farben exakt abzugleichen. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1, um die meisten Farbunterschiede zu aktivieren. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 , um die meisten Farbunterschiede zu aktivieren. </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-
