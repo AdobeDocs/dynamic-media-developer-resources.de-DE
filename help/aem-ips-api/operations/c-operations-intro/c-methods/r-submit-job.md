@@ -3,15 +3,14 @@ description: Sendet einen Auftrag an das System.
 solution: Experience Manager
 title: submitJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 8%
 
 ---
-
 
 # submitJob{#submitjob}
 
@@ -31,7 +30,7 @@ Syntax
 
 ## Parameter {#section-31a07dbccf964850883e817384499459}
 
-**Input (submitJobParam)**
+**Eingabe (submitJobParam)**
 
 <table id="table_9CB1F668E036422E8CE4E0BBA42EC44C"> 
  <thead> 
@@ -47,7 +46,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Firma Handle. </p> </td> 
+   <td colname="col4"> <p>Handle des Unternehmens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
@@ -65,19 +64,19 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Das Gebietsschema, das für Auftragsprotokolldetails und E-Mail-lokale Anpassung verwendet wird. </p> <p>Gebietsschemata werden als <span class="codeph">&lt;language_code&gt;</span> und <span class="codeph"> [&lt;country_code&gt;]</span> angegeben, wobei der Sprachencode ein aus zwei Buchstaben bestehender Code gemäß ISO-639 ist und der optionale Ländercode ein aus zwei Buchstaben bestehender Code aus Großbuchstaben ist, wie in ISO-3166 angegeben. Die Zeichenfolge für Englisch (USA) lautet beispielsweise: en-US. </p> </td> 
+   <td colname="col4"> <p>Das Gebietsschema, das für Auftragsprotokolldetails und die E-Mail-Lokalisierung verwendet wird. </p> <p>Gebietsschemata werden als <span class="codeph"> &lt;language_code&gt;</span> und <span class="codeph"> [&lt;country_code&gt;]</span> angegeben, wobei der Sprachcode ein aus zwei Buchstaben bestehender Code in Kleinbuchstaben ist, wie in ISO-639 angegeben, und der optionale Ländercode ein aus zwei Buchstaben bestehender Code in Großbuchstaben ist, wie in ISO-3166 angegeben. Die Gebietsschema-Zeichenfolge für Englisch (USA) lautet beispielsweise: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Datum und Uhrzeit der Ausführung des Auftrags. </p> <p>Hinweis:  Geben Sie die Zeitzone mit der Anforderung an. Zeitzonen werden an die Zeitzone des Zielgruppe IPS-Servers angepasst. </p> </td> 
+   <td colname="col4"> <p>Datum und Uhrzeit der Auftragsausführung. </p> <p>Hinweis:  Geben Sie die Zeitzone mit der Anforderung an. Die Zeitzonen werden an die Zeitzone des Ziel-IPS-Servers angepasst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Legt fest, wann der Auftrag ausgeführt werden soll. </p> <p> Kann eine <span class="codeph"> cron</span>-Zeichenfolge sein, die den Auftrag wiederholt ausführt. </p> <p>Der Zeitplan ist immer relativ zur lokalen Zeitzone des Servers. Informationen zum benutzerdefinierten Zeitplanformat finden Sie in der IPS-Dokumentation. </p> </td> 
+   <td colname="col4"> <p>Legt fest, wann der Auftrag ausgeführt werden soll. </p> <p> Kann eine <span class="codeph"> cron</span> -Zeichenfolge sein, die den Auftrag wiederholt ausführt. </p> <p>Der Zeitplan ist immer relativ zur lokalen Zeitzone des Servers. Informationen zum benutzerdefinierten Zeitplanformat finden Sie in der IPS-Dokumentation . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -95,7 +94,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ImageServingPublishJob</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Details zu einem Image Serving-Veröffentlichungsauftrag. </p> </td> 
+   <td colname="col4"> <p>Details für einen Image Serving-Veröffentlichungsauftrag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
@@ -107,13 +106,13 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:VideoPublishJob</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Details für einen Videoveröffentlichungsauftrag. </p> <p>Siehe <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
+   <td colname="col4"> <p>Details für einen Video-Veröffentlichungsauftrag. </p> <p>Siehe <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ServerDirectoryPublishJob</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Details für einen Veröffentlichungsauftrag im Serververzeichnis. </p> </td> 
+   <td colname="col4"> <p>Details für einen Veröffentlichungsauftrag für Serververzeichnisse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
@@ -154,15 +153,15 @@ Syntax
  </tbody> 
 </table>
 
-**Output (submitJobReturn)**
+**Ausgabe (submitJobReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | Ja | Auftragsbearbeitung |
+| `*`jobHandle`*` | `xsd:string` | Ja | Auftragshandle. |
 
 ## Beispiele {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Mit diesem Codebeispiel wird ein Image Serving-Veröffentlichungsauftrag an IPS gesendet und ein Auftragsgriff zurückgegeben. Wählen Sie nur einen Auftragstyp in der Anforderung aus. Da `userHandle` weggelassen wurde, werden E-Mail-Benachrichtigungen an den Benutzer gesendet, der den Auftrag gesendet hat. Dieser Musterauftrag wird sofort ausgeführt, da `execTime` und `execSchedule` ausgelassen wurden.
+Dieses Codebeispiel sendet einen Image Serving-Veröffentlichungsauftrag an IPS und gibt einen Auftrags-Handle zurück. Wählen Sie nur einen Auftragstyp in der Anforderung aus. Da `userHandle` weggelassen wurde, werden E-Mail-Benachrichtigungen an den Benutzer gesendet, der den Auftrag gesendet hat. Dieser Beispielauftrag wird sofort ausgeführt, da `execTime` und `execSchedule` weggelassen wurden.
 
 **Anforderung**
 
@@ -187,7 +186,7 @@ Mit diesem Codebeispiel wird ein Image Serving-Veröffentlichungsauftrag an IPS 
 
 ## Anmerkungen {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-Sie können höchstens eines von `execTime` und `execSchedule` angeben. Wenn keines der beiden Werte übergeben wird, wird der Auftrag sofort ausgeführt. Sie können nur eine der folgenden Optionen verwenden:
+Sie können maximal einen von `execTime` und `execSchedule` angeben. Wenn keines von beiden übergeben wird, wird der Auftrag sofort ausgeführt. Sie können nur eine der folgenden Optionen verwenden:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -195,4 +194,3 @@ Sie können höchstens eines von `execTime` und `execSchedule` angeben. Wenn kei
 * `serverDirectoryPublishJob`
 * `uploadDirectoryJob`
 * `uploadUrlsJob`
-
