@@ -3,15 +3,14 @@ description: Ein Array von Imagemap-Definitionen.
 solution: Experience Manager
 title: ImageMapDefinitionArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6c1bc0b4-6e81-421c-956b-2394f32350be
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 18%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
-
 
 # ImageMapDefinitionArray{#imagemapdefinitionarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:ImageMapDefinition` | Array von Imagemap-Definitionen. |
-
