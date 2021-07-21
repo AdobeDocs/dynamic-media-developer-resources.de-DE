@@ -1,21 +1,20 @@
 ---
-description: Suchergebnisse für Metadaten, die zusammengefasste Informationen zu einem Asset enthalten.
+description: Metadaten-Suchergebnisse, die zusammengefasste Informationen über ein Asset enthalten.
 solution: Experience Manager
 title: AssetSummary
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 11%
 
 ---
 
-
 # AssetSummary{#assetsummary}
 
-Suchergebnisse für Metadaten, die zusammengefasste Informationen zu einem Asset enthalten.
+Metadaten-Suchergebnisse, die zusammengefasste Informationen über ein Asset enthalten.
 
 Syntax
 
@@ -28,11 +27,10 @@ Syntax
 | `*`name`*` | `xsd:string` | Asset-Name. Optional. |
 | `*`Ordner`*` | `xsd:string` | Der Ordner, der das Asset enthält. |
 | `*`Dateiname`*` | `xsd:string` | Dateiname des Assets. |
-| `*`erstellt`*` | `xsd:dateTime` | Erstellungsdatum des Assets |
+| `*`erstellt`*` | `xsd:dateTime` | Erstellungsdatum des Assets. |
 | `*`createUser`*` | `xsd:string` | Der Benutzer, der das Asset erstellt hat. |
 | `*`lastModified`*` | `xsd:dateTime` | Das Datum, an dem das Asset zuletzt aktualisiert wurde. |
 | `*`lastModifyUser`*` | `xsd:string` | Der letzte Benutzer, der das Asset geändert hat. |
 | `*`metadataArray`*` | `types:MetadataArray` | Array von Metadatenwerten, die mit dem Asset verknüpft sind. |
-| `*`Punktstand`*` | `xsd:double` | Definiert die Genauigkeit bei einer Ähnlichkeitssuche (0 = keine Übereinstimmung, 1 = genaue Übereinstimmung). |
+| `*`Punktstand`*` | `xsd:double` | Definiert die Genauigkeit im Fall einer Ähnlichkeitssuche (0 = keine Übereinstimmung, 1 = genaue Übereinstimmung). |
 | `*`scoreDetail`*` | `xsd:string` | Enthält detaillierte Informationen zu ähnlichen Bereichen als Ergebnis einer Ähnlichkeitssuche. |
-
