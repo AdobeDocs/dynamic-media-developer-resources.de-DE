@@ -3,15 +3,14 @@ description: Legt die Gruppenmitgliedschaft für einen Benutzer fest.
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
-
 
 # setGroupMembership{#setgroupmembership}
 
@@ -27,21 +26,21 @@ Syntax
 
 ## Parameter {#section-6aeda13b26af4796aad1306ac7a9ad17}
 
-**Input (setGroupMembershipParam)**
+**Eingabe (setGroupMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nein | Das Handle des Benutzers, dessen Gruppenmitgliedschaft Sie festlegen möchten. |
-| `*`companyHandle`*` | `xsd:string` | Nein | Firma Handle. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Ja | Das Array von Handles zu Gruppen, denen der Benutzer angehört. |
+| `*`userHandle`*` | `xsd:string` | Nein | Das Handle für den Benutzer, dessen Gruppenmitgliedschaft Sie festlegen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Handle des Unternehmens. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Ja | Das Array von Handles zu Gruppen, zu denen der Benutzer gehört. |
 
-**Output (setGroupMembershipReturn)**
+**Ausgabe (setGroupMembershipReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-67b86d259df24938896fe19061845811}
 
-Mit diesem Codebeispiel wird der Benutzer zum Mitglied einer Gruppe. hinzufügen einem Benutzer mehrere Gruppen mit dem Gruppen-Handle-Array.
+Mit diesem Codebeispiel wird der Benutzer zu einem Mitglied einer Gruppe. Fügen Sie einen Benutzer zu mehreren Gruppen mit dem Gruppen-Handle-Array hinzu.
 
 **Anforderung**
 
