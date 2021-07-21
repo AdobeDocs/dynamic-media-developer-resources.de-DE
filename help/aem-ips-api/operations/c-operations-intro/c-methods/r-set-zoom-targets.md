@@ -1,21 +1,20 @@
 ---
-description: Legt die mit einem Asset-Bild verknüpfte Zoom-Zielgruppe fest. Es überschreibt vorhandene Zoom-Zielgruppen.
+description: Legt das Zoomziel fest, das mit einem Asset-Bild verknüpft ist. Vorhandene Zoomziele werden überschrieben.
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 13%
 
 ---
 
-
 # setZoomTargets{#setzoomtargets}
 
-Legt die mit einem Asset-Bild verknüpfte Zoom-Zielgruppe fest. Es überschreibt vorhandene Zoom-Zielgruppen.
+Legt das Zoomziel fest, das mit einem Asset-Bild verknüpft ist. Vorhandene Zoomziele werden überschrieben.
 
 Syntax
 
@@ -30,23 +29,23 @@ Syntax
 
 ## Parameter {#section-161f8c733cc4439f94a06e12119d4226}
 
-**Input (setZoomTargetsParam)**
+**Eingabe (setZoomTargetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset mit der Zoom-Zielgruppe, die Sie einstellen möchten. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Ja | Array von Definitionen zur Zoomfunktion. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Asset mit dem Zoomziel, das Sie festlegen möchten. |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Ja | Array von Zoom-Zieldefinitionen. |
 
-**Output (setZoomTargetsReturn)**
+**Ausgabe (setZoomTargetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Ja | Der Satz von Griffen für die Zoom-Zielgruppen, die durch diesen Vorgang erstellt werden. |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Ja | Die Griffe für die Zoomziele, die durch diesen Vorgang erstellt werden. |
 
 ## Beispiele {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-In diesem Codebeispiel wird ein Array von Zoom-Zielgruppen nach Name, Position (X- und Y-Achse), Breite und Höhe definiert und das Array einem Asset zugewiesen. Die Antwort enthält Griffe zu den neu erstellten Zoom-Zielgruppen.
+Dieses Codebeispiel definiert ein Array von Zoomzielen nach Name, Position (X- und Y-Achse), Breite und Höhe und weist das Array einem Asset zu. Die Antwort enthält Handles zu den neu erstellten Zoomzielen.
 
 **Anforderung**
 
@@ -83,4 +82,3 @@ In diesem Codebeispiel wird ein Array von Zoom-Zielgruppen nach Name, Position (
    </zoomTargetHandleArray>
 </setZoomTargetsReturn>
 ```
-
