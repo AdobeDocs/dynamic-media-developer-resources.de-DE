@@ -3,15 +3,14 @@ description: Gibt Bildformate wie PDF, EPS, SWF und andere zurück.
 solution: Experience Manager
 title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 18%
 
 ---
-
 
 # getImageFormats{#getimageformats}
 
@@ -31,13 +30,13 @@ Syntax
 
 ## Parameter {#section-eefa36a70b74498f8727ef61d98cfb63}
 
-**Input (getImageFormatsParam)**
+**Eingabe (getImageFormatsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit den Bildformaten, die Sie abrufen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen mit den Bildformaten, die Sie abrufen möchten. |
 
-**Output (getImageFormatsParam)**
+**Ausgabe (getImageFormatsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +44,7 @@ Syntax
 
 ## Beispiele {#section-73881e12839b4904bf3299b0920bdd0c}
 
-Dieses Codebeispiel gibt alle Bildformate für die angegebene Firma zurück.
+Dieses Codebeispiel gibt alle Bildformate für das angegebene Unternehmen zurück.
 
 **Anforderung**
 
@@ -62,4 +61,3 @@ Dieses Codebeispiel gibt alle Bildformate für die angegebene Firma zurück.
    <imageFormatArray></imageFormatArray>
 </getImageFormatsReturn>
 ```
-
