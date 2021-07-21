@@ -1,21 +1,20 @@
 ---
-description: Zielgruppe für eine Klickaktion im Browser.
+description: Zieldefinition für eine Klickaktion im Browser.
 solution: Experience Manager
 title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 11%
 
 ---
 
-
 # ImageMapDefinition{#imagemapdefinition}
 
-Zielgruppe für eine Klickaktion im Browser.
+Zieldefinition für eine Klickaktion im Browser.
 
 Syntax
 
@@ -25,7 +24,6 @@ Syntax
 |---|---|---|
 | `*`name`*` | `xsd:string` | Der Name der Imagemap-Definition. |
 | `*`shapeType`*` | `xsd:string` | Einer der Regionsformwerte. |
-| `*`Region`*` | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf den HTML `<area>`-Tag-Attributen. |
-| `*`Aktion`*` | `xsd:string` | Andere Attribute, die in das HTML `<area>`-Tag eingeschlossen werden sollen, einschließlich der `href`-URL. |
-| `*`aktiviert`*` | `xsd:boolean` | True, wenn die Imagemap aktiviert ist. |
-
+| `*`Region`*` | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf den HTML-Tag-Attributen `<area>` . |
+| `*`Aktion`*` | `xsd:string` | Andere Attribute, die in das HTML-Tag `<area>` aufgenommen werden sollen, einschließlich der URL `href` . |
+| `*`aktiviert`*` | `xsd:boolean` | True , wenn die Imagemap aktiviert ist. |
