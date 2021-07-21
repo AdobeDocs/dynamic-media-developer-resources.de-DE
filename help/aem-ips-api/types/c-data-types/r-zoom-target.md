@@ -1,21 +1,20 @@
 ---
-description: Eigenschaften einer Zoom-Zielgruppe.
+description: Eigenschaften eines Zoomziels.
 solution: Experience Manager
 title: Zoomziel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
 
-
 # Zoomziel{#zoomtarget}
 
-Eigenschaften einer Zoom-Zielgruppe.
+Eigenschaften eines Zoomziels.
 
 Syntax
 
@@ -23,13 +22,12 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Zoom-Zielgruppe-Handle. |
-| `*`name`*` | `xsd:string` | Name der Zoom-Zielgruppe. |
-| `*`xPosition`*` | `xsd:int` | Die X-Position der Zoom-Zielgruppe. |
-| `*`yPosition`*` | `xsd:int` | Die Y-Position der Zoom-Zielgruppe. |
-| `*`width`*` | `xsd:int` | Breite der Zoom-Zielgruppe. |
-| `*`height`*` | `xsd:int` | Höhe der Zoom-Zielgruppe. |
-| `*`Benutzerdaten`*` | `xsd:string` | Benutzerdaten im Zusammenhang mit der Zoom-Zielgruppe. |
-| `*`position`*` | `xsd:int` | Ermöglicht die Anordnung von mit einem Asset verknüpften Zoom-Zielgruppen basierend auf der Position |
+| `*`zoomTargetHandle`*` | `xsd:string` | Zoom-Ziehgriff. |
+| `*`name`*` | `xsd:string` | Zoom-Zielname. |
+| `*`xPosition`*` | `xsd:int` | Die X-Position des Zoomziels. |
+| `*`yPosition`*` | `xsd:int` | Die Y-Position des Zoomziels. |
+| `*`width`*` | `xsd:int` | Zoom der Zielbreite |
+| `*`height`*` | `xsd:int` | Zoom der Zielhöhe |
+| `*`Benutzerdaten`*` | `xsd:string` | Benutzerdaten, die mit dem Zoomziel verknüpft sind. |
+| `*`position`*` | `xsd:int` | Ermöglicht die Sortierung von mit einem Asset verknüpften Zoom-Zielen basierend auf der Position |
 | `*`lastModified`*` | `xsd:dateTime` | Datum der letzten Änderung. |
-
