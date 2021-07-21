@@ -1,21 +1,20 @@
 ---
-description: Ruft die Details des Auftragsprotokolls einer Firma ab.
+description: Ruft die Details eines Unternehmens-Auftragsprotokolls ab.
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 9%
 
 ---
 
-
 # getJobLogDetails{#getjoblogdetails}
 
-Ruft die Details des Auftragsprotokolls einer Firma ab.
+Ruft die Details eines Unternehmens-Auftragsprotokolls ab.
 
 Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` lokalisiert.
 
@@ -32,7 +31,7 @@ Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` l
 
 ## Parameter {#section-47d411a755224c23a4521f10341d66ab}
 
-**Input (getJobLogDetailsParam)**
+**Eingabe (getJobLogDetailsParam)**
 
 <table id="table_A77122D73F684B3F8F5AFA1C11C189ED"> 
  <thead> 
@@ -48,7 +47,7 @@ Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` l
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Das Handle der Firma, zu der das Auftragsprotokoll gehört. </td> 
+   <td colname="col4"> Der Handle des Unternehmens, zu dem das Auftragsprotokoll gehört. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -66,36 +65,36 @@ Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` l
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Eine oder mehrere Protokolltyp-Konstanten. Falls vorhanden, werden nur die angegebenen Protokolltypen zurückgegeben. Standardmäßig werden alle Protokolltypen zurückgegeben. </td> 
+   <td colname="col4"> Mindestens eine Protokolltyp-Konstante. Falls vorhanden, werden nur die angegebenen Protokolltypen zurückgegeben. Standardmäßig werden alle Protokolltypen zurückgegeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Maximale Anzahl der zurückzugebenden <span class="codeph"> detailArray</span>-Elemente. Der Höchst- und Standardwert ist 1000. </td> 
+   <td colname="col4">Maximale Anzahl der zurückzugebenden <span class="codeph"> detailArray</span> Elemente. Der Höchstwert und der Standardwert sind 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Seitenzahl der zurückzugebenden <span class="codeph"> recordsPerPage</span>-Ergebnisse. Der Standardwert ist 1. </td> 
+   <td colname="col4">Seitenzahl der zurückzugebenden <span class="codeph"> recordsPerPage</span>-results. Der Standardwert ist 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Einer der Konstantenwerte für "Auftragsdetails-Sortierfeld"(Datum oder LogType). Der Standardwert ist Datum. </p> </td> 
+   <td colname="col4"> <p>Einer der Konstantenwerte für das Auftragsdetailsortierungsfeld (Datum oder LogType). Der Standardwert ist Datum. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Eine der Zeichenfolgenkonstanten "Sortierrichtung". Der Standardwert ist aufsteigend. </p> </td> 
+   <td colname="col4"> <p>Eine der Zeichenfolgenkonstanten Sortierrichtung . Der Standardwert ist aufsteigend. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getJobLogDetailsReturn)**
+**Ausgabe (getJobLogDetailsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -103,7 +102,7 @@ Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` l
 
 ## Beispiele {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Dieses Codebeispiel gibt alle Auftragsprotokolldetails für eine bestimmte Firma zurück. Das erste Array enthält Standardauftragsprotokolldetails. Ein eingebettetes Array gibt weitere Informationen zum Auftrag zurück.
+Dieses Codebeispiel gibt alle Auftragsprotokolldetails für ein bestimmtes Unternehmen zurück. Das erste Array enthält standardmäßige Auftragsprotokolldetails. Ein eingebettetes Array gibt zusätzliche Informationen zum Auftrag zurück.
 
 **Anforderung**
 
@@ -152,4 +151,3 @@ Dieses Codebeispiel gibt alle Auftragsprotokolldetails für eine bestimmte Firma
    </jobLogArray>
 </getJobLogDetailsReturn>
 ```
-
