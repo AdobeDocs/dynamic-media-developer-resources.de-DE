@@ -3,15 +3,14 @@ description: Ein Array von Asset-Zusammenfassungen.
 solution: Experience Manager
 title: AssetSummaryArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6c38cd3f-10ec-4552-b2da-19a45068c7fa
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
-
 
 # AssetSummaryArray{#assetsummaryarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:AssetSummary` | Array von Asset-Zusammenfassungen. |
-
