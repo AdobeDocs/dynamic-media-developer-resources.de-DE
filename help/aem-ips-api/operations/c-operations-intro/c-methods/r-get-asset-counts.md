@@ -1,23 +1,22 @@
 ---
-description: Ruft die Assets und die Anzahl der Assets ab, die mit einer bestimmten Firma verknüpft sind.
+description: Ruft die Assets und die Anzahl der Assets ab, die mit einem bestimmten Unternehmen verknüpft sind.
 solution: Experience Manager
 title: getAssetCounts
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
 
-
 # getAssetCounts{#getassetcounts}
 
-Ruft die Assets und die Anzahl der Assets ab, die mit einer bestimmten Firma verknüpft sind.
+Ruft die Assets und die Anzahl der Assets ab, die mit einem bestimmten Unternehmen verknüpft sind.
 
-Das zurückgegebene `countArray` besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`), von denen jedes über ein eigenes Zählfeld (Datentyp `xsd:int`) verfügt, sodass mehrere Asset-Typen pro Element des Arrays angezeigt werden können.
+Das zurückgegebene `countArray` besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`), von dem jeder über ein eigenes Zählerfeld (Datentyp `xsd:int`) verfügt und das die Darstellung mehrerer Asset-Typen pro Element des Arrays ermöglicht.
 Syntax
 
 ## Autorisierte Benutzertypen {#section-6234754722184e828352f10eb18fbce9}
@@ -34,21 +33,21 @@ Syntax
 
 ## Parameter {#section-2a9581315eca427d8a3d26cc3fca7b1f}
 
-**Input (getAssetCountsParam)**
+**Eingabe (getAssetCountsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle zur Firma mit den Elementen, die gezählt werden sollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit Assets, die gezählt werden sollen. |
 
-**Output (getAssetCountsReturn)**
+**Ausgabe (getAssetCountsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | Nein | Ein Array von Asset-Typen mit jeweils einem eigenen Zählfeld, das die Darstellung mehrerer Asset-Typen pro Element des Arrays ermöglicht. |
+| `*`countArray`*` | `types:AssetCountArray` | Nein | Ein Array von Asset-Typen mit jeweils einem eigenen Zählerfeld, sodass mehrere Asset-Typen pro Element des Arrays dargestellt werden können. |
 
 ## Beispiele {#section-6052a503eb3843f6adb99e200fdba280}
 
-Dieses Codebeispiel verwendet das Handle der Firma als Feld im Feld `getAssetCountsParam`, das an den IPS-Webdienstserver gesendet wird, um die Asset-Zählung abzurufen.
+In diesem Codebeispiel wird das Handle des Unternehmens als Feld im `getAssetCountsParam` verwendet, das an den IPS-Webdienstserver gesendet wird, um die Asset-Zählungen zu erhalten.
 
 **Anforderung**
 
@@ -74,4 +73,3 @@ Dieses Codebeispiel verwendet das Handle der Firma als Feld im Feld `getAssetCou
    </countArray>
 </getAssetCountsReturn>
 ```
-
