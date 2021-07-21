@@ -1,20 +1,19 @@
 ---
-description: Eigenschaften von Videokommentaren
+description: Eigenschaften von Videobeschriftungen
 title: VideoCaptionInfo
 feature: Dynamic Media Classic,SDK/API,Video
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '40'
+ht-degree: 15%
 
 ---
 
-
 # VideoCaptionInfo{#videocaptioninfo}
 
-Eigenschaften von Videokommentaren
+Eigenschaften von Videobeschriftungen
 
 ## Parameter {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 
@@ -44,4 +43,3 @@ Eigenschaften von Videokommentaren
   </tr> 
  </tbody> 
 </table>
-
