@@ -3,15 +3,14 @@ description: Schlüsselwörter
 solution: Experience Manager
 title: Schlüsselwörter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 31%
+source-wordcount: '46'
+ht-degree: 32%
 
 ---
-
 
 # Schlüsselwörter{#keywords}
 
@@ -24,7 +23,6 @@ Syntax
 | `*`keyword`*` | `xsd:string` | Suchbegriff. |
 | `*`status`*` | `xsd:boolean` | Gültigkeit des Suchbegriffs. |
 | `*`x`*` | `xsd:int` | Suchbegriffposition auf der X-Achse (in Pixel). |
-| `*`y`*` | `xsd:int` | Suchbegriffposition auf der Y-Achse (in Pixel). |
-| `*`width`*` | `xsd:int` | Suchbegriffbreite in Pixel. |
+| `*`y`*` | `xsd:int` | Suchbegriffposition auf der y-Achse (in Pixel). |
+| `*`width`*` | `xsd:int` | Suchbegriffsbreite in Pixel. |
 | `*`height`*` | `xsd:int` | Höhe des Suchbegriffs in Pixel. |
-
