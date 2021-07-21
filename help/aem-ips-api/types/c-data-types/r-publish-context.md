@@ -1,27 +1,26 @@
 ---
-description: Definiert eine Zielgruppe zum Veröffentlichen einer Firma.
+description: Definiert ein Veröffentlichungsziel für ein Unternehmen.
 solution: Experience Manager
 title: PublishContext
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 10%
 
 ---
 
-
 # PublishContext{#publishcontext}
 
-Definiert eine Zielgruppe zum Veröffentlichen einer Firma.
+Definiert ein Veröffentlichungsziel für ein Unternehmen.
 
 Syntax
 
 ## Parameter {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Bei Assets wird für jeden Veröffentlichungsstatus und -kontext eine separate Markierung beibehalten. Legen Sie den Veröffentlichungsstatus mit [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7) fest.
+In Assets wird für jeden Veröffentlichungsstatus und -kontext eine separate Markierung beibehalten. Legen Sie den Veröffentlichungsstatus mit [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7) fest.
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -35,7 +34,7 @@ Bei Assets wird für jeden Veröffentlichungsstatus und -kontext eine separate M
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Behandeln Sie den Veröffentlichungskontext. </td>
+   <td colname="col3"> Umgang mit dem Veröffentlichungskontext. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
