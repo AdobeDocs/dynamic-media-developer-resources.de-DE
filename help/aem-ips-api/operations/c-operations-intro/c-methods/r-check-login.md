@@ -1,25 +1,24 @@
 ---
-description: Überprüft, ob sich ein Benutzer mit einer bestimmten Firma (anhand von Handle identifiziert), E-Mail-Adresse und Kennwort anmelden kann.
+description: Prüft, ob sich ein Benutzer mit einem bestimmten Unternehmen (identifiziert durch Handle), einer E-Mail-Adresse und einem Kennwort anmelden kann.
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 12%
 
 ---
 
-
 # checkLogin{#checklogin}
 
-Überprüft, ob sich ein Benutzer mit einer bestimmten Firma (anhand von Handle identifiziert), E-Mail-Adresse und Kennwort anmelden kann.
+Prüft, ob sich ein Benutzer mit einem bestimmten Unternehmen (identifiziert durch Handle), einer E-Mail-Adresse und einem Kennwort anmelden kann.
 
 >[!NOTE]
 >
->Wenn der Firma-Handle weggelassen wird, prüft diese Methode die Anmeldung des Standardbenutzers.
+>Wenn das Handle des Unternehmens weggelassen wird, überprüft diese Methode die Anmeldung des Standardbenutzers.
 
 ## Autorisierte Benutzertypen {#section-df8b26b550854f899948276adaca083a}
 
@@ -35,15 +34,15 @@ ht-degree: 12%
 
 ## Parameter {#section-1ad4c0b4803b4388aedd655030676cb3}
 
-**Input (checkLoginParam)**
+**Eingabe (checkLoginParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Das Handle der Firma, in der sich der Benutzer befindet. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen, das den Benutzer enthält. |
 | `*`E-Mail`*` | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
 | `*`Passwort`*` | `xsd:string` | Ja | Das Kennwort des Benutzers. |
 
-**Output (checkLoginParam)**
+**Ausgabe (checkLoginParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -51,7 +50,7 @@ ht-degree: 12%
 
 ## Beispiele {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Dieser Beispielcode verwendet einen Firmen-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu ermitteln, ob sich ein Benutzer beim IPS anmelden kann. Wenn sich der Benutzer *can* anmeldet, gibt diese Methode die Zeichenfolge `ValidLogin` zurück. Wenn sich der Benutzer *nicht* anmelden kann, gibt diese Methode die Zeichenfolge `InvalidLogin` zurück.
+Dieser Beispielcode verwendet einen Unternehmens-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu bestimmen, ob sich ein Benutzer bei IPS anmelden kann. Wenn sich der Benutzer *can* anmeldet, gibt diese Methode die Zeichenfolge `ValidLogin` zurück. Wenn sich der Benutzer *nicht* anmelden kann, gibt diese Methode die Zeichenfolge `InvalidLogin` zurück.
 
 **Anforderung**
 
@@ -70,4 +69,3 @@ Dieser Beispielcode verwendet einen Firmen-Handle-Parameter, eine E-Mail-Adresse
    <ns1:status>InvalidLogin</ns1:status>
 </ns1:checkLoginReturn>
 ```
-
