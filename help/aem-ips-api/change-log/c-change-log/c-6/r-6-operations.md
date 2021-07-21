@@ -1,21 +1,20 @@
 ---
-description: Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 6.
+description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 6.
 solution: Experience Manager
 title: Vorgänge - Neu und geändert
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
 
-
 # Vorgänge: Neu und geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 6.
+Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 6.
 
 Syntax
 
@@ -28,7 +27,7 @@ Syntax
 * `updateAssetSet`
 * `updateImageSet`
 
-## Modifizierte Vorgänge {#section-f4e8755527444266ae806e3f4c851ae6}
+## Geänderte Vorgänge {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **Hinzugefügt**
 
@@ -84,8 +83,7 @@ Syntax
 
 **Entfernt**
 
-* `renameFiles` aus `renameAsset` entfernt.
+* `renameFiles` wurde aus `renameAsset` entfernt.
 
 * `getXMPPanelViewDefinition` entfernt.
 * `searchAssetsByFulltext` und `searchAssetsBySimilarity` entfernt.
-
