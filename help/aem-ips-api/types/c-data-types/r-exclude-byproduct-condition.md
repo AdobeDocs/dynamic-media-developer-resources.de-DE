@@ -1,21 +1,20 @@
 ---
-description: Bestimmt, welche Generation-Engine und welcher generierte Asset-Typ von den Suchergebnissen ausgeschlossen werden soll.
+description: Bestimmt, welche Generierungsmaschine und welcher generierte Asset-Typ aus den Suchergebnissen ausgeschlossen werden sollen.
 solution: Experience Manager
 title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
 
-
 # ExcludeByproductCondition{#excludebyproductcondition}
 
-Bestimmt, welche Generation-Engine und welcher generierte Asset-Typ von den Suchergebnissen ausgeschlossen werden soll.
+Bestimmt, welche Generierungsmaschine und welcher generierte Asset-Typ aus den Suchergebnissen ausgeschlossen werden sollen.
 
 Syntax
 
@@ -23,6 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Suchmaschine`*` | `xsd:string` | Die Generation-Engine, die Assets erstellt hat, die Sie ausschließen möchten. Werte finden Sie unter Generierungsinformationen. |
-| `*`generateAssetType`*` | `xsd:string` | Ausgeschlossener Asset-Typ. Werte finden Sie unter Asset-Typen. |
-
+| `*`Suchmaschine`*` | `xsd:string` | Die Generierungs-Engine, die Assets erstellt hat, die Sie ausschließen möchten. Werte finden Sie unter Generierungsinformationen . |
+| `*`generatedAssetType`*` | `xsd:string` | Ausgeschlossener Asset-Typ. Werte finden Sie unter Asset-Typen . |
