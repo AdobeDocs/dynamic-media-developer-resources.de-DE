@@ -3,15 +3,14 @@ description: Verschieben Sie einen Ordner an einen neuen Speicherort.
 solution: Experience Manager
 title: moveFolder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '65'
+ht-degree: 26%
 
 ---
-
 
 # moveFolder{#movefolder}
 
@@ -30,19 +29,19 @@ Syntax
 
 ## Parameter {#section-473c2e68bcc14a9ea2593bee26e679dd}
 
-**Input (moveFolderParam)**
+**Eingabe (moveFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Benutzen Sie die Firma. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
 | `*`folderHandle`*` | `xsd:string` | Ja | Ordner-Handle. |
-| `*`destFolderHandle`*` | `xsd:string` | Ja | Zum Zielordner gehen. |
+| `*`destFolderHandle`*` | `xsd:string` | Ja | Verarbeiten Sie den Zielordner. |
 
-**Output (moveFolderReturn)**
+**Ausgabe (moveFolderReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Wechseln Sie zum verschobenen Ordner. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Verarbeiten Sie den verschobenen Ordner. |
 
 ## Beispiele {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
@@ -63,4 +62,3 @@ Syntax
    <folderHandle>f|test/DestFolder/MoveTest/</folderHandle>
 </moveFolderReturn>
 ```
-
