@@ -1,21 +1,20 @@
 ---
-description: Entfernt einen Benutzer aus einer oder mehreren Firmen.
+description: Entfernt einen Benutzer aus einem oder mehreren Unternehmen.
 solution: Experience Manager
 title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 11%
 
 ---
 
-
 # removeCompanyMembership{#removecompanymembership}
 
-Entfernt einen Benutzer aus einer oder mehreren Firmen.
+Entfernt einen Benutzer aus einem oder mehreren Unternehmen.
 
 Syntax
 
@@ -28,20 +27,20 @@ Syntax
 
 ## Parameter {#section-6dfce5e44d8a4799afd0c231a0b10463}
 
-**Input (removeCompanyMembershipParam)**
+**Eingabe (removeCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | Nein | Das Handle für den Benutzer mit der Mitgliedschaft, die Sie entfernen möchten. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Ja | Der Griff zu der Firma, von der Sie den Benutzer entfernen. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Ja | Das Handle für das Unternehmen, aus dem Sie den Benutzer entfernen. |
 
-**Output (removeCompanyMembershipReturn)**
+**Ausgabe (removeCompanyMembershipReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Mit diesem Codebeispiel wird ein Benutzer aus einer Firma entfernt. Lassen Sie den optionalen Benutzerhandle weg, um alle Benutzer aus den im Firmen-Handle-Array angegebenen Firmen zu entfernen.
+Mit diesem Codebeispiel wird ein Benutzer aus einem Unternehmen entfernt. Lassen Sie den optionalen Benutzer-Handle weg, um alle Benutzer aus den im Handle-Array des Unternehmens angegebenen Unternehmen zu entfernen.
 
 **Anforderung**
 
