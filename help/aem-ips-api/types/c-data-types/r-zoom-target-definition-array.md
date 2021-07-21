@@ -3,15 +3,14 @@ description: ZoomTargetDefinitionArray
 solution: Experience Manager
 title: ZoomTargetDefinitionArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
-
 
 # ZoomTargetDefinitionArray{#zoomtargetdefinitionarray}
 
@@ -21,5 +20,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:ZoomTargetDefinition` | Ein Array mit Definitionen zur Zoom-Zielgruppe. |
-
+| `*`Elemente`*` | `types:ZoomTargetDefinition` | Ein Array von Zoom-Zieldefinitionen. |
