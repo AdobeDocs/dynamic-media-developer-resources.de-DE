@@ -1,21 +1,20 @@
 ---
-description: Gibt Koordinaten für die quadrilaterale Darstellung des benannten Photoshop-Pfads zurück.
+description: Gibt Koordinaten für das Quadrilaterale zurück, die den benannten Photoshop-Pfad einschließen.
 solution: Experience Manager
 title: getFotoshopPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 18%
 
 ---
 
-
 # getFotoshopPath{#getphotoshoppath}
 
-Gibt Koordinaten für die quadrilaterale Darstellung des benannten Photoshop-Pfads zurück.
+Gibt Koordinaten für das Quadrilaterale zurück, die den benannten Photoshop-Pfad einschließen.
 
 Syntax
 
@@ -32,19 +31,19 @@ Syntax
 
 ## Parameter {#section-ebffe496284c4ced9f329f78127be199}
 
-**Input (getFotoshopPathParam)**
+**Eingabe (getFotoshopPathParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie die Firma mit dem Bild, mit dem Sie arbeiten möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Behandeln Sie das Unternehmen mit dem Bild, mit dem Sie arbeiten möchten. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
 | `*`pathName`*` | `xsd:string` | Ja | Name des Photoshop-Pfads, den Sie zurückgeben möchten. |
 
-**Output (getFotoshopPathReturn)**
+**Ausgabe (getFotoshopPathReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | Ja | Gibt Bildkoordinaten basierend auf dem Pfad zurück. Siehe [PerectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| `*`spectiveQuad`*` | `types:PerspectiveQuad` | Ja | Gibt Bildkoordinaten basierend auf dem Pfad zurück. Siehe [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Beispiele {#section-1f0461cbdc184c8d8925336d5279db47}
 
@@ -77,5 +76,5 @@ Syntax
 
 >[!MORELIKETHIS]
 >
->* [PerectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
+>* [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
 
