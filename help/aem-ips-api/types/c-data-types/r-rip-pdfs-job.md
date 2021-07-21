@@ -1,25 +1,24 @@
 ---
-description: Ein Prozess, der ein vorhandenes PDF-Asset erneut extrahiert.
+description: Ein Prozess, der ein vorhandenes PDF-Asset erneut rippt.
 solution: Experience Manager
 title: RipPdfsJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
 
-
 # RipPdfsJob{#rippdfsjob}
 
-Ein Prozess, der ein vorhandenes PDF-Asset erneut extrahiert.
+Ein Prozess, der ein vorhandenes PDF-Asset erneut rippt.
 
 >[!NOTE]
 >
->Dieser Auftragstyp ist veraltet. Transition auf `ReprocessAssetsJob` für alle zukünftigen Integrationen.
+>Dieser Auftragstyp wird nicht mehr unterstützt. Übergang zu `ReprocessAssetsJob` für alle zukünftigen Integrationen.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -35,22 +34,22 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut extrahiert.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Handle mit dem Array der zu rippenden PDF-Dateien. </p> </td> 
+   <td colname="col3"> <p>Handle mit dem Array der zu extrahierenden PDF-Dateien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Legt fest, ob eine Maske erstellt werden soll. </p> </td> 
+   <td colname="col3"> <p>Bestimmt, ob Sie eine Maske erstellen möchten oder nicht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Manuelle Beschneidungsoptionen. </p> </td> 
+   <td colname="col3"> <p>Manuelles Zuschneiden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Automatische Beschneidungsoptionen. </p> </td> 
+   <td colname="col3"> <p>Automatische Zuschneideoptionen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
@@ -80,7 +79,7 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut extrahiert.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Ein Array von Projekthandles. </p> </td> 
+   <td colname="col3"> <p>Ein Array von Projekt-Handles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
@@ -95,27 +94,27 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut extrahiert.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Auftragsdetails, damit ein Image-Server-Veröffentlichungsauftrag nach Abschluss des Uploads ausgeführt werden kann. </p> </td> 
+   <td colname="col3"> <p>Auftragsdetails für einen Image Serving-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Auftragsdetails, damit ein Veröffentlichungsauftrag zum Rendern eines Bilds nach Abschluss des Uploads ausgeführt werden kann. </p> </td> 
+   <td colname="col3"> <p>Auftragsdetails für einen Veröffentlichungsauftrag zum Rendern von Bildern, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Auftragsdetails, damit ein Videoveröffentlichungsauftrag nach Abschluss des Uploads ausgeführt werden kann. </p> </td> 
+   <td colname="col3"> <p>Auftragsdetails für einen Video-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Optionen zum Hochladen von Adobe InDesign-Dateien auf den Image-Server. </p> </td> 
+   <td colname="col3"> <p>Optionen zum Hochladen von Adobe InDesign-Dateien auf den Bildserver. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maskiert den Hintergrund für ausgewählte Bilder. Dadurch können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. </p> <p>Optional. </p> <p>Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Maskieren Sie den Hintergrund für ausgewählte Bilder. Auf diese Weise können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. </p> <p>Optional. </p> <p>Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,4 +132,3 @@ Zu den Optionen für `*PublishJob` gehören:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postVideoPublishJob`
-
