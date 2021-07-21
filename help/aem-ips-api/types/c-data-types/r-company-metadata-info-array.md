@@ -1,21 +1,20 @@
 ---
-description: Ein Array von CompanyMetadataInfo-Elementen.
+description: Ein Array von CompanyMetadataInfo -Elementen.
 solution: Experience Manager
 title: CompanyMetadataInfoArray
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 424a2f52-9cc2-46d6-817b-6ea64f46a229
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-
 # CompanyMetadataInfoArray{#companymetadatainfoarray}
 
-Ein Array von CompanyMetadataInfo-Elementen.
+Ein Array von CompanyMetadataInfo -Elementen.
 
 Syntax
 
@@ -23,6 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Codebegriff`*` | `Code Phrase` |  |
-| `*`Codebegriff`*` | `Code Phrase` |  |
-
+| `*`Codeausdruck`*` | `Code Phrase` |  |
+| `*`Codeausdruck`*` | `Code Phrase` |  |
