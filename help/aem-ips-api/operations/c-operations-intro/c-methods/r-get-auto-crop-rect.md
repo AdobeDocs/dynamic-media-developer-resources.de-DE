@@ -3,15 +3,14 @@ description: Gibt einen beschnittenen Bereich für ein Bild basierend auf seiner
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 14%
 
 ---
-
 
 # getAutoCropRect{#getautocroprect}
 
@@ -31,7 +30,7 @@ Syntax
 
 ## Parameter {#section-965d5973b8344d43a74b3e07cf0b7eb3}
 
-**Input (getAutoCropRectParam)**
+**Eingabe (getAutoCropRectParam)**
 
 >[!NOTE]
 >
@@ -39,19 +38,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit dem Asset, mit dem Sie arbeiten möchten. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle des Assets, mit dem Sie arbeiten möchten. |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Nein | Beschneidungsrechteck anhand der Farbe berechnen. Siehe [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Nein | Beschneidungsrechteck basierend auf Transparenz berechnen. Siehe [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset, mit dem Sie arbeiten möchten. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Der Handle für das Asset, mit dem Sie arbeiten möchten. |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Nein | Berechnen Sie das Zuschnittrechteck anhand der Farbe. Siehe [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Nein | Berechnen Sie das Zuschnittrechteck auf Grundlage der Transparenz. Siehe [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
-**Output (getAutoCropRectReturn)**
+**Ausgabe (getAutoCropRectReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`xOffset`*` | `xsd:int` | Ja | Die Koordinate der linken Startpixel des berechneten Beschneidungsbereichs. |
-| `*`yOffset`*` | `xsd:int` | Ja | Die Koordinate des ersten Pixels des berechneten Zuschnitts. |
-| `*`width`*` | `xsd:int` | Ja | Breite des berechneten Zuschnitts (in Pixel). |
-| `*`height`*` | `xsd:int` | Ja | Höhe des berechneten Zuschnitts (in Pixel). |
+| `*`xOffset`*` | `xsd:int` | Ja | Die Koordinaten der linken Startpixel des berechneten Zuschnittbereichs. |
+| `*`yOffset`*` | `xsd:int` | Ja | Die anfängliche obere Pixelkoordinate des berechneten Zuschnittbereichs. |
+| `*`width`*` | `xsd:int` | Ja | Breite des berechneten Zuschnittbereichs (in Pixel). |
+| `*`height`*` | `xsd:int` | Ja | Höhe des berechneten Zuschnittbereichs (in Pixel). |
 
 ## Beispiele {#section-ba65bd66086d491cad1cea535954ee1f}
 
@@ -82,5 +81,5 @@ Syntax
 >[!MORELIKETHIS]
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
