@@ -1,29 +1,28 @@
 ---
-description: Erstellt ein neues Asset, das von einem vorhandenen primären Quellbild-Asset abgeleitet ist.
+description: Erstellt ein neues Asset, das von einem vorhandenen Bild-Asset aus der Primärquelle abgeleitet wurde.
 solution: Experience Manager
-title: createDerivedAsset
+title: createabgeleiteteAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 8%
 
 ---
 
+# createabgeleiteteAsset{#createderivedasset}
 
-# createDerivedAsset{#createderivedasset}
-
-Erstellt ein neues Asset, das von einem vorhandenen primären Quellbild-Asset abgeleitet ist.
+Erstellt ein neues Asset, das von einem vorhandenen Bild-Asset aus der Primärquelle abgeleitet wurde.
 
 Syntax
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Abgeleitete Assets geben Befehle zum Image-Server-Protokoll an, mit denen die Darstellung des Eigentümerbilds geändert wird. Der abgeleitete Typ `AdjustedView` unterstützt das Anwenden einfacher Änderungen auf ein einzelnes Bild (z. B. durch Angabe eines Zuschnittrahmens), während `LayerView` beim Erstellen einer mehrschichtigen Ansicht hilft, die Text oder zusätzliche Bilder enthalten kann.
+Abgeleitete Assets geben Image Server-Protokollbefehle an, mit denen die Darstellung des Eigentümerbilds geändert wird. Der abgeleitete Typ `AdjustedView` hilft beim Anwenden einfacher Änderungen an einem einzelnen Bild (z. B. durch Angabe eines Zuschnittrechtecks), während der Typ `LayerView` bei der Erstellung einer Mehrschichtansicht hilft, die Text oder zusätzliche Bilder enthalten kann.
 
-Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)) wird ein abgeleitetes Bild mit dem Bild des Eigentümers verknüpft. Durch Änderungen am Bild des Eigentümers werden verknüpfte abgeleitete Assets geändert. Wenn Sie das Eigentümerbild löschen, werden alle zugehörigen abgeleiteten Bilder gelöscht.
+Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)) wird ein abgeleitetes Bild mit seinem Eigentümerbild verknüpft. Änderungen am Bild des Eigentümers ändern verknüpfte abgeleitete Assets. Wenn Sie das Bild des Eigentümers löschen, werden alle zugehörigen abgeleiteten Bilder gelöscht.
 
 ## Autorisierte Benutzertypen {#authorized-user-types}
 
@@ -36,23 +35,23 @@ Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operati
 
 ## Parameter {#section-5a0dde01cff6454da3646ea805c2be1e}
 
-**Input (createDerivedAssetParam)**
+**Eingabe (createabgeleitedAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für die Firma, die das Asset enthält, von dem Sie das neue Asset ableiten werden. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, das das Asset enthält, von dem Sie das neue Asset ableiten. |
 | `*`ownerHandle`*` | `xsd:string` | Ja | Das Handle zum primären Bild-Asset, von dem das neue Bild abgeleitet wird. |
 | `*`folderHandle`*` | `xsd:string` | Ja | Das Handle für den Ordner, in dem das neue abgeleitete Asset erstellt wird. |
 | `*`name`*` | `xsd:string` | Ja | Der Name des abgeleiteten Assets. |
 | `*`type`*` | `xsd:string` | Ja | Der Asset-Typ des neuen abgeleiteten Assets: `AdjustedView` oder `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle wurden mit *vor* der Anforderung oder mit `urlPostApplyModifier` Befehlen angewendet. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Für die Befehle zum Image Serving oder Image Rendering wurde *after* auf die Anforderung oder `urlPostApplyModifier`-Befehle angewendet. |
+| `*`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle wurden *vor* der Anforderung oder den Befehlen `urlPostApplyModifier` angewendet. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die *nach* auf die Anforderung oder `urlPostApplyModifier`-Befehle angewendet werden. |
 
-**Output (createDerivedAssetParam)**
+**Ausgabe (createabgeleitedAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für den abgeleiteten Asset. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das abgeleitete Asset. |
 
 ## Beispiele {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
@@ -79,4 +78,3 @@ Der Beispielcode erstellt ein abgeleitetes Asset mit einer angepassten Ansicht u
    <assetHandle>a|944|10|2</assetHandle>
 </createDerivedAssetReturn>
 ```
-
