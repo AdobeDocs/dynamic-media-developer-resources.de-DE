@@ -3,15 +3,14 @@ description: Aktualisiert Tag-Wörterbuchwerte für ein Tag-Feld.
 solution: Experience Manager
 title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6de49217-2d15-49d9-9357-b058b2564686
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 12%
 
 ---
-
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
@@ -27,7 +26,7 @@ Syntax
 
 ## Parameter {#section-0a3a4bab026746238c9d4009caf42e94}
 
-**Input (updateTagFieldValuesParam)**
+**Eingabe (updateTagFieldValuesParam)**
 
 <table id="table_15F354FBC043464080BC975AE35E03A4"> 
  <thead> 
@@ -43,32 +42,32 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Firma Handle. </td> 
+   <td colname="col4"> Handle des Unternehmens. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Tag-Feldgriff. </td> 
+   <td colname="col4"> Tag-Feld-Handle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Array von Tag-Feldwerten, die Sie aktualisieren möchten. <p>Hinweis:  Aktualisiert nur die Tag-Zeichenfolgenwerte. Die Asset-Zuordnung wird nicht beeinflusst. </p> </td> 
+   <td colname="col4">Array von Tag-Feldwerten, die Sie aktualisieren möchten. <p>Hinweis:  Aktualisiert nur Tag-Zeichenfolgenwerte. Die Asset-Zuordnungen sind davon nicht betroffen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (updateTagFieldValuesReturn)**
+**Ausgabe (updateTagFieldValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Tag-Felder. |
-| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Tag-Felder zu aktualisieren. |
-| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Tag-Felder zu aktualisieren. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, Tag-Felder zu aktualisieren. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die bei dem Versuch erzeugt wurden, Tag-Felder zu aktualisieren. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
 
 ## Beispiele {#section-bb4dcf97044c4675974c9b8d27674001}
 
@@ -120,4 +119,3 @@ Syntax
    </errorDetailArray>
 </updateTagFieldValuesReturn>
 ```
-
