@@ -3,15 +3,14 @@ description: PostScript-Dateioptionen.
 solution: Experience Manager
 title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fd2093b5-9856-4f31-8853-1027194a71df
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
-
 
 # PostScriptOptions{#postscriptoptions}
 
@@ -23,9 +22,8 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`verarbeiten`*` | `xsd:string` | PostScript-Prozessauswahl. |
+| `*`verarbeiten`*` | `xsd:string` | Auswahl des PostScript-Prozesses. |
 | `*`resolution`*` | `xsd:double` | Dateiauflösung. |
 | `*`Farbraum`*` | `xsd:string` | PostScript-Farbraummodus. |
-| `*`alpha`*` | `xsd:boolean` | Gibt an, ob die Datei in ein Bild gerastert werden soll. Ist dies der Fall, wird ein transparenter Hintergrund erstellt, wenn die Originaldatei auf diese Weise definiert ist. Wird im Allgemeinen zum Erstellen von Überlagerungslogos verwendet. |
-| `*`extractSearchWords`*` | `xsd:boolean` | Gibt an, ob Suchbegriffe aus der PostScript-Datei extrahiert werden sollen. |
-
+| `*`alpha`*` | `xsd:boolean` | Ob die Datei in ein Bild gerastert werden soll. Wenn dies der Fall ist, wird ein transparenter Hintergrund erstellt, wenn die Originaldatei auf diese Weise definiert ist. Wird im Allgemeinen verwendet, um überlagernde Logos zu erstellen. |
+| `*`extractSearchWords`*` | `xsd:boolean` | Ob Suchbegriffe aus der PostScript-Datei extrahiert werden sollen. |
