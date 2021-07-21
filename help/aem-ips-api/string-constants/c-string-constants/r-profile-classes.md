@@ -1,19 +1,18 @@
 ---
 description: Wird von IccProfileFieldUpdate/class verwendet.
 solution: Experience Manager
-title: Profil-Klassen
+title: Profilklassen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 9c6b59a2-bf26-4032-a963-d29268d0a0f8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
 
-
-# Profil-Klassen{#profile-classes}
+# Profilklassen{#profile-classes}
 
 Wird von IccProfileFieldUpdate/class verwendet.
 
@@ -28,4 +27,3 @@ Syntax
 * [!DNL `ColorSpaceConversion`]
 * [!DNL `Abstract`]
 * [!DNL `NamedColor`]
-
