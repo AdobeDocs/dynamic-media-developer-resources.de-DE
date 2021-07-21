@@ -1,21 +1,20 @@
 ---
-description: Konfigurationseinstellungen für Firmen.
+description: Unternehmenspezifische Konfigurationseinstellungen.
 solution: Experience Manager
 title: CompanySettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
 
-
 # CompanySettings{#companysettings}
 
-Konfigurationseinstellungen für Firmen.
+Unternehmenspezifische Konfigurationseinstellungen.
 
 Syntax
 
@@ -23,13 +22,12 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`overwriteMode`*` | `xsd:string` | Legt fest, ob Bilder im aktuellen Ordner mit demselben Namen und derselben Erweiterung des Basisbilds überschrieben werden sollen. |
-| `*`preservePublishState`*` | `xsd:boolean` | Gibt an, ob bei einem in IPS hochgeladenen Ersatzbild die vorhandene Einstellung &quot;Veröffentlichungsbereit&quot;beibehalten werden soll oder ob es den Vorgaben des Uploads entsprechen soll. |
-| `*`defaultSourceProfile`*` | `types:Asset` | Gibt das Standard-Profil für die Quellfarbe (Coated FOGRA27 (ISO 126472:2004)) an, das beim Hinzufügen von CMYK-Bilddateien automatisch als Teil des &quot;Use default Color Behavior&quot;angewendet wird. |
-| `*`defaultDisplayProfile`*` | `types:Asset` | Gibt das standardmäßige interne Farbschema (U.S. Web Coated (SWOP) v2) an, das beim Hinzufügen von CMYK-Bilddateien automatisch als Teil des Profils &quot;Use default Color Behavior&quot;angewendet wird. |
-| `*`iptcExifMappingXslt`*` | `types:Asset` | Die Extraktion von IPTC- und EXIF-Bildkopfzeilendaten in IPS erfordert eine Konvertierung von internen Feldnamen in benutzerdefinierte Feldnamen für die Firma. Bestimmt eine XSL-Translationstabelle (Standard ist &quot;Keine IPTC- oder EXIF-Felder extrahieren&quot;) für hochgeladene Bilder. |
-| `*`xmpMappingXslt`*` | `types:Asset` | Die Extraktion XMP Bildkopfzeilendaten in IPS erfordert eine Konvertierung von internen Feldnamen in benutzerdefinierte Feldnamen für die Firma. Bestimmt eine XSL-Translationstabelle (Standard ist &quot;Keine XMP Felder extrahieren&quot;) für hochgeladene Bilder. |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | Minimaler freier Speicherplatz im Bildverzeichnis, bevor eine Warnung gesendet wird. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Legt fest, ob E-Mails gesendet werden sollen, bevor Elemente, die in den Papierkorb gelegt werden, automatisch gelöscht werden können. |
-| `*`javascriptUploadEnabled`*` | `types:Asset` | Legt fest, ob JavaScript-Dateien hochgeladen werden sollen. Dies ist ein potenzielles Sicherheitsrisiko, also nutzen Sie diese Option mit Vorsicht. |
-
+| `*`overwriteMode`*` | `xsd:string` | Bestimmt, ob Bilder im aktuellen Ordner mit demselben Basisbildnamen und derselben Erweiterung überschrieben werden. |
+| `*`keepPublishState`*` | `xsd:boolean` | Gibt an, ob bei einem in IPS hochgeladenen Ersatzbild die vorhandene Einstellung &quot;Veröffentlichungsbereit&quot;beibehalten werden soll oder ob es gemäß den Vorgaben des Uploads sein soll. |
+| `*`defaultSourceProfile`*` | `types:Asset` | Gibt das standardmäßige Quellfarbprofil (Coated FOGRA27 (ISO 126472:2004) an, das beim Hinzufügen von CMYK-Bilddateien automatisch als Teil von &quot;Use default Color Behavior&quot;angewendet wird. |
+| `*`defaultDisplayProfile`*` | `types:Asset` | Gibt das standardmäßige interne Farbprofil (U.S. Web Coated (SWOP) v2) an, das automatisch als Teil des &quot;Use default Color Behavior&quot;angewendet wird, wenn CMYK-Bilddateien hinzugefügt werden. |
+| `*`iptcExifMappingXslt`*` | `types:Asset` | Die Extraktion von IPTC- und EXIF-Bildkopfzeilendaten in IPS erfordert eine Konvertierung von internen Feldnamen in benutzerdefinierte Feldnamen für das Unternehmen. Bestimmt eine XSL-Übersetzungstabelle (standardmäßig &quot;Keine IPTC- oder EXIF-Felder extrahieren&quot;) für hochgeladene Bilder. |
+| `*`xmpMappingXslt`*` | `types:Asset` | Die Extraktion XMP Bildkopfzeilendaten in IPS erfordert eine Konvertierung von internen Feldnamen in benutzerdefinierte Feldnamen für das Unternehmen. Bestimmt eine XSL-Übersetzungstabelle (standardmäßig &quot;XMP Felder nicht extrahieren&quot;) für hochgeladene Bilder. |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | Mindestens freier Speicherplatz im Bildverzeichnis, bevor ein Warnhinweis gesendet wird. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Bestimmt, ob E-Mails gesendet werden sollen, bevor im Papierkorb platzierte Elemente automatisch gelöscht werden können. |
+| `*`javascriptUploadEnabled`*` | `types:Asset` | Bestimmt, ob JavaScript-Dateien hochgeladen werden. Dies ist ein potenzielles Sicherheitsrisiko. Verwenden Sie daher diese Option mit Vorsicht. |
