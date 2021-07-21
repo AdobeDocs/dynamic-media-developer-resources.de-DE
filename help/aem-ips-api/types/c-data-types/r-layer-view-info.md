@@ -1,21 +1,20 @@
 ---
-description: Eigenschaften der Ansicht der Ebene.
+description: Eigenschaften der Ebenenansicht.
 solution: Experience Manager
 title: LayerViewInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 25199c86-1df0-41af-b210-e7668a60295e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 11%
 
 ---
 
-
 # LayerViewInfo{#layerviewinfo}
 
-Eigenschaften der Ansicht der Ebene.
+Eigenschaften der Ebenenansicht.
 
 Syntax
 
@@ -23,7 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`url`*` | `xsd:string` | Image-Server-URL, die die Vorlage darstellt. Kombiniert die Felder `urlModifier` und `urlPostAp- plyModifier`. |
-| `*`urlModifier`*` | `xsd:string` | Image Serving-Protokollbefehle, die vor der Anforderung oder den Befehlen `urlPostApplyModifier` angewendet werden sollen. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Image Serving-Protokollbefehle, die nach `urlModifier` angewendet werden, und Anforderungsbefehle. |
-
+| `*`url`*` | `xsd:string` | Bildserver-URL, die die Vorlage darstellt. Kombiniert die Felder `urlModifier` und `urlPostAp- plyModifier` . |
+| `*`urlModifier`*` | `xsd:string` | Image Serving-Protokollbefehle, die vor der Anfrage angewendet werden, oder `urlPostApplyModifier`-Befehle. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Image Serving-Protokollbefehle, die nach `urlModifier` angewendet werden und Befehle anfordern. |
