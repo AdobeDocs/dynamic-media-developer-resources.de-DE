@@ -1,21 +1,20 @@
 ---
-description: Definition der Zoom-Zielgruppe.
+description: Definition des Zoomziels.
 solution: Experience Manager
 title: ZoomTargetDefinition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
 
-
 # ZoomTargetDefinition{#zoomtargetdefinition}
 
-Definition der Zoom-Zielgruppe.
+Definition des Zoomziels.
 
 Syntax
 
@@ -24,9 +23,8 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`name`*` | `xsd:string` | Target name. |
-| `*`xPosition`*` | `xsd:int` | Die X-Position der Zoom-Zielgruppe. |
-| `*`yPosition`*` | `xsd:int` | Die Y-Position der Zoom-Zielgruppe. |
-| `*`width`*` | `xsd:int` | Breite der Zoom-Zielgruppe. |
-| `*`height`*` | `xsd:int` | Höhe der Zoom-Zielgruppe. |
-| `*`Benutzerdaten`*` | `xsd:string` | Zugeordnete Benutzerdaten. |
-
+| `*`xPosition`*` | `xsd:int` | Die X-Position des Zoomziels. |
+| `*`yPosition`*` | `xsd:int` | Die Y-Position des Zoomziels. |
+| `*`width`*` | `xsd:int` | Zoom der Zielbreite |
+| `*`height`*` | `xsd:int` | Zoom der Zielhöhe |
+| `*`Benutzerdaten`*` | `xsd:string` | Zugehörige Benutzerdaten. |
