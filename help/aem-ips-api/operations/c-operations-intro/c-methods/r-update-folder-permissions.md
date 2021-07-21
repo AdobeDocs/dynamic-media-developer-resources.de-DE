@@ -3,15 +3,14 @@ description: Aktualisieren Sie die Ordnerberechtigungen.
 solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
-
 
 # updateFolderPermissions{#updatefolderpermissions}
 
@@ -27,16 +26,16 @@ Syntax
 
 ## Parameter {#section-339e6e17c5504e1ea79fbdc05f618050}
 
-**Input (updateFolderPermissionsParam)**
+**Eingabe (updateFolderPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
 | `*`folderHandle`*` | `xsd:string` | Ja | Ordner-Handle. |
-| `*`updateChildren`*` | `xsd:boolean` | Ja | Legt fest, ob untergeordnete Elemente mit für den Ordner der obersten Ebene festgelegten Berechtigungen aktualisiert werden sollen. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Ja | Das Array der Berechtigungsaktualisierungen, die Sie auf den Ordner anwenden möchten. |
+| `*`updateChildren`*` | `xsd:boolean` | Ja | Bestimmt, ob untergeordnete Elemente mit für den Ordner der obersten Ebene festgelegten Berechtigungen aktualisiert werden. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | Ja | Das Array der Berechtigungen, die Sie auf den Ordner anwenden möchten. |
 
-**Output (updateFolderPermissionsReturn)**
+**Ausgabe (updateFolderPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
