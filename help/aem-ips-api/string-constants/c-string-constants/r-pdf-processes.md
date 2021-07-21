@@ -3,15 +3,14 @@ description: Wird von PDFOptions/type verwendet.
 solution: Experience Manager
 title: PDF-Prozesse
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4b389448-8611-4306-921a-bb1dd9361932
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
-
 
 # PDF-Prozesse{#pdf-processes}
 
@@ -24,4 +23,3 @@ Syntax
 * [!DNL `None`]
 * [!DNL `Rasterize`]
 * [!DNL `Thumbnail`]
-
