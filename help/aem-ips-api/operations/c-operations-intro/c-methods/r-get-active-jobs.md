@@ -3,15 +3,14 @@ description: Ruft alle derzeit aktiven Aufträge ab.
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 15%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
-
 
 # getActiveJobs{#getactivejobs}
 
@@ -32,15 +31,15 @@ Syntax
 
 ## Parameter {#section-29018fba6bf34c1e80dcd479dd24f3b5}
 
-**Input (getActiveJobsParam)**
+**Eingabe (getActiveJobsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Griff zur Firma. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen. |
 | `*`jobHandle`*` | `xsd:string` | Nein | Der Griff zum Auftrag. |
 | `*`originalName`*` | `xsd:string` | Nein | Ursprünglicher Auftragsname. |
 
-**Output (getActiveJobsReturn)**
+**Ausgabe (getActiveJobsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -48,7 +47,7 @@ Syntax
 
 ## Beispiele {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Dieses Codebeispiel gibt alle aktiven Aufträge einer Firma zurück, die in IPS ausgeführt wird. In diesem Fall ist die Antwort ungewöhnlich, da der IPS-Planungskoordinator deaktiviert ist und keine aktiven Aufträge ausgeführt werden. Unter normalen Umständen würde die Antwort eine Reihe aktiver Aufträge zurückgeben.
+Dieses Codebeispiel gibt alle aktiven Aufträge eines Unternehmens zurück, das in IPS ausgeführt wird. In diesem Fall ist die Antwort ungewöhnlich, da der IPS-Planungs-Koordinator deaktiviert ist, ohne dass aktive Aufträge ausgeführt werden. Unter normalen Umständen würde die Antwort eine Reihe aktiver Aufträge zurückgeben.
 
 **Anforderung**
 
@@ -65,4 +64,3 @@ Dieses Codebeispiel gibt alle aktiven Aufträge einer Firma zurück, die in IPS 
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-
