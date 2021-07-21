@@ -3,15 +3,14 @@ description: Startet einen angehaltenen Auftrag neu.
 solution: Experience Manager
 title: resumeJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 16%
 
 ---
-
 
 # resumeJob{#resumejob}
 
@@ -36,10 +35,10 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit dem Auftrag, den Sie neu starten möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Auftrag, den Sie neu starten möchten. |
 | `*`jobHandle`*` | `xsd:string` | Ja | Der Griff zum angehaltenen Auftrag. |
 
-**Output (resumeJobReturn)**
+**Ausgabe (resumeJobReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
