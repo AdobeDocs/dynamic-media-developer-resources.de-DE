@@ -2,16 +2,15 @@
 description: Ein Metadatenfeld, das von searchAssets zurückgegeben wird.
 solution: Experience Manager
 title: Metadaten
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 13%
+source-wordcount: '63'
+ht-degree: 14%
 
 ---
-
 
 # Metadaten{#metadata}
 
@@ -26,7 +25,6 @@ Syntax
 | `*`name`*` | `xsd:string` | Metadatenname. |
 | `*`Wert`*` | `xsd:string` | Metadatenwert. |
 | `*`boolVal`*` | `xsd:boolean` | Boolescher Metadatenwert (nur für boolesche Felder). |
-| `*`longVal`*` | `xsd:long` | Wert für lange Metadaten (nur für Felder mit int-Typ). |
-| `*`doubleVal`*` | `xsd:double` | Metadatenwert der Dublette (nur für Felder mit Fließkomma-Typ). |
-| `*`dateVal`*` | `xsd:dateTime` | Datumsmetadatenwert (nur für datentypisierte Felder). |
-
+| `*`longVal`*` | `xsd:long` | Lange Metadatenwerte (nur für int-typisierte Felder). |
+| `*`doubleVal`*` | `xsd:double` | Doppelter Metadatenwert (nur für Felder mit Fließtext). |
+| `*`dateVal`*` | `xsd:dateTime` | Datum-Metadatenwert (nur für Felder mit Datentyp ). |
