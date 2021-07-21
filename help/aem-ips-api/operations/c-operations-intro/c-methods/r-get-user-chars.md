@@ -3,15 +3,14 @@ description: Ruft eine Liste der in einem bestimmten Feld verwendeten Zeichen ab
 solution: Experience Manager
 title: getUserChars
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 11%
 
 ---
-
 
 # getUserChars{#getuserchars}
 
@@ -28,19 +27,19 @@ Syntax
 
 ## Parameter {#section-93107d87f1b24fc8ad276dfee5e30b63}
 
-**Input (getUserCharsParam)**
+**Eingabe (getUserCharsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Ja | Legt den Papierkorbsstatus fest, nach dem gesucht werden soll. |
-| `*`includeInactive`*` | `xsd:boolean` | Ja | Inaktive Benutzer ein- oder ausschließen. Nicht-IPS-Administratoren müssen Mitglied von mindestens einer Firma sein, um für alle API-Aufrufe autorisiert zu sein. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer über keine aktive Firma verfügt. |
-| `*`includeInvalid`*` | `xsd:boolean` | Nein | Schließen Sie ungültige Benutzer ein oder aus. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Firma. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Die Ergebnisse der Filter basieren auf Gruppen. |
-| `*`userRoleArray`*` | `types:StringArray` | Nein | Filter werden basierend auf der Benutzerrolle angezeigt. |
+| `*`charField`*` | `xsd:string` | Ja | Bestimmt den Papierkorbsstatus, nach dem gesucht werden soll. |
+| `*`includeInactive`*` | `xsd:boolean` | Ja | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
+| `*`includeInvalid`*` | `xsd:boolean` | Nein | Ungültige Benutzer ein- oder ausschließen. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Unternehmen. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Filtert Ergebnisse basierend auf Gruppen. |
+| `*`userRoleArray`*` | `types:StringArray` | Nein | Filtert Ergebnisse basierend auf der Benutzerrolle. |
 | `*`numChars`*` | `xsd:int` | Nein | Aktivieren Sie >1 Zeichen. |
 
-**Output (getUserCharsReturn)**
+**Ausgabe (getUserCharsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -48,13 +47,13 @@ Syntax
 
 ## Beispiele {#section-3702f165e8b041139a6144f4a76ca25f}
 
-Dieses Codebeispiel gibt Folgendes zurück:
+Dieses Codebeispiel gibt zurück:
 
-* Erste Zeichen der Nachnamen der Benutzer einer bestimmten Firma.
+* Die ersten Zeichen der Nachnamen der Benutzer eines bestimmten Unternehmens.
 * Eine Gruppe von Gruppen.
-* Ein Satz von Benutzerrollen.
+* Eine Reihe von Benutzerrollen.
 
-Die Zeichenfolgen-Konstante &quot;Benutzerzeichenfilter-Felder&quot;bestimmt den Typ der zurückgegebenen Benutzerzeichen.
+Die String-Konstante Benutzerzeichenfilter Felder bestimmt den Typ der zurückgegebenen Benutzerzeichen.
 
 **Anforderung**
 
@@ -79,4 +78,3 @@ Die Zeichenfolgen-Konstante &quot;Benutzerzeichenfilter-Felder&quot;bestimmt den
    </userCharsArray>
 </getUserCharsReturn>
 ```
-
