@@ -1,19 +1,18 @@
 ---
-description: Vorgangsparameter
+description: Aktionsparameter
 solution: Experience Manager
-title: Vorgangsparameter
+title: Aktionsparameter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
 
-
-# Vorgangsparameter{#operation-parameters}
+# Aktionsparameter{#operation-parameters}
 
 * [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
@@ -33,7 +32,7 @@ ht-degree: 0%
 * [checkLogin](r-check-login.md)
 * [copyImage](r-copy-image.md)
 * [createAssetSet](r-create-asset-set.md)
-* [createDerivedAsset](r-create-derived-asset.md)
+* [createabgeleiteteAsset](r-create-derived-asset.md)
 * [createFolder](r-create-folder.md)
 * [createImageSet](r-create-image-set.md)
 * [createMetadataField](r-create-metadata-field.md)
