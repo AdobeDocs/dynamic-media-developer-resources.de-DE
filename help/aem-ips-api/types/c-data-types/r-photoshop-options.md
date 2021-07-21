@@ -3,15 +3,14 @@ description: Optionen für Photoshop-Bilder.
 solution: Experience Manager
 title: FotoshopOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0ad8e002-4fbd-442f-84ba-89cc551ec3de
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
-
 
 # FotoshopOptions{#photoshopoptions}
 
@@ -36,7 +35,7 @@ Syntax
    <td colname="col3"> Array von Photoshop-Ebenenoptionen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> process</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Prozess</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Photoshop-Prozessoptionen: 
     <ul id="ul_DD292274043F4A5ABBBB9DB5C2D46681"> 
@@ -46,4 +45,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
