@@ -3,15 +3,14 @@ description: Eigenschaften einer Word-Datei.
 solution: Experience Manager
 title: WordInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 21%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
-
 
 # WordInfo{#wordinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Dateipfad. |
 | `*`originalFile`*` | `xsd:string` | Dateiname. |
 | `*`fileSize`*` | `xsd:int` | Dateigröße. |
-
