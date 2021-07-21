@@ -3,15 +3,14 @@ description: Wird von Illustrator/Prozessen verwendet.
 solution: Experience Manager
 title: Illustrator-Prozesse
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 42520442-07cc-4a26-9e93-a22337cbcb4b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
-
 
 # Illustrator-Prozesse{#illustrator-processes}
 
@@ -23,4 +22,3 @@ Syntax
 
 * [!DNL `None`]
 * [!DNL `Rasterize`]
-
