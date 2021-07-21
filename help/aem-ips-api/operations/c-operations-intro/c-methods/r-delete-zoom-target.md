@@ -1,21 +1,20 @@
 ---
-description: Löscht eine Zoom-Zielgruppe.
+description: Löscht ein Zoomziel.
 solution: Experience Manager
 title: deleteZoomTarget
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 12%
 
 ---
 
-
 # deleteZoomTarget{#deletezoomtarget}
 
-Löscht eine Zoom-Zielgruppe.
+Löscht ein Zoomziel.
 
 ## Autorisierte Benutzertypen {#section-09ca82bc817e49048271c5cba545702e}
 
@@ -36,16 +35,16 @@ Löscht eine Zoom-Zielgruppe.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zu der Firma, zu der die Zoom-Zielgruppe gehört. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Der Griff zur zu löschenden Zoom-Zielgruppe. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Zoomziel gehört. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Der Handle zum zu löschenden Zoomziel. |
 
-**Output (deleteZoomTargetParam)**
+**Ausgabe (deleteZoomTargetParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiel {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-Dieses Codebeispiel löscht eine Zoom-Zielgruppe aus einer Firma.
+Mit diesem Codebeispiel wird ein Zoomziel aus einem Unternehmen gelöscht.
 
 **Anforderung**
 
