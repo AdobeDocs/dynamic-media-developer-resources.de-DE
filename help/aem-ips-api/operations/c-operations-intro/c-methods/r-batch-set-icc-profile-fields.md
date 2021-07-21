@@ -1,21 +1,20 @@
 ---
-description: Legt ICC-Profil-Metadatenfelder fest.
+description: Legt Metadatenfelder für ICC-Profile fest.
 solution: Experience Manager
 title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 13%
+source-wordcount: '142'
+ht-degree: 14%
 
 ---
 
-
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
-Legt ICC-Profil-Metadatenfelder fest.
+Legt Metadatenfelder für ICC-Profile fest.
 
 Syntax
 
@@ -30,22 +29,22 @@ Syntax
 
 ## Parameter {#section-75a02b55ae0d444ca26b59aac6e86d6f}
 
-**Input (batchSetIccProfileFields)**
+**Eingabe (batchSetIccProfileFields)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Nehmen Sie Kontakt zu der Firma auf, in der sich die ICC-Profil befinden. |
-| `*`Aktualisierungsarray`*` | `xsd:string` | Ja | Array von ICC-Profil-Updates. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle an das Unternehmen, das die ICC-Profile enthält. |
+| `*`Array aktualisieren`*` | `xsd:string` | Ja | Array von ICC-Profilaktualisierungen. |
 
-**Output (batchSetIccProfileFields)**
+**Ausgabe (batchSetIccProfileFields)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten ICC-Profil-Felder. |
-| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, die ICC-Profil-Felder festzulegen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, die ICC-Profil-Felder festzulegen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten ICC-Profilfelder. |
+| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, die ICC-Profilfelder festzulegen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs erzeugt wurden, die ICC-Profilfelder festzulegen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
 
 ## Beispiele {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
@@ -74,4 +73,3 @@ Syntax
    <errorCount>0</errorCount>
 </batchSetIccProfileFieldsReturn>
 ```
-
