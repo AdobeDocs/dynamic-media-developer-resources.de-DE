@@ -1,21 +1,20 @@
 ---
-description: Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 3.8.
+description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.8.
 solution: Experience Manager
 title: Vorgänge - Neu und geändert
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
 
 # Vorgänge: Neu und geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 3.8.
+Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.8.
 
 Syntax
 
@@ -29,7 +28,7 @@ Syntax
 * `createImageSet`
 * `getImageSetMembers`
 
-## Modifizierte Vorgänge {#section-25eee732b69c49d0a27b1f3290f8654a}
+## Geänderte Vorgänge {#section-25eee732b69c49d0a27b1f3290f8654a}
 
 **searchAssets**
 
