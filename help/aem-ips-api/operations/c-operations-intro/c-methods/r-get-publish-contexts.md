@@ -3,15 +3,14 @@ description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 18%
 
 ---
-
 
 # getPublishContexts{#getpublishcontexts}
 
@@ -32,7 +31,7 @@ Syntax
 >[!NOTE]
 >
 >* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückgeben zu können.
->* Alle Benutzer haben Zugriff auf die freigegebene Firma.
+>* Alle Benutzer haben Zugriff auf das freigegebene Unternehmen.
 
 >
 
@@ -40,7 +39,7 @@ Syntax
 
 ## Parameter {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
-**Input (getPublishContextsParam)**
+**Eingabe (getPublishContextsParam)**
 
 <table id="table_4A505A067586464B99F8F68E3B1BE75E"> 
  <thead> 
@@ -56,7 +55,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Benutzen Sie die Firma. </td> 
+   <td colname="col4"> Handle mit dem Unternehmen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
@@ -73,11 +72,11 @@ Syntax
  </tbody> 
 </table>
 
-**Output (getPublishContextsReturn)**
+**Ausgabe (getPublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`publishContextArray`*` | Typen:PublishContextArray | Ja | Ein Array mit Kontexten zum Veröffentlichen für eine Firma, gegebenenfalls gefiltert nach Kontexttyp. |
+| `*`publishContextArray`*` | Typen:PublishContextArray | Ja | Ein Array von Veröffentlichungskontexten für ein Unternehmen, bei Bedarf nach Kontexttyp gefiltert. |
 
 ## Beispiele {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
@@ -117,4 +116,3 @@ Syntax
   </publishContextArray>
 </getPublishContextsReturn>
 ```
-
