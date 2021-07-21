@@ -1,21 +1,20 @@
 ---
-description: Optionen für Photoshop-Bildebenen.
+description: Photoshop-Bildschichtoptionen.
 solution: Experience Manager
 title: FotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
-
 # FotoshopLayerOptions{#photoshoplayeroptions}
 
-Optionen für Photoshop-Bildebenen.
+Photoshop-Bildschichtoptionen.
 
 Syntax
 
@@ -24,8 +23,7 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`layerNaming`*` | `xsd:string` | Auswahl der Photoshop-Ebenenbenennungsmodi. |
-| `*`anchor`*` | `xsd:string` | Auswahl der Photoshop Ankermodi. |
-| `*`createTemplate`*` | `xsd:boolean` | Legt fest, ob eine Vorlage aus Photoshop-Ebenen erstellt werden soll. |
+| `*`anchor`*` | `xsd:string` | Auswahl der Photoshop-Ankermodi. |
+| `*`createTemplate`*` | `xsd:boolean` | Ob eine Vorlage aus Photoshop-Ebenen erstellt werden soll. |
 | `*`extractText`*` | `xsd:boolean` | Gibt an, ob Text als Textebenen extrahiert werden soll. |
-| `*`extendedLayers`*` | `xsd:boolean` | Legt fest, ob Ebenen auf die volle Hintergrundgröße erweitert werden sollen. |
-
+| `*`extendLayers`*` | `xsd:boolean` | Ob Ebenen auf die volle Hintergrundgröße erweitert werden sollen. |
