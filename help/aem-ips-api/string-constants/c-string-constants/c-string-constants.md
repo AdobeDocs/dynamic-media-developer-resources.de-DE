@@ -1,46 +1,45 @@
 ---
-description: String-Konstanten
+description: Zeichenfolgenkonstanten
 solution: Experience Manager
-title: String-Konstanten
+title: Zeichenfolgenkonstanten
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '114'
 ht-degree: 8%
 
 ---
 
+# Zeichenfolgenkonstanten{#string-constants}
 
-# String-Konstanten{#string-constants}
-
-* [Aktive Auftragszustände](r-active-job-states.md)
+* [Aktive Auftragsstatus](r-active-job-states.md)
 * [Asset-Suchsystemfelder](r-asset-search-system-fields.md)
 * [Asset-Überschreibungsmodi](r-asset-overwrite-modes.md)
 * [Asset-Sortierungsfelder](r-asset-sort-fields.md)
 * [Asset-Typen](r-asset-types.md)
-* [AutoCrop-Ecke](r-auto-crop-corner.md)
+* [AutoCrop Corner](r-auto-crop-corner.md)
 * [Farbmanagement-Modi](r-color-management-modes.md)
 * [Farbräume](r-color-spaces.md)
 * [E-Mail-Einstellungen](r-email-settings.md)
-* [Schriftschnitte](r-font-styles.md)
-* [Schriftarten](r-font-types.md)
+* [Schriftstile](r-font-styles.md)
+* [Schrifttypen](r-font-types.md)
 * [Generierungsinformationen](r-generation-info.md)
 * [Illustrator-Prozesse](r-illustrator-processes.md)
 * [Auftragsprotokolldateitypen](r-job-log-file-types.md)
-* [Sortierfelder für Auftragsprotokoll](r-job-log-sort-fields.md)
+* [Auftragsprotokollsortierungsfelder](r-job-log-sort-fields.md)
 * [Auftragsprotokolltypen](r-job-log-types.md)
-* [Status des Job Triggers](r-job-trigger-states.md)
+* [Job Trigger States](r-job-trigger-states.md)
 * [Auftragstypen](r-job-types.md)
 * [Metadatenfeldtypen](r-metadata-field-types.md)
-* [Numerische Operatoren/Datumsvergleiche](r-numeric-date-comparison-operators.md)
+* [Numerische Operatoren/Datumsvergleich](r-numeric-date-comparison-operators.md)
 * [PDF-Prozesse](r-pdf-processes.md)
 * [Berechtigungstypen](r-permission-types.md)
 * [Photoshop-Ankermodi](r-photoshop-anchor-modes.md)
 * [Photoshop-Ebenenbenennungsmodi](r-photoshop-layer-naming-modes.md)
 * [PostScript-Farbraummodi](r-postscript-colorspace-modes.md)
-* [Profil-Klassen](r-profile-classes.md)
+* [Profilklassen](r-profile-classes.md)
 * [Veröffentlichungsstatus](r-publish-state.md)
 * [Eigenschaftssatztypen](r-property-set-types.md)
 * [Veröffentlichungskontext](r-publish-context.md)
@@ -48,9 +47,9 @@ ht-degree: 8%
 * [Regionsform](r-region-shape.md)
 * [Suchübereinstimmungsmodi](r-search-match-modes.md)
 * [Sortierrichtung](r-sort-directions.md)
-* [Zeichenfolgenvergleichsoperatoren](r-string-comparison-operators.md)
-* [Papierkorbsstatus](r-trash-state.md)
-* [Filter für Benutzerzeichen](r-user-char-filter-fields.md)
+* [Operatoren für Zeichenfolgenvergleich](r-string-comparison-operators.md)
+* [Löschstatus](r-trash-state.md)
+* [Felder für Benutzerzeichenfilter](r-user-char-filter-fields.md)
 * [Benutzerrollen](r-user-roles.md)
 * [Benutzersortierungsfelder](r-user-sort-fields.md)
 * [Viewer-Typ](r-viewer-type.md)
