@@ -3,15 +3,14 @@ description: Löscht mehrere Assets.
 solution: Experience Manager
 title: deleteAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 10%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -46,18 +45,18 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Handle der Firma, zu der die Assets gehören. </p> </td> 
+   <td colname="col4"> <p>Das Handle für das Unternehmen, zu dem die Assets gehören. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Array der zu löschenden Assets. </p> </td> 
+   <td colname="col4"> <p>Das Array der Assets, die gelöscht werden sollen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (deleteAssetsParam)**
+**Ausgabe (deleteAssetsParam)**
 
 <table id="table_0C6D8D51A79248ACA2022DBB754A9B9C"> 
  <thead> 
@@ -85,26 +84,26 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Die Assets, die einen Fehler erzeugt haben, als der Vorgang versuchte, sie zu löschen. </p> </td> 
+   <td colname="col4"> <p>Die Assets, die einen Fehler generiert haben, als der Vorgang versuchte, sie zu löschen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das Array mit den Details zu den Assets, die eine Warnung generiert haben, wenn der Vorgang versucht hat, sie zu löschen. </p> </td> 
+   <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, eine Warnung generiert haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das Array der Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, einen Fehler generiert haben. </p> </td> 
+   <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, einen Fehler generiert haben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiele {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Dieses Codebeispiel sendet ein Handle an eine Firma und ein Array von Asset-Handles in einer `deleteAssetsParam`-Anforderung an den Webdienstserver. `deleteAssetsReturn` gibt einen Erfolgszähler von 2 zurück, der angibt, dass beide Assets gelöscht wurden.
+Dieses Codebeispiel sendet ein Handle an ein Unternehmen und ein Array von Asset-Handles in einer `deleteAssetsParam` -Anfrage an den Webdienstserver. `deleteAssetsReturn` gibt die Erfolgsanzahl 2 zurück, was bedeutet, dass beide Assets gelöscht wurden.
 
 **Anforderung**
 
@@ -127,4 +126,3 @@ Dieses Codebeispiel sendet ein Handle an eine Firma und ein Array von Asset-Hand
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
