@@ -1,21 +1,20 @@
 ---
-description: Warn- oder Fehlerdetails für ein sing-Update in einem batchSetAssetMetadata-Vorgang.
+description: Warn- oder Fehlerdetails für ein Sling-Update in einem batchSetAssetMetadata-Vorgang.
 solution: Experience Manager
 title: SetMetadataFault
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 49c6f355-4b5f-4b98-9a58-5732d56fdccb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
 
-
 # SetMetadataFault{#setmetadatafault}
 
-Warn- oder Fehlerdetails für ein sing-Update in einem batchSetAssetMetadata-Vorgang.
+Warn- oder Fehlerdetails für ein Sling-Update in einem batchSetAssetMetadata-Vorgang.
 
 Syntax
 
@@ -23,8 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Das Asset, dessen Metadaten nicht erfolgreich eingestellt wurden. |
-| `*`fieldHandle`*` | `xsd:string` | Das Handle für das Metadatenfeld, dessen Wert nicht erfolgreich festgelegt wurde. |
-| `*`Code`*` | `xsd:int` | Fehlercode. |
+| `*`assetHandle`*` | `xsd:string` | Das Asset, dessen Metadaten nicht erfolgreich festgelegt wurden. |
+| `*`fieldHandle`*` | `xsd:string` | Der Handle für das Metadatenfeld, dessen Wert nicht erfolgreich festgelegt wurde. |
+| `*`Code`*` | `xsd:int` | Fehler-Code. |
 | `*`Grund`*` | `xsd:string` | Fehlerbeschreibung (Nur-Text). |
-
