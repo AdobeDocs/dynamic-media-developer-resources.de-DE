@@ -1,21 +1,20 @@
 ---
-description: Gibt ein Array aller Firmen zurück.
+description: Gibt eine Gruppe aller Unternehmen zurück.
 solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
 
-
 # getAllCompanies{#getallcompanies}
 
-Gibt ein Array aller Firmen zurück.
+Gibt eine Gruppe aller Unternehmen zurück.
 
 Syntax
 
@@ -25,21 +24,21 @@ Syntax
 
 ## Parameter {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**Input (getAllCompaniesParam)**
+**Eingabe (getAllCompaniesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | Ja | Auf &quot;true&quot;setzen, um abgelaufene und nicht abgelaufene Firmen zurückzugeben. |
+| `*`includeExpired`*` | `xsd:boolean` | Ja | Auf true gesetzt, um abgelaufene und nicht abgelaufene Unternehmen zurückzugeben. |
 
-**Output (getAllCompaniesReturn)**
+**Ausgabe (getAllCompaniesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | Ja | Das Array der Firmen. |
+| `*`companyArray`*` | `types:CompanyArray` | Ja | Die Unternehmensvielfalt. |
 
 ## Beispiele {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Dieses Codebeispiel gibt alle Firmen in IPS in einem Array zurück. Beachten Sie, dass die Stichprobenantwort für die Kürze abgeschnitten wird.
+Dieses Codebeispiel gibt alle Unternehmen in IPS in einem Array zurück. Beachten Sie, dass die Beispielantwort aus Gründen der Kürze abgeschnitten wird.
 
 **Anforderung**
 
@@ -70,4 +69,3 @@ Dieses Codebeispiel gibt alle Firmen in IPS in einem Array zurück. Beachten Sie
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-
