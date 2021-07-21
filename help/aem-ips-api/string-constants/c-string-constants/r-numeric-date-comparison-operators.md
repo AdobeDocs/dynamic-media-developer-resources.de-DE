@@ -1,21 +1,20 @@
 ---
-description: Verwendet von SystemFieldCondition/op.
+description: Wird von SystemFieldCondition/op verwendet.
 solution: Experience Manager
-title: Numerische Operatoren/Datumsvergleiche
+title: Numerische Operatoren/Datumsvergleich
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 96fb9661-f911-4476-a848-ef5256ddbeaf
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
 
+# Numerische Operatoren/Datumsvergleich{#numeric-date-comparison-operators}
 
-# Numerische/Datumsvergleiche Operatoren{#numeric-date-comparison-operators}
-
-Verwendet von SystemFieldCondition/op.
+Wird von SystemFieldCondition/op verwendet.
 
 Syntax
 
@@ -27,4 +26,3 @@ Syntax
 * [!DNL `LessThanEquals`]
 * [!DNL `GreaterThan`]
 * [!DNL `GreaterThanEquals`]
-
