@@ -3,15 +3,14 @@ description: Löscht eine Imagemap.
 solution: Experience Manager
 title: deleteImageMap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 12%
 
 ---
-
 
 # deleteImageMap{#deleteimagemap}
 
@@ -34,20 +33,20 @@ Syntax
 
 ## Parameter {#section-28de12bab79045a5977c68855e37ae3d}
 
-**Input (deleteImageMapParam)**
+**Eingabe (deleteImageMapParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zu der Firma, die die zu löschende Imagemap enthält. |
-| `*`imageMapHandle`*` | `xsd:string` | Ja | Der Griff zur zu löschenden Imagemap. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, das die zu löschende Imagemap enthält. |
+| `*`imageMapHandle`*` | `xsd:string` | Ja | Das Handle der zu löschenden Imagemap. |
 
-**Output (deleteImageMapParam)**
+**Ausgabe (deleteImageMapParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Dieses Codebeispiel löscht eine Imagemap aus einer Firma. Sie müssen den Imagemap-Handle von einem anderen Vorgang abrufen.
+Mit diesem Codebeispiel wird eine Imagemap aus einem Unternehmen gelöscht. Sie müssen den Imagemap-Handle von einem anderen Vorgang abrufen.
 
 **Anforderung**
 
