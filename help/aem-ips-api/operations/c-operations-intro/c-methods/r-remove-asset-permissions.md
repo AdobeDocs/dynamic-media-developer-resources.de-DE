@@ -3,15 +3,14 @@ description: Entfernt Berechtigungen aus ausgewählten Assets.
 solution: Experience Manager
 title: removeAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 16%
 
 ---
-
 
 # removeAssetPermissions{#removeassetpermissions}
 
@@ -27,14 +26,14 @@ Syntax
 
 ## Parameter {#section-b70bf3b033ca45b396964baf2ab1fb0f}
 
-**Input (removeAssetPermissionsParam)**
+**Eingabe (removeAssetPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset mit den Berechtigungen, die Sie entfernen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Der Handle für das Asset mit Berechtigungen, die Sie entfernen möchten. |
 
-**Output (removeAssetPermissionsReturn)**
+**Ausgabe (removeAssetPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
