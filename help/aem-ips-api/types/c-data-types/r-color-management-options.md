@@ -1,21 +1,20 @@
 ---
-description: Optionen, die beim Hochladen angegeben werden. Beeinflusst die Farbverwaltung beim Hochladen.
+description: Beim Hochladen angegebene Optionen. Beeinflusst die Farbverwaltung für den Upload.
 solution: Experience Manager
 title: ColorManagementOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 55535bb0-544d-4a93-9ff4-235f22b8d45a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
-
 # ColorManagementOptions{#colormanagementoptions}
 
-Optionen, die beim Hochladen angegeben werden. Beeinflusst die Farbverwaltung beim Hochladen.
+Beim Hochladen angegebene Optionen. Beeinflusst die Farbverwaltung für den Upload.
 
 Syntax
 
@@ -23,7 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`colorManagement`*` | `xsd:string` | Farbmanagementmodus auswählen. |
-| `*`sourceProfileHandle`*` | `xsd:string` | Quell-Profil-Handle. |
-| `*`outputProfileHandle`*` | `xsd:string` | Output Profil Handle. |
-
+| `*`colorManagement`*` | `xsd:string` | Wahl des Farbmanagementmodus. |
+| `*`sourceProfileHandle`*` | `xsd:string` | Handle des Quellprofils. |
+| `*`outputProfileHandle`*` | `xsd:string` | Handle für das Ausgabeprofil. |
