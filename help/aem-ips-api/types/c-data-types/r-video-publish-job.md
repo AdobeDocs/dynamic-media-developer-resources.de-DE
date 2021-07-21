@@ -3,15 +3,14 @@ description: Veröffentlicht Dateien auf den konfigurierten Video-Veröffentlich
 solution: Experience Manager
 title: VideoPublishJob
 feature: Dynamic Media Classic,SDK/API,Video
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
-
 
 # VideoPublishJob{#videopublishjob}
 
@@ -24,6 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`emailSetting`*` | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL zum Versenden eines Vervollständigungsschreibens. |
-| `*`contextHandle`*` | `xsd:string` | Behandeln Sie den Veröffentlichungskontext. |
-
+| `*`httpCompletionUrl`*` | `xsd:string` | URL zum Senden einer Fertigstellungsbenachrichtigung. |
+| `*`contextHandle`*` | `xsd:string` | Umgang mit dem Veröffentlichungskontext. |
