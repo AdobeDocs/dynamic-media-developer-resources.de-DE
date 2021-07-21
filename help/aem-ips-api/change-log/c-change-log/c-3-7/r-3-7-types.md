@@ -1,21 +1,20 @@
 ---
-description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 3.7.
+description: Beschreibt neue und geänderte Datentypen für die IPS-API Version 3.7.
 solution: Experience Manager
-title: Datentypen neu und geändert
+title: Neue und geänderte Datentypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 0209f3aa-204a-47bd-98ff-430bd8f3ac0e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 4%
 
 ---
 
-
 # Datentypen: Neu und geändert{#data-types-new-and-modified}
 
-Beschreibt neue und geänderte Datentypen für die IPS-API-Version 3.7.
+Beschreibt neue und geänderte Datentypen für die IPS-API Version 3.7.
 
 Syntax
 
@@ -29,9 +28,8 @@ Syntax
 * `ScheduledJob`
 * `ScheduledJobArray`
 
-## Modifizierte Typen {#section-f2d4635d912545c5964820b8cd1e62ad}
+## Geänderte Typen {#section-f2d4635d912545c5964820b8cd1e62ad}
 
 **Asset**
 
 * `ZipInfo` hinzugefügt.
-
