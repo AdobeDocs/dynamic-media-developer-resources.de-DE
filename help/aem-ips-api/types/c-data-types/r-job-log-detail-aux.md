@@ -1,21 +1,20 @@
 ---
-description: Enthält zusätzliche Meldungen, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Beinhaltet Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
+description: Enthält zusätzliche Nachrichten, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Enthält Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
 solution: Experience Manager
 title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 789736c5-d74d-4970-9665-b43e316aca69
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
-
 # JobLogDetailAux{#joblogdetailaux}
 
-Enthält zusätzliche Meldungen, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Beinhaltet Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
+Enthält zusätzliche Nachrichten, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Enthält Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
 
 Syntax
 
@@ -23,7 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`logMessage`*` | `xsd:string` | Eine Hilfsmeldung. |
+| `*`logMessage`*` | `xsd:string` | Eine Hilfsnachricht. |
 | `*`logType`*` | `xsd:string` | Protokolltyp: `IPSJobLog.gcUploadWarning` oder `IPSJobLog.gcUploadError`. |
 | `*`dateCreated`*` | `xsd:dateTime` | Zusätzliches Erstellungsdatum des Auftragsprotokolls. |
-
