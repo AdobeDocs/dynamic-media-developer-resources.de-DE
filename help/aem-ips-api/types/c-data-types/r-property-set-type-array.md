@@ -1,21 +1,20 @@
 ---
-description: Array des Eigenschaftssatztyps.
+description: Array vom Typ Eigenschaftssatz.
 solution: Experience Manager
 title: PropertySetTypeArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 56f0bcf6-0a8c-4976-88ab-45700d5d5e3d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
-
 # PropertySetTypeArray{#propertysettypearray}
 
-Array des Eigenschaftssatztyps.
+Array vom Typ Eigenschaftssatz.
 
 Syntax
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:PropertySetType` | Das Array des Eigenschaftssatztyps. |
-
+| `*`Elemente`*` | `types:PropertySetType` | Das Eigenschaftssatztyp-Array. |
