@@ -3,21 +3,20 @@ description: Leert Assets aus dem IPS-Papierkorb.
 solution: Experience Manager
 title: emptyAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '251'
 ht-degree: 7%
 
 ---
-
 
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
 Leert Assets aus dem IPS-Papierkorb.
 
-Assets werden bis zum manuellen Leeren im Papierkorb oder bis zum Verlassen des Papierkorbs gespeichert. Wenn sie manuell geleert werden, leben sie bis zum nächsten Bereinigungsauftrag (normalerweise nachts) im Papierkorb, wenn sie schließlich aus dem System entfernt werden. Wenn die Assets aus dem Papierkorb auslaufen, werden sie im Rahmen derselben Bereinigungs-Aktivität entfernt. Die Zeitüberschreitung ist konfigurierbar (standardmäßig 7 Tage).
+Assets befinden sich im Müll, bis sie manuell geleert werden oder bis sie aus dem Papierkorb auslaufen. Wenn sie manuell geleert werden, befinden sie sich im Papierkorb bis zum nächsten Bereinigungsauftrag (normalerweise nächtlich), wenn sie schließlich aus dem System gelöscht werden. Wenn die Assets aus dem Papierkorb entfernt werden, werden sie im Rahmen derselben Bereinigungsaktivität bereinigt. Die Zeitüberschreitung ist konfigurierbar (standardmäßig 7 Tage).
 
 ## Autorisierte Benutzertypen {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -31,26 +30,26 @@ Assets werden bis zum manuellen Leeren im Papierkorb oder bis zum Verlassen des 
 
 ## Parameter {#section-8e1fb0ee3aae453581e99ef76e298569}
 
-**Input (emptyAssetsFromTrashParam)**
+**Eingabe (emptyAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, der die Assets gehören. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Das Array der Griffe, die die Elemente darstellen, die aus dem Papierkorb geleert werden sollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, dem die Assets gehören. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Das Array von Handles, die die Elemente darstellen, die aus dem Papierkorb geleert werden sollen. |
 
-**Output (emptyAssetsFromTrashParam)**
+**Ausgabe (emptyAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:Int` | Ja | Die Anzahl der Assets, die erfolgreich aus dem Papierkorb geleert wurden. |
-| `*`warningCount`*` | `xsd:Int` | Ja | Die Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Papierkorb zu leeren. |
-| `*`errorCount`*` | `xsd:Int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets aus dem Papierkorb zu leeren. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit den Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, sie aus dem Papierkorb zu leeren. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, sie aus dem Papierkorb zu leeren. |
+| `*`warningCount`*` | `xsd:Int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Assets aus dem Papierkorb zu löschen. |
+| `*`errorCount`*` | `xsd:Int` | Ja | Die Anzahl der Fehler, die beim Versuch erzeugt wurden, Assets aus dem Papierkorb zu leeren. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, sie aus dem Papierkorb zu löschen. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, sie aus dem Papierkorb zu löschen. |
 
 ## Beispiele {#section-6154a873b6c342bf92e2036280cafdcf}
 
-Dieses Codebeispiel verwendet das Handle der Firma und ein Asset-Handle-Array, das Griffe an den Assets enthält, die aus dem Papierkorb geleert werden sollen.
+Dieses Codebeispiel verwendet das Handle des Unternehmens und ein Asset-Handle-Array, das Handles zu den Assets enthält, die aus dem Papierkorb geleert werden sollen.
 
 **Anforderung**
 
@@ -73,4 +72,3 @@ Dieses Codebeispiel verwendet das Handle der Firma und ein Asset-Handle-Array, d
    <errorCount>0</errorCount>
 </emptyAssetsFromTrashReturn>
 ```
-
