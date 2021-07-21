@@ -1,21 +1,20 @@
 ---
-description: Ein Array von Meldungen, die auf eine der URL reagieren, die in der CDN-Anfrage zur Ungültigmachung angegeben ist.
+description: Ein Array von Nachrichten, die auf eine der in der Anfrage zur CDN-Invalidierung angegebenen URL reagieren.
 solution: Experience Manager
 title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
-
 # OperationFaultArray{#operationfaultarray}
 
-Ein Array von Meldungen, die auf eine der URL reagieren, die in der CDN-Anfrage zur Ungültigmachung angegeben ist.
+Ein Array von Nachrichten, die auf eine der in der Anfrage zur CDN-Invalidierung angegebenen URL reagieren.
 
 **Unterstützt seit**
 
@@ -35,8 +34,7 @@ Ein Array von Meldungen, die auf eine der URL reagieren, die in der CDN-Anfrage 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> Typen:OperationFault</span> </p> </td> 
-   <td> <p> Die Liste von Meldungen, die aus der CDN-Anfrage resultieren, ungültig. </p> </td> 
+   <td> <p> Die Liste der Nachrichten, die aus der CDN-Invalidierungsanforderung resultieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
