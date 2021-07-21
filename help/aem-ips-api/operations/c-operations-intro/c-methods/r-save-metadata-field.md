@@ -1,25 +1,24 @@
 ---
-description: Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldgriff aus, um ein neues Metadatenfeld zu erstellen.
+description: Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldhandle weg, um ein neues Metadatenfeld zu erstellen.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 8%
 
 ---
 
-
 # saveMetadataField{#savemetadatafield}
 
-Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldgriff aus, um ein neues Metadatenfeld zu erstellen.
+Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldhandle weg, um ein neues Metadatenfeld zu erstellen.
 
 >[!NOTE]
 >
->Diese Methode ist veraltet.
+>Diese Methode wird nicht mehr unterstützt.
 
 ## Autorisierte Benutzertypen {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
@@ -30,7 +29,7 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldg
 
 ## Parameter {#section-ec6827d485a143f4a059a92b18e40f4e}
 
-**Input (saveMetadataFieldParam)**
+**Eingabe (saveMetadataFieldParam)**
 
 <table id="table_C944A44352F2475A89CE86F3DB1B648A"> 
  <thead> 
@@ -46,7 +45,7 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldg
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Griff zur Firma. </td> 
+   <td colname="col4"> Der Handle für das Unternehmen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -58,7 +57,7 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldg
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Auswahl der Asset-Typen, aus denen Metadaten gespeichert werden sollen. </td> 
+   <td colname="col4"> Auswahl der Asset-Typen, von denen Metadaten gespeichert werden sollen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -82,26 +81,26 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldg
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> IPS-systemspezifische Metadaten ausblenden oder verfügbar machen </td> 
+   <td colname="col4"> Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Ein boolesches Flag, das angibt, ob das Metadatenfeld beim Festlegen des Werts erzwungen (validiert) wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn unter <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> ein unzulässiger Wert festgelegt wurde. </p> </td> 
+   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (saveMetadataFieldReturn)**
+**Ausgabe (saveMetadataFieldReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Ja | Handhabung des neuen Metadatenfelds. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | Umgang mit dem neuen Metadatenfeld. |
 
 ## Beispiele {#section-4441c26d1f41466ba972b43dd5189e89}
 
-In diesem Codebeispiel wird ein neues Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt wird. Wenn das `fieldHandle`-Element einen gültigen field handle-Wert hat, werden die Metadatenwerte geändert und dasselbe field-Handle erhalten, das Sie in der Anforderung angegeben haben.
+In diesem Codebeispiel wird ein neues Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt wird. Wenn das Element `fieldHandle` über einen gültigen Feldhandle-Wert verfügt, werden die Metadatenwerte geändert und dasselbe Feld-Handle erhalten, das Sie in der Anfrage angegeben haben.
 
 **Anforderung**
 
@@ -122,4 +121,3 @@ In diesem Codebeispiel wird ein neues Metadatenfeld erstellt, das durch die Zeic
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
