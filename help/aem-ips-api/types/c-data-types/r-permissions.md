@@ -1,21 +1,20 @@
 ---
-description: Verwaltet Rechte zum Zugriff, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
+description: Verwaltet Berechtigungen zum Zugriff, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
 solution: Experience Manager
 title: Berechtigung
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 8%
 
 ---
 
-
 # Berechtigung{#permission}
 
-Verwaltet Rechte zum Zugriff, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
+Verwaltet Berechtigungen zum Zugriff, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
 
 Syntax
 
@@ -23,9 +22,8 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Gruppengriff. |
+| `*`groupHandle`*` | `xsd:string` | Gruppieren. |
 | `*`groupName`*` | `xsd:string` | Gruppenname. |
 | `*`permissionType`*` | `xsd:string` | Auswahl des Berechtigungstyps. |
 | `*`isAllowed`*` | `xsd:boolean` | Bestimmt, ob die Berechtigung zulässig ist. |
-| `*`isOverride`*` | `xsd:boolean` | Stellt fest, ob die Berechtigung eine andere überschreibt. |
-
+| `*`isOverride`*` | `xsd:boolean` | Bestimmt, ob die Berechtigung eine andere überschreibt. |
