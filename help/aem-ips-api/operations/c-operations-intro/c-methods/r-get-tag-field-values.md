@@ -3,15 +3,14 @@ description: Ruft alle Tag-Wörterbuchwerte ab, die für ein oder mehrere Tag-Fe
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 17%
 
 ---
-
 
 # getTagFieldValues{#gettagfieldvalues}
 
@@ -33,14 +32,14 @@ Syntax
 
 ## Parameter {#section-9ad806e7736e4d51ae42cad185050cf9}
 
-**Input (getTagFieldValuesReturn)**
+**Eingabe (getTagFieldValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff der Firma, die das Tag-Feld enthält. |
-| `*`fieldHandleArray`*` | `types:HandleArray` | Ja | Ein Array von field-Handles für Tag-Werte, die zurückgegeben werden sollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, das das Tag-Feld enthält. |
+| `*`fieldHandleArray`*` | `types:HandleArray` | Ja | Ein Array von Feld-Handles zum Taggen von Werten, die zurückgegeben werden sollen. |
 
-**Output (getTagFieldValuesReturn)**
+**Ausgabe (getTagFieldValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -83,4 +82,3 @@ Syntax
    </fieldArray>
 </getTagFieldValuesReturn>
 ```
-
