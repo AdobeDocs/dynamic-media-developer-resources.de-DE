@@ -3,15 +3,14 @@ description: Ruft ein XMP Metadatenpaket für das angegebene Asset ab.
 solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 21%
 
 ---
-
 
 # getXMPPacket{#getxmppacket}
 
@@ -31,14 +30,14 @@ Syntax
 
 ## Parameter {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Input (getXMPPacketParam**
+**Eingabe (getXMPPacketParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Firma-Handle mit dem Paket, das Sie zurückgeben möchten (z. B. `c|656`). |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Unternehmen verarbeitet das Paket, das Sie zurückgeben möchten (z. B. `c|656`). |
 | `*`assetHandle`*` | `xsd:string` | Ja | Das Asset, für das das XMP Paket abgerufen werden soll. |
 
-**Output (getXMPPacketReturn)**
+**Ausgabe (getXMPPacketReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -68,4 +67,3 @@ Syntax
    </compressedPacket>
 </getXMPPacketReturn>
 ```
-
