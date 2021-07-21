@@ -1,21 +1,20 @@
 ---
-description: Ein Bedingungsarray für das Systemfeld.
+description: Ein Bedingungs-Array für Systemfelder.
 solution: Experience Manager
 title: SystemFieldConditionArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
-
 # SystemFieldConditionArray{#systemfieldconditionarray}
 
-Ein Bedingungsarray für das Systemfeld.
+Ein Bedingungs-Array für Systemfelder.
 
 Syntax
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:SystemFieldConditions` | Ein Array von Systemfeldbedingungen. |
-
