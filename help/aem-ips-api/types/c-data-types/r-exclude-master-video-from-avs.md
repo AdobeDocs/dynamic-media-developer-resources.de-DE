@@ -1,20 +1,19 @@
 ---
-description: Schließt das primäre Video aus dem adaptiven Videoset aus.
+description: Schließt das Primärvideo aus dem adaptiven Videoset aus.
 title: ExcludeMasterVideoFromAVS
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
 
-
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
-Schließt das primäre Video aus dem adaptiven Videoset aus.
+Schließt das Primärvideo aus dem adaptiven Videoset aus.
 
 Syntax
 
@@ -32,8 +31,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Schließt die Übergeordnet-Videodatei aus dem adaptiven Videoset aus. </p> <p>Der Standardwert ist true. </p> </td> 
+   <td colname="col3"> <p>Schließt die Übergeordnete Videodatei aus dem adaptiven Videoset aus. </p> <p>Der Standardwert ist "true". </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
