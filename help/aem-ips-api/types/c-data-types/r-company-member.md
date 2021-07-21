@@ -1,21 +1,20 @@
 ---
-description: Beschreibt die verschiedenen Firmen, denen ein Benutzer angehört.
+description: Beschreibt die verschiedenen Unternehmen, zu denen ein Benutzer gehört.
 solution: Experience Manager
 title: CompanyMember
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
-
 # CompanyMember{#companymember}
 
-Beschreibt die verschiedenen Firmen, denen ein Benutzer angehört.
+Beschreibt die verschiedenen Unternehmen, zu denen ein Benutzer gehört.
 
 Syntax
 
@@ -24,6 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Benutzer`*` | `types:User` | Benutzername. |
-| `*`role`*` | `xsd:string` | Rolle des Benutzers für jede Firma, zu der er gehört. |
-| `*`isActive`*` | `xsd:boolean` | Legt den Benutzerstatus für jede Firma fest, zu der sie gehören. |
-
+| `*`Rolle`*` | `xsd:string` | Rolle des Benutzers für jedes Unternehmen, zu dem er gehört. |
+| `*`isActive`*` | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |
