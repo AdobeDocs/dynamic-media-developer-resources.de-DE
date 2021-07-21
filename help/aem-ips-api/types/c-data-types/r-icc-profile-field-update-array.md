@@ -1,21 +1,20 @@
 ---
-description: Ein Array mit ICC-Profil-Aktualisierungselementen.
+description: Ein Array von ICC-Profilfeldern aktualisiert Elemente.
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 665280fe-ec76-48ce-b104-d65440c0f1ac
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
-
 # IccProfileFieldUpdateArray{#iccprofilefieldupdatearray}
 
-Ein Array mit ICC-Profil-Aktualisierungselementen.
+Ein Array von ICC-Profilfeldern aktualisiert Elemente.
 
 Syntax
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:IccProfileUpdate` | `IccProfileFieldUpdate` Array-Element. |
-
