@@ -1,25 +1,24 @@
 ---
-description: Fügt dem System eine Firma hinzu.
+description: Fügt ein Unternehmen zum System hinzu.
 solution: Experience Manager
 title: addCompany
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
 
-
 # addCompany{#addcompany}
 
-Fügt dem System eine Firma hinzu.
+Fügt ein Unternehmen zum System hinzu.
 
-Sendet den Namen der Firma, die dem System hinzugefügt werden soll, und sendet optional, ob die Firma abläuft.
+Sendet den Namen des Unternehmens, das zum System hinzugefügt werden soll, und sendet optional, ob das Unternehmen abläuft.
 
-Wenn dieser Vorgang aufgerufen wird, erhält das System den Typ `*`companyInfo`*`, der einen Firmen-Handle und beschreibende Felder enthält. Wenn der angeforderte Firmen-Name bereits im System vorhanden ist, wird ein `ipsApiFault` ausgegeben.
+Wenn dieser Vorgang aufgerufen wird, erhält das System den Typ `*`companyInfo`*` , der einen Unternehmens-Handle und beschreibende Felder enthält. Wenn der angeforderte Unternehmensname bereits im System vorhanden ist, wird ein `ipsApiFault` ausgegeben.
 
 ## Autorisierte Benutzertypen {#section-ae926c7672984be79f6102748accab72}
 
@@ -29,7 +28,7 @@ Wenn dieser Vorgang aufgerufen wird, erhält das System den Typ `*`companyInfo`*
 
 ## Parameter {#section-c64a21b72585447880760db9e7a12ccb}
 
-**Input (addCompanyParam)**
+**Eingabe (addCompanyParam)**
 
 <table id="table_AA915BAD2E8E4A1B9719725994309CE8"> 
  <thead> 
@@ -45,18 +44,18 @@ Wenn dieser Vorgang aufgerufen wird, erhält das System den Typ `*`companyInfo`*
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Name der hinzuzufügenden Firma. </p> </td> 
+   <td colname="col4"> <p>Der Name des hinzuzufügenden Unternehmens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das Ablaufdatum der Firma. Geben Sie die Zeitzone mit der Anforderung für dieses Feld ein. Die Zeitzonen werden auf "Central Time"eingestellt. </p> </td> 
+   <td colname="col4"> <p>Das Ablaufdatum des Unternehmens. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. Die Zeitzonen werden auf die "Central Time"eingestellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (addCompanyReturn)**
+**Ausgabe (addCompanyReturn)**
 
 <table id="table_89EBAC0E0FB34793BD843837BB02B518"> 
  <thead> 
@@ -72,14 +71,14 @@ Wenn dieser Vorgang aufgerufen wird, erhält das System den Typ `*`companyInfo`*
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Handhabung und Name, Stammpfad, Ablaufdatum und Uhrzeit der neuen Firma. </p> </td> 
+   <td colname="col4"> <p>Verarbeiten Sie den Namen, den Stammpfad, das Ablaufdatum und die Uhrzeit des neuen Unternehmens. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiele {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-Dieses Beispiel zeigt eine Anforderung zum Hinzufügen einer Firma zum IPS-System und die Antwort mit detaillierten Informationen zur hinzugefügten Firma, die zum Durchführen anderer Vorgänge erforderlich ist.
+Dieses Beispiel zeigt eine Anfrage zum Hinzufügen eines Unternehmens zum IPS-System und die Antwort mit detaillierten Informationen zu dem hinzugefügten Unternehmen, das für andere Vorgänge benötigt wird.
 
 **Anforderung**
 
@@ -101,4 +100,3 @@ Dieses Beispiel zeigt eine Anforderung zum Hinzufügen einer Firma zum IPS-Syste
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-
