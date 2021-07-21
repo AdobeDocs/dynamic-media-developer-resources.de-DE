@@ -1,21 +1,20 @@
 ---
-description: Bildstandortkoordinaten, die vom getFotoshopPath-Vorgang zurückgegeben werden.
+description: Bildstandortkoordinaten, die vom getFotoshopPath -Vorgang zurückgegeben werden.
 solution: Experience Manager
-title: PerectiveQuad
+title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dae44565-083d-47f5-8a08-2567590315a4
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
 
+# PerspectiveQuad{#perspectivequad}
 
-# PerectiveQuad{#perspectivequad}
-
-Bildstandortkoordinaten, die vom getFotoshopPath-Vorgang zurückgegeben werden.
+Bildstandortkoordinaten, die vom getFotoshopPath -Vorgang zurückgegeben werden.
 
 Syntax
 
@@ -23,14 +22,14 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | Die X-Achsen-Koordinate oben links. |
-| `*`y0`*` | `xsd:double` | Koordinate der y-Achse oben links |
-| `*`x1`*` | `xsd:double` | Koordinate oben rechts x-Achse. |
-| `*`y1`*` | `xsd:double` | Koordinate rechts oben. |
-| `*`x2`*` | `xsd:double` | Die X-Achsen-Koordinate unten rechts. |
-| `*`y2`*` | `xsd:double` | Unten rechts y-Achsen-Koordinate. |
-| `*`x3`*` | `xsd:double` | X-Achsen-Koordination unten links. |
-| `*`y3`*` | `xsd:double` | Koordinate der Y-Achse unten links |
+| `*`x0`*` | `xsd:double` | X-Achsen-Koordinate oben links. |
+| `*`y0`*` | `xsd:double` | Koordinate der Y-Achse oben links. |
+| `*`x1`*` | `xsd:double` | Koordinate der X-Achse oben rechts. |
+| `*`y1`*` | `xsd:double` | Koordinate der y-Achse oben rechts. |
+| `*`x2`*` | `xsd:double` | Koordinate der X-Achse unten rechts. |
+| `*`y2`*` | `xsd:double` | Koordinate der Y-Achse unten rechts. |
+| `*`x3`*` | `xsd:double` | X-Achsen-Koordinate unten links. |
+| `*`y3`*` | `xsd:double` | Koordinate der Y-Achse unten links. |
 
 ## Beispiel {#section-19ed4409ff3a41c9b52a9c9424612927}
 
