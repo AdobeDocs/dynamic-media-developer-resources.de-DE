@@ -3,15 +3,14 @@ description: Gibt Assets basierend auf einem Array von Asset-Namen zurück.
 solution: Experience Manager
 title: getAssetsByName
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 10%
 
 ---
-
 
 # getAssetsByName{#getassetsbyname}
 
@@ -36,7 +35,7 @@ Syntax
 
 ## Parameter {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
-**Input (getAssetsByNameParam)**
+**Eingabe (getAssetsByNameParam)**
 
 <table id="table_CE7B503B0E074719A523B458DF3A7286"> 
  <thead> 
@@ -52,7 +51,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Griff zur Firma. </td> 
+   <td colname="col4"> Der Handle für das Unternehmen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
@@ -64,13 +63,13 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Dient zum Filtern nach einer bestimmten Gruppe. </td> 
+   <td colname="col4"> Wird zum Filtern nach einer bestimmten Gruppe verwendet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Array der abzurufenden Asset-Namen. </td> 
+   <td colname="col4"> Array von Asset-Namen, die abgerufen werden sollen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
@@ -88,13 +87,13 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Array von Asset-Subtypen, die für abgerufene Assets zulässig sind. </td> 
+   <td colname="col4"> Array von Asset-Untertypen, die für abgerufene Assets zulässig sind. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> striktSubTypeCheck</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer ist, werden nur Assets zurückgegeben, deren Untertypen in <span class="codeph"> assetSubTypeArray</span> liegen. </p> <p>Wenn <span class="codeph"> false</span>, werden Elemente ohne definierten Subtyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer ist, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. </p> <p>Wenn <span class="codeph"> false</span>, werden Assets ohne definierten Untertyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -111,7 +110,7 @@ Syntax
  </tbody> 
 </table>
 
-**Output (getAssetsByNameReturn)**
+**Ausgabe (getAssetsByNameReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -155,4 +154,3 @@ Dieses Codebeispiel gibt zwei Bildtyp-Assets zurück.
    </assetArray>
 </getAssetsByNameReturn>
 ```
-
