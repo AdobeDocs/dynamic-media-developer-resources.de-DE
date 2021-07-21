@@ -1,21 +1,20 @@
 ---
-description: Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 4.5.
+description: Beschreibt neue und geänderte Betriebsmethoden für die IPS-API Version 4.5.
 solution: Experience Manager
 title: Vorgänge - Neu und geändert
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-
 # Vorgänge: Neu und geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Methoden für Vorgänge für die IPS-API Version 4.5.
+Beschreibt neue und geänderte Betriebsmethoden für die IPS-API Version 4.5.
 
 Syntax
 
@@ -36,9 +35,9 @@ Syntax
 * `updateTagFieldValues`
 * `updateXMPPacket`
 
-## Modifizierte Vorgänge {#section-1c022cc62d274c349837013f1c02ca51}
+## Geänderte Vorgänge {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` enthält  `animatedGifInfo`,  `swcInfo`,  `cssInfo`und  `javascriptInfo` Parameter.
+* `Asset` enthält  `animatedGifInfo`,  `swcInfo`,  `cssInfo` und  `javascriptInfo` Parameter.
 
 * `createMetadataField` enthält einen optionalen  `isHidden` Parameter.
 
@@ -46,5 +45,4 @@ Syntax
 
 * `searchAssets`
 * 
-* Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus dem Vorgang `renameAsset` entfernt. Der Pfad der virtuellen Datei wird an den Namen des neuen Assets angepasst (unter Beibehaltung der Dateierweiterung), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen Verweise auf diesen Parameter bei der Aktualisierung auf die neue API-Version entfernen.
-
+* Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus dem Vorgang `renameAsset` entfernt. Der virtuelle Dateipfad wird so geändert, dass er mit dem neuen Asset-Namen übereinstimmt (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen beim Aktualisieren auf die neue API-Version Verweise auf diesen Parameter entfernen.
