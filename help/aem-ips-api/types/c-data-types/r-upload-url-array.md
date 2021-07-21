@@ -3,15 +3,14 @@ description: Ein Array von URLs zum Hochladen von Assets.
 solution: Experience Manager
 title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: af931740-48da-47c4-af03-349517f4e2a8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
-
 
 # UploadUrlArray{#uploadurlarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:UploadUrl` | Ein Array von URLs zum Hochladen von Assets. |
-
