@@ -3,15 +3,14 @@ description: Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zur
 solution: Experience Manager
 title: forceRepublishAssets
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 8%
 
 ---
-
 
 # forceRepublishAssets{#forcerepublishassets}
 
@@ -46,19 +45,19 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Behandeln Sie die Firma mit den zurückzusetzenden Elementen. </p> </td> 
+   <td colname="col4"> <p>Verarbeiten Sie das Unternehmen mit den zurückzusetzenden Assets. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt an, dass die Dateien für das Asset erneut auf den Versand-Servern veröffentlicht werden. Die Standardeinstellung ist <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Zeigt an, dass die Dateien für das Asset erneut auf den Bereitstellungsservern veröffentlicht werden. Die Standardeinstellung ist <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt an, dass die Katalogmetadaten, die für die Bereitstellung des Assets verwendet werden, synchronisiert werden, um sicherzustellen, dass sie aktuell sind. Dieser Parameter wird verwendet, um Racebedingungen zu lösen, die bei fast gleichzeitigen Aktualisierungen desselben Datensatzes auftreten können. Die Standardeinstellung ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Zeigt an, dass die für die Bereitstellung des Assets verwendeten Katalogmetadaten synchronisiert werden, um sicherzustellen, dass sie aktuell sind. Dieser Parameter wird verwendet, um Race-Bedingungen aufzulösen, die bei nahezu gleichzeitigen Aktualisierungen am selben Datensatz auftreten können. Die Standardeinstellung ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
@@ -69,7 +68,7 @@ Syntax
  </tbody> 
 </table>
 
-**Output (forceRepublishAssetsParam)**
+**Ausgabe (forceRepublishAssetsParam)**
 
 <table id="table_78E74186669F477E9E2D837D58A789DC"> 
  <thead> 
@@ -89,4 +88,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
