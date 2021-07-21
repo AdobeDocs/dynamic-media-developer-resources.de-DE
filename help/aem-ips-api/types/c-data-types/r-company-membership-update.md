@@ -3,15 +3,14 @@ description: CompanyMembershipUpdate
 solution: Experience Manager
 title: CompanyMembershipUpdate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c88202f3-df21-4026-aa92-212d3c05f242
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
-
 
 # CompanyMembershipUpdate{#companymembershipupdate}
 
@@ -21,7 +20,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Benutzen Sie die Firma. |
-| `*`role`*` | `xsd:string` | Die Rolle, die einem Benutzer für jede Firma zukommt, zu der er gehört. |
-| `*`isActive`*` | `xsd:boolean` | Legt den Benutzerstatus für jede Firma fest, zu der sie gehören. |
-
+| `*`companyHandle`*` | `xsd:string` | Handle mit dem Unternehmen. |
+| `*`Rolle`*` | `xsd:string` | Die Rolle, die ein Benutzer für jedes Unternehmen hat, zu dem er gehört. |
+| `*`isActive`*` | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |
