@@ -1,21 +1,20 @@
 ---
-description: Suchzeichenfolgen-Datensatz, der aus einer PDF-Datei extrahiert wurde.
+description: Aus einer PDF-Datei extrahierter Suchzeichenfolgendatensatz.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '87'
 ht-degree: 11%
 
 ---
 
-
 # SearchStrings{#searchstrings}
 
-Suchzeichenfolgen-Datensatz, der aus einer PDF-Datei extrahiert wurde.
+Aus einer PDF-Datei extrahierter Suchzeichenfolgendatensatz.
 
 Syntax
 
@@ -23,13 +22,12 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`searchString`*` | `xsd:string` | Suchzeichenfolgen-Text. |
+| `*`searchString`*` | `xsd:string` | Suchzeichenfolgentext. |
 | `*`keywordsArray`*` | `types:KeywordsArray` | Array von Suchbegriffen in der Suchzeichenfolge. |
-| `*`status`*` | `xsd:boolean` | True, wenn die Suchzeichenfolge gültig und aktiviert ist. |
-| `*`x`*` | `xsd:int` | X-Achsenposition der Suchzeichenfolge. |
+| `*`status`*` | `xsd:boolean` | True , wenn die Suchzeichenfolge gültig und aktiviert ist. |
+| `*`x`*` | `xsd:int` | X Achsenposition der Suchzeichenfolge. |
 | `*`y`*` | `xsd:int` | Y-Achsenposition der Suchzeichenfolge. |
-| `*`width`*` | `xsd:int` | Suchzeichenfolgen-Breite. |
-| `*`height`*` | `xsd:int` | Suchzeichenfolgen-Höhe. |
-| `*`fontName`*` | `xsd:string` | Name der in der Suchzeichenfolge verwendeten Schrift. |
+| `*`width`*` | `xsd:int` | Breite der Suchzeichenfolge. |
+| `*`height`*` | `xsd:int` | Höhe der Suchzeichenfolge. |
+| `*`fontName`*` | `xsd:string` | Name der in der Suchzeichenfolge verwendeten Schriftart. |
 | `*`pointSize`*` | `xsd:string` | Schriftgröße. |
-
