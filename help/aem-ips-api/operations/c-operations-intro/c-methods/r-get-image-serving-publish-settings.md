@@ -1,21 +1,20 @@
 ---
-description: Nur zur internen Verwendung. Die Benutzer sollten auf den Abschnitt Image Serving Image Catalog Reference - Attribute Reference verweisen.
+description: Nur zur internen Verwendung. Benutzer sollten sich auf den Abschnitt Image Serving Image Catalog Reference - Attribute Reference beziehen.
 solution: Experience Manager
 title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
-
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-Nur zur internen Verwendung. Die Benutzer sollten auf den Abschnitt Image Serving Image Catalog Reference - Attribute Reference verweisen.
+Nur zur internen Verwendung. Benutzer sollten sich auf den Abschnitt Image Serving Image Catalog Reference - Attribute Reference beziehen.
 
 Syntax
 
@@ -28,16 +27,15 @@ Syntax
 
 ## Parameter {#section-79f0d54acd604ad2a5c96679334f2424}
 
-**Input (getImageServingPublishSettingsParam)**
+**Eingabe (getImageServingPublishSettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit dem Image für Veröffentlichungseinstellungen. |
-| `*`contextHandle`*` | `xsd:string` | Ja | Behandeln Sie den Veröffentlichungskontext. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen mit den Einstellungen für die Image-Serving-Veröffentlichung. |
+| `*`contextHandle`*` | `xsd:string` | Ja | Umgang mit dem Veröffentlichungskontext. |
 
 **Ausgabe**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | Ja | Array von Veröffentlichungseinstellungen für den Image-Server. |
-
+| `*`publishSettingArray`*` | `xsd:string` | Ja | Array der Veröffentlichungseinstellungen des Image-Servers. |
