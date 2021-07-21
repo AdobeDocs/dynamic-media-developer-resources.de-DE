@@ -3,15 +3,14 @@ description: Eigenschaften eines Audiodatei-Assets.
 solution: Experience Manager
 title: AudioInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 51d09533-2964-4b46-b45b-cc65e178ee0a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
-
 
 # AudioInfo{#audioinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Pfad zur Audiodatei. |
 | `*`originalFile`*` | `xsd:string` | Dateiname. |
 | `*`fileSize`*` | `xsd:int` | Dateigröße. |
-
