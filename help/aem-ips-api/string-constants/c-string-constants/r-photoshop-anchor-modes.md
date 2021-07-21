@@ -1,21 +1,20 @@
 ---
-description: verwendet von FotoshopOptions/Anker.
+description: wird von FotoshopOptions/anchor verwendet.
 solution: Experience Manager
 title: Photoshop-Ankermodi
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 69edbec2-b646-4527-9ee3-a0e710996230
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
 
+# Photoshop-Ankermodi{#photoshop-anchor-modes}
 
-# Photoshop Ankermodi{#photoshop-anchor-modes}
-
-verwendet von FotoshopOptions/Anker.
+wird von FotoshopOptions/anchor verwendet.
 
 Syntax
 
@@ -30,4 +29,3 @@ Syntax
 * [!DNL `Southeast`]
 * [!DNL `East`]
 * [!DNL `Northeast`]
-
