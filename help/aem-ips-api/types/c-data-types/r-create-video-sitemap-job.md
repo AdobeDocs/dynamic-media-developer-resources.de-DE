@@ -1,21 +1,20 @@
 ---
-description: Erstellt eine Video-Sitemap.
+description: Erstellt eine Video-Site-Zuordnung.
 solution: Experience Manager
 title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
-
 # CreateVideoSitemapJob{#createvideositemapjob}
 
-Erstellt eine Video-Sitemap.
+Erstellt eine Video-Site-Zuordnung.
 
 Syntax
 
@@ -33,8 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Generiert die Sitemap, wenn sie auf <span class="codeph"> true</span> eingestellt ist. <p><p>Hinweis: Wenn die Konfiguration der Sitemap-Generierung auf "Manuell"festgelegt ist und <span class="codeph"> forceUpdate</span> nicht eingestellt ist, wird die Sitemap nicht generiert. </p></p></td> 
+   <td colname="col3">Generiert die Sitemap, wenn auf <span class="codeph"> true</span> gesetzt. <p><p>Hinweis: Wenn die Konfiguration der Sitemap-Generierung auf "manual"festgelegt ist und <span class="codeph"> forceUpdate</span> nicht festgelegt ist, wird die Sitemap nicht generiert. </p></p></td> 
   </tr> 
  </tbody> 
 </table>
-
