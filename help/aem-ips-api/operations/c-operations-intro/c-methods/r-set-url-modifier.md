@@ -1,23 +1,22 @@
 ---
-description: Legt die Befehle des Image Serving- oder Image Rendering-Protokolls für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne ihn zu zerstören.
+description: Legt die Protokollbefehle für Image Serving oder Image Rendering für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 7%
 
 ---
 
-
 # setUrlModifier{#seturlmodifier}
 
-Legt die Befehle des Image Serving- oder Image Rendering-Protokolls für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne ihn zu zerstören.
+Legt die Protokollbefehle für Image Serving oder Image Rendering für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
 
-Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Katalog veröffentlicht und vor allen Befehlen angewendet, die in der Anforderungs-URL angegeben sind. Befehle in `urlPostApplyModifier` werden im Katalogfeld `PostModifier` veröffentlicht und überschreiben alle Befehle in der Anforderungs-URL oder in `urlModifier`. Beim Image Rendering werden die Befehle in `urlModifier` und `urlPostApplyModifier` verkettet und im Feld Modifier-Katalog veröffentlicht.
+Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Katalog veröffentlicht und vor allen Befehlen angewendet, die in der Anfrage-URL angegeben sind. Befehle in `urlPostApplyModifier` werden im Katalogfeld `PostModifier` veröffentlicht und überschreiben alle Befehle in der Anforderungs-URL oder in `urlModifier`. Beim Rendern von Bildern werden die Befehle in `urlModifier` und `urlPostApplyModifier` verkettet und im Feld Modifikatorkatalog veröffentlicht.
 
 ## Autorisierte Benutzertypen {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -30,16 +29,16 @@ Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Ka
 
 ## Parameter {#section-3304fe49bbe24ea1a886e19aaf41fb7d}
 
-**Input (setUrlModifierParam)**
+**Eingabe (setUrlModifierParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Firma Handle. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| `*`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung oder den Befehlen `urlPostApplyModifier` angewendet werden sollen. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die nach `urlModifier` angewendet werden, und Anforderungsbefehle. |
+| `*`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung angewendet werden, oder `urlPostApplyModifier`-Befehle. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die nach `urlModifier` angewendet werden und Befehle anfordern. |
 
-**Output (setUrlModifierReturn)**
+**Ausgabe (setUrlModifierReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
