@@ -1,21 +1,20 @@
 ---
-description: Auftragstyp, um den autorisierten Export bereits hochgeladener Dateien zu ermöglichen.
+description: Auftragstyp, um den autorisierten Export zuvor hochgeladener Dateien zu ermöglichen.
 solution: Experience Manager
 title: ExportJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 10%
 
 ---
 
-
 # ExportJob{#exportjob}
 
-Auftragstyp, um den autorisierten Export bereits hochgeladener Dateien zu ermöglichen.
+Auftragstyp, um den autorisierten Export zuvor hochgeladener Dateien zu ermöglichen.
 
 ExportJob unterstützt die folgenden Asset-Typen nicht:
 
@@ -40,12 +39,12 @@ ExportJob unterstützt die folgenden Asset-Typen nicht:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> Typen:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>Liste von <span class="codeph"> assetHandle</span>, die exportiert werden müssen. Siehe <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
+   <td colname="col3" valign="top"> <p>Liste der <span class="codeph"> assetHandle</span> , die exportiert werden müssen. Siehe <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Gibt den Typ von <span class="codeph"> export.Mögliche Werte</span> an: [orig, convert] </p> <p> 
+   <td colname="col3"> <p>Gibt den Typ von <span class="codeph"> export.Possible Values</span> an: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Wenn <span class="codeph"> fmt=orig</span>, werden die Assets als Original exportiert </li> 
       <li id="li_07F2F8D159934D889FDC1022AB12B564">Wenn <span class="codeph"> fmt=convert</span>, werden die Assets in das Format konvertiert, das in den Eingabeparametern <span class="codeph"> is_modifer</span> oder <span class="codeph"> macro</span> angegeben ist </li> 
@@ -54,7 +53,7 @@ ExportJob unterstützt die folgenden Asset-Typen nicht:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Gibt die Zeichenfolge <span class="codeph"> ImageServer</span> für die Render-URL an, die an die Anforderung ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der IS-Modifikatoren finden Sie in der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html">-IS-Dokumentation</a>. </p> </td> 
+   <td colname="col3"> <p>Gibt die Rendering-URL-Zeichenfolge <span class="codeph"> ImageServer</span> an, die an die ExportJob-Anfrage <span class="codeph"> convert</span> angehängt wird. </p> <p>Weitere Informationen zum Senden der IS-Modifikatoren finden Sie in der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS-Dokumentation</a> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
@@ -76,12 +75,12 @@ ExportJob unterstützt die folgenden Asset-Typen nicht:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Gibt die IP-Adresse des Kunden oder Kunden an, der die Exportanforderung initiiert hat. </p> <p> <p>Hinweis:  Dieser Parameter wird derzeit nicht aktiv ausgefüllt und ist ausschließlich für die zukünftige Verwendung reserviert. </p> </p> </td> 
+   <td colname="col3"> <p>Gibt die IP-Adresse des Kunden oder Kunden an, der die Exportanfrage initiiert hat. </p> <p> <p>Hinweis:  Dieser Parameter wird derzeit nicht aktiv ausgefüllt und ist ausschließlich für die zukünftige Verwendung reserviert. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Bei ExportJob-Anforderungen, bei denen `fmt=convert` und `is_modifier` und `macro` bereitgestellt werden, respektiert die Zieldatei das Format, das `macro` bereitstellt. Beispiel:
+Bei ExportJob-Anforderungen, bei denen `fmt=convert` und sowohl `is_modifier` als auch `macro` bereitgestellt werden, berücksichtigt die Zieldatei das Format, das von `macro` bereitgestellt wird. Beispiel:
 
 ```
 input_file = fileToExport.jpg
@@ -89,4 +88,3 @@ is_modifer = &fmt=png
 macro=$test$ 
 output_file = fileToExport.tiff
 ```
-
