@@ -1,21 +1,20 @@
 ---
-description: Ein Array, mit dem der Verfasser angegeben wird, oder eine Liste von bis zu 5 E-Mail-Adressen, um die Bestätigungsbenachrichtigung zu erhalten.
+description: Ein Array, das den Urheber bezeichnet, oder eine Liste mit bis zu fünf E-Mail-Adressen, an die die Benachrichtigung zur Bestätigung gesendet werden soll.
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 599cf951-f3b2-4f39-bca4-0c18784f7d56
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
 
-
 # EmailArray{#emailarray}
 
-Ein Array, mit dem der Verfasser angegeben wird, oder eine Liste von bis zu 5 E-Mail-Adressen, um die Bestätigungsbenachrichtigung zu erhalten.
+Ein Array, das den Urheber bezeichnet, oder eine Liste mit bis zu fünf E-Mail-Adressen, an die die Benachrichtigung zur Bestätigung gesendet werden soll.
 
 Syntax
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `xsd:string` | E-Mail-Adressen. |
-
