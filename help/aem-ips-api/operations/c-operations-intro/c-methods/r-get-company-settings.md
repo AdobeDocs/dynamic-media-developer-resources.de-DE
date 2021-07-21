@@ -1,21 +1,20 @@
 ---
-description: Gibt IPS-Einstellungen für eine bestimmte Firma zurück.
+description: Gibt IPS-Einstellungen für ein bestimmtes Unternehmen zurück.
 solution: Experience Manager
 title: getCompanySettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
 
-
 # getCompanySettings{#getcompanysettings}
 
-Gibt IPS-Einstellungen für eine bestimmte Firma zurück.
+Gibt IPS-Einstellungen für ein bestimmtes Unternehmen zurück.
 
 Syntax
 
@@ -28,21 +27,21 @@ Syntax
 
 ## Parameter {#section-e146f479c2744baa8f68be8c8848c97f}
 
-**Input (getCompanySettingsParam)**
+**Eingabe (getCompanySettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, deren Einstellungen Sie abrufen möchten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Einstellungen Sie abrufen möchten. |
 
-**Output (getCompanySettingsReturn)**
+**Ausgabe (getCompanySettingsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Einstellungen`*` | `types:CompanySettings` | Ja | Einstellungen für die Firma. |
+| `*`Einstellungen`*` | `types:CompanySettings` | Ja | Unternehmenseinstellungen. |
 
 ## Beispiele {#section-191f78995ecf473a95eadf7296204fd7}
 
-Dieses Codebeispiel gibt alle IPS-Einstellungen für eine bestimmte Firma zurück.
+Dieses Codebeispiel gibt alle IPS-Einstellungen für ein bestimmtes Unternehmen zurück.
 
 **Anforderung**
 
@@ -79,4 +78,3 @@ Dieses Codebeispiel gibt alle IPS-Einstellungen für eine bestimmte Firma zurüc
    </settings>
 </getCompanySettingsReturn>
 ```
-
