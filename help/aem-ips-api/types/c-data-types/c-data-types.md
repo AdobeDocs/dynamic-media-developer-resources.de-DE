@@ -3,15 +3,14 @@ description: Datentypen
 solution: Experience Manager
 title: Datentypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 4%
 
 ---
-
 
 # Datentypen{#data-types}
 
@@ -84,7 +83,7 @@ ht-degree: 4%
 + [GenerationAttributeArray](r-generation-attribute-array.md)
 + [GenerationInfo](r-generation-info.md)
 + [GenerationInfoArray](r-generation-info-array.md)
-+ [Group](r-group.md)
++ [Gruppe](r-group.md)
 + [GroupArray](r-group-array.md)
 + [HandleArray](r-handle-array.md)
 + [IccProfileFieldUpdate](r-icc-profile-field-update.md)
@@ -150,7 +149,7 @@ ht-degree: 4%
 + [PermissionSetArray](r-permission-set-array.md)
 + [PermissionUpdate](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
-+ [PerectiveQuad](r-perspective-quad.md)
++ [PerspectiveQuad](r-perspective-quad.md)
 + [FotoshopOptions](r-photoshop-options.md)
 + [FotoshopLayerOptions](r-photoshop-layer-options.md)
 + [PostScriptInfo](r-post-script-info.md)
