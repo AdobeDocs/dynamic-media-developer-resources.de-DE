@@ -3,15 +3,14 @@ description: Fügt dem Wörterbuch eines vorhandenen Tag-Felds neue Tag-Werte hi
 solution: Experience Manager
 title: addTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
-
 
 # addTagFieldValues{#addtagfieldvalues}
 
@@ -27,15 +26,15 @@ Syntax
 
 ## Parameter {#section-abe8893038bb4ddfaccc11a8c75e6bd0}
 
-**Input (addTagFieldValuesParam)**
+**Eingabe (addTagFieldValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff der Firma, die das Tag-Feld enthält. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | Der Griff des zu ändernden Tag-Felds. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, das das Tag-Feld enthält. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
 | `*`valueArray`*` | `xsd:string` | Ja | Ein Array von Tag-Werten, die dem vorhandenen Wörterbuch des Felds hinzugefügt werden sollen. |
 
-**Output (addTagFieldValuesParam)**
+**Ausgabe (addTagFieldValuesParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
