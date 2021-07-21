@@ -1,21 +1,20 @@
 ---
-description: Entfernt Firmen aus einer bestimmten Gruppe.
+description: Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
 solution: Experience Manager
 title: removeGroupMembers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 9%
 
 ---
 
-
 # removeGroupMembers{#removegroupmembers}
 
-Entfernt Firmen aus einer bestimmten Gruppe.
+Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
 
 **Unterschiede zwischen Entfernen-Befehlen**
 
@@ -30,21 +29,21 @@ Entfernt Firmen aus einer bestimmten Gruppe.
 
 ## Parameter {#section-b5596614a3be4ce5962455884e4636af}
 
-**Input (removeGroupMembersParam)**
+**Eingabe (removeGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma mit den Benutzern, mit denen Sie arbeiten möchten. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Gruppengriff. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen mit den Benutzern, mit denen Sie arbeiten möchten. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Gruppieren. |
 | `*`userHandleArray`*` | `types:HandleArray` | Ja | Ein Array von Handles für Benutzer, deren Gruppenmitgliedschaften Sie entfernen möchten. |
 
-**Output (removeGroupMembersParam)**
+**Ausgabe (removeGroupMembersParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Mit diesem Codebeispiel wird ein Benutzer aus der angegebenen Firma entfernt. Entfernen Sie mehrere Benutzer aus einer Gruppe mit dem Benutzerhandle-Array.
+Dieses Codebeispiel entfernt einen Benutzer aus dem angegebenen Unternehmen. Entfernen Sie mehrere Benutzer aus einer Gruppe mit dem Benutzerhandle-Array.
 
 **Anforderung**
 
