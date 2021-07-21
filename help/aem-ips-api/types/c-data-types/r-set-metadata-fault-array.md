@@ -2,16 +2,15 @@
 description: Ein Array von Metadatenfehlern.
 solution: Experience Manager
 title: SetMetadataFaultArray
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 76f453d0-27c5-4971-b854-25fc3cefd92c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
-
 
 # SetMetadataFaultArray{#setmetadatafaultarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`Elemente`*` | `types:SetMetadataFault` | Ein Array von Metadatenfehlern. |
-
