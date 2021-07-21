@@ -3,15 +3,14 @@ description: PDF-Dateieigenschaften.
 solution: Experience Manager
 title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 033bdcf2-ddb2-48c2-97ab-2f72cc7780c8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 24%
+source-wordcount: '27'
+ht-degree: 25%
 
 ---
-
 
 # PdfInfo{#pdfinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Dateipfad. |
 | `*`originalFile`*` | `xsd:int` | Dateiname. |
 | `*`fileSize`*` | `xsd:int` | Dateigröße. |
-
