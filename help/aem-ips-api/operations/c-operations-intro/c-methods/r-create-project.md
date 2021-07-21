@@ -3,15 +3,14 @@ description: Erstellt ein neues Projekt.
 solution: Experience Manager
 title: createProject
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 18%
 
 ---
-
 
 # createProject{#createproject}
 
@@ -30,22 +29,22 @@ Syntax
 
 ## Parameter {#section-8c741884eb54489bbaad0c444fee80b6}
 
-**Input (createProjectParam)**
+**Eingabe (createProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle der Firma, die mit dem neuen Projekt verknüpft ist. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des mit dem neuen Projekt verknüpften Unternehmens. |
 | `*`projectName`*` | `xsd:string` | Ja | Neuer Projektname. |
 
-**Output (createProjectParam)**
+**Ausgabe (createProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Ja | Der Griff zum neuen Projekt. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Der Handle für das neue Projekt. |
 
 ## Beispiele {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Dieses Codebeispiel erstellt ein Projekt mit dem Namen `ApiTestProject` in einer vom Handle angegebenen Firma. Die Antwort gibt den Handle an das Projekt zurück.
+Dieses Codebeispiel erstellt ein Projekt mit dem Namen `ApiTestProject` in einem Unternehmen, das durch sein Handle angegeben wird. Die Antwort gibt das Handle an das Projekt zurück.
 
 **Anforderung**
 
@@ -61,4 +60,3 @@ Dieses Codebeispiel erstellt ein Projekt mit dem Namen `ApiTestProject` in einer
    <projectHandle>p|6|ApiTestProject</projectHandle>
 </createProjectReturn>
 ```
-
