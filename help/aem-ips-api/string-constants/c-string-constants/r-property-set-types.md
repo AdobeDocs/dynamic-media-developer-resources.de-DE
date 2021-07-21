@@ -1,21 +1,20 @@
 ---
-description: Verwendet von PropertySetType
+description: Wird von PropertySetType verwendet
 solution: Experience Manager
 title: Eigenschaftssatztypen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 48c6a6fa-9d30-4318-bc7a-339a3f895006
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
 
-
 # Eigenschaftssatztypen{#property-set-types}
 
-Verwendet von PropertySetType
+Wird von PropertySetType verwendet
 
 Syntax
 
@@ -24,4 +23,3 @@ Syntax
 * [!DNL `UserProperty`]
 * [!DNL `CompanyProperty`]
 * [!DNL `UserCompanyProperty`]
-
