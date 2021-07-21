@@ -3,15 +3,14 @@ description: Eigenschaften eines animierten GIF-Datei-Assets.
 solution: Experience Manager
 title: AnimatedGifInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 11%
 
 ---
-
 
 # AnimatedGifInfo{#animatedgifinfo}
 
@@ -57,4 +56,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
