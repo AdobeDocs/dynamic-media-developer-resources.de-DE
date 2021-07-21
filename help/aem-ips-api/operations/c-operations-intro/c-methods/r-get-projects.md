@@ -3,15 +3,14 @@ description: Ruft Projekte für eine Gruppe verwandter Assets ab.
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getProjects{#getprojects}
 
@@ -30,21 +29,21 @@ Syntax
 
 ## Parameter {#section-8d549237b8c440b4872a0a086ddc00a1}
 
-**Input (getProjectsParam)**
+**Eingabe (getProjectsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zur Firma. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 
-**Output (getProjectsReturn)**
+**Ausgabe (getProjectsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | Ja | Das Array der mit der Firma verknüpften Projekte. |
+| `*`projectArray`*` | `types:ProjectArray` | Ja | Die mit dem Unternehmen verknüpfte Gruppe von Projekten. |
 
 ## Beispiele {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-Dieses Codebeispiel gibt alle Projektprozeduren in einem Projektarchiv zurück.
+Dieses Codebeispiel gibt alle Projekt-Handles in einem Projekt-Array zurück.
 
 **Anforderung**
 
@@ -70,4 +69,3 @@ Dieses Codebeispiel gibt alle Projektprozeduren in einem Projektarchiv zurück.
    </projectArray>
 </getProjectsReturn>
 ```
-
