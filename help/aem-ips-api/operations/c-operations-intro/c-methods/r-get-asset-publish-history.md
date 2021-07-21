@@ -3,15 +3,14 @@ description: Gibt den Veröffentlichungsverlauf für ein Asset zurück.
 solution: Experience Manager
 title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 16%
 
 ---
-
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
@@ -33,14 +32,14 @@ Syntax
 
 ## Parameter {#section-3541bd9914a44b89acfc1d419b560ee6}
 
-**Input (getAssetPublishHistoryParam)**
+**Eingabe (getAssetPublishHistoryParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für die Firma mit dem Asset-Veröffentlichungsverlauf. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset-Veröffentlichungsverlauf. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Das Asset mit dem Veröffentlichungsverlauf, den Sie untersuchen möchten. |
 
-**Output (getAssetPublishHistoryReturn)**
+**Ausgabe (getAssetPublishHistoryReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -66,4 +65,3 @@ Dieses Codebeispiel gibt den Veröffentlichungsverlauf eines Assets zurück. Ein
    <pubHistoryArray/>
 </getAssetPublishHistoryReturn>
 ```
-
