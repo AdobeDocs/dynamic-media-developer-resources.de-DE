@@ -3,15 +3,14 @@ description: Eigenschaften einer Flash-Datei.
 solution: Experience Manager
 title: FlashInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 21%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
-
 
 # FlashInfo{#flashinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Dateipfad. |
 | `*`originalFile`*` | `xsd:string` | Dateiname. |
 | `*`fileSize`*` | `xsd:int` | Dateigröße. |
-
