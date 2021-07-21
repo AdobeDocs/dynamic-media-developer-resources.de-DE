@@ -1,21 +1,20 @@
 ---
-description: Ein Array mit Kontexten zum Veröffentlichen.
+description: Ein Array von Veröffentlichungskontexten.
 solution: Experience Manager
 title: PublishContextArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 39ea8c8e-2e46-4b8f-ad30-5afe85ce98cb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
 
-
 # PublishContextArray{#publishcontextarray}
 
-Ein Array mit Kontexten zum Veröffentlichen.
+Ein Array von Veröffentlichungskontexten.
 
 Syntax
 
@@ -23,5 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`PublishContextArray`*` | `types:PublishContext` | Ein Array mit Kontexten zum Veröffentlichen. |
-
+| `*`PublishContextArray`*` | `types:PublishContext` | Ein Array von Veröffentlichungskontexten. |
