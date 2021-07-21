@@ -2,16 +2,15 @@
 description: Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata verwendet wird. Beschreibt die Änderungen, die Sie an Metadaten vornehmen möchten.
 solution: Experience Manager
 title: MetadataUpdate
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadaten
+role: Developer,Admin
+exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 1%
 
 ---
-
 
 # MetadataUpdate{#metadataupdate}
 
@@ -50,34 +49,34 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Wert für lange Metadaten (nur für Felder mit int-Typ). </td> 
+   <td colname="col3"> Lange Metadatenwerte (nur für int-typisierte Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:Dublette</span> </td> 
-   <td colname="col3"> Metadatenwert der Dublette (nur für Felder mit Fließkomma-Typ). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Doppelter Metadatenwert (nur für Felder mit Fließtext). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Datumsmetadatenwert (nur für datentypisierte Felder). </td> 
+   <td colname="col3"> Datum-Metadatenwert (nur für Felder mit Datentyp ). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
-   <td colname="col3"> <p>Fügt die vorhandene Tag-Wert-Liste für das Asset hinzu. 
+   <td colname="col3"> <p>Fügt der vorhandenen Tag-Wertliste für das Asset hinzu. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
-      <li id="li_358A3BDC0EC94CCF8178CD789F09F804">Tagfelder mit einem Wert speichern nur den letzten Wert. </li> 
-      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Ein festes Wörterbuch-Tag-Feld gibt einen Fehler zurück, wenn sich der Wert nicht im Wörterbuch befindet. </li> 
+      <li id="li_358A3BDC0EC94CCF8178CD789F09F804">In Tag-Feldern mit nur einem Wert wird nur der letzte Wert gespeichert. </li> 
+      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Ein festes Wörterbuch-Tag-Feld gibt einen Fehler zurück, wenn der Wert nicht im Wörterbuch enthalten ist. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
-   <td colname="col3">Ersetzt die vorhandene Tag-Wert-Liste für das Asset. 
+   <td colname="col3">Ersetzt die vorhandene Tag-Wertliste für das Asset. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
-     <li id="li_6E85019335034B2EB1302696AE690ED5">Tagfelder mit einem Wert speichern nur den letzten Wert. </li> 
-     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Ein festes Wörterbuch-Tag-Feld gibt einen Fehler zurück, wenn sich der Wert nicht im Wörterbuch befindet. </li> 
+     <li id="li_6E85019335034B2EB1302696AE690ED5">In Tag-Feldern mit nur einem Wert wird nur der letzte Wert gespeichert. </li> 
+     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Ein festes Wörterbuch-Tag-Feld gibt einen Fehler zurück, wenn der Wert nicht im Wörterbuch enthalten ist. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -87,4 +86,3 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
   </tr> 
  </tbody> 
 </table>
-
