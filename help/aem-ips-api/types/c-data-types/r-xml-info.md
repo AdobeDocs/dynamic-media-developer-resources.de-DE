@@ -3,15 +3,14 @@ description: Eigenschaften eines XML-Datei-Assets.
 solution: Experience Manager
 title: XmlInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1cf9bea9-6279-4b2a-a0cc-81cc71fb601d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
-
 
 # XmlInfo{#xmlinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Dateipfad. |
 | `*`originalFile`*` | `xsd:string` | Dateiname. |
 | `*`fileSize`*` | `xsd:int` | Dateigröße. |
-
