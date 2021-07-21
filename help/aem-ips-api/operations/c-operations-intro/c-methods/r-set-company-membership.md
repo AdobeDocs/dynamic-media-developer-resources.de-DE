@@ -1,21 +1,20 @@
 ---
-description: Legt die Mitgliedschaft eines Benutzers in einer oder mehreren Firmen fest.
+description: Legt die Mitgliedschaft eines Benutzers in einem oder mehreren Unternehmen fest.
 solution: Experience Manager
 title: setCompanyMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
 
-
 # setCompanyMembership{#setcompanymembership}
 
-Legt die Mitgliedschaft eines Benutzers in einer oder mehreren Firmen fest.
+Legt die Mitgliedschaft eines Benutzers in einem oder mehreren Unternehmen fest.
 
 Syntax
 
@@ -28,20 +27,20 @@ Syntax
 
 ## Parameter {#section-3930dc6a016140178631083563598104}
 
-**Input (setCompanyMembershipParam)**
+**Eingabe (setCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:sting` | Nein | Benutzerhandle. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Array von Firmen. |
+| `*`userHandle`*` | `xsd:sting` | Nein | Benutzerhandbuch. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Array von Unternehmen. |
 
-**Output (setCompanyMembershipParam)**
+**Ausgabe (setCompanyMembershipParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-862c0cc32ce0407ab248028e690a8386}
 
-Mit diesem Codebeispiel wird einer Firma ein Benutzer hinzugefügt. Geben Sie bei Bedarf mehrere Firmen im Firmen-Handle-Array an.
+Mit diesem Codebeispiel wird ein Benutzer zu einem Unternehmen hinzugefügt. Geben Sie bei Bedarf mehrere Unternehmen im Handle-Array des Unternehmens an.
 
 **Anforderung**
 
