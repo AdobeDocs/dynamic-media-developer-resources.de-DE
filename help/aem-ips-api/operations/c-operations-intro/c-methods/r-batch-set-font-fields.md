@@ -3,15 +3,14 @@ description: Legt Metadatenfelder für Schriftarten fest.
 solution: Experience Manager
 title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: f38aa861-2a81-4663-967e-72611122f51b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '130'
 ht-degree: 14%
 
 ---
-
 
 # batchSetFontFields{#batchsetfontfields}
 
@@ -27,22 +26,22 @@ Legt Metadatenfelder für Schriftarten fest.
 
 ## Parameter {#section-836f5948d00a46e98ccb62f0573e4e68}
 
-**Input (batchSetFontFieldsParam)**
+**Eingabe (batchSetFontFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Behandeln Sie die Firma, in der sich die Schriftarten befinden. |
-| `*`updateArray`*` | `types:FontFieldUpdateArray` | Ja | Array von Aktualisierungen für Schriftartenfelder. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handle an das Unternehmen, das die Schriftarten enthält. |
+| `*`updateArray`*` | `types:FontFieldUpdateArray` | Ja | Array von Schriftartaktualisierungen. |
 
-**Output (batchSetFontFieldsParam)**
+**Ausgabe (batchSetFontFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Schriftartfelder. |
-| `*`warningCount`*` | `xsd:int` | Ja | Anzahl der Warnungen, die beim Versuch des Vorgangs generiert wurden, Schriftartfelder festzulegen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Schriftartfelder festzulegen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Warnungen generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array mit Details zu den Assets, die Fehler generiert haben, wenn der Vorgang versuchte, die Aktualisierungen anzuwenden. |
+| `*`warningCount`*` | `xsd:int` | Ja | Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Schriftartfelder festzulegen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Anzahl der Fehler, die bei dem Versuch erzeugt wurden, Schriftartfelder festzulegen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
 
 ## Beispiele {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
@@ -74,4 +73,3 @@ Legt Metadatenfelder für Schriftarten fest.
    <errorCount>0</errorCount>
 </batchSetFontFieldsReturn>
 ```
-
