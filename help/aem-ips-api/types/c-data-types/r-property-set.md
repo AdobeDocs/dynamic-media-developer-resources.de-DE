@@ -3,15 +3,14 @@ description: Typ und Wert für einen Eigenschaftssatz.
 solution: Experience Manager
 title: PropertySet
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
-
 
 # PropertySet{#propertyset}
 
@@ -24,6 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `*`setHandle`*` | `xsd:string` | Eigenschaftensatz-Handle. |
-| `*`typeHandle`*` | `xsd:string` | Behandeln Sie den Eigenschaftssatztyp. |
-| `*`propertyArray`*` | `types:PropertyArray` | Name-Wert-Paar. Kann null Elemente enthalten. |
-
+| `*`typeHandle`*` | `xsd:string` | Behandeln Sie den Eigenschaftssatz-Typ. |
+| `*`propertyArray`*` | `types:PropertyArray` | Name-Wert-Paar. Kann keine Elemente enthalten. |
