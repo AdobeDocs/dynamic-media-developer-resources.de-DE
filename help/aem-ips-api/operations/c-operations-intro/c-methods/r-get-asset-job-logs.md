@@ -1,21 +1,20 @@
 ---
-description: Ruft die Auftragsprotokolle für ein Asset ab. Elemente, die im Array zurückgegeben werden, enthalten detaillierte Informationen zu jedem Eintrag im Auftragsprotokoll für dieses Asset. Das Antwortfeld logMessage wird basierend auf dem Feld authHeader lokalisiert.
+description: Ruft die Auftragsprotokolle für ein Asset ab. Die im Array zurückgegebenen Elemente enthalten detaillierte Informationen zu jedem Eintrag im Auftragsprotokoll für dieses Asset. Das Antwortfeld logMessage wird basierend auf dem Feld authHeader lokalisiert.
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 9%
 
 ---
 
-
 # getAssetJobLogs{#getassetjoblogs}
 
-Ruft die Auftragsprotokolle für ein Asset ab. Elemente, die im Array zurückgegeben werden, enthalten detaillierte Informationen zu jedem Eintrag im Auftragsprotokoll für dieses Asset. Das Antwortfeld logMessage wird basierend auf dem Feld authHeader lokalisiert.
+Ruft die Auftragsprotokolle für ein Asset ab. Die im Array zurückgegebenen Elemente enthalten detaillierte Informationen zu jedem Eintrag im Auftragsprotokoll für dieses Asset. Das Antwortfeld logMessage wird basierend auf dem Feld authHeader lokalisiert.
 
 Syntax
 
@@ -33,14 +32,14 @@ Syntax
 
 ## Parameter {#section-9586617e124b4da4acb6b66b2a9adad8}
 
-**Input (getAssetJobLogsParam)**
+**Eingabe (getAssetJobLogsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle der Firma, zu der das Asset gehört. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset mit den abzurufenden Auftragsprotokollen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Asset gehört. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Der Handle für das Asset mit den Auftragsprotokollen, die abgerufen werden sollen. |
 
-**Output (getAssetJobLogsReturn)**
+**Ausgabe (getAssetJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -83,4 +82,3 @@ Dieses Codebeispiel ruft die Auftragsprotokolle eines bestimmten Assets ab. Die 
    </jobLogArray>
 </getAssetJobLogsReturn>
 ```
-
