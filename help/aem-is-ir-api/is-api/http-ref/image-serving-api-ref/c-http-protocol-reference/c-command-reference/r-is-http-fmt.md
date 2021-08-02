@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 5%
 
 ---
@@ -22,33 +22,33 @@ Antwortbildformat.
 
 | *`format`* | Beschreibung |
 |---|---|
-| `avif-alpha` | Lustfreies und verlustfreies AVIF mit Alphakanal <br><br>*Veröffentlichungszeitleiste für dieses Format:* <br><b>Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Mittlerer Osten, Afrika</b> - 13. August 2021<br><b>Asien-Pazifik</b> - Jetzt verfügbar |
-| `avif` | Verlorene und verlustfreie AVIF <br><br>*Veröffentlichungszeitleiste für dieses Format:*<br><b> Nordamerika</b> - Jetzt verfügbar<br><b>Europa, Mittlerer Osten, Afrika</b> - 13. August 2021<br><b>Asien-Pazifik</b> - Jetzt verfügbar |
-| `eps` | Unkomprimiertes binäres Encapsulated PostScript |
-| `f4m` | Manifestformat des Flash-Streaming-Servers |
-| `gif-alpha` | GIF-Format mit 2 bis 255 Farben plus Key-Farbtransparenz |
-| `gif` | GIF mit 2 bis 256 Farben |
-| `jpeg` | Lossy JPEG |
-| `jpeg2000-alpha` | verlustfreies und verlustfreies JPEG 2000 mit Alphakanal |
-| `jpeg2000` | Verlust und verlustfreies JPEG 2000 |
-| `jpegxr-alpha` | verlustfreies und verlustfreies JPEG XR mit Alphakanal |
-| `jpegxr` | verlustfreies und verlustfreies JPEG XR |
-| `jpg` | Lossy JPG |
-| `m3u8` | Apple Streaming Server-Manifestformat |
-| `pdf` | Bild in PDF eingebettet |
-| `pjpeg` | Progressives JPEG |
-| `png-alpha` | 24-Bit-verlustfreies PNG mit Alphakanal |
-| `png` | 24-Bit-verlustfreies PNG |
-| `png8-alpha` | 8-Bit-verlustfreies PNG mit Alphakanal |
-| `png8` | verlustfreies 8-Bit-PNG |
-| `swf-alpha` | Lossy JPEG und eine deflate-komprimierte Maske, eingebettet in eine Adobe AS2 swf-Datei |
-| `swf` | Lossy JPEG eingebettet in eine Adobe AS2 swf-Datei |
+| `avif-alpha` | Verlust und verlustfreies AVIF mit Alphakanal. |
+| `avif` | Verlust und verlustfreies AVIF. |
+| `eps` | Unkomprimiertes binäres Encapsulated PostScript. |
+| `f4m` | Manifestformat des Flash-Streaming-Servers. |
+| `gif-alpha` | GIF-Format mit 2 bis 255 Farben plus Key-Farbtransparenz. |
+| `gif` | GIF mit 2 bis 256 Farben. |
+| `jpeg` | Lossy JPEG. |
+| `jpeg2000-alpha` | Verlust und verlustfreies JPEG 2000 mit Alphakanal. |
+| `jpeg2000` | Verlust und verlustfreies JPEG 2000. |
+| `jpegxr-alpha` | Lossy und verlustfreies JPEG XR mit Alphakanal. |
+| `jpegxr` | Verlust und verlustfreies JPEG XR. |
+| `jpg` | Verlorenes JPG. |
+| `m3u8` | Apple Streaming Server-Manifestformat. |
+| `pdf` | In PDF eingebettetes Bild. |
+| `pjpeg` | Progressives JPEG. |
+| `png-alpha` | 24-Bit-verlustfreies PNG mit Alphakanal. |
+| `png` | 24-Bit-verlustfreies PNG. |
+| `png8-alpha` | 8-Bit-verlustfreies PNG mit Alphakanal. |
+| `png8` | 8-Bit-verlustfreies PNG. |
+| `swf-alpha` | Lossy JPEG und eine deflate-komprimierte Maske, eingebettet in eine Adobe AS2 swf-Datei. |
+| `swf` | Verlorenes JPEG, eingebettet in eine Adobe AS2 swf-Datei. |
 | `swf3-alpha` | Lossy JPEG und eine deflate-komprimierte Maske eingebettet in eine Adobe AS3 swf-Datei. **Hinweis:** Die Formate swf und swf-alpha eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). Die Formate swf3 und swf3-alpha werden für ActionScript 3-Anwendungen empfohlen (Flash Player 9 und höher). |
-| `swf3` | Lossy JPEG eingebettet in eine Adobe AS3 swf-Datei |
-| `tif-alpha` | TIFF mit Alphakanal |
-| `tif` | TIFF |
-| `webp-alpha` | Verlust und verlustfreies WebP mit Alphakanal |
-| `webp` | Verlust und verlustfreies WebP |
+| `swf3` | Verlorenes JPEG, eingebettet in eine Adobe AS3 swf-Datei. |
+| `tif-alpha` | TIFF mit Alphakanal. |
+| `tif` | TIFF. |
+| `webp-alpha` | Verlust und verlustfreies WebP mit Alphakanal. |
+| `webp` | Verlust und verlustfreies WebP. |
 
 | *`pixelType`* – rgb | grau | cmyk |
 | *`pixelType`* | Beschreibung |
@@ -60,12 +60,12 @@ Antwortbildformat.
 | *`compression`* – none | lzw | zip | jpeg | verlustbehaftet | verlustfrei |
 | *`compression`* | Beschreibung |
 |---|---|
-| `jpeg` | JPEG-Komprimierung (verlustbehaftet) |
-| `lossy` | WebP-, JPEG 2000- und JPEG XR-Komprimierung (verlustbehaftet) |
-| `lossless` | WebP-, JPEG 2000- und JPEG XR-Komprimierung (verlustfrei) |
-| `lzw` | LZW-Komprimierung (Lempel-Ziv-Welch) (verlustfrei) |
-| `none` | Nicht komprimiert |
-| `zip` | Komprimierung &quot;Deflate&quot;(verlustfrei) |
+| `jpeg` | JPEG-Komprimierung (verlustbehaftet). |
+| `lossy` | WebP-, JPEG 2000- und JPEG XR-Komprimierung (verlustbehaftet). |
+| `lossless` | WebP-, JPEG 2000- und JPEG XR-Komprimierung (verlustfrei). |
+| `lzw` | LZW-Komprimierung (Lempel-Ziv-Welch) (verlustfrei). |
+| `none` | Nicht komprimiert. |
+| `zip` | Komprimierung &quot;Deflate&quot;(verlustfrei). |
 
 * *`format`* gibt das Bildkodierungsformat für an den Client gesendete Bilddaten und den entsprechenden Antwort-MIME-Typ für den HTTP-Antwort-Header an.
 * *`pixelType`* kann verwendet werden, um die Konvertierung des Ausgabefarbraums auszuführen, wenn nicht angegeben  `icc=` ist.
