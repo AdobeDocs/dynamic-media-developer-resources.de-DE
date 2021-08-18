@@ -5,9 +5,9 @@ title: Interaktives Video
 feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Wenn der Viewer im Popup-Modus ausgeführt wird, ist in der Benutzeroberfläche 
 
 Der Viewer zeigt ein Bedienfeld mit interaktiven Farbfeldern rechts neben dem Videoanzeigebereich an. Die Liste der Farbfelder wird bei der Videowiedergabe automatisch weitergeleitet, sodass Farbfelder angezeigt werden, die dem aktuellen Videobereich entsprechen. Durch Klicken oder Tippen auf ein Muster wird eine Aktion Trigger, die während der Autorenzeit mit diesem Muster verknüpft war. Je nachdem, wie Sie es einrichten, kann der Trigger zu einer anderen Seite der Website umleiten. Alternativ kann es Produktinformationen zurück an die Webseitenlogik übergeben, was wiederum das Öffnen einer Schnellansicht Trigger, die zugehörige Produktinhalte anzeigt.
 
-Es ist möglich, schnell durch den Videoinhalt zu navigieren, wenn die Videokapzeichnung aktiviert wird. Videokapitel werden als Markierungen in der Video-Scrubber-Spur angezeigt und zeigen den Kapiteltitel und die Beschreibung beim Rollover (oder bei einem einzelnen Tippen auf Touch-Systeme) an. Der Kunde kann ein bestimmtes Kapitel &quot;suchen&quot;, indem er auf eine Kapitelmarke klickt oder auf eine Kapitelbeschreibungsblase tippt.
+Es ist möglich, schnell durch den Videoinhalt zu navigieren, wenn das Videokapitel aktiviert ist. Videokapitel werden als Markierungen in der Video-Scrubber-Spur angezeigt und zeigen den Kapiteltitel und die Beschreibung beim Rollover (oder bei einem einzelnen Tippen auf Touch-Systeme) an. Der Kunde kann ein bestimmtes Kapitel &quot;suchen&quot;, indem er auf eine Kapitelmarke klickt oder auf eine Kapitelbeschreibungsblase tippt.
 
 Der Viewer unterstützt auch verschiedene Tools zur Freigabe in Social Media. Sie sind als einzelne Schaltfläche in der Benutzeroberfläche verfügbar, die sich zu einer Freigabesymbolleiste erweitert, wenn der Benutzer darauf klickt oder tippt. Die Freigabesymbolleiste enthält ein Symbol für jeden unterstützten Freigabekanaltyp wie Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe von E-Mails, die Einbettung von Freigabe oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Formular für die Dateneingabe an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer von einem Social-Media-Dienst zu einem standardmäßigen Dialogfeld für die Freigabe um. Außerdem wird die Videowiedergabe automatisch angehalten, wenn ein Freigabe-Tool aktiviert wird. Die Freigabe-Tools sind aufgrund der Sicherheitseinschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
 
@@ -280,7 +280,7 @@ Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit 
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demostandort](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Alternativer Demostandort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsive Einbettung mit definierter Breite und Höhe**
 
