@@ -6,9 +6,9 @@ title: Spin
 feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5
 
 ## Interagieren mit dem Rotationsset-Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Der Rotationsset-Viewer unterstützt die folgenden Berührungsgesten, die in anderen Mobile Apps häufig vorkommen. Wenn der Viewer die Wischgeste eines Benutzers nicht verarbeiten kann, leitet er das Ereignis an den Webbrowser weiter, um einen nativen Seitenbildlauf durchzuführen. Auf diese Weise kann der Benutzer durch die Seite navigieren, selbst wenn der Viewer den größten Teil des Gerätebildschirms einnimmt.
+Der Rotationsset-Viewer unterstützt die folgenden Berührungsgesten, die in anderen Mobile Apps häufig vorkommen. Wenn der Viewer die Wischgeste eines Benutzers nicht verarbeiten kann, leitet er das Ereignis an den Webbrowser weiter, um einen nativen Seitenbildlauf durchzuführen. Mit dieser Funktion kann der Benutzer durch die Seite navigieren, selbst wenn der Viewer den größten Teil des Gerätebildschirms einnimmt.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -65,7 +65,7 @@ Der Rotationsset-Viewer unterstützt die folgenden Berührungsgesten, die in and
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertikales Wischen oder Klick </p> </td> 
-   <td colname="col2"> <p> Wenn sich das Bild in einem Reset-Zustand befindet, ändert es den vertikalen Blickwinkel, falls ein mehrdimensionales Rotationsset verwendet wird. In einem eindimensionalen Rotationsset oder wenn sich ein mehrdimensionales Rotationsset auf der letzten oder ersten Achse befindet, sodass das vertikale Wischen nicht zu einer Änderung des vertikalen Blickwinkels führt, führt die Geste einen nativen Seitenbildlauf durch. </p> <p> Wenn das Bild vergrößert wird, wird es vertikal verschoben. Wenn das Bild an die Ansichtskante verschoben wird und weiterhin in diese Richtung gewischt wird, führt die Geste einen nativen Bildlauf durch. </p> </td> 
+   <td colname="col2"> <p> Wenn sich das Bild in einem Zurücksetzungsstatus befindet, ändert es den vertikalen Blickwinkel, falls ein mehrdimensionales Rotationsset verwendet wird. In einem eindimensionalen Rotationsset führt die Geste einen nativen Seitenbildlauf durch. Oder wenn sich ein mehrdimensionales Rotationsset auf der letzten oder ersten Achse befindet, sodass das vertikale Wischen nicht zu einer Änderung des vertikalen Blickwinkels führt, führt die Geste auch einen nativen Seitenbildlauf durch. </p> <p> Wenn das Bild vergrößert wird, wird es vertikal verschoben. Wenn das Bild an die Ansichtskante verschoben wird und weiterhin in diese Richtung gewischt wird, führt die Geste einen nativen Bildlauf durch. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt, di
 
 Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Design-Seiten, auf denen das Layout automatisch an den Gerätetyp angepasst wird.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Dies ist die beste Wahl für Webseiten mit statischem Layout.
+Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Aktion eignet sich am besten für Webseiten mit statischem Layout.
 
-Responsive Designeinbettung setzt voraus, dass der Viewer die Größe möglicherweise zur Laufzeit ändert, wenn die Größe des Containers `DIV` geändert wird. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Responsives Einbetten von Design setzt voraus, dass die Größe des Viewers zur Laufzeit geändert werden muss, um auf die Größenänderung des Containers reagieren zu können `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe der Web-Seite für den Container `DIV` angepasst wird. Wenn die Web-Seite nur die Breite des Containers `DIV` festlegt und dabei die Höhe unbegrenzt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Design-Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe der Web-Seite für den Container `DIV` angepasst wird. Wenn die Web-Seite nur die Breite des Containers `DIV` festlegt und dabei die Höhe unbegrenzt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist am häufigsten für Webseiten mit responsiven Design-Layout-Frameworks wie Bootstrap oder Foundation.
 
 Andernfalls füllt der Viewer, wenn die Web-Seite die Breite und Höhe für den Container des Viewers `DIV` festlegt, nur diesen Bereich und folgt der Größe, die das Layout der Web-Seite bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
@@ -141,7 +141,7 @@ Sie können den Rotationsset-Viewer wie folgt zu einer Web-Seite hinzufügen:
 
    >[!NOTE]
    >
-   >Sie sollten nur auf die JavaScript-Hauptdatei für den Viewer `include` auf Ihrer Seite verweisen. Sie sollten keine zusätzlichen JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5-SDK-Bibliothek `Utils.js` , die vom Viewer aus dem Kontextpfad `/s7viewers` geladen wird (so genanntes konsolidiertes SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe behält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server bei.
+   >Verweisen Sie auf der Seite nur auf die JavaScript-Datei `include` des Haupt-Viewers. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5-SDK-Bibliothek `Utils.js` , die vom Viewer aus dem Kontextpfad `/s7viewers` geladen wird (so genanntes konsolidiertes SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe behält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server bei.
    >
    >
    >Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion zukünftig beeinträchtigt, wenn ein direkter Verweis auf ein sekundäres JavaScript `include` gesetzt wird, das vom Viewer auf der Seite verwendet wird.
@@ -162,7 +162,7 @@ Sie können den Rotationsset-Viewer wie folgt zu einer Web-Seite hinzufügen:
 
    Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene `.s7spinviewer` in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
+   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen. Sie wird später einem Viewer-Vorgabendatensatz in Dynamic Media Classic zugewiesen oder explizit mithilfe eines Stilbefehls übergeben.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Rotationsset-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) .
 
@@ -175,7 +175,7 @@ Sie können den Rotationsset-Viewer wie folgt zu einer Web-Seite hinzufügen:
    }
    ```
 
-   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` oder als API-Aufruf übergeben, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen. Sie können sie auch explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, übergeben, z. B.:
 
    ```
     spinViewer.setParam("stagesize", 
@@ -190,7 +190,7 @@ Sie können den Rotationsset-Viewer wie folgt zu einer Web-Seite hinzufügen:
 
    Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()`-Methode direkt vor dem schließenden `BODY`-Tag oder das `onload()`-Ereignis im Hauptteil auf.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit dem `display:none`-Stil ausgeblendet werden, der ihm zugewiesen ist. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Container-Element nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit dem `display:none`-Stil ausgeblendet werden, der ihm zugewiesen ist. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. Das Beispiel geht davon aus, dass `spinViewer` die Viewer-Instanz ist, `s7viewer` der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] die Image Serving-URL und [!DNL Scene7SharedAssets/SpinSet_Sample] das Asset ist.
 
@@ -295,11 +295,11 @@ Die folgende Beispielseite zeigt reale Anwendungsfälle responsiven Designs, die
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demostandort](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Alternativer Demostandort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Flexible Größeneinbettung mit definierter Breite und Höhe**
 
-Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Das heißt, es stellt beide Größen für den Inhaber `DIV` bereit und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 %:
+Wenn eine Einbettung in flexibler Größe mit definierter Breite und Höhe erfolgt, unterscheidet sich der Webseitenstil. Das heißt, es stellt beide Größen für den Inhaber `DIV` bereit und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 %:
 
 ```
 <!DOCTYPE html> 
