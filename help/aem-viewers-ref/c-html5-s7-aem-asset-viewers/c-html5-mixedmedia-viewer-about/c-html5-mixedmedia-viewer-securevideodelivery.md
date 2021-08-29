@@ -2,21 +2,21 @@
 description: HTTPS-Videobereitstellung
 solution: Experience Manager
 title: HTTPS-Videobereitstellung
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f9651405-ebc6-4b1f-8fb6-031d0b295083
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # HTTPS-Videobereitstellung{#https-video-delivery}
 
->[!NOTE]
+<!-- >[!NOTE]
 >
->Die sichere Videobereitstellung gilt nur für AEM 6.2 mit der Installation von [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) und für AEM 6.1 mit der Installation von [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
 Sofern der Viewer in der Konfiguration funktioniert, wie am Anfang dieses Abschnitts beschrieben, kann die veröffentlichte Videobereitstellung sowohl im HTTPS-Modus (sicher) als auch im HTTP-Modus (unsicher) erfolgen. In einer Standardkonfiguration folgt das Videobereitstellungsprotokoll strikt dem Versandprotokoll der eingebetteten Webseite. Es ist jedoch möglich, die HTTPS-Videobereitstellung ohne Rücksicht auf das verwendete Protokoll zu erzwingen, indem die Webseite mit dem Konfigurationsattribut [VideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) eingebettet wird. (Beachten Sie, dass die Videovorschau im Autorenmodus immer sicher über HTTPS bereitgestellt wird.)
 

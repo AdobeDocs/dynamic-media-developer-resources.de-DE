@@ -5,9 +5,9 @@ title: Beispiele für Image-Server
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '124'
 ht-degree: 6%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 6%
 # Beispiele für Image-Server{#image-server-examples}
 
 Auf dieser Seite finden Sie einige Beispiele für Image-Server.
+<!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 * [Anpassen1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
 * [adapt2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
