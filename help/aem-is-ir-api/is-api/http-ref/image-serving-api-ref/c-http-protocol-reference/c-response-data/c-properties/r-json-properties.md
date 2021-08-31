@@ -5,9 +5,9 @@ title: JSONP-Eigenschaften
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -55,8 +55,8 @@ Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen,
 
 Das Dynamic Media Image Serving Viewers-Paket enthält ein Dienstprogramm zum Anfordern und Analysieren von JSONP-formatierten Daten aus Image Serving.
 
-Weitere Informationen zum JSONP-Format finden Sie unter [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) .
+Weitere Informationen zum JSONP-Format finden Sie unter [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) .
 
-Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](http://www.json.org) .
+Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](https://www.json.org) .
 
 Siehe auch [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

@@ -5,9 +5,9 @@ title: Bereitstellen von statischen (Nicht-Bild-)Inhalten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ Sie können Videountertiteldateien (WebVTT), CSS oder beliebige Textdateien im J
 
 Sie können auch Tracks für andere Arten zeitgesteuerter Metadaten verwenden. Die Quelldaten für jedes Verfolgungselement sind Textdateien, die aus einer Liste zeitgesteuerter Hinweise bestehen. Cues können Daten in Formaten wie JSON oder CSV enthalten.
 
-Weitere Informationen zum JSONP-Format finden Sie unter [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) .
+Weitere Informationen zum JSONP-Format finden Sie unter [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) .
 
-Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](http://www.json.org) .
+Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](https://www.json.org) .
 
 ## Verwandte Themen {#section-7b28631016044a22a3a6762fd64771e9}
 

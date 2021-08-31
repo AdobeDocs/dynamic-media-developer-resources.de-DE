@@ -5,10 +5,10 @@ title: Unterstützung für Adobe Analytics-Tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 3%
+source-wordcount: '195'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 }, 
 "handlers":{ 
  "trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) { 

@@ -5,9 +5,9 @@ title: IPS Web Service WSDL-Versionen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Um eine Anfrage zu verarbeiten, setzen Sie den SOAPAction-HTTP-Header auf den Na
 
 **Nachrichtenformat**
 
-Der Stil &quot;document/literal&quot;wird für alle Eingabe- und Ausgabemeldungen mit Typen verwendet, die auf der XML-Schemadefinitionssprache ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) basieren und in der WSDL-Datei angegeben sind. Für alle Typen sind qualifizierte Namen erforderlich, die den in der WSDL-Datei angegebenen Zielnamespace-Wert verwenden.
+Der Stil &quot;document/literal&quot;wird für alle Eingabe- und Ausgabemeldungen mit Typen verwendet, die auf der XML-Schemadefinitionssprache ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) basieren und in der WSDL-Datei angegeben sind. Für alle Typen sind qualifizierte Namen erforderlich, die den in der WSDL-Datei angegebenen Zielnamespace-Wert verwenden.
 
 **Authentifizierung anfordern**
 

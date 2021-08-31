@@ -5,9 +5,9 @@ title: Grundlegende Syntax des Image Serving-HTTP-Protokolls
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -85,4 +85,4 @@ Kommentare können überall in Anforderungszeichenfolgen eingebettet werden und 
 
 ## Verwandte Themen {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
-[Datentypen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa),  [HTTP/1.1-Spezifikation](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Datentypen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa),  [HTTP/1.1-Spezifikation](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
