@@ -5,9 +5,9 @@ title: Scene7 Version Herbst 2016
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe
 
 ## Viewer (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerkorrekturen für Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://
 
 ## Viewer (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerkorrekturen für Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://
 
 ## Viewer (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen für Image Serving 5.5.1**
 
