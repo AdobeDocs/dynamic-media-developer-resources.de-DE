@@ -1,20 +1,20 @@
 ---
-description: Wenn Sie auf die Schaltfläche Nächste Folie klicken oder tippen, wird ein Benutzer zur nächsten Folie im Karussellset geleitet.
-solution: Experience Manager
 title: Nächste Folie
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+description: Durch Auswahl der Schaltfläche "Nächste Folie"gelangt ein Benutzer zur nächsten Folie im Karussellset.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 3%
 
 ---
 
 # Nächste Folie{#next-slide}
 
-Wenn Sie auf die Schaltfläche Nächste Folie klicken oder tippen, wird ein Benutzer zur nächsten Folie im Karussellset geleitet.
+Durch Auswahl der Schaltfläche &quot;Nächste Folie&quot;gelangt ein Benutzer zur nächsten Folie im Karussellset.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
-Beispiel: Zum Einrichten einer vorherigen Schaltfläche mit einer Größe von 60 x 60 Pixel, einer Positionierung von 10 Pixel vom rechten und vertikal zentrierten Viewer-Rahmen und der Anzeige eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus.
+Angenommen, Sie möchten eine vorherige Schaltfläche mit einer Größe von 60 x 60 Pixel einrichten. Sie möchten, dass die Schaltfläche zehn Pixel vom rechten und vertikal zentrierten Viewer-Rahmen entfernt wird. Und Sie möchten, dass es für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

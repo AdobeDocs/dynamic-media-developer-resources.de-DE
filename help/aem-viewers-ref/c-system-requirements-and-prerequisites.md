@@ -6,9 +6,9 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 ## Serverhardware und -software {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 oder höher.
-* HTML5-Viewer benötigen SDK JavaScript™-Server-seitige Bibliotheken 3.11.1 oder höher.
+* HTML5-Viewer benötigen SDK-JavaScript-Server-seitige Bibliotheken 3.11.1 oder höher.
 * Social-Funktionen vom Typ &quot;E-Mail an Freunde&quot;erfordern s7ondemand 5.0.9 oder höher.
 * eCatalog-Viewer - Die Unterstützung des Info-Bedienfelds erfordert Info-Server 2.1.8 oder höher.
 * Für Suchfunktionskomponenten ist s7search 2.3.0 oder höher erforderlich.

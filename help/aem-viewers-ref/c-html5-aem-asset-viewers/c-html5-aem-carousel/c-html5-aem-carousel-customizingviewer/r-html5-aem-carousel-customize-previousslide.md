@@ -1,20 +1,20 @@
 ---
+title: Vorherige Folie
 description: Wenn Sie auf diese Schaltfläche klicken oder tippen, wird ein Benutzer zur vorherigen Folie im Karussellset zurückgeleitet. Diese Schaltfläche wird auf Touch-Geräten nicht angezeigt. Sie können diese Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
 solution: Experience Manager
-title: Vorherige Folie
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
 
 # Vorherige Folie{#previous-slide}
 
-Wenn Sie auf diese Schaltfläche klicken oder tippen, wird ein Benutzer zur vorherigen Folie im Karussellset zurückgeleitet. Diese Schaltfläche wird auf Touch-Geräten nicht angezeigt. Sie können diese Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
+Wenn Sie diese Schaltfläche auswählen, wird ein Benutzer zur vorherigen Folie im Karussellset zurückgeleitet. Diese Schaltfläche wird auf Touch-Geräten nicht angezeigt. Sie können diese Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -77,7 +77,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
-Beispiel: Zum Einrichten einer vorherigen Schaltfläche mit einer Größe von 60 x 60 Pixel, einer Positionierung von 10 Pixel vom linken und vertikal zentrierten Viewer-Rahmen und der Anzeige eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus.
+Angenommen, Sie möchten eine vorherige Schaltfläche mit einer Größe von 60 x 60 Pixel einrichten. Sie möchten, dass es zehn Pixel vom linken Viewer-Rahmen und vertikal zentriert wird. Und Sie möchten, dass es für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt.
 
 ```
 .s7carouselviewer .s7panleftbutton { 

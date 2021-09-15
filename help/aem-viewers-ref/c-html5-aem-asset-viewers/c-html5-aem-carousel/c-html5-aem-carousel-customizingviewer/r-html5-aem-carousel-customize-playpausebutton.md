@@ -1,13 +1,13 @@
 ---
+title: PlayPause-Schaltfläche
 description: Mit der Schaltfläche Wiedergabe/Pause kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
 solution: Experience Manager
-title: PlayPause-Schaltfläche
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
-Beispiel: Um eine Wiedergabe-Pause-Schaltfläche mit 28 x 28 Pixel einzurichten, die 17 Pixel vom unteren Rand und 12 Pixel vom linken Rand des Viewers entfernt ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus anzeigt, wenn diese ausgewählt oder nicht ausgewählt sind.
+Angenommen, Sie möchten eine Wiedergabepause-Schaltfläche mit einer Größe von 28 x 28 Pixel einrichten. Sie möchten, dass die Schaltfläche 17 Pixel vom unteren Rand und 12 Pixel vom linken Rand des Viewers entfernt wird. Außerdem soll ein anderes Bild für jeden der vier Schaltflächenstatus angezeigt werden, wenn diese ausgewählt oder nicht ausgewählt sind.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

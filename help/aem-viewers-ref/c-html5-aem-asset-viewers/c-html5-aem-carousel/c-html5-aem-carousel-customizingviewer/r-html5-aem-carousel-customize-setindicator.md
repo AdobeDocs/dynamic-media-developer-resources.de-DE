@@ -1,13 +1,13 @@
 ---
+title: Anzeige einstellen
 description: Set Indicator ist eine Reihe von Punkten, die unten im Viewer gerendert werden. Sie zeigt die aktuelle Position innerhalb des Sets an.
 solution: Experience Manager
-title: Anzeige einstellen
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Kla
 >
 >Der Festlegen-Indikator unterstützt die Modusattributauswahl, mit der Sie verschiedene Stile für gepunktete und numerische Vorgangsmodi anwenden können. Insbesondere entspricht `mode="numeric"` dem numerischen Betriebsmodus; `mode="dotted"` entspricht dem Standardpunktstatus.
 
-Beispiel: Zum Einrichten eines Set-Indikators mit weißem Hintergrund:
+Angenommen, Sie möchten einen Indikator mit weißem Hintergrund einrichten:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
 >
 >Die Festlegen-Indikatorelemente unterstützen die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` dem aktuellen Element im Satz; `state="unselected"` entspricht dem standardmäßigen Elementstatus.
 
-Beispiel: Zum Einrichten einer Set-Anzeige im gepunkteten Modus für Desktop-Systeme, die 20 Pixel vom unteren Rand des Viewers entfernt werden sollen. Nicht ausgewählte Punkte sind schwarz mit 50 % Transparenz, 15 x 15 Pixel mit 7 Pixel abgerundeten Ecken. Ausgewählte Punkte sind schwarz mit 90 % Transparenz, 18 x 18 Pixel mit 9 Pixel abgerundeten Ecken. Der Abstand zwischen Punkten beträgt 5 Pixel.
+Angenommen, Sie möchten eine Set-Anzeige im gepunkteten Modus für Desktop-Systeme einrichten. Sie möchten, dass sie 20 Pixel vom unteren Rand des Viewers entfernt wird. Und Sie möchten, dass nicht ausgewählte Punkte schwarz mit 50 % Transparenz, 15 x 15 Pixel mit sieben Pixel abgerundeten Ecken sind. Ausgewählte Punkte sind schwarz mit 90 % Transparenz, 18 x 18 Pixel mit neun abgerundeten Ecken. Der Abstand zwischen Punkten beträgt fünf Pixel.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

@@ -5,9 +5,9 @@ title: Kompatibilitätshinweise
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 * `IntialBitRate` -Modifikator wird nur bei Software-HLS- und Flash-HDS-Wiedergabe unterstützt. Es funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
 * Die progressive OGG- und WebM-Wiedergabe wird nicht unterstützt.
 * Die Browserskalierung bewirkt, dass der Videoplayer eine falsche Größe anzeigt (einschließlich Anzeigeeinstellungen für Windows® Control Panel ).
-* Die Videosuche mit HLS-Streaming in Safari ist inkonsistent.
+* Die Verwendung von HLS-Streaming in Safari bei der Videosuche ist inkonsistent.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -71,5 +71,5 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1 oder höher: Die Einstellungen des Internet-Plug-ins verhindern die Wiedergabe von Flash-Videos.
-* Die Videosuche mit HLS-Streaming in Safari ist inkonsistent.
+* Die Verwendung von HLS-Streaming in Safari bei der Videosuche ist inkonsistent.
 * Das Ende des Videos in Safari 6 kann nicht mithilfe von HLS-Streaming gesucht werden.
