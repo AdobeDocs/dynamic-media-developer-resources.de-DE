@@ -1,18 +1,18 @@
 ---
+title: getComponent
 description: JavaScript-API-Referenz für Karussell-Viewer.
 solution: Experience Manager
-title: getComponent**
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-# getComponent**{#getcomponent}
+# getComponent {#getcomponent}
 
 JavaScript-API-Referenz für Karussell-Viewer.
 
@@ -77,7 +77,7 @@ Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumenta
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` einen Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder die Komponente noch nicht von der Viewer-Logik erstellt wurde.
+`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder die Komponente noch nicht von der Viewer-Logik erstellt wurde.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: JavaScript-API-Referenz für Karussell-Viewer.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 64e9f83f-e17e-4544-825a-fd458e15fdb5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Stellt diese Viewer-Instanz bereit, indem alle von der Viewer-Logik verwendeten 
 
 Der Webseitencode sollte auch die Viewer-Instanzvariable löschen, um den Viewer vollständig aus dem Webbrowser-Speicher zu entfernen.
 
-Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden, oder externe Verweise auf solche Komponenten gespeichert hat, müssen diese Listener explizit vom Webseitencode abgemeldet werden. Solche externen Komponentenverweise müssen vor dem Aufruf von `dispose()` gelöscht werden.
+Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden - oder externe Verweise auf solche Komponenten gespeichert hat - müssen diese Listener explizit vom Webseitencode abgemeldet werden. Und diese externen Komponentenverweise müssen gelöscht werden, bevor `dispose()` aufgerufen wird.
 
 Greifen Sie nach dem Aufruf von `dispose()` nicht mehr auf die Viewer-API zu.
 

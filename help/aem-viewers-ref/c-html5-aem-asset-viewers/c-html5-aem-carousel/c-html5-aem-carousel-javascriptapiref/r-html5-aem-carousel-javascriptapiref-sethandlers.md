@@ -1,13 +1,13 @@
 ---
+title: setHandlers
 description: JavaScript-API-Referenz für Karussell-Viewer
 solution: Experience Manager
-title: setHandlers
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d269627a-e2f8-4ca6-96a1-a7dce312e06e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '85'
 ht-degree: 3%
 
 ---
