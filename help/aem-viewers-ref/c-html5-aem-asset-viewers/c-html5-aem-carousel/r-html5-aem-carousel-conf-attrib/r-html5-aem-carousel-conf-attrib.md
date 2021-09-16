@@ -1,13 +1,13 @@
 ---
+title: Befehlsreferenz - Konfigurationsattribute
 description: Dokumentation zu Konfigurationsattributen für Karussell-Viewer.
 solution: Experience Manager
-title: Befehlsreferenz - Konfigurationsattribute
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Einige Konfigurationsbefehle können dem Klassennamen oder Instanznamen der ents
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
-Das bedeutet, dass Sie diesen Befehl wie folgt verwenden können:
+In diesem Fall können Sie diesen Befehl verwenden:
 
 * `fmt` (kurze Syntax)
 * `CarouselView.fmt` (qualifiziert mit dem Namen der Komponentenklasse)
