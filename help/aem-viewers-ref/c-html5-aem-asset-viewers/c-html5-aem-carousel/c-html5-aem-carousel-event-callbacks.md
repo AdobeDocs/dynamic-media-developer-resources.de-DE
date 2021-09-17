@@ -1,13 +1,13 @@
 ---
+title: Ereignisrückrufe
 description: Ereignisrückrufe
 solution: Experience Manager
-title: Ereignisrückrufe
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Zu den unterstützten Viewer-Ereignissen zählen:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> Trigger, wenn der Benutzer einen Hotspot mit zugehörigen Schnellansichtsdaten aktiviert. Der Callback-Handler akzeptiert das folgende Argument: </p> <p> 
+   <td colname="col2"> <p> Trigger, wenn der Benutzer einen Hotspot mit Schnellansichtsdaten aktiviert. Der Callback-Handler akzeptiert das folgende Argument: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object}  </span> : ein JSON-Objekt, das Daten aus der Hotspot-Definition enthält. Das Feld <span class="codeph"> sku </span> ist obligatorisch, während andere Felder optional sind und von der Hotspot-Definition der Quelle abhängen. </p> </li> 
      </ul> </p> </td> 

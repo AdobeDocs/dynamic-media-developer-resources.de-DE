@@ -1,22 +1,22 @@
 ---
-description: Bestimmte Inhalte, die der Karussell-Viewer anzeigt, können lokalisiert werden. Dazu gehören Schaltflächen für die Objektnavigation.
-solution: Experience Manager
 title: Lokalisierung der Elemente der Benutzeroberfläche
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+description: Bestimmte Inhalte, die der Karussell-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält Schaltflächen für die Objektnavigation.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-Bestimmte Inhalte, die der Karussell-Viewer anzeigt, können lokalisiert werden. Dazu gehören Schaltflächen für die Objektnavigation.
+Bestimmte Inhalte, die der Karussell-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält Schaltflächen für die Objektnavigation.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Außerdem können benutzerdefinierte Werte für beliebig viele Gebietsschemata festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird, und kann auch benutzerdefinierte Werte für beliebig viele Gebietsschemas enthalten.
 
 Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für dieses Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
 

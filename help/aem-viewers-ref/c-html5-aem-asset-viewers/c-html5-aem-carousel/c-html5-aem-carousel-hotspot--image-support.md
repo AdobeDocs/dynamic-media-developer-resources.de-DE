@@ -1,13 +1,13 @@
 ---
+title: Unterstützung von Hotspots und Imagemaps
 description: Unterstützung von Hotspots und Imagemaps
 solution: Experience Manager
-title: Unterstützung von Hotspots und Imagemaps
-feature: Dynamic Media Classic,Viewer,SDK/API,Karussellbanner
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Hotspots und Regionen können entweder eine Schnellansichtsfunktion auf der Host
 
 ## Schnellansichts-Hotspots {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media von AEM erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine solche Imagemap aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt ihm den Hotspot oder die Imagemap-Daten. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite Trigger wird, öffnet sie ihre eigene Schnellansichtsimplementierung.
+Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media, Adobe Experience Manager, erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine solche Imagemap aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt ihm den Hotspot oder die Imagemap-Daten. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite Trigger wird, öffnet sie ihre eigene Schnellansichtsimplementierung.
 
 ## Zu externer Webseite umleiten {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Hotspots oder Imagemaps, die für den Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media von AEM erstellt wurden, leiten den Benutzer zu einer externen URL weiter. Abhängig von den bei der Bearbeitung vorgenommenen Einstellungen wird die URL in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browser-Fenster geöffnet.
+Hotspots oder Imagemaps, die für den Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media des Experience Managers erstellt wurden, leiten den Benutzer zu einer externen URL weiter. Abhängig von den bei der Bearbeitung vorgenommenen Einstellungen wird die URL in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browser-Fenster geöffnet.
