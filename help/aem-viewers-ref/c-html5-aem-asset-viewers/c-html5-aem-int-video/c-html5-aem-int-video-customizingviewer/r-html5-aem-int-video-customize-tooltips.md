@@ -1,20 +1,20 @@
 ---
-description: Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
-solution: Experience Manager
 title: QuickInfos
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+description: Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche, wie Schaltflächen, über QuickInfos, die beim Bewegen der Maus angezeigt werden.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
 # QuickInfos{#tooltips}
 
-Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
+Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche, wie Schaltflächen, über QuickInfos, die beim Bewegen der Maus angezeigt werden.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,11 +63,11 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
 
 >[!NOTE]
 >
->Falls QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften die Regel `!IMPORTANT` enthalten. Dies ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
+>Falls QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften die Regel `!IMPORTANT` enthalten. Diese Anmerkung ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
 
 ## Beispiel {#section-59e009fd05b14019936aba04d7ca779d}
 
-So richten Sie QuickInfos ein, die einen grauen Rahmen mit einem Radius von drei Pixel, schwarzem Hintergrund und weißem Text in Arial haben (11 Pixel):
+So richten Sie QuickInfos ein, die einen grauen Rahmen mit einem Radius von drei Pixel, schwarzem Hintergrund und weißem Text in Arial® haben, und zwar 11 Pixel:
 
 ```
 .s7tooltip { 

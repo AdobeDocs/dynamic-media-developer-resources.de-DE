@@ -1,20 +1,20 @@
 ---
-description: Der Hauptansichtsbereich ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
-solution: Experience Manager
 title: Hauptanzeige-Bereich
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+description: Der Hauptansichtsbereich ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 3%
 
 ---
 
 # Hauptanzeige-Bereich{#main-viewer-area}
 
-Der Hauptansichtsbereich ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich ist der Bereich, der von den interaktiven Farbfeldern belegt wird. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

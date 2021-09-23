@@ -1,13 +1,13 @@
 ---
+title: Veränderliches Volumen
 description: Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der ein Benutzer den Video-Player-Ton stummschalten oder deaktivieren kann.
 solution: Experience Manager
-title: Veränderliches Volumen
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ecef47c1-e659-4930-bfb1-cc5e7c059094
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---

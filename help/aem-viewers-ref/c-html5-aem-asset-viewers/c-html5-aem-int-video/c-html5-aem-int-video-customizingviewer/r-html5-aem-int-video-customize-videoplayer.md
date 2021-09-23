@@ -1,13 +1,13 @@
 ---
+title: Videoplayer
 description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 solution: Experience Manager
-title: Videoplayer
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Geschlossene Untertitel werden in einen internen Container im Videoplayer eingef
 
 ## Beispiel {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-So richten Sie Beschriftungstext auf einem halbtransparenten schwarzen Hintergrund auf 14 Pixel, hellgrau, Arial ein:
+So richten Sie einen Beschriftungstext mit einer Breite von 14 Pixel, hellgrau, Arial®, auf einem halbtransparenten schwarzen Hintergrund ein:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 

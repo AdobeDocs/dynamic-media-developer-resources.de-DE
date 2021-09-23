@@ -1,13 +1,13 @@
 ---
+title: Videobauber
 description: Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
 solution: Experience Manager
-title: Videobauber
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutze
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber zu entlüften. ihre Höhe und vertikale Position durch CSS ändern.
+Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber zu entlüften und seine Höhe und vertikale Position durch CSS zu ändern.
 
 Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -158,7 +158,7 @@ Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
 
 Die QuickInfo für Video-Scrubber kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-**Beispiel** : Zum Einrichten eines Video-Viewers mit einem Video-Scrubber mit benutzerdefinierten Spurfarben mit einer Größe von 10 Pixel und einer Positionierung von 10 Pixel und 35 Pixel von der oberen und linken Kante der Steuerleiste.
+**Beispiel** : Zum Einrichten eines Video-Viewers mit einem Video-Scrubber und benutzerdefinierten Track-Farben, die zehn Pixel groß sind. Positionieren Sie sie zehn Pixel und 35 Pixel von den oberen und linken Kanten der Steuerleiste.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Wenn die Videokapzeichnung mit dem Parameter `navigation` aktiviert ist, werden Kapitelspeicherorte als Markierungen auf der Video-Scrubber-Spur angezeigt.
+Wenn die Videokapitelmarke mit dem Parameter `navigation` aktiviert ist, werden Kapitelspeicherorte als Markierungen auf der Videokassettenspur angezeigt.
 
 Die Videokapitelmarke wird durch den folgenden CSS-Klassenselektor gesteuert:
 
@@ -430,7 +430,7 @@ Die Beschreibung des Videokapitels wird durch den folgenden CSS-Klassenselektor 
  </tbody> 
 </table>
 
-**Beispiel** : Um eine Videokapitelbeschreibung mit einer dunkelgrauen, 11 Pixel großen Verdana-Schriftart mit hellgrauem Hintergrund einzurichten; 5 Pixelzeilenhöhe, 12 Pixel horizontaler Abstand, 12 Pixel oberer Abstand und 9 Pixel untere Abstände.
+**Beispiel** : Um eine Videokapitelbeschreibung mit einer dunkelgrauen, 11 Pixel großen Verdana-Schriftart mit hellgrauem Hintergrund einzurichten. Eine 5-Pixel-Zeilenhöhe, ein horizontaler Abstand von 12 Pixeln, ein Top-Abstand von 12 Pixel und ein Abstand von neun Pixel am Boden.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 

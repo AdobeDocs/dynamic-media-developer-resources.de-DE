@@ -1,13 +1,13 @@
 ---
+title: Interaktive Muster
 description: Das interaktive Bedienfeld "Muster"wird neben dem Videoinhalt angezeigt, wenn interaktive Daten in der Konfiguration an den Viewer übergeben wurden. Es besteht aus einem Banner oben, das Text wie "Click to View", eine Spalte mit mindestens einem interaktiven Farbfeld und zwei Bildlauftasten (nur auf Desktop-Systemen verfügbar) rendert.
 solution: Experience Manager
-title: Interaktive Muster
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -62,11 +62,11 @@ Die Laufzeitposition und -ausrichtung des interaktiven Bedienfelds wird durch ei
 * Um interaktive Muster horizontal am unteren Rand des Viewers zu rendern, legen Sie die Höhe auf einen absoluten Pixelwert fest. von links und von unten nach 0px; width, right und top to auto.
 * Um interaktive Muster vertikal rechts neben dem Videoinhalt zu rendern, legen Sie die Breite auf ein absolutes Pixel fest. von rechts und von oben bis 0px; Höhe, links und unten bis Auto.
 
-Es ist möglich, CSS-Markierungen in Verbindung mit diesem Stil zu verwenden, um eine adaptive Platzierung des interaktiven Bedienfelds &quot;Farbfelder&quot;zu erreichen.
+Es ist möglich, CSS-Markierungen mit diesem Stil zu verwenden, um eine adaptive Platzierung des interaktiven Bedienfelds &quot;Muster&quot;zu erreichen.
 
 ## Beispiel {#example}
 
-So richten Sie ein interaktives Bedienfeld für Muster ein, das am unteren Rand des Viewers auf Touch-Geräten im Querformat horizontal dargestellt und in allen anderen Fällen vertikal rechts neben dem Videoinhalt angezeigt wird:
+So richten Sie ein interaktives Bedienfeld für Muster ein, das am unteren Rand des Viewers auf Touch-Geräten horizontal im Querformat dargestellt wird. Und um ihn in allen anderen Fällen vertikal rechts neben dem Videoinhalt anzuzeigen:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ Der folgende CSS-Klassenselektor steuert den Abstand zwischen Musterminiaturansi
 
 ## Beispiel {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-So legen Sie den vertikalen Abstand auf 10 Pixel fest:
+So legen Sie einen vertikalen Abstand von zehn Pixel fest:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 
 ## Beispiel {#section-eb141eb6c1154183baa69796edb90536}
 
-So richten Sie Beschriftungen für linksbündig, weiß, 12 Pixel in der Helvetica-Schriftart und einen unteren Rand ein:
+So richten Sie Beschriftungen für linksbündig, weiß, 12 Pixel in der Helvetica®-Schriftart und einen unteren Rand ein:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

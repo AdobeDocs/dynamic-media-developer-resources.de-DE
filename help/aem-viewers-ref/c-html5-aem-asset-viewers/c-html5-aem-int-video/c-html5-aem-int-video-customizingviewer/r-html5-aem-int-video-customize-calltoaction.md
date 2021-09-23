@@ -1,11 +1,11 @@
 ---
+title: Aktionsaufruf
 description: Das Fenster Aktionsaufruf wird angezeigt, wenn das Video beendet wird, und alle interaktiven Muster, die mit dem betreffenden Video verknüpft sind, werden angezeigt.
 solution: Experience Manager
-title: Aktionsaufruf
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 2%
@@ -191,7 +191,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schließen-Sch
 
 ## Beispiel {#example-3}
 
-So richten Sie eine Wiederholungsschaltfläche von 28 x 28 Pixel ein; 20 Pixel von der oberen und von der rechten Kante der Kopfzeile entfernt; zeigt für jeden der vier Schaltflächenstatus ein anderes Bild an; nimmt das Bildmaterial aus dem Sprite-Bild der Komponente:
+Um eine Wiederholungsschaltfläche von 28 x 28 Pixel einzurichten. Die Schaltfläche muss 20 Pixel vom oberen und vom rechten Rand der Kopfzeile entfernt positioniert werden. Außerdem muss für jeden der vier Schaltflächenstatus ein anderes Bild angezeigt werden. nimmt das Bildmaterial aus dem Sprite-Bild der Komponente:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Thumb-Zelle im
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## CSS-Eigenschaften der Thumbcell im Aktionsaufruf-Bedienfeld: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## CSS-Eigenschaften der Thumb-Zelle im Aktionsaufruf-Bedienfeld: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 
 ## Beispiel {#example-7}
 
-Um Beschriftungen einzurichten, die eine weiße Farbe verwenden, müssen Sie 15 Pixel zentriert ausrichten und eine Arial-Schriftart verwenden:
+Um Beschriftungen einzurichten, die eine weiße Farbe verwenden, sollten Sie eine zentrierte Ausrichtung von 15 Pixel und eine Arial®-Schriftart verwenden:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: Linkfreigabe
 description: Das Tool zur Linkfreigabe besteht aus einer Schaltfläche, die zum Social-Freigabe-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
-title: Linkfreigabe
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das Dialogfeld aktiv ist, wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das aktive Dialogfeld mit der folgenden CSS-Klassenauswahl gesteuert wird:
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -284,7 +284,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 22 x 12 Pixel großen Symbol, einem fett gedruckten 16-Punkt-Titel und einer 28 x 28 Pixel großen Schließen-Schaltfläche, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
+**Beispiel** : Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, 22 x 12 Pixel-Symbol mit einem fett gedruckten 16-Punkt-Titel. Und schließlich eine 28 x 28 Pixel große Schließen-Schaltfläche, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 >
 >Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
+Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ Der Hauptdialogbereich (zwischen der Kopf- und Fußzeile) enthält Dialogfeldinh
 }
 ```
 
-Alle Formularinhalte wie Beschriftungen und Eingabefelder befinden sich in einem Container, der mit der folgenden CSS-Klassenauswahl gesteuert wird:
+Der gesamte Formularinhalt - z. B. Beschriftungen und Eingabefelder - befindet sich in einem Container, der mit der folgenden CSS-Klassenauswahl gesteuert wird:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ Alle Formularinhalte wie Beschriftungen und Eingabefelder befinden sich in einem
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten von Formularinhalten mit 10 Pixel Abstand:
+**Beispiel** : Zum Einrichten von Formularinhalten mit zehn Pixelabständen:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -634,7 +634,7 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften des Dialogfelds geben ein breites Feld ein**
+**CSS-Eigenschaften des für die gesamte Eingabe des Dialogfelds vorgesehenen Felds**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

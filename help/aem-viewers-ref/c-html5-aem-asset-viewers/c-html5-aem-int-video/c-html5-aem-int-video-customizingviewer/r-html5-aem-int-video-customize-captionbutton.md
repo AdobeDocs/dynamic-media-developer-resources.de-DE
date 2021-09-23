@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Beschriftung"
 description: Mit dieser Schaltfläche wird die Anzeige von Untertiteln ein- und ausgeschaltet. Sie ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist.
 solution: Experience Manager
-title: Schaltfläche "Beschriftung"
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen f
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Um eine Untertitelschaltfläche mit 28 x 28 Pixel einzurichten, positionieren Sie vier Pixel von der oberen Seite und 68 Pixel von der rechten Kante der Steuerleiste und zeigen Sie für jeden der vier Schaltflächenstatus ein anderes Bild an, wenn diese ausgewählt oder nicht ausgewählt sind.
+So richten Sie eine Untertitelschaltfläche von 28 x 28 Pixel ein. Die Schaltfläche muss vier Pixel von der oberen Seite und 68 Pixel von der rechten Kante der Steuerleiste entfernt positioniert werden. Außerdem muss für jeden der vier Schaltflächenstatus ein anderes Bild angezeigt werden, wenn diese ausgewählt oder nicht ausgewählt sind.
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton { 

@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Wiedergabe/Pause"
 description: Durch die Schaltfläche "Wiedergabe/Pause"wird der Videoinhalt vom Videoplayer wiedergegeben oder angehalten, wenn ein Benutzer darauf klickt.
 solution: Experience Manager
-title: Schaltfläche "Wiedergabe/Pause"
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '263'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 >
 >Diese Schaltfläche unterstützt die Attributselektoren `state`, `selected` und `replay`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;play&quot;und `selected='false'` dem Status &quot;pause&quot;;
 >
->`replay='true'` festgelegt ist, wenn das Video das Ende erreicht hat und durch Klicken auf die Schaltfläche die Wiedergabe von Anfang an neu gestartet wird.
+>Das Attribut `replay='true'` wird festgelegt, wenn das Video das Ende erreicht hat und die Auswahl der Schaltfläche die Wiedergabe von Anfang an neu startet.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-So richten Sie eine Wiedergabe-/Pausenschaltfläche von 32 x 32 Pixel ein; Es wird sechs Pixel vom oberen und linken Rand der Steuerleiste entfernt und zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn ausgewählt oder nicht ausgewählt.
+Um eine Wiedergabe-/Pausenschaltfläche mit 32 x 32 Pixel einzurichten, die sechs Pixel von der oberen und linken Kante der Steuerleiste entfernt ist. Schließlich wird für jeden der vier Schaltflächenstatus ein anderes Bild angezeigt, wenn er ausgewählt oder nicht ausgewählt ist.
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

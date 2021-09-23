@@ -1,20 +1,20 @@
 ---
-description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren UI-Steuerelemente enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche, Lautstärkeregler usw.
-solution: Experience Manager
 title: Kontrollleiste
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche und Lautstärkeregler.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 685fad5a-a75a-4c0c-9038-de99d814f4be
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
 
 # Kontrollleiste{#control-bar}
 
-Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren UI-Steuerelemente enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche, Lautstärkeregler usw.
+Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche und Lautstärkeregler.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

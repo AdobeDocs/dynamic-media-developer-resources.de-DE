@@ -1,13 +1,13 @@
 ---
+title: Symboleffekt
 description: Das Wiedergabesymbol wird im Hauptansichtsbereich überlagert. Es wird angezeigt, wenn das Video angehalten wird oder wenn das Ende des Videos erreicht wird, und es hängt auch vom iconffekt -Parameter ab.
 solution: Experience Manager
-title: Symboleffekt
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
  </tbody> 
 </table>
 
-Der Symboleffekt unterstützt die Attributauswahl `state`. `state="play"` wird verwendet, wenn das Video während der Wiedergabe angehalten wird, und  `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
+Der Symboleffekt unterstützt die Attributauswahl `state`. Das Attribut `state="play"` wird verwendet, wenn das Video mitten in der Wiedergabe angehalten wird, und `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
