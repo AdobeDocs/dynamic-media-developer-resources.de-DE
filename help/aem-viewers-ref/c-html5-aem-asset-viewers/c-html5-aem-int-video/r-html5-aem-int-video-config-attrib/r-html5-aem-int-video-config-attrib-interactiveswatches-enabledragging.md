@@ -1,14 +1,14 @@
 ---
+title: InteractiveSwatches.enabledragging
 description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
-title: InteractiveSwatches.enabledragging
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Befindet sich im Bereich <span class="codeph"> 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Wenn auf <span class="codeph"> 1 </span> gesetzt, wird es mit der Maus verschoben. </p> <p>Wenn auf <span class="codeph"> 0 </span> gesetzt, können Sie sich nicht in die falsche Richtung bewegen. </p> </td> 
+   <td colname="col2"> <p> Befindet sich im Bereich <span class="codeph"> 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Wenn auf <span class="codeph"> 1 </span> gesetzt, wird es mit der Maus verschoben. </p> <p>Wenn der Wert auf <span class="codeph"> 0 </span> gesetzt ist, können Sie sich nicht in die falsche Richtung bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,22 +1,22 @@
 ---
-description: Bestimmte Inhalte, die der interaktive Video-Viewer anzeigt, können lokalisiert werden. Dazu gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
-solution: Experience Manager
 title: Lokalisierung der Elemente der Benutzeroberfläche
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+description: Bestimmte Inhalte, die der interaktive Video-Viewer anzeigt, können lokalisiert werden. Zu solchen Inhalten gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-Bestimmte Inhalte, die der interaktive Video-Viewer anzeigt, können lokalisiert werden. Dazu gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+Bestimmte Inhalte, die der interaktive Video-Viewer anzeigt, können lokalisiert werden. Zu solchen Inhalten gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Außerdem können benutzerdefinierte Werte für beliebig viele Gebietsschemata festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßig zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), das mit dem standardmäßigen Viewer bereitgestellt wird. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
 
 Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für dieses Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
 

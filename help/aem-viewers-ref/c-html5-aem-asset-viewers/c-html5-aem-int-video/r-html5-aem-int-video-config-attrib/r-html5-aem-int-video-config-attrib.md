@@ -1,13 +1,13 @@
 ---
+title: Befehlsreferenz - Konfigurationsattribute
 description: Dokumentation zu Konfigurationsattributen für interaktiven Video-Viewer.
 solution: Experience Manager
-title: Befehlsreferenz - Konfigurationsattribute
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Einige Konfigurationsbefehle können dem Klassennamen oder Instanznamen der ents
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-Das bedeutet, dass Sie diesen Befehl wie folgt verwenden können:
+Und bedeutet, dass Sie den folgenden Befehl wie folgt verwenden können:
 
 * `playback` (kurze Syntax)
 * `VideoPlayer.playback` (qualifiziert mit dem Namen der Komponentenklasse)

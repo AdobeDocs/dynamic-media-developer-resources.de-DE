@@ -1,13 +1,13 @@
 ---
+title: Interaktives Video
 description: Der Viewer für interaktive Videos ist ein Videoplayer, der Streaming- und progressive Videos wiedergibt, die im H.264-Format kodiert sind.
 solution: Experience Manager
-title: Interaktives Video
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene `.s7interactivevideoviewer` in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.
 
-   Sie können die Größe in CSS direkt auf die HTML-Seite setzen. Oder Sie können sie in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die später in AEM Assets einem Viewer-Vorgabendatensatz zugewiesen wird - On-Demand oder explizit mit dem Befehl `style` übergeben wird.
+   Sie können die Größe in CSS direkt auf die HTML-Seite setzen. Alternativ können Sie sie in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die später in Adobe Experience Manager Assets On-Demand einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit dem Befehl `style` übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des interaktiven Video-Viewers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
@@ -139,7 +139,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den Modifikator `stagesize` im Viewer-Vorgabendatensatz in AEM Assets - On-Demand festlegen. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` oder als API-Aufruf übergeben, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
+   Sie können den Modifikator `stagesize` im Viewer-Vorgabeneintrag in Experience Manager Assets - On-Demand festlegen. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` oder als API-Aufruf übergeben, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");

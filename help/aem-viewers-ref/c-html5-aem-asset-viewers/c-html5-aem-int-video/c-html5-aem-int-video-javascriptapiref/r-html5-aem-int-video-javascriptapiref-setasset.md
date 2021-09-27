@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: JavaScript-API-Referenz für interaktiven Video-Viewer.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 24d8d11d-4688-4ca0-92ae-824a5e984a10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---

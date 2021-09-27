@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.ssl
 description: Konfigurationsattribut für interaktiven Video-Viewer.
 solution: Experience Manager
-title: VideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 16e17e2f-be98-4a5a-ba5e-5d18e7f76fa4
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---

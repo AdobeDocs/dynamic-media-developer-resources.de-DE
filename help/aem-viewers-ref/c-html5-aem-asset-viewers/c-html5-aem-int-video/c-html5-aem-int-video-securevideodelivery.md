@@ -1,13 +1,13 @@
 ---
+title: HTTPS-Videobereitstellung
 description: HTTPS-Videobereitstellung
 solution: Experience Manager
-title: HTTPS-Videobereitstellung
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Sofern der Viewer in der Konfiguration funktioniert, wie am Anfang dieses Abschnitts beschrieben, kann die veröffentlichte Videobereitstellung sowohl im HTTPS-Modus (sicher) als auch im HTTP-Modus (unsicher) erfolgen. In einer Standardkonfiguration folgt das Videobereitstellungsprotokoll strikt dem Versandprotokoll der eingebetteten Webseite. Es ist jedoch möglich, die HTTPS-Videobereitstellung ohne Rücksicht auf das verwendete Protokoll zu erzwingen, indem die Webseite mit dem Konfigurationsattribut [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) eingebettet wird. (Beachten Sie, dass die Videovorschau im Autorenmodus immer sicher über HTTPS bereitgestellt wird.)
+Wenn der Viewer in der Konfiguration funktioniert, wie am Anfang dieses Abschnitts beschrieben, kann die veröffentlichte Videobereitstellung sowohl im HTTPS-Modus (sicher) als auch im HTTP-Modus (unsicher) erfolgen. In einer Standardkonfiguration folgt das Videobereitstellungsprotokoll strikt dem Versandprotokoll der eingebetteten Webseite. Es ist jedoch möglich, die HTTPS-Videobereitstellung ohne Rücksicht auf das verwendete Protokoll zu erzwingen, indem die Webseite mit dem Konfigurationsattribut [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) eingebettet wird. (Die Videovorschau im Autorenmodus wird immer sicher über HTTPS bereitgestellt.)
 
-Je nach der Veröffentlichungsmethode für Dynamic Media-Videos, die Sie in AEM verwenden, wird das Konfigurationsattribut `VideoPlayer.ssl` unterschiedlich angewendet, wie im Folgenden gezeigt:
+Je nach der Veröffentlichungsmethode für Dynamic Media-Videos, die Sie in Adobe Experience Manager verwenden, wird das Konfigurationsattribut `VideoPlayer.ssl` unterschiedlich angewendet, wie im Folgenden gezeigt:
 
 * Wenn Sie ein Dynamic Media-Video mit einer URL veröffentlichen, hängen Sie `VideoPlayer.ssl` an die URL an. Um beispielsweise die sichere Videobereitstellung zu erzwingen, hängen Sie `&VideoPlayer.ssl=on` am Ende der folgenden Viewer-URL an:
 

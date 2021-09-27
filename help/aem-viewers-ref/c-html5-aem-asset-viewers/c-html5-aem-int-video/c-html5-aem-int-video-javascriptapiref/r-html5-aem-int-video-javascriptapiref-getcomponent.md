@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: JavaScript-API-Referenz für interaktiven Video-Viewer.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Viewer,SDK/API,interaktive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -103,13 +103,13 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
  </tbody> 
 </table>
 
-Beim Arbeiten mit SDK-APIs ist es wichtig, den richtigen vollständig qualifizierten SDK-Namespace zu verwenden, wie unter [Viewer SDK-Namespace](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621) beschrieben.
+Beim Arbeiten mit SDK-APIs ist es wichtig, einen korrekten, vollständig qualifizierten SDK-Namespace zu verwenden, wie unter [Viewer SDK-Namespace](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621) beschrieben.
 
 Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur *Viewer-SDK-API* .
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` einen Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder die Komponente noch nicht von der Viewer-Logik erstellt wurde.
+`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder die Komponente noch nicht von der Viewer-Logik erstellt wurde.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
