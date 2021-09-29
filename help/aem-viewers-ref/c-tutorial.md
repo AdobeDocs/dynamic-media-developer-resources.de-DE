@@ -1,13 +1,13 @@
 ---
+title: Viewer-SDK-Tutorial
 description: Das Viewer-SDK bietet eine Reihe JavaScript-basierter Komponenten für die benutzerdefinierte Viewer-Entwicklung. Die Viewer sind webbasierte Anwendungen, mit denen von Adobe Dynamic Media bereitgestellte Rich-Media-Inhalte in Webseiten eingebettet werden können.
 solution: Experience Manager
-title: Viewer-SDK-Tutorial
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Das Viewer-SDK bietet eine Reihe JavaScript-basierter Komponenten für die benut
 
 Das SDK bietet beispielsweise interaktives Zoomen und Schwenken. Darüber hinaus erhalten Sie eine 360°-Ansicht und Videowiedergabe von Assets, die über die Backend-Anwendung Dynamic Media Classic in Adobe Dynamic Media hochgeladen wurden.
 
-Obwohl die Komponenten auf HTML5-Funktionen basieren, sind sie für die Verwendung auf iOS-Geräten von Android und Apple sowie Desktops, einschließlich Internet Explorer und höher, entwickelt worden. Diese Art von Erlebnis bedeutet, dass Sie einen einzigen Workflow für alle unterstützten Plattformen bereitstellen können.
+Obwohl die Komponenten auf HTML5-Funktionen basieren, sind sie für die Verwendung auf Android™- und Apple iOS-Geräten und Desktops, einschließlich Internet Explorer und höher, entwickelt worden. Diese Art von Erlebnis bedeutet, dass Sie einen einzigen Workflow für alle unterstützten Plattformen bereitstellen können.
 
-Das SDK besteht aus UI-Komponenten, aus denen Viewer-Inhalte bestehen. Sie können diese Komponenten über CSS gestalten und nicht über Benutzeroberflächen-Komponenten verfügen, die eine unterstützende Rolle haben, z. B. Abrufen und Analysieren von Set-Definitionen oder Tracking. Das Verhalten aller Komponenten kann mithilfe von Modifikatoren angepasst werden, die Sie auf verschiedene Weise angeben können, z. B. als `name=value`-Paare in der URL.
+Das SDK besteht aus UI-Komponenten, aus denen Viewer-Inhalte bestehen. Sie können diese Komponenten über CSS gestalten und nicht über Benutzeroberflächen-Komponenten verfügen, die eine unterstützende Rolle haben, z. B. Abrufen und Analysieren von Set-Definitionen oder Tracking. Alle Verhaltensweisen von Komponenten können über Modifikatoren angepasst werden, die Sie auf verschiedene Weise angeben können, z. B. als `name=value`-Paare in der URL.
 
 Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie einen einfachen Zoom-Viewer erstellen können:
 
@@ -38,13 +38,13 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
 
    >[!NOTE]
    >
-   >Sie können dieses Tutorial abschließen, ohne das Viewer-SDK-Paket herunterladen zu müssen, da das SDK tatsächlich remote geladen wird. Das Viewer-Paket enthält jedoch zusätzliche Beispiele und ein API-Referenzhandbuch, das Sie beim Erstellen Ihrer eigenen Viewer als hilfreich finden.
+   >Sie können dieses Tutorial abschließen, ohne das Viewer-SDK-Paket herunterladen zu müssen, da das SDK remote geladen wird. Das Viewer-Paket enthält jedoch zusätzliche Beispiele und ein API-Referenzhandbuch, das Sie bei der Erstellung Ihrer eigenen Viewer unterstützen kann.
 
 ## Laden des Viewer-SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Richten Sie zunächst eine neue Seite ein, um den einfachen Zoom-Viewer zu entwickeln, den Sie erstellen werden.
 
-   Betrachten Sie diesen Bootstrap- oder loader -Code, um eine leere SDK-Anwendung einzurichten. Öffnen Sie Ihren bevorzugten Texteditor und fügen Sie das folgende HTML-Markup ein:
+   Betrachten Sie diese neue Seite mit dem Bootstrap- oder Lader-Code, den Sie zum Einrichten einer leeren SDK-Anwendung verwenden. Öffnen Sie Ihren bevorzugten Texteditor und fügen Sie das folgende HTML-Markup ein:
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
    </html>
    ```
 
-   Fügen Sie den folgenden JavaScript-Code innerhalb des Tags `script` hinzu, um den `ParameterManager` zu initialisieren. Auf diese Weise können Sie die Erstellung und Instanziierung von SDK-Komponenten innerhalb der Funktion `initViewer` vorbereiten:
+   Fügen Sie den folgenden JavaScript-Code innerhalb des Tags `script` hinzu, damit das Tag `ParameterManager` initialisiert wird. Auf diese Weise können Sie die Erstellung und Instanziierung von SDK-Komponenten innerhalb der Funktion `initViewer` vorbereiten:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,9 +115,9 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
 
 1. Speichern Sie die Datei als leere Vorlage. Sie können jeden gewünschten Dateinamen verwenden.
 
-   Sie werden diese leere Vorlagendatei als Referenz verwenden, wenn Sie in Zukunft neue Viewer erstellen. Diese Vorlage funktioniert lokal und wenn sie von einem Webserver bereitgestellt wird.
+   Sie werden diese leere Vorlagendatei als Referenz verwenden, wenn Sie in Zukunft Viewer erstellen. Diese Vorlage funktioniert lokal und wenn sie von einem Webserver bereitgestellt wird.
 
-Sie fügen Ihrem Viewer jetzt Stil hinzu.
+Fügen Sie Ihrem Viewer jetzt Stil hinzu.
 
 ## Hinzufügen von Stilen zum Viewer {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ Sie fügen Ihrem Viewer jetzt Stil hinzu.
    </style>
    ```
 
-Sie werden nun die Komponenten `Container` und `ZoomView` einschließen.
+Schließen Sie nun die Komponenten `Container` und `ZoomView` ein.
 
 ## Einschließen von Container und ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ Sie werden nun die Komponenten `Container` und `ZoomView` einschließen.
    var container, zoomView;
    ```
 
-1. Fügen Sie Folgendes in die Funktion `initViewer` ein, um einige Modifikatoren zu definieren und die entsprechenden Komponenten zu instanziieren:
+1. Fügen Sie Folgendes in die Funktion `initViewer` ein, damit Sie einige Modifikatoren definieren und die entsprechenden Komponenten instanziieren können:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -205,11 +205,11 @@ Sie werden nun die Komponenten `Container` und `ZoomView` einschließen.
    }
    ```
 
-1. Zeigen Sie eine Vorschau der Seite an, damit Sie sehen können, was Sie erstellt haben. Ihre Seite sieht wie folgt aus:
+1. Zeigen Sie eine Vorschau der Seite an, damit Sie sehen können, was Sie erstellt haben. Ihre Seite sollte wie folgt aussehen:
 
-   ![](assets/viewer-1.jpg)
+   ![Beispiel für ein Bild](assets/viewer-1.jpg)
 
-Sie fügen nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
+Fügen Sie nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
 
 ## Hinzufügen von MediaSet- und Farbfeldkomponenten zum Viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ Sie fügen nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
 
    Ihr Viewer sieht nun wie das folgende Bild aus. Versuchen Sie, die Größe des Browser-Fensters des Viewers zu ändern, und beachten Sie das daraus resultierende Verhalten.
 
-   ![](assets/viewer-2.jpg)
+   ![Beispiel für zwei Bilder im Viewer](assets/viewer-2.jpg)
 
-Sie fügen Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Zurücksetzen des Zooms hinzu.
+Fügen Sie Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Zurücksetzen des Zooms hinzu.
 
 ## Hinzufügen von Schaltflächen zum Viewer {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,17 +350,17 @@ Sie fügen Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Z
     }
    ```
 
-1. Vorschau des Viewers Sie sieht wie folgt aus:
+1. Vorschau des Viewers Sie sollte wie folgt aussehen:
 
-   ![](assets/viewer-3.jpg)
+   ![Beispiel für drei Bilder](assets/viewer-3.jpg)
 
-   Sie konfigurieren die Farbfelder jetzt so, dass sie vertikal auf der rechten Seite ausgerichtet werden.
+   Konfigurieren Sie nun die Farbfelder so, dass sie vertikal auf der rechten Seite ausgerichtet sind.
 
 ## Vertikale Konfiguration der Farbfelder {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. Sie können Modifikatoren direkt in der `ParameterManager`-Instanz konfigurieren.
 
-   Fügen Sie oben in der Funktion `initViewer` Folgendes hinzu, um das `Swatches` Miniaturlayout als einzelne Zeile zu konfigurieren:
+   Fügen Sie oben in der Funktion `initViewer` Folgendes hinzu, damit Sie das Miniaturlayout `Swatches` als einzelne Zeile konfigurieren können:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -383,9 +383,9 @@ Sie fügen Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Z
    }
    ```
 
-1. Vorschau des Viewers Sie sieht wie folgt aus:
+1. Vorschau des Viewers Es sieht wie folgt aus:
 
-   ![](assets/viewer-4.jpg)
+   ![Viewer-Beispiel: Vier Bild](assets/viewer-4.jpg)
 
    Ihr einfacher Zoom-Viewer ist jetzt fertig.
 

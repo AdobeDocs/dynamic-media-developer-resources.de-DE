@@ -1,21 +1,21 @@
 ---
-description: Bestimmte Inhalte, die der interaktive Bild-Viewer anzeigt, können lokalisiert werden. Dazu gehören QuickInfos für Benutzeroberflächenelemente und eine Informationsmeldung, die vom Flyout-Zoom-Ansicht beim Laden angezeigt wird.
 title: Lokalisierung der Elemente der Benutzeroberfläche
-feature: Dynamic Media Classic,Viewer,SDK/API,Interaktive Bilder
+description: Bestimmte Inhalte, die der interaktive Bild-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Informationsmeldung, die vom Flyout-Zoom-Ansicht beim Laden angezeigt wird.
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-Bestimmte Inhalte, die der interaktive Bild-Viewer anzeigt, können lokalisiert werden. Dazu gehören QuickInfos für Benutzeroberflächenelemente und eine Informationsmeldung, die vom Flyout-Zoom-Ansicht beim Laden angezeigt wird.
+Bestimmte Inhalte, die der interaktive Bild-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Informationsmeldung, die vom Flyout-Zoom-Ansicht beim Laden angezeigt wird.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Außerdem können benutzerdefinierte Werte für beliebig viele Gebietsschemata festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird, und kann benutzerdefinierte Werte für beliebig viele Gebietsschemata enthalten.
 
 Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für dieses Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
 

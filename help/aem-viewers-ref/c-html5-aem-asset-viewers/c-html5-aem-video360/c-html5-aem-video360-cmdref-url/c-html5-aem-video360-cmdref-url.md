@@ -1,13 +1,13 @@
 ---
+title: Befehlsreferenz - URL
 description: Dokumentation zur Befehlsreferenz für Video360 Viewer.
 solution: Experience Manager
-title: Befehlsreferenz - URL
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder
 [Video360Player.|<containerId>_video360Player].playback
 ```
 
-bedeutet, dass dieser Befehl wie folgt verwendet wird:
+Das bedeutet, dass dieser Befehl wie folgt verwendet wird:
 
 * `playback` (kurze Syntax)
 * `Video360Player.playback` (qualifiziert mit dem Namen der Komponentenklasse)

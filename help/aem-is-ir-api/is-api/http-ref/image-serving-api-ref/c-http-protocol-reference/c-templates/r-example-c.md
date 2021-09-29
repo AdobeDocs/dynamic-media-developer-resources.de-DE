@@ -1,13 +1,13 @@
 ---
+title: Beispiel C
 description: Erstellen Sie eine Überlagerungsanwendung "Papierpuppe".
 solution: Experience Manager
-title: Beispiel C
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Ein Hintergrundbild enthält das Foto eines Modells oder Mannequins. Zusätzlich
 
 Jedes Kleidungsstück/Zubehörfoto ist maskiert und auf den Maskenbegrenzungsrahmen zugeschnitten, um die Bildgröße zu minimieren. Bildanker und -auflösungen werden sorgfältig kontrolliert, um die Ausrichtung zwischen den Ebenen und dem Hintergrundbild zu gewährleisten. Alle Bilder werden einem Bildkatalog hinzugefügt, wobei die entsprechenden Werte in `catalog::Resolution` und `catalog::Anchor` gespeichert sind.
 
-Zusätzlich zur Überlagerung möchten wir auch die Farbe für ausgewählte Elemente ändern. Die Datensätze für diese Elemente werden vorverarbeitet, um die Originalfarbe zu entfernen und die Helligkeit und den Kontrast in einer für den Farbbefehl geeigneten Weise anzupassen. Diese Vorverarbeitung kann offline mithilfe eines Bildbearbeitungswerkzeugs wie Photoshop durchgeführt werden oder in einfachen Fällen durch Hinzufügen von `op_brightness=` und `op_contrast=` zum Feld `catalog::Modifier`erfolgen.
+Zusätzlich zur Überlagerung möchten Sie auch die Farbe für ausgewählte Elemente ändern. Die Datensätze für diese Elemente werden vorverarbeitet, um die Originalfarbe zu entfernen und die Helligkeit und den Kontrast in einer für den Farbbefehl geeigneten Weise anzupassen. Diese Vorverarbeitung kann offline mithilfe eines Bildbearbeitungswerkzeugs wie Adobe Photoshop durchgeführt werden oder in einfachen Fällen durch Hinzufügen von `op_brightness=` und `op_contrast=` zum Feld `catalog::Modifier`erfolgen.
 
-Diese Anwendung rechtfertigt keine separate Vorlage, da alle Objekte bereits ordnungsgemäß durch ihre Bildanker ( `catalog::Anchor`) ausgerichtet und skaliert ( `catalog::Resolution`) sind. Wir überlassen es dem Kunden, eine angemessene Ebenenreihenfolge sicherzustellen.
+Diese Anwendung rechtfertigt keine separate Vorlage, da alle Objekte bereits ordnungsgemäß durch ihre Bildanker ( `catalog::Anchor`) ausgerichtet und skaliert ( `catalog::Resolution`) sind. Es bleibt dem Client überlassen, eine angemessene Ebenenreihenfolge sicherzustellen.
 
 Eine typische Anfrage könnte wie folgt aussehen:
 
@@ -36,7 +36,7 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-Nur die Höhe wird angegeben. Dadurch kann das zurückgegebene Bild je nach Seitenverhältnis des Miniaturbilds variieren, ohne dass die Ränder mit der Hintergrundfarbe gefüllt werden.
+Nur die Höhe wird angegeben. Auf diese Weise kann das zurückgegebene Bild je nach Seitenverhältnis des Miniaturbilds variieren, ohne dass die Ränder mit der Hintergrundfarbe gefüllt werden.
 
 Es sollte keine Rolle spielen, welche Auflösung für jede Ebene festgelegt ist, solange sie alle gleich sind. In dieser Version dürfen Ansichten nicht größer sein als die zusammengesetzten Bilder. Durch die Angabe eines Werts mit großer Auflösung werden Probleme im Zusammenhang mit dieser Beschränkung vermieden. Die Verarbeitung und Komposition erfolgt in der optimalen Auflösung für die angeforderte Bildgröße, um die beste Leistung und Ausgabequalität zu erzielen.
 

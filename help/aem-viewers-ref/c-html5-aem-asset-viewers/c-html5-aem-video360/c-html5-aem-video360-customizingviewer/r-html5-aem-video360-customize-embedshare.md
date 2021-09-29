@@ -1,13 +1,13 @@
 ---
+title: Freigabe einbetten
 description: Das Werkzeug Freigabe einbetten besteht aus einer Schaltfläche, die zum Social-Freigabe-Bereich hinzugefügt wird, und dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
-title: Freigabe einbetten
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Si
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Zum Einrichten einer eingebetteten Freigabeschaltfläche mit 28 x 28 Pixel und zum Anzeigen eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus:
+**Beispiel** : So richten Sie eine eingebettete Freigabeschaltfläche mit 28 x 28 Pixel ein und zeigen für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild an:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -284,7 +284,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einer 24 x 14 Pixel langen Symbol, einem fett gedruckten 16-Punkt-Titel und einer 28 x 28 Pixel langen Schließen-Schaltfläche, die zwei Pixel von der Oberseite und zwei Pixel von der rechten Seite des Dialogfensters positioniert ist:
+**Beispiel** : Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 14 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Und schließlich eine 28 x 28 Pixel große Schaltfläche &quot;Schließen&quot;, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 >
 >Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
+Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -636,7 +636,7 @@ Die Größe der Textkopie, die über dem Einbettungscode angezeigt wird, wird mi
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften des Dialogfelds geben ein breites Feld ein**
+**CSS-Eigenschaften des für die gesamte Eingabe des Dialogfelds vorgesehenen Felds**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ Der tatsächliche Einbettungscode-Text wird mit der folgenden CSS-Klassenauswahl
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten von Einbettungscode für die Verwendung des  `break-word` Wortumbruchs:
+**Beispiel**  - So konfigurieren Sie Einbettungscode für die Verwendung des  `break-word` Wortumbruchs:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ Die Breite des Kombinationsfelds für die Einbettungsgröße wird mit der folgen
 
 >[!NOTE]
 >
->Das Kombinationsfeld unterstützt die Attributauswahl `expanded` mit möglichen Werten von `true` und `false`. `true` wird verwendet, wenn das Kombinationsfeld eine von vordefinierten Einbettungsgrößen anzeigt. Daher sollte die gesamte verfügbare Breite verwendet werden. `false` wird verwendet, wenn im Kombinationsfeld die Option Benutzerdefinierte Größe ausgewählt ist. Daher sollte sie verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
+>Das Kombinationsfeld unterstützt die Attributauswahl `expanded` mit möglichen Werten von `true` und `false`. Der Wert `true` wird verwendet, wenn das Kombinationsfeld eine der vordefinierten Einbettungsgrößen anzeigt. Daher sollte die gesamte verfügbare Breite verwendet werden. Der Wert `false` wird verwendet, wenn die Option für die benutzerdefinierte Größe im Kombinationsfeld ausgewählt ist. Daher sollte er verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
 
 **Beispiel** : Damit legen Sie fest, dass das Kombinationsfeld für die Einbettungsgröße bei der Anzeige eines vordefinierten Elements 300 Pixel breit und bei der Anzeige einer benutzerdefinierten Größe 110 Pixel breit ist:
 
@@ -894,7 +894,7 @@ Das Kombinationsfeld verfügt rechts über eine Dropdown-Schaltfläche und wird 
 }
 ```
 
-Der Bereich mit der Liste der eingebetteten Größen, die beim Öffnen des Kombinationsfelds angezeigt wird, wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Bereich mit der Liste der Einbettungsgrößen, die beim Öffnen des Kombinationsfelds angezeigt wird, wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -1039,7 +1039,7 @@ Jedes Eingabefeld für die benutzerdefinierte Größe wird in einen Container ei
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen der benutzerdefinierten Größe für Eingabefelder mit einem Pixel grauem Rahmen, Rand und Abstand und einer Breite von 70 Pixel:
+**Beispiel**  - So legen Sie fest, dass Eingabefelder für die benutzerdefinierte Größe einen grauen Rahmen, einen Rand und einen Abstand von einem Pixel sowie eine Breite von 70 Pixel aufweisen:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 

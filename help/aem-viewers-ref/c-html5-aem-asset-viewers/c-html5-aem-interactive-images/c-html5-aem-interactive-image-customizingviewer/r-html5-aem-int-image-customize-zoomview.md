@@ -1,13 +1,13 @@
 ---
+title: Zoomansicht
 description: Die Hauptansicht besteht aus dem statischen Bild.
 solution: Experience Manager
-title: Zoomansicht
-feature: Dynamic Media Classic,Viewer,SDK/API,Interaktive Bilder
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---

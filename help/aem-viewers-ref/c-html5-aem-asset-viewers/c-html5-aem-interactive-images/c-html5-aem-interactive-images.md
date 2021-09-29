@@ -1,20 +1,20 @@
 ---
-description: Der Viewer für interaktive Bilder ist ein Viewer, der ein einzelnes, nicht zoombares Bild mit klickbaren Hotspots anzeigt. Der Zweck dieses Viewers besteht darin, ein "Shop-fähiges Banner"-Erlebnis zu implementieren. Das heißt, der Benutzer kann einen Hotspot über dem Bannerbild auswählen und zu einer Schnellansicht oder Produktdetailseite auf Ihrer Website weitergeleitet werden. Es wurde für Desktops und Mobilgeräte entwickelt.
-solution: Experience Manager
 title: Interaktives Bild
-feature: Dynamic Media Classic,Viewer,SDK/API,Interaktive Bilder
+description: Der Viewer für interaktive Bilder ist ein Viewer, der ein einzelnes, nicht zoombares Bild mit klickbaren Hotspots anzeigt. Der Zweck dieses Viewers besteht darin, ein "Shop-fähiges Banner"-Erlebnis zu implementieren. Das heißt, der Benutzer kann einen Hotspot über dem Bannerbild auswählen und zu einer Schnellansichts- oder Produktdetailseite auf Ihrer Website weitergeleitet werden. Es wurde für Desktops und Mobilgeräte entwickelt.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
 
 # Interaktives Bild{#interactive-image}
 
-Der Viewer für interaktive Bilder ist ein Viewer, der ein einzelnes, nicht zoombares Bild mit klickbaren Hotspots anzeigt. Der Zweck dieses Viewers besteht darin, ein &quot;Shop-fähiges Banner&quot;-Erlebnis zu implementieren. Das heißt, der Benutzer kann einen Hotspot über dem Bannerbild auswählen und zu einer Schnellansicht oder Produktdetailseite auf Ihrer Website weitergeleitet werden. Es wurde für Desktops und Mobilgeräte entwickelt.
+Der Viewer für interaktive Bilder ist ein Viewer, der ein einzelnes, nicht zoombares Bild mit klickbaren Hotspots anzeigt. Der Zweck dieses Viewers besteht darin, ein &quot;Shop-fähiges Banner&quot;-Erlebnis zu implementieren. Das heißt, der Benutzer kann einen Hotspot über dem Bannerbild auswählen und zu einer Schnellansichts- oder Produktdetailseite auf Ihrer Website weitergeleitet werden. Es wurde für Desktops und Mobilgeräte entwickelt.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Siehe [Barrierefreiheit und Navigation über die Tastatur](../../c-keyboard-acce
 
 ## Einbetten des interaktiven Bild-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Der interaktive Bild-Viewer ist für die Integration in die Hosting-Seite konzipiert. Eine solche Webseite kann ein statisches Layout aufweisen oder &quot;responsiv&quot;sein und auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt werden.
+Der interaktive Bild-Viewer ist in die Hosting-Seite eingebettet. Eine solche Webseite kann ein statisches Layout aufweisen oder &quot;responsiv&quot;sein und auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt werden.
 
 Um diese Anforderungen zu erfüllen, unterstützt der Viewer zwei primäre Betriebsmodi: Einbetten in feste Größe und responsives Einbetten.
 
@@ -60,11 +60,11 @@ Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt. Di
 
 Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Seiten, auf denen das Layout automatisch an den Gerätetyp angepasst wird.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Dies ist die beste Wahl für Webseiten mit statischem Layout.
+Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Methode eignet sich am besten für Webseiten mit statischem Layout.
 
-Responsive Designeinbettung setzt voraus, dass der Viewer die Größe möglicherweise zur Laufzeit ändert, wenn die Größe des Containers `DIV` geändert wird. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Responsives Einbetten von Design setzt voraus, dass die Größe des Viewers zur Laufzeit geändert werden muss, um auf die Größenänderung des Containers reagieren zu können `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe der Web-Seite für den Container `DIV` angepasst wird. Wenn die Webseite nur die Breite des Containers `DIV` festlegt und dabei die Höhe unbegrenzt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Webdesign-Layoutrahmen wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe der Web-Seite für den Container `DIV` angepasst wird. Wenn die Webseite nur die Breite des Containers `DIV` festlegt und dabei die Höhe unbegrenzt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Webdesign-Layoutrahmen wie Bootstrap und Foundation verwenden.
 
 Andernfalls füllt der Viewer nur diesen Bereich aus, wenn die Web-Seite sowohl die Breite als auch die Höhe für den Viewer-Container `DIV` festlegt. Es folgt auch der Größe, die das Webseitenlayout bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
@@ -93,7 +93,7 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Sie sollten nur auf die JavaScript-Hauptdatei für den Viewer `include` auf Ihrer Seite verweisen. Sie sollten keine zusätzlichen JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5-SDK-Bibliothek `Utils.js` , die vom Viewer aus dem Kontextpfad `/s7viewers` geladen wird (so genanntes konsolidiertes SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe behält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server bei.
+>Verweisen Sie auf der Seite nur auf die JavaScript-Datei `include` des Haupt-Viewers. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5-SDK-Bibliothek `Utils.js` , die vom Viewer aus dem Kontextpfad `/s7viewers` geladen wird (so genanntes konsolidiertes SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe behält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server bei.
 >
 >
 >Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion zukünftig beeinträchtigt, wenn ein direkter Verweis auf ein sekundäres JavaScript `include` gesetzt wird, das vom Viewer auf der Seite verwendet wird.
@@ -114,7 +114,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene `.s7interactiveimage` in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in AEM Assets einem Viewer-Vorgabendatensatz zugewiesen wird - On-Demand oder explizit mit dem Befehl `style` übergeben wird.
+   Sie können die Größe in CSS direkt auf die HTML-Seite setzen. Oder Sie können die Größe in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die später in Adobe Experience Manager Assets On-Demand einem Viewer-Vorgabendatensatz zugewiesen oder explizit mit dem Befehl `style` übergeben wird.
 
    Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Video](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
@@ -141,7 +141,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()`-Methode direkt vor dem schließenden `BODY`-Tag oder das `onload()`-Ereignis im Hauptteil auf.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit dem `display:none`-Stil ausgeblendet werden, der ihm zugewiesen ist. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit dem `display:none`-Stil ausgeblendet werden, der ihm zugewiesen ist. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn dieses Ereignis eintritt, wird das Laden des Viewers automatisch fortgesetzt.
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. Das Beispiel geht davon aus, dass `interactiveImage` die Viewer-Instanz ist. `s7viewer` ist der Name des Platzhalters `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` ist die Image Serving-URL und `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` ist das Asset:
 
@@ -248,7 +248,7 @@ Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit 
 
 **Flexible Größe Einbetten mit definierter Breite und Höhe**
 
-Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Es bietet beide Größen für den DIV `"holder"` und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 Prozent.
+Wenn eine Einbettung in flexibler Größe mit definierter Breite und Höhe erfolgt, unterscheidet sich der Webseitenstil. Es bietet beide Größen für den DIV `"holder"` und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe des Elements `HTML` und `BODY` auf 100 Prozent.
 
 ```
 <!DOCTYPE html> 

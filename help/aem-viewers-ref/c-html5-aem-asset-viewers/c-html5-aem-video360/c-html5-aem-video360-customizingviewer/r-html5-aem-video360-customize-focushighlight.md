@@ -1,13 +1,13 @@
 ---
+title: Fokushervorhebung
 description: Die Hervorhebung des Eingabefokus, die um das fokussierte Benutzeroberflächenelement des Viewers herum angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 solution: Experience Manager
-title: Fokushervorhebung
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---

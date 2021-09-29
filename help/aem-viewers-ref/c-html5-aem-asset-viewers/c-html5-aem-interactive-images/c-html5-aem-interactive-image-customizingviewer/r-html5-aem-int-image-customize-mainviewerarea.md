@@ -1,20 +1,20 @@
 ---
-description: Der Hauptansichtsbereich ist der Bereich, der vom Zoombild belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
-solution: Experience Manager
 title: Hauptanzeige-Bereich
-feature: Dynamic Media Classic,Viewer,SDK/API,Interaktive Bilder
+description: Der Hauptansichtsbereich ist der Bereich, der vom Zoombild belegt ist. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Hauptanzeige-Bereich{#main-viewer-area}
 
-Der Hauptansichtsbereich ist der Bereich, der vom Zoombild belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich ist der Bereich, der vom Zoombild belegt ist. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

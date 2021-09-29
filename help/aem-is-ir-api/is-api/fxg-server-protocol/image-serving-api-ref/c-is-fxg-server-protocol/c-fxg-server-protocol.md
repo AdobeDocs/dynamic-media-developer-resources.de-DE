@@ -1,14 +1,14 @@
 ---
+title: FXG-Serverprotokoll
 description: Zur Manipulation von Grafiken können Sie Referenzpunkte verwenden, die den Orientierungspunkten auf einem Kompass gleichen.
 solution: Experience Manager
-title: FXG-Serverprotokoll
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 85%
+source-wordcount: '268'
+ht-degree: 69%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 85%
 
 Zur Manipulation von Grafiken können Sie Referenzpunkte verwenden, die den Orientierungspunkten auf einem Kompass gleichen.
 
-Mit Referenzpunkten können Sie eine Grafik in Relation zu einem Referenzpunkt drehen, skalieren oder ihre Größe ändern. Die Bezugspunkte sind `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` und `southeast`. Beispielsweise können Sie eine Grafik auf ihrem Mittelpunkt 45 Grad drehen, indem Sie den Referenzpunkt center verwenden. Auf der nachfolgenden Abbildung werden die Positionen der Referenzpunkte gezeigt, eine Grafik, die auf Basis des Referenzpunkts `northWest` um 20 Grad gedrehte Grafik und die auf Basis des Referenzpunkts `east` um 20 Grad gedrehte Grafik.
+Mit Referenzpunkten können Sie eine Grafik in Relation zu einem Referenzpunkt drehen, skalieren oder ihre Größe ändern. Die Bezugspunkte sind `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` und `southeast`. Beispielsweise können Sie eine Grafik mit dem mittleren Bezugspunkt um 45° drehen. Die folgende Abbildung zeigt, wo sich die Referenzpunkte befinden, eine Grafik, die um 20° von ihrem `northWest`-Bezugspunkt gedrehte Grafik und die um 20° von ihrem `east`-Bezugspunkt aus gedrehte Grafik.
 
-![](assets/wp_ref_points.png)
+![Referenz-Punktbild](assets/wp_ref_points.png)
 
 * A. Referenzpunktstandorte
 * B. Grafik
-* C. Die um 20 Grad gedrehte Grafik vom `northWest`-Bezugspunkt
-* D. Die um 20 Grad vom `east`-Bezugspunkt gedrehte Grafik
+* C. Die um 20° vom Bezugspunkt `northWest` gedrehte Grafik
+* D. Die um 20° vom `east`-Bezugspunkt gedrehte Grafik
 
 Die Syntax lautet:
 
