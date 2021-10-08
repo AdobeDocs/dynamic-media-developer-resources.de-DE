@@ -1,20 +1,20 @@
 ---
-description: Das Social-Sharing-Tool wird standardmäßig in der oberen rechten Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Freigabewerkzeuge enthält.
-solution: Experience Manager
 title: Social Share
+description: Das Social-Sharing-Tool wird standardmäßig in der rechten oberen Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Freigabewerkzeuge enthält.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Social Share{#social-share}
 
-Das Social-Sharing-Tool wird standardmäßig in der oberen rechten Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Freigabewerkzeuge enthält.
+Das Social-Sharing-Tool wird standardmäßig in der rechten oberen Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Freigabewerkzeuge enthält.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

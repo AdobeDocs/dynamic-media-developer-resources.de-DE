@@ -1,14 +1,14 @@
 ---
+title: Unterstützung für Adobe Analytics-Tracking
 description: Unterstützung für Adobe Analytics-Tracking
 solution: Experience Manager
-title: Unterstützung für Adobe Analytics-Tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit de
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Um in Analytics-Systeme von Drittanbietern zu integrieren, müssen Sie den Viewer-Rückruf `trackEvent` überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den Viewer-Rückruf `trackEvent` zu überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 

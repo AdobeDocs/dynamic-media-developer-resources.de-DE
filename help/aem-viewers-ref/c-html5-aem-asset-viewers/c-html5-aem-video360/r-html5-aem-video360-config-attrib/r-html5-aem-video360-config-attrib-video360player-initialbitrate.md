@@ -1,14 +1,14 @@
 ---
+title: Video360Player.initialbitrate
 description: Konfigurationsattribut für Video360 Viewer.
 solution: Experience Manager
-title: Video360Player.initialbitrate
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: f36eb82a-e545-4063-8bc4-6315ed17758f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Wert</span> </p> </td> 
-   <td colname="col2"> <p> Legt die Video-Bitrate (in Kbit/s oder Kbit/s) fest, die für die anfängliche Wiedergabe des Videos auf einem Desktop verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, beginnt der Videoplayer mit dem Video, das die nächstniedrigere Bitrate aufweist. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, beginnt der Videoplayer mit der niedrigstmöglichen Bitrate. </p> <p>Gilt nur für Systeme, die keine native Unterstützung für HTML5-HLS-Videos haben (z. B. Firefox, Chrome und Internet Explorer 11 unter Windows 10) und wenn der Wiedergabemodus auf "auto"festgelegt ist. </p> </td> 
+   <td colname="col2"> <p> Legt die Video-Bitrate (in Kilobit pro Sekunde oder Kbit/s) fest, die für die anfängliche Wiedergabe des Videos auf einem Desktop verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, beginnt der Videoplayer mit dem Video, das die nächstniedrigere Bitrate aufweist. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, beginnt der Videoplayer mit der niedrigstmöglichen Bitrate. </p> <p>Gilt nur für Systeme, die keine native Unterstützung für HTML5 HLS-Videos haben (z. B. Firefox, Chrome und Internet Explorer 11 unter Windows 10) und wenn der Wiedergabemodus auf "auto"festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

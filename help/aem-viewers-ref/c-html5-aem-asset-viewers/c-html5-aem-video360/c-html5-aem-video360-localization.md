@@ -1,20 +1,20 @@
 ---
-description: Bestimmte Inhalte, die vom Viewer angezeigt werden, können lokalisiert werden. Dazu gehören QuickInfos zu Benutzeroberflächen-Elementen und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
-solution: Experience Manager
 title: Lokalisierung der Elemente der Benutzeroberfläche
+description: Bestimmte Inhalte, die vom Viewer angezeigt werden, können lokalisiert werden. Zu solchen Inhalten gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-Bestimmte Inhalte, die vom Viewer angezeigt werden, können lokalisiert werden. Dazu gehören QuickInfos zu Benutzeroberflächen-Elementen und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
+Bestimmte Inhalte, die vom Viewer angezeigt werden, können lokalisiert werden. Zu solchen Inhalten gehören QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 
 Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßigen zugeordneten Textwert für das englische Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
 

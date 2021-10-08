@@ -1,13 +1,13 @@
 ---
+title: Videobauber
 description: Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
 solution: Experience Manager
-title: Videobauber
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutze
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber zu entlüften. ihre Höhe und vertikale Position durch CSS ändern.
+Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber zu entlüften. Ändern Sie die Höhe und die vertikale Position durch CSS.
 
 Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -158,7 +158,7 @@ Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
 
 Die QuickInfo für Video-Scrubber kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Zum Einrichten eines Video-Viewers mit einem Video-Scrubber mit benutzerdefinierten Spurfarben mit einer Größe von 10 Pixel und einer Positionierung von 10 Pixel und 35 Pixel von der oberen und linken Kante der Steuerleiste.
+**Beispiel** : Um einen Video-Viewer mit einem Video-Scrubber mit benutzerdefinierten Tracking-Farben einzurichten, die zehn Pixel groß sind. Positionieren Sie sie zehn Pixel und 35 Pixel von den oberen und linken Kanten der Steuerleiste.
 
 ```
 .s7video360viewer .s7videoscrubber  { 

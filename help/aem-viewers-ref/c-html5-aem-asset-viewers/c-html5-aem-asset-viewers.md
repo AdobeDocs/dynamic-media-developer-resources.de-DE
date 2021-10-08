@@ -1,14 +1,14 @@
 ---
+title: Nur Viewer für AEM Assets
 description: Nur Viewer für AEM Assets
 solution: Experience Manager
-title: Nur Viewer für AEM Assets
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f0668991-8619-4670-bc69-85a7a96893dd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

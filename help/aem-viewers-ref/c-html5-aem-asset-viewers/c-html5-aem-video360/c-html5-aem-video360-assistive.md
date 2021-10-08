@@ -1,13 +1,13 @@
 ---
+title: Unterstützung der Technologie
 description: Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
 solution: Experience Manager
-title: Unterstützung der Technologie
-feature: Dynamic Media Classic,Viewer,SDK/API,360 VR Video,Barrierefreiheit
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video,Accessibility
 role: Developer,User
 exl-id: 0d6bc444-a4c2-47e4-b408-a6df85ebff72
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

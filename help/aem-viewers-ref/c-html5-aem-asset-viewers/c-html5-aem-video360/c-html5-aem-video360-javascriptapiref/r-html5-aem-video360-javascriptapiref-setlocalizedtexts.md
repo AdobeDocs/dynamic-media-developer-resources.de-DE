@@ -1,14 +1,14 @@
 ---
+title: setLocalizedTexte
 description: JavaScript-API-Referenz für Video360-Viewer.
 solution: Experience Manager
-title: setLocalizedTexte
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: b0434886-defa-47d4-9853-bfd73c64d036
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

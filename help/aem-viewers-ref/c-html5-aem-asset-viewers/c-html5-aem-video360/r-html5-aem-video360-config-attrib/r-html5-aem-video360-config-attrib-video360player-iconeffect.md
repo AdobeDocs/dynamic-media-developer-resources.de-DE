@@ -1,14 +1,14 @@
 ---
+title: Video360Player.iconeffect
 description: Konfigurationsattribut für Video360 Viewer.
 solution: Experience Manager
-title: Video360Player.iconeffect
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert die Anzeige des IconEffect über dem Video, wenn das Video angehalten wird. Auf einigen Geräten werden native Steuerelemente verwendet. In solchen Fällen wird der Modifikator <span class="codeph"> iconEffect</span> ignoriert. </p> </td> 
+   <td colname="col2"> <p> Aktiviert die Anzeige des IconEffect über dem Video, wenn das Video angehalten wird. Auf einigen Geräten werden native Steuerelemente verwendet. In solchen Fällen wird der Modifikator <span class="codeph">iconEffect</span> ignoriert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Zähler</span></span> </p> </td> 

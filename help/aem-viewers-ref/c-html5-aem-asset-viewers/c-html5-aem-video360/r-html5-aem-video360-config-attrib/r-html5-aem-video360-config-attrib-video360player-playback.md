@@ -1,13 +1,13 @@
 ---
+title: Video360Player.playback
 description: Konfigurationsattribut für Video360 Viewer.
 solution: Experience Manager
-title: Video360Player.playback
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e5a56195-c3ca-4748-aef6-e1f143ac254d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Legt den vom Viewer verwendeten Wiedergabetyp fest. </p> <p>Wenn <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format und greift auf bestimmte Systeme wie älteren Internet Explorer und Android auf die progressive HTML5-Wiedergabe zurück. </p> <p>Wenn <span class="codeph"> progressiv</span> festgelegt ist, verlässt sich der Viewer nur auf die HTML5-Wiedergabe, die von Browsern nativ unterstützt wird, und gibt Videos progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Wiedergabeauswahl in den nativen Modi <span class="codeph"> auto</span> und <span class="codeph"> progressiv</span> finden Sie im Benutzerhandbuch zum HTML5-Viewer-SDK. </p> </td> 
+   <td colname="col2"> <p> Legt den vom Viewer verwendeten Wiedergabetyp fest. </p> <p>Wenn <span class="codeph"> auto</span> in den meisten Desktop-Browsern und auf allen iOS-Geräten festgelegt ist, verwendet der Viewer HTML5-Streaming-Videos im HLS-Format. Und auf bestimmte Systeme wie älteren Internet Explorer und Android™ wird die progressive HTML5-Wiedergabe zurückgegriffen. </p> <p>Wenn <span class="codeph"> progressiv</span> festgelegt ist, verlässt sich der Viewer nur auf die HTML5-Wiedergabe, die von Browsern nativ unterstützt wird, und gibt Videos progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Wiedergabeauswahl in den nativen Modi <span class="codeph"> auto</span> und <span class="codeph"> progressiv</span> finden Sie im Benutzerhandbuch zum HTML5 Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

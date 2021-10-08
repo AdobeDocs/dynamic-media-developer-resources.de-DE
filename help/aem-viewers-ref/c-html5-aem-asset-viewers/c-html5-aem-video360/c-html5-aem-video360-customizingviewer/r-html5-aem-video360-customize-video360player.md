@@ -1,14 +1,14 @@
 ---
+title: Video360-Player
 description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 solution: Experience Manager
-title: Video360-Player
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

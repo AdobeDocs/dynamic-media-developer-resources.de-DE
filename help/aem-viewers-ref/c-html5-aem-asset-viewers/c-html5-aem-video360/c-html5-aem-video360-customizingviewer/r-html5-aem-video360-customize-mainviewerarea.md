@@ -1,20 +1,20 @@
 ---
-description: Der Hauptansichtsbereich ist der Bereich, der vom 360-Grad-Video belegt wird. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
-solution: Experience Manager
 title: Hauptanzeige-Bereich
+description: Der Hauptansichtsbereich ist der Bereich, der vom 360-Grad-Video belegt wird. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Hauptanzeige-Bereich{#main-viewer-area}
 
-Der Hauptansichtsbereich ist der Bereich, der vom 360-Grad-Video belegt wird. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich ist der Bereich, der vom 360-Grad-Video belegt wird. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

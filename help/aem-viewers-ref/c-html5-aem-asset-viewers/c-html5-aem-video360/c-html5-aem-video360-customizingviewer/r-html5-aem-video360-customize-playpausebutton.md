@@ -1,14 +1,14 @@
 ---
+title: Schaltfläche "Wiedergabe/Pause"
 description: Durch die Schaltfläche "Wiedergabe/Pause"wird der Videoinhalt vom Videoplayer wiedergegeben oder angehalten, wenn ein Benutzer darauf klickt.
 solution: Experience Manager
-title: Schaltfläche "Wiedergabe/Pause"
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,11 +69,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 >
 >Diese Schaltfläche unterstützt die Attributselektoren `state`, `selected` und `replay`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;play&quot;und `selected='false'` dem Status &quot;pause&quot;;
 >
->`replay='true'` festgelegt ist, wenn das Video das Ende erreicht hat und durch Klicken auf die Schaltfläche die Wiedergabe von Anfang an neu gestartet wird.
+>Der Attributselektor `replay='true'` wird festgelegt, wenn das Video das Ende erreicht hat und durch Auswahl der Schaltfläche die Wiedergabe von Anfang an neu gestartet wird.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Um eine Wiedergabe-/Pausenschaltfläche von 32 x 32 Pixel einzurichten; Es wird sechs Pixel vom oberen und linken Rand der Steuerleiste entfernt und zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn ausgewählt oder nicht ausgewählt.
+**Beispiel** : Zum Einrichten einer Wiedergabe-/Pausenschaltfläche von 32 x 32 Pixel. Lassen Sie ihn sechs Pixel von der oberen und linken Kante der Steuerleiste platzieren. Schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7video360viewer .s7playpausebutton { 

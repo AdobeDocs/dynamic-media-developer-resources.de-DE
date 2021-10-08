@@ -1,14 +1,14 @@
 ---
+title: Schaltfläche "Vollbild"
 description: Die Schaltfläche im Vollbildmodus bewirkt, dass der Videoplayer den Vollbildmodus aufruft oder verlässt, wenn ein Benutzer darauf klickt.
 solution: Experience Manager
-title: Schaltfläche "Vollbild"
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

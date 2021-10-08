@@ -1,13 +1,13 @@
 ---
+title: Befehlsreferenz - Konfigurationsattribute
 description: Dokumentation zu Konfigurationsattributen für Video360 Viewer.
 solution: Experience Manager
-title: Befehlsreferenz - Konfigurationsattribute
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Einige Konfigurationsbefehle können dem Klassennamen oder Instanznamen der ents
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-Das bedeutet, dass Sie diesen Befehl wie folgt verwenden können:
+Das bedeutet, dass Sie diesen Befehl in folgenden Fällen verwenden können:
 
 * `playback` (kurze Syntax)
 * `VideoPlayer.playback` (qualifiziert mit dem Namen der Komponentenklasse)

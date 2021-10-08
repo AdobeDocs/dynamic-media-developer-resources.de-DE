@@ -1,14 +1,14 @@
 ---
+title: EmbedShare.embedsizes
 description: Konfigurationsattribut für Video360 Viewer.
 solution: Experience Manager
-title: EmbedShare.embedsizes
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
