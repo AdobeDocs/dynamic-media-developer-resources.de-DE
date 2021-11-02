@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Viewers-Referenzhandbuch
 feature-set: Experience Manager Assets
 user-guide-description: Passen Sie Dynamic Media-Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Schließen Sie interaktive Bilder und Videos, Karussells, Rotations-Sets und mehr ein.
-source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
+source-git-commit: b061c9f742b32ba48e6970a029e228afd7e36554
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1928'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 + [Beispiele für Viewer-Bibliotheken](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Installieren mehrerer Viewer auf demselben Server](t-installing-the-viewers.md)
-+ Versionshinweise für Viewer {#viewers-release-notes}
++ Versionshinweise zu Viewers {#viewers-release-notes}
    + [Viewer-Versionshinweise (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Viewer-Versionshinweise (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archiv {#archive}
@@ -38,7 +38,7 @@ ht-degree: 6%
 + [Viewer-SDK-Tutorial](c-tutorial.md)
 + Viewer für AEM Assets und Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Viewer für AEM Assets und Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
-   + Einfacher Zoom {#basic-zoom}
+   + Einfach zoomen {#basic-zoom}
       + [Grundlegender Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
       + Befehlsreferenz - Konfigurationsattribute {#command-reference-configuration-attributes-basic-zoom}
          + [Befehlsreferenz - Konfigurationsattribute](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib.md)
@@ -144,7 +144,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparams.md)
       + [Ereignisrückrufe](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
-      + Anpassen des eCatalog-Viewers {#customizing-ecatalog}
+      + Anpassen des E-Katalog-Viewers {#customizing-ecatalog}
          + [Anpassen des E-Katalog-Viewers](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md)
          + [Schaltfläche &quot;Favoriten hinzufügen&quot;](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-addfavorite.md)
          + [Schaltfläche schließen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-closebutton.md)
@@ -247,7 +247,7 @@ ht-degree: 6%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
-      + JavaScript-API-Referenz für eCatalog Search Viewer {#jsapi-ecatalog-search}
+      + JavaScript-API-Referenz für den eCatalog Search Viewer {#jsapi-ecatalog-search}
          + [JavaScript-API-Referenz für den eCatalog Search Viewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-dispose.md)
          + [eCatalogSearchViewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
@@ -692,7 +692,7 @@ ht-degree: 6%
       + [Lokalisierung der Elemente der Benutzeroberfläche](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [Vollbildunterstützung](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [Namespace des Viewer-SDK](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ Viewer nur für AEM Assets {#viewers-for-aem-assets-only}
++ Nur Viewer für AEM Assets {#viewers-for-aem-assets-only}
    + [Nur Viewer für AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + Karussell {#carousel}
       + [Karussell](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
@@ -820,7 +820,7 @@ ht-degree: 6%
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [Navigation](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + JavaScript-API-Referenz für interaktive Videos {#jsapi-interactive-video}
+      + JavaScript-API-Referenz für interaktiven Video-Viewer {#jsapi-interactive-video}
          + [JavaScript-API-Referenz für interaktiven Video-Viewer](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -886,7 +886,7 @@ ht-degree: 6%
          + [Befehlsreferenz - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [Video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
-      + JavaScript-API-Referenz für Video360 Viewer {#jsapi-video360}
+      + JavaScript-API-Referenz für Video360-Viewer {#jsapi-video360}
          + [JavaScript-API-Referenz für Video360-Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
