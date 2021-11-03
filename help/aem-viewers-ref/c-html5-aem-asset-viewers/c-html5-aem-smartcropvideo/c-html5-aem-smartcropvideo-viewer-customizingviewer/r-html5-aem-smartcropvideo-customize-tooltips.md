@@ -1,20 +1,20 @@
 ---
-description: Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
-solution: Experience Manager
 title: QuickInfos
+description: Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche wie Schaltflächen über QuickInfos, die beim Bewegen der Maus angezeigt werden.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 6%
 
 ---
 
 # QuickInfos{#tooltips}
 
-Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
+Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche wie Schaltflächen über QuickInfos, die beim Bewegen der Maus angezeigt werden.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
 
 >[!NOTE]
 >
->Falls QuickInfo-Stile von der eingebetteten Web-Seite aus angepasst werden, müssen alle Eigenschaften enthalten `!IMPORTANT` Regel. Dies ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
+>Wenn QuickInfo-Stile von der eingebetteten Web-Seite aus angepasst werden, müssen alle Eigenschaften eine `!IMPORTANT` Regel. Diese Regel ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
 
-Beispiel: Zum Einrichten von QuickInfos mit grauem Rahmen mit 3px-Eckenradius, schwarzem Hintergrund und weißem Text, der mit Arial geschrieben wurde, mit einer Größe von 11 Pixel:
+Beispiel: Zum Einrichten von QuickInfos mit einem grauen Rahmen mit einem Radius von 3 Pixel, schwarzem Hintergrund und weißem Text, der mit Arial® geschrieben wurde, mit einer Größe von 11 Pixel:
 
 ```
 .s7tooltip { 

@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Beschriftung"
 description: Mit dieser Schaltfläche wird die Anzeige von Untertiteln ein- und ausgeschaltet. Sie ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist.
 solution: Experience Manager
-title: Schaltfläche "Beschriftung"
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung de
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Um eine Untertitelschaltfläche mit 28 x 28 Pixel einzurichten, positionieren Sie vier Pixel von der oberen Seite und 68 Pixel von der rechten Kante der Steuerleiste und zeigen Sie für jeden der vier Schaltflächenstatus ein anderes Bild an, wenn diese ausgewählt oder nicht ausgewählt sind.
+So richten Sie eine Untertitelschaltfläche von 28 x 28 Pixel ein. Er wird vier Pixel von der oberen Seite und 68 Pixel von der rechten Kante der Steuerleiste entfernt platziert. Schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

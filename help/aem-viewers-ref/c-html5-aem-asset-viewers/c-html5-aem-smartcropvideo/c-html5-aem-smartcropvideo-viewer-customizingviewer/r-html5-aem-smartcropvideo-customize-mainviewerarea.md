@@ -1,11 +1,11 @@
 ---
+title: Hauptanzeige-Bereich
 description: Der Hauptansichtsbereich wird durch das smarte Zuschneiden-Video belegt. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 solution: Experience Manager
-title: Hauptanzeige-Bereich
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%

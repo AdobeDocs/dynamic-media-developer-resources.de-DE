@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.playback
 description: Konfigurationsattribut für Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.playback
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Konfigurationsattribut für Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Legt den vom Viewer verwendeten Wiedergabetyp fest. Wann <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format. Auf einigen Systemen wie älteren Internet Explorer- und Android-Geräten wird die progressive HTML5-Wiedergabe unterstützt. </p> <p>Wenn <span class="codeph"> progressiv</span> festgelegt ist, nutzt der Viewer nur die HTML5-Wiedergabe, die nativ von Browsern unterstützt wird, und gibt das Video progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Wiedergabenauswahl im automatischen und progressiven Modus finden Sie im Benutzerhandbuch für das Viewer SDK. </p> </td> 
+   <td colname="col2"> <p> Legt den vom Viewer verwendeten Wiedergabetyp fest. Wann <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format. Auf einigen Systemen wie älteren Internet Explorer- und Android™-Systemen wird die progressive HTML5-Wiedergabe aktiviert. </p> <p>Wenn <span class="codeph"> progressiv</span> festgelegt ist, nutzt der Viewer nur die HTML5-Wiedergabe, die nativ von Browsern unterstützt wird, und gibt das Video progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Wiedergabenauswahl im automatischen und progressiven Modus finden Sie im Benutzerhandbuch für das Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

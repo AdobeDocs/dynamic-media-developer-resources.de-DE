@@ -1,11 +1,11 @@
 ---
+title: Video
 description: URL-Befehl für Smart Crop Video Viewer.
 solution: Experience Manager
-title: Video
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 13%

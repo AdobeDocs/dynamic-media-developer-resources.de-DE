@@ -1,13 +1,13 @@
 ---
+title: Linkfreigabe
 description: Das Tool zur Linkfreigabe besteht aus einer Schaltfläche, die zum Social-Freigabe-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
-title: Linkfreigabe
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -284,7 +284,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 22 x 12 Pixel großen Symbol, einem fett gedruckten 16-Punkt-Titel und einer 28 x 28 Pixel großen Schließen-Schaltfläche, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
+Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 22 x 12 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Schließlich eine 28 x 28 Pixel große Schaltfläche Schließen , die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 >
 >Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
+Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -634,7 +634,7 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften des Dialogfelds geben ein breites Feld ein**
+**CSS-Eigenschaften des für die gesamte Eingabe des Dialogfelds vorgesehenen Felds**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

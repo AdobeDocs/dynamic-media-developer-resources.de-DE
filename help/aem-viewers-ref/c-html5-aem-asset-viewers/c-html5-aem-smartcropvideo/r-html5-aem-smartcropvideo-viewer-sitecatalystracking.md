@@ -1,11 +1,11 @@
 ---
+title: Unterstützung für Adobe Analytics-Tracking
 description: Der Viewer für smartes Zuschneiden unterstützt standardmäßig das Adobe Analytics-Tracking.
 solution: Experience Manager
-title: Unterstützung für Adobe Analytics-Tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem View
 
 ## Benutzerdefinierte Verfolgung {#section-ab10bd7caf184721a366cf3953071934}
 
-Zur Integration in Analysesysteme von Drittanbietern ist Folgendes zu beachten: `trackEvent` Viewer-Rückruf und -Prozess `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, `trackEvent` Viewer-Rückruf und -Prozess `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 

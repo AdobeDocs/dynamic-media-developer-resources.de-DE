@@ -1,13 +1,13 @@
 ---
+title: Videobauber
 description: Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
 solution: Experience Manager
-title: Videobauber
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '360'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutze
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber zu entlüften. ihre Höhe und vertikale Position durch CSS ändern.
+Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber per CSS zu belichten, seine Höhe und vertikale Position zu ändern.
 
 Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -158,7 +158,7 @@ Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
 
 Die QuickInfo für Video-Scrubber kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-**Beispiel** - Um einen Video-Viewer mit einem Video-Scrubber mit benutzerdefinierten Spurfarben einzurichten, der 10 Pixel groß ist und 10 Pixel und 35 Pixel von der oberen und linken Kante der Steuerleiste positioniert.
+**Beispiel** - Um einen Video-Viewer mit einem Video-Scrubber mit benutzerdefinierten Tracking-Farben einzurichten, die zehn Pixel groß sind. Und schließlich, lassen Sie es 10 Pixel und 35 Pixel von der oberen und linken Kante der Steuerleiste positioniert.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

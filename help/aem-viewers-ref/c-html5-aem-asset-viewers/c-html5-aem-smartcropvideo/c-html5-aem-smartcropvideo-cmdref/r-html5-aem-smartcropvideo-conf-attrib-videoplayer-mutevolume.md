@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.mutevolume
 description: Konfigurationsattribut für Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.mutevolume
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%
@@ -22,7 +22,7 @@ Konfigurationsattribut für Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Legt den stummschalteten Modus für die Videowiedergabe beim ersten Laden fest. Wenn auf <span class="codeph"> 1 </span> das Volumen stummgeschaltet ist; Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten kann das Mutation der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos ermöglichen. </p> </td> 
+   <td colname="col2"> <p> Legt den stummschalteten Modus für die Videowiedergabe beim ersten Laden fest. Wenn auf <span class="codeph"> 1 </span> das Volumen stummgeschaltet ist; Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten ermöglicht die Mutation der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,11 +1,11 @@
 ---
+title: Unterstützung der Technologie
 description: Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
 solution: Experience Manager
-title: Unterstützung der Technologie
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video,Accessibility
 role: Developer,User
 exl-id: e0652730-60ee-41db-890b-e223b279e47d
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -22,6 +22,6 @@ Schaltflächen haben die Rolle `button` und beschreibender Text mit `aria-label`
 
 Reglerkomponenten haben die Rolle `slider` mit Attributen `aria-valuenow`, `aria-valuemin`und `aria-valuemax` um die aktuelle Reglerposition zu beschreiben.
 
-Dropdown-Listen werden durch Schaltflächen mit zusätzlichen `aria-haspopup` -Attribut auf `true` und `aria-controls` -Attribut, das auf das tatsächliche Dropdown-Bedienfeldelement verweist. Das Dropdown-Bedienfeld selbst hat die Rolle `menu` mit Unterelementen mit der Rolle `menuitem`. Jedes Menüelement verfügt über `aria-label` -Attribut angegeben.
+Dropdown-Listen werden durch Schaltflächen mit zusätzlichen `aria-haspopup` -Attribut auf `true` und `aria-controls` -Attribut, das auf das tatsächliche Dropdown-Bedienfeldelement verweist. Das Dropdown-Bedienfeld selbst hat die Rolle `menu` mit Unterelementen mit Rolle `menuitem`. Jedes Menüelement verfügt über `aria-label` -Attribut angegeben.
 
 Modale Dialogfelder haben die Rolle `dialog`. Das Kopfzeilenelement des Dialogfelds wird durch die `aria-labelledby` -Attribut.

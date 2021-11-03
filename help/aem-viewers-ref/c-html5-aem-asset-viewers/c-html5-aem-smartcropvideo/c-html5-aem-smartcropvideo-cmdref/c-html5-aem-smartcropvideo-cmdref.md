@@ -1,11 +1,11 @@
 ---
+title: Befehlsreferenz - Konfigurationsattribute
 description: Dokumentation zu Konfigurationsattributen für Smart Crop Video Viewer.
 solution: Experience Manager
-title: Befehlsreferenz - Konfigurationsattribute
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-bedeutet, dass dieser Befehl wie folgt verwendet wird:
+Das bedeutet, dass dieser Befehl wie folgt verwendet wird:
 
 * `playback` (kurze Syntax)
 * `SmartCropVideoPlayer.playback` (qualifiziert mit dem Namen der Komponentenklasse)

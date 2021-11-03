@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.ssl
 description: Konfigurationsattribut für Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---

@@ -1,14 +1,14 @@
 ---
+title: Videoplayer
 description: Der Videoplayer für smartes Zuschneiden ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 solution: Experience Manager
-title: Videoplayer
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +78,7 @@ Geschlossene Untertitel werden in einen internen Container im Smart-Zuschnitt-Vi
  </tbody> 
 </table>
 
-Beispiel: Um den Text für die geschlossene Beschriftung auf einen halb transparenten schwarzen Hintergrund mit 14 Pixel, hellgrau, Arial einzurichten:
+Beispiel - So richten Sie den Text für geschlossene Beschriftungen auf einem halbtransparenten schwarzen Hintergrund auf 14 Pixel, hellgrau, Arial® ein:
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

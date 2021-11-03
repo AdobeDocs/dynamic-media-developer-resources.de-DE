@@ -1,12 +1,12 @@
 ---
+title: Smartes Zuschneiden von Videos
 description: Der Smart Crop Video Viewer ist ein Videoplayer, der Streaming- und progressive Videos wiedergibt, die im H.264-Format kodiert sind und zusätzlich Unterstützung für smartes Zuschneiden bieten. Es wird aus Dynamic Media Classic oder Adobe Experience Manager mit Dynamic Media bereitgestellt.
 keywords: responsiv
 solution: Experience Manager
-title: Smartes Zuschneiden von Videos
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5
 
 ## Interagieren mit dem Smart Crop Video Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-Der Smart Crop Video Viewer bietet eine Reihe von Standardsteuerelementen der Benutzeroberfläche für die Videowiedergabe, wie z. B. eine Wiedergabe-/Pause-Schaltfläche, Video-Scrubber-Videozeitblase, Anzeige der Wiedergabezeit/Gesamtdauer, Lautstärkeregler, Schaltfläche im Vollbildmodus und Umschalter für Untertitel. Alle diese Steuerelemente sind in einer Steuerleiste am unteren Rand der Viewer-Benutzeroberfläche gruppiert.
+Der Smart Crop Video Viewer bietet eine Reihe standardmäßiger Steuerelemente für die Benutzeroberfläche zur Videowiedergabe, z. B.:
+
+* Schaltfläche &quot;Wiedergabe/Pause&quot;
+* Videospuckvideo-Zeitblase.
+* Anzeige für die Wiedergabedauer/Gesamtzeit.
+* Lautstärkeregelung.
+* Schaltfläche &quot;Vollbild&quot;
+* Umschalter für geschlossene Beschriftungen.
+
+Alle diese Steuerelemente sind in einer Steuerleiste am unteren Rand der Viewer-Benutzeroberfläche gruppiert.
 
 Auf Touch-Geräten ist die Lautstärkeregelung in der Benutzeroberfläche ausgeblendet, da die Lautstärke nur über die Hardwaretasten gesteuert werden kann.
 

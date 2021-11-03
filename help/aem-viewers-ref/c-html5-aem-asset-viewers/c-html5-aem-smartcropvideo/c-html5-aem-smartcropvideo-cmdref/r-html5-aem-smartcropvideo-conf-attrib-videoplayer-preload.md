@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.preload
 description: Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wiedergabe beginnt.
 solution: Experience Manager
-title: SmartCropVideoPlayer.preload
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wiedergabe begi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Wenn auf <span class="codeph"> 1 </span> Das Video beginnt unmittelbar nach dem Festlegen des Assets herunterzuladen. Andernfalls beginnt das Vorausfüllen erst, nachdem die Wiedergabe vom Endbenutzer oder einem API-Aufruf initiiert wurde. </p> <p>Wenn auf <span class="codeph"> 0 </span> bestimmte Funktionen funktionieren möglicherweise erst nach dem Start der Wiedergabe; Der Suchvorgang aktualisiert den Video-Frame nicht. Wenn das Standbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Video-Frames angezeigt. </p> <p>Beachten Sie, dass die Deaktivierung der Videovorladung in bestimmten Versionen von Internet Explorer 11 und Edge-Browsern ignoriert werden kann. </p> </td> 
+   <td colname="col2"> <p> Wenn auf <span class="codeph"> 1 </span> Das Video beginnt unmittelbar nach dem Festlegen des Assets herunterzuladen. Andernfalls beginnt das Vorausfüllen erst, nachdem die Wiedergabe vom Endbenutzer oder einem API-Aufruf initiiert wurde. </p> <p>Wenn auf <span class="codeph"> 0 </span> bestimmte Funktionen funktionieren möglicherweise erst, wenn die Wiedergabe wieder beginnt; Der Suchvorgang aktualisiert den Video-Frame nicht. Wenn das Standbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Video-Frames angezeigt. </p> <p>Die Deaktivierung der Videovorladung kann in bestimmten Versionen von Internet Explorer 11 und Edge-Browsern ignoriert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

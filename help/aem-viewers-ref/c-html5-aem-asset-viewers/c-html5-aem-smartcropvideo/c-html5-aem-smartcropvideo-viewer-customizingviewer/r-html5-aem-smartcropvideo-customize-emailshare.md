@@ -1,13 +1,13 @@
 ---
+title: Email Share
 description: Das Tool für die E-Mail-Freigabe besteht aus einer Schaltfläche, die zum Social-Freigabe-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das bei Aktivierung des Tools angezeigt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
-title: Email Share
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 2%
 
 ---
@@ -143,7 +143,7 @@ background-color: #ffffff;
 }
 ```
 
-Die Kopfzeile des Dialogfelds besteht aus einem Symbol, einem Titeltext und einer Schließen-Schaltfläche. Der Kopfzeilencontainer wird mit dem folgenden CSS-Klassenselektor gesteuert
+Die Kopfzeile des Dialogfelds besteht aus einem Symbol, einem Titeltext und einer Schaltfläche &quot;Schließen&quot;. Der Kopfzeilencontainer wird mit dem folgenden CSS-Klassenselektor gesteuert
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader
@@ -282,7 +282,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 17 Pixel langen Symbol, einem fett gedruckten 16-pt-Titel und einer 28 x 28 Pixel langen Schließen-Schaltfläche, die 2 Pixel von der oberen Seite und 2 Pixel von der rechten Seite des Dialogfensters positioniert ist:
+Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 17 Pixel langen Symbol und einem fett gedruckten 16-pt-Titel. Und schließlich eine 28 x 28 Pixel große Schließen-Schaltfläche, die zwei Pixel von der Oberseite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ Die Schaltfläche E-Mail senden wird mit der folgenden CSS-Klassenauswahl gesteu
 >
 >Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
+Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Eins
 
 Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Footer mit der Schaltfläche Abbrechen 64 x 34 und einer Schaltfläche für den Versand von E-Mails mit 82 x 34, deren Textfarbe und Hintergrundfarbe je nach Schaltflächenstatus unterschiedlich sind:
+Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit der Schaltfläche &quot;Abbrechen&quot;von 64 x 34 und der Schaltfläche &quot;E-Mail senden&quot;von 82 x 34. Und schließlich unterscheiden sich die Textfarbe und die Hintergrundfarbe für jeden Schaltflächenstatus:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -729,7 +729,7 @@ Die meisten Eingabefelder, die sich von der Beschriftung links bis zum rechten R
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften des Dialogfelds geben ein breites Feld ein**
+**CSS-Eigenschaften des für die gesamte Eingabe des Dialogfelds vorgesehenen Felds**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -757,7 +757,7 @@ Das Eingabefeld &quot;An&quot;ist enger, da auf der rechten Seite Platz für die
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Formulars mit einem grauen Rahmen von einem Pixel mit 9 Pixel Abstand um alle Eingabefelder; um für Felder, die bei der Validierung fehlschlagen, denselben roten Rand zu haben, sodass das Eingabefeld &quot;An&quot;250 Pixel breit ist und der Rest der Eingabefelder 300 Pixel breit ist:
+Beispiel: Um ein Formular so einzurichten, dass es einen grauen Rahmen von einem Pixel mit neun Pixel Abstand um alle Eingabefelder hat. Um für Felder, die bei der Validierung fehlschlagen, denselben roten Rahmen zu erhalten, ist das Eingabefeld &quot;An&quot;um 250 Pixel breit und der Rest der Eingabefelder 300 Pixel breit:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ Beispiel: Zum Einrichten eines Formulars mit einem grauen Rahmen von einem Pixel
 }
 ```
 
-Das Eingabefeld für E-Mail-Nachrichten wird zusätzlich wie folgt gesteuert:
+Das Eingabefeld für E-Mail-Nachrichten wird auch wie folgt gesteuert:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -789,7 +789,7 @@ Mit dieser Klasse können Sie bestimmte Eigenschaften für den zugrunde liegende
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Messhöhe. </p> </td> 
+   <td colname="col2"> <p>Nachrichtenhöhe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
@@ -1210,11 +1210,11 @@ Wenn ein Benutzer falsche Eingabedaten eingibt und die Inline-Validierung fehlsc
 
 >[!NOTE]
 >
->Diese Nachricht unterstützt die `state` -Attributauswahl mit den folgenden möglichen Werten: `verifyerror`, `senderror`und `sendsuccess`. `verifyerror` wird festgelegt, wenn eine Nachricht aufgrund eines Fehlers bei der Überprüfung der Inline-Eingabe angezeigt wird; `senderror` wird festgelegt, wenn ein Backend-E-Mail-Dienst einen Fehler meldet; `sendsuccess` festgelegt ist, wenn E-Mail erfolgreich gesendet wurde. Auf diese Weise kann die Nachricht je nach Status des Dialogfelds unterschiedlich formatiert werden.
+>Diese Nachricht unterstützt die `state` -Attributauswahl mit den folgenden möglichen Werten: `verifyerror`, `senderror`und `sendsuccess`. Der Wert `verifyerror` wird festgelegt, wenn eine Nachricht aufgrund eines Fehlers bei der Überprüfung der Inline-Eingabe angezeigt wird. Der Wert `senderror` wird festgelegt, wenn ein Backend-E-Mail-Dienst einen Fehler meldet. Die `sendsuccess` festgelegt ist, wenn E-Mail erfolgreich gesendet wurde. Auf diese Weise kann die Nachricht je nach Status des Dialogfelds unterschiedlich formatiert werden.
 
 Die Fehlermeldung kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: Um eine Nachricht so einzurichten, dass sie eine 10-Punkt-Schriftart verwendet, eine 25-Pixel-Zeilenhöhe, einen 20-Pixel-Abstand auf der linken Seite aufweist, verwenden Sie ein Ausrufezeichen-Symbol, einen roten Text im Fall eines Fehlers und kein Symbol und grüner Text im Fall eines Erfolgs:
+Beispiel: Um eine Nachricht so einzurichten, dass sie eine 10-Punkt-Fettschrift verwendet, haben Sie eine 25-Pixel-Zeilenhöhe und einen 20-Pixel-Abstand auf der linken Seite. Verwenden Sie außerdem ein Ausrufezeichen-Symbol, einen roten Text, wenn ein Fehler auftritt, und kein Symbol und grünen Text, wenn ein Erfolg eintritt:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

@@ -1,14 +1,14 @@
 ---
+title: SmartCropVideoPlayer.posterimage
 description: Konfigurationsattribut für Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.posterimage
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c09884e2-60a1-4fce-997a-29747b4ccb7b
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Konfigurationsattribut für Smart Crop Video Viewer.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Wenn die Variable <span class="codeph"><span class="varname"> image_id</span></span> weggelassen wird, versucht die Komponente stattdessen, das standardmäßige Posterbild für dieses Asset zu verwenden. </p> <p>Wenn das Video als Pfad angegeben wird, wird die standardmäßige Katalogkennung für Posterbilder aus dem Videopfad als <span class="codeph"> catalog_id/image_id</span> pair where <span class="codeph"> catalog_id</span> entspricht dem ersten Token im Pfad und <span class="codeph"> image_id</span> ist der Name des Videos, wobei die Erweiterung entfernt wird. Wenn das Bild mit dieser ID nicht vorhanden ist, wird das Standbild nicht angezeigt. </p> <p>Um die Anzeige des standardmäßigen Posterbilds zu verhindern, geben Sie <span class="codeph"> Keine</span> als Poster-Bildwert. Wenn nur die <span class="codeph"><span class="varname"> isCommands</span></span> angegeben werden, werden die Befehle auf das standardmäßige Posterbild angewendet, bevor das Bild angezeigt wird. </p> </td> 
+     </ul> </p> <p>Wenn die Variable <span class="codeph"><span class="varname"> image_id</span></span> weggelassen wird, versucht die Komponente stattdessen, das standardmäßige Posterbild für dieses Asset zu verwenden. </p> <p>Wenn das Video als Pfad angegeben wird, wird die standardmäßige Katalogkennung für Posterbilder aus dem Videopfad als <span class="codeph"> catalog_id/image_id</span> ein. Die <span class="codeph"> catalog_id</span> entspricht dem ersten Token im Pfad und <span class="codeph"> image_id</span> ist der Name des Videos, wobei die Erweiterung entfernt wird. Wenn das Bild mit dieser ID nicht vorhanden ist, wird das Standbild nicht angezeigt. </p> <p>Um die Anzeige des standardmäßigen Posterbilds zu verhindern, geben Sie <span class="codeph"> Keine</span> als Poster-Bildwert. Wenn nur die <span class="codeph"><span class="varname"> isCommands</span></span> festgelegt sind, werden die Befehle auf das standardmäßige Posterbild angewendet, bevor das Bild angezeigt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

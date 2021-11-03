@@ -1,13 +1,13 @@
 ---
+title: Freigabe einbetten
 description: Das Werkzeug Freigabe einbetten besteht aus einer Schaltfläche, die zum Social-Freigabe-Bereich hinzugefügt wird, und dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
-title: Freigabe einbetten
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Si
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer eingebetteten Freigabeschaltfläche mit 28 x 28 Pixel und zum Anzeigen eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus:
+Beispiel: So richten Sie eine Schaltfläche &quot;Freigabe einbetten&quot;ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -284,7 +284,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 14 Pixel langen Symbol, einem fett gedruckten 16-Punkt-Titel und einer 28 x 28 Pixel langen Schließen-Schaltfläche, die zwei Pixel von der Oberseite und zwei Pixel von der rechten Seite des Dialogfensters positioniert ist:
+Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 14 Pixel langen Symbol, einem fett gedruckten 16-Punkt-Titel und einer 28 x 28 Pixel langen Schaltfläche zum Schließen. Legen Sie schließlich zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers ab:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 >
 >Die Schaltfläche &quot;Abbrechen&quot;unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
+Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ Wenn die Höhe dieses Containers größer als der Hauptdialogfeld-Bereich zu sei
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Formularinhalten mit zehn Pixelabständen:
+Beispiel - So richten Sie Formularinhalte mit zehn Pixelabständen ein:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -636,7 +636,7 @@ Die Größe der Textkopie, die über dem Einbettungscode angezeigt wird, wird mi
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften des Dialogfelds geben ein breites Feld ein**
+**CSS-Eigenschaften des für die gesamte Eingabe des Dialogfelds vorgesehenen Felds**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ Der tatsächliche Einbettungscode-Text wird mit der folgenden CSS-Klassenauswahl
  </tbody> 
 </table>
 
-Beispiel - Einrichten des zu verwendenden Einbettungscodes `break-word` Wortumbruch:
+Beispiel - So richten Sie den zu verwendenden Einbettungscode ein `break-word` Wortumbruch:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ Die Breite des Kombinationsfelds für die Einbettungsgröße wird mit der folgen
 
 >[!NOTE]
 >
->Das Kombinationsfeld unterstützt die `expanded` Attributauswahl mit möglichen Werten `true` und `false`. `true` wird verwendet, wenn das Kombinationsfeld eine von vordefinierten Einbettungsgrößen anzeigt. Daher sollte die gesamte verfügbare Breite verwendet werden. `false` wird verwendet, wenn im Kombinationsfeld die Option Benutzerdefinierte Größe ausgewählt ist. Daher sollte sie verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
+>Das Kombinationsfeld unterstützt die `expanded` Attributauswahl mit möglichen Werten `true` und `false`. Die `true` wird verwendet, wenn das Kombinationsfeld eine der vordefinierten Einbettungsgrößen anzeigt. Daher sollte es alle verfügbaren Breiten annehmen. Die `false` wird verwendet, wenn im Kombinationsfeld die Option Benutzerdefinierte Größe ausgewählt ist. Daher sollte sie verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
 
 Beispiel: Damit legen Sie fest, dass das Kombinationsfeld für die Einbettungsgröße bei der Anzeige eines vordefinierten Elements 300 Pixel breit und bei der Anzeige einer benutzerdefinierten Größe 110 Pixel breit ist:
 
@@ -892,7 +892,7 @@ Beispiel: Um eine Dropdown-Schaltfläche auf 28 x 28 Pixel festzulegen und für 
 }
 ```
 
-Der Bereich mit der Liste der eingebetteten Größen, die beim Öffnen des Kombinationsfelds angezeigt wird, wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Bereich mit der Liste der Einbettungsgrößen, die beim Öffnen des Kombinationsfelds angezeigt wird, wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
@@ -1037,7 +1037,7 @@ Jedes Eingabefeld für die benutzerdefinierte Größe wird in einen Container ei
  </tbody> 
 </table>
 
-Beispiel: Zum Festlegen der benutzerdefinierten Größe für Eingabefelder mit einem Pixel grauen Rahmen, Rand und Abstand und einer Breite von 70 Pixel:
+Beispiel: Zum Festlegen der benutzerdefinierten Größe für Eingabefelder mit einem Pixel grauem Rahmen, Rand, Abstand und einer Breite von 70 Pixel:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 

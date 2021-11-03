@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Wiedergabe/Pause"
 description: Durch die Schaltfläche "Wiedergabe/Pause"wird der Videoplayer für das smarte Zuschneiden wiedergegeben oder angehalten, wenn ein Benutzer darauf klickt.
 solution: Experience Manager
-title: Schaltfläche "Wiedergabe/Pause"
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 >
 >Diese Schaltfläche unterstützt beide `state`, `selected`und `replay` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;play&quot;und `selected='false'` entspricht dem Status &quot;pause&quot;;
 >
->`replay='true'` festgelegt ist, wenn das Video das Ende erreicht hat und durch Klicken auf die Schaltfläche die Wiedergabe von Anfang an neu gestartet wird.
+>Die Attributauswahl `replay='true'` festgelegt ist, wenn das Video das Ende erreicht hat und die Auswahl der Schaltfläche die Wiedergabe von Anfang an neu startet.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-So richten Sie eine Wiedergabe-/Pausenschaltfläche von 32 x 32 Pixel ein; Es wird sechs Pixel vom oberen und linken Rand der Steuerleiste entfernt und zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn ausgewählt oder nicht ausgewählt.
+So richten Sie eine Wiedergabe-/Pause-Schaltfläche mit einer Größe von 32 x 32 Pixel ein. Lassen Sie sie sechs Pixel von der oberen und linken Kante der Steuerleiste entfernt. Zeigen Sie schließlich ein anderes Bild für jeden der vier Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 
