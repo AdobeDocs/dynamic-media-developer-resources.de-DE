@@ -1,0 +1,35 @@
+---
+description: Dokumentation zur Befehlsreferenz für Smart Crop Video Viewer.
+solution: Experience Manager
+title: Befehlsreferenz - URL
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+role: Developer,User
+exl-id: 1ed78e0d-9b93-4c66-b558-fac15c51e944
+source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 0%
+
+---
+
+# Befehlsreferenz - URL{#command-reference-url}
+
+Dokumentation zur Befehlsreferenz für Smart Crop Video Viewer.
+
+Sie können einen beliebigen Konfigurationsbefehl in der URL festlegen. Sie können auch die API-Methoden verwenden `setParam()`oder `setParams()`oder beides verwenden, um einen beliebigen Konfigurationsbefehl festzulegen. Sie können auch jedes Konfigurationsattribut im serverseitigen Konfigurationseintrag angeben.
+
+Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder dem Instanznamen der entsprechenden Viewer SDK-Komponente voranstellen. Ein Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an übergeben wird `setContainerId()` API-Methode. Die Dokumentation enthält optionale Präfixe für solche Befehle. Beispiel: `playback` wird wie folgt dokumentiert:
+
+```
+[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
+```
+
+bedeutet, dass dieser Befehl wie folgt verwendet wird:
+
+* `playback` (kurze Syntax)
+* `SmartCropVideoPlayer.playback` (qualifiziert mit dem Namen der Komponentenklasse)
+* `cont_smartCropVideoPlayer.playback` (mit Komponenten-ID qualifiziert, vorausgesetzt, dass `cont` ist die ID des Containerelements)
+
+Siehe auch [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd).
+
+Siehe auch [Befehlsreferenz für alle Viewer - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226).
