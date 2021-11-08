@@ -2,10 +2,10 @@
 title: Symboleffekt
 description: Das Wiedergabesymbol wird im Hauptansichtsbereich überlagert. Es wird angezeigt, wenn das Video angehalten wird oder wenn das Ende des Videos erreicht wird, und es hängt auch vom iconffekt -Parameter ab.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%

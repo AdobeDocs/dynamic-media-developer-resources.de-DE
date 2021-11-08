@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Viewers-Referenzhandbuch
 feature-set: Experience Manager Assets
 user-guide-description: Passen Sie Dynamic Media-Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Schließen Sie interaktive Bilder und Videos, Karussells, Rotations-Sets und mehr ein.
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 6%
@@ -891,7 +891,7 @@ ht-degree: 6%
          + [Video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
       + JavaScript-API-Referenz für Smart Crop Video Viewer {#jsapi-smartcropvideo}
-         + [JavaScript-API-Referenz für Smart Crop Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md))
+         + [JavaScript-API-Referenz für Smart Crop Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md)

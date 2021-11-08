@@ -2,10 +2,10 @@
 title: Email Share
 description: Das Tool für die E-Mail-Freigabe besteht aus einer Schaltfläche, die zum Social-Freigabe-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das bei Aktivierung des Tools angezeigt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%

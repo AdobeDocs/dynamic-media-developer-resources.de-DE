@@ -1,20 +1,20 @@
 ---
-description: Durch die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer angeklickt wird. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
+description: Über die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
 solution: Experience Manager
 title: Schaltfläche "Video im Vollbildmodus"
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
 
 # Schaltfläche &quot;Video im Vollbildmodus&quot;{#video-full-screen-button}
 
-Durch die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer angeklickt wird. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
+Über die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -55,11 +55,11 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
    <td colname="col2"> <p>Die Höhe der Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das angezeigte Bild für einen gegebenen Schaltflächenstatus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,9 +67,9 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;Vollbild&quot;und `selected='false'` entspricht dem Status &quot;normal&quot;.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
