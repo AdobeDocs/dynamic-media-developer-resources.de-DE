@@ -4,8 +4,7 @@ description: Das Tool für die E-Mail-Freigabe besteht aus einer Schaltfläche, 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%
@@ -1094,7 +1093,7 @@ Die Inhaltsquelle wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**CSS-Eigenschaften des Inhaltshauses des Dialogfelds **
+**CSS-Eigenschaften des Inhaltsherweises des Dialogfelds **
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

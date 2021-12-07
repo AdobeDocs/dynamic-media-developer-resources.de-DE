@@ -4,8 +4,7 @@ description: Das Werkzeug Freigabe einbetten besteht aus einer Schaltfläche, di
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 2%
@@ -1181,7 +1180,7 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
 >
 >Thumb unterstützt die `state` -Attribut-Selektor, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenstatus anzuwenden: `up`, `down`, `over`und `disabled`.
 
-Beispiel: Um einen Bildlaufleisten-Daumen mit 28 x 45 Pixel einzurichten, hat einen zehn Pixelrand oben und unten und hat für jeden Status ein anderes Bildmaterial:
+Beispiel: Um einen Bildlaufleisten-Daumen mit 28 x 45 Pixel einzurichten, hat oben und unten einen zehnten Pixelrand und hat für jeden Status ein anderes Bildmaterial:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
