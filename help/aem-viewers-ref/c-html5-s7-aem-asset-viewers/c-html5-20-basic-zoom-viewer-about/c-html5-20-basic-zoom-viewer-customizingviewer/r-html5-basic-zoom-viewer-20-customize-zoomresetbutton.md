@@ -1,20 +1,20 @@
 ---
-description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Hauptansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
-solution: Experience Manager
 title: Schaltfläche "Zoom zurücksetzen"
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+description: Durch Auswahl dieser Schaltfläche wird ein Bild in der Hauptansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ced2bae0-3d26-46f3-92d9-6fb2830c7a23
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '210'
 ht-degree: 3%
 
 ---
 
 # Schaltfläche &quot;Zoom zurücksetzen&quot;{#zoom-reset-button}
 
-Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Hauptansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+Durch Auswahl dieser Schaltfläche wird ein Bild in der Hauptansicht zurückgesetzt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,11 +59,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,11 +71,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Zoom-Reset-Schaltfläche mit einer Größe von 32 x 32 Pixel, sechs Pixel von der oberen und rechten Kante des Viewers entfernt und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
+Beispiel: Zum Einrichten einer Zoom-Reset-Schaltfläche mit einer Größe von 32 x 32 Pixel und einer Positionierung von sechs Pixeln vom oberen und rechten Rand des Viewers. Für jeden der vier Schaltflächenstatus muss ein anderes Bild angezeigt werden.
 
 ```
 .s7basiczoomviewer .s7zoomresetbutton { 

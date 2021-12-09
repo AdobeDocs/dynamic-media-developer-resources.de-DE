@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3c451400-4f44-4887-a045-46b064570b01
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6744aa987cd3d29ffd2e6959c0694c3561100fcf
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer `.s7eca
 
 ## Erstellen von responsiv gestaltetem CSS {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-Es ist möglich, verschiedene Geräte anzusprechen und Größen in CSS einzubetten, damit Ihre Inhalte je nach Gerät eines Benutzers oder Layout einer bestimmten Webseite unterschiedlich angezeigt werden. Dieses Targeting umfasst, aber nicht ausschließlich, verschiedene Webseitenlayouts, Elementgrößen der Benutzeroberfläche und die Auflösung von Grafiken.
+Es ist möglich, verschiedene Geräte anzusprechen und Größen in CSS einzubetten, damit Ihre Inhalte je nach Gerät eines Benutzers oder Layout einer bestimmten Webseite unterschiedlich angezeigt werden. Zu diesem Ziel gehören unter anderem unterschiedliche Layouts von Webseiten, Elementgrößen der Benutzeroberfläche und die Auflösung von Grafiken.
 
 Der Viewer unterstützt zwei Methoden zum Erstellen von responsivem entworfenem CSS: CSS-Markierungen und Standard-CSS-Medienabfragen. Sie können diese Methoden unabhängig oder gemeinsam verwenden.
 
 **CSS-Markierungen**
 
-Um responsives CSS zu erstellen, unterstützt der Viewer CSS-Markierungen, die spezielle CSS-Klassen enthalten, die dynamisch dem Viewer-Container-Element der obersten Ebene zugewiesen werden. Der Viewer-Container basiert auf der Laufzeit-Viewer-Größe und dem Eingabetyp, der auf dem aktuellen Gerät verwendet wird.
+Um das Erstellen von responsiv entworfenen CSS zu unterstützen, unterstützt der Viewer CSS-Markierungen. Spezielle CSS-Klassen werden dem Viewer-Container-Element der obersten Ebene dynamisch basierend auf der Laufzeit-Viewer-Größe und dem Eingabetyp zugewiesen, der auf dem aktuellen Gerät verwendet wird.
 
-Die erste Gruppe von CSS-Markern umfasst `.s7size_large`, `.s7size_medium`und `.s7size_small` Klassen. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Das heißt, wenn der Viewer-Bereich gleich oder größer als die Größe eines gemeinsamen Desktop-Monitors ist `.s7size_large` verwendet wird; wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt `.s7size_medium` zugewiesen wurde. In Bereichen, die Mobiltelefonbildschirmen ähneln, wird die Markierung `.s7size_small` festgelegt ist. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
+Die erste Gruppe von CSS-Markern umfasst `.s7size_large`, `.s7size_medium`und `.s7size_small` Klassen. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Das heißt, wenn der Viewer-Bereich gleich oder größer als die Größe eines gemeinsamen Desktop-Monitors ist `.s7size_large` verwendet wird; wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt `.s7size_medium` zugewiesen wurde. In Bereichen, die Mobiltelefonbildschirmen ähneln, `.s7size_small` festgelegt ist. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
 
 Die zweite Gruppe von CSS-Markern umfasst `.s7mouseinput` und `.s7touchinput`. Die Markierung `.s7touchinput` festgelegt ist, wenn das aktuelle Gerät über Touch-Eingabefunktionen verfügt; andernfalls `.s7mouseinput` verwendet. Diese Markierungen dienen zur Erstellung von Eingabeelementen der Benutzeroberfläche mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen, da Touch-Eingaben normalerweise größere Elemente erfordern. Falls das Gerät sowohl über eine Maus- als auch eine Touch-Funktion verfügt, `.s7touchinput` festgelegt ist und der Viewer eine Touch-optimierte Benutzeroberfläche rendert.
 
@@ -69,7 +69,7 @@ Verwenden Sie CSS-Medienabfragen, um Geräte mit einer anderen Pixeldichte als Z
 }
 ```
 
-Die Verwendung von CSS-Markern ist die flexibelste Methode zum Erstellen von responsiv gestaltetem CSS. Der Grund dafür ist, dass Sie damit nicht nur die Bildschirmgröße des Geräts, sondern auch die tatsächliche Viewer-Größe bestimmen können, was für responsive Seitenlayouts nützlich sein kann.
+Die Verwendung von CSS-Markern ist die flexibelste Möglichkeit, responsives CSS zu erstellen. Damit können Sie nicht nur die Bildschirmgröße des Geräts, sondern auch die tatsächliche Viewer-Größe bestimmen, was für responsive Seitenlayouts nützlich sein kann.
 
 Verwenden Sie die standardmäßige Viewer-CSS-Datei als Beispiel für einen CSS-Marker-Ansatz.
 
