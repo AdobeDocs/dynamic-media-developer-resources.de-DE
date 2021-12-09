@@ -1,13 +1,13 @@
 ---
+title: Hauptanzeige-Bereich
 description: Der Hauptansichtsbereich ist der Bereich, der vom Katalogbild belegt wird. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
 solution: Experience Manager
-title: Hauptanzeige-Bereich
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 9a37936b-ee3d-4ea0-9a86-ea14d0ef8be9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
+Beispiel: Zum Einrichten eines Viewers mit weißem Hintergrund ( `#FFFFFF`) und machen Sie ihre Größe 512 x 288 Pixel.
 
 ```
 .s7ecatalogviewer { 

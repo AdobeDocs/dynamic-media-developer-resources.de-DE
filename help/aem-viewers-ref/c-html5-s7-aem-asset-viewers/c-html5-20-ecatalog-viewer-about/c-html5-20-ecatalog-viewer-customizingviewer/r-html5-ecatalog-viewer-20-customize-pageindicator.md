@@ -1,13 +1,13 @@
 ---
+title: Seitenanzeige
 description: Die Seitenanzeige zeigt den aktuellen Seitenindex und die Seitenzahl insgesamt an. Sie wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt, auf Mobiltelefonen wird sie zur sekundären Steuerleiste hinzugefügt. Die Seitenanzeige kann von CSS skaliert, gehärtet und positioniert werden.
 solution: Experience Manager
-title: Seitenanzeige
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c63af583-274c-4052-8186-604119a368af
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '254'
 ht-degree: 3%
 
 ---
@@ -57,17 +57,17 @@ Das Erscheinungsbild des Seitenindikators wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p>Schriftfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Seitenanzeige mit einer Größe von 56 x 28 Pixel, einer horizontalen Zentrierung und Positionierung von 4 Pixel vom unteren Rand der Hauptsteuerleiste und der Verwendung einer Helvetica-Schriftart mit 14 Pixel.
+Beispiel: Zum Einrichten einer Seitenanzeige mit einer Größe von 56 x 28 Pixel, einer horizontalen Zentrierung und Positionierung von 4 Pixel vom unteren Rand der Hauptsteuerleiste und der Verwendung einer Helvetica®-Schrift mit einer Größe von 14 Pixel.
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 

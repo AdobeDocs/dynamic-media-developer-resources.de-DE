@@ -1,13 +1,13 @@
 ---
+title: setParam
 description: JavaScript-API-Referenz für den E-Katalog-Viewer.
 solution: Experience Manager
-title: setParam
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 781982f6-488d-452c-8168-604c708ae6ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
@@ -18,21 +18,21 @@ JavaScript-API-Referenz für den E-Katalog-Viewer.
 
 ` setParam( *`name, value`*)`
 
-Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Software Development Kit-Modifikator. Dieser Parameter wird vor `init()` aufgerufen.
+Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Software Development Kit-Modifikator. Dieser Parameter wird vor aufgerufen. `init()`.
 
-Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
+Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit `config` JSON-Objekt an den Konstruktor.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Name des Parameters. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Name des Parameters. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}- </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> -Wert des -Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

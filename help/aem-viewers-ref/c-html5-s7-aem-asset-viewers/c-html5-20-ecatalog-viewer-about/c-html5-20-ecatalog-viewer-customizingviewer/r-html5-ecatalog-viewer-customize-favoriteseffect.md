@@ -1,13 +1,13 @@
 ---
+title: Favoriteneffekt
 description: Der Viewer zeigt Favoriten-Symbole über der Hauptansicht an den Stellen an, an denen sie ursprünglich vom Benutzer hinzugefügt wurde.
 solution: Experience Manager
-title: Favoriteneffekt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
@@ -29,11 +29,11 @@ Das Erscheinungsbild des Favoritensymbols wird mit der folgenden CSS-Klassenausw
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das für das Symbol angezeigte Bild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -57,26 +57,26 @@ Beispiel: Richten Sie ein Favoritensymbol mit 36 x 36 Pixel ein.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die Sie auf die Klasse `.s7favoriteseffect` anwenden und den Typ des Cursors basierend auf der ausgewählten Benutzeraktion steuern können. Die folgenden `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente die `cursortype` -Attributauswahl, die Sie auf die `.s7favoriteseffect` -Klasse und steuert den Typ des Cursors basierend auf der ausgewählten Benutzeraktion. Folgendes `cursortype` -Werte werden unterstützt:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
    <td colname="col2"> <p>Der angezeigte Benutzer fügt ein neues Favoritensymbol hinzu. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
    <td colname="col2"> <p>Angezeigte Benutzer entfernt ein vorhandenes Favoritensymbol. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
    <td colname="col2"> <p>Wird im normalen Betriebsmodus angezeigt, wenn die Favoritenbearbeitung nicht aktiv ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Für jeden Komponententyp gibt es unterschiedliche Mauszeiger.
+Beispiel - Um für jeden Komponententyp unterschiedliche Mauszeiger zu verwenden.
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 

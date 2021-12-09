@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Vollbild"
 description: Setzt den Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wird. Diese Schaltfläche wird in der Hauptsteuerleiste angezeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Sie können die Schaltfläche über CSS vergrößern, verkleinern und positionieren.
 solution: Experience Manager
-title: Schaltfläche "Vollbild"
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Vollbildschaltfläche mit 28 x 28 Pixel, 4 Pixel vom unteren Rand und 5 Pixel vom rechten Rand der Hauptsteuerleiste entfernt, und zum Anzeigen eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus, wenn diese ausgewählt sind oder nicht ausgewählt sind.
+Beispiel: Um eine Vollbildschaltfläche mit 28 x 28 Pixel einzurichten, die 4 Pixel vom unteren Rand und 5 Pixel vom rechten Rand der Hauptsteuerungsleiste entfernt angeordnet ist. Schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 

@@ -1,13 +1,13 @@
 ---
+title: Seitenansicht
 description: Die Hauptansicht besteht aus dem Katalogbild. Es kann wischt werden, um zu einer anderen Seite zu gelangen oder zu zoomen.
 solution: Experience Manager
-title: Seitenansicht
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3368115-15e7-4d9d-a417-a3c82c9a8a64
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe der Hauptansicht im hexadezimalen Format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
    <td colname="col2"> <p>Cursor, der über der Hauptansicht angezeigt wird. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Beispiel - um die Hauptansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7pageview` angewendet werden kann, und steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente die `cursortype` -Attributauswahl, auf die angewendet werden kann `.s7pageview` -Klasse und steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Folgendes `cursortype` -Werte werden unterstützt:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,7 +68,7 @@ Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Zoomin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Zoomin </span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype
    <td colname="col2"> <p>Wird angezeigt, wenn der Benutzer das Bild schaltet, das gezoomt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Folie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Folie </span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn der Benutzer einen Bildtausch durch horizontales Wischen oder Klick durchführt. </p> </td> 
   </tr> 
  </tbody> 
@@ -100,10 +100,10 @@ Der Seitenaufteiler, der die linke und rechte Seite des Katalogaufschlags visuel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Die Breite des Seiten-Dividers. Auf <span class="codeph"> 0 </span> px setzen, um den Divider vollständig auszublenden. </p> </td> 
+   <td colname="col2"> <p> Die Breite des Seiten-Dividers. Legen Sie fest auf <span class="codeph"> 0 </span> px , um die Trennlinie vollständig zu verbergen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das Sie als Seitenaufteilung verwenden möchten. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +120,9 @@ Beispiel - um einen Seitenaufleger mit einer Breite von 40 Pixel mit halbtranspa
 
 >[!NOTE]
 >
->Wenn der Modifikator `frametransition` auf `turn` oder `auto` (auf Desktop-Systemen) gesetzt ist, wird das Erscheinungsbild des Seiten-Dividers mit dem Modifikator `pageturnstyle` gesteuert und die CSS-Klasse `.s7pagedivider` wird ignoriert.
+>Wenn die `frametransition` modifier ist auf `turn` oder `auto` (auf Desktop-Systemen) wird das Erscheinungsbild des Seiten-Dividers mit dem `pageturnstyle` -Modifikator und die `.s7pagedivider` CSS-Klasse wird ignoriert.
 
-Es ist möglich, die Anzeige der benutzerdefinierten Mauszeiger über dem Hauptanzeige-Bereich zu konfigurieren. Dies wird durch zusätzliche Attributselektoren gesteuert, die auf die CSS-Klasse `.s7ecatalogviewer .s7pageview` angewendet werden:
+Es ist möglich, die Anzeige der benutzerdefinierten Mauszeiger über dem Hauptanzeige-Bereich zu konfigurieren. Diese Funktion wird mit den zusätzlichen Attributselektoren gesteuert, die auf `.s7ecatalogviewer .s7pageview` CSS-Klasse:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -137,7 +137,7 @@ Es ist möglich, die Anzeige der benutzerdefinierten Mauszeiger über dem Haupta
    <td colname="col2"> <p> Normalerweise wird ein Pfeil für nicht vergrößerbare Bilder angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Zoomin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Zoomin </span> </p> </td> 
    <td colname="col2"> <p> Zeigt an, wann ein Bild vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ Es ist möglich, die Anzeige der benutzerdefinierten Mauszeiger über dem Haupta
    <td colname="col2"> <p>Zeigt an, wann der Benutzer beim Zoomen des Bildes den Ziehvorgang durchführt </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Folie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Folie </span> </p> </td> 
    <td colname="col2"> <p>Zeigt an, wann der Benutzer einen Bildtausch mithilfe einer Foliengeste durchführt </p> </td> 
   </tr> 
  </tbody> 

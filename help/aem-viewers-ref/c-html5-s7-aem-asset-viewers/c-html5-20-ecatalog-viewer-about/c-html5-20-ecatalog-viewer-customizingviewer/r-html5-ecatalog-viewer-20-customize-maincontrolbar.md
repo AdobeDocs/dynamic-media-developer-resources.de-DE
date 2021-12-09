@@ -1,13 +1,13 @@
 ---
+title: Hauptsteuerleiste
 description: Die Hauptsteuerleiste ist der rechteckige Bereich auf Desktop-Systemen und Tablets, der alle Steuerelemente der Benutzeroberfläche (mit Ausnahme der Schaltflächen "Große Seite") enthält, die für den eCatalog-Viewer verfügbar sind.
 solution: Experience Manager
-title: Hauptsteuerleiste
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -43,13 +43,13 @@ Das Erscheinungsbild der Hauptsteuerleiste wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p>Die Höhe der Hauptsteuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe der Hauptsteuerleiste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten einer grauen Hauptkontrollleiste, die 36 Pixel groß ist und sich oben im Viewer-Container befindet.
+**Beispiel** - um eine graue Hauptkontrollleiste einzurichten, die 36 Pixel groß ist und sich oben im Viewer-Container befindet.
 
 ```
 .s7ecatalogviewer .s7controlbar { 
@@ -75,12 +75,12 @@ Die Bildlauffunktion ist für die Hauptsteuerleiste aktiviert und für die sekun
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Wenn auf <span class="codeph"> static </span> festgelegt, ist die Bildlauffunktion deaktiviert. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolute </span> fest, um die Bildlauffunktion zu aktivieren. </p> </td> 
+   <td colname="col2"> <p>Wenn auf <span class="codeph"> statisch </span> die Bildlauffunktion deaktiviert ist. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolute </span> , um die Bildlauffunktion zu aktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Bildlaufschaltfläche wird zu einem speziellen Container-Element hinzugefügt, das die Schaltfläche richtig positioniert und es Ihnen ermöglicht, den Bereich um die Schaltfläche anders zu gestalten als den Rest des Hintergrunds der Steuerleiste, falls die Höhe der Bildlaufschaltfläche kleiner als die Höhe der Steuerleiste ist.
+Die Bildlaufschaltfläche wird einem speziellen Container-Element hinzugefügt, das die Schaltfläche richtig positioniert. Damit können Sie den Bereich um die Schaltfläche anders gestalten als den Rest des Hintergrunds der Kontrollleiste, falls die Höhe der Bildlaufschaltfläche kleiner als die Höhe der Kontrollleiste ist.
 
 Das Erscheinungsbild dieses Scroll-Schaltflächen-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -99,13 +99,13 @@ Das Erscheinungsbild dieses Scroll-Schaltflächen-Containers wird mit der folgen
    <td colname="col2"> <p>Normalerweise sollte gleich oder größer als die Breite der Bildlaufschaltfläche selbst sein. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Container-Hintergrundfarbe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sie können die Bildlaufschaltfläche über CSS anpassen und anordnen.
+Sie können die Bildlaufschaltfläche selbst über CSS anpassen und anordnen.
 
 Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -120,19 +120,19 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,11 +140,11 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `state="selected"` entspricht dem anfänglichen Status der Bildlaufschaltfläche, wenn der Inhalt der Steuerleiste nach links gescrollt werden kann; `state="default"` entspricht dem Status, in dem der Inhalt vollständig nach links gescrollt wird und die Bildlaufschaltfläche andeutet, dass sie zum ursprünglichen Zustand zurückkehren soll.
+>Diese Schaltfläche unterstützt `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `state="selected"` entspricht dem anfänglichen Status der Bildlaufschaltfläche , wenn der Inhalt der Kontrollleiste nach links verschoben werden kann. Das Attribut `state="default"` entspricht dem Status, wenn der Inhalt vollständig nach links gescrollt wird und die Bildlaufschaltfläche darauf hinweist, dass er wieder in den ursprünglichen Zustand versetzt wird.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-**Beispiel** : Um die Bildlauffunktion in der Hauptsteuerleiste für Mobiltelefone zu aktivieren, richten Sie eine Bildlaufschaltfläche von 64 x 64 Pixel ein, die für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt, wenn sie ausgewählt sind oder nicht ausgewählt sind:
+**Beispiel** - So aktivieren Sie die Bildlauffunktion in der Hauptsteuerleiste für Mobiltelefone. Richten Sie eine Bildlaufschaltfläche von 64 x 64 Pixel ein, die für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt, wenn diese ausgewählt sind oder nicht:
 
 ```
 .s7ecatalogviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

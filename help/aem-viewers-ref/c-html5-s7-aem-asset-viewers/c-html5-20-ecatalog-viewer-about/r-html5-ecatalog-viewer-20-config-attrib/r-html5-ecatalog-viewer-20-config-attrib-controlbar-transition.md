@@ -1,33 +1,33 @@
 ---
-description: ControlBar.transition
-solution: Experience Manager
 title: ControlBar.transition
+description: Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: abe8affb-cbcd-4072-b2ed-91a398b1d678
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 3%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 # ControlBar.transition{#controlbar-transition}
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_F71AA834FE494949A2D4B569EA5E721F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade  </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. Verwenden Sie <span class="codeph"> none </span> zum sofortigen Anzeigen und Verbergen. <span class="codeph"> Ein- und Ausblenden </span> sorgt für einen allmählichen Ein- und Ausblendeeffekt (nicht unterstützt in Internet Explorer 8). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade </span> </p> </td> 
+   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. Verwendung <span class="codeph"> Keine </span> zum sofortigen Einblenden und Verbergen; <span class="codeph"> verblassen </span> bietet einen allmählichen Ein- und Ausblendeffekt (nicht unterstützt in Internet Explorer 8). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touchereignis an, das die Steuerleiste registriert, und dem ausgeblendeten Zeitkontrollbalken. </p> <p> Wenn der Wert auf <span class="codeph"> -1 </span> festgelegt ist, wird der automatische Ausblendeffekt der Komponente nie Trigger und sie bleibt immer auf dem Bildschirm sichtbar. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 
+   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touchereignis an, das die Steuerleiste registriert, und dem Ausblenden der Zeitsteuerungsleiste. </p> <p> Wenn auf <span class="codeph"> -1 </span>, wird der automatische Ausblendeffekt der Komponente nie Trigger und auf dem Bildschirm immer sichtbar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
    <td colname="col2"> <p> Legt die Dauer der Ein- und Ausblendung der Animation in Sekunden fest. </p> </td> 
   </tr> 
  </tbody> 

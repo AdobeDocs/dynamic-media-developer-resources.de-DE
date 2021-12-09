@@ -1,11 +1,11 @@
 ---
+title: Twitter Share
 description: Das twitter-Freigebungs-Tool besteht aus einer Schaltfläche, die dem Social-Freigabe-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
-title: Twitter Share
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 31b6f36d-e4bc-44e9-88a1-6aff6f2254ef
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Si
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Twitter-Freigabe-Schaltfläche mit 28 x 28 Pixel und einem anderen Bild für jeden der vier verschiedenen Schaltflächenstatus:
+Beispiel: So richten Sie eine Twitter-Freigabe-Schaltfläche ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
 ```
 .s7ecatalogviewer .s7twittershare { 

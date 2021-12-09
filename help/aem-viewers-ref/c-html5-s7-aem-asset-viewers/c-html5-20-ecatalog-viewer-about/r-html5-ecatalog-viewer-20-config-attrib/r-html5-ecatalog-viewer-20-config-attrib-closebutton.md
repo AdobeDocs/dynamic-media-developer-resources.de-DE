@@ -1,14 +1,14 @@
 ---
-description: Closebutton
-solution: Experience Manager
 title: Closebutton
+description: Die Schaltfläche "Schließen"
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Auf <span class="codeph"> 1 </span> setzen, um die Anzeige der Schließen-Schaltfläche zu ermöglichen. Oder setzen Sie <span class="codeph"> 0 </span>, um die Schließen-Schaltfläche auszublenden. </p> <p>Die Schließen-Schaltfläche wird nur auf Touch-Geräten unterstützt. kann nicht auf Desktop-Systemen angezeigt werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Legen Sie fest auf <span class="codeph"> 1 </span> um die Anzeige der Schaltfläche Schließen zu aktivieren. Oder legen Sie <span class="codeph"> 0 </span> um die Schaltfläche Schließen auszublenden. </p> <p>Die Schaltfläche Schließen wird nur auf Touch-Geräten unterstützt. kann nicht auf Desktop-Systemen angezeigt werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
