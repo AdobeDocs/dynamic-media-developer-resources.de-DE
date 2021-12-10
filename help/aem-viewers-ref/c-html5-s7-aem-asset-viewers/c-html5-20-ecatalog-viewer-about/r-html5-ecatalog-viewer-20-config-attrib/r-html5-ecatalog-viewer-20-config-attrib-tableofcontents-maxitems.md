@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.maxitems
 description: TableOfContents.maxitems
 solution: Experience Manager
-title: TableOfContents.maxitems
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Die maximale Anzahl von Elementen im Dropdown-Inhaltsverzeichnis. </p> <p>Darüber hinaus können Sie die Anzahl der sichtbaren Elemente in der Dropdown-Liste verringern, falls sie durch den äußeren Container beschnitten wird. </p> <p>Wenn diese Komponente auf <span class="codeph"> 0</span> gesetzt ist, zeigt sie so viele Elemente wie möglich an, sofern dem Container er hinzugefügt wird. </p> </td> 
+   <td> <p>Die maximale Anzahl von Elementen im Dropdown-Inhaltsverzeichnis. </p> <p>Außerdem können Sie die Anzahl der sichtbaren Elemente in der Dropdown-Liste verringern, falls sie vom äußeren Container beschnitten wird. </p> <p>Wenn auf <span class="codeph"> 0</span> dass die Komponente so viele Elemente wie möglich anzeigt, wenn sie dem Container hinzugefügt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

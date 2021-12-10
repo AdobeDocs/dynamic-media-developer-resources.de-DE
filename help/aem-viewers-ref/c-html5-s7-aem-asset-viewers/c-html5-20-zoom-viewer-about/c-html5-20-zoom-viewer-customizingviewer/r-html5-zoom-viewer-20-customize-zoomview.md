@@ -1,13 +1,13 @@
 ---
+title: Zoomansicht
 description: Die Hauptansicht besteht aus dem zoombaren Bild.
 solution: Experience Manager
-title: Zoomansicht
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Hauptansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
    <td colname="col2"> <p>Der Cursor wird über der Hauptansicht angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um die Hauptansicht transparent zu machen.
+Beispiel - Um die Hauptansicht transparent zu machen.
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ Beispiel - um die Hauptansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7zoomview` angewendet werden kann. Er steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente `cursortype` -Attributauswahl, die auf die `.s7zoomview` -Klasse. Er steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Folgendes `cursortype` -Werte werden unterstützt:
 
 * `default`
 

@@ -1,21 +1,21 @@
 ---
-description: eCatalog Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des dedizierten Miniaturmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
+title: eCatalog
+description: eCatalog Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des dedizierten Miniaturansichtsmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
 keywords: responsiv
 solution: Experience Manager
-title: eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
 
 # eCatalog{#ecatalog}
 
-eCatalog Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des dedizierten Miniaturmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
+eCatalog Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des dedizierten Miniaturansichtsmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Der eCatalog-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsda
 
 Sie können den E-Katalog-Viewer im Popup-Modus verwenden, indem Sie eine produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird, oder im eingebetteten Modus, auf der er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
-Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Die gesamte Skinning-Funktion wird über benutzerdefiniertes CSS erreicht.
+Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Alle Skins werden über benutzerdefiniertes CSS erstellt.
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -84,7 +84,7 @@ Auf diesen Viewer kann wie unter [Tastaturzugriff und Navigation](../../c-keyboa
 
 ## Tools zur Freigabe in Social Media mit dem E-Katalog-Viewer {#section-eb575084a99647c3a9591f439f40b412}
 
-Der E-Katalog-Viewer unterstützt Social-Sharing-Tools. Diese sind als Schaltfläche in der Hauptsteuerleiste verfügbar, die sich durch Klicken oder Tippen auf eine Freigabe-Symbolleiste zu einer Freigabe-Symbolleiste erweitert.
+Der E-Katalog-Viewer unterstützt Tools zur Freigabe in sozialen Netzwerken. Sie sind als Schaltfläche in der Hauptsteuerungsleiste verfügbar, die sich zu einer Freigabe-Symbolleiste erweitert, wenn ein Benutzer darauf klickt oder tippt.
 
 Die Freigabe-Symbolleiste enthält Symbole für jeden unterstützten Freigabekanaltyp, darunter Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe von E-Mails, die Einbettung von Freigabe oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Formular für die Dateneingabe an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer von einem Social-Dienst zu einem standardmäßigen Dialogfeld für die Freigabe um. Die Freigabe-Tools sind aufgrund der Sicherheitseinschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
 
@@ -116,17 +116,17 @@ Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt, di
 
 Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Seiten, auf denen das Layout automatisch an den Gerätetyp angepasst wird.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Dies ist die beste Wahl für Webseiten mit statischem Layout.
+Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Methode eignet sich am besten für Webseiten mit statischem Layout.
 
-Responsive Designeinbettung setzt voraus, dass der Viewer die Größe möglicherweise zur Laufzeit ändert, wenn die Größe des Containers geändert wird `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Responsives Design-Einbetten setzt voraus, dass die Größe des Viewers zur Laufzeit geändert werden muss, wenn die Größe des Containers geändert wird `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für responsives Design verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite den Container dimensioniert `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`Wenn die Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für responsives Design verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite den Container dimensioniert `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`Wenn die Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap und Foundation verwenden.
 
 Andernfalls, wenn die Webseite sowohl die Breite als auch die Höhe für den Container des Viewers festlegt `DIV`, füllt der Viewer nur diesen Bereich und folgt der Größe, die das Layout der Webseite bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
 **Einbettung fester Größe**
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
+Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie wie folgt vorgehen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Definieren des Container-DIV.
@@ -149,7 +149,7 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Sie sollten nur auf das JavaScript des Hauptviewers verweisen `include` -Datei auf Ihrer Seite. Sie sollten keine zusätzlichen JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf das HTML5 SDK. `Utils.js` Bibliothek, die vom Viewer aus geladen wird `/s7viewers` Kontextpfad (so genanntes konsolidiertes SDK) `include`). Der Grund dafür ist, dass der Standort `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet und der Speicherort zwischen Viewer-Versionen geändert wird. Adobe behält ältere Versionen des sekundären Viewers nicht bei `includes` auf dem Server.
+>Nur auf das JavaScript des Haupt-Viewers verweisen `include` -Datei auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf das HTML5 SDK. `Utils.js` Bibliothek, die vom Viewer aus geladen wird `/s7viewers` Kontextpfad (so genanntes konsolidiertes SDK) `include`). Der Grund dafür ist, dass der Standort `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet und der Speicherort zwischen Viewer-Versionen geändert wird. Adobe behält ältere Versionen des sekundären Viewers nicht bei `includes` auf dem Server.
 >
 >
 >Daher können Sie einen direkten Verweis auf sekundäres JavaScript einfügen `include` wird vom Viewer auf der Seite verwendet und unterbricht die Viewer-Funktionalität in Zukunft, wenn eine neue Produktversion bereitgestellt wird.
@@ -170,7 +170,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für `.s7ecatalogviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten oder durch Verwendung von `stagesize` -Modifikator.
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
+   Sie können die Größenanpassung in CSS direkt auf die HTML-Seite setzen. Oder fügen Sie die Größe in eine benutzerdefinierte Viewer-CSS-Datei ein, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
 
    Siehe [Anpassen des E-Katalog-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) Weitere Informationen zum Formatieren des Viewers mit CSS.
 
@@ -183,7 +183,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können die `stagesize` -Modifikator entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic oder übergeben Sie ihn explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, wie folgt:
+   Sie können die `stagesize` -Modifikator im Viewer-Vorgabendatensatz in Dynamic Media Classic. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, wie folgt:
 
    ```
    eCatalogViewer.setParam("stagesize", 
@@ -196,7 +196,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Um die maximale Kompatibilität sicherzustellen, rufen Sie jedoch die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder im Hauptteil `onload()` -Ereignis.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit `display:none` Stil zugewiesen. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit `display:none` Stil zugewiesen. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Das Beispiel geht von `eCatalogViewer` ist die Viewer-Instanz; `s7viewer` ist der Name des Platzhalters `DIV`; `https://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Viewers/Pluralist` ist das Asset:
 

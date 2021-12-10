@@ -1,14 +1,14 @@
 ---
+title: PageView.maxloadradius
 description: PageView.maxloadradius
 solution: Experience Manager
-title: PageView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn auf <span class="codeph"> -1</span> gesetzt, lädt die Komponente alle Katalograhmen im Leerlauf vorab. </p> <p> Wenn auf <span class="codeph"> 0</span> gesetzt, lädt die Komponente nur den derzeit sichtbaren Frame, den vorherigen und den nächsten Frame. </p> <p>Legen Sie <span class="codeph"><span class="varname"> preloadnbr</span></span> fest, um festzulegen, wie viele unsichtbare Rahmen um den aktuell angezeigten Frame im Leerlauf vorab geladen werden. </p> </td> 
+   <td colname="col2"> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn auf <span class="codeph"> -1</span> Die Komponente lädt alle Katalograhmen im Leerlauf vorab. </p> <p> Wenn auf <span class="codeph"> 0</span> Die Komponente lädt nur den derzeit sichtbaren Frame, den vorherigen und den nächsten Frame. </p> <p>Satz <span class="codeph"><span class="varname"> preloadnbr</span></span> , um festzulegen, wie viele unsichtbare Rahmen um den aktuell angezeigten Frame im Leerlauf vorgeladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

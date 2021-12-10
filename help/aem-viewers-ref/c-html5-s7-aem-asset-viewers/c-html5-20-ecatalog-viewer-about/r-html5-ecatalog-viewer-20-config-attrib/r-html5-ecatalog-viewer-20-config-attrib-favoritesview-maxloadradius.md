@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.maxloadradius
 description: FavoritesView.maxloadradius
 solution: Experience Manager
-title: FavoritesView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn auf <span class="codeph"> -1</span> gesetzt, werden alle Miniaturen gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur sichtbare Miniaturen geladen. </p> <p> Wenn Sie auf <span class="codeph"><span class="varname"> preloadnbr</span></span> festlegen, können Sie festlegen, wie viele unsichtbare Zeilen um den sichtbaren Bereich vorab geladen werden. </p> </td> 
+   <td colname="col2"> <p> Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn auf <span class="codeph"> -1</span>, werden alle Miniaturansichten gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span>, werden nur sichtbare Miniaturansichten geladen. </p> <p> Wenn auf <span class="codeph"><span class="varname"> preloadnbr</span></span>können Sie festlegen, wie viele unsichtbare Zeilen um den sichtbaren Bereich vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.textpos
 description: FavoritesView.textpos
 solution: Experience Manager
-title: FavoritesView.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3bfd7f84-6136-4db7-80a5-56f84179f3ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wo der Titel relativ zum Miniaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn <span class="codeph"> tooltip</span> angegeben wird, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. </p> <p>Wenn der Wert auf <span class="codeph"> none</span> festgelegt ist, wird die Beschriftungsanzeige deaktiviert. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wo der Titel relativ zum Miniaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wann <span class="codeph"> tooltip</span> festgelegt ist, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. </p> <p>Wenn auf <span class="codeph"> Keine</span>, deaktiviert sie die Anzeige der Titel. </p> </td> 
   </tr> 
  </tbody> 
 </table>

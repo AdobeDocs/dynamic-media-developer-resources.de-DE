@@ -1,20 +1,20 @@
 ---
+title: Schaltfläche "Vergrößern"
 description: Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Hauptansicht vergrößert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
-title: Schaltfläche "Vergrößern"
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 72cf39e5-53db-4750-8763-86f6222181a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
 
 # Schaltfläche &quot;Vergrößern&quot;{#zoom-in-button}
 
-Durch Klicken oder Tippen auf diese Schaltfläche wird ein Bild in der Hauptansicht vergrößert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+Durch Auswahl oder Tippen auf diese Schaltfläche wird ein Bild in der Hauptansicht vergrößert. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,11 +59,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,11 +71,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Zum Einrichten einer Zoom-Schaltfläche mit einer Größe von 32 x 32 Pixel, sechs Pixel von der oberen und rechten Kante des Viewers entfernt und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
+Beispiel: Um eine Zoom-Schaltfläche mit einer Größe von 32 x 32 Pixel einzurichten und sechs Pixel von der oberen und rechten Kante des Viewers aus zu positionieren. Und schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an.
 
 ```
 .s7zoomviewer .s7zoominbutton { 

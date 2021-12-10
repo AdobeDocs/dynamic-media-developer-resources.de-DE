@@ -1,13 +1,13 @@
 ---
+title: Anzeige einstellen
 description: Set Indicator ist eine Reihe von Punkten, die auf Farbfeldern gerendert werden, wenn ein Viewer auf einem Touch-Gerät verwendet wird. Die Punkte helfen Benutzern, durch Seiten von Miniaturansichten zu navigieren, wenn keine Bildlaufschaltflächen verfügbar sind.
 solution: Experience Manager
-title: Anzeige einstellen
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe im hexadezimalen Format des Set-Indikators. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Set-Indikators mit weißem Hintergrund:
+Beispiel - So erstellen Sie einen Indikator mit einem weißen Hintergrund:
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -49,7 +49,7 @@ Beispiel: Zum Einrichten eines Set-Indikators mit weißem Hintergrund:
 }
 ```
 
-Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild eines einzelnen Satzanzeigepunkts wird mit der CSS-Klassenauswahl gesteuert:
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -70,27 +70,27 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
    <td colname="col2"> <p>Höhe des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>Linker Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>Oberer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>Rechter Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>Unterer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Rahmenradius in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
 
 >[!NOTE]
 >
->Der Set Indicator Punkt unterstützt die Attributauswahl `state`, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der aktuellen Seite der Miniaturansichten, `state="unselected"` entspricht dem Standardpunktstatus.
+>Der Anzeigepunkt &quot;Festlegen&quot;unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der aktuellen Seite der Miniaturansichten; `state="unselected"` entspricht dem Standardpunktstatus.
 
-Beispiel: Um einen festgelegten Anzeigepunkt auf 15 x 15 Pixel festzulegen, mit zwei Pixel horizontaler Rand, fünf Pixel oberer Rand, einem Pixel unteren Rand, zwölf Pixel Radius, #D5D3D3 Standardfarbe und #9393 aktiver Farbe:
+Beispiel: So erstellen Sie einen festgelegten Anzeigepunkt von 15 x 15 Pixel mit 2 Pixel horizontaler Ränder, 5 Pixel oberer Ränder, 1 Pixel unterer Rand, 12 Pixel Radius, #D5D3D3 Standardfarbe und #9393 aktive Farbe:
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

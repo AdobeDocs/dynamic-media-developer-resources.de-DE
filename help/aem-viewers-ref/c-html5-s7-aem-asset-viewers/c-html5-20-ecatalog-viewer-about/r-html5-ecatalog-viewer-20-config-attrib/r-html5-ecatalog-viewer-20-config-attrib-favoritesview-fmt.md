@@ -1,13 +1,13 @@
 ---
+title: FavoritesView.fmt
 description: FavoritesView.fmt
 solution: Experience Manager
-title: FavoritesView.fmt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d14f8a0c-5fb5-4315-ba8b-79add6d389b0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird. Das Format ist ein beliebiger Wert, der vom Image-Server und vom Client-Browser unterstützt wird. </p> <p>Wenn das Bildformat mit <span class="codeph"> -alpha</span> endet, rendert die Komponente die Bilder als transparenten Inhalt. Bei allen anderen Bildformatwerten behandelt die Komponente Bilder als deckend. </p> </td> 
+   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird. Das Format ist ein beliebiger Wert, der vom Image-Server und vom Client-Browser unterstützt wird. </p> <p>Wenn das Bildformat mit <span class="codeph"> -alpha</span>, rendert die Komponente die Bilder als transparenten Inhalt. Bei allen anderen Bildformatwerten behandelt die Komponente Bilder als deckend. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Vollbild"
 description: Setzt den Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wird. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
-title: Schaltfläche "Vollbild"
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Beispiel: Zum Einrichten einer Vollbildschaltfläche mit einer Größe von 32 x 32 Pixel, die sechs Pixel vom oberen und rechten Rand des Viewers entfernt ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus anzeigt, sofern ausgewählt oder nicht ausgewählt:
+Beispiel: Um eine Vollbildschaltfläche mit 32 x 32 Pixel einzurichten und sechs Pixel von der oberen und rechten Kante des Viewers aus zu positionieren. Schließlich zeigt ein anderes Bild für jeden der vier Schaltflächenstatus an, wenn diese ausgewählt oder nicht ausgewählt sind:
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 

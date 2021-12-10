@@ -1,14 +1,14 @@
 ---
+title: InitialFrame
 description: InitialFrame
 solution: Experience Manager
-title: InitialFrame
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 28b6b981-94f6-4136-b322-992e18d154db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen nullbasierten Spread-Index an, der beim Laden des Viewers angezeigt werden soll. Der Index entspricht dem Index des Streams im Querformat. Wenn der Viewer auf das Hochformat gedreht wird, zeigt der Viewer die am weitesten links liegende Seite des breiteten Bereichs an, auf die <span class="codeph"> frameIdx</span> verweist. </p> </td> 
+   <td colname="col2"> <p> Gibt einen nullbasierten Spread-Index an, der beim Laden des Viewers angezeigt werden soll. Der Index entspricht dem Index des Streams im Querformat. Wenn der Viewer in ein Hochformat gedreht wird, zeigt der Viewer die am weitesten links liegende Seite von dem durch <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

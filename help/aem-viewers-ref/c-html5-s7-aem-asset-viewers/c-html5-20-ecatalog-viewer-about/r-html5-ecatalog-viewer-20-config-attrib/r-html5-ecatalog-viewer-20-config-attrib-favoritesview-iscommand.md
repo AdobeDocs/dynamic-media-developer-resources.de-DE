@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.iscommand
 description: Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturansichten angewendet wird.
 solution: Experience Manager
-title: FavoritesView.iscommand
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturansichten angewendet
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> HTTP-kodiert sein als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span>. </p> </td> 
+   <td colname="col2"> <p> Wenn in der URL angegeben, werden alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> muss HTTP-kodiert sein als <span class="codeph"> %26</span> und <span class="codeph"> %3D</span>zurück. </p> </td> 
   </tr> 
  </tbody> 
 </table>

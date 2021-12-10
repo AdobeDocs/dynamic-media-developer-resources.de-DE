@@ -1,13 +1,13 @@
 ---
+title: Muster
 description: Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite. Bildlauftasten werden nur dann auf dem Desktop angezeigt, wenn alle Miniaturansichten nicht in die Container-Breite passen. Auf Mobilgeräten oder wenn Miniaturansichten in die Container-Breite passen, werden die Bildlauftasten nicht angezeigt.
 solution: Experience Manager
-title: Muster
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '446'
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ Der Abstand zwischen den Musterminiaturansichten wird mit der folgenden CSS-Klas
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt ist. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,11 +102,11 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
@@ -118,7 +118,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen den Attributselektor `state`, der verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht des Bildes, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten entspricht und `state="over"` beim Bewegen des Mauszeigers verwendet wird.
+>Miniaturansichten unterstützen die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht für das Bild, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten entspricht und `state="over"` wird beim Bewegen der Maus verwendet.
 
 Beispiel: Zum Einrichten von Miniaturansichten mit 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen.
 
@@ -152,19 +152,19 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -172,9 +172,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt den Attributselektor `state`, mit dem verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können: `up`, `down`, `over` und `disabled`.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`und `disabled`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Zum Einrichten von Bildlaufschaltflächen mit einer Größe von 56 x 56 Pixel und einer für jeden Status unterschiedlichen Grafik.
 

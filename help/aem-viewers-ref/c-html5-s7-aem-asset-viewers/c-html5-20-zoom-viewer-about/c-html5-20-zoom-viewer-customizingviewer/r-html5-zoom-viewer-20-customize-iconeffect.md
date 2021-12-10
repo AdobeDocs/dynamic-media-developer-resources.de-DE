@@ -1,13 +1,13 @@
 ---
+title: Symboleffekt
 description: Der Zoom-Indikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet und auch vom iconffekt-Parameter abhängig ist.
 solution: Experience Manager
-title: Symboleffekt
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 5f50cb66-e5b4-42c6-8917-a954d8d80154
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Zoom-Indikatorgrafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
 
 >[!NOTE]
 >
->Der Symboleffekt unterstützt die Attributauswahl `media-type`, mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen normalerweise die Mauseingabe verwendet wird, und `media-type='multitouch'` Geräten mit Touch-Eingabe.
+>Der Symboleffekt unterstützt `media-type` -Attributauswahl, mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere `media-type='standard'` entspricht Desktop-Systemen, bei denen normalerweise die Mauseingabe verwendet wird, und `media-type='multitouch'` entspricht Geräten mit Touch-Eingabe.
 
 Beispiel: Einrichten eines Zoom-Indikators mit einer Größe von 100 x 100 Pixel mit unterschiedlichen Grafiken für Desktop-Systeme und Touch-Geräte.
 
