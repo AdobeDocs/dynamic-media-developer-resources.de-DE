@@ -1,14 +1,14 @@
 ---
+title: Swatches.maxloadradius
 description: Swatches.maxloadradius
 solution: Experience Manager
-title: Swatches.maxloadradius
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: df9d5be4-d1e1-4b72-a7e7-0f3611278d2a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '53'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn auf <span class="codeph"> -1</span> gesetzt, werden alle Muster gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur sichtbare Farbfelder geladen. </p> <p><span class="codeph"><span class="varname"> </span></span> preloadnbraries definiert, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
+   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn auf <span class="codeph"> -1</span> alle Muster werden gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> nur sichtbare Farbfelder geladen werden. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> definiert, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

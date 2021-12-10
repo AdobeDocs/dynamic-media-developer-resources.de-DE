@@ -1,13 +1,13 @@
 ---
+title: Sekundäre Steuerleiste
 description: Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen "Erste und Letzte Seite"und einen Seitenindikator enthält, wenn er in CSS verfügbar gemacht wird.
 solution: Experience Manager
-title: Sekundäre Steuerleiste
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen &quot;Erste und Letzte Seite&quot;und einen Seitenindikator enthält, wenn er in CSS verfügbar gemacht wird.
 
-Standardmäßig wird sie nur auf Mobiltelefonen angezeigt und befindet sich unten im Viewer. Es benötigt immer die gesamte verfügbare Viewer-Breite. Es ist möglich, die Farbe, Höhe und vertikale Position durch CSS in Relation zum Viewer-Container zu ändern.
+Standardmäßig wird sie nur auf Mobiltelefonen am unteren Rand des Viewers angezeigt. Es benötigt immer die gesamte verfügbare Viewer-Breite. Es ist möglich, die Farbe, Höhe und vertikale Position durch CSS in Bezug auf den Viewer-Container zu ändern.
 
 Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -43,7 +43,7 @@ Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Kla
    <td colname="col2"> <p>Die Höhe der Hauptsteuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe der sekundären Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 

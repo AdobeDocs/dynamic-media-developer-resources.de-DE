@@ -1,13 +1,13 @@
 ---
+title: Favoritenansicht
 description: Die Favoritenansicht besteht aus einer Spalte mit Miniaturbildern.
 solution: Experience Manager
-title: Favoritenansicht
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '284'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Die Position und Höhe der Favoriten-Ansicht werden von der Ansicht verwaltet. i
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe der Favoriten-Ansicht. </p> </td> 
   </tr> 
   <tr> 
@@ -62,12 +62,12 @@ Der Abstand zwischen Favoriten-Miniaturansichten wird mit der folgenden CSS-Klas
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des oberen und unteren Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt ist. </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des oberen und unteren Rands, der für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines 10-Pixel-Abstands.
+Beispiel - Zum Einrichten von zehn Pixelabständen.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -86,7 +86,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
@@ -102,9 +102,9 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen den Attributselektor `state`, der verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht, die der Benutzer kürzlich ausgewählt hat. `state="default"` entspricht dem Rest der Miniaturansichten. Und `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansichten unterstützen die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht, die der Benutzer kürzlich ausgewählt hat. while `state="default"` entspricht dem Rest der Miniaturansichten. und `state="over"` wird beim Bewegen der Maus verwendet.
 
-Beispiel: Zum Einrichten von Miniaturansichten mit 75 x 75 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen Rahmen.
+Beispiel: Um Miniaturansichten mit einer Größe von 75 x 75 Pixel einzurichten, haben Sie einen hellgrauen Standardrahmen und einen dunkelgrauen ausgewählten Rahmen.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -130,17 +130,17 @@ Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - zum Einrichten von Bezeichnungen mit einer Helvetica-Schrift von 14 Pixel.
+Beispiel - zum Einrichten von Bezeichnungen mit einer Helvetica®-Schrift von 14 Pixel.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 

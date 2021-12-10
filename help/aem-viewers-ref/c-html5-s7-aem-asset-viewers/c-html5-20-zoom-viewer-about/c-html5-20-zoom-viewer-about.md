@@ -1,14 +1,14 @@
 ---
+title: Zoom
 description: Zoom-Viewer ist ein Bild-Viewer, der ein Zoombild anzeigt. Dieser Viewer arbeitet mit Bildsets und die Navigation erfolgt mithilfe von Farbfeldern. Es verfügt über Zoom-Tools, Vollbildunterstützung, Farbfelder und eine optionale Schaltfläche zum Schließen. Es wurde für Desktops und Mobilgeräte entwickelt.
 keywords: responsiv
 solution: Experience Manager
-title: Zoom
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Der Zoom-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateie
 
 Sie können den Zoom-Viewer im Popup-Modus verwenden, indem Sie eine produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird, oder im eingebetteten Modus, wo sie mithilfe einer dokumentierten API in die Ziel-Web-Seite integriert wird.
 
-Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Die gesamte Skinning-Funktion wird über benutzerdefiniertes CSS erreicht.
+Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Alle Skins werden über benutzerdefiniertes CSS erstellt.
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interagieren mit dem Zoom-Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Der Zoom-Viewer unterstützt die folgenden Berührungsgesten, die in anderen Apps häufig vorkommen. Wenn der Viewer die Wischgeste des Benutzers nicht verarbeiten kann, leitet er das Ereignis an den Webbrowser weiter, um einen nativen Seitenbildlauf durchzuführen. Mit dieser Funktion kann der Benutzer durch die Seite navigieren, selbst wenn der Viewer den Großteil des Gerätebildschirms einnimmt.
+Der Zoom-Viewer unterstützt die folgenden Berührungsgesten, die in anderen Apps häufig vorkommen. Wenn der Viewer die Wischgeste des Benutzers nicht verarbeiten kann, leitet er das Ereignis an den Webbrowser weiter, um einen nativen Bildlauf der Seite durchzuführen. Mit dieser Funktion kann der Benutzer durch die Seite navigieren, selbst wenn der Viewer den Großteil des Gerätebildschirms einnimmt.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -65,7 +65,7 @@ Der Zoom-Viewer unterstützt die folgenden Berührungsgesten, die in anderen App
   </tr> 
   <tr> 
    <td colname="col1"> <p>Horizontales Wischen oder Klick </p> </td> 
-   <td colname="col2"> <p> Scrollt durch die Liste der Farbfelder in der Farbfeldleiste. </p> <p> Wenn sich das Bild im Status "Zurücksetzen"befindet und die <span class="codeph"> frametransition </span> auf "Folie"festgelegt ist, wird das Asset mit der Animation der Folie geändert. Für andere <span class="codeph"> frametransition </span> Modi, in denen die Geste einen nativen Seitenscrollvorgang durchführt. </p> <p> Wenn das Bild vergrößert wird, wird es horizontal verschoben. Wenn das Bild an den Ansichtsrand verschoben wird und ein Wischen in derselben Richtung erfolgt, führt die Geste einen nativen Seitenscrollen durch. </p> </td> 
+   <td colname="col2"> <p> Scrollt durch die Liste der Farbfelder in der Farbfeldleiste. </p> <p> Wenn sich das Bild im Status "Zurücksetzen"befindet und die <span class="codeph"> frametransition </span> auf "Folie"festgelegt ist, wird das Asset mit der Animation der Folie geändert. Für andere <span class="codeph"> frametransition </span> -Modi verwendet, führt die Geste einen nativen Seitenscrollvorgang durch. </p> <p> Wenn das Bild vergrößert wird, wird es horizontal verschoben. Wenn das Bild an den Ansichtsrand verschoben wird und ein Wischen in derselben Richtung erfolgt, führt die Geste einen nativen Seitenscrollen durch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertikales Wischen </p> </td> 
@@ -114,13 +114,13 @@ Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach 
 
 Responsive Designeinbettungsmodus setzt voraus, dass die Größenanpassung des Viewers während der Laufzeit aufgrund der Größenänderung seines Containers erforderlich ist `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Layout verwendet.
 
-Im Einbettungsmodus für responsives Design verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite den Container dimensioniert `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`Wenn die Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Logik stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für responsives Design verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite den Container dimensioniert `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`Wenn die Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Logik stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap und Foundation verwenden.
 
 Wenn die Webseite sowohl die Breite als auch die Höhe für den Container des Viewers festlegt `DIV`, füllt der Viewer diesen Bereich und folgt der Größe, die die Webseite bietet. Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
 ## Einbettung fester Größe {#section-44f365e6c0dd40709467a459afa82a7f}
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
+Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie wie folgt vorgehen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Definieren des Container-DIV.
@@ -143,7 +143,7 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Sie sollten nur auf das JavaScript des Hauptviewers verweisen `include` -Datei auf Ihrer Seite. Sie sollten keine zusätzlichen JavaScript-Dateien im Webseitencode referenzieren, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf das HTML5 SDK. `Utils.js` Bibliothek, die vom Viewer aus geladen wird `/s7viewers` Kontextpfad (so genanntes konsolidiertes SDK) `include`). Der Grund dafür ist, dass der Standort `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet und der Speicherort zwischen Viewer-Versionen geändert wird. Adobe behält ältere Versionen des sekundären Viewers nicht bei `includes` auf dem Server.
+>Nur auf das JavaScript des Haupt-Viewers verweisen `include` -Datei auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf das HTML5 SDK. `Utils.js` Bibliothek, die vom Viewer aus geladen wird `/s7viewers` Kontextpfad (so genanntes konsolidiertes SDK) `include`). Der Grund dafür ist, dass der Standort `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet und der Speicherort zwischen Viewer-Versionen geändert wird. Adobe behält ältere Versionen des sekundären Viewers nicht bei `includes` auf dem Server.
 >
 >
 >Daher können Sie einen direkten Verweis auf sekundäres JavaScript einfügen `include` wird vom Viewer auf der Seite verwendet und unterbricht die Viewer-Funktionalität in Zukunft, wenn eine neue Produktversion bereitgestellt wird.
@@ -164,7 +164,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Dieser Viewer zeigt Miniaturansichten bei der Arbeit mit Sets für mehrere Elemente an. Miniaturansichten auf Desktop-Systemen werden unter der Hauptansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Haupt-Assets zur Laufzeit mithilfe von `setAsset()` API. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich für Miniaturansichten am unteren Rand verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die Größe des äußeren Viewers intakt zu halten und die Größe der Hauptansicht zu erhöhen und den Bereich der Miniaturansichten zu vergrößern. Alternativ können Sie die Größe der Hauptansicht statisch halten und den äußeren Viewer-Bereich reduzieren, den Webseiteninhalt nach oben verschieben und die freie Bildschirmseite aus den Miniaturansichten verwenden.
 
-   Um die äußeren Viewer-Grenzen beizubehalten, legen Sie die Größe für die `.s7zoomviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später einem Viewer-Vorgabendatensatz in Dynamic Media Classic zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
+   Um die äußeren Viewer-Grenzen beizubehalten, legen Sie die Größe für die `.s7zoomviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größe in CSS kann direkt auf der HTML-Seite festgelegt werden. Oder sie kann in eine benutzerdefinierte Viewer-CSS-Datei eingefügt werden, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
 
    Siehe [Anpassen des Zoom-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) Weitere Informationen zum Formatieren des Viewers mit CSS.
 
@@ -196,7 +196,7 @@ Der relative Pfad sieht wie folgt aus:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   Sie können die `stagesize` -Modifikator entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic oder Sie können ihn explizit mit dem Viewer-Initialisierungscode mit dem `params` -Sammlung oder als API-Aufruf, wie im Abschnitt Befehlsreferenz dieser Hilfe beschrieben, wie im Folgenden gezeigt:
+   Sie können die `stagesize` -Modifikator im Viewer-Vorgabendatensatz in Dynamic Media Classic. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit dem `params` -Sammlung oder als API-Aufruf, wie im Abschnitt Befehlsreferenz dieser Hilfe beschrieben, wie im Folgenden gezeigt:
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder im Hauptteil `onload()` -Ereignis.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit `display:none` Stil zugewiesen. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit `display:none` Stil zugewiesen. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Dieses Beispiel geht von `zoomViewer` die Viewer-Instanz ist, `s7viewer` der Name des PlatzhalterDIV ist, `http://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset.
 
@@ -320,7 +320,7 @@ Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit 
 
 ## Flexible Einbettung von Größe mit definierter Breite und Höhe {#section-3674e6c032594441a6576b7fb1de6e64}
 
-Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Sie bietet beide Größen für die `"holder"` DIV und zentrieren Sie sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` auf 100 Prozent.
+Wenn eine Einbettung in flexibler Größe mit definierter Breite und Höhe erfolgt, unterscheidet sich der Webseitenstil. Sie bietet beide Größen für die `"holder"` DIV und zentrieren Sie sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` auf 100 Prozent.
 
 ```
 <!DOCTYPE html> 

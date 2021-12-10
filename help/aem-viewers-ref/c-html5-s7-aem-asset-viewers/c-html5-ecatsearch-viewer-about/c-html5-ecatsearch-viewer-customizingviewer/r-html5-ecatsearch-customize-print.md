@@ -1,12 +1,13 @@
 ---
+title: Drucken
 description: Das Drucktool besteht aus einer Schaltfläche, die der Steuerleiste hinzugefügt wird, und dem modalen Dialogfeld, das angezeigt wird, wenn das Tool aktiviert wird.
 solution: Experience Manager
-title: Drucken
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1469'
 ht-degree: 2%
 
 ---
@@ -28,12 +29,12 @@ Das Erscheinungsbild der Druckschaltfläche wird mit der folgenden CSS-Klassenau
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Der Versatz am oberen Rand der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Der Abstand zur nächsten Schaltfläche auf der linken Seite oder zur linken Seite der Steuerleiste, wenn dies die erste Schaltfläche in einer Zeile ist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> Der Abstand zur nächsten Schaltfläche auf der linken Seite oder zur linken Seite der Steuerleiste, wenn diese Schaltfläche der erste in einer Zeile ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -44,11 +45,11 @@ Das Erscheinungsbild der Druckschaltfläche wird mit der folgenden CSS-Klassenau
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -56,9 +57,9 @@ Das Erscheinungsbild der Druckschaltfläche wird mit der folgenden CSS-Klassenau
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
 Beispiel: Um eine Druckschaltfläche mit 28 x 28 Pixel einzurichten und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzuzeigen.
 
@@ -94,11 +95,11 @@ Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das Dialogfeld akti
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p> Deckkraft der Hintergrundüberlagerung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundüberlagerungsfarbe. </p> </td> 
   </tr> 
  </tbody> 
@@ -113,7 +114,7 @@ Beispiel: Um eine Hintergrundüberlagerung einzurichten, die grau mit einer Deck
 }
 ```
 
-Standardmäßig wird das modale Dialogfeld auf Desktop-Systemen zentriert auf dem Bildschirm angezeigt. Die Positionierung und Größe des Dialogfelds wird von der Komponente verwaltet. Das Dialogfeld wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Standardmäßig wird das modale Dialogfeld auf Desktop-Systemen zentriert auf dem Bildschirm angezeigt. Die Positionierung und Größe des Dialogfelds wird von der Komponente verwaltet. Das Dialogfeld wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7kprintdialog .s7dialog
@@ -124,17 +125,17 @@ Standardmäßig wird das modale Dialogfeld auf Desktop-Systemen zentriert auf de
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Rahmenradius des Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe des Dialogfelds; </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Dialogfelds mit einem grauen Hintergrund:
+Beispiel - So richten Sie ein Dialogfeld mit einem grauen Hintergrund ein:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialog { 
@@ -187,19 +188,19 @@ Das Kopfzeilensymbol wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Symbolbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -216,15 +217,15 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schrifthöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
@@ -253,11 +254,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -265,11 +266,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Innerer Abstand der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbild für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -277,11 +278,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 22 x 22 Pixel großen Symbol, einem fett gedruckten 16-Punkt-Titel und einer 28 x 28 Pixel großen Schließen-Schaltfläche, die zwei Pixel von der Oberseite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert hat:
+Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 22 x 22 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Und schließlich wurden mit einer 28 x 28 Pixel großen Schließen-Schaltfläche zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -366,11 +367,11 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -378,7 +379,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
@@ -386,7 +387,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
 Die Schaltfläche &quot;An Druck senden&quot;wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -399,19 +400,19 @@ Die Schaltfläche &quot;An Druck senden&quot;wird mit der folgenden CSS-Klassena
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
@@ -419,9 +420,9 @@ Die Schaltfläche &quot;An Druck senden&quot;wird mit der folgenden CSS-Klassena
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
+Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
@@ -432,35 +433,35 @@ Darüber hinaus verwenden beide Schaltflächen dieselbe CSS-Klasse, die CSS-Eins
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
    <td colname="col2"> <p>Schlagschatten </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>Rand der rechten Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit der Schaltfläche Abbrechen 64 x 34 und einer Schaltfläche &quot;96 x 34 Zum Drucken senden&quot;, wobei die Textfarbe und die Hintergrundfarbe je nach Schaltflächenstatus unterschiedlich sind:
+Beispiel: So richten Sie eine Footer mit einer Schaltfläche &quot;Abbrechen&quot;von 64 x 34 und einer Schaltfläche &quot;96 x 34 An Druck senden&quot;ein, deren Textfarbe und Hintergrundfarbe je nach Schaltflächenstatus unterschiedlich sind:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -531,11 +532,11 @@ Der Hauptdialogbereich (zwischen der Kopf- und Fußzeile) enthält Dialogfeldinh
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des Hauptdialogfeld-Bereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe des Hauptdialogfeld-Bereichs. </p> </td> 
   </tr> 
   <tr> 
@@ -545,7 +546,7 @@ Der Hauptdialogbereich (zwischen der Kopf- und Fußzeile) enthält Dialogfeldinh
  </tbody> 
 </table>
 
-Beispiel: Um einen Hauptdialogbereich mit einer automatisch berechneten Höhe einzurichten, fügen Sie einen 10-Pixel-Rand ein und verwenden Sie einen weißen Hintergrund:
+Beispiel - Um einen Hauptdialogbereich mit einer automatisch berechneten Höhe einzurichten, weisen Sie einen 10-Pixel-Rand auf und verwenden Sie einen weißen Hintergrund:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea { 
@@ -572,7 +573,7 @@ Der gesamte Formularinhalt (wie Beschriftungen und Eingabefelder) befindet sich 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Formularinhalten mit zehn Pixelabständen:
+Beispiel - So richten Sie Formularinhalte mit zehn Pixelabständen ein:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody { 
@@ -597,7 +598,7 @@ Dialogfeldformular wird zeilenweise ausgefüllt, wobei jede Zeile einen Teil des
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Dialogfeldformulars mit zehn Pixelabständen pro Zeile:
+Beispiel: So richten Sie ein Dialogfeldformular ein, das zehn Pixelabstände für jede Zeile enthält:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -616,7 +617,7 @@ Die Größe des Blocks für Dialogfeldinhalte wird mit der folgenden CSS-Klassen
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Blockbreite. </p> </td> 
   </tr> 
   <tr> 
@@ -648,25 +649,25 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Textfarbe beschriften. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dialogfeldbeschriftungen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Dialogfeldbeschriftungen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
 Beispiel: Um alle Beschriftungen mit einer 9-Pixel-Schriftart auf grau und fett festzulegen:
 
@@ -689,7 +690,7 @@ Eingabedialoge werden in den Container eingeschlossen und mit der folgenden CSS-
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
    <td colname="col2"> <p>Innenabstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -714,11 +715,11 @@ Optionsfelder und der Beschriftungstext werden mit der folgenden CSS-Klassenausw
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Die Gesamtbreite des Optionsfeldes mit einer Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Beschriftungstextfarbe. </p> </td> 
   </tr> 
  </tbody> 
@@ -735,7 +736,7 @@ Der Abstand zwischen dem Optionsfeld und der Beschriftung wird mit der folgenden
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p> Abstand zwischen dem Optionsfeld und der zugehörigen Beschriftung. </p> </td> 
   </tr> 
  </tbody> 
@@ -752,11 +753,11 @@ Numerische Picker für die Auswahl von Druckbereichen werden mit der folgenden C
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Breite der numerischen Auswahl. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p> Abstand um die numerische Auswahl. </p> </td> 
   </tr> 
  </tbody> 
@@ -799,17 +800,17 @@ Die horizontale Aufteilung zwischen der Seitenbereichsauswahl und den Drucklayou
    <td colname="col2"> <p>Innenabstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Trennbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>Außenrand </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines grauen 430-Pixel-Dividers mit einem vertikalen 10-Pixel-Abstand auf beiden Seiten und einem 10-Pixel-Rand oben:
+Beispiel: Zum Einrichten eines grauen Trennzeichens mit einer Breite von 430 Pixel, wobei auf beiden Seiten ein vertikaler Abstand von 10 Pixel und oben ein zehn Pixelrand vorhanden sind:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7horizontaldivider { 

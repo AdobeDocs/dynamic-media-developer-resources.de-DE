@@ -1,13 +1,13 @@
 ---
+title: Fokushervorhebung
 description: Hervorhebung des Fokus der Eingabe, die um das fokussierte Element der Benutzeroberfläche des Viewers herum angezeigt wird.
 solution: Experience Manager
-title: Fokushervorhebung
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 949b8a8b-5f59-415e-acc1-bf8cea77cbd9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Das Erscheinungsbild der Fokushervorhebung wird mit der folgenden CSS-Klassenaus
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Entwurf  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Entwurf </span> </p> </td> 
    <td colname="col2"> <p> Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 

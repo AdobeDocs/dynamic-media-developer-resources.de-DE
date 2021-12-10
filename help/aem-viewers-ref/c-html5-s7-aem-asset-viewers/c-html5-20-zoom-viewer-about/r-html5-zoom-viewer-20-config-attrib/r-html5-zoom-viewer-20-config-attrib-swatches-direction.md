@@ -1,14 +1,14 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic,Viewer,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 906541bc-46dd-4a7c-8ee9-eb45ec3bd340
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p> <span class="codeph"> von links nach rechts  </span> die Füllreihenfolge festlegen; </p> <p> <span class="codeph"> von rechts  </span> kehrt die Reihenfolge so um, dass die Ansicht von rechts nach links und von oben nach unten gefüllt wird. </p> <p>Wenn <span class="codeph"> auto </span> festgelegt ist, wendet die Komponente den <span class="codeph"> rechten </span>-Modus an, wenn das Gebietsschema auf <span class="codeph"> ja </span> festgelegt ist. andernfalls wird links verwendet. </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p> <span class="codeph"> left </span> legt die Füllreihenfolge von links nach rechts fest; </p> <p> <span class="codeph"> right </span> kehrt die Reihenfolge so um, dass die Ansicht von rechts nach links und von oben nach unten gefüllt wird. </p> <p>Wann <span class="codeph"> auto </span> festgelegt ist, gilt die Komponente <span class="codeph"> right </span> Modus, wenn das Gebietsschema auf <span class="codeph"> ja </span>; andernfalls wird links verwendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

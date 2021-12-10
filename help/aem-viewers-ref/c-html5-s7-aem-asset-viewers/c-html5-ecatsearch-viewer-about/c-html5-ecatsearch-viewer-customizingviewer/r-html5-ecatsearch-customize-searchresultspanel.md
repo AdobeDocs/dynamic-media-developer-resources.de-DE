@@ -1,13 +1,13 @@
 ---
+title: Suchergebnisbereich
 description: Das Suchergebnisbedienfeld besteht aus dem Sucheingabefeld oben und dem Hauptbereich, in dem Informationsmeldungen oder Suchergebnisse angezeigt werden.
 solution: Experience Manager
-title: Suchergebnisbereich
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -35,17 +35,17 @@ Wenn das Bedienfeld aktiv ist, wird die Viewer-Benutzeroberfläche mit einer hal
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Farbe der Überlagerung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p>Deckkraft der Farbe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Das Suchergebnisbedienfeld belegt immer die gesamte verfügbare Viewer-Höhe. Sie können jedoch die Breite konfigurieren. Sie können die Breite auf einen absoluten Pixelwert einstellen, der eine Standardeinstellung für Breakpoints mittlerer und großer Größe ist. Alternativ können Sie die Breite auf 100 % festlegen, damit der Suchergebnisbereich den gesamten Viewer-Bereich einnimmt. Die Bereichsbreite wird durch den folgenden CSS-Klassenselektor gesteuert:
+Das Suchergebnisbedienfeld belegt immer die gesamte verfügbare Viewer-Höhe. Sie können jedoch die Breite konfigurieren. Sie können die Breite auf einen absoluten Pixelwert einstellen, der eine Standardeinstellung für mittlere und große Breakpoints ist. Alternativ können Sie die Breite auf 100 % festlegen, damit der Suchergebnisbereich den gesamten Viewer-Bereich einnimmt. Die Bereichsbreite wird durch den folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -105,7 +105,7 @@ Das Eingabefeld für die Suche wird durch den folgenden CSS-Klassenselektor gest
    <td colname="col2"> <p>Höhe des Sucheingabefelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
    <td colname="col2"> <p> Der innere Abstand zwischen dem Eingabefeldbereich und dem Eingabetext. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Das Eingabefeld für die Suche wird durch den folgenden CSS-Klassenselektor gest
    <td colname="col2"> <p>Rand des Sucheingabefelds </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,19 +144,19 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des standardmäßi
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Die URL zum "Look-glass"-Symbolbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
    <td colname="col2"> <p>Die Größe des Symbols "Aussehendes Glas". </p> </td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des standardmäßi
    <td colname="col2"> <p>Rand der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>Rand der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Suchschaltfläche mit einem 26 x 26 Pixel &quot;Look glass&quot;-Symbol. 30 Pixel mit einem Rahmen von 1 Pixel:
+Beispiel: So richten Sie eine Suchschaltfläche mit einem 26 x 26 Pixel &quot;Look-glass&quot;-Symbol ein. 30 Pixel mit einem Rahmen von 1 Pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ Beispiel: Zum Einrichten einer Suchschaltfläche mit einem 26 x 26 Pixel &quot;L
 }
 ```
 
-Im Suchergebnisbereich wird möglicherweise eine Textaufforderung angezeigt, wenn die Funktion zum ersten Mal aufgerufen wird. Er zeigt dem Benutzer auch eine Nachricht an, wenn bei seiner Suche keine Ergebnisse zurückgegeben wurden. In allen Fällen wird Text im Hauptteil des Bedienfelds für Suchergebnisse angezeigt und über die folgende CSS-Klassenauswahl gesteuert:
+Im Suchergebnisbereich wird möglicherweise eine Textaufforderung angezeigt, wenn die Funktion zum ersten Mal aufgerufen wird. Außerdem wird eine Meldung angezeigt, wenn die Suche eines Benutzers keine Ergebnisse zurückgegeben hat. In allen Fällen wird Text im Hauptteil des Bedienfelds für Suchergebnisse angezeigt und über die folgende CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -198,15 +198,15 @@ Im Suchergebnisbereich wird möglicherweise eine Textaufforderung angezeigt, wen
    <td colname="col2"> <p> Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,11 +214,11 @@ Im Suchergebnisbereich wird möglicherweise eine Textaufforderung angezeigt, wen
 
 >[!NOTE]
 >
->Dieser Textbereich unterstützt die Attributauswahl `state`, mit der verschiedene Stile auf verschiedene Textnachrichten angewendet werden können. Insbesondere `state='prompt'` entspricht der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. `state='results'` entspricht dem Text mit Informationen zu Suchtreffern; und `state='no_results'` dem Text entspricht, der angezeigt wird, wenn die Suchanfrage keine Ergebnisse zurückgegeben hat.
+>Dieser Textbereich unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Stile auf verschiedene Textnachrichten anzuwenden. Insbesondere `state='prompt'` entspricht der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. Die `state='results'` entspricht dem Text mit Informationen zu Suchtreffern. Und schließlich die `state='no_results'` entspricht dem Text, der angezeigt wird, wenn die Suchanfrage keine Ergebnisse zurückgegeben hat.
 
-Der Nachrichtentext kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Der Nachrichtentext kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten eines Textfelds, das eine graue 18-Pixel-Schriftart verwendet:
+Beispiel - So richten Sie ein Textfeld ein, das eine graue 18-Pixel-Schriftart verwendet:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -238,13 +238,13 @@ Suchergebnisse werden als einzelne Spalte oder einzelne Zeile von Miniaturansich
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span> festgelegt wurden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - zum Einrichten eines 10-Pixel-Abstands:
+Beispiel - So richten Sie einen Abstand von zehn Pixeln ein:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -263,11 +263,11 @@ Das Erscheinungsbild einzelner Miniaturansichten wird mit der folgenden CSS-Klas
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
@@ -277,7 +277,7 @@ Das Erscheinungsbild einzelner Miniaturansichten wird mit der folgenden CSS-Klas
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Miniaturansichten mit 215 x 129 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen:
+Beispiel: Um Miniaturansichten mit 215 x 129 Pixel einzurichten, weisen einen hellgrauen Standardrahmen und einen dunkelgrauen ausgewählten Rahmen auf:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -298,21 +298,21 @@ Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - zum Einrichten von Beschriftungen mit 12 Pixel, Grau, Helvetica-Schriftart:
+Beispiel - So richten Sie Beschriftungen ein, die 12 Pixel, grau, Helvetica®-Schriftart verwenden:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -336,19 +336,19 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,11 +356,11 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf die Schaltflächenzustände `"up"`, `"down"`, `"over"` und `"disabled"` angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf `"up"`, `"down"`, `"over"`und `"disabled"` Schaltflächenstatus.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Um eine Bildlaufschaltfläche mit 125 x 35 Pixel einzurichten, die für jeden Status unterschiedliche Grafiken enthält:
+Beispiel - So richten Sie eine Bildlaufschaltfläche ein, die 125 x 35 Pixel groß ist und für jeden Status unterschiedliche Grafiken aufweist:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 
