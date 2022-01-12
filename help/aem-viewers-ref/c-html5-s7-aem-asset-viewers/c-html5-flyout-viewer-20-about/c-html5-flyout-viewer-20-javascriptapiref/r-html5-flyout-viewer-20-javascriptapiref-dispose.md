@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: JavaScript-API-Referenz für Flyout-Viewer.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: bf38d481-d8cc-400c-9017-bcb3471f2a10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ Stellt diese Viewer-Instanz bereit, indem alle von der Viewer-Logik verwendeten 
 
 Der Webseitencode sollte auch die Viewer-Instanzvariable löschen, um den Viewer vollständig aus dem Webbrowser-Speicher zu entfernen.
 
-Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden, oder externe Verweise auf solche Komponenten gespeichert hat, müssen diese Listener explizit vom Webseitencode abgemeldet werden. Solche externen Komponentenverweise müssen vor dem Aufruf von `dispose()` gelöscht werden.
+Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden - oder externe Verweise auf solche Komponenten gespeichert hat - müssen diese Listener explizit vom Webseitencode abgemeldet werden. Und diese externen Komponentenverweise müssen vor dem Aufruf von `dispose()`.
 
-Greifen Sie nach dem Aufruf von `dispose()` nicht mehr auf die Viewer-API zu.
+Rufen Sie die Viewer-API nicht mehr auf, nachdem `dispose()` aufgerufen wird.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

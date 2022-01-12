@@ -4,9 +4,9 @@ description: Erstellen Sie eine neue HTML5-Karussell-Viewer-Instanz.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---

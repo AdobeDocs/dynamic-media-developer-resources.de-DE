@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: JavaScript-API-Referenz für Flyout-Viewer.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: cd66267e-7b25-4af4-b83c-f7b7f768ea8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
@@ -22,12 +22,12 @@ JavaScript-API-Referenz für Flyout-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID, expliziter Bildsatz oder expliziter Bildsatz mit Frame-spezifischen Image Serving-Modifikatoren, wobei optionale globale Image Serving-Modifikatoren nach <span class="codeph"> angehängt werden. ?</span>. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Zeichenfolge</span>} neue Asset-ID, explizites Bildset oder explizites Bildset mit frame-spezifischen Image Serving-Modifikatoren, wobei optionale globale Image Serving-Modifikatoren angehängt werden <span class="codeph"> ?</span>. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()`. Wenn es nach aufgerufen wird `init()`, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
@@ -49,7 +49,7 @@ Einzelverweis auf ein in einem Katalog definiertes Bildset:
 <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Explizites Bildset:
+Explizites Bildset wie folgt:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")

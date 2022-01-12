@@ -1,20 +1,20 @@
 ---
-description: Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht angezeigt wird, dem markierten Navigationsbereich, der über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
-solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+description: Die Hauptansicht besteht aus dem statischen Bild und dem gezoomten Bild, das in der Flyout-Ansicht angezeigt wird. Sie besteht außerdem aus dem markierten Navigationsbereich, der über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 3%
+source-wordcount: '635'
+ht-degree: 2%
 
 ---
 
 # Flyout-Zoom-Ansicht{#flyout-zoom-view}
 
-Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht angezeigt wird, dem markierten Navigationsbereich, der über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
+Die Hauptansicht besteht aus dem statischen Bild und dem gezoomten Bild, das in der Flyout-Ansicht angezeigt wird. Sie besteht außerdem aus dem markierten Navigationsbereich, der über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die über dem statischen Bild angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +37,7 @@ Das Erscheinungsbild der Hauptansicht wird mit der folgenden CSS-Klassenauswahl 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Das Erscheinungsbild der Flyout-Ansicht wird mit der folgenden CSS-Klassenauswah
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
-   <td colname="col2"> <p> Die horizontale Position der Flyout-Ansicht relativ zur oberen linken Ecke der Hauptansicht. </p> </td> 
+   <td colname="col2"> <p> Die horizontale Position der Flyout-Ansicht in Bezug auf die obere linke Ecke der Hauptansicht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
@@ -109,7 +109,7 @@ Das Erscheinungsbild der Hervorhebung in der Hauptansicht wird mit der folgenden
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
 ```
 
-Es ist möglich, Hintergrund, Rahmen, Transparenz und ähnliche Attribute mithilfe von CSS zu kontrollieren. Die Größe und Position des Hervorhebungs-DOM-Elements wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben über CSS wird nicht unterstützt.
+Es ist möglich, Hintergrund, Rahmen, Transparenz und ähnliche Attribute mithilfe von CSS zu steuern. Die Größe und Position des Hervorhebungs-DOM-Elements wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben über CSS wird nicht unterstützt.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -120,12 +120,12 @@ Es ist möglich, Hintergrund, Rahmen, Transparenz und ähnliche Attribute mithil
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Die Farbe der Hervorhebung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
-   <td colname="col2"> <p> Deckkraft hervorheben. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-..) ); </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
+   <td colname="col2"> <p> Deckkraft hervorheben. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
@@ -147,7 +147,7 @@ Beispiel: Einrichten einer grünen Hervorhebung mit 40 % Transparenz und einem r
 
 **CSS-Eigenschaften des Cursors**
 
-Wenn der Parameter `highlightmode` auf `cursor` gesetzt ist, werden die Hervorhebungen in der Hauptansicht durch Bildmaterial mit fester Größe ersetzt, das mit dem CSS-Klassenselektor gesteuert wird:
+Wann `highlightmode` -Parameter auf `cursor`, werden die Hervorhebungen in der Hauptansicht durch die feste Cursorgrafik ersetzt, die mit dem CSS-Klassenselektor gesteuert wird:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ Zu den anwendbaren CSS-Eigenschaften gehören:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Cursorgrafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Cursorbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Cursorhöhe. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ Zu den anwendbaren CSS-Eigenschaften gehören:
 
 >[!NOTE]
 >
->Cursor unterstützt den Attributselektor `input`, der verwendet werden kann, um verschiedene Cursorgrafiken und -größen für verschiedene Geräte anzuwenden. Insbesondere entspricht `input="mouse"` den Desktop-Systemen und `input="touch"` den Touch-Geräten.
+>Cursor unterstützt `input` -Attributauswahl, die verwendet werden kann, um verschiedene Cursorgrafiken und -größen für verschiedene Geräte anzuwenden. Insbesondere `input="mouse"` entspricht den Desktop-Systemen und `input="touch"` entspricht den Touch-Geräten.
 
 **CSS-Eigenschaften der Überlagerung**
 
-Wenn der Parameter `overlay` auf `1` gesetzt ist, wird der Bereich um den Hervorhebungsrahmen oder das Cursorbild mit dem CSS-Klassenselektor gesteuert:
+Wenn die `overlay` -Parameter auf `1`, wird der Bereich um den Hervorhebungsrahmen oder das Cursorbild mit der CSS-Klassenauswahl gesteuert:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +203,11 @@ Wenn der Parameter `overlay` auf `1` gesetzt ist, wird der Bereich um den Hervor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Überlagerungsfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p>Überlagerungsdeckkraft. </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +221,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
+Es ist möglich, Schriftstil, Größe, Erscheinungsbild und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Überschreiben durch CSS mit `left` oder `right` -Eigenschaften werden nicht unterstützt.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -240,11 +240,11 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
@@ -252,23 +252,23 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
    <td colname="col2"> <p>Auffüllung um den Nachrichtentext. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfüllfarbe des Nachrichtentextes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundrahmenradius des Nachrichtentextes </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p>Hintergrunddeckkraft des Nachrichtentextes. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Tipp-Nachricht kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
+Die Tipp-Nachricht kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer halbtransparenten Tipp-Meldung mit weißer Arial-12-Pixel-Schriftart, 50 Pixel Abstand vom unteren Rand der Hauptansicht, Abstand und gerundeter Rahmen:
+Beispiel: Zum Einrichten einer halbtransparenten Tipp-Meldung mit weißer Arial® 12-px-Schriftart, 50 Pixel Offset vom unteren Rand der Hauptansicht, Abstand und gerundeter Rahmen:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

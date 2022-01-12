@@ -1,13 +1,13 @@
 ---
+title: Unterstützung für Adobe Analytics-Tracking
 description: Der Flyout-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 solution: Experience Manager
-title: Unterstützung für Adobe Analytics-Tracking
-feature: Dynamic Media Classic,Viewer,SDK/API,Inline-Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '168'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ Der Flyout-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
 ## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Der Inline-Zoom-Viewer unterstützt das native [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
+Der Inline-Zoom-Viewer unterstützt [!DNL Adobe Analytics] standardmäßiges Tracking. Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Um in Analytics-Systeme von Drittanbietern zu integrieren, müssen Sie den Viewer-Rückruf `trackEvent` überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
@@ -66,7 +66,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
+   <td colname="col2"> <p>ein Asset im Viewer mit <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

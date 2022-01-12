@@ -1,13 +1,13 @@
 ---
+title: JavaScript-API-Referenz für Flyout-Viewer
 description: Die Hauptklasse des Flyout-Viewers ist FlyoutViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
-title: JavaScript-API-Referenz für Flyout-Viewer
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7f85f6d0-bcc8-4d9b-ae0b-6fb9e1e7f0da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Die Hauptklasse des Flyout-Viewers ist FlyoutViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.FlyoutViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen `<instance>` steht für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus dem `s7viewers.FlyoutViewer` -Klasse.
 
 * [dispose](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)

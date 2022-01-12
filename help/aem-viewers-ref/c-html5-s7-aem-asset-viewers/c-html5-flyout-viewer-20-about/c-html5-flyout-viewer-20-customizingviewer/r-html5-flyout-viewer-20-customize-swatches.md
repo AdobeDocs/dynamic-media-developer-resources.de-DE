@@ -1,13 +1,13 @@
 ---
+title: Muster
 description: Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite.
 solution: Experience Manager
-title: Muster
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '434'
 ht-degree: 3%
 
 ---
@@ -78,12 +78,12 @@ Der Abstand zwischen Musterminiaturansichten wird mit dem CSS-Klassenselektor ge
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um den Abstand sowohl vertikal als auch horizontal auf 10 Pixel festzulegen:
+Beispiel: Zum Festlegen eines Abstands von 10 Pixel sowohl vertikal als auch horizontal:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -108,11 +108,11 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Die Breite der Miniaturansichten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Miniaturansichten. </p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +124,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen den Attributselektor `state`, der verwendet wird, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere entspricht `state="selected"` der Miniaturansicht des Bildes, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten und `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansichten unterstützen die `state` -Attributauswahl, die verwendet wird, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht für das Bild, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten entspricht und `state="over"` wird beim Bewegen der Maus verwendet.
 
 Beispiel: Zum Einrichten von Miniaturansichten mit einer Größe von 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen:
 
@@ -150,7 +150,7 @@ Das Erscheinungsbild der linken und rechten Bildlaufschaltflächen wird mit den 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,19 +161,19 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Die Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -181,9 +181,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt den Attributselektor `state`, der verwendet wird, um verschiedene Skins auf die Schaltflächenzustände `up`, `down`, `over` und `disabled` anzuwenden.
+>Diese Schaltfläche unterstützt `state` Attributauswahl, die verwendet wird, um verschiedene Skins auf Schaltflächenstatus anzuwenden `up`, `down`, `over`und `disabled`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) für weitere Informationen.
 
 Beispiel: Zum Einrichten von Bildlaufschaltflächen mit einer Größe von 56 x 56 Pixel und unterschiedlicher Grafik für jeden Status:
 

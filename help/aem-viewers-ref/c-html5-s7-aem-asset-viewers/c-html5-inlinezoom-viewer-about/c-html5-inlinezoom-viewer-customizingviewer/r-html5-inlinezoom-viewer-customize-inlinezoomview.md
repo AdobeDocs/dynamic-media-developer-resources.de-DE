@@ -1,11 +1,11 @@
 ---
-description: Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
-solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-feature: Dynamic Media Classic,Viewer,SDK/API,Inline-Zoom
+description: Die Hauptansicht besteht aus dem statischen Bild und dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird. Es besteht auch aus der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Flyout-Zoom-Ansicht{#flyout-zoom-view}
 
-Die Hauptansicht besteht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
+Die Hauptansicht besteht aus dem statischen Bild und dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird. Es besteht auch aus der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ Das Erscheinungsbild der Hauptansicht wird mit der folgenden CSS-Klassenauswahl 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
+Es ist möglich, Schriftstil, Größe, Erscheinungsbild und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Überschreiben durch CSS mit `left` oder `right` -Eigenschaften werden nicht unterstützt.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -76,11 +76,11 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
@@ -88,25 +88,25 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
    <td colname="col2"> <p>Auffüllung um den Nachrichtentext. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfüllfarbe des Nachrichtentextes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundrahmenradius des Nachrichtentextes </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p>Hintergrunddeckkraft des Nachrichtentextes. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Tipp-Nachricht kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
+Die Tipp-Nachricht kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) für weitere Informationen.
 
 .
 
-Beispiel: Zum Einrichten einer halbtransparenten Tipp-Meldung mit weißer Arial-12-Pixel-Schriftart, 50 Pixel Abstand vom unteren Rand der Hauptansicht, Abstand und gerundeter Rahmen:
+Beispiel: Zum Einrichten einer halbtransparenten Tipp-Meldung mit weißer Arial® 12-px-Schriftart, 50 Pixel Offset vom unteren Rand der Hauptansicht, Abstand und gerundeter Rahmen:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

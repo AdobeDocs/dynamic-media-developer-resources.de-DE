@@ -1,20 +1,20 @@
 ---
 title: Panoramabilder
-description: HTML5 Panorama-Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Betrachters besteht darin, ein kugelförmiges Panorama anzuzeigen, das auch als Panorama bezeichnet wird. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung.  Es wurde für Desktops und Mobilgeräte entwickelt.  Der Virtual-Reality-Anzeigemodus ist auf Mobilgeräten verfügbar.
+description: HTML5 Panorama-Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Betrachters besteht darin, ein kugelförmiges Panorama anzuzeigen, das auch als Panorama bezeichnet wird. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung. Es wurde für Desktops und Mobilgeräte entwickelt. Der Virtual-Reality-Anzeigemodus ist auf Mobilgeräten verfügbar.
 keywords: responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
 
 # Panorama{#panoramic}
 
-HTML5 Panorama-Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Betrachters besteht darin, ein kugelförmiges Panorama anzuzeigen, das auch als Panorama bezeichnet wird. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung.  Es wurde für Desktops und Mobilgeräte entwickelt.  Der Virtual-Reality-Anzeigemodus ist auf Mobilgeräten verfügbar.
+HTML5 Panorama-Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Betrachters besteht darin, ein kugelförmiges Panorama anzuzeigen, das auch als Panorama bezeichnet wird. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung. Es wurde für Desktops und Mobilgeräte entwickelt. Der Virtual-Reality-Anzeigemodus ist auf Mobilgeräten verfügbar.
 
 Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,7 +27,7 @@ Viewer-Typ 514.
 
 ## Verwenden des Panorama-Viewers {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramic Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar (ein einzelnes JavaScript-Include mit allen HTML5 Viewer SDK-Komponenten, die von diesem Viewer verwendet werden, Assets, CSS), die vom Viewer zur Laufzeit heruntergeladen werden.
+HTML5 Panoramic Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar, die vom Viewer zur Laufzeit heruntergeladen wurden. Der Satz von Hilfsdateien ist ein JavaScript-Include in allen HTML5 Viewer SDK-Komponenten, die von diesem Viewer, Assets und CSS verwendet werden.
 HTML5 Panorama-Viewer können sowohl im Popup-Modus mithilfe einer produktionsbereiten HTML-Seite, die mit IS-Viewern bereitgestellt wird, als auch im eingebetteten Modus verwendet werden, wo sie mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 Die Konfiguration und das Skinning ähneln der anderen HTML5-Viewer. Alle Skins können über benutzerdefinierte CSS erstellt werden.
 
@@ -58,17 +58,17 @@ HTML5 Panorama Viewer unterstützt automatisches Schwenken und Navigieren durch 
 </table>
 
 Der Viewer unterstützt sowohl die Touch-Eingabe als auch die Mauseingabe auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome-, Internet Explorer 11- und Edge-Webbrowser beschränkt.
-Der Panorama-Viewer bietet die Möglichkeit, Panoramabilder im VR-Modus (Virtual Reality) zu rendern, indem der Viewer angegeben wird.  Wenn &quot;vrrender&quot;aktiviert ist, wird ein Panoramabild in Aufspaltungsbildschirmen angezeigt.  Ein gängiges Nutzungsszenario wäre, das Bild in einem Mobiltelefon zu bedienen, das in einem Virtual-Reality-Headset montiert ist, und für jedes Auge separate Bilder bereitzustellen.  Der Viewer reagiert auf die gyroskopische Bewegung des Kopfes und navigiert durch das Bild.
+Der Panorama-Viewer kann Panoramabilder im VR-Modus (Virtual Reality) rendern, indem er den Viewer angibt. Wenn &quot;vrrender&quot;aktiviert ist, wird ein Panoramabild in geteilten Bildschirmen angezeigt. Ein gängiges Nutzungsszenario wäre, das Bild in einem Mobiltelefon zu bedienen, das in einem Virtual-Reality-Headset montiert ist, und für jedes Auge separate Bilder bereitzustellen. Der Viewer reagiert auf die gyroskopische Bewegung des Kopfes und navigiert durch das Bild.
 
 ## Einbetten von HTML 5 Panorama-Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit. Wenn Sie auf diesen Link klicken, wird der Viewer in einem separaten Browserfenster geöffnet. In anderen Fällen kann es erforderlich sein, den Viewer direkt in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Layout aufweisen oder &quot;responsiv&quot;sein und auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt werden. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung fester Größe und responsives Einbetten.
+Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit. Wenn Sie diesen Link auswählen, wird der Viewer in einem separaten Browser-Fenster geöffnet. In anderen Fällen kann es erforderlich sein, den Viewer in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Layout aufweisen oder &quot;responsiv&quot;sein und auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt werden. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbetten in feste Größe und responsives Einbetten.
 
 **Über den Popup-Modus**
 
-Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder -Tab geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert oder die Geräteausrichtung geändert wird.
+Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert oder die Geräteausrichtung geändert wird.
 
-Dieser Modus wird am häufigsten für Mobilgeräte verwendet. Die Web-Seite lädt den Viewer mit dem JavaScript-Aufruf window.open() , ordnungsgemäß konfigurierte HTML-Elemente oder andere geeignete Methoden.
+Dieser Modus wird am häufigsten für Mobilgeräte verwendet. Die Webseite lädt den Viewer mit `window.open()` JavaScript-Aufruf, ordnungsgemäß konfiguriert Ein HTML-Element oder eine andere geeignete Methode.
 
 Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Es heißt [!DNL PanoramicViewer.html] und sich unter der [!DNL html5/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
@@ -86,16 +86,15 @@ Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer im neuen Fen
 
 Im eingebetteten Modus wird der Viewer der vorhandenen Web-Seite hinzugefügt, die möglicherweise bereits über Kundeninhalte verfügt, die nicht mit dem Viewer in Verbindung stehen. Der Viewer belegt normalerweise nur einen Teil der Website-Immobilien.
 
-Das primäre Anwendungsbeispiel sind Web-Seiten, die für Desktops oder Tablet-Geräte ausgerichtet sind, sowie responsive Webseiten, die das Layout automatisch an den Gerätetyp anpassen.
+Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Web-Seiten, die das Layout automatisch an den Gerätetyp anpassen.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Dies ist die beste Wahl für Webseiten mit statischem Layout.
+Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Methode eignet sich am besten für Webseiten mit statischem Layout.
 
-Responsives Einbetten setzt voraus, dass die Größe des Viewers in der Laufzeit entsprechend der Größenänderung des Container-DIV möglicherweise geändert werden muss. Der häufigste Anwendungsfall ist das Hinzufügen des Viewers zu einer Webseite, die ein flexibles Layout verwendet.
+Responsives Einbetten setzt voraus, dass die Größe des Viewers zur Laufzeit angepasst werden muss, wenn die Größe des Containers DIV geändert wird. Der häufigste Anwendungsfall ist das Hinzufügen des Viewers zu einer Webseite, die ein flexibles Layout verwendet.
 
-Im responsiven Modus verhält sich der Viewer anders, je nachdem, wie die Web-Seite die Größe des Container-DIVs ändert. Wenn die Web-Seite nur die Breite des Container-DIV festlegt und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Dadurch wird sichergestellt, dass das Asset ohne Abstand auf den Seiten perfekt in die Ansicht passt. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap, Foundation und so weiter verwenden.
+Im responsiven Modus verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite die Größe des Container-DIVs ändert. Wenn die Web-Seite nur die Breite des Container-DIV festlegt und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Methode stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten aufgefüllt werden. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap, Foundation und so weiter verwenden.
 
-Wenn die Web-Seite andernfalls die Breite und Höhe für das Container-DIV des Viewers festlegt, füllt der Viewer nur diesen Bereich und folgt der Größe, die durch das Web-Seitenlayout angegeben wird. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
-
+Wenn die Web-Seite andernfalls sowohl die Breite als auch die Höhe für das Container-DIV des Viewers festlegt, füllt der Viewer diesen Bereich und folgt der Größe, die durch das Web-Seiten-Layout angegeben wird. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
 **Einbettung fester Größe**
 
@@ -160,7 +159,6 @@ Der relative Pfad sieht wie folgt aus:
    ```
 
    CSS-basierter Ansatz wird empfohlen und in diesem Beispiel verwendet.
-
 
 1. Erstellen und Initialisieren des Viewers.
 

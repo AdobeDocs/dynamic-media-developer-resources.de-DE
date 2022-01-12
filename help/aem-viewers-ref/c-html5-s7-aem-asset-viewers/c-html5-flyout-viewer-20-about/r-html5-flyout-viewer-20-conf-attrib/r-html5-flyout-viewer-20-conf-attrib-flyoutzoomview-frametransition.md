@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 10%
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Typ des Effekts an, der auf die Hauptansicht bei der Asset-Änderung angewendet wird. Die <span class="codeph"> none</span> steht für keine Transition, die Hauptansichtsänderung erfolgt sofort. Die <span class="codeph">-Überblendung</span> aktiviert eine Überblendung, bei der das alte Bild ausgeblendet und das neue Bild eingeblendet wird. </p> </td> 
+   <td colname="col2"> <p> Gibt den Typ des Effekts an, der auf die Hauptansicht bei der Asset-Änderung angewendet wird. Die <span class="codeph"> Keine</span> steht für keine Transition, die Änderung der Hauptansicht erfolgt sofort. Die <span class="codeph"> verblassen</span> Aktiviert eine blendübergreifende Transition, bei der das alte Bild ausgeblendet und das neue Bild ausgeblendet wird </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 

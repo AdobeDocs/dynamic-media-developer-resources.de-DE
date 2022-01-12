@@ -1,13 +1,13 @@
 ---
+title: Neue Ergänzungen und Änderungen
 description: Beschreibt neue und implementierte Änderungen für die IPS-API v4.0.
 solution: Experience Manager
-title: Neue Ergänzungen und Änderungen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1206'
 ht-degree: 2%
 
 ---
@@ -21,69 +21,69 @@ Implementierung von nebeneinander liegenden API-Versionen mit separaten WSDLs un
 * Frühere API-Versionen: `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
 * SPS 4.0-Version: `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`.
 
-Das Feld `PostScriptOptions/alpha` wurde hinzugefügt.
+Hinzugefügt `PostScriptOptions/alpha` -Feld.
 
-Die Eigenschaften `VideoRootUrl` und `SwfRootUrl` für `getProperty` wurden hinzugefügt.
+Hinzugefügt `VideoRootUrl` und `SwfRootUrl` Eigenschaften für `getProperty` Vorgang.
 
-Es wurden optionale Parameter `appName` und `appVersion` zu `authHeader` hinzugefügt, um aufrufende Anwendungen zu verfolgen. Protokollierung zu `ipsApiService.log` hinzugefügt.
+Optional hinzugefügt `appName` und `appVersion` params in `authHeader` , um die aufrufende Anwendung zu verfolgen. Protokollierung zu hinzugefügt `ipsApiService.log`.
 
-Dem WSDL-Generierungsservlet wurde ein optionaler Parameter `serviceUrl` hinzugefügt. Dies ist besonders für das Debugging von Proxys nützlich. Beispiel: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
+Eine optionale `serviceUrl` param zum WSDL-Generierungsservlet. Dieser Parameter ist für das Debugging von Proxys nützlich. Beispiel: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
 
-Der Vorgang `getZipEntries` wurde implementiert.
+implementiert `getZipEntries` Vorgang.
 
 Es wurden Suchbereiche implementiert und Vergleichswerte für Systemfeldbedingungen eingegeben.
 
-Die Zeichenfolge `'Asset'` vom Typ Asset wurde hinzugefügt, um in erster Linie Asset-übergreifende Metadatenfelder zu ermöglichen.
+Hinzugefügt `'Asset'` String-Konstante für den Asset-Typ, um in erster Linie Asset-übergreifende Metadatenfelder zuzulassen.
 
-Implementiert `trashState` param für `searchAssets`.
+implementiert `trashState` param für `searchAssets`.
 
-Der Vorgang `getAssetPublishHistory` wurde implementiert.
+implementiert `getAssetPublishHistory` Vorgang.
 
-Der optionale SOAP-Header `faultHttpStatusCode` wurde hinzugefügt, um die Fehlerbehebung in Flex zu aktivieren. Verwenden Sie für Flex `<faultHttpStatusCode>200</faultHttpStatusCode>`. Der Standardstatuscode für Fehlerantworten ist `500 (Internal Server Error)`.
+Optional hinzugefügt `faultHttpStatusCode` SOAP-Header zur Aktivierung der Fehlerbehandlung in Flex. Verwenden Sie für Flex `<faultHttpStatusCode>200</faultHttpStatusCode>`. Der Standardstatuscode für Fehlerantworten lautet `500 (Internal Server Error)`.
 
 Es wurden Vorgänge zum Wiederherstellen von Assets aus dem Papierkorb und leere Assets aus dem Papierkorb hinzugefügt.
 
 Implementierung von CRUD-Vorgängen.
 
-Das aktivierte Flag wurde zum `ImageMap`-Typ und zum `saveImageMap`-Vorgang hinzugefügt.
+Das aktivierte Flag wurde hinzugefügt zu `ImageMap` Typ und `saveImageMap` Vorgang.
 
 Unterstützung für Optimieren von Aufträgen für verbleibende Dateien hinzugefügt.
 
-`setAssetsPublishState` für Massenaktualisierungen zum Veröffentlichungsstatus hinzugefügt.
+Hinzugefügt `setAssetsPublishState` für Massenaktualisierungen des Veröffentlichungsstatus.
 
-`ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings` hinzugefügt.
+Hinzugefügt `ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings`.
 
-Veralteter Vorgang `saveMetadataField` zugunsten neuer `createMetadataField`- und `updateMetadataField`-Vorgänge.
+Veraltet `saveMetadataField` Vorhaben zugunsten neuer `createMetadataField` und `updateMetadataField` Vorgänge.
 
-Implementiert den Batch-Löschvorgang `deleteAssetsParam`.
+implementiert `deleteAssetsParam` Batch-Löschvorgang.
 
-Implementiert den Vorgang `moveAssetsParam` zum Verschieben von Batches.
+implementiert `moveAssetsParam` Vorgang &quot;Batch Move&quot;.
 
-Der Vorgang `deleteMetadataField` wurde implementiert.
+implementiert `deleteMetadataField` Vorgang.
 
-Implementiert `get/setImageRenderingPublishSettings`, `get/set/create/updateVignettePublishFormat` -Vorgänge.
+implementiert `get/setImageRenderingPublishSettings`, `get/set/create/updateVignettePublishFormat` Vorgänge.
 
-Implementiert `getAssetCounts`.
+implementiert `getAssetCounts`.
 
-Unterstützung für `setImageSetMembers` hinzugefügt, um `RenderSet`-Mitglieder in `ImageSet`-Assets einzuschließen.
+Hinzugefügte Unterstützung für `setImageSetMembers` einschließlich `RenderSet` Mitglieder in `ImageSet` Assets.
 
-Vorgang `replaceImage` hinzugefügt.
+Hinzugefügt `replaceImage` Vorgang.
 
-Vorgang `copyImage` hinzugefügt.
+Hinzugefügt `copyImage` Vorgang.
 
-Der Vorgang `setUrlModifier` und die Felder `urlModifier/urlPostApplyModifier` wurden für `LayerViewInfo`, `TemplateInfo` und `WatermarkInfo` hinzugefügt.
+Hinzugefügt `setUrlModifier` Betrieb und `urlModifier/urlPostApplyModifier` Felder für `LayerViewInfo`, `TemplateInfo`und `WatermarkInfo`.
 
-Vorgang `createDerivedAsset` hinzugefügt. Derzeit muss `ownerHandle` auf ein Bild-Asset verweisen und der Typ kann `AdjustedView` oder `LayerView` sein.
+Hinzugefügt `createDerivedAsset` Vorgang. Derzeit ist das `ownerHandle` muss auf ein Bild-Asset verweisen und der Typ kann `AdjustedView` oder `LayerView`.
 
-Vorgang `createTemplate` hinzugefügt. Derzeit kann dies aufgerufen werden, um Vorlagen- oder Wasserzeichen-Assets zu erstellen.
+Hinzugefügt `createTemplate` Vorgang. Rufen Sie auf, um Vorlagen- oder Wasserzeichen-Assets zu erstellen.
 
-IPS-Unternehmenseinstellungen, `CompanySettings`, portiert auf Web-Services-API.
+Einstellungen des IPS-Unternehmens, `CompanySettings`, portiert auf die Web-Services-API.
 
-Der Vorgang `excludeByproducts` wurde um das Filterkennzeichen `searchAssets` erweitert. Wenn Sie dieses Flag auf &quot;true&quot;setzen, werden `PSDlayer` Bilder und PDF-gerippte Bilder ausgeführt.
+Hinzugefügt `excludeByproducts` Filtermarkierung auf `searchAssets` Vorgang. Festlegen dieser Markierung auf &quot;true&quot;wird ausgeführt `PSDlayer` Bilder und PDF gerippte Bilder.
 
-Vorgang `getGenerationInfo` hinzugefügt.
+Hinzugefügt `getGenerationInfo` Vorgang.
 
-Der `SystemMessage`-Eigenschaftsname wurde zum `getProperty`-Vorgang hinzugefügt.
+Hinzugefügt `SystemMessage` Eigenschaftsname in `getProperty` Vorgang.
 
 Es wurden einige String-Konstanten vom Typ Asset geändert, die mit den entsprechenden Asset Info -Feldern übereinstimmen.
 
@@ -94,15 +94,15 @@ Es wurden einige String-Konstanten vom Typ Asset geändert, die mit den entsprec
 
 Das Ergebnisformat von Batch-Vorgängen wurde geändert, um Erfolg, Warnungen und Fehler zusammenzufassen.
 
-Der Batch-Metadatenvorgang wurde implementiert.`batchSetAssetMetadata`
+implementiert `batchSetAssetMetadata` Vorgang für Batch-Metadaten.
 
 Die Unterstützung für App-spezifische Daten wurde implementiert.
 
-Die Unterstützung für boolesche Flags für `createTemplate`, `extendLayers` und `extractText` für Upload-Aufträge wurde implementiert, um den Photoshop-Verarbeitungsprozess zu steuern (ähnlich wie Änderungen beim Hochladen von Dateien).
+Implementierte Unterstützung für boolesche Flags für `createTemplate`, `extendLayers`und `extractText` für Upload-Aufträge zur Steuerung der Photoshop-Verarbeitung (ähnlich wie Änderungen beim Hinzufügen von Datei-Uploads).
 
-Die Vorgänge `setImageMaps` und `setZoomTargets` wurden implementiert.
+implementiert `setImageMaps` und `setZoomTargets` Vorgänge.
 
-Implementierte `ViewerPreset`-Vorgänge. Die erkannten Typen sind:
+implementiert `ViewerPreset` Vorgänge. Die erkannten Typen sind:
 
 * `VideoPlayer` (Video veröffentlicht diese Viewer nur.)
 * `Brochure`
@@ -111,15 +111,15 @@ Implementierte `ViewerPreset`-Vorgänge. Die erkannten Typen sind:
 * `Spin`
 * `Custom types`
 
-Viewer-Skins unterstützen zwei Parameter: `skinFg` und `skinBg`. Der Backend-Code führt alle erforderlichen Verarbeitungsschritte aus, um die Abwärtskompatibilität zu gewährleisten.
+Viewer-Skins unterstützen zwei Parameter: `skinFg` und `skinBg`. Der Backend-Code führt die gesamte erforderliche Verarbeitung aus, um die Abwärtskompatibilität zu gewährleisten.
 
-Der Vorgang `getAssociatedAssets` wurde implementiert.
+implementiert `getAssociatedAssets` Vorgang.
 
-Der Auftragstyp `ReprocessAssets` wurde hinzugefügt, um die erneute Verarbeitung zuvor hochgeladener Primärquelldateien zu ermöglichen, einschließlich des erneuten Abrufs von PDFs und der Neuoptimierung von Bildern.
+Hinzugefügt `ReprocessAssets` Auftragstyp, um die erneute Verarbeitung von zuvor hochgeladenen Primärquelldateien zu ermöglichen, einschließlich des erneuten Abrufs von PDF und der Neuoptimierung von Bildern.
 
-Der Feldtyp `PropertySetType` wurde in `propertyType` umbenannt. Dies wirkt sich auf den Parameter `createPropertySetType` und die Antwort `getPropertySetType/getPropertySetTypes` aus.
+Umbenannt `PropertySetType` Feldtyp zu `propertyType`. Diese Umbenennung wirkt sich auf die `createPropertySetType` Parameter und `getPropertySetType/getPropertySetTypes` Antwort.
 
-Der Vorgang `batchSetImageFields` wurde implementiert, um das Festlegen von Bildbenutzerdaten und anderen bearbeitbaren Bildfeldern zu unterstützen.
+implementiert `batchSetImageFields` -Operation, um das Festlegen von Bildbenutzerdaten und anderen bearbeitbaren Bildfeldern zu unterstützen.
 
 47 Das Feld fileSize wurde zu verschiedenen Asset-Informationstypen hinzugefügt:
 
@@ -150,53 +150,53 @@ Der Vorgang `batchSetImageFields` wurde implementiert, um das Festlegen von Bild
 * `PowerPointInfo`
 * `RTFInfo`
 
-Der Vorgang `getActivePublishContexts` wurde implementiert. Dieser Vorgang gibt ein Array von Veröffentlichungskontextnamen mit aktiven Veröffentlichungsservern für das angegebene Unternehmen zurück. Aktuelle Veröffentlichungskontextnamen sind:
+implementiert `getActivePublishContexts` Vorgang. Dieser Vorgang gibt ein Array von Veröffentlichungskontextnamen mit aktiven Veröffentlichungsservern für das angegebene Unternehmen zurück. Aktuelle Veröffentlichungskontextnamen sind:
 
 * `ImageServing`
 * `ImageRendering`
 * `Video`
 
-Der Vorgang `getSearchStrings` wurde implementiert. Es wird ein Array von Suchzeichenfolgen für das angegebene Asset zurückgegeben.
+implementiert `getSearchStrings` Vorgang. Es wird ein Array von Suchzeichenfolgen für das angegebene Asset zurückgegeben.
 
-Es wurden Gebietsschema-Parameter für Aufträge und ein Mechanismus zum Festlegen des Gebietsschemas für API-Vorgänge hinzugefügt. Die Gebietsschema-Zeichenfolge sollte als `<language_code>[-<country_code>]` formatiert sein. Der Sprachcode ist ein aus zwei Buchstaben bestehender Code in Kleinbuchstaben gemäß ISO-639 und der optionale Ländercode ist ein aus zwei Buchstaben bestehender Code in Großbuchstaben gemäß ISO-3166.
+Es wurden Gebietsschema-Parameter für Aufträge und ein Mechanismus zum Festlegen des Gebietsschemas für API-Vorgänge hinzugefügt. Die Gebietsschema-Zeichenfolge sollte als `<language_code>[-<country_code>]`. Der Sprachcode ist ein aus zwei Buchstaben bestehender Code in Kleinbuchstaben gemäß ISO-639 und der optionale Ländercode ist ein aus zwei Buchstaben bestehender Code in Großbuchstaben gemäß ISO-3166.
 
-Der SOAP-Kopfzeile `authHeader` wurde ein optionaler Parameter für das Gebietsschema hinzugefügt, um das Gebietsschema für API-Vorgänge festzulegen. Wenn dieser Parameter nicht vorhanden ist, wird der HTTP-Header `Accept-Language` verwendet. Wenn diese Kopfzeile ebenfalls nicht vorhanden ist, wird das standardmäßige Gebietsschema für den IPS-Server verwendet.
+Der optionale Parameter locale wurde zum `authHeader` SOAP-Kopfzeile zum Festlegen des Gebietsschemas für API-Vorgänge. Wenn dieser Parameter nicht vorhanden ist, wird der HTTP-Header `Accept-Language` verwendet. Wenn diese Kopfzeile ebenfalls nicht vorhanden ist, wird das standardmäßige Gebietsschema für den IPS-Server verwendet.
 
 Unterstützung für stark typisierte Metadatenfelder hinzugefügt.
 
 SOAP- und HTTP-Header-Unterstützung für die gzip-Antwortsteuerung implementiert.
 
-Markierung `gzipResponse` zu `authHeader` hinzugefügt. Ist sie nicht vorhanden, prüft die API auch den HTTP-Header `Accept-Encoding`.
+Hinzugefügt `gzipResponse` Markierung auf `authHeader`. Ist dies nicht der Fall, prüft die API das HTTP `Accept-Encoding` -Kopfzeile.
 
 Unterstützung für searchAssets für stark typisierte Metadatenfeldbedingungen hinzugefügt.
 
-* Für alle Feldtypen kann der Wert mit einem Zeichenfolgenvergleichsoperator ( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`) übergeben werden.
-* Bei booleschen Feldern kann `boolVal` mit der `Equals` op übergeben werden.
-* Bei Int-Feldern kann `longVal` mit einem numerischen Vergleichsoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) oder `minLong/maxLong` mit numerischen Bereichsvorgängen ( `Between, NotBetween`) übergeben werden.
-* Bei Float-Feldern kann `doubleVal` mit einem numerischen Vergleichsoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) oder `minDouble/maxDouble` mit numerischen Bereichsvorgängen ( `Between, NotBetween`) übergeben werden.
-* Für Datumsfelder können Sie `dateVal` mit einem numerischen Vergleichsoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) übergeben oder &quot;minDate/maxDate&quot;mit numerischen Bereichsvorgängen ( `Between, NotBetween`) übergeben.
+* Für alle Feldtypen kann der Wert mit einem Zeichenfolgenvergleichsoperator ( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)
+* Für boolesche Felder: `boolVal` kann mit der `Equals` op.
+* Für Eingabefelder: `longVal` kann mit einem numerischen Vergleichsoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) oder `minLong/maxLong` kann mit numerischen Bereichsvorgängen ( `Between, NotBetween`).
+* Für Gleitkommafelder: `doubleVal` kann mit einem numerischen Vergleichsoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) oder `minDouble/maxDouble` kann mit numerischen Bereichsvorgängen ( `Between, NotBetween`).
+* Für Datumsfelder können Sie `dateVal` mit einem numerischen Vergleichsoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) oder Sie können minDate/maxDate mit numerischen Bereichsvorgängen ( `Between, NotBetween`).
 
-Die Felder `jobSubType` und `originalJobName` wurden zum Typ `JobLog` hinzugefügt.
+Beschreibung hinzugefügt, `jobSubType`und `originalJobName` Felder zu `JobLog` Typ.
 
-* `originalJobName` ist der Auftragsname, der an übermittelt wird ( `submitJob` ohne eindeutige Suffixe oder Folgenachamen).
-* `jobSubType` wird derzeit nur von  `ImageServingPublishJob` Aufträgen verwendet (wobei es sich um einen von  `full`,  `increment, fullwithsearch,` oder  `fulloverride` handelt).
-* `description` ist derzeit eine leere Zeichenfolge für alle Auftragstypen, enthält jedoch letztendlich Zusammenfassungsauftragsinformationen wie den Upload-Pfad.
+* `originalJobName` ist der Auftragsname, der an übermittelt wird. `submitJob` (ohne Eindeutigkeitssuffixe oder Nachfolgenauftragsnamen).
+* `jobSubType` wird nur von `ImageServingPublishJob` Aufträge (wobei es sich um einen von `full`, `increment, fullwithsearch,` oder `fulloverride`).
+* `description` ist eine leere Zeichenfolge für alle Auftragstypen, enthält jedoch letztendlich Zusammenfassungsauftragsinformationen wie den Upload-Pfad.
 
-Darüber hinaus sind die folgenden Felder nicht sowohl in `getJobLogs` als auch in `getJobLogDetails` enthalten. In früheren Versionen waren sie nur mit `getJobLogDetails` verfügbar.
+Darüber hinaus sind die folgenden Felder nicht in beiden `getJobLogs` und `getJobLogDetails`. In früheren Versionen waren sie nur mit `getJobLogDetails`.
 
 * `endDate` (wenn der Auftrag abgeschlossen wurde).
-* `fileDuplicateCount` (zuvor war es immer  `0` mit  `getJobLogs`)
-* `fileUpdateCount` (zuvor war immer  `0` mit  `getJobLogs` und enthalten in  `fileSuccessCount`; jetzt in separate Felder aufgeteilt).
+* `fileDuplicateCount` (zuvor war es immer `0` mit `getJobLogs`)
+* `fileUpdateCount` (zuvor war immer `0` mit `getJobLogs` und in `fileSuccessCount`; jetzt in separate Felder aufgeteilt).
 
-Das Feld assetHandle wurde zum Typ `JobLogDetail` hinzugefügt.
+Das Feld assetHandle wurde zu `JobLogDetail` Typ.
 
-Optionaler Beschreibungsparameter zu `submitJob` hinzugefügt. Dies wird zum Abrufen in `getScheduledJobs`, `getActiveJobs` und `getJobLogs` übergeben.
+Optionaler Beschreibungsparameter zu `submitJob`. Dieser Parameter wird zum Abrufen in weitergeleitet. `getScheduledJobs`, `getActiveJobs`und `getJobLogs`.
 
-Das SKU-Systemfeld wurde veraltet. Das Feld wird ignoriert, wenn es als `SystemFieldCondition` an `searchAssets` übergeben wird.
+Das SKU-Systemfeld wurde veraltet. Das Feld wird ignoriert, wenn es als `SystemFieldCondition` nach `searchAssets`.
 
-Der Filter `excludeAssetTypeArray` wurde zu `searchAssets` hinzugefügt.
+Hinzugefügt `excludeAssetTypeArray` filtern `searchAssets`.
 
-Der Typ `MaskInfo` wurde zu `Asset` hinzugefügt.
+Hinzugefügt `MaskInfo` type to `Asset`.
 
 Es wurden neue Asset-Typen für die Verwaltung durch IPS hinzugefügt:
 
@@ -217,25 +217,25 @@ Es wurden neue Asset-Typen für die Verwaltung durch IPS hinzugefügt:
    <td colname="col2"> <p>EPS- und PostScript-Dateien. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> WordDoc  </span> </p> </td> 
-   <td colname="col2"> <p>Microsoft Word-Dokument für Dateien, die mit .doc enden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> WordDoc </span> </p> </td> 
+   <td colname="col2"> <p>Microsoft® Word-Dokument für Dateien, die mit .doc enden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ExcelDoc  </span> </p> </td> 
-   <td colname="col2"> <p>Microsoft Excel-Dokument für Dateien, die mit .xls enden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ExcelDoc </span> </p> </td> 
+   <td colname="col2"> <p>Microsoft® Excel-Dokument für Dateien, die mit .xls enden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PowerPointDoc  </span> </p> </td> 
-   <td colname="col2"> <p>Microsoft PowerPoint-Dokument für Dateien, die mit .ppt enden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PowerPointDoc </span> </p> </td> 
+   <td colname="col2"> <p>Microsoft® PowerPoint-Dokument für Dateien, die mit .ppt enden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RTFDoc  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RTFDoc </span> </p> </td> 
    <td colname="col2"> <p>RTF-Datei für Dateien, die mit .rtf hochgeladen wurden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Es wurden zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` hinzugefügt, um die unabhängige Verarbeitung von Postscript-, Illustrator- und PDF-Dateien zu steuern. Alle vorhandenen Aufträge stellen die erforderlichen Parameter für jede der drei Verarbeitungs-Pipelines bereit, damit sie genau wie heute funktionieren. Der ursprüngliche Block `PostScriptOptions` wird verwendet, um die Verarbeitung für Illustrator- und EPS/PS-Dateien festzulegen. Optional können bestimmte Dateioptionen-Blöcke bereitgestellt werden, um die Verarbeitung anzugeben. Die Liste der Änderungen umfasst:
+Zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` zur unabhängigen Steuerung der Verarbeitung von Postscript-, Illustrator- und PDF-Dateien. Alle vorhandenen Aufträge stellen die erforderlichen Parameter für jede der drei Verarbeitungs-Pipelines bereit, damit sie genau wie heute funktionieren. Das Original `PostScriptOptions` -Block wird verwendet, um die Verarbeitung für Illustrator- und EPS/PS-Dateien festzulegen. Optional können bestimmte Dateioptionen-Blöcke bereitgestellt werden, um die Verarbeitung anzugeben. Die Liste der Änderungen umfasst:
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
@@ -248,12 +248,12 @@ Es wurden zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` hinz
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions  </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> verarbeiten </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
       <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> Keine </span> </p> </li> 
-      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> Rastern  </span>(Standard) </p> </li> 
+      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> Rastern </span>(Standard) </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_14D0A696DF4E408DA50E102057EB7AC7"> 
@@ -264,15 +264,15 @@ Es wurden zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` hinz
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>Optional. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolesch&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Wird beim Rastern der Datei in ein Bild wirksam. Es wird einen transparenten Hintergrund schaffen, wenn die Originaldatei so definiert ist, um Logos zu überlagern. </p> </td> 
+   <td colname="col4"> <p>Wird beim Rastern der Datei in ein Bild wirksam. Es erzeugt einen transparenten Hintergrund, wenn die ursprüngliche Datei so definiert ist, dass Logos überlagert werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions  </span> </p> </td> 
+   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> verarbeiten </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
       <li id="li_53749049B383441A81CB427A5B5F26A8"> <span class="codeph"> Keine </span> </li> 
-      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> Rastern  </span> (Standard) </li> 
+      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> Rastern </span> (Standard) </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_41924574773542B7BFC4989667C14E97"> 
@@ -281,7 +281,7 @@ Es wurden zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` hinz
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rastern der Auflösung. </p> </td> 
   </tr> 
@@ -291,17 +291,17 @@ Es wurden zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` hinz
    <td colname="col4"> <p>Zielfarbraum für die Wiedergabe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> alpha  </span> </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>Optional. </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Dies wirkt sich beim Rastern der Datei in ein Bild aus. Erstellt einen transparenten Hintergrund, wenn die ursprüngliche Datei so definiert ist, um überlagerte Logos zu erstellen. </p> </td> 
+   <td colname="col4"> <p>Wird beim Rastern der Datei in ein Bild wirksam. Erstellt einen transparenten Hintergrund, wenn die ursprüngliche Datei so definiert ist, um überlagerte Logos zu erstellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions  </span> </p> </td> 
+   <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> verarbeiten </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EF9C27EE7A154DA890CB9E6BA174D767"> 
       <li id="li_0BB0FC1BA43043EEA1EA257E5D603978"> <p> <span class="codeph"> Keine </span> </p> </li> 
-      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> Rastern  </span> (Standard) </p> </li> 
+      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> Rastern </span> (Standard) </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_84EE74454FF5434087A895F915E68103"> 
@@ -310,7 +310,7 @@ Es wurden zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` hinz
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rastern der Auflösung. </p> </td> 
   </tr> 
@@ -320,21 +320,21 @@ Es wurden zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` hinz
    <td colname="col4"> <p>Zielfarbraum für die Wiedergabe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> pdfCatalog  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolesch&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Definiert, ob nach dem Rendern eine mehrseitige PDF-Datei in einen E-Katalog kombiniert werden soll (Standard ist "true"). </p> </td> 
+   <td colname="col4"> <p>Definiert, ob nach dem Rendern eine mehrseitige PDF in einen eCatalog kombiniert werden soll (Standard ist "true"). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> extractSearchWords  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolesch&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Definiert, ob Wörter aus der PDF-Datei zur späteren Bereitstellung an einen Suchserver in die DB extrahiert werden (der Standardwert ist "false"). </p> </td> 
+   <td colname="col4"> <p>Definiert, ob Wörter aus der PDF zur späteren Bereitstellung an einen Suchserver in die DB extrahiert werden (der Standardwert ist "false"). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sie können auch `getScheduledJobs` abfragen.
+Sie können auch eine Abfrage über `getScheduledJobs`.
 
-Die Konfigurationseigenschaft `webservice.gzip.response` wurde geändert, um einen der folgenden Werte zu übernehmen:
+Die `webservice.gzip.response` Konfigurationseigenschaft einen der folgenden Werte annehmen:
 
 <table id="table_FCBBF1643DC84F5CBF81DCA6B552E0C4"> 
  <thead> 

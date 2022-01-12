@@ -1,13 +1,13 @@
 ---
+title: Ereignisrückrufe
 description: Ereignisrückrufe
 solution: Experience Manager
-title: Ereignisrückrufe
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: e6cffe77-f653-4e8e-bdec-2661051fe8cf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Der Viewer unterstützt JavaScript-Ereignis-Rückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
 
-Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
+Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der `handlers` Eigenschaft auf `config` JSON-Objekt im Viewer-Konstruktor. Alternativ können Sie `setHandlers()` API-Methode.
 
 Zu den unterstützten Viewer-Ereignissen zählen:
 
-* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
+* `initComplete` - Trigger, in denen die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass `getComponent()` API. Der Callback-Handler nimmt keine Argumente an.
 
 * `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, der von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 

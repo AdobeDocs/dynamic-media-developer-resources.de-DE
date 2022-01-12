@@ -1,13 +1,13 @@
 ---
+title: Hochladen von Assets über HTTP-POSTs in das UploadFile-Servlet
 description: Das Hochladen von Assets in Dynamic Media Classic umfasst eine oder mehrere HTTP-POST-Anforderungen, die einen Auftrag einrichten, um alle Protokollaktivitäten zu koordinieren, die mit den hochgeladenen Dateien verknüpft sind.
 solution: Experience Manager
-title: Hochladen von Assets über HTTP-POSTs in das UploadFile-Servlet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ https://<server>/scene7/UploadFile
 
 ## Workflow des Upload-Auftrags {#section-873625b9512f477c992f5cdd77267094}
 
-Der Upload-Auftrag besteht aus einem oder mehreren HTTP-POSTs, die einen gemeinsamen `jobHandle` verwenden, um die Verarbeitung mit demselben Auftrag zu korrelieren. Jede Anforderung ist `multipart/form-data` kodiert und besteht aus den folgenden Formularelementen:
+Der Upload-Auftrag besteht aus einem oder mehreren HTTP-POSTs, die einen gemeinsamen `jobHandle` , um die Verarbeitung mit demselben Auftrag zu korrelieren. Jede Anfrage ist `multipart/form-data` kodiert und besteht aus den folgenden Formularteilen:
 
 >[!NOTE]
 >
@@ -65,34 +65,34 @@ Der Upload-Auftrag besteht aus einem oder mehreren HTTP-POSTs, die einen gemeins
 
 |  HTTP-POST als Teil  |  Beschreibung  |
 |---|---|
-| `auth`  |   Erforderlich. Ein XML authHeader-Dokument, das Authentifizierung und Client-Informationen angibt. Siehe **Anforderungsauthentifizierung** unter [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   Optional. Sie können bei jeder POST-Anfrage eine oder mehrere Dateien zum Hochladen hinzufügen. Jeder Dateiteil kann einen Dateinamenparameter in der Content-Disposition-Kopfzeile enthalten, der in IPS als Zieldateiname verwendet wird, wenn kein Parameter `uploadPostParams/fileName` angegeben ist. |
+| `auth`  |   Erforderlich. Ein XML authHeader-Dokument, das Authentifizierung und Client-Informationen angibt. Siehe **Authentifizierung anfordern** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Optional. Sie können bei jeder POST-Anfrage eine oder mehrere Dateien zum Hochladen hinzufügen. Jeder Dateiteil kann einen Dateinamenparameter in der Kopfzeile &quot;Content-Disposition&quot;enthalten, der in IPS als Zieldateiname verwendet wird, falls nicht `uploadPostParams/fileName` festgelegt ist. |
 
 |  HTTP-POST als Teil   |  Elementname uploadPostParams   |  Typ   |  Beschreibung   |
 |---|---|---|---|
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt)   |   `companyHandle`  |  `xsd:string`  | Erforderlich. Handle an das Unternehmen, in das die Datei hochgeladen wird.  |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `jobName`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Name des Upload-Auftrags.  |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `jobHandle`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Handle mit einem in einer vorherigen Anfrage gestarteten Upload-Auftrag.  |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `locale`  |  `xsd:string`  | Optional. Sprach- und Ländercode für die Lokalisierung.  |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `description`  |  `xsd:string`  | Optional. Beschreibung des Auftrags.  |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `destFolder`  |  `xsd:string`  | Optional. Geben Sie den Ordnerpfad als Präfix für eine Dateinameneigenschaft an, insbesondere für Browser und andere Clients, die möglicherweise keine vollständigen Pfade in einem Dateinamen unterstützen.  |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `fileName`  |  `xsd:string`  | Optional. Name der Zieldatei. Überschreibt die Eigenschaft &quot;filename&quot;. |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `endJob`  |  `xsd:boolean`  | Optional. Der Standardwert ist „false“. |
-| `uploadParams` (Erforderlich. Ein XML `uploadParams`-Dokument, das die Upload-Parameter angibt) | `uploadParams`  |  `types:UploadPostJob`  | Optional, wenn es sich um eine nachfolgende Anfrage für einen vorhandenen aktiven Auftrag handelt. Wenn ein vorhandener Auftrag vorhanden ist, wird `uploadParams` ignoriert und die vorhandenen Auftrags-Upload-Parameter werden verwendet. Siehe [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt)   |   `companyHandle`  |  `xsd:string`  | Erforderlich. Handle an das Unternehmen, in das die Datei hochgeladen wird.  |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `jobName`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Name des Upload-Auftrags.  |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `jobHandle`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Handle mit einem in einer vorherigen Anfrage gestarteten Upload-Auftrag.  |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `locale`  |  `xsd:string`  | Optional. Sprach- und Ländercode für die Lokalisierung.  |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `description`  |  `xsd:string`  | Optional. Beschreibung des Auftrags.  |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `destFolder`  |  `xsd:string`  | Optional. Geben Sie den Ordnerpfad als Präfix für eine Dateinameneigenschaft an, insbesondere für Browser und andere Clients, die möglicherweise keine vollständigen Pfade in einem Dateinamen unterstützen.  |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `fileName`  |  `xsd:string`  | Optional. Name der Zieldatei. Überschreibt die Eigenschaft &quot;filename&quot;. |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `endJob`  |  `xsd:boolean`  | Optional. Der Standardwert ist „false“. |
+| `uploadParams` (Erforderlich. Eine XML `uploadParams` Dokument, das die Upload-Parameter angibt) | `uploadParams`  |  `types:UploadPostJob`  | Optional, wenn es sich um eine nachfolgende Anfrage für einen vorhandenen aktiven Auftrag handelt. Wenn ein vorhandener Auftrag vorhanden ist, `uploadParams` wird ignoriert und die vorhandenen Auftrags-Upload-Parameter werden verwendet. Siehe [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-Innerhalb des Blocks `<uploadPostParams>` befindet sich der Block `<uploadParams>`, der die Verarbeitung der enthaltenen Dateien angibt.
+Innerhalb der `<uploadPostParams>` -Block ist `<uploadParams>` -Block, der die Verarbeitung der enthaltenen Dateien bezeichnet.
 
 Siehe [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-Sie können davon ausgehen, dass sich der Parameter `uploadParams` für einzelne Dateien im Rahmen desselben Auftrags ändern kann, aber das ist nicht der Fall. Verwenden Sie dieselben `uploadParams`-Parameter für den gesamten Auftrag.
+Während Sie davon ausgehen, dass die Variable `uploadParams` kann sich für einzelne Dateien im Rahmen desselben Auftrags ändern, was nicht der Fall ist. Verwenden Sie dasselbe `uploadParams` Parameter für den gesamten Auftrag.
 
-Die anfängliche POST-Anfrage für einen neuen Upload-Auftrag sollte den Parameter `jobName` angeben, vorzugsweise mithilfe eines eindeutigen Auftragsnamens, um die nachfolgenden Auftragsstatusabfragen und Auftragsprotokollabfragen zu vereinfachen. Zusätzliche POST-Anforderungen für denselben Upload-Auftrag sollten den Parameter `jobHandle` anstelle von `jobName` angeben, wobei der Wert `jobHandle` verwendet wird, der von der ursprünglichen Anforderung zurückgegeben wurde.
+Die anfängliche POST-Anfrage für einen neuen Upload-Auftrag sollte die `jobName` -Parameter, vorzugsweise mithilfe eines eindeutigen Auftragsnamens, um die nachfolgenden Auftragsstatusabfragen und Auftragsprotokollabfragen zu vereinfachen. Zusätzliche POST-Anforderungen für denselben Upload-Auftrag sollten die `jobHandle` Parameter anstelle von `jobName`, wobei `jobHandle` -Wert, der von der ursprünglichen Anfrage zurückgegeben wurde.
 
-Die endgültige POST für einen Upload-Auftrag sollte den Parameter `endJob` auf &quot;true&quot;setzen, damit keine zukünftigen Dateien für diesen Auftrag POSTed werden. Dadurch kann der Auftrag sofort abgeschlossen werden, nachdem alle POSTed-Dateien erfasst wurden. Andernfalls tritt eine Zeitüberschreitung für den Auftrag auf, wenn innerhalb von 30 Minuten keine weiteren POST empfangen werden.
+Die endgültige POST für einen Upload-Auftrag sollte die Variable `endJob` auf &quot;true&quot;, sodass keine zukünftigen Dateien für diesen Auftrag POSTed werden. Dadurch kann der Auftrag sofort abgeschlossen werden, nachdem alle POSTed-Dateien erfasst wurden. Andernfalls tritt eine Zeitüberschreitung für den Auftrag auf, wenn innerhalb von 30 Minuten keine weiteren POST empfangen werden.
 
 ## UploadPOST-Antwort {#section-421df5cc04d44e23a464059aad86d64e}
 
-Bei einer erfolgreichen POST-Anfrage ist der Antworttext ein XML `uploadPostReturn`-Dokument, wie die XSD im Folgenden angibt:
+Bei einer erfolgreichen POST-Anfrage ist der Antworttext ein XML-Code `uploadPostReturn` -Dokument, wie die XSD im Folgenden angibt:
 
 ```
 <element name="uploadPostReturn"> 
@@ -104,9 +104,9 @@ Bei einer erfolgreichen POST-Anfrage ist der Antworttext ein XML `uploadPostRetu
     </element>
 ```
 
-Der zurückgegebene `jobHandle` wird für alle nachfolgenden POST-Anforderungen für denselben Auftrag im Parameter `uploadPostParams`/ `jobHandle` übergeben. Sie können damit auch den Auftragsstatus mit dem Vorgang `getActiveJobs` abfragen oder die Auftragsprotokolle mit dem Vorgang `getJobLogDetails` abfragen.
+Die `jobHandle` zurückgegeben wird, wird im `uploadPostParams`/ `jobHandle` für alle nachfolgenden POST-Anforderungen für denselben Auftrag. Sie können es auch verwenden, um den Auftragsstatus mit der `getActiveJobs` oder um die Auftragsprotokolle mit der `getJobLogDetails` Vorgang.
 
-Wenn bei der Verarbeitung der POST-Anfrage ein Fehler auftritt, besteht der Antworttext aus einem der API-Fehlertypen, wie unter [Fehler](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b) beschrieben.
+Wenn bei der Verarbeitung der POST-Anfrage ein Fehler auftritt, besteht der Antworttext aus einem der API-Fehlertypen, wie unter [Fehler](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
 ## Beispielhafte POST-Anfrage {#section-810fe32abdb9426ba0fea488dffadd1e}
 

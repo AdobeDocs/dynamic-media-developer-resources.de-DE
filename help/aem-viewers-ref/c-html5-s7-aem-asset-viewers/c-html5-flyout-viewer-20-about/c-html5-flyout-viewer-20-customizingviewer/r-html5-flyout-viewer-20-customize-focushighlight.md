@@ -1,13 +1,13 @@
 ---
+title: Fokushervorhebung
 description: Die Hervorhebung des Eingabefokus, die um das fokussierte Element der Viewer-Benutzeroberfläche herum angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 solution: Experience Manager
-title: Fokushervorhebung
-feature: Dynamic Media Classic,Viewer,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 2cb2e719-ee56-45e5-a509-7e13bb3c2165
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Das Erscheinungsbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Entwurf  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Entwurf </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 

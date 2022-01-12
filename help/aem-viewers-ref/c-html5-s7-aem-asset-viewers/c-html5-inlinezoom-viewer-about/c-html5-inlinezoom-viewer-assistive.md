@@ -1,13 +1,13 @@
 ---
+title: Unterstützung der Technologie
 description: Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
 solution: Experience Manager
-title: Unterstützung der Technologie
-feature: Dynamic Media Classic,Viewer,SDK/API,Inline-Zoom,Barrierefreiheit
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom,Accessibility
 role: Developer,User
 exl-id: 8aa88456-b78b-434b-a98f-effce83ccd21
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
 
-Das Viewer-Element der obersten Ebene hat die Rolle `region` und das Attribut `aria-label`, die standardmäßig auf den Namen des Viewers festgelegt sind. Sie können den Titel mit dem Lokalisierungssymbol `Container.LABEL` steuern.
+Das Viewer-Element der obersten Ebene hat eine Rolle `region` und `aria-label` -Attribut, das standardmäßig auf den Namen des Viewers gesetzt ist. Sie können den Titel mit der `Container.LABEL` Lokalisierungssymbol.
 
-Die Hauptansicht hat die Rolle `application`. Eine kurze Beschreibung der Hauptansicht finden Sie unter `aria-roledescription`, wobei der Wert durch das Lokalisierungssymbol `ROLE_DESCRIPTION` der entsprechenden Hauptansichtskomponente definiert wird. Navigationshinweise für Tastaturbenutzer werden mit `aria-describedby` bereitgestellt, der Text für den Nutzungshinweis stammt aus dem Lokalisierungssymbol `USAGE_HINT`. Wenn für ein Asset eine Beschriftung im Feld UserData definiert ist, wird das Attribut `aria-label` mit dem Wert dieser Beschriftung festgelegt.
+Die Hauptansicht hat eine Rolle `application`. Eine kurze Beschreibung der Hauptansicht finden Sie unter `aria-roledescription`, wobei der durch die Variable `ROLE_DESCRIPTION` Lokalisierungssymbol der entsprechenden Hauptansichtskomponente. Navigationshinweise für Tastaturbenutzer werden über `aria-describedby`, kommt der Text für den Nutzungshinweis aus dem `USAGE_HINT` Lokalisierungssymbol. Wenn für ein Asset eine Beschriftung im Feld UserData definiert ist, wird die `aria-label` -Attribut mit dem Wert dieser Beschriftung festgelegt ist.
 
-Komponenten, die Muster anzeigen, haben die Rolle `listbox` , wobei das Attribut `aria-label` auf den Wert des Lokalisierungssymbols `LABEL` dieser Komponente gesetzt ist. Einzelne Muster haben die Rolle `option` mit den Attributen `aria-setsize` und `aria-posinset` , um die Musterposition im Satz zu beschreiben. Wenn ein Muster ausgewählt ist, wird das `aria-selected` -Attribut auf `true` gesetzt.
+Komponenten, die Muster anzeigen, haben die Rolle `listbox` mit `aria-label` -Attribut auf den Wert der `LABEL` Lokalisierungssymbol dieser Komponente. Einzelne Muster haben die Rolle `option` mit `aria-setsize` und `aria-posinset` -Attribute, um die Musterposition im Satz zu beschreiben. Wenn ein Muster ausgewählt ist, erhält es die `aria-selected` -Attribut auf `true`.
