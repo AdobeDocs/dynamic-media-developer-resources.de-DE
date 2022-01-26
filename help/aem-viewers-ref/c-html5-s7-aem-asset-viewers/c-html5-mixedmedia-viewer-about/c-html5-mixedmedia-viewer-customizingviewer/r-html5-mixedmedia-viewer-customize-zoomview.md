@@ -1,20 +1,20 @@
 ---
-description: Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem zoombaren Bild, wenn das aktuelle Asset ein einzelnes Bild ist.
-solution: Experience Manager
 title: Zoomansicht
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+description: Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem Zoombild, wenn das aktuelle Asset ein einzelnes Bild ist.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # Zoomansicht{#zoom-view}
 
-Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem zoombaren Bild, wenn das aktuelle Asset ein einzelnes Bild ist.
+Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem Zoombild, wenn das aktuelle Asset ein einzelnes Bild ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,11 +35,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Hauptansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
    <td colname="col2"> <p>Der Cursor wird über der Hauptansicht angezeigt. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Beispiel - um die Zoomansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7zoomview` angewendet werden kann. Er steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente `cursortype` -Attributauswahl, die auf die `.s7zoomview` -Klasse. Er steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Folgendes `cursortype` -Werte werden unterstützt:
 
 * `default`
 

@@ -1,20 +1,20 @@
 ---
-description: Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
-solution: Experience Manager
 title: Flyout-Zoom-Ansicht
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+description: Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Bild. Sie besteht auch aus dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '257'
 ht-degree: 4%
 
 ---
 
 # Flyout-Zoom-Ansicht{#flyout-zoom-view}
 
-Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Bild, dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
+Im Inline-Zoom-Modus besteht die Hauptansicht aus dem statischen Bild. Sie besteht auch aus dem gezoomten Bild, das in der Flyout-Ansicht über dem statischen Bild angezeigt wird, und der Tipp-Meldung, die auf dem statischen Bild angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ Das Erscheinungsbild der Hauptansicht wird mit der folgenden CSS-Klassenauswahl 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Die Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
+Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Überschreiben durch CSS mit `left` oder `right` -Eigenschaften werden nicht unterstützt.
 
 **CSS-Eigenschaften der Tippmeldung**
 
@@ -70,11 +70,11 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Füllfarbe für den Nachrichtenhintergrund. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Radius des Nachrichtenhintergrunds </p> </td> 
   </tr> 
   <tr> 
@@ -86,15 +86,15 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
    <td colname="col2"> <p>Textfarbe für Tipps. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p> Deckkraft des Nachrichtenhintergrunds. </p> </td> 
   </tr> 
   <tr> 
@@ -104,9 +104,9 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
  </tbody> 
 </table>
 
-Die Tipp-Nachricht kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die Tipp-Nachricht kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-Beispiel: So richten Sie eine halbtransparente Tipp-Meldung mit weißer Arial-12-px-Schriftart ein, die 50 Pixel vom unteren Rand der Hauptansicht, des Abstands und eines gerundeten Rahmens entfernt ist:
+Beispiel: So richten Sie eine halbtransparente Tipp-Meldung mit weißer Arial® 12-px-Schriftart ein, die 50 Pixel vom unteren Rand der Hauptansicht, des Abstands und eines gerundeten Rahmens entfernt ist:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 

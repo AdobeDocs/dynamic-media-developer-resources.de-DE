@@ -1,14 +1,14 @@
 ---
+title: Symbol für Rotationsansicht
 description: Der Rotationsindikator wird im Rotationsansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet, und sie hängt auch vom iconffekt -Parameter ab.
 solution: Experience Manager
-title: Symbol für Rotationsansicht
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '150'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Grafiken für Rotationsindikatoren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -53,9 +53,9 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Der Rotationsindikator unterstützt die Attributauswahl `state` , die bei eindimensionalem Rotationsset auf `spin_1D` und bei mehrdimensionalem Rotationsset auf `spin_2D` gesetzt ist.
+Der Rotationsindikator unterstützt `state` -Attributauswahl, die auf `spin_1D` wenn ein eindimensionales Rotationsset vorhanden ist und `spin_2D` wenn ein mehrdimensionales Rotationsset vorhanden ist.
 
-Beispiel: Zum Einrichten eines Zoom-Indikators mit einer Größe von 100 x 100 Pixel.
+Beispiel: Um einen Zoom-Indikator von 100 x 100 Pixel einzurichten.
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect { 

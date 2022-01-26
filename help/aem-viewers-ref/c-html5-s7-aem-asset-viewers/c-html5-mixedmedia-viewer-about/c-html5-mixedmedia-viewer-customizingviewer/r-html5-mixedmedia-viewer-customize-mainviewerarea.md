@@ -1,20 +1,20 @@
 ---
-description: Der Hauptansichtsbereich ist der Bereich, der von der Hauptansicht und den Farbfeldern belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
-solution: Experience Manager
 title: Hauptanzeige-Bereich
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+description: Der Hauptansichtsbereich ist der Bereich, der von der Hauptansicht und den Farbfeldern belegt ist. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
 
 # Hauptanzeige-Bereich{#main-viewer-area}
 
-Der Hauptansichtsbereich ist der Bereich, der von der Hauptansicht und den Farbfeldern belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich ist der Bereich, der von der Hauptansicht und den Farbfeldern belegt ist. Sie ist so eingestellt, dass sie an den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -43,13 +43,13 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
+Beispiel: So richten Sie einen Viewer mit weißem Hintergrund ein ( `#FFFFFF`) und machen Sie ihre Größe 512 x 288 Pixel.
 
 ```
 .s7mixedmediaviewer { 

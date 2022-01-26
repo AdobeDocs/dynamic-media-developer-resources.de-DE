@@ -1,11 +1,11 @@
 ---
-description: Über die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
-solution: Experience Manager
 title: Schaltfläche "Video im Vollbildmodus"
+description: Über die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Videos anzeigt und in der Steuerleiste positioniert ist. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Schaltfläche &quot;Video im Vollbildmodus&quot;{#video-full-screen-button}
 
-Über die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Video anzeigt und sich in der Steuerleiste befindet. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
+Über die Schaltfläche &quot;Vollbild&quot;gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Videos anzeigt und in der Steuerleiste positioniert ist. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

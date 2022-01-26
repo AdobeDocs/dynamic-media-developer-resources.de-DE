@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Beschriftung"
 description: Schaltet die Anzeige der Untertitel ein bzw. aus. Sie ist nicht sichtbar, wenn der Beschriftungsparameter nicht angegeben ist. Sie können CSS verwenden, um diese Schaltfläche in der Größe, der Haut und der Position relativ zur Steuerleiste zu positionieren, die sie enthält.
 solution: Experience Manager
-title: Schaltfläche "Beschriftung"
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -59,11 +59,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,11 +71,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt den Attributselektor `state` und ausgewählte Attributselektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status, in dem Beschriftungen sichtbar sind, und `selected='false'` wird verwendet, wenn Beschriftungen ausgeblendet werden.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl und ausgewählte Attributselektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenstatus anzuwenden. Insbesondere `selected='true'` entspricht dem Status, wenn Beschriftungen sichtbar sind, und `selected='false'` wird verwendet, wenn Beschriftungen ausgeblendet werden.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Untertitelschaltfläche mit 28 x 28 Pixel, vier Pixel von der oberen und 68 Pixel von der rechten Kante der Steuerleiste entfernt, und zum Anzeigen eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus, wenn diese ausgewählt sind oder nicht ausgewählt sind.
+Beispiel: Um eine Schaltfläche mit verdeckten Untertiteln einzurichten, die 28 x 28 Pixel, vier Pixel von der oberen Seite und 68 Pixel von der rechten Kante der Steuerleiste entfernt ist. Schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 

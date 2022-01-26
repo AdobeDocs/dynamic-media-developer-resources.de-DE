@@ -1,20 +1,20 @@
 ---
-description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche, Lautstärkeregler usw.
-solution: Experience Manager
 title: Kontrollleiste
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und sich darunter befindet, wie z. B. die Schaltfläche "Wiedergabe/Pause", Lautstärkeregler usw.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 1%
 
 ---
 
 # Kontrollleiste{#control-bar}
 
-Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche, Lautstärkeregler usw.
+Die Steuerleiste ist der rechteckige Bereich, der alle für den Video-Viewer verfügbaren Steuerelemente der Benutzeroberfläche enthält und sich darunter befindet, wie z. B. die Schaltfläche &quot;Wiedergabe/Pause&quot;, Lautstärkeregler usw.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
    <td colname="col2"> <p>Höhe der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 

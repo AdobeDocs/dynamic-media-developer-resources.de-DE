@@ -1,20 +1,20 @@
 ---
+title: Schaltfläche "Nach links drehen"
 description: Wenn Sie auf diese Schaltfläche klicken oder tippen, wird das Bild in der Hauptansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Außerdem ist die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
 solution: Experience Manager
-title: Schaltfläche "Nach links drehen"
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0c7ca422-f4ac-4ad1-ab51-8521b4d4b20e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '328'
 ht-degree: 4%
 
 ---
 
 # Schaltfläche &quot;Nach links drehen&quot;{#spin-left-button}
 
-Wenn Sie auf diese Schaltfläche klicken oder tippen, wird das Bild in der Hauptansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Außerdem ist die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
+Wenn Sie diese Schaltfläche auswählen, wird das Bild in der Hauptansicht nach links gedreht. Diese Schaltfläche wird nicht auf Mobiltelefonen angezeigt, um die Grundstücksgröße auf dem Bildschirm zu sparen. Außerdem ist die Schaltfläche ausgeblendet, wenn ein mehrdimensionales Rotationsset verwendet wird. Sie können die Schaltfläche mithilfe von CSS vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -92,19 +92,19 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mit dem CSS-Klassens
    <td colname="col2"> <p>Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -112,11 +112,11 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mit dem CSS-Klassens
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Schaltfläche mit der linken Maustaste, die 28 x 28 Pixel groß ist und sich am linken Rand des inneren Containers befindet und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
+Beispiel: Um eine Schaltfläche mit der linken Maustaste einzurichten, die 28 x 28 Pixel groß ist und sich auf der linken Kante des inneren Containers befindet. Schließlich zeigt für jeden der vier Schaltflächenstatus ein anderes Bild an:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panleftbutton { 
