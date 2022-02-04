@@ -1,14 +1,14 @@
 ---
+title: Swatches.partialswatches
 description: Swatches.partialswatches
 solution: Experience Manager
-title: Swatches.partialswatches
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1ec5fe6f-6257-4f5e-90eb-bbd068b37e3d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Gibt an, ob die Komponente das Scrollen stoppt, wenn eines der Muster teilweise sichtbar ist (Scrollen ist nicht ausgerichtet). Der empfohlene Wert ist <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Gibt an, ob die Komponente das Scrollen stoppt, wenn eines der Muster teilweise sichtbar ist (Scrollen ist nicht ausgerichtet). Der empfohlene Wert lautet <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

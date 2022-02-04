@@ -1,13 +1,13 @@
 ---
+title: Schaltfläche "Vollbild"
 description: Diese Schaltfläche bewirkt, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn er vom Benutzer ausgewählt wird. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
-title: Schaltfläche "Vollbild"
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Vollbildschaltfläche mit einer Größe von 32 x 32 Pixel, die sechs Pixel vom oberen und rechten Rand des Viewers entfernt ist und ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus anzeigt, sofern ausgewählt oder nicht ausgewählt:
+Beispiel: Um eine Vollbildschaltfläche mit 32 x 32 Pixel einzurichten und sechs Pixel von der oberen und rechten Kante des Viewers aus zu positionieren. Schließlich zeigt ein anderes Bild für jeden der vier Schaltflächenstatus an, wenn diese ausgewählt oder nicht ausgewählt sind:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

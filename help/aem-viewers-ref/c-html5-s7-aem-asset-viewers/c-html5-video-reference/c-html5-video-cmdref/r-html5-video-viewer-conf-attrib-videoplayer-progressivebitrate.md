@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.progressivebitrate
 description: Konfigurationsattribut für Video-Viewer.
 solution: Experience Manager
-title: VideoPlayer.progressivebitrate
-feature: Dynamic Media Classic,Viewer,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 7f9f1bfe-c68f-4ad4-a4a3-e0a8952e07af
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Wert</span> </p> </td> 
-   <td colname="col2"> <p> Gibt (in Kbit/s/s) die gewünschte Video-Bitrate an, die von einem adaptiven Videoset wiedergegeben werden soll, falls das aktuelle System die adaptive Videowiedergabe nicht unterstützt. </p> <p>Die Komponente nimmt den Video-Stream mit der nächstmöglichen Bitrate (aber nicht größer) bis zum angegebenen Wert auf. Wenn alle Videostreams im adaptiven Videoset eine höhere Qualität als der angegebene Wert aufweisen, wählt die Logik die Bitrate mit der niedrigsten Qualität aus. </p> </td> 
+   <td colname="col2"> <p> Gibt die gewünschte Video-Bitrate (in Kilobit pro Sekunde oder KBit/s) an, die von einem adaptiven Videoset wiedergegeben werden soll, falls das aktuelle System die adaptive Videowiedergabe nicht unterstützt. </p> <p>Die Komponente nimmt den Video-Stream mit der nächstmöglichen Bitrate (aber nicht größer) bis zum angegebenen Wert auf. Wenn alle Videostreams im adaptiven Videoset eine höhere Qualität als der angegebene Wert aufweisen, wählt die Logik die Bitrate mit der niedrigsten Qualität aus. </p> </td> 
   </tr> 
  </tbody> 
 </table>

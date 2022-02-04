@@ -1,13 +1,13 @@
 ---
+title: Fokushervorhebung
 description: Die Hervorhebung des Eingabefokus, die um das fokussierte Element der Viewer-Benutzeroberfläche herum angezeigt wird, wird mit der CSS-Klassenauswahl gesteuert.
 solution: Experience Manager
-title: Fokushervorhebung
-feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: dc59e081-97cc-46fe-a8f7-0690833a8290
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ Das Erscheinungsbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Entwurf  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Entwurf </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um die standardmäßige Browserfokus-Hervorhebung für alle Elemente der Viewer-Benutzeroberfläche zu deaktivieren, fügen Sie den folgenden CSS-Selektor zum Stylesheet des Viewers hinzu:
+Beispiel: Um die standardmäßige Browserfokushervorhebung für alle Elemente der Viewer-Benutzeroberfläche zu deaktivieren, fügen Sie den folgenden CSS-Selektor zum Stylesheet des Viewers hinzu:
 
 ```
 .s7spinviewer *:focus { 

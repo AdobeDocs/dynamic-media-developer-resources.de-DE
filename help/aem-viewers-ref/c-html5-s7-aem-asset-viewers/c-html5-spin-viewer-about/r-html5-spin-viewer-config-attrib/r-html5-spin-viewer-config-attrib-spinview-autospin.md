@@ -1,26 +1,26 @@
 ---
+title: SpinView.autospin
 description: SpinView.autospin
 solution: Experience Manager
-title: SpinView.autospin
-feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
 # SpinView.autospin{#spinview-autospin}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *``*][, *``*][, *`durationdirectionspin_number`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`duration`*][, *`Richtung`*][, *`spin_number`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert oder deaktiviert die automatische Rotation. Um das beste automatische Rotationserlebnis zu erzielen, wird empfohlen, alle Frames vorab zu laden, indem Sie <span class="codeph"> maxloadradius</span> auf <span class="codeph"> -1</span> setzen. Beachten Sie jedoch, dass dies zu erhöhter Ladezeit und höherer Bandbreitennutzung führt. </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die automatische Rotation. Um das beste automatische Rotations-Erlebnis zu erzielen, wird empfohlen, alle Frames vorab zu laden, indem Sie <span class="codeph"> maxloadradius</span> nach <span class="codeph"> -1</span>. Beachten Sie jedoch, dass diese Einstellung zu erhöhter Ladezeit und höherer Bandbreitennutzung führt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 
@@ -28,11 +28,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Richtung</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Rotationsrichtung, die für die Rotation nach Osten <span class="codeph"> 0</span> und für die Spinnerei nach Westen <span class="codeph"> 1</span> ist. </p> </td> 
+   <td colname="col2"> <p> Die Rotationsrichtung, die <span class="codeph"> 0</span> für die Spinnerei nach Osten und <span class="codeph"> 1</span> für die Spinnerei nach Westen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Anzahl der vollständigen Rotationen, die vor dem Anhalten des Autospins durchgeführt wurden. Die Zahl ist eine Gleitkommazahl. Für eine unendliche automatische Rotation auf <span class="codeph"> -1</span> setzen. </p> </td> 
+   <td colname="col2"> <p> Die Anzahl der vollständigen Rotationen, die vor dem Anhalten des Autospins durchgeführt wurden. Die Zahl ist eine Gleitkommazahl. Legen Sie fest auf <span class="codeph"> -1</span> für eine unendliche automatische Rotation. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Unterstützung für Adobe Analytics-Tracking
 description: Der Rotationsset-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 solution: Experience Manager
-title: Unterstützung für Adobe Analytics-Tracking
-feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
@@ -20,13 +20,13 @@ Der Rotationsset-Viewer unterstützt standardmäßig das Adobe Analytics-Trackin
 
 Der Rotationsset-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
-Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
+Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den Viewer-Rückruf `trackEvent` zu überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -66,7 +66,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mit der <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

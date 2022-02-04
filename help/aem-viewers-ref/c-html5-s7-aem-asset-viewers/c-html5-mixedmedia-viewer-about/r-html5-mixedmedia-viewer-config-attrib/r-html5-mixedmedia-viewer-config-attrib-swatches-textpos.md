@@ -1,14 +1,14 @@
 ---
+title: Swatches.textpos
 description: Swatches.textpos
 solution: Experience Manager
-title: Swatches.textpos
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Gibt an, wo die Beschriftung relativ zum Musterminiaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Musterminiatur zentriert. Wenn <span class="codeph"> tooltip</span> angegeben ist, wird keine Beschriftung gezeichnet. </p> </td> 
+   <td> <p> Gibt an, wo die Beschriftung relativ zum Musterminiaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Musterminiatur zentriert. Wann <span class="codeph"> tooltip</span> angegeben ist, wird kein Etikett gezeichnet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

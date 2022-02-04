@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.initialbitrate
 description: Konfigurationsattribut für Video-Viewer.
 solution: Experience Manager
-title: VideoPlayer.initialbitrate
-feature: Dynamic Media Classic,Viewer,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 83f2af31-e2dc-430c-b9ae-563cdcd20954
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Wert </span> </p> </td> 
-   <td colname="col2"> <p>Legt die Video-Bitrate-in-Bits pro Sekunde oder KBit/s fest, die für die anfängliche Wiedergabe von Videos auf Desktops verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, startet der Videoplayer das Video mit der nächstniedrigsten Bitrate. </p> <p>Wenn auf <span class="codeph"> 0 </span> gesetzt, beginnt der Videoplayer mit der niedrigstmöglichen Bitrate. Gilt nur für Systeme, die keine native Unterstützung für HTML5-HLS-Videos haben (Firefox, Chrome und Internet Explorer 11 unter Windows 10) und wenn der Wiedergabemodus auf <span class="codeph"> auto </span> festgelegt ist. </p> </td> 
+   <td colname="col2"> <p>Legt die Video-Bitrate (in Kilobit pro Sekunde oder KBit/s) fest, die für die Erstwiedergabe von Videos auf Desktops verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, startet der Videoplayer das Video mit der nächstniedrigsten Bitrate. </p> <p>Wenn auf <span class="codeph"> 0 </span>, beginnt der Videoplayer mit der niedrigstmöglichen Bitrate. Gilt nur für Systeme, die keine native Unterstützung für HTML5 HLS-Videos haben (Firefox, Chrome und Internet Explorer 11 unter Windows 10) und wenn der Wiedergabemodus auf <span class="codeph"> auto </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

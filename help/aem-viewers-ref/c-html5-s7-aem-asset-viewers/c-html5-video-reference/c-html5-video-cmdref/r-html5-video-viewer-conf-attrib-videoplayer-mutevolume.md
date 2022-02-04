@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.mutevolume
 description: Konfigurationsattribut für Video-Viewer.
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Viewer,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 8%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Legt den stummschalteten Modus für die Videowiedergabe beim ersten Laden fest. Wenn auf <span class="codeph"> 1 </span> gesetzt, wird das Volumen stummgeschaltet. Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten kann das Mutation der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos ermöglichen. </p> </td> 
+   <td colname="col2"> <p> Legt den stummschalteten Modus für die Videowiedergabe beim ersten Laden fest. Wenn auf <span class="codeph"> 1 </span> das Volumen stummgeschaltet ist; Andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten ermöglicht die Mutation der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

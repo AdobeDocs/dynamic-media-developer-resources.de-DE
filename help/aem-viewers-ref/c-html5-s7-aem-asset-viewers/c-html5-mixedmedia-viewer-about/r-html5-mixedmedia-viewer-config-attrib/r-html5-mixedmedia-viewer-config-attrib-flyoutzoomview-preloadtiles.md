@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.preloadtiles
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
-title: FlyoutZoomView.preloadtiles
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Setzen Sie dies auf <span class="codeph"> 1</span> , um das Vorausfüllen des gezoomten Bildes zu ermöglichen. </p> <p>Legen Sie <span class="codeph"> 0</span> fest, um das Zoombild nach Bedarf schrittweise zu laden. </p> <p> <p>Hinweis:  Beachten Sie, dass bei Aktivierung dieser Option die Bandbreitennutzung deutlich erhöht sein kann, da das gezoomte Bild vollständig geladen werden muss - selbst wenn der Benutzer keine Zoom-Aktion durchführt. </p> </p> </td> 
+   <td colname="col2"> <p> Legen Sie fest auf <span class="codeph"> 1</span> , um das Vorabladen des gezoomten Bildes zu aktivieren. </p> <p>Legen Sie fest auf <span class="codeph"> 0</span> , um das Zoombild nach Bedarf schrittweise zu laden. </p> <p> <p>Wenn Sie diese Option aktivieren, kann dies zu einer wesentlich höheren Bandbreitennutzung führen, da das gezoomte Bild vollständig geladen werden muss, selbst wenn der Benutzer keine Zoom-Aktion durchführt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: SpinView.iscommand
 description: SpinView.iscommand
 solution: Experience Manager
-title: SpinView.iscommand
-feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 6924e133-31f4-4c00-8bcc-25749b52a68d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf das Rotationsbild angewendet wird. Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> HTTP-kodiert sein als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span>. </p> <p> <p>Hinweis:  Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf das Rotationsbild angewendet wird. Wenn in der URL angegeben, werden alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> muss HTTP-kodiert sein als <span class="codeph"> %26</span> und <span class="codeph"> %3D</span>zurück. </p> <p> <p>Hinweis: Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

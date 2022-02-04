@@ -1,13 +1,13 @@
 ---
+title: Befehlsreferenz - Konfigurationsattribute
 description: Dokumentation zu Konfigurationsattributen für Video-Viewer.
 solution: Experience Manager
-title: Befehlsreferenz - Konfigurationsattribute
-feature: Dynamic Media Classic,Viewer,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Dokumentation zu Konfigurationsattributen für Video-Viewer.
 
-Sie können einen beliebigen Konfigurationsbefehl in der URL festlegen. Sie können auch die API-Methoden `setParam()`, `setParams()` oder beides verwenden, um einen beliebigen Konfigurationsbefehl festzulegen. Sie können auch jedes Konfigurationsattribut im serverseitigen Konfigurationseintrag angeben.
+Sie können einen beliebigen Konfigurationsbefehl in der URL festlegen. Sie können auch die API-Methoden verwenden `setParam()`oder `setParams()`oder beides verwenden, um einen beliebigen Konfigurationsbefehl festzulegen. Sie können auch jedes Konfigurationsattribut im serverseitigen Konfigurationseintrag angeben.
 
-Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder dem Instanznamen der entsprechenden Viewer SDK-Komponente voranstellen. Der Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an die API-Methode `setContainerId()` übergeben wird. Die Dokumentation enthält optionale Präfixe für solche Befehle. `playback` wird beispielsweise wie folgt dokumentiert:
+Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder dem Instanznamen der entsprechenden Viewer SDK-Komponente voranstellen. Ein Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an übergeben wird `setContainerId()` API-Methode. Die Dokumentation enthält optionale Präfixe für solche Befehle. Beispiel: `playback` wird wie folgt dokumentiert:
 
 ```
 [VideoPlayer.|<containerId>_videoPlayer].playback
 ```
 
-bedeutet, dass dieser Befehl wie folgt verwendet wird:
+Das bedeutet, dass dieser Befehl wie folgt verwendet wird
 
 * `playback` (kurze Syntax)
 * `VideoPlayer.playback` (qualifiziert mit dem Namen der Komponentenklasse)
-* `cont_videoPlayer.playback` (qualifiziert mit Komponenten-ID, vorausgesetzt, dass  `cont` die ID des Container-Elements ist)
+* `cont_videoPlayer.playback` (mit Komponenten-ID qualifiziert, vorausgesetzt, dass `cont` ist die ID des Containerelements)
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
 

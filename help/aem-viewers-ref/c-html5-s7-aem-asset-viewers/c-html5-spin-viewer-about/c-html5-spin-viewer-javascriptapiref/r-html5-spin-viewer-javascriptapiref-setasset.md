@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: JavaScript-API-Referenz für Rotationsset-Viewer.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
@@ -22,12 +22,12 @@ JavaScript-API-Referenz für Rotationsset-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID, eindimensionales oder mehrdimensionales Rotationsset mit optionalen Image Serving-Modifikatoren, die nach <span class="codeph"> angehängt werden. ?</span>. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Zeichenfolge</span>} neue Asset-ID, eindimensionales oder mehrdimensionales Rotationsset mit optionalen Image Serving-Modifikatoren angehängt nach <span class="codeph"> ?</span>. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()`. Wenn es nach aufgerufen wird `init()`, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 

@@ -1,14 +1,14 @@
 ---
+title: Symboleffekt
 description: Der Rotationsindikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet, und sie hängt auch vom iconffekt -Parameter ab.
 solution: Experience Manager
-title: Symboleffekt
-feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 1ded69eb-62cd-49da-ab53-124348359a58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 1%
+source-wordcount: '146'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Grafiken für Rotationsindikatoren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Der Rotationsindikator unterstützt die Attributauswahl `state` , die bei eindimensionalem Rotationsset auf `spin_1D` und bei mehrdimensionalem Rotationsset auf `spin_2D` gesetzt ist.
+Der Rotationsindikator unterstützt `state` -Attributauswahl, die auf `spin_1D` wenn ein eindimensionales Rotationsset vorhanden ist, und `spin_2D` wenn ein mehrdimensionales Rotationsset vorhanden ist.
 
 Beispiel: Zum Einrichten eines Zoom-Indikators mit einer Größe von 100 x 100 Pixel.
 

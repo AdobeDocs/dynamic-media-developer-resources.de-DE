@@ -1,30 +1,30 @@
 ---
+title: SpinView.zoomstep
 description: SpinView.zoomstep
 solution: Experience Manager
-title: SpinView.zoomstep
-feature: Dynamic Media Classic,Viewer,SDK/API,Rotationssets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 919477d0-87d9-4cf7-a7c8-0fbb68c6ff96
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 6%
+source-wordcount: '78'
+ht-degree: 7%
 
 ---
 
 # SpinView.zoomstep{#spinview-zoomstep}
 
-` [SpinView.|<containerId>_spinView.]zoomstep= *``*[, *`steplimit`*]`
+` [SpinView.|<containerId>_spinView.]zoomstep= *`Schritt`*[, *`limit`*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Schritt</span></span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Anzahl der Vergrößerungs- und Verkleinerungsaktionen, die zum Vergrößern oder Verkleinern der Auflösung um den Faktor zwei erforderlich sind. Die Auflösung für jede Zoom-Aktion beträgt 2^1 pro Schritt. Auf <span class="codeph"> 0</span> setzen, um mit einer einzigen Zoom-Aktion auf die vollständige Auflösung zu zoomen. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Anzahl der Vergrößerungs- und Verkleinerungsaktionen, die zum Vergrößern oder Verkleinern der Auflösung um den Faktor zwei erforderlich sind. Die Auflösung für jede Zoom-Aktion beträgt 2^1 pro Schritt. Legen Sie fest auf <span class="codeph"> 0</span> , um mit einer einzigen Zoom-Aktion auf die volle Auflösung zu zoomen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Grenze</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt die maximale Zoomauflösung relativ zum Bild mit voller Auflösung an. Der Standardwert ist <span class="codeph"> 1.0</span>, was das Zoomen über die vollständige Auflösung hinaus nicht erlaubt. </p> </td> 
+   <td colname="col2"> <p> Gibt die maximale Zoomauflösung relativ zum Bild mit voller Auflösung an. Der Standardwert ist <span class="codeph"> 1,0</span>, was das Zoomen über die vollständige Auflösung hinaus nicht erlaubt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

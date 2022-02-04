@@ -1,13 +1,13 @@
 ---
+title: Unterstützung für Adobe Analytics-Tracking
 description: Der Viewer für gemischte Medien unterstützt standardmäßig das Adobe Analytics-Tracking.
 solution: Experience Manager
-title: Unterstützung für Adobe Analytics-Tracking
-feature: Dynamic Media Classic,Viewer,SDK/API,Gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ Der Viewer für gemischte Medien unterstützt standardmäßig das Adobe Analytic
 
 ## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Der Viewer für gemischte Medien unterstützt die standardmäßige [!DNL Adobe Analytics]-Verfolgung. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
+Der Viewer für gemischte Medien unterstützt [!DNL Adobe Analytics] standardmäßiges Tracking. Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Um in Analytics-Systeme von Drittanbietern zu integrieren, müssen Sie den Viewer-Rückruf `trackEvent` überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -65,7 +65,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
+   <td colname="col2"> <p>ein Asset im Viewer mit <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
