@@ -1,11 +1,11 @@
 ---
+title: Kompatibilitätshinweise
 description: Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 solution: Experience Manager
-title: Kompatibilitätshinweise
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 * Die Browser-seitige Skalierung bewirkt, dass die Benutzeroberfläche und die Bilder beim Vergrößern der Seite durch den Benutzer verschwommen werden. Die Formatierung der Benutzeroberfläche wird je nach Zoom ebenfalls falsch angezeigt und wird auf den Vollbildmodus übertragen.
 * Aufgrund der Größenbeschränkung auf Mobilgeräten verwendet der Viewer für gemischte Medien eine Foliengeste, um Frames in eingebetteten Bildsets zu tauschen, anstatt auf die eingebettete Farbfeldkomponente zu tippen. Die Komponente ist als visueller Indikator verfügbar.
 * In Internet Explorer-Browsern und einigen Touch-Geräten nimmt der Vollbildmodus nicht den gesamten Gerätebildschirm ein. Stattdessen wird die Größe der Anwendung an die Größe des Browser-Fensters angepasst.
-* Die Schaltfläche &quot;Schließen&quot;funktioniert unter iOS 8.0 und iOS 8.1 nicht, funktioniert aber unter iOS 8.2.
+* Die Schaltfläche &quot;Schließen&quot;funktioniert nicht unter iOS 8.0 und iOS 8.1, funktioniert aber unter iOS 8.2.
 
 ## Galaxy SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
@@ -55,7 +55,7 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 
 * `IntialBitRate` -Modifikator wird nur bei Software-HLS- und Flash-HDS-Wiedergabe unterstützt. Es funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
 * Die progressive OGG- und WebM-Wiedergabe wird nicht unterstützt.
-* Die Browserskalierung bewirkt, dass der Videoplayer eine falsche Größe anzeigt (einschließlich Anzeigeeinstellungen für Windows® Control Panel ).
+* Die Browserskalierung bewirkt, dass der Videoplayer eine falsche Größe anzeigt (einschließlich Anzeigeeinstellungen für Windows® Control Panel).
 * Die Verwendung von HLS-Streaming in Safari bei der Videosuche ist inkonsistent.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
@@ -66,7 +66,7 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
 
-* Große eKataloge führen auf dem iPad 2 zum Absturz des Browsers.
+* Große eKataloge führen dazu, dass der Browser auf iPad 2 abstürzt.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 

@@ -1,13 +1,13 @@
 ---
+title: Tastaturzugriff und Navigation
 description: Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katalog, die E-Katalogsuche, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Zoom, Dimensional (3D), Karussell, interaktives Bild, interaktives Video und Video360 verfügbar sind, sind über die Tastatur verfügbar.
 solution: Experience Manager
-title: Tastaturzugriff und Navigation
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katal
 
 Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katalog, die E-Katalogsuche, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Zoom, Karussell, Dimensional (3D), interaktive Bilder, interaktive Videos und Video360 verfügbar sind, sind über die Tastatur verfügbar.
 
-Ein Endbenutzer kann mithilfe der Tastenanschläge **[!UICONTROL Tab]** und **[!UICONTROL Umschalt+Tab]** zwischen Elementen der Viewer-Benutzeroberfläche navigieren. Durch Verwendung von **[!UICONTROL Tab]** wird der Eingabefokus auf das nächste Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Durch Verwendung von **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurückgesetzt. Das Fokus-Traversal folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich von links nach rechts und dann von oben nach unten.
+Ein Endbenutzer kann mithilfe von **[!UICONTROL Registerkarte]** und **[!UICONTROL Umschalt+Tab]** Tastenanschläge. Verwenden **[!UICONTROL Registerkarte]** leitet den Eingabefokus zum nächsten Element der Benutzeroberfläche in der Tab-Reihenfolge weiter. using **[!UICONTROL Umschalt+Tab]** stellt den Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurück. Das Fokus-Traversal folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich von links nach rechts und dann von oben nach unten.
 
 Je nach Betriebssystem und Webbrowsereinstellungen erhält das Element der Benutzeroberfläche mit Eingabefokus eine visuelle Fokusanzeige. Beispielsweise kann der visuelle Indikator ein dünner Rahmen sein, der um das Element der Benutzeroberfläche gerendert wird.
 
-Es ist möglich, diese Fokushervorhebung im Viewer-CSS zu deaktivieren oder anzupassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. Basic Zoom or Interactive Video) auf **Anpassen *Name des Viewers*** >** Fokusmarkierung **.
+Es ist möglich, diese Fokushervorhebung im Viewer-CSS zu deaktivieren oder anzupassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. Basic Zoom oder Interactive Video) auf **Anpassen *Name des Viewers*** >** Fokushervorhebung **.
 
 Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers unterstützt werden, sind in den meisten Fällen offensichtlich und leicht zu entdecken.
 
@@ -44,7 +44,7 @@ Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vergrößern oder Verkleinern </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> +  </span> oder  <span class="uicontrol"> -  </span>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> oder <span class="uicontrol"> - </span>zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom zurücksetzen </p> </td> 

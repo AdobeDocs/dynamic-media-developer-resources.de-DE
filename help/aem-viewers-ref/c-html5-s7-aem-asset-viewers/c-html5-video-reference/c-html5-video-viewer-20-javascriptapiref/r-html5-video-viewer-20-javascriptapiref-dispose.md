@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: JavaScript-API-Referenz für Video-Viewer.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Viewer,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c4bcccdc-6f23-4213-a1d1-03c5c62ba484
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ Stellt diese Viewer-Instanz bereit, indem alle von der Viewer-Logik verwendeten 
 
 Der Webseitencode sollte auch die Viewer-Instanzvariable löschen, um den Viewer vollständig aus dem Webbrowser-Speicher zu entfernen.
 
-Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden, oder externe Verweise auf solche Komponenten gespeichert hat, müssen diese Listener explizit vom Webseitencode abgemeldet werden. Solche externen Komponentenverweise müssen vor dem Aufruf von `dispose()` gelöscht werden.
+Wenn im Webseitencode Ereignis-Listener direkt auf vom Viewer verwendeten Viewer-SDK-Komponenten registriert sind - oder externe Verweise auf solche Komponenten gespeichert sind - müssen Sie die Registrierung dieser Listener explizit vom Webseitencode aufheben. Außerdem müssen Sie diese externen Komponentenverweise löschen, bevor Sie `dispose()`.
 
-Greifen Sie nach dem Aufruf von `dispose()` nicht mehr auf die Viewer-API zu.
+Rufen Sie die Viewer-API nicht mehr auf, nachdem `dispose()` aufgerufen wird.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
