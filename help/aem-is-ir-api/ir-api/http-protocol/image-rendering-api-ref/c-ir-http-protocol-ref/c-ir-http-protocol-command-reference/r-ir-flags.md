@@ -1,18 +1,18 @@
 ---
+title: kennzeichnen
 description: Anwenden von Flags. Gibt zusätzliche Renderoptionen an.
 solution: Experience Manager
-title: kennzeichnen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
 
-# kennzeichnen{#flags}
+# kennzeichnen {#flags}
 
 Anwenden von Flags. Gibt zusätzliche Renderoptionen an.
 
@@ -27,9 +27,9 @@ Anwenden von Flags. Gibt zusätzliche Renderoptionen an.
 
 Derzeit nur für Kabinenmaterial verwendet.
 
-`flags=0` (Standard) rendert Oberschränke mit durchgehenden Türen.
+`flags=0` (Standard) Rendert Oberschränke mit durchgehenden Türen.
 
-`flags=1` Renderer Oberschränke mit Glastüren (wenn die Vignette mit Glastüren verfasst wurde).
+`flags=1` Rendert Oberschränke mit Glastüren (wenn die Vignette mit Glastüren verfasst wurde).
 
 ## Eigenschaften {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Materialattribut. Ignoriert, wenn kein Kabinenmaterial oder wenn das Zielschrank
 
 ## Standard {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` für keine Glastüren.
+`flags=0` Für keine Glastüren.

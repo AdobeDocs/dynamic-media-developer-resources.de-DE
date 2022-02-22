@@ -1,22 +1,22 @@
 ---
-description: Nachdem Sie Image Serving unter Linux installiert haben, überprüfen Sie die Installation.
-solution: Experience Manager
 title: Installation überprüfen
+description: Nachdem Sie Image Serving unter Linux® installiert haben, überprüfen Sie die Installation.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Installation überprüfen{#verifying-the-installation}
 
-Nachdem Sie Image Serving unter Linux installiert haben, überprüfen Sie die Installation.
+Nachdem Sie Image Serving unter Linux® installiert haben, überprüfen Sie die Installation.
 
-Der Image-Server wird als Linux-Daemon installiert.
+Der Image-Server wird als Linux®-Daemon installiert.
 
 **Überprüfen der Installation**
 
@@ -32,7 +32,8 @@ Der Image-Server wird als Linux-Daemon installiert.
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit &quot;`imageServer.`&quot;beginnen und angeben, dass der Platform-Server erfolgreich mit dem Image-Server kommunizieren konnte.
+Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit `imageServer`, der angibt, dass der Platform-Server erfolgreich mit dem Image-Server kommunizieren konnte.
+
 >Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentations- und Demopakete durchgeführt werden, sofern sie installiert sind.

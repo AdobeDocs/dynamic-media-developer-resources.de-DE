@@ -1,18 +1,18 @@
 ---
+title: dekal
 description: Auswahl von Decal-Material. Startet ein Materialspezifikationssegment (MSS) für ein nicht wiederholbares Dekormaterial.
 solution: Experience Manager
-title: dekcal
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
-# dekcal{#decal}
+# dekal {#decal}
 
 Auswahl von Decal-Material. Startet ein Materialspezifikationssegment (MSS) für ein nicht wiederholbares Dekormaterial.
 
@@ -20,7 +20,7 @@ Auswahl von Decal-Material. Startet ein Materialspezifikationssegment (MSS) für
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>Ignoriert. </p> </td> 
  </tr> 
 </table>

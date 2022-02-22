@@ -1,13 +1,13 @@
 ---
+title: opac
 description: Deckkraft. Gibt die Materialdeckkraft an.
 solution: Experience Manager
-title: opac
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Deckkraft. Gibt die Materialdeckkraft an.
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>Materialdeckkraft (in Prozent); 0...100 </p> </td> 
  </tr> 
 </table>
@@ -31,7 +31,7 @@ Die folgenden Material-/Objektkombinationen unterstützen die variable Deckkraft
 * Fensterabdeckende Materialien, die auf Fensterrahmen angewendet werden.
 * Auf Textobjekte oder Wandobjekte angewendete Deklarationen.
 
-Wenn das Material ein Bild mit einem Alphakanal enthält, kann `opac=` verwendet werden, um das Bild transparenter, aber nicht undurchsichtiger zu machen.
+Wenn das Material ein Bild mit einem Alphakanal enthält, `opac=` kann verwendet werden, um das Bild transparenter, aber nicht undurchsichtiger zu machen.
 
 ## Eigenschaften {#section-352f7b82ede54159b6afb90ae4b559ec}
 

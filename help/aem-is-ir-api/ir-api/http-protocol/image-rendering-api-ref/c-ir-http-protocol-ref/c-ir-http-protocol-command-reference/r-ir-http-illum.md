@@ -1,14 +1,14 @@
 ---
+title: illum
 description: Beleuchtungszuordnungsauswahl. Gibt die Beleuchtungskarte an, mit der dieses Material gerendert werden soll.
 solution: Experience Manager
-title: illum
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Beleuchtungszuordnungsauswahl. Gibt die Beleuchtungskarte an, mit der dieses Mat
 
 Wenn die angegebene Beleuchtungskarte in der Zielvignette nicht verfügbar ist, wird stattdessen die nächstverfügbare Karte verwendet.
 
-`illum=-1` gibt an, dass die Beleuchtungskarte automatisch basierend auf dem  `gloss=` Wert ausgewählt wird.
+`illum=-1` Gibt an, dass die Beleuchtungskarte automatisch auf der Grundlage der `gloss=` -Wert.
 
 ## Eigenschaften {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

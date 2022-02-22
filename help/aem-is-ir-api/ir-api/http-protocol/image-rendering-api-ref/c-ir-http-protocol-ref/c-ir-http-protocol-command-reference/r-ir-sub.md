@@ -1,20 +1,20 @@
 ---
-description: Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe sowie das Entfernen zuvor angewendeter Materialien.
-solution: Experience Manager
 title: sub
+description: Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe und das Entfernen zuvor angewendeter Materialien.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 6%
+source-wordcount: '149'
+ht-degree: 7%
 
 ---
 
 # sub{#sub}
 
-Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe sowie das Entfernen zuvor angewendeter Materialien.
+Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe und das Entfernen zuvor angewendeter Materialien.
 
 `sub=0|1|2|3|4|5`
 
@@ -45,9 +45,9 @@ Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschieden
  </tr> 
 </table>
 
-Derzeit nur für Wandobjekte unterstützt. Beendet ein vorheriges MSS und beginnt mit einem neuen MSS für das Material, das auf die angegebene Unterauswahl angewendet werden soll.
+Derzeit nur für Wandobjekte unterstützt. Beendet einen vorhergehenden MSS und startet einen neuen MSS für das Material, das auf die angegebene Unterauswahl angewendet werden soll.
 
-Ein für die obere oder untere Wand festgelegtes Material wird auf die gesamte Wand angewendet, es sei denn, es wurde auch ein anderes Material für die andere Hälfte der Wand angegeben.
+Ein für die obere oder untere Wand bestimmtes Material gilt für die gesamte Wand, es sei denn, es wurde auch ein anderes Material für die andere Hälfte der Wand angegeben.
 
 ## Eigenschaften {#section-b202139d6d0847cc8d520a154104ab9d}
 

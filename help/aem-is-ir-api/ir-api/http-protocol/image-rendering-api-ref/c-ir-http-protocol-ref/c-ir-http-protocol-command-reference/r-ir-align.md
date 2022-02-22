@@ -5,14 +5,14 @@ title: align
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '178'
 ht-degree: 4%
 
 ---
 
-# align{#align}
+# align {#align}
 
 Renderausrichtung der Textur. Gibt an, welche der vom ausgewählten Vignettenobjekt definierten Ausgangspunkte verwendet werden sollen.
 
@@ -37,11 +37,11 @@ Renderausrichtung der Textur. Gibt an, welche der vom ausgewählten Vignettenobj
  </tr> 
 </table>
 
-Der Renderer wendet die Textur auf das Objekt an, sodass der Texturankerpunkt ( `anchor=`) mit dem angegebenen Ausgangspunkt übereinstimmt.
+Der Renderer wendet die Textur auf das Objekt an, sodass der Texturankerpunkt ( `anchor=`) entspricht dem angegebenen Ausgangspunkt.
 
-Jedes Objekt kann bis zu 6 Ausgangspunkte definieren (0,1, 3, 4, 5, 6). Wenn ein `align` -Wert angegeben wird, der entsprechende Ausgangspunkt jedoch nicht durch das Vignettenobjekt definiert ist, wird der standardmäßige (zentrierte) Ausgangspunkt verwendet.
+Jedes Objekt kann bis zu sechs Ausgangspunkte definieren (0, 1, 3, 4, 5, 6). Wenn eine `align` -Wert angegeben ist, der entsprechende Ausgangspunkt jedoch nicht durch das Vignettenobjekt definiert ist, wird der standardmäßige Ausgangspunkt (Zentrieren-Übereinstimmung) verwendet.
 
-`align=2` gibt eine zufällige Texturausrichtung an. In diesem Fall  `anchor=` wird effektiv ignoriert.
+`align=2` Gibt eine zufällige Texturausrichtung an. In diesem Fall `anchor=` wird effektiv ignoriert.
 
 Hauptsächlich für Polstermaterialien, möglicherweise für Bekleidungsstoffe, verwendet, um die Ausrichtung der Textur zwischen benachbarten Objekten zu verwalten.
 
@@ -55,4 +55,4 @@ Materialattribut. Wird ignoriert, wenn ein Rahmen-Objekt für Wand-, Schrank-, G
 
 ## Verwandte Themen {#section-945d1ce275df487d9d564d4043156c79}
 
-[catalog::Alignment](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) ,  [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[catalog::Alignment](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) , [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

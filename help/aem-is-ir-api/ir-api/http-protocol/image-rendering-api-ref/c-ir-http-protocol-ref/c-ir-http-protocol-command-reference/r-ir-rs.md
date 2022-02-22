@@ -1,13 +1,13 @@
 ---
+title: rs
 description: Erweiterte Rendereinstellungen. Gibt erweiterte Rendereinstellungen an, die beim Rendern der aktuellen Auswahl angewendet werden sollen.
 solution: Experience Manager
-title: rs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Erweiterte Rendereinstellungen. Gibt erweiterte Rendereinstellungen an, die beim
  </tr> 
 </table>
 
-Wird zur Feinabstimmung des Renderscheins verwendet. Verwenden Sie die Renderfunktion des Vignette Authoring-Tools (Teil des Dynamic Media Image Authoring-Pakets), um Rendereinstellungszeichenfolgen zu erstellen.
+Wird zur Feinabstimmung der Darstellung des Renderings verwendet. Verwenden Sie zum Erstellen von Rendereinstellungszeichenfolgen die Renderfunktion des Vignette Authoring-Tools (Teil des Dynamic Media Image Authoring-Pakets).
 
 ## Eigenschaften {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Materialattribut.
 
 ## Beispiel {#section-47e4811882574441a4d517e42a35f352}
 
-Nach einigen Experimenten mit der Bildbearbeitung wird festgestellt, dass die Unschärfemaske (USM) die korrekte Scharfzeichnung für die jeweilige Anwendung und das Material bereitstellt. Die Zeichenfolge der Render-Einstellungen, die USM konfiguriert, wird in den Befehl `rs=` kopiert, um sie mit diesem Material zu verwenden:
+Nach einigen Experimenten mit der Bildbearbeitung wird festgestellt, dass die Unschärfemaske (USM) die korrekte Scharfzeichnung für die jeweilige Anwendung und das Material bereitstellt. Die Zeichenfolge für die Render-Einstellungen, die USM konfiguriert, wird in den `rs=` Befehl zur Verwendung mit diesem Material:
 
 `…&rs=U2V20W50X2&…`
 
