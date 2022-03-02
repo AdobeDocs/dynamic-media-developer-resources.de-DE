@@ -1,11 +1,11 @@
 ---
+title: Popup für Infobereich
 description: Popup für Info-Bedienfeld wird in der Mitte des Viewer-Bereichs angezeigt, wenn ein Benutzer eine Imagemap aktiviert, für die in Dynamic Media Classic eine Eigenschaft rollover_key definiert ist, und wenn die Funktion für das Informationsfeld für den Viewer ordnungsgemäß konfiguriert ist.
 solution: Experience Manager
-title: Popup für Infobereich
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 3%
