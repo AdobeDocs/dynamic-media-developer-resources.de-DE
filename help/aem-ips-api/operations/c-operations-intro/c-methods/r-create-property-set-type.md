@@ -5,10 +5,10 @@ title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 11%
+source-wordcount: '156'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn `companyHandle` nicht übergeben wird und der Aufrufer ein `IpsAdmin` ist, wird ein globaler Eigenschaftssatztyp erstellt. |
+| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn `companyHandle` nicht übergeben wird und der Aufrufer ein `IpsAdmin`, wird ein globaler Eigenschaftssatz-Typ erstellt. |
 | `*`name`*` | `xsd:string` | Ja | Der Name des Eigenschaftssatztyps. |
 | `*`propertyType`*` | `xsd:string` | Ja | Auswahl der Eigenschaftssatztypen. |
 | `*`allowMultiple`*` | `xsd:boolean` | Ja | Bestimmt, ob Ihr Programm mehrere Eigenschaftssätze haben kann. |
@@ -44,7 +44,7 @@ Syntax
 
 ## Beispiele {#section-13396c9639a6475190e622eae3cdb534}
 
-Dieses Codebeispiel erstellt einen Eigenschaftssatz mit einem Namen und Typ, der von der `PropertySet Types` -Konstante angegeben wird. Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn companyHandle nicht übergeben wird und der Aufrufer ein IpsAdmin ist, wird ein globaler Eigenschaftssatztyp erstellt.
+Dieses Codebeispiel erstellt einen Eigenschaftssatz mit einem Namen und Typ, der durch die Variable `PropertySet Types` Konstante. Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn companyHandle nicht übergeben wird und der Aufrufer ein IpsAdmin ist, wird ein globaler Eigenschaftssatztyp erstellt.
 
 **Anforderung**
 

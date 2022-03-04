@@ -1,13 +1,13 @@
 ---
+title: Anzeigen von Attributen
 description: Diese Befehle sind positionsunabhängig und können an einer beliebigen Stelle in einer Anfrage auftreten.
 solution: Experience Manager
-title: Anzeigen von Attributen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---

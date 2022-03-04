@@ -1,13 +1,13 @@
 ---
+title: Erweiterte Rendereinstellungen
 description: Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Aspekten der Vignettenrendering-Engine.
 solution: Experience Manager
-title: Erweiterte Rendereinstellungen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) biet
 >
 >Rendereinstellungen sind eine erweiterte Funktion von Image Rendering und Image Authoring. Wenden Sie sich an den technischen Support von Adobe oder Ihren Adobe Consultant, um Schulungen, Beratung oder beides zu erhalten, wenn Sie Render Settings verwenden möchten.
 
-Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist möglich, dieselben Einstellungen im Bild-Rendering mithilfe des Befehls `rs=` (oder mit dem Wert `catalog::RenderSettings` ) anzuwenden. Dieser Mechanismus wird verwendet, um für jedes Material verschiedene Scharfzeichnungsoptionen auszuwählen und das Verhalten der Beleuchtungsrendering-Algorithmen zu ändern, z. B. die Sättigung von Highlights oder den Kontrast in Schatten zu variieren.
+Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist möglich, dieselben Einstellungen im Bild-Rendering mit dem `rs=` -Befehl (oder mit dem `catalog::RenderSettings` -Wert). Dieser Mechanismus wird verwendet, um für jedes Material verschiedene Scharfzeichnungsoptionen auszuwählen und das Verhalten der Beleuchtungsrendering-Algorithmen zu ändern, z. B. die Sättigung von Highlights oder den Kontrast in Schatten zu variieren.
 
 ## Werte für erweiterte Rendereinstellungen (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 

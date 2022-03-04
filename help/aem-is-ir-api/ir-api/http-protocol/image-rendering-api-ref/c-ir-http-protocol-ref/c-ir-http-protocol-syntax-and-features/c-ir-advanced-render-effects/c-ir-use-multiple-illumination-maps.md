@@ -1,13 +1,13 @@
 ---
+title: Verwendung mehrerer Beleuchtungskarten
 description: Einige Anwendungen erfordern möglicherweise eine andere Beleuchtungskarte für verschiedene Materialien.
 solution: Experience Manager
-title: Verwendung mehrerer Beleuchtungskarten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a6e0be23-8b8a-4b60-aac1-c692319a0bce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Einige Anwendungen erfordern möglicherweise eine andere Beleuchtungskarte für verschiedene Materialien.
 
-Für jede Vignette können bis zu drei Beleuchtungskarten erstellt werden. Die Beleuchtungskarte für einen Rendervorgang wird mit den Befehlen `illum=` und `gloss=` ausgewählt.
+Für jede Vignette können bis zu drei Beleuchtungskarten erstellt werden. Die Beleuchtungskarte für einen Rendervorgang wird mit der `illum=` und `gloss=` Befehle.
 
-**Standardauswahl** Wenn weder  `illum=` noch  `gloss=` angegeben, verwendet der Renderer die erste erstellte Beleuchtungskarte (normalerweise Karte A, auch als Beleuchtungskarte &#39;Flach&#39; bezeichnet).
+**Standardauswahl** - Wenn `illum=` oder `gloss=` nicht angegeben sind, verwendet der Renderer die erste erstellte Beleuchtungskarte (normalerweise Karte A, auch &#39;flache&#39; Beleuchtungskarte genannt).
 
-**Automatische Auswahl mit`gloss=`** Wenn  `illum=` nicht angegeben oder auf -1 gesetzt ist, vergleicht der Renderer den angegebenen  `gloss=` Wert mit den Glanzwerten, die jeder Beleuchtungskarte in der Vignette zugeordnet sind, und wählt die Beleuchtungskarte aus, deren Glanzwert dem angegebenen  `gloss=`am nächsten ist.
+**Automatische Auswahl mit`gloss=`** - Wenn `illum=` ist nicht angegeben oder auf `-1`, vergleicht der Renderer die angegebene `gloss=` Wert mit den Glanzwerten, die mit jeder Beleuchtungskarte in der Vignette verknüpft sind. Sie wählt die Beleuchtungskarte aus, deren Glanzwert dem angegebenen Wert am nächsten kommt. `gloss=`.
 
-**Explizite Auswahl mit`illum=`** Wenn  `illum=` angegeben und auf 0, 1 oder 2 festgelegt ist, verwendet der Renderer die entsprechende Beleuchtungskarte.  `gloss=` wird bei der Auswahl der Beleuchtungskarte ignoriert.
+**Explizite Auswahl mit`illum=`** - Wenn `illum=` festgelegt und auf `0`, `1`oder `2`, verwendet der Renderer die entsprechende Beleuchtungskarte. `gloss=` wird für die Auswahl der Beleuchtungskarte ignoriert.
 
-Wenn die Vignette nur eine Beleuchtungskarte enthält, verwendet der Renderer diese Zuordnung und ignoriert die Befehle `illum=` und `gloss=`.
+Wenn die Vignette nur eine Beleuchtungskarte enthält, verwendet der Renderer diese Zuordnung und ignoriert die `illum=` und `gloss=` Befehle.

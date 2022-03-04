@@ -5,9 +5,9 @@ title: Farbmanagement für das Rendern von Bildern *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,25 @@ Image Rendering unterstützt Farbraumkonvertierungen basierend auf Farbraumprofi
 
 Derzeit werden nur CMYK-, RGB- und Graustufen-Farbräume unterstützt.
 
-Kabinettstil-Dateien (.vnc) und Fensterverkleidungsstil-Dateien ( [!DNL .vnw]) werden nicht farbverwaltet und werden im Arbeitsfarbraum als vorhanden angenommen.
+Kabinettsstil-Dateien (.vnc) und Fensterverkleidungsstil-Dateien ( [!DNL .vnw]) werden nicht farbverwaltet und werden im Arbeitsfarbraum als vorhanden angenommen.
 
 **Verwandte Themen**
 
-[International Color Consortium](https://www.color.org/index.xalter) ,  [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) ,  [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) ,  `attribute::IccProfile*` ,  `attribute::IccProfileSrc*`,  `attribute::IccRenderIntent` ,  `attribute::IccBlackPointCompensation` ,  `attribute::IccDither` , ICC-Profilkarten
+[Internationales Farbkonsortium](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC-Profilzuordnungen
 
 ## Standardfarbräume {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
-Jeder Bildkatalog (und der Standardkatalog) kann einen Satz von ICC-Profilen definieren. Diese Profile stellen die standardmäßigen Farbräume für diesen Katalog dar - jeweils ein Eingabe- und ein Ausgabeprofil für Graustufen-, RGB- und CMYK-Daten ( `attribute::IccProfileRgb`, `attribute::IccProfileGray`, `attribute::IccProfileCmyk`, `attribute::IccProfileSrcRgb`, `attribute::IccProfileSrcGray` und `attribute::IccProfileSrcCmyk`).
+Jeder Bildkatalog (und der Standardkatalog) kann einen Satz von ICC-Profilen definieren. Diese Profile stellen die standardmäßigen Farbräume für diesen Katalog dar - jeweils ein Eingabe- und ein Ausgabeprofil für Graustufen-, RGB- und CMYK-Daten ( `attribute::IccProfileRgb`, `attribute::IccProfileGray`, `attribute::IccProfileCmyk`, `attribute::IccProfileSrcRgb`, `attribute::IccProfileSrcGray`und `attribute::IccProfileSrcCmyk`).
 
 Der Standardfarbraum für ein bestimmtes Bild oder ein anderes Objekt wird basierend auf dem Pixeltyp des Bildes aus den Standardprofilen des Katalogs ausgewählt.
 
 ## Eingabefarbraum {#section-660f661a7e954df4b451e34134195276}
 
-Materialbilder können ICC-Profile einbetten, um den Eingabefarbraum zu definieren. Wenn kein Profil in ein Quellbild eingebettet ist, wird `attribute::IccProfileSrc*` des entsprechenden Bildkatalogs verwendet, der dem Pixeltyp des Quellbilds entspricht. Wenn dieses Attribut nicht im Bildkatalog definiert ist, wird `attribute::IccProfile*` verwendet. Wenn dieses Katalogattribut ebenfalls nicht definiert ist, wird das Bild nicht farbverwaltet und es werden nur naive Transformationen angewendet.
+Materialbilder können ICC-Profile einbetten, um den Eingabefarbraum zu definieren. Wenn kein Profil in ein Quellbild eingebettet ist, `attribute::IccProfileSrc*` des entsprechenden Bildkatalogs verwendet wird, der dem Pixeltyp des Quellbilds entspricht. Wenn dieses Attribut nicht im Bildkatalog definiert ist, `attribute::IccProfile*` verwendet. Wenn dieses Katalogattribut ebenfalls nicht definiert ist, wird das Bild nicht farbverwaltet und es werden nur naive Transformationen angewendet.
 
 ## Arbeitsfarbraum {#section-645d9cfa5b0347a190a0ece218f5b5e1}
 
-In der Regel wird der Arbeitsfarbraum durch das in die Vignette eingebettete ICC-Farbprofil definiert. Wenn die Vignette kein Profil enthält, wird für den Arbeitsfarbraum das standardmäßige RGB-Eingabeprofil ( `attribute::IccProfileSrcRgb` des Sitzungskatalogs) verwendet.
+In der Regel wird der Arbeitsfarbraum durch das in die Vignette eingebettete ICC-Farbprofil definiert. Wenn die Vignette kein Profil enthält, wird das standardmäßige RGB-Eingabeprofil ( `attribute::IccProfileSrcRgb` des Sitzungskatalogs) für den Arbeitsfarbraum verwendet.
 
 Alle Render-Vorgänge werden im Arbeitsfarbraum ausgeführt.
 
@@ -46,32 +46,32 @@ Alle Render-Vorgänge werden im Arbeitsfarbraum ausgeführt.
 
 ## Explizite Farbwerte {#section-31727bf1b23e477ca92572fbbf422d2f}
 
-Es wird angenommen, dass die mit `color=`, `bgc=`, `catalog::BgColor` und `catalog::Color` angegebenen RGB-Farbwerte im aktuellen Arbeitsfarbraum vorhanden sind.
+RGB-Farbwerte, angegeben mit `color=`, `bgc=`, `catalog::BgColor`und `catalog::Color` im aktuellen Arbeitsfarbraum vorhanden sein.
 
 ## Materialdatendateien {#section-33f7a170a6664c02b8479fb89cc0aea3}
 
-Materialbilddateien (Textur- und Decalbilder) können den Pixeltyp RGB, Graustufen oder CMYK aufweisen und ein Farbprofil einbetten. Wenn kein Farbprofil eingebettet ist, wird dem Bild der standardmäßige Eingabefarbraum zugeordnet (z. B. das Farbprofil aus dem Materialkatalog, das dem Pixeltyp des Bildes entspricht).
+Materialbilddateien (Textur- und Dekorbilder) können den Pixeltyp RGB, Graustufen oder CMYK aufweisen und ein Farbprofil einbetten. Wenn kein Farbprofil eingebettet ist, wird dem Bild der standardmäßige Eingabefarbraum zugeordnet (z. B. das Farbprofil aus dem Materialkatalog, das dem Pixeltyp des Bildes entspricht).
 
 Materialbilder, die von verschachtelten Image Serving- oder Image Rendering-Anforderungen erhalten wurden, enthalten normalerweise ein Farbprofil. Ist dies nicht der Fall, werden die Bilder dem Standardfarbraum für die Eingabefarben zugeordnet, der dem Pixeltyp entspricht.
 
 Wenn der Farbraum der Bilddatei sich vom Arbeitsfarbraum unterscheidet, wird eine genaue Farbkonvertierung verwendet, um in den Arbeitsfarbraum zu konvertieren. Eine naïve Typkonvertierung wird verwendet, wenn kein Profil eingebettet und kein standardmäßiges Eingabeprofil definiert ist.
 
-Andere Materialdatendateien, wie z. B. Kabinettstil-Dateien ( [!DNL .vnc]) oder Fensterabdeckungsdateien ( [!DNL .vnw]), betten keine Farbprofile ein und werden immer als Arbeitsfarbraum angenommen.
+Andere Materialdatendateien, z. B. Kabinettsvorlagen ( [!DNL .vnc]) oder Fensterbedeckungsdateien ( [!DNL .vnw]) betten keine Farbprofile ein und werden immer als Arbeitsfarbraum angenommen.
 
 ## Ausgabefarbraum {#section-4c2c4dfedbb8429ba5cfddc3d3eab6c4}
 
-Alle Render-Vorgänge finden im Arbeitsfarbraum statt. Wenn die Anforderung ein anderes Farbprofil mit dem Befehl `icc=` angibt, werden die Daten in diesen Farbraum konvertiert, kurz bevor sie kodiert und an den Client zurückgegeben werden. Wenn das Farbmanagement deaktiviert ist, wird bei Bedarf eine naive Konversion verwendet, um in Graustufen- oder CMYK-Konvertierungen zu konvertieren.
+Alle Render-Vorgänge finden im Arbeitsfarbraum statt. Wenn die Anforderung ein anderes Farbprofil mit der `icc=` -Befehl, werden die Daten in diesen Farbraum konvertiert, kurz bevor sie kodiert und an den Client zurückgegeben werden. Wenn das Farbmanagement deaktiviert ist, wird bei Bedarf eine naive Konversion verwendet, um in Graustufen- oder CMYK-Konvertierungen zu konvertieren.
 
 ## Eingebettete Farbprofile {#section-5ff733832d38429fbe02b3c1e9bb94a9}
 
-Das mit dem gerenderten Bild verknüpfte Farbprofil kann in das Antwortbild eingebettet werden, indem `iccEmbed=` für die Anforderung angegeben wird.
+Das dem wiedergegebenen Bild zugeordnete Farbprofil kann durch Angabe von `iccEmbed=` für die Anfrage.
 
-Wenn `icc=` nicht angegeben ist, wird das ICC-Profil für den Arbeitsfarbraum eingebettet. Bei deaktiviertem Farbmanagement wird kein Profil eingebettet und bei `icc=` wurde kein Profil angegeben.
+Wenn `icc=` nicht angegeben ist, wird das ICC-Profil für den Arbeitsfarbraum eingebettet. Es wird kein Profil eingebettet, wenn das Farbmanagement deaktiviert ist und kein Profil mit `icc=`.
 
 ## ICC-Profile {#section-afeb76068b5042adb83261638e450140}
 
-Alle vom Server verwendeten Farbprofile müssen der ICC-Spezifikation entsprechen. ICC-Profildateien haben in der Regel das Dateisuffix [!DNL .icc] oder [!DNL .icm] und befinden sich gemeinsam mit Materialdatendateien.
+Alle vom Server verwendeten Farbprofile müssen der ICC-Spezifikation entsprechen. ICC-Profildateien weisen normalerweise eine [!DNL .icc] oder [!DNL .icm] -Dateisuffix und befinden sich gemeinsam mit Materialdatendateien.
 
-Während Ausgabeprofile im Befehl `icc=` durch Dateipfad/Namen angegeben werden können, wird empfohlen, alle Profildateien in der ICC-Profilzuordnung des Standardkatalogs oder eines bestimmten Materialkatalogs zu registrieren und anstelle von Dateipfaden Verknüpfungs-IDs ( `icc::Name`) zu verwenden.
+Während Ausgabeprofile im `icc=` -Befehl verwenden, wird empfohlen, alle Profildateien in der ICC-Profilzuordnung des Standardkatalogs oder in einem bestimmten Materialkatalog zu registrieren und die Kurzbefehle ( `icc::Name`) anstelle von Dateipfaden.
 
 Arbeitsprofile müssen in der ICC-Profilzuordnung des Materialkatalogs oder des Standardkatalogs registriert sein.

@@ -5,9 +5,9 @@ title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '262'
 ht-degree: 6%
 
 ---
@@ -21,19 +21,19 @@ Resamplingmodus. Auswahl des Resampling- und/oder Interpolationsalgorithmus zur 
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
    <td colname="col2"> <p>Wählt die standardmäßige bilineare Interpolation aus. schnellste Resamplingmethode; einige Aliasing-Artefakte sind sichtbar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
    <td colname="col2"> <p>Wählt bikubische Interpolation aus. CPU-intensiver als bi-lineare Interpolation, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen. <span class="codeph"> Die  </span> Funktion "scharf"wurde durch " <span class="codeph"> scharf2"ersetzt,  </span>was die Wahrscheinlichkeit verringert, Aliasing-Artefakte (Moiré) zu verursachen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
+   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen. <span class="codeph"> scharf </span> ersetzt durch <span class="codeph"> sharp2 </span>, was eine geringere Wahrscheinlichkeit hat, Aliasing-Artefakte (Moiré) zu verursachen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Bischarp  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Bischarp </span> </p> </td> 
    <td colname="col2"> <p>Wählt Photoshop Standard-Resampler zum Reduzieren der Bildgröße aus, die in Adobe Photoshop als "bikubisch schärfer"bezeichnet wird. </p> </td> 
   </tr> 
  </tbody> 
@@ -41,7 +41,7 @@ Resamplingmodus. Auswahl des Resampling- und/oder Interpolationsalgorithmus zur 
 
 >[!IMPORTANT]
 >
->Um das Seitenverhältnis eines Bildes beizubehalten, wenn Sie sowohl `resMode=bisharp` als auch `fit=stretch` verwenden, empfiehlt es sich, entweder den Parameter &quot;width&quot;oder den Parameter &quot;height&quot;zu verwenden. Wenn beide Parameter definiert werden müssen, können Sie sie wie im folgenden Beispiel in eine andere Ebene einschließen:
+>So halten Sie das Seitenverhältnis eines Bildes bei Verwendung von `resMode=bisharp` und `fit=stretch`, empfiehlt es sich, entweder den Breitenparameter oder den Höhenparameter zu verwenden. Wenn beide Parameter definiert werden müssen, können Sie sie wie im folgenden Beispiel in eine andere Ebene einschließen:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
@@ -55,7 +55,7 @@ Anforderungsattribut. Gilt für alle Skalierungsvorgänge, die an der Erstellung
 
 ## Beispiel {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Rufen Sie eine hochwertige Ausgabe eines in einem Bildkatalog gespeicherten Bildes mit Ebenen ab. Das Bild kann Text enthalten. Das Bild wird in einer Bildbearbeitungsanwendung weiter verarbeitet und benötigt daher einen Alphakanal mit dem Bild.
+Rufen Sie eine hochwertige Ausgabe eines in einem Bildkatalog gespeicherten Bildes mit Ebenen ab. Das Bild kann Text enthalten. Das Bild wird in einer Bildbearbeitungsanwendung weiter verarbeitet und fordert daher einen Alphakanal mit dem Bild an.
 
 ` http:// *`Server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 

@@ -1,13 +1,13 @@
 ---
+title: Wiederholbare Texturen
 description: Zu den wiederholbaren Texturen gehören Innen- und Außenmaterialien wie Stoffe (sowohl Kleidung als auch Polsterwaren), Wandverkleidungen, Tapeten, Gegenmaterial, Korntexturen aus Holz, Dächer- und Seitenmaterial sowie alle anderen allgemeinen Texturen.
 solution: Experience Manager
-title: Wiederholbare Texturen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '240'
 ht-degree: 3%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Zu den wiederholbaren Texturen gehören Innen- und Außenmaterialien wie Stoffe (sowohl Kleidung als auch Polsterwaren), Wandverkleidungen, Tapeten, Gegenmaterial, Korntexturen aus Holz, Dächer- und Seitenmaterial sowie alle anderen allgemeinen Texturen.
 
-Wiederholbare Texturen können auf flache, fließende, skizzierende, ebene, wand- und schachtelförmige Objekte angewendet werden. Bei Anwendung auf ein nicht texturierbares Objekt wird das Objekt mit `color=` (oder `bgc=`, wenn `color=` nicht angegeben ist) gestrichen.
+Wiederholbare Texturen können auf flache, fließende, skizzierende, ebene, wand- und schachtelförmige Objekte angewendet werden. Bei Anwendung auf ein nicht texturierbares Objekt wird das Objekt mit `color=` (oder `bgc=` if `color=` nicht angegeben ist).
 
-Ein Material gilt als Textur, wenn es ein `src=`-Attribut enthält, das ein Bild spezifiziert, und wenn es in einem anderen MSS als Dekorrahmen oder Wandrahmen auftritt.
+Ein Material gilt als Textur, wenn es eine `src=` -Attribut, das ein Bild angibt, und wenn es in einem anderen MSS als einem Decal- oder Wandrahmen auftritt.
 
-Beim Rendern wird die Textur an das Objekt ausgerichtet, indem der Punkt `anchor=` des Texturmaterials mit dem Texturursprungpunkt des Objekts (wie in der Vignette verfasst) abgeglichen wird.
+Beim Rendern wird die Textur an das Objekt ausgerichtet, indem die `anchor=` Punkt des Texturmaterials mit dem Texturursprungpunkt des Objekts (wie in der Vignette verfasst).
 
 <table id="table_992A6E93E4274B598A236F8F728F017A"> 
  <thead> 
@@ -32,27 +32,27 @@ Beim Rendern wird die Textur an das Objekt ausgerichtet, indem der Punkt `anchor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
    <td colname="col2"> <p>Wiederholbares Texturbild; erforderlich </p> </td> 
    <td colname="col3"> <p>Keine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Texturauflösung </p> </td> 
-   <td colname="col3"> <span class="codeph"> attribute::Resolution  </span> </td> 
+   <td colname="col3"> <span class="codeph"> attribute::Resolution </span> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
    <td colname="col2"> <p>Texturausrichtungspunkt </p> </td> 
    <td colname="col3"> <p>Oben links. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
    <td colname="col2"> <p>Wiederholungsmodus </p> </td> 
    <td colname="col3"> <p>0 (gerade Wiederholung). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf= </span> </a> </p> </td> 
    <td colname="col2"> <p>Scharfzeichnen </p> </td> 
    <td colname="col3"> <p>0 (keine Scharfzeichnung). </p> </td> 
   </tr> 
@@ -71,12 +71,12 @@ Zusätzlich zu diesen grundlegenden Attributen unterstützen wiederholbare Textu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> grout=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> grout= </span> </a> </p> </td> 
    <td colname="col2"> <p>Farbe und Dicke des Bodens; nützlich für keramische/steinförmige Materialien </p> </td> 
    <td colname="col3"> <p>Groß bereits im Bild vorhanden </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> align=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> align= </span> </a> </p> </td> 
    <td colname="col2"> <p>Ausrichtungsmodus (zwischen Objekten); für Polsteranwendungen </p> </td> 
    <td colname="col3"> <p>zentrierte </p> </td> 
   </tr> 

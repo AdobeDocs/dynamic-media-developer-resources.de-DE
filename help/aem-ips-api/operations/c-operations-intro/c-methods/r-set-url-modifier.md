@@ -5,9 +5,9 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Legt die Protokollbefehle für Image Serving oder Image Rendering für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
 
-Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Katalog veröffentlicht und vor allen Befehlen angewendet, die in der Anfrage-URL angegeben sind. Befehle in `urlPostApplyModifier` werden im Katalogfeld `PostModifier` veröffentlicht und überschreiben alle Befehle in der Anforderungs-URL oder in `urlModifier`. Beim Rendern von Bildern werden die Befehle in `urlModifier` und `urlPostApplyModifier` verkettet und im Feld Modifikatorkatalog veröffentlicht.
+Für die Bildbereitstellung, Befehle im `urlModifier` -Parameter werden im Feld Modifikatorkatalog veröffentlicht und vor allen Befehlen angewendet, die in der Anfrage-URL angegeben sind. Befehle in `urlPostApplyModifier` werden in der `PostModifier` Katalogfeld und überschreibt alle Befehle auf der Anforderungs-URL oder in `urlModifier`. Für das Rendern von Bildern werden die Befehle in `urlModifier` und `urlPostApplyModifier` werden verkettet und im Feld Modifikatorkatalog veröffentlicht.
 
 ## Autorisierte Benutzertypen {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -35,8 +35,8 @@ Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Ka
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| `*`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung angewendet werden, oder `urlPostApplyModifier`-Befehle. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die nach `urlModifier` angewendet werden und Befehle anfordern. |
+| `*`urlModifier`*` | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung angewendet werden sollen, oder `urlPostApplyModifier` Befehle. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nein | Protokollbefehle für Image Serving oder Image Rendering, die nach angewendet werden sollen `urlModifier` und fordern Sie Befehle an. |
 
 **Ausgabe (setUrlModifierReturn)**
 

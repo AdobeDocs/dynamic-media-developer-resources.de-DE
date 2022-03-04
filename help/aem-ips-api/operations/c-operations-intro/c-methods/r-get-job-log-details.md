@@ -5,9 +5,9 @@ title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Ruft die Details eines Unternehmens-Auftragsprotokolls ab.
 
-Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` lokalisiert.
+Die `logMessage` Das Antwortfeld wird basierend auf dem `authHeader` `locale` -Feld.
 
 ## Autorisierte Benutzertypen {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -71,13 +71,13 @@ Das Antwortfeld `logMessage` wird basierend auf dem Feld `authHeader` `locale` l
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Maximale Anzahl der zurückzugebenden <span class="codeph"> detailArray</span> Elemente. Der Höchstwert und der Standardwert sind 1000. </td> 
+   <td colname="col4">Maximale Anzahl an <span class="codeph"> detailArray</span> zurückzugebenden Elementen. Der Höchstwert und der Standardwert sind 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Seitenzahl der zurückzugebenden <span class="codeph"> recordsPerPage</span>-results. Der Standardwert ist 1. </td> 
+   <td colname="col4">Seitenzahl <span class="codeph"> recordsPerPage</span>-Ergebnisse zurückgeben. Der Standardwert ist 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

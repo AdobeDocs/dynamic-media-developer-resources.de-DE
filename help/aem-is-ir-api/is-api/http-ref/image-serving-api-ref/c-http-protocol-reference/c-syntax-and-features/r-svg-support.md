@@ -5,9 +5,9 @@ title: SVG-Unterstützung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -18,37 +18,37 @@ Image Serving unterstützt skalierbare Vector Graphics (SVG)-Dateien als Quellda
 
 Image Serving erkennt nur statische SVG-Inhalte. Animationen, Skripten und andere interaktive Inhalte werden nicht unterstützt.
 
-SVG kann überall dort angegeben werden, wo Bilddateien erlaubt sind (URL-Pfad, `src=` und `mask=`). Nachdem der Inhalt der SVG-Datei gerastert wurde, wird er wie ein Bild behandelt.
+SVG kann überall dort angegeben werden, wo Bilddateien zulässig sind (URL-Pfad, `src=`und `mask=`). Nachdem der Inhalt der SVG-Datei gerastert wurde, wird er wie ein Bild behandelt.
 
 Ähnlich wie bei Bildern können SVG-Dateien als Bildkatalogeinträge oder als relative Dateipfade angegeben werden.
 
 ## Ersatzvariablen {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` Ersatzvariablen können in der SVG-Datei in den  `<text>` Elementen der Wertzeichenfolgen und in jedem beliebigen Elementattribut enthalten sein.
+` $ *[!DNL var]*$` Ersatzvariablen können in der SVG-Datei in den Wertzeichenfolgen enthalten sein. `<text>` Elemente und jedes Elementattribut.
 
 Wichtige Variablen im Abfrageteil eingebetteter Image-Serving-Anforderungen werden nicht direkt ersetzt. Stattdessen werden alle verfügbaren Variablendefinitionen an die Anfrage angehängt, wodurch das Image Serving Variablen beim Analysieren der Anforderung ersetzen kann.
 
-Weitere Informationen finden Sie unter [Ersatzvariablen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) .
+Siehe [Ersatzvariablen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) für weitere Informationen.
 
 ## Bildverweise {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-Bilder können mit dem Element `<image>` in SVG eingefügt werden. Bilder, auf die vom `xlink::href`-Attribut des Elements `<image>` verwiesen wird, müssen gültige Bildbereitstellungsanforderungen sein. Ausländische URLs sind nicht zulässig.
+Bilder können mit der `<image>` -Element. Bilder, auf die von der `xlink::href` -Attribut `<image>` -Element müssen gültige Bildbereitstellungsanfragen sein. Ausländische URLs sind nicht zulässig.
 
-Geben Sie entweder eine vollständige Image-Serving-Anfrage (beginnend mit `http://`) oder eine relative URL an, beginnend mit `/is/image`. Wenn ein vollständiger HTTP-Pfad angegeben ist, wird der Domänenname aus dem Pfad entfernt, um in das relative Format zu konvertieren. Die Verwendung eines vollständigen HTTP-Pfads kann von Vorteil sein, da es die Vorschau der Datei mit einem SVG-Renderer eines Drittanbieters ermöglicht.
-
->[!NOTE]
->
->Die Unterstützung für das Rendern von Bildern in dieser Version von Image Serving ist eingeschränkt. Verweise auf Bilder aus SVG sollten nur in Situationen verwendet werden, in denen die herkömmlichen Bildbereitstellungs-Ebenen und Vorlagenmechanismen nicht ausreichen, um das gewünschte Ergebnis zu erzielen. Unter keinen Umständen sollte SVG zum Generieren von Mehrfachbildkomponenten verwendet werden.
+Geben Sie entweder eine vollständige Image Serving-Anforderung an, beginnend mit `http://`oder eine relative URL, beginnend mit `/is/image`. Wenn ein vollständiger HTTP-Pfad angegeben ist, wird der Domänenname aus dem Pfad entfernt, um in das relative Format zu konvertieren. Die Verwendung eines vollständigen HTTP-Pfads kann von Vorteil sein, da es die Vorschau der Datei mit einem SVG-Renderer eines Drittanbieters ermöglicht.
 
 >[!NOTE]
 >
->Die Größe von in SVG eingebetteten Bildern wird derzeit nicht automatisch geändert. Stellen Sie sicher, dass alle href die erforderlichen Image Serving-Befehle enthalten, um die gewünschte Bildgröße (z. B. `wid=`). Wenn die Bildgröße nicht explizit festgelegt ist, wird `attribute::DefaultPix` angewendet.
+>Die Unterstützung für das Rendern von Bildern in dieser Version von Image Serving ist eingeschränkt. Verweise auf Bilder aus SVG sollten nur in Fällen verwendet werden, in denen die herkömmlichen Bildbereitstellungs-Ebenen und Vorlagenmechanismen nicht ausreichen, um das gewünschte Ergebnis zu erzielen. Unter keinen Umständen sollte SVG zum Generieren von Mehrbild-Composites verwendet werden.
+
+>[!NOTE]
+>
+>Die Größe von in SVG eingebetteten Bildern wird derzeit nicht automatisch geändert. Stellen Sie sicher, dass alle href die erforderlichen Image Serving-Befehle enthalten, um die gewünschte Bildgröße (z. B. `wid=`). Wenn die Bildgröße nicht explizit festgelegt ist, `attribute::DefaultPix` angewendet wird.
 
 ## Farbmanagement {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Es wird angenommen, dass alle Farbwerte, die in SVG-Dateien eingebettet und über Ersatzvariablen an SVG-Vorlagen übergeben werden, im Farbraum `sRgb` vorhanden sind.
+Es wird angenommen, dass alle Farbwerte, die in SVG-Dateien eingebettet und über Ersatzvariablen an SVG-Vorlagen übergeben werden, in `sRgb` Farbraum.
 
-Wenn Bilder in die SVG eingebettet werden, wird keine Farbkonvertierung durchgeführt. Um die Farbtreue sicherzustellen, geben Sie für alle eingebetteten Bildanforderungen `icc=sRgb` an.
+Wenn Bilder in die SVG eingebettet werden, erfolgt keine Farbkonvertierung. Um die Farbtreue sicherzustellen, geben Sie `icc=sRgb` für alle eingebetteten Bildanforderungen.
 
 Nach der Rasterung nimmt das SVG-Bild wie jedes andere Bild am Farbmanagement teil.
 
@@ -74,4 +74,4 @@ ICC-profilbasierte Farbspezifikationen werden derzeit nicht unterstützt.
 
 ## Verwandte Themen {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [SVG 1.1 Specification](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 Spezifikation](https://www.w3.org/TR/SVG11/)

@@ -5,9 +5,9 @@ title: Bildkataloge
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ Bildkataloge bieten die folgenden Funktionen:
 
 * Ermöglicht die dauerhafte Verknüpfung von Bildern mit bestimmten Metadaten- und Modifikatorbefehlen.
 
-   Einträge in Bildkatalogen werden mit der Kurzschreibweise `*`rootId/objId`*` referenziert, wobei `*`rootId`*` den Bildkatalog identifiziert und `*`objId`*` einen Datensatz im Katalog angibt.
-* Stellen Sie Standardwerte für bestimmte Anforderungsattribute bereit, z. B. die JPEG-Qualität oder ob ein Wasserzeichen angewendet werden soll.
+   Einträge in Bildkatalogen werden mit einer Tastenkombination referenziert `*`rootId/objId`*`, wobei `*`rootId`*` identifiziert den Bildkatalog und `*`objId`*` identifiziert einen Datensatz im Katalog.
+* Stellen Sie Standardwerte für bestimmte Anforderungsattribute bereit, z. B. die JPEG-Qualität oder die Frage, ob ein Wasserzeichen angewendet werden soll.
 * Schriftarten, ICC-Profile, Makrodefinitionen und Anforderungsvorlagen verwalten
 
-Selbst wenn keine bestimmten Bildkataloge definiert sind, sind alle Funktionen von Bildkatalogen über den Standardkatalog ( [!DNL default.ini]) verfügbar.
+Selbst wenn keine bestimmten Bildkataloge definiert sind, sind alle Funktionen von Bildkatalogen über den Standardkatalog verfügbar ( [!DNL default.ini]).
 
-Wenn `*`rootId`*` im URL-Pfad der Anforderung mit `attribute::RootId` eines bestimmten Bildkatalogs übereinstimmt, wird dieser Katalog zum Hauptkatalog für diese Anforderung. Der Hauptkatalog enthält die Standardattribute und -einstellungen für die gesamte Anforderung. Wenn keine Übereinstimmung gefunden wird, wird stattdessen der Standardkatalog verwendet.
+Wenn `*`rootId`*` im URL-Pfad der Anforderung übereinstimmt mit `attribute::RootId` eines bestimmten Bildkatalogs wird dieser Katalog zum Hauptkatalog für diese Anforderung. Der Hauptkatalog enthält die Standardattribute und -einstellungen für die gesamte Anforderung. Wenn keine Übereinstimmung gefunden wird, wird stattdessen der Standardkatalog verwendet.
 
-Ein Katalog, der in einem Befehl `src=` oder `mask=` identifiziert wird, stellt die folgenden Katalogattribute und Daten für die aktuelle Ebene bereit:
+Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute und Daten für die aktuelle Ebene bereit:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -44,7 +44,7 @@ Ein Katalog, der in einem Befehl `src=` oder `mask=` identifiziert wird, stellt 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> Standard für Katalog <span class="codeph">::Expiration</span> oder Ablauf der aktuellen Ebene, wenn kein Katalogdatensatz beteiligt ist </p> </td> 
+   <td> <p> Standard für <span class="codeph"> catalog::Expiration</span> oder Ablauf der aktuellen Ebene, wenn kein Katalogdatensatz beteiligt ist </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ICC*</span> </p> </td> 
@@ -56,11 +56,11 @@ Ein Katalog, der in einem Befehl `src=` oder `mask=` identifiziert wird, stellt 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> Standard für <span class="codeph"> Katalog::Resolution</span> nur </p> </td> 
+   <td> <p> Standard für <span class="codeph"> catalog::Resolution</span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog:Anchor</span> </p> </td> 
-   <td> <p> Standardwert für den Wert <span class="codeph"> anchor=</span> der aktuellen Ebene </p> </td> 
+   <td> <p> Standard für <span class="codeph"> anchor=</span> Wert der aktuellen Ebene </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Expiration</span> </p> </td> 
@@ -80,7 +80,7 @@ Ein Katalog, der in einem Befehl `src=` oder `mask=` identifiziert wird, stellt 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Modifier</span> </p> </td> 
-   <td> <p> Präfixbefehle für die aktuelle Ebene (jeder Befehl im Katalog <span class="codeph"> catalog::Modifier</span> kann durch denselben Befehl in der URL überschrieben werden, sofern er für dieselbe Ebene angegeben ist) </p> </td> 
+   <td> <p> Präfixbefehle für die aktuelle Ebene (jeder Befehl in <span class="codeph"> catalog::Modifier</span> kann durch denselben Befehl in der URL überschrieben werden, wenn er für dieselbe Ebene angegeben ist.) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Path</span> </p> </td> 
@@ -88,7 +88,7 @@ Ein Katalog, der in einem Befehl `src=` oder `mask=` identifiziert wird, stellt 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::PostModifier</span> </p> </td> 
-   <td> <p> Postfix-Befehle für die aktuelle Ebene (ähnlich dem Katalog <span class="codeph"> catalog::Modifier</span>, aber Befehle im Katalog <span class="codeph">::PostModifier</span> überschreiben dieselben Befehle, die in der URL oder im Katalog <span class="codeph"> angegeben sind::Modifier</span>) </p> </td> 
+   <td> <p> Postfix-Befehle für die aktuelle Ebene (ähnlich wie <span class="codeph"> catalog::Modifier</span>, jedoch Befehle in <span class="codeph"> catalog::PostModifier</span> dieselben Befehle außer Kraft setzen, die in der URL oder in <span class="codeph"> catalog::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Resolution</span> </p> </td> 
@@ -97,14 +97,14 @@ Ein Katalog, der in einem Befehl `src=` oder `mask=` identifiziert wird, stellt 
  </tbody> 
 </table>
 
-Auf derselben Ebene müssen `src=` und `mask=` auf denselben Bildkatalog verweisen (falls vorhanden).
+Innerhalb derselben Ebene `src=` und `mask=` muss auf denselben Bildkatalog verweisen (falls vorhanden).
 
-Ein in einem `icc=`-Befehl identifizierter Katalog wird nur verwendet, um einen Eintrag aus der ICC-Profiltabelle des Katalogs nachzuschlagen. Es sind keine anderen Katalogattribute oder -daten beteiligt.
+Ein in einem `icc=` -Befehl wird nur verwendet, um einen Eintrag aus der ICC-Profiltabelle des Katalogs nachzuschlagen. Es sind keine anderen Katalogattribute oder -daten beteiligt.
 
-Wenn `*`rootId`*` in einen Katalog aufgelöst wird und `*`objId`*` in diesem Katalog mit einem `catalog::Id` übereinstimmt, wird `*`rootId/objId`*` effektiv durch den Katalogeintrag in etwa so ersetzt:
+Wenn `*`rootId`*` in einen Katalog aufgelöst und `*`objId`*` wird mit einem `catalog::Id` in diesem Katalog, dann `*`rootId/objId`*` durch den Katalogeintrag ersetzt wird, was in etwa so aussieht:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
 ## Verwandte Themen {#section-00e4f6b39cd14244bcce537a3f831259}
 
-[Image Catalog Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3),  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[Referenz zum Bildkatalog](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)

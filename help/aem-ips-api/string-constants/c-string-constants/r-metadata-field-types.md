@@ -2,13 +2,13 @@
 description: Wird von MetadataField/type, saveMetadataFieldParam/fieldType und createMetadataField/fieldType verwendet.
 solution: Experience Manager
 title: Metadatenfeldtypen
-feature: Dynamic Media Classic,SDK/API,Metadaten
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Syntax
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Ein Sonderfall von  [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das in die Werte  [!DNL `True`] und  [!DNL `False`]initialisiert wurde.
+* [!DNL `BooleanTag`]: Ein Sonderfall von [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das in die Werte initialisiert wurde [!DNL `True`] und [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]

@@ -5,9 +5,9 @@ title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 6%
 
 ---
@@ -42,38 +42,38 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Das Handle für das Unternehmen, das das Asset-Set enthalten wird. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Das Handle für den Ordner, in dem der neue Asset-Satz erstellt wird. </td> 
+   <td colname="col4"> Der Handle für den Ordner, in dem der neue Asset-Satz erstellt wird. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Asset-Name. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Eine eindeutige Kennung, die vom Client für den Asset-Set-Typ erstellt wurde. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Die Parameter in der Definitionszeichenfolge des Sets. <p>Diese müssen in dem Format aufgelöst werden, das vom Ziel-Viewer angegeben wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Handle des Assets, das als Miniaturansicht für das neue Bildset dient. Wenn kein Wert angegeben ist, versucht IPS, das erste Bild-Asset zu verwenden, auf das vom Set verwiesen wird. </td> 
   </tr> 
@@ -86,7 +86,7 @@ Sie können Ersatzfunktionen in Zeilen angeben, die während der Katalogsuche od
 
 >[!NOTE]
 >
->Die Handle-Literale in Parameterlisten müssen von Klammern `([])` umgeben sein. Sämtlicher Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabezeichenfolge kopiert.
+>Die Handle-Literale in Parameterlisten müssen von Klammern umgeben sein `([])`. Sämtlicher Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabezeichenfolge kopiert.
 
 | **Substitutionsfunktion** | **Rückgabe** |
 |---|---|

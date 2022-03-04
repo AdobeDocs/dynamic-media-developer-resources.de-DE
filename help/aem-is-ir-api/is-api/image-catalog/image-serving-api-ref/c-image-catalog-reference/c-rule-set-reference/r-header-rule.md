@@ -1,26 +1,26 @@
 ---
-description: HTTP-Antwort-Header-Element. Optional in <Regel> -Elementen.
+description: HTTP-Antwort-Header-Element. Optional in <rule> -Elemente.
 solution: Experience Manager
 title: Header
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
 
 # Header{#header}
 
-HTTP-Antwort-Header-Element. Optional in `<rule>` -Elementen.
+HTTP-Antwort-Header-Element. Optional in `<rule>` -Elemente.
 
 ## Attribute {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
 **`Name`= &quot;*text*&quot;** : Erforderlich. Gibt den Namen des HTTP-Headers an.
 
-**`Action`= &quot;set&quot; |`"add"`**: Optional. Der Standardwert ist `"set"`, wodurch jeder aktuelle Header-Wert ersetzt wird. Geben Sie `"add"` an, um den Header-Wert durch ein Komma zu trennen.
+**`Action`= &quot;set&quot; |`"add"`**: Optional. Der Standardwert ist `"set"`, der jeden aktuellen Header-Wert ersetzt. Angeben `"add"` , um den Header-Wert durch ein Komma zu trennen.
 
 ## Daten {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ Die folgende Regel wendet eine benutzerdefinierte Kopfzeile an, wenn der Kopfzei
 </rule>
 ```
 
-Diese Regel wird durch die folgende Anfrage ausgelöst, indem der HTTP-Antwortheader `Edge-Control::no-store` festgelegt wird:
+Diese Regel wird durch die folgende Anfrage ausgelöst, bei der der HTTP-Antwortheader festgelegt wird `Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

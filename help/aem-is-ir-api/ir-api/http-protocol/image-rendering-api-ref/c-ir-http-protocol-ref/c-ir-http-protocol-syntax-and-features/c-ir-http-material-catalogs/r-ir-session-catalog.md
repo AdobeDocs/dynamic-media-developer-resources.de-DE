@@ -1,20 +1,20 @@
 ---
-description: Der Sitzungskatalog ist der Materialkatalog, der Sitzungsattribute für die Anfrage sowie einen standardmäßigen catId-Wert für alle Befehle src=, vignette= und icc= bereitstellt.
-solution: Experience Manager
 title: Sitzungskatalog
+description: Der Sitzungskatalog ist der Materialkatalog, der Sitzungsattribute für die Anforderung und einen standardmäßigen catId-Wert für alle Befehle src=, vignette= und icc= bereitstellt.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Sitzungskatalog{#session-catalog}
 
-Der Sitzungskatalog ist der Materialkatalog, der Sitzungsattribute für die Anfrage sowie einen standardmäßigen catId-Wert für alle Befehle src=, vignette= und icc= bereitstellt.
+Der Sitzungskatalog ist der Materialkatalog, der Sitzungsattribute für die Anforderung und einen standardmäßigen catId-Wert für alle `src=`, `vignette=`und `icc=` Befehle.
 
 Der Sitzungskatalog wird als erstes Pfadelement des HTTP-Anfragepfads angegeben (unmittelbar nach dem Servernamen). Wenn das erste Pfadelement nicht mit attribute::RootId eines beliebigen Katalogs übereinstimmt, wird der Standardkatalog als Sitzungskatalog verwendet.
 
@@ -42,7 +42,7 @@ Der Sitzungskatalog enthält die folgenden Sitzungsstandardwerte:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
-   <td> <p> Stamm-URL für relative HTTP-Dateipfade in <span class="codeph"> src=</span> Befehlen </p> </td> 
+   <td> <p> Stamm-URL für relative HTTP-Dateipfade in <span class="codeph"> src=</span> commands </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
@@ -78,11 +78,11 @@ Der Sitzungskatalog enthält die folgenden Sitzungsstandardwerte:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailSel</span> </p> </td> 
-   <td> <p> Gibt das Verhalten an, wenn ein <span class="codeph"> sel=</span>-Befehl fehlschlägt </p> </td> 
+   <td> <p> Gibt Verhalten an, wenn ein <span class="codeph"> sel=</span> Befehl schlägt fehl </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailObj</span> </p> </td> 
-   <td> <p> Gibt das Verhalten an, wenn ein Befehl <span class="codeph"> obj=</span> fehlschlägt </p> </td> 
+   <td> <p> Gibt Verhalten an, wenn ein <span class="codeph"> obj=</span> Befehl schlägt fehl </p> </td> 
   </tr> 
  </tbody> 
 </table>

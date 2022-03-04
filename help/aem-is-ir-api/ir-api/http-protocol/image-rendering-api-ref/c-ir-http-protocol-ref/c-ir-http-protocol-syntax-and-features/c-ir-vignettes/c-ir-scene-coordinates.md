@@ -1,13 +1,13 @@
 ---
+title: Scene-Koordinaten
 description: Über den Koordinatenraum der Szene können die Größen und Entfernungen der texturierbaren Objektflächen festgelegt werden.
 solution: Experience Manager
-title: Scene-Koordinaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: de7f088e-3825-4d2e-924e-001a44db62a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 1%
 
 ---

@@ -1,28 +1,28 @@
 ---
+title: Vorverarbeitung anfordern
 description: Das Bild-Rendering bietet einen einfachen Anforderungs-Vorprozessor, der auf Übereinstimmungs- und Ersatzregeln für reguläre Ausdrücke basiert.
 solution: Experience Manager
-title: Vorab-Bearbeitung anfordern *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 20f4922402bd31c71ae650a01597b574220809fa
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
-# Vorab-Bearbeitung anfordern *{#request-pre-processing}
+# Vorverarbeitung anfordern{#request-pre-processing}
 
 Das Bild-Rendering bietet einen einfachen Anforderungs-Vorprozessor, der auf Übereinstimmungs- und Ersatzregeln für reguläre Ausdrücke basiert.
 
 Regelsammlungen (Regelsätze) können an jeden Materialkatalog angehängt werden, einschließlich des Standardkatalogs. Regeln werden mit XML-formatierten Dateien angegeben.
 
-Vorab-Verarbeitungsregeln für Anfragen können den Pfad und die Abfrageabschnitte von Anforderungen ändern, bevor sie vom Image Rendering-Parser verarbeitet werden. Dazu gehören das Manipulieren des Pfads, das Hinzufügen von Befehlen, das Ändern von Befehlswerten und das Anwenden von Vorlagen oder Makros. Regeln können auch verwendet werden, um bestimmte Funktionen zu konfigurieren und zu überschreiben, die normalerweise nur mit Katalogattributen gesteuert werden, z. B. das Festlegen der standardmäßigen Antwortbildgröße oder das Eingrenzen des HTTP-Dienstes auf bestimmte Client-IP-Adressen.
+Vorab-Verarbeitungsregeln für Anfragen können den Pfad und die Abfrageabschnitte von Anforderungen ändern, bevor sie vom Image Rendering-Parser verarbeitet werden. Dieses Konzept umfasst die Bearbeitung des Pfads, das Hinzufügen von Befehlen, das Ändern von Befehlswerten und das Anwenden von Vorlagen oder Makros. Regeln können auch verwendet werden, um bestimmte Funktionen zu konfigurieren und zu überschreiben, die normalerweise nur mit Katalogattributen gesteuert werden, z. B. das Festlegen der standardmäßigen Antwortbildgröße oder das Eingrenzen des HTTP-Dienstes auf bestimmte Client-IP-Adressen.
 
-Vorab-Verarbeitungsregeln für Anfragen eignen sich für eine Vielzahl von Anwendungen, von denen einige im Folgenden aufgeführt sind:
+Vorab-Verarbeitungsregeln für Anfragen eignen sich für verschiedene Anwendungen, von denen einige im Folgenden aufgelistet sind:
 
-* Implementieren Sie einen Mechanismus *virtuelle Pfade*, der eine Neukodifizierung des Anfragepfads zu Datei-, FTP- und HTTP-Pfaden ermöglicht.
+* Implementieren eines *virtuelle Pfade* -Mechanismus, der eine Neukodifizierung des Anfragepfads zu Datei-, FTP- und HTTP-Pfaden ermöglicht.
 * Die Verwendung von CPU-intensiven Befehlen wird untersagt, um Servermissbrauch zu verhindern.
 * Steuern Sie die Bildqualitätseinstellungen (z. B. JPEG-Qualität oder Scharfzeichnen) je nach Anfragepfad oder Bildname.
 

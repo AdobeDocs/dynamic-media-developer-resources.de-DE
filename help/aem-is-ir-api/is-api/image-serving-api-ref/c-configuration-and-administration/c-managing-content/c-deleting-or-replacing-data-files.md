@@ -5,9 +5,9 @@ title: Datendateien löschen oder ersetzen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Das Hinzufügen neuer Datendateien ist einfach und unkompliziert, es muss jedoch
 >
 >Datendateien sollten während der aktiven Verwendung durch Image Serving nie ersetzt oder gelöscht werden. Andernfalls kann es zu Fehlern oder sogar zum Absturz des Servers kommen.
 
-Beachten Sie in allen Fällen, dass der Platform Server-Cache und die Client-Cache-Einträge veraltet sein müssen, bevor die aktualisierten Daten vom Client angezeigt werden. Bestimmte Cache-Einträge können sofort mit dem Befehl `cache=validate` aktualisiert werden.
+Beachten Sie in allen Fällen, dass der Platform Server-Cache und die Client-Cache-Einträge veraltet sein müssen, bevor die aktualisierten Daten vom Client angezeigt werden. Bestimmte Cache-Einträge können sofort mit der `cache=validate` Befehl.
 
 Änderungen an Schriftartendateien und ICC-Profildateien werden vom Cache-Manager nicht direkt verfolgt. Wenn eine solche Ressource geändert wird, ohne ihre ID zu ändern, weiß der Server-Cache nichts über die Änderung und `cache=validate` führt nicht dazu, dass der Cache-Eintrag aktualisiert wird. `cache=update` kann verwendet werden, um die Neuerstellung solcher Cache-Einträge zu erzwingen.
 

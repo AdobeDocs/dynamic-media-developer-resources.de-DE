@@ -1,13 +1,13 @@
 ---
+title: Syntax und Funktionen des HTTP-Protokolls
 description: In diesem Abschnitt werden die HTTP-Protokollsyntax und die Funktionen für das Dynamic Media-Image-Rendering beschrieben.
 solution: Experience Manager
-title: Syntax und Funktionen des HTTP-Protokolls
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62707e37-0bf0-4e72-807c-8a68dfe0067e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---

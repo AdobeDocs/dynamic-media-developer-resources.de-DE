@@ -5,9 +5,9 @@ title: Größe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 5%
 
 ---
@@ -20,13 +20,13 @@ Decal size. Breite, Höhe und Dicke eines dekalen Materialobjekts.
 
 Drei reale Zahlen, durch Kommas getrennt. Darf nicht negativ sein. Setzen Sie nicht verwendete Werte auf 0. Nachfolgende Nullen können weggelassen werden.
 
-Geben Sie nur Breite und Höhe an, wenn das Bild so gestreckt werden soll, dass es an die angegebene Größe angepasst wird (das Seitenverhältnis kann sich ändern). Legen Sie entweder Breite oder Höhe fest, um das Bild proportional zu skalieren. Legen Sie sowohl Breite als auch Höhe auf 0 fest, um `catalog::Resolution`zur Bestimmung der Objektgröße zu verwenden.
+Geben Sie nur Breite und Höhe an, wenn das Bild so gestreckt werden soll, dass es an die angegebene Größe angepasst wird (das Seitenverhältnis kann sich ändern). Legen Sie entweder Breite oder Höhe fest, um das Bild proportional zu skalieren. Legen Sie sowohl Breite als auch Höhe auf 0 fest, um `catalog::Resolution`, um die Objektgröße zu bestimmen.
 
 Geben Sie einen Dickenwert an, um dem Decal-Objekt einen Schlagschatten hinzuzufügen. Optional für dekale Materialien, von allen anderen Materialien ignoriert.
 
 ## Standard {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. Dies zeigt an, dass die Dekorgröße anhand von catalog::Resolution bestimmt werden soll und dass das Objekt keine Dicke hat (daher wird kein Schlagschatten gerendert).
+0,0,0. Dies bedeutet, dass die Dekorgröße anhand von catalog::Resolution bestimmt werden soll und dass das Objekt keine Dicke hat (daher wird kein Schlagschatten gerendert).
 
 ## Beispiele {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

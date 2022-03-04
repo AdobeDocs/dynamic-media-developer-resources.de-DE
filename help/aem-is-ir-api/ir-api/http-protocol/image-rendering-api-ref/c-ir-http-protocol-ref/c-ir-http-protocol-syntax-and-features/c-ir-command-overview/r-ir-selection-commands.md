@@ -1,13 +1,13 @@
 ---
+title: Auswahlbefehle
 description: Mit diesen Befehlen können Sie Vignettengruppen, Objekte, Unterbereiche von Gruppen oder Objekten auswählen.
 solution: Experience Manager
-title: Auswahlbefehle
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 43f6ec6e-e4eb-468d-9c66-841af5e0a8a5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Der Befehl bzw. das Material bzw. beides wird nach diesem Auswahlbefehl und vor 
   <td class="stentry"> <p>Wählen Sie eine Vignettengruppe oder ein Objekt nach Pixelposition aus. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> dekcal</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> dekal</a></span> </p></td> 
   <td class="stentry"> <p>Wählen Sie den Dekorbereich des ausgewählten Objekts aus. </p></td> 
  </tr> 
  <tr class="strow"> 

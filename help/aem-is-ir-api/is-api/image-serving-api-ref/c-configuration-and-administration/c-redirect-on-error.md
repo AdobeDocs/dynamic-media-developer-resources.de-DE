@@ -5,9 +5,9 @@ title: Weiterleitung bei Fehler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ In keinem anderen Fall erfolgt eine Umleitung von Fehlern.
 
 Wenn diese Option aktiviert ist und ein solcher Fehler während der Verarbeitung der Anfrage auftritt, sendet der primäre Server die Anfrage zur Verarbeitung an den sekundären Server. Die Antwort wird dann direkt an den Client weitergeleitet, unabhängig davon, ob sie auf Erfolg oder Fehler hinweist. Der primäre Server markiert Protokolleinträge solcher weitergeleiteter Anfragen mit Cache-Nutzung `REMOTE`. Die Antwortdaten werden vom primären Server nicht lokal zwischengespeichert.
 
-Die Umleitung von Fehlern wird aktiviert, indem `PS::errorRedirect.rootUrl` auf den HTTP-Domänennamen und die Anschlussnummer des sekundären Servers gesetzt wird. Darüber hinaus wird das Verbindungs-Timeout mit `PS::errorRedirect.connectTimeout` konfiguriert und die maximale Zeit, die der primäre Server auf eine Antwort des sekundären Servers wartet, bevor ein Fehler an den Client zurückgegeben wird, mit `PS::errorRedirect.socketTimeout` konfiguriert wird.
+Die Umleitung von Fehlern wird durch Festlegen von `PS::errorRedirect.rootUrl` zum HTTP-Domänennamen und der Anschlussnummer des sekundären Servers. Darüber hinaus wird das Verbindungs-Timeout mit `PS::errorRedirect.connectTimeout` und die maximale Zeit, die der primäre Server auf eine Antwort vom sekundären Server wartet, bevor ein Fehler an den Client zurückgegeben wird, mit `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->Wenn der sekundäre Server nicht kontaktiert werden kann, wird eine Textfehlerantwort an den Client zurückgegeben, auch wenn ein Standardbild oder ein Fehlerbild konfiguriert ist.
+>Wenn der sekundäre Server nicht kontaktiert werden kann, wird eine Textfehlerantwort an den Client zurückgegeben, selbst wenn ein Standardbild oder ein Fehlerbild konfiguriert ist.
 
 >[!NOTE]
 >
