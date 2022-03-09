@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 exl-id: 3360a3bd-8a4a-4bf9-98bf-ada7c35c58f4
-source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Daher ist es wichtig, beim Schreiben von benutzerdefiniertem Anwendungs-Code, de
 
 Wenn Sie beispielsweise `StatusEvent.NOTF_VIEW_READY` -Ereignis und der Viewer von Experience Manager aus bereitgestellt wird, lautet der vollqualifizierte Ereignistyp `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`und der Ereignis-Listener-Code sieht in etwa wie folgt aus:
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var panoramicView = <instance>.getComponent("panoramicView"); 

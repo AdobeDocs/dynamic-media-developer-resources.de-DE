@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den Viewer-Rückruf `trackEvent` zu überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
-```
+```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -57,7 +57,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p>der Viewer zuerst geladen wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BANNER  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
    <td colname="col2"> <p>das Karussellbannerbild geändert wurde. </p> </td> 
   </tr> 
   <tr> 

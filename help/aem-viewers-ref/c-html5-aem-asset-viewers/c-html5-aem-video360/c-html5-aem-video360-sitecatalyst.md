@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 4%
 
 ---
 
@@ -18,9 +18,9 @@ Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit de
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den Viewer-Rückruf `trackEvent` zu überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
-```
+```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -65,7 +65,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>wenn ein Asset im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht wird. </p> </td> 
+   <td colname="col2"> <p>wenn ein Asset im Viewer mit <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -84,7 +84,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p>wenn die Wiedergabe einen der folgenden Meilensteine erreicht: 0 %, 25 %, 50 %, 75 % oder 100 %. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
    <td colname="col2"> <p>jedes Mal, wenn der Benutzer auf ein interaktives Muster klickt. </p> </td> 
   </tr> 
  </tbody> 

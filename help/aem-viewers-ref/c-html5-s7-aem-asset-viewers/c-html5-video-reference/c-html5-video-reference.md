@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS err
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4" target="_blank">Open popup viewer</a>
 ```
 
@@ -120,7 +120,7 @@ Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe 
 
 Der relative Pfad sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/VideoViewer.js"></script>
 ```
 
@@ -141,7 +141,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
@@ -155,7 +155,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf einer HTML-Seite:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
     width: 640px; 
     height: 480px; 
@@ -164,7 +164,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können `stagesize` -Modifikator entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic oder übergeben Sie ihn explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung. Oder als API-Aufruf, wie im Abschnitt Befehlsreferenz beschrieben:
 
-   ```
+   ```html {.line-numbers}
    videoViewer.setParam("stagesize", "640,480");
    ```
 
@@ -180,7 +180,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Dieses Beispiel geht von `videoViewer` die Viewer-Instanz ist, `s7viewer` ist der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] ist die Image Serving-URL, [!DNL http://s7d1.scene7.com/is/content/] ist die Videoserver-URL und [!DNL Scene7SharedAssets/Glacier_Climber_MP4] ist das Asset.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var videoViewer = new s7viewers.VideoViewer({ 
     "containerId":"s7viewer", 
@@ -195,7 +195,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Video-Viewer mit einer festen Größe einbettet:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -227,7 +227,7 @@ Der relative Pfad sieht wie folgt aus:
 
 Mit der Einbettung des responsiven Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Für die Zwecke dieses Beispiels nehmen Sie an, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -251,7 +251,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung fester
 
 Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Container hinzufügen `DIV` an den bestehenden &quot;Inhaber&quot; `DIV`. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -290,7 +290,7 @@ Die folgende Beispielseite veranschaulicht die reale Verwendung responsiver Desi
 
 Wenn ein responsives Design mit definierter Breite und Höhe eingebettet ist, unterscheidet sich der Webseitenstil. Es stellt beide Größen für den &quot;Inhaber&quot;bereit. `DIV` und zentrieren Sie sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` -Element auf 100 %:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -316,7 +316,7 @@ height: 60%;
 
 Die restlichen Einbettungsschritte sind mit dem responsiven Design identisch, das mit uneingeschränkter Höhe eingebettet wird. Das folgende Beispiel zeigt:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -359,7 +359,7 @@ Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-b
 
 Das folgende Beispiel zeigt die Einbettung fester Größe in eine setter-basierte API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

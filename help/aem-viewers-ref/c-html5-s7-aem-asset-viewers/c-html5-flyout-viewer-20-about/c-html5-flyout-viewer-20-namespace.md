@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 06a7110a-3a6f-42f9-b729-e8f96762c64e
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -24,7 +24,7 @@ In beiden Fällen hat der vom SDK im Viewer verwendete Namespace entweder `s7vie
 
 Wenn Sie beispielsweise `StatusEvent.NOTF_VIEW_READY` -Ereignis und der Viewer von Experience Manager aus bereitgestellt wird, lautet der vollqualifizierte Ereignistyp `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`und der Ereignis-Listener-Code sieht in etwa wie folgt aus:
 
-```
+```html {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 
@@ -33,7 +33,7 @@ Wenn Sie beispielsweise `StatusEvent.NOTF_VIEW_READY` -Ereignis und der Viewer v
   }, false); 
 } 
 }); 
-The same code for viewer served from Dynamic Media Classic will look like this: 
+The same code for viewer served from Dynamic Media Classic looks like this: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 

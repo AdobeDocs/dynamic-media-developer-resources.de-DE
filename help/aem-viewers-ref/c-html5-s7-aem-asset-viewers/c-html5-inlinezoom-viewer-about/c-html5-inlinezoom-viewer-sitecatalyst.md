@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem View
 
 Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
-```
+```javascript {.line-numbers}
 var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

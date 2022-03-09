@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Das Tool zur Linkfreigabe besteht aus einer Schaltfläche, die zum Social-Freiga
 
 Das Erscheinungsbild der Schaltfläche &quot;Linkfreigabe&quot;wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkshare
 ```
 
@@ -37,11 +37,11 @@ Das Erscheinungsbild der Schaltfläche &quot;Linkfreigabe&quot;wird mit der folg
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,15 +49,15 @@ Das Erscheinungsbild der Schaltfläche &quot;Linkfreigabe&quot;wird mit der folg
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in ihrer CSS-Klasse.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Beispiel: Zum Einrichten einer Linkfreigabe-Schaltfläche mit 28 x 28 Pixel und zum Anzeigen eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkshare { 
  width:28px; 
  height:28px; 
@@ -78,7 +78,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 
 Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das aktive Dialogfeld mit der folgenden CSS-Klassenauswahl gesteuert wird:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7backoverlay
 ```
 
@@ -87,19 +87,19 @@ Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das aktive Dialogfe
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p>Deckkraft der Hintergrundüberlagerung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundüberlagerungsfarbe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um eine Hintergrundüberlagerung einzurichten, die grau mit einer Deckkraft von 70 % ist:
+**Beispiel** - um eine Hintergrundüberlagerung einzurichten, die grau mit einer Deckkraft von 70 % ist:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7backoverlay { 
  opacity:0.7; 
  background-color:#222222; 
@@ -108,7 +108,7 @@ Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das aktive Dialogfe
 
 Standardmäßig wird das modale Dialogfeld zentriert auf dem Bildschirm auf Desktop-Systemen angezeigt und nimmt den gesamten Webseitenbereich auf Touch-Geräten. In allen Fällen wird die Positionierung und Größe des Dialogfelds von der Komponente verwaltet. Das Dialogfeld wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialog
 ```
 
@@ -117,27 +117,27 @@ Standardmäßig wird das modale Dialogfeld zentriert auf dem Bildschirm auf Desk
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Rahmenradius des Dialogfelds, falls das Dialogfeld nicht den gesamten Browser annimmt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um das Dialogfeld so einzurichten, dass es das gesamte Browser-Fenster mit weißem Hintergrund auf Touch-Geräten verwendet:
+**Beispiel** - um das Dialogfeld so einzurichten, dass es das gesamte Browser-Fenster mit weißem Hintergrund auf Touch-Geräten verwendet:
 
-```
+```css {.line-numbers}
 .s7video360viewer.s7touchinput .s7linkdialog .s7dialog { 
  width:100%; 
  height:100%; 
@@ -147,7 +147,7 @@ background-color: #ffffff;
 
 Die Kopfzeile des Dialogfelds besteht aus einem Symbol, einem Titeltext und einer Schaltfläche zum Schließen. Der Header-Container wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheader
 ```
 
@@ -164,7 +164,7 @@ Die Kopfzeile des Dialogfelds besteht aus einem Symbol, einem Titeltext und eine
 
 Das Symbol und der Titeltext werden in einen zusätzlichen Container eingeschlossen, der mit der folgenden CSS-Klassenauswahl gesteuert wird:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
 ```
 
@@ -181,7 +181,7 @@ Das Symbol und der Titeltext werden in einen zusätzlichen Container eingeschlos
 
 Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheadericon
 ```
 
@@ -190,19 +190,19 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Symbolbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -210,7 +210,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 
 Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheadertext
 ```
 
@@ -219,15 +219,15 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schrifthöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
@@ -239,11 +239,11 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7closebutton
 ```
 
-**CSS-Eigenschaften der Schließen-Schaltfläche **
+**CSS-Eigenschaften der Schließen-Schaltfläche**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -256,11 +256,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -268,11 +268,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Innerer Abstand der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbild für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,13 +280,13 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, 22 x 12 Pixel-Symbol mit einem fett gedruckten 16-Punkt-Titel. Und schließlich eine 28 x 28 Pixel große Schließen-Schaltfläche, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
+**Beispiel** - zum Einrichten einer Dialogfeldkopfzeile mit Abstand, 22 x 12 Pixel-Symbol mit einem fett gedruckten 16-Punkt-Titel. Und schließlich eine 28 x 28 Pixel große Schließen-Schaltfläche, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheader { 
  padding: 10px; 
 } 
@@ -326,11 +326,11 @@ Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können
 
 Die Fußzeile des Dialogfelds besteht aus einer Schaltfläche &quot;Abbrechen&quot;. Der Fußzeilencontainer wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften der Fußzeile des Dialogfelds **
+**CSS-Eigenschaften der Fußzeile des Dialogfelds**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -343,7 +343,7 @@ Die Fußzeile des Dialogfelds besteht aus einer Schaltfläche &quot;Abbrechen&qu
 
 Die Fußzeile verfügt über einen inneren Container, in dem die Schaltfläche beibehalten wird. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
@@ -360,7 +360,7 @@ Die Fußzeile verfügt über einen inneren Container, in dem die Schaltfläche b
 
 Die Schaltfläche Alle auswählen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogactionbutton
 ```
 
@@ -371,11 +371,11 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +383,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
    <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,11 +391,11 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 
 >[!NOTE]
 >
->Die Schaltfläche Alle auswählen unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenstatus angewendet werden können.
+>Die Schaltfläche Alle auswählen unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
 Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogcancelbutton
 ```
 
@@ -404,19 +404,19 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,11 +424,11 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
 Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
 ```
 
@@ -437,37 +437,37 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
    <td colname="col2"> <p>Schlagschatten </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>Rand der rechten Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Zum Einrichten einer Footer mit einer Schaltfläche &quot;Abbrechen&quot;von 64 x 34 mit Textfarbe und Hintergrundfarben, die für jeden Schaltflächenstatus unterschiedlich sind:
+**Beispiel** - um eine Footer mit einer Schaltfläche von 64 x 34 Abbrechen mit Textfarbe und Hintergrundfarben einzurichten, die für jeden Schaltflächenstatus unterschiedlich sind:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogfooter { 
     border-top: 1px solid #909090; 
 } 
@@ -527,20 +527,20 @@ Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisier
 
 Der Hauptdialogbereich (zwischen der Kopf- und Fußzeile) enthält Dialogfeldinhalte. In jedem Fall verwaltet die Komponente die Breite dieses Bereichs. Es ist nicht möglich, ihn in CSS festzulegen. Der Hauptdialogbereich wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogviewarea
 ```
 
-**CSS-Eigenschaften des Dialogfelds, in dem der Anzeigebereich angezeigt wird **
+**CSS-Eigenschaften des Anzeigebereichs des Dialogfelds**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des Hauptdialogfeld-Bereichs. Sie sollte nur angegeben werden, wenn das Dialogfeld im Desktop-Modus funktioniert. Dies ist nicht möglich, wenn die Größe des Dialogfelds so geändert wird, dass es das gesamte Browser-Fenster belegt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe des Hauptdialogfeld-Bereichs. </p> </td> 
   </tr> 
   <tr> 
@@ -550,9 +550,9 @@ Der Hauptdialogbereich (zwischen der Kopf- und Fußzeile) enthält Dialogfeldinh
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten eines Hauptdialogfeld-Bereichs mit einer Höhe von 300 Pixel, einer Spanne von 10 Pixel und einem weißen Hintergrund:
+**Beispiel** - um einen Hauptdialogfeld mit einer Höhe von 300 Pixel einzurichten, einen 10-Pixel-Rand zu haben und einen weißen Hintergrund zu verwenden:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogviewarea { 
  background-color:#ffffff; 
  margin:10px; 
@@ -562,11 +562,11 @@ Der Hauptdialogbereich (zwischen der Kopf- und Fußzeile) enthält Dialogfeldinh
 
 Der gesamte Formularinhalt - z. B. Beschriftungen und Eingabefelder - befindet sich in einem Container, der mit der folgenden CSS-Klassenauswahl gesteuert wird:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogbody
 ```
 
-**CSS-Eigenschaften des Dialogfeldtexts **
+**CSS-Eigenschaften des Dialogfeldtexts**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -577,9 +577,9 @@ Der gesamte Formularinhalt - z. B. Beschriftungen und Eingabefelder - befindet s
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten von Formularinhalten mit zehn Pixelabständen:
+**Beispiel** - um Formularinhalte mit zehn Pixelabständen einzurichten:
 
-```
+```css {.line-numbers}
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
     padding: 10px; 
 }
@@ -593,34 +593,34 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit
 
 Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Beschriftung, da Sie sie auf Texte an verschiedenen Stellen der Formular-Benutzeroberfläche anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbeschriftung. **
+**CSS-Eigenschaften der Dialogfeldbeschriftung**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Textfarbe beschriften. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Beschriftungen des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die Beschriftungen des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel** : Um alle Beschriftungen so einzurichten, dass sie grau und fett mit einer 9-Pixel-Schriftart sind:
+**Beispiel** - Alle Beschriftungen sind grau und fett mit einer 9-Pixel-Schriftart anzuordnen:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglabel { 
     color: #666666; 
     font-size: 9pt; 
@@ -630,7 +630,7 @@ Die Beschriftungen des Dialogfelds können lokalisiert werden. Siehe [Lokalisier
 
 Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
@@ -639,7 +639,7 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Textbreite. </p> </td> 
   </tr> 
   <tr> 
@@ -649,9 +649,9 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen einer Textkopie von 430 Pixel Breite und einer 10-Pixel-Abstände am unteren Rand:
+**Beispiel** - um die Textkopie auf eine Breite von 430 Pixel festzulegen und am unteren Rand einen Abstand von 10 Pixel zu haben:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputwide { 
     padding-bottom: 10px; 
     width: 430px; 
@@ -660,7 +660,7 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
 
 Der Freigabe-Link ist in einen Container eingeschlossen und wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer
 ```
 
@@ -679,9 +679,9 @@ Der Freigabe-Link ist in einen Container eingeschlossen und wird mit der folgend
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen eines grauen Rahmens von einem Pixel um den Einbettungscode-Text und einer Umrandung von neun Pixeln:
+**Beispiel** - um einen grauen Rahmen von einem Pixel um den Einbettungscode-Text festzulegen und einen Abstand von neun Pixel zu haben:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer { 
     border: 1px solid #CCCCCC; 
     padding: 9px; 
@@ -690,7 +690,7 @@ Der Freigabe-Link ist in einen Container eingeschlossen und wird mit der folgend
 
 Der Freigabe-Link selbst wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglink
 ```
 
@@ -699,15 +699,15 @@ Der Freigabe-Link selbst wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Linkbreite freigeben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um den Freigabe-Link auf eine Breite von 450 Pixel festzulegen:
+**Beispiel** - um den Freigabe-Link auf eine Breite von 450 Pixel festzulegen:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglink { 
     width: 450px; 
 }

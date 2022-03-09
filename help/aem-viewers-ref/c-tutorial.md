@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Das Viewer-SDK bietet eine Reihe JavaScript-basierter Komponenten für die benut
 
 Das SDK bietet beispielsweise interaktives Zoomen und Schwenken. Darüber hinaus erhalten Sie eine 360°-Ansicht und Videowiedergabe von Assets, die über die Backend-Anwendung Dynamic Media Classic in Adobe Dynamic Media hochgeladen wurden.
 
-Obwohl die Komponenten auf HTML5-Funktionen basieren, sind sie für die Verwendung auf Android™- und Apple iOS-Geräten und Desktops, einschließlich Internet Explorer und höher, entwickelt worden. Diese Art von Erlebnis bedeutet, dass Sie einen einzigen Workflow für alle unterstützten Plattformen bereitstellen können.
+Obwohl die Komponenten auf HTML5-Funktionen basieren, sind sie für die Verwendung auf Android™- und Apple iOS-Geräten und Desktops, einschließlich Internet Explorer und höher, ausgelegt. Diese Art von Erlebnis bedeutet, dass Sie einen einzigen Workflow für alle unterstützten Plattformen bereitstellen können.
 
-Das SDK besteht aus UI-Komponenten, aus denen Viewer-Inhalte bestehen. Sie können diese Komponenten über CSS gestalten und nicht über Benutzeroberflächen-Komponenten verfügen, die eine unterstützende Rolle haben, z. B. Abrufen und Analysieren von Set-Definitionen oder Tracking. Alle Verhaltensweisen von Komponenten können über Modifikatoren angepasst werden, die Sie auf verschiedene Weise angeben können, z. B. als `name=value`-Paare in der URL.
+Das SDK besteht aus UI-Komponenten, aus denen Viewer-Inhalte bestehen. Sie können diese Komponenten über CSS gestalten und nicht über Benutzeroberflächen-Komponenten verfügen, die eine unterstützende Rolle haben, z. B. Abrufen und Analysieren von Set-Definitionen oder Tracking. Alle Verhaltensweisen von Komponenten können mithilfe von Modifikatoren angepasst werden, die Sie auf verschiedene Weise festlegen können, z. B. `name=value` Paare in der URL.
 
 Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie einen einfachen Zoom-Viewer erstellen können:
 
@@ -34,7 +34,7 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
 
 ## Herunterladen des neuesten Viewer-SDK aus Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Laden Sie das neueste Viewer-SDK von Adobe Developer Connection herunter <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
+1. Herunterladen des neuesten Viewer-SDK aus Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -46,7 +46,7 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
 
    Betrachten Sie diese neue Seite mit dem Bootstrap- oder Lader-Code, den Sie zum Einrichten einer leeren SDK-Anwendung verwenden. Öffnen Sie Ihren bevorzugten Texteditor und fügen Sie das folgende HTML-Markup ein:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
        <head> 
@@ -79,9 +79,9 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
    </html>
    ```
 
-   Fügen Sie den folgenden JavaScript-Code innerhalb des Tags `script` hinzu, damit das Tag `ParameterManager` initialisiert wird. Auf diese Weise können Sie die Erstellung und Instanziierung von SDK-Komponenten innerhalb der Funktion `initViewer` vorbereiten:
+   Fügen Sie den folgenden JavaScript-Code innerhalb der `script` -Tag, damit es die `ParameterManager`. Auf diese Weise können Sie sich auf die Erstellung und Instanziierung von SDK-Komponenten im `initViewer` Funktion:
 
-   ```
+   ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
       a function is optional, but this prevents variables from polluting the global object.  */ 
    (function () { 
@@ -123,9 +123,9 @@ Fügen Sie Ihrem Viewer jetzt Stil hinzu.
 
 1. Für diesen vollständigen Seiten-Viewer, den Sie erstellen, können Sie einige grundlegende Stile hinzufügen.
 
-   Fügen Sie den folgenden `style`-Block am unteren Rand von `head` hinzu:
+   Fügen Sie Folgendes hinzu: `style` -Block am unteren Rand des `head`:
 
-   ```
+   ```html {.line-numbers}
    <style> 
        html, body { 
            width: 100%; 
@@ -142,15 +142,15 @@ Fügen Sie Ihrem Viewer jetzt Stil hinzu.
    </style>
    ```
 
-Schließen Sie nun die Komponenten `Container` und `ZoomView` ein.
+Schließen Sie nun die Komponenten ein `Container` und `ZoomView`.
 
 ## Einschließen von Container und ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
-1. Erstellen Sie einen tatsächlichen Viewer, indem Sie die Komponenten `Container` und `ZoomView` einfügen.
+1. Erstellen eines tatsächlichen Viewers durch Einschließen der Komponenten `Container` und `ZoomView`.
 
-   Fügen Sie die folgenden `include`-Anweisungen am unteren Rand des Elements `<head>` ein - nachdem das Skript [!DNL Utils.js] geladen wurde:
+   Fügen Sie Folgendes ein: `include` -Anweisungen am Ende der `<head>` element - nach dem [!DNL Utils.js] Skript geladen wird:
 
-   ```
+   ```javascript {.line-numbers}
    <!-- 
        Add an "include" statement with a related module for each component that is needed for that particular  
        viewer. Check API documentation to see a complete list of components and their modules. 
@@ -163,15 +163,15 @@ Schließen Sie nun die Komponenten `Container` und `ZoomView` ein.
 
 1. Erstellen Sie jetzt Variablen, um auf die verschiedenen SDK-Komponenten zu verweisen.
 
-   Fügen Sie die folgenden Variablen oben in der anonymen Hauptfunktion hinzu, direkt über `s7sdk.Util.init()`:
+   Fügen Sie oben in der anonymen Hauptfunktion die folgenden Variablen hinzu: `s7sdk.Util.init()`:
 
-   ```
+   ```javascript {.line-numbers}
    var container, zoomView;
    ```
 
-1. Fügen Sie Folgendes in die Funktion `initViewer` ein, damit Sie einige Modifikatoren definieren und die entsprechenden Komponenten instanziieren können:
+1. Fügen Sie Folgendes in die `initViewer` -Funktion, damit Sie einige Modifikatoren definieren und die entsprechenden Komponenten instanziieren können:
 
-   ```
+   ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
    params.push("serverurl", "http://s7d1.scene7.com/is/image"); 
    params.push("asset", "Scene7SharedAssets/ImageSet-Views-Sample"); 
@@ -190,9 +190,9 @@ Schließen Sie nun die Komponenten `Container` und `ZoomView` ein.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Damit der obige Code ordnungsgemäß ausgeführt werden kann, fügen Sie einen `containerResize`-Ereignishandler und eine Hilfsfunktion hinzu:
+1. Damit der obige Code ordnungsgemäß ausgeführt werden kann, fügen Sie einen `containerResize` Ereignishandler und eine Hilfsfunktion:
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
       various view components included in this viewer. */ 
    function containerResize(event) { 
@@ -209,30 +209,30 @@ Schließen Sie nun die Komponenten `Container` und `ZoomView` ein.
 
    ![Beispiel für ein Bild](assets/viewer-1.jpg)
 
-Fügen Sie nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
+Fügen Sie nun die Komponenten hinzu `MediaSet` und `Swatches` an Ihren Viewer.
 
 ## Hinzufügen von MediaSet- und Farbfeldkomponenten zum Viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. Um Benutzern die Möglichkeit zu geben, Bilder aus einem Set auszuwählen, können Sie die Komponenten `MediaSet` und `Swatches` hinzufügen.
+1. Um Benutzern die Möglichkeit zu geben, Bilder aus einem Set auszuwählen, können Sie die Komponenten hinzufügen `MediaSet` und `Swatches`.
 
    Fügen Sie das folgende SDK hinzu:
 
-   ```
+   ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
    s7sdk.Util.lib.include('s7sdk.set.Swatches');
    ```
 
 1. Aktualisieren Sie die Variablenliste mit folgendem Code:
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instanziieren Sie die Komponenten `MediaSet` und `Swatches` innerhalb der Funktion `initViewer` .
+1. Instanziieren `MediaSet` und `Swatches` Komponenten innerhalb der `initViewer` -Funktion.
 
-   Stellen Sie sicher, dass Sie die `Swatches` -Instanz nach den Komponenten `ZoomView` und `Container` instanziieren. Andernfalls wird die `Swatches` durch die Stapelreihenfolge ausgeblendet:
+   Instanziieren Sie unbedingt die `Swatches` -Instanz nach der `ZoomView` und `Container` Komponenten, andernfalls wird die Stapelreihenfolge `Swatches`:
 
-   ```
+   ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
    mediaSet = new s7sdk.set.MediaSet(null, params, "mediaSet"); 
    
@@ -246,7 +246,7 @@ Fügen Sie nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
 
 1. Fügen Sie nun die folgenden Ereignis-Handler-Funktionen hinzu:
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
       assign the asset to the Swatches when parsing is complete. */ 
    function onSetParsed(e) { 
@@ -266,9 +266,9 @@ Fügen Sie nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
    }
    ```
 
-1. Positionieren Sie die Farbfelder am unteren Rand des Viewers, indem Sie dem Element `style` die folgende CSS hinzufügen:
+1. Positionieren Sie die Farbfelder am unteren Rand des Viewers, indem Sie dem `style` element:
 
-   ```
+   ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
    .s7swatches { 
        bottom: 0; 
@@ -280,9 +280,9 @@ Fügen Sie nun die Komponenten `MediaSet` und `Swatches` zu Ihrem Viewer hinzu.
 
 1. Vorschau des Viewers
 
-   Beachten Sie, dass sich die Farbfelder unten links im Viewer befinden. Damit die Farbfelder die gesamte Viewer-Breite annehmen, fügen Sie einen Aufruf hinzu, um die Größe der Farbfelder manuell zu ändern, sobald der Benutzer die Größe seines Browsers ändert. Fügen Sie der Funktion `resizeViewer` Folgendes hinzu:
+   Beachten Sie, dass sich die Farbfelder unten links im Viewer befinden. Damit die Farbfelder die gesamte Viewer-Breite annehmen, fügen Sie einen Aufruf hinzu, um die Größe der Farbfelder manuell zu ändern, sobald der Benutzer die Größe seines Browsers ändert. Fügen Sie Folgendes zum `resizeViewer` Funktion:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
    ```
 
@@ -298,21 +298,21 @@ Fügen Sie Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Z
 
    Fügen Sie die folgenden Schaltflächenkomponenten hinzu:
 
-   ```
+   ```CSS {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.common.Button');
    ```
 
 1. Aktualisieren Sie die Variablenliste mit folgendem Code:
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Schaltflächen am unteren Rand der Funktion `initViewer` instanziieren.
+1. Schaltflächen unten instanziieren `initViewer` -Funktion.
 
-   Beachten Sie, dass die Reihenfolge wichtig ist, es sei denn, Sie geben die `z-index` in CSS an:
+   Beachten Sie, dass die Reihenfolge wichtig ist, es sei denn, Sie geben die `z-index` in CSS:
 
-   ```
+   ```CSS {.line-numbers}
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
    zoomInButton  = new s7sdk.common.ZoomInButton("s7container", params, "zoomInBtn"); 
    zoomOutButton = new s7sdk.common.ZoomOutButton("s7container", params, "zoomOutBtn"); 
@@ -324,9 +324,9 @@ Fügen Sie Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Z
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Definieren Sie nun einige grundlegende Stile für die Schaltflächen, indem Sie dem `style` -Block oben in Ihrer Datei Folgendes hinzufügen:
+1. Definieren Sie nun einige grundlegende Stile für die Schaltflächen, indem Sie Folgendes zum `style` -Block oben in Ihrer -Datei:
 
-   ```
+   ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
    .s7button { 
        position:absolute; 
@@ -358,23 +358,23 @@ Fügen Sie Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Z
 
 ## Vertikale Konfiguration der Farbfelder {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Sie können Modifikatoren direkt in der `ParameterManager`-Instanz konfigurieren.
+1. Sie können Modifikatoren direkt im `ParameterManager` -Instanz.
 
-   Fügen Sie oben in der Funktion `initViewer` Folgendes hinzu, damit Sie das Miniaturlayout `Swatches` als einzelne Zeile konfigurieren können:
+   Fügen Sie oben im `initViewer` -Funktion, damit Sie die `Swatches` Miniaturlayout als einzelne Zeile:
 
-   ```
+   ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
 1. Aktualisieren Sie den folgenden Größenaufruf in `resizeViewer`:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Bearbeiten Sie die folgende `s7swatches`-Regel in `ZoomViewer.css`:
+1. Bearbeiten Sie Folgendes `s7swatches` Regel in `ZoomViewer.css`:
 
-   ```
+   ```CSS {.line-numbers}
    .s7swatches { 
        top:0 ; 
        bottom: 0; 

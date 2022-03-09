@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe 
 
 Ein relativer Pfad sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -126,7 +126,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -140,7 +140,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition der statischen äußeren Viewer-Größe auf einer HTML-Seite:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -155,7 +155,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition der Viewer-Größe für den inneren `Container` SDK-Komponente, damit der Hauptansichtsbereich beim Wechseln des Assets seine Größe nicht ändert:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -182,7 +182,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Das Beispiel geht von `flyoutViewer` ist die Viewer-Instanz; `s7viewer` ist der Name des Platzhalters `DIV`; `http://s7d1.scene7.com/is/image/` ist die Image Serving-URL; und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var flyoutViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -196,7 +196,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Flyout-Viewer mit einer festen Größe einbettet:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -227,7 +227,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
 Mit responsiver Designeinbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Im folgenden Beispiel wird angenommen, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -256,7 +256,7 @@ Alle oben genannten Schritte sind mit der Einbettung in feste Größe identisch,
 * hinzugefügt `imagereload` Parameter mit expliziten Haltepunkten;
 * Anstatt eine feste Viewer-Größe mit absoluten Einheiten festzulegen, verwenden Sie CSS, das die Breite und Höhe des Viewers auf 100 % festlegt, wie im Folgenden gezeigt:
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -265,7 +265,7 @@ Alle oben genannten Schritte sind mit der Einbettung in feste Größe identisch,
 
 Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -308,7 +308,7 @@ Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit 
 
 Wenn eine Einbettung in flexibler Größe mit definierter Breite und Höhe erfolgt, unterscheidet sich der Webseitenstil. Sie bietet beide Größen für die `"holder"` DIV und zentriert es im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` auf 100 Prozent.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -334,7 +334,7 @@ height: 60%;
 
 Die übrigen Schritte zum Einbetten sind mit den Schritten für responsives Design identisch, das mit uneingeschränkter Höhe eingebettet wird. Das folgende Beispiel zeigt:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -381,7 +381,7 @@ Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-b
 
 Das folgende Beispiel zeigt die Verwendung der Einbettung fester Größe in eine setter-basierte API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

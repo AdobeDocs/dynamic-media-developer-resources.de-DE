@@ -5,7 +5,7 @@ keywords: responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Die visuelle Anpassung kann durch Anwendung von benutzerdefiniertem CSS erreicht
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer im neuen Fenster öffnet:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe 
 
 Der relative Pfad sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Die Größe in CSS kann direkt auf der HTML-Seite oder in der benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später einem Viewer-Vorgabendatensatz in AOD zugewiesen oder explizit mithilfe des Stilbefehls übergeben wird. Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter Anpassen des Viewers . Nachfolgend finden Sie ein Beispiel für die Definition der statischen Viewer-Größe auf der HTML-Seite:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ Der relative Pfad sieht wie folgt aus:
 
    `stagesize` -Modifikator kann explizit mit dem Viewer-Initialisierungscode mit der Parametersammlung oder als API-Aufruf übergeben werden, wie im Abschnitt Befehlsreferenz beschrieben:
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Dieses Beispiel geht von `panoramicViewer` die Viewer-Instanz ist, `s7viewer` ist der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] ist die Image Serving-URL und [!DNL Scene7SharedAssets/PanoramicImage-Sample] ist das Asset.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Panorama-Viewer mit einer festen Größe einbettet:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ Der relative Pfad sieht wie folgt aus:
 
 Mit der responsiven Einbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Container-DIV des Viewers bestimmt. Für die Zwecke dieses Beispiels nehmen wir an, dass die Web-Seite es dem Container-DIV des Viewers ermöglicht, 80 % der Fenstergröße des Webbrowsers zu erreichen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite könnte wie folgt aussehen:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung mit fe
 
 Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Das Container-DIV sollte zum bestehenden DIV &quot;Inhaber&quot;hinzugefügt werden. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ Die folgende Beispielseite veranschaulicht die reale Verwendung responsiver Desi
 
 Wenn ein responsives Design mit definierter Breite und Höhe eingebettet ist, unterscheidet sich der Webseitenstil. Es stellt beide Größen für den &quot;Inhaber&quot;bereit. `DIV` und zentrieren Sie sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` -Element auf 100 %:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 Die übrigen Einbettungsschritte sind mit der responsiven Einbettung mit uneingeschränkter Höhe identisch. Das resultierende Beispiel lautet
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-b
 
 Das folgende Beispiel zeigt die Einbettung fester Größe in eine setter-basierte API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

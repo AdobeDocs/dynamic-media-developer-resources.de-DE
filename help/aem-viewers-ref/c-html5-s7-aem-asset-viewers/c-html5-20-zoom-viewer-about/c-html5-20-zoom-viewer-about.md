@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 0%
@@ -98,9 +98,8 @@ Wenden Sie benutzerdefiniertes CSS an, um ein benutzerdefiniertes Erscheinungsbi
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer im neuen Fenster öffnet:
 
-```
- <a 
-href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
+```html {.line-numbers}
+ <a href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +136,7 @@ Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe 
 
 Der relative Pfad sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/ZoomViewer.js"></script>
 ```
 
@@ -156,7 +155,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -170,7 +169,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen äußeren Viewer-Größe auf der HTML-Seite:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +184,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition der Viewer-Größe für den inneren `Container` SDK-Komponente, damit der Hauptansichtsbereich beim Wechseln des Assets seine Größe nicht ändert:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -198,7 +197,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die `stagesize` -Modifikator im Viewer-Vorgabendatensatz in Dynamic Media Classic. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit dem `params` -Sammlung oder als API-Aufruf, wie im Abschnitt Befehlsreferenz dieser Hilfe beschrieben, wie im Folgenden gezeigt:
 
-   ```
+   ```html {.line-numbers}
     zoomViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -217,7 +216,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Dieses Beispiel geht von `zoomViewer` die Viewer-Instanz ist, `s7viewer` der Name des PlatzhalterDIV ist, `http://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Scene7SharedAssets/ImageSet-Views-Sample` ist das Asset.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var zoomViewer = new s7viewers.ZoomViewer({ 
     "containerId":"s7viewer", 
@@ -231,7 +230,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Video-Viewer mit einer festen Größe einbettet:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -262,7 +261,7 @@ Der relative Pfad sieht wie folgt aus:
 
 Mit responsiver Designeinbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Im folgenden Beispiel wird angenommen, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -286,7 +285,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 
 Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie dem vorhandenen Container-DIV hinzu. `"holder"` DIV. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -322,7 +321,7 @@ Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit 
 
 Wenn eine Einbettung in flexibler Größe mit definierter Breite und Höhe erfolgt, unterscheidet sich der Webseitenstil. Sie bietet beide Größen für die `"holder"` DIV und zentrieren Sie sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` auf 100 Prozent.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -348,7 +347,7 @@ height: 60%;
 
 Die übrigen Schritte zum Einbetten sind mit den Schritten für responsives Design identisch, das mit uneingeschränkter Höhe eingebettet wird. Das folgende Beispiel zeigt:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -390,7 +389,7 @@ Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-b
 
 Das folgende Beispiel zeigt die Verwendung der Einbettung fester Größe in eine setter-basierte API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

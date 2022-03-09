@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2160'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS err
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
-```
+```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe 
 
 Der relative Pfad sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
 ```
 
@@ -162,7 +162,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -176,7 +176,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +185,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die `stagesize` -Modifikator im Viewer-Vorgabendatensatz in Dynamic Media Classic. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, wie folgt:
 
-   ```
+   ```html {.line-numbers}
    eCatalogViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -200,7 +200,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Das Beispiel geht von `eCatalogViewer` ist die Viewer-Instanz; `s7viewer` ist der Name des Platzhalters `DIV`; `https://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Viewers/Pluralist` ist das Asset:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogViewer = new s7viewers.eCatalogViewer({ 
     "containerId":"s7viewer", 
@@ -214,7 +214,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den E-Katalog-Viewer mit einer festen Größe einbettet:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -245,7 +245,7 @@ Der relative Pfad sieht wie folgt aus:
 
 Mit responsiver Designeinbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Für die Zwecke dieses Beispiels nehmen Sie an, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der resultierende HTML-Code der Webseite sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -269,7 +269,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung in fes
 
 Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Container hinzufügen `DIV` an den bestehenden &quot;Inhaber&quot; `DIV`. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -305,7 +305,7 @@ Die folgende Beispielseite zeigt reale Anwendungsfälle responsiven Designs, die
 
 Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Das heißt, es stellt dem Inhaber beide Größen zur Verfügung. `DIV` und zentriert sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` -Element auf 100 %:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -331,7 +331,7 @@ height: 60%;
 
 Die restlichen Einbettungsschritte sind mit dem responsiven Design identisch, das mit uneingeschränkter Höhe eingebettet wird. Das folgende Beispiel zeigt:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -373,7 +373,7 @@ Statt die JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-ba
 
 Das folgende Beispiel zeigt die Einbettung von fester Größe in eine setter-basierte API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

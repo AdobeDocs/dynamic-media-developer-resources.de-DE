@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 5%
@@ -26,7 +26,7 @@ Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem View
 
 Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
-```
+```javascript {.line-numbers}
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

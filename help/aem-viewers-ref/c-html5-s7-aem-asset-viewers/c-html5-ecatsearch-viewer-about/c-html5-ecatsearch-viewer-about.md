@@ -6,7 +6,7 @@ title: eCatalog-Suche
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2180'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Der eCatalog Search Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von 
 
 Sie können den eCatalog Search Viewer im Popup-Modus verwenden, indem Sie eine produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird, oder im eingebetteten Modus, wo sie mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
-Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Die gesamte Skinning-Funktion wird über benutzerdefiniertes CSS erreicht.
+Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Alle Skins werden über benutzerdefiniertes CSS erstellt.
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -108,7 +108,7 @@ Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS err
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
@@ -128,7 +128,7 @@ Andernfalls, wenn die Webseite sowohl die Breite als auch die Höhe für den Con
 
 **Einbettung fester Größe**
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
+Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie wie folgt vorgehen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Definieren des Container-DIV.
@@ -145,7 +145,7 @@ Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe 
 
 Der relative Pfad sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
 ```
 
@@ -157,7 +157,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -171,7 +171,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
     height: 480px; 
@@ -180,7 +180,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die `stagesize` -Modifikator entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic oder übergeben Sie ihn explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, wie folgt:
 
-   ```
+   ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -195,7 +195,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Das Beispiel geht von `eCatalogSearchViewer` ist die Viewer-Instanz; `s7viewer` ist der Name des Platzhalters `DIV`; `https://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Viewers/Pluralist` ist das Asset:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
     "containerId":"s7viewer", 
@@ -210,7 +210,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den eCatalog Search Viewer mit einer festen Größe einbettet:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -242,7 +242,7 @@ Der relative Pfad sieht wie folgt aus:
 
 Mit responsiver Designeinbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Für die Zwecke dieses Beispiels nehmen Sie an, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der resultierende HTML-Code der Webseite sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -266,7 +266,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung in fes
 
 Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Container hinzufügen `DIV` an den bestehenden &quot;Inhaber&quot; `DIV`. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ Die folgende Beispielseite zeigt reale Anwendungsfälle responsiven Designs, die
 
 Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Das heißt, es stellt dem Inhaber beide Größen zur Verfügung. `DIV` und zentriert sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` -Element auf 100 %:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -329,7 +329,7 @@ height: 60%;
 
 Die restlichen Einbettungsschritte sind mit dem responsiven Design identisch, das mit uneingeschränkter Höhe eingebettet wird. Das folgende Beispiel zeigt:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -372,7 +372,7 @@ Statt die JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-ba
 
 Das folgende Beispiel zeigt die Einbettung von fester Größe in eine setter-basierte API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

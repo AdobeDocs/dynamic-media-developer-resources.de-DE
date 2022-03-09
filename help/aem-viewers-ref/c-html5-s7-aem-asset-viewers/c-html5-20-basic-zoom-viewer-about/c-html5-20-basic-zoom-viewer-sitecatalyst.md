@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5b9d871d-9f37-4908-900e-3f0ecc98bc0c
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem View
 
 Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
-```
+```javascript {.line-numbers}
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
  "containerId":"s7viewer", 
  "params":{ 

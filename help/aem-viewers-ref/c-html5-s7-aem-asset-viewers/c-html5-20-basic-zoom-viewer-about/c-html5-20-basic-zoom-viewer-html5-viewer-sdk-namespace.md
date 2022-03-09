@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 4ccdf8c2-6cf5-4cb3-af61-fab50f410566
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Daher ist es wichtig, beim Schreiben von benutzerdefiniertem Anwendungs-Code, de
 
 Wenn Sie beispielsweise die `StatusEvent.NOTF_VIEW_READY` -Ereignis und der Viewer vom Experience Manager bereitgestellt wird, lautet der vollqualifizierte Ereignistyp `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`und der Ereignis-Listener-Code sieht in etwa wie folgt aus:
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var zoomView = <instance>.getComponent("zoomView"); 

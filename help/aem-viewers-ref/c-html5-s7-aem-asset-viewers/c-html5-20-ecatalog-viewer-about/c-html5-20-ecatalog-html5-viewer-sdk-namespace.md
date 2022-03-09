@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c5286e1f-1f43-4cb8-b876-dc843f8112f5
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Daher ist es wichtig, beim Schreiben von benutzerdefiniertem Anwendungs-Code, de
 
 Wenn Sie beispielsweise `StatusEvent.NOTF_VIEW_READY` -Ereignis und der Viewer von Dynamic Media Classic aus bereitgestellt wird, lautet der vollqualifizierte Ereignistyp . `s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`und der Ereignis-Listener-Code sieht in etwa wie folgt aus:
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var pageView = <instance>.getComponent("pageView"); 

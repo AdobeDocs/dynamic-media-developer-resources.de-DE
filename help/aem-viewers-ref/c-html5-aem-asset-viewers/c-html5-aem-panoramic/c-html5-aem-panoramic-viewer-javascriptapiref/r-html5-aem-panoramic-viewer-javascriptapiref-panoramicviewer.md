@@ -4,7 +4,7 @@ description: Erstellen Sie eine neue HTML5-Karussell-Viewer-Instanz.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Keine.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-```
+```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
 	"containerId":"s7viewer",
 "params":{

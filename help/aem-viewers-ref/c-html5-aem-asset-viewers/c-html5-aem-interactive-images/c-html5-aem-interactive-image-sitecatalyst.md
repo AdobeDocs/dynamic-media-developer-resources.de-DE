@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 2%
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den Viewer-Rückruf `trackEvent` zu überwachen und das `eventInfo`-Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
-```
+```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
  "containerId":"s7viewer", 
  "params":{ 

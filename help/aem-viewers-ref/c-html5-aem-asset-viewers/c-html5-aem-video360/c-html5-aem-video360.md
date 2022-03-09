@@ -1,11 +1,11 @@
 ---
 title: Video360
-description: Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert sind und aus Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media bereitgestellt werden.
+description: Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert sind und von Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media bereitgestellt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert sind und aus Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media bereitgestellt werden.
+Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert sind und von Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media bereitgestellt werden.
 
 360-Grad-Videos, auch als interaktive Videos oder kugelförmige Videos bezeichnet, sind Videoaufnahmen, bei denen gleichzeitig eine Ansicht in jede Richtung aufgezeichnet wird, die mit einer omnidirektionalen Kamera oder einer Kamerasammlung aufgenommen wurde. Es werden sowohl einzelne Video- als auch adaptive Videosets unterstützt. Der Viewer unterstützt auch die Arbeit mit progressiven Videos und HLS-Streams, die auf einem externen Speicherort gehostet werden.
 
@@ -100,7 +100,7 @@ Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS err
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
 
@@ -112,7 +112,7 @@ Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets 
 
 Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Methode eignet sich am besten für Webseiten mit statischem Layout.
 
-Responsives Design-Einbetten setzt voraus, dass die Größe des Viewers zur Laufzeit geändert werden muss, um der Größenänderung des Containers Rechnung zu tragen `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Responsives Design-Einbetten setzt voraus, dass die Größe des Viewers zur Laufzeit geändert werden muss, wenn die Größe des Containers geändert wird `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
 Im Einbettungsmodus für responsives Design verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite den Container dimensioniert `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`Wenn die Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Webdesign-Layoutrahmen wie Bootstrap und Foundation verwenden.
 
@@ -120,7 +120,7 @@ Andernfalls, wenn die Webseite sowohl die Breite als auch die Höhe für den Con
 
 **Einbettung fester Größe**
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
+Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie wie folgt vorgehen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Container definieren `DIV`.
@@ -137,7 +137,7 @@ Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe 
 
 Der relative Pfad sieht wie folgt aus:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
 ```
 
@@ -158,7 +158,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für einen definierten Platzhalter. `DIV` element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
    ```
 
@@ -172,7 +172,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
     width: 640px; 
     height: 640px; 
@@ -181,7 +181,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die `stagesize` -Modifikator im Viewer-Vorgabendatensatz in AEM Assets - On-Demand. Oder Sie können sie explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung oder als API-Aufruf, wie im Abschnitt Befehlsreferenz beschrieben:
 
-   ```
+   ```html {.line-numbers}
    video360viewer.setParam("stagesize", "640,640");
    ```
 
@@ -205,7 +205,7 @@ Der relative Pfad sieht wie folgt aus:
    * Die Videoserver-URL lautet `https://s7d9.scene7.com/is/content`.
    * Das Asset ist `Viewers/space_station_360-AVS`.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var video360Viewer = new s7viewers.Video360Viewer({ 
     "containerId":"s7viewer", 
@@ -220,7 +220,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Video360-Viewer mit einer festen Größe einbettet:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -252,7 +252,7 @@ Der relative Pfad sieht wie folgt aus:
 
 Mit responsiver Designeinbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Im folgenden Beispiel wird angenommen, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -276,7 +276,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 
 Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie dem vorhandenen Container-DIV hinzu. `"holder"` DIV. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -309,7 +309,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 Wenn eine responsive Einbettung mit definierter Breite und Höhe erfolgt, unterscheidet sich der Webseitenstil. Sie bietet beide Größen für die `"holder"` DIV und zentrieren Sie sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` auf 100 Prozent.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ height: 60%;
 
 Die übrigen Schritte zum Einbetten sind mit den Schritten identisch, die für das responsive Einbetten mit uneingeschränkter Höhe verwendet werden. Das folgende Beispiel zeigt:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -378,7 +378,7 @@ Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-b
 
 Das folgende Beispiel zeigt die Verwendung der Einbettung mit fester Größe in die setter-basierte API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

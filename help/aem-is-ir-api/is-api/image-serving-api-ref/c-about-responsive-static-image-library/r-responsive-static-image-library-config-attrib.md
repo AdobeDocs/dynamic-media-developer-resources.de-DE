@@ -5,9 +5,9 @@ title: Befehlsreferenz - Konfigurationsattribute
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Konfigurationsattribute werden als Attribute direkt auf einem IMG-Element defini
 
 Optional.
 
-URL zum Bild, das von Image Serving bereitgestellt wird. Wenn die URL nicht vorhanden ist, verwendet die Bibliothek den Wert, der im Attribut `src` festgelegt ist, als Fallback. Dieses Attribut stellt das Anfangsbild und das dynamische Bild bereit, das von der Bibliothek für responsives Bild von verschiedenen Orten aus verwaltet wird.
+URL zum Bild, das von Image Serving bereitgestellt wird. Wenn die URL nicht vorhanden ist, verwendet die Bibliothek den Wert, der in `src` -Attribut als Fallback. Dieses Attribut stellt das Anfangsbild und das dynamische Bild bereit, das von der Bibliothek für responsives Bild von verschiedenen Orten aus verwaltet wird.
 
 **Beispiel**
 
@@ -30,13 +30,13 @@ URL zum Bild, das von Image Serving bereitgestellt wird. Wenn die URL nicht vorh
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
-Wenn `data-src` festgelegt ist, ist `src` optional und kann jede URL enthalten, die Sie hinzufügen möchten. Beispielsweise kann es eine URL zum selben Bild enthalten, das auf Image Serving basiert und von der Bibliothek verwendet wird. Oder sie kann einen GIF-Platzhalter oder sogar einen Daten-URI enthalten, um einen zusätzlichen Server-Round-Trip beim Start zu vermeiden.
+Wenn `data-src` festgelegt ist, `src` ist optional und kann jede URL enthalten, die Sie hinzufügen möchten. Beispielsweise kann es eine URL zum selben Bild enthalten, das auf Image Serving basiert und von der Bibliothek verwendet wird. Oder sie kann einen GIF-Platzhalter oder sogar einen Daten-URI enthalten, um einen zusätzlichen Server-Round-Trip beim Start zu vermeiden.
 
-Wenn `data-src` nicht festgelegt ist, ist `src` erforderlich und muss eine URL zum Bild enthalten, das von Image Serving bereitgestellt wird.
+Wenn `data-src` nicht festgelegt ist, `src` ist obligatorisch und muss eine URL zum Bild enthalten, das von Image Serving bereitgestellt wird.
 
 **Beispiel**
 
-Verwenden des Daten-URI für das Attribut `src` und der Image Serving-URL für das Attribut `data-src` :
+Verwenden des Daten-URI für `src` -Attribut und Image Serving-URL für `data-src` Attribut:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -44,13 +44,13 @@ Verwenden des Daten-URI für das Attribut `src` und der Image Serving-URL für d
 
 ## Datenhaltepunkte {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
-Eine kommagetrennte Liste von Haltepunkten und optional mit einem Doppelpunkt ( `:`) sowie Image Serving-Befehlen oder Bildvorgaben. Jeder Breakpoint ist ein Bildbreitenwert, der in logischen CSS-Pixeln definiert ist. Die Bibliothek lädt das Bild mit dem nächstgrößeren Wert aus der Liste und lädt es auf den Client herunter, um es der CSS-Bildbreite der Laufzeitumgebung anzupassen. (Wenn Sie auf einem Bildschirm mit hoher Dichte arbeiten, stellen die vom Server geladenen Bildausgabeformate Breakpoint-Werte dar, multipliziert mit dem Pixelverhältnis des Geräts.)
+Eine kommagetrennte Liste von Haltepunkten, optional gefolgt von einem Doppelpunkt ( `:`) und Image Serving-Befehle oder Bildvorgaben. Jeder Breakpoint ist ein Bildbreitenwert, der in logischen CSS-Pixeln definiert ist. Die Bibliothek lädt das Bild mit dem nächstgrößeren Wert aus der Liste und lädt es auf den Client herunter, um es der CSS-Bildbreite der Laufzeitumgebung anzupassen. (Wenn Sie auf einem Bildschirm mit hoher Dichte arbeiten, stellen die vom Server geladenen Bildausgabeformate Breakpoint-Werte dar, multipliziert mit dem Pixelverhältnis des Geräts.)
 
 Für jeden Haltepunkt aus der Liste ist es möglich, einen oder mehrere Image Serving-Befehle oder Bildvorgabennamen zu definieren. Solche zusätzlichen Parameter werden nur auf das Bild angewendet, wenn dieser bestimmte Breakpoint aktuell aktiv ist.
 
-Sie können jeden unterstützten Image Serving-Befehl verwenden, mit Ausnahme der Ansichtsbefehle, die sich auf die Größe des Antwortbilds auswirken, z. B. `wid=`, `hei=` oder `scl=`. Dasselbe gilt für Bildvorgaben: Eine Bildvorgabe, die mit der responsiven Bildbibliothek verwendet wird, darf solche Befehle nicht enthalten.
+Sie können jeden unterstützten Image Serving-Befehl verwenden, mit Ausnahme der Ansichtsbefehle, die sich auf die Größe des Antwortbilds auswirken, z. B. `wid=`, `hei=`oder `scl=`. Dasselbe gilt für Bildvorgaben: Eine Bildvorgabe, die mit der responsiven Bildbibliothek verwendet wird, darf solche Befehle nicht enthalten.
 
-Mehrere Image Serving-Befehle oder Bildvorgabennamen werden durch das Zeichen &quot;`&`&quot;getrennt. Wenn ein Image Serving-Befehl ein Komma in seinem Wert hat, wird dieses Komma durch `%2C` ersetzt. Bildvorgabennamen werden in Dollarzeichen ( `$`) eingeschlossen.
+Mehrere Image Serving-Befehle oder Bildvorgabennamen werden durch &quot;&quot;getrennt. `&`&quot;. Wenn ein Image Serving-Befehl ein Komma in seinem Wert hat, wird dieses Komma durch `%2C`. Namen von Bildvorgaben werden in Dollarzeichen ( `$`).
 
 **Beispiele**
 
@@ -74,23 +74,23 @@ Mehrere Image Serving-Befehle oder Bildvorgabennamen werden durch das Zeichen &q
 
 Die folgenden beiden smarten Zuschneidemodi sind in AEM 6.4 und höher sowie in Dynamic Media Viewers 5.9 und höher verfügbar:
 
-* **Manuell** : Benutzerdefinierte Haltepunkte und entsprechende Image Service-Befehle werden innerhalb eines Attributs im Bildelement definiert.
-* **Smartes Zuschneiden** : Berechnete Ausgabedarstellungen für smartes Zuschneiden werden automatisch vom Versandserver abgerufen. Die beste Ausgabedarstellung wird mithilfe der Laufzeitgröße des Bildelements ausgewählt.
+* **Manuell** - Benutzerdefinierte Haltepunkte und entsprechende Image Service-Befehle werden innerhalb eines Attributs im Bildelement definiert.
+* **Smartes Zuschneiden** - Berechnete Ausgabedarstellungen für smartes Zuschneiden werden automatisch vom Bereitstellungsserver abgerufen. Die beste Ausgabedarstellung wird mithilfe der Laufzeitgröße des Bildelements ausgewählt.
 
-Um den Modus Smartes Zuschneiden zu verwenden, legen Sie das Attribut `data-mode` auf `smart crop` fest.
+Um den Modus Smartes Zuschneiden zu verwenden, legen Sie die `data-mode` Attribut `smart crop`.
 
 **Beispiel**
 
-```
+```html {.line-numbers}
 <img 
 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
 data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset" 
 data-mode="smartcrop">
 ```
 
-Das verknüpfte Bildelement sendet während der Laufzeit ein `s7responsiveViewer` -Ereignis, wenn sich der Breakpoint ändert.
+Das zugehörige Bildelement sendet einen `s7responsiveViewer` -Ereignis während der Laufzeit, wenn sich der Breakpoint ändert.
 
-```
+```html {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
            var s7event = event.s7responsiveViewerEvent; 
            if(s7event.type == "breakpointchanged") { 
