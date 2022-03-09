@@ -2,13 +2,13 @@
 description: Assets, die zu einem Bildset gehören.
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic,SDK/API,Bildsets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: f0857d98-be79-40a6-8a84-c2c7b4c423c5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 6%
 
 Assets, die zu einem Bildset gehören.
 
-Seitenrücksetzung bedeutet, dass ein [!DNL eCatalog] eine neue Seite starten sollte. `RenderSet` zeigt an, dass es Teil eines  `RenderSet` Farb-/Bildmusters ist. Der Wert wird für `eCatalog`- und `RenderSet`-Sets auf `true` erzwungen.
+Seitenrücksetzung bedeutet, dass eine [!DNL eCatalog] eine neue Seite starten. `RenderSet` gibt an, dass es Teil eines `RenderSet` Muster. Der Wert muss `true` für `eCatalog` und `RenderSet` Sets.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`asset`*` | `type:Asset` | Assets im Bildset-Array. |
-| `*`pageReset`*` | `xsd:boolean` | Startet eine neue Seite. Einstellung wird ignoriert und der Wert für `eCatalog`- und `RenderSet`-Sets wird auf `true` erzwungen. |
+| asset | `type:Asset` | Assets im Bildset-Array. |
+| pageReset | `xsd:boolean` | Startet eine neue Seite. Einstellung wird ignoriert und Wert wird erzwungen `true` für `eCatalog` und `RenderSet` Sets. |

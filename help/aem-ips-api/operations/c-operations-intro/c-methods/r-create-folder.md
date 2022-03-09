@@ -5,10 +5,10 @@ title: createFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 17%
+source-wordcount: '118'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ Erstellt einen Ordner.
 
 >[!NOTE]
 >
->Der neue Ordner ist auf den Ordner Bilder Untergeordnet, auch wenn Sie einen `/` angeben, um den Stammordner des Unternehmens anzugeben.
+>Der neue Ordner ist auf den Ordner Bilder Untergeordnet, auch wenn Sie eine `/` , um den Stammordner des Unternehmens anzugeben.
 
 Syntax
 
@@ -41,14 +41,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Umgang mit dem Unternehmen |
-| `*`folderPath`*` | `xsd:string` | Ja | Der Stammordner, der zum Abrufen von Ordnern und allen Unterordnern auf Blattebene verwendet wird. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
+| companyHandle | `xsd:string` | Ja | Der Umgang mit dem Unternehmen |
+| folderPath | `xsd:string` | Ja | Der Stammordner, der zum Abrufen von Ordnern und allen Unterordnern auf Blattebene verwendet wird. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
 
 **Ausgabe (createFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Umgang mit dem neuen Ordner. |
+| folderHandle | `xsd:string` | Ja | Umgang mit dem neuen Ordner. |
 
 ## Beispiele {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

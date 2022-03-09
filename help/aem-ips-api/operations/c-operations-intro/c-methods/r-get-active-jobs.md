@@ -5,9 +5,9 @@ title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---
@@ -35,15 +35,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen. |
-| `*`jobHandle`*` | `xsd:string` | Nein | Der Griff zum Auftrag. |
-| `*`originalName`*` | `xsd:string` | Nein | Ursprünglicher Auftragsname. |
+| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen. |
+| jobHandle | `xsd:string` | Nein | Der Griff zum Auftrag. |
+| originalName | `xsd:string` | Nein | Ursprünglicher Auftragsname. |
 
 **Ausgabe (getActiveJobsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`jobArray`*` | `xsd:string` | Ja | Array aktiver Aufträge. |
+| jobArray | `xsd:string` | Ja | Array aktiver Aufträge. |
 
 ## Beispiele {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 

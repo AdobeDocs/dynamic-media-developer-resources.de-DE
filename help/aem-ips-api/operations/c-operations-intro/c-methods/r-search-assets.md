@@ -5,9 +5,9 @@ title: searchAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 7%
 
 ---
@@ -24,11 +24,11 @@ Syntax
 
 **Antwortgröße**
 
-`searchAssets` gibt bis zu 1000 Assets in einem einzelnen Aufruf zurück. Um bis zu 10.000 Assets pro Aufruf zurückzugeben, beschränken Sie die Antwortdaten auf eine Untergruppe der Felder `totalRows`, `name`, `handle`, `type` und `subType`. Um größere Sets zurückzugeben, richten Sie die Paging-Umgebung mit dem Parameter `resultPage` ein.
+`searchAssets` gibt bis zu 1000 Assets in einem einzelnen Aufruf zurück. Um bis zu 10.000 Assets pro Aufruf zurückzugeben, begrenzen Sie die Antwortdaten auf eine Untergruppe der `totalRows`, `name`, `handle`, `type`und `subType` -Felder. Um größere Sets zurückzugeben, richten Sie die Paging-Funktion mit der `resultPage` Parameter.
 
 **Limit Result File Size with responseFieldArray or excludeFieldArray**
 
-Begrenzen Sie die Größe Ihres Datensatzes mit den Parametern `responseFieldArray` oder `excludFieldArray` . Diese Parameter helfen, die Speicherbelegung und Bandbreite zu reduzieren und die Reaktionszeiten der Server zu verbessern.
+Begrenzen Sie die Größe Ihres Datensatzes mit der `responseFieldArray` oder `excludFieldArray` Parameter. Diese Parameter helfen, die Speicherbelegung und Bandbreite zu reduzieren und die Reaktionszeiten der Server zu verbessern.
 
 ## Autorisierte Benutzertypen {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -90,7 +90,7 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den Parametern `responseFieldArr
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Auf <span class="codeph"> true</span> setzen, um Unterordner zu suchen. </td> 
+   <td colname="col4">Legen Sie fest auf <span class="codeph"> true</span> , um Unterordner zu suchen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -108,19 +108,19 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den Parametern `responseFieldArr
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Auswahl der Suchübereinstimmungsmodi für die Kombination der Ergebnisse von <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> und  <span class="codeph"> metadataConditionArray</span>. Der Standardwert ist <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Auswahl der Suchübereinstimmungsmodi für die Kombination der Ergebnisse von <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>und <span class="codeph"> metadataConditionArray</span>. Der Standardwert ist <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p> <p>Hinweis:  Veraltete Parameter. Es wird empfohlen, es nicht zu verwenden. </p> </p> <p>Ein Zeichenfolgen-Array mit Suchbegriffen, die abgeglichen werden sollen. </p> </td> 
+   <td colname="col4"> <p> <p>Hinweis: Veraltete Parameter. Es wird empfohlen, es nicht zu verwenden. </p> </p> <p>Ein Zeichenfolgen-Array mit Suchbegriffen, die abgeglichen werden sollen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Auswahl der Suchübereinstimmungsmodi für die Kombination von <span class="codeph"> systemFieldCondition</span> Übereinstimmungen. Der Standardwert ist <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Auswahl der Suchübereinstimmungsmodi für die Kombination <span class="codeph"> systemFieldCondition</span> Treffer. Der Standardwert ist <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -138,13 +138,13 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den Parametern `responseFieldArr
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:TagConditionArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Ein Array von Tag-Feld-Sucheigenschaften. </p> <p>Eigenschaften werden gemäß der Einstellung <span class="codeph"> tagMatchMode</span> kombiniert und dann mit allen Begriffen in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> und <span class="codeph"> metadataConditionArray</span> gemäß <span class="codeph"> conditionMatchMode</span> -Einstellung. </p> </td> 
+   <td colname="col4"> <p>Ein Array von Tag-Feld-Sucheigenschaften. </p> <p>Die Kombination von Prädikaten erfolgt gemäß <span class="codeph"> tagMatchMode</span> und dann mit allen Begriffen in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>und <span class="codeph"> metadataConditionArray</span> gemäß <span class="codeph"> conditionMatchMode</span> -Einstellung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Suchübereinstimmungsmodi zum Kombinieren von <span class="codeph"> metadataCondition</span> Übereinstimmungen. Der Standardwert ist <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Suchübereinstimmungsmodi für die Kombination <span class="codeph"> metadataCondition</span> Treffer. Der Standardwert ist <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,7 +174,7 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den Parametern `responseFieldArr
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer ist, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. Wenn <span class="codeph"> false</span> (Standard), werden Assets ohne definierten Untertyp zurückgegeben. </td> 
+   <td colname="col4">Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> ist nicht leer, nur Assets, deren Untertypen in <span class="codeph"> assetSubTypeArray</span> zurückgegeben. Wenn <span class="codeph"> false</span> (Standard), werden Assets ohne definierten Untertyp zurückgegeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -204,7 +204,7 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den Parametern `responseFieldArr
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Gibt die Seite der zurückzugebenden Ergebnisse basierend auf der Seitengröße <span class="codeph"> recordsPerPage</span> an. </td> 
+   <td colname="col4">Gibt die Ergebnisseite an, die zurückgegeben werden soll, basierend auf <span class="codeph"> recordsPerPage</span> Seitengröße. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -237,8 +237,8 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den Parametern `responseFieldArr
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Nein | Anzahl der Zeilen, die eine Suche zurückgibt, wenn Datensätze pro Seite nicht beschränkt sind. |
-| `*`assetArray`*` | `types:AssetArray` | Nein | Assets, die von der Suche zurückgegeben werden. |
+| totalRows | `xsd:int` | Nein | Anzahl der Zeilen, die eine Suche zurückgibt, wenn Datensätze pro Seite nicht beschränkt sind. |
+| assetArray | `types:AssetArray` | Nein | Assets, die von der Suche zurückgegeben werden. |
 
 ## Beispiele {#section-725484cc09b54772a838ad2cc930b94b}
 

@@ -5,10 +5,10 @@ title: checkLogin
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 12%
+source-wordcount: '145'
+ht-degree: 13%
 
 ---
 
@@ -38,19 +38,19 @@ Prüft, ob sich ein Benutzer mit einem bestimmten Unternehmen (identifiziert dur
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen, das den Benutzer enthält. |
-| `*`E-Mail`*` | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
-| `*`Passwort`*` | `xsd:string` | Ja | Das Kennwort des Benutzers. |
+| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen, das den Benutzer enthält. |
+| E-Mail | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
+| Passwort | `xsd:string` | Ja | Das Kennwort des Benutzers. |
 
 **Ausgabe (checkLoginParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`status`*` | `xsd:string` | Ja | Anmeldestatus des Benutzers. |
+| status | `xsd:string` | Ja | Anmeldestatus des Benutzers. |
 
 ## Beispiele {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Dieser Beispielcode verwendet einen Unternehmens-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu bestimmen, ob sich ein Benutzer bei IPS anmelden kann. Wenn sich der Benutzer *can* anmeldet, gibt diese Methode die Zeichenfolge `ValidLogin` zurück. Wenn sich der Benutzer *nicht* anmelden kann, gibt diese Methode die Zeichenfolge `InvalidLogin` zurück.
+Dieser Beispielcode verwendet einen Unternehmens-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu bestimmen, ob sich ein Benutzer bei IPS anmelden kann. Wenn der Benutzer *can* anmelden, gibt diese Methode die Zeichenfolge zurück, `ValidLogin`. Wenn der Benutzer *cannot* anmelden, gibt diese Methode die Zeichenfolge zurück, `InvalidLogin`.
 
 **Anforderung**
 

@@ -5,10 +5,10 @@ title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 24%
+source-wordcount: '68'
+ht-degree: 26%
 
 ---
 
@@ -34,15 +34,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| `*`compressionPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP Paket, das Sie einstellen oder aktualisieren möchten. |
+| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| assetHandle | `xsd:string` | Ja | Asset-Handle. |
+| compressionPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP Paket, das Sie einstellen oder aktualisieren möchten. |
 
 **Ausgabe (updateXMPPacketReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Erfolg`*` | `xsd:boolean` | Ja | Gibt `true` zurück, wenn das Paket aktualisiert wurde. |
+| Erfolg | `xsd:boolean` | Ja | Rückgabe `true` wenn das Paket aktualisiert wurde. |
 
 ## Beispiele {#section-38b556b94e5044bf97a954519ff6c212}
 

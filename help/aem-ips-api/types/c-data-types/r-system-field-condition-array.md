@@ -5,10 +5,10 @@ title: SystemFieldConditionArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:SystemFieldConditions` | Ein Array von Systemfeldbedingungen. |
+| Elemente | `types:SystemFieldConditions` | Ein Array von Systemfeldbedingungen. |

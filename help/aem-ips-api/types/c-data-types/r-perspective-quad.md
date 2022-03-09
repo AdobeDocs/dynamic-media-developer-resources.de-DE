@@ -5,10 +5,10 @@ title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
 
@@ -22,18 +22,18 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | X-Achsen-Koordinate oben links. |
-| `*`y0`*` | `xsd:double` | Koordinate der Y-Achse oben links. |
-| `*`x1`*` | `xsd:double` | Koordinate der X-Achse oben rechts. |
-| `*`y1`*` | `xsd:double` | Koordinate der y-Achse oben rechts. |
-| `*`x2`*` | `xsd:double` | Koordinate der X-Achse unten rechts. |
-| `*`y2`*` | `xsd:double` | Koordinate der Y-Achse unten rechts. |
-| `*`x3`*` | `xsd:double` | X-Achsen-Koordinate unten links. |
-| `*`y3`*` | `xsd:double` | Koordinate der Y-Achse unten links. |
+| x0 | `xsd:double` | X-Achsen-Koordinate oben links. |
+| y0 | `xsd:double` | Koordinate der Y-Achse oben links. |
+| x1 | `xsd:double` | Koordinate der X-Achse oben rechts. |
+| y1 | `xsd:double` | Koordinate der y-Achse oben rechts. |
+|  x 2 | `xsd:double` | Koordinate der X-Achse unten rechts. |
+| y2 | `xsd:double` | Koordinate der Y-Achse unten rechts. |
+| x3 | `xsd:double` | X-Achsen-Koordinate unten links. |
+| y3 | `xsd:double` | Koordinate der Y-Achse unten links. |
 
 ## Beispiel {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Der Typ `PerspectiveQuad` gibt Daten in dieser Reihenfolge zurück:
+Die `PerspectiveQuad` type gibt Daten in dieser Reihenfolge zurück:
 
 ```
 <complexType name="PerspectiveQuad">

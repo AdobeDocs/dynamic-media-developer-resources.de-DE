@@ -5,10 +5,10 @@ title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
@@ -29,13 +29,13 @@ Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen, dessen Festplattenauslastung Sie abrufen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, dessen Festplattenauslastung Sie abrufen möchten. |
 
 **Ausgabe (getDiskUsageReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | Ja | Array der Unternehmensdatenträger. |
+| diskUsageArray | `types:DiskUsageArray` | Ja | Array der Unternehmensdatenträger. |
 
 ## Beispiele {#section-cb16a97badc94076ad5da277db5ed16a}
 

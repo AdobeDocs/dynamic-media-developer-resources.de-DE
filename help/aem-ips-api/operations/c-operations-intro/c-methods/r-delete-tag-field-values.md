@@ -5,9 +5,9 @@ title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '87'
 ht-degree: 13%
 
 ---
@@ -28,9 +28,9 @@ Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, das das Tag-Feld enthält. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
-| `*`valueArray`*` | `types:StringArray` | Ja | Ein Array von Tag-Werten, die aus dem Wörterbuch des Felds gelöscht werden sollen. |
+| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, das das Tag-Feld enthält. |
+| fieldHandle | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
+| valueArray | `types:StringArray` | Ja | Ein Array von Tag-Werten, die aus dem Wörterbuch des Felds gelöscht werden sollen. |
 
 **Ausgabe (deleteTagFieldValuesParam)**
 

@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 12%
@@ -31,19 +31,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Ja | Bestimmt den Papierkorbsstatus, nach dem gesucht werden soll. |
-| `*`includeInactive`*` | `xsd:boolean` | Ja | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
-| `*`includeInvalid`*` | `xsd:boolean` | Nein | Ungültige Benutzer ein- oder ausschließen. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Unternehmen. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Filtert Ergebnisse basierend auf Gruppen. |
-| `*`userRoleArray`*` | `types:StringArray` | Nein | Filtert Ergebnisse basierend auf der Benutzerrolle. |
-| `*`numChars`*` | `xsd:int` | Nein | Aktivieren Sie >1 Zeichen. |
+| charField | `xsd:string` | Ja | Bestimmt den Papierkorbsstatus, nach dem gesucht werden soll. |
+| includeInactive | `xsd:boolean` | Ja | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
+| includeInvalid | `xsd:boolean` | Nein | Ungültige Benutzer ein- oder ausschließen. |
+| companyHandleArray | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Unternehmen. |
+| groupHandleArray | `types:HandleArray` | Nein | Filtert Ergebnisse basierend auf Gruppen. |
+| userRoleArray | `types:StringArray` | Nein | Filtert Ergebnisse basierend auf der Benutzerrolle. |
+| numChars | `xsd:int` | Nein | Aktivieren Sie >1 Zeichen. |
 
 **Ausgabe (getUserCharsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | Ja | Ein Array von Zeichenpräfixen. |
+| userCharsArray | `types:StringArray` | Ja | Ein Array von Zeichenpräfixen. |
 
 ## Beispiele {#section-3702f165e8b041139a6144f4a76ca25f}
 

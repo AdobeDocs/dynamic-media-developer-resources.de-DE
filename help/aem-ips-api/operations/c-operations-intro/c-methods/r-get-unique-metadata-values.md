@@ -2,13 +2,13 @@
 description: Ruft eindeutige Metadatenfeldwerte ab.
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadaten
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 25%
+source-wordcount: '57'
+ht-degree: 28%
 
 ---
 
@@ -34,14 +34,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| `*`fieldHandle`*` | `xsd:string` | Nein | Umgang mit Metadatenfeldern. |
+| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| fieldHandle | `xsd:string` | Nein | Umgang mit Metadatenfeldern. |
 
 **Ausgabe (getUniqueMetadataValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Werte`*` | `type:StringArray` |  |  |
+| Werte | `type:StringArray` |  |  |
 
 ## Beispiele {#section-440f3bc3e5be436cb6ec26117d05f476}
 

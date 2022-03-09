@@ -5,9 +5,9 @@ title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ Fügt ein Unternehmen zum System hinzu.
 
 Sendet den Namen des Unternehmens, das zum System hinzugefügt werden soll, und sendet optional, ob das Unternehmen abläuft.
 
-Wenn dieser Vorgang aufgerufen wird, erhält das System den Typ `*`companyInfo`*` , der einen Unternehmens-Handle und beschreibende Felder enthält. Wenn der angeforderte Unternehmensname bereits im System vorhanden ist, wird ein `ipsApiFault` ausgegeben.
+Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der ein Unternehmens-Handle und beschreibende Felder enthält. Wenn der angeforderte Unternehmensname bereits im System vorhanden ist, wird ein `ipsApiFault`.
 
 ## Autorisierte Benutzertypen {#section-ae926c7672984be79f6102748accab72}
 

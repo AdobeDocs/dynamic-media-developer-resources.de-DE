@@ -5,10 +5,10 @@ title: saveImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: cafbd715-237b-4454-920e-643f0c84e208
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 11%
+source-wordcount: '146'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Erstellt ein Bildformat.
 
 >[!NOTE]
 >
->Der Feldwert `urlModifier` muss aus einer gültigen XML bestehen. Ändern Sie beispielsweise `&` in `&`. Rufen Sie den Wert `urlModfier` von der IPS-Benutzeroberfläche ab.
+>Die `urlModifier` -Feldwert muss aus einer gültigen XML bestehen. Ändern Sie beispielsweise `&` nach `&`. Rufen Sie die `urlModfier` -Wert aus der IPS-Benutzeroberfläche.
 
 ## Autorisierte Benutzertypen {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,20 +33,20 @@ Erstellt ein Bildformat.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Bildformat, mit dem Sie arbeiten möchten. |
-| `*`imageFormatHandle`*` | `xsd:string` | Nein | Bildformat-Handle, das Sie speichern möchten. |
-| `*`name`*` | `xsd:string` | Ja | Name des Bildformats. |
-| `*`urlModifier`*` | `xsd:string` | Ja | Dies kann eine beliebige IPS-Protokoll-Abfragezeichenfolge sein. Die einfachste Möglichkeit, einen URL-Modifikator zu generieren, besteht darin, einen mit der IPS-Benutzeroberfläche zu erstellen und dann die Abfragezeichenfolge auszuschneiden und einzufügen. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Bildformat, mit dem Sie arbeiten möchten. |
+| imageFormatHandle | `xsd:string` | Nein | Bildformat-Handle, das Sie speichern möchten. |
+| name | `xsd:string` | Ja | Name des Bildformats. |
+| urlModifier | `xsd:string` | Ja | Dies kann eine beliebige IPS-Protokoll-Abfragezeichenfolge sein. Die einfachste Möglichkeit, einen URL-Modifikator zu generieren, besteht darin, einen mit der IPS-Benutzeroberfläche zu erstellen und dann die Abfragezeichenfolge auszuschneiden und einzufügen. |
 
 **Ausgabe (saveImageFormatReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | Ja | Umgang mit dem Bildformat. |
+| imageFormatHandle | `xsd:string` | Ja | Umgang mit dem Bildformat. |
 
 ## Beispiele {#section-c7bd733212ef494297a97093f3af193f}
 
-Dieses Codebeispiel erstellt ein Bildformat. In diesem Beispiel wurde `urlModifier` durch den Wert in der IPS-Benutzeroberfläche mit einem gültigen HTML-Format bestimmt.
+Dieses Codebeispiel erstellt ein Bildformat. In diesem Beispiel `urlModifier` wurde durch seinen Wert in der IPS-Benutzeroberfläche mit einem gültigen HTML-Format bestimmt.
 
 **Anforderung**
 

@@ -5,10 +5,10 @@ title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
 
@@ -30,10 +30,10 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Ordner-Handle. |
-| `*`updateChildren`*` | `xsd:boolean` | Ja | Bestimmt, ob untergeordnete Elemente mit für den Ordner der obersten Ebene festgelegten Berechtigungen aktualisiert werden. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Ja | Das Array der Berechtigungen, die Sie auf den Ordner anwenden möchten. |
+| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| folderHandle | `xsd:string` | Ja | Ordner-Handle. |
+| updateChildren | `xsd:boolean` | Ja | Bestimmt, ob untergeordnete Elemente mit für den Ordner der obersten Ebene festgelegten Berechtigungen aktualisiert werden. |
+| updateArray | `types:PermissionUpdateArray` | Ja | Das Array der Berechtigungen, die Sie auf den Ordner anwenden möchten. |
 
 **Ausgabe (updateFolderPermissionsReturn)**
 

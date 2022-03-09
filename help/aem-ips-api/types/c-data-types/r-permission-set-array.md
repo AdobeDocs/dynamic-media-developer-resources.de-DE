@@ -5,10 +5,10 @@ title: PermissionSetArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b6019cf9-8c3a-48a7-b7bb-fa2191a958fa
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 33%
+source-wordcount: '13'
+ht-degree: 46%
 
 ---
 
@@ -20,4 +20,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:PermissionSet` | Array von Berechtigungssätzen. |
+| Elemente | `types:PermissionSet` | Array von Berechtigungssätzen. |

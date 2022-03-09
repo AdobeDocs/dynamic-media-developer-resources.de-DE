@@ -5,10 +5,10 @@ title: updatePropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
@@ -36,9 +36,9 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Ja | Behandeln Sie den Eigenschaftssatz. |
-| `*`replaceProperties`*` | `xsd:string` | Nein | Auf `true` setzen, um Eigenschaften zu ersetzen. |
-| `*`propertyArray`*` | `types:PropertyArray` | Ja | Array mit aktualisierten Eigenschaften für den Eigenschaftssatz. |
+| setHandle | `xsd:string` | Ja | Behandeln Sie den Eigenschaftssatz. |
+| replaceProperties | `xsd:string` | Nein | Legen Sie fest auf `true` , um Eigenschaften zu ersetzen. |
+| propertyArray | `types:PropertyArray` | Ja | Array mit aktualisierten Eigenschaften für den Eigenschaftssatz. |
 
 **Ausgabe (updatePropertySetReturn)**
 

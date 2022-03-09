@@ -5,9 +5,9 @@ title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '153'
 ht-degree: 11%
 
 ---
@@ -36,8 +36,8 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen. Optional, da ein Eigenschaftssatz-Typ mehreren Unternehmen angehören kann. |
-| `*`name`*` | `xsd:string` | Ja | Name des Eigenschaftssatztyps. |
+| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen. Optional, da ein Eigenschaftssatz-Typ mehreren Unternehmen angehören kann. |
+| name | `xsd:string` | Ja | Name des Eigenschaftssatztyps. |
 
 **Ausgabe (getPropertySetTypeReturn)**
 

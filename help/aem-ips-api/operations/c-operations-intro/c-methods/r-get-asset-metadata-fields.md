@@ -2,13 +2,13 @@
 description: Gibt alle Metadatenfelder zurück, gruppiert nach Asset-Typ.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadaten,Asset Management
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 21%
+source-wordcount: '63'
+ht-degree: 23%
 
 ---
 
@@ -34,13 +34,13 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Metadaten Sie abrufen möchten. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Metadaten Sie abrufen möchten. |
 
 **Ausgabe (getAssetMetadataFieldsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Ja | Array von Metadatenfeldern nach Asset-Typ. |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | Ja | Array von Metadatenfeldern nach Asset-Typ. |
 
 ## Beispiele {#section-d79ab85f29144635b0b61416e52f4f3f}
 

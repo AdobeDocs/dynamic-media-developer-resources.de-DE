@@ -5,10 +5,10 @@ title: createProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 18%
+source-wordcount: '76'
+ht-degree: 19%
 
 ---
 
@@ -33,18 +33,18 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des mit dem neuen Projekt verknüpften Unternehmens. |
-| `*`projectName`*` | `xsd:string` | Ja | Neuer Projektname. |
+| companyHandle | `xsd:string` | Ja | Der Handle des mit dem neuen Projekt verknüpften Unternehmens. |
+| projectName | `xsd:string` | Ja | Neuer Projektname. |
 
 **Ausgabe (createProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Ja | Der Handle für das neue Projekt. |
+| projectHandle | `xsd:string` | Ja | Der Handle für das neue Projekt. |
 
 ## Beispiele {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Dieses Codebeispiel erstellt ein Projekt mit dem Namen `ApiTestProject` in einem Unternehmen, das durch sein Handle angegeben wird. Die Antwort gibt das Handle an das Projekt zurück.
+Dieses Codebeispiel erstellt ein Projekt mit dem Namen `ApiTestProject` in einem von seinem Handle angegebenen Unternehmen. Die Antwort gibt das Handle an das Projekt zurück.
 
 **Anforderung**
 

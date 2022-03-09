@@ -1,13 +1,13 @@
 ---
+title: AssetJobLog
 description: Die Details eines Auftragsprotokolleintrags, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
 solution: Experience Manager
-title: AssetJobLog
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '105'
 ht-degree: 6%
 
 ---
@@ -42,7 +42,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Meldung im Auftragsprotokoll. <p><span class="codeph"> Das Feld </span> logMessageresponse wird basierend auf dem Feld  <span class="codeph"> </span> authHeaderlocale lokalisiert. </p></td> 
+   <td colname="col3">Meldung im Auftragsprotokoll. <p><span class="codeph"> logMessage</span> Das Antwortfeld wird basierend auf <span class="codeph"> authHeader</span> Gebietsschema-Feld. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 

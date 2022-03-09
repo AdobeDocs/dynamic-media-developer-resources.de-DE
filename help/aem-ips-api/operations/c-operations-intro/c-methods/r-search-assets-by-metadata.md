@@ -2,13 +2,13 @@
 description: Durchsucht das Metadatenindex-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Metadaten,Asset Management
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 6%
+source-wordcount: '328'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Durchsucht das Metadatenindex-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
 
-Während `searchAssetsByMetadata` Ihnen die Suche nach benutzerdefinierten Metadatenfeldern ermöglicht, werden diese Felder nicht zurückgegeben, wenn sie in `responseMetadataArray` angegeben sind. Zur Veranschaulichung dieses Punkts finden Sie im folgenden Codebeispiel:
+while `searchAssetsByMetadata` ermöglicht die Suche nach benutzerdefinierten Metadatenfeldern. Diese Felder werden nicht zurückgegeben, wenn sie in der Variablen `responseMetadataArray`. Zur Veranschaulichung dieses Punkts finden Sie im folgenden Codebeispiel:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ gibt einen Nullwert zurück:
 </items>
 ```
 
-Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwenden, die von der Suche zurückgegeben werden, um `getAssets` auszuführen (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte für benutzerdefinierte Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
+Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von der auszuführenden Suche zurückgegeben werden `getAssets` (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte für benutzerdefinierte Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
 
 ```java
 <ns:metadataConditionArray>
@@ -103,7 +103,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwende
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt die Seite der zurückzugebenden Ergebnisse basierend auf der Seitengröße <span class="codeph"> recordsPerPage</span> an. </p> </td> 
+   <td colname="col4"> <p>Gibt die Ergebnisseite an, die zurückgegeben werden soll, basierend auf <span class="codeph"> recordsPerPage</span> Seitengröße. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -124,8 +124,8 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwende
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Nein | Anzahl der Treffer. |
-| `*`assetArray`*` | `types:AssetArray` | Nein | Array von Assets, die von der Suche zurückgegeben werden. |
+| totalRows | `xsd:int` | Nein | Anzahl der Treffer. |
+| assetArray | `types:AssetArray` | Nein | Array von Assets, die von der Suche zurückgegeben werden. |
 
 ## metadataConditionArray-Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
@@ -156,13 +156,13 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwende
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (entspricht  `modified_at` (Datum im Formular): Fri Jul 25 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (entspricht `modified_at` (Datum im Formular: 25. Juli 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Zugelassene Operatoren**
 
-Der [!DNL operator] definiert, wie der Wert verglichen und Folgendes eingeschlossen wird:
+Die [!DNL operator] definiert, wie der Wert verglichen und Folgendes eingeschlossen wird:
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ Der [!DNL operator] definiert, wie der Wert verglichen und Folgendes eingeschlos
 * `StartsWith`
 * `EndsWith`
 
-`comparison_value` ist der Begriff, nach dem gesucht werden soll.
+Die `comparison_value` ist der zu suchende Begriff.
 
 ## Beispiele {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Dieses Codebeispiel führt eine Suche mit den folgenden Metadatenkriterien durch:
 
-* `name` enthält  `1000801`.
+* `name` -Feld enthält `1000801`.
 
-* `dc.rights` field gleich  `Per Jessen Schmidt`.
+* `dc.rights` field gleich `Per Jessen Schmidt`.
 
 **Anforderung**
 

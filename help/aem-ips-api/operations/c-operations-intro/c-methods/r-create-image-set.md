@@ -2,13 +2,13 @@
 description: Erstellt ein Bildset.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Bildsets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 14%
+source-wordcount: '136'
+ht-degree: 15%
 
 ---
 
@@ -37,17 +37,17 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Bildset gehört. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Der Handle zum Ordner. |
-| `*`name`*` | `xsd:string` | Ja | Name des Bildsets. |
-| `*`type`*` | `xsd:string` | Ja | Bildset-Typ. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nein | Handle des Assets, das als Miniaturansicht für das neue Bildset dient. Wenn kein Wert angegeben ist, versucht IPS, das erste Bild-Asset zu verwenden, auf das vom Set verwiesen wird. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Bildset gehört. |
+| folderHandle | `xsd:string` | Ja | Der Handle zum Ordner. |
+| name | `xsd:string` | Ja | Name des Bildsets. |
+| Typ | `xsd:string` | Ja | Bildset-Typ. |
+| thumbAssetHandle | `xsd:string` | Nein | Handle des Assets, das als Miniaturansicht für das neue Bildset dient. Wenn kein Wert angegeben ist, versucht IPS, das erste Bild-Asset zu verwenden, auf das vom Set verwiesen wird. |
 
 **Ausgabe**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Der Griff zum neuen Bildset. |
+| assetHandle | `xsd:string` | Ja | Der Griff zum neuen Bildset. |
 
 ## Beispiele {#section-385fe3b0af8044b0a2451336ec137fc5}
 

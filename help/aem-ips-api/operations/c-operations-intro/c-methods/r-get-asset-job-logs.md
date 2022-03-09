@@ -5,10 +5,10 @@ title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 9%
+source-wordcount: '156'
+ht-degree: 10%
 
 ---
 
@@ -36,14 +36,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Asset gehört. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Der Handle für das Asset mit den Auftragsprotokollen, die abgerufen werden sollen. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Asset gehört. |
+| assetHandle | `xsd:string` | Ja | Der Handle für das Asset mit den Auftragsprotokollen, die abgerufen werden sollen. |
 
 **Ausgabe (getAssetJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | Ja | Auftragsprotokollarray. |
+| jobLogArray | `types:AssetJobLogArray` | Ja | Auftragsprotokollarray. |
 
 ## Beispiele {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

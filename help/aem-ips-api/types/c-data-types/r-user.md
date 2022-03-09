@@ -5,10 +5,10 @@ title: Benutzer
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
@@ -22,10 +22,10 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`userHandle`*` | `xsd:string` | Benutzerhandbuch. |
-| `*`firstName`*` | `xsd:string` | Vorname des Benutzers. |
-| `*`lastName`*` | `xsd:string` | Nachname des Benutzers. |
-| `*`E-Mail`*` | `xsd:string` | E-Mail-Adresse. |
-| `*`defaultRole`*` | `xsd:string` | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Die Benutzerrolle `IpsAmin` überschreibt jedoch andere Benutzerrollen. |
-| `*`isValid`*` | `xsd:boolean` | Bestimmt, ob der Benutzer gültig ist. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Legt das Ablaufdatum des Kennworts fest. |
+| userHandle | `xsd:string` | Benutzerhandbuch. |
+| firstName | `xsd:string` | Vorname des Benutzers. |
+| lastName | `xsd:string` | Nachname des Benutzers. |
+| E-Mail | `xsd:string` | E-Mail-Adresse. |
+| defaultRole | `xsd:string` | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Die Benutzerrolle `IpsAmin` überschreibt andere Benutzerrollen. |
+| isValid | `xsd:boolean` | Bestimmt, ob der Benutzer gültig ist. |
+| passwordExpires | `xsd:dateTime` | Legt das Ablaufdatum des Kennworts fest. |

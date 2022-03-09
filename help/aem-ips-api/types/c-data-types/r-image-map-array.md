@@ -5,10 +5,10 @@ title: ImageMapArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da823ee9-198f-4d52-b77f-ac7d21162fb5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:ImageMap` | Das Imagemap-Array. |
+| Elemente | `types:ImageMap` | Das Imagemap-Array. |

@@ -5,10 +5,10 @@ title: MPEventArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6af68714-bdba-485c-89c4-51b79d93405a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Elemente`*` | `types:MPEvent` | MediaPortal-Ereignis-Array. |
+| Elemente | `types:MPEvent` | MediaPortal-Ereignis-Array. |

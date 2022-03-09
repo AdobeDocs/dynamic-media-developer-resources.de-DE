@@ -5,10 +5,10 @@ title: getPublishContexts
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '85'
+ht-degree: 20%
 
 ---
 
@@ -32,9 +32,7 @@ Syntax
 >
 >* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückgeben zu können.
 >* Alle Benutzer haben Zugriff auf das freigegebene Unternehmen.
-
 >
-
 
 
 ## Parameter {#section-d08e2175d3f84774b55b91bc590b8b3f}
@@ -76,7 +74,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`publishContextArray`*` | Typen:PublishContextArray | Ja | Ein Array von Veröffentlichungskontexten für ein Unternehmen, bei Bedarf nach Kontexttyp gefiltert. |
+| publishContextArray | Typen:PublishContextArray | Ja | Ein Array von Veröffentlichungskontexten für ein Unternehmen, bei Bedarf nach Kontexttyp gefiltert. |
 
 ## Beispiele {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

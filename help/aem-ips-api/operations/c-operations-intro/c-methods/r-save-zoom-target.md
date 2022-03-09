@@ -5,10 +5,10 @@ title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '124'
+ht-degree: 21%
 
 ---
 
@@ -33,21 +33,21 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Griff zum Unternehmen mit dem Zoomziel, das Sie speichern möchten. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Der Griff zum Zoomziel. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Nein | Bearbeiten oder erstellen Sie ein Zoomziel. |
-| `*`name`*` | `xsd:string` | Ja | Zoom-Zielname. |
-| `*`xPosition`*` | `xsd:int` | Ja | Position des linken Pixels. |
-| `*`yPosition`*` | `xsd:int` | Ja | Position des obersten Pixels. |
-| `*`width`*` | `xsd:int` | Ja | Zoom der Zielbreite |
-| `*`height`*` | `xsd:int` | Ja | Zoom der Zielhöhe |
-| `*`Benutzerdaten`*` | `xsd:string` | Ja | Für kundenspezifische Informationen. Kann beliebige Datentypen enthalten. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen mit dem Zoomziel, das Sie speichern möchten. |
+| assetHandle | `xsd:string` | Ja | Der Griff zum Zoomziel. |
+| zoomTargetHandle | `xsd:string` | Nein | Bearbeiten oder erstellen Sie ein Zoomziel. |
+| name | `xsd:string` | Ja | Zoom-Zielname. |
+| xPosition | `xsd:int` | Ja | Position des linken Pixels. |
+| yPosition | `xsd:int` | Ja | Position des obersten Pixels. |
+| Breite | `xsd:int` | Ja | Zoom der Zielbreite |
+| Höhe | `xsd:int` | Ja | Zoom der Zielhöhe |
+| Benutzerdaten | `xsd:string` | Ja | Für kundenspezifische Informationen. Kann beliebige Datentypen enthalten. |
 
 **Ausgabe (saveZoomTargetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Bearbeiten Sie das neu erstellte Zoomziel. |
+| zoomTargetHandle | `xsd:string` | Ja | Bearbeiten Sie das neu erstellte Zoomziel. |
 
 ## Beispiele {#section-509c472c316549cdb228d7e1cfa8400a}
 

@@ -1,13 +1,13 @@
 ---
+title: ActiveJob
 description: Ein Auftrag, der auf einem Server ausgeführt wird. Außerdem handelt es sich um eine Instanz eines geplanten Auftrags.
 solution: Experience Manager
-title: ActiveJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Ein Auftrag, der auf einem Server ausgeführt wird. Außerdem handelt es sich um eine Instanz eines geplanten Auftrags.
 
-Aufträge gibt es in drei Status:
+Aufträge sind in drei Status verfügbar:
 
 * Geplant für die Ausführung.
 * Wird derzeit ausgeführt.
 * Ausführung abgeschlossen (und bereits Informationen in ein Auftragsprotokoll geschrieben).
 
-Geben Sie einen Auftragstyp-Wert an, um den Auftragstyp zurückzugeben. Sie können die folgenden Aufträge zurückgeben:
+Um den Auftragstyp zurückzugeben, geben Sie einen Auftragstyp-Wert an. Sie können die folgenden Aufträge zurückgeben:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ Geben Sie einen Auftragstyp-Wert an, um den Auftragstyp zurückzugeben. Sie kön
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Originalname des mit dem Auftrag gesendeten Typs <span class="codeph"> ActiveJob</span>. </td> 
+   <td colname="col3">Ursprünglicher Name der <span class="codeph"> ActiveJob</span> Typ, der mit dem Auftrag gesendet wurde. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,12 +80,12 @@ Geben Sie einen Auftragstyp-Wert an, um den Auftragstyp zurückzugeben. Sie kön
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Das Gebietsschema für Auftragsprotokolldetails und E-Mail-Lokalisierung. <p>Geben Sie die Gebietsschemata als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span> an, wobei der Sprachcode ein aus zwei Buchstaben bestehender Code gemäß ISO-639 in Kleinbuchstaben ist und der optionale Ländercode ein aus zwei Buchstaben bestehender Code gemäß ISO-3166 ist. Die Gebietsschema-Zeichenfolge für Englisch (USA) lautet beispielsweise: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Das Gebietsschema für Auftragsprotokolldetails und E-Mail-Lokalisierung. <p>Gebietsschemata als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, wobei der Sprachcode ein aus zwei Buchstaben bestehender Code in Kleinbuchstaben ist, wie in ISO-639 angegeben, und der optionale Ländercode ein aus Großbuchstaben bestehender Code aus zwei Buchstaben gemäß ISO-3166 ist. Die Gebietsschema-Zeichenfolge für Englisch (USA) lautet beispielsweise: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Auftragsbeschreibung, die ursprünglich unter <span class="codeph"> submitJob</span> angegeben wurde. </td> 
+   <td colname="col3">Die ursprünglich unter <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -165,12 +165,12 @@ Geben Sie einen Auftragstyp-Wert an, um den Auftragstyp zurückzugeben. Sie kön
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:UploadPostJob</span> </td> 
-   <td colname="col3"> Upload von Auftragsdetails-Tracking-Desktop. </td> 
+   <td colname="col3"> Auftragsdetails, Tracking des Desktop-Uploads. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:ExportJob</span> </td> 
-   <td colname="col3">Zulassen des autorisierten Exports von zuvor hochgeladenen Dateien. Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Export Job</a>. </td> 
+   <td colname="col3">Zulassen des autorisierten Exports von zuvor hochgeladenen Dateien. Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportauftrag</a>. </td> 
   </tr> 
  </tbody> 
 </table>

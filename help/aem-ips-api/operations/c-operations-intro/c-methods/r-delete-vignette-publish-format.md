@@ -5,10 +5,10 @@ title: deleteVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 13%
+source-wordcount: '75'
+ht-degree: 14%
 
 ---
 
@@ -29,8 +29,8 @@ Löscht ein Vignetten-Veröffentlichungsformat.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem die Vignette gehört. |
-| `*`vignetteFormatHandle`*` | `xsd:string` | Ja | Das Handle zum zu löschenden Vignetten-Veröffentlichungsformat. |
+| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem die Vignette gehört. |
+| vignetteFormatHandle | `xsd:string` | Ja | Das Handle zum zu löschenden Vignetten-Veröffentlichungsformat. |
 
 **Ausgabe (deleteVignettePublishFormatParam)**
 
@@ -38,7 +38,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-In diesem Codebeispiel wird ein Vignettenveröffentlichungsformat gelöscht, das vom Handle angegeben wird.
+In diesem Codebeispiel wird ein Vignetten-Veröffentlichungsformat gelöscht, das vom Handle angegeben wird.
 
 **Anforderung**
 

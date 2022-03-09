@@ -5,9 +5,9 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 8%
 
 ---
@@ -43,20 +43,20 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| `*`accessUserHandle`*` | `xsd:string` | Nein | Wird von Administratoren verwendet, um die Identität eines bestimmten Benutzers zu übernehmen. |
-| `*`accessGroupHandle`*` | `xsd:string` | Nein | Filtern nach einer bestimmten Gruppe. |
-| `*`folderPath`*` | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
-| `*`assetTypeArray`*` | `types:StringArray` | Nein | Gibt Ordner zurück, die nur bestimmte Asset-Typen enthalten. |
-| `*`responseFieldArray`*` | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie aus der Antwort ausschließen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| accessUserHandle | `xsd:string` | Nein | Wird von Administratoren verwendet, um die Identität eines bestimmten Benutzers zu übernehmen. |
+| accessGroupHandle | `xsd:string` | Nein | Filtern nach einer bestimmten Gruppe. |
+| folderPath | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
+| assetTypeArray | `types:StringArray` | Nein | Gibt Ordner zurück, die nur bestimmte Asset-Typen enthalten. |
+| responseFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
+| excludeFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie aus der Antwort ausschließen möchten. |
 
 **Ausgabe (getFoldersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | Nein | Ein Array von Ordnern, die den Filterkriterien entsprechen. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| folderArray | `types:FolderArray` | Nein | Ein Array von Ordnern, die den Filterkriterien entsprechen. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
+| permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Beispiele {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

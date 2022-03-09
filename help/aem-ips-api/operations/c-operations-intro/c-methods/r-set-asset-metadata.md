@@ -2,13 +2,13 @@
 description: Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Updates, um Werte in einem Batch festzulegen.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadaten,Asset Management
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 10%
 
 ---
 
@@ -37,9 +37,9 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset, das Sie aktualisieren möchten. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Update-Array. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset, das Sie aktualisieren möchten. |
+| assetHandle | `xsd:string` | Ja | Das Handle für das Asset. |
+| updateArray | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Update-Array. |
 
 **Ausgabe (setAssetMetadataReturn)**
 

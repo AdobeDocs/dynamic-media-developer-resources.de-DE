@@ -5,10 +5,10 @@ title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
@@ -36,14 +36,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset-Veröffentlichungsverlauf. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Asset mit dem Veröffentlichungsverlauf, den Sie untersuchen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset-Veröffentlichungsverlauf. |
+| assetHandle | `xsd:string` | Ja | Das Asset mit dem Veröffentlichungsverlauf, den Sie untersuchen möchten. |
 
 **Ausgabe (getAssetPublishHistoryReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | Der Veröffentlichungsverlauf des Assets. |
+| pubHistoryArray | `types:PublishHistoryArray` | Ja | Der Veröffentlichungsverlauf des Assets. |
 
 ## Beispiele {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

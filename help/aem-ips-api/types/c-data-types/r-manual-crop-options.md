@@ -5,10 +5,10 @@ title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 14%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`links`*` | `xsd:int` | Die linke Position des manuellen Zuschnitts in Pixel. |
-| `*`rechts`*` | `xsd:int` | Die rechte Position des manuellen Zuschnitts in Pixel. |
-| `*`Anfang`*` | `xsd:int` | Die obere Position des manuellen Zuschnitts in Pixel. |
-| `*`unten`*` | `xsd:int` | Die untere Position des manuellen Zuschnitts in Pixel. |
+| links | `xsd:int` | Die linke Position des manuellen Zuschnitts in Pixel. |
+| rechts | `xsd:int` | Die rechte Position des manuellen Zuschnitts in Pixel. |
+| Anfang | `xsd:int` | Die obere Position des manuellen Zuschnitts in Pixel. |
+| unten | `xsd:int` | Die untere Position des manuellen Zuschnitts in Pixel. |

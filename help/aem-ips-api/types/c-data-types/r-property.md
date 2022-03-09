@@ -5,10 +5,10 @@ title: Eigenschaft
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 32%
+source-wordcount: '23'
+ht-degree: 39%
 
 ---
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Eigenschaftsname. |
-| `*`Wert`*` | `xsd:string` | Eigenschaftswert. |
+| name | `xsd:string` | Eigenschaftsname. |
+| value | `xsd:string` | Eigenschaftswert. |

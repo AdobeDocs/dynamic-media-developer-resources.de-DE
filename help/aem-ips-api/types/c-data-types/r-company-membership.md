@@ -5,10 +5,10 @@ title: CompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`firma`*` | `types:Company` |  |
-| `*`Rolle`*` | `xsd:string` |  |
-| `*`isActive`*` | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |
+| Firma | `types:Company` |  |
+| Rolle | `xsd:string` |  |
+| isActive | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |

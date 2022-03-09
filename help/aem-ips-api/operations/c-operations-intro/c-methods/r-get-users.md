@@ -5,7 +5,7 @@ title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 10%
@@ -26,22 +26,22 @@ Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gru
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
-| `*`includeInvalid`*` | `xsd:boolean` | Nein | Hiermit können Sie ungültige Benutzer ein-/ausschließen. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Nein | Ergebnisse nach Unternehmen filtern. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Nein | Ergebnisse nach Gruppe filtern. |
-| `*`userRoleArray`*` | `types:StringArray` | Nein | Ergebnisse nach Benutzerrolle filtern. |
-| `*`charFilterField`*` | `xsd:string` | Nein | Ergebnisse nach dem Zeichenfolgenpräfix des Felds filtern (siehe [!DNL Trash State).] |
-| `*`charFilter`*` | `xsd:string` | Nein | Ergebnisse nach einem bestimmten Zeichen filtern. |
-| `*`sortBy`*` | `xsd:string` | Nein | Auswahl der Sortierungsfelder für Benutzer. |
-| `*`recordsPerPage`*` | `xsd:int` | Nein | Gibt die angegebene Anzahl von Datensätzen pro Seite zurück. |
-| `*`resultsPage`*` | `xsd:int` | Nein | Ergebnisseite. |
+| includeInactive | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
+| includeInvalid | `xsd:boolean` | Nein | Hiermit können Sie ungültige Benutzer ein-/ausschließen. |
+| companyHandleArray | `types:HandleArray` | Nein | Ergebnisse nach Unternehmen filtern. |
+| groupHandleArray | `types:HandleArray` | Nein | Ergebnisse nach Gruppe filtern. |
+| userRoleArray | `types:StringArray` | Nein | Ergebnisse nach Benutzerrolle filtern. |
+| charFilterField | `xsd:string` | Nein | Ergebnisse nach dem Zeichenfolgenpräfix des Felds filtern (siehe [!DNL Trash State).] |
+| charFilter | `xsd:string` | Nein | Ergebnisse nach einem bestimmten Zeichen filtern. |
+| sortBy | `xsd:string` | Nein | Auswahl der Sortierungsfelder für Benutzer. |
+| recordsPerPage | `xsd:int` | Nein | Gibt die angegebene Anzahl von Datensätzen pro Seite zurück. |
+| resultsPage | `xsd:int` | Nein | Ergebnisseite. |
 
 **Ausgabe (getUsersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | Ja | Eine Gruppe von Benutzern. |
+| userArray | `types:UserArray` | Ja | Eine Gruppe von Benutzern. |
 
 ## Beispiele {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 

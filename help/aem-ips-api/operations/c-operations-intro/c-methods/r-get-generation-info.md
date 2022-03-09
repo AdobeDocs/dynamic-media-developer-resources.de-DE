@@ -5,10 +5,10 @@ title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '196'
+ht-degree: 10%
 
 ---
 
@@ -36,18 +36,18 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Codeausdruck`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| `*`Codeausdruck`*` | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftstile. |
-| `*`Codeausdruck`*` | `xsd:string` | Nein | Das Handle des Assets, das nach generierten Assets abgefragt werden soll. |
-| `*`Codeausdruck`*` | `xsd:string` | Nein | Der Handle des Assets, mit dem nach Assets und Engines abgefragt werden soll, die bei seiner Generierung verwendet werden. |
-| `*`Codeausdruck`*` | `xsd:StringArray` | Nein | Eigenschaften, die im Vorgang enthalten sind. |
-| `*`Codeausdruck`*` | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
+| Codeausdruck | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| Codeausdruck | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftstile. |
+| Codeausdruck | `xsd:string` | Nein | Das Handle des Assets, das nach generierten Assets abgefragt werden soll. |
+| Codeausdruck | `xsd:string` | Nein | Der Handle des Assets, mit dem nach Assets und Engines abgefragt werden soll, die bei seiner Generierung verwendet werden. |
+| Codeausdruck | `xsd:StringArray` | Nein | Eigenschaften, die im Vorgang enthalten sind. |
+| Codeausdruck | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
 
 **Ausgabe (getGenerationInfoReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | Ja | Array von Generierungsinformationen. |
+| generationArray | `types:GenerationInfoArray` | Ja | Array von Generierungsinformationen. |
 
 ## Beispiele {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

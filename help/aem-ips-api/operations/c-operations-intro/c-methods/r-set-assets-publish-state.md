@@ -5,9 +5,9 @@ title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -37,18 +37,18 @@ Dies ist die Batch-Version von [setAssetState](../../../operations/c-operations-
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Ja | Array von Veröffentlichungsstatuswerten für die Assets. |
+| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Ja | Array von Veröffentlichungsstatuswerten für die Assets. |
 
 **Ausgabe (setAssetsPublishStateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Assets. |
-| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Assets, die eine Warnung generiert haben, als der Vorgang versuchte, sie zu aktualisieren. |
-| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Assets, die einen Fehler generiert haben, als der Vorgang versuchte, sie zu löschen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die eine Warnung generiert haben. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die einen Fehler generiert haben. |
+| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Assets. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Assets, die eine Warnung generiert haben, als der Vorgang versuchte, sie zu aktualisieren. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Assets, die einen Fehler generiert haben, als der Vorgang versuchte, sie zu löschen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die eine Warnung generiert haben. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die einen Fehler generiert haben. |
 
 ## Beispiele {#section-38cfdd3436214a06a1bae16875501d51}
 

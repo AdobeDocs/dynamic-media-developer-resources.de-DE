@@ -2,13 +2,13 @@
 description: Ruft eine Gruppe von Mitgliedern ab, die sich in einem Bildset befinden.
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Bildsets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
@@ -39,14 +39,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen, das das Bildset enthält. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Asset-Handle für Bildsets. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das Bildset enthält. |
+| assetHandle | `xsd:string` | Ja | Das Asset-Handle für Bildsets. |
 
 **Ausgabe (getImageSetMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`memberArray`*` | `types:ImageSetMemberArray` | Nein | Array von Bildset-Mitgliedern. |
+| memberArray | `types:ImageSetMemberArray` | Nein | Array von Bildset-Mitgliedern. |
 
 ## Beispiele {#section-888a9a78033346f39b171229de93dfa0}
 

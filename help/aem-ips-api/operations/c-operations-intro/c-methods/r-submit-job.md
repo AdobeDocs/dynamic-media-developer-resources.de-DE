@@ -5,9 +5,9 @@ title: submitJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '407'
 ht-degree: 8%
 
 ---
@@ -52,7 +52,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Behandeln Sie den Benutzer, der den Auftrag gesendet hat. </p> <p> <p>Hinweis: Das System sendet E-Mails an den von <span class="codeph"> userHandle</span> angegebenen Benutzer. Wenn <span class="codeph"> userHandle</span> nicht angegeben ist, erhält die Person, die den Auftrag gesendet hat, die E-Mails. </p> </p> </td> 
+   <td colname="col4"> <p>Behandeln Sie den Benutzer, der den Auftrag gesendet hat. </p> <p> <p>Hinweis: Das System sendet eine E-Mail an den von <span class="codeph"> userHandle</span>. Wenn <span class="codeph"> userHandle</span> nicht angegeben ist, erhält die Person, die den Auftrag gesendet hat, die E-Mails. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -64,19 +64,19 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Das Gebietsschema, das für Auftragsprotokolldetails und die E-Mail-Lokalisierung verwendet wird. </p> <p>Gebietsschemata werden als <span class="codeph"> &lt;language_code&gt;</span> und <span class="codeph"> [&lt;country_code&gt;]</span> angegeben, wobei der Sprachcode ein aus zwei Buchstaben bestehender Code in Kleinbuchstaben ist, wie in ISO-639 angegeben, und der optionale Ländercode ein aus zwei Buchstaben bestehender Code in Großbuchstaben ist, wie in ISO-3166 angegeben. Die Gebietsschema-Zeichenfolge für Englisch (USA) lautet beispielsweise: en-US. </p> </td> 
+   <td colname="col4"> <p>Das Gebietsschema, das für Auftragsprotokolldetails und die E-Mail-Lokalisierung verwendet wird. </p> <p>Gebietsschemata werden als <span class="codeph"> &lt;language_code&gt;</span> und <span class="codeph"> [&lt;country_code&gt;]</span>, wobei der Sprachcode ein aus zwei Buchstaben bestehender Code in Kleinbuchstaben ist, wie in ISO-639 angegeben, und der optionale Ländercode ein aus Großbuchstaben bestehender Code aus zwei Buchstaben gemäß ISO-3166 ist. Die Gebietsschema-Zeichenfolge für Englisch (USA) lautet beispielsweise: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Datum und Uhrzeit der Auftragsausführung. </p> <p>Hinweis:  Geben Sie die Zeitzone mit der Anforderung an. Die Zeitzonen werden an die Zeitzone des Ziel-IPS-Servers angepasst. </p> </td> 
+   <td colname="col4"> <p>Datum und Uhrzeit der Auftragsausführung. </p> <p>Hinweis: Geben Sie die Zeitzone mit der Anforderung an. Die Zeitzonen werden an die Zeitzone des Ziel-IPS-Servers angepasst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Legt fest, wann der Auftrag ausgeführt werden soll. </p> <p> Kann eine <span class="codeph"> cron</span> -Zeichenfolge sein, die den Auftrag wiederholt ausführt. </p> <p>Der Zeitplan ist immer relativ zur lokalen Zeitzone des Servers. Informationen zum benutzerdefinierten Zeitplanformat finden Sie in der IPS-Dokumentation . </p> </td> 
+   <td colname="col4"> <p>Legt fest, wann der Auftrag ausgeführt werden soll. </p> <p> Kann eine <span class="codeph"> cron</span> -Zeichenfolge, die den Auftrag wiederholt ausführt. </p> <p>Der Zeitplan ist immer relativ zur lokalen Zeitzone des Servers. Informationen zum benutzerdefinierten Zeitplanformat finden Sie in der IPS-Dokumentation . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -157,11 +157,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | Ja | Auftragshandle. |
+| jobHandle | `xsd:string` | Ja | Auftragshandle. |
 
 ## Beispiele {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Dieses Codebeispiel sendet einen Image Serving-Veröffentlichungsauftrag an IPS und gibt einen Auftrags-Handle zurück. Wählen Sie nur einen Auftragstyp in der Anforderung aus. Da `userHandle` weggelassen wurde, werden E-Mail-Benachrichtigungen an den Benutzer gesendet, der den Auftrag gesendet hat. Dieser Beispielauftrag wird sofort ausgeführt, da `execTime` und `execSchedule` weggelassen wurden.
+Dieses Codebeispiel sendet einen Image Serving-Veröffentlichungsauftrag an IPS und gibt einen Auftrags-Handle zurück. Wählen Sie nur einen Auftragstyp in der Anforderung aus. weil `userHandle` ausgelassen wurde, werden E-Mail-Benachrichtigungen an den Benutzer gesendet, der den Auftrag gesendet hat. Dieser Beispielauftrag wird sofort ausgeführt, weil `execTime` und `execSchedule` wurden weggelassen.
 
 **Anforderung**
 
@@ -186,7 +186,7 @@ Dieses Codebeispiel sendet einen Image Serving-Veröffentlichungsauftrag an IPS 
 
 ## Anmerkungen {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-Sie können maximal einen von `execTime` und `execSchedule` angeben. Wenn keines von beiden übergeben wird, wird der Auftrag sofort ausgeführt. Sie können nur eine der folgenden Optionen verwenden:
+Sie können höchstens eines der folgenden `execTime` und `execSchedule`. Wenn keines von beiden übergeben wird, wird der Auftrag sofort ausgeführt. Sie können nur eine der folgenden Optionen verwenden:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

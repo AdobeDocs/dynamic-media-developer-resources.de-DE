@@ -5,9 +5,9 @@ title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 12%
 
 ---
@@ -35,14 +35,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen, das den Benutzer enthält. |
-| `*`assetNamesArray`*` | `types:StringArray` | Ja | Ein Array von Asset-Namen, die überprüft werden sollen. |
+| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen, das den Benutzer enthält. |
+| assetNamesArray | `types:StringArray` | Ja | Ein Array von Asset-Namen, die überprüft werden sollen. |
 
 **Ausgabe (checkAssetNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | Ja | Ein Array der verwendeten Asset-Namen. |
+| inUseNameArray | `types:StringArray` | Ja | Ein Array der verwendeten Asset-Namen. |
 
 ## Beispiele {#section-bc5d120d74614a63a425ca3acc337219}
 

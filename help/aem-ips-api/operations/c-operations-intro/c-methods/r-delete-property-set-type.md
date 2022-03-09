@@ -5,9 +5,9 @@ title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
@@ -31,7 +31,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | Der Handle für den zu löschenden Eigenschaftssatz. |
+| typeHandle | `xsd:string` | Ja | Der Handle für den zu löschenden Eigenschaftssatz. |
 
 **Ausgabe (deletePropertySetTypeParam)**
 
@@ -39,7 +39,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-In diesem Codebeispiel wird das Handle des Typs als Feld im `deletePropertySetTypeParam` verwendet, das an den IPS-Webdienstserver gesendet wird, um den Eigenschaftssatztyp zu löschen.
+Dieses Codebeispiel verwendet das Handle des Typs als Feld im `deletePropertySetTypeParam` an den IPS-Webdienstserver gesendet, um den Eigenschaftssatztyp zu löschen.
 
 **Anforderung**
 

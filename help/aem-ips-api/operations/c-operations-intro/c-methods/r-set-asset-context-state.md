@@ -5,10 +5,10 @@ title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 11%
 
 ---
 
@@ -38,21 +38,21 @@ Legen Sie den Veröffentlichungsstatus für ein oder mehrere Assets fest oder ak
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | Ein Array von Assets und deren neuen Veröffentlichungsstatus. |
+| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Ja | Ein Array von Assets und deren neuen Veröffentlichungsstatus. |
 
 **Ausgabe (setAssetsContextStateReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der Assets, die erfolgreich geändert wurden. |
-| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Assets zu ändern. |
-| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets zu ändern. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie zu ändern. |
+| successCount | `xsd:int` | Ja | Die Anzahl der Assets, die erfolgreich geändert wurden. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Assets zu ändern. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets zu ändern. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie zu ändern. |
 
 ## Beispiele {#section-283a073f3cb14bcda5abed863c538aa4}
 
-In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mit `NotMarkedForPublish` festgelegt.
+In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mithilfe von `NotMarkedForPublish`.
 
 **Anforderung**
 

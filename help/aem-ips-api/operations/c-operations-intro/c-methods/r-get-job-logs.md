@@ -5,9 +5,9 @@ title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 11%
 
 ---
@@ -36,19 +36,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nein | Das Handle des Unternehmens. |
-| `*`userHandle`*` | `xsd:string` | Nein | Ruft Protokolle für Aufträge ab, die von einem bestimmten Benutzer gesendet wurden. |
-| `*`sortBy`*` | `xsd:string` | Nein | Ermöglicht die Auswahl der Sortierung von Feldern. |
-| `*`sortDirection`*` | `xsd:string` | Nein | Sortierreihenfolge (aufsteigend oder absteigend). |
-| `*`startDate`*` | `xsd:dateTime` | Nein | Datum und Uhrzeit des Starts des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. |
-| `*`endDate`*` | `xsd:dateTime` | Nein | Datum und Uhrzeit des Endes des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. |
-| `*`numRows`*` | `xsd:int` | Nein | Maximale Anzahl der zurückzugebenden Zeilen. |
+| companyHandle | `xsd:string` | Nein | Das Handle des Unternehmens. |
+| userHandle | `xsd:string` | Nein | Ruft Protokolle für Aufträge ab, die von einem bestimmten Benutzer gesendet wurden. |
+| sortBy | `xsd:string` | Nein | Ermöglicht die Auswahl der Sortierung von Feldern. |
+| sortDirection | `xsd:string` | Nein | Sortierreihenfolge (aufsteigend oder absteigend). |
+| startDate | `xsd:dateTime` | Nein | Datum und Uhrzeit des Starts des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. |
+| endDate | `xsd:dateTime` | Nein | Datum und Uhrzeit des Endes des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. |
+| numRows | `xsd:int` | Nein | Maximale Anzahl der zurückzugebenden Zeilen. |
 
 **Ausgabe (getJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Ja | Array von Auftragsprotokollen. |
+| jobLogArray | `types: JobLogArray` | Ja | Array von Auftragsprotokollen. |
 
 ## Beispiele {#section-35871c94b4a44559912577efddbc46a6}
 

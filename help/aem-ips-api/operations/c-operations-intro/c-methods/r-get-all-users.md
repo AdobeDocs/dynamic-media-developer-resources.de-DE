@@ -5,10 +5,10 @@ title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '70'
+ht-degree: 21%
 
 ---
 
@@ -45,8 +45,8 @@ Syntax
    <td colname="col3"> Ja </td> 
    <td colname="col4">Legen Sie Folgendes fest: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> , um ungültige Benutzer einzuschließen. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> werden ungültige Benutzer weggelassen. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> , um ungültige Benutzer einzuschließen. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> , um ungültige Benutzer wegzulassen. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -56,8 +56,8 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | Ja | Array aller Benutzer. |
-| `*`Codeausdruck`*` | `Code Phrase` |  |  |
+| userArray | `types:UserArray` | Ja | Array aller Benutzer. |
+| Codeausdruck | `Code Phrase` |  |  |
 
 ## Beispiele {#section-9c9a2d335513478da20652c1b1443731}
 

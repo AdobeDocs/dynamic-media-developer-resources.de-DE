@@ -5,10 +5,10 @@ title: deleteJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 13%
 
 ---
 
@@ -35,8 +35,8 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Auftrag gehört. |
-| `*`jobHandle`*` | `xsd:string` | Ja | Der Handle für den zu löschenden Auftrag. |
+| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Auftrag gehört. |
+| jobHandle | `xsd:string` | Ja | Der Handle für den zu löschenden Auftrag. |
 
 **Ausgabe**
 

@@ -5,10 +5,10 @@ title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 12%
+source-wordcount: '113'
+ht-degree: 13%
 
 ---
 
@@ -57,7 +57,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | Ja | Ein Array von Eigenschaftssatztypen, die mit dem angegebenen Unternehmen verknüpft sind, oder die globalen Eigenschaftssatztypen, wenn kein Unternehmen angegeben wurde. |
+| typeArray | `types:PropertySetTypeArray` | Ja | Ein Array von Eigenschaftssatztypen, die mit dem angegebenen Unternehmen verknüpft sind, oder die globalen Eigenschaftssatztypen, wenn kein Unternehmen angegeben wurde. |
 
 ## Beispiele {#section-280c406a90864409856aee44d4069a52}
 

@@ -5,10 +5,10 @@ title: setImageMaps
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
@@ -33,15 +33,15 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array von vordefinierten Imagemaps. |
+| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| assetHandle | `xsd:string` | Ja | Asset-Handle. |
+| imageMapArray | `types:ImageMapDefinitionArray` | Ja | Array von vordefinierten Imagemaps. |
 
 **Ausgabe (setImageMapsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Ja | Ein Array mit Imagemap-Handles, die auf das Asset angewendet werden. |
+| imageMapHandleArray | `types:HandleArray` | Ja | Ein Array mit Imagemap-Handles, die auf das Asset angewendet werden. |
 
 ## Beispiele {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

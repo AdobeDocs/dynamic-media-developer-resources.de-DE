@@ -1,20 +1,20 @@
 ---
-description: Aus einer PDF-Datei extrahierter Suchzeichenfolgendatensatz.
+description: Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Datensatz.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 11%
+source-wordcount: '82'
+ht-degree: 12%
 
 ---
 
 # SearchStrings{#searchstrings}
 
-Aus einer PDF-Datei extrahierter Suchzeichenfolgendatensatz.
+Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Datensatz.
 
 Syntax
 
@@ -22,12 +22,12 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`searchString`*` | `xsd:string` | Suchzeichenfolgentext. |
-| `*`keywordsArray`*` | `types:KeywordsArray` | Array von Suchbegriffen in der Suchzeichenfolge. |
-| `*`status`*` | `xsd:boolean` | True , wenn die Suchzeichenfolge gültig und aktiviert ist. |
-| `*`x`*` | `xsd:int` | X Achsenposition der Suchzeichenfolge. |
-| `*`y`*` | `xsd:int` | Y-Achsenposition der Suchzeichenfolge. |
-| `*`width`*` | `xsd:int` | Breite der Suchzeichenfolge. |
-| `*`height`*` | `xsd:int` | Höhe der Suchzeichenfolge. |
-| `*`fontName`*` | `xsd:string` | Name der in der Suchzeichenfolge verwendeten Schriftart. |
-| `*`pointSize`*` | `xsd:string` | Schriftgröße. |
+| searchString | `xsd:string` | Suchzeichenfolgentext. |
+| keywordsArray | `types:KeywordsArray` | Array von Suchbegriffen in der Suchzeichenfolge. |
+| status | `xsd:boolean` | True , wenn die Suchzeichenfolge gültig und aktiviert ist. |
+| x | `xsd:int` | X Achsenposition der Suchzeichenfolge. |
+| y | `xsd:int` | Y-Achsenposition der Suchzeichenfolge. |
+| Breite | `xsd:int` | Breite der Suchzeichenfolge. |
+| Höhe | `xsd:int` | Höhe der Suchzeichenfolge. |
+| fontName | `xsd:string` | Name der in der Suchzeichenfolge verwendeten Schriftart. |
+| pointSize | `xsd:string` | Schriftgröße. |

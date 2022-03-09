@@ -2,12 +2,12 @@
 description: Erstellt eine Vorgabenansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann einen beliebigen Typ aufweisen, der in IPS verfügbar ist. Die Vorgabenansicht wird angewendet, wenn die Assets veröffentlicht werden.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,Viewer-Vorgaben
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 13%
 
 ---
@@ -31,17 +31,17 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, das die Viewer-Vorgaben und Assets enthält. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Der Handle des Ordners, der die Assets enthält. |
-| `*`name`*` | `xsd:string` | Ja | Viewer-Name. |
-| `*`type`*` | `xsd:string` | Ja | Viewer-Typ. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Handles von Bildern enthält, auf die Sie Vorgaben anwenden. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, das die Viewer-Vorgaben und Assets enthält. |
+| folderHandle | `xsd:string` | Ja | Der Handle des Ordners, der die Assets enthält. |
+| name | `xsd:string` | Ja | Viewer-Name. |
+| Typ | `xsd:string` | Ja | Viewer-Typ. |
+| configSettingArray | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Handles von Bildern enthält, auf die Sie Vorgaben anwenden. |
 
 **Ausgabe (createViewerPresetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Ja | Handhabung der Vorgabe an den Viewer. |
+| viewerPresetHandle | `xsd:string` | Ja | Handhabung der Vorgabe an den Viewer. |
 
 ## Beispiele {#section-c88ea63536f3461cbe4677ba53f875dd}
 

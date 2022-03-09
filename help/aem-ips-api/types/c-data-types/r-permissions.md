@@ -5,10 +5,10 @@ title: Berechtigung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -22,8 +22,8 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Gruppieren. |
-| `*`groupName`*` | `xsd:string` | Gruppenname. |
-| `*`permissionType`*` | `xsd:string` | Auswahl des Berechtigungstyps. |
-| `*`isAllowed`*` | `xsd:boolean` | Bestimmt, ob die Berechtigung zulässig ist. |
-| `*`isOverride`*` | `xsd:boolean` | Bestimmt, ob die Berechtigung eine andere überschreibt. |
+| groupHandle | `xsd:string` | Gruppieren. |
+| groupName | `xsd:string` | Gruppenname. |
+| permissionType | `xsd:string` | Auswahl des Berechtigungstyps. |
+| isAllowed | `xsd:boolean` | Bestimmt, ob die Berechtigung zulässig ist. |
+| isOverride | `xsd:boolean` | Bestimmt, ob die Berechtigung eine andere überschreibt. |

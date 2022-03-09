@@ -2,13 +2,13 @@
 description: Fügt Viewer-Konfigurationseinstellungen an ein Asset an. Dabei kann es sich um eine Viewer-Vorgabe oder um das Quell-Asset für den Viewer handeln.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer-Vorgaben
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 11%
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -31,11 +31,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset-Handle. |
-| `*`name`*` | `xsd:string` | Ja | Asset-Name. |
-| `*`type`*` | `xsd:string` | Ja | Der Asset-Typ, auf den Sie die Viewer-Konfiguration anwenden möchten. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Das Array von `ConfigSettings`, das auf das Asset angewendet wird. |
+| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| assetHandle | `xsd:string` | Ja | Asset-Handle. |
+| name | `xsd:string` | Ja | Asset-Name. |
+| Typ | `xsd:string` | Ja | Der Asset-Typ, auf den Sie die Viewer-Konfiguration anwenden möchten. |
+| configSettingArray | `types:ConfigSettingArray` | Ja | Das -Array von `ConfigSettings` auf das Asset angewendet. |
 
 **Ausgabe (setViewerConfigSettingsParam)**
 

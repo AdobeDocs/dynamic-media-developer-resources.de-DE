@@ -5,9 +5,9 @@ title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 14%
 
 ---
@@ -49,67 +49,67 @@ Neuere Image Rendering-Serverversionen unterstützen Pyramid-Vignetten, sodass k
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Name zur Identifizierung des Vignettenveröffentlichungsformats. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> <p>Gibt die Zielbreite der resultierenden Vignettenansicht in Pixel an. </p> <p>Verwenden Sie null, damit die Ausgabemignette dieselbe Größe wie die primäre Vignette hat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Erstellt eine zum Zoomen auf dem Image Rendering-Server optimierte Pryramidenvignette. Ausgehend von der Maximalgröße, die in den Feldern zur Bestimmung der Größe der Zielvignette festgelegt wird, werden in einer einzigen Vignettendatei Ansichten in verschiedenen Größen erstellt. Die Größe jeder weiteren Ansicht wird jedesmal halbiert, bis Höhe und Breite bei 128 x 128 Pixeln liegen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt die Breite jeder resultierenden Miniaturansicht in Pixel an. Diese Einstellung ist optional. Lassen Sie den Wert null für keine Miniaturansicht-Datei. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt das Dateiformat für die veröffentlichten Vignetten an. Bei einer neuen Version von Image Authoring und einer älteren Version des Image Rendering Server müssen Sie eine Vignettenversion angeben, die Ihr ImageRendering Server lesen kann. Wenn Sie eine höhere Version angeben, kann der Image Rendering-Server die veröffentlichten Vignetten nicht lesen. Auf null setzen, um Vignetten in der neuesten Version zu veröffentlichen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt das Zeichen an, das den Vignettennamen und das Suffix trennt und die Breite angibt. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Gibt das Zeichen an, das den Vignettennamen und das Suffix trennt und die Breite angibt. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Scharfzeichnen</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Wendet die Scharfzeichnung auf das Hauptansichtsbild für jede Veröffentlichungsvignettengröße an. Das Scharfzeichnen kann die Weichzeichnung bei der Skalierung der Vignetten kompensieren. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Die digitale Unschärfemaske ist eine flexible und leistungsstarke Methode, um die Schärfe zu erhöhen, insbesondere bei gescannten Bildern. Dies steuert die Größe jedes Überschießens (wie viel dunkler und leichter die Kantengrenzen werden). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Hat Auswirkungen auf die Größe der zu verbessernden Kanten oder die Breite der Kantenrimen, sodass ein kleineres Radium die Detailschärfe vergrößert. Höhere Radiuswerte können Halos an den Kanten verursachen. Für feine Details ist ein kleinerer Radius erforderlich, da winzige Details derselben Größe oder kleiner als der Radius verloren gehen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Steuert die minimale Helligkeitsänderung, die scharfgezeichnet werden soll, oder die Entfernung zwischen benachbarten Tonwerten, bevor der Filter funktioniert. Mit dieser Einstellung können ausgeprägtere Kanten scharfgezeichnet werden, während feinere Kanten unberührt bleiben. Der zulässige Bereich von 0 bis 255. </td> 
   </tr> 
@@ -120,7 +120,7 @@ Neuere Image Rendering-Serverversionen unterstützen Pyramid-Vignetten, sodass k
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`vignetteFormatHandle`*` | `xsd:string` | Ja | Der Griff zum erstellten Vignettenformat. |
+| vignetteFormatHandle | `xsd:string` | Ja | Der Griff zum erstellten Vignettenformat. |
 
 ## Beispiele {#section-0564752d439642b9bb8de2903db6de1e}
 

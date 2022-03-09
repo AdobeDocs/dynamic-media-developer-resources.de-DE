@@ -5,10 +5,10 @@ title: getAssetsByName
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 10%
+source-wordcount: '212'
+ht-degree: 11%
 
 ---
 
@@ -93,7 +93,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer ist, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. </p> <p>Wenn <span class="codeph"> false</span>, werden Assets ohne definierten Untertyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> ist nicht leer, nur Assets, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> zurückgegeben. </p> <p>Wenn <span class="codeph"> false</span>, werden Assets ohne definierten Untertyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -114,7 +114,7 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`assetArray`*` | `types:AssetArray` | Nein | Array von Assets, die den Filterkriterien entsprechen. |
+| assetArray | `types:AssetArray` | Nein | Array von Assets, die den Filterkriterien entsprechen. |
 
 ## Beispiele {#section-3b7447398e574c88aeaf8ca159cc78dd}
 

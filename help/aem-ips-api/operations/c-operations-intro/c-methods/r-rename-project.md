@@ -5,10 +5,10 @@ title: renameProject
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 23%
 
 ---
 
@@ -33,15 +33,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Verarbeiten Sie das Unternehmen mit dem Projekt, das Sie umbenennen möchten. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Verarbeiten Sie das Projekt. |
-| `*`projectName`*` | `xsd:string` | Ja | Neuer Projektname. |
+| companyName | `xsd:string` | Ja | Verarbeiten Sie das Unternehmen mit dem Projekt, das Sie umbenennen möchten. |
+| projectHandle | `xsd:string` | Ja | Verarbeiten Sie das Projekt. |
+| projectName | `xsd:string` | Ja | Neuer Projektname. |
 
 **Ausgabe (renameProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Ja | Der Handle des umbenannten Projekts. |
+| projectHandle | `xsd:string` | Ja | Der Handle des umbenannten Projekts. |
 
 ## Beispiele {#section-a0a06d9244774795b695a10b92b2a5e7}
 

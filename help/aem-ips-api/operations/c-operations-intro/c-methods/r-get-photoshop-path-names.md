@@ -5,10 +5,10 @@ title: getFotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 19%
+source-wordcount: '77'
+ht-degree: 20%
 
 ---
 
@@ -34,14 +34,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen, das das Bild enthält, mit dem Sie arbeiten möchten. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
+| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen, das das Bild enthält, mit dem Sie arbeiten möchten. |
+| assetHandle | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
 
 **Ausgabe (getFotoshopPathNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | Ja | Ein Array von Photoshop-Pfadnamen in einem Bild. |
+| pathNameArray | `types:StringArray` | Ja | Ein Array von Photoshop-Pfadnamen in einem Bild. |
 
 ## Beispiele {#section-6d316f14b4184d42af4ca3f717b042dd}
 

@@ -5,10 +5,10 @@ title: VignetteInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 14%
+source-wordcount: '44'
+ht-degree: 15%
 
 ---
 
@@ -22,10 +22,10 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Pfad zur Datei. |
-| `*`originalFile`*` | `xsd:string` | Dateiname. |
-| `*`fileSize`*` | `xsd:int` | Dateigröße. |
-| `*`imagePath`*` | `xsd:string` | Pfad zum Bild. |
-| `*`imageFile`*` | `xsd:string` |  |
-| `*`optimizedPath`*` | `xsd:string` | Optimierter Pfad zur Datei. |
-| `*`optimizedFile`*` | `xsd:string` | Optimierter Dateiname. |
+| originalPath | `xsd:string` | Pfad zur Datei. |
+| originalFile | `xsd:string` | Dateiname. |
+| fileSize | `xsd:int` | Dateigröße. |
+| imagePath | `xsd:string` | Pfad zum Bild. |
+| imageFile | `xsd:string` |  |
+| optimizedPath | `xsd:string` | Optimierter Pfad zur Datei. |
+| optimizedFile | `xsd:string` | Optimierter Dateiname. |

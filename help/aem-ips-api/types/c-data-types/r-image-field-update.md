@@ -5,10 +5,10 @@ title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
@@ -22,8 +22,8 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Asset-Handle. |
-| `*`resolution`*` | `xsd:double` | Bildauflösung in Pixel pro Zoll. |
-| `*`anchorX`*` | `xsd:int` | X-Achsen-Bildanker. |
-| `*`anchorY`*` | `xsd:int` | Y-Achsen-Bildanker. |
-| `*`Benutzerdaten`*` | `xsd:string` | Wert des Metadatenfelds `userData` , das in das Feld für den Bildbereitstellungs-Benutzerdatenkatalog veröffentlicht wird. |
+| assetHandle | `xsd:string` | Asset-Handle. |
+| Auflösung | `xsd:double` | Bildauflösung in Pixel pro Zoll. |
+| anchorX | `xsd:int` | X-Achsen-Bildanker. |
+| anchorY | `xsd:int` | Y-Achsen-Bildanker. |
+| Benutzerdaten | `xsd:string` | Wert von `userData` Metadatenfeld, das im Feld für den Bilddienst des Benutzerdatenkatalogfelds veröffentlicht wird. |

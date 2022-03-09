@@ -5,10 +5,10 @@ title: getGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 18%
+source-wordcount: '80'
+ht-degree: 20%
 
 ---
 
@@ -34,14 +34,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nein | Der Handle für den Benutzer. |
-| `*`companyHandle`*` | `xsd:string` | Nein | Der Handle für das Unternehmen. |
+| userHandle | `xsd:string` | Nein | Der Handle für den Benutzer. |
+| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen. |
 
 **Ausgabe (getGroupMembershipReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | Ja | Array von Gruppen. |
+| groupArray | `types:GroupArray` | Ja | Array von Gruppen. |
 
 ## Beispiele {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 

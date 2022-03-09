@@ -5,10 +5,10 @@ title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 12%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`Suchmaschine`*` | `xsd:string` | Verwendete Generierungs-Engine (Werte finden Sie unter &quot;Generierungsinformationen&quot;). |
-| `*`originator`*` | `types:Asset` | Asset-Datensatz des bei der Generierung verwendeten primären Assets. |
-| `*`generiert`*` | `types:Asset` | Asset-Datensatz des generierten Assets. |
-| `*`attributeArray`*` | `types:GenerationAttributeArray` | Array von Attributen, die mit dem Generierungsprozess verknüpft sind. |
+| Suchmaschine | `xsd:string` | Verwendete Generierungs-Engine (Werte finden Sie unter &quot;Generierungsinformationen&quot;). |
+| originator | `types:Asset` | Asset-Datensatz des bei der Generierung verwendeten primären Assets. |
+| generiert | `types:Asset` | Asset-Datensatz des generierten Assets. |
+| attributeArray | `types:GenerationAttributeArray` | Array von Attributen, die mit dem Generierungsprozess verknüpft sind. |

@@ -1,17 +1,21 @@
 ---
-description: Schließt das Primärvideo aus dem adaptiven Videoset aus.
 title: ExcludeMasterVideoFromAVS
+description: Schließt das Primärvideo aus dem adaptiven Videoset aus.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '50'
 ht-degree: 10%
 
 ---
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
+
+>[!IMPORTANT]
+>
+>Adobe beendet die Unterstützung für die `ExcludeMasterVideoFromAVS` Parameter September 2022.
 
 Schließt das Primärvideo aus dem adaptiven Videoset aus.
 

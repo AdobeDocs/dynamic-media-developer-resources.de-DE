@@ -5,10 +5,10 @@ title: deleteFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 10%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
@@ -37,8 +37,8 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Ordner gehört. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Der Handle für den Ordner, der gelöscht werden soll. |
+| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Ordner gehört. |
+| folderHandle | `xsd:string` | Ja | Der Handle für den Ordner, der gelöscht werden soll. |
 
 **Ausgabe (deleteFolderParam)**
 

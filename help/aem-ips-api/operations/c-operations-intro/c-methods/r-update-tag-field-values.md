@@ -5,10 +5,10 @@ title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 12%
+source-wordcount: '157'
+ht-degree: 13%
 
 ---
 
@@ -54,7 +54,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Array von Tag-Feldwerten, die Sie aktualisieren möchten. <p>Hinweis:  Aktualisiert nur Tag-Zeichenfolgenwerte. Die Asset-Zuordnungen sind davon nicht betroffen. </p> </td> 
+   <td colname="col4">Array von Tag-Feldwerten, die Sie aktualisieren möchten. <p>Hinweis: Aktualisiert nur Tag-Zeichenfolgenwerte. Die Asset-Zuordnungen sind davon nicht betroffen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Tag-Felder. |
-| `*`warningCount`*` | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, Tag-Felder zu aktualisieren. |
-| `*`errorCount`*` | `xsd:int` | Ja | Die Anzahl der Fehler, die bei dem Versuch erzeugt wurden, Tag-Felder zu aktualisieren. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Tag-Felder. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, Tag-Felder zu aktualisieren. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die bei dem Versuch erzeugt wurden, Tag-Felder zu aktualisieren. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
 
 ## Beispiele {#section-bb4dcf97044c4675974c9b8d27674001}
 

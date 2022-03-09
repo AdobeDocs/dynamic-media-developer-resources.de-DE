@@ -5,10 +5,10 @@ title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 13%
+source-wordcount: '121'
+ht-degree: 14%
 
 ---
 
@@ -33,15 +33,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset mit dem Zoomziel, das Sie festlegen möchten. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Ja | Array von Zoom-Zieldefinitionen. |
+| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| assetHandle | `xsd:string` | Ja | Asset mit dem Zoomziel, das Sie festlegen möchten. |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Ja | Array von Zoom-Zieldefinitionen. |
 
 **Ausgabe (setZoomTargetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Ja | Die Griffe für die Zoomziele, die durch diesen Vorgang erstellt werden. |
+| zoomTargetHandleArray | `types:HandleArray` | Ja | Die Griffe für die Zoomziele, die durch diesen Vorgang erstellt werden. |
 
 ## Beispiele {#section-a2f14c7a1499443e96d099ea8a76c182}
 

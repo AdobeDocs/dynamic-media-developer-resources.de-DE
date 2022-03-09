@@ -2,13 +2,13 @@
 description: Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldhandle weg, um ein neues Metadatenfeld zu erstellen.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadaten
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '217'
+ht-degree: 9%
 
 ---
 
@@ -87,7 +87,7 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldh
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
+   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,11 +96,11 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldh
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Ja | Umgang mit dem neuen Metadatenfeld. |
+| fieldHandle | `xsd:string` | Ja | Umgang mit dem neuen Metadatenfeld. |
 
 ## Beispiele {#section-4441c26d1f41466ba972b43dd5189e89}
 
-In diesem Codebeispiel wird ein neues Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt wird. Wenn das Element `fieldHandle` über einen gültigen Feldhandle-Wert verfügt, werden die Metadatenwerte geändert und dasselbe Feld-Handle erhalten, das Sie in der Anfrage angegeben haben.
+In diesem Codebeispiel wird ein neues Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt wird. Wenn die Variable `fieldHandle` -Element über einen gültigen Feldhandle-Wert verfügt, ändert es die Metadatenwerte und erhält denselben Feldhandle wie die Anforderung.
 
 **Anforderung**
 

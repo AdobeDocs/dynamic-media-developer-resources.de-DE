@@ -5,10 +5,10 @@ title: getProperty
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 11%
+source-wordcount: '132'
+ht-degree: 12%
 
 ---
 
@@ -22,10 +22,10 @@ Zu den unterstützten Systemeigenschaften gehören:
 * `IpsImageServerUrl`: Vollständiges, externes URL-Präfix für den IPS-Image-Server.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: URL-Präfix zum Rendern von SVG-Assets.
-* `SvgRenderEnabled`: True , wenn SVG-Assets von gerendert werden können  `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: URL-Präfix für das Rendern von SVG-Assets.
+* `SvgRenderEnabled`: True , wenn SVG-Assets von `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Maximale Größe (in Byte) der bei einem Upload zulässigen Dateidaten  [!DNL POST]. Das System lehnt Dateien ab, die größer als das Limit sind.
+* `UploadPostMaxFileSize`: Maximale Größe (in Byte) der bei einem Upload zulässigen Dateidaten [!DNL POST]. Das System lehnt Dateien ab, die größer als das Limit sind.
 
 ## Autorisierte Benutzertypen {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ Zu den unterstützten Systemeigenschaften gehören:
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | Ja | Der Name der abzurufenden Eigenschaft. |
+| name | `xsd:string` | Ja | Der Name der abzurufenden Eigenschaft. |
 
 **Ausgabe (getPropertyReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Wert`*` | `xsd:string` | Ja | Der Eigenschaftswert. |
+| value | `xsd:string` | Ja | Der Eigenschaftswert. |
 
 ## Beispiele {#section-3f80a78dd60c404181b34d3a912d7a36}
 

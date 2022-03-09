@@ -5,9 +5,9 @@ title: moveAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 9%
 
 ---
@@ -33,8 +33,8 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle an das Unternehmen mit Assets, die verschoben werden sollen. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | Ja | Ein Asset-Verschiebe-Array. Sie enthält ein Asset und einen Asset-Zielordner. |
+| companyHandle | `xsd:string` | Ja | Das Handle an das Unternehmen mit Assets, die verschoben werden sollen. |
+| assetMoveArray | `types:AssetMoveArray` | Ja | Ein Asset-Verschiebe-Array. Sie enthält ein Asset und einen Asset-Zielordner. |
 
 **Ausgabe (moveAssetsReturn)**
 
@@ -70,7 +70,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsets, die Folgendes enthalten: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>die Folgendes enthalten: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Assets, die die Warnungen ausgegeben haben. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Warnungscodes. </li> 
@@ -81,7 +81,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsets, die Folgendes enthalten: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>die Folgendes enthalten: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets, die die Fehler ausgegeben haben. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Fehlercodes. </li> 
@@ -93,7 +93,7 @@ Syntax
 
 ## Beispiele {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Mit diesem Codebeispiel werden Assets an einen bestimmten Speicherort verschoben, der durch `assetMoveArray` angegeben wird. Das -Array enthält das Asset-Handle und dessen Ordner-Handle. Die Antwort gibt an, dass die Assets erfolgreich verschoben wurden.
+Dieses Codebeispiel verschiebt Assets an einen bestimmten Speicherort, der durch die Variable `assetMoveArray`. Das -Array enthält das Asset-Handle und dessen Ordner-Handle. Die Antwort gibt an, dass die Assets erfolgreich verschoben wurden.
 
 **Anforderung**
 

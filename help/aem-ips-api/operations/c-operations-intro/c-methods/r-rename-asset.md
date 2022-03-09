@@ -5,9 +5,9 @@ title: renameAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '173'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ Benennt ein Asset um.
 
 >[!NOTE]
 >
->Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus `renameAsset` entfernt. Der virtuelle Dateipfad wird so geändert, dass er mit dem neuen Asset-Namen übereinstimmt (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen beim Aktualisieren auf die neue API-Version Verweise auf diesen Parameter entfernen.
+>Die `renameFiles` -Parameter wurde für frühere Versionen nicht mehr unterstützt und aus entfernt `renameAsset`. Der virtuelle Dateipfad wird so geändert, dass er mit dem neuen Asset-Namen übereinstimmt (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen beim Aktualisieren auf die neue API-Version Verweise auf diesen Parameter entfernen.
 
 ## Autorisierte Benutzertypen {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -39,14 +39,14 @@ Benennt ein Asset um.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Asset gehört. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Das Handle für das Asset, das Sie umbenennen möchten. |
-| `*`newName`*` | `xsd:string` | Ja | Der neue Name des Assets. |
-| `*`validateName`*` | `xsd:boolean` | Ja | Wenn `validateName` `true` ist und der Asset-Typ eine eindeutige IPS-ID erfordert, wird der neue Name auf globale Eindeutigkeit überprüft und `renameAsset` gibt einen Fehler aus, wenn er nicht eindeutig ist. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Asset gehört. |
+| assetHandle | `xsd:string` | Ja | Das Handle für das Asset, das Sie umbenennen möchten. |
+| newName | `xsd:string` | Ja | Der neue Name des Assets. |
+| validateName | `xsd:boolean` | Ja | Wenn die Variable `validateName` is `true` und der Asset-Typ eine eindeutige IPS-ID erfordert, wird der neue Name auf globale Eindeutigkeit überprüft und `renameAsset` gibt einen Fehler aus, wenn dieser nicht eindeutig ist. |
 
 **Ausgabe (renameAssetReturn)**
 
-Die IPS-API gibt keine Antwort für diesen Vorgang zurück. Einschränkungen zu diesem Element finden Sie in der Beschreibung des Elements `<ns1:validateName>` .
+Die IPS-API gibt keine Antwort für diesen Vorgang zurück. Siehe Beschreibung der `<ns1:validateName>` -Element mit Einschränkungen zu diesem Element.
 
 ## Beispiele {#section-a0ddffd62bec42e09069f22ceb486f8a}
 

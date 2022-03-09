@@ -5,10 +5,10 @@ title: batchGetAssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -34,9 +34,7 @@ Syntax
 >
 >* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückgeben zu können.
 >* Alle Benutzer haben Zugriff auf das freigegebene Unternehmen.
-
 >
-
 
 
 ## Parameter {#section-1742fcb196224545b270eb8241f757a8}
@@ -45,14 +43,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| `*`assetHandleArray`*` | ` `Typen:HandleArray&quot; | Ja | Eine Liste der Assets, die für aktive (zur Veröffentlichung markierte) Kontexte abgefragt werden sollen. |
+| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| assetHandleArray | ` `Typen:HandleArray&quot; | Ja | Eine Liste der Assets, die für aktive (zur Veröffentlichung markierte) Kontexte abgefragt werden sollen. |
 
 **Ausgabe (batchGetAssetPublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Ja | Ein Array von Veröffentlichungskontexten, in denen jedes Asset zur Veröffentlichung markiert ist. |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | Ja | Ein Array von Veröffentlichungskontexten, in denen jedes Asset zur Veröffentlichung markiert ist. |
 
 ## Beispiele {#section-457f6809ccfa425b9a0976313d613f4e}
 

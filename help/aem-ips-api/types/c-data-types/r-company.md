@@ -5,10 +5,10 @@ title: Firma
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 29%
+source-wordcount: '32'
+ht-degree: 34%
 
 ---
 
@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Handle des Unternehmens. |
-| `*`name`*` | `xsd:string` | Name des Unternehmens. |
-| `*`rootPath`*` | `xsd:string` | Stammverzeichnis des Unternehmens. |
-| `*`expires`*` | `xsd:dateTime` | Datum und Uhrzeit des Ablaufs des Unternehmens. |
+| companyHandle | `xsd:string` | Handle des Unternehmens. |
+| name | `xsd:string` | Name des Unternehmens. |
+| rootPath | `xsd:string` | Stammverzeichnis des Unternehmens. |
+| expires | `xsd:dateTime` | Datum und Uhrzeit des Ablaufs des Unternehmens. |

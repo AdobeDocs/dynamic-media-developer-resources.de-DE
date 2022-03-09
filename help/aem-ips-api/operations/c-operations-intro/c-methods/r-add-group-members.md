@@ -5,9 +5,9 @@ title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
@@ -30,9 +30,9 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Der Gruppengriff. |
-| `*`userHandleArray`*` | `types:HandleArray` | Ja | Ein Array von Handles für Benutzer, die Sie einer Gruppe hinzufügen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| groupHandle | `xsd:string` | Ja | Der Gruppengriff. |
+| userHandleArray | `types:HandleArray` | Ja | Ein Array von Handles für Benutzer, die Sie einer Gruppe hinzufügen möchten. |
 
 **Ausgabe (addGroupMembersParam)**
 
@@ -40,7 +40,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-In diesem Beispiel wird `*`addGroupMembersParam`*` verwendet, um einem einzelnen Unternehmen einen Benutzer hinzuzufügen. Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
+In diesem Beispiel wird addGroupMembersParam verwendet, um einem einzelnen Unternehmen einen Benutzer hinzuzufügen. Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 **Anforderung**
 

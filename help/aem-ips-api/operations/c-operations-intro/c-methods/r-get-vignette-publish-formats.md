@@ -5,10 +5,10 @@ title: getVignettePublishFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 22%
+source-wordcount: '61'
+ht-degree: 24%
 
 ---
 
@@ -29,13 +29,13 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 
 **Ausgabe (getVignettePublishFormatsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | Ja | Array von Vignettenveröffentlichungsformaten. |
+| vignetteFormatArray | `types:VignettePublishFormatArray` | Ja | Array von Vignettenveröffentlichungsformaten. |
 
 ## Beispiele {#section-2cc32b27cc6243b7b3e273cc05996226}
 

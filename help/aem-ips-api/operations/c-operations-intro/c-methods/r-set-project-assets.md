@@ -5,10 +5,10 @@ title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 20%
 
 ---
 
@@ -33,15 +33,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Handle des Unternehmens. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Projekthandle. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Das Array der Asset-Handles, die Sie mit dem Projekt verknüpfen möchten. |
+| companyName | `xsd:string` | Ja | Handle des Unternehmens. |
+| projectHandle | `xsd:string` | Ja | Projekthandle. |
+| assetHandleArray | `types:HandleArray` | Ja | Das Array der Asset-Handles, die Sie mit dem Projekt verknüpfen möchten. |
 
 **Ausgabe (setProjectAssetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Die Anzahl der erfolgreich hinzugefügten Assets. |
+| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich hinzugefügten Assets. |
 
 ## Beispiele {#section-33c1a909c3dc4aa98da474c23a036596}
 

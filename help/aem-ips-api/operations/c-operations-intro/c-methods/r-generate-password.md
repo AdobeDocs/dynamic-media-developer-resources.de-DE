@@ -5,10 +5,10 @@ title: generatePassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '59'
+ht-degree: 20%
 
 ---
 
@@ -40,7 +40,7 @@ Keine.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Passwort`*` | `xsd:string` | Ja | Ein neues Kennwort. |
+| Passwort | `xsd:string` | Ja | Ein neues Kennwort. |
 
 ## Beispiele {#section-f580fefdccec46fe95359e3aef0ed17f}
 

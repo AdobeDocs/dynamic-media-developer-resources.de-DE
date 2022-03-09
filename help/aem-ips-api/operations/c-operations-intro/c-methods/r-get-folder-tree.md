@@ -5,9 +5,9 @@ title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 9%
 
 ---
@@ -38,21 +38,21 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| `*`accessUserHandle`*` | `xsd:string` | Nein | Wird nur von Administratoren verwendet, um die Identität eines bestimmten Benutzers zu übernehmen. |
-| `*`accessGroupHandle`*` | `xsd:string` | Nein | Wird verwendet, um nach einer bestimmten Gruppe zu filtern, einschließlich derjenigen, zu der das Unternehmen gehört. |
-| `*`folderPath`*` | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
-| `*`Tiefe`*` | `xsd:int` | Ja | Der Wert null ruft den Ordner der obersten Ebene ab. Jeder andere Wert gibt die Tiefe an, die in den Baum absinkt. |
-| `*`assetTypeArray`*` | `types:StringArray` | Nein | Gibt Ordner zurück, die nur bestimmte Asset-Typen enthalten. |
-| `*`responseFieldArray`*` | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in der Antwort ausschließen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| accessUserHandle | `xsd:string` | Nein | Wird nur von Administratoren verwendet, um die Identität eines bestimmten Benutzers zu übernehmen. |
+| accessGroupHandle | `xsd:string` | Nein | Wird verwendet, um nach einer bestimmten Gruppe zu filtern, einschließlich derjenigen, zu der das Unternehmen gehört. |
+| folderPath | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
+| Tiefe | `xsd:int` | Ja | Der Wert null ruft den Ordner der obersten Ebene ab. Jeder andere Wert gibt die Tiefe an, die in den Baum absinkt. |
+| assetTypeArray | `types:StringArray` | Nein | Gibt Ordner zurück, die nur bestimmte Asset-Typen enthalten. |
+| responseFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
+| excludeFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in der Antwort ausschließen möchten. |
 
 **Ausgabe (getFolderTreeReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`Ordner`*` | `types:folders` | Nein | Die Hierarchie von Ordnern in einer Baumstruktur. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
-| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| Ordner | `types:folders` | Nein | Die Hierarchie von Ordnern in einer Baumstruktur. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
+| permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## Beispiele {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 

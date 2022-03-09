@@ -5,10 +5,10 @@ title: moveFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 26%
+source-wordcount: '60'
+ht-degree: 28%
 
 ---
 
@@ -33,15 +33,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Ordner-Handle. |
-| `*`destFolderHandle`*` | `xsd:string` | Ja | Verarbeiten Sie den Zielordner. |
+| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| folderHandle | `xsd:string` | Ja | Ordner-Handle. |
+| destFolderHandle | `xsd:string` | Ja | Verarbeiten Sie den Zielordner. |
 
 **Ausgabe (moveFolderReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Verarbeiten Sie den verschobenen Ordner. |
+| folderHandle | `xsd:string` | Ja | Verarbeiten Sie den verschobenen Ordner. |
 
 ## Beispiele {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

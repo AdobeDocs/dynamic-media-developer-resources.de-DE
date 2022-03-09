@@ -5,10 +5,10 @@ title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Attributname. |
-| `*`Wert`*` | `xsd:string` | Attributwert. |
+| name | `xsd:string` | Attributname. |
+| value | `xsd:string` | Attributwert. |

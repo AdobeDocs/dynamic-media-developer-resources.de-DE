@@ -5,9 +5,9 @@ title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 9%
 
 ---
@@ -30,9 +30,9 @@ Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die er
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle des Unternehmens. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Gruppieren. |
-| `*`userHandleArray`*` | `types:HandleArray` | Ja | Array von Handles für Benutzer, deren Gruppenmitgliedschaft Sie festlegen möchten. |
+| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| groupHandle | `xsd:string` | Ja | Gruppieren. |
+| userHandleArray | `types:HandleArray` | Ja | Array von Handles für Benutzer, deren Gruppenmitgliedschaft Sie festlegen möchten. |
 
 **Ausgabe (setGroupMemberReturn)**
 

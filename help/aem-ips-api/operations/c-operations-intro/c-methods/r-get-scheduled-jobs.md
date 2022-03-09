@@ -5,10 +5,10 @@ title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 21%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -35,15 +35,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| `*`jobHandle`*` | `xsd:string` | Nein | Auftragshandle. |
-| `*`originalName`*` | `xsd:string` | Nein | Der von `submitJob` angegebene Name. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| jobHandle | `xsd:string` | Nein | Auftragshandle. |
+| originalName | `xsd:string` | Nein | Der von `submitJob`. |
 
 **Ausgabe (getScheduledJobsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | Ja | Array geplanter Aufträge. |
+| jobArray | `types:ScheduledJobArray` | Ja | Array geplanter Aufträge. |
 
 ## Beispiele {#section-e79e7da86ba848fd9996aa36de462e6c}
 

@@ -5,10 +5,10 @@ title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 18%
+source-wordcount: '74'
+ht-degree: 20%
 
 ---
 
@@ -34,13 +34,13 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Das Handle für das Unternehmen mit den Bildformaten, die Sie abrufen möchten. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit den Bildformaten, die Sie abrufen möchten. |
 
 **Ausgabe (getImageFormatsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`imageFormatArray`*` | `types:ImageFormatArray` | Ja | Das Bildformat-Array. |
+| imageFormatArray | `types:ImageFormatArray` | Ja | Das Bildformat-Array. |
 
 ## Beispiele {#section-73881e12839b4904bf3299b0920bdd0c}
 

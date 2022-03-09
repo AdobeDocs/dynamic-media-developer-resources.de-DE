@@ -5,10 +5,10 @@ title: Schlüsselwörter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 32%
+source-wordcount: '41'
+ht-degree: 36%
 
 ---
 
@@ -20,9 +20,9 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`keyword`*` | `xsd:string` | Suchbegriff. |
-| `*`status`*` | `xsd:boolean` | Gültigkeit des Suchbegriffs. |
-| `*`x`*` | `xsd:int` | Suchbegriffposition auf der X-Achse (in Pixel). |
-| `*`y`*` | `xsd:int` | Suchbegriffposition auf der y-Achse (in Pixel). |
-| `*`width`*` | `xsd:int` | Suchbegriffsbreite in Pixel. |
-| `*`height`*` | `xsd:int` | Höhe des Suchbegriffs in Pixel. |
+| keyword | `xsd:string` | Suchbegriff. |
+| status | `xsd:boolean` | Gültigkeit des Suchbegriffs. |
+| x | `xsd:int` | Suchbegriffposition auf der X-Achse (in Pixel). |
+| y | `xsd:int` | Suchbegriffposition auf der y-Achse (in Pixel). |
+| Breite | `xsd:int` | Suchbegriffsbreite in Pixel. |
+| Höhe | `xsd:int` | Höhe des Suchbegriffs in Pixel. |

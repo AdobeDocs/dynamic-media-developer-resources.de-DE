@@ -5,10 +5,10 @@ title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 17%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -36,15 +36,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | Der Handle für den Eigenschaftssatz-Typ. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Ja | Der primäre Eigentümer der an das Datenbankobjekt gebundenen Daten. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | Nein | Ein optionaler sekundärer Eigentümer der Daten. |
+| typeHandle | `xsd:string` | Ja | Der Handle für den Eigenschaftssatz-Typ. |
+| primaryOwnerHandle | `xsd:string` | Ja | Der primäre Eigentümer der an das Datenbankobjekt gebundenen Daten. |
+| secondaryOwnerHandle | `xsd:string` | Nein | Ein optionaler sekundärer Eigentümer der Daten. |
 
 **Ausgabe (getPropertySetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Ja | Array von Eigenschaftssätzen. |
+| setArray | `types:PropertySetArray` | Ja | Array von Eigenschaftssätzen. |
 
 ## Beispiele {#section-1358af974eab4259864910337a6f0bd2}
 

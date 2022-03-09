@@ -5,10 +5,10 @@ title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '99'
+ht-degree: 16%
 
 ---
 
@@ -38,14 +38,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array von Handles zu Assets, deren ursprünglichen Dateipfad Sie abrufen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| assetHandleArray | `types:HandleArray` | Ja | Array von Handles zu Assets, deren ursprünglichen Dateipfad Sie abrufen möchten. |
 
 **Ausgabe (getOriginalFilePathsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | Ja | Das Array von Zeichenfolgen, die die ursprünglichen Dateipfade darstellen. |
+| originalFileArray | `types:StringArray` | Ja | Das Array von Zeichenfolgen, die die ursprünglichen Dateipfade darstellen. |
 
 ## Beispiele {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

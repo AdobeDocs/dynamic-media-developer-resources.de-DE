@@ -5,10 +5,10 @@ title: TagValueUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`oldValue`*` | `xsd:string` | Ursprünglicher Tag-Feldwert. |
-| `*`newValue`*` | `xsd:string` | Neuer Tag-Feldwert. |
+| oldValue | `xsd:string` | Ursprünglicher Tag-Feldwert. |
+| newValue | `xsd:string` | Neuer Tag-Feldwert. |

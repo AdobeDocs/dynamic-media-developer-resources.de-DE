@@ -5,10 +5,10 @@ title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 16%
+source-wordcount: '107'
+ht-degree: 17%
 
 ---
 
@@ -31,14 +31,14 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nein | Benutzerhandbuch. |
-| `*`firstName`*` | `xsd:string` | Ja | Vorname. |
-| `*`lastName`*` | `xsd:string` | Ja | Nachname. |
-| `*`E-Mail`*` | `xsd:string` | Ja | Benutzer-E-Mail. |
-| `*`defaultRole`*` | `xsd:string` | Ja | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Beachten Sie jedoch, dass die Rolle `IpsAdmin` andere Unternehmenseinstellungen außer Kraft setzt. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Nein | Legen Sie das Ablaufdatum für das Kennwort fest. |
-| `*`isValid`*` | `xsd:boolean` | Ja | Bestimmt, ob der Benutzer ein gültiger IPS-Benutzer ist. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Ein Array von Unternehmens-Handles. |
+| userHandle | `xsd:string` | Nein | Benutzerhandbuch. |
+| firstName | `xsd:string` | Ja | Vorname. |
+| lastName | `xsd:string` | Ja | Nachname. |
+| E-Mail | `xsd:string` | Ja | Benutzer-E-Mail. |
+| defaultRole | `xsd:string` | Ja | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Beachten Sie jedoch die `IpsAdmin` -Rolle überschreibt andere unternehmensspezifische Einstellungen. |
+| passwordExpires | `xsd:dateTime` | Nein | Legen Sie das Ablaufdatum für das Kennwort fest. |
+| isValid | `xsd:boolean` | Ja | Bestimmt, ob der Benutzer ein gültiger IPS-Benutzer ist. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Ein Array von Unternehmens-Handles. |
 
 **Ausgabe (setUserInfoReturn)**
 

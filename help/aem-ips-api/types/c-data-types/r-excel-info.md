@@ -5,10 +5,10 @@ title: ExcelInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '30'
+ht-degree: 23%
 
 ---
 
@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Pfad zur Datei. |
-| `*`originalFile`*` | `xsd:string` | Dateiname. |
-| `*`fileSize`*` | `xsd:int` | Dateigröße. |
+| originalPath | `xsd:string` | Pfad zur Datei. |
+| originalFile | `xsd:string` | Dateiname. |
+| fileSize | `xsd:int` | Dateigröße. |

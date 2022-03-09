@@ -5,10 +5,10 @@ title: resumeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '67'
+ht-degree: 17%
 
 ---
 
@@ -35,8 +35,8 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Auftrag, den Sie neu starten möchten. |
-| `*`jobHandle`*` | `xsd:string` | Ja | Der Griff zum angehaltenen Auftrag. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Auftrag, den Sie neu starten möchten. |
+| jobHandle | `xsd:string` | Ja | Der Griff zum angehaltenen Auftrag. |
 
 **Ausgabe (resumeJobReturn)**
 
