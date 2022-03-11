@@ -5,10 +5,10 @@ title: Vorgänge - Neu und geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
@@ -37,8 +37,8 @@ Syntax
 
 ## Geänderte Vorgänge {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` enthält  `animatedGifInfo`,  `swcInfo`,  `cssInfo` und  `javascriptInfo` Parameter.
-* `createMetadataField` enthält einen optionalen  `isHidden` Parameter.
-* `saveMetadataField` enthält einen optionalen  `isHidden` Parameter.
+* `Asset` include `animatedGifInfo`, `swcInfo`, `cssInfo`und `javascriptInfo` Parameter.
+* `createMetadataField` enthält ein optionales `isHidden` Parameter.
+* `saveMetadataField` enthält ein optionales `isHidden` Parameter.
 * `searchAssets`
-* Der Parameter `renameFiles` wurde für frühere Versionen nicht mehr unterstützt und aus dem Vorgang `renameAsset` entfernt. Der virtuelle Dateipfad wird so geändert, dass er mit dem neuen Asset-Namen übereinstimmt (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen beim Aktualisieren auf die neue API-Version Verweise auf diesen Parameter entfernen.
+* Die `renameFiles` -Parameter wurde für frühere Versionen nicht mehr unterstützt und aus der `renameAsset` Vorgang. Der virtuelle Dateipfad wird so geändert, dass er mit dem neuen Asset-Namen übereinstimmt (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen beim Aktualisieren auf die neue API-Version Verweise auf diesen Parameter entfernen.

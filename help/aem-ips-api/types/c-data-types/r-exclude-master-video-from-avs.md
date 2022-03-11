@@ -4,10 +4,10 @@ description: Schließt das Primärvideo aus dem adaptiven Videoset aus.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Adobe beendet die Unterstützung für die `ExcludeMasterVideoFromAVS` Parameter September 2022.
+>Adobe beendet die Unterstützung für die `ExcludeMasterVideoFromAVS` Parameter 1. September 2022. Siehe auch [Veraltete Aufrufe](/help/aem-ips-api/c-deprecated-calls.md).
 
 Schließt das Primärvideo aus dem adaptiven Videoset aus.
 
@@ -35,7 +35,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Schließt die Übergeordnete Videodatei aus dem adaptiven Videoset aus. </p> <p>Der Standardwert ist "true". </p> </td> 
+   <td colname="col3"> <p>Schließt die primäre Videodatei aus dem adaptiven Videoset aus. </p> <p>Der Standardwert ist "true". </p> </td> 
   </tr> 
  </tbody> 
 </table>
