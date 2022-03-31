@@ -1,26 +1,25 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: Dynamic Media Image Production System-API
 feature-set: Experience Manager Assets
-user-guide-description: Die IPS (Image Production System) Web Service API ermöglicht externen Anwendungen und Entwicklern von Drittanbieteranwendungen den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
-translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+user-guide-description: Die IPS (Image Production System) Web Service-API ermöglicht externen Anwendungen und Entwicklern von Drittanbieteranwendungen den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# Dynamic Media Image Production System API {#image-production-api}
+# Dynamic Media Image Production System-API {#image-production-api}
 
-+ [Informationen zur Dynamic Media Image Production System API](c-overview.md)
++ [Informationen zur Dynamic Media Image Production System-API](c-overview.md)
 + [Veraltete Aufrufe](c-deprecated-calls.md)
-+ [IPS Web Service WSDL Versionen](c-wsdl-versions.md)
++ [IPS Web Service WSDL-Versionen](c-wsdl-versions.md)
 + Vorgangsmethoden {#operation-methods}
    + [Vorgangsmethoden](operations/c-operations-intro/c-operations-intro.md)
-   + Vorgangsparameter {#operation-parameters}
-      + [Übersicht über die Betriebsparameter](operations/c-operations-intro/c-methods/c-methods.md)
+   + Aktionsparameter {#operation-parameters}
+      + [Übersicht über Aktionsparameter](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
       + [addGroupMembers](operations/c-operations-intro/c-methods/r-add-group-members.md)
@@ -39,7 +38,7 @@ ht-degree: 3%
       + [checkLogin](operations/c-operations-intro/c-methods/r-check-login.md)
       + [copyImage](operations/c-operations-intro/c-methods/r-copy-image.md)
       + [createAssetSet](operations/c-operations-intro/c-methods/r-create-asset-set.md)
-      + [createDerivedAsset](operations/c-operations-intro/c-methods/r-create-derived-asset.md)
+      + [createabgeleiteteAsset](operations/c-operations-intro/c-methods/r-create-derived-asset.md)
       + [createFolder](operations/c-operations-intro/c-methods/r-create-folder.md)
       + [createImageSet](operations/c-operations-intro/c-methods/r-create-image-set.md)
       + [createMetadataField](operations/c-operations-intro/c-methods/r-create-metadata-field.md)
@@ -235,7 +234,7 @@ ht-degree: 3%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeByproductArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeByproductCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)
+   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -248,7 +247,7 @@ ht-degree: 3%
    + [GenerationAttributeArray](types/c-data-types/r-generation-attribute-array.md)
    + [GenerationInfo](types/c-data-types/r-generation-info.md)
    + [GenerationInfoArray](types/c-data-types/r-generation-info-array.md)
-   + [Group](types/c-data-types/r-group.md)
+   + [Gruppe](types/c-data-types/r-group.md)
    + [GroupArray](types/c-data-types/r-group-array.md)
    + [HandleArray](types/c-data-types/r-handle-array.md)
    + [IccProfileFieldUpdate](types/c-data-types/r-icc-profile-field-update.md)
@@ -314,7 +313,7 @@ ht-degree: 3%
    + [PermissionSetArray](types/c-data-types/r-permission-set-array.md)
    + [PermissionUpdate](types/c-data-types/r-permission-update.md)
    + [PermissionUpdateArray](types/c-data-types/r-permission-update-array.md)
-   + [PerectiveQuad](types/c-data-types/r-perspective-quad.md)
+   + [PerspectiveQuad](types/c-data-types/r-perspective-quad.md)
    + [FotoshopOptions](types/c-data-types/r-photoshop-options.md)
    + [FotoshopLayerOptions](types/c-data-types/r-photoshop-layer-options.md)
    + [PostScriptInfo](types/c-data-types/r-post-script-info.md)
@@ -400,33 +399,33 @@ ht-degree: 3%
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
 + Zeichenfolgenkonstanten {#sting-constants}
-   + [String-Konstanten](string-constants/c-string-constants/c-string-constants.md)
-   + [Aktive Auftragszustände](string-constants/c-string-constants/r-active-job-states.md)
+   + [Zeichenfolgenkonstanten](string-constants/c-string-constants/c-string-constants.md)
+   + [Aktive Auftragsstatus](string-constants/c-string-constants/r-active-job-states.md)
    + [Asset-Suchsystemfelder](string-constants/c-string-constants/r-asset-search-system-fields.md)
    + [Asset-Überschreibungsmodi](string-constants/c-string-constants/r-asset-overwrite-modes.md)
    + [Asset-Sortierungsfelder](string-constants/c-string-constants/r-asset-sort-fields.md)
    + [Asset-Typen](string-constants/c-string-constants/r-asset-types.md)
-   + [AutoCrop-Ecke](string-constants/c-string-constants/r-auto-crop-corner.md)
+   + [AutoCrop Corner](string-constants/c-string-constants/r-auto-crop-corner.md)
    + [Farbmanagement-Modi](string-constants/c-string-constants/r-color-management-modes.md)
    + [Farbräume](string-constants/c-string-constants/r-color-spaces.md)
    + [E-Mail-Einstellungen](string-constants/c-string-constants/r-email-settings.md)
-   + [Schriftschnitte](string-constants/c-string-constants/r-font-styles.md)
-   + [Schriftarten](string-constants/c-string-constants/r-font-types.md)
+   + [Schriftstile](string-constants/c-string-constants/r-font-styles.md)
+   + [Schrifttypen](string-constants/c-string-constants/r-font-types.md)
    + [Generierungsinformationen](string-constants/c-string-constants/r-generation-info.md)
    + [Illustrator-Prozesse](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Auftragsprotokolldateitypen](string-constants/c-string-constants/r-job-log-file-types.md)
-   + [Sortierfelder für Auftragsprotokoll](string-constants/c-string-constants/r-job-log-sort-fields.md)
+   + [Auftragsprotokollsortierungsfelder](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Auftragsprotokolltypen](string-constants/c-string-constants/r-job-log-types.md)
-   + [Status des Job Triggers](string-constants/c-string-constants/r-job-trigger-states.md)
+   + [Job Trigger States](string-constants/c-string-constants/r-job-trigger-states.md)
    + [Auftragstypen](string-constants/c-string-constants/r-job-types.md)
    + [Metadatenfeldtypen](string-constants/c-string-constants/r-metadata-field-types.md)
-   + [Numerische Operatoren/Datumsvergleiche](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
+   + [Numerische Operatoren/Datumsvergleich](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [PDF-Prozesse](string-constants/c-string-constants/r-pdf-processes.md)
    + [Berechtigungstypen](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshop-Ankermodi](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Photoshop-Ebenenbenennungsmodi](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript-Farbraummodi](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
-   + [Profil-Klassen](string-constants/c-string-constants/r-profile-classes.md)
+   + [Profilklassen](string-constants/c-string-constants/r-profile-classes.md)
    + [Veröffentlichungsstatus](string-constants/c-string-constants/r-publish-state.md)
    + [Eigenschaftssatztypen](string-constants/c-string-constants/r-property-set-types.md)
    + [Veröffentlichungskontext](string-constants/c-string-constants/r-publish-context.md)
@@ -434,16 +433,16 @@ ht-degree: 3%
    + [Regionsform](string-constants/c-string-constants/r-region-shape.md)
    + [Suchübereinstimmungsmodi](string-constants/c-string-constants/r-search-match-modes.md)
    + [Sortierrichtung](string-constants/c-string-constants/r-sort-directions.md)
-   + [Zeichenfolgenvergleichsoperatoren](string-constants/c-string-constants/r-string-comparison-operators.md)
-   + [Papierkorbsstatus](string-constants/c-string-constants/r-trash-state.md)
-   + [Filter für Benutzerzeichen](string-constants/c-string-constants/r-user-char-filter-fields.md)
+   + [Operatoren für Zeichenfolgenvergleich](string-constants/c-string-constants/r-string-comparison-operators.md)
+   + [Löschstatus](string-constants/c-string-constants/r-trash-state.md)
+   + [Felder für Benutzerzeichenfilter](string-constants/c-string-constants/r-user-char-filter-fields.md)
    + [Benutzerrollen](string-constants/c-string-constants/r-user-roles.md)
    + [Benutzersortierungsfelder](string-constants/c-string-constants/r-user-sort-fields.md)
    + [Viewer-Typ](string-constants/c-string-constants/r-viewer-type.md)
 + Fehler {#faults}
-   + [Übersicht über die Standardwerte](faults/c-faults/c-faults.md)
+   + [Übersicht über Fehler](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
-   + [authorizedFault](faults/c-faults/r-authorization-fault.md)
+   + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
 + Änderungsprotokoll {#change-log}
    + [Änderungsprotokoll](change-log/c-change-log.md)
@@ -460,21 +459,21 @@ ht-degree: 3%
       + [Version 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [Datentypen: Neu und geändert](change-log/c-change-log/c-4-4/r-4-4-types.md)
-      + [String-Konstanten: Neu und geändert](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
+      + [Zeichenfolgenkonstanten: Neu und geändert](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
    + Version 4.2 {#version-4-2}
       + [Version 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [Datentypen: Neu und geändert](change-log/c-change-log/c-4-2/r-4-2-types.md)
    + Version 4.0 {#version-4-0}
       + [Version 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
-      + [Neue Hinzufügungen und Änderungen](change-log/c-change-log/c-4-0/r-4-0-new.md)
+      + [Neue Ergänzungen und Änderungen](change-log/c-change-log/c-4-0/r-4-0-new.md)
    + Version 3.8 {#version-3-8}
       + [Version 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [Datentypen: Neu und geändert](change-log/c-change-log/c-3-8/r-3-8-types.md)
-      + [String-Konstanten: Neu und geändert](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
+      + [Zeichenfolgenkonstanten: Neu und geändert](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + Version 3.7 {#version-3-7}
       + [Version 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [Datentypen: Neu und geändert](change-log/c-change-log/c-3-7/r-3-7-types.md)
-      + [String-Konstanten: Neu und geändert](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
-+ [Hochladen von Assets über HTTP POSTs in die UploadFile...](c-http-post.md)
+      + [Zeichenfolgenkonstanten: Neu und geändert](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
++ [Hochladen von Assets über HTTP-POSTs in die UploadFile..](c-http-post.md)
