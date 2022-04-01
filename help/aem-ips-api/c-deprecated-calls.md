@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: 25d9de1d9ba727e72c031ab22c47bd2be5c11050
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,7 @@ API-Aufrufe des Bildproduktionssystems und die zugehörigen Parameter, die nicht
 
 API-Aufrufe des Bildproduktionssystems und die zugehörigen Parameter, die nicht mehr in Dynamic Media verwendet werden.
 
-* `ExcludeMasterVideoFromAVS` - Veraltet von [Datentypen](/help/aem-ips-api/types/c-data-types/c-data-types.md). Dieser Parameter hat das Primärvideo aus dem adaptiven Videoset ausgeschlossen.
-   >[!IMPORTANT]
-   >
-   >Adobe beendet die Unterstützung für diesen Parameter am 1. September 2022. Siehe auch [ExcludeMasterVideoFromAVS](/help/aem-ips-api/types/c-data-types/r-exclude-master-video-from-avs.md).
-
+* `ExcludeMasterVideoFromAVS` - Veraltet von [Datentypen](/help/aem-ips-api/types/c-data-types/c-data-types.md). Dieser Parameter hat das Primärvideo aus dem adaptiven Videoset ausgeschlossen. <!-- Adobe is ending support for this parameter on September 1, 2022. -->
 * `addMediaPortalEvent` - Veraltet von [Aktivitäten](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Mit diesem Parameter können Sie ein Media Portal-Ereignis zu IPS hinzufügen.
 * `getMediaPortalEvent` - Veraltet von [Aktivitäten](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Mit diesem Parameter können Sie Medienportal-Ereignisse abrufen, die bestimmten Kriterien entsprechen.
 * `getCdnCacheInvalidationStatus` - Veraltet von [Aktivitäten](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Dieser Parameter wird jetzt nicht mehr unterstützt, da die Variable `cdnCacheInvalidation` -Parameter macht den Cache fast sofort ungültig (~5 Sekunden). Daher ist eine Abfrage zum Invalidierungsstatus nicht mehr erforderlich.
