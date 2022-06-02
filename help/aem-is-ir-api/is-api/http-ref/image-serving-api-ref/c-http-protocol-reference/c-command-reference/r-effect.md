@@ -1,14 +1,14 @@
 ---
+title: Effekt
 description: Wählen Sie Effektebene aus. Wählt eine Effektebene aus und startet ein neues Ebenensegment in der Anforderungszeichenfolge, das mit der aktuellen Ebene verknüpft ist.
 solution: Experience Manager
-title: Effekt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
@@ -25,13 +25,13 @@ Wählen Sie Effektebene aus. Wählt eine Effektebene aus und startet ein neues E
  </tr> 
 </table>
 
-Alle Befehle im neuen Segment werden auf die angegebene Effektebene angewendet. Ein Effekt-Layer-Segment wird durch den nächsten `layer=` - oder `effect=` -Befehl oder durch das Ende der Anfrage beendet.
+Alle Befehle im neuen Segment werden auf die angegebene Effektebene angewendet. Ein Effekt-Ebenensegment wird bis zum nächsten beendet `layer=` oder `effect=` -Befehl oder am Ende der -Anfrage.
 
 *`n`* muss kleiner als 0 für äußere Ebeneneffekte (d. h. Effekte hinter der übergeordneten Ebene) und größer als 0 für innere Ebeneneffekte (d. h. Effekte innerhalb der übergeordneten Ebene) sein. Die Anzahl der Effektebenen muss nicht aufeinander folgen.
 
 Die Ebenennummer des Effekts gibt die z-Reihenfolge an, falls mehrere Effektebenen für dieselbe übergeordnete Ebene vorhanden sind. Höhere Ebenen werden auf unternummerierten Ebenen platziert.
 
-Effektschichten können an `layer=comp` angehängt werden.
+Effektebenen können an `layer=comp`.
 
 ## Eigenschaften {#section-e11f795deff345779ce280a82cf221ca}
 
@@ -47,4 +47,4 @@ Keine.
 
 ## Verwandte Themen {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

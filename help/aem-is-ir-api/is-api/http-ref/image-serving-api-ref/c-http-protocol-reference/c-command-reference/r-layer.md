@@ -1,13 +1,13 @@
 ---
+title: Layer
 description: Wählen Sie Ebene aus. Wählt eine Ebene aus und startet ein neues Ebenendefinitionssegment in der Befehlssequenz.
 solution: Experience Manager
-title: Layer
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Wählen Sie Ebene aus. Wählt eine Ebene aus und startet ein neues Ebenendefinitionssegment in der Befehlssequenz.
 
-`layer= *``*|comp[, *`nname`*]`
+`layer= *`n`*|comp[, *`name`*]`
 
 `layer= *`name`*`
 
@@ -35,15 +35,15 @@ Wählen Sie Ebene aus. Wählt eine Ebene aus und startet ein neues Ebenendefinit
  </tr> 
 </table>
 
-Alle Befehle im Ebenensegment werden auf die angegebene Ebene angewendet. Ein Ebenensegment wird durch den nächsten Befehl `layer=` oder `effect=` oder das Ende der Anforderung beendet.
+Alle Befehle im Ebenensegment werden auf die angegebene Ebene angewendet. Ein Ebenensegment wird bis zum nächsten beendet `layer=` oder `effect=` -Befehl oder das Ende der Anfrage.
 
-Geben Sie `layer=comp` an, um das zusammengesetzte Bild (oder bei einigen Befehlen die Ansicht) auszuwählen.
+Angeben `layer=comp` , um das zusammengesetzte Bild (oder bei einigen Befehlen die Ansicht) auszuwählen.
 
 Die Ebenennummer gibt effektiv die z-Reihenfolge für die Ebene an. Höhere Ebenen werden auf unternummerierten Ebenen platziert.
 
 Ebenennummern müssen nicht aufeinander folgen. Ebene 0 ist erforderlich.
 
-Ein Name kann einer Ebene mit der Befehlsvariante `layer= *`n`*, *`name`*` zugewiesen werden. Nachdem eine benannte Ebene definiert wurde, kann sie mit ` layer= *`name`*` referenziert werden, ohne die Ebenennummer kennen zu müssen. Dieselbe Ebene kann mit mehreren `layer= *`n`*, *`name`*` -Befehlen mehrere Namen erhalten.
+Ein Name kann einer Ebene mit der `layer= *`n`*, *`name`*` Befehlsvariante. Nachdem eine benannte Ebene definiert wurde, kann sie mit ` layer= *`name`*`, ohne die Ebenennummer kennen zu müssen. Dieselbe Ebene können mehrere Namen zugewiesen werden, wobei mehrere `layer= *`n`*, *`name`*` Befehle.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Ein Name kann einer Ebene mit der Befehlsvariante `layer= *`n`*, *`name`*` zugew
 
 ## Eigenschaften {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-Ebenenbefehl. Ersatzvariablenverweise werden in `layer=` nicht unterstützt.
+Ebenenbefehl. Ersatzvariablenverweise werden in `layer=`.
 
-`comp` ist als  *`name`* Zeichenfolge nicht zulässig. Ein Fehler wird zurückgegeben, wenn dieselbe *`name`* mehreren Ebenen zugewiesen ist oder wenn eine Ebene durch *`name`* referenziert wird, die zuvor nicht definiert wurde.
+`comp` ist nicht zulässig als *`name`* Zeichenfolge. Ein Fehler wird zurückgegeben, wenn dasselbe *`name`* wird mehr als einer Ebene zugewiesen oder wenn eine Ebene durch *`name`* die zuvor nicht definiert wurde.
 
 ## Standard {#section-091859a03f8048c2b7092f0fec9c1006}
 

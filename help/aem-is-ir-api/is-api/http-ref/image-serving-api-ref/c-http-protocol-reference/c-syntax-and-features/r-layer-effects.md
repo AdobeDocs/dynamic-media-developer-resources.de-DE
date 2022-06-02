@@ -1,13 +1,13 @@
 ---
+title: Ebeneneffekte
 description: Ebenenschatten und Glüheffekte im Photoshop-Stil werden mithilfe spezieller Unterschichten (Effektschichten) implementiert, die an jede Ebene (die übergeordnete Ebene) angehängt werden können, einschließlich layer=0 und layer=comp.
 solution: Experience Manager
-title: Ebeneneffekte
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 2%
 
 Ebenenschatten und Glüheffekte im Photoshop-Stil werden mithilfe spezieller Unterschichten (Effektschichten) implementiert, die an jede Ebene (die übergeordnete Ebene) angehängt werden können, einschließlich layer=0 und layer=comp.
 
-Obwohl Effektebenen eine Reihe von standardmäßigen Bild- und Ebenenattributen und Befehlen unterstützen, sind sie nicht als allgemeine Zielschichten vorgesehen und unterstützen keine unabhängigen Bild- oder Textdaten.
+Obwohl Effektebenen eine Reihe von standardmäßigen Bild- und Ebenenattributen und -befehlen unterstützen, sind sie nicht für allgemeine Zielschichten vorgesehen und unterstützen keine unabhängigen Bild- oder Textdaten.
 
 Eine beliebige Anzahl von Ebeneneffekten kann an eine einzelne übergeordnete Ebene angehängt werden.
 
 ## Innen- und Außeneffekte {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Innere* Effekte werden auf der übergeordneten Ebene gerendert und sind nur in undurchsichtigen Bereichen der übergeordneten Ebene sichtbar. *Außeneffekte* werden hinter der übergeordneten Ebene gerendert (sodass sie in undurchsichtigen Bereichen der übergeordneten Ebene nicht sichtbar sind) und können an einer beliebigen Stelle auf der Arbeitsfläche der Komposition positioniert werden. Ein innerer oder äußere Effekt wird durch Zuweisen einer positiven oder negativen Effektschichtnummer mit dem Befehl `effect=` ausgewählt. Der Befehl `effect=` steuert auch die z-Reihenfolge zwischen mehreren Effektebenen, die an dieselbe übergeordnete Ebene angehängt sind.
+*Innere Effekte* werden über der übergeordneten Ebene gerendert und sind nur in undurchsichtigen Bereichen der übergeordneten Ebene sichtbar. *Nebenwirkungen* werden hinter der übergeordneten Ebene gerendert (sodass sie in undurchsichtigen Bereichen der übergeordneten Ebene nie sichtbar sind) und können an einer beliebigen Stelle auf der Arbeitsfläche der Komposition positioniert werden. Ein innerer oder äußere Effekt wird durch Zuweisung einer Positiv- oder Negativ-Effektschichtnummer mit der `effect=` Befehl. Die `effect=` -Befehl steuert auch die z-Reihenfolge zwischen mehreren Effektebenen, die an dieselbe übergeordnete Ebene angehängt sind.
 
 ## Beziehung zur übergeordneten Ebene {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-Effektschichten werden automatisch skaliert und so positioniert, dass sie mit der übergeordneten Ebene zusammenfallen (d. h. die Effekteschicht übernimmt die `size=`- und `origin=`-Werte der übergeordneten Ebene). `pos=` kann verwendet werden, um die Effektebene von der übergeordneten Ebene weg zu verschieben, wie dies für Ablegen- und Innenhungseffekte normalerweise erforderlich ist. Während `pos=` für Standardschichten einen Offset zwischen den Ursprüngen dieser Ebene und Ebene 0 angibt, gibt `pos=` für Effektebenen den Offset zwischen den Ursprüngen der Effekteschicht und der übergeordneten Ebene an.
+Effektschichten werden automatisch skaliert und so positioniert, dass sie mit der übergeordneten Ebene zusammenfallen (d. h. die Effekteschicht erbt die `size=` und `origin=` -Werte der übergeordneten Ebene). `pos=` kann verwendet werden, um die Effektebene von der übergeordneten Ebene weg zu verschieben, wie dies für Ablegen- und Innenhungseffekte normalerweise erforderlich ist. Bei Standardebenen `pos=` gibt für Effektebenen einen Offset zwischen den Ursprüngen dieser Ebene und Ebene 0 an `pos=` gibt den Versatz zwischen den Ursprüngen der Effektebene und der übergeordneten Ebene an.
 
 ## Unterstützte Befehle und Attribute {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -46,7 +46,7 @@ Alle anderen Bild- und Ebenenbefehle, die in Effektebenen enthalten sind, werden
 
 ## Standardeffekt-Makros {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-Um die Verwendung von Ebeneneffekten zu erleichtern, stellt IS zwei Makros mit dem Standardbildkatalog bereit, `$shadow$` und `$glow$`, die Standardwerte für Effekt-Layer-Attribute bereitstellen, die Photoshop-Ebeneneffekten ähnlich sind. In der folgenden Tabelle ist aufgeführt, welcher Effektbefehl und welches Makro zur Implementierung der standardmäßigen Ebeneneffekte verwendet werden sollen. Natürlich kann jedes der in den Makros angegebenen Attribute in der URL geändert werden oder alternative Makros können erstellt werden, um benutzerdefinierte Ebeneneffekte zu implementieren.
+Um die Verwendung von Ebeneneffekten zu erleichtern, stellt IS zwei Makros mit dem standardmäßigen Bildkatalog bereit: `$shadow$` und `$glow$`, die Standardwerte für Effekt-Layer-Attribute bereitstellen, die Photoshop-Ebeneneffekten ähnlich sind. In der folgenden Tabelle ist aufgeführt, welcher Effektbefehl und welches Makro zur Implementierung der standardmäßigen Ebeneneffekte verwendet werden sollen. Natürlich kann jedes der in den Makros angegebenen Attribute in der URL geändert werden oder alternative Makros können erstellt werden, um benutzerdefinierte Ebeneneffekte zu implementieren.
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
@@ -81,7 +81,7 @@ Fügen Sie einer Ebene einen drei Pixel breiten roten Rahmen mit einer Deckkraft
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-Der Rahmen folgt den Konturen des Alphakanals oder der Maske des Bildes. Durch Festlegen von `effect=1` wird der Rahmen stattdessen an der Innenseite platziert.
+Der Rahmen folgt den Konturen des Alphakanals oder der Maske des Bildes. Einstellung `effect=1` den Rahmen stattdessen an der Innenseite platzieren.
 
 Fügen Sie einem Bild einen blauen Schlagschatten hinzu, indem Sie die Standardeinstellungen für den Effekt verwenden (mit Ausnahme der Farbe):
 
@@ -91,4 +91,4 @@ Fügen Sie einem Bild einen blauen Schlagschatten hinzu, indem Sie die Standarde
 
 ## Verwandte Themen {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[Effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135),  [Befehlsmakros%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[Effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Befehlsmakros%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

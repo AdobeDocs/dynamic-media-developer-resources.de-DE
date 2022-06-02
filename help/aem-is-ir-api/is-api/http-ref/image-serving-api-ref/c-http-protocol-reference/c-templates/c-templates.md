@@ -1,13 +1,13 @@
 ---
+title: Vorlagen
 description: Vorlagen können verwendet werden, um die Länge und Komplexität von Anforderungen zu reduzieren, die mehrere Bildebenen zusammensetzen oder die rtf-formatierten Text enthalten.
 solution: Experience Manager
-title: Vorlagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Vorlagen können verwendet werden, um die Länge und Komplexität von Anforderun
 
 Benutzerdefinierte Variablen können verwendet werden, um die Verwendung von Vorlagen weiter zu vereinfachen. Vorlagen werden häufig so eingerichtet, dass ein einfacher Austausch von Bildern oder Text oder das Festlegen anderer Optionen zur Laufzeit möglich ist.
 
-Vorlagen werden als Datensätze in Bildkatalogen gespeichert, wobei der Vorlagentext im Feld `catalog::Modifier` und das Feld `catalog::Path` leer sind oder ein statisches Hintergrundbild angeben, das nicht dynamisch geändert werden kann.
+Vorlagen werden als Datensätze in Bildkatalogen gespeichert, wobei der Vorlagentext im `catalog::Modifier` und dem `catalog::Path` leer oder ein statisches Hintergrundbild angeben, das nicht dynamisch geändert werden kann.
 
-Vorlagen werden mit dem Befehl `template=` oder in der Pfadkomponente der Anfrage-URL angegeben. Für die meisten Anwendungen wird empfohlen, den Befehl `template=` zu verwenden, um Vorlagen anzugeben. Der Befehl `template=`darf nicht im Feld `catalog::PostModifier` auftreten und darf nur im Feld `catalog::Modifier` einer verschachtelten IS-Anforderung (d. h. in einem `src=is{...}`-Konstrukt) vorkommen. Vorlagendatensätze können nicht in `src=`- oder `mask=`Befehlen referenziert werden.
+Vorlagen werden mit der Variablen `template=` -Befehl oder in der Pfadkomponente der Anfrage-URL. Für die meisten Anwendungen wird empfohlen, die `template=` -Befehl, um Vorlagen anzugeben. Die `template=`darf nicht im `catalog::PostModifier` und kann nur im `catalog::Modifier` in einer verschachtelten IS-Anforderung (d. h. in einer `src=is{...}` -Konstrukt). Vorlagendatensätze werden unter `src=` oder `mask=`Befehle.
 
-Alle in die Vorlage eingebetteten `src=`- oder `mask=`Befehle können in den Hauptkatalog der Anforderung oder in einen anderen Bildkatalog aufgelöst werden. Wenn kein `rootId` explizit angegeben ist, wird vom Hauptkatalog ausgegangen. Die mit `template=` angegebene Vorlage kann sich auch im Hauptkatalog oder in einem anderen Bildkatalog befinden.
+Alle `src=` oder `mask=`-Befehle, die in die Vorlage eingebettet sind, können in den Hauptkatalog der Anforderung oder in einen anderen Bildkatalog aufgelöst werden. Wenn nicht `rootId` explizit angegeben ist, wird vom Hauptkatalog ausgegangen. Die mit `template=` kann sich auch im Hauptkatalog oder in einem anderen Bildkatalog befinden.
 
-Es wird dringend empfohlen, stets Standarddefinitionen für alle Variablen einzubeziehen, die in einer Vorlage verwendet werden. Auf diese Weise kann die Bildausgabe der Vorlage immer einfach durch Angabe der `attribute::RootId`- und `catalog::Id`-Werte angezeigt werden, ohne dass Sie wissen müssen, welche Variablen in der Vorlage verwendet werden.
+Es wird dringend empfohlen, stets Standarddefinitionen für alle Variablen einzubeziehen, die in einer Vorlage verwendet werden. Auf diese Weise kann die Bildausgabe der Vorlage immer einfach durch Angabe der zugehörigen `attribute::RootId` und `catalog::Id`, ohne wissen zu müssen, welche Variablen in der Vorlage verwendet werden.
 
-Die vordefinierte Pfadersetzungsvariable `$object$` kann verwendet werden, um das im URL-Pfad angegebene Bildobjekt auch in verschachtelten oder eingebetteten Anforderungen auf jede Ebenenquelle oder -maske ( `src=` oder `mask=`) anzuwenden.
+Die vordefinierte Pfadersetzungsvariable `$object$` kann verwendet werden, um das im URL-Pfad angegebene Bildobjekt auf eine beliebige Ebenenquelle oder -maske anzuwenden ( `src=` oder `mask=`), auch in verschachtelten oder eingebetteten Anforderungen.
 
 * [Beispiel A](r-example-a.md)
 * [Beispiel B](r-example-b.md)

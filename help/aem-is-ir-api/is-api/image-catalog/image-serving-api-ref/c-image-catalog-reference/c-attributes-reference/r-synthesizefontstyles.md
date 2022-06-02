@@ -1,13 +1,13 @@
 ---
+title: SynthesizeFontStyles
 description: Aktivieren Sie synthetisierte Schriftvarianten. Steuert, ob der Server eine Fehlerantwort generieren oder einen fett, kursiv oder fett/kursiv formatierten Schriftstil synthetisieren soll, wenn ein solcher Stil angefordert wird, der jedoch nicht in der Schriftzuordnung zu finden ist.
 solution: Experience Manager
-title: SynthesizeFontStyles
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Flag. Legen Sie auf 0 fest, um die Stile für synthetische Schriftarten zu deakt
 
 ## Standard {#section-71f94aa65e404d14b441674c040b59e3}
 
-Wird von `default::SynthesizeFontStyles` übernommen, wenn nicht definiert oder leer.
+Vererbt von `default::SynthesizeFontStyles` wenn nicht definiert oder leer ist.
 
 ## Verwandte Themen {#section-47a79659cc844272b6d5f36c946e12ac}
 
