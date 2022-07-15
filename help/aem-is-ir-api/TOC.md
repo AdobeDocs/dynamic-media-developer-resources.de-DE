@@ -41,13 +41,13 @@ ht-degree: 12%
       + [Starten und Beenden von Image Serving](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Starten oder Beenden unter Windows](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Starten oder Beenden unter Linux](c-installation/t-starting-and-stopping/t-startstop-linux.md)
-+ Image Serving API {#image-serving-api}
++ Image Serving-API {#image-serving-api}
    + [Image Serving-API](is-api/image-serving-api-ref/c-is-home.md)
    + [Vorgesehene Zielgruppe](is-api/image-serving-api-ref/c-intended-audience.md)
    + [Image Serving-Komponenten](is-api/image-serving-api-ref/r-components.md)
    + Konfiguration und Verwaltung {#config-admin}
       + [Konfiguration und Verwaltung](is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)
-      + Servicekonfigurationsdateien {#server-config-files}
+      + Servicer-Konfigurationsdateien {#server-config-files}
          + [Serverkonfigurationsdateien](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server-configuration-files.md)
          + [PlatformServer.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-platformserverconf.md)
          + [monitor.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-monitorconf.md)
@@ -55,7 +55,7 @@ ht-degree: 12%
          + [server.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server.md)
          + [ImageServerRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-imageserverregistry.md)
          + [SupervisorRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md)
-      + Datenzwischenspeicher {#data-caches}
+      + Datenzwischenspeicherung {#data-caches}
          + [Datenzwischenspeicher - Übersicht](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-data-caches.md)
          + [Cache für Antwortdaten](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md)
          + [Validierung des Antwort-Cache](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-cache-validation.md)
@@ -102,14 +102,14 @@ ht-degree: 12%
    + [Fehlerbehebung](is-api/image-serving-api-ref/r-troubleshooting.md)
    + HTTP-Protokollreferenz {#http-protocol-reference}
       + [HTTP-Protokollreferenz-Übersicht](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
-      + Einführung des HTTP-Protokolls {#http-protocol-introduction}
+      + Einführung in das HTTP-Protokoll {#http-protocol-introduction}
          + [Einführung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
          + [Vorgesehene Zielgruppe](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
          + [Dokumentkonventionen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
       + Syntax und Funktionen {#syntax-and-features}
          + [Syntax und Funktionen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [Grundlegende Syntax des Image Serving-HTTP-Protokolls](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
-         + Image Serving HTTP-Protokollbefehl {#image-serving-http}
+         + Image Serving HTTP-Protokoll, Befehl {#image-serving-http}
             + [Übersicht über den Befehl zum Image Serving-HTTP-Protokoll](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [Anforderungsbefehle](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
             + [Anzeigen von Befehlen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
@@ -270,7 +270,7 @@ ht-degree: 12%
          + [Typ](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md)
          + [wid](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md)
          + [xmpEmbed](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md)
-      + Antwortdaten {#response-data}
+      + Reaktionsdaten {#response-data}
          + [Übersicht über Reaktionsdaten](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-response-data.md)
          + [Bilder](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-images.md)
          + Eigenschaften {#properties}
@@ -331,7 +331,7 @@ ht-degree: 12%
             + [setAttr.rootElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setattr-rootelement.md)
             + [setElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setelement.md)
             + [setVal](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setval.md)
-         + Stapelverarbeitungsbefehle {#batch-process-commands}
+         + Befehle zur Stapelverarbeitung {#batch-process-commands}
             + [Befehle zur Stapelverarbeitung](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/c-batch-processing-commands.md)
             + [batchjobbriefstatus](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobbriefstatus.md)
             + [batchjobdelete](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobdelete.md)
@@ -356,7 +356,7 @@ ht-degree: 12%
          + [Videoattribute](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-video-attributes.md)
       + Katalogdatenfelder {#catalog-data-fields}
          + [Katalogdatenfelder](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md)
-         + [Bild_SVG-Daten](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-image-svg-data.md)
+         + [Image_SVG data](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-image-svg-data.md)
          + [Statische Inhaltsdaten](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-static-contents-data.md)
          + [Makrodefinitionen](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-macro-definitions.md)
          + [Schriftzuordnungen](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-font-maps.md)
@@ -495,7 +495,7 @@ ht-degree: 12%
       + [MetricsPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md)
       + [Name](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md)
       + [PsName](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md)
-   + ICC-Profilzuordnungsreferenz {#icc-profile-map-reference}
+   + Referenz zur ICC-Profilzuordnung {#icc-profile-map-reference}
       + [Referenz zur ICC-Profilzuordnung](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md)
       + [Name](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md)
       + [ProfilPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md)
@@ -520,7 +520,7 @@ ht-degree: 12%
       + [Lizenzierung](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [Einrichten und Konfigurieren des Kompatibilitätsmoduls IR 3.x](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [Einrichten und Konfigurieren des Bild-Renderings](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + Deinstallieren von Image Rendering {#uninstalling-image-rendering}
+      + Deinstallieren des Bild-Renderings {#uninstalling-image-rendering}
          + [Deinstallieren des Bild-Renderings](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [Deinstallation unter Linux und Solaris](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [Deinstallation unter Windows](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
@@ -528,7 +528,7 @@ ht-degree: 12%
       + [Serveradministration](ir-api/image-rendering-api-ref/c-ir-server-administration/c-ir-server-administration.md)
       + [Serveradministrationspräsentation](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-preface.md)
       + [Übersicht über die Serververwaltung](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-server-overview.md)
-      + Server {#configuring-and-managing-the-server} konfigurieren und verwalten
+      + Serverkonfiguration und -verwaltung {#configuring-and-managing-the-server}
          + [Serverübersicht konfigurieren und verwalten](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-configuring-and-managing-the-server.md)
          + [Konfigurationsdateien](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [Starten und Beenden des Servers](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
@@ -553,7 +553,7 @@ ht-degree: 12%
       + Syntax und Funktionen des HTTP-Protokolls {#http-protocol-syntax}
          + [Syntax und Funktionen des HTTP-Protokolls](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-protocol-syntax-and-features.md)
          + [Grundlegende Syntax des HTTP-Protokolls &quot;Image Rendering&quot;](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-basic-syntax.md)
-         + Übersicht über den HTTP-Protokoll-Befehl &quot;Image Rendering&quot;{#image-rendering-http-protocol-command-overview}
+         + Übersicht über den Befehl zum Rendern des HTTP-Protokolls {#image-rendering-http-protocol-command-overview}
             + [Übersicht über den Befehl zum Rendern des HTTP-Protokolls](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/c-ir-command-overview.md)
             + [Anzeigen von Attributen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
             + [Auswahlbefehle](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-selection-commands.md)
@@ -571,7 +571,7 @@ ht-degree: 12%
             + [Dezimalzahlen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-decals.md)
             + [Möbel](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
             + [Fensterverkleidungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
-         + Erweiterte Render-Effekte {#advanced-render-effects}
+         + Erweiterte Rendereffekte {#advanced-render-effects}
             + [Erweiterte Rendereffekte](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
             + [Verwendung mehrerer Beleuchtungskarten](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
             + [Farbstoffe](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
@@ -579,7 +579,7 @@ ht-degree: 12%
             + [Spiegelungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [Glanzeffekte](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [Erweiterte Rendereinstellungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + Verschachtelung und Einbettung von Anforderungen {#request-nesting-and-embedding}
+         + Verschachtelung und Einbettung anfordern {#request-nesting-and-embedding}
             + [Verschachtelung und Einbettung von Anforderungen *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [Eingebettete Image-Server-Anforderungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [Verschachtelte Image Rendering-Anforderungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)
@@ -606,7 +606,7 @@ ht-degree: 12%
          + [bgc](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md)
          + [cache](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md)
          + [Farbe](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md)
-         + [dekcal](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md)
+         + [dekal](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md)
          + [kennzeichnen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md)
          + [fmt](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md)
          + [Glanz](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md)
@@ -641,7 +641,7 @@ ht-degree: 12%
          + [Typ](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md)
          + [Vignette](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md)
          + [wid](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md)
-      + HTTP-Protokoll-Antwortdaten {#http-protocol-response-data}
+      + HTTP-Protokollreaktionsdaten {#http-protocol-response-data}
          + [HTTP-Protokollreaktionsdaten](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-http-protocol-response-data.md)
          + [Bilder](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-images.md)
          + [Eigenschaften](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md)
@@ -701,7 +701,7 @@ ht-degree: 12%
          + [TrustedDomains *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md)
          + [UseLastModified](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md)
          + [VignetteMapFile](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md)
-      + Referenz zu Materialdaten {#material-data-reference}
+      + Materialdatenreferenz {#material-data-reference}
          + [Materialdatenreferenz](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/c-ir-material-data-reference.md)
          + [Ausrichtung](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md)
          + [Anker](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md)
@@ -721,7 +721,7 @@ ht-degree: 12%
          + [Größe](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md)
          + [TimeStamp](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md)
          + [Typ](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-type.md)
-      + Vignette map reference {#vignette-map-reference}
+      + Vignettenzuordnungsreferenz {#vignette-map-reference}
          + [Vignettenzuordnungsreferenz](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md)
          + [Ablauf](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md)
          + [ID](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md)
@@ -733,7 +733,7 @@ ht-degree: 12%
          + [Referenz zur Makrodefinition](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md)
          + [Name](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md)
          + [Definition](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md)
-      + ICC-Profilzuordnungsreferenz {#icc-profile-map-reference}
+      + Referenz zur ICC-Profilzuordnung {#icc-profile-map-reference}
          + [Referenz zur ICC-Profilzuordnung](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md)
          + [Name](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md)
          + [ProfilPath](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md)
@@ -744,7 +744,7 @@ ht-degree: 12%
          + [Regel](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-rule.md)
          + [ruleset](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-ruleset.md)
          + [Substitution](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-substitution.md)
-+ Dienstprogramme {#utilites}
++ Hilfsprogramme {#utilites}
    + [Übersicht über Hilfsprogramme](utilities/utilities.md)
    + Image Serving Utilities {#image-serving-utilities}
       + [Image Serving-Dienstprogramme](is-api/is-utils/utilities/c-utils-home.md)
