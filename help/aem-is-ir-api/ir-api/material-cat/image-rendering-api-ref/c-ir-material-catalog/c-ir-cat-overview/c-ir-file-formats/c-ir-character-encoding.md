@@ -1,13 +1,13 @@
 ---
+title: Zeichenkodierung
 description: Image Rendering unterstützt Materialkataloge mit ISO-8859-1 und UTF-8-Kodierung.
 solution: Experience Manager
-title: Zeichenkodierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ee7b33fd-7607-4bff-867b-6e7a837a9ed4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---

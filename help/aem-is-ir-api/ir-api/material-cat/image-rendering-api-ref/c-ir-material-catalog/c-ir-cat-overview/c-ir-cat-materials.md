@@ -1,13 +1,13 @@
 ---
+title: Materialien
 description: Informationen zu den vom Image Rendering verwendeten Materialien finden Sie unter Materialien in der HTTP-Protokollreferenz.
 solution: Experience Manager
-title: Materialien
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6c1b8a9b-ac32-42df-a59a-05933b614907
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---

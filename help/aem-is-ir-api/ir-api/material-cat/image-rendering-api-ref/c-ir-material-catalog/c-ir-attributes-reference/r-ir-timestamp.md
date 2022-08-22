@@ -1,24 +1,24 @@
 ---
-description: Standardzeitstempel der Änderung. Stellt einen Standardwert für den Katalog TimeStamp und Vignette TimeStamp bereit. Wenn kein Wert angegeben wird, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei catalog.ini.
-solution: Experience Manager
 title: TimeStamp
+description: Standardzeitstempel der Änderung. Stellt einen Standardwert für den Katalog TimeStamp und Vignette TimeStamp bereit. Wenn kein Wert angegeben ist, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei catalog.ini.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
 
 # TimeStamp{#timestamp}
 
-Standardzeitstempel der Änderung. Stellt einen Standardwert für den Katalog bereit::TimeStamp und Vignette::TimeStamp. Wenn kein Wert angegeben wird, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei catalog.ini.
+Standardzeitstempel der Änderung. Stellt einen Standardwert für `catalog::TimeStamp` und `vignette::TimeStamp`. Wenn kein Wert angegeben ist, verwendet der Server das Änderungsdatum/-zeitpunkt dieser Datei catalog.ini.
 
 ## Eigenschaften {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, dem 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert mit einem der folgenden Formate sein:
+Datums-/Uhrzeitwert im Java™-Format. Kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, dem 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert mit einem der folgenden Formate sein:
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
@@ -26,15 +26,15 @@ Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Mil
 
 *[!DNL hh]* liegt im Bereich von 0 bis 23.
 
-*[!DNL zzz]* ist ein 3- oder 4-stelliger Zeitzonen-Code wie &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für die Pacific Standard Time, im Gegensatz zu &quot;PDT&quot;für die Sommerzeit im Pazifik).
+*[!DNL zzz]* ist ein aus drei oder vier Zeichen bestehender Zeitzonen-Code, z. B. &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für die Pacific Standard Time, im Gegensatz zu &quot;PDT&quot;für die Sommerzeit im Pazifik).
 
 *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
 
-Alle Elemente von String formatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und die Änderungszeit von [!DNL *[!DNL catalog]* Die .ini]-Datei wird stattdessen verwendet.
+Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und die Änderungszeit von [!DNL *[!DNL catalog]* Die .ini]-Datei wird stattdessen verwendet.
 
 ## Standard {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
-Wenn leer oder nicht definiert, verwendet der Server die Dateiänderungszeit dieses [!DNL]. *[!DNL catalog]*.ini].
+Wenn leer oder nicht definiert, verwendet der Server die Dateiänderungszeit dieses [!DNL] *[!DNL catalog]*.ini].
 
 ## Verwandte Themen {#section-764188f9b1734ad1a6270f5fecd28532}
 

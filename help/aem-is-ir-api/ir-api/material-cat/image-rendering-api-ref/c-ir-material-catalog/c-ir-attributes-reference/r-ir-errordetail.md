@@ -1,14 +1,14 @@
 ---
+title: ErrorDetail
 description: Fehlermeldungsdetails. Gibt die Detailtiefe für Fehlermeldungen an, die über HTTP als error.message -Wert zurückgegeben werden.
 solution: Experience Manager
-title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java Stack Traces hinzu. Fehlerbilder enthalten keine Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. </p></td> 
+  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java™-Stacktraces hinzu. Fehlerbilder enthalten keine Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ Aufzählungswert: 0, 1, 2 oder 3.
 
 ## Standard {#section-5e78d550050840cc9a1de811c581b94f}
 
-Wird von `default::ErrorDetail` übernommen, wenn nicht angegeben oder leer.
+Vererbt von `default::ErrorDetail` wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-474e71922d194c7ca06f2aad3b30e025}
 
