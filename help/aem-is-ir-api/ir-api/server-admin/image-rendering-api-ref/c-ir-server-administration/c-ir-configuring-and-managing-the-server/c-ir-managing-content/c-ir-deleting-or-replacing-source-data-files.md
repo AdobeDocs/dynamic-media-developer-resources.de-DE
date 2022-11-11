@@ -5,9 +5,9 @@ title: Quelldatendateien löschen oder ersetzen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ Beachten Sie, dass das Löschen oder Ersetzen einer Quelldatendatei nur dazu fü
 
 Der Render-Server muss angehalten werden, um andere Datendateien zu ersetzen.
 
-Zwischenspeichereinträge des Platform-Servers werden automatisch invalidiert, wenn Materialdateien oder Vignetten ersetzt werden. Durch das Ersetzen von ICC-Profildateien werden Caches nicht invalidiert.
+[!DNL Platform Server] Cache-Einträge werden automatisch invalidiert, wenn Materialdateien oder Vignetten ersetzt werden. Durch das Ersetzen von ICC-Profildateien werden Caches nicht invalidiert.
 
 Um das Ersetzen von Dateien zu vermeiden, wird empfohlen, einer Ersatzdatei einen neuen Namen zu geben und die entsprechenden Katalogeinträge zu aktualisieren. Dies ermöglicht das Ersetzen von Datendateien, während der Server aktiv ist, und bewirkt, dass Server-Cache-Einträge automatisch ohne zusätzliche Intervention veraltet werden. Dieser Ansatz kann für alle Datendateien verwendet werden, die von Bildkatalogen verwaltet werden.

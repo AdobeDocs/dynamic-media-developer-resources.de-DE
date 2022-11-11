@@ -5,9 +5,9 @@ title: Fehlerbehebung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Der Grund für diese Fehlermeldung besteht darin, dass Image Server die Menge de
 
 **Der tatsächliche Speicherplatz, der vom Cache-Ordner verwendet wird, überschreitet ` *[!DNL cache.maxSize]*`festgelegt in[!DNL PlatformServer.conf]**
 
-Dies weist nicht auf ein Problem hin. Der Verwaltungsaufwand für das Dateisystem ist nicht in der Cacheeinstellung des Plattformservers enthalten. Der vom System gemeldete Gesamtbetrag kann wesentlich höher sein als die Einstellung. Es wird empfohlen, doppelt so viel Festplattenspeicher zu reservieren, wie in ` *[!DNL cache.maxSize]*`.
+Dies weist nicht auf ein Problem hin. Der Verwaltungsaufwand für das Dateisystem ist nicht im [!DNL Platform Server]Die Einstellung für den Datenträgercache. Der vom System gemeldete Gesamtbetrag kann wesentlich höher sein als die Einstellung. Es wird empfohlen, doppelt so viel Festplattenspeicher zu reservieren, wie in ` *[!DNL cache.maxSize]*`.
 
 **Beschädigte Bilder in den is-docs-Beispielen**
 
@@ -43,11 +43,11 @@ In den Beispielen wird außerdem davon ausgegangen, dass bestimmte Einstellungen
 
 **Zu viele Cache-Fehler nach umfangreichen Betriebszeiten**
 
-Abhängig von der Servernutzung kann die Leistung verbessert werden, indem die Cachegröße des Platform Server-Speichers erhöht wird, wenn Festplattenspeicher verfügbar ist. Die Einstellungen können durch manuelles Bearbeiten von Konfigurationsdateien geändert werden. Siehe Dokumentation.
+Abhängig von der Servernutzung kann die Leistung durch eine Steigerung von [!DNL Platform Server] Datenträgercache-Größe, wenn Speicherplatz verfügbar ist. Die Einstellungen können durch manuelles Bearbeiten von Konfigurationsdateien geändert werden. Siehe Dokumentation.
 
 **Protokolldateien benötigen zu viel Speicherplatz**
 
-Image Server und Platform Server starten täglich eine neue Protokolldatei. Diese werden standardmäßig in [!DNL *[!DNL install_root]*/ImageServing/logs]. Die Größe der Protokolldatei, die Anzahl der beibehaltenen Protokolle und der Protokollinhalt können konfiguriert werden. Siehe Dokumentation.
+Der Image-Server und [!DNL Platform Server] Starten Sie täglich eine neue Protokolldatei. Diese werden standardmäßig in [!DNL *[!DNL install_root]*/ImageServing/logs]. Die Größe der Protokolldatei, die Anzahl der beibehaltenen Protokolle und der Protokollinhalt können konfiguriert werden. Siehe Dokumentation.
 
 **Wenn Sie Anti-Virus-Software auf Ihrem Server installiert haben**
 

@@ -5,9 +5,9 @@ title: Zusätzliche Daten-Caches
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 39906c86-fd9e-4961-a8ba-2ac44c4214a2
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Imag
 
 Bilder, die von ausländischen HTTP-Servern abgerufen werden, werden auch im Cache der Antwortdaten gespeichert. Solche Bilder werden automatisch mit dem Überprüfungsdienstprogramm validiert, bevor der Cache-Eintrag generiert wird.
 
-Der Platform Server stellt Bildkatalogdaten für einen effizienten Zugriff zusammen. Diese Daten werden in `CS::CatalogCacheFolder` gespeichert.
+Die [!DNL Platform Server] erstellt Bildkatalogdaten für einen effizienten Zugriff. Diese Daten werden in `CS::CatalogCacheFolder`.

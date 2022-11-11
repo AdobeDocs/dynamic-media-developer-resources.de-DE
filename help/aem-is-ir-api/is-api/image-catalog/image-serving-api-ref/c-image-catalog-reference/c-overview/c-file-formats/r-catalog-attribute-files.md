@@ -5,10 +5,10 @@ title: Katalogattributdateien
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch über ein .ini-Dateisuffix verfügen. Sie können mit jedem Texteditor problemlos gepflegt werden.
 
-Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt durch ein einzelnes `<CR>` (ASCII-Code `0xD`), ein einzelnes `<LF>` (ASCII-Code `0xA`) oder ein `<CR><LF>`-Paar. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren kommagetrennten Attributwerten:
+Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt durch eine `<CR>` (ASCII-Code) `0xD`), eine `<LF>` (ASCII-Code) `0xA`) oder einem `<CR><LF>` ein. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren kommagetrennten Attributwerten:
 
-`*``*= *`namvalues`*{<CR>|<LF>|<CR><LF }`
+`*`name`*= *`values`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> Werte</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span> [, <span class="varname"> values</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> values</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
@@ -31,13 +31,13 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Attributwert. Darf keine <span class="codeph"> &lt;CR&gt;</span>- oder <span class="codeph"> &lt;LF&gt;</span>-Zeichen enthalten, es sei denn, diese Zeichen werden durch einen einzigen umgekehrten Schrägstrich kurz vor dem Zeilenumbruchzeichen maskiert. </p></td> 
+  <td class="stentry"> <p>Attributwert. Darf nicht enthalten <span class="codeph"> &lt;cr&gt;</span> oder <span class="codeph"> &lt;lf&gt;</span> -Zeichen, es sei denn, sie werden durch einen einzigen umgekehrten Schrägstrich kurz vor dem Zeilenumbruchzeichen maskiert. </p></td> 
  </tr> 
 </table>
 
 Leerzeichen zwischen Token sind optional.
 
-Datensätze mit unbekannten Attributnamen werden vom Platform-Server ignoriert.
+Datensätze mit unbekannten Attributnamen werden von der [!DNL Platform Server].
 
 Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen sowie &quot;-&quot;, &quot;_&quot;und &quot;.&quot;bestehen.
 

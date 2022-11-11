@@ -5,9 +5,9 @@ title: Server-Caches
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Verwenden Sie diese Servereinstellungen für Server-Caches.
 
 ## PS::cache.rootPaths - Cache Data Folders {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Die Stammordner für den Datenträgercache des Platform-Servers. Ein oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]*, durch Semikolons (;) getrennt. Die Daten für den HTTP-Antwort-Cache werden gleichmäßig über alle angegebenen Ordner verteilt. Die Caches für die zusätzlichen Caches (kompilierte Bildkataloge und ausländische Bilddaten) befinden sich im primären Cache-Ordner (dem ersten Ordner in der Liste).
+Die Stammordner für die [!DNL Platform Server]den Datenträgercache. Ein oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]*, durch Semikolons (;) getrennt. Die Daten für den HTTP-Antwort-Cache werden gleichmäßig über alle angegebenen Ordner verteilt. Die Caches für die zusätzlichen Caches (kompilierte Bildkataloge und ausländische Bilddaten) befinden sich im primären Cache-Ordner (dem ersten Ordner in der Liste).
 
 ## PS::cache.maxSize - Response Data Cache Size {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

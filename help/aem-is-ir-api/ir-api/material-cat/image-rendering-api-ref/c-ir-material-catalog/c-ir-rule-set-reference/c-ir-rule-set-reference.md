@@ -5,9 +5,9 @@ title: Regelsatzreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Das Bild-Rendering unterstützt einen einfachen Anfragevorverarbeitungsmechanism
 
 <!--<a id="section_F44601A65CE1451EAD0A449C66B773CC"></a>-->
 
-Kollektionen von Vorverarbeitungsregeln (*Regelsätze*) können an Materialkataloge oder den Standardkatalog angehängt werden. Regeln im Standardkatalog gelten nur, wenn die Anfrage keinen bestimmten Materialkatalog anfügt.
+Kollektionen von Vorab-Verarbeitungsregeln (*Regelsätze*) können an Materialkataloge oder den Standardkatalog angehängt werden. Regeln im Standardkatalog gelten nur, wenn die Anfrage keinen bestimmten Materialkatalog anfügt.
 
 Vorab-Verarbeitungsregeln für Anfragen können den Pfad und die Anfrageabschnitte von Anforderungen ändern, bevor sie vom Anforderungsparser des Servers verarbeitet werden. Dazu gehören das Manipulieren des Pfads, das Hinzufügen von Befehlen, das Ändern von Befehlswerten und das Anwenden von Vorlagen oder Makros. Regeln können auch verwendet werden, um einige Katalogattribute zu konfigurieren und zu überschreiben sowie um den Dienst auf bestimmte Client-IP-Adressen zu beschränken.
 
-Regelsätze werden als XML-Dokumentdateien gespeichert. Der relative oder absolute Pfad der Regelsatzdatei muss in `attribute::RuleSetFile` angegeben werden.
+Regelsätze werden als XML-Dokumentdateien gespeichert. Der relative oder absolute Pfad der Regelsatzdatei muss in `attribute::RuleSetFile`.
 
 ## Allgemeine Struktur {#section-74faaee27fc543a2ab4a306f3a03674e}
 
@@ -47,9 +47,9 @@ Regelsätze werden als XML-Dokumentdateien gespeichert. Der relative oder absolu
 </ruleset>
 ```
 
-Die Elemente `<?xml>`, `<!DOCTYPE>` und `<ruleset>` sind in einer gültigen XML-Regelsatz-Datei immer erforderlich, selbst wenn keine tatsächlichen Regeln definiert sind.
+Die `<?xml>`, `<!DOCTYPE>` und `<ruleset>` -Elemente sind immer in einer gültigen XML-Regelsatz-Datei erforderlich, auch wenn keine tatsächlichen Regeln definiert sind.
 
-Ein `<ruleset>` -Element, das eine beliebige Anzahl von `<rule>` -Elementen enthält, ist zulässig.
+One `<ruleset>` Element mit beliebiger Anzahl von `<rule>` -Elemente erlaubt sind.
 
 Beim Inhalt von Regeldateien zur Vorverarbeitung wird zwischen Groß- und Kleinschreibung unterschieden.
 
@@ -57,15 +57,15 @@ Beim Inhalt von Regeldateien zur Vorverarbeitung wird zwischen Groß- und Kleins
 
 Vor jeder anderen Verarbeitung wird eine eingehende HTTP-Anforderung teilweise analysiert, um zu bestimmen, welcher Materialkatalog angewendet werden soll. Sobald der Katalog identifiziert wurde, wird der Regelsatz für den ausgewählten Katalog (oder der Standardkatalog, wenn kein bestimmter Katalog identifiziert wurde) angewendet.
 
-Die `<rule>` -Elemente werden in der Reihenfolge gesucht, die für eine Übereinstimmung mit dem Inhalt des `<expression>` -Elements ( *`expression`*) angegeben ist.
+Die `<rule>` -Elemente in der Reihenfolge durchsucht werden, die für eine Übereinstimmung mit dem Inhalt der `<expression>` Element ( *`expression`*).
 
-Wenn eine `<rule>`-Übereinstimmung vorliegt, wird das optionale *`substitution`* angewendet und die geänderte Anforderungszeichenfolge wird zur normalen Verarbeitung an den Anforderungsparser des Servers übergeben.
+Wenn eine `<rule>` zugeordnet wird, wird das optionale *`substitution`* wird angewendet und die geänderte Anforderungszeichenfolge wird zur normalen Verarbeitung an den Anforderungsparser des Servers übergeben.
 
-Wenn beim Erreichen des Endes von `<ruleset>` keine erfolgreiche Übereinstimmung erfolgt, wird die Anforderung ohne Änderung an den Parser übergeben.
+Wenn keine erfolgreiche Übereinstimmung beim Ende des `<ruleset>` erreicht wird, wird die Anforderung ohne Änderung an den Parser übergeben.
 
 ## Das OnMatch-Attribut {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-Das Standardverhalten kann mit dem `OnMatch` -Attribut der `<rule>` -Elemente geändert werden. `OnMatch` kann auf  `break` (Standard)  `continue`oder  `error.`
+Das Standardverhalten kann mit dem `OnMatch` -Attribut `<rule>` -Elemente. `OnMatch` kann auf `break` (Standard), `continue`oder `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,21 +92,21 @@ Das Standardverhalten kann mit dem `OnMatch` -Attribut der `<rule>` -Elemente ge
 
 ## Überschreiben von Katalogattributen {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-`<rule>` -Elemente können optional Attribute definieren, die die entsprechenden Katalogattribute überschreiben, wenn die Regel erfolgreich zugeordnet und festgelegt  `OnMatch="break"` ist. Wenn `OnMatch="continue"` festgelegt ist, werden keine Attribute angewendet. Eine Liste der Attribute, die mit Regeln gesteuert werden können, finden Sie in der Beschreibung von `<rule>` .
+`<rule>` -Elemente können optional Attribute definieren, die die entsprechenden Katalogattribute überschreiben, wenn die Regel erfolgreich abgeglichen wird, und `OnMatch="break"` festgelegt ist. Es werden keine Attribute angewendet, wenn `OnMatch="continue"` festgelegt ist. Siehe Beschreibung von `<rule>` für eine Liste von Attributen, die mit Regeln gesteuert werden können.
 
 ## Reguläre Ausdrücke {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 Einfache Zeichenfolgenabgleiche funktionieren für sehr einfache Anwendungen, aber in den meisten Fällen sind reguläre Ausdrücke erforderlich. Während reguläre Ausdrücke den Branchenstandard aufweisen, variiert die spezifische Implementierung von Instanz zu Instanz.
 
-[package java.util.](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) regexbeschreibt die spezifische Implementierung regulärer Ausdrücke, die von Image Serving verwendet wird.
+[package java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) beschreibt die spezifische Implementierung regulärer Ausdrücke, die von Image Serving verwendet wird.
 
 ## Erfasste Unterzeichenfolgen {#section-8057cd65d48949ffb6a50e929bd3688b}
 
-Um komplexe URL-Änderungen zu erleichtern, können Unterzeichenfolgen im Ausdruck erfasst werden, indem die Unterzeichenfolge in Klammern (...) eingeschlossen wird. Erfasste Teilzeichenfolgen werden in der Reihenfolge mit 1 beginnend gemäß der Position der führenden Klammer nummeriert. Die erfassten Teilzeichenfolgen können mit *`$n`* in die Substitution eingefügt werden, wobei *`n`* die Sequenznummer der erfassten Teilzeichenfolge ist.
+Um komplexe URL-Änderungen zu erleichtern, können Unterzeichenfolgen im Ausdruck erfasst werden, indem die Unterzeichenfolge in Klammern (...) eingeschlossen wird. Erfasste Teilzeichenfolgen werden in der Reihenfolge mit 1 beginnend gemäß der Position der führenden Klammer nummeriert. Die erfassten Teilzeichenfolgen können in die Substitution mit *`$n`*, wobei *`n`* ist die Sequenznummer der erfassten Teilzeichenfolge.
 
 ## Verwalten von Regelsatzdateien {#section-e8ce976b56404c009496426fd334d23d}
 
-An jeden Materialkatalog mit dem Katalogattribut `attribute::RuleSetFile` kann eine Regelsatzdatei angehängt werden. Sie können die Regelsatzdatei zwar jederzeit bearbeiten, der Bildserver erkennt die Änderungen jedoch nur, wenn der zugehörige Materialkatalog neu geladen wird. Dies geschieht, wenn der Platform-Server gestartet oder neu gestartet wird und die primäre Katalogdatei (die das Dateisuffix [!DNL .ini] aufweist) geändert oder &quot;berührt&quot;wird (um das Dateidatum zu ändern).
+Eine Regelsatzdatei kann mit dem Katalogattribut an jeden Materialkatalog angehängt werden `attribute::RuleSetFile`. Sie können die Regelsatzdatei zwar jederzeit bearbeiten, der Bildserver erkennt die Änderungen jedoch nur, wenn der zugehörige Materialkatalog neu geladen wird. Dies geschieht, wenn die [!DNL Platform Server] gestartet oder neu gestartet wird und wann immer die primäre Katalogdatei (die über eine [!DNL .ini] -Dateisuffix) geändert oder &quot;berührt&quot;(um das Dateidatum zu ändern).
 
 ## Beispiele {#section-c4142a41f5cd4ff799a72fbc130c3700}
 

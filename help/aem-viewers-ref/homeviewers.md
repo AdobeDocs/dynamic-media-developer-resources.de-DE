@@ -1,16 +1,14 @@
 ---
 title: Adobe Dynamic Media Viewer-Referenzhandbuch
-description: Dynamic Media Viewer-Referenzhandbuch für Adobe für einfache Zoomfunktionen, E-Kataloge, Zoomfunktionen, E-Katalogsuche, Flyout-Funktionen, Inline-Zoom, gemischte Medien, Rotationsset, Video, Karussell, Abmessungen, interaktives Video, interaktives Bild und Video 360-Grad-Viewer.
-translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+description: Adobe Dynamic Media Viewer-Referenzhandbuch für grundlegende Zoom-, E-Katalog-, Zoom-, E-Katalog-, Katalog-, Flyout-, Inline-Zoom-, gemischte Medien-, Rotations-, Video-, Karussell-, Dimensional-, interaktive Videos, interaktive Bilder und 360-Grad-Viewer.
+exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
+# [!DNL Dynamic Media] Viewer-Referenzhandbuch{#dynamic-media-viewers-reference-guide}
 
-# Dynamic Media Viewer-Referenzhandbuch{#dynamic-media-viewers-reference-guide}
-
-Passen Sie Dynamic Media-Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Zu den Medientypen, mit denen Sie arbeiten können, zählen einfache Zoomfunktionen, E-Kataloge, Zoomfunktionen, Katalogsuche, Flyout-Funktionen, Inline-Zoom, gemischte Medien, Rotationsset, Video, Karussell, Dimensional, interaktives Video, interaktives Bild und Video 360-Viewer.
-
+Anpassen [!DNL Dynamic Media] Viewer zur Verwendung auf Desktop- und Touchscreen-Geräten. Zu den Medientypen, mit denen Sie arbeiten können, gehören grundlegende Zoom-, E-Katalog-, Zoom-, E-Katalog-, Flyout-, Inline-Zoom-, gemischte Medien-, Rotations-, Video-, Karussell-, Dimensional-, interaktive Video-, interaktive Bild- und Video-360-Viewer.

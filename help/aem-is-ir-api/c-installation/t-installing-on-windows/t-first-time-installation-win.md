@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Verwenden Sie diese Schritte, um Image Serving zum ersten Mal unter Windows zu i
    **Wichtig:** Die Lizenz basiert auf der MAC-Adresse eines der auf diesem Host installierten Netzwerkschnittstellenkarten. Wenn Sie diese Karte deaktivieren, entfernen oder ersetzen, wird die Lizenz nicht mehr als gültig anerkannt. Stellen Sie sicher, dass Sie eine Lizenz für die Hardware-Konfiguration erhalten, die Sie für Image Serving verwenden.
 
    Sie können IS ohne gültige Lizenz weiterhin installieren und die Lizenz später installieren. Um fortzufahren, wählen Sie **[!UICONTROL Zurück]** , um zur [!DNL Authentication] und wählen Sie **[!UICONTROL Nächste]**.
-1. Gehen Sie zur Seite &quot;Platform Server Admin Settings&quot;. Geben Sie bei Bedarf neue Werte ein oder übernehmen Sie die Standardeinstellungen.
+1. Fahren Sie mit &quot;[!DNL Platform Server] Admin Settings&quot;. Geben Sie bei Bedarf neue Werte ein oder übernehmen Sie die Standardeinstellungen.
 
    Sie können die folgenden Elemente konfigurieren:
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> HTTP-Verbindungsanschluss für Platform Server </p> </td>
+      <td> <p> [!DNL Platform Server] HTTP-Verbindungsanschluss </p> </td>
       <td> <p>HTTP-Haupt-Listening-Anschluss für Image Serving und Image Rendering </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ Verwenden Sie diese Schritte, um Image Serving zum ersten Mal unter Windows zu i
       <td> <p>Admin-Listening-Port </p> </td>
    </tr> 
    <tr> 
-      <td> <p> Server-Cache-Größe des Platform-Servers in MB </p> </td>
+      <td> <p> [!DNL Platform Server] Cachegröße in MB </p> </td>
       <td> <p>Anfangsgröße des Hauptantwort-Cache </p> </td>
    </tr>
    <tr> 
-      <td> <p> Speicherort des Platform Server-Cache </p> </td>
+      <td> <p> [!DNL Platform Server] Cache-Speicherort </p> </td>
       <td> <p>PS-Cache-Ordner </p> </td>
    </tr>
    </tbody>

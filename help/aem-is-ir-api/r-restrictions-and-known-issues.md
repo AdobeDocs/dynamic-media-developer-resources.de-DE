@@ -5,9 +5,9 @@ title: Einschränkungen und bekannte Probleme
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung vo
 * Wenn die letzte Textzeile nicht passt, wird die gesamte Zeile abgelegt, anstatt als Cutoff angezeigt zu werden.
 * `\slmult` und `\sl` verhalten sich anders als MS Word und `text=`, werden sie einfach für die aktuellen und nachfolgenden Absätze wirksam.
 
-* `\sb` gilt für den ersten Absatz sowohl für MS Word als auch für `text=`, Adobe InDesign und Photoshop tun dies nicht.
+* `\sb` gilt für den ersten Absatz sowohl für MS Word als auch für `text=`, Adobe InDesign und [!DNL Photoshop] tun Sie das nicht.
 
-* `\sa` gilt für den letzten Absatz sowohl für MS Word als auch für `text=`, Adobe InDesign und Photoshop tun dies nicht.
+* `\sa` gilt für den letzten Absatz sowohl für MS Word als auch für `text=`, Adobe InDesign und [!DNL Photoshop] tun Sie das nicht.
 
 ## Abwärtskompatibilität {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
    Erhöhen Sie bei Image Serving-TIFF ohne Pyramiden den Eigenschaftswert für `MaxNonDsfSize` im [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] Konfigurationsdatei.
 
-* Adobe Photoshop CS3 speichert keine PSD-Dateien mit Ebenen standardmäßig als Composite-Bild.
+* Adobe [!DNL Photoshop] CS3 speichert keine PSD-Dateien mit Ebenen standardmäßig als Composite-Bild.
 
    *Symptome*:
 
-   Die PSD-Datei mit Adobe Photoshop CS3-Ebenen wird schwarz mit dem Text &quot;Diese Photoshop-Datei mit Ebenen wurde nicht mit einem zusammengesetzten Bild gespeichert&quot;angezeigt. für das Image Serving-Antwortbild oder in IPS.
+   Die Adobe [!DNL Photoshop] PSD-Datei mit CS3-Ebenen wird als schwarz mit dem Text &quot;Diese Ebene [!DNL Photoshop] nicht mit einem zusammengesetzten Bild gespeichert wurde.&quot; für das Image Serving-Antwortbild oder in IPS.
 
    *Behelfslösung*:
 
-   Speichern Sie die Adobe Photoshop CS3-Datei mit eingeschalteter Option zur Maximierung der Kompatibilität.
+   Adobe speichern [!DNL Photoshop] CS3-Datei mit aktivierter Maximierung der Kompatibilität.
 
 * Wenn Sie einem CMYK-/JPEG-Antwortbild ein ICC-Profil zuweisen, werden die Farben in einigen Browsern invertiert.*Arbeiten um*:
 
@@ -116,7 +116,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 * PNG-Bilder mit 16bpc werden für FotoFont-Text nicht unterstützt.
 * Farbkorrekturen für PNG-Bilder mit eingebetteten Farbprofilen verwenden hartcodierte Optionen. Rendering Intent ist relativ farbmetrisch und die Blackpoint-Kompensation ist für FotoFont-Text aktiviert.
 * Die dateibasierte Suche wird nicht unterstützt, wenn die Übersetzung von Gebietsschemata im Unternehmen aktiviert ist [!DNL ini] -Datei.
-* Image Serving schreibt nicht geschlossene Photoshop-Pfade nicht richtig.
+* Image Serving schreibt nicht geschlossene [!DNL Photoshop] Pfade korrekt.
 * Image Serving unterstützt derzeit nicht die Verarbeitung von TIFF-Dateien, die mit Adobe Media Encoder 4.0.1 oder früher exportiert wurden. Adobe Media Encoder ist in Premiere Pro CS4, After Effects CS4 und Creative Suite 4 Production Premium enthalten.
 * Verwenden `text=` mit selbstdimensionierenden Ebenen unterstützt keine RTF-Zeichenfolgen, die mehr als eine Einstellung für die Zeilenausrichtung verwenden.
 

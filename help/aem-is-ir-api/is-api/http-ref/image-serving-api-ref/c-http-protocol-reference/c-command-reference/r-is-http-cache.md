@@ -1,24 +1,24 @@
 ---
-description: Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerkzwischenspeicherungssysteme) und der Zwischenspeicherung im internen Platform Server-Cache.
+description: Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerk-Caching-Systeme) und der Zwischenspeicherung im internen [!DNL Platform Server] zwischenspeichern.
 solution: Experience Manager
 title: cache
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
 # cache{#cache}
 
-Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerkzwischenspeicherungssysteme) und der Zwischenspeicherung im internen Platform Server-Cache.
+Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerk-Caching-Systeme) und der Zwischenspeicherung im internen [!DNL Platform Server] zwischenspeichern.
 
 `cache= *`cacheControl`*`
 
-`cache= *``*, *`clientControlServerControl`*`
+`cache= *`clientControl`*, *`serverControl`*`
 
 <table id="simpletable_70ACECAEA02F400C83B598FA13F1D00B"> 
  <tr class="strow"> 
@@ -35,24 +35,24 @@ Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwisc
  </tr> 
 </table>
 
-Wenn nur ein `*`cacheControl`*` -Wert angegeben ist, wird er sowohl auf Client- als auch auf Server-Caches angewendet.
+Wenn nur eine `*`cacheControl`*` -Wert angegeben ist, wird er sowohl auf Client- als auch auf Server-Caches angewendet.
 
-Das `validate`-Keyword ermöglicht die Aktualisierung von Cache-Einträgen nach einer Änderung der Bilddateien, ohne darauf warten zu müssen, dass der Cache-Eintrag automatisch abläuft. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
+Die `validate` -Keyword ermöglicht die Aktualisierung von Cache-Einträgen, nachdem die Bilddateien geändert wurden, ohne auf den automatischen Ablauf des Cache-Eintrags warten zu müssen. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
 
-Mit dem Keyword `update` können Sie erzwingen, serverseitige Cache-Einträge zu aktualisieren. Dies ist nützlich, nachdem Ressourcen geändert wurden, die nicht direkt vom Cache-Überprüfungsmechanismus verfolgt werden, z. B. wenn eine Schriftartdatei geändert wird, ohne den Dateinamen oder die zugehörige Schriftart-ID zu ändern.
+Die `update` -Keyword kann verwendet werden, um das Aktualisieren von serverseitigen Cache-Einträgen zu erzwingen. Dies ist nützlich, nachdem Ressourcen geändert wurden, die nicht direkt vom Cache-Überprüfungsmechanismus verfolgt werden, z. B. wenn eine Schriftartdatei geändert wird, ohne den Dateinamen oder die zugehörige Schriftart-ID zu ändern.
 
-Wenn in einer verschachtelten Anforderung angegeben, ermöglicht `cache=on` das beständige, serverseitige Caching des von der verschachtelten Anforderung generierten Bildes. Es sollte darauf geachtet werden, die Zwischenspeicherung für verschachtelte Anforderungen nur zu aktivieren, wenn erwartet wird, dass dieselbe verschachtelte Anforderung wiederholt mit genau denselben Parametern aufgerufen wird.
+Wenn in einer verschachtelten Anforderung angegeben, `cache=on` ermöglicht das persistente, serverseitige Caching des Bildes, das von der verschachtelten Anforderung generiert wurde. Es sollte darauf geachtet werden, die Zwischenspeicherung für verschachtelte Anforderungen nur zu aktivieren, wenn erwartet wird, dass dieselbe verschachtelte Anforderung wiederholt mit genau denselben Parametern aufgerufen wird.
 
 ## Eigenschaften {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
 Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Wird ignoriert, wenn die Anfrage kein Antwortbild zurückgibt. *`clientControl`*wird ignoriert, wenn die clientseitige Zwischenspeicherung vom Bildkatalog deaktiviert wird (wenn `catalog::Expiration` einen negativen Wert hat).
 
-Die clientseitige Cache-Steuerung ( `on` und `off`) ist auch für statische Inhaltsanforderungen unter [!DNL /is/content/] verfügbar.
+Clientseitige Cache-Steuerung ( `on` und `off` nur) auch für statische Inhaltsanforderungen verfügbar sind unter [!DNL /is/content/].
 
 ## Standard {#section-4124b2c836e2491489b9009a92fe4f22}
 
-`cache=on,on` für HTTP-Anforderungen  `cache=off` für verschachtelte/eingebettete Anforderungen  `cache=on` für statische Inhaltsanforderungen.
+`cache=on,on` für HTTP-Anforderungen, `cache=off` für verschachtelte/eingebettete Anforderungen, `cache=on` für statische Inhaltsanforderungen.
 
 ## Verwandte Themen {#section-7c2ac171fa0e4aa4a2e9955fd2d2013e}
 
-[catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) ,  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) , [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

@@ -1,20 +1,20 @@
 ---
-description: Auf statische Inhaltsquellendatendateien kann nur vom Platform Server zugegriffen werden.
+description: Datendateien der statischen Inhalte werden nur von der [!DNL Platform Server].
 solution: Experience Manager
 title: Statische Inhaltsquellendaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 # Statische Inhaltsquellendaten{#static-content-source-data}
 
-Auf statische Inhaltsquellendatendateien kann nur vom Platform Server zugegriffen werden.
+Datendateien der statischen Inhalte werden nur von der [!DNL Platform Server].
 
 Der Pfad für statische Inhaltsdatendateien wird wie folgt aufgelöst:
 
@@ -22,8 +22,8 @@ Der Pfad für statische Inhaltsdatendateien wird wie folgt aufgelöst:
 
 Der Server kombiniert Pfadsegmente von rechts nach links, bis ein absoluter Dateipfad festgelegt ist.
 
-Alle ` *[!DNL rootPath]*`-Segmente können leere, relative oder absolute Pfadsegmente sein.
+Alle ` *[!DNL rootPath]*` -Segmente können leere, relative oder absolute Pfadsegmente sein.
 
 ` *[!DNL catalogPath]*` ist entweder ein absoluter oder ein relativer Dateipfad/-name. *[!DNL requestPath]* muss ein relativer Dateipfad/Name sein.
 
-In [!DNL PlatformServer.conf] können mehrere `PS::staticContent.rootPaths`-Werte definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Platform Server versucht alternative Pfade in der angegebenen Reihenfolge, bis die Datendatei gefunden wird.
+Mehrere `PS::staticContent.rootPaths` -Werte können in [!DNL PlatformServer.conf]. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Die [!DNL Platform Server] versucht alternative Pfade in der angegebenen Reihenfolge, bis die Datendatei gefunden wird.

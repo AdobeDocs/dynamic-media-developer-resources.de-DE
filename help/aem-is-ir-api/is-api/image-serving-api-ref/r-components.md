@@ -1,13 +1,13 @@
 ---
-description: 'Scene7 Image Serving umfasst die folgenden Komponenten '
+description: Scene7 Image Serving umfasst die folgenden Komponenten
 solution: Experience Manager
 title: Image Serving-Komponenten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
@@ -37,12 +37,12 @@ Scene7 Image Serving umfasst die folgenden Komponenten:
    <td colname="col2"> <p>J2EE-Anwendung. Ermöglicht Serverüberwachung und E-Mail-Warnungen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Platform Server </p> </td> 
+   <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
    <td colname="col2"> <p>J2EE-Anwendung. Verwaltet Client-Verbindungen, Protokollierung und Kommunikation mit anderen Komponenten. HTTP-Zugriff unter <span class="filepath"> /is/image</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caching-Dienst </p> </td> 
-   <td colname="col2"> <p>J2EE-Anwendung. Verwaltet die Daten-Caches des Platform-Servers. HTTP-Zugriff unter /is/cache. </p> </td> 
+   <td colname="col2"> <p>J2EE-Anwendung. Verwaltet die [!DNL Platform Server]Die Daten werden zwischengespeichert. HTTP-Zugriff unter /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image-Server </p> </td> 
@@ -53,14 +53,14 @@ Scene7 Image Serving umfasst die folgenden Komponenten:
    <td colname="col2"> <p>Eine oder mehrere Instanzen des Text-Rendering-Dienstes können aktiv sein, wenn <span class="codeph"> textPs=</span> -Vorgänge ausgeführt werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SVG-Rendering-Komponente </p> </td> 
+   <td colname="col1"> <p>SVG Render-Komponente </p> </td> 
    <td colname="col2"> <p>Eigenständige Java-Anwendung (nicht von Tomcat gehostet). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media Image Rendering (auch: Rendering-Server) </p> </td> 
-   <td colname="col2"> <p>Erfordert eine separate Lizenz zum Aktivieren. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Alle Funktionen zum Rendern von Bildern sind in den Platform-Server und den Image-Server integriert, ohne dass separate ausführbare Komponenten vorhanden sind. </p> </td> 
+   <td colname="col2"> <p>Erfordert eine separate Lizenz zum Aktivieren. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Die gesamte Bildwiedergabe-Funktion ist in die [!DNL Platform Server] und dem Image-Server ohne separate ausführbare Komponenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Konfigurationseinstellungen werden vom Standardkatalog ( [!DNL default.ini]) oder bestimmten Bildkatalogen bereitgestellt (weitere Informationen finden Sie unter [Bildkataloge](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)).
+Weitere Konfigurationseinstellungen werden im Standardkatalog ( [!DNL default.ini]) oder bestimmte Bildkataloge (siehe [Bildkataloge](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) für Details).

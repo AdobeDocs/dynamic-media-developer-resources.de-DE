@@ -5,9 +5,9 @@ title: Standardkatalog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Wenn ein bestimmtes Attribut in einem bestimmten Bildkatalog nicht gefunden werd
 
 Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (Makros, Schriftarten, ICC-Profile, Vorab-Verarbeitungsregeln anfordern) bereit, wenn kein bestimmter Bildkatalog an einem Vorgang beteiligt ist.
 
-Damit der Platform-Server ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog den Namen [!DNL default.ini] haben, muss immer im Katalogordner vorhanden sein und mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme von `attribute::RootId` und der Verweise auf die verschiedenen Katalogdatendateien, die alle optional sind.
+Zur ordnungsgemäßen Funktionsweise der [!DNL Platform Server] Die Katalogattributdatei für den Standardkatalog muss [!DNL default.ini]muss immer im Katalogordner vorhanden sein und mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme von `attribute::RootId` und die Verweise auf die verschiedenen Katalogdatendateien, die alle optional sind.
 
 >[!NOTE]
 >
->Alle Katalogattributdateien mit Ausnahme von [!DNL default.ini] müssen einen eindeutigen `attribute::RootId`-Wert enthalten. `attribute::RootId` in  [!DNL default.ini] muss leer sein.
+>Alle Katalogattributdateien außer [!DNL default.ini] muss eindeutige `attribute::RootId` -Wert. `attribute::RootId` in [!DNL default.ini] darf nicht leer sein.

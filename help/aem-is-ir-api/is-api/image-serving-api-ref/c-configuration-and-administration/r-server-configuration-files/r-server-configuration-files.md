@@ -5,10 +5,10 @@ title: Serverkonfigurationsdateien
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdat
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>Plattformserverkonfiguration. </p> </td> 
+   <td> <p>[!DNL Platform Server] Konfiguration. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 

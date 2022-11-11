@@ -5,9 +5,9 @@ title: Warnschwellen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Eine minimale Traffic-Warnung wird gesendet, wenn die durchschnittliche Anzahl d
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Threshold {#section-ce6705045f6842769030ccb1894594cc}
 
-Gibt den minimalen freien Java-Heap-Speicherplatz an. Ein Warnhinweis mit Priorität wird unmittelbar nach einem Java-Speicherbereinigungszyklus gesendet, wenn der freie Heap-Speicher unter diesem Schwellenwert liegt. Für den sicheren Betrieb des Platform-Servers wird eine Größe von 50 MB empfohlen. Wenn Sie den freien Heap-Speicher über diesem Wert belassen, wird die Häufigkeit der Speicherbereinigungszyklen reduziert, was die Gesamtleistung des Servers verbessern kann. Ganzzahlwert in Byte, 0 oder größer.
+Gibt den minimalen freien Java-Heap-Speicherplatz an. Ein Warnhinweis mit Priorität wird unmittelbar nach einem Java-Speicherbereinigungszyklus gesendet, wenn der freie Heap-Speicher unter diesem Schwellenwert liegt. 50 MB werden für den sicheren Betrieb der [!DNL Platform Server]. Wenn Sie den freien Heap-Speicher über diesem Wert belassen, wird die Häufigkeit der Speicherbereinigungszyklen reduziert, was die Gesamtleistung des Servers verbessern kann. Ganzzahlwert in Byte, 0 oder größer.
 
 ## AS::monitorAlertGenerator.maxOverlap - Maximale Anzahl gleichzeitiger Anforderungen {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

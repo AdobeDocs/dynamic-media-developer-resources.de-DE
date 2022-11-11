@@ -5,9 +5,9 @@ title: Server
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Sowohl eine 32- als auch eine 64-Bit-Version des Image-Servers sind für Linux v
 
 >[!NOTE]
 >
->Der 64-Bit-Modus wird unter Windows nicht unterstützt. Es dürfen nur `ImageServer32` angegeben werden. Andernfalls wird das Image Serving nicht gestartet.
+>Der 64-Bit-Modus wird unter Windows nicht unterstützt. Nur `ImageServer32` angegeben werden. Andernfalls wird das Image Serving nicht gestartet.
 
-## SV::PsHeapSize - Plattform-Server-Heap-Größe {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] Heap Size {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Die Java-Heap-Größe für den Platform-Server. Die Standardeinstellung ist &quot; `512m`&quot; (512 MB).
+Die Java-Heap-Größe für die [!DNL Platform Server]. Standardwert ist &quot; `512m`&quot; (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Gibt den Anschluss an, der für die Kommunikation zwischen dem Platform-Server und dem Image-Server verwendet wird. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Hostsystem sonst nicht verwendet wird.
+Gibt den Anschluss an, der für die Kommunikation zwischen dem [!DNL Platform Server] und dem Image-Server. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Hostsystem sonst nicht verwendet wird.
 
 >[!NOTE]
 >
->Damit das Image Serving ordnungsgemäß funktioniert, muss derselbe Wert für `IS::TcpPort` und `PS::isConnection.port` festgelegt werden.
+>Damit das Image Serving ordnungsgemäß funktioniert, muss derselbe Wert für `IS::TcpPort` und `PS::isConnection.port`.
 
 ## IS::PhysicalMemory - Speicherlimit für Image-Server {#section-85e37aa2ac6e456eb698da716dd3247d}
 

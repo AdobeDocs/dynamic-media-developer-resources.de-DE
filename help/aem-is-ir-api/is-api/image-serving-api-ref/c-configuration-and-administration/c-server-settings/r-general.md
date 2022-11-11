@@ -5,9 +5,9 @@ title: Allgemein
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Allgemeine Servereinstellungen
 
 ## TC::PsPort - Haupt-Listening-Port {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Gibt den Haupt-Listening-Anschluss für den Platform-Server an. Dieser Anschluss wird auch verwendet, um auf die Dokumentations- und Beispielseiten für Image Serving, Image Rendering und die Dynamic Media-Viewer zuzugreifen (falls installiert).
+Gibt den Haupt-Listening-Anschluss für die [!DNL Platform Server]. Dieser Anschluss wird auch verwendet, um auf die Dokumentations- und Beispielseiten für Image Serving, Image Rendering und die Dynamic Media-Viewer zuzugreifen (falls installiert).
 
 ## IS::CacheServerUrl - Caching Service Root Url {#section-bcca227a1f91453b834db4ea050968e2}
 

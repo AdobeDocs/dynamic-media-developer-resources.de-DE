@@ -5,9 +5,9 @@ title: Inhaltsdatenordner
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Verwenden Sie diese Servereinstellungen für Inhaltsdatenordner.
 
 ## IS::RootPath - Stammordner für Bilddaten {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-Der Speicherort aller Quelldaten, einschließlich Bildern, Schriftarten und ICC-Profilen. Dabei kann es sich um einen oder mehrere absolute Dateipfade oder Pfade handeln, die relativ zu *[!DNL install_folder]* sind und durch Semikolons getrennt sind. Wenn leer, ist *[!DNL install_folder]* der Standardstamm. Es können mehrere Werte angegeben werden, um Bilddaten über mehrere Dateisysteme zu verteilen. Der Image-Server versucht die Root-Pfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wird.
+Der Speicherort aller Quelldaten, einschließlich Bildern, Schriftarten und ICC-Profilen. Dies kann einen oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]*, durch Semikolons getrennt. Wenn leer, *[!DNL install_folder]* ist der Standardstamm. Es können mehrere Werte angegeben werden, um Bilddaten über mehrere Dateisysteme zu verteilen. Der Image-Server versucht die Root-Pfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wird.
 
 ## PS::staticContent.rootPath - Statische Stammordner für Inhaltsdaten {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-Der Speicherort der statischen Inhaltsquellendaten, die über den [!DNL /is/static] -Kontext bereitgestellt werden sollen. Kann ein oder mehrere absolute Dateipfade oder Pfade sein, die relativ zu *[!DNL install_folder]* sind und durch Semikolons getrennt sind. Wenn leer, ist *[!DNL install_folder]* der Standardstamm.
+Der Speicherort der statischen Inhaltsquellendaten, die über die [!DNL /is/static] Kontext. Kann einen oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]*, durch Semikolons getrennt. Wenn leer, *[!DNL install_folder]* ist der Standardstamm.
 
-Mehrere Werte können durch Semikolons getrennt angegeben werden, um statische Inhalte über mehrere Dateisysteme zu verteilen. Legen Sie für gewöhnlich dieselben Werte wie `IS::RootPath` fest.
+Mehrere Werte können durch Semikolons getrennt angegeben werden, um statische Inhalte über mehrere Dateisysteme zu verteilen. Für gewöhnlich werden dieselben Werte wie `IS::RootPath`.
 
-Der Platform Server versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
+Die [!DNL Platform Server] versucht die Root-Pfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
 
 >[!NOTE]
 >
->Standardmäßig ist dieses Feld absichtlich auf einen nicht vorhandenen Speicherort ( [!DNL *[!DNL install_folder]*/static]) festgelegt, wodurch der statische Inhaltsdienst effektiv deaktiviert wird.
+>Standardmäßig ist dieses Feld absichtlich auf einen nicht vorhandenen Speicherort ( [!DNL]) festgelegt. *[!DNL install_folder]*/static]), wodurch der statische Inhaltsdienst effektiv deaktiviert wird.
 
 ## IS::SaveDirectory - File Save Root Folder {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 

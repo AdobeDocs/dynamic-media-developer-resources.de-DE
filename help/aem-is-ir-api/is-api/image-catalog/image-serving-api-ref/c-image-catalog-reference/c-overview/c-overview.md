@@ -5,9 +5,9 @@ title: Überblick
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36cdd833-6fcb-4be6-a4f8-ba8d20580f29
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Jeder Bildkatalog besteht aus einer erforderlichen Katalogattributdatei und eine
 
 Katalogdatendateien sind Bildkatalogen nach Dateiverweisen in der Katalogattributdatei zugeordnet. Dieselbe Katalogdatendatei kann für mehrere Bildkataloge freigegeben werden.
 
-Katalogattributdateien müssen das Suffix [!DNL .ini] aufweisen und sich im Katalogordner des Platform-Servers ( `PlatformServer::catalog.rootPath`) befinden. Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den der Platform-Server zugreifen kann.
+Katalogattributdateien müssen über eine [!DNL .ini] -Dateisuffix und muss sich im [!DNL Platform Server]des Katalogordners ( `PlatformServer::catalog.rootPath`). Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den die [!DNL Platform Server].
 
 In diesem Dokument wird das Bildkatalog-Dateiformat für das Dynamic Media Image Serving-System beschrieben. Die Zielgruppe sind erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Web- oder benutzerdefinierte Anwendung nutzen möchten.
 

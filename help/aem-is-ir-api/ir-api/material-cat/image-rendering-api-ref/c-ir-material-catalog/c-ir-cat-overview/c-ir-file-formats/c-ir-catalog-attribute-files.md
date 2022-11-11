@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
 </table>
 
 * Leerzeichen zwischen Token sind optional.
-* Datensätze mit unbekannten Attributnamen werden vom Platform-Server ignoriert.
+* Datensätze mit unbekannten Attributnamen werden von der [!DNL Platform Server].
 * Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen und &quot;-&quot;, &quot;_&quot;und &quot;.&quot;bestehen.
 * Wenn derselbe Attributname mehrmals in derselben Attributdatei vorkommt, hat der zuletzt aufgetretene Name Vorrang.
 * Verwenden Sie &quot;#&quot;als erstes Zeichen, um einen Datensatz als Kommentar zu markieren, den der Parser ignoriert.

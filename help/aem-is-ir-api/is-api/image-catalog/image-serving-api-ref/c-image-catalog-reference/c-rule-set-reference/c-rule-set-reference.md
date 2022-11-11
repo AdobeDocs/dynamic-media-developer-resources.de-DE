@@ -5,9 +5,9 @@ title: Regelsatzreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Image Serving unterstützt einen einfachen Anfragevorverarbeitungsmechanismus, d
 
 Kollektionen von Vorab-Verarbeitungsregeln (*Regelsätze*) können an Bildkataloge oder den Standardkatalog angehängt werden. Regeln im Standardkatalog gelten nur, wenn die Anforderung keinen bestimmten Hauptbildkatalog identifiziert.
 
-Die Vorab-Verarbeitungsregeln für Anfragen können den Pfad und die Anfrageabschnitte ändern, bevor sie vom Parser des Platform-Servers verarbeitet werden. Dazu gehören das Manipulieren des Pfads, das Hinzufügen von Befehlen, das Ändern von Befehlswerten und das Anwenden von Vorlagen oder Makros. Regeln können auch verwendet werden, um bestimmte Sicherheitsfunktionen zu konfigurieren und zu überschreiben, die normalerweise nur mit Katalogattributen gesteuert werden, z. B. Anforderungsverschleierung, Wasserzeichen und Beschränkung des Diensts auf bestimmte Client-IP-Adressen.
+Vorab-Verarbeitungsregeln für Anfragen können den Pfad und die Abfrageabschnitte von Anforderungen ändern, bevor sie von der [!DNL Platform Server], einschließlich der Bearbeitung des Pfads, des Hinzufügens von Befehlen, der Änderung von Befehlswerten und der Anwendung von Vorlagen oder Makros. Regeln können auch verwendet werden, um bestimmte Sicherheitsfunktionen zu konfigurieren und zu überschreiben, die normalerweise nur mit Katalogattributen gesteuert werden, z. B. Anforderungsverschleierung, Wasserzeichen und Beschränkung des Diensts auf bestimmte Client-IP-Adressen.
 
 Regelsätze werden als XML-Dokumentdateien gespeichert. Der relative oder absolute Pfad der Regelsatzdatei muss in `attribute::RuleSetFile`.
 

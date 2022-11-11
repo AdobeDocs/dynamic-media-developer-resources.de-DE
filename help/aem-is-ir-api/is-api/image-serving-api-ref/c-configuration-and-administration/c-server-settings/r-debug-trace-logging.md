@@ -5,10 +5,10 @@ title: Debug_Trace-Protokollierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ Verwenden Sie diese Servereinstellungen, um die Ablaufprotokollierung zu debugge
 
 >[!NOTE]
 >
->Es wird empfohlen, alle Protokolldateien so zu konfigurieren, dass sie in denselben Ordner wie `TC::directory` geschrieben werden. Dadurch wird sichergestellt, dass alle Image Serving-Protokolldateien an der automatischen Protokolldateirotation teilnehmen, die mit `TC::maxDays` konfiguriert wurde. Dadurch wird potenzielle Server-Instabilität aufgrund von nicht genügend Festplattenspeicher zur Verfügung stehenden Bedingungen verhindert.
+>Es wird empfohlen, alle Protokolldateien so zu konfigurieren, dass sie in denselben Ordner wie `TC::directory`. Dadurch wird sichergestellt, dass alle Image Serving-Protokolldateien an der automatischen Protokolldateirotation teilnehmen, die mit `TC::maxDays`, wodurch potenzielle Server-Instabilität aufgrund von nicht genügend Speicherplatz auf der Festplatte vermieden wird.
 
 ## SV::log - Pfad der Protokolldatei für den Server-Supervisor {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Ordner- und Basisdateinamen für Server Supervisor-Protokolldateien. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]* sein. Der Server Supervisor hängt einen Bindestrich und das aktuelle Datum ( *[!DNL -yyyy-mm-dd]*) an den Dateinamen an (gegebenenfalls vor dem Dateisuffix). Es wird empfohlen, alle Protokolldateien in denselben Ordner wie die Platform Server-Protokolldateien ( `PS::LogFolder`) zu senden, um die vom Platform Server implementierte Protokolldateiverwaltung ( `PS::LogDays`) zu nutzen. Die Standardgrenze ist [!DNL logs/Supervisor.log].
+Ordner- und Basisdateinamen für Server Supervisor-Protokolldateien. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]*. Der Server Supervisor hängt einen Bindestrich und das aktuelle Datum an ( *[!DNL -yyyy-mm-dd]*) zum Dateinamen (vor dem Dateisuffix, falls vorhanden). Es wird empfohlen, alle Protokolldateien in denselben Ordner zu senden wie [!DNL Platform Server] Protokolldateien ( `PS::LogFolder`), um die von der [!DNL Platform Server] ( `PS::LogDays`). Die Standardgrenze ist [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Die Protokollebene kann 1, 2, 3 oder 4 betragen. Der Standardwert ist „2“.
 
 ## IS::Log - Image Server Debug Log File Path {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Ordner- und Basisdateinamen für Image Server-Ablaufverfolgungsprotokolldateien. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]* sein. Der ImageServer hängt einen Bindestrich und das aktuelle Datum ( *[!DNL -yyyy-mm-dd]*) an den Dateinamen an (gegebenenfalls vor dem Dateisuffix). Es wird empfohlen, Image-Server-Protokolldateien in denselben Ordner zu senden wie Platform Server-Protokolldateien ( `PS::LogFolder`), um die vom Platform Server implementierte Protokolldateiverwaltung zu nutzen (siehe `PS::LogDays`).
+Ordner- und Basisdateinamen für Image Server-Ablaufverfolgungsprotokolldateien. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]*. Der ImageServer hängt einen Bindestrich und das aktuelle Datum an ( *[!DNL -yyyy-mm-dd]*) zum Dateinamen (vor dem Dateisuffix, falls vorhanden). Es wird empfohlen, die Protokolldateien des Image-Servers in denselben Ordner zu senden, in dem auch [!DNL Platform Server] Protokolldateien ( `PS::LogFolder`), um die von der [!DNL Platform Server] (siehe `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Ordner- und Basisdateinamen für Image Server-Ablaufverfolgungsprotokolldateien.
 
 Die Protokollebene kann 1, 2, 3 oder 4 sein (Standard ist 2).
 
-Level 1 protokolliert Ereignisse im Zusammenhang mit Start-, Fahren- und Platform Server-Verbindungen.
+Stufe 1 protokolliert Ereignisse im Zusammenhang mit dem Start, dem Herunterfahren und [!DNL Platform Server] Verbindungen.
 
 Stufe 2 protokolliert auch die Verbindung zu Quellbildern und deren Trennung von diesen.
 
-Stufe 3 fügt die Protokollierung von Anforderungen für Pixeldaten und die Bereitstellung derselben an den Platform-Server hinzu.
+Stufe 3 fügt die Protokollierung von Anforderungen für Pixeldaten und die Bereitstellung derselben an die [!DNL Platform Server].
 
-Stufe 4 zeichnet alle vom Platform-Server empfangenen Nachrichten auf.
+Stufe 4 zeichnet alle Nachrichten auf, die von der [!DNL Platform Server].
 
 Level 3 und 4 sollten nur zu Debugging-Zwecken verwendet werden, da die Protokolldateien sehr groß werden können.
 
