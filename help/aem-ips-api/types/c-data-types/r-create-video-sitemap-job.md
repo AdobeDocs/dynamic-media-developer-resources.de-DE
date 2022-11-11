@@ -5,14 +5,14 @@ title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
-# CreateVideoSitemapJob{#createvideositemapjob}
+# [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
 Erstellt eine Video-Site-Zuordnung.
 
@@ -32,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Generiert die Sitemap, wenn auf <span class="codeph"> true</span> gesetzt. <p><p>Hinweis: Wenn die Konfiguration der Sitemap-Generierung auf "manual"festgelegt ist und <span class="codeph"> forceUpdate</span> nicht festgelegt ist, wird die Sitemap nicht generiert. </p></p></td> 
+   <td colname="col3">Generiert die Sitemap, wenn auf <span class="codeph"> true</span>. <p><p>Hinweis: Wenn die Konfiguration der Sitemap-Generierung auf "Manuell"festgelegt ist und <span class="codeph"> forceUpdate</span> nicht festgelegt ist, wird die Sitemap nicht generiert. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

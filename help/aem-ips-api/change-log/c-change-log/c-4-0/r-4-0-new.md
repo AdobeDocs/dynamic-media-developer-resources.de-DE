@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1195'
 ht-degree: 2%
 
 ---
@@ -248,8 +248,8 @@ Zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` zur unabhängi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> verarbeiten </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <span class="codeph"> [!DNL PostScriptOptions] </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL process] </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
       <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> Keine </span> </p> </li> 
@@ -267,7 +267,7 @@ Zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` zur unabhängi
    <td colname="col4"> <p>Wird beim Rastern der Datei in ein Bild wirksam. Es erzeugt einen transparenten Hintergrund, wenn die ursprüngliche Datei so definiert ist, dass Logos überlagert werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions </span> </p> </td> 
+   <td colname="col1" morerows="3"> <p> <span class="codeph"> [!DNL IllustratorOptions] </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> verarbeiten </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
@@ -281,12 +281,12 @@ Zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` zur unabhängi
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rastern der Auflösung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> Farbraum </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Zielfarbraum für die Wiedergabe. </p> </td> 
   </tr> 
@@ -310,12 +310,12 @@ Zusätzliche Optionen zu `UploadDirectoryJob` und `UploadUrlsJob` zur unabhängi
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rastern der Auflösung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> Farbraum </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Zielfarbraum für die Wiedergabe. </p> </td> 
   </tr> 
@@ -345,19 +345,19 @@ Die `webservice.gzip.response` Konfigurationseigenschaft einen der folgenden Wer
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL never] </span> </p> </td> 
    <td colname="col2"> <p>Keine gzip-Antwort. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> soap </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL soap] </span> </p> </td> 
    <td colname="col2"> <p>Gzip-Antwort nur dann, wenn authHeader/gzipResponse "true"ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> akzeptieren </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL accept] </span> </p> </td> 
    <td colname="col2"> <p>Gzip , wenn authHeader/gzipResponse wahr ist oder kein gzipResponse-Header vorhanden ist und der HTTP Accept-Encoding-Header gzip enthält. (Standard). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immer </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL always] </span> </p> </td> 
    <td colname="col2"> <p>Immer gzip-Antwort, unabhängig von Header-Werten. Verwenden Sie diesen Wert nur zum Debugging. </p> </td> 
   </tr> 
  </tbody> 

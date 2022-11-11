@@ -2,21 +2,21 @@
 description: Benutzerdefinierte Felddefinitionen für bestimmte Assets.
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic,SDK/API,Metadaten
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 3%
 
 ---
 
-# MetadataField{#metadatafield}
+# [!DNL MetadataField]{#metadatafield}
 
 Benutzerdefinierte Felddefinitionen für bestimmte Assets.
 
-Rufen Sie Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getAssetMetadataField` ab.
+Abrufen von Tag-Felddefinitionen mit der `getMetadataFields` oder `getAssetMetadataField` Vorgänge.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -62,12 +62,12 @@ Rufen Sie Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getA
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. Wird von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a> zurückgegeben. </td> 
+   <td colname="col3">Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. Zurückgegeben von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob der Metadatenfeldtyp erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn "true"festgelegt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
+   <td colname="col3"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob der Metadatenfeldtyp erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 

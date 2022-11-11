@@ -5,14 +5,14 @@ title: TagCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
-# TagCondition{#tagcondition}
+# [!DNL TagCondition]{#tagcondition}
 
 Definiert Suchbedingungen für Tag-Felder.
 
@@ -39,9 +39,9 @@ Syntax
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Hängt vom Tag-Feldtyp ab und davon, ob das Feld value oder valueArray verwendet wird. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Wenn <span class="codeph"> value</span> übergeben wird, muss <span class="codeph"> op</span> die Zeichenfolgenkonstante Matches sein. Die Bedingung stimmt mit jedem Asset überein, das mit dem Tag-Wert verknüpft ist. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Wenn <span class="codeph"> valueArray</span> übergeben wird, kann das Feld op die Konstante <span class="codeph"> MatchesAny</span> für einzelne oder mehrwertige Tag-Felder sein. Eine <span class="codeph"> MatchesAny</span> -Bedingung stimmt mit jedem Asset überein, das mit mindestens einem der Tag-Werte in <span class="codeph"> valueArray</span> verknüpft ist. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Bei Tagfeldern mit mehreren Werten kann das Feld op auf die Konstante <span class="codeph"> MatchesAll</span> mit dem Feld <span class="codeph"> valueArray</span> gesetzt werden. In diesem Fall stimmt die Bedingung nur mit Assets überein, die mit allen Tag-Werten in <span class="codeph"> valueArray</span> verknüpft sind (möglicherweise zusätzlich zu anderen Tag-Werten). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Wenn <span class="codeph"> value</span> übergeben wird, <span class="codeph"> op</span> muss die Zeichenfolgenkonstante Übereinstimmung sein. Die Bedingung stimmt mit jedem Asset überein, das mit dem Tag-Wert verknüpft ist. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Wenn <span class="codeph"> valueArray</span> übergeben wird, kann das Feld "op"die Konstante sein. <span class="codeph"> MatchesAny</span> für einzelne oder mehrwertige Tag-Felder. A <span class="codeph"> MatchesAny</span> -Bedingung stimmt mit jedem Asset überein, das mit mindestens einem der Tag-Werte in <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Bei Tagfeldern mit mehreren Werten kann das Feld op auf die Konstante eingestellt werden <span class="codeph"> MatchesAll</span> mit dem <span class="codeph"> valueArray</span> -Feld. In diesem Fall stimmt die Bedingung nur mit Assets überein, die mit allen Tag-Werten in <span class="codeph"> valueArray</span> (möglicherweise zusätzlich zu anderen Tag-Werten). </li>
     </ul></td> 
   </tr> 
   <tr> 

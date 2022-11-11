@@ -5,14 +5,14 @@ title: UploadUrlsJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
 
-# UploadUrlsJob{#uploadurlsjob}
+# [!DNL UploadUrlsJob]{#uploadurlsjob}
 
 Lädt URLs von dem Speicherort hoch, an den Sie Dateien abrufen möchten.
 
@@ -87,7 +87,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrls</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3">Gibt die Anzahl der URLs zurück, die in einem Auftrag gesendet wurden. Wird von <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a> verwendet. </td> 
+   <td colname="col3">Gibt die Anzahl der URLs zurück, die in einem Auftrag gesendet wurden. Verwendet von <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> overwrite</span> </span> </td> 
@@ -157,7 +157,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:UnsharpMaskOptions</span> </td> 
-   <td colname="col3">Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. Siehe <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnschärfemaskeOptions</a>. </td> 
+   <td colname="col3">Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. Siehe <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 
@@ -174,13 +174,13 @@ Syntax
 
 ## Anmerkungen {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Für `CropOptions` können Sie nur eine der folgenden Optionen auswählen:
+Für `CropOptions`, können Sie nur eine der folgenden Optionen auswählen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Für `PublishJob` können Sie nur eine der folgenden Optionen auswählen:
+Für `PublishJob`, können Sie nur eine der folgenden Optionen auswählen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

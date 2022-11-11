@@ -1,24 +1,24 @@
 ---
-description: 'Innerhalb dieses Typs ist das Feld pageReset für die Asset-Typen RenderSet und Catalog-Bild von Bedeutung '
+description: Innerhalb dieses Typs ist das Feld pageReset für die Asset-Typen RenderSet und Catalog-Bild von Bedeutung
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Bildsets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
 
-# ImageSetMemberUpdate{#imagesetmemberupdate}
+# [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
-In diesem Typ ist das Feld pageReset für die Asset-Typen RenderSet und Catalog von Bedeutung:
+Innerhalb dieses Typs ist das Feld pageReset für die Asset-Typen RenderSet und Catalog-Bild von Bedeutung:
 
-* Für `RenderSet` zeigt `pageReset` den Beginn einer neuen Render-Ansicht/Mustergruppe an.
+* Für `RenderSet`, `pageReset` zeigt den Beginn einer neuen Renderansicht/Mustergruppe an.
 
-* Für Katalog zeigt `pageReset` den Beginn einer neuen Seitenansicht an. In der Regel gibt es zwei Seitenbilder pro Seitenansicht, aber Sie können mehr oder weniger haben.
+* Für Katalog: `pageReset` zeigt den Beginn einer neuen Seitenansicht an. In der Regel gibt es zwei Seitenbilder pro Seitenansicht, aber Sie können mehr oder weniger haben.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -39,7 +39,7 @@ In diesem Typ ist das Feld pageReset für die Asset-Typen RenderSet und Catalog 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Setzt die Seite zurück. <p>Einstellung wird ignoriert und der Wert für <span class="codeph"> ImageSet</span> und <span class="codeph"> SpinSet</span> wird auf "true"gesetzt. </p></td> 
+   <td colname="col3">Setzt die Seite zurück. <p>Einstellung wird ignoriert und der Wert wird zu "true"für <span class="codeph"> ImageSet</span> und <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

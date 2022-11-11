@@ -5,14 +5,14 @@ title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e450d28-ec79-4540-824b-b0121b72c857
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '53'
+ht-degree: 9%
 
 ---
 
-# ContextStateUpdate{#contextstateupdate}
+# [!DNL ContextStateUpdate]{#contextstateupdate}
 
 Aktualisiert den Veröffentlichungskontextstatus für ein Asset.
 
@@ -20,7 +20,7 @@ Syntax
 
 ## Parameter {#section-9f747df071854c6896fdbb95684ad947}
 
-Legen Sie den Veröffentlichungskontextstatus eines Assets mit `setAssetsContextState` fest.
+Festlegen des Veröffentlichungskontextstatus eines Assets mit `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>

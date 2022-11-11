@@ -1,20 +1,20 @@
 ---
-description: Auftragstyp, um die erneute Verarbeitung zuvor hochgeladener Primärdateien zu ermöglichen, einschließlich des erneuten Abrufs von PDF-Dateien und der Neuoptimierung von Bildern.
+description: Auftragstyp, um die erneute Verarbeitung von zuvor hochgeladenen Primärdateien zu ermöglichen, einschließlich des erneuten Abrufs von PDF und der Neuoptimierung von Bildern.
 solution: Experience Manager
 title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 2%
 
 ---
 
-# ReprocessAssetsJob{#reprocessassetsjob}
+# [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Auftragstyp, um die erneute Verarbeitung zuvor hochgeladener Primärdateien zu ermöglichen, einschließlich des erneuten Abrufs von PDF-Dateien und der Neuoptimierung von Bildern.
+Auftragstyp, um die erneute Verarbeitung von zuvor hochgeladenen Primärdateien zu ermöglichen, einschließlich des erneuten Abrufs von PDF und der Neuoptimierung von Bildern.
 
 Syntax
 
@@ -52,7 +52,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Steuert die Beibehaltung einer vorhandenen Definition des Zuschnitts. Der Standardwert ist „true“.</p> <p>Wenn Sie den Parameter manualCropOptions und die entsprechenden Werte angeben, werden die neuen Werte (außer 0,0,0,0) unabhängig vom Wert preserveCrop auf das Asset angewendet.</p><p>Wenn Sie den Parameter manualCropOptions nicht</i> bereitstellen, wird der Wert von preserveCrop beibehalten. <i> Und im Fall von "true"werden die vorhandenen preserveCrop-Werte beibehalten. im Fall von false werden die Werte preserveCrop entfernt.</i></p><p>Beispiel:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Steuert die Beibehaltung einer vorhandenen Definition des Zuschnitts. Der Standardwert ist „true“.</p> <p>Wenn Sie den Parameter manualCropOptions und die entsprechenden Werte angeben, werden die neuen Werte (außer 0,0,0,0) unabhängig vom Wert preserveCrop auf das Asset angewendet.</p><p>Wenn Sie <i>not</i> den Parameter manualCropOptions angeben, wird der Wert von preserveCrop beibehalten. Und im Fall von "true"werden die vorhandenen preserveCrop-Werte beibehalten. im Fall von false werden die Werte preserveCrop entfernt.</p><p>Beispiel:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -152,20 +152,20 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnschärfemaskeOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Anmerkungen**
 
-Zu den Optionen für `*CropOptions` gehören:
+Auswahlmöglichkeiten für `*CropOptions` include:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Zu den Optionen für `*PublishJob` gehören:
+Auswahlmöglichkeiten für `*PublishJob` include:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

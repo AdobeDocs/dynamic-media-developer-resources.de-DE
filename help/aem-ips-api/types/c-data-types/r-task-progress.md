@@ -5,14 +5,14 @@ title: TaskProgress
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '137'
 ht-degree: 3%
 
 ---
 
-# TaskProgress{#taskprogress}
+# [!DNL TaskProgress]{#taskprogress}
 
 Informationen zum Aufgabenfortschritt
 
@@ -74,7 +74,7 @@ Syntax
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Zu den Werten gehören: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Unbekannt</span>: Wenn die Aufgabenüberwachung zwischen Status wechselt. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> unbekannt</span>: Wenn die Aufgabenüberwachung zwischen Status wechselt. </li>
      <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Neu</span>: Der Aufgabenmonitor wurde erstellt, hat jedoch noch keine Aufgaben akzeptiert. </li>
      <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Verarbeitung</span>: Die Aufgabenüberwachung verarbeitet aktiv Aufgaben. </li>
      <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Anhalten</span>: Der Aufgabenmonitor stoppt einen Auftrag aufgrund einer Anfrage zum Anhalten des Vorgangs. </li>

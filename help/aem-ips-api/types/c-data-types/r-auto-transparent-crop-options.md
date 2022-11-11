@@ -5,14 +5,14 @@ title: AutoTransparentCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '47'
+ht-degree: 12%
 
 ---
 
-# AutoTransparentCropOptions{#autotransparentcropoptions}
+# [!DNL AutoTransparentCropOptions]{#autotransparentcropoptions}
 
 Optionen, die beim automatischen Zuschneiden von Bildern basierend auf Transparenz verwendet werden
 

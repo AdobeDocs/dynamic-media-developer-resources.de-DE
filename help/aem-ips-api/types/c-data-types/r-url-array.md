@@ -5,14 +5,14 @@ title: UrlArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
-# UrlArray{#urlarray}
+# [!DNL UrlArray]{#urlarray}
 
 Ein Array von URLS zur Invalidierung des CDN-Cache.
 

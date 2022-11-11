@@ -5,14 +5,14 @@ title: AutomatedSetGenerationJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 3%
+source-wordcount: '170'
+ht-degree: 4%
 
 ---
 
-# AutomatedSetGenerationJob{#automatedsetgenerationjob}
+# [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
 Gruppieren Sie Dateien mithilfe eines Listen-Arrays für das Asset-Handle in Sets.
 
@@ -30,27 +30,27 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:HandleArray</span> </td> 
    <td colname="col3">Ein Array von Asset-Handles, die zum Erstellen des Sets verwendet werden. <p>Standardmäßig ist 1000 die maximale Anzahl von Assets, die Sie im Array haben können. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Pfad zum Ordner, in dem Sie die Sets speichern möchten. Speichert standardmäßig im Stammordner des Unternehmens. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Legt eine Markierung fest, die angibt, ob die Assets veröffentlicht werden sollen oder nicht. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:AutoSetCreationOptions</span> </td> 
    <td colname="col3">Ein Array von Skripten zur Set-Generierung, die Sie für die hochgeladenen Dateien ausführen können. Siehe <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Richten Sie eine automatische E-Mail-Benachrichtigung für den Auftrag ein. </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ Syntax
 
 **emailSetting Options**
 
-Der Parameter `emailSetting` umfasst die folgenden Optionen:
+Die `emailSetting` enthält die folgenden Optionen:
 
 | Option | Rückgabe |
 |---|---|

@@ -5,14 +5,14 @@ title: AutoColorCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
-# AutoColorCropOptions{#autocolorcropoptions}
+# [!DNL AutoColorCropOptions]{#autocolorcropoptions}
 
 Optionen zum automatischen Zuschneiden von Bildern basierend auf Farben.
 

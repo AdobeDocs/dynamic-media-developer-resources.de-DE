@@ -5,14 +5,14 @@ title: UnsharpMaskOptions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 10%
+source-wordcount: '186'
+ht-degree: 11%
 
 ---
 
-# UnsharpMaskOptions{#unsharpmaskoptions}
+# [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
 Einstellungen zur Verbesserung der Bildschärfe für optimierte Pyramid TIF-Dateien.
 
@@ -20,7 +20,7 @@ Einstellungen zur Verbesserung der Bildschärfe für optimierte Pyramid TIF-Date
 
 ## Parameter {#section-c3f0d03136ba4422819cb463bd393885}
 
-Geben Sie einen Wert für `unsharpMaskOptions`-Optionen mit `minOccurs=" *`n`*".` an.
+Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ Geben Sie einen Wert für `unsharpMaskOptions`-Optionen mit `minOccurs=" *`n`*".
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monochrome</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Die Werte umfassen nur <span class="codeph"> 0</span> oder <span class="codeph"> 1</span>. </p><p>Auf <span class="codeph"> 0</span> setzen, um auf jede Farbkomponente separat anzuwenden, oder auf <span class="codeph"> 1</span> , um nur auf die Bildhelligkeit (Intensität) anzuwenden. Die Ebenenmaske oder die zusammengesetzte Maske wird ebenfalls scharfgezeichnet. </p><p><span class="codeph"><span class="varname"> </span></span> Monochromeien werden bei Graustufenbildern ignoriert. </p></td>
+   <td colname="col3"><p>Zu den Werten gehören <span class="codeph"> 0</span> oder <span class="codeph"> 1</span> nur. </p><p>Legen Sie fest auf <span class="codeph"> 0</span> für jede Farbkomponente einzeln oder auf <span class="codeph"> 1</span> , um nur die Bildhelligkeit (Intensität) anzuwenden. Die Ebenenmaske oder die zusammengesetzte Maske wird ebenfalls scharfgezeichnet. </p><p><span class="codeph"><span class="varname"> monochrome</span></span> wird bei Graustufenbildern ignoriert. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Geben Sie einen Wert für `unsharpMaskOptions`-Optionen mit `minOccurs=" *`n`*".
 
 ## Verwendet von {#section-db8124a5468b498694a780f8a56a4560}
 
-Der Typ `unsharpMaskOptions` wird wie folgt verwendet:
+Die `unsharpMaskOptions` Typ:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)

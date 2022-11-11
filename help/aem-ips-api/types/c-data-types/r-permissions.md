@@ -5,14 +5,14 @@ title: Berechtigung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '53'
 ht-degree: 9%
 
 ---
 
-# Berechtigung{#permission}
+# [!DNL Permission]{#permission}
 
 Verwaltet Berechtigungen zum Zugriff, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
 

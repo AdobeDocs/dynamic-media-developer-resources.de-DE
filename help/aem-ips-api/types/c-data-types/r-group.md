@@ -1,18 +1,18 @@
 ---
-description: Named set of users used for assigning permissions.
+description: Spezifischer Satz von Benutzern, die zum Zuweisen von Berechtigungen verwendet werden.
 solution: Experience Manager
 title: Gruppe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 19%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
-# Gruppe{#group}
+# [!DNL Group]{#group}
 
 Spezifischer Satz von Benutzern, die zum Zuweisen von Berechtigungen verwendet werden.
 
@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| groupHandle | `xsd:string` | Group handle. |
+| groupHandle | `xsd:string` | Gruppieren. |
 | companyHandle | `xsd:string` | Handle des Unternehmens. |
-| name | `xsd:string` | Group name. |
-| is SystemDefined | `xsd:string` | Gibt an, ob die Gruppe vom System definiert wird. |
+| [!DNL name] | `xsd:string` | Gruppenname. |
+| [!DNL is SystemDefined] | `xsd:string` | Gibt an, ob die Gruppe vom System definiert wird. |

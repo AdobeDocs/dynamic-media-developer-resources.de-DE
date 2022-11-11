@@ -5,14 +5,14 @@ title: UploadDirectoryJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
 
-# UploadDirectoryJob{#uploaddirectoryjob}
+# [!DNL UploadDirectoryJob]{#uploaddirectoryjob}
 
 Lädt Dateien aus angegebenen Serververzeichnissen wiederkehrend hoch.
 
@@ -115,7 +115,7 @@ Syntax
    <td colname="col3"> <p>Die URL des Dateiupload-Ziels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Auftrag </td> 
    <td colname="col2"> <span class="codeph"> Typen:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Details für einen Image Rendering-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt wird. </p> </td> 
   </tr> 
@@ -177,7 +177,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Typen:UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnschärfemaskeOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
@@ -189,13 +189,13 @@ Syntax
 
 ## Anmerkungen {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Für `CropOptions` können Sie nur eine der folgenden Optionen auswählen:
+Für `CropOptions`, können Sie nur eine der folgenden Optionen auswählen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Für `PublishJob` können Sie nur eine der folgenden Optionen auswählen:
+Für `PublishJob`, können Sie nur eine der folgenden Optionen auswählen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
