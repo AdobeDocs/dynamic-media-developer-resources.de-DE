@@ -1,18 +1,18 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Dynamic Media Image Serving and Rendering-API
-breadcrumb-title: Dynamic Media Image Serving and Rendering-API
+user-guide-title: Dynamic Media Image Serving and Rendering API
+breadcrumb-title: Dynamic Media Image Serving and Rendering API
 feature-set: Experience Manager Assets
-user-guide-description: Dokumentation zu APIs für IS (Image Serving) und IR (Image Rendering) und dazugehörigen Technologien anzeigen.
+user-guide-description: Sehen Sie sich die Dokumentation zu IS (Image Serving) und IR (Image Rendering)-APIs und zugehörigen Technologien an.
 source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Dynamic Media Image Serving and Rendering-API {#image-serving-api}
+# Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
 + [Dynamic Media Image Serving and Image Rendering API - Startseite](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [Über diese Version](r-about-this-release.md)
@@ -120,7 +120,7 @@ ht-degree: 12%
             + [Textebenen-Befehle](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-text-layer-commands-and-attributes.md)
             + [Solide Farbschichtbefehle](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-solid-color-layer-commands-and-attributes.md)
             + [Ebeneneffektbefehle](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-layer-effect-commands-and-attributes.md)
-         + Layering {#layering}
+         + Ebene {#layering}
             + [Ebenenübersicht](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layering-overview.md)
             + [Festlegen von Ebenen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-specifying-layers.md)
             + [Ebenenreihenfolge](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-order.md)
@@ -188,7 +188,7 @@ ht-degree: 12%
          + [Effekt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md)
          + [EffectMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effectmask.md)
          + [erweitern](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md)
-         + [anpassen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md)
+         + [fit](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md)
          + [flip](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md)
          + [fmt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md)
          + [hei](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md)
@@ -457,7 +457,7 @@ ht-degree: 12%
          + [Ablauf](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md)
          + [Id](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
          + [Bildsatz](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)
-         + [Map](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)
+         + [Zuordnung](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)
          + [MaskPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
          + [Modifikator](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md)
          + [Pfad](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md)
@@ -469,7 +469,7 @@ ht-degree: 12%
          + [ThumbRes](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md)
          + [ThumbType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md)
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md)
-         + [Benutzerdaten](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
+         + [UserData](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
          + [UserType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
       + SVG-Datenreferenz {#svg-data-reference}
          + [SVG-Datenreferenz](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/c-svg-data-reference.md)
@@ -569,7 +569,7 @@ ht-degree: 12%
             + [Wiederholbare Texturen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-repeatable-textures.md)
             + [Mauergrenzen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-wall-borders.md)
             + [Dezimalzahlen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-decals.md)
-            + [Möbel](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
+            + [Kabinette](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
             + [Fensterverkleidungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
          + Erweiterte Rendereffekte {#advanced-render-effects}
             + [Erweiterte Rendereffekte](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
@@ -728,7 +728,7 @@ ht-degree: 12%
          + [Modifikator](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md)
          + [Pfad](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md)
          + [TimeStamp](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md)
-         + [Benutzerdaten *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md)
+         + [UserData *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md)
       + Referenz zur Makrodefinition {#macro-definition-reference}
          + [Referenz zur Makrodefinition](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md)
          + [Name](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md)

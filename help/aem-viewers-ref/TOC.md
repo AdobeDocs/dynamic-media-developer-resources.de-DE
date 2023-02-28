@@ -1,25 +1,25 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Dynamic Media Viewers-Referenzhandbuch
+user-guide-title: Dynamic Media Viewer-Referenzhandbuch
 feature-set: Experience Manager Assets
-user-guide-description: Passen Sie Dynamic Media-Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Schließen Sie interaktive Bilder und Videos, Karussells, Rotations-Sets und mehr ein.
+user-guide-description: Passen Sie Dynamic Media-Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Schließen Sie interaktive Bilder und Videos, Karussells, Rotationssets und mehr ein.
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 
-# Dynamic Media Viewers-Referenzhandbuch {#library}
+# Dynamic Media Viewer-Referenzhandbuch {#library}
 
-+ [Dynamic Media Viewers-Referenzhandbuch](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [Dynamic Media Viewer-Referenzhandbuch](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [Beispiele für Viewer-Bibliotheken](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Installieren mehrerer Viewer auf demselben Server](t-installing-the-viewers.md)
 + Versionshinweise zu Viewers {#viewers-release-notes}
    + [Viewer-Versionshinweise (5.16.5)](c-release-notes/c-rn-03-02-22.md)
-   + Archiv {#archive}
+   + Archivieren {#archive}
       + [Viewer-Versionshinweise (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Viewer-Versionshinweise (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Viewer-Versionshinweise (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
@@ -177,7 +177,7 @@ ht-degree: 6%
          + [Sekundäre Steuerleiste](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-secondarycontrolbar.md)
          + [Social Share](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-socialshare.md)
          + [Inhaltsverzeichnis](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-tableofcontents.md)
-         + [Miniaturansichten](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnails.md)
+         + [Miniaturen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnails.md)
          + [Schaltfläche &quot;Miniaturansichten&quot;](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnailsbutton.md)
          + [QuickInfos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-tooltips.md)
          + [Twitter Share](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-twittershare.md)
@@ -296,7 +296,7 @@ ht-degree: 6%
          + [Sekundäre Steuerleiste](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-secondarycontrolbar.md)
          + [Social Share](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-socialshare.md)
          + [Inhaltsverzeichnis](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-tableofcontents.md)
-         + [Miniaturansichten](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnails.md)
+         + [Miniaturen](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnails.md)
          + [Schaltfläche &quot;Miniaturansichten&quot;](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnailsbutton.md)
          + [QuickInfos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-tooltips.md)
          + [Twitter Share](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-twittershare.md)
@@ -355,7 +355,7 @@ ht-degree: 6%
          + [Flyout-Zoom-Ansicht](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-flyoutzoomview.md)
          + [Fokushervorhebung](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-focushighlight.md)
          + [Hauptanzeige-Bereich](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-mainviewerarea.md)
-         + [Muster](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-swatches.md)
+         + [Farbfelder](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-swatches.md)
          + [QuickInfos](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-tooltips.md)
       + [Unterstützung für Adobe Analytics-Tracking](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-sitecatalyst.md)
       + [Unterstützung der Technologie](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-assistive.md)
@@ -400,7 +400,7 @@ ht-degree: 6%
          + [Hauptanzeige-Bereich](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-mainviewerarea.md)
          + [Flyout-Zoom-Ansicht](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
          + [Fokushervorhebung](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-focushighlight.md)
-         + [Muster](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-swatches.md)
+         + [Farbfelder](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-swatches.md)
          + [QuickInfos](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-tooltips.md)
       + [Unterstützung für Adobe Analytics-Tracking](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-sitecatalyst.md)
       + [Unterstützung der Technologie](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-assistive.md)
@@ -682,7 +682,7 @@ ht-degree: 6%
          + [Symboleffekt](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-iconeffect.md)
          + [Hauptanzeige-Bereich](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-mainviewerarea.md)
          + [Anzeige einstellen](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-setindicator.md)
-         + [Muster](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-swatches.md)
+         + [Farbfelder](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-swatches.md)
          + [QuickInfos](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-tooltips.md)
          + [Schaltfläche &quot;Vergrößern&quot;](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoominbutton.md)
          + [Schaltfläche &quot;Auszoomen&quot;](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomoutbutton.md)

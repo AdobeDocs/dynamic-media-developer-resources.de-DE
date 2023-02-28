@@ -2,11 +2,11 @@
 cloud: Experience Cloud
 user-guide-title: Dynamic Media Image Production System-API
 feature-set: Experience Manager Assets
-user-guide-description: Die IPS (Image Production System) Web Service-API ermöglicht externen Anwendungen und Entwicklern von Drittanbieteranwendungen den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
+user-guide-description: Die IPS-Web-Service-API (Image Production System) ermöglicht externen Anwendungen und Entwicklern von Drittanbietern den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 9%
+ht-degree: 2%
 
 ---
 
@@ -259,7 +259,7 @@ ht-degree: 9%
    + [ImageFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
-   + [Imagemap](types/c-data-types/r-image-map.md)
+   + [ImageMap](types/c-data-types/r-image-map.md)
    + [ImageMapArray](types/c-data-types/r-image-map-array.md)
    + [ImageMapDefinition](types/c-data-types/r-image-map-definition.md)
    + [ImageMapDefinitionArray](types/c-data-types/r-image-map-definition-array.md)
@@ -282,7 +282,7 @@ ht-degree: 9%
    + [KnockoutBackgroundOptions](types/c-data-types/r-knockout-background-options.md)
    + [LayerViewInfo](types/c-data-types/r-layer-view-info.md)
    + [ManualCropOptions](types/c-data-types/r-manual-crop-options.md)
-   + [Maske](types/c-data-types/r-mask.md)
+   + [Maskieren](types/c-data-types/r-mask.md)
    + [MaskArray](types/c-data-types/r-mask-array.md)
    + [MaskInfo](types/c-data-types/r-mask-info.md)
    + [MasterVideoInfo](types/c-data-types/r-master-video-info.md)
@@ -393,7 +393,7 @@ ht-degree: 9%
    + [ZipEntry](types/c-data-types/r-zip-entry.md)
    + [ZipEntryArray](types/c-data-types/r-zip-entry-array.md)
    + [ZipInfo](types/c-data-types/r-zip-info.md)
-   + [Zoomziel](types/c-data-types/r-zoom-target.md)
+   + [ZoomTarget](types/c-data-types/r-zoom-target.md)
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
