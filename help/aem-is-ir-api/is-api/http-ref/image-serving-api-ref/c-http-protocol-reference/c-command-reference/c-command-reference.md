@@ -1,14 +1,14 @@
 ---
+title: Befehlsreferenz
 description: In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 solution: Experience Manager
-title: Befehlsreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 10%
+source-wordcount: '322'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,19 @@ ht-degree: 10%
 
 In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 
-**Nur für Dynamic Media in AEM**: Neben den grundlegenden Bildeinstellungen, die in der Benutzeroberfläche verfügbar sind, unterstützt  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) zahlreiche erweiterte Bildänderungen, die Sie im Feld  **Bildmodifikatoren** angeben können. Diese Parameter sind unten definiert. Beachten Sie jedoch, dass die folgende Funktion in Dynamic Media in AEM nicht unterstützt wird.
+>[!TIP]
+>
+>Probieren Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung mithilfe von Dynamic Media aus. [_Momentaufnahme_](https://snapshot.scene7.com/).
+>
+> Snapshot ist ein visuelles Demonstrationswerkzeug, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, um die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell zu beobachten, und optimieren Sie die intelligente Bildbearbeitung für Folgendes:
+>* Dateigröße (mit WebP- und AVIF-Bereitstellung)
+>* Netzwerkbandbreite
+>* DSGVO (Gerätepixelverhältnis)
+>
+>Um zu erfahren, wie einfach es ist, Snapshot zu verwenden, spielen Sie die [Schulungsvideo zu Momentaufnahmen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 Minuten und 17 Sekunden).
+
+
+**Nur für Dynamic Media in Adobe Experience Manager** - Über die grundlegenden Bildeinstellungen hinaus, die in der Benutzeroberfläche verfügbar sind, [!DNL Dynamic Media] AEM ( [!DNL Adobe Experience Manager]) unterstützt zahlreiche erweiterte Bildänderungen, die Sie im Abschnitt **Bild-Modifikatoren** -Feld. Diese Parameter sind unten definiert. Beachten Sie jedoch, dass die folgende Funktion in Dynamic Media in AEM nicht unterstützt wird.
 
 * Farbkorrekturbefehle: `icc=` und `iccEmbed=`.
 * Grundlegende Befehle zum Vorlagen- und Text-Rendering: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` und `textPs=`.
@@ -26,11 +38,11 @@ In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Nicht zum Kerngeschäft gehörende Dynamic Media-Dienste: SVG, Bild-Rendering und Web-to-Print.
+* Nicht zum Kerngeschäft gehörende Dynamic Media-Dienste: SVG, Image Rendering und Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Weitere Informationen finden Sie unter Dynamic Media [Bildvorgabenoptionen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) in der AEM 6.5-Dokumentation.
+Siehe auch Dynamic Media [Bildvorgabenoptionen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) in der Dokumentation zu AEM 6.5.
 
 * [align](r-align.md)
 * [anchor](r-anchor.md)
@@ -48,7 +60,7 @@ Weitere Informationen finden Sie unter Dynamic Media [Bildvorgabenoptionen](http
 * [Effekt](r-effect.md)
 * [EffectMask](r-effectmask.md)
 * [erweitern](r-extend.md)
-* [anpassen](r-fit.md)
+* [fit](r-fit.md)
 * [flip](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
