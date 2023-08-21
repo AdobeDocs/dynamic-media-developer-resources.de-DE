@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 
 >[!TIP]
 >
->Probieren Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung mithilfe von Dynamic Media aus. [_Momentaufnahme_](https://snapshot.scene7.com/).
+>Lernen Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung mithilfe von Dynamic Media kennen [_Momentaufnahme_](https://snapshot.scene7.com/).
 >
 > Snapshot ist ein visuelles Demonstrationswerkzeug, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, um die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell zu beobachten, und optimieren Sie die intelligente Bildbearbeitung für Folgendes:
 >* Dateigröße (mit WebP- und AVIF-Bereitstellung)
@@ -31,7 +31,7 @@ In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 **Nur für Dynamic Media in Adobe Experience Manager** - Über die grundlegenden Bildeinstellungen hinaus, die in der Benutzeroberfläche verfügbar sind, [!DNL Dynamic Media] AEM ( [!DNL Adobe Experience Manager]) unterstützt zahlreiche erweiterte Bildänderungen, die Sie im Abschnitt **Bild-Modifikatoren** -Feld. Diese Parameter sind unten definiert. Beachten Sie jedoch, dass die folgende Funktion in Dynamic Media in AEM nicht unterstützt wird.
 
 * Farbkorrekturbefehle: `icc=` und `iccEmbed=`.
-* Grundlegende Befehle zum Vorlagen- und Text-Rendering: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` und `textPs=`.
+* Grundlegende Befehle zum Vorlagen- und Textrendern: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` und `textPs=`.
 * Lokalisierungsbefehle: `locale=` und `req=xlate`.
 * `req=set` ist nicht für die allgemeine Anwendung verfügbar.
 * `req=mbrset`
@@ -57,6 +57,7 @@ Siehe auch Dynamic Media [Bildvorgabenoptionen](https://experienceleague.adobe.c
 * [Zuschneiden](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [Effekt](r-effect.md)
 * [EffectMask](r-effectmask.md)
 * [erweitern](r-extend.md)
@@ -75,6 +76,7 @@ Siehe auch Dynamic Media [Bildvorgabenoptionen](https://experienceleague.adobe.c
 * [Karte](r-map.md)
 * [mask](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [Netzwerk](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
@@ -85,7 +87,7 @@ Siehe auch Dynamic Media [Bildvorgabenoptionen](https://experienceleague.adobe.c
 * [op_expandMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
-* [op_geräusch](r-op-noise.md)
+* [op_sound](r-op-noise.md)
 * [op_sättigung](r-op-saturation.md)
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)

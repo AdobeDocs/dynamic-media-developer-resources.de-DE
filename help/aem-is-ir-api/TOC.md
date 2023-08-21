@@ -4,10 +4,10 @@ user-guide-title: Dynamic Media Image Serving and Rendering API
 breadcrumb-title: Dynamic Media Image Serving and Rendering API
 feature-set: Experience Manager Assets
 user-guide-description: Sehen Sie sich die Dokumentation zu IS (Image Serving) und IR (Image Rendering)-APIs und zugehörigen Technologien an.
-source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1468'
+ht-degree: 8%
 
 ---
 
@@ -92,8 +92,8 @@ ht-degree: 0%
          + [Serverüberwachung](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [Standardmäßige Warnungen](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [Warnung zur Heap-Platzierungspriorität](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
-      + Verwalten von Inhalten {#manage-content}
-         + [Verwalten von Inhalten](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
+      + Verwalten von Inhalt {#manage-content}
+         + [Verwalten von Inhalt](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
          + [Bildkataloge](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-image-catalogs.md)
          + [Quelldaten](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
          + [Statische Inhaltsquellendaten](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-static-content-source-data.md)
@@ -112,7 +112,7 @@ ht-degree: 0%
          + Image Serving HTTP-Protokoll, Befehl {#image-serving-http}
             + [Übersicht über den Befehl zum Image Serving-HTTP-Protokoll](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [Anforderungsbefehle](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
-            + [Anzeigen von Befehlen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
+            + [Befehle anzeigen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
             + [Gemeinsame Aktionen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-operations-and-attributes.md)
             + [Vorgänge bei Quellbildern](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-source-image-operations-and-attributes.md)
             + [Allgemeine Ebenenbefehle](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-layer-commands-and-attributes.md)
@@ -123,7 +123,7 @@ ht-degree: 0%
          + Ebene {#layering}
             + [Ebenenübersicht](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layering-overview.md)
             + [Festlegen von Ebenen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-specifying-layers.md)
-            + [Ebenenreihenfolge](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-order.md)
+            + [Ebenenfolge](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-order.md)
             + [Ebenentypen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-types.md)
             + [Die Arbeitsfläche für die Zusammenstellung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-compositing-canvas.md)
             + [Ebenenvorgänge](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-operations.md)
@@ -185,6 +185,7 @@ ht-degree: 0%
          + [Zuschneiden](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md)
          + [cropPathE](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md)
          + [defaultImage](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md)
+         + [dpr](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)
          + [Effekt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md)
          + [EffectMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effectmask.md)
          + [erweitern](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md)
@@ -203,6 +204,7 @@ ht-degree: 0%
          + [Karte](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md)
          + [mask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md)
          + [maskUse](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md)
+         + [Netzwerk](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)
          + [op_blur](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md)
          + [op_brightness](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md)
          + [op_colorbalance](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md)
@@ -213,7 +215,7 @@ ht-degree: 0%
          + [op_expandMaskR](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-growmaskr.md)
          + [op_hue](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-hue.md)
          + [op_invert](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-invert.md)
-         + [op_geräusch](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-noise.md)
+         + [op_sound](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-noise.md)
          + [op_sättigung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-saturation.md)
          + [op_sharpen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md)
          + [op_usm](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md)
@@ -285,7 +287,7 @@ ht-degree: 0%
          + [Die Arbeitsfläche für die Zusammenstellung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-the-compositing-canvas.md)
          + [Ebenentransformationen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-transforms.md)
          + [Skalierung von Miniaturansichten](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md)
-         + [Regeln für Miniaturansichten](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-rules.md)
+         + [Regeln für Miniaturen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-rules.md)
          + [Ebenenplatzierung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-placement.md)
          + [Transformation für Bilder anzeigen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-images.md)
          + [Transformation für Miniaturansichten anzeigen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-thumbnails.md)
@@ -351,7 +353,7 @@ ht-degree: 0%
          + [Anforderungsattribute](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-request-attributes.md)
          + [Standardmäßige Anfrageattribute](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-default-request-attributes.md)
          + [Farbverwaltungsattribute](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-color-management-attributes.md)
-         + [Allgemeine Attribute für Miniaturansichten](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-common-thumbnail-attributes.md)
+         + [Allgemeine Attribute für Miniaturen](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-common-thumbnail-attributes.md)
          + [Standardeinstellungen für Katalogfelder](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-defaults-for-catalog-fields.md)
          + [Videoattribute](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-video-attributes.md)
       + Katalogdatenfelder {#catalog-data-fields}
@@ -403,7 +405,7 @@ ht-degree: 0%
       + [FontMapFile](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md)
       + [FullMatch](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md)
       + [HttpAppleStreamingContext](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpapplestreamingcontext.md)
-      + [HttpFlashStreamingContext](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpflashstreamingcontext.md)
+      + [HTTPFlashStreamingContext](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpflashstreamingcontext.md)
       + [IccBlackPointCompensation](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md)
       + [IccDither](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md)
       + [IccProfileCmyk](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
@@ -501,7 +503,7 @@ ht-degree: 0%
       + [ProfilPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md)
    + Regelsatzreferenz {#rule-set-reference}
       + [Regelsatzreferenz](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md)
-      + [Adressfilter](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-addressfilter-rule.md)
+      + [addressFilter](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-addressfilter-rule.md)
       + [Ausdruck](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-expression-rule.md)
       + [Header](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-header-rule.md)
       + [Regel](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md)
@@ -537,8 +539,8 @@ ht-degree: 0%
          + [Überlegungen zum Speicher](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [Überlegungen zum dynamischen Festplattenspeicher](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [Größenbeschränkung für Vignetten](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
-         + Verwalten von Inhalten {#managing-content}
-            + [Verwalten von Inhalten](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
+         + Verwalten von Inhalt {#managing-content}
+            + [Verwalten von Inhalt](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
             + [Materialkataloge](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
             + [Quelldaten](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
             + [Quelldatendateien löschen oder ersetzen](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-deleting-or-replacing-source-data-files.md)
@@ -574,7 +576,7 @@ ht-degree: 0%
          + Erweiterte Rendereffekte {#advanced-render-effects}
             + [Erweiterte Rendereffekte](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
             + [Verwendung mehrerer Beleuchtungskarten](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
-            + [Farbstoffe](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
+            + [Materialien einfärben](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
             + [Unterschiedliche Materialdeckkraft](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-varying-material-opacity.md)
             + [Spiegelungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [Glanzeffekte](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
@@ -739,7 +741,7 @@ ht-degree: 0%
          + [ProfilPath](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md)
       + Regelsatzreferenz {#rule-set-reference}
          + [Regelsatzreferenz](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md)
-         + [Adressfilter](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-addressfilter.md)
+         + [addressFilter](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-addressfilter.md)
          + [Ausdruck](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md)
          + [Regel](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-rule.md)
          + [ruleset](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-ruleset.md)
