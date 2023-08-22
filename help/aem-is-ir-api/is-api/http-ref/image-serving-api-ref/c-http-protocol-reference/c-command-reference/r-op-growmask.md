@@ -1,14 +1,14 @@
 ---
+title: op_expandMask
 description: Bild verkleinern/erodieren. Wendet eine morphologische Verfärbung (Radius > 0) oder eine Erdung (Radius < 0) auf die Maskendaten an.
 solution: Experience Manager
-title: op_expandMask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Wird hauptsächlich verwendet, um eine Maske geringfügig zu vergrößern oder z
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gilt für die aktuelle Ebene oder für die Ebene `0`, wenn `layer=comp`.
+Gilt für die aktuelle Ebene oder Ebene `0` if `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 

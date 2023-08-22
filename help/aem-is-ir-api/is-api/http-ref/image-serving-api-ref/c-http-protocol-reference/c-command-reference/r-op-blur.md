@@ -1,14 +1,14 @@
 ---
+title: op_blur
 description: Weichzeichnen Sie das Bild. Wendet einen Weichzeichenfilter auf die Bilddaten an.
 solution: Experience Manager
-title: op_blur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd68c109-ee99-4ef7-aac0-7d2e6d408cc0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 3%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Weichzeichnen Sie das Bild. Wendet einen Weichzeichenfilter auf die Bilddaten an
 
 ## Eigenschaften {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`.
 
 ## Standard {#section-a976cb86620d489085a8fc9bae2626c0}
 
@@ -37,6 +37,6 @@ Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, 
 
 ## Beispiel {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Weichzeichnen Sie den Hintergrund eines Bildes. Ein separates Maskenbild wird von `catalog::MaskPath` referenziert. Beachten Sie, dass `layer=0`explizit angegeben werden muss. Andernfalls wird `op_blur` auf das gesamte zusammengesetzte Bild angewendet.
+Weichzeichnen Sie den Hintergrund eines Bildes. Ein separates Maskenbild wird durch `catalog::MaskPath`. Beachten Sie Folgendes: `layer=0`explizit angegeben werden, andernfalls `op_blur` auf das gesamte zusammengesetzte Bild angewendet werden.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

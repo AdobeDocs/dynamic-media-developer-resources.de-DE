@@ -1,13 +1,13 @@
 ---
+title: Vorlage
 description: Zusammenstellungsvorlage. Ermöglicht die Angabe einer Komponentenvorlage, die sich in einem anderen Katalog als dem Hauptkatalog befindet.
 solution: Experience Manager
-title: Vorlage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
@@ -25,13 +25,13 @@ Zusammenstellungsvorlage. Hier können Sie eine Zusammenstellungsvorlage in eine
  </tr> 
 </table>
 
-*`template`* muss ein Bildkatalogeintrag mit dem Vorlagentext sein, der in  `catalog::Modifier`enthalten ist.
+*`template`* muss ein Bildkatalogeintrag sein, wobei der Vorlagentext in `catalog::Modifier`.
 
-Wenn `template=` vorhanden ist, wird das im Anfragepfad angegebene Objekt nicht als Quelle für Ebene 0 angewendet. Sie kann jedoch an einer beliebigen Stelle in der Vorlage als `src=` oder `mask=` referenziert werden, indem die vordefinierte Pfadvariable `$object$` als `src=` -Wert verwendet wird. `catalog::Modifier` des im Anfragepfad angegebenen Objekts wird nur mit der Ersetzung von  `$object$` innerhalb der Vorlage angewendet, während immer angewendet  `catalog::PostModifier` wird.
+Wann `template=` vorhanden ist, wird das im Anfragepfad angegebene Objekt nicht als Quelle für Ebene 0 angewendet. Sie kann jedoch als `src=` oder `mask=` an einer beliebigen Stelle in der Vorlage mithilfe der vordefinierten Pfadvariablen `$object$` as a `src=` -Wert. `catalog::Modifier` des im Anfragepfad angegebenen Objekts wird nur angewendet, wenn `$object$` in der Vorlage, während `catalog::PostModifier` immer angewendet wird.
 
 Ebene 0 wird im Vorlagentext definiert und kann eine Bild-, Farbton-, Text- oder verschachtelte oder eingebettete Anfrageebene sein.
 
-`catalog:PostModifier` von  *`object`* wird ignoriert, wenn  *`object`* mit verwendet  `template=`wird.
+`catalog:PostModifier` von *`object`* wird ignoriert, wenn *`object`* wird mit `template=`.
 
 ## Standard {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 
@@ -47,4 +47,4 @@ Siehe Beispiele unter [Vorlagen](../../../../../is-api/http-ref/image-serving-ap
 
 ## Verwandte Themen {#section-067587444f774469931ecafd5a39834c}
 
-[Objekt](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0),  [Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e),  [vordefinierte Pfadvariable](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
+[Objekt](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Vordefinierte Pfadvariable](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)

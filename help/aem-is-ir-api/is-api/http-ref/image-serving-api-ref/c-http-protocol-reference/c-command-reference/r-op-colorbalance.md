@@ -1,14 +1,14 @@
 ---
+title: op_colorbalance
 description: Passen Sie den Farbbalance an. Passt den Wert jeder RGB-Farbkomponente separat an.
 solution: Experience Manager
-title: op_colorbalance
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 2%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Passen Sie den Farbbalance an. Passt den Wert jeder RGB-Farbkomponente separat an.
 
-`op_colorbalance= *``*, *``*, *`redAdjgreenAdjblueAdj`*`
+`op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
 <table id="simpletable_BBDAA6FE9A0E48E3BD8304BDED776713"> 
  <tr class="strow"> 
@@ -37,7 +37,7 @@ Graue und CMYK-Eingabebilddaten werden mithilfe einer naiven Konvertierung in RG
 
 ## Eigenschaften {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert. CMYK-Bilder und -Ebenen werden vor der Anwendung des Vorgangs in RGB konvertiert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`. Wird von Effektebenen ignoriert. CMYK-Bilder und -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
 
 ## Standard {#section-08d84ef715964f7daea86f5ef237d199}
 
@@ -47,4 +47,4 @@ Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, 
 
 Push the color balance to red:
 
-... `&op_colorBalance=100,0,0&`...
+… `&op_colorBalance=100,0,0&`…

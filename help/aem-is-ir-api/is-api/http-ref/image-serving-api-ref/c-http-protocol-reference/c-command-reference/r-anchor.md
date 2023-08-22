@@ -1,18 +1,18 @@
 ---
+title: anchor
 description: Bildanker. Definiert den Ankerpunkt des Rechtecks für Bild, Farbe oder Textbegrenzungsrahmen, bevor die Transformationen angewendet werden (Zuschneiden=, Skalieren=, Drehen=, Spiegeln=, Spiegeln=). Dient auch als Drehmittelpunkt für rotate=.
 solution: Experience Manager
-title: anchor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f62ae048-0dcc-4e93-a9f1-2e4db6bef51f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 3%
+source-wordcount: '208'
+ht-degree: 2%
 
 ---
 
-# Anker{#anchor}
+# anchor{#anchor}
 
 Bildanker. Definiert den Ankerpunkt des Rechtecks für Bild, Farbe oder Textbegrenzungsrahmen, bevor die Transformationen angewendet werden (Zuschneiden=, Skalieren=, Drehen=, Spiegeln=, Spiegeln=). Dient auch als Drehmittelpunkt für rotate=.
 
@@ -31,9 +31,9 @@ Bildanker. Definiert den Ankerpunkt des Rechtecks für Bild, Farbe oder Textbegr
  </tr> 
 </table>
 
-Der Ankerpunkt wird mit dem Bild transformiert und wird zum Ebenenursprungspunkt (es sei denn, `origin=` ist ebenfalls angegeben; in diesem Fall wird `anchor=` nur als Drehmittelpunkt für `rotate=` verwendet).
+Der Verankerungspunkt wird mit dem Bild transformiert und wird zum Ebenenursprungspunkt (sofern `origin=` auch angegeben ist, in welchem Fall `anchor=` wird nur als Drehmittelpunkt für `rotate=`).
 
-`anchorN=0,0` platziert den Bildanker in der Mitte des Quellbilds. `anchorN=-0.5,-0.5` oder  `anchor=0,0` sich in der oberen linken Ecke und  `anchorN=0.5,0.5` befindet sich in der rechten unteren Ecke des Quellbilds.
+`anchorN=0,0` platziert den Bildanker in der Mitte des Quellbilds. `anchorN=-0.5,-0.5` oder `anchor=0,0` befindet sich oben links und `anchorN=0.5,0.5` befindet sich in der rechten unteren Ecke des Quellbilds.
 
 ## Eigenschaften {#section-f08942bc6aae46a8b5d341faaff80640}
 
@@ -43,7 +43,7 @@ Quellbildattribut. Gilt für die aktuelle Ebene oder für Ebene 0, wenn `layer=c
 
 Wenn `anchor=` nicht angegeben ist, wird catalog::Anchor verwendet. Wenn `catalog::Anchor` nicht definiert ist, wird die Mitte des Bildrechtecks verwendet (entspricht der Angabe von `anchorN=0,0`).
 
-Textebenen mit `textPs=` und Ebenen mit `clipPath=` können unterschiedliche Standardanker haben.
+Textebenen mit `textPs=` und Ebenen, die `clipPath=` kann über verschiedene Standardanker verfügen.
 
 ## Beispiel {#section-cc127e6b1ea94524900b5c0dd8b4c7ec}
 
@@ -51,4 +51,4 @@ Siehe &quot;Beispiel C&quot;in [Vorlagen](../../../../../is-api/http-ref/image-s
 
 ## Verwandte Themen {#section-9877ea3a0743492aaa4fa1dfc9510b07}
 
-[catalog::Anchor](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md) ,  [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [Textebenen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[catalog:Anchor](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md) , [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [Textebenen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)

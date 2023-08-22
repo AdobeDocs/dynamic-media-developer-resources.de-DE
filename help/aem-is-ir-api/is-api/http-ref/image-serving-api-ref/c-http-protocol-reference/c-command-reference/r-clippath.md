@@ -1,24 +1,24 @@
 ---
-description: Ebenenbeschneidungspfad. Gibt einen Clip-Pfad für die aktuelle Ebene an.
-solution: Experience Manager
 title: clipPath
+description: Ebenenbeschneidungspfad Gibt einen Clip-Pfad für die aktuelle Ebene an.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
 
 # clipPath{#clippath}
 
-Ebenenbeschneidungspfad. Gibt einen Clip-Pfad für die aktuelle Ebene an.
+Ebenenbeschneidungspfad Gibt einen Clip-Pfad für die aktuelle Ebene an.
 
 `clipPath= *`pathDefinition`*`
 
-`clipPathE= *``*&#42;[, *`pathNamepathName`*]`
+`clipPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
@@ -31,27 +31,27 @@ Ebenenbeschneidungspfad. Gibt einen Clip-Pfad für die aktuelle Ebene an.
  </tr> 
 </table>
 
-Alle Teile der Ebene, die außerhalb des von `clipPath=` definierten Bereichs liegen, werden transparent dargestellt.
+Alle Teile der Ebene, die außerhalb des durch `clipPath=` transparent gemacht werden.
 
-`*``*` pathNames ist der Name eines Pfades, der in das Ebenenquellbild eingebettet ist. Der Pfad wird automatisch umgewandelt, um die relative Ausrichtung an den Bildinhalten zu gewährleisten. Wenn mehr als ein `*`pathName`*` angegeben ist, schneidet der Server das Bild an die Schnittmenge dieser Pfade. Alle `*`pathName`*`, die nicht im Quellbild gefunden werden, werden ignoriert.
-
->[!NOTE]
->
->Für `*`pathName`*` werden nur ASCII-Zeichenfolgen unterstützt.
-
-`*``*` pathDefinitionermöglicht die Angabe expliziter Pfaddaten in Ebenenpixelkoordinaten.
-
-Wenn `size=` und nicht 0,0 angegeben ist, wird die Ebene vorskaliert. In diesem Fall beziehen sich die Pfadkoordinaten auf die obere linke Ecke des Ebenenrechtecks und die Ebene wird basierend auf `origin=` oder ihrer Standardeinstellung positioniert. Alle Bereiche des Pfads außerhalb des Ebenenrechtecks bleiben transparent.
-
-Wenn `size=` nicht für eine durchgehende Farbe oder Textebene angegeben ist, wird die Ebene als eigenständig skaliert betrachtet, wobei der Umfang des Pfads dessen Größe bestimmt. Wenn `origin=` nicht angegeben ist, wird standardmäßig der Pfad-Koordinatenraum (0,0) verwendet. Auf diese Weise können Pfadkoordinaten relativ zum Ursprung der Ebene 0 angegeben werden.
+`*`pathName`*` ist der Name eines Pfades, der in das Ebenenquellenbild eingebettet ist. Der Pfad wird automatisch umgewandelt, um die relative Ausrichtung an den Bildinhalten zu gewährleisten. Wenn mehr als ein `*`pathName`*` angegeben ist, schneidet der Server das Bild an die Schnittmenge dieser Pfade. Alle `*`pathName`*` nicht im Quellbild gefunden wird, wird ignoriert.
 
 >[!NOTE]
 >
->`scale=`,  `rotate=`und  `anchor=` Befehle sind nicht für die Selbstdimensionierung von Farbschichten zulässig.
+>Nur ASCII-Zeichenfolgen werden für `*`pathName`*`.
 
-`*``*` pathDefinitionakzeptiert eine Zeichenfolge, die dem Wert des  `d=` Attributs des SVG- `<path>` Elements ähnelt, mit der Ausnahme, dass Kommas anstelle von Leerzeichen verwendet werden, um Werte zu trennen. `*``*` pathDefinition kann einen oder mehrere geschlossene Schleifenunterpfade enthalten.
+`*`pathDefinition`*` ermöglicht die Angabe expliziter Pfaddaten in Ebenenpixelkoordinaten.
 
-Die folgenden Pfadbefehle werden in `*`pathDefinition`*` unterstützt:
+Wenn `size=` nicht 0,0 angegeben ist, wird die Ebene vorskaliert. In diesem Fall sind die Pfadkoordinaten relativ zur oberen linken Ecke des Ebenenrechtecks und die Ebene wird basierend auf `origin=` oder die Standardeinstellung. Alle Bereiche des Pfads außerhalb des Ebenenrechtecks bleiben transparent.
+
+Wenn `size=` nicht für eine durchgehende Farbe oder Textebene angegeben ist, wird die Ebene als eigenständig skaliert betrachtet, wobei der Umfang des Pfads dessen Größe bestimmt. Wenn `origin=` nicht angegeben ist, wird standardmäßig (0,0) des Koordinatenraums des Pfads verwendet. Auf diese Weise können Pfadkoordinaten relativ zum Ursprung der Ebene 0 angegeben werden.
+
+>[!NOTE]
+>
+>`scale=`, `rotate=`, und `anchor=` -Befehle sind für die Selbstdimensionierung von einfarbigen Farbschichten nicht zulässig.
+
+`*`pathDefinition`*` akzeptiert eine Zeichenfolge, die dem Wert der Variablen `d=` -Attribut der SVG `<path>` -Element, allerdings werden anstelle von Leerzeichen Kommas verwendet, um Werte zu trennen. `*`pathDefinition`*` kann einen oder mehrere Unterpfade mit geschlossener Schleife enthalten.
+
+Die folgenden Pfadbefehle werden in `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
@@ -63,13 +63,13 @@ Die folgenden Pfadbefehle werden in `*`pathDefinition`*` unterstützt:
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <b> </b> <span class="varname"> Mx,y</span> </td> 
+   <td> <b> M</b> <span class="varname"> x,y</span> </td> 
    <td> <p> moveto absolut </p> </td> 
    <td> <p> Starten Sie einen neuen Unterpfad bei x,y. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> </b> <span class="varname"> mx,y</span> </td> 
-   <td> <p> Verschieben relativ </p> </td> 
+   <td> <b> m</b> <span class="varname"> x,y</span> </td> 
+   <td> <p> moveto relativ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> L</b> *{<span class="varname"> x,y</span>} </td> 
@@ -83,14 +83,14 @@ Die folgenden Pfadbefehle werden in `*`pathDefinition`*` unterstützt:
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
    <td> <p> curveto absolut </p> </td> 
-   <td> <p> Zeichnen Sie eine Bézier-Kurve von der aktuellen Position auf x,y. x1,y1 ist der Kontrollpunkt am Anfang der Kurve und x2,y2 der Kontrollpunkt am Ende der Kurve. </p> </td> 
+   <td> <p> Zeichnen Sie eine Bézier-Kurve von der aktuellen Position auf x,y. x1,y1 ist der Kontrollpunkt am Anfang der Kurve und x2,y2 ist der Kontrollpunkt am Ende der Kurve. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
    <td> <p> curveto relativ </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> Z</b> |  <b>z</b> </td> 
+   <td> <b> Z</b> | <b>z</b> </td> 
    <td> <p> closepath </p> </td> 
    <td> <p> Schließen Sie den aktuellen Unterpfad mit einer geraden Linie. </p> </td> 
   </tr> 
@@ -109,9 +109,9 @@ Wenn ein Unterpfad mit einer relativen Verschiebung (&#39;m&#39;) beginnt, ist e
 
 ## Eigenschaften {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Effektebenen ignorieren dies.
+Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`. Effektebenen ignorieren dies.
 
-`clipPathE=` wird ignoriert, wenn kein Pfad mit dem angegebenen Namen im Ebenenquellenbild gefunden wird oder wenn die Ebenenquelle kein Bild ist.
+`clipPathE=` wird ignoriert, wenn im Ebenenquellenbild kein Pfad mit dem angegebenen Namen gefunden wird oder wenn die Ebenenquelle kein Bild ist.
 
 ## Standard {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 
@@ -119,4 +119,4 @@ Keine, kein zusätzliches Beschneiden der Ebene.
 
 ## Verwandte Themen {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) ,  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) ,  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [expand=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

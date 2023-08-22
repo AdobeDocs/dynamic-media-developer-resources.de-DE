@@ -1,14 +1,14 @@
 ---
+title: Zuschneiden
 description: Bild beschneiden. Gibt einen rechteckigen Zuschnittbereich an, der entweder in Pixel ausgedrückt oder relativ zum Quellbild oder Maskenbild mit voller Auflösung normalisiert wird.
 solution: Experience Manager
-title: Zuschneiden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 Bild beschneiden. Gibt einen rechteckigen Zuschnittbereich an, der entweder in Pixel ausgedrückt oder relativ zum Quellbild oder Maskenbild mit voller Auflösung normalisiert wird.
 
-`crop= *``*, *`coordsize`*`
+`crop= *`coord`*, *`size`*`
 
-`cropN= *``*, *`coordNsizeN`*`
+`cropN= *`coordN`*, *`sizeN`*`
 
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
@@ -39,11 +39,11 @@ Bild beschneiden. Gibt einen rechteckigen Zuschnittbereich an, der entweder in P
  </tr> 
 </table>
 
-Kann auch verwendet werden, um das Bild über seine Grenzen hinaus zu erweitern, indem negative x-, y-Werte und/oder Breite, Höhenwerte angegeben werden, die größer als die Bildbreite und -höhe sind. In diesem Fall ist der erweiterte Bereich vollständig transparent (es sei denn, `bgColor=` ist angegeben).
+Kann auch verwendet werden, um das Bild über seine Grenzen hinaus zu erweitern, indem negative x-, y-Werte und/oder Breite angegeben werden, Höhenwerte größer als die Bildbreite und -höhe. In diesem Fall ist der erweiterte Bereich vollständig transparent (sofern `bgColor=` angegeben ist).
 
 ## Eigenschaften {#section-632e0405bb9940679b5f8b1c10e0902e}
 
-Quellbild-/Maskenattribut. Gilt für das Quellbild der Ebene 0, wenn `layer=comp` Ignoriert durch Ebenen, die nicht mit einem Quellbild oder einer Maske verknüpft sind.
+Quellbild-/Maskenattribut. Gilt für das Quellbild der Ebene 0, wenn `layer=comp`. Ignoriert durch Ebenen, die nicht mit einem Quellbild oder einer Maske verknüpft sind.
 
 ## Standard {#section-41f62d386c664f77952bc22e7286bb88}
 
@@ -61,4 +61,4 @@ Gesamtes Bild ( `cropN=0,0,1,1`).
 
 ## Verwandte Themen {#section-d5616c7aa0ce4faa88f51dd5662e5daf}
 
-[](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [cropPathColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) ,  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c),  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[cropPath](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) , [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c), [expand=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

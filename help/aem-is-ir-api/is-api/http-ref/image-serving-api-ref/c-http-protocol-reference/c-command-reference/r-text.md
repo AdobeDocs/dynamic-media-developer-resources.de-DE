@@ -1,13 +1,13 @@
 ---
+title: Text
 description: Ebenentext. Gibt Text und Formatierungsinhalt für eine Textebene an.
 solution: Experience Manager
-title: Text
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 5%
 
 ---
@@ -21,21 +21,21 @@ Ebenentext. Gibt Text und Formatierungsinhalt für eine Textebene an.
 <table id="simpletable_6C095D7F69874A8EA3D1D52103FA520C"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> Zeichenfolge </span> </p> </td> 
-  <td class="stentry"> <p>RTF-Zeichenfolge (Rich-Text-Format) oder Nur-Text-Zeichenfolge. </p> </td> 
+  <td class="stentry"> <p>RTF-Zeichenfolge (Rich-Text-Format) oder Text-Zeichenfolge. </p> </td> 
  </tr> 
 </table>
 
-Die gesamte Steuerung der Schriftart-, Schriftfarbe- und Absatzformatierung erfolgt mithilfe von RTF-Befehlen. Weitere Informationen finden Sie unter [Textformatierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) .
+Die gesamte Steuerung der Schriftart-, Schriftfarbe- und Absatzformatierung erfolgt mithilfe von RTF-Befehlen. Siehe Abschnitt [Textformatierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) für weitere Informationen.
 
-`text=` unterstützt die automatische Skalierung des Textes, um das mit angegebene Ebenenrechteck auszufüllen  `size=`.
+`text=` unterstützt die automatische Skalierung des Textes zum Füllen des Ebenenrechtecks, das mit `size=`.
 
 Siehe [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d).
 
-`text=` unterstützt die automatische Skalierung der Textebene, um den gerenderten Text anzupassen (wenn nicht angegeben  `size=` ist oder nur die Breite angegeben ist). Beachten Sie, dass in diesem Fall nur einer der RTF-Ausrichtungsbefehle `\ql`, `\qr` und `\qc` angewendet werden kann. Andernfalls wird ein Fehler zurückgegeben.
+`text=` unterstützt die automatische Skalierung der Textebene, um den gerenderten Text anzupassen (wenn `size=` nicht angegeben ist oder wenn nur die Breite angegeben ist). Beachten Sie, dass in diesem Fall nur einer der RTF-Ausrichtungsbefehle `\ql`, `\qr`, und `\qc` angewendet werden. Andernfalls wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-Ebenenattribut. Gilt für `layer=0`, wenn `layer=comp`. Mutual exklusiv mit `src=` und `textPs=` in derselben Ebene; Das letzte Vorkommen von `text=`, `textPs=` und `src=` hat Vorrang und bestimmt, ob es sich um ein Bild oder eine Textebene handelt. Wird von Effektebenen ignoriert.
+Ebenenattribut. Gilt für `layer=0` if `layer=comp`. Gegenseitig exklusiv mit `src=` und `textPs=` in derselben Ebene, das letzte Vorkommen von `text=`, `textPs=`, und `src=` siegt und bestimmt, ob es sich um ein Bild oder eine Textebene handelt. Wird von Effektebenen ignoriert.
 
 ## Standard {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 
@@ -47,4 +47,4 @@ Siehe Beispiele unter [Textformatierung](../../../../../is-api/http-ref/image-se
 
 ## Verwandte Themen {#section-207b779ab67342a5acd343e6bcc749c4}
 
-[Textformatierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c),  [Textpositionierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87),  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d),  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)
+[Textformatierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c), [Textpositionierung](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)

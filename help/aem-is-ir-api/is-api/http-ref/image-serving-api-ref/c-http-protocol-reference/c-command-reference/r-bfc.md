@@ -1,14 +1,14 @@
 ---
+title: bfc
 description: Browserformatkonvertierung. Gibt an, ob die Konvertierungsfunktion für das Browserformat aktiviert oder deaktiviert ist.
 solution: Experience Manager
-title: bfc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 3%
 
 ---
 
@@ -20,8 +20,8 @@ Browserformatkonvertierung. Gibt an, ob die Konvertierungsfunktion für das Brow
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on_off  </span> </p> </td> 
-  <td class="stentry"> <p>Gibt an, ob die Konvertierungsfunktion des Browser-Formats für die Konvertierung von JPEG- oder PNG-Bildern in kleinere browserspezifische Dateiformate wahr ist ( <span class="codeph"> auf </span>) oder falsch ( <span class="codeph"> von </span> bei keiner Browser-spezifischen Formatkonvertierung). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> on_off </span> </p> </td> 
+  <td class="stentry"> <p>Gibt an, ob die Konvertierungsfunktion für Browser-Formatkonvertierungen JPEG- oder PNG-Bilder in kleinere browserspezifische Dateiformate konvertiert ( <span class="codeph"> on </span>) oder false ( <span class="codeph"> off </span> für keine browserspezifische Formatkonvertierung). </p> </td> 
  </tr> 
 </table>
 

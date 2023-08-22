@@ -1,14 +1,14 @@
 ---
+title: erweitern
 description: Ebene erweitern. Fügt Ränder zu einer Ebene hinzu oder beschneidet das Ebenenrechteck.
 solution: Experience Manager
-title: erweitern
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 Ebene erweitern. Fügt Ränder zu einer Ebene hinzu oder beschneidet das Ebenenrechteck.
 
-`extend= *``*, *``*, *``*, *`linfttoprightbottom`*`
+`extend= *`left`*, *`top`*, *`right`*, *`bottom`*`
 
-`extendN= *``*, *``*, *``*, *`leftNtopNrightNbottomN`*`
+`extendN= *`leftN`*, *`topN`*, *`rightN`*, *`bottomN`*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 
@@ -31,11 +31,11 @@ Ebene erweitern. Fügt Ränder zu einer Ebene hinzu oder beschneidet das Ebenenr
  </tr> 
 </table>
 
-`extend=` wird auf die Ebene angewendet,  ** nachdem das Bild beschnitten (  `crop=`) und alle Ebenentransformationen, einschließlich  `rotate=`, angewendet wurden.
+`extend=` wird auf die Ebene angewendet *after* das Bild beschnitten wird ( `crop=`) und alle Ebenentransformationen, einschließlich `rotate=`, wurden angewendet.
 
-Der erweiterte Bereich wird mit `bgColor=` gefüllt oder, falls nicht angegeben, bleibt transparent.
+Der erweiterte Bereich wird mit `bgColor=`oder, falls nicht angegeben, transparent bleibt.
 
-Die Argumentwerte für `extendN=` werden relativ zur Größe des Layer Rect normalisiert, nachdem Ebenentransformationen einschließlich `rotate=` angewendet wurden.
+Argumentwerte für `extendN=` werden relativ zur Größe der Ebene nach Ebenentransformationen normalisiert, einschließlich `rotate=` angewendet wurden.
 
 ## Eigenschaften {#section-8fc94de871f841f3bf5e1df135972ca9}
 
@@ -59,4 +59,4 @@ Beachten Sie, dass die Höhe des zusammengesetzten Bildes vom Seitenverhältnis 
 
 ## Verwandte Themen {#section-2d9572be32ca4602b60920b3810f3638}
 
-[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ,  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b),  [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b), [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

@@ -1,11 +1,11 @@
 ---
+title: cache
 description: Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerk-Caching-Systeme) und der Zwischenspeicherung im internen [!DNL Platform Server] zwischenspeichern.
 solution: Experience Manager
-title: cache
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwisc
 
 Wenn nur eine `*`cacheControl`*` -Wert angegeben ist, wird er sowohl auf Client- als auch auf Server-Caches angewendet.
 
-Die `validate` -Keyword ermöglicht die Aktualisierung von Cache-Einträgen, nachdem die Bilddateien geändert wurden, ohne auf den automatischen Ablauf des Cache-Eintrags warten zu müssen. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
+Die `validate` -Keyword ermöglicht die Aktualisierung von Cache-Einträgen, nachdem die Bilddateien geändert wurden, ohne dass der Cache-Eintrag automatisch ablaufen muss. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
 
 Die `update` -Keyword kann verwendet werden, um das Aktualisieren von serverseitigen Cache-Einträgen zu erzwingen. Dies ist nützlich, nachdem Ressourcen geändert wurden, die nicht direkt vom Cache-Überprüfungsmechanismus verfolgt werden, z. B. wenn eine Schriftartdatei geändert wird, ohne den Dateinamen oder die zugehörige Schriftart-ID zu ändern.
 

@@ -1,14 +1,14 @@
 ---
+title: op_expandMaskR
 description: Bild verkleinern/erodieren. Wendet eine morphologische Verfärbung (Radius > 0) oder eine Erdung (Radius < 0) auf die Maskendaten an.
 solution: Experience Manager
-title: op_expandMaskR
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Bild verkleinern/erodieren. Wendet eine morphologische Verfärbung (Radius > 0) 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>Dilate/Erode radius in Pixeln, wobei <span class="codeph"><span class="varname"> radiusR</span></span> wie besehen angewendet wird, unabhängig davon, ob die Maske heruntergesampelt ist (int -100..100). </p></td> 
+  <td class="stentry"> <p>Radius zum Verkleinern/Erodieren in Pixel, wobei <span class="codeph"><span class="varname"> radiusR</span></span> wird unverändert angewendet, unabhängig davon, ob die Maske neu berechnet wird (int -100..100). </p></td> 
  </tr> 
 </table>
 
@@ -29,7 +29,7 @@ Wird hauptsächlich verwendet, um eine Maske geringfügig zu vergrößern oder z
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gilt für die aktuelle Ebene oder für die Ebene `0`, wenn `layer=comp`.
+Gilt für die aktuelle Ebene oder Ebene `0` if `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 

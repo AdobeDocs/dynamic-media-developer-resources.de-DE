@@ -1,14 +1,14 @@
 ---
+title: drehen
 description: Bild drehen. Dreht die Bild-, Text- oder einfarbige Farbschicht um den angegebenen Winkel.
 solution: Experience Manager
-title: drehen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Bild drehen. Dreht die Bild-, Text- oder einfarbige Farbschicht um den angegeben
  </tr> 
 </table>
 
-Positive Winkel drehen den Uhrzeigersinn. Der Ebenenankerpunkt ( `anchor=` oder `catalog::Anchor`) dient als Drehmittelpunkt. Das Ebenenrechteck wird nach Bedarf vergrößert und um die gedrehten Daten herum angepasst, um das Zuschneiden zu vermeiden. Die Rotation erfolgt nach dem Füllen des Hintergrundbereichs der Ebene mit `color=`. `bgColor=` kann verwendet werden, um dem Begrenzungsrechteck nach der Drehung Hintergrundfarbe hinzuzufügen.
+Positive Winkel drehen den Uhrzeigersinn. Der Ebenenankerpunkt ( `anchor=` oder `catalog::Anchor`) dient als Drehmittelpunkt. Das Ebenenrechteck wird nach Bedarf vergrößert und um die gedrehten Daten herum angepasst, um das Zuschneiden zu vermeiden. Die Rotation wird angewendet, nachdem der Hintergrundbereich der Ebene mit `color=`. `bgColor=` kann verwendet werden, um dem Begrenzungsrechteck nach der Drehung Hintergrundfarbe hinzuzufügen.
 
 ## Eigenschaften {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
@@ -41,12 +41,12 @@ Platzieren Sie in einem Bildkatalog in der oberen linken Ecke der Bilder eine Be
 
 `http:// *`Server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Wir wenden `size=` auf Ebene 0 an, um die Anzeigegröße festzulegen, anstatt `wid=` und `hei=` zu verwenden. Dadurch kann die Größe von `myImageId` geändert werden, ohne die endgültige Größe von `labelImage` zu ändern. Außerdem müssen wir `scl=1` angeben. Andernfalls kann das zusammengesetzte Bild auf `attribute::DefaultPix` skaliert werden (es sei denn, dies ist auf 0,0 festgelegt). `color=` fügt dem Textfeld vor der Drehung die halb undurchsichtige Hintergrundfarbe hinzu.
+Wir wenden `size=` auf Ebene 0 festlegen, um die Anzeigegröße festzulegen, anstatt `wid=` und `hei=`. Dies ermöglicht Folgendes `myImageId` die Größe zu ändern, ohne die endgültige Größe von `labelImage`. Wir müssen auch `scl=1`, andernfalls kann das zusammengesetzte Bild auf `attribute::DefaultPix` (sofern nicht auf 0,0 festgelegt). `color=` fügt dem Textfeld vor der Drehung die halb undurchsichtige Hintergrundfarbe hinzu.
 
-Der Ausgangspunkt für beide Ebenen ist auf die obere linke Ecke eingestellt, um die gewünschte Ausrichtung zu erreichen. Beachten Sie, dass der Ausgangspunkt für Ebene 1 für `labelImage`gilt, nachdem er gedreht wurde.
+Der Ausgangspunkt für beide Ebenen ist auf die obere linke Ecke eingestellt, um die gewünschte Ausrichtung zu erreichen. Beachten Sie, dass der Ausgangspunkt für Ebene 1 für `labelImage`nach dem Drehen.
 
-Ein Beispiel für gedrehten Text finden Sie unter [Beispiel A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) .
+Siehe [Beispiel A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) für ein Beispiel für gedrehten Text.
 
 ## Verwandte Themen {#section-c371ee0845994b7382c02e782d1bc595}
 
-[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

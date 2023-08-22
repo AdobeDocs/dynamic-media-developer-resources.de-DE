@@ -1,14 +1,14 @@
 ---
+title: op_expand
 description: Bild verkleinern/erodieren. Wendet eine morphologische Verfärbung (Radius > 0) oder eine Erdung (Radius < 0) auf die Bilddaten an.
 solution: Experience Manager
-title: op_expand
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 3%
+source-wordcount: '107'
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ Bild verkleinern/erodieren. Wendet eine morphologische Verfärbung (Radius > 0) 
  </tr> 
 </table>
 
-`*``*` radiusis in Pixel relativ zum Composite-Bild. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
+`*`radius`*` in Pixel relativ zum Composite-Bild angegeben. Wenn das Bild farbig ist, wird jede Komponente unabhängig verarbeitet.
 
 Wird hauptsächlich verwendet, um die Größe von Ebeneneffekten zu ändern. Auch nützlich, um besondere Effekte auf Textebenen oder solide Farbschichten mit Masken zu erzielen.
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`
+Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 

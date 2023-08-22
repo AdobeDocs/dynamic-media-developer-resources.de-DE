@@ -1,13 +1,13 @@
 ---
+title: bgColor
 description: Hintergrundfarbe der Ebene. Gibt die Hintergrundfarbe und Deckkraft der aktuellen Ebene an.
 solution: Experience Manager
-title: bgColor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 22c957e6-1a82-43a7-8467-871a150e7453
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---
@@ -25,13 +25,13 @@ Hintergrundfarbe der Ebene. Gibt die Hintergrundfarbe und Deckkraft der aktuelle
  </tr> 
 </table>
 
-Transparente und halb-undurchsichtige Bereiche innerhalb des Begrenzungsrechtecks der Ebene werden mit der angegebenen Farbe gefüllt* nach* `opac=`, `rotate=` und `extend=`.
+Transparente und halb-opake Bereiche innerhalb des Begrenzungsrechtecks der Ebene werden mit der angegebenen Farbe* nach* gefüllt `opac=`, `rotate=`, und `extend=` angewendet werden.
 
 ## Eigenschaften {#section-19dfc13e997f4a33889a1df1e4ad50b9}
 
 Ebenenattribut. Gilt für die aktuelle Ebene oder für Ebene 0, wenn `layer=comp`. Wird von Effektebenen ignoriert.
 
-*`color`* wird angenommen, dass im Arbeitsfarbraum vorhanden ist, der dem Pixeltyp von  *`color`* entspricht. *`color`* genau konvertiert wird, wenn das endgültige Ebenenbild einen anderen Pixeltyp aufweist.
+*`color`* wird angenommen, dass der Arbeitsfarbraum dem Pixeltyp von *`color`*. *`color`* genau konvertiert wird, wenn das endgültige Ebenenbild einen anderen Pixeltyp aufweist.
 
 ## Standard {#section-30cd43f922c04ed9b75875ff7f20c88f}
 
@@ -43,4 +43,4 @@ Siehe [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-proto
 
 ## Verwandte Themen {#section-64b3f153c6d94ab58f46e77324697818}
 
-[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93),  [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423),  [mergeMode=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172),  [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5),  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [Color Management](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423), [mergeMode=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [expand=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [Farbmanagement](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)

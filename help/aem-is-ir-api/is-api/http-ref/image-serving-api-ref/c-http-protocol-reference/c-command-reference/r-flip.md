@@ -1,14 +1,14 @@
 ---
+title: flip
 description: Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anwenden von "crop="und vor "rotate="und "expand="horizontal.
 solution: Experience Manager
-title: flip
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anw
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
-  <td class="stentry"> <p>sowohl horizontal als auch vertikal spiegeln </p> </td> 
+  <td class="stentry"> <p>sowohl horizontal als auch vertikal spiegeln. </p> </td> 
  </tr> 
 </table>
 
@@ -39,7 +39,7 @@ Einige Befehle, einschließlich `extend=`implizit auf Ebene 0 anstelle der Compo
 
 >[!NOTE]
 >
->Die gespiegelte Ebene wird basierend auf dem Ebenenanker positioniert. Wenn sich der Anker nicht in der Mitte der Ebene befindet, ergibt das unterschiedliche &quot;flip=&quot;-Werte unterschiedliche Ebenenpositionen.
+>Die gespiegelte Ebene wird basierend auf dem Ebenenanker positioniert. Verschiedene Werte für &quot;flip=&quot;führen zu unterschiedlichen Ebenenpositionen, wenn sich der Anker nicht in der Mitte der Ebene befindet.
 
 ## Eigenschaften {#section-294da2af7be746b5adfc35e29ee68217}
 

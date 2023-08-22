@@ -1,20 +1,20 @@
 ---
-description: Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
-solution: Experience Manager
 title: hei
+description: Ansichthöhe. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # hei{#hei}
 
-Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
+Ansichthöhe. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
 
 ` hei= *`val`*`
 
@@ -25,9 +25,9 @@ Höhe der Ansicht. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die A
  </tr> 
 </table>
 
-Wenn `wid=` und `scl=` festgelegt sind, kann das zusammengesetzte Bild je nach `align=`-Attribut. Wann `fit=` vorhanden ist, `hei=` gibt die genaue, minimale oder maximale Bildhöhe der Antwort an; siehe Beschreibung [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) für Details.
+Wenn `wid=` und `scl=` festgelegt sind, kann das zusammengesetzte Bild je nach `align=`-Attribut. Wann `fit=` vorhanden ist, `hei=` gibt die genaue, minimale oder maximale Bildhöhe der Antwort an; siehe Beschreibung von [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) für Details.
 
-Wenn `scl=` nicht angegeben ist, wird das zusammengesetzte Bild auf die Anpassung skaliert. Wenn `wid=` und `hei=` festgelegt sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar ist; in diesem Fall wird das Bild innerhalb des Ansichtsrechtecks entsprechend der `align=` -Attribut. Der Hintergrundbereich ist mit `bgc=`oder, falls nicht angegeben mit `attribute::BkgColor`.
+Wenn `scl=` nicht angegeben ist, wird das zusammengesetzte Bild auf die Anpassung skaliert. Wenn `wid=` und `hei=` festgelegt sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar ist. In diesem Fall wird das Bild innerhalb des Ansichtsrechtecks entsprechend der `align=` -Attribut. Der Hintergrundbereich ist mit `bgc=`oder, falls nicht angegeben mit `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Wenn `wid=`, `hei=`, noch `scl=` angegeben sind, hat das Antwortbild entweder di
 
 ## Beispiele {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-ein Bild anfordern, das in ein 200 x 200-Rechteck passt; Wenn das Bild nicht quadratisch ist, richten Sie es oben links aus. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
+Fordern Sie ein Bild an, das in ein 200 x 200-Rechteck passt. Richten Sie es oben links aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 

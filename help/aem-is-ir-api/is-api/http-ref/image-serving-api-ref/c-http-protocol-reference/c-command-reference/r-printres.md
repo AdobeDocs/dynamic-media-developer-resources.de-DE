@@ -1,14 +1,14 @@
 ---
+title: printRes
 description: Druckauflösung. Überschreibt den Wert der Druckauflösung, der im Antwortbild eingebettet ist.
 solution: Experience Manager
-title: printRes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Druckauflösung. Überschreibt den Wert der Druckauflösung, der im Antwortbild 
  </tr> 
 </table>
 
-Die Druckauflösung wird normalerweise von `catalog::PrintResolution` im Fall eines Katalogeintrags definiert, andernfalls vom Wert der Druckauflösung, der in das Quellbild eingebettet ist. Bei einer Vorlage oder einem Bild mit mehreren Ebenen ist die in die Antwortdatei eingebettete Standarddruckauflösung die Druckauflösung des Ebenenbilds mit der niedrigsten Ebenennummer.
+Die Druckauflösung wird normalerweise durch `catalog::PrintResolution` im Falle eines Katalogeintrags, andernfalls durch den im Quellbild eingebetteten Wert für die Druckauflösung. Bei einer Vorlage oder einem Bild mit mehreren Ebenen ist die in die Antwortdatei eingebettete Standarddruckauflösung die Druckauflösung des Ebenenbilds mit der niedrigsten Ebenennummer.
 
 Durch das Festlegen der Druckauflösung wird die Pixelgröße des Antwortbilds nicht geändert.
 
