@@ -4,10 +4,10 @@ description: Device Pixel Ratio (DPR)&mdash; auch CSS-Pixelverhältnis&mdash gen
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
@@ -44,6 +44,8 @@ Aufgrund der DSGVO-Optimierung wird die MaxPix-Breite immer erkannt, wenn das re
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
+Die DPR-Werte basieren auf den erkannten clientseitigen Werten des gebündelten CDN. Diese Werte sind manchmal ungenau. Beispiel: iPhone5 mit `dpr=2`und iPhone12 mit dpr=3, zeigen beide `dpr=2`. Bei hochauflösenden Geräten wird jedoch das Senden von `dpr=2` ist besser als Senden `dpr=1`. Die beste Möglichkeit, diese Ungenauigkeit zu überwinden, besteht jedoch darin, die clientseitige DSGVO zu verwenden, um Ihnen 100 % genaue Werte zu geben. Und es funktioniert für jedes Gerät, ob es sich um Apple oder ein anderes Gerät handelt, das gestartet wurde. Siehe [Verwenden der intelligenten Bildbearbeitung mit dem clientseitigen Gerätepixelverhältnis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+
 ## Eigenschaften
 
 
@@ -60,4 +62,4 @@ Aufgrund der DSGVO-Optimierung wird die MaxPix-Breite immer erkannt, wenn das re
 
 ## Verwandte Themen
 
-[network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

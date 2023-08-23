@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Verwendung der Optimierung der Netzwerk
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '145'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Bei Bedarf kann Ihr Unternehmen die Optimierung der Netzwerkbandbreite auf indiv
  </tr> 
 </table>
 
-Die Werte für die DPR- und Netzwerkbandbreite basieren auf den erkannten clientseitigen Werten des gebündelten CDN. Diese Werte sind manchmal ungenau. Beispiel: iPhone5 mit `dpr=2`und iPhone12 mit `dpr=3`, beide zeigen `dpr=2`. Bei hochauflösenden Geräten wird jedoch das Senden von `dpr=2` ist besser als dpr=1 zu senden. Die beste Möglichkeit, diese Ungenauigkeit zu überwinden, besteht jedoch darin, die clientseitige DSGVO zu verwenden, um Ihnen 100 % genaue Werte zu geben. Und es funktioniert für jedes Gerät, ob es sich um Apple oder ein anderes Gerät handelt, das gestartet wurde. Siehe [Verwenden der intelligenten Bildbearbeitung mit dem clientseitigen Gerätepixelverhältnis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+Netzwerkbandbreitenwerte basieren auf den erkannten clientseitigen Werten des gebündelten CDN.
 
 ## Eigenschaften
 
@@ -42,4 +42,4 @@ Die Werte für die DPR- und Netzwerkbandbreite basieren auf den erkannten client
 
 ## Verwandte Themen
 
-[trp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [trp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
