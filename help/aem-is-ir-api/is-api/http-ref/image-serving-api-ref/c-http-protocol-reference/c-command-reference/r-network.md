@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Verwendung der Optimierung der Netzwerk
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Netzwerkbandbreitenwerte basieren auf den erkannten clientseitigen Werten des ge
 
 ## Eigenschaften
 
-
+Ein Anfrageattribut. Es hat keine Auswirkung, wenn die Netzwerkbedingungen ausgezeichnet sind.
 
 ## Standard
 
