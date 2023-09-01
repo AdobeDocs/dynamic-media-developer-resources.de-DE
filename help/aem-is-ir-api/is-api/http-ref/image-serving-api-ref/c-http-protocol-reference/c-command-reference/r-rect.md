@@ -1,20 +1,20 @@
 ---
 title: rect
-description: Rechteck der endgültigen Ansicht. Ermöglicht das Zerlegen des endgültigen Ansichtsbilds in mehrere Streifen oder Kacheln, die vom Kunden getrennt und nahtlos ohne Artefakte an den Rändern bereitgestellt werden können.
+description: Rechteck der endgültigen Ansicht. Dadurch kann das endgültige Ansichtsbild in mehrere Streifen oder Kacheln zerlegt werden, die vom Kunden getrennt und nahtlos neu zusammengestellt werden können, ohne dass Artefakte an den Kanten vorhanden sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
 
 # rect{#rect}
 
-Rechteck der endgültigen Ansicht. Ermöglicht das Zerlegen des endgültigen Ansichtsbilds in mehrere Streifen oder Kacheln, die vom Kunden getrennt und nahtlos ohne Artefakte an den Rändern bereitgestellt werden können.
+Rechteck der endgültigen Ansicht. Dadurch kann das endgültige Ansichtsbild in mehrere Streifen oder Kacheln zerlegt werden, die vom Kunden getrennt und nahtlos neu zusammengestellt werden können, ohne dass Artefakte an den Kanten vorhanden sind.
 
 `rect= *`coord`*, *`size`*[, *`scale`*]`
 
@@ -37,11 +37,11 @@ Mit diesem Befehl kann Image Serving große Bilder über HTTP bereitstellen, die
 
 >[!NOTE]
 >
->Für optimale Ergebnisse bei Verwendung der JPEG-Komprimierung sollte die Streifen- oder Kachelgröße ein Vielfaches der JPEG-Kodierungs-Kachelgröße sein (16 x 16 Pixel).
+>Wenn die JPEG-Komprimierung verwendet wird, sollte die Streifen- oder Kachelgröße ein Vielfaches der JPEG-Kodierungs-Kachelgröße sein (16 x 16 Pixel).
 
 ## Beispiel {#section-932fcfcb41d74a29bc929e4430c49601}
 
-Trennen Sie ein druckbares CMYK-Bild in mehrere Streifen mit voller Auflösung, um die Download-Dateigröße zu reduzieren. Wenn wir ein zusammenhängendes Bild anfordern würden:
+Trennen Sie ein druckbares CMYK-Bild in mehrere Streifen mit voller Auflösung, um die Download-Dateigröße zu reduzieren. Wenn Sie ein zusammenhängendes Bild angefordert haben:
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ Die Textantwort enthält folgende Eigenschaften:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Auf der Grundlage dieser Informationen entscheiden wir, dass wir vier 600 x 2000 Pixelstreifen wollen. Die `rect=` -Befehl wird verwendet, um die Bandgrößen und -positionen zu beschreiben.
+Anhand dieser Informationen sind vier 600x2000 Pixelstreifen gewünscht. Die `rect=` -Befehl wird verwendet, um die Bandgrößen und -positionen zu beschreiben.
 
-Da dieses Bild häufig geändert wird, werden wir die `id=` -Befehl, um die Wahrscheinlichkeit zu minimieren, dass wir mit einem oder mehreren Streifen einer älteren Version des Bildes enden, die möglicherweise in einem CDN- oder Proxy-Server zwischengespeichert wurde. Der Wert der `image.version` -Eigenschaft zu diesem Zweck verwendet.
+Da dieses Bild häufig geändert wird, wird die `id=` enthalten ist. Dadurch wird die Wahrscheinlichkeit minimiert, mit einem oder mehreren Streifen aus einer älteren Version des Bildes zu enden, die möglicherweise in einem CDN- oder Proxy-Server zwischengespeichert wurden. Der Wert der `image.version` -Eigenschaft zu diesem Zweck verwendet.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## Eigenschaften {#section-aae223cee13e46d38b74680c048d945b}
 
-Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung.
+Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 Alle Bereiche des ROI, die sich außerhalb des Ansichtsbilds befinden, werden mit `bgc=`.
 

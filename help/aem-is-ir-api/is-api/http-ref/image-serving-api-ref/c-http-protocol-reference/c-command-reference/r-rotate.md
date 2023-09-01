@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Bild drehen. Dreht die Bild-, Text- oder einfarbige Farbschicht um den angegeben
  </tr> 
 </table>
 
-Positive Winkel drehen den Uhrzeigersinn. Der Ebenenankerpunkt ( `anchor=` oder `catalog::Anchor`) dient als Drehmittelpunkt. Das Ebenenrechteck wird nach Bedarf vergrößert und um die gedrehten Daten herum angepasst, um das Zuschneiden zu vermeiden. Die Rotation wird angewendet, nachdem der Hintergrundbereich der Ebene mit `color=`. `bgColor=` kann verwendet werden, um dem Begrenzungsrechteck nach der Drehung Hintergrundfarbe hinzuzufügen.
+Positive Winkel drehen den Uhrzeigersinn. Der Ebenenankerpunkt ( `anchor=` oder `catalog::Anchor`) dient als Drehmittelpunkt. Das Ebenenrechteck wird nach Bedarf vergrößert und um die gedrehten Daten herum angepasst, um das Zuschneiden zu vermeiden. Die Rotation wird angewendet, nachdem der Hintergrundbereich der Ebene mit `color=`. Der Modifikator `bgColor=` kann verwendet werden, um dem Begrenzungsrechteck nach der Drehung Hintergrundfarbe hinzuzufügen.
 
 ## Eigenschaften {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
@@ -37,13 +37,13 @@ Ebenenbefehl. Gilt für die aktuelle Ebene oder für Ebene 0, wenn `layer=comp`.
 
 ## Beispiel {#section-e8ab3ba8a8624b43aeaaa8f089fc2f00}
 
-Platzieren Sie in einem Bildkatalog in der oberen linken Ecke der Bilder eine Beschriftung &quot;Bei Verkauf&quot;. Das Beschriftungsbild wird für die 300x300-Ansicht bereits korrekt skaliert und sollte um 30 Grad nach links gedreht werden. Füllen Sie das Textfeld mit einer weißen, halb undurchsichtigen Farbe aus, um die Beschriftung zu verbessern.
+Platzieren Sie in einem Bildkatalog in der oberen linken Ecke der Bilder eine Beschriftung &quot;Bei Verkauf&quot;. Das Titelbild wird für die 300x300-Ansicht bereits korrekt skaliert und sollte um 30° nach links gedreht werden. Um die Beschriftung zu verbessern, füllen Sie das Textfeld mit einer weißen, halb undurchsichtigen Farbe.
 
 `http:// *`Server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Wir wenden `size=` auf Ebene 0 festlegen, um die Anzeigegröße festzulegen, anstatt `wid=` und `hei=`. Dies ermöglicht Folgendes `myImageId` die Größe zu ändern, ohne die endgültige Größe von `labelImage`. Wir müssen auch `scl=1`, andernfalls kann das zusammengesetzte Bild auf `attribute::DefaultPix` (sofern nicht auf 0,0 festgelegt). `color=` fügt dem Textfeld vor der Drehung die halb undurchsichtige Hintergrundfarbe hinzu.
+Anwenden `size=` auf Ebene 0 festlegen, um die Anzeigegröße festzulegen, anstatt `wid=` und `hei=`. Diese Methode ermöglicht `myImageId` die Größe zu ändern, ohne die endgültige Größe von `labelImage`. Geben Sie außerdem `scl=1`, andernfalls kann das zusammengesetzte Bild auf `attribute::DefaultPix` (sofern nicht auf 0,0 festgelegt). Der Modifikator `color=` fügt dem Textfeld vor der Drehung die halb undurchsichtige Hintergrundfarbe hinzu.
 
-Der Ausgangspunkt für beide Ebenen ist auf die obere linke Ecke eingestellt, um die gewünschte Ausrichtung zu erreichen. Beachten Sie, dass der Ausgangspunkt für Ebene 1 für `labelImage`nach dem Drehen.
+Der Ausgangspunkt für beide Ebenen ist auf die obere linke Ecke eingestellt, um die gewünschte Ausrichtung zu erreichen. Der Ausgangspunkt für Ebene 1 gilt für `labelImage`nach dem Drehen.
 
 Siehe [Beispiel A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) für ein Beispiel für gedrehten Text.
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 3%
 
 ---
@@ -37,15 +37,15 @@ Farbprofil für Ausgabe.
  </tr> 
 </table>
 
-*`object`* gibt das Profil des Ausgabefarbraums an, in den das Bild konvertiert werden soll, wenn es sich von dem des Arbeitsprofils unterscheidet. *`profile`* muss entweder ein gültiges `icc::Name` definiert in der ICC-Profilzuordnung eines Bildkatalogs oder Standardkatalogs oder eines relativen Pfads zu einer Profildatei (normalerweise mit [!DNL .icc] oder [!DNL .icm] Suffix). Siehe [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) für weitere Informationen.
+Der Wert *`object`* gibt das Profil des Ausgabefarbraums an, in den das Bild konvertiert werden soll, wenn es sich vom Arbeitsprofil unterscheidet. Der Wert *`profile`* muss entweder ein gültiges `icc::Name` definiert in der ICC-Profilzuordnung eines Bildkatalogs oder Standardkatalogs oder eines relativen Pfads zu einer Profildatei (normalerweise mit [!DNL .icc] oder [!DNL .icm] Suffix). Siehe [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) für weitere Informationen.
 
 >[!NOTE]
 >
->*`object`* darf keine &quot;,&quot;-Zeichen enthalten, auch wenn HTTP-kodiert.
+>Der Wert *`object`* darf keine &quot;,&quot;-Zeichen enthalten, auch wenn HTTP-kodiert.
 
-*`renderIntent`* ermöglicht das Überschreiben des standardmäßigen Rendering-Intents.
+Der Wert *`renderIntent`* ermöglicht das Überschreiben des standardmäßigen Rendering-Intents.
 
-*`blackpointComp`* ermöglicht eine Blackpoint-Kompensation, wenn das Ausgabeprofil diese Funktion unterstützt.
+Der Wert *`blackpointComp`* ermöglicht eine Blackpoint-Kompensation, wenn das Ausgabeprofil diese Funktion unterstützt.
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ Farbprofil für Ausgabe.
 
 Notiz
 
-*`dither`* ermöglicht Dithering (tatsächlich Fehlerdiffusion), wodurch Farbstreifen-Artefakte vermieden oder reduziert werden können.
+Der Modifikator *`dither`* ermöglicht Dithering (tatsächlich Fehlerdiffusion), wodurch Farbstreifen-Artefakte vermieden oder reduziert werden können.
 
 ## Eigenschaften {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
 Anforderungsattribut. Der Server gibt einen Fehler zurück, wenn ein Bildtyp mit `fmt=` , die nicht übereinstimmt *`profile`*.
 
-*`renderIntent`* und *`blackpointComp`* werden ignoriert, wenn sie nicht mit dem angegebenen ICC-Profil kompatibel sind. Die Wahrscheinlichkeit, dass CMYK-Ausgabegeräteprofile verschiedene Rendering-Intents unterstützen, ist höher.
+Die Modifikatoren *`renderIntent`* und *`blackpointComp`* werden ignoriert, wenn sie nicht mit dem angegebenen ICC-Profil kompatibel sind. Die Wahrscheinlichkeit, dass CMYK-Ausgabegeräteprofile verschiedene Rendering-Intents unterstützen, ist höher.
 
 ## Standard {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 

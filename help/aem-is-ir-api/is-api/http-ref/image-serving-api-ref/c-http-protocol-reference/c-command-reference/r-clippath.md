@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Ebenenbeschneidungspfad Gibt einen Clip-Pfad für die aktuelle Ebene an.
  </tr> 
 </table>
 
-Alle Teile der Ebene, die außerhalb des durch `clipPath=` transparent gemacht werden.
+Alle Teile der Ebene, die außerhalb des Bereichs liegen, der durch `clipPath=` transparent gemacht werden.
 
 `*`pathName`*` ist der Name eines Pfades, der in das Ebenenquellenbild eingebettet ist. Der Pfad wird automatisch umgewandelt, um die relative Ausrichtung an den Bildinhalten zu gewährleisten. Wenn mehr als ein `*`pathName`*` angegeben ist, schneidet der Server das Bild an die Schnittmenge dieser Pfade. Alle `*`pathName`*` nicht im Quellbild gefunden wird, wird ignoriert.
 
@@ -43,7 +43,7 @@ Alle Teile der Ebene, die außerhalb des durch `clipPath=` transparent gemacht w
 
 Wenn `size=` nicht 0,0 angegeben ist, wird die Ebene vorskaliert. In diesem Fall sind die Pfadkoordinaten relativ zur oberen linken Ecke des Ebenenrechtecks und die Ebene wird basierend auf `origin=` oder die Standardeinstellung. Alle Bereiche des Pfads außerhalb des Ebenenrechtecks bleiben transparent.
 
-Wenn `size=` nicht für eine durchgehende Farbe oder Textebene angegeben ist, wird die Ebene als eigenständig skaliert betrachtet, wobei der Umfang des Pfads dessen Größe bestimmt. Wenn `origin=` nicht angegeben ist, wird standardmäßig (0,0) des Koordinatenraums des Pfads verwendet. Auf diese Weise können Pfadkoordinaten relativ zum Ursprung der Ebene 0 angegeben werden.
+Wenn `size=` nicht für eine durchgehende Farbe oder Textebene angegeben ist, wird die Ebene als eigenständig skaliert betrachtet, wobei der Umfang des Pfads dessen Größe bestimmt. Wenn `origin=` nicht angegeben ist, wird standardmäßig (0,0) des Koordinatenraums des Pfads verwendet. Dieser Workflow-Prozess ermöglicht die Angabe von Pfadkoordinaten relativ zum Ursprung der Ebene 0.
 
 >[!NOTE]
 >
@@ -105,13 +105,13 @@ Wenn ein Unterpfad mit einer relativen Verschiebung (&#39;m&#39;) beginnt, ist e
 
 * Der Ausgangspunkt des vorherigen Unterpfads, wenn er mit &quot;z&quot;oder &quot;Z&quot;geschlossen wurde.
 * Der Endpunkt des vorherigen Unterpfads, wenn er nicht explizit geschlossen wurde.
-* 0,0, wenn dies der erste Unterpfad ist.
+* 0,0, wenn es der erste Unterpfad ist.
 
 ## Eigenschaften {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
 Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`. Effektebenen ignorieren dies.
 
-`clipPathE=` wird ignoriert, wenn im Ebenenquellenbild kein Pfad mit dem angegebenen Namen gefunden wird oder wenn die Ebenenquelle kein Bild ist.
+Der Modifikator `clipPathE=` wird ignoriert, wenn im Ebenenquellenbild kein Pfad mit dem angegebenen Namen gefunden wird oder wenn die Ebenenquelle kein Bild ist.
 
 ## Standard {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

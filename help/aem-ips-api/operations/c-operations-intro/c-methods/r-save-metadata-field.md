@@ -1,20 +1,20 @@
 ---
-description: Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldhandle weg, um ein neues Metadatenfeld zu erstellen.
-solution: Experience Manager
 title: saveMetadataField
+description: Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldgriff zum Erstellen eines Metadatenfelds weg.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 9%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldhandle weg, um ein neues Metadatenfeld zu erstellen.
+Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldgriff zum Erstellen eines Metadatenfelds weg.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldh
 
 ## Beispiele {#section-4441c26d1f41466ba972b43dd5189e89}
 
-In diesem Codebeispiel wird ein neues Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt wird. Wenn die Variable `fieldHandle` -Element über einen gültigen Feldhandle-Wert verfügt, ändert es die Metadatenwerte und erhält denselben Feldhandle wie die Anforderung.
+In diesem Codebeispiel wird ein Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt ist. Wenn die Variable `fieldHandle` -Element über einen gültigen Feldhandle-Wert verfügt, ändert es die Metadatenwerte und erhält denselben Feldhandle wie die Anforderung.
 
 **Anforderung**
 

@@ -5,9 +5,9 @@ title: CompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,6 @@ Syntax
 | defaultDisplayProfile | `types:Asset` | Gibt das standardmäßige interne Farbprofil (U.S. Web Coated (SWOP) v2) an, das automatisch als Teil des &quot;Use default Color Behavior&quot;angewendet wird, wenn CMYK-Bilddateien hinzugefügt werden. |
 | iptcExifMappingXslt | `types:Asset` | Die Extraktion von IPTC- und EXIF-Bildkopfzeilendaten in IPS erfordert eine Konvertierung von internen Feldnamen in benutzerdefinierte Feldnamen für das Unternehmen. Bestimmt eine XSL-Übersetzungstabelle (standardmäßig &quot;Keine IPTC- oder EXIF-Felder extrahieren&quot;) für hochgeladene Bilder. |
 | xmpMappingXslt | `types:Asset` | Die Extraktion XMP Bildkopfzeilendaten in IPS erfordert eine Konvertierung von internen Feldnamen in benutzerdefinierte Feldnamen für das Unternehmen. Bestimmt eine XSL-Übersetzungstabelle (standardmäßig &quot;XMP Felder nicht extrahieren&quot;) für hochgeladene Bilder. |
-| diskSpaceWarningMin | `xsd:int` | Mindestens freier Speicherplatz im Bildverzeichnis, bevor ein Warnhinweis gesendet wird. |
-| emailTrashCleanupWarning | `xsd:boolean` | Bestimmt, ob E-Mails gesendet werden sollen, bevor im Papierkorb platzierte Elemente automatisch gelöscht werden können. |
-| javascriptUploadEnabled | `types:Asset` | Bestimmt, ob JavaScript-Dateien hochgeladen werden. Dies ist ein potenzielles Sicherheitsrisiko. Verwenden Sie daher diese Option mit Vorsicht. |
+| diskSpaceWarningMin | `xsd:int` | Mindestens freier Speicherplatz im Bildverzeichnis, bevor eine Warnung gesendet wird. |
+| emailTrashCleanupWarning | `xsd:boolean` | Bestimmt, ob E-Mails gesendet werden sollen, bevor Elemente aus dem Papierkorb automatisch gelöscht werden. |
+| javascriptUploadEnabled | `types:Asset` | Bestimmt, ob JavaScript-Dateien hochgeladen werden. Diese Option stellt ein potenzielles Sicherheitsrisiko dar, daher sollten Sie mit Vorsicht vorgehen. |

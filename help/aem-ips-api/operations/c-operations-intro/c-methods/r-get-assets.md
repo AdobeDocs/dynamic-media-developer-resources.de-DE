@@ -1,20 +1,20 @@
 ---
-description: Gibt Assets von IPS zurück.
-solution: Experience Manager
 title: getAssets
+description: Gibt Assets aus dem Image Production System (IPS) zurück.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 16%
+source-wordcount: '131'
+ht-degree: 14%
 
 ---
 
 # getAssets{#getassets}
 
-Gibt Assets von IPS zurück.
+Gibt Assets aus dem Image Production System (IPS) zurück.
 
 Syntax
 
@@ -82,12 +82,12 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Felder und Unterfelder, die von der Antwort ausgeschlossen sind. </p> </td> 
+   <td colname="col4"> <p>Felder und Unterfelder, die aus der Antwort ausgeschlossen sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Outpub (getAssetsReturn)**
+**Ausgabe (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 

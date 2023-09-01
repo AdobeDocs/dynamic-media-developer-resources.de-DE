@@ -1,20 +1,20 @@
 ---
-description: Ermöglicht Administratoren das Erstellen neuer Metadatenfelder zur Koordinierung mit Content Management-Systemen oder für Vorlagenvorgänge. Beispiele für erstellte Metadatenfelder sind Suchbegriffe, Informationen zum Autor des Bildes oder Informationen zum Urheberrechtsinhaber.
-solution: Experience Manager
 title: createMetadataField
+description: Damit können Administratoren Metadatenfelder erstellen, um sie mit Content Management-Systemen oder für Vorlagenvorgänge zu koordinieren. Beispiele für erstellte Metadatenfelder sind Suchbegriffe, Informationen zum Autor des Bildes oder Informationen zum Urheberrechtsinhaber.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 8%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-Ermöglicht Administratoren das Erstellen neuer Metadatenfelder zur Koordinierung mit Content Management-Systemen oder für Vorlagenvorgänge. Beispiele für erstellte Metadatenfelder sind Suchbegriffe, Informationen zum Autor des Bildes oder Informationen zum Urheberrechtsinhaber.
+Damit können Administratoren Metadatenfelder erstellen, um sie mit Content Management-Systemen oder für Vorlagenvorgänge zu koordinieren. Beispiele für erstellte Metadatenfelder sind Suchbegriffe, Informationen zum Autor des Bildes oder Informationen zum Urheberrechtsinhaber.
 
 Syntax
 
@@ -40,7 +40,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Name des Unternehmens, zu dem das Metadatenfeld gehört. </td> 
+   <td colname="col4"> Der Name des Unternehmens, zu dem das Metadatenfeld gehört. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
@@ -82,7 +82,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Ermöglicht die Erstellung eines Satzes gemeinsamer Auflistungswerte, auf den ausgewählte Tags verweisen können. </td> 
+   <td colname="col4"> Damit können Sie eine Reihe gemeinsamer spezifischer Werte erstellen, auf die ausgewählte Tags verweisen können. </td> 
   </tr> 
  </tbody> 
 </table>

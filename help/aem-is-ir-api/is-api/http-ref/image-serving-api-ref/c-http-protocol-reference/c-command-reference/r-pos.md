@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '163'
 ht-degree: 2%
 
 ---
@@ -31,11 +31,11 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-Bei Bild-, Text- und einfarbigen Ebenen: `pos=` gibt die Position eines Ebenen-Ankers relativ zum Layer 0-Anker an. `posN=` Koordinatenwerte werden relativ zur tatsächlichen Ebene 0 rect size normalisiert.
+Wenn Bild-, Text- und Farbebenen vorhanden sind, `pos=` gibt die Position eines Ebenen-Ankers relativ zum Layer 0-Anker an. Die `posN=` Koordinatenwerte werden relativ zur tatsächlichen Ebene 0 rect size normalisiert.
 
-Bei Effektschichten, `pos=` verschiebt die Effektebene relativ zur übergeordneten Ebene.
+Wenn Effektschichten vorhanden sind, `pos=` verschiebt die Effektebene relativ zur übergeordneten Ebene.
 
-Positive Werte verschieben die Ebene nach rechts/unten, negative nach links/oben. `posN=0.5,0.5` verschiebt die Ebene um die Hälfte der Ebene 0 Breite und Höhe nach unten und rechts.
+Bei positiven Werten wird die Ebene nach rechts/unten und nach links/oben nach unten nach unten verschoben. In `posN=0.5,0.5`, verschiebt es die Ebene um die Hälfte der Ebene 0 Breite und Höhe nach unten und rechts.
 
 ## Eigenschaften {#section-51a60cdc52d040538fef378ace7c2e7d}
 
@@ -43,7 +43,7 @@ Ebenenattribut. Ignoriert , wenn `layer=0` oder `layer=comp`.
 
 ## Standard {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 
-`posN=0,0`. Dadurch wird der Ebenenanker an derselben Position wie der Ebenen-0-Anker platziert, wenn es sich um eine Bild-, Text- oder Vollfarbschicht handelt. Positioniert eine Effektschicht direkt über oder unter ihrer übergeordneten Ebene.
+`posN=0,0`. Diese Koordinate platziert den Ebenenanker an derselben Position wie der Ebenen-0-Anker, wenn es sich um eine Bild-, Text- oder Vollfarbschicht handelt. Positioniert eine Effektschicht direkt über oder unter ihrer übergeordneten Ebene.
 
 ## Beispiel {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 

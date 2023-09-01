@@ -1,11 +1,11 @@
 ---
+title: createAssetSet
 description: Erstellt einen generischen Asset-Satz mit einer Definitionszeichenfolge für Rohsätze, der auf einem Image-Server veröffentlicht werden soll.
 solution: Experience Manager
-title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -45,7 +45,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Das Handle für das Unternehmen, das das Asset-Set enthalten wird. </td> 
+   <td colname="col4"> Das Handle für das Unternehmen, das den Asset-Satz enthält. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -69,7 +69,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Die Parameter in der Definitionszeichenfolge des Sets. <p>Diese müssen in dem Format aufgelöst werden, das vom Ziel-Viewer angegeben wird. </p> </td> 
+   <td colname="col4"> Die Parameter in der Definitionszeichenfolge des Sets. <p>Diese Parameter müssen in das Format aufgelöst werden, das vom Ziel-Viewer angegeben wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
@@ -82,7 +82,7 @@ Syntax
 
 **Ersatzfunktionen für setDefinition**
 
-Sie können Ersatzfunktionen in Zeilen angeben, die während der Katalogsuche oder -veröffentlichung aufgelöst werden. Ersatzzeichenfolgen haben das Format `${<substitution_func>}`. Die verfügbaren Funktionen werden unten aufgelistet.
+Sie können Ersatzfunktionen inline angeben, die während der Katalogsuche oder -veröffentlichung aufgelöst werden. Ersatzzeichenfolgen haben das Format `${<substitution_func>}`. Die verfügbaren Funktionen sind nachfolgend beschrieben.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-Bei Katalogsuche oder Veröffentlichungszeit wird dies in eine Zeichenfolge ähnlich der folgenden aufgelöst:
+Beim Katalogabruf oder zur Veröffentlichungszeit wird dieser Prozess in eine Zeichenfolge ähnlich der folgenden aufgelöst:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

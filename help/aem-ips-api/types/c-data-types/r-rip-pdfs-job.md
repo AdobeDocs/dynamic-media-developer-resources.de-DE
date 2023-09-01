@@ -1,20 +1,20 @@
 ---
-description: Ein Prozess, der ein vorhandenes PDF-Asset erneut rippt.
-solution: Experience Manager
 title: RipPdfsJob
+description: Ein Prozess, der ein vorhandenes PDF-Asset erneut erzeugt.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '215'
 ht-degree: 2%
 
 ---
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-Ein Prozess, der ein vorhandenes PDF-Asset erneut rippt.
+Ein Prozess, der ein vorhandenes PDF-Asset erneut erzeugt.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut rippt.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Auftragsdetails für einen Video-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
+   <td colname="col3"> <p>Auftragsdetails für einen Videoveröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
@@ -114,7 +114,7 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut rippt.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> Typen:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maskieren Sie den Hintergrund für ausgewählte Bilder. Auf diese Weise können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. </p> <p>Optional. </p> <p>Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Maskieren Sie den Hintergrund für ausgewählte Bilder. Mit dieser Funktion können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. </p> <p>Optional. </p> <p>Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
