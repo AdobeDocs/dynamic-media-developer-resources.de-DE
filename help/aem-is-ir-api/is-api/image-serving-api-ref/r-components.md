@@ -1,20 +1,20 @@
 ---
-description: Scene7 Image Serving umfasst die folgenden Komponenten
-solution: Experience Manager
 title: Image Serving-Komponenten
+description: Dynamic Media Image Serving besteht aus den folgenden Komponenten.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
 
 # Image Serving-Komponenten{#image-serving-components}
 
-Scene7 Image Serving umfasst die folgenden Komponenten:
+Dynamic Media Image Serving umfasst die folgenden Komponenten:
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -26,11 +26,11 @@ Scene7 Image Serving umfasst die folgenden Komponenten:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server Supervisor </p> </td> 
-   <td colname="col2"> <p>Eigenständige ausführbare Datei, die für das Starten, Beenden und Sicherstellen der Gesundheit der anderen Komponenten verantwortlich ist. </p> </td> 
+   <td colname="col2"> <p>Eine eigenständige ausführbare Datei, die für das Starten, Beenden und Sicherstellen der Gesundheit der anderen Komponenten verantwortlich ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>Stellt die Umgebung für die meisten Java-basierten Komponenten bereit. </p> </td> 
+   <td colname="col2"> <p>Es stellt die Umgebung für die meisten Java-basierten Komponenten bereit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Monitoring-/Warnungsdienst </p> </td> 
@@ -46,7 +46,7 @@ Scene7 Image Serving umfasst die folgenden Komponenten:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image-Server </p> </td> 
-   <td colname="col2"> <p>Führt alle I/O-Vorgänge zur Bildverarbeitung und zur Bilddatei aus. Sowohl 32-Bit- als auch 64-Bit-ausführbare Prozessoren sind für Linux verfügbar (nur 32-Bit für Windows). </p> </td> 
+   <td colname="col2"> <p>Es führt alle I/O-Vorgänge zur Bildverarbeitung und zur Bilddatei durch. Sowohl 32-Bit- als auch 64-Bit-ausführbare Prozessoren sind für Linux® verfügbar (nur 32 Bit für Windows). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE Text Render Component </p> </td> 
@@ -54,11 +54,11 @@ Scene7 Image Serving umfasst die folgenden Komponenten:
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG Render-Komponente </p> </td> 
-   <td colname="col2"> <p>Eigenständige Java-Anwendung (nicht von Tomcat gehostet). </p> </td> 
+   <td colname="col2"> <p>eigenständige Java™-Anwendung (nicht von Tomcat gehostet). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media Image Rendering (auch: Rendering-Server) </p> </td> 
-   <td colname="col2"> <p>Erfordert eine separate Lizenz zum Aktivieren. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Die gesamte Bildwiedergabe-Funktion ist in die [!DNL Platform Server] und dem Image-Server ohne separate ausführbare Komponenten. </p> </td> 
+   <td colname="col2"> <p>Sie erfordert eine separate Lizenz, um zu aktivieren. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Die gesamte Funktion zum Rendern von Bildern ist in die [!DNL Platform Server] und dem Image-Server ohne separate ausführbare Komponenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

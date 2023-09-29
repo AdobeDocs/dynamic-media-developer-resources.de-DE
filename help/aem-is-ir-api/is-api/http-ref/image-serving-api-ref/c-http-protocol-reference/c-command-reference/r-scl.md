@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Skalierungsansicht. Skaliert das zusammengesetzte Bild um das Gegenteil von invF
  </tr> 
 </table>
 
-Wenn keine Skalierung angewendet wird `scl=1`. *`invFactor`* größer als 1,0 Downskala und kleiner als 1,0 vergrößert das Composite-Bild.
+Wenn keine Skalierung angewendet wird `scl=1`. Ein *`invFactor`* -Wert größer als 1,0 Downskala und kleiner als 1,0 vergrößert das zusammengesetzte Bild.
 
 Wenn `scl=` festgelegt ist und `wid=` und/oder `hei=` auch vorhanden sind, wird das Bild zugeschnitten auf `wid=` und/oder `hei=` nach der Skalierung.
 
@@ -35,7 +35,7 @@ Wenn `scl=` festgelegt ist und `wid=` und/oder `hei=` auch vorhanden sind, wird 
 
 ## Eigenschaften {#section-60af012719db477db4a4703e9a6da5f5}
 
-Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung.
+Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Standard {#section-32502fa218a24e1f9c65f41c0260b56a}
 

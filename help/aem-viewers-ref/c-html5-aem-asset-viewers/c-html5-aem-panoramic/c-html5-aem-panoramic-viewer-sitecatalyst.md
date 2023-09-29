@@ -5,37 +5,37 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 1%
 
 ---
 
 # Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anfrage an den konfigurierten Image-Server mit Viewer-Typ und Versionsinformationen.
+Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anfrage an einen konfigurierten Image-Server mit Viewer-Typ und Versionsinformationen.
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in das Analysesystem von Drittanbietern ist es erforderlich, `trackEvent` Viewer-Rückruf und -Prozess `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, `trackEvent` Viewer-Rückruf und -Prozess `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
-	"containerId":"s7viewer",
+    "containerId":"s7viewer",
 "params":{
-	"asset":"Scene7SharedAssets/PanoramicImage-Sample",
-	"serverurl":"http://s7d1.scene7.com/is/image/"
+    "asset":"Scene7SharedAssets/PanoramicImage-Sample",
+    "serverurl":"http://s7d1.scene7.com/is/image/"
 },
 "handlers":{
-	"trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) {
-		//identify event type
-		var eventType = eventInfo.split(",")[0];
-		switch (eventType) {
-			case "LOAD":
-				//custom event processing code
-				break;
-			//additional cases for other events
+    "trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) {
+        //identify event type
+        var eventType = eventInfo.split(",")[0];
+        switch (eventType) {
+            case "LOAD":
+                //custom event processing code
+                break;
+            //additional cases for other events
 }
 }
 }

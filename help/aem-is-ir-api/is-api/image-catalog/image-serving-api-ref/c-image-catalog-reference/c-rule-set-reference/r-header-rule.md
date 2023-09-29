@@ -1,14 +1,14 @@
 ---
+title: Header
 description: HTTP-Antwort-Header-Element. Optional in <rule> -Elemente.
 solution: Experience Manager
-title: Header
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ HTTP-Antwort-Header-Element. Optional in `<rule>` -Elemente.
 
 **`Name`= &quot;*text*&quot;** : Erforderlich. Gibt den Namen des HTTP-Headers an.
 
-**`Action`= &quot;set&quot; |`"add"`**: Optional. Der Standardwert ist `"set"`, der jeden aktuellen Header-Wert ersetzt. Angeben `"add"` , um den Header-Wert durch ein Komma zu trennen.
+**`Action`= &quot;set&quot; |`"add"`**: Optional. Der Standardwert ist `"set"`, der jeden aktuellen Header-Wert ersetzt. Angeben `"add"` so können Sie den Kopfzeilenwert durch Kommas trennen.
 
 ## Daten {#section-a387f541396c49d99c29692a38032914}
 
@@ -28,7 +28,7 @@ Kopfzeilenwert.
 
 ## Beschreibung {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-Ermöglicht das Hinzufügen neuer HTTP-Antwortheader sowie das Hinzufügen oder Ersetzen von Werten vordefinierter Header. Namen und Werte müssen den HTTP-Standards entsprechen. Es wird keine zusätzliche Kodierung angewendet.
+Ermöglicht das Hinzufügen neuer HTTP-Antwortheader und das Hinzufügen oder Ersetzen von Werten vordefinierter Header. Namen und Werte müssen den HTTP-Standards entsprechen. Es wird keine zusätzliche Kodierung angewendet.
 
 Ersatzvariablen für Image Serving können im Header-Namen und im Header-Wert verwendet werden. Dadurch können beide Zeichenfolgen aus der Anfrage gesteuert werden.
 

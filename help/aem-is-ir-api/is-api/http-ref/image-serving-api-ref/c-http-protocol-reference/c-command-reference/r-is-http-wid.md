@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Anzeigebreite. Gibt die Breite des Antwortbilds (Ansichtsbild) an, wenn fit= in der Anforderung nicht vorhanden ist.
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -39,15 +39,15 @@ Wenn `wid=`, `hei=`, noch `scl=` angegeben sind, hat das Antwortbild entweder di
 
 ## Eigenschaften {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung.
+Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Beispiel {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Fordern Sie ein Bild an, das in ein 200 x 200-Rechteck passt. Richten Sie es oben rechts aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
+Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben rechts aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Das gleiche Bild, das mit einer festen Breite von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Höhe, um das Seitenverhältnis des Bildes beizubehalten. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. Beachten Sie, dass in diesem Fall align= überhaupt keine Wirkung hätte.
+Das gleiche Bild, das mit einer festen Breite von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Höhe, um das Seitenverhältnis des Bildes beizubehalten. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. In diesem Fall `align=` keine Wirkung hätte.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200`
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Wenn `scl=` nicht angegeben ist, wird das zusammengesetzte Bild auf die Anpassun
 
 ## Eigenschaften {#section-534923644a1e464496eeba83dedcbd3c}
 
-Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung.
+Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Standard {#section-76544d34806d4124a8b173e229cba71f}
 
@@ -43,11 +43,11 @@ Wenn `wid=`, `hei=`, noch `scl=` angegeben sind, hat das Antwortbild entweder di
 
 ## Beispiele {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Fordern Sie ein Bild an, das in ein 200 x 200-Rechteck passt. Richten Sie es oben links aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
+Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben links aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-Das gleiche Bild, das mit einer festen Höhe von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Breite, die dem Seitenverhältnis des Bildes entspricht. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. Beachten Sie, dass in diesem Fall `align=` keine Wirkung hätte.
+Das gleiche Bild, das mit einer festen Höhe von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Breite, die dem Seitenverhältnis des Bildes entspricht. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. Und in diesem Fall `align=` keine Wirkung hätte.
 
 `http://server/myRootId/myImageId?hei=200`
 

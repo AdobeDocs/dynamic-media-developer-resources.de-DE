@@ -1,20 +1,20 @@
 ---
-description: 'Zusätzlich zu dem für die Installation der Software erforderlichen Speicherplatz weist Image Serving die folgenden Speicherplatzanforderungen auf '
-solution: Experience Manager
 title: Anforderungen an Speicherplatz und Empfehlungen
+description: Neben dem für die Installation der Software erforderlichen Speicherplatz weist Image Serving die folgenden Speicherplatzanforderungen auf.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Anforderungen an Speicherplatz und Empfehlungen{#disk-space-requirements-and-recommendations}
 
-Zusätzlich zu dem für die Installation der Software erforderlichen Speicherplatz bietet Image Serving die folgenden Speicherplatzanforderungen:
+Neben dem für die Installation der Software erforderlichen Speicherplatz weist Image Serving die folgenden Speicherplatzanforderungen auf:
 
 <table id="table_0AE363AB76304F258A19E43500FE8423"> 
  <thead> 
@@ -27,8 +27,8 @@ Zusätzlich zu dem für die Installation der Software erforderlichen Speicherpla
  <tbody> 
   <tr> 
    <td> <p><b>Quellbilder, Schriftarten, ICC-Profile</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPaths </span> </p> </td> 
-   <td> <p>Varianten; siehe Kommentare unten. </p> </td> 
-   <td> <p>Nur der Zugriff auf den Image-Server muss möglich sein. die Server ändern nie Daten. </p> </td> 
+   <td> <p>Variiert; siehe Kommentare unten. </p> </td> 
+   <td> <p>Nur der Image-Server darf darauf zugreifen; die Server ändern keine Daten. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>HTTP-Antwortdaten-Cache</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/is-response </span> </p> <p> <span class="codeph"> PS::ResponseCacheFolders </span> </p> </td> 
@@ -42,27 +42,27 @@ Zusätzlich zu dem für die Installation der Software erforderlichen Speicherpla
   </tr> 
   <tr> 
    <td> <p><b>Protokolldaten</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph"> SV::LogFile </span> </p> </td> 
-   <td> <p>100 MByte oder mehr. </p> </td> 
-   <td> <p>variiert je nach Protokollierungskonfiguration und Verwendung des Servers. </p> </td> 
+   <td> <p>100 MB oder mehr. </p> </td> 
+   <td> <p>Dies hängt von der Protokollierungskonfiguration und der Verwendung des Servers ab. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>Temporäre Dateien für Image Server</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
-   <td> <p>100 MByte sind für die meisten Verwendungen ausreichend. </p> </td> 
-   <td> <p>Kurzlebige Daten; kann für andere Quellbilder als PTIFFs und bestimmte Antwortbildformate benötigt werden. </p> </td> 
+   <td> <p>100 MB sind für die meisten Verwendungen ausreichend. </p> </td> 
+   <td> <p>Kurzlebige Daten; können für andere Quellbilder als PTIFFs und bestimmte Antwortbildformate benötigt werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Speicherplatzanforderungen für Quellbilder {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Es wird empfohlen, alle Quellbilder mithilfe des Image Converter-Befehlszeilen-Tools (IC) in das Pyramid TIFF-Dateiformat (PTIFF) zu konvertieren. Diese Konvertierung gewährleistet eine optimale Laufzeitleistung des Image Serving für alle Anwendungen. Während der Image-Server alle von IC akzeptierten Quelldateiformate verarbeiten kann, bietet Dynamic Media keine Unterstützung für solche Verwendungen.
+Adobe empfiehlt, alle Quellbilder mithilfe des Befehlszeilenwerkzeugs (IC) von Image Converter in das Pyramid TIFF-Dateiformat (PTIFF) zu konvertieren. Diese Konvertierung gewährleistet eine optimale Laufzeitleistung des Image Serving für alle Anwendungen. Während der Image-Server alle von IC akzeptierten Quelldateiformate verarbeiten kann, unterstützt Dynamic Media diese Verwendung nicht.
 
 Wenn Sie PTIFF-Dateien verwenden, helfen Ihnen die folgenden Faustregeln bei der Bestimmung der Platzanforderungen.
 
-*`total_space`* (Byte) = *`number_of_images`* x(2000 + *`avg_pixel_count`* x *`avg_num_components`* x *`p_factor`*)
+*`total_space`* (Byte) = *`number_of_images`*  × (2000 + *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
 
-* *`avg_pixel_count`* Die durchschnittliche Pixelgröße (Breite x Höhe) aller Originalbilder. Wenn die Originalbilder beispielsweise in der Regel etwa 2.000 x 2.000 Pixel groß sind, wären dies 4.000 Pixel.
-* *`avg_num_components`* Hängt vom Typ der Bilder ab. Für die meisten RGB-Bilder ist es 3, für meist CMYK- oder RGBA-Bilder ist es 4. Verwenden Sie 3,5, wenn die Hälfte der Bilder RGB und die andere Hälfte RGBA ist.
+* *`avg_pixel_count`* Die durchschnittliche Pixelgröße (Breite x Höhe) aller Originalbilder. Wenn die Originalbilder beispielsweise in der Regel etwa 2 KB × 2 KB Pixel groß sind, wären dies 4 Megapixel.
+* *`avg_num_components`* Hängt vom Typ der Bilder ab. Für die meisten RGB-Bilder ist es 3, für meist CMYK- oder RGBA-Bilder 4. Verwenden Sie 3,5, wenn die Hälfte der Bilder RGB und die andere Hälfte RGBA ist.
 * *`p_factor`* Hängt vom Komprimierungstyp und von der Qualität ab, die bei der Konvertierung der Bilder mit IC eingestellt werden.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -74,7 +74,7 @@ Wenn Sie PTIFF-Dateien verwenden, helfen Ihnen die folgenden Faustregeln bei der
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>Nicht komprimiert </p> </td> 
+   <td> <p>unkomprimiert </p> </td> 
    <td> <p> 33 </p> </td> 
   </tr> 
   <tr> 
@@ -94,8 +94,8 @@ Wenn Sie PTIFF-Dateien verwenden, helfen Ihnen die folgenden Faustregeln bei der
 
 **Beispiel**
 
-Bei einer Image Serving-Bereitstellung werden voraussichtlich 30.000 ältere Bilder mit niedriger Auflösung mit einer durchschnittlichen Größe von 500 x 500 RGB Pixel verwendet. Es wird erwartet, dass neue Bilddaten in Druckqualität mit einer Rate von 10.000 pro Jahr hinzugefügt werden. Die typische CMYK-Bildgröße beträgt 4.000 x 6.000 Byte. Alle Daten werden mit hoher JPEG-Qualität komprimiert. Die Gesamtmenge des Festplattenspeichers nach dreijähriger Nutzung wird wie folgt geschätzt:
+Bei einer Image Serving-Bereitstellung werden voraussichtlich 30.000 ältere Bilder mit niedriger Auflösung mit einer durchschnittlichen Größe von 500 × 500 RGB Pixel verwendet. Neue Bilddaten in Druckqualität werden mit einer Rate von 10.000 pro Jahr hinzugefügt. Die typische CMYK-Bildgröße beträgt 4 k × 6 k Byte. Alle Daten werden mit hoher JPEG-Qualität komprimiert. Die Gesamtmenge des Festplattenspeichers nach dreijähriger Nutzung wird wie folgt geschätzt:
 
-*`total_space`* = 30.000 x (2 k + 0,5 k x 0,5 k x 3 x 0,1) + 3 x 10.000 x (2 k + 4 k x 6 k x 4 x 0,1) = 2,2 G + 268 GB = ca. 270 GB
+*`total_space`* = 30,000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10,000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = ca. 270 GB
 
-Für eine garantierte beste Qualität kann eine Deflate-Komprimierung (zip) verwendet werden. Angenommen, ein *`p_factor`* von 0,4 ist der insgesamt erforderliche Speicherplatz etwa viermal größer. In diesem Fall etwas mehr als 1 TB.
+Für eine garantierte beste Qualität kann eine Komprimierung wie zip verwendet werden. Angenommen, ein *`p_factor`* von 0,4 ist der insgesamt erforderliche Speicherplatz etwa viermal größer. In diesem Fall etwas mehr als 1 Terabyte.

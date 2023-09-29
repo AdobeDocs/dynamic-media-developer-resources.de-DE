@@ -1,14 +1,14 @@
 ---
+title: ImageMapEffect.rollover
 description: ImageMapEffect.rollover
 solution: Experience Manager
-title: ImageMapEffect.rollover
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wann das Informationsfeld angezeigt werden soll. </p> <p>Wenn auf <span class="codeph"> 1</span>, wird das Infofeld angezeigt, wenn die Maus den Imagemap-Bereich betritt (falls die Imagemap nicht leer ist). <span class="codeph"> rollover_key</span> -Attribut). </p> <p>Wenn auf <span class="codeph"> 0</span> Infofeld wird ausgelöst, wenn die Imagemap ausgewählt wird (wenn die Imagemap nicht leer ist) <span class="codeph"> rollover_key</span> und leer <span class="codeph"> href</span> -Attribute). </p> <p> Wird auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert und automatisch auf <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Gibt an, wann das Informationsfeld angezeigt werden soll. </p> <p>Wenn auf <span class="codeph"> 1</span>, wird das Infofeld angezeigt, wenn die Maus in den Imagemap-Bereich gelangt (falls die Imagemap nicht leer ist). <span class="codeph"> rollover_key</span> -Attribut). </p> <p>Wenn auf <span class="codeph"> 0</span>, wird das Infofeld ausgelöst, wenn die Imagemap ausgewählt wird (wenn die Imagemap nicht leer ist). <span class="codeph"> rollover_key</span> und leer <span class="codeph"> href</span> -Attribute). </p> <p> Wird auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert und automatisch auf <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

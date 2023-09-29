@@ -1,24 +1,24 @@
 ---
-description: Alle Konfigurationsdateien befinden sich im Ordner install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Möglicherweise muss der Server neu gestartet werden, damit die Änderungen wirksam werden.
-solution: Experience Manager
 title: Serverkonfigurationsdateien
+description: Alle Konfigurationsdateien befinden sich im Ordner install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Starten Sie den Server neu, damit die Änderungen wirksam werden.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 # Serverkonfigurationsdateien{#server-configuration-files}
 
-Alle Konfigurationsdateien befinden sich im Ordner install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Möglicherweise muss der Server neu gestartet werden, damit die Änderungen wirksam werden.
+Alle Konfigurationsdateien befinden sich im `install_folder/conf` und können mit den meisten Texteditoren bearbeitet werden. Starten Sie den Server neu, damit die Änderungen wirksam werden.
 
 >[!NOTE]
 >
->Die meisten Serverkonfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Diese Eigenschaften sind für die interne Verwendung des Servers bestimmt und dürfen nur geändert werden, wenn dies vom technischen Support von Dynamic Media ausdrücklich angewiesen ist.
+>Die meisten Serverkonfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Diese Eigenschaften sind für die interne Verwendung des Servers bestimmt und dürfen nur geändert werden, wenn dies vom technischen Support von Dynamic Media angewiesen wurde.
 
 In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdateien erläutert:
 

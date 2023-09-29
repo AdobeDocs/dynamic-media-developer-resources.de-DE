@@ -1,13 +1,13 @@
 ---
+title: Anforderungsbefehle
 description: Diese Befehle gelten unabhängig davon, wo in der Anfrage sie angezeigt werden.
 solution: Experience Manager
-title: Anforderungsbefehle
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Diese Befehle gelten unabhängig davon, wo in der Anfrage sie angezeigt werden.
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache</a> </p></td> 
-  <td class="stentry"> <p>Überschreibt das standardmäßige Verhalten der Antwort-Zwischenspeicherung. </p></td> 
+  <td class="stentry"> <p>Überschreibt das standardmäßige Cache-Verhalten von Antworten. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2" type="reference" format="dita" scope="local"> defaultImage</a> </p></td> 

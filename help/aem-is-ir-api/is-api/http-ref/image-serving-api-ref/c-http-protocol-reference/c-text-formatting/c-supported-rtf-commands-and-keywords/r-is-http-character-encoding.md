@@ -1,13 +1,13 @@
 ---
+title: Zeichenkodierung
 description: Verwenden Sie die folgenden Befehle zum Kodieren von Zeichen.
 solution: Experience Manager
-title: Zeichenkodierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
@@ -28,31 +28,31 @@ Verwenden Sie die folgenden Befehle zum Kodieren von Zeichen.
   <tr> 
    <td> <span class="codeph">\'<span class="varname"> HH</span></span> </td> 
    <td> <p>Einzelnes 8-Bit-Zeichen. </p> </td> 
-   <td> <p><span class="varname"> </span> Er muss ein 2-stelliger Hexadezimalwert sein. </p> </td> 
+   <td> <p><span class="varname"> HH</span> muss ein 2-stelliger Hexadezimalwert sein. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph">\<span class="varname"> uN</span></span> </td> 
+   <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
    <td> <p>Einzelnes Unicode-Zeichen. </p> </td> 
-   <td> <p><span class="varname"> </span> Es handelt sich dabei um eine vorzeichenbehaftete 2-Byte-Ganzzahl und ein Unicode-Wert, der größer als 32767 ist, muss als negative Zahl ausgedrückt werden. </p> </td> 
+   <td> <p><span class="varname"> N</span> ist eine vorzeichenbehaftete 2-Byte-Ganzzahl und daher muss ein Unicode-Wert größer als 32767 als negative Zahl ausgedrückt werden. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph">\<span class="varname"> ucN</span></span> </td> 
+   <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
    <td> <p>Unicode-Zeichengröße. </p> </td> 
-   <td> <p>Anzahl der Bytes, die dem angegebenen Unicode-Zeichen entsprechen. </p> </td> 
+   <td> <p>Anzahl der Bytes, die einem bestimmten Unicode-Zeichen entsprechen. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \loch  </span> </td> 
-   <td> <p>Es folgen Zeichen aus dem unteren ANSI-Bereich. </p> </td> 
+   <td> <span class="codeph"> \loch </span> </td> 
+   <td> <p>Zeichen aus dem unteren ANSI-Bereich. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \hich  </span> </td> 
-   <td> <p>Es folgen Zeichen aus dem hochauflösenden ANSI-Bereich. </p> </td> 
+   <td> <span class="codeph"> \hich </span> </td> 
+   <td> <p>Zeichen aus dem hochgelegenen ANSI-Bereich. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \dbch  </span> </td> 
-   <td> <p>Es folgen Doppelbyte-Zeichen. </p> </td> 
+   <td> <span class="codeph"> \dbch </span> </td> 
+   <td> <p>Es folgen Double-Byte-Zeichen. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -21,11 +21,11 @@ Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anw
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>Ebene horizontal spiegeln (links rechts). </p> </td> 
+  <td class="stentry"> <p>Spiegeln Sie die Ebene horizontal (links rechts). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> Cloud </span> </p> </td> 
-  <td class="stentry"> <p>Ebene vertikal spiegeln (nach unten). </p> </td> 
+  <td class="stentry"> <p>Spiegeln Sie die Ebene vertikal (nach unten). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
@@ -33,13 +33,13 @@ Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anw
  </tr> 
 </table>
 
-Kann auch auf Textebenen angewendet werden.
+Sie kann auch auf Textebenen angewendet werden.
 
 Einige Befehle, einschließlich `extend=`implizit auf Ebene 0 anstelle der Composite-Schicht angewendet werden, wenn `layer=comp` ausgewählt ist. In solchen Fällen werden alle Befehle, die automatisch Ebene 0 zugewiesen werden, vor den Befehlen angewendet, die für `layer=comp`. Wann `layer=comp`, `extend=` angewendet wird, bevor `flip=`.
 
 >[!NOTE]
 >
->Die gespiegelte Ebene wird basierend auf dem Ebenenanker positioniert. Verschiedene Werte für &quot;flip=&quot;führen zu unterschiedlichen Ebenenpositionen, wenn sich der Anker nicht in der Mitte der Ebene befindet.
+>Die gespiegelte Ebene wird basierend auf dem Ebenenanker positioniert. Unterschiedlich `flip=` -Werte führen zu unterschiedlichen Ebenenpositionen, wenn sich der Anker nicht in der Mitte der Ebene befindet.
 
 ## Eigenschaften {#section-294da2af7be746b5adfc35e29ee68217}
 

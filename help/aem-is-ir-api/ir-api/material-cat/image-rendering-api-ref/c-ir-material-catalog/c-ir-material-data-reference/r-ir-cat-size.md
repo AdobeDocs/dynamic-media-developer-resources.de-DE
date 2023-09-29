@@ -1,14 +1,14 @@
 ---
+title: Größe
 description: Decal size. Breite, Höhe und Dicke eines dekalen Materialobjekts.
 solution: Experience Manager
-title: Größe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Decal size. Breite, Höhe und Dicke eines dekalen Materialobjekts.
 
 ## Eigenschaften {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
-Drei reale Zahlen, durch Kommas getrennt. Darf nicht negativ sein. Setzen Sie nicht verwendete Werte auf 0. Nachfolgende Nullen können weggelassen werden.
+Drei reale Zahlen, durch Kommas getrennt. Das darf nicht negativ sein. Setzen Sie nicht verwendete Werte auf 0. Nachfolgende Nullen können weggelassen werden.
 
 Geben Sie nur Breite und Höhe an, wenn das Bild so gestreckt werden soll, dass es an die angegebene Größe angepasst wird (das Seitenverhältnis kann sich ändern). Legen Sie entweder Breite oder Höhe fest, um das Bild proportional zu skalieren. Legen Sie sowohl Breite als auch Höhe auf 0 fest, um `catalog::Resolution`, um die Objektgröße zu bestimmen.
 
@@ -40,7 +40,7 @@ Geben Sie einen Dickenwert an, um dem Decal-Objekt einen Schlagschatten hinzuzuf
   <td class="stentry"> <p>Der Abtastraum ist 5 Zoll breit, die Höhe wird durch das Seitenverhältnis des Bildes bestimmt und ein Schlagschatten wird basierend auf einer Stärke von 1 Zoll gerendert. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,5 </p></td> 
+  <td class="stentry"> <p>0,0,.5 </p></td> 
   <td class="stentry"> <p>Die dekale Breite und Höhe wird durch Katalog::Resolution bestimmt und ist ½ Zoll dick. </p></td> 
  </tr> 
 </table>
