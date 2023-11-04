@@ -1,40 +1,40 @@
 ---
 title: Textpositionierung
-description: Der Renderer text= positioniert Text grundlegend anders als der Renderer textPs= , wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. wenn auch size= angegeben wird).
+description: Der Renderer text= positioniert Text grundlegend anders als der Renderer textPs= , wenn er auf vordimensionale Ebenen angewendet wird (d. h. wenn auch size= angegeben wird).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Textpositionierung{#text-positioning}
 
-Der Renderer `text=` positioniert Text grundlegend anders als der Renderer textPs= , wenn er auf Ebenen mit vordefinierter Größe angewendet wird (d. h. wenn auch size= angegeben wird).
+Die `text=` Der Renderer positioniert Text grundlegend anders als der Renderer textPs= , wenn er auf vordimensionale Ebenen angewendet wird (d. h. wenn auch size= angegeben wird).
 
-Die Ebenen `text=`und `textPs=`, die sich selbst anpassen, weisen ein ähnliches Erscheinungsbild und eine ähnliche Positionierung auf.
+Selbstdimensionierung `text=`und `textPs=` Ebenen weisen ein ähnliches Erscheinungsbild und eine ähnliche Positionierung auf.
 
-Der `textPs=` richtet den oberen Rand der Zeichenzelle am Anfang des Textfelds aus (unter Annahme von `\vertalt`), selbst wenn dadurch Teile der gerenderten Textzeichen teilweise außerhalb der Textfeldgrenze liegen. Gerenderte Glyphen bestimmter Schriftarten können auch geringfügig über die linke und rechte Kante des Textfelds hinausragen. Bei Anwendungen, bei denen der gesamte gerenderte Text im Ebenenrechteck enthalten sein muss, können die RTF-Befehle `\marg*` oder `textFlowPath=` verwendet werden, um den Textwiedergabebereich anzupassen.
+Die `textPs=` Richtet den Anfang der Zeichenzelle am Anfang des Textfelds aus (unter Annahme von `\vertalt`), auch wenn dies dazu führt, dass sich Teile der gerenderten Textzeichen teilweise außerhalb der Textfeldgrenze erstrecken. Gerenderte Glyphen bestimmter Schriftarten können auch geringfügig über die linke und rechte Kante des Textfelds hinausragen. Für Anwendungen, bei denen der gesamte gerenderte Text im Ebenenrechteck enthalten sein muss, muss die RTF-Funktion `\marg*` Befehle oder `textFlowPath=` kann verwendet werden, um den Textwiedergabebereich anzupassen.
 
-Im Gegensatz dazu verschiebt `text=` den gerenderten Text nach Bedarf und gewährleistet, dass alle gerenderten Glyphen vollständig in das angegebene Textfeld passen.
+Im Gegensatz dazu `text=` verschiebt den gerenderten Text nach Bedarf und gewährleistet, dass alle gerenderten Glyphen vollständig in das angegebene Textfeld passen.
 
-`text=` ist zwar für einfache Anwendungen etwas einfacher zu verwenden, `textPs=` bietet jedoch eine genaue Positionierung, unabhängig von Schriftflächen und Texteffekten.
+while `text=` kann für einfache Anwendungen etwas einfacher sein, `textPs=` bietet eine präzise Positionierung, unabhängig von Schriftflächen und Texteffekten.
 
 ## Beispiele {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
 Die folgenden Beispiele beziehen sich auf vorformatierten Text. Das Verhalten bei der selbstdimensionierten Textgröße unterscheidet sich.
 
-** `Text=` bietet immer einen schmalen Rand oben:**
+** `Text=` immer einen schmalen Rand oben bereitstellt:**
 
 ![Textpositionierungsbeispiel für ein Bild](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` rendert Text eng am oberen Rand des Textfelds ausgerichtet, was zu einer leichten Beschneidung führt, selbst bei gängigen Schriftarten wie Arial®:**
+** `textPs=` Text wird eng am oberen Rand des Textfelds ausgerichtet, was zu einer leichten Beschneidung führt, auch für gängige Schriftarten wie Arial®:**
 
 ![Textpositionierung Beispiel für zwei Bilder](assets/tp02.png)
 

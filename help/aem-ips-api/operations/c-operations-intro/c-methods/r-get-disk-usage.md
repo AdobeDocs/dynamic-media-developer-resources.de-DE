@@ -5,10 +5,10 @@ title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '102'
+ht-degree: 13%
 
 ---
 

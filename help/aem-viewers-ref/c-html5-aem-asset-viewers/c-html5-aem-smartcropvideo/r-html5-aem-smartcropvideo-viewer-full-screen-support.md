@@ -4,9 +4,10 @@ description: Der Viewer unterstützt den Vollbildmodus.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: fbf2b9cb-9187-4ce9-99d5-07ca20b7fa7d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -19,4 +20,4 @@ In modernen Desktopbrowsern mit Ausnahme von Internet Explorer 10 und älter sow
 
 Auf iOS-Geräten und älteren Internet Explorer-Browsern verwendet der Viewer stattdessen den &quot;simulierten&quot;Vollbildmodus. In diesem Modus wird die Größe des Viewers einfach so geändert, dass der gesamte Bereich des Webbrowserfensters verwendet wird. Außerdem sind die Benutzeroberfläche des Webbrowsers und andere Fenster weiterhin auf dem Bildschirm sichtbar.
 
-Ein Endbenutzer öffnet den Vollbildmodus und verlässt ihn, indem er in der Viewer-Benutzeroberfläche auf die Schaltfläche Vollbild klickt. Wenn der &quot;native&quot;Vollbildmodus auf dem Desktop verwendet wird, ist es auch möglich, ihn zu beenden, indem Sie **Esc**.
+Ein Endbenutzer öffnet den Vollbildmodus und verlässt ihn, indem er in der Viewer-Benutzeroberfläche auf die Schaltfläche für den Vollbildmodus klickt. Wenn der &quot;native&quot;Vollbildmodus auf dem Desktop verwendet wird, kann er auch durch Drücken der **Esc**.

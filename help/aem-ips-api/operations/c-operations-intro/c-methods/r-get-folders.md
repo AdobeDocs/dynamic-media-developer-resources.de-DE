@@ -1,11 +1,11 @@
 ---
-description: Gibt alle Ordner und Unterordner zurück, beginnend mit dem Ordnerpfad. Die Antwort "getFolders"gibt maximal 100.000 Ordner zurück.
+description: Gibt alle Ordner und Unterordner zurück, beginnend mit dem Ordnerpfad. Die Antwort getFolders gibt maximal 100.000 Ordner zurück.
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 8%
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # getFolders{#getfolders}
 
-Gibt alle Ordner und Unterordner zurück, beginnend mit dem Ordnerpfad. Die Antwort &quot;getFolders&quot;gibt maximal 100.000 Ordner zurück.
+Gibt alle Ordner und Unterordner zurück, beginnend mit dem Ordnerpfad. Die Antwort getFolders gibt maximal 100.000 Ordner zurück.
 
 ## Zweck der Ordner {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Mit einem Ordner können Sie Unterordner und Assets organisieren. Alle Ordner- und Asset-Namen müssen eindeutig sein. Ordner und Assets mit demselben Namen führen zu einem Namespace-Konflikt, auch wenn sie sich in unterschiedlichen Ordnerhierarchien befinden.
+Mit einem Ordner können Sie Unterordner und Assets organisieren. Alle Ordner- und Asset-Namen müssen eindeutig sein. Ordner und Assets mit demselben Namen verursachen einen Namespace-Konflikt, auch wenn sie sich in unterschiedlichen Ordnerhierarchien befinden.
 Syntax
 
 ## Autorisierte Benutzertypen {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}

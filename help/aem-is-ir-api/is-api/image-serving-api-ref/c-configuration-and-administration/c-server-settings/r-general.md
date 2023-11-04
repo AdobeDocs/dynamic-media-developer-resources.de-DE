@@ -5,9 +5,9 @@ title: Allgemein
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -26,15 +26,15 @@ Gibt den HTTP-Stammpfad an, um dem Image-Server Zugriff auf den Caching-Dienst z
 
 ## IS::RemoteUrlDefaultExpiration - Remote Image Source Default TTL {#section-e4c31228b459492cacd2f482d9575f71}
 
-TTL für zwischengespeicherte Bilder, die über HTTP von einer Remote-Quelle mit der `src={…}` -Konstrukt. Wird nur verwendet, wenn der Remote-Server in seiner HTTP-Antwort keinen Ablaufheader enthält. Ganzzahlwert in Sekunden.
+Die TTL für zwischengespeicherte Bilder, die über HTTP von einer Remote-Quelle mithilfe der `src={…}` -Konstrukt. Wird nur verwendet, wenn der Remote-Server in seiner HTTP-Antwort keinen Ablaufheader enthält. Ganzzahlwert in Sekunden.
 
 ## IS::RemoteUrlTimeout - Remote Image Source Timeout {#section-437646c479cc4bea81dae42100a3c50a}
 
-Die Zeit, die der Image-Server wartet, bis ein Remote-Server die angeforderte Bilddatei über HTTP bereitstellt, bevor ein Fehler zurückgegeben wird. Ganzzahlwert in Sekunden.
+Die Zeit, die der Image-Server darauf wartet, dass ein Remote-Server die angeforderte Bilddatei über HTTP bereitstellt, bevor ein Fehler zurückgibt. Ganzzahlwert in Sekunden.
 
 ## PS::allowDefaultCatalogRequests - Enable/Disable Default Catalog Requests {#section-484e442a115a49b4ac269d1718b351e1}
 
-Auf false gesetzt, um Anfragen zu verweigern, die keine gültige Katalogkennung im Pfad enthalten. Die Standardgrenze ist `true`. Wenn auf `false`wird bei Anfragen ohne Katalogkennung ein Fehler zurückgegeben.
+Auf false gesetzt, um Anfragen zu verweigern, die keine gültige Katalogkennung im Pfad enthalten. Die Standardgrenze ist `true`. Wenn festgelegt auf `false`wird bei Anfragen ohne Katalogkennung ein Fehler zurückgegeben.
 
 >[!NOTE]
 >
@@ -42,4 +42,4 @@ Auf false gesetzt, um Anfragen zu verweigern, die keine gültige Katalogkennung 
 
 ## PS::saveToFile.saveTimeout - Zeitüberschreitung bei Dateispeicherung {#section-d22afd8ad86144b28684ed95a59db40e}
 
-Standardwert für Zeitüberschreitung für `req=saveToFile` when `timeout=`nicht angegeben ist. `msec`. Wenn der Speichervorgang nicht innerhalb der angegebenen Zeit abgeschlossen ist, wird ein Fehler zurückgegeben.
+Standardwert für die Zeitüberschreitung für `req=saveToFile` when `timeout=`nicht angegeben ist. `msec`. Wenn der Speichervorgang nicht innerhalb der angegebenen Zeit abgeschlossen ist, wird ein Fehler zurückgegeben.

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, können lokalisiert werden, einschließlich Zoom-Schaltflächen, Schaltflächen zum Ändern der Seite, Miniaturschaltflächen, Vollbildschaltflächen, Schließen-Schaltflächen und Schaltflächen der Bildlaufleiste.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen zugeordneten Textwert für das englische Gebietsschema ( `"en"`), die mit dem vordefinierten Viewer bereitgestellt werden, und möglicherweise auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt sind.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen Textwert für das englische Gebietsschema ( `"en"`), die mit dem vordefinierten Viewer bereitgestellt werden, und möglicherweise auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt sind.
 
-Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL im Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL im Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
 
 Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Ein solches Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
@@ -86,7 +86,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche im Vollbildmodus im Vollbildmodus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
@@ -98,7 +98,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Große nächste Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Große nächste Seite" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
@@ -106,23 +106,23 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Letzte Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Letzte Seite . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Letzte Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Letzte Seite . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Erste Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Erste Seite" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Erste Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Erste Seite" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Nächste Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Nächste Seite" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
@@ -134,7 +134,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Miniaturansichten"im normalen Modus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Miniaturen"im normalen Modus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
@@ -186,19 +186,19 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_REMOVE </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "E-Mail-Adresse entfernen". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche E-Mail-Adresse entfernen </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
@@ -210,7 +210,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Schließen", die am unteren Rand des Dialogfelds nach der Übermittlung des Formulars angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Schließen", die nach der Formularübermittlung unten im Dialogfeld angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ACTION </span> </p> </td> 
@@ -234,7 +234,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>Überschrift des Dialogfelds "Einbetten". </p> </td> 
+   <td colname="col2"> <p>Einbetten des Dialogfeldheaders </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
@@ -246,15 +246,15 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.EMBED_SIZE </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Kombinationsfeld "Einbettungsgröße". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Kombinationsfeld Einbettungsgröße . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE </span> </p> </td> 
@@ -278,15 +278,15 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION </span> </p> </td> 
@@ -298,7 +298,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Twitter-Freigabe-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "twitter freigeben". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
@@ -346,11 +346,11 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p> Schaltfläche "Abbrechen". </p> </td> 
+   <td colname="col2"> <p> Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.ACTION </span> </p> </td> 
@@ -366,7 +366,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Favoriten hinzufügen"im Modus "Favoriten bearbeiten". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Favoriten hinzufügen"im Modus Favoriten bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -374,7 +374,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Favoriten entfernen"im Modus "Favoriten bearbeiten". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche "Favoriten entfernen"im Modus Favoriten bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -394,7 +394,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Seitenbeschriftung, die vom Viewer beim Laden generiert wird. </p> <p>Der Name dieses Symbols ist eine Vorlage, wobei <span class="codeph"> XX </span> ist ein nullbasierter Spread-Index in Querformat-Ausrichtung und optional <span class="codeph"> YY </span> ist ein nullbasierter Seitenindex innerhalb des Streams, auf den die <span class="codeph"> XX </span>. </p> <p>Gilt nur für das ursprünglich geladene Asset. ignoriert , wenn ein Asset mit dem <span class="codeph"> setAsset() </span> API-Aufruf. </p> </td> 
+   <td colname="col2"> <p>Seitenbeschriftung, die vom Viewer beim Laden generiert wird. </p> <p>Der Name dieses Symbols ist eine Vorlage, bei der <span class="codeph"> XX </span> ist ein nullbasierter Spread-Index in Querformat-Ausrichtung und optional <span class="codeph"> YY </span> ist ein nullbasierter Seitenindex innerhalb des Streams, auf den die <span class="codeph"> XX </span>. </p> <p>Gilt nur für das ursprünglich geladene Asset. Wird ignoriert, wenn ein Asset mit der <span class="codeph"> setAsset() </span> API-Aufruf. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 

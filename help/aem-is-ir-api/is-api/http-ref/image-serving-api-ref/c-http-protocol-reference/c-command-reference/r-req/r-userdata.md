@@ -5,9 +5,9 @@ title: userdata
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -25,17 +25,17 @@ Benutzerdaten aus dem Bildkatalog. Gibt Benutzerdaten für den im URL-Pfad angeg
  </tr> 
 </table>
 
-Der Inhalt von `catalog::UserData` wird zurückgegeben. Wenn das &quot;text&quot;-Format angegeben wird, werden alle Instanzen von `??` in `catalog::UserData`durch Zeilenende-Zeichen ersetzt und am Ende wird ein einzeiliger Endpunkt (CR/LF) angehängt. Wenn der URL-Pfad nicht zu einem gültigen Katalogeintrag aufgelöst wird, besteht die Antwort nur aus einem einzeiligen Terminator. Wenn das Format &quot;xml&quot;oder &quot;json&quot;angefordert wird, wird eine entsprechende Formatierung angewendet.
+Der Inhalt von `catalog::UserData` zurückgegeben. Wenn das Format &quot;text&quot;angegeben ist, werden alle Instanzen von `??` in `catalog::UserData`werden durch Zeilenende-Zeichen ersetzt und an das Ende wird ein einzeiliger Endpunkt (CR/LF) angehängt. Wenn der URL-Pfad nicht zu einem gültigen Katalogeintrag aufgelöst wird, besteht die Antwort nur aus einem einzeiligen Terminator. Wenn das Format &quot;xml&quot;oder &quot;json&quot;angefordert wird, wird eine entsprechende Formatierung angewendet.
 
 Andere Befehle in der Anforderungszeichenfolge werden ignoriert.
 
-Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
+Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration`.
 
 >[!NOTE]
 >
 >Das Doppelpunkt-Zeichen ist in Schlüsselnamen der Benutzerdateneigenschaft nicht zulässig.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen, den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` anzugeben:
+Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax von `req=` Parameter:
 
 `req=...,json [&handler = reqHandler ]`
 

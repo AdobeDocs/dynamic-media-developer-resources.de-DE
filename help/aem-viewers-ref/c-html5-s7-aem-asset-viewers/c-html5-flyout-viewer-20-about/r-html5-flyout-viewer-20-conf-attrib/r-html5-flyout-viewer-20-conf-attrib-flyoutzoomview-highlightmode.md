@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> highlight|cursor </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Typ des zu verwendenden Navigationsrahmens an. Wenn auf <span class="codeph"> Cursor </span>verwendet die Komponente einen Referenz-Cursor fester Größe. Es ist möglich, verschiedene Cursorgrafiken für Desktop-Systeme und Touch-Geräte zu verwenden. Diese Fähigkeit wird durch <span class="codeph"> .s7cursor </span> CSS-Klasse und <span class="codeph"> input=mouse|touch </span> -Attributauswahl. Auf Desktop-Systemen wird ein Ankerpunkt in der Mitte des Cursor-Bereichs festgelegt, während sich der Anker auf Touch-Geräten in der unteren Mitte des Cursors befindet. Wenn auf <span class="codeph"> highlight </span>verwendet die Komponente einen Navigationsframe variabler Größe; Größe und Form des Rahmens hängen vom Zoomfaktor und der Größe der Flyout-Ansicht ab. </p> </td> 
+   <td colname="col2"> <p> Gibt den Typ des zu verwendenden Navigationsrahmens an. Wenn festgelegt auf <span class="codeph"> Cursor </span>verwendet die Komponente einen Referenz-Cursor fester Größe. Es ist möglich, verschiedene Cursorgrafiken für Desktop-Systeme und Touch-Geräte zu verwenden. Diese Fähigkeit wird durch <span class="codeph"> .s7cursor </span> CSS-Klasse und <span class="codeph"> input=mouse|touch </span> -Attributauswahl. Auf Desktop-Systemen wird ein Ankerpunkt in der Mitte des Cursor-Bereichs festgelegt, während sich der Anker auf Touch-Geräten in der unteren Mitte des Cursors befindet. Wenn festgelegt auf <span class="codeph"> highlight </span>verwendet die Komponente einen Navigationsrahmen mit variabler Größe. Größe und Form des Rahmens hängen vom Zoomfaktor und der Größe der Flyout-Ansicht ab. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Legt die Zeit (in Sekunden) fest, in der die Hervorhebung oder der Cursor nach der Aktivierung durch den Benutzer ausgeblendet werden muss. "Einblenden"wird nur auf Touch-Geräten angewendet; auf Desktop-Systemen wird sie von der Komponente ignoriert. </p> <p>Die Einblendung gilt für die folgenden Elemente der Benutzeroberfläche: Markierungsrahmen, fixer Cursor, Überlagerung (in der Fall <span class="codeph"> Overlay </span> -Parameter auf <span class="codeph"> 1 </span>). Die Animation der Flyout-Ansicht beginnt erst, nachdem das Hervorheben/Verbergen der Animation abgeschlossen ist. Es gibt keine verblassende Animation. Wenn der Benutzer den Flyout deaktiviert, werden die entsprechenden Elemente der Benutzeroberfläche (Cursor, Hervorheben und Überlagerung) sofort ausgeblendet. </p> </td> 
+   <td colname="col2"> <p> Legt die Zeit (in Sekunden) fest, in der die Hervorhebung oder der Cursor nach der Aktivierung durch den Benutzer ausgeblendet werden muss. "Einblenden"wird nur auf Touch-Geräten angewendet. Auf Desktop-Systemen wird sie von der Komponente ignoriert. </p> <p>Einblenden wird auf die folgenden Benutzeroberflächenelemente angewendet: Markierungsrahmen, fester Cursor, Überlagerung (in diesem Fall: <span class="codeph"> Overlay </span> -Parameter auf <span class="codeph"> 1 </span>). Die Animation der Flyout-Ansicht beginnt erst, nachdem das Hervorheben/Verbergen der Animation abgeschlossen ist. Es gibt keine verblassende Animation. Wenn der Benutzer den Flyout deaktiviert, werden die entsprechenden Elemente der Benutzeroberfläche (Cursor, Hervorheben und Überlagerung) sofort ausgeblendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free </span> </p> </td> 

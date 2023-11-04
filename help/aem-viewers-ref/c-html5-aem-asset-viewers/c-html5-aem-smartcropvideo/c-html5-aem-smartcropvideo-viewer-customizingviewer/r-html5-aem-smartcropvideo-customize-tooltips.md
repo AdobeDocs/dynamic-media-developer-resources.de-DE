@@ -1,17 +1,18 @@
 ---
-title: QuickInfos
+title: Tooltips
 description: Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche wie Schaltflächen über QuickInfos, die beim Bewegen der Maus angezeigt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 78cc0f11-bec2-495e-b3c9-a91b6bd1b1f0
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
-# QuickInfos{#tooltips}
+# Tooltips{#tooltips}
 
 Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche wie Schaltflächen über QuickInfos, die beim Bewegen der Maus angezeigt werden.
 

@@ -1,22 +1,22 @@
 ---
-description: Bilddateipfad. Relativer Pfad und Name einer Textur- oder Decal-Bilddatei.
+description: Pfad der Bilddatei. Relativer Pfad und Name einer Textur- oder Decal-Bilddatei.
 solution: Experience Manager
 title: Pfad *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
 # Pfad *{#path}
 
-Bilddateipfad. Relativer Pfad und Name einer Textur- oder Decal-Bilddatei.
+Pfad der Bilddatei. Relativer Pfad und Name einer Textur- oder Decal-Bilddatei.
 
-Der Server kombiniert diesen Wert mit `attribute::RootPath` , um den tatsächlichen Pfad der Bilddatei zu erstellen. Kann auch ein absoluter Pfad sein.
+Der Server kombiniert diesen Wert mit `attribute::RootPath` , um den Pfad der Bilddatei zu erstellen. Kann auch ein absoluter Pfad sein.
 
 Wird verwendet, um die Texturbilddatei für Textur-, Schrank- und Fensterabdeckungsmaterialien sowie die RGB- oder RGBA-Bilddatei für Dekal- und Wandbegrenzungsmaterialien anzugeben. Nicht alle Schrank- und Fensterabdeckungsmaterialien erfordern ein separates wiederholbares Texturbild.
 
@@ -28,7 +28,7 @@ Textzeichenfolge. Erforderlich für Textur- und Dekormaterialien, optional für 
 
 Das Bild-Rendering unterstützt dieselben Quellbildformate wie das Dynamic Media-Bildserving.
 
-Anwendungen, die Bilddaten in mehreren verschiedenen Auflösungen erfordern, funktionieren am besten, wenn das Dynamic Media Pyramid TIFF (PTIFF)-Multiauflösungsformat verwendet wird. Image Serving umfasst das Dienstprogramm Image Converter (IC) , mit dem PTIFF-Bilder aus einem beliebigen unterstützten Format erstellt werden.
+Anwendungen, die Bilddaten in mehreren Auflösungen erfordern, eignen sich am besten für die Verwendung des PTIFF-Multiauflösungsformats (Dynamic Media Pyramid TIFF). Image Serving umfasst das Dienstprogramm Image Converter (IC) , mit dem PTIFF-Bilder aus einem beliebigen unterstützten Format erstellt werden.
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Dokumentation zu Image Serving in der Beschreibung des IC-Dienstprogramms .
 
@@ -38,4 +38,4 @@ Keine.
 
 ## Verwandte Themen {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ,  [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md),  [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

@@ -1,18 +1,18 @@
 ---
-title: Muster
+title: Farbfelder
 description: Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
-# Muster{#swatches}
+# Farbfelder{#swatches}
 
 Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite.
 
@@ -42,7 +42,7 @@ Das Erscheinungsbild des Farbmuster-Containers wird mit der folgenden CSS-Klasse
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Die Höhe der Muster. </p> </td> 
+   <td colname="col2"> <p>Die Höhe der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
@@ -126,7 +126,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 >
 >Miniaturansichten unterstützen die `state` -Attributauswahl, die verwendet wird, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht für das Bild, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten entspricht und `state="over"` wird beim Bewegen der Maus verwendet.
 
-Beispiel: Zum Einrichten von Miniaturansichten mit einer Größe von 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen:
+Beispiel: Zum Einrichten von Miniaturansichten mit 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -150,7 +150,7 @@ Das Erscheinungsbild der linken und rechten Bildlaufschaltflächen wird mit den 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`, und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -181,7 +181,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` Attributauswahl, die verwendet wird, um verschiedene Skins auf Schaltflächenstatus anzuwenden `up`, `down`, `over`und `disabled`.
+>Diese Schaltfläche unterstützt `state` Attributauswahl, die verwendet wird, um verschiedene Skins auf Schaltflächenstatus anzuwenden `up`, `down`, `over`, und `disabled`.
 
 Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) für weitere Informationen.
 

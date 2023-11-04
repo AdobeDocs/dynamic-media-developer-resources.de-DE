@@ -5,9 +5,9 @@ title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '472'
 ht-degree: 3%
 
 ---
@@ -18,19 +18,19 @@ Leitet die bereitgestellte Liste von URLs an den Dynamic Media CDN (Content Dist
 
 ## cdnCacheInvalidation: Info {#section-4f70d2bc79d64288b961836ab17e9690}
 
-Die CDN-Cache-Invalidierung erzwingt, dass alle HTTP-Anforderungen für diese URLs anhand der aktuellen veröffentlichten Daten im Dynamic Media-Netzwerk erneut validiert werden, nachdem diese Invalidierungsanforderung über das CDN-Netzwerk verarbeitet wurde. Für alle URLs, die nicht mit der URL-Struktur des Dynamic Media-Dienstes verbunden sind und direkt mit der Stammordner-ID des Dynamic Media-Unternehmens übereinstimmen, die beim Erstellen des Unternehmens zugewiesen wird, tritt ein API-Fehler für die gesamte Anfrage auf. Alle ungültigen URLs, die das CDN nicht unterstützt und für ungültig hält, führen auch zu einem API-Fehler für die gesamte Anfrage.
+Die CDN-Cache-Invalidierung erzwingt, dass alle HTTP-Anforderungen für diese URLs anhand der aktuellen veröffentlichten Daten im Dynamic Media-Netzwerk erneut validiert werden, nachdem diese Invalidierungsanforderung über das CDN-Netzwerk verarbeitet wurde. Für alle URLs, die nicht mit der URL-Struktur des Dynamic Media-Dienstes verbunden sind und direkt mit der Stammordner-ID des Dynamic Media-Unternehmens übereinstimmen, die beim Erstellen des Unternehmens zugewiesen wird, tritt bei der gesamten Anfrage ein API-Fehler auf. Alle ungültigen URLs, die das CDN nicht unterstützt und für ungültig hält, führen auch zu einem API-Fehler für die gesamte Anfrage.
 
-**Häufigkeit der Anwendung: Regeln**
+**Häufigkeit der Verwendung: Regeln**
 
-Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Dynamic Media gesteuert. Das CDN behält sich das Ermessen vor, die Reaktionsfähigkeit dieser Invalidierungen herabzusetzen, um eine optimale Leistung seines Dienstes für seine Benutzer zu gewährleisten. Sollte Dynamic Media über eine Übernutzung dieser Funktion informiert werden, müssen wir die Funktion entweder pro Unternehmen oder vollständig im gesamten Service deaktivieren.
+Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Dynamic Media kontrolliert. Das CDN behält sich das Ermessen vor, die Reaktionsfähigkeit dieser Invalidierungen herabzusetzen, um eine optimale Leistung seines Dienstes für seine Benutzer zu gewährleisten. Sollte Dynamic Media über eine Übernutzung dieser Funktion informiert werden, muss Adobe entweder die Funktion pro Unternehmen oder vollständig über den gesamten Dienst deaktivieren.
 
-**Bestätigungs-E-Mails**
+**Bestätigungs-E-Mail**
 
-Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der Liste oder bis zu fünf weitere E-Mail-Adressen gesendet werden. Die API sendet eine Bestätigung, wenn das gesamte CDN-Netzwerk darüber informiert wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein Einzelaufruf von `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der angegebenen URLs die Anzahl übersteigt, die Dynamic Media mit einer einzigen Benachrichtigung an den CDN-Partner senden kann. Derzeit wäre dies dann der Fall, wenn die Anfrage 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
+Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der Liste oder bis zu fünf weitere E-Mail-Adressen gesendet werden. Die API sendet eine Bestätigung, wenn das gesamte CDN-Netzwerk darüber informiert wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein einzelner Aufruf an `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der angegebenen URLs die Anzahl übersteigt, die Dynamic Media mit einer einzigen Benachrichtigung an den CDN-Partner senden kann. Derzeit wäre dies dann der Fall, wenn die Anfrage 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
 
 **Unterstützt seit**
 
-6,0
+6.0
 
 ## Autorisierte Benutzertypen {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -39,7 +39,7 @@ Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der
 
 ## Parameter {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Eingabe**  (  `cdnCacheInvalidationParam`)
+**Eingabe** ( `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -66,7 +66,7 @@ Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der
  </tbody> 
 </table>
 
-**Output**(  `cdnCacheInvalidationReturn`)
+**Ausgabe**( `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
@@ -82,7 +82,7 @@ Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Ein Handle, das auf die Bereinigungsanforderung verweist. </p> <p>Die API <span class="codeph"> cdnCacheInvalidation</span> macht den Cache jetzt fast sofort ungültig (~5 Sekunden). Daher ist eine Abfrage zum Invalidierungsstatus im Allgemeinen nicht mehr erforderlich. </p> 
+   <td colname="col4"> <p>Ein Handle, das auf die Bereinigungsanforderung verweist. </p> <p>Die <span class="codeph"> cdnCacheInvalidation</span> API macht den Cache jetzt fast sofort ungültig (~5 Sekunden). Daher ist eine Abfrage zum Invalidierungsstatus im Allgemeinen nicht mehr erforderlich. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 

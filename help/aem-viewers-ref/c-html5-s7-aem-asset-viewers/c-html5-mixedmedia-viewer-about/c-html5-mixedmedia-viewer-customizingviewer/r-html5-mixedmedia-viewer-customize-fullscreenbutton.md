@@ -1,18 +1,18 @@
 ---
-title: Schaltfläche "Vollbild"
+title: Schaltfläche im Vollbildmodus
 description: Diese Schaltfläche bewirkt, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn er vom Benutzer ausgewählt wird. Sie wird verwendet, wenn der Viewer Bilder oder Rotationssets anzeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
 
-# Schaltfläche &quot;Vollbild&quot;{#full-screen-button}
+# Schaltfläche im Vollbildmodus{#full-screen-button}
 
 Diese Schaltfläche bewirkt, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn er vom Benutzer ausgewählt wird. Sie wird verwendet, wenn der Viewer Bilder oder Rotationssets anzeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
@@ -71,7 +71,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;Vollbild&quot;und `selected='false'` entspricht dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` dem Status &quot;Vollbild&quot;entspricht und `selected='false'` entspricht dem Status &quot;normal&quot;.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 

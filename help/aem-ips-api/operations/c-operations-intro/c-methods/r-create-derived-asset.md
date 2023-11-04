@@ -5,9 +5,9 @@ title: createabgeleiteteAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '259'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ Syntax
 
 Abgeleitete Assets geben Image Server-Protokollbefehle an, mit denen die Darstellung des Eigentümerbilds geändert wird. Die `AdjustedView` abgeleiteter Typ hilft, einfache Änderungen an einem einzelnen Bild anzuwenden (z. B. durch Angabe eines Zuschnittrechtecks), während die `LayerView` hilft bei der Erstellung einer mehrschichtigen Ansicht, die Text oder zusätzliche Bilder enthalten kann.
 
-Im Gegensatz zu Bildkopien (siehe [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), wird ein abgeleitetes Bild mit dem Bild des Eigentümers verknüpft. Änderungen am Bild des Eigentümers ändern verknüpfte abgeleitete Assets. Wenn Sie das Bild des Eigentümers löschen, werden alle zugehörigen abgeleiteten Bilder gelöscht.
+Im Gegensatz zu Bildkopien (siehe [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), wird ein abgeleitetes Bild mit dem Bild des Eigentümers verknüpft. Änderungen am Bild des Eigentümers ändern verknüpfte abgeleitete Assets. Durch Löschen des Eigentümerbilds werden alle zugehörigen abgeleiteten Bilder gelöscht.
 
 ## Autorisierte Benutzertypen {#authorized-user-types}
 

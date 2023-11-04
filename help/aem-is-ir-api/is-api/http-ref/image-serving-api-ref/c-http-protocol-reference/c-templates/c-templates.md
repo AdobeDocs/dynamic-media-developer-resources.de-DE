@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Vorlagen können verwendet werden, um die Länge und Komplexität von Anforderungen zu reduzieren, die mehrere Bildebenen zusammensetzen oder die rtf-formatierten Text enthalten.
 
-Benutzerdefinierte Variablen können verwendet werden, um die Verwendung von Vorlagen weiter zu vereinfachen. Vorlagen werden häufig so eingerichtet, dass ein einfacher Austausch von Bildern oder Text oder das Festlegen anderer Optionen zur Laufzeit möglich ist.
+Benutzerdefinierte Variablen können zur weiteren Vereinfachung der Vorlagenverwendung verwendet werden. Vorlagen werden häufig so eingerichtet, dass ein einfacher Austausch von Bildern oder Text oder das Festlegen anderer Optionen zur Laufzeit möglich ist.
 
 Vorlagen werden als Datensätze in Bildkatalogen gespeichert, wobei der Vorlagentext im `catalog::Modifier` und dem `catalog::Path` leer oder ein statisches Hintergrundbild angeben, das nicht dynamisch geändert werden kann.
 

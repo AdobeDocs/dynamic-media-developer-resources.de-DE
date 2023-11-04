@@ -5,9 +5,9 @@ title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 4%
 
 ---
@@ -29,11 +29,11 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Detaillierte Nachricht. Bietet Details auf Benutzerebene zum Fehler. Kann vertrauliche Informationen enthalten, z. B. Dateipfade. Empfohlen für Staging-, Qualitätssicherungs- und Anwendungsentwicklungs-Server. </p></td> 
+  <td class="stentry"> <p>Detaillierte Nachricht. Bietet Details auf Benutzerebene zum Fehler. Kann vertrauliche Informationen enthalten, z. B. Dateipfade. Empfohlen für Staging-, Qualitätssicherungs- und Anwendungsentwicklungsserver. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java Stack Traces hinzu. Fehlerbilder enthalten keine Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. Diese Informationen können bei der Meldung von Problemen beim technischen Support von Dynamic Media nützlich sein. </p></td> 
+  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java Stack Traces hinzu. Fehlerbilder enthalten keine Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span>. Diese Informationen können bei der Meldung von Problemen beim technischen Support von Dynamic Media nützlich sein. </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +43,7 @@ Aufzählungswert: 0, 1, 2 oder 3.
 
 ## Standard {#section-8f27098e509945a18676aca0675c8f41}
 
-Wird von `default::ErrorDetail` übernommen, wenn nicht angegeben oder leer.
+Vererbt von `default::ErrorDetail` wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-5451b0525ed74121950bfc34726c3970}
 

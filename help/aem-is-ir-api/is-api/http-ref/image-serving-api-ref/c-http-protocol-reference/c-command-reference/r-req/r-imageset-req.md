@@ -2,12 +2,12 @@
 description: Bildsatzdaten aus dem Bildkatalog. Gibt Bildsatzdaten für den im URL-Pfad angegebenen Bildkatalogeintrag zurück.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic,SDK/API,Bildsets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Bildsatzdaten aus dem Bildkatalog. Gibt Bildsatzdaten für den im URL-Pfad angegebenen Bildkatalogeintrag zurück.
 
-`req=imageset[,text|javascript|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=imageset[,text|javascript|{xml[, *`encoding`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_86FF9E59B11D4C408F0D932D46CC2F8E"> 
  <tr class="strow"> 
@@ -29,11 +29,11 @@ Bildsatzdaten aus dem Bildkatalog. Gibt Bildsatzdaten für den im URL-Pfad angeg
  </tr> 
 </table>
 
-Der Inhalt von `catalog::ImageSet` wird ohne weitere Änderung zurückgegeben (außer der Zeichenfolgenlokalisierung, sofern zutreffend), gefolgt von einem einzelnen Zeilenende-Zeichen (CR/LF). Wenn der URL-Pfad nicht zu einem gültigen Katalogeintrag aufgelöst wird, besteht die Antwort nur aus einem einzeiligen Terminator.
+Der Inhalt von `catalog::ImageSet` wird ohne weitere Änderung zurückgegeben (außer der Zeichenfolgenlokalisierung, sofern zutreffend), gefolgt von einem einzeiligen Terminator (CR/LF). Wenn der URL-Pfad nicht zu einem gültigen Katalogeintrag aufgelöst wird, besteht die Antwort nur aus einem einzeiligen Terminator.
 
-Andere Befehle in der Anforderungszeichenfolge werden ignoriert. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::NonImgExpiration` basiert.
+Andere Befehle in der Anforderungszeichenfolge werden ignoriert. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::NonImgExpiration`.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen, den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` anzugeben:
+Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax von `req=` Parameter:
 
 `req=...,json [&handler = reqHandler ]`
 

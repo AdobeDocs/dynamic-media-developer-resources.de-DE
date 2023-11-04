@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,7 @@ Materialdatei. Gibt Materialdaten an, entweder in Form eines einzelnen Materialk
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>Materialstil-Datei (<span class="filepath"> .vnc</span> oder <span class="filepath"> .vnw</span>). </p></td> 
+  <td class="stentry"> <p>Materialstildatei (<span class="filepath"> .vnc</span> oder <span class="filepath"> .vnw</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
@@ -107,7 +107,7 @@ Keine.
 
 ## Beispiel {#section-675865444f8a4d35b9fc6e58b36e3438}
 
-MSS für einen gefärbten Schrank mit einer separaten wiederholbaren Textur:
+Ein MSS für einen gefärbten Behälter mit einer separaten wiederholbaren Textur:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 

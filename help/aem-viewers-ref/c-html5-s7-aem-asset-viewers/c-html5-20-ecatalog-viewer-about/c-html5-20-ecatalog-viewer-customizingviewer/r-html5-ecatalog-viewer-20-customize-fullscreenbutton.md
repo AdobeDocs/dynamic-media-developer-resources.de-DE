@@ -1,20 +1,20 @@
 ---
-title: Schaltfläche "Vollbild"
-description: Setzt den Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wird. Diese Schaltfläche wird in der Hauptsteuerleiste angezeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Sie können die Schaltfläche über CSS vergrößern, verkleinern und positionieren.
+title: Schaltfläche im Vollbildmodus
+description: Setzt den Viewer in den Vollbildmodus oder aus dem Vollbildmodus, wenn er vom Benutzer ausgewählt wird. Diese Schaltfläche wird in der Hauptsteuerleiste angezeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Sie können die Schaltfläche über CSS vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
 
-# Schaltfläche &quot;Vollbild&quot;{#full-screen-button}
+# Schaltfläche im Vollbildmodus{#full-screen-button}
 
-Setzt den Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wird. Diese Schaltfläche wird in der Hauptsteuerleiste angezeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Sie können die Schaltfläche über CSS vergrößern, verkleinern und positionieren.
+Setzt den Viewer in den Vollbildmodus oder aus dem Vollbildmodus, wenn er vom Benutzer ausgewählt wird. Diese Schaltfläche wird in der Hauptsteuerleiste angezeigt. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt. Sie können die Schaltfläche über CSS vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -69,7 +69,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;Vollbild&quot;und `selected='false'` entspricht dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` dem Status &quot;Vollbild&quot;entspricht und `selected='false'` entspricht dem Status &quot;normal&quot;.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 

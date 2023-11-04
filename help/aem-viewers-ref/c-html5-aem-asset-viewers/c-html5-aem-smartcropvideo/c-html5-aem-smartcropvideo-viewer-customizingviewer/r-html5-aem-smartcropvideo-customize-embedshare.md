@@ -4,7 +4,8 @@ description: Das Werkzeug Freigabe einbetten besteht aus einer Schaltfläche, di
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 2%
@@ -50,7 +51,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Freigabe einbetten&quot;wird mit de
 >
 >Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in ihrer CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in der zugehörigen CSS-Klasse.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
@@ -117,7 +118,7 @@ Standardmäßig wird das modale Dialogfeld zentriert auf dem Bildschirm auf Desk
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Rahmenradius des Dialogfelds, falls das Dialogfeld nicht den gesamten Browser annimmt. </p> </td> 
+   <td colname="col2"> <p> Rahmenradius des Dialogfelds, falls das Dialogfeld nicht den gesamten Browser akzeptiert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -184,7 +185,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
+**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -390,7 +391,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 
 >[!NOTE]
 >
->Die Schaltfläche Alle auswählen unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Die Schaltfläche &quot;Alle auswählen&quot;unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
 Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -445,7 +446,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
+   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
@@ -559,7 +560,7 @@ Beispiel: Zum Einrichten eines Hauptdialogfeld-Bereichs mit einer Höhe von 300 
 }
 ```
 
-Der gesamte Formularinhalt (z. B. Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit
+Der gesamte Formularinhalt (wie Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody
@@ -573,7 +574,7 @@ Wenn die Höhe dieses Containers größer als der Hauptdialogfeld-Bereich zu sei
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -604,7 +605,7 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
+   <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
@@ -645,7 +646,7 @@ Die Größe der Textkopie, die über dem Einbettungscode angezeigt wird, wird mi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -665,7 +666,7 @@ Der Einbettungscode wird in Container eingeschlossen und mit der folgenden CSS-K
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -679,7 +680,7 @@ Der Einbettungscode wird in Container eingeschlossen und mit der folgenden CSS-K
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -700,7 +701,7 @@ Der tatsächliche Einbettungscode-Text wird mit der folgenden CSS-Klassenauswahl
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
@@ -731,7 +732,7 @@ Beschriftung und Dropdown-Liste der Einbettungsgröße befinden sich unten im Di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1134,7 +1135,7 @@ Die Bildlaufleisten-Spur ist der Bereich zwischen den oberen und unteren Bildlau
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Bildlaufleiste, die 28 Pixel breit und einen grauen Hintergrund aufweist:
+Beispiel: Zum Einrichten einer Bildlaufleiste, die 28 Pixel breit ist und einen grauen Hintergrund hat:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1155,11 +1156,11 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Thumb-Breite. </p> </td> 
+   <td colname="col2"> <p>Rahmenbreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Thumb-Höhe. </p> </td> 
+   <td colname="col2"> <p>Schubhöhe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
@@ -1178,9 +1179,9 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
 
 >[!NOTE]
 >
->Thumb unterstützt die `state` -Attribut-Selektor, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenstatus anzuwenden: `up`, `down`, `over`und `disabled`.
+>Thumb unterstützt die `state` -Attribut-Selektor, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenstatus anzuwenden: `up`, `down`, `over`, und `disabled`.
 
-Beispiel: Um einen Bildlaufleisten-Daumen mit 28 x 45 Pixel einzurichten, hat oben und unten einen zehnten Pixelrand und hat für jeden Status ein anderes Bildmaterial:
+Beispiel: Um einen Bildlaufleisten-Daumen mit 28 x 45 Pixel einzurichten, hat einen zehn Pixelrand oben und unten und hat für jeden Status ein anderes Bildmaterial:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1240,7 +1241,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`und `disabled`.
+>Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
 
 Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 

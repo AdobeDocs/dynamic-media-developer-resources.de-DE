@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Bestimmte Inhalte, die der Video-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen zugeordneten Textwert für das englische Gebietsschema ( `"en"`) mit dem vordefinierten Viewer bereitgestellt. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen Textwert für das englische Gebietsschema ( `"en"`) mit dem vordefinierten Viewer bereitgestellt. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
 
-Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
 
 Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
@@ -90,11 +90,11 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den ausgewählten Schaltflächenstatus im Vollbildmodus. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den ausgewählten Vollbild-Schaltflächenstatus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für den Status der nicht ausgewählten Schaltfläche im Vollbildmodus. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den deaktivierten Vollbild-Schaltflächenstatus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -130,7 +130,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Weitere E-Mail-Adresse hinzufügen". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Add Other Email Address". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ADD </span> </p> </td> 
@@ -198,7 +198,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.EMBED_SIZE </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Kombinationsfeld "Einbettungsgröße". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Kombinationsfeld Einbettungsgröße . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL </span> </p> </td> 
@@ -258,7 +258,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Twitter-Freigabeschaltfläche. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Twitter freigeben". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

@@ -1,21 +1,21 @@
 ---
-description: eCatalog Search Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente in der Benutzeroberfläche oder im dedizierten Miniaturansichtsmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
-keywords: responsiv
+description: eCatalog Search Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des dedizierten Miniaturansichtsmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
+keywords: responsive
 solution: Experience Manager
 title: eCatalog-Suche
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # eCatalog-Suche{#ecatalog-search}
 
-eCatalog Search Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente in der Benutzeroberfläche oder im dedizierten Miniaturansichtsmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
+eCatalog Search Viewer ist ein Katalog-Viewer, der elektronische Broschüren auf breiter Basis oder seitenweise anzeigt. Mit dem eCatalog können Benutzer mithilfe zusätzlicher Elemente der Benutzeroberfläche oder des dedizierten Miniaturansichtsmodus durch den Katalog navigieren. Benutzer können auch auf jeder Seite heranzoomen, um mehr Details zu erhalten.
 
 Dieser Viewer arbeitet mit E-Katalogen und unterstützt optionale Imagemaps und Tools zur Freigabe in sozialen Netzwerken. Es verfügt über Zoom-Tools, Katalognavigationswerkzeuge, Vollbildunterstützung, Miniaturen und eine optionale Schließen-Schaltfläche. Der Viewer unterstützt auch Social-Sharing-Tools, Drucken, Herunterladen und Favoriten. Es wurde für Desktops und Mobilgeräte entwickelt.
 
@@ -39,7 +39,7 @@ Der eCatalog Search Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von 
 
 Sie können den eCatalog Search Viewer im Popup-Modus verwenden, indem Sie eine produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird, oder im eingebetteten Modus, wo sie mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
-Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Alle Skins werden über benutzerdefiniertes CSS erstellt.
+Die Konfiguration und die Skinning-Funktion ähneln denen der anderen Viewer. Die gesamte Skinning-Funktion wird über benutzerdefiniertes CSS erreicht.
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -84,15 +84,15 @@ Dieser Viewer unterstützt auch Touch-Eingabe- und Mauseingaben auf Windows-Ger�
 
 ## Tools zur Freigabe in Social Media mit dem eCatalog Search Viewer {#section-eb575084a99647c3a9591f439f40b412}
 
-Der eCatalog Search Viewer unterstützt Tools zur Freigabe in sozialen Netzwerken. Diese sind als Schaltfläche in der Hauptsteuerleiste verfügbar, die sich durch Klicken oder Tippen auf eine Freigabe-Symbolleiste erweitert.
+Der eCatalog Search Viewer unterstützt Tools zur Freigabe in sozialen Netzwerken. Sie sind als Schaltfläche in der Hauptsteuerungsleiste verfügbar, die sich zu einer Freigabe-Symbolleiste erweitert, wenn ein Benutzer darauf klickt oder tippt.
 
-Die Freigabe-Symbolleiste enthält Symbole für jeden unterstützten Freigabekanaltyp, darunter Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe von E-Mails, die Einbettung von Freigabe oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Formular für die Dateneingabe an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer von einem Social-Dienst zu einem standardmäßigen Dialogfeld für die Freigabe um. Die Freigabe-Tools sind aufgrund der Sicherheitseinschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
+Die Freigabe-Symbolleiste enthält Symbole für jeden unterstützten Freigabekanaltyp, darunter Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe von E-Mails, die Einbettung von Freigabe oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer von einem Social-Dienst zu einem standardmäßigen Freigabedialogfeld um. Die Freigabe-Tools sind aufgrund der Sicherheitseinschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
 
 Die Suchfunktion des Viewers ist in der Hauptsymbolleiste als gläsernes Symbol verfügbar. Durch Klicken oder Tippen auf das Symbol wird der Suchbereich mit einem Eingabefeld aktiviert. Nach Eingabe eines Suchbegriffs oder einer Wortgruppe und Drücken der Eingabetaste rendert der Viewer Suchergebnisse im Bedienfeld und markiert die gefundenen Wörter in der Hauptansicht.
 
 ## Einbetten des eCatalog Search-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der, wenn ausgewählt, den Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung fester Größe und Einbettung responsiver Designs.
+Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der, wenn ausgewählt, den Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei Hauptbetriebsmodi: Popup, Einbettung fester Größe und Einbettung responsiver Designs.
 
 **Über den Popup-Modus**
 
@@ -128,7 +128,7 @@ Andernfalls, wenn die Webseite sowohl die Breite als auch die Höhe für den Con
 
 **Einbettung fester Größe**
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie wie folgt vorgehen:
+Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Definieren des Container-DIV.
@@ -187,7 +187,7 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Initialisieren des Viewers.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz von `s7viewers.eCatalogSearchViewer` -Klasse, übergeben Sie alle Konfigurationsinformationen an ihren Konstruktor und rufen Sie `init()` -Methode in einer Viewer-Instanz verwenden. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt hat mindestens die `containerId` -Feld, das den Namen der Viewer-Container-ID und verschachtelt enthält `params` JSON-Objekt mit Konfigurationsparametern, die vom Viewer unterstützt werden. In diesem Fall wird die `params` -Objekt muss mindestens über die Image Serving-URL verfügen, die als `serverUrl` -Eigenschaft und das erste Asset als `asset` Parameter. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
+   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz von `s7viewers.eCatalogSearchViewer` -Klasse, übergeben Sie alle Konfigurationsinformationen an ihren Konstruktor und rufen Sie `init()` -Methode in einer Viewer-Instanz verwenden. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt hat mindestens die `containerId` -Feld, das den Namen der Viewer-Container-ID und verschachtelt enthält `params` JSON-Objekt mit Konfigurationsparametern, die vom Viewer unterstützt werden. In diesem Fall wird die `params` -Objekt muss mindestens über die Image Serving-URL verfügen, die als `serverUrl` -Eigenschaft und das anfängliche Asset als `asset` -Parameter. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
 
    Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Um die maximale Kompatibilität sicherzustellen, rufen Sie jedoch die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder im Hauptteil `onload()` -Ereignis.
 
@@ -368,7 +368,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 **Einbetten mit Setter-basierter API**
 
-Statt die JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit diesem API-Konstruktor nehmen keine Parameter auf und Konfigurationsparameter werden mit `setContainerId()`, `setParam()`und `setAsset()` API-Methoden mit separaten JavaScript-Aufrufen.
+Statt die JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit diesem API-Konstruktor nehmen keine Parameter auf und Konfigurationsparameter werden mit `setContainerId()`, `setParam()`, und `setAsset()` API-Methoden mit separaten JavaScript-Aufrufen.
 
 Das folgende Beispiel zeigt die Einbettung von fester Größe in eine setter-basierte API:
 

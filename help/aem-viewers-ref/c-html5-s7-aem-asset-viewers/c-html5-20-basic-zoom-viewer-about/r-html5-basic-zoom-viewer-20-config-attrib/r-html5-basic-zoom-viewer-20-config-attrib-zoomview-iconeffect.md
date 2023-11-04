@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: faec00b3-b981-4831-bc97-dff442389133
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '115'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert die Anzeige von IconEffect über dem Bild, wenn das Bild zurückgesetzt ist und eine verfügbare Aktion vorgeschlagen wird, um mit dem Bild zu interagieren. </p> </td> 
+   <td colname="col2"> <p> Aktiviert die Anzeige von IconEffect über dem Bild, wenn das Bild zurückgesetzt ist und eine verfügbare Aktion für die Interaktion mit dem Bild vorgeschlagen wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit, nachdem die Einblendung-Animation abgeschlossen ist, aber bevor die Ausblendung beginnt. Eine Einstellung von <span class="codeph"> 0</span> deaktiviert das automatische Ausblenden. </p> </td> 
+   <td colname="col2"> <p>Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach dem Abschluss der Einblendanimation, aber bevor die Ausblendung beginnt. Eine Einstellung von <span class="codeph"> 0</span> deaktiviert das automatische Ausblenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

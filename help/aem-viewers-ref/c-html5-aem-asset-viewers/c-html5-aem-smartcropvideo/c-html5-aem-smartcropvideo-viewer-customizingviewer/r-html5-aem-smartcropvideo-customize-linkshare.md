@@ -4,7 +4,8 @@ description: Das Tool zur Linkfreigabe besteht aus einer Schaltfläche, die zum 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 2%
@@ -50,7 +51,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Linkfreigabe&quot;wird mit der folg
 >
 >Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in ihrer CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in der zugehörigen CSS-Klasse.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
@@ -117,7 +118,7 @@ Standardmäßig wird das modale Dialogfeld zentriert auf dem Bildschirm auf Desk
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Rahmenradius des Dialogfelds, falls das Dialogfeld nicht den gesamten Browser annimmt. </p> </td> 
+   <td colname="col2"> <p> Rahmenradius des Dialogfelds, falls das Dialogfeld nicht den gesamten Browser akzeptiert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -184,7 +185,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
+**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -390,7 +391,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 
 >[!NOTE]
 >
->Die Schaltfläche Alle auswählen unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Die Schaltfläche &quot;Alle auswählen&quot;unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
 Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -445,7 +446,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
+   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
@@ -559,7 +560,7 @@ Beispiel: Zum Einrichten eines Hauptdialogfeld-Bereichs mit einer Höhe von 300 
 }
 ```
 
-Der gesamte Formularinhalt (z. B. Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit
+Der gesamte Formularinhalt (wie Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbody
@@ -571,7 +572,7 @@ Der gesamte Formularinhalt (z. B. Beschriftungen und Eingabefelder) befindet sic
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -602,7 +603,7 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
+   <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
@@ -643,7 +644,7 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -663,7 +664,7 @@ Der Freigabe-Link ist in einen Container eingeschlossen und wird mit der folgend
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -673,7 +674,7 @@ Der Freigabe-Link ist in einen Container eingeschlossen und wird mit der folgend
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>

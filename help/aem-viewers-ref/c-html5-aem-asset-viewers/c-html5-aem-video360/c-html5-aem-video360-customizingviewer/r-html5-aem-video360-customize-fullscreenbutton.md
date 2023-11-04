@@ -1,24 +1,24 @@
 ---
-title: Schaltfläche "Vollbild"
+title: Schaltfläche im Vollbildmodus
 description: Die Schaltfläche im Vollbildmodus bewirkt, dass der Videoplayer den Vollbildmodus aufruft oder verlässt, wenn ein Benutzer darauf klickt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
-# Schaltfläche &quot;Vollbild&quot;{#full-screen-button}
+# Schaltfläche im Vollbildmodus{#full-screen-button}
 
 Die Schaltfläche im Vollbildmodus bewirkt, dass der Videoplayer den Vollbildmodus aufruft oder verlässt, wenn ein Benutzer darauf klickt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Sie können die Vollbildschaltfläche in Bezug auf die sie enthaltende Steuerleiste durch CSS anpassen, gestalten und positionieren.
+Sie können die Schaltfläche im Vollbildmodus in Bezug auf die sie enthaltende Steuerleiste über CSS anpassen, gestalten und positionieren.
 
 Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassenauswahl gesteuert:
 
@@ -26,7 +26,7 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 .s7video360viewer .s7fullscreenbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Vollbild&quot;**
+**CSS-Eigenschaften der Vollbild-Schaltfläche**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -55,11 +55,11 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
    <td colname="col2"> <p>Die Höhe der Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das angezeigte Bild für einen gegebenen Schaltflächenstatus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +67,11 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` dem Status &quot;Vollbild&quot;entspricht und `selected='false'` entspricht dem Status &quot;normal&quot;.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-**Beispiel**  - Zum Einrichten einer Vollbildschaltfläche mit 32 x 32 Pixel und positionierter 6 Pixel vom oberen und rechten Rand der Steuerleiste. Zeigen Sie außerdem ein anderes Bild für jeden der vier Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
+**Beispiel** - So richten Sie eine Vollbildschaltfläche mit einer Größe von 32 x 32 Pixel ein und positionieren 6 Pixel von der oberen und rechten Kante der Steuerleiste. Zeigen Sie außerdem ein anderes Bild für jeden der vier Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 
 ```
 .s7video360viewer . s7fullscreenbutton { 

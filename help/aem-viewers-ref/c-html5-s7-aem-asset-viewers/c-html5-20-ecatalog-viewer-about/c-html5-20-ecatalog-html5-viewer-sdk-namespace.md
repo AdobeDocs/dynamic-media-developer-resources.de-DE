@@ -5,16 +5,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c5286e1f-1f43-4cb8-b876-dc843f8112f5
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
 
 # Namespace des Viewer-SDK{#viewer-sdk-namespace}
 
-Der Viewer besteht aus vielen Viewer-SDK-Komponenten. Normalerweise muss die Webseite nicht direkt mit der SDK-Komponenten-API interagieren. alle allgemeinen Anforderungen werden in der Viewer-API selbst behandelt.
+Der Viewer besteht aus vielen Viewer-SDK-Komponenten. Normalerweise muss die Web-Seite nicht direkt mit der SDK-Komponenten-API interagieren. Alle allgemeinen Anforderungen werden in der Viewer-API selbst behandelt.
 
 Einige erweiterte Anwendungsfälle erfordern jedoch, dass die Webseite mithilfe der `getComponent()` Viewer-API verwenden und dann die gesamte Flexibilität der APIs des SDK selbst nutzen.
 

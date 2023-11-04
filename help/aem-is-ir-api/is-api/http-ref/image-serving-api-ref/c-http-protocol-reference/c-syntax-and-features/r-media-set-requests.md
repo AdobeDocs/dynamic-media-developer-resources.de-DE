@@ -5,9 +5,9 @@ title: Medienset-Anforderungen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Mit diesem Mechanismus können Viewer Antworten generieren, um die Präsentation
 
 ## Anforderungssyntax {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-Die festgelegte Antwort für eine `catalog::ImageSet` kann mithilfe der `req=set` -Modifikator und Verweis auf die Katalogdatensatz-ID im Netzpfad. Alternativ kann das Bildset direkt in der URL angegeben werden, indem Sie die `imageset=` -Modifikator. Wenn die Variable `imageset=` -Modifikator zum Angeben des Bildsatzes verwendet wird, sollte der gesamte Wert in geschweifte Klammern eingeschlossen sein, um den Bildsatzwert zu maskieren und sicherzustellen, dass eingeschlossene Modifikatoren nicht als Teil der URL-Abfragezeichenfolge interpretiert werden.
+Die festgelegte Antwort für eine `catalog::ImageSet` kann mithilfe der `req=set` -Modifikator und Verweis auf die Katalogdatensatz-ID im Netzpfad. Alternativ kann das Bildset direkt in der URL angegeben werden, indem die `imageset=` -Modifikator. Wenn die Variable `imageset=` -Modifikator zum Angeben des Bildsatzes verwendet wird, sollte der gesamte Wert in geschweifte Klammern eingeschlossen sein, um den Bildsatzwert zu maskieren und sicherzustellen, dass eingeschlossene Modifikatoren nicht als Teil der URL-Abfragezeichenfolge interpretiert werden.
 
 ## Typen von festgelegten Antworten {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -79,12 +79,12 @@ Wenn ein `req=set` -Anfrage empfangen wird, wird der Typ der zu generierenden An
 
 * Wenn Datensatz sowohl in Bild- als auch in statischen Inhaltskatalogen gefunden wird
 
-   * Nehmen Sie als Video an, wenn die Dateierweiterung in folgendem Satz liegt: mp3, mp4, flv, f4v, swf, xml
+   * Angenommen, ein Video ist im folgenden Satz enthalten: mp3, mp4, flv, f4v, swf, xml
    * Ansonsten Bild annehmen
 
 * Wenn Datensatz im statischen Inhaltskatalog, NICHT jedoch im Bildkatalog gefunden wird
 
-   * Nehmen Sie als Video an, wenn die Dateierweiterung in folgendem Satz liegt: mp3, mp4, flv, f4v, swf, xml
+   * Angenommen, ein Video ist im folgenden Satz enthalten: mp3, mp4, flv, f4v, swf, xml
    * Ansonsten statische Annahme
 
 * Wenn Eintrag im Bildkatalog, aber NICHT im statischen Inhaltskatalog gefunden wird
@@ -96,7 +96,7 @@ Wenn ein `req=set` -Anfrage empfangen wird, wird der Typ der zu generierenden An
    * Nehmen Sie ein dateibasiertes Video an, wenn die Dateierweiterung in folgendem Satz liegt: mp3, mp4, flv, f4v, swf, xml
    * Angenommen, dateibasiertes Bild ist anders
 
-In allen Fällen entspricht die resultierende XML-Antwort dem angegebenen XML-Dokument mit dem festgelegten Stammknoten, der dem erkannten Typ entspricht.
+In allen Fällen konform die resultierende XML-Antwort mit dem angegebenen XML-Dokument mit dem festgelegten Stammknoten, der dem erkannten Typ entspricht.
 
 ## Erkennung des inneren Sets {#section-8f46490e467247e69ce284704def06f3}
 

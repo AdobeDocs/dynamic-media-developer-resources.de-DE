@@ -5,10 +5,10 @@ title: Anker
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '112'
+ht-degree: 4%
 
 ---
 
@@ -22,12 +22,12 @@ Definiert auch den standardmäßigen Mittelpunkt für die Drehung.
 
 Zwei Ganzzahlen, durch Kommas getrennt. Pixel-Versatz relativ zur oberen linken Ecke des Vollbildbilds.
 
-Überschrieben durch `anchor=` (die wiederum mit `origin=` überschrieben werden können).
+Überschrieben von `anchor=`(die wiederum mit `origin=`).
 
 ## Standard {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-Der Mittelpunkt des Bildes wird verwendet, wenn dieses Feld nicht vorhanden oder leer ist und es ein gültiger Bilddatensatz ist (d. h. wenn `catalog::Path` gültig ist).
+Der Mittelpunkt des Bildes wird verwendet, wenn dieses Feld nicht vorhanden oder leer ist und es ein gültiger Bilddatensatz ist (d. h. wenn `catalog::Path` ist gültig).
 
 ## Verwandte Themen {#section-f605d29c3f5d48ad8e2a374f11886f19}
 
-[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) ,  [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) , [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)

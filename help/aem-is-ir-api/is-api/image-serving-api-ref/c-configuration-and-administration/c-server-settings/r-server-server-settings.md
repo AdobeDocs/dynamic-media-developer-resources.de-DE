@@ -5,9 +5,9 @@ title: Server
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Gibt den Anschluss an, der für die Kommunikation zwischen dem [!DNL Platform Se
 
 Die ungefähre Grenze für Bilddaten im Arbeitsspeicher, ausgedrückt als Prozentsatz des physischen Arbeitsspeichers. Der gültige Bereich liegt zwischen 10 % und 90 %. Der Image-Server versucht, die Verwendung des Bildspeichers nach Möglichkeit auf die angegebene Menge zu beschränken. Die Höchstgrenze kann während der Aktivität der schweren Verarbeitung vorübergehend überschritten werden.
 
-## IS::WorkerThreads - Anzahl der Image Server-Worker-Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Number of Image Server Worker Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Die maximale Anzahl von Threads, die der Image-Server zur Verarbeitung von Bilddaten verwendet. Der Standardwert ist 0, was es dem Image-Server ermöglicht, die Thread-Anzahl automatisch zu optimieren.
 
-Einige Betriebssysteme verfügen über Threading-Modelle mit einem hohen kontextbezogenen Switching-Overhead. Unter solchen Umständen kann sich die Gesamtleistung des Servers bei Auswahl einer bestimmten Thread-Anzahl (z. B. ein Thread pro CPU) verbessern. Möglicherweise sind einige Experimente erforderlich, um die optimale Einstellung zu finden. Weitere Informationen finden Sie in den Image Serving-Versionshinweisen und in der Dokumentation zum Betriebssystem.
+Einige Betriebssysteme verfügen über Threading-Modelle mit einem hohen kontextbezogenen Switching-Overhead. Unter solchen Umständen kann sich die Gesamtleistung des Servers bei Auswahl einer bestimmten Thread-Anzahl verbessern (z. B. ein Thread pro CPU). Möglicherweise sind einige Experimente erforderlich, um die optimale Einstellung zu finden. Weitere Informationen finden Sie in den Image Serving-Versionshinweisen und in der Dokumentation zum Betriebssystem.
 
 ## IS::NumberOfTextServers - Anzahl der Textserverinstanzen {#section-971e20a90c1a473598fba738ed95671a}
 
@@ -56,4 +56,4 @@ Die maximale Anzahl von Text-Renderern, die gleichzeitig aktiv sein können. 0 (
 
 ## IS::TextServerTcpPortRange - Text Server Communication Ports {#section-a13465de88ed4df09931e5ba840c1942}
 
-Die für die Textserverkommunikation zu verwendenden Ports. Geben Sie die erste und letzte Portnummer, getrennt durch &#39;-&#39;, an.
+Die Ports, die für die Kommunikation mit dem Textserver verwendet werden. Geben Sie die erste und letzte Portnummer, getrennt durch &#39;-&#39;, an.

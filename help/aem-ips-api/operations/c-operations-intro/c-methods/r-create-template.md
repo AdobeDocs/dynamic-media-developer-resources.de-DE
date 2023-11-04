@@ -5,10 +5,10 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 10%
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Erstellt ein Bild mit mehreren Ebenen, das über mehrere Text- und Bildebenen verfügen kann.
 
-Die `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle an, die vor vom Benutzer bereitgestellten Befehlen auf die URL angewendet wurden. Die `urlPostApplyModifier` -Parameter gibt Protokollbefehle an, die auf beliebige URL-Befehle angewendet werden, wodurch alle vom Benutzer bereitgestellten widersprüchlichen Einstellungen außer Kraft gesetzt werden.
+Die `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle an, die vor vom Benutzer bereitgestellten Befehlen auf die URL angewendet wurden. Die `urlPostApplyModifier` -Parameter gibt Protokollbefehle an, die auf beliebige URL-Befehle angewendet werden, wodurch alle vom Benutzer bereitgestellten, in Konflikt stehenden Einstellungen außer Kraft gesetzt werden.
 
 ## Autorisierte Benutzertypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +47,7 @@ Die `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle 
 
 ## Beispiele {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Dieses Codebeispiel erstellt eine Vorlage in einem Ordner, der von einem Handle mit dem Namen `APIcreateTemplate`, `urlModifier`und `urlPostApplyModifier`. Die Antwort gibt den Handle an die neu erstellte Vorlage zurück.
+Dieses Codebeispiel erstellt eine Vorlage in einem Ordner, der von einem Handle mit dem Namen `APIcreateTemplate`, a `urlModifier`und ein `urlPostApplyModifier`. Die Antwort gibt den Handle an die neu erstellte Vorlage zurück.
 
 **Anforderung**
 

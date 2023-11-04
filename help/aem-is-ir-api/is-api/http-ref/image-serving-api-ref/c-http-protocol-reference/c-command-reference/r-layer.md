@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '382'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Wählen Sie Ebene aus. Wählt eine Ebene aus und startet ein neues Ebenendefinit
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p></td> 
-  <td class="stentry"> <p>Name der Ebene. </p></td> 
+  <td class="stentry"> <p>Ebenenname. </p></td> 
  </tr> 
 </table>
 
@@ -65,11 +65,11 @@ Ebenenbefehl. Ersatzvariablenverweise werden in `layer=`.
 * Wenn derselbe Name mehrmals einer Ebene zugeordnet wird (z. B.: `layer=1,image&layer=1,image`), wird der Umfang wie gewohnt ohne Fehler festgelegt.
 * Es werden mehrere Namen für dieselbe Ebene unterstützt.
 
-   Jeder Name kann verwendet werden, um auf die Ebene zu verweisen (z. B.: `layer=1,image&layer=1,picture`).
+  Mit beiden Namen können Sie auf die Ebene verweisen (z. B.: `layer=1,image&layer=1,picture`).
 * Wenn ein referenzierter Name nie einer Ebenennummer zugeordnet wird (z. B.: `layer=1,image&layer=picture`), tritt ein Fehler auf.
 * Ersatzvariablen werden in Ebenen-Modifikatoren nicht unterstützt (z. B.: `layer=$image$`).
 
-   Dies gilt für alle Permutationen, nicht nur für Ebenennamen, sondern auch für allgemeine Ebenenmodifikatoren.
+  Dies gilt für alle Permutationen, nicht nur für Ebenennamen, sondern auch für allgemeine Ebenenmodifikatoren.
 
 * Alle Zusammenführungs- und Überschreibungsregeln sollten genau so funktionieren, wie wenn dieselbe Ebene in mehreren Quellen referenziert wird (Katalogdatensätze vor oder nach dem Modifikator, Makros usw.).
 

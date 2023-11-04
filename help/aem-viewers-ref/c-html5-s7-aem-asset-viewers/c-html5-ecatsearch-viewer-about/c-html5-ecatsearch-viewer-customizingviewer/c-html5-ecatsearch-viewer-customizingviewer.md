@@ -1,14 +1,14 @@
 ---
 title: Anpassen des eCatalog Search-Viewers
 description: Die visuelle Anpassung und die meisten Verhaltensanpassungen für den eCatalog Search Viewer erfolgen durch Erstellen eines benutzerdefinierten CSS.
-keywords: responsiv
+keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer `.s7eca
 
 Es ist möglich, verschiedene Geräte anzusprechen und Größen in CSS einzubetten, damit Ihre Inhalte je nach Gerät eines Benutzers oder Layout einer bestimmten Webseite unterschiedlich angezeigt werden. Dieses Targeting umfasst, aber nicht ausschließlich, verschiedene Webseitenlayouts, Elementgrößen der Benutzeroberfläche und die Auflösung von Grafiken.
 
-Der Viewer unterstützt zwei Methoden zum Erstellen von responsivem entworfenem CSS: CSS-Markierungen und Standard-CSS-Medienabfragen. Sie können diese Methoden unabhängig oder gemeinsam verwenden.
+Der Viewer unterstützt zwei Methoden zum Erstellen von responsiv gestaltetem CSS: CSS-Markierungen und Standard-CSS-Medienabfragen. Sie können diese Methoden unabhängig oder gemeinsam verwenden.
 
 **CSS-Markierungen**
 
 Um responsives CSS zu erstellen, unterstützt der Viewer CSS-Markierungen, die spezielle CSS-Klassen darstellen, die dynamisch dem Viewer-Container-Element der obersten Ebene basierend auf der Laufzeit-Viewer-Größe und dem Eingabetyp auf dem aktuellen Gerät zugewiesen werden.
 
-Die erste Gruppe von CSS-Markern umfasst `.s7size_large`, `.s7size_medium`und `.s7size_small` Klassen. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Das heißt, wenn der Viewer-Bereich gleich oder größer als die Größe eines gemeinsamen Desktop-Monitors ist `.s7size_large` verwendet wird; wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt `.s7size_medium` zugewiesen wurde. Für Bereiche ähnlich wie Mobiltelefonbildschirme. Die Markierung `.s7size_small` festgelegt ist. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
+Die erste Gruppe von CSS-Markern umfasst `.s7size_large`, `.s7size_medium`, und `.s7size_small` Klassen. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Das heißt, wenn der Viewer-Bereich gleich oder größer als die Größe eines gemeinsamen Desktop-Monitors ist `.s7size_large` verwendet wird; wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt `.s7size_medium` zugewiesen wurde. Für Bereiche ähnlich wie Mobiltelefonbildschirme. Die Markierung `.s7size_small` festgelegt ist. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
 
 Die zweite Gruppe von CSS-Markern umfasst `.s7mouseinput` und `.s7touchinput`. Die Markierung `.s7touchinput` festgelegt ist, wenn das aktuelle Gerät über Touch-Eingabefunktionen verfügt; andernfalls `.s7mouseinput` verwendet. Diese Markierungen dienen zur Erstellung von Eingabeelementen der Benutzeroberfläche mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen, da Touch-Eingaben normalerweise größere Elemente erfordern. Falls das Gerät sowohl über eine Maus- als auch eine Touch-Funktion verfügt, `.s7touchinput` festgelegt ist und der Viewer eine Touch-optimierte Benutzeroberfläche rendert.
 
@@ -79,7 +79,7 @@ Die Geräteerkennung kann auch mit reinen CSS-Medienabfragen durchgeführt werde
 
 Verwenden Sie bei Anwendung auf Mobile Viewer vier CSS-Medienabfragen, die in Ihrem CSS in der folgenden Reihenfolge definiert sind:
 
-1. Enthält nur Regeln, die für alle Touch-Geräte spezifisch sind.
+1. Enthält nur für alle Touch-Geräte spezifische Regeln.
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px), 
@@ -143,7 +143,7 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 }
 ```
 
-Der Nachteil dieses Ansatzes besteht darin, dass der Endbenutzer flackernde oder verzögerte Antworten auf die Benutzeroberfläche erfährt, wenn das Element zum ersten Mal mit interagiert wird. Diese Aktion tritt auf, da die Bildgrafik für den neuen Elementstatus noch nicht heruntergeladen wurde. Dieser Ansatz kann sich aufgrund der gestiegenen Anzahl an HTTP-Aufrufen an den Server auch geringfügig negativ auf die Leistung auswirken.
+Der Nachteil dieses Ansatzes besteht darin, dass der Endbenutzer flackernde oder verzögerte Antworten auf die Benutzeroberfläche erfährt, wenn das Element zum ersten Mal verwendet wird. Diese Aktion tritt auf, da die Bildgrafik für den neuen Elementstatus noch nicht heruntergeladen wurde. Dieser Ansatz kann sich aufgrund der gestiegenen Anzahl an HTTP-Aufrufen an den Server auch geringfügig negativ auf die Leistung auswirken.
 
 CSS-Sprites ist ein anderer Ansatz, bei dem Bildgrafiken für alle Elementzustände in einer PNG-Datei namens &quot;Sprite&quot;kombiniert werden. Ein solches &quot;Sprite&quot;hat alle visuellen Status für das jeweilige Element, das nacheinander positioniert wird. Beim Formatieren eines Benutzeroberflächenelements mit Sprites wird für alle verschiedenen Status in CSS auf dasselbe Sprite-Bild verwiesen. Außerdem wird die `background-position` -Eigenschaft wird für jeden Status verwendet, um anzugeben, welcher Teil des &quot;Sprite&quot;-Bildes verwendet wird. Sie können ein &quot;Sprite&quot;-Bild auf jede geeignete Weise strukturieren. Normalerweise wird sie von Viewern vertikal gestapelt. Nachfolgend finden Sie ein &quot;sprite&quot;-basiertes Beispiel für die Formatierung der gleichen Zoom-in-Schaltfläche von oben:
 
@@ -191,7 +191,7 @@ Im Folgenden finden Sie die Referenzdokumentation zu Elementen der Benutzeroberf
 * [Favoritenansicht](r-html5-ecatsearch-customize-favoritesview.md)
 * [Schaltfläche &quot;Erste Seite&quot;](r-html5-ecatsearch-customize-firstpagebutton.md)
 * [Fokushervorhebung](r-html5-ecatsearch-customize-focushighlight.md)
-* [Schaltfläche &quot;Vollbild&quot;](r-html5-ecatsearch-customize-fullscreenbutton.md)
+* [Schaltfläche im Vollbildmodus](r-html5-ecatsearch-customize-fullscreenbutton.md)
 * [Symboleffekt](r-html5-ecatsearch-customize-iconeffect.md)
 * [Popup für Infobereich](r-html5-ecatsearch-customize-infopanelpopup.md)
 * [Bild-Map-Effekt](r-html5-ecatsearch-customize-imagemapeffect.md)
@@ -199,7 +199,7 @@ Im Folgenden finden Sie die Referenzdokumentation zu Elementen der Benutzeroberf
 * [Schaltfläche &quot;Große vorherige Seite&quot;](r-html5-ecatsearch-customize-largepreviouspagebutton.md)
 * [Schaltfläche &quot;Letzte Seite&quot;](r-html5-ecatsearch-customize-lastpagebutton.md)
 * [Linkfreigabe](r-html5-ecatsearch-customize-linkshare.md)
-* [Hauptsteuerleiste](r-html5-ecatsearch-customize-maincontrolbar.md)
+* [Hauptrollleiste](r-html5-ecatsearch-customize-maincontrolbar.md)
 * [Hauptanzeige-Bereich](r-html5-ecatsearch-customize-mainviewerarea.md)
 * [Schaltfläche &quot;Nächste Seite&quot;](r-html5-ecatsearch-customize-nextpagebutton.md)
 * [Seitenanzeige](r-html5-ecatsearch-customize-pageindicator.md)
@@ -213,9 +213,9 @@ Im Folgenden finden Sie die Referenzdokumentation zu Elementen der Benutzeroberf
 * [Sekundäre Steuerleiste](r-html5-ecatsearch-customize-secondarycontrolbar.md)
 * [Social Share](r-html5-ecatsearch-customize-socialshare.md)
 * [Inhaltsverzeichnis](r-html5-ecatsearch-customize-tableofcontents.md)
-* [Miniaturansichten](r-html5-ecatsearch-customize-thumbnails.md)
+* [Miniaturen](r-html5-ecatsearch-customize-thumbnails.md)
 * [Schaltfläche &quot;Miniaturansichten&quot;](r-html5-ecatsearch-customize-thumbnailsbutton.md)
-* [QuickInfos](r-html5-ecatsearch-customize-tooltips.md)
+* [Tooltips](r-html5-ecatsearch-customize-tooltips.md)
 * [Twitter Share](r-html5-ecatsearch-customize-twittershare.md)
 * [Schaltfläche &quot;Alle Favoriten anzeigen&quot;](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Schaltfläche &quot;Vergrößern&quot;](r-html5-ecatsearch-customize-zoominbutton.md)

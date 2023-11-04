@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Image Serving unterstützt die folgenden Befehle unter [!DNL /is/content]:
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> type </a> </p> </td> 
-  <td class="stentry"> <p>Inhaltstypfilter. </p> </td> 
+  <td class="stentry"> <p>Inhaltstyp . </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>und <span class="codeph"> req=exists </span> nur. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>, und <span class="codeph"> req=exists </span> nur. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache </a> </p> </td> 
@@ -102,7 +102,7 @@ Statische Inhaltskataloge ähneln Bildkatalogen, unterstützen jedoch weniger Da
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
-   <td colname="col2"> <p>Optionale Metadaten, die mit diesem statischen Inhaltselement verknüpft sind; für den Client mit <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col2"> <p>Optionale Metadaten, die mit diesem statischen Inhaltselement verknüpft sind; für den Client verfügbar mit <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
@@ -119,11 +119,11 @@ Dieser Mechanismus kann dazu beitragen, dass Kunden nur Inhalte erhalten, die ih
 
 Sie können Videountertiteldateien (WebVTT), CSS oder beliebige Textdateien im JSONP-Format einschließen. Die JSON-Antwort wird unten beschrieben.
 
-* Bei WebVTT-Dateien lautet der MIME-Typ der Antwort text/javascript. JSON wird nicht zurückgegeben; Stattdessen wird JavaScript zurückgegeben, das eine Methode mit JSON aufruft. Sowohl die ID als auch der Handler sind optional.
+* Bei WebVTT-Dateien lautet der MIME-Typ der Antwort text/javascript. JSON wird nicht zurückgegeben. Stattdessen wird JavaScript zurückgegeben, das eine Methode mit JSON aufruft. Sowohl die ID als auch der Handler sind optional.
 * Bei CSS-Dateien lautet der MIME-Typ der Antwort text/javascript. Sowohl die ID als auch der Handler sind optional.
 * Standardmäßig wird die UTF-8-Kodierung angewendet, um sicherzustellen, dass sie korrekt dekodiert ist. Die standardmäßige Größenbeschränkung beträgt 2 MB.
 
-Sie können auch Tracks für andere Arten zeitgesteuerter Metadaten verwenden. Die Quelldaten für jedes Verfolgungselement sind Textdateien, die aus einer Liste zeitgesteuerter Hinweise bestehen. Cues können Daten in Formaten wie JSON oder CSV enthalten.
+Sie können auch Tracks für andere Arten zeitgesteuerter Metadaten verwenden. Die Quelldaten für jedes Tracking-Element sind Textdateien, die aus einer Liste mit zeitgesteuerten Hinweisen bestehen. Cues können Daten in Formaten wie JSON oder CSV enthalten.
 
 Siehe [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) für weitere Informationen zum JSONP-Format.
 

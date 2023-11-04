@@ -1,18 +1,18 @@
 ---
-title: QuickInfos
+title: Tooltips
 description: Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche wie Schaltflächen über QuickInfos, die beim Bewegen der Maus angezeigt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 6367245a-be55-4b7e-bf9e-da4a0ecb556b
-source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
-# QuickInfos{#tooltips}
+# Tooltips{#tooltips}
 
 Auf Desktop-Systemen verfügen einige Elemente der Benutzeroberfläche wie Schaltflächen über QuickInfos, die beim Bewegen der Maus angezeigt werden.
 
@@ -63,7 +63,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
 
 >[!NOTE]
 >
->Falls QuickInfo-Stile von der eingebetteten Web-Seite aus angepasst werden, müssen alle Eigenschaften enthalten `!IMPORTANT` Regel. Diese Regel ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
+>Falls QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften enthalten `!IMPORTANT` Regel. Diese Regel ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
 
 Beispiel: Zum Einrichten von QuickInfos mit einem grauen Rahmen mit einem Radius von drei Pixelecken, schwarzem Hintergrund und weißem Text, der mit Arial® geschrieben wurde, mit einer Größe von 11 Pixel:
 

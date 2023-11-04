@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 2%
@@ -183,7 +183,7 @@ Das Kopfzeilensymbol wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
+**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -442,7 +442,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
+   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
@@ -568,7 +568,7 @@ Der gesamte Formularinhalt (wie Beschriftungen und Eingabefelder) befindet sich 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -654,7 +654,7 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
+   <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
@@ -685,13 +685,13 @@ Eingabedialoge werden in den Container eingeschlossen und mit der folgenden CSS-
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -763,7 +763,7 @@ Numerische Picker für die Auswahl von Druckbereichen werden mit der folgenden C
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten aller Optionsfelder mit schwarzem Text, zehn Pixelabständen und numerischen Pickern mit einer Breite von 42 Pixel:
+Beispiel: Um alle Optionsfelder mit schwarzem Text, zehn Pixelabständen und numerischen Pickern mit einer Breite von 42 Pixel einzurichten:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption { 
@@ -797,7 +797,7 @@ Die horizontale Aufteilung zwischen der Seitenbereichsauswahl und den Drucklayou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 

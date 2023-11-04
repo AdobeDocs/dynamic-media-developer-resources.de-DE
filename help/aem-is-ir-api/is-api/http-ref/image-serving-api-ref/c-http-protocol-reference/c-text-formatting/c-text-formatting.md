@@ -1,26 +1,26 @@
 ---
-description: Image Serving bietet verschiedene Alternativen zum Rendern von Text, auf die mit den Befehlen text= und textPs= zugegriffen werden kann.
+description: Image Serving bietet mehrere Alternativen zum Rendern von Text, auf den die Befehle text= und textPs= zugreifen können.
 solution: Experience Manager
 title: Textformatierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '558'
 ht-degree: 7%
 
 ---
 
 # Textformatierung{#text-formatting}
 
-Image Serving bietet verschiedene Alternativen zum Rendern von Text, auf die mit den Befehlen text= und textPs= zugegriffen werden kann.
+Image Serving bietet mehrere Alternativen zum Rendern von Text, auf den die Befehle text= und textPs= zugreifen können.
 
 `textPs=` bietet eine hohe Ähnlichkeit mit in Adobe Photoshop und Illustrator gerendertem Text. `text=` ist mit Text kompatibel, der mit Windows Wordpad gerendert wird.
 
 >[!NOTE]
 >
->Zusätzlich zu den an anderer Stelle aufgeführten Unterschieden führt `text=` zu geringfügigen Unterschieden im gerenderten Text im Vergleich zu `textPs=`. So weisen beispielsweise Unterstriche nicht die gleiche Dicke und Position auf und werden kursiv synthetisiert und in einem etwas anderen Winkel gerendert. Wenn der Text nicht in den verfügbaren Bereich passt, kann `text=` die letzte Zeile teilweise zuschneiden, während `textPs=` nur vollständige Zeilen rendert.
+>Zusätzlich zu den anderswo aufgeführten Unterschieden `text=` im Vergleich zu `textPs=`. So weisen beispielsweise Unterstriche nicht die gleiche Dicke und Position auf und werden kursiv synthetisiert und in einem etwas anderen Winkel gerendert. Wenn der Text nicht in den verfügbaren Platz passt, `text=` kann die letzte Zeile teilweise zuschneiden, während `textPs=` nur vollständige Zeilen rendert.
 
 Alle Textbefehle akzeptieren formatierten Text basierend auf einer Teilmenge der RTF-Spezifikation (Rich Text Format). Jede Textebene kann einen anderen Textbefehl angeben.
 
@@ -112,7 +112,7 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
    <td> <p>Fotofont®-Unterstützung </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> Schrifthandhabung </td> 
+   <td> Schriftverarbeitung </td> 
   </tr> 
   <tr> 
    <td> <p>Ebene automatisch an Textgröße anpassen </p> </td> 
@@ -147,15 +147,15 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
  </tbody> 
 </table>
 
-RTF-konforme Zeichenfolgen können manuell oder durch Formatierung des gewünschten Textes in einem Texteditor oder Textverarbeitungsprogramm zusammengestellt werden, der RTF-Dateien speichern kann. Die RTF-Datei kann dann in einem Texteditor geöffnet werden und der relevante RTF-Rohinhalt der Datei wird in die Anfrage-URL kopiert.
+RTF-konforme Zeichenfolgen können manuell oder durch Formatierung des gewünschten Textes in einem Texteditor oder Textverarbeitungsprogramm zusammengestellt werden, der RTF-Dateien speichern kann. Die RTF-Datei kann dann in einem Nur-Text-Editor geöffnet werden und der relevante RTF-Rohinhalt der Datei wird in die Anfrage-URL kopiert.
 
 Einige Textverarbeitungen erzeugen recht große Dateien, die wesentliche Präambel enthalten, die nicht von Dynamic Media Image Serving verwendet werden. Es wird empfohlen, die nicht verwendeten RTF-Elemente aus der Zeichenfolge zu entfernen, bevor die Zeichenfolge an die Textbefehle übergeben wird.
 
 Sprachkodierung basierend auf UTF-8- und ISO-Standards wird in RTF-Zeichenfolgen als Alternative zu den Standard-RTF-Zeichenkodierungsmechanismen unterstützt. Dadurch können Anwendungen nicht-englischsprachigen Text ohne Kenntnisse der RTF-Kodierung an den Server senden.
 
-Alle nicht HTTP-konformen Zeichen müssen ordnungsgemäß maskiert sein, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen maskiert werden, wenn die Zeichenfolge in das Feld `catalog::Modifiers` eines Bildkatalogdatensatzes integriert ist. Kontrollzeichen wie `<CR>`, `<LF>` und `<TAB>` sollten immer entfernt werden.
+Alle nicht HTTP-konformen Zeichen müssen ordnungsgemäß maskiert sein, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen maskiert werden, wenn die Zeichenfolge in die `catalog::Modifiers` -Feld eines Bildkatalogdatensatzes. Kontrollzeichen, einschließlich `<CR>`, `<LF>`, und `<TAB>` sollte immer entfernt werden.
 
-Die Image Serving Text Engines interpretieren eine Untergruppe von Befehlen, die durch die RTF-Spezifikation (Rich Text Format), Version 1.6 definiert werden. Diese Untergruppe konzentriert sich auf die Schriftart-/Zeichenformatierung, einfache Absatzformatierung und die Unterstützung für internationale Schriftarten und Zeichensätze. Erweiterte Formatierungskonstrukte wie Stylesheets und Tabellen werden derzeit nicht unterstützt.
+Die Image Serving-Text-Engines interpretieren einen Teil der Befehle, die durch die Rich Text Format (RTF)-Spezifikation, Version 1.6 definiert wurden. Diese Untergruppe konzentriert sich auf die Schriftart-/Zeichenformatierung, die einfache Absatzformatierung und die Unterstützung für internationale Schriftarten und Zeichensätze. Erweiterte Formatierungskonstrukte wie Stylesheets und Tabellen werden derzeit nicht unterstützt.
 
 Wenn Sie versuchen, RTF-kodierte Textzeichenfolgen manuell zu erstellen, müssen Sie mit der von Microsoft veröffentlichten Rich Text Format (RTF)-Spezifikation vertraut sein.
 

@@ -1,24 +1,24 @@
 ---
 title: Schaltfläche "Video im Vollbildmodus"
-description: Über die Schaltfläche im Vollbildmodus gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Videos anzeigt und in der Steuerleiste positioniert ist. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
+description: Die Schaltfläche im Vollbildmodus bewirkt, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn er vom Benutzer ausgewählt wird. Sie wird verwendet, wenn der Viewer Videos anzeigt und in der Steuerleiste positioniert ist. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
 # Schaltfläche &quot;Video im Vollbildmodus&quot;{#video-full-screen-button}
 
-Über die Schaltfläche &quot;Vollbild&quot;gelangt der Viewer in den Vollbildmodus oder beendet ihn, wenn er vom Benutzer ausgewählt wurde. Sie wird verwendet, wenn der Viewer Videos anzeigt und in der Steuerleiste positioniert ist. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
+Die Schaltfläche im Vollbildmodus bewirkt, dass der Viewer den Vollbildmodus aufruft oder verlässt, wenn er vom Benutzer ausgewählt wird. Sie wird verwendet, wenn der Viewer Videos anzeigt und in der Steuerleiste positioniert ist. Diese Schaltfläche wird nicht angezeigt, wenn der Viewer im Popup-Modus arbeitet und das System den nativen Vollbildmodus nicht unterstützt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Sie können die Vollbildschaltfläche in Bezug auf die sie enthaltende Steuerleiste durch CSS anpassen, gestalten und positionieren.
+Sie können die Schaltfläche im Vollbildmodus in Bezug auf die sie enthaltende Steuerleiste über CSS anpassen, gestalten und positionieren.
 
 Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassenauswahl gesteuert:
 
@@ -26,7 +26,7 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 .s7mixedmediaviewer .s7fullscreenbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Vollbild&quot;**
+**CSS-Eigenschaften der Vollbild-Schaltfläche**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -67,7 +67,7 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;Vollbild&quot;und `selected='false'` entspricht dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` dem Status &quot;Vollbild&quot;entspricht und `selected='false'` entspricht dem Status &quot;normal&quot;.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 

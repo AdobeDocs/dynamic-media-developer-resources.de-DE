@@ -5,10 +5,10 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 2%
+source-wordcount: '1204'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Bildkonvertierungsdienstprogramm.
 
 Es wird empfohlen, PTIFF-Dateien, die fotografische Inhalte enthalten, JPEG-kodiert zu haben (geben Sie `-jpegcompress`). Computergenerierte Inhalte können von verlustfreier Komprimierung profitieren (entweder `-deflatecompress` oder `-lzwcompress`). Sofern keine Farbkonvertierung oder Pixeltypkonvertierung erforderlich ist, werden die JPEG-Quellbilddaten ohne Dekodierung in das PTIFF-Format übertragen, um eine Qualitätsminderung zu vermeiden. In diesem Fall gelten die angegebenen Komprimierungsoptionen nur für die Pyramidenebenen mit niedrigerer Auflösung.
 
-Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter festlegen, die steuern, wie viel Speicher Sie verwenden. Wenn Sie dies jedoch tun, geben Sie `ic` mehr Speicher durch Verwendung von `-maxmem` unten beschrieben. Eine gute Faustregel für die Berechnung der erforderlichen Speichermenge besteht darin, die Breite des Bilds zu multiplizieren, um die Höhe des Bildes mit der Anzahl der Kanäle zu multiplizieren. Beispiel: Vier für ein RGB-Bild mit dem Alphakanal mal drei. Darüber hinaus, wenn die Kanäle 16 Bit pro Komponente statt 8 Bit sind das endgültige Ergebnis.
+Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter festlegen, die steuern, wie viel Speicher Sie verwenden. Wenn Sie dies jedoch tun, geben Sie `ic` mehr Speicher durch Verwendung von `-maxmem` unten beschrieben. Eine gute Faustregel für die Berechnung der erforderlichen Speichermenge besteht darin, die Breite des Bilds zu multiplizieren, um die Höhe des Bildes mit der Anzahl der Kanäle zu multiplizieren. Beispiel: Vier für ein RGB-Bild mit dem Alphakanal mal drei. Darüber hinaus, wenn die Kanäle 16 Bit pro Komponente statt 8 Bit sind das finale Ergebnis.
 
 ## Nutzung {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -106,8 +106,8 @@ Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter fest
 <p><i><b>corner</b></i> - ul | EUR | ll | lr </p>
    <p> Gibt an, in welcher Ecke des Bildes ein Seed-Punkt verwendet werden soll. Wird ignoriert, wenn der Modus 1 ist.</p>
    <p><i><b>mode</b></i> - 0 | 1</p>
-   <p>Auf 0 setzen, um basierend auf der Farbe des angegebenen Eckpunkts zuzuschneiden; arbeitet mit vormultiplizierten Farbdaten, wenn dem Quellbild Alpha-Daten zugeordnet sind.</p>
-   <p>Auf 1 gesetzt, um basierend auf Alpha-Daten zuzuschneiden; corner wird ignoriert und 0 ist immer der Seed-Wert. Es wird kein Zuschnitt angewendet, wenn dem Quellbild keine Alphakatdaten zugeordnet sind.</p> 
+   <p>Auf 0 setzen, um basierend auf der Farbe des angegebenen Ecke-Pixels zuzuschneiden. Funktioniert mit vormultiplizierten Farbdaten, wenn Alphatedaten mit dem Quellbild verknüpft sind.</p>
+   <p>Auf 1 gesetzt, um basierend auf Alphakanaldaten zu beschneiden; Ecke wird ignoriert und 0 ist immer der Seed-Wert. Wenn dem Quellbild keine Alphakanaldaten zugeordnet sind, wird kein Zuschnitt angewendet.</p> 
    <p><i><b>Toleranz</b></i> - Toleranz. Real value 0.0 to 1.0. Gibt die Toleranz für übereinstimmende Pixelkomponentenwerte an. Für genaue Übereinstimmungen auf 0 setzen.</p>
    <p><i><b>infoFile</b></i> - Pfad und Name der XML-Ausgabedatei, in die die Zuschnittinformationen geschrieben werden.</p>
 
@@ -202,7 +202,7 @@ Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter fest
    <td colname="col2"> <p>Protokollebene. </p> 
    <p>&lt; 0 - Protokollierung deaktiviert.</p>
    <p>0 - Liste der zu verarbeitenden Dateien.</p>
-   <p>1 - Fügen Sie Berichte für nicht benötigte Dateien hinzu.</p>
+   <p>1 - Hinzufügen von Berichten für nicht benötigte Dateien.</p>
    <p>2 - Fortschrittsberichte hinzufügen.</p>
    <p>3 - Fügen Sie Berichte zu jeder gefundenen Datei hinzu.</p>
    <p>4 - Fügen Sie Fortschrittsberichte auf Dateiebene hinzu.</p>
@@ -326,7 +326,7 @@ Konvertieren Sie ein einzelnes Bild in bestmöglicher Qualität und behalten Sie
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-Alle Bilder in konvertieren *`srcFolder`* JPEG-kodierte Pyramiden-TIFF und platzieren Sie sie in *`destFolder`*:
+Alle Bilder in konvertieren *`srcFolder`* JPEG-kodierte Pyramiden-TIFF und platzieren in *`destFolder`*:
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Ebenenursprung.
 >
 >Der Ebenenrect umfasst immer jede Änderung durch `extend=`.
 
-Definiert den Ausrichtungspunkt des Ebenenrechtecks, mit dem das Ebenenrechteck relativ zu Ebene 0 über positioniert wird `pos=`. `originN=0,0` Positioniert den Ebenenursprung in der Mitte des Ebenenrechtecks. `originN=-0.5,-0.5` und `origin=0,0` oben links und `originN=0.5,0.5` ist die untere rechte Ecke des Ebenenrechtecks.
+Definiert den Ausrichtungspunkt des Ebenenrechtecks, mit dem das Ebenenrechteck relativ zur Ebene 0 über `pos=`. `originN=0,0` Positioniert den Ebenenursprung in der Mitte des Ebenenrechtecks. `originN=-0.5,-0.5` und `origin=0,0` oben links und `originN=0.5,0.5` ist die untere rechte Ecke des Ebenenrechtecks.
 
 ## Eigenschaften {#section-60f639e36ada43d1abc6bfc100afc925}
 

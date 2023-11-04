@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: c8792f02-ae15-4b47-8727-089691d5316a
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 3%
+source-wordcount: '107'
+ht-degree: 2%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. </p> <p>Use <span class="codeph"> none</span> for instant show and hide. Verwendung <span class="codeph"> verblassen</span> eine allmähliche Ein- und Ausblendung zu bewirken. </p> <p>Ausblenden wird in Internet Explorer 8 nicht unterstützt. </p> </td> 
+   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. </p> <p>Verwendung <span class="codeph"> Keine</span> zum sofortigen Einblenden und Verbergen. Verwendung <span class="codeph"> verblassen</span> eine allmähliche Ein- und Ausblendung zu ermöglichen. </p> <p>Ausblenden wird in Internet Explorer 8 nicht unterstützt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touchereignis an, das die Steuerleiste registriert, und der Zeit, in der die Steuerleiste ausgeblendet wird. </p> <p> If set to <span class="codeph"> -1</span>, the component never triggers its auto-hide effect and always stays visible on the screen. </p> </td> 
+   <td colname="col2"> <p>Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touchereignis an, das die Steuerleiste registriert, und der Zeit, in der die Steuerleiste ausgeblendet wird. </p> <p> Wenn auf <span class="codeph"> -1</span>, wird der automatische Ausblendeffekt der Komponente nie Trigger und bleibt immer auf dem Bildschirm sichtbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
-   <td colname="col2"> <p>Legt die Dauer der Ein- und Ausblendung der Animation in Sekunden fest. </p> </td> 
+   <td colname="col2"> <p>Legt die Dauer der Ein- und Ausblendung-Animation in Sekunden fest. </p> </td> 
   </tr> 
  </tbody> 
 </table>

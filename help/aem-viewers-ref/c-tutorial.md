@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Das Viewer-SDK bietet eine Reihe JavaScript-basierter Komponenten für die benutzerdefinierte Viewer-Entwicklung. Die Viewer sind webbasierte Anwendungen, mit denen von Adobe Dynamic Media bereitgestellte Rich-Media-Inhalte in Webseiten eingebettet werden können.
 
-Das SDK bietet beispielsweise interaktives Zoomen und Schwenken. Darüber hinaus erhalten Sie eine 360°-Ansicht und Videowiedergabe von Assets, die über die Backend-Anwendung Dynamic Media Classic in Adobe Dynamic Media hochgeladen wurden.
+Das SDK bietet beispielsweise interaktives Zoomen und Schwenken. Darüber hinaus erhalten Sie eine 360°-Ansicht und Videowiedergabe von Assets, die über die Backend-Anwendung Dynamic Media Classic auf Adobe Dynamic Media hochgeladen wurden.
 
 Obwohl die Komponenten auf HTML5-Funktionen basieren, sind sie für die Verwendung auf Android™- und Apple iOS-Geräten und Desktops, einschließlich Internet Explorer und höher, ausgelegt. Diese Art von Erlebnis bedeutet, dass Sie einen einzigen Workflow für alle unterstützten Plattformen bereitstellen können.
 
@@ -79,7 +79,7 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
    </html>
    ```
 
-   Fügen Sie den folgenden JavaScript-Code innerhalb der `script` -Tag, damit es die `ParameterManager`. Auf diese Weise können Sie sich auf die Erstellung und Instanziierung von SDK-Komponenten im `initViewer` Funktion:
+   Fügen Sie den folgenden JavaScript-Code innerhalb der `script` -Tag, damit es die `ParameterManager`. Auf diese Weise können Sie sich darauf vorbereiten, SDK-Komponenten innerhalb der `initViewer` Funktion:
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,7 +115,7 @@ Dieses Tutorial enthält die folgende Reihenfolge von Aufgaben, mit denen Sie ei
 
 1. Speichern Sie die Datei als leere Vorlage. Sie können jeden gewünschten Dateinamen verwenden.
 
-   Sie werden diese leere Vorlagendatei als Referenz verwenden, wenn Sie in Zukunft Viewer erstellen. Diese Vorlage funktioniert lokal und wenn sie von einem Webserver bereitgestellt wird.
+   Sie können diese leere Vorlagendatei als Referenz verwenden, wenn Sie in Zukunft Viewer erstellen. Diese Vorlage funktioniert lokal und wenn sie von einem Webserver bereitgestellt wird.
 
 Fügen Sie Ihrem Viewer jetzt Stil hinzu.
 
@@ -142,13 +142,13 @@ Fügen Sie Ihrem Viewer jetzt Stil hinzu.
    </style>
    ```
 
-Schließen Sie nun die Komponenten ein `Container` und `ZoomView`.
+Schließen Sie nun die Komponenten ein. `Container` und `ZoomView`.
 
 ## Einschließen von Container und ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
 1. Erstellen eines tatsächlichen Viewers durch Einschließen der Komponenten `Container` und `ZoomView`.
 
-   Fügen Sie Folgendes ein: `include` -Anweisungen am Ende der `<head>` element - nach dem [!DNL Utils.js] Skript geladen wird:
+   Fügen Sie Folgendes ein: `include` -Anweisungen am unteren Rand des `<head>` element - nach dem [!DNL Utils.js] Skript geladen wird:
 
    ```javascript {.line-numbers}
    <!-- 
@@ -178,8 +178,8 @@ Schließen Sie nun die Komponenten ein `Container` und `ZoomView`.
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    
@@ -207,13 +207,13 @@ Schließen Sie nun die Komponenten ein `Container` und `ZoomView`.
 
 1. Zeigen Sie eine Vorschau der Seite an, damit Sie sehen können, was Sie erstellt haben. Ihre Seite sollte wie folgt aussehen:
 
-   ![Beispiel für ein Bild](assets/viewer-1.jpg)
+   ![Beispiel für einen Viewer für ein Bild](assets/viewer-1.jpg)
 
 Fügen Sie nun die Komponenten hinzu `MediaSet` und `Swatches` an Ihren Viewer.
 
 ## Hinzufügen von MediaSet- und Farbfeldkomponenten zum Viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. Um Benutzern die Möglichkeit zu geben, Bilder aus einem Set auszuwählen, können Sie die Komponenten hinzufügen `MediaSet` und `Swatches`.
+1. Damit Benutzer Bilder aus einem Set auswählen können, können Sie die Komponenten hinzufügen `MediaSet` und `Swatches`.
 
    Fügen Sie das folgende SDK hinzu:
 
@@ -294,7 +294,7 @@ Fügen Sie Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Z
 
 ## Hinzufügen von Schaltflächen zum Viewer {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
-1. Derzeit kann der Benutzer nur mit Klick- oder Berührungsgesten zoomen. Fügen Sie daher einige einfache Zoom-Steuerelement-Schaltflächen zum Viewer hinzu.
+1. Derzeit kann der Benutzer nur mit Klick- oder Berührungsgesten zoomen. Fügen Sie dem Viewer daher einige einfache Zoom-Schaltflächen hinzu.
 
    Fügen Sie die folgenden Schaltflächenkomponenten hinzu:
 
@@ -352,7 +352,7 @@ Fügen Sie Ihrem Viewer jetzt Schaltflächen zum Vergrößern, Verkleinern und Z
 
 1. Vorschau des Viewers Sie sollte wie folgt aussehen:
 
-   ![Beispiel für drei Bilder](assets/viewer-3.jpg)
+   ![Beispiel für drei Bilder des Betrachters](assets/viewer-3.jpg)
 
    Konfigurieren Sie nun die Farbfelder so, dass sie vertikal auf der rechten Seite ausgerichtet sind.
 

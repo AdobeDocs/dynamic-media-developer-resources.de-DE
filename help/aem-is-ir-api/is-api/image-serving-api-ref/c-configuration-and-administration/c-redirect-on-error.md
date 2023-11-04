@@ -5,9 +5,9 @@ title: Weiterleitung bei Fehler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Die folgenden Anforderungstypen werden umgeleitet:
 
 * IS Bilder, die sich im Katalog befinden, aber nicht auf der Festplatte.
 
-   Wenn sich ein Bild nicht in einem Katalog befindet, sollte keine Fehlerumleitung erfolgen, wenn das Bild nicht gefunden werden kann.
+  Wenn sich ein Bild nicht in einem Katalog befindet, sollte keine Fehlerumleitung erfolgen, wenn das Bild nicht gefunden werden kann.
 
 * Beschädigte Bilder, Farbprofile oder Schriftarten.
 * Statische Inhalte können nicht auf der Festplatte gefunden werden.
 
-   Statische Inhaltsanforderungen werden umgeleitet, wenn sie nicht auf der Festplatte zu finden sind, selbst wenn der referenzierte statische Inhalt keinen Katalogdatensatz aufweist.
+  Statische Inhaltsanforderungen werden umgeleitet, wenn sie nicht auf der Festplatte zu finden sind, selbst wenn der referenzierte statische Inhalt keinen Katalogdatensatz aufweist.
 
-In keinem anderen Fall erfolgt eine Umleitung von Fehlern.
+In keinem anderen Fall kommt es zu einer Fehler-Umleitung.
 
 Wenn diese Option aktiviert ist und ein solcher Fehler während der Verarbeitung der Anfrage auftritt, sendet der primäre Server die Anfrage zur Verarbeitung an den sekundären Server. Die Antwort wird dann direkt an den Client weitergeleitet, unabhängig davon, ob sie auf Erfolg oder Fehler hinweist. Der primäre Server markiert Protokolleinträge solcher weitergeleiteter Anfragen mit Cache-Nutzung `REMOTE`. Die Antwortdaten werden vom primären Server nicht lokal zwischengespeichert.
 
@@ -39,7 +39,7 @@ Die Umleitung von Fehlern wird durch Festlegen von `PS::errorRedirect.rootUrl` z
 
 >[!NOTE]
 >
->Pipeline-Zeichen (|) im Netzpfad werden für die Umleitung von Fehlern nicht unterstützt.
+>Pipeline-Zeichen (|) im Netzpfad werden für die Fehlerumleitung nicht unterstützt.
 
 ## Verwandte Themen {#section-2e8bfc128b944baf8108279d16492f3f}
 

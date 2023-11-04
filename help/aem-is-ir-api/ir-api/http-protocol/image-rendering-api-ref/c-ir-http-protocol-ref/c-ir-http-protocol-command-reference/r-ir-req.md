@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 4%
 
 ---
@@ -113,7 +113,7 @@ Gibt ausgewählte Eigenschaften der Vignettendatei oder des Katalogeintrags zur�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td colname="col2"> <p>Enum </p> </td> 
-   <td colname="col3"> <p>Pixeltyp des Antwortbilds; kann "CMYK", "RGB"oder "BW"sein (für Graustufenbilder). </p> </td> 
+   <td colname="col3"> <p>Pixeltyp des Antwortbilds; kann "CMYK", "RGB"oder "BW"sein (bei Graustufenbildern). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -127,7 +127,7 @@ Gibt ausgewählte Eigenschaften der Vignettendatei oder des Katalogeintrags zur�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.width </span> </p> </td> 
-   <td colname="col2"> <p>Ganzzahl </p> </td> 
+   <td colname="col2"> <p>Integer </p> </td> 
    <td colname="col3"> <p>Breite mit voller Auflösung in Pixel. </p> </td> 
   </tr> 
   <tr> 
@@ -152,7 +152,7 @@ Gibt ausgewählte Eigenschaften der Vignettendatei oder des Katalogeintrags zur�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.version </span> </p> </td> 
-   <td colname="col2"> <p>Ganzzahl </p> </td> 
+   <td colname="col2"> <p>Integer </p> </td> 
    <td colname="col3"> <p>Versionsnummer der Vignette-Datei. </p> </td> 
   </tr> 
  </tbody> 
@@ -170,7 +170,7 @@ Die Antwortdaten bestehen aus einer `<map>` -Element, das einen Satz von `<area>
 
 Jeder `<area>` -Element enthält den Standard `type=` und `coord=` -Attributen und einer `name=` -Attribut, das den Vignettengruppennamen oder Namenspfad angibt. Mehrere `<area>` -Elemente mit demselben Namen sind vorhanden, wenn die Masken der entsprechenden Objektgruppe unterschiedliche Bereiche aufweisen.
 
-Zusätzlich zu den Standardattributen können Vignetten zusätzliche Attribute definieren, sofern dies der Fall ist. Solche benutzerdefinierten Attribute werden als Objektgruppenattribute definiert. Die Namen benutzerdefinierter Attribute müssen mit `map` in der `<area>` -Elemente. Wenn die Gruppenattribute beispielsweise `map.href=http://www.scene7.com`, der entsprechenden `<area>` Element enthält `href="http://www.scene7.com"`.
+Zusätzlich zu den Standardattributen können Vignetten zusätzliche Attribute definieren, sofern dies der Fall ist. Solche benutzerdefinierten Attribute werden als Objektgruppenattribute definiert. Die Namen benutzerdefinierter Attribute müssen mit `map` in der `<area>` -Elemente. Beispiel: Wenn die Gruppenattribute `map.href=http://www.scene7.com`, der entsprechenden `<area>` Element enthält `href="http://www.scene7.com"`.
 
 Ein XML-Dokument mit einem leeren `<map>` -Element zurückgegeben, wenn die Vignette keine Zuordnungsdaten enthält.
 
@@ -180,7 +180,7 @@ Führt die angegebenen Befehle aus und gibt das gerenderte Bild zurück, das dur
 
 `props`
 
-Führt die angegebenen Befehle aus und gibt Vignetteneigenschaften sowie Gruppen- oder Objekteigenschaften zurück, anstatt das gerenderte Bild. Siehe [Eigenschaften](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) für eine Beschreibung der Antwortsyntax und des MIME-Antworttyps. Die Standardauswahl gilt, es sei denn, `obj=` oder `sel=` wird ebenfalls angegeben (siehe [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Führt die angegebenen Befehle aus und gibt Vignetteneigenschaften sowie Gruppen- oder Objekteigenschaften zurück, anstatt das gerenderte Bild. Siehe [Eigenschaften](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) für eine Beschreibung der Antwortsyntax und des MIME-Antworttyps. Die Standardauswahl gilt, sofern `obj=` oder `sel=` wird ebenfalls angegeben (siehe [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 Die Antwort kann die folgenden Eigenschaften enthalten:
 
@@ -200,7 +200,7 @@ Die Antwort kann die folgenden Eigenschaften enthalten:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height </span> </p> </td> 
-   <td> <p>Ganzzahl </p> </td> 
+   <td> <p>Integer </p> </td> 
    <td> <p> Antwortbildhöhe in Pixel. </p> </td> 
   </tr> 
   <tr> 
@@ -245,7 +245,7 @@ Die Antwort kann die folgenden Eigenschaften enthalten:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p> Antwortbildbreite in Pixel. </p> </td> 
   </tr> 
   <tr> 
@@ -255,12 +255,12 @@ Die Antwort kann die folgenden Eigenschaften enthalten:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.count </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p> Anzahl der Objekte in der aktuellen Auswahl. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.ident </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p> Einzugswert der aktuellen Auswahl. </p> </td> 
   </tr> 
   <tr> 
@@ -270,27 +270,27 @@ Die Antwort kann die folgenden Eigenschaften enthalten:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.überlappend </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p> Anzahl der überlappenden Objekte in der aktuellen Auswahl. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.renderable </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p>Anzahl der renderbaren Objekte in der aktuellen Auswahl. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.texturable </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p> Anzahl der texturierbaren Objekte in der aktuellen Auswahl. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.visible </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p> Aktueller Ein-/Ausblendestatus der aktuellen Auswahl. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.zorder </span> </p> </td> 
-   <td> <p> Ganzzahl </p> </td> 
+   <td> <p> Integer </p> </td> 
    <td> <p> z-order-Wert des ersten überlappenden Objekts in der aktuellen Auswahl. </p> </td> 
   </tr> 
  </tbody> 
@@ -310,7 +310,7 @@ Anforderungsbefehl. Kann an einer beliebigen Stelle in der Anforderungszeichenfo
 
 ## Standard {#section-00c593cbf1af4364b6b78812e6b93c64}
 
-Wenn die URL keinen Bildpfad oder Modifikatoren enthält, dann:
+Wenn die URL keinen Bildpfad oder keine Modifikatoren enthält, dann:
 
 ```
 #S7Z OK 

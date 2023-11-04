@@ -5,10 +5,10 @@ title: Zugriffsprotokollierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 4%
+source-wordcount: '673'
+ht-degree: 3%
 
 ---
 
@@ -26,9 +26,9 @@ Der Ordner, in dem die [!DNL Platform Server] schreibt Protokolldateien. Dies ka
 >
 >Der neue Ordner muss erstellt werden, bevor diese Einstellung geändert werden kann. Stellen Sie sicher, dass der Ordner über die richtigen Lese-/Schreibzugriffsberechtigungen verfügt, wenn Image Serving für die Ausführung unter einem anderen Benutzerkonto als dem Stammordner installiert ist.
 
-## TC::maxDays - Anzahl der Tage zum Aufbewahren von Protokolldateien {#section-45cbecffc5694c87b7d5c176a44a4885}
+## TC::maxDays - Anzahl der Tage für die Aufbewahrung von Protokolldateien {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Die Anzahl der Tage, in denen Protokolldateien gespeichert werden sollen, sollte beibehalten werden. Neue Protokolldateien werden täglich um Mitternacht erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der Dateien, die vom Image-Server oder Render-Server geschrieben wurden. Der Standardwert ist „10“.
+Die Anzahl der Tage, in denen Protokolldateien gespeichert werden sollen, sollte beibehalten werden. Neue Protokolldateien werden täglich um Mitternacht erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der vom Image-Server oder Render-Server geschriebenen Dateien. Der Standardwert ist „10“.
 
 ## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
 
@@ -38,14 +38,14 @@ Namenpräfix für die Datei, in die Zugriffsprotokolldaten geschrieben werden. D
 
 Gibt das Datenmuster für [!DNL Platform Server] Zugriffsprotokolleinträge. Die Musterzeichenfolge gibt Variablen an, die durch ihre entsprechenden Werte ersetzt werden. Alle anderen Zeichen in der Musterzeichenfolge werden wörtlich in den Protokolldatensatz übertragen.
 
-Um das Dienstprogramm zum Aufwärmen des Caches zu verwenden, müssen Leerzeichen als Feldtrennzeichen verwendet werden. Die [!DNL Platform Server] ersetzt alle Leerzeichen und &quot;%&quot;-Zeichen in Feldwerten durch `%20` und `%25`zurück.
+Um das Dienstprogramm zum Aufwärmen des Caches zu verwenden, müssen Leerzeichen als Feldtrennzeichen verwendet werden. Die [!DNL Platform Server] ersetzt alle Leerzeichen und &quot;%&quot;-Zeichen in Feldwerten durch `%20` und `%25`, bzw.
 
 Die folgenden Mustervariablen werden unterstützt:
 
 <table id="table_7A07AFF34B5040A5B30F5735CFE9428F"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Mehrfeld</b> </th> 
+   <th class="entry"> <b>Muster</b> </th> 
    <th class="entry"> <b>Beschreibung</b> </th> 
   </tr> 
  </thead>
@@ -76,7 +76,7 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>Datum und Uhrzeit, formatiert als <span class="codeph"> <span class="varname"> jjjj </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> msec, <span class="varname"> offset </span> ist der GMT-Zeitversatz); der Zeitwert erfasst wird, wenn die Antwort an den Client gesendet wird. </p> </td> 
+   <td> <p>Datum und Uhrzeit, formatiert als <span class="codeph"> <span class="varname"> jjjj </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> msec, <span class="varname"> offset </span> ist der GMT-Zeitversatz); der Zeitwert wird erfasst, wenn die Antwort an den Client gesendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -143,7 +143,7 @@ Die folgenden Mustervariablen werden unterstützt:
    <td> <p>Der MIME-Typ der Antwort. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>%{context}r </p> </td> 
+   <td> <p>%{Context}r </p> </td> 
    <td> <p>Der Zielkontext, wenn ein Kontext weitergeleitet wird. </p> </td> 
   </tr> 
   <tr> 
@@ -168,7 +168,7 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>IP-Adresse des Peer-Servers im Cache-Cluster, der den Cache-Eintrag bereitgestellt hat, oder "-", wenn <span class="codeph"> CacheUse </span> ist <span class="codeph"> REMOTE_CREATED </span> nor <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
+   <td> <p>IP-Adresse des Peer-Servers im Cache-Cluster, der den Cache-Eintrag bereitgestellt hat, oder "-", wenn <span class="codeph"> CacheUse </span> ist weder <span class="codeph"> REMOTE_CREATED </span> nor <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -177,7 +177,7 @@ Die folgenden Mustervariablen werden unterstützt:
       <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0 = kein Fehler. </p> </li> 
       <li id="li_CCEE27F75BD34195895428188B2C30AA"> <p>1 = Bild(e) auf dem Server nicht gefunden. </p> </li> 
       <li id="li_315BBCC7B4C1443495C9C2B3F9800C1F"> <p> 2 = IS-Protokollverwendungsfehler oder ein Inhaltsfehler, der nicht 1 ist. </p> </li> 
-      <li id="li_E028FFF165BD4535875F8684FCAF1859"> <p>3 = anderer Serverfehler. </p> </li> 
+      <li id="li_E028FFF165BD4535875F8684FCAF1859"> <p>3 = anderer Server-Fehler. </p> </li> 
       <li id="li_5AFFB0EE80484885BCDACD9DF3EF58F7"> <p>4 = Anfrage aufgrund einer temporären Serverüberlastung abgelehnt. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -191,10 +191,10 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>Die erforderliche Zeit [!DNL Platform Server] , um eine Antwort zu senden, nachdem Daten in den Ausgabestream geschrieben wurden. </p> </td> 
+   <td> <p>Die Zeit, die benötigt wird [!DNL Platform Server] , um eine Antwort zu senden, nachdem Daten in den Ausgabestream geschrieben wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{size}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
    <td> <p>liken <span class="codeph"> %B </span>, enthält jedoch Werte für 304 (nicht geänderte) Antworten. </p> </td> 
   </tr> 
   <tr> 

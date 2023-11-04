@@ -5,9 +5,9 @@ title: Definieren von SSL-Verschlüsselungen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Standardmäßig sind alle Chiffren verfügbar. Die Liste ist kommagetrennt und k
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Wenn einer der Werte falsch ist, aktiviert Tomcat jede einzelne Chiffre. Daher ist es wichtig, nach der Konfiguration mit einem externen Tool zu überprüfen, um zu sehen, welche Chiffren tatsächlich aktiviert sind.
+Wenn einer der Werte falsch ist, aktiviert Tomcat jeden einzelnen Chip. Daher ist es wichtig, nach der Konfiguration mit einem externen Tool zu überprüfen, um zu sehen, welche Chiffren tatsächlich aktiviert sind.
 
 Beispielsweise ermöglicht die folgende Konfiguration nur die Chiffre-Suites &quot;128 Bit&quot;und höher:
 

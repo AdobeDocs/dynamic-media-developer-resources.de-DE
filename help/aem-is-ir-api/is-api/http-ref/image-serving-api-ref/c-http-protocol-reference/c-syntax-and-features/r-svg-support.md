@@ -5,9 +5,9 @@ title: SVG-Unterstützung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Image Serving unterstützt skalierbare Vector Graphics (SVG)-Dateien als Quellda
 
 Image Serving erkennt nur statische SVG-Inhalte. Animationen, Skripten und andere interaktive Inhalte werden nicht unterstützt.
 
-SVG kann überall dort angegeben werden, wo Bilddateien zulässig sind (URL-Pfad, `src=`und `mask=`). Nachdem der Inhalt der SVG-Datei gerastert wurde, wird er wie ein Bild behandelt.
+SVG kann überall dort angegeben werden, wo Bilddateien zulässig sind (URL-Pfad, `src=`, und `mask=`). Nachdem der Inhalt der SVG-Datei gerastert wurde, wird er wie ein Bild behandelt.
 
 Ähnlich wie bei Bildern können SVG-Dateien als Bildkatalogeinträge oder als relative Dateipfade angegeben werden.
 
@@ -42,11 +42,11 @@ Geben Sie entweder eine vollständige Image Serving-Anforderung an, beginnend mi
 
 >[!NOTE]
 >
->Die Größe von in SVG eingebetteten Bildern wird derzeit nicht automatisch geändert. Stellen Sie sicher, dass alle href die erforderlichen Image Serving-Befehle enthalten, um die gewünschte Bildgröße (z. B. `wid=`). Wenn die Bildgröße nicht explizit festgelegt ist, `attribute::DefaultPix` angewendet wird.
+>Die Größe von in SVG eingebetteten Bildern wird derzeit nicht automatisch geändert. Stellen Sie sicher, dass alle href die erforderlichen Image Serving-Befehle enthalten, um die gewünschte Bildgröße festzulegen (z. B. `wid=`). Wenn die Bildgröße nicht explizit festgelegt ist, `attribute::DefaultPix` angewendet wird.
 
 ## Farbmanagement {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Es wird angenommen, dass alle Farbwerte, die in SVG-Dateien eingebettet und über Ersatzvariablen an SVG-Vorlagen übergeben werden, in `sRgb` Farbraum.
+Es wird angenommen, dass alle Farbwerte, die in SVG-Dateien eingebettet und über Ersatzvariablen an SVG-Vorlagen übergeben werden, im `sRgb` Farbraum.
 
 Wenn Bilder in die SVG eingebettet werden, erfolgt keine Farbkonvertierung. Um die Farbtreue sicherzustellen, geben Sie `icc=sRgb` für alle eingebetteten Bildanforderungen.
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Attributname; kann aus einem oder mehreren Buchstaben, einer Zahl, einem '-' und einem '_' bestehen; nicht zwischen Groß- und Kleinschreibung unterscheiden. </p> </td> 
+  <td class="stentry"> <p>Attributname; kann aus einem oder mehreren Buchstaben, Zahlen, '-' und '_' bestehen; nicht zwischen Groß- und Kleinschreibung unterscheiden. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 

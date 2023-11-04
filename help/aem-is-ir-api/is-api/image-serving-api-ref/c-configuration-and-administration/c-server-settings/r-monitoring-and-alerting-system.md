@@ -5,9 +5,9 @@ title: Überwachungs- und Warnsystem
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Eine oder mehrere E-Mail-Adressen, an die Warnhinweise gesendet werden sollen. V
 
 ## AS::monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-Die E-Mail-Adresse, die im **[!UICONTROL Von]** E-Mail-Feld.
+Die E-Mail-Adresse, die im **[!UICONTROL Von]** email -Feld.
 
 ## AS::monitorAlertGenerator.alertInterval - Monitoring Interval {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-Das Überwachungssystem akkumuliert Warnungsbedingungen im Warnungsintervall und sendet am Ende jedes Intervalls eine Warn-E-Mail mit allen gesammelten Warnungen. Millisekunden, ganzzahliger Wert, 60000 oder höher. In der Regel auf 5 oder 10 Minuten eingestellt.
+Das Überwachungssystem sammelt Warnungsbedingungen während des Warnungsintervalls und sendet eine Warn-E-Mail mit allen gesammelten Warnungen am Ende jedes Intervalls. Millisekunden, ganzzahliger Wert, 60000 oder höher. In der Regel auf 5 oder 10 Minuten eingestellt.
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - Warnungsintervall für Heap Space {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 

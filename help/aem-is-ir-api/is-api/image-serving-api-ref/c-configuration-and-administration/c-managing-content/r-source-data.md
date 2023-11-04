@@ -5,9 +5,9 @@ title: Quelldaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Zu den Quelldatendateien für Image Serving gehören Bild- und Maskendateien, Sc
 
 Alle Quelldatendateien müssen für den Image-Server verfügbar sein. Image Serving bietet eine Reihe von Alternativen zum Festlegen des Speicherorts von Datendateien:
 
-`*`install_`*/ *``*/ *`folderrootPathFilePath`*`
+`*`install_folder`*/ *`rootPath`*/ *`filePath`*`
 
 <table id="simpletable_26686444C7EF46D6BC4C0490C8010BF9"> 
  <tr class="strow"> 
@@ -26,7 +26,7 @@ Alle Quelldatendateien müssen für den Image-Server verfügbar sein. Image Serv
   <td class="stentry"> <p><span class="codeph"> IS::RootPath/attribute::RootPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath  </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath </span></span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> catalogPath|requestPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -41,9 +41,9 @@ Alle Quelldatendateien müssen für den Image-Server verfügbar sein. Image Serv
 
 Der Server kombiniert Pfadsegmente von rechts nach links, bis ein absoluter Dateipfad festgelegt ist.
 
-Alle `*`rootPath`*`-Segmente können leere, relative oder absolute Pfadsegmente sein.
+Alle `*`rootPath`*` -Segmente können leere, relative oder absolute Pfadsegmente sein.
 
-`*``*` catalogPathis ist entweder ein absoluter oder relativer Dateipfad/Name. `*``*` requestPath muss ein relativer Dateipfad/Dateiname sein.
+`*`catalogPath`*` ist entweder ein absoluter oder ein relativer Dateipfad/-name. `*`requestPath`*` muss ein relativer Dateipfad/Name sein.
 
 `Multiple IS::RootPath` -Werte können in ImageServerRegistry.xml (oder über die Admin-Oberfläche) definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Image-Server versucht alternative Pfade in der angegebenen Reihenfolge, bis die Datendatei gefunden wird.
 

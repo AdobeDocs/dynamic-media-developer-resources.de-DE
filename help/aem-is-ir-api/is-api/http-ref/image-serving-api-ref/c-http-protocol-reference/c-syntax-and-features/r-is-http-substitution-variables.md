@@ -5,9 +5,9 @@ title: Ersatzvariablen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Ersatzvariablen werden verwendet, um Werte von der Anforderungs-URL an in Bildka
 
 Variablendefinitionen und -verweise können im Abfrageabschnitt der Anforderung auftreten, in `catalog::Modifier`und in `catalog::PostModifier`.
 
-Variablen werden wie oben definiert, ähnlich wie andere IS-Befehle; Der vorangestellte &#39;$&#39; gibt den Befehl als Variablendefinition an. Variablen müssen definiert werden, bevor sie referenziert werden.
+Variablen werden wie oben definiert, ähnlich wie andere IS-Befehle; der vorangestellte &#39;$&#39; identifiziert den Befehl als Variablendefinition. Variablen müssen definiert werden, bevor sie referenziert werden.
 
 Der Variablenname *`var`* nicht zwischen Groß- und Kleinschreibung unterscheiden und aus einer beliebigen Kombination aus ASCII-Buchstaben, Zahlen, &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen können.
 
@@ -39,7 +39,7 @@ Der Variablenname *`var`* nicht zwischen Groß- und Kleinschreibung unterscheide
 >
 >*`value`* muss URL-kodiert mit einem Durchgang sein, um eine sichere HTTP-Übertragung zu ermöglichen. Eine Doppelkodierung ist erforderlich, wenn *`value`* wird über HTTP erneut übertragen. Dies ist der Fall, wenn *`value`* wird in eine verschachtelte ausländische Anforderung oder in das href-Attribut einer SVG ersetzt `<image>` -Element.
 
-Variablenverweise bestehen aus dem Variablennamen, der durch das vorangestellte und nachfolgende &#39;$&#39; ($) getrennt wird *var*$). Verweise können an einer beliebigen Stelle im Werteteil beliebiger IS-Befehle auftreten (d. h. zwischen dem &#39;=&#39; nach dem Befehlsnamen und dem nachfolgenden &#39;&amp;&#39; oder dem Ende der Anfrage). Benutzerdefinierte Variablen können nicht auf die `layer=` und `effect=` Befehle. Im selben Befehlswert sind mehrere Variablen zulässig. Der Server ersetzt jedes Vorkommen von ` $ *`var`*$` mit *`value`*.
+Variablenverweise bestehen aus dem Variablennamen, der durch das aufeinander folgende &#39;$&#39; ($) getrennt ist *var*$). Verweise können an einer beliebigen Stelle im Werteteil beliebiger IS-Befehle auftreten (d. h. zwischen dem &#39;=&#39; nach dem Befehlsnamen und dem nachfolgenden &#39;&amp;&#39; oder dem Ende der Anfrage). Benutzerdefinierte Variablen können nicht auf die `layer=` und `effect=` Befehle. Im selben Befehlswert sind mehrere Variablen zulässig. Der Server ersetzt jedes Vorkommen von ` $ *`var`*$` mit *`value`*.
 
 Variablenverweise sind möglicherweise nicht verschachtelt. Alle Vorkommnisse von ` $ *`var`*$` Innerhalb *`value`* nicht ersetzt werden.
 
@@ -53,13 +53,13 @@ löst Folgendes auf:
 
 >[!NOTE]
 >
->&#39;$&#39; ist kein reserviertes Zeichen; kann es andernfalls in der Anfrage auftreten. Beispiel: `src=my$image$file.tif` ist ein gültiger Befehl (vorausgesetzt, dass ein Katalogeintrag oder eine Bilddatei mit dem Namen `my$image$file.tif` ist vorhanden), während `wid=$number$` nicht, weil `wid` erfordert ein numerisches Argument.
+>&#39;$&#39; ist kein reserviertes Zeichen; es kann andernfalls in der Anfrage auftreten. Beispiel: `src=my$image$file.tif` ist ein gültiger Befehl (vorausgesetzt, dass ein Katalogeintrag oder eine Bilddatei mit dem Namen `my$image$file.tif` ist vorhanden), während `wid=$number$` nicht, weil `wid` erfordert ein numerisches Argument.
 
 ## Variablenverarbeitung in verschachtelten Anforderungen {#section-26d63adc446c4fa0808e11e8082abdfa}
 
 ` $ *`var`*$` -Verweise können an einer beliebigen Stelle in den geschweiften Klammern einer verschachtelten Image Serving- oder Image Rendering-Anforderung auftreten, auch links neben &quot;?&quot; Trennen Sie den Pfad von der Abfrage. Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `catalog::Modifier` des Hauptbildkatalogs) vor der weiteren Analyse und Verarbeitung der verschachtelten Anforderung.
 
-Darüber hinaus werden alle ` $ *`var`*=` Definitionen aus der URL oder `catalog::Modifier` werden an alle verschachtelten Image Serving- und Image Rendering-Anforderungen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen unabhängig von der Verschachtelungsebene für alle Vorlagen verfügbar sind.
+Darüber hinaus ` $ *`var`*=` Definitionen aus der URL oder `catalog::Modifier` werden an alle verschachtelten Image Serving- und Image Rendering-Anforderungen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen unabhängig von der Verschachtelungsebene für alle Vorlagen verfügbar sind.
 
 Unabhängig von der Verschachtelungsstufe darf nur die HTTP-Kodierung mit einem Durchgang auf Variablenwerte angewendet werden, die an einer beliebigen Stelle in verschachtelten Image Rendering- oder Image Serving-Anforderungen oder den zugehörigen zugehörigen Anforderungen ersetzt werden sollen `catalog::Modifier` Zeichenfolgen.
 
@@ -75,13 +75,13 @@ Variablenwerte, die in ausländische Anforderungen ersetzt werden sollen, müsse
 
 >[!NOTE]
 >
->Jeder Variablenwert, der durch einen `href` -Attributwert muss doppelt URL-kodiert sein; alle anderen müssen einzeln kodiert sein.
+>Jeder Variablenwert, der durch einen `href` -Attributwert doppelt URL-kodiert sein; alle anderen müssen einzeln kodiert sein.
 
 ## Vordefinierte Pfadvariable {#section-930d0dd12e8f49499becc9fe8df24092}
 
-Die *`object`* wird im Anfragepfad angegeben und der vordefinierten Variablen zugewiesen `*`$object`*`. &#39; ` $ *`Objekt`*$`&quot; kann an einer beliebigen Stelle in der Anfrage, in der von der Anfrage referenzierten Vorlage oder in einer verschachtelten/eingebetteten Anforderung platziert werden, in der ein solches Objekt zulässig ist, einschließlich des Werts von `src=` und `mask=`und den Pfad einer verschachtelten/eingebetteten Anforderung.
+Die *`object`* im Anfragepfad angegeben ist, wird der vordefinierten Variablen zugewiesen `*`$object`*`. &#39; ` $ *`Objekt`*$`&quot; kann an einer beliebigen Stelle in der Anfrage, in der von der Anfrage referenzierten Vorlage oder in einer verschachtelten/eingebetteten Anforderung platziert werden, in der ein solches Objekt zulässig ist, einschließlich des Werts von `src=` und `mask=`und den Pfad einer verschachtelten/eingebetteten Anforderung.
 
-Beispielsweise wird mit der folgenden Anfrage das im Pfad angegebene Bild als Quelle einer Ebene in einer verschachtelten Anforderung wiederverwendet:
+Beispielsweise verwendet die folgende Anfrage das im Pfad angegebene Bild als Quelle einer Ebene in einer verschachtelten Anforderung erneut:
 
 `/is/image/a/b?…&layer=3&src=is{…&src=$object$}&…`
 
@@ -89,7 +89,7 @@ Dies entspricht
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-Die Definition von `*`$object`*` kann überschrieben werden, indem Sie explizit ` $ *`Objekt`*=` mit dem gewünschten Wert.
+Die Definition von `*`$object`*` kann durch explizite Angabe von ` $ *`Objekt`*=` mit dem gewünschten Wert.
 
 Die vordefinierte Pfadvariable wird häufig zusammen mit `template=`.
 

@@ -5,7 +5,7 @@ title: Objekt-ID-Übersetzung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
@@ -24,9 +24,9 @@ Die *`locale`* wird in Image Serving-Anfragen mit der `locale=` Befehl.
 >
 >Die Übersetzung der Objekt-ID gilt nur für die katalogbasierte Verwendung von Image Serving. Dateinamen können nicht übersetzt werden.
 
-## Ebene {#section-66fcd5bd467c4eeaa1574583cbe9756d}
+## Anwendungsbereich {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-Alle Verweise auf Einträge in Bild-, SVG- und statischen Inhaltskatalogen werden für Übersetzungs-Schriftarten berücksichtigt und ICC-Profilverweise werden nicht übersetzt. Zusätzlich zu den *`object`* im Pfad von [!DNL /is/image] und [!DNL /is/static requests], unterliegen diese Befehle und Katalogattribute der ID-Übersetzung: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage`und `attribute::Watermark`.
+Alle Verweise auf Einträge in Bild-, SVG- und statischen Inhaltskatalogen werden für Übersetzungs-Schriftarten berücksichtigt und ICC-Profilverweise werden nicht übersetzt. Zusätzlich zu den *`object`* im Pfad von [!DNL /is/image] und [!DNL /is/static requests], unterliegen diese Befehle und Katalogattribute der ID-Übersetzung: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage`, und `attribute::Watermark`.
 
 ## ID-Übersetzungszuordnung {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -44,13 +44,13 @@ Siehe Beschreibung von `attribute::LocaleMap` für Details.
 
 ## Der Übersetzungsprozess {#section-1f64db17e9f644d88e09853670e14a16}
 
-Im obigen Beispiel sucht der Server zunächst nach dem *`locale`* &quot; `de_de`&quot;in der ID-Übersetzungszuordnung. Anschließend wird die *`locSuffixes`* mit diesem Eintrag verknüpft ist, in diesem Fall &quot; `_D`&quot; und &quot;&quot; (leeres Suffix). Für jede Iteration wird das Suffix an die Bild-ID und die resultierende ID angehängt, die auf Existenz im Katalog getestet wurde. Wenn dieser Katalogeintrag gefunden wird, wird er verwendet, andernfalls wird der nächste getestet. In diesem Beispiel werden diese Einträge überprüft: `myCat/myImg_D`und `myCat/myImg`. Wenn keine Übereinstimmung gefunden wird, gibt der Server einen Fehler oder ein Standardbild zurück (sofern konfiguriert).
+Im obigen Beispiel sucht der Server zunächst nach dem *`locale`* &quot; `de_de`&quot;in der ID-Übersetzungszuordnung. Anschließend iteriert es die *`locSuffixes`* mit diesem Eintrag verknüpft ist, in diesem Fall &quot; `_D`&quot; und &quot;&quot; (leeres Suffix). Für jede Iteration wird das Suffix an die Bild-ID und die resultierende ID angehängt, die auf Existenz im Katalog getestet wurde. Wenn dieser Katalogeintrag gefunden wird, wird er verwendet, andernfalls wird der nächste getestet. In diesem Beispiel werden diese Einträge überprüft: `myCat/myImg_D`, und `myCat/myImg`. Wenn keine Übereinstimmung gefunden wird, gibt der Server einen Fehler oder ein Standardbild zurück (sofern konfiguriert).
 
 ## Unbekannte Gebietsschemata {#section-b2f3c83f2dc845d69b5908107b775537}
 
 Im obigen Beispiel `attribute::LocaleMap` enthält ein leeres *`locale`* , die die standardmäßige Übersetzungsregel für unbekannt definiert definiert `locale=` -Werte (d. h. nicht explizit in der Übersetzungskarte aufgeführte Werte). Wenn diese Übersetzungszuordnung auf die Anfrage angewendet wurde `/is/image/myCat/myImg?locale=ja`, wird `myCat/myImg_E`, falls vorhanden, oder anderweitig `myCat/myImg`.
 
-Wenn in einer Übersetzungszuordnung keine standardmäßige Übersetzungsregel angegeben ist, wird für alle Anforderungen mit unbekanntem Wert ein Fehler zurückgegeben `locale=` -Werte.
+Wenn in einer Übersetzungszuordnung keine standardmäßige Übersetzungsregel angegeben ist, wird für alle Anforderungen mit unbekanntem Fehler zurückgegeben. `locale=` -Werte.
 
 ## Beispiele {#section-cc40bb00ee9248bb8cb23e17d7a5984c}
 
@@ -58,7 +58,7 @@ Wenn in einer Übersetzungszuordnung keine standardmäßige Übersetzungsregel a
 
 Es ist oft wünschenswert, Gebietsschemata (z. B. europäisch, mittelöstlich, nordamerikanisch) zu gruppieren, um regionale Standards zu erreichen. Dies kann mit einer mehrstufigen Suche erreicht werden.
 
-In diesem Beispiel möchten wir Sammlungen für die Verwendung im Westen und im Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden dann für bestimmte Gebietsschemata weiter optimiert ( `m1`, `m2` bei zwei mittleren Ost-Varianten und `w1`, `w2`und `w3` für drei westliche Gebietsschemata), mit dem Unterschied, dass Bilder für `w1` und `w3`. Unbekannte Gebietsschemas sind nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf Gebietsschema-spezifische Bilder.
+In diesem Beispiel möchten wir Sammlungen für die Verwendung im Westen und im Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden dann für bestimmte Gebietsschemata weiter optimiert ( `m1`, `m2` bei zwei mittleren Ost-Varianten und `w1`, `w2`, und `w3` für drei westliche Gebietsschemata), mit dem Unterschied, dass Bilder für `w1` und `w3`. Unbekannte Gebietsschemas sind nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf Gebietsschema-spezifische Bilder.
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -97,7 +97,7 @@ Die folgende Tabelle zeigt, welche Katalogeinträge berücksichtigt werden und i
 
 **Suche nach bestimmten IDs**
 
-Einige Bildbenennungskonventionen unterstützen möglicherweise interne generische Bild-IDs nicht. Die generischen IDs aus der Anfrage müssen immer einer bestimmten ID im Katalog zugeordnet sein. Oft ist die genaue spezifische ID möglicherweise nicht bekannt.
+Einige Bildbenennungskonventionen unterstützen möglicherweise interne generische Bild-IDs nicht. Die generischen IDs aus der Anfrage müssen immer einer bestimmten ID im Katalog zugeordnet werden. Oft ist die genaue spezifische ID nicht bekannt.
 
 Für dieses Beispiel können Bilder für alle Sprachen `_1`, `_2`oder `_3` Suffix. Für französische Gebietsschemata spezifische Bilder können `_22` oder `_23` -Suffix und für deutsche Gebietsschemata spezifische Bilder haben möglicherweise `_470` oder `_480` Suffix.
 

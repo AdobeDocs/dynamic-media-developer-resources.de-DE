@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -25,16 +25,16 @@ grout= *`color`*[,*`width`*]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td>
-  <td class="stentry"> <p>Bodendicke; Koordinateneinheiten der Szene (normalerweise Zoll) (real). </p> </td>
+  <td class="stentry"> <p>Dicke der Grout; Koordinateneinheiten der Szene (normalerweise Zoll) (real). </p> </td>
  </tr> 
 </table>
 
 Für eine maximale Kontrolle des Grout-Erscheinungsbilds gelten folgende Anforderungen:
 
-* Die Kachel muss quadratisch oder rechteckig sein; Derzeit werden keine anderen Formen unterstützt.
+* Die Kachel muss quadratisch oder rechteckig sein. Derzeit werden keine anderen Formen unterstützt.
 * Das Bild darf nur eine Kachel enthalten.
 * Die Standardbreite im Bild (falls vorhanden) muss an allen vier Kanten dieselbe Dicke aufweisen.
-* Die Dicke der Standardgruppe muss im Materialkatalog ( `catalog::GroutWidth`).
+* Die Dicke der Standardgrout muss im Materialkatalog ( `catalog::GroutWidth`).
 
 ## Eigenschaften {#section-de78b678245b4ffda48097c345949e77}
 

@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -170,7 +170,7 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des standardmäßi
  </tbody> 
 </table>
 
-Beispiel: So richten Sie eine Suchschaltfläche mit einem 26 x 26 Pixel &quot;Look-glass&quot;-Symbol ein. 30 Pixel mit einem Rahmen von 1 Pixel:
+Beispiel - So richten Sie eine Suchschaltfläche mit einem 26 x 26 Pixel &quot;Look-glass&quot;-Symbol ein; eine Größe von 30 Pixel mit einem 1 Pixel langen Rahmen:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -239,7 +239,7 @@ Suchergebnisse werden als einzelne Spalte oder einzelne Zeile von Miniaturansich
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -356,7 +356,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf `"up"`, `"down"`, `"over"`und `"disabled"` Schaltflächenstatus.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, mit der verschiedene Skins auf `"up"`, `"down"`, `"over"`, und `"disabled"` Schaltflächenstatus.
 
 Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 

@@ -4,7 +4,8 @@ description: Das Tool für die E-Mail-Freigabe besteht aus einer Schaltfläche, 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: f2685d59-6b92-49cf-9359-dda602af4297
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%
@@ -48,7 +49,7 @@ Das Erscheinungsbild der E-Mail-Freigabe-Schaltfläche wird mit der folgenden CS
 
 Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in ihrer CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in der zugehörigen CSS-Klasse.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
@@ -132,7 +133,7 @@ Standardmäßig wird das modale Dialogfeld auf Desktop-Systemen zentriert auf de
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Dialogfelds, das das gesamte Browserfenster verwendet und auf Touch-Geräten einen weißen Hintergrund aufweist:
+Beispiel: Zum Einrichten eines Dialogfelds, das das gesamte Browser-Fenster verwendet und auf Touch-Geräten einen weißen Hintergrund aufweist:
 
 ```
 .s7smartcropvideoviewer .s7touchinput .s7emaildialog .s7dialog { 
@@ -182,7 +183,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
+**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -281,7 +282,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 17 Pixel langen Symbol und einem fett gedruckten 16-pt-Titel. Und schließlich eine 28 x 28 Pixel große Schließen-Schaltfläche, die zwei Pixel von der Oberseite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert:
+Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 17 Pixel langen Symbol und einem fett gedruckten 16-pt-Titel. Und schließlich eine 28 x 28 Pixel große Schließen-Schaltfläche, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -441,7 +442,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
+   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
@@ -562,7 +563,7 @@ Beispiel: Um den Hauptdialogfeld-Bereich so einzurichten, dass er zunächst eine
 }
 ```
 
-Der gesamte Formularinhalt (z. B. Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit
+Der gesamte Formularinhalt (wie Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody
@@ -576,7 +577,7 @@ Wenn die Höhe dieses Containers größer als der Hauptdialogfeld-Bereich zu sei
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -632,7 +633,7 @@ Diese Klasse eignet sich nicht zum Steuern der Größe oder Position von Beschri
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
+   <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
@@ -703,7 +704,7 @@ Jedes Formulareingabefeld wird in den Container eingeschlossen, mit dem Sie eine
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -713,14 +714,14 @@ Jedes Formulareingabefeld wird in den Container eingeschlossen, mit dem Sie eine
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Eingabefelder-Container unterstützt optional `state` -Attributauswahl. Sie wird auf `verifyerror` wenn der Benutzer einen Fehler im Eingabedatenformat macht und die Inline-Validierung fehlschlägt. Mit dieser Attributauswahl können Sie falsche Benutzereingaben im Formular hervorheben.
+>Der Eingabefelder-Container unterstützt optional `state` -Attributauswahl. Sie wird auf `verifyerror` wenn der Benutzer einen Fehler im Eingabedatenformat macht und die Inline-Validierung fehlschlägt. Mit dieser Attributauswahl können Sie falsche Benutzereingaben im Formular hervorheben.
 
 Die meisten Eingabefelder, die sich von der Beschriftung links bis zum rechten Rand des Dialogfeldtextes (einschließlich Feld &quot;Von&quot; und Feld &quot;Nachricht&quot;) erstrecken, werden wie folgt gesteuert:
 
@@ -745,7 +746,7 @@ Das Eingabefeld &quot;An&quot;ist enger, da auf der rechten Seite Platz für die
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputshort
 ```
 
-**CSS-Eigenschaften des Dialogfelds geben ein kurzes Feld ein**
+**CSS-Eigenschaften des Dialogfelds geben Kurzfeld ein**
 
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
@@ -842,11 +843,11 @@ Beispiel: Zum Einrichten einer E-Mail-Nachricht mit einer Höhe von 50 Pixel und
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
+   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p>Texthöhe innerhalb der Schaltfläche. Betrifft die vertikale Ausrichtung. </p> </td> 
+   <td colname="col2"> <p>Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
@@ -854,7 +855,7 @@ Beispiel: Zum Einrichten einer E-Mail-Nachricht mit einer Höhe von 50 Pixel und
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -968,7 +969,7 @@ Der freigegebene Inhalt wird unten im Hauptteil des Dialogfelds angezeigt und en
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1004,11 +1005,11 @@ Die `background-image` -Eigenschaft wird durch die Komponentenlogik festgelegt.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vertikale Ausrichtung </span> </p> </td> 
-   <td colname="col2"> <p>Miniaturansicht der vertikalen Ausrichtung. </p> </td> 
+   <td colname="col2"> <p>Miniaturansicht für die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1178,7 +1179,7 @@ Wenn ein Benutzer falsche Eingabedaten eingibt und die Inline-Validierung fehlsc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Die Fehlersymbol-Position im Nachrichtenbereich. </p> </td> 
+   <td colname="col2"> <p> Die Fehlersymbolposition innerhalb des Nachrichtenbereichs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -1202,14 +1203,14 @@ Wenn ein Benutzer falsche Eingabedaten eingibt und die Inline-Validierung fehlsc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Nachricht unterstützt die `state` -Attributauswahl mit den folgenden möglichen Werten: `verifyerror`, `senderror`und `sendsuccess`. Der Wert `verifyerror` wird festgelegt, wenn eine Nachricht aufgrund eines Fehlers bei der Überprüfung der Inline-Eingabe angezeigt wird. Der Wert `senderror` wird festgelegt, wenn ein Backend-E-Mail-Dienst einen Fehler meldet. Die `sendsuccess` festgelegt ist, wenn E-Mail erfolgreich gesendet wurde. Auf diese Weise kann die Nachricht je nach Status des Dialogfelds unterschiedlich formatiert werden.
+>Diese Nachricht unterstützt die `state` -Attributauswahl mit den folgenden möglichen Werten: `verifyerror`, `senderror`, und `sendsuccess`. Der Wert `verifyerror` wird festgelegt, wenn eine Nachricht aufgrund eines Fehlers bei der Überprüfung der Inline-Eingabe angezeigt wird. Der Wert `senderror` wird festgelegt, wenn ein Backend-E-Mail-Dienst einen Fehler meldet. Die `sendsuccess` -Wert festgelegt ist, wenn E-Mail erfolgreich gesendet wurde. Auf diese Weise kann die Nachricht je nach Status des Dialogfelds unterschiedlich formatiert werden.
 
 Die Fehlermeldung kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
@@ -1323,7 +1324,7 @@ Die Bildlaufleisten-Spur ist der Bereich zwischen den oberen und unteren Bildlau
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Bildlaufleiste, die 28 Pixel breit und einen grauen Hintergrund aufweist:
+Beispiel: Zum Einrichten einer Bildlaufleiste, die 28 Pixel breit ist und einen grauen Hintergrund hat:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7scrollbar .s7scrolltrack { 
@@ -1371,7 +1372,7 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufbereich vertikal. Seine 
 
 >[!NOTE]
 >
->Thumb unterstützt die `state` -Attribut-Selektor, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenstatus anzuwenden: `up`, `down`, `over`und `disabled`.
+>Thumb unterstützt die `state` -Attribut-Selektor, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenstatus anzuwenden: `up`, `down`, `over`, und `disabled`.
 
 Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
@@ -1434,7 +1435,7 @@ Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`und `disabled`.
+>Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
 
 Beispiel: Zum Einrichten von Bildlaufschaltflächen mit 28 x 32 Pixel und unterschiedlicher Grafik für jeden Status:
 

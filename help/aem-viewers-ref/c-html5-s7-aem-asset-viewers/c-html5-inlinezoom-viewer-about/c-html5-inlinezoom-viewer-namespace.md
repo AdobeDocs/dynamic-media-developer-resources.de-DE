@@ -5,16 +5,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b61a17-f9ae-4e71-bd78-276674193044
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Namespace des Viewer-SDK{#viewer-sdk-namespace}
 
-Der Viewer besteht aus vielen Viewer-SDK-Komponenten. Normalerweise muss die Webseite nicht direkt mit der SDK-Komponenten-API interagieren. alle allgemeinen Anforderungen werden in der Viewer-API selbst behandelt.
+Der Viewer besteht aus vielen Viewer-SDK-Komponenten. Normalerweise muss die Web-Seite nicht direkt mit der SDK-Komponenten-API interagieren. Alle allgemeinen Anforderungen werden in der Viewer-API selbst behandelt.
 
 Einige erweiterte Anwendungsfälle erfordern jedoch, dass die Webseite mithilfe der `getComponent()` Viewer-API verwenden und dann die gesamte Flexibilität der APIs des SDK selbst nutzen.
 
@@ -35,7 +35,7 @@ Wenn Sie beispielsweise `StatusEvent.NOTF_VIEW_READY` -Ereignis und der Viewer v
   }, false); 
 } 
 }); 
-The same code for viewer served from Dynamic Media Classic will look like this: 
+The same code for viewer served from Dynamic Media Classic looks like this: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 

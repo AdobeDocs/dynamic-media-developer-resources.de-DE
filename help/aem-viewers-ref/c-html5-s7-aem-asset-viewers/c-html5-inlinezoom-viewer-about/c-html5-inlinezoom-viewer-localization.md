@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 49795aa1-07c7-4f2e-bfd9-51d6581898ed
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Bestimmte Inhalte, die der Flyout-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und Informationsmeldungen, die vom Flyout-Zoom-Ansicht beim Laden angezeigt werden.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), die mit dem vordefinierten Viewer bereitgestellt werden, und möglicherweise auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt sind.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch die spezielle Viewer-SDK-Kennung SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßig zugeordneten Textwert für ein englisches Gebietsschema ( `"en"`), die mit dem vordefinierten Viewer bereitgestellt werden, und möglicherweise auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt sind.
 
-Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für dieses Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. andernfalls wird auf den vordefinierten Standardtext zurückgegriffen.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für dieses Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
 
 Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
@@ -78,7 +78,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für Scroll nach rechts Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für Scroll nach rechts-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 

@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 
 <!-- CQDOC-19433 -->
 
-Ab dem 30. September 2022 stellt Adobe Dynamic Media Viewers die Unterstützung für Folgendes ein:
+Ab dem 30. September 2022 bietet Adobe Dynamic Media Viewers keine Unterstützung mehr für Folgendes:
 
 * TLS (Transport Layer Security) 1.0 und 1.1
 * Die folgenden schwachen Chiffren in TLS 1.2:
@@ -101,7 +101,7 @@ Ab dem 30. September 2022 stellt Adobe Dynamic Media Viewers die Unterstützung 
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media Viewers unterstützt nicht die folgenden Webbrowser- und Betriebssystemkombinationen:
+Adobe Dynamic Media-Viewer unterstützen die folgenden Webbrowser- und Betriebssystemkombinationen nicht:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -119,19 +119,19 @@ Adobe Dynamic Media Viewers unterstützt nicht die folgenden Webbrowser- und Bet
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 

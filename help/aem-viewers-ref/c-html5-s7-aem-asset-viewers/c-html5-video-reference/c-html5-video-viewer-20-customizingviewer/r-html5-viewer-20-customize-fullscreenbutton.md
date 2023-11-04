@@ -1,24 +1,24 @@
 ---
-title: Schaltfläche "Vollbild"
+title: Schaltfläche im Vollbildmodus
 description: Die Schaltfläche im Vollbildmodus bewirkt, dass der Videoplayer den Vollbildmodus aufruft oder verlässt, wenn ein Benutzer darauf klickt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
 
-# Schaltfläche &quot;Vollbild&quot;{#full-screen-button}
+# Schaltfläche im Vollbildmodus{#full-screen-button}
 
 Die Schaltfläche im Vollbildmodus bewirkt, dass der Videoplayer den Vollbildmodus aufruft oder verlässt, wenn ein Benutzer ihn auswählt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Sie können die Vollbildschaltfläche in Bezug auf die sie enthaltende Steuerleiste durch CSS anpassen, gestalten und positionieren.
+Sie können die Schaltfläche im Vollbildmodus in Bezug auf die sie enthaltende Steuerleiste über CSS anpassen, gestalten und positionieren.
 
 Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassenauswahl gesteuert:
 
@@ -26,7 +26,7 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 .s7videoviewer .s7fullscreenbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Vollbild&quot;**
+**CSS-Eigenschaften der Vollbild-Schaltfläche**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -67,7 +67,7 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;Vollbild&quot;und `selected='false'` entspricht dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` dem Status &quot;Vollbild&quot;entspricht und `selected='false'` entspricht dem Status &quot;normal&quot;.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 

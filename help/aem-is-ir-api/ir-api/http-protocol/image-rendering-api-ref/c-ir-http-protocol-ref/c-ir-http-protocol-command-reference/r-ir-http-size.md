@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,15 @@ Wenn *`thickness`* festgelegt ist, wird ein Schlagschatten gerendert, wenn das V
 
 ## Eigenschaften {#section-818e01e91fed4015951189c818ef28d8}
 
-Materialattribut. Nur bei Dezimalstellen verwendet; von allen anderen Materialien ignoriert. `res=` wird ignoriert, wenn die Breite oder Höhe größer als 0 ist. Die Werte dürfen nicht negativ sein.
+Materialattribut. Wird nur von Decals verwendet; von allen anderen Materialien ignoriert. `res=` wird ignoriert, wenn die Breite oder Höhe größer als 0 ist. Die Werte dürfen nicht negativ sein.
 
 ## Standard {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` wenn das Material auf einem Katalogeintrag basiert; else `size=0,0,0`. Die dekale Größe wird ausgehend von `res=` if *`wid`* und *`hei`* nicht angegeben sind oder auf 0 gesetzt sind. Wenn *`thickness`* nicht angegeben oder auf 0 gesetzt ist.
+`catalog::Size` wenn das Material auf einem Katalogeintrag basiert, andernfalls `size=0,0,0`. Die dekale Größe wird ausgehend von `res=` if *`wid`* und *`hei`* nicht angegeben sind oder auf 0 gesetzt sind. Wenn *`thickness`* nicht angegeben oder auf 0 gesetzt ist.
 
 ## Beispiel {#section-04fdc2b60b9e4071b672bf6a913738ad}
 
-Ein MSS für einen Decal, der basierend auf der Auflösung skaliert, um 20° im Uhrzeigersinn gedreht und eine Dicke von 2,5 Zoll aufweist und für einen geeigneten Schlagschatteneffekt sorgt:
+Ein MSS für einen Decal, der basierend auf der Auflösung skaliert wird, um 20° im Uhrzeigersinn gedreht wird und eine Dicke von 2,5 Zoll aufweist, um einen geeigneten Schlagschatteneffekt zu erzielen:
 
 `…&decal&src=myDecal.png&res=34&rotate=20&size=0,0,2.5&…`
 

@@ -1,14 +1,14 @@
 ---
 title: Anpassen des Video-Viewers
 description: Anpassen des Video-Viewers
-keywords: responsiv
+keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Denken Sie beim Erstellen von benutzerdefiniertem CSS daran, dass der Viewer `.s
 
 Es ist möglich, verschiedene Geräte in CSS als Ziel festzulegen, damit Ihre Inhalte je nach Gerät des Benutzers unterschiedlich angezeigt werden. Dieses Targeting umfasst verschiedene Elementgrößen und die Auflösung von Grafiken in der Benutzeroberfläche, ist jedoch nicht darauf beschränkt.
 
-Der Viewer unterstützt zwei Mechanismen zum Erstellen von responsivem CSS: CSS-Markierungen und Standard-CSS-Medienabfragen. Sie können diese beiden Mechanismen unabhängig oder gemeinsam verwenden.
+Der Viewer unterstützt zwei Möglichkeiten zum Erstellen von responsiv gestaltetem CSS: CSS-Markierungen und Standard-CSS-Medienabfragen. Sie können diese beiden Mechanismen unabhängig oder gemeinsam verwenden.
 
 **CSS-Markierungen**
 
 Um Sie bei der Erstellung von responsiv entworfenen CSS zu unterstützen, unterstützt der Viewer CSS-Markierungen, die spezielle CSS-Klassen enthalten, die dynamisch dem Viewer-Container-Element der obersten Ebene zugewiesen werden. Die Zuweisung basiert auf der Laufzeit-Viewer-Größe und dem Eingabetyp, der auf dem aktuellen Gerät verwendet wird.
 
-Die erste Gruppe von CSS-Markern umfasst `.s7size_large`, `.s7size_medium`und `.s7size_small` Klassen. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Das heißt, wenn der Viewer-Bereich gleich oder größer als die Größe eines gemeinsamen Desktop-Monitors ist `.s7size_large` verwendet wird; wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt `.s7size_medium` zugewiesen wurde. In Bereichen, die Mobiltelefonbildschirmen ähneln, `.s7size_small` festgelegt ist. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
+Die erste Gruppe von CSS-Markern umfasst `.s7size_large`, `.s7size_medium`, und `.s7size_small` Klassen. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Das heißt, wenn der Viewer-Bereich gleich oder größer als die Größe eines gemeinsamen Desktop-Monitors ist `.s7size_large` verwendet wird; wenn der Bereich nahe an einem gemeinsamen Tablet-Gerät liegt `.s7size_medium` zugewiesen wurde. Für Bereiche, die Mobiltelefonbildschirmen ähneln, gilt Folgendes: `.s7size_small` festgelegt ist. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
 
 Die zweite Gruppe von CSS-Markern umfasst `.s7mouseinput` und `.s7touchinput`. Die Markierung `.s7touchinput` festgelegt ist, wenn das aktuelle Gerät über Touch-Eingabefunktionen verfügt; andernfalls `.s7mouseinput` verwendet. Diese Markierungen dienen zur Erstellung von Eingabeelementen der Benutzeroberfläche mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen, da Touch-Eingaben normalerweise größere Elemente erfordern. Falls das Gerät sowohl über eine Maus- als auch eine Touch-Funktion verfügt, `.s7touchinput` festgelegt ist und der Viewer eine Touch-optimierte Benutzeroberfläche rendert.
 
@@ -79,7 +79,7 @@ Die Geräteerkennung kann auch mit reinen CSS-Medienabfragen durchgeführt werde
 
 Verwenden Sie bei Anwendung auf Mobile Viewer vier CSS-Medienabfragen, die in Ihrer CSS-Datei in der unten aufgeführten Reihenfolge definiert sind:
 
-1. Enthält nur Regeln, die für alle Touch-Geräte spezifisch sind.
+1. Enthält nur für alle Touch-Geräte spezifische Regeln.
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px), 
@@ -126,7 +126,7 @@ Es ist nicht erforderlich, die gesamte Viewer-CSS in jeder Medienabfrage zu dupl
 
 Viele Elemente der Viewer-Benutzeroberfläche werden mit Bitmap-Grafiken formatiert und weisen mehr als einen bestimmten visuellen Status auf. Ein gutes Beispiel ist eine Schaltfläche mit normalerweise mindestens drei verschiedenen Status: &quot;up&quot;, &quot;over&quot;und &quot;down&quot;. Jeder Status erfordert eine eigene Bitmap-Grafik, die zugewiesen wird.
 
-Bei einem klassischen Stil würde CSS für jeden Status des Benutzeroberflächenelements einen separaten Verweis auf die einzelne Bilddatei auf dem Server haben. Im Folgenden finden Sie ein Beispiel-CSS für die Formatierung einer Vollbildschaltfläche:
+Bei einem klassischen Stil würde CSS für jeden Status des Benutzeroberflächenelements einen separaten Verweis auf die einzelne Bilddatei auf dem Server haben. Im Folgenden finden Sie ein Beispiel-CSS zum Formatieren einer Vollbildschaltfläche:
 
 ```
 .s7videoviewer.s7mouseinput .s7playpausebutton[selected='true'][state='up'] {  
@@ -167,9 +167,9 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 }
 ```
 
-Der Nachteil dieses Ansatzes besteht darin, dass der Endbenutzer flackernde oder verzögerte Antworten auf die Benutzeroberfläche erfährt, wenn das Element zum ersten Mal mit interagiert wird. Diese Aktion tritt auf, da die Bildgrafik für den neuen Elementstatus noch nicht heruntergeladen wurde. Dieser Ansatz kann sich aufgrund der gestiegenen Anzahl an HTTP-Aufrufen an den Server auch geringfügig negativ auf die Leistung auswirken.
+Der Nachteil dieses Ansatzes besteht darin, dass der Endbenutzer flackernde oder verzögerte Antworten auf die Benutzeroberfläche erfährt, wenn das Element zum ersten Mal verwendet wird. Diese Aktion tritt auf, da die Bildgrafik für den neuen Elementstatus noch nicht heruntergeladen wurde. Dieser Ansatz kann sich aufgrund der gestiegenen Anzahl an HTTP-Aufrufen an den Server auch geringfügig negativ auf die Leistung auswirken.
 
-CSS-Sprites ist ein anderer Ansatz, bei dem Bildgrafiken für alle Elementzustände in einer PNG-Datei namens &quot;Sprite&quot;kombiniert werden. Ein solches &quot;Sprite&quot;hat alle visuellen Status für das jeweilige Element, das nacheinander positioniert wird. Beim Formatieren eines Benutzeroberflächenelements mit Sprites wird für alle verschiedenen Status in CSS auf dasselbe Sprite-Bild verwiesen. Außerdem wird die `background-position` -Eigenschaft wird für jeden Status verwendet, um anzugeben, welcher Teil des &quot;Sprite&quot;-Bildes verwendet wird. Sie können ein &quot;Sprite&quot;-Bild auf jede geeignete Weise strukturieren. Normalerweise wird sie von Viewern vertikal gestapelt. Nachfolgend finden Sie ein &quot;sprite&quot;-basiertes Beispiel für die Formatierung derselben Vollbildschaltfläche von oben:
+CSS-Sprites ist ein anderer Ansatz, bei dem Bildgrafiken für alle Elementzustände in einer PNG-Datei namens &quot;Sprite&quot;kombiniert werden. Ein solches &quot;Sprite&quot;hat alle visuellen Status für das jeweilige Element, das nacheinander positioniert wird. Beim Formatieren eines Benutzeroberflächenelements mit Sprites wird für alle verschiedenen Status in CSS auf dasselbe Sprite-Bild verwiesen. Außerdem wird die `background-position` -Eigenschaft wird für jeden Status verwendet, um anzugeben, welcher Teil des &quot;Sprite&quot;-Bildes verwendet wird. Sie können ein &quot;Sprite&quot;-Bild auf jede geeignete Weise strukturieren. Normalerweise wird sie von Viewern vertikal gestapelt. Nachfolgend finden Sie ein &quot;sprite&quot;-basiertes Beispiel für die Formatierung der gleichen Vollbildschaltfläche von oben:
 
 ```
 .s7videoviewer .s7fullscreenbutton[state][selected]{ 

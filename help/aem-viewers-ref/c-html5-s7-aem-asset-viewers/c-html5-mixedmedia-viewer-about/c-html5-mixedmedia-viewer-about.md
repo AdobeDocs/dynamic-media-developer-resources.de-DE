@@ -1,14 +1,14 @@
 ---
 title: Gemischte Medien
 description: Der Viewer für gemischte Medien ist ein Medien-Viewer. Es unterstützt Mediensets, die Bilder, Mustersets, Rotationssets, Videos und adaptive Videosets enthalten.
-keywords: responsiv
+keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Der Viewer für gemischte Medien ist ein Medien-Viewer. Es unterstützt Mediensets, die Bilder, Mustersets, Rotationssets, Videos und adaptive Videosets enthalten.
 
-Eine Miniaturansicht am unteren Rand des Viewers stellt jedes Medienset-Element zusammen mit seiner Asset-Typ-Anzeige dar. Wenn ein Musterset-Element ausgewählt ist, wird eine sekundäre Zeile von Farbmustern angezeigt, um die Auswahl von Farbvarianten innerhalb des Mustersets zu ermöglichen. Bilder und Musterset-Elemente unterstützen das Zoomen im kontinuierlichen oder Inline-Modus. Rotationssets unterstützen sowohl Zoomen als auch Spinnen. Videos und adaptive Videosets unterstützen alle grundlegenden Wiedergabesteuerelemente, solange optionale Untertitel über dem Videoinhalt angezeigt werden. Benutzer können jederzeit zum Vollbildmodus wechseln, indem sie auf die Schaltfläche für den Vollbildmodus klicken. Der Viewer verfügt über eine optionale Schaltfläche zum Schließen. Es wurde für Desktops und Mobilgeräte entwickelt.
+Eine Miniaturansicht am unteren Rand des Viewers stellt jedes Medienset-Element zusammen mit seiner Asset-Typ-Anzeige dar. Wenn ein Musterset-Element ausgewählt ist, wird eine sekundäre Zeile von Farbmustern angezeigt, um die Auswahl von Farbvarianten innerhalb des Mustersets zu ermöglichen. Bilder und Musterset-Elemente unterstützen das Zoomen im kontinuierlichen oder Inline-Modus. Rotationssets unterstützen sowohl das Zoomen als auch das Drehen. Videos und adaptive Videosets unterstützen alle grundlegenden Wiedergabesteuerelemente, solange optionale Untertitel über dem Videoinhalt angezeigt werden. Benutzer können jederzeit zum Vollbildmodus wechseln, indem sie auf die Schaltfläche für den Vollbildmodus klicken. Der Viewer verfügt über eine optionale Schaltfläche zum Schließen. Es wurde für Desktops und Mobilgeräte entwickelt.
 
 Der Viewer für gemischte Medien verwendet die HTML5-Streaming-Videowiedergabe im HLS-Format in seiner Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, greift der Viewer auf die progressive HTML5-Videowiedergabe zurück.
 
@@ -39,7 +39,7 @@ Der Viewer für gemischte Medien stellt eine JavaScript-Hauptdatei und eine Reih
 
 Sie können den Viewer für gemischte Medien im Popup-Modus verwenden, indem Sie die produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird. Alternativ können Sie den Viewer im eingebetteten Modus verwenden, wo er mithilfe der dokumentierten API in eine Ziel-Web-Seite integriert wird.
 
-Die Aufgabe, den Viewer zu konfigurieren und zu skizzieren, ähnelt anderen Viewern. Alle Skins werden über benutzerdefiniertes CSS erstellt.
+Die Aufgabe, den Viewer zu konfigurieren und zu skizzieren, ähnelt anderen Viewern. Die gesamte Skinning-Funktion wird über benutzerdefiniertes CSS erreicht.
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -90,7 +90,7 @@ Siehe [Tastaturzugriff und Navigation](../../c-keyboard-accessibility.md#topic-f
 
 ## Einbetten von Viewer für gemischte Medien {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der, wenn ausgewählt, den Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung fester Größe und Einbettung responsiver Designs.
+Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der, wenn ausgewählt, den Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei Hauptbetriebsmodi: Popup, Einbettung fester Größe und Einbettung responsiver Designs.
 
 ## Über den Popup-Modus {#section-77d5aa03b8b94566958a179b1a2cd474}
 
@@ -126,7 +126,7 @@ Andernfalls, wenn die Webseite sowohl die Breite als auch die Höhe für den Con
 
 ## Einbetten fester Größe {#section-17d162f76ffa4804b27928f51e7bea1d}
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie wie folgt vorgehen:
+Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 1. Container definieren `DIV`.
@@ -152,7 +152,7 @@ Der relative Pfad sieht wie folgt aus:
 >Nur auf das JavaScript des Haupt-Viewers verweisen `include` -Datei auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf das HTML5 SDK. `Utils.js` Bibliothek, die vom Viewer aus geladen wird `/s7viewers` Kontextpfad (so genanntes konsolidiertes SDK) `include`). Der Grund dafür ist, dass der Standort `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet und der Speicherort zwischen Viewer-Versionen geändert wird. Adobe behält ältere Versionen des sekundären Viewers nicht bei `includes` auf dem Server.
 >
 >
->Daher können Sie einen direkten Verweis auf sekundäres JavaScript einfügen `include` wird vom Viewer auf der Seite verwendet und unterbricht die Viewer-Funktionalität in Zukunft, wenn eine neue Produktversion bereitgestellt wird.
+>Daher können Sie einen direkten Verweis auf ein sekundäres JavaScript einfügen `include` wird vom Viewer auf der Seite verwendet und unterbricht die Viewer-Funktionalität in Zukunft, wenn eine neue Produktversion bereitgestellt wird.
 
 1. Definieren des Container-DIV.
 
@@ -170,9 +170,9 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Viewer-Größe festlegen
 
-   Dieser Viewer zeigt Miniaturansichten bei der Arbeit mit Sets für mehrere Elemente an. Auf Desktop-Systemen werden Miniaturansichten unter der Hauptansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Haupt-Assets während der Laufzeit mithilfe von `setAsset()` API. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich &quot;Miniaturansichten&quot;am unteren Rand verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die Größe des äußeren Viewers intakt zu halten und die Größe der Hauptansicht zu erhöhen und den Bereich der Miniaturansichten zu belassen. Sie können auch die Größe der Hauptansicht statisch halten und den äußeren Viewer-Bereich reduzieren, sodass der Inhalt der Webseite nach oben verschoben wird. Verwenden Sie dann die kostenlose Seiteneigenschaft, die von den Miniaturansichten links ist.
+   Dieser Viewer zeigt Miniaturansichten an, wenn mehrere Elemente verwendet werden. Auf Desktop-Systemen werden Miniaturansichten unter der Hauptansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Haupt-Assets während der Laufzeit mithilfe von `setAsset()` API. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich &quot;Miniaturansichten&quot;am unteren Rand verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die Größe des äußeren Viewers intakt zu halten und die Größe der Hauptansicht zu erhöhen und den Bereich der Miniaturansichten zu belassen. Sie können auch die Größe der Hauptansicht statisch halten und den äußeren Viewer-Bereich reduzieren, sodass der Inhalt der Webseite nach oben verschoben wird. Verwenden Sie dann die kostenlose Seiteneigenschaft, die von den Miniaturansichten links ist.
 
-   Definieren Sie die Größe für `.s7mixedmediaviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt und später einem Viewer-Vorgabendatensatz in Dynamic Media Classic zugewiesen oder explizit mithilfe des Stilbefehls übergeben werden.
+   Um die äußeren Viewer-Grenzen beizubehalten, legen Sie die Größe für fest. `.s7mixedmediaviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festgelegt und später einem Viewer-Vorgabendatensatz in Dynamic Media Classic zugewiesen oder explizit mithilfe des Stilbefehls übergeben werden.
 
    Siehe [Anpassen des Viewers für gemischte Medien](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) Weitere Informationen zum Formatieren des Viewers mit CSS.
 
@@ -189,7 +189,7 @@ Der relative Pfad sieht wie folgt aus:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die innere `Container` SDK-Komponente mit `.s7mixedmediaviewer .s7container` CSS-Selektor oder durch Verwendung von `stagesize` -Modifikator.
+   Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die innere `Container` SDK-Komponente mit `.s7mixedmediaviewer .s7container` CSS-Auswahl oder durch Verwendung von `stagesize` -Modifikator.
 
    Im Folgenden finden Sie ein Beispiel für die Definition der Viewer-Größe für den inneren `Container` SDK-Komponente, damit der Hauptansichtsbereich beim Wechseln des Assets seine Größe nicht ändert:
 
@@ -214,13 +214,13 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Erstellen und Initialisieren des Viewers.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz von `s7viewers.MixedMediaViewer` -Klasse, übergeben Sie alle Konfigurationsinformationen an ihren Konstruktor und rufen Sie `init()` -Methode in einer Viewer-Instanz verwenden. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens die `containerId` -Feld, das den Namen der Viewer-Container-ID und verschachtelt enthält `params` JSON-Objekt mit Konfigurationsparametern, die vom Viewer unterstützt werden. In diesem Fall wird die `params` -Objekt muss mindestens über die Image Serving-URL verfügen, die als `serverUrl` -Eigenschaft, die als `videoserverurl` Eigenschaft und anfängliches Asset als `asset` Parameter. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
+   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz von `s7viewers.MixedMediaViewer` -Klasse, übergeben Sie alle Konfigurationsinformationen an ihren Konstruktor und rufen Sie `init()` -Methode in einer Viewer-Instanz verwenden. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens die `containerId` -Feld, das den Namen der Viewer-Container-ID und verschachtelt enthält `params` JSON-Objekt mit Konfigurationsparametern, die vom Viewer unterstützt werden. In diesem Fall wird die `params` -Objekt muss mindestens über die Image Serving-URL verfügen, die als `serverUrl` -Eigenschaft, die als `videoserverurl` Eigenschaft und anfängliches Asset als `asset` -Parameter. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
 
    Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder im Hauptteil `onload()` -Ereignis.
 
    Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit `display:none` Stil zugewiesen. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Das Beispiel geht von `mixedMediaViewer` ist die Viewer-Instanz; `s7viewer` ist der Name des Platzhalters `DIV`; [!DNL http://s7d1.scene7.com/is/image/] ist die Image Serving-URL; [!DNL http://s7d1.scene7.com/is/content/] ist die Videoserver-URL; und [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] ist das Asset:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Das Beispiel geht von `mixedMediaViewer` ist die Viewer-Instanz; `s7viewer` ist der Name des Platzhalters `DIV`; [!DNL http://s7d1.scene7.com/is/image/] ist die Image Serving-URL; [!DNL http://s7d1.scene7.com/is/content/] ist die Videoserver-URL und [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] ist das Asset:
 
 ```html {.line-numbers}
 <script type="text/javascript"> 
@@ -294,7 +294,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Ein
 1. Definieren des Container-DIV.
 1. Erstellen und Initialisieren des Viewers.
 
-Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie dem vorhandenen Container-DIV hinzu. `"holder"` DIV. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Hinzufügen des Container-DIV zum vorhandenen `"holder"` DIV. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -400,7 +400,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Einbetten mit der Setter-basierten API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit `setContainerId()`, `setParam()`und `setAsset()` API-Methoden mit separaten JavaScript-Aufrufen.
+Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit `setContainerId()`, `setParam()`, und `setAsset()` API-Methoden mit separaten JavaScript-Aufrufen.
 
 Das folgende Beispiel zeigt die Verwendung der Einbettung fester Größe in eine setter-basierte API:
 

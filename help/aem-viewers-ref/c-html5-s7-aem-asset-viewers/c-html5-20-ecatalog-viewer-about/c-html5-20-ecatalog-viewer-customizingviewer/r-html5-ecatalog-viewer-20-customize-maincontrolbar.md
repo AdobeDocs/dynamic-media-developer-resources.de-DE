@@ -1,22 +1,22 @@
 ---
-title: Hauptsteuerleiste
+title: Hauptrollleiste
 description: Die Hauptsteuerleiste ist der rechteckige Bereich auf Desktop-Systemen und Tablets, der alle Steuerelemente der Benutzeroberfläche (mit Ausnahme der Schaltflächen "Große Seite") enthält, die für den eCatalog-Viewer verfügbar sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
 
-# Hauptsteuerleiste{#main-control-bar}
+# Hauptrollleiste{#main-control-bar}
 
 Die Hauptsteuerleiste ist der rechteckige Bereich auf Desktop-Systemen und Tablets, der alle Steuerelemente der Benutzeroberfläche (mit Ausnahme der Schaltflächen &quot;Große Seite&quot;) enthält, die für den eCatalog-Viewer verfügbar sind.
 
-Auf Mobiltelefonen werden weiterhin die Schaltflächen Miniaturansichten, Inhaltsverzeichnis, Download, Drucken, Favoriten, Social-Freigabe, Vollbild und Schließen angezeigt. Die Schaltflächen &quot;Erste Seite&quot;und &quot;Letzte Seite&quot;und &quot;Seitenanzeige&quot;werden jedoch aus der Hauptsteuerleiste entfernt und stattdessen der sekundären Steuerleiste hinzugefügt. Standardmäßig wird die Hauptsteuerleiste im Viewer-Bereich auf Desktop-Systemen und Mobiltelefonen oben angezeigt und auf Tablets an den unteren Rand des Viewer-Bereichs verschoben. Es benötigt immer die gesamte verfügbare Viewer-Breite. Es ist möglich, die Farbe, Höhe und vertikale Position im CSS relativ zum Viewer-Container zu ändern.
+Auf Mobiltelefonen werden weiterhin Miniaturansichten, Inhaltsverzeichnisse, Download-, Druck-, Favoriten-, Social-Freigabe-, Vollbild- und Schließen-Schaltflächen beibehalten. Die Schaltflächen &quot;Erste Seite&quot;und &quot;Letzte Seite&quot;und &quot;Seitenanzeige&quot;werden jedoch aus der Hauptsteuerleiste entfernt und stattdessen der sekundären Steuerleiste hinzugefügt. Standardmäßig wird die Hauptsteuerleiste im Viewer-Bereich auf Desktop-Systemen und Mobiltelefonen oben angezeigt und auf Tablets an den unteren Rand des Viewer-Bereichs verschoben. Es benötigt immer die gesamte verfügbare Viewer-Breite. Es ist möglich, die Farbe, Höhe und vertikale Position im CSS relativ zum Viewer-Container zu ändern.
 
 Das Erscheinungsbild der Hauptsteuerleiste wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -36,7 +36,7 @@ Das Erscheinungsbild der Hauptsteuerleiste wird mit der folgenden CSS-Klassenaus
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position am unteren Rand des Viewers. </p> </td> 
+   <td colname="col2"> <p>Position am unteren Rand des Viewers </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -74,8 +74,8 @@ Die Bildlauffunktion ist für die Hauptsteuerleiste aktiviert und für die sekun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Wenn auf <span class="codeph"> statisch </span> die Bildlauffunktion deaktiviert ist. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolute </span> , um die Bildlauffunktion zu aktivieren. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Position </span> </p> </td> 
+   <td colname="col2"> <p>Wenn festgelegt auf <span class="codeph"> statisch </span> die Bildlauffunktion deaktiviert ist. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolute </span> , um die Bildlauffunktion zu aktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +96,7 @@ Das Erscheinungsbild dieses Scroll-Schaltflächen-Containers wird mit der folgen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Normalerweise sollte gleich oder größer als die Breite der Bildlaufschaltfläche selbst sein. </p> </td> 
+   <td colname="col2"> <p>Normalerweise sollte die Breite der Bildlaufschaltfläche selbst oder größer sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -105,7 +105,7 @@ Das Erscheinungsbild dieses Scroll-Schaltflächen-Containers wird mit der folgen
  </tbody> 
 </table>
 
-Sie können die Bildlaufschaltfläche selbst über CSS anpassen und anordnen.
+Sie können die Bildlaufschaltfläche über CSS anpassen und anordnen.
 
 Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -140,7 +140,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `state="selected"` entspricht dem anfänglichen Status der Bildlaufschaltfläche , wenn der Inhalt der Kontrollleiste nach links verschoben werden kann. Das Attribut `state="default"` entspricht dem Status, wenn der Inhalt vollständig nach links gescrollt wird und die Bildlaufschaltfläche darauf hinweist, dass er wieder in den ursprünglichen Zustand versetzt wird.
+>Diese Schaltfläche unterstützt `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `state="selected"` entspricht dem anfänglichen Status der Bildlaufschaltfläche , wenn der Inhalt der Kontrollleiste nach links verschoben werden kann. Das Attribut `state="default"` entspricht dem Status, wenn der Inhalt vollständig nach links gescrollt wird und die Bildlaufschaltfläche darauf hinweist, dass er wieder in den ursprünglichen Zustand versetzt wird.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 

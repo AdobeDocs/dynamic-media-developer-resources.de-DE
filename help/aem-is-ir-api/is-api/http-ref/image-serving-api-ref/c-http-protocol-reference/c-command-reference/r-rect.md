@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Rechteck der endgültigen Ansicht. Dadurch kann das endgültige Ansichtsbild in 
  </tr> 
 </table>
 
-Mit diesem Befehl kann Image Serving große Bilder über HTTP bereitstellen, die ansonsten die mit konfigurierte Größenbeschränkung überschreiten würden `attribute::MaxPix`.
+Mit diesem Befehl kann Image Serving große Bilder über HTTP bereitstellen, was andernfalls die mit konfigurierte Größenbeschränkung überschreitet `attribute::MaxPix`.
 
 >[!NOTE]
 >

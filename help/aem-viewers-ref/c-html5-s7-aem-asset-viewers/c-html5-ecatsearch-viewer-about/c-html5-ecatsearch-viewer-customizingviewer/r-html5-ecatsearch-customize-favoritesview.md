@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Das Erscheinungsbild des Favoriten-Ansichtscontainers wird mit der folgenden CSS
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-Die Position und Höhe der Favoriten-Ansicht werden von der Ansicht verwaltet. in CSS ist es nur möglich, die Breite zu definieren.
+Die Position und Höhe der Favoriten-Ansicht werden von der Ansicht verwaltet. In CSS ist es nur möglich, die Breite zu definieren.
 
 **CSS-Eigenschaften der Favoriten-Ansicht**
 
@@ -56,7 +56,7 @@ Der Abstand zwischen Favoriten-Miniaturansichten wird mit der folgenden CSS-Klas
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell
 ```
 
-**CSS-Eigenschaften der Favoriten-Miniaturansichten**
+**CSS-Eigenschaften der Favoriten-Miniaturen**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
@@ -81,7 +81,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb
 ```
 
-**CSS-Eigenschaften der Favoriten-Miniaturansichten**
+**CSS-Eigenschaften der Favoriten-Miniaturen**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 

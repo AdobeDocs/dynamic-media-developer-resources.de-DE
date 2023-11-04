@@ -5,26 +5,26 @@ title: PageView.iconEffect
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: eb2196cb-b771-4828-8390-cd9e3fe6c57e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '115'
 ht-degree: 4%
 
 ---
 
 # PageView.iconEffect{#pageview-iconeffect}
 
-[!DNL `[PageView.|<containerId>_pageView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`]
+[!DNL `[PageView.|<containerId>_pageView.]iconeffect=0|1[, *`count`*][, *`verblassen`*][, *`autoHide`*]`]
 
 <table id="table_DD66FFC263A34220876DD204BFE62D49"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert das Symbol <span class="codeph"> </span>, das oben im Bild angezeigt wird, wenn das Bild zurückgesetzt ist und eine verfügbare Aktion vorgeschlagen wird, um mit dem Bild zu interagieren. </p> </td> 
+   <td colname="col2"> <p> Aktiviert die <span class="codeph"> iconEffect</span> , um am oberen Rand des Bildes anzuzeigen, wenn das Bild zurückgesetzt ist und eine verfügbare Aktion für die Interaktion mit dem Bild vorgeschlagen wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Zähler</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie oft der <span class="codeph">-Effekt</span> maximal angezeigt und wieder angezeigt wird. Der Wert <span class="codeph"> -1</span> zeigt an, dass das Symbol immer unbegrenzt angezeigt wird. </p> </td> 
+   <td colname="col2"> <p> Gibt die maximale Anzahl der <span class="codeph"> iconEffect</span> angezeigt und wieder angezeigt. Ein Wert von <span class="codeph"> -1</span> zeigt an, dass das Symbol immer unbegrenzt angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> verblassen</span></span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Legt die Anzahl der Sekunden fest, in denen der <span class="codeph">-Ikoneffekt</span> vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit, nachdem die Einblendung-Animation abgeschlossen ist, aber bevor die Ausblendung beginnt. Die Einstellung <span class="codeph"> 0</span> deaktiviert das automatische Ausblenden. </p> </td> 
+   <td colname="col2"> <p>Legt die Anzahl der Sekunden fest, die der <span class="codeph"> iconEffect</span> bleibt vollständig sichtbar, bevor es automatisch ausgeblendet wird. Das heißt, die Zeit nach dem Abschluss der Einblendanimation, aber bevor die Ausblendung beginnt. Eine Einstellung von <span class="codeph"> 0</span> deaktiviert das automatische Ausblenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

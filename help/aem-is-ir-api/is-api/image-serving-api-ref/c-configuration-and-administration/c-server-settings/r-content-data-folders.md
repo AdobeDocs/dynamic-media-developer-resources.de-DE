@@ -1,11 +1,11 @@
 ---
-description: Verwenden Sie diese Servereinstellungen für Inhaltsdatenordner.
+description: Verwenden Sie diese Servereinstellungen für Ordner mit Inhaltsdaten.
 solution: Experience Manager
 title: Inhaltsdatenordner
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Inhaltsdatenordner{#content-data-folders}
 
-Verwenden Sie diese Servereinstellungen für Inhaltsdatenordner.
+Verwenden Sie diese Servereinstellungen für Ordner mit Inhaltsdaten.
 
 ## IS::RootPath - Stammordner für Bilddaten {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-Der Speicherort aller Quelldaten, einschließlich Bildern, Schriftarten und ICC-Profilen. Dies kann einen oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]*, durch Semikolons getrennt. Wenn leer, *[!DNL install_folder]* ist der Standardstamm. Es können mehrere Werte angegeben werden, um Bilddaten über mehrere Dateisysteme zu verteilen. Der Image-Server versucht die Root-Pfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wird.
+Der Speicherort aller Quelldaten, einschließlich Bildern, Schriftarten und ICC-Profilen. Dies kann einen oder mehrere absolute Dateipfade oder Pfade relativ zu *[!DNL install_folder]*, durch Semikolons getrennt. Wenn leer, *[!DNL install_folder]* ist der Standardstamm. Es können mehrere Werte angegeben werden, um Bilddaten über mehrere Dateisysteme zu verteilen. Der Image-Server versucht die Stammpfade in der angegebenen Reihenfolge, bis die angeforderte Datei gefunden wurde.
 
 ## PS::staticContent.rootPath - Statische Stammordner für Inhaltsdaten {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 

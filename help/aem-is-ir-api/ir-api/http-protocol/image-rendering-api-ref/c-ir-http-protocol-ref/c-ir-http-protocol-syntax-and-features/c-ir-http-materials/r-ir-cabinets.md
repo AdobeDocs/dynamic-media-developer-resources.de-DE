@@ -1,18 +1,18 @@
 ---
-title: Möbel
+title: Kabinette
 description: Cabinets-Materialien spezifizieren eine Kabinettdatei (.vnc-Dateierweiterung), eine spezielle Datendatei mit fotografischen Darstellungen von Kabinetten, parametrischen Layoutdefinitionen und anderen Informationen, die für das Rendern von Kabinettfronten erforderlich sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 5%
+source-wordcount: '157'
+ht-degree: 4%
 
 ---
 
-# Möbel{#cabinets}
+# Kabinette{#cabinets}
 
 Cabinets-Materialien spezifizieren eine Kabinettdatei (.vnc-Dateierweiterung), eine spezielle Datendatei mit fotografischen Darstellungen von Kabinetten, parametrischen Layoutdefinitionen und anderen Informationen, die für das Rendern von Kabinettfronten erforderlich sind.
 

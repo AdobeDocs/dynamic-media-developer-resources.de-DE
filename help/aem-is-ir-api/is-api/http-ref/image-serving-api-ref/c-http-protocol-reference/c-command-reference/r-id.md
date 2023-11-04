@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten speicher
 
 Image Serving umfasst einen Versionierungsmechanismus, der dazu beitragen kann, die Wahrscheinlichkeit zu verringern, dass ein veralteter Cache-Eintrag von einer Anwendung verwendet wird. Dieser Mechanismus beinhaltet die Verwendung von `req=props` , um Zeichenfolgen zur Versionskennung für Bilddaten und Metadaten zu erhalten (z. B. Imagemap- oder Zoomzieldaten). Die Zeichenfolge der Versionskennung wird dann zu zwischenspeicherbaren Image Serving-Anforderungen mit der `id=` Befehl.
 
-Wenn sich ein Quellbild oder Metadaten ändert, ändert sich auch der entsprechende Versions-ID-Wert. Einschließen eines aktuellen Versions-ID-Werts in die Variable `id=` -Befehl stellt sicher, dass nicht mehr auf alte Cache-Einträge zugegriffen wird.
+Wenn sich ein Quellbild oder Metadaten ändert, ändert sich auch der entsprechende Wert für die Versions-ID. Einschließen eines aktuellen Versions-ID-Werts in die Variable `id=` stellt sicher, dass nicht mehr auf alte Cache-Einträge zugegriffen werden kann.
 
 In der folgenden Tabelle sind die Versionskennzeichenfolgen aufgeführt, die für die einzelnen `req=` Typ:
 

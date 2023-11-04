@@ -5,10 +5,10 @@ title: PublishInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 32bd12cf-f149-489f-ae74-f1da051d0730
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '70'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Kataloganmerkungszeichenfolge. Textzeichenfolge, mit der die Katalogversion, das Veröffentlichungsdatum usw. identifiziert werden kann.
 
-Der Inhalt dieses Felds wird mit `req=catalogprops` zurückgegeben. Dieses Attribut wird andernfalls nicht verwendet.
+Der Inhalt dieses Felds wird mit `req=catalogprops`. Dieses Attribut wird andernfalls nicht verwendet.
 
 ## Eigenschaften {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
@@ -24,7 +24,7 @@ Textzeichenfolge.
 
 ## Standard {#section-82e5a885e142414f996c609efbb962b1}
 
-Wird von `default::PublishInfo` übernommen, wenn nicht definiert oder leer.
+Vererbt von `default::PublishInfo` wenn nicht definiert oder leer ist.
 
 ## Verwandte Themen {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

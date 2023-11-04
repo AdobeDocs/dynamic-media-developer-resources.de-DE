@@ -1,20 +1,20 @@
 ---
 title: obj
-description: Wählen Sie das Objekt anhand des Namens aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
+description: Wählen Sie das Objekt nach Name aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 5%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
 # obj{#obj}
 
-Wählen Sie das Objekt anhand des Namens aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
+Wählen Sie das Objekt nach Name aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
 
 ` obj= *`name`*`
 
@@ -33,7 +33,7 @@ Wenn keine Gruppe/kein Objekt mit dem angegebenen Namen gefunden wird, wird die 
 
 Auswahlbefehl; MSS-Trennzeichen. Die Objektauswahl ist so lange persistent, bis ein anderes Objekt ausgewählt ist, entweder mit `obj=` oder `sel=`.
 
-Bei Gruppen-/Objektpfaden und -namen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+Bei Gruppen-/Objektpfaden und Namen wird zwischen Groß- und Kleinschreibung unterschieden.
 
 ## Standard {#section-0c322850512c4896bb551856a549440e}
 

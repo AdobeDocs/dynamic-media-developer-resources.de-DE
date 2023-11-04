@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 5%
+source-wordcount: '121'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Vignette-Datei. Gibt die Vignette an, die für die Anforderung verwendet werden 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>Materialkatalog-ID (passend zu <span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Materialkatalog-ID (übereinstimmend mit <span class="codeph"> attribute::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 

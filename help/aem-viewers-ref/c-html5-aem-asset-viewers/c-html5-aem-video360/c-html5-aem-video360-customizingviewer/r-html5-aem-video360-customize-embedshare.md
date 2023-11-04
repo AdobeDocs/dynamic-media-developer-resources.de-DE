@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 2%
@@ -37,11 +37,11 @@ Das Erscheinungsbild der Schaltfläche &quot;Freigabe einbetten&quot;wird mit de
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,13 +49,13 @@ Das Erscheinungsbild der Schaltfläche &quot;Freigabe einbetten&quot;wird mit de
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in der zugehörigen CSS-Klasse.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-**Beispiel** : So richten Sie eine eingebettete Freigabeschaltfläche mit 28 x 28 Pixel ein und zeigen für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild an:
+**Beispiel** - So richten Sie eine eingebettete Freigabeschaltfläche mit 28 x 28 Pixel ein und zeigen für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild an:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -87,17 +87,17 @@ Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das Dialogfeld akti
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
    <td colname="col2"> <p>Deckkraft der Hintergrundüberlagerung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundüberlagerungsfarbe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um eine Hintergrundüberlagerung einzurichten, die grau mit einer Deckkraft von 70 % ist:
+**Beispiel** - um eine Hintergrundüberlagerung einzurichten, die grau mit einer Deckkraft von 70 % ist:
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay { 
@@ -117,25 +117,25 @@ Standardmäßig wird das modale Dialogfeld zentriert auf dem Bildschirm auf Desk
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> Rahmenradius des Dialogfelds, falls das Dialogfeld nicht den gesamten Browser annimmt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p> Rahmenradius des Dialogfelds, falls das Dialogfeld nicht den gesamten Browser akzeptiert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um das Dialogfeld so einzurichten, dass es das gesamte Browser-Fenster mit weißem Hintergrund auf Touch-Geräten verwendet:
+**Beispiel** - um das Dialogfeld so einzurichten, dass es das gesamte Browser-Fenster mit weißem Hintergrund auf Touch-Geräten verwendet:
 
 ```
 .s7video360viewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -185,24 +185,24 @@ Das Kopfzeilensymbol wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7video360viewer .s7embeddialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
+**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Symbolbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -219,15 +219,15 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schrifthöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +256,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -268,11 +268,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Innerer Abstand der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbild für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,11 +280,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-**Beispiel** : Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 14 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Und schließlich eine 28 x 28 Pixel große Schaltfläche &quot;Schließen&quot;, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
+**Beispiel** - Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, 24 x 14 Pixel Symbol und einem fett gedruckten 16-Punkt-Titel. Und schließlich eine 28 x 28 Pixel große Schaltfläche &quot;Schließen&quot;, die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -371,11 +371,11 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +383,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
    <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 
 >[!NOTE]
 >
->Die Schaltfläche Alle auswählen unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenstatus angewendet werden können.
+>Die Schaltfläche &quot;Alle auswählen&quot;unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
 Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -404,19 +404,19 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
 Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
@@ -437,35 +437,35 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie der Schaltflächen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
    <td colname="col2"> <p>Schlagschatten </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>Rand der rechten Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-**Beispiel** : Zum Einrichten einer Fußzeile des Dialogfelds mit einer Schaltfläche &quot;Abbrechen&quot;von 64 x 34 mit einer Textfarbe und einer Hintergrundfarbe, die für jeden Schaltflächenstatus unterschiedlich ist:
+**Beispiel** - um eine Footer mit einer Schaltfläche von 64 x 34 Abbrechen mit einer Textfarbe und einer Hintergrundfarbe einzurichten, die für jeden Schaltflächenstatus unterschiedlich ist:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter { 
@@ -536,11 +536,11 @@ Der Hauptdialogbereich (zwischen der Kopfzeile und der Fußzeile) enthält bildl
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des Hauptdialogfeld-Bereichs. Sie sollte nur angegeben werden, wenn das Dialogfeld im Desktop-Modus funktioniert. Dies ist nicht möglich, wenn die Größe des Dialogfelds so geändert wird, dass es das gesamte Browser-Fenster belegt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe des Hauptdialogfeld-Bereichs. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ Der Hauptdialogbereich (zwischen der Kopfzeile und der Fußzeile) enthält bildl
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten eines Hauptdialogfeld-Bereichs mit einer Höhe von 300 Pixel, einer zehnten Pixelbreite und einem weißen Hintergrund:
+**Beispiel** - um einen Hauptdialogfeld-Bereich mit einer Höhe von 300 Pixel einzurichten, einen zehnten Pixelrand zu haben und einen weißen Hintergrund zu verwenden:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogviewarea { 
@@ -574,12 +574,12 @@ Wenn die Höhe dieses Containers größer als der Hauptdialogfeld-Bereich zu sei
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten von Formularinhalten mit zehn Pixelabständen:
+**Beispiel** - um Formularinhalte mit zehn Pixelabständen einzurichten:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbody { 
@@ -600,27 +600,27 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Textfarbe beschriften. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dialogfeldbeschriftungen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Dialogfeldbeschriftungen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-**Beispiel** : Um alle Beschriftungen so einzurichten, dass sie grau und fett mit einer 9-Pixel-Schriftart sind:
+**Beispiel** - Alle Beschriftungen sind grau und fett mit einer 9-Pixel-Schriftart anzuordnen:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoglabel { 
@@ -641,17 +641,17 @@ Die Größe der Textkopie, die über dem Einbettungscode angezeigt wird, wird mi
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite des Eingabefelds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen einer Textkopie auf eine Breite von 430 Pixel und mit einem Abstand von zehn Pixel am unteren Rand:
+**Beispiel** - um die Textkopie auf eine Breite von 430 Pixel festzulegen und am unteren Rand einen Abstand von zehn Pixel zu haben:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputwide { 
@@ -666,12 +666,12 @@ Der Einbettungscode wird in Container eingeschlossen und mit der folgenden CSS-K
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Die Breite des Einbettungscode-Containers. </p> </td> 
   </tr> 
   <tr> 
@@ -680,12 +680,12 @@ Der Einbettungscode wird in Container eingeschlossen und mit der folgenden CSS-K
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um einen grauen Rahmen von einem Pixel um den Einbettungscode-Text festzulegen, legen Sie eine Breite von 430 Pixel fest und weisen einen Abstand von zehn Pixeln auf:
+**Beispiel** - Um einen grauen Rahmen von einem Pixel um den Einbettungscode-Text festzulegen, machen Sie ihn mit einer Breite von 430 Pixel und einem Abstand von zehn Pixeln:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer { 
@@ -701,18 +701,18 @@ Der tatsächliche Einbettungscode-Text wird mit der folgenden CSS-Klassenauswahl
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> word-wrap  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
    <td colname="col2"> <p>Wortumbruchstil. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel**  - So konfigurieren Sie Einbettungscode für die Verwendung des  `break-word` Wortumbruchs:
+**Beispiel** - So konfigurieren Sie den Einbettungscode zur Verwendung `break-word` Wortumbruch:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ Der tatsächliche Einbettungscode-Text wird mit der folgenden CSS-Klassenauswahl
 }
 ```
 
-Beschriftung und Dropdown-Liste der Einbettungsgröße befinden sich unten im Dialogfeld und werden in einen mit der folgenden CSS-Klassenauswahl gesteuerten Container eingefügt:
+Beschriftung und Dropdown-Liste der Einbettungsgröße befinden sich unten im Dialogfeld und werden in einen Container eingefügt, der mit der folgenden CSS-Klassenauswahl gesteuert wird:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
@@ -732,12 +732,12 @@ Beschriftung und Dropdown-Liste der Einbettungsgröße befinden sich unten im Di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
-   <td colname="col2"> <p>Innenabstand. </p> </td> 
+   <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten eines Bedienfelds für die Einbettungsgröße mit zehn Pixel Abstand:
+**Beispiel** - zum Einrichten eines Bedienfelds für die Einbettungsgröße mit zehn Pixel Abstand:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -756,17 +756,17 @@ Die Größe und Ausrichtung der Beschriftung für die Einbettungsgröße wird mi
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertikale Ausrichtung  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertikale Ausrichtung </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Ausrichtung der Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Beschriftungsbreite. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen der Beschriftung für die Einbettungsgröße auf die obere Ausrichtung und eine Breite von 80 Pixel:
+**Beispiel** - um die Beschriftung für die Einbettungsgröße auf die obere Ausrichtung und eine Breite von 80 Pixel festzulegen:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -786,7 +786,7 @@ Die Breite des Kombinationsfelds für die Einbettungsgröße wird mit der folgen
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite des Kombinationsfeldes. </p> </td> 
   </tr> 
  </tbody> 
@@ -794,9 +794,9 @@ Die Breite des Kombinationsfelds für die Einbettungsgröße wird mit der folgen
 
 >[!NOTE]
 >
->Das Kombinationsfeld unterstützt die Attributauswahl `expanded` mit möglichen Werten von `true` und `false`. Der Wert `true` wird verwendet, wenn das Kombinationsfeld eine der vordefinierten Einbettungsgrößen anzeigt. Daher sollte die gesamte verfügbare Breite verwendet werden. Der Wert `false` wird verwendet, wenn die Option für die benutzerdefinierte Größe im Kombinationsfeld ausgewählt ist. Daher sollte er verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
+>Das Kombinationsfeld unterstützt die `expanded` Attributauswahl mit möglichen Werten `true` und `false`. Die `true` wird verwendet, wenn das Kombinationsfeld eine der vordefinierten Einbettungsgrößen anzeigt. Daher sollte es alle verfügbaren Breiten annehmen. Die `false` verwendet wird, wenn die Option für die benutzerdefinierte Größe im Kombinationsfeld ausgewählt ist. Daher sollte sie verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
 
-**Beispiel** : Damit legen Sie fest, dass das Kombinationsfeld für die Einbettungsgröße bei der Anzeige eines vordefinierten Elements 300 Pixel breit und bei der Anzeige einer benutzerdefinierten Größe 110 Pixel breit ist:
+**Beispiel** - zum Festlegen der Breite des EinbettungsgrößenKombinationsfelds bei der Anzeige eines vordefinierten Elements auf 300 Pixel und bei der Anzeige einer benutzerdefinierten Größe auf 110 Pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -818,13 +818,13 @@ Die Höhe des Kombinationsfeldtextes wird durch ein spezielles inneres Element d
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Texthöhe im Kombinationsfeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen der Höhe des Kombinationsfelds für die Einbettungsgröße auf 40 Pixel:
+**Beispiel** - zum Festlegen der Höhe des Kombinationsfelds für die Einbettungsgröße auf 40 Pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -851,19 +851,19 @@ Das Kombinationsfeld verfügt rechts über eine Dropdown-Schaltfläche und wird 
    <td colname="col2"> <p>Horizontale Schaltflächenposition innerhalb des Kombinationsfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbild für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -871,9 +871,9 @@ Das Kombinationsfeld verfügt rechts über eine Dropdown-Schaltfläche und wird 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
 
-**Beispiel** : Um eine Dropdown-Schaltfläche auf 28 x 28 Pixel festzulegen und für jeden Status ein eigenes Bild anzuzeigen:
+**Beispiel** - um eine Dropdown-Schaltfläche auf 28 x 28 Pixel festzulegen und für jeden Status ein eigenes Bild anzuzeigen:
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -913,7 +913,7 @@ Die Größe und Position des Bedienfelds wird durch die Komponente gesteuert. Es
  </tbody> 
 </table>
 
-**Beispiel** : Damit legen Sie im Kombinationsfeld einen grauen Rahmen von einem Pixel fest:
+**Beispiel** - zum Festlegen eines grauen Rahmens für das Kombinationsfeld:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown { 
@@ -932,13 +932,13 @@ Ein einzelnes Element in einem Dropdown-Bedienfeld, das mit der folgenden CSS-Kl
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Elementhintergrund. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen des Feldelements für das Kombinationsfeld mit einem weißen Hintergrund:
+**Beispiel** - um das Bedienfeld &quot;Kombinationsfeld&quot;auf einen weißen Hintergrund festzulegen:
 
 ```
 .s7video360viewer .s7embeddialog .s7dropdownitemanchor { 
@@ -957,25 +957,25 @@ Ein Häkchen, das links neben dem ausgewählten Element im Kombinationsfeld ange
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Elementbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um das Häkchensymbol auf 25 x 25 Pixel festzulegen:
+**Beispiel** - zum Festlegen des Kontrollkästchensymbols auf 25 x 25 Pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7checkmark { 
@@ -1002,7 +1002,7 @@ Wenn die Option &quot;Benutzerdefinierte Größe&quot;im Kombinationsfeld &quot;
  </tbody> 
 </table>
 
-**Beispiel** : Zum Festlegen des Bereichs für Eingabefelder mit benutzerdefinierter Größe auf 20 Pixel rechts neben dem Kombinationsfeld:
+**Beispiel** - um den Bereich für Eingabefelder mit benutzerdefinierter Größe auf 20 Pixel rechts neben dem Kombinationsfeld festzulegen:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1025,11 +1025,11 @@ Jedes Eingabefeld für die benutzerdefinierte Größe wird in einen Container ei
    <td colname="col2"> <p>Rand um das Eingabefeld herum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Breite des Eingabefelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p> Spanne der Eingabefelder. </p> </td> 
   </tr> 
   <tr> 
@@ -1039,7 +1039,7 @@ Jedes Eingabefeld für die benutzerdefinierte Größe wird in einen Container ei
  </tbody> 
 </table>
 
-**Beispiel**  - So legen Sie fest, dass Eingabefelder für die benutzerdefinierte Größe einen grauen Rahmen, einen Rand und einen Abstand von einem Pixel sowie eine Breite von 70 Pixel aufweisen:
+**Beispiel** - So legen Sie fest, dass Eingabefelder für die benutzerdefinierte Größe einen grauen Rahmen von einem Pixel, einen Rand und einen Abstand von 70 Pixel aufweisen:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 
@@ -1062,13 +1062,13 @@ Wenn ein vertikaler Bildlauf erforderlich ist, wird die Bildlaufleiste im Bereic
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Bildlaufbereichbreite. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um ein Bildlaufbedienfeld einzurichten, das eine Breite von 44 Pixel aufweist
+**Beispiel** - um ein Bildlaufbedienfeld mit einer Breite von 44 Pixel einzurichten.
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1087,7 +1087,7 @@ Das Erscheinungsbild des Bildlaufleistenbereichs wird mit der folgenden CSS-Klas
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
@@ -1105,7 +1105,7 @@ Das Erscheinungsbild des Bildlaufleistenbereichs wird mit der folgenden CSS-Klas
  </tbody> 
 </table>
 
-**Beispiel** : Um eine Bildlaufleiste einzurichten, die 28 Pixel breit ist und eine 8-Pixel-Spanne von oben, rechts und unten im Bildlaufbereich hat:
+**Beispiel** - um eine Bildlaufleiste einzurichten, die 28 Pixel breit ist und eine 8-Pixel-Spanne von oben, rechts und unten im Bildlaufbereich aufweist:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar { 
@@ -1127,17 +1127,17 @@ Die Bildlaufleisten-Spur ist der Bereich zwischen den oberen und unteren Bildlau
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Spurbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe verfolgen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Zum Einrichten einer Bildlaufleiste mit einer Breite von 28 Pixel und einem grauen Hintergrund:
+**Beispiel** - um eine Bildlaufleiste mit einer Breite von 28 Pixel und einem grauen Hintergrund einzurichten:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1157,27 +1157,27 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Thumb-Breite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Rahmenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Thumb-Höhe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Schubhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Der vertikale Abstand zwischen dem oberen Ende des Gleises. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p> Der vertikale Abstand zwischen dem unteren Ende des Gleises. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Daumenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1185,9 +1185,9 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
 
 >[!NOTE]
 >
->Thumb unterstützt den Attributselektor `state`, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
+>Thumb unterstützt die `state` -Attribut-Selektor, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenstatus anzuwenden: `up`, `down`, `over`, und `disabled`.
 
-**Beispiel** : Um einen Bildlaufleisten-Daumen mit 28 x 45 Pixel einzurichten, hat oben und unten einen zehnten Pixelrand und hat für jeden Status ein anderes Bildmaterial:
+**Beispiel** - um einen Bildlaufleisten-Daumen von 28 x 45 Pixel einzurichten, oben und unten einen zehnten Pixelrand hat und für jeden Status unterschiedliche Grafiken aufweist:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1220,26 +1220,26 @@ Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`, und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 **CSS-Eigenschaften der Schaltflächen für den oberen und unteren Bildlauf**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das für einen bestimmten Schaltflächenstatus angezeigte Bild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1247,11 +1247,11 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen den Attributselektor `state`, der verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
+>Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-**Beispiel** : Zum Einrichten von Bildlaufschaltflächen mit 28 x 32 Pixel und unterschiedlicher Grafik für jeden Status:
+**Beispiel** - um Bildlaufschaltflächen einzurichten, die 28 x 32 Pixel groß sind und für jeden Status unterschiedliche Grafiken aufweisen:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

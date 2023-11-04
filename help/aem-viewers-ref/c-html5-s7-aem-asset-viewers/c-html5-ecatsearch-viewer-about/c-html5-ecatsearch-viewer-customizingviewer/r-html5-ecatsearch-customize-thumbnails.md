@@ -1,18 +1,18 @@
 ---
-title: Miniaturansichten
+title: Miniaturen
 description: Miniaturansichten bestehen aus einem Raster von Miniaturbildern mit einer optionalen Bildlaufleiste auf der rechten Seite, um einen vertikalen Bildlauf zu ermöglichen.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 2%
 
 ---
 
-# Miniaturansichten{#thumbnails}
+# Miniaturen{#thumbnails}
 
 Miniaturansichten bestehen aus einem Raster von Miniaturbildern mit einer optionalen Bildlaufleiste auf der rechten Seite, um einen vertikalen Bildlauf zu ermöglichen.
 
@@ -52,7 +52,7 @@ Das Erscheinungsbild des Containers für Miniaturansichten wird mit der folgende
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Hintergrundfarbe des Bereichs "Miniaturansichten". </p> </td> 
+   <td colname="col2"> <p>Die Hintergrundfarbe des Miniaturansichtsbereichs. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -197,7 +197,7 @@ Wenn mehr Miniaturansichten vorhanden sind, als vertikal in die Ansicht passen, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
-   <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am oberen Rand des Bereichs "Miniaturansichten". </p> </td> 
+   <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am oberen Rand des Bereichs "Miniaturen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
@@ -294,7 +294,7 @@ Der Bildlaufleisten-Daumen bewegt sich innerhalb des Bildlaufverfolgungsbereichs
 
 >[!NOTE]
 >
->Thumb unterstützt die `state` -Attributauswahl, mit der verschiedene Skins auf die Daumenstatus angewendet werden können `up`, `down`, `over`und `disabled`.
+>Thumb unterstützt die `state` -Attributauswahl, mit der verschiedene Skins auf die Daumenstatus angewendet werden können `up`, `down`, `over`, und `disabled`.
 
 Beispiel: Um einen Bildlaufleisten-Daumen mit 28 x 45 Pixel einzurichten, hat oben und unten 10 Pixel Ränder und hat für jeden Status unterschiedliche Grafiken.
 
@@ -327,7 +327,7 @@ Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`, und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -358,7 +358,7 @@ Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS zu positionie
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf die verschiedenen Schaltflächenstatus anzuwenden `up`, `down`, `over`und `disabled`.
+>Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf die verschiedenen Schaltflächenstatus anzuwenden `up`, `down`, `over`, und `disabled`.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 

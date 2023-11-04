@@ -5,10 +5,10 @@ title: Wasserzeichen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Image Serving implementiert eine einfache visuelle Wasserzeichenfunktion.
 
-Ein Wasserzeichen ist normalerweise ein halbtransparentes Bild, es kann sich jedoch um Text oder ein komplexeres, mehrschichtiges Composite-Bild handeln. Der Server legt das Wasserzeichen über dem Antwortbild nach allen Ansichtsattributen ( `wid=`, `hei=`, `align=`, `scl=`, `bgc=`) angewendet wurden.
+Ein Wasserzeichen ist normalerweise ein halbtransparentes Bild, es kann sich jedoch um Text oder ein komplexeres, mehrschichtiges Composite-Bild handeln. Der Server legt das Wasserzeichen nach allen Ansichtsattributen ( `wid=`, `hei=`, `align=`, `scl=`, `bgc=`) angewendet wurden.
 
 Wasserzeichen wird durch die Einstellung `attribute::Watermark` zu einem gültigen Katalogeintrag, der das Wasserzeichenbild oder die Vorlage enthalten würde. Wenn `attribute::Watermark` in einem benannten Katalog festgelegt ist, fügt der Server das Wasserzeichen zu allen Bildanforderungen hinzu, die auf die Katalog-ID in der Anfrage-URL verweisen. Wenn `default::Watermark` festgelegt ist (im Standardkatalog, [!DNL default.ini]), wird das Wasserzeichen auf alle Bildanforderungen angewendet, unabhängig davon, ob sie auf einen Katalog verweisen oder nicht.
 
@@ -30,9 +30,9 @@ Im Gegensatz zu Standardbildern, `sizeN=` kann für layer=0 oder layer=comp des 
 
 Anforderungsbefehle (z. B. `fmt=`) und Anzeigen von Befehlen (z. B. `wid=`) werden in Wasserzeichendatensätzen ignoriert, mit Ausnahme von `align=`. `align=` kann verwendet werden, um das Wasserzeichenbild relativ zum Wasserzeichenbild relativ zum Zielbild zu positionieren. Dadurch kann das Wasserzeichen relativ zu einer Ecke oder Kante des Zielbilds positioniert werden.
 
-Nach Skalierung und Ausrichtung legt der Server das Wasserzeichenbild mithilfe der `blendMode=` und `opac=` Werte, die für `layer=0` oder `layer=comp` des Wasserzeichenbilds. Schließlich werden die für das Zielbild angegebenen Anforderungs- und Ansichtsbefehle angewendet, um das Antwortbild zu erstellen.
+Nach der Skalierung und Ausrichtung legt der Server das Wasserzeichenbild mithilfe der `blendMode=` und `opac=` Werte, die für `layer=0` oder `layer=comp` des Wasserzeichenbilds. Schließlich werden die für das Zielbild angegebenen Anforderungs- und Ansichtsbefehle angewendet, um das Antwortbild zu erstellen.
 
-Beachten Sie, dass sich das Wasserzeichenbild nie auf einen leeren Bereich erstreckt, der dem Antwortbild vom `wid=` und `hei=` Befehle.
+Beachten Sie, dass sich das Wasserzeichenbild nie über einen leeren Bereich erstreckt, der dem Antwortbild vom `wid=` und `hei=` Befehle.
 
 ## Beispiel {#section-0408c977d7324d4cb0e76a91cdfa2acd}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: abe8affb-cbcd-4072-b2ed-91a398b1d678
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
-   <td colname="col2"> <p> Legt die Dauer der Ein- und Ausblendung der Animation in Sekunden fest. </p> </td> 
+   <td colname="col2"> <p> Legt die Dauer der Ein- und Ausblendung-Animation in Sekunden fest. </p> </td> 
   </tr> 
  </tbody> 
 </table>

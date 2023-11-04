@@ -5,10 +5,10 @@ title: Scharf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 10%
+source-wordcount: '111'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Scharfzeichnen. Das Scharfzeichnen-Attribut bestimmt, wann das Material beim Rendern scharfgezeichnet wird.
 
-Art und Umfang der Scharfzeichnung werden durch die Vignette über eine Standard-Materialvorlage oder mit `catalog::RenderSettings` gesteuert.
+Art und Umfang der Scharfzeichnung werden durch die Vignette über eine Standard-Materialvorlage oder mit `catalog::RenderSettings`.
 
 ## Eigenschaften {#section-aac81b1a611b4bca90b8544eae7896df}
 
@@ -37,7 +37,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Mehr Scharfzeichnung (sowohl vor als auch nach der Umwandlung). </p></td> 
+  <td class="stentry"> <p>Mehr Scharfzeichnung (sowohl vor als auch nach der Transformation). </p></td> 
  </tr> 
 </table>
 
@@ -49,4 +49,4 @@ Ignoriert durch feste Farbstoffe, optional für alle anderen Materialien.
 
 ## Verwandte Themen {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[attribute::Scharfzeichnen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) ,  [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd),  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Scharfzeichnen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [scharf=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

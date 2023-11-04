@@ -5,9 +5,9 @@ title: Vorgangsmethoden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-Bei den meisten Vorgängen müssen Sie einen Unternehmenskontext festlegen, indem Sie eine `companyHandle` Parameter. Der Handle des Unternehmens ist ein Zeiger, der von bestimmten Vorgängen wie `getCompanyInfo`, `addCompany`und `getCompanyMembership`.
+Bei den meisten Vorgängen müssen Sie einen Unternehmenskontext festlegen, indem Sie eine `companyHandle` -Parameter. Der Handle des Unternehmens ist ein Zeiger, der von bestimmten Vorgängen wie `getCompanyInfo`, `addCompany`, und `getCompanyMembership`.
 
 **userHandle**
 
@@ -70,11 +70,11 @@ Mit den folgenden Vorgängen können Benutzer-Handles abgerufen werden:
 
 **accessUserHandle und accessGroupHandle**
 
-Vorgänge, für die Zugriffsberechtigungen erforderlich sind (Lesen, Schreiben, Löschen), erfolgen standardmäßig im Berechtigungskontext des aufrufenden Benutzers. Bestimmte Vorgänge ermöglichen es Ihnen, diesen Kontext mit dem `accessUserHandle` oder `accessGroupHandle` Parameter. Die `accessUserHandle` -Parameter ermöglicht es einem Administrator, die Identität eines anderen Benutzers zu übernehmen. Die `accessGroupHandle` ermöglicht es dem Aufrufer, im Kontext einer bestimmten Benutzergruppe zu arbeiten.
+Vorgänge, für die Zugriffsberechtigungen erforderlich sind (Lesen, Schreiben, Löschen), erfolgen standardmäßig im Berechtigungskontext des aufrufenden Benutzers. Bestimmte Vorgänge ermöglichen es Ihnen, diesen Kontext mit dem `accessUserHandle` oder `accessGroupHandle` -Parameter. Die `accessUserHandle` -Parameter ermöglicht es einem Administrator, die Identität eines anderen Benutzers zu übernehmen. Die `accessGroupHandle` ermöglicht es dem Aufrufer, im Kontext einer bestimmten Benutzergruppe zu arbeiten.
 
 **responseFieldArray und excludeFieldArray**
 
-Bei einigen Vorgängen kann der Aufrufer einschränken, welche Felder in der Antwort enthalten sind. Durch das Eingrenzen von Feldern können Sie die Zeit und den Arbeitsspeicher für die Verarbeitung der Anfrage reduzieren und die Größe der Antwortdaten reduzieren. Der Aufrufer kann eine bestimmte Feldliste anfordern, indem er eine `responseFieldArray` oder mit einer Auflistung von ausgeschlossenen Feldern über die `excludeFieldArray` Parameter.
+Bei einigen Vorgängen kann der Aufrufer einschränken, welche Felder in der Antwort enthalten sind. Durch das Eingrenzen von Feldern können Sie die Zeit und den Arbeitsspeicher für die Verarbeitung der Anfrage reduzieren und die Größe der Antwortdaten reduzieren. Der Aufrufer kann eine bestimmte Feldliste anfordern, indem er eine `responseFieldArray` -Parameter oder mit einer Aufzählung der ausgeschlossenen Felder über die `excludeFieldArray` -Parameter.
 
 Beide `responseFieldArray` und `excludeFieldArray` Felder mithilfe eines Knotenpfads angeben, der durch `/`. Um beispielsweise Folgendes anzugeben: `searchAssets` gibt nur den Namen, das Datum der letzten Änderung und die Metadaten für jedes Asset zurück, siehe Folgendes:
 
@@ -94,7 +94,7 @@ So geben Sie alle Felder zurück (mit Ausnahme der Berechtigungen):
 </excludeFieldArray>
 ```
 
-Beachten Sie, dass die Knotenpfade relativ zum Knoten &quot;return&quot;sind. Wenn Sie ein komplexes Typfeld ohne Unterelemente angeben (z. B. `assetArray/items/imageInfo`), werden alle zugehörigen Unterelemente einbezogen. Wenn Sie ein oder mehrere Unterelemente in einem Feld vom Typ &quot;Komplex&quot;angeben (z. B. `assetArray/items/imageInfo/originalPath`), werden nur die Unterelemente einbezogen.
+Beachten Sie, dass die Knotenpfade relativ zum Knoten &quot;return&quot;sind. Wenn Sie ein komplexes Typfeld ohne Unterelemente angeben (z. B. `assetArray/items/imageInfo`), werden alle zugehörigen Unterelemente einbezogen. Wenn Sie ein oder mehrere Unterelemente in einem Feld mit komplexem Typ angeben (z. B. `assetArray/items/imageInfo/originalPath`), werden nur die Unterelemente einbezogen.
 
 Wenn Sie `responseFieldArray` oder `excludeFieldArray` in einer Anforderung werden alle Felder zurückgegeben.
 

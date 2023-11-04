@@ -5,9 +5,9 @@ title: Zugriffsprotokoll
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e7f9d935-cb98-404c-8922-6420a4217733
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,6 @@ Das Zugriffsprotokoll wird in server.xml konfiguriert.
 
 >[!NOTE]
 >
->Zusätzlich zum Client-Traffic für Image Serving ( [!DNL /is/image/*]) und Image Rendering ( [!DNL /ir/render/*]), kann das Zugriffsprotokoll bestimmten internen Traffic enthalten: Zugang zu [!DNL Platform Server] Katalogsystem ( [!DNL /is-catalog/*]), Cache-Freigabe und Fehler-Umleitungsanfragen ( [!DNL /is/cache/*]), Zugriff auf andere Pakete, die für die [!DNL Platform Server], wie z. B. die Dynamic Media-Viewer ( [!DNL /is-viewers/*]), statischem Traffic und statischen Inhaltsanforderungen, die von der [!DNL Platform Server] (z. B. [!DNL /is-docs/*]).
+>Zusätzlich zum Client-Traffic für Image Serving ( [!DNL /is/image/*]) und Image Rendering ( [!DNL /ir/render/*]), kann das Zugriffsprotokoll bestimmten internen Traffic enthalten: Zugriff auf die [!DNL Platform Server] Katalogsystem ( [!DNL /is-catalog/*]), Cache-Freigabe und Fehler-Umleitungsanfragen ( [!DNL /is/cache/*]), Zugriff auf andere Pakete, die für die [!DNL Platform Server], wie z. B. die Dynamic Media-Viewer ( [!DNL /is-viewers/*]), statischem Traffic und statischen Inhaltsanforderungen, die von der [!DNL Platform Server] (zum Beispiel: [!DNL /is-docs/*]).
 
 Anforderungen mit [!DNL /is-catalog] und [!DNL /is/cache] Stammpfade sollten immer von jeder Analyse des Client-Traffics ausgeschlossen werden.

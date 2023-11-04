@@ -1,18 +1,18 @@
 ---
-title: anpassen
+title: fit
 description: Antwortbild-Fit-Modus. Gibt an, wie der Skalierungsfaktor berechnet wird, der verwendet wird, um das zusammengesetzte Bild auf das Antwortbild zu skalieren, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 2%
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
-# anpassen{#fit}
+# fit{#fit}
 
 Antwortbild-Fit-Modus. Gibt an, wie der Skalierungsfaktor berechnet wird, der verwendet wird, um das zusammengesetzte Bild auf das Antwortbild zu skalieren, wenn die Antwortgröße mit wid= und hei= und scl= angegeben ist.
 
@@ -29,7 +29,7 @@ Antwortbild-Fit-Modus. Gibt an, wie der Skalierungsfaktor berechnet wird, der ve
  </tr> 
 </table>
 
-In der folgenden Beschreibung der Modusoptionen wird davon ausgegangen, dass *`xScale`* ist das Verhältnis der Gesamtbildbreite zur Breite des Antwortbilds und *`yScale`* ist das Verhältnis der Höhe des zusammengesetzten Bildes zur Höhe des Antwortbilds.
+In der folgenden Beschreibung der Modusoptionen wird angenommen, dass *`xScale`* ist das Verhältnis der Gesamtbildbreite zur Breite des Antwortbilds und *`yScale`* ist das Verhältnis der Höhe des zusammengesetzten Bildes zur Höhe des Antwortbilds.
 
 <table id="table_33408ECA9D164AFAA249F8589060545E"> 
  <thead> 
@@ -40,8 +40,8 @@ In der folgenden Beschreibung der Modusoptionen wird davon ausgegangen, dass *`x
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> anpassen </span> </p> </td> 
-   <td colname="col2"> <p>Skaliert das zusammengesetzte Bild so, dass es in den zugewiesenen Raum passt <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span>mit minimalem Leerzeichen und ohne Zuschneiden. Das Antwortbild hat die exakte Größe, die mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span>. Der kleinere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> angewendet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fit </span> </p> </td> 
+   <td colname="col2"> <p>Skaliert das zusammengesetzte Bild so, dass es in den zugewiesenen Raum passt <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span>, mit minimalem Leerzeichen und ohne Zuschneiden. Das Antwortbild hat die exakte Größe, die mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span>. Der kleinere von <span class="varname"> xScale </span> und <span class="varname"> yScale </span> angewendet wird. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> beschränken </span> </p> </td> 
@@ -72,11 +72,11 @@ In der folgenden Beschreibung der Modusoptionen wird davon ausgegangen, dass *`x
 
 Satz *`upscale`* auf &quot;1&quot;zu setzen, um eine Vergrößerung zu ermöglichen, oder auf &quot;0&quot;, um * zu beschränken`xScale`*und *`yScale`* auf 1:1 begrenzt. Wenn die Upskalierung deaktiviert ist, kann es zu zusätzlichen Leerzeichen kommen, wenn das zusammengesetzte Bild kleiner als das Antwortbild ist.
 
-Zuschnitt und Leerzeichen werden standardmäßig zentriert. ihre Position kann mit `align=`. Die Farbe und Deckkraft der Whitespace-Füllung wird durch `bgc=`.
+Zuschneiden und Leerzeichen werden standardmäßig zentriert. Ihre Position kann mit `align=`. Die Farbe und Deckkraft der Whitespace-Füllung wird durch `bgc=`.
 
 ## Eigenschaften {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung. Mindestens eines von `wid=` oder `hei=` muss auch angegeben werden, andernfalls wird ein Fehler zurückgegeben. both `wid=` und `hei=` muss angegeben werden, damit sich die Anpassungsmodi wie beschrieben verhalten. Ein Fehler wird zurückgegeben, wenn `req=tmb` wird ebenfalls angegeben.
+Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung. Mindestens eines von `wid=` oder `hei=` muss auch angegeben werden, andernfalls wird ein Fehler zurückgegeben. Beide `wid=` und `hei=` muss angegeben werden, damit sich die Anpassungsmodi wie beschrieben verhalten. Ein Fehler wird zurückgegeben, wenn `req=tmb` wird ebenfalls angegeben.
 
 ## Standard {#section-3a553b4b29ef447a8331d6954f3f06da}
 

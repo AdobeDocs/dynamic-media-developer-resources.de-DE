@@ -5,9 +5,9 @@ title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---
@@ -45,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Dieses Codebeispiel ersetzt ein Bild und wendet eine `urlModifier` mit einem Befehl, der angibt, dass der Image-Server beim Ersetzen keine Aktion ausführt.
+Dieses Codebeispiel ersetzt ein Bild und wendet eine `urlModifier` mit einem Befehl, der angibt, dass der Image-Server beim Ersetzen keine Aktion durchführt.
 
 **Anforderung**
 

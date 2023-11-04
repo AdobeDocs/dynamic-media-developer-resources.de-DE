@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '126'
+ht-degree: 7%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Konfigurationsattribut für Video360 Viewer.
 
-` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`count`*][, *`verblassen`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert die Anzeige des IconEffect über dem Video, wenn das Video angehalten wird. Auf einigen Geräten werden native Steuerelemente verwendet. In solchen Fällen wird der Modifikator <span class="codeph">iconEffect</span> ignoriert. </p> </td> 
+   <td colname="col2"> <p> Aktiviert die Anzeige des IconEffect über dem Video, wenn das Video angehalten wird. Auf einigen Geräten werden native Steuerelemente verwendet. In diesen Fällen wird die <span class="codeph">iconEffect</span> -Modifikator wird ignoriert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Zähler</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie oft IconEffect maximal angezeigt und wieder angezeigt wird. Der Wert <span class="codeph"> -1</span> zeigt an, dass das Symbol auf unbestimmte Zeit wieder angezeigt wird. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie oft IconEffect maximal angezeigt und wieder angezeigt wird. Ein Wert von <span class="codeph"> -1</span> gibt an, dass das Symbol unbegrenzt angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> verblassen</span></span> </p> </td> 
@@ -34,7 +34,7 @@ Konfigurationsattribut für Video360 Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach dem Verblassen in der Animation ist abgeschlossen und bevor die Animation zum Ausblenden beginnt. Auf <span class="codeph"> 0</span> setzen, um das automatische Ausblendeverhalten zu deaktivieren. </p> </td> 
+   <td colname="col2"> <p> Legt fest, wie viele Sekunden der IconEffect vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach dem Verblassen in der Animation und vor dem Beginn der Ausblendung. Legen Sie <span class="codeph"> 0</span> , um das automatische Ausblenden zu deaktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>

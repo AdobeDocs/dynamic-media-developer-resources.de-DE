@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Das Erscheinungsbild des Farbmuster-Containers wird mit der CSS-Klassenauswahl g
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Die Höhe der Muster. </p> </td> 
+   <td colname="col2"> <p>Die Höhe der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
@@ -145,7 +145,7 @@ Der Typ des Assets wird als Symbol angezeigt, das über dem Miniaturbild überla
  </tbody> 
 </table>
 
-Die Überlagerung unterstützt die `type` -Attributauswahl mit den folgenden möglichen Werten: `image` (für einzelne Bilder), `swatchset` (für Mustersets), `spinset` (für Rotationssets) und `video` (für einzelne Videos oder adaptive Videosets).
+Die -Überlagerung unterstützt die `type` -Attributauswahl mit den folgenden möglichen Werten: `image` (für einzelne Bilder), `swatchset` (für Mustersets), `spinset` (für Rotationssets) und `video` (für einzelne Videos oder adaptive Videosets).
 
 Beispiel: So richten Sie Symbolüberlagerungen für Rotationssets, Mustersets und Videos ein:
 
@@ -167,7 +167,7 @@ Das Erscheinungsbild der linken und rechten Bildlaufschaltflächen wird mit den 
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`, und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -198,7 +198,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`und `disabled`.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
 
 Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 

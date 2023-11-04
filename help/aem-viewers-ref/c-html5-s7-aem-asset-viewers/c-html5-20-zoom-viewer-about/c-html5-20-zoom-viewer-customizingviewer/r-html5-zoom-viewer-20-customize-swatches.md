@@ -1,18 +1,18 @@
 ---
-title: Muster
+title: Farbfelder
 description: Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite. Bildlauftasten werden nur dann auf dem Desktop angezeigt, wenn alle Miniaturansichten nicht in die Container-Breite passen. Auf Mobilgeräten oder wenn Miniaturansichten in die Container-Breite passen, werden die Bildlauftasten nicht angezeigt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 3%
 
 ---
 
-# Muster{#swatches}
+# Farbfelder{#swatches}
 
 Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite. Bildlauftasten werden nur dann auf dem Desktop angezeigt, wenn alle Miniaturansichten nicht in die Container-Breite passen. Auf Mobilgeräten oder wenn Miniaturansichten in die Container-Breite passen, werden die Bildlauftasten nicht angezeigt.
 
@@ -172,7 +172,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`und `disabled`.
+>Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
 
 Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 

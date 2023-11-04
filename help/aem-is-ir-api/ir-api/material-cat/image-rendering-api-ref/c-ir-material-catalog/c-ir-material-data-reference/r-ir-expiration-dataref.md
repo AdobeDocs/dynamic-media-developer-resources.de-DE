@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ Client-Cache-Zeit bis zur Live-Schaltung. Anzahl der Stunden bis zum Ablauf. Die
 
 Der Server berechnet die Ablaufzeit/das Ablaufdatum der NTTP-Antwortdaten, indem er diesen Wert zum Übertragungszeitpunkt/Übertragungsdatum hinzufügt.
 
-Browser verwalten Caches anhand der Ablaufzeiten von Dateien. Bevor eine Anforderung an den Server übergeben wird, prüft der Browser seinen Cache, um festzustellen, ob die Datei bereits heruntergeladen wurde. Wenn dies der Fall ist und die Datei noch nicht abgelaufen ist, sendet der Browser eine bedingte GET (z. B. mit dem HTTP-Anforderungsheader If-Modified-Since ) und keine normale GET-Anfrage. Der Server hat die Möglichkeit, mit dem Status &#39;304&#39; zu antworten und das Bild nicht zu senden. Der Browser lädt dann einfach die Datei aus dem Cache. Dies kann die Gesamtleistung für häufig aufgerufene Daten erheblich erhöhen.
+Browser verwalten Caches anhand der Ablaufzeiten von Dateien. Bevor eine Anforderung an den Server übergeben wird, überprüft der Browser seinen Cache, um festzustellen, ob die Datei bereits heruntergeladen wurde. Wenn dies der Fall ist und die Datei noch nicht abgelaufen ist, sendet der Browser anstelle einer normalen GET-Anfrage eine bedingte GET (z. B. mit dem HTTP-Anforderungsheader If-Modified-Since ). Der Server hat die Möglichkeit, mit dem Status &#39;304&#39; zu antworten und das Bild nicht zu senden. Der Browser lädt dann einfach die Datei aus dem Cache. Dies kann die Gesamtleistung für häufig aufgerufene Daten erheblich steigern.
 
-Der Server setzt den HTTP-Antwort-Header expires auf den aktuellen Datums-/Uhrzeitwert sowie den kleinsten Vignettenwert::Expiration und alle catalog::Expiration -Werte für die Vignette und alle am Rendervorgang beteiligten Materialien.
+Der Server setzt den ablaufenden HTTP-Antwortheader auf das aktuelle Datum/die aktuelle Uhrzeit und den kleinsten Vignettenwert::Expiration sowie alle catalog::Expiration -Werte für die Vignette und alle am Rendervorgang beteiligten Materialien.
 
 Die Gültigkeit wird hauptsächlich für Bilddatenantworten festgelegt. Bestimmte Arten von Antworten werden immer für einen sofortigen Ablauf markiert (oder als nicht zwischenspeicherbar markiert), einschließlich aller Fehlerantworten oder Eigenschaftsantworten.
 

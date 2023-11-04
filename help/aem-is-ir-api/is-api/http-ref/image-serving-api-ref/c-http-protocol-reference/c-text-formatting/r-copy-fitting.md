@@ -1,20 +1,20 @@
 ---
-description: textPs= implementiert einen proprietären Kopiereinpassungsalgorithmus, der die Schriftgröße(n) automatisch anpassen wird, um den Textbereich optimal mit Text zu füllen, wodurch zusätzlicher Platz am unteren Rand minimiert wird und gleichzeitig ein Überlauf vermieden wird.
+description: textPs= implementiert einen proprietären Kopiereinpassungsalgorithmus, der die Schriftgrößen automatisch anpasst, um den Textbereich optimal mit Text zu füllen, wodurch zusätzlicher Platz am unteren Rand minimiert und gleichzeitig ein Überlauf vermieden wird.
 solution: Experience Manager
 title: Nachrüstung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 # Nachrüstung{#copy-fitting}
 
-textPs= implementiert einen proprietären Kopiereinpassungsalgorithmus, der die Schriftgröße(n) automatisch anpassen wird, um den Textbereich optimal mit Text zu füllen, wodurch zusätzlicher Platz am unteren Rand minimiert wird und gleichzeitig ein Überlauf vermieden wird.
+textPs= implementiert einen proprietären Kopiereinpassungsalgorithmus, der die Schriftgrößen automatisch anpasst, um den Textbereich optimal mit Text zu füllen, wodurch zusätzlicher Platz am unteren Rand minimiert und gleichzeitig ein Überlauf vermieden wird.
 
 Die Kopieranpassung kann kollektiv für die gesamte Textebene aktiviert und gesteuert werden, auf Absatzbasis, auch für einen einzelnen Textbereich.
 
@@ -26,7 +26,7 @@ Die Nachbearbeitung wird durch Angabe von `\copyfit` mit einer Größe, die klei
 
 ## Anzahl Zeilen begrenzen {#section-e5aee0f039e04842afc3d6884ed681ac}
 
-Zusätzlich zur Angabe des Schriftgrößenbereichs kann das Verhalten des Kopiereinpassungsalgorithmus mit der `\copyfitlines` oder `\copyfitmaxlines` -Befehle, die die Anzahl der Zeilen begrenzen, die der Algorithmus generieren wird. Beide Befehle akzeptieren einen Zeilenanzahl-Parameter oder 0, um die Anzahl der Zeilen im kopierten Bereich nicht zu begrenzen.
+Zusätzlich zur Angabe des Schriftgrößenbereichs kann das Verhalten des Kopiereinpassungsalgorithmus mit der `\copyfitlines` oder `\copyfitmaxlines` -Befehle, die die Anzahl der vom Algorithmus generierten Zeilen begrenzen. Beide Befehle akzeptieren einen Zeilenanzahl-Parameter oder 0, um die Anzahl der Zeilen im kopierten Bereich nicht zu begrenzen.
 
 `\copyfitlines` ermöglicht den Überlauf von Text in zusätzliche Zeilen, wenn er nicht in die angegebene Anzahl von Zeilen passt. Explizite Zeilenumbrüche im Textsegment, das kopiert werden soll, werden immer berücksichtigt.
 
@@ -34,19 +34,19 @@ Zusätzlich zur Angabe des Schriftgrößenbereichs kann das Verhalten des Kopier
 
 ## Beispiele {#section-f4ddbbfade444560be30a813d90c2c1b}
 
-In den folgenden Beispielen wird davon ausgegangen, dass Textkörper mit Variablen mit dem Namen *[!DNL $A$]*, *[!DNL $B$]* und *[!DNL $C$]*.
+In den folgenden Beispielen wird davon ausgegangen, dass Textkörper mit Variablen mit dem Namen *[!DNL $A$]*, *[!DNL $B$]*, und *[!DNL $C$]*.
 
 **Behalten Sie das gleiche Verhältnis zwischen Schriftgrößen im gesamten Bereich bei:**
 
 `{\fs10\copyfit100 $A${\fs20\copyfit200 $B$}$C$}`
 
-*[!DNL $B$]* wird immer doppelt so groß wie der Rest des Textes gerendert. Wenn viel Text angegeben wird, *[!DNL $A$]* und *[!DNL $C$]* wird mit `\fs10` und *[!DNL $B$]* mit `\fs20`. Mit wenig Text *[!DNL $A$]* und *[!DNL $C$]* verwendet `\fs100` und *[!DNL $B$]* `\fs200`.
+*[!DNL $B$]* wird immer doppelt so groß wie der Rest des Textes gerendert. Wenn viel Text angegeben wird, *[!DNL $A$]* und *[!DNL $C$]* wird gerendert mit `\fs10` und *[!DNL $B$]* mit `\fs20`. Mit wenig Text *[!DNL $A$]* und *[!DNL $C$]* use `\fs100` und *[!DNL $B$]* `\fs200`.
 
 **Wenn nur eine kleine Textmenge gezeichnet wird, wird die Schriftgröße in eine gemeinsame große Schriftgröße konvertiert:**
 
 `{\copyfit100\fs10 $A${\fs20 $B$}$C$}`
 
-Am kleinsten Ende des Bereichs *[!DNL $B$]* wird mit `\fs20`, doppelt so groß wie *[!DNL $A$]* und *[!DNL $C$]* at `\fs10`. Der gesamte Text wird unter `\fs100` (50 pt) am anderen Ende des Bereichs.
+Am kleinsten Ende des Bereichs *[!DNL $B$]* wird gerendert mit `\fs20`, doppelt so groß wie *[!DNL $A$]* und *[!DNL $C$]* at `\fs10`. Der gesamte Text wird unter `\fs100` (50 pt) am anderen Ende des Bereichs.
 
 **Wenn viel Text gerendert werden soll, konvertieren Sie ihn in eine übliche kleine Schriftgröße:**
 

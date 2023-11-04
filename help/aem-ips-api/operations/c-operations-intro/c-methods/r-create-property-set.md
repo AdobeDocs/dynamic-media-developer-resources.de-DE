@@ -1,20 +1,20 @@
 ---
-description: Eigenschaftensätze sind anwendungsspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatz-Typ an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatz-Typ nicht zulässt, dass mehrere Sets an ein Objekt angehängt werden (PropertySetType/allowMultipleisfalse) und das Objekt bereits über einen Satz desselben Typs verfügt, wird der neue Satz den vorhandenen ersetzen.
+description: Eigenschaftensätze sind anwendungsspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatz-Typ an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatz-Typ nicht zulässt, dass mehrere Sätze an ein Objekt angehängt werden (PropertySetType/allowMultipleisfalse) und das Objekt bereits über einen Satz desselben Typs verfügt, ersetzt der neue Satz den vorhandenen.
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 8%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-Eigenschaftensätze sind anwendungsspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatz-Typ an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatz-Typ nicht zulässt, dass mehrere Sets an ein Objekt angehängt werden (PropertySetType/allowMultipleisfalse) und das Objekt bereits über einen Satz desselben Typs verfügt, wird der neue Satz den vorhandenen ersetzen.
+Eigenschaftensätze sind anwendungsspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatz-Typ an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatz-Typ nicht zulässt, dass mehrere Sätze an ein Objekt angehängt werden (PropertySetType/allowMultipleisfalse) und das Objekt bereits über einen Satz desselben Typs verfügt, ersetzt der neue Satz den vorhandenen.
 
 Syntax
 

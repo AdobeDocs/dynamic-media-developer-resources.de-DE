@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Sollte nur aktiviert sein, wenn ein verteiltes Caching-Netzwerk wie Akamai verwe
 
 ## Eigenschaften {#section-453952244193452caccfaf7f601007c1}
 
-Flag. 0 zum Deaktivieren, 1 zum Aktivieren der zuletzt geänderten HTTP-Header.
+Flag. 0 zur Deaktivierung, 1 zur Aktivierung der zuletzt geänderten HTTP-Header.
 
 ## Standard {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 

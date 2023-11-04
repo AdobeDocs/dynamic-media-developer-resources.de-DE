@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f273f32-1699-4bc3-8dd0-f1dfefaa6e27
-source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Textzeichenfolge. Erforderlich für Bild- und SVG-Datensätze, kann für Vorlage
 
 Eine vollständige Liste der unterstützten Bilddateiformate finden Sie in der Beschreibung des Image Converter-Dienstprogramms (IC) .
 
-Anwendungen, die Bilddaten in verschiedenen Auflösungen erfordern, funktionieren am besten bei der Verwendung des PTIFF-Multiauflösungsformats (Dynamic Media Pyramid TIFF). Das IC-Dienstprogramm wird verwendet, um PTIFF-Bilder aus einem beliebigen unterstützten Bildformat zu erstellen.
+Anwendungen, die Bilddaten in mehreren Auflösungen erfordern, eignen sich am besten für die Verwendung des PTIFF-Multiauflösungsformats (Dynamic Media Pyramid TIFF). Das IC-Dienstprogramm wird verwendet, um PTIFF-Bilder aus einem beliebigen unterstützten Bildformat zu erstellen.
 
 ## Standard {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

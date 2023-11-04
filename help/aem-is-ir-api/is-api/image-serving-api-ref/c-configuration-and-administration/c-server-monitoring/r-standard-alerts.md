@@ -5,9 +5,9 @@ title: Standardmäßige Warnungen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ In der folgenden Tabelle werden die einzelnen Typen von Standardwarnungen beschr
   <tr> 
    <td> <p>Hohe Gleichzeitigkeit </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Wird ausgegeben, wenn die Anzahl der gleichzeitig verarbeiteten Anforderungen (die <i>überlappenden</i>) den festgelegten Schwellenwert überschreitet. Kann auf eine Überlastungsbedingung des Servers hinweisen. </td> 
+   <td> Wird gesendet, wenn die Anzahl der gleichzeitig verarbeiteten Anforderungen (die <i>Überschneidung</i>) den festgelegten Schwellenwert überschreitet. Kann auf eine Überlastungsbedingung des Servers hinweisen. </td> 
   </tr> 
   <tr> 
-   <td> <p>Minimaler Traffic </p> </td> 
+   <td> <p>Mindestverkehr </p> </td> 
    <td> <p>Traf </p> </td> 
-   <td> <p>Wird generiert, wenn die Gesamtanfragerate unter den angegebenen Schwellenwert fällt. Gibt typischerweise ein Problem mit der Serverkommunikation an (z. B. wenn ein Server aus der Warteschlange genommen wird). </p> </td> 
+   <td> <p>Wird generiert, wenn die Gesamtanfragerate unter den angegebenen Schwellenwert fällt. Gibt typischerweise ein Problem mit der Serverkommunikation an (z. B. wenn ein Server ausgeschaltet wird). </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fehlerrate </p> </td> 

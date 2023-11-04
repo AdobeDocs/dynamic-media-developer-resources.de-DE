@@ -5,9 +5,9 @@ title: Objekt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,9 @@ Quellobjektspezifikator. Bild-, SVG- und ICC-Profilobjekte können als Bildkatal
 
 *`rootId`* identifiziert einen Bildkatalog. (Siehe [Bildkatalog](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) für Details.) Wenn *`rootId`* im URL-Pfad angegeben ist, wird dieser Katalog zum *Hauptkatalog* für diese Anfrage. Andernfalls wird der Standardkatalog als Hauptkatalog verwendet. In derselben Anforderung können mehrere verschiedene Bildkataloge verwendet werden.
 
-Der Server geht zunächst davon aus, dass *`rootId`* wird in `src=`, `mask=`und `icc=` -Befehle und versuchen, einen Katalogeintrag im Hauptkatalog zu finden. Tatsächlich versucht der Server, die gesamte *`object`* Zeichenfolge als *`objId.`*
+Der Server geht zunächst davon aus, dass *`rootId`* wird in `src=`, `mask=`, und `icc=` Befehle und Versuche, einen Katalogeintrag im Hauptkatalog zu finden. Tatsächlich versucht der Server, die gesamte *`object`* Zeichenfolge als *`objId.`*
 
-Wenn ein Katalogeintrag gefunden wird, wird er verwendet. Andernfalls versucht der Server als Nächstes, die *`rootId`* eines Bildkatalogs. Wenn ein Katalog identifiziert wird, wird er nach *`objId`*. Wenn und der Eintrag gefunden wird, wird er verwendet.
+Wenn ein Katalogeintrag gefunden wird, wird er verwendet. Andernfalls versucht der Server, die *`rootId`* eines Bildkatalogs. Wenn ein Katalog identifiziert wird, wird er nach *`objId`*. Wenn und der Eintrag gefunden wird, wird er verwendet.
 
 Andernfalls *`object`* wird als expliziter Dateipfad angenommen. Wenn in diesem Fall `attribute::FullMatch` im Hauptkatalog festgelegt ist, wird der Katalog für dieses Objekt ignoriert und stattdessen der Standardkatalog verwendet. Wenn `attribute::FullMatch` nicht festgelegt ist, wird der Hauptkatalog für die weitere Verarbeitung verwendet.
 
@@ -49,7 +49,7 @@ Beide *`rootId`* und *`objId`* die Groß-/Kleinschreibung beachten. *`path`* wir
 
 Wenn ein führender `/` festgelegt ist, wird anstelle des Hauptkatalogs der Standardkatalog durchsucht. Dies ist in erster Linie nützlich, wenn ein expliziter Pfad `default::RootPath` anstelle des Hauptkatalogs `attribute::RootPath`, können aber auch verwendet werden, um Zugriff auf Einträge im Standardkatalog zu erhalten, die andernfalls durch Einträge im Hauptkatalog überschrieben würden.
 
-Siehe *Verwalten von Inhalten* im *Handbuch zur Serverkonfiguration* für Einzelheiten zur *`path`* wird in einen physischen Dateipfad übersetzt.
+Siehe Abschnitt *Verwalten von Inhalten* im *Handbuch zur Serverkonfiguration* für Einzelheiten zur *`path`* wird in einen physischen Dateipfad übersetzt.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Siehe *Verwalten von Inhalten* im *Handbuch zur Serverkonfiguration* für Einzel
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Beschreibung des IC-Dienstprogramms (Image Converter) .
 
-Anwendungen, die Bilddaten in verschiedenen Auflösungen erfordern, funktionieren am besten bei der Verwendung des PTIF-Multiauflösungsformats (Dynamic Media Pyramid TIFF). Das IC-Dienstprogramm wird verwendet, um PTIF-Bilder aus einem beliebigen unterstützten Bildformat zu erstellen.
+Anwendungen, die Bilddaten in mehreren Auflösungen erfordern, eignen sich am besten für die Verwendung des PTIF-Multiauflösungsformats (Dynamic Media Pyramid TIFF). Das IC-Dienstprogramm wird verwendet, um PTIF-Bilder aus einem beliebigen unterstützten Bildformat zu erstellen.
 
 ## Beispiele {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
@@ -71,13 +71,13 @@ Bild abrufen &#39; [!DNL myImage]&quot; im Bildkatalog identifiziert als &quot; 
 
 Verwenden eines einzelnen Bildkatalogs mit Ebenen
 
-**Erstellen Sie ein einfaches zusammengesetztes Bild, das aus drei Ebenen besteht, die alle von abgerufen werden. [!DNL myCatalog]&quot;:**
+**Erstellen Sie ein einfaches zusammengesetztes Bild, das aus drei Ebenen besteht, die alle aus &quot; [!DNL myCatalog]&quot;:**
 
 ` http:// *`Server`*/myCatalog?layer=0&src=img0&layer=1&src=img1&layer=2&src=img2&wid=200`
 
 **Direkter Zugriff auf Bilddateien bei Verwendung eines Katalogs zur Bereitstellung von Attributen**
 
-Zugriff [!DNL my/image/path/myImage.tif], wobei die standardmäßigen jpg-Attribute verwendet werden, die in konfiguriert sind. `myImageCatalog`:
+Zugriff [!DNL my/image/path/myImage.tif], unter Verwendung der standardmäßigen jpg-Attribute, die in konfiguriert sind `myImageCatalog`:
 
 `http://server/myImageCatalog/my/image/path/myImage.tif?wid=200`
 

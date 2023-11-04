@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,6 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 oder höher: Die Einstellungen des Internet-Plug-ins verhindern die Wiedergabe von Flash-Videos.
+* Safari 6.1 oder höher: Einstellungen des Internet-Plug-ins verhindern die Flash-Videowiedergabe.
 * Die Verwendung von HLS-Streaming in Safari bei der Videosuche ist inkonsistent.
 * Das Ende des Videos in Safari 6 kann nicht mithilfe von HLS-Streaming gesucht werden.

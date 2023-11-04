@@ -5,10 +5,10 @@ title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fd2093b5-9856-4f31-8853-1027194a71df
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 13%
+source-wordcount: '65'
+ht-degree: 12%
 
 ---
 
@@ -24,6 +24,6 @@ Syntax
 |---|---|---|
 | verarbeiten | `xsd:string` | Auswahl des PostScript-Prozesses. |
 | Auflösung | `xsd:double` | Dateiauflösung. |
-| Farbraum | `xsd:string` | PostScript-Farbraummodus. |
+| colorspace | `xsd:string` | PostScript-Farbraummodus. |
 | alpha | `xsd:boolean` | Ob die Datei in ein Bild gerastert werden soll. Wenn dies der Fall ist, wird ein transparenter Hintergrund erstellt, wenn die Originaldatei auf diese Weise definiert ist. Wird im Allgemeinen verwendet, um überlagernde Logos zu erstellen. |
 | extractSearchWords | `xsd:boolean` | Ob Suchbegriffe aus der PostScript-Datei extrahiert werden sollen. |
