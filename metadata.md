@@ -6,9 +6,10 @@ product: adobe dynamic media classic
 type: Documentation
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.de-DE
 index: true
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+recommendations: noDisplay
+source-git-commit: 0803dd4f2eb0002e50ab2c506d0e9cb203f3d456
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Die Datei &quot;metadata.md&quot;enthält Metadaten auf Repo-Ebene, die an die T
 | Metadaten | Funktion |
 |--- |--- |
 | solution-title | Wird in der Artikelüberschrift als Link verwendet |
-| solution-hub-url | Öffnet die Helpx-Hub-Seite |
+| solution-hub-url | Öffnet die Helpx Hub-Seite |
 | solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
 | getting-started-url | Link zur Hilfeseite für die ersten Schritte |
 | tutorials-url | Link zu Video-Tutorials - entweder Helpx-Tutorials oder KT-Tutorials |
