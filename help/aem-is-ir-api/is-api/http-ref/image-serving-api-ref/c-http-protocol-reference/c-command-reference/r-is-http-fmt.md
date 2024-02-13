@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '904'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Antwortbildformat.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Beschreibung |
 |---|---|
@@ -26,8 +26,9 @@ Antwortbildformat.
 | `avif` | verlustfreies AVIF. |
 | `eps` | Unkomprimiertes binäres Encapsulated PostScript. |
 | `f4m` | Flash Streaming Server-Manifestformat. |
-| `gif-alpha` | GIF-Format mit 2 bis 255 Farben plus Key-Farbtransparenz. |
+| `gif-alpha` | GIF mit 2 bis 255 Farben plus Key-Farbtransparenz. |
 | `gif` | GIF mit 2 bis 256 Farben. |
+| `heic` | Verlustfreier HEIC. Dieses Format wird standardmäßig vom Browser heruntergeladen, wenn es nicht unterstützt wird. |
 | `jpeg` | Lossy JPEG. |
 | `jpeg2000-alpha` | Verlust und verlustfreie JPEG 2000 mit Alphakanal. |
 | `jpeg2000` | Verlust und verlustfreie JPEG 2000. |
@@ -50,14 +51,14 @@ Antwortbildformat.
 | `webp-alpha` | Verlust und verlustfreies WebP mit Alphakanal. |
 | `webp` | Verlust und verlustfreies WebP. |
 
-| *`pixelType`* – rgb | grau | cmyk |
+| *`pixelType`* - rgb | grau | cmyk |
 | *`pixelType`* | Beschreibung |
 |---|---|
 | `cmyk` | CMYK-Bilddaten zurückgeben. |
 | `gray` | Graustufen-Bilddaten zurückgeben. |
 | `rgb` | Gibt RGB-Bilddaten zurück. |
 
-| *`compression`* – none | lzw | zip | jpeg | verlustbehaftet | verlustfrei |
+| *`compression`* - jpeg | verlustbehaftet | verlustfrei | lzw | keine | zip |
 | *`compression`* | Beschreibung |
 |---|---|
 | `jpeg` | JPEG-Komprimierung (verlustreich). |
@@ -192,43 +193,43 @@ Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn
 
 **Anfordern eines kleinen, qualitativ minderwertigen Vorschaubilds im JPEG-Format (Standard):**
 
-` http:// *`Server`*/myRootId/myImageId?qlt=60&wid=200`
+` http:// *`server`*/myRootId/myImageId?qlt=60&wid=200`
 
 **Fordern Sie dasselbe Bild, das in Graustufen konvertiert wurde, an:**
 
-` http:// *`Server`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
+` http:// *`server`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
 
 **Fordern Sie dasselbe Bild in einem verlustfreien Format mit Alphakanal und hoher Auflösung an:**
 
-` http:// *`Server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
+` http:// *`server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
 **Fordern Sie den Alphakanal für dasselbe Bild wie ein Graustufenbild an:**
 
-` http:// *`Server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
+` http:// *`server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
 **Konvertieren Sie dasselbe Bild mithilfe der standardmäßigen ICC-Profile in cmyk:**
 
-` http:// *`Server`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
+` http:// *`server`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
 **Konvertieren Sie dasselbe Bild mithilfe eines anderen ICC-Profils in cmyk und betten Sie das Profil in das TIFF-Bild ein:**
 
-` http:// *`Server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
+` http:// *`server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
 **Stellen Sie dieses Bild als TIF-Datei mit JPEG-Komprimierung ohne Konvertierung des Pixeltyps bereit:**
 
-` http:// *`Server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
+` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
 **Konvertieren Sie das Bild in eine bi-tonale GIF mit Schlüsselfarbtransparenz und erzwingen Sie Farben in Schwarzweiß:**
 
-` http:// *`Server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 **Verlust mit einer Qualitätseinstellung von 80:**
 
-` http:// *`Server`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
+` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
 
 **Lossless mit Alpha:**
 
-` http:// *`Server`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
+` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
 
 **Verlust mit einer Qualitätseinstellung von 80:**
 
