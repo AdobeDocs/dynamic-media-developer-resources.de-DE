@@ -1,20 +1,20 @@
 ---
-description: Bildvalidierungsprogramm. Dieses Befehlszeilen-Dienstprogramm überprüft Bilddateien, um sicherzustellen, dass sie gültig sind und von Image Serving problemlos gelesen werden können.
+description: Bildvalidierungsprogramm. Dieses Befehlszeilen-Dienstprogramm überprüft Bilddateien, um sicherzustellen, dass sie gültig sind und Image Serving sie problemlos lesen kann.
 solution: Experience Manager
 title: validieren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
 
 # validieren{#validate}
 
-Bildvalidierungsprogramm. Dieses Befehlszeilen-Dienstprogramm überprüft Bilddateien, um sicherzustellen, dass sie gültig sind und von Image Serving problemlos gelesen werden können.
+Bildvalidierungsprogramm. Dieses Befehlszeilen-Dienstprogramm überprüft Bilddateien, um sicherzustellen, dass sie gültig sind und problemlos von Image Serving gelesen werden können.
 
 Alle Nicht-PTIFF-Bilddateien müssen die Validierung bestehen, bevor die Datei als Quellbild für Image Serving verfügbar gemacht wird. PTIFF-Bilder sollten nach potenziell unzuverlässigen Kopiervorgängen validiert werden.
 
@@ -54,7 +54,7 @@ Alle Nicht-PTIFF-Bilddateien müssen die Validierung bestehen, bevor die Datei a
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>Überprüft das eingebettete Farbprofil auf Gültigkeit. Standardmäßig ist der Profiltext nicht aktiviert. </p> </td> 
+  <td class="stentry"> <p>Überprüft das eingebettete Farbprofil auf Gültigkeit. Standardmäßig ist das Hauptteilprofil nicht aktiviert. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 
@@ -73,7 +73,7 @@ Alle Nicht-PTIFF-Bilddateien müssen die Validierung bestehen, bevor die Datei a
   <td class="stentry"> <p>Beendet die Verarbeitung, wenn bei der Dateivalidierung ein Fehler auftritt, auch wenn noch weitere Dateien validiert werden müssen. Die Verarbeitung wird standardmäßig fortgesetzt, wenn ein Validierungsfehler auftritt </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -Version </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -version </span> </p> </td> 
   <td class="stentry"> <p>Gibt Versionsinformationen für dieses Dienstprogramm zurück. Geben Sie ohne weitere Optionen an. </p> </td> 
  </tr> 
 </table>

@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2590'
-ht-degree: 2%
+source-wordcount: '2621'
+ht-degree: 0%
 
 ---
 
@@ -156,7 +156,7 @@ Die Kopfzeile des Dialogfelds besteht aus einem Symbol, einem Titeltext und eine
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Innerer Abstand für Kopfzeileninhalte. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ Das Symbol und der Titeltext werden in einen zusätzlichen Container eingeschlos
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Innerer Abstand für das Kopfzeilensymbol und den Titel </p> </td> 
   </tr> 
  </tbody> 
@@ -231,7 +231,7 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Interner Textabstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -248,11 +248,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Vertikale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -335,7 +335,7 @@ Die Fußzeile des Dialogfelds besteht aus der Schaltfläche &quot;Abbrechen&quot
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p> Rand, mit dem Sie die Fußzeile visuell vom Rest des Dialogfelds trennen können. </p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +352,7 @@ Die Fußzeile verfügt über einen inneren Container, der die Schaltfläche beh�
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Abstand zwischen Fußzeile und Schaltfläche innen. </p> </td> 
   </tr> 
  </tbody> 
@@ -525,7 +525,7 @@ Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit einer Schaltfläche
 }
 ```
 
-Der Hauptdialogbereich (zwischen der Kopfzeile und der Fußzeile) enthält bildlauffähigen Dialogfeldinhalt und Bildlaufbereich auf der rechten Seite. In allen Fällen verwaltet die Komponente die Breite dieses Bereichs. Es ist nicht möglich, ihn in CSS festzulegen. Der Hauptdialogbereich wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Hauptdialogbereich zwischen der Kopf- und Fußzeile enthält bildlauffähigen Dialogfeldinhalt und Bildlaufbereich auf der rechten Seite. In allen Fällen verwaltet die Komponente die Breite dieses Bereichs. Es ist nicht möglich, ihn in CSS festzulegen. Der Hauptdialogbereich wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogviewarea
@@ -573,7 +573,7 @@ Wenn die Höhe dieses Containers größer als der Hauptdialogfeld-Bereich zu sei
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -645,7 +645,7 @@ Die Größe der Textkopie, die über dem Einbettungscode angezeigt wird, wird mi
    <td colname="col2"> <p>Breite des Eingabefelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -675,11 +675,11 @@ Der Einbettungscode wird in Container eingeschlossen und mit der folgenden CSS-K
    <td colname="col2"> <p>Die Breite des Einbettungscode-Containers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Ränder um den Einbettungscode-Container. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -731,7 +731,7 @@ Beschriftung und Dropdown-Liste der Einbettungsgröße befinden sich unten im Di
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -843,11 +843,11 @@ Das Kombinationsfeld verfügt über eine Dropdown-Schaltfläche rechts und wird 
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Schaltflächenposition innerhalb des Kombinationsfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Schaltflächenposition innerhalb des Kombinationsfelds. </p> </td> 
   </tr> 
   <tr> 
@@ -905,7 +905,7 @@ Die Größe und Position des Bedienfelds wird durch die Komponente gesteuert. Es
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bereichsrand. </p> </td> 
   </tr> 
  </tbody> 
@@ -994,7 +994,7 @@ Wenn die Option &quot;Benutzerdefinierte Größe&quot;im Kombinationsfeld &quot;
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Abstand vom Kombinationsfeld für die Einbettungsgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -1019,7 +1019,7 @@ Jedes Eingabefeld für die benutzerdefinierte Größe wird in einen Container ei
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand um das Eingabefeld herum. </p> </td> 
   </tr> 
   <tr> 
@@ -1031,7 +1031,7 @@ Jedes Eingabefeld für die benutzerdefinierte Größe wird in einen Container ei
    <td colname="col2"> <p> Spanne der Eingabefelder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Füllung des Eingabefelds. </p> </td> 
   </tr> 
  </tbody> 
@@ -1089,15 +1089,15 @@ Das Erscheinungsbild des Bildlaufleistenbereichs wird mit der folgenden CSS-Klas
    <td colname="col2"> <p>Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am oberen Rand des Bildlaufbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am unteren Rand des Bildlaufbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Der horizontale Versatz der Bildlaufleiste am rechten Rand des Bildlaufbereichs. </p> </td> 
   </tr> 
  </tbody> 

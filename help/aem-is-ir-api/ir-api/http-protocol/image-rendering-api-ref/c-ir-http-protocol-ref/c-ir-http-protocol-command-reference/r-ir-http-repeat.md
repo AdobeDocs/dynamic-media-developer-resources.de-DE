@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 16%
 
 ---
@@ -37,27 +37,27 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Vierteljährliches Hintergrundbild. </p> </td> 
+  <td class="stentry"> <p>Quarter-Drop Hintergrundbild hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Der dritte Tropfen Hintergrundbild. </p> </td> 
+  <td class="stentry"> <p>Hinhängen von der dritten Stelle. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Halbtropfen Hintergrundbild hängen. </p> </td> 
+  <td class="stentry"> <p>Halbe Tropfen Hintergrundbild hängen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Der fünfte Tropfen Hintergrundbild hängt. </p> </td> 
+  <td class="stentry"> <p>Fixierte Hintergrundbilder aus dem fünften Tropfen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Umgekehrtes Hintergrundbild hängt. </p> </td> 
+  <td class="stentry"> <p>Hintergrundbild umkehren hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>Zufällige Hintergrundbilder hängen. </p> </td> 
+  <td class="stentry"> <p>Random Wallpaper hängen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
@@ -101,7 +101,7 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
 </table>
 
-Die zufälligen Quiltiermodi (14...18) können verwendet werden, um Texturen aus nicht leicht wiederholbaren Bildern zu synthetisieren. der Algorithmus erzeugt vollständig zufällige oder teilweise zufällige Texturen basierend auf dem Originalbild.
+Die zufälligen Quilting-Modi (14...18) können verwendet werden, um Texturen aus nicht leicht wiederholbaren Bildern zu synthetisieren. Der Algorithmus erstellt vollständig zufällige oder teilweise zufällige Texturen basierend auf dem Originalbild.
 
 ## Eigenschaften {#section-262bf540930d4890b678ea00cefe1909}
 

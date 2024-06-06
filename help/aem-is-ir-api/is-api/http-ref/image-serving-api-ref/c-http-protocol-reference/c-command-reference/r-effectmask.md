@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0a3aea53-e795-4965-a147-68e4b5bd3bbf
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 0%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 EffectMask ist ein globaler Modifikator. Sie wird auf alle Effektebenen in der Anfrage angewendet.
 
-Gültige Werte sind 0 und 1. 0 bedeutet, dass keine Effektmaske angewendet wird. 1 bedeutet, die Effektmaske anzuwenden. Der Standardwert ist 1.
+Gültige Werte sind 0 und 1. Null (0) bedeutet, keine Effektmaske anzuwenden. Ein (1) bedeutet, die Effektmaske anzuwenden. Die Standardgrenze ist 1.

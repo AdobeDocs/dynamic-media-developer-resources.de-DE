@@ -1,14 +1,14 @@
 ---
+title: name
 description: Name des Befehlsmakros.
 solution: Experience Manager
-title: name
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: d41865c6263a6a97a358e116e8c21d36b11c1d1b
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 6%
 
 ---
 
@@ -25,4 +25,4 @@ Name des Befehlsmakros.
  </tr> 
 </table>
 
-*`name`* unterscheidet nicht zwischen Groß- und Kleinschreibung und kann aus einer beliebigen Kombination von Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen. Zeichen.
+Der Befehl *`name`* nicht zwischen Groß- und Kleinschreibung unterscheiden und aus einer beliebigen Kombination von Buchstaben, Zahlen bestehen können, `-` (Bindestrich) `_` (Unterstrich) und `.` (Punkt).

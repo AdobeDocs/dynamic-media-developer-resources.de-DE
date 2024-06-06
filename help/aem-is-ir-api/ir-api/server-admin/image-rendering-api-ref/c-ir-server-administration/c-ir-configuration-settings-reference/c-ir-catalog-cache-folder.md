@@ -5,9 +5,9 @@ title: Catalog-Cache-Ordner (ir.catalogCacheRoot)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 060c8b49-f9d9-498a-a07a-5ecd61af2677
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Der Stammordner für den Cache des Katalogsystems.
 
-Kann entweder ein absoluter Pfad oder ein Pfad relativ zu [!DNL *[!DNL install_folder]*] sein. Die Standardeinstellung ist [!DNL ./cache], was [!DNL *[!DNL install_folder]*/cache] entspricht.
+Kann entweder ein absoluter Pfad oder ein Pfad relativ zu [!DNL sein. *[!DNL install_folder]*]. Der Standardwert ist [!DNL ./cache], was [!DNL entspricht *[!DNL install_folder]*/cache].

@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: eeb5b2c7-688e-42a1-bfe6-3f29e509baed
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 2%
+source-wordcount: '1399'
+ht-degree: 0%
 
 ---
 
@@ -156,7 +156,7 @@ Die Kopfzeile des Dialogfelds besteht aus einem Symbol, einem Titeltext und eine
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Innerer Abstand für Kopfzeileninhalte. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ Das Symbol und der Titeltext werden in einen zusätzlichen Container eingeschlos
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Innerer Abstand für das Kopfzeilensymbol und den Titel. </p> </td> 
   </tr> 
  </tbody> 
@@ -231,7 +231,7 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Interner Textabstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -248,11 +248,11 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Vertikale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -335,7 +335,7 @@ Die Fußzeile des Dialogfelds besteht aus einer Schaltfläche &quot;Abbrechen&qu
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p> Rand, mit dem Sie die Fußzeile visuell vom Rest des Dialogfelds trennen können. </p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +352,7 @@ Die Fußzeile verfügt über einen inneren Container, der die Schaltfläche beh�
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Abstand zwischen Fußzeile und Schaltfläche innen. </p> </td> 
   </tr> 
  </tbody> 
@@ -525,7 +525,7 @@ Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit einer Schaltfläche
 }
 ```
 
-Der Hauptdialogbereich (zwischen der Kopf- und Fußzeile) enthält Dialogfeldinhalte. In jedem Fall verwaltet die Komponente die Breite dieses Bereichs. Es ist nicht möglich, ihn in CSS festzulegen. Der Hauptdialogbereich wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Hauptdialogbereich zwischen der Kopf- und Fußzeile enthält Dialogfeldinhalte. In jedem Fall verwaltet die Komponente die Breite dieses Bereichs. Es ist nicht möglich, ihn in CSS festzulegen. Der Hauptdialogbereich wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogviewarea
@@ -571,7 +571,7 @@ Der gesamte Formularinhalt (wie Beschriftungen und Eingabefelder) befindet sich 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -643,7 +643,7 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
    <td colname="col2"> <p>Textbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -669,11 +669,11 @@ Der Freigabe-Link ist in einen Container eingeschlossen und wird mit der folgend
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand um den Container des freigegebenen Links. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 

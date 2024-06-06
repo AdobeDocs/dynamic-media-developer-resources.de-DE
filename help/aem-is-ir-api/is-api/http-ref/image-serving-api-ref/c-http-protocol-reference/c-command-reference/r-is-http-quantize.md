@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 3%
+source-wordcount: '231'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ Farbquantisierung. Gibt Farbquantisierungsattribute für die GIF-Ausgabekonverti
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Gibt den Palettentyp an. </p> <p>Legen Sie <span class="codeph"> adaptive </span> um eine optimale Palette für das Bild zu berechnen. </p> <p>Legen Sie <span class="codeph"> Web </span> oder <span class="codeph"> mac </span> , um eine vordefinierte Palette auszuwählen. </p> <p> <p>Hinweis: Die <span class="codeph"> mac </span> Der Palettentyp wird nur für GIF- und PNG8-Formate unterstützt, nicht aber für GIF-Alpha- und PNG8-Alpha-Formate. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Gibt den Palettentyp an. </p> <p>Legen Sie <span class="codeph"> adaptive </span> um eine optimale Palette für das Bild zu berechnen. </p> <p>Legen Sie <span class="codeph"> Web </span> oder <span class="codeph"> mac </span> , um eine vordefinierte Palette auszuwählen. </p> <p> <p>Hinweis: Die <span class="codeph"> mac </span> Der Palettentyp wird nur für GIF- und PNG8-Formate unterstützt, nicht aber für GIF-Alpha- und PNG8-Alpha-Formate.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dither </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {diffuse|off} </span> </p> <p>Gibt die Dithering-Optionen an. </p> <p>Legen Sie <span class="codeph"> diffuse </span> für Floyd-Steinberg-Fehlerdiffusion </p> <p>Legen Sie <span class="codeph"> off </span> , um das Dithering zu deaktivieren. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {diffuse|off} </span> </p> <p>Gibt die Dithering-Optionen an. </p> <p>Legen Sie <span class="codeph"> diffuse </span> für Floyd-Steinberg-Fehlerdiffusion </p> <p>Legen Sie <span class="codeph"> off </span> , um das Dithering zu deaktivieren.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Anzahl der Ausgabefarben (2-256) </p> <p>Gibt an, wie viele Farben in der <span class="codeph"> adaptive </span> Palette. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Ausgabefarben (2-256) </p> <p>Gibt an, wie viele Farben in der <span class="codeph"> adaptive </span> Palette.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Eine kommagetrennte Liste von erzwungenen RGB-Farben im Hexadezimalformat </p> <p>Damit können Sie die Farben angeben, die in eine <span class="codeph"> adaptive </span> Palette. Wenn die angegebene Anzahl von Farben kleiner ist als <span class="codeph"> <span class="varname"> numColors </span> </span>, werden zusätzliche Farben basierend auf dem Bildinhalt berechnet. </p> </td> 
+   <td colname="col2"> <p>Eine kommagetrennte Liste von erzwungenen RGB-Farben im Hexadezimalformat </p> <p>Damit können Sie die Farben angeben, die in eine <span class="codeph"> adaptive </span> Palette. Wenn die angegebene Anzahl von Farben kleiner ist als <span class="codeph"> <span class="varname"> numColors </span> </span>, werden zusätzliche Farben basierend auf dem Bildinhalt berechnet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Generieren Sie eine GIF-Miniaturansicht mithilfe des `web` Palette und kein Dith
 
 `http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Konvertieren Sie das Bild in eine bi-tonale GIF mit Schlüsselfarbtransparenz und erzwingen Sie Farben in Schwarzweiß:
+Konvertieren Sie das Bild in eine bitonale GIF mit Schlüsselfarbtransparenz. Und Farben auf Schwarzweiß erzwingen:
 
 `http:// *`*Server*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

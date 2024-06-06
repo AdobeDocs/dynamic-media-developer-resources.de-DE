@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Attributname; kann aus einem oder mehreren Buchstaben, Zahlen, '-' und '_' bestehen; nicht zwischen Groß- und Kleinschreibung unterscheiden. </p> </td> 
+  <td class="stentry"> <p>Attributname; kann aus einem oder mehreren Buchstaben, Zahl, - (Bindestrich) und _ (Unterstrich) bestehen; nicht zwischen Groß- und Kleinschreibung unterscheiden.</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
 </table>
 
 * Leerzeichen zwischen Token sind optional.
-* Datensätze mit unbekannten Attributnamen werden von der [!DNL Platform Server].
-* Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen und &quot;-&quot;, &quot;_&quot;und &quot;.&quot;bestehen.
+* Die [!DNL Platform Server] ignoriert Datensätze mit unbekannten Attributnamen.
+* Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen und `-`, `_`, und `.` Zeichen.
 * Wenn derselbe Attributname mehrmals in derselben Attributdatei vorkommt, hat der zuletzt aufgetretene Name Vorrang.
-* Verwenden Sie &quot;#&quot;als erstes Zeichen, um einen Datensatz als Kommentar zu markieren, den der Parser ignoriert.
+* Verwendung `#` als erstes Zeichen, um einen Datensatz als Kommentar zu markieren, den der Parser ignoriert.

@@ -5,9 +5,9 @@ title: Textebenen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Die gemeinsamen Regeln und Definitionen lauten wie folgt:
 * Selbstdimensionierende Textebenen sind Ebenen, die keine `size=` oder `size=0,0` festgelegt ist.
 
 * Die Ebenengröße von selbstskalierenden Textebenen wird durch den tatsächlichen wiedergegebenen Text bestimmt.
-* Der standardmäßige Ebenenanker für die selbstdimensionierende Textebene ist im Allgemeinen *not* in der Mitte der Ebene (siehe unten).
+* Der standardmäßige Ebenenanker von selbst skalierenden Textebenen ist im Allgemeinen *not* in der Mitte der Ebene (siehe unten).
 * Wenn `anchor=` oder `origin=` wird für die Selbstdimensionierung von Textebenen angegeben, wird die Position der Textebene durch den Textinhalt beeinflusst.
 
 * Wann `size=` festgelegt ist, können Teile von Zeichen außerhalb des Ebenenrechtecks gerendert werden.
