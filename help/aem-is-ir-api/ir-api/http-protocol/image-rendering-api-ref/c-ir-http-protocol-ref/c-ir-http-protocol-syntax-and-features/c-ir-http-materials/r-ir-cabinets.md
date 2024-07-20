@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 4%
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Cabinets-Materialien spezifizieren eine Kabinettdatei (.vnc-Dateierweiterung), eine spezielle Datendatei mit fotografischen Darstellungen von Kabinetten, parametrischen Layoutdefinitionen und anderen Informationen, die für das Rendern von Kabinettfronten erforderlich sind.
 
-[!DNL vnc] -Dateien können entweder eine wiederholbare Holzkornstruktur enthalten oder die Textur kann extern über ein zweites Argument bereitgestellt werden, um `src=`. Bestimmt [!DNL vnc] -Dateien ermöglichen das Einfärben oder Texturieren ausgewählter Bereiche von Kabinenfronten (typischerweise für Laminat-Kabinenstile verwendet).
+[!DNL vnc] -Dateien können entweder eine wiederholbare Holzkornstruktur enthalten oder die Textur kann extern über ein zweites Argument zu `src=` bereitgestellt werden. Bestimmte [!DNL vnc]-Dateien ermöglichen das Einfärben oder Texturieren ausgewählter Bereiche von Kabinenfronten (typischerweise für Laminatkabinettstile verwendet).
 
 Kabinettmaterialien können nur auf Kabinettgegenstände aufgebracht werden.
 
@@ -50,7 +50,7 @@ Kabinettmaterialien können nur auf Kabinettgegenstände aufgebracht werden.
    <td colname="col3"> <p>Keine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> spitze= </span> </a> </p> </td> 
    <td colname="col2"> <p>Scharfzeichnen. </p> </td> 
    <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 

@@ -8,7 +8,7 @@ exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -29,18 +29,18 @@ Syntax
 
 ## Parameter {#section-200a61d040c94e489a85241b29cd499a}
 
-**Eingabe (restoreAssetsFromTrashParam)**
+**Input (restoreAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für ein Unternehmen mit den Assets, die Sie wiederherstellen möchten. |
 | assetHandleArray | `types:HandleArray` | Ja | Array von Handles für die Assets, die Sie wiederherstellen möchten. |
 
-**Ausgabe (restoreAssetsFromTrashReturn)**
+**Output (restoreAssetsFromTrashReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| successCount | `xsd:int` | Ja | Anzahl der Assets, die erfolgreich aus dem Papierkorb entfernt wurden. |
+| successCount | `xsd:int` | Ja | Anzahl der Assets, die erfolgreich aus dem Papierkorb entfernt wurden |
 | warningCount | `xsd:int` | Ja | Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Assets aus dem Papierkorb wiederherzustellen. |
 | errorCount | `xsd:int` | Ja | Anzahl der Fehler, die beim Versuch generiert wurden, Assets aus dem Papierkorb wiederherzustellen. |
 | warningDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, Assets aus dem Papierkorb wiederherzustellen. |
@@ -50,7 +50,7 @@ Syntax
 
 Dieses Codebeispiel stellt Assets aus dem Papierkorb wieder her. Die Antwort gibt an, dass der Vorgang erfolgreich abgeschlossen wurde.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <restoreAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

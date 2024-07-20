@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '217'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Decal size. Gibt die Größe eines Decalmaterials an.
 
 Wenn weder die Breite noch die Höhe 0 beträgt, wird das Bild auf die genauen angegebenen Abmessungen skaliert und das Seitenverhältnis des Bildes wird nicht beibehalten. Wenn einer der Werte auf 0 gesetzt wird, wird das Seitenverhältnis des Bildes beibehalten.
 
-Wenn *`thickness`* festgelegt ist, wird ein Schlagschatten gerendert, wenn das Vignettenobjekt einen entsprechenden Lichtvektor definiert. Satz *`thickness`* auf 0 setzen, um das Rendering von Schlagschatten zu deaktivieren.
+Wenn *`thickness`* angegeben ist, wird ein Schlagschatten gerendert, wenn das Vignettenobjekt einen entsprechenden Lichtvektor definiert. Setzen Sie *`thickness`* auf 0 , um das Rendering von Schlagschatten zu deaktivieren.
 
 ## Eigenschaften {#section-818e01e91fed4015951189c818ef28d8}
 
@@ -39,7 +39,7 @@ Materialattribut. Wird nur von Decals verwendet; von allen anderen Materialien i
 
 ## Standard {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` wenn das Material auf einem Katalogeintrag basiert, andernfalls `size=0,0,0`. Die dekale Größe wird ausgehend von `res=` if *`wid`* und *`hei`* nicht angegeben sind oder auf 0 gesetzt sind. Wenn *`thickness`* nicht angegeben oder auf 0 gesetzt ist.
+`catalog::Size` , wenn das decal Material auf einem Katalogeintrag basiert; andernfalls `size=0,0,0`. Die Dekorgröße wird von `res=` berechnet, wenn *`wid`* und *`hei`* nicht angegeben sind oder auf 0 gesetzt sind. Wenn *`thickness`* nicht angegeben oder auf 0 gesetzt ist, wird kein Schlagschatten gerendert.
 
 ## Beispiel {#section-04fdc2b60b9e4071b672bf6a913738ad}
 

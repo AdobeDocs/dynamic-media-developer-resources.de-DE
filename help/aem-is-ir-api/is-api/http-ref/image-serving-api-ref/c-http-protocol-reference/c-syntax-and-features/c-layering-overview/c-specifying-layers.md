@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ In der Befehlssequenz URL oder Katalog::Modifier beginnt eine Ebenendefinitionss
 
 Alle Befehle innerhalb der Ebenendefinitionssequenz sind mit der Ebene verknüpft.
 
-Die `layer=` gibt eine Ebenennummer an, die eine Ganzzahl von 0 oder größer sein muss. Alle Befehle in Ebenendefinitionssequenzen mit derselben Ebenennummer werden auf dieselbe Ebene angewendet. Wenn derselbe Befehl mehrmals auftritt, hat die letzte Instanz Vorrang.
+Der Befehl `layer=` gibt eine Ebenennummer an, die eine Ganzzahl von 0 oder größer sein muss. Alle Befehle in Ebenendefinitionssequenzen mit derselben Ebenennummer werden auf dieselbe Ebene angewendet. Wenn derselbe Befehl mehrmals auftritt, hat die letzte Instanz Vorrang.

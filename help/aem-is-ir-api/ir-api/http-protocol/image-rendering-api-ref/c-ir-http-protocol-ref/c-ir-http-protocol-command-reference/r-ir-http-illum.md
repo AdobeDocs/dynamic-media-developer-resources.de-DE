@@ -20,7 +20,7 @@ Beleuchtungszuordnungsauswahl. Gibt die Beleuchtungskarte an, mit der dieses Mat
 
 Wenn die angegebene Beleuchtungskarte in der Zielvignette nicht verfügbar ist, wird stattdessen die nächstverfügbare Karte verwendet.
 
-`illum=-1` Gibt an, dass die Beleuchtungskarte automatisch auf der Grundlage der `gloss=` -Wert.
+`illum=-1` Gibt an, dass die Beleuchtungskarte automatisch basierend auf dem `gloss=` -Wert ausgewählt wird.
 
 ## Eigenschaften {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

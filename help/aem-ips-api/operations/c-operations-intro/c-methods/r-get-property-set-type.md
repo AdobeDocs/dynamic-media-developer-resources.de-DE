@@ -8,7 +8,7 @@ exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -32,14 +32,14 @@ Syntax
 
 ## Parameter {#section-c9a53400c44744668bd7915f72d2bf3d}
 
-**Eingabe (getPropertySetTypeParam)**
+**Input (getPropertySetTypeParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen. Optional, da ein Eigenschaftssatz-Typ mehreren Unternehmen angehören kann. |
 | name | `xsd:string` | Ja | Name des Eigenschaftssatztyps. |
 
-**Ausgabe (getPropertySetTypeReturn)**
+**Output (getPropertySetTypeReturn)**
 
 <table id="table_F2724F6B706C4F658AED99290E29F3E6"> 
  <thead> 
@@ -53,7 +53,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:PropertySetType</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:PropertySetType</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">Die Typstruktur, die Folgendes enthält: 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
@@ -70,7 +70,7 @@ Syntax
 
 Dieses Codebeispiel gibt einen Eigenschaftssatztyp nach Name zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getPropertySetTypeParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

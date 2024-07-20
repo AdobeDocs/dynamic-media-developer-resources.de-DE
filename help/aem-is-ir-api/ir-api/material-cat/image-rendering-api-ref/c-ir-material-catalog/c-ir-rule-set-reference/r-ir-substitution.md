@@ -1,6 +1,6 @@
 ---
 title: Substitution
-description: Ersatzzeichenfolgen-Element. Optional in <rule> -Elemente.
+description: Ersatzzeichenfolgen-Element. Optional in <Regel> -Elementen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Substitution{#substitution}
 
-Ersatzzeichenfolgen-Element. Optional in `<rule>` -Elemente.
+Ersatzzeichenfolgen-Element. Optional in `<rule>` -Elementen.
 
 ## Attribute {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -36,6 +36,6 @@ Wenn `<substitution>` leer ist, wird die übereinstimmende Zeichenfolge oder Unt
 
 ## Notiz {#section-90fe89bb17a04804b7ff3c93df082892}
 
-Die Ersatzzeichenfolge darf keine &lt;- und &amp;-Zeichen in Textform enthalten. Diese reservierten Zeichen können mit `&` und `<`, bzw. die gesamte Zeichenfolge kann in einer XML-Datei eingeschlossen werden `CDATA` Abschnitt:
+Die Ersatzzeichenfolge darf keine &lt;- und &amp;-Zeichen in Textform enthalten. Diese reservierten Zeichen können mit `&` und `<` kodiert werden oder die gesamte Zeichenfolge kann in einen XML `CDATA` -Abschnitt eingeschlossen werden:
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

@@ -22,7 +22,7 @@ Syntax
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Ein Sonderfall von [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das in die Werte initialisiert wurde [!DNL `True`] und [!DNL `False`].
+* [!DNL `BooleanTag`]: Ein Sonderfall von [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das auf die Werte [!DNL `True`] und [!DNL `False`] initialisiert wurde.
 
 * [!DNL `Color`]
 * [!DNL `Date`]

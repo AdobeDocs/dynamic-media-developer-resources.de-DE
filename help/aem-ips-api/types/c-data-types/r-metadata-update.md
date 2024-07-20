@@ -63,7 +63,7 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> <p>Fügt der vorhandenen Tag-Wertliste für das Asset hinzu. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">In Tag-Feldern mit nur einem Wert wird nur der letzte Wert gespeichert. </li> 
@@ -72,7 +72,7 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3">Ersetzt die vorhandene Tag-Wertliste für das Asset. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">In Tag-Feldern mit nur einem Wert wird nur der letzte Wert gespeichert. </li> 
@@ -81,7 +81,7 @@ Legt Metadatenwerte für ein bestimmtes Asset fest, das mit setAssetMetadata ver
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Löscht die angegebenen Werte aus der Tag-Wert-Liste des Assets, falls vorhanden. </td> 
   </tr> 
  </tbody> 

@@ -8,7 +8,7 @@ exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -31,14 +31,14 @@ Syntax
 
 ## Parameter {#section-7aedb924cf8b4e05a0dc927636d537a0}
 
-**Eingabe (pauseJobParam)**
+**Input (pauseJobParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
 | jobHandle | `xsd:string` | Ja | Führen Sie den Vorgang aus, den Sie anhalten möchten. |
 
-**Ausgabe (PauseJobReturn)**
+**Output (PauseJobReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -46,7 +46,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Dieses Codebeispiel setzt einen aktiven Auftrag aus.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <pauseJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

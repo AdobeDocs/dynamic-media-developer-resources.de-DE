@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 8%
+source-wordcount: '285'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Syntax
 
 ## Parameter {#section-f8260bc8dd0a4570bc7f714f81ab975f}
 
-**Eingabe (createMetadataFieldParam)**
+**Input (createMetadataFieldParam)**
 
 <table id="table_E5B249BBED3B4D2F9CEE2CCF27472D1B"> 
  <thead> 
@@ -64,7 +64,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Der Standardwert des zu erstellenden Metadatenfelds (z. B. <span class="codeph"> Scene7</span>). </p> <p>Standardwerte werden für Tag-Feldtypen nicht unterstützt und müssen weggelassen werden. Wenn für einen Tag-Feldtyp ein nicht leerer Standardwert angegeben ist, wird ein Fehler zurückgegeben. </p> </td> 
+   <td colname="col4"> <p>Der Standardwert des zu erstellenden Metadatenfelds (z. B. <span class="codeph"> Scene 7</span>). </p> <p>Standardwerte werden für Tag-Feldtypen nicht unterstützt und müssen weggelassen werden. Wenn für einen Tag-Feldtyp ein nicht leerer Standardwert angegeben ist, wird ein Fehler zurückgegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -76,7 +76,7 @@ Syntax
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
@@ -87,7 +87,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (createMetadataFieldReturn)**
+**Output (createMetadataFieldReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -95,9 +95,9 @@ Syntax
 
 ## Beispiele {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-Dieses Codebeispiel erstellt ein Metadatenfeld vom Typ Zeichenfolge namens `createMetadataField`. Die Antwort gibt den Handle an das neue Metadatenfeld zurück.
+In diesem Codebeispiel wird ein Metadatenfeld vom Typ Zeichenfolge mit dem Namen `createMetadataField` erstellt. Die Antwort gibt den Handle an das neue Metadatenfeld zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

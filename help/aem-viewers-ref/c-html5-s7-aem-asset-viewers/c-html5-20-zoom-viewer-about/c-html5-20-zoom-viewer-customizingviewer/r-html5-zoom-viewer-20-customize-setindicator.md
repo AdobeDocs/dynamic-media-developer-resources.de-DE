@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Set Indicator ist eine Reihe von Punkten, die auf Farbfeldern gerendert werden, 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**CSS-Eigenschaften des Set Indicators**
+**CSS-Eigenschaften des festgelegten Indikators**
 
 Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -66,7 +66,7 @@ Das Erscheinungsbild eines einzelnen Satzanzeigepunkts wird mit der CSS-Klassena
    <td colname="col2"> <p>Breite des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Das Erscheinungsbild eines einzelnen Satzanzeigepunkts wird mit der CSS-Klassena
 
 >[!NOTE]
 >
->Der Anzeigepunkt &quot;Festlegen&quot;unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der aktuellen Seite der Miniaturansichten; `state="unselected"` entspricht dem Standardpunktstatus.
+>Der Set Indicator Punkt unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere entspricht `state="selected"` der aktuellen Seite der Miniaturansichten, `state="unselected"` dem Standardpunktstatus.
 
 Beispiel: So erstellen Sie einen festgelegten Anzeigepunkt von 15 x 15 Pixel mit 2 Pixel horizontaler Ränder, 5 Pixel oberer Ränder, 1 Pixel unterer Rand, 12 Pixel Radius, #D5D3D3 Standardfarbe und #9393 aktive Farbe:
 

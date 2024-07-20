@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 8%
+source-wordcount: '370'
+ht-degree: 5%
 
 ---
 
@@ -20,18 +20,18 @@ Eigenschaften von Antwortdaten. Wertet die aktuelle Anforderung so aus, als wär
 
 <table id="simpletable_A9FCC880171B4A9DBAE28413AFDF75F7"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> reqId  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> reqId </span> </span> </p> </td> 
   <td class="stentry"> <p>Eindeutige Anforderungskennung. </p> </td> 
  </tr> 
 </table>
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen, den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` anzugeben:
+Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
 
-Eine Beschreibung der Antwortsyntax und des MIME-Antworttyps finden Sie unter [Eigenschaften](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) . Die HTTP-Antwort kann mit einer TTL, die auf `attribute::NonImgExpiration` basiert, zwischengespeichert werden.
+Eine Beschreibung der Antwortsyntax und des MIME-Antworttyps finden Sie unter [Eigenschaften](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) . Die HTTP-Antwort kann zwischengespeichert werden, wobei eine TTL auf `attribute::NonImgExpiration` basiert.
 
 Die folgenden Eigenschaften werden für /is/image-Anfragen zurückgegeben:
 
@@ -43,77 +43,77 @@ Die folgenden Eigenschaften werden für /is/image-Anfragen zurückgegeben:
    <td> <b> Beschreibung</b> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.bgc  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.bgc </span> </p> </td> 
    <td> <p> hex </p> </td> 
-   <td> <p> Hintergrundfarbe (siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>) </p> </td> 
+   <td> <p> Hintergrundfarbe (siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td valign="top"> <p> <span class="codeph"> image.height  </span> </p> </td> 
+   <td valign="top"> <p> <span class="codeph"> image.height </span> </p> </td> 
    <td> <p> integer </p> </td> 
    <td> <p> Replizieren der Bildhöhe in Pixel </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"> <p> <span class="codeph"> image.iccEmbed  </span> </p> </td> 
+   <td valign="top"> <p> <span class="codeph"> image.iccEmbed </span> </p> </td> 
    <td> <p> boolesch </p> </td> 
    <td> <p> True , wenn das ICC-Profil in das Antwortbild eingebettet ist. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> IccEmbed= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.iccProfile  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.iccProfile </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> Name/Beschreibung des Profils, das mit dem Antwortbild verknüpft ist. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.length  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.length </span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p> Antwortgröße in Pixel, ohne HTTP-Header; 0, wenn die Antwortbilddaten zuvor nicht vom Server zwischengespeichert wurden. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span>.) </p> </td> 
+   <td> <p> Antwortgröße in Pixel ohne HTTP-Header; 0, wenn die Antwortbilddaten zuvor nicht vom Server zwischengespeichert wurden. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.mask  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.mask </span> </p> </td> 
    <td> <p> enum </p> </td> 
    <td> <p> 1, wenn das Antwortbild einen Alphakanal enthält, andernfalls 0. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.pixType  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> Antwortbildtyp, kann <span class="codeph"> CMYK </span>, <span class="codeph"> RGB </span> oder <span class="codeph"> BW </span> (für Graustufenbilder) sein. </p> </td> 
+   <td> <p> Antwortbildtyp: kann <span class="codeph"> CMYK </span>, <span class="codeph"> RGB </span> oder <span class="codeph"> BW </span> sein (bei Graustufenbildern). </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.pathEmbed  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 
    <td> <p> boolesch </p> </td> 
    <td> <p> 1, wenn das Antwortbild Pfade einbettet, andernfalls 0. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.printRes </span> </p> </td> 
    <td> <p> echt </p> </td> 
    <td> <p> Druckauflösung (dpi) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.quality  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p> JPEG-Qualität. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span>.) </p> </td> 
+   <td> <p> JPEG-Qualität (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.type  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.type </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> MIME-Typ für das Antwortbild. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fmt= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.width  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.width </span> </p> </td> 
    <td> <p> integer </p> </td> 
    <td> <p> Antwortbildbreite in Pixel. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.xmpEmbed  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.xmpEmbed </span> </p> </td> 
    <td> <p> boolesch </p> </td> 
    <td> <p> 1, wenn das Antwortbild xmp-Daten einbettet, andernfalls 0. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> image.version  </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.version </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> Kennung der Bildversion. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0" type="reference" format="dita" scope="local"> id= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> metadata.version  </span> </p> </td> 
+   <td> <p> <span class="codeph"> metadata.version </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> Metadaten-Versionskennung. (Siehe <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0" type="reference" format="dita" scope="local"> id= </a> </span>.) </p> </td> 
   </tr> 
@@ -130,7 +130,7 @@ Die folgenden Eigenschaften werden für `/is/content` -Anforderungen zurückgege
    <td> <b> Beschreibung</b> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Pfade </span> </p> </td> 
+   <td> <p> <span class="codeph"> path </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p>Teilweise aufgelöster Dateipfad. (Siehe <span class="codeph"> static::Path </span>.) </p> </td> 
   </tr> 
@@ -142,17 +142,17 @@ Die folgenden Eigenschaften werden für `/is/content` -Anforderungen zurückgege
   <tr> 
    <td> <p> <span class="codeph"> Ablauf </span> </p> </td> 
    <td> <p> doppelt </p> </td> 
-   <td> <p> <span class="codeph"> static::Expiration  </span> or the default time to live </p> </td> 
+   <td> <p> <span class="codeph"> static::Expiration </span> or the default time to live </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> lastModified  </span> </p> </td> 
+   <td> <p> <span class="codeph"> lastModified </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> Änderungsdatum/-zeit (von <span class="codeph"> static::TimeStamp </span> oder der Objektdatei) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> userType  </span> </p> </td> 
+   <td> <p> <span class="codeph"> userType </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> static::UserType  </span> </p> </td> 
+   <td> <p> <span class="codeph"> static::UserType </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

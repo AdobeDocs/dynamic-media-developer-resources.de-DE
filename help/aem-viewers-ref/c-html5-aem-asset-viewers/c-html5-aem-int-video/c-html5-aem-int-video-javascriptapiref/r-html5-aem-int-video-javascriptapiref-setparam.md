@@ -29,12 +29,12 @@ Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-htm
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Name des Parameters. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Name des Parameters. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}- </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Wert </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

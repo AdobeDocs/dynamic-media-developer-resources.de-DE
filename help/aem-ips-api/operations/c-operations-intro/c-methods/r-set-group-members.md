@@ -8,7 +8,7 @@ exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die er
 
 ## Parameter {#section-6a18562fc8e942af94be10bbb8c51151}
 
-**Eingabe (setGroupMembersParam)**
+**Input (setGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -34,7 +34,7 @@ Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die er
 | groupHandle | `xsd:string` | Ja | Gruppieren. |
 | userHandleArray | `types:HandleArray` | Ja | Array von Handles für Benutzer, deren Gruppenmitgliedschaft Sie festlegen möchten. |
 
-**Ausgabe (setGroupMemberReturn)**
+**Output (setGroupMemberReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -42,7 +42,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird die Gruppenmitgliedschaft für einen einzelnen Benutzer festgelegt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:setGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

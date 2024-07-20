@@ -16,11 +16,11 @@ ht-degree: 7%
 
 Assets, die zu einem Bildset gehören.
 
-Seitenrücksetzung bedeutet, dass eine [!DNL eCatalog] eine neue Seite starten. `RenderSet` gibt an, dass es Teil eines `RenderSet` Muster. Der Wert muss `true` für `eCatalog` und `RenderSet` Sets.
+Beim Zurücksetzen der Seite muss eine neue Seite mit dem Wert [!DNL eCatalog] beginnen. `RenderSet` gibt an, dass es Teil eines `RenderSet`-Farbmusters ist. Der Wert wird für die Sets `eCatalog` und `RenderSet` auf `true` erzwungen.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Name | Typ | Beschreibung |
 |---|---|---|
 | asset | `type:Asset` | Assets im Bildset-Array. |
-| pageReset | `xsd:boolean` | Startet eine neue Seite. Einstellung wird ignoriert und Wert wird erzwungen `true` für `eCatalog` und `RenderSet` Sets. |
+| pageReset | `xsd:boolean` | Startet eine neue Seite. Die Einstellung wird ignoriert und der Wert für die Sets `eCatalog` und `RenderSet` wird auf `true` gesetzt. |

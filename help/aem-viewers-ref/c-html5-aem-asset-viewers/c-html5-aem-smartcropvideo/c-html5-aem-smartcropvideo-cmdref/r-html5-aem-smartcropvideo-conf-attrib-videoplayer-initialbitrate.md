@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4fc4fefa-b094-4e2e-b8ec-a439f8a1a56c
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 5%
+source-wordcount: '112'
+ht-degree: 2%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 5%
 
 Konfigurationsattribut für Video-Viewer.
 
-` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`Wert`*`
+` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`value`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Wert </span> </p> </td> 
-   <td colname="col2"> <p>Legt die Video-Bitrate (in Kilobit pro Sekunde oder KBit/s) fest, die für die Erstwiedergabe von Videos auf Desktops verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, startet der Videoplayer das Video mit der nächstniedrigsten Bitrate. </p> <p>Wenn auf <span class="codeph"> 0 </span>, beginnt der Videoplayer mit der niedrigstmöglichen Bitrate. Gilt nur für Systeme, die keine native Unterstützung für HTML5 HLS-Videos haben (Firefox, Chrome und Internet Explorer 11 unter Windows 10) und wenn der Wiedergabemodus auf <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> value </span> </p> </td> 
+   <td colname="col2"> <p>Legt die Video-Bitrate (in Kilobit pro Sekunde oder KBit/s) fest, die für die Erstwiedergabe von Videos auf Desktops verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, startet der Videoplayer das Video mit der nächstniedrigsten Bitrate. </p> <p>Wenn der Videoplayer auf <span class="codeph"> 0 </span> gesetzt ist, beginnt er mit der niedrigstmöglichen Bitrate. Gilt nur für Systeme, die keine native Unterstützung für HTML5 HLS-Videos haben (Firefox, Chrome und Internet Explorer 11 unter Windows 10) und wenn der Wiedergabemodus auf <span class="codeph"> auto </span> festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Zuletzt geänderte Antwortheader aktivieren. Aktiviert oder deaktiviert die Einbeziehung des Headers &quot;Zuletzt geändert&quot;in zwischenspeicherbaren HTTP-Antworten, die vom Bild-Rendering ausgegeben werden.
 
-Der Server verwendet die neueste `vignette::TimeStamp` und `catalog::TimeStamp` -Wert aller Vignetten- und Materialkataloge/Katalogdatensätze, die an einer Antwort beteiligt sind, als Header-Wert der letzten Änderung.
+Der Server verwendet den neuesten `vignette::TimeStamp` - und `catalog::TimeStamp` -Wert aller Vignetten- und Materialkataloge/Katalogdatensätze, die an einer Antwort beteiligt sind, als Header-Wert der letzten Änderung.
 
 Sollte nur aktiviert sein, wenn ein verteiltes Caching-Netzwerk wie Akamai verwendet wird, das keine eTag-Header unterstützt.
 
@@ -24,10 +24,10 @@ Sollte nur aktiviert sein, wenn ein verteiltes Caching-Netzwerk wie Akamai verwe
 >
 >Bei der Verwendung von Last-Modified-Headern in einer lastausgeglichenen Umgebung mit mehreren Image Serving/Rendering-Hosts ist Vorsicht geboten. Die Zwischenspeicherung auf dem Client kann besiegt werden und die Server-Last steigt, wenn die Server aus irgendeinem Grund unterschiedliche Zeitstempel für dieselben Katalogeinträge haben. Eine solche Situation kann wie folgt eintreten:
 
-* `catalog::TimeStamp`, `vignette::TimeStamp`oder `attribute::TimeStamp` nicht definiert ist, sodass die Änderungszeit der [!DNL catalog.ini] -Datei als Standard für `catalog::TimeStamp`.
+* `catalog::TimeStamp`, `vignette::TimeStamp` oder `attribute::TimeStamp` ist nicht definiert, sodass die Änderungszeit der [!DNL catalog.ini]-Datei als Standard für `catalog::TimeStamp` verwendet wird.
 
 * Anstatt die Materialkatalogdateien über eine Netzwerkbereitstellung freizugeben, verfügt jeder Server über eine eigene Instanz der Katalogdateien in einem lokalen Dateisystem.
-* Zwei oder mehr Instanzen desselben [!DNL catalog.ini] -Datei haben unterschiedliche Datumsangaben für die Dateiänderung, die möglicherweise durch unsachgemäßes Kopieren der Dateien verursacht werden.
+* Zwei oder mehr Instanzen derselben [!DNL catalog.ini]-Datei haben unterschiedliche Datumsangaben für die Dateiänderung, die möglicherweise durch unzulässiges Kopieren der Dateien verursacht werden.
 
 ## Eigenschaften {#section-453952244193452caccfaf7f601007c1}
 
@@ -35,7 +35,7 @@ Flag. 0 zur Deaktivierung, 1 zur Aktivierung der zuletzt geänderten HTTP-Header
 
 ## Standard {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
-Vererbt von `default::UseLastModified` wenn nicht definiert oder leer ist.
+Wird von `default::UseLastModified` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-1536715169da48b0aecc4ab7326c86db}
 

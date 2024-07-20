@@ -8,7 +8,7 @@ exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -32,14 +32,14 @@ Syntax
 
 ## Parameter {#section-e87b3cb743494719925c9458eed433b6}
 
-**Eingabe (getUserInfoParam)**
+**Input (getUserInfoParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | userHandle | `xsd:string` | Nein | Behandeln Sie den Benutzer, dessen Informationen Sie zurückgeben möchten. |
 | E-Mail | `xsd:string` | Nein | E-Mail-Adresse des Benutzers. |
 
-**Ausgabe (getUserInfoReturn)**
+**Output (getUserInfoReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntax
 
 Dieses Codebeispiel gibt Informationen für den standardmäßigen IPS-Benutzer zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd" /></getUserInfoParam>

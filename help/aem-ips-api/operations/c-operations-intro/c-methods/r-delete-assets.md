@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-4dc888e77d974ac794b553616dd11e86}
 
-**Eingabe (deleteAssetsParam)**
+**Input (deleteAssetsParam)**
 
 <table id="table_AAA6845769DB4B129C8A660D0CBA348A"> 
  <thead> 
@@ -49,14 +49,14 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Array der Assets, die gelöscht werden sollen. </p> </td> 
+   <td colname="col4"> <p>Das Array der zu löschenden Assets. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (deleteAssetsParam)**
+**Output (deleteAssetsParam)**
 
 <table id="table_0C6D8D51A79248ACA2022DBB754A9B9C"> 
  <thead> 
@@ -88,13 +88,13 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, eine Warnung generiert haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, einen Fehler generiert haben. </p> </td> 
   </tr> 
@@ -105,7 +105,7 @@ Syntax
 
 Dieses Codebeispiel sendet ein Handle an ein Unternehmen und ein Array von Asset-Handles in einer `deleteAssetsParam` -Anfrage an den Webdienstserver. `deleteAssetsReturn` gibt die Erfolgsanzahl 2 zurück, was bedeutet, dass beide Assets gelöscht wurden.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <deleteAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

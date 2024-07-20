@@ -25,7 +25,7 @@ Druckauflösung. Überschreibt den Wert der Druckauflösung, der im Antwortbild 
  </tr> 
 </table>
 
-Die Druckauflösung wird normalerweise durch `catalog::PrintResolution` wenn es sich um einen Katalogeintrag handelt, andernfalls durch den im Quellbild eingebetteten Wert für die Druckauflösung. Wenn es eine Vorlage oder ein mehrschichtiges Composite-Bild gibt, ist die standardmäßige Druckauflösung, die in die Antwortdatei eingebettet ist, die Druckauflösung des Ebenen-Bildes mit der niedrigsten Ebenennummer.
+Die Druckauflösung wird normalerweise durch `catalog::PrintResolution` definiert, wenn es sich um einen Katalogeintrag handelt, andernfalls durch den Wert für die Druckauflösung, der in das Quellbild eingebettet ist. Wenn es eine Vorlage oder ein mehrschichtiges Composite-Bild gibt, ist die standardmäßige Druckauflösung, die in die Antwortdatei eingebettet ist, die Druckauflösung des Ebenen-Bildes mit der niedrigsten Ebenennummer.
 
 Durch das Festlegen der Druckauflösung wird die Pixelgröße des Antwortbilds nicht geändert.
 

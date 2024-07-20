@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wo der Titel relativ zum Miniaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn eine <span class="codeph"> tooltip</span> festgelegt ist, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. </p> <p>Wenn festgelegt auf <span class="codeph"> Keine</span>, wird die Anzeige der Titel geändert. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wo der Titel relativ zum Miniaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn eine <span class="codeph"> tooltip</span> angegeben wird, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. </p> <p>Wenn der Wert auf <span class="codeph"> none</span> gesetzt ist, wird die Beschriftungsanzeige angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

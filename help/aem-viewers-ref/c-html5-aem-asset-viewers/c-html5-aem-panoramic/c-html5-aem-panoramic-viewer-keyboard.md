@@ -15,6 +15,6 @@ ht-degree: 0%
 # Barrierefreiheit und Navigation der Tastatur{#keyboard-accessibility-and-navigation}
 
 Auf alle Funktionen der Viewer-Benutzeroberfläche kann über die Tastatur zugegriffen werden.
-Endbenutzer können `Left`, `Right`, `UP`, und `DOWN` Tastenanschläge zum Schwenken des Bildes.
-Die `Esc` Keystroke kann zum Zurücksetzen des Bildes verwendet werden.
+Endbenutzer können die Tasten `Left`, `Right`, `UP` und `DOWN` verwenden, um das Bild zu schwenken.
+Mit dem Tasten `Esc` können Sie das Bild zurücksetzen.
 

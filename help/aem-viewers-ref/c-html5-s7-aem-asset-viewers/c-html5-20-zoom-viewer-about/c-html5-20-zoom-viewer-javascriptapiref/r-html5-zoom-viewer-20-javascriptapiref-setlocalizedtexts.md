@@ -22,12 +22,12 @@ JavaScript-API-Referenz für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Objekt</span>} JSON-Objekt mit Lokalisierungsdaten. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Lokalisierung der Elemente der Benutzeroberfläche</a> für weitere Informationen. </p> <p>Siehe auch <i>Benutzerhandbuch zum Viewer-SDK</i> und das Beispiel für weitere Informationen zum Inhalt des Objekts. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSON-Objekt mit Lokalisierungsdaten. </p> <p>Weitere Informationen finden Sie unter <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Lokalisierung der Elemente der Benutzeroberfläche</a> . </p> <p>Weitere Informationen zum Inhalt des Objekts finden Sie im <i>Benutzerhandbuch zum Viewer-SDK</i> und im Beispiel . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt Lokalisierungs-SYMBOL-Werte für ein oder mehrere Gebietsschemas fest. Dieser Parameter muss vor aufgerufen werden `init()`.
+Legt Lokalisierungs-SYMBOL-Werte für ein oder mehrere Gebietsschemas fest. Dieser Parameter muss vor `init()` aufgerufen werden.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

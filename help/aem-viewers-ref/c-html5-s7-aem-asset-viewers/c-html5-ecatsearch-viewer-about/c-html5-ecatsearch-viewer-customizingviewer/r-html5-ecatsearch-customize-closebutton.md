@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 8dee7c56-ed60-44e5-a5c9-f404df03861e
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
 # Schaltfläche schließen{#close-button}
 
-Durch Auswahl oder Tippen dieser Schaltfläche wird die übergeordnete Webseite geschlossen. Diese Schaltfläche wird nur angezeigt, wenn der Parameter closeButton auf 1 gesetzt ist. Diese Schaltfläche ist auf Desktop-Systemen nicht verfügbar. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+Wenn Sie diese Schaltfläche auswählen oder tippen, wird die übergeordnete Webseite geschlossen. Diese Schaltfläche wird nur angezeigt, wenn der Parameter closeButton auf 1 gesetzt ist. Diese Schaltfläche ist auf Desktop-Systemen nicht verfügbar. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -33,7 +33,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand der Hauptkontrollleiste, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Position vom rechten Rand der Hauptkontrollleiste, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand der Hauptkontrollleiste, einschließlich des Abstands. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, mit der Sie verschiedene Skins auf unterschiedliche Schaltflächenzustände anwenden können.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der Sie verschiedene Skins auf unterschiedliche Schaltflächenzustände anwenden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Zum Einrichten einer Schließen -Schaltfläche mit einer Größe von 56 x 56 Pixel und einer Positionierung von 4 Pixel vom oberen und rechten Rand der Hauptsteuerleiste. Und schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an.
 

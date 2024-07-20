@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Asset-Typen und -Anzahl für ein Unternehmen.
 
-Asset-Typen umfassen [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]und andere.
+Zu den Asset-Typen gehören [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] und andere.
 
 | Name | Typ | Beschreibung |
 |---|---|---|

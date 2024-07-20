@@ -8,21 +8,21 @@ exl-id: c36ea45d-dc91-4afa-825a-7af49738101c
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # IccProfileCmyk{#iccprofilecmyk}
 
-CMYK-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit `icc=`.
+CMYK-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit `icc=` angegeben ist.
 
 ## Eigenschaften {#section-849678b272954bdcb236f49aa54f1609}
 
-Textzeichenfolge. Wenn angegeben, muss eine gültige sein. `icc::Name` Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder einen Dateipfad relativ zu `attribute::RootPath`. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
 
 ## Standard {#section-55026b7454af4d868bcb47f7743c9c5b}
 
-Vererbt von `default::IccProfileCmyk` wenn nicht definiert oder leer ist.
+Wird von `default::IccProfileCmyk` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-89feb193693b43dc99a2107658d57154}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
@@ -26,12 +26,12 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 .s7interactivevideoviewer .s7fullscreenbutton
 ```
 
-**CSS-Eigenschaften der Vollbild-Schaltfläche**
+**CSS-Eigenschaften der Vollbildschaltfläche**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
    <td colname="col2"> <p> Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
    <td colname="col2"> <p> Die Breite der Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
@@ -67,9 +67,9 @@ Das Erscheinungsbild der Schaltfläche im Vollbildmodus wird mit der CSS-Klassen
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` dem Status &quot;Vollbild&quot;entspricht und `selected='false'` entspricht dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt sowohl die Attribute `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

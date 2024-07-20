@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '192'
 ht-degree: 15%
 
 ---
@@ -29,13 +29,13 @@ JPEG-Qualität. Gibt JPEG-Kodierungsattribute an, um die Komprimierungsstufe zu 
  </tr> 
 </table>
 
-Wird nur verwendet, wenn `fmt=jpg`. Andernfalls ignoriert
+Wird nur bei `fmt=jpg` verwendet. Andernfalls ignoriert
 
 Höhere Qualitätswerte erhöhen Dateigröße und Qualität, geringere Werte verringern die Dateigröße und die wahrgenommene Bildqualität. Bei Werten über 90 entstehen oft Bilder, die vom nicht komprimierten Bild kaum zu unterscheiden sind.
 
-Legen Sie die `chroma` Flag zur Deaktivierung des RGB-Chromatizitäts-Downsampling, das von typischen JPEG-Kodierern verwendet wird. Dies kann die wahrgenommene Schärfe der Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung der Farbe und nicht durch die Helligkeit definiert wird. Das Festlegen dieses Flag kann zu einer leichten Vergrößerung der Datei führen. Experimentieren Sie mit dieser Einstellung, wenn Text etwas verschwommen scheint.
+Setzen Sie das Flag `chroma` , um das RGB Chromatizitäts-Downsampling zu deaktivieren, das von typischen JPEG-Kodierern verwendet wird. Dies kann die wahrgenommene Schärfe der Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung der Farbe und nicht durch die Helligkeit definiert wird. Das Festlegen dieses Flag kann zu einer leichten Vergrößerung der Datei führen. Experimentieren Sie mit dieser Einstellung, wenn Text etwas verschwommen scheint.
 
-Die `chroma` wird ignoriert, wenn der Ausgabepipeltyp CMYK oder grau ist.
+Der `chroma`-Wert wird ignoriert, wenn der Ausgabepipeltyp CMYK oder Grau ist.
 
 ## Beispiel {#section-a6c263f15c29424a86ef267c96a6630a}
 

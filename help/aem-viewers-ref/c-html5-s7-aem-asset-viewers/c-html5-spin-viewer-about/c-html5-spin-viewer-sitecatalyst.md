@@ -8,7 +8,7 @@ exl-id: 30762700-6d69-4299-9492-57893232abe1
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Der Rotationsset-Viewer unterstützt standardmäßig das Adobe Analytics-Trackin
 
 Der Rotationsset-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
-Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
+Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -66,7 +66,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mit der <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>ein Asset im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -77,7 +77,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p>ein Bild eingeplant ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ROTATION </span> </p> </td> 
    <td colname="col2"> <p> eine Rotation durchgeführt wird. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '61'
+ht-degree: 4%
 
 ---
 
 # FavoritesView.favoritesThumbView{#favoritesview-favoritesthumbview}
 
-` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`Gebiet`*`
+` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`area`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> Gebiet</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Zuschnittbereich für die Miniaturansicht "Favoriten"an. Wird als relativer Wert zur Gesamtbildgröße ausgedrückt, wobei ein Bereich von <span class="codeph"> 0</span> nach <span class="codeph"> 1,0</span>. </p> <p>Ein Wert von <span class="codeph"> 1</span> bedeutet, dass das gesamte Bild des Frames für die Miniaturansicht verwendet wird. </p> <p>Ein Wert von <span class="codeph"> 0,1</span> bedeutet, dass nur 10 % der Rahmengröße verwendet werden. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> area</span></span> </p> </td> 
+   <td colname="col2"> <p> Gibt den Zuschnittbereich für die Miniaturansicht "Favoriten"an. Wird als relativer Wert zur Gesamtbildgröße ausgedrückt, wobei der Bereich zwischen <span class="codeph"> 0</span> und <span class="codeph"> 1,0</span> liegt. </p> <p>Der Wert <span class="codeph"> 1</span> bedeutet, dass das gesamte Bild für die Miniaturansicht verwendet wird. </p> <p>Der Wert <span class="codeph"> 0,1</span> bedeutet, dass nur 10 % der Rahmengröße verwendet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

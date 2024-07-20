@@ -27,7 +27,7 @@ Syntax
 
 ## Parameter {#section-79f0d54acd604ad2a5c96679334f2424}
 
-**Eingabe (getImageServingPublishSettingsParam)**
+**Input (getImageServingPublishSettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

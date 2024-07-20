@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 13%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-bf36fcbfda6742f5b9c6b02ea27e5b9d}
 
-**Eingabe (copyImageParam)**
+**Input (copyImageParam)**
 
 <table id="table_F6B14D4875F2424D98B8C4899B1DD867"> 
  <thead> 
@@ -74,7 +74,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (copyImageParam)**
+**Output (copyImageParam)**
 
 <table id="table_5E4ED83047314DFABC1BFAAC76C0EAC3"> 
  <thead> 
@@ -99,7 +99,7 @@ Syntax
 
 Der Beispielcode kopiert ein Bild, das nach Unternehmen, Asset, Ordner-Handle und Name angegeben ist.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <copyImageParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

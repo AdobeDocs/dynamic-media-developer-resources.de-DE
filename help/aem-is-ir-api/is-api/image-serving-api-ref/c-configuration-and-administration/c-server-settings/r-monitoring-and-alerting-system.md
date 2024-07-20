@@ -18,7 +18,7 @@ Verwenden Sie diese Servereinstellungen, um das Überwachungs- und Warnsystem zu
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Warnsystem aktivieren {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Aktivieren Sie die E-Mail-Benachrichtigung, indem Sie auf &quot;true&quot;setzen und die E-Mail-Benachrichtigungseinstellungen konfigurieren. Einstellung auf `false` deaktiviert alle E-Mail-Warnungen - dies kann nützlich sein, wenn ein Server zur Wartung offline geschaltet wird. Boolesch.
+Aktivieren Sie die E-Mail-Benachrichtigung, indem Sie auf &quot;true&quot;setzen und die E-Mail-Benachrichtigungseinstellungen konfigurieren. Durch die Einstellung von auf `false` werden alle E-Mail-Warnungen deaktiviert. Dies kann nützlich sein, wenn ein Server zur Wartung offline geschaltet wird. Boolesch.
 
 ## AS::mailSender.host - SMTP Host {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Eine oder mehrere E-Mail-Adressen, an die Warnhinweise gesendet werden sollen. V
 
 ## AS::monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-Die E-Mail-Adresse, die im **[!UICONTROL Von]** email -Feld.
+Die E-Mail-Adresse, die im E-Mail-Feld **[!UICONTROL Von]** verwendet werden soll.
 
 ## AS::monitorAlertGenerator.alertInterval - Monitoring Interval {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

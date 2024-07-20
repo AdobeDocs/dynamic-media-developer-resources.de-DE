@@ -8,13 +8,13 @@ exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # RootUrl{#rooturl}
 
-Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. Die`attribute::RootUrl` wird anstelle von `attribute::RootPath` wenn eine `src=` -Wert wird von { geschweifte Klammern } eingeschlossen.
+Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. Der `attribute::RootUrl` wird anstelle von `attribute::RootPath` verwendet, wenn ein `src=` -Wert von { geschweifte Klammern } eingeschlossen ist.
 
 ## Eigenschaften {#section-69cd0f71ea614770a8778c745d23197a}
 
@@ -22,7 +22,7 @@ Textzeichenfolgenwert. Absoluter URL-Stammpfad, einschließlich der führenden P
 
 ## Standard {#section-7a81569728474725a70f3a2cc4d48e85}
 
-Vererbt von `default::RootUrl` falls nicht definiert. Wenn definiert, aber leer, werden relative URLs von diesem Materialkatalog nicht unterstützt.
+Wird von `default::RootUrl` übernommen, falls nicht definiert. Wenn definiert, aber leer, werden relative URLs von diesem Materialkatalog nicht unterstützt.
 
 ## Verwandte Themen {#section-e33bbe7034b24367b68f9142718a8be1}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 618d34af-32d0-45bd-928d-7a4e084edbe6
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ JavaScript-API-Referenz für Flyout-Viewer
 
 `getComponent(componentId)`
 
-Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des vordefinierten Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst nach dem `initComplete` Viewer-Rückruf wurde ausgeführt; Andernfalls kann die Komponente noch nicht von der Viewer-Logik erstellt werden.
+Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des vordefinierten Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst nach Ausführung des Viewer-Rückrufs `initComplete` auf. Andernfalls kann die Komponente noch nicht von der Viewer-Logik erstellt werden.
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -37,7 +37,7 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Behälter </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -45,23 +45,23 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Flyout </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> flyout </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Muster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Farbfelder </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beim Arbeiten mit SDK-APIs ist es wichtig, einen korrekten, vollständig qualifizierten SDK-Namespace zu verwenden, wie hier beschrieben: [Viewer-SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605).
+Beim Arbeiten mit SDK-APIs ist es wichtig, einen korrekten, vollständig qualifizierten SDK-Namespace zu verwenden, wie in [Viewer-SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605) beschrieben.
 
 Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur Viewer-SDK-API .
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` wenn die `componentId` ist keine unterstützte Viewer-Komponente oder wenn die Komponente noch nicht von der Viewer-Logik erstellt wurde.
+`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder wenn die Komponente noch nicht von der Viewer-Logik erstellt wurde.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

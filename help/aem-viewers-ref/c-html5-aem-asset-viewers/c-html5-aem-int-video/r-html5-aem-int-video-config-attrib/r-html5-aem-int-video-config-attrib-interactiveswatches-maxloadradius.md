@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 5%
+source-wordcount: '71'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn auf <span class="codeph"> -1</span> gesetzt, werden alle Muster gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur sichtbare Farbfelder geladen. </p> <p>Auf <span class="codeph"><span class="varname"> preloadnbr</span></span> setzen, um festzulegen, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
+   <td colname="col2"> <p> Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, werden alle Muster gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur sichtbare Muster geladen. </p> <p>Auf <span class="codeph"><span class="varname"> preloadnbr</span></span> setzen, um festzulegen, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-
 
 ## Verwenden des eCatalog-Viewers {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Der eCatalog Search Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfedateien dar (ein einzelnes JavaScript-Include mit allen Viewer-SDK-Komponenten, die von diesem Viewer, Assets und CSS verwendet werden), die vom Viewer zur Laufzeit heruntergeladen wurden.
+Der eCatalog Search Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfedateien dar (eine JavaScript-Include-Datei mit allen Viewer-SDK-Komponenten, die von diesem Viewer verwendet werden, Assets, CSS), die vom Viewer zur Laufzeit heruntergeladen wurden.
 
 Sie können den eCatalog Search Viewer im Popup-Modus verwenden, indem Sie eine produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird, oder im eingebetteten Modus, wo sie mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
@@ -98,9 +98,9 @@ Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhal
 
 Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert wird oder die Ausrichtung eines Mobilgeräts geändert wird.
 
-Der Pop-up-Modus ist der häufigste für Mobilgeräte. Die Webseite lädt den Viewer mit `window.open()` JavaScript-Aufruf, ordnungsgemäß konfiguriert `A` HTML-Element oder eine andere geeignete Methode.
+Der Pop-up-Modus ist der häufigste für Mobilgeräte. Die Webseite lädt den Viewer mit dem Aufruf `window.open()` JavaScript , dem ordnungsgemäß konfigurierten Element `A` HTML oder einer anderen geeigneten Methode.
 
-Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. In diesem Fall wird sie [!DNL eCatalogSearchViewer.html] und sich innerhalb der [!DNL html5/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. In diesem Fall wird es als [!DNL eCatalogSearchViewer.html] bezeichnet und befindet sich im Unterordner [!DNL html5/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
@@ -120,11 +120,11 @@ Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets 
 
 Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Dies ist die beste Wahl für Webseiten mit statischem Layout.
 
-Responsive Designeinbettung setzt voraus, dass der Viewer die Größe möglicherweise zur Laufzeit ändert, wenn die Größe des Containers geändert wird `DIV`. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Responsive Designeinbettung setzt voraus, dass der Viewer die Größe möglicherweise zur Laufzeit ändert, wenn die Größe des Containers `DIV` geändert wird. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für responsives Design verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite den Container dimensioniert `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`Wenn die Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
+Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe des Containers auf der Webseite angepasst wird `DIV`. Wenn die Webseite nur die Breite des Containers &quot;`DIV`&quot; festlegt und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste bei Webseiten, die responsive Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
 
-Andernfalls, wenn die Webseite sowohl die Breite als auch die Höhe für den Container des Viewers festlegt `DIV`, füllt der Viewer nur diesen Bereich und folgt der Größe, die das Layout der Webseite bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
+Wenn die Web-Seite andernfalls die Breite und Höhe für den Container des Viewers `DIV` festlegt, füllt der Viewer nur diesen Bereich und folgt der Größe, die das Layout der Web-Seite bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
 
 **Einbettung fester Größe**
 
@@ -137,7 +137,7 @@ Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 
-   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL eCatalogSearchViewer.js]. Die [!DNL eCatalogSearchViewer.js] befindet sich unter der [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL eCatalogSearchViewer.js] einbeziehen. Die Datei [!DNL eCatalogSearchViewer.js] befindet sich im Unterordner [!DNL html5/js/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
@@ -153,7 +153,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres DIV-Element hinzu. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h. das `position` Die CSS-Eigenschaft ist auf `relative` oder `absolute`.
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h. die CSS-Eigenschaft `position` ist auf `relative` oder `absolute` festgelegt.
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
@@ -163,11 +163,11 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Viewer-Größe festlegen
 
-   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für `.s7ecatalogsearchviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten oder durch Verwendung von `stagesize` -Modifikator.
+   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.`.s7ecatalogsearchviewer`
 
    Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen, die später in Dynamic Media Classic einem Viewer-Vorgabendatensatz zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
 
-   Siehe [Anpassen des E-Katalog-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) Weitere Informationen zum Formatieren des Viewers mit CSS.
+   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des E-Katalog-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
@@ -178,7 +178,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können die `stagesize` -Modifikator entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic oder übergeben Sie ihn explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben, wie folgt:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` übergeben oder als API-Aufruf, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
 
    ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
@@ -187,13 +187,13 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Initialisieren des Viewers.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz von `s7viewers.eCatalogSearchViewer` -Klasse, übergeben Sie alle Konfigurationsinformationen an ihren Konstruktor und rufen Sie `init()` -Methode in einer Viewer-Instanz verwenden. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt hat mindestens die `containerId` -Feld, das den Namen der Viewer-Container-ID und verschachtelt enthält `params` JSON-Objekt mit Konfigurationsparametern, die vom Viewer unterstützt werden. In diesem Fall wird die `params` -Objekt muss mindestens über die Image Serving-URL verfügen, die als `serverUrl` -Eigenschaft und das anfängliche Asset als `asset` -Parameter. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
+   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.eCatalogSearchViewer`, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode `init()` in einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt verfügt mindestens über das Feld `containerId` , das den Namen der Viewer-Container-ID und das verschachtelte JSON-Objekt `params` mit Konfigurationsparametern enthält, die vom Viewer unterstützt werden. In diesem Fall muss für das Objekt `params` mindestens die Image Serving-URL als `serverUrl`-Eigenschaft und das anfängliche Asset als `asset`-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
 
-   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Um die maximale Kompatibilität sicherzustellen, rufen Sie jedoch die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder im Hauptteil `onload()` -Ereignis.
+   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Um die maximale Kompatibilität zu gewährleisten, rufen Sie jedoch die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder das body `onload()` -Ereignis auf.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit `display:none` Stil zugewiesen. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Containerelement nicht unbedingt erst noch Teil des Webseitenlayouts sein. Sie kann beispielsweise mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Das Beispiel geht von `eCatalogSearchViewer` ist die Viewer-Instanz; `s7viewer` ist der Name des Platzhalters `DIV`; `https://s7d1.scene7.com/is/image/` ist die Image Serving-URL und `Viewers/Pluralist` ist das Asset:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Im Beispiel wird angenommen, dass `eCatalogSearchViewer` die Viewer-Instanz ist; `s7viewer` der Name des Platzhalters `DIV`; `https://s7d1.scene7.com/is/image/` die Image Serving-URL und `Viewers/Pluralist` das Asset ist:
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -238,9 +238,9 @@ Der relative Pfad sieht wie folgt aus:
    </html>
    ```
 
-**Responsives Design mit uneingeschränkter Höhe**
+**Responsives Design, eingebettet in unbeschränkte Höhe**
 
-Mit responsiver Designeinbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Für die Zwecke dieses Beispiels nehmen Sie an, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der resultierende HTML-Code der Webseite sieht wie folgt aus:
+Bei der Einbettung responsiver Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Für dieses Beispiel nehmen Sie an, dass die Web-Seite es dem Container `DIV` des Viewers ermöglicht, 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der resultierende HTML-Code der Webseite sieht wie folgt aus:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -264,7 +264,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung in fes
 1. Definieren des Container-DIV.
 1. Erstellen und Initialisieren des Viewers.
 
-Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Container hinzufügen `DIV` an den bestehenden &quot;Inhaber&quot; `DIV`. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie den Container `DIV` zum vorhandenen &quot;Inhaber&quot; `DIV` hinzu. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -299,9 +299,9 @@ Die folgende Beispielseite zeigt reale Anwendungsfälle responsiven Designs, die
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-**Flexible Größeneinbettung mit definierter Breite und Höhe**
+**Flexible Größe, eingebettet in Breite und Höhe definiert**
 
-Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Das heißt, es stellt dem Inhaber beide Größen zur Verfügung. `DIV` und zentriert sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` -Element auf 100 %:
+Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Das heißt, es stellt beide Größen für den &quot;Inhaber&quot; `DIV` bereit und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe der Elemente `HTML` und `BODY` auf 100 %:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -366,9 +366,9 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 </html>
 ```
 
-**Einbetten mit Setter-basierter API**
+**Einbetten mit setFilter-basierter API**
 
-Statt die JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit diesem API-Konstruktor nehmen keine Parameter auf und Konfigurationsparameter werden mit `setContainerId()`, `setParam()`, und `setAsset()` API-Methoden mit separaten JavaScript-Aufrufen.
+Statt die JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit diesem API-Konstruktor werden keine Parameter verwendet und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
 
 Das folgende Beispiel zeigt die Einbettung von fester Größe in eine setter-basierte API:
 

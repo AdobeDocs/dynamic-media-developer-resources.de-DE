@@ -32,14 +32,14 @@ Syntax
 
 ## Parameter {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**Eingabe (getActivePublishContextsParam)**
+**Input (getActivePublishContextsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, um nach aktiven Veröffentlichungskontexten zu suchen |
 
-**Ausgabe (getActivePublishContextsReturn)**
+**Output (getActivePublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Ja | Das Array aktiver Veröffentlichungskontexte, die null oder mehr Werte aus dem Veröffentlichungskontext enthalten können. |
+| contextArray | `types:StringArray` | Ja | Das Array aktiver Veröffentlichungskontexte, die null oder mehr Werte aus Publish Context enthalten können. |

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -50,59 +50,59 @@ Diese Vorgänge und Typen können bei nachfolgenden Systemaktualisierungen deakt
 * updateImageSet
 * updatePropertySetPermissions
 
-**Geänderte Typen**
+**Modifizierte Typen**
 
-* `ActiveJob` wurde geändert, um einen `createVideoSitemapJob`-Typ einzuschließen
+* `ActiveJob` wurde geändert, um den Typ `createVideoSitemapJob` einzuschließen
 
-* `ScheduledJob` wurde geändert, um einen `createVideoSitemapJob`-Typ einzuschließen
+* `ScheduledJob` wurde geändert, um den Typ `createVideoSitemapJob` einzuschließen
 
-* `ImageServingPublishJob` wurde geändert, um ein optionales `contextHandle` einzuschließen.
+* `ImageServingPublishJob` wurde geändert, um einen optionalen `contextHandle` einzuschließen.
 
-* `ImageRenderingPublishJob` wurde geändert, um ein optionales `contextHandle` einzuschließen.
+* `ImageRenderingPublishJob` wurde geändert, um einen optionalen `contextHandle` einzuschließen.
 
-* `MetadataField` wurde geändert, um ein optionales `initialTagField` einzuschließen.
+* `MetadataField` wurde geändert, um einen optionalen `initialTagField` einzuschließen.
 
-* `MetadataCondition` wurde geändert, um den optionalen Parameter `caseSensitive` einzuschließen.
+* `MetadataCondition` wurde zum Einschließen und optionalen Parameter `caseSensitive` geändert
 
-* `PropertySet` wurde geändert, um ein optionales `PermissionArray` als `permissions` einzufügen.
+* `PropertySet` wurde geändert, um eine optionale `PermissionArray` als `permissions` einzuschließen
 
 * `UploadDirectoryJob` wurde geändert, um optionale Parameter `xmpKeywords`, `xmpTemplateId` und `xmpTemplateOverride` einzuschließen.
 
-* `VideoPublishJob` wurde geändert, um ein optionales `contextHandle` einzuschließen.
+* `VideoPublishJob` wurde geändert, um einen optionalen `contextHandle` einzuschließen.
 
-**Geänderte Vorgänge**
+**Modifizierte Vorgänge**
 
-* `createAssetSet` wurde geändert, um ein optionales `thumbAssetHandle` einzuschließen.
+* `createAssetSet` wurde geändert, um einen optionalen `thumbAssetHandle` einzuschließen.
 
-* `createImageSet` wurde geändert, um ein optionales `thumbAssetHandle` einzuschließen.
+* `createImageSet` wurde geändert, um einen optionalen `thumbAssetHandle` einzuschließen.
 
-* `createMetadataField` wurde geändert, um einen optionalen Parameter `initialTagValue` einzufügen.
+* `createMetadataField` wurde geändert, um einen optionalen `initialTagValue` -Parameter einzuschließen
 
-* `createPropertySet` wurde geändert, um ein optionales `PermissionUpdateArray` als `permissionArray` einzufügen.
+* `createPropertySet` wurde geändert, um eine optionale `PermissionUpdateArray` als `permissionArray` einzuschließen
 
-* `getImageServingPublishSettings` wurde geändert, um einen optionalen Parameter `contextHandle` einzufügen.
+* `getImageServingPublishSettings` wurde geändert, um einen optionalen `contextHandle` -Parameter einzuschließen
 
-* `getImageRenderingPublishSettings` wurde geändert, um einen optionalen Parameter `contextHandle` einzufügen.
+* `getImageRenderingPublishSettings` wurde geändert, um einen optionalen `contextHandle` -Parameter einzuschließen
 
 * `searchAssetsByFullText` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
-   * `SearchFilter` als  `filters` Parameter
+   * `SearchFilter` als `filters` Parameter
 
    * `sortBy`
    * `sortDirection`
 
 * `searchAssetsByMetadata` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
-   * `SearchFilter` als  `filters` Parameter
+   * `SearchFilter` als `filters` Parameter
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` Sequenz von sieben Parametern
 
-* `setAssetPublishState` wurde geändert, um ein optionales `HandleArray` als `contextHandleArray` einzufügen.
+* `setAssetPublishState` wurde geändert, um eine optionale `HandleArray` als `contextHandleArray` einzuschließen
 
-* `setImageServingPublishSettings` wurde geändert, um einen optionalen Parameter `contextHandle` einzufügen.
+* `setImageServingPublishSettings` wurde geändert, um einen optionalen `contextHandle` -Parameter einzuschließen
 
-* `setImageRenderingPublishSettings` wurde geändert, um einen optionalen Parameter `contextHandle`einzufügen.
+* `setImageRenderingPublishSettings` wurde geändert, um einen optionalen `contextHandle`Parameter einzuschließen
 
-* `submitJob` wurde geändert, um einen optionalen Auftragstyp `createVideoSitemap` einzuschließen.
+* `submitJob` wurde geändert, um einen optionalen `createVideoSitemap` Auftragstyp einzuschließen

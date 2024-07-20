@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 45ab21e0-1f9e-48c9-8a8f-7a54e273db30
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Zoom-Indikatorbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Zoomanzeigenhöhe. </p> </td> 
   </tr> 
  </tbody> 
@@ -55,9 +55,9 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
 
 >[!NOTE]
 >
->Symboleffekt unterstützt `media-type` -Attributauswahl, mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere `media-type='standard'` entspricht Desktop-Systemen, bei denen normalerweise die Mauseingabe verwendet wird, und `media-type='multitouch'` entspricht Geräten mit Touch-Eingabe.
+>Der Symboleffekt unterstützt die &quot;`media-type`&quot;-Attributauswahl, mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen normalerweise die Maus-Eingabe verwendet wird, und `media-type='multitouch'` Geräten mit Touch-Eingabe.
 
-Beispiel: Einrichten eines Zoom-Indikators mit einer Größe von 100 x 100 Pixel mit unterschiedlichen Grafiken für Desktop-Systeme und Touch-Geräte.
+Beispiel: Einrichten eines Zoom-Indikators mit 100 x 100 Pixel und unterschiedlicher Grafik für Desktop-Systeme und Touch-Geräte.
 
 ```
 .s7basiczoomviewer .s7zoomview .s7iconeffect { 

@@ -18,7 +18,7 @@ JavaScript-API-Referenz für Video-Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Legt die Kennung des DOM-Containers fest (normalerweise ist ein `DIV`), in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Dieser Parameter wird vor aufgerufen. `init()`. Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit `config` JSON-Objekt an den Konstruktor.
+Legt die Kennung des DOM-Containers (normalerweise ein `DIV`) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Dieser Parameter wird vor `init()` aufgerufen. Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

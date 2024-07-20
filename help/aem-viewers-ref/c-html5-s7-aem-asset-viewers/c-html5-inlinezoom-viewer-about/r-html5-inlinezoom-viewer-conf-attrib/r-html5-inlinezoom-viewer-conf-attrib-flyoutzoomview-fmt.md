@@ -8,7 +8,7 @@ exl-id: 6a9a5530-dbde-4090-8545-36bbd7322927
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet werden soll. Wenn das angegebene Format mit <span class="codeph"> -alpha</span>, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. </p> <p>Die Komponente hat standardmäßig einen weißen Hintergrund. Um dies transparent zu machen, legen Sie daher die <span class="codeph"> background-color</span> CSS-Eigenschaft auf <span class="codeph"> transparent</span>. </p> </td> 
+   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet werden soll. Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. </p> <p>Die Komponente hat standardmäßig einen weißen Hintergrund. Um dies transparent zu machen, setzen Sie daher die CSS-Eigenschaft <span class="codeph"> background-color</span> auf <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

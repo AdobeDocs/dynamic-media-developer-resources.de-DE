@@ -26,5 +26,5 @@ Syntax
 | logType | `xsd:string` | Auftragsprotokolldateityp. |
 | assetName | `xsd:string` | Name des Assets im Auftragsprotokoll (optional). |
 | assetType | `xsd:string` | Auswahl des Asset-Typs. |
-| assetHandle | `xsd:string` | Asset-Handle, auf die im Auftragsprotokoll verwiesen wird. |
+| assetHandle | `xsd:string` | Im Auftragsprotokoll referenzierte Asset-Handles. |
 | auxArray | `types:JobLogDetailAuxArray` | Bietet zusätzliche detaillierte Auftragsprotokollinformationen, die über die oben beschriebenen fünf Auftragsprotokolltypen hinausgehen. |

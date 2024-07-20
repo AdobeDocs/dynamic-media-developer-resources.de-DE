@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: fcffe282-65a5-4093-8838-71a64085b387
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 4%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 # SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *`time`*[, *`Lockerung`*]`
+` [SpinView.|<containerId>_spinView.]transition= *`time`*[, *`leasing`*]`
 
 <table id="table_5B8094216AE94DC59671E06DB941A366"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Zeit</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
    <td colname="col2"> <p> Gibt die Zeit in Sekunden an, die die Animation für die Aktion eines einzelnen Zoomschritts benötigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Lockerung</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> leasing</span></span> </p> </td> 
    <td colname="col2"> <p> Erstellt eine Illusion der Beschleunigung oder Verzögerung, die den Übergang natürlicher erscheinen lässt. Sie können die Lockerung auf eine der folgenden Optionen einstellen: </p> <p> 
      <ul id="ul_7B9694978D96449AB986AED1CF7F649D"> 
       <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0 (auto) </li> 
@@ -32,7 +32,7 @@ ht-degree: 4%
       <li id="li_B8D4C40D795642AB835925582B707158"> 3 (kubisch) </li> 
       <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4 (Quartil) </li> 
       <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5 (quintisch) </li> 
-     </ul> </p> <p>Der Auto-Modus verwendet immer einen linearen Übergang, wenn der elastische Zoom deaktiviert ist (Standard). Andernfalls passt es zu einer der anderen Erleichterungsfunktionen, die auf der Übergangszeit basieren. Das heißt, je kürzer die Übergangszeit ist, desto höher wird die Lockerungsfunktion verwendet, um den Beschleunigungs- oder Verzögerungseffekt zu beschleunigen. </p> </td> 
+     </ul> </p> <p>Der Auto-Modus verwendet immer einen linearen Übergang, wenn der elastische Zoom deaktiviert ist (Standard). Andernfalls passt es auf Grundlage der Übergangszeit zu einer der anderen Erleichterungsfunktionen. Das heißt, je kürzer die Übergangszeit ist, desto höher wird die Lockerungsfunktion verwendet, um die Beschleunigung oder Verzögerung zu beschleunigen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

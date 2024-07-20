@@ -32,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Generiert die Sitemap, wenn auf <span class="codeph"> true</span>. <p><p>Hinweis: Wenn die Konfiguration der Sitemap-Generierung auf "Manuell"festgelegt ist und <span class="codeph"> forceUpdate</span> nicht festgelegt ist, wird die Sitemap nicht generiert. </p></p></td> 
+   <td colname="col3">Generiert die Sitemap, wenn auf <span class="codeph"> true</span> gesetzt. <p><p>Hinweis: Wenn die Konfiguration der Sitemap-Generierung auf "Manuell"festgelegt ist und <span class="codeph"> forceUpdate</span> nicht festgelegt ist, wird die Sitemap nicht generiert. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

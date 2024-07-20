@@ -8,7 +8,7 @@ exl-id: 6de49217-2d15-49d9-9357-b058b2564686
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-0a3a4bab026746238c9d4009caf42e94}
 
-**Eingabe (updateTagFieldValuesParam)**
+**Input (updateTagFieldValuesParam)**
 
 <table id="table_15F354FBC043464080BC975AE35E03A4"> 
  <thead> 
@@ -52,14 +52,14 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:TagValueUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">Array von Tag-Feldwerten, die Sie aktualisieren möchten. <p>Hinweis: Aktualisiert nur Tag-Zeichenfolgenwerte. Die Asset-Zuordnungen sind davon nicht betroffen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (updateTagFieldValuesReturn)**
+**Output (updateTagFieldValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -67,11 +67,11 @@ Syntax
 | warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, Tag-Felder zu aktualisieren. |
 | errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die bei dem Versuch erzeugt wurden, Tag-Felder zu aktualisieren. |
 | warningDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
-| errorDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch, Tag-Felder zu aktualisieren, Fehler generiert haben. |
 
 ## Beispiele {#section-bb4dcf97044c4675974c9b8d27674001}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <updateTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

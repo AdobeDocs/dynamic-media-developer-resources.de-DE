@@ -1,20 +1,20 @@
 ---
 title: Veränderliches Volumen
-description: Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der ein Benutzer den Video-Player-Ton stummschalten oder deaktivieren kann.
+description: Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der ein Benutzer den Video-Player-Ton stummschalten oder entsperren kann.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 2%
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
 # Veränderliches Volumen{#mutable-volume}
 
-Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der ein Benutzer den Video-Player-Ton stummschalten oder deaktivieren kann.
+Das Steuerelement für veränderliche Lautstärke wird zunächst als Schaltfläche angezeigt, mit der ein Benutzer den Video-Player-Ton stummschalten oder entsperren kann.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,7 +31,7 @@ Das Erscheinungsbild des veränderlichen Lautstärkeregments wird mit der folgen
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Das Erscheinungsbild des veränderlichen Lautstärkeregments wird mit der folgen
    <td colname="col2"> <p> Die Breite der Steuerung des veränderlichen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der veränderlichen Lautstärkeregelung. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Sie können das Hintergrundbild für jeden Schaltflächenstatus steuern. Die Gr�
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;stummgeschaltet&quot;und `selected='false'` entspricht dem Status &quot;unmuted&quot;.
+>Diese Schaltfläche unterstützt sowohl die Attribute `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;stummgeschaltet&quot;und `selected='false'` dem Status &quot;unmuted&quot;.
 
 Der Bereich für den vertikalen Volumenbalken wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -99,7 +99,7 @@ Der Bereich für den vertikalen Volumenbalken wird mit der folgenden CSS-Klassen
    <td colname="col2"> <p> Die Breite des vertikalen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des vertikalen Volumens. </p> </td> 
   </tr> 
  </tbody> 
@@ -112,7 +112,7 @@ Die Steuerung des Gleises innerhalb der vertikalen Lautstärke wird mit den folg
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**CSS-Eigenschaften der Steuerung der vertikalen Lautstärke**
+**CSS-Eigenschaften des Steuerelements für das vertikale Volumen**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -125,7 +125,7 @@ Die Steuerung des Gleises innerhalb der vertikalen Lautstärke wird mit den folg
    <td colname="col2"> <p>Breite der Steuerung des vertikalen Volumens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der vertikalen Lautstärkeregelung. </p> </td> 
   </tr> 
  </tbody> 
@@ -137,7 +137,7 @@ Der Regler für das vertikale Volumen wird mit der folgenden CSS-Klassenauswahl 
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7knob
 ```
 
-**CSS-Eigenschaften des Reglers für die vertikale Lautstärkeregelung**
+**CSS-Eigenschaften des Reglers für das vertikale Volume-Steuerelement**
 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
@@ -154,17 +154,17 @@ Der Regler für das vertikale Volumen wird mit der folgenden CSS-Klassenauswahl 
    <td colname="col2"> <p>Breite des vertikalen Lautstärkereglers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des vertikalen Lautstärkereglers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Position des vertikalen Lautstärkereglers. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
 ## Beispiele {#section-e8caea0a303c425a8a637c2a47c06355}
 

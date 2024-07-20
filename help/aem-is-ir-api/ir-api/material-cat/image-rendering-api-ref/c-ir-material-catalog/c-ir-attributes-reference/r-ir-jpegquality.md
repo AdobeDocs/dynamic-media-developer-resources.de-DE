@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,11 @@ Standardqualität der JPEG-Kodierung. Gibt die Standardqualitätseinstellung fü
 
 ## Eigenschaften {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Ganzzahl und Markierung, durch Kommas getrennt. Der erste Wert liegt im Bereich 1.100 und definiert die Qualität. Der zweite Wert kann `0` für normales Verhalten oder `1` zur Deaktivierung des von JPEG-Kodierern verwendeten Chromatizitäts-Downsampling.
+Ganzzahl und Markierung, durch Kommas getrennt. Der erste Wert liegt im Bereich 1.100 und definiert die Qualität. Der zweite Wert kann `0` für normales Verhalten oder `1` sein, um das von JPEG-Kodierern verwendete Chromatizitäts-Downsampling zu deaktivieren.
 
 ## Standard {#section-60900c0fb8c54444b2361513232514db}
 
-Vererbt von `default::JpegQuality` wenn nicht definiert oder leer ist.
+Wird von `default::JpegQuality` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-8928a28fcbfe401cad4d4021a7a1c268}
 

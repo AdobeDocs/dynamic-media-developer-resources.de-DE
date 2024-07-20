@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -31,13 +31,13 @@ Syntax
 
 ## Parameter {#section-2af604ff8282460990b9237158187f8f}
 
-**Eingabe (getScheduledJobsParam)**
+**Input (getScheduledJobsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 | jobHandle | `xsd:string` | Nein | Auftragshandle. |
-| originalName | `xsd:string` | Nein | Der von `submitJob`. |
+| originalName | `xsd:string` | Nein | Der von `submitJob` angegebene Name. |
 
 **Ausgabe (getScheduledJobsReturn)**
 
@@ -49,7 +49,7 @@ Syntax
 
 Dieses Codebeispiel gibt alle geplanten Aufträge in einem Auftrags-Array zurück. Das -Array selbst enthält detaillierte Informationen zu den Aufträgen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getScheduledJobsParam xmlns="http://www.scene7.com/IpsApi/xsd">

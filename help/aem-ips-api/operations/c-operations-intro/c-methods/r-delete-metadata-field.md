@@ -8,7 +8,7 @@ exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -26,22 +26,22 @@ Syntax
 
 ## Parameter {#section-73f12a30cc4340b6b32dd11effd5195e}
 
-**Eingabe (deleteMetadataFieldParam)**
+**Input (deleteMetadataFieldParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das das zu löschende Metadatenfeld enthält. |
 | fieldHandle | `xsd:string` | Ja | Der Handle für das zu löschende Metadatenfeld. |
 
-**Ausgabe (deleteMetadataFieldParam)**
+**Output (deleteMetadataFieldParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-In diesem Codebeispiel wird das Metadatenfeld eines Unternehmens gelöscht. Es verwendet das Handle des Unternehmens und die Metadaten-Handle als Felder im `deleteMetadataFieldParam` an den IPS-Webdienstserver übergeben, um diese Aktion durchzuführen.
+In diesem Codebeispiel wird das Metadatenfeld eines Unternehmens gelöscht. Es verwendet das Handle des Unternehmens und das Metadatenhandle als Felder in dem `deleteMetadataFieldParam`, das an den IPS-Webdienstserver übergeben wird, um diese Aktion durchzuführen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <deleteMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

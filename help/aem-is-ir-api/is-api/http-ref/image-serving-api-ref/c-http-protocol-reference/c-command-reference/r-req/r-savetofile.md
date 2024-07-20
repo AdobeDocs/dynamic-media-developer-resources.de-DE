@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Speichern Sie das Bild in der Datei.
 
-`req=saveToFile&name= *``*[&timeout= *`fileval`*]`
+`req=saveToFile&name= *`file`*[&timeout= *`val`*]`
 
 <table id="simpletable_5674FD9655FE4CDDB0E5DC8655890A66"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> Datei</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> file</span> </p> </td> 
   <td class="stentry"> <p>Relativer Pfad zur Zielbilddatei. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -55,15 +55,15 @@ Wenn die Speicheranfrage erfolgreich abgeschlossen wurde, gibt die Anfrage mehre
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> </span> Sofern erfolgreich. </p> </td> 
+   <td> <p> <span class="codeph"> done</span> bei Erfolg. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Gibt den HTTP-Antwortstatus 200 bei Erfolg zurück und 403, wenn die Anfrage fehlschlägt oder eine Zeitüberschreitung auftritt. Die Antwort hat den MIME-Typ `text/plain` und ist nicht zwischenspeicherbar.
+Gibt den HTTP-Antwortstatus 200 bei Erfolg zurück und 403, wenn die Anfrage fehlschlägt oder eine Zeitüberschreitung aufweist. Die Antwort hat den MIME-Typ `text/plain` und ist nicht zwischenspeicherbar.
 
-&quot;Wichtiges Speichern in Dateien&quot;muss aktiviert sein, indem der Pfad zu einem vorhandenen beschreibbaren Ordner in `attribute::SavePath` angegeben wird. `saveToFile=` schlägt fehl, wenn leer  `attribute::SavePath` ist.
+&quot;Wichtiges Speichern in Dateien&quot;muss aktiviert sein, indem der Pfad zu einem vorhandenen beschreibbaren Ordner in `attribute::SavePath` angegeben wird. `saveToFile=` schlägt fehl, wenn `attribute::SavePath` leer ist.
 
-*`file`* ist erforderlich und muss ein relativer Pfad sein, der mit kombiniert wird  `attribute::SavePath`. Image Serving erstellt keine Ordner. Der Zielordner muss auf dem Server vorhanden sein und über die entsprechenden Berechtigungseinstellungen für Image Serving verfügen, um Dateien zu erstellen.
+*`file`* ist erforderlich und muss ein relativer Pfad sein, der mit `attribute::SavePath` kombiniert wird. Image Serving erstellt keine Ordner. Der Zielordner muss auf dem Server vorhanden sein und über die entsprechenden Berechtigungseinstellungen für Image Serving verfügen, um Dateien zu erstellen.
 
 `timeout=` ist optional. Der Standardwert für die Zeitüberschreitung beträgt 60.000 ms oder der Wert, der mit `PS::SaveTimeout` konfiguriert ist.

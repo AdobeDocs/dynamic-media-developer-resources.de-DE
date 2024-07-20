@@ -8,11 +8,11 @@ exl-id: ea2c5dce-6eb1-4f05-80bd-7336deb08b9e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
-# Anker{#anchor}
+# anchor{#anchor}
 
 Bild-Anker (Hotspot). Gibt den Textur-Ankerpunkt (Hotspot) der wiederholbaren Textur oder des Decalmaterials an.
 
@@ -31,20 +31,20 @@ Bild-Anker (Hotspot). Gibt den Textur-Ankerpunkt (Hotspot) der wiederholbaren Te
  </tr> 
 </table>
 
-Eine wiederholbare Textur wird auf ein Vignettenobjekt angewendet, sodass der Texturankerpunkt ( `anchor=`) sich am Texturursprungpunkt des Objekts befindet.
+Eine wiederholbare Textur wird auf ein Vignettenobjekt angewendet, sodass sich der Texturankerpunkt ( `anchor=`) am Texturursprungpunkt des Objekts befindet.
 
-Ein dekales Bild wird auf ein Vignettenobjekt angewendet, sodass sich der dekale Verankerungspunkt am dekalen Ausgangspunkt des Objekts befindet. Die Abschreibposition kann mithilfe der Variablen `pos=` Befehl.
+Ein dekales Bild wird auf ein Vignettenobjekt angewendet, sodass sich der dekale Verankerungspunkt am dekalen Ausgangspunkt des Objekts befindet. Die dekale Position kann mithilfe des Befehls `pos=` weiter angepasst werden.
 
-`anchorN=0,0` Platziert den Bildanker in der Mitte des Quellbilds. `anchorN=-0.5,-0.5` oder `anchor=0,0` befindet sich oben links und `anchorN=0.5,0.5` befindet sich in der rechten unteren Ecke des Quellbilds.
+`anchorN=0,0` Legt den Bild-Anker in der Mitte des Quellbilds ab. `anchorN=-0.5,-0.5` oder `anchor=0,0` befindet sich in der oberen linken Ecke und `anchorN=0.5,0.5` in der unteren rechten Ecke des Quellbilds.
 
 ## Eigenschaften {#section-91f929d35cd745ab9e1eeecf45fcedae}
 
-**Materialattribut**. Ignoriert , wenn `align=2`oder wenn das Material keine wiederholbare Textur, kein Hintergrund oder ein Dekorationsmaterial ist.
+**Materialattribut**. Wird ignoriert, wenn `align=2`, oder wenn das Material keine wiederholbare Textur, ein Hintergrund oder ein Dekcal ist.
 
 ## Standard {#section-b06d728c2f664c29bacf810eefcbde69}
 
-`catalog::Anchor`, wenn das Material auf einem Katalogeintrag basiert. Andernfalls `anchor=0,0` (obere linke Ecke des Bildes) für wiederholbare Texturen und Hintergrundbilder und `anchorN=0,0` (Bildmitte) für Decals.
+`catalog::Anchor`, wenn das Material auf einem Katalogeintrag basiert. Andernfalls `anchor=0,0` (obere linke Ecke des Bildes) für wiederholbare Texturen und Hintergrundbilder und `anchorN=0,0` (Bildmitte) für Dezimalstellen.
 
 ## Verwandte Themen {#section-b18bf0b035644ca5aedebbc64373718e}
 
-[catalog:Anchor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) , [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)
+[catalog::Anchor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) , [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 0%
 
 ---
 
@@ -47,13 +47,13 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Breite der Rotationsanzeige. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des Rotationsindikators. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Rotationsindikator unterstützt `state` -Attributauswahl, die auf `spin_1D` wenn ein eindimensionales Rotationsset vorhanden ist und `spin_2D` wenn ein mehrdimensionales Rotationsset vorhanden ist.
+Der Rotationsindikator unterstützt die &quot;`state`&quot;-Attributauswahl, die auf &quot;`spin_1D`&quot; eingestellt ist, wenn ein eindimensionales Rotationsset vorhanden ist, und auf &quot;`spin_2D`&quot;, wenn ein mehrdimensionales Rotationsset vorhanden ist.
 
 Beispiel: Um einen Zoom-Indikator von 100 x 100 Pixel einzurichten.
 

@@ -8,7 +8,7 @@ exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ Syntax
 | primaryOwnerHandle | `xsd:string` | Ja | Der primäre Eigentümer der an das Datenbankobjekt gebundenen Daten. |
 | secondaryOwnerHandle | `xsd:string` | Nein | Ein optionaler sekundärer Eigentümer der Daten. |
 
-**Ausgabe (getPropertySetsReturn)**
+**Output (getPropertySetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -50,7 +50,7 @@ Syntax
 
 Dieses Codebeispiel gibt Eigenschaftssätze des primären Eigentümers zurück, die durch einen Typhandle angegeben werden.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getPropertySetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ Fünf oder sechs kommagetrennte Ganzzahlen. Die dritte und vierte Zahl werden ni
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-Die `creator-id` und `creator-pin` werden von Digimarc beim Kauf des Dienstes bereitgestellt. Die nicht verwendeten Werte sollten leer gelassen werden.
+Die `creator-id` und `creator-pin` werden von Digimarc bereitgestellt, wenn der Service erworben wird. Die nicht verwendeten Werte sollten leer gelassen werden.
 
-`durability` gibt die Einbettungsstärke des Wasserzeichens Digimarc an. Es kann 1, 2, 3 oder 4 sein, wobei 1 auf die schwächste und 4 auf die höchste Dauerhaftigkeit zeigt.
+`durability` gibt die Einbettungsstärke des Digimarc-Wasserzeichens an. Es kann 1, 2, 3 oder 4 sein, wobei 1 auf die schwächste und 4 auf die höchste Dauerhaftigkeit zeigt.
 
 Setzen Sie `chroma` auf 1, um das Wasserzeichen in die Chrominanz-Daten des Bildes zu kodieren, oder auf 0 (Standard), um es in die Luminanz zu kodieren. Diese Einstellung wird bei der Ausgabe von Graustufenbildern ignoriert.
 

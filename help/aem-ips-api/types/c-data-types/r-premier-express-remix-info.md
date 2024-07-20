@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines PremierExpressRemix-Datei-Assets.
+description: Eigenschaften eines PremierExpressRemix-Dateiassets.
 solution: Experience Manager
 title: PremierExpressRemixInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 725612b5-6e60-4c43-b33a-11c6fccb3c1d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # [!DNL PremierExpressRemixInfo]{#premierexpressremixinfo}
 
-Eigenschaften eines PremierExpressRemix-Datei-Assets.
+Eigenschaften eines PremierExpressRemix-Dateiassets.
 
 Syntax
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in d
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Vertikale Position des Tools für die Freigabe in sozialen Netzwerken relativ zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Position des Tools für die Freigabe in sozialen Netzwerken im Verhältnis zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
@@ -41,13 +41,13 @@ Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in d
    <td colname="col2"> <p> Die Breite des Social-Sharing-Tools. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Social-Sharing-Tools. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um ein Social-Sharing-Tool einzurichten, das vier Pixel von der Oberseite und fünf Pixel von der rechten Seite des Viewer-Containers positioniert und 28 x 28 Pixel groß ist.
+**Beispiel** - Zum Einrichten eines Social-Sharing-Tools, das vier Pixel von der oberen Seite und fünf Pixel von der rechten Seite des Viewer-Containers entfernt und 28 x 28 Pixel groß ist.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -64,16 +64,16 @@ Das Erscheinungsbild der Schaltfläche für das Social-Sharing-Tool wird mit der
 .s7video360viewer .s7socialshare .s7socialbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche für das Social-Sharing-Tool**
+**CSS-Eigenschaften der Schaltfläche des Tools für die Freigabe in sozialen Netzwerken**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -81,11 +81,11 @@ Das Erscheinungsbild der Schaltfläche für das Social-Sharing-Tool wird mit der
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Beispiel**  - Zum Einrichten einer Schaltfläche für das Social-Sharing-Tool, die für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
+**Beispiel** - Um eine Schaltfläche für ein Social-Sharing-Tool einzurichten, mit der für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild angezeigt wird.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -108,18 +108,18 @@ Das Erscheinungsbild des Bedienfelds, das die einzelnen Symbole für die Freigab
 .s7video360viewer .s7socialshare .s7socialsharepanel
 ```
 
-**CSS-Eigenschaften des Bedienfelds &quot;Social Share&quot;**
+**CSS-Eigenschaften des Social Share-Bedienfelds**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe des Bedienfelds. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : So richten Sie ein Bedienfeld mit transparenter Farbe ein:
+**Beispiel** - So richten Sie ein Bedienfeld mit transparenter Farbe ein:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 

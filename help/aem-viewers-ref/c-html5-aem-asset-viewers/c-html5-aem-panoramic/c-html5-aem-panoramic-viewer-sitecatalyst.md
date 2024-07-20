@@ -8,7 +8,7 @@ exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anfrage an einen k
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, `trackEvent` Viewer-Rückruf und -Prozess `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, das `trackEvent` Viewer-Callback zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({

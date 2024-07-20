@@ -1,5 +1,5 @@
 ---
-description: Beschreibt Werte, die von verschiedenen Eingabeparametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+description: Beschreibt die von verschiedenen Eingabeparametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
 solution: Experience Manager
 title: E-Mail-Einstellungen
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
 # E-Mail-Einstellungen{#email-settings}
 
-Beschreibt Werte, die von verschiedenen Eingabeparametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+Beschreibt die von verschiedenen Eingabeparametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
 
 Syntax
 

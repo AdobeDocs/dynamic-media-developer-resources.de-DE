@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Die maximale Anzahl von Elementen im Dropdown-Inhaltsverzeichnis. </p> <p>Außerdem können Sie die Anzahl der sichtbaren Elemente in der Dropdown-Liste verringern, falls sie vom äußeren Container beschnitten wird. </p> <p>Wenn auf <span class="codeph"> 0</span> dass die Komponente so viele Elemente wie möglich anzeigt, wenn sie dem Container hinzugefügt wird. </p> </td> 
+   <td> <p>Die maximale Anzahl von Elementen im Dropdown-Inhaltsverzeichnis. </p> <p>Außerdem können Sie die Anzahl der sichtbaren Elemente in der Dropdown-Liste verringern, falls sie durch den äußeren Container beschnitten wird. </p> <p>Wenn diese Komponente auf <span class="codeph"> 0</span> gesetzt ist, zeigt sie so viele Elemente wie möglich an, sofern dem Container er hinzugefügt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
 title: Twitter Share
-description: Das twitter-Freigebungs-Tool besteht aus einer Schaltfläche, die dem Social-Freigabe-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
+description: Das Tool zum Freigeben von twitter besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 1db2600d-d13f-4563-b40a-098485e0ddf9
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # Twitter Share{#twitter-share}
 
-Das twitter-Freigebungs-Tool besteht aus einer Schaltfläche, die dem Social-Freigabe-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
+Das Tool zum Freigeben von twitter besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld umgeleitet, das von einem Social-Dienst bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -24,7 +24,7 @@ Das Erscheinungsbild der Twitter-Freigabe-Schaltfläche wird mit der folgenden C
 .s7videoviewer .s7twittershare
 ```
 
-**CSS-Eigenschaften des Twitter-Freigabe-Tools**
+**CSS-Eigenschaften des Twitter Share-Tools**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -33,7 +33,7 @@ Das Erscheinungsbild der Twitter-Freigabe-Schaltfläche wird mit der folgenden C
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -49,13 +49,13 @@ Das Erscheinungsbild der Twitter-Freigabe-Schaltfläche wird mit der folgenden C
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in ihrer CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
-Beispiel: Zum Einrichten einer Twitter-Freigabe-Schaltfläche mit 28 x 28 Pixel und einem anderen Bild für jeden der vier verschiedenen Schaltflächenstatus:
+Beispiel: Zum Einrichten einer Twitter-Freigabe-Schaltfläche mit einer Größe von 28 x 28 Pixel und einem anderen Bild für jeden der vier verschiedenen Schaltflächenstatus:
 
 ```
 .s7videoviewer .s7twittershare { 

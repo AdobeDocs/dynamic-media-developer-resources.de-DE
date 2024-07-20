@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
@@ -24,22 +24,22 @@ Wählen Sie das Objekt nach Pixelposition aus.
   <td class="stentry"> <p>Wählen Sie die Koordinaten des Speicherorts in Pixel (int, int). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> Ebene </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> level </span> </p> </td> 
   <td class="stentry"> <p>Gruppenebene (int). </p> </td> 
  </tr> 
 </table>
 
-Wählt die Gruppe oder das Objekt auf den von *`x, y`* und startet ein neues MSS. Wenn sich kein auswählbares Objekt an der Position der Auswahl befindet oder die Position der Auswahl ungültig ist, wird die durch `attribute::OnFailSel` genommen wird.
+Wählt die Gruppe oder das Objekt mit den von *`x, y`* angegebenen Pixelkoordinaten aus und startet einen neuen MSS. Wenn sich kein auswählbares Objekt an der Position der Auswahl befindet oder die Position der Auswahl ungültig ist, wird die durch `attribute::OnFailSel` angegebene Aktion ausgeführt.
 
-*`level`* Gibt an, ob die äußerste Gruppe ausgewählt oder ein Drilldown zu einer verschachtelten Gruppe oder einem verschachtelten Objekt durchgeführt werden soll. Wenn *`level`* nicht angegeben ist, wird die Gruppe &quot;äußersten&quot;ausgewählt. Auf 1 setzen, um eine Gruppenebene unterhalb der äußersten Gruppe auszuwählen. Legen Sie eine große Zahl fest (z. B. 99), um das am meisten auswählbare Objekt oder die Gruppe auszuwählen.
+*`level`* Gibt an, ob die äußerste Gruppe ausgewählt oder ein Drilldown zu einer verschachtelten Gruppe oder einem verschachtelten Objekt durchgeführt werden soll. Wenn *`level`* nicht angegeben ist, wird die äußerste Gruppe ausgewählt. Auf 1 setzen, um eine Gruppenebene unterhalb der äußersten Gruppe auszuwählen. Legen Sie eine große Zahl fest (z. B. 99), um das am meisten auswählbare Objekt oder die Gruppe auszuwählen.
 
 ## Eigenschaften {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-Auswahlbefehl; MSS-Trennzeichen. Die Objektauswahl ist so lange persistent, bis ein anderes Objekt ausgewählt ist, entweder mit `obj=` oder `sel=`.
+Auswahlbefehl; MSS-Trennzeichen. Die Objektauswahl ist so lange persistent, bis ein anderes Objekt ausgewählt ist, entweder mit `obj=` oder mit `sel=`.
 
-*`x, y`* Muss im Bereich 0, 0 (obere linke Ecke des Bildes) bis *`wid`*-1, *`hei`*-1 (untere, rechte Ecke des Bildes), wobei *`wid`* und *`hei`* ist die Größe der nicht skalierten Vignettenansicht.
+*`x, y`* Muss im Bereich 0, 0 (obere linke Ecke des Bildes) bis *`wid`*-1, *`hei`*-1 (untere, rechte Ecke des Bildes) liegen, wobei *`wid`* und *`hei`* der Größe der nicht skalierten Vignettenansicht entsprechen.
 
-Falls angegeben, *`level`* muss 0 oder größer sein.
+Wenn angegeben, muss *`level`* 0 oder größer sein.
 
 ## Standard {#section-e13c705a3e76468894b4ec190ed8a893}
 

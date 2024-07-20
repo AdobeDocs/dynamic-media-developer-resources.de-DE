@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, können lokalisiert werden, einschließlich Zoom-Schaltflächen, Schaltflächen zum Ändern der Seite, Miniaturschaltflächen, Vollbildschaltflächen, Schließen-Schaltflächen und Schaltflächen der Bildlaufleiste.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen Textwert für das englische Gebietsschema ( `"en"`) mit dem vordefinierten Viewer bereitgestellt werden und möglicherweise benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt sind.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßig zugewiesenen Textwert für das englische Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Außerdem können benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
 
 Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL im Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemata ( `"en"` und `"fr"`) und bietet Lokalisierung für zwei Elemente der Benutzeroberfläche in jedem Gebietsschema.
+Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt die Lokalisierung von zwei Benutzeroberflächenelementen in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte dieses Lokalisierungsobjekt an den Viewer-Konstruktor als Wert von `localizedTexts` -Feld des Konfigurationsobjekts. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf von `setLocalizedTexts(localizationInfo)` -Methode.
+Der Webseitencode sollte dieses Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der Methode `setLocalizedTexts(localizationInfo)` weiterzugeben.
 
 Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID des Viewer-Containers):
 
@@ -53,7 +53,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>ARIA-Beschriftung für das Viewer-Element der obersten Ebene. </p> </td> 
   </tr> 
   <tr> 
@@ -97,35 +97,35 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
    <td colname="col2"> <p>Scrollen Sie nach unten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche "Große nächste Seite" </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche "Große vorherige Seite". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche Letzte Seite . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche Letzte Seite . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche "Erste Seite" </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche "Erste Seite" </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche "Nächste Seite" </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Schaltfläche "Vorherige Seite". </p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
    <td colname="col2"> <p> Schaltfläche "Zum Drucken senden". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavoritenMenu.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Menüschaltfläche "Favoriten". </p> </td> 
   </tr> 
   <tr> 
@@ -389,12 +389,12 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
    <td colname="col2"> <p>Schaltfläche "Alle Favoriten anzeigen", wenn die Favoritenansicht inaktiv ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavoritenEffect.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesEffect.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Einzelnes Lieblingssymbol. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Seitenbeschriftung, die vom Viewer beim Laden generiert wird. </p> <p>Der Name dieses Symbols ist eine Vorlage, bei der <span class="codeph"> XX </span> ist ein nullbasierter Spread-Index in Querformat-Ausrichtung und optional <span class="codeph"> YY </span> ist ein nullbasierter Seitenindex innerhalb des Streams, auf den die <span class="codeph"> XX </span>. </p> <p>Gilt nur für das ursprünglich geladene Asset. Wird ignoriert, wenn ein Asset mit der <span class="codeph"> setAsset() </span> API-Aufruf. </p> </td> 
+   <td colname="col2"> <p>Seitenbeschriftung, die vom Viewer beim Laden generiert wird. </p> <p>Der Name dieses Symbols ist eine Vorlage, bei der <span class="codeph"> XX </span> ein nullbasierter Spread-Index in Querformat und optional <span class="codeph"> YY </span> ein nullbasierter Seitenindex innerhalb des von <span class="codeph"> XX </span> anvisierten Spreads ist. </p> <p>Gilt nur für das ursprünglich geladene Asset. Wird ignoriert, wenn ein Asset mithilfe des API-Aufrufs <span class="codeph"> setAsset() </span> geändert wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -439,7 +439,7 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Definiert einen Wert von <span class="codeph"> aria-label </span> ARIA-Attribut für das gesamte Suchfeld. </p> </td> 
+   <td colname="col2"> <p>Definiert einen Wert des ARIA-Attributs <span class="codeph"> aria-label </span> für das gesamte Suchfeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>

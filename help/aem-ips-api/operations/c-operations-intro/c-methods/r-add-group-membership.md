@@ -8,7 +8,7 @@ exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-e250f6ddb13646808c6a8860b6442bc5}
 
-**Eingabe (addGroupMembershipParam)**
+**Input (addGroupMembershipParam)**
 
 <table id="table_71AD8902E4854CA5A12379DBA4DF17C7"> 
  <thead> 
@@ -53,7 +53,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (addGroupMembershipParam)**
+**Output (addGroupMembershipParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -61,7 +61,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Beispiel wird einem Unternehmen mit groupHandleArray eine Gruppe hinzugefügt. In diesem Beispiel wird nur eine Gruppe verwendet.
 
-**Anforderung**
+**Anfrage**
 
 ```java {.line-numbers}
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

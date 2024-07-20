@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f207355d-5819-47fc-bda5-27a411449569
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '105'
+ht-degree: 2%
 
 ---
 
@@ -25,15 +25,15 @@ Materialauflösung. Gibt die Auflösung der wiederholbaren Textur oder des Decal
  </tr> 
 </table>
 
-Wenn es ein dekales Material gibt, `size=` setzt voraus, wenn beide `size=` und `res=` angegeben werden.
+Wenn ein dekales Material vorhanden ist, hat `size=` Vorrang, wenn sowohl `size=` als auch `res=` angegeben sind.
 
 ## Eigenschaften {#section-6a458ddc202f46e0b668c9f040a65cef}
 
-Materialattribut. Ignoriert durch feste Farbstoffe. Nur durch Schrank- und Fensterbeläge Materialien nur bei Verwendung einer Textur.
+Materialattribut. Ignoriert durch feste Farbstoffe. Nur durch Schrank- und Fensterbeläge Materialien nur, wenn auch eine Textur verwendet wird.
 
 ## Standard {#section-ee4088a994014df59105fc1dbb2aa042}
 
-`catalog::Resolution`, wenn das Material auf einem Katalogeintrag basiert, andernfalls `attribute::Resolution`, wenn `res= is` nicht angegeben oder auf einen Wert kleiner oder gleich 0 gesetzt.
+`catalog::Resolution`, wenn das Material auf einem Katalogeintrag basiert, andernfalls `attribute::Resolution`, wenn `res= is` nicht angegeben ist oder auf einen Wert kleiner oder gleich 0 gesetzt ist.
 
 ## Verwandte Themen {#section-c00f6fb7b3e74719ac361de9a9ce4e52}
 

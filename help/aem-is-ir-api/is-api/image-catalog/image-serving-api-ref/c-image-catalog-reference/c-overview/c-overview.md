@@ -22,14 +22,14 @@ Jeder Bildkatalog besteht aus einer erforderlichen Katalogattributdatei und eine
 
 * Die Bilddatendatei, in der Bilder und Vorlagen sowie die zugehörigen Metadaten itemisiert werden.
 * Die SVG-Datendatei, die SVG-Dateien und die zugehörigen Metadaten auflistet.
-* Die Makro-Definitionsdatei, die Definitionen für Anforderungsmakros bereitstellt.
+* Die Makrodefinitionsdatei, die Definitionen für Anforderungsmakros bereitstellt.
 * Die Schriftzuordnungsdatei, die die Textschriftarten verfolgt.
 * Die Profilzuordnungsdatei, die ICC-Farbprofile auflistet.
 * Die Regelsatzdatei, die die Vorverarbeitungsregeln für HTTP-Anforderungen definiert.
 
 Katalogdatendateien sind Bildkatalogen nach Dateiverweisen in der Katalogattributdatei zugeordnet. Dieselbe Katalogdatendatei kann für mehrere Bildkataloge freigegeben werden.
 
-Katalogattributdateien müssen über eine [!DNL .ini] -Dateisuffix und muss sich im [!DNL Platform Server]des Katalogordners ( `PlatformServer::catalog.rootPath`). Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den die [!DNL Platform Server].
+Katalogattributdateien müssen das Suffix &quot;[!DNL .ini]&quot; aufweisen und sich im Katalogordner &quot;[!DNL Platform Server]&quot;( `PlatformServer::catalog.rootPath`) befinden. Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den die [!DNL Platform Server] zugreifen kann.
 
 In diesem Dokument wird das Bildkatalog-Dateiformat für das Dynamic Media Image Serving-System beschrieben. Die Zielgruppe sind erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Web- oder benutzerdefinierte Anwendung nutzen möchten.
 

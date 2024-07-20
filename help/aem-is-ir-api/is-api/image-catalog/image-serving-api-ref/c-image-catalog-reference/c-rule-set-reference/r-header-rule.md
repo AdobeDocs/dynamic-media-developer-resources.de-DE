@@ -1,6 +1,6 @@
 ---
 title: Header
-description: HTTP-Antwort-Header-Element. Optional in <rule> -Elemente.
+description: HTTP-Antwort-Header-Element. Optional in <Regel> -Elementen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Header{#header}
 
-HTTP-Antwort-Header-Element. Optional in `<rule>` -Elemente.
+HTTP-Antwort-Header-Element. Optional in `<rule>` -Elementen.
 
 ## Attribute {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
 **`Name`= &quot;*text*&quot;** : Erforderlich. Gibt den Namen des HTTP-Headers an.
 
-**`Action`= &quot;set&quot; |`"add"`**: Optional. Der Standardwert ist `"set"`, der jeden aktuellen Header-Wert ersetzt. Angeben `"add"` so können Sie den Kopfzeilenwert durch Kommas trennen.
+**`Action`= &quot;set&quot; |`"add"`**: Optional. Der Standardwert ist &quot;`"set"`&quot;, was jeden aktuellen Header-Wert ersetzt. Geben Sie `"add"` an, damit Sie den Header-Wert durch ein Komma getrennt anhängen können.
 
 ## Daten {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ Die folgende Regel wendet eine benutzerdefinierte Kopfzeile an, wenn der Kopfzei
 </rule>
 ```
 
-Diese Regel wird durch die folgende Anfrage ausgelöst, bei der der HTTP-Antwortheader festgelegt wird `Edge-Control::no-store`:
+Diese Regel wird durch die folgende Anfrage ausgelöst, indem der HTTP-Antwortheader `Edge-Control::no-store` festgelegt wird:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

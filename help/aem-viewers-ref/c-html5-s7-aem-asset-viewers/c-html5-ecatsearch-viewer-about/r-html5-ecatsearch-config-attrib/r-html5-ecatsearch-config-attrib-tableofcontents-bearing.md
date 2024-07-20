@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d8b88ea2-38fe-41b8-89cb-c3603c513142
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 2%
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Steuert die Richtung des Dropdown-Bedienfeldaussehens. </p> <p>Wenn der Wert auf <span class="codeph"> fit-vertical</span> festgelegt ist, verschiebt die Komponente zunächst die Position des Bedienfelds am unteren Rand der Schaltfläche und versucht, das Bedienfeld von der Basisposition entweder nach rechts oder nach links zu verschieben. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld durch einen externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche in die rechte und linke Richtung zu wiederholen. </p> <p>Wenn der Wert auf <span class="codeph"> fit-lateral</span> festgelegt ist, verwendet die Komponente eine ähnliche Logik, verschiebt jedoch zuerst die Basis nach rechts, versucht nach unten und nach oben Rollout-Anweisungen. Dann wechselt er die Basis nach links, versucht nach unten und nach oben, die Richtung einzuführen. </p> </td> 
+   <td> <p> Steuert die Richtung des Dropdown-Bedienfeldaussehens. </p> <p>Wenn der Wert auf <span class="codeph"> fit-vertical</span> gesetzt ist, verschiebt die Komponente zunächst die Position des Basisbedienfelds an den unteren Rand ihrer Schaltfläche und versucht, das Bedienfeld von der Basisposition entweder nach rechts oder nach links zu verschieben. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld durch einen externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und die Rollout-Versuche in die rechte und linke Richtung zu wiederholen. </p> <p>Wenn der Wert auf <span class="codeph"> fit-lateral</span> festgelegt ist, verwendet die Komponente eine ähnliche Logik, verschiebt jedoch zuerst die Basis nach rechts und versucht nach unten und nach oben Rollout-Anweisungen. Dann wechselt er die Basis nach links, versucht nach unten und nach oben, die Richtung einzuführen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

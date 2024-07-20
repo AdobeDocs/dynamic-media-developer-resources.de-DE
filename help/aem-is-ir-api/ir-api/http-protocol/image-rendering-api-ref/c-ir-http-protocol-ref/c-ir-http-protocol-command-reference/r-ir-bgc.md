@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 6%
+source-wordcount: '158'
+ht-degree: 2%
 
 ---
 
@@ -21,15 +21,15 @@ Hintergrundfarbe. Gibt die subtraktive Farbe für kolorierbare Texturen und Deko
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> color</span> </p> </td> 
-  <td class="- topic/stentry stentry"> <p>RGB- oder Graufarbwert. </p></td> 
+  <td class="- topic/stentry stentry"> <p>RGB oder grau. </p></td> 
  </tr> 
 </table>
 
-Der Texturkolorisierungsalgorithmus des Bild-Renderings ist unkompliziert - die Komponentenwerte von `bgc=` von den Werten der Texturpixel abgezogen werden; `color=` hinzugefügt wird und das Ergebnis abgeschnitten wird auf `0,0,0` und `255,255,255`.
+Der Texturkolorisierungsalgorithmus des Bild-Renderings ist unkompliziert - die Komponentenwerte von `bgc=` werden von den Werten der Texturpixel subtrahiert; `color=` wird hinzugefügt und schließlich wird das Ergebnis auf `0,0,0` und `255,255,255` abgeschnitten.
 
-Für typische Verwendungen der Texturkolorisierung ist der Wert für `bgc=` kann die wichtigste oder dominierende Farbe im Texturbild sein. Dynamic Media Image Authoring bietet halbautomatische Tools, die vernünftige Ergebnisse erzielen `bgc=` Farbwerte aus Texturbildern.
+Für typische Verwendungen der Texturkolorisierung kann der Wert für `bgc=` die wichtigste oder dominante Farbe im Texturbild sein. Dynamic Media Image Authoring bietet halbautomatische Tools, die angemessene `bgc=` Farbwerte aus Texturbildern extrahieren.
 
-Wenn ein Texturmaterial auf ein nicht texturierbares Vignettenobjekt angewendet wird, `bgc=` wird als Vordergrundfarbe angewendet, wenn `color=` nicht angegeben ist.
+Wenn ein Texturmaterial auf ein nicht texturierbares Vignettenobjekt angewendet wird, wird `bgc=` als Vordergrundfarbe angewendet, wenn `color=` nicht angegeben ist.
 
 ## Eigenschaften {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
@@ -37,7 +37,7 @@ Materialattribut. Ignoriert durch feste Farbe und Möbel.
 
 ## Standard {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
-`catalog::BaseColor` Wenn das Material auf einem Katalogeintrag basiert, andernfalls `bgc=808080` (neutral gray).
+`catalog::BaseColor` Wenn das Material auf einem Katalogeintrag basiert, andernfalls `bgc=808080` (neutral grau).
 
 ## Beispiel {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 

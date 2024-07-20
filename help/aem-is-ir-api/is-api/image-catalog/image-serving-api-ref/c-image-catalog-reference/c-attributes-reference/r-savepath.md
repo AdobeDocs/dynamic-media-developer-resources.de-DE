@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6e2814b9-898f-4cf4-8e4f-aa972d554213
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '89'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Textzeichenfolge. Muss leer oder ein gültiger relativer Ordnerpfad sein. Immer 
 
 ## Standard {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-Vererbt von `default::SavePath` , falls nicht definiert. Das Speichern in Dateien ist deaktiviert, wenn der aufgelöste Wert leer ist.
+Wird von `default::SavePath` übernommen, falls nicht definiert. Das Speichern in Dateien ist deaktiviert, wenn der aufgelöste Wert leer ist.
 
 ## Verwandte Themen {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 

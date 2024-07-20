@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a4e187d9-b920-4d0d-adaa-ea369c5694fe
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Viewer-Layout auf Touch-fähigen Geräten an. Wenn der Parameter auf <span class="codeph"> 1 </span>, zeigt der Viewer Farbfelder unterhalb der Hauptansicht auf dem Desktop an. Auf Touch-fähigen Geräten werden die Farbfelder über der Hauptansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 </span>, werden Muster bei allen Gerätetypen unter der Hauptansicht dargestellt. </p> </td> 
+   <td colname="col2"> <p>Gibt das Viewer-Layout auf Touch-fähigen Geräten an. Wenn der Parameter auf <span class="codeph"> 1 </span> festgelegt ist, zeigt der Viewer Farbfelder unter der Hauptansicht auf dem Desktop an. Auf Touch-fähigen Geräten werden Farbfelder über der Hauptansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 </span> festgelegt ist, werden Muster bei allen Gerätetypen unter der Hauptansicht dargestellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-462c05d9aad746ee8d2be0656041b693}
 
-**Eingabe (deleteImageFormatParam)**
+**Input (deleteImageFormatParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das das Bildformat enthält, das Sie löschen möchten. |
 | imageFormatHandle | `xsd:string` | Ja | Der Handle mit dem Bildformat, das Sie löschen möchten. |
 
-**Ausgabe (deleteImageFormatParam)**
+**Output (deleteImageFormatParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -42,7 +42,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Codebeispiel wird ein Bildformat aus einem Unternehmen gelöscht. Rufen Sie den Bildformat-Handle von einem anderen Vorgang ab.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <deleteImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd">

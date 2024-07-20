@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Mit diesem Mechanismus können Viewer Antworten generieren, um die Präsentation
 
 ## Anforderungssyntax {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-Die festgelegte Antwort für eine `catalog::ImageSet` kann mithilfe der `req=set` -Modifikator und Verweis auf die Katalogdatensatz-ID im Netzpfad. Alternativ kann das Bildset direkt in der URL angegeben werden, indem die `imageset=` -Modifikator. Wenn die Variable `imageset=` -Modifikator zum Angeben des Bildsatzes verwendet wird, sollte der gesamte Wert in geschweifte Klammern eingeschlossen sein, um den Bildsatzwert zu maskieren und sicherzustellen, dass eingeschlossene Modifikatoren nicht als Teil der URL-Abfragezeichenfolge interpretiert werden.
+Die festgelegte Antwort für einen `catalog::ImageSet` kann mithilfe des Modifikators `req=set` abgerufen werden und die Katalogdatensatz-ID im Netzpfad referenzieren. Alternativ kann das Bildset direkt in der URL mit dem Modifikator `imageset=` angegeben werden. Wenn der Modifikator `imageset=` zum Angeben des Bildsets verwendet wird, sollte der gesamte Wert in geschweifte Klammern gesetzt werden, um den Bildsatzwert zu maskieren und sicherzustellen, dass eingeschlossene Modifikatoren nicht als Teil der URL-Abfragezeichenfolge interpretiert werden.
 
 ## Typen von festgelegten Antworten {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -29,7 +29,7 @@ Der festgelegte Mechanismus unterstützt die folgenden Arten von Antworten:
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>einfache Bilder </p></td> 
-  <td class="stentry"> <p>Ein Bilddatensatz ohne <span class="codeph"> catalog::ImageSet</span> definiert wurde. </p></td> 
+  <td class="stentry"> <p>Ein Bilddatensatz ohne definierten <span class="codeph"> Katalog::ImageSet</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>einfache Videos </p></td> 
@@ -67,9 +67,9 @@ Der festgelegte Mechanismus unterstützt die folgenden Arten von Antworten:
 
 ## Typerkennung für äußere Einsätze {#section-3dd6e453528d46898e559d31458a59ba}
 
-Wenn ein `req=set` -Anfrage empfangen wird, wird der Typ der zu generierenden Antwort durch den Wert von `catalog::AssetType`. Wenn `catalog::AssetType` nicht definiert ist, wird der Antworttyp durch die folgenden Regeln bestimmt:
+Wenn eine `req=set` -Anfrage empfangen wird, wird der Typ der zu generierenden Antwort durch den Wert `catalog::AssetType` bestimmt. Wenn `catalog::AssetType` nicht definiert ist, wird der Antworttyp durch die folgenden Regeln bestimmt:
 
-* Wenn der Datensatz im Bildkatalog UND gefunden wird `catalog::ImageSet` definiert ist
+* Wenn der Datensatz im Bildkatalog gefunden wird UND `catalog::ImageSet` definiert ist
 
    * Nehmen wir einen E-Katalog-Satz an, wenn mindestens ein Eintrag im Datensatzbildset-Feld einen Doppelpunkt enthält
    * Nehmen Sie als Medienset an, wenn mindestens ein Eintrag im Datensatzbildset-Feld zwei Semikolons enthält.
@@ -100,7 +100,7 @@ In allen Fällen konform die resultierende XML-Antwort mit dem angegebenen XML-D
 
 ## Erkennung des inneren Sets {#section-8f46490e467247e69ce284704def06f3}
 
-Wenn der äußere Satz als Mediensatz vom Typ erkannt wird, enthält die Antwort einen Satz von Medienset-Elementen, die jedem Medienset-Eintrag in `catalog::ImageSet`. Wenn der optionale Typparameter für einen bestimmten Mediensatzeintrag angegeben ist, wird er einem Ausgabetyp gemäß der folgenden Tabelle zugeordnet:
+Wenn der äußere Satz als Mediensatz vom Typ erkannt wird, enthält die Antwort einen Satz von Medienset-Elementen, die jedem Medienset-Eintrag in `catalog::ImageSet` entsprechen. Wenn der optionale Typparameter für einen bestimmten Mediensatzeintrag angegeben ist, wird er einem Ausgabetyp gemäß der folgenden Tabelle zugeordnet:
 
 | Eingabetyp | Ausgabetyp |
 |---|---|
@@ -126,19 +126,19 @@ Die zurückgegebene XML-Antwort entspricht der folgenden Spezifikation:
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-Die `labelkey=` -Modifikator zusammen mit dem `catalog::UserData`-Feld zum Generieren von Beschriftungen für Bilder und Muster. Die `catalog:UserData` -Feld wird als Satz von Schlüssel/Wert-Paaren analysiert und die Beschriftungsschlüssel indiziert in diesen Satz, um den Wert für den angegebenen Schlüssel abzurufen. Dieser Wert wird dann im *`l`* -Attribut für *`s`* und *`i`*.
+Der Modifikator `labelkey=` wird zusammen mit dem Feld `catalog::UserData` verwendet, um Beschriftungen für Bilder und Muster zu generieren. Das Feld `catalog:UserData` wird als Satz von Schlüssel/Wert-Paaren analysiert und die Beschriftungsschlüssel indiziert in diesen Satz, um den Wert für den angegebenen Schlüssel abzurufen. Dieser Wert wird dann im Attribut *`l`* für die Werte *`s`* und *`i`* zurückgegeben.
 
 ## Erzwungene Einschränkungen {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-Um die Größe der Antwort zu begrenzen und selbstreferenzierende Probleme zu vermeiden, wird die maximale Verschachtelungstiefe von der Servereigenschaft gesteuert `PS::fvctx.nestingLimit`. Wenn diese Grenze überschritten wird, wird ein Fehler zurückgegeben.
+Um die Größe der Antwort zu begrenzen und selbstreferenzierende Probleme zu vermeiden, wird die maximale Verschachtelungstiefe durch die Servereigenschaft `PS::fvctx.nestingLimit` gesteuert. Wenn diese Grenze überschritten wird, wird ein Fehler zurückgegeben.
 
-Um die Größe der XML-Antworten für große E-Katalog-Sets zu begrenzen, werden private Metadaten für Prospektset-Elemente gemäß der Servereigenschaft unterdrückt `PS::fvctx.brochureLimit`. Alle privaten Metadaten, die mit der Broschüre verknüpft sind, werden exportiert, bis die Prospektbegrenzung erreicht ist. Nach Überschreiten des Grenzwerts werden private Maps und Benutzerdaten unterdrückt und ein entsprechendes Flag festgelegt, das angibt, welcher Datentyp unterdrückt wurde.
+Um die Größe der XML-Antworten für große E-Katalog-Sets zu begrenzen, werden private Metadaten für Prospektset-Elemente gemäß der Servereigenschaft &quot;`PS::fvctx.brochureLimit`&quot;unterdrückt. Alle privaten Metadaten, die mit der Broschüre verknüpft sind, werden exportiert, bis die Prospektbegrenzung erreicht ist. Nach Überschreiten des Grenzwerts werden private Maps und Benutzerdaten unterdrückt und ein entsprechendes Flag festgelegt, das angibt, welcher Datentyp unterdrückt wurde.
 
 Verschachtelte Mediensets werden nicht unterstützt. Ein verschachteltes Medienset ist definiert als ein Medienset, das ein Medienset-Element vom Typ Medienset enthält. Wenn diese Bedingung erkannt wird, wird ein Fehler zurückgegeben.
 
 ## Beispiele {#section-588c9d33aa05482c86cd2b1936887228}
 
-Beispiel-XML-Antworten für `req=set` -Anfrage finden Sie auf der Seite Eigenschaften unter HTML-Beispiele .
+Beispiel-XML-Antworten für `req=set`-Anforderungen finden Sie auf der Seite Eigenschaften unter HTML-Beispiele .
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

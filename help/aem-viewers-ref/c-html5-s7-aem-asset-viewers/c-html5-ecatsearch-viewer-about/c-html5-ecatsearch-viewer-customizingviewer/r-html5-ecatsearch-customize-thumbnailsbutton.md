@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 465d4320-14ea-4f07-97c0-41f53034a7df
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 1%
+source-wordcount: '274'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -61,9 +61,9 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Viewer-Status, wenn der Miniaturansichtsmodus aktiv ist, und `selected='false'` entspricht dem Standardstatus mit der Hauptansicht.
+>Diese Schaltfläche unterstützt sowohl die Attribute `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Viewer-Status, wenn der Miniaturmodus aktiv ist, und `selected='false'` dem Standardstatus mit der Hauptansicht.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Zum Einrichten einer Schaltfläche für Miniaturansichten, die 28 x 28 Pixel groß und 4 Pixel von der unteren Seite und 5 Pixel von der linken Kante der Hauptsteuerungsleiste positioniert ist. Schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
 

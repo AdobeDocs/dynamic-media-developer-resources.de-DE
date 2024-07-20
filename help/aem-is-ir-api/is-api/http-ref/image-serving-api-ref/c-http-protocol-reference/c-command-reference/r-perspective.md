@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +35,11 @@ Perspektive Transformation. Wenden Sie eine Perspektivumwandlung auf das Ebenenq
  </tr> 
 </table>
 
-Der Modifikator *`perspQuad`* besteht aus vier Pixelkoordinatenwerten im Koordinatenraum der Composite-Ebene (oder Ebene 0), der in der linken oberen Ecke des Composite-Bildes liegt.
+Der Modifikator *`perspQuad`* besteht aus vier Pixelkoordinatenwerten im Koordinatenraum &quot;Composite&quot;(oder &quot;Layer 0&quot;), der aus der oberen linken Ecke des Composite-Bildes stammt.
 
-Der Modifikator `perspQuadN` besteht aus vier normalisierten Koordinatenwerten, wobei `0.0,0.0` entspricht der oberen linken Ecke des Composite/Layer 0-Bildes und `1.0,1.0` in die untere rechte Ecke.
+Der Modifikator `perspQuadN` besteht aus vier normalisierten Koordinatenwerten, wobei `0.0,0.0` der oberen linken Ecke des Composite/Layer 0-Bildes und `1.0,1.0` der unteren rechten Ecke entspricht.
 
-Das Eingabebild wird so umgewandelt, dass die obere linke Ecke des Eingabebilds dem ersten Koordinatenwert von `perspQuad[N]`, die obere rechte Ecke zur zweiten Koordinate, die untere rechte Ecke zur dritten Koordinate und die untere linke Ecke zur vierten Koordinate.
+Das Eingabebild wird so transformiert, dass die obere linke Ecke des Eingabebilds dem ersten Koordinatenwert von `perspQuad[N]`, die obere rechte Ecke der zweiten Koordinate, die untere rechte Ecke der dritten Koordinate und die untere linke Ecke zur vierten Koordinate zugeordnet werden.
 
 >[!NOTE]
 >
@@ -53,9 +53,9 @@ Das Verhalten ist nicht definiert, wenn das Quadrilaterale für eine Perspektivu
 
 Die Standardimplementierung führt zwar zu einem angemessenen Kompromiss zwischen Qualität und Leistung, es kann jedoch erforderlich sein, die Auflösung des Quellbilds zu erhöhen, um die Schärfe zu verbessern oder um die Skalierung von Artefakten zu reduzieren.
 
-Wenn die Quelle ein Bild ist, verwenden Sie `scale=` , um eine andere Auflösung zu wählen (relativ zur vollständigen Auflösung des Bildes). Die angegebene `scale=` wird auf die nächsthöhere PTIF-Auflösungsebene gerundet. Wenn eine verschachtelte Anforderungsquelle vorhanden ist, kann die Größe des von der verschachtelten Anforderung erzeugten Bildes angepasst werden, um die gewünschte Schärfe zu erzielen. Bei Textebenen wird die Auflösung des Eingabebilds (des gerenderten Texts) angepasst, indem ein größerer size= -Wert ausgewählt wird, wobei die mit `textAttr=`.
+Wenn es sich bei der Quelle um ein Bild handelt, wählen Sie mit &quot;`scale=`&quot;eine andere Auflösung (relativ zur vollständigen Auflösung des Bildes). Der angegebene `scale=` -Wert wird auf die nächste höhere PTIF-Auflösungsebene gerundet. Wenn eine verschachtelte Anforderungsquelle vorhanden ist, kann die Größe des von der verschachtelten Anforderung erzeugten Bildes angepasst werden, um die gewünschte Schärfe zu erzielen. Bei Textebenen wird die Auflösung des Eingabebilds (des gerenderten Texts) angepasst, indem ein größerer size= -Wert ausgewählt wird, wobei die mit `textAttr=` angegebene Auflösung erhöht wird.
 
-Der Modifikator *`resOptions`* können Sie einen alternativen Resampling-Algorithmus auswählen. Die folgenden Werte werden unterstützt (Groß-/Kleinschreibung muss beachtet werden):
+Mit dem Modifikator *`resOptions`* können Sie einen alternativen Resampling-Algorithmus auswählen. Die folgenden Werte werden unterstützt (Groß-/Kleinschreibung muss beachtet werden):
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
@@ -79,7 +79,7 @@ Der Modifikator *`resOptions`* können Sie einen alternativen Resampling-Algorit
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">R3T<span class="varname"> n</span></span> </p> </td> 
-   <td> <p> Super-Sampling mit verstellbarem Jitter (<span class="varname"> n</span> muss ein ganzzahliger Wert (von 0 bis 200) sein. </p> </td> 
+   <td> <p> Super-Sampling mit verstellbarem Jitter (<span class="varname"> n</span> muss ein ganzzahliger Wert von 0 bis 200 sein). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ Der Modifikator *`resOptions`* können Sie einen alternativen Resampling-Algorit
 
 Ebenenbefehl. Gilt für die aktuelle Ebene oder für Ebene 0, wenn `layer=comp`. Wird von Effektebenen ignoriert.
 
-Der Modifikator `res=` wird immer ignoriert, wenn die Perspektive in derselben Ebene vorhanden ist. Der Modifikator `size=` wird ignoriert, wenn für Bildebenen angegeben. Die Modifikatoren `size=` und `res=` in Ebenen mit `perspective=` sind für die zukünftige Verwendung reserviert.
+Der Modifikator `res=` wird immer ignoriert, wenn die Perspektive in derselben Ebene vorhanden ist. Der Modifikator `size=` wird ignoriert, wenn er für Bildebenen angegeben wird. Die Modifikatoren `size=` und `res=` in Ebenen mit `perspective=` sind für die zukünftige Verwendung reserviert.
 
 ## Standard {#section-e35683395d514d4eb6b32924e1bf8f2f}
 

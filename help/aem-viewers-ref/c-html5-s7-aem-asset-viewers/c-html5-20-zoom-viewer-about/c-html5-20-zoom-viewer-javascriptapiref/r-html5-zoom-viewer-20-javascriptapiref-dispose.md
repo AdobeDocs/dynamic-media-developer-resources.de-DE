@@ -22,9 +22,9 @@ Stellt diese Viewer-Instanz bereit, indem alle von der Viewer-Logik verwendeten 
 
 Der Webseitencode sollte auch die Viewer-Instanzvariable löschen, um den Viewer vollständig aus dem Webbrowser-Speicher zu entfernen.
 
-Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden - oder externe Verweise auf solche Komponenten gespeichert hat - müssen diese Listener explizit vom Webseitencode abgemeldet werden. Und diese externen Komponentenverweise müssen vor dem Aufruf von `dispose()`.
+Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden - oder externe Verweise auf solche Komponenten gespeichert hat - müssen diese Listener explizit vom Webseitencode abgemeldet werden. Außerdem müssen solche externen Komponentenverweise gelöscht werden, bevor `dispose()` aufgerufen wird.
 
-Rufen Sie die Viewer-API nicht mehr auf, nachdem `dispose()` aufgerufen wird.
+Greifen Sie nach dem Aufruf von `dispose()` nicht mehr auf die Viewer-API zu.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

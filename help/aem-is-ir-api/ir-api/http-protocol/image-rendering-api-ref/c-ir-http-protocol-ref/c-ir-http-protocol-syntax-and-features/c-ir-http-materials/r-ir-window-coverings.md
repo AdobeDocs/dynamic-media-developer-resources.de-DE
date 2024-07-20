@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Zu den Materialien für die Fensterbedeckung gehören sowohl weiche Fensterverkleidungen (Tränen, Täler, Café-Vorhänge) als auch harte Fensterverkleidungen (Schattierungen und Jalousien).
 
-Die Materialien für die Fensterverkleidung geben an, *Stildatei für die Fensterbearbeitung* ( [!DNL .vnw] Dateierweiterung), einer speziellen Datendatei ähnlich einer Vignette, die Maske-, Beleuchtungs-, Layout- und Texturdaten enthält, die die Fensterabdeckung definieren.
+Die Materialien für die Fensterabdeckung geben eine *Stildatei für das Fenster* ( [!DNL .vnw] Dateierweiterung) an, eine spezielle Datendatei, die einer Vignette ähnelt und Masken-, Beleuchtungs-, Layout- und Texturdaten enthält, die die Fensterabdeckung definieren.
 
 [!DNL vnw] -Dateien enthalten nicht die Farbe und Textur (Stoff) für die Fensterbedeckung. Diese Informationen werden getrennt angegeben, ähnlich wie wiederholbare Texturen.
 
@@ -57,7 +57,7 @@ Fensterabdeckende Materialien können nur auf Fensterabdeckungsrahmen-Objekte an
    <td colname="col3"> <p>128 (neutral gray) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> spitze= </span> </a> </p> </td> 
    <td colname="col2"> <p>Scharfzeichnen. </p> </td> 
    <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 

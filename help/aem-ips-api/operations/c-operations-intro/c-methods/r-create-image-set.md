@@ -8,7 +8,7 @@ exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -33,7 +33,7 @@ Syntax
 
 ## Parameter {#section-03d22ba7d290477e91c25ca1d4439200}
 
-**Eingabe (createImageSetParam)**
+**Input (createImageSetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Syntax
 
 In diesem Codebeispiel wird ein Bildset erstellt, das nach Unternehmen, Ordner, Name und Typ angegeben ist. Die Antwort ist ein Asset-Handle des neu erstellten Bildsets.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:createImageSetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

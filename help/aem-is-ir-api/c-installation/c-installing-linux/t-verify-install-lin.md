@@ -34,6 +34,6 @@ Der Image-Server wird als Linux®-Daemon installiert.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit `imageServer`, der angibt, dass [!DNL Platform Server] konnte erfolgreich mit dem Image-Server kommunizieren.
+Überprüfen Sie in den Antworten, ob Elemente vorhanden sind, die mit `imageServer` beginnen und angeben, dass [!DNL Platform Server] erfolgreich mit dem Image-Server kommunizieren konnte.
 
 >Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentations- und Demopakete durchgeführt werden, sofern sie installiert sind.

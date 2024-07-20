@@ -8,7 +8,7 @@ exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ Syntax
 
 ## Parameter {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Eingabe (renameFolderParam)**
+**Input (renameFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Syntax
 
 Mit diesem Codebeispiel wird ein Ordner umbenannt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:renameFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '175'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java™-Stacktraces hinzu. Fehlerbilder enthalten keine Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java™-Stacktraces hinzu. Fehlerbilder enthalten keine Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ Aufzählungswert: 0, 1, 2 oder 3.
 
 ## Standard {#section-5e78d550050840cc9a1de811c581b94f}
 
-Vererbt von `default::ErrorDetail` wenn nicht angegeben oder leer.
+Wird von `default::ErrorDetail` übernommen, wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-474e71922d194c7ca06f2aad3b30e025}
 

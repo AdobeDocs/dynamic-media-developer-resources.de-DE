@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 0%
 
 ---
 
@@ -25,10 +25,10 @@ Attribute der Textebene. Gibt zusätzliche Attribute für Textebenen an, die nic
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> antiAliasing </span> </span> </p> </td> 
-  <td class="stentry"> <p>Steuert den Anti-Aliasing-Modus, der von der Text-Rendering-Engine verwendet wird. </p> <p> <span class="codeph"> off | norm | knackig | scharf | stark | glatt </span> </p> <p> 
+  <td class="stentry"> <p>Steuert den Anti-Aliasing-Modus, der von der Text-Rendering-Engine verwendet wird. </p> <p> <span class="codeph"> off | norm | crisp | scharf | stark | glatt </span> </p> <p> 
     <table id="simpletable_AE2331118FCA4BC7877233E287CED6A4"> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> aus </span> </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> off </span> </p> </td> 
       <td class="stentry"> <p>Deaktivieren Sie das Anti-Aliasing von Text. </p> </td> 
      </tr> 
      <tr class="strow"> 
@@ -37,15 +37,15 @@ Attribute der Textebene. Gibt zusätzliche Attribute für Textebenen an, die nic
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> crisp </span> </p> </td> 
-      <td class="stentry"> <p>Photoshop-Anti-Aliasing-Modus auswählen <span class="codeph"> crisp </span> ( <span class="codeph"> textPs= </span> nur). </p> </td> 
+      <td class="stentry"> <p>Wählen Sie den Photoshop-Anti-Aliasing-Modus <span class="codeph"> crisp </span> ( <span class="codeph"> textPs= </span> only). </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> scharf </span> </p> </td> 
-      <td class="stentry"> <p>Photoshop-Anti-Aliasing-Modus auswählen <span class="codeph"> scharf </span> ( <span class="codeph"> textPs= </span> nur). </p> </td> 
+      <td class="stentry"> <p>Wählen Sie den Photoshop-Anti-Aliasing-Modus <span class="codeph"> scharf </span> ( <span class="codeph"> textPs= </span> nur). </p> </td> 
      </tr> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> stark </span> </p> </td> 
-      <td class="stentry"> <p>Photoshop-Anti-Aliasing-Modus auswählen <span class="codeph"> stark </span> ( <span class="codeph"> textPs= </span> nur). </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> strong </span> </p> </td> 
+      <td class="stentry"> <p>Wählen Sie den Photoshop-Anti-Aliasing-Modus <span class="codeph"> strong </span> ( <span class="codeph"> textPs= </span> nur). </p> </td> 
      </tr> 
     </table> </p> </td> 
  </tr> 
@@ -55,15 +55,15 @@ Attribute der Textebene. Gibt zusätzliche Attribute für Textebenen an, die nic
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>Verwenden Sie die angegebene Auflösung. </p> <p>Verwenden Sie diese Option, wenn der Text im Verhältnis zur zusammengesetzten Arbeitsfläche in exakter Größe dargestellt werden soll. Wenn das Textfeld zu klein ist, kann der Text auf die Ebenengröße gekürzt werden (sofern angegeben). Dies ist die einzige <span class="varname"> resMode </span> -Option unterstützt von <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Verwenden Sie die angegebene Auflösung. </p> <p>Verwenden Sie diese Option, wenn der Text im Verhältnis zur zusammengesetzten Arbeitsfläche in exakter Größe dargestellt werden soll. Wenn das Textfeld zu klein ist, kann der Text auf die Ebenengröße gekürzt werden (sofern angegeben). Dies ist die einzige <span class="varname"> resMode </span> -Option, die von <span class="codeph"> textPs= </span> unterstützt wird. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Passen Sie die Auflösung automatisch an, um den Ebenenrect am besten mit dem Text zu füllen. </p> <p>Verwenden Sie , um die Textgröße automatisch so anzupassen, dass das Textfeld so weit wie möglich gefüllt wird, ohne dass die Gefahr einer Kürzung besteht. Wenn die Wortumbruchfunktion aktiviert ist, kann der Text bei der endgültigen Auflösung umgebrochen werden. Die <span class="varname"> res </span> wird ignoriert, wenn <span class="codeph"> autoRes </span> ausgewählt ist. Nicht unterstützt von <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Passen Sie die Auflösung automatisch an, um den Ebenenrect am besten mit dem Text zu füllen. </p> <p>Verwenden Sie , um die Textgröße automatisch so anzupassen, dass das Textfeld so weit wie möglich gefüllt wird, ohne dass die Gefahr einer Kürzung besteht. Wenn die Wortumbruchfunktion aktiviert ist, kann der Text bei der endgültigen Auflösung umgebrochen werden. Die <span class="varname"> res </span> wird ignoriert, wenn <span class="codeph"> autoRes </span> ausgewählt ist. Wird nicht von <span class="codeph"> textPs= </span> unterstützt. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Verwenden Sie die angegebene Auflösung. Verringern Sie sie bei Bedarf, um zu verhindern, dass Text auf das Ebenenrect abgeschnitten wird. </p> <p>Verwenden Sie , um Text mit der angegebenen Auflösung zu rendern, solange kein Beschneiden erfolgt. Bei Beschneidungen wird die Auflösung automatisch herabgesetzt, um sicherzustellen, dass der gesamte Text vollständig im Textfeld enthalten ist. Wenn die Wortumbruchfunktion aktiviert ist, kann der Text bei der endgültigen Auflösung umgebrochen werden. Nicht unterstützt von <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Verwenden Sie die angegebene Auflösung. Verringern Sie sie bei Bedarf, um zu verhindern, dass Text auf das Ebenenrect abgeschnitten wird. </p> <p>Verwenden Sie , um Text mit der angegebenen Auflösung zu rendern, solange kein Beschneiden erfolgt. Bei Beschneidungen wird die Auflösung automatisch herabgesetzt, um sicherzustellen, dass der gesamte Text vollständig im Textfeld enthalten ist. Wenn die Wortumbruchfunktion aktiviert ist, kann der Text bei der endgültigen Auflösung umgebrochen werden. Wird nicht von <span class="codeph"> textPs= </span> unterstützt. </p> </td> 
      </tr> 
     </table> </p> <p>Wenn die Größe der Textebene nicht mit size= angegeben ist oder nur die Breite angegeben ist, werden die Einstellungen "autoRes"und "maxRes"ignoriert. In solchen Fällen wird die angegebene Auflösung zum Rendern des Textes verwendet. </p> </td> 
  </tr> 
@@ -76,20 +76,20 @@ Attribute der Textebene. Gibt zusätzliche Attribute für Textebenen an, die nic
       <td class="stentry"> <p>Wortumbruch deaktivieren. </p> </td> 
      </tr> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> umbruch </span> </p> </td> 
-      <td class="stentry"> <p>Standard-Wortumbruch aktivieren. </p> <p>Es bricht bei Bedarf lange Wörter. <span class="codeph"> textPs= </span> nur unterstützt <span class="codeph"> wrap </span>. </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> wrap </span> </p> </td> 
+      <td class="stentry"> <p>Standard-Wortumbruch aktivieren. </p> <p>Es bricht bei Bedarf lange Wörter. <span class="codeph"> textPs= </span> unterstützt nur <span class="codeph"> wrap </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Aktivieren Sie die unterbrechungsfreie Wortumbruchfunktion. </p> <p>Zerbricht nie ein Wort, selbst wenn es am Ende abgeschnitten wird. Wird normalerweise mit <span class="codeph"> autoRes </span> oder <span class="codeph"> maxRes </span> um sicherzustellen, dass lange Wörter nie gebrochen werden. </p> </td> 
+      <td class="stentry"> <p>Aktivieren Sie die unterbrechungsfreie Wortumbruchfunktion. </p> <p>Zerbricht nie ein Wort, selbst wenn es am Ende abgeschnitten wird. Wird in der Regel mit <span class="codeph"> autoRes </span> oder <span class="codeph"> maxRes </span> verwendet, um sicherzustellen, dass lange Wörter nie beschädigt werden. </p> </td> 
      </tr> 
-    </table> </p> <p>Beide <span class="codeph"> wrap </span> und <span class="codeph"> nbwrap </span> automatisch auf Wortgrenzen und Bindestriche umschließen. </p> </td> 
+    </table> </p> <p>Sowohl <span class="codeph"> wrap </span> als auch <span class="codeph"> nbwrap </span> automatisch in Wortgrenzen und Bindestriche einschließen. </p> </td> 
  </tr> 
 </table>
 
 ## Eigenschaften {#section-114ca0b8585b403c873e2251478ad1d5}
 
-Textebenenattribut. Ignoriert von Bild-, Farb- und Effektebenen. Gilt für `layer=0` sofern für `layer=comp`.
+Textebenenattribut. Ignoriert von Bild-, Farb- und Effektebenen. Gilt für `layer=comp` für `layer=0`.
 
 ## Standard {#section-855230f5330b4afc8a933f00a1ed4612}
 

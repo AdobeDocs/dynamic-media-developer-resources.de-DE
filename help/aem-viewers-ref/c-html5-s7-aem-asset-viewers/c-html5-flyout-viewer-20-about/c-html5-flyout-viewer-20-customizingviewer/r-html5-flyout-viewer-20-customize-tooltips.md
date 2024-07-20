@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 57d26a76-f4ee-44d5-b7a5-f3eb5c2a8759
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +55,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
    <td colname="col2"> <p>Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Textschriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
 
 >[!NOTE]
 >
->Falls QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften enthalten `!IMPORTANT` Regel. Es ist jedoch nicht erforderlich, QuickInfos in der CSS-Datei des Viewers anzupassen.
+>Wenn QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften die Regel `!IMPORTANT` enthalten. Es ist jedoch nicht erforderlich, QuickInfos in der CSS-Datei des Viewers anzupassen.
 
 Beispiel: Zum Einrichten von QuickInfos mit einem grauen Rahmen mit einem Radius von 3 Pixel, schwarzem Hintergrund und weißem Text, der mit Arial® geschrieben wurde, mit einer Größe von 11 Pixel:
 

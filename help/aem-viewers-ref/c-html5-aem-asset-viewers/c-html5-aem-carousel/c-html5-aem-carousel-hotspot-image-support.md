@@ -18,11 +18,11 @@ Der Viewer unterstützt das Rendern von Hotspot-Symbolen und Imagemap-Bereichen 
 
 Siehe [Hotspots und Imagemaps](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
-Hotspots und Regionen können entweder eine Schnellansichtsfunktion auf der Hostingwebseite aktivieren, indem sie einen JavaScript-Rückruf auslösen oder einen Benutzer zu einer externen Webseite umleiten.
+Hotspots und Regionen können entweder eine Schnellansichtsfunktion auf der Hosting-Webseite aktivieren, indem sie einen JavaScript-Rückruf auslösen oder einen Benutzer zu einer externen Webseite umleiten.
 
 ## Schnellansichts-Hotspots {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media, Adobe Experience Manager, erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine solche Imagemap aktiviert, führt der Viewer die `quickViewActivate` JavaScript-Rückruf und übergibt den Hotspot oder die Imagemap-Daten an ihn. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite Trigger wird, öffnet sie ihre eigene Schnellansichtsimplementierung.
+Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media, Adobe Experience Manager, erstellt werden. Wenn ein Benutzer einen solchen Hotspot oder eine solche Imagemap aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt ihm den Hotspot oder die Imagemap-Daten. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite Trigger wird, öffnet sie ihre eigene Schnellansichtsimplementierung.
 
 ## Zu externer Webseite umleiten {#section-ef820c71251e4215800bb99c0c9ebe16}
 

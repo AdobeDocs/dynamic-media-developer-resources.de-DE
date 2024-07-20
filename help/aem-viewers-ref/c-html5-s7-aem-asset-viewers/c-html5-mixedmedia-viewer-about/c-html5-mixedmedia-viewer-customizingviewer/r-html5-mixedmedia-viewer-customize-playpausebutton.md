@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8312645f-5704-499f-b66a-cf51dd8c1ec7
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
    <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -67,11 +67,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state`, `selected`und `replay` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;play&quot;und `selected='false'` entspricht dem Status &quot;pause&quot;;
+>Diese Schaltfläche unterstützt die Attributselektoren `state`, `selected` und `replay`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;play&quot;und `selected='false'` dem Status &quot;pause&quot;.
 >
 >`replay='true'` Dieses Attribut wird festgelegt, wenn das Video das Ende erreicht hat und die Auswahl der Schaltfläche die Wiedergabe von Anfang an neu startet.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

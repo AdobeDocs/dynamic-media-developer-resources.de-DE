@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 In dieser Dokumentation werden Probleme bei der Serververwaltung beschrieben und die Konfigurationseinstellungen für das Dynamic Media-Image-Rendering beschrieben.
 
-**Vorgesehene Zielgruppe**
+**Vorgesehene Audience**
 
 Diese Dokumentation richtet sich an Systemadministratoren und Webmaster, die Dynamic Media Image Rendering installieren, konfigurieren und verwalten müssen.
 

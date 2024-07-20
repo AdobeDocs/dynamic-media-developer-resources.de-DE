@@ -22,11 +22,11 @@ Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katal
 
 Alle Funktionen, die in der Benutzeroberfläche für den einfachen Zoom, E-Katalog, die E-Katalogsuche, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Zoom, Karussell, Dimensional (3D), interaktive Bilder, interaktive Videos und Video360 verfügbar sind, sind über die Tastatur verfügbar.
 
-Ein Endbenutzer kann mithilfe von **[!UICONTROL Registerkarte]** und **[!UICONTROL Umschalt+Tab]** Tastenanschläge. Verwenden **[!UICONTROL Registerkarte]** leitet den Eingabefokus zum nächsten Element der Benutzeroberfläche in der Tab-Reihenfolge weiter. using **[!UICONTROL Umschalt+Tab]** stellt den Eingabefokus wieder auf das vorherige Element der Benutzeroberfläche zurück. Das Fokus-Traversal folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich von links nach rechts und dann von oben nach unten.
+Ein Endbenutzer kann mithilfe der Tastenkombinationen **[!UICONTROL Tab]** und **[!UICONTROL Umschalt+Tab]** zwischen den Elementen der Viewer-Benutzeroberfläche navigieren. Durch Verwendung von **[!UICONTROL Tab]** wird der Eingabefokus zum nächsten Element der Benutzeroberfläche in der Tab-Reihenfolge weitergeleitet. Durch Verwendung von **[!UICONTROL Umschalt+Tab]** wird der Eingabefokus zum vorherigen Element der Benutzeroberfläche zurückgeführt. Das Fokus-Traversal folgt der natürlichen Elementposition der Benutzeroberfläche auf dem Bildschirm und bewegt sich von links nach rechts und dann von oben nach unten.
 
 Je nach Betriebssystem und Webbrowsereinstellungen erhält das Element der Benutzeroberfläche mit Eingabefokus eine visuelle Fokusanzeige. Beispielsweise kann der visuelle Indikator ein dünner Rahmen sein, der um das Element der Benutzeroberfläche gerendert wird.
 
-Es ist möglich, diese Fokushervorhebung im Viewer-CSS zu deaktivieren oder anzupassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. Basic Zoom oder Interactive Video) auf **Anpassen *Name des Viewers*** >** Fokushervorhebung **.
+Es ist möglich, diese Fokushervorhebung im Viewer-CSS zu deaktivieren oder anzupassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. Basic Zoom or Interactive Video) auf **Anpassen des *Namens des Viewers*** >** Fokusmarkierung **.
 
 Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers unterstützt werden, sind in den meisten Fällen offensichtlich und leicht zu entdecken.
 
@@ -44,14 +44,14 @@ Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vergrößern oder Verkleinern </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> oder <span class="uicontrol"> - </span>zurück. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> oder <span class="uicontrol"> - </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom zurücksetzen </p> </td> 
    <td colname="col2"> <p>Esc-Schlüssel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Bildschwenk </p> </td> 
+   <td colname="col1"> <p>Schwenken </p> </td> 
    <td colname="col2"> <p>Nach oben, Nach unten, Nach-links oder Nach-rechts-Pfeiltaste. </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Auswahl von Produktmustern </p> </td> 
-   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Pfeiltaste; Home- oder End-Schlüssel. </p> </td> 
+   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Pfeiltasten, Start- oder Ende-Taste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivierung von Produktmustern </p> </td> 
@@ -72,7 +72,7 @@ Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video und interaktives Video, schnell vorwärts </p> </td> 
-   <td colname="col2"> <p>Pfeiltaste nach rechts oder unten. </p> </td> 
+   <td colname="col2"> <p>Nach-rechts- oder Nach-unten-Pfeiltaste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video und interaktives Video, Anfang oder Ende </p> </td> 
@@ -80,7 +80,7 @@ Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video und interaktives Video: Steuern Sie die Lautstärke, wenn der Fokus auf den Regler liegt </p> </td> 
-   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Pfeiltaste; Home- oder End-Schlüssel. </p> </td> 
+   <td colname="col2"> <p>Nach-oben-, Nach-unten-, Nach-links- oder Nach-rechts-Pfeiltasten, Start- oder Ende-Taste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video und interaktives Video, veränderliche Lautstärke </p> </td> 
@@ -120,7 +120,7 @@ Tastenanschläge, die von einzelnen Benutzeroberflächenelementen des Viewers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog zur Aktivierung von Dropdown-Komponenten </p> </td> 
-   <td colname="col2"> <p> Nach-unten-Pfeiltaste; Leerzeichen oder Eingabetaste. </p> </td> 
+   <td colname="col2"> <p> Nach-unten-Pfeiltaste, Leertaste oder Eingabetaste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, wenn der Fokus im Dropdown-Bedienfeld liegt </p> </td> 

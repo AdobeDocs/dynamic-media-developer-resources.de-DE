@@ -31,19 +31,19 @@ Standardbild für Antworten. Gibt den Bild- oder Katalogeintrag an, der verwende
 >
 >Der standardmäßige Bildmechanismus gilt nicht für SVG-Objekte. Wenn das in der Anfrage angegebene SVG-Objekt nicht gefunden werden kann, wird ein Fehler zurückgegeben.
 
-Wenn `attribute::DefaultImageMode=0`, *`object`* ersetzt die gesamte ursprüngliche Anforderung, auch wenn nur ein Bild in einer Multibildkomposition fehlt. Die einzigen Befehle, die von der ursprünglichen Anfrage beibehalten werden, sind: `wid=`, `hei=`, `fmt=`, `qlt=`.
+Wenn `attribute::DefaultImageMode=0`, ersetzt *`object`* die gesamte ursprüngliche Anforderung, selbst wenn nur ein Bild in einer Multibildkomposition fehlt. Die einzigen Befehle, die von der ursprünglichen Anforderung beibehalten werden, sind: `wid=`, `hei=`, `fmt=`, `qlt=`.
 
-Wenn `attribute::DefaultImageMode=1`, ersetzt nur das fehlende Ebenenbild. Attribute für die fehlende Ebene werden angewendet und der Verbund wird wie gewohnt verarbeitet und zurückgegeben.
+Wenn `attribute::DefaultImageMode=1`, ersetzt das Objekt nur das fehlende Ebenenbild. Attribute für die fehlende Ebene werden angewendet und der Verbund wird wie gewohnt verarbeitet und zurückgegeben.
 
 ## Eigenschaften {#section-d30923d8dc4042eba10989212dd70887}
 
-Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Ignoriert , wenn `req=` andere als `img` oder `tmb`.
+Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Ignoriert, wenn `req=` nicht `img` oder `tmb` ist.
 
 ## Einschränkungen {#section-30df31bc8cac41cd917f1e45196779c2}
 
 Ausländische Bildquellen werden vom standardmäßigen Bildmechanismus nicht abgedeckt. Wenn eine ausländische Bildquelle ungültig ist, wird ein Fehler zurückgegeben.
 
-Image Serving kehrt zurück zu `DefaultImageMode=0` wenn verschachtelte Bildwiedergabe- oder FXG-Renderanforderungen fehlschlagen.
+Beim Rendern verschachtelter Bilder oder bei FXG-Rendering-Anforderungen wird der Bildserver wieder auf &quot;`DefaultImageMode=0`&quot;zurückgesetzt.
 
 ## Standard {#section-0676c66b233c46a3a3a1517da4ace998}
 

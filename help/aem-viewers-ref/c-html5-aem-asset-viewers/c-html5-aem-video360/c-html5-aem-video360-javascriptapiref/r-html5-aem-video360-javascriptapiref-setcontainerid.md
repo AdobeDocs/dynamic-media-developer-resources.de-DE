@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: JavaScript-API-Referenz für Video360-Viewer.
+description: JavaScript API-Referenz für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # setContainerId{#setcontainerid}
 
-JavaScript-API-Referenz für Video360-Viewer.
+JavaScript API-Referenz für Video360-Viewer.
 
 ` setContainerId( *`containerId`*)`
 
@@ -27,8 +27,8 @@ Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Kennung des Containers. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Kennung des Containers. </p> </td> 
   </tr> 
  </tbody> 
 </table>

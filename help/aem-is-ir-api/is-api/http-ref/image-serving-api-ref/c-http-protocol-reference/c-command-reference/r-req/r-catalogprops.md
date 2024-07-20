@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 6%
+source-wordcount: '211'
+ht-degree: 4%
 
 ---
 
@@ -27,11 +27,11 @@ Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anfragepfad ang
 
 Um die standardmäßigen Katalogeigenschaften ( [!DNL default.ini]) abzurufen, lassen Sie die Katalog-ID weg. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen, den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` anzugeben:
+Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
 
 Die folgenden Eigenschaftswerte werden zurückgegeben:
 
@@ -80,7 +80,7 @@ Die folgenden Eigenschaftswerte werden zurückgegeben:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span> oder, falls nicht vorhanden, die letzte Änderungszeit des  <span class="varname"> Katalogs</span><span class="filepath"> .</span> inifile </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span> oder, falls nicht vorhanden, die letzte Änderungszeit der Datei <span class="varname"> catalog</span><span class="filepath"> .ini</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -138,7 +138,7 @@ Die folgenden Eigenschaftswerte werden zurückgegeben:
    <td> <p> <span class="codeph"> attribute::ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog:watermark</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::watermark</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> <span class="codeph"> attribute::Watermark</span> </p> </td> 
   </tr> 

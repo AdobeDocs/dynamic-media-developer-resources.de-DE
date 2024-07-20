@@ -30,7 +30,7 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, durch  <span class="codeph"> &amp;</span> getrennt. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, getrennt durch <span class="codeph"> und </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

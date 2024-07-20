@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 7%
+source-wordcount: '560'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 Image Serving bietet mehrere Alternativen zum Rendern von Text, auf den die Befehle text= und textPs= zugreifen können.
 
-`textPs=` bietet eine hohe Ähnlichkeit mit in Adobe Photoshop und Illustrator gerendertem Text. `text=` ist mit Text kompatibel, der mit Windows Wordpad gerendert wird.
+`textPs=` bietet eine hohe Ähnlichkeit mit in Adobe Photoshop und Illustrator gerendertem Text. `text=` ist mit Text, der mit Windows Wordpad gerendert wird, angemessen kompatibel.
 
 >[!NOTE]
 >
->Zusätzlich zu den anderswo aufgeführten Unterschieden `text=` im Vergleich zu `textPs=`. So weisen beispielsweise Unterstriche nicht die gleiche Dicke und Position auf und werden kursiv synthetisiert und in einem etwas anderen Winkel gerendert. Wenn der Text nicht in den verfügbaren Platz passt, `text=` kann die letzte Zeile teilweise zuschneiden, während `textPs=` nur vollständige Zeilen rendert.
+>Zusätzlich zu den an anderer Stelle aufgeführten Unterschieden führt `text=` zu geringfügigen Unterschieden im gerenderten Text im Vergleich zu `textPs=`. So weisen beispielsweise Unterstriche nicht die gleiche Dicke und Position auf und werden kursiv synthetisiert und in einem etwas anderen Winkel gerendert. Wenn der Text nicht in den verfügbaren Platz passt, kann `text=` die letzte Zeile teilweise zuschneiden, während `textPs=` nur vollständige Zeilen rendert.
 
 Alle Textbefehle akzeptieren formatierten Text basierend auf einer Teilmenge der RTF-Spezifikation (Rich Text Format). Jede Textebene kann einen anderen Textbefehl angeben.
 
@@ -30,9 +30,9 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
  <thead> 
   <tr> 
    <th class="entry"> <b> Funktion</b> </th> 
-   <th class="entry"> <b> Text=</b> </th> 
+   <th class="entry"> <b> text=</b> </th> 
    <th class="entry"> <b> textPs=</b> </th> 
-   <th class="entry"> <b> Verwandte Themen</b> </th> 
+   <th class="entry"> <b> Siehe auch</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -153,7 +153,7 @@ Einige Textverarbeitungen erzeugen recht große Dateien, die wesentliche Präamb
 
 Sprachkodierung basierend auf UTF-8- und ISO-Standards wird in RTF-Zeichenfolgen als Alternative zu den Standard-RTF-Zeichenkodierungsmechanismen unterstützt. Dadurch können Anwendungen nicht-englischsprachigen Text ohne Kenntnisse der RTF-Kodierung an den Server senden.
 
-Alle nicht HTTP-konformen Zeichen müssen ordnungsgemäß maskiert sein, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen maskiert werden, wenn die Zeichenfolge in die `catalog::Modifiers` -Feld eines Bildkatalogdatensatzes. Kontrollzeichen, einschließlich `<CR>`, `<LF>`, und `<TAB>` sollte immer entfernt werden.
+Alle nicht HTTP-konformen Zeichen müssen ordnungsgemäß maskiert sein, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen maskiert werden, wenn die Zeichenfolge in das Feld `catalog::Modifiers` eines Bildkatalogdatensatzes integriert ist. Kontrollzeichen wie `<CR>`, `<LF>` und `<TAB>` sollten immer entfernt werden.
 
 Die Image Serving-Text-Engines interpretieren einen Teil der Befehle, die durch die Rich Text Format (RTF)-Spezifikation, Version 1.6 definiert wurden. Diese Untergruppe konzentriert sich auf die Schriftart-/Zeichenformatierung, die einfache Absatzformatierung und die Unterstützung für internationale Schriftarten und Zeichensätze. Erweiterte Formatierungskonstrukte wie Stylesheets und Tabellen werden derzeit nicht unterstützt.
 

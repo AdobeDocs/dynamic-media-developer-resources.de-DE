@@ -8,7 +8,7 @@ exl-id: 5fd3aa39-edb0-4434-aa5f-e511c84cf950
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Konfigurationsattribut für Video-Viewer für gemischte Medien.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Steuert, ob das Video über eine sichere SSL-Verbindung (HTTPS) oder eine unsichere Verbindung (HTTP) bereitgestellt wird. </p> <p>Wenn auf <span class="codeph"> auto</span> Das Videobereitstellungsprotokoll wird vom Protokoll der eingebetteten Webseite übernommen. Wenn die Webseite über HTTPS geladen wird, wird das Video auch über HTTPS bereitgestellt und umgekehrt. Wenn sich die Webseite auf HTTP befindet, wird das Video über HTTP bereitgestellt. </p> <p>Wenn auf <span class="codeph"> on</span>, erfolgt die Videobereitstellung immer über eine sichere Verbindung, unabhängig vom Webseitenprotokoll. </p> <p>Betrifft nur die veröffentlichte Videobereitstellung und wird bei der Videovorschau im Autorenmodus ignoriert. </p> </td> 
+   <td colname="col2"> <p> Steuert, ob das Video über eine sichere SSL-Verbindung (HTTPS) oder eine unsichere Verbindung (HTTP) bereitgestellt wird. </p> <p>Wenn der Wert auf <span class="codeph"> auto</span> festgelegt ist, wird das Videobereitstellungsprotokoll vom Protokoll der eingebetteten Webseite übernommen. Wenn die Webseite über HTTPS geladen wird, wird das Video auch über HTTPS bereitgestellt und umgekehrt. Wenn sich die Webseite auf HTTP befindet, wird das Video über HTTP bereitgestellt. </p> <p>Wenn auf <span class="codeph"> auf </span> gesetzt, erfolgt die Videobereitstellung immer über eine sichere Verbindung, unabhängig vom Webseitenprotokoll. </p> <p>Betrifft nur die veröffentlichte Videobereitstellung und wird bei der Videovorschau im Autorenmodus ignoriert. </p> </td> 
   </tr> 
  </tbody> 
 </table>

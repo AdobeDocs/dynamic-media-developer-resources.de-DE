@@ -23,7 +23,7 @@ Diese Befehle sind auch verfügbar.
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> ausblenden</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> hide</a></span> </p></td> 
   <td class="stentry"> <p>Ausblenden der ausgewählten überlappenden Objekte. </p></td> 
   <td class="stentry"></td> 
  </tr> 

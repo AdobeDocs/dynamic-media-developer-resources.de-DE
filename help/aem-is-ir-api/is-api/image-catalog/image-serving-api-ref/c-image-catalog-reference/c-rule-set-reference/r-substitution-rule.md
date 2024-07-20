@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d0f1c558-b745-41dc-bf65-1bf1fdcb88d3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 2%
+source-wordcount: '168'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Wenn `<substitution>` leer ist, wird die übereinstimmende Zeichenfolge oder Unt
 
 >[!NOTE]
 >
->Alle Übereinstimmungen in der Eingabezeichenfolge werden ersetzt, wenn `replace="all"` im Element `<rule>` angegeben ist, zu dem dieses Element `<substitution>` gehört. Standardmäßig wird nur die erste Übereinstimmung durch die Ersatzzeichenfolge ersetzt.
+>Alle Übereinstimmungen in der Eingabezeichenfolge werden ersetzt, wenn `replace="all"` im Element `<rule>`,festgelegt ist, zu dem dieses Element `<substitution>` gehört. Standardmäßig wird nur die erste Übereinstimmung durch die Ersatzzeichenfolge ersetzt.
 
 ## Notiz {#section-cedf2adabaaf441c9f598fb0ea180246}
 

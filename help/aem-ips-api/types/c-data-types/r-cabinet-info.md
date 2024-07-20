@@ -23,7 +23,7 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | originalPath | `xsd:string` | Relativer Weg zum ursprünglichen Kabinett. |
-| originalFile | `xsd:string` | Name des Kabinetts. |
+| originalFile | `xsd:string` | Name des Kabinetts |
 | fileSize | `xsd:int` | Kabinettgröße. |
 | imagePath | `xsd:string` | Relativer Pfad zum Kabinett, das mit der Vignette verbunden ist. |
 | imageFile | `xsd:string` | Dateiname des mit der Vignette verknüpften Kabinetts. |

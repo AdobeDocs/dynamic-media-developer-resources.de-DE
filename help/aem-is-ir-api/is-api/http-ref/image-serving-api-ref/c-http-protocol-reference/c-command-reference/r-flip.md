@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anw
   <td class="stentry"> <p>Spiegeln Sie die Ebene horizontal (links rechts). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> Cloud </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
   <td class="stentry"> <p>Spiegeln Sie die Ebene vertikal (nach unten). </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -35,15 +35,15 @@ Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anw
 
 Sie kann auch auf Textebenen angewendet werden.
 
-Einige Befehle, einschließlich `extend=`implizit auf Ebene 0 anstelle der Composite-Schicht angewendet werden, wenn `layer=comp` ausgewählt ist. In solchen Fällen werden alle Befehle, die automatisch Ebene 0 zugewiesen werden, vor den Befehlen angewendet, die für `layer=comp`. Wann `layer=comp`, `extend=` angewendet wird, bevor `flip=`.
+Einige Befehle, einschließlich `extend=`, gelten implizit für Ebene 0 anstelle der Composite-Ebene, wenn `layer=comp` ausgewählt ist. In solchen Szenarien werden alle Befehle, die automatisch Ebene 0 zugewiesen werden, vor den Befehlen angewendet, die für `layer=comp` gelten. Wenn also `layer=comp` ist, wird `extend=` vor `flip=` angewendet.
 
 >[!NOTE]
 >
->Die gespiegelte Ebene wird basierend auf dem Ebenenanker positioniert. Unterschiedlich `flip=` -Werte führen zu unterschiedlichen Ebenenpositionen, wenn sich der Anker nicht in der Mitte der Ebene befindet.
+>Die gespiegelte Ebene wird basierend auf dem Ebenenanker positioniert. Verschiedene `flip=` -Werte führen zu unterschiedlichen Ebenen, wenn sich der Anker nicht in der Mitte der Ebene befindet.
 
 ## Eigenschaften {#section-294da2af7be746b5adfc35e29ee68217}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`. Wird von Effektebenen ignoriert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert.
 
 ## Standard {#section-502044f81a89492198d5f12a738459ea}
 

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -117,21 +117,21 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Mit dem Ende des <span class="codeph"> urlModifier</span>. Liste der Parameter im Abfragezeichenfolgenformat, die Befehle zum Bildserver sind. Die Werte finden Sie im Protokoll-Handbuch zum Image-Server. </p> </td> 
+   <td colname="col3"> <p>Am Ende des <span class="codeph"> urlModifier</span> verkettete Parameter. Liste der Parameter im Abfragezeichenfolgenformat, die Befehle zum Bildserver sind. Die Werte finden Sie im Protokoll-Handbuch zum Image-Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:ZoomTargetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ZoomTargetArray</span> </td> 
    <td colname="col3"> <p>Array von Zoomzielen (5 max.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:MaskArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:MaskArray</span> </td> 
    <td colname="col3"> <p>Maskiert ein Array. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageMaps]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:ImageMapsArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageMapsArray</span> </td> 
    <td colname="col3"> <p>Bild ordnet Array zu. </p> </td> 
   </tr> 
  </tbody> 

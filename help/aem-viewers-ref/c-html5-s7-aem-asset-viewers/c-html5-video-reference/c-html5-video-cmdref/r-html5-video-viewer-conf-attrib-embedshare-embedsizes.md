@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 12%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -23,15 +23,15 @@ Gibt eine Liste der Einbettungsgrößen für das Kombinationsfeld &quot;Größe&
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Breite </span> </span> </p> </td> 
    <td colname="col2"> <p> Einbettungsbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Höhe </span> </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Einbettung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Gibt an, ob dieses Listenelement zunächst im Kombinationsfeld vorausgewählt werden soll. </p> </td> 
   </tr> 
  </tbody> 

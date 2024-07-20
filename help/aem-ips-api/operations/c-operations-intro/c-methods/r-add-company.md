@@ -8,7 +8,7 @@ exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Fügt ein Unternehmen zum System hinzu.
 
 Sendet den Namen des Unternehmens, das zum System hinzugefügt werden soll, und sendet optional, ob das Unternehmen abläuft.
 
-Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der ein Unternehmens-Handle und beschreibende Felder enthält. Wenn der angeforderte Unternehmensname bereits im System vorhanden ist, wird ein `ipsApiFault`.
+Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der ein Unternehmens-Handle und beschreibende Felder enthält. Wenn der angeforderte Unternehmensname bereits im System vorhanden ist, wird ein `ipsApiFault` ausgegeben.
 
 ## Autorisierte Benutzertypen {#section-ae926c7672984be79f6102748accab72}
 
@@ -28,7 +28,7 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der
 
 ## Parameter {#section-c64a21b72585447880760db9e7a12ccb}
 
-**Eingabe (addCompanyParam)**
+**Input (addCompanyParam)**
 
 <table id="table_AA915BAD2E8E4A1B9719725994309CE8"> 
  <thead> 
@@ -55,7 +55,7 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der
  </tbody> 
 </table>
 
-**Ausgabe (addCompanyReturn)**
+**Output (addCompanyReturn)**
 
 <table id="table_89EBAC0E0FB34793BD843837BB02B518"> 
  <thead> 
@@ -80,7 +80,7 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der
 
 Dieses Beispiel zeigt eine Anfrage zum Hinzufügen eines Unternehmens zum IPS-System und die Antwort mit detaillierten Informationen zu dem hinzugefügten Unternehmen, das für andere Vorgänge benötigt wird.
 
-**Anforderung**
+**Anfrage**
 
 ```java {.line-numbers}
 <ns1:addCompanyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

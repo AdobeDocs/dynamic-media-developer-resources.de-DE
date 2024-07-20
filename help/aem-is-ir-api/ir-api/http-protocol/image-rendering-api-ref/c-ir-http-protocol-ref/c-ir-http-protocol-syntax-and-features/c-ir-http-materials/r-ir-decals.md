@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Zu den Dekormaterialien gehören Bekleidungskonstrukte wie Applices, T-Shirt-Abd
 
 Ein Material gilt als entschlüsselt, wenn es in einem dekalen MSS angegeben ist. Ein Decal ist normalerweise ein RGBA-Bild, wobei der Alphakanal die Form des Decals definiert.
 
-Ein Decal kann auf jedes flache, fließende, skizzierte, ebene oder Wandobjekt angewendet werden (es sei denn, die Markierung &quot;Keine Textur&quot;ist gesetzt). Dezimalstellen werden auf das Objekt angewendet, indem die `anchor=` durch den dekalen Ausgangspunkt des Vignettenobjekts. Die Position kann mit `pos=`.
+Ein Decal kann auf jedes flache, fließende, skizzierte, ebene oder Wandobjekt angewendet werden (es sei denn, die Markierung &quot;Keine Textur&quot;ist gesetzt). Dezimalstellen werden auf das Objekt angewendet, indem die `anchor=` des Decals am dekalen Ausgangspunkt des Vignettenobjekts ausgerichtet wird. Die Position kann mit `pos=` weiter eingestellt werden.
 
 Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Dicke definiert und das Vignettenobjekt einen Lichtvektor definiert.
 
@@ -62,7 +62,7 @@ Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Dicke definiert u
    <td colname="col3"> <p>100 % </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf= </span> </a> </td> 
+   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> spitze= </span> </a> </td> 
    <td colname="col2"> <p>Scharfzeichnen. </p> </td> 
    <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 

@@ -7,8 +7,8 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 Der HTML5 Video360 Viewer unterstützt standardmäßig Adobe Analytics-Tracking.
 
-Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
+Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
 Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -63,7 +63,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>wenn ein Asset im Viewer mit <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>wenn ein Asset im Viewer mit der API <span class="codeph"> setAsset() </span> ausgetauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -79,7 +79,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>wenn die Wiedergabe einen der folgenden Meilensteine erreicht: 0 %, 25 %, 50 %, 75 % oder 100 %. </p> </td> 
+   <td colname="col2"> <p>wenn die Wiedergabe eines der folgenden Meilensteine erreicht: 0 %, 25 %, 50 %, 75 % oder 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>

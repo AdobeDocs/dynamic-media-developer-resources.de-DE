@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Set Indicator ist eine Reihe von Punkten, die auf Hauptmustern gerendert werden,
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**CSS-Eigenschaften des Set Indicators**
+**CSS-Eigenschaften des festgelegten Indikators**
 
 Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -66,7 +66,7 @@ Das Erscheinungsbild eines einzelnen Satzanzeigepunkts wird mit der CSS-Klassena
    <td colname="col2"> <p>Breite des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Das Erscheinungsbild eines einzelnen Satzanzeigepunkts wird mit der CSS-Klassena
 
 >[!NOTE]
 >
->Der Anzeigepunkt &quot;Festlegen&quot;unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der aktuellen Seite der Miniaturansichten; `state="unselected"` entspricht dem Standardpunktstatus.
+>Der Set Indicator Punkt unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere entspricht `state="selected"` der aktuellen Seite der Miniaturansichten, `state="unselected"` dem Standardpunktstatus.
 
 Beispiel: So erstellen Sie einen festgelegten Anzeigepunkt mit 15 x 15 Pixel mit einem horizontalen Rand von zwei Pixeln, einem oberen Rand von fünf Pixeln, einem unteren Rand von einem Pixel, einem Radius von 12 Pixeln, einer Standardfarbe von #D5D3D3 und einer aktiven Farbe von #9393:
 

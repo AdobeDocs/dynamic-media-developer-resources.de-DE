@@ -22,7 +22,7 @@ Verwenden Sie diese Servereinstellungen, um Fehler umzuleiten.
 
 ## PS::errorRedirect.rootUrl - Redirect Server {#section-85f22e48d68842a490b0e1191543b558}
 
-Die Stamm-URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]]) für die sekundäre Image Serving-Bereitstellung, an die Anforderungen, die lokal fehlschlagen, umgeleitet werden sollten. Die Umleitung von Fehlern ist deaktiviert (Standard), wenn diese Einstellung leer oder nicht definiert ist.
+Die Stamm-URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) für die sekundäre Image Serving-Bereitstellung, an die Anforderungen, die lokal fehlschlagen, umgeleitet werden sollen. Die Umleitung von Fehlern ist deaktiviert (Standard), wenn diese Einstellung leer oder nicht definiert ist.
 
 ## PS::errorRedirect.connectTimeout - Redirect Connection Timeout {#section-3971be8f720d4b32a2cc7860b4085971}
 

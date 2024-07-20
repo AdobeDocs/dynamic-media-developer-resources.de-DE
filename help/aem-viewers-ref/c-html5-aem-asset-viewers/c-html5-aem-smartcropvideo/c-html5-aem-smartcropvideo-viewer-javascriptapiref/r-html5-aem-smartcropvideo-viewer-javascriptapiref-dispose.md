@@ -1,10 +1,11 @@
 ---
 title: dispose
-description: JavaScript-API-Referenz für Smart Crop Video Viewer.
+description: JavaScript API-Referenz für Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 10144ced-3eb1-424a-b478-976cf1f6e9c5
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 # dispose{#dispose}
 
-JavaScript-API-Referenz für Smart Crop Video Viewer.
+JavaScript API-Referenz für Smart Crop Video Viewer.
 
 `dispose()`
 
@@ -21,9 +22,9 @@ Stellt diese Viewer-Instanz bereit, indem alle von der Viewer-Logik verwendeten 
 
 Der Webseitencode sollte auch die Viewer-Instanzvariable löschen, um den Viewer vollständig aus dem Webbrowser-Speicher zu entfernen.
 
-Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden - oder externe Verweise auf solche Komponenten gespeichert hat - müssen diese Listener explizit vom Webseitencode abgemeldet werden. Und diese externen Komponentenverweise müssen vor dem Aufruf von `dispose()`.
+Wenn der Webseitencode Ereignis-Listener direkt auf Viewer-SDK-Komponenten enthält, die vom Viewer verwendet werden - oder externe Verweise auf solche Komponenten gespeichert hat - müssen diese Listener explizit vom Webseitencode abgemeldet werden. Außerdem müssen solche externen Komponentenverweise gelöscht werden, bevor `dispose()` aufgerufen wird.
 
-Rufen Sie die Viewer-API nicht mehr auf, nachdem `dispose()` aufgerufen wird.
+Greifen Sie nach dem Aufruf von `dispose()` nicht mehr auf die Viewer-API zu.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

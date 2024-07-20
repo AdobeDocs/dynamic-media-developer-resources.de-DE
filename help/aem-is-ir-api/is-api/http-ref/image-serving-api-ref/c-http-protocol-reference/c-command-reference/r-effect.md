@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 3%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ Wählen Sie Effektebene aus. Wählt eine Effektebene aus und startet ein neues E
  </tr> 
 </table>
 
-Alle Befehle im neuen Segment werden auf die angegebene Effektebene angewendet. Ein Effekt-Ebenensegment wird bis zum nächsten beendet `layer=` oder `effect=` -Befehl oder am Ende der -Anfrage.
+Alle Befehle im neuen Segment werden auf die angegebene Effektebene angewendet. Ein Effekt-Layer-Segment wird durch den nächsten `layer=` - oder `effect=` -Befehl oder durch das Ende der Anfrage beendet.
 
-Der Wert *`n`* muss kleiner als 0 für äußere Ebeneneffekte (d. h. Effekte hinter der übergeordneten Ebene) und größer als 0 für innere Ebeneneffekte (d. h. Effekte innerhalb der übergeordneten Ebene) sein. Die Anzahl der Effektebenen muss nicht aufeinander folgen.
+Der Wert *`n`* muss für äußere Ebeneneffekte kleiner als 0 (d. h. Effekte hinter der übergeordneten Ebene) und größer als 0 für innere Ebeneneffekte (d. h. Effekte innerhalb der übergeordneten Ebene) sein. Die Anzahl der Effektebenen muss nicht aufeinander folgen.
 
 Die Ebenennummer des Effekts gibt die z-Reihenfolge an, wenn mehrere Effektebenen für dieselbe übergeordnete Ebene vorhanden sind. Höhere Ebenen werden auf unternummerierten Ebenen platziert.
 
-Effektebenen können an `layer=comp`.
+Effektebenen können an `layer=comp` angehängt werden.
 
 ## Eigenschaften {#section-e11f795deff345779ce280a82cf221ca}
 

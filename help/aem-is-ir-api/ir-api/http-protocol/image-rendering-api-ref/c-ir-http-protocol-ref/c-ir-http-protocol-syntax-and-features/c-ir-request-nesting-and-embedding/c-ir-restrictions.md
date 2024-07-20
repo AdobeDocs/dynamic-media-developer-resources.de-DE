@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Für das Verschachteln und Einbetten gelten einige Einschränkungen.
 
-Für eine gute Server-Leistung sollte die Auflösung der von verschachtelten Anforderungen zurückgegebenen Bilder der Texturauflösung der Objekte entsprechen, auf die das Material angewendet wird.
+Für eine gute Server-Leistung sollte die Auflösung von Bildern, die von verschachtelten Anforderungen zurückgegeben werden, der Texturauflösung der Objekte entsprechen, auf die das Material angewendet wird.
 
 Ausländische Bilder werden lokal zwischengespeichert. Änderungen an diesen Bildern werden erst erkannt, nachdem der lokale Cache-Eintrag veraltet ist (basierend auf dem ablaufenden HTTP-Header).

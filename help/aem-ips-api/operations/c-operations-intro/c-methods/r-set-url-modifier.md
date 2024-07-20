@@ -8,7 +8,7 @@ exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Legt die Protokollbefehle für Image Serving oder Image Rendering für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
 
-Für die Bildbereitstellung, Befehle im `urlModifier` -Parameter werden im Feld Modifikatorkatalog veröffentlicht und vor allen Befehlen angewendet, die in der Anfrage-URL angegeben sind. Befehle in `urlPostApplyModifier` werden in der `PostModifier` Katalogfeld und überschreibt alle Befehle auf der Anforderungs-URL oder in `urlModifier`. Für das Rendern von Bildern werden die Befehle in `urlModifier` und `urlPostApplyModifier` werden verkettet und im Feld Modifikatorkatalog veröffentlicht.
+Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Katalog veröffentlicht und vor allen Befehlen angewendet, die in der Anfrage-URL angegeben sind. Befehle in `urlPostApplyModifier` werden im Katalogfeld `PostModifier` veröffentlicht und überschreiben alle Befehle in der Anforderungs-URL oder in `urlModifier`. Beim Rendern von Bildern werden die Befehle in `urlModifier` und `urlPostApplyModifier` verkettet und im Feld Modifikatorkatalog veröffentlicht.
 
 ## Autorisierte Benutzertypen {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -29,22 +29,22 @@ Für die Bildbereitstellung, Befehle im `urlModifier` -Parameter werden im Feld 
 
 ## Parameter {#section-3304fe49bbe24ea1a886e19aaf41fb7d}
 
-**Eingabe (setUrlModifierParam)**
+**Input (setUrlModifierParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
-| urlModifier | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung angewendet werden sollen, oder `urlPostApplyModifier` Befehle. |
-| urlPostApplyModifier | `xsd:string` | Nein | Protokollbefehle für Image Serving oder Image Rendering, die nach angewendet werden sollen `urlModifier` und fordern Sie Befehle an. |
+| urlModifier | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung oder vor den Befehlen `urlPostApplyModifier` angewendet werden. |
+| urlPostApplyModifier | `xsd:string` | Nein | Image Serving - oder Image Rendering -Protokollbefehle, die nach `urlModifier` angewendet werden und Befehle anfordern. |
 
-**Ausgabe (setUrlModifierReturn)**
+**Output (setUrlModifierReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-801d4b9b986443f59a5783a3d6bf44aa}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setUrlModifierParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -8,7 +8,7 @@ exl-id: e8aaee4e-56d5-46e4-8499-d5c9a6ba5d3b
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset</span> </span> </p> </td> 
    <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID. </p> <p>Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td>
   </tr>
  </tbody>

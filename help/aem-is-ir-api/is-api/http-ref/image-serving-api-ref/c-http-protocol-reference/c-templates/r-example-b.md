@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> myTemplate2</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> $text=layer+1+text+go+here&amp; layer=0&amp;size=800,0&amp;extend=0,100,200,100&amp;src=$object$&amp;originN=.5,0&amp; layer=1&amp;text=rtf..$text$...rtf-encoding&amp;rotate=-90&amp;originN=.5,0&amp;posN=0.5,0</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> $text=layer+1+text+go+here&amp; layer=0&amp;size=800,0&amp;extend=0,100,200,100&amp;src=$object$&amp;originN=.5,0&amp; layer=1&amp;text=rtf..$text$...rtf-encoding&amp;rotate=-90&amp;origin N=.5,0&amp;posN=0.5,0</span> </p></td> 
  </tr> 
 </table>
 
 Das Bild wird in Ebene 0 platziert und der Höhenwert von `size=` ist auf 0 gesetzt. Diese Einstellung bewirkt, dass die tatsächliche Höhe durch die Höhe des Bildes bestimmt wird, nachdem es auf eine Breite von 800 Pixel skaliert wurde.
 
-Die Variable `extend=` fügt oben und unten 100 Pixel und rechts 200 Pixel hinzu.
+Die Variable &quot;`extend=`&quot;fügt oben und unten 100 Pixel und rechts 200 Pixel hinzu.
 
 Die Ursprünge für Ebene 0 und Ebene 1 werden in der Mitte rechts des Kompositionbereichs platziert, um die gewünschte Textposition zu erreichen.
 

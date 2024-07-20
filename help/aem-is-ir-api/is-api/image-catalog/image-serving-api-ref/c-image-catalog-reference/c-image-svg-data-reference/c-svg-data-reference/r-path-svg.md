@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Pfad{#path}
 
-Der Server verwendet die in [Verwalten von Quelldaten](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) , um die Datendatei zu finden.
+Der Server verwendet die unter &quot;[Verwalten von Source-Daten](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)&quot; beschriebenen Regeln zur Pfadauflösung, um die Datendatei zu finden.
 
 ## Eigenschaften {#section-72d9edc532ad43349afcb4df22e1c692}
 

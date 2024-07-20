@@ -8,7 +8,7 @@ exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Erstellt ein Bild mit mehreren Ebenen, das über mehrere Text- und Bildebenen verfügen kann.
 
-Die `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle an, die vor vom Benutzer bereitgestellten Befehlen auf die URL angewendet wurden. Die `urlPostApplyModifier` -Parameter gibt Protokollbefehle an, die auf beliebige URL-Befehle angewendet werden, wodurch alle vom Benutzer bereitgestellten, in Konflikt stehenden Einstellungen außer Kraft gesetzt werden.
+Der Parameter `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle an, die vor vom Benutzer bereitgestellten Befehlen auf die URL angewendet wurden. Der Parameter `urlPostApplyModifier` gibt Protokollbefehle an, die nach beliebigen URL-Befehlen angewendet werden, wodurch alle vom Benutzer bereitgestellten widersprüchlichen Einstellungen außer Kraft gesetzt werden.
 
 ## Autorisierte Benutzertypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -28,7 +28,7 @@ Die `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle 
 
 ## Parameter {#section-f54870f07d1d48fb8749ba7a4b43b6cb}
 
-**Eingabe (createTemplateParam)**
+**Input (createTemplateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -39,7 +39,7 @@ Die `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle 
 | urlModifier | `xsd:string` | Ja | Gibt die im IS-Katalog gespeicherten Image-Server-Befehle an, die vor vom Benutzer bereitgestellten Befehlen auf die URL angewendet werden. |
 | urlPostApplyModifier | `xsd:string` | Nein | Gibt Protokollbefehle an, die auf beliebige URL-Befehle angewendet werden, wodurch alle vom Benutzer bereitgestellten, in Konflikt stehenden Einstellungen außer Kraft gesetzt werden. |
 
-**Ausgabe (createTemplateParam)**
+**Output (createTemplateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,9 +47,9 @@ Die `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle 
 
 ## Beispiele {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Dieses Codebeispiel erstellt eine Vorlage in einem Ordner, der von einem Handle mit dem Namen `APIcreateTemplate`, a `urlModifier`und ein `urlPostApplyModifier`. Die Antwort gibt den Handle an die neu erstellte Vorlage zurück.
+In diesem Codebeispiel wird eine Vorlage in einem Ordner erstellt, der von einem Handle mit dem Namen `APIcreateTemplate`, `urlModifier` und `urlPostApplyModifier` angegeben wird. Die Antwort gibt den Handle an die neu erstellte Vorlage zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createTemplateParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

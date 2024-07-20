@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ Der Image-Server schreibt Datensätze in diese Protokolldatei, um Warnungen und 
 
 Darüber hinaus kann das Image-Server-Protokoll so konfiguriert werden, dass es wesentliche zusätzliche Details wie Bilddateizugriffe verfolgt, um Serverprobleme zu beheben.
 
-Das Image-Server-Protokoll ist in [!DNL ImageServerRegistry.xml] konfiguriert.
+Das Image-Server-Protokoll wird in [!DNL ImageServerRegistry.xml] konfiguriert.

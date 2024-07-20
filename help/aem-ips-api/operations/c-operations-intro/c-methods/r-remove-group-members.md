@@ -8,7 +8,7 @@ exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 10%
 
 Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
 
-**Unterschiede zwischen Entfernen-Befehlen**
+**Unterschiede zwischen &quot;Befehle entfernen&quot;**
 
-* `removeGroupMembers`: Entfernt mehrere Benutzer aus einer Gruppe.
+* 0: Entfernt mehrere Benutzer aus einer Gruppe.`removeGroupMembers`
 * `removeGroupMembership`: Entfernt einen einzelnen Benutzer aus einem Array von Gruppen.
 
 ## Autorisierte Benutzertypen {#section-2c64cdac15184fbba6c7b2945b5d87f7}
@@ -29,7 +29,7 @@ Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
 
 ## Parameter {#section-b5596614a3be4ce5962455884e4636af}
 
-**Eingabe (removeGroupMembersParam)**
+**Input (removeGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
 | groupHandle | `xsd:string` | Ja | Gruppieren. |
 | userHandleArray | `types:HandleArray` | Ja | Ein Array von Handles für Benutzer, deren Gruppenmitgliedschaften Sie entfernen möchten. |
 
-**Ausgabe (removeGroupMembersParam)**
+**Output (removeGroupMembersParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -45,7 +45,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Dieses Codebeispiel entfernt einen Benutzer aus dem angegebenen Unternehmen. Entfernen Sie mehrere Benutzer aus einer Gruppe mit dem Benutzerhandle-Array.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:removeGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

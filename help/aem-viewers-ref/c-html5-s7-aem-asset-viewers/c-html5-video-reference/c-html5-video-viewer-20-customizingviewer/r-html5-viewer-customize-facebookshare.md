@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6b7e043f-6a9f-48ba-b811-3c94fe5c32f1
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Das Erscheinungsbild der Facebook-Freigabe-Schaltfläche wird mit der folgenden 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -49,11 +49,11 @@ Das Erscheinungsbild der Facebook-Freigabe-Schaltfläche wird mit der folgenden 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in ihrer CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Zum Einrichten einer Facebook-Freigabe-Schaltfläche mit 28 x 28 Pixel und einem anderen Bild für jeden der vier verschiedenen Schaltflächenstatus:
 

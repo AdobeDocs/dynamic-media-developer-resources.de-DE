@@ -8,7 +8,7 @@ exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ Syntax
 
 ## Parameter {#section-8745c360c3e1400a88e9bdb26bcb93de}
 
-**Eingabe (getCompanyMembershipParam)**
+**Input (getCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntax
 
 Dieses Codebeispiel übernimmt ein Benutzerhandbuch und ruft alle Unternehmensmitgliedschaften des Benutzers in einem Array ab. Die Antwort wurde aus Gründen der Kürze abgeschnitten.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

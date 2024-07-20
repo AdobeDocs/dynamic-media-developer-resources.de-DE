@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 11%
+source-wordcount: '68'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einzelklicks/Tippen zum Umschalten von Wiedergabe/Pause. Wird auf <span class="codeph"> none</span> gesetzt, wird der einmalige Klick/Tippen zum Abspielen/Anhalten deaktiviert. Wenn Sie auf <span class="codeph"> playPause</span> festlegen, wird durch Auswählen des Videos zwischen Wiedergabe und Pause umgeschaltet. Auf einigen Geräten können Sie native Steuerelemente verwenden. In diesem Fall ist das Verhalten <span class="codeph"> singleclick</span> deaktiviert. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einzelklicks/Tippen zum Umschalten von Wiedergabe/Pause. Wird auf <span class="codeph"> none</span> gesetzt, wird ein einmaliger Klick/Tippen zum Abspielen/Anhalten deaktiviert. Wenn der Wert auf <span class="codeph"> playPause</span> festgelegt ist, wird durch Auswählen des Videos zwischen Wiedergabe und Pause umgeschaltet. Auf einigen Geräten können Sie native Steuerelemente verwenden. In diesem Fall ist das Verhalten <span class="codeph"> singleclick</span> deaktiviert. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird. Wenn das angegebene Format mit &quot;-alpha&quot;endet, rendert die Komponente die Bilder als transparent. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. Die Komponente hat standardmäßig einen transparenten Hintergrund. Um es also undurchsichtig zu machen, legen Sie die `background-color` CSS-Eigenschaft auf `desired_color`
+Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird. Wenn das angegebene Format mit &quot;-alpha&quot;endet, rendert die Komponente die Bilder als transparent. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. Die Komponente hat standardmäßig einen transparenten Hintergrund. Um es undurchsichtig zu machen, setzen Sie daher die CSS-Eigenschaft `background-color` auf `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 

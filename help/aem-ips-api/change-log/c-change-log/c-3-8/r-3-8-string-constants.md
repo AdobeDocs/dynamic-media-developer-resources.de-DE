@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 4%
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ Syntax
 
 * Werte: `Rectangle` und `Polygon`.
 
-**Veröffentlichungsstatus**
+**Publish-Status**
 
-* Verwendet von: `searchAssetsParam/publishState` und `setAssetPublishStateParam/publishState`.
+* Wird verwendet von: `searchAssetsParam/publishState` und `setAssetPublishStateParam/publishState`.
 
 * Werte: `MarkedForPublish` und `NotMarkedForPublish`.
 
@@ -36,5 +36,5 @@ Syntax
 
 **Asset-Typen**
 
-* Verwendet von: `createImageSetParam/type`.
+* Wird verwendet von: `createImageSetParam/type`.
 * Werte: `InDesign` und `Flash`.

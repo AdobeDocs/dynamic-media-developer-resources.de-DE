@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 7%
+source-wordcount: '259'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Leert Assets aus dem IPS-Papierkorb.
 
-Assets befinden sich im Müll, bis sie manuell geleert werden oder bis sie aus dem Papierkorb auslaufen. Wenn sie manuell geleert werden, befinden sie sich im Papierkorb bis zum nächsten Bereinigungsauftrag (normalerweise nächtlich), wenn sie schließlich aus dem System gelöscht werden. Wenn die Assets aus dem Papierkorb entfernt werden, werden sie im Rahmen derselben Bereinigungsaktivität bereinigt. Die Zeitüberschreitung ist konfigurierbar (standardmäßig 7 Tage).
+Assets befindet sich im Müll, bis sie manuell geleert werden oder bis sie aus dem Müll aussteigen. Wenn sie manuell geleert werden, befinden sie sich im Papierkorb bis zum nächsten Bereinigungsauftrag (normalerweise nächtlich), wenn sie schließlich aus dem System gelöscht werden. Wenn die Assets aus dem Papierkorb entfernt werden, werden sie im Rahmen derselben Bereinigungsaktivität bereinigt. Die Zeitüberschreitung ist konfigurierbar (standardmäßig 7 Tage).
 
 ## Autorisierte Benutzertypen {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -29,14 +29,14 @@ Assets befinden sich im Müll, bis sie manuell geleert werden oder bis sie aus d
 
 ## Parameter {#section-8e1fb0ee3aae453581e99ef76e298569}
 
-**Eingabe (emptyAssetsFromTrashParam)**
+**Input (emptyAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | xsd:string | Ja | Der Handle für das Unternehmen, dem die Assets gehören. |
-| assetHandleArray | Typen:HandleArray | Ja | Das Array von Handles, die die Elemente darstellen, die aus dem Papierkorb geleert werden sollen. |
+| assetHandleArray | Typen:HandleArray | Ja | Das Array von Handles, die die Elemente darstellen, die aus dem Papierkorb entfernt werden sollen. |
 
-**Ausgabe (emptyAssetsFromTrashParam)**
+**Output (emptyAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -50,7 +50,7 @@ Assets befinden sich im Müll, bis sie manuell geleert werden oder bis sie aus d
 
 Dieses Codebeispiel verwendet das Handle des Unternehmens und ein Asset-Handle-Array, das Handles zu den Assets enthält, die aus dem Papierkorb geleert werden sollen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">

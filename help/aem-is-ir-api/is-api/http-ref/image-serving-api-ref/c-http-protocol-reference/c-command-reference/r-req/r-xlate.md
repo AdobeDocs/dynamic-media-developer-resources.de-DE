@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Verfügbare gebietsschemaspezifische Versionen. Gibt eine Liste der verfügbaren
  </tr> 
 </table>
 
-Siehe [Objekt-ID-Übersetzung](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Siehe [Übersetzung der Objekt-ID](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Beispiel:
 
@@ -33,8 +33,8 @@ Beispiel:
 
 Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
 
-Anforderungen, die das JSONP-Antwortformat unterstützen, ermöglichen es Ihnen, den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` anzugeben:
+Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.

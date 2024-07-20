@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 8%
+source-wordcount: '240'
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ Syntax
 
 ## Parameter {#section-0c1976503eaa418a9226b51667901176}
 
-**Eingabe (getFoldersParam)**
+**Input (getFoldersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Syntax
 | responseFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
 | excludeFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie aus der Antwort ausschließen möchten. |
 
-**Ausgabe (getFoldersReturn)**
+**Output (getFoldersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -62,7 +62,7 @@ Syntax
 
 Dieses Codebeispiel gibt ein Array zurück, das alle Ordner für ein Unternehmen sowie spezifische Informationen zu den einzelnen Ordnern enthält.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getFoldersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

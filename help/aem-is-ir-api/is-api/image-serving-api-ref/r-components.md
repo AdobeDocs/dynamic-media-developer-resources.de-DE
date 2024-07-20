@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Dynamic Media Image Serving umfasst die folgenden Komponenten:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caching-Dienst </p> </td> 
-   <td colname="col2"> <p>J2EE-Anwendung. Verwaltet die [!DNL Platform Server]Die Daten werden zwischengespeichert. HTTP-Zugriff unter /is/cache. </p> </td> 
+   <td colname="col2"> <p>J2EE-Anwendung. Verwaltet die Daten-Caches von [!DNL Platform Server]. HTTP-Zugriff unter /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image-Server </p> </td> 
@@ -57,10 +57,10 @@ Dynamic Media Image Serving umfasst die folgenden Komponenten:
    <td colname="col2"> <p>eigenständige Java™-Anwendung (nicht von Tomcat gehostet). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media Image Rendering (auch: Rendering-Server) </p> </td> 
-   <td colname="col2"> <p>Sie erfordert eine separate Lizenz, um zu aktivieren. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Die gesamte Funktion zum Rendern von Bildern ist in die [!DNL Platform Server] und dem Image-Server ohne separate ausführbare Komponenten. </p> </td> 
+   <td colname="col1"> <p>Dynamic Media Image Rendering (auch: Render Server) </p> </td> 
+   <td colname="col2"> <p>Sie erfordert eine separate Lizenz, um zu aktivieren. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Alle Funktionen zum Rendern von Bildern sind in [!DNL Platform Server] und den Image-Server integriert, ohne dass separate ausführbare Komponenten vorhanden sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Konfigurationseinstellungen werden im Standardkatalog ( [!DNL default.ini]) oder bestimmte Bildkataloge (siehe [Bildkataloge](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) für Details).
+Weitere Konfigurationseinstellungen werden vom Standardkatalog ( [!DNL default.ini]) oder bestimmten Bildkatalogen bereitgestellt (weitere Informationen finden Sie unter [Bildkataloge](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) ).

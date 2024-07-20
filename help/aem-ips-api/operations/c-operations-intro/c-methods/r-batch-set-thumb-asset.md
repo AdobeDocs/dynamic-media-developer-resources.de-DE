@@ -8,7 +8,7 @@ exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -23,8 +23,8 @@ Syntax
 Zulässige Asset-Typen für Miniaturansichten bestehen aus den folgenden:
 
 * Bild
-* Angepasste Ansicht
-* Maske
+* AdjustedView
+* Maskieren
 * Vorlage
 * PsdTemplate
 
@@ -43,14 +43,14 @@ Zulässige Asset-Typen für Miniaturansichten bestehen aus den folgenden:
 
 ## Parameter {#section-9c6efa000b384b3db6c013def20cf40b}
 
-**Eingabe (batchSetThumbAssetParam)**
+**Input (batchSetThumbAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das die Assets enthält. |
 | updateArray | `types:ThumbAssetUpdateArray` | Ja | Das Array von Updates. |
 
-**Ausgabe (batchSetThumbAssetParam)**
+**Output (batchSetThumbAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -62,7 +62,7 @@ Zulässige Asset-Typen für Miniaturansichten bestehen aus den folgenden:
 
 ## Beispiele {#section-6de69a8680c24c1486c5f01488393381}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <batchSetThumbAssetParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

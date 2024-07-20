@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -39,17 +39,17 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
    <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Beispiel** : Um einen Video-Viewer mit einer grauen Steuerleiste einzurichten, die 30 Pixel groß ist und sich oben im Video-Viewer-Container befindet.
+**Beispiel** - Um einen Video-Viewer mit einer grauen Steuerleiste einzurichten, die 30 Pixel groß ist und sich oben im Video-Viewer-Container befindet.
 
 ```
 .s7video360viewer .s7controlbar {  

@@ -4,9 +4,10 @@ description: Das facebook-Freigebungs-Tool besteht aus einer Schaltfläche, die 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: e6ec2cd8-7b2e-4b3c-851d-1a4bbecd4d65
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Das Erscheinungsbild der Facebook-Freigabe-Schaltfläche wird mit der folgenden 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -48,11 +49,11 @@ Das Erscheinungsbild der Facebook-Freigabe-Schaltfläche wird mit der folgenden 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in ihrer CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Zum Einrichten einer Facebook-Freigabe-Schaltfläche mit 28 x 28 Pixel und einem anderen Bild für jeden der vier verschiedenen Schaltflächenstatus:
 

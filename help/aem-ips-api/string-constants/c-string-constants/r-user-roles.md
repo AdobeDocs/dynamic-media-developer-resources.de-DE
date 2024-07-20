@@ -1,5 +1,5 @@
 ---
-description: Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+description: Beschreibt die von verschiedenen Parametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
 solution: Experience Manager
 title: Benutzerrollen
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
 # Benutzerrollen{#user-roles}
 
-Beschreibt Werte, die von verschiedenen Parametern verwendet werden. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+Beschreibt die von verschiedenen Parametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
 
 Syntax
 

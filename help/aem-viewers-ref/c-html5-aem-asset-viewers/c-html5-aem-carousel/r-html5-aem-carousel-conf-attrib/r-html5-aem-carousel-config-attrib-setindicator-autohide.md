@@ -7,19 +7,19 @@ role: Developer,User
 exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '83'
+ht-degree: 3%
 
 ---
 
 # SetIndicator.autohide{#setindicator-autohide}
 
-` [SetIndicator.|<containerId>_setIndicator.]autohide=0|1[, *`Grenze`*]`
+` [SetIndicator.|<containerId>_setIndicator.]autohide=0|1[, *`limit`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">0|1[, <span class="varname"> limit</span>]</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limit</span>]</span> </p> </td> 
    <td colname="col2"> <p> Konfiguriert das Verhalten zum automatischen Ausblenden in Abhängigkeit von der Anzahl der Seiten und der Laufzeit-Komponentengröße. </p> <p> <span class="codeph"> 0</span> deaktiviert die automatische Ausblendung. </p> <p> <span class="codeph"> 1</span> aktiviert die automatische Ausblendung. Die Komponente blendet ihre Punkte aus, wenn mindestens eine der folgenden Bedingungen wahr wird: </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">die Zeile mit Punkten größer wird als die Breite der Laufzeitkomponente oder </li> 

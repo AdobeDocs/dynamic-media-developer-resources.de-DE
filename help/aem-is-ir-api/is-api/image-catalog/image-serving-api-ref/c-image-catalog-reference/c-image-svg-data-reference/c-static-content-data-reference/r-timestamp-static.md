@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
 source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
 
 # TimeStamp{#timestamp}
 
-Wenn `attribute::UseLastModified` festgelegt ist, wird die `catalog::TimeStamp` -Wert in der HTTP-Antwort als HTTP-Header mit der letzten Änderung zurückgegeben. Die Kopfzeile &quot;Zuletzt geändert&quot;wird immer für statische Inhalte zurückgegeben, auch wenn `attribute::UseLastModified` nicht festgelegt ist.
+Wenn `attribute::UseLastModified` festgelegt ist, wird der Wert `catalog::TimeStamp` in der HTTP-Antwort als HTTP-Header mit der letzten Änderung zurückgegeben. Die Kopfzeile &quot;Zuletzt geändert&quot;wird immer für statische Inhalte zurückgegeben, auch wenn `attribute::UseLastModified` nicht festgelegt ist.
 
-Für Bild- und SVG-Inhalte, `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet (siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
+Für Bild- und SVG-Inhalte wird `catalog::TimeStamp` auch für die Katalogbasierte Cache-Validierung verwendet (siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md)).
 
 ## Eigenschaften {#section-2298a384b5cb43929542655c5a49beb2}
 
@@ -32,11 +32,11 @@ Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Mil
 
 *`offset`* ist ein Zeitzonenversatz in Stunden oder `hours:minutes`, relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
 
-Alle Elemente von String formatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und der Änderungszeitpunkt des `*`Katalog`*.ini` wird stattdessen verwendet.
+Alle Elemente von String formatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der Datei `*`catalog`*.ini` verwendet.
 
 ## Standard {#section-0cbf801401ff4857bdda168fd12358af}
 
-`attribute::TimeStamp` wenn das Feld leer ist oder nicht vorhanden ist.
+`attribute::TimeStamp` , wenn das Feld leer ist oder nicht vorhanden ist.
 
 ## Verwandte Themen {#section-c42a427aa4794c548408dc4de028d578}
 

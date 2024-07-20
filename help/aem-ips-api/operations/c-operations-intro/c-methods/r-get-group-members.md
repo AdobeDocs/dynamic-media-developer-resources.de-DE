@@ -8,7 +8,7 @@ exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -26,14 +26,14 @@ Syntax
 
 ## Parameter {#section-b798b06354c946abbb90fa72cc9c67fd}
 
-**Eingabe (getGroupMembersParam)**
+**Input (getGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| groupHandle | `xsd:string` |  | Das Handle für die Gruppe. |
+| groupHandle | `xsd:string` |  | Der Griff zur Gruppe. |
 
-**Ausgabe (getGroupMembersReturn)**
+**Output (getGroupMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -43,7 +43,7 @@ Syntax
 
 Dieses Codebeispiel gibt ein Benutzerhandle-Array zurück, das alle Benutzer enthält, die zu einer bestimmten Gruppe gehören.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

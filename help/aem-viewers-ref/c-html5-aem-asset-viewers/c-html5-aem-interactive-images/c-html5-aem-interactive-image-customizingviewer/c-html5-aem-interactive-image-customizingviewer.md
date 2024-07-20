@@ -1,14 +1,14 @@
 ---
 title: Anpassen des interaktiven Bild-Viewers
 description: Die visuelle Anpassung und die meisten Verhaltensanpassungen für den interaktiven Bild-Viewer erfolgen durch Erstellen eines benutzerdefinierten CSS.
-keywords: responsiv
+keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Benutzerdefinierte CSS-Dateien müssen dieselben Klassendeklarationen wie die St
 
 Alternativ können Sie benutzerdefinierte CSS-Regeln bereitstellen, indem Sie eingebettete Stile direkt auf der Webseite oder in einer verknüpften externen CSS-Regel verwenden.
 
-Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer die Klasse `.s7interactiveimage` seinem Container-DOM-Element zuweist. Wenn Sie eine externe CSS-Datei verwenden, die mit dem Befehl `style=` übergeben wird, verwenden Sie für Ihre CSS-Regeln die Klasse `.s7interactiveimage` als übergeordnete Klasse in der untergeordneten Auswahl. Wenn Sie eingebettete Stile auf der Web-Seite hinzufügen, qualifizieren Sie diesen Selektor wie folgt mit einer ID des Container-DOM-Elements:
+Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer dem Container-DOM-Element die Klasse `.s7interactiveimage` zuweist. Wenn Sie eine externe CSS-Datei verwenden, die mit dem Befehl `style=` übergeben wird, verwenden Sie für Ihre CSS-Regeln die Klasse `.s7interactiveimage` als übergeordnete Klasse im untergeordneten Selektor. Wenn Sie eingebettete Stile auf der Web-Seite hinzufügen, qualifizieren Sie diesen Selektor wie folgt mit einer ID des Container-DOM-Elements:
 
 `#<containerId>.s7interactiveimage`
 
@@ -35,13 +35,13 @@ Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer die Kla
 
 Es ist möglich, verschiedene Geräte anzusprechen und Größen in CSS einzubetten, damit Ihre Inhalte je nach Gerät eines Benutzers oder Layout einer bestimmten Webseite unterschiedlich angezeigt werden. Diese Technik umfasst, aber nicht beschränkt auf, verschiedene Layouts, Elementgrößen der Benutzeroberfläche und Bildauflösung.
 
-Der Viewer unterstützt zwei Mechanismen zum Erstellen von responsivem CSS: CSS-Markierungen und Standard-CSS-Medienabfragen. Sie können diese Markierungen oder Abfragen unabhängig oder gemeinsam verwenden.
+Der Viewer unterstützt zwei Möglichkeiten zum Erstellen von responsiv gestaltetem CSS: CSS-Markierungen und Standard-CSS-Medienabfragen. Sie können diese Markierungen oder Abfragen unabhängig oder gemeinsam verwenden.
 
 **CSS-Markierungen**
 
 Um responsives CSS zu erstellen, unterstützt der Viewer CSS-Markierungen. Diese Markierungen sind spezielle CSS-Klassen, die dynamisch dem Viewer-Container-Element der obersten Ebene zugewiesen werden. Sie basieren auf der Laufzeit-Viewer-Größe und dem Eingabetyp, der auf dem aktuellen Gerät verwendet wird.
 
-Die erste Gruppe von CSS-Markern enthält die Klassen `.s7size_large`, `.s7size_medium` und `.s7size_small`. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Wenn der Viewer-Bereich beispielsweise gleich oder größer als die Größe eines allgemeinen Desktop-Monitors ist, verwenden Sie `.s7size_large`. Wenn der Bereich in der Nähe eines gemeinsamen Tablet-Geräts liegt, weisen Sie `.s7size_medium` zu. Verwenden Sie für Bereiche, die mit Mobiltelefonbildschirmen vergleichbar sind `.s7size_small`. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
+Die erste Gruppe von CSS-Markern enthält die Klassen `.s7size_large`, `.s7size_medium` und `.s7size_small`. Sie werden basierend auf dem Laufzeitbereich des Viewer-Containers angewendet. Wenn der Viewer-Bereich beispielsweise gleich oder größer als die Größe eines allgemeinen Desktop-Monitors ist, verwenden Sie &quot;`.s7size_large`&quot;. Wenn der Bereich in der Nähe eines gemeinsamen Tablet-Geräts liegt, weisen Sie &quot;`.s7size_medium`&quot;zu. Verwenden Sie für Bereiche, die Mobiltelefonbildschirmen ähnlich sind, `.s7size_small`. Der Hauptzweck dieser CSS-Markierungen besteht darin, verschiedene Benutzeroberflächen-Layouts für verschiedene Bildschirme und Viewer-Größen zu erstellen.
 
 Die zweite Gruppe von CSS-Markern enthält `.s7mouseinput` und `.s7touchinput`. Die CSS-Markierung `.s7touchinput` wird gesetzt, wenn das aktuelle Gerät über eine Touch-Eingabe verfügt. Andernfalls wird `.s7mouseinput` verwendet. Diese Markierungen dienen hauptsächlich dazu, Benutzeroberflächen-Eingabeelemente mit unterschiedlichen Bildschirmgrößen für verschiedene Eingabetypen zu erstellen, da Touch-Eingaben normalerweise größere Elemente erfordern.
 
@@ -80,7 +80,7 @@ Sie können die Geräteerkennung auch mit reinen CSS-Medienabfragen durchführen
 
 Wenn Sie auf Mobile Viewer angewendet werden, verwenden Sie vier CSS-Medienabfragen, die in Ihrem CSS definiert sind, in der unten aufgeführten Reihenfolge:
 
-1. Enthält nur Regeln, die für alle Touch-Geräte spezifisch sind.
+1. Enthält nur für alle Touch-Geräte spezifische Regeln.
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device- 
@@ -129,7 +129,7 @@ Es ist nicht erforderlich, die gesamte Viewer-CSS in jeder Medienabfrage zu dupl
 
 Viele Elemente der Viewer-Benutzeroberfläche werden mit Bitmap-Grafiken formatiert und weisen mehr als einen bestimmten visuellen Status auf. Ein gutes Beispiel ist eine Schaltfläche mit normalerweise mindestens drei verschiedenen Status: `up`, `over` und `down`. Jeder Status erfordert eine eigene Bitmap-Grafik, die zugewiesen wird.
 
-Bei einem klassischen Stil würde das CSS für jeden Status des Benutzeroberflächenelements einen separaten Verweis auf die einzelne Bilddatei auf dem Server haben. Im Folgenden finden Sie ein Beispiel-CSS zum Formatieren einer Zoom-in-Schaltfläche:
+Bei einem klassischen Stil würde CSS für jeden Status des Benutzeroberflächenelements einen separaten Verweis auf die einzelne Bilddatei auf dem Server haben. Im Folgenden finden Sie ein Beispiel-CSS zum Formatieren einer Zoom-in-Schaltfläche:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -140,9 +140,9 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 }
 ```
 
-Der Nachteil dieses Ansatzes besteht darin, dass der Endbenutzer flackernde oder verzögerte Antworten auf die Benutzeroberfläche erfährt, wenn das Element zum ersten Mal mit interagiert wird. Diese Aktion tritt auf, da die Bildgrafik für den neuen Elementstatus noch nicht heruntergeladen wurde. Dieser Ansatz kann sich aufgrund der gestiegenen Anzahl an HTTP-Aufrufen an den Server auch geringfügig negativ auf die Leistung auswirken.
+Der Nachteil dieses Ansatzes besteht darin, dass der Endbenutzer flackernde oder verzögerte Antworten auf die Benutzeroberfläche erfährt, wenn das Element zum ersten Mal verwendet wird. Diese Aktion tritt auf, da die Bildgrafik für den neuen Elementstatus noch nicht heruntergeladen wurde. Dieser Ansatz kann sich aufgrund der gestiegenen Anzahl an HTTP-Aufrufen an den Server auch geringfügig negativ auf die Leistung auswirken.
 
-CSS-Sprites ist ein anderer Ansatz, bei dem Bildgrafiken für alle Elementzustände in einer PNG-Datei namens &quot;Sprite&quot;kombiniert werden. Ein solches &quot;Sprite&quot;hat alle visuellen Status für das jeweilige Element, das nacheinander positioniert wird. Beim Formatieren eines Benutzeroberflächenelements mit Sprites wird für alle verschiedenen Status in CSS auf dasselbe Sprite-Bild verwiesen. Außerdem wird für jeden Status die Eigenschaft `background-position` verwendet, um anzugeben, welcher Teil des &quot;Sprite&quot;-Bildes verwendet wird. Sie können ein &quot;Sprite&quot;-Bild auf jede geeignete Weise strukturieren. Normalerweise wird sie von Viewern vertikal gestapelt.
+CSS-Sprites ist ein anderer Ansatz, bei dem Bildgrafiken für alle Elementzustände in einer PNG-Datei namens &quot;Sprite&quot;kombiniert werden. Ein solches &quot;Sprite&quot;hat alle visuellen Status für das jeweilige Element, das nacheinander positioniert wird. Beim Formatieren eines Benutzeroberflächenelements mit Sprites wird für alle verschiedenen Status in CSS auf dasselbe Sprite-Bild verwiesen. Außerdem wird mit der Eigenschaft &quot;`background-position`&quot;für jeden Status angegeben, welcher Teil des &quot;Sprite&quot;-Bildes verwendet wird. Sie können ein &quot;Sprite&quot;-Bild auf jede geeignete Weise strukturieren. Normalerweise wird sie von Viewern vertikal gestapelt.
 
 Im Folgenden finden Sie ein &quot;sprite&quot;-basiertes Beispiel für die Formatierung derselben Zoom-in-Schaltfläche:
 
@@ -158,11 +158,11 @@ background-position: -0px -0px; width: 56px; height: 56px;
 
 ## Allgemeine Hinweise und Hinweise zu Stilen {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Beim Anpassen der Viewer-Benutzeroberfläche mit CSS wird die Verwendung der `!IMPORTANT`-Regel nicht unterstützt, um Viewer-Elemente zu formatieren. Insbesondere sollte die Regel `!IMPORTANT` nicht verwendet werden, um Standard- oder Laufzeitstile zu überschreiben, die vom Viewer- oder Viewer-SDK bereitgestellt werden. Der Grund dafür ist, dass dies das Verhalten von richtigen Komponenten beeinflussen kann. Stattdessen sollten Sie CSS-Selektoren mit der richtigen Spezifität verwenden, um CSS-Eigenschaften festzulegen, die in diesem Viewer-Referenzhandbuch dokumentiert sind.
-* Alle Pfade zu externen Assets innerhalb von CSS werden mit dem CSS-Speicherort und nicht mit dem HTML-Seitenspeicherort des Viewers aufgelöst. Beachten Sie diese Regel, wenn Sie die Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie entweder auch die Standard-Assets oder aktualisieren Sie alle Pfade innerhalb des benutzerdefinierten CSS.
+* Beim Anpassen der Viewer-Benutzeroberfläche mit CSS wird die Verwendung der `!IMPORTANT` -Regel nicht unterstützt, um Viewer-Elemente zu formatieren. Insbesondere sollte die Regel `!IMPORTANT` nicht verwendet werden, um Standard- oder Laufzeitstile zu überschreiben, die vom Viewer- oder Viewer-SDK bereitgestellt werden. Der Grund dafür ist, dass dies das Verhalten von richtigen Komponenten beeinflussen kann. Stattdessen sollten Sie CSS-Selektoren mit der richtigen Spezifität verwenden, um CSS-Eigenschaften festzulegen, die in diesem Viewer-Referenzhandbuch dokumentiert sind.
+* Alle Pfade zu externen Assets innerhalb von CSS werden mit dem CSS-Speicherort aufgelöst, nicht mit dem Viewer-HTML-Seitenspeicherort. Beachten Sie diese Regel, wenn Sie die Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie entweder auch die Standard-Assets oder aktualisieren Sie alle Pfade innerhalb des benutzerdefinierten CSS.
 * Das bevorzugte Format für Bitmap-Grafiken ist PNG.
-* Bitmap-Grafiken werden Benutzeroberflächenelementen mithilfe der `background-image` -Eigenschaft zugewiesen.
-* Die Eigenschaften `width` und `height` eines Benutzeroberflächenelements definieren die logische Größe. Die Größe der an `background-image` übergebenen Bitmap wirkt sich nicht auf ihre logische Größe aus.
+* Bitmap-Grafiken werden Elementen der Benutzeroberfläche mithilfe der Eigenschaft `background-image` zugewiesen.
+* Die Eigenschaften `width` und `height` eines Benutzeroberflächenelements definieren seine logische Größe. Die Größe der an `background-image` übergebenen Bitmap wirkt sich nicht auf ihre logische Größe aus.
 * Um die hohe Pixeldichte von hochauflösenden Bildschirmen wie Retina zu verwenden, geben Sie Bitmap-Grafiken doppelt so groß an wie die Elementgröße der logischen Benutzeroberfläche. Wenden Sie dann die Eigenschaft `-webkit-background-size:contain` an, um den Hintergrund auf die Elementgröße der logischen Benutzeroberfläche herunterzuskalieren.
 * Um eine Schaltfläche aus der Benutzeroberfläche zu entfernen, fügen Sie `display:none` zur CSS-Klasse hinzu.
 * Sie können verschiedene Formate für Farbwerte verwenden, die von CSS unterstützt werden. Wenn Sie Transparenz benötigen, verwenden Sie das Format `rgba(R,G,B,A)`. Andernfalls können Sie das Format `#RRGGBB` verwenden.

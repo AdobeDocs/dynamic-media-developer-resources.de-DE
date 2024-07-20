@@ -8,7 +8,7 @@ exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -27,7 +27,7 @@ Syntax
 
 ## Parameter {#section-f092ca72f2024d66a1cec690aeab870a}
 
-**Eingabe (getAllUsersParam)**
+**Input (getAllUsersParam)**
 
 <table id="table_1FE6DDADBD134E6D8BD4B52F1EAD2E85"> 
  <thead> 
@@ -52,7 +52,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (getAllUsersReturn)**
+**Output (getAllUsersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -63,7 +63,7 @@ Syntax
 
 Dieses Codebeispiel gibt alle Benutzer zurück. Die Antwort wird aus Gründen der Kürze abgeschnitten.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getAllUsersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

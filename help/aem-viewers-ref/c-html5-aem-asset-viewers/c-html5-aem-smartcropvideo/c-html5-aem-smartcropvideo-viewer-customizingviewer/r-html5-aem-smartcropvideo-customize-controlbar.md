@@ -4,10 +4,11 @@ description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Sma
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +31,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +39,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
    <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 

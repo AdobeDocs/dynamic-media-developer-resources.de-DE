@@ -8,7 +8,7 @@ exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -32,21 +32,20 @@ Syntax
 
 >[!NOTE]
 >
->* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückgeben zu können.
+>* Der Benutzer muss über Lesezugriff verfügen, um die Assets zurückzugeben.
 >* Alle Benutzer haben Zugriff auf das freigegebene Unternehmen.
 >
 
-
 ## Parameter {#section-1742fcb196224545b270eb8241f757a8}
 
-**Eingabe (batchGetAssetPublishContextsParam)**
+**Input (batchGetAssetPublishContextsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| assetHandleArray | ` `Typen:HandleArray&quot; | Ja | Eine Liste der Assets, die für aktive (zur Veröffentlichung markierte) Kontexte abgefragt werden sollen. |
+| assetHandleArray | ` `types:HandleArray&quot; | Ja | Eine Liste der Assets, die für aktive (zur Veröffentlichung markierte) Kontexte abgefragt werden sollen. |
 
-**Ausgabe (batchGetAssetPublishContextsReturn)**
+**Output (batchGetAssetPublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -54,7 +53,7 @@ Syntax
 
 ## Beispiele {#section-457f6809ccfa425b9a0976313d613f4e}
 
-**Anforderung**
+**Anfrage**
 
 ```java {.line-numbers}
 <batchGetAssetPublishContextsParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

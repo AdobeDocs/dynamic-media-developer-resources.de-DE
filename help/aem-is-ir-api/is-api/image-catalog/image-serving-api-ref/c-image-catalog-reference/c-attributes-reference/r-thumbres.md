@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 0abb680e-8944-4ad8-9b6c-d0a7559fdd1b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
 # ThumbRes{#thumbres}
 
-Standardauflösung für Miniaturansichten. Stellt eine Standardeinstellung für die Auflösung des Miniaturansichtsobjekts bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Katalogwert enthält::ThumbRes -Wert.
+Standardauflösung für Miniaturansichten. Stellt eine Standardeinstellung für die Auflösung des Miniaturansichtsobjekts bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Wert für catalog::ThumbRes enthält.
 
-Wird nur für Miniaturansichten ( `req=tmb`) und `catalog::ThumbType=3` verwendet.
+Wird nur für Miniaturansichten ( `req=tmb`) und bei `catalog::ThumbType=3` verwendet.
 
 ## Eigenschaften {#section-88d37d0e030f4879a9e584dd2cc780f3}
 

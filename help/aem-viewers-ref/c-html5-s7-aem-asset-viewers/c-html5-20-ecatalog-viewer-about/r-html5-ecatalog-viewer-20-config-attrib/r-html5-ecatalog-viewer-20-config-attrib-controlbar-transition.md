@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: abe8affb-cbcd-4072-b2ed-91a398b1d678
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 1%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. Verwendung <span class="codeph"> Keine </span> zum sofortigen Einblenden und Verbergen; <span class="codeph"> verblassen </span> bietet einen allmählichen Ein- und Ausblendeffekt (nicht unterstützt in Internet Explorer 8). </p> </td> 
+   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. Verwenden Sie <span class="codeph"> none </span> zum sofortigen Ein- und Ausblenden; <span class="codeph"> fade </span> bietet einen allmählichen Ein- und Ausblendeeffekt (wird in Internet Explorer 8 nicht unterstützt). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touchereignis an, das die Steuerleiste registriert, und dem Ausblenden der Zeitsteuerungsleiste. </p> <p> Wenn auf <span class="codeph"> -1 </span>, wird der automatische Ausblendeffekt der Komponente nie Trigger und auf dem Bildschirm immer sichtbar. </p> </td> 
+   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touchereignis an, das die Steuerleiste registriert, und dem Ausblenden der Zeitsteuerungsleiste. </p> <p> Wenn der Wert auf <span class="codeph"> -1 </span> festgelegt ist, wird der automatische Ausblendeffekt der Komponente nie Trigger und auf dem Bildschirm immer sichtbar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Dauer </span> </span> </p> </td> 
    <td colname="col2"> <p> Legt die Dauer der Ein- und Ausblendung-Animation in Sekunden fest. </p> </td> 
   </tr> 
  </tbody> 

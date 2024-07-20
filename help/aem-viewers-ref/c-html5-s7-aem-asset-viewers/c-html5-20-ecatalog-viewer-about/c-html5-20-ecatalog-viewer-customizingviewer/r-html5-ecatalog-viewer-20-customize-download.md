@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fb01371b-0aa6-4591-8523-120c217cf45d
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Herunterladen&quot;wird mit der fol
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -55,9 +55,9 @@ Das Erscheinungsbild der Schaltfläche &quot;Herunterladen&quot;wird mit der fol
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Zum Einrichten einer Download-Schaltfläche mit 28 x 28 Pixel und einem anderen Bild für jeden der vier verschiedenen Schaltflächenstatus:
 

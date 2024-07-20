@@ -8,7 +8,7 @@ exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-abe8893038bb4ddfaccc11a8c75e6bd0}
 
-**Eingabe (addTagFieldValuesParam)**
+**Input (addTagFieldValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -34,13 +34,13 @@ Syntax
 | fieldHandle | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
 | valueArray | `xsd:string` | Ja | Ein Array von Tag-Werten, die dem vorhandenen Wörterbuch des Felds hinzugefügt werden sollen. |
 
-**Ausgabe (addTagFieldValuesParam)**
+**Output (addTagFieldValuesParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-c4049392f1c548f883b8b1f8f167bada}
 
-**Anforderung**
+**Anfrage**
 
 ```java {.line-numbers}
 <addTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

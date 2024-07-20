@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn auf <span class="codeph"> -1</span> Die Miniaturansichten werden gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> nur die sichtbaren Miniaturansichten geladen werden. </p> <p>Satz <span class="codeph"><span class="varname"> preloadnbr</span></span> definiert, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
+   <td colname="col2"> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, werden die Miniaturansichten gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur die sichtbaren Miniaturen geladen. </p> <p>Mit <span class="codeph"><span class="varname"> preloadnbr</span></span> legen Sie fest, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

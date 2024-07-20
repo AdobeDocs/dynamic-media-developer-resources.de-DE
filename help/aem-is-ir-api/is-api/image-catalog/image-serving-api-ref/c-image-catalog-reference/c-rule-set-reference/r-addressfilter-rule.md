@@ -1,20 +1,20 @@
 ---
 description: Adressenfilterelement. Optional in <Regel> - und <Pfadregel> -Elementen.
 solution: Experience Manager
-title: Adressfilter
+title: addressFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fe5df3a8-c9b2-4fad-ab9f-ca0b06016faf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 4%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 
-# Adressfilter{#addressfilter}
+# addressFilter{#addressfilter}
 
-Adressenfilterelement. Optional in `<rule>` - und `<pathrule>` -Elementen.
+Adressenfilterelement. Optional in den Elementen `<rule>` und `<pathrule>` .
 
 Überschreibt `attribute::ClientAddressFilter` bei Anwendung der Regel.
 
@@ -28,11 +28,11 @@ Kommagetrennte Liste von IP-Adressen. Jede einzelne Adresse kann ein optionales 
 
 ## Beschreibung {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-Der Zugriff auf diesen Bildkatalog kann auf eine oder mehrere bestimmte Client-IP-Adressen beschränkt werden, indem sie in einem `<addressfilter>` -Element spezifiziert werden. Der Fehler &quot;Anfrage verweigert&quot;wird an den Client zurückgegeben, wenn die Client-IP-Adresse nicht übereinstimmt.
+Der Zugriff auf diesen Bildkatalog kann auf eine oder mehrere bestimmte Client-IP-Adressen beschränkt werden, indem sie in einem `<addressfilter>` -Element angegeben werden. Der Fehler &quot;Anfrage verweigert&quot;wird an den Client zurückgegeben, wenn die Client-IP-Adresse nicht übereinstimmt.
 
-Der Zugriff ist nicht beschränkt, wenn `<addressfilter>` leer oder nicht angegeben ist.
+Der Zugriff ist nicht eingeschränkt, wenn `<addressfilter>` leer oder nicht angegeben ist.
 
-Wenn das Element `<expression>` im Element `<rule>` fehlt oder leer ist, wird `<addressfilter>` auf alle Anforderungen angewendet.
+Wenn die `<expression>` im Element `<rule>` fehlt oder leer ist, wird die `<addressfilter>` auf alle Anforderungen angewendet.
 
 ## Verwandte Themen {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

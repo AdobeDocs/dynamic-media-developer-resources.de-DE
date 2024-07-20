@@ -7,28 +7,28 @@ role: Developer,User
 exl-id: 03a04bba-85ae-4c30-91fa-dfc6b732a9ac
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`verblassen`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`fade`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Anzahl der Sekunden an, nach denen der Tipp-Text angezeigt wird, bevor er ausgeblendet wird. Wenn auf <span class="codeph"> -1</span>, wird die Nachricht immer angezeigt, auch wenn der Benutzer den Flyout aktiviert. </p> </td> 
+   <td colname="col2"> <p> Gibt die Anzahl der Sekunden an, nach denen der Tipp-Text angezeigt wird, bevor er ausgeblendet wird. Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, wird die Nachricht immer angezeigt, auch wenn der Benutzer den Flyout aktiviert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Zähler</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie oft der Text angezeigt wird, wenn neue Bilder im Set angezeigt werden. Ein Wert von <span class="codeph"> -1</span> bedeutet, dass der Text immer angezeigt wird, wenn ein Bild im Set angezeigt wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie oft der Text angezeigt wird, wenn neue Bilder im Set angezeigt werden. Der Wert <span class="codeph"> -1</span> bedeutet, dass der Text immer angezeigt wird, wenn ein Bild im Set angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> verblassen</span></span> </p> </td> 
-   <td colname="col2"> Gibt die Dauer einer Überblendung-Animation an, die auftritt, wenn der Text angezeigt oder ausgeblendet wird. Ein Wert von <span class="codeph"> 0</span> gibt keine Überblendung an. </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
+   <td colname="col2"> Gibt die Dauer einer Überblendung-Animation an, die auftritt, wenn der Text angezeigt oder ausgeblendet wird. Der Wert <span class="codeph"> 0</span> zeigt an, dass keine Überblendung vorhanden ist. </td> 
   </tr> 
  </tbody> 
 </table>

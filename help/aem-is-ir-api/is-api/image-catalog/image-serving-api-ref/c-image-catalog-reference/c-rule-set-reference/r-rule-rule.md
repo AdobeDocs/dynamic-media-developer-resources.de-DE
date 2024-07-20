@@ -1,6 +1,6 @@
 ---
 title: Regel
-description: Anforderungsregelelement. Eine oder mehrere Regeln sind optional im <ruleset> -Element.
+description: Anforderungsregelelement. Eine oder mehrere Regeln sind im Element <ruleSet> optional.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
 # Regel{#rule}
 
-Anforderungsregelelement. Eine oder mehrere Regeln sind optional im `<ruleset>` -Element.
+Anforderungsregelelement. Eine oder mehrere Regeln sind im Element `<ruleset>` optional.
 
 ## Attribute {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -27,14 +27,14 @@ Anforderungsregelelement. Eine oder mehrere Regeln sind optional im `<ruleset>` 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><b>Token</b> </p> </th> 
+   <th class="entry"> <p><b>token</b> </p> </th> 
    <th class="entry"> <p><b>Kontext</b> </p> </th> 
    <th class="entry"> <p><b>Beschreibung</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> ist</span> </p> </td> 
+   <td> <p> <span class="codeph"> is</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/image/</span> </p> </td> 
    <td> <p>Auf Image Serving-Anforderungen angewendet </p> </td> 
   </tr> 
@@ -44,16 +44,16 @@ Anforderungsregelelement. Eine oder mehrere Regeln sind optional im `<ruleset>` 
    <td> <p>Auf Image Rendering-Anforderungen angewendet </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> statisch</span> </p> </td> 
+   <td> <p> <span class="codeph"> static</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/content/</span> </p> </td> 
    <td> <p>Auf statische Inhaltsanforderungen angewendet </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**`Name = "text"`**: Optional. Wird verwendet, um die `<rule>` -Element in Debug-Protokollen und Fehlermeldungen.
+**`Name = "text"`**: Optional. Wird verwendet, um das Element `<rule>` in Debug-Protokollen und Fehlermeldungen zu identifizieren.
 
-`  *`Attribut`* ="value"`: Optional. `<rule>` -Elemente können eines der folgenden Attribute in jeder beliebigen Kombination definieren. Wenn angegeben und die Regel erfolgreich abgeglichen wurde, überschreiben sie die entsprechenden Katalogattribute für diese Anfrage. Die Standardgrenze ist `RequestType="is"`.
+`  *`Attribut`* ="value"`: Optional. `<rule>` -Elemente können eines der folgenden Attribute in jeder beliebigen Kombination definieren. Wenn angegeben und die Regel erfolgreich abgeglichen wurde, überschreiben sie die entsprechenden Katalogattribute für diese Anfrage. Der Standardwert ist `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -104,13 +104,13 @@ Anforderungsregelelement. Eine oder mehrere Regeln sind optional im `<ruleset>` 
 
 Weitere Informationen finden Sie in der Beschreibung des entsprechenden Bildkatalogattributs.
 
-Die Ablaufattribute überschreiben nur die standardmäßigen Attributwerte. Die Überschreibung wird ignoriert, wenn ein `catalog::Expiration` -Wert auf die Anfrage angewendet.
+Die Ablaufattribute überschreiben nur die standardmäßigen Attributwerte. Die Überschreibung wird ignoriert, wenn ein bestimmter `catalog::Expiration` -Wert für die Anforderung gilt.
 
 ## Daten {#section-8fce013a4c724da58af3fee4e7a90e72}
 
 <table id="simpletable_4F1C03671DA942A3A332B2C686A63C52"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;expression&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;Ausdruck&gt;</span> </p></td> 
   <td class="stentry"> <p>Optional </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -118,21 +118,21 @@ Die Ablaufattribute überschreiben nur die standardmäßigen Attributwerte. Die 
   <td class="stentry"> <p>Optional </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;addressFilter&gt;</span> </p></td> 
   <td class="stentry"> <p>Optional </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;Header&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;header&gt;</span> </p></td> 
   <td class="stentry"> <p>Optional </p></td> 
  </tr> 
 </table>
 
 ## Anmerkungen {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Wenn `<expression>` und `<substitution>` festgelegt sind und keine erfassten Unterzeichenfolgen verwendet werden, wird die erste übereinstimmende Unterzeichenfolge durch `<substitution>`.
+Wenn sowohl `<expression>` als auch `<substitution>` angegeben sind und keine erfassten Unterzeichenfolgen verwendet werden, wird die erste übereinstimmende Unterzeichenfolge durch `<substitution>` ersetzt.
 
-Wenn `<expression>` nicht angegeben ist, entspricht jeder Pfad und `<substitution>` wird am Ende des Pfads angehängt.
+Wenn `<expression>` nicht angegeben ist, stimmt jeder Pfad überein mit und `<substitution>` wird an das Ende des Pfads angehängt.
 
-Wenn `<substitution>` nicht angegeben ist, findet keine Pfad- oder Abfrageumwandlung statt, jedoch werden alle angegebenen Katalogattribute überschrieben. Wenn `<substitution>` leer ist, wird die übereinstimmende Teilzeichenfolge entfernt.
+Wenn `<substitution>` nicht angegeben ist, erfolgt keine Pfad- oder Abfrageumwandlung, jedoch werden alle angegebenen Katalogattribute überschrieben. Wenn `<substitution>` leer ist, wird die übereinstimmende Teilzeichenfolge entfernt.
 
-Die `<addressfilter>` wird nur angewendet, wenn eine Übereinstimmung auftritt, und bevor Abfrageregeln angewendet werden.
+Der `<addressfilter>` wird nur angewendet, wenn eine Übereinstimmung auftritt, und bevor Abfrageregeln angewendet werden.

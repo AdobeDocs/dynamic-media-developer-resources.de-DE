@@ -1,5 +1,5 @@
 ---
-description: Ruft die Assets und die Anzahl der Assets ab, die mit einem bestimmten Unternehmen verknüpft sind.
+description: Ruft die Assets und die Anzahl der mit einem bestimmten Unternehmen verknüpften Assets ab.
 solution: Experience Manager
 title: getAssetCounts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,15 +8,15 @@ exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # getAssetCounts{#getassetcounts}
 
-Ruft die Assets und die Anzahl der Assets ab, die mit einem bestimmten Unternehmen verknüpft sind.
+Ruft die Assets und die Anzahl der mit einem bestimmten Unternehmen verknüpften Assets ab.
 
-Die `countArray` zurückgegeben wird, besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`), jeweils mit einem eigenen Zählerfeld (Datentyp) `xsd:int`), wodurch mehrere Asset-Typen pro Element des Arrays dargestellt werden können.
+Das zurückgegebene `countArray` besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`) mit jeweils einem eigenen Zählerfeld (Datentyp `xsd:int`), sodass mehrere Asset-Typen pro Element des Arrays dargestellt werden können.
 Syntax
 
 ## Autorisierte Benutzertypen {#section-6234754722184e828352f10eb18fbce9}
@@ -33,13 +33,13 @@ Syntax
 
 ## Parameter {#section-2a9581315eca427d8a3d26cc3fca7b1f}
 
-**Eingabe (getAssetCountsParam)**
+**Input (getAssetCountsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit Assets, die gezählt werden sollen. |
 
-**Ausgabe (getAssetCountsReturn)**
+**Output (getAssetCountsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,9 +47,9 @@ Syntax
 
 ## Beispiele {#section-6052a503eb3843f6adb99e200fdba280}
 
-Dieses Codebeispiel verwendet das Handle des Unternehmens als Feld im `getAssetCountsParam` an den IPS-Webdienstserver gesendet werden, um die Asset-Anzahl zu erhalten.
+In diesem Codebeispiel wird das Handle des Unternehmens als Feld im Feld `getAssetCountsParam` verwendet, das an den IPS-Webdienstserver gesendet wird, um die Asset-Zählungen zu erhalten.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getAssetCountsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -1,5 +1,5 @@
 ---
-description: Verwaltet Berechtigungen zum Zugriff, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
+description: Verwaltet Berechtigungen zum Zugriff auf, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
 solution: Experience Manager
 title: Berechtigung
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL Permission]{#permission}
 
-Verwaltet Berechtigungen zum Zugriff, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
+Verwaltet Berechtigungen zum Zugriff auf, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
 
 Syntax
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 2%
+source-wordcount: '305'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -71,9 +71,9 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` dem Status &quot;Vollbild&quot;entspricht und `selected='false'` entspricht dem Status &quot;normal&quot;.
+>Diese Schaltfläche unterstützt sowohl die Attribute `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;Vollbild&quot;und `selected='false'` dem Status &quot;normal&quot;.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
 Beispiel: Um eine Vollbildschaltfläche mit 32 x 32 Pixel einzurichten und sechs Pixel von der oberen und rechten Kante des Viewers aus zu positionieren. Schließlich zeigt ein anderes Bild für jeden der vier Schaltflächenstatus an, wenn diese ausgewählt oder nicht ausgewählt sind:
 

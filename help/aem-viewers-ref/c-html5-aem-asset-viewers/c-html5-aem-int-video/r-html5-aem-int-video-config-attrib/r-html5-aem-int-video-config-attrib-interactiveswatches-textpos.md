@@ -8,7 +8,7 @@ exl-id: 875d36cc-7372-454e-9a04-32492a2e558e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wo die Beschriftung relativ zum Musterbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn <span class="codeph"> tooltip</span> angegeben wird, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. </p> <p>Auf <span class="codeph"> none</span> setzen, um die Beschriftung zu deaktivieren. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wo die Beschriftung relativ zum Musterbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn <span class="codeph"> tooltip</span> angegeben ist, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. </p> <p>Auf <span class="codeph"> none</span> setzen, um den Titel zu deaktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>

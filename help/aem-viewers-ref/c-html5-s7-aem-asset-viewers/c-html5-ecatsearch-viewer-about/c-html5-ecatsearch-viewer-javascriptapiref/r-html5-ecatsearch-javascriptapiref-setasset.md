@@ -8,7 +8,7 @@ exl-id: 5fd80f8d-321e-47f4-9fb2-65e7bd63be58
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ JavaScript-API-Referenz für Video-Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> String </span>} Neue Asset-ID oder expliziter Bildsatz mit optionalen Image Serving-Modifikatoren, die nach <span class="codeph"> angehängt werden? </span>. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>} Neue Asset-ID oder expliziter Bildsatz mit optionalen Image Serving-Modifikatoren, die nach <span class="codeph"> angehängt werden? 3.</span> </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,7 +37,7 @@ Keine.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Einzelverweis auf ein in einem Katalog definiertes Bildset:
+Einzelverweis auf ein Bildset, das in einem Katalog definiert ist:
 
 ```
  <instance>.setAsset("Viewers/Pluralist")

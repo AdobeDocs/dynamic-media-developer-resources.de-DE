@@ -8,7 +8,7 @@ exl-id: bdc3e5a8-e7cc-4e7b-98e7-30c0d4496abe
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p> <span class="codeph"> left </span> legt die Füllreihenfolge von links nach rechts fest; <span class="codeph"> right </span> kehrt die Reihenfolge so um, dass die Ansicht von rechts nach links und von oben nach unten gefüllt wird. Wann <span class="codeph"> auto </span> festgelegt ist, wendet die Komponente den richtigen Modus an, wenn das Gebietsschema auf <span class="codeph"> "ja" </span>, und verwendet andernfalls "left". </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p> <span class="codeph"> left </span> legt die Füllreihenfolge von links nach rechts; <span class="codeph"> right </span> kehrt die Reihenfolge so um, dass die Ansicht von rechts nach links von oben nach unten gefüllt wird. Wenn <span class="codeph"> auto </span> festgelegt ist, wendet die Komponente den rechten Modus an, wenn das Gebietsschema auf <span class="codeph"> "ja" </span> festgelegt ist, und verwendet andernfalls links. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Anzeigebereich
    <td colname="col2"> <p>Viewer-Breite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Viewer-Höhe. </p> </td> 
   </tr> 
   <tr> 

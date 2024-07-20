@@ -1,5 +1,5 @@
 ---
-description: JavaScript-API-Referenz für den E-Katalog-Viewer.
+description: JavaScript-API-Referenz für den eCatalog-Viewer.
 solution: Experience Manager
 title: setParam
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 0dd57c7e-c20f-4e8f-a872-42e24305fc0c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
 
 # setParam{#setparam}
 
-JavaScript-API-Referenz für den E-Katalog-Viewer.
+JavaScript-API-Referenz für den eCatalog-Viewer.
 
 [!DNL ` setParam( *`name, value`*)`]
 
@@ -27,12 +27,12 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-view
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> Name des Parameters. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Name des Parameters. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}- </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Wert </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

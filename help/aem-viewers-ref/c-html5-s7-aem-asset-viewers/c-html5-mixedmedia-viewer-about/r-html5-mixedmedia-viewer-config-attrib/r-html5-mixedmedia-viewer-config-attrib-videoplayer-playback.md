@@ -8,7 +8,7 @@ exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer für gemischte Medien.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Legt den vom Viewer verwendeten Wiedergabetyp fest. Wann <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format. Auf einigen Systemen wie älteren Internet Explorer- und Android™-Systemen wird die progressive HTML5-Wiedergabe aktiviert. </p> <p>Wenn <span class="codeph"> progressiv</span> festgelegt ist, nutzt der Viewer nur die HTML5-Wiedergabe, die nativ von Browsern unterstützt wird, und gibt das Video progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Wiedergabenauswahl im automatischen und progressiven Modus finden Sie im Benutzerhandbuch für das Viewer SDK. </p> </td> 
+   <td colname="col2"> <p> Legt den vom Viewer verwendeten Wiedergabetyp fest. Wenn <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktopbrowsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format. Auf einigen Systemen wie älteren Internet Explorer und Android™ wird die progressive HTML5-Wiedergabe unterstützt. </p> <p>Wenn <span class="codeph"> progressiv</span> angegeben ist, verlässt sich der Viewer nur auf die HTML5-Wiedergabe, die von Browsern nativ unterstützt wird, und gibt das Video progressiv auf allen Systemen wieder. </p> <p>Weitere Informationen zur Wiedergabenauswahl im automatischen und progressiven Modus finden Sie im Benutzerhandbuch für das Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturansichten angewendet wird.
+description: Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturen angewendet wird.
 solution: Experience Manager
 title: FavoritesView.iscommand
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '60'
+ht-degree: 6%
 
 ---
 
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturansichten angewendet wird.
+Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturen angewendet wird.
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`]
 

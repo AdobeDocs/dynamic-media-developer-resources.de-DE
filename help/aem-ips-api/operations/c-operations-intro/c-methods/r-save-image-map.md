@@ -8,7 +8,7 @@ exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ Syntax
 
 ## Parameter {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
-**Eingabe (saveImageMapParam)**
+**Input (saveImageMapParam)**
 
 <table id="table_49649036F46941D2B1F28515674E533B"> 
  <thead> 
@@ -82,10 +82,10 @@ Syntax
    <td colname="col4"> Eine kommagetrennte Liste von Punkten, die den Bereich definieren. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Aktion </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Die <span class="codeph"> href </span> -Wert, der der Imagemap zugeordnet ist, wie in der IPS-Oberfläche angegeben. </p> <p>So rufen Sie die <span class="codeph"> href </span> -Wert, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL in dieses Element und formatieren Sie dann die IPS-URL als ordnungsgemäße URL. Beispiel: <span class="codeph"> &amp; </span> wird <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Der <span class="codeph"> href </span> -Wert, der der Imagemap zugeordnet ist, wie in der IPS-Oberfläche angegeben. </p> <p>Um den Wert <span class="codeph"> href </span> zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL und fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als ordnungsgemäße URL. Beispiel: <span class="codeph"> &amp; </span> wird zu <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
@@ -102,7 +102,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (saveImageMapReturn)**
+**Output (saveImageMapReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -112,7 +112,7 @@ Syntax
 
 In diesem Codebeispiel wird eine neue Imagemap für ein Asset erstellt. Es wird ein durch eine Regions-Form-String-Konstante bestimmter Formtyp verwendet und ein Handle an die neue Imagemap zurückgegeben.
 
-**Anforderung**
+**Anfrage**
 
 ```
 <saveImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

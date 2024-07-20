@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Set Indicator ist eine Reihe von Punkten, die unten im Viewer gerendert werden. 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**CSS-Eigenschaften des Set Indicators**
+**CSS-Eigenschaften des festgelegten Indikators**
 
 Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -35,7 +35,7 @@ Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe im hexadezimalen Format des Set-Indikators. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +43,7 @@ Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Kla
 
 >[!NOTE]
 >
->Der Festlegen-Indikator unterstützt die Modusattributauswahl, mit der Sie verschiedene Stile für gepunktete und numerische Vorgangsmodi anwenden können. Insbesondere entspricht `mode="numeric"` dem numerischen Betriebsmodus; `mode="dotted"` entspricht dem Standardpunktstatus.
+>Der Festlegen-Indikator unterstützt die Modusattributauswahl, mit der Sie verschiedene Stile für gepunktete und numerische Vorgangsmodi anwenden können. Insbesondere entspricht `mode="numeric"` dem numerischen Betriebsmodus; `mode="dotted"` dem Standardpunktstatus.
 
 Angenommen, Sie möchten einen Indikator mit weißem Hintergrund einrichten:
 
@@ -70,39 +70,39 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
    <td colname="col2"> <p>Breite des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des festgelegten Anzeigepunkts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>Linker Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>Oberer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>Rechter Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>Unterer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Rahmenradius in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Name der Schriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
@@ -110,11 +110,11 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
    <td colname="col2"> <p>Schriftfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertikale Ausrichtung  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Ausrichtung des Bannerindex. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
    <td colname="col2"> <p>Texthöhe für den Bannerindex. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +122,7 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
 
 >[!NOTE]
 >
->Die Festlegen-Indikatorelemente unterstützen die Attributauswahl `state`, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` dem aktuellen Element im Satz; `state="unselected"` entspricht dem standardmäßigen Elementstatus.
+>Die Festlegen-Anzeigeelemente unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` dem aktuellen Element im Satz; `state="unselected"` dem standardmäßigen Elementstatus.
 
 Angenommen, Sie möchten eine Set-Anzeige im gepunkteten Modus für Desktop-Systeme einrichten. Sie möchten, dass sie 20 Pixel vom unteren Rand des Viewers entfernt wird. Und Sie möchten, dass nicht ausgewählte Punkte schwarz mit 50 % Transparenz, 15 x 15 Pixel mit sieben Pixel abgerundeten Ecken sind. Ausgewählte Punkte sind schwarz mit 90 % Transparenz, 18 x 18 Pixel mit neun abgerundeten Ecken. Der Abstand zwischen Punkten beträgt fünf Pixel.
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2dba30d5-d257-4427-9476-ab695b6603aa
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Die Schaltfläche wird einem internen Container hinzugefügt, der mit dem CSS-Kl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Die Schaltfläche wird einem internen Container hinzugefügt, der mit dem CSS-Kl
    <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Die Schaltfläche wird einem internen Container hinzugefügt, der mit dem CSS-Kl
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mit dem CSS-Klassens
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mit dem CSS-Klassens
    <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mit dem CSS-Klassens
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -112,9 +112,9 @@ Das Erscheinungsbild dieser Schaltfläche im Container wird mit dem CSS-Klassens
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) .
 
 Beispiel: Um eine Schaltfläche mit der linken Maustaste einzurichten, die 28 x 28 Pixel groß ist und sich auf der linken Kante des inneren Containers befindet. Schließlich zeigt für jeden der vier Schaltflächenstatus ein anderes Bild an:
 

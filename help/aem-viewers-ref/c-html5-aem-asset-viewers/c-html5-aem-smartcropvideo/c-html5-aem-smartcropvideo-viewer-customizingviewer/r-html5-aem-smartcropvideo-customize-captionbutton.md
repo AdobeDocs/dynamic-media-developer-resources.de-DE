@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 86b610e9-fea2-45b3-9b74-7ddd558fc267
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 2%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -26,12 +26,12 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 .s7smartcropvideoviewer .s7closedcaptionbutton
 ```
 
-**CSS-Eigenschaften der Untertitelschaltfläche**
+**CSS-Eigenschaften der Beschriftungsschaltfläche**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p> Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p> Die Breite der Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Schaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
@@ -67,9 +67,9 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status, wenn Beschriftungen sichtbar sind, und `selected='false'` wird verwendet, wenn Beschriftungen ausgeblendet werden.
+>Diese Schaltfläche unterstützt sowohl die Attribute `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status, wenn Beschriftungen sichtbar sind, und `selected='false'`, wenn Beschriftungen ausgeblendet werden.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 8%
+source-wordcount: '168'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ Syntax
 
 ## Parameter {#section-7dec8871c89a414c9f066adade1831d8}
 
-**Eingabe (getCompanyInfoParam)**
+**Input (getCompanyInfoParam)**
 
 <table id="table_DD2688C9DA9F49C9ABCA24944829B3E5"> 
  <thead> 
@@ -46,19 +46,19 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Es ist entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> erforderlich. </p> </td> 
+   <td colname="col3"> <p>Entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> ist erforderlich. </p> </td> 
    <td colname="col4"> <p>Der Handle des Unternehmens, dessen Informationen Sie abrufen möchten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Es ist entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> erforderlich. </p> </td> 
+   <td colname="col3"> <p>Entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> ist erforderlich. </p> </td> 
    <td colname="col4"> <p>Der Name des Unternehmens, dessen Informationen Sie abrufen möchten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (getCompanyInfoReturn)**
+**Output (getCompanyInfoReturn)**
 
 <table id="table_634D4E274BA7494C9C917FD244286F0D"> 
  <thead> 
@@ -83,7 +83,7 @@ Syntax
 
 Dieses Codebeispiel gibt alle Informationen über ein Unternehmen mithilfe eines Unternehmensnamens und -handle zurück. Es werden Daten zurückgegeben, die der Antwort ähneln, die beim Erstellen eines Unternehmens empfangen wurde.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getCompanyInfoParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

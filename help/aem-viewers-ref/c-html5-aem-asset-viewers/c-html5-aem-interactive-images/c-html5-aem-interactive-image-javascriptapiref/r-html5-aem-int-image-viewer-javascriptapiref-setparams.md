@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: JavaScript-API-Referenz für Video Image Viewer.
+description: JavaScript API-Referenz für Video Image Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # setParams{#setparams}
 
-JavaScript-API-Referenz für Video Image Viewer.
+JavaScript API-Referenz für Video Image Viewer.
 
 ` setParams( *`params`*)`
 
@@ -30,7 +30,7 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, durch  <span class="codeph"> &amp;</span> getrennt. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, getrennt durch <span class="codeph"> und </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

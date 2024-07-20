@@ -1,6 +1,6 @@
 ---
 title: RootPath
-description: Quelldaten-Stammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die in diesem Bildkatalog verwiesen wird.
+description: Source-Datenstammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die dieser Bildkatalog verweist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: 0eecb125-8147-4115-883a-cb6c38333270
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # RootPath{#rootpath}
 
-Quelldaten-Stammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die in diesem Bildkatalog verwiesen wird.
+Source-Datenstammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die dieser Bildkatalog verweist.
 
 ## Eigenschaften {#section-5ff1cf592dd24dfc8cfa470c753ab828}
 
-Textzeichenfolge. Muss leer sein, ein gültiges Pfadsegment relativ zur Konfigurationseinstellung für den Image Rendering-Server `ir.resourceRootPaths`oder einen gültigen absoluten Dateipfad. Sollte keine führenden und nachfolgenden Pfadelement-Trennzeichen enthalten.
+Textzeichenfolge. Muss leer sein, ein gültiges Pfadsegment relativ zur Konfigurationseinstellung für den Image Rendering-Server `ir.resourceRootPaths` oder ein gültiger absoluter Dateipfad. Sollte keine Trennzeichen für vorangehende und nachfolgende Pfadelemente enthalten.
 
 ## Standard {#section-4a7f3ab22b0c4090b3896d29bd192b8a}
 
-Vererbt von `default::RootPath` falls nicht definiert. Wenn definiert, aber leer, trägt es nicht zum Stammverzeichnis der Quelldatei bei.
+Wird von `default::RootPath` übernommen, falls nicht definiert. Wenn definiert, aber leer, trägt es nicht zum Stammverzeichnis der Quelldatei bei.
 
 ## Verwandte Themen {#section-92012cc1ce32448ea977e7e0484857e2}
 

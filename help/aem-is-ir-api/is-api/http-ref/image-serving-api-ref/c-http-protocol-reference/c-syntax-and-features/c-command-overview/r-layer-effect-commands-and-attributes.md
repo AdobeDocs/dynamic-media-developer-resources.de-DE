@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 483b1f24-9cd2-45e0-9d18-0dc0fbe8abcf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 1%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Mit diesen Befehlen können Sie Ebeneneffekte definieren, wie z. B. Schlagschatt
 
 <table id="simpletable_3094B9783772437FAACF9B382F7A32EE"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> blendMode</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> mergeMode</a> </p></td> 
   <td class="stentry"> <p>Gibt den Überblendungsmodus für die Ebene an. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -8,7 +8,7 @@ exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 27%
+ht-degree: 17%
 
 ---
 
@@ -23,6 +23,6 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | companyHandle | `xsd:string` | Handle des Unternehmens. |
-| [!DNL name] | `xsd:string` | Name des Unternehmens. |
+| [!DNL name] | `xsd:string` | Firmenname. |
 | rootPath | `xsd:string` | Stammverzeichnis des Unternehmens. |
 | [!DNL expires] | `xsd:dateTime` | Datum und Uhrzeit des Ablaufs des Unternehmens. |

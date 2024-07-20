@@ -7,12 +7,12 @@ role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 1%
 
 ---
 
-# Datentypen: Neu und geändert{#data-types-new-and-modified}
+# Datentypen: neu und geändert{#data-types-new-and-modified}
 
 Beschreibt neue und geänderte Typen für die IPS-API Version 6.
 
@@ -40,19 +40,19 @@ Syntax
 
 **Hinzugefügt**
 
-* `numUrls` zu `UploadUrlsJob` hinzugefügt.
+* `numUrls` wurde zu `UploadUrlsJob` hinzugefügt.
 
 * `fileName` zu `Asset.` hinzugefügt
 
-* `isHidden` zu `MetadataField` hinzugefügt.
+* `isHidden` wurde zu `MetadataField` hinzugefügt.
 
-* `taskState` zu `TaskProgress` hinzugefügt.
+* `taskState` wurde zu `TaskProgress` hinzugefügt.
 
 * `exportJob` zu `ActiveJob` und `ScheduledJob` hinzugefügt.
 
 * `optmizedPath` und `optimizedFile` wurden zu `PsdInfo` hinzugefügt.
 
-* `contextHandle` hinzugefügt zu:
+* `contextHandle` wurde hinzugefügt zu:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -64,7 +64,7 @@ Syntax
    * `cssInfo`
    * `javascriptInfo`
 
-**Geändert**
+**Changed**
 
 * In `User` wurde `role` in `defaultRole` geändert.
 

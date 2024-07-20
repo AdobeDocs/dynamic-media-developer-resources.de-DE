@@ -33,7 +33,7 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut erzeugt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Handle mit dem Array der zu rippenden PDF-Dateien. </p> </td> 
   </tr> 
   <tr> 
@@ -43,42 +43,42 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut erzeugt.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ManualCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ManualCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Manuelles Zuschneiden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:AutoColorCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AutoColorCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Automatische Zuschneideoptionen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:PostTransparentCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:PostTransparentCropOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:PostScriptOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:PostScriptOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:PDFOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:PDFOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:IllustratorOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ColorManagementOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ColorManagementOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ein Array von Projekt-Handles. </p> </td> 
   </tr> 
   <tr> 
@@ -93,27 +93,27 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut erzeugt.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ImageServingPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ImageServingPublishJob</span> </p> </td> 
    <td colname="col3"> <p>Auftragsdetails für einen Image Serving-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ImageRenderingPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ImageRenderingPublishJob</span> </p> </td> 
    <td colname="col3"> <p>Auftragsdetails für einen Veröffentlichungsauftrag zum Rendern von Bildern, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:VideoPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:VideoPublishJob</span> </p> </td> 
    <td colname="col3"> <p>Auftragsdetails für einen Videoveröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:InDesignOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:InDesignOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen zum Hochladen von Adobe InDesign-Dateien auf den Bildserver. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
    <td colname="col3"> <p>Maskieren Sie den Hintergrund für ausgewählte Bilder. Mit dieser Funktion können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. </p> <p>Optional. </p> <p>Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
@@ -121,13 +121,13 @@ Ein Prozess, der ein vorhandenes PDF-Asset erneut erzeugt.
 
 ## Anmerkungen {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Auswahlmöglichkeiten für `*CropOptions` include:
+Zu den Optionen für `*CropOptions` gehören:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Auswahlmöglichkeiten für `*PublishJob` include:
+Zu den Optionen für `*PublishJob` gehören:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

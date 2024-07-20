@@ -24,9 +24,9 @@ Syntax
 |---|---|---|
 | assetHandle | `xsd:string` | Schrift-Asset-Handle. |
 | fontName | `xsd:string` | Schriftname. |
-| postscriptName | `xsd:string` | PostScript-Schriftname. |
+| postscriptName | `xsd:string` | PostScript-Schriftart. |
 | rtfName | `xsd:string` | Rich-Text-Schriftartname. |
 | [!DNL fontFamily] | `xsd:string` | Schriftfamilienname. |
 | [!DNL style] | `xsd:string` | Schriftstil (Werte finden Sie unter Schriftstile ). |
-| typeName | `xsd:string` | Name des Schrifttyps. |
+| typeName | `xsd:string` | Schriftartname. |
 | [!DNL type] | `xsd:string` | Schriftart (Werte finden Sie unter Schrifttypen ). |

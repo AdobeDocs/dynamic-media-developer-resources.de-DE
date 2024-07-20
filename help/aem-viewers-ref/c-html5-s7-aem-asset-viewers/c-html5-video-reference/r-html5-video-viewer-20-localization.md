@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bestimmte Inhalte, die der Video-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und eine Fehlermeldung, die angezeigt wird, wenn das Video nicht wiedergegeben werden kann.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen Textwert für das englische Gebietsschema ( `"en"`) mit dem vordefinierten Viewer bereitgestellt. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßig zugeordneten Textwert für das englische Gebietsschema ( `"en"`), der mit dem vordefinierten Viewer bereitgestellt wird. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
 
 Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemata ( `"en"` und `"fr"`) und bietet Lokalisierung für zwei Elemente der Benutzeroberfläche in jedem Gebietsschema.
+Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt die Lokalisierung von zwei Benutzeroberflächenelementen in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte dieses Lokalisierungsobjekt an den Viewer-Konstruktor als Wert von `localizedTexts` -Feld des Konfigurationsobjekts. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der `setLocalizedTexts(localizationInfo)` -Methode.
+Der Webseitencode sollte dieses Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der `setLocalizedTexts(localizationInfo)` -Methode weiterzugeben.
 
 Die folgenden SYMBOLs werden unterstützt:
 
@@ -53,7 +53,7 @@ Die folgenden SYMBOLs werden unterstützt:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container.LABEL </span> </p> </td> 
    <td colname="col2"> <p> ARIA-Beschriftung für Viewer-Element der obersten Ebene. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Die folgenden SYMBOLs werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Beschriftung des Reglers des Lautstärkereglers, der über die ARIA verfügbar gemacht wird <span class="codeph"> aria-valueText </span> -Attribut. </p> </td> 
+   <td colname="col2"> <p> Lautstärkereglerbeschriftung, die über das ARIA <span class="codeph"> aria-value-ext </span> -Attribut offen gelegt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -213,7 +213,7 @@ Die folgenden SYMBOLs werden unterstützt:
    <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP-AKTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP ACTION </span> </p> </td> 
    <td colname="col2"> <p>QuickInfo für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ Die folgenden SYMBOLs werden unterstützt:
    <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP-AKTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP ACTION </span> </p> </td> 
    <td colname="col2"> <p>QuickInfo für die Schaltfläche "Alle auswählen". </p> </td> 
   </tr> 
   <tr> 

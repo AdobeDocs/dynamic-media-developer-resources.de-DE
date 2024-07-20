@@ -29,8 +29,8 @@ Basierend auf einem 360-Grad-Farbbereich.
 
 ## Eigenschaften {#section-55779644700b4c808a624cdf5a04447e}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`. Wird von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
 
 ## Standard {#section-7314580251f5456fa1f381ec9e99e0bb}
 
-`op_hue=0`, ohne Änderung der Farbtiefe.
+`op_hue=0`, für keine Änderung des Farbton.

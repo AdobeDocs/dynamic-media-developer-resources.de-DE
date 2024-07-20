@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 7%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Durchsucht das Metadatenindex-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
 
-while `searchAssetsByMetadata` ermöglicht die Suche nach benutzerdefinierten Metadatenfeldern. Diese Felder werden nicht zurückgegeben, wenn sie in der Variablen `responseMetadataArray`. Zur Veranschaulichung dieses Punkts finden Sie im folgenden Codebeispiel:
+Während Sie mit `searchAssetsByMetadata` nach benutzerdefinierten Metadatenfeldern suchen können, werden diese Felder nicht zurückgegeben, wenn sie in `responseMetadataArray` angegeben sind. Zur Veranschaulichung dieses Punkts finden Sie im folgenden Codebeispiel:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ gibt einen Nullwert zurück:
 </items>
 ```
 
-Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von der auszuführenden Suche zurückgegeben werden `getAssets` (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte für benutzerdefinierte Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
+Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwenden, die von der Suche zurückgegeben werden, um `getAssets` auszuführen (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte für benutzerdefinierte Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
 
 ```java
 <ns:metadataConditionArray>
@@ -57,7 +57,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von
 
 ## Parameter {#section-5f1edb9c5b914160ab361f4364b8aa8d}
 
-**Eingabe (searchAssetsByMetadataParam)**
+**Input (searchAssetsByMetadataParam)**
 
 <table id="table_8FF228D6279241849F3D9E5BA080580C"> 
  <thead> 
@@ -77,19 +77,19 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filter</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Typ:SearchFilter</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Filter, mit denen Sie Suchkriterien definieren können. </p> <p>Siehe <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Typ:MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Bedingungen, die Suchkriterien definieren. Weitere Informationen finden Sie unten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Typ:StringArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Zusätzliche Felder, die in der Antwort in der Asset-Zusammenfassung ausgefüllt werden sollen. Die Felder müssen im normalisierten Format angegeben werden. </p> </td> 
   </tr> 
@@ -103,7 +103,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt die Ergebnisseite an, die zurückgegeben werden soll, basierend auf <span class="codeph"> recordsPerPage</span> Seitengröße. </p> </td> 
+   <td colname="col4"> <p>Gibt die Seite der zurückzugebenden Ergebnisse basierend auf der Seitengröße von <span class="codeph"> recordsPerPage</span> an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -120,7 +120,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von
  </tbody> 
 </table>
 
-**Ausgabe (searchAssetsByMetadataReturn)**
+**Output (searchAssetsByMetadataReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -131,7 +131,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von
 
 **Elementstruktur**
 
-`metadataConditionArray` -Struktur wie folgt aussehen:
+Die Struktur `metadataConditionArray` lautet wie folgt:
 
 ```java
 <ns1:items>
@@ -160,9 +160,9 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets, die von
 
 * `created_by`
 
-**Zugelassene Operatoren**
+**Zulässige Operatoren**
 
-Die [!DNL operator] definiert, wie der Wert verglichen und Folgendes eingeschlossen wird:
+Der [!DNL operator] definiert, wie der Wert verglichen und Folgendes eingeschlossen wird:
 
 * `Equals`
 * `NotEquals`
@@ -171,7 +171,7 @@ Die [!DNL operator] definiert, wie der Wert verglichen und Folgendes eingeschlos
 * `StartsWith`
 * `EndsWith`
 
-Die `comparison_value` ist der zu suchende Begriff.
+Der `comparison_value` ist der Begriff, nach dem gesucht werden soll.
 
 ## Beispiele {#section-53a12b9c023e4e629eddf5719c955ad4}
 
@@ -181,7 +181,7 @@ Dieses Codebeispiel führt eine Suche mit den folgenden Metadatenkriterien durch
 
 * `dc.rights` field gleich `Per Jessen Schmidt`.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

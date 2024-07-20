@@ -8,7 +8,7 @@ exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -21,21 +21,21 @@ Vignette-Datei. Gibt die Vignette an, die für die Anforderung verwendet werden 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>Materialkatalog-ID (übereinstimmend mit <span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Materialkatalog-ID (Übereinstimmung mit dem Attribut <span class="codeph">::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Vignette ID (entspricht <span class="codeph"> vignette::id</span>). </p></td> 
+  <td class="stentry"> <p>Vignette-ID (entspricht <span class="codeph"> Vignette::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> Datei</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> file</span> </p></td> 
   <td class="stentry"> <p>Relativer Vignettendateipfad und -name. </p></td> 
  </tr> 
 </table>
 
 Sie können entweder einen Vignettenzuordnungseintrag oder eine Vignettendatei angeben. Remote-URLs sind nicht zulässig.
 
-`vignette=` Kann als Alternative zur Angabe der Vignette im AnfrageURL-Pfad verwendet werden. Wird verwendet, um Vignetten über Variablen in Vorlagen anzugeben.
+`vignette=` Kann als Alternative zur Angabe der Vignette im Pfad der Anfrage-URL verwendet werden. Wird verwendet, um Vignetten über Variablen in Vorlagen anzugeben.
 
 Wenn *`catId`* nicht angegeben ist, wird der Sitzungskatalog verwendet.
 

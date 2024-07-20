@@ -1,5 +1,5 @@
 ---
-description: Imagemap-Daten. Keine oder mehr vollständige HTML <area> -Elemente, von vorne nach hinten sortiert.
+description: Imagemap-Daten. Keine oder mehr vollständige HTML <AREA>-Elemente, von vorne nach hinten sortiert.
 solution: Experience Manager
 title: Zuordnung
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # Zuordnung{#map}
 
-Imagemap-Daten. Keine oder mehr vollständige HTML `<AREA>` -Elemente, von vorne nach hinten sortiert.
+Imagemap-Daten. Keine oder mehr vollständige HTML `<AREA>`-Elemente, von vorne nach hinten sortiert.
 
-Der Server interpretiert die Attribute SHAPE und COORDS und kann sie ändern (SHAPE=CIRCLE wird in dieser Version nicht unterstützt). Alle anderen Attribute von `<AREA>` werden ohne Änderung weitergeleitet. Die mit dem COORDS-Attribut angegebenen Koordinatenwerte müssen Pixelabweichungen aus der linken oberen Ecke des unveränderten Quellbilds sein. (`%` -Koordinaten werden in dieser Version nicht unterstützt und möglicherweise nicht korrekt verarbeitet.)
+Der Server interpretiert die Attribute SHAPE und COORDS und kann sie ändern (SHAPE=CIRCLE wird in dieser Version nicht unterstützt). Alle anderen Attribute von `<AREA>` werden ohne Änderung übergeben. Die mit dem COORDS-Attribut angegebenen Koordinatenwerte müssen Pixelabweichungen aus der linken oberen Ecke des unveränderten Quellbilds sein. (`%` -Koordinaten werden in dieser Version nicht unterstützt und werden möglicherweise nicht korrekt verarbeitet.)
 
 ## Eigenschaften {#section-f52d89fd399b4356ac05277e6c12f956}
 
-Textzeichenfolgenwert. Wenn angegeben, muss es sich um einen oder mehrere vollständige HTML handeln. `<AREA>` -Elemente.
+Textzeichenfolgenwert. Wenn angegeben, muss es sich um ein oder mehrere vollständige HTML `<AREA>` -Elemente handeln.
 
-Dieses Feld nimmt an der Lokalisierung von Textzeichenfolgen teil. Siehe Abschnitt [Lokalisierung von Textzeichenfolgen](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) im *HTTP-Protokollreferenz* für Details.
+Dieses Feld nimmt an der Lokalisierung von Textzeichenfolgen teil. Weitere Informationen finden Sie unter [Lokalisierung von Textzeichenfolgen](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in der *HTTP-Protokollreferenz*.
 
 ## Standard {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 
@@ -30,4 +30,4 @@ Keine.
 
 ## Verwandte Themen {#section-d66a32e1f12f4cb0ad22ddd78be36ec4}
 
-[map=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) , [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [Lokalisierung von Textzeichenfolgen](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[map=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) , [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

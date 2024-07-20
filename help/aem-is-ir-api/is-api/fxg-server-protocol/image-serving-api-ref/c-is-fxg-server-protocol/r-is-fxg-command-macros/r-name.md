@@ -25,4 +25,4 @@ Name des Befehlsmakros.
  </tr> 
 </table>
 
-Der Befehl *`name`* nicht zwischen Groß- und Kleinschreibung unterscheiden und aus einer beliebigen Kombination von Buchstaben, Zahlen bestehen können, `-` (Bindestrich) `_` (Unterstrich) und `.` (Punkt).
+Beim Befehl *`name`* wird nicht zwischen Groß- und Kleinschreibung unterschieden. Er kann aus einer beliebigen Kombination von Buchstaben, Zahlen, `-` (Bindestrich), `_` (Unterstrich) und `.` (Punkt) bestehen.

@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Benutzerdefinierte Variablen{#custom-variables}
 
-Der Abfrageabschnitt der Anforderungen und die Vignettenzeichenfolgen::Modifier kann benutzerdefinierte Variablen enthalten.
+Der Abfrageabschnitt der Anforderungen und die Vignetten::Modifier-Zeichenfolgen kann benutzerdefinierte Variablen enthalten.
 
 `$ [!DNL name] = [!DNL value]`
 
-`[!DNL name]` - Variablenname. Kann aus einer beliebigen Kombination aus alphanumerischen, stelligen und sicheren Zeichen bestehen, außer `$`.
+`[!DNL name]` - Variablenname. Kann aus einer beliebigen Kombination aus alphanumerischen, numerischen und sicheren Zeichen bestehen, mit Ausnahme von `$`.
 
 `[!DNL value]` - Wert, auf den die Variable festgelegt werden soll (Zeichenfolge).
 
-Variablen werden ähnlich wie andere Serverbefehle unter Verwendung der oben genannten Syntax definiert. Variablen müssen definiert werden, bevor sie referenziert werden können. Variablen, die in `vignette::Modifier` kann in der URL-Anfrage referenziert werden und umgekehrt.
+Variablen werden ähnlich wie andere Serverbefehle unter Verwendung der oben genannten Syntax definiert. Variablen müssen definiert werden, bevor sie referenziert werden können. Variablen, die in `vignette::Modifier` definiert sind, können in der URL-Anforderung referenziert werden und umgekehrt.
 
 >[!NOTE]
 >
->`[!DNL value]` muss URL-kodiert mit einem Durchgang sein, um eine sichere HTTP-Übertragung zu ermöglichen. Doppelte Kodierung erforderlich, wenn `[!DNL value]` wird über HTTP erneut übertragen. Dies ist der Fall, wenn `[!DNL value]` wird in eine verschachtelte ausländische Anforderung ersetzt.
+>`[!DNL value]` muss URL-kodiert mit Einzeldurchlauf sein, um eine sichere HTTP-Übertragung zu ermöglichen. Doppelte Kodierung ist erforderlich, wenn `[!DNL value]` über HTTP erneut übertragen wird. Dies ist der Fall, wenn `[!DNL value]` durch eine verschachtelte ausländische Anforderung ersetzt wird.
 
-Variablen werden referenziert, indem der Variablenname eingebettet wird (eingeschlossen durch einen vorangestellten und einen nachfolgenden `$`) an eine beliebige Stelle in den Befehlswerten. Beispielsweise zwischen dem `=`  nach dem Befehlsnamen und dem nachfolgenden `&` oder das Ende der Anfrage. Der Server ersetzt jedes dieser Vorkommen von `$ [!DNL name]$` mit `[!DNL string]`. Bei Vorkommen von `$ [!DNL name]$` in Befehlsnamen (vor dem Gleichheitszeichen eines Befehls) und im Pfadabschnitt der Anfrage.
+Variablen werden referenziert, indem der Variablenname (eingeschlossen durch einen vorangestellten und nachfolgenden `$`) an einer beliebigen Stelle in Befehlswerte eingebettet wird. Beispielsweise zwischen dem `=`, das auf den Befehlsnamen folgt, und dem nachfolgenden `&` oder dem Ende der Anfrage. Der Server ersetzt jedes Vorkommen von `$ [!DNL name]$` durch `[!DNL string]`. Bei Instanzen von `$ [!DNL name]$` in Befehlsnamen (vor dem Gleichheitszeichen eines Befehls) und im Pfadabschnitt der Anfrage erfolgt kein Ersatz.
 
-Benutzerdefinierte Variablen sind möglicherweise nicht verschachtelt. Alle Vorkommnisse von `$ [!DNL name]$` Innerhalb `[!DNL string]` nicht ersetzt werden. Beispielsweise das Anforderungsfragment `$var2=apple&$var1=my$var2$tree&text=$var1$` löst `text=my$var2$tree`.
+Benutzerdefinierte Variablen sind möglicherweise nicht verschachtelt. Alle Vorkommnisse von `$ [!DNL name]$` innerhalb von `[!DNL string]` werden nicht ersetzt. Beispielsweise wird das Anforderungsfragment `$var2=apple&$var1=my$var2$tree&text=$var1$` in `text=my$var2$tree` aufgelöst.
 
-`$` ist kein reserviertes Zeichen; kann es andernfalls in der Anfrage auftreten. Beispiel: `src=my$texture$file.tif` ist ein gültiger Befehl (vorausgesetzt, dass ein Materialkatalog-Eintrag oder eine Texturdatei mit dem Namen `[!DNL my$texture$file.tif]` ist vorhanden), während `wid=$number$` nicht, weil `wid=` erfordert ein numerisches Argument.
+`$` ist kein reserviertes Zeichen; es kann andernfalls in der Anfrage auftreten. Beispiel: `src=my$texture$file.tif` ist ein gültiger Befehl (vorausgesetzt, dass ein Materialkatalogeintrag oder eine Texturdatei mit dem Namen `[!DNL my$texture$file.tif]` vorhanden ist), während `wid=$number$` nicht ist, da `wid=` ein numerisches Argument erfordert.

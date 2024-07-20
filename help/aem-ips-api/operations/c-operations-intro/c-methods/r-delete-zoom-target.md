@@ -8,7 +8,7 @@ exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -31,14 +31,14 @@ Löscht ein Zoomziel.
 
 ## Parameter {#section-225330a45e7a408f8375e084677d9cb1}
 
-**Eingabe (deleteZoomTargetParam)**
+**Input (deleteZoomTargetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Zoomziel gehört. |
 | zoomTargetHandle | `xsd:string` | Ja | Der Handle zum zu löschenden Zoomziel. |
 
-**Ausgabe (deleteZoomTargetParam)**
+**Output (deleteZoomTargetParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -46,7 +46,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Codebeispiel wird ein Zoomziel aus einem Unternehmen gelöscht.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:deleteZoomTargetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

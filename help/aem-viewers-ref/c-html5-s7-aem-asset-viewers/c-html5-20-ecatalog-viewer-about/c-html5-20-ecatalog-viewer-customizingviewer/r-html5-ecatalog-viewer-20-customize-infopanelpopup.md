@@ -1,20 +1,20 @@
 ---
 title: Popup für Infobereich
-description: Popup für Info-Bedienfeld wird in der Mitte des Viewer-Bereichs angezeigt, wenn ein Benutzer eine Imagemap aktiviert, für die in Dynamic Media Classic eine Eigenschaft rollover_key definiert ist, und wenn die Funktion für das Informationsfeld für den Viewer ordnungsgemäß konfiguriert ist.
+description: Popup für Info-Bedienfeld wird in der Mitte des Viewer-Bereichs angezeigt, wenn ein Benutzer eine Imagemap aktiviert, für die in Dynamic Media Classic eine Eigenschaft rollover_key definiert ist, und wenn die Funktion für das Informationsbedienfeld für den Viewer ordnungsgemäß konfiguriert ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 3%
+source-wordcount: '471'
+ht-degree: 0%
 
 ---
 
 # Popup für Infobereich{#info-panel-popup}
 
-Popup für Info-Bedienfeld wird in der Mitte des Viewer-Bereichs angezeigt, wenn ein Benutzer eine Imagemap aktiviert, für die in Dynamic Media Classic eine Eigenschaft rollover_key definiert ist, und wenn die Funktion für das Informationsfeld für den Viewer ordnungsgemäß konfiguriert ist.
+Popup für Info-Bedienfeld wird in der Mitte des Viewer-Bereichs angezeigt, wenn ein Benutzer eine Imagemap aktiviert, für die in Dynamic Media Classic eine Eigenschaft rollover_key definiert ist, und wenn die Funktion für das Informationsbedienfeld für den Viewer ordnungsgemäß konfiguriert ist.
 
 Der Hintergrund des Infobereichs umfasst den gesamten Viewer-Bereich und wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -60,11 +60,11 @@ Das Dialogfeld &quot;Infobereich&quot;wird standardmäßig in der Mitte des View
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Position des Infofeld-Dialogfelds innerhalb der Hintergrundfüllung des Viewer-Bereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Position des Infofeld-Dialogfelds im Viewer-Bereich. </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Das Dialogfeld &quot;Infobereich&quot;wird standardmäßig in der Mitte des View
    <td colname="col2"> <p>Dialogfeldbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Dialogfeldhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Das Dialogfeld &quot;Infobereich&quot;wird standardmäßig in der Mitte des View
    <td colname="col2"> <p>Der obere Rand des Infofeld-Dialogfelds kann zu zentrierenden Zwecken verwendet werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Interner Abstand im Dialogfeld. </p> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand des Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p>Position vom rechten Rand des Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand des Dialogfelds. </p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +157,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -173,9 +173,9 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, mit der Sie verschiedene Skins auf unterschiedliche Schaltflächenzustände anwenden können.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der Sie verschiedene Skins auf unterschiedliche Schaltflächenzustände anwenden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Zum Einrichten eines Dialogfelds &quot;Schließen&quot;-Schaltfläche, die 28 x 28 Pixel groß ist und 5 Pixel von der oberen und rechten Kante des Infofeld-Dialogfelds entfernt ist. Und schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an.
 

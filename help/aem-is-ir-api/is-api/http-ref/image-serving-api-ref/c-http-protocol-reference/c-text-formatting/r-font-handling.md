@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
 source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Alle Schriftarten, auf die in der RTF-Zeichenfolge verwiesen wird, müssen in de
 
 Die beste Qualität für kursiv und fett gedruckten Text wird durch die Registrierung der entsprechenden Schriftartendateien erreicht. Falls nicht verfügbar, kann der Server fett und/oder kursiv gedruckte Schriftarten von der Standardseite aus synthetisieren. (Siehe [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
 
-Die mit `attribute::DefaultFont` wird verwendet, wenn keine explizit in der RTF-Zeichenfolge angegeben ist.
+Die mit `attribute::DefaultFont` angegebene Schriftart wird verwendet, wenn keine explizit in der RTF-Zeichenfolge angegeben ist.
 
 Image Serving unterstützt TrueType-, OpenType®- und Adobe Type 1-Schriftarten (nur Windows).
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## Verwandte Themen {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Schriftartverweis](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[Font Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

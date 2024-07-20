@@ -8,7 +8,7 @@ exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ Syntax
 
 ## Parameter {#section-bcdcff30905e444388811e897b2824bd}
 
-**Eingabe (setAssetMetadataParam)**
+**Input (setAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -41,7 +41,7 @@ Syntax
 | assetHandle | `xsd:string` | Ja | Das Handle für das Asset. |
 | updateArray | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Update-Array. |
 
-**Ausgabe (setAssetMetadataReturn)**
+**Output (setAssetMetadataReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -49,7 +49,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Dieses Codebeispiel verwendet ein Array von Metadaten-Updates, um die Metadaten des angegebenen Assets festzulegen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:setAssetMetadataParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

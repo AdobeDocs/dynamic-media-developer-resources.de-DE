@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2ae17dc8-2728-4ee5-ba88-45d78a0f4d9a
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>Die Image Serving-Befehlszeichenfolge, die auf das FlyoutZoomView-Hauptbild und auf das Zoombild angewendet wird. Wenn dies in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von HTTP-kodieren <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> as <span class="codeph"> %26</span> und <span class="codeph"> %3D</span>zurück. </p> <p> <p>Hinweis: Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>Die Image Serving-Befehlszeichenfolge, die auf das FlyoutZoomView-Hauptbild und auf das Zoombild angewendet wird. Wenn sie in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span> HTTP-kodieren. </p> <p> <p>Hinweis: Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

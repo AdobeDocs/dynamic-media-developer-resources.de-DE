@@ -18,4 +18,4 @@ Bildkataloge bieten viele Serverkonfigurationseinstellungen, Schriftarten, ICC-P
 
 Sie ordnen Bild- und statische Inhalts-IDs, die in Anforderungen verwendet werden, den tatsächlichen Dateipfaden zu, speichern verschiedene Bild-Metadaten wie Imagemaps und stellen Container für Vorlagen und Bildsets bereit.
 
-Auf Bildkataloge kann nur durch die [!DNL Platform Server], niemals vom Image-Server. Katalogattributdateien müssen das Suffix .ini aufweisen und im [!DNL Platform Server]des Katalogordners ( `PS::CatalogFolder`). Mindestens der standardmäßige Bildkatalog ist erforderlich und muss mit allen Attributen gefüllt werden, damit die Funktion der [!DNL Platform Server].
+Auf Bildkataloge kann nur mit dem Wert &quot;[!DNL Platform Server]&quot; zugegriffen werden, nie mit dem Image-Server. Katalogattributdateien müssen das Suffix .ini aufweisen und im Katalogordner [!DNL Platform Server] ( `PS::CatalogFolder`) abgelegt werden. Mindestens der standardmäßige Bildkatalog ist erforderlich und muss mit allen Attributen gefüllt werden, damit der [!DNL Platform Server] ordnungsgemäß funktioniert.

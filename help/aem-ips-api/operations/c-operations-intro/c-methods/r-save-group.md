@@ -8,7 +8,7 @@ exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -26,16 +26,16 @@ Syntax
 
 ## Parameter {#section-743610e98dd5494baffcbad6401038eb}
 
-**Eingabe (saveGroupParam)**
+**Input (saveGroupParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit der Gruppe, die Sie speichern möchten. |
-| groupHandle | `xsd:string` | Nein | Das Handle für die Gruppe. |
+| groupHandle | `xsd:string` | Nein | Der Griff zur Gruppe. |
 | name | `xsd:string` | Ja | Gruppenname. |
-| isSystemDefined | `xsd:boolean` | Ja | `false` ist Standard. |
+| isSystemDefined | `xsd:boolean` | Ja | `false` ist der Standardwert. |
 
-**Ausgabe (saveGroupReturn)**
+**Output (saveGroupReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntax
 
 Dieses Codebeispiel erstellt eine Gruppe, die zu einem bestimmten Unternehmen gehört. Wenn die Gruppe bereits existiert, wird sie mit den von Ihnen angegebenen Parameterwerten gespeichert.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:saveGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

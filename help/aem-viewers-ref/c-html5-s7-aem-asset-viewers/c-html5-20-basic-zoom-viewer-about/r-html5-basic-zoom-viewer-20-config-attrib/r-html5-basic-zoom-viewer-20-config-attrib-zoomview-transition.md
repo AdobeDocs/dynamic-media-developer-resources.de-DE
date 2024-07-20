@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 3ae12e0a-0647-4cb1-9785-c854b4586c47
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *`time`*[, *`Lockerung`*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`time`*[, *`leasing`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
@@ -32,7 +32,7 @@ ht-degree: 0%
       <li id="li_EF00BF6CA2AA48FEB54015FFBA9F8DD4"> 3 (kubisch) </li> 
       <li id="li_F3CB7F0821AF489C84A0CA155F5031A2"> 4 (Quartil) </li> 
       <li id="li_F5B844DAF4CC453CA58BF09A660D139F"> 5 (quintisch) </li> 
-     </ul> </p> <p>Der Auto-Modus verwendet immer einen linearen Übergang, wenn der elastische Zoom deaktiviert ist (Standard). Andernfalls passt es zu einer der anderen Erleichterungsfunktionen, die auf der Übergangszeit basieren. Das heißt, je kürzer die Übergangszeit ist, desto höher wird die Lockerungsfunktion verwendet, um den Beschleunigungs- oder Verzögerungseffekt zu beschleunigen. </p> </td> 
+     </ul> </p> <p>Der Auto-Modus verwendet immer einen linearen Übergang, wenn der elastische Zoom deaktiviert ist (Standard). Andernfalls passt es auf Grundlage der Übergangszeit zu einer der anderen Erleichterungsfunktionen. Das heißt, je kürzer die Übergangszeit ist, desto höher wird die Lockerungsfunktion verwendet, um die Beschleunigung oder Verzögerung zu beschleunigen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

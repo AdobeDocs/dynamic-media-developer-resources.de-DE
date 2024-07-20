@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e3c90320-b6fc-4a43-b75f-d39234b1e73c
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Die Position und Größe des Favoriten-Menüs in der Viewer-Benutzeroberfläche 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Das Erscheinungsbild der Menüschaltfläche &quot;Favoriten&quot;wird mit der fo
 .s7ecatalogviewer .s7favoritesmenu .s7favoritesbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Favoriten&quot;**
+**CSS-Eigenschaften der Favoriten-Schaltfläche**
 
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
@@ -81,9 +81,9 @@ Das Erscheinungsbild der Menüschaltfläche &quot;Favoriten&quot;wird mit der fo
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel - So richten Sie eine Favoriten-Menüschaltfläche ein, die für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt:
 

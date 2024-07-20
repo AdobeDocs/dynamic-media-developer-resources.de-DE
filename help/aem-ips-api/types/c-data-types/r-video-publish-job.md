@@ -23,5 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | emailSetting | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
-| httpCompletionUrl | `xsd:string` | URL zum Senden einer Fertigstellungsbenachrichtigung. |
+| httpCompletionURL | `xsd:string` | URL zum Senden einer Fertigstellungsbenachrichtigung. |
 | contextHandle | `xsd:string` | Umgang mit dem Veröffentlichungskontext. |

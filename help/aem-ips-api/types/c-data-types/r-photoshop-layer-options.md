@@ -25,5 +25,5 @@ Syntax
 | layerNaming | `xsd:string` | Auswahl der Photoshop-Ebenenbenennungsmodi. |
 | anchor | `xsd:string` | Auswahl der Photoshop-Ankermodi. |
 | createTemplate | `xsd:boolean` | Ob eine Vorlage aus Photoshop-Ebenen erstellt werden soll. |
-| extractText | `xsd:boolean` | Gibt an, ob Text als Textebenen extrahiert werden soll. |
+| extractText | `xsd:boolean` | Ob Text als Textebenen extrahiert werden soll. |
 | extendLayers | `xsd:boolean` | Ob Ebenen auf die volle Hintergrundgröße erweitert werden sollen. |

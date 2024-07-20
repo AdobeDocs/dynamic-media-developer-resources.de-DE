@@ -1,5 +1,5 @@
 ---
-description: Legt das Zoomziel fest, das mit einem Asset-Bild verknüpft ist. Vorhandene Zoomziele werden überschrieben.
+description: Legt das mit einem Asset-Bild verknüpfte Zoomziel fest. Es überschreibt vorhandene Zoomziele.
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
 # setZoomTargets{#setzoomtargets}
 
-Legt das Zoomziel fest, das mit einem Asset-Bild verknüpft ist. Vorhandene Zoomziele werden überschrieben.
+Legt das mit einem Asset-Bild verknüpfte Zoomziel fest. Es überschreibt vorhandene Zoomziele.
 
 Syntax
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-161f8c733cc4439f94a06e12119d4226}
 
-**Eingabe (setZoomTargetsParam)**
+**Input (setZoomTargetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Syntax
 | assetHandle | `xsd:string` | Ja | Asset mit dem Zoomziel, das Sie festlegen möchten. |
 | zoomTargetArray | `types:ZoomTargetDefinitionArray` | Ja | Array von Zoom-Zieldefinitionen. |
 
-**Ausgabe (setZoomTargetsReturn)**
+**Output (setZoomTargetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 
 Dieses Codebeispiel definiert ein Array von Zoomzielen nach Name, Position (X- und Y-Achse), Breite und Höhe und weist das Array einem Asset zu. Die Antwort enthält Handles zu den neu erstellten Zoomzielen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setZoomTargetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

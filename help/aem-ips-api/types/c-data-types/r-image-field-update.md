@@ -1,5 +1,5 @@
 ---
-description: Aktualisiert das Bildfeld, das mit einem Bild-Asset verknüpft ist.
+description: Aktualisiert das mit einem Bild-Asset verknüpfte Bildfeld.
 solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL ImageFieldUpdate]{#imagefieldupdate}
 
-Aktualisiert das Bildfeld, das mit einem Bild-Asset verknüpft ist.
+Aktualisiert das mit einem Bild-Asset verknüpfte Bildfeld.
 
 Syntax
 
@@ -26,4 +26,4 @@ Syntax
 | [!DNL resolution] | `xsd:double` | Bildauflösung in Pixel pro Zoll. |
 | [!DNL anchorX] | `xsd:int` | X-Achsen-Bildanker. |
 | [!DNL anchorY] | `xsd:int` | Y-Achsen-Bildanker. |
-| [!DNL userData] | `xsd:string` | Wert von `userData` Metadatenfeld, das im Feld für den Bilddienst des Benutzerdatenkatalogfelds veröffentlicht wird. |
+| [!DNL userData] | `xsd:string` | Wert des Metadatenfelds &quot;`userData`&quot;, das in das Feld für den Bilddienst des Benutzerdatenkatalogfelds veröffentlicht wird. |

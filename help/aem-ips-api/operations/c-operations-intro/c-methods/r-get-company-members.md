@@ -8,7 +8,7 @@ exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-5602e4d6f2214e398e6a804e61f1a088}
 
-**Eingabe (getCompanyMembersParam)**
+**Input (getCompanyMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, dessen Mitglieder Sie erhalten möchten. |
 | includeInvalid | `xsd:boolean` | Ja | Schließen Sie ungültige Unternehmen ein. |
 
-**Ausgabe (getCompanyMembersReturn)**
+**Output (getCompanyMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Syntax
 
 Dieses Codebeispiel gibt alle Mitglieder eines Unternehmens in einem Benutzer-Array zurück. Die Antwort wurde aus Gründen der Kürze abgeschnitten.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getCompanyMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

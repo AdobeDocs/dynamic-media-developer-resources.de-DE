@@ -22,8 +22,8 @@ Hotspots können entweder eine Schnellansichtsfunktion auf der Hosting-Webseite 
 
 ## Schnellansichts-Hotspots {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Diese Arten von Hotspots sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media von Adobe Experience Manager Assets - On-Demand erstellt werden. Wenn ein Benutzer einen solchen Hotspot aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt ihm die Hotspot-Daten. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite Trigger wird, öffnet sie ihre eigene Schnellansichtsimplementierung.
+Diese Arten von Hotspots sollten mit dem Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media, Adobe Experience Manager Assets - On-Demand erstellt werden. Wenn ein Benutzer einen solchen Hotspot aktiviert, führt der Viewer den JavaScript-Rückruf `quickViewActivate` aus und übergibt ihm die Hotspot-Daten. Es wird erwartet, dass die eingebettete Webseite diesen Rückruf überwacht. Wenn die Seite Trigger wird, öffnet sie ihre eigene Schnellansichtsimplementierung.
 
 ## Zu externer Webseite umleiten {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Hotspots, die für den Aktionstyp &quot;Schnellansicht&quot;in Dynamic Media von Experience Manager Assets erstellt wurden - On-Demand leitet den Benutzer zu einer externen URL weiter. Abhängig von den bei der Bearbeitung vorgenommenen Einstellungen wird die URL in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browser-Fenster geöffnet.
+Hotspots, die in Dynamic Media von Experience Manager Assets für den Aktionstyp &quot;Schnellansicht&quot;erstellt wurden - On-Demand leitet den Benutzer zu einer externen URL um. Abhängig von den bei der Bearbeitung vorgenommenen Einstellungen wird die URL in einer neuen Browser-Registerkarte, im selben Fenster oder im benannten Browser-Fenster geöffnet.

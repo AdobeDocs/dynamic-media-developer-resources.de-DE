@@ -1,23 +1,24 @@
 ---
 title: getComponent
-description: JavaScript-API-Referenz für Smart Crop Video Viewer
+description: JavaScript API-Referenz für Smart Crop Video Viewer
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 76e028b5-e7d6-4cd8-b532-c54c82fd3ebb
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-JavaScript-API-Referenz für Smart Crop Video Viewer.
+JavaScript API-Referenz für Smart Crop Video Viewer.
 
 `getComponent(componentId)`
 
-Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des vordefinierten Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst nach dem `initComplete` Viewer-Rückruf wurde ausgeführt, andernfalls kann die Komponente noch nicht von der Viewer-Logik erstellt werden.
+Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des vordefinierten Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst nach Ausführung des Viewer-Rückrufs `initComplete` auf. Andernfalls kann die Komponente noch nicht von der Viewer-Logik erstellt werden.
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -36,7 +37,7 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Behälter </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +73,7 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Steuerelemente </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Steuerungen </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -102,14 +103,14 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
  </tbody> 
 </table>
 
-Beim Arbeiten mit SDK-APIs ist es wichtig, den richtigen vollständig qualifizierten SDK-Namespace zu verwenden, wie hier beschrieben: [Namespace des Viewer-SDK]
+Beim Arbeiten mit SDK-APIs ist es wichtig, den richtigen vollständig qualifizierten SDK-Namespace zu verwenden, wie im [Viewer SDK-Namespace] beschrieben.
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
 Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur Viewer-SDK-API .
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` wenn die `componentId` ist keine unterstützte Viewer-Komponente oder wenn die Komponente noch nicht von der Viewer-Logik erstellt wurde.
+`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder wenn die Komponente noch nicht von der Viewer-Logik erstellt wurde.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

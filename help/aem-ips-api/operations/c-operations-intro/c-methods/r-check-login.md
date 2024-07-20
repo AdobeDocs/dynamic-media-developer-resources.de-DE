@@ -8,7 +8,7 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -34,7 +34,7 @@ Prüft, ob sich ein Benutzer mit einem bestimmten Unternehmen (identifiziert dur
 
 ## Parameter {#section-1ad4c0b4803b4388aedd655030676cb3}
 
-**Eingabe (checkLoginParam)**
+**Input (checkLoginParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -42,7 +42,7 @@ Prüft, ob sich ein Benutzer mit einem bestimmten Unternehmen (identifiziert dur
 | E-Mail | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
 | Passwort | `xsd:string` | Ja | Das Kennwort des Benutzers. |
 
-**Ausgabe (checkLoginParam)**
+**Output (checkLoginParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -50,9 +50,9 @@ Prüft, ob sich ein Benutzer mit einem bestimmten Unternehmen (identifiziert dur
 
 ## Beispiele {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Dieser Beispielcode verwendet einen Unternehmens-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu bestimmen, ob sich ein Benutzer bei IPS anmelden kann. Wenn der Benutzer *can* anmelden, gibt diese Methode die Zeichenfolge zurück, `ValidLogin`. Wenn der Benutzer *cannot* anmelden, gibt diese Methode die Zeichenfolge zurück, `InvalidLogin`.
+Dieser Beispielcode verwendet einen Unternehmens-Handle-Parameter, eine E-Mail-Adresse und ein Kennwort, um zu bestimmen, ob sich ein Benutzer bei IPS anmelden kann. Wenn sich der Benutzer *can* anmeldet, gibt diese Methode die Zeichenfolge `ValidLogin` zurück. Wenn sich der Benutzer *nicht* anmeldet, gibt diese Methode die Zeichenfolge `InvalidLogin` zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:checkLoginParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

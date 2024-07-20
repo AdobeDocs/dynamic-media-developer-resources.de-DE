@@ -1,23 +1,24 @@
 ---
 title: setAsset
-description: JavaScript-API-Referenz für Smart Crop Video Viewer.
+description: JavaScript API-Referenz für Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 70e2a0c7-8614-432a-9e20-c6d60441bb6c
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 2%
 
 ---
 
 # setAsset{#setasset}
 
-JavaScript-API-Referenz für Smart Crop Video Viewer.
+JavaScript API-Referenz für Smart Crop Video Viewer.
 
 `setAsset(asset[, data])`
 
-Legt das neue Asset und optional zusätzliche Asset-Daten fest. Sie können diesen Parameter jederzeit vor oder nach `init()`. Wenn es nach aufgerufen wird `init()`, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset und optional zusätzliche Asset-Daten fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcrop video/c-html5-aem-smartcrop-video-viewer-javascriptapiref\r-html5-aem-smartvideo-viewer-javascriptapiref-init.md#reference-3b57 0ba8b35045d6b30fb178c21a66c6).
@@ -28,10 +29,10 @@ Siehe auch [init]
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Zeichenfolge </span>} neue Asset-ID. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>} neue Asset-ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Daten </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
    <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} JSON-Objekt mit den folgenden optionalen Feldern (Groß-/Kleinschreibung beachten): </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
       <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> - Bild, das im ersten Frame angezeigt wird, bevor die Videowiedergabe beginnt. Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 

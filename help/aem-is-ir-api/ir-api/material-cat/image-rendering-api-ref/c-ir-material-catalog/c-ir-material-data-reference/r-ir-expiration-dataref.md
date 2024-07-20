@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Die Gültigkeit wird hauptsächlich für Bilddatenantworten festgelegt. Bestimmt
 
 ## Eigenschaften {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-Real number, -2, -1, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als `never expire`. In diesem Fall gibt der Server als Antwort auf die bedingte Bedingung immer den Status 304 (nicht geändert) zurück `GET` -Anfragen, ohne zu überprüfen, ob sich die Datei tatsächlich geändert hat. Auf -2 setzen, um den Standardwert zu verwenden, der von `attribute::Expiration`.
+Real number, -2, -1, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als `never expire` zu markieren. In diesem Fall gibt der Server bei bedingten `GET` -Anfragen immer den Status 304 (nicht geändert) zurück, ohne zu überprüfen, ob die Datei tatsächlich geändert wurde. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
 
 ## Standard {#section-79d71706e12a4493a69d7febc3a1f271}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Richten Sie nach der Installation Dienste ein, die unter dem anderen Benutzerkonto ausgeführt werden.
 
-1. Rufen Sie die Einstellungen der lokalen Sicherheitsrichtlinie von Windows auf, indem Sie **[!UICONTROL Startmenü]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administrationstools]** > **[!UICONTROL Lokale Sicherheitsrichtlinie]**.
-1. Auswählen **[!UICONTROL Sicherheitseinstellungen]** > **[!UICONTROL Lokale Richtlinien]** > **[!UICONTROL Zuweisung von Benutzerrechten]**.
-1. Doppelklicken Sie auf die **[!UICONTROL Als Dienst anmelden]** Richtlinie.
-1. Auswählen **[!UICONTROL Hinzufügen...]** und wählen Sie den Benutzer oder die Gruppe aus und klicken Sie auf **[!UICONTROL Ok]** zur Bestätigung.
+1. Greifen Sie auf die Einstellungen der lokalen Windows-Sicherheitsrichtlinie zu, indem Sie **[!UICONTROL Startmenü]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Systemsteuerung]** > **[!UICONTROL Administrations-Tools]** > **[!UICONTROL Lokale Sicherheitsrichtlinie]** auswählen.
+1. Wählen Sie **[!UICONTROL Sicherheitseinstellungen]** > **[!UICONTROL Lokale Richtlinien]** > **[!UICONTROL Zuweisen von Benutzerrechten]** aus.
+1. Doppelklicken Sie auf die Richtlinie **[!UICONTROL Als Dienst anmelden]** .
+1. Wählen Sie **[!UICONTROL Hinzufügen...]** aus, wählen Sie den Benutzer oder die Gruppe und klicken Sie dann zur Bestätigung auf **[!UICONTROL OK]** .

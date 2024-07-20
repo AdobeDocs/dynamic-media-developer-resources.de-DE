@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '120'
+ht-degree: 2%
 
 ---
 
@@ -21,8 +21,8 @@ Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wiedergabe begi
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Wenn der Wert auf <span class="codeph"> 1 </span> festgelegt ist, beginnt das Video mit dem Download, unmittelbar nachdem das Asset festgelegt wurde. Andernfalls beginnt das Vorausfüllen erst, nachdem die Wiedergabe vom Endbenutzer oder einem API-Aufruf initiiert wurde. </p> <p>Wenn auf <span class="codeph"> 0 </span> gesetzt, funktionieren bestimmte Funktionen möglicherweise erst nach dem Start der Wiedergabe. Insbesondere aktualisiert der Suchvorgang den Video-Frame nicht. Wenn das Standbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Video-Frames angezeigt. </p> <p>Die Deaktivierung der Videovorladung kann in bestimmten Versionen von Internet Explorer 11 und Edge-Browsern ignoriert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Wenn der Wert auf <span class="codeph"> 1 </span> gesetzt ist, beginnt das Video, direkt nach dem Festlegen des Assets herunterzuladen. Andernfalls beginnt das Vorausfüllen erst, nachdem die Wiedergabe vom Endbenutzer oder einem API-Aufruf initiiert wurde. </p> <p>Wenn der Wert auf <span class="codeph"> 0 </span> festgelegt ist, funktionieren bestimmte Funktionen möglicherweise erst nach dem Start der Wiedergabe. Insbesondere aktualisiert der Suchvorgang den Video-Frame nicht. Wenn das Standbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Video-Frames angezeigt. </p> <p>Die Deaktivierung der Videovorladung kann bei bestimmten Versionen von Internet Explorer 11 und Edge ignoriert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

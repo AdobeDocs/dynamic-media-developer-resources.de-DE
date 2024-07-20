@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Benutzerdaten. Der Server gibt den Inhalt dieses Felds als Antwort auf req=userdata an den Client zurück.
 
-Neue Zeilen können mit &quot;??&quot;maskiert werden. Der Server ersetzt &quot;??&quot;durch `<cr><lf>` bevor der Inhalt dieses Felds zurückgegeben wird.
+Neue Zeilen können mit &quot;??&quot;maskiert werden. Der Server ersetzt &quot;??&quot;durch &quot;`<cr><lf>`&quot;, bevor der Inhalt dieses Felds zurückgegeben wird.
 
 ## Eigenschaften {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

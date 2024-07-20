@@ -1,5 +1,5 @@
 ---
-title: JavaScript-API-Referenz für Inline-Zoom-Viewer
+title: JavaScript API-Referenz für Inline-Zoom-Viewer
 description: Die Hauptklasse des Inline-Zoom-Viewers ist FlyoutViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# JavaScript-API-Referenz für Inline-Zoom-Viewer{#javascript-api-reference-for-inline-zoom-viewer}
+# JavaScript API-Referenz für Inline-Zoom-Viewer{#javascript-api-reference-for-inline-zoom-viewer}
 
 Die Hauptklasse des Inline-Zoom-Viewers ist FlyoutViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-In allen folgenden Beispielen `<instance>` steht für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus dem `s7viewers.FlyoutViewer` -Klasse.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.FlyoutViewer`-Klasse instanziiert wird.
 
 * [dispose](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)

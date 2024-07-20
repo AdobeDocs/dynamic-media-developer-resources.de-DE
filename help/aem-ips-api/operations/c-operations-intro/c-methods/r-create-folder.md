@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ Erstellt einen Ordner.
 
 >[!NOTE]
 >
->Der neue Ordner ist auf den Ordner Bilder Untergeordnet, auch wenn Sie eine `/` , um den Stammordner des Unternehmens anzugeben.
+>Der neue Ordner ist dem Ordner Bilder untergeordnet, selbst wenn Sie eine &quot;`/`&quot; angeben, um den Stammordner des Unternehmens anzugeben.
 
 Syntax
 
@@ -37,14 +37,14 @@ Syntax
 
 ## Parameter {#section-c00d8d89cf114886a535056f2a1bf892}
 
-**Eingabe (createFolder)**
+**Input (createFolder)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Umgang mit dem Unternehmen |
 | folderPath | `xsd:string` | Ja | Der Stammordner, der zum Abrufen von Ordnern und allen Unterordnern auf Blattebene verwendet wird. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
 
-**Ausgabe (createFolderParam)**
+**Output (createFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -54,7 +54,7 @@ Syntax
 
 Dieser Beispielcode erstellt einen Ordner im Stammverzeichnis eines Unternehmens. Die Antwort gibt den Handle des neu erstellten Ordners zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:createFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

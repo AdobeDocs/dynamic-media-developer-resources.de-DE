@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_2671D63442B54F659C32C4A3CC61DD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wann das Informationsfeld angezeigt werden soll. </p> <p>Wenn auf <span class="codeph"> 1</span>, wird das Infofeld angezeigt, wenn die Maus den Imagemap-Bereich betritt (falls die Imagemap nicht leer ist). <span class="codeph"> rollover_key</span> -Attribut). </p> <p>Wenn auf <span class="codeph"> 0</span> Infofeld wird ausgelöst, wenn die Imagemap ausgewählt wird (wenn die Imagemap nicht leer ist) <span class="codeph"> rollover_key</span> und leer <span class="codeph"> href</span> -Attribute). </p> <p> Wird auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert und automatisch auf <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p>Gibt an, wann das Informationsfeld angezeigt werden soll. </p> <p>Wenn der Wert auf <span class="codeph"> 1</span> festgelegt ist, wird das Infofeld angezeigt, wenn die Maus in den Imagemap-Bereich gelangt (falls die Imagemap nicht leer ist, Attribut <span class="codeph"> rollover_key</span> ). </p> <p>Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, wird das Infofeld ausgelöst, wenn die Imagemap ausgewählt wird (wenn die Imagemap nicht leere Attribute <span class="codeph"> rollover_key</span> und leere Attribute <span class="codeph"> href</span> aufweist). </p> <p> Wird auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert und automatisch auf <span class="codeph"> 0</span> gesetzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

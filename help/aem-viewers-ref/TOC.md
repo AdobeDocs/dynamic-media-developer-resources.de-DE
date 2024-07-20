@@ -17,9 +17,9 @@ ht-degree: 1%
 + [Beispiele für Viewer-Bibliotheken](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Installieren mehrerer Viewer auf demselben Server](t-installing-the-viewers.md)
-+ Versionshinweise zu Viewers {#viewers-release-notes}
++ Viewer-Versionshinweise {#viewers-release-notes}
    + [Viewer-Versionshinweise (5.16.5)](c-release-notes/c-rn-03-02-22.md)
-   + Archivieren {#archive}
+   + Archiv {#archive}
       + [Viewer-Versionshinweise (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Viewer-Versionshinweise (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Viewer-Versionshinweise (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
@@ -39,7 +39,7 @@ ht-degree: 1%
 + [Viewer-SDK-Tutorial](c-tutorial.md)
 + Viewer für AEM Assets und Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Viewer für AEM Assets und Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
-   + Einfach zoomen {#basic-zoom}
+   + Einfach zoom {#basic-zoom}
       + [Grundlegender Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
       + Befehlsreferenz - Konfigurationsattribute {#command-reference-configuration-attributes-basic-zoom}
          + [Befehlsreferenz - Konfigurationsattribute](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib.md)
@@ -55,8 +55,8 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + JavaScript-API-Referenz für einfachen Zoom-Viewer {#jsapi-basic-zoom}
-         + [JavaScript-API-Referenz für einfachen Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/c-html5-20-basic-zoom-viewer-javascriptapiref.md)
+      + JavaScript API-Referenz für einfachen Zoom-Viewer {#jsapi-basic-zoom}
+         + [JavaScript API-Referenz für einfachen Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/c-html5-20-basic-zoom-viewer-javascriptapiref.md)
          + [BasicZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-basiczoomviewer.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-getcomponent.md)
@@ -132,7 +132,7 @@ ht-degree: 1%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-textpos.md)
-      + JavaScript-API-Referenz für den eCatalog-Viewer {#jsapi-ecatalog}
+      + JavaScript API-Referenz für den eCatalog-Viewer {#jsapi-ecatalog}
          + [JavaScript-API-Referenz für den eCatalog-Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/c-html5-20-ecatalog-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-dispose.md)
          + [eCatalogViewer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-ecatalogviewer.md)
@@ -145,7 +145,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparams.md)
       + [Ereignisrückrufe](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
-      + E-Katalog-Viewer anpassen {#customizing-ecatalog}
+      + Anpassen des E-Katalog-Viewers {#customizing-ecatalog}
          + [E-Katalog-Viewer anpassen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md)
          + [Schaltfläche &quot;Favoriten hinzufügen&quot;](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-addfavorite.md)
          + [Schaltfläche schließen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-closebutton.md)
@@ -195,7 +195,7 @@ ht-degree: 1%
       + [Download](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-download.md)
       + [Favoriten-Funktion](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-favorites-feature.md)
       + [Namespace des Viewer-SDK](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
-   + eCatalog-Suche {#ecatalog-search}
+   + eCatalog Search {#ecatalog-search}
       + [eCatalog-Suche](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
       + Befehlsreferenz - Konfigurationsattribute {#command-reference-configuration-attributes-ecatalog-search}
          + [Befehlsreferenz - Konfigurationsattribute](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
@@ -248,8 +248,8 @@ ht-degree: 1%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
-      + JavaScript-API-Referenz für den eCatalog Search Viewer {#jsapi-ecatalog-search}
-         + [JavaScript-API-Referenz für den eCatalog Search Viewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
+      + JavaScript API-Referenz für den eCatalog Search Viewer {#jsapi-ecatalog-search}
+         + [JavaScript API-Referenz für den eCatalog Search Viewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-dispose.md)
          + [eCatalogSearchViewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-getcomponent.md)
@@ -337,7 +337,7 @@ ht-degree: 1%
          + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-pagemode.md)
          + [Swatches.partialswatches](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-scrollstep.md)
-      + JavaScript-API-Referenz für Flyout-Viewer {#jsapi-flyout}
+      + JavaScript API-Referenz für Flyout-Viewer {#jsapi-flyout}
          + [JavaScript-API-Referenz für Flyout-Viewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/c-html5-flyout-viewer-20-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
          + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)
@@ -382,8 +382,8 @@ ht-degree: 1%
          + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-pagemode.md)
          + [Swatches.partialswatches](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-scrollstep.md)
-      + JavaScript-API-Referenz für Inline-Zoom-Viewer {#jsapi-inline-zoom}
-         + [JavaScript-API-Referenz für Inline-Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/c-html5-inlinezoom-viewer-javascriptapiref.md)
+      + JavaScript API-Referenz für Inline-Zoom-Viewer {#jsapi-inline-zoom}
+         + [JavaScript API-Referenz für Inline-Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/c-html5-inlinezoom-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
          + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-getcomponent.md)
@@ -395,7 +395,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparams.md)
       + [Ereignisrückrufe](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-event-callbacks.md)
-      + Inline-Zoom-Viewer anpassen {#customing-inline-zoom}
+      + Anpassen des Inline-Zoom-Viewers {#customing-inline-zoom}
          + [Inline-Zoom-Viewer anpassen](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md)
          + [Hauptanzeige-Bereich](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-mainviewerarea.md)
          + [Flyout-Zoom-Ansicht](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
@@ -466,7 +466,7 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + JavaScript-API-Referenz für Viewer für gemischte Medien {#jsapi-mixed-media}
+      + JavaScript API-Referenz für Viewer für gemischte Medien {#jsapi-mixed-media}
          + [JavaScript-API-Referenz für Viewer für gemischte Medien](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
@@ -531,8 +531,8 @@ ht-degree: 1%
          + [SpinView.transition](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-transition.md)
          + [SpinView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-zoomstep.md)
          + [ZoomView.enableHD](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-zoomview-enablehd.md)
-      + JavaScript-API-Referenz für Rotationsset-Viewer {#jsapi-spin}
-         + [JavaScript-API-Referenz für Rotationsset-Viewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/c-html5-spin-viewer-javascriptapiref.md)
+      + JavaScript API-Referenz für Rotationsset-Viewer {#jsapi-spin}
+         + [JavaScript API-Referenz für Rotationsset-Viewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/c-html5-spin-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md)
@@ -594,8 +594,8 @@ ht-degree: 1%
          + [Navigation](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-navigation.md)
          + [Video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-video.md)
          + [videoServerUrl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-videoserverurl.md)
-      + JavaScript-API-Referenz zum Video-Viewer {#jsapi-video}
-         + [JavaScript-API-Referenz für Video-Viewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
+      + JavaScript API-Referenz zum Video-Viewer {#jsapi-video}
+         + [JavaScript API-Referenz für Video-Viewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md)
@@ -608,7 +608,7 @@ ht-degree: 1%
          + [setVideo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md)
          + [VideoViewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-videoviewer.md)
       + [Ereignisrückrufe](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md)
-      + Video-Viewer anpassen {#customizing-video-viewer}
+      + Anpassen des Video-Viewers {#customizing-video-viewer}
          + [Video-Viewer anpassen](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md)
          + [Schaltfläche &quot;Beschriftung&quot;](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-captionbutton.md)
          + [Kontrollleiste](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-controlbar.md)
@@ -661,8 +661,8 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + JavaScript-API-Referenz für Zoom-Viewer {#jsapi-zoom}
-         + [JavaScript-API-Referenz für Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
+      + JavaScript API-Referenz für Zoom-Viewer {#jsapi-zoom}
+         + [JavaScript API-Referenz für Zoom-Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md)
@@ -693,7 +693,7 @@ ht-degree: 1%
       + [Lokalisierung der Elemente der Benutzeroberfläche](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [Vollbildunterstützung](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [Namespace des Viewer-SDK](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ Nur Viewer für AEM Assets {#viewers-for-aem-assets-only}
++ Viewer nur für AEM Assets {#viewers-for-aem-assets-only}
    + [Nur Viewer für AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + Karussell {#carousel}
       + [Karussell](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
@@ -711,7 +711,7 @@ ht-degree: 1%
       + Befehlsreferenz - URL {#command-reference-url-carousel}
          + [Befehlsreferenz - URL](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/c-html5-aem-carousel-cmdref-url.md)
          + [preloadimage**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/r-html5-aem-carousel-cmdref-url-preloadimage.md)
-      + JavaScript-API-Referenz für Karussell-Viewer {#jsapi-carousel}
+      + JavaScript API-Referenz für Karussell-Viewer {#jsapi-carousel}
          + [JavaScript-API-Referenz für Karussell-Viewer](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/c-html5-aem-carousel-javascriptapiref.md)
          + [Karussell-Viewer](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-carouselviewer.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-dispose.md)
@@ -724,7 +724,7 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparams.md)
       + [Ereignisrückrufe](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md)
-      + Anpassen des Karussellanzeige {#customizing-carousel}
+      + Anpassen des Karussell-Viewers {#customizing-carousel}
          + [Anpassen des Karussellanzeige](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md)
          + [Karussellansicht](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-carouselview.md)
          + [Fokushervorhebung](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-focushighlight.md)
@@ -821,7 +821,7 @@ ht-degree: 1%
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [Navigation](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + JavaScript-API-Referenz für interaktiven Video-Viewer {#jsapi-interactive-video}
+      + JavaScript API-Referenz für interaktiven Video-Viewer {#jsapi-interactive-video}
          + [JavaScript-API-Referenz für interaktiven Video-Viewer](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -861,7 +861,7 @@ ht-degree: 1%
       + [Lokalisierung der Elemente der Benutzeroberfläche](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
       + [Vollbildunterstützung](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
       + [Namespace des Viewer-SDK](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
-   + Smartes Zuschneiden von Videos {#smartcropvideo}
+   + Smartes Zuschneiden von Video {#smartcropvideo}
       + [Smartes Zuschneiden von Videos](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
       + Befehlsreferenz - Konfigurationsattribute {#command-reference-configuration-attributes-smartcropvideo}
          + [Befehlsreferenz - Konfigurationsattribute](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/c-html5-aem-smartcropvideo-cmdref.md)
@@ -891,8 +891,8 @@ ht-degree: 1%
          + [caption](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-caption.md)
          + [Video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
-      + JavaScript-API-Referenz für Smart Crop Video Viewer {#jsapi-smartcropvideo}
-         + [JavaScript-API-Referenz für Smart Crop Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
+      + JavaScript API-Referenz für Smart Crop Video Viewer {#jsapi-smartcropvideo}
+         + [JavaScript API-Referenz für Smart Crop Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md)
@@ -957,8 +957,8 @@ ht-degree: 1%
          + [Befehlsreferenz - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [Video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
-      + JavaScript-API-Referenz für Video360-Viewer {#jsapi-video360}
-         + [JavaScript-API-Referenz für Video360-Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
+      + JavaScript API-Referenz für Video360 Viewer {#jsapi-video360}
+         + [JavaScript API-Referenz für Video360-Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md)
@@ -971,7 +971,7 @@ ht-degree: 1%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [Ereignisrückrufe](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
-      + Video360-Viewer anpassen {#customizing-video360}
+      + Anpassen des Video360-Viewers {#customizing-video360}
          + [Video360-Viewer anpassen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [Kontrollleiste](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [Freigabe einbetten](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)

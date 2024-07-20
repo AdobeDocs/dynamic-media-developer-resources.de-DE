@@ -7,26 +7,26 @@ role: Developer,User
 exl-id: 21aa4440-c629-440d-b37b-bb98f91ddfd3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # Ereignisrückrufe{#event-callbacks}
 
-Der Viewer unterstützt JavaScript-Ereignis-Rückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
+Der Viewer unterstützt JavaScript-Ereignisrückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
 
 Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
 
 Zu den unterstützten Viewer-Ereignissen zählen:
 
-* `initComplete` - Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass die  `getComponent()` API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
+* `initComplete` - Trigger, in denen die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass die `getComponent()` -API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
 
-* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, der von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
+* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 
    * `objID {String}` wird derzeit nicht verwendet.
    * `compClass {String}` wird derzeit nicht verwendet.
-   * `instName {String}` einen Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
+   * `instName {String}` ein Instanzname der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
    * `timeStamp {Number}` Ereigniszeitstempel.
    * `eventInfo {String}` Ereignis-Payload.
 

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Bei erweiterten Anwendungen ist es möglich, das Ergebnis eines Rendervorgangs als materielles Bild zu verwenden, genau wie ein Bild, das von Image Serving stammt.
 
-Eine Render-Anfrage kann als Materialbild verwendet werden, indem sie sie im `src=` -Befehl wie folgt:
+Eine Render-Anfrage kann als Materialbild verwendet werden, indem sie sie wie folgt im Befehl `src=` angibt:
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-Die `ir` Beim Token wird zwischen Groß- und Kleinschreibung unterschieden.
+Beim `ir` -Token wird zwischen Groß- und Kleinschreibung unterschieden.
 
-Die verschachtelte Anforderung darf nicht den Stammpfad &quot;Image Rendering&quot;enthalten (in der Regel `http:// *[!DNL server]*/ir/render/'`), kann aber Vorab-Verarbeitungsregel-Token enthalten.
+Die verschachtelte Anforderung darf nicht den Stammpfad für das Rendern von Bildern enthalten (normalerweise `http:// *[!DNL server]*/ir/render/'`), kann aber Vorab-Verarbeitungsregel-Token enthalten.
 
 Die folgenden Befehle werden ignoriert, wenn sie in verschachtelten Anforderungen angegeben werden (entweder in der Anfrage-URL oder in `catalog::Modifier` oder `catalog::PostModifier`):
 
@@ -34,6 +34,6 @@ Die folgenden Befehle werden ignoriert, wenn sie in verschachtelten Anforderunge
 * `req=`
 * `bgc=`
 
-Auch ignoriert `attribute::MaxPix` und `attribute::DefaultPix` des Materialkatalogs, der für die verschachtelte Renderanforderung gilt.
+Außerdem werden `attribute::MaxPix` und `attribute::DefaultPix` des Materialkatalogs ignoriert, der für die verschachtelte Renderanforderung gilt.
 
-Das Bildergebnis einer verschachtelten IR-Anforderung kann optional zwischengespeichert werden, indem `cache=on`. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild innerhalb eines angemessenen Zeitraums in einer anderen Anforderung wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden verlustfrei zwischengespeichert.
+Das Bildergebnis einer verschachtelten IR-Anfrage kann optional zwischengespeichert werden, indem `cache=on` eingeschlossen wird. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild innerhalb eines angemessenen Zeitraums in einer anderen Anforderung wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden verlustfrei zwischengespeichert.

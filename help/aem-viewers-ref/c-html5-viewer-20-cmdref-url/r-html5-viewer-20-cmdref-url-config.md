@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 4%
+source-wordcount: '264'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Parameter, die allen Viewern gemeinsam sind.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
    <td colname="col2"> <p>Katalog/ID für die Viewer-Konfiguration. </p> <p> Gibt einen Bildkatalogeintrag an, der die Viewer-Konfigurationseigenschaften im Katalog <span class="codeph"> enthält::UserData </span>. Wenn dieser Befehl vorhanden ist, sendet der Viewer den Befehl <span class="codeph"> req=userdata </span> für <span class="codeph"> configId </span> an den Server und extrahiert Eigenschaften aus der Antwort. Die Eigenschaften werden verwendet, um den Viewer zu initialisieren. Wenn die URL-Zeichenfolge dieselben Eigenschaften angibt, überschreiben sie die Werte aus <span class="codeph"> catalog::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 

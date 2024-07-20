@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c29858a7-6695-4c40-a818-4161a2e97ff5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch</a> </span> </p></td> 
-  <td class="stentry"> <p>Katalogzuordnungsoption. </p></td> 
+  <td class="stentry"> <p>Option für die Katalogzuordnung. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68" type="reference" format="dita" scope="local"> DigimarcId</a> </span> </p></td> 

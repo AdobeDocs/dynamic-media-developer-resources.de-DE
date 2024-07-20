@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| searchString | `xsd:string` | Suchzeichenfolgentext. |
+| searchString | `xsd:string` | Suchzeichenfolgen-Text. |
 | keywordsArray | `types:KeywordsArray` | Array von Suchbegriffen in der Suchzeichenfolge. |
 | status | `xsd:boolean` | True , wenn die Suchzeichenfolge gültig und aktiviert ist. |
 | x | `xsd:int` | X Achsenposition der Suchzeichenfolge. |

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 95bf90d1-071e-467a-87aa-122911125233
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 12%
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Setzt den Viewport zurück, wenn sich der Frame (Bild) ändert. Wenn auf <span class="codeph"> 0</span>beibehalten, bleibt der aktuelle Viewport mit der bestmöglichen Anpassung erhalten, wobei das Seitenverhältnis des neu festgelegten Bildes beibehalten wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Setzt den Viewport zurück, wenn sich der Frame (Bild) ändert. Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, wird der aktuelle Ansichtsport mit der bestmöglichen Anpassung beibehalten, wobei das Seitenverhältnis des neu festgelegten Bildes beibehalten wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

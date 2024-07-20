@@ -8,7 +8,7 @@ exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-bd51ef23deaf434ba2efb8cef2a8b4a5}
 
-**Eingabe (setProjectAssetsParam)**
+**Input (setProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Syntax
 | projectHandle | `xsd:string` | Ja | Projekthandle. |
 | assetHandleArray | `types:HandleArray` | Ja | Das Array der Asset-Handles, die Sie mit dem Projekt verknüpfen möchten. |
 
-**Ausgabe (setProjectAssetsReturn)**
+**Output (setProjectAssetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 
 In diesem Codebeispiel wird einem Projekt ein Asset zugewiesen. Die Anfrage gibt eine Erfolgsanzahl von 1 zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

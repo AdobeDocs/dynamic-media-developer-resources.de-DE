@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '106'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Validierungsrichtlinie für Server-Cache. Gibt an, wann serverseitige Cache-Einträge validiert werden.
 
-Bei der ablaufbasierten Validierung werden Quellmaterialien und Vignetten regelmäßig überprüft, um festzustellen, ob sie sich geändert haben. Bei katalogbasierter Validierung werden Quellbilder nur nach dem `catalog::TimeStamp` geändert.
+Bei der ablaufbasierten Validierung werden Quellmaterialien und Vignetten regelmäßig überprüft, um festzustellen, ob sie sich geändert haben. Bei katalogbasierter Validierung werden Quellbilder erst überprüft, nachdem der `catalog::TimeStamp` -Wert geändert wurde.
 
 Eine Catalog-basierte Validierung wird empfohlen, wenn sowohl Material- als auch Vignettenkataloge verwendet werden. Eine ablaufbasierte Validierung sollte verwendet werden, wenn in Bildwiedergabe-Anforderungen direkt über den Pfad auf Vignetten verwiesen wird.
 
@@ -26,7 +26,7 @@ Enum. 0 zum Auswählen einer ablaufbasierten Validierung. 1 zur Auswahl der Kata
 
 ## Standard {#section-e09f3af8b6b3497d963199988dc5345d}
 
-Vererbt von `default::CacheValidationPolicy` wenn nicht definiert oder leer ist.
+Wird von `default::CacheValidationPolicy` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-b374e4d908e24af8995b2b376ca1be8b}
 

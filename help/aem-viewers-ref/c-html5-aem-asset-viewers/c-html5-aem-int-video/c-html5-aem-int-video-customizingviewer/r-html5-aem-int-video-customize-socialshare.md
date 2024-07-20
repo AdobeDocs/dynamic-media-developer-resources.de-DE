@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 2%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in d
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Vertikale Position des Tools für die Freigabe in sozialen Netzwerken relativ zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Position des Tools für die Freigabe in sozialen Netzwerken im Verhältnis zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in d
    <td colname="col2"> <p> Die Breite des Social-Sharing-Tools. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Social-Sharing-Tools. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,16 +66,16 @@ Das Erscheinungsbild der Schaltfläche für das Social-Sharing-Tool wird mit der
 .s7interactivevideoviewer .s7socialshare .s7socialbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche für das Social-Sharing-Tool**
+**CSS-Eigenschaften der Schaltfläche des Tools für die Freigabe in sozialen Netzwerken**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -83,9 +83,9 @@ Das Erscheinungsbild der Schaltfläche für das Social-Sharing-Tool wird mit der
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#example-1}
 
@@ -112,12 +112,12 @@ Das Erscheinungsbild des Bedienfelds, das die einzelnen Symbole für die Freigab
 .s7interactivevideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**CSS-Eigenschaften des Bedienfelds &quot;Social Share&quot;**
+**CSS-Eigenschaften des Social Share-Bedienfelds**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe des Bedienfelds. </p> </td> 
   </tr> 
  </tbody> 

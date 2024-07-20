@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd1fa0f2-d666-4470-8b5b-673f3c4327e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf das Seitenbild angewendet wird. Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> HTTP-kodiert sein als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span>. </p> <p> <p>Hinweis:  Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf das Seitenbild angewendet wird. Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> HTTP-kodiert sein als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span>. </p> <p> <p>Hinweis: Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

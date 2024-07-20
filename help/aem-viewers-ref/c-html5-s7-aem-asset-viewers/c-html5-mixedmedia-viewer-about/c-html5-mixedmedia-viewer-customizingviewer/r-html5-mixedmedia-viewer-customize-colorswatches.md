@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 3%
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Das Erscheinungsbild des Farbmuster-Containers wird mit der CSS-Klassenauswahl g
    <td colname="col2"> <p>Die Breite der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Der Abstand zwischen den Musterminiaturansichten wird mit der folgenden CSS-Klas
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,11 +97,11 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand der Miniaturansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht für das Bild, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten entspricht und `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansichten unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der Miniaturansicht des Bildes, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten und `state="over"` beim Bewegen der Maus.
 
 Beispiel: Zum Einrichten von Miniaturansichten mit 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen.
 
@@ -132,7 +132,7 @@ Das Erscheinungsbild der linken und rechten Bildlaufschaltflächen wird mit den 
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`, und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -147,7 +147,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren 
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -163,7 +163,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um unterschiedliche Schaltflächenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
 
 Beispiel: Zum Einrichten von Bildlaufschaltflächen mit einer Größe von 56 x 56 Pixel und einer für jeden Status unterschiedlichen Grafik.
 

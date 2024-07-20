@@ -8,7 +8,7 @@ exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 ## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Der Video-Viewer unterstützt [!DNL Adobe Analytics] standardmäßiges Tracking. Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
+Der Video-Viewer unterstützt standardmäßig das [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -62,7 +62,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mit der <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>ein Asset im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

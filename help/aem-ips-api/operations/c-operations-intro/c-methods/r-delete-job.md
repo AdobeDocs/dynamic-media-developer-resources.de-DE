@@ -8,7 +8,7 @@ exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,7 @@ Syntax
 
 ## Parameter {#section-000c42bc93744b1a8e777f3ec3c272b0}
 
-**Eingabe (deleteJobParam)**
+**Input (deleteJobParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Codebeispiel wird ein Auftrag gelöscht, der in IPS ausgeführt wird oder ausgeführt werden soll. Dazu ist ein Auftrags-Handle erforderlich, das Sie von einem anderen Vorgang erhalten müssen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <deleteJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

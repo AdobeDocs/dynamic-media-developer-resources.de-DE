@@ -4,10 +4,11 @@ description: Durch die Schaltfläche "Wiedergabe/Pause"wird der Videoplayer für
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 03b819cc-a709-496a-9edb-29813b13e979
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +31,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +39,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
    <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +51,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -66,11 +67,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state`, `selected`und `replay` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status &quot;play&quot;und `selected='false'` entspricht dem Status &quot;pause&quot;;
+>Diese Schaltfläche unterstützt die Attributselektoren `state`, `selected` und `replay`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;play&quot;und `selected='false'` dem Status &quot;pause&quot;.
 >
->Die Attributauswahl `replay='true'` festgelegt ist, wenn das Video das Ende erreicht hat und die Auswahl der Schaltfläche die Wiedergabe von Anfang an neu startet.
+>Der Attributselektor &quot;`replay='true'`&quot; wird festgelegt, wenn das Video das Ende erreicht hat und durch Auswahl der Schaltfläche die Wiedergabe von Anfang an neu gestartet wird.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

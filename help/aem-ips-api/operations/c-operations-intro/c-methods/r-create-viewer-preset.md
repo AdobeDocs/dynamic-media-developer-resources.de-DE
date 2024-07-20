@@ -8,7 +8,7 @@ exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -27,17 +27,17 @@ Syntax
 
 ## Parameter {#section-aa6dc37e327541ebbfed7685cd8071ff}
 
-**Eingabe (createViewerPresetParam)**
+**Input (createViewerPresetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, das die Viewer-Vorgaben und Assets enthält. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, das die Viewer-Vorgaben und -Assets enthält. |
 | folderHandle | `xsd:string` | Ja | Der Handle des Ordners, der die Assets enthält. |
 | name | `xsd:string` | Ja | Viewer-Name. |
 | Typ | `xsd:string` | Ja | Viewer-Typ. |
 | configSettingArray | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Handles von Bildern enthält, auf die Sie Vorgaben anwenden. |
 
-**Ausgabe (createViewerPresetReturn)**
+**Output (createViewerPresetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

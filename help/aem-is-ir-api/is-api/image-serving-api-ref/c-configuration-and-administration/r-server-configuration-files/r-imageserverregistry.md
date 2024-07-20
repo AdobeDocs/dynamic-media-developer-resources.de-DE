@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -52,4 +52,4 @@ Die folgende Abbildung zeigt, welche Elemente geändert werden können. Andere E
 
 ## Anmerkungen {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Es können mehrere `<RootPath>` -Elemente vorhanden sein (eines für jeden Ordner der Quelldatendatei). Image Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.
+Es können mehrere `<RootPath>` -Elemente vorhanden sein (eines für jeden Ordner mit den Quelldatendateien). Image Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 8%
+source-wordcount: '162'
+ht-degree: 9%
 
 ---
 
@@ -57,18 +57,18 @@ Syntax
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Zeigt an, dass die für die Bereitstellung des Assets verwendeten Katalogmetadaten synchronisiert werden, um sicherzustellen, dass sie aktuell sind. Dieser Parameter wird verwendet, um Race-Bedingungen aufzulösen, die bei nahezu gleichzeitigen Aktualisierungen am selben Datensatz auftreten können. Die Standardeinstellung ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Zeigt an, dass die für die Bereitstellung des Assets verwendeten Katalogmetadaten synchronisiert werden, um sicherzustellen, dass sie aktuell sind. Dieser Parameter wird verwendet, um Race-Bedingungen aufzulösen, die bei nahezu gleichzeitigen Aktualisierungen am selben Datensatz auftreten können. Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array von Handles zu Assets, deren Veröffentlichungsstatus zurückgesetzt werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (forceRepublishAssetsParam)**
+**Output (forceRepublishAssetsParam)**
 
 <table id="table_78E74186669F477E9E2D837D58A789DC"> 
  <thead> 
@@ -82,7 +82,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:PublishStateUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array von Aktualisierungen des Veröffentlichungsstatus. </p> </td> 
   </tr> 

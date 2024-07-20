@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4e843866-75a5-4543-a275-e134b3aee75a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '50'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturansichten angewendet wird. Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> HTTP-kodiert sein als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span>. </p> </td> 
+   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf alle Miniaturen angewendet wird. Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> HTTP-kodiert sein als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

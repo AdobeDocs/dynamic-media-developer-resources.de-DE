@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Die neuesten Versionshinweise zur Adobe Scene7-Herbstversion 2016, Teil der Adob
 
 ## Scene7 Version Herbst 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-Die aktuellen Versionshinweise für [!DNL Adobe Scene7] Version Herbst 2016 [!DNL Adobe Experience Manager] in der [!DNL Adobe Experience Cloud].
+Die neuesten Versionshinweise für die Version [!DNL Adobe Scene7] Herbst 2016, Teil der [!DNL Adobe Experience Manager] -Lösung, in der [!DNL Adobe Experience Cloud] .
 
 * [Allgemein](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -32,7 +32,7 @@ Die aktuellen Versionshinweise für [!DNL Adobe Scene7] Version Herbst 2016 [!DN
 
 Adobe freut sich, die Verfügbarkeit der HTTP/2-Bereitstellung von Inhalten mit dem allgemeinen Vorteil einer verbesserten Leistung bekannt zu geben.
 
-Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalt über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
@@ -40,10 +40,10 @@ Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen**
 
-* Funktion zur Videoneuausgabe aus entfernt [!DNL Adobe Scene7 Publishing System] -Benutzeroberfläche.
+* Die Funktion &quot;Videoneuschnitt&quot;wurde aus der Benutzeroberfläche von [!DNL Adobe Scene7 Publishing System] entfernt.
 * Authentifizierung für alle Scene7-Servlets hinzugefügt, wo dies erforderlich und möglich ist
 * Fehlerbehebung bei der Listenansicht im Papierkorb.
-* Entfernt **Dynamic Media Classic (Scene7)-Administrator erstellen** Benutzerfunktion aus User Management aus Sicherheitsgründen.
+* Die Benutzerfunktion **Dynamic Media Classic (Scene7)-Administrator erstellen** wurde aus Sicherheitsgründen aus der Benutzerverwaltung entfernt.
 * FTP WebAdmin unterstützt jetzt die OKTA-Authentifizierung.
 * Die Funktion des Standardkennworts, das für neue Media Portal-Benutzer erstellt wurde, wurde entfernt.
 * Fehlerbehebung für das temporäre Kennwort, das beim Hinzufügen eines neuen Benutzers generiert wurde. Das Kennwort entsprach nicht den erforderlichen Kennwortanforderungen.
@@ -58,7 +58,7 @@ Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe
 
 ## Viewer (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerbehebungen für Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https
 
 ## Viewer (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerbehebungen für Image Serving 5.5.2**
 
@@ -77,17 +77,17 @@ Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https
 
 ## Viewer (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Die vollständige Dokumentation finden Sie im [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen für Image Serving 5.5.1**
 
 * HTML5 eCatalog-Viewer mit Suchfunktion.
 * Die HLS-Streaming-Videowiedergabe wurde als standardmäßige Videobereitstellungsmethode für die meisten Desktop-Systeme hinzugefügt. Flash-basiertes HDS-Video-Streaming ist weiterhin als alternative Wiedergabemöglichkeit verfügbar.
-* Unterstützung für Geräte mit Maus- und Touch-Eingabe hinzugefügt, die im Chrome-Browser ausgeführt werden.
+* Unterstützung für Geräte mit Maus- und Touch-Eingabe im Chrome-Browser hinzugefügt.
 * Die Analytics-Integration wird nun mit der Experience Cloud-Organisations-ID unterstützt.
-* Aktualisieren Sie die AppMeasurement-JavaScript-Bibliothek auf Version 1.6.1.
+* Aktualisieren Sie AppMeasurement JavaScript Library auf Version 1.6.1.
 * Unterstützung für die Ausrichtung von rechts nach links im E-Katalog-Viewer hinzugefügt.
-* Problem behoben, bei dem `tip=0,-1,0` einen Fehler außerhalb des Bereichs verursacht hat.
+* Es wurde ein Problem behoben, bei dem `tip=0,-1,0` einen Fehler außerhalb des Bereichs verursachte.
 
 **Kompatibilitätshinweise**
 
@@ -127,7 +127,7 @@ Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https
 * HTML5-Video
 
    * Internet Explorer 9: Benutzerdefinierte Posterbilder werden nicht angezeigt.
-   * `IntialBitRate` -Modifikator wird nur bei Software-HLS- und Flash-HDS-Wiedergabe unterstützt. Es funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
+   * Der Modifikator `IntialBitRate` wird nur bei Software-HLS- und Flash-HDS-Wiedergabe unterstützt. Es funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
    * Die progressive OGG- und WebM-Wiedergabe wird derzeit nicht unterstützt.
    * Die Browserskalierung kann dazu führen, dass der Videoplayer eine falsche Größe anzeigt (einschließlich Anzeigeeinstellungen für das Windows OS-Control Panel).
    * Die Videosuche mit HLS-Streaming in Safari kann inkonsistent sein.
@@ -151,26 +151,26 @@ Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https
 
 **Bekannte Probleme und Einschränkungen**
 
-* Die Image Serving-Modifikatoren von `iscommands` werden nicht zum `req=set` Anforderung nach Entwurf. Modifikatoren, die sich nur auf die Bildanzeige auswirken, funktionieren einwandfrei. Modifikatoren, die sich auf die Größe auswirken, müssen in einem komplexen Asset verwendet werden. Beispiel,
+* Die Image Serving-Modifikatoren von `iscommands` werden der `req=set` -Anfrage nicht standardmäßig hinzugefügt. Modifikatoren, die sich nur auf die Bildanzeige auswirken, funktionieren einwandfrei. Modifikatoren, die sich auf die Größe auswirken, müssen in einem komplexen Asset verwendet werden. Beispiel:
 
   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [Flyout] IE9 bleibt manchmal auf dem Bildschirm, wenn die Maus ausgeschaltet ist.
+* [Flyout] IE9 bleibt manchmal auf dem Bildschirm, nachdem die Maus deaktiviert wurde.
 * Die Browserskalierung führt zu einer falschen Größenanpassung.
 * iPad 2: Das große E-Katalog-Asset stürzt Safari auf iOS ab.
 * Alle Viewer
 
    * Wasserzeichen, Verschleierung und Sperren werden nicht unterstützt.
    * Bildvorgaben werden nicht unterstützt.
-   * Hinzufügen oder Entfernen des Viewers aus dem DOM mithilfe von `display:none` CSS oder durch dynamisches Trennen vom übergeordneten Knoten wird derzeit nicht unterstützt.
+   * Das Hinzufügen oder Entfernen des Viewers aus dem DOM mithilfe von `display:none` CSS oder durch das dynamische Trennen vom übergeordneten Knoten wird derzeit nicht unterstützt.
 
 * HTML 5 Alle Viewer
 
    * Das Einbetten des Viewers in eine Tabelle kann zu einer falschen Größe oder Platzierung des Viewers im nicht nativen Vollbildmodus führen. Verwenden Sie stattdessen DIVs.
-   * Parameter mit expliziten Instanznamen im Code erfordern, dass auch Instanznamen in der URL überschrieben werden (z. B. `zoomView.iconfeffect=0`).
+   * Parameter mit expliziten Instanznamen im Code erfordern auch, dass Instanznamen in der URL überschrieben werden (z. B. `zoomView.iconfeffect=0`).
    * Image Serving-Befehlszuschnitt wird derzeit nicht unterstützt.
    * Die Schaltfläche Schließen funktioniert nur, wenn der Viewer im untergeordneten Fenster geöffnet ist.
-   * Die `iscommands` -Modifikator unterstützt keine Image Serving-Modifikatoren, die sich auf die Bildgröße auswirken.
+   * Der Modifikator `iscommands` unterstützt keine Image Serving-Modifikatoren, die sich auf die Bildgröße auswirken.
 
 * HTML5 eCatalog
 
@@ -186,11 +186,11 @@ Die vollständige Dokumentation finden Sie unter [Viewer-Referenzhandbuch](https
 
 * HTML5 Social
 
-   * Um Miniaturansichten in ausgehenden E-Mails korrekt zu rendern, muss die `serverurl` -Modifikator muss über eine absolute URL verfügen.
+   * Um Miniaturansichten in ausgehenden E-Mails korrekt wiederzugeben, muss der Modifikator `serverurl` über eine absolute URL verfügen.
 
 * HTML5-Video
 
-   * Beim Posterbild kann der Fehler &quot;max size&quot;auftreten. Das Unternehmen muss die Einstellung für die Beschränkung für die Veröffentlichung auf Image Serving erhöhen.
+   * Beim Posterbild kann der Fehler &quot;max size&quot;auftreten. Das Unternehmen muss die Limit-Einstellung für Image Serving Publish erhöhen.
    * Für Videountertitel ist ein Regelsatz erforderlich, wenn das Hosting der HTML-Seite von einem externen Server (nicht von einem Scene7-Server) aus erfolgt. Wenden Sie sich an den Adobe-Support , um Hilfe zu erhalten.
    * Das Analytics-Tracking meldet aufgrund der Pufferung möglicherweise einen falschen Wiedergabeprozentsatz
    * Auf iPad- oder Android™-Geräten wird möglicherweise ein schwarzer Frame anstelle eines Standbilds angezeigt.
@@ -208,7 +208,7 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 **Fehlerbehebungen für 3.0.2**
 
 * VideoPlayer - Video konnte in Internet Explorer 11 unter Windows 7 nicht wiedergegeben werden.
-* TableOfContents -  `initialframe` hatte keine Auswirkungen auf den Hochformat-Modus auf Mobilgeräten für HTML5 eCatalog-Viewer.
+* TableOfContents - `initialframe` hatte keine Auswirkungen auf den Hochformat-Modus auf Mobilgeräten für HTML5 eCatalog-Viewer.
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen für 3.0.1**
 
@@ -226,7 +226,7 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 
 * FlyoutzoomView
 
-   * Fester Fall, wenn `tip=0,-1,0` einen Fehler außerhalb des Bereichs verursacht hat.
+   * Es wurde ein Fall behoben, bei dem `tip=0,-1,0` einen Fehler verursachte, der außerhalb des Bereichs lag.
 
 **Kompatibilitätshinweise**
 
@@ -291,9 +291,9 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 
 * Alle Komponenten
 
-   * In den Versionen 2.7.2 und früher wurden einige Komponenten zum DOM hinzugefügt, indem `insertBefore()` API. Daher würden sich solche Komponenten in der Stapelreihenfolge am unteren Rand befinden, unabhängig davon, ob die Komponenteninstanz relativ zu anderen Komponenten erstellt wird. Ab Version 2.8.1 verwenden alle Komponenten `appendChild()` API jetzt, was bedeutet, dass die Komponentenstapelreihenfolge mit der Reihenfolge der Instanzerstellung übereinstimmt.
+   * In den Versionen 2.7.2 und früher wurden einige Komponenten mithilfe der `insertBefore()` -API zum DOM hinzugefügt. Daher würden sich solche Komponenten in der Stapelreihenfolge am unteren Rand befinden, unabhängig davon, ob die Komponenteninstanz relativ zu anderen Komponenten erstellt wird. Mit Version 2.8.1 verwenden jetzt alle Komponenten die `appendChild()` -API, was bedeutet, dass die Komponentenstapelreihenfolge mit der Reihenfolge der Instanzerstellung übereinstimmen würde.
 
-   * Verwenden `iscommand` -Modifikator zum Festlegen des Alphakanalformats nicht unterstützt. Komponente verwenden `FMT` -Parameter.
+   * Die Verwendung des Modifikators `iscommand` zum Festlegen des Alphakanalformats für Bilder wird nicht unterstützt. Verwenden Sie stattdessen den Parameter &quot;component `FMT`&quot;.
    * CSS-Transformationseigenschaft wird derzeit nicht unterstützt.
 
 * Touch-Geräte
@@ -311,7 +311,7 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 
 * IconEffect-Komponente
 
-   * IconEffect erzeugt in Internet Explorer einen Skriptfehler, wenn `autohide` ist deaktiviert (festgelegt auf `0`).
+   * IconEffect erzeugt einen Skriptfehler in Internet Explorer, wenn `autohide` deaktiviert ist (auf `0` festgelegt).
 
 * ImageMapEffect-Komponente
 
@@ -327,7 +327,7 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 
 * PageScrubber-Komponente
 
-   * Wenn in iPhone 5 die &quot;PageScrubber&quot;-Blase auf &quot;text&quot;gesetzt ist, werden beim Verschieben der Schaltfläche entlang der Spur Artefakte angezeigt. Verwenden `-webkit-background-clip: content;` im Stil funktioniert um das Problem zu umgehen.
+   * Wenn in iPhone 5 die &quot;PageScrubber&quot;-Blase auf &quot;text&quot;gesetzt ist, werden beim Verschieben der Schaltfläche entlang der Spur Artefakte angezeigt. Die Verwendung von `-webkit-background-clip: content;` im Stil funktioniert um das Problem herum.
 
 * SpinView-Komponente
 
@@ -336,7 +336,7 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 * Farbfeldkomponente
 
    * Bei der Auswahl eines Out-of-Bounds-Musters werden zwei Highlights angezeigt.
-   * Automatisches Scrollen mit `selectSwatch()` -Methode nicht korrekt funktioniert.
+   * Automatischer Bildlauf mit der Methode `selectSwatch()` funktioniert nicht ordnungsgemäß.
 
 * VideoPlayer
 
@@ -347,5 +347,5 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 
 ## Dynamic Media Image Serving 6.3.2 und Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC-Dienstprogramm - `downsample2x2` -Markierung wird nicht mehr unterstützt. Diese Markierung war ein schlechter Downsampler von 2x2-Qualität, der nicht mehr von IPS verwendet wird.
-* CORS-Kopfzeile - Derzeit ist der CORS-Header für `/is/content/` -Anfragen.
+* IC utility - Das Flag `downsample2x2` wird nicht mehr unterstützt. Diese Markierung war ein schlechter Downsampler von 2x2-Qualität, der nicht mehr von IPS verwendet wird.
+* CORS-Kopfzeile - Derzeit ist der CORS-Header für `/is/content/`-Anforderungen konfiguriert.

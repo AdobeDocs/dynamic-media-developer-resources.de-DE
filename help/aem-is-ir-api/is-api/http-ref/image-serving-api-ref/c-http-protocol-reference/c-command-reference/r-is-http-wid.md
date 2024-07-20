@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 2%
+source-wordcount: '273'
+ht-degree: 1%
 
 ---
 
@@ -25,17 +25,17 @@ Anzeigebreite. Gibt die Breite des Antwortbilds (Ansichtsbild) an, wenn fit= in 
  </tr> 
 </table>
 
-Wenn `hei=` und `scl=` festgelegt sind, kann das zusammengesetzte Bild je nach `align=` -Attribut. Wann `fit=` vorhanden ist, `wid=` gibt die genaue, minimale oder maximale Bildbreite der Antwort an; siehe Beschreibung von `fit=` für Details.
+Wenn sowohl `hei=` als auch `scl=` angegeben sind, kann das zusammengesetzte Bild gemäß dem Attribut `align=` zugeschnitten werden. Wenn `fit=` vorhanden ist, gibt `wid=` die genaue, minimale oder maximale Breite des Antwortbilds an. Weitere Informationen finden Sie in der Beschreibung von `fit=`.
 
-Wenn `scl=` nicht angegeben ist, wird das zusammengesetzte Bild auf die Anpassung skaliert. Wenn `wid=` und `hei=` festgelegt sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar ist. In diesem Fall wird das Bild innerhalb des Ansichtsrechtecks entsprechend der `align=` -Attribut.
+Wenn `scl=` nicht angegeben ist, wird das Composite-Bild skaliert, um passend zu sein. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar gemacht wird. In diesem Fall wird das Bild im Ansichtsrechteck gemäß dem Attribut `align=` positioniert.
 
 >[!NOTE]
 >
->Ein Fehler wird zurückgegeben, wenn die berechnete oder die standardmäßige Antwortbildgröße größer ist als `attribute::MaxPix`.
+>Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
 
 ## Standard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Wenn `wid=`, `hei=`, noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
+Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
 
 ## Eigenschaften {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,11 +43,11 @@ Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Beispiel {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben rechts aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
+Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben rechts aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor` gefüllt.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Das gleiche Bild, das mit einer festen Breite von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Höhe, um das Seitenverhältnis des Bildes beizubehalten. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. In diesem Fall `align=` keine Wirkung hätte.
+Das gleiche Bild, das mit einer festen Breite von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Höhe, um das Seitenverhältnis des Bildes beizubehalten. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. In diesem Fall hätte `align=` überhaupt keine Auswirkung.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200`
 

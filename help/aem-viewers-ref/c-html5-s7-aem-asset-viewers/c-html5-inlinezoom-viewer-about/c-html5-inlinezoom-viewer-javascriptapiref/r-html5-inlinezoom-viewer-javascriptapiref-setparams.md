@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: JavaScript-API-Referenz für Inline-Zoom-Viewer.
+description: JavaScript API-Referenz für Inline-Zoom-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setParams{#setparams}
 
-JavaScript-API-Referenz für Inline-Zoom-Viewer.
+JavaScript API-Referenz für Inline-Zoom-Viewer.
 
 ` setParams( *`params`*)`
 
@@ -22,12 +22,12 @@ JavaScript-API-Referenz für Inline-Zoom-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> Name=Wert Parameterpaare, durch die <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, getrennt durch <span class="codeph"> und </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt einen oder mehrere Parameter auf einen bestimmten Wert fest. Die Methodenargument-Syntax ist mit einer URL-Abfragezeichenfolge identisch. Das heißt, es stellt Name=Wert-Paare dar, getrennt durch `&`. Dasselbe wie in einer Abfragezeichenfolge sind Namen und Werte prozentual mit UTF8 kodiert. Vor dem Aufruf `init()`, muss dieser Parameter aufgerufen werden. Diese Methode ist optional, wenn Informationen zur Viewer-Konfiguration mit `config` JSON-Objekt an den Konstruktor.
+Legt einen oder mehrere Parameter auf einen bestimmten Wert fest. Die Methodenargument-Syntax ist mit einer URL-Abfragezeichenfolge identisch. Das heißt, es stellt Name=Wert-Paare dar, getrennt durch `&`. Dasselbe wie in einer Abfragezeichenfolge sind Namen und Werte prozentual mit UTF8 kodiert. Bevor Sie `init()` aufrufen, muss dieser Parameter aufgerufen werden. Diese Methode ist optional, wenn Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 

@@ -8,7 +8,7 @@ exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrls</a> </p> </td> 
-  <td class="stentry"> <p>Zulassen von <span class="codeph"> src=</span> URLs. </p></td> 
+  <td class="stentry"> <p>Zulassen von absoluten <span class="codeph"> src=</span> URLs. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> RootUrl </a> </p></td> 
@@ -74,11 +74,11 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d" type="reference" format="dita" scope="local"> OnFailObj </a> </p></td> 
-  <td class="stentry"> <p>Verhalten bei <span class="codeph"> obj=</span> fehlschlägt. </p></td> 
+  <td class="stentry"> <p>Verhalten, wenn <span class="codeph"> obj=</span> fehlschlägt. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513" type="reference" format="dita" scope="local"> OnFailSel </a> </p></td> 
-  <td class="stentry"> <p>Verhalten bei <span class="codeph"> sel=</span> fehlschlägt. </p></td> 
+  <td class="stentry"> <p>Verhalten, wenn <span class="codeph"> sel=</span> fehlschlägt. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> ErrorImage </a> </p></td> 
@@ -102,7 +102,7 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains </a> </p> </td> 
-  <td class="stentry"> <p>Zugriff auf Webdomänen gestattet <span class="filepath"> swf</span> Antwortbilder. </p></td> 
+  <td class="stentry"> <p>Webdomänen, die auf die Antwortbilder von <span class="filepath"> swf</span> zugreifen dürfen. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter </a> </p></td> 
@@ -131,7 +131,7 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
 
 <table id="simpletable_C26EE9BA4B1744CFA605C9AEDF238089"> 
  <thead class="sthead"> 
-  <td class="stentry"> <p>Antwortbildattribute </p></td> 
+  <td class="stentry"> <p>Attribute des Antwortbilds </p></td> 
   <td class="stentry"> <p>Beschreibung </p></td> 
  </thead> 
  <tr class="strow"> 
@@ -159,7 +159,7 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
   <td class="stentry"> <p>Standardmäßige JPEG-Qualität. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TIFFEncoding </a> </p></td> 
   <td class="stentry"> <p>TIFF-Kodierungsformat. </p></td> 
  </tr> 
 </table>

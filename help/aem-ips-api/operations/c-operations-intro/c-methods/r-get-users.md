@@ -8,7 +8,7 @@ exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gru
 |---|---|---|---|
 | includeInactive | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
 | includeInvalid | `xsd:boolean` | Nein | Hiermit können Sie ungültige Benutzer ein-/ausschließen. |
-| companyHandleArray | `types:HandleArray` | Nein | Ergebnisse nach Unternehmen filtern. |
+| companyHandleArray | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Unternehmen. |
 | groupHandleArray | `types:HandleArray` | Nein | Ergebnisse nach Gruppe filtern. |
 | userRoleArray | `types:StringArray` | Nein | Ergebnisse nach Benutzerrolle filtern. |
 | charFilterField | `xsd:string` | Nein | Ergebnisse nach dem Zeichenfolgenpräfix des Felds filtern (siehe [!DNL Trash State).] |
@@ -47,7 +47,7 @@ Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gru
 
 Dieses Codebeispiel gibt das Array von Benutzern für mehrere optionale Parameter zurück. Benutzerrollen, Benutzerzeichenfilterfelder und Benutzersortierungsfelder werden mithilfe bestimmter Zeichenfolgenkonstanten bestimmt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getUsersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

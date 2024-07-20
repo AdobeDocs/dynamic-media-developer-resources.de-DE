@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Kataloganmerkungszeichenfolge. Textzeichenfolge, mit der die Katalogversion, das Veröffentlichungsdatum usw. identifiziert werden kann.
 
-Der Inhalt dieses Felds wird mit `req=catalogprops`. Dieses Attribut wird andernfalls nicht verwendet.
+Der Inhalt dieses Felds wird mit `req=catalogprops` zurückgegeben. Dieses Attribut wird andernfalls nicht verwendet.
 
 ## Eigenschaften {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
@@ -24,7 +24,7 @@ Textzeichenfolge.
 
 ## Standard {#section-82e5a885e142414f996c609efbb962b1}
 
-Vererbt von `default::PublishInfo` wenn nicht definiert oder leer ist.
+Wird von `default::PublishInfo` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

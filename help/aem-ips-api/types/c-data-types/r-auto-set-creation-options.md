@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Array von [!DNL PropertySet] behandelt das Definieren der automatischen Skripte zur Set-Erstellung, die während des Uploads angewendet werden. |
+| autoSetsArray | `types:HandleArray` | Array von [!DNL PropertySet] verarbeitet die automatischen Skripte zur Set-Generierung, die beim Hochladen angewendet werden. |

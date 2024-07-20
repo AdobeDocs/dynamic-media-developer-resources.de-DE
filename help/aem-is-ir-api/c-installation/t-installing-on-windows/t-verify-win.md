@@ -18,12 +18,12 @@ Nachdem Sie Dynamic Media Image Serving installiert haben, sollten Sie die Insta
 
 Der Image-Server wird als Windows-Dienst installiert.
 
-1. Öffnen Sie das Control Panel für Dienste und überprüfen Sie, ob `Dynamic Media Image Serving` ist mit dem Status `Started`.
+1. Öffnen Sie das Control Panel für Dienste und überprüfen Sie, ob `Dynamic Media Image Serving` den Status `Started` aufweist.
 1. Öffnen Sie einen Internet-Browser auf demselben oder einem anderen Host und überprüfen Sie die standardmäßigen Server-Antworten:
 
    `http:// server:port /is/image`
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Auf Vorhandensein von &quot; `imageServer.`&quot;Elemente in der Antwort, die darauf hinweisen, dass der Image-Server überwacht.
+Überprüfen Sie, ob in der Antwort &quot;`imageServer.`&quot;-Elemente vorhanden sind, die darauf hinweisen, dass der Image-Server überwacht.
 >Zusätzliche Überprüfungen können mit den Beispielseiten der Dokumentations- und Demopakete durchgeführt werden, sofern sie installiert sind.

@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: f6b25105-7b70-48f7-b3d6-e53110fd628b
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
 # ZoomView.enableHD{#zoomview-enablehd}
 
-` [ZoomView.|<containerId>_zoomView.]enableHD=always|never|limit[, *`Nummer`*]`
+` [ZoomView.|<containerId>_zoomView.]enableHD=always|never|limit[, *`number`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Aktivieren, Beschränken oder Deaktivieren der Optimierung für Geräte, auf denen <span class="codeph"> devicePixelRatio</span> größer als <span class="codeph"> 1</span>: Geräte mit hoher Dichte, wie iPhone4 und ähnliche Geräte. Wenn diese Option aktiviert ist, beschränkt die Komponente die Größe der IS-Bildanforderung so, als hätte das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> und so die Bandbreite zu reduzieren. </p> <p>Siehe Beispiel 2 unten. </p> </td> 
+   <td colname="col2"> <p> Aktivieren, beschränken oder deaktivieren Sie die Optimierung für Geräte, bei denen <span class="codeph"> devicePixelRatio</span> größer als <span class="codeph"> 1</span> ist, d. h. für Geräte mit hoher Dichte wie iPhone4 und ähnliche Geräte. Wenn diese Option aktiviert ist, beschränkt die Komponente die Größe der IS-Bildanforderung so, als hätte das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> und reduziert so die Bandbreite. </p> <p>Siehe Beispiel 2 unten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Nummer</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> number</span></span> </p> </td> 
    <td colname="col2"> <p> Bei Verwendung der Grenzeinstellung ermöglicht die Komponente eine hohe Pixeldichte nur bis zum angegebenen Grenzwert. </p> <p>Siehe Beispiel 2 unten. </p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ Die folgenden Ergebnisse werden erwartet, wenn Sie dieses Konfigurationsattribut
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> immer</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> always</span> </p> </td> 
    <td colname="col2"> <p>Die Pixeldichte des Bildschirms/Geräts wird immer berücksichtigt. </p> <p> 
      <ul id="ul_D8F31FDFCDB74B75A3B1BFBEE33AF2E2"> 
       <li id="li_8A1C6DCCE10545349C73029729211BB2"> <p>Wenn die Pixeldichte des Bildschirms = 1 ist, beträgt das angeforderte Bild 1000 x 1000. </p> </li> 
@@ -59,16 +59,16 @@ Die folgenden Ergebnisse werden erwartet, wenn Sie dieses Konfigurationsattribut
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> nie</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> never</span> </p> </td> 
    <td colname="col2"> <p>Dabei wird immer die Pixeldichte 1 verwendet und die HD-Funktion des Geräts ignoriert. Daher beträgt das angeforderte Bild immer 1000 x 1000. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> limit&lt;number&gt;</span> </p> </td> 
-   <td colname="col2"> <p>Eine Geräte-Pixeldichte wird nur angefordert und bereitgestellt, wenn das resultierende Bild unter der angegebenen Grenze liegt. </p> <p>Die Begrenzungsnummer bezieht sich entweder auf die Breite oder die Höhe. </p> <p> 
+   <td colname="col2"> <p>Eine Geräte-Pixeldichte wird nur angefordert und bereitgestellt, wenn das resultierende Bild unter der angegebenen Grenze liegt. </p> <p>Die Begrenzungsnummer bezieht sich entweder auf die Breite oder die Höhendimension. </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Wenn der Grenzwert 1600 beträgt und die Pixeldichte 1,5 beträgt, wird das Bild 1500 x 1500 bereitgestellt. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Wenn der Grenzwert 1600 beträgt und die Pixeldichte 2 beträgt, wird das Bild 1000 x 1000 bereitgestellt, da das Bild 2000 x 2000 den Grenzwert überschreitet. </p> </li> 
-     </ul> </p> <p><b>Best Practice</b>: Die Begrenzungsnummer muss mit der Unternehmenseinstellung verwendet werden, um ein Bild mit der maximalen Größe zu erhalten. Stellen Sie daher die Höchstzahl so ein, dass sie der Einstellung für die maximale Bildgröße des Unternehmens entspricht. </p> </td> 
+     </ul> </p> <p><b>Best Practice</b>: Die Begrenzungsnummer muss mit der Unternehmenseinstellung funktionieren, damit Bilder mit der maximalen Größe angezeigt werden. Stellen Sie daher die Höchstzahl so ein, dass sie der Einstellung für die maximale Bildgröße des Unternehmens entspricht. </p> </td> 
   </tr> 
  </tbody> 
 </table>

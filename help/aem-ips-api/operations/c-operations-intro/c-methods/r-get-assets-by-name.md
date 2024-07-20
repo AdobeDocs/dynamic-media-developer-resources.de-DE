@@ -8,7 +8,7 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ Syntax
 
 ## Parameter {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
-**Eingabe (getAssetsByNameParam)**
+**Input (getAssetsByNameParam)**
 
 <table id="table_CE7B503B0E074719A523B458DF3A7286"> 
  <thead> 
@@ -67,25 +67,25 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Array von Asset-Namen, die abgerufen werden sollen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Array von Asset-Typen, die für abgerufene Assets zulässig sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Array von Asset-Typen, die für abgerufene Assets ausgeschlossen sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Array von Asset-Untertypen, die für abgerufene Assets zulässig sind. </td> 
   </tr> 
@@ -93,24 +93,24 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> ist nicht leer, nur Assets, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> zurückgegeben. </p> <p>Wenn <span class="codeph"> false</span>, werden Assets ohne definierten Untertyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer sind, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. </p> <p>Wenn der Wert <span class="codeph"> false</span> ist, werden Assets ohne definierten Untertyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Enthält eine Liste von Feldern und Unterfeldern, die in der Antwort enthalten sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Enthält eine Liste von Feldern und Unterfeldern, die von der Antwort ausgeschlossen sind. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (getAssetsByNameReturn)**
+**Output (getAssetsByNameReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -120,7 +120,7 @@ Syntax
 
 Dieses Codebeispiel gibt zwei Bildtyp-Assets zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getAssetsByNameParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

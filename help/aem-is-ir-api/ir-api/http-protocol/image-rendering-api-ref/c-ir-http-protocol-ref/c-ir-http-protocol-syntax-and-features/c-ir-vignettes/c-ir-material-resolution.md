@@ -18,4 +18,4 @@ Der Auflösungswert einer wiederholbaren Textur oder eines anderen Materials def
 
 Die Werte für die Texturauflösung werden in Pixel pro Zoll angegeben (oder je nachdem, welche Einheiten die Vignette für den Koordinatenraum der Szene vorgibt).
 
-Die Materialauflösung wird mit `res=`.
+Die Materialauflösung ist mit `res=` angegeben.

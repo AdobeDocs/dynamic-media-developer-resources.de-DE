@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 04dac817-e273-4e9e-8ddf-b009f0b04d25
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 16%
+source-wordcount: '29'
+ht-degree: 10%
 
 ---
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
-[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`Zeit`*]`]
+[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`time`*]`]
 
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
@@ -23,7 +23,7 @@ ht-degree: 16%
    <td colname="col2"> <p> Gibt den Typ der Infofeld-Animation ein-/ausblenden an. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> Zeit</span></span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
    <td> <p> Dauer (in Sekunden) für die Ein- oder Ausblenden-Animation. </p> </td> 
   </tr> 
  </tbody> 

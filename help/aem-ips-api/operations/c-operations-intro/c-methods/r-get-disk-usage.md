@@ -8,7 +8,7 @@ exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück
 
 ## Parameter {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
 
-**Eingabe (getDiskUsageParam)**
+**Input (getDiskUsageParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -41,7 +41,7 @@ Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück
 
 Der Name dieser Anfrage ist irreführend. Statt lediglich einen Skalarwert zurückzugeben, der angibt, wie viel Festplattenspeicher ein Unternehmen verwendet, erhält es auch andere Informationen über die Struktur eines Unternehmens.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getDiskUsageParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

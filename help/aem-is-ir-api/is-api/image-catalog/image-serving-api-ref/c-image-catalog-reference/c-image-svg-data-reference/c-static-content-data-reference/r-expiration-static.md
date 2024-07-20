@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ Für diese Antworttypen wird Ablauf verwendet:
 * `req=userdata`
 * `req=map`
 
-Bestimmte Arten von Antworten (z. B. Fehlerantworten) werden immer für den sofortigen Ablauf markiert (oder als nicht zwischenspeicherbar markiert), während andere (z. B. Eigenschaften- oder Standard-Bildantworten) spezielle Ablaufeinstellungen ( `attribute::NonImgExpiration` und `attribute::DefaultExpiration`).
+Bestimmte Arten von Antworten (z. B. Fehlerantworten) werden immer für den sofortigen Ablauf markiert (oder als nicht zwischenspeicherbar markiert), während andere (z. B. Eigenschaften oder standardmäßige Bildantworten) spezielle Ablaufeinstellungen ( `attribute::NonImgExpiration` und `attribute::DefaultExpiration`) verwenden.
 
 ## Eigenschaften {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Real number, -2, -1 oder 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als *`never expire`*. In diesem Fall gibt der Server bei bedingten GET immer den Status 304 (nicht geändert) zurück, ohne zu überprüfen, ob sich die Datei tatsächlich geändert hat. Auf -2 setzen, um den Standardwert zu verwenden, der von `attribute::Expiration`.
+Real number, -2, -1 oder 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als *`never expire`* zu markieren. In diesem Fall gibt der Server bei bedingten GET immer den Status 304 (nicht geändert) zurück, ohne zu überprüfen, ob sich die Datei tatsächlich geändert hat. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
 
 ## Standard {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

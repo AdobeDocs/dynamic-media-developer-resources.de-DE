@@ -1,14 +1,14 @@
 ---
 description: Eigenschaften eines Zoomziels.
 solution: Experience Manager
-title: Zoomziel
+title: ZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,7 @@ Syntax
 | xPosition | `xsd:int` | Die X-Position des Zoomziels. |
 | yPosition | `xsd:int` | Die Y-Position des Zoomziels. |
 | Breite | `xsd:int` | Zoom der Zielbreite |
-| Höhe | `xsd:int` | Zoom der Zielhöhe |
-| Benutzerdaten | `xsd:string` | Benutzerdaten, die mit dem Zoomziel verknüpft sind. |
-| position | `xsd:int` | Ermöglicht die Sortierung von mit einem Asset verknüpften Zoom-Zielen basierend auf der Position |
+| Höhe | `xsd:int` | Zoom der Zielhöhe. |
+| userData | `xsd:string` | Benutzerdaten im Zusammenhang mit dem Zoomziel. |
+| Position | `xsd:int` | Ermöglicht die Sortierung von mit einem Asset verknüpften Zoom-Zielen basierend auf der Position |
 | lastModified | `xsd:dateTime` | Datum der letzten Änderung. |

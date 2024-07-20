@@ -8,7 +8,7 @@ exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -31,14 +31,14 @@ Syntax
 
 ## Parameter {#section-9c75b00f2072453abea0bdefc6ad7c99}
 
-**Eingabe (checkAssetNamesParam)**
+**Input (checkAssetNamesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen, das den Benutzer enthält. |
 | assetNamesArray | `types:StringArray` | Ja | Ein Array von Asset-Namen, die überprüft werden sollen. |
 
-**Ausgabe (checkAssetNamesReturn)**
+**Output (checkAssetNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -48,7 +48,7 @@ Syntax
 
 Dieser Beispielcode fordert die Asset-Namen an, die für ein bestimmtes Unternehmen verwendet werden. Die Antwort gibt ein Array von Asset-Namen zurück, die verwendet werden.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <checkAssetNamesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10">

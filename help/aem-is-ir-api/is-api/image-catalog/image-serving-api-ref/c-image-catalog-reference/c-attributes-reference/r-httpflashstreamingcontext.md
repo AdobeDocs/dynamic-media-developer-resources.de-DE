@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Flash Streaming Server URL-Präfix. Flash Streaming Server URL-Präfix, das beim
 
 ## Eigenschaften {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-Zeichenfolge, die das URL-Präfix darstellt. Beispiel, `http://my.server.com/flash/streaming`.
+Zeichenfolge, die das URL-Präfix darstellt. Beispiel: `http://my.server.com/flash/streaming`.
 
 ## Standard {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 

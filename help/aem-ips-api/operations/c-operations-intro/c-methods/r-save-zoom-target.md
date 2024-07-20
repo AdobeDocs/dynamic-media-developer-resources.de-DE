@@ -8,7 +8,7 @@ exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-4a23983cae4e49a098e9bbe736933996}
 
-**Eingabe (saveZoomTargetParam)**
+**Input (saveZoomTargetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -40,10 +40,10 @@ Syntax
 | xPosition | `xsd:int` | Ja | Position des linken Pixels. |
 | yPosition | `xsd:int` | Ja | Position des obersten Pixels. |
 | Breite | `xsd:int` | Ja | Zoom der Zielbreite |
-| Höhe | `xsd:int` | Ja | Zoom der Zielhöhe |
-| Benutzerdaten | `xsd:string` | Ja | Für kundenspezifische Informationen. Kann beliebige Datentypen enthalten. |
+| Höhe | `xsd:int` | Ja | Zoom der Zielhöhe. |
+| userData | `xsd:string` | Ja | Für kundenspezifische Informationen. Kann beliebige Datentypen enthalten. |
 
-**Ausgabe (saveZoomTargetReturn)**
+**Output (saveZoomTargetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Syntax
 
 Mit diesem Codebeispiel wird ein Zoomziel gespeichert. Die Antwort gibt den Zoom-Ziel-Handle zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <saveZoomTargetParam xmlns="http://www.scene7.com/IpsApi/xsd">

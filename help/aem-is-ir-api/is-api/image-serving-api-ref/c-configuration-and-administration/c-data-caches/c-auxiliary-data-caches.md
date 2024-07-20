@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie in der verschachtelten/eingebetteten Anforderung cache=on angeben. Diese Daten werden im Cache der Antwortdaten im proprietären Format gespeichert.
 
-Bilder, die von ausländischen HTTP-Servern abgerufen werden, werden auch im Cache der Antwortdaten gespeichert. Solche Bilder werden automatisch mit dem Überprüfungsdienstprogramm validiert, bevor der Cache-Eintrag generiert wird.
+Bilder, die von ausländischen HTTP-Servern abgerufen werden, werden auch im Cache für Antwortdaten gespeichert. Solche Bilder werden automatisch mit dem Überprüfungsdienstprogramm validiert, bevor der Cache-Eintrag generiert wird.
 
-Die [!DNL Platform Server] erstellt Bildkatalogdaten für einen effizienten Zugriff. Diese Daten werden in `CS::CatalogCacheFolder`.
+Der [!DNL Platform Server] kompiliert Bildkatalogdaten für einen effizienten Zugriff. Diese Daten werden in `CS::CatalogCacheFolder` gespeichert.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 3%
+source-wordcount: '120'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Flag. Legen Sie auf 0 fest, um die Stile für synthetische Schriftarten zu deakt
 
 ## Standard {#section-71f94aa65e404d14b441674c040b59e3}
 
-Vererbt von `default::SynthesizeFontStyles` wenn nicht definiert oder leer ist.
+Wird von `default::SynthesizeFontStyles` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-47a79659cc844272b6d5f36c946e12ac}
 

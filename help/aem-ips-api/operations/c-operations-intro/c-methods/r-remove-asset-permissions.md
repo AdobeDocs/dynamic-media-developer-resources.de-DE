@@ -8,7 +8,7 @@ exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -26,14 +26,14 @@ Syntax
 
 ## Parameter {#section-b70bf3b033ca45b396964baf2ab1fb0f}
 
-**Eingabe (removeAssetPermissionsParam)**
+**Input (removeAssetPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 | assetHandle | `xsd:string` | Ja | Der Handle für das Asset mit Berechtigungen, die Sie entfernen möchten. |
 
-**Ausgabe (removeAssetPermissionsReturn)**
+**Output (removeAssetPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -41,7 +41,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel werden Berechtigungen aus einem Asset entfernt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:removeAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

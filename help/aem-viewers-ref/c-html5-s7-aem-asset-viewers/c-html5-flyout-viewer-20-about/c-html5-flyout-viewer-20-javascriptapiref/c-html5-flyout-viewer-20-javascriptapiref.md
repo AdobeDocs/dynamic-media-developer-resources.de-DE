@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Die Hauptklasse des Flyout-Viewers ist FlyoutViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-In allen folgenden Beispielen `<instance>` steht für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus dem `s7viewers.FlyoutViewer` -Klasse.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.FlyoutViewer`-Klasse instanziiert wird.
 
 * [dispose](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)

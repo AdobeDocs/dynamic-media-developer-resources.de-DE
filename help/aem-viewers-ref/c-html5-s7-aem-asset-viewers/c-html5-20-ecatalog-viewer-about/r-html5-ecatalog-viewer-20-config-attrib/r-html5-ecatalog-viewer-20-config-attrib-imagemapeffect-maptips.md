@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7b4e987e-9079-47b4-bd3b-fd8e5bc874e0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 18%
+source-wordcount: '28'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 18%
 <table id="table_3DBC5A70C9264CECA1CB3D1D08CEDF31"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Gibt an, ob QuickInfos für einzelne Zuordnungsbereichselemente aktiviert sind. </p> <p> Auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -23,19 +23,19 @@ Enum.
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Vererben von <span class="codeph"> Standard::OnFailObj </span>. </p> </td> 
+  <td class="stentry"> <p>Vererben Sie von <span class="codeph"> default::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Bisherige Auswahl beibehalten. </p> </td> 
+  <td class="stentry"> <p>Behalten Sie die vorherige Auswahl bei. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Auswahl aufheben; Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
+  <td class="stentry"> <p>Deaktivieren Sie diese Option; alle Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Fehler zurückgeben. </p> </td> 
+  <td class="stentry"> <p>Gibt einen Fehler zurück. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
@@ -45,7 +45,7 @@ Enum.
 
 ## Standard {#section-a5a95a2b4a204a4eae350e5b544d1513}
 
-Vererbt von `default::OnFailObj` falls nicht definiert.
+Wird von `default::OnFailObj` übernommen, falls nicht definiert.
 
 ## Verwandte Themen {#section-806dc2c5973c41f683af085b3315043c}
 

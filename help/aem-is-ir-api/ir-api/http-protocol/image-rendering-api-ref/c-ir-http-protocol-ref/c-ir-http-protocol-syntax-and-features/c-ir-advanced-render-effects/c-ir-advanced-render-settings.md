@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 25%
+source-wordcount: '576'
+ht-degree: 17%
 
 ---
 
@@ -18,9 +18,9 @@ Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) biet
 
 >[!NOTE]
 >
->Rendereinstellungen sind eine erweiterte Funktion von Image Rendering und Image Authoring. Wenden Sie sich an den technischen Support von Adobe oder Ihren Adobe Consultant, um Schulungen, Beratung oder beides zu erhalten, wenn Sie Render Settings verwenden möchten.
+>Rendereinstellungen sind eine erweiterte Funktion von Image Rendering und Image Authoring. Wenden Sie sich an den Adobe Technical Support oder Ihren Adobe Consultant für Schulung, Beratung oder beides bezüglich der Verwendung von Render Settings.
 
-Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist möglich, dieselben Einstellungen im Bild-Rendering mit dem `rs=` -Befehl (oder mit dem `catalog::RenderSettings` -Wert). Dieser Mechanismus wird verwendet, um für jedes Material verschiedene Scharfzeichnungsoptionen auszuwählen und das Verhalten der Beleuchtungsrendering-Algorithmen zu ändern, z. B. die Sättigung von Highlights oder den Kontrast in Schatten zu variieren.
+Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist möglich, dieselben Einstellungen im Bild-Rendering mit dem Befehl `rs=` (oder mit dem Wert `catalog::RenderSettings`) anzuwenden. Dieser Mechanismus wird verwendet, um für jedes Material verschiedene Scharfzeichnungsoptionen auszuwählen und das Verhalten der Beleuchtungsrendering-Algorithmen zu ändern, z. B. die Sättigung von Highlights oder den Kontrast in Schatten zu variieren.
 
 ## Werte für erweiterte Rendereinstellungen (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -101,17 +101,17 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
-   <td colname="col2"> <p>Supersampling: Random. </p> </td> 
+   <td colname="col2"> <p>Supersampling: Zufällig. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>200 </p> </td> 
-   <td colname="col5"> <p>Der Standardwert ist „0“. </p> </td> 
+   <td colname="col5"> <p>Die Standardgrenze ist 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
-   <td colname="col2"> <p>Supersampling: Zufällige Rate. </p> </td> 
+   <td colname="col2"> <p>Supersampling: Zufallsrate </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
-   <td colname="col5"> <p>Der Standardwert ist „5“. </p> </td> 
+   <td colname="col5"> <p>Die Standardgrenze ist 5. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>M </p> </td> 
@@ -132,14 +132,14 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
    <td colname="col2"> <p>Poisson: Beispiele/Pixel. </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
-   <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
+   <td colname="col5"> <p>Die Standardgrenze ist 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>J </p> </td> 
-   <td colname="col2"> <p>Poisson: Umschalten verwenden. </p> </td> 
+   <td colname="col2"> <p>Poisson: Verwenden Sie einen Umschalter. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
-   <td colname="col5"> <p>Der Standardwert ist „1“. </p> </td> 
+   <td colname="col5"> <p>Die Standardgrenze ist 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -149,7 +149,7 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
    <td colname="col5"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Rendereffekte (ältere Kopfzeile)</b> </td> 
+   <td colname="col1"><b>Rendereffekte (älterer Shader)</b> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
@@ -205,7 +205,7 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
    <td colname="col5"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Alternativer Shader</b> </td> 
+   <td colname="col1"><b>Alternate Shader</b> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
@@ -216,21 +216,21 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
    <td colname="col2"> <p>Grundlegender Kontrast. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
-   <td colname="col5"> <p>Der Standardwert ist „50“. </p> </td> 
+   <td colname="col5"> <p>Die Standardgrenze ist 50. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>a </p> </td> 
    <td colname="col2"> <p>Helligkeitsentschädigung. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Unterschiedliches Format: a36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Format anders: a36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>b </p> </td> 
    <td colname="col2"> <p>Sättigungsanpassung. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Unterschiedliches Format: b36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Format anders: b36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>c </p> </td> 
@@ -244,14 +244,14 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
    <td colname="col2"> <p>Anpassung der Highlights. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Unterschiedliches Format: d36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Format anders: d36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>e </p> </td> 
    <td colname="col2"> <p>Besondere Highlights. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Unterschiedliches Format: e36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Format unterschiedlich: e36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>xx </p> </td> 
@@ -272,14 +272,14 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
    <td colname="col2"> <p>Schattenfarbverschiebung. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Unterschiedliches Format: u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8 </p> </td> 
+   <td colname="col5"> <p>Format unterschiedlich: u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>v &amp; t </p> </td> 
    <td colname="col2"> <p>Heben Sie die Farbverschiebung hervor. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Unterschiedliches Format: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
+   <td colname="col5"> <p>Format unterschiedlich: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>w </p> </td> 
@@ -329,7 +329,7 @@ Diese Einstellungen werden interaktiv in der Bildbearbeitung gesteuert. Es ist m
    <td colname="col2"> <p> 
      <ul id="ul_C6E6DD90ECAB4D2B9284A25A29923DC6"> 
       <li id="li_7B7A8C43BCEB4CB58C7074974CAB0419">USM1 </li> 
-      <li id="li_A003B68023424DCABBF3A2CAF98C39A4">Die maximale Helligkeits-Kompensation ist aktiviert. </li> 
+      <li id="li_A003B68023424DCABBF3A2CAF98C39A4">Die maximale Helligkeits- und Helligkeitskompensation ist aktiviert. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

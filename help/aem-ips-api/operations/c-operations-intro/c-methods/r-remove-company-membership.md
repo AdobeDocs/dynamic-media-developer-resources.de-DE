@@ -1,18 +1,18 @@
 ---
 description: Entfernt einen Benutzer aus einem oder mehreren Unternehmen.
 solution: Experience Manager
-title: removeCompanyMembership
+title: removeCompanyMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
-# removeCompanyMembership{#removecompanymembership}
+# removeCompanyMember{#removecompanymembership}
 
 Entfernt einen Benutzer aus einem oder mehreren Unternehmen.
 
@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-6dfce5e44d8a4799afd0c231a0b10463}
 
-**Eingabe (removeCompanyMembershipParam)**
+**Input (removeCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | userHandle | `xsd:string` | Nein | Das Handle für den Benutzer mit der Mitgliedschaft, die Sie entfernen möchten. |
 | companyHandleArray | `types:HandleArray` | Ja | Das Handle für das Unternehmen, aus dem Sie den Benutzer entfernen. |
 
-**Ausgabe (removeCompanyMembershipReturn)**
+**Output (removeCompanyMembershipReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -42,7 +42,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Codebeispiel wird ein Benutzer aus einem Unternehmen entfernt. Lassen Sie den optionalen Benutzer-Handle weg, um alle Benutzer aus den im Handle-Array des Unternehmens angegebenen Unternehmen zu entfernen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:removeCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

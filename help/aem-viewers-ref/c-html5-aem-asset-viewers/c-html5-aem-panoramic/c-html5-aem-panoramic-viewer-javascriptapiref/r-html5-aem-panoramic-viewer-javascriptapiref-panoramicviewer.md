@@ -19,11 +19,11 @@ Constructor erstellt eine HTML5 Panorama-Viewer-Instanz.
 ## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
 
 config
-{Object} optionales JSON-Konfigurationsobjekt können Sie alle Viewer-Einstellungen an den Konstruktor übergeben und vermeiden, einzelne Setter-Methoden aufzurufen. Sie enthält die folgenden Eigenschaften:
+{Object} optionales JSON-Konfigurationsobjekt: Ermöglicht es Ihnen, alle Viewer-Einstellungen an den Konstruktor zu übergeben und einzelne Setter-Methoden zu vermeiden. Sie enthält die folgenden Eigenschaften:
 
 * containerId - {String} Kennung des DOM-Containers (normalerweise ein DIV), in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn init() ausgeführt wird. Erforderlich
-* params - {Object} JSON-Objekt mit Viewer-Konfigurationsparametern, bei denen der Eigenschaftsname entweder eine Viewer-spezifische Konfigurationsoption oder einen SDK-Modifikator ist und der Wert dieser Eigenschaft ein entsprechender settings-Wert ist. Erforderlich
-* Handler - {Object} JSON-Objekt mit Viewer-Ereignis-Rückrufen, wobei der Eigenschaftsname der Name des unterstützten Viewer-Ereignisses und der Eigenschaftswert ein JavaScript-Funktionsverweis auf den entsprechenden Rückruf ist. Weitere Informationen zu Viewer-Ereignissen finden Sie im Abschnitt Ereignisrückrufe . Optional.
+* params - {Object} JSON-Objekt mit Viewer-Konfigurationsparametern, bei dem der Eigenschaftsname entweder eine Viewer-spezifische Konfigurationsoption oder einen SDK-Modifikator ist und der Wert dieser Eigenschaft ein entsprechender settings-Wert ist. Erforderlich
+* Handler - {Object} JSON-Objekt mit Viewer-Ereignis-Rückrufen, wobei der Eigenschaftsname der Name des unterstützten Viewer-Ereignisses und der Eigenschaftswert eine JavaScript-Funktionsreferenz zum entsprechenden Rückruf ist. Weitere Informationen zu Viewer-Ereignissen finden Sie im Abschnitt Ereignisrückrufe . Optional.
 
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}

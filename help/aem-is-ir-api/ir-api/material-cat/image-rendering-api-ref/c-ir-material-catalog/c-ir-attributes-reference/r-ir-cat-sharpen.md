@@ -1,6 +1,6 @@
 ---
 title: Scharfzeichnen
-description: Standardmäßige Scharfzeichnung des Antwortbilds. Legt fest, ob Antwortbilder scharfgezeichnet werden sollen, wenn vor dem Kodieren die Größe geändert wurde.
+description: Standardmäßige Scharfzeichnung des Antwortbilds. Gibt an, ob Antwortbilder scharfgezeichnet werden sollen, wenn sie vor der Kodierung skaliert werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 62%
+ht-degree: 10%
 
 ---
 
 # Scharfzeichnen{#sharpen}
 
-Standardmäßige Scharfzeichnung des Antwortbilds. Legt fest, ob Antwortbilder scharfgezeichnet werden sollen, wenn vor dem Kodieren die Größe geändert wurde.
+Standardmäßige Scharfzeichnung des Antwortbilds. Gibt an, ob Antwortbilder scharfgezeichnet werden sollen, wenn sie vor der Kodierung skaliert werden.
 
 ## Eigenschaften {#section-faf57183efa0456fb37a7803a9486248}
 
@@ -22,7 +22,7 @@ Flag.
 
 ## Standard {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Vererbt von `default::Sharpen` wenn nicht definiert oder leer ist.
+Wird von `default::Sharpen` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-85393c62428f49739a2510f9427d3607}
 

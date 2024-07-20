@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 Attribute für Text auf Pfad.
 
-` pathAttr= *`Richtung`*[, *`startPos`*[, *`endPos`*]]`
+` pathAttr= *`direction`*[, *`startPos`*[, *`endPos`*]]`
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> Richtung </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> richtung </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> norm </span> | <span class="codeph"> reverse </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,15 +33,15 @@ Attribute für Text auf Pfad.
  </tr> 
 </table>
 
-Angeben `norm` , um Text zu zeichnen, der in der Nähe des ersten Pfadvertex beginnt, und `reverse` um Text in die entgegengesetzte Richtung zu zeichnen, beginnend beim letzten Scheitelpunkt.
+Geben Sie `norm` an, um Text beginnend beim ersten Pfadvertex und `reverse` zu zeichnen, um Text in die entgegengesetzte Richtung zu zeichnen, beginnend beim letzten Scheitelpunkt.
 
-*`startPos`* und *`endPos`* die Anpassung der Position auf dem Pfad ermöglichen, an der der Text gezeichnet wird. 0,0 entspricht dem ersten Scheitelpunkt im Pfad und 1,0 dem letzten Scheitelpunkt; Zwischenwerte geben den Abstand zwischen dem ersten und letzten Scheitelpunkt an.
+*`startPos`* und *`endPos`* erlauben das Anpassen an die Stelle auf dem Pfad, an der der Text gezeichnet wird. 0,0 entspricht dem ersten Scheitelpunkt im Pfad und 1,0 dem letzten Scheitelpunkt; Zwischenwerte geben den Abstand zwischen dem ersten und letzten Scheitelpunkt an.
 
 ## Eigenschaften {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Ebenenattribut. Wird ignoriert, wenn die Ebene nicht `textPs=` und `textPath=` Befehle.
+Ebenenattribut. Wird ignoriert, wenn die Ebene keine `textPs=` - und `textPath=` -Befehle enthält.
 
-*`startPos`* muss größer oder gleich 0 und kleiner als 1,0 sein. *`endPos`* muss größer sein als *`startPos`* und kleiner oder gleich 1,0 bei Anwendung auf einen offenen Pfad oder kleiner oder gleich ( *`startPos`* + 1,0) bei Anwendung auf einen geschlossenen Pfad.
+*`startPos`* muss größer oder gleich 0 und kleiner als 1,0 sein. *`endPos`* muss größer als *`startPos`* und kleiner oder gleich 1,0 sein, wenn sie auf einen offenen Pfad angewendet werden, oder kleiner oder gleich ( *`startPos`* + 1,0), wenn sie auf einen geschlossenen Pfad angewendet werden.
 
 ## Standard {#section-3e757970885c45e7b6100e78dc08626f}
 

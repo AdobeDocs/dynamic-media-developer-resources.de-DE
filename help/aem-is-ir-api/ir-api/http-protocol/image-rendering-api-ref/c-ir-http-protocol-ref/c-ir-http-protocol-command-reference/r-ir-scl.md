@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e36db25c-af45-4256-b982-b7b06b87f5f9
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 1%
 
 ---
 
@@ -25,23 +25,23 @@ Skalierungsansicht. Skaliert das gerenderte Bild um den angegebenen Skalierungsf
  </tr> 
 </table>
 
-Wenn `scl=` kommt nach `wid=` oder `hei=` in der URL abbricht, werden diese Befehle und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
+Wenn `scl=` nach `wid=` oder `hei=` in der URL kommt, werden diese Befehle abgebrochen und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
 
-Wenn `wid=` oder `hei=` kommt nach `scl=` in der URL abbrechen `scl=` und `wid=`/ `hei=` die Größe des vom Server zurückgegebenen Bildes festlegen.
+Wenn jedoch `wid=` oder `hei=` nach `scl=` in der URL kommt, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
 
 >[!NOTE]
 >
->Ein Fehler wird zurückgegeben, wenn die berechnete oder die standardmäßige Antwortbildgröße größer ist als `attribute::MaxPix`.
+>Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-170458cbd6984bd59a3434431258b20f}
 
-Kann an einer beliebigen Stelle in der Anfrage auftreten. Ignoriert , wenn `wid=` oder `hei=` nach `scl=` in der Befehlssequenz.
+Kann an einer beliebigen Stelle in der Anfrage auftreten. Ignoriert, wenn `wid=` oder `hei=` in der Befehlssequenz nach `scl=` auftreten.
 
-Ändern der Bildgröße mit `scl=` ändert nicht den Wert der Druckauflösung, der im Antwortbild eingebettet ist.
+Wenn Sie die Bildgröße mit `scl=` ändern, wird der Wert für die Druckauflösung, der im Antwortbild eingebettet ist, nicht geändert.
 
 ## Standard {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-Wenn `wid=`, `hei=`oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die durch `attribute::DefaultPix`. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
+Wenn `wid=`, `hei=` oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die durch `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
 
 ## Verwandte Themen {#section-cc5002a1d49340bbb5c7a5864c297621}
 

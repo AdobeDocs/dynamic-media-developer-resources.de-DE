@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
  </tbody> 
 </table>
 
-Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht wiedergeben kann, kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht wiedergeben kann, kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayergröße von 512 x 288 Pixel.
 
@@ -64,11 +64,11 @@ Geschlossene Untertitel werden in einen internen Container im Videoplayer eingef
    <td colname="col2"> <p>Textfarbe für Beschriftung schließen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> Schriftstärke der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> Schriftgröße der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
    <td colname="col2"> <p> Breite des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Höhe des Animationssymbols </p> </td> 
   </tr> 
   <tr> 

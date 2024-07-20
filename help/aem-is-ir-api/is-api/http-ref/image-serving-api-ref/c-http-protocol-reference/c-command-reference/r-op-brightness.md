@@ -27,11 +27,11 @@ Helligkeit anpassen. Verringert oder erhöht die Bildhelligkeit.
 
 ## Eigenschaften {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`. Wird von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
 
 ## Standard {#section-be56be0759634c79b4f264f194a94dbc}
 
-`op_brightness=0`, um die Helligkeit nicht zu ändern.
+`op_brightness=0`, ohne Helligkeitsänderung.
 
 ## Beispiel {#section-c25f952f1b77409abb9ccf885862d75c}
 

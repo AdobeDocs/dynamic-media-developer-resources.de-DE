@@ -8,8 +8,8 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
@@ -26,9 +26,9 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 oder höher.
-* HTML5-Viewer benötigen SDK-JavaScript-Server-seitige Bibliotheken 3.11.5 oder höher.
-* *E-Mail an einen Freund* Social-Funktionen erfordern s7ondemand 5.0.9 oder höher.
-* eCatalog-Viewer - [Popup für Infobereich](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) Für die Unterstützung ist Info Server 2.1.8 oder höher erforderlich.
+* HTML5-Viewer benötigen SDK JavaScript-Server-seitige Bibliotheken 3.11.5 oder höher.
+* *E-Mail an Freunde senden* Social-Funktionen erfordern s7ondemand 5.0.9 oder höher.
+* eCatalog-Viewer - Die Unterstützung für das Popup-Bedienfeld &quot;Info&quot;](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) erfordert Info-Server 2.1.8 oder höher.[
 * Für Suchfunktionskomponenten ist s7search 2.3.0 oder höher erforderlich.
 
 ## Systemanforderungen der Viewer {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -46,26 +46,26 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
    * Firefox 77
    * Internet Explorer 11
    * iOS6
-   * iPad 2 (nur Safari und Chrome)
+   * iPad 2 (nur Safari und Chrome-Browser)
    * iPhone 3GS
    * Safari 11
 * Internet Explorer wird auf Mobilgeräten nicht unterstützt.
-* *PanoramicViewer* wird in den folgenden Browser-/Plattformversionen oder höheren Versionen unterstützt:
-   * Android™ 4.4 (nur Smartphones)
+* *PanoramicViewer* wird in den folgenden Browser-/Plattformversionen oder höher unterstützt:
+   * Android™ 4.4 (nur Telefongeräte)
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* und *DimensionalViewer* wird in den folgenden Browser-/Plattformversionen oder höheren Versionen unterstützt:
+* *Video360Viewer* und *DimensionalViewer* werden in den folgenden Browser-/Plattformversionen oder höher unterstützt:
    * Android™ 5 (nur Smartphones)
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* wird in den folgenden Browser-/Plattformversionen oder höheren Versionen unterstützt:
+* *ZoomVerticalViewer* wird in den folgenden Browser-/Plattformversionen oder höher unterstützt:
    * Android™ 4.x
    * Chrome 82
    * Edge

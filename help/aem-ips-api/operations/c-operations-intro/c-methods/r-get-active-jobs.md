@@ -8,7 +8,7 @@ exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Syntax
 
 ## Parameter {#section-29018fba6bf34c1e80dcd479dd24f3b5}
 
-**Eingabe (getActiveJobsParam)**
+**Input (getActiveJobsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -39,7 +39,7 @@ Syntax
 | jobHandle | `xsd:string` | Nein | Der Griff zum Auftrag. |
 | originalName | `xsd:string` | Nein | Ursprünglicher Auftragsname. |
 
-**Ausgabe (getActiveJobsReturn)**
+**Output (getActiveJobsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntax
 
 Dieses Codebeispiel gibt alle aktiven Aufträge eines Unternehmens zurück, das in IPS ausgeführt wird. In diesem Fall ist die Antwort ungewöhnlich, da der IPS-Planungs-Koordinator deaktiviert ist, ohne dass aktive Aufträge ausgeführt werden. Unter normalen Umständen würde die Antwort eine Reihe aktiver Aufträge zurückgeben.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getActiveJobsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

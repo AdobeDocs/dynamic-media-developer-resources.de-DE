@@ -18,19 +18,19 @@ JavaScript-API-Referenz für Viewer für gemischte Medien.
 
 ` setAsset( *`asset`*[,data]))`
 
-Legt das neue Asset und optional zusätzliche Asset-Daten fest. Sie können diesen Parameter jederzeit vor oder nach `init()`. Wenn es nach aufgerufen wird `init()`, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset und optional zusätzliche Asset-Daten fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`Asset`*` - { `String`} neue Asset-ID oder explizites gemischtes Medienset, wobei optionale Image Serving-Modifikatoren angehängt werden `?`.
+`*`asset`*` - { `String`} neue Asset-ID oder explizites gemischtes Medienset, wobei optionale Image Serving-Modifikatoren nach `?` angehängt werden.
 
 Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt.
 
 `*`data`*` - { `JSON`} Speicherort der neuen Untertiteldatei.
 
-Wenn keine Beschriftungsschaltfläche angegeben ist, ist sie in der Benutzeroberfläche nicht sichtbar. Mit diesem Parameter angegebene Untertitel gelten für das Video, das zuerst im gemischten Medienset angezeigt wird. nachfolgende Videos werden ohne Untertitel wiedergegeben. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
+Wenn keine Beschriftungsschaltfläche angegeben ist, ist sie in der Benutzeroberfläche nicht sichtbar. Mit diesem Parameter angegebene Untertitel gelten für das Video, das zuerst im gemischten Medienset angezeigt wird. Nachfolgende Videos werden ohne Untertitel wiedergegeben. Dieser Viewer unterstützt die folgenden Komponenten-IDs:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 

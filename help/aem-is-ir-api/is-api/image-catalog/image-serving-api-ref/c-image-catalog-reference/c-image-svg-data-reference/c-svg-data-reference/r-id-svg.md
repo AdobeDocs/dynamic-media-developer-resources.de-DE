@@ -18,7 +18,7 @@ In der Regel eine kurze und eindeutige Kennung, z. B. eine SKU-Nummer, mögliche
 
 >[!NOTE]
 >
->Die Bild- und SVG-Tabellen werden beim Laden des Bildkatalogs zu einer einzigen Tabelle zusammengeführt. ID-Werte müssen in beiden Tabellen eindeutig sein. Der SVG-Datensatz wird verworfen, wenn die Bildtabelle einen Datensatz mit demselben ID-Wert enthält. Statische Inhalte werden mit einer separaten Tabelle verwaltet; statische Inhaltselemente und Bild-/SVG-Elemente können daher dieselben ID-Werte aufweisen.
+>Die Bild- und SVG-Tabellen werden beim Laden des Bildkatalogs zu einer einzigen Tabelle zusammengeführt. ID-Werte müssen in beiden Tabellen eindeutig sein. Der SVG-Datensatz wird verworfen, wenn die Bildtabelle einen Datensatz mit demselben ID-Wert enthält. Statische Inhalte werden mit einer separaten Tabelle verwaltet. Statische Inhaltselemente und Bild-/SVG-Elemente können daher dieselben ID-Werte aufweisen.
 
 ## Eigenschaften {#section-874a6853f67b4b229341ca76682884ae}
 

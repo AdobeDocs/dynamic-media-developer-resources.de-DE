@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2368'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Viewer-Typ 518.
 
 ## Verwenden des Smart Crop Video Viewers {#section-f21ac23d3f6449ad9765588d69584772}
 
-Der Viewer für smartes Zuschneiden von Videos stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfedateien dar - ein einzelnes JavaScript-Include mit allen Viewer-SDK-Komponenten, die von diesem Viewer, Assets und CSS verwendet werden, die vom Viewer zur Laufzeit heruntergeladen wurden.
+Smart Crop Video Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar. Eine JavaScript-Include-Datei enthält alle Viewer-SDK-Komponenten, die von diesem Viewer, Assets und CSS verwendet werden, die vom Viewer zur Laufzeit heruntergeladen wurden.
 
 Sie können den Viewer für smartes Zuschneiden von Videos im Popup-Modus verwenden, indem Sie die produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird. Alternativ können Sie den Viewer im eingebetteten Modus verwenden, wo er mithilfe der dokumentierten API in eine Ziel-Web-Seite integriert wird.
 
@@ -62,7 +62,7 @@ Der Viewer unterstützt sowohl die Touch-Eingabe als auch die Mauseingabe auf Wi
 
 Auf diesen Viewer kann vollständig über die Tastatur zugegriffen werden.
 
-Siehe [Tastaturzugriff und Navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Siehe [Barrierefreiheit und Navigation auf der Tastatur](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Tools zur Freigabe in Social Media mit Smart Crop Video Viewer {#section-907d316fe1da4b87abb9775f02464704}
 
@@ -76,15 +76,15 @@ Die Freigabe-Tools sind aufgrund der Sicherheitseinschränkungen des Webbrowsers
 
 Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der, wenn ausgewählt, den Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt auf der Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei Hauptbetriebsmodi: Popup, Einbettung fester Größe und Einbettung responsiver Designs.
 
-Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilgeräten unterstützt. Normalerweise kann nur ein Video gleichzeitig wiedergegeben werden. Wenn ein Benutzer mit der Wiedergabe eines Videos beginnt und dann versucht, ein weiteres Video abzuspielen, wird das erste Video automatisch angehalten. Das automatisch angehaltene Video speichert die aktuelle Wiedergabedauer, sodass der Benutzer jederzeit darauf zugreifen und die Wiedergabe fortsetzen kann. Die einzige Ausnahme, die diese Regel betrifft den Chrome-Browser auf Android™ 4.x-Geräten, die Videos parallel wiedergeben können.
+Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilgeräten unterstützt. Normalerweise kann nur ein Video gleichzeitig wiedergegeben werden. Wenn ein Benutzer mit der Wiedergabe eines Videos beginnt und dann versucht, ein weiteres Video abzuspielen, wird das erste Video automatisch angehalten. Das automatisch angehaltene Video speichert die aktuelle Wiedergabedauer, sodass der Benutzer jederzeit darauf zugreifen und die Wiedergabe fortsetzen kann. Die einzige Ausnahme bildet der Chrome-Browser auf Geräten mit Android™ 4.x, die Videos parallel wiedergeben können.
 
 **Über den Popup-Modus**
 
 Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert oder die Geräteausrichtung geändert wird.
 
-Dieser Modus wird am häufigsten für Mobilgeräte verwendet. Die Webseite lädt den Viewer mit `window.open()` JavaScript-Aufruf, ordnungsgemäß konfiguriert `A` HTML-Element oder eine andere geeignete Methode.
+Dieser Modus wird am häufigsten für Mobilgeräte verwendet. Die Webseite lädt den Viewer mit dem Aufruf `window.open()` JavaScript , dem ordnungsgemäß konfigurierten Element `A` HTML oder einer anderen geeigneten Methode.
 
-Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Es heißt [!DNL SmartCropVideoViewer.html] und sich unter der [!DNL html5/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Es heißt [!DNL SmartCropVideoViewer.html] und befindet sich im Unterordner [!DNL html5/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/SmartCropVideoViewer.html]
 
@@ -96,7 +96,7 @@ Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neu
 <a href="http://s7d1.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS" target="_blank">Open popup viewer</a>
 ```
 
-**Über den Einbettungsmodus mit fester Größe und den responsiven Einbettungsmodus**
+**Über Einbettungsmodus mit fester Größe und responsiven Einbettungsmodus**
 
 Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt, die möglicherweise bereits über Kundeninhalte verfügt, die nicht mit dem Viewer in Verbindung stehen. Der Viewer belegt normalerweise nur einen Teil der Immobilien der Web-Seite.
 
@@ -104,24 +104,24 @@ Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets 
 
 Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Auswahl ist am besten für Webseiten mit statischem Seitenlayout.
 
-Responsive Designeinbettung setzt voraus, dass die Größe des Viewers zur Laufzeit angepasst werden muss, um die Größe des Containers zu ändern `DIV`. Der häufigste Anwendungsfall besteht darin, den Viewer zu einer Webseite hinzuzufügen, die ein flexibles Seitenlayout verwendet.
+Responsive Designeinbettung setzt voraus, dass die Größe des Viewers zur Laufzeit angepasst werden muss, wenn die Größe des Containers geändert wird `DIV`. Der häufigste Anwendungsfall besteht darin, den Viewer zu einer Webseite hinzuzufügen, die ein flexibles Seitenlayout verwendet.
 
-Im Einbettungsmodus für responsives Design verhält sich der Viewer je nach Größe des Containers auf der Webseite unterschiedlich `DIV`. Wenn die Webseite nur die Breite des Containers festlegt `DIV`Wenn die Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Methode stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten aufgefüllt werden. Dieser Anwendungsfall ist am häufigsten für Webseiten, die ein responsives Design-Layout-Framework wie Bootstrap oder Foundation verwenden.
+Im Einbettungsmodus für responsive Designs verhält sich der Viewer je nach Größe des Containers `DIV` unterschiedlich. Wenn die Webseite nur die Breite des Containers &quot;`DIV`&quot; festlegt und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Methode stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten aufgefüllt werden. Dieser Anwendungsfall ist am häufigsten für Webseiten, die ein responsives Design-Layout-Framework wie Bootstrap oder Foundation verwenden.
 
-Andernfalls, wenn die Webseite sowohl die Breite als auch die Höhe für den Container des Viewers festlegt `DIV`, füllt der Viewer nur diesen Bereich und folgt der Größe, die durch das Web-Seitenlayout angegeben wird. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Größe des Webbrowserfensters skaliert wird.
+Wenn die Web-Seite andernfalls die Breite und Höhe für den Container des Viewers `DIV` festlegt, füllt der Viewer nur diesen Bereich und folgt der Größe, die durch das Layout der Web-Seite angegeben wird. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Größe des Webbrowserfensters skaliert wird.
 
 **Einbettung fester Größe**
 
 Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
-1. Container definieren `DIV`.
+1. Definieren des Containers `DIV`.
 1. Festlegen der Viewer-Größe
 1. Erstellen und Initialisieren des Viewers.
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
 
-   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL SmartCropVideoViewer.js]. Die [!DNL SmartCropVideoViewer.js] befindet sich unter der [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL SmartCropVideoViewer.js] einbeziehen. Die Datei [!DNL SmartCropVideoViewer.js] befindet sich im Unterordner [!DNL html5/js/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
@@ -135,16 +135,16 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Nur auf das JavaScript des Haupt-Viewers verweisen `include` -Datei auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf das HTML5 SDK. `Utils.js` Bibliothek, die vom Viewer aus geladen wird `/s7viewers` Kontextpfad (so genanntes konsolidiertes SDK) `include`). Der Grund dafür ist, dass der Standort `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet und der Speicherort zwischen Viewer-Versionen geändert wird. Adobe behält ältere Versionen des sekundären Viewers nicht bei `includes` auf dem Server.
+>Referenzieren Sie nur die JavaScript `include` -Hauptdatei des Viewers auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus dem Kontextpfad `/s7viewers` geladene HTML5 SDK `Utils.js`-Bibliothek (das so genannte konsolidierte SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig durch die Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe hält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server.
 >
 >
->Daher können Sie einen direkten Verweis auf ein sekundäres JavaScript einfügen `include` wird vom Viewer auf der Seite verwendet und unterbricht die Viewer-Funktionalität in Zukunft, wenn eine neue Produktversion bereitgestellt wird.
+>Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion durch direkte Referenzierung auf alle sekundären JavaScript `include`, die vom Viewer auf der Seite verwendet werden, in Zukunft beeinträchtigt.
 
 1. Definieren des Container-DIV.
 
    Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres DIV-Element hinzu. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird über CSS angegeben.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h. das `position` Die CSS-Eigenschaft ist auf `relative` oder `absolute`.
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h. die CSS-Eigenschaft `position` ist auf `relative` oder `absolute` festgelegt.
 
    Stellen Sie sicher, dass die Vollbildfunktion in Internet Explorer ordnungsgemäß funktioniert. Vergewissern Sie sich, dass keine anderen Elemente im DOM vorhanden sind, die eine höhere Stapelreihenfolge aufweisen als Ihr Platzhalter-DIV.
 
@@ -156,11 +156,11 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Viewer-Größe festlegen
 
-   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für `.s7videoviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten oder durch Verwendung des Modifikators `stagesize`.
+   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.`.s7videoviewer`
 
    Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen. Sie wird später einem Viewer-Vorgabendatensatz in Dynamic Media Classic zugewiesen oder explizit mithilfe eines Stilbefehls übergeben.
 
-   Siehe [Anpassen des Video-Viewers für smartes Zuschneiden](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) Weitere Informationen zum Formatieren des Viewers mit CSS.
+   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Video-Viewers für smartes Zuschneiden](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) .
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf einer HTML-Seite:
 
@@ -171,7 +171,7 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können `stagesize` -Modifikator entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic oder übergeben Sie ihn explizit mit dem Viewer-Initialisierungscode mit `params` -Sammlung. Oder als API-Aufruf, wie im Abschnitt Befehlsreferenz beschrieben:
+   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` übergeben. Oder als API-Aufruf, wie im Abschnitt Befehlsreferenz beschrieben:
 
    ```html {.line-numbers}
    smartCropVideoViewer.setParam("stagesize", "640,480");
@@ -181,13 +181,13 @@ Der relative Pfad sieht wie folgt aus:
 
 1. Erstellen und Initialisieren des Viewers.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz von `s7viewers.SmartCropVideoViewer` -Klasse, übergeben Sie alle Konfigurationsinformationen an den -Konstruktor und rufen Sie `init()` -Methode in einer Viewer-Instanz verwenden. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens `containerId` -Feld, das den Namen der Viewer-Container-ID und verschachtelt enthält `params` JSON-Objekt mit Konfigurationsparametern, die vom Viewer unterstützt werden. In diesem Fall `params` -Objekt muss mindestens über die Image Serving-URL verfügen, die als `serverUrl` -Eigenschaft, Videoserver-URL, die als `videoserverurl` -Eigenschaft und das anfängliche Asset als `asset` -Parameter. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
+   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.SmartCropVideoViewer`, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode `init()` in einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld `containerId` verfügen, das den Namen der Viewer-Container-ID und das verschachtelte JSON-Objekt `params` mit Konfigurationsparametern enthält, die vom Viewer unterstützt werden. In diesem Fall muss für das Objekt `params` mindestens die Image Serving-URL als `serverUrl`-Eigenschaft, die Video-Server-URL als `videoserverurl`-Eigenschaft und das erste Asset als `asset`-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
 
-   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder im Hauptteil `onload()` -Ereignis.
+   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder das body `onload()` -Ereignis auf.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit `display:none` Stil zugewiesen. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. In diesem Beispiel wird angenommen `smartCropVideoViewer` die Viewer-Instanz ist, `s7viewer` ist der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] ist die Image Serving-URL, [!DNL http://s7d1.scene7.com/is/content/] ist die Videoserver-URL und [!DNL html5automation/frisbee-AVS] ist das Asset.
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. In diesem Beispiel wird angenommen, dass `smartCropVideoViewer` die Viewer-Instanz ist, `s7viewer` der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] die Image Serving-URL, [!DNL http://s7d1.scene7.com/is/content/] die Video-Server-URL und [!DNL html5automation/frisbee-AVS] das Asset ist.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -232,9 +232,9 @@ Der relative Pfad sieht wie folgt aus:
    </html> 
    ```
 
-**Responsives Design mit uneingeschränkter Höhe**
+**Responsives Design, eingebettet in unbeschränkte Höhe**
 
-Mit der Einbettung des responsiven Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers bestimmt `DIV`. Für die Zwecke dieses Beispiels nehmen Sie an, dass die Webseite den Container des Viewers zulässt `DIV` , um 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
+Mit der Einbettung des responsiven Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Für dieses Beispiel nehmen Sie an, dass die Web-Seite es dem Container `DIV` des Viewers ermöglicht, 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -258,7 +258,7 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung mit fe
 1. Definieren des Container-DIV.
 1. Erstellen und Initialisieren des Viewers.
 
-Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Container hinzufügen `DIV` an den bestehenden &quot;Inhaber&quot; `DIV`. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie dem vorhandenen &quot;Inhaber&quot; `DIV` den Container `DIV` hinzu. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -295,9 +295,9 @@ Die folgende Beispielseite veranschaulicht die reale Verwendung responsiver Desi
 
 [Alternativer Demostandort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**Responsives Design, eingebettet in definierte Breite und Höhe**
+**Responsives Design, das mit definierter Breite und Höhe eingebettet wird**
 
-Wenn responsives Design mit definierter Breite und Höhe eingebettet ist, unterscheidet sich der Webseitenstil. Der Inhaber erhält beide Größen `DIV` und zentrieren Sie sie im Browserfenster. Außerdem legt die Webseite die Größe der `HTML` und `BODY` -Element auf 100 %:
+Wenn ein responsives Design mit definierter Breite und Höhe eingebettet ist, unterscheidet sich der Webseitenstil. Er stellt dem Inhaber `DIV` beide Größen bereit und zentriert sie im Browserfenster. Außerdem setzt die Webseite die Größe der Elemente `HTML` und `BODY` auf 100 %:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -362,9 +362,9 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 </html> 
 ```
 
-**Einbetten mit der Setter-basierten API**
+**Einbetten mit Setter-basierter API**
 
-Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit dieser API akzeptiert der Konstruktor keine Parameter und Konfigurationsparameter werden mit `setContainerId()`, `setParam()`, und `setAsset()` API-Methoden mit separaten JavaScript-Aufrufen.
+Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit dieser API akzeptiert der Konstruktor keine Parameter und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
 
 Das folgende Beispiel zeigt die Einbettung fester Größe in eine setter-basierte API:
 

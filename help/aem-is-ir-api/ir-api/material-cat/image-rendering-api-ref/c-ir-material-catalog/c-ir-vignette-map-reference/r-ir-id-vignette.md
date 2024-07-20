@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 5c0c8788-ffe5-4b42-86f6-6b4683dd7c21
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
-# ID{#id}
+# Id{#id}
 
 Kennung der Vignette. Indexschlüsselwert, anhand dessen Datensätze in der Vignettenzuordnungsdatei vom Server nachgeschlagen werden.
 

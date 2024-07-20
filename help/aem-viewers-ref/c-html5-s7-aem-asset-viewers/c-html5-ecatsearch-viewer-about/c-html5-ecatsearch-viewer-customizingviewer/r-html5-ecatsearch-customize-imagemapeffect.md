@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Das Erscheinungsbild des Imagemap-Symbols wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Die `s7mapoverlay` Die CSS-Klasse, die in der Vergangenheit zum Formatieren von Imagemap-Symbolen verwendet wurde, wird jetzt nicht mehr unterstützt. use `s7icon` anstatt.
+>Die `s7mapoverlay` CSS-Klasse, die in der Vergangenheit zum Formatieren von Imagemap-Symbolen verwendet wurde, ist jetzt veraltet. Verwenden Sie stattdessen `s7icon` .
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -51,7 +51,7 @@ Das Erscheinungsbild des Imagemap-Symbols wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p>Bildzuordnungssymbolbreite in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des Imagemap-Symbols in Pixel. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ Das Erscheinungsbild des Imagemap-Symbols wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Das Symbol &quot;Imagemap&quot;unterstützt `state` -Attributauswahl, mit der Sie verschiedene Skins auf die Symbolstatus von `default` und `active`.
+>Das Symbol Imagemap unterstützt die Attributauswahl `state` , mit der Sie verschiedene Skins auf die Symbolstatus `default` und `active` anwenden können.
 
 Beispiel: Richten Sie ein Imagemap-Symbol mit 28 x 28 Pixel ein, das für jeden der beiden verschiedenen Symbolstatus ein anderes Bild anzeigt.
 
@@ -102,13 +102,13 @@ Das Erscheinungsbild des Imagemap-Bereichs wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p> Füllfarbe für Imagemap-Bereich. </p> <p>Wird im Format #RGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) angegeben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
-   <td colname="col2"> <p> Randstil der Imagemap </p> <p>Angegeben als <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> color </span> </span>, wobei <span class="codeph"> <span class="varname"> width </span> </span> wird in Pixel ausgedrückt und <span class="codeph"> <span class="varname"> color </span> </span> wird als #RGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) festgelegt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col2"> <p> Randstil der Imagemap </p> <p>Wird als <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> color </span> </span> angegeben, wobei <span class="codeph"> <span class="varname"> width </span> </span> in Pixel und <span class="codeph"> <span class="varname"> color </span> </span> als #RGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Einrichten eines transparenten Imagemap-Bereichs mit `1` Pixelschwarzer Rahmen :
+Beispiel: Richten Sie einen transparenten Imagemap-Bereich mit einem schwarzen Rand von `1` Pixel ein:
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7region { 

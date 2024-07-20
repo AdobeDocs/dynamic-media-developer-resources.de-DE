@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Der Stammordner für den Cache des Katalogsystems.
 
-Kann entweder ein absoluter Pfad oder ein Pfad relativ zu [!DNL sein. *[!DNL install_folder]*]. Der Standardwert ist [!DNL ./cache], was [!DNL entspricht *[!DNL install_folder]*/cache].
+Kann entweder ein absoluter Pfad oder ein Pfad relativ zu [!DNL *[!DNL install_folder]*] sein. Der Standardwert ist [!DNL ./cache], was [!DNL *[!DNL install_folder]*/cache] entspricht.

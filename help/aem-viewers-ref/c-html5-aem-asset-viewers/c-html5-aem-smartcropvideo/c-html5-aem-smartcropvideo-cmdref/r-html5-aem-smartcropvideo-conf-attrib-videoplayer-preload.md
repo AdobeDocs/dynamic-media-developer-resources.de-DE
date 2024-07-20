@@ -4,10 +4,11 @@ description: Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wi
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: '121'
+ht-degree: 2%
 
 ---
 
@@ -20,8 +21,8 @@ Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wiedergabe begi
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Wenn auf <span class="codeph"> 1 </span> Das Video beginnt unmittelbar nach dem Festlegen des Assets herunterzuladen. Andernfalls beginnt das Vorausfüllen erst, nachdem die Wiedergabe vom Endbenutzer oder einem API-Aufruf initiiert wurde. </p> <p>Wenn auf <span class="codeph"> 0 </span> bestimmte Funktionen funktionieren möglicherweise erst, wenn die Wiedergabe wieder beginnt; Der Suchvorgang aktualisiert den Video-Frame nicht. Wenn das Standbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Video-Frames angezeigt. </p> <p>Die Deaktivierung der Videovorladung kann in bestimmten Versionen von Internet Explorer 11 und Edge-Browsern ignoriert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Wenn der Wert auf <span class="codeph"> 1 </span> gesetzt ist, beginnt das Video herunterzuladen, nachdem das Asset festgelegt wurde. Andernfalls wird das Vorausfüllen erst gestartet, nachdem die Wiedergabe durch den Endbenutzer oder einen API-Aufruf initiiert wurde. </p> <p>Wenn auf <span class="codeph"> 0 </span> gesetzt, funktionieren bestimmte Funktionen möglicherweise erst, wenn die Wiedergabe erneut gestartet wird. Insbesondere wird der Video-Frame durch den Suchvorgang nicht aktualisiert. Wenn das Standbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Video-Frames angezeigt. </p> <p>Die Deaktivierung der Videovorladung kann bei bestimmten Versionen von Internet Explorer 11 und Edge ignoriert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

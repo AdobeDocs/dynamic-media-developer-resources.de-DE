@@ -8,7 +8,7 @@ exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Image Serving Control-Skript. Mit diesem Skript wird der Image Serving Server Su
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> starten </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> start </span> </p> </td> 
    <td colname="col2"> <p> Starten Sie den Server Supervisor und alle anderen Image Serving-Komponenten. </p> </td> 
   </tr> 
   <tr> 
@@ -39,16 +39,16 @@ Image Serving Control-Skript. Mit diesem Skript wird der Image Serving Server Su
    <td colname="col2"> <p> Beenden Sie alle Image Serving-Komponenten, einschließlich des Server Supervisors. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Neu starten </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Neustart </span> </p> </td> 
    <td colname="col2"> <p>Starten Sie alle Image Serving-Komponenten einschließlich des Server Supervisors neu. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Neustart { ps | is | svg } </span> </p> </td> 
-   <td colname="col2"> <p> Startet Tomcat/ neu.[!DNL Platform Server], dem Image-Server oder SVG. </p> </td> 
+   <td colname="col2"> <p> Startet Tomcat/[!DNL Platform Server], den Image-Server oder SVG neu. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ] </span> </p> </td> 
-   <td colname="col2"> <p>Gibt Informationen zur Betriebszeit und aktuellen Speicherbelegung für Image-Server, Tomcat/ zurück[!DNL Platform Server], und SVGserver oder Status nur für den angegebenen Server; Stattdessen wird eine Informationsmeldung zurückgegeben, wenn der Server-Supervisor nicht ausgeführt wird. </p> </td> 
+   <td colname="col2"> <p>Gibt Informationen zur Betriebszeit und aktuellen Speicherbelegung für den Image-Server, Tomcat/[!DNL Platform Server] und SVGserver oder den Status nur für den angegebenen Server zurück. Stattdessen wird eine Informationsmeldung zurückgegeben, wenn der Server-Supervisor nicht ausgeführt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

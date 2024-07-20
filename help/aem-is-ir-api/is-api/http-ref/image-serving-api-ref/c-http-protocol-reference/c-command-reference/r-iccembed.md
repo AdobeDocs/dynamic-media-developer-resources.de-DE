@@ -26,7 +26,7 @@ Anforderungsattribut. Wird ignoriert, wenn kein Profil zum Einbetten verfügbar 
 
 `iccEmbed=0`, um keine Einbettung von ICC-Profilen in Ausgabebilder zu ermöglichen. Wird ignoriert, wenn das Einbetten von ICC-Profilen im Ausgabebildformat nicht unterstützt wird.
 
-Siehe [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) für Details.
+Weitere Informationen finden Sie unter [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) .
 
 ## Verwandte Themen {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 

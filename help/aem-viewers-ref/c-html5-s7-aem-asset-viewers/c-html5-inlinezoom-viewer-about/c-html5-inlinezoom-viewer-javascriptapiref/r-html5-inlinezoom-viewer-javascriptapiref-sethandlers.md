@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: JavaScript-API-Referenz für Inline-Zoom-Viewer.
+description: JavaScript API-Referenz für Inline-Zoom-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # setHandlers{#sethandlers}
 
-JavaScript-API-Referenz für Inline-Zoom-Viewer.
+JavaScript API-Referenz für Inline-Zoom-Viewer.
 
 `setHandlers(handlers)`
 
-Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt vollständig die Ereignishandler, die zuvor für diese Viewer-Instanz zugewiesen wurden. Muss vor aufgerufen werden `init()`.
+Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt vollständig die Ereignishandler, die zuvor für diese Viewer-Instanz zugewiesen wurden. Muss vor `init()` aufgerufen werden.
 
 ## Parameter {#section-0cc9961784d04eb3b7d50011309b0119}
 
@@ -26,7 +26,7 @@ Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen, wobei der Eigenschaftsname der Name des unterstützten Viewer-Ereignisses und der Eigenschaftswert ein JavaScript-Funktionsverweis auf einen entsprechenden Rückruf ist. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Ereignisrückrufe </a> für weitere Informationen zu Viewer-Ereignissen. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen, wobei der Eigenschaftsname der Name des unterstützten Viewer-Ereignisses und der Eigenschaftswert eine JavaScript-Funktionsreferenz zu einem entsprechenden Rückruf ist. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Ereignisrückrufe </a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

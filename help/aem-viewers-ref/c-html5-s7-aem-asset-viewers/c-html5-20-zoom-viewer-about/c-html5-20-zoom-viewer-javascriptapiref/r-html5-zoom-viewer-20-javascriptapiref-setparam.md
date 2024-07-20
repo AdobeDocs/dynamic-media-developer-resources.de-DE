@@ -25,15 +25,15 @@ JavaScript-API-Referenz für Video-Viewer.
    <td colname="col2"> <p> <span class="codeph"> {string} </span> Name des Parameters. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> -Wert des -Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Wert </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Software Development Kit-Modifikator. Dieser Parameter wird vor aufgerufen. `init()`.
+Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Software Development Kit-Modifikator. Dieser Parameter wird vor `init()` aufgerufen.
 
-Diese Methode ist optional, wenn die Konfigurationsinformationen des Viewers mit `config` JSON-Objekt zum Konstruktor.
+Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben wurden.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

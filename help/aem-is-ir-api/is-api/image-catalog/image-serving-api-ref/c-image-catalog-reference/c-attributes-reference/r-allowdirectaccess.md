@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Direkten Zugriff auf pfadbasierte Assets zulassen.
 
-Wenn dieses Attribut definiert ist, ist der pfadbasierte Zugriff für die angegebenen Objekttypen zulässig oder eingeschränkt, je nachdem, ob die Variable `include` oder `exclude` verwendet.
+Wenn dieses Attribut definiert ist, ist der pfadbasierte Zugriff für die angegebenen Objektarten zulässig oder eingeschränkt, je nachdem, ob das Schlüsselwort `include` oder `exclude` verwendet wird.
 
 >[!NOTE]
 >
->Wenn die Variable `AllowDirectAccess` -Attribut nicht angegeben ist, lautet der Standardwert `exclude`.
+>Wenn das Attribut `AllowDirectAccess` nicht angegeben ist, ist der Standardwert `exclude`.
 
 * `include` ermöglicht den Zugriff auf die angegebenen Objekttypen und beschränkt den Zugriff auf alle anderen.
-* `exclude` beschränkt den Zugriff auf die angegebenen Objekttypen und ermöglicht den Zugriff für alle anderen.
+* `exclude` beschränkt den Zugriff für die angegebenen Objektarten und ermöglicht den Zugriff für alle anderen.
 
-Wenn `include` nor `exclude` festgelegt ist, `include` wird angenommen.
+Wenn weder `include` noch `exclude` angegeben ist, wird `include` angenommen.
 
 Die folgenden Typen können gesteuert werden:
 
@@ -39,26 +39,26 @@ Die folgenden Typen können gesteuert werden:
 
 ## Beispiele {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Zulassen des direkten Zugriffs nur für `IS` und `STATIC` Objekttypen
+* Direkten Zugriff nur für die Objekttypen `IS` und `STATIC` zulassen
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* Direkten Zugriff auf alle Objektarten zulassen (mit Ausnahme von `IS` und `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* Direkten Zugriff für alle Objekttypen mit Ausnahme von `IS` und `STATIC``AllowDirectAccess=exclude:IS,STATIC` zulassen
 
-* Direkten Zugriff zulassen für *no* Objekttypen (d. h., keine einschließen)
+* Direkten Zugriff für *no* -Objekttypen zulassen (d. h. keine einschließen)
 
   `AllowDirectAccess=include:`
 
-* Direkten Zugriff zulassen für *all* Objekttypen (d. h. keine ausschließen)
+* Direkten Zugriff für *alle* Objekttypen zulassen (d. h. keine ausschließen)
 
   `AllowDirectAccess=exclude:`
 
-* Entspricht `include:IS,STATIC` (if `include`/ `exclude` nicht vorhanden ist, `include` wird angenommen)
+* Entspricht `include:IS,STATIC` (wenn `include`/ `exclude` nicht vorhanden ist, wird `include` angenommen.)
 
   `AllowDirectAccess=IS,STATIC`
 
-  Beachten Sie, dass der Standardwert verwendet wird, wenn die Variable `AllowDirectAccess` für dieses Unternehmen nicht angegeben ist.
+  Beachten Sie, dass der Standardwert verwendet wird, wenn das Attribut `AllowDirectAccess` nicht für dieses Unternehmen angegeben ist.
 
-* Keine einschließen, entspricht `include:` (if `include`/ `exclude` nicht vorhanden ist, `include` wird angenommen)
+* Keine einschließen, entspricht `include:` (wenn `include`/ `exclude` nicht vorhanden ist, wird `include` angenommen)
 
   `AllowDirectAccess=`

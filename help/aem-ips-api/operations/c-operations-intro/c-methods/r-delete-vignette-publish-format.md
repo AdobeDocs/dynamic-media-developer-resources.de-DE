@@ -8,7 +8,7 @@ exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -25,14 +25,14 @@ Löscht ein Vignetten-Veröffentlichungsformat.
 
 ## Parameter {#section-789625ba29df4b5f880914d4c64f77ce}
 
-**Eingabe (deleteVignettePublishFormatParam)**
+**Input (deleteVignettePublishFormatParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem die Vignette gehört. |
 | vignetteFormatHandle | `xsd:string` | Ja | Das Handle zum zu löschenden Vignetten-Veröffentlichungsformat. |
 
-**Ausgabe (deleteVignettePublishFormatParam)**
+**Output (deleteVignettePublishFormatParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -40,7 +40,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird ein Vignetten-Veröffentlichungsformat gelöscht, das vom Handle angegeben wird.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <deleteVignettePublishFormatParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

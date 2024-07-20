@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch über ein .ini-Dateisuffix verfügen. Sie können mit jedem Texteditor problemlos gepflegt werden.
 
-Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt durch eine `<CR>` (ASCII-Code) `0xD`), einer einzelnen `<LF>` (ASCII-Code) `0xA`) oder einem `<CR><LF>` ein. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren kommagetrennten Attributwerten:
+Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt durch ein einzelnes `<CR>` (ASCII-Code `0xD`), ein einzelnes `<LF>` (ASCII-Code `0xA`) oder ein `<CR><LF>` Paar. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren kommagetrennten Attributwerten:
 
 `*`name`*= *`values`*{<CR>|<LF>|<CR><LF }`
 
@@ -31,13 +31,13 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Attributwert. Darf nicht enthalten <span class="codeph"> &lt;cr&gt;</span> oder <span class="codeph"> &lt;lf&gt;</span> -Zeichen, es sei denn, sie werden durch einen einzigen umgekehrten Schrägstrich kurz vor dem Zeilenumbruchzeichen maskiert. </p></td> 
+  <td class="stentry"> <p>Attributwert. Darf keine <span class="codeph"> &lt;CR&gt;</span> - oder <span class="codeph"> &lt;LF&gt;</span> -Zeichen enthalten, es sei denn, dieser Schrägstrich wird durch einen einzelnen umgekehrten Schrägstrich direkt vor dem Zeilenumbruchzeichen maskiert. </p></td> 
  </tr> 
 </table>
 
 Leerzeichen zwischen Token sind optional.
 
-Datensätze mit unbekannten Attributnamen werden von der [!DNL Platform Server].
+Datensätze mit unbekannten Attributnamen werden von der [!DNL Platform Server] ignoriert.
 
 Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen sowie &quot;-&quot;, &quot;_&quot;und &quot;.&quot;bestehen.
 

@@ -8,7 +8,7 @@ exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -32,11 +32,11 @@ Syntax
 
 ## Parameter {#section-d516615c906240819a284786efb19863}
 
-**Eingabe (generatePasswordParam)**
+**Input (generatePasswordParam)**
 
 Keine.
 
-**Ausgabe (generatePasswordParam)**
+**Output (generatePasswordParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Keine.
 
 Dieses Codebeispiel generiert ein Kennwort. Dies ist ungewöhnlich, da es sich bei der Anfrage lediglich um einen Parameter ohne eingeschlossene Elemente oder Werte handelt. IPS gibt ein sicheres Kennwort zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <generatePasswordParam xmlns="http://www.scene7.com/IpsApi/xsd">

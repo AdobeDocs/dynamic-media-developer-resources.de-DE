@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position am oberen Rand der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Position rechts neben der Viewer-Begrenzung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position links neben dem Viewer. </p> </td> 
   </tr> 
   <tr> 
@@ -55,19 +55,19 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
    <td colname="col2"> <p>Cursortyp. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,11 +75,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributauswahl `state`, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
 
-Angenommen, Sie möchten eine vorherige Schaltfläche mit einer Größe von 60 x 60 Pixel einrichten. Sie möchten, dass die Schaltfläche zehn Pixel vom rechten und vertikal zentrierten Viewer-Rahmen entfernt wird. Und Sie möchten, dass es für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt.
+Angenommen, Sie möchten eine vorherige Schaltfläche mit einer Größe von 60 x 60 Pixel einrichten. Sie möchten, dass die Schaltfläche zehn Pixel vom rechten und vertikal zentrierten Viewer-Rahmen entfernt wird. Und Sie möchten, dass es für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

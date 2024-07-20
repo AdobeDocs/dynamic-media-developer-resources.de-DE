@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Ihr Server sollte die folgenden Hardwareanforderungen erfüllen.
 
 >[!NOTE]
 >
->Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden normalerweise als NUMA-Plattformen (Non-Uniform Memory Architecture) konfiguriert. Dies bedeutet, dass der Kernel mehrere Speicherknoten beim Booten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Konstrukt mit mehreren Knoten kann zu einer Speichererschöpfung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft sind. Wenn die Speichererschöpfung eintritt, kann der Kernel entscheiden, Prozesse abzubrechen (z. B. der Image-Server oder [!DNL Platform Server]), obwohl verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe, dass Sie NUMA deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die `numa=off` start -Option, um zu vermeiden, dass der Kernel diese Prozesse stoppt.
+>Systeme mit Prozessoren mit AMD64 und Intel® EM64T werden normalerweise als NUMA-Plattformen (Non-Uniform Memory Architecture) konfiguriert. Dies bedeutet, dass der Kernel mehrere Speicherknoten beim Booten erstellt, anstatt einen einzelnen Speicherknoten zu erstellen. Das Konstrukt mit mehreren Knoten kann zu einer Speichererschöpfung auf einem oder mehreren Knoten führen, bevor andere Knoten erschöpft sind. Wenn die Speichererschöpfung eintritt, kann der Kernel Prozesse beenden (z. B. den Image-Server oder [!DNL Platform Server]), obwohl verfügbarer Speicher vorhanden ist. Daher empfiehlt Adobe, dass Sie NUMA deaktivieren, wenn Sie ein solches System ausführen. Verwenden Sie die `numa=off` -Startoption, um zu vermeiden, dass der Kernel diese Prozesse stoppt.
 
 **Windows**
 
@@ -40,7 +40,7 @@ Ihr Server sollte die folgenden Hardwareanforderungen erfüllen.
 * 2 GB verfügbarer Festplattenspeicher für die Installation und den grundlegenden Betrieb, zusätzlicher Speicherplatz für Quellbilder, Protokolle, Daten-Caches und Manifestdateien.
 * Fast-Ethernet-Netzwerkkarte.
 
-**Hinweis (Linux®):** Image Serving funktioniert nicht, wenn SELinux aktiviert ist. Diese Option ist standardmäßig aktiviert. Um SELinux zu deaktivieren, bearbeiten Sie die [!DNL /etc/selinux/config] und ändern Sie den SELinux-Wert von:
+**Hinweis (Linux®):** Image Serving funktioniert nicht mit eingeschaltetem SELinux. Diese Option ist standardmäßig aktiviert. Um SELinux zu deaktivieren, bearbeiten Sie die Datei [!DNL /etc/selinux/config] und ändern Sie den SELinux-Wert von:
 
 `SELINUX=enforcing`
 
@@ -48,7 +48,7 @@ nach
 
 `SELINUX=disabled`
 
-**Hinweis (Linux®):** Stellen Sie sicher, dass der Hostname des Servers in eine IP-Adresse aufgelöst werden kann. Wenn dies nicht möglich ist, fügen Sie den vollständig qualifizierten Hostnamen und die IP-Adresse zu [!DNL /etc/hosts] wie im folgenden Beispiel gezeigt.
+**Hinweis (Linux®):** Stellen Sie sicher, dass der Hostname des Servers in eine IP-Adresse aufgelöst werden kann. Wenn dies nicht möglich ist, fügen Sie den vollständig qualifizierten Hostnamen und die IP-Adresse wie im folgenden Beispiel zu [!DNL /etc/hosts] hinzu.
 
 `<ip address> <fully qualified hostname>`
 

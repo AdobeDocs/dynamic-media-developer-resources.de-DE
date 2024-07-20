@@ -8,7 +8,7 @@ exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -33,14 +33,14 @@ Syntax
 
 ## Parameter {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
-**Eingabe (deleteFolderParam)**
+**Input (deleteFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Ordner gehört. |
-| folderHandle | `xsd:string` | Ja | Der Handle für den Ordner, der gelöscht werden soll. |
+| folderHandle | `xsd:string` | Ja | Der Handle für den zu löschenden Ordner. |
 
-**Ausgabe (deleteFolderParam)**
+**Output (deleteFolderParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -48,7 +48,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Beispielcode wird ein Ordner aus dem Stammverzeichnis des Unternehmens gelöscht. Dazu ist ein Ordner-Handle erforderlich, das Sie von einem anderen Vorgang abrufen müssen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:deleteFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

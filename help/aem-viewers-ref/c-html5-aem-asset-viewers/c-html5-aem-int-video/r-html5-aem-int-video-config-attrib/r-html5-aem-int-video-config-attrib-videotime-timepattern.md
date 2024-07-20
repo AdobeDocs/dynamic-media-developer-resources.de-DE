@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '122'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Legt das Muster für die in der Steuerleiste angezeigte Zeit fest, wobei <span class="codeph"> h</span> Stunden, <span class="codeph"> m</span> für Minuten und <span class="codeph"> s</span> für Sekunden darstellt. </p> <p>Die Anzahl der für jede Zeiteinheit verwendeten Buchstaben bestimmt die Anzahl der für die Einheit anzuzeigenden Ziffern. Wenn die Zahl nicht in die angegebenen Ziffern passt, wird der entsprechende Wert in der nachfolgenden Einheit angezeigt. </p> <p>Wenn die aktuelle Filmzeit beispielsweise 67 Minuten und 5 Sekunden beträgt, wird als Zeitmuster <span class="codeph"> m:ss</span> 67:05 angezeigt. Die gleiche Zeit wird als 1:07:5 angezeigt, wenn das Zeitmuster <span class="codeph"> h:mm:s</span> ist. </p> </td> 
+   <td colname="col2"> <p> Legt das Muster für die in der Steuerleiste angezeigte Zeit fest, wobei <span class="codeph"> h</span> Stunden, <span class="codeph"> m</span> für Minuten und <span class="codeph"> s</span> für Sekunden darstellt. </p> <p>Die Anzahl der für jede Zeiteinheit verwendeten Buchstaben bestimmt die Anzahl der für die Einheit anzuzeigenden Ziffern. Wenn die Zahl nicht in die angegebenen Ziffern passt, wird der entsprechende Wert in der nachfolgenden Einheit angezeigt. </p> <p>Wenn die aktuelle Filmzeit beispielsweise 67 Minuten und 5 Sekunden beträgt, wird als Zeitmuster "<span class="codeph"> m:ss</span>"67:05 angezeigt. Dieselbe Zeit wird als 1:07:5 angezeigt, wenn das Zeitmuster <span class="codeph"> h:mm:s</span> ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

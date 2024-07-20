@@ -18,9 +18,9 @@ JavaScript-API-Referenz für Panorama-Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Legt die ID des DOM-Containers (normalerweise ein DIV) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Sie muss zuvor aufgerufen werden `init()`.
+Legt die ID des DOM-Containers (normalerweise ein DIV) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Sie muss vor `init()` aufgerufen werden.
 
-Diese Methode ist optional, wenn die Konfigurationsinformationen des Viewers mit der `config` JSON-Objekt an den Konstruktor.
+Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
 ## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
 

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Dokumentation zu Konfigurationsattributen für Smart Crop Video Viewer.
 
-Sie können einen beliebigen Konfigurationsbefehl in der URL festlegen. Sie können auch die API-Methoden verwenden `setParam()`oder `setParams()`oder beides verwenden, um einen beliebigen Konfigurationsbefehl festzulegen. Sie können auch jedes Konfigurationsattribut im serverseitigen Konfigurationseintrag angeben.
+Sie können einen beliebigen Konfigurationsbefehl in der URL festlegen. Sie können auch die API-Methoden `setParam()`, `setParams()` oder beide verwenden, um einen beliebigen Konfigurationsbefehl festzulegen. Sie können auch jedes Konfigurationsattribut im serverseitigen Konfigurationseintrag angeben.
 
-Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder dem Instanznamen der entsprechenden Viewer SDK-Komponente voranstellen. Ein Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an übergeben wird `setContainerId()` API-Methode. Die Dokumentation enthält optionale Präfixe für solche Befehle. Beispiel: `playback` wird wie folgt dokumentiert:
+Sie können einigen Konfigurationsbefehlen das Präfix mit dem Klassennamen oder dem Instanznamen der entsprechenden Viewer SDK-Komponente voranstellen. Der Instanzname der Komponente ist dynamisch und hängt von der ID des an die API-Methode `setContainerId()` übergebenen Viewer-Container-DOM-Elements ab. Die Dokumentation enthält optionale Präfixe für solche Befehle. Beispiel: `playback` wird wie folgt dokumentiert:
 
 ```
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
@@ -30,7 +30,7 @@ Das bedeutet, dass dieser Befehl wie folgt verwendet wird:
 
 * `playback` (kurze Syntax)
 * `SmartCropVideoPlayer.playback` (qualifiziert mit dem Namen der Komponentenklasse)
-* `cont_videoPlayer.playback` (mit Komponenten-ID qualifiziert, vorausgesetzt, dass `cont` ist die ID des Containerelements)
+* `cont_videoPlayer.playback` (qualifiziert mit Komponenten-ID, vorausgesetzt, `cont` ist die ID des Container-Elements)
 
 Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
 

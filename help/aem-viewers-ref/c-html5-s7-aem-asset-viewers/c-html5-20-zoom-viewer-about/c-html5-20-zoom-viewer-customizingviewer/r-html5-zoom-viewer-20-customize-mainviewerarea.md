@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Viewers mit weißem Hintergrund ( `#FFFFFF`) und machen Sie ihre Größe 512 x 288 Pixel.
+Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
 
 ```
 .s7zoomviewer { 

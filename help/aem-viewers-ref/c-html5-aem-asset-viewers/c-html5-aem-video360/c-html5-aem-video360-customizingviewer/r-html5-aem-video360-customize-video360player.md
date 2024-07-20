@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +39,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
 
 Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht wiedergeben kann.
 
-Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Siehe [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayergröße von 512 x 288 Pixel.
 
@@ -72,19 +72,19 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
    <td colname="col2"> <p> Breite des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Höhe des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p> Animationssymbol am linken Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Der obere Rand des Animationssymbols, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Knob-Grafik. </p> </td> 
   </tr> 
  </tbody> 

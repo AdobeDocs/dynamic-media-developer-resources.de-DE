@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 14%
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Neuere Image Rendering-Serverversionen unterstützen Pyramid-Vignetten, sodass k
 
 ## Parameter {#section-3a368186ec1d4005bca056fc9d9bacc7}
 
-**Eingabe (createVignettePublishFormatParam)**
+**Input (createVignettePublishFormatParam)**
 
 <table id="table_4D5B2913FA784EC09190F25223C1A680"> 
  <thead> 
@@ -63,7 +63,7 @@ Neuere Image Rendering-Serverversionen unterstützen Pyramid-Vignetten, sodass k
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Erstellt eine zum Zoomen auf dem Image Rendering-Server optimierte Pryramidenvignette. Ausgehend von der Maximalgröße, die in den Feldern zur Bestimmung der Größe der Zielvignette festgelegt wird, werden in einer einzigen Vignettendatei Ansichten in verschiedenen Größen erstellt. Die Größe jeder weiteren Ansicht wird jedesmal halbiert, bis Höhe und Breite bei 128 x 128 Pixeln liegen. </td> 
+   <td colname="col4"> Erstellt eine Pyramidenvignette, die für das Zoomen auf dem Image Rendering-Server optimiert ist. Beginnend mit der Maximalgröße, die durch die Felder für die Vignettengröße der Zielgruppe festgelegt wird, erstellt dies Ansichten mit mehreren Größen in einer Vignettenausgabedatei. Jede nachfolgende Anzeigegröße wird um die Hälfte reduziert, bis die Breite und Höhe 128 x 128 Pixel beträgt. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
@@ -90,7 +90,7 @@ Neuere Image Rendering-Serverversionen unterstützen Pyramid-Vignetten, sodass k
    <td colname="col4"> Gibt das Zeichen an, das den Vignettennamen und das Suffix trennt und die Breite angibt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Scharfzeichnen</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sharpen</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Wendet die Scharfzeichnung auf das Hauptansichtsbild für jede Veröffentlichungsvignettengröße an. Das Scharfzeichnen kann die Weichzeichnung bei der Skalierung der Vignetten kompensieren. </td> 
@@ -116,17 +116,17 @@ Neuere Image Rendering-Serverversionen unterstützen Pyramid-Vignetten, sodass k
  </tbody> 
 </table>
 
-**Ausgabe (createVignettePublishFormatReturn)**
+**Output (createVignettePublishFormatReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| vignetteFormatHandle | `xsd:string` | Ja | Der Griff zum erstellten Vignettenformat. |
+| vignetteFormatHandle | `xsd:string` | Ja | Der Handle zum erstellten Vignettenformat. |
 
 ## Beispiele {#section-0564752d439642b9bb8de2903db6de1e}
 
 Dieser Code erstellt das Vignettenveröffentlichungsformat. Die Erstellungsanfrage gibt einen Namen, eine Zielbreite und -höhe sowie andere erforderliche Werte an.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createVignettePublishFormatParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

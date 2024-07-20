@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b892fe86-1b7c-4a49-a1cd-473f51d04d10
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -26,4 +26,4 @@ Hier wird die VNTC-Nutzungssyntax beschrieben.
 
 Erforderlich.
 
-*[!DNL destFile]* ist der Pfad und der Name der Vignettendatei für die Ausgabe. Wenn nicht angegeben, wird die Ausgabedatei in dem Ordner abgelegt, der mit `-destpath`. In diesem Szenario wird der Dateiname automatisch aus dem Namen der Eingabedatei und einem Suffix der Größe generiert, getrennt durch die Zeichenfolge, die mit `-separator`. Bei Vignetten ist das Suffix der Größe die Pixelbreite der Ausgabedateien-Vignette mit einer Auflösung, die Breite der ersten Ansicht einer AusgabVignette mit mehreren Auflösungen oder &quot;0&quot;, wenn eine Pyramidenvignette vorhanden ist. Bei Kabinenstil-Dateien wird die Ausgabeauflösung als Dateisuffix verwendet. *[!DNL destFile]* wird ignoriert, wenn `-info` festgelegt ist.
+*[!DNL destFile]* ist der Pfad und der Name der Vignettendatei für die Ausgabe. Wenn nicht angegeben, wird die Ausgabedatei in dem mit `-destpath` angegebenen Ordner abgelegt. In diesem Szenario wird der Dateiname automatisch aus dem Namen der Eingabedatei und dem Suffix der Größe generiert, getrennt durch die mit `-separator` angegebene Zeichenfolge. Bei Vignetten ist das Suffix der Größe die Pixelbreite der Ausgabedateien-Vignette mit einer Auflösung, die Breite der ersten Ansicht einer AusgabVignette mit mehreren Auflösungen oder &quot;0&quot;, wenn eine Pyramidenvignette vorhanden ist. Bei Kabinenstil-Dateien wird die Ausgabeauflösung als Dateisuffix verwendet. *[!DNL destFile]* wird ignoriert, wenn `-info` angegeben ist.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
@@ -18,13 +18,13 @@ Standardformat des Antwortbilds. Gibt das Standardformat für Antwortbilder an.
 
 ## Eigenschaften {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Textzeichenfolge. Muss einer der Format-Token sein, die vom `fmt=` command:
+Textzeichenfolge. Muss einer der Format-Token sein, die vom Befehl `fmt=` unterstützt werden:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Standard {#section-256b0f8afdd846eaac68ec2019258708}
 
-Vererbt von `default::Format` wenn nicht definiert oder leer ist.
+Wird von `default::Format` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 10%
+source-wordcount: '198'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ Syntax
 
 ## Parameter {#section-b7fa94c82147455888e8469fa5f6922b}
 
-**Eingabe (getGenerationInfoParam)**
+**Input (getGenerationInfoParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -40,10 +40,10 @@ Syntax
 | Codeausdruck | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftstile. |
 | Codeausdruck | `xsd:string` | Nein | Das Handle des Assets, das nach generierten Assets abgefragt werden soll. |
 | Codeausdruck | `xsd:string` | Nein | Der Handle des Assets, mit dem nach Assets und Engines abgefragt werden soll, die bei seiner Generierung verwendet werden. |
-| Codeausdruck | `xsd:StringArray` | Nein | Eigenschaften, die im Vorgang enthalten sind. |
+| Codeausdruck | `xsd:StringArray` | Nein | Im Vorgang enthaltene Eigenschaften. |
 | Codeausdruck | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
 
-**Ausgabe (getGenerationInfoReturn)**
+**Output (getGenerationInfoReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -51,9 +51,9 @@ Syntax
 
 ## Beispiele {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Dieses Codebeispiel gibt Informationen zu Assets zurück, die aus einem bestimmten Asset generiert wurden. Es werden keine Informationen zu Schritten abgerufen, die zum Generieren des angegebenen Assets verwendet werden. Die Antwort wird aus Gründen der Kürze abgeschnitten.
+Dieses Codebeispiel gibt Informationen zu Assets zurück, die aus einem bestimmten Asset generiert wurden. Es werden keine Informationen zu den Schritten abgerufen, die zum Generieren des angegebenen Assets verwendet werden. Die Antwort wird aus Gründen der Kürze abgeschnitten.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getGenerationInfoParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

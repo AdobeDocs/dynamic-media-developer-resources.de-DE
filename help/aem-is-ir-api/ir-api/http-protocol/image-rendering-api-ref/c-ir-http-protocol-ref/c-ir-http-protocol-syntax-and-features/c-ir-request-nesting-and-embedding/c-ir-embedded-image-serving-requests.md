@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Eine Image Server (IS)-Anfrage kann als Materialbild verwendet werden.
 
-Geben Sie die Anforderung im `src=` -Befehl wie folgt:
+Geben Sie die Anforderung im Befehl `src=` wie folgt an:
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-Die `is` Beim Token wird zwischen Groß- und Kleinschreibung unterschieden.
+Beim `is` -Token wird zwischen Groß- und Kleinschreibung unterschieden.
 
-Die verschachtelte Anforderung darf nicht den Root-Pfad &quot;Image Serving&quot;enthalten (normalerweise [!DNL http:// *[!DNL server]*/is/image/"]), kann aber Vorab-Verarbeitungsregel-Token enthalten.
+Die verschachtelte Anforderung darf nicht den Stammpfad Image Serving enthalten (typischerweise  [!DNL http:// *[!DNL server]*/is/image/"]), kann aber Vorab-Verarbeitungsregel-Token enthalten.
 
 Die folgenden IS-Befehle werden ignoriert, wenn sie in verschachtelten Anforderungen angegeben werden (entweder in der Anforderungs-URL oder in `catalog::Modifier` oder `catalog::PostModifier`):
 
@@ -35,8 +35,8 @@ Die folgenden IS-Befehle werden ignoriert, wenn sie in verschachtelten Anforderu
 * `quantize=`
 * `req=`
 
-Auch ignoriert `attribute::MaxPix` und `attribute::DefaultPix` des Bildkatalogs, der für die eingebettete IS-Anforderung gilt.
+Außerdem werden `attribute::MaxPix` und `attribute::DefaultPix` des Bildkatalogs ignoriert, der für die eingebettete IS-Anforderung gilt.
 
 Wenn das Ergebnisbild der verschachtelten Anforderung Maskendaten (Alpha) enthält, wird es immer an das Material übergeben. Verwenden Sie eine einfarbige Hintergrundbildschicht, um unerwünschte Alpha zu vermeiden.
 
-Das Bildergebnis einer eingebetteten IS-Anforderung kann optional zwischengespeichert werden, indem `cache=on`. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild innerhalb eines angemessenen Zeitraums in einer anderen Anforderung wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden verlustfrei zwischengespeichert.
+Das Bildergebnis einer eingebetteten IS-Anforderung kann optional zwischengespeichert werden, indem `cache=on` einbezogen wird. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild innerhalb eines angemessenen Zeitraums in einer anderen Anforderung wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden verlustfrei zwischengespeichert.

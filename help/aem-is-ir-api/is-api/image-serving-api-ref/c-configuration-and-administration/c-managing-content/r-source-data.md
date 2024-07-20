@@ -1,18 +1,18 @@
 ---
 description: Zu den Quelldatendateien für Image Serving gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
 solution: Experience Manager
-title: Quelldaten
+title: Source-Daten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
 
-# Quelldaten{#source-data}
+# Source-Daten{#source-data}
 
 Zu den Quelldatendateien für Image Serving gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
 
@@ -35,7 +35,7 @@ Alle Quelldatendateien müssen für den Image-Server verfügbar sein. Image Serv
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> requestPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> relativer Pfad und Name der Bilddatei, der in einer Image Serving HTTP-Anfrage angegeben ist</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> relativer Pfad und Name der Bilddatei, der in einer Image Serving HTTP-Anforderung angegeben ist</span> </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +43,7 @@ Der Server kombiniert Pfadsegmente von rechts nach links, bis ein absoluter Date
 
 Alle `*`rootPath`*` -Segmente können leere, relative oder absolute Pfadsegmente sein.
 
-`*`catalogPath`*` ist entweder ein absoluter oder ein relativer Dateipfad/-name. `*`requestPath`*` muss ein relativer Dateipfad/Name sein.
+`*`catalogPath`*` ist entweder ein absoluter oder relativer Dateipfad/-name. `*`requestPath`*` muss ein relativer Dateipfad/Dateiname sein.
 
 `Multiple IS::RootPath` -Werte können in ImageServerRegistry.xml (oder über die Admin-Oberfläche) definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Image-Server versucht alternative Pfade in der angegebenen Reihenfolge, bis die Datendatei gefunden wird.
 

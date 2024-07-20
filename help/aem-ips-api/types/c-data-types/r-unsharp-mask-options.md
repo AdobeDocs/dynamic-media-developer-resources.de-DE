@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 11%
+source-wordcount: '189'
+ht-degree: 8%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 11%
 
 Einstellungen zur Verbesserung der Bildschärfe für optimierte Pyramid TIF-Dateien.
 
-`unsharpMaskOptions=[ *`Stärke, Radius, Schwellenwert, Monochrom`*]`
+`unsharpMaskOptions=[ *`amount, radius, threshold, monochrome`*]`
 
 ## Parameter {#section-c3f0d03136ba4422819cb463bd393885}
 
-Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n`*".`
+Geben Sie einen Wert für `unsharpMaskOptions` -Optionen mit `minOccurs=" *`n`*".` an
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -36,7 +36,7 @@ Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n`*".
    <td colname="col2"><span class="codeph"> xsd:double</span></td>
    <td colname="col3"><p>Steuert den auf Kantenpixel angewendeten Kontrast. 
      <ul id="ul_7AA17E354EE64BC4A5BEAE853FF17191">
-      <li id="li_42FB21C7ED884E1DB03274130B8DCB10">Bereich: 0.0-5.0 </li>
+      <li id="li_42FB21C7ED884E1DB03274130B8DCB10">Bereich: 0,0 - 5,0 </li>
       <li id="li_E980CAA1A9C54D60A121F21C964820FF">Standard: 0 </li>
      </ul></p></td>
   </tr>
@@ -45,7 +45,7 @@ Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n`*".
    <td colname="col2"><span class="codeph"> xsd:double</span></td>
    <td colname="col3"><p>Steuert die Schärfe, indem die Anzahl der Pixel um den Rand eines Bildes festgelegt wird. Der richtige Wert hängt von der Größe des Bilds ab. 
      <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
-      <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Bereich: 0.0-250.0 </li>
+      <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Bereich: 0.0 - 250.0 </li>
       <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">Bei niedrigen Werten werden nur Kantenpixel scharfgezeichnet. </li>
       <li id="li_7D9FD8AA4899404283D7AB596364A4AF">Hohe Werte schärfen einen größeren Bereich von Pixeln. </li>
      </ul></p></td>
@@ -62,7 +62,7 @@ Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n`*".
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monochrome</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Zu den Werten gehören <span class="codeph"> 0</span> oder <span class="codeph"> 1</span> nur. </p><p>Legen Sie fest auf <span class="codeph"> 0</span> für jede Farbkomponente einzeln oder auf <span class="codeph"> 1</span> , um nur die Bildhelligkeit (Intensität) anzuwenden. Die Ebenenmaske oder die zusammengesetzte Maske wird ebenfalls scharfgezeichnet. </p><p><span class="codeph"><span class="varname"> monochrome</span></span> wird bei Graustufenbildern ignoriert. </p></td>
+   <td colname="col3"><p>Die Werte umfassen nur <span class="codeph"> 0</span> oder <span class="codeph"> 1</span>. </p><p>Legen Sie den Wert auf <span class="codeph"> 0</span> fest, um auf jede Farbkomponente einzeln anzuwenden, oder auf <span class="codeph"> 1</span> , um nur die Bildhelligkeit (Intensität) anzuwenden. Die Ebenenmaske oder die zusammengesetzte Maske wird ebenfalls scharfgezeichnet. </p><p><span class="codeph"><span class="varname"> monochrome</span></span> wird bei Graustufenbildern ignoriert. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Geben Sie einen Wert für `unsharpMaskOptions` Optionen mit `minOccurs=" *`n`*".
 
 ## Verwendet von {#section-db8124a5468b498694a780f8a56a4560}
 
-Die `unsharpMaskOptions` Typ:
+Der Typ `unsharpMaskOptions` wird wie folgt verwendet:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
@@ -92,5 +92,4 @@ Die `unsharpMaskOptions` Typ:
 
 >[!MORELIKETHIS]
 >
->* [Image Serving-API-Referenz: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
-
+>* [Image Serving API Reference: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 14%
+source-wordcount: '76'
+ht-degree: 13%
 
 ---
 
@@ -31,7 +31,7 @@ Syntax
 
 ## Parameter {#section-2c61b2bffcf9479a9391f2c13fdf7d53}
 
-**Eingabe (executeJobParam)**
+**Input (executeJobParam)**
 
 <table id="table_FA410513908F4084A21A5F0A9431006C"> 
  <thead> 
@@ -58,7 +58,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (executeJobReturn)**
+**Output (executeJobReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -66,7 +66,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird ein Auftrag ausgeführt, der in IPS ausgeführt werden soll.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <executeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

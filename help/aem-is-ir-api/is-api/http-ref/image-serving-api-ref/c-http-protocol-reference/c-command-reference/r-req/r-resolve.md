@@ -18,6 +18,6 @@ Debug-Anfrage. Dieser Debugging-Befehl analysiert und verarbeitet die Anforderun
 
 `req=resolve`
 
-Die endgültige Anforderungszeichenfolge wird mit dem MIME-Typ anstelle des Ergebnisbilds zurückgegeben. `text/plain`.
+Die endgültige Anforderungszeichenfolge wird mit dem MIME-Typ `text/plain` anstelle des Ergebnisbilds zurückgegeben.
 
 Die HTTP-Antwort kann nicht zwischengespeichert werden.

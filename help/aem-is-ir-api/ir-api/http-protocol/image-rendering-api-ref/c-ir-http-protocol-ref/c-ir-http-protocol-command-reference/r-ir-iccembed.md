@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: c0f28a87-c168-4c6b-bbe1-af6b98e9f52f
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
 
 # iccEmbed{#iccembed}
 
-Einbetten des ICC-Profils. Gibt an, ob das funktionierende ICC-Farbprofil oder das Profil, das mit `icc=` sollte in das Antwortbild eingebettet werden.
+Einbetten des ICC-Profils. Gibt an, ob das funktionierende ICC-Farbprofil oder das mit `icc=` angegebene Profil in das Antwortbild eingebettet werden soll.
 
 `iccEmbed=0|1`
 

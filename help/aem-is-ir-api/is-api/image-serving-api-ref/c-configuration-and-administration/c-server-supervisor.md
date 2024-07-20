@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Zusätzlich zum Starten und Beenden anderer Image Serving-Komponenten ist der Se
 
 ## Starten und Beenden {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-Der Server Supervisor wird mit dem Image Serving-Dienstprogrammskript gestartet, angehalten und neu gestartet. Weitere Informationen finden Sie in der [Dienstprogrammdokumentation](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) .
+Der Server Supervisor wird mit dem Image Serving-Dienstprogrammskript gestartet, angehalten und neu gestartet. Weitere Informationen finden Sie in der Dokumentation zu [Dienstprogrammen](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) .
 
 Der Server Supervisor wird automatisch gestartet und beendet, und alle anderen Image Serving-Komponenten werden angehalten.
 

@@ -23,4 +23,4 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | assetType | `xsd:string` | Asset-Typ, der mit Felddefinitionen verknüpft ist (Werte finden Sie unter &quot;Asset-Typen&quot;). |
-| fieldArray | `types:MetadataFieldArray` | Array von Metadatenfelddefinitionen, die mit dem in `assetType`. |
+| fieldArray | `types:MetadataFieldArray` | Array von Metadatenfelddefinitionen, die mit dem in `assetType` angegebenen Asset-Typ verknüpft sind. |

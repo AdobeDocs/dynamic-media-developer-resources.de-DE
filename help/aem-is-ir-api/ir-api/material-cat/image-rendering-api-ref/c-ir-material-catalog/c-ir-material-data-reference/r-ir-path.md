@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Pfad der Bilddatei. Relativer Pfad und Name einer Textur- oder Decal-Bilddatei.
 
-Der Server kombiniert diesen Wert mit `attribute::RootPath` , um den Pfad der Bilddatei zu erstellen. Kann auch ein absoluter Pfad sein.
+Der Server kombiniert diesen Wert mit `attribute::RootPath` , um den tatsächlichen Pfad der Bilddatei zu erstellen. Kann auch ein absoluter Pfad sein.
 
 Wird verwendet, um die Texturbilddatei für Textur-, Schrank- und Fensterabdeckungsmaterialien sowie die RGB- oder RGBA-Bilddatei für Dekal- und Wandbegrenzungsmaterialien anzugeben. Nicht alle Schrank- und Fensterabdeckungsmaterialien erfordern ein separates wiederholbares Texturbild.
 

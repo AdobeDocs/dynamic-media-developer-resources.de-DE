@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Auf <span class="codeph"> 1 </span> setzen, um die Anzeige der Schließen-Schaltfläche zu ermöglichen. Oder setzen Sie <span class="codeph"> 0 </span>, um die Schließen-Schaltfläche auszublenden. </p> <p>Die Schließen-Schaltfläche wird nur auf Touch-Geräten unterstützt. kann nicht auf Desktop-Systemen angezeigt werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Setzen Sie dies auf <span class="codeph"> 1 </span> , um die Anzeige der Schließen-Schaltfläche zu ermöglichen. Oder setzen Sie auf <span class="codeph"> 0 </span> , um die Schließen-Schaltfläche auszublenden. </p> <p>Die Schließen-Schaltfläche wird nur auf Touch-Geräten unterstützt. Sie kann nicht auf Desktop-Systemen angezeigt werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

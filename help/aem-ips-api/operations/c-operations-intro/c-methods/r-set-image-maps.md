@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '134'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 
 ## Parameter {#section-2292ec1aead947ef8741dd0653a41f42}
 
-**Eingabe (setImageMapsParam)**
+**Input (setImageMapsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
 | imageMapArray | `types:ImageMapDefinitionArray` | Ja | Array von vordefinierten Imagemaps. |
 
-**Ausgabe (setImageMapsReturn)**
+**Output (setImageMapsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 
 In diesem Codebeispiel werden zwei Imagemaps für ein Bild-Asset festgelegt. Der Code gibt den Formtyp, den Bereich und die Aktion an, die beim Aufrufen der Imagemaps ausgeführt werden. Die Antwort enthält ein Array mit Griffen an die Imagemaps.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setImageMapsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

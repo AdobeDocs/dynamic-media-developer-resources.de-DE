@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Viewers mit weißem Hintergrund ( `#FFFFFF`) und machen Sie ihre Größe 512 x 288 Pixel.
+Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
 
 ```
 .s7ecatalogsearchviewer { 

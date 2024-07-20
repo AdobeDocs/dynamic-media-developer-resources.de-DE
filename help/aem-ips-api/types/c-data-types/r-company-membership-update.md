@@ -21,5 +21,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | companyHandle | `xsd:string` | Handle mit dem Unternehmen. |
-| Rolle | `xsd:string` | Die Rolle, die ein Benutzer für jedes Unternehmen hat, zu dem er gehört. |
+| Rolle | `xsd:string` | Die Rolle eines Benutzers für jedes Unternehmen, zu dem er gehört. |
 | isActive | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |

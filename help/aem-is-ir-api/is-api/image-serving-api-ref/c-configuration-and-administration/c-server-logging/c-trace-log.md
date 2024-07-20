@@ -1,5 +1,5 @@
 ---
-description: Die [!DNL Platform Server] schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen, Starts-, Herunterfahren- und Katalogladeereignisse aufzuzeichnen.
+description: Der [!DNL Platform Server] schreibt Einträge in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen sowie die Ereignisse beim Start, Herunterfahren und Laden des Katalogs aufzuzeichnen.
 solution: Experience Manager
 title: Ablaufprotokoll
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Ablaufprotokoll{#trace-log}
 
-Die [!DNL Platform Server] schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen, Starts-, Herunterfahren- und Katalogladeereignisse aufzuzeichnen.
+Die [!DNL Platform Server] schreibt Einträge in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen, Starts-, Herunterfahren- und Katalogladeereignisse aufzuzeichnen.

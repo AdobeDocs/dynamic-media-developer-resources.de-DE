@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Beim Rendern von Bildern werden Materialien auf Gruppen oder Objekte in Vignetten angewendet.
 
-Ein Material besteht aus einem Satz von *attributes*. Einige Attribute sind für bestimmte Materialien erforderlich, andere sind optional und einige werden ignoriert, wenn sie vorhanden sind. Viele Attribute haben Standardwerte. Nicht alle Materialien können auf alle Objekte angewendet werden (z. B. kann kein Kabinenmaterial auf ein Sofa aufgebracht werden).
+Ein Material besteht aus einem Satz von *Attributen*. Einige Attribute sind für bestimmte Materialien erforderlich, andere sind optional und einige werden ignoriert, wenn sie vorhanden sind. Viele Attribute haben Standardwerte. Nicht alle Materialien können auf alle Objekte angewendet werden (z. B. kann kein Kabinenmaterial auf ein Sofa aufgebracht werden).
 
 Alle Attribute, die innerhalb eines Materialspezifikations-Segments (MSS) auftreten, aber oben nicht aufgeführt sind oder in den spezifischen Materialtabellen unten aufgeführt sind, werden vom Server ignoriert.
 
-In den folgenden Tabellen sind die grundlegenden materiellen Attribute aufgeführt. IR unterstützt zusätzliche Attribute zur Steuerung [erweiterte Rendereffekte](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
+In den folgenden Tabellen sind die grundlegenden materiellen Attribute aufgeführt. IR unterstützt zusätzliche Attribute zur Steuerung von [erweiterten Rendereffekten](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
 
 Sofern nicht anders angegeben, sind alle materiellen Attribute optional mit geeigneten Standardwerten.
 
@@ -28,5 +28,5 @@ Sofern nicht anders angegeben, sind alle materiellen Attribute optional mit geei
 * [Wiederholbare Texturen](r-ir-repeatable-textures.md)
 * [Mauergrenzen](r-ir-wall-borders.md)
 * [Dezimalzahlen](r-ir-decals.md)
-* [Möbel](r-ir-cabinets.md)
+* [Kabinette](r-ir-cabinets.md)
 * [Fensterverkleidungen](r-ir-window-coverings.md)

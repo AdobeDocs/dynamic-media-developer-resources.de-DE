@@ -4,7 +4,8 @@ description: Die Hervorhebung des Eingabefokus, die um das fokussierte Element d
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 242b80db-f5b4-44ad-9169-bd6ecf859ed0
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 1%
@@ -34,7 +35,7 @@ Das Erscheinungsbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Entwurf </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> entwurf </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 

@@ -8,7 +8,7 @@ exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -31,20 +31,20 @@ Syntax
 
 ## Parameter {#section-2b64f074e37c4c38849994f3bc65342a}
 
-**Eingabe (stopJobParam)**
+**Input (stopJobParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
 | jobHandle | `xsd:string` | Ja | Führen Sie den Vorgang aus, den Sie stoppen möchten. |
 
-**Ausgabe (stopJobReturn0)**
+**Output (stopJobReturn0**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <stopJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

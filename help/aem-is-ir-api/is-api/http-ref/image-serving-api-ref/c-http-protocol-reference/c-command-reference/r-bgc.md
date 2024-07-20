@@ -25,19 +25,19 @@ Hintergrundfarbe anzeigen. Gibt die Hintergrundfarbe für das zusammengesetzte B
  </tr> 
 </table>
 
-Gibt eine undurchsichtige Füllfarbe für den Ansichtshintergrund an. Nur sichtbar, wenn das zusammengesetzte Bild transparente Bereiche aufweist oder wenn das zusammengesetzte Bild ein anderes Seitenverhältnis als das Ansichtsrechteck aufweist. Ignoriert , wenn `fmt=tif-alpha` oder `fmt=png-alpha`oder `req=mask`.
+Gibt eine undurchsichtige Füllfarbe für den Ansichtshintergrund an. Nur sichtbar, wenn das zusammengesetzte Bild transparente Bereiche aufweist oder wenn das zusammengesetzte Bild ein anderes Seitenverhältnis als das Ansichtsrechteck aufweist. Ignoriert, wenn `fmt=tif-alpha`, `fmt=png-alpha` oder `req=mask`.
 
 >[!NOTE]
 >
->Das Farbsuffix &quot;s&quot;wird von `bgc=`. Farbwerte angegeben mit `bgc=` immer mit dem entsprechenden Ausgabefarbraum verknüpft sind.
+>Das Farbsuffix &quot;s&quot;wird von `bgc=` ignoriert. Mit `bgc=` angegebene Farbwerte werden immer dem jeweiligen Ausgabefarbraum zugeordnet.
 
 ## Eigenschaften {#section-b729b50b1ea7433b82ba34ecd61839cd}
 
-Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung. Ignoriert , wenn `req=mask`, `fmt=tif-alpha`, `fmt=png-alpha`, `fmt=gif-alpha`oder `fmt=swf-alpha`.
+Attribut anzeigen. Gilt unabhängig von der aktuellen Ebeneneinstellung. Ignoriert, wenn `req=mask`, `fmt=tif-alpha`, `fmt=png-alpha`, `fmt=gif-alpha` oder `fmt=swf-alpha`.
 
 Jeder Alpha-Wert, der mit Farbe angegeben wird, wird ignoriert.
 
-*`color`* wird angenommen, dass sie zum Ausgabefarbraum gehört (wie in `icc=`) und sollte denselben Pixeltyp wie das Ausgabebild aufweisen. Wenn die Pixeltypen nicht übereinstimmen, *`color`* wird mithilfe einer naiven Konvertierung konvertiert.
+Es wird angenommen, dass *`color`* zum Ausgabefarbraum gehört (wie mit `icc=` angegeben) und denselben Pixeltyp wie das Ausgabebild aufweisen sollte. Wenn die Pixeltypen nicht übereinstimmen, wird *`color`* mit einer naiven Konvertierung konvertiert.
 
 ## Standard {#section-4e025cbd723547b5ab4450f7aad70da3}
 

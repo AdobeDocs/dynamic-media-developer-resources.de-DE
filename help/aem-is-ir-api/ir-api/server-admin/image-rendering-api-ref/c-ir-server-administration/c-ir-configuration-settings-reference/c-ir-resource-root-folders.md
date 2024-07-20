@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Eine Liste von Pfaden, die durch Semikolons getrennt sind, dient als Wurzeln für alle Datendateien mit relativen Dateipfaden.
 
-Sie können entweder absolute Pfade oder Pfade relativ zu *[!DNL install_folder]*. Wenn mehrere Pfade angegeben sind, versucht der Server jeden Stamm in der angegebenen Reihenfolge, bis die Datei gefunden wird. Der Standardwert ist [!DNL ./resources]für den standardmäßigen Stammpfad von [!DNL install_folder/resources].
+Es kann sich entweder um absolute Pfade oder Pfade handeln, die relativ zu *[!DNL install_folder]* sind. Wenn mehrere Pfade angegeben sind, versucht der Server jeden Stamm in der angegebenen Reihenfolge, bis die Datei gefunden wird. Der Standardwert ist &quot;[!DNL ./resources]&quot;, für einen standardmäßigen Stammpfad &quot;[!DNL install_folder/resources]&quot;.

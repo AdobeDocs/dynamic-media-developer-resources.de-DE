@@ -8,7 +8,7 @@ exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-c1efda4bb15349a68b276bafee8c18fd}
 
-**Eingabe (getSearchStringsParam)**
+**Input (getSearchStringsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
 | assetHandle | `xsd:string` | Ja | Umgang mit dem Asset. |
 
-**Ausgabe (getSearchStringsReturn)**
+**Output (getSearchStringsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Syntax
 
 Dieses Codebeispiel gibt Asset-spezifische Suchzeichenfolgen zurück. Die Antwort gibt ein leeres Array zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getSearchStringsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

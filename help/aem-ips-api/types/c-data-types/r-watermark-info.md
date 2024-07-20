@@ -23,5 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | url | `xsd:string` | Bildserver-URL, die die Vorlage darstellt. |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

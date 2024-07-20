@@ -20,9 +20,9 @@ JavaScript-API-Referenz für Viewer für gemischte Medien.
 
 Startet die Initialisierung des Viewers für gemischte Medien. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist, kann es beispielsweise mit `display:none` style - der Viewer setzt seinen Initialisierungsprozess aus. Sie wird ausgesetzt, bis die Webseite das Containerelement wieder in das Layout bringt. Ab diesem Zeitpunkt wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist - z. B. kann es mit dem `display:none` -Stil ausgeblendet werden -, setzt der Viewer den Initialisierungsprozess aus. Sie wird ausgesetzt, bis die Webseite das Containerelement wieder in das Layout bringt. Ab diesem Zeitpunkt wird das Laden des Viewers automatisch fortgesetzt.
 
-Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. nachfolgende Aufrufe werden ignoriert.
+Rufen Sie diese Methode während des Lebenszyklus des Viewers nur einmal auf. Nachfolgende Aufrufe werden ignoriert.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

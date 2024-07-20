@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '1082'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Die Position und Größe der Inhaltsverzeichnisschaltfläche in der Viewer-Benut
    <td colname="col2"> <p> Die Breite der Inhaltsverzeichnisschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe der Inhaltsverzeichnisschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -59,9 +59,9 @@ Die Position und Größe der Inhaltsverzeichnisschaltfläche in der Viewer-Benut
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Um eine Inhaltsverzeichnisschaltfläche einzurichten, die 4 Pixel vom unteren Rand und 43 Pixel vom linken Rand der Hauptsteuerungsleiste entfernt angeordnet ist. Die Größe beträgt 28 x 28 Pixel, und für jeden der vier Schaltflächenstatus wird ein anderes Bild angezeigt:
 
@@ -97,7 +97,7 @@ Das Erscheinungsbild des Dropdown-Bedienfelds wird mit der folgenden CSS-Klassen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe des Dropdown-Bedienfelds. </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe des Dropdown-Bereichs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
@@ -112,7 +112,7 @@ Das Erscheinungsbild des Dropdown-Bedienfelds wird mit der folgenden CSS-Klassen
 
 >[!NOTE]
 >
->Die Größe oder Position des Dropdown-Bedienfelds kann nicht über CSS gesteuert werden. die Komponente ihr Layout programmgesteuert verwaltet.
+>Es ist nicht möglich, die Größe oder Position des Dropdown-Bedienfelds über CSS zu steuern. Die Komponente verwaltet ihr Layout programmgesteuert.
 
 Beispiel: Einrichten eines Dropdown-Bedienfelds mit einem halbtransparenten schwarzen Hintergrund, einer 5-Pixel-Ränder um den Inhalt und einem Schlagschatten:
 
@@ -139,15 +139,15 @@ Das Erscheinungsbild des einzelnen Elements wird mit der folgenden CSS-Klassenau
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des Elements. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Interner Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -155,7 +155,7 @@ Das Erscheinungsbild des einzelnen Elements wird mit der folgenden CSS-Klassenau
 
 >[!NOTE]
 >
->Das Dropdown-Listenelement unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf den Mauszeiger und die ausgewählten Elementstatus anzuwenden.
+>Das Dropdown-Listenelement unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Skins auf den Mauszeiger und die ausgewählten Elementstatus anzuwenden.
 
 Beispiel: Richten Sie ein Dropdown-Element mit einer Helvetica® 14-Pixel-Schriftart und einer 19-Pixel-Höhe ein. Ein Element hat beim Bewegen des Mauszeigers einen dunkelgrauen Hintergrund und bei Auswahl einen hellgrauen Hintergrund:
 
@@ -185,7 +185,7 @@ Ein Element, das den Seitenindex anzeigt, wird mit der folgenden CSS-Klassenausw
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
-   <td colname="col2"> <p> Mindestelementbreite. </p> </td> 
+   <td colname="col2"> <p> Minimale Elementbreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
@@ -193,14 +193,14 @@ Ein Element, das den Seitenindex anzeigt, wird mit der folgenden CSS-Klassenausw
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
-   <td colname="col2"> <p> Abstand zwischen dem Seitenindex und der Seitenbeschriftung. </p> </td> 
+   <td colname="col2"> <p> Abstand zwischen dem Seitenindex und dem Seitentitel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Es ist möglich, den Seitenindex vollständig auszublenden, indem Sie `display:none` für `s7index` CSS-Klasse.
+>Es ist möglich, den Seitenindex vollständig auszublenden, indem Sie `display:none` für die CSS-Klasse `s7index` festlegen.
 
 Beispiel 1: Richten Sie einen Seitenindex mit einer Mindestbreite von 40 Pixel, einer maximalen Breite von 70 Pixel und einem Rand von 5 Pixel auf der rechten Seite ein:
 
@@ -232,7 +232,7 @@ Die Seitenbeschriftung wird mit dem folgenden CSS-Klassenselektor gesteuert:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
-   <td colname="col2"> <p> Mindestelementbreite. </p> </td> 
+   <td colname="col2"> <p> Minimale Elementbreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
@@ -265,7 +265,7 @@ Wenn im Dropdown-Bedienfeld mehr Elemente vorhanden sind, als vertikal angepasst
    <td colname="col2"> <p> Die Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am oberen Rand des Bedienfeldbereichs. </p> </td> 
   </tr> 
   <tr> 
@@ -296,7 +296,7 @@ Die Bildlaufleisten-Spur ist der Bereich zwischen den oberen und unteren Bildlau
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
 ```
 
-**CSS-Eigenschaften der Bildlaufspur**
+**CSS-Eigenschaften des Scroll-Tracks**
 
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
@@ -326,7 +326,7 @@ Der Bildlaufleisten-Daumen bewegt sich innerhalb des Bildlaufverfolgungsbereichs
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
 ```
 
-**CSS-Eigenschaften der Bildlaufleiste**
+**CSS-Eigenschaften des Bildlaufleisten-Thumbs**
 
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
@@ -335,11 +335,11 @@ Der Bildlaufleisten-Daumen bewegt sich innerhalb des Bildlaufverfolgungsbereichs
    <td colname="col2"> <p>Die Daumenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Daumenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p> Der vertikale Abstand zwischen dem oberen Ende des Gleises. </p> </td> 
   </tr> 
   <tr> 
@@ -359,7 +359,7 @@ Der Bildlaufleisten-Daumen bewegt sich innerhalb des Bildlaufverfolgungsbereichs
 
 >[!NOTE]
 >
->Thumb unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf die `up`, `down`, `over`und `disabled` Daumenzustände.
+>Thumb unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Skins auf die Daumenzustände `up`, `down`, `over` und `disabled` anzuwenden.
 
 Beispiel: Richten Sie einen Bildlaufleisten-Daumen ein, der 28 x 45 Pixel groß ist, oben und unten 10 Pixel Ränder aufweist und für jeden Status unterschiedliche Grafiken aufweist:
 
@@ -396,7 +396,7 @@ Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`und `right` Eigenschaften; Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, die Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 **CSS-Eigenschaften der Schaltfläche &quot;Nach oben scrollen und nach unten scrollen&quot;**
 
@@ -407,7 +407,7 @@ Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS zu positionie
    <td colname="col2"> <p>Die Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -423,9 +423,9 @@ Es ist nicht möglich, die Bildlaufschaltflächen mithilfe von CSS zu positionie
 
 >[!NOTE]
 >
->Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf die `up`, `down`, `over`und `disabled` Schaltflächenstatus.
+>Button unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf die Schaltflächenzustände `up`, `down`, `over` und `disabled` angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Richten Sie Bildlaufschaltflächen ein, die 28 x 32 Pixel groß sind und für jeden Status unterschiedliche Grafiken aufweisen:
 

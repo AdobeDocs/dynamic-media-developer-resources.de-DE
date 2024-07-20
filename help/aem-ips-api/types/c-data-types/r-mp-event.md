@@ -8,7 +8,7 @@ exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Syntax
 |---|---|---|
 | eventType | `xsd:string` | Media Portal-Ereignistyp. |
 | createDate | `xsd:dateTime` | Erstellungsdatum des Ereignisses. |
-| ipsUser | `xsd:string` | System oder Benutzer, die das Ereignis auslösen. |
+| ipsUser | `xsd:string` | System oder Benutzer, der das Ereignis auslöst. |
 | companyId | `xsd:int` | Firmen-ID. |
 | companyName | `xsd:string` | Unternehmensname. |
 | jobName | `xsd:string` | Ein eindeutiger Auftragsname. |
@@ -34,11 +34,11 @@ Syntax
 | string3 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
 | string4 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
 | string5 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
-| int1 | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
-| int2 | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
-| int3 | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
-| int4 | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
-| int5 | `xsd:int` | Inhaber für ganzzahlige Informationen (optional). |
+| int1 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
+| int2 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
+| int3 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
+| int4 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
+| int5 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
 | float1 | `xsd:double` | Inhaber von Float-Informationen (optional). |
 | float2 | `xsd:double` | Inhaber von Float-Informationen (optional). |
 | float3 | `xsd:double` | Inhaber von Float-Informationen (optional). |

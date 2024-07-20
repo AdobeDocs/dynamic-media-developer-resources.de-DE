@@ -8,7 +8,7 @@ exl-id: 038640c7-ae8c-43e0-979b-6010bb5e40fb
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einzelklicks/Tippen zum Umschalten von Wiedergabe/Pause. Wird auf <span class="codeph"> none</span> gesetzt, wird der einmalige Klick/Tippen zum Abspielen/Anhalten deaktiviert. Wenn Sie auf <span class="codeph"> playPause</span> festlegen, wird durch Auswählen des Videos zwischen Wiedergabe und Pause umgeschaltet. Auf einigen Geräten können Sie native Steuerelemente verwenden. In diesem Fall ist das Verhalten <span class="codeph"> singleclick</span> deaktiviert. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Zuordnung von Einzelklicks/Tippen zum Umschalten von Wiedergabe/Pause. Wird auf <span class="codeph"> none</span> gesetzt, wird ein einmaliger Klick/Tippen zum Abspielen/Anhalten deaktiviert. Wenn der Wert auf <span class="codeph"> playPause</span> festgelegt ist, wird durch Auswählen des Videos zwischen Wiedergabe und Pause umgeschaltet. Auf einigen Geräten können Sie native Steuerelemente verwenden. In diesem Fall ist das Verhalten <span class="codeph"> singleclick</span> deaktiviert. </p> </td> 
   </tr> 
  </tbody> 
 </table>

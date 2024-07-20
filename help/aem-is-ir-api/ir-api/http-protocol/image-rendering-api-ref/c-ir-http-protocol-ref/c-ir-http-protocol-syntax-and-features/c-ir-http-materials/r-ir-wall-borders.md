@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Pinnwandrahmentexturbilder können einen Alphakanal enthalten, um die Form des R
    <td colname="col3"> <p>0 (linke Bildkante) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scharf= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> spitze= </span> </a> </p> </td> 
    <td colname="col2"> <p>Scharfzeichnen </p> </td> 
    <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 

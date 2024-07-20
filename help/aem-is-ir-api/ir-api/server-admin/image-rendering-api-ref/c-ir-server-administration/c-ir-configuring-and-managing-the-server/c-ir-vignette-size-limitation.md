@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Beim Rendern von Bildern wird eine Größenbeschränkung von zwei Megapixeln für Vignetten ohne Pyramid erzwungen.
 
-Ändern Sie den Wert von `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] , wenn Ihre Anwendung Unterstützung für Nicht-Pyramid-Vignetten mit einem Bildbereich (Breite x Höhe) erfordert, der größer als diese Grenze ist.
+Ändern Sie den Wert von `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf], wenn Ihre Anwendung Unterstützung für Nicht-Pyramid-Vignetten mit einem Bildbereich (Breite x Höhe) erfordert, der größer als diese Grenze ist.
 
 >[!NOTE]
 >
->Attribute anpassen `attribute::MaxPix` und `IS::MaxMessageSize` um ungewöhnlich große Antwortbildgrößen zuzulassen. Weitere Informationen finden Sie in der Dokumentation zur Image-Serving .
+>Passen Sie die Attribute `attribute::MaxPix` und `IS::MaxMessageSize` an, um ungewöhnlich große Antwortbildgrößen zuzulassen. Weitere Informationen finden Sie in der Dokumentation zur Image-Serving .

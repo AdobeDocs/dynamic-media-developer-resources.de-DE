@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
+source-wordcount: '888'
+ht-degree: 0%
 
 ---
 
@@ -35,19 +35,19 @@ Der folgende CSS-Klassenselektor steuert die Position und Ausrichtung des intera
    <td colname="col2"> <p>Breite des interaktiven Farbfeldbedienfelds </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des interaktiven Farbfeldbedienfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position am oberen Rand des interaktiven Bedienfelds "Muster". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Untere Position des interaktiven Bedienfelds "Muster". </p> </td> 
+   <td colname="col2"> <p>Untere Position des interaktiven Bedienfelds "Farbfelder". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Linke Position des interaktiven Bedienfelds "Muster". </p> </td> 
   </tr> 
   <tr> 
@@ -59,8 +59,8 @@ Der folgende CSS-Klassenselektor steuert die Position und Ausrichtung des intera
 
 Die Laufzeitposition und -ausrichtung des interaktiven Bedienfelds wird durch eine Kombination der oben genannten CSS-Eigenschaften wie folgt definiert:
 
-* Um interaktive Muster horizontal am unteren Rand des Viewers zu rendern, legen Sie die Höhe auf einen absoluten Pixelwert fest. von links und von unten nach 0px; width, right und top to auto.
-* Um interaktive Muster vertikal rechts neben dem Videoinhalt zu rendern, legen Sie die Breite auf ein absolutes Pixel fest. von rechts und von oben bis 0px; Höhe, links und unten bis Auto.
+* Um interaktive Muster horizontal am unteren Rand des Viewers zu rendern, legen Sie die Höhe auf einen absoluten Pixelwert fest, setzen Sie die Höhe auf &quot;Auto&quot;von links und von unten auf &quot;0px&quot;, &quot;Breite&quot;, &quot;Rechts&quot;und &quot;Oben&quot;auf &quot;Auto&quot;.
+* Um interaktive Muster vertikal rechts neben dem Videoinhalt zu rendern, legen Sie die Breite auf ein absolutes Pixel fest, rechts und oben auf 0px, Höhe, links und unten auf auto.
 
 Es ist möglich, CSS-Markierungen mit diesem Stil zu verwenden, um eine adaptive Platzierung des interaktiven Bedienfelds &quot;Muster&quot;zu erreichen.
 
@@ -103,7 +103,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Bannerbereichs
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Bannerbedienfelds. </p> </td> 
   </tr> 
   <tr> 
@@ -111,29 +111,29 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Bannerbereichs
    <td colname="col2"> <p>Textfarbe im Bannerbereich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand um das Bannerbedienfeld herum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftstärke für den Text im Bannerbereich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftgröße, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>Die Schriftgröße für den Text im Bannerbereich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftfamilie, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col2"> <p>Die Schriftfamilie für den Text im Bannerbereich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftausrichtung für den Text im Bannerbereich. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Banner-QuickInfo kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die Banner-QuickInfo kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -159,7 +159,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Muster:
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe des Farbfeldbereichs. </p> </td> 
   </tr> 
  </tbody> 
@@ -185,14 +185,14 @@ Der folgende CSS-Klassenselektor steuert den Abstand zwischen Musterminiaturansi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Miniaturansichtabstand entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-So legen Sie einen vertikalen Abstand von zehn Pixel fest:
+So legen Sie einen vertikalen Abstand von zehn Pixeln fest:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -204,20 +204,20 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild einzelner Miniatur
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb`
 
-## CSS-Eigenschaften des Erscheinungsbilds einzelner Miniaturansichten {#css-properties-of-the-appearance-of-individual-thumbnails}
+## CSS-Eigenschaften des Erscheinungsbilds einzelner Miniaturen {#css-properties-of-the-appearance-of-individual-thumbnails}
 
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand der Miniaturansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -225,7 +225,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild einzelner Miniatur
 
 >[!NOTE]
 >
->Miniaturansicht unterstützt die Attributauswahl `state`, mit der Sie verschiedene Skins auf verschiedene Miniaturansichten anwenden können. Insbesondere `state="selected"` entspricht der Miniaturansicht für das aktuell ausgewählte Bild; `state="default"` entspricht dem Rest der Miniaturansichten; `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansicht unterstützt die &quot;`state`&quot;-Attributauswahl, mit der Sie verschiedene Skins auf verschiedene Miniaturansichten anwenden können. Insbesondere entspricht `state="selected"` der Miniaturansicht des aktuell ausgewählten Bildes; `state="default"` der restlichen Miniaturansicht; `state="over"` wird beim Bewegen des Mauszeigers verwendet.
 
 ## Beispiel {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -247,19 +247,19 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Beschriftungsrahmen </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
  </tbody> 
@@ -285,26 +285,26 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Bildlaufschalt
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Es ist nicht möglich, die Bildlauftasten mithilfe der CSS-Eigenschaften `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, die Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 ## CSS-Eigenschaften des Erscheinungsbilds der Bildlaufschaltflächen nach oben und unten {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Die Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -312,9 +312,9 @@ Es ist nicht möglich, die Bildlauftasten mithilfe der CSS-Eigenschaften `top`, 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt den Attributselektor `state` , mit dem Sie verschiedene Skins auf die Schaltflächenzustände anwenden können: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;und &quot; `disabled`&quot;.
+>Diese Schaltfläche unterstützt den Attributselektor `state` , mit dem Sie verschiedene Skins auf die Schaltflächenstatus anwenden können: &quot; `up`&quot;, &quot; `down`&quot;, &quot;`over`&quot;und &quot;`disabled`&quot;.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 ## Beispiel {#section-e6ce4fa084b84288bc7583342b2c510c}
 

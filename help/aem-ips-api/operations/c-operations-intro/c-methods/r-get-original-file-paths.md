@@ -8,7 +8,7 @@ exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -34,14 +34,14 @@ Syntax
 
 ## Parameter {#section-a6b394daba6e49a8882cf3051035d9d1}
 
-**Eingabe (getOriginalFilePathsParam)**
+**Input (getOriginalFilePathsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 | assetHandleArray | `types:HandleArray` | Ja | Array von Handles zu Assets, deren ursprünglichen Dateipfad Sie abrufen möchten. |
 
-**Ausgabe (getOriginalFilePathsReturn)**
+**Output (getOriginalFilePathsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Syntax
 
 Dieses Codebeispiel gibt die Dateipfade von Assets zurück, die mit eindeutigen Asset-Handles in einem Asset-Handle-Array angegeben wurden.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getOriginalFilePathsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

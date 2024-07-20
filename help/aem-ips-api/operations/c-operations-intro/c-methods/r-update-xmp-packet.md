@@ -8,7 +8,7 @@ exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
@@ -30,7 +30,7 @@ Syntax
 
 ## Parameter {#section-7a89621d441840faba639746b410a489}
 
-**Eingabe (updateXMPPacketParam)**
+**Input (updateXMPPacketParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -42,11 +42,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| Erfolg | `xsd:boolean` | Ja | Rückgabe `true` wenn das Paket aktualisiert wurde. |
+| Erfolg | `xsd:boolean` | Ja | Gibt `true` zurück, wenn das Paket aktualisiert wurde. |
 
 ## Beispiele {#section-38b556b94e5044bf97a954519ff6c212}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns:updateXMPPacketParam>

@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Antwortbildformat.
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
+`fmt=format[,` `[`*`pixelType`*`]`, `[`*`compression`*`]]`
 
 *`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
@@ -24,7 +24,7 @@ Antwortbildformat.
 |---|---|
 | `avif-alpha` | verlustfreies AVIF mit Alphakanal. |
 | `avif` | verlustfreies AVIF. |
-| `eps` | Unkomprimiertes binäres Encapsulated PostScript. |
+| `eps` | Unkomprimierte binäre Encapsulated PostScript. |
 | `f4m` | Flash Streaming Server-Manifestformat. |
 | `gif-alpha` | GIF mit 2 bis 255 Farben plus Key-Farbtransparenz. |
 | `gif` | GIF mit 2 bis 256 Farben. |
@@ -34,7 +34,7 @@ Antwortbildformat.
 | `jpeg2000` | Verlust und verlustfreie JPEG 2000. |
 | `jpegxr-alpha` | Verlust und verlustfreies JPEG XR mit Alphakanal. |
 | `jpegxr` | Verlust und verlustfreie JPEG XR. |
-| `jpg` | Lossy JPG. |
+| `jpg` | JPG. |
 | `m3u8` | Manifestformat des Apple-Streaming-Servers. |
 | `pdf` | In PDF eingebettetes Bild. |
 | `pjpeg` | Progressive JPEG. |
@@ -44,7 +44,7 @@ Antwortbildformat.
 | `png8` | 8-Bit-verlustfreies PNG. |
 | `swf-alpha` | Lossy JPEG und eine deflate-komprimierte Maske eingebettet in eine Adobe AS2 swf-Datei. |
 | `swf` | Lossy JPEG eingebettet in eine Adobe AS2 swf-Datei. |
-| `swf3-alpha` | Lossy JPEG und eine deflate-komprimierte Maske eingebettet in eine Adobe AS3 swf-Datei. **Hinweis:** Die Formate swf und swf-alpha eignen sich am besten für ActionScript 2 Anwendungen (Flash Player 8 und früher). Die Formate swf3 und swf3-alpha werden für ActionScript 3 Anwendungen (Flash Player 9 und höher) empfohlen. |
+| `swf3-alpha` | Lossy JPEG und eine deflate-komprimierte Maske eingebettet in eine Adobe AS3 swf-Datei. **Hinweis:** swf- und swf-alpha-Formate eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). Die Formate swf3 und swf3-alpha werden für ActionScript 3 Anwendungen (Flash Player 9 und höher) empfohlen. |
 | `swf3` | Lossy JPEG eingebettet in eine Adobe AS3 swf-Datei. |
 | `tif-alpha` | TIFF mit Alphakanal. |
 | `tif` | TIFF. |
@@ -68,25 +68,25 @@ Antwortbildformat.
 | `none` | unkomprimiert. |
 | `zip` | Komprimierung &quot;Deflate&quot;(verlustfrei). |
 
-* *`format`* gibt das Bildkodierungsformat für an den Client gesendete Bilddaten und den entsprechenden Antwort-MIME-Typ für den HTTP-Antwort-Header an.
-* *`pixelType`* kann verwendet werden, um die Konvertierung des Ausgabefarbraums zu beeinflussen, wenn `icc=` nicht angegeben ist.
+* *`format`* gibt das Bildkodierungsformat für an den Client gesendete Bilddaten und den entsprechenden MIME-Typ der Antwort für den HTTP-Antwortheader an.
+* *`pixelType`* kann verwendet werden, um die Konvertierung des Ausgabefarbraums auszuführen, wenn `icc=` nicht angegeben ist.
 
-  Das standardmäßige Farbprofil, das *`pixelType`* angewendet wird. Wenn das Farbmanagement deaktiviert ist, wird eine naive Konversion angewendet. *`pixelType`* wird ignoriert, wenn `icc=` angegeben ist, der den Typ des Ausgabepixels bestimmt.
+  Das Standardfarbprofil, das *`pixelType`* entspricht, wird angewendet. Wenn das Farbmanagement deaktiviert ist, wird eine naive Konversion angewendet. *`pixelType`* wird ignoriert, wenn `icc=` angegeben ist, was den Typ des Ausgabepixels bestimmt.
 
-* *`compression`* ist nur zulässig, wenn `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr`oder `jpegxr-alpha` wird als *`format`*. Die für diese Bildformate unterstützten Komprimierungsoptionen finden Sie in der folgenden Tabelle.
+* *`compression`* ist nur zulässig, wenn `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` oder `jpegxr-alpha` als *`format`* angegeben ist. Die für diese Bildformate unterstützten Komprimierungsoptionen finden Sie in der folgenden Tabelle.
 
-Sie können `qlt=` um die JPEG-Kodierungsoptionen für diese Formate festzulegen: JPEG, TIFF mit JPEG-Komprimierung, PDF mit JPEG-Komprimierung und SWF. WebP, JPEG 2000 und JPEG XR verwenden ebenfalls `qlt=` aber die Werte führen zu unterschiedlichen Qualitäten für die verschiedenen Formate. Verwendung `quantize=` if `fmt=gif` oder `fmt=gif-alpha`. Weitere Informationen finden Sie in den Befehlsbeschreibungen. Die anderen Formate verfügen nicht über konfigurierbare Optionen.
+Sie können `qlt=` verwenden, um die JPEG-Kodierungsoptionen für die folgenden Formate festzulegen: JPEG, TIFF mit JPEG-Komprimierung, PDF mit JPEG-Komprimierung und SWF. WebP, JPEG 2000 und JPEG XR verwenden ebenfalls `qlt=`, aber die Werte führen zu unterschiedlichen Qualitäten für die verschiedenen Formate. Verwenden Sie `quantize=`, wenn `fmt=gif` oder `fmt=gif-alpha`. Weitere Informationen finden Sie in den Befehlsbeschreibungen. Die anderen Formate verfügen nicht über konfigurierbare Optionen.
 
-8 Bit pro Pixelkomponente werden für alle zurückgegeben *`formats`* und *`pixelTypes`* (8 Bit pro Pixel für GIF).
+8 Bit pro Pixelkomponente werden für alle *`formats`* und *`pixelTypes`* (8 Bit pro Pixel für GIF) zurückgegeben.
 
-In der folgenden Tabelle sind die gültigen Kombinationen von *`format`*und *`pixelType`*, die entsprechenden HTTP-Antwort-MIME-Typen, ob ICC-Profile eingebettet werden können (siehe [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) und welche formatspezifischen Optionen Sie anwenden können.
+In der folgenden Tabelle sind die gültigen Kombinationen aus *`format`*und *`pixelType`*, die entsprechenden HTTP-Antwort-MIME-Typen, ob ICC-Profile eingebettet werden können (siehe [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) und welche formatspezifischen Optionen Sie anwenden können.
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> <i> format</i> </b> </th> 
    <th class="entry"> <b> <i> pixelType</i> </b> </th> 
-   <th class="entry"> <b> Antwort-MIME-Typ</b> </th> 
+   <th class="entry"> <b> Antwort-MIME-Typ </b> </th> 
    <th class="entry"> <b>ICC-Profil einbetten</b> </th> 
    <th class="entry"> <b> Optionen</b> </th> 
   </tr> 
@@ -97,7 +97,7 @@ In der folgenden Tabelle sind die gültigen Kombinationen von *`format`*und *`pi
    <td> <p>rgb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
    <td> <p>Nein </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird ignoriert für <span class="codeph"> verlustfrei </span>. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, sollten Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (zum Beispiel: <span class="codeph"> qlt=80,1 </span>) der zweite Wert ( <span class="codeph"> 1 </span>) wird ignoriert. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Komprimierung </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird für <span class="codeph"> verlustfreies </span> ignoriert. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, wird der zweite Wert ( <span class="codeph"> 1 </span>) ignoriert, wenn Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (z. B. <span class="codeph"> qlt=80,1 </span>) verwenden. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
@@ -125,28 +125,28 @@ In der folgenden Tabelle sind die gültigen Kombinationen von *`format`*und *`pi
    <td> <p>rgb, grau </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
    <td> <p>Nein </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird ignoriert für <span class="codeph"> verlustfrei </span>. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, sollten Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (zum Beispiel: <span class="codeph"> qlt=80,1 </span>) der zweite Wert ( <span class="codeph"> 1 </span>) wird ignoriert. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Komprimierung </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird für <span class="codeph"> verlustfreies </span> ignoriert. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, wird der zweite Wert ( <span class="codeph"> 1 </span>) ignoriert, wenn Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (z. B. <span class="codeph"> qlt=80,1 </span>) verwenden. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>Die <span class="codeph"> pscan= </span> -Parameter gilt nur für das PJPEG-Format. </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>Der Parameter <span class="codeph"> pscan= </span> gilt nur für das PJPEG-Format. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
    <td> <p>Nein </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird ignoriert für <span class="codeph"> verlustfrei </span>. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, sollten Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (zum Beispiel: <span class="codeph"> qlt=80,1 </span>) der zweite Wert ( <span class="codeph"> 1 </span>) wird ignoriert. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Komprimierung </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird für <span class="codeph"> verlustfreies </span> ignoriert. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, wird der zweite Wert ( <span class="codeph"> 1 </span>) ignoriert, wenn Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (z. B. <span class="codeph"> qlt=80,1 </span>) verwenden. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> pdf </p> </td> 
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, wenn <span class="codeph"> <span class="varname"> compression </span> </span> auf <span class="codeph"> jpeg </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> Komprimierung </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, es sei denn, <span class="codeph"> <span class="varname"> Komprimierung </span> </span> ist auf <span class="codeph"> jpeg </span> gesetzt. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -174,14 +174,14 @@ In der folgenden Tabelle sind die gültigen Kombinationen von *`format`*und *`pi
    <td colname="col2"> <p>rgb, grau, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>'tiff' nur; 'tiff-alpha' unterstützt keine JPEG-Komprimierung. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, wenn <span class="varname"> compression </span> auf <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> Komprimierung </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>'tiff' nur; 'tiff-alpha' unterstützt keine JPEG-Komprimierung. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wird ignoriert, es sei denn, die <span class="varname"> Komprimierung </span> ist auf <span class="codeph"> jpeg </span> eingestellt. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Nein </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird ignoriert für <span class="codeph"> verlustfrei </span>. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, sollten Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (zum Beispiel: <span class="codeph"> qlt=80,1 </span>) der zweite Wert ( <span class="codeph"> 1 </span>) wird ignoriert. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Komprimierung </span> </span> ( <span class="codeph"> verlustbehaftet </span>, <span class="codeph"> verlustfrei </span>) </p> <p> <span class="codeph"> qlt= </span> wird für <span class="codeph"> verlustfreies </span> ignoriert. </p> <p>Da es kein Konzept für Chrominanz-Downsampling mit dem WebP-Format gibt, wird der zweite Wert ( <span class="codeph"> 1 </span>) ignoriert, wenn Sie einen zweiten Wert mit <span class="codeph"> qlt </span> (z. B. <span class="codeph"> qlt=80,1 </span>) verwenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,11 +190,11 @@ In der folgenden Tabelle sind die gültigen Kombinationen von *`format`*und *`pi
 
 Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn `req=img` (Standard) oder `req=mask`; andernfalls ignoriert.
 
-*`type`* wird ignoriert, wenn `iccProfile=` festgelegt ist.
+*`type`* wird ignoriert, wenn `iccProfile=` angegeben ist.
 
 ## Standard {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, wobei *`defaultType`* wie folgt behandelt wird: Wenn `icc=` festgelegt ist, *`defaultType`* entspricht dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, *`defaultType`* is `gray` if `req=mask`, andernfalls `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, wobei der *`defaultType`* wie folgt verarbeitet wird: Wenn `icc=` angegeben ist, entspricht *`defaultType`* dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, ist *`defaultType`* `gray`, wenn `req=mask`, sonst ist es `rgb`.
 
 ## Beispiele {#section-b93222e652df404a84c69025247f07df}
 
@@ -222,7 +222,7 @@ Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
-**Stellen Sie dieses Bild als TIF-Datei mit JPEG-Komprimierung ohne Konvertierung des Pixeltyps bereit:**
+**Stellen Sie dieses Bild als TIF-Datei mit JPEG-Komprimierung ohne Pixeltypkonvertierung bereit:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
@@ -234,7 +234,7 @@ Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn
 
 ` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
 
-**Lossless mit Alpha:**
+**verlustfrei mit Alpha:**
 
 ` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
 
@@ -242,7 +242,7 @@ Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000&qlt=80`
 
-**Lossless mit Alpha:**
+**verlustfrei mit Alpha:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000-alpha,,lossless`
 
@@ -250,7 +250,7 @@ Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung, wenn
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpegxr&qlt=80`
 
-**Lossless mit Alpha:**
+**verlustfrei mit Alpha:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpegxr-alpha,,lossless`
 

@@ -8,7 +8,7 @@ exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ Syntax
 
 ## Parameter {#section-8cfdc7994da24678a45edcb37e9a2166}
 
-**Eingabe (getJobLogsParam)**
+**Input (getJobLogsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -44,17 +44,17 @@ Syntax
 | endDate | `xsd:dateTime` | Nein | Datum und Uhrzeit des Endes des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. |
 | numRows | `xsd:int` | Nein | Maximale Anzahl der zurückzugebenden Zeilen. |
 
-**Ausgabe (getJobLogsReturn)**
+**Output (getJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| jobLogArray | `types: JobLogArray` | Ja | Array von Auftragsprotokollen. |
+| jobLogArray | `types: JobLogArray` | Ja | Array von Auftragsprotokollen |
 
 ## Beispiele {#section-35871c94b4a44559912577efddbc46a6}
 
 Dieses Codebeispiel gibt IPS-Auftragsprotokolle für ein bestimmtes Unternehmen zurück. Sie können damit auch Auftragsprotokolle für einen bestimmten Benutzer, Unternehmen und Benutzer zurückgeben.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getJobLogsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

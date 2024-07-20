@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| url | `xsd:string` | Bildserver-URL, die die Vorlage darstellt. Kombinationen `urlModifier` und `urlPostAp- plyModifier` -Felder. |
-| urlModifier | `xsd:string` | Befehle zum Image Serving-Protokoll, die vor der Anforderung angewendet werden sollen, oder `urlPostApplyModifier` Befehle. |
-| urlPostApplyModifier | `xsd:string` | Image Serving-Protokollbefehle, die nach angewendet werden `urlModifier` und fordern Sie Befehle an. |
+| url | `xsd:string` | Bildserver-URL, die die Vorlage darstellt. Kombiniert die Felder `urlModifier` und `urlPostAp- plyModifier` . |
+| urlModifier | `xsd:string` | Image Serving-Protokollbefehle, die vor der Anfrage angewendet werden, oder `urlPostApplyModifier`-Befehle. |
+| urlPostApplyModifier | `xsd:string` | Image Serving-Protokollbefehle, die nach `urlModifier` angewendet werden und Befehle anfordern. |

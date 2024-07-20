@@ -26,6 +26,6 @@ Syntax
 | firstName | `xsd:string` | Vorname des Benutzers. |
 | lastName | `xsd:string` | Nachname des Benutzers. |
 | E-Mail | `xsd:string` | E-Mail-Adresse. |
-| defaultRole | `xsd:string` | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Die Benutzerrolle `IpsAmin` überschreibt andere Benutzerrollen. |
+| defaultRole | `xsd:string` | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Die Benutzerrolle &quot;`IpsAmin`&quot; überschreibt jedoch andere Benutzerrollen. |
 | isValid | `xsd:boolean` | Bestimmt, ob der Benutzer gültig ist. |
 | passwordExpires | `xsd:dateTime` | Legt das Ablaufdatum des Kennworts fest. |

@@ -8,7 +8,7 @@ exl-id: 17387203-f7a7-4876-a15b-2084894f981d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -27,11 +27,11 @@ Wählen Sie das Objekt nach Name aus. Wählt die angegebene Vignettengruppe nach
 
 Untergruppen oder einzelne Objekte können über einen vollständig qualifizierten Gruppenpfad ausgewählt werden (d. h. durch Angabe des Namens der Zielgruppe oder des Objekts, dem alle übergeordneten Gruppen vorangestellt sind, getrennt durch / (Schrägstriche).
 
-Wenn keine Gruppe/kein Objekt mit dem angegebenen Namen gefunden wird, wird die in `attribute::OnObjFail` genommen wird.
+Wenn keine Gruppe/kein Objekt mit dem angegebenen Namen gefunden wird, wird die in `attribute::OnObjFail` angegebene Aktion ausgeführt.
 
 ## Eigenschaften {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Auswahlbefehl; MSS-Trennzeichen. Die Objektauswahl ist so lange persistent, bis ein anderes Objekt ausgewählt ist, entweder mit `obj=` oder `sel=`.
+Auswahlbefehl; MSS-Trennzeichen. Die Objektauswahl ist so lange persistent, bis ein anderes Objekt ausgewählt ist, entweder mit `obj=` oder mit `sel=`.
 
 Bei Gruppen-/Objektpfaden und Namen wird zwischen Groß- und Kleinschreibung unterschieden.
 

@@ -8,7 +8,7 @@ exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -26,14 +26,14 @@ Syntax
 
 ## Parameter {#section-42775102ec724c36ae5241eea1a00b8e}
 
-**Eingabe (deleteGroupParam)**
+**Input (deleteGroupParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, das zu der Gruppe gehört, die Sie löschen möchten. |
 | groupHandle | `xsd:string` | Ja | Der Handle für die Gruppe, die Sie löschen möchten. |
 
-**Ausgabe (deleteGroupParam)**
+**Output (deleteGroupParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -41,7 +41,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Beispielcode wird eine Gruppe aus einem Unternehmen gelöscht. Dazu ist ein Gruppenhandle erforderlich, den Sie von einem anderen Vorgang abrufen müssen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:deleteGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

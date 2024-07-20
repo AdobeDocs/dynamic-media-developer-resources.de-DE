@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6be6c651-a240-4a57-bbac-4d00b49b3867
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,6 @@ ht-degree: 0%
 Image Serving kann unter 64-Bit Windows installiert werden.
 
 * [Erstmalige Installation](t-first-time-installation-win.md)
-* [Installieren unter einem anderen Benutzerkonto als dem Administrator](t-diff-account-win.md)
+* [Installieren unter einem anderen Benutzerkonto als   administrator](t-diff-account-win.md)
 * [Aktualisierung von IS 4.7.4 oder höher](t-update-win.md)
 * [Installation überprüfen](t-verify-win.md)

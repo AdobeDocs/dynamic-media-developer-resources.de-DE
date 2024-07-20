@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b5b0acab-4e11-4f6a-8cb1-be6d683d7384
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 8%
+source-wordcount: '62'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf alle Farbfelder angewendet wird. Wenn dies in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von HTTP-kodieren <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> as <span class="codeph"> %26</span> und <span class="codeph"> %3D</span>zurück. </p> <p> <p>Hinweis: Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
+   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf alle Farbfelder angewendet wird. Wenn sie in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span> HTTP-kodieren. </p> <p> <p>Hinweis: Befehle zum Bearbeiten der Bildgröße werden nicht unterstützt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

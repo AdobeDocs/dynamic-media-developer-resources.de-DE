@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 1%
+source-wordcount: '661'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Das Erscheinungsbild der Hauptsteuerleiste wird mit der folgenden CSS-Klassenaus
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position oben im Viewer. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Das Erscheinungsbild der Hauptsteuerleiste wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p>Position am unteren Rand des Viewers </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Hauptsteuerleiste. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Das Erscheinungsbild der Hauptsteuerleiste wird mit der folgenden CSS-Klassenaus
  </tbody> 
 </table>
 
-**Beispiel** - um eine graue Hauptkontrollleiste einzurichten, die 36 Pixel groß ist und sich oben im Viewer-Container befindet.
+**Beispiel** : Zum Einrichten einer grauen Hauptsteuerleiste, die 36 Pixel groß ist und sich oben im Viewer-Container befindet.
 
 ```
 .s7ecatalogviewer .s7controlbar { 
@@ -74,8 +74,8 @@ Die Bildlauffunktion ist für die Hauptsteuerleiste aktiviert und für die sekun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Position </span> </p> </td> 
-   <td colname="col2"> <p>Wenn festgelegt auf <span class="codeph"> statisch </span> die Bildlauffunktion deaktiviert ist. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolute </span> , um die Bildlauffunktion zu aktivieren. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col2"> <p>Wenn auf <span class="codeph"> static </span> gesetzt, ist die Bildlauffunktion deaktiviert. </p> <p>Setzen Sie diese Eigenschaft auf <span class="codeph"> absolut </span> , um die Bildlauffunktion zu aktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +124,7 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -140,11 +140,11 @@ Das Erscheinungsbild dieser Schaltfläche wird mit der folgenden CSS-Klassenausw
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` und `selected` -Attribut-Selektoren, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere `state="selected"` entspricht dem anfänglichen Status der Bildlaufschaltfläche , wenn der Inhalt der Kontrollleiste nach links verschoben werden kann. Das Attribut `state="default"` entspricht dem Status, wenn der Inhalt vollständig nach links gescrollt wird und die Bildlaufschaltfläche darauf hinweist, dass er wieder in den ursprünglichen Zustand versetzt wird.
+>Diese Schaltfläche unterstützt die Attributselektoren `state` und `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `state="selected"` dem Status der ersten Bildlaufschaltfläche, wenn der Inhalt der Steuerleiste nach links verschoben werden kann. Das Attribut `state="default"` entspricht dem Status, in dem der Inhalt vollständig nach links gescrollt wird, und die Bildlaufschaltfläche deutet darauf hin, dass er wieder in den ursprünglichen Zustand versetzt wird.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-**Beispiel** - So aktivieren Sie die Bildlauffunktion in der Hauptsteuerleiste für Mobiltelefone. Richten Sie eine Bildlaufschaltfläche von 64 x 64 Pixel ein, die für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt, wenn diese ausgewählt sind oder nicht:
+**Beispiel** - Um die Bildlauffunktion in der Hauptsteuerleiste für Mobiltelefone zu aktivieren. Richten Sie eine Bildlaufschaltfläche von 64 x 64 Pixel ein, die für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt, wenn diese ausgewählt sind oder nicht:
 
 ```
 .s7ecatalogviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

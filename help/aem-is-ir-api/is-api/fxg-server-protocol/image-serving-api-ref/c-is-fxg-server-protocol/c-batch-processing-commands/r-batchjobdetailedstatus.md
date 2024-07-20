@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd385327-29af-448c-9a25-75098b578272
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 1%
+source-wordcount: '47'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Dieser Parameter:
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
   <td class="stentry"> <p>Auftrags-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p> </td> 
  </tr> 
 </table>

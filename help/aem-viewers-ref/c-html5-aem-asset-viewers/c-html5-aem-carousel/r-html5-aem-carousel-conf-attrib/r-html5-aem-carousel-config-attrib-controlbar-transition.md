@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 260a1767-e49a-46e3-9c3d-23efa5c3228e
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 4%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 4%
 
 Konfigurationsattribut für Karussell-Viewer.
 
-` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. </p> <p>Legen Sie für sofortiges Anzeigen/Verbergen auf <span class="codeph"> none</span> fest. </p> <p>Setzen Sie sie auf <span class="codeph"> fade</span> , um einen allmählichen Ein-/Ausblendeffekt zu erzielen. </p> </td> 
+   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. </p> <p>Für sofortiges Einblenden/Ausblenden auf <span class="codeph"> none</span> setzen. </p> <p>Auf <span class="codeph"> fade</span> setzen, um einen allmählichen Ein-/Ausblendeffekt zu erzielen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 

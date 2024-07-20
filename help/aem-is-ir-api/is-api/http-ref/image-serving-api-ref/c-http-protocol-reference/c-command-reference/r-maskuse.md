@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Verwendung der Bildmaske. Gibt an, wie die Maske oder der Alphakanal des Bildes 
 
 `maskUse=norm|invert|off`
 
-Die folgende Tabelle zeigt die Auswirkungen von `maskUse=` je nach Verfügbarkeit und Typ der Maske (Alphakanal), die mit dem Ebenenbild verknüpft ist.
+Die folgende Tabelle zeigt die Wirkung von `maskUse=` in Abhängigkeit von der Verfügbarkeit und dem Typ der mit dem Ebenenbild verknüpften Maske (Alphakanal).
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
@@ -26,12 +26,12 @@ Die folgende Tabelle zeigt die Auswirkungen von `maskUse=` je nach Verfügbarkei
    <th class="entry"> <b> Wert</b> </th> 
    <th class="entry"> <b> Keine Maske</b> </th> 
    <th class="entry"> <b> Nicht zugeordnetes Alpha (oder separates Maskenbild)</b> </th> 
-   <th class="entry"> <b> Assoziiertes Alpha (vormultipliziert)</b> </th> 
+   <th class="entry"> <b> Verknüpftes (vormultipliziertes) Alpha</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> aus </span> </p> </td> 
+   <td> <p> <span class="codeph"> off </span> </p> </td> 
    <td> <p> Rechteck für undurchsichtige Bilder </p> </td> 
    <td> <p> Rechteck für undurchsichtige Bilder </p> </td> 
    <td> <p> Vordergrundbereich des Bildes über einem Rechteck, gefüllt mit schwarz </p> </td> 
@@ -55,7 +55,7 @@ Die folgende Tabelle zeigt die Auswirkungen von `maskUse=` je nach Verfügbarkei
 
 Bild- oder Ebenenattribut. Gilt für Ebene 0, wenn `layer=comp`. Wenn in einer Effektebene angegeben, ändert der Befehl die von der übergeordneten Ebene übernommene Maske.
 
-Das Verhalten `maskUse=` ist nicht definiert und wird nicht unterstützt, wenn sie mit Text oder einfarbigen Ebenen angegeben wird, wenn keine Bildmaske anwendbar ist (angegeben mit `mask=` oder `catalog::Mask`).
+Das Verhalten von `maskUse=` ist nicht definiert und wird nicht unterstützt, wenn es mit Text- oder einfarbigen Ebenen angegeben wird, wenn keine Bildmaske anwendbar ist (angegeben mit `mask=` oder `catalog::Mask`).
 
 ## Standard {#section-982dd8174641437786dcb3729ace6428}
 

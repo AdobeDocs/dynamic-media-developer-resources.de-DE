@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e7c1575f-a3f0-478d-8cc2-9bace5eb6106
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Die Hauptklasse des E-Katalog-Viewers ist eCatalogViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 
-In allen folgenden Beispielen `<instance>` steht für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus dem `s7viewers.eCatalogViewer` -Klasse.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.eCatalogViewer`-Klasse instanziiert wird.

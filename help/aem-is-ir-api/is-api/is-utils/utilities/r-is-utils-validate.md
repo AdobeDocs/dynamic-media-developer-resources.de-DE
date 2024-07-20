@@ -25,7 +25,7 @@ Alle Nicht-PTIFF-Bilddateien müssen die Validierung bestehen, bevor die Datei a
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Quelldateityp; mindestens ein muss angegeben werden (-any lässt dieselben Bilddateitypen zu, die von IC unterstützt werden). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Source-Dateityp; es muss mindestens ein Dateityp angegeben werden (-any lässt dieselben Bilddateitypen zu, die von IC unterstützt werden). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> options </span> </span> </p> </td> 
@@ -39,14 +39,14 @@ Alle Nicht-PTIFF-Bilddateien müssen die Validierung bestehen, bevor die Datei a
 
 ## Rückgabe {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-0 bei Erfolg. Wenn ein Fehler auftritt, wird ein Wert ungleich null zurückgegeben und Fehlerdetails werden an gesendet `stderr`.
+0 bei Erfolg. Tritt ein Fehler auf, wird ein Wert ungleich null zurückgegeben und die Fehlerdetails werden an `stderr` gesendet.
 
 ## Optionen {#section-9df8334b46cb4e90901505af59e4600e}
 
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span> </span> </p> </td> 
-  <td class="stentry"> <p>Gibt eine separate Textdatei an, die die Liste der Bilddateien enthält. Ein Datensatz pro Datei. Wenn <span class="codeph"> -fileList </span> enthalten ist, <span class="varname"> sourceFile </span> darf nicht angegeben werden. </p> </td> 
+  <td class="stentry"> <p>Gibt eine separate Textdatei an, die die Liste der Bilddateien enthält. Ein Datensatz pro Datei. Wenn <span class="codeph"> -fileList </span> enthalten ist, darf <span class="varname"> sourceFile </span> nicht angegeben werden. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
@@ -66,7 +66,7 @@ Alle Nicht-PTIFF-Bilddateien müssen die Validierung bestehen, bevor die Datei a
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -silent </span> </p> </td> 
-  <td class="stentry"> <p>Deaktiviert <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> Ausgabe. Es wird nur ein Status zurückgegeben. </p> </td> 
+  <td class="stentry"> <p>Deaktiviert die Ausgabe <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>. Es wird nur ein Status zurückgegeben. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 

@@ -1,20 +1,20 @@
 ---
 title: setParams
-description: JavaScript-API-Referenz für Video360-Viewer.
+description: JavaScript API-Referenz für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 3c228b84-fbad-434f-96b4-d52485711844
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
 # setParams{#setparams}
 
-JavaScript-API-Referenz für Video360-Viewer.
+JavaScript API-Referenz für Video360-Viewer.
 
 ` setParams( *`params`*)`
 
@@ -30,7 +30,7 @@ Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, durch  <span class="codeph"> &amp;</span> getrennt. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, getrennt durch <span class="codeph"> und </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

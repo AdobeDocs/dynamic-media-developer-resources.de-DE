@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 9%
 <table id="table_BE34F807437C4955A2A640495E05138F"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Wenn festgelegt auf <span class="codeph"> 1</span>, füllt die Komponente das Dropdown-Bedienfeld mit Elementen für alle Seiten, auch für diejenigen, die keine Beschriftungen definiert haben. </p> <p>Wenn festgelegt auf <span class="codeph"> 0</span> Nur Elemente mit expliziten Bezeichnungen werden im Dropdown-Bedienfeld angezeigt. </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td> <p> Wenn der Wert auf <span class="codeph"> 1</span> festgelegt ist, füllt die Komponente das Dropdown-Bedienfeld mit Elementen für alle Seiten, auch für diejenigen, die keine Beschriftungen definiert haben. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur Elemente mit expliziten Bezeichnungen im Dropdown-Bedienfeld angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

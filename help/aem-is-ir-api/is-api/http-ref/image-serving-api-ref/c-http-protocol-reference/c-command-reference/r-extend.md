@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -31,11 +31,11 @@ Ebene erweitern. Fügt Ränder zu einer Ebene hinzu oder beschneidet das Ebenenr
  </tr> 
 </table>
 
-`extend=` wird auf die Ebene angewendet *after* das Bild beschnitten wird ( `crop=`) und alle Ebenentransformationen, einschließlich `rotate=`, wurden angewendet.
+`extend=` wird auf die Ebene *nach* angewendet, wenn das Bild beschnitten wird ( `crop=`) und alle Ebenentransformationen, einschließlich `rotate=`, angewendet wurden.
 
-Der erweiterte Bereich wird mit `bgColor=`oder, falls nicht angegeben, transparent bleibt.
+Der erweiterte Bereich wird mit `bgColor=` gefüllt oder, falls nicht angegeben, bleibt transparent.
 
-Argumentwerte für `extendN=` werden relativ zur Größe der Ebene nach Ebenentransformationen normalisiert, einschließlich `rotate=` angewendet wurden.
+Die Argumentwerte für `extendN=` werden relativ zur Größe des Layer Rect normalisiert, nachdem Ebenentransformationen angewendet wurden, einschließlich `rotate=`.
 
 ## Eigenschaften {#section-8fc94de871f841f3bf5e1df135972ca9}
 
@@ -43,7 +43,7 @@ Ebenenattribut. Gilt für Ebene 0, wenn `layer=comp`. Wird von Effektebenen igno
 
 ## Standard {#section-de7473649cb9406b8d99028c74c4b8dc}
 
-`extend=0,0,0,0`, um das Ebenenrechteck nicht zu ändern.
+`extend=0,0,0,0`, ohne Änderung des Ebenenrechtecks.
 
 ## Beispiele {#section-cc6d8e76f3dd4607ac31cb095d86c9fe}
 

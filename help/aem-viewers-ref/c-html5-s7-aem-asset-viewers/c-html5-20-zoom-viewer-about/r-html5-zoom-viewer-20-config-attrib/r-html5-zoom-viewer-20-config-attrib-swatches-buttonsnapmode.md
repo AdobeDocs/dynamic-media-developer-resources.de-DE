@@ -8,7 +8,7 @@ exl-id: b85426c6-6f35-40c0-b78b-eeac27a699e6
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 10%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> Momentan</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Momentin</span> </span> </p> </td> 
    <td> <p>Dadurch werden die Schaltflächen neben den Farbfeldern ausgerichtet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> Snapout</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Momentout</span> </span> </p> </td> 
    <td> <p>Hierdurch werden die Schaltflächen neben dem Komponentenrahmen ausgerichtet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> Overlay</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overlay</span> </span> </p> </td> 
    <td> <p>Hierdurch werden die Schaltflächen über den Farbfeldern gerendert. </p> </td> 
   </tr> 
  </tbody> 

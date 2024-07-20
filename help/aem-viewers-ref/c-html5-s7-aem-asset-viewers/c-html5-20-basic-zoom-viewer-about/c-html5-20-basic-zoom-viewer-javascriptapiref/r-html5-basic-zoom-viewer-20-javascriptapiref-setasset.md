@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +21,13 @@ JavaScript-API-Referenz für einfachen Zoom-Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Asset</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Zeichenfolge</span>} neue Asset-ID, wobei optionale IS-Modifikatoren nach "?"angehängt werden </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID, mit optionalen IS-Modifikatoren nach "?" </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()`. Wenn es nach aufgerufen wird `init()`, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

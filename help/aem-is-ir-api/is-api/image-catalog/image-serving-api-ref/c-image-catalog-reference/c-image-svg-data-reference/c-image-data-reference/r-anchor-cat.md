@@ -22,11 +22,11 @@ Definiert auch den standardmäßigen Mittelpunkt für die Drehung.
 
 Zwei Ganzzahlen, durch Kommas getrennt. Pixel-Versatz relativ zur oberen linken Ecke des Vollbildbilds.
 
-Überschrieben von `anchor=`(die wiederum mit `origin=`).
+Überschrieben durch `anchor=` (was wiederum mit `origin=` überschrieben werden kann).
 
 ## Standard {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-Der Mittelpunkt des Bildes wird verwendet, wenn dieses Feld nicht vorhanden oder leer ist und es ein gültiger Bilddatensatz ist (d. h. wenn `catalog::Path` ist gültig).
+Der Mittelpunkt des Bildes wird verwendet, wenn dieses Feld nicht vorhanden oder leer ist und es ein gültiger Bilddatensatz ist (d. h. wenn `catalog::Path` gültig ist).
 
 ## Verwandte Themen {#section-f605d29c3f5d48ad8e2a374f11886f19}
 

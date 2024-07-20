@@ -1,5 +1,5 @@
 ---
-description: Legen Sie den Veröffentlichungsstatus für ein oder mehrere Assets fest oder aktualisieren Sie ihn. Sie können für jeden Veröffentlichungskontext in einem Unternehmen einen separaten Veröffentlichungsstatus festlegen.
+description: Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere Assets Sie können für jeden Veröffentlichungskontext in einem Unternehmen einen separaten Veröffentlichungsstatus festlegen.
 solution: Experience Manager
 title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
 # setAssetsContextState{#setassetscontextstate}
 
-Legen Sie den Veröffentlichungsstatus für ein oder mehrere Assets fest oder aktualisieren Sie ihn. Sie können für jeden Veröffentlichungskontext in einem Unternehmen einen separaten Veröffentlichungsstatus festlegen.
+Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere Assets Sie können für jeden Veröffentlichungskontext in einem Unternehmen einen separaten Veröffentlichungsstatus festlegen.
 
 ## Autorisierte Benutzertypen {#section-815eb031f85143278c1560c18c5e3431}
 
@@ -34,14 +34,14 @@ Legen Sie den Veröffentlichungsstatus für ein oder mehrere Assets fest oder ak
 
 ## Parameter {#section-009b9006de8e4c16ad657c47f28ace9f}
 
-**Eingabe (setAssetsContextStateParam)**
+**Input (setAssetsContextStateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
 | assetsContextHandle | `types:AssetsContextStateUpdateArray` | Ja | Ein Array von Assets und deren neuen Veröffentlichungsstatus. |
 
-**Ausgabe (setAssetsContextStateReturn)**
+**Output (setAssetsContextStateReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -52,9 +52,9 @@ Legen Sie den Veröffentlichungsstatus für ein oder mehrere Assets fest oder ak
 
 ## Beispiele {#section-283a073f3cb14bcda5abed863c538aa4}
 
-In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mithilfe von `NotMarkedForPublish`.
+In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mit `NotMarkedForPublish` festgelegt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setAssetsContextStateParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

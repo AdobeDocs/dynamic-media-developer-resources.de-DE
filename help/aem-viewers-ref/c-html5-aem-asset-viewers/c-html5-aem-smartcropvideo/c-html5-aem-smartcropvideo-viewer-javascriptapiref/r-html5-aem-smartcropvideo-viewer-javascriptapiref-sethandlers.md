@@ -1,10 +1,11 @@
 ---
 title: setHandlers
-description: JavaScript-API-Referenz für Smart Crop Video Viewer.
+description: JavaScript API-Referenz für Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 2f9e0381-650d-4f13-b2ae-8d810c8488f4
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 3%
@@ -13,11 +14,11 @@ ht-degree: 3%
 
 # setHandlers{#sethandlers}
 
-JavaScript-API-Referenz für Smart Crop Video Viewer.
+JavaScript API-Referenz für Smart Crop Video Viewer.
 
 `setHandlers(handlers)`
 
-Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt vollständig die Ereignishandler, die zuvor für diese Viewer-Instanz zugewiesen wurden. Muss vor aufgerufen werden `init()`.
+Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt vollständig die Ereignishandler, die zuvor für diese Viewer-Instanz zugewiesen wurden. Muss vor `init()` aufgerufen werden.
 
 ## Parameter {#section-0cc9961784d04eb3b7d50011309b0119}
 
@@ -25,7 +26,7 @@ Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen, wobei der Eigenschaftsname der Name des unterstützten Viewer-Ereignisses und der Eigenschaftswert ein JavaScript-Funktionsverweis auf einen entsprechenden Rückruf ist. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md#concept-ebe5a4c1853d4912a919d86df35c1f6d" format="dita" scope="local"> Ereignisrückrufe </a> für weitere Informationen zu Viewer-Ereignissen. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen, wobei der Eigenschaftsname der Name des unterstützten Viewer-Ereignisses und der Eigenschaftswert eine JavaScript-Funktionsreferenz zu einem entsprechenden Rückruf ist. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md#concept-ebe5a4c1853d4912a919d86df35c1f6d" format="dita" scope="local"> Ereignisrückrufe </a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

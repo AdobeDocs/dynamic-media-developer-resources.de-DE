@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Der Indikator für die Darstellungsseite wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
   </tr> 
   <tr> 
@@ -37,7 +37,7 @@ Der Indikator für die Darstellungsseite wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Position vom rechten Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Der Indikator für die Darstellungsseite wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Breite der Seitenanzeige. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Seitenanzeige. </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Der Indikator für die Darstellungsseite wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 

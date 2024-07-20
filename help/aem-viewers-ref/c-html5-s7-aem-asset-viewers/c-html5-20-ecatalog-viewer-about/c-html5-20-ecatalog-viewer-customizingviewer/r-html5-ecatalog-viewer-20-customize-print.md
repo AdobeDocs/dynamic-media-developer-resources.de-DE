@@ -41,7 +41,7 @@ Das Erscheinungsbild der Druckschaltfläche wird mit der folgenden CSS-Klassenau
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -57,9 +57,9 @@ Das Erscheinungsbild der Druckschaltfläche wird mit der folgenden CSS-Klassenau
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Um eine Druckschaltfläche mit 28 x 28 Pixel einzurichten und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzuzeigen.
 
@@ -90,7 +90,7 @@ Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das Dialogfeld akti
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
 ```
 
-**CSS-Eigenschaften der Rücken-Überlagerung**
+**CSS-Eigenschaften der Rücküberlagerung**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
@@ -183,7 +183,7 @@ Das Kopfzeilensymbol wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
+**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -192,7 +192,7 @@ Das Kopfzeilensymbol wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -217,11 +217,11 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schrifthöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -250,7 +250,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p> Vertikale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
@@ -258,7 +258,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -278,9 +278,9 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 22 x 22 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Schließlich wurde mit einer 28 x 28 Pixel großen Schaltfläche Schließen zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert:
 
@@ -345,7 +345,7 @@ Die Fußzeile verfügt über einen inneren Container, der beide Schaltflächen e
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbuttoncontainer
 ```
 
-**CSS-Eigenschaften des Schaltflächenbehälters des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldschaltflächen-Containers**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -362,7 +362,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Abbrechen&quot;im Dialogfeld**
+**CSS-Eigenschaften des Dialogfelds &quot;Abbrechen&quot;-Schaltfläche**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -371,7 +371,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -387,7 +387,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
 Die Schaltfläche &quot;An Druck senden&quot;wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -404,7 +404,7 @@ Die Schaltfläche &quot;An Druck senden&quot;wird mit der folgenden CSS-Klassena
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -420,7 +420,7 @@ Die Schaltfläche &quot;An Druck senden&quot;wird mit der folgenden CSS-Klassena
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
 Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
@@ -433,11 +433,11 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
  </tbody> 
 </table>
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit der Schaltfläche Abbrechen 64 x 34 und einer Schaltfläche &quot;96 x 34 Zum Drucken senden&quot;, wobei die Textfarbe und die Hintergrundfarbe je nach Schaltflächenstatus unterschiedlich sind:
 
@@ -532,7 +532,7 @@ Der Hauptdialogbereich zwischen der Kopf- und Fußzeile enthält Dialogfeldinhal
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des Hauptdialogfeld-Bereichs. </p> </td> 
   </tr> 
   <tr> 
@@ -612,7 +612,7 @@ Die Größe des Blocks für Dialogfeldinhalte wird mit der folgenden CSS-Klassen
  .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften der Eingabebreite des Dialogfelds**
+**CSS-Eigenschaften der Dialogfeldeingabebreite**
 
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
@@ -649,11 +649,11 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
@@ -667,7 +667,7 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
  </tbody> 
 </table>
 
-Dialogfeldbeschriftungen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Dialogfeldbeschriftungen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Um alle Beschriftungen mit einer 9-Pixel-Schriftart auf grau und fett festzulegen:
 
@@ -685,7 +685,7 @@ Eingabedialoge werden in den Container eingeschlossen und mit der folgenden CSS-
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldeingabecontainers**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -731,7 +731,7 @@ Der Abstand zwischen dem Optionsfeld und der Beschriftung wird mit der folgenden
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoptioninput
 ```
 
-**CSS-Eigenschaften der Dialogfeldeingabe**
+**CSS-Eigenschaften des Dialogfeldoptionseintrags**
 
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
@@ -748,7 +748,7 @@ Numerische Picker für die Auswahl von Druckbereichen werden mit der folgenden C
 .s7ecatalogsearchviewer .s7printdialog .s7dialogrange
 ```
 
-**CSS-Eigenschaften des Dialogfelddruckbereichs**
+**CSS-Eigenschaften des Dialogfelds, Druckbereich**
 
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
@@ -787,7 +787,7 @@ Die horizontale Aufteilung zwischen der Seitenbereichsauswahl und den Drucklayou
 .s7printdialog .s7horizontaldivider
 ```
 
-**CSS-Eigenschaften des horizontalen Teilers**
+**CSS-Eigenschaften des horizontalen Trennzeichens**
 
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 

@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-7d06abf3d707494c8a1270c7fa1477f1}
 
-**Eingabe (getViewerConfigSettingsParam)**
+**Input (getViewerConfigSettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
 | assetHandle | `xsd:string` | Ja | Umgang mit dem Asset. |
 
-**Ausgabe (getViewerConfigSettingsReturn)**
+**Output (getViewerConfigSettingsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

@@ -8,7 +8,7 @@ exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ Der eCatalog Search Viewer unterstützt standardmäßig das Adobe Analytics-Trac
 
 ## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Der eCatalog Search Viewer unterstützt [!DNL Adobe Analytics] standardmäßiges Tracking. Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` -Parameter.
+Der eCatalog Search Viewer unterstützt standardmäßig das [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
@@ -64,7 +64,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mit der <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>ein Asset im Viewer mithilfe der API <span class="codeph"> setAsset() </span> ausgetauscht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -79,11 +79,11 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p> ein Bild geändert wird, indem Sie auf ein Muster klicken oder tippen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAGE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SEITE </span> </p> </td> 
    <td colname="col2"> <p> wird ein aktueller Frame in der Hauptansicht geändert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ITEM </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ELEMENT </span> </p> </td> 
    <td colname="col2"> <p>Ein Popup für das Informationsfeld wird aktiviert. </p> </td> 
   </tr> 
   <tr> 

@@ -1,20 +1,20 @@
 ---
 title: setAsset
-description: JavaScript-API-Referenz für Video360-Viewer.
+description: JavaScript API-Referenz für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 
 # setAsset{#setasset}
 
-JavaScript-API-Referenz für Video360-Viewer.
+JavaScript API-Referenz für Video360-Viewer.
 
 `setAsset(asset)`
 

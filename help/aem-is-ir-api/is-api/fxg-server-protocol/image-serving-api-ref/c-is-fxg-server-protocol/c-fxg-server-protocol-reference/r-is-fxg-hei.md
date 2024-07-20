@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '171'
+ht-degree: 1%
 
 ---
 
@@ -25,13 +25,13 @@ Ansichtshöhe. Gibt die Höhe des Antwortbilds an.
  </tr> 
 </table>
 
-Rasterformate werden mit der Einstellung Standardansichtsgröße (oder DefaultPix ) gerendert. Auswählen **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]** und geben Sie die Werte für Breite und Höhe ein. Kleinere Größen bieten eine bessere Leistung. Speichern Sie Ihre Einstellungen und führen Sie eine Image Serving-Veröffentlichung durch, um eine Änderung anzuwenden.
+Rasterformate werden mit der Einstellung Standardansichtsgröße (oder DefaultPix ) gerendert. Wählen Sie **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Publish-Einstellungen]** > **[!UICONTROL Bildserver]** aus und geben Sie dann die Werte für Breite und Höhe ein. Kleinere Größen bieten eine bessere Leistung. Speichern Sie Ihre Einstellungen und führen Sie einen Image Serving Publish aus, um eine Änderung anzuwenden.
 
-Wenn Sie eine `scale=1` -Befehl, wird eine Rasterformat-Anforderung mit der in der FXG angegebenen Größe gerendert.
+Wenn Sie den Befehl `scale=1` anwenden, wird eine Rasterformat-Anforderung in der in FXG angegebenen Größe gerendert.
 
 ## Standard {#section-76ee3daa77cb468ab310821357cc9404}
 
-Wenn `wid=`, `hei=`oder `scale=` nicht angegeben sind, ist das Antwortbild die standardmäßige Ansichtsgröße, die in der FXG-Datei angegeben ist.
+Wenn `wid=`, `hei=` oder `scale=` nicht angegeben sind, ist das Antwortbild die standardmäßige Ansichtsgröße, die in der FXG-Datei angegeben ist.
 
 ## Beispiel {#section-a91c14d31e71481ba054412d9f642885}
 

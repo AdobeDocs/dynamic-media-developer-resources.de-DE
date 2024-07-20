@@ -8,7 +8,7 @@ exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -32,11 +32,11 @@ Syntax
 
 ## Parameter {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**Eingabe (getSystemPropertiesParam)**
+**Input (getSystemPropertiesParam)**
 
 Keine.
 
-**Ausgabe (getSystemPropertiesReturn)**
+**Output (getSystemPropertiesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Keine.
 
 Dieses Codebeispiel gibt ein Array von Systemeigenschaften zurück. Die Antwort wurde wegen der Kürze gekürzt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getSystemPropertiesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10"/>

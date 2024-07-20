@@ -8,7 +8,7 @@ exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ JavaScript-API-Referenz für Panorama-Viewer.
 
 `setAsset(asset)`
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()`. Wenn es nach aufgerufen wird `init()`, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
 Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-html5-aem-panoramic-viewer-javascriptapiref/r-html5-aem-panoramic-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-htm
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Zeichenfolge</span>} neue Asset-ID. Bilder, die Image Rendering (IR) oder benutzergenerierte Inhalte (UGC) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID. Bilder, die Image Rendering (IR) oder benutzergenerierte Inhalte (UGC) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

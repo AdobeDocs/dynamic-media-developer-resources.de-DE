@@ -1,5 +1,5 @@
 ---
-description: PDF-Auftragsoptionen anwenden Eine Auftrags- oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld "PDF-Optionen speichern"oder von PDF-Vorgaben im InDesign generiert wird.
+description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder eine PDF-Vorgabe ist eine PDF-Datei, die von Illustrator im Dialogfeld "Speicheroptionen"oder im Dialogfeld "PDF-Vorgaben"unter InDesign generiert wird.
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 47%
+source-wordcount: '239'
+ht-degree: 38%
 
 ---
 
 # joboption{#joboption}
 
-PDF-Auftragsoptionen anwenden Eine Auftrags- oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld &quot;PDF-Optionen speichern&quot;oder von PDF-Vorgaben im InDesign generiert wird.
+PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder eine PDF-Vorgabe ist eine PDF-Datei, die von Illustrator im Dialogfeld &quot;Speicheroptionen&quot;oder im Dialogfeld &quot;PDF-Vorgaben&quot;unter InDesign generiert wird.
 
-` joboption= *`Wert`*`
+` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
@@ -25,7 +25,7 @@ PDF-Auftragsoptionen anwenden Eine Auftrags- oder PDF-Vorgabe ist eine Datei, di
  </tr> 
 </table>
 
-Die Auftragsoptionendatei kann von IPS/Dynamic Media Classic hochgeladen und veröffentlicht werden. Die in der Auftragsoptionendatei enthaltenen PDF-Optionen werden bei der Erstellung der PDF-Datei verwendet.
+Die Auftragsoptionendatei kann von IPS/Dynamic Media Classic hochgeladen und veröffentlicht werden. Die in der Auftragsoptionendatei enthaltenen PDF-Optionen werden verwendet, wenn die PDF generiert wird.
 
 Die folgenden Optionen werden derzeit unterstützt:
 
@@ -36,7 +36,7 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Bilder </p></td> 
-  <td class="stentry"> <p> Downsampling, Auflösung, Schwellenwert und Komprimierung für Farbe, Grau und Mono </p> </td> 
+  <td class="stentry"> <p> Neuberechnung, Auflösung, Schwellenwert und Komprimierung für Farbe, Grau und Mono </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Schriftarten </p></td> 
@@ -44,7 +44,7 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Farbe </p></td> 
-  <td class="stentry"> <p> Farbstrategie („Nur Bilder für Farbmanagement kennzeichnen“ wird wie „Alles für Farbmanagement kennzeichnen“ behandelt) </p> <p> Dokument-Renderpriorität </p> <p> Nur die folgenden Arbeitsfarbräume werden für 4.2.5 unterstützt. </p> <p> 
+  <td class="stentry"> <p> Farbstrategie(Nur Bilder mit Tags versehen wird als alles mit Tags behandelt) </p> <p> Dokument-Renderpriorität </p> <p> Nur die folgenden Arbeitsbereiche werden für 4.2.5 unterstützt. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -73,7 +73,7 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Erweitert </p></td> 
-  <td class="stentry"> <p>„OPI-Kommentare beibehalten“ ist immer aktiviert. </p></td> 
+  <td class="stentry"> <p>OPI-Kommentare beibehalten ist immer aktiviert. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Standards </p></td> 

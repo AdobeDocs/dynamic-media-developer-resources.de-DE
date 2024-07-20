@@ -8,7 +8,7 @@ exl-id: eb052685-b750-4a12-b00e-28e676340e98
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -32,14 +32,14 @@ Syntax
 
 ## Parameter {#section-aa3f498fe76d4a5f99c42d64520fadce}
 
-**Eingabe (getZipEntriesParam)**
+**Input (getZipEntriesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das die Zip-Datei enthält. |
 | assetHandle | `xsd:string` | Ja | Bearbeiten Sie die ZIP-Datei. |
 
-**Ausgabe (getZipEntriesReturn)**
+**Output (getZipEntriesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntax
 
 Dieses Codebeispiel gibt Informationen zur Postleitzahl zurück, einschließlich der komprimierten und unkomprimierten Größe.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getZipEntriesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 89f34a96-2b21-4169-8c25-4b53005e59b8
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '78'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Das Erscheinungsbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Entwurf  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> entwurf </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 

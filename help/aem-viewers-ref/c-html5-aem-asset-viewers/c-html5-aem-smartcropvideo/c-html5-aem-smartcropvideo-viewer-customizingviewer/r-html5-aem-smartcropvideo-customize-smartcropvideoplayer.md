@@ -6,8 +6,8 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Smart-Zuschnit
  </tbody> 
 </table>
 
-Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht wiedergeben kann, kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht wiedergeben kann, kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Um einen Video-Viewer für smartes Zuschneiden einzurichten, bei dem die Größe des Smart-Zuschnitt-Videoplayers auf 512 x 288 Pixel festgelegt ist.
 
@@ -63,11 +63,11 @@ Geschlossene Untertitel werden in einen internen Container im Smart-Zuschnitt-Vi
    <td colname="col2"> <p>Textfarbe für Beschriftung schließen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> Schriftstärke der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> Schriftgröße der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
    <td colname="col2"> <p> Breite des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Höhe des Animationssymbols </p> </td> 
   </tr> 
   <tr> 

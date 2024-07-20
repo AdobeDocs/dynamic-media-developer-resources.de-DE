@@ -1,5 +1,5 @@
 ---
-title: Farbstoffe
+title: Materialien einfärben
 description: Die meisten Materialien können dynamisch eingefärbt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Farbstoffe{#colorizing-materials}
+# Materialien einfärben{#colorizing-materials}
 
 Die meisten Materialien können dynamisch eingefärbt werden.
 
-Der Farbalgorithmus ist simpel und eignet sich am besten für Materialbilder mit einem begrenzten Farbbereich. Um ein Material zu färben, subtrahiert der Renderer einfach die `bgc=` und fügt den Wert hinzu. `color=` auf jeden Pixelwert.
+Der Farbalgorithmus ist simpel und eignet sich am besten für Materialbilder mit einem begrenzten Farbbereich. Um ein Material zu färben, subtrahiert der Renderer einfach den Wert `bgc=` und fügt den Wert `color=` zu jedem Pixelwert hinzu.
 
-Die Kolorisierung ist deaktiviert, wenn `color=` nicht angegeben ist. Die `bgc=` Attribut wird von Kabinenmaterial ignoriert; den in der Variablen [!DNL vnc] wird stattdessen verwendet.
+Die Kolorisierung ist deaktiviert, wenn `color=` nicht angegeben ist. Das Attribut `bgc=` wird von Kabinenmaterialien ignoriert; stattdessen wird der in die Datei [!DNL vnc] eingebettete Basisfarbwert verwendet.

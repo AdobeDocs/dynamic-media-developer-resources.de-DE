@@ -7,12 +7,12 @@ role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 3%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
-# Datentypen: Neu und geändert{#data-types-new-and-modified}
+# Datentypen: neu und geändert{#data-types-new-and-modified}
 
 Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.4.
 

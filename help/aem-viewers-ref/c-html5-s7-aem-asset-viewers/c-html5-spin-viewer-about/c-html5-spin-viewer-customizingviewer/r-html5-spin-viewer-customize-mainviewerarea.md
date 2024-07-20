@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6cd9c375-8890-4033-b187-b95b26dd6009
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Viewers mit weißem Hintergrund ( `#FFFFFF`) und machen Sie ihre Größe 512 x 288 Pixel.
+Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
 
 ```
 .s7spinviewer { 

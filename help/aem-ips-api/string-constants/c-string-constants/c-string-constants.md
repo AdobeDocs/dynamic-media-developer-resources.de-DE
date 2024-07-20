@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 8%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -40,10 +40,10 @@ ht-degree: 8%
 * [Photoshop-Ebenenbenennungsmodi](r-photoshop-layer-naming-modes.md)
 * [PostScript-Farbraummodi](r-postscript-colorspace-modes.md)
 * [Profilklassen](r-profile-classes.md)
-* [Veröffentlichungsstatus](r-publish-state.md)
+* [Publish-Status](r-publish-state.md)
 * [Eigenschaftssatztypen](r-property-set-types.md)
-* [Veröffentlichungskontext](r-publish-context.md)
-* [Veröffentlichungstypen](r-publish-types.md)
+* [Publish-Kontext](r-publish-context.md)
+* [Publish-Typen](r-publish-types.md)
 * [Regionsform](r-region-shape.md)
 * [Suchübereinstimmungsmodi](r-search-match-modes.md)
 * [Sortierrichtung](r-sort-directions.md)

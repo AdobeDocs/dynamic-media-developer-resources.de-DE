@@ -8,7 +8,7 @@ exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -29,14 +29,14 @@ Syntax
 
 ## Parameter {#section-8c741884eb54489bbaad0c444fee80b6}
 
-**Eingabe (createProjectParam)**
+**Input (createProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle des mit dem neuen Projekt verknüpften Unternehmens. |
 | projectName | `xsd:string` | Ja | Neuer Projektname. |
 
-**Ausgabe (createProjectParam)**
+**Output (createProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -44,9 +44,9 @@ Syntax
 
 ## Beispiele {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Dieses Codebeispiel erstellt ein Projekt mit dem Namen `ApiTestProject` in einem von seinem Handle angegebenen Unternehmen. Die Antwort gibt das Handle an das Projekt zurück.
+Dieses Codebeispiel erstellt ein Projekt mit dem Namen `ApiTestProject` in einem Unternehmen, das durch sein Handle angegeben wird. Die Antwort gibt das Handle an das Projekt zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -8,7 +8,7 @@ exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,11 @@ Graustufen-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das
 
 ## Eigenschaften {#section-97923d8561b845309442d57d017d91a4}
 
-Textzeichenfolge. Wenn angegeben, muss eine gültige sein. `icc::Name` Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder einen Dateipfad relativ zu `attribute::RootPath`. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
 
 ## Standard {#section-02c52805ee13483dba7878aeab51f889}
 
-Vererbt von `default::IccProfileSrcGray` wenn nicht definiert oder leer ist. Wenn `attribute::IccProfileSrcGray` wird nicht in ein gültiges Profil aufgelöst; `attribute::IccProfileGray` stattdessen verwendet.
+Wird von `default::IccProfileSrcGray` übernommen, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcGray` nicht in ein gültiges Profil aufgelöst wird, wird stattdessen `attribute::IccProfileGray` verwendet.
 
 ## Verwandte Themen {#section-c361d6f6231942b3aa8b4b496e1d3de3}
 

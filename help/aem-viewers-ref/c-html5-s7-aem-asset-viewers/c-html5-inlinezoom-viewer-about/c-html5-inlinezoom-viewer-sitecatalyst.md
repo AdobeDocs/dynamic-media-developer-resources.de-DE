@@ -8,7 +8,7 @@ exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ Der Flyout-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
 ## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Der Inline-Zoom-Viewer unterstützt [!DNL Adobe Analytics] standardmäßiges Tracking. Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
+Der Inline-Zoom-Viewer unterstützt standardmäßig das [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, die `trackEvent` Viewer-Rückruf und Verarbeitung der `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
@@ -66,7 +66,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset im Viewer mit <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mit der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

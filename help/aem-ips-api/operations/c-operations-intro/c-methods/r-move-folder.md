@@ -8,7 +8,7 @@ exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-473c2e68bcc14a9ea2593bee26e679dd}
 
-**Eingabe (moveFolderParam)**
+**Input (moveFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Syntax
 | folderHandle | `xsd:string` | Ja | Ordner-Handle. |
 | destFolderHandle | `xsd:string` | Ja | Verarbeiten Sie den Zielordner. |
 
-**Ausgabe (moveFolderReturn)**
+**Output (moveFolderReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <moveFolderParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

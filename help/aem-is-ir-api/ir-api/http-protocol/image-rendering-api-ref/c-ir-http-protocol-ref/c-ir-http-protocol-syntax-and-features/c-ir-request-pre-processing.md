@@ -1,5 +1,5 @@
 ---
-title: Vorverarbeitung anfordern
+title: Vorab-Bearbeitung anfordern
 description: Das Bild-Rendering bietet einen einfachen Anforderungs-Vorprozessor, der auf Übereinstimmungs- und Ersatzregeln für reguläre Ausdrücke basiert.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Vorverarbeitung anfordern{#request-pre-processing}
+# Vorab-Bearbeitung anfordern{#request-pre-processing}
 
 Das Bild-Rendering bietet einen einfachen Anforderungs-Vorprozessor, der auf Übereinstimmungs- und Ersatzregeln für reguläre Ausdrücke basiert.
 
@@ -22,7 +22,7 @@ Vorab-Verarbeitungsregeln für Anfragen können den Pfad und die Abfrageabschnit
 
 Vorab-Verarbeitungsregeln für Anfragen eignen sich für verschiedene Anwendungen, von denen einige im Folgenden aufgelistet sind:
 
-* Implementieren eines *virtuelle Pfade* -Mechanismus, der eine Neukodifizierung des Anfragepfads zu Datei-, FTP- und HTTP-Pfaden ermöglicht.
+* Implementieren Sie einen Mechanismus *virtueller Pfade* , der eine Neukodifizierung des Anfragepfads zu Datei-, FTP- und HTTP-Pfaden ermöglicht.
 * Die Verwendung von CPU-intensiven Befehlen wird untersagt, um Servermissbrauch zu verhindern.
 * Steuern Sie die Bildqualitätseinstellungen (z. B. JPEG-Qualität oder Scharfzeichnen) je nach Anfragepfad oder Bildname.
 

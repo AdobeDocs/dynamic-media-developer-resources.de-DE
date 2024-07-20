@@ -35,7 +35,7 @@ In der folgenden Tabelle werden die einzelnen Typen von Standardwarnungen beschr
   <tr> 
    <td> <p>Hohe Gleichzeitigkeit </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Wird gesendet, wenn die Anzahl der gleichzeitig verarbeiteten Anforderungen (die <i>Überschneidung</i>) den festgelegten Schwellenwert überschreitet. Kann auf eine Überlastungsbedingung des Servers hinweisen. </td> 
+   <td> Wird ausgegeben, wenn die Anzahl der gleichzeitig verarbeiteten Anforderungen (die <i>überlappung</i>) den festgelegten Schwellenwert überschreitet. Kann auf eine Überlastungsbedingung des Servers hinweisen. </td> 
   </tr> 
   <tr> 
    <td> <p>Mindestverkehr </p> </td> 

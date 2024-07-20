@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 7%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Werkstoffdrehwinkel. Definiert den Drehwinkel für Materialien.
 
-` rotate= *`Winkel`*`
+` rotate= *`angle`*`
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
@@ -31,7 +31,7 @@ Drehen Sie wiederholbare Texturmaterialien um beliebige Winkel, wenn sie auf Flo
 
 Drehen Sie dekale Materialien nach beliebigen Winkeln.
 
-Positive Winkel drehen den Uhrzeigersinn. Die Textur oder die Decke wird um den Ankerpunkt gedreht ( `anchor=`); der Ankerpunkt bleibt an der Herkunft des Zielobjekts ausgerichtet.
+Positive Winkel drehen den Uhrzeigersinn. Die Textur oder der Abbau wird um den Ankerpunkt ( `anchor=`) gedreht; der Ankerpunkt bleibt mit der Herkunft des Zielobjekts ausgerichtet.
 
 ## Eigenschaften {#section-ad4d07897ca24f63af1a4062f8618e36}
 
@@ -39,7 +39,7 @@ Materialattribut. Ignoriert durch feste Farbe, Tapeten, Schrank und Fensterbehan
 
 ## Standard {#section-14c991e71b74449db8ff18a775949b28}
 
-`rotate=0`, um keine Drehung durchzuführen.
+`rotate=0`, für keine Drehung.
 
 ## Verwandte Themen {#section-f73c00e9368b478dac1fd15bb4367a12}
 

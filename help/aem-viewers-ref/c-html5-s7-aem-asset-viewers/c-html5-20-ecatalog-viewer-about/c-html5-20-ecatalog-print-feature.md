@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d7c8a0da-ad8b-440e-b27b-ea85dd975d9d
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Mit dem Viewer können Sie den Kataloginhalt an einen Drucker ausgeben.
 
 Die Druckfunktion wird durch eine dedizierte Schaltfläche in der Symbolleiste ausgelöst. Durch Klicken auf die Schaltfläche kann der Benutzer einen Druckbereich und die Anzahl der Seiten pro Blatt auswählen.
 
-Die Druckqualität kann mithilfe der `printquality` Konfigurationsparameter. Einstellung `printquality` auf Werte, die über dem Standardwert liegen, wird nicht empfohlen. Der Grund dafür ist, dass dies zu einem hohen Speicherverbrauch durch den Webbrowser auf dem System des Clients führt. Stellen Sie außerdem sicher, dass die für Ihr Dynamic Media Classic-Unternehmen festgelegte maximale Bildreaktionsgröße größer ist als die konfigurierte `printquality` -Wert.
+Die Druckqualität kann mithilfe des Konfigurationsparameters `printquality` angepasst werden. Es wird nicht empfohlen, `printquality` auf Werte festzulegen, die über dem Standardwert liegen. Der Grund dafür ist, dass dies zu einem hohen Speicherverbrauch durch den Webbrowser auf dem System des Clients führt. Stellen Sie außerdem sicher, dass die für Ihr Dynamic Media Classic-Unternehmen festgelegte maximale Bildreaktionsgröße größer ist als der konfigurierte `printquality` -Wert.
 
 >[!NOTE]
 >

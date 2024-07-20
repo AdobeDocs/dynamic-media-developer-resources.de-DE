@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 5%
+source-wordcount: '236'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Das Ablaufdatum des Kennworts ist optional. Wenn das Kennwort weggelassen wird, 
 
 >[!NOTE]
 >
->** Nur der  `IpsAdmin` Benutzertyp ist berechtigt, setPassword-Aufrufe gegen andere Benutzer auszuführen.
+>*Nur* der Benutzertyp `IpsAdmin` ist berechtigt, setPassword -Aufrufe gegen andere Benutzer auszuführen.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,7 +36,7 @@ Das Ablaufdatum des Kennworts ist optional. Wenn das Kennwort weggelassen wird, 
 
 ## Parameter {#section-0531294341f7483d89dacaa393dd659a}
 
-**Eingabe (setPasswordParam)**
+**Input (setPasswordParam)**
 
 <table id="table_BF54512811344E0B979C5070354E8048"> 
  <thead> 
@@ -49,14 +49,14 @@ Das Ablaufdatum des Kennworts ist optional. Wenn das Kennwort weggelassen wird, 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Benutzerhandbuch. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> password  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Kennwort </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Kennwort. </p> <p>Für das ausgewählte Kennwort werden die folgenden Anforderungen erzwungen: </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
@@ -67,20 +67,20 @@ Das Ablaufdatum des Kennworts ist optional. Wenn das Kennwort weggelassen wird, 
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Kleinbuchstaben für englische Zeichen. Beispiel: <span class="codeph"> a b c d e </span> usw. </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Großbuchstaben für englische Zeichen. Beispiel: <span class="codeph"> A B C D E </span> usw. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Zahlen. Beispiel: <span class="codeph"> 1 2 3 4 5 </span> usw. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Sonderzeichen. Sie können beispielsweise Folgendes verwenden: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : "; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Sonderzeichen. Sie können beispielsweise Folgendes verwenden: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Bestimmt das Ablaufdatum des Kennworts. <p>Hinweis:  Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. Die Zeitzonen werden auf die "Central Time"eingestellt. </p> </p> </td> 
+   <td colname="col4"> <p>Bestimmt das Ablaufdatum des Kennworts. <p>Hinweis: Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. Die Zeitzonen werden auf die "Central Time"eingestellt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (setPasswordReturn)**
+**Output (setPasswordReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -88,7 +88,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird ein Benutzerkennwort erstellt. Das Kennwort läuft nie ab, da `passwordExpires` weggelassen wurde.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:setPasswordParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">  

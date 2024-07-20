@@ -8,7 +8,7 @@ exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Legt die Berechtigungen eines einzelnen Assets mithilfe eines Berechtigungs-Assets fest.
 
-Assets erben standardmäßig die Berechtigungen ihres übergeordneten Ordners. Nachdem Sie Berechtigungen für ein Asset festgelegt haben, erbt es nicht mehr die Berechtigungen des übergeordneten Elements, es sei denn, Sie rufen `removeAssetPermissions`.
+Assets erbt standardmäßig die Berechtigungen des übergeordneten Ordners. Nachdem Sie Berechtigungen für ein Asset festgelegt haben, erbt es nicht mehr die Berechtigungen seines übergeordneten Elements, es sei denn, Sie rufen `removeAssetPermissions` auf.
 
 ## Autorisierte Benutzertypen {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -26,15 +26,15 @@ Assets erben standardmäßig die Berechtigungen ihres übergeordneten Ordners. N
 
 ## Parameter {#section-e05abbce6453450fb38747101cb5e228}
 
-**Eingabe (setAssetPermissonsParam)**
+**Input (setAssetPermissonsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das den Ordner enthält, mit dem Sie arbeiten möchten. |
 | assetHandle | `xsd:string` | Ja | Ordner-Handle. |
-| permissionArray | `types:PermissionsUpdateArray` | Ja | Berechtigungs-Array. |
+| permissionArray | `types:PermissionsUpdateArray` | Ja | Berechtigungsarray. |
 
-**Ausgabe (setAssetPermissonsReturn)**
+**Output (setAssetPermissonsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -42,7 +42,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel werden Berechtigungen für ein Asset festgelegt. Es enthält das Unternehmen und das Asset-Handle sowie ein Berechtigungs-Array.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setAssetPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

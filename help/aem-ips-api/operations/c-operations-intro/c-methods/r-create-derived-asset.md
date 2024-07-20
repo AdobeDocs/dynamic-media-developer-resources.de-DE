@@ -20,9 +20,9 @@ Syntax
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Abgeleitete Assets geben Image Server-Protokollbefehle an, mit denen die Darstellung des Eigentümerbilds geändert wird. Die `AdjustedView` abgeleiteter Typ hilft, einfache Änderungen an einem einzelnen Bild anzuwenden (z. B. durch Angabe eines Zuschnittrechtecks), während die `LayerView` hilft bei der Erstellung einer mehrschichtigen Ansicht, die Text oder zusätzliche Bilder enthalten kann.
+Abgeleitete Assets geben Image Server-Protokollbefehle an, mit denen die Darstellung des Eigentümerbilds geändert wird. Der abgeleitete Typ `AdjustedView` hilft beim Anwenden einfacher Änderungen an einem einzelnen Bild (z. B. durch Angeben eines Zuschnittrechtecks), während der `LayerView` bei der Erstellung einer Mehrschichtansicht hilft, die Text oder zusätzliche Bilder enthalten kann.
 
-Im Gegensatz zu Bildkopien (siehe [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), wird ein abgeleitetes Bild mit dem Bild des Eigentümers verknüpft. Änderungen am Bild des Eigentümers ändern verknüpfte abgeleitete Assets. Durch Löschen des Eigentümerbilds werden alle zugehörigen abgeleiteten Bilder gelöscht.
+Im Gegensatz zu einer Bildkopie (siehe [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)) wird ein abgeleitetes Bild mit seinem Eigentümerbild verknüpft. Änderungen am Bild des Eigentümers ändern verknüpfte abgeleitete Assets. Durch Löschen des Eigentümerbilds werden alle zugehörigen abgeleiteten Bilder gelöscht.
 
 ## Autorisierte Benutzertypen {#authorized-user-types}
 
@@ -35,7 +35,7 @@ Im Gegensatz zu Bildkopien (siehe [copyImage](../../../operations/c-operations-i
 
 ## Parameter {#section-5a0dde01cff6454da3646ea805c2be1e}
 
-**Eingabe (createabgeleitedAssetParam)**
+**Input (createabgeleitedAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -44,10 +44,10 @@ Im Gegensatz zu Bildkopien (siehe [copyImage](../../../operations/c-operations-i
 | folderHandle | `xsd:string` | Ja | Der Handle für den Ordner, in dem das neue abgeleitete Asset erstellt wird. |
 | name | `xsd:string` | Ja | Der Name des abgeleiteten Assets. |
 | Typ | `xsd:string` | Ja | Der Asset-Typ des neuen abgeleiteten Assets: `AdjustedView` oder `LayerView`. |
-| urlModifier | `xsd:string` | Nein | Auf Befehle zum Image Serving oder Image Rendering angewendet *before* die Anforderung oder `urlPostApplyModifier` Befehle. |
-| urlPostApplyModifier | `xsd:string` | Nein | Auf Befehle zum Image Serving oder Image Rendering angewendet *after* auf die Anfrage oder `urlPostApplyModifier` Befehle. |
+| urlModifier | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle haben *vor* der Anfrage oder `urlPostApplyModifier` Befehlen angewendet. |
+| urlPostApplyModifier | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle wurden *nach* auf die Anfrage oder `urlPostApplyModifier` Befehle angewendet. |
 
-**Ausgabe (createabgeleitedAssetParam)**
+**Output (createabgeleitedAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Im Gegensatz zu Bildkopien (siehe [copyImage](../../../operations/c-operations-i
 
 Der Beispielcode erstellt ein abgeleitetes Asset mit einer angepassten Ansicht und `urlModifier` und `urlPostApplyModifier` mit beliebigen Werten. Die Antwort gibt das Handle an das neu abgeleitete Asset zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createDerivedAssetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 54c27ea0-e87f-41ce-ae8d-71c9fabe412e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 5%
+source-wordcount: '104'
+ht-degree: 2%
 
 ---
 
@@ -20,11 +20,11 @@ Falls angegeben, wendet der Server das Wasserzeichen auf die angeforderten Bildd
 
 ## Eigenschaften {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `Catalog::Id` -Wert in diesem Bildkatalog sein (oder im Standardkatalog, falls in [!DNL default.ini] angegeben).
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `Catalog::Id` -Wert in diesem Bildkatalog (oder im Standardkatalog, falls in [!DNL default.ini] angegeben) sein.
 
 ## Standard {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Vererbt von `default::Watermark` , falls nicht definiert. Wenn definiert, aber leer, wird für diesen Bildkatalog kein Wasserzeichen angewendet, selbst wenn `default::Watermark` definiert ist.
+Wird von `default::Watermark` übernommen, falls nicht definiert. Wenn definiert, aber leer, wird für diesen Bildkatalog kein Wasserzeichen angewendet, selbst wenn `default::Watermark` definiert ist.
 
 ## Verwandte Themen {#section-f15dbe31013849828d78588742dde58e}
 

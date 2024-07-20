@@ -8,7 +8,7 @@ exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 URL-Befehl für interaktiven Video-Viewer.
 
-`interactivedata= *`Datei`*`
+`interactivedata= *`file`*`
 
 Interaktive Daten ordnen bestimmte Zeitbereiche im Videoinhalt den Produktdaten zu, die später in interaktiven Farbfeldern neben dem Video angezeigt werden. Sie ist auch im Aktionsaufruf-Bedienfeld enthalten, das am Ende der Videowiedergabe angezeigt wird. Außerdem wird ein Titel für das interaktive Video bereitgestellt, das im Aktionsaufruf-Bedienfeld angezeigt wird.
 

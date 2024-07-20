@@ -20,9 +20,9 @@ JavaScript-API-Referenz für interaktiven Video-Viewer.
 
 Startet die Initialisierung des interaktiven Video-Viewers. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist - z. B. kann es mit dem ihm zugewiesenen `display:none`-Stil ausgeblendet werden -, setzt der Viewer den Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. Wenn dieses Ereignis eintritt, wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist - z. B. kann es mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden -, setzt der Viewer seinen Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. Wenn dieses Ereignis eintritt, wird das Laden des Viewers automatisch fortgesetzt.
 
-Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. nachfolgende Aufrufe werden ignoriert.
+Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. Nachfolgende Aufrufe werden ignoriert.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

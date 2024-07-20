@@ -8,7 +8,7 @@ exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-69681ed1ddff437ca1c73f46fe835c96}
 
-**Eingabe (updateMetadataFieldParam)**
+**Input (updateMetadataFieldParam)**
 
 <table id="table_65D6EE6C402E4F01819822A855B6BB7F"> 
  <thead> 
@@ -72,7 +72,7 @@ Syntax
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
@@ -83,7 +83,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (updateMetadataFieldReturn)**
+**Output (updateMetadataFieldReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -93,7 +93,7 @@ Syntax
 
 Diese Codebeispielaktualisierungen weisen einem Metadatenfeld einen neuen Namen und einen neuen Standardwert zu. Die Antwort gibt ein Handle an das aktualisierte Feld zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <updateMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

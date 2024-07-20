@@ -29,9 +29,9 @@ Die folgenden Anforderungstypen werden umgeleitet:
 
 In keinem anderen Fall kommt es zu einer Fehler-Umleitung.
 
-Wenn diese Option aktiviert ist und ein solcher Fehler während der Verarbeitung der Anfrage auftritt, sendet der primäre Server die Anfrage zur Verarbeitung an den sekundären Server. Die Antwort wird dann direkt an den Client weitergeleitet, unabhängig davon, ob sie auf Erfolg oder Fehler hinweist. Der primäre Server markiert Protokolleinträge solcher weitergeleiteter Anfragen mit Cache-Nutzung `REMOTE`. Die Antwortdaten werden vom primären Server nicht lokal zwischengespeichert.
+Wenn diese Option aktiviert ist und ein solcher Fehler während der Verarbeitung der Anfrage auftritt, sendet der primäre Server die Anfrage zur Verarbeitung an den sekundären Server. Die Antwort wird dann direkt an den Client weitergeleitet, unabhängig davon, ob sie auf Erfolg oder Fehler hinweist. Der primäre Server markiert Protokolleinträge solcher weitergeleiteter Anfragen mit dem Cache-Wert `REMOTE`. Die Antwortdaten werden vom primären Server nicht lokal zwischengespeichert.
 
-Die Umleitung von Fehlern wird durch Festlegen von `PS::errorRedirect.rootUrl` zum HTTP-Domänennamen und der Anschlussnummer des sekundären Servers. Darüber hinaus wird das Verbindungs-Timeout mit `PS::errorRedirect.connectTimeout` und die maximale Zeit, die der primäre Server auf eine Antwort vom sekundären Server wartet, bevor ein Fehler an den Client zurückgegeben wird, mit `PS::errorRedirect.socketTimeout`.
+Die Umleitung von Fehlern wird aktiviert, indem `PS::errorRedirect.rootUrl` auf den HTTP-Domänennamen und die Anschlussnummer des sekundären Servers gesetzt wird. Darüber hinaus wird das Verbindungs-Timeout mit `PS::errorRedirect.connectTimeout` konfiguriert und die maximale Zeit, die der primäre Server auf eine Antwort vom sekundären Server wartet, bevor ein Fehler an den Client zurückgegeben wird, mit `PS::errorRedirect.socketTimeout` konfiguriert.
 
 >[!NOTE]
 >

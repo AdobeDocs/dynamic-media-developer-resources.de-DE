@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Datentyp &quot;Textzeichenfolge&quot;.
 
-Zeichenfolgentrennzeichen sind optional, es sei denn, die Zeichenfolge enthält eine `<CR>`, `<LF>`oder `<TAB>` Zeichen. Einfache oder doppelte Anführungszeichen können als Trennzeichen verwendet werden. Wenn Anführungszeichen verwendet werden, muss jedes in die Zeichenfolge eingebettete Anführungszeichen durch zwei aufeinander folgende Anführungszeichen maskiert werden (z. B. die Sonderaktion für diesen Monat).
+Zeichenfolgentrennzeichen sind optional, es sei denn, die Zeichenfolge enthält beliebige `<CR>`-, `<LF>`- oder `<TAB>`-Zeichen. Einfache oder doppelte Anführungszeichen können als Trennzeichen verwendet werden. Wenn Anführungszeichen verwendet werden, muss jedes in die Zeichenfolge eingebettete Anführungszeichen durch zwei aufeinander folgende Anführungszeichen maskiert werden (z. B. die Sonderaktion für diesen Monat).

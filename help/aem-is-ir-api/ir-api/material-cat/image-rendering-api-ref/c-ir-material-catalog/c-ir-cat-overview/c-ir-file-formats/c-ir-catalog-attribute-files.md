@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Katalogattributdateien{#catalog-attribute-files}
 
-Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch über eine `.ini` Dateisuffix. Sie können mit jedem Texteditor problemlos gepflegt werden.
+Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch das Suffix &quot;`.ini`&quot; aufweisen. Sie können mit jedem Texteditor problemlos gepflegt werden.
 
-Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt durch eine `<CR>` (ASCII-Code 0xD), ein `<LF>` (ASCII-Code 0xA) oder einem `<CR><LF>` ein. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren kommagetrennten Attributwerten:
+Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt durch ein einzelnes &quot;`<CR>`&quot;(ASCII-Code 0xD), ein einzelnes &quot;`<LF>`&quot;(ASCII-Code 0xA) oder ein &quot;`<CR><LF>`&quot;-Paar. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren kommagetrennten Attributwerten:
 
 `*`name`*= *`value`*&#42;[, *`value`*]{<CR>|<LF>|<CR><LF>}`
 
@@ -26,13 +26,13 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
   <td class="stentry"> <p>Attributname; kann aus einem oder mehreren Buchstaben, Zahl, - (Bindestrich) und _ (Unterstrich) bestehen; nicht zwischen Groß- und Kleinschreibung unterscheiden.</p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-  <td class="stentry"> <p>Attributwert; darf nicht enthalten <span class="codeph"> &lt;cr&gt; </span>oder <span class="codeph"> &lt;lf&gt; </span> -Zeichen, es sei denn, sie werden durch einen einzigen umgekehrten Schrägstrich kurz vor dem Zeilenumbruchzeichen maskiert. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Wert </span> </span> </p> </td> 
+  <td class="stentry"> <p>Der Attributwert darf nicht die Zeichen <span class="codeph"> &lt;CR&gt; </span> oder <span class="codeph"> &lt;LF&gt; </span> enthalten, es sei denn, er wird durch einen einzelnen umgekehrten Schrägstrich direkt vor dem Zeilenumbruchzeichen maskiert. </p> </td> 
  </tr> 
 </table>
 
 * Leerzeichen zwischen Token sind optional.
-* Die [!DNL Platform Server] ignoriert Datensätze mit unbekannten Attributnamen.
-* Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen und `-`, `_`, und `.` Zeichen.
+* Der [!DNL Platform Server] ignoriert Datensätze mit unbekannten Attributnamen.
+* Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, Zahlen und Zeichen `-`, `_` und `.` bestehen.
 * Wenn derselbe Attributname mehrmals in derselben Attributdatei vorkommt, hat der zuletzt aufgetretene Name Vorrang.
-* Verwendung `#` als erstes Zeichen, um einen Datensatz als Kommentar zu markieren, den der Parser ignoriert.
+* Verwenden Sie `#` als erstes Zeichen, um einen Datensatz als Kommentar zu markieren, den der Parser ignoriert.

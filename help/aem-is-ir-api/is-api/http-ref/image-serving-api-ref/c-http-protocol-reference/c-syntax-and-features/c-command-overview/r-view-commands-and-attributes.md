@@ -1,18 +1,18 @@
 ---
 description: Diese Befehle gelten unabhängig davon, wo in der Anfrage sie angezeigt werden.
 solution: Experience Manager
-title: Anzeigen von Befehlen
+title: Befehle anzeigen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 
-# Anzeigen von Befehlen{#view-commands}
+# Befehle anzeigen{#view-commands}
 
 Diese Befehle gelten unabhängig davon, wo in der Anfrage sie angezeigt werden.
 
@@ -26,7 +26,7 @@ Diese Befehle gelten unabhängig davon, wo in der Anfrage sie angezeigt werden.
   <td class="stentry"> <p>Legt die Hintergrundfarbe der Ansicht fest. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> anpassen</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> fit</a> </p></td> 
   <td class="stentry"> <p>Passt die Ansicht an das zusammengesetzte Bild an. </p></td> 
  </tr> 
  <tr class="strow"> 

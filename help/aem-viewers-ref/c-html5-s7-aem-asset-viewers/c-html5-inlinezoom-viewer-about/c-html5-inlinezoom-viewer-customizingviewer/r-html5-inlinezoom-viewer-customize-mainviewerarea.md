@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 3%
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Flyout-Viewers mit weißem Hintergrund ( `#FFFFFF`) und machen Sie ihre Größe 260 x 500 Pixel.
+Beispiel: Zum Einrichten eines Flyout-Viewers mit weißem Hintergrund ( `#FFFFFF`) und seiner Größe 260 x 500 Pixel.
 
 ```
 .s7flyoutviewer { 

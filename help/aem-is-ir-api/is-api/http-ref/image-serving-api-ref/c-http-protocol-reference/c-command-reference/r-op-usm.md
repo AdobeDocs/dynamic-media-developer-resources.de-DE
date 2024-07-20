@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a83d6326-9029-4c5c-a069-92bc81120866
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 6%
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ Unschärfemaske. Unschärfe maskiert die Ebene oder das endgültige Ansichtsbild
 
 Es wird angenommen, dass die Parameter auf das Bild mit voller Auflösung angewendet und bei der Verarbeitung eines heruntergesampelten Bildes herabskaliert werden.
 
-`op_usm= *`amount`*[, *`radius`*[, *`Schwellenwert`*[, *`monochrome`*]]]`
+`op_usm= *`amount`*[, *`radius`*[, *`threshold`*[, *`monochrome`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> Betrag</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> amount</span></span> </p></td> 
   <td class="stentry"> <p>Filterstärke (real 0...5). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -30,7 +30,7 @@ Es wird angenommen, dass die Parameter auf das Bild mit voller Auflösung angewe
   <td class="stentry"> <p>Filtern Sie den Kernel-Radius in Pixel (real 0...250). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> Schwellenwert</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> threshold</span></span> </p></td> 
   <td class="stentry"> <p>Filterschwellenwert (int 0...255). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -47,7 +47,7 @@ Ebenenattribut oder Ansichtsattribut. Gilt für die aktuelle Ebene oder für das
 
 ## Standard {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usm=0,0,0,0` keine Unschärfemaske.
+`op_usm=0,0,0,0` für keinen unscharfen Maskierungseffekt.
 
 ## Verwandte Themen {#section-63f186b8a1b34ec4bb895230838502a4}
 

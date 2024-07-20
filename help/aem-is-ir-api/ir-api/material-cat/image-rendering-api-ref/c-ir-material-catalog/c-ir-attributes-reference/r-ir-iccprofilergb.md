@@ -7,22 +7,22 @@ role: Developer,User
 exl-id: 4057e968-24de-41af-9901-a6cb5ed9ea63
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
 
 # IccProfileRgb{#iccprofilergb}
 
-RGB - Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit `icc=`. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen angegeben werden, wie z. B. `bgc=` und `color=`.
+RGB - Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit `icc=` angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen wie `bgc=` und `color=` angegeben wurden.
 
 ## Eigenschaften {#section-b4a1bd92e99047479a5036413525a6d9}
 
-Textzeichenfolge. Wenn angegeben, muss eine gültige sein. `icc::Name` Wert aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath`. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
+Textzeichenfolge. Falls angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
 
 ## Standard {#section-5809772f8e96438ab7626d323c66a4ba}
 
-Vererbt von `default::IccProfileRgb` wenn nicht definiert oder leer ist.
+Wird von `default::IccProfileRgb` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-732c17dece3a4575855c9b79a08d0067}
 

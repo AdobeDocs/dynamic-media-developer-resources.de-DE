@@ -8,7 +8,7 @@ exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -32,15 +32,15 @@ Syntax
 
 ## Parameter {#section-98361b063e9c41e8b2f744fabc0e13ed}
 
-**Eingabe (updatePropertySetParam)**
+**Input (updatePropertySetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | setHandle | `xsd:string` | Ja | Behandeln Sie den Eigenschaftssatz. |
-| replaceProperties | `xsd:string` | Nein | Legen Sie fest auf `true` , um Eigenschaften zu ersetzen. |
+| replaceProperties | `xsd:string` | Nein | Legen Sie auf `true` fest, um Eigenschaften zu ersetzen. |
 | propertyArray | `types:PropertyArray` | Ja | Array mit aktualisierten Eigenschaften für den Eigenschaftssatz. |
 
-**Ausgabe (updatePropertySetReturn)**
+**Output (updatePropertySetReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -48,7 +48,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Dieses Codebeispiel aktualisiert einen Eigenschaftssatz mit Eigenschaften im Eigenschaften-Array.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <updatePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

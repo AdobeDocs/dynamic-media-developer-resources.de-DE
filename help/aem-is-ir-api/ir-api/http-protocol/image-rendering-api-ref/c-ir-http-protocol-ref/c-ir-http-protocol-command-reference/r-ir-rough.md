@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8903b51c-c7d4-460f-8f28-00053eac9d6e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
@@ -25,9 +25,9 @@ Materialrauigkeit. Gibt die relative Rauigkeit der Materialoberfläche an.
  </tr> 
 </table>
 
-Dient zum Steuern des Rendereffekts der 3D-Reflektion. Niedrigere Rauschwerte führen normalerweise zu weicheren Reflexionseffekten. höhere Werte verursachen Randomisierung und Streuung des reflektierten Bildes.
+Dient zum Steuern des Rendereffekts der 3D-Reflektion. Niedrigere Rauschwerte führen in der Regel zu weicheren Reflexionseffekten; höhere Werte verursachen Randomisierung und Streuung des reflektierten Bildes.
 
-Jeder Werkstofftyp ( `type=`) definiert einen minimalen und maximalen Reflektionseffekt basierend auf Rauigkeit. Für einige Materialtypen (z. B. Wandpapier): `rough=` hat kaum Auswirkungen auf das Erscheinungsbild der Reflexion, während bei anderen Materialtypen (z. B. Stein oder Keramik) die Wirkung wesentlich ausgeprägter ist.
+Jeder Materialtyp ( `type=`) definiert einen minimalen und maximalen Reflektionseffekt basierend auf Rauigkeit. Bei einigen Materialtypen (z. B. Wandpapier) hat `rough=` nur geringe Auswirkungen auf das Erscheinungsbild der Reflexion, während bei anderen Materialtypen (z. B. Stein oder Keramik) der Effekt wesentlich ausgeprägter ist.
 
 `rough=-1` Legt die Rauigkeit auf einen serverinternen Standardwert fest (40 % bei typischen Materialtypen).
 
@@ -37,7 +37,7 @@ Materialattribut. Wird ignoriert, wenn die Vignette keine 3D-Reflektionsfunktion
 
 ## Standard {#section-11861a5e6e8649ee988267d2707fd7cc}
 
-`catalog::Roughness` Wenn das Material auf einem Katalogeintrag basiert, ansonsten ca. 40%.
+`catalog::Roughness` Wenn das Material auf einem Katalogeintrag basiert, andernfalls ungefähr 40 %.
 
 ## Verwandte Themen {#section-d232fff7237443cc95c4bb50cb3d32bb}
 

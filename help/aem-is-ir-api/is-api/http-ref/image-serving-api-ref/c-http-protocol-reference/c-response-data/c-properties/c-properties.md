@@ -14,14 +14,14 @@ ht-degree: 4%
 
 # Eigenschaften{#properties}
 
-Die Eigenschaftsdaten werden als Antwort auf Folgendes zurückgegeben `req=` Typen:
+Eigenschaftsdaten werden als Antwort auf die folgenden `req=`-Typen zurückgegeben:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` -Antworten werden nur dann als Eigenschaften formatiert, wenn der Inhalt von `catalog::UserData` dem Eigenschaftsformat entsprechen.
+`userdata` -Antworten werden nur dann als Eigenschaften formatiert, wenn der Inhalt von `catalog::UserData` dem Eigenschaftenformat entspricht.
 
 * [Texteigenschaften (Java)](r-text-java-properties.md)
 * [JavaScript-Eigenschaften](r-javascript-properties.md)

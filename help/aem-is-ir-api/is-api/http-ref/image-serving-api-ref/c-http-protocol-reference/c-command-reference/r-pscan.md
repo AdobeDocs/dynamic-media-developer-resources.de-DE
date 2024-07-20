@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ Progressiver JPEG-Scan. Progressives JPEG zeigt ein Bild so an, dass es zunächs
 
 Die tatsächliche Geschwindigkeit jedes Scans hängt von der Übertragungsgeschwindigkeit des Systems des Benutzers und des Computers ab, der die Daten empfängt und dekomprimiert.
 
-`Auto` verwendet die Scan-Einstellungen, die von der unabhängigen JPEG-Bibliothek berechnet werden und vom Farbmodell abhängen. Die Werte von `3`, `4`, `5` entsprechen der Scan-Einstellung in Adobe Photoshop, wenn Sie eine JPEG-Datei als PJPEG (progressive JPEG) speichern.
+`Auto` verwendet die Scan-Einstellungen, die von der unabhängigen JPEG-Bibliothek berechnet werden und vom Farbmodell abhängen. Die Werte `3`, `4`, `5` entsprechen der Scan-Einstellung, die in Adobe Photoshop beim Speichern einer JPEG-Datei als PJPEG (progressives JPEG) gefunden wird.
 
-Wenn `pscan` nicht festgelegt ist, wird standardmäßig `auto`.
+Wenn `pscan` nicht gesetzt ist, wird standardmäßig `auto` verwendet.
 
 ## Eigenschaften {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 

@@ -25,11 +25,11 @@ Bild-/Metadatenversion. Bei der Arbeit mit häufig wechselnden Inhalten speicher
  </tr> 
 </table>
 
-Image Serving umfasst einen Versionierungsmechanismus, der dazu beitragen kann, die Wahrscheinlichkeit zu verringern, dass ein veralteter Cache-Eintrag von einer Anwendung verwendet wird. Dieser Mechanismus beinhaltet die Verwendung von `req=props` , um Zeichenfolgen zur Versionskennung für Bilddaten und Metadaten zu erhalten (z. B. Imagemap- oder Zoomzieldaten). Die Zeichenfolge der Versionskennung wird dann zu zwischenspeicherbaren Image Serving-Anforderungen mit der `id=` Befehl.
+Image Serving umfasst einen Versionierungsmechanismus, der dazu beitragen kann, die Wahrscheinlichkeit zu verringern, dass ein veralteter Cache-Eintrag von einer Anwendung verwendet wird. Dieser Mechanismus beinhaltet die Verwendung von `req=props` zum Abrufen von Versions-ID-Zeichenfolgen für Bilddaten und Metadaten (z. B. Imagemap- oder Zoom-Zieldaten). Die Zeichenfolge der Versionskennung wird dann zu zwischenspeicherbaren Image Serving-Anforderungen mit dem Befehl `id=` hinzugefügt.
 
-Wenn sich ein Quellbild oder Metadaten ändert, ändert sich auch der entsprechende Wert für die Versions-ID. Einschließen eines aktuellen Versions-ID-Werts in die Variable `id=` stellt sicher, dass nicht mehr auf alte Cache-Einträge zugegriffen werden kann.
+Wenn sich ein Quellbild oder Metadaten ändert, ändert sich auch der entsprechende Wert für die Versions-ID. Wenn Sie einen aktuellen Versions-ID-Wert mit dem Befehl `id=` einschließen, wird sichergestellt, dass der Zugriff auf alte Cache-Einträge nicht mehr möglich ist.
 
-In der folgenden Tabelle sind die Versionskennzeichenfolgen aufgeführt, die für die einzelnen `req=` Typ:
+In der folgenden Tabelle sind die Versions-ID-Zeichenfolgen aufgeführt, die für jeden `req=`-Typ verwendet werden sollen:
 
 <table id="table_AE39BEBE18864880BBBF1C4F16785E2D"> 
  <thead> 
@@ -70,7 +70,7 @@ In der folgenden Tabelle sind die Versionskennzeichenfolgen aufgeführt, die fü
  </tbody> 
 </table>
 
-`req=` Typen, die oben nicht aufgeführt sind, haben entweder eine kurze TTL ( `attribute::NonImgExpiration`) oder deren Antworten überhaupt nicht zwischenspeicherbar sind; es gibt keinen Vorteil, `id=` mit solchen Anfragen.
+`req=` Typen, die oben nicht aufgeführt sind, haben entweder eine kurze TTL ( `attribute::NonImgExpiration`) oder ihre Antworten sind überhaupt nicht zwischenspeicherbar. Es gibt keinen Vorteil, `id=` mit solchen Anforderungen zu integrieren.
 
 ## Eigenschaften {#section-62e973d0d5884abebbb0679f9278ae2c}
 
@@ -82,7 +82,7 @@ Keine.
 
 ## Beispiel {#section-a5fb871e0ec8485c91c4fca78895d17f}
 
-Siehe Beschreibung von [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) z. B. Verwendung.
+Siehe Beschreibung von [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) zum Beispiel Verwendung.
 
 ## Siehe auch {#section-6b4befb47202415195a68516f60e9988}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </tbody> 
 </table>
 
-Beispiel: So richten Sie einen Viewer mit weißem Hintergrund ein ( `#FFFFFF`) und machen Sie ihre Größe 512 x 288 Pixel.
+Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
 
 ```
 .s7mixedmediaviewer { 

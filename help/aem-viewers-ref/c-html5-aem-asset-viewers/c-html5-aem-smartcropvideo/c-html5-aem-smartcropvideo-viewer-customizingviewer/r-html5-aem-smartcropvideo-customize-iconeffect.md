@@ -4,10 +4,11 @@ description: Das Wiedergabesymbol wird im Hauptansichtsbereich überlagert. Es w
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 2d8d60e8-9ab6-44fa-af50-b96910a87dee
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -40,13 +41,13 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p> Die Breite des Wiedergabesymbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Wiedergabesymbols. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Symboleffekt unterstützt `state` -Attributauswahl. `state="play"` wird verwendet, wenn das Video während der Wiedergabe angehalten wird, und `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
+Der Symboleffekt unterstützt die &quot;`state`&quot;-Attributauswahl. `state="play"` wird verwendet, wenn das Video während der Wiedergabe angehalten wird, und `state="replay"`, wenn sich der Abspielkopf am Ende des Streams befindet.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

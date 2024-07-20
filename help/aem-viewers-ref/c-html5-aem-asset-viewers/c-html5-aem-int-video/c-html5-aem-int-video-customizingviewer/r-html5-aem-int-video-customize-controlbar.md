@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 685fad5a-a75a-4c0c-9038-de99d814f4be
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -39,11 +39,11 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
    <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 

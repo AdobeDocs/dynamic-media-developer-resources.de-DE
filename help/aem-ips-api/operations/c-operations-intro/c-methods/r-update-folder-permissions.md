@@ -8,7 +8,7 @@ exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-339e6e17c5504e1ea79fbdc05f618050}
 
-**Eingabe (updateFolderPermissionsParam)**
+**Input (updateFolderPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -35,13 +35,13 @@ Syntax
 | updateChildren | `xsd:boolean` | Ja | Bestimmt, ob untergeordnete Elemente mit für den Ordner der obersten Ebene festgelegten Berechtigungen aktualisiert werden. |
 | updateArray | `types:PermissionUpdateArray` | Ja | Das Array der Berechtigungen, die Sie auf den Ordner anwenden möchten. |
 
-**Ausgabe (updateFolderPermissionsReturn)**
+**Output (updateFolderPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-c3fe4d4388674870a3856c35ef66b631}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:updateFolderPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

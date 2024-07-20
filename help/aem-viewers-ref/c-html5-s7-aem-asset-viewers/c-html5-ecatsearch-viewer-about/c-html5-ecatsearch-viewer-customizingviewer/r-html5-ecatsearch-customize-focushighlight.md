@@ -24,12 +24,12 @@ Das Erscheinungsbild der Fokushervorhebung wird mit der folgenden CSS-Klassenaus
 .s7ecatalogviewer *:focus
 ```
 
-**CSS-Eigenschaften der Fokushervorhebung**
+**CSS-Eigenschaften der Fokusmarkierung**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Entwurf </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> entwurf </span> </p> </td> 
    <td colname="col2"> <p> Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 

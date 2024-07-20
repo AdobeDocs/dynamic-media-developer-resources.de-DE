@@ -18,9 +18,9 @@ Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze.
 
 Makros werden in separaten Makro-Definitionsdateien definiert, die an Bildkataloge oder den Standardkatalog angehängt werden können.
 
-Makros können an einer beliebigen Stelle in einer Anfrage nach dem &quot;?&quot;und an einer beliebigen Stelle in einer `catalog::Modifier` -Feld. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen. Daher muss sie durch &#39;&amp;&#39;-Trennzeichen eingeschlossen sein (außer am Anfang oder Ende der Modifikatorzeichenfolge).
+Makros können an einer beliebigen Stelle in einer Anfrage nach dem &quot;?&quot;und an einer beliebigen Stelle innerhalb eines `catalog::Modifier` -Felds aufgerufen werden. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen. Daher muss sie durch &#39;&amp;&#39;-Trennzeichen eingeschlossen sein (außer am Anfang oder Ende der Modifikatorzeichenfolge).
 
-Makroaufrufe werden während des Parsens durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dieser Fluss unterscheidet sich von `catalog::Modifier`, wobei Befehle in der Anfragezeichenfolge Befehle in der `catalog::Modifier` Zeichenfolge, unabhängig von der Position in der Anforderung.
+Makroaufrufe werden während des Parsens durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dieser Fluss unterscheidet sich von `catalog::Modifier`, bei dem Befehle in der Anforderungszeichenfolge Befehle in der Zeichenfolge `catalog::Modifier` immer außer Kraft setzen, unabhängig von der Position in der Anforderung.
 
 Makros können verschachtelt werden. Ein Makro kann jedoch nur aufgerufen werden, wenn es zum Zeitpunkt der Analyse der Makrodefinition bereits definiert ist. Dieser Ablauf erfolgt entweder durch frühere Darstellung in derselben Makrodefinitionsdatei oder durch Platzieren der Definition für ein solches eingebettetes Makro in der Standarddatei für die Makrodefinition.
 
@@ -44,6 +44,6 @@ Das Makro würde wie folgt verwendet:
 
 [!DNL `http://server/cat/8243?$view$&wid=480`]
 
-weil `wid=` unterscheidet sich bei der dritten Anforderung, überschreiben Sie einfach den Wert *after* das Makro aufgerufen wird (Angabe von `wid=` *before* `$view$` keine Wirkung hat).
+Da `wid=` für die dritte Anforderung anders ist, überschreiben Sie einfach den Wert *nach*, wenn das Makro aufgerufen wird (die Angabe `wid=` *vor* `$view$` hat keine Auswirkungen).
 
 + [name](r-name.md)

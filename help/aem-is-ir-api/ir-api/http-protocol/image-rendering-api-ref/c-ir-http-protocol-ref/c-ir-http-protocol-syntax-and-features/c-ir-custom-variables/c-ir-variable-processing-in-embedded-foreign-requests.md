@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Variablenverarbeitung in eingebetteten ausländischen Anforderungen{#variable-processing-in-embedded-foreign-requests}
 
-Alle `$var$` Verweise, die an einer beliebigen Stelle in den geschweiften Klammern einer eingebetteten ausländischen Anforderung auftreten, werden durch übereinstimmende Variablendefinitionswerte ersetzt.
+Alle `$var$` -Referenzen, die an einer beliebigen Stelle in den geschweiften Klammern einer eingebetteten ausländischen Anforderung auftreten, werden durch übereinstimmende Variablendefinitionswerte ersetzt.
 
 Ermöglicht die Platzierung von eingebetteten ausländischen Anforderungen in einer Vorlage in einem Bildkatalog.
 

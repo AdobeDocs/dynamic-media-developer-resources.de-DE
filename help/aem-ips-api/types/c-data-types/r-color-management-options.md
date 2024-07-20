@@ -23,5 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | colorManagement | `xsd:string` | Wahl des Farbmanagementmodus. |
-| sourceProfileHandle | `xsd:string` | Handle des Quellprofils. |
+| sourceProfileHandle | `xsd:string` | Source-Profilhandbuch. |
 | outputProfileHandle | `xsd:string` | Handle für das Ausgabeprofil. |

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d54a8ab9-d6b3-4eae-95c6-c4ab6f00ebde
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Validierungsrichtlinie für Server-Cache. Gibt an, wann serverseitige Cache-Einträge validiert werden.
 
-Bei der ablaufbasierten Validierung werden Quellbilder regelmäßig überprüft, ob sie sich geändert haben. Bei katalogbasierter Validierung werden Quellbilder nur nach dem `catalog::TimeStamp` geändert.
+Bei der ablaufbasierten Validierung werden Quellbilder regelmäßig überprüft, ob sie sich geändert haben. Bei katalogbasierter Validierung werden Quellbilder erst überprüft, nachdem der `catalog::TimeStamp` -Wert geändert wurde.
 
 Eine Catalog-basierte Validierung wird empfohlen, wenn Bildkataloge verwendet werden. Eine ablaufbasierte Validierung sollte verwendet werden, wenn Bilder direkt referenziert werden, ohne dass ein Bildkatalog verwendet wird.
 
@@ -26,7 +26,7 @@ Enum. 0 zum Auswählen einer ablaufbasierten Validierung, 1 zum Auswählen einer
 
 ## Standard {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-Vererbt von `default::CacheValidationPolicy` wenn nicht definiert oder leer ist.
+Wird von `default::CacheValidationPolicy` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-a0c922fa519641f2bce05e75e4eb51d0}
 

@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcRgb
-description: RGB - Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Materialbilder und Vignetten verwendet werden soll, die kein Farbprofil einbetten. Auch für RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen angegeben werden, wie bgc= und color=.
+description: RGB - Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB von Materialbildern und Vignetten verwendet werden soll, die kein Farbprofil einbetten. Auch für RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen angegeben werden, wie bgc= und color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: 1c90c77c-79b7-41aa-9269-b48d966ba362
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-RGB - Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Materialbilder und Vignetten verwendet werden soll, die kein Farbprofil einbetten. Auch für RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen angegeben werden, wie z. B. `bgc=` und `color=`.
+RGB - Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB von Materialbildern und Vignetten verwendet werden soll, die kein Farbprofil einbetten. Auch für RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen wie `bgc=` und `color=` angegeben werden.
 
 ## Eigenschaften {#section-c22966bba03e43c08e9d3fb91bfdd465}
 
-Textzeichenfolge. Wenn angegeben, muss eine gültige sein. `icc::Name` Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder einen Dateipfad relativ zu `attribute::RootPath`. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
 
 ## Standard {#section-0171cd6680284bfa9844b9cc3644ca61}
 
-Vererbt von `default::IccProfileSrcRgb` wenn nicht definiert oder leer ist. Wenn `attribute::IccProfileSrcRgb` wird nicht in ein gültiges Profil aufgelöst; `attribute::IccProfileRgb` stattdessen verwendet.
+Wird von `default::IccProfileSrcRgb` übernommen, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcRgb` nicht in ein gültiges Profil aufgelöst wird, wird stattdessen `attribute::IccProfileRgb` verwendet.
 
 ## Verwandte Themen {#section-1ba91666830f4c209c39260ea29f938e}
 

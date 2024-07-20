@@ -8,7 +8,7 @@ exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -29,14 +29,14 @@ Syntax
 
 ## Parameter {#section-7111ac93bc7747f69ba14db4ac3912b0}
 
-**Eingabe (batchSetAssetMetadataParam)**
+**Input (batchSetAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Metadaten Sie in einem Batch-Vorgang festlegen möchten. |
 | updateArray | `types:BatchMetadataUpdateArray` | Ja | Das Array der auf die Assets angewendeten Metadaten-Aktualisierungen. |
 
-**Ausgabe (batchSetAssetMetadataParam)**
+**Output (batchSetAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -48,7 +48,7 @@ Syntax
 
 ## Beispiele {#section-2de798ac920e4b47b971b1729a64395b}
 
-**Anforderung**
+**Anfrage**
 
 ```java {.line-numbers}
 <batchSetAssetMetadataParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

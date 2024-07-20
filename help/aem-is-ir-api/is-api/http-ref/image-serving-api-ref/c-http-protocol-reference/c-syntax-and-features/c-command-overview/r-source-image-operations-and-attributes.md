@@ -1,18 +1,18 @@
 ---
 description: Diese Befehle gelten für Quellbilder, die entweder in einfachen Anforderungen oder in Bildebenen verwendet werden, sowie für Masken, die an einfarbige Ebenen angehängt sind.
 solution: Experience Manager
-title: Vorgänge bei Quellbildern
+title: Source-Bildvorgänge
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
-# Vorgänge bei Quellbildern{#source-image-operations}
+# Source-Bildvorgänge{#source-image-operations}
 
 Diese Befehle gelten für Quellbilder, die entweder in einfachen Anforderungen oder in Bildebenen verwendet werden, sowie für Masken, die an einfarbige Ebenen angehängt sind.
 
@@ -22,7 +22,7 @@ Diese Befehle gelten für Quellbilder, die entweder in einfachen Anforderungen o
   <td class="stentry"> <p>Legt den Ankerpunkt für das Quellbild fest. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> Zuschneiden</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> crop</a> </p></td> 
   <td class="stentry"> <p>Beschneidet oder erweitert das Quellbild. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Syntax
 
 ## TC::directory - Log File Folder {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Der Ordner, in dem die [!DNL Platform Server] schreibt Protokolldateien. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`*. Der Standardwert ist [!DNL  *`install_folder`*/logs].
+Der Ordner, in den die Protokolldateien von [!DNL Platform Server] geschrieben werden. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`* sein. Der Standardwert ist [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -28,17 +28,17 @@ Der Ordner, in dem die [!DNL Platform Server] schreibt Protokolldateien. Dies ka
 
 ## TC::maxDays - Anzahl der Tage für die Aufbewahrung von Protokolldateien {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Die Anzahl der Tage, in denen Protokolldateien gespeichert werden sollen, sollte beibehalten werden. Neue Protokolldateien werden täglich um Mitternacht erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der vom Image-Server oder Render-Server geschriebenen Dateien. Der Standardwert ist „10“.
+Die Anzahl der Tage, in denen Protokolldateien gespeichert werden sollen, sollte beibehalten werden. Neue Protokolldateien werden täglich um Mitternacht erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der vom Image-Server oder Render-Server geschriebenen Dateien. Die Standardgrenze ist 10.
 
 ## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
 
-Namenpräfix für die Datei, in die Zugriffsprotokolldaten geschrieben werden. Das Datum und das Dateisuffix ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Ablaufverfolgungsprotokolldatei unterscheiden. Die Standardgrenze ist &quot; `access-`&quot;.
+Namenpräfix für die Datei, in die Zugriffsprotokolldaten geschrieben werden. Das Datum und das Dateisuffix ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Ablaufverfolgungsprotokolldatei unterscheiden. Der Standardwert ist &quot;`access-`&quot;.
 
 ## TC::pattern - Zugriffsprotokollmuster {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-Gibt das Datenmuster für [!DNL Platform Server] Zugriffsprotokolleinträge. Die Musterzeichenfolge gibt Variablen an, die durch ihre entsprechenden Werte ersetzt werden. Alle anderen Zeichen in der Musterzeichenfolge werden wörtlich in den Protokolldatensatz übertragen.
+Gibt das Datenmuster für [!DNL Platform Server] Zugriffsprotokolldatensätze an. Die Musterzeichenfolge gibt Variablen an, die durch ihre entsprechenden Werte ersetzt werden. Alle anderen Zeichen in der Musterzeichenfolge werden wörtlich in den Protokolldatensatz übertragen.
 
-Um das Dienstprogramm zum Aufwärmen des Caches zu verwenden, müssen Leerzeichen als Feldtrennzeichen verwendet werden. Die [!DNL Platform Server] ersetzt alle Leerzeichen und &quot;%&quot;-Zeichen in Feldwerten durch `%20` und `%25`, bzw.
+Um das Dienstprogramm zum Aufwärmen des Caches zu verwenden, müssen Leerzeichen als Feldtrennzeichen verwendet werden. Die Zeichen [!DNL Platform Server] ersetzen alle Leerzeichen und die Zeichen &#39;%&#39; in den Feldwerten durch `%20` bzw. `%25`.
 
 Die folgenden Mustervariablen werden unterstützt:
 
@@ -76,11 +76,11 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>Datum und Uhrzeit, formatiert als <span class="codeph"> <span class="varname"> jjjj </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> msec, <span class="varname"> offset </span> ist der GMT-Zeitversatz); der Zeitwert wird erfasst, wenn die Antwort an den Client gesendet wird. </p> </td> 
+   <td> <p>Datum und Uhrzeit, formatiert als <span class="codeph"> <span class="varname"> jjjj </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> sind msec, <span class="varname"> offset </span> ist der GMT-Zeitversatz); der Zeitwert wird beim Senden der Antwort an den Client erfasst. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>Anforderungsmethode ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span>usw.). </p> </td> 
+   <td> <p>Anforderungsmethode ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span> usw.). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,14 +100,14 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>siehe <span class="codeph"> %r </span>, wendet jedoch eine begrenzte HTTP-Kodierung auf den URI an, um Probleme bei der Protokollanalyse zu vermeiden. </p> </td> 
+   <td> <p>Entspricht <span class="codeph"> %r </span>, wendet jedoch eine eingeschränkte HTTP-Kodierung auf den URI an, um Probleme bei der Protokollanalyse zu vermeiden. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
    <td> <p>HTTP-Antwortstatus-Code. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %S </span> </p> </td> 
+   <td> <p> <span class="codeph"> %s </span> </p> </td> 
    <td> <p>Sitzungs-ID des Benutzers. </p> </td> 
   </tr> 
   <tr> 
@@ -148,7 +148,7 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>Die <span class="codeph"> etag </span> Antwort-Header-Wert (MD5-Signatur der Antwortdaten). </p> </td> 
+   <td> <p>Der Antwortkopfzeilenwert <span class="codeph"> etag </span> (MD5-Signatur der Antwortdaten). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
@@ -168,7 +168,7 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>IP-Adresse des Peer-Servers im Cache-Cluster, der den Cache-Eintrag bereitgestellt hat, oder "-", wenn <span class="codeph"> CacheUse </span> ist weder <span class="codeph"> REMOTE_CREATED </span> nor <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
+   <td> <p>IP-Adresse des Peer-Servers im Cache-Cluster, der den Cache-Eintrag bereitgestellt hat, oder "-", wenn <span class="codeph"> CacheUse </span> weder <span class="codeph"> REMOTE_CREATED </span> noch <span class="codeph"> REMOTE_UPDATED </span> ist. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -183,7 +183,7 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>Der großzitierte Wert von <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p>Der obere Wert von <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
@@ -191,11 +191,11 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>Die Zeit, die benötigt wird [!DNL Platform Server] , um eine Antwort zu senden, nachdem Daten in den Ausgabestream geschrieben wurden. </p> </td> 
+   <td> <p>Die Zeit, die [!DNL Platform Server] benötigt, um eine Antwort zu senden, nachdem Daten in den Ausgabestream geschrieben wurden. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>liken <span class="codeph"> %B </span>, enthält jedoch Werte für 304 (nicht geänderte) Antworten. </p> </td> 
+   <td> <p>Wie <span class="codeph"> %B </span>, enthält jedoch Werte für 304 (nicht geänderte) Antworten. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
@@ -206,10 +206,10 @@ Die folgenden Mustervariablen werden unterstützt:
    <td> <p>Der -Wert des angegebenen HTTP-Anforderungsheaders. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span>} </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span> </span> </p> </td> 
    <td> <p>Der Wert des angegebenen HTTP-Antwort-Headers. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Standardwert ist „`"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`
+Der Standardwert ist `"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`

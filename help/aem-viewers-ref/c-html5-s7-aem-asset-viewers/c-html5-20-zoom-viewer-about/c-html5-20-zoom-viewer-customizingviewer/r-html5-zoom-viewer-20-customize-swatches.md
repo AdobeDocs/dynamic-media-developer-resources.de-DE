@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 3%
+source-wordcount: '451'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Das Erscheinungsbild des Farbmuster-Containers wird mit der folgenden CSS-Klasse
    <td colname="col2"> <p>Breite der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ Der Abstand zwischen den Musterminiaturansichten wird mit der folgenden CSS-Klas
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,11 +106,11 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand der Miniaturansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht für das Bild, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten entspricht und `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansichten unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der Miniaturansicht des Bildes, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten und `state="over"` beim Bewegen der Maus.
 
 Beispiel: Zum Einrichten von Miniaturansichten mit 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen.
 
@@ -156,7 +156,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -172,9 +172,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um unterschiedliche Schaltflächenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Zum Einrichten von Bildlaufschaltflächen mit einer Größe von 56 x 56 Pixel und einer für jeden Status unterschiedlichen Grafik.
 

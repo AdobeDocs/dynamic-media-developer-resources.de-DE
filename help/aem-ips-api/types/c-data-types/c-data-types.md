@@ -8,7 +8,7 @@ exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 4%
 + [ImageFormat](r-image-format.md)
 + [ImageFormatArray](r-image-format-array.md)
 + [ImageInfo](r-image-info.md)
-+ [Imagemap](r-image-map.md)
++ [ImageMap](r-image-map.md)
 + [ImageMapArray](r-image-map-array.md)
 + [ImageMapDefinition](r-image-map-definition.md)
 + [ImageMapDefinitionArray](r-image-map-definition-array.md)
@@ -118,14 +118,14 @@ ht-degree: 4%
 + [KnockoutBackgroundOptions](r-knockout-background-options.md)
 + [LayerViewInfo](r-layer-view-info.md)
 + [ManualCropOptions](r-manual-crop-options.md)
-+ [Maske](r-mask.md)
++ [Maskieren](r-mask.md)
 + [MaskArray](r-mask-array.md)
 + [MaskInfo](r-mask-info.md)
 + [MasterVideoInfo](r-master-video-info.md)
 + [MediaOptions](r-media-options.md)
 + [Metadaten](r-metadata.md)
 + [MetadataArray](r-metadata-array.md)
-+ [MetadataCondition](r-metadata-conditon.md)
++ [Metadatenbedingung](r-metadata-conditon.md)
 + [MetadataConditionArray](r-metadata-condition-array.md)
 + [MetadataDelete](r-metadata-delete.md)
 + [MetadataDeleteArray](r-metadata-delete-array.md)
@@ -186,7 +186,7 @@ ht-degree: 4%
 + [SvgInfo](r-svg-info.md)
 + [StringArray](r-string-array.md)
 + [SwcInfo](r-swcinfo.md)
-+ [SystemFieldCondition](r-system-field-condition.md)
++ [SystemFieldBedingung](r-system-field-condition.md)
 + [SystemFieldConditionArray](r-system-field-condition-array.md)
 + [TagCondition](r-tag-condition.md)
 + [TagConditionArray](r-tag-condition-array.md)
@@ -229,7 +229,7 @@ ht-degree: 4%
 + [ZipEntry](r-zip-entry.md)
 + [ZipEntryArray](r-zip-entry-array.md)
 + [ZipInfo](r-zip-info.md)
-+ [Zoomziel](r-zoom-target.md)
++ [ZoomTarget](r-zoom-target.md)
 + [ZoomTargetArray](r-zoom-target-array.md)
 + [ZoomTargetDefinition](r-zoom-target-definition.md)
 + [ZoomTargetDefinitionArray](r-zoom-target-definition-array.md)

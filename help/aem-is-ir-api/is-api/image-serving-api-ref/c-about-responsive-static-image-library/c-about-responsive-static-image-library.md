@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Der einfachste Anwendungsfall der Bibliothek responsiver Bilder besteht darin, e
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>Sie können auch Image Serving-Befehle mit Image Serving-Vorlagen verwenden, um bestimmte Vorlagenparameter basierend auf der Bildgröße zu steuern. In diesem nächsten Beispiel wird eine Image Serving-Vorlage verwendet, bei der die Schriftgröße der Textüberlagerung mit <span class="codeph"> $fontsize </span> -Parameter. Responsives Bild ist so konfiguriert, dass eine größere Schriftgröße für kleinere Bildgrößen verwendet wird, um sicherzustellen, dass Text immer lesbar bleibt: </p> </td> 
+   <td colname="col2"> <p>Sie können auch Image Serving-Befehle mit Image Serving-Vorlagen verwenden, um bestimmte Vorlagenparameter basierend auf der Bildgröße zu steuern. In diesem nächsten Beispiel wird eine Image Serving-Vorlage verwendet, bei der die Schriftgröße der Textüberlagerung mit dem Parameter <span class="codeph"> $fontsize </span> parametrisiert wird. Responsives Bild ist so konfiguriert, dass eine größere Schriftgröße für kleinere Bildgrößen verwendet wird, um sicherzustellen, dass Text immer lesbar bleibt: </p> </td> 
   </tr> 
  </tbody> 
 </table>

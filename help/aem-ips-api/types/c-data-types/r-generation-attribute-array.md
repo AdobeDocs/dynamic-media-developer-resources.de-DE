@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:GenerationAttribute` | Das Array von Generierungsattributen. |
+| Elemente | `types:GenerationAttribute` | Das Array der Generierungsattribute. |

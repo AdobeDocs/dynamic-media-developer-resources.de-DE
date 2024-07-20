@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 2%
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
@@ -39,11 +39,11 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
   </tr> 
  </tbody> 

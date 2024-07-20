@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 12%
+source-wordcount: '205'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 URL-Befehl für Video-Viewer.
 
-` caption= *`Datei`*[,0|1]`
+` caption= *`file`*[,0|1]`
 
 Der Viewer unterstützt die Untertitelung über gehostete WebVTT-Dateien. Überschneidende Hinweise und Regionen werden nicht unterstützt. Zu den unterstützten Cue-Point-Positionierungs-Operatoren zählen:
 
@@ -40,19 +40,19 @@ Der Viewer unterstützt die Untertitelung über gehostete WebVTT-Dateien. Übers
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>Textposition </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Prozentsatz des Einsatzes in die VideoPlayer-Komponente für den Anfang des Beschriftungstextes. </p> <p>Die Standardgrenze ist 0%. </p> </td> 
+   <td colname="col4"> <p> Prozentsatz des Einsatzes in die VideoPlayer-Komponente für den Anfang des Beschriftungstextes. </p> <p>Der Standardwert ist 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Zeilengröße </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Prozentsatz der für Untertitel verwendeten Videobreite. </p> <p>Die Standardgrenze ist 100%. </p> </td> 
+   <td colname="col4"> <p> Prozentsatz der für Untertitel verwendeten Videobreite. </p> <p>Der Standardwert ist 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>Zeilenposition </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Bestimmt die Zeilenposition auf der Seite. </p> <p>Wenn der Text als Ganzzahl (kein Prozentzeichen) ausgedrückt wird, ist dies die Anzahl der Zeilen von oben, in denen der Text angezeigt wird. </p> <p>Wenn es sich um einen Prozentsatz handelt (Prozentzeichen ist das letzte Zeichen), wird der Beschriftungstext angezeigt, der den Anzeigebereich um einen Prozentwert nach unten zeigt. </p> <p>Die Standardgrenze ist 100%. </p> </td> 
+   <td colname="col4"> <p> Bestimmt die Zeilenposition auf der Seite. </p> <p>Wenn der Text als Ganzzahl (kein Prozentzeichen) ausgedrückt wird, ist dies die Anzahl der Zeilen von oben, in denen der Text angezeigt wird. </p> <p>Wenn es sich um einen Prozentsatz handelt (Prozentzeichen ist das letzte Zeichen), wird der Beschriftungstext angezeigt, der den Anzeigebereich um einen Prozentwert nach unten zeigt. </p> <p>Der Standardwert ist 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +62,11 @@ Andere WebVTT-Funktionen, die in der WebVTT-Datei vorhanden sind, werden nicht u
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> Datei</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> file</span></span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Verarbeiten Sie die WebVTT-Datei mit ImageServing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Gibt den standardmäßigen Beschriftungsstatus an (aktiviert ist <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 

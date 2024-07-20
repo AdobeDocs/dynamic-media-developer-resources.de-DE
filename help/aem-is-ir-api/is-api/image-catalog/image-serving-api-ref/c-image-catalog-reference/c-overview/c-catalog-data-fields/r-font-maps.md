@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e01f5883-6b55-4316-a103-b77f363ebcea
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 1%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ Die folgenden Felder werden in Schriftzuordnungsdateien erkannt.
 
 <table id="simpletable_D04FFCE02C7140E38D58FB2C916EABF3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md" type="reference" format="dita" scope="local"> Fett</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md" type="reference" format="dita" scope="local"> Bold</a></span> </p></td> 
   <td class="stentry"> <p>Fett gedruckte Flag (sekundärer Indexschlüssel). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md" type="reference" format="dita" scope="local"> Kursiv</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md" type="reference" format="dita" scope="local"> Italic</a></span> </p></td> 
   <td class="stentry"> <p>Italics flag (tertiärer Indexschlüssel). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ Die folgenden Felder werden in Schriftzuordnungsdateien erkannt.
   <td class="stentry"> <p>Schriftart Name (Primärindex-Schlüssel). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md" type="reference" format="dita" scope="local"> PsName</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md" type="reference" format="dita" scope="local"> psName</a></span> </p></td> 
   <td class="stentry"> <p>Schriftartname für Postscript (für FXG-Rendering). </p></td> 
  </tr> 
  <tr class="strow"> 

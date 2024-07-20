@@ -1,10 +1,11 @@
 ---
 title: setContainerId
-description: JavaScript-API-Referenz für Smart Crop Video Viewer.
+description: JavaScript API-Referenz für Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 1c7a7494-e872-4e78-9518-ea30af46303c
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
@@ -13,11 +14,11 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-JavaScript-API-Referenz für Smart Crop Video Viewer.
+JavaScript API-Referenz für Smart Crop Video Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Legt die Kennung des DOM-Containers fest (normalerweise ist ein `DIV`), in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Dieser Parameter wird vor aufgerufen. `init()`. Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit `config` JSON-Objekt an den Konstruktor.
+Legt die Kennung des DOM-Containers (normalerweise ein `DIV`) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Dieser Parameter wird vor `init()` aufgerufen. Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

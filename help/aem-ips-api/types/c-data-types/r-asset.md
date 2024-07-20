@@ -8,7 +8,7 @@ exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:AnimatedGifInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:AnimatedGifInfo</span> </td> 
    <td colname="col3"> Details zu einer animierten GIF-Datei. </td> 
   </tr> 
   <tr> 
@@ -51,13 +51,13 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cabinetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:CabinetInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:CabinetInfo</span> </td> 
    <td colname="col3"> Eigenschaften für einen Kassa-Asset-Typ. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL created]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Datum und Uhrzeit des Hochladens des Assets. </td> 
+   <td colname="col3"> Datum und Uhrzeit des Uploads des Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL createUser]</span> </span> </td> 
@@ -66,7 +66,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cssInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:CssInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:CssInfo</span> </td> 
    <td colname="col3"> Details zu einer CSS-Datei. </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Gibt den virtuellen Dateinamen zurück. Der vollständige virtuelle Dateipfad lautet <span class="codeph"> Ordner</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col3">Gibt den virtuellen Dateinamen zurück. Der vollständige virtuelle Dateipfad lautet <span class="codeph"> folder</span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
@@ -92,7 +92,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Ordner, der ein Asset enthält. </td> 
+   <td colname="col3"> Ordner mit einem Asset. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folderHandle]</span> </span> </td> 
@@ -101,12 +101,12 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typ:fontInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
    <td colname="col3"> Eigenschaften für ein Schrift-Asset. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL iccProfileInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:IccProfileInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:IccProfileInfo</span> </td> 
    <td colname="col3"> Eigenschaften für ein ICC-Profil-Asset. </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:ImageInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageInfo</span> </td> 
    <td colname="col3"> Eigenschaften für ein Bild-Asset. </td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:JavascriptInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:JavascriptInfo</span> </td> 
    <td colname="col3"> Details zu einer JavaScript-Datei. </td> 
   </tr> 
   <tr> 
@@ -146,7 +146,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL layerViewInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:LayerViewInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:LayerViewInfo</span> </td> 
    <td colname="col3"> Eigenschaften für ein Ebenenansichts-Asset. </td> 
   </tr> 
   <tr> 
@@ -161,7 +161,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL metadataArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:MetadataArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:MetadataArray</span> </td> 
    <td colname="col3"> Array von Metadatenwerten, die mit dem Asset verknüpft sind. </td> 
   </tr> 
   <tr> 
@@ -176,7 +176,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfSettingsInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:PdfSettingsInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:PdfSettingsInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines PDF-Einstellungen-Assets. </td> 
   </tr> 
   <tr> 
@@ -216,7 +216,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL renderSceneInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:RenderSceneInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:RenderSceneInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines Rendering-Szene-Assets. </td> 
   </tr> 
   <tr> 
@@ -231,32 +231,32 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:SvgInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:SvgInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines SVG-Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL swcInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:SwcInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:SwcInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines SWC-Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL templateInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:TemplateInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:TemplateInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines Vorlagen-Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL trashState]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gibt an, ob sich ein Asset im Papierkorb oder in der Live-Umgebung befindet (Werte finden Sie unter "Papierkorb-Status"). </td> 
+   <td colname="col3"> Gibt an, ob sich ein Asset im Papierkorb befindet oder live ist (Werte finden Sie unter "Papierkorb-Status"). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Asset-Typ. Siehe <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Asset-Typen</a> für Werte. </td> 
+   <td colname="col3">Asset-Typ. Werte finden Sie unter <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Asset-Typen</a> . </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:VideoCaptionInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:VideoCaptionInfo</span> </td> 
    <td colname="col3"> <p>Eigenschaften eines Videountertitel-Assets. </p> </td> 
   </tr> 
   <tr> 
@@ -266,27 +266,27 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerPresetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:ViewerPresetInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ViewerPresetInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines Viewer-Vorgabe-Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerSwfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:ViewerSwfInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ViewerSwfInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines Viewer-SWf-Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:VignetteInfo</span> </td> 
-   <td colname="col3"> Eigenschaften eines Vignetten-Assets. </td> 
+   <td colname="col2"> <span class="codeph"> types:VignetteInfo</span> </td> 
+   <td colname="col3"> Eigenschaften eines Vignettenassets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL watermarkInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:WatermarkInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:WatermarkInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines Wasserzeichen-Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL windowCoveringInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:WindowCoveringInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:WindowCoveringInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines Fensters, das Assets abdeckt. </td> 
   </tr> 
   <tr> 
@@ -296,12 +296,12 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL xmlInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:XmlInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:XmlInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines XML-Assets. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> xslInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:XslInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:XslInfo</span> </td> 
    <td colname="col3"> Eigenschaften eines XSL-Assets. </td> 
   </tr> 
   <tr> 

@@ -31,7 +31,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typ: Metadaten</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type:Metadata</span> </p> </td> 
    <td colname="col3"> <p>Ein Array von Metadaten. </p> </td> 
   </tr> 
  </tbody> 

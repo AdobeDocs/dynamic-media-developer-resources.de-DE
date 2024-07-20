@@ -8,7 +8,7 @@ exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Benutzerdefinierte Felddefinitionen für bestimmte Assets.
 
-Abrufen von Tag-Felddefinitionen mit der `getMetadataFields` oder `getAssetMetadataField` Vorgänge.
+Rufen Sie Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getAssetMetadataField` ab.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -62,12 +62,12 @@ Abrufen von Tag-Felddefinitionen mit der `getMetadataFields` oder `getAssetMetad
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. Zurückgegeben von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
+   <td colname="col3">Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. Wird von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a> zurückgegeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob der Metadatenfeldtyp erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col3"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob der Metadatenfeldtyp erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 

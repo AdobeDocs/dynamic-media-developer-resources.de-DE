@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das angezeigte Bild für das Wiedergabesymbol. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -41,13 +41,13 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p> Die Breite des Wiedergabesymbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Wiedergabesymbols. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Symboleffekt unterstützt die Attributauswahl `state`. Das Attribut `state="play"` wird verwendet, wenn das Video mitten in der Wiedergabe angehalten wird, und `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
+Der Symboleffekt unterstützt die &quot;`state`&quot;-Attributauswahl. Das Attribut `state="play"` wird verwendet, wenn das Video während der Wiedergabe angehalten wird, und `state="replay"`, wenn sich der Abspielkopf am Ende des Streams befindet.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

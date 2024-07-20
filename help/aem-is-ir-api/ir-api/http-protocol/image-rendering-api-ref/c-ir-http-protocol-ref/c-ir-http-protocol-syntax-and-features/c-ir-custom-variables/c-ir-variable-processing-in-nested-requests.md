@@ -16,8 +16,8 @@ ht-degree: 0%
 
 $var$-Verweise können an einer beliebigen Stelle in den geschweiften Klammern einer verschachtelten Image Serving- oder Image Rendering-Anforderung auftreten, auch links neben &quot;?&quot; Trennen Sie den Pfad von der Abfrage.
 
-Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `catalog::Modifier` des Hauptbildkatalogs) vor der weiteren Analyse und Verarbeitung der verschachtelten Anforderung.
+Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `catalog::Modifier` des Hauptbildkatalogs), bevor die verschachtelte Anforderung weiter analysiert und verarbeitet wird.
 
-Darüber hinaus werden alle `$ *[!DNL var]*=` Definitionen aus der URL und `catalog::Modifier` werden an alle verschachtelten Image Serving- und Image Rendering-Anforderungen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen unabhängig von der Verschachtelungsebene für alle Vorlagen verfügbar sind.
+Darüber hinaus werden alle `$ *[!DNL var]*=` -Definitionen aus der URL und `catalog::Modifier` an alle verschachtelten Image Serving- und Image Rendering-Anforderungen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen unabhängig von der Verschachtelungsebene für alle Vorlagen verfügbar sind.
 
 Unabhängig von der Verschachtelungsstufe darf nur eine einmalige HTTP-Kodierung auf Variablenwerte angewendet werden, die an einer beliebigen Stelle in verschachtelten Image Rendering- oder Image Serving-Anforderungen ersetzt werden sollen.

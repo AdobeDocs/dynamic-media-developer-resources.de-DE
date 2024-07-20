@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 2%
+source-wordcount: '284'
+ht-degree: 1%
 
 ---
 
@@ -25,13 +25,13 @@ Ansichthöhe. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpass
  </tr> 
 </table>
 
-Wenn `wid=` und `scl=` festgelegt sind, kann das zusammengesetzte Bild je nach `align=`-Attribut. Wann `fit=` vorhanden ist, `hei=` gibt die genaue, minimale oder maximale Bildhöhe der Antwort an; siehe Beschreibung von [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) für Details.
+Wenn sowohl `wid=` als auch `scl=` angegeben sind, kann das zusammengesetzte Bild gemäß dem Attribut `align=` zugeschnitten werden. Wenn `fit=` vorhanden ist, gibt `hei=` die genaue, minimale oder maximale Höhe des Antwortbilds an. Weitere Informationen finden Sie in der Beschreibung von [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) .
 
-Wenn `scl=` nicht angegeben ist, wird das zusammengesetzte Bild auf die Anpassung skaliert. Wenn `wid=` und `hei=` festgelegt sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar ist. In diesem Fall wird das Bild innerhalb des Ansichtsrechtecks entsprechend der `align=` -Attribut. Der Hintergrundbereich ist mit `bgc=`oder, falls nicht angegeben mit `attribute::BkgColor`.
+Wenn `scl=` nicht angegeben ist, wird das Composite-Bild skaliert, um passend zu sein. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar gemacht wird. In diesem Fall wird das Bild im Ansichtsrechteck gemäß dem Attribut `align=` positioniert. Der Hintergrundbereich wird mit `bgc=` oder, falls nicht mit `attribute::BkgColor` angegeben, mit  gefüllt.
 
 >[!NOTE]
 >
->Ein Fehler wird zurückgegeben, wenn die berechnete Größe des Antwortbilds größer ist als `attribute::MaxPix`.
+>Wenn die berechnete Größe des Antwortbilds größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-534923644a1e464496eeba83dedcbd3c}
 
@@ -39,15 +39,15 @@ Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Standard {#section-76544d34806d4124a8b173e229cba71f}
 
-Wenn `wid=`, `hei=`, noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
+Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
 
 ## Beispiele {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben links aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor`.
+Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben links aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor` gefüllt.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-Das gleiche Bild, das mit einer festen Höhe von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Breite, die dem Seitenverhältnis des Bildes entspricht. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. Und in diesem Fall `align=` keine Wirkung hätte.
+Das gleiche Bild, das mit einer festen Höhe von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Breite, die dem Seitenverhältnis des Bildes entspricht. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. Und in diesem Fall hätte `align=` überhaupt keine Auswirkung.
 
 `http://server/myRootId/myImageId?hei=200`
 

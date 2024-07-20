@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 48239519-7935-45e4-ae36-5e687a356cc1
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '103'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Maximale Antwortbildgröße. Maximale Breite und Höhe des Antwortbilds, das an den Client zurückgegeben werden kann.
 
-Der Server gibt einen Fehler zurück, wenn eine Anfrage zu einem Antwortbild führen würde, dessen Breite und/oder Höhe größer ist als `attribute::MaxSize`.
+Der Server gibt einen Fehler zurück, wenn eine Anfrage dazu führen würde, dass ein Antwortbild mit einer Breite und/oder Höhe größer als `attribute::MaxSize` ist.
 
 ## Eigenschaften {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 

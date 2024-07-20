@@ -8,7 +8,7 @@ exl-id: 0ad8e002-4fbd-442f-84ba-89cc551ec3de
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -31,11 +31,11 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:FotoshopLayerOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:FotoshopLayerOptions</span> </td> 
    <td colname="col3"> Array von Photoshop-Ebenenoptionen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Prozess</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> process</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Photoshop-Prozessoptionen: 
     <ul id="ul_DD292274043F4A5ABBBB9DB5C2D46681"> 

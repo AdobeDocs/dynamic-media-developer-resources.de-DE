@@ -4,10 +4,11 @@ description: Das Social-Sharing-Tool wird standardmäßig in der oberen rechten 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 650e1a57-9b0e-4132-a9b0-42c33cacdc04
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +29,11 @@ Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in d
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Vertikale Position des Tools für die Freigabe in sozialen Netzwerken relativ zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Position des Tools für die Freigabe in sozialen Netzwerken im Verhältnis zum Viewer-Container. </p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +41,7 @@ Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in d
    <td colname="col2"> <p> Die Breite des Social-Sharing-Tools. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Social-Sharing-Tools. </p> </td> 
   </tr> 
  </tbody> 
@@ -80,9 +81,9 @@ Das Erscheinungsbild der Schaltfläche für das Social-Sharing-Tool wird mit der
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Richten Sie eine Schaltfläche für das Social-Sharing-Tool ein, die für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
 
@@ -107,7 +108,7 @@ Das Erscheinungsbild des Bedienfelds, das die einzelnen Symbole für die Freigab
 .s7smartcropvideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**CSS-Eigenschaften des Bedienfelds &quot;Social Share&quot;**
+**CSS-Eigenschaften des Social Share-Bedienfelds**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 

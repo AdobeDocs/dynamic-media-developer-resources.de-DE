@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '938'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Das Suchergebnisbedienfeld belegt immer die gesamte verfügbare Viewer-Höhe. Si
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
 ```
 
-**CSS-Eigenschaft des Suchergebnisbereichs**
+**CSS-Eigenschaft des Suchergebnisspeicherplatzes**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
@@ -84,7 +84,7 @@ Oben im Suchergebnisbereich befindet sich das Sucheingabefeld. Der Abstand auf d
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Auffüllung um das Eingabefeld. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,7 +101,7 @@ Das Eingabefeld für die Suche wird durch den folgenden CSS-Klassenselektor gest
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des Sucheingabefelds. </p> </td> 
   </tr> 
   <tr> 
@@ -109,7 +109,7 @@ Das Eingabefeld für die Suche wird durch den folgenden CSS-Klassenselektor gest
    <td colname="col2"> <p> Der innere Abstand zwischen dem Eingabefeldbereich und dem Eingabetext. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand des Sucheingabefelds. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Das Eingabefeld für die Suche wird durch den folgenden CSS-Klassenselektor gest
    <td colname="col2"> <p>Rand des Sucheingabefelds </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
@@ -148,7 +148,7 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des standardmäßi
    <td colname="col2"> <p>Breite der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -160,7 +160,7 @@ Die Suchschaltfläche links neben dem Sucheingabefeld in Form des standardmäßi
    <td colname="col2"> <p>Die Größe des Symbols "Aussehendes Glas". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand der Sucheingabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ Im Suchergebnisbereich wird möglicherweise eine Textaufforderung angezeigt, wen
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +214,9 @@ Im Suchergebnisbereich wird möglicherweise eine Textaufforderung angezeigt, wen
 
 >[!NOTE]
 >
->Dieser Textbereich unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Stile auf verschiedene Textnachrichten anzuwenden. Insbesondere `state='prompt'` entspricht der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. Die `state='results'` entspricht dem Text mit Informationen zu Suchtreffern. Und schließlich die `state='no_results'` entspricht dem Text, der angezeigt wird, wenn die Suchanfrage keine Ergebnisse zurückgegeben hat.
+>Dieser Textbereich unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Stile auf verschiedene Textnachrichten angewendet werden können. Insbesondere entspricht `state='prompt'` der Textaufforderung, die angezeigt wird, wenn das Bedienfeld zum ersten Mal aufgerufen wird. Der `state='results'` entspricht dem Text mit Informationen zu Suchtreffern. Und schließlich entspricht der `state='no_results'` dem Text, der angezeigt wird, wenn die Suchabfrage keine Ergebnisse zurückgegeben hat.
 
-Der Nachrichtentext kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Der Nachrichtentext kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel - So richten Sie ein Textfeld ein, das eine graue 18-Pixel-Schriftart verwendet:
 
@@ -233,13 +233,13 @@ Suchergebnisse werden als einzelne Spalte oder einzelne Zeile von Miniaturansich
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
 ```
 
-**CSS-Eigenschaften der Miniaturansichtszellen**
+**CSS-Eigenschaften der Miniaturansichten**
 
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe der oberen und unteren Ränder, die für <span class="codeph"> .s7thumbcell </span> festgelegt wurden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -267,11 +267,11 @@ Das Erscheinungsbild einzelner Miniaturansichten wird mit der folgenden CSS-Klas
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand der Miniaturansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -293,7 +293,7 @@ Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS
 .s7searchpanel .s7swatches .s7label
 ```
 
-**CSS-Eigenschaften der Bezeichnung**
+**CSS-Eigenschaften des Titels**
 
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
@@ -306,7 +306,7 @@ Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Größe der Textschriftart. </p> </td> 
   </tr> 
  </tbody> 
@@ -331,7 +331,7 @@ Auf Systemen, die die Mauseingabe verwenden, werden unten im Suchergebnisbereich
 
 Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften oben, links, unten und rechts zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
-**CSS-Eigenschaften der Schaltflächen zum Bildlauf nach oben und unten**
+**CSS-Eigenschaften der Scroll-Schaltflächen nach oben und unten**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
@@ -340,7 +340,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -356,9 +356,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, mit der verschiedene Skins auf `"up"`, `"down"`, `"over"`, und `"disabled"` Schaltflächenstatus.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf die Schaltflächenzustände `"up"`, `"down"`, `"over"` und `"disabled"` angewendet werden können.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel - So richten Sie eine Bildlaufschaltfläche ein, die 125 x 35 Pixel groß ist und für jeden Status unterschiedliche Grafiken aufweist:
 

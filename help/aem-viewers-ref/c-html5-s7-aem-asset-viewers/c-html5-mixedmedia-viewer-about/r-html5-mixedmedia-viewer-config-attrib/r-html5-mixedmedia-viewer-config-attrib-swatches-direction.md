@@ -8,7 +8,7 @@ exl-id: bd01ff03-fea7-42ad-aa99-72273f55bda0
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p> <span class="codeph"> left </span> legt die Füllreihenfolge von links nach rechts fest; </p> <p> <span class="codeph"> right </span> kehrt die Reihenfolge so um, dass die Ansicht von rechts nach links und von oben nach unten gefüllt wird. </p> <p>Wann <span class="codeph"> auto </span> festgelegt ist, gilt die Komponente <span class="codeph"> right </span> Modus, wenn das Gebietsschema auf <span class="codeph"> ja </span>; andernfalls wird links verwendet. </p> </td> 
+   <td> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p> <span class="codeph"> left </span> legt die Füllreihenfolge von links nach rechts fest; </p> <p> <span class="codeph"> right </span> kehrt die Reihenfolge so um, dass die Ansicht von rechts nach links und von oben nach unten gefüllt wird. </p> <p>Wenn <span class="codeph"> auto </span> festgelegt ist, wendet die Komponente den Modus <span class="codeph"> right </span> an, wenn das Gebietsschema auf <span class="codeph"> ja </span> festgelegt ist. Andernfalls wird der linke Modus verwendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

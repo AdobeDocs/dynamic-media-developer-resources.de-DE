@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
    <td colname="col3">Ein Array von Asset-Handles, die zum Erstellen des Sets verwendet werden. <p>Standardmäßig ist 1000 die maximale Anzahl von Assets, die Sie im Array haben können. </p></td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:AutoSetCreationOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:AutoSetCreationOptions</span> </td> 
    <td colname="col3">Ein Array von Skripten zur Set-Generierung, die Sie für die hochgeladenen Dateien ausführen können. Siehe <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Syntax
 
 **emailSetting Options**
 
-Die `emailSetting` enthält die folgenden Optionen:
+Der Parameter `emailSetting` enthält die folgenden Optionen:
 
 | Option | Rückgabe |
 |---|---|

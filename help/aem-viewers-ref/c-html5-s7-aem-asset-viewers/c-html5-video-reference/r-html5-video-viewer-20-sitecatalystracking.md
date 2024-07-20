@@ -7,8 +7,8 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '158'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Der Video-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
 Der Video-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
-Um das Tracking zu aktivieren, geben Sie den richtigen Unternehmensvorgabennamen als `config2` Parameter.
+Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
 
 Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
 
 ## Benutzerdefinierte Verfolgung {#section-ab10bd7caf184721a366cf3953071934}
 
-Zur Integration in Analysesysteme von Drittanbietern ist es erforderlich, `trackEvent` Viewer-Rückruf und -Prozess `eventInfo` -Argument der Callback-Funktion nach Bedarf verwenden. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, das `trackEvent` Viewer-Callback zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -67,7 +67,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ein Asset im Viewer mit <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mit der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 

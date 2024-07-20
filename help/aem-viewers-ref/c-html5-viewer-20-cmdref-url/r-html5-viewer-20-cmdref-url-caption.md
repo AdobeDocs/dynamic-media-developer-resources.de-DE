@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 6%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -20,22 +20,22 @@ Parameter, die allen Viewern gemeinsam sind.
 >
 >Dieser Befehl gilt nicht für den Video-Bild-Viewer.
 
-` caption= *`Datei`*[,0|1]`
+` caption= *`file`*[,0|1]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file </span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Image Serving stellt die WebVTT-Datei bereit. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Gibt den standardmäßigen Beschriftungsstatus an. Aktiviert ist <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dieser Viewer unterstützt die Untertitelung über gehostete WebVTT-Dateien. Mit diesem Parameter angegebene Untertitel gelten für das Video, das in Mediensets zuerst angezeigt wird. nachfolgende Videos werden ohne Untertitel wiedergegeben. Überschneidende Hinweise und Regionen werden nicht unterstützt. Unterstützte Cue-Point-Positionierungsoperatoren:
+Dieser Viewer unterstützt die Untertitelung über gehostete WebVTT-Dateien. Mit diesem Parameter angegebene Untertitel gelten für das Video, das zuerst in Mediensets erscheint. Nachfolgende Videos werden ohne Untertitel wiedergegeben. Überschneidende Hinweise und Regionen werden nicht unterstützt. Unterstützte Cue-Point-Positionierungsoperatoren:
 
 <table id="table_E752D7D8C1AA40C6B8A7057D2BB379C1"> 
  <thead> 
@@ -50,7 +50,7 @@ Dieser Viewer unterstützt die Untertitelung über gehostete WebVTT-Dateien. Mit
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>Testausrichtung </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
    <td colname="col4"> <p> Steuert die Ausrichtung des Textes. </p> <p>Der Standardwert ist <span class="codeph"> middle </span>. </p> </td> 
   </tr> 
   <tr> 
@@ -74,16 +74,16 @@ Dieser Viewer unterstützt die Untertitelung über gehostete WebVTT-Dateien. Mit
  </tbody> 
 </table>
 
-Wenn die WebVTT-Datei andere WebVTT-Funktionen enthält, werden diese nicht unterstützt. Sie stören jedoch nicht die Untertitelung.
+Wenn in der WebVTT-Datei andere WebVTT-Funktionen vorhanden sind, werden diese nicht unterstützt. Die Untertitelung wird jedoch nicht gestört.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file </span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Beschriftungsinhalt an. Die WebVTT-Datei wird von Image Serving bereitgestellt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Gibt den standardmäßigen Beschriftungsstatus an. </p> <p>Aktiviert ist <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 

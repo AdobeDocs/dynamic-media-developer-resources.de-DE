@@ -1,5 +1,5 @@
 ---
-title: Zoomansicht
+title: Zoom-Ansicht
 description: Die Hauptansicht besteht aus dem zoombaren Bild.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
@@ -8,11 +8,11 @@ exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# Zoomansicht{#zoom-view}
+# Zoom-Ansicht{#zoom-view}
 
 Die Hauptansicht besteht aus dem zoombaren Bild.
 
@@ -53,7 +53,7 @@ Beispiel - um die Hauptansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die `cursortype` -Attributauswahl, die auf die `.s7zoomview` -Klasse und steuert den Cursortyp basierend auf dem Komponentenstatus und der Benutzeraktion. Folgendes `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7zoomview` angewendet werden kann, und steuert den Cursortyp basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -64,15 +64,15 @@ Auf Desktop-Systemen unterstützt die Komponente die `cursortype` -Attributauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Standard </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zurücksetzen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn sich das Bild auf einem maximalen Zoomfaktor befindet und auf seinen ursprünglichen Status zurückgesetzt werden kann. </p> </td> 
   </tr> 
   <tr> 

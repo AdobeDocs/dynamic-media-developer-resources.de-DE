@@ -20,4 +20,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| [!DNL items] | `types:CompanyMembership` |  |
+| [!DNL items] | `types:CompanyMembership` | |

@@ -8,7 +8,7 @@ exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Eingabe (renameProjectParam)**
+**Input (renameProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 
 Mit diesem Codebeispiel wird ein Projekt umbenannt und der Projekthandle zurückgegeben.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <renameProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

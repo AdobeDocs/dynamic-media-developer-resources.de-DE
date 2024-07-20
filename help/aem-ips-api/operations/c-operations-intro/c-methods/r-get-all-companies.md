@@ -8,7 +8,7 @@ exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -24,13 +24,13 @@ Syntax
 
 ## Parameter {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**Eingabe (getAllCompaniesParam)**
+**Input (getAllCompaniesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | includeExpired | `xsd:boolean` | Ja | Auf true gesetzt, um abgelaufene und nicht abgelaufene Unternehmen zurückzugeben. |
 
-**Ausgabe (getAllCompaniesReturn)**
+**Output (getAllCompaniesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -40,7 +40,7 @@ Syntax
 
 Dieses Codebeispiel gibt alle Unternehmen in IPS in einem Array zurück. Beachten Sie, dass die Beispielantwort aus Gründen der Kürze abgeschnitten wird.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getAllCompaniesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

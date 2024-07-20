@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0dc6ad78-1044-4495-9414-53900302b8c0
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 1%
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ JavaScript-API-Referenz für Viewer für gemischte Medien
 
 `getComponent(componentId)`
 
-Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des vordefinierten Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst nach dem `initComplete` Viewer-Rückruf wurde ausgeführt, andernfalls kann die Komponente noch nicht von der Viewer-Logik erstellt werden.
+Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwendet wird. Die Webseite kann diese Methode verwenden, um das Verhalten des vordefinierten Viewers zu erweitern oder anzupassen. Rufen Sie diese Methode erst nach Ausführung des Viewer-Rückrufs `initComplete` auf. Andernfalls kann die Komponente noch nicht von der Viewer-Logik erstellt werden.
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -37,7 +37,7 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Behälter </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Steuerelemente </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Steuerungen </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Muster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Farbfelder </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
   <tr> 
@@ -123,13 +123,13 @@ Gibt eine Referenz auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
  </tbody> 
 </table>
 
-Beim Arbeiten mit SDK-APIs ist es wichtig, den richtigen und vollständig qualifizierten SDK-Namespace zu verwenden, wie hier beschrieben: [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Beim Arbeiten mit SDK-APIs ist es wichtig, den richtigen und vollständig qualifizierten SDK-Namespace zu verwenden, wie unter [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) beschrieben.
 
 Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur Viewer-SDK-API .
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` wenn die `componentId` ist keine unterstützte Viewer-Komponente oder wenn die Komponente noch nicht von der Viewer-Logik erstellt wurde.
+`{Object}` Ein Verweis auf die Viewer-SDK-Komponente. Die Methode gibt `null` zurück, wenn die `componentId` keine unterstützte Viewer-Komponente ist oder wenn die Komponente noch nicht von der Viewer-Logik erstellt wurde.
 
 ## Beispiel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

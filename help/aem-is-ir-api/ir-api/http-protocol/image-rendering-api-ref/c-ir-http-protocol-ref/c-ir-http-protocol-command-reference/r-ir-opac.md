@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -28,10 +28,10 @@ Deckkraft. Gibt die Materialdeckkraft an.
 Die folgenden Material-/Objektkombinationen unterstützen die variable Deckkraft:
 
 * Durchgehende Farbe und wiederholbare Texturen, die auf Texturüberlappungsobjekte angewendet werden.
-* Fensterabdeckende Materialien, die auf Fensterrahmen angewendet werden.
+* Fensterabdeckende Materialien, die auf Fensterscheiben angewendet werden, die Rahmenobjekte bedecken.
 * Auf Textobjekte oder Wandobjekte angewendete Deklarationen.
 
-Wenn das Material ein Bild mit einem Alphakanal enthält, `opac=` kann verwendet werden, um das Bild transparenter, aber nicht undurchsichtiger zu machen.
+Wenn das Material ein Bild mit einem Alphakanal enthält, kann `opac=` verwendet werden, um das Bild transparenter, aber nicht undurchsichtiger zu machen.
 
 ## Eigenschaften {#section-352f7b82ede54159b6afb90ae4b559ec}
 
@@ -39,4 +39,4 @@ Materialattribut. Wird ignoriert, wenn die aktuelle Objektauswahl oder das Mater
 
 ## Standard {#section-bd45105b1e614f96ad5d521e3ef65736}
 
-`opac=100`, für ein vollständig undurchsichtiges Material (wenn das Bild keinen Alphakanal enthält).
+`opac=100` für ein vollständig opak Material (wenn das Bild keinen Alphakanal enthält).

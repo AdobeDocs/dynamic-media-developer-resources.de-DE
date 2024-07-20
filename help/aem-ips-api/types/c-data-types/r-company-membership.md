@@ -20,6 +20,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| [!DNL company] | `types:Company` |  |
-| [!DNL role] | `xsd:string` |  |
+| [!DNL company] | `types:Company` | |
+| [!DNL role] | `xsd:string` | |
 | isActive | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |

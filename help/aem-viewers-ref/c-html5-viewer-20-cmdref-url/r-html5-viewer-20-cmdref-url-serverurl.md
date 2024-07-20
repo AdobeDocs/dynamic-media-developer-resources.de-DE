@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Parameter, die allen Viewern gemeinsam sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Relativer oder absoluter Image Serving-Stammpfad. </p> <p> Gibt einen relativen oder absoluten Pfad zum Image Serving an, von dem aus der Viewer Bilder abruft. Wenn der Pfad keinen führenden <span class="filepath"> /</span>-Pfad aufweist, ist er relativ zum Speicherort der HTML-Seite des Viewers. Wenn der Pfad einen vorangestellten <span class="filepath"> /</span>-Pfad aufweist, gibt er einen absoluten Pfad auf demselben Server an. </p> <p> Verwenden Sie nur einen absoluten Pfad, wenn das Modul E-Mail-Freigabe im Viewer aktiviert ist. </p> </td> 
+   <td colname="col2"> <p>Relativer oder absoluter Image Serving-Stammpfad. </p> <p> Gibt einen relativen oder absoluten Pfad zum Image Serving an, von dem aus der Viewer Bilder abruft. Wenn der Pfad keinen vorangestellten <span class="filepath"> /</span> aufweist, ist er relativ zum Speicherort der Viewer-HTML-Seite. Wenn der Pfad einen vorangestellten <span class="filepath"> /</span> aufweist, gibt er einen absoluten Pfad auf demselben Server an. </p> <p> Verwenden Sie nur einen absoluten Pfad, wenn das Modul E-Mail-Freigabe im Viewer aktiviert ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -47,8 +47,8 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
    <td colname="col2"> <p>Die Schriftfamilie, die für die Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftgröße, die für die Zeitanzeige verwendet werden soll. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>Die Schriftgröße, die für die Zeitanzeige verwendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -59,7 +59,7 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Setzen Sie die Videozeit auf hellgrau (hexadezimal) `#BBBBBB`), mit einer Größe von 12 Pixel, 15 Pixel von der oberen Ecke der Steuerleiste und 80 Pixel von den rechten Kanten der Steuerleiste entfernt.
+Legen Sie die Videozeit auf hellgrau (hexadezimal `#BBBBBB`) fest, die auf 12 Pixel skaliert, 15 Pixel von der oberen Ecke der Steuerleiste positioniert und 80 Pixel von den rechten Kanten der Steuerleiste entfernt ist.
 
 ```
 .s7mixedmediaviewer .s7videotime { 

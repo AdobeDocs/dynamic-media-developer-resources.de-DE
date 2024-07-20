@@ -8,7 +8,7 @@ exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Syntax
 
 ## Parameter {#section-6b2f8aa65d4d4ae1af0c9cee468b0a51}
 
-**Eingabe (resumeJobParam)**
+**Input (resumeJobParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird ein angehaltener Auftrag neu gestartet.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <resumeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

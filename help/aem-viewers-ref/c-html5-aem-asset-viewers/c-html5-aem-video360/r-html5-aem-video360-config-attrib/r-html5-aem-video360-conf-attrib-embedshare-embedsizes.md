@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 0%
 
 Konfigurationsattribut für Video360 Viewer.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
 
 Gibt eine Liste der Einbettungsgrößen für das Kombinationsfeld &quot;Größe&quot;im modalen Dialogfeld für die Einbettungsfreigabe an.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Breite </span> </span> </p> </td> 
    <td colname="col2"> <p> Einbettungsbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Höhe </span> </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Einbettung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Gibt an, ob dieses Listenelement zunächst im Kombinationsfeld vorausgewählt werden soll. </p> </td> 
   </tr> 
  </tbody> 

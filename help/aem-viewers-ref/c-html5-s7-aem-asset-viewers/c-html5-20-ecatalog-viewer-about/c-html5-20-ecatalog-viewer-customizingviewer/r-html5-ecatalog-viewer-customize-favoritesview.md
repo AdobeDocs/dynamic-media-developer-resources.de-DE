@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Das Erscheinungsbild des Favoriten-Ansichtscontainers wird mit der folgenden CSS
 
 Die Position und Höhe der Favoriten-Ansicht werden von der Ansicht verwaltet. In CSS ist es nur möglich, die Breite zu definieren.
 
-**CSS-Eigenschaften der Favoriten-Ansicht**
+**CSS-Eigenschaften der Favoritenansicht**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -56,13 +56,13 @@ Der Abstand zwischen Favoriten-Miniaturansichten wird mit der folgenden CSS-Klas
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
 ```
 
-**CSS-Eigenschaften der Favoriten-Miniaturen**
+**CSS-Eigenschaften der Favoriten-Miniaturansichten**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des oberen und unteren Rands, der für <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Die Größe des vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des oberen und unteren Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 .s7ecatalogviewer .s7favoritesview .s7thumb
 ```
 
-**CSS-Eigenschaften der Favoriten-Miniaturen**
+**CSS-Eigenschaften der Favoriten-Miniaturansichten**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
@@ -90,11 +90,11 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand der Miniaturansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Miniaturansichten anzuwenden. Insbesondere `state="selected"` entspricht der Miniaturansicht, die der Benutzer kürzlich ausgewählt hat. Das Attribut `state="default"` entspricht dem Rest der Miniaturansichten. Und das Attribut `state="over"` wird beim Bewegen der Maus verwendet.
+>Miniaturansichten unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der Miniaturansicht, die der Benutzer kürzlich ausgewählt hat. Das Attribut `state="default"` entspricht dem Rest der Miniaturansichten. Und das Attribut `state="over"` wird beim Bewegen der Maus verwendet.
 
 Beispiel: Um Miniaturansichten mit einer Größe von 75 x 75 Pixel einzurichten, haben Sie einen hellgrauen Standardrahmen und einen dunkelgrauen ausgewählten Rahmen:
 
@@ -125,7 +125,7 @@ Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS
 .s7ecatalogviewer .s7favoritesview .s7label
 ```
 
-**CSS-Eigenschaften der Bezeichnung &quot;Favoriten&quot;**
+**CSS-Eigenschaften der Favoritenbeschriftung**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
@@ -134,7 +134,7 @@ Das Erscheinungsbild der Miniaturansichtsbeschriftung wird mit der folgenden CSS
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 

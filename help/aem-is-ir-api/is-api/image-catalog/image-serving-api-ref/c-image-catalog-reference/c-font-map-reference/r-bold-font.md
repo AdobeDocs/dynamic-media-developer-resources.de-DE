@@ -1,5 +1,5 @@
 ---
-description: Flagge. Gibt an, ob die von diesem Schriftartdatensatz referenzierte Schriftartdatei verwendet werden soll, wenn sie vom RTF-Feldbefehl (\b) angefordert wird.
+description: Fahne auf der Vorderseite. Gibt an, ob die von diesem Schriftartdatensatz referenzierte Schriftartdatei verwendet werden soll, wenn sie vom RTF-Feldbefehl (\b) angefordert wird.
 solution: Experience Manager
 title: Fett
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
 # Fett{#bold}
 
-Flagge. Gibt an, ob die von diesem Schriftartdatensatz referenzierte Schriftartdatei verwendet werden soll, wenn sie vom RTF-Feldbefehl (\b) angefordert wird.
+Fahne auf der Vorderseite. Gibt an, ob die von diesem Schriftartdatensatz referenzierte Schriftartdatei verwendet werden soll, wenn sie vom RTF-Feldbefehl (\b) angefordert wird.
 
 ## Eigenschaften {#section-f2727dd66f7c41ee9602872a104d25b1}
 

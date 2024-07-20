@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sitzungskatalog{#session-catalog}
 
-Der Sitzungskatalog ist der Materialkatalog, der Sitzungsattribute für die Anforderung und einen standardmäßigen catId-Wert für alle `src=`, `vignette=`und `icc=` Befehle.
+Der Sitzungskatalog ist der Materialkatalog, der Sitzungsattribute für die Anfrage und einen standardmäßigen catId-Wert für alle Befehle `src=`, `vignette=` und `icc=` bereitstellt.
 
 Der Sitzungskatalog wird als erstes Pfadelement des HTTP-Anfragepfads angegeben (unmittelbar nach dem Servernamen). Wenn das erste Pfadelement nicht mit attribute::RootId eines beliebigen Katalogs übereinstimmt, wird der Standardkatalog als Sitzungskatalog verwendet.
 
@@ -42,7 +42,7 @@ Der Sitzungskatalog enthält die folgenden Sitzungsstandardwerte:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
-   <td> <p> Stamm-URL für relative HTTP-Dateipfade in <span class="codeph"> src=</span> commands </p> </td> 
+   <td> <p> Stamm-URL für relative HTTP-Dateipfade in <span class="codeph"> src=</span> Befehlen </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
@@ -78,11 +78,11 @@ Der Sitzungskatalog enthält die folgenden Sitzungsstandardwerte:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailSel</span> </p> </td> 
-   <td> <p> Gibt Verhalten an, wenn ein <span class="codeph"> sel=</span> Befehl schlägt fehl </p> </td> 
+   <td> <p> Gibt das Verhalten an, wenn ein Befehl <span class="codeph"> sel=</span> fehlschlägt </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailObj</span> </p> </td> 
-   <td> <p> Gibt Verhalten an, wenn ein <span class="codeph"> obj=</span> Befehl schlägt fehl </p> </td> 
+   <td> <p> Gibt das Verhalten an, wenn ein Befehl <span class="codeph"> obj=</span> fehlschlägt </p> </td> 
   </tr> 
  </tbody> 
 </table>

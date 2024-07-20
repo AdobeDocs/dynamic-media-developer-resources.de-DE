@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5717d568-467e-495b-b963-9b3d42e866a6
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 4%
+source-wordcount: '141'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 4%
 
 Client-Cache-Zeit bis zur Live-Schaltung. Anzahl der Stunden bis zum Ablauf. Dient zum Verwalten der Zwischenspeicherung von Client- und Proxyservern.
 
-Siehe [catalog::Expiration](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md) für Details.
+Weitere Informationen finden Sie unter [catalog::Expiration](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md) .
 
 ## Eigenschaften {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 
-Real number, -2, -1, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als `never expire`; In diesem Fall gibt der Server immer den Status 403 als Antwort auf die bedingte Bedingung zurück `GET` -Anfragen, ohne zu überprüfen, ob sich die Datei tatsächlich geändert hat. Auf -2 setzen, um den Standardwert zu verwenden, der von `attribute::Expiration`.
+Real number, -2, -1, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 gesetzt, um als `never expire` zu markieren. In diesem Fall gibt der Server immer den Status 403 als Antwort auf bedingte `GET` -Anfragen zurück, ohne zu überprüfen, ob die Datei tatsächlich geändert wurde. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
 
 ## Standard {#section-fb8ea80975034b49af7510764758f123}
 

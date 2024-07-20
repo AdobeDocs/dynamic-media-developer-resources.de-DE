@@ -1,20 +1,20 @@
 ---
 title: Social Share
-description: Das Social Share-Tool wird standardmäßig in der oberen linken Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Tools zur Freigabe enthält.
+description: Das Social-Sharing-Tool wird standardmäßig in der linken oberen Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Tools zur Freigabe enthält.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b65b8846-3287-47ae-bdb6-6cac768cece0
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
 # Social Share{#social-share}
 
-Das Social Share-Tool wird standardmäßig in der oberen linken Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Tools zur Freigabe enthält.
+Das Social-Sharing-Tool wird standardmäßig in der linken oberen Ecke angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn der Benutzer auf eine Schaltfläche klickt oder tippt, und einzelne Tools zur Freigabe enthält.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -41,7 +41,7 @@ Die Position und Größe des Tools für die Freigabe in sozialen Netzwerken in d
    <td colname="col2"> <p> Die Breite des Social-Sharing-Tools. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Social-Sharing-Tools. </p> </td> 
   </tr> 
  </tbody> 
@@ -80,9 +80,9 @@ Das Erscheinungsbild der Schaltfläche für das Social-Sharing-Tool wird mit der
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel - So richten Sie eine Schaltfläche für das Social-Sharing-Tool ein, die für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
@@ -107,7 +107,7 @@ Das Erscheinungsbild des Bedienfelds, das die einzelnen Symbole für die Freigab
 .s7ecatalogviewer .s7socialshare .s7socialsharepanel
 ```
 
-**CSS-Eigenschaften des Bedienfelds &quot;Social Share&quot;**
+**CSS-Eigenschaften des Social Share-Bedienfelds**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 

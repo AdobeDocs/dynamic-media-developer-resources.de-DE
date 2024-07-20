@@ -25,8 +25,8 @@ Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object}  </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen. Der Eigenschaftsname ist der Name des unterstützten Viewer-Ereignisses. Der Eigenschaftswert ist ein JavaScript-Funktionsverweis auf einen entsprechenden Rückruf. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Ereignis-Rückrufe </a> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen. Der Eigenschaftsname ist der Name des unterstützten Viewer-Ereignisses. Der Eigenschaftswert ist eine JavaScript-Funktionsreferenz zu einem entsprechenden Rückruf. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Ereignisrückrufe </a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

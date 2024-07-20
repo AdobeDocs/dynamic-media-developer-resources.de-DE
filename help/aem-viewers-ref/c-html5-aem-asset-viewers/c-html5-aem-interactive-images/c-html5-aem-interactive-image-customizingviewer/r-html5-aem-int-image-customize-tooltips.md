@@ -1,5 +1,5 @@
 ---
-title: QuickInfos
+title: Tooltips
 description: Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 25d4aa58-e16e-4b96-bca0-e98d542b7b81
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 6%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
-# QuickInfos{#tooltips}
+# Tooltips{#tooltips}
 
 Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
 
@@ -35,15 +35,15 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Rahmenradius im Hintergrund </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundrahmenfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +51,11 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
    <td colname="col2"> <p>Textfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Textschriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
 
 >[!NOTE]
 >
->Wenn QuickInfo-Stile von der eingebetteten Web-Seite aus angepasst werden, müssen alle Eigenschaften die Regel `!IMPORTANT` enthalten. Dies ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
+>Wenn QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften die Regel `!IMPORTANT` enthalten. Dies ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
 
 Beispiel: Zum Einrichten von QuickInfos mit einem grauen Rahmen mit einem Radius von 3 Pixel, schwarzem Hintergrund und weißem Text in Arial mit einer Größe von 11 Pixel:
 

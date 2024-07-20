@@ -8,7 +8,7 @@ exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-0e06195f23dd4c69922df210f566dd18}
 
-**Eingabe (getGroupsParam)**
+**Input (getGroupsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -42,7 +42,7 @@ Syntax
 
 Dieser Code gibt ein Array zurück, das alle Gruppen enthält, die zu einem bestimmten Unternehmen gehören, sowie spezifische Informationen zu den einzelnen Gruppen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getGroupsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

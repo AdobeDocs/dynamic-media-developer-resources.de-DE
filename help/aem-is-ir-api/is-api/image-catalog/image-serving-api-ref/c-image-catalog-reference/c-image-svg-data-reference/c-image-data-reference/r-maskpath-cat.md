@@ -18,17 +18,17 @@ Maskieren Sie den Dateipfad. Relativer oder absoluter Pfad und Name für eine mi
 
 Ermöglicht das Anhängen separater Masken an Bilder.
 
-Der Server verwendet die in [Verwalten von Quelldaten](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) , um die Datendatei zu finden.
+Der Server verwendet die unter &quot;[Verwalten von Source-Daten](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)&quot; beschriebenen Regeln zur Pfadauflösung, um die Datendatei zu finden.
 
 ## Eigenschaften {#section-cdc3b7e2811e41008479cd97887c01b7}
 
 Textzeichenfolgenwert. Optional. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Image Server-Dateipfad handeln. `attribute::DefaultExt` wird angehängt, wenn kein Dateisuffix vorhanden ist.
 
-Wenn beide Hauptbilder ( `catalog::Path`) und ein Maskenbild ( `catalog::MaskPath`) in einem Katalogdatensatz definiert sind, müssen beide genau dieselbe Pixelgröße aufweisen. Maskenbilder müssen 8-Bit-Graustufen sein.
+Wenn sowohl ein Hauptbild ( `catalog::Path`) als auch ein Maskenbild ( `catalog::MaskPath`) in einem Katalogdatensatz definiert sind, müssen beide genau dieselbe Pixelgröße aufweisen. Maskenbilder müssen 8-Bit-Graustufen sein.
 
-`mask=` in der Anfrage überschreiben `catalog::MaskPath`.
+`mask=` in der Anfrage überschreibt `catalog::MaskPath`.
 
-`catalog::MaskPath` überschreibt den Alphakanal im Hauptbild ( `catalog::Path`), sofern vorhanden und wenn der Alphakanal nicht zugeordnet ist (d. h. nicht vormultipliziert). Wenn das Bild-Alpha vormultipliziert wird, `catalog::MaskPath` wird ignoriert und der Alphakanal wird immer verwendet.
+`catalog::MaskPath` überschreibt den Alphakanal im Hauptbild ( `catalog::Path`), sofern vorhanden, und wenn der Alphakanal nicht zugeordnet ist (d. h. nicht vormultipliziert). Wenn das Bild-Alpha vormultipliziert wird, wird `catalog::MaskPath` ignoriert und der Alphakanal wird immer verwendet.
 
 ## Standard {#section-78533e35bfec469ba087cb68a35bb81b}
 

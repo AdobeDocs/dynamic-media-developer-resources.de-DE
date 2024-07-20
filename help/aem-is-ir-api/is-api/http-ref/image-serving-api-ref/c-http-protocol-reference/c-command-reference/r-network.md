@@ -4,24 +4,25 @@ description: Erfahren Sie mehr über die Verwendung der Optimierung der Netzwerk
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
+exl-id: 7df6eeed-1856-40e1-bd5d-8f06efc7f700
+source-git-commit: 63c0e3b494b6d583117dad01643946900855802e
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
 # Netzwerk{#network}
 
-Beim Aktivieren der Netzwerkbandbreite wird die Bildqualität automatisch an die tatsächliche Netzwerkbandbreite angepasst. Bei geringer Netzwerkbandbreite: [DSGVO (Gerätepixelverhältnis)](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) Die Optimierung wird automatisch deaktiviert, auch wenn sie bereits aktiviert ist.
+Beim Aktivieren der Netzwerkbandbreite wird die Bildqualität automatisch an die tatsächliche Netzwerkbandbreite angepasst. Bei geringer Netzwerkbandbreite wird die Optimierung von [DPR (Device Pixel Ratio)](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) automatisch deaktiviert, auch wenn sie bereits aktiviert ist.
 
-Bei Bedarf kann Ihr Unternehmen die Optimierung der Netzwerkbandbreite auf individueller Bildebene durch Anhängen von `network=off` zur URL des Bildes.
+Falls gewünscht, kann Ihr Unternehmen die Optimierung der Netzwerkbandbreite auf individueller Bildebene deaktivieren, indem es `network=off` an die URL des Bildes anhängt.
 
 `network=on|off`
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on_off </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
   <td class="stentry"> <p>Gibt an, ob die Netzwerkbandbreite die Bildqualität basierend auf der tatsächlichen Netzwerkbandbreite (ein) anpasst oder die Optimierung der Netzwerkbandbreite deaktiviert ist, um die Bildqualität nicht zu ändern.</p> </td> 
  </tr> 
 </table>
@@ -42,4 +43,4 @@ Ein Anfrageattribut. Es hat keine Auswirkung, wenn die Netzwerkbedingungen ausge
 
 ## Verwandte Themen
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [trp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

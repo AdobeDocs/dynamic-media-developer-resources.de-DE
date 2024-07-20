@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '55'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Ein Array von Nachrichten, die auf eine der in der Anfrage zur CDN-Invalidierung angegebenen URL reagieren.
 
-**Unterstützt seit**
+**seit** unterstützt
 
 4.5.0, Patch 2011-02
 
@@ -33,7 +33,7 @@ Ein Array von Nachrichten, die auf eine der in der Anfrage zur CDN-Invalidierung
  <tbody> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> Typen:OperationFault</span> </p> </td> 
+   <td> <p> <span class="codeph"> types:OperationFault</span> </p> </td> 
    <td> <p> Die Liste der Nachrichten, die aus der CDN-Invalidierungsanforderung resultieren. </p> </td> 
   </tr> 
  </tbody> 

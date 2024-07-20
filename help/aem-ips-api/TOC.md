@@ -2,11 +2,11 @@
 cloud: Experience Cloud
 user-guide-title: Dynamic Media Image Production System-API
 feature-set: Experience Manager Assets
-user-guide-description: Die IPS-Web-Service-API (Image Production System) ermöglicht externen Anwendungen und Entwicklern von Drittanbietern den programmgesteuerten Zugriff auf IPS-Assets und -Funktionen.
+user-guide-description: Mit der IPS (Image Production System) Web Service API können externe Anwendungen und Entwickler von Drittanbietern programmgesteuert auf IPS-Assets und -Funktionen zugreifen.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 2%
+source-wordcount: '661'
+ht-degree: 3%
 
 ---
 
@@ -124,10 +124,10 @@ ht-degree: 2%
       + [moveFolder](operations/c-operations-intro/c-methods/r-move-folder.md)
       + [pauseJob](operations/c-operations-intro/c-methods/r-pause-job.md)
       + [removeAssetPermissions](operations/c-operations-intro/c-methods/r-remove-asset-permissions.md)
-      + [removeCompanyMembership](operations/c-operations-intro/c-methods/r-remove-company-membership.md)
+      + [removeCompanyMember](operations/c-operations-intro/c-methods/r-remove-company-membership.md)
       + [removeFolderPermissions](operations/c-operations-intro/c-methods/r-remove-folder-permissions.md)
       + [removeGroupMembers](operations/c-operations-intro/c-methods/r-remove-group-members.md)
-      + [removeGroupMembership](operations/c-operations-intro/c-methods/r-remove-group-membership.md)
+      + [removeGroupMember](operations/c-operations-intro/c-methods/r-remove-group-membership.md)
       + [removeProjectAssets](operations/c-operations-intro/c-methods/r-remove-project-assets.md)
       + [renameAsset](operations/c-operations-intro/c-methods/r-rename-asset.md)
       + [renameFolder](operations/c-operations-intro/c-methods/r-rename-folder.md)
@@ -289,7 +289,7 @@ ht-degree: 2%
    + [MediaOptions](types/c-data-types/r-media-options.md)
    + [Metadaten](types/c-data-types/r-metadata.md)
    + [MetadataArray](types/c-data-types/r-metadata-array.md)
-   + [MetadataCondition](types/c-data-types/r-metadata-conditon.md)
+   + [Metadatenbedingung](types/c-data-types/r-metadata-conditon.md)
    + [MetadataConditionArray](types/c-data-types/r-metadata-condition-array.md)
    + [MetadataDelete](types/c-data-types/r-metadata-delete.md)
    + [MetadataDeleteArray](types/c-data-types/r-metadata-delete-array.md)
@@ -350,7 +350,7 @@ ht-degree: 2%
    + [SvgInfo](types/c-data-types/r-svg-info.md)
    + [StringArray](types/c-data-types/r-string-array.md)
    + [SwcInfo](types/c-data-types/r-swcinfo.md)
-   + [SystemFieldCondition](types/c-data-types/r-system-field-condition.md)
+   + [SystemFieldBedingung](types/c-data-types/r-system-field-condition.md)
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TagCondition](types/c-data-types/r-tag-condition.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
@@ -425,10 +425,10 @@ ht-degree: 2%
    + [Photoshop-Ebenenbenennungsmodi](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript-Farbraummodi](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Profilklassen](string-constants/c-string-constants/r-profile-classes.md)
-   + [Veröffentlichungsstatus](string-constants/c-string-constants/r-publish-state.md)
+   + [Publish-Status](string-constants/c-string-constants/r-publish-state.md)
    + [Eigenschaftssatztypen](string-constants/c-string-constants/r-property-set-types.md)
-   + [Veröffentlichungskontext](string-constants/c-string-constants/r-publish-context.md)
-   + [Veröffentlichungstypen](string-constants/c-string-constants/r-publish-types.md)
+   + [Publish-Kontext](string-constants/c-string-constants/r-publish-context.md)
+   + [Publish-Typen](string-constants/c-string-constants/r-publish-types.md)
    + [Regionsform](string-constants/c-string-constants/r-region-shape.md)
    + [Suchübereinstimmungsmodi](string-constants/c-string-constants/r-search-match-modes.md)
    + [Sortierrichtung](string-constants/c-string-constants/r-sort-directions.md)
@@ -448,31 +448,31 @@ ht-degree: 2%
    + Version 6.0 {#version-6-0}
       + [Version 6.0](change-log/c-change-log/c-6/c-6.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-6/r-6-operations.md)
-      + [Datentypen: Neu und geändert](change-log/c-change-log/c-6/r-6-types.md)
+      + [Datentypen: neu und geändert](change-log/c-change-log/c-6/r-6-types.md)
    + Version 4.5 {#version-4-5}
       + [Version 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-4-5/r-4-5-operations.md)
-      + [Datentypen: Neu und geändert](change-log/c-change-log/c-4-5/r-4-5-types.md)
+      + [Datentypen: neu und geändert](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [Eingeschränkte Verwendung](change-log/c-change-log/c-4-5/r-restricted-use.md)
    + Version 4.4 {#version-4-4}
       + [Version 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-4-4/r-4-4-operations.md)
-      + [Datentypen: Neu und geändert](change-log/c-change-log/c-4-4/r-4-4-types.md)
+      + [Datentypen: neu und geändert](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [Zeichenfolgenkonstanten: Neu und geändert](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
    + Version 4.2 {#version-4-2}
       + [Version 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
-      + [Datentypen: Neu und geändert](change-log/c-change-log/c-4-2/r-4-2-types.md)
+      + [Datentypen: neu und geändert](change-log/c-change-log/c-4-2/r-4-2-types.md)
    + Version 4.0 {#version-4-0}
       + [Version 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [Neue Ergänzungen und Änderungen](change-log/c-change-log/c-4-0/r-4-0-new.md)
    + Version 3.8 {#version-3-8}
       + [Version 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-3-8/r-3-8-operations.md)
-      + [Datentypen: Neu und geändert](change-log/c-change-log/c-3-8/r-3-8-types.md)
+      + [Datentypen: neu und geändert](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [Zeichenfolgenkonstanten: Neu und geändert](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + Version 3.7 {#version-3-7}
       + [Version 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [Vorgänge: Neu und geändert](change-log/c-change-log/c-3-7/r-3-7-operations.md)
-      + [Datentypen: Neu und geändert](change-log/c-change-log/c-3-7/r-3-7-types.md)
+      + [Datentypen: neu und geändert](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [Zeichenfolgenkonstanten: Neu und geändert](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [Hochladen von Assets über HTTP-POSTs in die UploadFile..](c-http-post.md)

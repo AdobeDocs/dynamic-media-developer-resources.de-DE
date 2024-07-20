@@ -8,7 +8,7 @@ exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -29,13 +29,13 @@ Syntax
 
 ## Parameter {#section-8d549237b8c440b4872a0a086ddc00a1}
 
-**Eingabe (getProjectsParam)**
+**Input (getProjectsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
 
-**Ausgabe (getProjectsReturn)**
+**Output (getProjectsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntax
 
 Dieses Codebeispiel gibt alle Projekt-Handles in einem Projekt-Array zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getProjectsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

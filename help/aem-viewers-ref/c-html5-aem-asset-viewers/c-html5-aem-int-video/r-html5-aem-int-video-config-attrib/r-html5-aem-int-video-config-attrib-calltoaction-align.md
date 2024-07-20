@@ -8,7 +8,7 @@ exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. </p> <p>Beim Aktionsaufruf wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. </p> <p>Dieser Modifikator gibt an, wie der interne Miniaturansichtsbehälter horizontal innerhalb der Komponente positioniert wird. </p> </td> 
+   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. </p> <p>Beim Aktionsaufruf wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. </p> <p>Dieser Modifikator gibt an, wie der interne Container für Miniaturansichten horizontal in der Komponente platziert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

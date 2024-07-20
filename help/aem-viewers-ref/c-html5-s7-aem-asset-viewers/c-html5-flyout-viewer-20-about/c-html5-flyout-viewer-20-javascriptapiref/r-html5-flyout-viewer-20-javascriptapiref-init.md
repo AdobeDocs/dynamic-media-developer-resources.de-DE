@@ -20,7 +20,7 @@ JavaScript-API-Referenz für Flyout-Viewer.
 
 Startet die Initialisierung des Flyout-Viewers. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist (z. B.), kann es mithilfe von `display:none` Stil zugewiesen wird - der Viewer setzt den Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist (z. B.), kann es mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden. Der Viewer setzt den Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
 Diese Methode sollte nur einmal während des Lebenszyklus des Viewers aufgerufen werden. Nachfolgende Aufrufe werden ignoriert.
 

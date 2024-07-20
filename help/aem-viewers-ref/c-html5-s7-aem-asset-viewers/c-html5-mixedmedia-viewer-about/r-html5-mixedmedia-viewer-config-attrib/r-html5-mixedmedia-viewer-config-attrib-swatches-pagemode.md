@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: feef9531-043c-44b6-a768-9f7f5b4aed71
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 7%
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 7%
 <table id="table_52306D2150BC4EE2BD4CE4C718E96CC0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Wenn die Bildlauftasten umgeschaltet sind, führen sie automatisch dazu, dass die Farbfelder eine volle Seitenlänge überschreiten. </p> <p>Zusätzliche Leerzeichen werden auf der letzten Seite angezeigt, wenn die Farbfelder nicht passen. Außerdem weist die letzte Seite dieselbe Anzahl von Zellen auf wie jede vorherige Seite. </p> <p>Der Bildlaufschritt wird ignoriert und der Mauslauf erfolgt nur auf vollständigen Seiten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Wenn die Bildlauftasten umgeschaltet sind, führen sie automatisch dazu, dass die Farbfelder eine volle Seitenlänge überspringen. </p> <p>Zusätzliche Leerzeichen werden auf der letzten Seite angezeigt, wenn die Farbfelder nicht passen. Außerdem weist die letzte Seite dieselbe Anzahl von Zellen auf wie jede vorherige Seite. </p> <p>Der Bildlaufschritt wird ignoriert und der Mauslauf erfolgt nur auf vollständigen Seiten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

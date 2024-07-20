@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: cf769b2d-be4e-4d93-9620-00a438157693
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn festgelegt auf <span class="codeph"> -1</span> Die Komponente lädt alle Katalograhmen im Leerlauf vorab. </p> <p> Wenn festgelegt auf <span class="codeph"> 0</span> Die Komponente lädt nur den sichtbaren Rahmen, den vorherigen Frame und den nächsten Frame. </p> <p>Satz <span class="codeph"><span class="varname"> preloadnbr</span></span> , um festzulegen, wie viele unsichtbare Rahmen um den aktuell angezeigten Frame im Leerlauf vorgeladen werden. </p> </td> 
+   <td colname="col2"> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, lädt die Komponente alle Katalograhmen im Leerlauf vorab. </p> <p> Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, lädt die Komponente nur den sichtbaren Frame, den vorherigen Frame und den nächsten Frame. </p> <p>Legen Sie <span class="codeph"><span class="varname"> preloadnbr</span></span> fest, um festzulegen, wie viele unsichtbare Rahmen um den aktuell angezeigten Frame im Leerlauf vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

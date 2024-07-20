@@ -8,7 +8,7 @@ exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-3580b586296e42a5b21426085b1bb72d}
 
-**Eingabe (createAssetSet)**
+**Input (createAssetSet)**
 
 <table id="table_2C70C33A127242FC828FCD8EC852E1EC"> 
  <thead> 
@@ -86,9 +86,9 @@ Sie können Ersatzfunktionen inline angeben, die während der Katalogsuche oder 
 
 >[!NOTE]
 >
->Die Handle-Literale in Parameterlisten müssen von Klammern umgeben sein `([])`. Sämtlicher Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabezeichenfolge kopiert.
+>Die Handle-Literale in Parameterlisten müssen von Klammern `([])` umgeben sein. Sämtlicher Text, der sich außerhalb einer Ersatzzeichenfolge befindet, wird während der Auflösung wörtlich in die Ausgabezeichenfolge kopiert.
 
-| **Substitutionsfunktion** | **Rückgabe** |
+| **Substitutionsfunktion** | **Gibt** zurück |
 |---|---|
 | `getFilePath([asset_handle>])` | Der Dateipfad der Primärquelle des Assets. |
 | `getCatalogId([<asset_handle>])` | Die Katalog-ID des Assets. |
@@ -108,7 +108,7 @@ Beim Katalogabruf oder zur Veröffentlichungszeit wird dieser Prozess in eine Ze
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
 ```
 
-**Ausgabe (createAssetSet)**
+**Output (createAssetSet)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -116,7 +116,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 ## Beispiele {#section-fed53089de824d67ab96cd9103d384b4}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createAssetSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

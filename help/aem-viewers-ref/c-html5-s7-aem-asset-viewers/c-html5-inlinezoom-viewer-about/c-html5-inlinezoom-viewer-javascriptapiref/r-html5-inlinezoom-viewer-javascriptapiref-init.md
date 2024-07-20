@@ -1,6 +1,6 @@
 ---
 title: init
-description: JavaScript-API-Referenz für Inline-Zoom-Viewer.
+description: JavaScript API-Referenz für Inline-Zoom-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # init{#init}
 
-JavaScript-API-Referenz für Inline-Zoom-Viewer.
+JavaScript API-Referenz für Inline-Zoom-Viewer.
 
 `init()`
 
 Startet die Initialisierung des Viewers, damit der Viewer-Code ihn anhand seiner ID finden kann. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist, kann es beispielsweise mit `display:none` Stil zugewiesen - der Viewer setzt den Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist - z. B. kann es mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden -, setzt der Viewer seinen Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
-Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. nachfolgende Aufrufe werden ignoriert.
+Rufen Sie diese Methode während des Lebenszyklus des Viewers nur einmal auf. Nachfolgende Aufrufe werden ignoriert.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

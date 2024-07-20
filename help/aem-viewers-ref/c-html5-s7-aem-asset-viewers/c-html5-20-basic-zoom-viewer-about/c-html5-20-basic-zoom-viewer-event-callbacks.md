@@ -7,26 +7,26 @@ role: Developer,User
 exl-id: 14b317ab-82fb-4f55-babe-72c24e6afc2c
 source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # Ereignisrückrufe{#event-callbacks}
 
-Der Viewer unterstützt JavaScript-Ereignis-Rückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
+Der Viewer unterstützt JavaScript-Ereignisrückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
 
-Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der `handlers` Eigenschaft auf `config` JSON-Objekt im Viewer-Konstruktor. Alternativ können Sie `setHandlers()` API-Methode.
+Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
 
 Zu den unterstützten Viewer-Ereignissen zählen:
 
-* `initComplete` - Trigger, in denen die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass `getComponent()` API. Der Callback-Handler nimmt keine Argumente an.
+* `initComplete` - Trigger, in denen die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass die `getComponent()` -API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
 
-* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, der von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
+* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 
    * `objID {String}` wird derzeit nicht verwendet.
    * `compClass {String}` wird derzeit nicht verwendet.
-   * `instName {String}` einen Instanznamen der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
+   * `instName {String}` ein Instanzname der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
    * `timeStamp {Number}` Ereigniszeitstempel.
    * `eventInfo {String}` Ereignis-Payload.
 

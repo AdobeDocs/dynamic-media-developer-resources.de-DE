@@ -8,7 +8,7 @@ exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-6aeda13b26af4796aad1306ac7a9ad17}
 
-**Eingabe (setGroupMembershipParam)**
+**Input (setGroupMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -34,7 +34,7 @@ Syntax
 | companyHandle | `xsd:string` | Nein | Handle des Unternehmens. |
 | groupHandleArray | `types:HandleArray` | Ja | Das Array von Handles zu Gruppen, zu denen der Benutzer gehört. |
 
-**Ausgabe (setGroupMembershipReturn)**
+**Output (setGroupMembershipReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -42,7 +42,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Codebeispiel wird der Benutzer zu einem Mitglied einer Gruppe. Fügen Sie einen Benutzer zu mehreren Gruppen mit dem Gruppen-Handle-Array hinzu.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:setGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

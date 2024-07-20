@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 19%
+source-wordcount: '87'
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ Syntax
 
 ## Parameter {#section-ebffe496284c4ced9f329f78127be199}
 
-**Eingabe (getFotoshopPathParam)**
+**Input (getFotoshopPathParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -39,7 +39,7 @@ Syntax
 | assetHandle | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
 | pathName | `xsd:string` | Ja | Name des Photoshop-Pfads, den Sie zurückgeben möchten. |
 
-**Ausgabe (getFotoshopPathReturn)**
+**Output (getFotoshopPathReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 
 ## Beispiele {#section-1f0461cbdc184c8d8925336d5279db47}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getPhotoshopPathParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">
@@ -77,4 +77,3 @@ Syntax
 >[!MORELIKETHIS]
 >
 >* [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
-

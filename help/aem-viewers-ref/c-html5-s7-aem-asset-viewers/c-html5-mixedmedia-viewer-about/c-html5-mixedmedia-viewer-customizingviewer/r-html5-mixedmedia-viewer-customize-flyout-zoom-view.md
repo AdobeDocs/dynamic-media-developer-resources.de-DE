@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 4%
+source-wordcount: '258'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +57,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Überschreiben durch CSS mit `left` oder `right` -Eigenschaften werden nicht unterstützt.
+Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
 
 **CSS-Eigenschaften der Tippmeldung**
 
@@ -75,7 +75,7 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Radius des Nachrichtenhintergrunds </p> </td> 
+   <td colname="col2"> <p> Radius des Nachrichtenhintergrunds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
@@ -83,10 +83,10 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Textfarbe für Tipps. </p> </td> 
+   <td colname="col2"> <p>Farbe für Tipp-Text. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
@@ -98,13 +98,13 @@ Es ist möglich, Schriftstil, Größenaussehen und vertikalen Versatz über CSS 
    <td colname="col2"> <p> Deckkraft des Nachrichtenhintergrunds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p> Auffüllung um den Nachrichtentext. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Tipp-Nachricht kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
+Die Tipp-Nachricht kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
 Beispiel: So richten Sie eine halbtransparente Tipp-Meldung mit weißer Arial® 12-px-Schriftart ein, die 50 Pixel vom unteren Rand der Hauptansicht, des Abstands und eines gerundeten Rahmens entfernt ist:
 

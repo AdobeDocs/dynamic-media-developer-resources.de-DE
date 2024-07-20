@@ -27,7 +27,7 @@ Syntax
 
 ## Parameter {#section-bcc8c83cc84141e8b1341be9133e8511}
 
-**Eingabe (setViewerConfigSettingsParam)**
+**Input (setViewerConfigSettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -35,8 +35,8 @@ Syntax
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
 | name | `xsd:string` | Ja | Asset-Name. |
 | Typ | `xsd:string` | Ja | Der Asset-Typ, auf den Sie die Viewer-Konfiguration anwenden möchten. |
-| configSettingArray | `types:ConfigSettingArray` | Ja | Das -Array von `ConfigSettings` auf das Asset angewendet. |
+| configSettingArray | `types:ConfigSettingArray` | Ja | Das Array von &quot;`ConfigSettings`&quot;, das auf das Asset angewendet wird. |
 
-**Ausgabe (setViewerConfigSettingsParam)**
+**Output (setViewerConfigSettingsParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.

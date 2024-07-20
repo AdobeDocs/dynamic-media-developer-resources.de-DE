@@ -1,14 +1,14 @@
 ---
 description: Fügt einen Suchbegriff für die Verwendung mit searchAssets hinzu.
 solution: Experience Manager
-title: MetadataCondition
+title: Metadatenbedingung
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Doppelter Vergleichswert (nur für Felder mit Float-Typ). </td> 
+   <td colname="col3"> Doppelter Vergleichswert (nur für Felder mit Fließtext). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
@@ -97,7 +97,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Legt die Groß-/Kleinschreibung für den Metadaten-Server fest. Wird im <span class="codeph"> searchAssetsByMetadata</span> aufrufen. </p> <p>Siehe <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Legt die Groß-/Kleinschreibung für den Metadaten-Server fest. Wird im Aufruf <span class="codeph"> searchAssetsByMetadata</span> verwendet. </p> <p>Siehe <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

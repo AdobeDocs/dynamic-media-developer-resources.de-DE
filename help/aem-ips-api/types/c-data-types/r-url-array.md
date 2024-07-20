@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 9%
+source-wordcount: '47'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Ein Array von URLS zur Invalidierung des CDN-Cache.
 
-**Unterstützt seit**
+**seit** unterstützt
 
 4.5.0, Patch 2011-02
 

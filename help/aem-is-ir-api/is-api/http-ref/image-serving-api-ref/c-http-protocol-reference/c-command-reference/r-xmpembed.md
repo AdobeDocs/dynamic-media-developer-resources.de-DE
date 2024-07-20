@@ -24,13 +24,13 @@ Betten Sie XMP Metadaten ein. Gibt an, ob XMP Metadaten im Antwortbild enthalten
 
 ## Eigenschaften {#section-27024c4272f44d9a8c264a0629193af2}
 
-Anforderungsattribut. Wird ignoriert, wenn das Quellbild keine XMP Daten enthält. Nur Daten XMP Quellbild von `layer=0` verarbeitet werden. XMP Daten aus anderen Ebenenbildern werden ignoriert.
+Anforderungsattribut. Wird ignoriert, wenn das Quellbild keine XMP Daten enthält. Nur XMP Daten aus dem Quellbild von `layer=0` werden verarbeitet. XMP Daten aus anderen Ebenenbildern werden ignoriert.
 
-Wird ignoriert, wenn das Ausgabebildformat das Einbetten XMP nicht unterstützt. Siehe Beschreibung von `fmt=` für eine Liste der Ausgabebildformate, die XMP Einbetten unterstützen.
+Wird ignoriert, wenn das Ausgabebildformat das Einbetten XMP nicht unterstützt. Eine Liste der Ausgabebildformate, die XMP Einbetten unterstützen, finden Sie in der Beschreibung von `fmt=` .
 
 ## Standard {#section-aedbedd04d664ba184b2cfe35644b960}
 
-`xmpEmbed=0`, damit keine Pfade in Ausgabebilder eingebettet werden.
+`xmpEmbed=0`, um keine Pfade in Ausgabebilder einzubetten.
 
 ## Verwandte Themen {#section-0b5b7d0a19564101ba7102e667e29828}
 

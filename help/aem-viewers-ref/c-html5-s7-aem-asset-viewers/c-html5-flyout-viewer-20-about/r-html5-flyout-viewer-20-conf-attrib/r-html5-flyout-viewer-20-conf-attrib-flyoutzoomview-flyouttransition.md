@@ -8,7 +8,7 @@ exl-id: a15723fe-a8be-49c5-bad3-1a1360eeb232
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Typ an, den der Effekt angewendet wird, wenn die Flyout-Ansicht ein- oder ausgeblendet wird. Mit <span class="codeph"> Keine </span>, wird das Flyout-Bild sofort angezeigt, wenn es aktiviert und fertig ist. <span class="codeph"> Folie </span> Wiedergabe der Diashow von links nach rechts; <span class="codeph"> verblassen </span> wendet eine Alpha-Transition auf das Flyout-Bild an. </p> </td> 
+   <td colname="col2"> <p> Gibt den Typ an, den der Effekt angewendet wird, wenn die Flyout-Ansicht ein- oder ausgeblendet wird. Bei <span class="codeph"> none </span> erscheint das Flyout-Bild sofort, wenn es aktiviert und fertig ist. <span class="codeph"> Folie </span> sorgt dafür, dass die Dia-Animation von links nach rechts abgespielt wird; <span class="codeph"> Fade </span> wendet eine Alpha-Transition auf das Flyout-Bild an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 

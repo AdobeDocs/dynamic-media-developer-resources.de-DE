@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c386a09c-21ce-4105-b416-e6ae50219af0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bestimmte Inhalte, die der Video-Viewer anzeigt, können lokalisiert werden, einschließlich Zoom-Schaltflächen und Vollbildschaltflächen.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL hat einen standardmäßigen Textwert für das englische Gebietsschema ( `"en"`) mit dem vordefinierten Viewer bereitgestellt. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßig zugeordneten Textwert für das englische Gebietsschema ( `"en"`), der mit dem vordefinierten Viewer bereitgestellt wird. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
 
 Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemata ( `"en"` und `"fr"`) und bietet Lokalisierung für zwei Elemente der Benutzeroberfläche in jedem Gebietsschema.
+Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt die Lokalisierung von zwei Benutzeroberflächenelementen in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte dieses Lokalisierungsobjekt an den Viewer-Konstruktor als Wert von `localizedTexts` -Feld des Konfigurationsobjekts. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der `setLocalizedTexts(localizationInfo)` -Methode.
+Der Webseitencode sollte dieses Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der `setLocalizedTexts(localizationInfo)` -Methode weiterzugeben.
 
 Die folgenden SYMBOLs werden unterstützt:
 
@@ -53,7 +53,7 @@ Die folgenden SYMBOLs werden unterstützt:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>ARIA-Beschriftung für Viewer-Element der obersten Ebene. </p> </td> 
   </tr> 
   <tr> 

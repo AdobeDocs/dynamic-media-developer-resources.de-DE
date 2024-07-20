@@ -8,13 +8,13 @@ exl-id: 0926dcfe-881c-4b52-b08d-c56afa0ba04d
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 14%
+ht-degree: 7%
 
 ---
 
 # resMode{#resmode}
 
-Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, um das gerenderte Bild auf die mit `wid=`, `hei=`oder `scl=`.
+Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus für die Skalierung des gerenderten Bildes auf die mit `wid=`, `hei=` oder `scl=` angegebene Größe aus.
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
@@ -22,7 +22,7 @@ Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>Wählt die standardmäßige bilineare Interpolation aus. Schnellste Neuberechnungsmethode; einige Aliasing-Artefakte sind möglicherweise bemerkbar. </p> </td> 
+   <td colname="col2"> <p>Wählt die standardmäßige bilaterale Interpolation aus. Schnellste Neuberechnungsmethode; einige Aliasing-Artefakte sind möglicherweise bemerkbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
@@ -30,11 +30,11 @@ Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus aus. Kann bei höheren CPU-Kosten etwas schärfere Ergebnisse als bikubisch liefern. </p> <p> <span class="codeph"> scharf </span> ersetzt durch <span class="codeph"> sharp2 </span>, was eine geringere Wahrscheinlichkeit hat, auch als Moiré bezeichnet, Artefakte zu aliasing. </p> </td> 
+   <td colname="col2"> <p>Wählt eine modifizierte Lanczos Window-Funktion als Interpolationsalgorithmus aus. Kann bei höheren CPU-Kosten etwas schärfere Ergebnisse als bikubisch liefern. </p> <p> <span class="codeph"> scharf </span> wurde durch <span class="codeph"> scharf2 </span> ersetzt, was eine geringere Wahrscheinlichkeit hat, Aliasing-Artefakte zu verursachen, auch Moiré genannt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Bischarp </span> </p> </td> 
-   <td colname="col2"> <p>Wählt die <span class="keyword"> Adobe Photoshop </span> Standard-Resampler zum Reduzieren der Bildgröße, die als "bikubische Scharfzeichnung"in <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
+   <td colname="col2"> <p>Wählt den standardmäßigen Resampler <span class="keyword"> Adobe Photoshop </span> zur Reduzierung der Bildgröße aus, der in <span class="keyword"> Adobe Photoshop </span> als "bikubische Scharfzeichnung"bezeichnet wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

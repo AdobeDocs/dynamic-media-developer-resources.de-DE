@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06f493d7-18c9-4bb1-add6-a0dfd1a689bd
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn auf <span class="codeph"> -1</span> alle Muster werden gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> nur sichtbare Farbfelder geladen werden. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> definiert, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
+   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, werden alle Muster gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur sichtbare Muster geladen. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> definiert, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

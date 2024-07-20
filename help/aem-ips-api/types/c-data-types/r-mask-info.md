@@ -1,5 +1,5 @@
 ---
-description: Maskieren Sie die Dateieigenschaften.
+description: Maskieren von Dateieigenschaften.
 solution: Experience Manager
 title: MaskInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL MaskInfo]{#maskinfo}
 
-Maskieren Sie die Dateieigenschaften.
+Maskieren von Dateieigenschaften.
 
 Syntax
 

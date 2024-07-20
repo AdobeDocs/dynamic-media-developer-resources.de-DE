@@ -1,5 +1,5 @@
 ---
-description: Standardmäßige Hintergrundfarbe. RGB-Wert, mit dem alle Bereiche des Antwortbildes gefüllt werden, die keine Bilddaten enthalten.
+description: Standardmäßige Hintergrundfarbe. RGB-Wert zum Ausfüllen eines Bereichs eines Antwortbilds, der keine tatsächlichen Bilddaten enthält.
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 66%
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
 # BkgColor{#bkgcolor}
 
-Standardmäßige Hintergrundfarbe. RGB-Wert, mit dem alle Bereiche des Antwortbildes gefüllt werden, die keine Bilddaten enthalten.
+Standardmäßige Hintergrundfarbe. RGB-Wert zum Ausfüllen eines Bereichs eines Antwortbilds, der keine tatsächlichen Bilddaten enthält.
 
 ## Eigenschaften {#section-2768b2beee214676aa32f17e2a0e3343}
 

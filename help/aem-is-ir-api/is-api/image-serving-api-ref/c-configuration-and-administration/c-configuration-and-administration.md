@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: fa02b6f7-777f-4c4d-a959-0f0d0fc96774
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 0%
 
 ---
 
@@ -26,4 +26,4 @@ Verwenden Sie die Informationen in diesem Abschnitt, um Ihren Image-Server zu ko
 * [Server-Supervisor](c-server-supervisor.md)
 * [Serverprotokollierung](c-server-logging/c-server-logging.md)
 * [Serverüberwachung](c-server-monitoring/c-server-monitoring.md)
-* [Verwalten von Inhalten](c-managing-content/c-managing-content.md)
+* [Verwalten von Inhalt](c-managing-content/c-managing-content.md)

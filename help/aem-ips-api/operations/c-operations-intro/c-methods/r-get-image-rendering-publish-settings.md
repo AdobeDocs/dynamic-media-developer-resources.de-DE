@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-4f2cb8c589384816bb2525654ec49963}
 
-**Eingabe (getImageRenderingPublishSettingsParam)**
+**Input (getImageRenderingPublishSettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Einstellungen zur Veröffentlichung von Bildern Sie erhalten möchten. |
 | contextHandle | `xsd:string` | Ja | Umgang mit dem Veröffentlichungskontext. |
 
-**Ausgabe (getImageRenderingPublishSettingsReturn)**
+**Output (getImageRenderingPublishSettingsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

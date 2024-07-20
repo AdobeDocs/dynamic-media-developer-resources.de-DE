@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 13%
+source-wordcount: '117'
+ht-degree: 4%
 
 ---
 
 # Farbwerte{#color-values}
 
-Farbwerte für `color=` und `bgc=` -Attribute können entweder mit einer Liste von Dezimalwerten, kommagetrennten Komponentenwerten oder einer Hex-Notation ähnlich einer HTML angegeben werden.
+Farbwerte für die Attribute `color=` und `bgc=` können entweder mit einer Liste mit Dezimalwerten, kommagetrennten Komponentenwerten oder einer Hex-Notation, ähnlich wie bei HTML, angegeben werden.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -27,7 +27,7 @@ Farbwerte für `color=` und `bgc=` -Attribute können entweder mit einer Liste v
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex6</i> </p></td> 
-  <td class="stentry"> <p>Sechstelliger hexadezimaler RGB-Farbwert (RRGGBB) verpackt. </p></td> 
+  <td class="stentry"> <p>Sechstelliger hexadezimaler RGB-Farbwert (RRGGBB). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 
@@ -50,7 +50,7 @@ Einige Beispiele für gültige Farbspezifikatoren und die entsprechende RGB-Farb
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 
-  <td class="stentry"> <p>(1,2,3) </p></td> 
+  <td class="stentry"> <p>1,2,3 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>00b1c2 </p></td> 

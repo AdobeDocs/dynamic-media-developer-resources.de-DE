@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 1%
+source-wordcount: '298'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +39,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
 
 Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht wiedergeben kann.
 
-Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Siehe [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayergröße von 512 x 288 Pixel.
 
@@ -58,7 +58,7 @@ Geschlossene Untertitel werden in einen internen Container im Videoplayer eingef
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Geschlossener Beschriftungstexthintergrund. </p> </td> 
   </tr> 
   <tr> 
@@ -66,15 +66,15 @@ Geschlossene Untertitel werden in einen internen Container im Videoplayer eingef
    <td colname="col2"> <p>Textfarbe für Beschriftung schließen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> Schriftstärke der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> Schriftgröße der verdeckten Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Geschlossene Beschriftungsschrift. </p> </td> 
   </tr> 
  </tbody> 
@@ -115,19 +115,19 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
    <td colname="col2"> <p> Breite des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Höhe des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p> Animationssymbol am linken Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Der obere Rand des Animationssymbols, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Knob-Grafik. </p> </td> 
   </tr> 
  </tbody> 

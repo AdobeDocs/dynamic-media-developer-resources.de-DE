@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8e93aa32-b38e-46e4-be52-abd81222cfc3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 1%
 
 ---
 
@@ -25,23 +25,23 @@ Antwortbildhöhe. Gibt die Skalierung des gerenderten Bildes an, sodass die Höh
  </tr> 
 </table>
 
-Das Bild wird nicht eingefügt, wenn beide `wid=` und `hei=` festgelegt sind und Breite/Höhe sich vom Seitenverhältnis des Bildes unterscheidet.
+Das Bild wird nicht eingefügt, wenn sowohl `wid=` als auch `hei=` angegeben sind und Breite/Höhe sich vom Seitenverhältnis des Bildes unterscheiden.
 
-`wid=` und `hei=` arbeiten Sie zusammen, um die Größe des Bildes zu definieren, das vom Server zurückgegeben wird. Wenn `scl=` kommt nach `wid=` oder `hei=` in der URL abbricht, werden diese Befehle und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
+`wid=` und `hei=` arbeiten zusammen, um die Größe des vom Server zurückgegebenen Bildes zu definieren. Wenn `scl=` nach `wid=` oder `hei=` in der URL kommt, werden diese Befehle abgebrochen und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
 
-Wenn `wid=` oder `hei=` kommt nach `scl=` in der URL abbrechen `scl=` und `wid=`/ `hei=` die Größe des vom Server zurückgegebenen Bildes festlegen.
+Wenn jedoch `wid=` oder `hei=` nach `scl=` in der URL kommt, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
 
 >[!NOTE]
 >
->Ein Fehler wird zurückgegeben, wenn die berechnete oder die standardmäßige Antwortbildgröße größer ist als `attribute::MaxPix`.
+>Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-6cbc6acd37c847beab84c896ac25280c}
 
-Kann an einer beliebigen Stelle in der Anfrage auftreten. Ändern der Bildgröße mit `wid=`, `hei=`oder `scl=` ändert nicht den Wert der Druckauflösung, der im Antwortbild eingebettet ist. Ignoriert , wenn `scl=` tritt nach `wid=` und/oder `hei=` in der Befehlssequenz.
+Kann an einer beliebigen Stelle in der Anfrage auftreten. Wenn Sie die Bildgröße mit `wid=`, `hei=` oder `scl=` ändern, wird der im Antwortbild eingebettete Wert für die Druckauflösung nicht geändert. Wird ignoriert, wenn `scl=` nach `wid=` und/oder `hei=` in der Befehlssequenz auftritt.
 
 ## Standard {#section-61043f6c1f5d450883ff9e5eafd95955}
 
-Wenn `wid=`, `hei=`oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die durch `attribute::DefaultPix`. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
+Wenn `wid=`, `hei=` oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die durch `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
 
 ## Verwandte Themen {#section-7ba51379f1e2421c92d3592d20a37734}
 

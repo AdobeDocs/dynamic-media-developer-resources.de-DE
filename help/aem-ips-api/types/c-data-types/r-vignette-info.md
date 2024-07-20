@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines Vignetten-Assets.
+description: Eigenschaften eines Vignettenassets.
 solution: Experience Manager
 title: VignetteInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
 # [!DNL VignetteInfo]{#vignetteinfo}
 
-Eigenschaften eines Vignetten-Assets.
+Eigenschaften eines Vignettenassets.
 
 Syntax
 
@@ -26,6 +26,6 @@ Syntax
 | originalFile | `xsd:string` | Dateiname. |
 | fileSize | `xsd:int` | Dateigröße. |
 | imagePath | `xsd:string` | Pfad zum Bild. |
-| imageFile | `xsd:string` |  |
+| imageFile | `xsd:string` | |
 | optimizedPath | `xsd:string` | Optimierter Pfad zur Datei. |
 | optimizedFile | `xsd:string` | Optimierter Dateiname. |

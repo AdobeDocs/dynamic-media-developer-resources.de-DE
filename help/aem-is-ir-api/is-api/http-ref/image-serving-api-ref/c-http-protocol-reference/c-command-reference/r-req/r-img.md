@@ -18,6 +18,6 @@ Bild (Standard). Fordert Standardbilddaten an.
 
 `req=img`
 
-Das Antwortdatenformat und der MIME-Typ der Antwort werden durch `fmt=`. Der Modifikator `req=img` ist der Standardanfragetyp und ist nicht explizit erforderlich. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration`.
+Das Antwortdatenformat und der MIME-Typ der Antwort werden durch `fmt=` bestimmt. Der Modifikator `req=img` ist der standardmäßige Anfragetyp und wird nicht explizit benötigt. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
 
 Andere Anfragebefehle werden wie dokumentiert angewendet.

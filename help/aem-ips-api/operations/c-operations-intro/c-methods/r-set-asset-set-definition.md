@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 6%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
@@ -29,27 +29,27 @@ Syntax
 
 ## Parameter {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**Eingabe (setAssetDefinitionParam)**
+**Input (setAssetDefinitionParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit dem Asset-Satz. |
 | assetHandle | `xsd:string` | Ja | Asset-Set-Handle |
-| setDefinition | `xsd:string` | Ja | Definitionszeichenfolge. Siehe unten. |
+| setDefinition | `xsd:string` | Ja | Zeichenfolge definieren. Siehe unten. |
 
-**Ausgabe (setAssetSetDefinitionReturn)**
+**Output (setAssetSetDefinitionReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## setDefinition-Parameter: Info {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**setDefinition-Funktionen**
+**setDefinition Functions**
 
-Angeben `setDefinition` Ersatzfunktionen inline. Diese werden bei der Katalogsuche oder bei der Veröffentlichung behoben. Ersatzzeichenfolgen haben das Format `${<substitution_func>}`und fügen Sie Folgendes hinzu:
+Geben Sie die Ersetzungsfunktionen für `setDefinition` inline an. Diese werden bei der Katalogsuche oder bei der Veröffentlichung behoben. Ersatzzeichenfolgen haben das Format `${<substitution_func>}` und enthalten Folgendes:
 
 >[!NOTE]
 >
->Die Handhabung von Literalen in den Parameterlisten muss von Klammern umgeben sein `([])`. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabezeichenfolge kopiert.
+>Handle-Literale in den Parameterlisten müssen von Klammern `([])` umgeben sein. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabezeichenfolge kopiert.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -64,7 +64,7 @@ Angeben `setDefinition` Ersatzfunktionen inline. Diese werden bei der Katalogsuc
    <td colname="col2"> Primärer Dateipfad. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalog([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Katalog-ID. </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;
 
 ## Beispiele {#section-739b42eec3074cafae285ec015a2d088}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setAssetSetDefinitionParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

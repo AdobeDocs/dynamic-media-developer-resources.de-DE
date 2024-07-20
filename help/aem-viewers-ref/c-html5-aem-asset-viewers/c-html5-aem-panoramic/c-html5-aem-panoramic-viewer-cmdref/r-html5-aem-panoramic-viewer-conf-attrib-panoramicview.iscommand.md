@@ -6,8 +6,8 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Konfigurationsattribut für Panorama-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Die Image Serving-Befehlszeichenfolge, die auf das Bild angewendet wird.  Wenn dies in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von HTTP-kodieren <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> as <span class="codeph"> %26</span> und <span class="codeph"> %3D</span>zurück. </p> </td> 
+   <td colname="col2"> <p> Die auf das Bild angewendete Image Serving-Befehlszeichenfolge.  Wenn sie in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span> HTTP-kodieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>

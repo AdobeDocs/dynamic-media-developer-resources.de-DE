@@ -1,5 +1,5 @@
 ---
-description: Standardmäßige Druckauflösung. Bietet eine Standarddruckauflösung, falls ein einzelner Katalogeintrag keinen gültigen Wert enthält.
+description: Standardmäßige Druckauflösung. Bietet eine standardmäßige Druckauflösung für den Fall, dass ein bestimmter Katalogdatensatz keinen gültigen Katalogwert PrintResolution enthält.
 solution: Experience Manager
 title: PrintResolution
 feature: Dynamic Media Classic,SDK/API
@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 31%
+source-wordcount: '70'
+ht-degree: 4%
 
 ---
 

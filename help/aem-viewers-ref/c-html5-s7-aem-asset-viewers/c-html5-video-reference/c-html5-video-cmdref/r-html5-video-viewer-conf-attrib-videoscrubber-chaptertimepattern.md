@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a159153a-c082-4415-9515-7b480282a31f
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Legt das Muster für die Zeit fest, die in der Titelleiste der Videokapitelbezeichnung angezeigt wird, wobei <span class="codeph"> h</span> Stunden, <span class="codeph"> m</span> Minuten beträgt und <span class="codeph"> s</span> ist Sekunden. </p> <p>Die Anzahl der für jede Zeiteinheit verwendeten Buchstaben bestimmt die Anzahl der für die Einheit anzuzeigenden Ziffern. Wenn die Zahl nicht in die angegebenen Ziffern passt, wird der entsprechende Wert in der nachfolgenden Einheit angezeigt. </p> <p>Wenn die aktuelle Filmzeit beispielsweise 67 Minuten und 5 Sekunden beträgt, wird das Zeitmuster <span class="codeph"> m:ss</span> wird als 67:05 angezeigt. Die gleiche Zeit wird als 1 angezeigt:07:5 , wenn das angegebene Zeitmuster <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Legt das Muster für die Zeit fest, die in der Titelleiste der Videokapitelbeschriftung angezeigt wird, wobei <span class="codeph"> h</span> Stunden, <span class="codeph"> m</span> Minuten und <span class="codeph"> s</span> Sekunden sind. </p> <p>Die Anzahl der für jede Zeiteinheit verwendeten Buchstaben bestimmt die Anzahl der für die Einheit anzuzeigenden Ziffern. Wenn die Zahl nicht in die angegebenen Ziffern passt, wird der entsprechende Wert in der nachfolgenden Einheit angezeigt. </p> <p>Wenn die aktuelle Filmzeit beispielsweise 67 Minuten und 5 Sekunden beträgt, wird das Zeitmuster <span class="codeph"> m:ss</span> als 67:05 angezeigt. Die gleiche Zeit wird als 1:07:5 angezeigt, wenn das angegebene Zeitmuster <span class="codeph"> h:mm:s</span> ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

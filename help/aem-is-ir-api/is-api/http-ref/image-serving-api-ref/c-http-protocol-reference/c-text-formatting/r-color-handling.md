@@ -7,32 +7,32 @@ role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Farbhandhabung{#color-handling}
 
-Die RTF-Spezifikation ermöglicht RGB-Farbwerte, die mit `\colortbl`. Jede Komponente wird separat mit der `\red`, `\green`, und `\blue` Befehle.
+Die RTF-Spezifikation ermöglicht RGB-Farbwerte, die mit `\colortbl` angegeben werden. Jede Komponente wird separat mit den Befehlen `\red`, `\green` und `\blue` bereitgestellt.
 
-Der proprietäre Befehl der RTF-Erweiterung `\cmykcolortbl` ermöglicht die Angabe von CMYK-Farben, wobei jede Farbkomponente mit der `\cyan`, `\magenta`, `\yellow`, und `\black` Befehle.
+Der proprietäre RTF-Erweiterungsbefehl `\cmykcolortbl` ermöglicht die Angabe von CMYK-Farben, wobei jede Farbkomponente mit den Befehlen `\cyan`, `\magenta`, `\yellow` und `\black` bereitgestellt wird.
 
-Farbkomponentenwerte für `\colortbl` liegen im Bereich von 0-255. Komponentenwerte für `\cmykcolortbl` liegen im Bereich von 0-100.
+Farbkomponentenwerte für `\colortbl` liegen im Bereich von 0-255. Die Komponentenwerte für `\cmykcolortbl` liegen im Bereich von 0 bis 100.
 
-RTF-Erweiterung, Befehl `\*\iscolortbl`, unterstützt von `textPs=`bietet eine Möglichkeit, eine Farbtabelle mit standardmäßigen Image Serving-Farbwerten mit voller RGB-, Grau-, CMYK- und Alpha-Unterstützung anzugeben. Sie hat die folgende Syntax:
+Der RTF-Erweiterungsbefehl `\*\iscolortbl`, der von `textPs=` unterstützt wird, bietet eine Möglichkeit, eine Farbtabelle mit standardmäßigen Image Serving-Farbwerten mit voller RGB-, Grau-, CMYK- und Alpha-Unterstützung anzugeben. Sie hat die folgende Syntax:
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
-*[!DNL colors]* einen oder mehrere IS-Farbwerte, durch &#39;;&#39; getrennt
+*[!DNL colors]* Ein oder mehrere IS-Farbwerte, getrennt durch &#39;;&#39;
 
-Es kann mehr als ein Farbtabellentyp in derselben `text=` oder `textPs=` RTF-Zeichenfolge. Jede Farbtabelle kann eine andere Anzahl von Einträgen aufweisen. Image Serving versucht, Farben in dieser Reihenfolge zu finden: `\iscolortbl` before `\cmykcolortbl` (nur wenn der Pixeltyp der Textebene CMYK ist) vor `\colortbl`. Für `textPs=` Nur Farben werden bei Bedarf zwischen CMYK und RGB genau konvertiert (z. B. wenn RGB-Farben angegeben, aber eine CMYK-Ausgabe erforderlich ist). Wenn keine Farbe für einen bestimmten Indexwert gefunden wird, wird die Standardfarbe (schwarz) verwendet.
+In derselben RTF-Zeichenfolge für `text=` oder `textPs=` kann mehr als ein Farbtabellentyp angegeben werden. Jede Farbtabelle kann eine andere Anzahl von Einträgen aufweisen. Image Serving versucht, Farben in dieser Reihenfolge zu finden: `\iscolortbl` vor `\cmykcolortbl` (nur wenn der Pixeltyp der Textebene CMYK ist) vor `\colortbl`. Nur für `textPs=` werden Farben bei Bedarf genau zwischen CMYK und RGB konvertiert (z. B. wenn RGB-Farben angegeben, aber eine CMYK-Ausgabe erforderlich ist). Wenn keine Farbe für einen bestimmten Indexwert gefunden wird, wird die Standardfarbe (schwarz) verwendet.
 
-Siehe Abschnitt [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) für eine Beschreibung der Syntax der IS-Farbwerte.
+Eine Beschreibung der Syntax der IS-Farbwerte finden Sie unter [Farbe](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) .
 
 ## Einschränkungen {#section-c5173e672d854e4aa9656844f7fc4d0e}
 
-Der Modifikator `text=` unterstützt nicht `\*\iscolortbl`. Der Modifikator `textPs=` unterstützt nicht `\cmykcolortbl`.
+Der Modifikator `text=` unterstützt `\*\iscolortbl` nicht. Der Modifikator `textPs=` unterstützt `\cmykcolortbl` nicht.
 
 Farbauswahlen werden beim Rendern von Fotofonts ignoriert.
 

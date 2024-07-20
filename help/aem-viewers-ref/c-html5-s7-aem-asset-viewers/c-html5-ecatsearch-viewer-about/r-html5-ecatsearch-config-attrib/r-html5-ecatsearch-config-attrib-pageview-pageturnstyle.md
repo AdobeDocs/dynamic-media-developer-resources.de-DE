@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 2669c8e2-c942-420f-8262-9d76d5c499a2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 2%
 
 ---
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`]
+[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`]
 
-Steuert das Erscheinungsbild der Komponente, wenn [!DNL `PageView.frametransition`] auf [!DNL `turn`] oder [!DNL `auto`] auf Desktop-Systemen eingestellt ist.
+Steuert das Erscheinungsbild der Komponente, wenn auf Desktop-Systemen [!DNL `PageView.frametransition`] auf [!DNL `turn`] oder [!DNL `auto`] gesetzt ist.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 

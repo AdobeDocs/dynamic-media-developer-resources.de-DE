@@ -20,9 +20,9 @@ Das Vorabladen von Bildern eignet sich gut für die gängigste Viewer-Einbettung
 
 Die Funktion weist jedoch bestimmte Einschränkungen auf, wenn andere Einbettungsmethoden oder bestimmte Konfigurationsoptionen verwendet werden. In folgenden Fällen kann das Vorausfüllen des Bildes nicht ordnungsgemäß dargestellt werden:
 
-* Wenn der Viewer eine feste Größe hat und die Größe entweder mithilfe des Konfigurationsattributs `stagesize` innerhalb des Viewer-Vorgabendatensatzes definiert wird. Oder verwenden Sie die externe Viewer-CSS-Datei für das Viewer-Container-Element der obersten Ebene.
+* Wenn die Größe des Viewers fest ist und die Größe entweder mithilfe des Konfigurationsattributs `stagesize` innerhalb des Viewer-Vorgabendatensatzes definiert wird. Oder verwenden Sie die externe Viewer-CSS-Datei für das Viewer-Container-Element der obersten Ebene.
 * Bei Verwendung der flexiblen Größe, die mit der Breite und Höhe definierten Methode der Viewer-Einbettung einbettet wird. Siehe Überschrift [Flexible Größe, eingebettet in Breite und Höhe definiert](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-Deaktivieren Sie die Funktion zum Vorausfüllen von Bildern mit dem Konfigurationsattribut `preloadImage` , wenn Sie den Viewer in einem der oben aufgeführten Vorgangsmodi verwenden.
+Deaktivieren Sie die Funktion zum Vorausfüllen von Bildern mithilfe des Konfigurationsattributs `preloadImage` , wenn Sie den Viewer in einem der oben aufgeführten Vorgangsmodi verwenden.
 
 Außerdem wird das Vorlade-Bild nicht verwendet - auch wenn es in der Konfiguration aktiviert ist - wenn der Viewer in das DOM-Element eingebettet ist und die CSS-Einstellung `display:none` verwendet oder von der DOM-Struktur getrennt ist.

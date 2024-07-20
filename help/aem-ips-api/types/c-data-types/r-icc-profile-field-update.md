@@ -1,5 +1,5 @@
 ---
-description: Aktualisieren Sie Informationen für ICC-Profileigenschaften.
+description: Informationen für ICC-Profileigenschaften aktualisieren.
 solution: Experience Manager
 title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL IccProfileFieldUpdate]{#iccprofilefieldupdate}
 
-Aktualisieren Sie Informationen für ICC-Profileigenschaften.
+Informationen für ICC-Profileigenschaften aktualisieren.
 
 Syntax
 

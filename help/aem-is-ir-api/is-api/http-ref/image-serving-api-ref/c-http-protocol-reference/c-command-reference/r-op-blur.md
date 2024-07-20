@@ -25,11 +25,11 @@ Weichzeichnen Sie das Bild. Wendet einen Weichzeichenfilter auf die Bilddaten an
  </tr> 
 </table>
 
-*`radius`* in Pixel relativ zum Composite-Bild angegeben. Wird auch verwendet, um Ebeneneffekte zu weichen.
+*`radius`* ist in Pixel relativ zum Composite-Bild. Wird auch verwendet, um Ebeneneffekte zu weichen.
 
 ## Eigenschaften {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`
 
 ## Standard {#section-a976cb86620d489085a8fc9bae2626c0}
 
@@ -37,6 +37,6 @@ Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, 
 
 ## Beispiel {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Weichzeichnen Sie den Hintergrund eines Bildes. Ein separates Maskenbild wird durch `catalog::MaskPath`. Beachten Sie Folgendes: `layer=0`explizit angegeben werden, andernfalls `op_blur` auf das gesamte zusammengesetzte Bild angewendet werden.
+Weichzeichnen Sie den Hintergrund eines Bildes. Ein separates Maskenbild wird durch `catalog::MaskPath` referenziert. Beachten Sie, dass `layer=0`explizit angegeben werden muss, andernfalls wird `op_blur` auf das gesamte zusammengesetzte Bild angewendet.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

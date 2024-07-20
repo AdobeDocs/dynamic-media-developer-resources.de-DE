@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2ec8c718-35f0-40d0-ae5d-d80111eb1b41
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 14%
 <table id="table_4B8CEC134277403A840A050BD8C8CE2B"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Gibt an, ob die Komponente das Scrollen stoppt, wenn eines der Muster teilweise sichtbar ist (Scrollen ist nicht ausgerichtet). Der empfohlene Wert lautet <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td> <p> Gibt an, ob die Komponente das Scrollen stoppt, wenn eines der Muster teilweise sichtbar ist (Scrollen ist nicht ausgerichtet). Der empfohlene Wert ist <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

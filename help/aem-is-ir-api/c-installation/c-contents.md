@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
 
 >[!NOTE]
 >
->Zusätzliche Dateien und Ordner sind vorhanden; ändern Sie sie nicht.
+>Zusätzliche Dateien und Ordner sind vorhanden. Ändern Sie sie nicht.
 
 <table id="table_F9FE5E0622A54CCD88461078FD5EA3DC"> 
  <thead> 
@@ -76,7 +76,7 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> PsLayers (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>[!DNL Photoshop] Extraktion von Textebenen-Variablen. </p> </td> 
+   <td colname="col4"> <p>[!DNL Photoshop] Extraktion von Textschichtvariablen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -88,13 +88,13 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> Vntc (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>Bildwiedergabe-Vignetten, Kabine und Fensterabdeckungs-Konverter-Dienstprogramm. </p> </td> 
+   <td colname="col4"> <p>Bildwiedergabe-Vignetten, Kabine und Fensterbedeckungsdienstprogramm. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Ordner "Data Caches"; kann bei der Installation oder durch manuelles Bearbeiten von Konfigurationsdateien konfiguriert werden. </p> </td> 
+   <td colname="col4"> <p>Ordner "Data Caches"; konfigurierbar bei der Installation oder manuellen Bearbeitung von Konfigurationsdateien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -118,7 +118,7 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>IS-Ordner für Bildkataloge; kann bei der Installation oder durch manuelles Bearbeiten von Konfigurationsdateien konfiguriert werden. </p> </td> 
+   <td colname="col4"> <p>IS-Ordner für Bildkataloge; konfigurierbar bei der Installation oder manuellen Bearbeitung von Konfigurationsdateien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -130,7 +130,7 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> ist erforderlich, damit der Server funktioniert. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> ist erforderlich, damit der Server funktioniert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -164,15 +164,15 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> Bilder/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> images/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Ordner mit den Quelldaten von Image Serving; die Konfigurationsdateien manuell bearbeiten. </p> </td> 
+   <td colname="col4"> <p>Ordner mit den Quelldaten für Image Serving; manuelle Bearbeitung der Konfigurationsdateien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> protokolle/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> logs/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Alle PS- und IS-Protokolldaten werden in diesen Ordner geschrieben. die Konfigurationsdateien manuell bearbeiten. </p> </td> 
+   <td colname="col4"> <p>Alle PS- und IS-Protokolldaten werden in diesen Ordner geschrieben. Bearbeiten Sie die Konfigurationsdateien manuell. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -208,11 +208,11 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Datenquellenordner für statische Inhalte; die Konfigurationsdateien manuell bearbeiten. </p> </td> 
+   <td colname="col4"> <p>Datenquellenordner für statischen Inhalt; Konfigurationsdateien manuell bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> Tools/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> tools/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -244,7 +244,7 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Ordner "Image Rendering catalogs"; kann bei der Installation oder durch manuelles Bearbeiten von Konfigurationsdateien konfiguriert werden. </p> </td> 
+   <td colname="col4"> <p>Ordner für Bildrendering-Kataloge; konfigurierbar bei der Installation oder durch manuelles Bearbeiten von Konfigurationsdateien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -262,7 +262,7 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> ist erforderlich, damit der Server funktioniert. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> ist erforderlich, damit der Server funktioniert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -272,9 +272,9 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> Ressourcen/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> resources/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Ordner mit Quelldaten zum Rendern von Bildern; die Konfigurationsdateien manuell bearbeiten. </p> </td> 
+   <td colname="col4"> <p>Ordner mit Quelldaten zum Rendern von Bildern; manuelles Bearbeiten von Konfigurationsdateien. </p> </td> 
   </tr> 
  </tbody> 
 </table>

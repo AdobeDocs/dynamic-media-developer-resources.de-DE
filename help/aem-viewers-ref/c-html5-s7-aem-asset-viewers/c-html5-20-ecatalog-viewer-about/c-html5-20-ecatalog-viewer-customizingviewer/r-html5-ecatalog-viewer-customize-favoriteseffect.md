@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 1%
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Das Erscheinungsbild des Favoritensymbols wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p>Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe des Symbols. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ Beispiel: Richten Sie ein Favoritensymbol mit 36 x 36 Pixel ein.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die `cursortype` -Attributauswahl, die Sie auf die `.s7favoriteseffect` -Klasse und steuert den Typ des Cursors basierend auf der ausgewählten Benutzeraktion. Folgendes `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die Sie auf die Klasse `.s7favoriteseffect` anwenden können, und steuert den Typ des Cursors basierend auf der ausgewählten Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 

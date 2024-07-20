@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 11%
+source-wordcount: '179'
+ht-degree: 10%
 
 ---
 
@@ -28,7 +28,7 @@ Syntax
 
 ## Parameter {#section-169d8e317417415b87df86242f65710e}
 
-**Eingabe (removeProjectAssetsParam)**
+**Input (removeProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -36,7 +36,7 @@ Syntax
 | projectHandle | `xsd:string` | Ja | Der Handle für die Projekt-Assets, die Sie verschieben möchten. |
 | assetHandleArray | `types:HandleArray` | Ja | Array von Handles zu den Assets, die Sie verschieben möchten. |
 
-**Ausgabe (removeProjectAssetsReturn)**
+**Output (removeProjectAssetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -50,7 +50,7 @@ Syntax
 
 Mit diesem Codebeispiel werden zwei Assets aus einem Projekt entfernt (vom Projekthandle angegeben).
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <removeProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

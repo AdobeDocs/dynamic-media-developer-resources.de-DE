@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 vntc erzeugt Textdaten, die entweder an die Stderr- oder die Protokolldatei gesendet werden.
 
-Die Daten werden als eine `name=value`-Eigenschaft pro Textdatensatz formatiert. Zeichenfolgenwerte werden nicht in Anführungszeichen gesetzt. Warn- und Fehlermeldungen werden immer an `stderr` gesendet, auch wenn `-log` angegeben ist.
+Die Daten werden als eine `name=value` -Eigenschaft pro Textdatensatz formatiert. Zeichenfolgenwerte werden nicht in Anführungszeichen gesetzt. Warn- und Fehlermeldungen werden immer an `stderr` gesendet, auch wenn `-log` angegeben ist.
 
-Bestimmte Eigenschaften können mehrmals in derselben Ausgabe auftreten. Eine Sequenznummer, die mit 0 beginnt, wird an den Namen dieser Eigenschaften angehängt, getrennt durch einen Punkt. Solche Eigenschaften werden unten mit dem Suffix `. *`n`*` nach dem Eigenschaftsnamen gekennzeichnet.
+Bestimmte Eigenschaften können mehrmals in derselben Ausgabe auftreten. Eine Sequenznummer, die mit 0 beginnt, wird an den Namen dieser Eigenschaften angehängt, getrennt durch einen Punkt. Solche Eigenschaften werden unten mit dem Suffix &quot;`. *`n`*`&quot;nach dem Eigenschaftsnamen gekennzeichnet.
 
 Die folgenden Eigenschaften werden generiert:
 
 <table id="simpletable_32AAA1A2DDB04BC6B86885E6223BF609"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">bgc=<span class="varname"> ival</span>, <span class="varname"> ival</span>, <span class="varname"> ival</span></span> </p> </td> 
-  <td class="stentry"> <p>Die RGB-Hintergrundfarbe des Kabinettstils. Nur Kabinettstile. </p></td> 
+  <td class="stentry"> <p><span class="codeph">bgc=<span class="varname"> ival</span>,<span class="varname"> ival</span>,<span class="varname"> ival</span></span> </p> </td> 
+  <td class="stentry"> <p>Die RGB-Hintergrundfarbe des Schrank-Stils. Nur Kabinettstile. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">defaultFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Die Standardversion der Ausgabedatei. Auch die höchste Dateiversionsnummer, die diese Version von <span class="filepath"> vntc</span> generieren kann. </p></td> 
+  <td class="stentry"> <p>Die Standardversion der Ausgabedatei. Auch die höchste Versionsnummer der Datei, die diese Version von <span class="filepath"> vntc</span> generieren kann. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">Fehler.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">error.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
   <td class="stentry"> <p>Fehlermeldung. Das Vorhandensein von Fehlermeldungen weist in der Regel darauf hin, dass entweder keine Ausgabedatei(n) erstellt wurde oder dass sie nicht für das Rendern von Bildern geeignet sind. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -41,11 +41,11 @@ Die folgenden Eigenschaften werden generiert:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">glass=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> ivalis 1, wenn der Schrank Glastüren enthält, andernfalls 0. Nur Kabinettstile. </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> ist 1, wenn der Schrank Glastüren enthält, andernfalls 0. Nur Kabinettstile. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">iccProfile=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>Der Name des in <span class="varname"> sourceFile</span> eingebetteten iccProfile. </p> <p>Leer, wenn <span class="varname"> sourceFile</span> nicht farbverwaltet ist. Nur Vignetten. </p></td> 
+  <td class="stentry"> <p>Der Name des in die <span class="varname"> sourceFile</span> eingebetteten iccProfile. </p> <p>Leer, wenn <span class="varname"> sourceFile</span> nicht farbverwaltet ist. Nur Vignetten. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">info.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
@@ -53,15 +53,15 @@ Die folgenden Eigenschaften werden generiert:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceIsMaster=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> ivalis 1, wenn  <span class="varname"> </span> sourceFileis eine Übergeordnete Vignette ist, 0, wenn sie zuvor mit  <span class="filepath"> </span> vnUpdate oder  <span class="filepath"> vntc</span> verarbeitet wurde. Nur Vignetten. </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> ist 1, wenn <span class="varname"> sourceFile</span> eine Master-Vignette ist, 0, wenn sie zuvor mit <span class="filepath"> vnUpdate</span> oder <span class="filepath"> vntc</span> verarbeitet wurde. Nur Vignetten. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">Übergeordnet=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> ivalis 0, wenn  <span class="varname"> </span> sourceFileis einen Schaltflächenstil mit JPEG-Bilddaten enthält (in diesem Fall wird auch eine Warnung ausgegeben), andernfalls 1. Kabinett und Fenster, die nur Stildateien abdecken. </p></td> 
+  <td class="stentry"> <p><span class="codeph">master=<span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> ist 0, wenn <span class="varname"> sourceFile</span> ein Schaltflächenstil ist, der JPEG-Bilddaten enthält (in diesem Fall wird auch eine Warnung ausgegeben), andernfalls 1. Kabinett und Fenster, die nur Stildateien abdecken. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>Die maximale Speicherbegrenzung, die für den laufenden Prozess <span class="filepath"> vntc</span> gilt. <span class="varname"> </span> string ist entweder  <span class="varname"> ival</span>,  <span class="varname"> ivalK</span>,  <span class="varname"> ivalM</span>,  <span class="varname"> ivalG</span> oder  <span class="codeph"> 0</span>  (deaktiviert). Dabei beziehen sich <span class="varname"> K</span>, <span class="varname"> M</span> und <span class="varname"> G</span> auf Kilobyte (1024 Byte), Megabyte (1048576 Byte) und Gigabytes (1073741824 Bytes ). </p></td> 
+  <td class="stentry"> <p>Die maximale Speicherbegrenzung, die für den laufenden <span class="filepath"> vntc</span> -Prozess gilt. <span class="varname"> string</span> ist entweder <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span> oder <span class="codeph"> 0</span> (deaktiviert). Dabei beziehen sich <span class="varname"> K</span>, <span class="varname"> M</span> und <span class="varname"> G</span> auf Kilobyte (1024 Byte), Megabyte (1048576 Byte) und Gigabyte (1073741824 Byte). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 
@@ -69,7 +69,7 @@ Die folgenden Eigenschaften werden generiert:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numMaterials=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Die Anzahl der in <span class="varname"> sourceFile</span> gespeicherten Materialien. Nur Vignetten. </p></td> 
+  <td class="stentry"> <p>Die Anzahl der in der <span class="varname"> sourceFile</span> gespeicherten Materialien. Nur Vignetten. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numPanels=<span class="codeph"> ival</span></span> </p></td> 
@@ -123,19 +123,19 @@ Die folgenden Eigenschaften werden generiert:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">suffix=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> </span> vntif  <span class="varname"> </span> sourceFileis a vignette,  <span class="codeph"> </span> vncif  <span class="varname"> </span> sourceFileis a ;  <span class="codeph"> </span> vnwif  <span class="varname"> </span> sourceFileis a window cover style. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> vnt</span> , wenn <span class="varname"> sourceFile</span> eine Vignette ist, <span class="codeph"> vnc</span>, wenn <span class="varname"> sourceFile</span> ein Kabinettstil ist, oder <span class="codeph"> vnw</span>, wenn <span class="varname"> sourceFile</span> ein Fenster mit Stil ist. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> ival</span></span> </p></td> 
   <td class="stentry"> <p>Der mit <span class="codeph"> -version</span> angegebene Wert oder der Wert von<span class="codeph"> defaultFileVersion</span> , wenn<span class="codeph"> -version</span> nicht angegeben wurde. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">targetSizes=<span class="varname"> ival</span>, <span class="varname"> ival</span>*[, <span class="varname"> ival</span>, <span class="varname"> ival</span>]</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">targetSizes=<span class="varname"> ival</span>,<span class="varname"> ival</span>*[,<span class="varname"> ival</span>,<span class="varname"> ival</span>]</span> </p></td> 
   <td class="stentry"> <p>Kommagetrennte Liste der Pixelgrößen aller Ansichten in der Ausgabemignette (die Vollbildansicht für Pyramid-Vignetten), des standardmäßigen Bereichsbilds in einer Schrank-Style-Datei oder des ersten Deckkraftbilds eines Fensters, das die Stildatei überdeckt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">texturable=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> ivalis 1, wenn der Kabinettstil texturierbar ist, ansonsten 0. Nicht vorhanden für Vignetten- und Fensterbeläge-Stildateien. </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> ist 1, wenn der Kabinenstil texturierbar ist, andernfalls 0. Nicht vorhanden für Vignetten- und Fensterbeläge-Stildateien. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">Warnung.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 

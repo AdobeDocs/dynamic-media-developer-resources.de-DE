@@ -8,7 +8,7 @@ exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -33,14 +33,14 @@ Syntax
 
 ## Parameter {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Eingabe (deleteAssetParam)**
+**Input (deleteAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Ordner gehört. |
 | assetHandle | `xsd:string` | Ja | Das Handle für das zu löschende Asset. |
 
-**Ausgabe (deleteAssetParam)**
+**Output (deleteAssetParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -48,7 +48,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 Mit diesem Beispielcode werden alle Asset-Typen aus einem bestimmten Unternehmen gelöscht. Dazu ist ein Asset-Handle erforderlich, das Sie von einem anderen Vorgang abrufen müssen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:deleteAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

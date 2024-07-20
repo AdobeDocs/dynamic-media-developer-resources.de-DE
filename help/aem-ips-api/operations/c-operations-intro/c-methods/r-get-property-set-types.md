@@ -8,7 +8,7 @@ exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -32,7 +32,7 @@ Syntax
 
 ## Parameter {#section-ac3ed9e036b54ea993f544046ff0e15d}
 
-**Eingabe (getPropertySetTypesParam)**
+**Input (getPropertySetTypesParam)**
 
 <table id="table_2590368FEEF04AD4B074412CBBA90F88"> 
  <thead> 
@@ -53,7 +53,7 @@ Syntax
  </tbody> 
 </table>
 
-**Ausgabe (getPropertySetTypesReturn)**
+**Output (getPropertySetTypesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -61,7 +61,7 @@ Syntax
 
 ## Beispiele {#section-280c406a90864409856aee44d4069a52}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getPropertySetTypesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

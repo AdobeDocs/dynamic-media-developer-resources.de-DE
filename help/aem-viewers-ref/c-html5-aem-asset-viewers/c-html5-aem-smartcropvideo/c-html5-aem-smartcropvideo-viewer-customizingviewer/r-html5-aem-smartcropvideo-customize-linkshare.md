@@ -24,7 +24,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Linkfreigabe&quot;wird mit der folg
 .s7smartcropvideoviewer .s7linkshare
 ```
 
-**CSS-Eigenschaften des Tools zur Linkfreigabe**
+**CSS-Eigenschaften des Tools für die Linkfreigabe**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -33,7 +33,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Linkfreigabe&quot;wird mit der folg
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -49,11 +49,11 @@ Das Erscheinungsbild der Schaltfläche &quot;Linkfreigabe&quot;wird mit der folg
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in der zugehörigen CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Zum Einrichten einer Linkfreigabe-Schaltfläche mit 28 x 28 Pixel und zum Anzeigen eines anderen Bildes für jeden der vier verschiedenen Schaltflächenstatus:
 
@@ -129,7 +129,7 @@ Standardmäßig wird das modale Dialogfeld zentriert auf dem Bildschirm auf Desk
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
+**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -194,7 +194,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -219,11 +219,11 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schrifthöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p> Vertikale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
@@ -260,7 +260,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -280,9 +280,9 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 22 x 12 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Schließlich eine 28 x 28 Pixel große Schaltfläche Schließen , die zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert ist:
 
@@ -347,7 +347,7 @@ Die Fußzeile verfügt über einen inneren Container, der die Schaltfläche beh�
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
-**CSS-Eigenschaften des Schaltflächenbehälters des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldschaltflächen-Containers**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -375,7 +375,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -391,7 +391,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 
 >[!NOTE]
 >
->Die Schaltfläche &quot;Alle auswählen&quot;unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Die Schaltfläche Alle auswählen unterstützt die Attributauswahl `state` , mit der verschiedene Skins auf unterschiedliche Schaltflächenstatus angewendet werden können.
 
 Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -399,7 +399,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Abbrechen&quot;im Dialogfeld**
+**CSS-Eigenschaften des Dialogfelds &quot;Abbrechen&quot;-Schaltfläche**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -408,7 +408,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -424,7 +424,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
 Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
@@ -437,11 +437,11 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -463,7 +463,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
  </tbody> 
 </table>
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Zum Einrichten einer Fußzeile des Dialogfelds mit einer Schaltfläche &quot;Abbrechen&quot;von 64 x 34, deren Textfarbe und Hintergrundfarbe je nach Schaltflächenstatus unterschiedlich sind:
 
@@ -536,7 +536,7 @@ Der Hauptdialogbereich zwischen der Kopf- und Fußzeile enthält Dialogfeldinhal
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des Hauptdialogfeld-Bereichs. Sie sollte nur angegeben werden, wenn das Dialogfeld im Desktop-Modus funktioniert. Dies ist nicht möglich, wenn die Größe des Dialogfelds so geändert wird, dass es das gesamte Browser-Fenster belegt. </p> </td> 
   </tr> 
   <tr> 
@@ -598,11 +598,11 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
@@ -616,7 +616,7 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
  </tbody> 
 </table>
 
-Die Beschriftungen des Dialogfelds können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
+Die Beschriftungen des Dialogfelds können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) .
 
 Beispiel: Um alle Beschriftungen so einzurichten, dass sie grau und fett mit einer 9-Pixel-Schriftart sind:
 
@@ -634,7 +634,7 @@ Die Größe der Textkopie, die über dem Link angezeigt wird, wird mit der folge
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften des für die gesamte Eingabe des Dialogfelds vorgesehenen Felds**
+**CSS-Eigenschaften des Eingabefelds des Dialogfelds**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -664,7 +664,7 @@ Der Freigabe-Link ist in einen Container eingeschlossen und wird mit der folgend
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldeingabecontainers**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -694,7 +694,7 @@ Der Freigabe-Link selbst wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7smartcropvideoviewer .s7linkdialog .s7dialoglink
 ```
 
-**CSS-Eigenschaften des Dialogfeldfreigabe-Links**
+**CSS-Eigenschaften des Dialogfelds verwenden Link freigeben**
 
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 

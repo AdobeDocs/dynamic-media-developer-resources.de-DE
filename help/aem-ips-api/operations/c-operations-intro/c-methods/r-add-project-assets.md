@@ -1,5 +1,5 @@
 ---
-description: Fügt einem Projekt ein oder mehrere Assets hinzu.
+description: Fügt einem Projekt mindestens ein Asset hinzu.
 solution: Experience Manager
 title: addProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
 # addProjectAssets{#addprojectassets}
 
-Fügt einem Projekt ein oder mehrere Assets hinzu.
+Fügt einem Projekt mindestens ein Asset hinzu.
 
 Syntax
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-20d498e971b6466298e60c8a77fc32b2}
 
-**Eingabe (addProjectAssetsParam)**
+**Input (addProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Syntax
 | projectHandle | `xsd:string` | Ja | Handle mit dem Projekt, dem Sie Assets hinzufügen. |
 | projectHandleArray | `xsd:HandleArray` | Ja | Array von Assets, die Sie zum aktuellen Projekt hinzufügen. |
 
-**Ausgabe (addProjectAssetsParam)**
+**Output (addProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,9 +49,9 @@ Syntax
 
 ## Beispiele {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-In diesem Beispiel wird einem in der Anfrage angegebenen Projekt ein einzelnes Asset (referenziert durch sein Handle) in einem Asset-Handle-Array hinzugefügt. Der Vorgang wurde erfolgreich abgeschlossen, als die Antwort `successCount` return `1`.
+In diesem Beispiel wird einem in der Anfrage angegebenen Projekt ein einzelnes Asset (referenziert durch sein Handle) in einem Asset-Handle-Array hinzugefügt. Der Vorgang wurde erfolgreich abgeschlossen, wenn die Antwort `successCount` `1` zurückgibt.
 
-**Anforderung**
+**Anfrage**
 
 ```java {.line-numbers}
 <addProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

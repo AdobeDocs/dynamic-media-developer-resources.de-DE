@@ -1,5 +1,5 @@
 ---
-description: Legt bildspezifische Felder für ein oder mehrere Bild-Assets fest.
+description: Legt bildspezifische Felder für Bild-Assets fest.
 solution: Experience Manager
 title: batchSetImageFields
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # batchSetImageFields{#batchsetimagefields}
 
-Legt bildspezifische Felder für ein oder mehrere Bild-Assets fest.
+Legt bildspezifische Felder für Bild-Assets fest.
 
 Syntax
 
@@ -29,14 +29,14 @@ Syntax
 
 ## Parameter {#section-4969815cf67c4d11b13bb2017b3604e8}
 
-**Eingabe (batchSetImageFields)**
+**Input (batchSetImageFields)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das die Bild-Assets enthält. |
 | updateArray | `types:ImageFieldUpdateArray` | Ja | Das Array des Bildfelds wird aktualisiert. |
 
-**Ausgabe (batchSetImageFields)**
+**Output (batchSetImageFields)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -50,7 +50,7 @@ Syntax
 
 In diesem Beispiel werden Daten in die Felder zweier Bilder in einem Aktualisierungs-Array gesetzt. Im Array werden die Bilder durch ihre Asset-Handles angegeben und enthalten die Auflösung in Pixel, X- und Y-Position-Ankerkoordinaten und Benutzerdaten. Die Antwort gibt an, dass Felder für beide Bilder erfolgreich festgelegt wurden.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <batchSetImageFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

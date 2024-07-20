@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
@@ -49,5 +49,5 @@ Syntax
 
 **getFolderTree**
 
-* `excludeFieldArray` und `getUniqueMetadataValues` hinzugefügt.
+* `excludeFieldArray` und `getUniqueMetadataValues` wurden hinzugefügt.
 * `fieldHandle` wurde zu einem erforderlichen Parameter gemacht.

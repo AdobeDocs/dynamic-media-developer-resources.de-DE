@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Das angezeigte Bild für das Wiedergabesymbol. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -41,15 +41,15 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p> Die Breite des Wiedergabesymbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Wiedergabesymbols. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Symboleffekt unterstützt die Attributauswahl `state`. Der Attributselektor `state="play"` wird verwendet, wenn das Video mitten in der Wiedergabe angehalten wird, und `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
+Der Symboleffekt unterstützt die &quot;`state`&quot;-Attributauswahl. Der Attributselektor &quot;`state="play"`&quot; wird verwendet, wenn das Video mitten in der Wiedergabe angehalten wird, und &quot;`state="replay"`&quot;, wenn sich der Abspielkopf am Ende des Streams befindet.
 
-**Beispiel** : Richten Sie ein Wiedergabesymbol von 100 x 100 Pixel ein.
+**Beispiel** - Richten Sie ein Wiedergabesymbol von 100 x 100 Pixel ein.
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 

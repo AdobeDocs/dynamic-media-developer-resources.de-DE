@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 09be34c8-facc-40c3-ba15-c48bd93b3be1
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,11 @@ CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für 
 
 ## Eigenschaften {#section-0cee77438d914c319ec876edb3490821}
 
-Textzeichenfolge. Wenn angegeben, muss eine gültige sein. `icc::Name` Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder einen Dateipfad relativ zu `attribute::RootPath`. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
 
 ## Standard {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-Vererbt von `default::IccProfileSrcCmyk` wenn nicht definiert oder leer ist. Wenn `attribute::IccProfileSrcCmyk` wird nicht in ein gültiges Profil aufgelöst; `attribute::IccProfileCmyk` stattdessen verwendet.
+Wird von `default::IccProfileSrcCmyk` übernommen, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcCmyk` nicht in ein gültiges Profil aufgelöst wird, wird stattdessen `attribute::IccProfileCmyk` verwendet.
 
 ## Verwandte Themen {#section-88adddd70265459a9a5d2f50829a4ba7}
 

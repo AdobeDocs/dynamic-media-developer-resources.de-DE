@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1cc46e3d-c9c7-4946-b957-ba4eff20dee0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '73'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. </p> <p>In FavoritenView wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. </p> <p>Dieser Modifikator gibt an, wie der interne Miniaturansichtsbehälter horizontal innerhalb der Komponente positioniert wird. </p> </td> 
+   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. </p> <p>In FavoritenView wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. </p> <p>Dieser Modifikator gibt an, wie der interne Container für Miniaturansichten horizontal in der Komponente platziert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

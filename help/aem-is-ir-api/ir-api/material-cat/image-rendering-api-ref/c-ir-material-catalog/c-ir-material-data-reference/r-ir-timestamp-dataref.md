@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '264'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Zeitstempel der Dateiänderung. Gibt Datum/Uhrzeit der letzten Änderung des Bildes und/oder der an diesen Katalogdatensatz angehängten Datendateien an.
 
-Wenn `attribute::UseLastModified` festgelegt ist, wird die neueste `catalog::TimeStamp` und `vignette::TimeStamp` -Werte aller Materialien und der an der Anfrage beteiligten Vignette werden in der HTTP-Antwort als Header mit der letzten Änderung zurückgegeben.
+Wenn `attribute::UseLastModified` festgelegt ist, wird der letzte der `catalog::TimeStamp` - und `vignette::TimeStamp` -Werte aller Materialien und die Vignette, die an der Anfrage beteiligt sind, in der HTTP-Antwort als zuletzt geänderte Kopfzeile zurückgegeben.
 
 >[!NOTE]
 >
 >Die tatsächlichen Dateizeiten der Bilder oder Datendateien, die an diesen Katalogdatensatz angehängt sind, werden zu diesem Zweck nie verwendet.
 
-Die `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet (siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
+Der `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet (siehe [Attribut::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
 
 ## Eigenschaften {#section-42f09e375e72492b87a3a486da7df808}
 
@@ -36,11 +36,11 @@ Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl
 * *[!DNL zzz]* ist ein aus drei oder vier Zeichen bestehender Zeitzonen-Code, z. B. &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden. Beispiel: &quot;PST&quot;für die Pacific Standard-Zeit im Vergleich zu &quot;PDT&quot;für die Sommerzeit im Pazifik.
 * *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
 
-Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und der Änderungszeitpunkt des *Katalog* Die .ini-Datei wird stattdessen verwendet.
+Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der Datei *catalog*.ini verwendet.
 
 ## Standard {#section-e2c126c9e7294662b23944ab8d14866b}
 
-Die `attribute::TimeStamp` ist das Feld, das leer ist oder nicht vorhanden ist.
+Der Wert `attribute::TimeStamp` ist das leere oder nicht vorhandene Feld.
 
 ## Verwandte Themen {#section-876f1d1b50dc4501b605820015a29451}
 

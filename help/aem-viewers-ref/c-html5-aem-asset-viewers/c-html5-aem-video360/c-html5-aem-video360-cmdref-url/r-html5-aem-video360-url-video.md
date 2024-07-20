@@ -8,7 +8,7 @@ exl-id: 704097af-f108-42f7-92e7-5dd75916a045
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 20%
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ URL-Befehl für Video360-Viewer.
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Erforderlich. (Sofern nicht der Parameter `asset` verwendet wird. Siehe [Externe Video-Unterstützung](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+Erforderlich. (Sofern nicht der Parameter `asset` verwendet wird. Siehe [Unterstützung für externe Videos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 

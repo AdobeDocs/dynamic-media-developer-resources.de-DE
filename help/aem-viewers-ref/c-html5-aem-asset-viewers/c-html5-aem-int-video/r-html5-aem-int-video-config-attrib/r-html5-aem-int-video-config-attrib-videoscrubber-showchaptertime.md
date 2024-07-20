@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a030aa84-182a-48b6-9616-dc07e48dd05e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 15%
+source-wordcount: '33'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Aktiviert/deaktiviert die Kapitelzeit in der Titelleiste der Kapitelbeschriftung. </p> </td> 
   </tr> 
  </tbody> 

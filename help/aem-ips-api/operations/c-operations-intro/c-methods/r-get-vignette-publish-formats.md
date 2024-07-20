@@ -8,7 +8,7 @@ exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 24%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ Syntax
 
 ## Parameter {#section-ba28150e6d8c4aa0b4ec72451ba7bc71}
 
-**Eingabe (getVignettePublishFormatsParam)**
+**Input (getVignettePublishFormatsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -41,7 +41,7 @@ Syntax
 
 Dieses Codebeispiel gibt zwei Vignettenveröffentlichungsformate zurück, die mit einem bestimmten Unternehmen verknüpft sind. Informationen werden in einem Array zurückgegeben, das aus Gründen der Kürze abgeschnitten wird.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getVignettePublishFormatsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

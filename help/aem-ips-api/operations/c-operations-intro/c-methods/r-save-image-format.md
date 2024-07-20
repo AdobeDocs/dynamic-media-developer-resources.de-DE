@@ -8,7 +8,7 @@ exl-id: cafbd715-237b-4454-920e-643f0c84e208
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ Erstellt ein Bildformat.
 
 >[!NOTE]
 >
->Die `urlModifier` -Feldwert muss aus einer gültigen XML bestehen. Ändern Sie beispielsweise `&` nach `&`. Rufen Sie die `urlModfier` -Wert aus der IPS-Benutzeroberfläche.
+>Der Feldwert `urlModifier` muss aus einer gültigen XML bestehen. Ändern Sie beispielsweise `&` in `&`. Rufen Sie den Wert `urlModfier` von der IPS-Benutzeroberfläche ab.
 
 ## Autorisierte Benutzertypen {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -29,7 +29,7 @@ Erstellt ein Bildformat.
 
 ## Parameter {#section-b1fc2fe8d606490ba3a2c979ab8bbd78}
 
-**Eingabe (saveImageFormatParam)**
+**Input (saveImageFormatParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -38,7 +38,7 @@ Erstellt ein Bildformat.
 | name | `xsd:string` | Ja | Name des Bildformats. |
 | urlModifier | `xsd:string` | Ja | Dies kann eine beliebige IPS-Protokoll-Abfragezeichenfolge sein. Die einfachste Möglichkeit, einen URL-Modifikator zu generieren, besteht darin, einen mit der IPS-Benutzeroberfläche zu erstellen und dann die Abfragezeichenfolge auszuschneiden und einzufügen. |
 
-**Ausgabe (saveImageFormatReturn)**
+**Output (saveImageFormatReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -46,9 +46,9 @@ Erstellt ein Bildformat.
 
 ## Beispiele {#section-c7bd733212ef494297a97093f3af193f}
 
-Dieses Codebeispiel erstellt ein Bildformat. In diesem Beispiel `urlModifier` wurde durch seinen Wert in der IPS-Benutzeroberfläche mit einem gültigen HTML-Format bestimmt.
+Dieses Codebeispiel erstellt ein Bildformat. In diesem Beispiel wurde `urlModifier` durch den Wert in der IPS-Benutzeroberfläche mit einem gültigen HTML-Format bestimmt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <saveImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

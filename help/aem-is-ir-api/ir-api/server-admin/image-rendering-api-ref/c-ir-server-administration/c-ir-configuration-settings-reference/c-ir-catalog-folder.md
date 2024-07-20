@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Speicherort des Materialkatalogordners (wo sich alle catalog.ini-Dateien befinden müssen).
 
-Kann entweder ein absoluter Pfad oder ein Pfad relativ zu [!DNL sein. *[!DNL install_folder]*]. Der Standardwert ist [!DNL ./catalog], was [!DNL entspricht *[!DNL install_folder]*/catalog].
+Kann entweder ein absoluter Pfad oder ein Pfad relativ zu [!DNL *[!DNL install_folder]*] sein. Der Standardwert ist [!DNL ./catalog], was [!DNL *[!DNL install_folder]*/catalog] entspricht.

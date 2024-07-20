@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Sowohl eine 32- als auch eine 64-Bit-Version des Image-Servers sind für Linux v
 
 >[!NOTE]
 >
->Der 64-Bit-Modus wird unter Windows nicht unterstützt. Nur `ImageServer32` angegeben werden. Andernfalls wird das Image Serving nicht gestartet.
+>Der 64-Bit-Modus wird unter Windows nicht unterstützt. Es darf nur `ImageServer32` angegeben werden. Andernfalls wird das Image Serving nicht gestartet.
 
 ## SV::PsHeapSize - [!DNL Platform Server] Heap Size {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Die Java-Heap-Größe für die [!DNL Platform Server]. Standardwert ist &quot; `512m`&quot; (512 MB).
+Die Java-Heap-Größe für den [!DNL Platform Server]. Der Standardwert ist &quot;`512m`&quot; (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Gibt den Anschluss an, der für die Kommunikation zwischen dem [!DNL Platform Server] und dem Image-Server. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Hostsystem sonst nicht verwendet wird.
+Gibt den Anschluss an, der für die Kommunikation zwischen dem [!DNL Platform Server] und dem Image-Server verwendet wird. Stellen Sie sicher, dass Sie eine Anschlussnummer angeben, die auf dem Hostsystem sonst nicht verwendet wird.
 
 >[!NOTE]
 >
->Damit das Image Serving ordnungsgemäß funktioniert, muss derselbe Wert für `IS::TcpPort` und `PS::isConnection.port`.
+>Damit das Image Serving ordnungsgemäß funktioniert, muss für `IS::TcpPort` und `PS::isConnection.port` derselbe Wert festgelegt werden.
 
 ## IS::PhysicalMemory - Speicherlimit für Image-Server {#section-85e37aa2ac6e456eb698da716dd3247d}
 

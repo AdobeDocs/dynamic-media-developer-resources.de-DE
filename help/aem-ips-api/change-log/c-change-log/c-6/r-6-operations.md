@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
@@ -37,37 +37,35 @@ Syntax
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* `thumbAssetHandle` hinzugefügt zu:
+* `thumbAssetHandle` wurde hinzugefügt zu:
 
    * `createImageSet`
    * `createAssetSet`
 
-   `companyHandle` hinzugefügt zu:
+  `companyHandle` wurde hinzugefügt zu:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   `contextHandle` hinzugefügt zu:
+  `contextHandle` wurde hinzugefügt zu:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
    * `setImageServingPublishSettings`
    * `setImageRenderingPublishSettings`
 
-
-
 * includeInactive wurde hinzugefügt zu:
 
    * `getUsers`.
    * `getUserChars`.
 
-* `permissionArray` zu `createPropertySet` hinzugefügt.
+* `permissionArray` wurde zu `createPropertySet` hinzugefügt.
 
-* `exportJob` zu `submitJob` hinzugefügt.
+* `exportJob` wurde zu `submitJob` hinzugefügt.
 
-**Geändert**
+**Changed**
 
 * In `addUser` und `setUser` wurde `role` in `defaultRole` geändert.
 
@@ -85,5 +83,5 @@ Syntax
 
 * `renameFiles` wurde aus `renameAsset` entfernt.
 
-* `getXMPPanelViewDefinition` entfernt.
+* `getXMPPanelViewDefinition` wurde entfernt.
 * `searchAssetsByFulltext` und `searchAssetsBySimilarity` entfernt.

@@ -31,7 +31,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Asset-Handle. </p> </td> 
   </tr> 
   <tr> 
@@ -52,61 +52,61 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Steuert die Beibehaltung einer vorhandenen Definition des Zuschnitts. Der Standardwert ist „true“.</p> <p>Wenn Sie den Parameter manualCropOptions und die entsprechenden Werte angeben, werden die neuen Werte (außer 0,0,0,0) unabhängig vom Wert preserveCrop auf das Asset angewendet.</p><p>Wenn Sie <i>not</i> den Parameter manualCropOptions angeben, wird der Wert von preserveCrop beibehalten. Und im Fall von "true"werden die vorhandenen preserveCrop-Werte beibehalten. im Fall von false werden die Werte preserveCrop entfernt.</p><p>Beispiel:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Steuert die Beibehaltung einer vorhandenen Definition des Zuschnitts. Der Standardwert ist „true“.</p> <p>Wenn Sie den Parameter manualCropOptions und die entsprechenden Werte angeben, werden die neuen Werte (außer 0,0,0,0) unabhängig vom Wert preserveCrop auf das Asset angewendet.</p><p>Wenn Sie den Parameter manualCropOptions <i>not</i> bereitstellen, wird der Wert von preserveCrop beibehalten. Bei "true"werden die vorhandenen Werte für "preserveCrop"beibehalten. Bei "false"werden die Werte für "preserveCrop"entfernt.</p><p>Beispiel:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Optionen für manuelles Zuschneiden. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ManualCropOptions</span> </p> </td> 
+   <td colname="col3"> <p>Manuelles Zuschneiden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:AutoColorCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AutoColorCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen für automatische Zuschnitte von Bildern basierend auf Farben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:AutoTransparentCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AutoTransparentCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Entfernt den Leerraum von den Kanten der Bilder basierend auf Transparenz. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:FotoshopOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:FotoshopOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen zum Hochladen von Photoshop-Dateien auf den Image-Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:PostScriptOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:PostScriptOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen zum Hochladen von PostScript-Dateien auf den Image-Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:PDFOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:PDFOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen zum Hochladen von PDF-Dateien auf den Image-Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:MediaOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:MediaOptions</span> </p> </td> 
    <td colname="col3"> <p>A/V-Mediendateioptionen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:IllustratorOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen zum Hochladen von Illustrator-Dateien auf den Image-Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ColorManagementOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ColorManagementOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen, die Sie während eines Uploads angeben können. Die Einstellung wirkt sich darauf aus, wie die Farbe für den Upload verwaltet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:AutoSetCreationOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AutoSetCreationOptions</span> </p> </td> 
    <td colname="col3"> <p>Array von Skripten zur automatischen Set-Generierung, die auf hochgeladene Dateien angewendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ein Array von Projekt-Handles. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Gibt an, ob nur Dateien hochgeladen werden sollen. </p> </td> 
+   <td colname="col3"> <p>Ob nur Dateien hochgeladen werden sollen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
@@ -126,46 +126,46 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ImageServingPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ImageServingPublishJob</span> </p> </td> 
    <td colname="col3"> <p>Auftragsdetails für einen Image Serving-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:ImageRenderingPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ImageRenderingPublishJob</span> </p> </td> 
    <td colname="col3"> <p>Auftragsdetails für einen Veröffentlichungsauftrag zum Rendern von Bildern, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:VideoPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:VideoPublishJob</span> </p> </td> 
    <td colname="col3"> <p>Auftragsdetails für einen Video-Veröffentlichungsauftrag, der nach Abschluss des Uploads ausgeführt werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:InDesignOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:InDesignOptions</span> </p> </td> 
    <td colname="col3"> <p>Optionen zum Hochladen von InDesign-Dateien auf den Bildserver. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
    <td colname="col3"> <p>Maskieren Sie den Hintergrund für ausgewählte Bilder. Auf diese Weise können Sie sie in anderen Ebenen mit einer Transparenz außerhalb des Betreffbilds überlagern. </p> <p>Optional. </p> <p>Siehe<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:UnsharpMaskOptions</span> </p> </td> 
+   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen der Unschärfemaske beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnschärfemaskeOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Anmerkungen**
+**Notizen**
 
-Auswahlmöglichkeiten für `*CropOptions` include:
+Zu den Optionen für `*CropOptions` gehören:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Auswahlmöglichkeiten für `*PublishJob` include:
+Zu den Optionen für `*PublishJob` gehören:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

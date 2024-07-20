@@ -1,5 +1,5 @@
 ---
-description: Standardobjektauflösung. Bietet eine Standardobjektauflösung, falls ein einzelner Katalogeintrag keinen gültigen Wert enthält.
+description: Standardmäßige Objektauflösung. Stellt eine standardmäßige Objektauflösung bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Katalogauflösungswert enthält.
 solution: Experience Manager
 title: Auflösung
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 28%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
 # Auflösung{#resolution}
 
-Standardobjektauflösung. Stellt eine standardmäßige Objektauflösung bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Katalogwert enthält::Resolution .
+Standardmäßige Objektauflösung. Stellt eine standardmäßige Objektauflösung bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Katalogwert enthält::Resolution .
 
 ## Eigenschaften {#section-1f65ea81c3324781af17d0321facbd19}
 

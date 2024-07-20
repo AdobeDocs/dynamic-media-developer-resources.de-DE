@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 84b0bb22-7462-4038-9d14-2707999b5548
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 4%
+source-wordcount: '142'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Keine.
 
 ## Daten {#section-e2601008d71243109af1a8c55b58416d}
 
-Musterzeichenfolge für reguläre Ausdrücke.
+Musterzeichenfolge für reguläre Ausdrücke
 
 ## Beschreibung {#section-759bfb738ddb45dba1f0807aba8c1113}
 
@@ -30,15 +30,15 @@ Das Element `<expression>` kann leer sein oder eine einfache Suchzeichenfolge od
 
 Eine Übereinstimmung tritt immer dann auf, wenn `<expression>` leer oder nicht angegeben ist. Dies entspricht der Angabe von `<expression>.*</expression>`.
 
-Die Implementierung basiert auf dem Java-Paket [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/), das eine reguläre Ausdruckssyntax ähnlich der von Perl bereitstellt.
+Die Implementierung basiert auf dem Java-Paket [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/), das eine Syntax für reguläre Ausdrücke ähnlich der von Perl bereitstellt.
 
 ## Anmerkungen {#section-10b472a902674893b49ca49a7052c366}
 
-Die Zeichenfolge des Ausdrucks darf keine Zeichen &lt; und &amp; enthalten. Diese reservierten Zeichen können mit `&` und `<` kodiert werden oder die gesamte Zeichenfolge kann in einen XML `CDATA`-Abschnitt eingeschlossen werden:
+Die Zeichenfolge des Ausdrucks darf keine Zeichen &lt; und &amp; enthalten. Diese reservierten Zeichen können mit `&` und `<` kodiert werden oder die gesamte Zeichenfolge kann in einen XML `CDATA` -Abschnitt eingeschlossen werden:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Alle Zeichen zwischen den Tags `<expression>` und `</expression>` werden an den Parser für reguläre Ausdrücke übergeben, einschließlich Zeichen außerhalb des optionalen Abschnitts `CDATA` . Es sollte darauf geachtet werden, zusätzliche Leerzeichen zu vermeiden.
+Alle Zeichen zwischen den Tags `<expression>` und `</expression>` werden an den Parser für reguläre Ausdrücke übergeben, einschließlich Zeichen außerhalb des optionalen Bereichs `CDATA`. Es sollte darauf geachtet werden, zusätzliche Leerzeichen zu vermeiden.
 
 ## Verwandte Themen {#section-ca98548917d945f4b71f18208f0e6840}
 

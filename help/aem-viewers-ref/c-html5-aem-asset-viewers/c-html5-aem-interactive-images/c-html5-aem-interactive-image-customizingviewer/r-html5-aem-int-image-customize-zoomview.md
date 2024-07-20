@@ -1,5 +1,5 @@
 ---
-title: Zoomansicht
+title: Zoom-Ansicht
 description: Die Hauptansicht besteht aus dem statischen Bild.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# Zoomansicht{#zoom-view}
+# Zoom-Ansicht{#zoom-view}
 
 Die Hauptansicht besteht aus dem statischen Bild.
 
@@ -35,7 +35,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 

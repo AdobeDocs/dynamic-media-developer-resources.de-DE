@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ Diese Befehle gelten für Bild-, Text- und einfarbige Ebenen. Sie sind auch im A
   <td class="stentry"> <p>Dreht die Ebene. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md#reference-c941f3bb1eee4dd29abf3824c0b0bc8e" type="reference" format="dita" scope="local"> Perspektive</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md#reference-c941f3bb1eee4dd29abf3824c0b0bc8e" type="reference" format="dita" scope="local"> perspektive</a> </p></td> 
   <td class="stentry"> <p>Umwandlung der Ebene in Perspektive. </p></td> 
  </tr> 
  <tr class="strow"> 

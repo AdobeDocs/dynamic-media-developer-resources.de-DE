@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:Permission` | Das Berechtigungs-Array. |
+| Elemente | `types:Permission` | Das Berechtigungen-Array. |

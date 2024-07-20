@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -41,13 +41,13 @@ Das Erscheinungsbild des Wiedergabesymbols wird mit der folgenden CSS-Klassenaus
    <td colname="col2"> <p> Die Breite des Wiedergabesymbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe des Wiedergabesymbols. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Symboleffekt unterstützt `state` -Attributauswahl. Wann `state="play"` wird verwendet, wenn das Video während der Wiedergabe angehalten wird, und `state="replay"` wird verwendet, wenn sich der Abspielkopf am Ende des Streams befindet.
+Der Symboleffekt unterstützt die &quot;`state`&quot;-Attributauswahl. Wenn `state="play"` verwendet wird, wenn das Video während der Wiedergabe angehalten wird, und `state="replay"` verwendet wird, wenn sich der Abspielkopf am Ende des Streams befindet.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

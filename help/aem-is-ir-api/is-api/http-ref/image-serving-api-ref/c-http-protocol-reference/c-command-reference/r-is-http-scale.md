@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 4%
+source-wordcount: '110'
+ht-degree: 2%
 
 ---
 
@@ -25,15 +25,15 @@ Bild skalieren. Skaliert ein Ebenenquellenbild nach Faktor im Verhältnis zum Bi
  </tr> 
 </table>
 
-Wenn keine Skalierung angewendet wird `scale=1`. *`factor`* kleiner als 1,0 Downskala und größer als 1,0 vergrößert das Quellbild.
+Bei `scale=1` wird keine Skalierung angewendet. *`factor`* kleiner als 1,0 Downskala und größer als 1,0 vergrößert das Quellbild.
 
 ## Eigenschaften {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Quellbild-/Maskenattribut. Ignoriert , wenn `size=` wird auch für die aktuelle Ebene angegeben. Überschreibungen `res=`. Gilt für Ebene 0, wenn für `layer=comp`. Wird ignoriert, wenn die Ebene nicht mit einem Bild oder einer Maske verknüpft ist.
+Source-Attribut image/mask. Wird ignoriert, wenn `size=` auch für die aktuelle Ebene angegeben ist. Überschreibt `res=`. Gilt für Ebene 0, wenn für `layer=comp` angegeben. Wird ignoriert, wenn die Ebene nicht mit einem Bild oder einer Maske verknüpft ist.
 
 ## Standard {#section-26e64904362342a5a62c5f6598f330c4}
 
-Falls nicht angegeben, `res=` verwendet. Wenn `res=` nicht angegeben ist, wird das Bild ohne Skalierung verwendet.
+Wenn nicht angegeben, wird `res=` verwendet. Wenn `res=` nicht angegeben ist, wird das Bild ohne Skalierung verwendet.
 
 ## Verwandte Themen {#section-61a11f30d37341d58c10df759bfff951}
 

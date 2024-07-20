@@ -1,5 +1,5 @@
 ---
-title: Zoomansicht
+title: Zoom-Ansicht
 description: Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem Zoombild, wenn das aktuelle Asset ein einzelnes Bild ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Zoomansicht{#zoom-view}
+# Zoom-Ansicht{#zoom-view}
 
 Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem Zoombild, wenn das aktuelle Asset ein einzelnes Bild ist.
 
@@ -53,24 +53,24 @@ Beispiel - um die Zoomansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente `cursortype` -Attributauswahl, die auf die `.s7zoomview` -Klasse. Er steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Folgendes `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7zoomview` angewendet werden kann. Er steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
 
 * `default`
 
-   Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht vergrößert werden kann.
+  Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht vergrößert werden kann.
 
 * `zoomin`
 
-   Wird angezeigt, wenn das Bild vergrößert werden kann.
+  Wird angezeigt, wenn das Bild vergrößert werden kann.
 
 * `reset`
 
-   Wird angezeigt, wenn sich das Bild auf einem maximalen Zoomfaktor befindet und auf seinen ursprünglichen Status zurückgesetzt werden kann.
+  Wird angezeigt, wenn sich das Bild auf einem maximalen Zoomfaktor befindet und auf seinen ursprünglichen Status zurückgesetzt werden kann.
 
 * `drag`
 
-   Wird angezeigt, wenn der Benutzer das Bild schaltet, das gezoomt ist.
+  Wird angezeigt, wenn der Benutzer das Bild schaltet, das gezoomt ist.
 
 * `slide`
 
-   Wird angezeigt, wenn der Benutzer einen Bildtausch durch horizontales Wischen oder Klick durchführt.
+  Wird angezeigt, wenn der Benutzer einen Bildtausch durch horizontales Wischen oder Klick durchführt.

@@ -8,7 +8,7 @@ exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-0d0ab668fa6d4310a93fb7ef8d8dd1e0}
 
-**Eingabe (replaceImageParam)**
+**Input (replaceImageParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Syntax
 | assetHandle | `xsd:string` | Ja | Der Handle für das Asset, das Sie ersetzen möchten. |
 | urlModifier | `xsd:string` | Ja | Image Server-Befehle, die neue Bilddaten generieren. |
 
-**Ausgabe (replaceImageReturn)**
+**Output (replaceImageReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,9 +45,9 @@ Syntax
 
 ## Beispiele {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Dieses Codebeispiel ersetzt ein Bild und wendet eine `urlModifier` mit einem Befehl, der angibt, dass der Image-Server beim Ersetzen keine Aktion durchführt.
+Dieses Codebeispiel ersetzt ein Bild und wendet einen Befehl &quot;`urlModifier`&quot;auf einen Befehl an, der angibt, dass der Image-Server beim Ersetzen keine Aktion durchführt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <replaceImageParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

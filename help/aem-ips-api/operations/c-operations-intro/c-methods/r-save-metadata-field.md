@@ -8,7 +8,7 @@ exl-id: 56a45324-5027-4375-a790-c965f682e4b9
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -29,7 +29,7 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldg
 
 ## Parameter {#section-ec6827d485a143f4a059a92b18e40f4e}
 
-**Eingabe (saveMetadataFieldParam)**
+**Input (saveMetadataFieldParam)**
 
 <table id="table_C944A44352F2475A89CE86F3DB1B648A"> 
  <thead> 
@@ -87,12 +87,12 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldg
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (saveMetadataFieldReturn)**
+**Output (saveMetadataFieldReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -100,9 +100,9 @@ Erstellen oder bearbeiten Sie ein Metadatenfeld. Lassen Sie den optionalen Feldg
 
 ## Beispiele {#section-4441c26d1f41466ba972b43dd5189e89}
 
-In diesem Codebeispiel wird ein Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt ist. Wenn die Variable `fieldHandle` -Element über einen gültigen Feldhandle-Wert verfügt, ändert es die Metadatenwerte und erhält denselben Feldhandle wie die Anforderung.
+In diesem Codebeispiel wird ein Metadatenfeld erstellt, das durch die Zeichenfolgenkonstanten &quot;Asset-Typ&quot;und &quot;Metadatenfeldtypen&quot;eingeschränkt ist. Wenn das Element `fieldHandle` über einen gültigen Feld-Handle-Wert verfügt, werden die Metadatenwerte geändert und dasselbe Feld-Handle erhalten, das Sie in der Anfrage angegeben haben.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:saveMetadataFieldParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

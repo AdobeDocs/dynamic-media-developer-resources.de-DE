@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c81feaba-18da-441a-bfd5-40275558a384
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '119'
+ht-degree: 4%
 
 ---
 
@@ -18,10 +18,10 @@ Befolgen Sie diese Anweisungen, um Image Rendering auf einem Linux®- oder Solar
 
 ## Methode 1
 
-1. Suchen [!DNL uninstall.sh].
+1. Suchen Sie [!DNL uninstall.sh].
 
-   Sie befindet sich im Verzeichnis, von dem aus ImageRendering installiert wurde. Wenn dieses Verzeichnis entfernt wurde, muss das ursprüngliche Installationspaket dekomprimiert und unaktiviert sein, um extrahiert zu werden [!DNL uninstall.sh].
-1. Ausführen [!DNL uninstall.sh] und befolgen Sie die Anweisungen auf dem Bildschirm.
+   Sie befindet sich im Verzeichnis, von dem aus ImageRendering installiert wurde. Wenn dieses Verzeichnis entfernt wurde, muss das ursprüngliche Installationspaket dekomprimiert und unaktiviert sein, um [!DNL uninstall.sh] zu extrahieren.
+1. Führen Sie [!DNL uninstall.sh] aus und befolgen Sie die Anweisungen auf dem Bildschirm.
 
 ## Methode 2
 
@@ -29,7 +29,7 @@ Befolgen Sie diese Anweisungen, um Image Rendering auf einem Linux®- oder Solar
 
    ` *[!DNL install_folder]*/bin/ImageRendering.sh stop.`
 
-1. Entfernen Sie ImageRendering aus Ihrem System. Der verwendete Befehl hängt von Ihrem System ab.
+1. Entfernen Sie ImageRendering aus Ihrem System. Der von Ihnen verwendete Befehl hängt von Ihrem System ab.
    * Linux®: `rpm -e ImageRendering`
 
    * Solaris™: `pkgrm ImageRendering`

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 922fc527-be19-4d7a-b265-7bdb1de80990
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 3%
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Gloss-Map-Bild. Ermöglicht die pixelweise Steuerung des Glanzes einer wiederhol
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> externalReq</span>'&amp;rbrace;' </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 
@@ -32,18 +32,18 @@ Gloss-Map-Bild. Ermöglicht die pixelweise Steuerung des Glanzes einer wiederhol
   <td class="stentry"> <p>Anforderung an Image-Server. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> ForeignReq </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> externalReq </span> </span> </p></td> 
   <td class="stentry"> <p>Anfrage an einen ausländischen Server. </p></td> 
  </tr> 
 </table>
 
 Gilt für Materialien wie metallische Farbeffekte, gestrichelte Folienhintergrund und Rahmen sowie metallische Gewinde.
 
-Das Glossardiagramm muss in 8-Bit-Graustufen vorliegen und die gleiche Größe wie das mit `src=`. Siehe Beschreibung von [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) für weitere Informationen.
+Das Glossarbild muss 8-Bit-Graustufen aufweisen und die gleiche Größe wie das mit `src=` angegebene Primärbild aufweisen. Weitere Informationen finden Sie in der Beschreibung von [`gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) .
 
 ## Eigenschaften {#section-26375672d69849be9b026cc93c3bc558}
 
-Materialattribut. Unterstützt durch wiederholbare Texturen, Wallpaper, Rahmen und Decals. Ignoriert von Materialien mit fester Farbe, Schrank und Fensterbezug. Siehe [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) für weitere Informationen.
+Materialattribut. Unterstützt durch wiederholbare Texturen, Wallpaper, Rahmen und Decals. Ignoriert von Materialien mit fester Farbe, Schrank und Fensterbezug. Weitere Informationen finden Sie unter [`gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) .
 
 ## Standard {#section-d9ac031fb2f94482ac3fe2283d7cb168}
 

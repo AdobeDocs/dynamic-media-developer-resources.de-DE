@@ -1,5 +1,5 @@
 ---
-description: Manuelles Zuschneiden von Optionen für Bilder.
+description: Manuelles Zuschneiden für Bilder.
 solution: Experience Manager
 title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL ManualCropOptions]{#manualcropoptions}
 
-Manuelles Zuschneiden von Optionen für Bilder.
+Manuelles Zuschneiden für Bilder.
 
 Syntax
 

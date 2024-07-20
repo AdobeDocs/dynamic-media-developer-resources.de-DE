@@ -8,7 +8,7 @@ exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können den folgenden Befehl sowohl in der URL-Abfragezeichenfolge als auch 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er für den HTML-Seitenspeicherort des Viewers und den Wert des Parameters <span class="codeph"> contentUrl=</span> aufgelöst. </p> </td> 
+   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er für den Viewer-HTML-Seitenspeicherort und den Wert des Parameters <span class="codeph"> contentUrl=</span> aufgelöst. </p> </td> 
   </tr> 
  </tbody> 
 </table>

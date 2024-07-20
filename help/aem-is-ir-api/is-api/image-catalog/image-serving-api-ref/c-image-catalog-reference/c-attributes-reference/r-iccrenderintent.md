@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 732b1935-6556-4420-a056-4e00cb3ed152
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
 # IccRenderIntent{#iccrenderintent}
 
-Rendering-Absicht für Farbkonvertierung. Stellt die standardmäßige Rendering-Absicht für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit `icc=`.
+Rendering-Absicht für Farbkonvertierung. Stellt die standardmäßige Rendering-Absicht für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit `icc=` angegeben ist.
 
 ## Eigenschaften {#section-2540099fb2fc47d29b04642da4f5922a}
 
@@ -22,7 +22,7 @@ Enum. Setzen Sie den Wert auf 0 für wahrnehmungsorientiert, 1 für relativ farb
 
 ## Standard {#section-61a05067905b44099c228e15de279dbd}
 
-Vererbt von `default::IccRenderIntent` wenn nicht definiert oder leer ist.
+Wird von `default::IccRenderIntent` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-7da9ff3038ca452a9f7375a1ca0581af}
 

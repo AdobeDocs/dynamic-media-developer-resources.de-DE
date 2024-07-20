@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 2%
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -35,20 +35,20 @@ Das Erscheinungsbild des Hotspot-Symbols wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Hotspot-Symbolgrafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite des Hotspot-Symbols. </p> </td> 
+   <td colname="col2"> <p>Hotspot-Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Hotspot-Symbols. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
+   <td colname="col2"> <p>Hotspot-Symbolhöhe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,16 +83,16 @@ Das Erscheinungsbild des Imagemap-Bereichs wird mit der folgenden CSS-Klassenaus
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p>Füllfarbe für Imagemap-Bereich. </p> <p>Geben Sie diese Farbe in den Formaten <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> an. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col2"> <p>Füllfarbe für Imagemap-Bereich. </p> <p>Geben Sie diese Farbe in den Formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Füllfarbe für Imagemap-Bereich. </p> <p>Geben Sie diese Farbe in den Formaten <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> an. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Füllfarbe für Imagemap-Bereich. </p> <p>Geben Sie diese Farbe in den Formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rand </span> </p> </td> 
-   <td colname="col2"> <p> Randstil der Imagemap Sollte als " <span class="codeph"> width </span> <span class="codeph"> solid color </span>"angegeben werden, wobei <span class="codeph"> width </span> in Pixel ausgedrückt wird und <span class="codeph"> Farbe </span> als <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a1 1/&gt; oder <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col2"> <p> Randstil der Imagemap Sollte als "<span class="codeph"> width </span> <span class="codeph"> solid color </span>"angegeben werden, wobei <span class="codeph"> width </span> in Pixel angegeben wird und <span class="codeph"> color </span> als <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> 3}. </p> </td> 
   </tr> 
  </tbody> 
 </table>

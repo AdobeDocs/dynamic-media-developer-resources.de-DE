@@ -8,7 +8,7 @@ exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -35,14 +35,14 @@ Syntax
 
 ## Parameter {#section-a67ba98095574533980997c83ceaa316}
 
-**Eingabe (getImageSetMembersParam)**
+**Input (getImageSetMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das Bildset enthält. |
 | assetHandle | `xsd:string` | Ja | Das Asset-Handle für Bildsets. |
 
-**Ausgabe (getImageSetMembersReturn)**
+**Output (getImageSetMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -52,7 +52,7 @@ Syntax
 
 Dieses Codebeispiel gibt bestimmte Bildsatzmitglieder zurück. Die Antwort gibt ein leeres Array zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getImageSetMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

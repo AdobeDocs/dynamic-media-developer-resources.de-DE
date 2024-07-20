@@ -24,6 +24,6 @@ Syntax
 |---|---|---|
 | name | `xsd:string` | Der Name der Imagemap-Definition. |
 | shapeType | `xsd:string` | Einer der Regionsformwerte. |
-| Region | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf der HTML `<area>` Tag-Attribute. |
-| Aktion | `xsd:string` | Andere Attribute, die in die HTML aufgenommen werden sollen `<area>` -Tag, einschließlich `href` URL. |
+| Region | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf den Tag-Attributen HTML `<area>` . |
+| Aktion | `xsd:string` | Andere Attribute, die in das HTML `<area>` -Tag aufgenommen werden sollen, einschließlich der `href`-URL. |
 | aktiviert | `xsd:boolean` | True , wenn die Imagemap aktiviert ist. |

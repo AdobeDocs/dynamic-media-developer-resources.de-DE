@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 6%
+source-wordcount: '88'
+ht-degree: 3%
 
 ---
 
@@ -21,12 +21,12 @@ Konfigurationsattribut für interaktiven Video-Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Aktiviert oder deaktiviert die Möglichkeit für einen Benutzer, mit einer Maus oder durch Berührungsgesten in den Miniaturansichten zu blättern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Befindet sich im Bereich <span class="codeph"> 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Wenn auf <span class="codeph"> 1 </span> gesetzt, wird es mit der Maus verschoben. </p> <p>Wenn der Wert auf <span class="codeph"> 0 </span> gesetzt ist, können Sie sich nicht in die falsche Richtung bewegen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td colname="col2"> <p> Liegt im Bereich <span class="codeph"> 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Wenn der Wert auf <span class="codeph"> 1 </span> gesetzt ist, bewegt er sich mit der Maus. </p> <p>Wenn der Wert auf <span class="codeph"> 0 </span> gesetzt ist, lässt er dich nicht in die falsche Richtung bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

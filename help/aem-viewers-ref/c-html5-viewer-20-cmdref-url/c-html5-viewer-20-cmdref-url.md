@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Dokumentation zur Befehlsreferenz, die für alle Viewer gilt.
 
-Die folgenden Befehle werden entweder über URL oder mithilfe von API-Methoden `setParam()` oder `setParams()` angewendet.
+Die folgenden Befehle werden entweder über URL oder mithilfe der API-Methoden `setParam()` oder `setParams()` angewendet.

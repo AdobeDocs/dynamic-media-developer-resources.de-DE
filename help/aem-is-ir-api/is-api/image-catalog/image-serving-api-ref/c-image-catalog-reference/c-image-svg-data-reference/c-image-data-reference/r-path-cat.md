@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Pfad der Bilddatei.
 
-Relativer oder absoluter Pfad und Name der mit diesem Katalogdatensatz verknüpften Quellbilddatei. Der Server verwendet die unter Verwalten von Quelldaten beschriebenen Regeln zur Pfadauflösung, um die Datendatei zu finden.
+Relativer oder absoluter Pfad und Name der mit diesem Katalogdatensatz verknüpften Quellbilddatei. Der Server verwendet die unter Verwalten von Source-Daten beschriebenen Regeln zur Pfadauflösung, um die Datendatei zu finden.
 
 ## Eigenschaften {#path-properties}
 

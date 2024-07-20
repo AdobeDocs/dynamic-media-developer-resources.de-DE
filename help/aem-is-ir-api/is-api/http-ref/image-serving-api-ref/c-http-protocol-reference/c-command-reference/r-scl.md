@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 4%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ Skalierungsansicht. Skaliert das zusammengesetzte Bild um das Gegenteil von invF
  </tr> 
 </table>
 
-Wenn keine Skalierung angewendet wird `scl=1`. Ein *`invFactor`* -Wert größer als 1,0 Downskala und kleiner als 1,0 vergrößert das zusammengesetzte Bild.
+Bei `scl=1` wird keine Skalierung angewendet. Ein *`invFactor`* -Wert, der größer als 1,0 Downskala und kleiner als 1,0 ist, vergrößert das zusammengesetzte Bild.
 
-Wenn `scl=` festgelegt ist und `wid=` und/oder `hei=` auch vorhanden sind, wird das Bild zugeschnitten auf `wid=` und/oder `hei=` nach der Skalierung.
+Wenn `scl=` angegeben ist und auch `wid=` und/oder `hei=` vorhanden sind, wird das Bild nach der Skalierung auf `wid=` und/oder `hei=` zugeschnitten.
 
 >[!NOTE]
 >
->Ein Fehler wird zurückgegeben, wenn die berechnete oder die standardmäßige Antwortbildgröße größer ist als `attribute::MaxPix`.
+>Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-60af012719db477db4a4703e9a6da5f5}
 
@@ -39,11 +39,11 @@ Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Standard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Wenn `wid=`, `hei=`, noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
+Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entweder die Größe des zusammengesetzten Bildes oder `attribute::DefaultPix`, je nachdem, welcher Wert kleiner ist.
 
 ## Beispiel {#section-a33f6239476a4b438d939656ad99aa76}
 
-Siehe Beispiel unter [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) für die gemeinsame Anwendung von `scl=`.
+Eine gängige Anwendung von `scl=` finden Sie im Beispiel unter [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) .
 
 ## Verwandte Themen {#section-ccefd5de59924059903d66d4974ce317}
 

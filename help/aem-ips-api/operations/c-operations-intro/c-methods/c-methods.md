@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -118,10 +118,10 @@ ht-degree: 0%
 * [moveFolder](r-move-folder.md)
 * [pauseJob](r-pause-job.md)
 * [removeAssetPermissions](r-remove-asset-permissions.md)
-* [removeCompanyMembership](r-remove-company-membership.md)
+* [removeCompanyMember](r-remove-company-membership.md)
 * [removeFolderPermissions](r-remove-folder-permissions.md)
 * [removeGroupMembers](r-remove-group-members.md)
-* [removeGroupMembership](r-remove-group-membership.md)
+* [removeGroupMember](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
 * [renameAsset](r-rename-asset.md)
 * [renameFolder](r-rename-folder.md)

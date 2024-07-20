@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: d92e56ae-2bb6-46f6-b0f7-64b867492a37
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 6%
+source-wordcount: '83'
+ht-degree: 3%
 
 ---
 
 # PageView.zoomstep{#pageview-zoomstep}
 
-[!DNL `[PageView.|<containerId>_pageView.]zoomstep= *``*[, *`steplimit`*]`]
+[!DNL `[PageView.|<containerId>_pageView.]zoomstep= *`step`*[, *`limit`*]`]
 
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Schritt</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> step</span></span> </p> </td> 
    <td colname="col2"> <p> Konfiguriert die Anzahl der Vergrößerungs- und Verkleinerungsaktionen, die erforderlich sind, um die Auflösung um den Faktor zwei zu erhöhen oder zu verringern. Die Auflösung für jede Zoom-Aktion beträgt 2^1 pro Schritt. Auf <span class="codeph"> 0</span> setzen, um mit einer einzigen Zoom-Aktion auf die vollständige Auflösung zu zoomen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> Grenze</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> limit</span></span> </p> </td> 
    <td colname="col2"> <p> Gibt die maximale Zoomauflösung relativ zum Bild mit voller Auflösung an. Der Standardwert ist <span class="codeph"> 1.0</span>, was das Zoomen über die vollständige Auflösung hinaus nicht erlaubt. </p> </td> 
   </tr> 
  </tbody> 

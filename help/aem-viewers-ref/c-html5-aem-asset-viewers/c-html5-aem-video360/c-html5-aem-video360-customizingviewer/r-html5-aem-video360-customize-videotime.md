@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 78657fd2-e805-4047-be0a-592143025986
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
    <td colname="col2"> <p> Die Breite der Zeitsteuerung für Videos. Diese Eigenschaft ist erforderlich, damit Internet Explorer 8 oder höher ordnungsgemäß funktioniert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Die Schriftfamilie, die für die Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße  </span> </p> </td> 
-   <td colname="col2"> <p>Die Schriftgröße, die für die Zeitanzeige verwendet werden soll. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>Die Schriftgröße, die für die Zeitanzeige verwendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -57,7 +57,7 @@ Das Erscheinungsbild der Videozeit wird mit der folgenden CSS-Klassenauswahl ges
  </tbody> 
 </table>
 
-**Beispiel**  - Legen Sie die Videozeit auf hellgrau (hexadezimal) fest,  `#BBBBBB`die auf 12 Pixel skaliert, 15 Pixel von der oberen Seite der Steuerleiste und 80 Pixel von der oberen und rechten Kante der Steuerleiste positioniert ist.
+**Beispiel** - Legen Sie die Videozeit auf hellgrau fest (hexadezimaler Wert `#BBBBBB`), die bei 12 Pixel, 15 Pixel von der oberen Ecke der Steuerleiste und 80 Pixel von der oberen und rechten Kante der Steuerleiste angeordnet ist.
 
 ```
 .s7video360viewer .s7videotime { 

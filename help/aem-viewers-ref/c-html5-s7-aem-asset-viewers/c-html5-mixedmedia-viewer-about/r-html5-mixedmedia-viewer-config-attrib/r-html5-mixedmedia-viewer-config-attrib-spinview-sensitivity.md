@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 68df87db-b3c7-4a42-9ab6-742d96261ecd
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '117'
+ht-degree: 2%
 
 ---
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`xSensitivität`*[, *`ySensitivity`*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *`xSensitivity`*[, *`ySensitivity`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivität</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Steuert die Empfindlichkeit der horizontalen und vertikalen Rotation, die durch Ziehen oder Wischen mit der Maus durchgeführt wird. </p> <p> <span class="codeph"> xSensitivität</span> Legt fest, wie viele vollständige horizontale Produktdrehungen durchgeführt werden, wenn der Benutzer die Maus horizontal von einer Seite der Ansicht zur anderen bewegt. Beispielsweise bedeutet drei, dass der Benutzer drei vollständige Rotations für eine volle Ziehen-Geste sieht. </p> <p>Ebenso <span class="codeph"> ySensitivity</span> steuert die Empfindlichkeit der vertikalen Rotation. Der Wert 1 bedeutet, dass der Blickwinkel von der obersten Rotationsebene in die untere (oder umgekehrt) Ebene geändert wird. </p> <p>Festlegen eines negativen Werts für <span class="codeph"> ySensitivity</span> kehrt die Richtung der vertikalen Rotation um. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Steuert die Empfindlichkeit der horizontalen und vertikalen Rotation, die durch Ziehen oder Wischen mit der Maus durchgeführt wird. </p> <p> <span class="codeph"> xSensitivity</span> legt fest, wie viele horizontale Produktdrehungen durchgeführt werden, wenn der Benutzer die Maus horizontal von einer Seite der Ansicht zur anderen bewegt. Beispielsweise bedeutet drei, dass der Benutzer drei vollständige Rotations für eine volle Ziehen-Geste sieht. </p> <p>Genauso steuert <span class="codeph"> ySensitivity</span> die Empfindlichkeit der vertikalen Rotation. Der Wert 1 bedeutet, dass der Blickwinkel von der obersten Rotationsebene in die untere (oder umgekehrt) Ebene geändert wird. </p> <p>Wenn Sie einen negativen Wert für <span class="codeph"> ySensitivity</span> festlegen, wird die Richtung der vertikalen Rotation umgekehrt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

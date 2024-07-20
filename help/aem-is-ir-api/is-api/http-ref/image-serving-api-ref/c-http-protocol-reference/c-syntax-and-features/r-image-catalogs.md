@@ -20,21 +20,21 @@ Bildkataloge bieten die folgenden Funktionen:
 
 * Ermöglicht die dauerhafte Verknüpfung von Bildern mit bestimmten Metadaten- und Modifikatorbefehlen.
 
-  Einträge in Bildkatalogen werden mit einer Tastenkombination referenziert `*`rootId/objId`*`, wobei `*`rootId`*` identifiziert den Bildkatalog und `*`objId`*` gibt einen Datensatz im Katalog an.
+  Einträge in Bildkatalogen werden mit der Kurzschreibweise `*`rootId/objId`*` referenziert, wobei `*`rootId`*` den Bildkatalog und `*`objId`*` einen Datensatz im Katalog angibt.
 * Stellen Sie Standardwerte für bestimmte Anforderungsattribute bereit, z. B. die JPEG-Qualität oder die Frage, ob ein Wasserzeichen angewendet werden soll.
 * Schriftarten, ICC-Profile, Makrodefinitionen und Anforderungsvorlagen verwalten
 
-Selbst wenn keine bestimmten Bildkataloge definiert sind, sind alle Funktionen von Bildkatalogen über den Standardkatalog verfügbar ( [!DNL default.ini]).
+Selbst wenn keine bestimmten Bildkataloge definiert sind, sind alle Funktionen von Bildkatalogen über den Standardkatalog ( [!DNL default.ini]) verfügbar.
 
-Wenn `*`rootId`*` im URL-Pfad der Anforderung übereinstimmt mit `attribute::RootId` eines bestimmten Bildkatalogs wird dieser Katalog zum Hauptkatalog für diese Anforderung. Der Hauptkatalog enthält die Standardattribute und -einstellungen für die gesamte Anforderung. Wenn keine Übereinstimmung gefunden wird, wird stattdessen der Standardkatalog verwendet.
+Wenn `*`rootId`*` im URL-Pfad der Anforderung mit `attribute::RootId` eines bestimmten Bildkatalogs übereinstimmt, wird dieser Katalog zum Hauptkatalog für diese Anforderung. Der Hauptkatalog enthält die Standardattribute und -einstellungen für die gesamte Anforderung. Wenn keine Übereinstimmung gefunden wird, wird stattdessen der Standardkatalog verwendet.
 
-Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute und Daten für die aktuelle Ebene bereit:
+Ein in einem Befehl `src=` oder `mask=` identifizierter Katalog stellt die folgenden Katalogattribute und Daten für die aktuelle Ebene bereit:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> Attribut/Daten</b> </th> 
-   <th class="entry"> <b> Anmerkungen</b> </th> 
+   <th class="entry"> <b> Hinweise</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -44,7 +44,7 @@ Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute u
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> Standard für <span class="codeph"> catalog::Expiration</span> oder Ablauf der aktuellen Ebene, wenn kein Katalogdatensatz beteiligt ist </p> </td> 
+   <td> <p> Standardeinstellung für <span class="codeph"> -Katalog::Ablauf</span> oder Ablauf der aktuellen Ebene, wenn kein Katalogdatensatz beteiligt ist </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ICC*</span> </p> </td> 
@@ -56,11 +56,11 @@ Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute u
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> Standard für <span class="codeph"> catalog::Resolution</span> only </p> </td> 
+   <td> <p> Standard nur für <span class="codeph"> -Katalog::Resolution</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog:Anchor</span> </p> </td> 
-   <td> <p> Standard für <span class="codeph"> anchor=</span> Wert der aktuellen Ebene </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Anchor</span> </p> </td> 
+   <td> <p> Standardwert für den Wert <span class="codeph"> anchor=</span> der aktuellen Ebene </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Expiration</span> </p> </td> 
@@ -71,7 +71,7 @@ Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute u
    <td> <p> das Quellbildfarbprofil für die aktuelle Ebene </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Katalog::Map</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Map</span> </p> </td> 
    <td> <p> die Imagemap-Daten für die aktuelle Ebene </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute u
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Modifier</span> </p> </td> 
-   <td> <p> Präfixbefehle für die aktuelle Ebene (jeder Befehl in <span class="codeph"> catalog::Modifier</span> kann durch denselben Befehl in der URL überschrieben werden, wenn er für dieselbe Ebene angegeben ist.) </p> </td> 
+   <td> <p> Präfixbefehle für die aktuelle Ebene (jeder Befehl im <span class="codeph">-Katalog::Modifier</span> kann durch denselben Befehl in der URL überschrieben werden, sofern er für dieselbe Ebene festgelegt ist) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Path</span> </p> </td> 
@@ -88,7 +88,7 @@ Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute u
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::PostModifier</span> </p> </td> 
-   <td> <p> Postfix-Befehle für die aktuelle Ebene (ähnlich wie <span class="codeph"> catalog::Modifier</span>, jedoch Befehle in <span class="codeph"> catalog::PostModifier</span> dieselben Befehle außer Kraft setzen, die in der URL oder in <span class="codeph"> catalog::Modifier</span>) </p> </td> 
+   <td> <p> Postfix-Befehle für die aktuelle Ebene (ähnlich dem <span class="codeph"> -Katalog::Modifier</span>, aber Befehle im <span class="codeph"> -Katalog::PostModifier</span> überschreiben dieselben Befehle, die in der URL oder im <span class="codeph"> -Katalog angegeben sind::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Resolution</span> </p> </td> 
@@ -97,11 +97,11 @@ Ein in einem `src=` oder `mask=` -Befehl stellt die folgenden Katalogattribute u
  </tbody> 
 </table>
 
-Innerhalb derselben Ebene `src=` und `mask=` muss auf denselben Bildkatalog verweisen (falls vorhanden).
+Innerhalb derselben Ebene müssen `src=` und `mask=` auf denselben Bildkatalog verweisen (falls vorhanden).
 
-Ein in einem `icc=` -Befehl wird nur verwendet, um einen Eintrag aus der ICC-Profiltabelle des Katalogs nachzuschlagen. Es sind keine anderen Katalogattribute oder -daten beteiligt.
+Ein in einem `icc=` -Befehl identifizierter Katalog wird nur zum Nachschlagen eines Eintrags aus der ICC-Profiltabelle des Katalogs verwendet. Es sind keine anderen Katalogattribute oder -daten beteiligt.
 
-Wenn `*`rootId`*` in einen Katalog aufgelöst und `*`objId`*` wird mit einem `catalog::Id` in diesem Katalog, dann `*`rootId/objId`*` durch den Katalogeintrag ersetzt wird, was in etwa so aussieht:
+Wenn `*`rootId`*` in einen Katalog aufgelöst wird und `*`objId`*` mit einem `catalog::Id` in diesem Katalog übereinstimmt, wird `*`rootId/objId`*` effektiv durch den Katalogeintrag in etwa folgender Form ersetzt:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 

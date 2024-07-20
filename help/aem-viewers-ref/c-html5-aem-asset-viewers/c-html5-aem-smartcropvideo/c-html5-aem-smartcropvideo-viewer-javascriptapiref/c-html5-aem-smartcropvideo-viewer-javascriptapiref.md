@@ -1,18 +1,19 @@
 ---
-title: JavaScript-API-Referenz für Smart Crop Video Viewer
+title: JavaScript API-Referenz für Smart Crop Video Viewer
 description: Die Hauptklasse des Smart Crop Video Viewers ist SmartCropVideoViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 92c25a5a-2103-4906-8ff7-ffc8e0541464
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
 
-# JavaScript-API-Referenz für Smart Crop Video Viewer{#javascript-api-reference-for-smartcrop-video-viewer}
+# JavaScript API-Referenz für Smart Crop Video Viewer{#javascript-api-reference-for-smartcrop-video-viewer}
 
 Die Hauptklasse des Smart Crop Video Viewers ist SmartCropVideoViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
 
-In allen folgenden Beispielen `<instance>` ist der tatsächliche Name des JavaScript-Viewer-Objekts, das aus dem `s7viewers.SmartCropVideoViewer` -Klasse.
+In allen folgenden Beispielen ist `<instance>` der tatsächliche Name des JavaScript-Viewer-Objekts, das aus der `s7viewers.SmartCropVideoViewer`-Klasse instanziiert wird.

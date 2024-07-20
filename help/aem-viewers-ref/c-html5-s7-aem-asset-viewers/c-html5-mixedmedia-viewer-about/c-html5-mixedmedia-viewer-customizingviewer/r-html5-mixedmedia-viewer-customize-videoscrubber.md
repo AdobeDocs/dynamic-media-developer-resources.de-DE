@@ -1,5 +1,5 @@
 ---
-title: Videobauber
+title: Videobauktor
 description: Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 3e9c8800-fda2-41d1-8436-b2de7952652c
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 3%
+source-wordcount: '360'
+ht-degree: 0%
 
 ---
 
-# Videobauber{#video-scrubber}
+# Videobauktor{#video-scrubber}
 
 Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
 
@@ -33,7 +33,7 @@ Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-K
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
@@ -41,12 +41,12 @@ Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-K
    <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Video-Scrubbers. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
+   <td colname="col2"> <p>Höhe des Video-Scrubbers </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Farbe des Video-Scrubbers. </p> </td> 
+   <td colname="col2"> <p>Die Farbe des Video-Scrubbers </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,17 +59,17 @@ Die folgenden CSS-Klassenselektoren verfolgen Hintergrund-, Wiedergabe- und Last
 .s7mixedmediaviewer .s7videoscrubber .s7trackplayed
 ```
 
-**CSS-Eigenschaften des Tracks**
+**CSS-Eigenschaften des track**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der entsprechenden Strecke. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Farbe der entsprechenden Strecke. </p> </td> 
+   <td colname="col2"> <p>Die Farbe der entsprechenden Spur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ Der folgende CSS-Klassenselektor steuert den Knoten:
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Vertikaler Drehversatz. </p> </td> 
   </tr> 
   <tr> 
@@ -93,8 +93,8 @@ Der folgende CSS-Klassenselektor steuert den Knoten:
    <td colname="col2"> <p>Breite des Knopfes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Knotens. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
+   <td colname="col2"> <p>Höhe des Knopfes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -113,7 +113,7 @@ Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
 .s7mixedmediaviewer .s7videoscrubber .s7videotime
 ```
 
-**CSS-Eigenschaften der wiedergegebenen Blase**
+**CSS-Eigenschaften der Wiedergabedauer**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -122,8 +122,8 @@ Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
    <td colname="col2"> <p> Die Schriftfamilie, die für die Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
-   <td colname="col2"> <p> Die Schriftgröße, die für die Zeitanzeige verwendet werden soll. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p> Die Schriftgröße, die für die Zeitanzeige verwendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -134,11 +134,11 @@ Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
    <td colname="col2"> <p>Blasenbereichbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Blasenbereichshöhe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
+   <td colname="col2"> <p>Blasenflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Blasenflächen-Umrandung. </p> </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
-   <td colname="col2"> <p>Ausrichtung des Texts am Blasenbereich </p> </td> 
+   <td colname="col2"> <p>Ausrichtung von Text am Blasenbereich. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfo für Video-Scrubber kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
+Die QuickInfo für Video-Scrubber kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 

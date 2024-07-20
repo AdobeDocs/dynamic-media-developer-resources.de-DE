@@ -1,5 +1,5 @@
 ---
-description: Aktualisiert Metadaten im Batch-Modus.
+description: Aktualisiert Metadaten im Stapelmodus.
 solution: Experience Manager
 title: BatchMetadataUpdate
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL BatchMetadataUpdate]{#batchmetadataupdate}
 
-Aktualisiert Metadaten im Batch-Modus.
+Aktualisiert Metadaten im Stapelmodus.
 
 Syntax
 

@@ -29,11 +29,11 @@ Sättigung anpassen. Ändert die Sättigung jedes sichtbaren Pixels der Ebene od
 
 ## Eigenschaften {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`. Wird von Effektebenen ignoriert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert.
 
 ## Standard {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, um keine Sättigung zu ändern. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
+`op_saturation=0`, für keine Änderung der Sättigung. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
 
 ## Beispiel {#section-033b272f1b7e4efeb94e841fd8095357}
 

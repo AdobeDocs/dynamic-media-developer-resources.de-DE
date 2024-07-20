@@ -8,7 +8,7 @@ exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -30,14 +30,14 @@ Syntax
 
 ## Parameter {#section-bac949e59c0546429c5786fe422d750d}
 
-**Eingabe (getMetadataFieldsParam)**
+**Input (getMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens. |
 | assetType | `xsd:string` | Ja | Asset-Typen, aus denen Metadaten abgerufen werden sollen. |
 
-**Ausgabe (getMetadataFieldsParam)**
+**Output (getMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 
 Dieses Codebeispiel gibt Metadaten-Assets für den angegebenen Typ und das angegebene Unternehmen zurück. Die Antwort enthält ein Array von Metadatenfeldern in einem Feld-Array. Nicht alle Assets verfügen über dieselben Metadaten. Der IPS-Benutzer definiert das Metadatenfeld des Assets.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getMetadataFieldsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

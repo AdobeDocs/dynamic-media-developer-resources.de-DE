@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Wenn dies in der Vignette aktiviert ist, variiert der Renderer den Beleuchtungsalgorithmus, um eine Variation der Materialglänzlichkeit zu simulieren (hauptsächlich durch Steuerung des Kontrasts).
 
-Dieser Effekt ist unabhängig von der Reflexion und ergänzt ihn durch die Simulation von spekulären Reflexionen. Die Wirkung wird mit dem gleichen `gloss=`, `glossmap=`und `type=` Attribute, mit denen Reflexionen gesteuert werden.
+Dieser Effekt ist unabhängig von der Reflexion und ergänzt ihn durch die Simulation von spekulären Reflexionen. Der Effekt wird mit denselben Attributen `gloss=`, `glossmap=` und `type=` gesteuert, die zur Steuerung von Reflexionen verwendet werden.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 2%
+source-wordcount: '266'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +57,7 @@ Das Erscheinungsbild der Tipp-Meldung wird mit der folgenden CSS-Klassenauswahl 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es ist möglich, Schriftstil, Größe, Erscheinungsbild und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Überschreiben durch CSS mit `left` oder `right` -Eigenschaften werden nicht unterstützt.
+Es ist möglich, Schriftstil, Größe, Erscheinungsbild und vertikalen Versatz über CSS zu konfigurieren. Die horizontale Ausrichtung wird jedoch von der Viewer-Logik verwaltet. Das Überschreiben durch CSS mit den Eigenschaften `left` oder `right` wird nicht unterstützt.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -80,11 +80,11 @@ Es ist möglich, Schriftstil, Größe, Erscheinungsbild und vertikalen Versatz �
    <td colname="col2"> <p>Schriftname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Padding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
    <td colname="col2"> <p>Auffüllung um den Nachrichtentext. </p> </td> 
   </tr> 
   <tr> 
@@ -97,12 +97,12 @@ Es ist möglich, Schriftstil, Größe, Erscheinungsbild und vertikalen Versatz �
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrunddeckkraft des Nachrichtentextes. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
+   <td colname="col2"> <p>Hintergrunddeckkraft des Nachrichtentextes. </p> <p>Verwenden Sie für Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Tipp-Nachricht kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) für weitere Informationen.
+Die Tipp-Nachricht kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) .
 
 .
 

@@ -8,7 +8,7 @@ exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ID-Übersetzungszuordnung. Gibt die Regeln an, die für die Übersetzung generis
 
 <table id="simpletable_A6DD1A28F8ED4178A8ADDB2F3AEFC402"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> Element</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> item</span> </p></td> 
   <td class="stentry"> <p><span class="varname"> locId</span>,<span class="varname"> locSuffix</span>*[','<span class="varname"> locSuffix</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -33,13 +33,13 @@ ID-Übersetzungszuordnung. Gibt die Regeln an, die für die Übersetzung generis
  </tr> 
 </table>
 
-`LocaleMap` bezieht sich auf eine `locId` , die beliebig vielen `locSuffix`.
+`LocaleMap` bezieht sich auf eine `locId`, die einer beliebigen Anzahl von `locSuffix` zugeordnet werden kann.
 
-Empty *`locSuffix`* -Werte erlaubt sind. *`locSuffix`* -Werte müssen in der Reihenfolge sortiert werden, in der sie gesucht werden sollen. Die erste Übereinstimmung wird zurückgegeben.
+Leere *`locSuffix`* -Werte sind zulässig. *`locSuffix`* -Werte müssen in der Reihenfolge sortiert werden, in der sie gesucht werden sollen. Die erste Übereinstimmung wird zurückgegeben.
 
-Image Serving durchsucht die *`locId`* -Werte für eine Übereinstimmung, bei der nicht zwischen Groß- und Kleinschreibung unterschieden wird, mit der `locale=` -Wert, der in der Anfrage angegeben ist. Wenn eine Übereinstimmung gefunden wird, wird die erste zugeordnete *`locSuffix`* -Wert an die ursprüngliche Katalog-ID angehängt. Wenn dieser Katalogeintrag vorhanden ist, wird er verwendet. Andernfalls wird der nächste *`locSuffix`* versucht wird. Wenn keines der *`locSuffix`* -Werte mit einem Katalogeintrag übereinstimmen, gibt Image Serving einen Fehler oder ein Standardbild zurück.
+Image Serving sucht die *`locId`* -Werte nach einer Übereinstimmung, bei der die Groß-/Kleinschreibung nicht berücksichtigt wird, mit dem in der Anfrage angegebenen `locale=` -Wert. Wenn eine Übereinstimmung gefunden wird, wird der erste zugeordnete *`locSuffix`* -Wert an die ursprüngliche Katalog-ID angehängt. Wenn dieser Katalogeintrag vorhanden ist, wird er verwendet. Andernfalls wird der nächste *`locSuffix`* -Wert versucht. Wenn keiner der *`locSuffix`* -Werte mit einem Katalogeintrag übereinstimmt, gibt Image Serving einen Fehler oder ein Standardbild zurück.
 
-Ein leeres *`locId`* Wert entspricht leer und unbekannt `locale=` Zeichenfolgen. Dadurch kann eine Standardregel für unbekannte Gebietsschemata definiert werden.
+Ein leerer *`locId`* -Wert entspricht leeren und unbekannten `locale=` -Zeichenfolgen. Dadurch kann eine Standardregel für unbekannte Gebietsschemata definiert werden.
 
 Wenn die ID-Übersetzung aktiviert ist, wird sie auf alle IDs angewendet, die auf den Bildkatalog und statische Inhaltskatalogeinträge verweisen.
 

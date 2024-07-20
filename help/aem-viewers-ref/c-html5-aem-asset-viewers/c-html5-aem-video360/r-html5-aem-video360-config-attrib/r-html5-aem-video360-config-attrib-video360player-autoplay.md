@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Konfigurationsattribut für Video360 Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Gibt an, ob der Viewer die Wiedergabe des Videos beim Laden startet. Einige Systeme, wie bestimmte Mobilgeräte, unterstützen möglicherweise keine automatische Wiedergabe. </p> </td> 
   </tr> 
  </tbody> 

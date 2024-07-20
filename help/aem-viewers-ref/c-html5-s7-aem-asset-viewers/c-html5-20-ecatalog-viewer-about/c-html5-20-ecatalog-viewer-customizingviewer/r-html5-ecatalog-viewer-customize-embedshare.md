@@ -33,7 +33,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Freigabe einbetten&quot;wird mit de
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -49,11 +49,11 @@ Das Erscheinungsbild der Schaltfläche &quot;Freigabe einbetten&quot;wird mit de
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie `display:none` CSS-Eigenschaft in der zugehörigen CSS-Klasse.
+Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: So richten Sie eine eingebettete Freigabeschaltfläche mit 28 x 28 Pixel ein und zeigen für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild an:
 
@@ -129,7 +129,7 @@ Standardmäßig wird das modale Dialogfeld zentriert auf dem Bildschirm auf Desk
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten empfohlen). </p> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
 .s7ecatalogviewer .s7embeddialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols im Dialogfeld**
+**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -194,7 +194,7 @@ Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -219,11 +219,11 @@ Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schrifthöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p> Vertikale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
    <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
   </tr> 
   <tr> 
@@ -260,7 +260,7 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -280,9 +280,9 @@ Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselekt
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 14 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Eine Schaltfläche &quot;Schließen&quot;mit 28 x 28 Pixel, zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers:
 
@@ -347,7 +347,7 @@ Die Fußzeile verfügt über einen inneren Container, der die Schaltfläche beh�
 .s7ecatalogviewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**CSS-Eigenschaften des Schaltflächenbehälters des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldschaltflächen-Containers**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -375,7 +375,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -391,7 +391,7 @@ Die Schaltfläche ist nur auf Desktop-Systemen verfügbar.
 
 >[!NOTE]
 >
->Die Schaltfläche &quot;Alle auswählen&quot;unterstützt die `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Die Schaltfläche Alle auswählen unterstützt die Attributauswahl `state` , mit der verschiedene Skins auf unterschiedliche Schaltflächenstatus angewendet werden können.
 
 Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
@@ -399,7 +399,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 .s7ecatalogviewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Abbrechen&quot;im Dialogfeld**
+**CSS-Eigenschaften des Dialogfelds &quot;Abbrechen&quot;-Schaltfläche**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -408,7 +408,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -424,7 +424,7 @@ Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
 Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
@@ -437,11 +437,11 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -463,7 +463,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
  </tbody> 
 </table>
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Um eine Footer mit einer Schaltfläche von 64 x 34 Abbrechen, einer Schaltfläche von 82 x 34 &quot;Alle auswählen&quot;einzurichten, mit einer Textfarbe und einer Hintergrundfarbe, die für jeden Schaltflächenstatus unterschiedlich ist:
 
@@ -536,7 +536,7 @@ Der Hauptdialogbereich zwischen der Kopf- und Fußzeile enthält bildlauffähige
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p> Die Höhe des Hauptdialogfeld-Bereichs. Sie sollte nur angegeben werden, wenn das Dialogfeld im Desktop-Modus funktioniert. Dies ist nicht möglich, wenn die Größe des Dialogfelds so geändert wird, dass es das gesamte Browser-Fenster belegt. </p> </td> 
   </tr> 
   <tr> 
@@ -600,11 +600,11 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftstärke </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
   </tr> 
   <tr> 
@@ -618,7 +618,7 @@ Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position der Besch
  </tbody> 
 </table>
 
-Dialogfeldbeschriftungen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Dialogfeldbeschriftungen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Um alle Beschriftungen so einzurichten, dass sie grau und fett mit einer 9-Pixel-Schriftart sind:
 
@@ -636,7 +636,7 @@ Die Größe der Textkopie, die über dem Einbettungscode angezeigt wird, wird mi
 .s7ecatalogviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**CSS-Eigenschaften des für die gesamte Eingabe des Dialogfelds vorgesehenen Felds**
+**CSS-Eigenschaften des Eingabefelds des Dialogfelds**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -666,7 +666,7 @@ Der Einbettungscode wird in Container eingeschlossen und mit der folgenden CSS-K
 .s7ecatalogviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldeingabecontainers**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -701,7 +701,7 @@ Der tatsächliche Einbettungscode-Text wird mit der folgenden CSS-Klassenauswahl
 .s7ecatalogviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Eingabecontainers des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldeingabecontainers**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
@@ -712,7 +712,7 @@ Der tatsächliche Einbettungscode-Text wird mit der folgenden CSS-Klassenauswahl
  </tbody> 
 </table>
 
-Beispiel - So richten Sie den zu verwendenden Einbettungscode ein `break-word` Wortumbruch:
+Beispiel - So richten Sie den Einbettungscode so ein, dass das Umbrechen mit dem Wort `break-word` verwendet wird:
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogmessage { 
@@ -756,7 +756,7 @@ Die Größe und Ausrichtung der Beschriftung für die Einbettungsgröße wird mi
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertikale Ausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Ausrichtung der Beschriftung. </p> </td> 
   </tr> 
   <tr> 
@@ -794,7 +794,7 @@ Die Breite des Kombinationsfelds für die Einbettungsgröße wird mit der folgen
 
 >[!NOTE]
 >
->Das Kombinationsfeld unterstützt die `expanded` Attributauswahl mit möglichen Werten `true` und `false`. Die `true` wird verwendet, wenn das Kombinationsfeld eine der vordefinierten Einbettungsgrößen anzeigt. Daher sollte es alle verfügbaren Breiten annehmen. Die `false` wird verwendet, wenn im Kombinationsfeld die Option Benutzerdefinierte Größe ausgewählt ist. Daher sollte sie verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
+>Das Kombinationsfeld unterstützt die &quot;`expanded`&quot;-Attributauswahl mit möglichen Werten von `true` und `false`. Der Wert `true` wird verwendet, wenn das Kombinationsfeld eine der vordefinierten Einbettungsgrößen anzeigt. Daher sollte die gesamte verfügbare Breite verwendet werden. Der Wert `false` wird verwendet, wenn im Kombinationsfeld die Option &quot;Benutzerdefinierte Größe&quot;ausgewählt ist. Daher sollte er verkleinert werden, um Platz für benutzerdefinierte Eingabefelder für Breite und Höhe zu schaffen.
 
 Beispiel - So legen Sie fest, dass das Kombinationsfeld für die Einbettungsgröße bei der Anzeige eines vordefinierten Elements 300 Pixel breit und bei der Anzeige einer benutzerdefinierten Größe 110 Pixel breit ist:
 
@@ -813,12 +813,12 @@ Die Höhe des Kombinationsfeldtextes wird durch ein spezielles inneres Element d
 .s7ecatalogviewer .s7embeddialog .s7combobox .s7comboboxtext
 ```
 
-**CSS-Eigenschaften des Kombinationsfeldtextes**
+**CSS-Eigenschaften des Kombinationsfeld-Textes**
 
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Texthöhe im Kombinationsfeld. </p> </td> 
   </tr> 
  </tbody> 
@@ -847,7 +847,7 @@ Das Kombinationsfeld verfügt über eine Dropdown-Schaltfläche rechts und wird 
    <td colname="col2"> <p>Vertikale Schaltflächenposition innerhalb des Kombinationsfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Schaltflächenposition innerhalb des Kombinationsfelds. </p> </td> 
   </tr> 
   <tr> 
@@ -855,7 +855,7 @@ Das Kombinationsfeld verfügt über eine Dropdown-Schaltfläche rechts und wird 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -871,7 +871,7 @@ Das Kombinationsfeld verfügt über eine Dropdown-Schaltfläche rechts und wird 
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
 Beispiel: Um eine Dropdown-Schaltfläche auf 28 x 28 Pixel festzulegen und für jeden Status ein eigenes Bild anzuzeigen:
 
@@ -961,7 +961,7 @@ Ein Häkchen, das links neben dem ausgewählten Element im Kombinationsfeld ange
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -991,7 +991,7 @@ Wenn die Option &quot;Benutzerdefinierte Größe&quot;im Kombinationsfeld &quot;
 .s7ecatalogviewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**CSS-Eigenschaften des benutzerdefinierten Bereichs &quot;Benutzerdefinierte Größe&quot;des Dialogfelds**
+**CSS-Eigenschaften des Dialogfelds, Bereich für benutzerdefinierte Größe**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
@@ -1016,7 +1016,7 @@ Jedes Eingabefeld für die benutzerdefinierte Größe wird in einen Container ei
 .s7ecatalogviewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**CSS-Eigenschaften des Dialogfelds benutzerdefinierte Größe**
+**CSS-Eigenschaften des Dialogfelds, benutzerdefinierte Größe**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
@@ -1057,7 +1057,7 @@ Wenn ein vertikaler Bildlauf erforderlich ist, wird die Bildlaufleiste im Bereic
 .s7ecatalogviewer .s7embeddialog .s7dialogscrollpanel
 ```
 
-**CSS-Eigenschaften des Bildlauffensters des Dialogfelds**
+**CSS-Eigenschaften des Bildlaufbereichs des Dialogfelds**
 
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
@@ -1095,11 +1095,11 @@ Das Erscheinungsbild des Bildlaufleistenbereichs wird mit der folgenden CSS-Klas
    <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am oberen Rand des Bildlaufbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
    <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am unteren Rand des Bildlaufbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
    <td colname="col2"> <p> Der horizontale Versatz der Bildlaufleiste am rechten Rand des Bildlaufbereichs. </p> </td> 
   </tr> 
  </tbody> 
@@ -1122,7 +1122,7 @@ Die Bildlaufleisten-Spur ist der Bereich zwischen den oberen und unteren Bildlau
 .s7ecatalogviewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**CSS-Eigenschaften der Bildlaufleiste**
+**CSS-Eigenschaften des Bildlaufleisten-Trackings**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
@@ -1152,7 +1152,7 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
 .s7ecatalogviewer .s7embeddialog .s7scrollbar .s7scrollthumb
 ```
 
-**CSS-Eigenschaften der Bildlaufleisten-Miniatur**
+**CSS-Eigenschaften des Bildlaufleisten-Thumbs**
 
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
@@ -1161,11 +1161,11 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
    <td colname="col2"> <p>Rahmenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schubhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p>Der vertikale Abstand zwischen dem oberen Ende des Gleises. </p> </td> 
   </tr> 
   <tr> 
@@ -1185,7 +1185,7 @@ Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufverfolgungsbereich verti
 
 >[!NOTE]
 >
->Thumb unterstützt die `state` -Attribut-Selektor, der verwendet werden kann, um verschiedene Skins auf verschiedene Daumenstatus anzuwenden: `up`, `down`, `over`, und `disabled`.
+>Thumb unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Fahnen auf verschiedene Daumenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
 
 Beispiel: Um einen Bildlaufleisten-Daumen von 28 x 45 Pixel einzurichten, hat einen zehn Pixel langen Rand oben und unten und hat für jeden Status ein anderes Bildmaterial:
 
@@ -1220,9 +1220,9 @@ Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe
 .s7ecatalogviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren `top`, `left`, `bottom`, und `right` Eigenschaften. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
-**CSS-Eigenschaften der Schaltflächen für den oberen und unteren Bildlauf**
+**CSS-Eigenschaften der oberen und unteren Bildlaufschaltflächen**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
@@ -1231,7 +1231,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren 
    <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -1247,9 +1247,9 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe von CSS zu positionieren 
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden: `up`, `down`, `over`, und `disabled`.
+>Diese Schaltflächen unterstützen den Attributselektor `state` , der verwendet werden kann, um unterschiedliche Schaltflächenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel - So richten Sie Bildlaufschaltflächen ein, die 28 x 32 Pixel groß sind und für jeden Status unterschiedliche Grafiken aufweisen:
 

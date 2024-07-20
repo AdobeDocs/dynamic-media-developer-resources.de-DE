@@ -8,7 +8,7 @@ exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -27,21 +27,21 @@ Syntax
 
 ## Parameter {#section-a472da6c57c74a94a179dda081004888}
 
-**Eingabe (setCompanySettingsParam)**
+**Input (setCompanySettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
 | overwriteMode | `xsd:string` | Nein | Asset-Überschreibungsmodus. |
-| keepPublishState | `xsd:boolean` | Nein | Legen Sie fest auf `true` , um den Veröffentlichungsstatus beim erneuten Hochladen eines Assets beizubehalten. |
+| keepPublishState | `xsd:boolean` | Nein | Auf &quot;`true`&quot;setzen, um den Veröffentlichungsstatus beim erneuten Hochladen eines Assets beizubehalten. |
 | defaultSourceProfileHandle | `xsd:string` | Nein | IccProfile-Asset zur Verwendung als standardmäßiges Quellfarbprofil. |
 | defaultDisplayProfileHandle | `xsd:string` | Nein | IccProfile-Asset zur Verwendung als standardmäßiges Anzeigefarbprofil. |
 | iptcExifMappingXsltHandle | `xsd:string` | Nein | XSL-Asset, das für die Zuordnung von IPTC- und EXIF-Metadaten zu IPS-Metadatenfeldern verwendet wird. |
-| xmpMappingXsltHandle | `xsd:string` | Nein | XSL-Asset, das zum Zuordnen XMP Metadaten zu IPS-Metadatenfeldern verwendet wird. |
+| xmpMappingXsltHandle | `xsd:string` | Nein | XSL-Asset, mit dem XMP Metadaten IPS-Metadatenfeldern zugeordnet werden. |
 | diskSpaceWarningMin | `xsd:int` | Nein | Mindestens freier Speicherplatz (in KB), der verfügbar ist, bevor eine Warnmeldung gesendet wird. |
-| emailTrashCleanupWarning | `xsd:boolean` | Nein | Legen Sie fest auf `true` , um Unternehmensadministratoren eine Benachrichtigung zu senden, wenn Assets aus dem Papierkorb geleert werden. |
+| emailTrashCleanupWarning | `xsd:boolean` | Nein | Setzen Sie dies auf &quot;`true`&quot;, um Unternehmensadministratoren eine Benachrichtigung zu senden, wenn Assets aus dem Papierkorb geleert werden. |
 
-**Ausgabe (setCompanySettingsReturn)**
+**Output (setCompanySettingsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -49,7 +49,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird die Konfiguration eines Unternehmens festgelegt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:setCompanySettingsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd/2008-01-15">

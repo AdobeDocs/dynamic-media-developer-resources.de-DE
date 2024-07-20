@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '26'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Konfigurationsattribut für Video360 Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Aktiviert oder deaktiviert die Anzeige der Pufferanimation (Wartesymbol). </p> </td> 
   </tr> 
  </tbody> 

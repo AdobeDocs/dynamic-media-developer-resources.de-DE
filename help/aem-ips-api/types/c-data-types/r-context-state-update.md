@@ -20,7 +20,7 @@ Syntax
 
 ## Parameter {#section-9f747df071854c6896fdbb95684ad947}
 
-Festlegen des Veröffentlichungskontextstatus eines Assets mit `setAssetsContextState`.
+Legen Sie den Veröffentlichungskontextstatus eines Assets mit `setAssetsContextState` fest.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -51,5 +51,4 @@ Festlegen des Veröffentlichungskontextstatus eines Assets mit `setAssetsContext
 
 >[!MORELIKETHIS]
 >
->* [Veröffentlichungsstatus](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
-
+>* [Publish-Status](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

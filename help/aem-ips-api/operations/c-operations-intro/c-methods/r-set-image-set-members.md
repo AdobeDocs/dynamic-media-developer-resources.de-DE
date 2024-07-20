@@ -2,13 +2,13 @@
 description: Legt die Liste der mit einem Bildset verknüpften Assets fest.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Bildsets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '124'
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ Bei diesem Vorgang wird der Parameter `pageReset` für `ImageSets` und `SpinSets
 
 ## Parameter {#section-2f46efcd24c648aeacba738509426e46}
 
-**Eingabe (setImageSetMembersParam)**
+**Input (setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
@@ -59,14 +59,14 @@ Bei diesem Vorgang wird der Parameter `pageReset` für `ImageSets` und `SpinSets
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Typen:ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Array von Asset-Elementen, die zum Bildset gehören. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ausgabe (setImageSetMembersReturn)**
+**Output (setImageSetMembersReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -74,7 +74,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird ein Member-Array verwendet, um die Mitglieder eines Bildsets festzulegen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <setImageSetMembersParam xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Ebenengröße. Gibt die Größe oder die maximale Ebenengröße für eine Ebene 
 
 <table id="simpletable_FBE17D736F93485AA0053BF447B4CC9F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span>, <span class="varname"> height </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Breite </span>, <span class="varname"> Höhe </span> </span> </p> </td> 
   <td class="stentry"> <p>Begrenzung der Ebenengröße in Pixel (int, int, 0 oder höher). </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -31,21 +31,21 @@ Ebenengröße. Gibt die Größe oder die maximale Ebenengröße für eine Ebene 
  </tr> 
 </table>
 
-Wenn für eine Bildebene angegeben, beschränkt size= die Breite oder Höhe des Ebenenbilds oder beides. Das Bild wird so skaliert, dass es nicht größer ist als `size=`. Wenn eine normalisierte Größe angegeben wird, ist sie relativ zur Größe der Ebene 0. Wenn *`width`* und *`height`* festgelegt sind, wird das Quellbild skaliert (nach `crop=` angewendet wird), sodass keine der Dimensionen die angegebene Größe überschreitet. Das Seitenverhältnis des Quellrechtecks wird in allen Fällen beibehalten. Entweder *`width`* oder *`height`* kann auf 0 gesetzt werden. In diesem Fall wird der Wert vom Server basierend auf dem Seitenverhältnis des Bildes berechnet.
+Wenn für eine Bildebene angegeben, beschränkt size= die Breite oder Höhe des Ebenenbilds oder beides. Das Bild wird so skaliert, dass es nicht größer als `size=` ist. Wenn eine normalisierte Größe angegeben wird, ist sie relativ zur Größe der Ebene 0. Wenn sowohl *`width`* als auch *`height`* angegeben sind, wird das Quellbild skaliert (nachdem `crop=` angewendet wurde), sodass keine Dimension die angegebene Größe überschreitet. Das Seitenverhältnis des Quellrechtecks wird in allen Fällen beibehalten. Entweder *`width`* oder *`height`* kann auf 0 gesetzt werden; in diesem Fall wird der Wert vom Server basierend auf dem Seitenverhältnis des Bildes berechnet.
 
-Wenn für eine Textebene angegeben, `size=` gibt die Größe des Textfelds an. *`width`* erforderlich ist; *`height`* kann auf 0 gesetzt werden. In diesem Fall wird die Höhe des ausgelegten Textes als Ebenenhöhe verwendet. Standardmäßig fügen die Textlayout-Engines Zeilenumbrüche ein, um sicherzustellen, dass der Text immer horizontal in den verfügbaren Bereich passt. Wenn *`height`* angegeben ist, werden Zeilen, die nicht in den verfügbaren Bereich passen, abgeschnitten ( `text=`) oder ausgelassen ( `textPs=`). `text=` unterstützt zusätzliche Anpassungsmodi; siehe `textAttr=` für Details.
+Wenn für eine Textebene angegeben, gibt `size=` die Größe des Textfelds an. *`width`* ist erforderlich; *`height`* kann auf 0 gesetzt werden. In diesem Fall wird die Höhe des Layout-Textes als Ebenenhöhe verwendet. Standardmäßig fügen die Textlayout-Engines Zeilenumbrüche ein, um sicherzustellen, dass der Text immer horizontal in den verfügbaren Bereich passt. Wenn *`height`* angegeben ist, werden Zeilen, die nicht in den verfügbaren Bereich passen, abgeschnitten ( `text=`) oder ausgelassen ( `textPs=`). `text=` unterstützt zusätzliche Anpassungsmodi. Weitere Informationen finden Sie unter `textAttr=` .
 
-Wenn für eine Farbschicht angegeben, `size=` definiert die genaue Ebenengröße. Beide Werte müssen angegeben werden (es sei denn, eine Maske wird bereitgestellt). Wenn `mask=` wird auch die Größe des Maskenbilds festgelegt. `size=` Bilder werden auf die gleiche Weise in Bildebenen skaliert.
+Wenn für eine Farbschicht angegeben, definiert `size=` die genaue Ebenengröße. Beide Werte müssen angegeben werden (es sei denn, eine Maske wird bereitgestellt). Wenn auch `mask=` angegeben ist, wird die Größe des Maskenbilds an `size=` angepasst, ebenso wie Bilder in Bildebenen skaliert werden.
 
 ## Eigenschaften {#section-5f254b66fcba49bcb63f9c9ea40b230c}
 
-Ebenenattribut. Gilt für Ebene 0, wenn `layer=comp`. `sizeN=` ist nicht zulässig für `layer=0` oder `layer=comp`. `sizeN=` ist zulässig für `layer=0` und `layer=comp` nur in Katalogdatensätzen, die Wasserzeichenbilder definieren. In diesem Fall `sizeN` definiert die Skalierung des Wasserzeichenbilds relativ zum zusammengesetzten Bild, auf das das Wasserzeichen angewendet wird. Wenn `size=` festgelegt ist, `res=` und `scale=` werden für diese Ebene ignoriert. Wird von Effektebenen ignoriert.
+Ebenenattribut. Gilt für Ebene 0, wenn `layer=comp`. `sizeN=` ist für `layer=0` oder `layer=comp` nicht erlaubt. `sizeN=` ist für `layer=0` und `layer=comp` nur in Katalogdatensätzen zulässig, die Wasserzeichenbilder definieren. In diesem Fall definiert `sizeN` die Skalierung des Wasserzeichenbilds relativ zum zusammengesetzten Bild, auf das das Wasserzeichen angewendet wird. Wenn `size=` angegeben ist, werden `res=` und `scale=` für diese Ebene ignoriert. Wird von Effektebenen ignoriert.
 
 ## Standard {#section-43d129deba6a441da66a1fdb63d1c85c}
 
-`size=0,0`festgelegt ist, ist die Ebenengröße nicht beschränkt. Bei Bildebenen wird die Ebenengröße dann basierend auf der Ebenenbildgröße nach einer beliebigen `crop=`, `scale=`oder `res=` -Vorgänge angewendet wurden. Bei Textebenen, wenn `size=` nicht angegeben ist, wird die Ebene automatisch an den gerenderten Text angepasst.
+`size=0,0`, ist die Ebenengröße nicht beschränkt. Bei Bildebenen wird die Ebenengröße dann basierend auf der Ebenenbildgröße bestimmt, nachdem beliebige `crop=`-, `scale=`- oder `res=`-Vorgänge angewendet wurden. Wenn bei Textebenen `size=` nicht angegeben ist, wird die Ebene automatisch an den gerenderten Text angepasst.
 
-Solide Farbschichten erfordern entweder eine vollständig spezifizierte `size=`, a `mask=`oder `clipPath=`.
+Für durchgehende Farbschichten ist entweder ein vollständig angegebener `size=`, ein `mask=` oder `clipPath=` erforderlich.
 
 ## Beispiel {#section-d1adaddd9e0b4ca881fd8e0a7541e5d9}
 

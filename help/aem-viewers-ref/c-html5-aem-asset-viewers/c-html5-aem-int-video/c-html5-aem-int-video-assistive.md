@@ -1,5 +1,5 @@
 ---
-title: Unterstützung der Technologie
+title: Unterstützung bei der Technologie
 description: Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# Unterstützung der Technologie{#assistive-technology-support}
+# Unterstützung bei der Technologie{#assistive-technology-support}
 
 Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
 
-Das Viewer-Element der obersten Ebene hat die Rolle `region` und das Attribut `aria-label`, die standardmäßig auf den Namen des Viewers festgelegt sind. Sie können den Titel mit dem Lokalisierungssymbol `Container.LABEL` steuern.
+Das Viewer-Element der obersten Ebene hat die Rolle `region` und das Attribut `aria-label`, die standardmäßig auf den Namen des Viewers festgelegt sind. Sie können die Bezeichnung mit dem Lokalisierungssymbol `Container.LABEL` steuern.
 
-Schaltflächen haben die Rolle `button` und einen beschreibenden Text mit dem Attribut `aria-label`. Der Wert des Attributs `aria-label` wird aus dem Wert des Lokalisierungssymbols der Schaltfläche abgeleitet. Wenn eine Schaltfläche deaktiviert ist, wird das Attribut `aria-disabled` entsprechend eingestellt.
+Schaltflächen haben die Rolle &quot;`button`&quot; und beschreibender Text wird mit dem Attribut &quot;`aria-label`&quot; festgelegt. Der Wert des Attributs `aria-label` wird aus dem Wert des Lokalisierungssymbols der Schaltfläche abgeleitet. Wenn eine Schaltfläche deaktiviert ist, wird das Attribut `aria-disabled` entsprechend eingestellt.
 
 Reglerkomponenten haben die Rolle `slider` mit den Attributen `aria-valuenow`, `aria-valuemin` und `aria-valuemax`, um die aktuelle Reglerposition zu beschreiben.
 
-Miniaturansichten haben die Rolle `dialog` mit dem Attribut `aria-label` , das durch das Lokalisierungssymbol `ThumbnailGridView.LABEL` gesteuert wird. Einzelne Miniaturansichten haben die Rolle `button`. Wenn eine Miniaturansicht ausgewählt ist, wird das Attribut `aria-selected` auf `true` gesetzt.
+Miniaturansichten haben die Rolle &quot;`dialog`&quot;, wobei das Attribut &quot;`aria-label`&quot; durch das Lokalisierungssymbol &quot;`ThumbnailGridView.LABEL`&quot; gesteuert wird. Einzelne Miniaturansichten haben die Rolle &quot;`button`&quot;. Wenn eine Miniaturansicht ausgewählt ist, wird das Attribut `aria-selected` auf `true` gesetzt.
 
-Komponenten, die Muster anzeigen, haben die Rolle `listbox` , wobei das Attribut `aria-label` auf den Wert des Lokalisierungssymbols `LABEL` dieser Komponente gesetzt ist. Einzelne Muster haben die Rolle `option` mit den Attributen `aria-setsize` und `aria-posinset` , um die Musterposition im Satz zu beschreiben. Wenn ein Muster ausgewählt ist, erhält es das `aria-selected` -Attribut, das auf `true` gesetzt ist.
+Komponenten, die Muster anzeigen, haben die Rolle &quot;`listbox`&quot;, wobei das Attribut &quot;`aria-label`&quot; auf den Wert des Lokalisierungssymbols `LABEL` dieser Komponente gesetzt ist. Einzelne Muster haben die Rolle `option` mit den Attributen `aria-setsize` und `aria-posinset` , um die Musterposition im Satz zu beschreiben. Wenn ein Muster ausgewählt ist, erhält es das `aria-selected` -Attribut, das auf `true` gesetzt ist.
 
-Dropdown-Listen werden durch Schaltflächen aktiviert, wobei das zusätzliche Attribut `aria-haspopup` auf `true` und das Attribut `aria-controls` gesetzt sind, die auf das tatsächliche Dropdown-Bedienfeldelement verweisen. Das Dropdown-Bedienfeld selbst hat die Rolle `menu` mit Unterelementen mit der Rolle `menuitem`. Für jedes Menüelement ist das Attribut `aria-label` angegeben.
+Dropdown-Listen werden durch Schaltflächen aktiviert, wobei das zusätzliche Attribut `aria-haspopup` auf das Attribut `true` und das Attribut `aria-controls` eingestellt ist, die auf das tatsächliche Dropdown-Bedienfeldelement verweisen. Das Dropdown-Bedienfeld selbst hat die Rolle `menu` mit Unterelementen mit der Rolle `menuitem`. Für jedes Menüelement ist das Attribut `aria-label` angegeben.
 
-Modale Dialogfelder haben die Rolle `dialog`. Das Header-Element des Dialogfelds wird durch das Attribut `aria-labelledby` referenziert.
+Modale Dialogfelder haben die Rolle &quot;`dialog`&quot;. Das Kopfzeilenelement des Dialogfelds wird durch das Attribut `aria-labelledby` referenziert.

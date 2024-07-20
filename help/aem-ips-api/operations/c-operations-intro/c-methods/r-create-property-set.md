@@ -8,7 +8,7 @@ exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ Syntax
 | propertyArray | `types:PropertyArray` | Ja | Das Array von Eigenschaften. |
 | permissionArray | `types:PermissionUpdateArray` |  |  |
 
-**Ausgabe (createPropertySetParam)**
+**Output (createPropertySetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 
 In diesem Codebeispiel wird ein Eigenschaftssatz erstellt, der Namen und Werte von Eigenschaften enthält. Die Antwort gibt einen Handle für den neuen Eigenschaftssatz zurück.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createPropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

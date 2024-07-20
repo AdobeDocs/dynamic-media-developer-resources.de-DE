@@ -11,7 +11,7 @@ role: Developer,User
 user-guide-description: Die neuesten Versionshinweise für Adobe Dynamic Media Classic, Teil der Adobe Experience Manager-Lösung in der Adobe Experience Cloud.
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 # Versionshinweise zu Dynamic Media {#release-notes}
 
 + [Neueste Versionshinweise](s7rn2017.md)
-+ Archivieren {#archive-release-notes}
++ Archiv {#archive-release-notes}
    + [Scene7 Version Herbst 2016](s7rnfall2016.md)
    + [Versionshinweise zu Scene7 Publishing System 6.10 (Mai 2015)](s7rn610.md)
    + [Scene7 Publishing System 6.9 - Versionshinweise (Oktober 2014)](s7rn69.md)

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 8%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Legen Sie fest auf <span class="codeph"> 1</span> , um das Vorabladen des gezoomten Bildes zu aktivieren. </p> <p>Legen Sie fest auf <span class="codeph"> 0</span> , um das Zoombild nach Bedarf schrittweise zu laden. </p> <p> <p>Wenn Sie diese Option aktivieren, kann dies zu einer wesentlich höheren Bandbreitennutzung führen, da das gezoomte Bild vollständig geladen werden muss, selbst wenn der Benutzer keine Zoom-Aktion durchführt. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Setzen Sie dies auf <span class="codeph"> 1</span> , um das Vorausfüllen des gezoomten Bildes zu ermöglichen. </p> <p>Setzen Sie dies auf <span class="codeph"> 0</span> , um das Zoombild nach Bedarf schrittweise zu laden. </p> <p> <p>Wenn Sie diese Option aktivieren, kann dies zu einer wesentlich höheren Bandbreitennutzung führen, da das gezoomte Bild vollständig geladen werden muss, selbst wenn der Benutzer keine Zoom-Aktion durchführt. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

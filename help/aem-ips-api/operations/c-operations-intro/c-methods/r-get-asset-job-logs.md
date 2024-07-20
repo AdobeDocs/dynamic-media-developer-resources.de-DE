@@ -8,7 +8,7 @@ exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -32,14 +32,14 @@ Syntax
 
 ## Parameter {#section-9586617e124b4da4acb6b66b2a9adad8}
 
-**Eingabe (getAssetJobLogsParam)**
+**Input (getAssetJobLogsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Asset gehört. |
 | assetHandle | `xsd:string` | Ja | Der Handle für das Asset mit den Auftragsprotokollen, die abgerufen werden sollen. |
 
-**Ausgabe (getAssetJobLogsReturn)**
+**Output (getAssetJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntax
 
 Dieses Codebeispiel ruft die Auftragsprotokolle eines bestimmten Assets ab. Die Antwort gibt ein Auftragsprotokollarray mit detaillierten Informationen zu allen Aufträgen zurück, in denen das Asset verwendet wurde.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getAssetJobLogsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -8,21 +8,21 @@ exl-id: 9d075434-5ef0-4b6a-ad24-1ef9c57e3e47
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # IccBlackPointCompensation{#iccblackpointcompensation}
 
-Tiefenkompensierung. Gibt an, ob bei Farbkonvertierungen, bei denen keine explizite Auswahl vorgenommen wurde, eine Blackpoint-Kompensation angewendet werden soll `icc=`.
+Tiefenkompensierung. Gibt an, ob die Blackpoint-Kompensation auf Farbkonvertierungen angewendet werden soll, wenn keine explizite Auswahl mit `icc=` erfolgt.
 
 ## Eigenschaften {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-Flag. Legen Sie fest auf `0` oder deaktivieren `1` zur Ermöglichung der Kompensation von Schwarzpunkten.
+Flag. Setzen Sie dies auf `0` , um die Blackpoint-Kompensation zu deaktivieren, oder auf `1` , um sie zu aktivieren.
 
 ## Standard {#section-5bc6703a43a149f18af88b70baae568f}
 
-Vererbt von `default::IccBlackPointCompensation` wenn nicht definiert oder leer ist.
+Wird von `default::IccBlackPointCompensation` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-90fcbddf02c54846aa09f85fabc7b4d4}
 

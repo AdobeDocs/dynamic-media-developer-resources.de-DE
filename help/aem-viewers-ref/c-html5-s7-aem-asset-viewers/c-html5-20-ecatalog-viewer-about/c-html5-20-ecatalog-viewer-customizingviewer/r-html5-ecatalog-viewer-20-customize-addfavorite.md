@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3602fa7b-d654-4976-a62d-d959898cb530
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Das Erscheinungsbild der Schaltfläche &quot;Favorit hinzufügen&quot;wird mit d
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,11 +49,11 @@ Das Erscheinungsbild der Schaltfläche &quot;Favorit hinzufügen&quot;wird mit d
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt beide `state` und `selected` -Attributselektoren, die verwendet werden können, um verschiedene Skins auf unterschiedliche Schaltflächenzustände anzuwenden. Insbesondere `selected='true'` entspricht dem Status, in dem ein Benutzer durch Auswählen oder Tippen ein neues Favoritensymbol hinzufügen kann. Das Attribut `selected='false'` entspricht dem normalen Betriebsmodus, in dem ein Benutzer Seiten zoomen, schwenken und austauschen kann.
+>Diese Schaltfläche unterstützt sowohl die Attribute `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status, in dem ein Benutzer durch Auswählen oder Tippen ein neues Favoritensymbol hinzufügen kann. Das Attribut `selected='false'` entspricht dem normalen Betriebsmodus, in dem ein Benutzer Seiten zoomen, schwenken und tauschen kann.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-Beispiel: Zum Einrichten einer Schaltfläche &quot;Favoriten hinzufügen&quot;, die 28 x 28 Pixel groß ist. Außerdem wird für jeden der vier Schaltflächenstatus ein anderes Bild angezeigt, wenn er ausgewählt oder nicht ausgewählt ist.
+Beispiel: Um eine Schaltfläche &quot;Favoriten hinzufügen&quot;mit 28 x 28 Pixel einzurichten. Außerdem wird für jeden der vier Schaltflächenstatus ein anderes Bild angezeigt, wenn er ausgewählt oder nicht ausgewählt ist.
 
 ```
 .s7ecatalogviewer .s7addfavoritebutton { 

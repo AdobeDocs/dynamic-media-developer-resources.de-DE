@@ -20,8 +20,8 @@ Wenn ein bestimmtes Attribut in einem bestimmten Bildkatalog nicht gefunden werd
 
 Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (Makros, Schriftarten, ICC-Profile, Vorab-Verarbeitungsregeln anfordern) bereit, wenn kein bestimmter Bildkatalog an einem Vorgang beteiligt ist.
 
-Zur ordnungsgemäßen Funktionsweise der [!DNL Platform Server] Die Katalogattributdatei für den Standardkatalog muss [!DNL default.ini]muss immer im Katalogordner vorhanden sein und mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme von `attribute::RootId` und die Verweise auf die verschiedenen Katalogdatendateien, die alle optional sind.
+Damit die Variable &quot;[!DNL Platform Server]&quot; ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog den Namen &quot;[!DNL default.ini]&quot;, immer im Katalogordner vorhanden sein und mit allen erforderlichen Attributen gefüllt werden, mit Ausnahme von &quot;`attribute::RootId`&quot; und den Verweisen auf die verschiedenen Katalogdatendateien, die alle optional sind.
 
 >[!NOTE]
 >
->Alle Katalogattributdateien außer [!DNL default.ini] muss eindeutige `attribute::RootId` -Wert. `attribute::RootId` in [!DNL default.ini] darf nicht leer sein.
+>Alle Katalogattributdateien mit Ausnahme von [!DNL default.ini] müssen einen eindeutigen `attribute::RootId` -Wert enthalten. `attribute::RootId` in [!DNL default.ini] muss leer sein.

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -31,15 +31,15 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-Wenn Bild-, Text- und Farbebenen vorhanden sind, `pos=` gibt die Position eines Ebenen-Ankers relativ zum Layer 0-Anker an. Die `posN=` Koordinatenwerte werden relativ zur tatsächlichen Ebene 0 rect size normalisiert.
+Wenn es eine Bild-, Text- und einfarbige Farbschicht gibt, gibt `pos=` die Position eines Ebenenankers relativ zum Ebenen-0-Anker an. Die `posN=`-Koordinatenwerte werden relativ zur tatsächlichen Ebene 0 rect size normalisiert.
 
-Wenn Effektschichten vorhanden sind, `pos=` verschiebt die Effektebene relativ zur übergeordneten Ebene.
+Wenn Effektebenen vorhanden sind, verschiebt `pos=` die Effektebene relativ zur übergeordneten Ebene.
 
-Bei positiven Werten wird die Ebene nach rechts/unten und nach links/oben nach unten nach unten verschoben. In `posN=0.5,0.5`, verschiebt es die Ebene um die Hälfte der Ebene 0 Breite und Höhe nach unten und rechts.
+Bei positiven Werten wird die Ebene nach rechts/unten und nach links/oben nach unten nach unten verschoben. In `posN=0.5,0.5` bewegt er die Ebene um die Hälfte der Ebene 0 Breite und Höhe nach unten und rechts.
 
 ## Eigenschaften {#section-51a60cdc52d040538fef378ace7c2e7d}
 
-Ebenenattribut. Ignoriert , wenn `layer=0` oder `layer=comp`.
+Ebenenattribut. Wird ignoriert, wenn `layer=0` oder `layer=comp`.
 
 ## Standard {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 

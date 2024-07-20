@@ -8,7 +8,7 @@ exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ Zu den unterstützten Systemeigenschaften gehören:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: URL-Präfix für das Rendern von SVG-Assets.
-* `SvgRenderEnabled`: True , wenn SVG-Assets von `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True , wenn SVG-Assets von `SvgRenderRootUrl` gerendert werden können.
 
 * `UploadPostMaxFileSize`: Maximale Größe (in Byte) der bei einem Upload zulässigen Dateidaten [!DNL POST]. Das System lehnt Dateien ab, die größer als das Limit sind.
 
@@ -41,13 +41,13 @@ Zu den unterstützten Systemeigenschaften gehören:
 
 ## Parameter {#section-e3d389d183b244c2a5ef39c0ec331b5e}
 
-**Eingabe (getPropertyParam)**
+**Input (getPropertyParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | name | `xsd:string` | Ja | Der Name der abzurufenden Eigenschaft. |
 
-**Ausgabe (getPropertyReturn)**
+**Output (getPropertyReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Zu den unterstützten Systemeigenschaften gehören:
 
 In diesem Codebeispiel wird eine IPS-Eigenschaften-String-Konstante verwendet, um einen bestimmten Wert zurückzugeben. In diesem Beispiel ist die IPS-Eigenschaft die Version des IPS-Servers.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getPropertyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

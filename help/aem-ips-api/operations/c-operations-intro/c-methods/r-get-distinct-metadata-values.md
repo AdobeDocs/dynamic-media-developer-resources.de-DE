@@ -8,7 +8,7 @@ exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 24%
+ht-degree: 21%
 
 ---
 
@@ -30,14 +30,14 @@ Syntax
 
 ## Parameter {#section-600f36a32ff147cb83149943d37843e2}
 
-**Eingabe (getDistinctMetadataValuesParam)**
+**Input (getDistinctMetadataValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, für das Sie Daten abrufen möchten. |
 | metadataKey | `xsd:string` | Ja | Metadatenschlüssel in Punktnotation. |
 
-**Ausgabe (getDistinctMetadataValuesReturn)**
+**Output (getDistinctMetadataValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

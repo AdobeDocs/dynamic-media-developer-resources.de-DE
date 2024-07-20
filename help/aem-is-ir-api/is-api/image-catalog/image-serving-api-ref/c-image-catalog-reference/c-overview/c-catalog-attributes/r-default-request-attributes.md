@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
+source-wordcount: '67'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Katalogattributdateien erkennen diese standardmäßigen Anforderungsattribute.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md#reference-cf52bb74bed2466e8bc8adb0cacd6141" format="dita" scope="local"> DefaultThumbPix</a></span> </p> </td> 
-   <td colname="col2"> <p> Standardgröße für Miniaturansichten. </p> </td> 
+   <td colname="col2"> <p> Standardgröße für Miniaturen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local"> BkgColor</a></span> </p> </td> 
@@ -44,7 +44,7 @@ Katalogattributdateien erkennen diese standardmäßigen Anforderungsattribute.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality</a></span> </p> </td> 
-   <td colname="col2"> <p> Standardeinstellungen für JPEG-Kodierer. </p> </td> 
+   <td colname="col2"> <p> Standardeinstellungen für JPEG-Encoder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 

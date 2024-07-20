@@ -41,7 +41,7 @@ Zu den Werten gehören:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Handle des Unternehmens. <p>Hinweis: Der Typ ist global, wenn der Unternehmens-Handle nicht vorhanden ist. </p></td> 
+   <td colname="col3">Handle des Unternehmens. <p>Hinweis: Der Typ ist global, wenn das Handle des Unternehmens nicht vorhanden ist. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 

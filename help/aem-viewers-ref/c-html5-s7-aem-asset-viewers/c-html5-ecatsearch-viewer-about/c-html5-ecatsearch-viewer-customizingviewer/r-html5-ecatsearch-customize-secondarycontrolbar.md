@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 2%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -31,15 +31,15 @@ Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position oben im Viewer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position am unteren Rand des Viewers. </p> </td> 
+   <td colname="col2"> <p>Position am unteren Rand des Viewers </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Hauptsteuerleiste. </p> </td> 
   </tr> 
   <tr> 

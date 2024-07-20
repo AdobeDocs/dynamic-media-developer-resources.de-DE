@@ -1,7 +1,7 @@
 ---
-description: Eine Systemfeldsuchbedingung für den Vorgang "searchAssets".
+description: Eine Systemfeldsuchbedingung für den Vorgang searchAssets .
 solution: Experience Manager
-title: SystemFieldCondition
+title: SystemFieldBedingung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
@@ -14,9 +14,9 @@ ht-degree: 6%
 
 # [!DNL SystemFieldCondition]{#systemfieldcondition}
 
-Eine Systemfeldsuchbedingung für den Vorgang &quot;searchAssets&quot;.
+Eine Systemfeldsuchbedingung für den Vorgang searchAssets .
 
-Für unäre Vergleiche müssen Sie genau einen Wert ( `boolVal`, `longVal`, `doubleVal`oder `dateVal`) abhängig vom Systemfeldtyp. Für Suchbereiche übergeben Sie `min<Type>` und `max<Type>` Parameter und übergeben Sie eine `op` Wert von `Between` oder `NotBetween`.
+Übergeben Sie bei unären Vergleichen genau einen Wert ( `boolVal`, `longVal`, `doubleVal` oder `dateVal`), je nach Systemfeldtyp. Übergeben Sie für Suchbereiche die Parameter `min<Type>` und `max<Type>` und übergeben Sie den Wert `op` von `Between` oder `NotBetween`.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -31,7 +31,7 @@ Für unäre Vergleiche müssen Sie genau einen Wert ( `boolVal`, `longVal`, `dou
 | maxLong | `xsd:long` | Obere Grenze des langen Bereichs. |
 | doubleVal | `xsd:double` | Doppelter Vergleichswert. |
 | minDouble | `xsd:double` | Untere Grenze des doppelten Bereichs. |
-| maxDouble | `xsd:double` | Obere Grenze des Doppelbereichs. |
+| maxDouble | `xsd:double` | Obere Grenze des doppelten Bereichs. |
 | dateVal | `xsd:dateTime` | Datumsvergleichswert. |
 | minDate | `xsd:dateTime` | Datumsbereich Minimum. |
 | maxDate | `xsd:dateTime` | Maximaler Datumsbereich. |

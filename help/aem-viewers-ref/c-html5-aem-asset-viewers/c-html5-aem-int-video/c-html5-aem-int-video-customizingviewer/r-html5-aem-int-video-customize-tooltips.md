@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 3%
+source-wordcount: '139'
+ht-degree: 1%
 
 ---
 
@@ -55,7 +55,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
    <td colname="col2"> <p>Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Textschriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
 
 >[!NOTE]
 >
->Falls QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften die `!IMPORTANT` Regel. Diese Anmerkung ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
+>Falls QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften die Regel `!IMPORTANT` enthalten. Diese Anmerkung ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
 
 ## Beispiel {#section-59e009fd05b14019936aba04d7ca779d}
 

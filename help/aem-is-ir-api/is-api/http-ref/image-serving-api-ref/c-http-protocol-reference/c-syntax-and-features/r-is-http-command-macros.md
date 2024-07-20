@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 1%
+source-wordcount: '311'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze. Makros werd
  </tr> 
 </table>
 
-`*`name`*` nicht zwischen Groß- und Kleinschreibung unterscheiden und aus einer beliebigen Kombination von ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen können Zeichen.
+`*`name`*` unterscheidet nicht zwischen Groß- und Kleinschreibung und kann aus einer beliebigen Kombination aus ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen. Zeichen.
 
-Makros können an einer beliebigen Stelle in einer Anfrage nach dem &quot;?&quot;und an einer beliebigen Stelle in einer `catalog::Modifier` oder `catalog::PostModifier` -Feld. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen und müssen mit `&` Trennzeichen.
+Makros können an einer beliebigen Stelle in einer Anfrage nach dem &quot;?&quot;und an einer beliebigen Stelle in einem Feld `catalog::Modifier` oder `catalog::PostModifier` aufgerufen werden. Makros können nur einen oder mehrere vollständige Image Serving-Befehle darstellen und müssen mit `&` Trennzeichen von anderen Befehlen getrennt werden.
 
-Makroaufrufe werden während des Parsens durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dieser Verarbeitungsfluss unterscheidet sich von `catalog::Modifier`, wobei Befehle in der Anfragezeichenfolge Befehle in der `catalog::Modifier` Zeichenfolge, unabhängig von der Position in der Anforderung.
+Makroaufrufe werden während des Parsens durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dieser Verarbeitungsfluss unterscheidet sich von `catalog::Modifier`, bei dem Befehle in der Anforderungszeichenfolge Befehle in der `catalog::Modifier` -Zeichenfolge immer außer Kraft setzen, unabhängig von der Position in der Anfrage.
 
 Befehlsmakros können keine Argumentwerte haben, aber benutzerdefinierte Variablen können verwendet werden, um Werte aus der Anfrage an das Makro zu übergeben.
 
@@ -49,8 +49,8 @@ Das Makro würde wie folgt verwendet:
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-weil `wid=` unterscheidet sich bei der dritten Anforderung, können Sie den Wert einfach überschreiben. *after* das Makro aufgerufen wird (Angabe von `wid=`*before* `$view$` keine Wirkung hat).
+Da `wid=` für die dritte Anforderung unterschiedlich ist, können Sie einfach den Wert *nach* überschreiben, wenn das Makro aufgerufen wird (die Angabe `wid=`*vor* `$view$` hat keine Auswirkungen).
 
 ## Verwandte Themen {#section-8cdba0ed2480444ca61e719e54f8871c}
 
-[catalog::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , [catalog::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md), [Referenz zur Makrodefinition](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
+[catalog::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , [catalog::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md), [Macro Definition Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)

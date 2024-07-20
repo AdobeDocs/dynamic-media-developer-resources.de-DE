@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
@@ -29,14 +29,14 @@ Zoom: Zielgruppendaten aus Bildkatalog. Gibt Zoom-Zieldaten für den Bildkatalog
  </tr> 
 </table>
 
-Der Inhalt von `catalog::Targets` zurückgegeben. Wenn das Format &quot;text&quot;angefordert wird, werden alle Instanzen von `??` in `catalog::Targets` durch Zeilenende-Zeichen und einen einzeiligen Abschlusszeichen ( `CR/LF`) wird an das Ende angehängt. Wenn der URL-Pfad nicht zu einem gültigen Katalogeintrag aufgelöst wird, besteht die Antwort nur aus einem einzeiligen Terminator. Wenn das Format &quot;xml&quot;oder &quot;json&quot;angefordert wird, wird eine entsprechende Formatierung angewendet.
+Der Inhalt von `catalog::Targets` wird zurückgegeben. Wenn das Format &quot;text&quot;angefordert wird, werden alle Instanzen von `??` in `catalog::Targets` durch Zeilenende-Zeichen ersetzt und ein einzeiliger Endpunkt ( `CR/LF`) wird an das Ende angehängt. Wenn der URL-Pfad nicht zu einem gültigen Katalogeintrag aufgelöst wird, besteht die Antwort nur aus einem einzeiligen Terminator. Wenn das Format &quot;xml&quot;oder &quot;json&quot;angefordert wird, wird eine entsprechende Formatierung angewendet.
 
 Andere Befehle in der Anforderungszeichenfolge werden ignoriert.
 
-Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration`.
+Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
 
-Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax von `req=` Parameter:
+Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Die Standardgrenze ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.

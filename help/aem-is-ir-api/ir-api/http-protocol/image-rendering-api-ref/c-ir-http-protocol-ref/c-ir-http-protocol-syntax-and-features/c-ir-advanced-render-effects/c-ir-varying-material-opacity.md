@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Die variable Deckkraft wird für feste Farben und wiederholbare Texturen unterstützt, die auf überlappende Objekte angewendet werden, sowie für Decals und Materialien, die mit Fenstern versehen sind.
 
-Informationen zur Deckkraft können einfach über ein RGB-Bild mit einem Alphakanal bereitgestellt werden. Darüber hinaus kann die Gesamtdeckkraft je nach `opacity=` -Befehl (sowohl für RGB- als auch für RGBA-Bilder).
+Informationen zur Deckkraft können einfach über ein RGB-Bild mit einem Alphakanal bereitgestellt werden. Darüber hinaus kann die Gesamtdeckkraft mit dem Befehl `opacity=` variieren (sowohl für RGB- als auch für RGBA-Bilder).
 
 Pinnwände unterstützen auch RGBA-Bilder, vor allem zur Unterstützung von durchgeschnittenen Grenzen.
 
-Die [!DNL vnw] -Dateien, die Fensterbeläge definieren, können einen Deckkraftkanal enthalten. Sie wird vom Renderer mit dem Alphakanal der wiederholbaren Textur und dem `opacity=` -Wert, um eine vollständige Palette von Deckkrafteffekten für schiere und durchsichtige Fensterbehandlungen bereitzustellen.
+Die [!DNL vnw] -Dateien, die Fensterbeläge definieren, können einen Deckkraftkanal enthalten. Sie wird vom Renderer mit dem Alphakanal der wiederholbaren Textur und dem Wert `opacity=` kombiniert, um eine vollständige Palette von Deckkrafteffekten für schiere und durchsichtige Fensterbehandlungen zu erhalten.

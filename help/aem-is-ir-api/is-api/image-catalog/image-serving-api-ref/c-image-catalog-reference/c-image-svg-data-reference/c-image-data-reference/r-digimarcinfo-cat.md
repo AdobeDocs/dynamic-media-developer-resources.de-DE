@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 13%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -20,9 +20,9 @@ Digimarc-Bildinformationen. Aktiviert die Digimarc-Einbettung und gibt den Typ d
 
 Vier ganzzahlige Werte, durch Kommas getrennt.
 
-`*`type`*, *`Flags`*, *`val1`*, *`val2`*`
+`*`type`*, *`flags`*, *`val1`*, *`val2`*`
 
-`*`type`*` aktiviert die Digimarc-Einbettung und gibt den Wasserzeichentyp an:
+`*`type`*` aktiviert die Einbettung in Digimarc und gibt den Wasserzeichentyp an:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -38,7 +38,7 @@ Vier ganzzahlige Werte, durch Kommas getrennt.
   </tr> 
   <tr> 
    <td> <p><b>1</b> </p> </td> 
-   <td> <p>Basis. </p> </td> 
+   <td> <p>Einfach. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
@@ -55,12 +55,12 @@ Vier ganzzahlige Werte, durch Kommas getrennt.
  </tbody> 
 </table>
 
-`*`Flags`*` ist ein Bitfeld mit drei Werten. Setzen Sie Bit 0, um den kopiergeschützten Inhalt anzugeben, Bit 1, um eingeschränkten Inhalt anzugeben, und Bit 2, um erwachsenen Inhalt anzugeben:
+`*`flags`*` ist ein Bitfeld mit drei Werten. Setzen Sie Bit 0, um den kopiergeschützten Inhalt anzugeben, Bit 1, um eingeschränkten Inhalt anzugeben, und Bit 2, um erwachsenen Inhalt anzugeben:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> Flags</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> Flaggen</span> </span> </p> </th> 
    <th class="entry"> <p><b>Beschreibung</b> </p> </th> 
   </tr> 
  </thead>
@@ -75,7 +75,7 @@ Vier ganzzahlige Werte, durch Kommas getrennt.
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
-   <td> <p>Eingeschränkt. </p> </td> 
+   <td> <p>Beschränkt. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>3</b> </p> </td> 
@@ -100,7 +100,7 @@ Vier ganzzahlige Werte, durch Kommas getrennt.
  </tbody> 
 </table>
 
-Die Auslegung `*`val1`*` und `*`val2`*` abhängig von `*`type`*`:
+Die Interpretation von `*`val1`*` und `*`val2`*` hängt von `*`type`*` ab:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 

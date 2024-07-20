@@ -1,20 +1,20 @@
 ---
 title: setLocalizedTexte
-description: JavaScript-API-Referenz für Video360-Viewer.
+description: JavaScript API-Referenz für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: b0434886-defa-47d4-9853-bfd73c64d036
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '69'
+ht-degree: 2%
 
 ---
 
 # setLocalizedTexte{#setlocalizedtexts}
 
-JavaScript-API-Referenz für Video360-Viewer.
+JavaScript API-Referenz für Video360-Viewer.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -23,8 +23,8 @@ Legt Lokalisierungs-SYMBOL-Werte für ein oder mehrere Gebietsschemas fest. Dies
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo  </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objekt </span>} JSON-Objekt mit Lokalisierungsdaten. </p> <p>Weitere Informationen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Lokalisierung von Benutzeroberflächenelementen </a> . </p> <p>Weitere Informationen zum Inhalt des Objekts finden Sie im <i>Viewer SDK-Benutzerhandbuch</i> und im Beispiel . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Objekt </span>} JSON-Objekt mit Lokalisierungsdaten. </p> <p>Weitere Informationen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Lokalisierung der Elemente der Benutzeroberfläche </a> . </p> <p>Weitere Informationen zum Inhalt des Objekts finden Sie im <i>Viewer SDK-Benutzerhandbuch</i> und im Beispiel . </p> </td> 
   </tr> 
  </tbody> 
 </table>

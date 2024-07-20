@@ -1,5 +1,5 @@
 ---
-description: PostScript-Dateieigenschaften.
+description: Dateieigenschaften von PostScript.
 solution: Experience Manager
 title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL GenerationInfo]{#generationinfo}
 
-PostScript-Dateieigenschaften.
+Dateieigenschaften von PostScript.
 
 Syntax
 

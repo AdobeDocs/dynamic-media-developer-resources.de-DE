@@ -18,11 +18,11 @@ Legen Sie den Textknotenwert für s7:elementID fest.
 
 `setVal.elementID= *[!DNL value]*`
 
-Wenn ein FXG-Knotenelement eine `s7:elementID` definiert ist, kann der Textwert für diesen Knoten bearbeitet werden.
+Wenn für ein FXG-Knotenelement ein `s7:elementID` definiert ist, kann der Textwert für diesen Knoten bearbeitet werden.
 
 ## Beispiel {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-Angenommen, `s7:elementID="paragraph1"` -Attribut für `TextGraphic` -Knoten ist Folgendes gültig:
+Angenommen, ein `s7:elementID="paragraph1"` -Attribut ist für einen `TextGraphic` -Knoten definiert, dann ist Folgendes gültig:
 
 `&setVal.paragraph=Hello`
 

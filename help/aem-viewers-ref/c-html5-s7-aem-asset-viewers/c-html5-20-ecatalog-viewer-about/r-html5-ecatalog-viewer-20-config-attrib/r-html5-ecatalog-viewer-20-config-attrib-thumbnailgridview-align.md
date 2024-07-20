@@ -8,7 +8,7 @@ exl-id: e26ee733-263d-4a6b-a37b-65b9fa1376c8
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Gibt die interne horizontale Ausrichtung (Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. In ThumbnailGridView wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. Dieser Modifikator gibt an, wie der interne Miniaturansichtsbehälter horizontal innerhalb der Komponente positioniert wird. </p> </td> 
+   <td> <p> Gibt die interne horizontale Ausrichtung (Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. In ThumbnailGridView wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. Dieser Modifikator gibt an, wie der interne Container für Miniaturansichten horizontal in der Komponente platziert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

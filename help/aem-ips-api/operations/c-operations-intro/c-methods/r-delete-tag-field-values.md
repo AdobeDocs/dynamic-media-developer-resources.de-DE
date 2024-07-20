@@ -8,7 +8,7 @@ exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 
 ## Parameter {#section-5db64a6ae238426395bc760b83587260}
 
-**Eingabe (deleteTagFieldValuesParam)**
+**Input (deleteTagFieldValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -32,13 +32,13 @@ Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 | fieldHandle | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
 | valueArray | `types:StringArray` | Ja | Ein Array von Tag-Werten, die aus dem Wörterbuch des Felds gelöscht werden sollen. |
 
-**Ausgabe (deleteTagFieldValuesParam)**
+**Output (deleteTagFieldValuesParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-92f9e575a6da491caa09e264b4d6ee55}
 
-**Anforderung**
+**Anfrage**
 
 ```java
 deleteTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

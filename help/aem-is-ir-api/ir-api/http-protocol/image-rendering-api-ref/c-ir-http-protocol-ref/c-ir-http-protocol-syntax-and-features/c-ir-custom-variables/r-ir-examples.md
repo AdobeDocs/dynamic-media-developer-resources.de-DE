@@ -18,11 +18,11 @@ In diesem Beispiel wird das Image Serving verwendet, um ein Objekt zu kolorisier
 
 IR -Variablen werden verwendet, um die Vignette, das Logo-Bild und den benutzerdefinierten Text zu identifizieren.
 
-Die `vignette::Modifier` im Datensatz *template* in der Vignettenkarte des Materialkatalogs `myCat` enthält Folgendes:
+Das Feld `vignette::Modifier` im Datensatz mit dem Namen *template* in der Vignettenkarte des Materialkatalogs `myCat` enthält Folgendes:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Alle verwendeten Vignetten sind in der Vignettenkarte des Materialkatalogs aufgeführt. `myCat`.
+Alle verwendeten Vignetten sind in der Vignettenkarte des Materialkatalogs `myCat` aufgeführt.
 
 Der Client kann nun die folgende Anfrage zum Abrufen des Standardbilds stellen (verwendet die am Anfang der Vorlage definierten Variablen):
 
@@ -32,4 +32,4 @@ Die folgende Anfrage gibt bestimmte Inhalte an, die gerendert werden sollen:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Weitere Informationen zum Image-Serving finden Sie in der Dokumentation zum Image Serving . `text=` Befehl.
+Weitere Informationen zum Image Serving-Befehl `text=` finden Sie in der Dokumentation zum Image Serving .

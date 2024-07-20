@@ -35,7 +35,7 @@ Das Erscheinungsbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Entwurf </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> entwurf </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkierungsstil. </p> </td> 
   </tr> 
  </tbody> 

@@ -8,7 +8,7 @@ exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -31,22 +31,22 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn `companyHandle` nicht übergeben wird und der Aufrufer ein `IpsAdmin`, wird ein globaler Eigenschaftssatz-Typ erstellt. |
+| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn `companyHandle` nicht übergeben wird und der Aufrufer ein `IpsAdmin` ist, wird ein globaler Eigenschaftssatztyp erstellt. |
 | name | `xsd:string` | Ja | Der Name des Eigenschaftssatztyps. |
 | propertyType | `xsd:string` | Ja | Auswahl der Eigenschaftssatztypen. |
 | allowMultiple | `xsd:boolean` | Ja | Bestimmt, ob Ihr Programm mehrere Eigenschaftssätze haben kann. |
 
-**Ausgabe (createPropertySetTypeReturn)**
+**Output (createPropertySetTypeReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Ja | Ein Handle für den Typ. |
+| typeHandle | `xsd:string` | Ja | Ein Griff zum Typ. |
 
 ## Beispiele {#section-13396c9639a6475190e622eae3cdb534}
 
-Dieses Codebeispiel erstellt einen Eigenschaftssatz mit einem Namen und Typ, der durch die Variable `PropertySet Types` Konstante. Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn companyHandle nicht übergeben wird und der Aufrufer ein IpsAdmin ist, wird ein globaler Eigenschaftssatztyp erstellt.
+Dieses Codebeispiel erstellt einen Eigenschaftssatz mit einem Namen und Typ, der von der `PropertySet Types` -Konstante angegeben wird. Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn companyHandle nicht übergeben wird und der Aufrufer ein IpsAdmin ist, wird ein globaler Eigenschaftssatztyp erstellt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <createPropertySetTypeReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

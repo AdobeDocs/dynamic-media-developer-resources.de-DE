@@ -8,7 +8,7 @@ exl-id: 531f1465-2bec-46b6-a41e-54d993cbf410
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Decal position. Definiert den Versatz in Zoll vom Anker= Punkt des Decalbilds bi
 
 <table id="simpletable_DB3B64EFB67A47AD843812324ABFAE45"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> x</span>,<span class="varname"> y</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> </p></td> 
   <td class="stentry"> <p>Relative Positionsanpassung in Koordinateneinheiten der Szene (normalerweise Zoll) (real, real). </p></td> 
  </tr> 
 </table>

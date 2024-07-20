@@ -8,7 +8,7 @@ exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-dd0bbdf293aa4563af70a91f97c861f1}
 
-**Eingabe (moveAssetParam)**
+**Input (moveAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Syntax
 | assetHandle | `xsd:string` | Ja | Bearbeiten Sie das Asset, das Sie verschieben möchten. |
 | folderHandle | `xsd:string` | Ja | Verarbeiten Sie den Zielordner. |
 
-**Ausgabe (moveAssetReturn)**
+**Output (moveAssetReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
@@ -45,7 +45,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 In diesem Codebeispiel wird ein Asset in einen Ordner verschoben.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:moveAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

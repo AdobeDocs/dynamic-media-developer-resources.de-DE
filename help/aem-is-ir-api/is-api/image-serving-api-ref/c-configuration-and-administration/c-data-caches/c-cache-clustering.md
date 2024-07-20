@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: d1bea565-ac4e-4717-a53f-cbe706664598
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ Timeouts und andere Sicherheitsmaßnahmen gewährleisten, dass das System auch d
 
 Der Cache-Cluster kann in einer von zwei grundlegenden Konfigurationen ausgeführt werden:
 
-* Wenn `PS::cacheCluster.updateLocalCache` aktiviert ist (Standard), wird jeder auf einem Peer-Server gefundene Cache-Eintrag in den lokalen Cache kopiert.
+* Wenn `PS::cacheCluster.updateLocalCache` aktiviert ist (Standard), wird jeder Cache-Eintrag, der auf einem Peer-Server gefunden wird, in den lokalen Cache kopiert.
 
-   Diese Konfiguration reduziert den Traffic zwischen den Peer-Servern. Es bietet außerdem die schnellsten Reaktionszeiten, um alle Cache-Einträge auf alle Server im Cluster replizieren zu können. Dies ist die empfohlene Konfiguration.
+  Diese Konfiguration reduziert den Traffic zwischen den Peer-Servern. Es bietet außerdem die schnellsten Reaktionszeiten, um alle Cache-Einträge auf alle Server im Cluster replizieren zu können. Dies ist die empfohlene Konfiguration.
 
-* Wenn `PS::cacheCluster.updateLocalCache` deaktiviert ist, werden Daten von anderen Servern in nicht in den lokalen Cache kopiert.
+* Wenn `PS::cacheCluster.updateLocalCache` deaktiviert ist, werden Daten von anderen Servern nicht in den lokalen Cache kopiert.
 
-   Dadurch wird der verfügbare Speicherplatz für Cache-Daten multipliziert. Es erhöht jedoch den Traffic zwischen den Peer-Servern und reduziert die Gesamtansprechzeiten. Verwenden Sie diese Konfiguration nur, wenn Sie niedrige Cache-Trefferraten sehen.
+  Dadurch wird der verfügbare Speicherplatz für Cache-Daten multipliziert. Es erhöht jedoch den Traffic zwischen den Peer-Servern und reduziert die Gesamtansprechzeiten. Verwenden Sie diese Konfiguration nur, wenn Sie niedrige Cache-Trefferraten sehen.

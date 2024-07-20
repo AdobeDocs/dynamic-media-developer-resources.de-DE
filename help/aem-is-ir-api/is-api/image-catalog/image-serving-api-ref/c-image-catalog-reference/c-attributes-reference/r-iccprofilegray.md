@@ -18,11 +18,11 @@ Graustufen-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das
 
 ## Eigenschaften {#section-03f090ee2acf4537b83f78840d23ecab}
 
-Textzeichenfolge. Wenn angegeben, muss eine gültige sein. `icc::Name` Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder einen Dateipfad relativ zu `attribute::RootPath`. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
+Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
 
 ## Standard {#section-95ba3ab15edc4259b657c6ebf8783d61}
 
-Vererbt von `default::IccProfileGray` wenn nicht definiert oder leer ist.
+Wird von `default::IccProfileGray` übernommen, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-b737b9a6a8bd4997b660292301ba967b}
 

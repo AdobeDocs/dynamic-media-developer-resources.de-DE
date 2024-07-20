@@ -1,5 +1,5 @@
 ---
-title: QuickInfos
+title: Tooltips
 description: Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 6%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
-# QuickInfos{#tooltips}
+# Tooltips{#tooltips}
 
 Auf Desktop-Systemen haben einige Elemente der Benutzeroberfläche wie Schaltflächen QuickInfos, die beim Bewegen der Maus angezeigt werden.
 
@@ -55,7 +55,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
    <td colname="col2"> <p>Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftgröße </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Textschriftgröße. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ Das Erscheinungsbild von QuickInfos wird mit der folgenden CSS-Klassenauswahl ge
 
 >[!NOTE]
 >
->Wenn QuickInfo-Stile von der eingebetteten Web-Seite aus angepasst werden, müssen alle Eigenschaften enthalten `!IMPORTANT` Regel. Diese Regel ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
+>Wenn QuickInfo-Stile von der eingebetteten Webseite aus angepasst werden, müssen alle Eigenschaften die Regel `!IMPORTANT` enthalten. Diese Regel ist nicht erforderlich, wenn QuickInfos in der CSS-Datei des Viewers angepasst werden.
 
 Beispiel: So richten Sie QuickInfos ein, die einen grauen Rahmen mit einem Radius von 3 Pixel, einem schwarzen Hintergrund und weißem Text mit Arial®, einer Größe von 11 Pixel aufweisen:
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Zeitstempel der Änderung. Gibt Datum/Uhrzeit der letzten Änderung dieser Vignette an.
 
-Wenn `attribute::UseLastModified` festgelegt ist, wird die neueste `vignette::TimeStamp` und `catalog::TimeStamp`-Wert der Vignette und alle an der Anfrage beteiligten Materialien werden in der HTTP-Antwort als Header der letzten Änderung zurückgegeben.
+Wenn `attribute::UseLastModified` festgelegt ist, wird der neueste `vignette::TimeStamp`- und `catalog::TimeStamp`Wert der Vignette und alle an der Anforderung beteiligten Materialien in der HTTP-Antwort als Header der letzten Änderung zurückgegeben.
 
 >[!NOTE]
 >
 >Die tatsächliche Dateizeit der Vignettendatei wird zu diesem Zweck nie verwendet.
 
-Die `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet. Siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
+Der `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet. Siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## Eigenschaften {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 
@@ -36,11 +36,11 @@ Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl
 * *[!DNL zzz]* ist ein aus drei oder vier Zeichen bestehender Zeitzonen-Code, z. B. &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für die Pacific Standard Time, im Gegensatz zu &quot;PDT&quot;für die Sommerzeit im Pazifik).
 * *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
 
-Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und die Änderungszeit von [!DNL *[!DNL catalog]* Die .ini]-Datei wird stattdessen verwendet.
+Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der [!DNL *[!DNL catalog]*.ini]-Datei verwendet.
 
 ## Standard {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-Die `attribute::TimeStamp` ist das Feld, das leer ist oder nicht vorhanden ist.
+Der Wert `attribute::TimeStamp` ist das leere oder nicht vorhandene Feld.
 
 ## Verwandte Themen {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 

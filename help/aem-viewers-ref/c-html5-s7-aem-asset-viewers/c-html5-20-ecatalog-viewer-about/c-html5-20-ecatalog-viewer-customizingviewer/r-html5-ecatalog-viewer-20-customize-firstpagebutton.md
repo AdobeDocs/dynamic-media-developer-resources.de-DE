@@ -1,20 +1,20 @@
 ---
 title: Schaltfläche "Erste Seite"
-description: Durch Klicken oder Tippen auf diese Schaltfläche gelangen Benutzer zur ersten Seite im Katalog. Diese Schaltfläche wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt. auf Mobiltelefonen wird sie zu einer sekundären Kontrollleiste hinzugefügt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+description: Durch Klicken oder Tippen auf diese Schaltfläche gelangen Benutzer zur ersten Seite im Katalog. Diese Schaltfläche wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt. Auf Mobiltelefonen wird sie zu einer sekundären Steuerleiste hinzugefügt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 50ebf51f-aa51-4778-8956-f969c30443aa
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 0%
 
 ---
 
 # Schaltfläche &quot;Erste Seite&quot;{#first-page-button}
 
-Wenn Sie auf diese Schaltfläche klicken oder tippen, wird der Benutzer zur ersten Seite des Katalogs geleitet. Diese Schaltfläche wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt. auf Mobiltelefonen wird sie zu einer sekundären Kontrollleiste hinzugefügt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
+Wenn Sie auf diese Schaltfläche klicken oder tippen, wird der Benutzer zur ersten Seite des Katalogs geleitet. Diese Schaltfläche wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt. Auf Mobiltelefonen wird sie zu einer sekundären Steuerleiste hinzugefügt. Mithilfe von CSS können Sie diese Schaltfläche vergrößern, verkleinern und positionieren.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -33,7 +33,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Anfang </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position vom oberen Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Position vom rechten Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position vom linken Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt `state` -Attributauswahl, die verwendet werden kann, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden.
+>Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung der Elemente der Benutzeroberfläche](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 Beispiel: Um eine Schaltfläche für die erste Seite einzurichten, die 28 x 28 Pixel groß ist und 4 Pixel vom unteren Rand und 220 Pixel vom linken Rand der Hauptsteuerungsleiste entfernt angeordnet ist. Und schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an.
 

@@ -1,5 +1,5 @@
 ---
-description: Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort "getFolderTree"ist auf maximal 100.000 Ordner beschränkt
+description: Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort getFolderTree ist auf maximal 100.000 Ordner beschränkt
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 9%
+source-wordcount: '261'
+ht-degree: 8%
 
 ---
 
 # getFolderTree{#getfoldertree}
 
-Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort &quot;getFolderTree&quot;ist auf maximal 100.000 Ordner beschränkt
+Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort getFolderTree ist auf maximal 100.000 Ordner beschränkt
 
 Syntax
 
@@ -34,7 +34,7 @@ Syntax
 
 ## Parameter {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
-**Eingabe (getFolderTreeParam)**
+**Input (getFolderTreeParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 | responseFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
 | excludeFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in der Antwort ausschließen möchten. |
 
-**Ausgabe (getFolderTreeReturn)**
+**Output (getFolderTreeReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -56,9 +56,9 @@ Syntax
 
 ## Beispiele {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Dieses Codebeispiel verwendet einen Unternehmens-Handle und einen Tiefenparameter, um die Tiefe zu bestimmen, die die Antwort zurückgeben soll. Die Antwort enthält Ordner und Unter-Ordner-Arrays mit verwandten Ordnern. Setzen Sie den Wert für die Tiefe auf eine kleinere Zahl, um tiefer in die Ordnerstruktur zu suchen.
+Dieses Codebeispiel verwendet einen Unternehmens-Handle und einen Tiefenparameter, um die Tiefe zu bestimmen, die die Antwort zurückgeben soll. Die Antwort enthält Ordner und Unter-Ordner-Arrays mit verwandten Ordnern. Legen Sie den Wert für die Tiefe auf eine kleinere Zahl fest, um tiefer in die Ordnerstruktur zu suchen.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <ns1:getFolderTreeParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

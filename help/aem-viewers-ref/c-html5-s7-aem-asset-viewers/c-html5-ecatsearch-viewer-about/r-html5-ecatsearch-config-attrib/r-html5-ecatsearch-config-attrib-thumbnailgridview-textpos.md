@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a79aa5c7-5691-4695-ac6d-d461ce0b1206
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Gibt an, wo der Titel relativ zum Miniaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn <span class="codeph"> tooltip</span> angegeben wird, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. Auf <span class="codeph"> none</span> setzen, um die Beschriftung zu deaktivieren. </p> </td> 
+   <td> <p> Gibt an, wo der Titel relativ zum Miniaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn <span class="codeph"> tooltip</span> angegeben ist, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. Auf <span class="codeph"> none</span> setzen, um den Titel zu deaktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>

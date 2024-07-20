@@ -8,7 +8,7 @@ exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 URL-Befehl für interaktiven Video-Viewer.
 
-` navigation= *`Datei`*`
+` navigation= *`file`*`
 
 Der Viewer unterstützt die Videokapitelnavigation über gehostete WebVTT-Dateien. Cue-Positionierungsoperatoren werden nicht unterstützt.
 

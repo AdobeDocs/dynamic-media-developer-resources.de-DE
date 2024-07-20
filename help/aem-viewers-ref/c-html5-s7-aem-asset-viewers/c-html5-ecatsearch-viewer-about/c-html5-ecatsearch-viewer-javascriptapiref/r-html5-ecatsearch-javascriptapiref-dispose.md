@@ -1,6 +1,6 @@
 ---
 title: dispose
-description: JavaScript-API-Referenz für den E-Katalog-Viewer.
+description: JavaScript-API-Referenz für den eCatalog-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # dispose{#dispose}
 
-JavaScript-API-Referenz für den E-Katalog-Viewer.
+JavaScript-API-Referenz für den eCatalog-Viewer.
 
 [!DNL `dispose()`]
 
@@ -22,9 +22,9 @@ Stellt diese Viewer-Instanz bereit, indem alle von der Viewer-Logik verwendeten 
 
 Der Webseitencode sollte auch die Viewer-Instanzvariable löschen, um den Viewer vollständig aus dem Webbrowser-Speicher zu entfernen.
 
-Wenn im Webseitencode Ereignis-Listener direkt auf vom Viewer verwendeten Viewer-SDK-Komponenten registriert sind oder externe Verweise auf solche Komponenten gespeichert sind, müssen diese Listener explizit vom Webseitencode abgemeldet werden. Und diese externen Komponentenverweise müssen vor dem Aufruf von [!DNL `dispose()`].
+Wenn im Webseitencode Ereignis-Listener direkt auf vom Viewer verwendeten Viewer-SDK-Komponenten registriert sind oder externe Verweise auf solche Komponenten gespeichert sind, müssen diese Listener explizit vom Webseitencode abgemeldet werden. Außerdem müssen solche externen Komponentenverweise gelöscht werden, bevor [!DNL `dispose()`] aufgerufen wird.
 
-Rufen Sie die Viewer-API nicht mehr auf, nachdem [!DNL `dispose()`] aufgerufen wird.
+Greifen Sie nach dem Aufruf von [!DNL `dispose()`] nicht mehr auf die Viewer-API zu.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

@@ -8,7 +8,7 @@ exl-id: 333b8954-e256-4ba1-8055-c4d625470673
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
@@ -45,19 +45,19 @@ Materialoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p></td> 
-  <td class="stentry"> <p>Farbe </p></td> 
+  <td class="stentry"> <p>Paint </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>Email/Lacquer </p></td> 
+  <td class="stentry"> <p>Emamel/Lacquer </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
-  <td class="stentry"> <p>Tapete </p></td> 
+  <td class="stentry"> <p>Hintergrund </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p></td> 
-  <td class="stentry"> <p>Plastik </p></td> 
+  <td class="stentry"> <p>Kunststoff </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p></td> 
@@ -85,11 +85,11 @@ Materialoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p></td> 
-  <td class="stentry"> <p>Spiegel </p></td> 
+  <td class="stentry"> <p>Mirror </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p></td> 
-  <td class="stentry"> <p>Stoff </p></td> 
+  <td class="stentry"> <p>Fabric </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
@@ -101,7 +101,7 @@ Materialoberflächenart. Gibt den Oberflächentyp des Materials an.
  </tr> 
 </table>
 
-Verwendet mit `gloss=` und `rough=` um das Verhalten von Reflexion und Glüheffekten zu kontrollieren. Verschiedene Materialien haben unterschiedliche Wirkungen, auch wenn `gloss=` und `rough=` sind identisch.
+Wird mit `gloss=` und `rough=` verwendet, um Reflektions- und Glanzeffektverhalten zu steuern. Verschiedene Materialien erzeugen unterschiedliche Effekte, selbst wenn `gloss=` und `rough=` gleich sind.
 
 ## Eigenschaften {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,7 +109,7 @@ Materialattribut. Wird ignoriert, wenn die Vignette keine 3D-Reflektionsdaten en
 
 ## Standard {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` Wenn das Material auf einem Katalogeintrag basiert. Sonst `type=0`. Wenn nicht angegeben, oder wenn `type=0`, wählt der Server je nach Zielobjekt und anderen Materialattributen einen geeigneten Standard aus.
+`catalog::Type` Wenn das Material auf einem Katalogeintrag basiert. Andernfalls `type=0`. Wenn kein Wert angegeben ist oder `type=0`, wählt der Server einen geeigneten Standard, der vom Zielobjekt und den anderen Materialattributen abhängt.
 
 ## Verwandte Themen {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 

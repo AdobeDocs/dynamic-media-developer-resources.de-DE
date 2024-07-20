@@ -8,7 +8,7 @@ exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Syntax
 
 ## Parameter {#section-3541bd9914a44b89acfc1d419b560ee6}
 
-**Eingabe (getAssetPublishHistoryParam)**
+**Input (getAssetPublishHistoryParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntax
 
 Dieses Codebeispiel gibt den Veröffentlichungsverlauf eines Assets zurück. Ein Asset wurde nie veröffentlicht, wenn der Server ein leeres Array zurückgibt.
 
-**Anforderung**
+**Anfrage**
 
 ```java
 <getAssetPublishHistoryParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -1,6 +1,6 @@
 ---
 title: init
-description: JavaScript-API-Referenz für den E-Katalog-Viewer.
+description: JavaScript-API-Referenz für den eCatalog-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # init{#init}
 
-JavaScript-API-Referenz für den E-Katalog-Viewer.
+JavaScript-API-Referenz für den eCatalog-Viewer.
 
 [!DNL `init()`]
 
 Startet die Initialisierung des E-Katalog-Viewers. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist, kann es beispielsweise mit [!DNL `display:none`] Stil zugewiesen wurde - der Viewer setzt den Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. Wenn dieses Ereignis eintritt, wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist - z. B. kann es mit dem ihm zugewiesenen [!DNL `display:none`] -Stil ausgeblendet werden -, setzt der Viewer seinen Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. Wenn dieses Ereignis eintritt, wird das Laden des Viewers automatisch fortgesetzt.
 
 Rufen Sie diese Methode während des Lebenszyklus des Viewers nur einmal auf. Nachfolgende Aufrufe werden ignoriert.
 
