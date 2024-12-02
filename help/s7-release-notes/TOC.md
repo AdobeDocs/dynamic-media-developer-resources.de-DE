@@ -1,6 +1,6 @@
 ---
 title: Versionshinweise zu Adobe Dynamic Media Classic
-description: "Versionshinweise für Adobe Dynamic Media Classic, Teil der Adobe Experience Manager-Lösung in der Adobe Experience Cloud."
+description: Versionshinweise für Adobe Dynamic Media Classic, Teil der Adobe Experience Manager-Lösung in der Adobe Experience Cloud.
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
