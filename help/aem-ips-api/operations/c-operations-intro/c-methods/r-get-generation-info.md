@@ -1,11 +1,11 @@
 ---
-description: Gibt basierend auf den übergebenen Parametern zwei verschiedene Arten von Informationen zurück. originatorHandle gibt Informationen zu Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen zu den Schritten zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet wurden.
+description: Gibt zwei verschiedene Arten von Informationen zurück, die auf den übergebenen Parametern basieren. originatorHandle gibt Informationen über Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen über die Schritte zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet werden.
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 9%
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # getGenerationInfo{#getgenerationinfo}
 
-Gibt basierend auf den übergebenen Parametern zwei verschiedene Arten von Informationen zurück. originatorHandle gibt Informationen zu Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen zu den Schritten zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet wurden.
+Gibt zwei verschiedene Arten von Informationen zurück, die auf den übergebenen Parametern basieren. originatorHandle gibt Informationen über Assets zurück, die aus dem angegebenen Asset generiert wurden. generateHandle gibt Informationen über die Schritte zurück, die zum Generieren des angegebenen Assets oder der angegebenen Datei verwendet werden.
 
 Syntax
 
@@ -36,22 +36,22 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| Codeausdruck | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| Codeausdruck | `xsd:string` | Nein | Der Motor, der bei der Generierung verwendet wurde. Siehe Schriftstile. |
-| Codeausdruck | `xsd:string` | Nein | Das Handle des Assets, das nach generierten Assets abgefragt werden soll. |
-| Codeausdruck | `xsd:string` | Nein | Der Handle des Assets, mit dem nach Assets und Engines abgefragt werden soll, die bei seiner Generierung verwendet werden. |
-| Codeausdruck | `xsd:StringArray` | Nein | Im Vorgang enthaltene Eigenschaften. |
-| Codeausdruck | `xsd:StringArray` | Nein | Eigenschaften, die vom Vorgang ausgeschlossen sind. |
+| Code-Satz | `xsd:string` | Ja | Der Griff zum Unternehmen. |
+| Code-Satz | `xsd:string` | Nein | Die Engine, die in der Generation verwendet wurde. Siehe Schriftstile. |
+| Code-Satz | `xsd:string` | Nein | Das Handle des Assets, das nach generierten Assets abgefragt werden soll. |
+| Code-Satz | `xsd:string` | Nein | Das Handle des Assets, das nach Assets und Engines abgefragt werden soll, die bei seiner Generierung verwendet werden. |
+| Code-Satz | `xsd:StringArray` | Nein | Im Vorgang enthaltene Eigenschaften. |
+| Code-Satz | `xsd:StringArray` | Nein | Aus dem Vorgang ausgeschlossene Eigenschaften. |
 
-**Output (getGenerationInfoReturn)**
+**Ausgabe (getGenerationInfoReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| generationArray | `types:GenerationInfoArray` | Ja | Array von Generierungsinformationen. |
+| generationArray | `types:GenerationInfoArray` | Ja | Array von Erzeugungsinformationen. |
 
 ## Beispiele {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Dieses Codebeispiel gibt Informationen zu Assets zurück, die aus einem bestimmten Asset generiert wurden. Es werden keine Informationen zu den Schritten abgerufen, die zum Generieren des angegebenen Assets verwendet werden. Die Antwort wird aus Gründen der Kürze abgeschnitten.
+Dieses Code-Beispiel gibt Informationen über Assets zurück, die aus einem bestimmten Asset generiert wurden. Es werden keine Informationen über die Schritte abgerufen, die zum Generieren des angegebenen Assets verwendet werden. Die Antwort wird zur Vereinfachung gekürzt.
 
 **Anfrage**
 

@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-bf36fcbfda6742f5b9c6b02ea27e5b9d}
 
-**Input (copyImageParam)**
+**Eingabe (copyImageParam)**
 
 <table id="table_F6B14D4875F2424D98B8C4899B1DD867"> 
  <thead> 
@@ -48,19 +48,19 @@ Syntax
    <td colname="col4"> <p>Das Handle für das Unternehmen, das das Bild enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> AssetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Handle für das Bild-Asset. </p> </td> 
+   <td colname="col4"> <p>Der Handler zum Bild-Asset. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Handle in den Ordner, in den das Bild kopiert werden soll. </p> </td> 
+   <td colname="col4"> <p>Der Ziehgriff in den Ordner, in den das Bild kopiert werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Name</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Name des neuen Bildes. </p> </td> 
@@ -74,7 +74,7 @@ Syntax
  </tbody> 
 </table>
 
-**Output (copyImageParam)**
+**Ausgabe (copyImageParam)**
 
 <table id="table_5E4ED83047314DFABC1BFAAC76C0EAC3"> 
  <thead> 
@@ -87,17 +87,17 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> AssetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Handle zum kopierten Bild. </p> </td> 
+   <td colname="col4"> <p>Der Handler zum kopierten Bild. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiele {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-Der Beispielcode kopiert ein Bild, das nach Unternehmen, Asset, Ordner-Handle und Name angegeben ist.
+Der Beispiel-Code kopiert ein Bild, das durch Firma, Asset, Ordner-Handle und Namen angegeben ist.
 
 **Anfrage**
 

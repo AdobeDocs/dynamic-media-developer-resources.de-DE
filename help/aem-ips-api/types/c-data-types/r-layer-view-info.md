@@ -5,7 +5,7 @@ title: LayerViewInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 13%
@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| url | `xsd:string` | Bildserver-URL, die die Vorlage darstellt. Kombiniert die Felder `urlModifier` und `urlPostAp- plyModifier` . |
-| urlModifier | `xsd:string` | Image Serving-Protokollbefehle, die vor der Anfrage angewendet werden, oder `urlPostApplyModifier`-Befehle. |
-| urlPostApplyModifier | `xsd:string` | Image Serving-Protokollbefehle, die nach `urlModifier` angewendet werden und Befehle anfordern. |
+| url | `xsd:string` | Bildserver-URL, die die Vorlage darstellt. Kombiniert `urlModifier`- und `urlPostAp- plyModifier`. |
+| urlModifier | `xsd:string` | Image-Serving-Protokollbefehle, die vor der Anforderung oder dem `urlPostApplyModifier` angewendet werden sollen. |
+| urlPostApplyModifier | `xsd:string` | Image-Serving-Protokollbefehle, die nach `urlModifier`- und Anforderungsbefehlen angewendet werden sollen. |

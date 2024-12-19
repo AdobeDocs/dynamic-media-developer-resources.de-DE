@@ -1,5 +1,5 @@
 ---
-description: JavaScript-API-Referenz für den eCatalog-Viewer.
+description: JavaScript-API-Referenz für den E-Katalog-Viewer.
 solution: Experience Manager
 title: setParams
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,21 +14,21 @@ ht-degree: 2%
 
 # setParams{#setparams}
 
-JavaScript-API-Referenz für den eCatalog-Viewer.
+JavaScript-API-Referenz für den E-Katalog-Viewer.
 
 [!DNL ` setParams( *`params`*)`]
 
-Legt einen oder mehrere Parameter auf einen bestimmten Wert fest. Die Methodenargument-Syntax ist mit einer URL-Abfragezeichenfolge identisch. Das heißt, es stellt Name=Wert-Paare dar, getrennt durch [!DNL `&`]. Genau wie in einer Abfragezeichenfolge sind die Namen und Werte mit UTF8 prozentual kodiert. Bevor Sie [!DNL `init()`] aufrufen, muss dieser Parameter aufgerufen werden.
+Setzt einen oder mehrere Parameter auf einen bestimmten Wert. Die Syntax des Methodenargument ist identisch mit einer URL-Abfragezeichenfolge. Das heißt, es stellt name=value-Paare dar, die durch [!DNL `&`] getrennt sind. Wie in einer Abfragezeichenfolge werden die Namen und Werte mit UTF8 prozentual kodiert. Bevor Sie [!DNL `init()`] aufrufen, muss dieser Parameter aufgerufen werden.
 
-Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt [!DNL `config`] an den Konstruktor übergeben werden.
+Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit [!DNL `config`] JSON-Objekt an den Konstruktor übergeben werden.
 
-Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value Parameterpaare, getrennt durch <span class="codeph"> und </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Parameter</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value-Parameterpaare, die durch <span class="codeph"> und </span> getrennt sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>

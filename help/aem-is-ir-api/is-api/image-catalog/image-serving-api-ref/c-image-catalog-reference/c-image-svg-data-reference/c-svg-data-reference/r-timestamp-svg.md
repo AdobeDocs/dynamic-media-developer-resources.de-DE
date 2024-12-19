@@ -1,26 +1,26 @@
 ---
-description: TimeStamp
+description: Zeitstempel
 solution: Experience Manager
-title: TimeStamp
+title: Zeitstempel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e36660bb-d2ec-464c-b578-fe862bca5c50
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 1%
 
 ---
 
-# TimeStamp{#timestamp}
+# Zeitstempel{#timestamp}
 
-Wenn `attribute::UseLastModified` festgelegt ist, wird der Wert `catalog::TimeStamp` in der HTTP-Antwort als HTTP-Header mit der letzten Änderung zurückgegeben. Die Kopfzeile &quot;Zuletzt geändert&quot;wird immer für statische Inhalte zurückgegeben, auch wenn `attribute::UseLastModified` nicht festgelegt ist.
+Wenn `attribute::UseLastModified` festgelegt ist, wird der `catalog::TimeStamp` in der HTTP-Antwort als HTTP-Header der letzten Änderung zurückgegeben. Der Last-Modified-Header wird für statische Inhalte immer zurückgegeben, auch wenn `attribute::UseLastModified` nicht festgelegt ist.
 
-Für Bild- und SVG-Inhalte wird `catalog::TimeStamp` auch für die Katalogbasierte Cache-Validierung verwendet (siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md)).
+Für Bild- und SVG-Inhalte wird `catalog::TimeStamp` auch für die katalogbasierte Cache-Validierung verwendet (siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
 
 ## Eigenschaften {#section-2298a384b5cb43929542655c5a49beb2}
 
-Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, dem 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert mit einem der folgenden Formate sein:
+Datum/Uhrzeit-Wert im Java-Format. Kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, dem 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert mit einem der folgenden Formate sein:
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* *`zzz`*
 
@@ -28,15 +28,15 @@ Datums-/Uhrzeitwert im Java-Format. Kann entweder die ganzzahlige Anzahl von Mil
 
 *`hh`* liegt im Bereich von 0 bis 23.
 
-*`zzz`* ist ein aus drei oder vier Zeichen bestehender Zeitzonen-Code, z. B. &quot;GMT&quot;oder &quot;PST&quot;. Berücksichtigen Sie die Sommerzeit im Zeitzonencode. Beispielsweise &quot;PST&quot;für die Pacific Standard-Zeit im Vergleich zu &quot;PDT&quot;für die Sommerzeit (Pacific Daylight Savings Time).
+*`zzz`* ist ein drei- oder vierstelliger Zeitzonencode wie „GMT“ oder „PST“. Berücksichtigen Sie die Sommerzeit im Zeitzonen-Code. Beispiel: „PST“ für Pacific Standard Time und „PDT“ für Pacific Daylight Saving Time).
 
-*`offset`* ist ein Zeitzonenversatz in Stunden oder `hours:minutes`, relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
+*`offset`* ist ein Zeitzonenversatz in Stunden oder `hours:minutes`, relativ zu GMT. „PDT“ entspricht beispielsweise „GMT -7“.
 
-Alle Elemente von String formatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der Datei `*`catalog`*.ini` verwendet.
+Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der `*`Katalog`*.ini`-Datei verwendet.
 
 ## Standard {#section-0cbf801401ff4857bdda168fd12358af}
 
-`attribute::TimeStamp` , wenn das Feld leer ist oder nicht vorhanden ist.
+`attribute::TimeStamp`, ob das Feld leer oder nicht vorhanden ist.
 
 ## Verwandte Themen {#section-c42a427aa4794c548408dc4de028d578}
 

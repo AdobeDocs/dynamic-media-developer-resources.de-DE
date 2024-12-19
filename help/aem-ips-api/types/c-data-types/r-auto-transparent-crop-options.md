@@ -1,5 +1,5 @@
 ---
-description: Optionen, die beim automatischen Zuschneiden von Bildern basierend auf Transparenz verwendet werden
+description: Optionen zum automatischen Zuschneiden von Bildern basierend auf Transparenz.
 solution: Experience Manager
 title: AutoTransparentCropOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AutoTransparentCropOptions]{#autotransparentcropoptions}
 
-Optionen, die beim automatischen Zuschneiden von Bildern basierend auf Transparenz verwendet werden
+Optionen zum automatischen Zuschneiden von Bildern basierend auf Transparenz.
 
 Syntax
 
@@ -34,8 +34,8 @@ Syntax
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Entfernt Leerraum von Bildkanten basierend auf Transparenz. Verwendet: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0, um Farben exakt abzugleichen. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 , um die meisten Farbunterschiede zu aktivieren. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0, um Farben genau zuzuordnen. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1, um die meisten Farbunterschiede zu aktivieren. </li>
     </ul></td> 
   </tr> 
  </tbody> 

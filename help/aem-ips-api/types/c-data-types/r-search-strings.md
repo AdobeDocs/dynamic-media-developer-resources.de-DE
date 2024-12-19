@@ -1,7 +1,7 @@
 ---
-description: Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Datensatz.
+description: Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Eintrag.
 solution: Experience Manager
-title: SearchStrings
+title: Suchzeichenfolgen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Datensatz.
+Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Eintrag.
 
 Syntax
 
@@ -22,11 +22,11 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| searchString | `xsd:string` | Suchzeichenfolgen-Text. |
-| keywordsArray | `types:KeywordsArray` | Array von Suchbegriffen in der Suchzeichenfolge. |
-| status | `xsd:boolean` | True , wenn die Suchzeichenfolge gültig und aktiviert ist. |
-| x | `xsd:int` | X Achsenposition der Suchzeichenfolge. |
-| y | `xsd:int` | Y-Achsenposition der Suchzeichenfolge. |
+| searchString | `xsd:string` | Text der Suchzeichenfolge. |
+| SchlüsselwörterArray | `types:KeywordsArray` | Array von Keywords in der Suchzeichenfolge. |
+| status | `xsd:boolean` | True, wenn die Suchzeichenfolge gültig und aktiviert ist. |
+| x | `xsd:int` | Position der X-Achse der Suchzeichenfolge. |
+| y | `xsd:int` | Position der Y-Achse der Suchzeichenfolge. |
 | Breite | `xsd:int` | Breite der Suchzeichenfolge. |
 | Höhe | `xsd:int` | Höhe der Suchzeichenfolge. |
 | fontName | `xsd:string` | Name der in der Suchzeichenfolge verwendeten Schriftart. |

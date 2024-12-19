@@ -1,5 +1,5 @@
 ---
-description: Löscht ein Zoomziel.
+description: Löscht ein Zoom-Ziel.
 solution: Experience Manager
 title: deleteZoomTarget
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # deleteZoomTarget{#deletezoomtarget}
 
-Löscht ein Zoomziel.
+Löscht ein Zoom-Ziel.
 
 ## Autorisierte Benutzertypen {#section-09ca82bc817e49048271c5cba545702e}
 
@@ -31,20 +31,20 @@ Löscht ein Zoomziel.
 
 ## Parameter {#section-225330a45e7a408f8375e084677d9cb1}
 
-**Input (deleteZoomTargetParam)**
+**Eingabe (deleteZoomTargetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Zoomziel gehört. |
-| zoomTargetHandle | `xsd:string` | Ja | Der Handle zum zu löschenden Zoomziel. |
+| companyHandle | `xsd:string` | Ja | Der Ziehgriff zu dem Unternehmen, zu dem das Zoom-Ziel gehört. |
+| zoomTargetHandle | `xsd:string` | Ja | Der Ziehgriff auf das zu löschende Zoom-Ziel. |
 
-**Output (deleteZoomTargetParam)**
+**Ausgabe (deleteZoomTargetParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiel {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-Mit diesem Codebeispiel wird ein Zoomziel aus einem Unternehmen gelöscht.
+Dieses Codebeispiel löscht ein Zoom-Ziel aus einem Unternehmen.
 
 **Anfrage**
 

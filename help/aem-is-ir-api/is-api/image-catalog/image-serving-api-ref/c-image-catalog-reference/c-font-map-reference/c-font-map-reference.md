@@ -1,22 +1,22 @@
 ---
-description: Wenn für einen Bildkatalog eine Schriftartzuordnung erforderlich ist, muss der relative oder absolute Pfad der Schriftartzuordnungsdatei im Attribut FontMapFile angegeben werden.
+description: Wenn für einen Bildkatalog eine Schriftzuordnung erforderlich ist, muss der relative oder absolute Pfad der Schriftzuordnungsdatei im Attribut FontMapFile angegeben werden.
 solution: Experience Manager
-title: Schriftzuordnungsreferenz
+title: Schriftartenzuordnungsreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%
 
 ---
 
-# Schriftzuordnungsreferenz{#font-map-reference}
+# Schriftartenzuordnungsreferenz{#font-map-reference}
 
-Wenn für einen Bildkatalog eine Schriftartzuordnung erforderlich ist, muss der relative oder absolute Pfad der Schriftzuordnungsdatei im Attribut::FontMapFile angegeben werden.
+Wenn für einen Bildkatalog eine Schriftzuordnung erforderlich ist, muss der relative oder absolute Pfad der Schriftzuordnungsdatei in „attribute::FontMapFile“ angegeben werden.
 
-Einträge in der Schriftzuordnung eines bestimmten Bildkatalogs setzen Einträge in der Schriftzuordnung des Standardkatalogs außer Kraft.
+Einträge in der Schriftartenkarte eines bestimmten Bildkatalogs überschreiben Einträge in der Schriftartenkarte des Standardkatalogs.
 
 Image Serving unterstützt Adobe Type 1-, OpenType- und TrueType-Schriftarten.
 

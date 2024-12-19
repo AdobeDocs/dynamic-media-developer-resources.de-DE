@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFaultArray
-description: Ein Array von Fehlern beim Asset-Vorgang.
+description: Ein Array von Asset-Vorgangsfehlern.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL AssetOperationFaultArray]{#assetoperationfaultarray}
 
-Ein Array von Fehlern beim Asset-Vorgang.
+Ein Array von Asset-Vorgangsfehlern.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:AssetOperationFault` | Ein Array von Fehlerelementen für den Asset-Vorgang. |
+| Elemente | `types:AssetOperationFault` | Ein Array von Fehlerelementen bei Asset-Vorgängen. |

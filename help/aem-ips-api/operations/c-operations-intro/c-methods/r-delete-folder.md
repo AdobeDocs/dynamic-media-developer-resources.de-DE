@@ -29,7 +29,7 @@ Syntax
 
 >[!NOTE]
 >
->Der Benutzer muss Lese- und Löschzugriff auf den Ordner und alle seine untergeordneten Elemente haben.
+>Der Benutzer muss Lese- und Löschzugriff auf den Ordner und alle untergeordneten Elemente haben.
 
 ## Parameter {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
@@ -37,16 +37,16 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Ordner gehört. |
-| folderHandle | `xsd:string` | Ja | Der Handle für den zu löschenden Ordner. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem der Ordner gehört. |
+| folderHandle | `xsd:string` | Ja | Der Handle zum zu löschenden Ordner. |
 
-**Output (deleteFolderParam)**
+**Ausgabe (deleteFolderParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-9d4617b322e8442d80e59be0f8714841}
 
-Mit diesem Beispielcode wird ein Ordner aus dem Stammverzeichnis des Unternehmens gelöscht. Dazu ist ein Ordner-Handle erforderlich, das Sie von einem anderen Vorgang abrufen müssen.
+Dieser Beispielcode löscht einen Ordner aus dem Stammverzeichnis des Unternehmens. Dazu ist ein Ordner-Handle erforderlich, das Sie von einem anderen Vorgang erhalten müssen.
 
 **Anfrage**
 

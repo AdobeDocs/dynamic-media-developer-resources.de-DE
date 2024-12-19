@@ -1,5 +1,5 @@
 ---
-description: Standardschriftart mit dem Namen der Schriftart. Gibt an, welche Schriftart verwendet werden soll, wenn von einer text= -Anforderung keine Schriftart bereitgestellt wird.
+description: Name der Standardschriftart. Gibt an, welche Schriftart verwendet werden soll, wenn keine Schriftart von einer text= -Anforderung bereitgestellt wird.
 solution: Experience Manager
 title: DefaultFont
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # DefaultFont{#defaultfont}
 
-Standardschriftart mit dem Namen der Schriftart. Gibt an, welche Schriftart verwendet werden soll, wenn von einer text= -Anforderung keine Schriftart bereitgestellt wird.
+Name der Standardschriftart. Gibt an, welche Schriftart verwendet werden soll, wenn keine Schriftart von einer text= -Anforderung bereitgestellt wird.
 
 ## Eigenschaften {#section-b71618fec3c443a392d67eff480f0e5d}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger Schriftartenwert sein::Name in der Schriftartzuordnung dieses Bildkatalogs oder in der Schriftzuordnung des Standardkatalogs.
+Text-String Wenn angegeben, muss es sich um einen gültigen Wert für „font:name“ in der Schriftartenkarte dieses Bildkatalogs oder in der Schriftartenkarte des Standardkatalogs handeln.
 
 ## Standard {#section-ed0199be32a24e31a47b345ce7d109f6}
 
-Wird von `default::DefaultFont` übernommen, wenn nicht definiert oder leer.
+Von `default::DefaultFont` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-b012591f90a2428a8062afe4f3b6ce33}
 

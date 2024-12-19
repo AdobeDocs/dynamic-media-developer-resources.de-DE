@@ -1,5 +1,5 @@
 ---
-description: Erstellen oder bearbeiten Sie ein Zoomziel.
+description: Erstellen oder bearbeiten Sie ein Zoom-Ziel.
 solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # saveZoomTarget{#savezoomtarget}
 
-Erstellen oder bearbeiten Sie ein Zoomziel.
+Erstellen oder bearbeiten Sie ein Zoom-Ziel.
 
 Syntax
 
@@ -29,29 +29,29 @@ Syntax
 
 ## Parameter {#section-4a23983cae4e49a098e9bbe736933996}
 
-**Input (saveZoomTargetParam)**
+**Eingabe (saveZoomTargetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen mit dem Zoomziel, das Sie speichern möchten. |
-| assetHandle | `xsd:string` | Ja | Der Griff zum Zoomziel. |
-| zoomTargetHandle | `xsd:string` | Nein | Bearbeiten oder erstellen Sie ein Zoomziel. |
-| name | `xsd:string` | Ja | Zoom-Zielname. |
+| companyHandle | `xsd:string` | Ja | Der Griff für die Firma mit dem Zoom-Ziel, das Sie speichern möchten. |
+| assetHandle | `xsd:string` | Ja | Der Ziehgriff zum Zoom-Ziel. |
+| zoomTargetHandle | `xsd:string` | Nein | Bearbeitet oder erstellt ein Zoom-Ziel. |
+| name | `xsd:string` | Ja | Name des Zoomziels. |
 | xPosition | `xsd:int` | Ja | Position des linken Pixels. |
-| yPosition | `xsd:int` | Ja | Position des obersten Pixels. |
-| Breite | `xsd:int` | Ja | Zoom der Zielbreite |
-| Höhe | `xsd:int` | Ja | Zoom der Zielhöhe. |
-| userData | `xsd:string` | Ja | Für kundenspezifische Informationen. Kann beliebige Datentypen enthalten. |
+| yPosition | `xsd:int` | Ja | Top-Pixel-Position. |
+| Breite | `xsd:int` | Ja | Zielbreite zoomen. |
+| Höhe | `xsd:int` | Ja | Zielhöhe zoomen. |
+| userData | `xsd:string` | Ja | Für kundenspezifische Informationen. Kann jeden Datentyp enthalten. |
 
-**Output (saveZoomTargetReturn)**
+**Ausgabe (saveZoomTargetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| zoomTargetHandle | `xsd:string` | Ja | Bearbeiten Sie das neu erstellte Zoomziel. |
+| zoomTargetHandle | `xsd:string` | Ja | Gehen Sie zum neu erstellten Zoom-Ziel. |
 
 ## Beispiele {#section-509c472c316549cdb228d7e1cfa8400a}
 
-Mit diesem Codebeispiel wird ein Zoomziel gespeichert. Die Antwort gibt den Zoom-Ziel-Handle zurück.
+Dieses Code-Beispiel speichert ein Zoom-Ziel. Die Antwort gibt den Ziehgriff des Zoomziels zurück.
 
 **Anfrage**
 

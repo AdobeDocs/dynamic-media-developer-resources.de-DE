@@ -1,5 +1,5 @@
 ---
-description: Name des Profilkürzels. Ein Kurzbefehl für das Farbprofil.
+description: Name der Profilverknüpfung. Ein Verknüpfungsname für das Farbprofil.
 solution: Experience Manager
 title: Name
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # Name{#name}
 
-Name des Profilkürzels. Ein Kurzbefehl für das Farbprofil.
+Name der Profilverknüpfung. Ein Verknüpfungsname für das Farbprofil.
 
 ## Eigenschaften {#section-30fc50f71f4a4ea7b14b2524d1f2b698}
 
-Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die ICC-Profilzuordnung. Jeder `icc::Name` -Wert muss innerhalb der Tabelle eindeutig sein und darf &quot;,&quot;-Zeichen nicht enthalten.
+Text-String Erforderlich. Primärer Indexschlüssel für die ICC-Profilzuordnung. Jeder `icc::Name` muss innerhalb der Tabelle eindeutig sein und darf keine &quot;,“-Zeichen enthalten.
 
 ## Standard {#section-47a56671d1e94497aa7ea83fe9590c05}
 

@@ -1,5 +1,5 @@
 ---
-description: Standardmäßiger Miniaturtyp. Stellt eine Standardeinstellung für den Miniaturansichtstyp bereit, falls ein bestimmter Katalogdatensatz keinen gültigen ThumbType-Katalogwert enthält.
+description: Standardtyp für Miniaturen. Bietet einen Standardwert für den Typ der Miniaturansicht, falls ein bestimmter Katalogdatensatz keinen gültigen ThumbType-Katalogwert enthält.
 solution: Experience Manager
 title: ThumbType
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # ThumbType{#thumbtype}
 
-Standardmäßiger Miniaturtyp. Stellt eine Standardeinstellung für den Miniaturansichtstyp bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Wert für catalog::ThumbType enthält.
+Standardtyp für Miniaturen. Bietet einen Standardwert für den Typ der Miniaturansicht, falls ein bestimmter Katalogeintrag keinen gültigen Wert für catalog:ThumbType enthält.
 
-Wird nur für Miniaturansichten ( `req=tmb`) verwendet.
+Wird nur für Anfragen von Miniaturansichten verwendet ( `req=tmb`).
 
 ## Eigenschaften {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-Enum. Zulässige Werte sind 1, 2 und 3 für die Miniaturansichten *`crop`*, *`fit`* und *`texture`*.
+Aufzählung. Zulässige Werte sind 1, 2 und 3 für *`crop`*, *`fit`* und *`texture`* Miniaturansichten.
 
 ## Standard {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-Wird von `default::ThumbType`übernommen, wenn nicht definiert oder wenn leer.
+Vererbt von (`default::ThumbType` nicht definiert oder leer).
 
 ## Verwandte Themen {#section-986c97470c494bfd8f179cecf8cc3ccc}
 

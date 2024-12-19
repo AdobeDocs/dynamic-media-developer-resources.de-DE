@@ -1,5 +1,5 @@
 ---
-description: Eine Reihe von Berechtigungen wird aktualisiert.
+description: Ein Array von Berechtigungsaktualisierungen.
 solution: Experience Manager
 title: PermissionUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PermissionUpdateArray]{#permissionupdatearray}
 
-Eine Reihe von Berechtigungen wird aktualisiert.
+Ein Array von Berechtigungsaktualisierungen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:PermissionUpdateArray` | Die Berechtigungen aktualisieren das -Array. |
+| Elemente | `types:PermissionUpdateArray` | Das Array zur Aktualisierung der Berechtigungen. |

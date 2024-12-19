@@ -24,6 +24,6 @@ Syntax
 |---|---|---|
 | verarbeiten | `xsd:string` | PostScript-Prozessauswahl. |
 | Auflösung | `xsd:double` | Dateiauflösung. |
-| colorspace | `xsd:string` | Farbraummodus von PostScript. |
-| alpha | `xsd:boolean` | Ob die Datei in ein Bild gerastert werden soll. Wenn dies der Fall ist, wird ein transparenter Hintergrund erstellt, wenn die Originaldatei auf diese Weise definiert ist. Wird im Allgemeinen verwendet, um überlagernde Logos zu erstellen. |
+| Farbraum | `xsd:string` | PostScript-Farbraummodus. |
+| alpha | `xsd:boolean` | Gibt an, ob die Datei in einem Bild gerastert werden soll. Wenn ja, wird ein transparenter Hintergrund erstellt, wenn die Originaldatei auf diese Weise definiert ist. Wird im Allgemeinen zum Erstellen von Überlagerungslogos verwendet. |
 | extractSearchWords | `xsd:boolean` | Ob Suchbegriffe aus der PostScript-Datei extrahiert werden sollen. |

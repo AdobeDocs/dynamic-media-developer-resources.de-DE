@@ -1,7 +1,7 @@
 ---
-description: Beschreibt neue und geänderte Betriebsmethoden für die IPS-API Version 4.5.
+description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 4.5.
 solution: Experience Manager
-title: Vorgänge - Neu und geändert
+title: Betrieb - Neu und geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# Vorgänge: Neu und geändert{#operations-new-and-modified}
+# Vorgänge: Neu und Geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Betriebsmethoden für die IPS-API Version 4.5.
+Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 4.5.
 
 Syntax
 
@@ -37,8 +37,8 @@ Syntax
 
 ## Geänderte Vorgänge {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` enthält die Parameter `animatedGifInfo`, `swcInfo`, `cssInfo` und `javascriptInfo`.
-* `createMetadataField` enthält einen optionalen Parameter `isHidden` .
-* `saveMetadataField` enthält einen optionalen Parameter `isHidden` .
+* `Asset` umfasst `animatedGifInfo`-, `swcInfo`-, `cssInfo`- und `javascriptInfo`.
+* `createMetadataField` enthält einen optionalen `isHidden`.
+* `saveMetadataField` enthält einen optionalen `isHidden`.
 * `searchAssets`
-* Der Parameter `renameFiles` wurde in früheren Versionen nicht mehr unterstützt und aus dem Vorgang `renameAsset` entfernt. Der virtuelle Dateipfad wird so geändert, dass er mit dem neuen Asset-Namen übereinstimmt (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen beim Aktualisieren auf die neue API-Version Verweise auf diesen Parameter entfernen.
+* Der `renameFiles`-Parameter wird seit früheren Versionen nicht mehr unterstützt und aus dem `renameAsset` entfernt. Der virtuelle Dateipfad wird geändert, sodass er dem neuen Asset-Namen entspricht (wobei die Dateierweiterung beibehalten wird), während die physischen Dateipfade nicht betroffen sind. API-Clients müssen Verweise auf diesen Parameter entfernen, wenn sie auf die neue API-Version aktualisieren.

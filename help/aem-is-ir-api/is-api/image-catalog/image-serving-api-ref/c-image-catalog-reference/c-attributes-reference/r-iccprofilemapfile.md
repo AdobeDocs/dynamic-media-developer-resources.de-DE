@@ -1,5 +1,5 @@
 ---
-description: Dateipfad der ICC-Profilzuordnung. Gibt die Datei an, die die ICC-Profilzuordnung für diesen Bildkatalog enthält.
+description: ICC-Profilzuordnungsdateipfad. Gibt die Datei an, die die ICC-Profilzuordnung für diesen Bildkatalog enthält.
 solution: Experience Manager
 title: IccProfileMapFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # IccProfileMapFile{#iccprofilemapfile}
 
-Dateipfad der ICC-Profilzuordnung. Gibt die Datei an, die die ICC-Profilzuordnung für diesen Bildkatalog enthält.
+ICC-Profilzuordnungsdateipfad. Gibt die Datei an, die die ICC-Profilzuordnung für diesen Bildkatalog enthält.
 
 ## Eigenschaften {#section-962934fded9746c7953beb62616dd2a7}
 
-Textzeichenfolgenwert. Absoluter Dateipfad oder Pfad relativ zum Katalogordner.
+Text-Zeichenfolgenwert. Absoluter Dateipfad oder -pfad relativ zum Katalogordner.
 
 ## Standard {#section-c368cbef2a24435ea97cc7c83bbe2ce8}
 
-Leer, was bedeutet, dass dieser Bildkatalog keine privaten ICC-Profile enthält.
+Leer, was anzeigt, dass dieser Bildkatalog keine privaten ICC-Profile enthält.
 
 ## Verwandte Themen {#section-3ed772259c8e4209b5a7766fae1d6efd}
 
-[ICC-Profilkarte](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)
+[ICC-Profilzuordnung](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)

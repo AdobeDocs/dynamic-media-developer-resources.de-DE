@@ -1,11 +1,11 @@
 ---
 title: VideoPlayer.waiticon
-description: Konfigurationsattribut für Video-Viewer.
+description: Konfigurationsattribut für Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c5061a5c-44d7-4b42-a062-5ee622829429
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 11%
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Konfigurationsattribut für Video-Viewer.
+Konfigurationsattribut für Video Viewer.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert oder deaktiviert die Anzeige der Pufferanimation (Wartesymbol). </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die Pufferung der Animation (Wartesymbol). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.7.
+description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 3.7.
 solution: Experience Manager
-title: Vorgänge - Neu und geändert
+title: Vorgänge Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# Vorgänge: Neu und geändert{#operations-new-and-modified}
+# Vorgänge: Neu und Geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.7.
+Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 3.7.
 
 Syntax
 
@@ -40,7 +40,7 @@ Syntax
 
 **searchAsset**
 
-* Der Parameter `name` wurde entfernt.
+* `name` Parameter entfernt.
 * `excludeFieldArray` hinzugefügt.
 
 **getFolders**
@@ -49,5 +49,5 @@ Syntax
 
 **getFolderTree**
 
-* `excludeFieldArray` und `getUniqueMetadataValues` wurden hinzugefügt.
-* `fieldHandle` wurde zu einem erforderlichen Parameter gemacht.
+* `excludeFieldArray` und `getUniqueMetadataValues` hinzugefügt.
+* `fieldHandle` zu einem erforderlichen Parameter gemacht.

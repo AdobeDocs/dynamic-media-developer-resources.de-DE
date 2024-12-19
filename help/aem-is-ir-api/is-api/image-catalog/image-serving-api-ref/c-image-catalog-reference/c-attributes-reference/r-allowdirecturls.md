@@ -1,5 +1,5 @@
 ---
-description: Zulassen von absoluten URLs als Bildquellen.
+description: Absolute URLs als Bildquellen zulassen.
 solution: Experience Manager
 title: AllowDirectUrls
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 6%
 
 # AllowDirectUrls{#allowdirecturls}
 
-Zulassen von absoluten URLs als Bildquellen.
+Absolute URLs als Bildquellen zulassen.
 
-Aktiviert oder deaktiviert die Unterstützung für eingebettete absolute URLs in den Befehlen `src=` und `mask=`. Wenn diese Option deaktiviert ist, sind nur URLs erlaubt, die relativ zu `attribute::RootUrl` sind.
+Aktiviert oder deaktiviert die Unterstützung für eingebettete absolute URLs in `src=`- und `mask=`. Wenn diese Option deaktiviert ist, sind nur URLs im Zusammenhang mit `attribute::RootUrl` zulässig.
 
 ## Eigenschaften {#section-192825a6b02e4cc4a6aa102f93be89f0}
 
-Flag.
+Markierung.
 
 ## Standard {#section-c2eb9ab424db41c6aac91ba2cbe00ef5}
 
-Wird von `default::AllowDirectUrls` übernommen, wenn nicht definiert oder leer.
+Von `default::AllowDirectUrls` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-604f9500749c4e1a968b260b9a3812b2}
 

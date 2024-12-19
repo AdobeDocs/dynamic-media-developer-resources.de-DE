@@ -1,6 +1,6 @@
 ---
 title: textFlowXPath
-description: Textfluss-Ausschlussbereich. Gibt einen oder mehrere Bereiche an, die vom Textfluss ausgeschlossen werden sollen.
+description: Textfluss-Ausschlussbereich. Gibt mindestens eine vom Textfluss auszuschließende Region an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # textFlowXPath{#textflowxpath}
 
-Textfluss-Ausschlussbereich. Gibt einen oder mehrere Bereiche an, die vom Textfluss ausgeschlossen werden sollen.
+Textfluss-Ausschlussbereich. Gibt mindestens eine vom Textfluss auszuschließende Region an.
 
 `textFlowXPath= *`pathDefinition`*`
 
@@ -25,11 +25,11 @@ Textfluss-Ausschlussbereich. Gibt einen oder mehrere Bereiche an, die vom Textfl
  </tr> 
 </table>
 
-Weitere Informationen, einschließlich einer Beschreibung von *`pathDefinition`*, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) . Wenn keine Pfaddefinition angegeben ist, wird `textFlowXPath=` ignoriert.
+Siehe [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) für weitere Informationen, einschließlich einer Beschreibung der *`pathDefinition`*. Wenn keine Pfaddefinition angegeben ist, wird `textFlowXPath=` ignoriert.
 
 ## Eigenschaften {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-Textebenenattribut ( nur `textPs=`). Wird von anderen Ebenen ignoriert oder ohne `textFlowPath=` angegeben. Gilt für `layer=comp` für `layer=0`.
+Attribut der Textebene (nur `textPs=`). Von anderen Ebenen ignoriert oder ohne `textFlowPath=` angegeben. Gilt für `layer=0`, wenn für `layer=comp` angegeben.
 
 ## Standard {#section-9405cda904684d829ed12a9e40a4dc46}
 

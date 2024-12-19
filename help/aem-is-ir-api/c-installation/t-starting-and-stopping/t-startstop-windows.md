@@ -1,6 +1,6 @@
 ---
-title: Starten oder Beenden unter Windows
-description: Es gibt verschiedene Mechanismen, um den Image-Server und  [!DNL Platform Server] unter Windows zu starten oder zu beenden
+title: Starten oder Anhalten unter Windows
+description: Es gibt mehrere Mechanismen, um den Bildserver unter Windows zu starten  [!DNL Platform Server]  zu stoppen
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Starten oder Beenden unter Windows{#starting-or-stopping-on-windows}
+# Starten oder Anhalten unter Windows{#starting-or-stopping-on-windows}
 
-Es gibt verschiedene Mechanismen, um den Image-Server und [!DNL Platform Server] unter Windows zu starten oder zu beenden.
+Es gibt mehrere Mechanismen, um den Bildserver zu starten oder zu stoppen und unter Windows zu [!DNL Platform Server].
 
-1. Wählen Sie eine der folgenden Optionen aus, um Image Serving zu starten oder zu beenden:
+1. Wählen Sie eine der folgenden Optionen, um die Bildbereitstellung zu starten oder zu stoppen:
 
-* Die Windows Service Control Panel kann verwendet werden, um den Status des `Dynamic Media Image Serving`-Dienstes zu starten, anzuhalten, neu zu starten und zu überprüfen.
-* **[!UICONTROL Startmenü]**> **[!UICONTROL Alle Programme]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** stellt Befehle zum Starten, Beenden und Neustart des `Dynamic Media Image Serving`-Dienstes bereit.
+* Die Systemsteuerung für Windows-Dienste kann zum Starten, Beenden, Neustarten und Überprüfen des Status des `Dynamic Media Image Serving`-Dienstes verwendet werden.
+* **[!UICONTROL Startmenü]**> **[!UICONTROL Alle Programme]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** bietet Befehle zum Starten, Beenden und Neustarten des `Dynamic Media Image Serving`.

@@ -1,6 +1,6 @@
 ---
 title: VignetteMapFile
-description: Vignette-Map-Datendateipfad. Gibt die Datei an, die die Vignettenzuordnung für diesen Bildkatalog enthält.
+description: Pfad für Vignettenzuordnungsdatendatei. Gibt die Datei an, die die Vignettenzuordnung für diesen Bildkatalog enthält.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # VignetteMapFile{#vignettemapfile}
 
-Vignette-Map-Datendateipfad. Gibt die Datei an, die die Vignettenzuordnung für diesen Bildkatalog enthält.
+Pfad für Vignettenzuordnungsdatendatei. Gibt die Datei an, die die Vignettenzuordnung für diesen Bildkatalog enthält.
 
 ## Eigenschaften {#section-8f624cb8e49b44258a961fb7e464ce0a}
 
-Textzeichenfolgenwert. Absoluter Dateipfad oder Pfad relativ zum Katalogordner.
+Text-Zeichenfolgenwert. Absoluter Dateipfad oder -pfad relativ zum Katalogordner.
 
 ## Standard {#section-cc5c2e0ba54a4e5890a7330ee038fac8}
 
-Leer, was bedeutet, dass dieser Materialkatalog keine Vignettenkarte enthält.
+Leer, was anzeigt, dass dieser Materialkatalog keine Vignettenkarte enthält.
 
 ## Verwandte Themen {#section-e77e22ed4aaa4b99919f07afc5ecc404}
 
-[Vignette Map-Referenz](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md#concept-f9486269f2b04d4cb6750f3af7bf0eb7)
+[Referenz zur Vignettenkarte](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md#concept-f9486269f2b04d4cb6750f3af7bf0eb7)

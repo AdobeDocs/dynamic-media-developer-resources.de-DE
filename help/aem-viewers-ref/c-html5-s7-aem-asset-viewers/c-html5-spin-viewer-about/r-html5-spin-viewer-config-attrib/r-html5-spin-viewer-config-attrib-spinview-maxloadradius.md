@@ -19,12 +19,12 @@ ht-degree: 2%
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> Stellt die maximale Anzahl von Frames dar, die bei inaktiver SpinView in jede Richtung vorgeladen werden sollen. Der Wert <span class="codeph"> -1</span> lädt alle Frames im Satz vorab. Die vorgeladenen Frames werden immer mit der ursprünglichen Auflösung angezeigt, die die SpinView ursprünglich geladen hatte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Wert</span></span> </p> </td> 
+   <td colname="col2"> <p> Stellt die maximale Anzahl von Frames dar, die in jeder Richtung vorgeladen werden sollen, wenn die SpinView inaktiv ist. Bei einem Wert von <span class="codeph"> -1</span> werden alle Frames im Satz vorab geladen. Die vorgeladenen Frames werden immer mit der ursprünglichen Auflösung angezeigt, in der der SpinView ursprünglich geladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Steuert die Qualität der vorgeladenen Frames. Wenn der Wert auf <span class="codeph"> 1</span> Frames festgelegt ist, werden diese in hoher Qualität geladen und entsprechen der Größe der Komponente. Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, wird nur die Kachel für die Vorschau mit niedriger Auflösung geladen. </p> <p>Das Vorausfüllen in hoher Auflösung verbessert das Benutzererlebnis, insbesondere wenn die automatische Rotation aktiviert ist. Gleichzeitig führt dies zu einer langsameren Startzeit und einem höheren Netzwerkverbrauch. Seien Sie daher vorsichtig. Wenn eine hochauflösende Vorlast verwendet wird, befinden sich die vorgeladenen Frames immer in der ursprünglichen Auflösung, in der die Komponente ursprünglich geladen wurde. </p> </td> 
+   <td colname="col2"> <p> Steuert die Qualität vorgeladener Frames. Bei Einstellung auf <span class="codeph"> 1 werden </span> Frames in hoher Qualität geladen, die der Größe der Komponente entspricht. Bei <span class="codeph"> 0 wird </span> Vorschaukachel mit niedriger Auflösung geladen. </p> <p>Das Vorabladen in hoher Auflösung verbessert das Erlebnis für Endbenutzer, insbesondere wenn die automatische Drehung aktiviert ist. Gleichzeitig führt dies zu einer langsameren Startzeit und einem höheren Netzwerkverbrauch, daher sollten Sie mit Vorsicht vorgehen. Bei Verwendung einer hochauflösenden Vorspannung befinden sich die vorgeladenen Frames immer in der ursprünglichen Auflösung, in der die Komponente ursprünglich geladen wurde. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -26,15 +26,15 @@ Syntax
 
 ## Parameter {#section-a05cbee4cb4f44198c414a6b14e69156}
 
-**Input**
+**Eingabe**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
-| fieldHandle | `xsd:string` | Ja | Tag-Feld-Handle. |
-| valueArray | `types:StringArray` | Ja | Ein Array von Tag-Werten, die das vorhandene Wörterbuch des Felds ersetzen. Asset-Zuordnungen werden beibehalten, wenn ein neuer Wert mit einem vorhandenen Wert übereinstimmt. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
+| fieldHandle | `xsd:string` | Ja | Handle des Tag-Felds. |
+| valueArray | `types:StringArray` | Ja | Ein Array von Tag-Werten, die das vorhandene Wörterbuch des Felds ersetzen. Asset-Verknüpfungen werden beibehalten, wenn ein neuer Wert mit einem vorhandenen Wert übereinstimmt. |
 
-**Output (setTagFieldValuesReturn)**
+**Ausgabe (setTagFieldValuesReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 

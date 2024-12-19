@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines Zoomziels.
+description: Eigenschaften eines Zoom-Ziels.
 solution: Experience Manager
 title: ZoomTarget
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ZoomTarget]{#zoomtarget}
 
-Eigenschaften eines Zoomziels.
+Eigenschaften eines Zoom-Ziels.
 
 Syntax
 
@@ -22,12 +22,12 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| zoomTargetHandle | `xsd:string` | Zoom-Ziehgriff. |
-| name | `xsd:string` | Zoom-Zielname. |
+| zoomTargetHandle | `xsd:string` | Zoom des Zielgriffs. |
+| name | `xsd:string` | Name des Zoomziels. |
 | xPosition | `xsd:int` | Die X-Position des Zoomziels. |
 | yPosition | `xsd:int` | Die Y-Position des Zoomziels. |
-| Breite | `xsd:int` | Zoom der Zielbreite |
-| Höhe | `xsd:int` | Zoom der Zielhöhe. |
-| userData | `xsd:string` | Benutzerdaten im Zusammenhang mit dem Zoomziel. |
-| Position | `xsd:int` | Ermöglicht die Sortierung von mit einem Asset verknüpften Zoom-Zielen basierend auf der Position |
-| lastModified | `xsd:dateTime` | Datum der letzten Änderung. |
+| Breite | `xsd:int` | Zielbreite zoomen. |
+| Höhe | `xsd:int` | Zielhöhe zoomen. |
+| userData | `xsd:string` | Benutzerdaten im Zusammenhang mit dem Zoom-Ziel. |
+| Position | `xsd:int` | Ermöglicht die Sortierung von Zoom-Zielen, die mit einem Asset verknüpft sind, basierend auf der Position |
+| lastModify | `xsd:dateTime` | Datum der letzten Änderung. |

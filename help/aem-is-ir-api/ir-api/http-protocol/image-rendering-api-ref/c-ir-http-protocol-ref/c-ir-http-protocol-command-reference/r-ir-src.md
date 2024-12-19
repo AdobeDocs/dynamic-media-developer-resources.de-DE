@@ -1,6 +1,6 @@
 ---
 title: src
-description: Materialdatei. Gibt Materialdaten an, entweder in Form eines einzelnen Materialkatalogverweises oder als ein oder zwei Bild- oder Materialdatendateien, getrennt durch Kommas.
+description: Materialdatei Gibt Materialdaten an, entweder in Form einer einzelnen Materialkatalogreferenz oder als eine oder zwei Bild- oder Materialdatendateien, getrennt durch ein Komma.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # src{#src}
 
-Materialdatei. Gibt Materialdaten an, entweder in Form eines einzelnen Materialkatalogverweises oder als ein oder zwei Bild- oder Materialdatendateien, getrennt durch Kommas.
+Materialdatei Gibt Materialdaten an, entweder in Form einer einzelnen Materialkatalogreferenz oder als eine oder zwei Bild- oder Materialdatendateien, getrennt durch ein Komma.
 
 `src = *`catalogEntry`*|{{ *`materialFile`*| *`embeddedReq`*}[, *`materialFile`*]`
 
@@ -33,73 +33,73 @@ Materialdatei. Gibt Materialdaten an, entweder in Form eines einzelnen Materialk
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> externalReq</span>'&amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>Materialkatalog-ID (<span class="codeph"> Attribut::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Materialkatalog-ID (<span class="codeph">::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Materialkatalogeintrag (<span class="codeph"> Katalog::Id</span>). </p></td> 
+  <td class="stentry"> <p>Materialkatalogeintrag (<span class="codeph">::ID</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>Materialstildatei (<span class="filepath"> .vnc</span> oder <span class="filepath"> .vnw</span>). </p></td> 
+  <td class="stentry"> <p>Materialstil-Datei (<span class="filepath"> .vnc</span> oder <span class="filepath"> .vnw</span>) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
-  <td class="stentry"> <p>Bilddatendatei. </p></td> 
+  <td class="stentry"> <p>Bilddatendatei </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> isReq</span> </p></td> 
-  <td class="stentry"> <p>Anfrage an Image Serving. </p></td> 
+  <td class="stentry"> <p>Anfrage an Image-Serving. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> irReq</span> </p></td> 
-  <td class="stentry"> <p>Anforderung für das Bild-Rendering. </p></td> 
+  <td class="stentry"> <p>Anforderung zum Rendern von Bildern. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> externalReq</span> </p></td> 
-  <td class="stentry"> <p>Anfrage an einen ausländischen Server. </p></td> 
+  <td class="stentry"> <p><span class="varname"> ForeignReq</span> </p></td> 
+  <td class="stentry"> <p>Anfrage an einen Fremdserver. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> Name</span> </p></td> 
   <td class="stentry"> <p>Name eines eingebetteten Materials. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> index</span> </p></td> 
-  <td class="stentry"> <p>0-basierte Indexnummer für ein eingebettetes Material. </p></td> 
+  <td class="stentry"> <p><span class="varname"> Index</span> </p></td> 
+  <td class="stentry"> <p>Indexnummer auf Basis 0 für ein eingebettetes Material. </p></td> 
  </tr> 
 </table>
 
-Wiederholbare Textur-, Decal- und Hintergrundmaterialien erfordern ein einzelnes Bild, das als Datei oder eingebettete Anforderung angegeben werden kann.
+Wiederholbare Textur-, Abziehbild- und Tapetenmaterialien erfordern ein einzelnes Bild, das als Datei oder eingebettete Anfrage angegeben werden kann.
 
-Kabinettmaterialien erfordern eine Kabinettstil-Datei ( [!DNL .vnc]), die nicht als verschachtelte Anforderung angegeben werden kann. Eine Texturbilddatei ist für Cabinets optional und kann, falls angegeben, entweder eine Datei oder eine eingebettete Anforderung sein.
+Schrankmaterialien erfordern eine Schrankstildatei ( [!DNL .vnc]), die nicht als verschachtelte Anfrage angegeben werden kann. Eine Texturbilddatei ist für Ablagen optional und kann, falls angegeben, entweder eine Datei oder eine eingebettete Anfrage sein.
 
-Bei Materialien für Fensterbeläge ist eine Stildatei für Fensterbeläge ( [!DNL .vnw]) erforderlich, die nicht als verschachtelte Anforderung angegeben werden kann. Eine Texturdatei ist optional und kann, falls angegeben, entweder eine Datei oder eine eingebettete Anforderung sein.
+Fensterabdeckungsmaterialien erfordern eine Formatdatei für Fensterabdeckungen ( [!DNL .vnw]), die nicht als verschachtelte Anforderung angegeben werden kann. Eine Texturdatei ist optional und kann, falls angegeben, entweder eine Datei oder eine eingebettete Anfrage sein.
 
-Beim Rendern von Bildern werden dieselben Regeln wie beim Image Serving verwendet, um nach Materialkatalogen, Katalogeinträgen und Datendateien zu suchen. Weitere Informationen finden Sie in der Dokumentation zur Image-Serving in der Beschreibung des *`object`*-Datentyps.
+Für das Rendern von Bildern werden dieselben Regeln wie für die Bildbereitstellung zum Suchen von Materialkatalogen, Katalogeinträgen und Datendateien verwendet. Weitere Informationen finden Sie in der Beschreibung des *`object`*-Datentyps in der Dokumentation zu Image-Serving.
 
-*`materialFile`* ist ein Pfad relativ zu `attribute::RootPath`.
+*`materialFile`* Ist ein Pfad relativ zu `attribute::RootPath`.
 
-*`foreignReq`* Kann entweder eine URL relativ zu `attribute::RootUrl` oder eine absolute URL sein, wenn `attribute::AllowDirectUrls` festgelegt ist.
+*`foreignReq`* Kann entweder eine URL sein, die relativ zu `attribute::RootUrl` ist, oder eine absolute URL, wenn `attribute::AllowDirectUrls` festgelegt ist.
 
 Wenn *`catId`* nicht angegeben ist, wird der Sitzungskatalog verwendet.
 
-`srcE=` und `srcN=` bieten Zugriff auf die in die Vignette eingebetteten Materialien.
+`srcE=` und `srcN=` bieten Zugriff auf in die Vignette eingebettete Materialien.
 
 ## Unterstützte Dateiformate {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-Das Bild-Rendering unterstützt dieselben Quellbildformate wie das Dynamic Media-Bildserving.
+Das Bild-Rendering unterstützt dieselben Quellbildformate wie Dynamic Media Image Serving.
 
-Anwendungen, die Bilddaten in mehreren Auflösungen erfordern, eignen sich am besten für die Verwendung des PTIFF-Multiauflösungsformats (Scene7 Pyramid TIFF). Image Serving umfasst das Dienstprogramm Image Converter (IC) , mit dem PTIFF-Bilder aus einem beliebigen unterstützten Format erstellt werden.
+Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, eignen sich am besten, wenn das Scene7 Pyramid TIFF (PTIFF)-Multiauflösungsformat verwendet wird. Image Serving beinhaltet das Image Converter-Dienstprogramm (IC), das PTIFF-Bilder aus jedem unterstützten Format erstellt.
 
-Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Dokumentation zu Image Serving in der Beschreibung des IC-Dienstprogramms .
+Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Beschreibung des IC-Dienstprogramms in der Dokumentation zu Image-Serving .
 
 ## Eigenschaften {#section-e68d03788d534e2184147987d51dfd0f}
 
-Materialattribut. Erforderlich für alle Materialien mit Ausnahme der festen Farbe (nicht erlaubt für feste Farbstoffe). Bei allen Zeichenfolgen wird zwischen Groß- und Kleinschreibung unterschieden. *`index`* Muss 0 oder größer sein.
+Materialattribut. Erforderlich für alle Materialien außer Vollfarben (nicht zulässig für Vollfarbmaterialien). Bei allen Zeichenfolgen wird zwischen Groß- und Kleinschreibung unterschieden. *`index`* muss 0 oder größer sein.
 
 ## Standard {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -107,11 +107,11 @@ Keine.
 
 ## Beispiel {#section-675865444f8a4d35b9fc6e58b36e3438}
 
-Ein MSS für einen gefärbten Behälter mit einer separaten wiederholbaren Textur:
+Eine SMS für einen farbigen Schrank mit einer separaten wiederholbaren Textur:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-Dasselbe Material könnte in einem Materialkatalog `'cat`&#39; im Datensatz &#39; `12-3-2`&#39; enthalten sein:
+Dasselbe Material könnte sich in einem Materialkatalog `'cat`&#39; im Datensatz &#39; `12-3-2`&#39; befinden:
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -121,4 +121,4 @@ Eine verschachtelte Anfrage an Image Serving zum Abrufen eines Texturbilds:
 
 ## Verwandte Themen {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Materialkataloge](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribute::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Materialkataloge](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [attribute::rootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribute::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)

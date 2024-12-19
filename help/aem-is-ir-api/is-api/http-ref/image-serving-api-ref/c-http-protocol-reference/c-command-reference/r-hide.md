@@ -1,11 +1,11 @@
 ---
 title: ausblenden
-description: Ebene ausblenden. Ermöglicht das Ausblenden einer Ebene, ohne sie aus der Anforderungszeichenfolge zu entfernen.
+description: Ebene ausblenden. Ermöglicht das Ausblenden einer Ebene, ohne sie aus der Anfragezeichenfolge zu entfernen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bf70af48-53d6-4c4a-9d16-3696bbfe86ff
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # ausblenden{#hide}
 
-Ebene ausblenden. Ermöglicht das Ausblenden einer Ebene, ohne sie aus der Anforderungszeichenfolge zu entfernen.
+Ebene ausblenden. Ermöglicht das Ausblenden einer Ebene, ohne sie aus der Anfragezeichenfolge zu entfernen.
 
 `hide=0|1`
 

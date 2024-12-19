@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| url | `xsd:string` | Image-Server-URL, die die Rendering-Szene darstellt. |
+| url | `xsd:string` | Bildserver-URL, die die Render-Szene darstellt. |

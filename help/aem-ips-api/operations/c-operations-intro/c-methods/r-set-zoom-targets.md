@@ -1,5 +1,5 @@
 ---
-description: Legt das mit einem Asset-Bild verknüpfte Zoomziel fest. Es überschreibt vorhandene Zoomziele.
+description: Legt das Zoom-Ziel fest, das mit einem Asset-Bild verknüpft ist. Dadurch werden vorhandene Zoom-Ziele überschrieben.
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # setZoomTargets{#setzoomtargets}
 
-Legt das mit einem Asset-Bild verknüpfte Zoomziel fest. Es überschreibt vorhandene Zoomziele.
+Legt das Zoom-Ziel fest, das mit einem Asset-Bild verknüpft ist. Dadurch werden vorhandene Zoom-Ziele überschrieben.
 
 Syntax
 
@@ -29,23 +29,23 @@ Syntax
 
 ## Parameter {#section-161f8c733cc4439f94a06e12119d4226}
 
-**Input (setZoomTargetsParam)**
+**Eingabe (setZoomTargetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
-| assetHandle | `xsd:string` | Ja | Asset mit dem Zoomziel, das Sie festlegen möchten. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
+| assetHandle | `xsd:string` | Ja | Asset mit dem Zoom-Ziel, das Sie festlegen möchten. |
 | zoomTargetArray | `types:ZoomTargetDefinitionArray` | Ja | Array von Zoom-Zieldefinitionen. |
 
-**Output (setZoomTargetsReturn)**
+**Ausgabe (setZoomTargetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| zoomTargetHandleArray | `types:HandleArray` | Ja | Die Griffe für die Zoomziele, die durch diesen Vorgang erstellt werden. |
+| zoomTargetHandleArray | `types:HandleArray` | Ja | Der Satz von Ziehpunkten für die Zoom-Ziele, die durch diesen Vorgang erstellt werden. |
 
 ## Beispiele {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-Dieses Codebeispiel definiert ein Array von Zoomzielen nach Name, Position (X- und Y-Achse), Breite und Höhe und weist das Array einem Asset zu. Die Antwort enthält Handles zu den neu erstellten Zoomzielen.
+Dieses Codebeispiel definiert ein Array von Zoom-Zielen nach Name, Position (X- und Y-Achse), Breite und Höhe und weist das Array einem Asset zu. Die Antwort enthält Handles zu den neu erstellten Zoom-Zielen.
 
 **Anfrage**
 

@@ -1,6 +1,6 @@
 ---
-title: mergeMode
-description: Füllmethode. Gibt den Typ der beim Zusammenstellen der Ebene verwendeten Mischung an. Simuliert häufig verwendete Mischmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Dokumentation zu Photoshop .
+title: blendMode
+description: Mischmodus. Gibt die Art der Verschmelzung an, die beim Zusammensetzen der Ebene verwendet wird. Simuliert häufig verwendete Mischmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Dokumentation zu Photoshop .
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 5%
 
 ---
 
-# mergeMode{#blendmode}
+# blendMode{#blendmode}
 
-Füllmethode. Gibt den Typ der beim Zusammenstellen der Ebene verwendeten Mischung an. Simuliert häufig verwendete Mischmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Dokumentation zu Photoshop .
+Mischmodus. Gibt die Art der Verschmelzung an, die beim Zusammensetzen der Ebene verwendet wird. Simuliert häufig verwendete Mischmodi, die in Photoshop verfügbar sind. Weitere Informationen finden Sie in der Dokumentation zu Photoshop .
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## Eigenschaften {#section-418aad5a417f49929d1953e226e5c8dd}
 
-Ebenenattribute Ignoriert durch `layer=0` und `layer=comp`.
+Ebenenattribut. Von `layer=0` und `layer=comp` ignoriert.
 
 ## Standard {#section-69829acc6532448d8612a4a54e86f00e}
 

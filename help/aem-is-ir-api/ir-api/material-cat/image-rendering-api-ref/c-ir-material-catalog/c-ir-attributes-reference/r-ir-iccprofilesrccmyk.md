@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcCmyk
-description: CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Materialbilder verwendet werden soll, die kein Farbprofil einbetten.
+description: CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Materialbilder verwendet werden soll, in die kein Farbprofil eingebettet ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
-CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Materialbilder verwendet werden soll, die kein Farbprofil einbetten.
+CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Materialbilder verwendet werden soll, in die kein Farbprofil eingebettet ist.
 
 ## Eigenschaften {#section-0cee77438d914c319ec876edb3490821}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
 
 ## Standard {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-Wird von `default::IccProfileSrcCmyk` übernommen, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcCmyk` nicht in ein gültiges Profil aufgelöst wird, wird stattdessen `attribute::IccProfileCmyk` verwendet.
+Von `default::IccProfileSrcCmyk` geerbt, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcCmyk` nicht zu einem gültigen Profil aufgelöst wird, wird stattdessen `attribute::IccProfileCmyk` verwendet.
 
 ## Verwandte Themen {#section-88adddd70265459a9a5d2f50829a4ba7}
 

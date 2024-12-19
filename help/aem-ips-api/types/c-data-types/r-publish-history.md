@@ -1,7 +1,7 @@
 ---
 description: Veröffentlichungsverlauf eines Assets.
 solution: Experience Manager
-title: PublishHistory
+title: Veröffentlichungsverlauf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
@@ -23,6 +23,6 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | serverName | `xsd:string` | Name des Servers, dem der Veröffentlichungsverlauf gehört. |
-| contextName | `xsd:string` | Kontextname des Publish-Verlaufs. |
+| contextName | `xsd:string` | Kontextname für Publish-Verlauf. |
 | publishFormat | `xsd:string` | Publish-Format. |
 | lastPublished | `xsd:dateTime` | Datum und Uhrzeit der letzten Veröffentlichung des Assets. |

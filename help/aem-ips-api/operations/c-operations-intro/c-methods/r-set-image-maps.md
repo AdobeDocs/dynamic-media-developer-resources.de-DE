@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Legt die Imagemap für ein Asset fest.
 
-Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihenfolge des Abrufs aus dem Array angewendet. Das bedeutet, dass die zweite Imagemap die erste, die dritte die zweite und so weiter überlagert.
+Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihenfolge angewendet, in der sie aus dem Array abgerufen werden. Das bedeutet, dass die zweite Imagemap die erste überlagert, die dritte die zweite und so weiter.
 
 ## Autorisierte Benutzertypen {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -33,19 +33,19 @@ Sie müssen die Imagemaps bereits erstellt haben. Imagemaps werden in der Reihen
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
 | imageMapArray | `types:ImageMapDefinitionArray` | Ja | Array von vordefinierten Imagemaps. |
 
-**Output (setImageMapsReturn)**
+**Ausgabe (setImageMapsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| imageMapHandleArray | `types:HandleArray` | Ja | Ein Array mit Imagemap-Handles, die auf das Asset angewendet werden. |
+| imageMapHandleArray | `types:HandleArray` | Ja | Ein Array mit Imagemap-Handles, die auf das Asset angewendet wurden. |
 
 ## Beispiele {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-In diesem Codebeispiel werden zwei Imagemaps für ein Bild-Asset festgelegt. Der Code gibt den Formtyp, den Bereich und die Aktion an, die beim Aufrufen der Imagemaps ausgeführt werden. Die Antwort enthält ein Array mit Griffen an die Imagemaps.
+In diesem Code-Beispiel werden zwei Imagemaps für ein Bild-Asset festgelegt. Der Code gibt den Formtyp, die Region und die Aktion an, die beim Aufrufen der Imagemaps ausgeführt wird. Die Antwort enthält ein -Array mit Handles für die Imagemaps.
 
 **Anfrage**
 

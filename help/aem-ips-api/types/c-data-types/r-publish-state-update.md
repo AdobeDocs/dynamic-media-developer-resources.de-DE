@@ -1,5 +1,5 @@
 ---
-description: Parameter, mit denen der Veröffentlichungsstatus eines Assets aktualisiert wird
+description: Parameter zur Aktualisierung des Veröffentlichungsstatus eines Assets.
 solution: Experience Manager
 title: PublishStateUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL PublishStateUpdate]{#publishstateupdate}
 
-Parameter, mit denen der Veröffentlichungsstatus eines Assets aktualisiert wird
+Parameter zur Aktualisierung des Veröffentlichungsstatus eines Assets.
 
 Syntax
 

@@ -1,18 +1,18 @@
 ---
 description: Benennt ein Projekt um.
 solution: Experience Manager
-title: renameProject
+title: Projekt umbenennen
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 21%
 
 ---
 
-# renameProject{#renameproject}
+# Projekt umbenennen{#renameproject}
 
 Benennt ein Projekt um.
 
@@ -29,12 +29,12 @@ Syntax
 
 ## Parameter {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Input (renameProjectParam)**
+**Eingabe (renameProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyName | `xsd:string` | Ja | Verarbeiten Sie das Unternehmen mit dem Projekt, das Sie umbenennen möchten. |
-| projectHandle | `xsd:string` | Ja | Verarbeiten Sie das Projekt. |
+| projectHandle | `xsd:string` | Ja | Übernehmen Sie das Projekt. |
 | projectName | `xsd:string` | Ja | Neuer Projektname. |
 
 **Ausgabe (renameProjectParam)**
@@ -45,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-Mit diesem Codebeispiel wird ein Projekt umbenannt und der Projekthandle zurückgegeben.
+Dieses Codebeispiel benennt ein Projekt um und gibt das Projekt-Handle zurück.
 
 **Anfrage**
 

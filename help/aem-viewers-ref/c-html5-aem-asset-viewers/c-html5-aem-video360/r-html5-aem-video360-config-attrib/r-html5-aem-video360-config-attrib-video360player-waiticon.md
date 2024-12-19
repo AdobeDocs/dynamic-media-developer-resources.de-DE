@@ -1,6 +1,6 @@
 ---
 title: Video360Player.waiticon
-description: Konfigurationsattribut für Video360 Viewer.
+description: Konfigurationsattribut für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-Konfigurationsattribut für Video360 Viewer.
+Konfigurationsattribut für Video360-Viewer.
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert oder deaktiviert die Anzeige der Pufferanimation (Wartesymbol). </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die Pufferung der Animation (Wartesymbol). </p> </td> 
   </tr> 
  </tbody> 
 </table>

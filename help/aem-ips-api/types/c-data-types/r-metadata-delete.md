@@ -1,5 +1,5 @@
 ---
-description: Zu löschende Metadaten aus dem Asset.
+description: Aus dem Asset zu löschende Metadaten.
 solution: Experience Manager
 title: MetadataDelete
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL MetadataDelete]{#metadatadelete}
 
-Zu löschende Metadaten aus dem Asset.
+Aus dem Asset zu löschende Metadaten.
 
 Syntax
 

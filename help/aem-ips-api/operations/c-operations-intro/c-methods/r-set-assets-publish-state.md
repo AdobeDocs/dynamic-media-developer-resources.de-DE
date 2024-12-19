@@ -1,11 +1,11 @@
 ---
-description: Bestimmt, ob ein Asset-Batch zur Veröffentlichung bereit ist.
+description: Legt fest, ob ein Asset-Batch zur Veröffentlichung bereit ist.
 solution: Experience Manager
 title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 11%
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # setAssetsPublishState{#setassetspublishstate}
 
-Bestimmt, ob ein Asset-Batch zur Veröffentlichung bereit ist.
+Legt fest, ob ein Asset-Batch zur Veröffentlichung bereit ist.
 
 Dies ist die Batch-Version von [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
@@ -33,26 +33,26 @@ Dies ist die Batch-Version von [setAssetState](../../../operations/c-operations-
 
 ## Parameter {#section-3e49d7859f8647b990d75373cc8dbc24}
 
-**Input (setAssetsPublishStateParam)**
+**Eingabe (setAssetsPublishStateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
-| publishStateUpdateArray | `types:PublishStateUpdateArray` | Ja | Array von Veröffentlichungsstatuswerten für die Assets. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Ja | Array von Werten des Veröffentlichungsstatus für die Assets. |
 
-**Output (setAssetsPublishStateParam)**
+**Ausgabe (setAssetsPublishStateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Assets. |
-| warningCount | `xsd:int` | Ja | Die Anzahl der Assets, die eine Warnung generiert haben, als der Vorgang versuchte, sie zu aktualisieren. |
-| errorCount | `xsd:int` | Ja | Die Anzahl der Assets, die einen Fehler generiert haben, als der Vorgang versuchte, sie zu löschen. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Assets, die eine Warnung generiert haben, als der Vorgang versucht hat, sie zu aktualisieren. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Assets, die einen Fehler erzeugt haben, als der Vorgang versucht hat, sie zu löschen. |
 | warningDetailArray | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die eine Warnung generiert haben. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Details zu den Asset-Aktualisierungen, die einen Fehler generiert haben. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Details, die mit den Asset-Aktualisierungen verknüpft sind, die einen Fehler verursacht haben. |
 
 ## Beispiele {#section-38cfdd3436214a06a1bae16875501d51}
 
-In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets festgelegt.
+Dieses Code-Beispiel legt den Veröffentlichungsstatus eines Assets fest.
 
 **Anfrage**
 

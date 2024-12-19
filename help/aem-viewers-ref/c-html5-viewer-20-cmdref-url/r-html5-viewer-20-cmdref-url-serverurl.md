@@ -1,6 +1,6 @@
 ---
 title: serverUrl
-description: Parameter, die allen Viewern gemeinsam sind.
+description: Für alle Viewer gemeinsamer Parameter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # serverUrl{#serverurl}
 
-Parameter, die allen Viewern gemeinsam sind.
+Für alle Viewer gemeinsamer Parameter.
 
 ` serverUrl= *`isRootPath`*`
 
@@ -22,14 +22,14 @@ Parameter, die allen Viewern gemeinsam sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Relativer oder absoluter Image Serving-Stammpfad. </p> <p> Gibt einen relativen oder absoluten Pfad zum Image Serving an, von dem aus der Viewer Bilder abruft. Wenn der Pfad keinen vorangestellten <span class="filepath"> /</span> aufweist, ist er relativ zum Speicherort der Viewer-HTML-Seite. Wenn der Pfad einen vorangestellten <span class="filepath"> /</span> aufweist, gibt er einen absoluten Pfad auf demselben Server an. </p> <p> Verwenden Sie nur einen absoluten Pfad, wenn das Modul E-Mail-Freigabe im Viewer aktiviert ist. </p> </td> 
+   <td colname="col2"> <p>Relativer oder absoluter Stammpfad zur Bildbereitstellung. </p> <p> Gibt einen relativen oder absoluten Pfad zur Bildbereitstellung an, von dem der Viewer Bilder abruft. Wenn der Pfad keinen <span class="filepath"> /</span> hat, ist er relativ zum Speicherort der Viewer-HTML-Seite. Wenn der Pfad ein vorangestelltes <span class="filepath"> /</span> aufweist, wird ein absoluter Pfad auf demselben Server angegeben. </p> <p> Verwenden Sie nur einen absoluten Pfad, wenn das E-Mail-Freigabemodul im Viewer aktiviert ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Optional. Nicht erforderlich für die standardmäßige Nutzung von SaaS (Software as a Service).
+Optional. Wird nicht für die Verwendung von Standard-SaaS (Software as a Service) benötigt.
 
 ## Standard {#section-d411e450028c460392cb8508f8ccc5d9}
 

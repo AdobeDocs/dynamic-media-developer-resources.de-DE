@@ -18,7 +18,7 @@ Erstellt einen Ordner.
 
 >[!NOTE]
 >
->Der neue Ordner ist dem Ordner Bilder untergeordnet, selbst wenn Sie eine &quot;`/`&quot; angeben, um den Stammordner des Unternehmens anzugeben.
+>Der neue Ordner ist dem Ordner Bilder untergeordnet, auch wenn Sie einen `/` angeben, der den Stamm des Unternehmens angibt.
 
 Syntax
 
@@ -41,18 +41,18 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Umgang mit dem Unternehmen |
-| folderPath | `xsd:string` | Ja | Der Stammordner, der zum Abrufen von Ordnern und allen Unterordnern auf Blattebene verwendet wird. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen |
+| folderPath | `xsd:string` | Ja | Der Stammordner, der zum Abrufen von Ordnern und allen Unterordnern auf Blattebene verwendet wird. Wenn dies ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
 
-**Output (createFolderParam)**
+**Ausgabe (createFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Ja | Umgang mit dem neuen Ordner. |
+| folderHandle | `xsd:string` | Ja | Handle des neuen Ordners. |
 
 ## Beispiele {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Dieser Beispielcode erstellt einen Ordner im Stammverzeichnis eines Unternehmens. Die Antwort gibt den Handle des neu erstellten Ordners zurück.
+Dieser Beispiel-Code erstellt einen Ordner im Stammverzeichnis eines Unternehmens. Die Antwort gibt das Handle des neu erstellten Ordners zurück.
 
 **Anfrage**
 

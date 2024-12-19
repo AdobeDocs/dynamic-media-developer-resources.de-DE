@@ -1,6 +1,6 @@
 ---
-title: Schaltfläche "Wiedergabe/Pause"
-description: Die Schaltfläche "Wiedergabe/Pause"bewirkt, dass der Videoplayer den Videoinhalt wiedergibt oder anhält, wenn ein Benutzer ihn auswählt.
+title: Taste PLAY/PAUSE
+description: Durch Klicken auf die Schaltfläche „Wiedergabe/Pause“ wird der Video-Player wiedergegeben oder der Videoinhalt angehalten, wenn ein Benutzer ihn auswählt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Schaltfläche &quot;Wiedergabe/Pause&quot;{#play-pause-button}
+# Taste PLAY/PAUSE{#play-pause-button}
 
-Die Schaltfläche Wiedergabe/Pause bewirkt, dass der Videoplayer den Videoinhalt wiedergibt oder anhält, wenn ein Benutzer ihn auswählt.
+Mit der Schaltfläche „Wiedergabe/Pause“ wird der Video-Player wiedergegeben oder der Videoinhalt angehalten, wenn ein Benutzer ihn auswählt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Sie können die Schaltfläche durch CSS in der Größe, der Haut und der Position relativ zur sie enthaltenden Steuerleiste anpassen.
+Sie können die Größe, das Design und die Position der Schaltfläche in Bezug auf die Steuerleiste, die sie enthält, per CSS festlegen.
 
 Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 
@@ -26,28 +26,28 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
 .s7mixedmediaviewer .s7playpausebutton
 ```
 
-## CSS-Eigenschaften der Wiedergabe/Pause-Schaltfläche {#css-properties-of-the-play-pause-button}
+## CSS-Eigenschaften der Wiedergabe-/Pause-Schaltfläche {#css-properties-of-the-play-pause-button}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Position ab dem oberen Rahmen, einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position vom rechten Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p>Position vom rechten Rand aus, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>Position vom linken Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> linker </span> </p> </td> 
+   <td colname="col2"> <p>Position vom linken Rand aus, einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p> Position ab dem unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -55,27 +55,27 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche:
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die Attributselektoren `state`, `selected` und `replay`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status &quot;play&quot;und `selected='false'` dem Status &quot;pause&quot;.
+>Diese Schaltfläche unterstützt sowohl die `state`-, `selected`- als auch `replay`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können. Insbesondere entspricht `selected='true'` dem „Play“-Zustand und `selected='false'` dem „Pause“-Zustand;
 >
->`replay='true'` Dieses Attribut wird festgelegt, wenn das Video das Ende erreicht hat und die Auswahl der Schaltfläche die Wiedergabe von Anfang an neu startet.
+>`replay='true'` Dieses Attribut wird festgelegt, wenn das Video das Ende erreicht hat und durch Klicken auf die Schaltfläche die Wiedergabe von vorne beginnt.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Um eine Wiedergabe-/Pausenschaltfläche mit 32 x 32 Pixel einzurichten und sechs Pixel von der oberen und linken Kante der Steuerleiste aus zu positionieren. Schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn diese ausgewählt sind oder nicht ausgewählt sind.
+So richten Sie eine Wiedergabe-/Pause-Schaltfläche ein, die 32 x 32 Pixel groß ist und sechs Pixel vom oberen und linken Rand der Steuerleiste entfernt positioniert ist. Und schließlich zeigt ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus an, wenn ausgewählt oder nicht ausgewählt.
 
 ```
 .s7mixedmediaviewer .s7playpausebutton { 

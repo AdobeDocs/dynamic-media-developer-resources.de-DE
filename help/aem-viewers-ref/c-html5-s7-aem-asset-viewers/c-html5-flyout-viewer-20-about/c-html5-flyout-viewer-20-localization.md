@@ -1,6 +1,6 @@
 ---
-title: Lokalisierung der Elemente der Benutzeroberfläche
-description: Bestimmte Inhalte, die der Flyout-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und Informationsmeldungen, die vom Flyout-Zoom-Ansicht beim Laden angezeigt werden.
+title: Lokalisierung von Elementen der Benutzeroberfläche
+description: Bestimmte Inhalte, die der Flyout-Viewer anzeigt, unterliegen der Lokalisierung. Dieser Inhalt enthält QuickInfos zu Benutzeroberflächenelementen und Informationsmeldungen, die beim Laden in der Flyout-Zoomansicht angezeigt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+# Lokalisierung von Elementen der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-Bestimmte Inhalte, die der Flyout-Viewer anzeigt, können lokalisiert werden. Dieser Inhalt enthält QuickInfos zu Elementen der Benutzeroberfläche und Informationsmeldungen, die vom Flyout-Zoom-Ansicht beim Laden angezeigt werden.
+Bestimmte Inhalte, die der Flyout-Viewer anzeigt, unterliegen der Lokalisierung. Dieser Inhalt enthält QuickInfos zu Benutzeroberflächenelementen und Informationsmeldungen, die beim Laden in der Flyout-Zoomansicht angezeigt werden.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jede SYMBOL verfügt über einen standardmäßig zugeordneten Textwert für das englische Gebietsschema ( `"en"`), der mit dem vordefinierten Viewer bereitgestellt wird. Es können auch benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-Kennung namens SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen Textwert für das englische Gebietsschema ( `"en"`), der mit dem standardmäßigen Viewer bereitgestellt wird. Darüber hinaus können benutzerdefinierte Werte für beliebig viele Gebietsschemata festgelegt werden.
 
-Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL für das Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet, andernfalls wird der Standardtext verwendet.
 
-Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
+Benutzerdefinierte Lokalisierungsdaten können als JSON-Objekt für die Lokalisierung an den Viewer übergeben werden. Dieses Objekt enthält die Liste der unterstützten Gebietsschemata, SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
-Ein Beispiel für ein solches Lokalisierungsobjekt ist:
+Ein Beispiel für ein solches Lokalisierungsobjekt ist Folgendes:
 
 ```
 { 
@@ -38,11 +38,11 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt die Lokalisierung von zwei Benutzeroberflächenelementen in jedem Gebietsschema bereit.
+Im obigen Beispiel definiert das Localization-Objekt zwei Gebietsschemata (`"en"` und `"fr"`) und stellt die Lokalisierung für zwei Elemente der Benutzeroberfläche in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte das Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der `setLocalizedTexts(localizationInfo)` -Methode weiterzugeben.
+Der Web-Seiten-Code sollte das Lokalisierungsobjekt an den Viewer-Konstruktor als Wert des `localizedTexts` des Konfigurationsobjekts übergeben. Eine alternative Option besteht darin, das Localization-Objekt durch Aufruf der `setLocalizedTexts(localizationInfo)`-Methode zu übergeben.
 
-Die folgenden SYMBOLs werden unterstützt:
+Die folgenden SYMBOLE werden unterstützt:
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -53,7 +53,7 @@ Die folgenden SYMBOLs werden unterstützt:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.LABEL-</span> </p> </td> 
    <td colname="col2"> <p>ARIA-Beschriftung für Viewer-Element der obersten Ebene. </p> </td> 
   </tr> 
   <tr> 
@@ -61,32 +61,32 @@ Die folgenden SYMBOLs werden unterstützt:
    <td colname="col2"> <p>ARIA-Rollenbeschreibung für die Hauptansichtskomponente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-Verwendungshinweise für Tastaturbenutzer. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT-</span> </p> </td> 
+   <td colname="col2"> <p>ARIA-Nutzungshinweise für Tastaturbenutzer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>Informationsnachricht für Desktop-Systeme. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIPP_BUBBLE_OVER </span> </p> </td> 
+   <td colname="col2"> <p>Informationsmeldung für Desktop-Systeme. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>Informationsnachricht für Touch-Geräte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIPP_BUBBLE_TAP </span> </p> </td> 
+   <td colname="col2"> <p>Informationsmeldung für Touch-Geräte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "links scrollen". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den Bildlauf mit der linken Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für Scroll nach rechts-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für den Bildlauf mit der rechten Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Nach oben scrollen". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Schaltfläche Nach oben scrollen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Schaltfläche "Hinunter scrollen". </p> </td> 
+   <td colname="col2"> <p>QuickInfo für Scroll-Down-Schaltfläche. </p> </td> 
   </tr> 
  </tbody> 
 </table>

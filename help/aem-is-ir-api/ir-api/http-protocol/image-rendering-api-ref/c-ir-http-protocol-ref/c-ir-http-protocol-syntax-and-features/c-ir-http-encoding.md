@@ -1,5 +1,5 @@
 ---
-title: Bild-Rendering HTTP-Kodierung
+title: HTTP-Kodierung zum Rendern von Bildern
 description: Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert sein, sodass die Wertzeichenfolgen die reservierten Zeichen '=', '&' und '%' nicht enthalten.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# Bild-Rendering HTTP-Kodierung{#image-rendering-http-encoding}
+# HTTP-Kodierung zum Rendern von Bildern{#image-rendering-http-encoding}
 
 Befehlswerte müssen mit %xx Escape-Sequenzen http-kodiert sein, sodass die Wertzeichenfolgen die reservierten Zeichen &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; nicht enthalten.
 
-Andernfalls gelten die standardmäßigen HTTP-Kodierungsregeln. Die HTTP-Spezifikation erfordert die Kodierung der unsicheren Zeichen wie &#39; (Leerzeichen), &#39;&#39; (doppeltes Anführungszeichen), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; und &#39;>&#39; sowie aller Steuerzeichen wie `<return>` und `<tab>`.
+Andernfalls gelten die standardmäßigen HTTP-Kodierungsregeln. Die HTTP-Spezifikation erfordert die Codierung der unsicheren Zeichen wie &#39; &#39; (Leerzeichen), &#39;&quot; (doppeltes Anführungszeichen), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; und &#39;>&#39; sowie aller Steuerzeichen wie `<return>` und `<tab>`.
 
-**Vorsicht:** Geschweifte Klammern { }, die als Trennzeichen für Anfragen-Verschachtelungen verwendet werden, dürfen nicht kodiert werden. Manche E-Mail-Clients kodieren leider geschweifte Klammern in eingebetteten HTTP-Anforderungen. Sollte es sich bei diesem Problem um ein Problem handeln, ermöglicht das Bild-Rendering die Verwendung von Klammern ( ) anstelle von geschweiften Klammern.
+**Achtung:** geschweifte Klammern { }, die als Trennzeichen für Anforderungsverschachtelungen verwendet werden, dürfen nicht kodiert werden. Einige E-Mail-Clients kodieren geschweifte Klammern in eingebetteten HTTP-Anfragen. Sollte dieses Problem auftreten, ermöglicht das Rendern von Bildern die Verwendung von Klammern ( ) anstelle von geschweiften Klammern.
 
 ## Beispiel {#section-3edc5b8ee2354220a281b01722ad337a}
 
 `…&$text=rate&weight=85% 27#&…`
 
-Das obige Anforderungsfragment muss wie folgt kodiert werden:
+Das obige Anfragefragment muss wie folgt kodiert werden:
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
 ## Verwandte Themen {#section-d31268a02fe345e3abf0a4eb95a1dac5}
 
-[HTTP/1.1-Spezifikation (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[HTTP/1.1 Spezifikation (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

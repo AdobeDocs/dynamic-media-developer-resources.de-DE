@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> area</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Zuschnittbereich für die Miniaturansicht "Favoriten"an. Wird als relativer Wert zur Gesamtbildgröße ausgedrückt, wobei der Bereich zwischen <span class="codeph"> 0</span> und <span class="codeph"> 1,0</span> liegt. </p> <p>Der Wert <span class="codeph"> 1</span> bedeutet, dass das gesamte Bild für die Miniaturansicht verwendet wird. </p> <p>Der Wert <span class="codeph"> 0,1</span> bedeutet, dass nur 10 % der Rahmengröße verwendet werden. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Bereich</span></span> </p> </td> 
+   <td colname="col2"> <p> Gibt den Zuschnittbereich für die Favoriten-Miniaturansicht an. Wird als relativer Wert für die gesamte Bildgröße mit einem Bereich von <span class="codeph"> 0</span> bis <span class="codeph"> 1,0 </span>. </p> <p>Der Wert <span class="codeph"> 1</span> bedeutet, dass das gesamte Einzelbild für die Skizze verwendet wird. </p> <p>Ein Wert von <span class="codeph"> 0,1</span> bedeutet, dass nur 10 % der Bildgröße verwendet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

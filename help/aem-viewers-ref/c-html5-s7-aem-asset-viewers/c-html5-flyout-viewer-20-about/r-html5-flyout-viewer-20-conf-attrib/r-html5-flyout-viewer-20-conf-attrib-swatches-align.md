@@ -16,17 +16,17 @@ ht-degree: 3%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Gibt die interne Ausrichtung (Verankerung) des Farbfeldcontainers innerhalb des Komponentenbereichs an. In Farbfeldern wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Farbfeldern angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. Dieser Befehl gibt an, wie der interne Farbfeldcontainer innerhalb der Komponente positioniert wird.
+Gibt die interne Ausrichtung (Verankerung) des Farbfeld-Containers im Komponentenbereich an. In Farbfeldern ist der interne Miniatur-Container so dimensioniert, dass nur eine ganze Anzahl von Farbfeldern angezeigt wird. Infolgedessen gibt es einen gewissen Abstand zwischen dem internen Container und den Begrenzungen der externen Komponente. Dieser Befehl gibt an, wie der interne Farbfeld-Container innerhalb der Komponente positioniert wird.
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Legt die Ausrichtung der horizontalen Farbfelder fest. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> links|Mitte|rechts</span> </p> </td> 
+   <td colname="col2"> <p> Legt die horizontale Ausrichtung von Farbfeldern fest. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> Legt die Ausrichtung der vertikalen Farbfelder fest. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> oben|Mitte|unten</span> </p> </td> 
+   <td colname="col2"> <p> Legt die vertikale Ausrichtung von Farbfeldern fest. </p> </td> 
   </tr> 
  </tbody> 
 </table>

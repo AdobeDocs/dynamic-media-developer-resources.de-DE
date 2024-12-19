@@ -1,6 +1,6 @@
 ---
 title: AssetCountArray
-description: Ein Array von Asset-Zählungen.
+description: Ein Array der Asset-Zahlen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL AssetCountArray]{#assetcountarray}
 
-Ein Array von Asset-Zählungen.
+Ein Array der Asset-Zahlen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:AssetCount` | Array von Asset-Zählungen. |
+| Elemente | `types:AssetCount` | Array der Asset-Anzahl. |

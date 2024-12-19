@@ -1,7 +1,7 @@
 ---
-description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.8.
+description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 3.8.
 solution: Experience Manager
-title: Vorgänge - Neu und geändert
+title: Vorgänge Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# Vorgänge: Neu und geändert{#operations-new-and-modified}
+# Vorgänge: Neu und Geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API Version 3.8.
+Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 3.8.
 
 Syntax
 
@@ -32,8 +32,8 @@ Syntax
 
 **searchAssets**
 
-* Mit dem optionalen Parameter `publishState` können Sie nach dem Asset-Status `MarkedForPublish/NotMarkedForPublish` suchen.
+* Mit dem optionalen `publishState` können Sie nach dem `MarkedForPublish/NotMarkedForPublish` Asset-Status suchen.
 
 **getJobLogs**
 
-* Mit dem optionalen Parameter `userHandle` können Sie Auftragsprotokolle abrufen, die von einem bestimmten Benutzer gesendet wurden.
+* Mit dem optionalen `userHandle` können Sie Vorgangslogs abrufen, die von einem bestimmten Benutzer gesendet wurden.

@@ -1,6 +1,6 @@
 ---
-title: Übersicht über den Befehl zum Rendern des HTTP-Protokolls
-description: Die vom Bild-Rendering unterstützten Befehle sind unten nach Kategorie gruppiert aufgeführt.
+title: Image Rendering - HTTP-Protokollbefehl - Übersicht
+description: Die von Image Rendering unterstützten Befehle sind unten aufgeführt und nach Kategorie gruppiert.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über den Befehl zum Rendern des HTTP-Protokolls{#image-rendering-http-protocol-command-overview}
+# Image Rendering - HTTP-Protokollbefehl - Übersicht{#image-rendering-http-protocol-command-overview}
 
-Die vom Bild-Rendering unterstützten Befehle sind unten nach Kategorie gruppiert aufgeführt.
+Die von Image Rendering unterstützten Befehle sind unten aufgeführt und nach Kategorie gruppiert.
 
-* [Anzeigen von Attributen](r-ir-view-attributes.md)
+* [Attribute anzeigen](r-ir-view-attributes.md)
 * [Auswahlbefehle](r-ir-selection-commands.md)
 * [Materialattribute](r-ir-material-attributes.md)
 * [Verschiedene Befehle](r-ir-miscellaneous-commands.md)

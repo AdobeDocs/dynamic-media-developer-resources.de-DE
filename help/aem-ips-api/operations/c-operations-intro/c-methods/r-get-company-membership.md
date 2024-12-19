@@ -1,7 +1,7 @@
 ---
 description: Ruft die Mitgliedschaften eines Benutzers in einem Unternehmens-Array ab.
 solution: Experience Manager
-title: getCompanyMembership
+title: getCompanyMitgliedschaft
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 ---
 
-# getCompanyMembership{#getcompanymembership}
+# getCompanyMitgliedschaft{#getcompanymembership}
 
 Ruft die Mitgliedschaften eines Benutzers in einem Unternehmens-Array ab.
 
@@ -33,11 +33,11 @@ Syntax
 
 ## Parameter {#section-8745c360c3e1400a88e9bdb26bcb93de}
 
-**Input (getCompanyMembershipParam)**
+**Eingabe (getCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nein | Der Handle für den Benutzer, dessen Mitgliedschaften Sie erhalten möchten. |
+| userHandle | `xsd:string` | Nein | Das -Handle für den Benutzer, dessen Mitgliedschaften Sie erhalten möchten. |
 
 **Ausgabe (getCompanyMembershipReturn)**
 
@@ -47,7 +47,7 @@ Syntax
 
 ## Beispiele {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Dieses Codebeispiel übernimmt ein Benutzerhandbuch und ruft alle Unternehmensmitgliedschaften des Benutzers in einem Array ab. Die Antwort wurde aus Gründen der Kürze abgeschnitten.
+Dieses Codebeispiel nimmt ein Benutzerhandle und ruft alle Unternehmensmitgliedschaften des Benutzers in einem Array ab. Die Antwort wurde zur Vereinfachung gekürzt.
 
 **Anfrage**
 

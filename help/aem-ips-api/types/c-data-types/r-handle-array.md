@@ -1,7 +1,7 @@
 ---
-description: Ein Array von Handles.
+description: Ein Array von Griffen.
 solution: Experience Manager
-title: HandleArray
+title: handleArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7dd58b31-8337-4ffc-9f58-ca7a8d16abb9
@@ -14,14 +14,14 @@ ht-degree: 16%
 
 # [!DNL HandleArray]{#handlearray}
 
-Ein Array von Handles.
+Ein Array von Griffen.
 
 >[!NOTE]
 >
->Das -Array kann alle für die Durchführung eines Vorgangs erforderlichen Handles enthalten.
+>Das -Array kann alle Typen von Handles enthalten, die zum Ausführen eines Vorgangs erforderlich sind.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `xsd:string` | Ein Array von Handles. |
+| Elemente | `xsd:string` | Ein Array von Griffen. |

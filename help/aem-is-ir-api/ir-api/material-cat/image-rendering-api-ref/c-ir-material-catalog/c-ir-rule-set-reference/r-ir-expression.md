@@ -1,5 +1,5 @@
 ---
-description: Musterelement für reguläre Ausdrücke. Optional in <Regel> -Elementen.
+description: Musterelement für reguläre Ausdrücke. Optional in <rule>-Elementen.
 solution: Experience Manager
 title: Ausdruck
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Ausdruck{#expression}
 
-Musterelement für reguläre Ausdrücke. Optional in `<rule>` -Elementen.
+Musterelement für reguläre Ausdrücke. Optional in `<rule>`.
 
 ## Attribute {#section-fd0574eee1f9423cbb2ed709c0906800}
 
@@ -22,23 +22,23 @@ Keine.
 
 ## Daten {#section-4cd740c511a1432da0955e9acfbcf96f}
 
-Musterzeichenfolge für reguläre Ausdrücke
+Zeichenfolge für Muster regulärer Ausdrücke.
 
 ## Beschreibung {#section-3245c8a531bb455d8398449f6ea63b37}
 
-Das Element `<expression>` kann leer sein oder eine einfache Suchzeichenfolge oder ein Muster für reguläre Ausdrücke enthalten. Das Muster wird auf die gesamte Anforderungszeichenfolge angewendet.
+Das `<expression>` kann leer sein oder eine einfache Suchzeichenfolge oder ein Muster für reguläre Ausdrücke enthalten. Das Muster wird auf die gesamte Anforderungszeichenfolge angewendet.
 
 Eine Übereinstimmung tritt immer dann auf, wenn `<expression>` leer oder nicht angegeben ist. Dies entspricht der Angabe von `<expression>.*</expression>`.
 
-Die Implementierung basiert auf dem Java-Paket [java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e), das eine Syntax für reguläre Ausdrücke bereitstellt, die der von Perl ähnelt.
+Die Implementierung basiert auf dem Java-Paket [java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e) das eine Syntax für reguläre Ausdrücke ähnlich der von Perl bereitstellt.
 
 ## Notiz {#section-6b41a900b0ce4a9590e5861e3c81599c}
 
-Die Zeichenfolge des Ausdrucks darf keine Zeichen &lt; und &amp; enthalten. Diese reservierten Zeichen können mit `&` und `<` kodiert werden oder die gesamte Zeichenfolge kann in einen XML `CDATA` -Abschnitt eingeschlossen werden:
+Die Ausdruckszeichenfolge darf keine literalen &lt;- und &amp;-Zeichen enthalten. Diese reservierten Zeichen können mit `&` bzw. `<` codiert werden, oder die gesamte Zeichenfolge kann in einen XML-`CDATA`-Abschnitt eingeschlossen werden:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Alle Zeichen zwischen den Tags `<expression>` und `</expression>` werden an den Parser für reguläre Ausdrücke übergeben, einschließlich Zeichen außerhalb des optionalen Bereichs `CDATA`. Es sollte darauf geachtet werden, zusätzliche Leerzeichen zu vermeiden.
+Alle Zeichen zwischen den Tags `<expression>` und `</expression>` werden an den Parser für reguläre Ausdrücke übergeben, einschließlich der Zeichen außerhalb des optionalen `CDATA`. Es sollte darauf geachtet werden, dass keine zusätzlichen Leerzeichen entstehen.
 
 ## Verwandte Themen {#section-15a9fea18e644b8e9c498f5fd88e2eaa}
 

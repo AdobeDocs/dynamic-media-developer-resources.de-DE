@@ -1,6 +1,6 @@
 ---
-title: Schaltfläche "Favoriten hinzufügen"
-description: Die Position der Schaltfläche "Favoriten hinzufügen"wird vollständig über das Menü "Favoriten"verwaltet.
+title: Schaltfläche „Favorit hinzufügen“
+description: Die Position der Schaltfläche Favorit hinzufügen wird vollständig über das Menü Favoriten verwaltet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# Schaltfläche &quot;Favoriten hinzufügen&quot;{#add-favorite-button}
+# Schaltfläche „Favorit hinzufügen“{#add-favorite-button}
 
-Die Position der Schaltfläche &quot;Favoriten hinzufügen&quot;wird vollständig über das Menü &quot;Favoriten&quot;verwaltet.
+Die Position der Schaltfläche Favorit hinzufügen wird vollständig über das Menü Favoriten verwaltet.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Das Erscheinungsbild der Schaltfläche &quot;Favorit hinzufügen&quot;wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Schaltfläche Favorit hinzufügen wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7addfavoritebutton
 ```
 
-**CSS-Eigenschaften der Schaltfläche &quot;Favorit hinzufügen&quot;**
+**CSS-Eigenschaften der Schaltfläche Favorit hinzufügen**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -49,11 +49,11 @@ Das Erscheinungsbild der Schaltfläche &quot;Favorit hinzufügen&quot;wird mit d
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt sowohl die Attribute `state` als auch `selected`, die verwendet werden können, um verschiedene Skins auf verschiedene Schaltflächenzustände anzuwenden. Insbesondere entspricht `selected='true'` dem Status, in dem ein Benutzer durch Auswählen oder Tippen ein neues Favoritensymbol hinzufügen kann. Im Gegensatz dazu entspricht `selected='false'` dem normalen Betriebsmodus, in dem ein Benutzer Seiten zoomen, schwenken und tauschen kann.
+>Diese Schaltfläche unterstützt sowohl den `state`- als auch den `selected`-Attributselektor, mit dem verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können. Insbesondere entspricht `selected='true'` dem Status, in dem ein Benutzer ein neues Favoritensymbol durch Auswählen oder Tippen hinzufügen kann. Dagegen entspricht `selected='false'` dem normalen Betriebsmodus, in dem Benutzende Seiten zoomen, schwenken und austauschen können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Um eine Schaltfläche &quot;Favoriten hinzufügen&quot;einzurichten, die 28 x 28 Pixel groß ist und für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt, wenn diese ausgewählt sind oder nicht.
+Beispiel: So richten Sie eine Schaltfläche Favorit hinzufügen ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt, wenn sie ausgewählt oder nicht ausgewählt ist.
 
 ```
 .s7ecatalogsearchviewer .s7addfavoritebutton { 

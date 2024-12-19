@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: a15723fe-a8be-49c5-bad3-1a1360eeb232
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 2%
@@ -14,29 +14,29 @@ ht-degree: 2%
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`hidetime`*[, *`hidedelay`*]]]]`
+` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showTime`*[, *`showDelay`*[, *`hideTime`*[, *`hideDelay`*]]]]`
 
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Typ an, den der Effekt angewendet wird, wenn die Flyout-Ansicht ein- oder ausgeblendet wird. Bei <span class="codeph"> none </span> erscheint das Flyout-Bild sofort, wenn es aktiviert und fertig ist. <span class="codeph"> Folie </span> sorgt dafür, dass die Dia-Animation von links nach rechts abgespielt wird; <span class="codeph"> Fade </span> wendet eine Alpha-Transition auf das Flyout-Bild an. </p> </td> 
+   <td colname="col2"> <p> Gibt den Typ des Effekts an, der beim Ein- oder Ausblenden der Flyout-Ansicht angewendet wird. Mit <span class="codeph"> </span> wird das Flyout-Bild sofort angezeigt, wenn es aktiviert und bereit ist. <span class="codeph"> </span> Folienanimation wird von der Folie in die Richtung von links nach rechts abgespielt. <span class="codeph"> Überblendung </span> wendet einen Alpha-Übergang auf das Flyout-Bild an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Anzahl der Sekunden, die der Abschluss der Animation der Sendung dauert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Showtime </span> </span> </p> </td> 
+   <td colname="col2"> <p> Anzahl der Sekunden, die die Animation in der Sendung dauert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 
-   <td colname="col2"> <p> Die Verzögerung in Sekunden zwischen der Benutzeraktion, die die Animation der Sendung initiiert, und dem Beginn der Animation der Sendung selbst. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showDelay </span> </span> </p> </td> 
+   <td colname="col2"> <p> Die Verzögerung in Sekunden zwischen Benutzeraktion, die die Animation der Sendung initiiert, und dem Beginn der Animation der Sendung selbst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Anzahl der Sekunden, die der Abschluss der ausgeblendeten Animation benötigt wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hideTime </span> </span> </p> </td> 
+   <td colname="col2"> <p> Anzahl der Sekunden, die die Animation zum Ausblenden dauert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span> </span> </p> </td> 
-   <td colname="col2"> <p> Die Verzögerung in Sekunden zwischen der Benutzeraktion, die die Animation zum Ausblenden auslöst, und dem Beginn der Animation zum Ausblenden selbst. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hideDelay </span> </span> </p> </td> 
+   <td colname="col2"> <p> Die Verzögerung in Sekunden zwischen der Benutzeraktion, die die Animation zum Ausblenden initiiert, und dem Beginn der Animation zum Ausblenden selbst. </p> </td> 
   </tr> 
  </tbody> 
 </table>

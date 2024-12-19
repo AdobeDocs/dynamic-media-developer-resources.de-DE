@@ -1,6 +1,6 @@
 ---
 title: Materialkataloge
-description: Materialkataloge bieten verschiedene Funktionen.
+description: Materialkataloge bieten mehrere Funktionen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Materialkataloge {#material-catalogs}
 
-Materialkataloge bieten verschiedene Funktionen.
+Materialkataloge bieten mehrere Funktionen.
 
-* Persistente Definition von Materialien, einschließlich aller Materialeigenschaften.
+* Persistente Definition von Materialien einschließlich aller Materialeigenschaften zulassen.
 
   Im Materialkatalog definierte Materialien können mit einer einfachen ID referenziert werden, anstatt mit einer Reihe von Materialeigenschaften.
-* Stellen Sie Standardwerte für bestimmte Anforderungsattribute bereit, wie z. B. die JPEG-Qualität oder eine standardmäßige Antwortbildgröße.
-* Verwalten Sie Vignetten, ICC-Profile und Anforderungsvorlagen.
+* Geben Sie Standardwerte für bestimmte Anforderungsattribute an, z. B. die JPEG-Qualität oder eine standardmäßige Größe des Antwortbildes.
+* Verwalten von Vignetten, ICC-Profilen und Anfragevorlagen.
 
-Selbst wenn keine spezifischen Materialkataloge definiert sind, sind alle Funktionen von Materialkatalogen über den Standardkatalog ( [!DNL default.ini]) verfügbar.
+Auch wenn keine spezifischen Materialkataloge definiert sind, stehen alle Features der Materialkataloge über den Standardkatalog zur Verfügung ( [!DNL default.ini]).
 
-Rendermaterial kann zwar explizit in Anfragen unter Verwendung von Materialattributen angegeben werden, es ist jedoch oft wünschenswert, die Details von Materialien auf der Website durch die Verwendung von Materialkatalogen zu verbergen. src= -Befehle akzeptieren Katalogverweise anstelle expliziter Dateipfade. Ein Katalogeintrag besteht aus ` [ *[!DNL catId]*/] *[!DNL itemId]*`, wobei ` *[!DNL catId]*` einen Materialkatalog identifiziert und ` *[!DNL itemId]*` einen Datensatz im Katalog identifiziert. Wenn ` *[!DNL catId]*` nicht angegeben ist, wird der Sitzungskatalog verwendet (siehe unten).
+Während Render-Materialien in Anfragen mithilfe von Materialattributen explizit angegeben werden können, ist es oft wünschenswerter, die Details von Materialien auf der Website mithilfe von Materialkatalogen auszublenden. src= -Befehle akzeptieren Katalogverweise anstelle von expliziten Dateipfaden. Ein Katalogeintrag besteht aus ` [ *[!DNL catId]*/] *[!DNL itemId]*`, wobei ` *[!DNL catId]*` einen Materialkatalog und ` *[!DNL itemId]*` einen Datensatz im Katalog identifiziert. Wenn ` *[!DNL catId]*` nicht angegeben ist, wird der Sitzungskatalog verwendet (siehe unten).
 
-Ein Katalogdatensatz wird erfolgreich abgeglichen, wenn (a) ` *[!DNL catId]*` mit dem `attribute::RootId` -Wert eines Materialkatalogs und (b) ` *[!DNL recId]*` mit dem Wert catalog::Id im selben Katalog übereinstimmt. Bei erfolgreicher Übereinstimmung werden die Attribute des Materials (einschließlich `src=`) auf die Daten aus dem Katalogdatensatz eingestellt. Wenn das MSS neben src= zusätzliche Attribute für dieses Material enthält, überschreiben sie die Werte aus dem Katalogdatensatz.
+Ein Katalogdatensatz wird erfolgreich abgeglichen, wenn (a) ` *[!DNL catId]*` mit dem `attribute::RootId` eines Materialkatalogs übereinstimmt und (b) ` *[!DNL recId]*` mit dem Wert catalog::id im selben Katalog übereinstimmt. Bei einer erfolgreichen Übereinstimmung werden die Attribute des Materials (einschließlich `src=`) auf die Daten aus dem Katalogdatensatz festgelegt. Wenn die MSS neben src= zusätzliche Attribute für dieses Material enthält, überschreiben sie die Werte aus dem Katalogdatensatz.
 
-Wenn ` *[!DNL recId]*` nicht mit einem Katalogeintrag übereinstimmen kann, wird ` *[!DNL catId]*` durch `attribute::RootPath` aus dem Katalog ersetzt und der resultierende Pfad wird dann als einfacher Dateipfad betrachtet. Andere Standardattribute (z. B. `attribute::Resolution`) können ebenfalls aus dem Materialkatalog übernommen werden.
+Wenn ` *[!DNL recId]*` nicht mit einem Katalogeintrag abgeglichen werden können, wird ` *[!DNL catId]*` durch `attribute::RootPath` aus dem Katalog ersetzt und der resultierende Pfad wird dann als einfacher Dateipfad angenommen. Andere Standardattribute (z. B. `attribute::Resolution`) können ebenfalls aus dem Materialkatalog übernommen werden.
 
-Vignetten und ICC-Profile können in Materialkatalogen, ähnlich den Materialien selbst, und in bestimmten Eigenschaften eingeschlossen werden. Darüber hinaus stellt die Vignettenzuordnung auch den Container für Vorlagen bereit.
+Vignetten und ICC-Profile können in Materialkatalogen ähnlich den Materialien selbst und mit bestimmten Eigenschaften eingeordnet werden. Darüber hinaus stellt die Vignettenkarte auch den Container für Vorlagen bereit.
 
 **Siehe auch**
 

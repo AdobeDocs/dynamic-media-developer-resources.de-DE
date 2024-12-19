@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertime
-description: Konfigurationsattribut für Smart Crop Video Viewer.
+description: Konfigurationsattribut für den Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-Konfigurationsattribut für Smart Crop Video Viewer.
+Konfigurationsattribut für den Smart Crop Video Viewer.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Deaktiviert oder aktiviert die Videokapitelzeit in der Titelleiste der Videokapitelbezeichnung. </p> </td> 
+   <td colname="col2"> <p> Deaktiviert oder aktiviert die Videokapitelzeit in der Titelleiste der Videokapitelbeschriftung. </p> </td> 
   </tr> 
  </tbody> 
 </table>

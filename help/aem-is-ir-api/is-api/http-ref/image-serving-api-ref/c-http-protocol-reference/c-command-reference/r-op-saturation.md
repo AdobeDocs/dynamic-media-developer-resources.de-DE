@@ -1,5 +1,5 @@
 ---
-title: op_sättigung
+title: op_Saturation
 description: Sättigung anpassen. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des zusammengesetzten Bildes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# op_sättigung{#op-saturation}
+# op_Saturation{#op-saturation}
 
 Sättigung anpassen. Ändert die Sättigung jedes sichtbaren Pixels der Ebene oder des zusammengesetzten Bildes.
 
@@ -20,23 +20,23 @@ Sättigung anpassen. Ändert die Sättigung jedes sichtbaren Pixels der Ebene od
 
 <table id="simpletable_5F118A28FE674B06A16F6F19C56B4594"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>Sättigungsanpassung (-100...+100 int). </p></td> 
+  <td class="stentry"> <p><span class="varname"> Adj</span> </p> </td> 
+  <td class="stentry"> <p>Sättigungseinstellung (-100…+100 int). </p></td> 
  </tr> 
 </table>
 
-`op_saturation=-100` entfernt das Bild vollständig.
+`op_saturation=-100` das Bild vollständig entsättigt.
 
 ## Eigenschaften {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder das zusammengesetzte Bild, falls `layer=comp`. Von Effektebenen ignoriert.
 
 ## Standard {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, für keine Änderung der Sättigung. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
+`op_saturation=0`, für keine Änderung der Sättigung. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
 
 ## Beispiel {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Bearbeiten Sie ein Farbfoto, damit Sie ein &quot;High-Key&quot;-Erscheinungsbild erzielen können:
+Bearbeiten Sie ein Farbfoto, um ein „hochwertiges“ Erscheinungsbild zu erzielen:
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`

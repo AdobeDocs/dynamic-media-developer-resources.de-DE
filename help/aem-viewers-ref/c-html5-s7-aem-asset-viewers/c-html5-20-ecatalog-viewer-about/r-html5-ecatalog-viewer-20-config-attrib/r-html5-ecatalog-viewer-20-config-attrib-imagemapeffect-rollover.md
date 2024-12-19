@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wann das Informationsfeld angezeigt werden soll. </p> <p>Wenn der Wert auf <span class="codeph"> 1</span> festgelegt ist, wird das Infofeld angezeigt, wenn die Maus in den Imagemap-Bereich gelangt (falls die Imagemap nicht leer ist, Attribut <span class="codeph"> rollover_key</span> ). </p> <p>Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, wird das Infofeld ausgelöst, wenn die Imagemap ausgewählt wird (wenn die Imagemap nicht leere Attribute <span class="codeph"> rollover_key</span> und leere Attribute <span class="codeph"> href</span> aufweist). </p> <p> Wird auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert und automatisch auf <span class="codeph"> 0</span> gesetzt. </p> </td> 
+   <td colname="col2"> <p>Gibt an, wann das Infobedienfeld angezeigt werden soll. </p> <p>Wenn auf <span class="codeph"> 1</span> festgelegt, wird das Infobedienfeld angezeigt, wenn die Maus in den Imagemap-Bereich eintritt (falls die Imagemap ein nicht leeres <span class="codeph">-Attribut rollover_key</span> aufweist). </p> <p>Wenn auf <span class="codeph"> 0 festgelegt</span> wird das Infobedienfeld ausgelöst, wenn die Imagemap ausgewählt wird (wenn die Imagemap einen nicht leeren <span class="codeph">-Rollover-Schlüssel </span> leere <span class="codeph"> href</span>-Attribute aufweist). </p> <p> Wird auf Touch-Geräten ignoriert, einschließlich Touch-optimierter Desktop-Systeme, und wird automatisch auf <span class="codeph"> 0</span> gesetzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

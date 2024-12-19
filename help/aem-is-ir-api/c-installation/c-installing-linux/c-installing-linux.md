@@ -18,4 +18,4 @@ Image Serving kann unter Linux® installiert werden.
 
 * [Erstmalige Installation](t-first-install-lin.md)
 * [Aktualisierung von IS 4.7.4 oder höher](t-update-lin.md)
-* [Installation überprüfen](t-verify-install-lin.md)
+* [Überprüfen der Installation](t-verify-install-lin.md)

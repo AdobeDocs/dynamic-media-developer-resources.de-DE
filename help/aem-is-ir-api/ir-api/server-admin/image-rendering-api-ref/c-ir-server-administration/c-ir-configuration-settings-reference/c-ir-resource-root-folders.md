@@ -1,6 +1,6 @@
 ---
 title: Ressourcen-Stammordner (ir.resourceRootPaths)
-description: Eine Liste von Pfaden, die durch Semikolons getrennt sind, dient als Wurzeln für alle Datendateien mit relativen Dateipfaden.
+description: Eine Liste von Pfaden, durch Semikolons getrennt, dient als Stamm für alle Datendateien mit relativen Dateipfaden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Ressourcen-Stammordner (ir.resourceRootPaths){#resource-root-folders-ir-resourcerootpaths}
 
-Eine Liste von Pfaden, die durch Semikolons getrennt sind, dient als Wurzeln für alle Datendateien mit relativen Dateipfaden.
+Eine Liste von Pfaden, durch Semikolons getrennt, dient als Stamm für alle Datendateien mit relativen Dateipfaden.
 
-Es kann sich entweder um absolute Pfade oder Pfade handeln, die relativ zu *[!DNL install_folder]* sind. Wenn mehrere Pfade angegeben sind, versucht der Server jeden Stamm in der angegebenen Reihenfolge, bis die Datei gefunden wird. Der Standardwert ist &quot;[!DNL ./resources]&quot;, für einen standardmäßigen Stammpfad &quot;[!DNL install_folder/resources]&quot;.
+Es kann sich entweder um absolute Pfade oder um Pfade relativ zu *[!DNL install_folder]* handeln. Wenn mehrere Pfade angegeben sind, versucht der Server jeden Stamm in der angegebenen Reihenfolge, bis die Datei gefunden wird. Der Standardwert lautet [!DNL ./resources] für einen standardmäßigen Stammpfad von [!DNL install_folder/resources].

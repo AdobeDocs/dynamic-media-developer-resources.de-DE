@@ -1,7 +1,7 @@
 ---
 description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.4.
 solution: Experience Manager
-title: Neue und geänderte Datentypen
+title: Datentypen Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# Datentypen: neu und geändert{#data-types-new-and-modified}
+# Datentypen: Neu und Geändert{#data-types-new-and-modified}
 
 Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.4.
 
@@ -35,14 +35,14 @@ Syntax
 
 **Asset**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `subtype`
 * `assetSetInfo`
 
 **JobLog**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `transferSuccessCount`
 * `transferErrorCount`
@@ -50,6 +50,6 @@ Hinzugefügte Parameter:
 
 **PDFInfo**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `extractLinks`

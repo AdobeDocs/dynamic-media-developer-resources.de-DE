@@ -1,20 +1,20 @@
 ---
-description: Source-Bildeigenschaften. Gibt ausgewählte Eigenschaften der im URL-Pfad angegebenen Bilddatei oder des Katalogeintrags zurück.
+description: Source-Bildeigenschaften. Gibt die ausgewählten Eigenschaften der im URL-Pfad angegebenen Bilddatei oder des Katalogeintrags zurück.
 solution: Experience Manager
-title: imageprops
+title: imageProps
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 4%
 
 ---
 
-# imageprops{#imageprops}
+# imageProps{#imageprops}
 
-Source-Bildeigenschaften. Gibt ausgewählte Eigenschaften der im URL-Pfad angegebenen Bilddatei oder des Katalogeintrags zurück.
+Source-Bildeigenschaften. Gibt die ausgewählten Eigenschaften der im URL-Pfad angegebenen Bilddatei oder des Katalogeintrags zurück.
 
 `req=imageprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,15 +25,15 @@ Source-Bildeigenschaften. Gibt ausgewählte Eigenschaften der im URL-Pfad angege
  </tr> 
 </table>
 
-Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
+Die HTTP-Antwort kann basierend auf `attribute::NonImgExpiration` mit der TTL zwischengespeichert werden.
 
-Andere Befehle in der Anforderungszeichenfolge werden ignoriert.
+Andere Befehle in der Anfragezeichenfolge werden ignoriert.
 
-Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
+Bei Anfragen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mithilfe der erweiterten Syntax `req=` Parameters angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Nur a-z, A-Z und 0-9 Zeichen sind zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
 
 Die folgenden Eigenschaften werden zurückgegeben:
 
@@ -46,18 +46,18 @@ Die folgenden Eigenschaften werden zurückgegeben:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Anchor</span> oder der standardmäßige Ankerpunkt </p> </td> 
+   <td> <p> int, int </p> </td> 
+   <td> <p> <span class="codeph">::Anchor</span> oder der standardmäßige Ankerpunkt </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> doppelt </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Expiration</span> oder die Standardzeit für die Live-Schaltung </p> </td> 
+   <td> <p> <span class="codeph">::Expiration</span> oder die Standardlebensdauer </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p>Bildhöhe mit voller Auflösung in Pixel </p> </td> 
+   <td> <p>Bildhöhe in voller Auflösung in Pixel </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.iccProfile</span> </p> </td> 
@@ -65,54 +65,54 @@ Die folgenden Eigenschaften werden zurückgegeben:
    <td> <p> Name/Beschreibung des mit diesem Bild verknüpften Profils </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Bild. embeddedIccProfile</span> </p> </td> 
+   <td> <p> Bild <span class="codeph">. embeddedIccProfile</span> </p> </td> 
    <td> <p> boolesch </p> </td> 
-   <td> <p> 1, wenn das verknüpfte Profil in das Bild eingebettet ist </p> </td> 
+   <td> <p> 1 , wenn das zugehörige Profil in das Bild eingebettet ist </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.embedded FotoshopPaths</span> </p> </td> 
    <td> <p> boolesch </p> </td> 
-   <td> <p> 1, wenn das Bild Photoshop-Pfaddaten enthält </p> </td> 
+   <td> <p> 1 Wenn das Bild Photoshop-Pfaddaten enthält </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Bild. embeddedXmpData</span> </p> </td> 
+   <td> <p> Bild <span class="codeph">. embeddedXmpData</span> </p> </td> 
    <td> <p> boolesch </p> </td> 
-   <td> <p> 1, wenn das Bild XMP Daten enthält </p> </td> 
+   <td> <p> 1 wenn das Bild XMP-Daten enthält </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> 0 für keine Maske, 1 für vormultipliziertes Alpha, 2 für nicht-vormultipliziertes Alpha und 3 für ein separates Maskenbild </p> </td> 
+   <td> <p> Aufzählung </p> </td> 
+   <td> <p> 0 für keine Maske, 1 für vormultipliziertes Alpha, 2 für nicht vormultipliziertes Alpha und 3 für ein separates Maskenbild </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Modifier</span> oder leer, wenn kein Katalogeintrag </p> </td> 
+   <td> <p> <span class="codeph">::Modifier</span> oder leer, wenn kein Katalogeintrag vorhanden ist </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Bild. photoshopPathNames</span> </p> </td> 
+   <td> <p> Bild <span class="codeph">. photoshopPathNames</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
    <td> <p> Kommagetrennte Liste der Namen aller mit diesem Bild verknüpften Photoshop-Pfade </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pixType</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> Bildtyp: "CMYK", "RGB"oder "BW"(bei Graustufenbildern) </p> </td> 
+   <td> <p> Bildtyp, kann „CMYK“, "RGB" oder „BW“ (für Graustufenbilder) sein </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::PostModifier</span> oder leer, wenn kein Katalogeintrag </p> </td> 
+   <td> <p> <span class="codeph">::PostModifier</span> oder leer, wenn kein Katalogeintrag vorhanden ist </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> Standarddruckauflösung in Pixel/Zoll </p> </td> 
+   <td> <p> Standardmäßige Druckauflösung in Pixel/Zoll </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Resolution</span> oder die standardmäßige Objektauflösung </p> </td> 
+   <td> <p> <span class="codeph">::Resolution </span> die Standardobjektauflösung </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
@@ -122,22 +122,22 @@ Die folgenden Eigenschaften werden zurückgegeben:
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbRes</span> oder die standardmäßige Miniaturauflösung </p> </td> 
+   <td> <p> <span class="codeph">::ThumbRes</span> oder die Standardauflösung für Miniaturen </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbType</span> oder der standardmäßige Miniaturtyp </p> </td> 
+   <td> <p> Aufzählung </p> </td> 
+   <td> <p> <span class="codeph">::ThumbType</span> oder der Standardtyp für Miniaturen </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p> Bildbreite mit voller Auflösung in Pixel </p> </td> 
+   <td> <p> Bildbreite in voller Auflösung in Pixel </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.translateId</span> </p> </td> 
+   <td> <p> <span class="codeph"> image.translatedId</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> Katalog-ID, auf die das im Pfad angegebene <span class="varname"> Objekt</span> aufgelöst wird (siehe <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Übersetzung der Objekt-ID</a>). </p> </td> 
+   <td> <p> Katalog-ID, zu der das im </span> angegebene <span class="varname"> aufgelöst wird (siehe <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Objekt-ID-Übersetzung</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

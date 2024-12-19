@@ -1,6 +1,6 @@
 ---
 title: UseLastModified
-description: Zuletzt geänderte Antwortheader aktivieren. Aktiviert oder deaktiviert die Einbeziehung des Headers "Zuletzt geändert"in zwischenspeicherbaren HTTP-Antworten, die vom Bild-Rendering ausgegeben werden.
+description: Zuletzt geänderte Antwort-Header aktivieren. Aktiviert oder deaktiviert die Aufnahme des Headers „Last-Modified“ in zwischenspeicherbare HTTP-Antworten, die vom Bild-Rendering ausgegeben werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 1%
 
 # UseLastModified{#uselastmodified}
 
-Zuletzt geänderte Antwortheader aktivieren. Aktiviert oder deaktiviert die Einbeziehung des Headers &quot;Zuletzt geändert&quot;in zwischenspeicherbaren HTTP-Antworten, die vom Bild-Rendering ausgegeben werden.
+Zuletzt geänderte Antwort-Header aktivieren. Aktiviert oder deaktiviert die Aufnahme des Headers „Last-Modified“ in zwischenspeicherbare HTTP-Antworten, die vom Bild-Rendering ausgegeben werden.
 
-Der Server verwendet den neuesten `vignette::TimeStamp` - und `catalog::TimeStamp` -Wert aller Vignetten- und Materialkataloge/Katalogdatensätze, die an einer Antwort beteiligt sind, als Header-Wert der letzten Änderung.
+Der Server verwendet den neuesten `vignette::TimeStamp`- und `catalog::TimeStamp` aller an einer Antwort beteiligten Vignetten- und Materialkataloge/Katalogdatensätze als den zuletzt geänderten Header-Wert.
 
-Sollte nur aktiviert sein, wenn ein verteiltes Caching-Netzwerk wie Akamai verwendet wird, das keine eTag-Header unterstützt.
+Sollte nur aktiviert werden, wenn ein verteiltes Caching-Netzwerk wie Akamai verwendet wird, das keine eTag-Kopfzeilen unterstützt.
 
 >[!NOTE]
 >
->Bei der Verwendung von Last-Modified-Headern in einer lastausgeglichenen Umgebung mit mehreren Image Serving/Rendering-Hosts ist Vorsicht geboten. Die Zwischenspeicherung auf dem Client kann besiegt werden und die Server-Last steigt, wenn die Server aus irgendeinem Grund unterschiedliche Zeitstempel für dieselben Katalogeinträge haben. Eine solche Situation kann wie folgt eintreten:
+>Bei der Verwendung von Headern des Typs „Letzte Änderung“ in einer Umgebung mit Lastenausgleich, die mehrere Image-Serving-/Rendering-Hosts umfasst, ist Vorsicht geboten. Die Client-Zwischenspeicherung kann entfallen und die Server-Last kann zunehmen, wenn die Server aus irgendeinem Grund unterschiedliche Zeitstempel für dieselben Katalogeinträge haben. Eine solche Situation kann wie folgt eintreten:
 
 * `catalog::TimeStamp`, `vignette::TimeStamp` oder `attribute::TimeStamp` ist nicht definiert, sodass die Änderungszeit der [!DNL catalog.ini]-Datei als Standard für `catalog::TimeStamp` verwendet wird.
 
-* Anstatt die Materialkatalogdateien über eine Netzwerkbereitstellung freizugeben, verfügt jeder Server über eine eigene Instanz der Katalogdateien in einem lokalen Dateisystem.
-* Zwei oder mehr Instanzen derselben [!DNL catalog.ini]-Datei haben unterschiedliche Datumsangaben für die Dateiänderung, die möglicherweise durch unzulässiges Kopieren der Dateien verursacht werden.
+* Anstatt die Materialkatalogdateien über eine Netzwerkbereitstellung freizugeben, hat jeder Server seine eigene Instanz der Katalogdateien auf einem lokalen Dateisystem.
+* Zwei oder mehr Instanzen derselben [!DNL catalog.ini]-Datei haben unterschiedliche Dateiänderungsdaten, die möglicherweise durch unsachgemäßes Kopieren der Dateien verursacht werden.
 
 ## Eigenschaften {#section-453952244193452caccfaf7f601007c1}
 
-Flag. 0 zur Deaktivierung, 1 zur Aktivierung der zuletzt geänderten HTTP-Header.
+Markierung. 0 zum Deaktivieren, 1 zum Aktivieren der HTTP-Kopfzeilen der letzten Änderung.
 
 ## Standard {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
-Wird von `default::UseLastModified` übernommen, wenn nicht definiert oder leer.
+Von `default::UseLastModified` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-1536715169da48b0aecc4ab7326c86db}
 

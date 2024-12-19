@@ -33,7 +33,7 @@ Syntax
 | 20008 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_ACCESS_GROUP` |
 | 20009 | `AUTHORIZATION_FAULT_CODE_MISSING_PERMISSION` |
 
-## Standardfelder {#section-4e3e41f41fea402a9ae314bfd05f663e}
+## Fehlerfelder {#section-4e3e41f41fea402a9ae314bfd05f663e}
 
 | Name | Typ | Beschreibung |
 |---|---|---|

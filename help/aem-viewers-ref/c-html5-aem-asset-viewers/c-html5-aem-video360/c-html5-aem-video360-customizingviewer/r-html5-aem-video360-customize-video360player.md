@@ -1,6 +1,6 @@
 ---
 title: Video360-Player
-description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
+description: Der Video-Player ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 # Video360-Player{#video-player}
 
-Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
+Der Video-Player ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Anzeigebereichs für das Rechteck des Videoplayers zentriert.
+Wenn die Abmessungen des wiedergegebenen Videos nicht den Abmessungen des Video-Players entsprechen, wird der Videoinhalt im rechteckigen Anzeigebereich des Video-Players zentriert.
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Video-Players:
 
 ```
 .s7video360viewer .s7video360player
 ```
 
-**CSS-Eigenschaften des Videoplayers**
+**CSS-Eigenschaften des Video-Players**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Hauptansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht wiedergeben kann.
+Sie können die Fehlermeldung lokalisieren, die angezeigt wird, wenn das System das Video nicht abspielen kann.
 
-Siehe [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Beispiel: Zum Einrichten eines Video-Viewers mit einer Videoplayergröße von 512 x 288 Pixel.
+Beispiel: So richten Sie einen Video-Viewer ein, wobei die Größe des Video-Players auf 512 x 288 Pixel eingestellt ist.
 
 ```
 .s7video360viewer .s7video360player{ 
@@ -57,7 +57,7 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
 .s7video360viewer .s7video360player .s7waiticon
 ```
 
-**CSS-Eigenschaften des Wartezeichens**
+**CSS-Eigenschaften des Wartesymbols**
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -68,29 +68,29 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Breite des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p> Höhe des Animationssymbols </p> </td> 
+   <td colname="col2"> <p> Höhe des Animationssymbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbol am linken Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand links </span> </p> </td> 
+   <td colname="col2"> <p> Animationssymbol Linker Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p> Der obere Rand des Animationssymbols, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Oberer Rand des Animationssymbols, normalerweise abzüglich der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Knob-Grafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p> Knopf-Bildmaterial. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Pufferanimation, die 101 Pixel breit und 29 Pixel hoch ist:
+Beispiel: Eine Puffer-Animation soll 101 Pixel breit und 29 Pixel hoch sein:
 
 ```
 .s7video360viewer .s7video360player .s7waiticon { 

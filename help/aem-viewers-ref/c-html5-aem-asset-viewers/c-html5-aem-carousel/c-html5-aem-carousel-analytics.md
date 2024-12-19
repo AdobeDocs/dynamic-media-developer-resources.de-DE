@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
+## Benutzerdefiniertes Tracking {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
+Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anfrage mit den Viewer-Typ- und Versionsinformationen an den konfigurierten Bild-Server.
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, auf den `trackEvent` Viewer-Callback zu lauschen und das `eventInfo` Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -48,21 +48,21 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet, wenn ... </p> </th> 
+   <th colname="col2" class="entry"> <p>Wird gesendet, wenn… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>der Viewer zuerst geladen wird. </p> </td> 
+   <td colname="col2"> <p>Der Viewer wird zuerst geladen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
-   <td colname="col2"> <p>das Karussellbannerbild geändert wurde. </p> </td> 
+   <td colname="col2"> <p>Das Bild des Karussellbanners wird geändert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>der Benutzer den Hotspot aktiviert. </p> </td> 
+   <td colname="col2"> <p>Der Benutzer aktiviert den Hotspot. </p> </td> 
   </tr> 
  </tbody> 
 </table>

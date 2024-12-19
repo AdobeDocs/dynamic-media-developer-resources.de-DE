@@ -1,6 +1,6 @@
 ---
 title: Video360Player.loop
-description: Konfigurationsattribut für Video360 Viewer.
+description: Konfigurationsattribut für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # Video360Player.loop{#video-player-loop}
 
-Konfigurationsattribut für Video360 Viewer.
+Konfigurationsattribut für Video360-Viewer.
 
 `[Video360Player.|<containerId>_video360Player.]loop=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob das Video nach Abschluss der Wiedergabe erneut wiedergegeben werden soll. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, ob das Video nach Abschluss der Wiedergabe erneut wiedergegeben werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

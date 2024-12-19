@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Wenn der Wert auf <span class="codeph"> 1</span> festgelegt ist, füllt die Komponente das Dropdown-Bedienfeld mit Elementen für alle Seiten, auch für diejenigen, die keine Beschriftungen definiert haben. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur Elemente mit expliziten Bezeichnungen im Dropdown-Bedienfeld angezeigt. </p> </td> 
+   <td> <p> Bei <span class="codeph"> 1</span> füllt die Komponente das Dropdown-Bedienfeld mit Elementen für alle Seiten, auch für die Seiten, für die keine Beschriftungen definiert sind. </p> <p>Bei <span class="codeph"> 0 werden </span> Elemente mit expliziten Kennzeichnungen im Dropdown-Feld angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

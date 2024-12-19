@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Enthält Image-Server-Konfigurationseinstellungen.
 
-Beim Ändern dieser XML-Datei muss darauf geachtet werden, dass die gültige XML-Syntax beibehalten wird. Andernfalls kann der Image-Server möglicherweise nicht gestartet werden.
+Beim Ändern dieser XML-Datei muss darauf geachtet werden, dass die gültige XML-Syntax beibehalten wird. Andernfalls kann es vorkommen, dass der Image-Server nicht gestartet wird.
 
-Damit Änderungen wirksam werden, starten Sie den Image-Server nach der Bearbeitung dieser Datei neu. Nur die unten aufgeführten Elementwerte werden für Änderungen unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur auf Empfehlung des technischen Kundendienstes von Dynamic Media.
+Damit die Änderungen wirksam werden, starten Sie den Bildserver neu, nachdem Sie diese Datei bearbeitet haben. Nur die unten aufgeführten Elementwerte werden zur Änderung unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur, wenn Sie vom technischen Support von Dynamic Media dazu aufgefordert werden.
 
 >[!NOTE]
 >
->Ändern Sie nicht die Struktur von `<imageserverregistry>`, einschließlich der Reihenfolge der Elemente. Gehen Sie beim Bearbeiten dieser Datei vorsichtig vor. Andernfalls kann der Image-Server möglicherweise nicht gestartet werden.
+>Ändern Sie nicht die Struktur von `<imageserverregistry>`, einschließlich der Reihenfolge der Elemente. Gehen Sie beim Bearbeiten dieser Datei umsichtig vor, da der Bildserver sonst möglicherweise nicht gestartet wird.
 
-Die folgende Abbildung zeigt, welche Elemente geändert werden können. Andere Elemente sind vorhanden, die nicht geändert werden dürfen. Die folgende Reihenfolge der Elemente spiegelt nicht die Reihenfolge wider, in der sie in der Datei vorhanden sein müssen.
+Die folgende Abbildung zeigt, welche Elemente geändert werden können. Es sind andere Elemente vorhanden, die nicht geändert werden dürfen. Die Reihenfolge der Elemente unten spiegelt nicht die Reihenfolge wider, in der sie in der Datei vorhanden sein müssen.
 
 ```
 <imageserverregistry>
@@ -52,4 +52,4 @@ Die folgende Abbildung zeigt, welche Elemente geändert werden können. Andere E
 
 ## Anmerkungen {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Es können mehrere `<RootPath>` -Elemente vorhanden sein (eines für jeden Ordner mit den Quelldatendateien). Image Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.
+Es können mehrere `<RootPath>` vorhanden sein (eines für jeden Ordner der Quelldatendatei). Bild-Server durchsucht die Stammpfade in der angegebenen Reihenfolge, um eine bestimmte Quelldatei zu finden.

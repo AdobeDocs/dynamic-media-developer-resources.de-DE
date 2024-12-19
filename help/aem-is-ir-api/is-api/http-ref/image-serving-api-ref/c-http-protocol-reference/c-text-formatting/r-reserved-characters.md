@@ -16,10 +16,10 @@ ht-degree: 0%
 
 In diesem Abschnitt werden Zeichen aufgelistet, die für bestimmte Zwecke reserviert sind.
 
-RTF verwendet geschweifte Klammern &#39; `{`&#39; und &#39; `}`&#39; als Gruppentrennzeichen. Sie müssen paarweise auftreten und können verschachtelt sein. Verwenden Sie &quot;`\{`&quot; bzw. &quot;`\}`&quot;, um geschweifte Klammern in Textzeichenfolgen anzuzeigen.
+RTF verwendet geschweifte Klammern &#39; `{`&#39; und &#39; `}`&#39; als Gruppentrennzeichen. Sie müssen paarweise auftreten und können verschachtelt sein. Um geschweifte Klammern in Textzeichenfolgen anzuzeigen, verwenden Sie &#39; `\{`&#39; bzw. &#39; `\}`&#39;.
 
 >[!NOTE]
 >
->Sie müssen alle geschweiften Klammern, die in RTF verwendet werden, URL-kodieren.
+>Alle in RTF verwendeten geschweiften Klammern müssen URL-kodiert werden.
 
-Backslashes &#39;\&#39; werden verwendet, um RTF-Befehle und -Keywords einzuführen. Verwenden Sie `'\\'`, um einen umgekehrten Schrägstrich anzuzeigen.
+Zur Einführung von RTF-Befehlen und Schlüsselwörtern werden umgekehrte Schrägstriche &#39;\&#39; verwendet. Um einen umgekehrten Schrägstrich anzuzeigen, verwenden Sie `'\\'`.

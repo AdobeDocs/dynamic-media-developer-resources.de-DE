@@ -1,6 +1,6 @@
 ---
 title: JavaScript-API-Referenz für Viewer für gemischte Medien
-description: Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
+description: Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # JavaScript-API-Referenz für Viewer für gemischte Medien{#javascript-api-reference-for-mixed-media-viewer}
 
-Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
+Die Hauptklasse des Viewers für gemischte Medien ist MixedMediaViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.MixedMediaViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.MixedMediaViewer` instanziiert wird.

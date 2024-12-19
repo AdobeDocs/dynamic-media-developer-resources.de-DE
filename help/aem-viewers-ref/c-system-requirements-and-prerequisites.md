@@ -1,19 +1,19 @@
 ---
-title: Systemanforderungen für Dynamic Media HTML 5-Viewer
+title: Systemanforderungen für Dynamic Media HTML5-Viewer
 description: Systemanforderungen für Dynamic Media HTML5-Viewer.
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
 
 ---
 
-# Systemanforderungen für Dynamic Media HTML 5 Viewer{#system-requirements}
+# Systemanforderungen für Dynamic Media HTML5-Viewer{#system-requirements}
 
 Systemanforderungen für Dynamic Media HTML5-Viewer.
 
@@ -21,36 +21,36 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Serverhardware und -software {#section-05099146f1f0418988c196635110bee6}
+## Server-Hardware und -Software {#section-05099146f1f0418988c196635110bee6}
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media Image Serving 6.7.1 oder höher.
-* HTML5-Viewer benötigen SDK JavaScript-Server-seitige Bibliotheken 3.11.5 oder höher.
-* *E-Mail an Freunde senden* Social-Funktionen erfordern s7ondemand 5.0.9 oder höher.
-* eCatalog-Viewer - Die Unterstützung für das Popup-Bedienfeld &quot;Info&quot;](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) erfordert Info-Server 2.1.8 oder höher.[
-* Für Suchfunktionskomponenten ist s7search 2.3.0 oder höher erforderlich.
+* Adobe von Dynamic Media Image Serving 6.7.1 oder höher.
+* Für HTML5-Viewer sind SDK JavaScript-Server-seitige Bibliotheken 3.11.5 oder höher erforderlich.
+* *E-Mail an einen Freund* Für Social-Media-Funktionen ist s7ondemand 5.0.9 oder höher erforderlich.
+* E-Katalog-Viewer - [Info-Panel-Popup](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) Für die Unterstützung ist Info-Server 2.1.8 oder höher erforderlich.
+* Für Komponenten von Suchfunktionen ist s7search 2.3.0 oder höher erforderlich.
 
-## Systemanforderungen der Viewer {#section-cc72b1e209524d038b4d5b92b35e998e}
+## Systemanforderungen für Viewer {#section-cc72b1e209524d038b4d5b92b35e998e}
 
-**Mindestanforderungen an den Client-Browser für Komponenten-Viewer:**
+**Mindestanforderungen des Client-Browsers für Komponenten-Viewer:**
 
-* Unterstützt für die folgenden Betriebssystemversionen oder höher:
+* Unterstützt auf den folgenden Betriebssystemversionen oder höher:
    * Microsoft® Windows® 7
-   * macOS X 10.12
-* Unterstützt in den folgenden Browser-/Plattformversionen oder höher:
+   * macOS x 10.12
+* Wird in den folgenden Browser-/Plattformversionen oder höher unterstützt:
    * Android™ OS 4.x
-   * BlackBerry® 10 in nativen Browsern. Es wird nur die Videowiedergabe unterstützt.
+   * BlackBerry® 10 auf nativen Browsern. Es wird nur die Videowiedergabe unterstützt.
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS6
-   * iPad 2 (nur Safari und Chrome-Browser)
+   * IOS6
+   * iPad 2 (nur Safari- und Chrome-Browser)
    * iPhone 3GS
    * Safari 11
 * Internet Explorer wird auf Mobilgeräten nicht unterstützt.
-* *PanoramicViewer* wird in den folgenden Browser-/Plattformversionen oder höher unterstützt:
+* *PanoramicViewer* wird von den folgenden Browser-/Plattformversionen oder höher unterstützt:
    * Android™ 4.4 (nur Telefongeräte)
    * Chrome 82
    * Edge
@@ -59,7 +59,7 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
    * iOS 10
    * Safari 11
 * *Video360Viewer* und *DimensionalViewer* werden in den folgenden Browser-/Plattformversionen oder höher unterstützt:
-   * Android™ 5 (nur Smartphones)
+   * Android™ 5 (nur Telefongeräte)
    * Chrome 82
    * Edge
    * Firefox 77
@@ -78,7 +78,7 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 
 <!-- CQDOC-19433 -->
 
-Ab dem 30. September 2022 bietet Adobe Dynamic Media Viewers keine Unterstützung mehr für Folgendes:
+Adobe Dynamic Media Viewers hat am 30. September 2022 die Unterstützung für Folgendes beendet:
 
 * TLS (Transport Layer Security) 1.0 und 1.1
 * Die folgenden schwachen Chiffren in TLS 1.2:
@@ -95,21 +95,21 @@ Ab dem 30. September 2022 bietet Adobe Dynamic Media Viewers keine Unterstützun
    * TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
    * TLS_RSA_WITH_CAMELLIA_128_CBC_SHA
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
-   * TLS_RSA_WITH_SDES_EDE_CBC_SHA
+   * TLS_RSA_WITH_SDES_EDGE_CBC_SHA
 
-## Nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media-Viewer {#browser-os-support}
+## Nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media Viewer {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media-Viewer unterstützen die folgenden Webbrowser- und Betriebssystemkombinationen nicht:
+Adobe Dynamic Media Viewer unterstützen nicht die folgenden Kombinationen aus Webbrowser und Betriebssystem:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
 * Internet Explorer 11 + Windows Phone 8.1
-* Aktualisierung von Internet Explorer 11 und Windows Phone 8.1
+* Internet Explorer 11 + Windows Phone 8.1 Update
 * Safari 6 + iOS 6.0.1
 * Safari 7 + iOS 7.1
-* Safari 7 + OS X 10.9 - Mavericks
+* Safari 7 + OS X 10.9 Mavericks
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 

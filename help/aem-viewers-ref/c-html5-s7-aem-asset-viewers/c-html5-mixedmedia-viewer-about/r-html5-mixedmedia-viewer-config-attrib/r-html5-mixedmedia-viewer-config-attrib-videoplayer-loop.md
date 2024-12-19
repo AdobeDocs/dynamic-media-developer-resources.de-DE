@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.loop
-description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
+description: Konfigurationsattribut für den Viewer für gemischte Medien-Videos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Konfigurationsattribut für Video-Viewer für gemischte Medien.
+Konfigurationsattribut für den Viewer für gemischte Medien-Videos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer für gemischte Medien.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, ob das Medium nach Abschluss der Wiedergabe erneut wiedergegeben wird. </p> </td> 
+   <td colname="col2"> <p>Zeigt an, ob das Medium nach Abschluss der Wiedergabe erneut wiedergegeben wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> numeric|dotted</span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert den Rendering-Stil des Set-Indikators. </p> <p>Wenn der Wert auf <span class="codeph"> gepunktete </span> festgelegt ist, rendert die Komponente identische Indikatoren für alle Seiten. </p> <p>Bei Festlegung auf <span class="codeph"> numeric</span> wird in jedem Indikatorelement eine 1-basierte Seitenzahl eingefügt. </p> <p>Der Betriebsmodus <span class="codeph"> numeric</span> wird auf Geräten mit Touch-Eingabe nicht unterstützt. Stattdessen verwendet die Komponente <span class="codeph"> gepunktete </span> auf solchen Geräten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> numerisch|gepunktet</span> </p> </td> 
+   <td colname="col2"> <p> Konfiguriert den Rendering-Stil des festgelegten Indikators. </p> <p>Bei Festlegung auf <span class="codeph"> gepunktete </span> rendert die Komponente identische Indikatoren für alle Seiten. </p> <p>Bei <span class="codeph"> numerischen </span> wird in jedes Indikatorelement eine 1-basierte Seitennummer eingefügt. </p> <p>Der <span class="codeph"> numerische </span> wird auf Geräten mit Touch-Eingabe nicht unterstützt. Stattdessen verwendet die Komponente <span class="codeph"> gepunkteten </span> auf solchen Geräten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

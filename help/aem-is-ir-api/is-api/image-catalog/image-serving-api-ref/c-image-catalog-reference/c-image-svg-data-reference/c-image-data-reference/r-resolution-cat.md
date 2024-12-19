@@ -16,15 +16,15 @@ ht-degree: 8%
 
 Objektauflösung. Objektauflösung für das Bild in voller Größe.
 
-Wird für auflösungsbasierte Skalierung mit dem Befehl `res=` verwendet.
+Wird für die auflösungsbasierte Skalierung mit dem Befehl `res=` verwendet.
 
 ## Eigenschaften {#section-861a86da50364e2181d62778338359ea}
 
-Real Zahl, größer als 0. In der Regel als Pixel pro Zoll angegeben, kann aber auch in anderen Einheiten, z. B. Pixel pro Meter, verwendet werden. Optional.
+Reelle Zahl, größer als 0. Wird normalerweise als Pixel pro Zoll ausgedrückt, kann aber auch in anderen Einheiten angegeben werden, z. B. Pixel pro Meter. Optional.
 
 ## Standard {#section-5b3a83d6410b43efa1fa3add396196f9}
 
-`attribute::Resolution` wird verwendet, wenn das Feld nicht vorhanden ist, wenn der Wert 0 ist oder wenn das Feld leer ist.
+`attribute::Resolution` wird verwendet, wenn das Feld nicht vorhanden ist, der Wert 0 ist oder leer ist.
 
 ## Verwandte Themen {#section-100aded64efe434db5b523ed50defbb3}
 

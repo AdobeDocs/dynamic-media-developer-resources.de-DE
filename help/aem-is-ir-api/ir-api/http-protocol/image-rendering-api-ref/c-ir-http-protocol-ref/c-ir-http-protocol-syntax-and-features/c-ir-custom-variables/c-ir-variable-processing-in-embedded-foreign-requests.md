@@ -1,6 +1,6 @@
 ---
-title: Variablenverarbeitung in eingebetteten ausländischen Anforderungen
-description: $var$-Referenzen, die an einer beliebigen Stelle in den geschweiften Klammern einer eingebetteten ausländischen Anforderung auftreten, werden durch übereinstimmende Variablendefinitionswerte ersetzt.
+title: Variablenverarbeitung in eingebetteten Fremdanforderungen
+description: $var$-Verweise, die an einer beliebigen Stelle in den geschweiften Klammern einer eingebetteten Fremdanforderung auftreten, werden durch übereinstimmende Variablendefinitionswerte ersetzt.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Variablenverarbeitung in eingebetteten ausländischen Anforderungen{#variable-processing-in-embedded-foreign-requests}
+# Variablenverarbeitung in eingebetteten Fremdanforderungen{#variable-processing-in-embedded-foreign-requests}
 
-Alle `$var$` -Referenzen, die an einer beliebigen Stelle in den geschweiften Klammern einer eingebetteten ausländischen Anforderung auftreten, werden durch übereinstimmende Variablendefinitionswerte ersetzt.
+Alle `$var$` Verweise, die an einer beliebigen Stelle innerhalb der geschweiften Klammern einer eingebetteten Fremdanforderung auftreten, werden durch übereinstimmende Variablendefinitionswerte ersetzt.
 
-Ermöglicht die Platzierung von eingebetteten ausländischen Anforderungen in einer Vorlage in einem Bildkatalog.
+Ermöglicht die Platzierung von eingebetteten Fremdanfragen in einer Vorlage in einem Bildkatalog.
 
-Variablenwerte, die in ausländische Anforderungen ersetzt werden sollen, müssen in der Regel doppelt kodiert sein, da keine Neukodierung angewendet wird, bevor der Server versucht, die endgültige ausländische URL zu übertragen.
+Variablenwerte, die in fremde Anforderungen ersetzt werden sollen, müssen in der Regel doppelt kodiert werden, da keine erneute Kodierung erfolgt, bevor der Server versucht, die endgültige fremde URL zu übertragen.

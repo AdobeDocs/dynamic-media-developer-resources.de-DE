@@ -20,15 +20,15 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Breite </span> </span> </p> </td> 
-   <td colname="col2"> <p>Einbettungsbreite. </p> </td> 
+   <td colname="col2"> <p>Breite einbetten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Höhe </span> </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Einbettung. </p> </td> 
+   <td colname="col2"> <p>Einbettungshöhe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob dieses Listenelement zunächst im Kombinationsfeld vorausgewählt werden soll. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob dieses Listenelement im Kombinationsfeld vorab ausgewählt werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

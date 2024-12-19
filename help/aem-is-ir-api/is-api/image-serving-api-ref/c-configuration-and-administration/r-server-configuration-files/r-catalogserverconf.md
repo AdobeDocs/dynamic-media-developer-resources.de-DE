@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Enthält Einstellungen zum Verwalten von Bildkatalogen.
 
-Diese Datei ist eine JAVA-Eigenschaftendatei. Es ist darauf zu achten, dass die entsprechenden Konventionen eingehalten werden. Andernfalls kann der [!DNL Platform Server] nicht starten. Verwenden Sie in Windows-Dateipfaden einen doppelten umgekehrten Schrägstrich &quot;\&quot;oder einen einfachen Schrägstrich &quot;/&quot;anstelle eines umgekehrten Schrägstrichs &quot;\&quot;. Der umgekehrte Schrägstrich wird als Escape-Zeichen in diesem Dateityp verwendet.
+Diese Datei ist eine JAVA-Eigenschaftendatei. Es muss darauf geachtet werden, dass die entsprechenden Konventionen eingehalten werden. Andernfalls kann es sein, dass der [!DNL Platform Server] nicht startet. Verwenden Sie in Windows-Dateipfaden einen doppelten umgekehrten Schrägstrich &quot;\\&quot; oder einen einzelnen Schrägstrich &quot;/&quot; anstelle eines umgekehrten Schrägstrichs &quot;\&quot;. Der umgekehrte Schrägstrich wird in diesem Dateityp als Escape-Zeichen verwendet.
 
 Änderungen an dieser Datei werden kurz nach dem Speichern der Datei wirksam.
 

@@ -1,11 +1,11 @@
 ---
-description: Standardgröße der Miniaturansichten. Wird anstelle des Attributs DefaultPix für Miniaturanfragen verwendet (req=tmb).
+description: Standardgröße für Miniaturen. Wird anstelle des Attributs DefaultPix für Anfragen von Miniaturen verwendet (req=tmb).
 solution: Experience Manager
 title: DefaultThumbPix
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1413da0-a68d-4345-928f-b532991966a8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 2%
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # DefaultThumbPix{#defaultthumbpix}
 
-Standardgröße der Miniaturansichten. Wird anstelle von attribute::DefaultPix für Miniaturanfragen verwendet (req=tmb).
+Standardgröße für Miniaturen. Wird anstelle von „attribute::DefaultPix“ für Anfragen von Miniaturen verwendet (req=tmb).
 
-Der Server schränkt Antwortbilder so ein, dass sie nicht größer als diese Breite und Höhe sind. Wenn in einer Miniaturanfrage ( `req=tmb`) nicht explizit die Größe angegeben wird, wird die Anzeigegröße nicht explizit mit `wid=`, `hei=` oder `scl=` angegeben.
+Der Server schränkt Antwortbilder dahingehend ein, dass sie nicht größer sind als diese Breite und Höhe, wenn eine Miniaturbildanforderung ( `req=tmb`) die Größe nicht explizit angibt, nicht explizit die Anzeigegröße mithilfe von `wid=`, `hei=` oder `scl=`.
 
 ## Eigenschaften {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
-Zwei ganzzahlige Zahlen, 0 oder größer, durch Kommas getrennt. Breite und Höhe in Pixel. Einer oder beide Werte können auf 0 gesetzt werden, damit sie nicht eingeschränkt werden.
+Zwei ganze Zahlen, 0 oder höher, durch ein Komma getrennt. Breite und Höhe in Pixel. Einer oder beide Werte können auf 0 gesetzt werden, um sie nicht einzuschränken.
 
-Gilt nicht für verschachtelte/eingebettete Anforderungen.
+Gilt nicht für verschachtelte oder eingebettete Anforderungen.
 
 ## Standard {#section-2c4a4f14540449638822913513170ff1}
 
-Wird von `default::DefaultThumbPix` übernommen, wenn nicht definiert oder leer.
+Von `default::DefaultThumbPix` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 

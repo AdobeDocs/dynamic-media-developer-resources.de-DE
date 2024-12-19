@@ -1,6 +1,6 @@
 ---
 title: AssetMetadataFieldsArray
-description: Ein Array von AssetMetadataFields. Wird von getAssetMetadataFields verwendet, um alle Asset-Metadatenfelder in einem einzelnen Aufruf mit Ergebnissen zurückzugeben, die nach Asset-Typ gruppiert sind.
+description: Ein Array von AssetMetadataFields. Wird von getAssetMetadataFields verwendet, um alle Asset-Metadatenfelder in einem einzigen Aufruf mit Ergebnissen zurückzugeben, die nach Asset-Typ gruppiert sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMetadataFieldsArray]{#assetmetadatafieldsarray}
 
-Ein Array von AssetMetadataFields. Wird von getAssetMetadataFields verwendet, um alle Asset-Metadatenfelder in einem einzelnen Aufruf mit Ergebnissen zurückzugeben, die nach Asset-Typ gruppiert sind.
+Ein Array von AssetMetadataFields. Wird von getAssetMetadataFields verwendet, um alle Asset-Metadatenfelder in einem einzigen Aufruf mit Ergebnissen zurückzugeben, die nach Asset-Typ gruppiert sind.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:AssetMetadataFields` | Ein `AssetMetadataFields` -Array-Element. |
+| Elemente | `types:AssetMetadataFields` | Ein `AssetMetadataFields` Array-Element. |

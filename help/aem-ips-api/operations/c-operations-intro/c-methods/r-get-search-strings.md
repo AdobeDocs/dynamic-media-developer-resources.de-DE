@@ -1,5 +1,5 @@
 ---
-description: Ruft die Suchzeichenfolgen, Keywords und andere Informationen zu einem Asset ab. Die Antwort enthält zusätzliche Informationen zum Asset.
+description: Ruft Suchzeichenfolgen, Keywords und andere Informationen zu einem Asset ab. Die Antwort enthält zusätzliche Informationen zum Asset.
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # getSearchStrings{#getsearchstrings}
 
-Ruft die Suchzeichenfolgen, Keywords und andere Informationen zu einem Asset ab. Die Antwort enthält zusätzliche Informationen zum Asset.
+Ruft Suchzeichenfolgen, Keywords und andere Informationen zu einem Asset ab. Die Antwort enthält zusätzliche Informationen zum Asset.
 
 Syntax
 
@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-c1efda4bb15349a68b276bafee8c18fd}
 
-**Input (getSearchStringsParam)**
+**Eingabe (getSearchStringsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| assetHandle | `xsd:string` | Ja | Umgang mit dem Asset. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
+| assetHandle | `xsd:string` | Ja | Verarbeiten Sie das Asset. |
 
-**Output (getSearchStringsReturn)**
+**Ausgabe (getSearchStringsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -42,7 +42,7 @@ Syntax
 
 ## Beispiele {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-Dieses Codebeispiel gibt Asset-spezifische Suchzeichenfolgen zurück. Die Antwort gibt ein leeres Array zurück.
+Dieses Code-Beispiel gibt Asset-spezifische Suchzeichenfolgen zurück. Die Antwort gibt ein leeres -Array zurück.
 
 **Anfrage**
 

@@ -1,6 +1,6 @@
 ---
 title: Netzwerk
-description: Erfahren Sie mehr über die Verwendung der Optimierung der Netzwerkbandbreite, um die Bildqualität anzupassen, die basierend auf der tatsächlichen Netzwerkbandbreite bereitgestellt wird.
+description: Erfahren Sie, wie Sie mit der Optimierung der Netzwerkbandbreite die Bildqualität, die bereitgestellt wird, an die tatsächliche Netzwerkbandbreite anpassen können.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 4%
 
 # Netzwerk{#network}
 
-Beim Aktivieren der Netzwerkbandbreite wird die Bildqualität automatisch an die tatsächliche Netzwerkbandbreite angepasst. Bei geringer Netzwerkbandbreite wird die Optimierung von [DPR (Device Pixel Ratio)](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) automatisch deaktiviert, auch wenn sie bereits aktiviert ist.
+Beim Aktivieren der Netzwerkbandbreite wird die Bildqualität automatisch an die tatsächliche Netzwerkbandbreite angepasst. Bei geringer Netzwerkbandbreite wird [DPR (Device Pixel Ratio, Gerätepixelverhältnis)-](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) automatisch deaktiviert, auch wenn sie bereits aktiviert ist.
 
-Falls gewünscht, kann Ihr Unternehmen die Optimierung der Netzwerkbandbreite auf individueller Bildebene deaktivieren, indem es `network=off` an die URL des Bildes anhängt.
+Falls gewünscht, kann Ihr Unternehmen die Optimierung der Netzwerkbandbreite auf individueller Bildebene deaktivieren, indem `network=off` an die URL des Bildes angehängt wird.
 
 `network=on|off`
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
-  <td class="stentry"> <p>Gibt an, ob die Netzwerkbandbreite die Bildqualität basierend auf der tatsächlichen Netzwerkbandbreite (ein) anpasst oder die Optimierung der Netzwerkbandbreite deaktiviert ist, um die Bildqualität nicht zu ändern.</p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ein|aus </span> </p> </td> 
+  <td class="stentry"> <p>Gibt an, ob die Netzwerkbandbreite die Bildqualität anpasst, die basierend auf der tatsächlichen Netzwerkbandbreite bereitgestellt wird (ein), oder ob die Netzwerkbandbreitenoptimierung für keine Bildqualitätsanpassung deaktiviert wird.</p> </td> 
  </tr> 
 </table>
 
-Netzwerkbandbreitenwerte basieren auf den erkannten clientseitigen Werten des gebündelten CDN.
+Die Netzwerkbandbreitenwerte basieren auf den erkannten Client-seitigen Werten des gebündelten CDN.
 
 ## Eigenschaften
 
-Ein Anfrageattribut. Es hat keine Auswirkung, wenn die Netzwerkbedingungen ausgezeichnet sind.
+Ein Anforderungsattribut. Es hat keine Auswirkung, wenn die Netzwerkbedingungen ausgezeichnet sind.
 
 ## Standard
 

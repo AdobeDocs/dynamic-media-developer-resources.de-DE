@@ -1,7 +1,7 @@
 ---
 description: Sie können Daten-Caches konfigurieren.
 solution: Experience Manager
-title: Datenzwischenspeicherung
+title: Daten-Caches
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 778a6236-09f5-420c-ab31-a72063eb5326
@@ -12,12 +12,12 @@ ht-degree: 6%
 
 ---
 
-# Datenzwischenspeicherung{#data-caches}
+# Daten-Caches{#data-caches}
 
 Sie können Daten-Caches konfigurieren.
 
 + [Cache für Antwortdaten](c-response-data-cache.md)
-+ [Validierung des Antwort-Cache](c-response-cache-validation.md)
++ [Validierung des Antwort-Caches](c-response-cache-validation.md)
 + [Zusätzliche Daten-Caches](c-auxiliary-data-caches.md)
 + [Cache-Clustering](c-cache-clustering.md)
 

@@ -1,5 +1,5 @@
 ---
-description: Automatische Skriptliste zur Set-Generierung für Upload-Aufträge. Dabei wird davon ausgegangen, dass jedes für den Upload angegebene Skript auf alle hochgeladenen Assets angewendet wird.
+description: Skriptliste für die automatische Satzgenerierung für Upload-Aufträge. Angenommen, jedes für den Upload angegebene Skript wird auf alle hochgeladenen Assets angewendet.
 solution: Experience Manager
 title: AutoSetCreationOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-Automatische Skriptliste zur Set-Generierung für Upload-Aufträge. Dabei wird davon ausgegangen, dass jedes für den Upload angegebene Skript auf alle hochgeladenen Assets angewendet wird.
+Skriptliste für die automatische Satzgenerierung für Upload-Aufträge. Angenommen, jedes für den Upload angegebene Skript wird auf alle hochgeladenen Assets angewendet.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Array von [!DNL PropertySet] verarbeitet die automatischen Skripte zur Set-Generierung, die beim Hochladen angewendet werden. |
+| autoSetsArray | `types:HandleArray` | Array von [!DNL PropertySet]-Handles, die die beim Hochladen angewendeten Skripte zur automatischen Satzgenerierung definieren. |

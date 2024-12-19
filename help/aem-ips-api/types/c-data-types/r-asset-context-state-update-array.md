@@ -1,6 +1,6 @@
 ---
 title: AssetContextStateUpdateArray
-description: Ein Array des Asset-Kontextstatus wird aktualisiert.
+description: Ein Array von Asset-Kontextstatus-Aktualisierungen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,10 +14,10 @@ ht-degree: 14%
 
 # [!DNL AssetContextStateUpdateArray]{#assetcontextstateupdatearray}
 
-Ein Array des Asset-Kontextstatus wird aktualisiert.
+Ein Array von Asset-Kontextstatus-Aktualisierungen.
 
 **Parameter**
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:AssetsContextStateUpdate` | Ein Array des Asset-Kontextstatus wird aktualisiert. |
+| Elemente | `types:AssetsContextStateUpdate` | Ein Array von Asset-Kontextstatus-Aktualisierungen. |

@@ -1,5 +1,5 @@
 ---
-description: Makroname. Makronamen können aus einer beliebigen Kombination aus alphanumerischen, numerischen und sicheren Zeichen bestehen, mit Ausnahme von $.
+description: Makroname. Makronamen können aus einer beliebigen Kombination von Alpha-, Ziffern- und sicheren Zeichen bestehen, mit Ausnahme von $.
 solution: Experience Manager
 title: Name
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # Name{#name}
 
-Makroname. Makronamen können aus einer beliebigen Kombination aus alphanumerischen, numerischen und sicheren Zeichen bestehen, mit Ausnahme von $.
+Makroname. Makronamen können aus einer beliebigen Kombination von Alpha-, Ziffern- und sicheren Zeichen bestehen, mit Ausnahme von $.
 
 ## Eigenschaften {#section-03641453b5b84a27a8eb0c0688f7b8fc}
 
-Textzeichenfolge. Erforderlich. Jeder macro::Name -Wert muss innerhalb der Tabelle eindeutig sein.
+Text-String Erforderlich. Jeder Wert für „makro:name“ muss innerhalb der Tabelle eindeutig sein.
 
 ## Standard {#section-1e42bd928f3a4b91b79b481ccbd284b8}
 

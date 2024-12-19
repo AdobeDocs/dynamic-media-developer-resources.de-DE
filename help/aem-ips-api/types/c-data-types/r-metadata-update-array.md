@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Metadaten-Updates.
+description: Ein Array von Metadaten-Aktualisierungen.
 solution: Experience Manager
 title: MetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL MetadataUpdateArray]{#metadataupdatearray}
 
-Ein Array von Metadaten-Updates.
+Ein Array von Metadaten-Aktualisierungen.
 
 Syntax
 

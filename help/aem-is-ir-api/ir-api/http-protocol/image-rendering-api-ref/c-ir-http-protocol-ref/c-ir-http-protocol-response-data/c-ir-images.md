@@ -1,6 +1,6 @@
 ---
 title: Bilder
-description: 'Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen req= -Befehl enthält oder wenn req= einen der folgenden Werte hat: img, debug.'
+description: 'Bilddaten werden zurückgegeben, wenn eine Anforderung erfolgreich abgeschlossen wurde und die Anforderung entweder keinen Befehl req= enthält oder wenn req= einen der folgenden Werte aufweist: img, debug.'
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # Bilder{#images}
 
-Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen req= -Befehl enthält oder wenn req= einen der folgenden Werte aufweist: img, debug
+Bilddaten werden zurückgegeben, wenn eine Anforderung erfolgreich abgeschlossen wurde und die Anforderung entweder keinen Befehl req= enthält oder wenn req= einen der folgenden Werte aufweist: img, debug
 
-Der MIME-Typ der HTTP-Antwort wird durch `fmt=` bestimmt. Wenn `fmt=` nicht angegeben ist, hängt er vom Wert von `attribute::Format` ab.
+Der MIME-Typ der HTTP-Antwort wird durch `fmt=` bestimmt oder, wenn `fmt=` nicht angegeben ist, hängt er vom Wert von `attribute::Format` ab.
 
-Der HTTP-Antwortstatus lautet &quot;200 OK&quot;, wenn die Anforderungsmethode eine unbedingte `GET` oder `HEAD` war.
+Der HTTP-Antwortstatus ist „200 OK“, wenn die Anfragemethode eine unbedingte `GET` oder `HEAD` war.
 
-Der Server kann mit dem Status &#39;304&#39; (nicht geändert) antworten und keine Bilddaten als Antwort auf eine bedingte `GET` -Anfrage zurückgeben (wobei das Feld [!DNL If-Modified-Since] im Feld `request-header` vorhanden ist).
+Der Server kann mit dem Status &#39;304&#39; (nicht geändert) antworten und gibt als Reaktion auf eine bedingte `GET`-Anforderung keine Bilddaten zurück (mit dem [!DNL If-Modified-Since] Feld im `request-header`).

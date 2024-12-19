@@ -1,20 +1,20 @@
 ---
-description: Beschreibt neue und geänderte Typen für die IPS-API Version 6.
+description: Beschreibt neue und geänderte Typen für die IPS-API-Version 6.
 solution: Experience Manager
-title: Neue und geänderte Datentypen
+title: Datentypen Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 1%
 
 ---
 
-# Datentypen: neu und geändert{#data-types-new-and-modified}
+# Datentypen: Neu und Geändert{#data-types-new-and-modified}
 
-Beschreibt neue und geänderte Typen für die IPS-API Version 6.
+Beschreibt neue und geänderte Typen für die IPS-API-Version 6.
 
 Syntax
 
@@ -38,36 +38,36 @@ Syntax
 
 ## Geänderte Typen {#section-56b834b1a3b843279d8715b4a4f3890b}
 
-**Hinzugefügt**
+**hinzugefügt**
 
-* `numUrls` wurde zu `UploadUrlsJob` hinzugefügt.
+* `numUrls` zu `UploadUrlsJob` hinzugefügt.
 
 * `fileName` zu `Asset.` hinzugefügt
 
-* `isHidden` wurde zu `MetadataField` hinzugefügt.
+* `isHidden` zu `MetadataField` hinzugefügt.
 
-* `taskState` wurde zu `TaskProgress` hinzugefügt.
+* `taskState` zu `TaskProgress` hinzugefügt.
 
 * `exportJob` zu `ActiveJob` und `ScheduledJob` hinzugefügt.
 
-* `optmizedPath` und `optimizedFile` wurden zu `PsdInfo` hinzugefügt.
+* `optmizedPath` und `optimizedFile` zu `PsdInfo` hinzugefügt.
 
-* `contextHandle` wurde hinzugefügt zu:
+* `contextHandle` hinzugefügt zu:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Die folgenden Parameter wurden zu `Asset` hinzugefügt:
+* Folgende Parameter wurden `Asset` hinzugefügt:
 
    * `animatedGifInfo`
    * `swcInfo`
    * `cssInfo`
    * `javascriptInfo`
 
-**Changed**
+**Geändert**
 
-* In `User` wurde `role` in `defaultRole` geändert.
+* `User` wurde `role` in `defaultRole` geändert.
 
-* In `Folder` wurde `permissions` in `permissionsSetHandle` geändert.
+* `Folder` wurde `permissions` in `permissionsSetHandle` geändert.
 
 * In `AssetSummary` sind `type` und `name` jetzt optional.

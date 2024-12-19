@@ -1,6 +1,6 @@
 ---
 title: callToActionRecap
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # callToActionRecap{#calltoactionrecap}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `callToActionRecap=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob der Viewer das Bedienfeld "Aktionsaufruf"am Ende der Videowiedergabe anzeigt. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, ob der Viewer das Bedienfeld „Handlungsaufforderung“ am Ende der Videowiedergabe anzeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

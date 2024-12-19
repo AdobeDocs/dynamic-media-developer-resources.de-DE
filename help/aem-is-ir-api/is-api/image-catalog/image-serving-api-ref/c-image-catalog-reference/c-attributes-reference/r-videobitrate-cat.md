@@ -1,5 +1,5 @@
 ---
-description: Video-Bitrate. Ermöglicht die Angabe einer Bitrate, die mit jedem Videodatensatz verknüpft ist.
+description: Video-Bitrate. Ermöglicht die Angabe einer Bitrate, die mit jeder Videoaufzeichnung verbunden ist.
 solution: Experience Manager
 title: VideoBitRate
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 7%
 
 # VideoBitRate{#videobitrate}
 
-Video-Bitrate. Ermöglicht die Angabe einer Bitrate, die mit jedem Videodatensatz verknüpft ist.
+Video-Bitrate. Ermöglicht die Angabe einer Bitrate, die mit jeder Videoaufzeichnung verbunden ist.
 
-Wird von `req=set` - und `req=mbrSet` -Anforderungen zum Exportieren von Bitratendaten verwendet.
+Wird von `req=set`- und `req=mbrSet`Anfragen zum Exportieren von Bitratendaten verwendet.
 
 ## Eigenschaften {#section-76731467b23240ac89b0767491c6020b}
 
-Ganzzahlwert (bps)
+Ganzzahliger Wert (bps)
 
 ## Standard {#section-dba669ea75354671bbdb3b520e2f6911}
 
@@ -28,4 +28,4 @@ Keine.
 
 ## Verwandte Themen {#section-7ffaec68b992426dad1c9ac0792f326f}
 
-[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) , [req=mbrSet](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md), [Medienset Requests](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
+[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) , [req=mbrSet](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md), [Medienset-Anfragen](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)

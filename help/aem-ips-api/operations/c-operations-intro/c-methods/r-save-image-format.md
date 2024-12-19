@@ -18,7 +18,7 @@ Erstellt ein Bildformat.
 
 >[!NOTE]
 >
->Der Feldwert `urlModifier` muss aus einer gültigen XML bestehen. Ändern Sie beispielsweise `&` in `&`. Rufen Sie den Wert `urlModfier` von der IPS-Benutzeroberfläche ab.
+>Der Wert des `urlModifier`-Feldes muss aus einer gültigen XML bestehen. Ändern Sie beispielsweise `&` in `&`. Rufen Sie den `urlModfier` Wert aus der IPS-Benutzeroberfläche ab.
 
 ## Autorisierte Benutzertypen {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,20 +33,20 @@ Erstellt ein Bildformat.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Bildformat, mit dem Sie arbeiten möchten. |
-| imageFormatHandle | `xsd:string` | Nein | Bildformat-Handle, das Sie speichern möchten. |
+| companyHandle | `xsd:string` | Ja | Der Handler für das Unternehmen mit dem Bildformat, mit dem Sie arbeiten möchten. |
+| imageFormatHandle | `xsd:string` | Nein | Der Bildformathandle, den Sie speichern möchten. |
 | name | `xsd:string` | Ja | Name des Bildformats. |
 | urlModifier | `xsd:string` | Ja | Dies kann eine beliebige IPS-Protokoll-Abfragezeichenfolge sein. Die einfachste Möglichkeit, einen URL-Modifikator zu generieren, besteht darin, einen mit der IPS-Benutzeroberfläche zu erstellen und dann die Abfragezeichenfolge auszuschneiden und einzufügen. |
 
-**Output (saveImageFormatReturn)**
+**Ausgabe (saveImageFormatReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| imageFormatHandle | `xsd:string` | Ja | Umgang mit dem Bildformat. |
+| imageFormatHandle | `xsd:string` | Ja | Verarbeiten Sie das Bildformat. |
 
 ## Beispiele {#section-c7bd733212ef494297a97093f3af193f}
 
-Dieses Codebeispiel erstellt ein Bildformat. In diesem Beispiel wurde `urlModifier` durch den Wert in der IPS-Benutzeroberfläche mit einem gültigen HTML-Format bestimmt.
+Dieses Codebeispiel erstellt ein Bildformat. In diesem Beispiel wurde `urlModifier` durch seinen Wert in der IPS-Benutzeroberfläche mit einem gültigen HTML-Format bestimmt.
 
 **Anfrage**
 

@@ -1,6 +1,6 @@
 ---
 title: init
-description: JavaScript-API-Referenz zur Initialisierung des Flyout-Viewers.
+description: JavaScript-API-Referenz für die Initialisierung des Flyout-Viewers.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -18,11 +18,11 @@ JavaScript-API-Referenz für Flyout-Viewer.
 
 `init()`
 
-Startet die Initialisierung des Flyout-Viewers. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
+Startet die Initialisierung des Flyout-Viewers. Zu diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist (z. B.), kann es mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden. Der Viewer setzt den Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Container-Element noch nicht Teil des Web-Seiten-Layouts ist - z. B. kann es mithilfe `display:none` ihm zugewiesenen Stils ausgeblendet werden - setzt der Viewer seinen Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, an dem die Web-Seite das Container-Element wieder an das Layout zurückgibt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-Diese Methode sollte nur einmal während des Lebenszyklus des Viewers aufgerufen werden. Nachfolgende Aufrufe werden ignoriert.
+Diese Methode sollte nur einmal während des Lebenszyklus des Viewers aufgerufen werden, konsequente Aufrufe werden ignoriert.
 
 ## Parameter {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

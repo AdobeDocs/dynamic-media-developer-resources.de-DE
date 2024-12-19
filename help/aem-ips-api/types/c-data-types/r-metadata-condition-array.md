@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Metadaten-Bedingungen.
+description: Ein Array von Metadatenbedingungen.
 solution: Experience Manager
 title: MetadataConditionArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL MetadataConditionArray]{#metadataconditionarray}
 
-Ein Array von Metadaten-Bedingungen.
+Ein Array von Metadatenbedingungen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:MetadataCondition` | Das Array von Metadaten-Bedingungen. |
+| Elemente | `types:MetadataCondition` | Das Array von Metadatenbedingungen. |

@@ -1,5 +1,5 @@
 ---
-description: Katalogdatensatzkennung. Schlüsselwert, anhand dessen Materialeinträge vom Render-Server nachgeschlagen werden. Normalerweise eine kurze und eindeutige Materialkennung, z. B. eine SKU-Nummer.
+description: Kennung des Katalogdatensatzes. Schlüsselwert, um den die Materialdatensätze vom Render-Server überprüft werden. Normalerweise eine kurze und eindeutige Materialkennung, z. B. eine Artikelnummer.
 solution: Experience Manager
 title: Id
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # Id{#id}
 
-Katalogdatensatzkennung. Schlüsselwert, anhand dessen Materialeinträge vom Render-Server nachgeschlagen werden. Normalerweise eine kurze und eindeutige Materialkennung, z. B. eine SKU-Nummer.
+Kennung des Katalogdatensatzes. Schlüsselwert, um den die Materialdatensätze vom Render-Server überprüft werden. Normalerweise eine kurze und eindeutige Materialkennung, z. B. eine Artikelnummer.
 
 ## Eigenschaften {#section-9b20bf2545314620808b4210bce7afc9}
 
-Textzeichenfolge. Erforderlich. Jeder `catalog::Id` -Wert muss innerhalb dieses Materialkatalogs eindeutig sein und darf keine &#39;,&#39;-Zeichen enthalten.
+Text-String Erforderlich. Jeder `catalog::Id` muss innerhalb dieses Materialkatalogs eindeutig sein und darf keine &quot;,“-Zeichen enthalten.
 
 ## Standard {#section-6a517046c43a40a7ba0af0212b5f31d2}
 

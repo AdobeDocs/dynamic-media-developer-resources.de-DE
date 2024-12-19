@@ -5,7 +5,7 @@ title: getAssetsByName
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 10%
@@ -35,7 +35,7 @@ Syntax
 
 ## Parameter {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
-**Input (getAssetsByNameParam)**
+**Eingabe (getAssetsByNameParam)**
 
 <table id="table_CE7B503B0E074719A523B458DF3A7286"> 
  <thead> 
@@ -51,13 +51,13 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Handle für das Unternehmen. </td> 
+   <td colname="col4"> Der Griff zum Unternehmen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Bietet Zugriff als anderer Benutzer. Nur für Administratoren verfügbar. </td> 
+   <td colname="col4"> Bietet Zugriff für andere Benutzende. Nur für Administratoren verfügbar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
@@ -67,50 +67,50 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:StringArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Array von Asset-Namen, die abgerufen werden sollen. </td> 
+   <td colname="col4"> Array von Asset-Namen zum Abrufen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Array von Asset-Typen, die für abgerufene Assets zulässig sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Array von Asset-Typen, die für abgerufene Assets ausgeschlossen sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Array von Asset-Untertypen, die für abgerufene Assets zulässig sind. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> rictSubTypeCheck</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Wenn <span class="codeph"> true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer sind, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. </p> <p>Wenn der Wert <span class="codeph"> false</span> ist, werden Assets ohne definierten Untertyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Wenn <span class="codeph"> „true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer ist, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. </p> <p>Wenn <span class="codeph"> „false</span>, werden Assets ohne definierten Untertyp einbezogen. </p> <p>Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Enthält eine Liste von Feldern und Unterfeldern, die in der Antwort enthalten sind. </td> 
+   <td colname="col4"> Enthält eine Liste der Felder und Unterfelder, die in der Antwort enthalten sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:StringArray</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Enthält eine Liste von Feldern und Unterfeldern, die von der Antwort ausgeschlossen sind. </td> 
+   <td colname="col4"> Enthält eine Liste der Felder und Unterfelder, die von der Antwort ausgeschlossen sind. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getAssetsByNameReturn)**
+**Ausgabe (getAssetsByNameReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -118,7 +118,7 @@ Syntax
 
 ## Beispiele {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-Dieses Codebeispiel gibt zwei Bildtyp-Assets zurück.
+Dieses Code-Beispiel gibt zwei Bildtyp-Assets zurück.
 
 **Anfrage**
 

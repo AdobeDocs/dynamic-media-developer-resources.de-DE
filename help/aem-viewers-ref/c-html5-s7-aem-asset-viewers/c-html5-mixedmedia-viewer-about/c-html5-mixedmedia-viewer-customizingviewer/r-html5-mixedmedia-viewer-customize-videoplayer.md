@@ -1,6 +1,6 @@
 ---
-title: Videoplayer
-description: Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
+title: Video-Player
+description: Der Video-Player ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,34 +12,34 @@ ht-degree: 0%
 
 ---
 
-# Videoplayer{#video-player}
+# Video-Player{#video-player}
 
-Der Videoplayer ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
+Der Video-Player ist der rechteckige Bereich, in dem der Videoinhalt im Viewer angezeigt wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Wenn die Abmessungen des abgespielten Videos nicht mit den Abmessungen des Videoplayers übereinstimmen, wird der Videoinhalt innerhalb des Anzeigebereichs für das Rechteck des Videoplayers zentriert.
+Wenn die Abmessungen des wiedergegebenen Videos nicht den Abmessungen des Video-Players entsprechen, wird der Videoinhalt im rechteckigen Anzeigebereich des Video-Players zentriert.
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Videoplayers:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Video-Players:
 
 ```
 .s7mixedmediaviewer .s7videoplayer
 ```
 
-**CSS-Eigenschaften des Videoplayers**
+**CSS-Eigenschaften des Video-Players**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Die Hintergrundfarbe des Videoplayers. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Die Hintergrundfarbe des Video-Players. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht wiedergeben kann, kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
+Die Fehlermeldung, die angezeigt wird, wenn das System das Video nicht abspielen kann, kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-Beispiel - So machen Sie den Videoplayer transparent:
+Beispiel - So machen Sie den Video-Player transparent:
 
 ```
 .s7mixedmediaviewer .s7videoplayer { 
@@ -47,7 +47,7 @@ Beispiel - So machen Sie den Videoplayer transparent:
 }
 ```
 
-Untertitel werden im Video-Player in einen internen Container eingefügt. Die Position dieses Containers wird durch unterstützte WebVTT-Positionierungsoperatoren gesteuert. Der Beschriftungstext selbst befindet sich in diesem Container. Der Stil wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Untertitel werden in einen internen Container im Video-Player eingefügt. Die Position dieses Containers wird durch unterstützte WebVTT-Positionierungsoperatoren gesteuert. Der Beschriftungstext selbst befindet sich in diesem Container. Sein Stil wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption
@@ -64,29 +64,29 @@ Untertitel werden im Video-Player in einen internen Container eingefügt. Die Po
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftungstexthintergrund. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Beschriftungstext-Hintergrund. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftungstextfarbe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Textfarbe der Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - So legen Sie fest, dass Beschriftungstext auf einem halbtransparenten schwarzen Hintergrund 14 Pixel hellgraues Arial® sein soll:
+Beispiel : Einrichten von Untertiteltext als hellgraues Arial®-Objekt mit 14 Pixeln auf einem halbtransparenten schwarzen Hintergrund:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption { 
@@ -104,7 +104,7 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
 .s7mixedmediaviewer .s7videoplayer .s7waiticon
 ```
 
-**CSS-Eigenschaften des Wartezeichens**
+**CSS-Eigenschaften des Wartesymbols**
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -115,29 +115,29 @@ Das Erscheinungsbild der Pufferanimation wird mit dem folgenden CSS-Klassenselek
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Breite des Animationssymbols </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p> Höhe des Animationssymbols </p> </td> 
+   <td colname="col2"> <p> Höhe des Animationssymbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> Animationssymbol am linken Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand links </span> </p> </td> 
+   <td colname="col2"> <p> Animationssymbol Linker Rand, normalerweise minus der Hälfte der Breite des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p> Der obere Rand des Animationssymbols, normalerweise minus der Hälfte der Höhe des Symbols. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Oberer Rand des Animationssymbols, normalerweise abzüglich der Hälfte der Höhe des Symbols. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Knob-Grafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p> Knopf-Bildmaterial. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um eine Pufferanimation auf 101 Pixel breit und 29 Pixel hoch einzurichten:
+Beispiel : Zum Einrichten einer Puffer-Animation, sodass sie 101 Pixel breit und 29 Pixel hoch ist:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7waiticon { 

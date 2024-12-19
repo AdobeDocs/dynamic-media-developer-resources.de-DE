@@ -1,5 +1,5 @@
 ---
-description: Nur zur internen Verwendung. Weitere Informationen finden Sie im Abschnitt Referenz-Katalogattribute für Bild-Rendering-Material .
+description: Nur zur internen Verwendung. Siehe den Abschnitt Katalogreferenz-Katalogattribute für das Rendern von Bildern.
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-Nur zur internen Verwendung. Weitere Informationen finden Sie im Abschnitt Referenz-Katalogattribute für Bild-Rendering-Material .
+Nur zur internen Verwendung. Siehe den Abschnitt Katalogreferenz-Katalogattribute für das Rendern von Bildern.
 
 Syntax
 
@@ -31,11 +31,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Einstellungen zur Veröffentlichung von Bildern Sie erhalten möchten. |
-| contextHandle | `xsd:string` | Ja | Umgang mit dem Veröffentlichungskontext. |
+| companyHandle | `xsd:string` | Ja | Der Handler für das Unternehmen, dessen Image-Rendering-Veröffentlichungseinstellungen Sie erhalten möchten. |
+| contextHandle | `xsd:string` | Ja | Verarbeiten Sie den Veröffentlichungskontext. |
 
-**Output (getImageRenderingPublishSettingsReturn)**
+**Ausgabe (getImageRenderingPublishSettingsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| publishSettingsArray | `type:ConfigSettingArray` | Ja | Veröffentlichungseinstellungen für das Bild-Rendering. |
+| publishSettingsArray | `type:ConfigSettingArray` | Ja | Veröffentlichungseinstellungen für das Rendern von Bildern. |

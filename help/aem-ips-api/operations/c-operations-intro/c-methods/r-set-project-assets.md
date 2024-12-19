@@ -5,7 +5,7 @@ title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 18%
@@ -29,15 +29,15 @@ Syntax
 
 ## Parameter {#section-bd51ef23deaf434ba2efb8cef2a8b4a5}
 
-**Input (setProjectAssetsParam)**
+**Eingabe (setProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyName | `xsd:string` | Ja | Handle des Unternehmens. |
-| projectHandle | `xsd:string` | Ja | Projekthandle. |
-| assetHandleArray | `types:HandleArray` | Ja | Das Array der Asset-Handles, die Sie mit dem Projekt verknüpfen möchten. |
+| companyName | `xsd:string` | Ja | Firmengriff. |
+| projectHandle | `xsd:string` | Ja | Projekt-Handle. |
+| assetHandleArray | `types:HandleArray` | Ja | Das Array von Asset-Handles, die mit dem Projekt verknüpft werden sollen. |
 
-**Output (setProjectAssetsReturn)**
+**Ausgabe (setProjectAssetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-33c1a909c3dc4aa98da474c23a036596}
 
-In diesem Codebeispiel wird einem Projekt ein Asset zugewiesen. Die Anfrage gibt eine Erfolgsanzahl von 1 zurück.
+Dieses Code-Beispiel weist einem Projekt ein Asset zu. Die Anfrage gibt eine Erfolgsanzahl von eins zurück.
 
 **Anfrage**
 

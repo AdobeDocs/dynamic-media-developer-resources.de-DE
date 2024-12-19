@@ -1,11 +1,11 @@
 ---
 title: videoServerUrl
-description: URL-Befehl für Video-Viewer.
+description: URL-Befehl für den Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 2bcbe117-14a3-42c8-bdd3-790b32bb757c
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # videoServerUrl{#videoserverurl}
 
-URL-Befehl für Video-Viewer.
+URL-Befehl für den Video-Viewer.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -22,7 +22,7 @@ URL-Befehl für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Der Stammpfad des Videoservers. Wenn keine Domäne angegeben ist, wird stattdessen die Domäne angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
+   <td colname="col2"> <p> Den Stammverzeichnis des Videoservers. Wenn keine Domain angegeben ist, wird stattdessen die Domain angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
   </tr> 
  </tbody> 
 </table>

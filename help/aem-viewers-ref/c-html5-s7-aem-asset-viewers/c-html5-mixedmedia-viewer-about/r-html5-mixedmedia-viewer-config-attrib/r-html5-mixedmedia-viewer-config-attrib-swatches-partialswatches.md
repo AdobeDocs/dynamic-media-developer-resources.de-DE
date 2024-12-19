@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1ec5fe6f-6257-4f5e-90eb-bbd068b37e3d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Gibt an, ob die Komponente das Scrollen stoppt, wenn eines der Muster teilweise sichtbar ist (Scrollen ist nicht ausgerichtet). Der empfohlene Wert ist <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Gibt an, ob der Bildlauf in der Komponente gestoppt werden kann, wenn ein Farbfeld teilweise sichtbar ist (Bildlauf ist nicht ausgerichtet). Der empfohlene Wert lautet <span class="codeph"> false</span> oder <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -19,5 +19,5 @@ In diesem Abschnitt werden die Katalogdatenfelder beschrieben.
 * [Image_SVG data](r-image-svg-data.md)
 * [Statische Inhaltsdaten](r-static-contents-data.md)
 * [Makrodefinitionen](r-macro-definitions.md)
-* [Schriftzuordnungen](r-font-maps.md)
-* [ICC-Profilkarten](r-icc-profile-maps.md)
+* [Schriftartenkarten](r-font-maps.md)
+* [ICC-Profilzuordnungen](r-icc-profile-maps.md)

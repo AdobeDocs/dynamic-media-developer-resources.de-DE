@@ -1,5 +1,5 @@
 ---
-description: Legt ein XMP Metadatenpaket für ein Asset fest oder aktualisiert es.
+description: Legt ein XMP-Metadatenpaket für ein Asset fest oder aktualisiert es.
 solution: Experience Manager
 title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # updateXMPPacket{#updatexmppacket}
 
-Legt ein XMP Metadatenpaket für ein Asset fest oder aktualisiert es.
+Legt ein XMP-Metadatenpaket für ein Asset fest oder aktualisiert es.
 
 Syntax
 
@@ -30,13 +30,13 @@ Syntax
 
 ## Parameter {#section-7a89621d441840faba639746b410a489}
 
-**Input (updateXMPPacketParam)**
+**Eingabe (updateXMPPacketParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
-| compressionPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP Paket, das Sie einstellen oder aktualisieren möchten. |
+| compactPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP-Paket, das Sie festlegen oder aktualisieren möchten. |
 
 **Ausgabe (updateXMPPacketReturn)**
 

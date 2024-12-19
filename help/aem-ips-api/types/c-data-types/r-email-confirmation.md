@@ -1,11 +1,11 @@
 ---
-description: Sendet eine E-Mail an einen angegebenen Empfänger als Antwort auf einen cdnCacheInvalidation-Vorgang.
+description: Sendet als Antwort auf einen cdnCacheInvalidation-Vorgang eine E-Mail an einen angegebenen Empfänger.
 solution: Experience Manager
 title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # [!DNL EmailConfirmation]{#emailconfirmation}
 
-Sendet eine E-Mail an einen angegebenen Empfänger als Antwort auf einen cdnCacheInvalidation-Vorgang.
+Sendet als Antwort auf einen cdnCacheInvalidation-Vorgang eine E-Mail an einen angegebenen Empfänger.
 
 Syntax
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ccOriginator | `xsd:boolean` | Wenn der Wert &quot;true&quot;lautet, enthält das Webdienst-Benutzerkonto des Benutzers, d. h. eine Liste mit E-Mails, die vom Dynamic Media-CDN per E-Mail bestätigt werden sollen. |
-| ccOthersArray | `types:EmailArray` | Eine Gruppe von E-Mail-Adressen (maximal 5), die die Bestätigungsbenachrichtigung vom Dynamic Media CDN erhalten. |
+| ccOriginator | `xsd:boolean` | Wenn „true“, enthält das Web-Service-Benutzerkonto des Benutzers, d. h. eine Liste von E-Mails, die zum Empfang einer E-Mail-Bestätigung vom Dynamic Media CDN vorgesehen sind. |
+| ccOthersArray | `types:EmailArray` | Ein Array von E-Mail-Adressen (maximal 5), die für den Empfang der Bestätigungsbenachrichtigung vom Dynamic Media CDN vorgesehen sind. |

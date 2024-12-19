@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:TaskItemProgress` | Fortschrittsarray des Aufgabenelements. Das minimale Vorkommen ist null. Maximum ist unbegrenzt. |
+| Elemente | `types:TaskItemProgress` | Array für den Aufgabenelementfortschritt. Minimales Vorkommen ist Null. Maximum ist ungebunden. |

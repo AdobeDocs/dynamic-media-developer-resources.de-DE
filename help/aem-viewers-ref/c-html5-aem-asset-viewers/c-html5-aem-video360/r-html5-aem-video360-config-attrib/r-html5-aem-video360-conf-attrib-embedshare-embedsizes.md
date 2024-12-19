@@ -1,6 +1,6 @@
 ---
 title: EmbedShare.embedsizes
-description: Konfigurationsattribut für Video360 Viewer.
+description: Konfigurationsattribut für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,25 +14,25 @@ ht-degree: 5%
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Konfigurationsattribut für Video360 Viewer.
+Konfigurationsattribut für Video360-Viewer.
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
 
-Gibt eine Liste der Einbettungsgrößen für das Kombinationsfeld &quot;Größe&quot;im modalen Dialogfeld für die Einbettungsfreigabe an.
+Gibt eine Liste der Einbettungsgrößen für das Kombinationsfeld Größe im modalen Einbettungsfreigabedialogfeld an.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Breite </span> </span> </p> </td> 
-   <td colname="col2"> <p> Einbettungsbreite. </p> </td> 
+   <td colname="col2"> <p> Breite einbetten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Höhe </span> </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Einbettung. </p> </td> 
+   <td colname="col2"> <p>Einbettungshöhe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob dieses Listenelement zunächst im Kombinationsfeld vorausgewählt werden soll. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob dieses Listenelement im Kombinationsfeld vorab ausgewählt werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Client-Cache-TTL für Nicht-Bild-Antworten. Bietet das Ablaufintervall für bestimmte Nicht-Bild-Antworten.
+description: Client-Cache-TTL für Nicht-Bildantworten. Stellt das Ablaufintervall für bestimmte Nicht-Bildantworten bereit.
 solution: Experience Manager
 title: NonImgExpiration
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # NonImgExpiration{#nonimgexpiration}
 
-Client-Cache-TTL für Nicht-Bild-Antworten. Bietet das Ablaufintervall für bestimmte Nicht-Bild-Antworten.
+Client-Cache-TTL für Nicht-Bildantworten. Stellt das Ablaufintervall für bestimmte Nicht-Bildantworten bereit.
 
-Bietet das Ablaufintervall für bestimmte Nicht-Bild-Antworten, einschließlich der Antworten auf die folgenden Befehle:
+Stellt das Ablaufintervall für bestimmte Nicht-Bildantworten bereit, einschließlich der Antworten, die als Antwort auf die folgenden Befehle gesendet werden:
 
 * `req=imageset`
 * `req=catalogprops`
@@ -26,13 +26,13 @@ Bietet das Ablaufintervall für bestimmte Nicht-Bild-Antworten, einschließlich 
 
 ## Eigenschaften {#section-d37e3113f4b1468b86b5a14e80d94c83}
 
-Real number, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung der Antwortdaten. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching für standardmäßige Bildantworten effektiv deaktiviert wird. Auf -1 setzen, um als *niemals abläuft* zu markieren.
+Reelle Zahl, 0 oder höher. Anzahl der Stunden bis zum Ablauf der Gültigkeit seit Generierung der Antwortdaten. Auf 0 gesetzt, um das Antwortbild immer sofort ablaufen zu lassen, wodurch die Client-Zwischenspeicherung für standardmäßige Bildantworten effektiv deaktiviert wird. Legen Sie ihn auf -1 fest, um dies als &quot;*läuft nie ab* zu kennzeichnen.
 
 ## Standard {#section-96981360c0234b7f824d2ff7c25a7954}
 
-Wird von `default::NonImgExpiration` übernommen, wenn nicht definiert oder leer.
+Von `default::NonImgExpiration` geerbt, wenn nicht definiert oder leer.
 
-TTL (Time-To-Live) ist die Dauer, bevor der Cache abläuft. Die standardmäßige TTL beträgt 6 Minuten.
+TTL (Time-To-Live) ist die Dauer vor Ablauf des Cache. Die Standard-TTL beträgt 6 Minuten.
 
 ## Verwandte Themen {#section-4549c5594a5547beb8b129ec8d0e6aa6}
 

@@ -1,11 +1,11 @@
 ---
 title: FlyoutZoomView.imagereload
-description: Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft.
+description: Konfiguriert, wie die Komponente während der Größenanpassung neue Bilder für die Haupt- und Flyout-Ansicht abruft.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1bb57c89-4ceb-40d6-8054-d51c1573431c
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft.
+Konfiguriert, wie die Komponente während der Größenanpassung neue Bilder für die Haupt- und Flyout-Ansicht abruft.
 
 ` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`width`*[; *`width`*]]`
 
@@ -22,11 +22,11 @@ Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p>Wenn der Wert auf <span class="codeph"> 0 </span> festgelegt ist, lädt die Komponente keine neuen Bilder während der Größenanpassung und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Wenn auf <span class="codeph"> 1 </span> gesetzt, können Sie einen oder mehrere Breitenhaltepunkte für das Bild angeben, das in die Hauptansicht geladen wird. </p> </td> 
+   <td colname="col2"> <p>Wenn auf <span class="codeph"> 0 </span> festgelegt, lädt die Komponente während der Größenanpassung keine neuen Bilder und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Bei Einstellung auf <span class="codeph"> 1 können </span> einen oder mehrere Breitenhaltepunkte für das Bild angeben, das in die Hauptansicht geladen wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Breakpoint, <span class="varname"> Breite </span>[; <span class="varname"> Breite </span>] </span> </p> </td> 
-   <td colname="col2"> <p>Breiten-Haltepunkte für das Bild, das in die Hauptansicht geladen wird. Die Komponente verwendet immer die beste Anpassungsgröße für das anfängliche Laden. Nach der Größenanpassung wird sichergestellt, dass das Bild in der Hauptansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Breakpoint entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
+   <td colname="col2"> <p>Breitenhaltepunkte für das Bild, das in die Hauptansicht geladen wird. Die Komponente verwendet immer die optimale Einpassungsgröße für die Erstauslastung. Nach der Größenanpassung wird sichergestellt, dass das Bild in der Hauptansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Breakpoint entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

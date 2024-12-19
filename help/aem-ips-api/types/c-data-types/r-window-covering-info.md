@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines Fensters, das die Datei abdeckt.
+description: Eigenschaften einer Fensterabdeckungsdatei.
 solution: Experience Manager
 title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL WindowCoveringInfo]{#windowcoveringinfo}
 
-Eigenschaften eines Fensters, das die Datei abdeckt.
+Eigenschaften einer Fensterabdeckungsdatei.
 
 Syntax
 
@@ -26,6 +26,6 @@ Syntax
 | originalFile | `xsd:string` | Dateiname. |
 | fileSize | `xsd:int` | Dateigröße. |
 | imagePath | `xsd:string` | Relativer Pfad zum Bild. |
-| imageFile | `xsd:string` | Dateiname des Fensters, in dem das Bild dargestellt wird. |
-| optimizedPath | `xsd:string` | Optimierter Pfad zur Datei. |
+| imageFile | `xsd:string` | Dateiname des das Bild abdeckenden Fensters. |
+| optimizedPath | `xsd:string` | Der Pfad zur Datei wurde optimiert. |
 | optimizedFile | `xsd:string` | Optimierter Dateiname. |

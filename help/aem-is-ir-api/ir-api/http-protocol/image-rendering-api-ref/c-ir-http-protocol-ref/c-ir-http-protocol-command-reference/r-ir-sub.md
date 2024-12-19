@@ -1,20 +1,20 @@
 ---
-title: sub
-description: Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe und das Entfernen zuvor angewendeter Materialien.
+title: Untergruppe
+description: Unterauswahl. Ermöglicht das Aufbringen verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der Gruppe und das Entfernen zuvor angewendeter Materialien.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 6%
 
 ---
 
-# sub{#sub}
+# Untergruppe{#sub}
 
-Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der ausgewählten Gruppe und das Entfernen zuvor angewendeter Materialien.
+Unterauswahl. Ermöglicht das Aufbringen verschiedener Materialien auf verschiedene Bereiche des ausgewählten Objekts oder der Gruppe und das Entfernen zuvor angewendeter Materialien.
 
 `sub=0|1|2|3|4|5`
 
@@ -33,25 +33,25 @@ Unterauswahl. Ermöglicht das Anwenden verschiedener Materialien auf verschieden
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Wählen Sie den oberen Randbereich aus. </p> </td> 
+  <td class="stentry"> <p>Wählen Sie den oberen Wandrahmenbereich aus. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Wählen Sie den mittleren Randbereich aus. </p> </td> 
+  <td class="stentry"> <p>Wählen Sie den Randbereich der mittleren Wand aus. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Wählen Sie den unteren Randbereich aus. </p> </td> 
+  <td class="stentry"> <p>Wählen Sie den unteren Wandrahmenbereich aus. </p> </td> 
  </tr> 
 </table>
 
-Derzeit nur für Wandobjekte unterstützt. Beendet einen vorhergehenden MSS und startet einen neuen MSS für das Material, das auf die angegebene Unterauswahl angewendet werden soll.
+Wird derzeit nur für Wandobjekte unterstützt. Beendet eine vorherige MS und startet eine neue MS für das Material, das auf die angegebene Unterauswahl angewendet werden soll.
 
-Ein für die obere oder untere Wand bestimmtes Material gilt für die gesamte Wand, es sei denn, es wurde auch ein anderes Material für die andere Hälfte der Wand angegeben.
+Ein für die obere oder untere Wand festgelegtes Material gilt für die gesamte Wand, es sei denn, es wurde auch ein anderes Material für die andere Hälfte der Wand festgelegt.
 
 ## Eigenschaften {#section-b202139d6d0847cc8d520a154104ab9d}
 
-Auswahlbefehl; MSS-Trennzeichen.
+Auswahlbefehl; MS-Trennzeichen.
 
 ## Standard {#section-5b45a167a17c451596e4c59b7d53c368}
 

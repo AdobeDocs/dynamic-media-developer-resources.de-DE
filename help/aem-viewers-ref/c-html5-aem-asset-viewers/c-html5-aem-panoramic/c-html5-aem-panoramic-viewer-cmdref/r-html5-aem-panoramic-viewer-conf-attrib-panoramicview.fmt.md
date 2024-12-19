@@ -1,6 +1,6 @@
 ---
 title: PanoramicView.fmt
-description: Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird.
+description: Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Bildserver verwendet wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet wird. Wenn das angegebene Format mit &quot;-alpha&quot;endet, rendert die Komponente die Bilder als transparent. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. Die Komponente hat standardmäßig einen transparenten Hintergrund. Um es undurchsichtig zu machen, setzen Sie daher die CSS-Eigenschaft `background-color` auf `desired_color`
+Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Bildserver verwendet wird. Wenn das angegebene Format mit &quot;-alpha“ endet, rendert die Komponente die Bilder als transparent. Für alle anderen Bildformate behandelt die Komponente Bilder als undurchsichtig. Die Komponente hat standardmäßig einen transparenten Hintergrund. Um sie undurchsichtig zu machen, setzen Sie daher die `background-color` CSS-Eigenschaft auf `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -21,7 +21,7 @@ Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-S
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Image-Server verwendet werden soll. Wenn das angegebene Format mit "-alpha"endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. Die Komponente hat standardmäßig einen transparenten Hintergrund. Um die CSS-Eigenschaft für die Hintergrundfarbe zu deckeln, legen Sie daher die gewünschte Farbe fest. </p> </td> 
+   <td colname="col2"> <p> Gibt das Bildformat an, das von der Komponente zum Laden von Bildern vom Bildserver verwendet werden soll. Wenn das angegebene Format mit "-alpha“ endet, rendert die Komponente Bilder als transparenten Inhalt; für alle anderen Bildformate behandelt die Komponente Bilder als undurchsichtig. Die Komponente hat standardmäßig einen transparenten Hintergrund. Um die Deckkraft zu erhöhen, legen Sie daher die Eigenschaft background-color CSS auf die gewünschte Farbe fest. </p> </td> 
   </tr> 
  </tbody> 
 </table>

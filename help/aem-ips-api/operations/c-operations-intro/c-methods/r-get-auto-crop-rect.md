@@ -1,5 +1,5 @@
 ---
-description: Gibt einen beschnittenen Bereich für ein Bild basierend auf seiner Hintergrundfarbe oder Transparenz zurück.
+description: Gibt einen zugeschnittenen Bereich für ein Bild basierend auf seiner Hintergrundfarbe oder Transparenz zurück.
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # getAutoCropRect{#getautocroprect}
 
-Gibt einen beschnittenen Bereich für ein Bild basierend auf seiner Hintergrundfarbe oder Transparenz zurück.
+Gibt einen zugeschnittenen Bereich für ein Bild basierend auf seiner Hintergrundfarbe oder Transparenz zurück.
 
 Syntax
 
@@ -30,25 +30,25 @@ Syntax
 
 ## Parameter {#section-965d5973b8344d43a74b3e07cf0b7eb3}
 
-**Input (getAutoCropRectParam)**
+**Eingabe (getAutoCropRectParam)**
 
 >[!NOTE]
 >
->Geben Sie entweder autoColorCropOptions oder autoTransparentCropOptions beim Aufruf dieser Methode an.
+>Geben Sie beim Aufrufen dieser Methode entweder autoColorCropOptions oder autoTransparentCropOptions an.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset, mit dem Sie arbeiten möchten. |
-| assetHandle | `xsd:string` | Ja | Der Handle für das Asset, mit dem Sie arbeiten möchten. |
-| autoColorCropOptions | `types:AutoColorCropOptions` | Nein | Berechnen Sie das Zuschnittrechteck anhand der Farbe. Siehe [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Nein | Berechnen Sie das Zuschnittrechteck auf Grundlage der Transparenz. Siehe [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| companyHandle | `xsd:string` | Ja | Das -Handle an das Unternehmen mit dem Asset, mit dem Sie arbeiten möchten. |
+| assetHandle | `xsd:string` | Ja | Das Handle für das Asset, mit dem Sie arbeiten möchten. |
+| autoColorCropOptions | `types:AutoColorCropOptions` | Nein | Berechnet das Rechteck für den Zuschnitt anhand der Farbe. Siehe [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Nein | Berechnet das Rechteck für den Zuschnitt auf Basis der Transparenz. Siehe [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
-**Output (getAutoCropRectReturn)**
+**Ausgabe (getAutoCropRectReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| xOffset | `xsd:int` | Ja | Die Koordinaten der linken Startpixel des berechneten Zuschnittbereichs. |
-| yOffset | `xsd:int` | Ja | Die anfängliche obere Pixelkoordinate des berechneten Zuschnittbereichs. |
+| xOffset | `xsd:int` | Ja | Die Koordinate der linken Anfangspixel des berechneten Zuschnittbereichs. |
+| yOffset | `xsd:int` | Ja | Die obere Startpixelkoordinate des berechneten Zuschnittbereichs. |
 | Breite | `xsd:int` | Ja | Breite des berechneten Zuschnittbereichs (in Pixel). |
 | Höhe | `xsd:int` | Ja | Höhe des berechneten Zuschnittbereichs (in Pixel). |
 

@@ -18,13 +18,13 @@ Pixelgröße. Wird verwendet, um Bildgrößen oder Rechteckgrößen in Pixel anz
 
 <table id="simpletable_06761BED6FF14C2A83745A78B10D3419"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> size</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Größe</span> </span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> px, py</span> </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> px, py</span> </span> </p></td> 
-  <td class="stentry"> <p>x-, y-Werte in Pixel (int, int) </p></td> 
+  <td class="stentry"> <p>X-, Y-Werte in Pixeln (int, int) </p></td> 
  </tr> 
 </table>
 
-Sowohl *`px`* als auch *`py`* müssen größer als 0 sein. `0,0` kann angeben, dass ein bestimmter Standardwert verwendet werden soll.
+*`px`* und *`py`* müssen größer als 0 sein. `0,0` können darauf hinweisen, dass ein bestimmter Standardwert verwendet werden soll.

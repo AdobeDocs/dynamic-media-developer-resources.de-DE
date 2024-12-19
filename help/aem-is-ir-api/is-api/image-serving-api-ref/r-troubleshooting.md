@@ -1,5 +1,5 @@
 ---
-description: Dieser Abschnitt enthält Lösungen für Probleme, die gelegentlich beim Image Serving aufgetreten sind.
+description: In diesem Abschnitt finden Sie Lösungen zu Problemen, die gelegentlich bei der Bereitstellung von Bildern aufgetreten sind.
 solution: Experience Manager
 title: Fehlerbehebung
 feature: Dynamic Media Classic,SDK/API
@@ -14,45 +14,45 @@ ht-degree: 0%
 
 # Fehlerbehebung{#troubleshooting}
 
-Dieser Abschnitt enthält Lösungen für Probleme, die gelegentlich beim Image Serving aufgetreten sind.
+In diesem Abschnitt finden Sie Lösungen zu Problemen, die gelegentlich bei der Bereitstellung von Bildern aufgetreten sind.
 
 **Allgemein**
 
-ImageServer speichert jetzt ein Installationsprotokoll und einen Sicherungsordner aller Dateien, die während einer Upgrade-Installation geändert wurden. Diese Datei und dieser Ordner befinden sich im Stammverzeichnis des Image Serving-Installationsordners.
+ImageServer führt jetzt ein Installationsprotokoll und einen Backup-Ordner aller Dateien, die während einer Upgrade-Installation geändert wurden. Diese Datei und dieser Ordner befinden sich möglicherweise im Stammverzeichnis des Image-Serving-Installationsverzeichnisses.
 
-**Beim Starten des Image-Servers wird das Startskript mit der Meldung &quot;Start ausstehend&quot;(nur LINUX) angehalten.**
+**Beim Starten des Image-Servers wird das Startskript mit der Meldung „Start ausstehend“ angehalten (nur LINUX)**
 
-Dies kann auf ein Problem mit der Image Serving-Lizenz hindeuten, z. B. eine fehlende Lizenzdatei oder eine abgelaufene temporäre Lizenz. Eine gültige Lizenzdatei muss sich in [!DNL /usr/local/scene7/licenses] befinden.
+Dies kann auf ein Problem mit der Image-Serving-Lizenz hinweisen, z. B. auf eine fehlende Lizenzdatei oder eine abgelaufene temporäre Lizenz. In [!DNL /usr/local/scene7/licenses] muss sich eine gültige Lizenzdatei befinden.
 
-**Der Image-Server stürzt oder stürzt ab und die Image-Server-Protokolldatei zeigt an, dass nicht genügend Speicherplatz vorhanden ist oder dass die Ressource in Datei vorübergehend nicht verfügbar ist [!DNL IgcVirtualMemory.cpp]&quot;**
+**Image-Server stürzt ab oder wird angehalten, und die Image-Server-Protokolldatei zeigt an, dass nicht genügend Speicherplatz vorhanden ist oder „Ressource in Datei [!DNL IgcVirtualMemory.cpp] vorübergehend nicht verfügbar ist“**
 
-Der Grund für diese Fehlermeldung besteht darin, dass Image Server die Menge des konfigurierten Speicherplatzes nicht zugewiesen hat.
+Der Grund für diese Fehlermeldung ist, dass der Image-Server die Menge an Speicher, für die er konfiguriert wurde, nicht zuordnen konnte.
 
-* Überprüfen Sie die Einstellung Physikalischer Speicher in [!DNL ImageServerRegistry.xml]. Es sollte nicht mehr als 50 % betragen, weniger, wenn andere speicherintensive Anwendungen auf demselben System ausgeführt werden. Der Standardwert ist 20 %.
-* Stellen Sie sicher, dass der Swap-Speicherplatz auf dem Server mindestens doppelt so groß ist wie der physische RAM. Diese Probleme können durch Einstellungen mit geringem Austausch verursacht werden.
+* Überprüfen Sie die Einstellung des physischen Speichers in [!DNL ImageServerRegistry.xml]. Es sollte nicht mehr als 50 % betragen, weniger, wenn andere speicherintensive Anwendungen auf demselben System ausgeführt werden. Der Standardwert lautet 20 %.
+* Stellen Sie sicher, dass der Auslagerungsspeicher auf dem Server mindestens doppelt so groß ist wie der physische RAM. Niedrige Swap-Einstellungen können dieses Problem verursachen.
 
-**Der tatsächliche Speicherplatz, der vom Cache-Ordner verwendet wird, überschreitet ` *[!DNL cache.maxSize]*`in[!DNL PlatformServer.conf]** eingestellt
+**Der tatsächliche Speicherplatz, der vom Cache-Ordner belegt wird, überschreitet ` *[!DNL cache.maxSize]*`in festgelegt[!DNL PlatformServer.conf]**
 
-Dies weist nicht auf ein Problem hin. Der Verwaltungsaufwand für das Dateisystem ist nicht in der Cache-Einstellung für den Datenträger von [!DNL Platform Server] enthalten. Der vom System gemeldete Gesamtbetrag kann wesentlich höher sein als die Einstellung. Es wird empfohlen, doppelt so viel Festplattenspeicher wie in ` *[!DNL cache.maxSize]*` angegeben zu reservieren.
+Dies weist nicht auf ein Problem hin. Der Dateisystemmehraufwand ist nicht in der Einstellung für den Datenträger-Cache des [!DNL Platform Server] enthalten. Die vom System gemeldete Gesamtmenge kann erheblich größer sein als die Einstellung. Es wird empfohlen, doppelt so viel Festplattenspeicher zu reservieren, wie in ` *[!DNL cache.maxSize]*` angegeben ist.
 
-**Beschädigte Bilder in den is-docs-Beispielen**
+**Beschädigte Bilder in den Beispielen für is-docs**
 
-Dies tritt auf, wenn der Image-Server nicht ausgeführt wird. Sie tritt auch auf, wenn der Katalogstammpfad oder der Pfad des Stammverzeichnisses für Bilder vom Installationsstandard geändert wurde, die Beispielbilder und -kataloge jedoch nicht an die neuen Speicherorte verschoben wurden. Überprüfen Sie den Wert des Image Server Root Path in den Konfigurationsdateien. Verschieben Sie bei Bedarf den Ordner demo , der die Beispielbilder enthält, in den aktuellen Bildstamm und verschieben Sie [!DNL sample*.*] in den aktuellen Katalogstamm.
+Dies tritt auf, wenn der Bildserver nicht ausgeführt wird. Es tritt auch auf, wenn der Katalogstammpfad oder Bildstammpfad gegenüber der standardmäßigen -Installation geändert wurde, die Beispielbilder und -kataloge jedoch nicht an die neuen Speicherorte verschoben wurden. Überprüfen Sie den Wert für „Image-Server-Stammpfad“ in den Konfigurationsdateien. Verschieben Sie bei Bedarf den Demoordner mit den Beispielbildern in den aktuellen Bildstamm und verschieben Sie [!DNL sample*.*] in den aktuellen Katalogstamm.
 
-In den Beispielen wird außerdem davon ausgegangen, dass bestimmte Einstellungen in [!DNL default.ini] Standard sind (beispielsweise darf die Verschleierung oder Sperrung nicht aktiviert sein).
+In den Beispielen wird außerdem davon ausgegangen, dass bestimmte Einstellungen in [!DNL default.ini] standardmäßig sind (z. B. darf die Verschleierung oder Sperrung nicht aktiviert sein).
 
 **Zu viele Cache-Fehler nach erheblicher Betriebszeit**
 
-Abhängig von der Servernutzung kann die Leistung verbessert werden, indem die Cache-Größe der [!DNL Platform Server] Festplatte erhöht wird, wenn Speicherplatz verfügbar ist. Die Einstellungen können durch manuelles Bearbeiten von Konfigurationsdateien geändert werden. Siehe Dokumentation.
+Je nach Server-Nutzung kann die Leistung durch Vergrößerung [!DNL Platform Server] Festplatten-Cache verbessert werden, wenn Speicherplatz verfügbar ist. Einstellungen können durch manuelles Bearbeiten von Konfigurationsdateien geändert werden. Siehe die Dokumentation.
 
 **Protokolldateien beanspruchen zu viel Speicherplatz**
 
-Image-Server und [!DNL Platform Server] starten täglich eine neue Protokolldatei. Standardmäßig werden diese in [!DNL *[!DNL install_root]*/ImageServing/logs] platziert. Die Größe der Protokolldatei, die Anzahl der beibehaltenen Protokolle und der Protokollinhalt können konfiguriert werden. Siehe Dokumentation.
+Der Bild-Server und [!DNL Platform Server] starten jeden Tag eine neue Protokolldatei. Diese werden standardmäßig in [!DNL *[!DNL install_root]*/ImageServing/logs] abgelegt. Die Größe der Protokolldatei, die Anzahl der gespeicherten Protokolle und der Protokollinhalt können konfiguriert werden. Siehe die Dokumentation.
 
-**Wenn Sie Antivirensoftware auf Ihrem Server installiert haben**
+**Wenn auf Ihrem Server Antiviren-Software installiert ist**
 
-Es wird empfohlen, die Überprüfung auf Image Serving-Verzeichnisse zu deaktivieren. Andernfalls kann das Überprüfen von Lese-/Schreibordnern mit hohem Volumen (wie Cache, Bilder, Schriftarten, Profile und Katalogordner) Probleme verursachen.
+Es wird empfohlen, die Suche nach Image-Serving-Verzeichnissen zu deaktivieren. Andernfalls kann das Scannen von Lese-/Schreibordnern mit hohem Volumen (z. B. Cache, Bilder, Schriftarten, Profile und Katalogverzeichnisse) Probleme verursachen.
 
-**Digimarc verursacht Leistungsprobleme bei Zoombildern**
+**Digimarc verursacht Leistungsprobleme bei Zoom-Bildern**
 
-Verwenden Sie Digimarc nicht für gezoomte Bilder. Die Leistung ist nicht akzeptabel. Erstellen Sie bei Bedarf einen separaten Katalog für Bilder, die zum Zoomen verwendet werden sollen, und deaktivieren Sie Digimarc für diesen Katalog.
+Verwenden Sie Digimarc nicht für gezoomte Bilder. Die Leistung ist nicht akzeptabel. Erstellen Sie ggf. einen separaten Katalog für Bilder, die zum Zoomen verwendet werden sollen, und deaktivieren Sie Digimarc für diesen Katalog.

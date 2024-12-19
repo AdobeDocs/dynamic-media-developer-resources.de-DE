@@ -1,6 +1,6 @@
 ---
-title: grob
-description: Materialrauigkeit. Gibt die relative Rauigkeit der Materialoberfläche an.
+title: rau
+description: Rauhigkeit der Materialoberfläche. Gibt die relative Rauigkeit der Materialoberfläche an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 1%
 
 ---
 
-# grob{#rough}
+# rau{#rough}
 
-Materialrauigkeit. Gibt die relative Rauigkeit der Materialoberfläche an.
+Rauhigkeit der Materialoberfläche. Gibt die relative Rauigkeit der Materialoberfläche an.
 
 ` rough= *`val`*`
 
 <table id="simpletable_432E33EC87144AC7A2A8D9406F862708"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>Oberflächenrauigkeit (0...100 Prozent) oder -1 zur Auswahl der Standardrauigkeit. </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> Val </span> </p> </td> 
+  <td class="stentry"> <p>Oberflächenrauigkeit (0…100 Prozent) oder -1 zur Auswahl der Standardrauigkeit. </p> </td> 
  </tr> 
 </table>
 
-Dient zum Steuern des Rendereffekts der 3D-Reflektion. Niedrigere Rauschwerte führen in der Regel zu weicheren Reflexionseffekten; höhere Werte verursachen Randomisierung und Streuung des reflektierten Bildes.
+Wird zur Steuerung des Render-Effekts der 3D-Reflexion verwendet. Niedrigere Raueitswerte erzeugen typischerweise glattere Reflexionseffekte; höhere Werte bewirken Randomisierung und Streuung des reflektierten Bildes.
 
-Jeder Materialtyp ( `type=`) definiert einen minimalen und maximalen Reflektionseffekt basierend auf Rauigkeit. Bei einigen Materialtypen (z. B. Wandpapier) hat `rough=` nur geringe Auswirkungen auf das Erscheinungsbild der Reflexion, während bei anderen Materialtypen (z. B. Stein oder Keramik) der Effekt wesentlich ausgeprägter ist.
+Jeder Materialtyp (`type=`) definiert einen minimalen und einen maximalen Reflexions-Rendereffekt basierend auf der Rauigkeit. Bei einigen Materialtypen (z. B. Wandpapier) hat `rough=` nur minimale Auswirkungen auf das Aussehen der Reflexion, während bei anderen Materialtypen (z. B. Stein oder Keramik) der Effekt wesentlich ausgeprägter ist.
 
-`rough=-1` Legt die Rauigkeit auf einen serverinternen Standardwert fest (40 % bei typischen Materialtypen).
+`rough=-1` Setzt die Raueit auf einen serverinternen Standardwert (40% für typische Materialtypen).
 
 ## Eigenschaften {#section-515375758b254c80af576271bdb61bb8}
 
-Materialattribut. Wird ignoriert, wenn die Vignette keine 3D-Reflektionsfunktion aufweist, dem Zielobjekt keine 3D-Geometrie zugeordnet ist oder wenn das Zielobjekt keine anderen Objekte in der Szene widerspiegelt.
+Materialattribut. Wird ignoriert, wenn die Vignette keine 3D-Reflexionsfähigkeit hat, wenn dem Zielobjekt keine 3D-Geometrie zugeordnet ist oder wenn das Zielobjekt keine anderen Objekte in der Szene reflektiert.
 
 ## Standard {#section-11861a5e6e8649ee988267d2707fd7cc}
 
-`catalog::Roughness` Wenn das Material auf einem Katalogeintrag basiert, andernfalls ungefähr 40 %.
+`catalog::Roughness` Wenn das Material auf einem Katalogeintrag basiert, ansonsten ca. 40%.
 
 ## Verwandte Themen {#section-d232fff7237443cc95c4bb50cb3d32bb}
 

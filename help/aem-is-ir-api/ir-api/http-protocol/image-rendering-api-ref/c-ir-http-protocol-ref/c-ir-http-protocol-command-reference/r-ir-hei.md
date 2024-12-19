@@ -1,6 +1,6 @@
 ---
 title: hei
-description: Antwortbildhöhe. Gibt die Skalierung des gerenderten Bildes an, sodass die Höhe des Antwortbilds nicht größer als der angegebene Wert ist, wobei das Seitenverhältnis des Bildes beibehalten wird.
+description: Höhe des Antwortbildes. Gibt die Skalierung des gerenderten Bildes an, sodass die Höhe des Antwortbildes nicht größer ist als der angegebene Wert, wobei das Seitenverhältnis des Bildes beibehalten wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,34 +14,34 @@ ht-degree: 1%
 
 # hei{#hei}
 
-Antwortbildhöhe. Gibt die Skalierung des gerenderten Bildes an, sodass die Höhe des Antwortbilds nicht größer als der angegebene Wert ist, wobei das Seitenverhältnis des Bildes beibehalten wird.
+Höhe des Antwortbildes. Gibt die Skalierung des gerenderten Bildes an, sodass die Höhe des Antwortbildes nicht größer ist als der angegebene Wert, wobei das Seitenverhältnis des Bildes beibehalten wird.
 
 `hei= *`val`*`
 
 <table id="simpletable_C3A31CA539DC4D9F8BE50290D1AFA5CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span> </span> </p></td> 
-  <td class="stentry"> <p>Antwortbildhöhe in Pixel (Ganzzahl größer als 0). </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Val</span> </span> </p></td> 
+  <td class="stentry"> <p>Höhe des Antwortbildes in Pixel (Ganzzahl größer als 0). </p></td> 
  </tr> 
 </table>
 
-Das Bild wird nicht eingefügt, wenn sowohl `wid=` als auch `hei=` angegeben sind und Breite/Höhe sich vom Seitenverhältnis des Bildes unterscheiden.
+Das Bild wird nicht aufgefüllt, wenn sowohl `wid=` als auch `hei=` angegeben sind und Breite/Höhe sich vom Seitenverhältnis des Bildes unterscheidet.
 
-`wid=` und `hei=` arbeiten zusammen, um die Größe des vom Server zurückgegebenen Bildes zu definieren. Wenn `scl=` nach `wid=` oder `hei=` in der URL kommt, werden diese Befehle abgebrochen und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
+`wid=` und `hei=` definieren gemeinsam die Größe des vom Server zurückgegebenen Bildes. Wenn `scl=` nach `wid=` oder `hei=` in der URL erfolgt, werden diese Befehle abgebrochen und `scl=` die Größe des vom Server zurückgegebenen Bildes definiert.
 
-Wenn jedoch `wid=` oder `hei=` nach `scl=` in der URL kommt, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
+Wenn `wid=` oder `hei=` jedoch nach dem `scl=` in der URL erfolgt, wird die `scl=` abgebrochen und `wid=`/`hei=` die Größe des vom Server zurückgegebenen Bildes definiert.
 
 >[!NOTE]
 >
->Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
+>Ein Fehler wird zurückgegeben, wenn die berechnete oder standardmäßige Größe des Antwortbildes größer als `attribute::MaxPix` ist.
 
 ## Eigenschaften {#section-6cbc6acd37c847beab84c896ac25280c}
 
-Kann an einer beliebigen Stelle in der Anfrage auftreten. Wenn Sie die Bildgröße mit `wid=`, `hei=` oder `scl=` ändern, wird der im Antwortbild eingebettete Wert für die Druckauflösung nicht geändert. Wird ignoriert, wenn `scl=` nach `wid=` und/oder `hei=` in der Befehlssequenz auftritt.
+Kann überall in der Anfrage auftreten. Durch Ändern der Größe des Bildes mit `wid=`, `hei=` oder `scl=` wird der im Antwortbild eingebettete Wert für die Druckauflösung nicht geändert. Ignoriert, wenn `scl=` nach `wid=` und/oder `hei=` in der Befehlssequenz auftritt.
 
 ## Standard {#section-61043f6c1f5d450883ff9e5eafd95955}
 
-Wenn `wid=`, `hei=` oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die durch `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
+Wenn `wid=`, `hei=` oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die von `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
 
 ## Verwandte Themen {#section-7ba51379f1e2421c92d3592d20a37734}
 

@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines Viewer-SWF-Datei-Assets
+description: Eigenschaften eines Viewer-SWF-Datei-Assets.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-Eigenschaften eines Viewer-SWF-Datei-Assets
+Eigenschaften eines Viewer-SWF-Datei-Assets.
 
 Syntax
 
@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| originalPath | `xsd:string` | Relativer Pfad zur ursprünglich hochgeladenen SWF-Datei. |
+| originalPath | `xsd:string` | Relativer Pfad zur ursprünglich hochgeladenen Viewer-SWF. |
 | originalFile | `xsd:string` | Dateiname der ursprünglichen Viewer-SWF-Datei. |
 | fileSize | `xsd:int` | Dateigröße. |

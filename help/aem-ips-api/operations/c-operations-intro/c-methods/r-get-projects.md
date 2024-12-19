@@ -29,17 +29,17 @@ Syntax
 
 ## Parameter {#section-8d549237b8c440b4872a0a086ddc00a1}
 
-**Input (getProjectsParam)**
+**Eingabe (getProjectsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen. |
 
-**Output (getProjectsReturn)**
+**Ausgabe (getProjectsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| projectArray | `types:ProjectArray` | Ja | Die mit dem Unternehmen verknüpfte Gruppe von Projekten. |
+| projectArray | `types:ProjectArray` | Ja | Die Reihe der mit dem Unternehmen verknüpften Projekte. |
 
 ## Beispiele {#section-8b12d0b948f644f68bf9a16060d3849a}
 

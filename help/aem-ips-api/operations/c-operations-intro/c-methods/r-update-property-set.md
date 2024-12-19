@@ -1,11 +1,11 @@
 ---
-description: Verwendet ein Eigenschaften-Array, um einen Eigenschaftssatz zu aktualisieren.
+description: Verwendet ein Eigenschafts-Array zum Aktualisieren eines Eigenschaftssatzes.
 solution: Experience Manager
 title: updatePropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 12%
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # updatePropertySet{#updatepropertyset}
 
-Verwendet ein Eigenschaften-Array, um einen Eigenschaftssatz zu aktualisieren.
+Verwendet ein Eigenschafts-Array zum Aktualisieren eines Eigenschaftssatzes.
 
 Syntax
 
@@ -32,15 +32,15 @@ Syntax
 
 ## Parameter {#section-98361b063e9c41e8b2f744fabc0e13ed}
 
-**Input (updatePropertySetParam)**
+**Eingabe (updatePropertySetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| setHandle | `xsd:string` | Ja | Behandeln Sie den Eigenschaftssatz. |
-| replaceProperties | `xsd:string` | Nein | Legen Sie auf `true` fest, um Eigenschaften zu ersetzen. |
-| propertyArray | `types:PropertyArray` | Ja | Array mit aktualisierten Eigenschaften für den Eigenschaftssatz. |
+| setHandle | `xsd:string` | Ja | Verarbeiten Sie den Eigenschaftensatz. |
+| replaceProperties | `xsd:string` | Nein | Auf `true` setzen, um Eigenschaften zu ersetzen. |
+| propertyArray | `types:PropertyArray` | Ja | Array von aktualisierten Eigenschaften für den Eigenschaftssatz. |
 
-**Output (updatePropertySetReturn)**
+**Ausgabe (updatePropertySetReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 

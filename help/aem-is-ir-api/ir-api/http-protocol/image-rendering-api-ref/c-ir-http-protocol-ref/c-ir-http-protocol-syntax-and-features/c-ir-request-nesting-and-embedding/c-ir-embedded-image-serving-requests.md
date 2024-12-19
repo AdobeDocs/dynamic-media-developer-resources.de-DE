@@ -1,5 +1,5 @@
 ---
-title: Eingebettete Image-Server-Anforderungen
+title: Anforderungen des eingebetteten Bild-Servers
 description: Eine Image Server (IS)-Anfrage kann als Materialbild verwendet werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Eingebettete Image-Server-Anforderungen{#embedded-image-server-requests}
+# Anforderungen des eingebetteten Bild-Servers{#embedded-image-server-requests}
 
 Eine Image Server (IS)-Anfrage kann als Materialbild verwendet werden.
 
-Geben Sie die Anforderung im Befehl `src=` wie folgt an:
+Geben Sie die Anfrage im `src=` wie folgt an:
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-Beim `is` -Token wird zwischen Groß- und Kleinschreibung unterschieden.
+Beim `is`-Token wird zwischen Groß- und Kleinschreibung unterschieden.
 
-Die verschachtelte Anforderung darf nicht den Stammpfad Image Serving enthalten (typischerweise  [!DNL http:// *[!DNL server]*/is/image/"]), kann aber Vorab-Verarbeitungsregel-Token enthalten.
+Die verschachtelte Anfrage darf nicht den Stammpfad für die Bildbereitstellung enthalten (normalerweise [!DNL http:// *[!DNL server]*/is/image/"]), kann aber Token für Vorverarbeitungsregeln enthalten.
 
-Die folgenden IS-Befehle werden ignoriert, wenn sie in verschachtelten Anforderungen angegeben werden (entweder in der Anforderungs-URL oder in `catalog::Modifier` oder `catalog::PostModifier`):
+Die folgenden IS-Befehle werden ignoriert, wenn sie in verschachtelten Anfragen angegeben werden (entweder in der Anfrage-URL oder in `catalog::Modifier` oder `catalog::PostModifier`):
 
 * `bgc=`
 * `fmt=`
@@ -35,8 +35,8 @@ Die folgenden IS-Befehle werden ignoriert, wenn sie in verschachtelten Anforderu
 * `quantize=`
 * `req=`
 
-Außerdem werden `attribute::MaxPix` und `attribute::DefaultPix` des Bildkatalogs ignoriert, der für die eingebettete IS-Anforderung gilt.
+Ignoriert werden auch die `attribute::MaxPix` und `attribute::DefaultPix` des Bildkatalogs, der für die eingebettete IS-Anfrage gilt.
 
-Wenn das Ergebnisbild der verschachtelten Anforderung Maskendaten (Alpha) enthält, wird es immer an das Material übergeben. Verwenden Sie eine einfarbige Hintergrundbildschicht, um unerwünschte Alpha zu vermeiden.
+Wenn das Ergebnisbild der verschachtelten Anfrage Maskendaten (Alpha) enthält, werden diese immer an das Material übergeben. Verwenden Sie eine einfarbige Hintergrundbildebene, um unerwünschte Alpha-Effekte zu vermeiden.
 
-Das Bildergebnis einer eingebetteten IS-Anforderung kann optional zwischengespeichert werden, indem `cache=on` einbezogen wird. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild innerhalb eines angemessenen Zeitraums in einer anderen Anforderung wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden verlustfrei zwischengespeichert.
+Das Bildergebnis einer eingebetteten IS-Anfrage kann optional zwischengespeichert werden, indem `cache=on` eingeschlossen wird. Standardmäßig ist das Zwischenspeichern von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild in einer anderen Anfrage innerhalb eines angemessenen Zeitraums wiederverwendet wird. Es gilt die standardmäßige Server-seitige Cache-Verwaltung. Daten werden in einem verlustfreien Format zwischengespeichert.

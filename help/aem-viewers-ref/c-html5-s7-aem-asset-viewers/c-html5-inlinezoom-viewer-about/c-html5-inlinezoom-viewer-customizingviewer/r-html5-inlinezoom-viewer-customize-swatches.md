@@ -1,11 +1,11 @@
 ---
 title: Farbfelder
-description: Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite.
+description: Farbfelder bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlaufschaltflächen auf der linken und rechten Seite.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Farbfelder{#swatches}
 
-Muster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite.
+Farbfelder bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlaufschaltflächen auf der linken und rechten Seite.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Bildlaufschaltflächen sind nur dann auf dem Desktop sichtbar, wenn alle Miniaturansichten nicht in die Breite des Containers passen. Auf Mobilgeräten oder wenn Miniaturansichten in die Container-Breite passen, werden keine Bildlauftasten angezeigt.
+Bildlaufschaltflächen sind nur dann auf der Arbeitsfläche sichtbar, wenn nicht alle Miniaturen in die Breite des Containers passen. Auf Mobilgeräten oder wenn Miniaturen in die Container-Breite passen, werden die Bildlaufschaltflächen nicht angezeigt.
 
-**CSS-Eigenschaften der Muster**
+**CSS-Eigenschaften der Farbfelder**
 
-Das Erscheinungsbild des Farbmuster-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Farbfeld-Containers wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7flyoutviewer .s7swatches
@@ -37,7 +37,7 @@ Das Erscheinungsbild des Farbmuster-Containers wird mit der folgenden CSS-Klasse
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Die Breite der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
@@ -45,13 +45,13 @@ Das Erscheinungsbild des Farbmuster-Containers wird mit der folgenden CSS-Klasse
    <td colname="col2"> <p>Die Höhe der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Die vertikalen Farbfelder versetzen sich relativ zum Viewer-Container. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p> Die vertikalen Farbfelder, die relativ zum Viewer-Container versetzt sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Farbfeldern auf 460 x 100 Pixel:
+Beispiel: So richten Sie Farbfelder auf 460 x 100 Pixel ein:
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -60,9 +60,9 @@ Beispiel: Zum Einrichten von Farbfeldern auf 460 x 100 Pixel:
 }
 ```
 
-**CSS-Eigenschaften des Farbrasterabstands für Miniaturansichten**
+**CSS-Eigenschaften des Farbfeldabstands für Miniaturen**
 
-Der Abstand zwischen Musterminiaturansichten wird mit dem CSS-Klassenselektor gesteuert:
+Der Abstand zwischen Musterminiaturen wird mit dem CSS-Klassenselektor gesteuert:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell
@@ -77,13 +77,13 @@ Der Abstand zwischen Musterminiaturansichten wird mit dem CSS-Klassenselektor ge
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand zwischen den Miniaturen entspricht der Summe der linken und rechten Ränder, die für <span class="codeph"> s7thumbcell-</span> festgelegt wurden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Festlegen eines Abstands von 10 Pixel sowohl vertikal als auch horizontal:
+Beispiel: So legen Sie einen Abstand von 10 Pixeln sowohl vertikal als auch horizontal fest:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -91,9 +91,9 @@ Beispiel: Zum Festlegen eines Abstands von 10 Pixel sowohl vertikal als auch hor
 }
 ```
 
-**CSS-Eigenschaften der Muster für Miniaturansichten**
+**CSS-Eigenschaften der Miniaturansichten**
 
-Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild einzelner Miniaturansichten wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb
@@ -108,7 +108,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Die Breite der Miniaturansichten. </p> </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
    <td colname="col2"> <p>Die Höhe der Miniaturansichten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Der Rahmen der Miniaturansichten. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,9 +124,9 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Miniaturansichten angewendet werden. Insbesondere entspricht `state="selected"` der Miniaturansicht des Bildes, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten und `state="over"` beim Bewegen der Maus.
+>„Miniaturansicht“ unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichtszustände angewendet werden können. Insbesondere entspricht `state="selected"` der Miniatur für das Bild, das derzeit in der Hauptansicht angezeigt wird, `state="default"` entspricht dem Rest der Miniaturen, und `state="over"` wird beim Bewegen des Mauszeigers verwendet.
 
-Beispiel: Zum Einrichten von Miniaturansichten mit 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen:
+Beispiel: Für Miniaturen mit einer Größe von 56 x 56 Pixel wird ein hellgrauer Standardrahmen und ein dunkelgrauer Rahmen ausgewählt:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -150,7 +150,7 @@ Das Erscheinungsbild der linken und rechten Bildlaufschaltflächen wird mit den 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Scroll-Schaltflächen können nicht mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` positioniert werden. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,7 +161,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Die Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -169,23 +169,23 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `
    <td colname="col2"> <p>Die Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf die Schaltflächenzustände `up`, `down`, `over` und `disabled` angewendet werden.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf Schaltflächenzustände `up`, `down`, `over` und `disabled` angewendet werden.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) .
+Die QuickInfos für die Schaltfläche können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) für weitere Informationen.
 
-Beispiel: Zum Einrichten von Bildlaufschaltflächen mit einer Größe von 56 x 56 Pixel und unterschiedlicher Grafik für jeden Status:
+Beispiel: So richten Sie Bildlaufschaltflächen ein, die eine Größe von 56 x 56 Pixel aufweisen und unterschiedliche Bildmotive für jeden Status aufweisen:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

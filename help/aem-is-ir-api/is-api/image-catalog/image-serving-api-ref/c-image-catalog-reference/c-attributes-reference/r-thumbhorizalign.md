@@ -1,5 +1,5 @@
 ---
-description: Horizontale Ausrichtung für Miniaturen. Gibt die horizontale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, das durch wid= und hei= oder durch das Attribut DefaultThumbPix angegeben wird.
+description: Horizontale Ausrichtung für Miniaturen. Gibt die horizontale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, angegeben durch wid= und hei= oder durch das Attribut DefaultThumbPix.
 solution: Experience Manager
 title: ThumbHorizAlign
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # ThumbHorizAlign{#thumbhorizalign}
 
-Horizontale Ausrichtung für Miniaturen. Gibt die horizontale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, das durch wid= und hei= oder Attribut::DefaultThumbPix angegeben wird.
+Horizontale Ausrichtung für Miniaturen. Gibt die horizontale Ausrichtung des Miniaturbilds im Rechteck des Antwortbilds an, angegeben durch wid= und hei= oder durch das Attribut::DefaultThumbPix.
 
-Wird nur für Miniaturansichten ( `req=tmb`) verwendet.
+Wird nur für Anfragen von Miniaturansichten verwendet ( `req=tmb`) .
 
 ## Eigenschaften {#section-c98f793986cd4f98a3995615e3b68f76}
 
-Enum. Zulässige Werte sind 1, 2 und 3 für die linke, mittlere und rechte Ausrichtung.
+Aufzählung. Zulässige Werte sind 1, 2 und 3 für die Ausrichtung nach links, Mitte und rechts.
 
 ## Standard {#section-0c06f0d998cb4306868b360a06c32e5b}
 
-Wird von `default::ThumbHorizAlign` übernommen, wenn nicht definiert oder leer.
+Von `default::ThumbHorizAlign` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-a74a13c3643140cf971d7a4275e0fdb3}
 

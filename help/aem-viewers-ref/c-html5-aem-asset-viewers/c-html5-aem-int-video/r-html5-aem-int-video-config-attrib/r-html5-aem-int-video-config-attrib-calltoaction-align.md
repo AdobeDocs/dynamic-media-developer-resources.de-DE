@@ -1,11 +1,11 @@
 ---
 title: CallToAction.align
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 3%
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # CallToAction.align{#calltoaction-align}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[CallToAction.|<containerId>_callToAction.]align=left|center|right`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. </p> <p>Beim Aktionsaufruf wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. </p> <p>Dieser Modifikator gibt an, wie der interne Container für Miniaturansichten horizontal in der Komponente platziert wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> links|Mitte|rechts</span> </p> </td> 
+   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Miniatur-Containers im Komponentenbereich an. </p> <p>Bei einem Aktionsaufruf wird der interne Miniatur-Container so dimensioniert, dass nur eine ganze Anzahl von Miniaturen angezeigt wird. Infolgedessen gibt es einen gewissen Abstand zwischen dem internen Container und den Begrenzungen der externen Komponente. </p> <p>Dieser Modifikator gibt an, wie der Container Interne Miniaturen horizontal innerhalb der Komponente positioniert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

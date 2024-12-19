@@ -1,6 +1,6 @@
 ---
 title: SocialShare.bearing
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # SocialShare.bearing{#socialshare-bearing}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[SocialShare.|<containerId>_socialShare.]bearing=up|down|left|right|fit-vertical|fit-lateral`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Richtung der Folienanimation für Schaltflächencontainer an. Wenn der Wert auf <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span> oder <span class="codeph"> right</span> festgelegt ist, wird das Bedienfeld in die angegebene Richtung ausgeführt, ohne dass zusätzliche Begrenzungen überprüft werden, was dazu führen kann, dass das Bedienfeld durch einen externen Container beschnitten wird. </p> <p>Wenn der Wert auf <span class="codeph"> fit-vertical</span> festgelegt ist, verschiebt die Komponente zunächst die Position des Basisbereichs nach unten von SocialShare. Dann versucht er, das Bedienfeld in eine der folgenden Richtungen von einer solchen Basisposition aus einzurollen: unten, rechts, links. Bei jedem Versuch prüft die Komponente, ob der Bereich durch einen externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und wiederholt die Rollout-Versuche von oben, rechts und links. </p> <p>Wenn der Wert auf <span class="codeph"> fit-lateral</span> festgelegt ist, verwendet die Komponente eine ähnliche Logik, verschiebt jedoch die Basis zuerst nach rechts, versucht dann die Rollout-Richtung nach rechts, nach unten und nach oben. Anschließend verschiebt er die Basis nach links, versucht nach links, nach unten und nach oben die Rollout-Richtung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> oben|unten|links|rechts|vertikal|seitlich anpassen</span> </p> </td> 
+   <td colname="col2"> <p> Gibt die Richtung der Folienanimation für Schaltflächen-Container an. Wenn auf <span class="codeph">up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span> oder <span class="codeph"> right</span> eingestellt, wird das Bedienfeld in die angegebene Richtung ohne zusätzliche Begrenzungsprüfung ausgerollt, was dazu führen kann, dass das Bedienfeld von einem externen Container abgeschnitten wird. </p> <p>Bei Festlegung auf <span class="codeph"> Anpassen-</span> verschiebt die Komponente zunächst die Position des Basispanels nach unten in SocialShare. Anschließend wird versucht, das Bedienfeld in einer der folgenden Richtungen von einem solchen Basisspeicherort aus einzuführen: unten, rechts, links. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld von einem externen Container abgeschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basispanels nach oben zu verschieben und die Rollout-Versuche von oben, rechts und links zu wiederholen. </p> <p>Bei Einstellung von <span class="codeph">Seitenausrichtung</span> verwendet die Komponente eine ähnliche Logik, verschiebt jedoch den Fuß zuerst nach rechts, versucht es in den Rollout-Richtungen nach rechts, unten und oben. Dann wird der Sockel nach links verschoben und versucht nach links, unten und oben in Rollout-Richtungen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

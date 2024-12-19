@@ -20,7 +20,7 @@ Die Hauptansicht besteht aus dem Rotationsbild, wenn das aktuelle Asset ein Rota
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer .s7spinview
@@ -35,13 +35,13 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Rotationsansicht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat der Rotationsansicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - Um die Rotationsansicht transparent zu machen.
+Beispiel: So machen Sie die Rotationsansicht transparent.
 
 ```
 .s7mixedmediaviewer .s7spinview { 

@@ -1,7 +1,7 @@
 ---
-title: Panoramabilder
-description: HTML5 Panorama-Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Betrachters besteht darin, ein kugelförmiges Panorama anzuzeigen, das auch als Panorama bezeichnet wird. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung. Es wurde für Desktops und Mobilgeräte entwickelt. Der Virtual-Reality-Anzeigemodus ist auf Mobilgeräten verfügbar.
-keywords: responsive
+title: Panorama-Betrachter
+description: HTML5 Panoramic Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Viewers ist es, ein kugelförmiges Panorama, auch als äquirektanguläres Bild bekannt, anzuzeigen. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung. Es wurde für Desktop-PCs und mobile Geräte entwickelt. Der Virtual-Reality-Anzeigemodus ist auf unterstützenden Mobilgeräten verfügbar.
+keywords: Responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Panorama{#panoramic}
+# panoramisch{#panoramic}
 
-HTML5 Panorama-Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Betrachters besteht darin, ein kugelförmiges Panorama anzuzeigen, das auch als Panorama bezeichnet wird. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung. Es wurde für Desktops und Mobilgeräte entwickelt. Der Virtual-Reality-Anzeigemodus ist auf Mobilgeräten verfügbar.
+HTML5 Panoramic Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Viewers ist es, ein kugelförmiges Panorama, auch als äquirektanguläres Bild bekannt, anzuzeigen. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung. Es wurde für Desktop-PCs und mobile Geräte entwickelt. Der Virtual-Reality-Anzeigemodus ist auf unterstützenden Mobilgeräten verfügbar.
 
 Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,15 +27,15 @@ Viewer-Typ 514.
 
 ## Verwenden des Panorama-Viewers {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panorama Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfedateien dar, die vom Viewer zur Laufzeit heruntergeladen wurden. Der Satz von Hilfsdateien ist ein JavaScript-Include mit allen HTML5 Viewer SDK-Komponenten, die von diesem Viewer, Assets und CSS verwendet werden.
-HTML5 Panorama-Viewer können sowohl im Popup-Modus mithilfe einer produktionsbereiten HTML-Seite, die mit IS-Viewern bereitgestellt wird, als auch im eingebetteten Modus verwendet werden, wo sie mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
-Die Konfiguration und das Skinning ähneln der anderen HTML5-Viewer. Alle Skins können über benutzerdefiniertes CSS erstellt werden.
+Der HTML5-Panorama-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar, die vom Viewer zur Laufzeit heruntergeladen werden. Der Satz von Hilfsdateien ist ein einzelnes JavaScript-Include in allen HTML5-Viewer-SDK-Komponenten, die von diesem bestimmten Viewer verwendet werden, Assets, CSS.
+HTML5 Panoramic Viewer können sowohl im Popup-Modus mit der produktionsbereiten HTML-Seite, die mit IS-Viewers bereitgestellt wird, als auch im eingebetteten Modus verwendet werden, wo er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
+Die Konfiguration und das Design ähneln denen der anderen HTML5-Viewer. Die gesamte Skin-Erstellung kann mithilfe von benutzerdefiniertem CSS erfolgen.
 
-Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Siehe [Für alle Viewer gemeinsame Befehlsreferenz - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Für alle Viewer gemeinsame Befehlsreferenz - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interagieren mit dem HTML5-Panorama-Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-HTML5 Panorama Viewer unterstützt automatisches Schwenken und Navigieren durch Ziehen oder Gyroskopie.
+Der HTML5 Panoramic Viewer unterstützt das automatische Schwenken und Navigieren durch Ziehen oder Kreiselbewegungen.
 
 <table id="table_panoramic"> 
  <thead> 
@@ -47,71 +47,71 @@ HTML5 Panorama Viewer unterstützt automatisches Schwenken und Navigieren durch 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Desktop </p> </td> 
-   <td colname="col2"> <p>Auto-Schwenken und Ziehen zum Navigieren. </p> </td> 
+   <td colname="col2"> <p>Automatisches Schwenken und Ziehen zum Navigieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Touch-Gerät </p> </td> 
-   <td colname="col2"> <p>Standardmäßig können Sie durch Verschieben und Ziehen navigieren. Navigieren Sie im VR-Rendermodus durch gyroskopische Bewegung (vrrender=true).
+   <td colname="col2"> <p>Standardmäßig zur Navigation durch automatisches Schwenken und Ziehen. Navigieren Sie durch gyroskopische Bewegung im VR-Render-Modus (vrrender=true).
  </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Viewer unterstützt sowohl die Touch-Eingabe als auch die Mauseingabe auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome-, Internet Explorer 11- und Edge-Webbrowser beschränkt.
-Der Panorama-Viewer kann Panoramabilder im VR-Modus (Virtual Reality) rendern, indem er den Viewer angibt. Wenn &quot;vrrender&quot;aktiviert ist, wird ein Panoramabild in geteilten Bildschirmen angezeigt. Ein gängiges Nutzungsszenario wäre, das Bild in einem Mobiltelefon zu bedienen, das in einem Virtual-Reality-Headset montiert ist, und für jedes Auge separate Bilder bereitzustellen. Der Viewer reagiert auf die gyroskopische Bewegung des Kopfes und navigiert durch das Bild.
+Der Viewer unterstützt sowohl Touch-Eingaben als auch Mauseingaben auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
+Der Panorama-Viewer kann Panoramabilder im Virtual-Reality-Modus (VR) rendern, indem er den Render-Modifikator angibt. Wenn das Rendern aktiviert ist, wird ein Panoramabild auf geteilten Bildschirmen angezeigt. Ein gängiger Anwendungsfall wäre die Bereitstellung des Bildes in einem Mobiltelefon, das in einem Virtual-Reality-Headset montiert ist und separate Bilder für jedes Auge bereitstellt. Der Betrachter reagiert auf die Kreiselbewegung des Kopfes und navigiert durch das Bild.
 
-## Einbetten von HTML 5 Panorama-Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Einbetten des HTML5-Panorama-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit. Wenn Sie diesen Link auswählen, wird der Viewer in einem separaten Browser-Fenster geöffnet. In anderen Fällen kann es erforderlich sein, den Viewer in die Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Layout aufweisen oder &quot;responsiv&quot;sein und auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt werden. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei Hauptbetriebsmodi: Popup, Einbettung fester Größe und responsives Einbetten.
+Verschiedene Web-Seiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal enthält eine Webseite einen Link. Wenn Sie auf diesen Link klicken, wird der Viewer in einem separaten Browser-Fenster geöffnet. In anderen Fällen kann es erforderlich sein, den Viewer in die Hosting-Seite einzubetten. Im letzteren Fall kann die Web-Seite ein statisches Layout haben oder „responsiv“ sein und auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt werden. Um diesen Anforderungen gerecht zu werden, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung mit fester Größe und responsive Einbettung.
 
 **Über den Popup-Modus**
 
-Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert oder die Geräteausrichtung geändert wird.
+Im Popup-Modus wird der Viewer in einem separaten Fenster oder einer separaten Registerkarte des Webbrowsers geöffnet. Sie nimmt den gesamten Browser-Fensterbereich in Anspruch und passt sich an, falls die Größe des Browsers geändert oder die Ausrichtung des Geräts geändert wird.
 
-Dieser Modus wird am häufigsten für Mobilgeräte verwendet. Die Webseite lädt den Viewer mit dem JavaScript-Aufruf `window.open()`, der ordnungsgemäß konfigurierten HTML-Komponente oder einer anderen geeigneten Methode.
+Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, eines ordnungsgemäß konfigurierten HTML-Elements oder einer anderen geeigneten Methode.
 
-Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Es heißt [!DNL PanoramicViewer.html] und befindet sich im Unterordner [!DNL html5/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Sie wird als [!DNL PanoramicViewer.html] bezeichnet und befindet sich im [!DNL html5/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
-Die visuelle Anpassung kann durch Anwendung von benutzerdefiniertem CSS erreicht werden.
+Visuelle Anpassung kann durch Anwenden von benutzerdefiniertem CSS erreicht werden.
 
-Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer im neuen Fenster öffnet:
+Im Folgenden finden Sie ein Beispiel für das HTML von Code, durch das der Viewer im neuen Fenster geöffnet wird:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
-**Über Einbettungsmodus mit fester Größe und responsiven Einbettungsmodus**
+**Über den Einbettungsmodus mit fester Größe und den responsiven Einbettungsmodus**
 
-Im eingebetteten Modus wird der Viewer der vorhandenen Web-Seite hinzugefügt, die möglicherweise bereits über Kundeninhalte verfügt, die nicht mit dem Viewer in Verbindung stehen. Der Viewer belegt normalerweise nur einen Teil der Website-Immobilien.
+Im eingebetteten Modus wird der Viewer zu der vorhandenen Web-Seite hinzugefügt, die möglicherweise bereits einige Kundeninhalte enthält, die nicht mit dem Viewer verknüpft sind. Der Viewer belegt normalerweise nur einen Teil des Grundbesitzes von Web-Seiten.
 
-Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Web-Seiten, auf denen das Layout automatisch an den Gerätetyp angepasst wird.
+Die wichtigsten Anwendungsfälle sind Web-Seiten, die für Desktops oder Tablet-Geräte ausgerichtet sind, sowie responsive Web-Seiten, deren Layout automatisch an den Gerätetyp angepasst wird.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Methode eignet sich am besten für Webseiten mit statischem Layout.
+Einbetten in fester Größe wird verwendet, wenn der Viewer nach dem ersten Laden seine Größe nicht ändert. Diese Methode ist die beste Wahl für Web-Seiten mit statischem Layout.
 
-Responsives Einbetten setzt voraus, dass die Größe des Viewers zur Laufzeit angepasst werden muss, wenn die Größe des Containers DIV geändert wird. Der häufigste Anwendungsfall ist das Hinzufügen des Viewers zu einer Webseite, die ein flexibles Layout verwendet.
+Beim responsiven Einbetten wird davon ausgegangen, dass die Größe des Viewers zur Laufzeit entsprechend der Größenänderung seines Container-DIV geändert werden muss. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Web-Seite, die ein flexibles Layout verwendet.
 
-Im responsiven Modus verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite die Größe des Container-DIVs ändert. Wenn die Web-Seite nur die Breite des Container-DIV festlegt und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Methode stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten aufgefüllt werden. Dieser Anwendungsfall ist am häufigsten für Webseiten mit responsiven Layout-Frameworks wie Bootstrap, Foundation und so weiter.
+Im responsiven Modus verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite die Größe ihres Container-DIVs bestimmt. Wenn die Web-Seite nur die Breite des Container-DIV festlegt und seine Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Auf diese Weise wird sichergestellt, dass das Asset perfekt in die Ansicht passt, ohne dass an den Seiten ein Abstand vorhanden ist. Dieser Anwendungsfall ist der häufigste bei Web-Seiten, die responsive Layout-Frameworks wie Bootstrap, Foundation usw. verwenden.
 
-Wenn die Web-Seite andernfalls sowohl die Breite als auch die Höhe für das Container-DIV des Viewers festlegt, füllt der Viewer diesen Bereich und folgt der Größe, die durch das Web-Seiten-Layout angegeben wird. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
+Wenn die Web-Seite jedoch sowohl die Breite als auch die Höhe für das Container-DIV des Viewers festlegt, füllt der Viewer diesen Bereich aus und folgt der vom Web-Seiten-Layout bereitgestellten Größe. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung an die Fenstergröße des Webbrowsers angepasst ist.
 
-**Einbettung fester Größe**
+**Einbetten in fester Größe**
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
+Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
-1. Definieren des Containers `DIV`.
-1. Festlegen der Viewer-Größe
-1. Erstellen und Initialisieren des Viewers.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
+1. Container-`DIV` definieren.
+1. Festlegen der Viewer-Größe.
+1. Viewer erstellen und initialisieren.
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL PanoramicViewer.js] einbeziehen. Die Datei [!DNL PanoramicViewer.js] befindet sich im Unterordner [!DNL html5/js/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL PanoramicViewer.js] einbeziehen. Die [!DNL PanoramicViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und von derselben Domäne bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf dem die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und er von derselben Domain bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf denen die IS-Viewer installiert sind.
 
 Der relative Pfad sieht wie folgt aus:
 
@@ -121,16 +121,16 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Referenzieren Sie nur die JavaScript `include` -Hauptdatei des Viewers auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus dem Kontextpfad `/s7viewers` geladene HTML5 SDK `Utils.js`-Bibliothek (das so genannte konsolidierte SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig durch die Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe hält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
 >
 >
->Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion durch direkte Referenzierung auf alle sekundären JavaScript `include`, die vom Viewer auf der Seite verwendet werden, in Zukunft beeinträchtigt.
+>Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
 
 1. Definieren des Container-DIV.
 
-   Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres DIV-Element hinzu. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird über CSS angegeben.
+   Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres DIV-Element hinzu. Für das DIV-Element muss eine ID definiert sein, da diese ID später an die Viewer-API übergeben wird. Die Größe des DIV wird durch CSS angegeben.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h. die CSS-Eigenschaft `position` ist auf `relative` oder `absolute` festgelegt.
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h. die `position` CSS-Eigenschaft ist auf `relative` oder `absolute` festgelegt.
 
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
@@ -139,11 +139,11 @@ Der relative Pfad sieht wie folgt aus:
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
-1. Viewer-Größe festlegen
+1. Festlegen der Viewer-Größe
 
-   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.`.s7panoramicviewer`
+   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für `.s7panoramicviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.
 
-   Die Größe in CSS kann direkt auf der HTML-Seite oder in der benutzerdefinierten Viewer-CSS-Datei festgelegt werden, die später einem Viewer-Vorgabendatensatz in AOD zugewiesen oder explizit mithilfe des Stilbefehls übergeben wird. Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter Anpassen des Viewers . Nachfolgend finden Sie ein Beispiel für die Definition der statischen Viewer-Größe auf der HTML-Seite:
+   Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festgelegt werden, die später einem Viewer-Vorgabeneintrag in AOD zugewiesen oder explizit mit dem Stilbefehl übergeben wird. Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter Anpassen des Viewers . Nachfolgend finden Sie ein Beispiel für die Definition der statischen Viewer-Größe auf der HTML-Seite:
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -152,23 +152,23 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   `stagesize` -Modifikator kann explizit mit dem Viewer-Initialisierungscode mit der Parametersammlung oder als API-Aufruf übergeben werden, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
+   `stagesize` -Modifikator kann explizit mit dem Viewer-Initialisierungs-Code mit der params-Auflistung oder als API-Aufruf wie im Abschnitt Befehlsreferenz beschrieben übergeben werden, wie hier zu sehen:
 
    ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
-   CSS-basierter Ansatz wird empfohlen und in diesem Beispiel verwendet.
+   Der CSS-basierte Ansatz wird empfohlen und wird in diesem Beispiel verwendet.
 
-1. Erstellen und Initialisieren des Viewers.
+1. Viewer erstellen und initialisieren.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.PanoramicViewer`, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode `init(`) auf einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld containerId verfügen, das den Namen der Viewer-Container-ID und das verschachtelte JSON-Objekt params mit Konfigurationsparametern enthält, die vom Viewer unterstützt werden. In diesem Fall muss für das params-Objekt mindestens die Image Serving-URL als `serverUrl`-Eigenschaft und das erste Asset als Asset-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
+   Wenn Sie die obigen Schritte ausgeführt haben, erstellen Sie eine Instanz `s7viewers.PanoramicViewer` Klasse, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die `init(`)-Methode auf einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über ein Feld containerId verfügen, das den Namen der Viewer-Container-ID und des verschachtelten JSON-Parameterobjekts mit Konfigurationsparametern enthält, die vom Viewer unterstützt werden. In diesem Fall müssen für das Parameterobjekt mindestens die Bildbereitstellungs-URL als `serverUrl` und das anfängliche Asset als Asset-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzigen Codezeile erstellen und starten.
 
-   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder das body `onload()` -Ereignis auf.
+   Es ist wichtig, dass der Viewer-Container zum DOM hinzugefügt wird, damit der Viewer-Code das Container-Element anhand seiner ID finden kann. Einige Browser verzögern die Erstellung von DOM bis zum Ende der Web-Seite. Um maximale Kompatibilität zu erzielen, rufen Sie die `init()`-Methode unmittelbar vor dem schließenden `BODY`-Tag oder im body-`onload()` auf.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Container-Element noch nicht unbedingt Teil des Web-Seiten-Layouts sein. Beispielsweise kann sie mithilfe `display:none` ihr zugewiesenen Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Moment, an dem die Web-Seite das Container-Element wieder zum Layout zurückbringt. Wenn diese Aktion stattfindet, wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. In diesem Beispiel wird davon ausgegangen, dass `panoramicViewer` die Viewer-Instanz, `s7viewer` der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] die Image Serving-URL und [!DNL Scene7SharedAssets/PanoramicImage-Sample] das Asset ist.
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. In diesem Beispiel wird davon ausgegangen, `panoramicViewer` die Viewer-Instanz, `s7viewer` der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] die Bildbereitstellungs-URL und [!DNL Scene7SharedAssets/PanoramicImage-Sample] das Asset ist.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -182,7 +182,7 @@ Der relative Pfad sieht wie folgt aus:
    </script> 
    ```
 
-   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Panorama-Viewer mit einer festen Größe einbettet:
+   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, auf der der Panorama-Viewer mit einer festen Größe eingebettet ist:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -211,9 +211,9 @@ Der relative Pfad sieht wie folgt aus:
     </html>
    ```
 
-**Responsives Design, eingebettet in unbeschränkte Höhe**
+**Responsives Design mit unbegrenzter Höhe**
 
-Mit der responsiven Einbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Container-DIV des Viewers bestimmt. Für die Zwecke dieses Beispiels nehmen wir an, dass die Web-Seite es dem Container-DIV des Viewers ermöglicht, 80 % der Fenstergröße des Webbrowsers zu erreichen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite könnte wie folgt aussehen:
+Bei der responsiven Einbettung verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Container-DIVs des Viewers bestimmt. Nehmen wir für die Zwecke dieses Beispiels an, dass die Web-Seite dem Container-DIV des Viewers ermöglicht, 80 % der Fenstergröße des Webbrowsers zu übernehmen, wobei seine Höhe nicht beschränkt wird. Der Web-Seiten-HTML-Code könnte wie folgt aussehen:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -233,11 +233,11 @@ Mit der responsiven Einbettung verfügt die Web-Seite normalerweise über ein fl
 
 Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung mit fester Größe, mit dem einzigen Unterschied, dass Sie die Viewer-Größe nicht explizit definieren müssen:
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 1. Definieren des Container-DIV.
-1. Erstellen und Initialisieren des Viewers.
+1. Viewer erstellen und initialisieren.
 
-Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Das Container-DIV sollte zum bestehenden DIV &quot;Inhaber&quot;hinzugefügt werden. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind dieselben wie bei der Einbettung in fester Größe. Container-DIV sollte zum vorhandenen „Inhaber“-DIV hinzugefügt werden. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Seitenverhältnis des Viewers mit dem Asset übereinstimmt.
 
 ```html {.line-numbers}
 <!DOCTYPE html>
@@ -267,15 +267,15 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 </html>
 ```
 
-Die folgende Beispielseite veranschaulicht die reale Verwendung responsiver Designs, die mit unbegrenzter Höhe eingebettet werden:
+Die folgende Beispielseite veranschaulicht eine praktischere Verwendung der responsiven Designeinbettung mit unbegrenzter Höhe:
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demostandort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**Responsives Design, das mit definierter Breite und Höhe eingebettet wird**
+**Responsives Design Einbetten mit definierter Breite und Höhe**
 
-Wenn ein responsives Design mit definierter Breite und Höhe eingebettet ist, unterscheidet sich der Webseitenstil. Er stellt dem Inhaber `DIV` beide Größen bereit und zentriert sie im Browserfenster. Außerdem setzt die Webseite die Größe der Elemente `HTML` und `BODY` auf 100 %:
+Wenn ein responsives Design eingebettet wird und Breite und Höhe definiert sind, ist der Web-Seiten-Stil unterschiedlich. Er stellt dem `DIV` „Halter“ beide Größen zur Verfügung und zentriert ihn im Browser-Fenster. Außerdem legt die Web-Seite die Größe des `HTML`- und `BODY` auf 100 % fest:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -301,7 +301,7 @@ height: 60%;
 </html> 
 ```
 
-Die übrigen Einbettungsschritte sind mit der responsiven Einbettung mit uneingeschränkter Höhe identisch. Das resultierende Beispiel lautet
+Die übrigen Einbettungsschritte sind identisch mit responsiven Einbettungen mit unbegrenzter Höhe. Das daraus resultierende Beispiel ist
 
 ```html {.line-numbers}
 <!DOCTYPE html>
@@ -339,11 +339,11 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 </html>
 ```
 
-**Einbetten mit Setter-basierter API**
+**Einbetten mithilfe der Setter-basierten API**
 
-Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit dieser API akzeptiert der Konstruktor keine Parameter und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
+Anstatt die JSON-basierte Initialisierung zu verwenden, ist es möglich, eine Setter-basierte API und einen Nicht-Args-Konstruktor zu verwenden. Mit dieser API übernimmt der Konstruktor keine Parameter und Konfigurationsparameter werden mithilfe von `setContainerId()`-, `setParam()`- und `setAsset()`-API-Methoden mit separaten JavaScript-Aufrufen angegeben.
 
-Das folgende Beispiel zeigt die Einbettung fester Größe in eine setter-basierte API:
+Das folgende Beispiel zeigt die Einbettung fester Größe mit einer Setter-basierten API:
 
 ```html {.line-numbers}
 <!DOCTYPE html>

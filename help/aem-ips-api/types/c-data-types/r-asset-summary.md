@@ -1,11 +1,11 @@
 ---
-title: AssetSummary
-description: Metadaten-Suchergebnisse, die zusammengefasste Informationen über ein Asset enthalten.
+title: Asset-Zusammenfassung
+description: Metadaten-Suchergebnisse, die zusammengefasste Informationen zu einem Asset enthalten.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetSummary]{#assetsummary}
 
-Metadaten-Suchergebnisse, die zusammengefasste Informationen über ein Asset enthalten.
+Metadaten-Suchergebnisse, die zusammengefasste Informationen zu einem Asset enthalten.
 
 Syntax
 
@@ -23,14 +23,14 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | assetHandle | `xsd:string` | Asset-Handle. |
-| Typ | `xsd:string` | Asset-Typ. Die Konstante &quot;Asset-Typen&quot;definiert die möglichen Werte. Optional. |
+| Typ | `xsd:string` | Asset-Typ Die Konstante „Asset-Typen“ definiert die möglichen Werte. Optional. |
 | name | `xsd:string` | Asset-Name. Optional. |
-| Ordner | `xsd:string` | Der Ordner mit dem Asset. |
+| Ordner | `xsd:string` | Der Ordner, der das Asset enthält. |
 | Dateiname | `xsd:string` | Dateiname des Assets. |
-| erstellt | `xsd:dateTime` | Erstellungsdatum des Assets. |
+| erstellt | `xsd:dateTime` | Asset-Erstellungsdatum. |
 | createUser | `xsd:string` | Der Benutzer, der das Asset erstellt hat. |
-| lastModified | `xsd:dateTime` | Das Datum der letzten Aktualisierung des Assets. |
+| lastModify | `xsd:dateTime` | Das Datum der letzten Aktualisierung des Assets. |
 | lastModifyUser | `xsd:string` | Der letzte Benutzer, der das Asset geändert hat. |
 | metadataArray | `types:MetadataArray` | Ein Array von Metadatenwerten, die mit dem Asset verknüpft sind. |
-| Punktstand | `xsd:double` | Definiert die Genauigkeit bei einer Ähnlichkeitssuche (0 = keine Übereinstimmung, 1 = genaue Übereinstimmung). |
-| scoreDetail | `xsd:string` | Sie enthält detaillierte Informationen zu ähnlichen Bereichen als Ergebnis einer Ähnlichkeitssuche. |
+| Punktstand | `xsd:double` | Bestimmt die Präzision bei einer Ähnlichkeitssuche (0 = keine Übereinstimmung, 1 = exakte Übereinstimmung). |
+| scoreDetail | `xsd:string` | Es enthält detaillierte Informationen über ähnliche Bereiche infolge einer Ähnlichkeitssuche. |

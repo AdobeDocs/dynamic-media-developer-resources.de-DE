@@ -1,5 +1,5 @@
 ---
-description: Schriftname. Der Schriftartname, genau wie im RTF \fonttbl-Befehl angegeben.
+description: Name der Schriftart. Der Name der Schriftart, genau wie im Befehl RTF \fonttbl angegeben.
 solution: Experience Manager
 title: Name
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # Name{#name}
 
-Schriftname. Der Schriftartname, genau wie im RTF \fonttbl-Befehl angegeben.
+Name der Schriftart. Der Name der Schriftart, genau wie im Befehl RTF \fonttbl angegeben.
 
 ## Eigenschaften {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die Schriftzuordnung. Dieselbe Schriftart: Der Wert &quot;Name&quot;kann bis zu viermal in derselben Schriftartzuordnungsdatei vorkommen, aber jeder Datensatz muss eine andere Kombination aus `font::Bold` und `font::Italic` Werten aufweisen.
+Text-String Erforderlich. Primärer Indexschlüssel für die Schriftzuordnung. Derselbe font:name-Wert kann bis zu viermal in derselben Schriftzuordnungsdatei auftreten, aber jeder Datensatz muss eine andere Kombination aus `font::Bold`- und `font::Italic` aufweisen.
 
 ## Standard {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 
@@ -27,4 +27,4 @@ Keine.
 ## Verwandte Themen {#section-4c657d025f2a4407b9cb914217a8e64a}
 
 * [font::Bold](r-bold-font.md#reference_F7B017EF67574A29ABFC3954AB64159C)
-* [font::Italic](r-italic-font.md#reference_DC04A532B34A41AF81B0B9644ACFAAD6)
+* [font::italic](r-italic-font.md#reference_DC04A532B34A41AF81B0B9644ACFAAD6)

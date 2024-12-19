@@ -1,7 +1,7 @@
 ---
-description: Unterstützt die Produktfilterung im Vorgang searchAssets .
+description: Unterstützt die Filterung von Nebenprodukten beim SearchAssets-Vorgang.
 solution: Experience Manager
-title: ExcludeByproductArray
+title: ExcludeByProductArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0d238e6a-175d-4efc-b8a9-6b8bc3b65c34
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ExcludeByproductArray]{#excludebyproductarray}
 
-Unterstützt die Produktfilterung im Vorgang searchAssets .
+Unterstützt die Filterung von Nebenprodukten beim SearchAssets-Vorgang.
 
 Syntax
 

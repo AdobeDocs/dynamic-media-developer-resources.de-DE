@@ -1,6 +1,6 @@
 ---
 title: EmailShare.emailurl
-description: Konfigurationsattribut für Video-Viewer.
+description: Konfigurationsattribut für Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 10%
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-Konfigurationsattribut für Video-Viewer.
+Konfigurationsattribut für Video Viewer.
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailURL`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Basis-URL für den Dynamic Media Classic OnDemand-E-Mail-Dienst an. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailURL</span></span> </p> </td> 
+   <td colname="col2"> <p> Gibt die Basis-URL für den Dynamic Media Classic OnDemand-E-Mail-Service an. </p> </td> 
   </tr> 
  </tbody> 
 </table>

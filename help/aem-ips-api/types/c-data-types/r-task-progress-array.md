@@ -1,5 +1,5 @@
 ---
-description: Ein Task-Fortschrittsarray. Enthält Informationen zu Aufgaben zur Videotranskodierung.
+description: Ein Array mit dem Aufgabenstatus. Enthält Informationen zu Videotranskodierungsaufgaben.
 solution: Experience Manager
 title: TaskProgressArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL TaskProgressArray]{#taskprogressarray}
 
-Ein Task-Fortschrittsarray. Enthält Informationen zu Aufgaben zur Videotranskodierung.
+Ein Array mit dem Aufgabenstatus. Enthält Informationen zu Videotranskodierungsaufgaben.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Element | `types:TaskProgress` | Aufgabenfortschrittselemente. Das minimale Vorkommen ist null. Maximales Vorkommen ist unbegrenzt. |
+| Element | `types:TaskProgress` | Elemente des Aufgabenstatus. Minimales Vorkommen ist Null. Maximale Häufigkeit ist unbegrenzt. |

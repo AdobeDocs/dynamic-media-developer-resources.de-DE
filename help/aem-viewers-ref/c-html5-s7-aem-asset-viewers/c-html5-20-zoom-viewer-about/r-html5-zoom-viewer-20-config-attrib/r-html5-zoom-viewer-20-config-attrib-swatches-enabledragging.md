@@ -20,11 +20,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td> <p> Aktiviert oder deaktiviert die Möglichkeit für einen Benutzer, mit der Maus oder durch Berührungsgesten zu scrollen. </p> </td> 
+   <td> <p> Aktiviert oder deaktiviert das Scrollen der Farbfelder mit der Maus oder mithilfe von Touch-Gesten </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Funktionen innerhalb des Bereichs <span class="codeph"> 0-1 </span>. Dies ist ein <span class="codeph"> % </span> -Wert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. Wenn er auf <span class="codeph"> 1 </span> gesetzt ist, bewegt er sich mit der Maus. Wenn es auf <span class="codeph"> 0 </span> gesetzt ist, lässt es Sie sich überhaupt nicht in die falsche Richtung bewegen. </p> </td> 
+   <td> <p> Funktioniert im <span class="codeph"> 0-1 </span>. Es handelt sich um einen </span> von <span class="codeph"> % für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. Wenn er auf <span class="codeph"> 1 </span> eingestellt ist, bewegt er sich mit der Maus. Wenn sie auf <span class="codeph"> 0 </span> eingestellt ist, können Sie sich überhaupt nicht in die falsche Richtung bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

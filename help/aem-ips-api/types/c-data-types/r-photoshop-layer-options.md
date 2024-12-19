@@ -1,5 +1,5 @@
 ---
-description: Photoshop-Bildschichtoptionen.
+description: Optionen für die Photoshop-Bildebene.
 solution: Experience Manager
 title: FotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL PhotoshopLayerOptions]{#photoshoplayeroptions}
 
-Photoshop-Bildschichtoptionen.
+Optionen für die Photoshop-Bildebene.
 
 Syntax
 
@@ -26,4 +26,4 @@ Syntax
 | anchor | `xsd:string` | Auswahl der Photoshop-Ankermodi. |
 | createTemplate | `xsd:boolean` | Ob eine Vorlage aus Photoshop-Ebenen erstellt werden soll. |
 | extractText | `xsd:boolean` | Ob Text als Textebenen extrahiert werden soll. |
-| extendLayers | `xsd:boolean` | Ob Ebenen auf die volle Hintergrundgröße erweitert werden sollen. |
+| Ebenen erweitern | `xsd:boolean` | Gibt an, ob Ebenen auf die volle Hintergrundgröße erweitert werden sollen. |

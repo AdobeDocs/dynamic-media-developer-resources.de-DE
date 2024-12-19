@@ -19,8 +19,8 @@ ht-degree: 16%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> size</span></span> </p> </td> 
-   <td colname="col2"> <p> Die maximale Größe des Bildes, das zum Drucken gesendet wird. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Größe</span></span> </p> </td> 
+   <td colname="col2"> <p> Die maximale Größe des zum Drucken gesendeten Bildes. </p> </td> 
   </tr> 
  </tbody> 
 </table>

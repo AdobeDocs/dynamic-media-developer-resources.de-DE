@@ -1,6 +1,6 @@
 ---
-title: preloadimage
-description: URL-Befehl für Video Image Viewer.
+title: PreLoadingImage
+description: URL-Befehl für den Video Image Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 9%
 
 ---
 
-# preloadimage{#preloadimage}
+# PreLoadingImage{#preloadimage}
 
-URL-Befehl für Video Image Viewer.
+URL-Befehl für den Video Image Viewer.
 
 `preloadImage=0|1`
 
@@ -22,7 +22,7 @@ URL-Befehl für Video Image Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktivieren (1) oder deaktivieren (0) Sie die Funktion zum Vorausfüllen von Bildern. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Bild vorab laden</a>. </p> </td> 
+   <td colname="col2"> <p> Aktivieren (1) oder Deaktivieren (0) der Funktion „Bild vorausfüllen“. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Vorabladen von Bildern</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

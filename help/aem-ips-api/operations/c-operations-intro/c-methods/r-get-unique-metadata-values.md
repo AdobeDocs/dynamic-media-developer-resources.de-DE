@@ -5,7 +5,7 @@ title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 24%
@@ -30,14 +30,14 @@ Syntax
 
 ## Parameter {#section-b9d1413811c24566b6d095701f0f66db}
 
-**Input (getUniqueMetadataValuesParam)**
+**Eingabe (getUniqueMetadataValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| fieldHandle | `xsd:string` | Nein | Umgang mit Metadatenfeldern. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
+| fieldHandle | `xsd:string` | Nein | Verarbeiten Sie das -Metadatenfeld. |
 
-**Output (getUniqueMetadataValuesReturn)**
+**Ausgabe (getUniqueMetadataValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntax
 
 ## Beispiele {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-In diesem Codebeispiel wird ein Feld-Handle verwendet, um bestimmte Metadatenwerte zurückzugeben.
+Dieses Codebeispiel verwendet ein Feld-Handle, um bestimmte Metadatenwerte zurückzugeben.
 
 **Anfrage**
 

@@ -1,5 +1,5 @@
 ---
-description: Standardmäßige Client-Cache-Zeit für die Live-Schaltung. Bietet ein standardmäßiges Ablaufintervall für den Fall, dass ein bestimmter Katalogdatensatz keinen gültigen Katalogablaufwert enthält.
+description: Standardmäßige Gültigkeitsdauer des Client-Cache. Bietet ein standardmäßiges Ablaufintervall für den Fall, dass ein bestimmter Katalogeintrag keinen gültigen Katalog-Ablaufwert enthält.
 solution: Experience Manager
 title: Ablauf
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # Ablauf{#expiration}
 
-Standardmäßige Client-Cache-Zeit für die Live-Schaltung. Bietet ein standardmäßiges Ablaufintervall, falls ein bestimmter Katalogdatensatz keinen gültigen Katalogwert enthält::Expiration -Wert.
+Standardmäßige Gültigkeitsdauer des Client-Cache. Bietet ein standardmäßiges Ablaufintervall für den Fall, dass ein bestimmter Katalogeintrag keinen gültigen Wert für catalog:expiration enthält.
 
 ## Eigenschaften {#section-063be3b2f13a48a3a5ab8080718e9812}
 
-Real number, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung der Antwortdaten. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als `never expire` zu markieren.
+Reelle Zahl, 0 oder höher. Anzahl der Stunden bis zum Ablauf der Gültigkeit seit Generierung der Antwortdaten. Auf 0 gesetzt, um das Antwortbild immer sofort ablaufen zu lassen, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 gesetzt, um als `never expire` zu markieren.
 
 ## Standard {#section-f55308b195c04083996f6717c8537634}
 
-Wird von `default::Expiration` übernommen, wenn nicht definiert oder leer.
+Von `default::Expiration` geerbt, wenn nicht definiert oder leer.
 
-TTL (Time-To-Live) ist die Dauer, bevor der Cache abläuft. Die standardmäßige TTL beträgt 10 Stunden.
+TTL (Time-To-Live) ist die Dauer vor Ablauf des Cache. Die Standard-TTL beträgt 10 Stunden.
 
 ## Verwandte Themen {#section-b2411d99ddb14115ad475d506efd8967}
 

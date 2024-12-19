@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 10%
@@ -27,19 +27,19 @@ Syntax
 
 ## Parameter {#section-93107d87f1b24fc8ad276dfee5e30b63}
 
-**Input (getUserCharsParam)**
+**Eingabe (getUserCharsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| charField | `xsd:string` | Ja | Bestimmt den Papierkorbsstatus, nach dem gesucht werden soll. |
-| includeInactive | `xsd:boolean` | Ja | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
-| includeInvalid | `xsd:boolean` | Nein | Ungültige Benutzer ein- oder ausschließen. |
+| charField | `xsd:string` | Ja | Legt den zu suchenden Papierkorb-Status fest. |
+| includeInaktiv | `xsd:boolean` | Ja | Ein- oder Ausschließen von inaktiven Benutzern. Nicht-IPS-Admin-Benutzer müssen aktive Mitglieder mindestens eines Unternehmens sein, um API-Aufrufe ausführen zu können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
+| includeInvalid | `xsd:boolean` | Nein | Ein- oder Ausschließen von ungültigen Benutzern. |
 | companyHandleArray | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Unternehmen. |
-| groupHandleArray | `types:HandleArray` | Nein | Filtert Ergebnisse anhand von Gruppen. |
-| userRoleArray | `types:StringArray` | Nein | Filtert Ergebnisse basierend auf der Benutzerrolle. |
+| groupHandleArray | `types:HandleArray` | Nein | Filtert Ergebnisse nach Gruppen. |
+| userRoleArray | `types:StringArray` | Nein | Filtert Ergebnisse nach Benutzerrolle. |
 | numChars | `xsd:int` | Nein | Aktivieren Sie >1 Zeichen. |
 
-**Output (getUserCharsReturn)**
+**Ausgabe (getUserCharsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,13 +47,13 @@ Syntax
 
 ## Beispiele {#section-3702f165e8b041139a6144f4a76ca25f}
 
-Dieses Codebeispiel gibt zurück:
+Dieses Code-Beispiel gibt zurück:
 
-* Die ersten Zeichen der Nachnamen der Benutzer eines bestimmten Unternehmens.
-* Eine Gruppe von Gruppen.
+* Erste Zeichen der Nachnamen der Benutzer eines bestimmten Unternehmens.
+* Eine Gruppe.
 * Eine Reihe von Benutzerrollen.
 
-Die String-Konstante Benutzerzeichenfilter Felder bestimmt den Typ der zurückgegebenen Benutzerzeichen.
+Die Zeichenfolgenkonstante des Benutzerzeichenfilters bestimmt den Typ der zurückgegebenen Benutzerzeichen.
 
 **Anfrage**
 

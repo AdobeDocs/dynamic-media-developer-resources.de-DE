@@ -1,6 +1,6 @@
 ---
 title: initialFrame
-description: Parameter, die allen Viewern gemeinsam sind.
+description: Für alle Viewer gemeinsamer Parameter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # initialFrame{#initialframe}
 
-Parameter, die allen Viewern gemeinsam sind.
+Für alle Viewer gemeinsamer Parameter.
 
 >[!NOTE]
 >
->Dieser Befehl gilt nicht für den Video-Bild-Viewer.
+>Dieser Befehl gilt nicht für den Videobild-Viewer.
 
 ` initialFrame= *`frameIdx`*[ *`,pageIdx`*]`
 
@@ -26,11 +26,11 @@ Parameter, die allen Viewern gemeinsam sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen nullbasierten Bildindex an, der beim Laden des Viewers angezeigt wird. </p> </td> 
+   <td colname="col2"> <p> Gibt einen Null-basierten Frame-Index an, den der Viewer beim Laden anzeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdX</span></span> </p> </td> 
-   <td colname="col2"> <p>Ein nullbasierter Index der Seite innerhalb des Streams, wenn das Gerät im Hochformat ausgerichtet ist. Bei einer Umgebung von links nach rechts bedeutet <span class="codeph"> 0</span> "linke Seite"und <span class="codeph"> 1</span> "rechte Seite". Bei einer Umgebung von rechts nach links ist sie umgekehrt: <span class="codeph"> 0</span> bedeutet "rechte Seite"und <span class="codeph"> 1</span> bedeutet "linke Seite". </p> <p>Wenn nichts angegeben ist, wird standardmäßig <span class="codeph"> 0</span> angenommen. Wird ignoriert, wenn das Gerät im Querformat ausgerichtet ist. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> pageId</span></span> </p> </td> 
+   <td colname="col2"> <p>Ein Index auf der Basis Null der Seite innerhalb des Spreads, wenn das Gerät im Hochformat ist. Für eine „von links nach rechts“-Umgebung bedeutet <span class="codeph"> 0</span> „linke Seite“ und <span class="codeph"> 1</span> „rechte Seite“. Bei einer Umgebung mit Rechts-nach-links-Schreibrichtung ist dies das Gegenteil: <span class="codeph"> 0 </span> „rechte Seite“ und <span class="codeph"> 1 </span> „linke Seite“. </p> <p>Wenn kein Wert angegeben ist, wird standardmäßig <span class="codeph"> 0</span> angenommen. Wird ignoriert, wenn sich das Gerät im Querformat befindet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,7 +41,7 @@ Optional.
 
 ## Standard {#section-d411e450028c460392cb8508f8ccc5d9}
 
-Kein Standardwert.
+Kein Standard.
 
 ## Beispiel {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 

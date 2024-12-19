@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:ImageSetMemberUpdate` | Das Array des Bildset-Mitglieds wird aktualisiert. |
+| Elemente | `types:ImageSetMemberUpdate` | Das Array von Bildset-Elementen wird aktualisiert. |

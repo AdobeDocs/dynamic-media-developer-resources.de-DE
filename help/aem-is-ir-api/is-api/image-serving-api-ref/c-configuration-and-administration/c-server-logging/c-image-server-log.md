@@ -1,5 +1,5 @@
 ---
-description: Der Image-Server schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen und die Start- und Herunterfahren-Ereignisse aufzuzeichnen.
+description: Der Image-Server schreibt Einträge in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen und die Start- und Herunterfahrereignisse aufzuzeichnen.
 solution: Experience Manager
 title: Image-Server-Protokoll
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Image-Server-Protokoll{#image-server-log}
 
-Der Image-Server schreibt Datensätze in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen und die Start- und Herunterfahren-Ereignisse aufzuzeichnen.
+Der Image-Server schreibt Einträge in diese Protokolldatei, um Warnungen und Fehler aufzuzeichnen und die Start- und Herunterfahrereignisse aufzuzeichnen.
 
-Darüber hinaus kann das Image-Server-Protokoll so konfiguriert werden, dass es wesentliche zusätzliche Details wie Bilddateizugriffe verfolgt, um Serverprobleme zu beheben.
+Darüber hinaus kann das Image-Server-Protokoll so konfiguriert werden, dass es wichtige zusätzliche Details wie den Zugriff auf Bilddateien verfolgt, um das Debugging von Server-Problemen zu erleichtern.
 
-Das Image-Server-Protokoll wird in [!DNL ImageServerRegistry.xml] konfiguriert.
+Das Image-Server-Protokoll ist in [!DNL ImageServerRegistry.xml] konfiguriert.

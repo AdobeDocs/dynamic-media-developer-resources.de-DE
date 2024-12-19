@@ -1,6 +1,6 @@
 ---
-title: HTTP-Protokollreaktionsdaten
-description: Beim Rendern von Bildern werden HTTP/1.1-Antwortheader generiert.
+title: HTTP-Protokollantwortdaten
+description: Das Bild-Rendering generiert HTTP/1.1-Antwort-Header.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# HTTP-Protokollreaktionsdaten{#http-protocol-response-data}
+# HTTP-Protokollantwortdaten{#http-protocol-response-data}
 
-Beim Rendern von Bildern werden HTTP/1.1-Antwortheader generiert.
+Das Bild-Rendering generiert HTTP/1.1-Antwort-Header.

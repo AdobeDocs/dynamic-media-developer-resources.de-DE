@@ -1,10 +1,10 @@
 ---
 title: PanoramicView.iscommand
-description: Konfigurationsattribut für Panorama-Viewer.
+description: Konfigurationsattribut für den Panorama-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # PanoramicView.iscommand{#panoramicview-iscommand}
 
-Konfigurationsattribut für Panorama-Viewer.
+Konfigurationsattribut für den Panorama-Viewer.
 
 ` [PanoramicView.|<containerId>_panoramicView.]iscommand=isCommand `
 
@@ -21,7 +21,7 @@ Konfigurationsattribut für Panorama-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Die auf das Bild angewendete Image Serving-Befehlszeichenfolge.  Wenn sie in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span> HTTP-kodieren. </p> </td> 
+   <td colname="col2"> <p> Die Image-Serving-Befehlszeichenfolge, die auf das Bild angewendet wird.  Wenn er in der URL angegeben ist, stellen Sie sicher, dass Sie alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span> HTTP-codieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,7 +33,7 @@ Optional.
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 
-Kein Standardwert.
+Kein Standard.
 
 ## Beispiel {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 

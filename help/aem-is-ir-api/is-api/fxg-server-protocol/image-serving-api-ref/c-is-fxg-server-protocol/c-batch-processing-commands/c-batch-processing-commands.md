@@ -1,29 +1,29 @@
 ---
-description: Die folgenden Befehle enthalten die Batch-Verarbeitungs-API, die von PlatformServer bereitgestellt wird.
+description: Die folgenden Befehle umfassen die von PlatformServer bereitgestellte Batch-Verarbeitungs-API.
 solution: Experience Manager
-title: Befehle zur Stapelverarbeitung
+title: Stapelverarbeitungsbefehle
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40a5b597-3db2-4846-903e-1a47a999610b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
-# Befehle zur Stapelverarbeitung{#batch-processing-commands}
+# Stapelverarbeitungsbefehle{#batch-processing-commands}
 
-Die folgenden Befehle enthalten die Batch-Verarbeitungs-API, die von PlatformServer bereitgestellt wird.
+Die folgenden Befehle umfassen die von PlatformServer bereitgestellte Batch-Verarbeitungs-API.
 
 Diese werden im speziellen Anfrageformat wie folgt angegeben: `?req=<command>`
 
-Die für diese Befehle gezeigten Beispiele verwenden eine fiktive `PlatformServer` URL &quot;[!DNL scene7.adobe.com:8080]&quot; und ein fiktives Unternehmen namens AcmeCorp. Die Auftrags-ID ist ebenfalls fiktiv.
+Die für diese Befehle gezeigten Beispiele verwenden eine fiktive `PlatformServer`-URL &quot;[!DNL scene7.adobe.com:8080]&quot; und ein fiktives Unternehmen namens AcmeCorp. Die Vorgangs-ID ist ebenfalls fiktiv.
 
-* [batchjobbriefstatus](r-batchjobbriefstatus.md)
-* [batchjobdelete](r-batchjobdelete.md)
-* [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
-* [batchjobgetoutput](r-batchjobgetoutput.md)
-* [batchjobsubmit](r-batchjobsubmit.md)
-* [jobdata](r-jobdata.md)
-* [jobid](r-jobid.md)
+* [batchJobBriefStatus](r-batchjobbriefstatus.md)
+* [batchJobDelete](r-batchjobdelete.md)
+* [batchJobDetailsStatus](r-batchjobdetailedstatus.md)
+* [batchJobGetOutput](r-batchjobgetoutput.md)
+* [batchJobSubmit](r-batchjobsubmit.md)
+* [Jobdaten](r-jobdata.md)
+* [Arbeitshilfe](r-jobid.md)

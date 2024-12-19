@@ -1,46 +1,46 @@
 ---
-title: TimeStamp
-description: Zeitstempel der Dateiänderung. Gibt Datum/Uhrzeit der letzten Änderung des Bildes und/oder der an diesen Katalogdatensatz angehängten Datendateien an.
+title: Zeitstempel
+description: Zeitstempel der Dateiänderung. Gibt das Datum/die Uhrzeit der letzten Änderung des Bildes und/oder der Datendateien an, die an diesen Katalogdatensatz angehängt sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
 
 ---
 
-# TimeStamp{#timestamp}
+# Zeitstempel{#timestamp}
 
-Zeitstempel der Dateiänderung. Gibt Datum/Uhrzeit der letzten Änderung des Bildes und/oder der an diesen Katalogdatensatz angehängten Datendateien an.
+Zeitstempel der Dateiänderung. Gibt das Datum/die Uhrzeit der letzten Änderung des Bildes und/oder der Datendateien an, die an diesen Katalogdatensatz angehängt sind.
 
-Wenn `attribute::UseLastModified` festgelegt ist, wird der letzte der `catalog::TimeStamp` - und `vignette::TimeStamp` -Werte aller Materialien und die Vignette, die an der Anfrage beteiligt sind, in der HTTP-Antwort als zuletzt geänderte Kopfzeile zurückgegeben.
+Wenn `attribute::UseLastModified` festgelegt ist, wird der neueste der `catalog::TimeStamp`- und `vignette::TimeStamp`-Werte aller Materialien und der an der Anfrage beteiligten Vignette in der HTTP-Antwort als Kopfzeile der letzten Änderung zurückgegeben.
 
 >[!NOTE]
 >
->Die tatsächlichen Dateizeiten der Bilder oder Datendateien, die an diesen Katalogdatensatz angehängt sind, werden zu diesem Zweck nie verwendet.
+>Die tatsächlichen Dateizeiten der an diesen Katalogdatensatz angehängten Bild- oder Datendateien werden zu diesem Zweck nie verwendet.
 
-Der `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet (siehe [Attribut::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
+Die `catalog::TimeStamp` wird auch für die katalogbasierte Cache-Validierung verwendet (siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
 
 ## Eigenschaften {#section-42f09e375e72492b87a3a486da7df808}
 
-Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, der 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert mit einem der folgenden Formate sein:
+Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, dem 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert in einem der folgenden Formate sein:
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT *[!DNL offset]*
 
 * *[!DNL hh]* liegt im Bereich von 0-23.
-* *[!DNL zzz]* ist ein aus drei oder vier Zeichen bestehender Zeitzonen-Code, z. B. &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden. Beispiel: &quot;PST&quot;für die Pacific Standard-Zeit im Vergleich zu &quot;PDT&quot;für die Sommerzeit im Pazifik.
-* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
+* *[!DNL zzz]* ist ein drei- oder vierstelliger Zeitzonencode wie „GMT“ oder „PST“. Die Sommerzeit muss im Zeitzonen-Code berücksichtigt werden. Beispiel: „PST“ für Pacific Standard Time im Vergleich zu „PDT“ für Pacific Daylight Saving Time.
+* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten, relativ zu GMT. „PDT“ entspricht beispielsweise „GMT -7“.
 
-Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der Datei *catalog*.ini verwendet.
+Alle Elemente von zeichenfolgenformatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei *catalog*.ini verwendet.
 
 ## Standard {#section-e2c126c9e7294662b23944ab8d14866b}
 
-Der Wert `attribute::TimeStamp` ist das leere oder nicht vorhandene Feld.
+Das `attribute::TimeStamp` ist das Feld, das leer oder nicht vorhanden ist.
 
 ## Verwandte Themen {#section-876f1d1b50dc4501b605820015a29451}
 

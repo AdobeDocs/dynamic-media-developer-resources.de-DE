@@ -1,5 +1,5 @@
 ---
-description: Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
+description: Entfernt Unternehmensbenutzer aus einer bestimmten Gruppe.
 solution: Experience Manager
 title: removeGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # removeGroupMembers{#removegroupmembers}
 
-Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
+Entfernt Unternehmensbenutzer aus einer bestimmten Gruppe.
 
-**Unterschiede zwischen &quot;Befehle entfernen&quot;**
+**Unterschiede zwischen Entfernen-Befehlen**
 
-* 0: Entfernt mehrere Benutzer aus einer Gruppe.`removeGroupMembers`
+* `removeGroupMembers`: Entfernt mehrere Benutzer aus einer Gruppe.
 * `removeGroupMembership`: Entfernt einen einzelnen Benutzer aus einem Array von Gruppen.
 
 ## Autorisierte Benutzertypen {#section-2c64cdac15184fbba6c7b2945b5d87f7}
@@ -29,21 +29,21 @@ Entfernt Firmenbenutzer aus einer bestimmten Gruppe.
 
 ## Parameter {#section-b5596614a3be4ce5962455884e4636af}
 
-**Input (removeGroupMembersParam)**
+**Eingabe (removeGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit den Benutzern, mit denen Sie arbeiten möchten. |
-| groupHandle | `xsd:string` | Ja | Gruppieren. |
+| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit den Benutzern, mit denen Sie arbeiten möchten. |
+| groupHandle | `xsd:string` | Ja | Gruppen-Handle. |
 | userHandleArray | `types:HandleArray` | Ja | Ein Array von Handles für Benutzer, deren Gruppenmitgliedschaften Sie entfernen möchten. |
 
-**Output (removeGroupMembersParam)**
+**Ausgabe (removeGroupMembersParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Dieses Codebeispiel entfernt einen Benutzer aus dem angegebenen Unternehmen. Entfernen Sie mehrere Benutzer aus einer Gruppe mit dem Benutzerhandle-Array.
+Dieses Codebeispiel entfernt einen Benutzer aus der angegebenen Firma. Entfernen Sie mit dem -Benutzerhandle-Array mehrere Benutzer aus einer Gruppe.
 
 **Anfrage**
 

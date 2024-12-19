@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| fieldHandle | `xsd:string` | Tag-Feld-Handle. |
+| fieldHandle | `xsd:string` | Handle des Tag-Felds. |
 | valueArray | `xsd:StringArray` | Ein Array von Werten für ein Tag-Feld. |

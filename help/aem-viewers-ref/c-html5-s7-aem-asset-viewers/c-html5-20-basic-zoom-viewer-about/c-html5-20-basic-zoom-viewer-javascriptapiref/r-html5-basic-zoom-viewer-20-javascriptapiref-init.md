@@ -1,11 +1,11 @@
 ---
 title: init
-description: JavaScript-API-Referenz für einfachen Zoom-Viewer.
+description: JavaScript-API-Referenz für Basic Zoom Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: cef585ae-44d7-406c-96f9-e03959a8e518
-source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 2%
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # init{#init}
 
-JavaScript-API-Referenz für einfachen Zoom-Viewer.
+JavaScript-API-Referenz für Basic Zoom Viewer.
 
 `init()`
 
-Startet die Initialisierung des einfachen Zoom-Viewers. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
+Startet die Initialisierung des grundlegenden Zoom-Viewers. Zu diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist (z. B. kann es mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden), setzt der Viewer den Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, zu dem die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Container-Element noch nicht Teil des Web-Seiten-Layouts ist (z. B. kann es mithilfe `display:none` ihm zugewiesenen Stils ausgeblendet werden), setzt der Viewer seinen Initialisierungsprozess aus. Dies geschieht bis zu dem Zeitpunkt, an dem die Web-Seite das Container-Element wieder an das Layout zurückgibt. Wenn diese Aktion erfolgt, wird das Laden des Viewers automatisch fortgesetzt.
 
 Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. Nachfolgende Aufrufe werden ignoriert.
 

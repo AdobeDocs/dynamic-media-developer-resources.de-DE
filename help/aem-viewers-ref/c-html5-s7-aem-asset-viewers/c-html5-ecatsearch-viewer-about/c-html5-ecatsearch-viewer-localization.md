@@ -1,7 +1,7 @@
 ---
-description: Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, können lokalisiert werden, einschließlich Zoom-Schaltflächen, Schaltflächen zum Ändern der Seite, Miniaturschaltflächen, Vollbildschaltflächen, Schließen-Schaltflächen und Schaltflächen der Bildlaufleiste.
+description: Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, unterliegen der Lokalisierung, einschließlich Zoom-Schaltflächen, Seitenänderungs-Schaltflächen, Miniatur-Schaltflächen, Vollbild-Schaltflächen, Schließen-Schaltflächen und Schaltflächen für Bildlaufleisten.
 solution: Experience Manager
-title: Lokalisierung der Elemente der Benutzeroberfläche
+title: Lokalisierung von Elementen der Benutzeroberfläche
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Lokalisierung der Elemente der Benutzeroberfläche{#localization-of-user-interface-elements}
+# Lokalisierung von Elementen der Benutzeroberfläche{#localization-of-user-interface-elements}
 
-Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, können lokalisiert werden, einschließlich Zoom-Schaltflächen, Schaltflächen zum Ändern der Seite, Miniaturschaltflächen, Vollbildschaltflächen, Schließen-Schaltflächen und Schaltflächen der Bildlaufleiste.
+Bestimmte Inhalte, die der E-Katalog-Viewer anzeigt, unterliegen der Lokalisierung, einschließlich Zoom-Schaltflächen, Seitenänderungs-Schaltflächen, Miniatur-Schaltflächen, Vollbild-Schaltflächen, Schließen-Schaltflächen und Schaltflächen für Bildlaufleisten.
 
-Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-ID namens SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßig zugewiesenen Textwert für das englische Gebietsschema ( `"en"`), das mit dem vordefinierten Viewer bereitgestellt wird. Außerdem können benutzerdefinierte Werte für beliebig viele Gebietsschemas festgelegt werden.
+Jeder Textinhalt im Viewer, der lokalisiert werden kann, wird durch eine spezielle Viewer-SDK-Kennung namens SYMBOL dargestellt. Jedes SYMBOL verfügt über einen standardmäßigen Textwert für das englische Gebietsschema ( `"en"`), der mit dem standardmäßigen Viewer bereitgestellt wird, und kann auch benutzerdefinierte Werte für beliebig viele Gebietsschemata festlegen.
 
-Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jede unterstützte SYMBOL im Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet. Andernfalls wird der vordefinierte Standardtext verwendet.
+Beim Starten des Viewers wird das aktuelle Gebietsschema überprüft, um festzustellen, ob für jedes unterstützte SYMBOL im Gebietsschema ein benutzerdefinierter Wert vorhanden ist. Ist dies der Fall, wird der benutzerdefinierte Wert verwendet, andernfalls wird der Standardtext verwendet.
 
-Benutzerdefinierte Lokalisierungsdaten können als lokalisiertes JSON-Objekt an den Viewer übergeben werden. Ein solches Objekt enthält die Liste der unterstützten Gebietsschemas, die SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
+Benutzerdefinierte Lokalisierungsdaten können als JSON-Objekt für die Lokalisierung an den Viewer übergeben werden. Ein solches Objekt enthält die Liste der unterstützten Gebietsschemata, SYMBOL-Textwerte für jedes Gebietsschema und das Standardgebietsschema.
 
 Ein Beispiel für ein solches Lokalisierungsobjekt:
 
@@ -38,22 +38,22 @@ defaultLocale:"en"
 }
 ```
 
-Im obigen Beispiel definiert das Lokalisierungsobjekt zwei Gebietsschemas ( `"en"` und `"fr"`) und stellt die Lokalisierung von zwei Benutzeroberflächenelementen in jedem Gebietsschema bereit.
+Im obigen Beispiel definiert das Localization-Objekt zwei Gebietsschemata (`"en"` und `"fr"`) und stellt die Lokalisierung für zwei Elemente der Benutzeroberfläche in jedem Gebietsschema bereit.
 
-Der Webseitencode sollte dieses Lokalisierungsobjekt als Wert des Felds `localizedTexts` des Konfigurationsobjekts an den Viewer-Konstruktor übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf der Methode `setLocalizedTexts(localizationInfo)` weiterzugeben.
+Der Web-Seiten-Code sollte dieses Lokalisierungsobjekt an den Viewer-Konstruktor als Wert `localizedTexts` Felds des Konfigurationsobjekts übergeben. Eine alternative Option besteht darin, das Lokalisierungsobjekt durch Aufruf `setLocalizedTexts(localizationInfo)` -Methode zu übergeben.
 
-Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID des Viewer-Containers):
+Die folgenden SYMBOLE werden unterstützt (unter der Annahme, dass containerId die ID des Viewer-Containers ist):
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SYMBOL </p> </th> 
-   <th colname="col2" class="entry"> <p>QuickInfo für ... </p> </th> 
+   <th colname="col2" class="entry"> <p>QuickInfo für… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.LABEL-</span> </p> </td> 
    <td colname="col2"> <p>ARIA-Beschriftung für das Viewer-Element der obersten Ebene. </p> </td> 
   </tr> 
   <tr> 
@@ -61,168 +61,168 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
    <td colname="col2"> <p>ARIA-Rollenbeschreibung für die Hauptansichtskomponente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PageView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-Verwendungshinweise für Tastaturbenutzer. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PageView.USAGE_HINT-</span> </p> </td> 
+   <td colname="col2"> <p>ARIA-Nutzungshinweise für Tastaturbenutzer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Schließen". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schließen-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Vergrößern" </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Vergrößern“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Verkleinern" </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Verkleinern“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche zum Zurücksetzen des Zooms </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Zurücksetzen-Schaltfläche für Zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche im Vollbildmodus im Normalzustand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p>Vollbildschaltfläche im normalen Zustand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche im Vollbildmodus. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>Vollbildschaltfläche im Vollbildmodus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Scrollen Sie nach oben. </p> </td> 
+   <td colname="col2"> <p>Scroll up button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Scrollen Sie nach unten. </p> </td> 
+   <td colname="col2"> <p>Scroll down button. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Große nächste Seite" </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Große Schaltfläche für nächste Seite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Große vorherige Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Große vorherige Seite“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche Letzte Seite . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Letzte Seite“ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche Letzte Seite . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Letzte Seite“ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Erste Seite" </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Erste Seite“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Erste Seite" </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Erste Seite“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Nächste Seite" </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Nächste Seite“ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Vorherige Seite". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Vorherige Seite“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Miniaturansichten"im Miniaturansichtsmodus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Miniaturen“ im Miniaturbildmodus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Miniaturen"im normalen Modus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Miniaturansichten“ im normalen Modus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Schließen". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schließen-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> InfoPanelPopup.TOOLTIP_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche zum Schließen des Info-Bedienfelds. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche zum Schließen des Infobereichs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Social-Freigabe-Tool. </p> </td> 
+   <td colname="col2"> <p>Social-Sharing-Tool. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "E-Mail-Freigabe". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „E-Mail-Freigabe“ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>Header des E-Mail-Dialogfelds. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.HEADER-</span> </p> </td> 
+   <td colname="col2"> <p>Kopfzeile des E-Mail-Dialogfelds </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>E-Mail-Dialogfeld oben rechts, Schaltfläche zum Schließen. </p> </td> 
+   <td colname="col2"> <p>E-Mail-Dialogfeld rechts oben Schaltfläche zum Schließen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS </span> </p> </td> 
-   <td colname="col2"> <p>Fehlermeldung angezeigt, falls eine E-Mail-Adresse fehlerhaft ist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESS </span> </p> </td> 
+   <td colname="col2"> <p>Fehlermeldung, wenn die E-Mail-Adresse fehlerhaft ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Eingabefeld "An". </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Eingabefeld „An“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Weitere E-Mail-Adresse hinzufügen" </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Weitere E-Mail-Adresse hinzufügen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ADD </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Weitere E-Mail-Adresse hinzufügen" </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Weitere E-Mail-Adresse hinzufügen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM </span> </p> </td> 
-   <td colname="col2"> <p>Aus Eingabefeld. </p> </td> 
+   <td colname="col2"> <p>Aus dem Eingabefeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE </span> </p> </td> 
-   <td colname="col2"> <p>Nachrichteneingabefeld. </p> </td> 
+   <td colname="col2"> <p>Eingabefeld für Nachrichten </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_REMOVE </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche E-Mail-Adresse entfernen </p> </td> 
+   <td colname="col2"> <p>Schaltfläche E-Mail-Adresse entfernen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.</span> ABBRECHEN </p> </td> 
    <td colname="col2"> <p>Beschriftung für die Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche Abbrechen . </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Abbrechen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen" </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION-</span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche Alle auswählen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Alle auswählen" </p> </td> 
+   <td colname="col2"> <p>Alle auswählen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Schließen", die nach der Formularübermittlung unten im Dialogfeld angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche „Schließen“, die am unteren Rand des Dialogfelds nach der Formularübermittlung angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Schließen", die nach der Formularübermittlung unten im Dialogfeld angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Schließen“, die unten im Dialogfeld nach der Formularübermittlung angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche zum Senden des Formulars. </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Formularübermittlungsschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Formularübermittlung". </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Formularübermittlung“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS </span> </p> </td> 
-   <td colname="col2"> <p>Bestätigungsnachricht angezeigt, wenn E-Mail erfolgreich gesendet wurde. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS-</span> </p> </td> 
+   <td colname="col2"> <p>Bestätigungsmeldung, die angezeigt wurde, als die E-Mail erfolgreich gesendet wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_FAILURE </span> </p> </td> 
@@ -230,47 +230,47 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Freigabe einbetten". </p> </td> 
+   <td colname="col2"> <p>Freigabe-Schaltfläche einbetten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>Einbetten des Dialogfeldheaders </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER-</span> </p> </td> 
+   <td colname="col2"> <p>Dialogfeldkopfzeile einbetten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Einbetten, Dialogfeld oben rechts, Schaltfläche zum Schließen. </p> </td> 
+   <td colname="col2"> <p>Dialogfeld „Einbetten“, Schließen-Schaltfläche oben rechts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>Beschreibung des Einbettungscode-Textes. </p> </td> 
+   <td colname="col2"> <p>Beschreibung des Einbettungs-Code-Texts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.EMBED_SIZE </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Kombinationsfeld Einbettungsgröße . </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Kombinationsfeld „Einbettungsgröße“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL-</span> </p> </td> 
    <td colname="col2"> <p>Beschriftung für die Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche Abbrechen . </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Abbrechen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE </span> </p> </td> 
-   <td colname="col2"> <p>Text für den letzten Eintrag "benutzerdefinierte Größe"im Kombinationsfeld "Einbettungsgröße". </p> </td> 
+   <td colname="col2"> <p>Text für den letzten Eintrag für „Benutzerdefinierte Größe“ im Kombinationsfeld Einbettungsgröße . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Linkfreigabe". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Link-Freigabe“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>Link-Dialogfeldüberschrift. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER-</span> </p> </td> 
+   <td colname="col2"> <p>Dialogfeld-Kopfzeile verknüpfen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Link-Dialogfeld oben rechts, Schaltfläche zum Schließen. </p> </td> 
+   <td colname="col2"> <p>Dialogfeld „Verknüpfung“, Schaltfläche zum Schließen oben rechts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION </span> </p> </td> 
@@ -282,147 +282,147 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche Abbrechen . </p> </td> 
+   <td colname="col2"> <p>Schaltfläche Abbrechen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Alle auswählen" </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION-</span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche Alle auswählen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p> Schaltfläche "Alle auswählen" </p> </td> 
+   <td colname="col2"> <p> Alle auswählen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook-Freigabe-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>Facebook-Freigabeschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "twitter freigeben". </p> </td> 
+   <td colname="col2"> <p>Twitter Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Drucken-Schaltfläche. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP-</span> </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Drucken“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>Drucken Sie die Dialogfeldkopfzeile. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.HEADER-</span> </p> </td> 
+   <td colname="col2"> <p>Kopfzeile des Dialogfelds drucken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Dialogfeld "Drucken"mit der Schaltfläche oben rechts schließen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col2"> <p>Druckdialogfeld rechts oben Schaltfläche zum Schließen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für den Abschnitt "Druckseiten auswählen". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print.PRINT_RANGE </span> </p> </td> 
+   <td colname="col2"> <p>Titel des Abschnitts „Druckseiten auswählen“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Optionsfeld "Aktuelle Seiten". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PRINT.PRINT_RANGE_CURRENT </span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Optionsfeld „Aktuelle Seiten“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_FROM </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Optionsfeld "Bereich von der Seite ausbreiten". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print.PRINT_RANGE_FROM </span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Optionsfeld „Bereich ausdehnen von“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_TO </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die numerische Auswahl "bis". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PRINT.PRINT_RANGE_TO </span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die numerische Auswahl „An“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_ALL </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Optionsfeld "Alle Seiten". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print.PRINT_RANGE_ALL </span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Optionsfeld „Alle Seiten“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für den Abschnitt "Seitenverarbeitung". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PRINT.PAGE_HANDLING-</span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für den Abschnitt „Seitenbearbeitung“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_ONE </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Optionsfeld "1 Seite pro Blatt". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PRINT.PAGE_HANDLING_ONE </span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Optionsfeld „1 Seite pro Blatt“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_TWO </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für das Optionsfeld "2 Seiten pro Blatt". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PRINT.PAGE_HANDLING_TWO </span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für das Optionsfeld „2 Seiten pro Blatt“. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.</span> ABBRECHEN </p> </td> 
    <td colname="col2"> <p>Beschriftung für die Schaltfläche Abbrechen . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p> Schaltfläche Abbrechen . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col2"> <p> Schaltfläche Abbrechen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Beschriftung für die Schaltfläche "Zum Drucken senden" </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.ACTION-</span> </p> </td> 
+   <td colname="col2"> <p>Beschriftung für die Schaltfläche „An Druck senden“ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p> Schaltfläche "Zum Drucken senden". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print.TOOLTIP_ACTION-</span> </p> </td> 
+   <td colname="col2"> <p> Schaltfläche „An Druck senden“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Menüschaltfläche "Favoriten". </p> </td> 
+   <td colname="col2"> <p>Favoriten-Menüschaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Favoriten hinzufügen"im Modus Favoriten bearbeiten. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Favorit hinzufügen“ im Modus „Favoriten bearbeiten“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Favoriten hinzufügen"im normalen Modus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Favorit hinzufügen“ im normalen Modus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Favoriten entfernen"im Modus Favoriten bearbeiten. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Favorit entfernen“ im Modus „Favoriten bearbeiten“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Favoriten entfernen"im normalen Modus. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Favorit entfernen“ im normalen Modus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ViewAllFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Alle Favoriten anzeigen", wenn die Favoritenansicht aktiv ist. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Alle Favoriten anzeigen“, wenn die Favoritenansicht aktiv ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ViewAllFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche "Alle Favoriten anzeigen", wenn die Favoritenansicht inaktiv ist. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche „Alle Favoriten anzeigen“, wenn die Favoritenansicht inaktiv ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FavoritesEffect.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Einzelnes Lieblingssymbol. </p> </td> 
+   <td colname="col2"> <p>Symbol für einzelne Favoriten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Seitenbeschriftung, die vom Viewer beim Laden generiert wird. </p> <p>Der Name dieses Symbols ist eine Vorlage, bei der <span class="codeph"> XX </span> ein nullbasierter Spread-Index in Querformat und optional <span class="codeph"> YY </span> ein nullbasierter Seitenindex innerhalb des von <span class="codeph"> XX </span> anvisierten Spreads ist. </p> <p>Gilt nur für das ursprünglich geladene Asset. Wird ignoriert, wenn ein Asset mithilfe des API-Aufrufs <span class="codeph"> setAsset() </span> geändert wird. </p> </td> 
+   <td colname="col2"> <p>Seitentitel, die vom Viewer zum Zeitpunkt des Ladens generiert wird. </p> <p>Der Name dieses Symbols ist eine Vorlage, bei der <span class="codeph"> XX </span> ein Spreizindex auf der Querformat-Ausrichtung ist und optional <span class="codeph"> YY </span> ein Seitenindex auf der Basis Null innerhalb des Spreizindex ist, auf den <span class="codeph"> XX </span> abzielt. </p> <p>Gilt nur für das ursprünglich geladene Asset. Wird ignoriert, wenn ein Asset mithilfe des API-Aufrufs <span class="codeph">setAsset() </span> geändert wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
-   <td colname="col2"> <p> Zeichen, das als Trennzeichen für Seitenbeschriftungen verwendet wird, falls Beschriftungen für linke und rechte Seiten innerhalb eines Druckbereichs definiert werden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM-</span> </p> </td> 
+   <td colname="col2"> <p> Zeichen, das als Trennzeichen für Seitenbeschriftungen verwendet wird, wenn Beschriftungen für linke und rechte Seiten innerhalb eines Spreads definiert sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftRightButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Die Hauptsteuerleiste blättert nach links. </p> </td> 
+   <td colname="col2"> <p>Hauptsteuerleiste Scrollen Sie nach links. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftRightButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Die Hauptsteuerleiste scrollt nach rechts. </p> </td> 
+   <td colname="col2"> <p>Hauptsteuerleiste rechts scrollen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SearchPanel.PLACEHOLDER </span> </p> </td> 
-   <td colname="col2"> <p>Lokalisierte Eingabeaufforderung, die im Sucheingabefeld angezeigt wird, bevor der Benutzer mit der Eingabe des Suchtexts beginnt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.PLACEHOLDER-</span> </p> </td> 
+   <td colname="col2"> <p>Lokalisierte Eingabeaufforderung im Sucheingabefeld angezeigt, bevor der Benutzer den Suchtext eingibt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_PROMPT </span> </p> </td> 
-   <td colname="col2"> <p>Lokalisierte Nachricht, die beim ersten Öffnen des Suchfelds angezeigt wird und den Benutzer zur Durchführung der Suche anweist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_PROMPT-</span> </p> </td> 
+   <td colname="col2"> <p>Lokalisierte Nachricht, die angezeigt wird, wenn das Suchfeld zum ersten Mal geöffnet wird, und die Benutzer auffordert, die Suche durchzuführen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_NO_RESULTS </span> </p> </td> 
-   <td colname="col2"> <p>Lokalisierte Nachricht angezeigt, wenn bei der Suche keine Ergebnisse zurückgegeben wurden. </p> <p>Dieses Symbol unterstützt das folgende Laufzeitersetzungstoken: <span class="codeph"> $SEARCH_TEXT$ </span>. Die Komponente ersetzt sie durch den vom Benutzer eingegebenen Suchtext. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_NO_RESULTS-</span> </p> </td> 
+   <td colname="col2"> <p>Lokalisierte Nachricht, wenn die Suche keine Ergebnisse zurückgab. </p> <p>Dieses Symbol unterstützt das folgende Laufzeitersetzungs-Token: <span class="codeph"> $SEARCH_TEXT$ </span>. Die Komponente ersetzt sie durch den vom Benutzer eingegebenen Suchtext. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS </span> </p> </td> 
-   <td colname="col2"> <p>Lokalisierte Nachricht, die angezeigt wird, wenn die Suche erfolgreich abgeschlossen wurde, und mindestens ein Ergebnis zurückgibt. </p> <p>Dieses Symbol unterstützt die folgenden Laufzeitersetzungstoken: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS-</span> </p> </td> 
+   <td colname="col2"> <p>Lokalisierte Nachricht, die angezeigt wird, wenn die Suche erfolgreich abgeschlossen wurde und mindestens ein Ergebnis zurückgibt. </p> <p>Dieses Symbol unterstützt die folgenden Laufzeitersetzungs-Token: </p> <p> 
      <ul id="ul_30B76EAB921848069BE843A5F91F697A"> 
       <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span> - Der vom Benutzer eingegebene Suchtext. </li> 
       <li id="li_A0FBF12344B04BF0B702A2B7473330A8"> <span class="codeph"> $HIT_COUNT$ </span> - Die Gesamtzahl der gefundenen Suchtreffer. </li> 
@@ -430,16 +430,16 @@ Die folgenden SYMBOLs werden unterstützt (vorausgesetzt, containerId ist die ID
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SearchPanel.THUMBNAIL_LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Lokalisierte Bezeichnung für die Ergebnisminiaturansicht des Suchbereichs. </p> <p>Dieses Symbol unterstützt die folgenden Laufzeitersetzungstoken: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.THUMBNAIL_LABEL-</span> </p> </td> 
+   <td colname="col2"> <p>Lokalisierte Beschriftung für Ergebnisse: Miniaturansicht des Suchbereichs. </p> <p>Dieses Symbol unterstützt die folgenden Laufzeitersetzungs-Token: </p> <p> 
      <ul id="ul_7620C59FA56544CD9CE9E49B1871BCC1"> 
-      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span> - Seitenzahl. </li> 
-      <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span> - Die Anzahl der Suchergebnisse auf der Seite. </li> 
+      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span> - Seitennummer. </li> 
+      <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span> - Die Anzahl der auf der Seite gefundenen Suchergebnisse. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Definiert einen Wert des ARIA-Attributs <span class="codeph"> aria-label </span> für das gesamte Suchfeld. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL-</span> </p> </td> 
+   <td colname="col2"> <p>Definiert einen Wert des <span class="codeph"> aria-label </span> ARIA-Attributs für den gesamten Suchbereich. </p> </td> 
   </tr> 
  </tbody> 
 </table>

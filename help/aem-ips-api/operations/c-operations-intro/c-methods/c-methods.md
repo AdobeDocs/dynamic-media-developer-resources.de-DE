@@ -1,7 +1,7 @@
 ---
-description: Aktionsparameter
+description: Betriebsparameter
 solution: Experience Manager
-title: Aktionsparameter
+title: Betriebsparameter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Aktionsparameter{#operation-parameters}
+# Betriebsparameter{#operation-parameters}
 
-* [addCompany](r-add-company.md)
-* [addCompanyMembership](r-add-company-membership.md)
+* [Firma hinzufügen](r-add-company.md)
+* [addCompanyMitgliedschaft](r-add-company-membership.md)
 * [addGroupMembers](r-add-group-members.md)
-* [addGroupMembership](r-add-group-membership.md)
+* [addGroupMitgliedschaft](r-add-group-membership.md)
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
@@ -32,7 +32,7 @@ ht-degree: 0%
 * [checkLogin](r-check-login.md)
 * [copyImage](r-copy-image.md)
 * [createAssetSet](r-create-asset-set.md)
-* [createabgeleiteteAsset](r-create-derived-asset.md)
+* [createDerivedAsset](r-create-derived-asset.md)
 * [createFolder](r-create-folder.md)
 * [createImageSet](r-create-image-set.md)
 * [createMetadataField](r-create-metadata-field.md)
@@ -75,7 +75,7 @@ ht-degree: 0%
 * [getAutoCropRect](r-get-auto-crop-rect.md)
 * [getCompanyInfo](r-get-company-info.md)
 * [getCompanyMembers](r-get-company-members.md)
-* [getCompanyMembership](r-get-company-membership.md)
+* [getCompanyMitgliedschaft](r-get-company-membership.md)
 * [getCompanySettings](r-get-company-settings.md)
 * [getDiskUsage](r-get-disk-usage.md)
 * [getDistinctMetadataValues](r-get-distinct-metadata-values.md)
@@ -83,7 +83,7 @@ ht-degree: 0%
 * [getFolderTree](r-get-folder-tree.md)
 * [getGenerationInfo](r-get-generation-info.md)
 * [getGroupMembers](r-get-group-members.md)
-* [getGroupMembership](r-get-group-membership.md)
+* [getGroupMitgliedschaft](r-get-group-membership.md)
 * [getGroups](r-get-groups.md)
 * [getImageFormats](r-get-image-formats.md)
 * [getImageRenderingPublishSettings](r-get-image-rendering-publish-settings.md)
@@ -115,17 +115,17 @@ ht-degree: 0%
 * [getZipEntries](r-get-zip-entries.md)
 * [moveAsset](r-move-asset.md)
 * [moveAssets](r-move-assets.md)
-* [moveFolder](r-move-folder.md)
-* [pauseJob](r-pause-job.md)
+* [MoveFolder](r-move-folder.md)
+* [Auftrag anhalten](r-pause-job.md)
 * [removeAssetPermissions](r-remove-asset-permissions.md)
-* [removeCompanyMember](r-remove-company-membership.md)
+* [removeCompanyMembership](r-remove-company-membership.md)
 * [removeFolderPermissions](r-remove-folder-permissions.md)
 * [removeGroupMembers](r-remove-group-members.md)
-* [removeGroupMember](r-remove-group-membership.md)
+* [removeGroupMitgliedschaft](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
-* [renameAsset](r-rename-asset.md)
-* [renameFolder](r-rename-folder.md)
-* [renameProject](r-rename-project.md)
+* [Asset umbenennen](r-rename-asset.md)
+* [Ordner umbenennen](r-rename-folder.md)
+* [Projekt umbenennen](r-rename-project.md)
 * [replaceImage](r-replace-image.md)
 * [restoreAssetsFromTrash](r-restore-assets-from-trash.md)
 * [resumeJob](r-resume-job.md)
@@ -134,7 +134,7 @@ ht-degree: 0%
 * [saveImageMap](r-save-image-map.md)
 * [saveMetadataField](r-save-metadata-field.md)
 * [saveZoomTarget](r-save-zoom-target.md)
-* [searchAssets](r-search-assets.md)
+* [SearchAssets](r-search-assets.md)
 * [searchAssetsByMetadata](r-search-assets-by-metadata.md)
 * [setAssetsContextState](r-set-asset-context-state.md)
 * [setAssetMetadata](r-set-asset-metadata.md)
@@ -146,7 +146,7 @@ ht-degree: 0%
 * [setCompanySettings](r-set-company-settings.md)
 * [setFolderPermissions](r-set-folder-permissions.md)
 * [setGroupMembers](r-set-group-members.md)
-* [setGroupMembership](r-set-group-membership.md)
+* [setGroupMitgliedschaft](r-set-group-membership.md)
 * [setImageMaps](r-set-image-maps.md)
 * [setImageSetMembers](r-set-image-set-members.md)
 * [setImageRenderingPublishSettings](r-set-image-rendering-publish-settings.md)
@@ -160,7 +160,7 @@ ht-degree: 0%
 * [setZoomTargets](r-set-zoom-targets.md)
 * [stopJob](r-stop-job.md)
 * [submitJob](r-submit-job.md)
-* [updateAssetPermissons](r-update-asset-permissions.md)
+* [updateAssetPermissions](r-update-asset-permissions.md)
 * [updateAssetSet](r-update-asset-set.md)
 * [updateFolderPermissions](r-update-folder-permissions.md)
 * [updateImageSet](r-update-image-set.md)

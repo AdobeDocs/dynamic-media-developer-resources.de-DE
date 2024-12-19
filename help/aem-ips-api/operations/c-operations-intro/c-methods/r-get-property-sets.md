@@ -1,5 +1,5 @@
 ---
-description: Ruft Eigenschaftssätze ab, die mit einem Typhandle verknüpft sind.
+description: Ruft Eigenschaftensätze ab, die mit einem Handle-Typ verknüpft sind.
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getPropertySets{#getpropertysets}
 
-Ruft Eigenschaftssätze ab, die mit einem Typhandle verknüpft sind.
+Ruft Eigenschaftensätze ab, die mit einem Handle-Typ verknüpft sind.
 
 Syntax
 
@@ -32,23 +32,23 @@ Syntax
 
 ## Parameter {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**Input (getPropertySetsParam)**
+**Eingabe (getPropertySetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Ja | Der Handle für den Eigenschaftssatz-Typ. |
+| typeHandle | `xsd:string` | Ja | Das Handle des Eigenschaftssatztyps. |
 | primaryOwnerHandle | `xsd:string` | Ja | Der primäre Eigentümer der an das Datenbankobjekt gebundenen Daten. |
 | secondaryOwnerHandle | `xsd:string` | Nein | Ein optionaler sekundärer Eigentümer der Daten. |
 
-**Output (getPropertySetsReturn)**
+**Ausgabe (getPropertySetsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| setArray | `types:PropertySetArray` | Ja | Array von Eigenschaftssätzen. |
+| setArray | `types:PropertySetArray` | Ja | Array von Eigenschaftensätzen. |
 
 ## Beispiele {#section-1358af974eab4259864910337a6f0bd2}
 
-Dieses Codebeispiel gibt Eigenschaftssätze des primären Eigentümers zurück, die durch einen Typhandle angegeben werden.
+Dieses Codebeispiel gibt Eigenschaftssätze ihres primären Besitzers zurück, die durch ein Handle-Typ angegeben sind.
 
 **Anfrage**
 

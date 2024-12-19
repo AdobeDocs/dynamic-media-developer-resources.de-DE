@@ -1,6 +1,6 @@
 ---
 title: op_sharpen
-description: Scharfzeichnen Sie das Bild. Wendet einen einfachen Scharfzeichnungsfilter auf die Ebene oder das endgültige Ansichtsbild an, nachdem die Skalierung abgeschlossen ist (wenn layer=comp).
+description: Bild schärfen. Wendet einen einfachen Scharfzeichnungsfilter auf die Ebene oder das endgültige Ansichtsbild an, nachdem es skaliert wurde, falls „Ebene=Komp“.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # op_sharpen{#op-sharpen}
 
-Scharfzeichnen Sie das Bild. Wendet einen einfachen Scharfzeichnungsfilter auf die Ebene oder das endgültige Ansichtsbild an, nachdem die Skalierung abgeschlossen ist (wenn layer=comp).
+Bild schärfen. Wendet einen einfachen Scharfzeichnungsfilter auf die Ebene oder das endgültige Ansichtsbild an, nachdem es skaliert wurde, falls „Ebene=Komp“.
 
 `op_sharpen=0|1`
 
-Die Ebenenmaske oder die zusammengesetzte Maske wird ebenfalls scharfgezeichnet.
+Die Ebenenmaske bzw. Verbundmaske wird ebenfalls geschärft.
 
 ## Eigenschaften {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Ebenenattribut oder Ansichtsattribut. Gilt für die aktuelle Ebene oder für das endgültige Ansichtsbild, wenn `layer=comp`. Wird von Effektebenen ignoriert.
+Ebenenattribut oder Ansichtsattribut. Gilt für die aktuelle Ebene oder, falls `layer=comp`, für das endgültige Ansichtsbild. Von Effektebenen ignoriert.
 
 ## Standard {#section-665709700fff458e9dbbf8a78e8ecf71}
 
@@ -30,7 +30,7 @@ Ebenenattribut oder Ansichtsattribut. Gilt für die aktuelle Ebene oder für das
 
 ## Beispiel {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Kompensieren Sie die leichte Unschärfe, die durch das Neuberechnen von Bildern verursacht wird. Wir erhöhen auch die JPEG-Qualität, um zusätzliche JPEG-Artefakte entlang der scharfgezeichneten Kanten zu vermeiden.
+Kompensieren Sie die leichte Unschärfe, die durch die Neuberechnung des Bildes verursacht wird. Wir erhöhen auch die JPEG-Qualität, um zusätzliche JPEG-Artefakte entlang der geschärften Kanten zu vermeiden.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65e2f2c9-ee2c-45a8-9935-a33089b8c379
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert die Zuordnung von Doppelklick/Tippen zu Rotations-Aktionen. Wird auf <span class="codeph"> none </span> gesetzt, wird das doppelte Klicken/Tippen-Rotieren deaktiviert. Wenn der Wert auf <span class="codeph"> Zoom </span> gesetzt ist, wird das Bild in einem Rotationsschritt gedreht. STRG+Klick dreht einen Rotationsschritt aus. Wird auf <span class="codeph"> reset </span> gesetzt, wird die Rotation durch einen einzelnen Klick auf das Bild auf die ursprüngliche Rotation zurückgesetzt. Für <span class="codeph"> zoomReset </span> wird das Zurücksetzen angewendet, wenn der aktuelle Rotationsfaktor den angegebenen Grenzwert erreicht oder übersteigt. Andernfalls wird die Drehung angewendet. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert die Zuordnung von Doppelklick-/Tipp-Aktionen, um Aktionen zu drehen. Wenn Sie Keine <span class="codeph"> festlegen, wird </span> Doppelklick-/Tippen-Drehen deaktiviert. Wenn <span class="codeph"> Zoom-</span> festgelegt ist, wird beim Klicken auf das Bild in einem Rotationsschritt gedreht. Bei gedrückter Strg-Taste wird ein Rotationsschritt ausgegeben. Wenn Sie auf <span class="codeph"> Zurücksetzen setzen setzen </span>, wird mit einem einzigen Klick auf das Bild der ursprüngliche Drehpegel zurückgesetzt. Für <span class="codeph"> zoomReset-</span> wird das Zurücksetzen angewendet, wenn der aktuelle Rotationsfaktor den angegebenen Grenzwert erreicht oder überschreitet. Andernfalls wird das Drehen angewendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

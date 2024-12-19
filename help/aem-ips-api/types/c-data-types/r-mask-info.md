@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| maskPath | `xsd:string` | Maskieren Sie den Dateipfad. |
-| maskFile | `xsd:string` | Maskieren Sie den Dateinamen. |
+| Maskenpfad | `xsd:string` | Dateipfad maskieren. |
+| Maskendatei | `xsd:string` | Dateiname maskieren. |

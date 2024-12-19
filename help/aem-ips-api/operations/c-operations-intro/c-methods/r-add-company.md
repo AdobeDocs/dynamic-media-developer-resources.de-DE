@@ -1,7 +1,7 @@
 ---
-description: Fügt ein Unternehmen zum System hinzu.
+description: Fügt dem System eine Firma hinzu.
 solution: Experience Manager
-title: addCompany
+title: Firma hinzufügen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
@@ -12,13 +12,13 @@ ht-degree: 7%
 
 ---
 
-# addCompany{#addcompany}
+# Firma hinzufügen{#addcompany}
 
-Fügt ein Unternehmen zum System hinzu.
+Fügt dem System eine Firma hinzu.
 
-Sendet den Namen des Unternehmens, das zum System hinzugefügt werden soll, und sendet optional, ob das Unternehmen abläuft.
+Sendet den Namen des Unternehmens, das dem System hinzugefügt werden soll, und sendet optional, ob das Unternehmen abläuft.
 
-Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der ein Unternehmens-Handle und beschreibende Felder enthält. Wenn der angeforderte Unternehmensname bereits im System vorhanden ist, wird ein `ipsApiFault` ausgegeben.
+Wenn dieser Vorgang aufgerufen wird, erhält das System einen companyInfo-Typ, der ein firmenspezifisches Handle und beschreibende Felder enthält. Wenn der angeforderte Firmenname bereits im System vorhanden ist, wird ein `ipsApiFault` ausgelöst.
 
 ## Autorisierte Benutzertypen {#section-ae926c7672984be79f6102748accab72}
 
@@ -28,7 +28,7 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der
 
 ## Parameter {#section-c64a21b72585447880760db9e7a12ccb}
 
-**Input (addCompanyParam)**
+**Eingabe (addCompanyParam)**
 
 <table id="table_AA915BAD2E8E4A1B9719725994309CE8"> 
  <thead> 
@@ -44,18 +44,18 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Name des hinzuzufügenden Unternehmens. </p> </td> 
+   <td colname="col4"> <p>Der Name der hinzuzufügenden Firma. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> läuft </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das Ablaufdatum des Unternehmens. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. Die Zeitzonen werden auf die "Central Time"eingestellt. </p> </td> 
+   <td colname="col4"> <p>Das Ablaufdatum des Unternehmens. Geben Sie die Zeitzone mit der Anfrage für dieses Feld an. Die Zeitzonen werden an die zentrale Zeit angepasst. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (addCompanyReturn)**
+**Ausgabe (addCompanyReturn)**
 
 <table id="table_89EBAC0E0FB34793BD843837BB02B518"> 
  <thead> 
@@ -71,14 +71,14 @@ Wenn dieser Vorgang aufgerufen wird, ruft das System den Typ companyInfo ab, der
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Verarbeiten Sie den Namen, den Stammpfad, das Ablaufdatum und die Uhrzeit des neuen Unternehmens. </p> </td> 
+   <td colname="col4"> <p>Verarbeiten von und Name, Stammpfad, Ablaufdatum und Uhrzeit des neuen Unternehmens. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiele {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-Dieses Beispiel zeigt eine Anfrage zum Hinzufügen eines Unternehmens zum IPS-System und die Antwort mit detaillierten Informationen zu dem hinzugefügten Unternehmen, das für andere Vorgänge benötigt wird.
+Dieses Beispiel zeigt eine Anfrage zum Hinzufügen eines Unternehmens zum IPS-System und die Antwort mit detaillierten Informationen zum hinzugefügten Unternehmen, die zur Durchführung anderer Vorgänge benötigt werden.
 
 **Anfrage**
 

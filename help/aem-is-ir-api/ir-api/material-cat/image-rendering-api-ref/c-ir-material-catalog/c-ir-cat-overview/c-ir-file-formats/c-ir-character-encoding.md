@@ -1,6 +1,6 @@
 ---
 title: Zeichenkodierung
-description: Image Rendering unterstützt Materialkataloge mit ISO-8859-1 und UTF-8-Kodierung.
+description: Das Bild-Rendering unterstützt Materialkataloge mit ISO-8859-1- und UTF-8-Codierung.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Zeichenkodierung{#character-encoding}
 
-Image Rendering unterstützt Materialkataloge mit ISO-8859-1 und UTF-8-Kodierung.
+Das Bild-Rendering unterstützt Materialkataloge mit ISO-8859-1- und UTF-8-Codierung.
 
-Eine Byte Order Mark (BOM) wird verwendet, um die Kodierung für jede Datei anzugeben. Bei UTF-8 ist das BOM die Bytefolge `EF BB BF`. UTF-8-Kodierung wird angenommen, wenn diese Zeichensatzsequenz am Anfang jeder Materialkatalogdatei erkannt wird. Jede andere Byte-Sequenz führt dazu, dass die Datei als gemäß dem ISO-8859-1-Standard kodiert interpretiert wird.
+Eine Byte Order Mark (BOM) wird verwendet, um die Kodierung für jede Datei anzugeben. Bei UTF-8 ist die BOM die Bytefolge `EF BB BF`. Die UTF-8-Codierung wird angenommen, wenn diese Zeichensequenz ganz am Anfang jeder Materialkatalogdatei erkannt wird. Jede andere Bytefolge führt dazu, dass die Datei als nach dem ISO-8859-1-Standard kodiert interpretiert wird.
 
-Viele moderne Anwendungen, die für UTF-8 konfiguriert sind, fügen das BOM automatisch ein.
+Viele zeitgenössische Anwendungen fügen die STL automatisch ein, wenn sie für UTF-8 konfiguriert sind.

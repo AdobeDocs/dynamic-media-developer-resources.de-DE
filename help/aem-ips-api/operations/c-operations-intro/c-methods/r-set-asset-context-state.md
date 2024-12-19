@@ -1,11 +1,11 @@
 ---
-description: Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere Assets Sie können für jeden Veröffentlichungskontext in einem Unternehmen einen separaten Veröffentlichungsstatus festlegen.
+description: Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere Assets. Sie können für jeden Veröffentlichungskontext in einem Unternehmen separate Veröffentlichungsstatus festlegen.
 solution: Experience Manager
 title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # setAssetsContextState{#setassetscontextstate}
 
-Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere Assets Sie können für jeden Veröffentlichungskontext in einem Unternehmen einen separaten Veröffentlichungsstatus festlegen.
+Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere Assets. Sie können für jeden Veröffentlichungskontext in einem Unternehmen separate Veröffentlichungsstatus festlegen.
 
 ## Autorisierte Benutzertypen {#section-815eb031f85143278c1560c18c5e3431}
 
@@ -30,29 +30,29 @@ Festlegen oder Aktualisieren des Veröffentlichungsstatus für ein oder mehrere 
 
 >[!NOTE]
 >
->Der Benutzer muss über Lesezugriff verfügen, um das Asset zurückgeben zu können.
+>Der Benutzer muss über Lesezugriff verfügen, um das Asset zurückzugeben.
 
 ## Parameter {#section-009b9006de8e4c16ad657c47f28ace9f}
 
-**Input (setAssetsContextStateParam)**
+**Eingabe (setAssetsContextStateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Ja | Ein Array von Assets und deren neuen Veröffentlichungsstatus. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Ja | Ein Array von Assets und ihren neuen Veröffentlichungsstatus. |
 
-**Output (setAssetsContextStateReturn)**
+**Ausgabe (setAssetsContextStateReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| successCount | `xsd:int` | Ja | Die Anzahl der Assets, die erfolgreich geändert wurden. |
-| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Assets zu ändern. |
-| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Assets zu ändern. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie zu ändern. |
+| successCount | `xsd:int` | Ja | Die Anzahl der Assets wurde erfolgreich geändert. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnhinweise, die beim Versuch generiert wurden, Assets zu ändern. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die generiert wurden, als der Vorgang versucht hat, Assets zu ändern. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, als der Vorgang versucht hat, sie zu ändern. |
 
 ## Beispiele {#section-283a073f3cb14bcda5abed863c538aa4}
 
-In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mit `NotMarkedForPublish` festgelegt.
+Dieses Code-Beispiel legt den Veröffentlichungsstatus eines Assets mithilfe von `NotMarkedForPublish` fest.
 
 **Anfrage**
 

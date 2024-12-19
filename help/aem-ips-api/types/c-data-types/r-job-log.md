@@ -1,11 +1,11 @@
 ---
-description: Das Auftragsprotokoll nach Ausführung des Auftrags.
+description: Das Vorgangslog, nachdem der Vorgang ausgeführt wurde.
 solution: Experience Manager
 title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL JobLog]{#joblog}
 
-Das Auftragsprotokoll nach Ausführung des Auftrags.
+Das Vorgangslog, nachdem der Vorgang ausgeführt wurde.
 
 Syntax
 
@@ -22,25 +22,25 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| companyHandle | `xsd:string` | Handle des Unternehmens. |
-| jobHandle | `xsd:string` | Auftragshandle. |
-| jobName | `xsd:string` | Auftragsname. |
-| originalJobName | `xsd:string` | Der ursprüngliche Name, der für den Auftrag mit `submitJob` gesendet wurde. |
+| companyHandle | `xsd:string` | Firmengriff. |
+| jobHandle | `xsd:string` | Auftragsverarbeitung. |
+| jobName | `xsd:string` | Vorgangsname. |
+| originalJobName | `xsd:string` | Der ursprüngliche Name, der für den Auftrag mit `submitJob` übermittelt wurde. |
 | submitUserEmail | `xsd:string` | Die E-Mail-Adresse des Benutzers, der den Auftrag gesendet hat. |
-| logType | `xsd:string` | Auswahl der Auftragsprotokolltypen. |
+| logType | `xsd:string` | Auswahl von Vorgangslog-Typen. |
 | jobSubType | `xsd:string` | Zusätzliche Auftragsinformationen. |
-| startDate | `xsd:dateTime` | Datum, Uhrzeit und Zeitzone des Auftrags. |
-| endDate | `xsd:dateTime` | Enddatum, -zeit und Zeitzone des Auftrags. |
+| startDate | `xsd:dateTime` | Startdatum, -zeit und -zeitzone des Auftrags. |
+| endDate | `xsd:dateTime` | Das Enddatum, die Uhrzeit und die Zeitzone des Auftrags. |
 | [!DNL description] | `xsd:string` | Eine Beschreibung des Auftrags, wie ursprünglich in `submitJob` angegeben. |
 | fileSuccessCount | `xsd:int` | Anzahl der erfolgreich verarbeiteten Dateien. |
 | fileErrorCount | `xsd:int` | Anzahl der Dateien, die einen Fehler verursacht haben. |
-| fileWarningCount | `xsd:int` | Anzahl der Dateien, die eine Warnung generiert haben. |
-| fileDuplicateCount | `xsd:int` | Anzahl der duplizierten Dateien. |
+| fileWarningCount | `xsd:int` | Anzahl der Dateien, die eine Warnung erzeugt haben. |
+| fileDuplicateCount | `xsd:int` | Anzahl der doppelten Dateien. |
 | fileUpdateCount | `xsd:int` | Anzahl der aktualisierten Dateien. |
-| totalFileCount | `xsd:int` | Anzahl der vom protokollierten Auftrag verarbeiteten Dateien. |
+| totalFileCount | `xsd:int` | Anzahl der Dateien, die vom protokollierten Auftrag verarbeitet wurden. |
 | transferSuccessCount | `xsd:int` | Anzahl erfolgreicher Übertragungen. |
 | transferErrorCount | `xsd:int` | Anzahl der Übertragungsfehler. |
 | transferWarningCount | `xsd:int` | Anzahl der Übertragungswarnungen. |
-| fatalError | `xsd:boolean` | Gibt an, ob der Auftrag einen schwerwiegenden Fehler erzeugt hat. |
-| detailTotalRows | `xsd:int` | Die Gesamtzahl der mit der Abfrage übereinstimmenden Zeilen, die aufgrund von Größenbeschränkungen der Seite größer als `detailArray` sein können. |
-| detailArray | `types:JobLogDetailArray` | Das Array mit Details zum protokollierten Auftrag. |
+| Schwerwiegender Fehler | `xsd:boolean` | Ob der Auftrag einen schwerwiegenden Fehler verursacht hat. |
+| detailTotalRows | `xsd:int` | Die Gesamtzahl der Zeilen, die mit der Abfrage übereinstimmen. Diese kann aufgrund von Seitengrößenbeschränkungen größer als die Größe von `detailArray` sein. |
+| detailArray | `types:JobLogDetailArray` | Das Array von Details zum protokollierten Auftrag. |

@@ -1,7 +1,7 @@
 ---
-description: Beschreibt neue und geänderte Betriebsmethoden für die IPS-API Version 4.4.
+description: Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 4.4.
 solution: Experience Manager
-title: Vorgänge - Neu und geändert
+title: Vorgänge Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# Vorgänge: Neu und geändert{#operations-new-and-modified}
+# Vorgänge: Neu und Geändert{#operations-new-and-modified}
 
-Beschreibt neue und geänderte Betriebsmethoden für die IPS-API Version 4.4.
+Beschreibt neue und geänderte Vorgangsmethoden für die IPS-API-Version 4.4.
 
 Syntax
 
@@ -28,9 +28,9 @@ Syntax
 
 ## Geänderte Vorgänge {#section-d231591fb5ca473e846de29174dcdc39}
 
-**SearchAssets**
+**SucheAssets**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `assetSubtypeArray`
 * `excludeByproductArray`

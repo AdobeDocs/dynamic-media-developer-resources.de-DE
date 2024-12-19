@@ -1,6 +1,6 @@
 ---
 title: Konfiguration
-description: Sie müssen die Bilddarstellung konfigurieren, bevor Sie sie verwenden können.
+description: Sie müssen das Bild-Rendering konfigurieren, bevor Sie es verwenden können.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 9%
 
 # Konfiguration{#configuration}
 
-Sie müssen die Bilddarstellung konfigurieren, bevor Sie sie verwenden können.
+Sie müssen das Bild-Rendering konfigurieren, bevor Sie es verwenden können.

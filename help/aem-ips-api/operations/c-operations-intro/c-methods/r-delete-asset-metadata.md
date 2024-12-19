@@ -1,5 +1,5 @@
 ---
-description: Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von Metadaten-Löschungen, um Werte in einem Batch festzulegen.
+description: Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von gelöschten Metadaten, um Werte in einem Batch festzulegen.
 solution: Experience Manager
 title: deleteAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von Metadaten-Löschungen, um Werte in einem Batch festzulegen.
+Löscht Metadatenwerte für ein Asset. Funktioniert mit einem Array von gelöschten Metadaten, um Werte in einem Batch festzulegen.
 
 Syntax
 
@@ -29,11 +29,11 @@ Syntax
 
 >[!NOTE]
 >
->Der Benutzer muss über Lese- und Löschzugriff auf das Asset verfügen.
+>Der Benutzer muss Lese- und Löschzugriff auf das Asset haben.
 
 ## Parameter {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Input (deleteAssetMetadataParam)**
+**Eingabe (deleteAssetMetadataParam)**
 
 <table id="table_A4438E2FE5F245E5B73F46CD887BE70F"> 
  <thead> 
@@ -49,30 +49,30 @@ Syntax
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Handle des Unternehmens, zu dem der Ordner gehört. </p> </td> 
+   <td colname="col4"> <p>Das Handle des Unternehmens, zu dem der Ordner gehört. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Handle für das zu löschende Asset. </p> </td> 
+   <td colname="col4"> <p>Das Handle zum zu löschenden Asset. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Zu löschende Metadaten aus dem Asset. </p> </td> 
+   <td colname="col4"> <p>Aus dem Asset zu löschende Metadaten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array von Metadaten, die aus dem Asset gelöscht werden sollen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (deleteAssetMetadataParam)**
+**Ausgabe (deleteAssetMetadataParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 

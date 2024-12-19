@@ -1,7 +1,7 @@
 ---
-description: Vorausfüllen des Server-Cache Führt die Anfrage wie req=img aus, aber anstatt das Bild zurückzugeben, gibt der Server die Länge des Antwortbilds (image.length) zurück, formatiert als Textdaten mit dem MIME-Typ text/plain.
+description: Servercache vorladen. Führt die Anfrage genau wie req=img aus, aber anstatt das Bild zurückzugeben, gibt der Server die Länge des Antwortbildes (image.length) zurück, formatiert als Textdaten mit dem MIME-Typ text/plain.
 solution: Experience Manager
-title: loadcache
+title: LoadCache
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 653842e9-bed1-462a-bb1f-39ac1ac9512c
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# loadcache{#loadcache}
+# LoadCache{#loadcache}
 
-Vorausfüllen des Server-Cache Führt die Anfrage wie req=img aus, aber anstatt das Bild zurückzugeben, gibt der Server die Länge des Antwortbilds (image.length) zurück, formatiert als Textdaten mit dem MIME-Typ text/plain.
+Servercache vorladen. Führt die Anfrage genau wie req=img aus, aber anstatt das Bild zurückzugeben, gibt der Server die Länge des Antwortbildes (image.length) zurück, formatiert als Textdaten mit dem MIME-Typ text/plain.
 
 `req=loadcache`
 

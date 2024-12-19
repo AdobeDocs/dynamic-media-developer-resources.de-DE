@@ -1,6 +1,6 @@
 ---
-title: cache
-description: Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerkzwischenspeicherungssysteme) und des Caching im internen [!DNL Platform Server] Cache.
+title: Cache
+description: Cache-Steuerung Ermöglicht die selektive Deaktivierung der Client-seitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerk-Caching-Systeme) und die Zwischenspeicherung im internen  [!DNL Platform Server] .
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# cache{#cache}
+# Cache{#cache}
 
-Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerkzwischenspeicherungssysteme) und des Caching im internen [!DNL Platform Server]-Cache.
+Cache-Steuerung Ermöglicht die selektive Deaktivierung des Client-seitigen Caching (Browser, Proxy-Server, Netzwerk-Caching-Systeme) und Caching im internen [!DNL Platform Server].
 
 `cache= *`cacheControl`*`
 
@@ -23,35 +23,35 @@ Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwisc
 <table id="simpletable_70ACECAEA02F400C83B598FA13F1D00B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cacheControl</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> on|off|validate|update</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> ein|aus|validieren|aktualisieren</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> clientControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> ein|aus</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> serverControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> ein|aus</span> </p></td> 
  </tr> 
 </table>
 
-Wenn nur ein `*`cacheControl`*` -Wert angegeben ist, wird er sowohl auf Client- als auch auf Server-Caches angewendet.
+Wenn nur ein `*`cacheControl`*`-Wert angegeben ist, wird er sowohl auf den Client- als auch auf den Server-Cache angewendet.
 
-Das Schlüsselwort `validate` ermöglicht die Aktualisierung von Cache-Einträgen, nachdem die Bilddateien geändert wurden, ohne darauf warten zu müssen, dass der Cache-Eintrag automatisch abläuft. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
+Mit dem `validate`-Schlüsselwort können Cache-Einträge nach der Änderung von Bilddateien aktualisiert werden, ohne darauf warten zu müssen, dass der Cache-Eintrag automatisch abläuft. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
 
-Mit dem Schlüsselwort `update` können Sie erzwingen, serverseitige Cache-Einträge zu aktualisieren. Dies ist nützlich, nachdem Ressourcen geändert wurden, die nicht direkt vom Cache-Überprüfungsmechanismus verfolgt werden, z. B. wenn eine Schriftartdatei geändert wird, ohne den Dateinamen oder die zugehörige Schriftart-ID zu ändern.
+Das `update`-Schlüsselwort kann verwendet werden, um eine Aktualisierung der Server-seitigen Cache-Einträge zu erzwingen. Dies ist nützlich, nachdem Ressourcen geändert wurden, die nicht direkt vom Cache-Validierungsmechanismus verfolgt werden, z. B. wenn eine Schriftartdatei geändert wird, ohne den Dateinamen oder die zugehörige Schriftart-ID zu ändern.
 
-Wenn in einer verschachtelten Anforderung angegeben, ermöglicht `cache=on` das beständige, serverseitige Caching des von der verschachtelten Anforderung generierten Bildes. Es sollte darauf geachtet werden, die Zwischenspeicherung für verschachtelte Anforderungen nur zu aktivieren, wenn erwartet wird, dass dieselbe verschachtelte Anforderung wiederholt mit genau denselben Parametern aufgerufen wird.
+Wenn in einer verschachtelten Anfrage angegeben, ermöglicht `cache=on` ein persistentes, Server-seitiges Caching des durch die verschachtelte Anfrage generierten Bildes. Es sollte darauf geachtet werden, dass das Caching für verschachtelte Anfragen nur dann aktiviert wird, wenn erwartet wird, dass dieselbe verschachtelte Anfrage wiederholt mit genau denselben Parametern aufgerufen wird.
 
 ## Eigenschaften {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Wird ignoriert, wenn die Anfrage kein Antwortbild zurückgibt. *`clientControl`*wird ignoriert, wenn die clientseitige Zwischenspeicherung vom Bildkatalog deaktiviert wird (wenn `catalog::Expiration` einen negativen Wert hat).
+Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angewendet. Wird ignoriert, wenn die Anfrage kein Antwortbild zurückgibt. *`clientControl`* wird ignoriert, wenn die Client-seitige Zwischenspeicherung vom Bildkatalog deaktiviert wird (wenn `catalog::Expiration` einen negativen Wert aufweist).
 
-Die clientseitige Cache-Steuerung ( `on` und `off`) ist auch für statische Inhaltsanforderungen unter [!DNL /is/content/] verfügbar.
+Die Client-seitige Cache-Steuerung (nur `on` und `off`) ist auch für statische Inhaltsanfragen unter [!DNL /is/content/] verfügbar.
 
 ## Standard {#section-4124b2c836e2491489b9009a92fe4f22}
 
-`cache=on,on` für HTTP-Anforderungen, `cache=off` für verschachtelte/eingebettete Anforderungen, `cache=on` für statische Inhaltsanforderungen.
+`cache=on,on` für HTTP-Anfragen, `cache=off` für verschachtelte/eingebettete Anfragen, `cache=on` für statische Inhaltsanfragen.
 
 ## Verwandte Themen {#section-7c2ac171fa0e4aa4a2e9955fd2d2013e}
 

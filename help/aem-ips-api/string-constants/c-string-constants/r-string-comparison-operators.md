@@ -1,7 +1,7 @@
 ---
 description: Wird von SystemFieldCondition/op und MetadataCondition/op verwendet.
 solution: Experience Manager
-title: Operatoren für Zeichenfolgenvergleich
+title: Zeichenfolgenvergleichsoperatoren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97256368-aaf8-437f-9c2a-8265249f87dd
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# Operatoren für Zeichenfolgenvergleich{#string-comparison-operators}
+# Zeichenfolgenvergleichsoperatoren{#string-comparison-operators}
 
 Wird von SystemFieldCondition/op und MetadataCondition/op verwendet.
 

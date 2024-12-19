@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:ThumbAssetUpdates` | Ein Array von Thumb-Assets wird aktualisiert. |
+| Elemente | `types:ThumbAssetUpdates` | Ein Array von Miniatur-Asset-Aktualisierungen. |

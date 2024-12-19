@@ -26,11 +26,11 @@ Syntax
 
 ## Parameter {#section-0e06195f23dd4c69922df210f566dd18}
 
-**Input (getGroupsParam)**
+**Eingabe (getGroupsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen. |
 
 **Ausgabe (getGroupsReturn)**
 
@@ -40,7 +40,7 @@ Syntax
 
 ## Beispiele {#section-ed0708f611574354bf0c6ea83912b531}
 
-Dieser Code gibt ein Array zurück, das alle Gruppen enthält, die zu einem bestimmten Unternehmen gehören, sowie spezifische Informationen zu den einzelnen Gruppen.
+Dieser Code gibt ein -Array zurück, das alle Gruppen enthält, die zu einem bestimmten Unternehmen gehören, sowie spezifische Informationen zu jeder Gruppe.
 
 **Anfrage**
 

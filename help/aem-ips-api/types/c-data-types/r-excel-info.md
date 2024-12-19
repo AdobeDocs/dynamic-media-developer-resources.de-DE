@@ -5,7 +5,7 @@ title: ExcelInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 17%

@@ -1,24 +1,24 @@
 ---
 description: Entfernt Benutzer aus einem Array von Gruppen.
 solution: Experience Manager
-title: removeGroupMember
+title: removeGroupMitgliedschaft
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 8%
 
 ---
 
-# removeGroupMember{#removegroupmembership}
+# removeGroupMitgliedschaft{#removegroupmembership}
 
 Entfernt Benutzer aus einem Array von Gruppen.
 
-**Unterschiede zwischen &quot;Befehle entfernen&quot;**
+**Unterschiede zwischen Entfernen-Befehlen**
 
-* 0: Entfernt mehrere Benutzer aus einer Gruppe.`removeGroupMembers`
+* `removeGroupMembers`: Entfernt mehrere Benutzer aus einer Gruppe.
 * `removeGroupMembership`: Entfernt einen einzelnen Benutzer aus einem Array von Gruppen.
 
 ## Autorisierte Benutzertypen {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
@@ -29,14 +29,14 @@ Entfernt Benutzer aus einem Array von Gruppen.
 
 ## Parameter {#section-d6a15fa70d3d4fc69da200cdaf59904e}
 
-**Input (removeGroupMembershipParam)**
+**Eingabe (removeGroupMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nein | Der Handle für das Unternehmen, dessen Gruppenmitgliedschaft Sie entfernen möchten. |
-| groupHandleArray | `types:HandleArray` | Ja | Das Array von Handles zu Gruppen, aus denen das Unternehmen entfernt werden soll. |
+| userHandle | `xsd:string` | Nein | Das Handle für die Firma, deren Gruppenmitgliedschaft Sie entfernen möchten. |
+| groupHandleArray | `types:HandleArray` | Ja | Das Array von Handles für Gruppen, aus denen die Firma entfernt werden soll. |
 
-**Output (removeGroupMembershipReturn)**
+**Ausgabe (removeGroupMembershipReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 

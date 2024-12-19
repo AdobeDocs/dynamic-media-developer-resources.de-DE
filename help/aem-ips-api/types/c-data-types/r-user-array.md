@@ -1,7 +1,7 @@
 ---
-description: Eine Gruppe von Benutzern.
+description: Ein Array von Benutzern.
 solution: Experience Manager
-title: UserArray
+title: Benutzer-Array
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL UserArray]{#userarray}
 
-Eine Gruppe von Benutzern.
+Ein Array von Benutzern.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:User` | Eine Gruppe von Benutzern. |
+| Elemente | `types:User` | Ein Array von Benutzern. |

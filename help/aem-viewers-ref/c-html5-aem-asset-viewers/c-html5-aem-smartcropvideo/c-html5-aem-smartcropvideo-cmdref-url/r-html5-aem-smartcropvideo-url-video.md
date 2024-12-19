@@ -1,6 +1,6 @@
 ---
 title: Video
-description: URL-Befehl für Smart Crop Video Viewer.
+description: URL-Befehl für den Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Video{#video}
 
-URL-Befehl für Smart Crop Video Viewer.
+URL-Befehl für den Smart Crop Video Viewer.
 
 ` video= *`videoURL`*`
 
@@ -29,7 +29,7 @@ URL-Befehl für Smart Crop Video Viewer.
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Erforderlich. (Sofern nicht der Parameter `asset` verwendet wird. Siehe [Unterstützung für externe Videos]
+Erforderlich. (Außer `asset` Parameter wird verwendet. Siehe [Unterstützung externer Videos]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}

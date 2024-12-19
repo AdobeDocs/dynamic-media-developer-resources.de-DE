@@ -1,6 +1,6 @@
 ---
-title: JavaScript API-Referenz für Zoom-Viewer
-description: Die Hauptklasse des Zoom-Viewers ist BasicZoomViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
+title: JavaScript-API-Referenz für Zoom-Viewer
+description: Die Hauptklasse des Zoom Viewers ist BasicZoomViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# JavaScript API-Referenz für Zoom-Viewer{#javascript-api-reference-for-zoom-viewer}
+# JavaScript-API-Referenz für Zoom-Viewer{#javascript-api-reference-for-zoom-viewer}
 
-Die Hauptklasse des Zoom-Viewers ist BasicZoomViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
+Die Hauptklasse des Zoom Viewers ist BasicZoomViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.ZoomViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.ZoomViewer` instanziiert wird.

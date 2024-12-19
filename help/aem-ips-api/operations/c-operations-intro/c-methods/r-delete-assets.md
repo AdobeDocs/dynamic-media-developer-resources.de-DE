@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-4dc888e77d974ac794b553616dd11e86}
 
-**Input (deleteAssetsParam)**
+**Eingabe (deleteAssetsParam)**
 
 <table id="table_AAA6845769DB4B129C8A660D0CBA348A"> 
  <thead> 
@@ -49,14 +49,14 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Das Array der zu löschenden Assets. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (deleteAssetsParam)**
+**Ausgabe (deleteAssetsParam)**
 
 <table id="table_0C6D8D51A79248ACA2022DBB754A9B9C"> 
  <thead> 
@@ -78,32 +78,32 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Die Assets, die eine Warnung generiert haben, als der Vorgang versuchte, sie zu löschen. </p> </td> 
+   <td colname="col4"> <p>Die Assets, die eine Warnung generiert haben, als der Vorgang versucht hat, sie zu löschen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Die Assets, die einen Fehler generiert haben, als der Vorgang versuchte, sie zu löschen. </p> </td> 
+   <td colname="col4"> <p>Die Assets, die einen Fehler generiert haben, als der Vorgang versucht hat, sie zu löschen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, eine Warnung generiert haben. </p> </td> 
+   <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind und eine Warnung generiert haben, als der Vorgang versucht hat, sie zu löschen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch des Vorgangs, sie zu löschen, einen Fehler generiert haben. </p> </td> 
+   <td colname="col4"> <p>Das Array von Details, die mit den Assets verknüpft sind und einen Fehler generiert haben, als der Vorgang versucht hat, sie zu löschen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiele {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Dieses Codebeispiel sendet ein Handle an ein Unternehmen und ein Array von Asset-Handles in einer `deleteAssetsParam` -Anfrage an den Webdienstserver. `deleteAssetsReturn` gibt die Erfolgsanzahl 2 zurück, was bedeutet, dass beide Assets gelöscht wurden.
+Dieses Codebeispiel sendet in einer `deleteAssetsParam`-Anfrage ein Handle an ein Unternehmen und ein Array von Asset-Handles an den Webservice-Server. `deleteAssetsReturn` gibt eine Erfolgsanzahl von 2 zurück, was anzeigt, dass beide Assets gelöscht wurden.
 
 **Anfrage**
 

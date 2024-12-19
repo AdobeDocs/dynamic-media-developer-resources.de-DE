@@ -1,7 +1,7 @@
 ---
-description: Wird von JobLogDetial/assetType verwendet.
+description: Wird von JobLogDetail/assetType verwendet.
 solution: Experience Manager
-title: Auftragsprotokolldateitypen
+title: Job Log-Dateitypen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
@@ -12,9 +12,9 @@ ht-degree: 11%
 
 ---
 
-# Auftragsprotokolldateitypen{#job-log-file-types}
+# Job Log-Dateitypen{#job-log-file-types}
 
-Wird von JobLogDetial/assetType verwendet.
+Wird von JobLogDetail/assetType verwendet.
 
 Syntax
 

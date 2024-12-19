@@ -1,5 +1,5 @@
 ---
-description: Farbwerte. Sie können Farbwerte entweder mit hexadezimaler Notation, einer kommagetrennten Liste von Komponentenwerten oder Dezimalstellen angeben.
+description: Farbwerte. Sie können Farbwerte entweder mit Hexadezimalnotation, einer kommagetrennten Liste von Komponentenwerten oder Dezimalzahlen angeben.
 solution: Experience Manager
 title: Farbe
 feature: Dynamic Media Classic,SDK/API
@@ -14,66 +14,66 @@ ht-degree: 3%
 
 # Farbe{#color}
 
-Farbwerte. Sie können Farbwerte entweder mit hexadezimaler Notation, einer kommagetrennten Liste von Komponentenwerten oder Dezimalstellen angeben.
+Farbwerte. Sie können Farbwerte entweder mit Hexadezimalnotation, einer kommagetrennten Liste von Komponentenwerten oder Dezimalzahlen angeben.
 
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&amp;lcub;&amp;lcub;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> red</span>,<span class="varname"> green</span>,<span class="varname"> blue</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> gelb</span>, <span class="varname"> schwarz</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Farbe</span> </span> </p></td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lub;&amp;lub;<span class="varname"> grau</span>[,<span class="varname"> alpha</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rot</span>,<span class="varname"> grün</span>,<span class="varname"> blau</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> gelb</span>, <span class="varname"> schwarz</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> red</span>, <span class="varname"> green</span>, <span class="varname"> blue</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
-  <td class="stentry"> <p>Farbkomponentenwert (0...255, Dezimalzahl) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> rot</span>, <span class="varname"> grün</span>, <span class="varname"> blau</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
+  <td class="stentry"> <p>Wert der Farbkomponente (0…255, decimal int) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> gelb</span>, <span class="varname"> schwarz</span>, <span class="varname"> alpha</span></span> </p></td> 
-  <td class="stentry"> <p>CMYK-Farbkomponentenwert (0,100 %, Dezimalzahl) </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Cyan</span>, <span class="varname"> Magenta</span>, <span class="varname"> Gelb</span>, <span class="varname"> Schwarz</span>, <span class="varname"> Alpha</span></span> </p></td> 
+  <td class="stentry"> <p>CMYK-Farbkomponentenwert (0..100 %, Dezimalint) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> gray</span>, <span class="varname"> alpha</span></span> </p> </td> 
-  <td class="stentry"> <p>Wert der grauen Farbkomponente (0...100%, Dezimalzahl) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Grau</span>, <span class="varname"> Alpha</span></span> </p> </td> 
+  <td class="stentry"> <p>Wert der grauen Farbkomponente (0…100 %, Dezimalzahl int) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>gepackter zweistelliger Hexadezimalfarbwert (GG) </p></td> 
+  <td class="stentry"> <p>gepackter zweistelliger hex-grauer Farbwert (GG) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
-  <td class="stentry"> <p>vierstellige Hex grau mit Alpha-Farbwert (GGAA) verpackt </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> HEX4</span> </span> </p> </td> 
+  <td class="stentry"> <p>Verpackt vierstellig hex grau mit Alpha-Farbwert (GGA) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>abgepackter sechsstelliger hexadezimaler RGB-Farbwert (RRGGBB) </p></td> 
+  <td class="stentry"> <p>Gepackter sechsstelliger hexadezimaler RGB-Farbwert (RGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>gepackter achtstelliger hexadezimaler RGBA- (RRGGBBAA) oder CMYK-Farbwert (CCMMYYKK) (falls mit dem Suffix "k"angegeben) </p></td> 
+  <td class="stentry"> <p>Gepackter achtstelliger hexadezimaler RGBA- (RGGBBAA) oder CMYK- (CCMMYKK) Farbwert (wenn mit dem Suffix 'k' angegeben) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>gepacktes zehnstelliges hexadezimales CMYK mit Alpha-Wert (CCYYMMKAA) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> HEX10</span> </span> </p></td> 
+  <td class="stentry"> <p>gepacktes zehnstelliges hexadezimales CMYK mit Alpha-Wert (CCYMMKKAA) </p> </td> 
  </tr> 
 </table>
 
-Dezimalkomponentenwerte für RGB-Farben liegen im Bereich 0...255. Die Werte der Dezimalkomponenten für CMYK und Grau liegen im Bereich von 0,100 %. Alle hexadezimalen Komponentenwerte liegen im Bereich 0...0xFF.
+Die Dezimalkomponentenwerte für RGB-Farben liegen im Bereich 0 bis 255. Die Dezimalkomponentenwerte für CMYK und Grau liegen im Bereich 0 bis 100 %. Alle Hexadezimalkomponentenwerte liegen im Bereich 0…0xFF.
 
 Farbkomponentenwerte werden als unabhängig vom Alpha-Wert angenommen (nicht vormultipliziert).
 
 Bei allen Farbwerten, Präfixen und Suffixen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-Das Typsuffix &quot;k&quot;ist für CMYK-Farbwerte erforderlich. Ein Typsuffix kann optional für RGB- und Graufarbwerte angegeben werden.
+Für CMYK-Farbwerte ist das Typsuffix &#39;k&#39; erforderlich. Für RGB- und Grauwerte kann optional ein Typsuffix angegeben werden.
 
-Das Präfix &quot;0x&quot;ist für hexadezimale graue Farbwerte erforderlich.
+Das Präfix &#39;0x&#39; ist für hexadezimale Grauwerte erforderlich.
 
-Das Suffix &quot;s&quot;gibt an, dass der Farbwert dem Eingabefarbraum (Quelle) zugeordnet ist, der dem Pixeltyp des Farbwerts entspricht (definiert mit `attribute::IccProfileSrc*`). Wenn dieses Suffix nicht vorhanden ist, wird der Farbwert dem Ausgabe-(Ziel-)Farbraum zugeordnet (definiert mit `icc=` oder `attribute::IccProfile*`).
+Das Suffix &#39;s&#39; gibt an, dass der Farbwert mit dem Farbraum der Eingabe (Quelle) verbunden ist, der dem Pixeltyp des Farbwerts entspricht (definiert mit `attribute::IccProfileSrc*`). Wenn dieses Suffix nicht vorhanden ist, wird der Farbwert mit dem Ausgabefarbraum (Ziel) verknüpft (definiert mit `icc=` oder `attribute::IccProfile*`).
 
 ## Standard {#section-737082a7da544acca8092a48d88480e7}
 
-Wenn ein Alpha-Wert nicht explizit angegeben ist, wird angenommen, dass er 255, 0xFF oder 100 % (vollständig opak) beträgt.
+Wenn ein Alpha-Wert nicht explizit angegeben wird, wird von 255, 0xFF oder 100 % ausgegangen (vollständig opak).
 
 ## Beispiele {#section-4ac69026349949f8b595a6d4a9ce474d}
 
-Beispiele für gültige Farbspezifikatoren und den zugehörigen Pixeltyp, Farbwert, Alpha-Wert und Standardfarbraum:
+Einige Beispiele für gültige Farbspezifikatoren und ihren entsprechenden Pixeltyp, Farbwert, Alpha-Wert und Standardfarbraum:
 
 <table id="table_1539E74A1EC545F1B5398D86A27079D1"> 
  <thead> 
@@ -91,10 +91,10 @@ Beispiele für gültige Farbspezifikatoren und den zugehörigen Pixeltyp, Farbwe
    <td> <p>RGB </p> </td> 
    <td> <p>0.100.200 </p> </td> 
    <td> <p>255 </p> </td> 
-   <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
+   <td> <p> <span class="codeph"> IccProfileRGB</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0.100.200.200rs </p> </td> 
+   <td> <p>0 100 200 200 RS </p> </td> 
    <td> <p>RGB </p> </td> 
    <td> <p>0.100.200 </p> </td> 
    <td> <p>200 </p> </td> 
@@ -112,10 +112,10 @@ Beispiele für gültige Farbspezifikatoren und den zugehörigen Pixeltyp, Farbwe
    <td> <p>RGB </p> </td> 
    <td> <p>160.177.194 </p> </td> 
    <td> <p>211 </p> </td> 
-   <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
+   <td> <p> <span class="codeph"> IccProfileRGB</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>100 S </p> </td> 
+   <td> <p>hundert </p> </td> 
    <td> <p>grau </p> </td> 
    <td> <p>100 % </p> </td> 
    <td> <p>100 % </p> </td> 
@@ -129,7 +129,7 @@ Beispiele für gültige Farbspezifikatoren und den zugehörigen Pixeltyp, Farbwe
    <td> <p> <span class="codeph"> IccProfileGray</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0X70G </p> </td> 
+   <td> <p>0x70g </p> </td> 
    <td> <p>grau </p> </td> 
    <td> <p>44 % </p> </td> 
    <td> <p>44 % </p> </td> 
@@ -140,26 +140,26 @@ Beispiele für gültige Farbspezifikatoren und den zugehörigen Pixeltyp, Farbwe
    <td> <p>grau </p> </td> 
    <td> <p>87 % </p> </td> 
    <td> <p>93 % </p> </td> 
-   <td> <p> <span class="codeph"> IccProfileSrcGray </span> </p> </td> 
+   <td> <p> <span class="codeph"> IccProfileSrcGray-</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>94.11.50,33 k </p> </td> 
+   <td> <p>94 11 50 33 K </p> </td> 
    <td> <p>CMYK </p> </td> 
-   <td> <p>94-11-50-33% </p> </td> 
+   <td> <p>94 11 50 33 % </p> </td> 
    <td> <p>100 % </p> </td> 
    <td> <p> <span class="codeph"> IccProfileCmyk</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>22,23,24,25,26 KS </p> </td> 
+   <td> <p>22,23,24,25,26KS </p> </td> 
    <td> <p>CMYK </p> </td> 
-   <td> <p>22-23-24-25% </p> </td> 
+   <td> <p>22 23 24 25 % </p> </td> 
    <td> <p>26 % </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcCmyk</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>38393A3bK </p> </td> 
    <td> <p>CMYK </p> </td> 
-   <td> <p>56-57-58-59% </p> </td> 
+   <td> <p>56 57 58 59 % </p> </td> 
    <td> <p>100 % </p> </td> 
    <td> <p> <span class="codeph"> IccProfileCmyk</span> </p> </td> 
   </tr> 
@@ -173,4 +173,4 @@ Beispiele für gültige Farbspezifikatoren und den zugehörigen Pixeltyp, Farbwe
  </tbody> 
 </table>
 
-Der mit `icc=` angegebene Ausgabefarbraum wird anstelle des Standardfarbraums angewendet, wenn der Pixeltyp einer Ausgabefarbung dem Pixeltyp des Ausgabebilds entspricht.
+Der mit `icc=` angegebene Ausgabefarbraum gilt anstelle des Standardfarbraums, wenn der Pixeltyp einer Ausgabefarbe dem Pixeltyp des Ausgabebilds entspricht.

@@ -1,6 +1,6 @@
 ---
-title: batchjobbriefstatus
-description: Abrufen des zusammengefassten Status eines gesendeten Auftrags.
+title: batchJobBriefStatus
+description: Abrufen des zusammengefassten Status eines übermittelten Vorgangs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# batchjobbriefstatus{#batchjobbriefstatus}
+# batchJobBriefStatus{#batchjobbriefstatus}
 
-Abrufen des zusammengefassten Status eines gesendeten Auftrags.
+Abrufen des zusammengefassten Status eines übermittelten Vorgangs.
 
 Dieser Parameter:
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>Auftrags-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> JobId-</span> </p> </td> 
+  <td class="stentry"> <p>Vorgangs-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p> </td> 
  </tr> 
 </table>
 
-Gibt Folgendes zurück:
+Gibt zurück:
 
-Kurzer Auftragsstatus im XML-Format; Fehler, wenn der Auftrag ungültig ist oder gelöscht wurde.
+Kurzer Status des Vorgangs im XML-Format; Fehler, wenn die Vorgangs-ID ungültig ist oder der Vorgang gelöscht wurde.
 
 ## Beispiel {#section-806460949bb043438ad4dd4e7ab74145}
 

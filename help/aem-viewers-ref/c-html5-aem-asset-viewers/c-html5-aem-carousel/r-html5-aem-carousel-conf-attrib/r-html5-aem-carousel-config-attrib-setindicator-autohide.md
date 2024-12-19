@@ -19,12 +19,12 @@ ht-degree: 3%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limit</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert das Verhalten zum automatischen Ausblenden in Abhängigkeit von der Anzahl der Seiten und der Laufzeit-Komponentengröße. </p> <p> <span class="codeph"> 0</span> deaktiviert die automatische Ausblendung. </p> <p> <span class="codeph"> 1</span> aktiviert die automatische Ausblendung. Die Komponente blendet ihre Punkte aus, wenn mindestens eine der folgenden Bedingungen wahr wird: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> Limit</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Konfiguriert das Verhalten zum automatischen Ausblenden in Abhängigkeit von der Anzahl der Seiten und der Größe der Laufzeitkomponenten. </p> <p> <span class="codeph"> 0</span> Deaktiviert die automatische Ausblendung. </p> <p> <span class="codeph"> 1</span> Aktiviert die automatische Ausblendung. Die Komponente blendet ihre Punkte aus, wenn mindestens eine der folgenden Bedingungen zutrifft: </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
-      <li id="li_39332158806445DF874C5A52F1331B8B">die Zeile mit Punkten größer wird als die Breite der Laufzeitkomponente oder </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">Die Anzahl der für diese Komponente festgelegten Seiten überschreitet die durch den Parameter <span class="codeph"><span class="varname"> limit</span></span> konfigurierte Grenze. </li> 
-     </ul> </p> <p> Wird <span class="codeph"><span class="varname"> limit</span></span> auf <span class="codeph"> -1</span> gesetzt, wird die zweite Bedingung zum automatischen Ausblenden deaktiviert. </p> </td> 
+      <li id="li_39332158806445DF874C5A52F1331B8B">Die Zeile mit Punkten wird breiter als die Breite der Laufzeitkomponente oder </li> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">Die Anzahl der für diese Komponente festgelegten Seiten überschreitet das mit dem Parameter "<span class="codeph"><span class="varname"> Limit“ konfigurierte </span></span>. </li> 
+     </ul> </p> <p> Wenn Sie <span class="codeph"><span class="varname"> Limit</span></span> auf <span class="codeph"> -1 setzen</span> wird die zweite Bedingung für das automatische Ausblenden deaktiviert. </p> </td> 
   </tr> 
  </tbody> 
 </table>

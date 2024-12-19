@@ -1,11 +1,11 @@
 ---
 title: ResMode
-description: Resamplingmodus. Standard für resMode=. Gibt die Resampling- und Interpolationsattribute an, die für die Skalierung des gerenderten Bildes auf die endgültige Größe verwendet werden.
+description: Resampling-Modus. Standard für resMode=. Gibt die Resampling- und Interpolationsattribute an, die zum Skalieren des gerenderten Bildes auf die endgültige Größe verwendet werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 4%
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # ResMode{#resmode}
 
-Resamplingmodus. Standardwert für `resMode=`. Gibt die Resampling- und Interpolationsattribute an, die für die Skalierung des gerenderten Bildes auf die endgültige Größe verwendet werden.
+Resampling-Modus. Standard für `resMode=`. Gibt die Resampling- und Interpolationsattribute an, die zum Skalieren des gerenderten Bildes auf die endgültige Größe verwendet werden.
 
 ## Eigenschaften {#section-1183a155f33c4eca80f1dc6fb6bda1b5}
 
-Enum. Legen Sie für `'bilin'`, für `'bicub'` auf 2 oder für den `'sharp2'` Interpolationsmodus auf 4 fest (Einzelheiten finden Sie unter [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md)).
+Aufzählung. Festlegung auf 2 für `'bilin'`, 3 für `'bicub'` oder 4 für `'sharp2'` Interpolationsmodus (Einzelheiten siehe [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md)).
 
 ## Standard {#section-ed432a0acc3e4bce926a07e9cfd2c865}
 
-Wird von `default::ResMode` übernommen, wenn nicht definiert oder leer.
+Von `default::ResMode` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-34b71c295b4349dfb4379823a2de83c2}
 

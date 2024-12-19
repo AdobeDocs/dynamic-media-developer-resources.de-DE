@@ -1,5 +1,5 @@
 ---
-description: Diese neuen oder modifizierten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen außerhalb der von Dynamic Media entwickelten Anwendungen nicht verwendet werden.
+description: Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb von in Dynamic Media entwickelten Programmen verwendet werden.
 solution: Experience Manager
 title: Eingeschränkte Verwendung
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Eingeschränkte Verwendung{#restricted-use}
 
-Diese neuen oder modifizierten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen außerhalb der von Dynamic Media entwickelten Anwendungen nicht verwendet werden.
+Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb von in Dynamic Media entwickelten Programmen verwendet werden.
 
-Diese Vorgänge und Typen können bei nachfolgenden Systemaktualisierungen deaktiviert, geändert oder eingestellt werden.
+Diese Vorgänge und Typen können bei späteren Systemaktualisierungen deaktiviert, geändert oder eingestellt werden.
 
 **Neue Typen**
 
@@ -41,7 +41,7 @@ Diese Vorgänge und Typen können bei nachfolgenden Systemaktualisierungen deakt
 * listCompanyMetadata
 * removeMask
 * removePropertySetPermissions
-* searchAssetsByÄhnarity
+* searchAssetsBySimilarity
 * searchAssetsByFulltext
 * setAssetPublishState
 * setPropertySetPermissions
@@ -50,59 +50,59 @@ Diese Vorgänge und Typen können bei nachfolgenden Systemaktualisierungen deakt
 * updateImageSet
 * updatePropertySetPermissions
 
-**Modifizierte Typen**
+**Geänderte Typen**
 
-* `ActiveJob` wurde geändert, um den Typ `createVideoSitemapJob` einzuschließen
+* `ActiveJob` geändert, um einen `createVideoSitemapJob` einzuschließen
 
-* `ScheduledJob` wurde geändert, um den Typ `createVideoSitemapJob` einzuschließen
+* `ScheduledJob` geändert, um einen `createVideoSitemapJob` einzuschließen
 
-* `ImageServingPublishJob` wurde geändert, um einen optionalen `contextHandle` einzuschließen.
+* Der `ImageServingPublishJob` wurde geändert und enthält jetzt eine optionale `contextHandle`
 
-* `ImageRenderingPublishJob` wurde geändert, um einen optionalen `contextHandle` einzuschließen.
+* Der `ImageRenderingPublishJob` wurde geändert und enthält jetzt eine optionale `contextHandle`
 
-* `MetadataField` wurde geändert, um einen optionalen `initialTagField` einzuschließen.
+* Der `MetadataField` wurde geändert und enthält jetzt eine optionale `initialTagField`
 
-* `MetadataCondition` wurde zum Einschließen und optionalen Parameter `caseSensitive` geändert
+* `MetadataCondition` geändert, um und optionale `caseSensitive` einzuschließen
 
-* `PropertySet` wurde geändert, um eine optionale `PermissionArray` als `permissions` einzuschließen
+* `PropertySet` geändert, um eine optionale `PermissionArray` als `permissions` einzuschließen
 
-* `UploadDirectoryJob` wurde geändert, um optionale Parameter `xmpKeywords`, `xmpTemplateId` und `xmpTemplateOverride` einzuschließen.
+* `UploadDirectoryJob` geändert, um optionale `xmpKeywords`-, `xmpTemplateId`- und `xmpTemplateOverride` einzuschließen
 
-* `VideoPublishJob` wurde geändert, um einen optionalen `contextHandle` einzuschließen.
+* Der `VideoPublishJob` wurde geändert und enthält jetzt eine optionale `contextHandle`
 
-**Modifizierte Vorgänge**
+**Geänderte Vorgänge**
 
-* `createAssetSet` wurde geändert, um einen optionalen `thumbAssetHandle` einzuschließen.
+* Der `createAssetSet` wurde geändert und enthält jetzt eine optionale `thumbAssetHandle`
 
-* `createImageSet` wurde geändert, um einen optionalen `thumbAssetHandle` einzuschließen.
+* Der `createImageSet` wurde geändert und enthält jetzt eine optionale `thumbAssetHandle`
 
-* `createMetadataField` wurde geändert, um einen optionalen `initialTagValue` -Parameter einzuschließen
+* Der `createMetadataField` wurde geändert und enthält jetzt einen optionalen `initialTagValue`
 
-* `createPropertySet` wurde geändert, um eine optionale `PermissionUpdateArray` als `permissionArray` einzuschließen
+* `createPropertySet` geändert, um eine optionale `PermissionUpdateArray` als `permissionArray` einzuschließen
 
-* `getImageServingPublishSettings` wurde geändert, um einen optionalen `contextHandle` -Parameter einzuschließen
+* Der `getImageServingPublishSettings` wurde geändert und enthält jetzt einen optionalen `contextHandle`
 
-* `getImageRenderingPublishSettings` wurde geändert, um einen optionalen `contextHandle` -Parameter einzuschließen
+* Der `getImageRenderingPublishSettings` wurde geändert und enthält jetzt einen optionalen `contextHandle`
 
 * `searchAssetsByFullText` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
-   * `SearchFilter` als `filters` Parameter
+   * Als `filters` Parameter `SearchFilter`
 
    * `sortBy`
    * `sortDirection`
 
 * `searchAssetsByMetadata` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
-   * `SearchFilter` als `filters` Parameter
+   * Als `filters` Parameter `SearchFilter`
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` Sequenz von sieben Parametern
 
-* `setAssetPublishState` wurde geändert, um eine optionale `HandleArray` als `contextHandleArray` einzuschließen
+* `setAssetPublishState` geändert, um eine optionale `HandleArray` als `contextHandleArray` einzuschließen
 
-* `setImageServingPublishSettings` wurde geändert, um einen optionalen `contextHandle` -Parameter einzuschließen
+* Der `setImageServingPublishSettings` wurde geändert und enthält jetzt einen optionalen `contextHandle`
 
-* `setImageRenderingPublishSettings` wurde geändert, um einen optionalen `contextHandle`Parameter einzuschließen
+* Der `setImageRenderingPublishSettings` wurde geändert und enthält jetzt einen optionalen `contextHandle`.
 
-* `submitJob` wurde geändert, um einen optionalen `createVideoSitemap` Auftragstyp einzuschließen
+* `submitJob` geändert, um einen optionalen `createVideoSitemap`-Vorgangstyp einzuschließen

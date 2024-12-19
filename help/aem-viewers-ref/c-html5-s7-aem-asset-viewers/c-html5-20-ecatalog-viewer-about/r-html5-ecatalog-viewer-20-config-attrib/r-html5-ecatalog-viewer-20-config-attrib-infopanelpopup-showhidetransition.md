@@ -20,11 +20,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> fade|none</span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Typ der Infofeld-Animation ein-/ausblenden an. </p> </td> 
+   <td colname="col2"> <p> Gibt den Typ der Einblenden/Ausblenden-Animation des Infobereichs an. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
-   <td> <p> Dauer (in Sekunden) für die Ein- oder Ausblenden-Animation. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Zeit</span></span> </p> </td> 
+   <td> <p> Dauer (in Sekunden) für das Ein- oder Ausblenden der Animation. </p> </td> 
   </tr> 
  </tbody> 
 </table>

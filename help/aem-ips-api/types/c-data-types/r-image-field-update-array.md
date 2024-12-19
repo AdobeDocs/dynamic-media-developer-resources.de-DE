@@ -5,7 +5,7 @@ title: ImageFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 25%
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:ImageFieldUpdate` | Array von Bildfeldaktualisierungen. |
+| Elemente | `types:ImageFieldUpdate` | Array von Aktualisierungen der Bildfelder. |

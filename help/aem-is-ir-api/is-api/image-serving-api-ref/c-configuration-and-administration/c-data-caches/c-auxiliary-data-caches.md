@@ -1,5 +1,5 @@
 ---
-description: Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie in der verschachtelten/eingebetteten Anforderung cache=on angeben. Diese Daten werden im Cache der Antwortdaten im proprietären Format gespeichert.
+description: Bildzwischendaten, die von verschachtelten/eingebetteten Bildbereitstellungs- und Bildbereitstellungsanfragen erzeugt werden, können zwischengespeichert werden, indem in der verschachtelten/eingebetteten Anfrage „cache=on“ angegeben wird. Diese Daten werden im proprietären Format im Antwortdaten-Cache gespeichert.
 solution: Experience Manager
 title: Zusätzliche Daten-Caches
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Zusätzliche Daten-Caches{#auxiliary-data-caches}
 
-Zwischenbilddaten, die von verschachtelten/eingebetteten Image Serving- und Image Rendering-Anforderungen erzeugt werden, können zwischengespeichert werden, indem Sie in der verschachtelten/eingebetteten Anforderung cache=on angeben. Diese Daten werden im Cache der Antwortdaten im proprietären Format gespeichert.
+Bildzwischendaten, die von verschachtelten/eingebetteten Bildbereitstellungs- und Bildbereitstellungsanfragen erzeugt werden, können zwischengespeichert werden, indem in der verschachtelten/eingebetteten Anfrage „cache=on“ angegeben wird. Diese Daten werden im proprietären Format im Antwortdaten-Cache gespeichert.
 
-Bilder, die von ausländischen HTTP-Servern abgerufen werden, werden auch im Cache für Antwortdaten gespeichert. Solche Bilder werden automatisch mit dem Überprüfungsdienstprogramm validiert, bevor der Cache-Eintrag generiert wird.
+Bilder von fremden HTTP-Servern werden ebenfalls im Cache für Antwortdaten gespeichert. Solche Bilder werden automatisch mit dem Validierungsprogramm validiert, bevor der Cache-Eintrag generiert wird.
 
-Der [!DNL Platform Server] kompiliert Bildkatalogdaten für einen effizienten Zugriff. Diese Daten werden in `CS::CatalogCacheFolder` gespeichert.
+Die [!DNL Platform Server] kompiliert Bildkatalogdaten für einen effizienten Zugriff. Diese Daten werden in `CS::CatalogCacheFolder` gespeichert.

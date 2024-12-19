@@ -1,6 +1,6 @@
 ---
-title: Starten und Beenden von Image Serving
-description: Dieser Abschnitt enthält Anweisungen zum Starten und Beenden von Image Serving unter Windows und Linux®.
+title: Starten und Anhalten der Bildbereitstellung
+description: Dieser Abschnitt enthält Anweisungen zum Starten und Beenden der Bildbereitstellung unter Windows und Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Starten und Beenden von Image Serving{#starting-and-stopping-image-serving}
+# Starten und Anhalten der Bildbereitstellung{#starting-and-stopping-image-serving}
 
-Dieser Abschnitt enthält Anweisungen zum Starten und Beenden von Image Serving unter Windows und Linux®.
+Dieser Abschnitt enthält Anweisungen zum Starten und Beenden der Bildbereitstellung unter Windows und Linux®.
 
-* [Starten oder Beenden unter Windows](t-startstop-windows.md)
-* [Starten oder Beenden unter Linux®](t-startstop-linux.md)
+* [Starten oder Anhalten unter Windows](t-startstop-windows.md)
+* [Starten oder Anhalten unter Linux®](t-startstop-linux.md)

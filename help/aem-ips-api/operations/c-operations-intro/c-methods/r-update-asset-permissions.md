@@ -1,7 +1,7 @@
 ---
-description: Aktualisiert Asset-Berechtigungen.
+description: Aktualisiert die Asset-Berechtigungen.
 solution: Experience Manager
-title: updateAssetPermissons
+title: updateAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
@@ -12,9 +12,9 @@ ht-degree: 20%
 
 ---
 
-# updateAssetPermissons{#updateassetpermissons}
+# updateAssetPermissions{#updateassetpermissons}
 
-Aktualisiert Asset-Berechtigungen.
+Aktualisiert die Asset-Berechtigungen.
 
 Syntax
 
@@ -26,11 +26,11 @@ Syntax
 
 ## Parameter {#section-392cb3076cf84790a32fd913f2b111a3}
 
-**Input (updateAssetPermissionsParam)**
+**Eingabe (updateAssetPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
 | updateArray | `types:PermissionUpdateArray` | Ja | Berechtigungen, die Sie auf das Asset anwenden möchten. |
 

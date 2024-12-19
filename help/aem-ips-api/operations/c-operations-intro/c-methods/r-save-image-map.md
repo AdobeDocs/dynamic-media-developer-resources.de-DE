@@ -5,7 +5,7 @@ title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 8%
@@ -33,7 +33,7 @@ Syntax
 
 ## Parameter {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
-**Input (saveImageMapParam)**
+**Eingabe (saveImageMapParam)**
 
 <table id="table_49649036F46941D2B1F28515674E533B"> 
  <thead> 
@@ -49,52 +49,52 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Das Handle für das Unternehmen mit der Imagemap, die Sie speichern möchten. </td> 
+   <td colname="col4"> Der Handle für das Unternehmen mit der Imagemap, die Sie speichern möchten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> AssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Das Handle des Bild-Assets, zu dem die Imagemap gehört. </td> 
+   <td colname="col4"> Das Handle für das Bild-Asset, zu dem die Imagemap gehört. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Das Handle zur Imagemap. Erstellt eine Imagemap mit NULL. </td> 
+   <td colname="col4"> Der Ziehgriff zur Imagemap. Erstellt eine Imagemap, falls NULL. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Name </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Name der erstellten oder gespeicherten Imagemap. </td> 
+   <td colname="col4"> Der Name der Imagemap, die erstellt oder gespeichert wird. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ShapeType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Auswahl der Regionsform. </td> 
+   <td colname="col4"> Auswahl der Region. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> region </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Region </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Eine kommagetrennte Liste von Punkten, die den Bereich definieren. </td> 
+   <td colname="col4"> Eine kommagetrennte Liste von Punkten, die die Region definieren. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Aktion </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Der <span class="codeph"> href </span> -Wert, der der Imagemap zugeordnet ist, wie in der IPS-Oberfläche angegeben. </p> <p>Um den Wert <span class="codeph"> href </span> zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL und fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als ordnungsgemäße URL. Beispiel: <span class="codeph"> &amp; </span> wird zu <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Der <span class="codeph"> href </span> Wert, der mit der Imagemap verknüpft ist, wie in der IPS-Schnittstelle angegeben. </p> <p>Um den <span class="codeph"> href-</span>-Wert zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL, fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als richtige URL. Beispielsweise wird <span class="codeph"> &amp; </span> zu <span class="codeph"> &amp;amp;</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Position </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Die Reihenfolge in der Liste der Imagemaps (Z-Achse). </td> 
+   <td colname="col4"> Die Reihenfolge in der Liste der Imagemaps (die Z-Achse). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> aktiviert </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"></td> 
@@ -102,15 +102,15 @@ Syntax
  </tbody> 
 </table>
 
-**Output (saveImageMapReturn)**
+**Ausgabe (saveImageMapReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| imageMapHandle | `xsd:string` | Ja | Das Handle zur neuen oder bearbeiteten Imagemap. |
+| imageMapHandle | `xsd:string` | Ja | Der Ziehgriff auf die neue oder bearbeitete Imagemap. |
 
 ## Beispiele {#section-fdac488b640f427c8aa3d549c5032851}
 
-In diesem Codebeispiel wird eine neue Imagemap für ein Asset erstellt. Es wird ein durch eine Regions-Form-String-Konstante bestimmter Formtyp verwendet und ein Handle an die neue Imagemap zurückgegeben.
+Dieses Codebeispiel erstellt eine neue Imagemap für ein Asset. Es verwendet einen durch eine Zeichenfolgenkonstante der Bereichsform bestimmten Formtyp und gibt einen Ziehpunkt an die neue Imagemap zurück.
 
 **Anfrage**
 

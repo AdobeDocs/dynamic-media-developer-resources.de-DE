@@ -1,7 +1,7 @@
 ---
-description: Beschreibt die verschiedenen Unternehmen, zu denen ein Benutzer gehört.
+description: Beschreibt die verschiedenen Unternehmen, denen ein Benutzer angehört.
 solution: Experience Manager
-title: CompanyMember
+title: Firmenmitglied
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL CompanyMember]{#companymember}
 
-Beschreibt die verschiedenen Unternehmen, zu denen ein Benutzer gehört.
+Beschreibt die verschiedenen Unternehmen, denen ein Benutzer angehört.
 
 Syntax
 
@@ -23,5 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | Benutzer | `types:User` | Benutzername. |
-| Rolle | `xsd:string` | Rolle des Benutzers für jedes Unternehmen, zu dem er gehört. |
-| isActive | `xsd:boolean` | Legt den Status des Benutzers für jedes Unternehmen fest, zu dem er gehört. |
+| Funktion | `xsd:string` | Rolle, die der Benutzer für jedes Unternehmen hat, dem er angehört. |
+| isActive | `xsd:boolean` | Legt den Benutzerstatus für jedes Unternehmen fest, dem sie angehören. |

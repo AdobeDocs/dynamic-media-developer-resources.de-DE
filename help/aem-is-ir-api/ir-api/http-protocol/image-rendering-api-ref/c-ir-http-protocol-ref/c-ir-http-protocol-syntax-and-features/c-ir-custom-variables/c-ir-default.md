@@ -16,4 +16,4 @@ ht-degree: 6%
 
 Es gibt keine Standardeinstellung.
 
-Nur definierte Variablen werden vom Server ersetzt. Alle Vorkommnisse von `$ *[!DNL name]*$`, die mit keiner definierten benutzerdefinierten Variable übereinstimmen, bleiben literal.
+Nur definierte Variablen werden durch den -Server ersetzt. Alle Vorkommen von `$ *[!DNL name]*$`, die mit keiner definierten benutzerdefinierten Variablen übereinstimmen, bleiben Literal.

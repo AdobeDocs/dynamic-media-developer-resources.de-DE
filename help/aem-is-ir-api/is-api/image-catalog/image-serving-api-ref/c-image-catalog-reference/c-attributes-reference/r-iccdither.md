@@ -1,7 +1,7 @@
 ---
-description: Farbkonvertierung - Dithering Gibt an, ob Dithering verwendet werden soll, um die wahrnehmbare Qualität von Farbkonvertierungen zu verbessern, wenn keine explizite Auswahl mit icc= vorgenommen wird.
+description: Dithering der Farbkonvertierung. Gibt an, ob die Dithering-Methode verwendet werden soll, um die wahrnehmungsbezogene Qualität von Farbkonvertierungen zu verbessern, wenn keine explizite Auswahl mit icc= erfolgt.
 solution: Experience Manager
-title: IccDither
+title: ICCdither
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4b444f0f-2313-4477-8a22-7840b4783c88
@@ -12,17 +12,17 @@ ht-degree: 3%
 
 ---
 
-# IccDither{#iccdither}
+# ICCdither{#iccdither}
 
-Farbkonvertierung - Dithering Gibt an, ob Dithering verwendet werden soll, um die wahrnehmbare Qualität von Farbkonvertierungen zu verbessern, wenn keine explizite Auswahl mit icc= vorgenommen wird.
+Dithering der Farbkonvertierung. Gibt an, ob die Dithering-Methode verwendet werden soll, um die wahrnehmungsbezogene Qualität von Farbkonvertierungen zu verbessern, wenn keine explizite Auswahl mit icc= erfolgt.
 
 ## Eigenschaften {#section-b7ba44d2d5de43f5a0841fe4cac29d35}
 
-Flag. Legen Sie auf 0 fest, um das Dithering zu deaktivieren, oder auf 1, um es zu aktivieren.
+Markierung. Setzen Sie ihn auf 0, um die Dithering-Funktion zu deaktivieren, oder auf 1, um die Dithering-Funktion zu aktivieren.
 
 ## Standard {#section-86c4230a16454464880f64d4ab5ad533}
 
-Wird von `default::IccDither` übernommen, wenn nicht definiert oder leer.
+Von `default::IccDither` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-fe119006eb414a618b6ec9edbed8fe94}
 

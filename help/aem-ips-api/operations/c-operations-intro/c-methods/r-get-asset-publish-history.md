@@ -32,11 +32,11 @@ Syntax
 
 ## Parameter {#section-3541bd9914a44b89acfc1d419b560ee6}
 
-**Input (getAssetPublishHistoryParam)**
+**Eingabe (getAssetPublishHistoryParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset-Veröffentlichungsverlauf. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit dem Veröffentlichungsverlauf für Assets. |
 | assetHandle | `xsd:string` | Ja | Das Asset mit dem Veröffentlichungsverlauf, den Sie untersuchen möchten. |
 
 **Ausgabe (getAssetPublishHistoryReturn)**
@@ -47,7 +47,7 @@ Syntax
 
 ## Beispiele {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-Dieses Codebeispiel gibt den Veröffentlichungsverlauf eines Assets zurück. Ein Asset wurde nie veröffentlicht, wenn der Server ein leeres Array zurückgibt.
+Dieses Code-Beispiel gibt den Veröffentlichungsverlauf eines Assets zurück. Ein Asset wurde noch nie veröffentlicht, wenn der Server ein leeres Array zurückgibt.
 
 **Anfrage**
 

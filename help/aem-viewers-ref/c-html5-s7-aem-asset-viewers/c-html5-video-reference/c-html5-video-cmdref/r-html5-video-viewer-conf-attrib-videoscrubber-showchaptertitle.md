@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: Konfigurationsattribut für Video-Viewer.
+description: Konfigurationsattribut für Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Konfigurationsattribut für Video-Viewer.
+Konfigurationsattribut für Video Viewer.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Deaktiviert oder aktiviert die Titelleiste der Videokapitelbeschriftung. Die Startzeit des Kapitels wird nicht angezeigt, wenn die Titelleiste deaktiviert ist. </p> </td> 
+   <td colname="col2"> <p> Deaktiviert oder aktiviert die Titelleiste der Videokapitelbezeichnung. Die Kapitelstartzeit wird nicht angezeigt, wenn die Titelleiste deaktiviert ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API Version 3.7.
+description: Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API-Version 3.7.
 solution: Experience Manager
-title: Zeichenfolgenkonstanten neu und geändert
+title: Zeichenfolgenkonstanten Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# Zeichenfolgenkonstanten: Neu und geändert{#string-constants-new-and-modified}
+# Zeichenfolgenkonstanten: Neu und Geändert{#string-constants-new-and-modified}
 
-Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API Version 3.7.
+Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API-Version 3.7.
 
 Syntax
 

@@ -1,6 +1,6 @@
 ---
-title: Serveradministration
-description: Serveradministration
+title: Server-Administration
+description: Server-Administration
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 ---
 
-# Serveradministration{#server-administration}
+# Server-Administration{#server-administration}

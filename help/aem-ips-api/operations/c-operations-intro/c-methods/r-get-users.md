@@ -1,5 +1,5 @@
 ---
-description: Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gruppen- und Benutzerrollen angegeben sind. Dieser Vorgang ermöglicht die Sortierung der zurückgegebenen Benutzer und die Filterung nach Zeichen.
+description: Ruft ein Array von Benutzern ab, wie durch Handles für Unternehmens-, Gruppen- und Benutzerrollen angegeben. Mit diesem Vorgang können Sie zurückgegebene Benutzer sortieren und nach Zeichen filtern.
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # getUsers{#getusers}
 
-Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gruppen- und Benutzerrollen angegeben sind. Dieser Vorgang ermöglicht die Sortierung der zurückgegebenen Benutzer und die Filterung nach Zeichen.
+Ruft ein Array von Benutzern ab, wie durch Handles für Unternehmens-, Gruppen- und Benutzerrollen angegeben. Mit diesem Vorgang können Sie zurückgegebene Benutzer sortieren und nach Zeichen filtern.
 
 ## Autorisierte Benutzertypen {#section-6a8f23cc6b22442d8776f701016971ed}
 
@@ -26,14 +26,14 @@ Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gru
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| includeInactive | `xsd:boolean` | Nein | Inaktive Benutzer ein- oder ausschließen. Benutzer, die keine IPS-Administratoren sind, müssen aktives Mitglied von mindestens einem Unternehmen sein, damit sie API-Aufrufe durchführen können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
-| includeInvalid | `xsd:boolean` | Nein | Hiermit können Sie ungültige Benutzer ein-/ausschließen. |
+| includeInaktiv | `xsd:boolean` | Nein | Ein- oder Ausschließen von inaktiven Benutzern. Nicht-IPS-Admin-Benutzer müssen aktive Mitglieder mindestens eines Unternehmens sein, um API-Aufrufe ausführen zu können. Ein Autorisierungsfehler wird zurückgegeben, wenn der Benutzer keine aktiven Unternehmensmitgliedschaften hat. |
+| includeInvalid | `xsd:boolean` | Nein | Ermöglicht das Ein-/Ausschließen ungültiger Benutzer. |
 | companyHandleArray | `types:HandleArray` | Nein | Filtern Sie die Ergebnisse nach Unternehmen. |
 | groupHandleArray | `types:HandleArray` | Nein | Ergebnisse nach Gruppe filtern. |
-| userRoleArray | `types:StringArray` | Nein | Ergebnisse nach Benutzerrolle filtern. |
+| userRoleArray | `types:StringArray` | Nein | Filtern Sie die Ergebnisse nach Benutzerrolle. |
 | charFilterField | `xsd:string` | Nein | Ergebnisse nach dem Zeichenfolgenpräfix des Felds filtern (siehe [!DNL Trash State).] |
-| charFilter | `xsd:string` | Nein | Ergebnisse nach einem bestimmten Zeichen filtern. |
-| sortBy | `xsd:string` | Nein | Auswahl der Sortierungsfelder für Benutzer. |
+| charFilter | `xsd:string` | Nein | Filtern Sie die Ergebnisse nach einem bestimmten Zeichen. |
+| sortBy | `xsd:string` | Nein | Auswahl der Sortierfelder des Benutzers. |
 | recordsPerPage | `xsd:int` | Nein | Gibt die angegebene Anzahl von Datensätzen pro Seite zurück. |
 | resultsPage | `xsd:int` | Nein | Ergebnisseite. |
 
@@ -41,11 +41,11 @@ Ruft eine Gruppe von Benutzern ab, die durch die Handles für Unternehmens-, Gru
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userArray | `types:UserArray` | Ja | Eine Gruppe von Benutzern. |
+| userArray | `types:UserArray` | Ja | Ein Array von Benutzern. |
 
 ## Beispiele {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-Dieses Codebeispiel gibt das Array von Benutzern für mehrere optionale Parameter zurück. Benutzerrollen, Benutzerzeichenfilterfelder und Benutzersortierungsfelder werden mithilfe bestimmter Zeichenfolgenkonstanten bestimmt.
+Dieses Codebeispiel gibt das Array von Benutzern für mehrere optionale Parameter zurück. Benutzerrollen, Benutzerzeichenfilterfelder und Benutzersortierfelder werden mithilfe spezifischer Zeichenfolgenkonstanten bestimmt.
 
 **Anfrage**
 

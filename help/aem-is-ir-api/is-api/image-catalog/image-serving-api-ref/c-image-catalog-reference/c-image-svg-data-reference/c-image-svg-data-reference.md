@@ -1,7 +1,7 @@
 ---
-description: Auch wenn Bild- und SVG-Daten sehr ähnlich sind, werden sie in separaten Tabellen im Bildkatalog aufbewahrt.
+description: Obwohl Bild- und SVG-Daten sehr ähnlich sind, werden sie im Bildkatalog in separaten Tabellen verwaltet.
 solution: Experience Manager
-title: Bild-/SVG-Datenreferenz
+title: Referenz zu Bild-/SVG-Daten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d43bf938-efed-4e9f-ab47-6581f8c587c9
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Bild-/SVG-Datenreferenz{#image-svg-data-reference}
+# Referenz zu Bild-/SVG-Daten{#image-svg-data-reference}
 
-Auch wenn Bild- und SVG-Daten sehr ähnlich sind, werden sie in separaten Tabellen im Bildkatalog aufbewahrt.
+Obwohl Bild- und SVG-Daten sehr ähnlich sind, werden sie im Bildkatalog in separaten Tabellen verwaltet.
 
-Wenn Bilddaten erforderlich sind, muss der relative oder absolute Pfad der Bilddatendateien, die die Bilder imitieren, in `attribute::CatalogFile` angegeben werden. Wenn SVG-Daten erforderlich sind, muss der relative oder absolute Pfad der SVG-Datendateien in `attribute::SvgCatalogFile` angegeben werden.
+Wenn Bilddaten erforderlich sind, muss der relative oder absolute Pfad der Bilddatendateien, die die Bilder auflisten, in `attribute::CatalogFile` angegeben werden. Wenn SVG-Daten erforderlich sind, muss der relative oder absolute Pfad der SVG-Datendateien in `attribute::SvgCatalogFile` angegeben werden.
 
-* [Bilddatenreferenz](c-image-data-reference/c-image-data-reference.md)
+* [Referenz der Bilddaten](c-image-data-reference/c-image-data-reference.md)
 * [SVG-Datenreferenz](c-svg-data-reference/c-svg-data-reference.md)

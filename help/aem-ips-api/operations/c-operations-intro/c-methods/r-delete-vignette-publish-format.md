@@ -1,11 +1,11 @@
 ---
-description: Löscht ein Vignetten-Veröffentlichungsformat.
+description: Löscht ein Vignettenveröffentlichungsformat.
 solution: Experience Manager
 title: deleteVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 12%
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # deleteVignettePublishFormat{#deletevignettepublishformat}
 
-Löscht ein Vignetten-Veröffentlichungsformat.
+Löscht ein Vignettenveröffentlichungsformat.
 
 ## Autorisierte Benutzertypen {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
@@ -25,20 +25,20 @@ Löscht ein Vignetten-Veröffentlichungsformat.
 
 ## Parameter {#section-789625ba29df4b5f880914d4c64f77ce}
 
-**Input (deleteVignettePublishFormatParam)**
+**Eingabe (deleteVignettePublishFormatParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem die Vignette gehört. |
-| vignetteFormatHandle | `xsd:string` | Ja | Das Handle zum zu löschenden Vignetten-Veröffentlichungsformat. |
+| companyHandle | `xsd:string` | Ja | Der Griff für das Unternehmen, zu dem die Vignette gehört. |
+| vignetteFormatHandle | `xsd:string` | Ja | Der Ziehgriff zum Vignettenveröffentlichungsformat, das gelöscht werden soll. |
 
-**Output (deleteVignettePublishFormatParam)**
+**Ausgabe (deleteVignettePublishFormatParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-In diesem Codebeispiel wird ein Vignetten-Veröffentlichungsformat gelöscht, das vom Handle angegeben wird.
+Dieses Codebeispiel löscht ein Vignettenveröffentlichungsformat, das durch seinen Handle angegeben ist.
 
 **Anfrage**
 

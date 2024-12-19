@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 89407f4d-ff83-46e5-89f0-4fc3547c700b
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Setzt den Viewport zurück, wenn sich der Frame (Bild) ändert. Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, wird der aktuelle Ansichtsport mit der bestmöglichen Anpassung beibehalten, wobei das Seitenverhältnis des neu festgelegten Bildes beibehalten wird. </p> </td> 
+   <td colname="col2"> <p> Setzt den Ansichtsport zurück, wenn sich der Rahmen (Bild) ändert. Wird hierfür <span class="codeph"> 0</span> festgelegt, wird der aktuelle Ansichtsport mit der bestmöglichen Anpassung beibehalten, während das Seitenverhältnis des neu eingestellten Bildes beibehalten wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,32 +20,32 @@ Auflösungsbasierte Bildskalierung. Skaliert das Bild auf die angeforderte Aufl�
 
 <table id="simpletable_E69F3709266749C4A165C90FF18FF5AA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>Target-Auflösung, normalerweise in Pixel pro Zoll (real). </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> Val </span> </p> </td> 
+  <td class="stentry"> <p>Zielauflösung; normalerweise in Pixel pro Zoll (real). </p> </td> 
  </tr> 
 </table>
 
-Der Skalierungsfaktor wird durch Division von *`val`* durch `catalog::Resolution` berechnet. Beachten Sie, dass dieser Befehl keine Auswirkungen auf die Druckauflösung des Antwortbilds hat.
+Der Skalierungsfaktor wird berechnet, indem *`val`* durch `catalog::Resolution` dividiert werden. Beachten Sie, dass dieser Befehl sich nicht auf die Druckauflösung des Antwortbildes auswirkt.
 
-Um diese Funktion verwenden zu können, muss die Auflösung der ursprünglichen Quellbilder bekannt sein und in `catalog::Resolution` eingestellt sein. Je nach Anwendung können die Auflösungseinheiten variieren. Bei wiederholbaren 2D-Texturen oder Materialmustern wie Wallpaper oder Gewebe kann die Auflösung in Pixel/Zoll oder Pixel/mm ausgedrückt werden. Luftaufnahmen und -karten können besser von Pixel/Meile oder Pixeln/km bedient werden. In jedem Fall müssen die für `catalog::Resolution` verwendeten Einheiten mit den für `res=` verwendeten Einheiten übereinstimmen.
+Um diese Funktion verwenden zu können, muss die Auflösung der Originalquellen-Bilder bekannt und in `catalog::Resolution` festgelegt sein. Je nach Anwendung können die Auflösungseinheiten variieren. Bei wiederholbaren 2D-Texturen oder Materialmustern, wie Tapeten oder Stoffen, kann die Auflösung als Pixel/Zoll oder Pixel/mm ausgedrückt werden. Luftbilder und Karten können besser mit Pixel/Meile oder Pixel/km bedient werden. In jedem Fall müssen die für die `catalog::Resolution` verwendeten Einheiten mit den für die `res=` verwendeten Einheiten übereinstimmen.
 
-Zusätzlich zum Abrufen von Bildern mit präzisen Auflösungen kann `res=` auch verwendet werden, um mehrere Bilder mit derselben Auflösung zu kombinieren, sodass die in diesen Bildern sichtbaren Elemente in einem angemessenen Verhältnis zueinander stehen.
+Zusätzlich zum Erhalten von Bildern mit präziser Auflösung können `res=` auch verwendet werden, um mehrere Bilder mit derselben Auflösung zu kombinieren, sodass die in diesen Bildern sichtbaren Elemente in korrektem Verhältnis zueinander stehen.
 
 >[!NOTE]
 >
->Normalerweise wird die Größe eines zusammengesetzten Bildes auf die Zielansichtsgröße (angegeben durch `wid=`, `hei=` oder `attribute::DefaultPix`) geändert, bevor es an den Client zurückgegeben wird. Um diese Größenanpassung zu vermeiden und ein Bild mit der exakten Auflösung zu erhalten, die von `res=` angegeben wird, kann es erforderlich sein, die Anzeigeskalierung zu deaktivieren, indem explizit `scl=1` angegeben wird. Dadurch wird der Server angewiesen, das zusammengesetzte Bild auf die Zielansichtsgröße zuzuschneiden, anstatt es zu skalieren.
+>Normalerweise wird die Größe eines zusammengesetzten Bildes auf die Zielansichtsgröße (angegeben durch `wid=`, `hei=` oder `attribute::DefaultPix`) geändert, bevor es an den Client zurückgegeben wird. Um diese Größenanpassung zu verhindern und ein Bild mit der exakten Auflösung von `res=` zu erhalten, kann es erforderlich sein, die Ansichtsskalierung durch explizite Angabe von `scl=1` zu deaktivieren. Hierdurch wird der Server angewiesen, das zusammengesetzte Bild auf die Zielansichtsgröße zuzuschneiden, anstatt es zu skalieren.
 
 ## Eigenschaften {#section-fdbd16e59cff4952a3717146bc91412e}
 
-Source-Attribut image/mask. Ignoriert durch Ebenen, die nicht mit einem Quellbild oder einer Quellmaske verknüpft sind. Wird auf Ebene 0 angewendet, wird für `layer=comp` angegeben. Wird ignoriert, wenn für dieselbe Ebene entweder `scale=` oder `size=` angegeben ist.
+Source-Bild-/Maskenattribut. Ignoriert von Ebenen, die nicht mit einem Quellbild oder einer Maske verknüpft sind. Angewendet auf Ebene 0 wird für `layer=comp` angegeben. Ignoriert, wenn für dieselbe Ebene entweder `scale=` oder `size=` angegeben ist.
 
 ## Standard {#section-c5f1ba6fe53d46eca32e7d0588dcdf3d}
 
-Wenn nichts angegeben ist, bestimmt `scale=` oder `size=` den Skalierungsfaktor oder, wenn keines angegeben ist, wird das Bild ohne Skalierung verwendet.
+Wenn kein Wert angegeben ist, bestimmt `scale=` oder `size=` den Skalierungsfaktor, oder wenn keiner der Werte angegeben ist, wird das Bild ohne Skalierung verwendet.
 
 ## Beispiel {#section-eb06f333e08e4247971fb1b18922597b}
 
-Rufen Sie ein Texturbild mit einer Objektauflösung von 12 Pixel/Zoll für die Verwendung mit Image Rendering oder Image Authoring ab. Wir geben verlustfreies PNG-Format und eine bessere Qualität der Neuberechnung für bestmögliche Qualität an.
+Rufen Sie ein Texturbild mit einer Objektauflösung von 12 Pixeln/Zoll für die Verwendung mit Bild-Rendering oder Bild-Authoring ab. Wir spezifizieren verlustfreies PNG-Format und bessere Qualität für Resampling in bestmöglicher Qualität,
 
 ` http:// *`server`*/myTexture?res=12&fmt=png&resMode=sharp`
 

@@ -1,6 +1,6 @@
 ---
-title: IccProfileCmyk
-description: CMYK-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist.
+title: IccProfileCMYK
+description: CMYK-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Antwortbilder mit Graustufen verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# IccProfileCmyk{#iccprofilecmyk}
+# IccProfileCMYK{#iccprofilecmyk}
 
-CMYK-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit `icc=` angegeben ist.
+CMYK-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn bei `icc=` kein Ausgabefarbraum angegeben ist.
 
 ## Eigenschaften {#section-849678b272954bdcb236f49aa54f1609}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
 
 ## Standard {#section-55026b7454af4d868bcb47f7743c9c5b}
 
-Wird von `default::IccProfileCmyk` übernommen, wenn nicht definiert oder leer.
+Von `default::IccProfileCmyk` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-89feb193693b43dc99a2107658d57154}
 

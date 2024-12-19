@@ -1,11 +1,11 @@
 ---
-description: Eine Gruppe von Masken.
+description: Ein Array von Masken.
 solution: Experience Manager
-title: MaskArray
+title: Maskenfeld
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a0539a30-051c-4442-abae-99588bdfff10
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '18'
 ht-degree: 33%
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL MaskArray]{#maskarray}
 
-Eine Gruppe von Masken.
+Ein Array von Masken.
 
 Syntax
 

@@ -19,16 +19,16 @@ ht-degree: 4%
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade|slide </span> </p> </td> 
-   <td colname="col2"> <p>Gibt den Typ des Effekts an, der auf die Bildänderung angewendet wird. Beispiel: <span class="codeph"> Keine </span> steht für keine Transition; Bildänderung erfolgt sofort. Und </p> <p> <span class="codeph"> fade </span> bedeutet eine Überblendung zwischen alten und neuen Frames. Schließlich </p> <p> <span class="codeph"> slide </span> aktiviert die Transition, bei der der alte Rahmen aus der Ansicht herausrutscht und der neue Rahmen eingeschaltet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade|</span> </p> </td> 
+   <td colname="col2"> <p>Gibt den Typ des Effekts an, der auf die Rahmenänderung angewendet wird. Beispiel: <span class="codeph"> Keine </span> steht für „Kein Übergang“. Frame-Änderungen werden sofort vorgenommen. und </p> <p> <span class="codeph"> Überblendung bedeutet </span> Überblendung zwischen alten und neuen Bildern. Schließlich </p> <p> <span class="codeph"> Dia-</span> aktiviert die Überblendung, in der der alte Rahmen aus der Ansicht verschoben wird, und der neue Rahmen in die Ansicht verschoben wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Dauer </span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt die Dauer (in Sekunden) des Übergangseffekts <span class="codeph"> Überblendung </span> oder <span class="codeph"> Folie </span> an. </p> </td> 
+   <td colname="col2"> <p>Gibt die Dauer (in Sekunden) <span class="codeph"> Überblendungs-</span> oder <span class="codeph"> Folienübergangseffekts </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Abstand </span> </span> </p> </td> 
-   <td colname="col2"> <p>Der Abstand zwischen benachbarten Frames in der Transition <span class="codeph"> Folie </span> hat den Bereich von <span class="codeph"> 0 </span> bis <span class="codeph"> 1 </span> und ist relativ zur Breite der Komponente. </p> </td> 
+   <td colname="col2"> <p>Der Abstand zwischen benachbarten Rahmen in <span class="codeph"> </span>, hat den Bereich von <span class="codeph"> 0 </span> bis <span class="codeph"> 1 </span> und ist relativ zur Bauteilbreite. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,11 +1,11 @@
 ---
-description: Manuelles Zuschneiden für Bilder.
+description: Manuelle Zuschnittsoptionen für Bilder.
 solution: Experience Manager
 title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 16%
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL ManualCropOptions]{#manualcropoptions}
 
-Manuelles Zuschneiden für Bilder.
+Manuelle Zuschnittsoptionen für Bilder.
 
 Syntax
 
@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| links | `xsd:int` | Die linke Position des manuellen Zuschnitts in Pixel. |
-| rechts | `xsd:int` | Die rechte Position des manuellen Zuschnitts in Pixel. |
-| Anfang | `xsd:int` | Die obere Position des manuellen Zuschnitts in Pixel. |
+| links | `xsd:int` | Die linke Position des manuellen Zuschnitts in Pixeln. |
+| rechts | `xsd:int` | Die richtige Position des manuellen Zuschnitts in Pixeln. |
+| Anfang | `xsd:int` | Die obere Position des manuellen Zuschnitts in Pixeln. |
 | unten | `xsd:int` | Die untere Position des manuellen Zuschnitts in Pixel. |

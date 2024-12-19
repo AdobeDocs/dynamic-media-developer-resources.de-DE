@@ -1,6 +1,6 @@
 ---
-title: Hauptanzeige-Bereich
-description: Der Hauptansichtsbereich ist der Bereich, der vom Zoombild und den Farbfeldern belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
+title: Haupt-Viewer-Bereich
+description: Der Hauptansichtsbereich ist der Bereich, in dem sich das Zoombild und die Farbfelder befinden. Normalerweise wird festgelegt, dass der Bildschirm auf den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Hauptanzeige-Bereich{#main-viewer-area}
+# Haupt-Viewer-Bereich{#main-viewer-area}
 
-Der Hauptansichtsbereich ist der Bereich, der vom Zoombild und den Farbfeldern belegt ist. Normalerweise wird sie an den verfügbaren Gerätebildschirm angepasst, wenn keine Größe angegeben ist.
+Der Hauptansichtsbereich ist der Bereich, in dem sich das Zoombild und die Farbfelder befinden. Normalerweise wird festgelegt, dass der Bildschirm auf den verfügbaren Gerätebildschirm angepasst wird, wenn keine Größe angegeben ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Bei der Arbeit im eingebetteten Modus (wenn dem Hauptansichtsbereich eine explizite Größe zugewiesen wird) verringert der Viewer automatisch die Höhe seines Hauptbereichs um die Höhe der Farbfeldkomponente, die mit dem einzelnen Bild arbeitet. Daher sind keine Farbfelder erforderlich.
+Beim Arbeiten im eingebetteten Modus (wenn dem Haupt-Viewer-Bereich eine explizite Größe zugewiesen wird) verringert der Viewer automatisch die Höhe seines Hauptbereichs um die Höhe der Farbfeld-Komponente, die mit dem einzelnen Bild arbeitet. Daher sind Farbfelder nicht erforderlich.
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7zoomviewer
@@ -37,7 +37,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
@@ -45,13 +45,13 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um einen Viewer mit weißem Hintergrund ( `#FFFFFF`) einzurichten und seine Größe 512 x 288 Pixel zu ändern.
+Beispiel: Ein Viewer mit einem weißen Hintergrund ( `#FFFFFF`) wird eingerichtet und auf 512 x 288 Pixel festgelegt.
 
 ```
 .s7zoomviewer { 

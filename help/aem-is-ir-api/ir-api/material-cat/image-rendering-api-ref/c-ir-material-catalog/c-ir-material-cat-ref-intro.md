@@ -1,5 +1,5 @@
 ---
-description: In diesem Dokument wird der Materialkatalog für das Dynamic Media Image Rendering beschrieben.
+description: In diesem Dokument wird der Materialkatalog für das Rendern von Dynamic Media-Bildern beschrieben.
 solution: Experience Manager
 title: Einführung
 feature: Dynamic Media Classic,SDK/API
@@ -14,72 +14,72 @@ ht-degree: 0%
 
 # Einführung{#introduction}
 
-In diesem Dokument wird der Materialkatalog für das Dynamic Media Image Rendering beschrieben.
+In diesem Dokument wird der Materialkatalog für das Rendern von Dynamic Media-Bildern beschrieben.
 
-**Vorgesehene Audience**
+**Vorgesehene Zielgruppe**
 
-Diese Dokumentation richtet sich an erfahrene Programmierer und Website-Entwickler, die das Dynamic Media Image Rendering für eine Website oder eine benutzerdefinierte Anwendung nutzen möchten.
+Dieses Dokument richtet sich an erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Rendering für eine Website oder ein benutzerdefiniertes Programm nutzen möchten.
 
-Es wird davon ausgegangen, dass der Leser mit Dynamic Media Image Authoring und Image Rendering, allgemeinen HTTP-Protokollstandards und -Konventionen und grundlegender Imaging-Terminologie vertraut ist.
+Es wird davon ausgegangen, dass der Leser mit Dynamic Media Image Authoring und Image Rendering, allgemeinen HTTP-Protokollstandards und -Konventionen und grundlegender Bildterminologie vertraut ist.
 
 **Dokumentkonventionen**
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>Literal </p> </td> 
-  <td class="stentry"> <p>In Syntaxabschnitten ist nichtkursiver Text literal; dies gilt nicht für Leerzeichen und die Symbole [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>In Syntaxabschnitten ist nicht kursiver Text literal. Dies gilt nicht für Leerzeichen und die Symbole [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>'literal' </p> </td> 
-  <td class="stentry"> <p>In beschreibenden Abschnitten ist nichtkursiver Text in einfachen Anführungszeichen literal. </p> </td> 
+  <td class="stentry"> <p>'Literal' </p> </td> 
+  <td class="stentry"> <p>In beschreibenden Abschnitten ist nicht kursiver Text in einfachen Anführungszeichen Literal. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> Parameter </span> </p> </td> 
-  <td class="stentry"> <p>Eine kursive Formatierung bezeichnet eine Variable oder einen Parameter, die durch einen tatsächlichen Wert ersetzt werden soll. </p> </td> 
+  <td class="stentry"> <p>Kursiv gibt eine Variable oder einen Parameter an, der durch einen tatsächlichen Wert ersetzt werden soll. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "attribute::"bezieht sich auf ein Bildkatalogattribut. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">::Item-</span> </p> </td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „attribute::“ bezieht sich auf ein Bildkatalogattribut. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> catalog::Item </span> </td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "catalog::"bezieht sich auf ein Datenfeld des Materialkatalogs. </p> </td> 
+  <td class="stentry"> <span class="codeph">::Item-</span> </td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „catalog::“ bezieht sich auf ein Materialkatalogdatenfeld. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "icc::"bezieht sich auf ein Feld in der ICC-Farbprofilzuordnung. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::item </span> </p> </td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „icc::“ bezieht sich auf ein Feld in der ICC-Farbprofilzuordnung. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "macro::" bezieht sich auf ein Feld in der Makrodefinitionstabelle. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> Makro::Element </span> </p> </td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „Makro::“ bezieht sich auf ein Feld in der Makrodefinitionstabelle. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ruleset::Item </span> </p> </td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "ruleset:" bezieht sich auf ein Element in einem Regelsatz für die URL-Vorverarbeitung. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">::Item </span> </p> </td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „ruleset::“ bezieht sich auf ein Element in einem Regelsatz zur Vorverarbeitung von URLs. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> default::Item </span> </p> </td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "default::"bezieht sich auf ein Attribut des Standard-Bildkatalogs. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">::Item </span> </p> </td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „default::“ bezieht sich auf ein Attribut des Standardbildkatalogs. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> Vignette::Item </span> </p> </td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "vignette::"bezieht sich auf ein Feld in der Vignettenzuordnung. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">::</span> </p> </td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „vignette::“ bezieht sich auf ein Feld in der Vignettenkarte. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>[ <span class="varname"> optional </span> ] </p> </td> 
-  <td class="stentry"> <p>Optionale Syntaxelemente sind durch eckige Klammern eingeschlossen. </p> </td> 
+  <td class="stentry"> <p>[ <span class="varname"> optionale </span> ] </p> </td> 
+  <td class="stentry"> <p>Optionale Syntaxelemente werden durch eckige Klammern eingeschlossen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>*[ <span class="varname"> optional </span> ] </p> </td> 
-  <td class="stentry"> <p>Das optionale Syntaxelement kann nicht oder mehrmals wiederholt werden. </p> </td> 
+  <td class="stentry"> <p>*[ <span class="varname"> optionale </span> ] </p> </td> 
+  <td class="stentry"> <p>Das optionale Syntaxelement kann nicht oder nicht mehrmals wiederholt werden. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
-  <td class="stentry"> <p>Ein vertikaler Balken zeigt an, dass entweder das einzelne Syntaxelement links oder das Element rechts verwendet werden kann. Genau ein Element muss ausgewählt sein. </p> </td> 
+  <td class="stentry"> <p>Ein vertikaler Balken zeigt an, dass entweder das einzelne Syntaxelement links oder das Element rechts verwendet werden kann. Es muss genau ein Element ausgewählt werden. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>{ <span class="varname"> group </span> } </p> </td> 
-  <td class="stentry"> <p>geschweifte Klammern dienen der Gruppierung von Syntaxelementen. </p> </td> 
+  <td class="stentry"> <p>Geschweifte Klammern werden verwendet, um Syntaxelemente zu gruppieren. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>*{ <span class="varname"> group </span> } </p> </td> 
@@ -87,6 +87,6 @@ Es wird davon ausgegangen, dass der Leser mit Dynamic Media Image Authoring und 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Leerraum. </p> </td> 
-  <td class="stentry"> <p>Leerzeichen (Leerzeichen oder Tabulatoren) sind in HTTP-Anforderungen nicht zulässig. In diesem Dokument wird gelegentlich nur aus Gründen der Klarheit ein Leerraum zwischen syntaktischen Elementen verwendet. </p> </td> 
+  <td class="stentry"> <p>Leerzeichen (Leerzeichen oder Tabulatoren) sind in HTTP-Anfragen nicht zulässig. In diesem Dokument werden zwischen syntaktischen Elementen gelegentlich Leerzeichen verwendet, um die Übersichtlichkeit zu erhöhen. </p> </td> 
  </tr> 
 </table>

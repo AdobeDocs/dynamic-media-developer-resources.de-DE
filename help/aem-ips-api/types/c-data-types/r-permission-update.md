@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| groupHandle | `xsd:string` | Gruppieren. |
+| groupHandle | `xsd:string` | Gruppen-Handle. |
 | permissionType | `xsd:string` | Berechtigungstyp. |
-| isAllowed | `xsd:boolean` | Bestimmt, ob die Aktualisierung der Berechtigungen zulässig ist. |
-| isOverride | `xsd:boolean` | Bestimmt, ob die Berechtigung eine andere überschreibt. |
+| isAllowed | `xsd:boolean` | Bestimmt, ob die Aktualisierung der Berechtigung zulässig ist. |
+| isOverride | `xsd:boolean` | Legt fest, ob die Berechtigung eine andere überschreibt. |

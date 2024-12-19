@@ -1,6 +1,6 @@
 ---
 title: Installieren unter Windows
-description: Image Serving kann unter 64-Bit Windows installiert werden.
+description: Image Serving kann unter 64-Bit-Windows installiert werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Installieren unter Windows{#installing-on-windows}
 
-Image Serving kann unter 64-Bit Windows installiert werden.
+Image Serving kann unter 64-Bit-Windows installiert werden.
 
 * [Erstmalige Installation](t-first-time-installation-win.md)
-* [Installieren unter einem anderen Benutzerkonto als   administrator](t-diff-account-win.md)
+* [Installation unter einem anderen Benutzerkonto als   Verwalter](t-diff-account-win.md)
 * [Aktualisierung von IS 4.7.4 oder höher](t-update-win.md)
-* [Installation überprüfen](t-verify-win.md)
+* [Überprüfen der Installation](t-verify-win.md)

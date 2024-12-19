@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Wenn der Wert auf <span class="codeph"> 1</span> festgelegt ist, füllt die Komponente das Dropdown-Bedienfeld mit Elementen für alle Seiten, auch für Seiten, für die keine Beschriftung definiert ist. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur Elemente mit expliziten Bezeichnungen im Dropdown-Bedienfeld angezeigt. </p> </td> 
+   <td> <p> Bei <span class="codeph"> 1</span> füllt die Komponente das Dropdown-Bedienfeld mit Elementen für alle Seiten, auch für Seiten, für die keine Beschriftung definiert ist. </p> <p>Bei <span class="codeph"> 0 werden </span> Elemente mit expliziten Kennzeichnungen im Dropdown-Feld angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

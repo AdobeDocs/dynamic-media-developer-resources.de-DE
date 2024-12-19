@@ -1,5 +1,5 @@
 ---
-description: Ein Array von CompanyMetadataInfo -Elementen.
+description: Ein Array von CompanyMetadataInfo-Elementen.
 solution: Experience Manager
 title: CompanyMetadataInfoArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL CompanyMetadataInfoArray]{#companymetadatainfoarray}
 
-Ein Array von CompanyMetadataInfo -Elementen.
+Ein Array von CompanyMetadataInfo-Elementen.
 
 Syntax
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Codeausdruck | `Code Phrase` | |
-| Codeausdruck | `Code Phrase` | |
+| Code-Satz | `Code Phrase` | |
+| Code-Satz | `Code Phrase` | |

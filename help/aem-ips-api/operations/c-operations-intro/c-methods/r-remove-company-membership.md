@@ -1,18 +1,18 @@
 ---
 description: Entfernt einen Benutzer aus einem oder mehreren Unternehmen.
 solution: Experience Manager
-title: removeCompanyMember
+title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 10%
 
 ---
 
-# removeCompanyMember{#removecompanymembership}
+# removeCompanyMembership{#removecompanymembership}
 
 Entfernt einen Benutzer aus einem oder mehreren Unternehmen.
 
@@ -27,20 +27,20 @@ Syntax
 
 ## Parameter {#section-6dfce5e44d8a4799afd0c231a0b10463}
 
-**Input (removeCompanyMembershipParam)**
+**Eingabe (removeCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nein | Das Handle für den Benutzer mit der Mitgliedschaft, die Sie entfernen möchten. |
-| companyHandleArray | `types:HandleArray` | Ja | Das Handle für das Unternehmen, aus dem Sie den Benutzer entfernen. |
+| userHandle | `xsd:string` | Nein | Das -Handle an den Benutzer mit der Mitgliedschaft, die Sie entfernen möchten. |
+| companyHandleArray | `types:HandleArray` | Ja | Der Handle für das Unternehmen, aus dem Sie den Benutzer entfernen. |
 
-**Output (removeCompanyMembershipReturn)**
+**Ausgabe (removeCompanyMembershipReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Mit diesem Codebeispiel wird ein Benutzer aus einem Unternehmen entfernt. Lassen Sie den optionalen Benutzer-Handle weg, um alle Benutzer aus den im Handle-Array des Unternehmens angegebenen Unternehmen zu entfernen.
+Dieses Codebeispiel entfernt einen Benutzer aus einer Firma. Lassen Sie das optionale Benutzer-Handle weg, um alle Benutzer aus den im Unternehmens-Handle-Array angegebenen Unternehmen zu entfernen.
 
 **Anfrage**
 

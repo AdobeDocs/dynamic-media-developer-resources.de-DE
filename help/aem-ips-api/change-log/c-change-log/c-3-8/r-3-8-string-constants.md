@@ -1,7 +1,7 @@
 ---
-description: Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API Version 3.8.
+description: Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API-Version 3.8.
 solution: Experience Manager
-title: Zeichenfolgenkonstanten neu und geändert
+title: Zeichenfolgenkonstanten Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
@@ -12,23 +12,23 @@ ht-degree: 1%
 
 ---
 
-# Zeichenfolgenkonstanten: Neu und geändert{#string-constants-new-and-modified}
+# Zeichenfolgenkonstanten: Neu und Geändert{#string-constants-new-and-modified}
 
-Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API Version 3.8.
+Beschreibt neue und geänderte Zeichenfolgenkonstanten für die IPS-API-Version 3.8.
 
 Syntax
 
 ## Neue Konstanten {#section-8171990eacae40c690830256f69e7afa}
 
-**Regionsform**
+**Region-Form**
 
 * Verwendet von: `ImageMap/shapeType`, `saveImageMapParam/shapeType`
 
 * Werte: `Rectangle` und `Polygon`.
 
-**Publish-Status**
+**Status von Publish**
 
-* Wird verwendet von: `searchAssetsParam/publishState` und `setAssetPublishStateParam/publishState`.
+* Verwendet von: `searchAssetsParam/publishState` und `setAssetPublishStateParam/publishState`.
 
 * Werte: `MarkedForPublish` und `NotMarkedForPublish`.
 
@@ -36,5 +36,5 @@ Syntax
 
 **Asset-Typen**
 
-* Wird verwendet von: `createImageSetParam/type`.
+* Verwendet von: `createImageSetParam/type`.
 * Werte: `InDesign` und `Flash`.

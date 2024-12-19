@@ -23,5 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | publishType | `xsd:string` | Einer der verfügbaren Veröffentlichungstypen. |
-| emailSetting | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
-| httpCompletionURL | `xsd:string` | URL zum Senden einer Fertigstellungsbenachrichtigung. |
+| emailSetting | `xsd:string` | Auswahl von E-Mail-Einstellungen. |
+| httpCompletionUrl | `xsd:string` | URL zum Senden einer Abschlussbenachrichtigung. |

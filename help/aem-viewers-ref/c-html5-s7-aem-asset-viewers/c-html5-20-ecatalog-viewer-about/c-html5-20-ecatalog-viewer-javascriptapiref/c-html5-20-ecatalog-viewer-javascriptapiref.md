@@ -1,6 +1,6 @@
 ---
-title: JavaScript-API-Referenz für den eCatalog-Viewer
-description: Die Hauptklasse des E-Katalog-Viewers ist eCatalogViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
+title: JavaScript-API-Referenz für E-Katalog-Viewer
+description: Die Hauptklasse des eCatalog Viewers ist eCatalogViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# JavaScript-API-Referenz für den eCatalog-Viewer{#javascript-api-reference-for-ecatalog-viewer}
+# JavaScript-API-Referenz für E-Katalog-Viewer{#javascript-api-reference-for-ecatalog-viewer}
 
-Die Hauptklasse des E-Katalog-Viewers ist eCatalogViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
+Die Hauptklasse des eCatalog Viewers ist eCatalogViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.eCatalogViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.eCatalogViewer` instanziiert wird.

@@ -1,5 +1,5 @@
 ---
-description: Veröffentlicht alle Bilder, Vorlagen und Rotationssets, die zur Veröffentlichung markiert sind, in einem Serververzeichnis.
+description: Veröffentlicht alle Bilder, Vorlagen und Rotationssets, die für die Veröffentlichung in einem Serververzeichnis markiert sind.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL ServerDirectoryPublishJob]{#serverdirectorypublishjob}
 
-Veröffentlicht alle Bilder, Vorlagen und Rotationssets, die zur Veröffentlichung markiert sind, in einem Serververzeichnis.
+Veröffentlicht alle Bilder, Vorlagen und Rotationssets, die für die Veröffentlichung in einem Serververzeichnis markiert sind.
 
 Syntax
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| emailSettings | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
-| httpCompletionURL | `xsd:string` | URL zum Senden einer Fertigstellungsbenachrichtigung. |
+| emailSettings | `xsd:string` | Auswahl von E-Mail-Einstellungen. |
+| httpCompletionUrl | `xsd:string` | URL zum Senden einer Abschlussbenachrichtigung. |

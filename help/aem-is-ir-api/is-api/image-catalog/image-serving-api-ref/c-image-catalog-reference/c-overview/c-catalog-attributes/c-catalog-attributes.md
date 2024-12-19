@@ -17,9 +17,9 @@ ht-degree: 0%
 Die in diesem Abschnitt beschriebenen Attribute werden in Katalogattributdateien erkannt.
 
 * [Katalogverwaltung](r-catalog-management.md)
-* [Anforderungsattribute](r-request-attributes.md)
-* [Standardmäßige Anfrageattribute](r-default-request-attributes.md)
+* [Anfrage-Attribute](r-request-attributes.md)
+* [Standardattribute für Anfragen](r-default-request-attributes.md)
 * [Farbverwaltungsattribute](r-color-management-attributes.md)
 * [Allgemeine Attribute für Miniaturen](r-common-thumbnail-attributes.md)
-* [Standardeinstellungen für Katalogfelder](r-defaults-for-catalog-fields.md)
+* [Standardwerte für Katalogfelder](r-defaults-for-catalog-fields.md)
 * [Videoattribute](r-video-attributes.md)

@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:ScheduledJobs` | Ein Array für geplante Aufträge. |
+| Elemente | `types:ScheduledJobs` | Ein Array geplanter Aufträge. |

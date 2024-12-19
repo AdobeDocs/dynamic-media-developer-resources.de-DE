@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b02f033d-be84-4cd0-b4bb-3ae9e424680c
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 5%
@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_4A27394B6B4347D69CAC5A59EE0FBC6F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, werden alle Muster gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur sichtbare Muster geladen. </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> definiert, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadNbr</span></span> </p> </td> 
+   <td colname="col2"> <p> Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn auf <span class="codeph"> -1 festgelegt</span> werden alle Farbfelder gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. Wenn auf <span class="codeph"> 0 festgelegt</span> werden nur sichtbare Farbfelder geladen. </p> <p><span class="codeph"> <span class="varname"> preloadNbr</span></span> legt fest, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

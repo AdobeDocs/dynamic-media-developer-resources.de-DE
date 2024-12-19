@@ -1,18 +1,18 @@
 ---
-title: closebutton
-description: Schaltfläche schließen
+title: closeButton
+description: Schaltfläche „Schließen“
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 043d146f-8884-4d3f-965e-673cf5aeea1d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 11%
 
 ---
 
-# closebutton{#closebutton}
+# closeButton{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> Setzen Sie diese Einstellung auf <span class="codeph"> 1</span> , um die Anzeige der Schaltfläche "Schließen"zu aktivieren, oder auf <span class="codeph"> 0</span> , um die Schaltfläche "Schließen"auszublenden. </p> </td> 
+   <td colname="col2"> <p> Stellen Sie dies auf <span class="codeph"> 1</span> ein, um die Anzeige der Schaltfläche Schließen zu aktivieren, oder auf <span class="codeph"> 0</span>, um die Schaltfläche Schließen auszublenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

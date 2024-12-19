@@ -1,5 +1,5 @@
 ---
-description: Legt die Ordnerberechtigungen fest.
+description: Legt Ordnerberechtigungen fest.
 solution: Experience Manager
 title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # setFolderPermissions{#setfolderpermissions}
 
-Legt die Ordnerberechtigungen fest.
+Legt Ordnerberechtigungen fest.
 
 Syntax
 
@@ -30,18 +30,18 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
-| folderHandle | `xsd:string` | Ja | Ordner-Handle. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
+| folderHandle | `xsd:string` | Ja | Ordner-Handle |
 | setChildren | `xsd:boolean` | Ja | Legt Berechtigungen für untergeordnete Elemente fest, die zum Ordner gehören. |
-| permissionArray | `types:PermissionUpdateArray` | Ja | Berechtigungsarray. |
+| permissionArray | `types:PermissionUpdateArray` | Ja | Berechtigungs-Array |
 
-**Output (setFolderPermissionsReturn)**
+**Ausgabe (setFolderPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-01730da4be874553ab44e3241cdf6357}
 
-In diesem Codebeispiel werden ein Unternehmens-Handle, ein Ordner-Handle und ein Berechtigungs-Array mit detaillierten Informationen zum Ordner angegeben. Sie wendet dieselben Berechtigungen für die untergeordneten Elemente des übergeordneten Ordners an.
+Dieses Codebeispiel gibt ein Unternehmens-Handle, ein Ordner-Handle und ein Berechtigungs-Array mit detaillierten Informationen zum Ordner an. Es gelten dieselben Berechtigungen für die untergeordneten Elemente des übergeordneten Ordners.
 
 **Anfrage**
 

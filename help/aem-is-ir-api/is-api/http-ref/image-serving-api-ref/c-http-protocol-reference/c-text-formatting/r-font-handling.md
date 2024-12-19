@@ -1,6 +1,6 @@
 ---
-title: Schriftverarbeitung
-description: Alle Schriftarten, auf die in der RTF-Zeichenfolge verwiesen wird, müssen in der Schriftartzuordnungsdatei des Standardkatalogs oder des aktuellen Bildkatalogs verfügbar sein. Andernfalls wird ein Fehler zurückgegeben.
+title: Schriftbehandlung
+description: Alle Schriftarten, auf die in der RTF-Zeichenfolge verwiesen wird, müssen in der Schriftzuordnungsdatei des Standardkatalogs oder des aktuellen Bildkatalogs verfügbar sein. Andernfalls wird ein Fehler zurückgegeben.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Schriftverarbeitung{#font-handling}
+# Schriftbehandlung{#font-handling}
 
-Alle Schriftarten, auf die in der RTF-Zeichenfolge verwiesen wird, müssen in der Schriftartzuordnungsdatei des Standardkatalogs oder des aktuellen Bildkatalogs verfügbar sein. Andernfalls wird ein Fehler zurückgegeben.
+Alle Schriftarten, auf die in der RTF-Zeichenfolge verwiesen wird, müssen in der Schriftzuordnungsdatei des Standardkatalogs oder des aktuellen Bildkatalogs verfügbar sein. Andernfalls wird ein Fehler zurückgegeben.
 
-Die beste Qualität für kursiv und fett gedruckten Text wird durch die Registrierung der entsprechenden Schriftartendateien erreicht. Falls nicht verfügbar, kann der Server fett und/oder kursiv gedruckte Schriftarten von der Standardseite aus synthetisieren. (Siehe [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
+Die beste Qualität für kursiven und fett gedruckten Text wird durch die Registrierung der entsprechenden Schriftarten erreicht. Wenn nicht verfügbar, kann der Server fett und/oder kursiv formatierte Schriftarten aus der Standardseite synthetisieren. (Siehe [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
 
-Die mit `attribute::DefaultFont` angegebene Schriftart wird verwendet, wenn keine explizit in der RTF-Zeichenfolge angegeben ist.
+Die mit `attribute::DefaultFont` angegebene Schriftart wird verwendet, wenn in der RTF-Zeichenfolge keine explizit angegeben ist.
 
-Image Serving unterstützt TrueType-, OpenType®- und Adobe Type 1-Schriftarten (nur Windows).
+Image Serving unterstützt TrueType-, OpenType®-, Adobe Type 1-Schriftarten (nur Windows).
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## Verwandte Themen {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Font Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[Schriftzuordnungsreferenz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

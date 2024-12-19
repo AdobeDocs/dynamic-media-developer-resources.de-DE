@@ -1,7 +1,7 @@
 ---
-description: Detailmeldung, die auf eine der in der Anfrage zur CDN-Invalidierung angegebenen URLs reagiert.
+description: Detailmeldung, die auf eine der in der CDN-Invalidierungsanfrage angegebenen URLs antwortet.
 solution: Experience Manager
-title: OperationFault
+title: Betriebsstörung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 # [!DNL OperationFault]{#operationfault}
 
-Detailmeldung, die auf eine der in der Anfrage zur CDN-Invalidierung angegebenen URLs reagiert.
+Detailmeldung, die auf eine der in der CDN-Invalidierungsanfrage angegebenen URLs antwortet.
 
-**seit** unterstützt
+**Unterstützt seit**
 
 4.5.0, Patch 2011-02
 
@@ -24,5 +24,5 @@ Detailmeldung, die auf eine der in der Anfrage zur CDN-Invalidierung angegebenen
 
 | ** Name** | ** Typ** | ** Beschreibung** |
 |---|---|---|
-| Code | `xsd:int` | Vom CDN bereitgestellter Fehlercode |
+| Code | `xsd:int` | Vom CDN bereitgestellter Fehler-Code |
 | Grund | `xsd:string` | Vom CDN bereitgestellte Fehlermeldung |

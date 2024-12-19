@@ -20,11 +20,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Steuert die Richtung des Dropdown-Bedienfeldaussehens. </p> <p>Wenn der Wert auf <span class="codeph"> fit-vertical</span> gesetzt ist, verschiebt die Komponente zunächst die Position des Basisbedienfelds an den unteren Rand ihrer Schaltfläche und versucht, das Bedienfeld entweder rechts oder links vom Basisstandort auszurollen. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld durch einen externen Container beschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbedienfelds nach oben zu verschieben und wiederholt Rollout-Versuche in die rechte und linke Richtung. </p> <p>Wenn der Wert auf <span class="codeph"> fit-lateral</span> festgelegt ist, verwendet die Komponente eine ähnliche Logik, verschiebt jedoch zuerst die Basis nach rechts, versucht dann die Rollout-Richtung herunter und nach oben. Anschließend verschiebt er die Basis nach links, versucht die Rollout-Richtung nach unten und nach oben zu verschieben. </p> </td> 
+   <td> <p> Steuert die Richtung der Darstellung des Dropdown-Bedienfelds. </p> <p>Bei <span class="codeph"> Einstellung „Vertikal anpassen</span> verschiebt die Komponente zunächst die Position des Basisbereichs bis zum unteren Rand ihrer Schaltfläche und versucht, das Bedienfeld entweder rechts oder links von der Basisposition aus zu rollen. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld von einem externen Container abgeschnitten ist. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbereichs nach oben zu verschieben und Rollout-Versuche in der rechten und linken Richtung zu wiederholen. </p> <p>Bei Einstellung von <span class="codeph">Seitenausrichtung</span> verwendet die Komponente eine ähnliche Logik, verschiebt aber den Fuß zuerst nach rechts und versucht Rollout-Richtungen nach unten und oben. Dann wird der Sockel nach links verschoben, es wird nach unten und oben gerollt. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Legt die Verzögerung in Sekunden für den Zeitgeber für das automatische Ausblenden fest, der das Bedienfeld ausblendet, wenn ein Benutzer inaktiv ist. </p> </td> 
+   <td> <p> Legt die Verzögerung in Sekunden für den Dropdown-Zeitgeber zum automatischen Ausblenden fest, der das Bedienfeld ausblendet, wenn Benutzende inaktiv sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>

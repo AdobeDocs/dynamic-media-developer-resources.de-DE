@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:Property` | Das Eigenschaft-Array. |
+| Elemente | `types:Property` | Das Eigenschaften-Array. |

@@ -26,20 +26,20 @@ Syntax
 
 ## Parameter {#section-73f12a30cc4340b6b32dd11effd5195e}
 
-**Input (deleteMetadataFieldParam)**
+**Eingabe (deleteMetadataFieldParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das das zu löschende Metadatenfeld enthält. |
-| fieldHandle | `xsd:string` | Ja | Der Handle für das zu löschende Metadatenfeld. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das zu löschende Metadatenfeld enthält. |
+| fieldHandle | `xsd:string` | Ja | Der Handle zum Metadatenfeld, das gelöscht werden soll. |
 
-**Output (deleteMetadataFieldParam)**
+**Ausgabe (deleteMetadataFieldParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-In diesem Codebeispiel wird das Metadatenfeld eines Unternehmens gelöscht. Es verwendet das Handle des Unternehmens und das Metadatenhandle als Felder in dem `deleteMetadataFieldParam`, das an den IPS-Webdienstserver übergeben wird, um diese Aktion durchzuführen.
+Dieses Codebeispiel löscht das Metadatenfeld eines Unternehmens. Es verwendet das Unternehmens-Handle und das Metadaten-Handle als Felder in den `deleteMetadataFieldParam`, die an den IPS-Webservice-Server übergeben werden, um diese Aktion durchzuführen.
 
 **Anfrage**
 
@@ -52,4 +52,4 @@ In diesem Codebeispiel wird das Metadatenfeld eines Unternehmens gelöscht. Es v
 
 **Antwort**
 
-None.0
+none.0

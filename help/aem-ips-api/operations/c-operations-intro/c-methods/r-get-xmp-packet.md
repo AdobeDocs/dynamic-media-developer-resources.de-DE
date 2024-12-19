@@ -1,5 +1,5 @@
 ---
-description: Ruft ein XMP Metadatenpaket für das angegebene Asset ab.
+description: Ruft ein XMP-Metadatenpaket für das angegebene Asset ab.
 solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # getXMPPacket{#getxmppacket}
 
-Ruft ein XMP Metadatenpaket für das angegebene Asset ab.
+Ruft ein XMP-Metadatenpaket für das angegebene Asset ab.
 
 Syntax
 
@@ -30,18 +30,18 @@ Syntax
 
 ## Parameter {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Input (getXMPPacketParam**
+**Eingabe (getXMPPacketParam**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Unternehmens-Handle mit dem Paket, das Sie zurückgeben möchten (z. B. `c|656`). |
-| assetHandle | `xsd:string` | Ja | Das Asset, für das das XMP Paket abgerufen werden soll. |
+| companyHandle | `xsd:string` | Ja | Das Firmen-Handle mit dem Paket, das Sie zurückgeben möchten (z. B. `c|656`). |
+| assetHandle | `xsd:string` | Ja | Das Asset, für das das XMP-Paket abgerufen werden soll. |
 
 **Ausgabe (getXMPPacketReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| compressionPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP Paket. |
+| compactPacket | `xsd:Base 64 binary` | Ja | XMP-Paket [!DNL zlib-compressed]. |
 
 ## Beispiele {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

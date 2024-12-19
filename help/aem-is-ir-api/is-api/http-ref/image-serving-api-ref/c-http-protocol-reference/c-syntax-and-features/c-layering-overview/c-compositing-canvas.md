@@ -1,7 +1,7 @@
 ---
-description: Ebenen werden in der Reihenfolge zusammengefügt, die durch den Befehl layer= festgelegt wird, wobei Ebenen mit höherer Nummerierung Bereiche mit niedrigerer Nummerierung ausblenden.
+description: Ebenen werden in der durch den Befehl layer= angegebenen Reihenfolge zusammengesetzt, wobei Ebenen mit höherer Nummer die Ebenen mit niedrigerer Nummer ausblenden.
 solution: Experience Manager
-title: Die Arbeitsfläche für die Zusammenstellung
+title: Die Arbeitsfläche für die Komposition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2455d07f-a158-4335-a14c-213f8b3dd265
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Die Arbeitsfläche für die Zusammenstellung{#the-compositing-canvas}
+# Die Arbeitsfläche für die Komposition{#the-compositing-canvas}
 
-Ebenen werden in der Reihenfolge zusammengefügt, die durch den Befehl layer= festgelegt wird, wobei Ebenen mit höherer Nummerierung Bereiche mit niedrigerer Nummerierung ausblenden.
+Ebenen werden in der durch den Befehl layer= angegebenen Reihenfolge zusammengesetzt, wobei Ebenen mit höherer Nummer die Ebenen mit niedrigerer Nummer ausblenden.
 
-Ebene 0 bildet die Hintergrundebene, die immer erforderlich ist und die die Größe des Composite-Bilds definiert. Alle Ebenentypen sind für Ebene 0 zulässig. Die Größe der Ebene 0 muss entweder explizit mit `size=` oder implizit basierend auf dem Inhaltsbild oder Text definiert werden. Alle Bereiche anderer Ebenen, die außerhalb des Bereichs der Ebene 0 liegen, sind nicht im Ausgabebild enthalten.
+Ebene 0 bildet die immer erforderliche Hintergrundschicht, die die Größe des zusammengesetzten Bildes definiert. Jeder der Ebenentypen ist für die Ebene 0 zulässig. Die Größe der Ebene 0 muss entweder explizit mithilfe von `size=` oder implizit basierend auf dem Inhaltsbild oder dem Text definiert werden. Alle Bereiche anderer Schichten, die außerhalb des Bereichs der Schicht 0 liegen, sind nicht im Ausgabebild enthalten.
 
 >[!NOTE]
 >
->Nachdem alle Ebenen reduziert wurden, wird das zusammengesetzte Bild in das endgültige Antwortbild konvertiert, wie mit den [Anzeigebefehlen und Attributen](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90) angegeben.
+>Nachdem alle Ebenen reduziert wurden, wird das zusammengesetzte Bild in das endgültige Antwortbild konvertiert, wie mit den [Ansichtsbefehlen und -attributen](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90) angegeben.

@@ -1,11 +1,11 @@
 ---
 title: RenderSettings
-description: Standardmäßige erweiterte Rendereinstellungen. Standard für Katalog-RenderSettings.
+description: Standardmäßige erweiterte Render-Einstellungen. Standard für Catalog RenderSettings.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 01af15a0-3c7c-47e3-be9b-49e045d856ba
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -14,15 +14,15 @@ ht-degree: 5%
 
 # RenderSettings{#rendersettings}
 
-Standardmäßige erweiterte Rendereinstellungen. Standardwert für `catalog::RenderSettings`.
+Standardmäßige erweiterte Render-Einstellungen. Standard für `catalog::RenderSettings`.
 
 ## Eigenschaften {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Textzeichenfolge. Wenn angegeben, muss es sich um eine gültige Zeichenfolge für Rendereinstellungen handeln, wie mit dem Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
+Text-String Wenn angegeben, muss es sich um eine gültige Render-Einstellungs-Zeichenfolge handeln, wie mit dem Vignette Authoring Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
 
 ## Standard {#section-4e76784aeecd4f09a33124aded7406cb}
 
-`default::RenderSettings` , wenn nicht angegeben oder leer.
+`default::RenderSettings` wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-f35d7772f4b744d1846331e19ea99173}
 

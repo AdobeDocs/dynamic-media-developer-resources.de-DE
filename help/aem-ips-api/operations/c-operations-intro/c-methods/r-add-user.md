@@ -5,7 +5,7 @@ title: addUser
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Erstellt ein Benutzerkonto und fügt dieses Konto einem oder mehreren Unternehmen hinzu.
 
-Wenn Sie einen Benutzer zu mehreren Unternehmen hinzufügen, geben Sie diese Unternehmen an, indem das Unternehmen sie in `companyHandleArray` verarbeitet. Dieser Vorgang gibt den Handle an den soeben hinzugefügten Benutzer zurück.
+Wenn Sie einen Benutzer zu mehreren Unternehmen hinzufügen, geben Sie diese Unternehmen anhand ihrer Unternehmens-Handles in `companyHandleArray` an. Durch diesen Vorgang wird das Handle an den soeben hinzugefügten Benutzer zurückgegeben.
 
 ## Autorisierte Benutzertypen {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -27,20 +27,20 @@ Wenn Sie einen Benutzer zu mehreren Unternehmen hinzufügen, geben Sie diese Unt
 
 ## Parameter {#section-40390a512e314b8d80ecffbb7729f6fb}
 
-**Input (addUserParam)**
+**Eingabe (addUserParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | firstName | `xsd:string` | Ja | Der Vorname des Benutzers. |
 | lastName | `xsd:string` | Ja | Der Nachname des Benutzers. |
 | E-Mail | `xsd:string` | Ja | Die E-Mail-Adresse des Benutzers. |
-| defaultRole | `xsd:string` | Ja | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Beachten Sie jedoch, dass die Rolle &quot;`IpsAdmin`&quot;andere unternehmensspezifische Einstellungen außer Kraft setzt. |
-| Passwort | `xsd:string` | Ja | Legt das Kennwort des Benutzers fest |
-| passwordExpires | `xsd:dateTime` | Nein | Legt die Gültigkeitsdauer des Kennworts fest. Geben Sie die Zeitzone an, in der die Anforderung übergeben wird. Die Zeitzonen werden auf die &quot;Central Time&quot;eingestellt. |
+| defaultRole | `xsd:string` | Ja | Legt die Rolle eines Benutzers in jedem Unternehmen fest, dem er angehört. Beachten Sie jedoch, dass die Rolle `IpsAdmin` andere Einstellungen pro Unternehmen überschreibt. |
+| Passwort | `xsd:string` | Ja | Legt das Benutzerkennwort fest |
+| passwordExpires | `xsd:dateTime` | Nein | Legt den Gültigkeitszeitraum des Passworts fest. Geben Sie die Zeitzone an, wenn Sie die Anfrage übergeben. Die Zeitzonen werden an die zentrale Zeit angepasst. |
 | isValid | `xsd:boolean` | Ja | Bestimmt, ob der Benutzer gültig ist. |
 | membershipArray | `xsd:CompanyMembershipUpdateArray` | Ja | Ein Array von Unternehmens-Handles. |
 
-**Output (addUserParam)**
+**Ausgabe (addUserParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -48,7 +48,7 @@ Wenn Sie einen Benutzer zu mehreren Unternehmen hinzufügen, geben Sie diese Unt
 
 ## Beispiele {#section-2547cef622734b71919eef849960b5cb}
 
-Die IPS-API gibt ein Benutzerhandle-Element zurück, das den neuen Benutzer angibt.
+Die IPS-API gibt ein Handle-Element für Benutzende zurück, das den neuen Benutzer angibt.
 
 **Anfrage**
 

@@ -1,6 +1,6 @@
 ---
 title: ZoomView.fmt
-description: Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet.
+description: Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Bildserver verwendet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # ZoomView.fmt{#zoomview-fmt}
 
-Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet.
+Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Bildserver verwendet.
 
 `[ZoomView.|<containerId>_zoomView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -22,7 +22,7 @@ Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Serve
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. Die Komponente hat standardmäßig einen weißen Hintergrund. Um dies transparent zu machen, setzen Sie daher die CSS-Eigenschaft <span class="codeph"> background-color</span> auf <span class="codeph"> transparent</span>. </p> </td> 
+   <td colname="col2"> <p> Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Für alle anderen Bildformate behandelt die Komponente Bilder als undurchsichtig. Die Komponente hat standardmäßig einen weißen Hintergrund. Um sie transparent zu gestalten, legen Sie daher die <span class="codeph"> background-color</span> CSS-Eigenschaft auf <span class="codeph"> transparent fest</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

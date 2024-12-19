@@ -1,6 +1,6 @@
 ---
-title: Email Share
-description: Das Tool für die E-Mail-Freigabe besteht aus einer Schaltfläche, die zum Social-Freigabe-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das bei Aktivierung des Tools angezeigt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
+title: E-Mail-Freigabe
+description: Das Tool zur E-Mail-Freigabe besteht aus einer Schaltfläche, die zum Bedienfeld Social-Media-Freigabe und zum modalen Dialogfeld hinzugefügt wird und angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 ---
 
-# Email Share{#email-share}
+# E-Mail-Freigabe{#email-share}
 
-Das Tool für die E-Mail-Freigabe besteht aus einer Schaltfläche, die zum Social-Freigabe-Bedienfeld hinzugefügt wird, und dem modalen Dialogfeld, das bei Aktivierung des Tools angezeigt wird. Die Position der Schaltfläche wird vollständig vom Social-Freigabe-Tool verwaltet.
+Das Tool zur E-Mail-Freigabe besteht aus einer Schaltfläche, die zum Bedienfeld Social-Media-Freigabe und zum modalen Dialogfeld hinzugefügt wird und angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Das Erscheinungsbild der E-Mail-Freigabe-Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Schaltfläche „E-Mail-Freigabe“ wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emailshare
 ```
 
-**CSS-Eigenschaften des E-Mail-Freigabe-Tools**
+**CSS-Eigenschaften des E-Mail-Freigaben-Tools**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -37,25 +37,25 @@ Das Erscheinungsbild der E-Mail-Freigabe-Schaltfläche wird mit der folgenden CS
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Sie können die Schaltfläche aus dem Social-Freigabebereich entfernen, indem Sie die CSS-Eigenschaft `display:none` in der CSS-Klasse festlegen.
+Sie können die Schaltfläche aus dem Bedienfeld Social-Freigabe entfernen, indem Sie `display:none` CSS-Eigenschaft für die CSS-Klasse festlegen.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer E-Mail-Freigabe-Schaltfläche mit 28 x 28 Pixel, die für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
+Beispiel: Einrichten einer E-Mail-Freigabeschaltfläche mit 28 x 28 Pixeln, über die ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus angezeigt wird.
 
 ```
 .s7ecatalogsearchviewer .s7emailshare { 
@@ -76,28 +76,28 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-Die Hintergrundüberlagerung, die die Webseite abdeckt, wenn das Dialogfeld aktiv ist, wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Die Hintergrundüberlagerung, die Web-Seiten abdeckt, wenn das Dialogfeld aktiv ist, wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay
 ```
 
-**CSS-Eigenschaften der Rücküberlagerung**
+**CSS-Eigenschaften der Backoverlay-**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Deckkraft </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p> Deckkraft der Hintergrundüberlagerung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundüberlagerungsfarbe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe der Überlagerung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um eine Hintergrundüberlagerung einzurichten, die grau mit einer Deckkraft von 70 % ist:
+Beispiel: So richten Sie eine Hintergrundüberlagerung ein, die mit einer Deckkraft von 70 % grau dargestellt wird:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay { 
@@ -106,7 +106,7 @@ Beispiel: Um eine Hintergrundüberlagerung einzurichten, die grau mit einer Deck
 }
 ```
 
-Standardmäßig wird das modale Dialogfeld auf Desktop-Systemen zentriert auf dem Bildschirm angezeigt und nimmt den gesamten Webseitenbereich auf Touch-Geräten. In allen Fällen wird die Positionierung und Größe des Dialogfelds von der Komponente verwaltet. Das Dialogfeld wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Standardmäßig wird das modale Dialogfeld auf Desktop-Systemen zentriert auf dem Bildschirm angezeigt und nimmt auf Touch-Geräten den gesamten Web-Seitenbereich ein. In allen Fällen werden die Positionierung und Größe des Dialogfelds von der Komponente verwaltet. Das Dialogfeld wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialog
@@ -117,25 +117,25 @@ Standardmäßig wird das modale Dialogfeld auf Desktop-Systemen zentriert auf de
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Rahmenradius des Dialogfelds (falls das Dialogfeld nicht das gesamte Browser-Fenster akzeptiert); </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Rahmenradius des Dialogfelds (wenn im Dialogfeld nicht das gesamte Browser-Fenster angezeigt wird) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe des Dialogfelds; </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe des Dialogfelds </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster auf (dieser Modus wird auf Touch-Geräten bevorzugt). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p> Sollte entweder deaktiviert oder auf 100 % gesetzt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster ein (dieser Modus wird auf Touch-Geräten bevorzugt). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p> Sollte entweder nicht festgelegt oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster in Anspruch (dieser Modus wird auf Touch-Geräten bevorzugt). </p> </td> 
+   <td colname="col2"> <p> Sollte entweder deaktiviert oder auf 100 % eingestellt sein. In diesem Fall nimmt das Dialogfeld das gesamte Browser-Fenster ein (dieser Modus wird auf Touch-Geräten bevorzugt). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Dialogfelds, das das gesamte Browser-Fenster verwendet und einen weißen Hintergrund auf Touch-Geräten aufweist:
+Beispiel: So richten Sie ein Dialogfeld ein, um das gesamte Browser-Fenster zu verwenden und auf Touch-Geräten einen weißen Hintergrund zu verwenden:
 
 ```
 .s7ecatalogsearchviewer .s7touchinput .s7emaildialog .s7dialog { 
@@ -145,24 +145,24 @@ background-color: #ffffff;
 }
 ```
 
-Die Kopfzeile des Dialogfelds besteht aus einem Symbol, einem Titeltext und einer Schaltfläche &quot;Schließen&quot;. Der Kopfzeilencontainer wird mit dem folgenden CSS-Klassenselektor gesteuert
+Die Dialogfeldkopfzeile besteht aus einem Symbol, einem Titeltext und einer Schaltfläche Schließen. Der Header-Container wird mit dem folgenden CSS-Klassenselektor gesteuert
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader
 ```
 
-**CSS-Eigenschaften des Dialogfeldheaders**
+**CSS-Eigenschaften der Dialogfeldkopfzeile**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
-   <td colname="col2"> <p> Innerer Abstand für Kopfzeileninhalte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Innerer Abstand für Kopfzeileninhalt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Das Symbol und der Titeltext werden in einen zusätzlichen Container eingeschlossen, der mit
+Das Symbol und der Titeltext werden in einen zusätzlichen Container eingeschlossen, der von gesteuert wird.
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -173,24 +173,24 @@ Das Symbol und der Titeltext werden in einen zusätzlichen Container eingeschlos
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
-   <td colname="col2"> <p> Innerer Abstand für das Kopfzeilensymbol und den Titel. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Innerer Abstand für Kopfzeilensymbol und Titel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Das Kopfzeilensymbol wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Kopfzeilensymbol wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheadericon
 ```
 
-**CSS-Eigenschaften des Kopfzeilensymbols des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldkopfzeilensymbols**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Symbolbreite. </p> </td> 
   </tr> 
   <tr> 
@@ -198,93 +198,93 @@ Das Kopfzeilensymbol wird mit der folgenden CSS-Klassenauswahl gesteuert:
    <td colname="col2"> <p>Symbolhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Symbolbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Kopfzeilentitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Header-Titel wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheadertext
 ```
 
-**CSS-Eigenschaften des Kopfzeilentextes des Dialogfelds**
+**CSS-Eigenschaften des Dialogfeldkopfzeilentextes**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Schrifthöhe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schrifthöhe </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
-   <td colname="col2"> <p>Interner Textabstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Auffüllung für internen Text. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Schaltfläche &quot;Schließen&quot;wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Die Schaltfläche „Schließen“ wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7closebutton
 ```
 
-**CSS-Eigenschaften der Schließen-Schaltfläche **
+**CSS-Eigenschaften des Schließen-Button-**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Vertikale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p> Vertikale Position der Schaltfläche relativ zum Kopfzeilencontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p> Horizontale Schaltflächenposition relativ zum Kopfzeilencontainer </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p> Horizontale Position der Schaltfläche relativ zum Kopfzeilencontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbild für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche Schließen und der Titel des Dialogfelds können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo für die Schaltfläche „Schließen“ und der Dialogfeldtitel können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 17 Pixel langen Symbol und einem fett gedruckten 16-Punkt-Titel. Und schließlich wurden mit einer 28 x 28 Pixel großen Schließen-Schaltfläche zwei Pixel von der oberen Seite und zwei Pixel von der rechten Seite des Dialogfeldcontainers positioniert:
+Beispiel : Zum Einrichten einer Dialogkopfzeile mit Abstand, einem 24 x 17-Pixel-Symbol und einem fettigen 16-Punkt-Titel. Und schließlich positionierte eine Schaltfläche zum Schließen mit 28 x 28 Pixeln zwei Pixel oben und zwei Pixel rechts vom Dialogfeldcontainer:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader { 
@@ -324,74 +324,74 @@ Beispiel: Zum Einrichten einer Dialogfeldkopfzeile mit Abstand, einem 24 x 17 Pi
 }
 ```
 
-Die Dialogfußzeile besteht aus den Schaltflächen Abbrechen und E-Mail senden . Der Fußzeilencontainer wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Die Fußzeile des Dialogfelds besteht aus den Schaltflächen Abbrechen und E-Mail senden . Der Fußzeilen-Container wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften der Fußzeile des Dialogfelds **
+**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> Rand, mit dem Sie die Fußzeile visuell vom Rest des Dialogfelds trennen können. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Rahmen, mit dem Sie die Fußzeile vom Rest des Dialogfelds visuell trennen können. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Fußzeile verfügt über einen inneren Container, der beide Schaltflächen enthält. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Die Fußzeile hat einen inneren Container, der beide Schaltflächen behält. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbuttoncontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldschaltflächen-Containers**
+**CSS-Eigenschaften des Schaltflächen-Containers für Dialogfelder**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p> Innerer Abstand zwischen Fußzeile und Schaltflächen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Schaltfläche Abbrechen wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Die Schaltfläche „Abbrechen“ wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogcancelbutton
 ```
 
-**CSS-Eigenschaften des Dialogfelds &quot;Abbrechen&quot;-Schaltfläche**
+**CSS-Eigenschaften des Dialogfelds Schaltfläche „Abbrechen“**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Textfarbe der Schaltfläche für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe der Schaltfläche für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die Schaltfläche E-Mail senden wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Die Schaltfläche „E-Mail senden“ wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogactionbutton
@@ -402,27 +402,27 @@ Die Schaltfläche E-Mail senden wird mit der folgenden CSS-Klassenauswahl gesteu
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Schaltflächentextfarbe für jeden Status. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Textfarbe der Schaltfläche für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Schaltflächen-Hintergrundfarbe für jeden Status. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe der Schaltfläche für jeden Status. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
 Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die CSS-Einstellungen enthalten kann, die für andere Dialogfeldschaltflächen identisch sind:
 
@@ -435,35 +435,35 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
-   <td colname="col2"> <p>Schlagschatten </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schlagschatten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
-   <td colname="col2"> <p>Rand der rechten Schaltfläche. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand rechts </span> </p> </td> 
+   <td colname="col2"> <p>Rechter Button-Rand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfos dieser Schaltfläche können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfos dieser Schaltfläche können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten einer Footer mit der Schaltfläche Abbrechen 64 x 34 und einer Schaltfläche für den Versand einer E-Mail mit 82 x 34, deren Textfarbe und Hintergrundfarbe je nach Schaltflächenstatus unterschiedlich sind:
+Beispiel: So richten Sie eine Fußzeile für ein Dialogfeld mit der Schaltfläche Abbrechen (64 x 34) und einer Schaltfläche E-Mail senden (82 x 34) ein, wobei die Textfarbe und die Hintergrundfarbe für jeden Schaltflächenstatus unterschiedlich sind:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter { 
@@ -523,26 +523,26 @@ Beispiel: Zum Einrichten einer Footer mit der Schaltfläche Abbrechen 64 x 34 un
 }
 ```
 
-Der Hauptdialogbereich zwischen der Kopf- und Fußzeile enthält bildlauffähigen Dialogfeldinhalt und Bildlaufbereich auf der rechten Seite. In allen Fällen verwaltet die Komponente die Breite dieses Bereichs. Es ist nicht möglich, ihn in CSS festzulegen. Der Hauptdialogbereich wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Hauptdialogbereich zwischen Kopf- und Fußzeile enthält scrollbaren Dialogfeldinhalt und das Bildlauffeld auf der rechten Seite. In allen Fällen verwaltet die Komponente die Breite dieses Bereichs. Sie kann nicht in CSS festgelegt werden. Der Hauptdialogbereich wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**CSS-Eigenschaften des Dialogfelds, in dem der Anzeigebereich angezeigt wird **
+**CSS-Eigenschaften des Anzeigebereichs-** des Dialogfelds
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p> Die Höhe des Hauptdialogfeld-Bereichs. Sie sollte nur angegeben werden, wenn das Dialogfeld im Desktop-Modus funktioniert. Dies ist nicht möglich, wenn die Größe des Dialogfelds so geändert wird, dass es das gesamte Browser-Fenster belegt. </p> </td> 
+   <td colname="col2"> <p> Die Höhe des Hauptdialogfeldbereichs. Sie sollte nur angegeben werden, wenn das Dialogfeld im Desktop-Modus funktioniert. Dies gilt nicht, wenn das Dialogfeld so dimensioniert ist, dass es das gesamte Browser-Fenster einnimmt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Hintergrundfarbe des Hauptdialogfeld-Bereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Die Hintergrundfarbe des Hauptdialogfeldbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Außenrand. </p> </td> 
   </tr> 
  </tbody> 
@@ -550,9 +550,9 @@ Der Hauptdialogbereich zwischen der Kopf- und Fußzeile enthält bildlauffähige
 
 >[!NOTE]
 >
->Der Hauptdialogfeld-Bereich unterstützt die optionale Attributauswahl &quot;`state`&quot;. Der Wert wird auf `sendsuccess` gesetzt, wenn das E-Mail-Formular gesendet wird und das Dialogfeld eine Bestätigungsmeldung anzeigt. Solange die Bestätigungsmeldung klein ist, kann diese Attributauswahl verwendet werden, um die Höhe des Dialogfelds zu reduzieren, wenn eine solche Bestätigungsmeldung angezeigt wird.
+>Der Hauptdialogfeldbereich unterstützt die optionale `state`-Attributauswahl. Sie wird auf `sendsuccess` gesetzt, wenn das E-Mail-Formular übermittelt wird und im Dialogfeld eine Bestätigungsmeldung angezeigt wird. Solange die Bestätigungsmeldung klein ist, kann diese Attributauswahl verwendet werden, um die Dialogfelthöhe zu reduzieren, wenn eine solche Bestätigungsmeldung angezeigt wird.
 
-Beispiel: Um den Hauptdialogfeld-Bereich so einzurichten, dass er zunächst eine Höhe von 300 Pixel und bei Anzeige der Bestätigungsmeldung eine Höhe von 100 Pixel aufweist, haben Sie einen zehnten Pixelrand und verwenden Sie einen weißen Hintergrund:
+Beispiel: Das Hauptdialogfeld sollte zunächst eine Höhe von 300 Pixeln und bei Anzeige der Bestätigungsmeldung eine Höhe von 100 Pixeln aufweisen. Es sollte ein Rand von 10 Pixeln vorhanden sein und ein weißer Hintergrund verwendet werden:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea { 
@@ -565,26 +565,26 @@ Beispiel: Um den Hauptdialogfeld-Bereich so einzurichten, dass er zunächst eine
 }
 ```
 
-Der gesamte Formularinhalt (wie Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit der folgenden CSS-Klassenauswahl gesteuert wird:
+Der gesamte Formularinhalt (z. B. Beschriftungen und Eingabefelder) befindet sich in einem Container, der mit dem folgenden CSS-Klassenselektor gesteuert wird:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody
 ```
 
-Wenn die Höhe dieses Containers größer als der Hauptdialogfeld-Bereich zu sein scheint, wird automatisch ein vertikaler Bildlauf von der Komponente aktiviert.
+Wenn die Höhe dieses Containers größer als der Bereich des Hauptdialogfelds zu sein scheint, wird automatisch ein vertikaler Bildlauf durch die Komponente aktiviert.
 
-**CSS-Eigenschaften des Dialogfeldtexts **
+**CSS-Eigenschaften des Dialogfeldhauptteils**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Formularinhalten mit zehn Pixelabständen:
+Beispiel: So richten Sie Formularinhalte mit zehn Pixel Abstand ein:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody { 
@@ -592,7 +592,7 @@ Beispiel: Zum Einrichten von Formularinhalten mit zehn Pixelabständen:
 }
 ```
 
-Dialogfeldformular wird zeilenweise ausgefüllt, wobei jede Zeile einen Teil des Formularinhalts enthält (z. B. eine Beschriftung und ein Texteingabefeld). Eine einzelne Formularzeile wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Dialogfeldformular wird Zeile für Zeile ausgefüllt, wobei jede Zeile einen Teil des Formularinhalts enthält (z. B. eine Beschriftung und ein Texteingabefeld). Eine einzelne Formulareinstellung wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
@@ -603,13 +603,13 @@ Dialogfeldformular wird zeilenweise ausgefüllt, wobei jede Zeile einen Teil des
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
-   <td colname="col2"> <p>Inner Line padding. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Auffüllung der inneren Linie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Dialogfeldformulars mit zehn Pixelabständen pro Zeile:
+Beispiel: So richten Sie ein Dialogfeldformular ein, das für jede Zeile zehn Pixel Abstand aufweist:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -617,40 +617,40 @@ Beispiel: Zum Einrichten eines Dialogfeldformulars mit zehn Pixelabständen pro 
 }
 ```
 
-Alle statischen Beschriftungen im Dialogfeldformular werden mit der folgenden CSS-Klassenauswahl gesteuert:
+Alle statischen Beschriftungen im Dialogfeldformular werden mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoglabel
 ```
 
-Diese Klasse eignet sich nicht zum Steuern der Größe oder Position von Beschriftungen, da Sie sie auf Texte an verschiedenen Stellen der Formular-Benutzeroberfläche anwenden können.
+Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position von Beschriftungen, da Sie sie auf Texte an verschiedenen Stellen der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbeschriftung. **
+**CSS-Eigenschaften der Dialogfeldbezeichnung. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße beschriften. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftstärke des Titels </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Schriftgröße beschriften </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftgröße des Titels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftfamilie beschriften. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftfamilie des Titels </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Textfarbe beschriften. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Textfarbe des Titels </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dialogfeldbeschriftungen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Dialogfeldbeschriftungen können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Um alle Beschriftungen mit einer 9-Pixel-Schriftart auf grau und fett festzulegen:
+Beispiel: So legen Sie fest, dass alle Beschriftungen grau, fett und mit einer Schriftart von neun Pixeln dargestellt werden:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoglabel { 
@@ -660,36 +660,36 @@ Beispiel: Um alle Beschriftungen mit einer 9-Pixel-Schriftart auf grau und fett 
 }
 ```
 
-Alle statischen Beschriftungen, die links von den Formulareingabefeldern angezeigt werden, werden wie folgt gesteuert:
+Alle statischen Beschriftungen, die links neben den Formulareingabefeldern angezeigt werden, werden mit Folgendem gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputlabel
 ```
 
-**CSS-Eigenschaften des Eingabefelds des Dialogfelds**
+**CSS-Eigenschaften der Eingabelabel des Dialogfelds**
 
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Die Breite der statischen Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Die horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>Statische Beschriftungsrand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Statischer Titelrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
-   <td colname="col2"> <p>Statischer Abstand von Beschriftungen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Auffüllung für statische Beschriftungen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um Eingabefelder so einzurichten, dass sie eine Breite von 50 Pixel, eine rechtsbündige Ausrichtung, zehn Pixel Abstand und einen zehn Pixel Rand auf der rechten Seite aufweisen:
+Beispiel: Um Eingabefeldbeschriftungen so einzurichten, dass sie 50 Pixel breit, rechtsbündig, zehn Pixel Abstand und einen zehn Pixel-Rand rechts sind:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputlabel { 
@@ -700,22 +700,22 @@ Beispiel: Um Eingabefelder so einzurichten, dass sie eine Breite von 50 Pixel, e
 }
 ```
 
-Jedes Formulareingabefeld wird in den Container eingeschlossen, mit dem Sie einen benutzerdefinierten Rahmen um das Eingabefeld anwenden können. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Jedes Formulareingabefeld ist in den -Container eingeschlossen, sodass Sie einen benutzerdefinierten Rahmen um das Eingabefeld anwenden können. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer
 ```
 
-**CSS-Eigenschaften des Dialogfeldeingabecontainers**
+**CSS-Eigenschaften des Eingabecontainers für das Dialogfeld**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>Ränder um den Eingabefeld-Container. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Rahmen um den Eingabefeld-Container. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -723,9 +723,9 @@ Jedes Formulareingabefeld wird in den Container eingeschlossen, mit dem Sie eine
 
 >[!NOTE]
 >
->Der Eingabefeld-Container unterstützt eine optionale &quot;`state`&quot;-Attributauswahl. Sie wird auf &quot;`verifyerror`&quot;gesetzt, wenn der Benutzer einen Fehler im Eingabedatenformat macht und die Inline-Validierung fehlschlägt. Mit dieser Attributauswahl können Sie falsche Benutzereingaben im Formular hervorheben.
+>Der Eingabefeld-Container unterstützt die optionale `state`. Sie wird auf `verifyerror` gesetzt, wenn Benutzende einen Fehler im Eingabedatenformat machen und die Inline-Validierung fehlschlägt. Mit diesem Attributselektor können Sie falsche Benutzereingaben im Formular markieren.
 
-Die meisten Eingabefelder, die sich von der Beschriftung links bis zum rechten Rand des Dialogfeldtextes (einschließlich Feld Von und Feld Nachricht ) erstrecken, werden mit der folgenden CSS-Klassenauswahl gesteuert:
+Die meisten Eingabefelder, die sich von der Beschriftung auf der linken Seite bis zum rechten Rand des Dialogfeldkörpers erstrecken (einschließlich der Felder Von und Nachricht ), werden mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputwide
@@ -736,30 +736,30 @@ Die meisten Eingabefelder, die sich von der Beschriftung links bis zum rechten R
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite des Eingabefelds. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Das Feld An ist enger, da auf der rechten Seite Platz für die Schaltfläche E-Mail entfernen zugewiesen wird. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Das Feld An ist enger gefasst, da es rechts Platz für die Schaltfläche E-Mail entfernen zuweist. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputshort
 ```
 
-**CSS-Eigenschaften des Dialogfelds geben ein kurzes Feld ein**
+**CSS-Eigenschaften des kurzen Eingabefelds des Dialogfelds**
 
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite des Eingabefelds. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um ein Formular so einzurichten, dass es einen grauen Rahmen von einem Pixel mit neun Pixel Abstand um alle Eingabefelder hat. So legen Sie für Felder, bei denen die Validierung fehlschlägt, denselben roten Rahmen fest. Und schließlich, um 250 Pixel breit bis Feld und die übrigen Eingabefelder 300 Pixel breit zu haben:
+Beispiel: So richten Sie ein Formular ein, das einen grauen Rahmen mit einem Pixel und neun Pixel Abstand um alle Eingabefelder hat. Für Felder, bei denen die Validierung fehlschlägt, soll derselbe Rahmen rot dargestellt werden. Und schließlich, um 250 Pixel breit zu haben, und den Rest der Eingabefelder 300 Pixel breit:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -777,13 +777,13 @@ Beispiel: Um ein Formular so einzurichten, dass es einen grauen Rahmen von einem
 }
 ```
 
-Das Eingabefeld für E-Mail-Nachrichten wird auch wie folgt gesteuert:
+Das Eingabefeld für E-Mail-Nachrichten wird ebenfalls wie folgt gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage
 ```
 
-Mit dieser Klasse können Sie bestimmte Eigenschaften für das zugrunde liegende `TEXTAREA` -Element festlegen.
+Mit dieser Klasse können Sie bestimmte Eigenschaften für das zugrunde liegende `TEXTAREA` festlegen.
 
 **CSS-Eigenschaften der Dialogfeldmeldung**
 
@@ -794,13 +794,13 @@ Mit dieser Klasse können Sie bestimmte Eigenschaften für das zugrunde liegende
    <td colname="col2"> <p>Nachrichtenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
-   <td colname="col2"> <p>Wortumbruchstil. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> von </span> </p> </td> 
+   <td colname="col2"> <p>Zeilenumbruchstil. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - zum Einrichten einer E-Mail-Nachricht mit einer Höhe von 50 Pixel und Verwendung der Umhüllung von `break-word`-Wörtern:
+Beispiel: So legen Sie eine E-Mail-Nachricht mit einer Höhe von 50 Pixel und `break-word` Zeilenumbruch fest:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage { 
@@ -809,54 +809,54 @@ Beispiel - zum Einrichten einer E-Mail-Nachricht mit einer Höhe von 50 Pixel un
 }
 ```
 
-Über die Schaltfläche Weitere E-Mail-Adresse hinzufügen können Benutzer mehr als eine Adresse im E-Mail-Formular hinzufügen. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Mit der Schaltfläche Weitere E-Mail-Adresse hinzufügen können Benutzende mehr als einen Empfänger in das E-Mail-Formular einfügen. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogaddemailbutton
 ```
 
-**CSS-Eigenschaften des Dialogfelds zum Hinzufügen der Schaltfläche &quot;E-Mail-Adresse hinzufügen&quot;**
+**CSS-Eigenschaften des Dialogfelds Schaltfläche E-Mail-Adresse hinzufügen**
 
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächentextfarbe für jeden Status. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Textfarbe der Schaltfläche für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbild für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenbildposition innerhalb des Schaltflächenbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p>Position des Schaltflächenbildes im Schaltflächenbereich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenschriftart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p>Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
+   <td colname="col2"> <p>Texthöhe innerhalb der Schaltfläche. Wirkt sich auf die vertikale Ausrichtung aus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -864,11 +864,11 @@ Beispiel - zum Einrichten einer E-Mail-Nachricht mit einer Höhe von 50 Pixel un
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Um die Schaltfläche &quot;Weitere E-Mail-Adresse hinzufügen&quot;auf eine Höhe von 25 Pixel festzulegen, verwenden Sie eine 12-Punkt-fett gedruckte Schriftart mit der rechten Ausrichtung sowie eine andere Textfarbe und ein anderes Bild für jeden Status:
+Beispiel: Um die Schaltfläche „Weitere E-Mail-Adresse hinzufügen“ so einzurichten, dass sie 25 Pixel hoch ist, verwenden Sie eine 12-Punkt-Fettschrift mit rechter Ausrichtung und einer anderen Textfarbe und einem anderen Bild für jeden Status:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogaddemailbutton { 
@@ -905,36 +905,36 @@ Mit der Schaltfläche Entfernen können Benutzer zusätzliche Adressen aus dem E
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogremoveemailbutton
 ```
 
-**CSS-Eigenschaften des Dialogfelds entfernen die E-Mail-Schaltfläche**
+**CSS-Eigenschaften des Dialogfelds - Schaltfläche zum Entfernen der E-Mail**
 
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Schaltflächenbild für jeden Status. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Um eine Schaltfläche &quot;Entfernen&quot;einzurichten, die 25 x 25 Pixel groß ist, und für jeden Status ein anderes Bild zu verwenden:
+Beispiel: So legen Sie eine Entfernen-Schaltfläche auf 25 x 25 Pixel fest und verwenden für jeden Status ein anderes Bild:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogremoveemailbutton { 
@@ -955,28 +955,28 @@ Beispiel: Um eine Schaltfläche &quot;Entfernen&quot;einzurichten, die 25 x 25 P
 }
 ```
 
-Der freigegebene Inhalt wird unten im Hauptteil des Dialogfelds angezeigt und enthält eine Miniaturansicht, einen Titel, eine Ursprungs-URL und eine Beschreibung. Sie wird in einen Container eingeschlossen, der mit der folgenden CSS-Klassenauswahl gesteuert wird:
+Der freigegebene Inhalt wird unten im Dialogfeld angezeigt und enthält eine Miniaturansicht, einen Titel, eine Ursprungs-URL und eine Beschreibung. Sie wird in einen Container eingeschlossen, der mit dem folgenden CSS-Klassenselektor gesteuert wird:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**CSS-Eigenschaften des Dialogfeldinhalts **
+**CSS-Eigenschaften des **
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Container-Rahmen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines unteren Containers mit einem gepunkteten Rahmen von einem Pixel und ohne Abstand:
+Beispiel: So richten Sie einen unteren Container ein, der einen gepunkteten Rahmen mit einem Pixel und keinen Abstand aufweist:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent { 
@@ -985,38 +985,38 @@ Beispiel: Zum Einrichten eines unteren Containers mit einem gepunkteten Rahmen v
 }
 ```
 
-Das Miniaturbild wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Miniaturbild wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-Die Eigenschaft `background-image` wird durch die Komponentenlogik festgelegt.
+Die `background-image`-Eigenschaft wird durch die Komponentenlogik festgelegt.
 
 **CSS-Eigenschaften des Miniaturbilds des Dialogfelds**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
+   <td colname="col2"> <p>Höhe des Miniaturbilds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
-   <td colname="col2"> <p>Miniaturansicht für die vertikale Ausrichtung. </p> </td> 
+   <td colname="col1"> <p> </span> zur vertikalen Ausrichtung <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Miniaturansicht für vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um die Miniaturansicht auf 90 x 60 Pixel festzulegen und die Miniaturansicht mit zehn Pixel Abstand oben auszurichten:
+Beispiel: So legen Sie fest, dass die Miniaturansicht 90 x 60 Pixel groß und mit zehn Pixel Abstand oben ausgerichtet ist:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail { 
@@ -1027,24 +1027,24 @@ Beispiel: Um die Miniaturansicht auf 90 x 60 Pixel festzulegen und die Miniatura
 }
 ```
 
-Titel, Ursprung und Beschreibung des Inhalts werden weiter in einem Bereich rechts neben der Inhaltsminiatur gruppiert. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Inhaltstitel, Herkunft und Beschreibung werden außerdem in einem Bedienfeld rechts neben der Inhaltsminiatur gruppiert. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginfopanel
 ```
 
-**CSS-Eigenschaften des Informationsbereichs für das Dialogfeld**
+**CSS-Eigenschaften des Informationsbereichs des Dialogfelds**
 
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Bedienfeldbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des Bedienfelds. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Inhaltsinformationsbereichs mit einer Breite von 300 Pixel:
+Beispiel: So richten Sie ein Bedienfeld mit Inhaltsinformationen ein, das 300 Pixel breit ist:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginfopanel { 
@@ -1052,7 +1052,7 @@ Beispiel: Zum Einrichten eines Inhaltsinformationsbereichs mit einer Breite von 
 }
 ```
 
-Der Inhaltstitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Inhaltstitel wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogtitle
@@ -1063,25 +1063,25 @@ Der Inhaltstitel wird mit der folgenden CSS-Klassenauswahl gesteuert:
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Außenrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Inhaltstitels für die Verwendung einer fett gedruckten Schriftart mit einer zehnten Pixelbreite:
+Beispiel: So richten Sie einen Inhaltstitel so ein, dass er eine fette Schriftart mit einem Rand von zehn Pixeln verwendet:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogtitle { 
@@ -1090,36 +1090,36 @@ Beispiel: Zum Einrichten eines Inhaltstitels für die Verwendung einer fett gedr
 }
 ```
 
-Die Inhaltsquelle wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Inhaltsursprung wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin
 ```
 
-**CSS-Eigenschaften des Inhaltsherweises des Dialogfelds **
+**CSS-Eigenschaften des Inhaltsursprungs ** Dialogfelds
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Außenrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten des Inhaltsursprungs mit einer zehnfachen Spanne:
+Beispiel - Zum Einrichten des Inhaltsursprungs mit einem Rand von zehn Pixeln:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin { 
@@ -1127,36 +1127,36 @@ Beispiel: Zum Einrichten des Inhaltsursprungs mit einer zehnfachen Spanne:
 }
 ```
 
-Die Inhaltsbeschreibung wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Die Inhaltsbeschreibung wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogdescription
 ```
 
-**CSS-Eigenschaften der Inhaltsbeschreibung des Dialogfelds**
+**CSS-Eigenschaften des Dialogfelds Inhaltsbeschreibung**
 
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Außenrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Inhaltsbeschreibung mit einer zehnten Pixelbreite und einer neun Punkt-Schriftart:
+Beispiel : Einrichten einer Inhaltsbeschreibung mit einem Rand von zehn Pixeln und Verwendung einer Schriftart mit neun Punkten:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogdescription { 
@@ -1165,7 +1165,7 @@ Beispiel: Zum Einrichten einer Inhaltsbeschreibung mit einer zehnten Pixelbreite
 }
 ```
 
-Wenn ein Benutzer falsche Eingabedaten eingibt und die Inline-Validierung fehlschlägt, wird oben im Dialogfeldtext eine Meldung angezeigt. Diese Meldung wird auch angezeigt, wenn das Dialogfeld beim Senden des Formulars einen Fehler oder eine Bestätigungsmeldung rendern muss. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Wenn Benutzende falsche Eingabedaten eingeben und die Inline-Validierung fehlschlägt, wird oben im Dialogfeldtext eine Meldung angezeigt. Diese Meldung wird auch angezeigt, wenn das Dialogfeld beim Senden des Formulars einen Fehler oder eine Bestätigungsmeldung rendern muss. Sie wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage
@@ -1176,35 +1176,35 @@ Wenn ein Benutzer falsche Eingabedaten eingibt und die Inline-Validierung fehlsc
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p> Fehlersymbol. Standard ist ein Ausrufezeichen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Die Fehlersymbolposition innerhalb des Nachrichtenbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Position des Fehlersymbols innerhalb des Nachrichtenbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Textfarbe der Nachricht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftstärke. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Nachricht. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Innerer Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -1212,13 +1212,13 @@ Wenn ein Benutzer falsche Eingabedaten eingibt und die Inline-Validierung fehlsc
 
 >[!NOTE]
 >
->Diese Meldung unterstützt die &quot;`state`&quot;-Attributauswahl mit den folgenden möglichen Werten: `verifyerror`, `senderror` und `sendsuccess`. Der Wert `verifyerror` wird festgelegt, wenn eine Nachricht aufgrund eines Fehlers bei der Überprüfung der Inline-Eingabe angezeigt wird. Der Wert `senderror` wird festgelegt, wenn ein Backend-E-Mail-Dienst einen Fehler meldet. Der Wert `sendsuccess` wird festgelegt, wenn E-Mails erfolgreich gesendet werden. Auf diese Weise kann die Nachricht je nach Status des Dialogfelds unterschiedlich formatiert werden.
+>Diese Nachricht unterstützt den `state` mit den folgenden möglichen Werten: `verifyerror`, `senderror` und `sendsuccess`. Der Wert `verifyerror` wird festgelegt, wenn eine Nachricht aufgrund eines Fehlers bei der Inline-Eingabevalidierung angezeigt wird. Der Wert `senderror` wird festgelegt, wenn ein Backend-E-Mail-Service einen Fehler meldet. Der Wert `sendsuccess` wird festgelegt, wenn die E-Mail erfolgreich gesendet wird. Auf diese Weise ist es möglich, die Nachricht je nach Dialogfeldstatus unterschiedlich zu gestalten.
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden.
 
-Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Um eine Nachricht so einzurichten, dass sie eine 10-Punkt-Fettschrift verwendet, haben Sie eine 25-Pixel-Zeilenhöhe und einen 20-Pixel-Abstand auf der linken Seite. Verwenden Sie abschließend ein Ausrufezeichen-Symbol, roten Text, wenn ein Fehler auftritt, und kein Symbol und grüner Text, wenn ein Erfolg eintritt:
+Beispiel: Um eine Nachricht so einzurichten, dass sie eine fett gedruckte Schriftart mit zehn Punkten verwendet, weisen Sie eine Zeilenhöhe von 25 Pixel und einen Abstand von 20 Pixel auf der linken Seite auf. Verwenden Sie abschließend ein Ausrufezeichen-Symbol: einen roten Text, wenn ein Fehler auftritt, kein -Symbol und einen grünen Text, wenn der Vorgang erfolgreich war:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 
@@ -1242,24 +1242,24 @@ Beispiel: Um eine Nachricht so einzurichten, dass sie eine 10-Punkt-Fettschrift 
 }
 ```
 
-Wenn ein vertikaler Bildlauf erforderlich ist, wird die Bildlaufleiste im Bedienfeld nahe der rechten Kante des Dialogfelds gerendert, das mit der folgenden CSS-Klassenauswahl gesteuert wird:
+Wenn ein vertikaler Bildlauf erforderlich ist, wird die Bildlaufleiste im Bedienfeld nahe dem rechten Rand des Dialogfelds gerendert, das mit dem folgenden CSS-Klassenselektor gesteuert wird:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogscrollpanel
 ```
 
-**CSS-Eigenschaften des Bildlaufbereichs des Dialogfelds**
+**CSS-Eigenschaften des Bildlaufbedienfelds des Dialogfelds**
 
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Bildlaufbereichbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des Bildlaufbedienfelds. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um ein Bildlaufbedienfeld mit einer Breite von 44 Pixel einzurichten:
+Beispiel: So richten Sie ein Bildlauffeld mit einer Breite von 44 Pixeln ein:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogscrollpanel { 
@@ -1267,7 +1267,7 @@ Beispiel: Um ein Bildlaufbedienfeld mit einer Breite von 44 Pixel einzurichten:
 }
 ```
 
-Das Erscheinungsbild des Bildlaufleistenbereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Bildlaufleistenbereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar
@@ -1278,25 +1278,25 @@ Das Erscheinungsbild des Bildlaufleistenbereichs wird mit der folgenden CSS-Klas
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Die Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am oberen Rand des Bildlaufbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p> Der vertikale Bildlaufbalken, der vom oberen Rand des Bildlaufbedienfelds versetzt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am unteren Rand des Bildlaufbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p> Der vertikale Bildlaufbalken, der vom unteren Rand des Bildlaufbedienfelds versetzt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p> Der horizontale Versatz der Bildlaufleiste am rechten Rand des Bildlaufbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p> Der horizontale Bildlaufbalken, der vom rechten Rand des Bildlaufbedienfelds versetzt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um eine Bildlaufleiste einzurichten, die 28 Pixel breit ist, und eine 8-Pixel-Spanne von oben, rechts und unten im Bildlaufbereich festzulegen:
+Beispiel: So richten Sie eine Bildlaufleiste ein, die 28 Pixel breit ist, und zwar einen Rand von acht Pixeln oben, rechts und unten im Bildlaufbedienfeld:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar { 
@@ -1307,28 +1307,28 @@ Beispiel: Um eine Bildlaufleiste einzurichten, die 28 Pixel breit ist, und eine 
 }
 ```
 
-Die Bildlaufleisten-Spur ist der Bereich zwischen den oberen und unteren Bildlauftasten. Die Komponente legt automatisch die Position und Höhe der Spur fest. Die Verfolgung wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Die Bildlaufleistenspur ist der Bereich zwischen den oberen und unteren Bildlaufschaltflächen. Die Komponente legt automatisch die Position und Höhe der Spur fest. Die Spur wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolltrack
 ```
 
-**CSS-Eigenschaften des Scroll-Tracks**
+**CSS-Eigenschaften der Scroll-Spur**
 
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Die Spurbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Hintergrundfarbe der Verfolgung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Die Hintergrundfarbe der Spur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Bildlaufleiste, die 28 Pixel breit ist und einen grauen Hintergrund hat:
+Beispiel: So richten Sie eine Bildlaufleistenspur ein, die 28 Pixel breit ist und einen grauen Hintergrund hat:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolltrack { 
@@ -1337,48 +1337,48 @@ background-color: #B2B2B2;
 }
 ```
 
-Der Bildlaufleisten-Daumen bewegt sich in einem Bildlaufbereich vertikal. Seine vertikale Position wird vollständig von der Komponentenlogik gesteuert, die Daumenhöhe ändert sich jedoch nicht dynamisch in Abhängigkeit von der Inhaltsmenge. Sie können die Daumenhöhe und andere Aspekte mit dem folgenden CSS-Klassenselektor konfigurieren:
+Der Daumen der Bildlaufleiste bewegt sich vertikal innerhalb eines Bereichs der Bildlaufspur. Die vertikale Position wird vollständig von der Komponentenlogik gesteuert, jedoch ändert sich die Daumenhöhe je nach Inhaltsmenge nicht dynamisch. Sie können die Höhe der Miniaturen und andere Aspekte mit dem folgenden CSS-Klassenselektor konfigurieren:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb
 ```
 
-**CSS-Eigenschaften des Bildlaufleisten-Thumbs**
+**CSS-Eigenschaften des Thumbs der Bildlaufleiste**
 
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Die Daumenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Die Breite des Daumens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Daumenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
-   <td colname="col2"> <p> Der vertikale Abstand zwischen dem oberen Ende des Gleises. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Der vertikale Abstand zwischen dem oberen Ende der Spur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
-   <td colname="col2"> <p> Der vertikale Abstand zwischen dem unteren Ende des Gleises. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Der vertikale Abstand zwischen dem unteren Ende der Spur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Daumenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Fahnen auf verschiedene Daumenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
+>Thumb unterstützt den `state`-Attributselektor , mit dem verschiedene Skins auf verschiedene Daumenzustände angewendet werden können: `up`, `down`, `over` und `disabled`.
 
-Beispiel: Zum Einrichten eines Bildlaufleisten-Daumens mit 28 x 45 Pixel, einer zehnten Pixelspanne oben und unten und unterschiedlicher Abbildung für jeden Status:
+Beispiel - Zum Einrichten eines Thumbs für eine Bildlaufleiste mit 28 x 45 Pixel, einem Rand von zehn Pixeln oben und unten und unterschiedlichen Grafiken für jeden Status:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb { 
@@ -1401,7 +1401,7 @@ Beispiel: Zum Einrichten eines Bildlaufleisten-Daumens mit 28 x 45 Pixel, einer 
 }
 ```
 
-Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe der folgenden CSS-Klassenselektoren gesteuert:
+Die Darstellung der oberen und unteren Bildlaufschaltflächen wird mit den folgenden CSS-Klassenselektoren gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollupbutton
@@ -1411,38 +1411,38 @@ Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Scroll-Schaltflächen können nicht mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` positioniert werden. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 **CSS-Eigenschaften der oberen und unteren Bildlaufschaltflächen**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Die Schaltflächenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Die Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Die Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Die Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen den Attributselektor `state` , der verwendet werden kann, um unterschiedliche Schaltflächenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
+>Diese Schaltflächen unterstützen die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können: `up`, `down`, `over` und `disabled`.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Zum Einrichten von Bildlaufschaltflächen mit 28 x 32 Pixel und unterschiedlicher Grafik für jeden Status:
+Beispiel: So richten Sie Bildlaufschaltflächen ein, die eine Größe von 28 x 32 Pixeln haben und für jeden Status unterschiedliche Bildmotive aufweisen:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollupbutton { 

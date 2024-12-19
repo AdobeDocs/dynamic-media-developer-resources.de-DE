@@ -1,28 +1,28 @@
 ---
-title: Hauptmuster
-description: Hauptmuster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite. Bildlaufschaltflächen sind nur dann auf dem Desktop sichtbar, wenn alle Miniaturansichten nicht in die Breite des Containers passen. Auf Mobilgeräten oder wenn Miniaturansichten in die Container-Breite passen, werden keine Bildlauftasten angezeigt.
+title: Hauptfarbfelder
+description: Hauptmuster bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlaufschaltflächen auf der linken und rechten Seite. Bildlaufschaltflächen sind nur dann auf der Arbeitsfläche sichtbar, wenn nicht alle Miniaturen in die Breite des Containers passen. Auf Mobilgeräten oder wenn Miniaturen in die Container-Breite passen, werden die Bildlaufschaltflächen nicht angezeigt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-# Hauptmuster{#main-swatches}
+# Hauptfarbfelder{#main-swatches}
 
-Hauptmuster bestehen aus einer Zeile von Miniaturbildern mit optionalen Bildlauftasten auf der linken und rechten Seite. Bildlaufschaltflächen sind nur dann auf dem Desktop sichtbar, wenn alle Miniaturansichten nicht in die Breite des Containers passen. Auf Mobilgeräten oder wenn Miniaturansichten in die Container-Breite passen, werden keine Bildlauftasten angezeigt.
+Hauptmuster bestehen aus einer Reihe von Miniaturbildern mit optionalen Bildlaufschaltflächen auf der linken und rechten Seite. Bildlaufschaltflächen sind nur dann auf der Arbeitsfläche sichtbar, wenn nicht alle Miniaturen in die Breite des Containers passen. Auf Mobilgeräten oder wenn Miniaturen in die Container-Breite passen, werden die Bildlaufschaltflächen nicht angezeigt.
 
-Das Erscheinungsbild des Farbmuster-Containers wird mit der CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Farbfeld-Containers wird mit dem CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer .s7swatches
 ```
 
-**CSS-Eigenschaften der Muster**
+**CSS-Eigenschaften der Farbfelder**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -31,13 +31,13 @@ Das Erscheinungsbild des Farbmuster-Containers wird mit der CSS-Klassenauswahl g
    <td colname="col2"> <p>Die Höhe der Farbfelder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Die vertikalen Farbfelder versetzen sich relativ zum Viewer-Container. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p>Die vertikalen Farbfelder, die relativ zum Viewer-Container versetzt sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten von Farbfeldern mit einer Höhe von 100 Pixel.
+Beispiel: So richten Sie Farbfelder mit einer Höhe von 100 Pixel ein.
 
 ```
 .s7mixedmediviewer .s7swatches { 
@@ -47,7 +47,7 @@ Beispiel: Zum Einrichten von Farbfeldern mit einer Höhe von 100 Pixel.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Der Abstand zwischen den Musterminiaturansichten wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Abstand zwischen den Musterminiaturen wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7mixedmediaviewer .s7swatches .s7thumbcell`
 
@@ -60,8 +60,8 @@ Der Abstand zwischen den Musterminiaturansichten wird mit der folgenden CSS-Klas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand der Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Die Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. Der tatsächliche Abstand zwischen den Miniaturen entspricht der Summe der linken und rechten Ränder, die für <span class="codeph"> s7thumbcell-</span> festgelegt wurden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ So legen Sie den Abstand sowohl vertikal als auch horizontal auf zehn Pixel fest
 }
 ```
 
-Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der einzelnen Miniaturen wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7mixedmediaviewer .s7swatches .s7thumb`
 
@@ -89,25 +89,25 @@ Das Erscheinungsbild der einzelnen Miniaturansichten wird mit der folgenden CSS-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
+   <td colname="col2"> <p>Höhe der Miniatur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>Rand der Miniaturansicht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Rahmen der Miniatur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der Miniaturansicht des Bildes, das derzeit in der Hauptansicht angezeigt wird, `state="default"` dem Rest der Miniaturansichten und `state="over"` beim Bewegen der Maus.
+>„Miniaturansicht“ unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichtszustände angewendet werden können. Insbesondere entspricht `state="selected"` der Miniatur für das Bild, das derzeit in der Hauptansicht angezeigt wird, `state="default"` entspricht dem Rest der Miniaturen, und `state="over"` wird beim Bewegen des Mauszeigers verwendet.
 
-Beispiel: Zum Einrichten von Miniaturansichten mit 56 x 56 Pixel, einem hellgrauen Standardrahmen und einem dunkelgrauen ausgewählten Rahmen.
+Beispiel: Für Miniaturen mit einer Größe von 56 x 56 Pixel wird ein hellgrauer Standardrahmen und ein dunkelgrauer Rahmen ausgewählt.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb { 
@@ -122,7 +122,7 @@ Beispiel: Zum Einrichten von Miniaturansichten mit 56 x 56 Pixel, einem hellgrau
 }
 ```
 
-Der Typ des Assets wird als Symbol angezeigt, das über dem Miniaturbild überlagert ist. Er wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Typ des Assets wird als Symbol angezeigt, das über dem Miniaturbild eingeblendet wird, und wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay`
 
@@ -135,7 +135,7 @@ Der Typ des Assets wird als Symbol angezeigt, das über dem Miniaturbild überla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Symbolüberlagerung. </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Der Typ des Assets wird als Symbol angezeigt, das über dem Miniaturbild überla
  </tbody> 
 </table>
 
-Die Überlagerung unterstützt die &quot;`type`&quot;-Attributauswahl mit den folgenden möglichen Werten: `image` (für einzelne Bilder), `swatchset` (für Mustersets), `spinset` (für Rotationssets) und `video` (für einzelne Videos oder adaptive Videosets).
+Die Überlagerung unterstützt den `type`-Attributselektor mit den folgenden möglichen Werten: `image` (für einzelne Bilder), `swatchset` (für Mustersets), `spinset` (für Rotationssets) und `video` (für einzelne Videos oder adaptive Videosets).
 
 Beispiel: So richten Sie Symbolüberlagerungen für Rotationssets, Mustersets und Videos ein:
 
@@ -161,13 +161,13 @@ Beispiel: So richten Sie Symbolüberlagerungen für Rotationssets, Mustersets un
 }
 ```
 
-Das Erscheinungsbild der linken und rechten Bildlaufschaltflächen wird mit den folgenden CSS-Klassenselektoren gesteuert:
+Die Darstellung der linken und rechten Bildlaufschaltflächen wird mit den folgenden CSS-Klassenselektoren gesteuert:
 
 `.s7mixedmediaviewer .s7swatches .s7scrollleftbutton`
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
+Scroll-Schaltflächen können nicht mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` positioniert werden. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -178,7 +178,7 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -186,23 +186,23 @@ Es ist nicht möglich, Bildlaufschaltflächen mit den CSS-Eigenschaften `top`, `
    <td colname="col2"> <p>Höhe der Bildlaufschaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um unterschiedliche Schaltflächenzustände anzuwenden: `up`, `down`, `over` und `disabled`.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können: `up`, `down`, `over` und `disabled`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
+Die QuickInfos für die Schaltfläche können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-Beispiel: Zum Einrichten von Bildlaufschaltflächen mit einer Größe von 56 x 56 Pixel und einer für jeden Status unterschiedlichen Grafik.
+Beispiel: So richten Sie Bildlaufschaltflächen ein, die eine Größe von 56 x 56 Pixeln haben und für jeden Status unterschiedliche Grafiken aufweisen.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7scrollleftbutton { 

@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p> Stammpfad des Suchdienstes. Wenn keine Domäne angegeben ist, wird die Domäne verwendet, von der der Viewer bereitgestellt wird. </p> </td> 
+   <td colname="col2"> <p> Stammverzeichnis des Suchdiensts. Wenn keine Domain angegeben ist, wird die Domain verwendet, von der aus der Viewer bereitgestellt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

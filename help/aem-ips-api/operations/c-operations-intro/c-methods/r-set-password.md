@@ -1,11 +1,11 @@
 ---
-description: Legt das Kennwort eines bestimmten Benutzers oder des Standardbenutzers je nach Angabe eines Benutzerhandles auf einen bestimmten Wert fest.
+description: Legt das Kennwort eines bestimmten Benutzers oder des Standardbenutzers auf einen bestimmten Wert fest, je nachdem, ob Sie ein Benutzerhandle angeben.
 solution: Experience Manager
 title: setPassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 4%
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # setPassword{#setpassword}
 
-Legt das Kennwort eines bestimmten Benutzers oder des Standardbenutzers je nach Angabe eines Benutzerhandles auf einen bestimmten Wert fest.
+Legt das Kennwort eines bestimmten Benutzers oder des Standardbenutzers auf einen bestimmten Wert fest, je nachdem, ob Sie ein Benutzerhandle angeben.
 
-Das Ablaufdatum des Kennworts ist optional. Wenn das Kennwort weggelassen wird, läuft es nie ab.
+Das Ablaufdatum des Kennworts ist optional. Wenn es weggelassen wird, läuft das Kennwort nie ab.
 
 ## Autorisierte Benutzertypen {#section-39ae61d78cab4492a6efc1fc0d2f06c4}
 
 >[!NOTE]
 >
->*Nur* der Benutzertyp `IpsAdmin` ist berechtigt, setPassword -Aufrufe gegen andere Benutzer auszuführen.
+>*Only* Der `IpsAdmin`-Benutzertyp ist berechtigt, setPassword-Aufrufe an andere Benutzer auszuführen.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -52,41 +52,41 @@ Das Ablaufdatum des Kennworts ist optional. Wenn das Kennwort weggelassen wird, 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Benutzerhandbuch. </p> </td> 
+   <td colname="col4"> <p>Benutzerhandle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Kennwort </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Passwort </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Kennwort. </p> <p>Für das ausgewählte Kennwort werden die folgenden Anforderungen erzwungen: </p> <p> 
+   <td colname="col4"> <p>Kennwort. </p> <p>Die folgenden Anforderungen werden für das ausgewählte Kennwort durchgesetzt: </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
-      <li id="li_0132852AFD774659A0224C450F19418C">Bei Passwörtern wird zwischen Groß- und Kleinschreibung unterschieden. </li> 
-      <li id="li_71224B3A89C8461AB689BAD383EC8CEA">Die Mindestlänge des Kennworts beträgt acht Zeichen. </li> 
-      <li id="li_C21B6843EA734D1ABE0580185F775408">Das Kennwort muss mindestens ein Zeichen aus den folgenden Zeichenklassen enthalten: 
+      <li id="li_0132852AFD774659A0224C450F19418C">Bei Kennwörtern wird zwischen Groß- und Kleinschreibung unterschieden. </li> 
+      <li id="li_71224B3A89C8461AB689BAD383EC8CEA">Die minimale Kennwortlänge beträgt acht Zeichen. </li> 
+      <li id="li_C21B6843EA734D1ABE0580185F775408">Das Kennwort muss ein oder mehrere Zeichen aus den folgenden Zeichenklassen enthalten: 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Kleinbuchstaben für englische Zeichen. Beispiel: <span class="codeph"> a b c d e </span> usw. </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">Großbuchstaben für englische Zeichen. Beispiel: <span class="codeph"> A B C D E </span> usw. </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Zahlen. Beispiel: <span class="codeph"> 1 2 3 4 5 </span> usw. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Sonderzeichen. Sie können beispielsweise Folgendes verwenden: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Englisch-Kleinbuchstaben. Beispiel: <span class="codeph"> a b c d e </span> usw </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">Englische Großbuchstaben. Beispiel: <span class="codeph"> A B C D E </span> und so weiter. </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Zahlen. Zum Beispiel <span class="codeph"> 1 2 3 4 5 </span> und so weiter. </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Sonderzeichen. Sie können beispielsweise eine der folgenden Optionen verwenden: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> PasswortLäuft </span> </span> ab </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Bestimmt das Ablaufdatum des Kennworts. <p>Hinweis: Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. Die Zeitzonen werden auf die "Central Time"eingestellt. </p> </p> </td> 
+   <td colname="col4"> <p>Bestimmt das Ablaufdatum des Passworts. <p>Hinweis: Geben Sie in diesem Feld die Zeitzone mit der Anfrage an. Die Zeitzonen werden an die zentrale Zeit angepasst. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (setPasswordReturn)**
+**Ausgabe (setPasswordReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-23a6fbabdb3c4c3180076057e47ae567}
 
-In diesem Codebeispiel wird ein Benutzerkennwort erstellt. Das Kennwort läuft nie ab, da `passwordExpires` weggelassen wurde.
+Dieses Code-Beispiel erstellt ein Benutzerkennwort. Das Kennwort läuft nie ab, da `passwordExpires` weggelassen wurde.
 
 **Anfrage**
 

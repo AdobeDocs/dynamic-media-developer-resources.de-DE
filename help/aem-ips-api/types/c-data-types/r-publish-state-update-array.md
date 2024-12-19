@@ -1,11 +1,11 @@
 ---
-description: Ein Array des Veröffentlichungsstatus wird aktualisiert.
+description: Ein Array von Aktualisierungen des Veröffentlichungsstatus.
 solution: Experience Manager
 title: PublishStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d78e0f53-fa2f-472c-82a1-b8435a8e4923
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 24%
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL PublishStateUpdateArray]{#publishstateupdatearray}
 
-Ein Array des Veröffentlichungsstatus wird aktualisiert.
+Ein Array von Aktualisierungen des Veröffentlichungsstatus.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:PublishStateUpdate` | Das Array des Veröffentlichungsstatus wird aktualisiert. |
+| Elemente | `types:PublishStateUpdate` | Das Array von Aktualisierungen des Veröffentlichungsstatus. |

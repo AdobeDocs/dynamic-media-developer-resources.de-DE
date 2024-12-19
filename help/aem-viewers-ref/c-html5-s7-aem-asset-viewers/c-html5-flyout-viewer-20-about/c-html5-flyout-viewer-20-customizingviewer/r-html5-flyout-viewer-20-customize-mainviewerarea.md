@@ -1,6 +1,6 @@
 ---
-title: Hauptanzeige-Bereich
-description: Der Hauptansichtsbereich ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt ist.
+title: Haupt-Viewer-Bereich
+description: Der Hauptansichtsbereich ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern eingenommen wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Hauptanzeige-Bereich{#main-viewer-area}
+# Haupt-Viewer-Bereich{#main-viewer-area}
 
-Der Hauptansichtsbereich ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern belegt ist.
+Der Hauptansichtsbereich ist der Bereich, der von der Flyout-Ansicht und den Farbfeldern eingenommen wird.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7flyoutviewer
@@ -35,7 +35,7 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Die Breite des Viewers. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
    <td colname="col2"> <p>Die Höhe des Viewers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten eines Flyout-Viewers mit weißem Hintergrund ( `#FFFFFF`) und seiner Größe 260 x 500 Pixel.
+Beispiel: Einrichten eines Flyout-Viewers mit weißem Hintergrund ( `#FFFFFF`) und Festlegen seiner Größe auf 260 x 500 Pixel.
 
 ```
 .s7flyoutviewer { 

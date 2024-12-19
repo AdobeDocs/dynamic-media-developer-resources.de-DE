@@ -1,5 +1,5 @@
 ---
-title: AssetArray
+title: Asset-Array
 description: Ein Array von Assets.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management

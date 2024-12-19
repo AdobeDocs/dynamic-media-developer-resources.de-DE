@@ -26,20 +26,20 @@ Syntax
 
 ## Parameter {#section-b70bf3b033ca45b396964baf2ab1fb0f}
 
-**Input (removeAssetPermissionsParam)**
+**Eingabe (removeAssetPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| assetHandle | `xsd:string` | Ja | Der Handle für das Asset mit Berechtigungen, die Sie entfernen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen. |
+| assetHandle | `xsd:string` | Ja | Das Handle zum Asset mit den Berechtigungen, die Sie entfernen möchten. |
 
-**Output (removeAssetPermissionsReturn)**
+**Ausgabe (removeAssetPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-In diesem Codebeispiel werden Berechtigungen aus einem Asset entfernt.
+Dieses Code-Beispiel entfernt Berechtigungen aus einem Asset.
 
 **Anfrage**
 

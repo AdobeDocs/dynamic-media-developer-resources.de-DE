@@ -1,5 +1,5 @@
 ---
-description: Erstellen oder bearbeiten Sie eine Gruppe.
+description: Erstellen oder Bearbeiten einer Gruppe.
 solution: Experience Manager
 title: saveGroup
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # saveGroup{#savegroup}
 
-Erstellen oder bearbeiten Sie eine Gruppe.
+Erstellen oder Bearbeiten einer Gruppe.
 
 Syntax
 
@@ -26,24 +26,24 @@ Syntax
 
 ## Parameter {#section-743610e98dd5494baffcbad6401038eb}
 
-**Input (saveGroupParam)**
+**Eingabe (saveGroupParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit der Gruppe, die Sie speichern möchten. |
-| groupHandle | `xsd:string` | Nein | Der Griff zur Gruppe. |
+| companyHandle | `xsd:string` | Ja | Das Handle für die Firma mit der Gruppe, die Sie speichern möchten. |
+| groupHandle | `xsd:string` | Nein | Der -Handle für die Gruppe. |
 | name | `xsd:string` | Ja | Gruppenname. |
-| isSystemDefined | `xsd:boolean` | Ja | `false` ist der Standardwert. |
+| isSystemDefined | `xsd:boolean` | Ja | `false` ist Standard. |
 
-**Output (saveGroupReturn)**
+**Ausgabe (saveGroupReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| groupHandle | `xsd:string` | Ja | Gruppieren. |
+| groupHandle | `xsd:string` | Ja | Gruppen-Handle. |
 
 ## Beispiele {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Dieses Codebeispiel erstellt eine Gruppe, die zu einem bestimmten Unternehmen gehört. Wenn die Gruppe bereits existiert, wird sie mit den von Ihnen angegebenen Parameterwerten gespeichert.
+Dieses Codebeispiel erstellt eine Gruppe, die zu einer bestimmten Firma gehört. Wenn die Gruppe bereits vorhanden ist, wird sie mit den angegebenen Parameterwerten gespeichert.
 
 **Anfrage**
 

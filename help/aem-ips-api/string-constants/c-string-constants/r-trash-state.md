@@ -1,7 +1,7 @@
 ---
 description: Wird von searchAssetReturn/trashState verwendet.
 solution: Experience Manager
-title: Löschstatus
+title: Papierkorb-Zustand
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d7380-127e-48ef-808f-5aa36bf2c665
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Löschstatus{#trash-state}
+# Papierkorb-Zustand{#trash-state}
 
 Wird von searchAssetReturn/trashState verwendet.
 

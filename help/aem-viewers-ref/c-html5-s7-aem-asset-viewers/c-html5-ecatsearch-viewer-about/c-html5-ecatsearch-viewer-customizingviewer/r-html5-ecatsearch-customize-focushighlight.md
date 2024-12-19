@@ -1,6 +1,6 @@
 ---
 title: Fokushervorhebung
-description: Hervorhebung des Fokus der Eingabe, die um das fokussierte Element der Benutzeroberfläche des Viewers herum angezeigt wird.
+description: Eingabefokushervorhebung, die um das fokussierte Element der Viewer-Benutzeroberfläche angezeigt wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 # Fokushervorhebung{#focus-highlight}
 
-Hervorhebung des Fokus der Eingabe, die um das fokussierte Element der Benutzeroberfläche des Viewers herum angezeigt wird.
+Eingabefokushervorhebung, die um das fokussierte Element der Viewer-Benutzeroberfläche angezeigt wird.
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
-Das Erscheinungsbild der Fokushervorhebung wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Fokushervorhebung wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogviewer *:focus
 ```
 
-**CSS-Eigenschaften der Fokusmarkierung**
+**CSS-Eigenschaften der Fokushervorhebung**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entwurf </span> </p> </td> 
-   <td colname="col2"> <p> Fokusmarkierungsstil. </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Fokushervorhebung - Stil. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Um die standardmäßige Browserfokus-Hervorhebung für alle Elemente der Viewer-Benutzeroberfläche zu deaktivieren, fügen Sie den folgenden CSS-Selektor zum Stylesheet des Viewers hinzu:
+Beispiel : Um die standardmäßige Browser-Fokushervorhebung für alle Elemente der Viewer-Benutzeroberfläche zu deaktivieren, fügen Sie die folgende CSS-Auswahl zum Stylesheet des Viewers hinzu:
 
 ```
 .s7ecatalogviewer *:focus { 

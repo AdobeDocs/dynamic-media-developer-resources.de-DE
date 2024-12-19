@@ -1,7 +1,7 @@
 ---
-description: Auftragsdaten für einen Batch-Auftrag.
+description: Vorgangsdaten für einen Batch-Vorgang.
 solution: Experience Manager
-title: jobdata
+title: Jobdaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2fefc2ea-415e-4c47-bbd6-ba081f849d5f
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# jobdata{#jobdata}
+# Jobdaten{#jobdata}
 
-Auftragsdaten für einen Batch-Auftrag.
+Vorgangsdaten für einen Batch-Vorgang.
 
 Wird in Batch-Auftragsanfragen verwendet, um einen Auftrag beim Senden eines Auftrags zur Verarbeitung vollständig zu beschreiben. Der Wert ist ein URL-kodiertes XML-Snippet.

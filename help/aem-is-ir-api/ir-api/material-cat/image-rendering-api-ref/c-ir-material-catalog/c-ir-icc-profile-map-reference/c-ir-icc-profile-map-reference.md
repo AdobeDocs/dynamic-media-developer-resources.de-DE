@@ -1,7 +1,7 @@
 ---
 description: Wenn für einen Bildkatalog eine ICC-Profilzuordnung erforderlich ist, muss der relative oder absolute Pfad der Profilzuordnungsdatei im Attribut IccProfileMapFile angegeben werden.
 solution: Experience Manager
-title: Referenz zur ICC-Profilzuordnung
+title: ICC-Profilzuordnungsreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c90a1fa-fa38-4d20-9694-1654ac9690e2
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Referenz zur ICC-Profilzuordnung{#icc-profile-map-reference}
+# ICC-Profilzuordnungsreferenz{#icc-profile-map-reference}
 
-Wenn für einen Bildkatalog eine ICC-Profilzuordnung erforderlich ist, muss der relative oder absolute Pfad der Profilzuordnungsdatei im Attribut angegeben werden::IccProfileMapFile.
+Wenn für einen Bildkatalog eine ICC-Profilzuordnung erforderlich ist, muss der relative oder absolute Pfad der Profilzuordnungsdatei in „attribute::IccProfileMapFile“ angegeben werden.
 
 Einträge in der ICC-Profilzuordnung eines bestimmten Materialkatalogs überschreiben Einträge in der ICC-Profilzuordnung des Standardkatalogs.
 

@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Zoomzielen.
+description: Ein Array von Zoom-Zielen.
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-Ein Array von Zoomzielen.
+Ein Array von Zoom-Zielen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:ZoomTarget` | Array von Zoomzielen. |
+| Elemente | `types:ZoomTarget` | Array von Zoom-Zielen. |

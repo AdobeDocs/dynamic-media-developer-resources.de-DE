@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 3d59bff0-8517-44c7-8c57-da806bb27e27
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 7%
@@ -19,16 +19,16 @@ ht-degree: 7%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> Momentin</span> </span> </p> </td> 
-   <td> <p>Dadurch werden die Schaltflächen neben den Farbfeldern ausgerichtet. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> SnapIn</span> </span> </p> </td> 
+   <td> <p>Bewirkt, dass die Schaltflächen neben den Farbfeldern ausgerichtet werden. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> Momentout</span> </span> </p> </td> 
-   <td> <p>Hierdurch werden die Schaltflächen neben dem Komponentenrahmen ausgerichtet. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Snapout</span> </span> </p> </td> 
+   <td> <p>Bewirkt, dass die Schaltflächen neben dem Komponentenrahmen ausgerichtet werden. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overlay</span> </span> </p> </td> 
-   <td> <p>Hierdurch werden die Schaltflächen über den Farbfeldern gerendert. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Überlagerung</span> </span> </p> </td> 
+   <td> <p>Bewirkt, dass die Schaltflächen oberhalb der Farbfelder gerendert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

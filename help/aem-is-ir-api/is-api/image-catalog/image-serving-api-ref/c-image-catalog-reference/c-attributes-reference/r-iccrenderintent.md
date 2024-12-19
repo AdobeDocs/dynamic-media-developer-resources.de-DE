@@ -1,6 +1,6 @@
 ---
 title: IccRenderIntent
-description: Rendering-Absicht für Farbkonvertierung. Sie bietet die standardmäßige Rendering-Absicht für Farbkonvertierungen, wenn "icc="für den Rendering-Intent nicht angegeben ist.
+description: Rendering-Intent für Farbkonvertierung. Sie bietet den standardmäßigen Rendering-Intent für Farbkonvertierungen, wenn „icc=" für den Render-Intent nicht angegeben ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # IccRenderIntent{#iccrenderintent}
 
-Rendering-Absicht für Farbkonvertierung. Stellt die standardmäßige Rendering-Absicht für Farbkonvertierungen bereit, wenn die Renderpriorität nicht mit `icc=` angegeben ist.
+Rendering-Intent für Farbkonvertierung. Stellt den standardmäßigen Rendering-Intent für Farbkonvertierungen bereit, wenn der Render-Intent nicht mit `icc=` angegeben wird.
 
 ## Eigenschaften {#section-2540099fb2fc47d29b04642da4f5922a}
 
-Enum. Setzen Sie den Wert auf 0 für wahrnehmungsorientiert, 1 für relativ farbmetrisch, 2 für Sättigung, 3 für absolut farbmetrisch.
+Aufzählung. Festgelegt auf 0 für wahrnehmungsorientiert, 1 für relativ farbmetrisch, 2 für Sättigung, 3 für absolut farbmetrisch.
 
 ## Standard {#section-61a05067905b44099c228e15de279dbd}
 
-Wird von `default::IccRenderIntent` übernommen, wenn nicht definiert oder leer.
+Von `default::IccRenderIntent` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-7da9ff3038ca452a9f7375a1ca0581af}
 

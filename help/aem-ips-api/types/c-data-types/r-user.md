@@ -1,5 +1,5 @@
 ---
-description: Benutzer von Ressourcen und Typen im System.
+description: Ein Benutzer von Ressourcen und Typen im System.
 solution: Experience Manager
 title: Benutzer
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL User]{#user}
 
-Benutzer von Ressourcen und Typen im System.
+Ein Benutzer von Ressourcen und Typen im System.
 
 Syntax
 
@@ -22,10 +22,10 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| userHandle | `xsd:string` | Benutzerhandbuch. |
+| userHandle | `xsd:string` | Benutzerhandle. |
 | firstName | `xsd:string` | Vorname des Benutzers. |
 | lastName | `xsd:string` | Nachname des Benutzers. |
 | E-Mail | `xsd:string` | E-Mail-Adresse. |
-| defaultRole | `xsd:string` | Legt die Rolle für einen Benutzer in jedem Unternehmen fest, zu dem er gehört. Die Benutzerrolle &quot;`IpsAmin`&quot; überschreibt jedoch andere Benutzerrollen. |
+| defaultRole | `xsd:string` | Legt die Rolle eines Benutzers in jedem Unternehmen fest, dem er angehört. Die Benutzerrolle überschreibt jedoch `IpsAmin` andere Benutzerrollen. |
 | isValid | `xsd:boolean` | Bestimmt, ob der Benutzer gültig ist. |
-| passwordExpires | `xsd:dateTime` | Legt das Ablaufdatum des Kennworts fest. |
+| passwordExpires | `xsd:dateTime` | Legt das Ablaufdatum des Passworts fest. |

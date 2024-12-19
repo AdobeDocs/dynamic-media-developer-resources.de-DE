@@ -1,5 +1,5 @@
 ---
-description: Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort getFolderTree ist auf maximal 100.000 Ordner beschränkt
+description: Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort von „getFolderTree“ ist auf maximal 100.000 Ordner beschränkt
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # getFolderTree{#getfoldertree}
 
-Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort getFolderTree ist auf maximal 100.000 Ordner beschränkt
+Gibt Ordner und Unterordner in einer hierarchischen Baumstruktur zurück. Die Antwort von „getFolderTree“ ist auf maximal 100.000 Ordner beschränkt
 
 Syntax
 
@@ -30,33 +30,33 @@ Syntax
 
 >[!NOTE]
 >
->Der Benutzer muss Lesezugriff auf den Ordner haben, um Daten darauf zurückzugeben.
+>Der Benutzer muss über Lesezugriff auf den Ordner verfügen, um Daten darüber zurückzugeben.
 
 ## Parameter {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
-**Input (getFolderTreeParam)**
+**Eingabe (getFolderTreeParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen. |
 | accessUserHandle | `xsd:string` | Nein | Wird nur von Administratoren verwendet, um die Identität eines bestimmten Benutzers zu übernehmen. |
-| accessGroupHandle | `xsd:string` | Nein | Wird verwendet, um nach einer bestimmten Gruppe zu filtern, einschließlich derjenigen, zu der das Unternehmen gehört. |
-| folderPath | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
-| Tiefe | `xsd:int` | Ja | Der Wert null ruft den Ordner der obersten Ebene ab. Jeder andere Wert gibt die Tiefe an, die in den Baum absinkt. |
-| assetTypeArray | `types:StringArray` | Nein | Gibt Ordner zurück, die nur bestimmte Asset-Typen enthalten. |
+| accessGroupHandle | `xsd:string` | Nein | Wird zum Filtern nach einer bestimmten Gruppe verwendet, einschließlich derjenigen, zu denen das Unternehmen gehört. |
+| folderPath | `xsd:string` | Nein | Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn dies ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. |
+| Tiefe | `xsd:int` | Ja | Bei einem Wert von null wird der Ordner der obersten Ebene abgerufen. Jeder andere Wert gibt die Tiefe an, die in die Baumstruktur abgesenkt werden soll. |
+| assetTypeArray | `types:StringArray` | Nein | Gibt Ordner zurück, die nur angegebene Asset-Typen enthalten. |
 | responseFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in die Antwort aufnehmen möchten. |
 | excludeFieldArray | `types:StringArray` | Nein | Enthält eine Liste von Feldern, die Sie in der Antwort ausschließen möchten. |
 
-**Output (getFolderTreeReturn)**
+**Ausgabe (getFolderTreeReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| Ordner | `types:folders` | Nein | Die Hierarchie von Ordnern in einer Baumstruktur. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
+| Ordner | `types:folders` | Nein | Die Ordnerhierarchie in einer Baumstruktur. Die Antwort ist auf maximal 100.000 Ordner beschränkt. |
 | permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## Beispiele {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Dieses Codebeispiel verwendet einen Unternehmens-Handle und einen Tiefenparameter, um die Tiefe zu bestimmen, die die Antwort zurückgeben soll. Die Antwort enthält Ordner und Unter-Ordner-Arrays mit verwandten Ordnern. Legen Sie den Wert für die Tiefe auf eine kleinere Zahl fest, um tiefer in die Ordnerstruktur zu suchen.
+In diesem Code-Beispiel werden ein Firmen-Handle und ein Tiefenparameter verwendet, um die Tiefe zu bestimmen, die die Antwort zurückgeben soll. Die Antwort enthält Ordner und Unterordner-Arrays mit verwandten Ordnern. Legen Sie für den Tiefenwert eine kleinere Zahl fest, um tiefer in der Ordnerstruktur zu suchen.
 
 **Anfrage**
 

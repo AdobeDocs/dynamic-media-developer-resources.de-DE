@@ -1,7 +1,7 @@
 ---
-description: Maskieren Sie den Dateipfad. Relativer oder absoluter Pfad und Name für eine mit diesem Katalogdatensatz verknüpfte Maskenbilddatei.
+description: Dateipfad maskieren. Relativer oder absoluter Pfad und Name für eine Maskenbilddatei, die mit diesem Katalogeintrag verknüpft ist.
 solution: Experience Manager
-title: MaskPath
+title: Maskenpfad
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
@@ -12,23 +12,23 @@ ht-degree: 2%
 
 ---
 
-# MaskPath{#maskpath}
+# Maskenpfad{#maskpath}
 
-Maskieren Sie den Dateipfad. Relativer oder absoluter Pfad und Name für eine mit diesem Katalogdatensatz verknüpfte Maskenbilddatei.
+Dateipfad maskieren. Relativer oder absoluter Pfad und Name für eine Maskenbilddatei, die mit diesem Katalogeintrag verknüpft ist.
 
 Ermöglicht das Anhängen separater Masken an Bilder.
 
-Der Server verwendet die unter &quot;[Verwalten von Source-Daten](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)&quot; beschriebenen Regeln zur Pfadauflösung, um die Datendatei zu finden.
+Der Server verwendet die unter „Verwalten von Source-Daten[ beschriebenen Regeln ](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) Pfadauflösung, um die Datendatei zu finden.
 
 ## Eigenschaften {#section-cdc3b7e2811e41008479cd97887c01b7}
 
-Textzeichenfolgenwert. Optional. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Image Server-Dateipfad handeln. `attribute::DefaultExt` wird angehängt, wenn kein Dateisuffix vorhanden ist.
+Text-Zeichenfolgenwert. Optional. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Dateipfad des Image-Servers handeln. `attribute::DefaultExt` wird angehängt, wenn keine Dateiendung vorhanden ist.
 
-Wenn sowohl ein Hauptbild ( `catalog::Path`) als auch ein Maskenbild ( `catalog::MaskPath`) in einem Katalogdatensatz definiert sind, müssen beide genau dieselbe Pixelgröße aufweisen. Maskenbilder müssen 8-Bit-Graustufen sein.
+Wenn sowohl ein Hauptbild (`catalog::Path`) als auch ein Maskenbild (`catalog::MaskPath`) in einem Katalogdatensatz definiert sind, müssen beide exakt die gleiche Pixelgröße haben. Maskenbilder müssen 8-Bit-Graustufen aufweisen.
 
 `mask=` in der Anfrage überschreibt `catalog::MaskPath`.
 
-`catalog::MaskPath` überschreibt den Alphakanal im Hauptbild ( `catalog::Path`), sofern vorhanden, und wenn der Alphakanal nicht zugeordnet ist (d. h. nicht vormultipliziert). Wenn das Bild-Alpha vormultipliziert wird, wird `catalog::MaskPath` ignoriert und der Alphakanal wird immer verwendet.
+`catalog::MaskPath` überschreibt den Alphakanal im Hauptbild (`catalog::Path`), falls vorhanden, und wenn der Alphakanal nicht zugeordnet (d. h. nicht vormultipliziert) ist. Wenn das Bild Alpha vormultipliziert ist, wird `catalog::MaskPath` ignoriert und der Alphakanal wird immer verwendet.
 
 ## Standard {#section-78533e35bfec469ba087cb68a35bb81b}
 

@@ -1,11 +1,11 @@
 ---
-description: Katalogattributdateien erkennen diese gebräuchlichen Attribute für Miniaturansichten.
+description: Katalogattributdateien erkennen diese gängigen Miniaturbildattribute.
 solution: Experience Manager
 title: Allgemeine Attribute für Miniaturen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1289f251-61f0-4355-9dd2-f9b0690e355c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Allgemeine Attribute für Miniaturen{#common-thumbnail-attributes}
 
-Katalogattributdateien erkennen diese gebräuchlichen Attribute für Miniaturansichten.
+Katalogattributdateien erkennen diese gängigen Miniaturbildattribute.
 
 <table id="simpletable_D10CFB19EA674FE4808D384C9498170F"> 
  <tr class="strow"> 

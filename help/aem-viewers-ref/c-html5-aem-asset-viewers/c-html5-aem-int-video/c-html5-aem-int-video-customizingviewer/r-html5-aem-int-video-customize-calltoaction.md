@@ -1,6 +1,6 @@
 ---
 title: Aktionsaufruf
-description: Das Fenster Aktionsaufruf wird angezeigt, wenn das Video beendet wird, und alle interaktiven Muster, die mit dem betreffenden Video verknüpft sind, werden angezeigt.
+description: Das Bedienfeld Aktionsaufruf wird angezeigt, wenn das Video beendet wird, und zeigt alle interaktiven Farbfelder an, die mit dem jeweiligen Video verknüpft sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Aktionsaufruf{#call-to-action}
 
-Das Fenster Aktionsaufruf wird angezeigt, wenn das Video beendet wird, und alle interaktiven Muster, die mit dem betreffenden Video verknüpft sind, werden angezeigt.
+Das Bedienfeld Aktionsaufruf wird angezeigt, wenn das Video beendet wird, und zeigt alle interaktiven Farbfelder an, die mit dem jeweiligen Video verknüpft sind.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Das Bedienfeld besteht aus einem Kopfzeilenbereich, der den Videotitel, eine Wiederholungsschaltfläche in der oberen rechten Ecke und tatsächliche interaktive Muster anzeigt, die als bildlauffähiges Raster angezeigt werden. Sie können das Bedienfeld mithilfe des Konfigurationsattributs [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) deaktivieren.
+Das Bedienfeld besteht aus einem Kopfzeilenbereich mit dem Videotitel, einer Wiederholungsschaltfläche in der oberen rechten Ecke und tatsächlichen interaktiven Farbfeldern, die als scrollbares Raster angezeigt werden. Sie können den Bereich mithilfe des Konfigurationsattributs [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) deaktivieren.
 
-Der Aktionsaufruf nimmt immer den gesamten verfügbaren Viewer-Bereich ein.
+Das Bedienfeld für Aktionsaufrufe nimmt immer den gesamten verfügbaren Viewer-Bereich ein.
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
@@ -30,13 +30,13 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Hintergrundfar
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## CSS-Eigenschaften der Hintergrundfarbe des Aktionsaufrufs {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## CSS-Eigenschaften der Hintergrundfarbe des Bedienfelds für Aktionsaufrufe {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe des Aktionsaufrufs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe des Aktionsaufrufs-Bedienfelds. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,26 +53,26 @@ So richten Sie einen Aktionsaufruf mit dunkelgrauem Hintergrund ein:
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Kopfzeile im Aktionsbereich:
+Der folgende CSS-Klassenselektor steuert die Darstellung der -Kopfzeile im Aktionsaufruf-Bedienfeld:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## CSS-Eigenschaften der Kopfzeile des Aktionsbereichs {#css-properties-of-the-call-to-action-panel-header}
+## CSS-Eigenschaften der Kopfzeile des Aktionsaufrufs-Bedienfelds {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe der Kopfzeile. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe des Headers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Höhe der Kopfzeile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rahmen - untere </span> </p> </td> 
    <td colname="col2"> <p>Unterer Rand der Kopfzeile. </p> </td> 
   </tr> 
  </tbody> 
@@ -80,7 +80,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Kopfzeile im A
 
 ## Beispiel {#example-1}
 
-So richten Sie eine Kopfzeile ein, die 70 Pixel groß ist, einen dunkelgrauen Hintergrund hat und einen etwas helleren, grauen Rahmen von zwei Pixeln am unteren Rand aufweist:
+So richten Sie eine Kopfzeile ein, die 70 Pixel hoch ist, einen dunkelgrauen Hintergrund und einen etwas helleren grauen Rahmen mit zwei Pixeln am unteren Rand aufweist:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header { 
@@ -92,50 +92,50 @@ So richten Sie eine Kopfzeile ein, die 70 Pixel groß ist, einen dunkelgrauen Hi
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Kopfzeilentitels im Aktionsaufruf-Bedienfeld:
+Der folgende CSS-Klassenselektor steuert die Darstellung des Header-Titels im Aktionsaufruf-Bedienfeld:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## CSS-Eigenschaften des Kopfzeilentitels im Aktionsaufruf-Bedienfeld:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## CSS-Eigenschaften des Kopfzeilentitels im Bedienfeld „Aktionsaufruf“:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p> Textfarbe im Banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p>Zeilenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p> Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Ausrichtung des Texts im Banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Abstand - </span> </p> </td> 
    <td colname="col2"> <p>Linker Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
-   <td colname="col2"> <p> Rechter Abstand, um Platz für die Schaltfläche "Wiederholen"zu schaffen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Abstand rechts </span> </p> </td> 
+   <td colname="col2"> <p> Rechter Abstand, um Platz für die Schaltfläche „Wiederholen“ zu lassen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#example-2}
 
-So richten Sie einen Videotitel mit einer Zeilenhöhe von 70 Pixel, einer Schriftgröße von 25 Pixel, einer weißen Farbe und einer Linksausrichtung ein:
+So richten Sie einen Videotitel mit einer Zeilenhöhe von 70 Pixel, einer Schriftgröße von 25 Pixel, einer weißen Farbe und einer linksbündigen Ausrichtung ein:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title { 
@@ -148,50 +148,50 @@ So richten Sie einen Videotitel mit einer Zeilenhöhe von 70 Pixel, einer Schrif
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schließen-Schaltfläche im Aktionsbereich:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltfläche Schließen im Bedienfeld Aktionsaufruf :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## CSS-Eigenschaften der Schließen-Schaltfläche im Aktionsaufruf: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## CSS-Eigenschaften der Schließen-Schaltfläche im Bedienfeld für Aktionsaufrufe: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Position oben in der Kopfzeile, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Position oben in der Kopfzeile, einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position rechts neben der Kopfzeile, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p>Position rechts von der Kopfzeile, einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Schaltflächenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p> Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p> Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p>Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
 ## Beispiel {#example-3}
 
-Um eine Wiederholungsschaltfläche von 28 x 28 Pixel einzurichten. Die Schaltfläche muss 20 Pixel vom oberen und vom rechten Rand der Kopfzeile entfernt positioniert werden. Außerdem muss für jeden der vier Schaltflächenstatus ein anderes Bild angezeigt werden. Entnimmt das Bildmaterial aus dem Sprite-Bild der Komponente:
+So richten Sie eine Wiedergabeschaltfläche ein, die 28 x 28 Pixel groß ist. Die Schaltfläche muss 20 Pixel vom oberen und rechten Rand der Kopfzeile entfernt positioniert werden. Außerdem muss für jeden der vier verschiedenen Schaltflächenzustände ein anderes Bild angezeigt werden. Nimmt das Bildmaterial aus dem Sprite-Bild der Komponente:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -220,26 +220,26 @@ Um eine Wiederholungsschaltfläche von 28 x 28 Pixel einzurichten. Die Schaltfl�
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniatur-Rasteransicht im Aktionsbereich:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniatur-Rasteransicht im Aktionsaufruf-Bedienfeld:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## CSS-Eigenschaften der Miniatur-Rasteransicht im Aktionsbereich:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## CSS-Eigenschaften der Miniatur-Rasteransicht im Bedienfeld „Aktionsaufruf“:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe des Bereichs "Miniaturen". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe des Bereichs „Miniaturen“. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#example-4}
 
-So richten Sie einen Bereich für Miniaturansichten mit dunkelgrauem Hintergrund ein:
+So richten Sie einen Bereich für Miniaturen mit dunkelgrauem Hintergrund ein:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview { 
@@ -249,19 +249,19 @@ So richten Sie einen Bereich für Miniaturansichten mit dunkelgrauem Hintergrund
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Thumb-Zelle im Aktionsaufruf-Bedienfeld:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Zelle Thumb im Bedienfeld Aktionsaufruf :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## CSS-Eigenschaften der Thumb-Zelle im Aktionsaufruf: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## CSS-Eigenschaften der Zelle mit dem Raster im Bedienfeld für Aktionsaufrufe: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. </p> <p>Der tatsächliche horizontale Abstand für Miniaturansichten entspricht der Summe des linken und rechten Rands, der für <span class="codeph"> .s7thumbcell </span> festgelegt wurde. Dieselbe Regel gilt auch für den vertikalen Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Größe des horizontalen und vertikalen Rands um jede Miniaturansicht. </p> <p>Der tatsächliche Abstand zwischen horizontalen Miniaturen entspricht der Summe aus dem linken und rechten Randsatz für <span class="codeph"> s7thumbcell-</span>. Die gleiche Regel gilt auch für den vertikalen Abstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -281,38 +281,38 @@ So legen Sie einen horizontalen Abstand von 24 Pixel und einen vertikalen Abstan
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansicht im Aktionsaufruf-Bedienfeld:
+Der folgende CSS-Klassenselektor steuert die Darstellung der Miniaturansicht im Bedienfeld Aktionsaufruf :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## CSS-Eigenschaften der Miniaturansicht im Aktionsaufruf-Bedienfeld: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## CSS-Eigenschaften der Miniaturansicht im Bedienfeld „Aktionsaufruf“: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Miniaturansicht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Miniaturansicht. </p> </td> 
+   <td colname="col2"> <p>Höhe der Miniatur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>Rand der Miniaturansicht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Rahmen der Miniatur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Miniaturansichten unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` der Miniaturansicht des aktuell ausgewählten Bildes; `state="default"` der restlichen Miniaturansicht; `state="over"` wird beim Bewegen des Mauszeigers verwendet.
+>„Miniaturansicht“ unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichtszustände angewendet werden können. Insbesondere entspricht `state="selected"` der Miniatur für das aktuell ausgewählte Bild; `state="default"` entspricht dem Rest der Miniaturen; `state="over"` wird beim Bewegen des Mauszeigers verwendet.
 
 ## Beispiel {#example-6}
 
-So richten Sie Miniaturansichten mit 94 x 100 Pixel ein:
+So richten Sie Miniaturen mit 94 x 100 Pixel ein:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb { 
@@ -323,30 +323,30 @@ So richten Sie Miniaturansichten mit 94 x 100 Pixel ein:
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansichtsbeschriftung im Aktionsaufruf-Bereich:
+Der folgende CSS-Klassenselektor steuert die Darstellung der Miniaturbildbeschriftung im Bedienfeld Aktionsaufruf :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## CSS-Eigenschaften der Miniaturansichtsbeschriftung im Aktionsaufruf-Bedienfeld: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## CSS-Eigenschaften der Miniaturbildbeschriftung im Bedienfeld für Aktionsaufrufe: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Textfarbe der Beschriftung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Textfarbe des Titels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Horizontale Ausrichtung des Titels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftname. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
  </tbody> 
@@ -354,7 +354,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Miniaturansich
 
 ## Beispiel {#example-7}
 
-Um Beschriftungen einzurichten, die eine weiße Farbe verwenden, sollten Sie eine zentrierte Ausrichtung von 15 Pixel und eine Arial®-Schriftart verwenden:
+Um Bezeichnungen einzurichten, die eine weiße Farbe verwenden, richten Sie sie um 15 Pixel zentriert aus und verwenden Sie eine Arial®-Schriftart:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 
@@ -367,40 +367,40 @@ Um Beschriftungen einzurichten, die eine weiße Farbe verwenden, sollten Sie ein
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-Wenn mehr Miniaturansichten vorhanden sind, als vertikal in die Ansicht passen, wird über Miniaturansichten eine vertikale Bildlaufleiste auf der rechten Seite angezeigt. Standardmäßig rendert das Fenster Aktionsaufruf einen winzigen vertikalen Balken ohne Daumen- und Bildlauftasten. Sie können die Symbolleiste jedoch anpassen, indem Sie die Viewer-CSS ändern.
+Wenn mehr Miniaturen vorhanden sind, als vertikal in die Ansicht passen, wird für die Miniaturen eine vertikale Bildlaufleiste auf der rechten Seite gerendert. Standardmäßig wird mit dem Aktionsaufruf-Bedienfeld eine kleine vertikale Leiste ohne die Schaltflächen „Daumen“ und „Bildlauf“ gerendert. Es ist jedoch möglich, die Leiste anzupassen, indem die Viewer-CSS geändert wird.
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Bildlaufleistenbereichs im Aktionsaufruf-Bedienfeld:
+Der folgende CSS-Klassenselektor steuert die Darstellung des Bildlaufleistenbereichs im Aktionsaufruf-Bedienfeld:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## CSS-Eigenschaften des Bildlaufleistenbereichs im Bereich &quot;Aktionsaufruf&quot;: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## CSS-Eigenschaften des Bildlaufleistenbereichs im Bedienfeld für Aktionsaufrufe: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Vertikaler Bildlaufleisten-Versatz vom oberen Rand des Miniaturansichtsbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Vertikaler Bildlaufbalken, der vom oberen Rand des Bereichs „Miniaturen“ versetzt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Vertikaler Bildlaufleisten-Versatz vom unteren Rand des Bereichs "Miniaturen". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p>Vertikaler Bildlaufbalken, der vom unteren Rand des Bereichs „Miniaturen“ versetzt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p> Horizontaler Bildlaufleisten-Versatz vom rechten Rand des Bereichs "Miniaturansichten". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p> Horizontaler Bildlaufbalken versetzt vom rechten Rand des Bereichs Miniaturen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#example-8}
 
-So richten Sie eine Bildlaufleiste ein, die 22 Pixel breit ist und keine Ränder von oben, rechts oder unten im Bereich für Miniaturansichten aufweist:
+So richten Sie eine Bildlaufleiste ein, die 22 Pixel breit ist und keinen Rand vom oberen, rechten oder unteren Rand des Bereichs „Miniaturen“ hat:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar { 
@@ -413,32 +413,32 @@ So richten Sie eine Bildlaufleiste ein, die 22 Pixel breit ist und keine Ränder
 
 <!--<a id="section_E27B7253441543278E1081D70BA46122"></a>-->
 
-Die Bildlaufleisten-Verfolgung ist der Bereich zwischen den Schaltflächen der oberen und unteren Bildlaufleiste. Die Komponente legt automatisch die Position und Höhe der Spur fest.
+Die Bildlaufleistenspur ist der Bereich zwischen den Schaltflächen der oberen und unteren Bildlaufleiste. Die Komponente legt automatisch die Position und Höhe der Spur fest.
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Bildlaufleisten-Tracks im Aktionsaufruf-Bereich:
+Der folgende CSS-Klassenselektor steuert das Erscheinungsbild des Bildlaufleisten-Tracks im Aktionsaufruf-Bedienfeld:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
 ```
 
-## CSS-Eigenschaften der Bildlaufspur-Leiste {#css-properties-of-the-scroll-track-bar}
+## CSS-Eigenschaften der Bildlaufspurleiste {#css-properties-of-the-scroll-track-bar}
 
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite der Bildlaufspur. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite der Bildlaufspurleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe der Leiste. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe der Trackleiste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#example-9}
 
-So richten Sie eine Bildlaufleiste ein, die 22 Pixel breit und grau ist:
+So richten Sie eine Bildlaufleistenspur ein, die 22 Pixel breit ist und eine graue Farbe aufweist:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -449,7 +449,7 @@ So richten Sie eine Bildlaufleiste ein, die 22 Pixel breit und grau ist:
 
 <!--<a id="section_4A5D8C1A9C9D4E7B8AC0CD5BC6F3772D"></a>-->
 
-Der Bildlaufleisten-Daumen bewegt sich innerhalb des Bildlaufverfolgungsbereichs vertikal. Seine vertikale Position wird vollständig von der Komponentenlogik gesteuert. Die Daumenhöhe ändert sich jedoch nicht dynamisch in Abhängigkeit von der Inhaltsmenge.
+Der Daumen der Bildlaufleiste bewegt sich vertikal innerhalb des Bereichs der Bildlaufspur. Die vertikale Position wird vollständig von der Komponentenlogik gesteuert. Die Höhe des Daumens ändert sich jedoch je nach Inhaltsmenge nicht dynamisch.
 
 Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Daumenhöhe und anderer Aspekte:
 
@@ -457,52 +457,52 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Daumenhöhe un
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## CSS-Eigenschaften der Thumb-Höhe im Aktionsbereich: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## CSS-Eigenschaften der Daumenhöhe im Bedienfeld „Aktionsaufruf“: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Daumenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des Daumens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Daumenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Vertikaler Abstand zwischen dem oberen Ende der Spur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
-   <td colname="col2"> <p>Vertikaler Abstand zwischen dem unteren Ende der Strecke. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Vertikaler Abstand zwischen dem unteren Ende der Spur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>Rahmenradius. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Radius des Rahmens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Farbe des Daumens. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Daumenfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Bild, das für einen gegebenen Daumenstatus angezeigt wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p> Bild, das für einen bestimmten Daumenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Felle auf die folgenden Faustregeln anzuwenden: `"up"`, `"down"`, `"over"` und `"disabled"`.
+>Thumb unterstützt den `state`-Attributselektor , mit dem verschiedene Skins auf die folgenden verschiedenen Thumb-Status angewendet werden können: `"up"`, `"down"`, `"over"` und `"disabled"`.
 
 ## Beispiel {#example-10}
 
-Um einen Bildlaufleisten-Daumen mit einer Größe von 6 x 167 Pixel einzurichten, hat drei Pixel, abgerundete Ecken und eine graue Farbe:
+So richten Sie einen Bildlaufleisten-Daumen mit 6 x 167 Pixeln ein, hat drei abgerundete Pixel und eine graue Farbe:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb[state] { 
@@ -516,7 +516,7 @@ Um einen Bildlaufleisten-Daumen mit einer Größe von 6 x 167 Pixel einzurichten
 
 <!--<a id="section_C393B59763344E70A3BBD0601110F8DD"></a>-->
 
-Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltflächen für den oberen und unteren Bildlauf:
+Der folgende CSS-Klassenselektor steuert die Darstellung der oberen und unteren Bildlaufschaltflächen:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollupbutton 
@@ -524,14 +524,14 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Schaltflächen
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften oben, links, unten oder rechts zu positionieren. Die Viewer-Logik positioniert sie automatisch. Der Aktionsaufruf im interaktiven Video-Viewer verwendet diese Schaltflächen in der Bildlaufleiste nicht, daher wird ihre Größe im Standard-CSS auf 0 Pixel eingestellt.
+Scroll-Schaltflächen können nicht mit den CSS-Eigenschaften „oben“, „links“, „unten“ oder „rechts“ positioniert werden. Die Viewer-Logik positioniert sie automatisch. Im Bedienfeld Aktionsaufruf im interaktiven Video-Viewer werden diese Schaltflächen nicht in der Bildlaufleiste verwendet, sodass ihre Größe in der Standard-CSS auf 0 Pixel festgelegt ist.
 
-## CSS-Eigenschaften der Schaltflächen für den oberen und unteren Bildlauf im Aktionsaufruf:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## CSS-Eigenschaften der oberen und unteren Bildlaufschaltflächen im Bedienfeld „Aktionsaufruf“:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -539,25 +539,25 @@ Es ist nicht möglich, Bildlaufschaltflächen mithilfe der CSS-Eigenschaften obe
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltflächen unterstützen die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Falten auf die folgenden Faustregeln anzuwenden: `"up"`, `"down"`, `"over"` und `"disabled"`.
+>Diese Schaltflächen unterstützen die `state` Attributauswahl, mit der Sie verschiedene Skins auf die folgenden verschiedenen Miniaturansichten anwenden können: `"up"`, `"down"`, `"over"` und `"disabled"`.
 
-Die QuickInfos für Schaltflächen können lokalisiert werden. Siehe [Lokalisierung von Elementen der Benutzeroberfläche](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Die QuickInfos für die Schaltfläche können lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Beispiel {#example-11}
 
-Deaktivieren Sie Bildlaufschaltflächen, indem Sie deren Größe auf 0 setzen und sie ausblenden:
+Deaktivieren Sie Bildlaufschaltflächen, indem Sie ihre Größe auf 0 setzen und sie ausblenden:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 

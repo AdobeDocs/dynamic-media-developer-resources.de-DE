@@ -1,7 +1,7 @@
 ---
 description: Druckauflösung. Druckauflösung für das Bild in voller Größe.
 solution: Experience Manager
-title: PrintResolution
+title: Druckauflösung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
@@ -12,19 +12,19 @@ ht-degree: 5%
 
 ---
 
-# PrintResolution{#printresolution}
+# Druckauflösung{#printresolution}
 
 Druckauflösung. Druckauflösung für das Bild in voller Größe.
 
-Dieser Wert wird in die Kopfzeile des Antwortbilds eingebettet, es sei denn, er wird durch `printRes=` überschrieben.
+Dieser Wert wird in die Kopfzeile des Antwortbildes eingebettet, es sei denn, er wird mit `printRes=` überschrieben.
 
 ## Eigenschaften {#section-de3c1f73da7b43208beeec841c1778c1}
 
-Ganzzahl, größer als 0. In Punkten pro Zoll ausgedrückt. Optional.
+Ganze Zahl, größer als 0. In Punkten pro Zoll angegeben. Optional.
 
 ## Standard {#section-0cac992554ec4247ab05f70d9840a045}
 
-`attribute::PrintResolution` wird verwendet, wenn das Feld nicht vorhanden ist, wenn der Wert 0 ist oder wenn das Feld leer ist.
+`attribute::PrintResolution` wird verwendet, wenn das Feld nicht vorhanden ist, der Wert 0 ist oder das Feld leer ist.
 
 ## Verwandte Themen {#section-0593faefffe341c5ab8a4aa5da589a04}
 

@@ -1,5 +1,5 @@
 ---
-title: ActiveJob
+title: Aktiver Vorgang
 description: Ein Auftrag, der auf einem Server ausgeführt wird. Außerdem handelt es sich um eine Instanz eines geplanten Auftrags.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Ein Auftrag, der auf einem Server ausgeführt wird. Außerdem handelt es sich um eine Instanz eines geplanten Auftrags.
 
-Aufträge sind in drei Status verfügbar:
+Jobs existieren in drei Status:
 
-* Geplant für die Ausführung.
+* Ausführung geplant.
 * Wird derzeit ausgeführt.
-* Ausführung abgeschlossen (und bereits Informationen in ein Auftragsprotokoll geschrieben).
+* Ausführung abgeschlossen (und Informationen bereits in ein Vorgangslog geschrieben).
 
-Um den Auftragstyp zurückzugeben, geben Sie einen Auftragstyp-Wert an. Sie können die folgenden Aufträge zurückgeben:
+Um den Vorgangstyp zurückzugeben, geben Sie einen Vorgangstypwert an. Sie können die folgenden Aufträge zurückgeben:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -45,30 +45,30 @@ Um den Auftragstyp zurückzugeben, geben Sie einen Auftragstyp-Wert an. Sie kön
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle mit dem Unternehmen. </td> 
+   <td colname="col3"> Übernehmen Sie die Firma. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Führen Sie den Auftrag aus. </td> 
+   <td colname="col3"> Übernehmen Sie den Auftrag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Eindeutiger Name für den Auftrag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Ursprünglicher Name des mit dem Auftrag gesendeten Typs <span class="codeph"> ActiveJob</span>. </td> 
+   <td colname="col3">Der Originalname des <span class="codeph"> ActiveJob</span>-Typs, der mit dem Auftrag übermittelt wurde. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Typ</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Auswahl der vom System zurückgegebenen Auftragstypen. </td> 
+   <td colname="col3"> Auswahl der vom System zurückgegebenen Vorgangstypen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Status</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Auswahl der vom System zurückgegebenen aktiven Auftragsstatus. </td> 
   </tr> 
@@ -78,24 +78,24 @@ Um den Auftragstyp zurückzugeben, geben Sie einen Auftragstyp-Wert an. Sie kön
    <td colname="col3"> E-Mail-Adresse des Benutzers, der den Auftrag geplant hat. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Gebietsschema</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Das Gebietsschema für Auftragsprotokolldetails und E-Mail-Lokalisierung. <p>Geben Sie Gebietsschemata als "<span class="codeph"> &lt;Sprachcode&gt;[-&lt;Ländercode&gt;]</span>"an, wobei der Sprachcode ein aus zwei Buchstaben bestehender Code aus Kleinbuchstaben gemäß ISO-639 ist und der optionale Ländercode ein aus zwei Buchstaben bestehender Code aus Großbuchstaben gemäß ISO-3166 ist. Die Gebietsschema-Zeichenfolge für Englisch (USA) lautet beispielsweise: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Das Gebietsschema für Details zum Vorgangslog und zur E-Mail-Lokalisierung. <p>Geben Sie die Gebietsschemata als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span> an, wobei der Sprach-Code ein Code mit zwei Kleinbuchstaben gemäß ISO-639 und der optionale Länder-Code ein Code mit zwei Großbuchstaben gemäß ISO-3166 ist. Die Gebietsschema-Zeichenfolge für Englisch (Vereinigte Staaten) wäre beispielsweise: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Beschreibung</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Auftragsbeschreibung, die ursprünglich in <span class="codeph"> submitJob</span> angegeben wurde. </td> 
+   <td colname="col3">Ursprünglich in "<span class="codeph"> submitJob“ angegebene </span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Name des Servers, auf dem der Auftrag ausgeführt wird. </td> 
+   <td colname="col3"> Name des Servers, auf dem der Vorgang ausgeführt wird. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> startDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Datum, Uhrzeit und Zeitzone für den aktiven Auftrag. </td> 
+   <td colname="col3"> Datum, Uhrzeit und Zeitzone des aktiven Auftrags. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
@@ -103,9 +103,9 @@ Um den Auftragstyp zurückzugeben, geben Sie einen Auftragstyp-Wert an. Sie kön
    <td colname="col3"> Gesamtgröße des aktiven Auftrags. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Fortschritt</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Fortschritte</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Auftragsfortschritt (d. h. wie nah sich der Auftrag bis zum Abschluss befindet). </td> 
+   <td colname="col3"> Vorgangsfortschritt (d. h. wie nah der Vorgang am Ende ist). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -119,58 +119,58 @@ Um den Auftragstyp zurückzugeben, geben Sie einen Auftragstyp-Wert an. Sie kön
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:TaskProgressArray</span> </td> 
-   <td colname="col3"> Informationen zum Fortschritt asynchroner Aufgaben. </td> 
+   <td colname="col2"> <span class="codeph">:TaskProgressArray</span> </td> 
+   <td colname="col3"> Informationen zum asynchronen Aufgabenstatus. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph">:ImageServingPublishJob</span> </td> 
    <td colname="col3"> Auftragsdetails für einen Image-Serving-Veröffentlichungsauftrag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingRenderJob</span> </td> 
+   <td colname="col2"> <span class="codeph">:ImageServingRenderJob</span> </td> 
    <td colname="col3"> Auftragsdetails für einen Image-Rendering-Veröffentlichungsauftrag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VideoPublishJob</span> </td> 
-   <td colname="col3"> Auftragsdetails für einen Video-Veröffentlichungsauftrag. </td> 
+   <td colname="col2"> <span class="codeph">:VideoPublishJob</span> </td> 
+   <td colname="col3"> Auftragsdetails für einen Videoveröffentlichungsauftrag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> Auftragsdetails für einen Veröffentlichungsauftrag in Serverordnern. </td> 
+   <td colname="col2"> <span class="codeph">:ImageServingPublishJob</span> </td> 
+   <td colname="col3"> Auftragsdetails für einen Veröffentlichungsauftrag für ein Serververzeichnis. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UploadUrlsJob</span> </td> 
-   <td colname="col3"> Auftragsdetails für einen Upload-URLs-Auftrag. </td> 
+   <td colname="col2"> <span class="codeph">:UploadUrlsJob</span> </td> 
+   <td colname="col3"> Auftragsdetails für einen Upload-URL-Auftrag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:RipPdfsJob</span> </td> 
+   <td colname="col2"> <span class="codeph">:RipPdfsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:OptimizeImagesJob</span> </td> 
+   <td colname="col2"> <span class="codeph">:OptimizeImagesJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ReprocessAssetsJob</span> </td> 
+   <td colname="col2"> <span class="codeph">:ReprocessAssetsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UploadPostJob</span> </td> 
-   <td colname="col3"> Auftragsdetails, Tracking des Desktop-Uploads. </td> 
+   <td colname="col2"> <span class="codeph">:UploadPostJob</span> </td> 
+   <td colname="col3"> Vorgangsdetails, Verfolgen des Desktop-Uploads. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">Zulassen des autorisierten Exports von zuvor hochgeladenen Dateien. Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportauftrag</a>. </td> 
+   <td colname="col2"> <span class="codeph">:ExportJob</span> </td> 
+   <td colname="col3">Zulassen des autorisierten Exports zuvor hochgeladener Dateien. Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportvorgang</a>. </td> 
   </tr> 
  </tbody> 
 </table>

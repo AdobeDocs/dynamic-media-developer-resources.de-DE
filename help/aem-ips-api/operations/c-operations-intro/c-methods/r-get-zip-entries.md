@@ -1,5 +1,5 @@
 ---
-description: Gibt Zip-Dateidaten zurück.
+description: Gibt ZIP-Dateidaten zurück.
 solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # getZipEntries{#getzipentries}
 
-Gibt Zip-Dateidaten zurück.
+Gibt ZIP-Dateidaten zurück.
 
 Syntax
 
@@ -32,22 +32,22 @@ Syntax
 
 ## Parameter {#section-aa3f498fe76d4a5f99c42d64520fadce}
 
-**Input (getZipEntriesParam)**
+**Eingabe (getZipEntriesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das die Zip-Datei enthält. |
-| assetHandle | `xsd:string` | Ja | Bearbeiten Sie die ZIP-Datei. |
+| companyHandle | `xsd:string` | Ja | Das -Handle an das Unternehmen, das die ZIP-Datei enthält. |
+| assetHandle | `xsd:string` | Ja | Verarbeiten Sie die ZIP-Datei. |
 
-**Output (getZipEntriesReturn)**
+**Ausgabe (getZipEntriesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| zipArray | `types:ZipEntryArray` | Ja | Array von Einträgen in einer Zip-Datei. |
+| zipArray | `types:ZipEntryArray` | Ja | Array von Einträgen in einer ZIP-Datei. |
 
 ## Beispiele {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Dieses Codebeispiel gibt Informationen zur Postleitzahl zurück, einschließlich der komprimierten und unkomprimierten Größe.
+Dieses Codebeispiel gibt ZIP-Dateiinformationen zurück, einschließlich komprimierter und unkomprimierter Größe.
 
 **Anfrage**
 

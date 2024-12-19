@@ -1,5 +1,5 @@
 ---
-description: Erstellt ein Bild mit mehreren Ebenen, das über mehrere Text- und Bildebenen verfügen kann.
+description: Erstellt ein mehrschichtiges Bild, das mehrere Text- und Bildebenen haben kann.
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 # createTemplate{#createtemplate}
 
-Erstellt ein Bild mit mehreren Ebenen, das über mehrere Text- und Bildebenen verfügen kann.
+Erstellt ein mehrschichtiges Bild, das mehrere Text- und Bildebenen haben kann.
 
-Der Parameter `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protokollbefehle an, die vor vom Benutzer bereitgestellten Befehlen auf die URL angewendet wurden. Der Parameter `urlPostApplyModifier` gibt Protokollbefehle an, die nach beliebigen URL-Befehlen angewendet werden, wodurch alle vom Benutzer bereitgestellten widersprüchlichen Einstellungen außer Kraft gesetzt werden.
+Der Parameter `urlModifier` gibt die im Image-Server-Katalog gespeicherten Image-Server-Protokollbefehle an, die vor allen vom Benutzer über die URL bereitgestellten Befehlen angewendet werden. Der `urlPostApplyModifier`-Parameter gibt Protokollbefehle an, die nach allen URL-Befehlen angewendet werden, wodurch alle widersprüchlichen von Benutzenden bereitgestellten Einstellungen überschrieben werden.
 
 ## Autorisierte Benutzertypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -33,21 +33,21 @@ Der Parameter `urlModifier` gibt die im Bildserver-Katalog gespeicherten Protoko
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Unternehmen, zu dem die Vorlage gehört. |
-| folderHandle | `xsd:string` | Ja | Der Ordner-Handle, der den Ordner darstellt, in dem sich die Vorlage befindet. |
-| name | `xsd:string` | Ja | Vorlagenname. |
-| Typ | `xsd:string` | Ja | Vorlagentyp |
-| urlModifier | `xsd:string` | Ja | Gibt die im IS-Katalog gespeicherten Image-Server-Befehle an, die vor vom Benutzer bereitgestellten Befehlen auf die URL angewendet werden. |
-| urlPostApplyModifier | `xsd:string` | Nein | Gibt Protokollbefehle an, die auf beliebige URL-Befehle angewendet werden, wodurch alle vom Benutzer bereitgestellten, in Konflikt stehenden Einstellungen außer Kraft gesetzt werden. |
+| folderHandle | `xsd:string` | Ja | Das Ordner-Handle, das den Ordner darstellt, in dem sich die Vorlage befindet. |
+| name | `xsd:string` | Ja | Name der Vorlage. |
+| Typ | `xsd:string` | Ja | Vorlagentyp. |
+| urlModifier | `xsd:string` | Ja | Gibt die im IMS-Katalog gespeicherten Image-Server-Befehle an, die vor allen vom Benutzer bereitgestellten Befehlen auf der URL angewendet werden. |
+| urlPostApplyModifier | `xsd:string` | Nein | Gibt Protokollbefehle an, die nach allen URL-Befehlen angewendet werden, wodurch alle konfliktbehafteten, von Benutzenden bereitgestellten Einstellungen überschrieben werden. |
 
-**Output (createTemplateParam)**
+**Ausgabe (createTemplateParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Ja | Der Handle für die Vorlage. |
+| assetHandle | `xsd:string` | Ja | Der Handler zur Vorlage. |
 
 ## Beispiele {#section-09adb4d2f0c944af875c4463a461f55d}
 
-In diesem Codebeispiel wird eine Vorlage in einem Ordner erstellt, der von einem Handle mit dem Namen `APIcreateTemplate`, `urlModifier` und `urlPostApplyModifier` angegeben wird. Die Antwort gibt den Handle an die neu erstellte Vorlage zurück.
+In diesem Codebeispiel wird eine Vorlage in einem durch ein Handle angegebenen Ordner mit dem Namen `APIcreateTemplate`, einer `urlModifier` und einer `urlPostApplyModifier` erstellt. Die Antwort gibt das Handle an die neu erstellte Vorlage zurück.
 
 **Anfrage**
 

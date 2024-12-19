@@ -1,5 +1,5 @@
 ---
-description: JavaScript-API-Referenz für den eCatalog-Viewer.
+description: JavaScript-API-Referenz für den E-Katalog-Viewer.
 solution: Experience Manager
 title: setContainerId
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-JavaScript-API-Referenz für den eCatalog-Viewer.
+JavaScript-API-Referenz für den E-Katalog-Viewer.
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-Legt die Kennung des `DOM` -Containers (normalerweise ein `DIV`) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Containerelement zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Sie muss vor `init()` aufgerufen werden.
+Legt die ID des `DOM`-Containers (normalerweise ein `DIV`) fest, in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Container-Element zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn `init()` ausgeführt wird. Sie muss vor dem `init()` aufgerufen werden.
 
-Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben werden.
+Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit `config` JSON-Objekt an den Konstruktor übergeben werden.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> Kennung des Containers. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID des Containers. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,15 +20,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Bildvergrößerung für die Flyout-Ansicht relativ zur Hauptansicht an. Muss eine Ganzzahl oder ein Gleitkommawert <span class="codeph"> 1,0</span> oder größer sein. </p> </td> 
+   <td colname="col2"> <p> Gibt die Bildvergrößerung für die Flyout-Ansicht relativ zur Hauptansicht an. Muss eine Ganzzahl oder ein Gleitkommawert <span class="codeph"> 1,0 </span> oder größer sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> Es kann ein optionaler sekundärer Faktor angegeben werden, der durch Klicken oder Tippen auf die Hauptansicht aufgerufen werden kann, wenn die Hervorhebung aktiv ist. Durch Klicken oder Tippen auf ein zweites Mal wird der primäre Zoomfaktor wieder aktiviert. Der Wert <span class="codeph"> -1</span> deaktiviert den sekundären Zoomfaktor. </p> </td> 
+   <td colname="col2"> <p> Sie können einen optionalen sekundären Faktor angeben, auf den Sie zugreifen können, indem Sie auf die Hauptansicht klicken oder tippen, wenn die Hervorhebung aktiv ist. Durch Klicken oder Tippen auf ein zweites Mal wird zum primären Zoomfaktor zurückgesetzt. Bei einem Wert von <span class="codeph"> -1</span> wird der sekundäre Zoomfaktor deaktiviert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> upscale</span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wie die Komponente kleine Bilder verarbeitet. </p> <p>Wenn der Wert auf <span class="codeph"> 1</span> festgelegt ist, skaliert die Komponente das Hauptbild so, dass es in die Hauptansicht passt. Außerdem wird das Zoombild so skaliert, dass der konfigurierte Flyout-Fensterbereich vollständig gefüllt ist. </p> <p>Wenn der Wert auf <span class="codeph"> 0</span> gesetzt ist, werden kleine Bilder mit ihrer ursprünglichen Auflösung angezeigt und zentriert im Hauptansichtsbereich und im Flyout-Fenster. Sie können zusätzlichen Leerraum konfigurieren, der um das Bild herum mit einer Hintergrundeigenschaft oder einer ähnlichen CSS-Eigenschaft der CSS-Klassen <span class="codeph"> s7flyoutzoomview</span> und <span class="codeph"> s7flyoutzoom</span> im Hauptansicht- bzw. Flyout-Fenster angezeigt wird. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> gehoben</span></span> </p> </td> 
+   <td colname="col2"> <p>Gibt an, wie die Komponente kleine Bilder verarbeitet. </p> <p>Wenn auf <span class="codeph"> 1 festgelegt</span> skaliert die Komponente das Hauptbild so, dass es in die Hauptansicht passt. Außerdem wird das Zoom-Bild so hochskaliert, dass es den konfigurierten Flyout-Fensterbereich vollständig ausfüllt. </p> <p>Bei <span class="codeph"> 0</span> werden kleine Bilder mit ihrer ursprünglichen Auflösung angezeigt und zentriert im Hauptansichtsbereich und innerhalb des Flyout-Fensters angezeigt. Sie können zusätzlichen Leerraum konfigurieren, der um das Bild mit einer Hintergrund- oder ähnlichen CSS-Eigenschaft der <span class="codeph"> s7flyoutzoomview</span>- und <span class="codeph"> s7flyoutzoom</span>-CSS-Klassen im Hauptansichts- bzw. Flyout-Fenster angezeigt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

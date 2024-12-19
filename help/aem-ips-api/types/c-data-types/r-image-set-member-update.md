@@ -1,11 +1,11 @@
 ---
-description: Innerhalb dieses Typs ist das Feld pageReset für die Asset-Typen RenderSet und Catalog-Bild von Bedeutung
+description: Innerhalb dieses Typs ist das Feld „pageReset“ für die Asset-Typen „renderSet“ und „Catalog image“ aussagekräftig
 solution: Experience Manager
 title: ImageSetMemberUpdate
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
-Innerhalb dieses Typs ist das Feld pageReset für die Asset-Typen RenderSet und Catalog-Bild von Bedeutung:
+Innerhalb dieses Typs ist das Feld „pageReset“ für die Asset-Typen „renderSet“ und „Catalog image“ aussagekräftig:
 
-* Für `RenderSet` zeigt `pageReset` den Beginn einer neuen Render-Ansicht/Mustergruppe an.
+* `pageReset` gibt `RenderSet` den Beginn einer neuen Render-Ansicht/Farbfeldgruppe an.
 
-* Für Katalog zeigt `pageReset` den Beginn einer neuen Seitenansicht an. In der Regel gibt es zwei Seitenbilder pro Seitenansicht, aber Sie können mehr oder weniger haben.
+* Für den Katalog gibt `pageReset` den Beginn einer neuen Seitenansicht an. In der Regel gibt es zwei Seitenbilder pro Seitenansicht, es können aber auch mehr oder weniger vorhanden sein.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,14 +32,14 @@ Innerhalb dieses Typs ist das Feld pageReset für die Asset-Typen RenderSet und 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> AssetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Asset-Handle im Bildset-Member-Array. </td> 
+   <td colname="col3"> Asset-Handler im Bildset-Member-Array. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Setzt die Seite zurück. <p>Die Einstellung wird ignoriert und der Wert für <span class="codeph"> ImageSet</span> und <span class="codeph"> SpinSet</span> wird auf "true"gesetzt. </p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3">Setzt die Seite zurück <p>Die Einstellung wird ignoriert, und der Wert wird für <span class="codeph"> ImageSet</span> und <span class="codeph"> SpinSet</span> auf „true“ erzwungen. </p></td> 
   </tr> 
  </tbody> 
 </table>

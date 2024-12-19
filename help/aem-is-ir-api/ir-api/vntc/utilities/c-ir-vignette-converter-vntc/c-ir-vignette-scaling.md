@@ -16,25 +16,25 @@ ht-degree: 0%
 
 Es werden vier allgemeine Arten von Produktionsvignetten unterstützt.
 
-* Einzelauflösung
+* einfach aufgelöst
 
-  Wird nur empfohlen, wenn sicher ist, dass nur eine einzelne Renderbildgröße erforderlich ist.
-* Mehrfachauflösung
+  Wird nur empfohlen, wenn sichergestellt ist, dass nur eine einzige Render-Bildgröße erforderlich ist.
+* Multiauflösung
 
-  Wird empfohlen, wenn alle gewünschten Renderbildgrößen bekannt sind. Bietet eine bessere Qualität und schnelleres Rendering als Einzelauflösung und Pyramidenvignetten, da das Bild nach dem Rendering nicht skaliert werden muss.
-* Pyramid
+  Wird empfohlen, wenn alle gewünschten Render-Bildgrößen bekannt sind. Bietet eine bessere Qualität und schnelleres Rendering als Einzelauflösungs- und Pyramidenvignetten, da das Bild nach dem Rendering nicht skaliert werden muss.
+* Pyramide
 
-  Am besten geeignet, wenn mehrere Bildgrößen erforderlich sind, die genauen Größen nicht vorab bestimmt werden und der Dynamic Media-Zoom-Viewer verwendet wird.
-* Pyramid mit einer oder mehreren zusätzlichen Auflösungen
+  Am besten geeignet. Dies wird empfohlen, wenn mehrere Bildgrößen erforderlich sind und die genauen Größen nicht vorab festgelegt sind und wenn der Dynamic Media Zoom-Viewer verwendet wird.
+* Pyramide mit einer oder mehreren zusätzlichen Auflösungen
 
-  Bietet hohe Qualität für bestimmte Größen und bietet gleichzeitig Flexibilität und Zoom-Viewer-Unterstützung.
+  Bietet hohe Qualität für bestimmte Größen und bietet dennoch Flexibilität und Zoom-Viewer-Unterstützung.
 
-Jede Auflösung wird tatsächlich in der Produktionsvignette als unabhängige Ansicht mit eigener Bildbreite und -höhe gespeichert.
+Effektiv wird jede Auflösung in der Produktionsvignette als unabhängige Ansicht mit eigener Bildbreite und -höhe gespeichert.
 
-Die Ansichtsgröße einer Vignette mit einer Auflösung wird entweder mit `-width` oder mit `-height` oder beidem angegeben. Wenn beide Werte angegeben sind, wird die Vignette so skaliert, dass keine Dimension größer als die angegebene Größe ist. Wenn keiner der Werte angegeben ist, hat die Ausgabemignette dieselbe Größe wie die Eingabevignette. Es wird keine Upskalierung vorgenommen. Wenn die angegebene Größe die Größe der Vignette der Eingabe übersteigt, hat die Vignette die gleiche Größe wie die Vignette.
+Die Ansichtsgröße einer Vignette mit einfacher Auflösung wird mit entweder `-width` oder `-height` oder beiden angegeben. Wenn beide Werte angegeben sind, wird die Vignette so skaliert, dass keine der Dimensionen größer als die angegebene Größe ist. Wenn keiner der Werte angegeben ist, hat die Ausgabe-Vignette dieselbe Größe wie die Eingabe-Vignette. Es wird kein Hochskalieren angewendet. Wenn die angegebene Größe größer ist als die Größe der Eingabevignette, hat die Ausgabevignette dieselbe Größe wie die Eingabevignette.
 
-Die gleichen Regeln gelten für Vignetten mit mehreren Auflösungen, wobei die erste Auflösungsebene wie eine Vignette mit nur einer Auflösung skaliert wird. Die zusätzlichen Auflösungen werden mit zusätzlichen kommagetrennten Werten für entweder `-width` oder `-height` angegeben. Werte müssen nicht sortiert werden. Wenn `-width` mehrere Werte angibt, darf `-height` nur einen einzigen Wert bereitstellen, und umgekehrt, andernfalls wird ein Fehler zurückgegeben.
+Effektiv gelten dieselben Regeln für Vignetten mit mehreren Auflösungen, wobei die erste Auflösungsebene genau wie eine Vignette mit einer einzigen Auflösung dimensioniert ist. Die zusätzlichen Auflösungen werden mit zusätzlichen kommagetrennten Werten für `-width` oder `-height` angegeben. Die Werte müssen nicht sortiert werden. Wenn `-width` mehrere Werte angibt, dürfen `-height` nur einen einzigen Wert bereitstellen und umgekehrt. Andernfalls wird ein Fehler zurückgegeben.
 
-Eine Pyramidenvignette wird durch Angabe von `-pyramid` erstellt. Die größte Auflösungsebene einer solchen Vignette wird genau wie bei einer Vignette mit nur einer Auflösung bestimmt. Die zusätzlichen Auflösungsebenen werden automatisch bestimmt, indem jeder Level auf das 0,5-fache der vorherigen Ebene skaliert wird, wobei der kleinste Wert 128 x 128 Pixel nicht überschreiten darf.
+Eine Pyramidenvignette wird durch Angabe von `-pyramid` erstellt. Der größte Auflösungspegel einer solchen Vignette wird genau wie bei einer Vignette mit einfacher Auflösung bestimmt. Die zusätzlichen Auflösungsstufen werden automatisch bestimmt, indem jeder Pegel auf das 0,5fache des vorherigen Niveaus skaliert wird, wobei der kleinste Pegel 128x128 Pixel nicht überschreitet.
 
-Wie bei einer Vignette mit mehreren Auflösungen können für eine Pyramidenvignette zusätzliche Auflösungsstufen angegeben werden.
+Für eine Pyramidenvignette können zusätzliche Auflösungsstufen festgelegt werden, ebenso wie für eine Vignette mit mehreren Auflösungen.

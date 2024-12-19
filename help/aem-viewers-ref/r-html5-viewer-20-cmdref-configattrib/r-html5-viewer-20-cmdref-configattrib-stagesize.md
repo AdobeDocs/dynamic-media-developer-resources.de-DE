@@ -16,15 +16,15 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Dieses Attribut gilt für den Zoom-Viewer, Video-Viewer, Rotationsset-Viewer, interaktiven Bild-Viewer, interaktiven Video-Viewer und Karussell-Viewer.
+>Dieses Attribut gilt für den Zoom-Viewer, den Video-Viewer, den Drehungs-Viewer, den interaktiven Bild-Viewer, den interaktiven Video-Viewer und den Karussell-Viewer.
 
 `stageSize= *`width`*, *`height`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> width</span>,<span class="varname"> height</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Gesamtbreite und -höhe des Viewers. Der Wert <span class="codeph"> 0,0</span> bedeutet, dass die Größe des Viewers gemäß den CSS-Regeln und dem Layout der Web-Seite bestimmt wird. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Breite</span>,<span class="varname"> Höhe</span></span> </p> </td> 
+   <td colname="col2"> <p> Die Gesamtbreite und -höhe des Viewers. Der Wert <span class="codeph"> 0,0</span> bedeutet, dass die Größe des Viewers gemäß den CSS-Regeln und dem Web-Seiten-Layout bestimmt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

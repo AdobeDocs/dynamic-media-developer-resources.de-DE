@@ -1,11 +1,11 @@
 ---
-description: Lösung. Bildauflösung "Echtzeit", die normalerweise in Pixel pro Zoll ausgedrückt wird, aber auch in anderen Einheiten wie Pixeln pro Meter enthalten sein kann.
+description: Auflösung. Die „reale“ Bildauflösung wird in der Regel als Pixel pro Zoll ausgedrückt, kann aber auch in anderen Einheiten verwendet werden, z. B. Pixel pro Meter.
 solution: Experience Manager
 title: Auflösung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # Auflösung{#resolution}
 
-Lösung. Bildauflösung &quot;Echtzeit&quot;, die normalerweise in Pixel pro Zoll ausgedrückt wird, aber auch in anderen Einheiten wie Pixeln pro Meter enthalten sein kann.
+Auflösung. Die „reale“ Bildauflösung wird in der Regel als Pixel pro Zoll ausgedrückt, kann aber auch in anderen Einheiten verwendet werden, z. B. Pixel pro Meter.
 
 ## Eigenschaften {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-Real Zahl, größer als 0. Erforderlich für Textur- und Dekormaterialien, es sei denn, die Bildauflösung ist mit der des Attributs::Resolution identisch. Ignoriert durch feste Farbe und Möbel.
+Reelle Zahl, größer als 0. Erforderlich für Textur- und Abziehbildmaterialien, es sei denn, die Bildauflösung entspricht dem Attribut::Resolution. Wird von einfarbigen und Schrankmaterialien ignoriert.
 
 ## Standard {#section-b1d044e211194242a900aaef4a8c8e6f}
 
-`attribute::Resolution` wird verwendet, wenn das Feld nicht vorhanden ist, wenn der Wert 0 oder negativ ist oder wenn das Feld leer ist.
+`attribute::Resolution` wird verwendet, wenn das Feld nicht vorhanden ist, der Wert 0 oder negativ ist oder wenn das Feld leer ist.
 
 ## Verwandte Themen {#section-2d04df523d7345f6929178cbc637da78}
 

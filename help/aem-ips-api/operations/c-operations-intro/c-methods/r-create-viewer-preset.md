@@ -1,5 +1,5 @@
 ---
-description: Erstellt eine Vorgabenansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann einen beliebigen Typ aufweisen, der in IPS verfügbar ist. Die Vorgabenansicht wird angewendet, wenn die Assets veröffentlicht werden.
+description: Erstellt eine Vorgabenansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann von jedem in IPS verfügbaren Typ sein. Die Vorgabenansicht wird bei der Veröffentlichung der Assets angewendet.
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # createViewerPreset{#createviewerpreset}
 
-Erstellt eine Vorgabenansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann einen beliebigen Typ aufweisen, der in IPS verfügbar ist. Die Vorgabenansicht wird angewendet, wenn die Assets veröffentlicht werden.
+Erstellt eine Vorgabenansicht, die bestimmt, was ein Benutzer sehen kann. Der Viewer kann von jedem in IPS verfügbaren Typ sein. Die Vorgabenansicht wird bei der Veröffentlichung der Assets angewendet.
 
 Syntax
 
@@ -31,21 +31,21 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, das die Viewer-Vorgaben und -Assets enthält. |
-| folderHandle | `xsd:string` | Ja | Der Handle des Ordners, der die Assets enthält. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, das die Viewer-Vorgaben und Assets enthält. |
+| folderHandle | `xsd:string` | Ja | Das Handle des Ordners, der die Assets enthält. |
 | name | `xsd:string` | Ja | Viewer-Name. |
 | Typ | `xsd:string` | Ja | Viewer-Typ. |
 | configSettingArray | `types:ConfigSettingArray` | Nein | Ein Array, das Namen, Werte und Handles von Bildern enthält, auf die Sie Vorgaben anwenden. |
 
-**Output (createViewerPresetReturn)**
+**Ausgabe (createViewerPresetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| viewerPresetHandle | `xsd:string` | Ja | Handhabung der Vorgabe an den Viewer. |
+| viewerPresetHandle | `xsd:string` | Ja | Verarbeiten Sie die Vorgabe mit dem Viewer. |
 
 ## Beispiele {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-In diesem Codebeispiel wird eine Videoplayer-Vorgabe erstellt. Die Antwort gibt einen Handle an die Vorgabe zurück.
+Dieses Codebeispiel erstellt eine Video-Player-Vorgabe. Die Antwort gibt ein Handle für die Voreinstellung zurück.
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

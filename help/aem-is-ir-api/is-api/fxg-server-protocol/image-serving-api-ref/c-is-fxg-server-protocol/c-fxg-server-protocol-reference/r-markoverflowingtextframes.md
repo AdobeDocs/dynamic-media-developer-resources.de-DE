@@ -1,7 +1,7 @@
 ---
-description: Übersatztextrahmen mit Pluszeichen anzeigen. Ein Überlaufanzeiger für Text wird angezeigt, wenn der Text den in einem Textrahmen (oder im letzten Textrahmen im Fall von Text mit Gewinde) zugewiesenen Platz überschreitet. Der Indikator ist ein rotes Feld mit einem Pluszeichen.
+description: Überlagerte Textrahmen mit Pluszeichen anzeigen. Ein Indikator für einen Textüberlauf wird angezeigt, wenn Text den für ihn in einem Textrahmen zugewiesenen Platz überschreitet (oder im letzten Textrahmen bei Text mit Gewinde). Der Indikator ist ein rotes Feld mit einem Pluszeichen darin.
 solution: Experience Manager
-title: markOverloadingTextFrames
+title: markOverflowingTextFrames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# markOverloadingTextFrames{#markoverflowingtextframes}
+# markOverflowingTextFrames{#markoverflowingtextframes}
 
-Übersatztextrahmen mit Pluszeichen anzeigen. Ein Überlaufanzeiger für Text wird angezeigt, wenn der Text den in einem Textrahmen (oder im letzten Textrahmen im Fall von Text mit Gewinde) zugewiesenen Platz überschreitet. Der Indikator ist ein rotes Feld mit einem Pluszeichen.
+Überlagerte Textrahmen mit Pluszeichen anzeigen. Ein Indikator für einen Textüberlauf wird angezeigt, wenn Text den für ihn in einem Textrahmen zugewiesenen Platz überschreitet (oder im letzten Textrahmen bei Text mit Gewinde). Der Indikator ist ein rotes Feld mit einem Pluszeichen darin.
 
 <table id="simpletable_F17FD29EB52043BF9000923ED5195A26"> 
  <tr class="strow"> 
@@ -23,6 +23,6 @@ ht-degree: 2%
  </tr> 
 </table>
 
-Wenn der Modifikator `markOverflowingTextFrames=1` über einen URL-Aufruf festgelegt wird, werden alle Textrahmen markiert, in denen Text durch ein Pluszeichen überschrieben wird. Außerdem ist die Textübersatzanzeige in der Dynamic Media Classic-Vorschau standardmäßig auf &quot;`TRUE`&quot; eingestellt.
+Wenn Sie den Modifikator `markOverflowingTextFrames=1` über einen URL-Aufruf festlegen, werden alle Textrahmen markiert, bei denen Text mit einem Pluszeichen überschrieben wird. In der Dynamic Media Classic-Vorschau ist die Textübersatzanzeige außerdem standardmäßig auf &quot;`TRUE`&quot; eingestellt.
 
 Die Standardgrenze ist 0.

@@ -1,7 +1,7 @@
 ---
-description: Ein optionaler Typ, mit dem Sie einen bestimmten Videobild als Miniaturbild auswählen können.
+description: Ein optionaler Typ, mit dem Sie einen bestimmten Videoframe auswählen können, der als Miniaturbild verwendet werden soll.
 solution: Experience Manager
-title: ThumbnailOptions
+title: Optionen für Miniaturansichten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # [!DNL ThumbnailOptions]{#thumbnailoptions}
 
-Ein optionaler Typ, mit dem Sie einen bestimmten Videobild als Miniaturbild auswählen können.
+Ein optionaler Typ, mit dem Sie einen bestimmten Videoframe auswählen können, der als Miniaturbild verwendet werden soll.
 
 Syntax
 
@@ -32,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Legt die Zeit (in Millisekunden ab Videostart) für den Frame fest, den Sie für die Videominiatur verwenden möchten. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Das System verwendet den ersten Frame des Videos für die Miniaturansicht, wenn Sie die Zeit falsch angeben. Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>Legt die Zeit (in Millisekunden ab Videostart) für den Frame fest, den Sie für die Videominiatur verwenden möchten. Die Werte reichen von 0 bis zum Ende des Videos. <p>Hinweis: Wenn Sie die Zeit falsch angeben, verwendet das System das erste Einzelbild des Videos für die Miniaturansicht. Siehe <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

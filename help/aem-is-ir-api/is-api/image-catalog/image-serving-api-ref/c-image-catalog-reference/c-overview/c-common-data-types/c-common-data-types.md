@@ -18,8 +18,8 @@ Katalogattribute und -felder können Daten eines der folgenden Typen enthalten.
 
 * [Farbe](r-is-cat-color.md)
 * [Markierung](r-flag.md)
-* [Enum](r-enum.md)
-* [Ganzzahl](r-integer-number.md)
-* [Real number](r-real-number.md)
+* [Aufzählung](r-enum.md)
+* [Ganze Zahl](r-integer-number.md)
+* [Reelle Zahl](r-real-number.md)
 * [Textzeichenfolge](r-text-string.md)
-* [Eigenschaftendaten](r-property-data.md)
+* [Eigenschaftsdaten](r-property-data.md)

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 10%
@@ -42,7 +42,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Handle für das Unternehmen mit Ordnern mit Berechtigungen, die Sie entfernen möchten. </td> 
+   <td colname="col4"> Der Handle an das Unternehmen mit Ordnern mit Berechtigungen, die Sie entfernen möchten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
@@ -52,12 +52,12 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Wenn <span class="codeph"> true</span>: 
+   <td colname="col4"> <p>Wenn <span class="codeph"> wahr</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">Die Entfernung von Berechtigungen wird durch alle Vorgänge zur Ordnerberechtigungen übernommen. </li> 
-     </ul> </p> <p>Wenn <span class="codeph"> false</span>: 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">Die Entfernung von Berechtigungen erfolgt über alle Vorgänge für Ordnerberechtigungen. </li> 
+     </ul> </p> <p>Wenn „false<span class="codeph">: </span> 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">Der Vorgang betrifft nur den angegebenen Ordner. </li> 
      </ul> </p> </td> 
@@ -65,13 +65,13 @@ Syntax
  </tbody> 
 </table>
 
-**Output (removeFolderPermissionsReturn)**
+**Ausgabe (removeFolderPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-In diesem Codebeispiel werden Berechtigungen aus einem Ordner und seinen Unterordnern entfernt. Setzen Sie `updateChildren` auf `false` , um nur Berechtigungen aus dem übergeordneten Ordner zu entfernen.
+Dieses Codebeispiel entfernt Berechtigungen aus einem Ordner und dessen Unterordnern. Legen Sie `updateChildren` auf `false` fest, um nur Berechtigungen aus dem übergeordneten Ordner zu entfernen.
 
 **Anfrage**
 

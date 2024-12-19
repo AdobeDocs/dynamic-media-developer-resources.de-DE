@@ -1,5 +1,5 @@
 ---
-description: Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam .
+description: Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam.
 solution: Experience Manager
 title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # [!DNL PropertySetType]{#propertysettype}
 
-Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam .
+Gültige Werte für die Felder PropertySetType und createPropertySetTypeParam.
 
 Zu den Werten gehören:
 
@@ -36,17 +36,17 @@ Zu den Werten gehören:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Geben Sie handle ein. </td> 
+   <td colname="col3"> Geben Sie den Ziehgriff ein. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Handle des Unternehmens. <p>Hinweis: Der Typ ist global, wenn das Handle des Unternehmens nicht vorhanden ist. </p></td> 
+   <td colname="col3">Firmengriff. <p>Hinweis: Der Typ ist global, wenn das Firmen-Handle nicht vorhanden ist. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Geben Sie den Namen ein. </td> 
+   <td colname="col3"> Name eingeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
@@ -55,8 +55,8 @@ Zu den Werten gehören:
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Gibt an, ob mehrere Instanzen von Eigenschaftssätzen an ein Objekt für diesen Typ angehängt werden sollen. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3"> Gibt an, ob mehrere Eigenschaftensatzinstanzen an ein Objekt für diesen Typ angehängt werden können. </td> 
   </tr> 
  </tbody> 
 </table>

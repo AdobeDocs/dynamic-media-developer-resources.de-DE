@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Gibt an, wie Muster in der Ansicht gefüllt werden. </p> <p> <span class="codeph"> left </span> legt die Füllreihenfolge von links nach rechts fest; </p> <p> <span class="codeph"> right </span> kehrt die Reihenfolge so um, dass die Ansicht von rechts nach links und von oben nach unten gefüllt wird. </p> <p>Wenn <span class="codeph"> auto </span> festgelegt ist, wendet die Komponente den Modus <span class="codeph"> right </span> an, wenn das Gebietsschema auf <span class="codeph"> ja </span> festgelegt ist. Andernfalls wird der linke Modus verwendet. </p> </td> 
+   <td> <p> Gibt an, wie Farbfelder die Ansicht füllen. </p> <p> <span class="codeph"> linke </span> legt die Füllreihenfolge von links nach rechts fest. </p> <p> <span class="codeph"> rechte </span> kehrt die Reihenfolge um, sodass die Ansicht von rechts nach links und von oben nach unten ausgefüllt wird. </p> <p>Wenn <span class="codeph"> automatische </span> festgelegt ist, wird die Komponente <span class="codeph"> Modus "</span> rechts“ angewendet, wenn das Gebietsschema auf <span class="codeph"> JA-</span> festgelegt ist. Andernfalls wird „Links“ verwendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

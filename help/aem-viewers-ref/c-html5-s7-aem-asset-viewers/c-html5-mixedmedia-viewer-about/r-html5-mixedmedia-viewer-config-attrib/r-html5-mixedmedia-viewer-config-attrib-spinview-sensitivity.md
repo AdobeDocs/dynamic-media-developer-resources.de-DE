@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 68df87db-b3c7-4a42-9ab6-742d96261ecd
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Steuert die Empfindlichkeit der horizontalen und vertikalen Rotation, die durch Ziehen oder Wischen mit der Maus durchgeführt wird. </p> <p> <span class="codeph"> xSensitivity</span> legt fest, wie viele horizontale Produktdrehungen durchgeführt werden, wenn der Benutzer die Maus horizontal von einer Seite der Ansicht zur anderen bewegt. Beispielsweise bedeutet drei, dass der Benutzer drei vollständige Rotations für eine volle Ziehen-Geste sieht. </p> <p>Genauso steuert <span class="codeph"> ySensitivity</span> die Empfindlichkeit der vertikalen Rotation. Der Wert 1 bedeutet, dass der Blickwinkel von der obersten Rotationsebene in die untere (oder umgekehrt) Ebene geändert wird. </p> <p>Wenn Sie einen negativen Wert für <span class="codeph"> ySensitivity</span> festlegen, wird die Richtung der vertikalen Rotation umgekehrt. </p> </td> 
+   <td colname="col2"> <p> Steuert die Empfindlichkeit der horizontalen und vertikalen Rotation, die mit einem Mausziehen oder Wischen durchgeführt wird. </p> <p> <span class="codeph"> xSensitivity</span> Legt fest, wie viele vollständige horizontale Produktrotationen vorgenommen werden, wenn Benutzende ihre Maus horizontal von einer Seite der Ansicht zur anderen ziehen. Beispielsweise bedeutet drei, dass der/die Benutzende drei vollständige Rotationen für eine vollständige Drag-Geste sieht. </p> <p>Ebenso steuert <span class="codeph"> ySensitivity</span> die Empfindlichkeit des vertikalen Spins. Der Wert 1 bedeutet, dass durch Ziehen oder Wischen der Ansichtswinkel von der obersten Ebene der Drallebene zur untersten Ebene (oder umgekehrt) geändert wird. </p> <p>Durch Festlegen eines negativen Werts für <span class="codeph"> ySensitivity</span> wird die Richtung des vertikalen Drehs umgekehrt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

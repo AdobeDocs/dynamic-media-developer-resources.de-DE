@@ -1,5 +1,5 @@
 ---
-description: Fügt Benutzer aus einem bestimmten Unternehmen zu einer bestimmten Gruppe hinzu.
+description: Fügt Benutzer aus einer bestimmten Firma zu einer bestimmten Gruppe hinzu.
 solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # addGroupMembers{#addgroupmembers}
 
-Fügt Benutzer aus einem bestimmten Unternehmen zu einer bestimmten Gruppe hinzu.
+Fügt Benutzer aus einer bestimmten Firma zu einer bestimmten Gruppe hinzu.
 
 Syntax
 
@@ -26,21 +26,21 @@ Syntax
 
 ## Parameter {#section-b28434dcf2ca4b4ea431136aac33913e}
 
-**Input (addGroupMembersParam)**
+**Eingabe (addGroupMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| groupHandle | `xsd:string` | Ja | Der Gruppengriff. |
-| userHandleArray | `types:HandleArray` | Ja | Ein Array von Handles für Benutzer, die Sie einer Gruppe hinzufügen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen. |
+| groupHandle | `xsd:string` | Ja | Der Gruppen-Handle. |
+| userHandleArray | `types:HandleArray` | Ja | Ein Array von Handles für Benutzende, die Sie zu einer Gruppe hinzufügen möchten. |
 
-**Output (addGroupMembersParam)**
+**Ausgabe (addGroupMembersParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-In diesem Beispiel wird addGroupMembersParam verwendet, um einem einzelnen Unternehmen einen Benutzer hinzuzufügen. Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
+In diesem Beispiel wird addGroupMembersParam verwendet, um einer einzelnen Firma einen Benutzer hinzuzufügen. Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 **Anfrage**
 

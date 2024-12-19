@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Parameter, die allen Viewern gemeinsam sind.
+description: Für alle Viewer gemeinsamer Parameter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # videoServerUrl{#videoserverurl}
 
-Parameter, die allen Viewern gemeinsam sind.
+Für alle Viewer gemeinsamer Parameter.
 
 >[!NOTE]
 >
->Dieser Befehl gilt nicht für den Video-Bild-Viewer.
+>Dieser Befehl gilt nicht für den Videobild-Viewer.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -26,14 +26,14 @@ Parameter, die allen Viewern gemeinsam sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Der Stammpfad des Videoservers. Wenn keine Domäne angegeben ist, wird stattdessen die Domäne angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
+   <td colname="col2"> <p> Den Stammverzeichnis des Videoservers. Wenn keine Domain angegeben ist, wird stattdessen die Domain angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Optional. Nicht erforderlich für Standardsoftware als Service-Nutzung.
+Optional. Wird für die Verwendung von Standardsoftware als Service nicht benötigt.
 
 ## Standard {#section-d411e450028c460392cb8508f8ccc5d9}
 

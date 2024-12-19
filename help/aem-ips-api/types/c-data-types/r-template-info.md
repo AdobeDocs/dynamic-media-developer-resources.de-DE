@@ -5,7 +5,7 @@ title: TemplateInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 90d7f116-936d-4e04-b54f-ec9ba37d5477
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 13%
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Die Eigenschaften eines Vorlagen-Assets.
 
-Vorlagen sind parametrisierte Ebenendefinitionen, die ein mehrschichtiges Bild erzeugen.
+Vorlagen sind parametrisierte Ebenendefinitionen, die ein mehrschichtiges Bild erstellen.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

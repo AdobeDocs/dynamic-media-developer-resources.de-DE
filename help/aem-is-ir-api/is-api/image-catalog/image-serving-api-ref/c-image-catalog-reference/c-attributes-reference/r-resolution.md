@@ -1,5 +1,5 @@
 ---
-description: Standardmäßige Objektauflösung. Stellt eine standardmäßige Objektauflösung bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Katalogauflösungswert enthält.
+description: Standard-Objektauflösung. Bietet eine standardmäßige Objektauflösung für den Fall, dass ein bestimmter Katalogdatensatz keinen gültigen Katalogauflösungswert enthält.
 solution: Experience Manager
 title: Auflösung
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 6%
 
 # Auflösung{#resolution}
 
-Standardmäßige Objektauflösung. Stellt eine standardmäßige Objektauflösung bereit, falls ein bestimmter Katalogdatensatz keinen gültigen Katalogwert enthält::Resolution .
+Standard-Objektauflösung. Bietet eine standardmäßige Objektauflösung für den Fall, dass ein bestimmter Katalogdatensatz keinen gültigen Wert für catalog:resolution enthält.
 
 ## Eigenschaften {#section-1f65ea81c3324781af17d0321facbd19}
 
-Real Zahl, größer als 0. In der Regel als Pixel pro Zoll angegeben, kann aber auch in anderen Einheiten, z. B. Pixel pro Meter, verwendet werden.
+Reelle Zahl, größer als 0. Wird normalerweise als Pixel pro Zoll ausgedrückt, kann aber auch in anderen Einheiten angegeben werden, z. B. Pixel pro Meter.
 
 ## Standard {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-Wird von `default::Resolution` übernommen, wenn nicht definiert oder leer.
+Von `default::Resolution` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-dffa1f318fd84833b74d08d09c24c974}
 
-[catalog::Resolution](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1)
+[catalog:Resolution](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1)

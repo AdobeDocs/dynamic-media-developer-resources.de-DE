@@ -20,9 +20,9 @@ Name des Befehlsmakros.
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Name</span></span> </p> </td> 
   <td class="stentry"> <p>Makroname. </p></td> 
  </tr> 
 </table>
 
-Beim Befehl *`name`* wird nicht zwischen Groß- und Kleinschreibung unterschieden. Er kann aus einer beliebigen Kombination von Buchstaben, Zahlen, `-` (Bindestrich), `_` (Unterstrich) und `.` (Punkt) bestehen.
+Bei der *`name`* wird nicht zwischen Groß- und Kleinschreibung unterschieden. Sie kann aus einer beliebigen Kombination von Buchstaben, Zahlen, `-` (Bindestrich), `_` (Unterstrich) und `.` (Punkt) bestehen.

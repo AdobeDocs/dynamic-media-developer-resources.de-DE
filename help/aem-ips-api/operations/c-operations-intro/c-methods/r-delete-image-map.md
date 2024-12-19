@@ -33,20 +33,20 @@ Syntax
 
 ## Parameter {#section-28de12bab79045a5977c68855e37ae3d}
 
-**Input (deleteImageMapParam)**
+**Eingabe (deleteImageMapParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das die zu löschende Imagemap enthält. |
-| imageMapHandle | `xsd:string` | Ja | Das Handle der zu löschenden Imagemap. |
+| imageMapHandle | `xsd:string` | Ja | Der Handle zur zu löschenden Imagemap. |
 
-**Output (deleteImageMapParam)**
+**Ausgabe (deleteImageMapParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Mit diesem Codebeispiel wird eine Imagemap aus einem Unternehmen gelöscht. Sie müssen den Imagemap-Handle von einem anderen Vorgang abrufen.
+Dieses Codebeispiel löscht eine Imagemap aus einer Firma. Sie müssen das Imagemap-Handle von einem anderen Vorgang abrufen.
 
 **Anfrage**
 

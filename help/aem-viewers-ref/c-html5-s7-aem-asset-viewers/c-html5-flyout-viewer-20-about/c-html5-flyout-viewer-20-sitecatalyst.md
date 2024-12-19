@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Der Flyout-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
 
-## Vordefiniertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Vorkonfiguriertes Tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Der Flyout-Viewer unterstützt standardmäßig das [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
+Der Flyout-Viewer unterstützt standardmäßig [!DNL Adobe Analytics]-Tracking. Um das Tracking zu aktivieren, übergeben Sie den richtigen Namen der Unternehmensvorgabe als `config2`.
 
-Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
+Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anfrage mit den Viewer-Typ- und Versionsinformationen an den konfigurierten Bild-Server.
 
-## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
+## Benutzerdefiniertes Tracking {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, den `trackEvent` Viewer-Rückruf zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, auf den `trackEvent` Viewer-Callback zu lauschen und das `eventInfo` Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var flyoutViewer = new s7viewers.FlyoutViewer({ 
@@ -54,29 +54,29 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet, wenn ... </p> </th> 
+   <th colname="col2" class="entry"> <p>Wird gesendet, wenn… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>der Viewer zuerst geladen wird. </p> </td> 
+   <td colname="col2"> <p>Der Viewer wird zuerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mit der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mit der API <span class="codeph">setAsset() </span> getauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p>der Flyout aktiviert oder der Zoomfaktor geändert wird. </p> </td> 
+   <td colname="col2"> <p>Das Flyout wird aktiviert oder der Zoom-Faktor wird geändert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p> ein Bild eingeplant ist. </p> </td> 
+   <td colname="col2"> <p> Ein Bild ist in Planung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> ein Bild geändert wird, indem Sie auf ein Muster klicken oder tippen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FARB-</span> </p> </td> 
+   <td colname="col2"> <p> Ein Bild wird durch Klicken oder Tippen auf ein Farbfeld geändert. </p> </td> 
   </tr> 
  </tbody> 
 </table>

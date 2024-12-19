@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Setzt den Viewport zurück, wenn sich der Frame (Bild) ändert. Wenn der Wert auf <span class="varname"> 0</span> festgelegt ist, wird der aktuelle Ansichtsport mit der bestmöglichen Anpassung beibehalten, wobei das Seitenverhältnis des neu festgelegten Bildes beibehalten wird. </p> </td> 
+   <td colname="col2"> <p> Setzt den Ansichtsport zurück, wenn sich der Rahmen (Bild) ändert. Wird hierfür <span class="varname"> 0</span> festgelegt, wird der aktuelle Ansichtsport mit der bestmöglichen Anpassung beibehalten, während das Seitenverhältnis des neu eingestellten Bildes beibehalten wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

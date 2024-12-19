@@ -1,35 +1,35 @@
 ---
-description: Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
+description: Alle Viewer-Komponenten unterstützen ARIA-Rollen und -Attribute (Accessible Rich Internet Applications), um die Integration mit Hilfstechnologien wie der Sprachausgabe zu verbessern.
 solution: Experience Manager
-title: Unterstützung bei der Technologie
+title: Unterstützung der Hilfstechnologien
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search,Accessibility
 role: Developer,User
 exl-id: fbfc9415-6ab8-466c-9a1f-d33565eff2a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
-# Unterstützung bei der Technologie{#assistive-technology-support}
+# Unterstützung der Hilfstechnologien{#assistive-technology-support}
 
-Alle Viewer-Komponenten unterstützen ARIA (Accessible Rich Internet Applications)-Rollen und -Attribute, um die Integration mit Hilfstechnologien wie Bildschirmlesehilfen zu verbessern.
+Alle Viewer-Komponenten unterstützen ARIA-Rollen und -Attribute (Accessible Rich Internet Applications), um die Integration mit Hilfstechnologien wie der Sprachausgabe zu verbessern.
 
-Das Viewer-Element der obersten Ebene hat die Rolle `region` und das Attribut `aria-label`, die standardmäßig auf den Namen des Viewers festgelegt sind. Sie können die Bezeichnung mit dem Lokalisierungssymbol `Container.LABEL` steuern.
+Für das Viewer-Element der obersten Ebene sind Rolle `region` und `aria-label` Attribut standardmäßig auf den Namen des Viewers festgelegt. Sie können die Beschriftung mit dem `Container.LABEL` Lokalisierungssymbol steuern.
 
-Schaltflächen haben die Rolle &quot;`button`&quot; und beschreibender Text wird mit dem Attribut &quot;`aria-label`&quot; festgelegt. Der Wert des Attributs `aria-label` wird aus dem Wert des Lokalisierungssymbols der Schaltfläche abgeleitet. Wenn eine Schaltfläche deaktiviert ist, wird das Attribut `aria-disabled` entsprechend eingestellt.
+Für Schaltflächen sind die `button` und der beschreibende Text mit dem Attribut `aria-label` festgelegt. Der Wert `aria-label` Attributs wird aus dem Wert des Lokalisierungssymbols der Schaltfläche gefüllt. Wenn eine Schaltfläche deaktiviert ist, wird das `aria-disabled` entsprechend festgelegt.
 
-Die Hauptansicht hat die Rolle &quot;`application`&quot;. Eine kurze Beschreibung der Hauptansicht wird in `aria-roledescription` bereitgestellt, wobei der Wert durch das Lokalisierungssymbol `ROLE_DESCRIPTION` der entsprechenden Hauptansichtskomponente definiert wird. Navigationshinweise für Tastaturbenutzer werden mit `aria-describedby` bereitgestellt, der Text für den Nutzungshinweis stammt aus dem Lokalisierungssymbol `USAGE_HINT`. Wenn für ein Asset eine Beschriftung im Feld UserData definiert ist, wird das Attribut `aria-label` mit dem Wert dieser Beschriftung festgelegt.
+Die Hauptansicht hat `application`. Eine kurze Beschreibung der Hauptansicht finden Sie in `aria-roledescription` mit dem Wert, der durch das `ROLE_DESCRIPTION` Lokalisierungssymbol der entsprechenden Hauptansichtskomponente definiert wird. Navigationshinweise für Tastaturbenutzer werden mithilfe von `aria-describedby` bereitgestellt. Der Text für den Verwendungshinweis stammt vom `USAGE_HINT` Lokalisierungssymbol. Wenn für ein Asset im Feld UserData eine Beschriftung definiert ist, wird das `aria-label` mit dem Wert dieser Beschriftung festgelegt.
 
-Hotspots, Regionen und Imagemaps haben die Rolle &quot;`button`&quot;und beschreibenden Text mit dem Attribut &quot;`aria-label`&quot;, wobei der Wert der Hotspot- oder Imagemap-Beschriftung angegeben ist. Wenn der Benutzer den Fokus auf Hotspots oder Imagemaps legt, werden Navigationshinweise für Tastaturbenutzer mit `aria-describedby` bereitgestellt, wobei der Text für den Nutzungshinweis aus dem Lokalisierungssymbol `USAGE_HINT` stammt.
+Für Hotspots, Regionen und Imagemaps sind die Rolle &quot;`button`&quot; und ein beschreibender Text mit `aria-label` Attribut festgelegt, wobei der Wert der Hotspot- oder Imagemap-Beschriftung ist. Wenn der Fokus auf Hotspots oder Imagemaps gelegt wird, werden Navigationshinweise für Tastaturbenutzer mithilfe von `aria-describedby` bereitgestellt, wobei der Text für den Verwendungshinweis vom `USAGE_HINT` Lokalisierungssymbol stammt.
 
-Miniaturansichten haben die Rolle &quot;`dialog`&quot;, wobei das Attribut &quot;`aria-label`&quot; durch das Lokalisierungssymbol &quot;`ThumbnailGridView.LABEL`&quot; gesteuert wird. Einzelne Miniaturansichten haben die Rolle &quot;`button`&quot;. Wenn eine Miniaturansicht ausgewählt ist, wird das Attribut `aria-selected` auf `true` gesetzt.
+Miniaturen haben die Rolle `dialog` mit `aria-label` Attribut , das durch das `ThumbnailGridView.LABEL` Lokalisierungssymbol gesteuert wird. Einzelne Miniaturen haben die Rolle `button`. Wenn Sie eine Miniaturansicht auswählen, wird `aria-selected` Attribut auf `true` gesetzt.
 
-Komponenten, die Muster anzeigen, haben die Rolle &quot;`listbox`&quot;, wobei das Attribut &quot;`aria-label`&quot; auf den Wert des Lokalisierungssymbols `LABEL` dieser Komponente gesetzt ist. Einzelne Muster haben die Rolle `option` mit den Attributen `aria-setsize` und `aria-posinset` , um die Musterposition im Satz zu beschreiben. Wenn ein Muster ausgewählt ist, wird das `aria-selected` -Attribut auf `true` gesetzt.
+Komponenten, die Farbfelder anzeigen, haben die Rolle `listbox`, wobei `aria-label` Attribut auf den Wert des `LABEL` Lokalisierungssymbols dieser Komponente gesetzt ist. Einzelne Farb-/Bildmuster haben die Rolle `option` mit `aria-setsize`- und `aria-posinset`-Attributen, um die Farb-/Bildmuster-Position im Set zu beschreiben. Wenn ein Farbfeld ausgewählt ist, wird das `aria-selected` auf `true` gesetzt.
 
-Dropdown-Listen werden durch Schaltflächen aktiviert, wobei das zusätzliche Attribut `aria-haspopup` auf `true` und das Attribut `aria-controls` auf das tatsächliche Dropdown-Bedienfeldelement verweisen. Das Dropdown-Bedienfeld selbst hat die Rolle &quot;`menu`&quot;, wobei Unterelemente die Rolle &quot;`menuitem`&quot; haben. Für jedes Menüelement ist das Attribut `aria-label` angegeben.
+Dropdown-Listen werden durch Schaltflächen aktiviert, wobei das zusätzliche `aria-haspopup`-Attribut auf `true` und das `aria-controls`-Attribut auf das tatsächliche Dropdown-Bedienfeldelement verweist. Das Dropdown-Bedienfeld selbst hat die Rolle `menu` mit Unterelementen mit der Rolle `menuitem`. Für jedes Menüelement ist das `aria-label` Attribut angegeben.
 
-Die Suchbenutzeroberfläche ist im Element mit der Rolle &quot;`search`&quot; gruppiert. Das Eingabefeld für die Suche hat die Rolle &quot;`searchbox`&quot; und verweist auf die informative Bezeichnung, die durch das Lokalisierungssymbol `SearchPanel.INFO_PROMPT` mit dem Attribut `aria-describedby` gesteuert wird.
+Die Benutzeroberfläche für die Suche ist in dem Element mit der Rolle `search` gruppiert. Das Sucheingabefeld hat die Rolle `searchbox` und verweist auf die informative Beschriftung, die durch `SearchPanel.INFO_PROMPT` Lokalisierungssymbol mit `aria-describedby` Attribut gesteuert wird.
 
-Modale Dialogfelder haben die Rolle &quot;`dialog`&quot;. Das Kopfzeilenelement des Dialogfelds wird durch das Attribut `aria-labelledby` referenziert.
+Modale Dialogfelder haben die Rolle `dialog`. Das Kopfzeilenelement des Dialogfelds wird durch das Attribut `aria-labelledby` referenziert.

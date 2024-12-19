@@ -1,6 +1,6 @@
 ---
 title: Symboleffekt
-description: Der Rotationsindikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet, und sie hängt auch vom iconffekt -Parameter ab.
+description: Der Rotationsindikator wird im Hauptansichtsbereich überlagert. Er wird angezeigt, wenn sich das Bild im zurückgesetzten Zustand befindet, und er hängt auch vom IconEffect-Parameter ab.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Symboleffekt{#icon-effect}
 
-Der Rotationsindikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet, und sie hängt auch vom iconffekt -Parameter ab.
+Der Rotationsindikator wird im Hauptansichtsbereich überlagert. Er wird angezeigt, wenn sich das Bild im zurückgesetzten Zustand befindet, und er hängt auch vom IconEffect-Parameter ab.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7spinviewer .s7spinview .s7iconeffect
@@ -35,27 +35,27 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Grafiken für Rotationsindikatoren. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p> Rotations-Anzeige-Grafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite der Rotationsanzeige. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des Rotationsindikators. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Rotationsindikators. </p> </td> 
+   <td colname="col2"> <p>Drehindikatorhöhe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Rotationsindikator unterstützt die &quot;`state`&quot;-Attributauswahl, die bei einem eindimensionalen Rotationsset auf &quot;`spin_1D`&quot; und bei einem mehrdimensionalen Rotationsset auf &quot;`spin_2D`&quot; gesetzt ist.
+Der Rotationsindikator unterstützt die `state` Attributauswahl , die auf `spin_1D` festgelegt ist, wenn ein eindimensionales Rotationsset vorhanden ist, und auf `spin_2D`, wenn ein mehrdimensionales Rotationsset vorhanden ist.
 
-Beispiel: Zum Einrichten eines Zoom-Indikators mit einer Größe von 100 x 100 Pixel.
+Beispiel: So richten Sie eine Zoom-Anzeige mit 100 x 100 Pixeln ein.
 
 ```
 .s7spinviewer .s7spinview .s7iconeffect { 

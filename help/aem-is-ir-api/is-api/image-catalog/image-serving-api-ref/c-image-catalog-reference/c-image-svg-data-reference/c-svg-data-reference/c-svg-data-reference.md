@@ -19,4 +19,4 @@ In diesem Abschnitt werden die SVG-Datenattribute beschrieben.
 * [Ablauf](r-expiration-svg.md)
 * [Id](r-id-svg.md)
 * [Pfad](r-path-svg.md)
-* [TimeStamp](r-timestamp-svg.md)
+* [Zeitstempel](r-timestamp-svg.md)

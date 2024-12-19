@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| oldValue | `xsd:string` | Ursprünglicher Tag-Feldwert. |
+| oldValue | `xsd:string` | Wert des ursprünglichen Tag-Feldes. |
 | newValue | `xsd:string` | Neuer Tag-Feldwert. |

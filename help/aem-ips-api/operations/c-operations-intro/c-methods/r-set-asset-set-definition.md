@@ -1,11 +1,11 @@
 ---
-description: Aktualisiert die Set-Definition für ein vorhandenes Asset-Set.
+description: Aktualisiert die Satzdefinition für einen vorhandenen Asset-Satz.
 solution: Experience Manager
 title: setAssetSetDefinition
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Aktualisiert die Set-Definition für ein vorhandenes Asset-Set.
+Aktualisiert die Satzdefinition für einen vorhandenen Asset-Satz.
 
 Syntax
 
@@ -33,29 +33,29 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit dem Asset-Satz. |
-| assetHandle | `xsd:string` | Ja | Asset-Set-Handle |
-| setDefinition | `xsd:string` | Ja | Zeichenfolge definieren. Siehe unten. |
+| companyHandle | `xsd:string` | Ja | Das -Handle an die Firma mit dem Asset-Set. |
+| assetHandle | `xsd:string` | Ja | Asset-Handle |
+| setDefinition | `xsd:string` | Ja | Definitionszeichenfolge. Siehe unten. |
 
-**Output (setAssetSetDefinitionReturn)**
+**Ausgabe (setAssetSetDefinitionReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## setDefinition-Parameter: Info {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**setDefinition Functions**
+**setDefinition-Funktionen**
 
-Geben Sie die Ersetzungsfunktionen für `setDefinition` inline an. Diese werden bei der Katalogsuche oder bei der Veröffentlichung behoben. Ersatzzeichenfolgen haben das Format `${<substitution_func>}` und enthalten Folgendes:
+Geben Sie `setDefinition` Substitutionsfunktionen inline an. Diese werden bei einer Katalogsuche oder bei der Veröffentlichung aufgelöst. Ersatzzeichenfolgen haben das Format `${<substitution_func>}` und umfassen Folgendes:
 
 >[!NOTE]
 >
->Handle-Literale in den Parameterlisten müssen von Klammern `([])` umgeben sein. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabezeichenfolge kopiert.
+>Handler-Literale in den Parameterlisten müssen von Klammern `([])` umgeben sein. Der Text außerhalb einer Ersatzzeichenfolge wird während der Auflösung in die Ausgabezeichenfolge kopiert.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Substitutionsfunktion </th> 
-   <th colname="col2" class="entry"> Gibt den </th> 
+   <th colname="col2" class="entry"> Gibt den des Assets zurück. </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -64,7 +64,7 @@ Geben Sie die Ersetzungsfunktionen für `setDefinition` inline an. Diese werden 
    <td colname="col2"> Primärer Dateipfad. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalog([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogD([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Katalog-ID. </td> 
   </tr> 
   <tr> 
@@ -73,14 +73,14 @@ Geben Sie die Ersetzungsfunktionen für `setDefinition` inline an. Diese werden 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> Katalog-ID. Gilt für bildbasierte Assets (Bild, Angepasste Ansicht, Ebenenansicht). <p>Für andere Assets gibt die Katalog-ID des Miniaturanzeigers zurück (falls vorhanden). Wenn dem Asset kein Miniatur-Asset zugeordnet ist, gibt die Funktion eine leere Zeichenfolge zurück. </p> </td> 
+   <td colname="col2"> Katalog-ID. Gilt für bildbasierte Assets (Bild, angepasste Ansicht, Ebenenansicht). <p>Für andere Assets gibt die Katalog-ID des Miniatur-Assets zurück (falls vorhanden). Wenn dem Asset kein Miniatur-Asset zugeordnet ist, gibt die Funktion eine leere Zeichenfolge zurück. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **setDefinition-Beispiele**
 
-Diese Medienset-Definitionszeichenfolge:
+Diese Zeichenfolge für die Mediensatzdefinition:
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 
@@ -88,7 +88,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-Löst zum Such- oder Veröffentlichungszeitpunkt Folgendes auf:
+Wird bei der Suche oder Veröffentlichung wie folgt aufgelöst:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 

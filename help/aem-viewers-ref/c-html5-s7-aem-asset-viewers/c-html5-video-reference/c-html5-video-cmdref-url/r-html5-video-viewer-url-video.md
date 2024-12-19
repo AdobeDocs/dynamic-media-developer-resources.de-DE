@@ -1,6 +1,6 @@
 ---
 title: Video
-description: URL-Befehl für Video-Viewer.
+description: URL-Befehl für den Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # Video{#video}
 
-URL-Befehl für Video-Viewer.
+URL-Befehl für den Video-Viewer.
 
 ` video= *`videoURL`*`
 
@@ -29,7 +29,7 @@ URL-Befehl für Video-Viewer.
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Erforderlich. (Sofern nicht der Parameter `asset` verwendet wird. Siehe [Unterstützung für externe Videos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
+Erforderlich. (Außer `asset` Parameter wird verwendet. Siehe [Unterstützung externer Videos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 

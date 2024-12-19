@@ -1,7 +1,7 @@
 ---
 description: Wird von getUsersParam/sortBy verwendet.
 solution: Experience Manager
-title: Benutzersortierungsfelder
+title: Benutzerdefinierte Sortierfelder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 23d98e61-2873-41ed-8835-89b218cd89f3
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# Benutzersortierungsfelder{#user-sort-fields}
+# Benutzerdefinierte Sortierfelder{#user-sort-fields}
 
 Wird von getUsersParam/sortBy verwendet.
 

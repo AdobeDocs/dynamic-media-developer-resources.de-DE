@@ -1,5 +1,5 @@
 ---
-description: Ordnet ein Asset den PublishContexts zu, in denen ein Asset zur Veröffentlichung markiert ist.
+description: Ordnet den PublishContexts, in denen ein Asset zur Veröffentlichung markiert ist, ein Asset zu.
 solution: Experience Manager
 title: AssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-Ordnet ein Asset den PublishContexts zu, in denen ein Asset zur Veröffentlichung markiert ist.
+Ordnet den PublishContexts, in denen ein Asset zur Veröffentlichung markiert ist, ein Asset zu.
 
 Syntax
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| assetHandle | `xsd:string` | Umgang mit dem Asset. |
+| assetHandle | `xsd:string` | Verarbeiten Sie das Asset. |
 | publishContextArray | `types:PublishContextArray` | Ein Array von Veröffentlichungskontexten, in denen das Asset zur Veröffentlichung markiert ist. |

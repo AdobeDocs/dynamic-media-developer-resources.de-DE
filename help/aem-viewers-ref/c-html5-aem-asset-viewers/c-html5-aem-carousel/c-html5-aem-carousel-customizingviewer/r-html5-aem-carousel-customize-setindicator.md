@@ -1,6 +1,6 @@
 ---
-title: Anzeige einstellen
-description: Set Indicator ist eine Reihe von Punkten, die unten im Viewer gerendert werden. Sie zeigt die aktuelle Position innerhalb des Sets an.
+title: Indikator festlegen
+description: Ein Indikator für ein Set ist eine Reihe von Punkten, die am unteren Rand des Viewers gerendert werden. Zeigt die aktuelle Position innerhalb des Sets an.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Anzeige einstellen{#set-indicator}
+# Indikator festlegen{#set-indicator}
 
-Set Indicator ist eine Reihe von Punkten, die unten im Viewer gerendert werden. Sie zeigt die aktuelle Position innerhalb des Sets an.
+Ein Indikator für ein Set ist eine Reihe von Punkten, die am unteren Rand des Viewers gerendert werden. Zeigt die aktuelle Position innerhalb des Sets an.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des festgelegten Indikators**
 
-Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des set indicator-Containers wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7carouselviewer .s7setindicator
@@ -35,17 +35,17 @@ Das Erscheinungsbild des set-Indikator-Containers wird mit der folgenden CSS-Kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Hintergrundfarbe im hexadezimalen Format des Set-Indikators. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Die Hintergrundfarbe im Hexadezimalformat des eingestellten Indikators. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Der Festlegen-Indikator unterstützt die Modusattributauswahl, mit der Sie verschiedene Stile für gepunktete und numerische Vorgangsmodi anwenden können. Insbesondere entspricht `mode="numeric"` dem numerischen Betriebsmodus; `mode="dotted"` dem Standardpunktstatus.
+>Der Indikator „Set“ unterstützt die Modusattribut-Auswahl, mit der Sie verschiedene Stile für gepunktete und numerische Betriebsmodi anwenden können. Insbesondere entspricht `mode="numeric"` dem numerischen Betriebsmodus; `mode="dotted"` entspricht dem Standard-Punktzustand.
 
-Angenommen, Sie möchten einen Indikator mit weißem Hintergrund einrichten:
+Angenommen, Sie möchten einen Indikator mit einem weißen Hintergrund einrichten:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -53,7 +53,7 @@ Angenommen, Sie möchten einen Indikator mit weißem Hintergrund einrichten:
 }
 ```
 
-Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS-Klassenauswahl gesteuert. Sie gilt für Elemente sowohl im gepunkteten als auch im numerischen Betriebsmodus.
+Das Erscheinungsbild eines einzelnen Punkts für die Set-Anzeige wird mit dem CSS-Klassenselektor gesteuert. Dies gilt sowohl für Elemente im gepunkteten als auch für numerische Betriebsarten.
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
@@ -66,55 +66,55 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Breite des festgelegten Anzeigepunkts. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des eingestellten Indikatorpunkts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des festgelegten Anzeigepunkts. </p> </td> 
+   <td colname="col2"> <p>Höhe des eingestellten Indikatorpunkts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand links </span> </p> </td> 
    <td colname="col2"> <p>Linker Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Oberer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand rechts </span> </p> </td> 
    <td colname="col2"> <p>Rechter Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand unten </span> </p> </td> 
    <td colname="col2"> <p>Unterer Rand in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Rahmenradius in Pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Hintergrundfarbe im hexadezimalen Format. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Hintergrundfarbe im Hexadezimalformat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Name der Schriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
-   <td colname="col2"> <p>Vertikale Ausrichtung des Bannerindex. </p> </td> 
+   <td colname="col1"> <p> </span> zur vertikalen Ausrichtung <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Vertikale Ausrichtung des Bannerindexes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p>Texthöhe für den Bannerindex. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,9 +122,9 @@ Das Erscheinungsbild eines einzelnen festgelegten Anzeigepunkts wird mit der CSS
 
 >[!NOTE]
 >
->Die Festlegen-Anzeigeelemente unterstützen die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` dem aktuellen Element im Satz; `state="unselected"` dem standardmäßigen Elementstatus.
+>Set Indicator-Elemente unterstützen die `state` Attributauswahl, mit der verschiedene Skins auf verschiedene Miniaturansichten angewendet werden können. Insbesondere entspricht `state="selected"` dem aktuellen Element im Satz; `state="unselected"` entspricht dem Standardelement-Status.
 
-Angenommen, Sie möchten eine Set-Anzeige im gepunkteten Modus für Desktop-Systeme einrichten. Sie möchten, dass sie 20 Pixel vom unteren Rand des Viewers entfernt wird. Und Sie möchten, dass nicht ausgewählte Punkte schwarz mit 50 % Transparenz, 15 x 15 Pixel mit sieben Pixel abgerundeten Ecken sind. Ausgewählte Punkte sind schwarz mit 90 % Transparenz, 18 x 18 Pixel mit neun abgerundeten Ecken. Der Abstand zwischen Punkten beträgt fünf Pixel.
+Angenommen, Sie möchten für Desktop-Systeme einen Indikator im gepunkteten Modus einrichten. Sie möchten, dass sie 20 Pixel vom unteren Rand des Viewers entfernt positioniert wird. Außerdem sollen nicht ausgewählte Punkte schwarz mit 50 % Transparenz, 15 x 15 Pixel mit sieben Pixel mit abgerundeten Ecken sein. Ausgewählte Punkte sind schwarz mit 90 % Transparenz, 18 x 18 Pixel mit neun Pixel abgerundeten Ecken. Der Abstand zwischen Punkten beträgt fünf Pixel.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 
