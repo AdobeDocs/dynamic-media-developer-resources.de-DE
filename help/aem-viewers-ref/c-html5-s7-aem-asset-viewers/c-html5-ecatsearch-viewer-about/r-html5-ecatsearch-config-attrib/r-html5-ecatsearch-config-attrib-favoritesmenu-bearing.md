@@ -5,7 +5,7 @@ title: FavoritesMenu.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2466a288-59c2-4a5e-b0bd-ff5b42dcacdb
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%

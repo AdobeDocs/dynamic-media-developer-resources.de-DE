@@ -5,7 +5,7 @@ title: Scharf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 8%

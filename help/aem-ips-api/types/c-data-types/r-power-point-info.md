@@ -5,7 +5,7 @@ title: PowerPointInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
 ht-degree: 23%

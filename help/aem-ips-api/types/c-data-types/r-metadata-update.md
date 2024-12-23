@@ -5,7 +5,7 @@ title: MetadataUpdate
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 1%

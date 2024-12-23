@@ -5,7 +5,7 @@ title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 24%

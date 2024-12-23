@@ -5,7 +5,7 @@ title: Inhaltsdatenordner
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

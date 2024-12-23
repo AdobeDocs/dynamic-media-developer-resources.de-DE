@@ -5,7 +5,7 @@ title: DefaultLocale
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a7f40099-c89c-4653-aa50-f0475257a82b
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 3%

@@ -5,7 +5,7 @@ title: setPassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 4%

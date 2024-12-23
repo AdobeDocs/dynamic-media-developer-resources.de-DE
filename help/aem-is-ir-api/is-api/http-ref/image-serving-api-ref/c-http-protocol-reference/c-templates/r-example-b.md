@@ -5,7 +5,7 @@ title: Beispiel B
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%

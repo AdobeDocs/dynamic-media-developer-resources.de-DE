@@ -5,7 +5,7 @@ title: Serverprotokollierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 1%

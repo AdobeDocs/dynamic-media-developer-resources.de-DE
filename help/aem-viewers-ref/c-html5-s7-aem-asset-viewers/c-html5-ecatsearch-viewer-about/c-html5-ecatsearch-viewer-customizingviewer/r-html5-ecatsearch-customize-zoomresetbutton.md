@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d5aa9e9d-4d7e-428c-a43f-d2b4c9e59777
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%

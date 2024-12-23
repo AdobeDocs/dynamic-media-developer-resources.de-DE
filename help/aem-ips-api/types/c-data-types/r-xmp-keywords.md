@@ -5,7 +5,7 @@ title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 18%

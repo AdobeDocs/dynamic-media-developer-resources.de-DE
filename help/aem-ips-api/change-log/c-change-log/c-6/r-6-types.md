@@ -5,7 +5,7 @@ title: Datentypen Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 1%

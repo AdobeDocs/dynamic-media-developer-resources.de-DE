@@ -5,7 +5,7 @@ title: Dokumentkonventionen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cc334766-544b-4d77-aa0e-4e509525cbaa
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%

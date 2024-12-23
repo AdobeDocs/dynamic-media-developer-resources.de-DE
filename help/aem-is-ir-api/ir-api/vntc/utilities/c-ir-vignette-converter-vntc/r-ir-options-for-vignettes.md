@@ -5,7 +5,7 @@ title: Optionen für Vignetten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%

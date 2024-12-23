@@ -5,7 +5,7 @@ title: printerMark
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 18%

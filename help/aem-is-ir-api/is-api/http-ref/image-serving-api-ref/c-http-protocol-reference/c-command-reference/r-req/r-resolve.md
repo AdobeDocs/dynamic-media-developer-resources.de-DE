@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef357c19-e725-4904-b635-102e75ff7518
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 2%

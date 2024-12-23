@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 200805ca-20e5-4d3a-90ba-2511e71705ab
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 2%

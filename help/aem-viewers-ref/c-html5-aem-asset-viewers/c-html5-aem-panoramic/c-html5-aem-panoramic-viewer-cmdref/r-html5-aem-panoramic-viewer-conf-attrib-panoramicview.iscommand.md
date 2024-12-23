@@ -4,7 +4,7 @@ description: Konfigurationsattribut für den Panorama-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 4%

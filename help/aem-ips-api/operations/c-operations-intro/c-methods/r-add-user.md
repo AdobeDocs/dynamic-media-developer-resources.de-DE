@@ -5,7 +5,7 @@ title: addUser
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 11%

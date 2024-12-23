@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%

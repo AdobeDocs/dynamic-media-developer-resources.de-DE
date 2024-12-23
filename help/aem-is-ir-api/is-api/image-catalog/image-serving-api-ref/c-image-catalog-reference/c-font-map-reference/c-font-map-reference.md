@@ -5,7 +5,7 @@ title: Schriftartenzuordnungsreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%

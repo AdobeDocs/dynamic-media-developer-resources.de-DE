@@ -6,7 +6,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 mini-toc-levels: 3
 exl-id: 698c03b1-bec0-44bf-9c79-c66e0192344a
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: eaf59166fcc1ff8ec5a2e846ef0eb180c8cbdd5a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

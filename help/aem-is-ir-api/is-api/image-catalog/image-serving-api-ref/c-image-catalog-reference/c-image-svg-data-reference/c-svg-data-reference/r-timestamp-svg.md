@@ -5,7 +5,7 @@ title: Zeitstempel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e36660bb-d2ec-464c-b578-fe862bca5c50
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 1%

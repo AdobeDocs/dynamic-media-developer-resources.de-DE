@@ -5,7 +5,7 @@ title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 8%

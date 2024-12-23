@@ -5,7 +5,7 @@ title: Validierung des Antwort-Caches
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%

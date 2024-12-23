@@ -4,7 +4,7 @@ description: Erstellt eine HTML5-Instanz des Panorama-Viewers.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 3%

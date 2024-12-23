@@ -5,7 +5,7 @@ title: PortraitFrames
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%

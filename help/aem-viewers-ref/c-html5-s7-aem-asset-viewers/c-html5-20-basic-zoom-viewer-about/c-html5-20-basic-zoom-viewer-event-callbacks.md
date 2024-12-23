@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 14b317ab-82fb-4f55-babe-72c24e6afc2c
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

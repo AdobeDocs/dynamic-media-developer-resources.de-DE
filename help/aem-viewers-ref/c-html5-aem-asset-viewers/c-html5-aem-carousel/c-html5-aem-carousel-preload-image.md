@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 8caf156f-d641-44e9-94f9-5ba3245061a3
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 16d1d2cd-f58f-4ac3-b89f-f2f12fee231d
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 2%

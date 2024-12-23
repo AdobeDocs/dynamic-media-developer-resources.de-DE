@@ -5,7 +5,7 @@ title: Geplanter Auftrag
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 4%

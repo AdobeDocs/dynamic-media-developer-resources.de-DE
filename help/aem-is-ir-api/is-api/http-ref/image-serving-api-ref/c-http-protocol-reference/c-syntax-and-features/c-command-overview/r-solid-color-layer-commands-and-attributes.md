@@ -5,7 +5,7 @@ title: Befehle der Volltonfarbschicht
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e7a14c5f-9479-4df0-beef-c5792dcc5a25
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 0%

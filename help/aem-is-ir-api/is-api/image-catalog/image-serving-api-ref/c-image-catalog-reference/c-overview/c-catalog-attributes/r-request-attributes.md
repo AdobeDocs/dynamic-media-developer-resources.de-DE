@@ -5,7 +5,7 @@ title: Anfrage-Attribute
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1f2905f-f4e8-4944-8b27-469f09aa4bce
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 1%

@@ -5,7 +5,7 @@ title: getAssetsByName
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 10%

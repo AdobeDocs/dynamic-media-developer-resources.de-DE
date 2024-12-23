@@ -5,7 +5,7 @@ title: Referenz der Bilddaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 91454a49-2bb4-46f7-ace9-8e53fbbb4ea5
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 17%

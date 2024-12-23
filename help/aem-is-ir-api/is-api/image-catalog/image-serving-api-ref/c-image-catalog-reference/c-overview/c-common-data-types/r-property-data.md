@@ -5,7 +5,7 @@ title: Eigenschaftsdaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

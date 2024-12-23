@@ -5,7 +5,7 @@ title: Eigenschaften des Dokuments (Textfeld)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9d21a39-4d98-4115-8179-ab5acf713c80
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%

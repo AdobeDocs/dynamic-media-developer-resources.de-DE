@@ -5,7 +5,7 @@ title: LayerViewInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 13%

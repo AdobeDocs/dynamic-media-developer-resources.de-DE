@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: e0a3e849-842b-4137-acc2-34301e89518f
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%

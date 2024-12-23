@@ -5,7 +5,7 @@ title: Kursiv
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 11%

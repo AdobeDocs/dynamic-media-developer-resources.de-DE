@@ -5,7 +5,7 @@ title: Textzeichenfolge
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7e5d5741-292f-43fd-8ba0-7a333f350a40
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
