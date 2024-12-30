@@ -1,5 +1,5 @@
 ---
-title: Externe Videounterstützung
+title: Unterstützung externer Videos
 description: Der Viewer unterstützt die Wiedergabe von Videos, die außerhalb von Dynamic Media Classic oder Adobe Experience Manager - Dynamic Media gehostet werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Externe Videounterstützung{#external-video-support}
+# Unterstützung externer Videos{#external-video-support}
 
 Der Viewer unterstützt die Wiedergabe von Videos, die außerhalb von Dynamic Media Classic oder Adobe Experience Manager - Dynamic Media gehostet werden.
 
-Unterstützte Formate für das externe Video sind entweder MP4 im H.264-Format oder M3U8-Manifest für HLS-Stream.
+Unterstützte Formate für das externe Video sind entweder MP4 im H.264-Format oder M3U8 Manifest für HLS Stream.
 
-Der Viewer kann entweder Dynamic Media Classic oder Experience Manager - Dynamic Media-Video oder mit externen Videos verwenden. Wenn der Viewer mit einem Dynamic Media Classic/Dynamic Media-Video beginnt und diesen Asset-Typ in Zukunft verwendet, ist es nicht möglich, ein externes Video mit der [`setVideo`](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c) -Methode in diesen Viewer zu laden. Umgekehrt: Wenn der Viewer ursprünglich mit externen Videos geladen wurde, sollte er nur mit externen Videos funktionieren.
+Der Viewer kann entweder mit Dynamic Media Classic oder Experience Manager - Dynamic Media oder mit einem externen Video arbeiten. Wenn der Viewer mit einem Dynamic Media Classic/Dynamic Media-Video beginnt, es ab sofort mit einem solchen Asset-Typ verwenden soll, ist es nicht möglich, mit [`setVideo`](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c) -Methode ein externes Video in diesen Viewer zu laden. Und umgekehrt: Wenn der Viewer zunächst mit externen Videos geladen wurde, sollte er nur mit externen Videos arbeiten.
 
-Beim Arbeiten mit externen Videos ignoriert der Viewer den Wert des Wiedergabe-Modifikators und erkennt den Wiedergabetyp aus der externen Videoerweiterung. Wenn die externe Video-URL mit `.m3u8` endet, verwendet der Viewer die HLS-Wiedergabe, andernfalls wird die progressive Wiedergabe verwendet.
+Beim Arbeiten mit externen Videos ignoriert der Viewer den Wert des Wiedergabemodifikators und erkennt den Wiedergabetyp aus der externen Videoerweiterung. Wenn die externe Video-URL auf endet, `.m3u8` der Viewer die HLS-Wiedergabe verwendet, wird andernfalls die progressive Wiedergabe verwendet.

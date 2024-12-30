@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: URL-Befehl für Video-Viewer.
+description: URL-Befehl für den Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 11%
 
 # Navigation{#navigation}
 
-URL-Befehl für Video-Viewer.
+URL-Befehl für den Video-Viewer.
 
-` navigation= *`file`*`
+` navigation= *`Datei`*`
 
-Der Viewer unterstützt die Videokapitelnavigation über gehostete WebVTT-Dateien. Cue-Positionierungsoperatoren werden nicht unterstützt.
+Der Viewer unterstützt die Videokapitelnavigation mithilfe von gehosteten WebVTT-Dateien. Cue-Point-Positionierungsoperatoren werden nicht unterstützt.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Datei</span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum WebVTT-Navigationsinhalt an. Image Serving sollte die WebVTT-Datei hosten. </p> </td> 
   </tr> 
  </tbody> 

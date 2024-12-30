@@ -1,6 +1,6 @@
 ---
 title: title
-description: title, Befehl
+description: Titelbefehl
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -18,13 +18,13 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Dieser Befehl gilt nicht für Flyout-Viewer, einfachen Zoom-Viewer, Rotationsset-Viewer oder interaktiven Bild-Viewer.
+>Dieser Befehl gilt nicht für den Flyout-Viewer, den einfachen Zoom-Viewer, den Drehungs-Viewer oder den interaktiven Bild-Viewer.
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleimage</span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt den Titel des Browserfensters an, das den Viewer enthält. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleImage</span> </span> </p> </td> 
+   <td colname="col2"> <p>Gibt den Titel des Browser-Fensters an, das den Viewer enthält. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Versionshinweise zu Dynamic Media{#dynamic-media-release-notes}
 
-Die aktuellen Versionshinweise für [!DNL Adobe Dynamic Media Classic], Teil der [!DNL Adobe Experience Manager] -Lösung in der [!DNL Adobe Experience Cloud].
+Aktuelle Versionshinweise für [!DNL Adobe Dynamic Media Classic] Teil der [!DNL Adobe Experience Manager] in der [!DNL Adobe Experience Cloud].

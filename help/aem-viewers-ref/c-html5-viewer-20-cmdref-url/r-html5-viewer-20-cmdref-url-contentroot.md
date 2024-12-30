@@ -1,6 +1,6 @@
 ---
 title: contentUrl
-description: Parameter, die allen Viewern gemeinsam sind.
+description: Für alle Viewer gemeinsamer Parameter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # contentUrl{#contenturl}
 
-Parameter, die allen Viewern gemeinsam sind.
+Für alle Viewer gemeinsamer Parameter.
 
 ` contentUrl= *`contentUrlPath`*`
 
@@ -22,7 +22,7 @@ Parameter, die allen Viewern gemeinsam sind.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt den Basispfad für benutzerdefinierte CSS-Dateien, geschlossene Untertitelinhalte oder Navigationsinhalte an. </p> <p>Wenn der Pfad keinen vorangestellten <span class="filepath"> /</span> aufweist, ist er relativ zum Speicherort der Viewer-HTML-Seite. Wenn der Pfad einen vorangestellten <span class="filepath"> /</span> aufweist, gibt er einen absoluten Pfad auf demselben Server an. </p> <p> Das Laden der Standard-CSS-Datei ist davon nicht betroffen, wenn Sie keinen Stilbefehl angeben. </p> </td> 
+   <td colname="col2"> <p>Gibt den Basispfad zu benutzerdefinierten CSS-Dateien, Untertitelinhalten oder Navigationsinhalten an. </p> <p>Wenn der Pfad keinen <span class="filepath"> /</span> hat, ist er relativ zum Speicherort der Viewer-HTML-Seite. Wenn der Pfad ein vorangestelltes <span class="filepath"> /</span> aufweist, wird ein absoluter Pfad auf demselben Server angegeben. </p> <p> Wirkt sich nicht auf das Laden der standardmäßigen CSS-Datei aus, wenn Sie keinen Stilbefehl angeben. </p> </td> 
   </tr> 
  </tbody> 
 </table>

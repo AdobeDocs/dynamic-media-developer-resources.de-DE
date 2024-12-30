@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # style{#style}
 
-Sie können den folgenden Befehl sowohl in der URL-Abfragezeichenfolge als auch in der Konfiguration anwenden. Der in der URL-Abfragezeichenfolge angewendete Befehl hat immer Vorrang vor dem in config vorhandenen Befehl.
+Sie können den folgenden Befehl sowohl in der URL-Abfragezeichenfolge als auch in der Konfiguration anwenden. Der Befehl, der in der URL-Abfragezeichenfolge angewendet wird, hat immer Vorrang vor demselben Befehl, der in der Konfiguration vorhanden ist.
 
 `style= *`cssPath`*`
 
@@ -22,12 +22,12 @@ Sie können den folgenden Befehl sowohl in der URL-Abfragezeichenfolge als auch 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er für den Viewer-HTML-Seitenspeicherort und den Wert des Parameters <span class="codeph"> contentUrl=</span> aufgelöst. </p> </td> 
+   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er gegen den Speicherort der Viewer-HTML-Seite und den Wert <span class="codeph"> Parameters contentUrl=</span> aufgelöst. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Alle Asset-Verweise in der CSS-Datei werden mit dem CSS-Dateispeicherort aufgelöst, nicht mit dem Speicherort der aufrufenden HTML-Seite.
+Alle Asset-Verweise innerhalb der CSS-Datei werden gegen den Speicherort der CSS-Datei aufgelöst, nicht gegen den Speicherort der aufrufenden HTML-Seite.
 
 ## Eigenschaften {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

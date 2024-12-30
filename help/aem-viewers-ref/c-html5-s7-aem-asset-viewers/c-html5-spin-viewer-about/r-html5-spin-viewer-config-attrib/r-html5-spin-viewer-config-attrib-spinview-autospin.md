@@ -14,25 +14,25 @@ ht-degree: 2%
 
 # SpinView.autospin{#spinview-autospin}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`Dauer`*][, *`Richtung`*][, *`Rotationsnummer`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`duration`*][, *`direction`*][, *`spin_number`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert oder deaktiviert die automatische Rotation. Um das beste automatische Rotationserlebnis zu erzielen, wird empfohlen, alle Frames vorab zu laden, indem Sie <span class="codeph"> maxloadradius</span> auf <span class="codeph"> -1</span> setzen. Beachten Sie jedoch, dass diese Einstellung zu erhöhter Ladezeit und höherer Bandbreitennutzung führt. </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die automatische Rotationsanimation. Um ein optimales automatisches Rotations-Erlebnis zu erzielen, sollten Sie alle Frames vorab laden, indem Sie <span class="codeph"> maxLoadRadius</span> auf <span class="codeph"> -1</span> setzen. Beachten Sie jedoch, dass diese Einstellung zu einer verlängerten Ladezeit und einer höheren Bandbreitennutzung führt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Anzahl der Sekunden pro vollständiger Drehung. </p> </td> 
+   <td colname="col2"> <p> Die Anzahl der Sekunden pro vollständigem Spin. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> richtung</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Rotationsrichtung, die für die Rotation nach Osten <span class="codeph"> 0</span> und für die Spinnerei nach Westen <span class="codeph"> 1</span> beträgt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Richtung</span></span> </p> </td> 
+   <td colname="col2"> <p> Die Drehrichtung, die <span class="codeph"> 0</span> für die Drehung nach Osten und <span class="codeph"> 1</span> für die Drehung nach Westen beträgt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Die Anzahl der vollständigen Rotationen, die vor dem Anhalten des Autospins durchgeführt wurden. Die Zahl ist eine Gleitkommazahl. Für eine unendliche automatische Rotation auf <span class="codeph"> -1</span> setzen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Spin_number</span></span> </p> </td> 
+   <td colname="col2"> <p> Die Anzahl der vollständigen Rotationen, die durchgeführt wurden, bevor das automatische Drehen gestoppt wurde. Die Zahl ist eine Gleitkommazahl. Auf <span class="codeph"> -1</span> für einen unendlichen automatischen Spin eingestellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

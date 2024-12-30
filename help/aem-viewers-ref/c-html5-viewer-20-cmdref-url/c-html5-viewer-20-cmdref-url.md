@@ -1,6 +1,6 @@
 ---
-title: Befehlsreferenz für alle Viewer - URL
-description: Dokumentation zur Befehlsreferenz, die für alle Viewer gilt.
+title: Für alle Viewer gemeinsame Befehlsreferenz - URL
+description: Referenzdokumentation zu Befehlen, die für alle Viewer gleich sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Befehlsreferenz für alle Viewer - URL{#command-reference-common-to-all-viewers-url}
+# Für alle Viewer gemeinsame Befehlsreferenz - URL{#command-reference-common-to-all-viewers-url}
 
-Dokumentation zur Befehlsreferenz, die für alle Viewer gilt.
+Referenzdokumentation zu Befehlen, die für alle Viewer gleich sind.
 
-Die folgenden Befehle werden entweder über URL oder mithilfe der API-Methoden `setParam()` oder `setParams()` angewendet.
+Die unten aufgeführten Befehle werden entweder über die URL oder mithilfe der API-`setParam()` oder `setParams()` Methoden angewendet.

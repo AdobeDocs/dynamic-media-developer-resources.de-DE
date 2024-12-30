@@ -1,6 +1,6 @@
 ---
 title: config2
-description: Parameter, die allen Viewern gemeinsam sind.
+description: Für alle Viewer gemeinsamer Parameter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 11%
 
 # config2{#config}
 
-Parameter, die allen Viewern gemeinsam sind.
+Für alle Viewer gemeinsamer Parameter.
 
 >[!NOTE]
 >
->Dieser Befehl gilt nicht für den Video-Bild-Viewer.
+>Dieser Befehl gilt nicht für den Videobild-Viewer.
 
-` config2= *`companypreset`*`
+` config2= *`companyPreset`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> Name der Konfigurationsvorgabe <span class="keyword"> Adobe Analytics</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> CompanyPreset</span> </span> </p> </td> 
+   <td colname="col2"> <p> Name der <span class="keyword"> Adobe Analytics</span>-Konfigurationsvoreinstellung. </p> </td> 
   </tr> 
  </tbody> 
 </table>

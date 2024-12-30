@@ -1,6 +1,6 @@
 ---
 title: Unterstützung für Adobe Analytics-Tracking
-description: Der Video-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
+description: Der Video-Viewer unterstützt standardmäßig das Tracking von Adobe Analytics.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-Der Video-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
+Der Video-Viewer unterstützt standardmäßig das Tracking von Adobe Analytics.
 
-## Vordefiniertes Tracking {#section-3b101fe30be943c1b679fd5c273569ca}
+## Vorkonfiguriertes Tracking {#section-3b101fe30be943c1b679fd5c273569ca}
 
-Der Video-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
+Der Video-Viewer unterstützt standardmäßig das Tracking von Adobe Analytics.
 
-Um das Tracking zu aktivieren, übergeben Sie den richtigen Unternehmensvorgabennamen als Parameter `config2` .
+Um das Tracking zu aktivieren, übergeben Sie den richtigen Namen der Unternehmensvorgabe als `config2`.
 
-Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anforderung mit dem Viewer-Typ und den Versionsinformationen an den konfigurierten Image-Server.
+Der Viewer sendet außerdem eine einzelne Tracking-HTTP-Anfrage mit den Viewer-Typ- und Versionsinformationen an den konfigurierten Bild-Server.
 
-## Benutzerdefinierte Verfolgung {#section-ab10bd7caf184721a366cf3953071934}
+## Benutzerdefiniertes Tracking {#section-ab10bd7caf184721a366cf3953071934}
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, das `trackEvent` Viewer-Callback zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, auf `trackEvent` Viewer-Callback zu lauschen und `eventInfo` Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -57,7 +57,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet, wenn ... </p> </th> 
+   <th colname="col2" class="entry"> <p>Wird gesendet, wenn… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -66,8 +66,8 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p>Der Viewer wird zuerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mit der API <span class="codeph"> setAsset() </span> ausgetauscht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mit der API <span class="codeph">setAsset() </span> getauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -82,7 +82,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p>Die Wiedergabe wird angehalten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MEILENSTEIN </span> </p> </td> 
    <td colname="col2"> <p>Die Wiedergabe erreicht einen der folgenden Meilensteine: 0 %, 25 %, 50 %, 75 % und 100 %. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,7 +1,7 @@
 ---
 title: Video
-description: Der Video-Viewer ist ein Videoplayer, der Streaming- und progressive Videos wiedergibt, die im H.264-Format kodiert sind. Es wird aus Dynamic Media Classic oder Adobe Experience Manager mit Dynamic Media bereitgestellt.
-keywords: responsive
+description: Der Video-Viewer ist ein Video-Player, der im H.264-Format kodierte Streaming- und progressive Videos abspielt. Es wird von Dynamic Media Classic oder Adobe Experience Manager mit Dynamic Media bereitgestellt.
+keywords: Responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Video{#video}
 
-Der Video-Viewer ist ein Videoplayer, der Streaming- und progressive Videos wiedergibt, die im H.264-Format kodiert sind. Es wird aus Dynamic Media Classic oder Experience Manager mit Dynamic Media bereitgestellt.
+Der Video-Viewer ist ein Video-Player, der im H.264-Format kodierte Streaming- und progressive Videos abspielt. Es wird von Dynamic Media Classic oder Experience Manager mit Dynamic Media bereitgestellt.
 
 Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-Es werden sowohl einzelne Video- als auch adaptive Videosets unterstützt. Außerdem unterstützt der Viewer die Arbeit mit progressiven Video- und HLS-Streams, die auf externen Standorten gehostet werden. Es wurde für Desktop- und mobile Webbrowser entwickelt, die HTML5-Videos unterstützen. Dieser Viewer unterstützt auch optionale Untertitel, die über Videoinhalten, Videokapitelnavigation und Tools zur Freigabe in sozialen Medien angezeigt werden.
+Es werden sowohl einzelne als auch adaptive Videosets unterstützt. Außerdem unterstützt der Viewer das Arbeiten mit progressiven Video- und HLS-Streams, die an externen Speicherorten gehostet werden. Es wurde für Desktop- und mobile Webbrowser entwickelt, die HTML5-Videos unterstützen. Dieser Viewer unterstützt auch optionale Untertitel, die über Videoinhalten, der Videokapitelnavigation und Tools zur Freigabe in Social Media angezeigt werden.
 
-Der Video-Viewer verwendet die HTML5-Streaming-Videowiedergabe im HLS-Format in seiner Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, greift der Viewer auf die progressive HTML5-Videowiedergabe zurück.
+Der Video-Viewer verwendet HTML5-Streaming-Videowiedergabe im HLS-Format in der Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, wird der Viewer auf die progressive HTML5-Videobereitstellung zurückgesetzt.
 
 Viewer-Typ 506.
 
@@ -29,57 +29,57 @@ Viewer-Typ 506.
 
 [https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4](https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4)
 
-## Video-Viewer verwenden {#section-f21ac23d3f6449ad9765588d69584772}
+## Verwenden des Video-Viewer {#section-f21ac23d3f6449ad9765588d69584772}
 
-Der Video-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfedateien dar. Eine einzelne JavaScript-Include-Datei enthält alle Viewer-SDK-Komponenten, die von diesem bestimmten Viewer verwendet werden, Assets und CSS, die vom Viewer zur Laufzeit heruntergeladen werden.
+Der Video-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar - eine einzige JavaScript, die mit allen Viewer-SDK-Komponenten enthalten ist, die von diesem bestimmten Viewer verwendet werden, sowie Assets und CSS, die der Viewer zur Laufzeit heruntergeladen hat.
 
-Sie können den Video-Viewer im Popup-Modus verwenden, indem Sie die produktionsbereite HTML-Seite verwenden, die mit IS-Viewern bereitgestellt wird. Alternativ können Sie den Viewer im eingebetteten Modus verwenden, wo er mithilfe der dokumentierten API in eine Ziel-Web-Seite integriert wird.
+Sie können den Video-Viewer im Popup-Modus mit der produktionsbereiten HTML-Seite verwenden, die mit IS-Viewers bereitgestellt wird. Sie können den Viewer auch im eingebetteten Modus verwenden, in dem er mithilfe der dokumentierten API in eine Ziel-Web-Seite integriert wird.
 
-Die Aufgabe, den Viewer zu konfigurieren und zu skizzieren, ähnelt anderen Viewern. Die gesamte Skinning-Funktion wird über benutzerdefiniertes CSS erreicht.
+Die Aufgabe der Konfiguration und Skin-Verwaltung des Viewers ist ähnlich wie bei anderen Viewern. Die gesamte Skin-Verwaltung erfolgt über benutzerdefiniertes CSS.
 
-Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Siehe [Für alle Viewer gemeinsame Befehlsreferenz - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Für alle Viewer gemeinsame Befehlsreferenz - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interaktion mit dem Video-Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interagieren mit dem Video-Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-Der Video-Viewer bietet eine Reihe von standardmäßigen Steuerelementen für die Benutzeroberfläche für die Videowiedergabe, wie z. B. eine Wiedergabe-/Pausenschaltfläche, Video-Scrubber-Videozeitblase, Anzeige der Wiedergabezeit/Gesamtdauer, Lautstärkeregler, Schaltfläche im Vollbildmodus und Umschalter für Untertitel. Alle diese Steuerelemente sind in einer Steuerleiste am unteren Rand der Viewer-Benutzeroberfläche gruppiert.
+Video Viewer bietet eine Reihe von Standardsteuerelementen der Benutzeroberfläche für die Videowiedergabe, z. B. eine Wiedergabe-/Pausenschaltfläche, Video-Scrubber-Video-Zeitblase, Anzeige der wiedergegebenen Zeit/Gesamtzeit, Lautstärkeregelung, Vollbildschaltfläche und Umschalten der Untertitel. Alle diese Steuerelemente werden in einer Steuerleiste am unteren Rand der Viewer-Benutzeroberfläche gruppiert.
 
-Auf Touch-Geräten ist die Lautstärkeregelung in der Benutzeroberfläche ausgeblendet, da die Lautstärke nur über die Hardwaretasten gesteuert werden kann.
+Auf Touch-Geräten ist die Lautstärkeregelung auf der Benutzeroberfläche ausgeblendet, da die Lautstärkeregelung nur über die Hardwaretasten gesteuert werden kann.
 
-Wenn der Viewer im Popup-Modus ausgeführt wird, ist die Schaltfläche im Vollbildmodus nicht in der Benutzeroberfläche verfügbar.
+Wenn der Viewer im Popup-Modus ausgeführt wird, ist die Vollbildschaltfläche in der Benutzeroberfläche nicht verfügbar.
 
-Es ist möglich, schnell im Inhalt eines Videos zu navigieren, wenn das Videokapitel aktiviert ist. Videokapitel werden als Markierungen in der Video-Scrubber-Spur angezeigt und zeigen den Kapiteltitel und die zugehörige Beschreibung bei einem Mausrollover oder mit einem einzigen Tippen auf Touch-Systeme an. Benutzer können nach einem bestimmten Kapitel suchen, indem sie eine Kapitelmarke auswählen oder die Blase der Kapitelbeschreibung auswählen.
+Es ist möglich, schnell durch den Inhalt eines Videos zu navigieren, wenn das Videokapitel aktiviert ist. Videokapitel werden als Markierungen in der Video-Scrubber-Spur angezeigt und zeigen den Kapiteltitel und die zugehörige Beschreibung bei einem Mausrollover oder mit einem einzigen Tippen auf Touch-Systeme an. Benutzer können nach einem bestimmten Kapitel suchen, indem sie eine Kapitelmarkierung oder die Kapitelbeschreibungsblase auswählen.
 
-Der Viewer unterstützt sowohl die Touch-Eingabe als auch die Mauseingabe auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome-, Internet Explorer 11- und Edge-Webbrowser beschränkt.
+Der Viewer unterstützt sowohl Touch-Eingabe als auch Mauseingabe auf Windows-Geräten mit Touchscreen und Maus. Diese Unterstützung ist jedoch auf Chrome, Internet Explorer 11 und Edge-Webbrowser beschränkt.
 
-Auf diesen Viewer kann vollständig über die Tastatur zugegriffen werden.
+Dieser Viewer ist vollständig mit der Tastatur zugänglich.
 
-Siehe [Barrierefreiheit und Navigation auf der Tastatur](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Siehe [Tastaturzugriff und Navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Tools zur Freigabe in Social Media mit dem Video-Viewer {#section-907d316fe1da4b87abb9775f02464704}
+## Tools zur Freigabe in Social Media mit Video Viewer {#section-907d316fe1da4b87abb9775f02464704}
 
-Der Video-Viewer unterstützt Tools zur Freigabe in sozialen Medien. Sie sind als einzelne Schaltfläche in der Benutzeroberfläche verfügbar, die sich zu einer Freigabesymbolleiste erweitert, wenn der Benutzer darauf klickt oder tippt.
+Der Video-Viewer unterstützt Tools zur Freigabe in Social Media. Sie sind in der Benutzeroberfläche als einzelne Schaltfläche verfügbar, die in eine Freigabesymbolleiste erweitert wird, wenn Benutzende darauf klicken oder tippen.
 
-Die Freigabesymbolleiste enthält ein Symbol für jeden unterstützten Freigabekanaltyp wie Facebook, Twitter, E-Mail-Freigabe, Einbettungscode-Freigabe und Linkfreigabe. Wenn die Tools für die Freigabe von E-Mails, die Einbettung von Freigabe oder die Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen wird, leitet der Viewer den Benutzer von einem Social-Media-Dienst zu einem standardmäßigen Dialogfeld für die Freigabe um. Auch wenn ein Freigabe-Tool aktiviert ist, wird die Videowiedergabe automatisch angehalten.
+Die Freigabesymbolleiste enthält ein Symbol für jeden unterstützten Freigabekanaltyp wie Facebook, Twitter, E-Mail-Freigabe, Einbettungs-Code-Freigabe und Link-Freigabe. Wenn die Tools E-Mail-Freigabe, Einbettungsfreigabe oder Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen werden, leitet der Viewer den Benutzer von einem Social-Media-Service zu einem Standarddialogfeld für die Freigabe um. Auch wenn ein Freigabetool aktiviert ist, wird die Videowiedergabe automatisch angehalten.
 
-Die Freigabe-Tools sind aufgrund der Sicherheitseinschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
+Freigabetools sind aufgrund von Sicherheitsbeschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
 
 ## Einbetten des Video-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschiedene Webseiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal stellt eine Webseite einen Link bereit, der, wenn ausgewählt, den Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt auf der Hosting-Seite einzubetten. In letzterem Fall kann die Webseite ein statisches Seitenlayout aufweisen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diese Anforderungen zu erfüllen, unterstützt der Viewer drei Hauptbetriebsmodi: Popup, Einbettung fester Größe und Einbettung responsiver Designs.
+Verschiedene Web-Seiten haben unterschiedliche Anforderungen an das Viewer-Verhalten. Manchmal enthält eine Web-Seite einen Link, der bei Auswahl den Viewer in einem separaten Browser-Fenster öffnet. In anderen Fällen ist es erforderlich, den Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall kann die Web-Seite über ein statisches Seiten-Layout verfügen oder ein responsives Design verwenden, das auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt wird. Um diesen Anforderungen gerecht zu werden, unterstützt der Viewer drei primäre Betriebsmodi: Popup, Einbettung mit fester Größe und Einbetten von responsivem Design.
 
-Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilgeräten unterstützt. Normalerweise kann nur ein Video gleichzeitig wiedergegeben werden. Wenn ein Benutzer mit der Wiedergabe eines Videos beginnt und dann versucht, ein weiteres Video abzuspielen, wird das erste Video automatisch angehalten. Das automatisch angehaltene Video speichert die aktuelle Wiedergabedauer, sodass der Benutzer jederzeit darauf zugreifen und die Wiedergabe fortsetzen kann. Die einzige Ausnahme bildet der Chrome-Browser auf Geräten mit Android™ 4.x, die Videos parallel wiedergeben können.
+Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilgeräten unterstützt. Normalerweise kann immer nur ein Video wiedergegeben werden. Wenn ein(e) Benutzende(r) beginnt, ein Video abzuspielen und dann versucht, ein anderes Video abzuspielen, wird das erste Video automatisch angehalten. Das automatisch angehaltene Video speichert die aktuelle Wiedergabezeit, sodass der/die Benutzende immer darauf zurückgreifen und die Wiedergabe fortsetzen kann. Die einzige Ausnahme von dieser Regel ist der Chrome-Browser auf Android™ 4.x-Geräten, auf dem Videos parallel wiedergegeben werden können.
 
 **Über den Popup-Modus**
 
-Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert oder die Geräteausrichtung geändert wird.
+Im Popup-Modus wird der Viewer in einem separaten Fenster oder einer separaten Registerkarte des Webbrowsers geöffnet. Sie nimmt den gesamten Browser-Fensterbereich und passt sich an, falls die Größe des Browsers geändert oder die Ausrichtung des Geräts geändert wird.
 
-Dieser Modus wird am häufigsten für Mobilgeräte verwendet. Die Webseite lädt den Viewer mit dem Aufruf `window.open()` JavaScript , dem ordnungsgemäß konfigurierten Element `A` HTML oder einer anderen geeigneten Methode.
+Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, eines ordnungsgemäß konfigurierten HTML-Elements `A` einer anderen geeigneten Methode.
 
-Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Es heißt [!DNL VideoViewer.html] und befindet sich im Unterordner [!DNL html5/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Sie wird als [!DNL VideoViewer.html] bezeichnet und befindet sich im [!DNL html5/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/VideoViewer.html]
 
-Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS erreichen.
+Sie können die visuelle Anpassung erreichen, indem Sie benutzerdefiniertes CSS anwenden.
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
@@ -87,36 +87,36 @@ Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neu
 <a href="http://s7d1.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4" target="_blank">Open popup viewer</a>
 ```
 
-**Über Einbettungsmodus mit fester Größe und responsiven Einbettungsmodus**
+**Über den Einbettungsmodus mit fester Größe und den responsiven Einbettungsmodus**
 
-Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt, die möglicherweise bereits über Kundeninhalte verfügt, die nicht mit dem Viewer in Verbindung stehen. Der Viewer belegt normalerweise nur einen Teil der Immobilien der Web-Seite.
+Im eingebetteten Modus wird der Viewer zur vorhandenen Web-Seite hinzugefügt, die möglicherweise bereits einige Kundeninhalte enthält, die nicht mit dem Viewer verknüpft sind. Der Viewer belegt normalerweise nur einen Teil des Grundbesitzes der Web-Seite.
 
-Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Design-Seiten, auf denen das Layout automatisch an den Gerätetyp angepasst wird.
+Die wichtigsten Anwendungsfälle sind Web-Seiten, die für Desktops oder Tablet-Geräte ausgerichtet sind, sowie responsive Design-Seiten, deren Layout automatisch an den Gerätetyp angepasst wird.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Auswahl ist am besten für Webseiten mit statischem Seitenlayout.
+Einbetten in fester Größe wird verwendet, wenn der Viewer nach dem ersten Laden seine Größe nicht ändert. Diese Option eignet sich am besten für Web-Seiten mit statischem Seiten-Layout.
 
-Responsive Designeinbettung setzt voraus, dass die Größe des Viewers zur Laufzeit angepasst werden muss, wenn die Größe des Containers geändert wird `DIV`. Der häufigste Anwendungsfall besteht darin, den Viewer zu einer Webseite hinzuzufügen, die ein flexibles Seitenlayout verwendet.
+Beim Einbetten eines responsiven Designs wird davon ausgegangen, dass die Größe des Viewers zur Laufzeit entsprechend der Größenänderung seiner Container-`DIV` geändert werden muss. Der häufigste Anwendungsfall besteht darin, den Viewer zu einer Web-Seite hinzuzufügen, die ein flexibles Seiten-Layout verwendet.
 
-Im Einbettungsmodus für responsive Designs verhält sich der Viewer je nach Größe des Containers `DIV` unterschiedlich. Wenn die Webseite nur die Breite des Containers &quot;`DIV`&quot; festlegt und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Methode stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten aufgefüllt werden. Dieser Anwendungsfall ist am häufigsten für Webseiten, die ein responsives Design-Layout-Framework wie Bootstrap oder Foundation verwenden.
+Im responsiven Design-Einbettungsmodus verhält sich der Viewer unterschiedlich, je nachdem, wie die Web-Seite die Größe ihres Container-`DIV` bestimmt. Wenn die Web-Seite nur die Breite des Container-`DIV` festlegt und seine Höhe nicht eingeschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Auf diese Weise wird sichergestellt, dass das Asset perfekt in die Ansicht passt, ohne dass an den Seiten ein Abstand vorhanden ist. Dieser Anwendungsfall ist der häufigste für Web-Seiten, die ein responsives Design-Layout-Framework wie Bootstrap oder Foundation verwenden.
 
-Wenn die Web-Seite andernfalls die Breite und Höhe für den Container des Viewers `DIV` festlegt, füllt der Viewer nur diesen Bereich und folgt der Größe, die durch das Layout der Web-Seite angegeben wird. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Größe des Webbrowserfensters skaliert wird.
+Wenn die Web-Seite jedoch sowohl die Breite als auch die Höhe für die Container-`DIV` des Viewers festlegt, füllt der Viewer nur diesen Bereich aus und folgt der vom Web-Seiten-Layout bereitgestellten Größe. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung an die Größe des Webbrowser-Fensters angepasst ist.
 
-**Einbettung fester Größe**
+**Einbetten in fester Größe**
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
+Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
-1. Definieren des Containers `DIV`.
-1. Festlegen der Viewer-Größe
-1. Erstellen und Initialisieren des Viewers.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
+1. Container-`DIV` definieren.
+1. Festlegen der Viewer-Größe.
+1. Viewer erstellen und initialisieren.
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL FlyoutViewer.js] einbeziehen. Die Datei [!DNL FlyoutViewer.js] befindet sich im Unterordner [!DNL html5/js/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL FlyoutViewer.js] einbeziehen. Die [!DNL FlyoutViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und von derselben Domäne bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf dem die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und er von derselben Domain bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf denen die IS-Viewer installiert sind.
 
 Der relative Pfad sieht wie folgt aus:
 
@@ -126,18 +126,18 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Referenzieren Sie nur die JavaScript `include` -Hauptdatei des Viewers auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus dem Kontextpfad `/s7viewers` geladene HTML5 SDK `Utils.js`-Bibliothek (das so genannte konsolidierte SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig durch die Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe hält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
 >
 >
->Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion durch direkte Referenzierung auf alle sekundären JavaScript `include`, die vom Viewer auf der Seite verwendet werden, in Zukunft beeinträchtigt.
+>Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
 
 1. Definieren des Container-DIV.
 
-   Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres DIV-Element hinzu. Die ID des DIV-Elements muss definiert sein, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird über CSS angegeben.
+   Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres DIV-Element hinzu. Für das DIV-Element muss eine ID definiert sein, da diese ID später an die Viewer-API übergeben wird. Die Größe des DIV wird durch CSS angegeben.
 
-   Das Platzhalter-DIV ist ein positioniertes Element, d. h. die CSS-Eigenschaft `position` ist auf `relative` oder `absolute` festgelegt.
+   Das Platzhalter-DIV ist ein positioniertes Element, d. h. die `position` CSS-Eigenschaft ist auf `relative` oder `absolute` festgelegt.
 
-   Stellen Sie sicher, dass die Vollbildfunktion in Internet Explorer ordnungsgemäß funktioniert. Vergewissern Sie sich, dass keine anderen Elemente im DOM vorhanden sind, die eine höhere Stapelreihenfolge aufweisen als Ihr Platzhalter-DIV.
+   Stellen Sie sicher, dass die Vollbildfunktion in Internet Explorer ordnungsgemäß funktioniert. Stellen Sie sicher, dass das DOM keine anderen Elemente enthält, die eine höhere Stapelreihenfolge als der Platzhalter-DIV aufweisen.
 
    Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-DIV-Element:
 
@@ -145,13 +145,13 @@ Der relative Pfad sieht wie folgt aus:
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
-1. Viewer-Größe festlegen
+1. Festlegen der Viewer-Größe
 
-   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.`.s7videoviewer`
+   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für `.s7videoviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.
 
-   Sie können die Größe in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten Viewer-CSS-Datei festlegen. Sie wird später einem Viewer-Vorgabendatensatz in Dynamic Media Classic zugewiesen oder explizit mithilfe eines Stilbefehls übergeben.
+   Sie können die Größenanpassung in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festlegen. Sie wird später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mit einem Stilbefehl übergeben.
 
-   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Video-Viewers](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) .
+   Weitere [ zum Formatieren des Viewers mit CSS finden ](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) unter „Anpassen des Video-Viewers“ .
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf einer HTML-Seite:
 
@@ -162,23 +162,23 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den Modifikator `stagesize` entweder im Viewer-Vorgabendatensatz in Dynamic Media Classic festlegen oder ihn explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` übergeben. Oder als API-Aufruf, wie im Abschnitt Befehlsreferenz beschrieben:
+   Sie können `stagesize` Modifikator entweder im Viewer-Vorgabeneintrag in Dynamic Media Classic festlegen oder ihn explizit mit dem Viewer-Initialisierungs-Code mit `params` Sammlung übergeben. Oder als API-Aufruf, wie im Abschnitt Befehlsreferenz beschrieben, wie im Folgenden beschrieben:
 
    ```html {.line-numbers}
    videoViewer.setParam("stagesize", "640,480");
    ```
 
-   Es wird ein CSS-basierter Ansatz empfohlen, der in diesem Beispiel verwendet wird.
+   Ein CSS-basierter Ansatz wird empfohlen und wird in diesem Beispiel verwendet.
 
-1. Erstellen und Initialisieren des Viewers.
+1. Viewer erstellen und initialisieren.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.VideoViewer`, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode `init()` in einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld `containerId` verfügen, das den Namen der Viewer-Container-ID und das verschachtelte JSON-Objekt `params` mit Konfigurationsparametern enthält, die vom Viewer unterstützt werden. In diesem Fall muss für das Objekt `params` mindestens die Image Serving-URL als `serverUrl`-Eigenschaft, die Video-Server-URL als `videoserverurl`-Eigenschaft und das erste Asset als `asset`-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
+   Wenn Sie die obigen Schritte ausgeführt haben, erstellen Sie eine Instanz `s7viewers.VideoViewer` Klasse, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen `init()` Methode in einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über `containerId` Feld verfügen, das den Namen der Viewer-Container-ID enthält und `params` JSON-Objekt mit Konfigurationsparametern verschachtelt ist, die vom Viewer unterstützt werden. In diesem Fall muss `params` -Objekt mindestens die Bildbereitstellungs-URL als `serverUrl`-Eigenschaft, die Videoserver-URL als `videoserverurl`-Eigenschaft und das anfängliche Asset als `asset`-Parameter übergeben haben. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzigen Codezeile erstellen und starten.
 
-   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder das body `onload()` -Ereignis auf.
+   Es ist wichtig, dass der Viewer-Container zum DOM hinzugefügt wird, damit der Viewer-Code das Container-Element anhand seiner ID finden kann. Einige Browser verzögern die Erstellung von DOM bis zum Ende der Web-Seite. Um maximale Kompatibilität zu erzielen, rufen Sie die `init()`-Methode unmittelbar vor dem schließenden `BODY`-Tag oder im body-`onload()` auf.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Aktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Container-Element noch nicht unbedingt Teil des Web-Seiten-Layouts sein. Beispielsweise kann sie mithilfe `display:none` ihr zugewiesenen Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Moment, an dem die Web-Seite das Container-Element wieder zum Layout zurückbringt. Wenn diese Aktion stattfindet, wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. In diesem Beispiel wird angenommen, dass `videoViewer` die Viewer-Instanz ist, `s7viewer` der Name des Platzhalters `DIV`, [!DNL http://s7d1.scene7.com/is/image/] die Image Serving-URL, [!DNL http://s7d1.scene7.com/is/content/] die Video-Server-URL und [!DNL Scene7SharedAssets/Glacier_Climber_MP4] das Asset ist.
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. In diesem Beispiel wird davon ausgegangen, `videoViewer` die Viewer-Instanz ist, `s7viewer` der Name des Platzhalters `DIV` ist, [!DNL http://s7d1.scene7.com/is/image/] die Bildbereitstellungs-URL ist, [!DNL http://s7d1.scene7.com/is/content/] die Videoserver-URL ist und [!DNL Scene7SharedAssets/Glacier_Climber_MP4] das Asset ist.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -193,7 +193,7 @@ Der relative Pfad sieht wie folgt aus:
    </script> 
    ```
 
-   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Video-Viewer mit einer festen Größe einbettet:
+   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, bei der der Video-Viewer mit einer festen Größe eingebettet wird:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -223,9 +223,9 @@ Der relative Pfad sieht wie folgt aus:
    </html> 
    ```
 
-**Responsives Design, eingebettet in unbeschränkte Höhe**
+**Responsives Design mit unbegrenzter Höhe**
 
-Mit der Einbettung des responsiven Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Für dieses Beispiel nehmen Sie an, dass die Web-Seite es dem Container `DIV` des Viewers ermöglicht, 40 % der Fenstergröße des Webbrowsers zu übernehmen, wobei die Höhe unbegrenzt bleibt. Der HTML-Code der Webseite würde wie folgt aussehen:
+Durch das Einbetten des responsiven Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße der Container-`DIV` des Viewers bestimmt. Nehmen wir für die Zwecke dieses Beispiels an, dass die Web-Seite dem Container-`DIV` des Viewers ermöglicht, 40 % der Fenstergröße des Webbrowsers zu verwenden, wobei seine Höhe nicht beschränkt wird. Der Web-Seiten-HTML-Code würde wie folgt aussehen:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -243,13 +243,13 @@ Mit der Einbettung des responsiven Designs verfügt die Web-Seite normalerweise 
 </html> 
 ```
 
-Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung mit fester Größe. Der einzige Unterschied besteht darin, dass Sie die Viewer-Größe nicht explizit definieren müssen.
+Das Hinzufügen des Viewers zu einer solchen Seite ähnelt der Einbettung in fester Größe. Der einzige Unterschied besteht darin, dass Sie die Viewer-Größe nicht explizit definieren müssen.
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 1. Definieren des Container-DIV.
-1. Erstellen und Initialisieren des Viewers.
+1. Viewer erstellen und initialisieren.
 
-Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie dem vorhandenen &quot;Inhaber&quot; `DIV` den Container `DIV` hinzu. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind dieselben wie bei der Einbettung in fester Größe. Fügen Sie Container-`DIV` zum vorhandenen `DIV` „Inhaber“ hinzu. Der folgende Code ist ein vollständiges Beispiel. Sie können sehen, wie sich die Viewer-Größe ändert, wenn der Browser skaliert wird, und wie das Seitenverhältnis des Viewers mit dem Asset übereinstimmt.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -280,15 +280,15 @@ var videoViewer = new s7viewers.VideoViewer({
 </html> 
 ```
 
-Die folgende Beispielseite veranschaulicht die reale Verwendung responsiver Designs, die mit unbegrenzter Höhe eingebettet werden:
+Die folgende Beispielseite veranschaulicht eine praktischere Verwendung der responsiven Designeinbettung mit unbegrenzter Höhe:
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demostandort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**Responsives Design, das mit definierter Breite und Höhe eingebettet wird**
+**Responsives Design Einbetten mit definierter Breite und Höhe**
 
-Wenn ein responsives Design mit definierter Breite und Höhe eingebettet ist, unterscheidet sich der Webseitenstil. Er stellt dem Inhaber `DIV` beide Größen bereit und zentriert sie im Browserfenster. Außerdem setzt die Webseite die Größe der Elemente `HTML` und `BODY` auf 100 %:
+Wenn ein responsives Design eingebettet wird und Breite und Höhe definiert sind, ist der Web-Seiten-Stil unterschiedlich. Er stellt dem `DIV` „Halter“ beide Größen zur Verfügung und zentriert ihn im Browser-Fenster. Außerdem legt die Web-Seite die Größe des `HTML`- und `BODY` auf 100 % fest:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -314,7 +314,7 @@ height: 60%;
 </html> 
 ```
 
-Die restlichen Einbettungsschritte sind mit dem responsiven Design identisch, das mit uneingeschränkter Höhe eingebettet wird. Das folgende Beispiel zeigt:
+Die restlichen Einbettungsschritte sind identisch mit der responsiven Designeinbettung mit unbegrenzter Höhe. Das daraus resultierende Beispiel lautet:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -353,11 +353,11 @@ var videoViewer = new s7viewers.VideoViewer({
 </html> 
 ```
 
-**Einbetten mit Setter-basierter API**
+**Einbetten mithilfe der Setter-basierten API**
 
-Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Mit dieser API akzeptiert der Konstruktor keine Parameter und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
+Anstatt die JSON-basierte Initialisierung zu verwenden, ist es möglich, eine Setter-basierte API und einen Nicht-Args-Konstruktor zu verwenden. Mit dieser API übernimmt der Konstruktor keine Parameter und Konfigurationsparameter werden mithilfe von `setContainerId()`-, `setParam()`- und `setAsset()`-API-Methoden mit separaten JavaScript-Aufrufen angegeben.
 
-Das folgende Beispiel zeigt die Einbettung fester Größe in eine setter-basierte API:
+Das folgende Beispiel zeigt die Einbettung fester Größe mit einer Setter-basierten API:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

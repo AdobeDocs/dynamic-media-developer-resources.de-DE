@@ -1,6 +1,6 @@
 ---
-title: Befehlsreferenz für alle Viewer - Konfigurationsattribute
-description: Konfigurationsattribute, die allen Viewern gemein sind.
+title: Für alle Viewer gemeinsame Befehlsreferenz - Konfigurationsattribute
+description: Für alle Viewer gemeinsame Konfigurationsattribute.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Befehlsreferenz für alle Viewer - Konfigurationsattribute{#command-reference-common-to-all-viewers-configuration-attributes}
+# Für alle Viewer gemeinsame Befehlsreferenz - Konfigurationsattribute{#command-reference-common-to-all-viewers-configuration-attributes}
 
-Konfigurationsattribute, die allen Viewern gemein sind.
+Für alle Viewer gemeinsame Konfigurationsattribute.
