@@ -1,5 +1,5 @@
 ---
-description: Ruft Aufträge ab, deren Ausführung geplant ist.
+description: Ruft Aufträge zur Ausführung ab.
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # getScheduledJobs{#getscheduledjobs}
 
-Ruft Aufträge ab, deren Ausführung geplant ist.
+Ruft Aufträge zur Ausführung ab.
 
 Syntax
 
@@ -31,12 +31,12 @@ Syntax
 
 ## Parameter {#section-2af604ff8282460990b9237158187f8f}
 
-**Input (getScheduledJobsParam)**
+**Eingabe (getScheduledJobsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| jobHandle | `xsd:string` | Nein | Auftragshandle. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen. |
+| jobHandle | `xsd:string` | Nein | Auftragsverarbeitung. |
 | originalName | `xsd:string` | Nein | Der von `submitJob` angegebene Name. |
 
 **Ausgabe (getScheduledJobsReturn)**

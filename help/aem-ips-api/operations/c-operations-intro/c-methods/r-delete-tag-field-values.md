@@ -28,11 +28,11 @@ Entfernt Tag-Feldwerte aus dem Wörterbuch eines Tag-Felds.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, das das Tag-Feld enthält. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, das das Tag-Feld enthält. |
 | fieldHandle | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
 | valueArray | `types:StringArray` | Ja | Ein Array von Tag-Werten, die aus dem Wörterbuch des Felds gelöscht werden sollen. |
 
-**Output (deleteTagFieldValuesParam)**
+**Ausgabe (deleteTagFieldValuesParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 

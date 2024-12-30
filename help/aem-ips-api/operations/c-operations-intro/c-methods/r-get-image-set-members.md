@@ -1,5 +1,5 @@
 ---
-description: Ruft eine Gruppe von Mitgliedern ab, die sich in einem Bildset befinden.
+description: Ruft ein Array von Elementen ab, die sich in einem Bildset befinden.
 solution: Experience Manager
 title: getImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # getImageSetMembers{#getimagesetmembers}
 
-Ruft eine Gruppe von Mitgliedern ab, die sich in einem Bildset befinden.
+Ruft ein Array von Elementen ab, die sich in einem Bildset befinden.
 
 Syntax
 
@@ -31,7 +31,7 @@ Syntax
 
 >[!NOTE]
 >
->Erfordert Lesezugriff auf das Bild und das Asset des Mitgliedersets.
+>Erfordert Lesezugriff auf das Bild und das Elementset-Asset.
 
 ## Parameter {#section-a67ba98095574533980997c83ceaa316}
 
@@ -40,9 +40,9 @@ Syntax
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das Bildset enthält. |
-| assetHandle | `xsd:string` | Ja | Das Asset-Handle für Bildsets. |
+| assetHandle | `xsd:string` | Ja | Das Bildset-Asset-Handle. |
 
-**Output (getImageSetMembersReturn)**
+**Ausgabe (getImageSetMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -50,7 +50,7 @@ Syntax
 
 ## Beispiele {#section-888a9a78033346f39b171229de93dfa0}
 
-Dieses Codebeispiel gibt bestimmte Bildsatzmitglieder zurück. Die Antwort gibt ein leeres Array zurück.
+Dieses Codebeispiel gibt bestimmte Bildset-Member zurück. Die Antwort gibt ein leeres -Array zurück.
 
 **Anfrage**
 

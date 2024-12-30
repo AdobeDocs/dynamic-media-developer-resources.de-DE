@@ -31,15 +31,15 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Ja | Der Handle für den zu löschenden Eigenschaftssatz. |
+| typeHandle | `xsd:string` | Ja | Das Handle des Eigenschaftssatztyps, der gelöscht werden soll. |
 
-**Output (deletePropertySetTypeParam)**
+**Ausgabe (deletePropertySetTypeParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-In diesem Codebeispiel wird das Handle des Typs als Feld im Feld `deletePropertySetTypeParam` verwendet, das an den IPS-Webdienstserver gesendet wird, um den Eigenschaftssatztyp zu löschen.
+Dieses Codebeispiel verwendet das Handle des Typs als Feld in der `deletePropertySetTypeParam`, die an den IPS-Webservice-Server gesendet wird, um den Eigenschaftssatztyp zu löschen.
 
 **Anfrage**
 

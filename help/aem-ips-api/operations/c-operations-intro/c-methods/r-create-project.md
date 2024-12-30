@@ -29,18 +29,18 @@ Syntax
 
 ## Parameter {#section-8c741884eb54489bbaad0c444fee80b6}
 
-**Input (createProjectParam)**
+**Eingabe (createProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle des mit dem neuen Projekt verknüpften Unternehmens. |
+| companyHandle | `xsd:string` | Ja | Der Handle der Firma, die mit dem neuen Projekt verknüpft ist. |
 | projectName | `xsd:string` | Ja | Neuer Projektname. |
 
-**Output (createProjectParam)**
+**Ausgabe (createProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| projectHandle | `xsd:string` | Ja | Der Handle für das neue Projekt. |
+| projectHandle | `xsd:string` | Ja | Der Handler zum neuen Projekt. |
 
 ## Beispiele {#section-a0cd532b67e346d088fbec141231a0e5}
 

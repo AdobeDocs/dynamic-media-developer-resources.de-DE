@@ -29,27 +29,27 @@ Syntax
 
 ## Parameter {#section-20d498e971b6466298e60c8a77fc32b2}
 
-**Input (addProjectAssetsParam)**
+**Eingabe (addProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Verarbeiten Sie das mit dem aktuellen Projekt verknüpfte Unternehmen. |
-| projectHandle | `xsd:string` | Ja | Handle mit dem Projekt, dem Sie Assets hinzufügen. |
-| projectHandleArray | `xsd:HandleArray` | Ja | Array von Assets, die Sie zum aktuellen Projekt hinzufügen. |
+| companyHandle | `xsd:string` | Ja | An das mit dem aktuellen Projekt verknüpfte Unternehmen weiterleiten. |
+| projectHandle | `xsd:string` | Ja | Verarbeiten Sie das Projekt, dem Sie Assets hinzufügen. |
+| projectHandleArray | `xsd:HandleArray` | Ja | Array von Assets, die Sie dem aktuellen Projekt hinzufügen. |
 
-**Output (addProjectAssetsParam)**
+**Ausgabe (addProjectAssetsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich hinzugefügten Assets. |
-| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, einem Projekt Assets hinzuzufügen. |
-| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch generiert wurden, einem Projekt Assets hinzuzufügen. |
-| warningDetailHandle | `xsd:AssetOperationFaultArray` | Nein | Array von Warnungen, die von Assets generiert wurden, wenn der Vorgang versuchte, sie einem Projekt hinzuzufügen. |
-| companyHandle | `xsd:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets generiert wurden, wenn der Vorgang versuchte, sie einem Projekt hinzuzufügen. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnhinweise, die beim Versuch generiert wurden, Assets zu einem Projekt hinzuzufügen. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch generiert wurden, Assets zu einem Projekt hinzuzufügen. |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | Nein | Array von Warnhinweisen, die von Assets generiert wurden, wenn der Vorgang versucht hat, sie einem Projekt hinzuzufügen. |
+| companyHandle | `xsd:AssetOperationFaultArray` | Nein | Array von Fehlern, die von Assets beim Versuch generiert wurden, sie einem Projekt hinzuzufügen. |
 
 ## Beispiele {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-In diesem Beispiel wird einem in der Anfrage angegebenen Projekt ein einzelnes Asset (referenziert durch sein Handle) in einem Asset-Handle-Array hinzugefügt. Der Vorgang wurde erfolgreich abgeschlossen, wenn die Antwort `successCount` `1` zurückgibt.
+In diesem Beispiel wird ein einzelnes Asset (referenziert durch sein Handle) in einem Asset-Handle-Array einem in der Anfrage angegebenen Projekt hinzugefügt. Der Vorgang wurde erfolgreich abgeschlossen, wenn die Antwort `successCount` `1` zurückgibt.
 
 **Anfrage**
 

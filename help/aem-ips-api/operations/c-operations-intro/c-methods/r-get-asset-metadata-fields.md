@@ -1,5 +1,5 @@
 ---
-description: Gibt alle Metadatenfelder zurück, gruppiert nach Asset-Typ.
+description: Gibt alle Metadatenfelder gruppiert nach Asset-Typ zurück.
 solution: Experience Manager
 title: getAssetMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
-Gibt alle Metadatenfelder zurück, gruppiert nach Asset-Typ.
+Gibt alle Metadatenfelder gruppiert nach Asset-Typ zurück.
 
 Syntax
 
@@ -30,17 +30,17 @@ Syntax
 
 ## Parameter {#section-5dd58970d61d4d4a928e36ffceca6f5e}
 
-**Input (getAssetMetadataFieldsParam)**
+**Eingabe (getAssetMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Metadaten Sie abrufen möchten. |
 
-**Output (getAssetMetadataFieldsReturn)**
+**Ausgabe (getAssetMetadataFieldsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| assetFieldArray | `types:AssetMetadataFieldsArray` | Ja | Array von Metadatenfeldern nach Asset-Typ. |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | Ja | Array von Metadatenfeldern, nach Asset-Typ. |
 
 ## Beispiele {#section-d79ab85f29144635b0b61416e52f4f3f}
 
@@ -56,7 +56,7 @@ Syntax
 
 >[!NOTE]
 >
->Kürzt aus Gründen der Kürze.
+>Aus Gründen der Kürze gekürzt
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

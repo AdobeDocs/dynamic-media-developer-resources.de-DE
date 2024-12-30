@@ -1,5 +1,5 @@
 ---
-description: Gibt eine Gruppe aller Unternehmen zurück.
+description: Gibt ein Array aller Unternehmen zurück.
 solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # getAllCompanies{#getallcompanies}
 
-Gibt eine Gruppe aller Unternehmen zurück.
+Gibt ein Array aller Unternehmen zurück.
 
 Syntax
 
@@ -24,21 +24,21 @@ Syntax
 
 ## Parameter {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**Input (getAllCompaniesParam)**
+**Eingabe (getAllCompaniesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | Ja | Auf true gesetzt, um abgelaufene und nicht abgelaufene Unternehmen zurückzugeben. |
+| includeExpired | `xsd:boolean` | Ja | Legen Sie hierfür „true“ fest, um abgelaufene und nicht abgelaufene Unternehmen zurückzugeben. |
 
-**Output (getAllCompaniesReturn)**
+**Ausgabe (getAllCompaniesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | Ja | Die Unternehmensvielfalt. |
+| companyArray | `types:CompanyArray` | Ja | Das Spektrum der Unternehmen. |
 
 ## Beispiele {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Dieses Codebeispiel gibt alle Unternehmen in IPS in einem Array zurück. Beachten Sie, dass die Beispielantwort aus Gründen der Kürze abgeschnitten wird.
+Dieses Code-Beispiel gibt alle Unternehmen in IPS in einem Array zurück. Beachten Sie, dass die Beispielantwort zur Vereinfachung gekürzt wird.
 
 **Anfrage**
 

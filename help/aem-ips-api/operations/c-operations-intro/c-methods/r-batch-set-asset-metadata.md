@@ -1,5 +1,5 @@
 ---
-description: Legt Asset-Metadaten mithilfe des Batch-Modus fest.
+description: Legt Asset-Metadaten im Batch-Modus fest.
 solution: Experience Manager
 title: batchSetAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # batchSetAssetMetadata{#batchsetassetmetadata}
 
-Legt Asset-Metadaten mithilfe des Batch-Modus fest.
+Legt Asset-Metadaten im Batch-Modus fest.
 
 Syntax
 
@@ -29,22 +29,22 @@ Syntax
 
 ## Parameter {#section-7111ac93bc7747f69ba14db4ac3912b0}
 
-**Input (batchSetAssetMetadataParam)**
+**Eingabe (batchSetAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Metadaten Sie in einem Batch-Vorgang festlegen möchten. |
-| updateArray | `types:BatchMetadataUpdateArray` | Ja | Das Array der auf die Assets angewendeten Metadaten-Aktualisierungen. |
+| updateArray | `types:BatchMetadataUpdateArray` | Ja | Das Array von Metadaten-Aktualisierungen, die auf die Assets angewendet werden. |
 
-**Output (batchSetAssetMetadataParam)**
+**Ausgabe (batchSetAssetMetadataParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Metadaten. |
-| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versucht hat, Metadaten festzulegen. |
-| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, Metadaten festzulegen. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generieren, wenn der Vorgang versucht hat, Metadaten für die Assets im Batch-Modus festzulegen. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generieren, wenn der Vorgang versucht hat, Metadaten für die Assets im Batch-Modus festzulegen. |
+| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich festgelegten Metadaten. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnhinweise, die beim Versuch generiert wurden, Metadaten festzulegen. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die generiert wurden, als der Vorgang versucht hat, Metadaten festzulegen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Warnungen generieren, wenn der Vorgang versucht hat, Batch-Metadaten für die Assets festzulegen. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Fehler generieren, wenn der Vorgang versucht hat, Batch-Metadaten für die Assets festzulegen. |
 
 ## Beispiele {#section-2de798ac920e4b47b971b1729a64395b}
 

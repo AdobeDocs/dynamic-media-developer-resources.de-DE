@@ -26,15 +26,15 @@ Syntax
 
 ## Parameter {#section-abe8893038bb4ddfaccc11a8c75e6bd0}
 
-**Input (addTagFieldValuesParam)**
+**Eingabe (addTagFieldValuesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, das das Tag-Feld enthält. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, das das Tag-Feld enthält. |
 | fieldHandle | `xsd:string` | Ja | Der Handle des zu ändernden Tag-Felds. |
 | valueArray | `xsd:string` | Ja | Ein Array von Tag-Werten, die dem vorhandenen Wörterbuch des Felds hinzugefügt werden sollen. |
 
-**Output (addTagFieldValuesParam)**
+**Ausgabe (addTagFieldValuesParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 

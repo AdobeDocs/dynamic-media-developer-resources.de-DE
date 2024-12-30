@@ -36,7 +36,7 @@ Syntax
 
 ## Parameter {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
-**Input (getPublishContextsParam)**
+**Eingabe (getPublishContextsParam)**
 
 <table id="table_4A505A067586464B99F8F68E3B1BE75E"> 
  <thead> 
@@ -52,15 +52,15 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Handle mit dem Unternehmen. </td> 
+   <td colname="col4"> Übernehmen Sie die Firma. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Der Typ des Veröffentlichungskontexts, den Sie zurückgeben möchten. Umfasst: 
+   <td colname="col4">Der Typ des Veröffentlichungskontexts, den Sie zurückgeben möchten. Beinhaltet: 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> Bildbereitstellung</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> Video</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
@@ -69,11 +69,11 @@ Syntax
  </tbody> 
 </table>
 
-**Output (getPublishContextsReturn)**
+**Ausgabe (getPublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| publishContextArray | Typen:PublishContextArray | Ja | Ein Array von Veröffentlichungskontexten für ein Unternehmen, bei Bedarf nach Kontexttyp gefiltert. |
+| publishContextArray | types:PublishContextArray | Ja | Ein Array von Veröffentlichungskontexten für ein Unternehmen, ggf. gefiltert nach Kontexttyp. |
 
 ## Beispiele {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

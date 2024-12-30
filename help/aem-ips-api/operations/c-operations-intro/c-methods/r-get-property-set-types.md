@@ -1,5 +1,5 @@
 ---
-description: Ruft die Eigenschaftssatztypen ab, die mit dem angegebenen Unternehmen verknüpft sind, bzw. globale Eigenschaftssatztypen, wenn kein Unternehmen angegeben ist.
+description: Ruft die Eigenschaftssatztypen ab, die mit dem angegebenen Unternehmen verknüpft sind, oder globale Eigenschaftssatztypen, wenn kein Unternehmen angegeben ist.
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Ruft die Eigenschaftssatztypen ab, die mit dem angegebenen Unternehmen verknüpft sind, bzw. globale Eigenschaftssatztypen, wenn kein Unternehmen angegeben ist.
+Ruft die Eigenschaftssatztypen ab, die mit dem angegebenen Unternehmen verknüpft sind, oder globale Eigenschaftssatztypen, wenn kein Unternehmen angegeben ist.
 
 Syntax
 
@@ -32,7 +32,7 @@ Syntax
 
 ## Parameter {#section-ac3ed9e036b54ea993f544046ff0e15d}
 
-**Input (getPropertySetTypesParam)**
+**Eingabe (getPropertySetTypesParam)**
 
 <table id="table_2590368FEEF04AD4B074412CBBA90F88"> 
  <thead> 
@@ -48,12 +48,12 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Der Handle für das Unternehmen, mit dem die Eigenschaftssatztypen verknüpft sind. <p>Lassen Sie die Rückgabe globaler Eigenschaftssatztypen aus. </p> </td> 
+   <td colname="col4">Das Handle für das Unternehmen, mit dem die Eigenschaftssatztypen verknüpft sind. <p>Überspringen Sie diese Option, wenn Sie globale Eigenschaftssatztypen zurückgeben möchten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getPropertySetTypesReturn)**
+**Ausgabe (getPropertySetTypesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

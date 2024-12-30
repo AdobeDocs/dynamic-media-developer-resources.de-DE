@@ -1,5 +1,5 @@
 ---
-description: Löscht ein Projekt aus einem Unternehmen. Die Verknüpfungen zwischen den Assets und dem Projekt sind fehlerhaft, die Assets werden jedoch nicht aus dem IPS gelöscht.
+description: Löscht ein Projekt aus einer Firma. Die Verknüpfungen zwischen den Assets und dem Projekt sind fehlerhaft, aber die Assets werden nicht aus IPS gelöscht.
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # deleteProject{#deleteproject}
 
-Löscht ein Projekt aus einem Unternehmen. Die Verknüpfungen zwischen den Assets und dem Projekt sind fehlerhaft, die Assets werden jedoch nicht aus dem IPS gelöscht.
+Löscht ein Projekt aus einer Firma. Die Verknüpfungen zwischen den Assets und dem Projekt sind fehlerhaft, aber die Assets werden nicht aus IPS gelöscht.
 
 Syntax
 
@@ -29,20 +29,20 @@ Syntax
 
 ## Parameter {#section-00d1e00dd5014513a52b4e6b4f61de62}
 
-**Input (deleteProjectParam)**
+**Eingabe (deleteProjectParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyName | `xsd:string` | Ja | Der Name des mit dem Projekt verknüpften Unternehmens. |
-| projectHandle | `xsd:string` | Ja | Der Handle für das zu löschende Projekt. |
+| companyName | `xsd:string` | Ja | Der Name der Firma, die mit dem Projekt verknüpft ist. |
+| projectHandle | `xsd:string` | Ja | Das Handle des zu löschenden Projekts. |
 
-**Output (deleteProjectReturn)**
+**Ausgabe (deleteProjectReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-e38507f1f7ec41b9a625f47390490254}
 
-In diesem Codebeispiel werden das Unternehmens-Handle und das Projekt-Handle als Felder im deleteProjectParam verwendet, die an den IPS-Webdienstserver gesendet werden, um das Projekt zu löschen.
+In diesem Codebeispiel werden das Firmen-Handle und das Projekt-Handle als Felder in deleteProjectParam verwendet, die an den IPS-Webservice-Server gesendet werden, um das Projekt zu löschen.
 
 **Anfrage**
 

@@ -31,12 +31,12 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| assetHandle | `xsd:string` | Ja | Umgang mit dem Asset. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
+| assetHandle | `xsd:string` | Ja | Verarbeiten Sie das Asset. |
 
-**Output (getViewerConfigSettingsReturn)**
+**Ausgabe (getViewerConfigSettingsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| Typ | `xsd:string` | Ja | Viewer-Typ, auf den die Konfigurationseinstellungen angewendet werden. |
+| Typ | `xsd:string` | Ja | Viewer-Typ, für den die Konfigurationseinstellungen gelten. |
 | configSettingsArray | `types:ConfigSettingsArray` | Ja | Array von Viewer-Konfigurationseinstellungen. |

@@ -1,7 +1,7 @@
 ---
 description: Hält einen aktiven Auftrag an.
 solution: Experience Manager
-title: pauseJob
+title: Auftrag anhalten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 ---
 
-# pauseJob{#pausejob}
+# Auftrag anhalten{#pausejob}
 
 Hält einen aktiven Auftrag an.
 
@@ -31,20 +31,20 @@ Syntax
 
 ## Parameter {#section-7aedb924cf8b4e05a0dc927636d537a0}
 
-**Input (pauseJobParam)**
+**Eingabe (pauseJobParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| jobHandle | `xsd:string` | Ja | Führen Sie den Vorgang aus, den Sie anhalten möchten. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
+| jobHandle | `xsd:string` | Ja | Verarbeiten Sie den Vorgang, den Sie anhalten möchten. |
 
-**Output (PauseJobReturn)**
+**Ausgabe (PauseJobReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-Dieses Codebeispiel setzt einen aktiven Auftrag aus.
+Dieses Code-Beispiel setzt einen aktiven Auftrag aus.
 
 **Anfrage**
 

@@ -1,5 +1,5 @@
 ---
-description: Gibt ein Array mit Photoshop-Pfadnamen für das angegebene Bild zurück.
+description: Gibt ein Array von Photoshop-Pfadnamen für das jeweilige Bild zurück.
 solution: Experience Manager
 title: getFotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # getFotoshopPathNames{#getphotoshoppathnames}
 
-Gibt ein Array mit Photoshop-Pfadnamen für das angegebene Bild zurück.
+Gibt ein Array von Photoshop-Pfadnamen für das jeweilige Bild zurück.
 
 Syntax
 
@@ -30,14 +30,14 @@ Syntax
 
 ## Parameter {#section-605a4aab23104489a21f7f7f5849801b}
 
-**Input (getFotoshopPathNamesParam)**
+**Eingabe (getFotoshopPathNamesParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen, das das Bild enthält, mit dem Sie arbeiten möchten. |
-| assetHandle | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
+| companyHandle | `xsd:string` | Ja | Übergeben Sie an die Firma, die das Bild enthält, mit dem Sie arbeiten möchten. |
+| assetHandle | `xsd:string` | Ja | Verarbeiten Sie das Bild-Asset. |
 
-**Output (getFotoshopPathNamesReturn)**
+**Ausgabe (getFotoshopPathNamesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

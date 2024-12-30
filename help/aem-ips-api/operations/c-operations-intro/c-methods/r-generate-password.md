@@ -1,5 +1,5 @@
 ---
-description: Erstellt ein neues Kennwort.
+description: Erzeugt ein neues Kennwort
 solution: Experience Manager
 title: generatePassword
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # generatePassword{#generatepassword}
 
-Erstellt ein neues Kennwort.
+Erzeugt ein neues Kennwort
 
 Syntax
 
@@ -36,7 +36,7 @@ Syntax
 
 Keine.
 
-**Output (generatePasswordParam)**
+**Ausgabe (generatePasswordParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Keine.
 
 ## Beispiele {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-Dieses Codebeispiel generiert ein Kennwort. Dies ist ungewöhnlich, da es sich bei der Anfrage lediglich um einen Parameter ohne eingeschlossene Elemente oder Werte handelt. IPS gibt ein sicheres Kennwort zurück.
+Dieses Code-Beispiel generiert ein Kennwort. Dies ist ungewöhnlich, da die Anfrage einfach ein Parameter ohne eingeschlossene Elemente oder Werte ist. IPS gibt ein sicheres Kennwort zurück.
 
 **Anfrage**
 

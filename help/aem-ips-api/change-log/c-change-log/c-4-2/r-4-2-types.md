@@ -1,7 +1,7 @@
 ---
 description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.2.
 solution: Experience Manager
-title: Neue und geänderte Datentypen
+title: Datentypen Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# Datentypen: neu und geändert{#data-types-new-and-modified}
+# Datentypen: Neu und Geändert{#data-types-new-and-modified}
 
 Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.2.
 
@@ -29,7 +29,7 @@ Syntax
 
 **Asset**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `readyForPublish`
 * `trashState`
@@ -43,7 +43,7 @@ Entfernte Parameter:
 
 **ReprocessAssetsJob**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `preservePublishState`
 * `preserveCrop`
@@ -51,7 +51,7 @@ Hinzugefügte Parameter:
 
 **UploadDirectoryJob**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `preservePublishState`
 * `preserveCrop`
@@ -59,7 +59,7 @@ Hinzugefügte Parameter:
 
 **UploadUrlsJob**
 
-Hinzugefügte Parameter:
+Parameter hinzugefügt:
 
 * `preservePublishState`
 * `preserveCrop`

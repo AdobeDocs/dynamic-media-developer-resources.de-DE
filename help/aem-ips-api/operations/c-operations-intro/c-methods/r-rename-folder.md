@@ -1,7 +1,7 @@
 ---
 description: Benennt einen Ordner um.
 solution: Experience Manager
-title: renameFolder
+title: Ordner umbenennen
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
@@ -12,7 +12,7 @@ ht-degree: 20%
 
 ---
 
-# renameFolder{#renamefolder}
+# Ordner umbenennen{#renamefolder}
 
 Benennt einen Ordner um.
 
@@ -33,7 +33,7 @@ Syntax
 
 ## Parameter {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Input (renameFolderParam)**
+**Eingabe (renameFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -45,11 +45,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Ja | Wechseln Sie zum umbenannten Ordner. |
+| folderHandle | `xsd:string` | Ja | Verarbeiten Sie den umbenannten Ordner. |
 
 ## Beispiele {#section-98bdd2f88d164f488676e90aba1dc864}
 
-Mit diesem Codebeispiel wird ein Ordner umbenannt.
+Dieses Codebeispiel benennt einen Ordner um.
 
 **Anfrage**
 

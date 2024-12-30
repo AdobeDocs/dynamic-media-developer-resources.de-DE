@@ -1,5 +1,5 @@
 ---
-description: Gibt den Veröffentlichungskontext für Assets zurück, die zur Veröffentlichung markiert wurden.
+description: Gibt die Veröffentlichungskontexte für Assets zurück, die zur Veröffentlichung markiert sind.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-Gibt den Veröffentlichungskontext für Assets zurück, die zur Veröffentlichung markiert wurden.
+Gibt die Veröffentlichungskontexte für Assets zurück, die zur Veröffentlichung markiert sind.
 
 Syntax
 
@@ -38,14 +38,14 @@ Syntax
 
 ## Parameter {#section-1742fcb196224545b270eb8241f757a8}
 
-**Input (batchGetAssetPublishContextsParam)**
+**Eingabe (batchGetAssetPublishContextsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| assetHandleArray | ` `types:HandleArray&quot; | Ja | Eine Liste der Assets, die für aktive (zur Veröffentlichung markierte) Kontexte abgefragt werden sollen. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
+| assetHandleArray | ` `types:HandleArray“ | Ja | Eine Liste der Assets, die Sie nach aktiven (für die Veröffentlichung markierten) Kontexten abfragen möchten. |
 
-**Output (batchGetAssetPublishContextsReturn)**
+**Ausgabe (batchGetAssetPublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

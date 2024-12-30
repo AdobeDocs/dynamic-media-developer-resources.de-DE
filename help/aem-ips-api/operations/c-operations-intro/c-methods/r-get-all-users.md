@@ -41,27 +41,27 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Legen Sie Folgendes fest: 
+   <td colname="col4">Legen Sie auf fest: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> , um ungültige Benutzer einzuschließen. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> , um ungültige Benutzer wegzulassen. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> um ungültige Benutzer einzuschließen. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> um ungültige Benutzer wegzulassen. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getAllUsersReturn)**
+**Ausgabe (getAllUsersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | userArray | `types:UserArray` | Ja | Array aller Benutzer. |
-| Codeausdruck | `Code Phrase` |  |  |
+| Code-Satz | `Code Phrase` |  |  |
 
 ## Beispiele {#section-9c9a2d335513478da20652c1b1443731}
 
-Dieses Codebeispiel gibt alle Benutzer zurück. Die Antwort wird aus Gründen der Kürze abgeschnitten.
+Dieses Code-Beispiel gibt alle Benutzer zurück. Die Antwort wird zur Vereinfachung gekürzt.
 
 **Anfrage**
 

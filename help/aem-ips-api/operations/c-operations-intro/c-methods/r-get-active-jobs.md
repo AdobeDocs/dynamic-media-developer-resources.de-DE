@@ -31,15 +31,15 @@ Syntax
 
 ## Parameter {#section-29018fba6bf34c1e80dcd479dd24f3b5}
 
-**Input (getActiveJobsParam)**
+**Eingabe (getActiveJobsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen. |
-| jobHandle | `xsd:string` | Nein | Der Griff zum Auftrag. |
+| companyHandle | `xsd:string` | Nein | Der Griff zum Unternehmen. |
+| jobHandle | `xsd:string` | Nein | Der Handler für den Auftrag. |
 | originalName | `xsd:string` | Nein | Ursprünglicher Auftragsname. |
 
-**Output (getActiveJobsReturn)**
+**Ausgabe (getActiveJobsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntax
 
 ## Beispiele {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Dieses Codebeispiel gibt alle aktiven Aufträge eines Unternehmens zurück, das in IPS ausgeführt wird. In diesem Fall ist die Antwort ungewöhnlich, da der IPS-Planungs-Koordinator deaktiviert ist, ohne dass aktive Aufträge ausgeführt werden. Unter normalen Umständen würde die Antwort eine Reihe aktiver Aufträge zurückgeben.
+Dieses Codebeispiel gibt alle aktiven Aufträge eines Unternehmens zurück, das in IPS ausgeführt wird. In diesem Fall ist die Antwort ungewöhnlich, da der IPS-Planungskoordinator deaktiviert ist und keine aktiven Aufträge ausgeführt werden. Unter normalen Umständen würde die Antwort eine Reihe aktiver Aufträge zurückgeben.
 
 **Anfrage**
 

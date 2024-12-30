@@ -36,7 +36,7 @@ Syntax
 
 Keine.
 
-**Output (getSystemPropertiesReturn)**
+**Ausgabe (getSystemPropertiesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Keine.
 
 ## Beispiele {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-Dieses Codebeispiel gibt ein Array von Systemeigenschaften zurück. Die Antwort wurde wegen der Kürze gekürzt.
+Dieses Codebeispiel gibt ein Array von Systemeigenschaften zurück. Antwort zur Vereinfachung gekürzt.
 
 **Anfrage**
 

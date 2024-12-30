@@ -1,7 +1,7 @@
 ---
 description: Wird ausgelöst, wenn ein Benutzer nicht authentifiziert werden kann.
 solution: Experience Manager
-title: authenticationFault
+title: Authentifizierungsfehler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fce5c227-9291-4d17-801f-4ef4b8d43eb4
@@ -12,7 +12,7 @@ ht-degree: 21%
 
 ---
 
-# authenticationFault{#authenticationfault}
+# Authentifizierungsfehler{#authenticationfault}
 
 Wird ausgelöst, wenn ein Benutzer nicht authentifiziert werden kann.
 
@@ -26,7 +26,7 @@ Syntax
 | 10001 | `AUTHENTICATION_FAULT_CODE_INVALID_CREDENTIALS` |
 | 10002 | `AUTHENTICATION_FAULT_CODE_INVALID_USER` |
 
-## Standardfelder {#section-1fe84846a7154b03ab49552810ee9ac3}
+## Fehlerfelder {#section-1fe84846a7154b03ab49552810ee9ac3}
 
 | Name | Typ | Beschreibung |
 |---|---|---|

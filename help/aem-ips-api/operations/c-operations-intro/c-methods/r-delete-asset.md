@@ -29,24 +29,24 @@ Syntax
 
 >[!NOTE]
 >
->Der Benutzer muss über Lese- und Löschzugriff auf das Asset verfügen.
+>Der Benutzer muss Lese- und Löschzugriff auf das Asset haben.
 
 ## Parameter {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Input (deleteAssetParam)**
+**Eingabe (deleteAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, zu dem der Ordner gehört. |
-| assetHandle | `xsd:string` | Ja | Das Handle für das zu löschende Asset. |
+| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem der Ordner gehört. |
+| assetHandle | `xsd:string` | Ja | Das Handle zum zu löschenden Asset. |
 
-**Output (deleteAssetParam)**
+**Ausgabe (deleteAssetParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-d5657289f5234bb0a613dcf691507958}
 
-Mit diesem Beispielcode werden alle Asset-Typen aus einem bestimmten Unternehmen gelöscht. Dazu ist ein Asset-Handle erforderlich, das Sie von einem anderen Vorgang abrufen müssen.
+Dieser Beispiel-Code löscht alle Arten von Assets aus einer bestimmten Firma. Dazu ist ein Asset-Handle erforderlich, das Sie von einem anderen Vorgang erhalten müssen.
 
 **Anfrage**
 

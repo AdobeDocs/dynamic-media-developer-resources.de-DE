@@ -1,5 +1,5 @@
 ---
-description: Leitet die bereitgestellte Liste von URLs an den Dynamic Media CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache mit HTTP-Antworten ungültig zu machen.
+description: Leitet die bereitgestellte Liste der URLs an den Dynamic Media CDN-Provider (Content Distribution Network) weiter, um den vorhandenen Cache mit HTTP-Antworten ungültig zu machen.
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
@@ -14,21 +14,21 @@ ht-degree: 1%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Leitet die bereitgestellte Liste von URLs an den Dynamic Media CDN (Content Distribution Network)-Provider weiter, um den vorhandenen Cache mit HTTP-Antworten ungültig zu machen.
+Leitet die bereitgestellte Liste der URLs an den Dynamic Media CDN-Provider (Content Distribution Network) weiter, um den vorhandenen Cache mit HTTP-Antworten ungültig zu machen.
 
-## cdnCacheInvalidation: Info {#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation: Über {#section-4f70d2bc79d64288b961836ab17e9690}
 
-Die CDN-Cache-Invalidierung erzwingt, dass alle HTTP-Anforderungen für diese URLs anhand der aktuellen veröffentlichten Daten im Dynamic Media-Netzwerk erneut validiert werden, nachdem diese Invalidierungsanforderung über das CDN-Netzwerk verarbeitet wurde. Für alle URLs, die nicht mit der URL-Struktur des Dynamic Media-Dienstes verbunden sind und direkt mit der Stammordner-ID des Dynamic Media-Unternehmens übereinstimmen, die beim Erstellen des Unternehmens zugewiesen wird, tritt bei der gesamten Anfrage ein API-Fehler auf. Alle ungültigen URLs, die das CDN nicht unterstützt und für ungültig hält, führen auch zu einem API-Fehler für die gesamte Anfrage.
+Die CDN-Cache-Invalidierung erzwingt, dass alle HTTP-Anfragen für diese URLs anhand der aktuell im Dynamic Media-Netzwerk veröffentlichten Daten erneut überprüft werden, nachdem diese Invalidierungsanfrage über das CDN-Netzwerk verarbeitet wurde. Alle URLs, die nicht mit der Dynamic Media-Service-URL-Struktur verbunden sind und direkt mit der beim Erstellen des Unternehmens zugewiesenen Dynamic Media-Unternehmens-Stamm-ID übereinstimmen, führen zu einem API-Fehler für die gesamte Anfrage. Alle ungültigen URLs, die das CDN nicht unterstützt und die es als ungültig erachtet, führen ebenfalls zu einem API-Fehler für die gesamte Anfrage.
 
 **Häufigkeit der Verwendung: Regeln**
 
-Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Dynamic Media kontrolliert. Das CDN behält sich das Ermessen vor, die Reaktionsfähigkeit dieser Invalidierungen herabzusetzen, um eine optimale Leistung seines Dienstes für seine Benutzer zu gewährleisten. Sollte Dynamic Media über eine Übernutzung dieser Funktion informiert werden, muss Adobe entweder die Funktion pro Unternehmen oder vollständig über den gesamten Dienst deaktivieren.
+Die Regeln für die Häufigkeit der Verwendung dieser Funktion werden von den CDN-Partnern von Dynamic Media gesteuert. Das CDN behält sich das Ermessen vor, die Reaktionsfähigkeit dieser Invalidierungen zu verringern, um die optimale Leistung seines Service für seine Benutzer aufrechtzuerhalten. Sollte Dynamic Media über eine übermäßige Nutzung dieser Funktion informiert werden, muss Adobe diese Funktion entweder unternehmensübergreifend oder im gesamten Service deaktivieren.
 
 **Bestätigungs-E-Mails**
 
-Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der Liste oder bis zu fünf weitere E-Mail-Adressen gesendet werden. Die API sendet eine Bestätigung, wenn das gesamte CDN-Netzwerk darüber informiert wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein einzelner Aufruf von `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der angegebenen URLs die Anzahl übersteigt, die Dynamic Media mit einer einzigen Benachrichtigung an den CDN-Partner senden kann. Derzeit wäre dies dann der Fall, wenn die Anfrage 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
+Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der Liste oder an bis zu 5 andere E-Mail-Adressen gesendet werden. Die API sendet die Bestätigung, wenn das gesamte CDN-Netzwerk darüber informiert wurde, dass die in der E-Mail referenzierten URLs gelöscht wurden. Ein einziger Aufruf an `cdnCacheInvalidation` kann mehrere E-Mails senden, wenn die Anzahl der bereitgestellten URLs die Anzahl überschreitet, die Dynamic Media mit einer einzigen Benachrichtigung an den CDN-Partner senden kann. Derzeit wäre dies der Fall, wenn die Anfrage 100 URLs überschreitet, aber auf Anfrage des CDN-Partners geändert werden kann.
 
-**seit** unterstützt
+**Unterstützt seit**
 
 6,0
 
@@ -39,14 +39,14 @@ Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der
 
 ## Parameter {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Input** ( `cdnCacheInvalidationParam`)
+**Eingabe** ( `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> Name</b> </th> 
    <th class="entry"> <b> Typ</b> </th> 
-   <th class="entry"> <b> Erforderlich</b> </th> 
+   <th class="entry"> <b> erforderlich</b> </th> 
    <th class="entry"> <b> Beschreibung</b> </th> 
   </tr> 
  </thead>
@@ -55,25 +55,25 @@ Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der
    <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> Ja </p> </td> 
-   <td> <p> Der Handle für das Unternehmen, das mit den URLs verbunden ist, die ungültig gemacht werden sollen. </p> </td> 
+   <td> <p> Das Handle an das Unternehmen, das mit den zu invalidierenden URLs verbunden ist. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> types:UrlArray</span> </p> </td> 
+   <td> <p> <span class="codeph">:UrlArray</span> </p> </td> 
    <td> <p> Ja </p> </td> 
-   <td> <p> Liste von bis zu 1000 URLs, die aus dem CDN-Cache ungültig gemacht werden sollen. Alle URLS müssen die Dynamic Media-Unternehmens-Stamm-ID enthalten, die ungültig gemacht werden soll. </p> </td> 
+   <td> <p> Liste von bis zu 1.000 URLs, die im CDN-Cache ungültig gemacht werden sollen. Alle URLs müssen die Stamm-ID des Dynamic Media-Unternehmens enthalten, damit sie ungültig werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output**( `cdnCacheInvalidationReturn`)
+**Ausgabe**( `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> Name</b> </th> 
    <th class="entry"> <b> Typ</b> </th> 
-   <th class="entry"> <b> Erforderlich</b> </th> 
+   <th class="entry"> <b> erforderlich</b> </th> 
    <th class="entry"> <b> Beschreibung</b> </th> 
   </tr> 
  </thead>
@@ -82,7 +82,7 @@ Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Ein Handle, das auf die Bereinigungsanforderung verweist. </p> <p>Die API <span class="codeph"> cdnCacheInvalidation</span> macht den Cache jetzt fast sofort ungültig (~5 Sekunden). Daher ist eine Abfrage zum Invalidierungsstatus im Allgemeinen nicht mehr erforderlich. </p> 
+   <td colname="col4"> <p>Ein -Handle, das auf die Bereinigungsanfrage verweist. </p> <p>Die <span class="codeph"> cdnCacheInvalidation</span>-API macht den Cache jetzt fast sofort ungültig (~5 Sekunden). Daher ist das Abrufen des Invalidierungsstatus im Allgemeinen nicht mehr erforderlich. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
@@ -91,16 +91,16 @@ Bestätigungs-E-Mails vom Dynamic Media CDN-Partner können an den Ersteller der
    <td colname="col1"> <p><span class="codeph"><span class="varname"> estimatedSeconds</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Geschätzte Sekunden bis zum Abschluss der Bereinigungsanforderung. Clients sollten auf diese Zeit warten, bevor sie den Abrufstatus abrufen. </p> </td> 
+   <td colname="col4"> <p>Geschätzte Sekunden bis zum Abschluss der Bereinigungsanfrage. Clients sollten auf diesen Zeitpunkt warten, bevor sie den Status abfragen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispiel {#section-f414361a58e84dfcbbac30a358d02125}
 
-In diesem Beispiel werden vier URLs angefordert, die im CDN-Cache ungültig gemacht werden sollen. Die Antwort enthält zusammenfassende Zählungen zum Erfolg der Vorgänge und eine Liste mit Fehlerdetails, die direkt vom CDN bereitgestellt werden, um den Client bei der Verwendung dieser Funktion zu unterstützen.
+In diesem Beispiel werden vier URLs im CDN-Cache ungültig gemacht. Die Antwort enthält eine Zusammenfassung des Erfolgs der Vorgänge und eine Liste der Fehlerdetails, die direkt vom CDN bereitgestellt werden, um den Client bei der Verwendung dieser Funktion zu unterstützen.
 
-`getCdnCacheInvalidationStatus` -Vorgang.
+`getCdnCacheInvalidationStatus`.
 
 **Anfrage**
 

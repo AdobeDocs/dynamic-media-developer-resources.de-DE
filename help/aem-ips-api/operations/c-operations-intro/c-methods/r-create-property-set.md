@@ -1,5 +1,5 @@
 ---
-description: Eigenschaftensätze sind anwendungsspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatz-Typ an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatz-Typ nicht zulässt, dass mehrere Sätze an ein Objekt angehängt werden (PropertySetType/allowMultipleisfalse) und das Objekt bereits über einen Satz desselben Typs verfügt, ersetzt der neue Satz den vorhandenen.
+description: Eigenschaftssätze sind programmspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatztyp an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatztyp das Anhängen mehrerer Sätze an ein Objekt nicht zulässt (PropertySetType/allowMultipleisfalse) und dem Objekt bereits ein Satz desselben Typs zugeordnet ist, ersetzt der neue Satz den vorhandenen.
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # createPropertySet{#createpropertyset}
 
-Eigenschaftensätze sind anwendungsspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatz-Typ an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatz-Typ nicht zulässt, dass mehrere Sätze an ein Objekt angehängt werden (PropertySetType/allowMultipleisfalse) und das Objekt bereits über einen Satz desselben Typs verfügt, ersetzt der neue Satz den vorhandenen.
+Eigenschaftssätze sind programmspezifische Sätze von Name-Wert-Paaren, die je nach Eigenschaftssatztyp an verschiedene IPS-Objekte angehängt werden können. Wenn der Eigenschaftssatztyp das Anhängen mehrerer Sätze an ein Objekt nicht zulässt (PropertySetType/allowMultipleisfalse) und dem Objekt bereits ein Satz desselben Typs zugeordnet ist, ersetzt der neue Satz den vorhandenen.
 
 Syntax
 
@@ -31,21 +31,21 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Ja | Der Handle für den Eigenschaftssatz-Typ. |
-| primaryOwnerHandle | `xsd:string` | Ja | Das Handle für den primären Eigentümer des Eigenschaftssatzes. |
+| typeHandle | `xsd:string` | Ja | Das Handle des Eigenschaftssatztyps. |
+| primaryOwnerHandle | `xsd:string` | Ja | Das Handle an den primären Eigentümer des Eigenschaftssatzes. |
 | secondaryOwnerHandle | `xsd:string` | Nein | Das Handle an den sekundären Eigentümer des Eigenschaftssatzes. |
-| propertyArray | `types:PropertyArray` | Ja | Das Array von Eigenschaften. |
+| propertyArray | `types:PropertyArray` | Ja | Das Array der Eigenschaften. |
 | permissionArray | `types:PermissionUpdateArray` |  |  |
 
-**Output (createPropertySetParam)**
+**Ausgabe (createPropertySetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| setHandle | `xsd:string` | Ja | Der Handle für den neuen Eigenschaftssatz. |
+| setHandle | `xsd:string` | Ja | Das Handle für den neuen Eigenschaftssatz. |
 
 ## Beispiele {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-In diesem Codebeispiel wird ein Eigenschaftssatz erstellt, der Namen und Werte von Eigenschaften enthält. Die Antwort gibt einen Handle für den neuen Eigenschaftssatz zurück.
+In diesem Codebeispiel wird ein Eigenschaftssatz erstellt, der Namen und Werte von Eigenschaften enthält. Die Antwort gibt ein Handle für den neuen Eigenschaftssatz zurück.
 
 **Anfrage**
 

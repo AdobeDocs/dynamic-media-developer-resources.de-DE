@@ -1,7 +1,7 @@
 ---
 description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.4.
 solution: Experience Manager
-title: Zeichenfolgenkonstanten neu und geändert
+title: Zeichenfolgenkonstanten Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# Zeichenfolgenkonstanten: Neu und geändert{#string-constants-new-and-modified}
+# Zeichenfolgenkonstanten: Neu und Geändert{#string-constants-new-and-modified}
 
 Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.4.
 

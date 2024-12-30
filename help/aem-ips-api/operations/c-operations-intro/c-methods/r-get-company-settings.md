@@ -27,13 +27,13 @@ Syntax
 
 ## Parameter {#section-e146f479c2744baa8f68be8c8848c97f}
 
-**Input (getCompanySettingsParam)**
+**Eingabe (getCompanySettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Einstellungen Sie abrufen möchten. |
+| companyHandle | `xsd:string` | Ja | Das -Handle für die Firma, deren Einstellungen Sie abrufen möchten. |
 
-**Output (getCompanySettingsReturn)**
+**Ausgabe (getCompanySettingsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -41,7 +41,7 @@ Syntax
 
 ## Beispiele {#section-191f78995ecf473a95eadf7296204fd7}
 
-Dieses Codebeispiel gibt alle IPS-Einstellungen für ein bestimmtes Unternehmen zurück.
+Dieses Code-Beispiel gibt alle IPS-Einstellungen für eine bestimmte Firma zurück.
 
 **Anfrage**
 

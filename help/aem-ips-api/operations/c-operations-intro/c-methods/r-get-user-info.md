@@ -1,5 +1,5 @@
 ---
-description: Ruft Informationen zu einem Benutzer ab. Verwenden Sie die E-Mail-Adresse und das Kennwort eines Systembenutzers als Anmeldeinformationen zur Autorisierung der Anfrage. Andernfalls ruft der Vorgang Informationen zum Standardbenutzer ab.
+description: Ruft Informationen zu einem Benutzer ab. Verwenden Sie die E-Mail-Adresse und das Passwort eines Systembenutzers als Anmeldeinformationen für die Autorisierung der Anfrage. Andernfalls ruft der Vorgang Informationen zum Standardbenutzer ab.
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # getUserInfo{#getuserinfo}
 
-Ruft Informationen zu einem Benutzer ab. Verwenden Sie die E-Mail-Adresse und das Kennwort eines Systembenutzers als Anmeldeinformationen zur Autorisierung der Anfrage. Andernfalls ruft der Vorgang Informationen zum Standardbenutzer ab.
+Ruft Informationen zu einem Benutzer ab. Verwenden Sie die E-Mail-Adresse und das Passwort eines Systembenutzers als Anmeldeinformationen für die Autorisierung der Anfrage. Andernfalls ruft der Vorgang Informationen zum Standardbenutzer ab.
 
 Syntax
 
@@ -32,22 +32,22 @@ Syntax
 
 ## Parameter {#section-e87b3cb743494719925c9458eed433b6}
 
-**Input (getUserInfoParam)**
+**Eingabe (getUserInfoParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nein | Behandeln Sie den Benutzer, dessen Informationen Sie zurückgeben möchten. |
-| E-Mail | `xsd:string` | Nein | E-Mail-Adresse des Benutzers. |
+| userHandle | `xsd:string` | Nein | Verarbeiten Sie den Benutzer, dessen Informationen Sie zurückgeben möchten. |
+| E-Mail | `xsd:string` | Nein | Benutzer-E-Mail-Adresse. |
 
-**Output (getUserInfoReturn)**
+**Ausgabe (getUserInfoReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userInfo | `types:User` | Ja | Vorname, Nachname, E-Mail-Adresse und Rolle eines Benutzers sowie Angabe, ob der Benutzer gültig ist und wann das Kennwort des Benutzers abläuft. |
+| userInfo | `types:User` | Ja | Vorname, Nachname, E-Mail-Adresse und Rolle eines Benutzers sowie Angabe, ob der Benutzer gültig ist und wann sein Kennwort abläuft. |
 
 ## Beispiele {#section-98d77a2e360a438dbe240099bea26a65}
 
-Dieses Codebeispiel gibt Informationen für den standardmäßigen IPS-Benutzer zurück.
+Dieses Code-Beispiel gibt Informationen für den standardmäßigen IPS-Benutzer zurück.
 
 **Anfrage**
 

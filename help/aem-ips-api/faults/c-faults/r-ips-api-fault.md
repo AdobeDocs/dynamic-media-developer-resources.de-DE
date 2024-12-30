@@ -25,7 +25,7 @@ Syntax
 | 30002 | `IPS_API_FAULT_CODE_MISSING_PARAMETER` |
 | 30003 | `IPS_API_FAULT_CODE_INVALID_REQUEST_XML` |
 
-## Standardfelder {#section-37fe1aef1d5f4ca480071ca933aba826}
+## Fehlerfelder {#section-37fe1aef1d5f4ca480071ca933aba826}
 
 | Name | Typ | Beschreibung |
 |---|---|---|

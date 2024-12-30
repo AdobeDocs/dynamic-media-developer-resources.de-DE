@@ -1,6 +1,6 @@
 ---
 title: createMetadataField
-description: Damit können Administratoren Metadatenfelder erstellen, um sie mit Content Management-Systemen oder für Vorlagenvorgänge zu koordinieren. Beispiele für erstellte Metadatenfelder sind Suchbegriffe, Informationen zum Autor des Bildes oder Informationen zum Urheberrechtsinhaber.
+description: Damit können Admins Metadatenfelder erstellen, die mit Content-Management-Systemen oder für Vorlagenvorgänge koordiniert werden. Beispiele für erstellte Metadatenfelder sind Schlüsselwörter, Informationen über den Autor des Bildes oder Informationen über Urheberrechtsinhaber.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # createMetadataField{#createmetadatafield}
 
-Damit können Administratoren Metadatenfelder erstellen, um sie mit Content Management-Systemen oder für Vorlagenvorgänge zu koordinieren. Beispiele für erstellte Metadatenfelder sind Suchbegriffe, Informationen zum Autor des Bildes oder Informationen zum Urheberrechtsinhaber.
+Damit können Admins Metadatenfelder erstellen, die mit Content-Management-Systemen oder für Vorlagenvorgänge koordiniert werden. Beispiele für erstellte Metadatenfelder sind Schlüsselwörter, Informationen über den Autor des Bildes oder Informationen über Urheberrechtsinhaber.
 
 Syntax
 
@@ -24,7 +24,7 @@ Syntax
 
 ## Parameter {#section-f8260bc8dd0a4570bc7f714f81ab975f}
 
-**Input (createMetadataFieldParam)**
+**Eingabe (createMetadataFieldParam)**
 
 <table id="table_E5B249BBED3B4D2F9CEE2CCF27472D1B"> 
  <thead> 
@@ -46,10 +46,10 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Asset-Typ. </td> 
+   <td colname="col4"> Asset-Typ </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Name des Metadatenfelds, das Sie erstellen. </td> 
@@ -58,44 +58,44 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Metadatenfeldtyp. <p>Die Konstante für Metadatenfeldtypen definiert die verfügbaren Typen. </p> </td> 
+   <td colname="col4">Metadaten-Feldtyp. <p>Die Konstante Metadatenfeldtypen definiert die verfügbaren Typen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> <p>Der Standardwert des zu erstellenden Metadatenfelds (z. B. <span class="codeph"> Scene 7</span>). </p> <p>Standardwerte werden für Tag-Feldtypen nicht unterstützt und müssen weggelassen werden. Wenn für einen Tag-Feldtyp ein nicht leerer Standardwert angegeben ist, wird ein Fehler zurückgegeben. </p> </td> 
+   <td colname="col4"> <p>Der Standardwert des zu erstellenden Metadatenfelds (z. B. <span class="codeph"> Scene7</span>). </p> <p>Standardwerte werden für Tag-Feldtypen nicht unterstützt und müssen weggelassen werden. Wenn für einen Tag-Feldtyp ein nicht leerer Standardwert angegeben ist, wird ein Fehler zurückgegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. </td> 
+   <td colname="col4"> IPS-systemspezifische Metadaten aus- oder einblenden. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforce</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
+   <td colname="col4"> <p>Ein boolesches Flag, das angibt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn auf „true“ gesetzt, wird ein Fehler ausgelöst, wenn in <span class="codeph"> setAssetMetadata/</span><span class="codeph"> batchSetAssetMetadata</span> ein unzulässiger Wert festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Damit können Sie eine Reihe gemeinsamer spezifischer Werte erstellen, auf die ausgewählte Tags verweisen können. </td> 
+   <td colname="col4"> Damit können Sie einen Satz gemeinsam genutzter spezifischer Werte erstellen, auf die ausgewählte Tags verweisen können. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (createMetadataFieldReturn)**
+**Ausgabe (createMetadataFieldReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | Ja | Der Handle für das neue Metadatenfeld. |
+| fieldHandle | `xsd:string` | Ja | Das Handle zum neuen Metadatenfeld. |
 
 ## Beispiele {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-In diesem Codebeispiel wird ein Metadatenfeld vom Typ Zeichenfolge mit dem Namen `createMetadataField` erstellt. Die Antwort gibt den Handle an das neue Metadatenfeld zurück.
+Dieses Codebeispiel erstellt ein Metadatenfeld vom Typ Zeichenfolge mit dem Namen `createMetadataField`. Die Antwort gibt das Handle zum neuen Metadatenfeld zurück.
 
 **Anfrage**
 

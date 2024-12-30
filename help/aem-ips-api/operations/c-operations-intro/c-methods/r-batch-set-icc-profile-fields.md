@@ -1,5 +1,5 @@
 ---
-description: Legt Metadatenfelder für ICC-Profile fest.
+description: Legt ICC-Profil-Metadatenfelder fest.
 solution: Experience Manager
 title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
-Legt Metadatenfelder für ICC-Profile fest.
+Legt ICC-Profil-Metadatenfelder fest.
 
 Syntax
 
@@ -29,22 +29,22 @@ Syntax
 
 ## Parameter {#section-75a02b55ae0d444ca26b59aac6e86d6f}
 
-**Input (batchSetIccProfileFields)**
+**Eingabe (batchSetIccProfileFields)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle an das Unternehmen, das die ICC-Profile enthält. |
+| companyHandle | `xsd:string` | Ja | Verarbeiten Sie das Unternehmen, das die ICC-Profile enthält. |
 | Array aktualisieren | `xsd:string` | Ja | Array von ICC-Profilaktualisierungen. |
 
-**Output (batchSetIccProfileFields)**
+**Ausgabe (batchSetIccProfileFields)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten ICC-Profilfelder. |
-| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, die ICC-Profilfelder festzulegen. |
-| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs erzeugt wurden, die ICC-Profilfelder festzulegen. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
+| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich festgelegten ICC-Profilfelder. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnhinweise, die beim Versuch generiert wurden, die ICC-Profilfelder festzulegen. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch erzeugt wurden, die ICC-Profilfelder festzulegen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Warnungen generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Fehler generiert haben, als der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
 
 ## Beispiele {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

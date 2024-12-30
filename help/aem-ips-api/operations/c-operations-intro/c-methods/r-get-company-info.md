@@ -1,5 +1,5 @@
 ---
-description: Gibt Informationen zum angegebenen Unternehmen zurück, einschließlich des Unternehmens-Handles, des Unternehmensnamens, des Stammpfads und des Ablaufdatums. Sie müssen entweder companyHandle oder companyName angeben, deren Informationen Sie abrufen möchten.
+description: Gibt Informationen zum angegebenen Unternehmen zurück, einschließlich des Unternehmens-Handles, des Firmennamens, des Stammpfads und des Ablaufdatums. Sie müssen entweder companyHandle oder companyName angeben, dessen Informationen Sie abrufen möchten.
 solution: Experience Manager
 title: getCompanyInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # getCompanyInfo{#getcompanyinfo}
 
-Gibt Informationen zum angegebenen Unternehmen zurück, einschließlich des Unternehmens-Handles, des Unternehmensnamens, des Stammpfads und des Ablaufdatums. Sie müssen entweder companyHandle oder companyName angeben, deren Informationen Sie abrufen möchten.
+Gibt Informationen zum angegebenen Unternehmen zurück, einschließlich des Unternehmens-Handles, des Firmennamens, des Stammpfads und des Ablaufdatums. Sie müssen entweder companyHandle oder companyName angeben, dessen Informationen Sie abrufen möchten.
 
 Syntax
 
@@ -31,7 +31,7 @@ Syntax
 
 ## Parameter {#section-7dec8871c89a414c9f066adade1831d8}
 
-**Input (getCompanyInfoParam)**
+**Eingabe (getCompanyInfoParam)**
 
 <table id="table_DD2688C9DA9F49C9ABCA24944829B3E5"> 
  <thead> 
@@ -46,19 +46,19 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> ist erforderlich. </p> </td> 
-   <td colname="col4"> <p>Der Handle des Unternehmens, dessen Informationen Sie abrufen möchten. </p> </td> 
+   <td colname="col3"> <p>Entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> </span> companyName</span> ist erforderlich. </p> </td> 
+   <td colname="col4"> <p>Das Handle der Firma, deren Informationen Sie abrufen möchten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> companyName</span> </span> ist erforderlich. </p> </td> 
-   <td colname="col4"> <p>Der Name des Unternehmens, dessen Informationen Sie abrufen möchten. </p> </td> 
+   <td colname="col3"> <p>Entweder <span class="codeph"> <span class="varname"> companyHandle</span> </span> oder <span class="codeph"> <span class="varname"> </span> companyName</span> ist erforderlich. </p> </td> 
+   <td colname="col4"> <p>Der Name der Firma, deren Informationen Sie abrufen möchten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getCompanyInfoReturn)**
+**Ausgabe (getCompanyInfoReturn)**
 
 <table id="table_634D4E274BA7494C9C917FD244286F0D"> 
  <thead> 
@@ -72,7 +72,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> Typen:Firma</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:Firma</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handhabung und andere beschreibende Informationen über das Unternehmen. </p> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Syntax
 
 ## Beispiele {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Dieses Codebeispiel gibt alle Informationen über ein Unternehmen mithilfe eines Unternehmensnamens und -handle zurück. Es werden Daten zurückgegeben, die der Antwort ähneln, die beim Erstellen eines Unternehmens empfangen wurde.
+Dieses Code-Beispiel gibt alle Informationen über ein Unternehmen zurück, indem ein Firmenname und ein -Handle verwendet werden. Es werden Daten zurückgegeben, die der Antwort ähneln, die beim Erstellen eines Unternehmens empfangen wurde.
 
 **Anfrage**
 

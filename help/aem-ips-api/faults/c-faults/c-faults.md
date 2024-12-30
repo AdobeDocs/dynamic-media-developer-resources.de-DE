@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Fehler{#faults}
 
-* [authenticationFault](r-authentication-fault.md)
+* [Authentifizierungsfehler](r-authentication-fault.md)
 * [authorizationFault](r-authorization-fault.md)
 * [ipsApiFault](r-ips-api-fault.md)

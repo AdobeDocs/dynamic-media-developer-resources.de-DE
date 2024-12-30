@@ -1,5 +1,5 @@
 ---
-description: Nur zur internen Verwendung. Benutzer sollten sich auf den Abschnitt Image Serving Image Catalog Reference - Attribute Reference beziehen.
+description: Nur zur internen Verwendung. Benutzer sollten den Abschnitt Image Serving Image Catalog Reference - Attribute Reference lesen.
 solution: Experience Manager
 title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-Nur zur internen Verwendung. Benutzer sollten sich auf den Abschnitt Image Serving Image Catalog Reference - Attribute Reference beziehen.
+Nur zur internen Verwendung. Benutzer sollten den Abschnitt Image Serving Image Catalog Reference - Attribute Reference lesen.
 
 Syntax
 
@@ -31,11 +31,11 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen mit den Einstellungen für die Image-Serving-Veröffentlichung. |
-| contextHandle | `xsd:string` | Ja | Umgang mit dem Veröffentlichungskontext. |
+| companyHandle | `xsd:string` | Ja | Das -Handle an das Unternehmen mit den Image-Serving-Veröffentlichungseinstellungen. |
+| contextHandle | `xsd:string` | Ja | Verarbeiten Sie den Veröffentlichungskontext. |
 
 **Ausgabe**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| publishSettingArray | `xsd:string` | Ja | Array der Veröffentlichungseinstellungen des Image-Servers. |
+| publishSettingArray | `xsd:string` | Ja | Array von Image-Server-Veröffentlichungseinstellungen. |

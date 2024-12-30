@@ -1,7 +1,7 @@
 ---
-description: Beschreibt neue und geänderte Datentypen für die IPS-API Version 3.8.
+description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 3.8.
 solution: Experience Manager
-title: Neue und geänderte Datentypen
+title: Datentypen Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6121c7a9-aebc-4aa5-970f-8b115f14c71e
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# Datentypen: neu und geändert{#data-types-new-and-modified}
+# Datentypen: Neu und Geändert{#data-types-new-and-modified}
 
-Beschreibt neue und geänderte Datentypen für die IPS-API Version 3.8.
+Beschreibt neue und geänderte Datentypen für die IPS-API-Version 3.8.
 
 Syntax
 
@@ -29,7 +29,7 @@ Syntax
 
 **ZoomTarget**
 
-Felder hinzugefügt:
+Hinzugefügte Felder:
 
 * `name`
 * `userData`

@@ -1,5 +1,5 @@
 ---
-description: Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück.
+description: Gibt Informationen zur Struktur eines Unternehmens zurück (Anzahl der Dateien usw.).
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getDiskUsage{#getdiskusage}
 
-Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück.
+Gibt Informationen zur Struktur eines Unternehmens zurück (Anzahl der Dateien usw.).
 
 ## Autorisierte Benutzertypen {#authorized-user-types}
 
@@ -29,17 +29,17 @@ Gibt Informationen zur Struktur eines Unternehmens (Anzahl Dateien usw.) zurück
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, dessen Festplattenauslastung Sie abrufen möchten. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, dessen Festplattenauslastung Sie abrufen möchten. |
 
 **Ausgabe (getDiskUsageReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| diskUsageArray | `types:DiskUsageArray` | Ja | Array der Unternehmensdatenträger. |
+| diskUsageArray | `types:DiskUsageArray` | Ja | Array der verwendeten Unternehmensfestplatten. |
 
 ## Beispiele {#section-cb16a97badc94076ad5da277db5ed16a}
 
-Der Name dieser Anfrage ist irreführend. Statt lediglich einen Skalarwert zurückzugeben, der angibt, wie viel Festplattenspeicher ein Unternehmen verwendet, erhält es auch andere Informationen über die Struktur eines Unternehmens.
+Der Name dieser Anfrage ist irreführend. Anstatt nur einen Skalarwert zurückzugeben, der angibt, wie viel Festplattenspeicher ein Unternehmen verwendet, erhält es auch andere Informationen über die Struktur eines Unternehmens.
 
 **Anfrage**
 

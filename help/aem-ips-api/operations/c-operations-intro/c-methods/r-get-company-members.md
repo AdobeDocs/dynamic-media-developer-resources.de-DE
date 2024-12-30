@@ -1,5 +1,5 @@
 ---
-description: Gibt die Benutzer eines Unternehmens zurück, die von einem Handle des Unternehmens angegeben wurden.
+description: Gibt die Benutzer eines Unternehmens zurück, das durch ein Firmen-Handle angegeben ist.
 solution: Experience Manager
 title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # getCompanyMembers{#getcompanymembers}
 
-Gibt die Benutzer eines Unternehmens zurück, die von einem Handle des Unternehmens angegeben wurden.
+Gibt die Benutzer eines Unternehmens zurück, das durch ein Firmen-Handle angegeben ist.
 
 Syntax
 
@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-5602e4d6f2214e398e6a804e61f1a088}
 
-**Input (getCompanyMembersParam)**
+**Eingabe (getCompanyMembersParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, dessen Mitglieder Sie erhalten möchten. |
-| includeInvalid | `xsd:boolean` | Ja | Schließen Sie ungültige Unternehmen ein. |
+| companyHandle | `xsd:string` | Ja | Das Handle für die Firma, deren Mitglieder Sie erhalten möchten. |
+| includeInvalid | `xsd:boolean` | Ja | Ungültige Firmen einschließen. |
 
-**Output (getCompanyMembersReturn)**
+**Ausgabe (getCompanyMembersReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -42,7 +42,7 @@ Syntax
 
 ## Beispiele {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Dieses Codebeispiel gibt alle Mitglieder eines Unternehmens in einem Benutzer-Array zurück. Die Antwort wurde aus Gründen der Kürze abgeschnitten.
+Dieses Codebeispiel gibt alle Mitglieder eines Unternehmens in einem Benutzer-Array zurück. Die Antwort wurde zur Vereinfachung gekürzt.
 
 **Anfrage**
 

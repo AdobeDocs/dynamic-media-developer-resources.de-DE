@@ -1,5 +1,5 @@
 ---
-description: Gibt Koordinaten für das Quadrilaterale zurück, die den benannten Photoshop-Pfad einschließen.
+description: Gibt Koordinaten für das Viereck zurück, das den benannten Photoshop-Pfad umschließt.
 solution: Experience Manager
 title: getFotoshopPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getFotoshopPath{#getphotoshoppath}
 
-Gibt Koordinaten für das Quadrilaterale zurück, die den benannten Photoshop-Pfad einschließen.
+Gibt Koordinaten für das Viereck zurück, das den benannten Photoshop-Pfad umschließt.
 
 Syntax
 
@@ -31,19 +31,19 @@ Syntax
 
 ## Parameter {#section-ebffe496284c4ced9f329f78127be199}
 
-**Input (getFotoshopPathParam)**
+**Eingabe (getFotoshopPathParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Behandeln Sie das Unternehmen mit dem Bild, mit dem Sie arbeiten möchten. |
-| assetHandle | `xsd:string` | Ja | Umgang mit dem Bild-Asset. |
+| companyHandle | `xsd:string` | Ja | Verarbeiten Sie das Unternehmen mit dem Bild, mit dem Sie arbeiten möchten. |
+| assetHandle | `xsd:string` | Ja | Verarbeiten Sie das Bild-Asset. |
 | pathName | `xsd:string` | Ja | Name des Photoshop-Pfads, den Sie zurückgeben möchten. |
 
-**Output (getFotoshopPathReturn)**
+**Ausgabe (getFotoshopPathReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| spectiveQuad | `types:PerspectiveQuad` | Ja | Gibt Bildkoordinaten basierend auf dem Pfad zurück. Siehe [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| perspektivischer Quad | `types:PerspectiveQuad` | Ja | Gibt Bildkoordinaten basierend auf dem Pfad zurück. Siehe [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Beispiele {#section-1f0461cbdc184c8d8925336d5279db47}
 

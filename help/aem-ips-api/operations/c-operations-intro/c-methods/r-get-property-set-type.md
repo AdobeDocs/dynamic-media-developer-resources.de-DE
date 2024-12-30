@@ -1,5 +1,5 @@
 ---
-description: Ruft einen Eigenschaftssatztyp mithilfe eines Handles für ein Unternehmen und den Namen des Eigenschaftssatztyps ab. Ruft eine Typstruktur mit dem Handle zum Typ sowie den Eigenschaftstyp ab.
+description: Ruft einen Eigenschaftssatztyp mithilfe eines Handles für ein Unternehmen und den Namen des Eigenschaftssatztyps ab. Sie erhält eine Typstruktur mit dem Handle zum Typ sowie zum Eigenschaftstyp.
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # getPropertySetType{#getpropertysettype}
 
-Ruft einen Eigenschaftssatztyp mithilfe eines Handles für ein Unternehmen und den Namen des Eigenschaftssatztyps ab. Ruft eine Typstruktur mit dem Handle zum Typ sowie den Eigenschaftstyp ab.
+Ruft einen Eigenschaftssatztyp mithilfe eines Handles für ein Unternehmen und den Namen des Eigenschaftssatztyps ab. Sie erhält eine Typstruktur mit dem Handle zum Typ sowie zum Eigenschaftstyp.
 
 Syntax
 
@@ -32,14 +32,14 @@ Syntax
 
 ## Parameter {#section-c9a53400c44744668bd7915f72d2bf3d}
 
-**Input (getPropertySetTypeParam)**
+**Eingabe (getPropertySetTypeParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen. Optional, da ein Eigenschaftssatz-Typ mehreren Unternehmen angehören kann. |
+| companyHandle | `xsd:string` | Nein | Der Griff zum Unternehmen. Optional, da ein Eigenschaftssatztyp mehreren Unternehmen angehören kann. |
 | name | `xsd:string` | Ja | Name des Eigenschaftssatztyps. |
 
-**Output (getPropertySetTypeReturn)**
+**Ausgabe (getPropertySetTypeReturn)**
 
 <table id="table_F2724F6B706C4F658AED99290E29F3E6"> 
  <thead> 
@@ -52,13 +52,13 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PropertySetType</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Typ</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">:PropertySetType</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Die Typstruktur, die Folgendes enthält: 
+   <td colname="col4">Die Typstruktur, die ein enthält: 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
      <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">Handle. </li> 
-     <li id="li_6004406A0D1341648A714FF3C61E4004">Geben Sie den Namen ein. </li> 
+     <li id="li_6004406A0D1341648A714FF3C61E4004">Name eingeben. </li> 
      <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">Eigenschaftstyp. </li> 
      <li id="li_A2354354541A4F1AB7234F65F2B61A40">Wert, der angibt, ob der Typ mehrere Eigenschaftstypen zulässt. </li> 
     </ul> </td> 
@@ -68,7 +68,7 @@ Syntax
 
 ## Beispiele {#section-1b57199415e34a8fa449f864f8895b14}
 
-Dieses Codebeispiel gibt einen Eigenschaftssatztyp nach Name zurück.
+Dieses Codebeispiel gibt einen Eigenschaftssatztyp nach Namen zurück.
 
 **Anfrage**
 

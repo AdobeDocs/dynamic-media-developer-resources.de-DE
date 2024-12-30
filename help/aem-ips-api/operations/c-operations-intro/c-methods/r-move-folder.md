@@ -1,7 +1,7 @@
 ---
-description: Verschieben Sie einen Ordner an einen neuen Speicherort.
+description: Verschiebt einen Ordner an einen neuen Speicherort.
 solution: Experience Manager
-title: moveFolder
+title: MoveFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
@@ -12,9 +12,9 @@ ht-degree: 25%
 
 ---
 
-# moveFolder{#movefolder}
+# MoveFolder{#movefolder}
 
-Verschieben Sie einen Ordner an einen neuen Speicherort.
+Verschiebt einen Ordner an einen neuen Speicherort.
 
 Syntax
 
@@ -29,15 +29,15 @@ Syntax
 
 ## Parameter {#section-473c2e68bcc14a9ea2593bee26e679dd}
 
-**Input (moveFolderParam)**
+**Eingabe (moveFolderParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
-| folderHandle | `xsd:string` | Ja | Ordner-Handle. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
+| folderHandle | `xsd:string` | Ja | Ordner-Handle |
 | destFolderHandle | `xsd:string` | Ja | Verarbeiten Sie den Zielordner. |
 
-**Output (moveFolderReturn)**
+**Ausgabe (moveFolderReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

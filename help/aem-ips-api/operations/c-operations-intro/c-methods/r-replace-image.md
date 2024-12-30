@@ -33,19 +33,19 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyName | `xsd:string` | Ja | Der Griff zum Unternehmen mit dem Bild, das Sie ersetzen möchten. |
-| assetHandle | `xsd:string` | Ja | Der Handle für das Asset, das Sie ersetzen möchten. |
-| urlModifier | `xsd:string` | Ja | Image Server-Befehle, die neue Bilddaten generieren. |
+| companyName | `xsd:string` | Ja | Das Handle für das Unternehmen mit dem Bild, das Sie ersetzen möchten. |
+| assetHandle | `xsd:string` | Ja | Das Handle des Assets, das Sie ersetzen möchten. |
+| urlModifier | `xsd:string` | Ja | Image-Server-Befehle, die neue Bilddaten generieren. |
 
-**Output (replaceImageReturn)**
+**Ausgabe (replaceImageReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Ja | Umgang mit dem neuen Asset. |
+| assetHandle | `xsd:string` | Ja | Verarbeiten Sie das neue Asset. |
 
 ## Beispiele {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Dieses Codebeispiel ersetzt ein Bild und wendet einen Befehl &quot;`urlModifier`&quot;auf einen Befehl an, der angibt, dass der Image-Server beim Ersetzen keine Aktion durchführt.
+Dieses Code-Beispiel ersetzt ein Bild und wendet ein `urlModifier` mit einem Befehl an, der angibt, dass der Bild-Server beim Ersetzen keine Aktion ausführt.
 
 **Anfrage**
 

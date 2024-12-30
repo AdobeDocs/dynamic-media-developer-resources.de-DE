@@ -1,7 +1,7 @@
 ---
 description: Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.5.
 solution: Experience Manager
-title: Neue und geänderte Datentypen
+title: Datentypen Neu und Geändert
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# Datentypen: neu und geändert{#data-types-new-and-modified}
+# Datentypen: Neu und Geändert{#data-types-new-and-modified}
 
 Beschreibt neue und geänderte Datentypen für die IPS-API-Version 4.5.
 
@@ -41,10 +41,10 @@ Syntax
 
 ## Geänderte Typen {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* Das Asset enthält ein neues `fileName` -Feld, das den Namen der virtuellen Datei zurückgibt.
-* `AssetSummary` gibt ein Feld `type` und `name` zurück
+* Asset enthält ein neues `fileName`, das den Namen der virtuellen Datei zurückgibt.
+* `AssetSummary` gibt ein `type`- und `name` zurück
 
-* `MetadataField` enthält `isHidden`
+* `MetadataField` umfasst `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` erfordert eine `urlArray` und fügt eine optionale `numUrls` Anzahl hinzu
+* `UploadUrlsJob` erfordert eine `urlArray` und fügt eine optionale `numUrls` hinzu

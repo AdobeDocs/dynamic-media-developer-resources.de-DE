@@ -34,14 +34,14 @@ Syntax
 
 ## Parameter {#section-a6b394daba6e49a8882cf3051035d9d1}
 
-**Input (getOriginalFilePathsParam)**
+**Eingabe (getOriginalFilePathsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen. |
-| assetHandleArray | `types:HandleArray` | Ja | Array von Handles zu Assets, deren ursprünglichen Dateipfad Sie abrufen möchten. |
+| companyHandle | `xsd:string` | Ja | Der Griff zum Unternehmen. |
+| assetHandleArray | `types:HandleArray` | Ja | Array von Handles für Assets, deren ursprünglicher Dateipfad Sie abrufen möchten. |
 
-**Output (getOriginalFilePathsReturn)**
+**Ausgabe (getOriginalFilePathsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntax
 
 ## Beispiele {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-Dieses Codebeispiel gibt die Dateipfade von Assets zurück, die mit eindeutigen Asset-Handles in einem Asset-Handle-Array angegeben wurden.
+Dieses Codebeispiel gibt die Dateipfade von Assets zurück, die mit eindeutigen Asset-Handles in einem Asset-Handle-Array angegeben sind.
 
 **Anfrage**
 

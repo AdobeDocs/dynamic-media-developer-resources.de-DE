@@ -1,5 +1,5 @@
 ---
-description: Ruft angegebene Auftragsprotokolle für das ausgewählte Unternehmen ab. Sie können nach Zeichen, Richtung, Start- und Enddatum und Zeilenanzahl sortieren.
+description: Ruft die angegebenen Vorgangslogs für das ausgewählte Unternehmen ab. Sie können nach Zeichen, Richtung, Start- und Enddatum und Anzahl der Zeilen sortieren.
 solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # getJobLogs{#getjoblogs}
 
-Ruft angegebene Auftragsprotokolle für das ausgewählte Unternehmen ab. Sie können nach Zeichen, Richtung, Start- und Enddatum und Zeilenanzahl sortieren.
+Ruft die angegebenen Vorgangslogs für das ausgewählte Unternehmen ab. Sie können nach Zeichen, Richtung, Start- und Enddatum und Anzahl der Zeilen sortieren.
 
 Syntax
 
@@ -32,27 +32,27 @@ Syntax
 
 ## Parameter {#section-8cfdc7994da24678a45edcb37e9a2166}
 
-**Input (getJobLogsParam)**
+**Eingabe (getJobLogsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Nein | Das Handle des Unternehmens. |
-| userHandle | `xsd:string` | Nein | Ruft Protokolle für Aufträge ab, die von einem bestimmten Benutzer gesendet wurden. |
-| sortBy | `xsd:string` | Nein | Ermöglicht die Auswahl der Sortierung von Feldern. |
+| companyHandle | `xsd:string` | Nein | Die Firma kümmert sich um. |
+| userHandle | `xsd:string` | Nein | Ruft Protokolle für Aufträge ab, die von einem bestimmten Benutzer gesendet werden. |
+| sortBy | `xsd:string` | Nein | Hier können Sie die Sortierfelder auswählen. |
 | sortDirection | `xsd:string` | Nein | Sortierreihenfolge (aufsteigend oder absteigend). |
-| startDate | `xsd:dateTime` | Nein | Datum und Uhrzeit des Starts des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. |
-| endDate | `xsd:dateTime` | Nein | Datum und Uhrzeit des Endes des Auftragsprotokolls. Geben Sie die Zeitzone mit der Anforderung für dieses Feld an. |
-| numRows | `xsd:int` | Nein | Maximale Anzahl der zurückzugebenden Zeilen. |
+| startDate | `xsd:dateTime` | Nein | Datum und Uhrzeit des Starts des Vorgangslogs. Geben Sie die Zeitzone mit der Anfrage für dieses Feld an. |
+| endDate | `xsd:dateTime` | Nein | Datum und Uhrzeit des Endes des Vorgangslogs. Geben Sie die Zeitzone mit der Anfrage für dieses Feld an. |
+| numRows | `xsd:int` | Nein | Maximale Anzahl an zurückzugebenden Zeilen |
 
-**Output (getJobLogsReturn)**
+**Ausgabe (getJobLogsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| jobLogArray | `types: JobLogArray` | Ja | Array von Auftragsprotokollen |
+| jobLogArray | `types: JobLogArray` | Ja | Array von Vorgangslogs. |
 
 ## Beispiele {#section-35871c94b4a44559912577efddbc46a6}
 
-Dieses Codebeispiel gibt IPS-Auftragsprotokolle für ein bestimmtes Unternehmen zurück. Sie können damit auch Auftragsprotokolle für einen bestimmten Benutzer, Unternehmen und Benutzer zurückgeben.
+Dieses Code-Beispiel gibt IPS-Auftragsprotokolle für ein bestimmtes Unternehmen zurück. Sie können damit auch Vorgangslogs für einen bestimmten Benutzer oder eine bestimmte Firma und einen bestimmten Benutzer zurückgeben.
 
 **Anfrage**
 

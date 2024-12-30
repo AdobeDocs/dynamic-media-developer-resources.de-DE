@@ -1,7 +1,7 @@
 ---
 description: Fügt einen Benutzer zu einem Array von Gruppen hinzu.
 solution: Experience Manager
-title: addGroupMembership
+title: addGroupMitgliedschaft
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# addGroupMembership{#addgroupmembership}
+# addGroupMitgliedschaft{#addgroupmembership}
 
 Fügt einen Benutzer zu einem Array von Gruppen hinzu.
 
@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-e250f6ddb13646808c6a8860b6442bc5}
 
-**Input (addGroupMembershipParam)**
+**Eingabe (addGroupMembershipParam)**
 
 <table id="table_71AD8902E4854CA5A12379DBA4DF17C7"> 
  <thead> 
@@ -42,24 +42,24 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Behandeln Sie den Benutzer, dessen Gruppenmitgliedschaft Sie hinzufügen möchten. </p> </td> 
+   <td colname="col4"> <p>Handle an den Benutzer, dessen Gruppenmitgliedschaft Sie hinzufügen möchten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Array von Handles zu den Gruppen, denen das Unternehmen angehören soll. </p> </td> 
+   <td colname="col4"> <p>Array von Handles für die Gruppen, denen das Unternehmen angehören soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (addGroupMembershipParam)**
+**Ausgabe (addGroupMembershipParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-In diesem Beispiel wird einem Unternehmen mit groupHandleArray eine Gruppe hinzugefügt. In diesem Beispiel wird nur eine Gruppe verwendet.
+In diesem Beispiel wird einer Firma mit groupHandleArray eine Gruppe hinzugefügt. In diesem Beispiel wird nur eine Gruppe verwendet.
 
 **Anfrage**
 

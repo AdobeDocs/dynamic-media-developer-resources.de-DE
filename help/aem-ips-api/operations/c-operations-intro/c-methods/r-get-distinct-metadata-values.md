@@ -37,7 +37,7 @@ Syntax
 | companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, für das Sie Daten abrufen möchten. |
 | metadataKey | `xsd:string` | Ja | Metadatenschlüssel in Punktnotation. |
 
-**Output (getDistinctMetadataValuesReturn)**
+**Ausgabe (getDistinctMetadataValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

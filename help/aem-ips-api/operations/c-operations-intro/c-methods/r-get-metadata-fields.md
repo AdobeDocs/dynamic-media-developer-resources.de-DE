@@ -30,18 +30,18 @@ Syntax
 
 ## Parameter {#section-bac949e59c0546429c5786fe422d750d}
 
-**Input (getMetadataFieldsParam)**
+**Eingabe (getMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens. |
-| assetType | `xsd:string` | Ja | Asset-Typen, aus denen Metadaten abgerufen werden sollen. |
+| companyHandle | `xsd:string` | Ja | Die Firma kümmert sich um. |
+| assetType | `xsd:string` | Ja | Asset-Typen, von denen Metadaten abgerufen werden sollen. |
 
-**Output (getMetadataFieldsParam)**
+**Ausgabe (getMetadataFieldsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| Codeausdruck | `Code Phrase` |  |  |
+| Code-Satz | `Code Phrase` |  |  |
 
 ## Beispiele {#section-dbfde1483d614b5aac2b491cb32115d7}
 

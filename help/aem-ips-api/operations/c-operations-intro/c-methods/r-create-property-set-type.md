@@ -1,5 +1,5 @@
 ---
-description: Ein Eigenschaftssatz-Typ gibt verschiedene Einstellungen an, die zur Verwaltung von Eigenschaftssätzen verwendet werden.
+description: Ein Eigenschaftssatztyp gibt verschiedene Einstellungen an, die bei der Verwaltung von Eigenschaftssätzen verwendet werden.
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # createPropertySetType{#createpropertysettype}
 
-Ein Eigenschaftssatz-Typ gibt verschiedene Einstellungen an, die zur Verwaltung von Eigenschaftssätzen verwendet werden.
+Ein Eigenschaftssatztyp gibt verschiedene Einstellungen an, die bei der Verwaltung von Eigenschaftssätzen verwendet werden.
 
 Syntax
 
@@ -31,20 +31,20 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Nein | Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn `companyHandle` nicht übergeben wird und der Aufrufer ein `IpsAdmin` ist, wird ein globaler Eigenschaftssatztyp erstellt. |
+| companyHandle | `xsd:string` | Nein | Das Handle an das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn `companyHandle` nicht übergeben wird und der Aufrufer ein `IpsAdmin` ist, wird ein globaler Eigenschaftssatztyp erstellt. |
 | name | `xsd:string` | Ja | Der Name des Eigenschaftssatztyps. |
 | propertyType | `xsd:string` | Ja | Auswahl der Eigenschaftssatztypen. |
-| allowMultiple | `xsd:boolean` | Ja | Bestimmt, ob Ihr Programm mehrere Eigenschaftssätze haben kann. |
+| allowMultiple | `xsd:boolean` | Ja | Bestimmt, ob Ihr Programm über mehrere Eigenschaftssätze verfügen kann. |
 
-**Output (createPropertySetTypeReturn)**
+**Ausgabe (createPropertySetTypeReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Ja | Ein Griff zum Typ. |
+| typeHandle | `xsd:string` | Ja | Ein Handle für den Typ. |
 
 ## Beispiele {#section-13396c9639a6475190e622eae3cdb534}
 
-Dieses Codebeispiel erstellt einen Eigenschaftssatz mit einem Namen und Typ, der von der `PropertySet Types` -Konstante angegeben wird. Der Handle für das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn companyHandle nicht übergeben wird und der Aufrufer ein IpsAdmin ist, wird ein globaler Eigenschaftssatztyp erstellt.
+Dieses Codebeispiel erstellt einen Eigenschaftssatz mit einem Namen und einem Typ, die durch die `PropertySet Types`-Konstante angegeben werden. Das Handle an das Unternehmen, dem der Eigenschaftssatztyp gehört. Wenn companyHandle nicht übergeben wird und der Aufrufer ein IpsAdmin ist, wird ein globaler Eigenschaftssatztyp erstellt.
 
 **Anfrage**
 

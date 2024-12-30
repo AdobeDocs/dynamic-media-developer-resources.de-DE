@@ -29,7 +29,7 @@ Syntax
 
 >[!NOTE]
 >
->Der Benutzer muss Lese-/Schreibzugriff auf den Zielordner haben.
+>Die Benutzerin bzw. der Benutzer muss Lese-/Schreibzugriff auf den Zielordner haben.
 
 ## Parameter {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -37,21 +37,21 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle des Unternehmens, zu dem das Bildset gehört. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, zu dem das Bildset gehört. |
 | folderHandle | `xsd:string` | Ja | Der Handle zum Ordner. |
 | name | `xsd:string` | Ja | Name des Bildsets. |
-| Typ | `xsd:string` | Ja | Bildset-Typ. |
-| thumbAssetHandle | `xsd:string` | Nein | Handle des Assets, das als Miniaturansicht für das neue Bildset dient. Wenn kein Wert angegeben ist, versucht IPS, das erste Bild-Asset zu verwenden, auf das vom Set verwiesen wird. |
+| Typ | `xsd:string` | Ja | Typ des Bildsets. |
+| thumbAssetHandle | `xsd:string` | Nein | Handle des Assets, das als Miniatur für das neue Bildset fungiert. Wenn kein Wert angegeben ist, versucht IPS, das erste Bild-Asset zu verwenden, auf das vom Set verwiesen wird. |
 
 **Ausgabe**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Ja | Der Griff zum neuen Bildset. |
+| assetHandle | `xsd:string` | Ja | Der Ziehpunkt zum neuen Bildset. |
 
 ## Beispiele {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-In diesem Codebeispiel wird ein Bildset erstellt, das nach Unternehmen, Ordner, Name und Typ angegeben ist. Die Antwort ist ein Asset-Handle des neu erstellten Bildsets.
+Dieses Codebeispiel erstellt ein Bildset, das durch Firma, Ordner, Name und Typ angegeben wird. Die Antwort ist ein Asset-Handle des neu erstellten Bildsets.
 
 **Anfrage**
 

@@ -1,5 +1,5 @@
 ---
-description: Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zurück, um zu erzwingen, dass das Asset im nächsten Veröffentlichungsauftrag erneut veröffentlicht wird.
+description: Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zurück, um die erneute Veröffentlichung des Assets im nächsten Veröffentlichungsauftrag zu erzwingen.
 solution: Experience Manager
 title: forceRepublishAssets
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # forceRepublishAssets{#forcerepublishassets}
 
-Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zurück, um zu erzwingen, dass das Asset im nächsten Veröffentlichungsauftrag erneut veröffentlicht wird.
+Setzt den Veröffentlichungsstatus für ein oder mehrere Assets zurück, um die erneute Veröffentlichung des Assets im nächsten Veröffentlichungsauftrag zu erzwingen.
 
 Syntax
 
@@ -29,7 +29,7 @@ Syntax
 
 ## Parameter {#section-fd3f4dde9e984240b6f3e6d7a8db4e78}
 
-**Input (forceRepublishAssetsParam)**
+**Eingabe (forceRepublishAssetsParam)**
 
 <table id="table_742D67AD77554904976EC4A07A0CBC64"> 
  <thead> 
@@ -45,30 +45,30 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Verarbeiten Sie das Unternehmen mit den zurückzusetzenden Assets. </p> </td> 
+   <td colname="col4"> <p>Verarbeiten Sie das Unternehmen mit den Assets, die zurückgesetzt werden sollen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Zeigt an, dass die Dateien für das Asset erneut auf den Bereitstellungsservern veröffentlicht werden. Die Standardeinstellung ist <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Gibt an, dass die Dateien für das Asset erneut auf den Bereitstellungs-Servern veröffentlicht werden. Die Standardeinstellung ist <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Zeigt an, dass die für die Bereitstellung des Assets verwendeten Katalogmetadaten synchronisiert werden, um sicherzustellen, dass sie aktuell sind. Dieser Parameter wird verwendet, um Race-Bedingungen aufzulösen, die bei nahezu gleichzeitigen Aktualisierungen am selben Datensatz auftreten können. Der Standardwert ist <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Gibt an, dass die Katalogmetadaten, die für die Bereitstellung des Assets verwendet werden, synchronisiert werden, um sicherzustellen, dass es aktuell ist. Dieser Parameter wird verwendet, um Racebedingungen zu beheben, die bei nahezu gleichzeitigen Aktualisierungen desselben Datensatzes auftreten können. Die Standardeinstellung ist <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Array von Handles zu Assets, deren Veröffentlichungsstatus zurückgesetzt werden soll. </p> </td> 
+   <td colname="col4"> <p>Array von Handles für Assets, deren Veröffentlichungsstatus zurückgesetzt werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (forceRepublishAssetsParam)**
+**Ausgabe (forceRepublishAssetsParam)**
 
 <table id="table_78E74186669F477E9E2D837D58A789DC"> 
  <thead> 
@@ -82,7 +82,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PublishStateUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array von Aktualisierungen des Veröffentlichungsstatus. </p> </td> 
   </tr> 

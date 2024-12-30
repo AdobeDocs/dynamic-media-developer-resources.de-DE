@@ -1,7 +1,7 @@
 ---
-description: Fügt einen Benutzer einem oder mehreren Unternehmen hinzu.
+description: Fügt einem oder mehreren Unternehmen einen Benutzer hinzu.
 solution: Experience Manager
-title: addCompanyMembership
+title: addCompanyMitgliedschaft
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# addCompanyMembership{#addcompanymembership}
+# addCompanyMitgliedschaft{#addcompanymembership}
 
-Fügt einen Benutzer einem oder mehreren Unternehmen hinzu.
+Fügt einem oder mehreren Unternehmen einen Benutzer hinzu.
 
 Syntax
 
@@ -27,20 +27,20 @@ Syntax
 
 ## Parameter {#section-0e925b91d63e48aa91f0b0014e6a0cab}
 
-**Input (addCompanyMembershipParam)**
+**Eingabe (addCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nein | Das Handle für den Benutzer, dessen Mitgliedschaft Sie hinzufügen möchten. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Eine Reihe von Unternehmen, denen Sie den Benutzer hinzufügen. |
+| userHandle | `xsd:string` | Nein | Das -Handle für den Benutzer, dessen Mitgliedschaft Sie hinzufügen möchten. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Eine Reihe von Unternehmen, denen Sie die Benutzerin bzw. den Benutzer hinzufügen. |
 
-**Output (addCompanyMembershipReturn)**
+**Ausgabe (addCompanyMembershipReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-5469f88bac7047cca131faa6b021e437}
 
-In diesem Beispiel wird companyHandleArray verwendet, um einem einzelnen Unternehmen einen Benutzer hinzuzufügen.
+In diesem Beispiel wird companyHandleArray verwendet, um einer einzelnen Firma einen Benutzer hinzuzufügen.
 
 **Anfrage**
 

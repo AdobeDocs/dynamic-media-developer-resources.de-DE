@@ -36,7 +36,7 @@ Syntax
 
 ## Parameter {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
-**Input (getAssetsParam)**
+**Eingabe (getAssetsParam)**
 
 <table id="table_15CDEFC7F836411C80AA122E3A701C77"> 
  <thead> 
@@ -52,37 +52,37 @@ Syntax
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Das Handle des Unternehmens. </p> </td> 
+   <td colname="col4"> <p>Die Firma kümmert sich um. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Identität eines bestimmten Benutzers annehmen. Wird nur von Administratoren verwendet. </p> </td> 
+   <td colname="col4"> <p>Verkörpern eines bestimmten Benutzers. Wird nur von Administratoren verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Filtern nach Gruppe. </p> </td> 
+   <td colname="col4"> <p>Nach Gruppe filtern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn diese Option ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. </p> </td> 
+   <td colname="col4"> <p>Der Stammordner zum Abrufen von Ordnern und allen Unterordnern auf Blattebene. Wenn dies ausgeschlossen ist, wird der Stammordner des Unternehmens verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>In der Antwort enthaltene Felder und Unterfelder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Felder und Unterfelder, die aus der Antwort ausgeschlossen sind. </p> </td> 
+   <td colname="col4"> <p>Felder und Unterfelder, die von der Antwort ausgeschlossen sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,8 +100,8 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> AssetArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Array von Assets, die den Filterkriterien entsprechen. </p> </td> 
   </tr> 

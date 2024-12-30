@@ -1,5 +1,5 @@
 ---
-description: Startet einen angehaltenen Auftrag neu.
+description: Startet einen pausierten Vorgang neu.
 solution: Experience Manager
 title: resumeJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # resumeJob{#resumejob}
 
-Startet einen angehaltenen Auftrag neu.
+Startet einen pausierten Vorgang neu.
 
 Syntax
 
@@ -31,12 +31,12 @@ Syntax
 
 ## Parameter {#section-6b2f8aa65d4d4ae1af0c9cee468b0a51}
 
-**Input (resumeJobParam)**
+**Eingabe (resumeJobParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Auftrag, den Sie neu starten möchten. |
-| jobHandle | `xsd:string` | Ja | Der Griff zum angehaltenen Auftrag. |
+| companyHandle | `xsd:string` | Ja | Der Handler an die Firma mit dem Auftrag, den Sie neu starten möchten. |
+| jobHandle | `xsd:string` | Ja | Der Handler zum angehaltenen Auftrag. |
 
 **Ausgabe (resumeJobReturn)**
 
@@ -44,7 +44,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-d0524e031f1f43d89430eade19526162}
 
-In diesem Codebeispiel wird ein angehaltener Auftrag neu gestartet.
+Dieses Code-Beispiel startet einen pausierten Auftrag neu.
 
 **Anfrage**
 

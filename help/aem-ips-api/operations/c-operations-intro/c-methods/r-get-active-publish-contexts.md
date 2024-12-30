@@ -1,5 +1,5 @@
 ---
-description: Ruft eine Liste aktiver Veröffentlichungskontexte für das angegebene Unternehmen ab. Ein Veröffentlichungskontext wird als aktiv betrachtet, wenn mindestens ein aktiver Server für den Kontext definiert ist.
+description: Ruft eine Liste der aktiven Veröffentlichungskontexte für das angegebene Unternehmen ab. Ein Veröffentlichungskontext wird als aktiv betrachtet, wenn mindestens ein aktiver Server für den Kontext definiert ist.
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getActivePublishContext{#getactivepublishcontext}
 
-Ruft eine Liste aktiver Veröffentlichungskontexte für das angegebene Unternehmen ab. Ein Veröffentlichungskontext wird als aktiv betrachtet, wenn mindestens ein aktiver Server für den Kontext definiert ist.
+Ruft eine Liste der aktiven Veröffentlichungskontexte für das angegebene Unternehmen ab. Ein Veröffentlichungskontext wird als aktiv betrachtet, wenn mindestens ein aktiver Server für den Kontext definiert ist.
 
 Syntax
 
@@ -32,14 +32,14 @@ Syntax
 
 ## Parameter {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**Input (getActivePublishContextsParam)**
+**Eingabe (getActivePublishContextsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, um nach aktiven Veröffentlichungskontexten zu suchen |
+| companyHandle | `xsd:string` | Ja | Der Handler an das Unternehmen, um aktive Veröffentlichungskontexte abzufragen |
 
-**Output (getActivePublishContextsReturn)**
+**Ausgabe (getActivePublishContextsReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Ja | Das Array aktiver Veröffentlichungskontexte, die null oder mehr Werte aus Publish Context enthalten können. |
+| contextArray | `types:StringArray` | Ja | Das Array aktiver Veröffentlichungskontexte, das null oder mehr Werte aus Publish Context enthalten kann. |

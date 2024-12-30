@@ -1,17 +1,16 @@
 ---
 source-git-commit: 8bb72078ad582e6a23e9048a9daa152b7cd5bb54
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
 
 ---
-# Dokumentation zu Adobe Dynamic Media Developer Resources
+# Adobe Dokumentation zu Dynamic Media-Entwicklungsressourcen
 
-Dies ist das Repository für Adobe Dynamic Media Developer Resources.
+Dies ist das Repository für das Adobe der Dokumentation für Dynamic Media-Entwicklungsressourcen.
 
-Ihre Beiträge zur Dokumentation sind willkommen. Bitte sehen Sie sich die folgenden Ressourcen an:
+Ihre Beiträge zur Dokumentation sind willkommen. Siehe die folgenden Ressourcen:
 
-* [beitrag.](contributing.md) mdEine Übersicht über den Beitrag zur Dokumentation.
-* [guidelines.](guidelines.md) mdFür eine Übersicht über die erwarteten Beiträge und die Zusammenstellung Ihrer Dokumentationsbeiträge.
-* [code-of-duct.](code-of-conduct.md) mdEinen Überblick über die Verhaltensnormen, die wir erwarten, wenn Sie zu diesem Dokumentationsprojekt beitragen.
+* [contributor.md](contributing.md) Einen Überblick darüber, wie Sie zur Dokumentation beitragen können.
+* [guidelines.md](guidelines.md) Einen Überblick darüber, was an Beiträgen erwartet wird und wie Sie Ihre Dokumentationsbeiträge zusammenstellen.
+* [code-of-conduct.md](code-of-conduct.md) Einen Überblick über die Verhaltensnormen, die wir von Ihnen erwarten, wenn Sie zu diesem Dokumentationsprojekt beitragen.

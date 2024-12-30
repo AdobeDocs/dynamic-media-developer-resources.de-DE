@@ -1,5 +1,5 @@
 ---
-description: Legt das Miniaturbild für ein oder mehrere Assets fest.
+description: Legt das Miniaturbild für mindestens ein Asset fest.
 solution: Experience Manager
 title: batchSetThumbAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,17 +14,17 @@ ht-degree: 11%
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
-Legt das Miniaturbild für ein oder mehrere Assets fest.
+Legt das Miniaturbild für mindestens ein Asset fest.
 
 Syntax
 
-## Miniatur-Asset-Typen {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## Asset-Typen für Miniaturen {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
 Zulässige Asset-Typen für Miniaturansichten bestehen aus den folgenden:
 
 * Bild
-* AdjustedView
-* Maskieren
+* Angepasste Ansicht
+* Maske
 * Vorlage
 * PsdTemplate
 
@@ -39,26 +39,26 @@ Zulässige Asset-Typen für Miniaturansichten bestehen aus den folgenden:
 
 >[!NOTE]
 >
->Der Benutzer muss Lese-/Schreibzugriff auf das Ziel-Asset und Lesezugriff auf das Daumenasset haben.
+>Der Benutzer muss Lese-/Schreibzugriff auf das Ziel-Asset und Lesezugriff auf das Miniatur-Asset haben.
 
 ## Parameter {#section-9c6efa000b384b3db6c013def20cf40b}
 
-**Input (batchSetThumbAssetParam)**
+**Eingabe (batchSetThumbAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das die Assets enthält. |
-| updateArray | `types:ThumbAssetUpdateArray` | Ja | Das Array von Updates. |
+| companyHandle | `xsd:string` | Ja | Das -Handle an die Firma, die die Assets enthält. |
+| updateArray | `types:ThumbAssetUpdateArray` | Ja | Das Array von Aktualisierungen. |
 
-**Output (batchSetThumbAssetParam)**
+**Ausgabe (batchSetThumbAssetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich eingerichteten Miniaturansichten. |
-| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, die Miniaturansichten festzulegen. |
-| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch des Vorgangs generiert wurden, die Miniaturansichten festzulegen. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Fehler generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
+| successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich festgelegten Miniaturansichten. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, als der Vorgang versucht hat, die Miniaturansichten festzulegen. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die beim Versuch generiert wurden, die Miniaturen festzulegen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Warnungen generiert haben, wenn der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Fehler generiert haben, als der Vorgang versucht hat, die Aktualisierungen anzuwenden. |
 
 ## Beispiele {#section-6de69a8680c24c1486c5f01488393381}
 

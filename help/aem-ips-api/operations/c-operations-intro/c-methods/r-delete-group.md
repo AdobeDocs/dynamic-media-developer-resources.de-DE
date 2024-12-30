@@ -26,20 +26,20 @@ Syntax
 
 ## Parameter {#section-42775102ec724c36ae5241eea1a00b8e}
 
-**Input (deleteGroupParam)**
+**Eingabe (deleteGroupParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle des Unternehmens, das zu der Gruppe gehört, die Sie löschen möchten. |
-| groupHandle | `xsd:string` | Ja | Der Handle für die Gruppe, die Sie löschen möchten. |
+| companyHandle | `xsd:string` | Ja | Das Handle der Firma, die zu der Gruppe gehört, die Sie löschen möchten. |
+| groupHandle | `xsd:string` | Ja | Das Handle für die Gruppe, die Sie löschen möchten. |
 
-**Output (deleteGroupParam)**
+**Ausgabe (deleteGroupParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-Mit diesem Beispielcode wird eine Gruppe aus einem Unternehmen gelöscht. Dazu ist ein Gruppenhandle erforderlich, den Sie von einem anderen Vorgang abrufen müssen.
+Dieser Beispiel-Code löscht eine Gruppe aus einer Firma. Sie erfordert ein Gruppenhandle, das Sie von einem anderen Vorgang erhalten müssen.
 
 **Anfrage**
 
