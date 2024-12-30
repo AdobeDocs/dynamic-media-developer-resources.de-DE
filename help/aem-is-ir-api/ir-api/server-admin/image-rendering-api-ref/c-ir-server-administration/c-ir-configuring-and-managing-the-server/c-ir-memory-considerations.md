@@ -1,7 +1,7 @@
 ---
-description: Der vom Image Rendering verwendete Speicher kann stark variieren und hängt stark von der tatsächlichen Auslastung und Nutzung des Servers ab (z. B. wenige bzw. viele verschiedene Vignetten, Größe und Komplexität von Vignetten usw.).
+description: Der für das Bild-Rendering verwendete Arbeitsspeicher kann stark variieren und hängt stark von der tatsächlichen Server-Last und -Nutzung ab (z. B. wenige im Vergleich zu vielen verschiedenen Vignetten, Größe und Komplexität von Vignetten usw.).
 solution: Experience Manager
-title: Überlegungen zum Speicher
+title: Überlegungen zum Arbeitsspeicher
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 62eaa41c-a61c-4bcd-8dd9-9c3423bf82ef
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Überlegungen zum Speicher{#memory-considerations}
+# Überlegungen zum Arbeitsspeicher{#memory-considerations}
 
-Der vom Image Rendering verwendete Speicher kann stark variieren und hängt stark von der tatsächlichen Auslastung und Nutzung des Servers ab (z. B. wenige bzw. viele verschiedene Vignetten, Größe und Komplexität von Vignetten usw.).
+Der für das Bild-Rendering verwendete Arbeitsspeicher kann stark variieren und hängt stark von der tatsächlichen Server-Last und -Nutzung ab (z. B. wenige im Vergleich zu vielen verschiedenen Vignetten, Größe und Komplexität von Vignetten usw.).
 
-Um eine optimale Leistung zu erzielen, sollte das Paging (Austauschen) des Speichers vermieden werden.
+Um eine optimale Leistung zu erzielen, sollte das Auslagern des Arbeitsspeichers (Austauschen) vermieden werden.
 
-Das Bild-Rendering nutzt die Speicherverwaltung des Image-Servers. Bei Verwendung des Bild-Renderings sollte zusätzlicher Arbeitsspeicher zugewiesen werden. 30 bis 50% des physischen Speichers können vernünftig sein.
+Beim Rendern von Bildern wird die Speicherverwaltung des Bild-Servers gemeinsam genutzt. Bei Verwendung des Bild-Renderings sollte zusätzlicher Speicher zugewiesen werden. 30 bis 50 % des physischen Speichers können angemessen sein.
 
-Informationen zum Ändern der Speicherzuordnung für den Image-Server (ImageServer::PhysicalMemory) finden Sie in der Dokumentation zum Image-Serving .
+Informationen zum Ändern der Speicherzuweisung für den Image-Server (ImageServer::PhysicalMemory) finden Sie in der Image-Serving-Dokumentation .

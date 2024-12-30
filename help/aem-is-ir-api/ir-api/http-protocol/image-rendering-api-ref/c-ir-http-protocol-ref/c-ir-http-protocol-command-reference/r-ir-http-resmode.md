@@ -1,6 +1,6 @@
 ---
 title: resMode
-description: Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, um das gerenderte Bild auf die mit wid=, hei= oder scl= angegebene Größe zu skalieren.
+description: Resampling-Modus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, um das gerenderte Bild auf die mit wid=, hei= oder scl= angegebene Größe zu skalieren.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,34 +14,34 @@ ht-degree: 7%
 
 # resMode{#resmode}
 
-Resamplingmodus. Wählt den Resampling- und/oder Interpolationsalgorithmus für die Skalierung des gerenderten Bildes auf die mit `wid=`, `hei=` oder `scl=` angegebene Größe aus.
+Resampling-Modus. Wählt den Resampling- und/oder Interpolationsalgorithmus aus, um das gerenderte Bild auf die mit `wid=`, `hei=` oder `scl=` angegebene Größe zu skalieren.
 
-` `resMode=bilin|bicub|sharp2|bisharp&quot;
+` `resMode=bilin|bicub|sharp2|bisharp“
 
 <table id="table_AF954C101B30473FAFE9930C7B694305"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>Wählt die standardmäßige bilaterale Interpolation aus. Schnellste Neuberechnungsmethode; einige Aliasing-Artefakte sind möglicherweise bemerkbar. </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> Bilin </span> </p> </td> 
+   <td colname="col2"> <p>Wahl der standardmäßigen bilinearen Interpolation Schnellste Neuberechnungsmethode; einige Aliasing-Artefakte sind möglicherweise bemerkbar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>Wählt bikubische Interpolation aus. CPU-intensiver als bilineare Interpolation, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten. </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> Bicub-</span> </p> </td> 
+   <td colname="col2"> <p>Wählt bikubische Interpolation. CPU-intensiver als bilineare Interpolation, liefert jedoch schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Wählt eine modifizierte Lanczos Window-Funktion als Interpolationsalgorithmus aus. Kann bei höheren CPU-Kosten etwas schärfere Ergebnisse als bikubisch liefern. </p> <p> <span class="codeph"> scharf </span> wurde durch <span class="codeph"> scharf2 </span> ersetzt, was eine geringere Wahrscheinlichkeit hat, Aliasing-Artefakte zu verursachen, auch Moiré genannt. </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> Sharp2-</span> </p> </td> 
+   <td colname="col2"> <p>Wählt eine modifizierte Lanczos-Fensterfunktion als Interpolationsalgorithmus. Kann zu einem höheren CPU-Preis etwas schärfere Ergebnisse als bikubisch liefern. </p> <p> <span class="codeph"> scharfe </span> wurde durch <span class="codeph"> scharfe2-</span> ersetzt, wodurch die Wahrscheinlichkeit, Alias-Artefakte zu verursachen, geringer ist (auch bekannt als Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Wählt den standardmäßigen Resampler <span class="keyword"> Adobe Photoshop </span> zur Reduzierung der Bildgröße aus, der in <span class="keyword"> Adobe Photoshop </span> als "bikubische Scharfzeichnung"bezeichnet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Bisharp </span> </p> </td> 
+   <td colname="col2"> <p>Wählt das <span class="keyword"> Adobe Photoshop </span> standardmäßige Resampler zur Reduzierung der Bildgröße aus, das in <span class="keyword"> Adobe Photoshop-</span> als „bikubisch schärfer“ bezeichnet wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-ea7029f37e094d9cb85646b85fbac0ce}
 
-Kann an einer beliebigen Stelle in der Anfrage auftreten. Wird ignoriert, wenn keine endgültige Bildskalierung angewendet wird.
+Kann überall in der Anfrage auftreten. Wird ignoriert, wenn keine endgültige Bildskalierung angewendet wird.
 
 ## Standard {#section-900872fb93dc41efb3e8ad5b62aadc38}
 

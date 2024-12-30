@@ -1,6 +1,6 @@
 ---
 title: clipXPath
-description: Umgekehrter Ebenenbeschneidungspfad. Gibt einen Ausschlussklammern-Pfad für die aktuelle Ebene an. Alle Teile der Ebene, die innerhalb des durch clipXPath= definierten Bereichs liegen, werden transparent dargestellt.
+description: Pfad für Layer-Clips invertiert. Gibt einen Ausschluss-Clip-Pfad für die aktuelle Ebene an. Alle Teile der Ebene, die sich in dem durch clipXPath= definierten Bereich befinden, werden transparent dargestellt.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # clipXPath{#clipxpath}
 
-Umgekehrter Ebenenbeschneidungspfad. Gibt einen Ausschlussklammern-Pfad für die aktuelle Ebene an. Alle Teile der Ebene, die innerhalb des durch clipXPath= definierten Bereichs liegen, werden transparent dargestellt.
+Pfad für Layer-Clips invertiert. Gibt einen Ausschluss-Clip-Pfad für die aktuelle Ebene an. Alle Teile der Ebene, die sich in dem durch clipXPath= definierten Bereich befinden, werden transparent dargestellt.
 
 `clipXPath= *`pathDefinition`*`
 
@@ -27,15 +27,15 @@ Umgekehrter Ebenenbeschneidungspfad. Gibt einen Ausschlussklammern-Pfad für die
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
-  <td class="stentry"> <p>Name des Pfades, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p></td> 
+  <td class="stentry"> <p>Name des Pfads, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p></td> 
  </tr> 
 </table>
 
-Weitere Informationen, einschließlich einer Beschreibung von `*`pathName`*` und `*`pathDefinition`*`, finden Sie unter [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) .
+Siehe [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) für weitere Informationen, einschließlich einer Beschreibung von `*`pathName`*` und `*`pathDefinition`*`.
 
 ## Eigenschaften {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird ignoriert, wenn `clipPath=` nicht angegeben ist. Wird von Effektebenen ignoriert.
+Ebenenattribut. Gilt für die aktuelle Ebene oder das zusammengesetzte Bild, falls `layer=comp`. Ignoriert, wenn `clipPath=` nicht angegeben ist. Von Effektebenen ignoriert.
 
 ## Standard {#section-d1986aa31af14767aeb1b4a57add67f4}
 

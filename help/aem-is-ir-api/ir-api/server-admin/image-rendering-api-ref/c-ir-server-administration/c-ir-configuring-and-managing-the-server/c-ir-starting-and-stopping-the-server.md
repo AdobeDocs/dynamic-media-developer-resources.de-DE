@@ -1,7 +1,7 @@
 ---
-description: Das Bild-Rendering ist in die Image-Server- und [!DNL Platform Server] Komponenten von Image Serving eingebettet.
+description: Das Bild-Rendering ist in die Image-Server- und -Komponenten  [!DNL Platform Server]  Bildbereitstellung eingebettet.
 solution: Experience Manager
-title: Starten und Beenden des Servers
+title: Starten und Anhalten des Servers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 79ec6e27-4964-41bc-b8ae-fc50cc59e728
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Starten und Beenden des Servers{#starting-and-stopping-the-server}
+# Starten und Anhalten des Servers{#starting-and-stopping-the-server}
 
-Das Bild-Rendering ist in die Image Server- und [!DNL Platform Server]-Komponenten des Image Serving eingebettet.
+Das Bild-Rendering ist in die Bildserver- und [!DNL Platform Server]-Komponenten von Image Serving eingebettet.
 
-Weitere Informationen finden Sie in der Dokumentation zur Image-Serving .
+Weitere Informationen finden Sie in der Dokumentation zu Image-Serving .

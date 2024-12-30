@@ -1,6 +1,6 @@
 ---
 title: Befehlsmakros
-description: Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze.
+description: Befehlsmakros bieten benannte Tastaturbefehle für Befehlssätze.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Befehlsmakros{#command-macros}
 
-Befehlsmakros bieten spezifische Tastaturbefehle für Befehlssätze.
+Befehlsmakros bieten benannte Tastaturbefehle für Befehlssätze.
 
 `$ *[!DNL name]*$`
 
-** *[!DNL name]* ** Makroname
+** *[!DNL name]* ** Makronamen
 
 Makros werden in separaten Makrodefinitionsdateien definiert, die an Materialkataloge oder den Standardkatalog angehängt werden können.
 
-*[!DNL name]* unterscheidet nicht zwischen Groß- und Kleinschreibung und kann aus einer beliebigen Kombination aus ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen. Zeichen.
+*[!DNL name]* wird nicht zwischen Groß- und Kleinschreibung unterschieden und kann aus einer beliebigen Kombination von ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen. Zeichen.
 
-Rufen Sie Makros an einer beliebigen Stelle in einer Anforderung nach dem &quot;?&quot;oder an einer beliebigen Stelle in einem `vignette::Modifier` -Feld auf. Makros können nur einen oder mehrere Image Rendering-Befehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;Trennzeichen getrennt werden.
+Makros an einer beliebigen Stelle in einer Anfrage nach dem &quot;?“ oder an einer beliebigen Stelle in einem `vignette::Modifier` Feld aufrufen. Makros können nur einen oder mehrere Image-Rendering-Befehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;-Trennzeichen getrennt werden.
 
-Makroaufrufe werden während des Parsens durch ihre Ersatzzeichenfolgen ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dieser Workflow unterscheidet sich von `vignette::Modifier`, bei dem Befehle in der Anforderungszeichenfolge Befehle in der Zeichenfolge `vignette::Modifier` außer Kraft setzen, unabhängig von der Position in der Anforderung.
+Makroaufrufe werden durch ihre Ersatzzeichenfolgen frühzeitig während der Analyse ersetzt. Befehle in Makros überschreiben dieselben Befehle in der Anfrage, wenn sie vor dem Makroaufruf in der Anfrage auftreten. Dieser Workflow unterscheidet sich von `vignette::Modifier`, bei dem Befehle in der Anfragezeichenfolge Befehle in der `vignette::Modifier`-Zeichenfolge überschreiben, unabhängig von der Position in der Anfrage.
 
-Befehlsmakros können keine Argumentwerte haben, aber benutzerdefinierte Variablen können verwendet werden, um Werte aus der Anfrage an das Makro zu übergeben.
+Befehlsmakros dürfen keine Argumentwerte enthalten, jedoch können benutzerdefinierte Variablen verwendet werden, um Werte aus der Anforderung an das Makro zu übergeben.
 
-Makros können nicht verschachtelt sein.
+Makros dürfen nicht verschachtelt sein.
 
 **Beispiel**
 
-Makros können nützlich sein, wenn dieselben Befehle oder Attribute auf verschiedene gerenderte Bilder angewendet werden sollen.
+Makros können hilfreich sein, wenn dieselben Befehle oder Attribute auf verschiedene gerenderte Bilder angewendet werden sollen.
 
 `http://server/ir/render/cat/vig0?fmt=jpeg&qlt=80&sharpen=1&src=cat/matA&res=40 http://server/ir/render/cat/vig1?fmt=jpeg&qlt=80&sharpen=1&src=cat/matB&res=40 http://server/ir/render/cat/vig2?fmt=jpeg&qlt=95&sharpen=1&src=cat/matC&res=40`
 
@@ -46,7 +46,7 @@ Das Makro würde wie folgt verwendet:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Da `qlt=` für die dritte Anforderung unterschiedlich ist, überschreibt die Software den Wert, nachdem das Makro aufgerufen wurde (wobei `qlt=` *vor* `$render$`nicht aktiv ist).
+Da `qlt=` für die dritte Anfrage unterschiedlich ist, überschreibt die Software den Wert, nachdem das Makro aufgerufen wurde (die Angabe von `qlt=` *before* `$render$` ist ineffektiv).
 
 **Siehe auch**
 

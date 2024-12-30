@@ -1,6 +1,6 @@
 ---
-title: cache
-description: Cache-Steuerung. Ermöglicht das selektive Deaktivieren der clientseitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerkzwischenspeicherungssysteme) und des Caching im internen [!DNL Platform Server] Cache.
+title: Cache
+description: Cache-Steuerung Ermöglicht die selektive Deaktivierung der Client-seitigen Zwischenspeicherung (Browser, Proxy-Server, Netzwerk-Caching-Systeme) und die Zwischenspeicherung im internen  [!DNL Platform Server] .
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# cache {#cache}
+# Cache {#cache}
 
-Cache-Steuerung. Hiermit können Sie die clientseitige Zwischenspeicherung (Browser, Proxy-Server, Netzwerkzwischenspeicherungssysteme) und Zwischenspeicherung im internen [!DNL Platform Server]-Cache selektiv deaktivieren.
+Cache-Steuerung Ermöglicht die selektive Deaktivierung des Client-seitigen Caching (Browser, Proxy-Server, Netzwerk-Caching-Systeme) und des Caching im internen [!DNL Platform Server].
 
 `cache= *`cacheControl`*`
 
@@ -23,31 +23,31 @@ Cache-Steuerung. Hiermit können Sie die clientseitige Zwischenspeicherung (Brow
 <table id="simpletable_CBB5DFBD48B444A4AA806B11299BC43E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> cacheControl</span> </p> </td> 
-  <td class="stentry"> <p>on | off | validate </p></td> 
+  <td class="stentry"> <p>am | AUS | validieren </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> clientControl </span> </p> </td> 
-  <td class="stentry"> <p>on | off </p></td> 
+  <td class="stentry"> <p><span class="varname"> clientControl-</span> </p> </td> 
+  <td class="stentry"> <p>am | AUS </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> serverControl </span> </p></td> 
-  <td class="stentry"> <p>on | off </p></td> 
+  <td class="stentry"> <p><span class="varname"> serverControl-</span> </p></td> 
+  <td class="stentry"> <p>am | AUS </p></td> 
  </tr> 
 </table>
 
-Wenn nur ein *`cacheControl`* -Wert angegeben ist, wird er sowohl auf Client- als auch auf Server-Caches angewendet.
+Wenn nur ein *`cacheControl`* angegeben ist, wird er sowohl auf den Client- als auch auf den Server-Cache angewendet.
 
-Das Keyword &quot;`validate`&quot; ermöglicht die Aktualisierung von Server-Cache-Einträgen, nachdem Textur- oder Vignettendateien geändert wurden, ohne dass der Cache-Eintrag automatisch ablaufen muss. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
+Mit dem Schlüsselwort &quot;`validate`&quot; können Server-Cache-Einträge aktualisiert werden, nachdem sich die Textur- oder Vignettendateien geändert haben, ohne darauf warten zu müssen, dass der Cache-Eintrag automatisch abläuft. Die Client-Zwischenspeicherung ist von diesem Befehl nicht betroffen.
 
-Wenn in einer verschachtelten Anforderung angegeben, ermöglicht `cache=on` das beständige, serverseitige Caching des von der verschachtelten Anforderung generierten Bildes. Stellen Sie sicher, dass Sie die Zwischenspeicherung für verschachtelte Anforderungen nur aktivieren, wenn dieselbe verschachtelte Anforderung wiederholt mit denselben Parametern aufgerufen wird.
+Wenn in einer verschachtelten Anfrage angegeben, ermöglicht `cache=on` ein persistentes, Server-seitiges Caching des durch die verschachtelte Anfrage generierten Bildes. Achten Sie darauf, dass Sie das Caching nur für verschachtelte Anfragen aktivieren, wenn dieselbe verschachtelte Anfrage wiederholt mit denselben Parametern aufgerufen wird.
 
 ## Eigenschaften {#section-0dcbd62e1122400e8c347f408f2d937e}
 
-Kann an einer beliebigen Stelle in der Anfrage auftreten. Wird ignoriert, wenn die Anfrage kein Antwortbild zurückgibt. Die Eigenschaft *`clientControl`* wird ignoriert, wenn die clientseitige Zwischenspeicherung vom Materialkatalog deaktiviert wird (wenn `attribute::Expiration` einen negativen Wert hat). Die Eigenschaft *`serverControl`* wird ignoriert, wenn die Zwischenspeicherung des Servers deaktiviert ist ( `PlatformServer::cache.enable`).
+Kann überall in der Anfrage auftreten. Wird ignoriert, wenn die Anfrage kein Antwortbild zurückgibt. Die Eigenschaft *`clientControl`* wird ignoriert, wenn die Client-seitige Zwischenspeicherung vom Materialkatalog deaktiviert wird (wenn `attribute::Expiration` einen negativen Wert hat). Die Eigenschaft *`serverControl`* wird ignoriert, wenn die Server-Zwischenspeicherung deaktiviert ist ( `PlatformServer::cache.enable`).
 
 ## Standard {#section-9034a1f4d7984c8f8dce3fc1e1803723}
 
-`cache=on,on` Bei HTTP-Anforderungen `cache=off` bei verschachtelten/eingebetteten Anforderungen.
+`cache=on,on` Bei HTTP-Anfragen `cache=off` Sie für verschachtelte oder eingebettete Anfragen.
 
 ## Verwandte Themen {#section-2f5853751dab49579e97418fa766bdf9}
 

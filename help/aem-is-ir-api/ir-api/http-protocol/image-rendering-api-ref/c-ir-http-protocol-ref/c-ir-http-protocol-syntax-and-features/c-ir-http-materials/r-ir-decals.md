@@ -1,6 +1,6 @@
 ---
-title: Dezimalzahlen
-description: Zu den Dekormaterialien gehören Bekleidungskonstrukte wie Applices, T-Shirt-Abdrücke sowie bestickte oder gedruckte Logos. Sie umfasst auch nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen wie Bereichsrugs, Wand-Hing-Kunst und Schilder verwendet werden.
+title: Abziehbilder
+description: Zu den Abziehmaterialien gehören Bekleidungskonstrukte wie Applikationen, T-Shirt-Prints und gestickte oder gedruckte Logos. Dazu gehören auch nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen verwendet werden, wie z. B. Flächenteppiche, an der Wand aufgehängte Kunstwerke und Schilder.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Dezimalzahlen{#decals}
+# Abziehbilder{#decals}
 
-Zu den Dekormaterialien gehören Bekleidungskonstrukte wie Applices, T-Shirt-Abdrücke sowie bestickte oder gedruckte Logos. Sie umfasst auch nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen wie Bereichsrugs, Wand-Hing-Kunst und Schilder verwendet werden.
+Zu den Abziehmaterialien gehören Bekleidungskonstrukte wie Applikationen, T-Shirt-Prints und gestickte oder gedruckte Logos. Dazu gehören auch nicht wiederholbare, flache Objekte, die in Innen- oder Außenanwendungen verwendet werden, wie z. B. Flächenteppiche, an der Wand aufgehängte Kunstwerke und Schilder.
 
-Ein Material gilt als entschlüsselt, wenn es in einem dekalen MSS angegeben ist. Ein Decal ist normalerweise ein RGBA-Bild, wobei der Alphakanal die Form des Decals definiert.
+Ein Material gilt als Abziehbild, wenn es in einem Abziehbild angegeben ist. Ein Abziehbild ist normalerweise ein RGBA-Bild, wobei der Alphakanal die Form des Abziehbilds definiert.
 
-Ein Decal kann auf jedes flache, fließende, skizzierte, ebene oder Wandobjekt angewendet werden (es sei denn, die Markierung &quot;Keine Textur&quot;ist gesetzt). Dezimalstellen werden auf das Objekt angewendet, indem die `anchor=` des Decals am dekalen Ausgangspunkt des Vignettenobjekts ausgerichtet wird. Die Position kann mit `pos=` weiter eingestellt werden.
+Ein Aufkleber kann auf jede Ebene, Fließlinie, Skizze, Ebene oder jedes Wandobjekt angewendet werden (es sei denn, die Markierung „Keine Textur“ ist festgelegt). Abziehbilder werden auf das Objekt angewendet, indem die `anchor=` des Abziehbilds am Abziehursprungspunkt des Vignettenobjekts ausgerichtet wird. Die Position kann mit `pos=` weiter eingestellt werden.
 
-Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Dicke definiert und das Vignettenobjekt einen Lichtvektor definiert.
+Ein Schlagschatten wird gerendert, wenn das Abziehbildmaterial eine Dicke definiert und das Vignettenobjekt einen Lichtvektor definiert.
 
 <table id="table_3F119BC9B7654FD092826A34F5827268"> 
  <thead> 
@@ -38,31 +38,31 @@ Ein Schlagschatten wird gerendert, wenn das Dekormaterial eine Dicke definiert u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Decal width, height, and thickness (für drop Shadow). </p> </td> 
+   <td colname="col2"> <p>Abziehbildbreite, -höhe und -dicke (für Schlagschatten). </p> </td> 
    <td colname="col3"> <p> <span class="varname"> imageWidth </span> x <span class="codeph"> res </span>, <span class="varname"> imageHeight </span> x <span class="codeph"> res, 0 </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Texturauflösung (ignoriert, wenn size= angegeben ist). </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col2"> <p>Texturauflösung (wird ignoriert, wenn Größe= angegeben ist). </p> </td> 
+   <td colname="col3"> <p> <span class="codeph">::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Dezimalausrichtungspunkt. </p> </td> 
-   <td colname="col3"> <p>Bildzentrum. </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> Anker= </span> </a> </p> </td> 
+   <td colname="col2"> <p>Abziehbildpunkt </p> </td> 
+   <td colname="col3"> <p>Bildmitte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8" type="reference" format="dita" scope="local"> <span class="codeph"> pos= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Relative Position des Abrufs. </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8" type="reference" format="dita" scope="local"> <span class="codeph"> POS= </span> </a> </p> </td> 
+   <td colname="col2"> <p>Relative Abziehposition. </p> </td> 
    <td colname="col3"> <p>0, 0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> opac= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Decale Deckkraft. </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> OPAC= </span> </a> </p> </td> 
+   <td colname="col2"> <p>Deckkraft des Abziehbilds. </p> </td> 
    <td colname="col3"> <p>100 % </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> spitze= </span> </a> </td> 
+   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> Sharp= </span> </a> </td> 
    <td colname="col2"> <p>Scharfzeichnen. </p> </td> 
    <td colname="col3"> <p>0 (keine Scharfzeichnung) </p> </td> 
   </tr> 

@@ -1,5 +1,5 @@
 ---
-description: Materialfarbe. Die Hauptfarbe für feste Farbstoffe und die additive Farbe für gefärbte Texturmaterialien.
+description: Materialfarbe. Die Hauptfarbe für einfarbige Materialien und die Zusatzfarbe für farbige Texturmaterialien.
 solution: Experience Manager
 title: Farbe
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # Farbe{#color}
 
-Materialfarbe. Die Hauptfarbe für feste Farbstoffe und die additive Farbe für gefärbte Texturmaterialien.
+Materialfarbe. Die Hauptfarbe für einfarbige Materialien und die Zusatzfarbe für farbige Texturmaterialien.
 
 ## Eigenschaften {#section-073772b43b264b37bd96d1fb7404d10b}
 
-Farbe. Erforderlich für Materialien mit fester Farbe. Optional für wiederholbare Textur-, Schrank- und Fensterbedeckungsmaterialien, um die Farbfarbe anzugeben. Dieses Feld muss leer gelassen werden, wenn die Farbe einer wiederholbaren Textur oder eines Kabinenmaterials nicht geändert werden soll.
+Farbe. Erforderlich für einfarbige Materialien. Optional für wiederholbare Textur-, Schrank- und Fensterabdeckungsmaterialien, um die Farbfarbe anzugeben. Dieses Feld muss leer bleiben, wenn die Farbe eines wiederholbaren Textur- oder Schrankmaterials nicht geändert werden soll.
 
 ## Standard {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 

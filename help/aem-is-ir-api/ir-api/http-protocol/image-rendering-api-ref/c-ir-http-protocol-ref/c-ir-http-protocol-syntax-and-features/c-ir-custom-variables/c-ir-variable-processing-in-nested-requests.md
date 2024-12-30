@@ -1,6 +1,6 @@
 ---
-title: Variablenverarbeitung in verschachtelten Anforderungen
-description: $var$-Verweise können an einer beliebigen Stelle in den geschweiften Klammern einer verschachtelten Image Serving- oder Image Rendering-Anforderung auftreten, auch links neben "?" Trennen Sie den Pfad von der Abfrage.
+title: Variablenverarbeitung in verschachtelten Anfragen
+description: $var$-Verweise können überall in den geschweiften Klammern einer verschachtelten Bildbereitstellungs- oder Bildrendering-Anfrage auftreten, einschließlich links neben "?“ Trennen des Pfads von der Abfrage
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Variablenverarbeitung in verschachtelten Anforderungen{#variable-processing-in-nested-requests}
+# Variablenverarbeitung in verschachtelten Anfragen{#variable-processing-in-nested-requests}
 
-$var$-Verweise können an einer beliebigen Stelle in den geschweiften Klammern einer verschachtelten Image Serving- oder Image Rendering-Anforderung auftreten, auch links neben &quot;?&quot; Trennen Sie den Pfad von der Abfrage.
+$var$-Verweise können überall in den geschweiften Klammern einer verschachtelten Bildbereitstellungs- oder Bildrendering-Anfrage auftreten, einschließlich links neben &quot;?“ Trennen des Pfads von der Abfrage
 
-Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `catalog::Modifier` des Hauptbildkatalogs), bevor die verschachtelte Anforderung weiter analysiert und verarbeitet wird.
+Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `catalog::Modifier` des Hauptbildkatalogs), bevor die verschachtelte Anfrage weiter analysiert und verarbeitet wird.
 
-Darüber hinaus werden alle `$ *[!DNL var]*=` -Definitionen aus der URL und `catalog::Modifier` an alle verschachtelten Image Serving- und Image Rendering-Anforderungen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen unabhängig von der Verschachtelungsebene für alle Vorlagen verfügbar sind.
+Darüber hinaus werden alle `$ *[!DNL var]*=` Definitionen aus der URL und den `catalog::Modifier` an alle verschachtelten Bildbereitstellungs- und Bildrendering-Anfragen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen für alle Vorlagen verfügbar sind, unabhängig von der Verschachtelungsebene.
 
-Unabhängig von der Verschachtelungsstufe darf nur eine einmalige HTTP-Kodierung auf Variablenwerte angewendet werden, die an einer beliebigen Stelle in verschachtelten Image Rendering- oder Image Serving-Anforderungen ersetzt werden sollen.
+Unabhängig von der Verschachtelungsebene muss bei Variablenwerten, die in verschachtelten Bildrendering- oder Bildbereitstellungsanfragen an einer beliebigen Stelle ersetzt werden sollen, nur eine HTTP-Kodierung mit einem Durchgang angewendet werden.

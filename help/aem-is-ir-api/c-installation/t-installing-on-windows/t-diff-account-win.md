@@ -1,6 +1,6 @@
 ---
-title: Installieren unter einem anderen Benutzerkonto als dem Administrator
-description: Richten Sie nach der Installation Dienste ein, die unter dem anderen Benutzerkonto ausgeführt werden.
+title: Installation unter einem anderen Benutzerkonto als Administrator
+description: Richten Sie nach der Installation die Dienste so ein, dass sie unter dem anderen Benutzerkonto ausgeführt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Installieren unter einem anderen Benutzerkonto als dem Administrator{#installing-under-a-different-user-account-than-administrator}
+# Installation unter einem anderen Benutzerkonto als Administrator{#installing-under-a-different-user-account-than-administrator}
 
-Richten Sie nach der Installation Dienste ein, die unter dem anderen Benutzerkonto ausgeführt werden.
+Richten Sie nach der Installation die Dienste so ein, dass sie unter dem anderen Benutzerkonto ausgeführt werden.
 
-1. Greifen Sie auf die Einstellungen der lokalen Windows-Sicherheitsrichtlinie zu, indem Sie **[!UICONTROL Startmenü]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Systemsteuerung]** > **[!UICONTROL Administrations-Tools]** > **[!UICONTROL Lokale Sicherheitsrichtlinie]** auswählen.
-1. Wählen Sie **[!UICONTROL Sicherheitseinstellungen]** > **[!UICONTROL Lokale Richtlinien]** > **[!UICONTROL Zuweisen von Benutzerrechten]** aus.
-1. Doppelklicken Sie auf die Richtlinie **[!UICONTROL Als Dienst anmelden]** .
-1. Wählen Sie **[!UICONTROL Hinzufügen...]** aus, wählen Sie den Benutzer oder die Gruppe und klicken Sie dann zur Bestätigung auf **[!UICONTROL OK]** .
+1. Greifen Sie auf die Einstellungen der lokalen Windows-Sicherheitsrichtlinie zu, indem Sie **[!UICONTROL Startmenü]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Systemsteuerung]** > **[!UICONTROL Verwaltungstools]** > **[!UICONTROL Lokale Sicherheitsrichtlinie]**.
+1. Wählen Sie **[!UICONTROL Sicherheitseinstellungen]** > **[!UICONTROL Lokale]** > **[!UICONTROL Zuweisen von Benutzerrechten]**.
+1. Doppelklicken Sie auf die Richtlinie **[!UICONTROL Anmelden als Service]**.
+1. Wählen Sie **[!UICONTROL Hinzufügen…]** und wählen Sie den Benutzer oder die Gruppe aus und klicken Sie dann **[!UICONTROL OK]** um zu bestätigen.

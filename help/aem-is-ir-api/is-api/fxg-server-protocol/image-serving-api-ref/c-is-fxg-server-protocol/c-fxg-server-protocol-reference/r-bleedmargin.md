@@ -1,7 +1,7 @@
 ---
-description: Legen Sie den Anschnittrand fest. Legt den in der PDF-Datei festgelegten Anschnittrand fest.
+description: Anschnittrand einstellen. Legt den Anschnittrand fest, der in der PDF-Datei festgelegt ist.
 solution: Experience Manager
-title: bleedmargin
+title: Anzapfung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: badb8ca5-52ba-4b44-b53f-fb302626adc4
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# bleedmargin{#bleedmargin}
+# Anzapfung{#bleedmargin}
 
-Legen Sie den Anschnittrand fest. Legt den in der PDF-Datei festgelegten Anschnittrand fest.
+Anschnittrand einstellen. Legt den Anschnittrand fest, der in der PDF-Datei festgelegt ist.
 
 `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` in Punkten
 
-Standardmäßig ist der `bleedMargin` auf die volle Dokumentgröße eingestellt, die durch `viewWidth` und `viewHeight` definiert wird. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den Wert *[!DNL top]* gesetzt, falls nicht angegeben.
+Standardmäßig ist die `bleedMargin` auf die volle Dokumentgröße eingestellt, die durch `viewWidth` und `viewHeight` definiert wird. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den *[!DNL top]* Wert gesetzt, wenn sie nicht angegeben werden.

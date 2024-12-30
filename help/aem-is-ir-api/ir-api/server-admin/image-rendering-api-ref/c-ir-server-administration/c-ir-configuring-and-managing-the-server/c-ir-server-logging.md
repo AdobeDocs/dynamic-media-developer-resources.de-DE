@@ -1,5 +1,5 @@
 ---
-description: Beim Rendern von Bildern werden Protokollmeldungen an die Mechanismen des Image Serving-Protokolls gesendet.
+description: Image Rendering sendet Protokollmeldungen an die Image-Serving-Protokollmechanismen.
 solution: Experience Manager
 title: Serverprotokollierung
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Serverprotokollierung{#server-logging}
 
-Beim Rendern von Bildern werden Protokollmeldungen an die Mechanismen des Image Serving-Protokolls gesendet.
+Image Rendering sendet Protokollmeldungen an die Image-Serving-Protokollmechanismen.
 
-Eine Beschreibung der Konfiguration und der Funktionen des Protokollierungssystems finden Sie in der Dokumentation zu Image Serving .
+Siehe Image-Serving-Dokumentation für eine Beschreibung der Protokollierungssystemkonfiguration und -funktionen.

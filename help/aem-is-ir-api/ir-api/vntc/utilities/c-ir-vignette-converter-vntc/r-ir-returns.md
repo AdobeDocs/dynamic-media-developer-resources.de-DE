@@ -1,5 +1,5 @@
 ---
-description: vntc gibt die folgenden Werte zurück, je nachdem, ob bei der Verarbeitung ein Fehler auftritt.
+description: Je nachdem, ob bei der Verarbeitung ein Fehler auftritt, gibt VNTC die folgenden Werte zurück.
 solution: Experience Manager
 title: Rückgabe
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Rückgabe{#returns}
 
-vntc gibt die folgenden Werte zurück, je nachdem, ob bei der Verarbeitung ein Fehler auftritt.
+Je nachdem, ob bei der Verarbeitung ein Fehler auftritt, gibt VNTC die folgenden Werte zurück.
 
 * 0, wenn keine Fehler aufgetreten sind.
-* 1 wenn Fehler (mit tödlichem oder nicht tödlichem Verlauf) auftreten.
+* 1 wenn Fehler (schwerwiegend oder nicht schwerwiegend) auftreten.

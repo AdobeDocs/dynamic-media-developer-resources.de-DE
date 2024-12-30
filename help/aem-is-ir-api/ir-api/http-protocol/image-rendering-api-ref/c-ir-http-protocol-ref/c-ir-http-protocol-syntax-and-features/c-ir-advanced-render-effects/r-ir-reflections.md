@@ -1,6 +1,6 @@
 ---
-title: Spiegelungen
-description: Vignetten können so erstellt werden, dass sie nahezu 3D-Reflexionsdaten enthalten.
+title: Reflexionen
+description: Vignetten können so verfasst werden, dass sie nahezu 3D-Reflexionsdaten enthalten.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 ---
 
-# Spiegelungen{#reflections}
+# Reflexionen{#reflections}
 
-Vignetten können so erstellt werden, dass sie nahezu 3D-Reflexionsdaten enthalten.
+Vignetten können so verfasst werden, dass sie nahezu 3D-Reflexionsdaten enthalten.
 
-Wenn dies so festgelegt ist, werden die folgenden Materialattribute verwendet, um die Eigenschaften der reflektierenden Oberfläche des Materials zu definieren:
+Wenn dies der Fall ist, werden die folgenden Materialattribute verwendet, um die reflektierenden Oberflächeneigenschaften des Materials zu definieren:
 
 <table id="table_8769C726A17E412FB41F7CB87690B1FE"> 
  <thead> 
@@ -28,18 +28,18 @@ Wenn dies so festgelegt ist, werden die folgenden Materialattribute verwendet, u
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> gloss=</span> </a> </p> </td> 
+   <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> Glanz=</span> </a> </p> </td> 
    <td> <p>Oberflächenglanz </p> </td> 
    <td> <p>Aus Vignette </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
-   <td> <p>Glanzvariante (Graustufenbild) </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> Glossmap= </span> </a> </p> </td> 
+   <td> <p>Glanzvariation (Graustufenbild) </p> </td> 
    <td> <p>Keine </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> rau= </span> </a> </p> </td> 
-   <td> <p>Oberflächenrauigkeit </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> grob= </span> </a> </p> </td> 
+   <td> <p>Oberflächenrauheit </p> </td> 
    <td> <p>40 % </p> </td> 
   </tr> 
   <tr> 
@@ -50,6 +50,6 @@ Wenn dies so festgelegt ist, werden die folgenden Materialattribute verwendet, u
  </tbody> 
 </table>
 
-Der Renderer passt den Bereich der Attribute `gloss=` und `rough=` gemäß `type=` an. Einige Materialarten wie Gewebe sind weniger reflektierend als Materialarten wie Stein oder Metall. Darüber hinaus führt die gleiche Glanzmenge, die für eine bestimmte Menge angegeben wurde, oft zu einem anderen Reflexionseffekt als die andere. Das Attribut `gloss=` und die Rauigkeit haben einen ziemlich breiten Umfang, wenn `type=` nicht angegeben ist oder auf `0` eingestellt ist.
+Der Renderer passt den Bereich des `gloss=`- und `rough=` entsprechend den `type=` an. Einige Materialtypen wie Gewebe sind weniger reflektierend als Materialtypen wie Stein oder Metall. Außerdem führt die gleiche für eine bestimmte Glanzmenge oft zu einem anderen Reflexionseffekt als die andere. Das Attribut `gloss=` und die Rauigkeit haben einen ziemlich breiten Farbraum, wenn `type=` nicht angegeben oder auf `0` gesetzt ist.
 
-`glossmap=` Wird verwendet, um die Glanz eines Materials Pixel für Pixel zu steuern.
+`glossmap=` Wird verwendet, um den Glanz eines Materials Pixel für Pixel zu steuern.

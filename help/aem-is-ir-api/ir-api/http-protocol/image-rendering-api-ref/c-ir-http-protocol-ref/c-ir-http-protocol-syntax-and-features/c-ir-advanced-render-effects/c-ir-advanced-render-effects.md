@@ -1,6 +1,6 @@
 ---
 title: Eigenschaften
-description: Es stehen mehrere erweiterte Rendereffekte zur Verfügung.
+description: Es stehen mehrere erweiterte Render-Effekte zur Verfügung.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Erweiterte Rendereffekte{#advanced-render-effects}
+# Erweiterte Render-Effekte{#advanced-render-effects}
 
-Es stehen mehrere erweiterte Rendereffekte zur Verfügung.
+Es stehen mehrere erweiterte Render-Effekte zur Verfügung.

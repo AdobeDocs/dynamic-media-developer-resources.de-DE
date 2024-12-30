@@ -1,6 +1,6 @@
 ---
-title: EffectMask
-description: Überschreibt den Wert des Attributs ApplyEffectMask für die Anforderung.
+title: effektmaskieren
+description: Überschreibt den Wert des Attributs ApplyEffectMask für die Anfrage.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 5%
 
 ---
 
-# EffectMask{#effectmask}
+# effektmaskieren{#effectmask}
 
-Überschreibt den Wert des Attributs::ApplyEffectMask für die Anforderung.
+Überschreibt den Wert des Attributs::ApplyEffectMask für die Anfrage.
 
-EffectMask ist ein globaler Modifikator. Sie wird auf alle Effektebenen in der Anfrage angewendet.
+effectMask ist ein globaler Modifikator. Sie wird auf alle Effektebenen in der Anfrage angewendet.
 
-Gültige Werte sind 0 und 1. Null (0) bedeutet, keine Effektmaske anzuwenden. Ein (1) bedeutet, die Effektmaske anzuwenden. Die Standardgrenze ist 1.
+Gültige Werte sind 0 und 1. Null (0) bedeutet, dass keine Effektmaske angewendet wird. Ein (1) Mittel zum Anwenden der Effektmaske. Die Standardgrenze ist 1.

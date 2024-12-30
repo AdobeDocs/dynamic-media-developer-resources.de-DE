@@ -1,6 +1,6 @@
 ---
 title: Eigenschaften
-description: Eigenschaftsdaten werden als Reaktion auf die folgenden req=-Typen imageprops und props zurückgegeben.
+description: 'Eigenschaftendaten werden als Antwort auf die folgenden req=-Typen zurückgegeben: imageprops und props.'
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Eigenschaften{#properties}
 
-Eigenschaftsdaten werden als Antwort auf die folgenden req=-Typen zurückgegeben: imageprops und props.
+Eigenschaftendaten werden als Antwort auf die folgenden req=-Typen zurückgegeben: imageprops und props.
 
-Die Antwortdaten sind so formatiert, dass sie als Java™-Eigenschaften lesbar sind. Eine typische Antwort mit den Texteigenschaften hat diese allgemeine Struktur:
+Die Antwortdaten sind so formatiert, dass sie als Java™-Eigenschaften lesbar sind. Eine typische Antwort mit Texteigenschaften weist diese allgemeine Struktur auf:
 
 `#S7Z OK`
 
@@ -24,11 +24,11 @@ Die Antwortdaten sind so formatiert, dass sie als Java™-Eigenschaften lesbar s
 
 ` *[!DNL objectName.propertyName]*= *[!DNL propertyValue]*`
 
-...
+…
 
-` *[!DNL propertyValue]*` Kann leer sein. Leerzeichen sind am Anfang und Ende jeder Zeile sowie vor und nach dem Trennzeichen &#39;=&#39; optional. Einfache oder doppelte Anführungszeichen können zum Umschließen von Zeichenfolgenwerten verwendet werden, sind jedoch nicht erforderlich.
+` *[!DNL propertyValue]*` darf leer sein. Leerzeichen sind am Anfang und am Ende jeder Zeile sowie vor und nach dem Trennzeichen &quot;=&quot; optional. Zum Einschließen von Zeichenfolgenwerten können einfache oder doppelte Anführungszeichen verwendet werden, sie sind jedoch nicht erforderlich.
 
-Zeichenfolgenwerte können Escape-Zeichen im JAVA-Stil enthalten, z. B. `\n`, `\t`, `\:` oder `\\`.
+Zeichenfolgenwerte können JAVA-Escape-Zeichen enthalten, z. B. `\n`, `\t`, `\:` oder `\\`.
 
 **Siehe auch**
 

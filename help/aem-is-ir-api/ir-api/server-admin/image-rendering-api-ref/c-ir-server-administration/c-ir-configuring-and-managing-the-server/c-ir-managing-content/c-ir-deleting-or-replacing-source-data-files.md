@@ -1,5 +1,5 @@
 ---
-description: Vignettendateien können während der Live-Schaltung des Servers ersetzt oder gelöscht werden, indem Sie den Befehl req=release verwenden, unmittelbar bevor die Datei überschrieben wird.
+description: Vignettendateien können bei laufendem Server durch den Befehl req=release direkt vor dem Überschreiben ersetzt oder gelöscht werden.
 solution: Experience Manager
 title: Quelldatendateien löschen oder ersetzen
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Quelldatendateien löschen oder ersetzen{#deleting-or-replacing-source-data-files}
 
-Vignettendateien können während der Live-Schaltung des Servers ersetzt oder gelöscht werden, indem Sie den Befehl req=release verwenden, unmittelbar bevor die Datei überschrieben wird.
+Vignettendateien können bei laufendem Server durch den Befehl req=release direkt vor dem Überschreiben ersetzt oder gelöscht werden.
 
 >[!NOTE]
 >
->Eine Datendatei darf nicht ersetzt oder gelöscht werden, während der Render Server darauf zugreift.
+>Eine Datendatei darf nicht ersetzt oder gelöscht werden, während der Render-Server darauf zugreift.
 
-Beachten Sie, dass das Löschen oder Ersetzen einer Quelldatendatei nur dazu führt, dass der Render Server die Datei schließt, bis die nächste Anforderung, die auf diese Vignette zugreift, ausgeführt wird. Wenn eine Datei häufig verwendet wird, können mehrere weitere Versuche erforderlich sein.
+Beachten Sie, dass durch Löschen oder Ersetzen einer Quelldatendatei die Datei nur bis zur nächsten Anforderung, die auf diese Vignette zugreift, vom Render-Server geschlossen wird. Wenn eine Datei häufig verwendet wird, sind möglicherweise mehrere weitere Zustellversuche erforderlich.
 
 Der Render-Server muss angehalten werden, um andere Datendateien zu ersetzen.
 
-[!DNL Platform Server] Cache-Einträge werden automatisch invalidiert, wenn Materialdateien oder Vignetten ersetzt werden. Durch das Ersetzen von ICC-Profildateien werden Caches nicht invalidiert.
+[!DNL Platform Server] Cache-Einträge werden automatisch ungültig, wenn Materialdateien oder Vignetten ersetzt werden. Durch Ersetzen von ICC-Profildateien werden Caches nicht ungültig gemacht.
 
-Um das Ersetzen von Dateien zu vermeiden, wird empfohlen, einer Ersatzdatei einen neuen Namen zu geben und die entsprechenden Katalogeinträge zu aktualisieren. Dies ermöglicht das Ersetzen von Datendateien, während der Server aktiv ist, und bewirkt, dass Server-Cache-Einträge automatisch ohne zusätzliche Intervention veraltet werden. Dieser Ansatz kann für alle Datendateien verwendet werden, die von Bildkatalogen verwaltet werden.
+Um die Komplikationen beim Ersetzen von Dateien zu vermeiden, wird empfohlen, einer Ersatzdatei einen neuen Namen zu geben und die entsprechenden Katalogeinträge zu aktualisieren. Dadurch können alle Datendateien ersetzt werden, während der Server live ist, und die Cache-Einträge des Servers werden automatisch veraltet, ohne dass ein zusätzlicher Eingriff erforderlich ist. Dieser Ansatz kann für alle Datendateien verwendet werden, die von Bildkatalogen verwaltet werden.

@@ -1,6 +1,6 @@
 ---
-title: grout
-description: Farbe und Dicke der Kachelgrotte. Simuliert Grout für Keramik und Naturstein Fliesen.
+title: überziehen
+description: Farbe und Stärke des Fliesenmörtels. Simuliert Fugenmörtel für Keramik- und Natursteinfliesen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,39 +12,39 @@ ht-degree: 1%
 
 ---
 
-# grout {#grout}
+# überziehen {#grout}
 
-Farbe und Dicke der Kachelgrotte. Simuliert Grout für Keramik und Naturstein Fliesen.
+Farbe und Stärke des Fliesenmörtels. Simuliert Fugenmörtel für Keramik- und Natursteinfliesen.
 
-grout= *`color`*[,*`width`*]
+Mörtel= *`color`*[,*`width`*]
 
 <table id="simpletable_302B78CFC8F14E0F962D1D2064AD1371"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Farbe </span> </span> </p> </td>
-  <td class="stentry"> <p>Grout (grau oder RGB). </p> </td> 
+  <td class="stentry"> <p>Fugenfarbe (grau oder RGB). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Breite </span> </span> </p> </td>
-  <td class="stentry"> <p>Dicke der Grout; Koordinateneinheiten der Szene (normalerweise Zoll) (real). </p> </td>
+  <td class="stentry"> <p>Fugendicke; Szenen-Koordinateneinheiten (normalerweise Zoll) (real). </p> </td>
  </tr> 
 </table>
 
-Für eine maximale Kontrolle des Grout-Erscheinungsbilds gelten folgende Anforderungen:
+Für eine möglichst gute Kontrolle des Aussehens der Mörtel gelten folgende Anforderungen:
 
-* Die Kachel muss quadratisch oder rechteckig sein. Derzeit werden keine anderen Formen unterstützt.
-* Das Bild darf nur eine Kachel enthalten.
-* Die Standardbreite im Bild (falls vorhanden) muss an allen vier Kanten dieselbe Dicke aufweisen.
-* Die Dicke der Standardgrout muss im Materialkatalog ( `catalog::GroutWidth`) angegeben werden.
+* Die Kachel muss quadratisch oder rechteckig sein; derzeit werden keine anderen Formen unterstützt.
+* Das Bild darf nur eine einzige Kachel enthalten.
+* Die Standardfuge im Bild (falls vorhanden) muss an allen vier Kanten gleich dick sein.
+* Die Stärke des Mörtels muss im Materialkatalog (`catalog::GroutWidth`) angegeben werden.
 
 ## Eigenschaften {#section-de78b678245b4ffda48097c345949e77}
 
-Materialattribut. `*`color`*` Muss ein RGB-Farbwert sein. `*`width`*` muss einen realen Wert von 0 oder größer sein.
+Materialattribut. `*`color`*` Muss ein RGB-Farbwert sein. `*`Breite`*` muss ein reeller Wert von 0 oder höher sein.
 
-Ignoriert bei Wiederholung = 4, 5, 7, 8, 9, 14 oder höher oder bei Materialien, die keine wiederholbaren Texturen sind.
+Ignoriert, wenn Wiederholung = 4, 5, 7, 8, 9, 14 oder höher ist oder wenn für andere Materialien als wiederholbare Texturen angegeben.
 
 ## Standard {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Wenn `grout=` nicht angegeben ist, wird die Grout im Bild nicht geändert. Wenn `grout= *`color`*` angegeben ist, wird für `*`width`*` standardmäßig `catalog::GroutWidth` verwendet.
+Wenn `grout=` nicht angegeben ist, wird der Mörtel im Bild nicht geändert. Wenn `grout= *`color`*` angegeben ist, wird `*`width`*` standardmäßig auf `catalog::GroutWidth` gesetzt.
 
 ## Verwandte Themen {#section-8d472906a44943f5a8557e98f2fbc71f}
 

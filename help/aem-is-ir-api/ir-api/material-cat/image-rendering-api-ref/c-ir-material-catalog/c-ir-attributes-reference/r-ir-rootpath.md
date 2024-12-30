@@ -1,6 +1,6 @@
 ---
-title: RootPath
-description: Source-Datenstammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die dieser Bildkatalog verweist.
+title: rootPath
+description: Stammverzeichnis der Source-Daten. Text-Zeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die dieser Bildkatalog verweist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# RootPath{#rootpath}
+# rootPath{#rootpath}
 
-Source-Datenstammpfad. Textzeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die dieser Bildkatalog verweist.
+Stammverzeichnis der Source-Daten. Text-Zeichenfolgenwert. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für alle Vignetten-, Textur-, Bild- und ICC-Datendateien, auf die dieser Bildkatalog verweist.
 
 ## Eigenschaften {#section-5ff1cf592dd24dfc8cfa470c753ab828}
 
-Textzeichenfolge. Muss leer sein, ein gültiges Pfadsegment relativ zur Konfigurationseinstellung für den Image Rendering-Server `ir.resourceRootPaths` oder ein gültiger absoluter Dateipfad. Sollte keine Trennzeichen für vorangehende und nachfolgende Pfadelemente enthalten.
+Text-String Muss leer sein, ein gültiges Pfadsegment, das mit der Konfigurationseinstellung des Image-Rendering-Servers `ir.resourceRootPaths` ist, oder ein gültiger absoluter Dateipfad. Sollte keine Trennzeichen für Pfad-Elemente am Anfang und am Ende enthalten.
 
 ## Standard {#section-4a7f3ab22b0c4090b3896d29bd192b8a}
 
-Wird von `default::RootPath` übernommen, falls nicht definiert. Wenn definiert, aber leer, trägt es nicht zum Stammverzeichnis der Quelldatei bei.
+Von `default::RootPath` geerbt, wenn nicht definiert. Wenn er definiert, aber leer ist, trägt er nicht zum Stammverzeichnis der Quelldatei bei.
 
 ## Verwandte Themen {#section-92012cc1ce32448ea977e7e0484857e2}
 

@@ -1,5 +1,5 @@
 ---
-description: Vignette-Dateipfad. Relativer Pfad und Name einer Vignettendatei.
+description: Pfad der Vignettendatei. Relativer Pfad und Name einer Vignettendatei.
 solution: Experience Manager
 title: Pfad
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # Pfad{#path}
 
-Vignette-Dateipfad. Relativer Pfad und Name einer Vignettendatei.
+Pfad der Vignettendatei. Relativer Pfad und Name einer Vignettendatei.
 
-Der Server kombiniert diesen Wert mit `attribute::RootPath` , um den tatsächlichen Vignettendateipfad zu erstellen. Kann auch ein absoluter Pfad sein.
+Der Server kombiniert diesen Wert mit `attribute::RootPath`, um den tatsächlichen Vignettendateipfad zu erstellen. Kann auch ein absoluter Pfad sein.
 
 ## Eigenschaften {#section-b3b295feac084b56bd8a153c04987153}
 
-Textzeichenfolge. Optional. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Dateipfad handeln. Wenn leer, muss `vignette::Modifier` den Befehl `vignette=` enthalten.
+Text-String Optional. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Dateipfad handeln. Wenn leer, muss `vignette::Modifier` den `vignette=`-Befehl enthalten.
 
 ## Standard {#section-a1d2133856084eb79a5be8230a4b38fd}
 

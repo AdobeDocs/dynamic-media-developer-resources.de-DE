@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Ein Dynamic Media Image Rendering-Lizenzschlüssel ist erforderlich und muss auf jedem System installiert sein, auf dem Image Rendering installiert ist.
 
-Das Bild-Rendering wird ohne gültige Lizenz nicht ausgeführt. Das Installationsverfahren umfasst Schritte zum Abrufen und Installieren des Lizenzschlüssels.
+Das Rendern von Bildern wird ohne gültige Lizenz nicht ausgeführt. Das Installationsverfahren umfasst Schritte zum Abrufen und Installieren des Lizenzschlüssels.

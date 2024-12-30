@@ -1,6 +1,6 @@
 ---
 title: drehen
-description: Werkstoffdrehwinkel. Definiert den Drehwinkel für Materialien.
+description: Drehwinkel des Materials. Definiert den Drehwinkel für Materialien.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,33 +14,33 @@ ht-degree: 4%
 
 # drehen{#rotate}
 
-Werkstoffdrehwinkel. Definiert den Drehwinkel für Materialien.
+Drehwinkel des Materials. Definiert den Drehwinkel für Materialien.
 
-` rotate= *`angle`*`
+` rotate= *`Winkel`*`
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> Winkel </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">-</span> </p> </td> 
   <td class="stentry"> <p>Drehwinkel in Grad (real). </p> </td> 
  </tr> 
 </table>
 
-Wiederholbare Texturmaterialien (ohne Wallpaper) um ein Vielfaches von 45° drehen, wenn sie auf flache Objekte oder Planobjekte angewendet werden.
+Drehen Sie wiederholbare Texturmaterialien (außer Tapeten) um Vielfache von 45°, wenn sie auf flache oder ebene Objekte angewendet werden.
 
-Drehen Sie wiederholbare Texturmaterialien um beliebige Winkel, wenn sie auf Flowline- und Sketch-Objekte angewendet werden.
+Drehen Sie wiederholbare Texturmaterialien in beliebigen Winkeln, wenn sie auf Fließlinien- und Skizzenobjekte angewendet werden.
 
-Drehen Sie dekale Materialien nach beliebigen Winkeln.
+Drehen Sie Abziehbilder um beliebige Winkel.
 
-Positive Winkel drehen den Uhrzeigersinn. Die Textur oder der Abbau wird um den Ankerpunkt ( `anchor=`) gedreht; der Ankerpunkt bleibt mit der Herkunft des Zielobjekts ausgerichtet.
+Positive Winkel drehen sich im Uhrzeigersinn. Die Textur oder das Abziehbild wird um den Ankerpunkt (`anchor=`) gedreht; der Ankerpunkt bleibt auf den Ursprung des Zielobjekts ausgerichtet.
 
 ## Eigenschaften {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Materialattribut. Ignoriert durch feste Farbe, Tapeten, Schrank und Fensterbehandlungsmaterialien. *`angle`* Muss ein Vielfaches von 45 für wiederholbare Texturen sein, es sei denn, dies wird auf Fluss- oder Zeichenobjekte angewendet.
+Materialattribut. Wird von einfarbigen Materialien, Tapeten, Schränken und Fensterbehandlungen ignoriert. *`angle`* Wiederholbare Texturen müssen ein Vielfaches von 45 haben, es sei denn, sie werden auf Fließlinien- oder Skizzenobjekte angewendet.
 
 ## Standard {#section-14c991e71b74449db8ff18a775949b28}
 
-`rotate=0`, für keine Drehung.
+`rotate=0`, für keine Rotation.
 
 ## Verwandte Themen {#section-f73c00e9368b478dac1fd15bb4367a12}
 
-[anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[Anker=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

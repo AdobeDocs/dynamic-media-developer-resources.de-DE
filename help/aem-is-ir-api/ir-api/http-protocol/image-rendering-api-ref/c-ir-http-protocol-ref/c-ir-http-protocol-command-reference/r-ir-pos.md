@@ -1,6 +1,6 @@
 ---
-title: pos
-description: Decal position. Definiert den Versatz in Zoll vom Anker= Punkt des Decalbilds bis zum vom Zielvignetten-Objekt definierten dekalen Ausgangspunkt.
+title: POS
+description: Abziehposition. Definiert den Versatz in Zoll vom Ankerpunkt des Abziehbilds zum Abziehbildursprungspunkt, der durch das Vignettenzielobjekt definiert ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,27 +12,27 @@ ht-degree: 3%
 
 ---
 
-# pos{#pos}
+# POS{#pos}
 
-Decal position. Definiert den Versatz in Zoll vom Anker= Punkt des Decalbilds bis zum vom Zielvignetten-Objekt definierten dekalen Ausgangspunkt.
+Abziehposition. Definiert den Versatz in Zoll vom Ankerpunkt des Abziehbilds zum Abziehbildursprungspunkt, der durch das Vignettenzielobjekt definiert ist.
 
 `pos=x,y`
 
 <table id="simpletable_DB3B64EFB67A47AD843812324ABFAE45"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> </p></td> 
-  <td class="stentry"> <p>Relative Positionsanpassung in Koordinateneinheiten der Szene (normalerweise Zoll) (real, real). </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>,<span class="varname"> y</span> </p></td> 
+  <td class="stentry"> <p>Relative Positionsanpassung in Szenenkoordinateneinheiten (normalerweise Zoll) (real, real). </p></td> 
  </tr> 
 </table>
 
 ## Eigenschaften {#section-50371cfa4e244bc49d2295a918749258}
 
-Materialattribut. Wird von anderen Materialien als Decals ignoriert.
+Materialattribut. Ignoriert von anderen Materialien als Abziehbildern.
 
 ## Standard {#section-1b66efab054c45ca8d67d6a9865020f4}
 
-`pos=0,0`. Richtet den Verankerungspunkt des Decals an der dekalen Herkunft des Vignettenobjekts aus.
+`pos=0,0`. Richtet den Ankerpunkt des Abziehbilds am Abziehbild-Ursprung des Vignettenobjekts aus.
 
 ## Verwandte Themen {#section-7cd8139481334ed79704d628b5bbd236}
 
-[Scene-Koordinaten](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1), [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[Szenenkoordinaten](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1), [Anker=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

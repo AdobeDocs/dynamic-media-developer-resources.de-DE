@@ -1,6 +1,6 @@
 ---
-title: Effekt
-description: Wählen Sie Effektebene aus. Wählt eine Effektebene aus und startet ein neues Ebenensegment in der Anforderungszeichenfolge, das mit der aktuellen Ebene verknüpft ist.
+title: Ergebnis
+description: Wählen Sie Effektebene. Wählt eine Effektebene aus und startet ein neues Ebenensegment in der Anfragezeichenfolge, das der aktuellen Ebene zugeordnet ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,30 +12,30 @@ ht-degree: 2%
 
 ---
 
-# Effekt{#effect}
+# Ergebnis{#effect}
 
-Wählen Sie Effektebene aus. Wählt eine Effektebene aus und startet ein neues Ebenensegment in der Anforderungszeichenfolge, das mit der aktuellen Ebene verknüpft ist.
+Wählen Sie Effektebene. Wählt eine Effektebene aus und startet ein neues Ebenensegment in der Anfragezeichenfolge, das der aktuellen Ebene zugeordnet ist.
 
 `effect= *`n`*`
 
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>Effektschichtnummer (int nicht gleich 0). </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> N</span></span> </p> </td> 
+  <td class="stentry"> <p>Effekt-Ebenennummer (int ungleich 0). </p></td> 
  </tr> 
 </table>
 
-Alle Befehle im neuen Segment werden auf die angegebene Effektebene angewendet. Ein Effekt-Layer-Segment wird durch den nächsten `layer=` - oder `effect=` -Befehl oder durch das Ende der Anfrage beendet.
+Alle Befehle innerhalb des neuen Segments werden auf die angegebene Effektebene angewendet. Ein Effektebenen-Segment wird durch den nächsten `layer=` oder `effect=` Befehl oder durch das Ende der Anfrage beendet.
 
-Der Wert *`n`* muss für äußere Ebeneneffekte kleiner als 0 (d. h. Effekte hinter der übergeordneten Ebene) und größer als 0 für innere Ebeneneffekte (d. h. Effekte innerhalb der übergeordneten Ebene) sein. Die Anzahl der Effektebenen muss nicht aufeinander folgen.
+Der Wert *`n`* muss für die Effekte der äußeren Ebene (d. h. hinter der übergeordneten Ebene) kleiner als 0 und für die Effekte der inneren Ebene (d. h. innerhalb der übergeordneten Ebene) größer als 0 sein. Effektebenenzahlen müssen nicht aufeinander folgend sein.
 
-Die Ebenennummer des Effekts gibt die z-Reihenfolge an, wenn mehrere Effektebenen für dieselbe übergeordnete Ebene vorhanden sind. Höhere Ebenen werden auf unternummerierten Ebenen platziert.
+Die Effektebenennummer gibt die z-Reihenfolge an, wenn mehrere Effektebenen für dieselbe übergeordnete Ebene vorhanden sind. Ebenen mit höheren Nummern werden auf Ebenen mit niedrigeren Nummern platziert.
 
-Effektebenen können an `layer=comp` angehängt werden.
+Effektebenen können mit `layer=comp` verbunden werden.
 
 ## Eigenschaften {#section-e11f795deff345779ce280a82cf221ca}
 
-Effekt-Layer-Befehl. Der Wert *`n`* darf nicht 0 sein.
+Effekt-Ebenenbefehl. Der Wert *`n`* darf nicht 0 sein.
 
 ## Standard {#section-84bbe1cfe7a94040827c994323ac59d4}
 
@@ -47,4 +47,4 @@ Keine.
 
 ## Verwandte Themen {#section-573273e9e0e64103a5764075f5e50180}
 
-[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)
+[Layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

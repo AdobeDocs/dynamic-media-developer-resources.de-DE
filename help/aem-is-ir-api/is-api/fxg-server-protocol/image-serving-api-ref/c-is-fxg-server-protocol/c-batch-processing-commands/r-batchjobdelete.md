@@ -1,6 +1,6 @@
 ---
-title: batchjobdelete
-description: Löschen Sie die Ausgabe eines Auftrags.
+title: batchJobDelete
+description: Ausgabe eines Auftrags löschen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,24 +12,24 @@ ht-degree: 1%
 
 ---
 
-# batchjobdelete{#batchjobdelete}
+# batchJobDelete{#batchjobdelete}
 
-Löschen Sie die Ausgabe eines Auftrags.
+Ausgabe eines Auftrags löschen.
 
-Wenn derzeit ein Auftrag ausgeführt wird, wird er sofort beendet und alle zugehörigen Verarbeitungsinformationen werden gelöscht. Wenn der Auftrag erfolgreich abgeschlossen wurde, wird seine Ausgabedatei gelöscht.
+Wenn ein Auftrag derzeit ausgeführt wird, wird er sofort gestoppt und alle zugehörigen Verarbeitungsinformationen werden gelöscht. Wenn der Auftrag erfolgreich abgeschlossen wurde, wird die zugehörige Ausgabedatei gelöscht.
 
 Dieser Parameter:
 
 <table id="simpletable_AACB976615FF4888A0816328DC48DCA3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> job_id</span> </p> </td> 
-  <td class="stentry"> <p>Auftrags-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> JOB_ID</span> </p> </td> 
+  <td class="stentry"> <p>Vorgangs-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p></td> 
  </tr> 
 </table>
 
-Gibt Folgendes zurück:
+Gibt zurück:
 
-Status des Auftrags zum Zeitpunkt des Empfangs der Löschanfrage, Fehler, wenn `jobid` ungültig ist oder der Auftrag bereits gelöscht wurde.
+Status des Auftrags zum Zeitpunkt des Eingangs der Löschanfrage, Fehler, wenn `jobid` ungültig ist oder der Auftrag bereits gelöscht wurde.
 
 ## Beispiel {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

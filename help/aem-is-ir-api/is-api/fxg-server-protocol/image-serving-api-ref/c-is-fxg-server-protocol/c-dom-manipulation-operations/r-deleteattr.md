@@ -1,5 +1,5 @@
 ---
-description: Löschen Sie jedes Attribut für eine gegebene s7 elementID.
+description: Löschen eines beliebigen Attributs für eine bestimmte s7-elementID.
 solution: Experience Manager
 title: deleteAttr
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # deleteAttr{#deleteattr}
 
-Löschen Sie jedes Attribut für eine gegebene s7:elementID.
+Löschen eines beliebigen Attributs für eine bestimmte s7:elementID.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 

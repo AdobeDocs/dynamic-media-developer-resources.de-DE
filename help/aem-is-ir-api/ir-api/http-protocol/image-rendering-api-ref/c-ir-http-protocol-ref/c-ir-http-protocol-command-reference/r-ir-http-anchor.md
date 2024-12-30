@@ -1,6 +1,6 @@
 ---
 title: anchor
-description: Bild-Anker (Hotspot). Gibt den Textur-Ankerpunkt (Hotspot) der wiederholbaren Textur oder des Decalmaterials an.
+description: Bildanker (Hotspot). Gibt den Textur-Ankerpunkt (Hotspot) des wiederholbaren Textur- oder Abziehmaterials an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # anchor{#anchor}
 
-Bild-Anker (Hotspot). Gibt den Textur-Ankerpunkt (Hotspot) der wiederholbaren Textur oder des Decalmaterials an.
+Bildanker (Hotspot). Gibt den Textur-Ankerpunkt (Hotspot) des wiederholbaren Textur- oder Abziehmaterials an.
 
 `anchor= *`x`*, *`y`*`
 
@@ -23,28 +23,28 @@ Bild-Anker (Hotspot). Gibt den Textur-Ankerpunkt (Hotspot) der wiederholbaren Te
 <table id="simpletable_1D8E91D8424A424787C4D20C9B040115"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> </p></td> 
-  <td class="stentry"> <p>Pixel-Versatz von der oberen linken Ecke des Quellbilds (int, int). </p></td> 
+  <td class="stentry"> <p>Pixel-Offset von der linken oberen Ecke des Quellbilds (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> xn</span>, <span class="varname"> yn</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> XN</span>, <span class="varname"> YN</span> </p></td> 
   <td class="stentry"> <p>Normalisierter Versatz von der Mitte des Quellbilds (real, real). </p></td> 
  </tr> 
 </table>
 
-Eine wiederholbare Textur wird auf ein Vignettenobjekt angewendet, sodass sich der Texturankerpunkt ( `anchor=`) am Texturursprungpunkt des Objekts befindet.
+Auf ein Vignettenobjekt wird eine wiederholbare Textur angewendet, sodass sich der Texturankerpunkt ( `anchor=`) am Texturursprungspunkt des Objekts befindet.
 
-Ein dekales Bild wird auf ein Vignettenobjekt angewendet, sodass sich der dekale Verankerungspunkt am dekalen Ausgangspunkt des Objekts befindet. Die dekale Position kann mithilfe des Befehls `pos=` weiter angepasst werden.
+Ein Abziehbild wird auf ein Vignettenobjekt angewendet, sodass sich der Abziehbildankerpunkt am Abziehbildursprungspunkt des Objekts befindet. Die Abziehbildposition kann mit dem Befehl `pos=` weiter eingestellt werden.
 
-`anchorN=0,0` Legt den Bild-Anker in der Mitte des Quellbilds ab. `anchorN=-0.5,-0.5` oder `anchor=0,0` befindet sich in der oberen linken Ecke und `anchorN=0.5,0.5` in der unteren rechten Ecke des Quellbilds.
+`anchorN=0,0` Platziert den Bildanker in der Mitte des Quellbilds. `anchorN=-0.5,-0.5` oder `anchor=0,0` befindet sich in der oberen linken Ecke und `anchorN=0.5,0.5` in der unteren rechten Ecke des Quellbilds.
 
 ## Eigenschaften {#section-91f929d35cd745ab9e1eeecf45fcedae}
 
-**Materialattribut**. Wird ignoriert, wenn `align=2`, oder wenn das Material keine wiederholbare Textur, ein Hintergrund oder ein Dekcal ist.
+**Materialattribut**. Wird ignoriert, wenn `align=2` oder wenn das Material keine wiederholbare Textur, keine Tapete oder kein Abziehbild ist.
 
 ## Standard {#section-b06d728c2f664c29bacf810eefcbde69}
 
-`catalog::Anchor`, wenn das Material auf einem Katalogeintrag basiert. Andernfalls `anchor=0,0` (obere linke Ecke des Bildes) für wiederholbare Texturen und Hintergrundbilder und `anchorN=0,0` (Bildmitte) für Dezimalstellen.
+`catalog::Anchor`, wenn das Material auf einem Katalogeintrag basiert. Andernfalls `anchor=0,0` (die obere linke Ecke des Bildes) für wiederholbare Texturen und Tapeten und `anchorN=0,0` (die Mitte des Bildes) für Abziehbilder.
 
 ## Verwandte Themen {#section-b18bf0b035644ca5aedebbc64373718e}
 
-[catalog::Anchor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) , [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)
+[catalog::anchor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) , [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)

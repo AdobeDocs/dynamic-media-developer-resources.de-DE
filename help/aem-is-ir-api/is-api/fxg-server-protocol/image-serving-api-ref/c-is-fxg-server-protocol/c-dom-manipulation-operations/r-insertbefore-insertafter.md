@@ -1,6 +1,6 @@
 ---
 title: insertBefore,insertAfter
-description: Legen Sie XML vor oder nach einem Knoten fest.
+description: Festlegen von XML vor oder nach einem Knoten
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # insertBefore,insertAfter{#insertbefore-insertafter}
 
-Legen Sie XML vor oder nach einem Knoten fest.
+Festlegen von XML vor oder nach einem Knoten
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
@@ -22,7 +22,7 @@ Wenn für ein FXG-Knotenelement ein `s7:elementID` definiert ist, können Sie mi
 
 ## Beispiel {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-Wenn Sie ein Group -Tag wie dieses haben:
+Wenn Sie ein Gruppen-Tag wie dieses haben:
 
 `<Group visible="true" s7:elementID="inner_shape">`
 

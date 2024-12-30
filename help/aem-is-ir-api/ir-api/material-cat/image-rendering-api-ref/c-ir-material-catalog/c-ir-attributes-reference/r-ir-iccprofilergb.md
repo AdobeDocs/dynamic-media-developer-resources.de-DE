@@ -1,6 +1,6 @@
 ---
-title: IccProfileRgb
-description: RGB - Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen angegeben werden, wie bgc= und color=.
+title: IccProfileRGB
+description: RGB-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für das RGB von Antwortbildern verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image-Rendering-Befehlen angegeben werden, z. B. bgc= und color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# IccProfileRgb{#iccprofilergb}
+# IccProfileRGB{#iccprofilergb}
 
-RGB - Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit `icc=` angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image Rendering-Befehlen wie `bgc=` und `color=` angegeben wurden.
+RGB-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für das RGB von Antwortbildern verwendet werden soll, wenn bei `icc=` kein Ausgabefarbraum angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image-Rendering-Befehlen angegeben werden, wie `bgc=` und `color=`.
 
 ## Eigenschaften {#section-b4a1bd92e99047479a5036413525a6d9}
 
-Textzeichenfolge. Falls angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB sein.
 
 ## Standard {#section-5809772f8e96438ab7626d323c66a4ba}
 
-Wird von `default::IccProfileRgb` übernommen, wenn nicht definiert oder leer.
+Von `default::IccProfileRgb` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-732c17dece3a4575855c9b79a08d0067}
 

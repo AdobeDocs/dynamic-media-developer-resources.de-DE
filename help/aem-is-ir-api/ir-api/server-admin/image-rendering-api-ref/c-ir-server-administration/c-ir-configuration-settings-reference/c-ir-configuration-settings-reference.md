@@ -1,5 +1,5 @@
 ---
-description: Alle Render Server-Einstellungen befinden sich unter install_root/ImageServing/conf/PlatformServer.conf. Der Name der Konfigurationsvariablen wird in Klammern angegeben.
+description: Alle Render-Server-Einstellungen befinden sich unter install_root/ImageServing/conf/PlatformServer.conf. Der Name der Konfigurationsvariablen wird in Klammern angezeigt.
 solution: Experience Manager
 title: Referenz zu Konfigurationseinstellungen
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Referenz zu Konfigurationseinstellungen{#configuration-settings-reference}
 
-Alle Render Server-Einstellungen befinden sich unter install_root/ImageServing/conf/PlatformServer.conf. Der Name der Konfigurationsvariablen wird in Klammern angegeben.
+Alle Render-Server-Einstellungen befinden sich unter install_root/ImageServing/conf/PlatformServer.conf. Der Name der Konfigurationsvariablen wird in Klammern angezeigt.

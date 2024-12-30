@@ -1,6 +1,6 @@
 ---
 title: setAttr.rootElement
-description: Legen Sie Attribute auf das FXG-Stammelement fest.
+description: Legen Sie Attribute für das FXG-Stammelement fest.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # setAttr.rootElement{#setattr-rootelement}
 
-Legen Sie Attribute auf das FXG-Stammelement fest.
+Legen Sie Attribute für das FXG-Stammelement fest.
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 
-Mit diesem Befehl können die Attribute des Stammelements bearbeitet werden.
+Dieser Befehl kann die Attribute des Stammelements bearbeiten.
 
 ## Beispiel {#section-2758a6e316c34b99b13b02147e5973bb}
 
-Wenn Sie über das folgende Stammelement verfügen:
+Wenn das folgende Stammelement vorhanden ist:
 
 `<Graphic version="1.0" viewHeight="692" viewWidth="792" s7:appVersion="1.0.0.11" ai:appVersion="14.0.0.367" d:id="1" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ai="http://ns.adobe.com/ai/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:s7="http://ns.adobe.com/S7FXG/2008">`
 
-Nach Anwendung des folgenden Befehls:
+Nach der Anwendung des folgenden Befehls:
 
 `setAttr.rootElement={viewHeight=300%26viewWidth=200}`
 

@@ -1,6 +1,6 @@
 ---
-title: TimeStamp
-description: Zeitstempel der Änderung. Gibt Datum/Uhrzeit der letzten Änderung dieser Vignette an.
+title: Zeitstempel
+description: Zeitstempel der Änderung. Gibt das Datum/die Uhrzeit der letzten Änderung dieser Vignette an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,35 +12,35 @@ ht-degree: 1%
 
 ---
 
-# TimeStamp{#timestamp}
+# Zeitstempel{#timestamp}
 
-Zeitstempel der Änderung. Gibt Datum/Uhrzeit der letzten Änderung dieser Vignette an.
+Zeitstempel der Änderung. Gibt das Datum/die Uhrzeit der letzten Änderung dieser Vignette an.
 
-Wenn `attribute::UseLastModified` festgelegt ist, wird der neueste `vignette::TimeStamp`- und `catalog::TimeStamp`Wert der Vignette und alle an der Anforderung beteiligten Materialien in der HTTP-Antwort als Header der letzten Änderung zurückgegeben.
+Wenn `attribute::UseLastModified` festgelegt ist, werden der neueste `vignette::TimeStamp` und `catalog::TimeStamp`Wert der Vignette und aller an der Anfrage beteiligten Materialien in der HTTP-Antwort als Kopfzeile der letzten Änderung zurückgegeben.
 
 >[!NOTE]
 >
->Die tatsächliche Dateizeit der Vignettendatei wird zu diesem Zweck nie verwendet.
+>Die eigentliche Dateizeit der Vignettendatei wird zu diesem Zweck nie verwendet.
 
-Der `catalog::TimeStamp` wird auch für die Katalogbasierte Cache-Validierung verwendet. Siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
+Die `catalog::TimeStamp` wird auch für die katalogbasierte Cache-Validierung verwendet. Siehe [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## Eigenschaften {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 
-Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, der 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert mit einem der folgenden Formate sein:
+Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl von Millisekunden seit Mitternacht, dem 1. Januar 1970 UTC/GMT oder ein Datums-/Uhrzeitzeichenfolgenwert in einem der folgenden Formate sein:
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* liegt im Bereich von 0-23.
-* *[!DNL zzz]* ist ein aus drei oder vier Zeichen bestehender Zeitzonen-Code, z. B. &quot;GMT&quot;oder &quot;PST&quot;. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. &quot;PST&quot;für die Pacific Standard Time, im Gegensatz zu &quot;PDT&quot;für die Sommerzeit im Pazifik).
-* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten relativ zu GMT. Beispielsweise entspricht &quot;PDT&quot;GMT -7.
+* *[!DNL zzz]* ist ein drei- oder vierstelliger Zeitzonencode wie „GMT“ oder „PST“. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. „PST“ für Pacific Standard Time im Vergleich zu „PDT“ für Pacific Daylight Savings Time).
+* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten, relativ zu GMT. „PDT“ entspricht beispielsweise „GMT -7“.
 
-Alle Elemente von Datums-/Uhrzeitwerten im Zeichenfolgenformat müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen wird die Änderungszeit der [!DNL *[!DNL catalog]*.ini]-Datei verwendet.
+Alle Elemente von zeichenfolgenformatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei [!DNL *[!DNL catalog]*.ini] verwendet.
 
 ## Standard {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-Der Wert `attribute::TimeStamp` ist das leere oder nicht vorhandene Feld.
+Das `attribute::TimeStamp` ist das Feld, das leer oder nicht vorhanden ist.
 
 ## Verwandte Themen {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 

@@ -1,7 +1,7 @@
 ---
-description: Dieser Abschnitt enthält Informationen zur Verwaltung von Materialkatalogen und Quelldaten.
+description: Dieser Abschnitt enthält Informationen zum Verwalten von Materialkatalogen und Quelldaten.
 solution: Experience Manager
-title: Verwalten von Inhalt
+title: Inhalte verwalten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1c8a6e06-fdfb-4cad-9fbf-ba1142c9d3a8
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Inhalt{#managing-content}
+# Inhalte verwalten{#managing-content}
 
-Dieser Abschnitt enthält Informationen zur Verwaltung von Materialkatalogen und Quelldaten.
+Dieser Abschnitt enthält Informationen zum Verwalten von Materialkatalogen und Quelldaten.

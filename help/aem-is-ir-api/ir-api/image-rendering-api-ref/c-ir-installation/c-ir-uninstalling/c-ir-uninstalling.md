@@ -1,6 +1,6 @@
 ---
 title: Deinstallieren des Bild-Renderings
-description: Wenn dies jemals erforderlich wird, können Sie das Bild-Rendering deinstallieren.
+description: Wenn dies erforderlich wird, können Sie das Bild-Rendering deinstallieren.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Deinstallieren des Bild-Renderings{#uninstalling-image-rendering}
 
-Wenn dies jemals erforderlich wird, können Sie das Bild-Rendering deinstallieren.
+Wenn dies erforderlich wird, können Sie das Bild-Rendering deinstallieren.
 
-Durch die Deinstallation werden möglicherweise einige Benutzerdokumente im Installationsordner entfernt. Sichern Sie vor der Deinstallation alle Dateien, die Sie beibehalten möchten.
+Bei einer Deinstallation werden möglicherweise einige Benutzerdokumente aus dem Installationsordner entfernt. Sichern Sie vor der Deinstallation alle Dateien, die Sie behalten möchten.
 
-Melden Sie sich vor der Deinstallation mit Administratorrechten oder Root-Berechtigungen bei Ihrem Serverhost an.
+Melden Sie sich vor der Deinstallation mit Administrator- oder Stammberechtigungen bei Ihrem Serverhost an.

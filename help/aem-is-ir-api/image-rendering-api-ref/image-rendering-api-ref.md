@@ -1,6 +1,6 @@
 ---
-title: Image Rendering API Reference
-description: Zeigen Sie die Referenzhilfe zur Dynamic Media Image Rendering API an.
+title: API-Referenz zum Rendern von Bildern
+description: Sehen Sie sich die Referenzhilfe zur Dynamic Media Image Rendering API an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 ---
 
 
-# Image Rendering API Reference {#image-rendering-api-reference}
+# API-Referenz zum Rendern von Bildern {#image-rendering-api-reference}
 
-Zeigen Sie die Referenzhilfe zur Dynamic Media Image Rendering API an.
+Sehen Sie sich die Referenzhilfe zur Dynamic Media Image Rendering API an.

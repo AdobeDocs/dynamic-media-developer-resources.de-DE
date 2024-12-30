@@ -1,7 +1,7 @@
 ---
-description: Beim Rendern von Bildern werden die Zwischenspeicherungsfunktionen von Image Serving genutzt, um Antwortbilddaten, Zwischendaten für verschachtelte/eingebettete Anforderungen und Quellbilddaten (z. B. Texturen) zu speichern, die von einer externen Quelle abgerufen werden.
+description: Das Bild-Rendering nutzt die Caching-Funktionen von Image Serving zum Speichern von Antwort-Bilddaten, Zwischendaten für verschachtelte/eingebettete Anfragen und Quellbilddaten (z. B. Texturen), die aus einer externen Quelle abgerufen wurden.
 solution: Experience Manager
-title: Datenzwischenspeicherung
+title: Daten-Caching
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c7be9254-0dd4-4ec3-8448-86a18b9bea0d
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Datenzwischenspeicherung{#data-caching}
+# Daten-Caching{#data-caching}
 
-Beim Rendern von Bildern werden die Zwischenspeicherungsfunktionen von Image Serving genutzt, um Antwortbilddaten, Zwischendaten für verschachtelte/eingebettete Anforderungen und Quellbilddaten (z. B. Texturen) zu speichern, die von einer externen Quelle abgerufen werden.
+Das Bild-Rendering nutzt die Caching-Funktionen von Image Serving zum Speichern von Antwort-Bilddaten, Zwischendaten für verschachtelte/eingebettete Anfragen und Quellbilddaten (z. B. Texturen), die aus einer externen Quelle abgerufen wurden.
 
-Eine Beschreibung der Caching-Mechanismen finden Sie in der Dokumentation zum Image Serving .
+Eine Beschreibung der Caching-Mechanismen finden Sie in der Dokumentation zu Image-Serving .

@@ -1,5 +1,5 @@
 ---
-description: Wenn Materialdaten für einen Materialkatalog erforderlich sind, muss der relative oder absolute Pfad der Materialdatendatei im Attribut CatalogFile angegeben werden.
+description: Wenn Materialdaten für einen Materialkatalog benötigt werden, muss der relative oder absolute Pfad der Materialdatendatei in der Attributkatalogdatei angegeben werden.
 solution: Experience Manager
 title: Materialdatenreferenz
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Materialdatenreferenz{#material-data-reference}
 
-Wenn Materialdaten für einen Materialkatalog erforderlich sind, muss der relative oder absolute Pfad der Materialdatendatei im Attribut::CatalogFile angegeben werden.
+Wenn Materialdaten für einen Materialkatalog benötigt werden, muss der relative oder absolute Pfad der Materialdatendatei im Attribut::CatalogFile angegeben werden.
 
-Einträge in die Materialdatendatei eines bestimmten Materialkatalogs überschreiben Einträge in der Materialdatendatei des Standardkatalogs.
+Einträge in der Materialdatendatei eines bestimmten Materialkatalogs überschreiben Einträge in der Materialdatendatei des Standardkatalogs.

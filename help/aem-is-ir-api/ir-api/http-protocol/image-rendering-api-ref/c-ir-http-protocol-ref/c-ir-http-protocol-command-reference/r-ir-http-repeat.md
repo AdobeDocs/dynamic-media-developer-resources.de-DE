@@ -1,6 +1,6 @@
 ---
 title: wiederholen
-description: Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturmaterialien an.
+description: Textur - Wiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturmaterialien an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,58 +14,58 @@ ht-degree: 16%
 
 # wiederholen{#repeat}
 
-Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturmaterialien an.
+Textur - Wiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturmaterialien an.
 
 `repeat=0...19`
 
 <table id="simpletable_0D54E62EAF50482A95EDE166D0645D9E"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Wiederholen Sie den Vorgang sofort. </p> </td> 
+  <td class="stentry"> <p>Gerade Wiederholung. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>4-Wege-zufällige Neigung. </p> </td> 
+  <td class="stentry"> <p>4-Wege-Fliesen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>8-Wege-zufällige Neigung. </p> </td> 
+  <td class="stentry"> <p>8-Wege-Fliesen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Rautenkippen. </p> </td> 
+  <td class="stentry"> <p>Diamantfliesen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Quarter-Drop Hintergrundbild hängt. </p> </td> 
+  <td class="stentry"> <p>Quarter-Drop Tapete hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Hinhängen von der dritten Stelle. </p> </td> 
+  <td class="stentry"> <p>Third-Drop Tapete hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Halbe Tropfen Hintergrundbild hängen. </p> </td> 
+  <td class="stentry"> <p>Half-Drop Tapete hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Fixierte Hintergrundbilder aus dem fünften Tropfen. </p> </td> 
+  <td class="stentry"> <p>Fifth-drop Tapete hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Hintergrundbild umkehren hängt. </p> </td> 
+  <td class="stentry"> <p>Umgekehrte Tapete hängt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>Random Wallpaper hängen. </p> </td> 
+  <td class="stentry"> <p>Zufällige Tapeten hängen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
-  <td class="stentry"> <p>Zufälliger Abfall. </p> </td> 
+  <td class="stentry"> <p>Zufälliger Absturz. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>Random über. </p> </td> 
+  <td class="stentry"> <p>Zufällig verteilt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
@@ -73,27 +73,27 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>Mirror (Buchspiel). </p> </td> 
+  <td class="stentry"> <p>Mirror (Buchvergleich). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>Standard-Randomizer. </p> </td> 
+  <td class="stentry"> <p>Standard-Randomisierer. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
-  <td class="stentry"> <p>Hochfrequenz-Randomizer. </p> </td> 
+  <td class="stentry"> <p>Hochfrequenz-Randomisierer. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>Randomizer mit geringer Häufigkeit. </p> </td> 
+  <td class="stentry"> <p>Niederfrequenz-Randomisierer. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>Horizontaler Randomizer. </p> </td> 
+  <td class="stentry"> <p>Horizontaler Randomisierer. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>Vertikaler Randomizer. </p> </td> 
+  <td class="stentry"> <p>Vertikaler Randomisierer. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -101,11 +101,11 @@ Texturwiederholungsmodus. Gibt den Wiederholungsmodus für wiederholbare Texturm
  </tr> 
 </table>
 
-Die zufälligen Quilting-Modi (14...18) können verwendet werden, um Texturen aus nicht leicht wiederholbaren Bildern zu synthetisieren. Der Algorithmus erstellt vollständig zufällige oder teilweise zufällige Texturen basierend auf dem Originalbild.
+Die zufälligen Steppmodi (14…18) können verwendet werden, um Texturen aus Bildern zu erzeugen, die nicht ohne weiteres wiederholbar sind; der Algorithmus erzeugt vollständig zufällige oder teilweise zufällige Texturen basierend auf dem Originalbild.
 
 ## Eigenschaften {#section-262bf540930d4890b678ea00cefe1909}
 
-Materialattribut. Ignoriert durch feste Farbe, Dekormaterial und Möbel.
+Materialattribut. Wird von einfarbigen Abziehbildern und Schrankmaterialien ignoriert.
 
 ## Standard {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
@@ -113,4 +113,4 @@ Materialattribut. Ignoriert durch feste Farbe, Dekormaterial und Möbel.
 
 ## Verwandte Themen {#section-ac99113b64654d75a3a86e41db546269}
 
-[catalog::Repeat](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
+[catalog:repeat](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)

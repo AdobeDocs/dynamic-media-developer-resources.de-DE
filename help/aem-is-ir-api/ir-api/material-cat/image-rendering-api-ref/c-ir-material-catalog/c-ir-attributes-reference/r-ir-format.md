@@ -1,6 +1,6 @@
 ---
 title: Format
-description: Standardformat des Antwortbilds. Gibt das Standardformat für Antwortbilder an.
+description: Standardformat des Antwortbildes. Gibt das Standardformat für Antwortbilder an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 10%
 
 # Format{#format}
 
-Standardformat des Antwortbilds. Gibt das Standardformat für Antwortbilder an.
+Standardformat des Antwortbildes. Gibt das Standardformat für Antwortbilder an.
 
 ## Eigenschaften {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Textzeichenfolge. Muss einer der Format-Token sein, die vom Befehl `fmt=` unterstützt werden:
+Text-String Muss eines der vom `fmt=`-Befehl unterstützten Format-Token sein:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Standard {#section-256b0f8afdd846eaac68ec2019258708}
 
-Wird von `default::Format` übernommen, wenn nicht definiert oder leer.
+Von `default::Format` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

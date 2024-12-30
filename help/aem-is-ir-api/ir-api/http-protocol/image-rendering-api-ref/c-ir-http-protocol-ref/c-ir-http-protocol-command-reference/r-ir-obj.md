@@ -1,6 +1,6 @@
 ---
 title: obj
-description: Wählen Sie das Objekt nach Name aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
+description: Objekt nach Namen auswählen. Wählt die angegebene Vignettengruppe nach Namen aus und startet eine neue SMS.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,30 +14,30 @@ ht-degree: 3%
 
 # obj{#obj}
 
-Wählen Sie das Objekt nach Name aus. Wählt die angegebene Vignettengruppe nach Namen aus und startet einen neuen MSS.
+Objekt nach Namen auswählen. Wählt die angegebene Vignettengruppe nach Namen aus und startet eine neue SMS.
 
 ` obj= *`name`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Name </span> </span> </p> </td> 
   <td class="stentry"> <p>Gruppenname oder Pfad/Name. </p> </td> 
  </tr> 
 </table>
 
-Untergruppen oder einzelne Objekte können über einen vollständig qualifizierten Gruppenpfad ausgewählt werden (d. h. durch Angabe des Namens der Zielgruppe oder des Objekts, dem alle übergeordneten Gruppen vorangestellt sind, getrennt durch / (Schrägstriche).
+Untergruppen oder einzelne Objekte können mithilfe eines vollqualifizierten Gruppenpfads ausgewählt werden (d. h. durch Angabe des Namens der Zielgruppe oder des Objekts mit vorangestellter Angabe aller übergeordneten Gruppen, getrennt durch / (Schrägstriche).
 
 Wenn keine Gruppe/kein Objekt mit dem angegebenen Namen gefunden wird, wird die in `attribute::OnObjFail` angegebene Aktion ausgeführt.
 
 ## Eigenschaften {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Auswahlbefehl; MSS-Trennzeichen. Die Objektauswahl ist so lange persistent, bis ein anderes Objekt ausgewählt ist, entweder mit `obj=` oder mit `sel=`.
+Auswahlbefehl; MS-Trennzeichen. Die Objektauswahl bleibt so lange bestehen, bis ein anderes Objekt ausgewählt wird, entweder mit `obj=` oder `sel=`.
 
-Bei Gruppen-/Objektpfaden und Namen wird zwischen Groß- und Kleinschreibung unterschieden.
+Bei Gruppen-/Objektpfaden und Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
 ## Standard {#section-0c322850512c4896bb551856a549440e}
 
-Die erste Gruppe in der Vignette mit renderbaren Objekten wird automatisch ausgewählt, wenn eine neue Vignette geöffnet wird.
+Die erste Gruppe in der Vignette, die renderbare Objekte enthält, wird automatisch ausgewählt, wenn eine neue Vignette geöffnet wird.
 
 ## Verwandte Themen {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 

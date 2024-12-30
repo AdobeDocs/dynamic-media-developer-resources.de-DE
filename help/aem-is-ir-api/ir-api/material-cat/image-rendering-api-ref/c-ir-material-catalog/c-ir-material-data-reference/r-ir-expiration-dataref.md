@@ -1,6 +1,6 @@
 ---
 title: Ablauf
-description: Client-Cache-Zeit bis zur Live-Schaltung. Anzahl der Stunden bis zum Ablauf. Dient zum Verwalten der Zwischenspeicherung von Client- und Proxyservern.
+description: Client-Cache-Lebensdauer. Anzahl der Stunden bis zum Ablauf. Wird für die Verwaltung der Zwischenspeicherung von Client- und Proxy-Servern verwendet.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,23 +14,23 @@ ht-degree: 1%
 
 # Ablauf{#expiration}
 
-Client-Cache-Zeit bis zur Live-Schaltung. Anzahl der Stunden bis zum Ablauf. Dient zum Verwalten der Zwischenspeicherung von Client- und Proxyservern.
+Client-Cache-Lebensdauer. Anzahl der Stunden bis zum Ablauf. Wird für die Verwaltung der Zwischenspeicherung von Client- und Proxy-Servern verwendet.
 
-Der Server berechnet die Ablaufzeit/das Ablaufdatum der NTTP-Antwortdaten, indem er diesen Wert zum Übertragungszeitpunkt/Übertragungsdatum hinzufügt.
+Der Server berechnet die Ablaufzeit/das Ablaufdatum der NTP-Antwortdaten, indem er diesen Wert zu Übertragungszeit/Übertragungsdatum hinzufügt.
 
-Browser verwalten Caches anhand der Ablaufzeiten von Dateien. Bevor eine Anforderung an den Server übergeben wird, überprüft der Browser seinen Cache, um festzustellen, ob die Datei bereits heruntergeladen wurde. Wenn dies der Fall ist und die Datei noch nicht abgelaufen ist, sendet der Browser anstelle einer normalen GET-Anfrage eine bedingte GET (z. B. mit dem HTTP-Anforderungsheader If-Modified-Since ). Der Server hat die Möglichkeit, mit dem Status &#39;304&#39; zu antworten und das Bild nicht zu senden. Der Browser lädt dann einfach die Datei aus dem Cache. Dies kann die Gesamtleistung für häufig aufgerufene Daten erheblich steigern.
+Browser verwalten Caches mit Gültigkeitsdauern von Dateien. Bevor eine Anfrage an den Server übergeben wird, prüft der Browser seinen Cache, um festzustellen, ob die Datei bereits heruntergeladen wurde. Wenn dies der Fall ist und die Datei noch nicht abgelaufen ist, sendet der Browser eine bedingte GET-Anfrage (z. B. mit dem If-Modified-Since HTTP-Anfrage-Header) anstelle einer normalen GET-Anfrage. Der Server hat die Möglichkeit, mit einem „304“-Status zu antworten und das Bild nicht zu übertragen. Der Browser lädt dann einfach die Datei aus dem Cache. Dies kann die Gesamtleistung für häufig aufgerufene Daten erheblich steigern.
 
-Der Server setzt den ablaufenden HTTP-Antwortheader auf das aktuelle Datum/die aktuelle Uhrzeit und den kleinsten Vignettenwert::Expiration sowie alle catalog::Expiration -Werte für die Vignette und alle am Rendervorgang beteiligten Materialien.
+Der Server legt den HTTP-Antwort-Header „Expire“ auf das aktuelle Datum/die aktuelle Uhrzeit plus den kleinsten Wert von „vignette::Expiration“ und alle „catalog::Expiration“-Werte für die Vignette und alle am Render-Vorgang beteiligten Materialien fest.
 
-Die Gültigkeit wird hauptsächlich für Bilddatenantworten festgelegt. Bestimmte Arten von Antworten werden immer für einen sofortigen Ablauf markiert (oder als nicht zwischenspeicherbar markiert), einschließlich aller Fehlerantworten oder Eigenschaftsantworten.
+Die Gültigkeit wird hauptsächlich für Bilddatenantworten festgelegt. Bestimmte Arten von Antworten werden immer für den sofortigen Ablauf markiert (oder als nicht zwischenspeicherbar gekennzeichnet), einschließlich aller Fehlerantworten oder Eigenschaftsantworten.
 
 ## Eigenschaften {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-Real number, -2, -1, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als `never expire` zu markieren. In diesem Fall gibt der Server bei bedingten `GET` -Anfragen immer den Status 304 (nicht geändert) zurück, ohne zu überprüfen, ob die Datei tatsächlich geändert wurde. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
+Reelle Zahl, -2, -1, 0 oder höher. Anzahl der Stunden bis zum Ablauf seit der Erstellung des Antwortbildes. Auf 0 gesetzt, um das Antwortbild immer sofort ablaufen zu lassen, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 gesetzt, um als `never expire` zu markieren. In diesem Fall gibt der Server immer den Status 304 (Nicht geändert) als Reaktion auf bedingte `GET`-Anfragen zurück, ohne zu überprüfen, ob die Datei tatsächlich geändert wurde. Legen Sie dies auf -2 fest, um den von `attribute::Expiration` bereitgestellten Standardwert zu verwenden.
 
 ## Standard {#section-79d71706e12a4493a69d7febc3a1f271}
 
-`attribute::Expiration` wird verwendet, wenn das Feld nicht vorhanden ist, wenn der Wert -2 ist oder wenn das Feld leer ist.
+`attribute::Expiration` wird verwendet, wenn das Feld nicht vorhanden ist, der Wert -2 ist oder das Feld leer ist.
 
 ## Verwandte Themen {#section-9d46a9d346fe42f3911edb3bd79f4121}
 

@@ -1,6 +1,6 @@
 ---
 title: ErrorDetail
-description: Fehlermeldungsdetails. Gibt die Detailtiefe für Fehlermeldungen an, die über HTTP als error.message -Wert zurückgegeben werden.
+description: Details der Fehlermeldung. Gibt den Detaillierungsgrad für Fehlermeldungen an, die über HTTP als error.message-Wert zurückgegeben werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # ErrorDetail{#errordetail}
 
-Fehlermeldungsdetails. Gibt die Detailtiefe für Fehlermeldungen an, die über HTTP als error.message -Wert zurückgegeben werden.
+Details der Fehlermeldung. Gibt den Detaillierungsgrad für Fehlermeldungen an, die über HTTP als error.message-Wert zurückgegeben werden.
 
 ## Titel {#section-c10d75d72ee24d16a67cc8d927f1deba}
 
@@ -27,29 +27,29 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Kurze Nachricht. Für zukünftige Verwendung reserviert. Gibt derzeit dieselben Informationen wie 0 zurück. </p></td> 
+  <td class="stentry"> <p>Kurze Nachricht. Reserviert für zukünftige Verwendung. Gibt derzeit dieselben Informationen wie 0 zurück. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Detaillierte Nachricht. Bietet Details auf Benutzerebene zum Fehler. Kann vertrauliche Informationen enthalten, z. B. Dateipfade. </p></td> 
+  <td class="stentry"> <p>Detaillierte Nachricht. Enthält Details auf Benutzerebene zum Fehler. Kann vertrauliche Informationen wie Dateipfade enthalten. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debugging-Informationen. Fügt ggf. Java™-Stacktraces hinzu. Fehlerbilder enthalten keine Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. </p></td> 
+  <td class="stentry"> <p>Vollständige Debug-Informationen. Fügt ggf. Java™-Stacktraces hinzu. Fehlerbilder enthalten nie Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. </p></td> 
  </tr> 
 </table>
 
-* Level 0 wird für Live-Server empfohlen, auf die öffentlich zugegriffen werden kann.
-* Level 2 wird für Staging-, Qualitätssicherung- und Anwendungsentwicklungsserver empfohlen.
-* Informationen der Stufe 3 können bei der Meldung von Problemen beim technischen Support von Dynamic Media nützlich sein.
+* Stufe 0 wird für Live-Server empfohlen, auf die öffentlich zugegriffen werden kann.
+* Stufe 2 wird für Staging-, Qualitätssicherungs- und Anwendungsentwicklungsserver empfohlen.
+* Informationen der Stufe 3 können beim Melden von Problemen an den technischen Support von Dynamic Media hilfreich sein.
 
 ## Eigenschaften {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
-Aufzählungswert: 0, 1, 2 oder 3.
+Aufzählungswert, muss 0, 1, 2 oder 3 sein.
 
 ## Standard {#section-5e78d550050840cc9a1de811c581b94f}
 
-Wird von `default::ErrorDetail` übernommen, wenn nicht angegeben oder leer.
+Von `default::ErrorDetail` geerbt, wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-474e71922d194c7ca06f2aad3b30e025}
 

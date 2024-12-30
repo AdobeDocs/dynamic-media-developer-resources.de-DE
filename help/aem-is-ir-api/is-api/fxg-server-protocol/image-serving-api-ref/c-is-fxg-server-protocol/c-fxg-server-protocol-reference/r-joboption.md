@@ -1,7 +1,7 @@
 ---
-description: PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder eine PDF-Vorgabe ist eine PDF-Datei, die von Illustrator im Dialogfeld "Speicheroptionen"oder im Dialogfeld "PDF-Vorgaben"unter InDesign generiert wird.
+description: PDF-Auftragsoptionen anwenden. Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld „Als PDF-Optionen speichern“ oder "PDF-Vorgaben als InDesign" generiert wird.
 solution: Experience Manager
-title: joboption
+title: Joboption
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
@@ -12,15 +12,15 @@ ht-degree: 38%
 
 ---
 
-# joboption{#joboption}
+# Joboption{#joboption}
 
-PDF-Auftragsoptionen anwenden Eine Auftragsoptionendatei oder eine PDF-Vorgabe ist eine PDF-Datei, die von Illustrator im Dialogfeld &quot;Speicheroptionen&quot;oder im Dialogfeld &quot;PDF-Vorgaben&quot;unter InDesign generiert wird.
+PDF-Auftragsoptionen anwenden. Eine Auftragsoptionendatei oder PDF-Vorgabe ist eine Datei, die von Illustrator im Dialogfeld „Als PDF-Optionen speichern“ oder &quot;PDF-Vorgaben als InDesign&quot; generiert wird.
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Wert</span></span> </p> </td> 
   <td class="stentry"> <p>Die IPSID der Auftragsoptionendatei. </p></td> 
  </tr> 
 </table>
@@ -36,7 +36,7 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Bilder </p></td> 
-  <td class="stentry"> <p> Neuberechnung, Auflösung, Schwellenwert und Komprimierung für Farbe, Grau und Mono </p> </td> 
+  <td class="stentry"> <p> Neuberechnung, Auflösung, Schwellenwert und Komprimierung für Farbe, Grau und Schwarzweiß </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Schriftarten </p></td> 
@@ -44,7 +44,7 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Farbe </p></td> 
-  <td class="stentry"> <p> Farbstrategie(Nur Bilder mit Tags versehen wird als alles mit Tags behandelt) </p> <p> Dokument-Renderpriorität </p> <p> Nur die folgenden Arbeitsbereiche werden für 4.2.5 unterstützt. </p> <p> 
+  <td class="stentry"> <p> Farbstrategie (Nur Tag-Bilder werden als Tag-Elemente behandelt) </p> <p> Dokument-Renderpriorität </p> <p> Für 4.2.5 werden nur die folgenden Arbeitsbereiche unterstützt. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -77,6 +77,6 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Standards </p></td> 
-  <td class="stentry"> <p>Compliance-Standard. </p></td> 
+  <td class="stentry"> <p>Kompatibilitätsstandard </p></td> 
  </tr> 
 </table>

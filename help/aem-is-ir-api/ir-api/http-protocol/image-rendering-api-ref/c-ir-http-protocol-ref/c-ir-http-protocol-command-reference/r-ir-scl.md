@@ -1,6 +1,6 @@
 ---
-title: scl
-description: Skalierungsansicht. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor im Verhältnis zur Vignette mit voller Auflösung.
+title: SCL
+description: Ansicht skalieren. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor relativ zur Vignette mit voller Auflösung.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,36 +12,36 @@ ht-degree: 1%
 
 ---
 
-# scl{#scl}
+# SCL{#scl}
 
-Skalierungsansicht. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor im Verhältnis zur Vignette mit voller Auflösung.
+Ansicht skalieren. Skaliert das gerenderte Bild um den angegebenen Skalierungsfaktor relativ zur Vignette mit voller Auflösung.
 
 `scl= *`invFactor`*`
 
 <table id="simpletable_EFE352FA8EF14197B6934783A2883451"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> invFactor</span> </span> </p></td> 
-  <td class="stentry"> <p>Umgekehrter Skalierungsfaktor (real, 1,0 oder höher). </p></td> 
+  <td class="stentry"> <p>Inverse Skalierungsfaktor (real, 1,0 oder höher). </p></td> 
  </tr> 
 </table>
 
-Wenn `scl=` nach `wid=` oder `hei=` in der URL kommt, werden diese Befehle abgebrochen und `scl=` definiert die Größe des vom Server zurückgegebenen Bildes.
+Wenn `scl=` nach `wid=` oder `hei=` in der URL erfolgt, werden diese Befehle abgebrochen und `scl=` die Größe des vom Server zurückgegebenen Bildes definiert.
 
-Wenn jedoch `wid=` oder `hei=` nach `scl=` in der URL kommt, brechen sie `scl=` ab und `wid=`/ `hei=` definieren die Größe des vom Server zurückgegebenen Bildes.
+Wenn `wid=` oder `hei=` jedoch nach dem `scl=` in der URL erfolgt, wird die `scl=` abgebrochen und `wid=`/`hei=` die Größe des vom Server zurückgegebenen Bildes definiert.
 
 >[!NOTE]
 >
->Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
+>Ein Fehler wird zurückgegeben, wenn die berechnete oder standardmäßige Größe des Antwortbildes größer als `attribute::MaxPix` ist.
 
 ## Eigenschaften {#section-170458cbd6984bd59a3434431258b20f}
 
-Kann an einer beliebigen Stelle in der Anfrage auftreten. Ignoriert, wenn `wid=` oder `hei=` in der Befehlssequenz nach `scl=` auftreten.
+Kann überall in der Anfrage auftreten. Ignoriert, wenn `wid=` oder `hei=` nach der `scl=` in der Befehlssequenz auftreten.
 
-Wenn Sie die Bildgröße mit `scl=` ändern, wird der Wert für die Druckauflösung, der im Antwortbild eingebettet ist, nicht geändert.
+Durch Ändern der Bildgröße mit `scl=` wird der im Antwortbild eingebettete Wert für die Druckauflösung nicht geändert.
 
 ## Standard {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-Wenn `wid=`, `hei=` oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die durch `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
+Wenn `wid=`, `hei=` oder `scl=` nicht angegeben sind, wird das Antwortbild so skaliert, dass es in die von `attribute::DefaultPix` definierte Größe passt. Wenn `attribute::DefaultPix` leer ist, hat das Antwortbild dieselbe Größe wie das Ansichtsbild der Vignette.
 
 ## Verwandte Themen {#section-cc5002a1d49340bbb5c7a5864c297621}
 

@@ -1,5 +1,5 @@
 ---
-description: Anforderungs-Modifikatorzeichenfolge. Keine oder mehr Bild-Rendering-Befehle, durch "&"getrennt. Dient zum Speichern von Vorlagen und Modifikatoren, die bei jeder Anforderung für diesen Vignettenzuordnungseintrag angewendet werden sollen.
+description: Zeichenfolge des Anforderungsmodifikators. Keine oder mehrere Bild-Rendering-Befehle, durch '&'-Zeichen getrennt. Wird zum Speichern von Vorlagen und Modifikatoren verwendet, die jedes Mal angewendet werden sollen, wenn eine Anfrage für diesen Vignettenkarteneintrag gestellt wird.
 solution: Experience Manager
 title: Modifikator
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # Modifikator{#modifier}
 
-Anforderungs-Modifikatorzeichenfolge. Keine oder mehr Bild-Rendering-Befehle, durch &quot;&amp;&quot;getrennt. Dient zum Speichern von Vorlagen und Modifikatoren, die bei jeder Anforderung für diesen Vignettenzuordnungseintrag angewendet werden sollen.
+Zeichenfolge des Anforderungsmodifikators. Keine oder mehrere Bild-Rendering-Befehle, durch &#39;&amp;&#39;-Zeichen getrennt. Wird zum Speichern von Vorlagen und Modifikatoren verwendet, die jedes Mal angewendet werden sollen, wenn eine Anfrage für diesen Vignettenkarteneintrag gestellt wird.
 
-Befehle in diesem Feld werden durch dieselben Befehle in der Anforderung oder Vorlage überschrieben, von der aus dieser Datensatz referenziert wird.
+Befehle in diesem Feld werden durch dieselben Befehle in der Anfrage oder Vorlage überschrieben, von der aus auf diesen Datensatz verwiesen wird.
 
 ## Eigenschaften {#section-b7b01c307ebc41d48c34db77307dbfd1}
 
-Textzeichenfolge. Optional.
+Text-String Optional.
 
 ## Standard {#section-31dd0ce4c0604fbaa7e7f1304626223b}
 

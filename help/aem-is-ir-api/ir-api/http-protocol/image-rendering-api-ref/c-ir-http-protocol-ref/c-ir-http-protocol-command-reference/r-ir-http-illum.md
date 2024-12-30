@@ -1,6 +1,6 @@
 ---
-title: illum
-description: Beleuchtungszuordnungsauswahl. Gibt die Beleuchtungskarte an, mit der dieses Material gerendert werden soll.
+title: Illum
+description: Beleuchtungskartenwähler. Gibt die Beleuchtungszuordnung an, mit der dieses Material gerendert werden soll.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 3%
 
 ---
 
-# illum{#illum}
+# Illum{#illum}
 
-Beleuchtungszuordnungsauswahl. Gibt die Beleuchtungskarte an, mit der dieses Material gerendert werden soll.
+Beleuchtungskartenwähler. Gibt die Beleuchtungszuordnung an, mit der dieses Material gerendert werden soll.
 
 `illum=-1|0|1|2`
 
-Wenn die angegebene Beleuchtungskarte in der Zielvignette nicht verfügbar ist, wird stattdessen die nächstverfügbare Karte verwendet.
+Ist die angegebene Beleuchtungskarte nicht in der Zielvignette verfügbar, wird stattdessen die nächstgelegene verfügbare Karte verwendet.
 
-`illum=-1` Gibt an, dass die Beleuchtungskarte automatisch basierend auf dem `gloss=` -Wert ausgewählt wird.
+`illum=-1` Gibt an, dass die Beleuchtungszuordnung automatisch auf der Grundlage des `gloss=` ausgewählt wird.
 
 ## Eigenschaften {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-Materialattribut. Wird ignoriert, wenn die Vignette nicht mehrere Beleuchtungskarten definiert.
+Materialattribut. Ignoriert, wenn die Vignette nicht mehrere Beleuchtungszuordnungen definiert.
 
 ## Standard {#section-c96ecfb232074e80b6a29076f5199403}
 
@@ -32,4 +32,4 @@ Materialattribut. Wird ignoriert, wenn die Vignette nicht mehrere Beleuchtungska
 
 ## Verwandte Themen {#section-9132e60381c64aa3a8ed1319690db55e}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)
+[Glanz=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)

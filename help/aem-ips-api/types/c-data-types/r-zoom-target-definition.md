@@ -1,5 +1,5 @@
 ---
-description: Definition des Zoomziels.
+description: Definition des Zoomziels
 solution: Experience Manager
 title: ZoomTargetDefinition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL ZoomTargetDefinition]{#zoomtargetdefinition}
 
-Definition des Zoomziels.
+Definition des Zoomziels
 
 Syntax
 
@@ -25,6 +25,6 @@ Syntax
 | name | `xsd:string` | Zielname. |
 | xPosition | `xsd:int` | Die X-Position des Zoomziels. |
 | yPosition | `xsd:int` | Die Y-Position des Zoomziels. |
-| Breite | `xsd:int` | Zoom der Zielbreite |
-| Höhe | `xsd:int` | Zoom der Zielhöhe. |
-| userData | `xsd:string` | Zugehörige Benutzerdaten. |
+| Breite | `xsd:int` | Zielbreite zoomen. |
+| Höhe | `xsd:int` | Zielhöhe zoomen. |
+| userData | `xsd:string` | Zugeordnete Benutzerdaten. |

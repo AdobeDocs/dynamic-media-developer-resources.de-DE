@@ -1,5 +1,5 @@
 ---
-description: Mehrere DOM-Manipulationsvorgänge werden unterstützt.
+description: Mehrere Vorgänge zur DOM-Manipulation werden unterstützt.
 solution: Experience Manager
 title: FXG DOM-Manipulationsvorgänge
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # FXG DOM-Manipulationsvorgänge{#fxg-dom-manipulation-operations}
 
-Mehrere DOM-Manipulationsvorgänge werden unterstützt.
+Mehrere Vorgänge zur DOM-Manipulation werden unterstützt.
 
 * [appendElement](r-appendelement.md)
 * [deleteAttr](r-deleteattr.md)

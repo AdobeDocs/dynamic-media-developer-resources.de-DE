@@ -1,6 +1,6 @@
 ---
 title: Fehler
-description: Wenn eine Anfrage nicht erfolgreich abgeschlossen werden kann, gibt der Server entweder ein Fehlerbild oder einen HTTP-Antwortstatus mit einem anderen Status als 200 zusammen mit einer Fehlermeldung zurück.
+description: Wenn eine Anfrage nicht erfolgreich abgeschlossen werden kann, gibt der Server entweder ein Fehlerbild oder einen anderen HTTP-Antwortstatus als 200 zusammen mit einer Fehlermeldung zurück.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # Fehler{#errors}
 
-Wenn eine Anfrage nicht erfolgreich abgeschlossen werden kann, gibt der Server entweder ein Fehlerbild oder einen HTTP-Antwortstatus mit einem anderen Status als 200 zusammen mit einer Fehlermeldung zurück.
+Wenn eine Anfrage nicht erfolgreich abgeschlossen werden kann, gibt der Server entweder ein Fehlerbild oder einen anderen HTTP-Antwortstatus als 200 zusammen mit einer Fehlermeldung zurück.
 
-Der Wert des Antwortstatus hängt vom Typ des Fehlers ab, für die häufigsten Fehler ist er &quot;403&quot;. Fehlerantworten für Nicht-Bildanforderungstypen entsprechen dem mit `req=` angegebenen Format. (Möglicherweise ist die Implementierung derzeit nicht konsistent.)
+Der Wert für den Antwortstatus hängt vom Typ des Fehlers ab. Bei den häufigsten Fehlern ist er „403“. Fehlerantworten für Nicht-Bildanforderungstypen entsprechen dem Format, das mit `req=` angegeben wurde. (Wird derzeit möglicherweise nicht konsistent implementiert.)
 
-Die in der Fehlermeldung enthaltene Detailmenge kann mit `attribute::ErrorDetail` konfiguriert werden.
+Die in der Fehlermeldung enthaltene Menge an Details kann mit `attribute::ErrorDetail` konfiguriert werden.
 
 **Fehlerbilder**
 
-Image Serving kann so konfiguriert werden, dass in einem Bild gerenderte Fehlermeldungen zurückgegeben werden. Weitere Informationen finden Sie unter `attribute::ErrorImage` in der Bildkatalogreferenz. Wenn das Fehlerbild erfolgreich generiert wurde, lautet der HTTP-Antwortstatus 200. Tritt bei der Verarbeitung des Fehlerbilds ein Fehler auf, werden die standardmäßige HTTP-Fehlerantwort und die Textmeldung an den Client zurückgegeben.
+Die Bildbereitstellung kann so konfiguriert werden, dass in einem Bild gerenderte Fehlermeldungen zurückgegeben werden. Weitere Informationen finden Sie unter `attribute::ErrorImage` in der Referenz zum Bildkatalog . Wenn das Fehlerbild erfolgreich generiert wurde, ist der HTTP-Antwortstatus 200. Wenn bei der Verarbeitung des Fehlerbilds ein Fehler auftritt, wird die standardmäßige HTTP-Fehlerantwort und Textmeldung an den Client zurückgegeben.
 
 **Siehe auch**
 

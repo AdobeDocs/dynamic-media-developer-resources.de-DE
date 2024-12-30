@@ -1,5 +1,5 @@
 ---
-description: Legt die Auflösung von eingebetteten Bitmaps in einer Web To Print-Anforderung fest.
+description: Legt die Auflösung von eingebetteten Bitmaps in einer zu druckenden Webanfrage fest.
 solution: Experience Manager
 title: imageRes
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # imageRes{#imageres}
 
-Legt die Auflösung von eingebetteten Bitmaps in einer Web To Print-Anforderung fest.
+Legt die Auflösung von eingebetteten Bitmaps in einer zu druckenden Webanfrage fest.
 
-` imageRes=< *`number`*>`
+` imageRes=< *`Zahl`*>`
 
-300 wird beim Drucken empfohlen. Je größer die Zahl, desto mehr Zeit ist zum Rendern des Bildes erforderlich.
+Beim Drucken wird 300 empfohlen. Je größer die Zahl ist, desto mehr Zeit ist erforderlich, um das Bild zu rendern.

@@ -1,6 +1,6 @@
 ---
-title: scharf
-description: Scharfzeichnen Sie die Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
+title: stechend
+description: Textur schärfen. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,16 +12,16 @@ ht-degree: 5%
 
 ---
 
-# scharf{#sharp}
+# stechend{#sharp}
 
-Scharfzeichnen Sie die Textur. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
+Textur schärfen. Gibt die Scharfzeichnung an, die beim Rendern dieses Materials angewendet werden soll.
 
 `sharp=0|1|2|3`
 
 <table id="simpletable_04B4EAA7CE7D4ED48A61A50CD001388F"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Keine Scharfzeichnung. </p> </td> 
+  <td class="stentry"> <p>Kein Scharfzeichnen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -33,17 +33,17 @@ Scharfzeichnen Sie die Textur. Gibt die Scharfzeichnung an, die beim Rendern die
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Mehr Scharfzeichnung (früh und spät). </p> </td> 
+  <td class="stentry"> <p>Weitere Scharfzeichnung (früh und spät). </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` Wendet die Scharfzeichnung an, nachdem das Material gerendert wurde; `sharp=2` wendet die Scharfzeichnung nach der anfänglichen Skalierung der Textur an, bevor sie in die Szene umgewandelt wird; `sharp=3` wendet die Scharfzeichnung sowohl vor als auch nach der Transformation an.
+`sharp=1` Wendet die Scharfzeichnung nach dem Rendern des Materials an; `sharp=2` wendet die Scharfzeichnung nach der ersten Skalierung der Textur an, aber bevor sie in die Szene umgewandelt wird; `sharp=3` wendet die Scharfzeichnung sowohl vor als auch nach der Transformation an.
 
-Der Scharfzeichnungsalgorithmus und die Menge der Scharfzeichnung und andere USM-Parameter (Unschärfemaske) werden durch die von der Vignette bereitgestellte Standard-Materialvorlage oder mit `rs=` gesteuert.
+Der Scharfzeichnungsalgorithmus und die Menge der Scharfzeichnungsund anderen USM-Parameter (Unschärfemasken) werden von der standardmäßigen Materialvorlage gesteuert, die von der Vignette oder mit `rs=` bereitgestellt wird.
 
 ## Eigenschaften {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-Materialattribut. Ignoriert durch feste Farbstoffe.
+Materialattribut. Von einfarbigen Materialien ignoriert.
 
 ## Standard {#section-febfa16e65864987b4d328e2ff1df64d}
 

@@ -1,6 +1,6 @@
 ---
-title: Image Rendering API
-description: Die Image Rendering API-Referenz enthält Informationen zum Einrichten und Verwenden der Dynamic Media Image Rendering API.
+title: Image Rendering-API
+description: Die Referenz zur Image Rendering-API enthält Informationen zum Einrichten und Verwenden der Dynamic Media Image Rendering-API.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# Image Rendering API{#image-rendering-api}
+# Image Rendering-API{#image-rendering-api}
 
-Die Image Rendering API-Referenz enthält Informationen zum Einrichten und Verwenden der Dynamic Media Image Rendering API.
+Die Referenz zur Image Rendering-API enthält Informationen zum Einrichten und Verwenden der Dynamic Media Image Rendering-API.
 
 * [Konfiguration](c-ir-installation/c-ir-installation.md)
 * [Lizenzierung](c-ir-installation/c-ir-licensing.md)
-* [Einrichten und Konfigurieren des Kompatibilitätsmoduls IR 3.x](c-ir-installation/t-ir-setup-compatibility-module.md)
+* [IR 3.x-Kompatibilitätsmodul einrichten und konfigurieren](c-ir-installation/t-ir-setup-compatibility-module.md)
 * [Einrichten und Konfigurieren des Bild-Renderings](c-ir-installation/c-ir-setup-ir.md)
 * [Deinstallieren des Bild-Renderings](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
-* [Serveradministration](c-ir-server-administration/c-ir-server-administration.md)
+* [Server-Administration](c-ir-server-administration/c-ir-server-administration.md)

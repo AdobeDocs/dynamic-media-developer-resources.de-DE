@@ -1,6 +1,6 @@
 ---
-title: cropPathE
-description: Ermöglicht das Zuschneiden auf den Begrenzungsrahmen eines eingebetteten benannten Pfads. Dieser Zuschnitt ändert wiederum die Größe des Bildes.
+title: CropPathE
+description: Ermöglicht das Zuschneiden zum Begrenzungsrahmen eines eingebetteten benannten Pfads. Durch dieses Zuschneiden ändert sich wiederum die Größe des Bildes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# cropPathE{#croppathe}
+# CropPathE{#croppathe}
 
-Ermöglicht das Zuschneiden auf den Begrenzungsrahmen eines eingebetteten benannten Pfads. Dieser Zuschnitt ändert wiederum die Größe des Bildes.
+Ermöglicht das Zuschneiden zum Begrenzungsrahmen eines eingebetteten benannten Pfads. Durch dieses Zuschneiden ändert sich wiederum die Größe des Bildes.
 
 `cropPathE= *`pathName`*&#42;[, *`pathName`*]`
 
@@ -22,21 +22,21 @@ Ermöglicht das Zuschneiden auf den Begrenzungsrahmen eines eingebetteten benann
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Name des Pfades, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> ist der Name eines Pfades, der in das Ebenenquellenbild eingebettet ist. Der Pfad wird bei Bedarf automatisch umgewandelt, um die relative Ausrichtung am Bildinhalt zu gewährleisten. Wenn mehr als ein <span class="codeph"><span class="varname"> pathName</span></span> angegeben ist, schneidet der Server nacheinander auf den Begrenzungsrahmen jedes Pfads zu. Jeder <span class="codeph"><span class="varname"> pathName</span></span>, der nicht im Quellbild gefunden wird, wird ignoriert. </p> </td> 
+   <td colname="col2"> <p>Name des Pfads, der in das Ebenenquellbild eingebettet ist (nur ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> ist der Name eines Pfads, der in das Ebenenquellbild eingebettet ist. Der Pfad wird nach Bedarf automatisch transformiert, um die relative Ausrichtung mit dem Bildinhalt beizubehalten. Wenn mehr als ein <span class="codeph"><span class="varname"> pathName</span></span> angegeben ist, schneidet der Server den Begrenzungsrahmen jedes Pfads einzeln zu. Alle <span class="codeph"><span class="varname"> pathName</span></span>, die nicht im Quellbild gefunden werden, werden ignoriert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Ebenenattribut. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp` Wird von Effektebenen ignoriert.
+Ebenenattribut. Gilt für die aktuelle Ebene oder das zusammengesetzte Bild, falls `layer=comp`. Von Effektebenen ignoriert.
 
-`cropPathE=` wird ignoriert, wenn kein Pfad mit dem angegebenen Namen im Ebenenquellenbild gefunden wird oder die Ebenenquelle kein Bild ist.
+`cropPathE=` wird ignoriert, wenn im Ebenenquellbild kein Pfad mit dem angegebenen Namen gefunden wird oder wenn die Ebenenquelle kein Bild ist.
 
 ## Standard {#section-d1986aa31af14767aeb1b4a57add67f4}
 
-Keine, kein zusätzliches Zuschneiden der Ebene.
+Keine, für keinen zusätzlichen Zuschnitt der Ebene.
 
 ## Verwandte Themen {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[crop](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[Zuschneiden](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

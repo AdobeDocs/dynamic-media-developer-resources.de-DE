@@ -1,6 +1,6 @@
 ---
 title: RuleSetFile
-description: Dateipfad für Regelsatzdefinitionen. Gibt die Datei an, die die Regeldefinitionen für diesen Materialkatalog enthält.
+description: Dateipfad für Regeldefinitionen. Gibt die Datei an, die die Regelsatzdefinitionen für diesen Materialkatalog enthält.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # RuleSetFile{#rulesetfile}
 
-Dateipfad für Regelsatzdefinitionen. Gibt die Datei an, die die Regeldefinitionen für diesen Materialkatalog enthält.
+Dateipfad für Regeldefinitionen. Gibt die Datei an, die die Regelsatzdefinitionen für diesen Materialkatalog enthält.
 
 ## Eigenschaften {#section-e805898763824caba24abb6af1706f5c}
 
-Textzeichenfolgenwert. Absoluter Dateipfad oder Pfad relativ zum Katalogordner.
+Text-Zeichenfolgenwert. Absoluter Dateipfad oder -pfad relativ zum Katalogordner.
 
 ## Standard {#section-69b1f865aa8d476bb087dc862e903ab1}
 
-Leer, was bedeutet, dass dieser Materialkatalog keine Regeln zur Vorab-Bearbeitung privater Anfragen aufweist.
+Leer, was anzeigt, dass dieser Materialkatalog keine Vorverarbeitungsregeln für private Anforderungen hat.
 
 ## Verwandte Themen {#section-84ba472b7ba0457f9f607a21ab44da16}
 
-[Regelsatzreferenz](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md#concept-2369f884d9724727aaf436b5b0261dbe)
+[Referenz zum Regelsatz](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md#concept-2369f884d9724727aaf436b5b0261dbe)

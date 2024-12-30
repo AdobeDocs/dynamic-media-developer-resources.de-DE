@@ -1,6 +1,6 @@
 ---
-title: Größenbeschränkung für Vignetten
-description: Beim Rendern von Bildern wird eine Größenbeschränkung von zwei Megapixeln für Vignetten ohne Pyramid erzwungen.
+title: Größenbeschränkung der Vignette
+description: Das Bild-Rendering erzwingt eine Größenbegrenzung von zwei Megapixeln für Nicht-Pyramiden-Vignetten.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Größenbeschränkung für Vignetten{#vignette-size-limitation}
+# Größenbeschränkung der Vignette{#vignette-size-limitation}
 
-Beim Rendern von Bildern wird eine Größenbeschränkung von zwei Megapixeln für Vignetten ohne Pyramid erzwungen.
+Das Bild-Rendering erzwingt eine Größenbegrenzung von zwei Megapixeln für Nicht-Pyramiden-Vignetten.
 
-Ändern Sie den Wert von `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf], wenn Ihre Anwendung Unterstützung für Nicht-Pyramid-Vignetten mit einem Bildbereich (Breite x Höhe) erfordert, der größer als diese Grenze ist.
+Ändern Sie den Wert von `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf], wenn Ihre Anwendung die Unterstützung für Nicht-Pyramidenvignetten mit einem Bildbereich (Breite x Höhe) erfordert, der größer als dieser Grenzwert ist.
 
 >[!NOTE]
 >
->Passen Sie die Attribute `attribute::MaxPix` und `IS::MaxMessageSize` an, um ungewöhnlich große Antwortbildgrößen zuzulassen. Weitere Informationen finden Sie in der Dokumentation zur Image-Serving .
+>Passen Sie die Attribute `attribute::MaxPix` und `IS::MaxMessageSize` an, um ungewöhnlich große Antwortbildgrößen zu ermöglichen. Weitere Informationen finden Sie in der Dokumentation zu Image-Serving .

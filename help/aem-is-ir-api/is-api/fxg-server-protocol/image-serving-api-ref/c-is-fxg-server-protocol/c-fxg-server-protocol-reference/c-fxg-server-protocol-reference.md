@@ -1,7 +1,7 @@
 ---
-description: Dieses Dokument enthält Informationen zu FXG-Serverprotokollen und deren Syntax.
+description: Dieses Dokument enthält Informationen über FXG-Serverprotokolle und deren Syntax.
 solution: Experience Manager
-title: Referenz zum FXG-Serverprotokoll
+title: FXG Server-Protokollreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b3d5d9-d7c9-44a6-97a5-8e3e2c4abef0
@@ -12,25 +12,25 @@ ht-degree: 2%
 
 ---
 
-# Referenz zum FXG-Serverprotokoll{#fxg-server-protocol-reference}
+# FXG Server-Protokollreferenz{#fxg-server-protocol-reference}
 
-Dieses Dokument enthält Informationen zu FXG-Serverprotokollen und deren Syntax.
+Dieses Dokument enthält Informationen über FXG-Serverprotokolle und deren Syntax.
 
-* [bleedmargin](r-bleedmargin.md)
-* [cache](r-is-fxg-cache.md)
+* [Anzapfung](r-bleedmargin.md)
+* [Cache](r-is-fxg-cache.md)
 * [convertTextToOutlines](r-convertextoutlines.md)
 * [enableVisibleAttributeOptimization](r-enablevisibleattributeoptimization.md)
 * [fmt](r-is-fxg-fmt.md)
 * [hei](r-is-fxg-hei.md)
 * [imageRes](r-imageres.md)
-* [joboption](r-joboption.md)
-* [markOverloadingTextFrames](r-markoverflowingtextframes.md)
+* [Joboption](r-joboption.md)
+* [markOverflowingTextFrames](r-markoverflowingtextframes.md)
 * [mediaMargin](r-mediamargin.md)
 * [Seite](r-page.md)
 * [printerMark](r-printermark.md)
 * [qlt](r-is-fxg-qlt.md)
-* [quantifizieren](r-is-fxg-quantize.md)
-* [req](r-req-oversetstatus.md)
-* [scale](r-is-fxg-scale.md)
+* [quanteln](r-is-fxg-quantize.md)
+* [Erf](r-req-oversetstatus.md)
+* [Skala](r-is-fxg-scale.md)
 * [trimMargin](r-trimmargin.md)
-* [wid](r-is-fxg-wid.md)
+* [WID](r-is-fxg-wid.md)

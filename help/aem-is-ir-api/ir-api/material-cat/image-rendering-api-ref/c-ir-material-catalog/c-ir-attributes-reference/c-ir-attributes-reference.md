@@ -1,6 +1,6 @@
 ---
 title: Attributreferenz
-description: Alle Katalogattribute sind optional, mit Ausnahme der Katalog-RootId. Alle Attribute sind in der standardmäßigen Katalogattributdatei (default.ini) erforderlich.
+description: Alle Katalogattribute sind optional, mit Ausnahme der Catalog RootId. Alle Attribute sind in der standardmäßigen Katalogattributdatei (default.ini) erforderlich.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Attributreferenz{#attributes-reference}
 
-Alle Katalogattribute sind optional, mit Ausnahme von catalog::RootId. Alle Attribute sind in der standardmäßigen Katalogattributdatei (default.ini) erforderlich.
+Alle Katalogattribute sind optional, mit Ausnahme von catalog:rootId. Alle Attribute sind in der standardmäßigen Katalogattributdatei (default.ini) erforderlich.

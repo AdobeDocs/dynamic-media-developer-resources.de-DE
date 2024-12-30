@@ -1,6 +1,6 @@
 ---
-title: TrustedDomains
-description: Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die im swf-Format bereitgestellt werden. Der swf muss den Zugriff explizit gewähren, indem er den Namen der Anwendungsdomänen registriert, denen er vertraut.
+title: Vertrauenswürdige Domains
+description: Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften von Bildern zugegriffen werden, die im SWF-Format bereitgestellt werden. Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# TrustedDomains{#trusteddomains}
+# Vertrauenswürdige Domains{#trusteddomains}
 
-Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die im swf-Format bereitgestellt werden. Der swf muss den Zugriff explizit gewähren, indem er den Namen der Anwendungsdomänen registriert, denen er vertraut.
+Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften von Bildern zugegriffen werden, die im SWF-Format bereitgestellt werden. Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
 
 ## Eigenschaften {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-Zeichenfolge, die eine kommagetrennte Liste mit Webdomänennamen enthält. Wenn dieses Feld leer ist, müssen Anwendungen von derselben Domäne wie das Bild-Rendering bereitgestellt werden, damit sie auf die Eigenschaften von Bildern in im [!DNL swf]-Format formatierten Antworten zugreifen können.
+Zeichenfolge, die eine kommagetrennte Liste von Web-Domain-Namen enthält. Wenn leer, müssen Programme von derselben Domain wie das Bild-Rendering bereitgestellt werden, um in [!DNL swf]-formatierten Antworten auf die Eigenschaften von Bildern zugreifen zu können.
 
 ## Standard {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-Wird von `default::TrustedDomains` vererbt, falls nicht vorhanden.
+Von `default::TrustedDomains` übernommen, falls nicht vorhanden.
 
 ## Verwandte Themen {#section-2f829671c385411d8e1a7525def5529f}
 

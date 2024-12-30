@@ -1,6 +1,6 @@
 ---
-title: bgc
-description: Hintergrundfarbe. Gibt die subtraktive Farbe für kolorierbare Texturen und Dekorationen an.
+title: BGC
+description: Hintergrundfarbe. Gibt die subtraktive Farbe für färbbare Texturen und Abziehbilder an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,36 +12,36 @@ ht-degree: 2%
 
 ---
 
-# bgc {#bgc}
+# BGC {#bgc}
 
-Hintergrundfarbe. Gibt die subtraktive Farbe für kolorierbare Texturen und Dekorationen an.
+Hintergrundfarbe. Gibt die subtraktive Farbe für färbbare Texturen und Abziehbilder an.
 
 `bgc= *[!DNL color]*`
 
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> color</span> </p> </td> 
-  <td class="- topic/stentry stentry"> <p>RGB oder grau. </p></td> 
+  <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> Farbe</span> </p> </td> 
+  <td class="- topic/stentry stentry"> <p>RGB- oder Grauwert. </p></td> 
  </tr> 
 </table>
 
-Der Texturkolorisierungsalgorithmus des Bild-Renderings ist unkompliziert - die Komponentenwerte von `bgc=` werden von den Werten der Texturpixel subtrahiert; `color=` wird hinzugefügt und schließlich wird das Ergebnis auf `0,0,0` und `255,255,255` abgeschnitten.
+Der Textur-Farbalgorithmus des Bild-Renderings ist einfach. Die Komponentenwerte von `bgc=` werden von den Werten der Textur-Pixel subtrahiert. `color=` wird hinzugefügt und das Ergebnis wird schließlich auf `0,0,0` und `255,255,255` abgeschnitten.
 
-Für typische Verwendungen der Texturkolorisierung kann der Wert für `bgc=` die wichtigste oder dominante Farbe im Texturbild sein. Dynamic Media Image Authoring bietet halbautomatische Tools, die angemessene `bgc=` Farbwerte aus Texturbildern extrahieren.
+Für typische Anwendungen der Texturfärbung kann der Wert für `bgc=` die wichtigste oder dominanteste Farbe im Texturbild sein. Die Dynamic Media-Bildbearbeitung bietet halbautomatische Tools, die angemessene `bgc=` aus Bildtexturen extrahieren.
 
 Wenn ein Texturmaterial auf ein nicht texturierbares Vignettenobjekt angewendet wird, wird `bgc=` als Vordergrundfarbe angewendet, wenn `color=` nicht angegeben ist.
 
 ## Eigenschaften {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
-Materialattribut. Ignoriert durch feste Farbe und Möbel.
+Materialattribut. Wird von einfarbigen und Schrankmaterialien ignoriert.
 
 ## Standard {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
-`catalog::BaseColor` Wenn das Material auf einem Katalogeintrag basiert, andernfalls `bgc=808080` (neutral grau).
+`catalog::BaseColor` Wenn das Material auf einem Katalogeintrag basiert, andernfalls `bgc=808080` (Neutralgrau).
 
 ## Beispiel {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-Färben eines Bekleidungsgewebes, dessen Textur die dominierende RGB-Farbe 120,34,193 aufweist:
+Färben Sie ein Bekleidungsgewebe, dessen Textur die dominante RGB-Farbe hat 120,34,193:
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 

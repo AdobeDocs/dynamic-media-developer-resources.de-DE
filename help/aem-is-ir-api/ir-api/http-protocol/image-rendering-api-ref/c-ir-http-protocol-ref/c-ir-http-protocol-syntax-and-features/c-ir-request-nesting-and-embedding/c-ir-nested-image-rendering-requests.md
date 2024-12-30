@@ -1,6 +1,6 @@
 ---
-title: Verschachtelte Image Rendering-Anforderungen
-description: Bei erweiterten Anwendungen ist es möglich, das Ergebnis eines Rendervorgangs als materielles Bild zu verwenden, genau wie ein Bild, das von Image Serving stammt.
+title: Verschachtelte Image-Rendering-Anfragen
+description: Für fortgeschrittene Anwendungen ist es möglich, das Ergebnis eines Render-Vorgangs als Materialbild zu verwenden, genau wie ein Bild, das von Image Serving abgerufen wurde.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Verschachtelte Image Rendering-Anforderungen{#nested-image-rendering-requests}
+# Verschachtelte Image-Rendering-Anfragen{#nested-image-rendering-requests}
 
-Bei erweiterten Anwendungen ist es möglich, das Ergebnis eines Rendervorgangs als materielles Bild zu verwenden, genau wie ein Bild, das von Image Serving stammt.
+Für fortgeschrittene Anwendungen ist es möglich, das Ergebnis eines Render-Vorgangs als Materialbild zu verwenden, genau wie ein Bild, das von Image Serving abgerufen wurde.
 
-Eine Render-Anfrage kann als Materialbild verwendet werden, indem sie sie wie folgt im Befehl `src=` angibt:
+Eine Render-Anfrage kann als Materialbild verwendet werden, indem sie im `src=` wie folgt angegeben wird:
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-Beim `ir` -Token wird zwischen Groß- und Kleinschreibung unterschieden.
+Beim `ir`-Token wird zwischen Groß- und Kleinschreibung unterschieden.
 
-Die verschachtelte Anforderung darf nicht den Stammpfad für das Rendern von Bildern enthalten (normalerweise `http:// *[!DNL server]*/ir/render/'`), kann aber Vorab-Verarbeitungsregel-Token enthalten.
+Die verschachtelte Anfrage darf nicht den Stammpfad für die Bildwiedergabe enthalten (normalerweise `http:// *[!DNL server]*/ir/render/'`), kann aber Regeltoken für die Vorverarbeitung enthalten.
 
-Die folgenden Befehle werden ignoriert, wenn sie in verschachtelten Anforderungen angegeben werden (entweder in der Anfrage-URL oder in `catalog::Modifier` oder `catalog::PostModifier`):
+Die folgenden Befehle werden ignoriert, wenn sie in verschachtelten Anfragen angegeben werden (entweder in der Anfrage-URL oder in `catalog::Modifier` oder `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -34,6 +34,6 @@ Die folgenden Befehle werden ignoriert, wenn sie in verschachtelten Anforderunge
 * `req=`
 * `bgc=`
 
-Außerdem werden `attribute::MaxPix` und `attribute::DefaultPix` des Materialkatalogs ignoriert, der für die verschachtelte Renderanforderung gilt.
+Ignoriert werden auch die `attribute::MaxPix` und `attribute::DefaultPix` des Materialkatalogs, der für die verschachtelte Render-Anfrage gilt.
 
-Das Bildergebnis einer verschachtelten IR-Anfrage kann optional zwischengespeichert werden, indem `cache=on` eingeschlossen wird. Standardmäßig ist die Zwischenspeicherung von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild innerhalb eines angemessenen Zeitraums in einer anderen Anforderung wiederverwendet wird. Es gilt die standardmäßige serverseitige Cacheverwaltung. Die Daten werden verlustfrei zwischengespeichert.
+Das Bildergebnis einer verschachtelten IR-Anfrage kann optional zwischengespeichert werden, indem `cache=on` eingeschlossen wird. Standardmäßig ist das Zwischenspeichern von Zwischendaten deaktiviert. Die Zwischenspeicherung sollte nur aktiviert werden, wenn das Zwischenbild in einer anderen Anfrage innerhalb eines angemessenen Zeitraums wiederverwendet wird. Es gilt die standardmäßige Server-seitige Cache-Verwaltung. Daten werden in einem verlustfreien Format zwischengespeichert.

@@ -1,7 +1,7 @@
 ---
 description: Bild skalieren. Skaliert ein Bild nach Faktor relativ zum Bild mit voller Auflösung.
 solution: Experience Manager
-title: scale
+title: Skala
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 ---
 
-# scale{#scale}
+# Skala{#scale}
 
 Bild skalieren. Skaliert ein Bild nach Faktor relativ zum Bild mit voller Auflösung.
 
@@ -20,7 +20,7 @@ Bild skalieren. Skaliert ein Bild nach Faktor relativ zum Bild mit voller Auflö
 
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Faktor </span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Faktor</span></span> </p> </td> 
   <td class="stentry"> <p>Skalierungsfaktor (real, &gt;0). </p></td> 
  </tr> 
 </table>

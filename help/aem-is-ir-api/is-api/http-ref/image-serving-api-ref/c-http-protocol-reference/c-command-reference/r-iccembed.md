@@ -20,13 +20,13 @@ Farbprofil einbetten. Gibt an, ob das funktionierende ICC-Farbprofil oder das mi
 
 ## Eigenschaften {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Anforderungsattribut. Wird ignoriert, wenn kein Profil zum Einbetten verfügbar ist.
+Anforderungsattribut. Ignoriert, wenn kein Profil zum Einbetten verfügbar ist.
 
 ## Standard {#section-01948f6cd7a2415091004cd7526436c7}
 
-`iccEmbed=0`, um keine Einbettung von ICC-Profilen in Ausgabebilder zu ermöglichen. Wird ignoriert, wenn das Einbetten von ICC-Profilen im Ausgabebildformat nicht unterstützt wird.
+`iccEmbed=0`, für keine Einbettung von ICC-Profilen in die Ausgabebilder. Wird ignoriert, wenn das Ausgabebildformat das Einbetten von ICC-Profilen nicht unterstützt.
 
-Weitere Informationen finden Sie unter [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) .
+Einzelheiten finden Sie [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a).
 
 ## Verwandte Themen {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 

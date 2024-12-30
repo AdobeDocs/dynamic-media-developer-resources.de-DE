@@ -1,6 +1,6 @@
 ---
 title: Ablauf
-description: Standardmäßige Client-Cache-Zeit für die Live-Schaltung.
+description: Standardmäßige Gültigkeitsdauer des Client-Cache.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # Ablauf{#expiration}
 
-Standardmäßige Client-Cache-Zeit für die Live-Schaltung. Bietet ein standardmäßiges Ablaufintervall für den Fall, dass ein bestimmter Katalogdatensatz keinen gültigen `catalog::Expiration` - oder `vignette::Expiration` -Wert enthält. Oder, wenn direkt auf eine Vignettendatei oder eine Materialdatei zugegriffen wird, anstatt über einen Katalogdatensatz.
+Standardmäßige Gültigkeitsdauer des Client-Cache. Bietet ein standardmäßiges Ablaufintervall für den Fall, dass ein bestimmter Katalogeintrag keinen gültigen `catalog::Expiration`- oder `vignette::Expiration` enthält. Oder wenn auf eine Vignettendatei oder Materialdatei direkt und nicht über einen Katalogeintrag zugegriffen wird.
 
 ## Eigenschaften {#section-8e2bade105ec4905ae5c4911f500279f}
 
-Real number, `0` oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung der Antwortdaten. Setzen Sie dies auf `0` , um das Antwortbild immer sofort ablaufen zu lassen, wodurch das Client-Caching effektiv deaktiviert wird. Auf `-1` setzen, um als *niemals abläuft* zu markieren.
+Reelle Zahl, `0` oder höher. Anzahl der Stunden bis zum Ablauf der Gültigkeit seit Generierung der Antwortdaten. Wenn auf `0` gesetzt, läuft das Antwortbild immer sofort ab, wodurch das Client-Caching effektiv deaktiviert wird. Legen Sie die Einstellung auf `-1` fest, um dies als *läuft nie ab* zu kennzeichnen.
 
 ## Standard {#section-18cfce46edb441bfae7dd9d3e0217ba9}
 
-Wird von `default::Expiration` übernommen, wenn nicht definiert oder leer.
+Von `default::Expiration` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-ecfe21ff789c4b298344ebf7c647b7e7}
 

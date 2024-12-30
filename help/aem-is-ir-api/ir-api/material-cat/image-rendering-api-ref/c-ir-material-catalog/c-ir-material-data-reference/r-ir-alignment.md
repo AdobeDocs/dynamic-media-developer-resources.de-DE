@@ -1,5 +1,5 @@
 ---
-description: Texturausrichtung. Ausrichtung der Textur, wenn sie auf miteinander verbundene Vignettenobjekte wie die Polsterteile eines Möbelstücks angewendet wird. Wird in erster Linie für Polster-Rendering-Anwendungen verwendet, möglicherweise für fortgeschrittene Bekleidungsanwendungen.
+description: Texturausrichtung. Ausrichtung der Textur, wenn sie auf Vignettenobjekte angewendet wird, die miteinander in Beziehung stehen, wie z. B. die gepolsterten Teile eines Möbelstücks. Wird hauptsächlich für Polster-Rendering-Anwendungen verwendet, möglicherweise für fortgeschrittene Bekleidungsanwendungen.
 solution: Experience Manager
 title: Ausrichtung
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 4%
 
 # Ausrichtung{#alignment}
 
-Texturausrichtung. Ausrichtung der Textur, wenn sie auf miteinander verbundene Vignettenobjekte wie die Polsterteile eines Möbelstücks angewendet wird. Wird in erster Linie für Polster-Rendering-Anwendungen verwendet, möglicherweise für fortgeschrittene Bekleidungsanwendungen.
+Texturausrichtung. Ausrichtung der Textur, wenn sie auf Vignettenobjekte angewendet wird, die miteinander in Beziehung stehen, wie z. B. die gepolsterten Teile eines Möbelstücks. Wird hauptsächlich für Polster-Rendering-Anwendungen verwendet, möglicherweise für fortgeschrittene Bekleidungsanwendungen.
 
 ## Eigenschaften {#section-008158477f53457e9d812d313696cfb6}
 
-Enum. Legen Sie für die standardmäßige oder zentrierte Ausrichtung auf 0, für die kontinuierliche Ausrichtung auf 1, für die zufällige Ausrichtung zwischen Teilen auf 2 oder auf 3, 4, 5 oder 6 fest, um einen benutzerdefinierten Texturursprung zu verwenden. Nur für Stoffe verwendet.
+Aufzählung. Legen Sie den Wert 0 für die standardmäßige oder zentrierte Ausrichtung, 1 für die fortlaufende Ausrichtung, 2 für die zufällige Ausrichtung zwischen Teilen oder auf 3, 4, 5 oder 6 fest, um einen benutzerdefinierten Texturursprung zu verwenden. Wird nur von Stoffmaterialien verwendet.
 
 ## Standard {#section-1aae2c85042846539caa089f3fa8fe2d}
 

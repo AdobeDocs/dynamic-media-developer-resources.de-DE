@@ -1,6 +1,6 @@
 ---
 title: IccProfileGray
-description: Graustufen-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist.
+description: Graustufen-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileGray{#iccprofilegray}
 
-Graustufen-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit `icc=` angegeben ist.
+Graustufen-Standardfarbraum. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn bei `icc=` kein Ausgabefarbraum angegeben ist.
 
 ## Eigenschaften {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-Textzeichenfolge. Falls angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
 
 ## Standard {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 
-Wird von `default::IccProfileGray` übernommen, wenn nicht definiert oder leer.
+Von `default::IccProfileGray` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-cd43189611f4426aacddcc604eb02a10}
 

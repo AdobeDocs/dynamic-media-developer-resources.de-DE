@@ -1,6 +1,6 @@
 ---
 title: ErrorImage
-description: Fehlerreaktionsbild. Beim Rendern von Bildern wird normalerweise ein Fehlerstatus mit einer Textmeldung zurückgegeben, wenn ein Fehler auftritt.
+description: Bild der Fehlerantwort. Das Rendern von Bildern gibt normalerweise einen Fehlerstatus mit einer Textmeldung zurück, wenn ein Fehler auftritt.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # ErrorImage {#errorimage}
 
-Fehlerreaktionsbild. Beim Rendern von Bildern wird normalerweise ein Fehlerstatus mit einer Textmeldung zurückgegeben, wenn ein Fehler auftritt. Mit dem `attribute::ErrorImage` können Sie ein Bild konfigurieren, das bei einem Fehler zurückgegeben wird.
+Bild der Fehlerantwort. Das Rendern von Bildern gibt normalerweise einen Fehlerstatus mit einer Textmeldung zurück, wenn ein Fehler auftritt. Mit der `attribute::ErrorImage` können Sie ein Bild konfigurieren, das bei einem Fehler zurückgegeben wird.
 
-Wenn ein Fehler auftritt, versucht der Server, den Wert von `ImageRendering::attribute::ErrorImage`als einfachen Bilddateipfad zu interpretieren. Wenn die Datei nicht geöffnet werden kann, sendet sie den Attributwert und die Fehlerdetails an Image Serving, das wie in `ImageServing::attribute::ErrorImage` beschrieben verarbeitet. Wenn Image Serving kein gültiges Antwortbild zurückgibt, werden der standardmäßige HTTP-Fehlerstatus und die Textmeldung an den Client gesendet.
+Wenn ein Fehler auftritt, versucht der Server, den Wert von `ImageRendering::attribute::ErrorImage`als einfachen Bilddateipfad zu interpretieren. Wenn die Datei nicht geöffnet werden kann, sendet sie den Attributwert und die Fehlerdetails an Image Serving, das die in `ImageServing::attribute::ErrorImage` beschriebenen Vorgänge durchführt. Wenn Image Serving kein gültiges Antwortbild zurückgibt, werden der standardmäßige HTTP-Fehlerstatus und die Textmeldung an den Client gesendet.
 
 Fehlerbilder werden mit dem HTTP-Status 200 zurückgegeben.
 
 ## Eigenschaften {#section-4a4a7e37ed11483db0b9922dc68ea7db}
 
-Textzeichenfolge. Wenn angegeben, muss es sich entweder um einen **`ImageServing::catalog::id`** -Wert, einen relativen Pfad (zu **`ImageServing::attribute::RootPath`** oder **`ImageRendering::attribute::RootPath`**) oder einen absoluten Pfad zu einer Bilddatei handeln, auf die der Image-Server zugreifen kann.
+Text-String Wenn angegeben, muss es sich entweder um einen **`ImageServing::catalog::id`** Wert, einen relativen Pfad (zu **`ImageServing::attribute::RootPath`** oder **`ImageRendering::attribute::RootPath`**) oder einen absoluten Pfad zu einer Bilddatei handeln, auf die der Bildserver zugreifen kann.
 
 ## Standard {#section-4c463e369dfb4b43a7b2a3bce9619dd4}
 
-Wird von `default::ErrorImage` vererbt, wenn es nicht definiert ist. Wenn es definiert, aber leer ist, wird das Verhalten des Fehlerbilds deaktiviert, auch wenn `default::ErrorImage` definiert ist, und es wird ein HTTP-Fehlerstatus zurückgegeben.
+Von `default::ErrorImage` geerbt, wenn nicht definiert. Wenn er definiert, aber leer ist, wird das Verhalten des Fehlerbilds deaktiviert, selbst wenn `default::ErrorImage` definiert ist, und ein HTTP-Fehlerstatus wird zurückgegeben.
 
 ## Verwandte Themen {#section-3e0308eaf4124451909dacd570e27695}
 

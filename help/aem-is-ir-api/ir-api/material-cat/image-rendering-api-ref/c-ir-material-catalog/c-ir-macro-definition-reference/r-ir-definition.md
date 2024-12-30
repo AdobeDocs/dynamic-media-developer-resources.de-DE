@@ -1,5 +1,5 @@
 ---
-description: Makrodefinition. Ein Render Serving-Protokollfragment, bestehend aus einem oder mehreren vollständigen Befehlen, getrennt durch '&'-Zeichen.
+description: Makrodefinition. Ein Render-Serving-Protokollfragment, das aus einem oder mehreren vollständigen Befehlen besteht, die durch "&"-Zeichen getrennt sind.
 solution: Experience Manager
 title: Definition
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 8%
 
 # Definition{#definition}
 
-Makrodefinition. Ein Render Serving-Protokollfragment, bestehend aus einem oder mehreren vollständigen Befehlen, getrennt durch &#39;&amp;&#39;-Zeichen.
+Makrodefinition. Ein Render-Serving-Protokollfragment, das aus einem oder mehreren vollständigen Befehlen besteht, die durch &quot;&amp;&quot;-Zeichen getrennt sind.
 
 Makrodefinitionen verweisen möglicherweise nicht auf andere Makros. Makros können benutzerdefinierte Variablen definieren und verwenden.
 
 ## Eigenschaften {#section-2584a79bd2a04ddeaa2c04fdac4835ae}
 
-Textzeichenfolge. Erforderlich.
+Text-String Erforderlich.
 
 ## Standard {#section-4ab127aa653b4f76afa867c1acb1f31c}
 

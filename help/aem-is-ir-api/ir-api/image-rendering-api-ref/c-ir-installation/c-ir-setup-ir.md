@@ -1,6 +1,6 @@
 ---
 title: Einrichten und Konfigurieren des Bild-Renderings
-description: Das Bild-Rendering wird mit fileinstall_folder/conf/ImageRendering.conf konfiguriert.
+description: Das Rendern von Bildern wird mit fileinstall_folder/conf/ImageRendering.conf konfiguriert.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Einrichten und Konfigurieren des Bild-Renderings{#setup-and-configure-image-rendering}
 
-Das Bild-Rendering ist mit `fileinstall_folder/conf/ImageRendering.conf` konfiguriert.
+Das Bild-Rendering wird mit `fileinstall_folder/conf/ImageRendering.conf` konfiguriert.
 
-Weitere Informationen finden Sie im Abschnitt Konfiguration der Dokumentation . Nur unter Windows kann auf diese Datei auch über das Startmenü zugegriffen werden: **[!UICONTROL Startmenü]** > **[!UICONTROL Programme]** > **[!UICONTROL Scene7]** > **[!UICONTROL Konfigurationsdatei für die Bildwiedergabe bearbeiten]**.
+Weitere Informationen finden Sie im Abschnitt Konfiguration der Dokumentation. Diese Datei kann nur unter Windows über das Startmenü aufgerufen werden: **[!UICONTROL Startmenü]** > **[!UICONTROL Programme]** > **[!UICONTROL Scene7]** > **[!UICONTROL Konfigurationsdatei für das Rendern von Bildern bearbeiten]**.
 
-Informationen zum Anhalten und Starten des Bild-Renderings finden Sie in der Dokumentation zum Image Serving . Das Bild-Rendering kann nicht getrennt vom Image Serving angehalten oder gestartet werden.
+Informationen zum Anhalten und Starten des Bild-Renderings finden Sie in der Dokumentation zu Image-Serving . Das Rendern von Bildern kann nicht separat angehalten oder von der Bildbereitstellung gestartet werden.

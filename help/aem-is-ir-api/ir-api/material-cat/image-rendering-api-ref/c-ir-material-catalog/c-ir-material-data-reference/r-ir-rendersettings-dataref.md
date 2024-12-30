@@ -1,5 +1,5 @@
 ---
-description: Erweiterte Rendereinstellungen. Erweiterte Rendereinstellungen dienen zur Steuerung von Aspekten der Rendermaschine niedriger Stufe, wie z. B. des Materialschärfungstyps und der Parameter oder bestimmter Parameter der Beleuchtungsalgorithmen.
+description: Erweiterte Render-Einstellungen. Erweiterte Render-Einstellungen werden verwendet, um Elemente des Render-Moduls auf niedriger Ebene zu steuern, z. B. den Typ des Materialscharfzeichners und Parameter oder bestimmte Parameter der Beleuchtungsalgorithmen.
 solution: Experience Manager
 title: RenderSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # RenderSettings{#rendersettings}
 
-Erweiterte Rendereinstellungen. Erweiterte Rendereinstellungen dienen zur Steuerung von Aspekten der Rendermaschine niedriger Stufe, wie z. B. des Materialschärfungstyps und der Parameter oder bestimmter Parameter der Beleuchtungsalgorithmen.
+Erweiterte Render-Einstellungen. Erweiterte Render-Einstellungen werden verwendet, um Elemente des Render-Moduls auf niedriger Ebene zu steuern, z. B. den Typ des Materialscharfzeichners und Parameter oder bestimmte Parameter der Beleuchtungsalgorithmen.
 
 ## Eigenschaften {#section-b4c8fe595efc4838ac598659bc820607}
 
-Textzeichenfolge. Optional für alle Materialien. Wenn angegeben, muss es sich um eine gültige Zeichenfolge für Rendereinstellungen handeln, wie mit dem Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
+Text-String Optional für alle Materialien. Wenn angegeben, muss es sich um eine gültige Render-Einstellungs-Zeichenfolge handeln, wie mit dem Vignette Authoring Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
 
 ## Standard {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
-`attribute::RenderSettings` , wenn nicht angegeben oder leer.
+`attribute::RenderSettings` wenn nicht angegeben oder leer.
 
 ## Verwandte Themen {#section-52679fc35c36439490564b4d1c515dd0}
 

@@ -1,5 +1,5 @@
 ---
-title: HTTP-Protokoll-Befehlsreferenz
+title: HTTP-Protokollbefehlsreferenz
 description: Diese Befehlsreferenz enthält Details zu den HTTP-Protokollbefehlen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# HTTP-Protokoll-Befehlsreferenz {#http-protocol-command-reference}
+# HTTP-Protokollbefehlsreferenz {#http-protocol-command-reference}
 
 Diese Befehlsreferenz enthält Details zu den HTTP-Protokollbefehlen.

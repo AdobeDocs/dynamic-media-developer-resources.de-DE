@@ -1,7 +1,7 @@
 ---
-description: In dieser Dokumentation werden Probleme bei der Serververwaltung beschrieben und die Konfigurationseinstellungen für das Dynamic Media-Image-Rendering beschrieben.
+description: In dieser Dokumentation werden Probleme mit der Serververwaltung erläutert und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
 solution: Experience Manager
-title: Serveradministrationspräsentation
+title: Server-Administrations-Vorwort
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
@@ -12,41 +12,41 @@ ht-degree: 0%
 
 ---
 
-# Serveradministrationspräsentation{#server-administration-preface}
+# Server-Administrations-Vorwort{#server-administration-preface}
 
-In dieser Dokumentation werden Probleme bei der Serververwaltung beschrieben und die Konfigurationseinstellungen für das Dynamic Media-Image-Rendering beschrieben.
+In dieser Dokumentation werden Probleme mit der Serververwaltung erläutert und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
 
-**Vorgesehene Audience**
+**Vorgesehene Zielgruppe**
 
-Diese Dokumentation richtet sich an Systemadministratoren und Webmaster, die Dynamic Media Image Rendering installieren, konfigurieren und verwalten müssen.
+Diese Dokumentation richtet sich an Systemadministratoren und Webmaster, die das Dynamic Media Image Rendering installieren, konfigurieren und verwalten müssen.
 
 **Dokumentkonventionen**
 
-Die in dieser Dokumentation beschriebenen Elemente erhalten oft das Präfix der folgenden Elementtypen:
+Elementen, die in dieser Dokumentation beschrieben werden, wird oft das Präfix der folgenden Elementtypen vorangestellt:
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>attribute::Item </p></td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "attribute::"bezieht sich auf ein Bildkatalogattribut. </p></td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „attribute::“ bezieht sich auf ein Bildkatalogattribut. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>catalog:Item </p></td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "catalog::"bezieht sich auf ein Datenfeld des Materialkatalogs. </p></td> 
+  <td class="stentry"> <p>catalog:item </p></td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „catalog::“ bezieht sich auf ein Materialkatalogdatenfeld. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>icc:Item </p></td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "icc::"bezieht sich auf ein Feld in der ICC-Farbprofilzuordnung. </p></td> 
+  <td class="stentry"> <p>icc:item </p></td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „icc::“ bezieht sich auf ein Feld in der ICC-Farbprofilzuordnung. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>macro:Item </p></td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "macro::" bezieht sich auf ein Feld in der Makrodefinitionstabelle. </p></td> 
+  <td class="stentry"> <p>makro::item </p></td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „Makro::“ bezieht sich auf ein Feld in der Makrodefinitionstabelle. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>ruleset:Item </p></td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "ruleset:" bezieht sich auf ein Element in einem Regelsatz für die URL-Vorverarbeitung. </p></td> 
+  <td class="stentry"> <p>ruleset:item </p></td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „ruleset::“ bezieht sich auf ein Element in einem Regelsatz zur Vorverarbeitung von URLs. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Standard::Item </p></td> 
-  <td class="stentry"> <p>Ein Name mit dem Präfix "default::"bezieht sich auf ein Attribut des Standard-Bildkatalogs. </p></td> 
+  <td class="stentry"> <p>default::Item </p></td> 
+  <td class="stentry"> <p>Ein Name mit dem Präfix „default::“ bezieht sich auf ein Attribut des Standardbildkatalogs. </p></td> 
  </tr> 
 </table>

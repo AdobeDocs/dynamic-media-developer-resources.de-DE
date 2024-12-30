@@ -1,6 +1,6 @@
 ---
 title: iccEmbed
-description: Einbetten des ICC-Profils. Gibt an, ob das funktionierende ICC-Farbprofil oder das mit "icc="angegebene Profil in das Antwortbild eingebettet werden soll.
+description: ICC-Profil einbetten. Gibt an, ob das funktionierende ICC-Farbprofil oder das mit „icc=" angegebene Profil in das Antwortbild eingebettet werden soll.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # iccEmbed{#iccembed}
 
-Einbetten des ICC-Profils. Gibt an, ob das funktionierende ICC-Farbprofil oder das mit `icc=` angegebene Profil in das Antwortbild eingebettet werden soll.
+ICC-Profil einbetten. Gibt an, ob das funktionierende ICC-Farbprofil oder das mit `icc=` angegebene Profil in das Antwortbild eingebettet werden soll.
 
 `iccEmbed=0|1`
 
 ## Eigenschaften {#section-45c08073626a4cc7823d423dc35b4479}
 
-Sie kann an einer beliebigen Stelle in der Anfrage auftreten.
+Sie kann überall in der Anfrage auftreten.
 
 ## Standard {#section-68ed1f0c68dc46b58972804799c277b7}
 
-`iccEmbed=0`, um keine Einbettung von ICC-Profilen in Ausgabebilder zu ermöglichen.
+`iccEmbed=0`, für keine Einbettung von ICC-Profilen in die Ausgabebilder.
 
 ## Verwandte Themen {#section-e9e6bb04e2154f4387261edcbbbfe7d3}
 

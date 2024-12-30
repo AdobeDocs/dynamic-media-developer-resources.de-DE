@@ -1,5 +1,5 @@
 ---
-description: Datendateipfad. Relativer Pfad und Name für Nicht-Bilddatendateien, die mit diesem Bild verknüpft sind.
+description: Pfad der Datendatei. Relativer Pfad und Name für Nicht-Bilddatendateien, die mit diesem Bild verknüpft sind.
 solution: Experience Manager
 title: AuxPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # AuxPath{#auxpath}
 
-Datendateipfad. Relativer Pfad und Name für Nicht-Bilddatendateien, die mit diesem Bild verknüpft sind.
+Pfad der Datendatei. Relativer Pfad und Name für Nicht-Bilddatendateien, die mit diesem Bild verknüpft sind.
 
-Der Server kombiniert diesen Wert mit dem Attribut::RootPath , um den tatsächlichen Dateipfad zu erstellen. Kann auch ein absoluter Dateipfad sein.
+Der Server kombiniert diesen Wert mit dem Attribut::rootPath , um den tatsächlichen Dateipfad zu erstellen. Kann auch ein absoluter Dateipfad sein.
 
-Wird verwendet, um eine Schrank-Stildatei für ein Schrank-Material oder eine Fensterbezugstafel für ein Fenster mit Material anzugeben. Für alle anderen Materialien leer lassen.
+Wird verwendet, um eine Kabinettstil-Datei für ein Kabinettmaterial oder eine Fensterabdeckungs-Stildatei für ein Fensterabdeckungsmaterial anzugeben. Für alle anderen Materialien leer lassen.
 
 ## Eigenschaften {#section-4268350054b7421da0ce0327f0731a52}
 
-Textzeichenfolgenwert. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Dateipfad handeln. Erforderlich für Möbel- und Fensterbedeckungen. Muss für alle anderen Materialien leer sein.
+Text-Zeichenfolgenwert. Wenn angegeben, muss es sich um einen gültigen relativen oder absoluten Dateipfad handeln. Erforderlich für Schrankmaterialien und Fensterabdeckmaterialien. Muss für alle anderen Materialien leer sein.
 
 ## Standard {#section-287005c2d8e948fa958f69ba7b90b437}
 

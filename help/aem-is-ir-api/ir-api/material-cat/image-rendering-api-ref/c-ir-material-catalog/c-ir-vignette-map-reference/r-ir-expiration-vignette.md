@@ -1,5 +1,5 @@
 ---
-description: Client-Cache-Zeit bis zur Live-Schaltung. Anzahl der Stunden bis zum Ablauf. Dient zum Verwalten der Zwischenspeicherung von Client- und Proxyservern.
+description: Client-Cache-Lebensdauer. Anzahl der Stunden bis zum Ablauf. Wird für die Verwaltung der Zwischenspeicherung von Client- und Proxy-Servern verwendet.
 solution: Experience Manager
 title: Ablauf
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # Ablauf{#expiration}
 
-Client-Cache-Zeit bis zur Live-Schaltung. Anzahl der Stunden bis zum Ablauf. Dient zum Verwalten der Zwischenspeicherung von Client- und Proxyservern.
+Client-Cache-Lebensdauer. Anzahl der Stunden bis zum Ablauf. Wird für die Verwaltung der Zwischenspeicherung von Client- und Proxy-Servern verwendet.
 
-Weitere Informationen finden Sie unter [catalog::Expiration](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md) .
+Weitere Informationen [ Sie unter ](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md):Expiration.
 
 ## Eigenschaften {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 
-Real number, -2, -1, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 gesetzt, um als `never expire` zu markieren. In diesem Fall gibt der Server immer den Status 403 als Antwort auf bedingte `GET` -Anfragen zurück, ohne zu überprüfen, ob die Datei tatsächlich geändert wurde. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
+Reelle Zahl, -2, -1, 0 oder höher. Anzahl der Stunden bis zum Ablauf seit der Erstellung des Antwortbildes. Auf 0 gesetzt, um das Antwortbild immer sofort ablaufen zu lassen, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 gesetzt, um als `never expire` zu markieren; in diesem Fall gibt der Server als Antwort auf bedingte `GET` immer den Status 403 zurück, ohne zu überprüfen, ob die Datei tatsächlich geändert wurde. Legen Sie dies auf -2 fest, um den von `attribute::Expiration` bereitgestellten Standardwert zu verwenden.
 
 ## Standard {#section-fb8ea80975034b49af7510764758f123}
 
-`attribute::Expiration` wird verwendet, wenn das Feld nicht vorhanden ist, wenn der Wert -2 ist oder wenn das Feld leer ist.
+`attribute::Expiration` wird verwendet, wenn das Feld nicht vorhanden ist, der Wert -2 ist oder das Feld leer ist.
 
 ## Verwandte Themen {#section-a0d3dab0f6db49b58f1f935d3bdea2fd}
 

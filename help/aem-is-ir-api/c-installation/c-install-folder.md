@@ -1,6 +1,6 @@
 ---
-title: Ordner installieren
-description: Der Ordner Image Serving install (install_folder) ist install_root/ImageServing.
+title: Installationsordner
+description: Der Installationsordner für Image-Serving (install_folder) ist install_root/ImageServing.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Ordner installieren{#install-folder}
+# Installationsordner{#install-folder}
 
-Der Ordner Image Serving install (install_folder) ist install_root/ImageServing.
+Der Installationsordner für Image-Serving (install_folder) ist install_root/ImageServing.
 
-*[!DNL install_root]* wird standardmäßig auf `C:\Program Files\Scene7` unter Windows gesetzt (während der Installation kann ein anderer *[!DNL install_root]* Ordner ausgewählt werden). Unter Linux® muss *[!DNL install_root]* immer [!DNL /usr/local/scene7] sein (es können symbolische Links verwendet werden).
+*[!DNL install_root]* wird unter Windows `C:\Program Files\Scene7` (während der Installation kann ein anderer *[!DNL install_root]* ausgewählt werden). Unter Linux® müssen *[!DNL install_root]* immer [!DNL /usr/local/scene7] sein (symbolische Links können verwendet werden).
 
-In diesem Dokument kann *[!DNL install_folder]* durch &#39; [!DNL ./]&#39; dargestellt werden.
+In diesem Dokument kann *[!DNL install_folder]* durch &quot;[!DNL ./]&quot; repräsentiert werden.
 
-Bei allen Dateipfaden wird unter UNIX® zwischen Groß- und Kleinschreibung unterschieden und unter Windows wird zwischen Groß- und Kleinschreibung unterschieden.
+Bei allen Dateipfaden wird unter UNIX® zwischen Groß- und Kleinschreibung unterschieden und unter Windows nicht zwischen Groß- und Kleinschreibung.

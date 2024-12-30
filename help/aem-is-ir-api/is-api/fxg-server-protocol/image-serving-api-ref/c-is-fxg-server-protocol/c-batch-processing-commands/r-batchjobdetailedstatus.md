@@ -1,7 +1,7 @@
 ---
-description: Abrufen des detaillierten Status eines gesendeten Auftrags.
+description: Abrufen des detaillierten Status eines übermittelten Vorgangs.
 solution: Experience Manager
-title: batchjobdetailedstatus
+title: batchJobDetailsStatus
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd385327-29af-448c-9a25-75098b578272
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# batchjobdetailedstatus{#batchjobdetailedstatus}
+# batchJobDetailsStatus{#batchjobdetailedstatus}
 
-Abrufen des detaillierten Status eines gesendeten Auftrags.
+Abrufen des detaillierten Status eines übermittelten Vorgangs.
 
 Dieser Parameter:
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>Auftrags-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> JobId-</span> </p> </td> 
+  <td class="stentry"> <p>Vorgangs-ID, die zum Zeitpunkt der Übermittlung abgerufen wurde. </p> </td> 
  </tr> 
 </table>
 
-Gibt Folgendes zurück:
+Gibt zurück:
 
-Detaillierter Status des Auftrags im XML-Format; Fehler, wenn `jobid` ungültig ist oder der Auftrag gelöscht wurde.
+Detaillierter Status des Auftrags im XML-Format. Fehler, wenn der `jobid` ungültig ist oder der Auftrag gelöscht wurde.
 
 ## Beispiel {#section-55f463750afe4814b5fdbaa2f1aafab4}
 

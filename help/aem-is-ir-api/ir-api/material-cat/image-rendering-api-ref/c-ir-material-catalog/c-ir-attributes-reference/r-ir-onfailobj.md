@@ -1,6 +1,6 @@
 ---
 title: OnFailObj
-description: Umgang mit Fehlern bei der Objektauswahl. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad in der Vignettenobjekthierarchie nicht übereinstimmt.
+description: Fehlerbehandlung bei der Objektauswahl. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad in der Vignettenobjekthierarchie nicht abgeglichen werden kann.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 7%
 
 # OnFailObj{#onfailobj}
 
-Umgang mit Fehlern bei der Objektauswahl. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad in der Vignettenobjekthierarchie nicht übereinstimmt.
+Fehlerbehandlung bei der Objektauswahl. Gibt die Aktion an, die ausgeführt werden soll, wenn der Befehl obj= fehlschlägt, da der angegebene Pfad in der Vignettenobjekthierarchie nicht abgeglichen werden kann.
 
 ## Eigenschaften {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
-Enum.
+Aufzählung.
 
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Vererben Sie von <span class="codeph"> default::OnFailObj </span>. </p> </td> 
+  <td class="stentry"> <p>Von <span class="codeph"> standardmäßigen </span>::OnFailObj erben. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Behalten Sie die vorherige Auswahl bei. </p> </td> 
+  <td class="stentry"> <p>Vorherige Auswahl beibehalten. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Deaktivieren Sie diese Option; alle Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
+  <td class="stentry"> <p>Markierung aufheben; alle Versuche, ein Material anzuwenden oder Objekte ein-/auszublenden, werden ignoriert. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -45,7 +45,7 @@ Enum.
 
 ## Standard {#section-a5a95a2b4a204a4eae350e5b544d1513}
 
-Wird von `default::OnFailObj` übernommen, falls nicht definiert.
+Von `default::OnFailObj` geerbt, wenn nicht definiert.
 
 ## Verwandte Themen {#section-806dc2c5973c41f683af085b3315043c}
 

@@ -1,5 +1,5 @@
 ---
-description: Kennung der Vignette. Indexschlüsselwert, anhand dessen Datensätze in der Vignettenzuordnungsdatei vom Server nachgeschlagen werden.
+description: Vignettenkennung. Indexschlüsselwert, mit dem Datensätze in der Vignettenzuordnungsdatei vom Server nachgeschlagen werden.
 solution: Experience Manager
 title: Id
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # Id{#id}
 
-Kennung der Vignette. Indexschlüsselwert, anhand dessen Datensätze in der Vignettenzuordnungsdatei vom Server nachgeschlagen werden.
+Vignettenkennung. Indexschlüsselwert, mit dem Datensätze in der Vignettenzuordnungsdatei vom Server nachgeschlagen werden.
 
-In der Regel eine kurze und eindeutige Kennung, z. B. eine SKU-Nummer. Kann auch eine komplexere Zeichenfolge sein, die wie ein Dateipfad aussehen könnte.
+Normalerweise eine kurze und eindeutige Kennung, z. B. eine Artikelnummer. Kann auch eine komplexere Zeichenfolge sein, die wie ein Dateipfad aussehen kann.
 
 ## Eigenschaften {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die Vignettenzuordnungstabelle. Jeder `vignette::Id` -Wert muss innerhalb der Tabelle eindeutig sein und darf keine &#39;,&#39;-Zeichen enthalten.
+Text-String Erforderlich. Primärer Indexschlüssel für die Vignettentabelle. Jeder `vignette::Id` muss innerhalb der Tabelle eindeutig sein und darf keine &quot;,“-Zeichen enthalten.
 
 ## Standard {#section-736d3419b19045efa00887cb595b0337}
 

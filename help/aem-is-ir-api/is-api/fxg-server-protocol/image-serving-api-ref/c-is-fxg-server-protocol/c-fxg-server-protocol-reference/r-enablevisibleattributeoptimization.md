@@ -23,6 +23,6 @@ Aktiviert die Optimierung von FXG.
  </tr> 
 </table>
 
-Entfernt die Elemente, deren Sichtbarkeit in FXG als &quot;false&quot;festgelegt ist, während dieses FXG übergeben wird, wodurch wiederum die Verarbeitungszeit von FXG verringert wird. Es werden zwar nur die Elemente mit Sichtbarkeit als &quot;false&quot;entfernt, die sich nicht auf andere Elemente in FXG auswirken würden. Wenn beispielsweise Text auf `Path` vorhanden ist und die Sichtbarkeit von `Path` auf &quot;false&quot;gesetzt ist, wird er auch bei aktiviertem Modifikator nicht aus FXG entfernt, da auf diesem Pfad Text gezeichnet werden muss.
+Entfernt die Elemente, deren Sichtbarkeit in FXG als „false“ festgelegt ist, während dieses FXG übergeben wird, was wiederum die Verarbeitungszeit von FXG reduziert. Es werden zwar nur die Elemente mit Sichtbarkeit als „false“ entfernt, die sich nicht auf andere Elemente in FXG auswirken würden. Wenn beispielsweise Text auf `Path` vorhanden ist und die Sichtbarkeit von `Path` auf „false“ festgelegt ist, wird er auch bei aktiviertem Modifikator nicht aus FXG entfernt, da Text auf diesem Pfad gezeichnet werden muss.
 
 Die Standardgrenze ist 1.

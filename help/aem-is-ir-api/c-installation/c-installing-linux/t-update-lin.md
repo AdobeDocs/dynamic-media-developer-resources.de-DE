@@ -1,6 +1,6 @@
 ---
 title: Aktualisierung von IS 4.7.4 oder höher
-description: Verwenden Sie dieses Verfahren bei der Aktualisierung von Dynamic Media Image Serving unter Linux®.
+description: Gehen Sie wie folgt vor, wenn Sie ein Upgrade von Dynamic Media Image Serving unter Linux® durchführen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 # Aktualisierung von IS 4.7.4 oder höher{#updating-from-is-or-later}
 
-Verwenden Sie dieses Verfahren bei der Aktualisierung von Dynamic Media Image Serving unter Linux®.
+Gehen Sie wie folgt vor, wenn Sie ein Upgrade von Dynamic Media Image Serving unter Linux® durchführen.
 
-Wenn Sie ein Upgrade von einer älteren Version von Image Serving durchführen, wenden Sie sich an den Support, um den korrekten Prozess durchzuführen.
+Wenn Sie von einer älteren Version von Image Serving aktualisieren, wenden Sie sich für den richtigen Prozess an den Support.
 
-Der Ordner &quot;[!DNL webapps]&quot; kann bei der Aktualisierung gelöscht werden. Sichern Sie den Ordner &quot;[!DNL webapps]&quot; vor dem Upgrade.
+Der [!DNL webapps] kann beim Upgrade gelöscht werden. Sichern Sie den [!DNL webapps] vor dem Upgrade.
 
-1. Melden Sie sich mit Root-Berechtigungen bei Ihrem Serverhost an.
-1. Dekomprimieren Sie die Tar-Datei Image Serving und entpacken Sie sie.
-1. Führen Sie im Ordner [!DNL setup] den Befehl [!DNL `./install-is`] aus, um den Installationsassistenten zu starten.
+1. Melden Sie sich bei Ihrem Serverhost mit Root-Berechtigungen an.
+1. Dekomprimieren und entpacken Sie die TAR-Datei der Image-Serving-Verteilung.
+1. Führen Sie im [!DNL setup]-Ordner [!DNL `./install-is`] aus, um den Installationsassistenten zu starten.
 
-   Das Aktualisierungs-Installationsprogramm überprüft die Integrität und Version des installierten Pakets. Bei Erfolg wird der Endbenutzer-Lizenzvertrag (&quot;EULA&quot;) angezeigt.
-1. Lesen Sie die Lizenzvereinbarung und geben Sie dann **[!UICONTROL y]** ein, um mit der Installation fortzufahren.
+   Das Update-Installationsprogramm überprüft die Integrität und Version des installierten Pakets. Bei erfolgreicher Ausführung wird der Endbenutzer-Lizenzvertrag („EULA„) angezeigt.
+1. Lesen Sie die Lizenzvereinbarung und geben Sie **[!UICONTROL y]** ein, um mit der Installation fortzufahren.
 
-   Das Installationsprogramm sichert die alten Server-Konfigurationsdateien in den Ordner &quot;[!DNL BACKUP/]&quot;.
+   Das Installationsprogramm sichert die alten Server-Konfigurationsdateien im Ordner [!DNL BACKUP/] .
 
-   Nach Abschluss der Installation wird die folgende Meldung angezeigt:
+   Wenn die Installation abgeschlossen ist, wird die folgende Meldung angezeigt:
 
    `Image Server was started successfully`
 
-Bei einer Aktualisierung wird die Datei [!DNL ImageServing/conf/server.xml] auf die neuesten Einstellungen aktualisiert. Wenn Sie Werte geändert oder hinzugefügt haben, speichern Sie die vorhandene [!DNL server.xml] und implementieren Sie Ihre Änderungen nach dem Upgrade erneut.
+Während eines Updates wird die [!DNL ImageServing/conf/server.xml] auf die neuesten Einstellungen aktualisiert. Wenn Sie Werte geändert oder hinzugefügt haben, speichern Sie die vorhandenen [!DNL server.xml] und implementieren Sie die Änderungen nach dem Upgrade erneut.
 
-Nach einer Aktualisierungsinstallation sollten Sie den HTTP-Antwort-Cache wärmen, bevor Sie den Server live schalten. Weitere Informationen finden Sie in der Beschreibung des Dienstprogramms [!DNL playlog] .
+Nach einer Update-Installation sollten Sie den HTTP-Antwort-Cache aufwärmen, bevor Sie den Server live schalten. Weitere Informationen finden Sie in der Beschreibung des [!DNL playlog].

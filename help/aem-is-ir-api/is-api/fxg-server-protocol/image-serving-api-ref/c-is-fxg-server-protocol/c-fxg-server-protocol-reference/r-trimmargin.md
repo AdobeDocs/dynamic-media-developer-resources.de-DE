@@ -1,5 +1,5 @@
 ---
-description: Legt den Trimmrand fest. Legt den in der PDF-Datei festgelegten Trimmrand fest.
+description: Zuschnittrand festlegen. Legt den Zuschnittrand fest, der in der PDF-Datei festgelegt wird.
 solution: Experience Manager
 title: trimMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # trimMargin{#trimmargin}
 
-Legt den Trimmrand fest. Legt den in der PDF-Datei festgelegten Trimmrand fest.
+Zuschnittrand festlegen. Legt den Zuschnittrand fest, der in der PDF-Datei festgelegt wird.
 
 ` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` in Punkten
 
-Standardmäßig ist der `trimMargin` auf die volle Dokumentgröße eingestellt, die durch `viewWidth` und `viewHeight` definiert wird. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den Wert *[!DNL top]* gesetzt, falls nicht angegeben.
+Standardmäßig ist die `trimMargin` auf die volle Dokumentgröße eingestellt, die durch `viewWidth` und `viewHeight` definiert wird. Die Werte *[!DNL left]*, *[!DNL bottom]* und *[!DNL right]* werden standardmäßig auf den *[!DNL top]* Wert gesetzt, wenn sie nicht angegeben werden.

@@ -1,6 +1,6 @@
 ---
 title: anzeigen
-description: Überschneidungsobjekt anzeigen. Macht alle zuvor ausgeblendeten Überschneidungsobjekte (einschließlich Fensterüberlagerungsrahmen) in der aktuellen Auswahl sichtbar.
+description: Überschneidungsobjekt anzeigen. Macht alle zuvor ausgeblendeten Überlappungsobjekte (einschließlich Fensterabdeckungen und Rahmenobjekte) in der aktuellen Auswahl sichtbar.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 6%
 
 # anzeigen{#show}
 
-Überschneidungsobjekt anzeigen. Macht alle zuvor ausgeblendeten Überschneidungsobjekte (einschließlich Fensterüberlagerungsrahmen) in der aktuellen Auswahl sichtbar.
+Überschneidungsobjekt anzeigen. Macht alle zuvor ausgeblendeten Überlappungsobjekte (einschließlich Fensterabdeckungen und Rahmenobjekte) in der aktuellen Auswahl sichtbar.
 
 `Show[= *`val`*]`
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> Val</span> </p> </td> 
   <td class="stentry"> <p>Ignoriert. </p></td> 
  </tr> 
 </table>
 
 ## Eigenschaften {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-Wird ignoriert, wenn die aktuelle Auswahl keine überlappenden Objekte enthält oder wenn keine überlappenden Objekte ausgeblendet sind.
+Wird ignoriert, wenn die aktuelle Auswahl keine Überschneidungsobjekte enthält oder wenn keine Überschneidungsobjekte ausgeblendet sind.
 
 ## Standard {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Keine, keine Änderung der Sichtbarkeit des Objekts.
+Keine, für keine Änderung der Objektsichtbarkeit.
 
 ## Verwandte Themen {#section-2a1a37a35dfb41758897164e14f0105f}
 

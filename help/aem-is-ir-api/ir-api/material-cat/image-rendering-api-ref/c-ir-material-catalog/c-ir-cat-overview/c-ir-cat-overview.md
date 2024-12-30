@@ -1,6 +1,6 @@
 ---
-title: Übersicht über den Materialkatalog
-description: Materialkataloge liefern dem Server Informationen über Vignetten, Materialien und unterstützende Daten wie ICC-Profile.
+title: Materialkatalog - Übersicht
+description: Materialkataloge stellen dem Server Informationen zu Vignetten, Materialien und unterstützenden Daten, wie z. B. ICC-Profilen, bereit.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über den Materialkatalog{#material-catalog-overview}
+# Materialkatalog - Übersicht{#material-catalog-overview}
 
-Materialkataloge liefern dem Server Informationen über Vignetten, Materialien und unterstützende Daten wie ICC-Profile.
+Materialkataloge stellen dem Server Informationen zu Vignetten, Materialien und unterstützenden Daten, wie z. B. ICC-Profilen, bereit.
 
 Jeder Materialkatalog besteht aus einer erforderlichen *Katalogattributdatei* und einem Satz optionaler *Katalogdatendateien*:
 
-* Die Vignettenzuordnungsdatei, in der Vignetten und Vorlagen sowie die zugehörigen Metadaten auflistet werden.
-* Die Materialdatendatei, die Materialien auflistet und die zugehörigen Texturbilddateien und Metadaten angibt.
-* Die Makrodefinitionsdatei, die Definitionen für Anforderungsmakros bereitstellt.
-* Die Profilzuordnungsdatei, die ICC-Farbprofile auflistet.
+* Die Vignettenzuordnungsdatei, in der Vignetten und Vorlagen und die zugehörigen Metadaten aufgeführt sind.
+* Die Materialdatendatei, in der Materialien aufgelistet werden und die die zugehörigen Texturbilddateien und Metadaten angegeben sind.
+* Die Datei mit den Makrodefinitionen, die Definitionen für Anforderungsmakros bereitstellt.
+* Die Profilzuordnungsdatei, in der ICC-Farbprofile aufgeführt sind.
 
-Katalogdatendateien sind Materialkatalogen nach Dateiverweisen in der Katalogattributdatei zugeordnet. Dieselbe Katalogdatendatei kann für mehrere Materialkataloge freigegeben werden.
+Katalogdatendateien werden über Dateiverweise in der Katalogattributdatei mit Materialkatalogen verknüpft. Eine Katalogdatendatei kann von mehreren Materialkatalogen gemeinsam genutzt werden.
 
-Katalogattributdateien müssen das Suffix [!DNL `.ini`] aufweisen und sich im Ordner &quot;Image Rendering *catalog folder* ( [!DNL PlatformServer::ir.catalogRootPath]) befinden. Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den der Render Server zugreifen kann.
+Katalogattributdateien müssen eine [!DNL `.ini`] Dateiendung und im Image Rendering-*Katalogordner)*[!DNL PlatformServer::ir.catalogRootPath]) enthalten. Katalogdatendateien können sich im selben Ordner oder einem beliebigen anderen Ordner befinden, auf den der Render-Server zugreifen kann.
 
 **Aktualisieren von Materialkatalogen**
 
-Der Server überwacht kontinuierlich den Katalogordner. Es lädt automatisch einen Materialkatalog - einschließlich der zugehörigen Katalogdatendateien - neu, wenn festgestellt wird, dass die Hauptkatalogattributdatei geändert wurde. Um also Materialkataloge auf dem Server zu aktualisieren, ersetzen Sie zunächst alle Katalogdatendateien, die geändert werden müssen, und ersetzen Sie dann die Katalogattributdatei (oder &quot;berühren&quot;), um das Neuladen des Katalogs Trigger.
+Der Server überwacht kontinuierlich den Katalogordner. Ein Materialkatalog wird automatisch neu geladen - einschließlich der zugehörigen Katalogdatendateien -, wenn festgestellt wird, dass die Hauptkatalogattributdatei geändert wurde. Um Materialkataloge auf dem Server zu aktualisieren, ersetzen Sie daher zunächst alle zu ändernden Katalogdatendateien und ersetzen (oder „berühren„) Sie dann die Katalogattributdatei, um das erneute Laden des Katalogs in den Trigger aufzunehmen.
 
 **Standardkatalog**
 
-Der Standardkatalog enthält Standardwerte für alle Katalogattribute für alle Materialkataloge. Wenn ein bestimmtes Attribut nicht in einem bestimmten Materialkatalog gefunden werden kann, verwendet der Server stattdessen den entsprechenden Wert aus dem Standardkatalog. Ebenso kann der Standardkatalog verwendet werden, um Standardwerte für bestimmte Katalogdatensätze (Materialien und ICC-Profile) bereitzustellen. Wenn ein bestimmter Datensatz nicht in einem bestimmten Materialkatalog gefunden werden kann, versucht der Server, ihn stattdessen im Standardkatalog zu finden. Dadurch können Materialkataloge spärlich befüllt werden und die Verwaltung globaler Attribute und Daten, wie z. B. freigegebener Vorlagen, Makros und Schriftarten, wird vereinfacht.
+Der Standardkatalog stellt Standardwerte für alle Katalogattribute für alle Materialkataloge bereit. Wenn ein bestimmtes Attribut in einem bestimmten Materialkatalog nicht gefunden werden kann, verwendet der Server stattdessen den entsprechenden Wert aus dem Standardkatalog. Ebenso kann der Standardkatalog verwendet werden, um Standardwerte für bestimmte Katalogdatensätze (Materialien und ICC-Profile) bereitzustellen. Wenn ein bestimmter Datensatz nicht in einem bestimmten Materialkatalog gefunden werden kann, versucht der Server stattdessen, ihn im Standardkatalog zu finden. Dies ermöglicht es, Materialkataloge spärlich auszufüllen und vereinfacht die Verwaltung globaler Attribute und Daten wie freigegebene Vorlagen, Makros und Schriftarten.
 
-Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (ICC-Profile) bereit, wenn kein bestimmter Materialkatalog an einem Vorgang beteiligt ist.
+Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (ICC-Profile) bereit, wenn an einem Vorgang kein bestimmter Materialkatalog beteiligt ist.
 
-Damit der Render-Server ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog den Namen [!DNL default.ini] haben. Sie muss auch immer im Katalogordner vorhanden sein und mit allen erforderlichen Attributen gefüllt werden, mit Ausnahme von `attribute::RootId` und den Verweisen auf die verschiedenen Katalogdatendateien, die alle optional sind.
+Damit der Render-Server ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog [!DNL default.ini] benannt sein. Sie muss auch immer im Katalogordner vorhanden sein und vollständig mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme von `attribute::RootId` und den Verweisen auf die verschiedenen Katalogdatendateien, die alle optional sind.
 
 <!-- **See also**
 

@@ -1,6 +1,6 @@
 ---
 title: printRes
-description: Druckauflösung. Überschreibt den Wert der Druckauflösung, der im Antwortbild eingebettet ist.
+description: Druckauflösung. Überschreibt den im Antwortbild eingebetteten Wert für die Druckauflösung.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 1%
 
 # printRes{#printres}
 
-Druckauflösung. Überschreibt den Wert der Druckauflösung, der im Antwortbild eingebettet ist.
+Druckauflösung. Überschreibt den im Antwortbild eingebetteten Wert für die Druckauflösung.
 
 `printRes= *`val`*`
 
 <table id="simpletable_3B5576DD070547538E74D4059B3E8251"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> Val</span> </p> </td> 
   <td class="stentry"> <p>Druckauflösung (dpi). </p></td> 
  </tr> 
 </table>
 
-Die Druckauflösung wird normalerweise durch den in der Vignette eingebetteten Wert für die Druckauflösung definiert.
+Die Druckauflösung wird normalerweise durch den in die Vignette eingebetteten Wert der Druckauflösung definiert.
 
-Durch das Festlegen der Druckauflösung wird die Pixelgröße des Antwortbilds nicht geändert.
+Durch Festlegen der Druckauflösung wird die Pixelgröße des Antwortbildes nicht geändert.
 
 ## Eigenschaften {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
