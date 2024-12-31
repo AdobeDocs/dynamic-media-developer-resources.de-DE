@@ -21,15 +21,15 @@ JavaScript-API-Referenz für Flyout-Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} Neue Asset-ID, expliziter Bildsatz oder expliziter Bildsatz mit bildspezifischen Image Serving-Modifikatoren, wobei optionale globale Image Serving-Modifikatoren nach <span class="codeph"> ?</span> angehängt werden. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Assets</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID, explizites Bildset oder explizites Bildset mit Frame-spezifischen Bildbereitstellungs-Modifikatoren, an die optional globale Bildbereitstellungs-Modifikatoren nach <span class="codeph"> ?</span> angehängt werden. </p> <p> Bilder, die IR (Image Rendering) oder UGC (User-Generated Content) verwenden, werden von diesem Viewer nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach der `init()` aufrufen. Wenn es nach dem `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
-Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
+Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
@@ -43,25 +43,25 @@ Einzelbildreferenz:
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-Einzelverweis auf ein Bildset, das in einem Katalog definiert ist:
+Einzelner Verweis auf ein Bildset, das in einem Katalog definiert ist:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Explizites Bildset wie folgt:
+Folgende explizite Bildsets:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-Explizites Bildset mit Frame-spezifischen Image Serving-Modifikatoren:
+Explizites Bildset mit Frame-spezifischen Image-Serving-Modifikatoren:
 
 ```
 <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
 ```
 
-Der Scharfzeichnungsmodifikator wurde allen Bildern im Set hinzugefügt:
+Scharfzeichnungsmodifikator wurde allen Bildern im Set hinzugefügt:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C?op_sharpen=1")

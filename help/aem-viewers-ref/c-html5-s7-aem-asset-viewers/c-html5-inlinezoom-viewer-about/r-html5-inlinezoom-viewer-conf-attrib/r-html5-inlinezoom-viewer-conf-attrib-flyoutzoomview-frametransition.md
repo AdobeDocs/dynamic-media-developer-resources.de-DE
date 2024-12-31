@@ -20,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> Gibt den Typ des Effekts an, der auf die Hauptansicht bei der Asset-Änderung angewendet wird. </p> <p><span class="codeph"> none</span> steht für keine Transition, die Änderung der Hauptansicht erfolgt sofort. </p> <p><span class="codeph"> fade</span> aktiviert eine Überblendung, bei der das alte Bild ausgeblendet und das neue Bild eingeblendet wird </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> Gibt den Typ des Effekts an, der auf die Hauptansicht bei der Asset-Änderung angewendet wird. </p> <p><span class="codeph"> Keine</span> steht für „Kein Übergang“, die Änderung der Hauptansicht erfolgt sofort. </p> <p><span class="codeph"> FADE</span> aktiviert die Überblendung, bei der das alte Bild ausgeblendet und das neue Bild eingeblendet wird </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Dauer</span></span> </p> </td> 
-   <td colname="col2"> <p> Anzahl der Sekunden, die der Abschluss der Animation dauert. </p> </td> 
+   <td colname="col2"> <p> Anzahl der Sekunden, die die Animation dauert. </p> </td> 
   </tr> 
  </tbody> 
 </table>

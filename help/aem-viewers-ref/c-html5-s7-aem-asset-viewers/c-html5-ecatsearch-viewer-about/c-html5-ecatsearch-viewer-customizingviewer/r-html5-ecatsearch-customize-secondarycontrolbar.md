@@ -1,6 +1,6 @@
 ---
-title: Sekundäre Steuerleiste
-description: Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen "Erste und Letzte Seite"und einen Seitenindikator enthält, wenn er in CSS verfügbar gemacht wird.
+title: Sekundärer Steuerbalken
+description: Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen Erste und Letzte Seite sowie einen Seitenindikator enthält, wenn er in CSS zur Verfügung gestellt wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Sekundäre Steuerleiste{#secondary-control-bar}
+# Sekundärer Steuerbalken{#secondary-control-bar}
 
-Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen &quot;Erste und Letzte Seite&quot;und einen Seitenindikator enthält, wenn er in CSS verfügbar gemacht wird.
+Die sekundäre Steuerleiste ist der rechteckige Bereich, der die Schaltflächen Erste und Letzte Seite sowie einen Seitenindikator enthält, wenn er in CSS zur Verfügung gestellt wird.
 
-Standardmäßig wird sie nur auf Mobiltelefonen am unteren Rand des Viewers angezeigt. Es benötigt immer die gesamte verfügbare Viewer-Breite. Es ist möglich, die Farbe, Höhe und vertikale Position durch CSS in Bezug auf den Viewer-Container zu ändern.
+Standardmäßig wird sie nur auf Smartphones im unteren Bereich des Viewers angezeigt. Es wird immer die gesamte verfügbare Viewer-Breite benötigt. Es ist möglich, die Farbe, Höhe und vertikale Position durch CSS relativ zum Viewer-Container zu ändern.
 
-Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der sekundären Steuerleiste wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar`
 
@@ -31,25 +31,25 @@ Das Erscheinungsbild der sekundären Steuerleiste wird mit der folgenden CSS-Kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
    <td colname="col2"> <p>Position oben im Viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position am unteren Rand des Viewers </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p>Position am unteren Rand des Viewers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Höhe der Hauptsteuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe der sekundären Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer grauen sekundären Steuerleiste, die 72 Pixel groß und am unteren Rand des Viewer-Containers positioniert ist.
+Beispiel - Zum Einrichten einer grauen sekundären Steuerleiste, die 72 Pixel hoch ist und sich am unteren Rand des Viewer-Containers befindet.
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  

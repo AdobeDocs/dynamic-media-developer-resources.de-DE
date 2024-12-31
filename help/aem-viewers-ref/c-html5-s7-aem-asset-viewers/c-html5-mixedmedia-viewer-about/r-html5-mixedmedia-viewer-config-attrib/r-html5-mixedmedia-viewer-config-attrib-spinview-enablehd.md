@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # SpinView.enableHD{#spinview-enablehd}
 
-` [SpinView.|<containerId>_spinView.]enableHD=always|never|limit[, *`number`*]`
+` [SpinView.|<containerId>_spinView.]enableHD=always|never|limit[, *`Zahl`*]`
 
 <table id="table_8929B59833DE4E1C89FA4BCF07309809"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Aktivieren, beschränken oder deaktivieren Sie die Optimierung für Geräte, bei denen <span class="codeph"> devicePixelRatio</span> größer als <span class="codeph"> 1</span> ist, d. h. Geräte mit einer Anzeige mit hoher Dichte wie iPhone4 und ähnliche Geräte. Wenn diese Option aktiviert ist, beschränkt die Komponente die Größe der IS-Bildanforderung so, als hätte das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> und reduziert daher die Bandbreite. </p> </td> 
+   <td colname="col1"> <p> Immer <span class="codeph">|Nie|Limit</span> </p> </td> 
+   <td colname="col2"> <p> Aktivieren, beschränken oder deaktivieren Sie die Optimierung für Geräte, bei denen <span class="codeph"> devicePixelRatio</span> größer als <span class="codeph"> 1</span> ist, d. h. Geräte mit einem Display mit hoher Dichte wie iPhone4 und ähnliche Geräte. Wenn aktiv, dann begrenzt die Komponente die Größe der IS-Bildanforderung so, als ob das Gerät nur ein Pixelverhältnis von <span class="codeph"> 1</span> hätte und damit die Bandbreite reduziert würde. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> number</span></span> </p> </td> 
-   <td colname="col2"> <p> Bei Verwendung der Einstellung <span class="codeph"> limit</span> ermöglicht die Komponente eine hohe Pixeldichte nur bis zum angegebenen Limit. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Nummer</span></span> </p> </td> 
+   <td colname="col2"> <p> Bei Verwendung der Einstellung <span class="codeph">Limit</span> aktiviert die Komponente eine hohe Pixeldichte nur bis zum angegebenen Limit. </p> </td> 
   </tr> 
  </tbody> 
 </table>

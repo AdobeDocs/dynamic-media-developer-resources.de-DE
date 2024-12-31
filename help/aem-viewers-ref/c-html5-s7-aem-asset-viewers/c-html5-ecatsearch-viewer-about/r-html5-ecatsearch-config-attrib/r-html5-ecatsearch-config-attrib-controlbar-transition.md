@@ -14,28 +14,28 @@ ht-degree: 1%
 
 # ControlBar.transition{#controlbar-transition}
 
-[!DNL ` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`]
+[!DNL ` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`DelayToHide`*[, *`duration`*]`]
 
 <table id="table_F71AA834FE494949A2D4B569EA5E721F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade </span> </p> </td> 
-   <td colname="col2"> <p> Gibt den Effekttyp an, der zum Anzeigen oder Ausblenden der Steuerleiste und ihres Inhalts verwendet wird. Verwenden Sie <span class="codeph"> none </span> zum sofortigen Ein- und Ausblenden; <span class="codeph"> fade </span> bietet einen allmählichen Ein- und Ausblendeeffekt (wird in Internet Explorer 8 nicht unterstützt). </p> </td> 
+   <td colname="col2"> <p> Gibt den Effekttyp an, mit dem die Steuerleiste und ihr Inhalt ein- oder ausgeblendet werden. Verwenden Sie <span class="codeph"> None -</span> für die sofortige Ein- und Ausblendung. <span class="codeph"> Einblendeffekt bietet </span> einen allmählichen Ein- und Ausblendeffekt (wird in Internet Explorer 8 nicht unterstützt). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touchereignis an, das die Steuerleiste registriert, und dem ausgeblendeten Zeitkontrollbalken. </p> <p> Wenn der Wert auf <span class="codeph"> -1 </span> festgelegt ist, wird der automatische Ausblendeffekt der Komponente nie Trigger und es wird immer auf dem Bildschirm angezeigt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> DelaytoHide </span> </span> </p> </td> 
+   <td colname="col2"> <p> Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touch-Ereignis an, das von der Steuerleiste registriert wird, und der Zeit-Steuerleiste, die ausgeblendet wird. </p> <p> Trigger Bei <span class="codeph"> -1 ändert </span> Komponente nie ihren Effekt zum automatischen Ausblenden und bleibt immer auf dem Bildschirm sichtbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Dauer </span> </span> </p> </td> 
-   <td colname="col2"> <p> Legt die Dauer der Ein- und Ausblendung-Animation in Sekunden fest. </p> </td> 
+   <td colname="col2"> <p> Legt die Dauer der Ein- und Ausblendung in Sekunden fest. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Optional. Dieser Befehl wird auf Touch-Geräten ignoriert, auf denen die automatische Ausblendung der Steuerleiste deaktiviert ist.
+Optional. Dieser Befehl wird auf Touch-Geräten ignoriert, bei denen die automatische Ausblendung der Steuerleiste deaktiviert ist.
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 

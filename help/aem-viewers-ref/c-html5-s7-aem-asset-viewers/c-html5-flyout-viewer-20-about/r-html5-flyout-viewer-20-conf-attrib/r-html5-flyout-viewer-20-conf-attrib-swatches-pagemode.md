@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Wenn die Bildlauftasten umgeschaltet sind, führen sie automatisch dazu, dass die Farbfelder eine volle Seitenlänge überspringen. </p> <p>Zusätzliche Leerzeichen werden auf der letzten Seite angezeigt, wenn die Farbfelder nicht passen. Außerdem weist die letzte Seite dieselbe Anzahl von Zellen auf wie jede vorherige Seite. </p> <p>Der Bildlaufschritt wird ignoriert und der Mauslauf erfolgt nur auf vollständigen Seiten. </p> </td> 
+   <td colname="col2"> <p> Wenn die Bildlaufschaltflächen umgeschaltet werden, springen die Farbfelder automatisch um eine volle Seitenlänge. </p> <p>Zusätzliche Leerzeichen werden auf der letzten Seite angezeigt, wenn die Farbfelder nicht passen. Außerdem hat die letzte Seite dieselbe Anzahl von Zellen wie jede vorherige Seite. </p> <p>Der Bildlaufschritt wird ignoriert und der Mausbildlauf wird nur auf vollständigen Seiten ausgeführt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

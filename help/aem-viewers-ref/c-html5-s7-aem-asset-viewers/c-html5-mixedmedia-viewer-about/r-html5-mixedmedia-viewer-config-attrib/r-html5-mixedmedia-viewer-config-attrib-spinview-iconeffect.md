@@ -20,19 +20,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert die Anzeige des <span class="codeph"> -Bildeffekts</span> über dem Bild, wenn das Bild zurückgesetzt wird. Es ist empfehlenswert, eine verfügbare Aktion auszuführen, um mit dem Bild zu interagieren. </p> </td> 
+   <td colname="col2"> <p> Aktiviert den <span class="codeph"> iconeffect</span>, der über dem Bild angezeigt wird, wenn das Bild zurückgesetzt wird und eine Aktion angezeigt werden kann, die mit dem Bild interagiert werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie oft das <span class="codeph">-Symbol</span> maximal angezeigt und wieder angezeigt wird. Der Wert <span class="codeph"> -1</span> zeigt an, dass das Symbol immer unbegrenzt angezeigt wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Anzahl</span></span> </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie oft der <span class="codeph"> IconEffect</span> maximal angezeigt werden kann. Der Wert <span class="codeph"> -1</span> bedeutet, dass das Symbol immer unbegrenzt wieder angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
-   <td colname="col2"> <p>Gibt die Dauer der Ein- oder Ausblenden-Animation in Sekunden an. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> verblasst</span></span> </p> </td> 
+   <td colname="col2"> <p>Gibt die Dauer der Einblenden- oder Ausblenden-Animation in Sekunden an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Legt die Anzahl der Sekunden fest, in denen der <span class="codeph">-Effekt</span> vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach dem Abschluss der Einblendanimation, aber bevor die Ausblendung beginnt. Eine Einstellung von <span class="codeph"> 0</span> deaktiviert das automatische Ausblendeverhalten. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> automatisch ausblenden</span></span> </p> </td> 
+   <td colname="col2"> <p>Legt die Anzahl der Sekunden fest, die der <span class="codeph"> iconeffect</span> vollständig sichtbar bleibt, bevor er automatisch ausgeblendet wird. Das heißt, die Zeit nach Abschluss der Einblendanimation, aber vor Beginn der Ausblendanimation. Bei einer Einstellung von <span class="codeph"> 0</span> wird das Verhalten zum automatischen Ausblenden deaktiviert. </p> </td> 
   </tr> 
  </tbody> 
 </table>

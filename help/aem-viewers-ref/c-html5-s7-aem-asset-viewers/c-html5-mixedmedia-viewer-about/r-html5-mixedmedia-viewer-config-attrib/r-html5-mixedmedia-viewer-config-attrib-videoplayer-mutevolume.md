@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.mutevolume
-description: Konfigurationsattribut für Video-Viewer für gemischte Medien.
+description: Konfigurationsattribut für den Viewer für gemischte Medien-Videos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Konfigurationsattribut für Video-Viewer für gemischte Medien.
+Konfigurationsattribut für den Viewer für gemischte Medien-Videos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Video-Viewer für gemischte Medien.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Legt den stummschalteten Modus für die Videowiedergabe beim ersten Laden fest. Wenn der Wert auf <span class="codeph"> 1 </span> gesetzt ist, ist die Lautstärke stummgeschaltet; andernfalls wird das Video mit dem Ton wiedergegeben. Auf bestimmten Geräten ermöglicht die Mutation der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos. </p> </td> 
+   <td colname="col2"> <p> Legt den Stummschaltungsmodus für die Videowiedergabe beim Laden fest. Wenn auf <span class="codeph"> 1 </span>, wird die Lautstärke stummgeschaltet, andernfalls wird das Video mit Ton wiedergegeben. Auf bestimmten Geräten ermöglicht die Stummschaltung der Videowiedergabe beim Laden auch die automatische Wiedergabe des Videos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

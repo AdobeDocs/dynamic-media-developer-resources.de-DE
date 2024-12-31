@@ -14,13 +14,13 @@ ht-degree: 10%
 
 # ZoomView.rgnN{#zoomview-rgnn}
 
-` [ZoomView.|<containerId>_zoomView.]rgnN= `x`, `y`, `w`, `h&quot;
+` [ZoomView.|<containerId>_zoomView.]rgnN= `x`, `y`, `w`, `h“
 
 <table id="table_DEA0A957BC624857B7C0A88DC75DE025"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>, <span class="codeph"> y</span>, <span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> Anfänglicher Bereich von Interesse an normalisierten Koordinaten. Wenn dieser Wert nicht angegeben ist, passt das gesamte Bild in den anfänglichen Viewport. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> Anfänglicher Interessenbereich in normalisierten Koordinaten. Wenn dieser Wert nicht angegeben ist, wird das gesamte Bild in das ursprüngliche Darstellungsfeld eingefügt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

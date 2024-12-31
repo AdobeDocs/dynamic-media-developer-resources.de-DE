@@ -20,11 +20,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Konfiguriert, wie die Komponente neue Bilder für die Haupt- und Flyout-Ansicht während der Größenanpassung abruft. </p> <p>Wird auf <span class="codeph"> 0 </span> gesetzt, lädt die Komponente keine neuen Bilder während der Größenanpassung und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Mit der Einstellung "<span class="codeph"> 1 </span>" können Sie einen oder mehrere Breitenhaltepunkte für das Bild festlegen, das in die Hauptansicht geladen wird. </p> </td> 
+   <td colname="col2"> <p> Konfiguriert, wie die Komponente während der Größenanpassung neue Bilder für die Haupt- und Flyout-Ansicht abruft. </p> <p>Auf <span class="codeph"> </span> 0 festgelegt, lädt die Komponente während der Größenanpassung keine neuen Bilder und die Bildauflösung in der Flyout-Ansicht ändert sich nicht. </p> <p>Mit der Einstellung auf <span class="codeph"> 1 </span> können Sie einen oder mehrere Breitenhaltepunkte für das Bild angeben, das in die Hauptansicht geladen wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Breakpoint, <span class="varname"> Breite </span>; <span class="varname"> Breite </span> </span> </p> </td> 
-   <td colname="col2"> <p>Breiten-Haltepunkte für das Bild, das in die Hauptansicht geladen wird. </p> <p>Die Komponente verwendet immer die beste Anpassungsgröße für das anfängliche Laden. Nach der Größenanpassung wird sichergestellt, dass das Bild in der Hauptansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Breakpoint entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
+   <td colname="col2"> <p>Breitenhaltepunkte für das Bild, das in die Hauptansicht geladen wird. </p> <p>Die Komponente verwendet immer die beste Einpassgröße für die Erstauslastung. Nach der Größenanpassung wird sichergestellt, dass das Bild in der Hauptansicht immer mit der Breite heruntergeladen wird, die dem nächstgrößeren Breakpoint entspricht, und auf dem Client herunterskaliert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

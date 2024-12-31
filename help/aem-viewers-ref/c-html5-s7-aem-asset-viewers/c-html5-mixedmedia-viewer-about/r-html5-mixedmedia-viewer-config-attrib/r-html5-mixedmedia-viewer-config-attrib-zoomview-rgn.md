@@ -14,13 +14,13 @@ ht-degree: 10%
 
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= `x`, `y`, `w`, `h&quot;
+` [ZoomView.|<containerId>_zoomView.]rgn= `x`, `y`, `w`, `h“
 
 <table id="table_A5BFF854E2064B048BF9AA8D576F7DA2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>, <span class="codeph"> y</span>, <span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> Anfänglicher Interessensbereich in Pixelkoordinaten. Wenn dieser Wert nicht angegeben ist, passt das gesamte Bild in den anfänglichen Viewport. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> Anfänglicher interessierender Bereich in Pixel-Koordinaten. Wenn dieser Wert nicht angegeben ist, wird das gesamte Bild in das ursprüngliche Darstellungsfeld eingefügt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

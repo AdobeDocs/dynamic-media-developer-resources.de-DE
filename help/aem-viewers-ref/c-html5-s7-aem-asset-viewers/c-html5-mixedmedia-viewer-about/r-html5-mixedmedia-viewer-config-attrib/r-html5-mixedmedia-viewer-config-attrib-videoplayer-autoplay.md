@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob der Viewer die Wiedergabe des Videos beim Laden startet. Einige Systeme, wie bestimmte Mobilgeräte, unterstützen AutoPlay nicht. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob der Viewer die Wiedergabe des Videos beim Laden startet. Einige Systeme, wie bestimmte Mobilgeräte, unterstützen kein AutoPlay. </p> </td> 
   </tr> 
  </tbody> 
 </table>

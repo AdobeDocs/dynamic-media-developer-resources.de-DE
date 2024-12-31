@@ -16,9 +16,9 @@ ht-degree: 7%
 
 Die folgenden Viewer funktionieren unter Adobe Experience Manager Assets und auch unter Dynamic Media Classic.
 
-* [Einfach zoomen](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
+* [Grundlegender Zoom](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
-* [eCatalog-Suche](c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
+* [E-Katalog-Suche](c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
 * [Flyout](c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
 * [Inline-Zoom](c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
 * [Gemischte Medien](c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)

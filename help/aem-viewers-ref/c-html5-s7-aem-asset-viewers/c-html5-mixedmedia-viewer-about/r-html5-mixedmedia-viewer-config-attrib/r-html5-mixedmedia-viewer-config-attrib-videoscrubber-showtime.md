@@ -20,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert bzw. deaktiviert die Wiedergabedauer beim Anpassen der Knotenposition. </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die Zeitblase beim Einstellen der Reglerposition. </p> </td> 
   </tr> 
  </tbody> 
 </table>

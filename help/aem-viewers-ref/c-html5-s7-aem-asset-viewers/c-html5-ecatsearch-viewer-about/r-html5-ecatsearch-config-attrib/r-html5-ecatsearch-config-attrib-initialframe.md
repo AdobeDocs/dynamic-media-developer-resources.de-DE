@@ -1,7 +1,7 @@
 ---
-description: InitialFrame
+description: Anfangsbild
 solution: Experience Manager
-title: InitialFrame
+title: Anfangsbild
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 15241738-a1b6-4723-b6fc-ebc8f7dedb03
@@ -12,15 +12,15 @@ ht-degree: 5%
 
 ---
 
-# InitialFrame{#initialframe}
+# Anfangsbild{#initialframe}
 
-[!DNL ` initialFrame= *`frame`*`]
+[!DNL ` initialFrame= *`Frame`*`]
 
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Gibt einen nullbasierten Spread-Index an, der beim Laden des Viewers angezeigt werden soll. Der Index entspricht dem Index des Streams im Querformat. Wenn der Viewer in ein Hochformat gedreht wird, zeigt der Viewer die am weitesten links liegende Seite des Streams an, auf die durch <span class="codeph"> frameIdx</span> verwiesen wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Frame</span></span> </p> </td> 
+   <td colname="col2"> <p> Gibt einen Index auf Basis null an, der beim Laden des Viewers angezeigt werden soll. Der Index entspricht dem Index des Spreads im Querformat. Wenn der Viewer in das Hochformat gedreht wird, zeigt der Viewer die Seite ganz links von dem Druckbogen an, auf den <span class="codeph"> frameIdx</span> verweist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

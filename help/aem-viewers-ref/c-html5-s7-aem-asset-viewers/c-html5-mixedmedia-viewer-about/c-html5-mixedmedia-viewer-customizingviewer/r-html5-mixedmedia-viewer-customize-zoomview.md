@@ -1,6 +1,6 @@
 ---
 title: Zoom-Ansicht
-description: Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem Zoombild, wenn das aktuelle Asset ein einzelnes Bild ist.
+description: Im kontinuierlichen Zoom-Modus besteht die Hauptansicht aus dem zoombaren Bild, wenn das aktuelle Asset ein einzelnes Bild ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Zoom-Ansicht{#zoom-view}
 
-Im kontinuierlichen Zoommodus besteht die Hauptansicht aus dem Zoombild, wenn das aktuelle Asset ein einzelnes Bild ist.
+Im kontinuierlichen Zoom-Modus besteht die Hauptansicht aus dem zoombaren Bild, wenn das aktuelle Asset ein einzelnes Bild ist.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7mixedmediaviewer .s7zoomview
@@ -35,17 +35,17 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Hauptansicht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat der Hauptansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
-   <td colname="col2"> <p>Der Cursor wird über der Hauptansicht angezeigt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor-</span> </p> </td> 
+   <td colname="col2"> <p>Cursor über der Hauptansicht angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um die Zoomansicht transparent zu machen.
+Beispiel - , um die Zoom-Ansicht transparent zu machen.
 
 ```
 .s7mixedmediaviewer .s7zoomview { 
@@ -53,11 +53,11 @@ Beispiel - um die Zoomansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7zoomview` angewendet werden kann. Er steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente `cursortype` Attributauswahl, die auf die `.s7zoomview` angewendet werden kann. Er steuert den Typ des Cursors auf der Grundlage des Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` werden unterstützt:
 
 * `default`
 
-  Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht vergrößert werden kann.
+  Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht zoombar ist.
 
 * `zoomin`
 
@@ -65,12 +65,12 @@ Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype
 
 * `reset`
 
-  Wird angezeigt, wenn sich das Bild auf einem maximalen Zoomfaktor befindet und auf seinen ursprünglichen Status zurückgesetzt werden kann.
+  Wird angezeigt, wenn sich das Bild im maximalen Zoombereich befindet und auf den Ausgangszustand zurückgesetzt werden kann.
 
 * `drag`
 
-  Wird angezeigt, wenn der Benutzer das Bild schaltet, das gezoomt ist.
+  Wird angezeigt, wenn der/die Benutzende das Bild schwenkt, das vergrößert ist.
 
 * `slide`
 
-  Wird angezeigt, wenn der Benutzer einen Bildtausch durch horizontales Wischen oder Klick durchführt.
+  Wird angezeigt, wenn Benutzende durch horizontales Wischen oder Klicken einen Bildwechsel durchführen.

@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob QuickInfos für einzelne Zuordnungsbereichselemente aktiviert sind. </p> <p> Auf Touch-Geräten, einschließlich Touch-optimierter Desktop-Systeme, ignoriert. </p> </td> 
+   <td colname="col2"> <p> Gibt an, ob QuickInfos für einzelne Kartenbereichselemente aktiviert sind. </p> <p> Wird auf Touch-Geräten ignoriert, einschließlich Touch-optimierter Desktop-Systeme. </p> </td> 
   </tr> 
  </tbody> 
 </table>

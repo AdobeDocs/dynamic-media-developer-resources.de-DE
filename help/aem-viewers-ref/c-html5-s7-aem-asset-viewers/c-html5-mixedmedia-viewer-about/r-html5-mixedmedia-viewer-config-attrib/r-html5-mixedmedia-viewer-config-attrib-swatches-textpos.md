@@ -21,8 +21,8 @@ ht-degree: 6%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Gibt an, wo die Beschriftung relativ zum Musterminiaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Musterminiatur zentriert. Wenn <span class="codeph"> tooltip</span> angegeben ist, wird keine Beschriftung gezeichnet. </p> </td> 
+   <td> <p> <span class="codeph"> Unten|Oben|Links|Rechts|Keine|QuickInfo</span> </p> </td> 
+   <td> <p> Gibt an, wo die Beschriftung relativ zum Miniaturbild des Farb-/Bildmusters gezeichnet wird. Das heißt, die Beschriftung wird an der angegebenen Position relativ zur Miniaturansicht des Farbfelds zentriert. Wenn <span class="codeph"> QuickInfo </span> wird, wird keine Beschriftung gezeichnet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

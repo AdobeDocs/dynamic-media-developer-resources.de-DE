@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_012E1D178BFA4BD9814A7AAD2B4403BB"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, werden alle Muster gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0</span> gesetzt, werden nur sichtbare Muster geladen. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> definiert, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
+   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadNbr</span></span> </p> </td> 
+   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. Wenn auf <span class="codeph"> -1 festgelegt</span> werden alle Farbfelder gleichzeitig geladen, wenn die Komponente initialisiert oder das Asset geändert wird. </p> <p>Wenn auf <span class="codeph"> 0 festgelegt</span> werden nur sichtbare Farbfelder geladen. </p> <p><span class="codeph"><span class="varname"> preloadNbr</span></span> legt fest, wie viele unsichtbare Zeilen/Spalten um den sichtbaren Bereich vorab geladen werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

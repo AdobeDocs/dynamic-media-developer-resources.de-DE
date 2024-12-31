@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Legen Sie den Wert auf <span class="codeph"> 1</span> fest, um das Vorausfüllen des gezoomten Bildes zu ermöglichen, oder legen Sie den Wert auf <span class="codeph"> 0</span> fest, um das Zoombild nach Bedarf schrittweise zu laden. </p> <p> <p>Hinweis: Wenn Sie diese Option aktivieren, kann dies zu einer wesentlich höheren Bandbreitennutzung führen. Das gezoomte Bild wird vollständig geladen, auch wenn der Benutzer keine Zoom-Aktion auslöst. </p> </p> </td> 
+   <td colname="col2"> <p> Wählen Sie <span class="codeph"> 1</span>, um das Vorabladen des gezoomten Bildes zu aktivieren, oder <span class="codeph"> 0</span>, um das Zoombild nach Bedarf inkrementell zu laden. </p> <p> <p>Hinweis: Wenn Sie diese Option aktivieren, kann dies zu einer wesentlich höheren Bandbreitennutzung führen. Das gezoomte Bild wird vollständig geladen, auch wenn der/die Benutzende keine Zoom-Aktion initiiert. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

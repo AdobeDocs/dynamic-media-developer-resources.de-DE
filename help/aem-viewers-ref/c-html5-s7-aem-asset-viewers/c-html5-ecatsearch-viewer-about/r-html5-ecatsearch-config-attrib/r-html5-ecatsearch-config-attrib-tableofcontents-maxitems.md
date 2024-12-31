@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # TableOfContents.maxitems{#tableofcontents-maxitems}
 
-[!DNL `[TableOfContents.|<containerId>_tableOfContents.]maxitems= *`maxitems`*`]
+[!DNL `[TableOfContents.|<containerId>_tableOfContents.]maxitems= *`maxItems`*`]
 
 <table id="table_F9BC656721B04870AC628ACBC47E7200"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Die maximale Anzahl von Elementen im Dropdown-Inhaltsverzeichnis. </p> <p>Außerdem können Sie die Anzahl der sichtbaren Elemente in der Dropdown-Liste verringern, falls sie durch den äußeren Container beschnitten wird. </p> <p>Wenn diese Komponente auf <span class="codeph"> 0</span> gesetzt ist, zeigt sie so viele Elemente wie möglich an, sofern dem Container er hinzugefügt wird. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> maxItems</span></span> </p> </td> 
+   <td> <p>Die maximale Anzahl von Elementen im Dropdown-Inhaltsverzeichnis. </p> <p>Außerdem können Sie die Anzahl der sichtbaren Elemente in der Dropdown-Liste verringern, falls sie vom äußeren Container abgeschnitten werden. </p> <p>Bei <span class="codeph"> 0 zeigt </span> Komponente so viele Elemente an, wie in Anbetracht des Containers, dem sie hinzugefügt wird, möglich sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
