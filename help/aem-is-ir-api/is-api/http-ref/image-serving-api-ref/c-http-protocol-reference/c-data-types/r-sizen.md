@@ -1,5 +1,5 @@
 ---
-description: Normalisierte Größe. Wird verwendet, um Bildgrößen oder Rechteckgrößen anzugeben, die relativ zur Größe der Ebene 0 oder eines anderen Bildes normalisiert werden.
+description: Normalisierte Größe. Wird verwendet, um Bildgrößen oder Rechteckgrößen anzugeben, die relativ zur Größe von Ebene 0 oder einem anderen Bild normalisiert sind.
 solution: Experience Manager
 title: sizeN
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # sizeN{#sizen}
 
-Normalisierte Größe. Wird verwendet, um Bildgrößen oder Rechteckgrößen anzugeben, die relativ zur Größe der Ebene 0 oder eines anderen Bildes normalisiert werden.
+Normalisierte Größe. Wird verwendet, um Bildgrößen oder Rechteckgrößen anzugeben, die relativ zur Größe von Ebene 0 oder einem anderen Bild normalisiert sind.
 
 <table id="simpletable_BB36205775D4447084E527E2630D28B9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> sizeN</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> NX</span> </span>, <span class="codeph"><span class="varname"> NY</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
-  <td class="stentry"> <p>normalisierte Breite und Höhe relativ zu einem anderen Bild (real, real, größer als 0) </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> NX</span> </span>, <span class="codeph"><span class="varname"> NY</span></span> </p></td> 
+  <td class="stentry"> <p>Normalisierte Breite und Höhe relativ zu einem anderen Bild (real, real, größer als 0) </p></td> 
  </tr> 
 </table>
 
-Sowohl *nx* als auch *ny* müssen größer als 0 sein. 0,0 kann darauf hinweisen, dass eine bestimmte Standardgröße verwendet werden sollte. 1,1 gibt eine Größe an, die dem Referenzbild entspricht.
+Sowohl *nx* als auch *ny* müssen größer als 0 sein. 0,0 kann bedeuten, dass eine bestimmte Standardgröße verwendet werden soll. 1,1 legt eine Größe fest, die der Größe des Referenzbilds entspricht.

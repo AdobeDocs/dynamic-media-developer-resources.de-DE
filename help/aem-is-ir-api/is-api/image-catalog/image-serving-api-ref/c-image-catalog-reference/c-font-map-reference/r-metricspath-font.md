@@ -1,5 +1,5 @@
 ---
-description: Dateipfad für Schriftmetriken. Pfad und Name einer Schriftartmetrikdatei, einschließlich Dateisuffix.
+description: Dateipfad für Schriftmetriken. Pfad und Name einer Schriftmetrikdatei, einschließlich Dateisuffix.
 solution: Experience Manager
 title: MetricsPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # MetricsPath{#metricspath}
 
-Dateipfad für Schriftmetriken. Pfad und Name einer Schriftartmetrikdatei, einschließlich Dateisuffix.
+Dateipfad für Schriftmetriken. Pfad und Name einer Schriftmetrikdatei, einschließlich Dateisuffix.
 
-Wird für Adobe Type 1-Schriftarten verwendet. Wenn nichts angegeben ist, versucht der Server, eine Schriftartmetrikdatei im selben Ordner zu finden, in dem sich die Hauptschriftartdatei befindet. Wenn eine erforderliche Schriftartmetrikdatei zum Rendern nicht gefunden werden kann, tritt ein Fehler auf.
+Wird für Schriftarten der Adobe Type 1 verwendet. Wenn nicht anders angegeben, versucht der Server, eine Schriftmetrikdatei im selben Ordner zu finden, in dem sich die Prinzipalschriftdatei befindet. Ein Fehler tritt auf, wenn eine erforderliche Schriftmetrikdatei zum Zeitpunkt des Renderns nicht gefunden werden kann.
 
 ## Eigenschaften {#section-955268c581574875b05253d9e14544f3}
 
-Textzeichenfolge. Optional für Adobe Type 1-Dateien. Muss leer oder ein gültiger Image-Server-Dateipfad sein, entweder absolut oder relativ zu `attribute::RootPath`.
+Text-String Optional für Dateien der Adobe Type 1. Muss leer oder ein gültiger Bildserver-Dateipfad sein, entweder absolut oder relativ zu `attribute::RootPath`.
 
 ## Standard {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

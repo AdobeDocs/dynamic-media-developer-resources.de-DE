@@ -1,7 +1,7 @@
 ---
-description: Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen auch für Bildebenen.
+description: Diese Befehle gelten für Bildebenen zusätzlich zu den gebräuchlichen Ebenenbefehlen.
 solution: Experience Manager
-title: Bildschichtbefehle
+title: Befehle der Bildebene
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Bildschichtbefehle{#image-layer-commands}
+# Befehle der Bildebene{#image-layer-commands}
 
-Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen auch für Bildebenen.
+Diese Befehle gelten für Bildebenen zusätzlich zu den gebräuchlichen Ebenenbefehlen.
 
 <table id="simpletable_F6799DA025A64970B95085FB9910E1EF"> 
  <tr class="strow"> 

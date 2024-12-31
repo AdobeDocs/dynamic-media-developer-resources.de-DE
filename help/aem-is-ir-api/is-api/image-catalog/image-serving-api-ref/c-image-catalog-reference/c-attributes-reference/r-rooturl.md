@@ -16,15 +16,15 @@ ht-degree: 3%
 
 Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an.
 
-`attribute::RootUrl` wird anstelle von `attribute::RootPath` verwendet, wenn ein `src=` - oder `mask=` -Wert durch {geschweifte Klammern} oder (Klammern) eingeschlossen ist.
+`attribute::RootUrl` wird anstelle von `attribute::RootPath` verwendet, wenn ein `src=` oder `mask=` Wert von {curly braces} oder (Klammern) eingeschlossen ist.
 
 ## Eigenschaften {#section-fe02269b4b724319a5d1f2cfcae31cba}
 
-Textzeichenfolgenwert. Absoluter URL-Stammpfad, einschließlich der führenden Protokollkennung. Die folgenden Protokolle werden unterstützt: HTTP, HTTPS und FTP.
+Text-Zeichenfolgenwert. Absoluter URL-Stammpfad, einschließlich der führenden Protokollkennung. Die folgenden Protokolle werden unterstützt: HTTP, HTTPS und FTP.
 
 ## Standard {#section-fa5e3fc993c04086bc2b06dfeea4ae5c}
 
-Wird von `default::RootUrl` übernommen, falls nicht definiert. Wenn definiert, aber leer, werden relative URLs von diesem Bildkatalog nicht unterstützt.
+Von `default::RootUrl` geerbt, wenn nicht definiert. Wenn sie definiert, aber leer ist, werden relative URLs von diesem Bildkatalog nicht unterstützt.
 
 ## Verwandte Themen {#section-ade4789086df4e76ae041cd4acfa2f85}
 

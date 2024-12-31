@@ -1,6 +1,6 @@
 ---
-title: maskUse
-description: Verwendung der Bildmaske. Gibt an, wie die Maske oder der Alphakanal des Bildes für Vorgänge im Bild verwendet wird (z. B. colorize=). Wenn in einer Effektebene angegeben, kann der Effekt auf den Hintergrundbereich der übergeordneten Ebene oder auf das gesamte Rechteck der übergeordneten Ebene angewendet werden.
+title: Maskenverwendung
+description: Verwendung der Bildmaske. Gibt an, wie die Maske oder der Alphakanal des Bildes für Vorgänge auf dem Bild verwendet wird (z. B. colorize=). Wenn in einer Effektebene festgelegt, kann der Effekt auf den Hintergrundbereich der übergeordneten Ebene oder auf das gesamte übergeordnete Ebenenrechteck angewendet werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,50 +12,50 @@ ht-degree: 1%
 
 ---
 
-# maskUse{#maskuse}
+# Maskenverwendung{#maskuse}
 
-Verwendung der Bildmaske. Gibt an, wie die Maske oder der Alphakanal des Bildes für Vorgänge im Bild verwendet wird (z. B. colorize=). Wenn in einer Effektebene angegeben, kann der Effekt auf den Hintergrundbereich der übergeordneten Ebene oder auf das gesamte Rechteck der übergeordneten Ebene angewendet werden.
+Verwendung der Bildmaske. Gibt an, wie die Maske oder der Alphakanal des Bildes für Vorgänge auf dem Bild verwendet wird (z. B. colorize=). Wenn in einer Effektebene festgelegt, kann der Effekt auf den Hintergrundbereich der übergeordneten Ebene oder auf das gesamte übergeordnete Ebenenrechteck angewendet werden.
 
 `maskUse=norm|invert|off`
 
-Die folgende Tabelle zeigt die Wirkung von `maskUse=` in Abhängigkeit von der Verfügbarkeit und dem Typ der mit dem Ebenenbild verknüpften Maske (Alphakanal).
+Die folgende Tabelle zeigt die Wirkung von `maskUse=` in Abhängigkeit von Verfügbarkeit und Typ der Maske (Alphakanal), die mit dem Ebenenbild verknüpft ist.
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> Wert</b> </th> 
-   <th class="entry"> <b> Keine Maske</b> </th> 
-   <th class="entry"> <b> Nicht zugeordnetes Alpha (oder separates Maskenbild)</b> </th> 
-   <th class="entry"> <b> Verknüpftes (vormultipliziertes) Alpha</b> </th> 
+   <th class="entry"> <b> keine Maske</b> </th> 
+   <th class="entry"> <b> Nicht verknüpfte Alpha (oder separates Maskenbild)</b> </th> 
+   <th class="entry"> <b> zugeordnete (vormultiplizierte) Alpha</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> off </span> </p> </td> 
-   <td> <p> Rechteck für undurchsichtige Bilder </p> </td> 
-   <td> <p> Rechteck für undurchsichtige Bilder </p> </td> 
-   <td> <p> Vordergrundbereich des Bildes über einem Rechteck, gefüllt mit schwarz </p> </td> 
+   <td> <p> <span class="codeph"> von </span> </p> </td> 
+   <td> <p> Undurchsichtiges Bildrechteck </p> </td> 
+   <td> <p> Undurchsichtiges Bildrechteck </p> </td> 
+   <td> <p> Vordergrundbereich des Bildes über einem Rechteck, das mit durchgehendem Schwarz gefüllt ist </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> norm </span> </p> </td> 
-   <td> <p> Rechteck für undurchsichtige Bilder </p> </td> 
-   <td> <p> Vordergrundbereich des Bildes </p> </td> 
-   <td> <p> Vordergrundbereich des Bildes oder der Ebene </p> </td> 
+   <td> <p> <span class="codeph">-</span> </p> </td> 
+   <td> <p> Undurchsichtiges Bildrechteck </p> </td> 
+   <td> <p> Vordergrundbildbereich </p> </td> 
+   <td> <p> Vordergrundbereich eines Bildes oder einer Ebene </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> invert </span> </p> </td> 
+   <td> <p> <span class="codeph"> invertieren </span> </p> </td> 
    <td> <p> Ausgeblendete Ebene </p> </td> 
-   <td> <p> Hintergrundbereich des Bildes </p> </td> 
-   <td> <p> Hintergrundbereich des Bildes oder der Ebene mit schwarzem Vollbild </p> </td> 
+   <td> <p> Hintergrundbild </p> </td> 
+   <td> <p> Hintergrundbereich eines Bildes oder einer Ebene mit Volltonschwarz gefüllt </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-f36ad1af348e45aeb3eb336544df30b0}
 
-Bild- oder Ebenenattribut. Gilt für Ebene 0, wenn `layer=comp`. Wenn in einer Effektebene angegeben, ändert der Befehl die von der übergeordneten Ebene übernommene Maske.
+Bild- oder Ebenenattribut. Gilt für Ebene 0, falls `layer=comp`. Wenn in einer Effektebene angegeben, ändert der Befehl die Maske, die von der übergeordneten Ebene übernommen wird.
 
-Das Verhalten von `maskUse=` ist nicht definiert und wird nicht unterstützt, wenn es mit Text- oder einfarbigen Ebenen angegeben wird, wenn keine Bildmaske anwendbar ist (angegeben mit `mask=` oder `catalog::Mask`).
+Das Verhalten von `maskUse=` ist nicht definiert und wird nicht unterstützt, wenn es mit Text- oder Vollfarbschichten angegeben wird und keine Bildmaske anwendbar ist (angegeben mit `mask=` oder `catalog::Mask`).
 
 ## Standard {#section-982dd8174641437786dcb3729ace6428}
 
@@ -63,7 +63,7 @@ Das Verhalten von `maskUse=` ist nicht definiert und wird nicht unterstützt, we
 
 ## Beispiel {#section-daa371e9be5547368ff6772342acba0a}
 
-Den Hintergrundbereich eines Bildes färben; der BildVordergrund wird durch ein eigenes Maskenbild definiert. Dies wird erreicht, indem der farbige Bildhintergrund auf der Oberseite platziert wird, wenn das unveränderte Bild:
+Den Hintergrundbereich eines Bildes einfärben; der Bildvordergrund wird durch ein separates Maskenbild definiert. Dies wird erreicht, indem der farbige Bildhintergrund über das unveränderte Bild geschichtet wird:
 
 `http://server/myRootId/myImageId?layer=1&src=myImageId&mask=myImgMask&maskUse=invert&colorize=0x306090`
 

@@ -1,7 +1,7 @@
 ---
-description: Verschleierungsmodus von Anfragen . Gibt die Art der Verschleierung an, die auf gültige Anforderungen angewendet werden muss.
+description: Verschleierungsmodus für Anfragen Gibt die Art der Verschleierung an, die auf gültige Anfragen angewendet werden muss.
 solution: Experience Manager
-title: RequestObfuscation
+title: Verschleierung anfordern
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c330c8de-9539-442f-a52a-786f882873cf
@@ -12,14 +12,14 @@ ht-degree: 1%
 
 ---
 
-# RequestObfuscation{#requestobfuscation}
+# Verschleierung anfordern{#requestobfuscation}
 
-Verschleierungsmodus von Anfragen . Gibt die Art der Verschleierung an, die auf gültige Anforderungen angewendet werden muss.
+Verschleierungsmodus für Anfragen Gibt die Art der Verschleierung an, die auf gültige Anfragen angewendet werden muss.
 
 ## Eigenschaften {#section-0819432615324e259f24717e16835427}
 
-Enum. Legen Sie auf 0 fest, um die Anforderungsverschleierung zu deaktivieren, oder auf 1, um die Base64-Kodierung auszuwählen. Derzeit werden keine anderen Verschleierungsmethoden unterstützt.
+Aufzählung. Legen Sie ihn auf 0 fest, um die Anfrageverschleierung zu deaktivieren, oder auf 1, um die Base64-Codierung auszuwählen. Derzeit werden keine anderen Verschleierungsmethoden unterstützt.
 
 ## Standard {#section-e7f49493d9a940acb4f7938df7cac44d}
 
-Wird von `default::RequestObfuscation` übernommen, wenn nicht definiert oder leer.
+Von `default::RequestObfuscation` geerbt, wenn nicht definiert oder leer.

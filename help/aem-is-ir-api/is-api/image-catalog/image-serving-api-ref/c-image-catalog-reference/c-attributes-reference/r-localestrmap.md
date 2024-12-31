@@ -1,5 +1,5 @@
 ---
-description: Zeichenfolgenübersetzungskarte. Bezieht sich auf eine locId, die einer beliebigen Anzahl von internalLocId zugeordnet werden kann.
+description: Übersetzungszuordnung für Zeichenfolgen. Bezieht sich auf eine LocId, die einer beliebigen Anzahl von internalLocId zugeordnet werden kann.
 solution: Experience Manager
 title: LocaleStrMap
 feature: Dynamic Media Classic,SDK/API
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 # LocaleStrMap{#localestrmap}
 
-Zeichenfolgenübersetzungskarte. Bezieht sich auf eine locId, die einer beliebigen Anzahl von internalLocId zugeordnet werden kann.
+Übersetzungszuordnung für Zeichenfolgen. Bezieht sich auf eine LocId, die einer beliebigen Anzahl von internalLocId zugeordnet werden kann.
 
 `*`item`*&#42;['|' *`item`*]`
 
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item </span> </p> </td> 
+  <td class="stentry"> <p> </span> <span class="varname"> </p> </td> 
   <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> locale </span> </p> </td> 
-  <td class="stentry"> <p>Gebietsschema (nicht zwischen Groß- und Kleinschreibung unterscheiden). </p> </td> 
+  <td class="stentry"> <p> <span class="varname">-</span> </p> </td> 
+  <td class="stentry"> <p>Gebietsschema (nicht von Schreibweise abhängig). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> locId </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> locId-</span> </p> </td> 
   <td class="stentry"> <p>Interne Gebietsschema-ID. </p> </td> 
  </tr> 
 </table>
 
 `LocaleStrMap` bezieht sich auf eine `locId`, die einer beliebigen Anzahl von `internalLocId` zugeordnet werden kann.
 
-Ein leerer *`locale`* -Wert entspricht leeren und unbekannten `locale=` -Zeichenfolgen. Dadurch kann eine Standardregel für unbekannte Gebietsschemata definiert werden.
+Ein leerer *`locale`* entspricht leeren und unbekannten `locale=`. Dies ermöglicht die Definition einer Standardregel für unbekannte Gebietsschemata.
 
-Leere *`locId`* -Werte sind zulässig und wählen Sie den *`defaultString`* aus (der *`defaultString`* hat keine Gebietsschema-Kennung). *`locId`* -Werte werden in der angegebenen Reihenfolge durchsucht. Die erste Übereinstimmung wird zurückgegeben.
+Leere *`locId`* sind zulässig und wählen Sie die *`defaultString`* aus (der *`defaultString`* verfügt über keine Gebietsschema-Kennung). *`locId`* werden in der angegebenen Reihenfolge durchsucht. Die erste Übereinstimmung wird zurückgegeben.
 
 Wenn die Zeichenfolgenübersetzung aktiviert ist, wird sie auf Textzeichenfolgen in den folgenden Bildkatalogfeldern angewendet:
 
@@ -45,30 +45,30 @@ Wenn die Zeichenfolgenübersetzung aktiviert ist, wird sie auf Textzeichenfolgen
  <tbody> 
   <tr valign="top"> 
    <td> <b>Katalogfeld</b> </td> 
-   <td> <b>String-Element in Feld</b> </td> 
+   <td> <b>Zeichenfolgenelement im Feld</b> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::ImageSet </span> </p> </td> 
-   <td> <p>Jedes Unterelement, das eine übersetzbare Zeichenfolge enthält (getrennt durch eine beliebige Kombination der Trennzeichen ',' ';' ':' und/oder den Beginn/das Ende des Felds). </p> <p>Ein <span class="codeph"> 0xrggbb </span> -Farbwert am Anfang eines lokalisierbaren Felds wird aus der Lokalisierung ausgeschlossen und ohne Änderung weitergegeben. </p> </td> 
+   <td> <p> <span class="codeph">::ImageSet-</span> </p> </td> 
+   <td> <p>Beliebiges Unterelement, das eine übersetzbare Zeichenfolge enthält (durch eine beliebige Kombination von Trennzeichen ',' ';' ':' und/oder den Anfang/das Ende des Felds getrennt). </p> <p>Ein <span class="codeph"> 0xrggbb </span> Farbwert am Anfang eines lokalisierbaren Felds wird von der Lokalisierung ausgeschlossen und unverändert weitergeleitet. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::Map </span> </p> </td> 
-   <td> <p>Ein- oder zweifacher Attributwert, mit Ausnahme der Werte der Attribute <span class="codeph"> coords= </span> und <span class="codeph"> shape= </span>. </p> </td> 
+   <td> <p> <span class="codeph">::Map </span> </p> </td> 
+   <td> <p>Jeder Attributwert in einfachen oder doppelten Anführungszeichen, mit Ausnahme der Werte der Attribute <span class="codeph"> = </span> und <span class="codeph"> Shape= </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::Targets </span> </p> </td> 
-   <td> <p>Der Wert eines beliebigen <span class="filepath"> -Ziels.*.label </span> und <span class="filepath"> target.*.userdata </span> -Eigenschaft. </p> </td> 
+   <td> <p> <span class="codeph">::Targets-</span> </p> </td> 
+   <td> <p>Der Wert eines beliebigen <span class="filepath">.*.label </span> und <span class="filepath"> Target.*.UserData-</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
-   <td> <p>Der -Wert einer beliebigen Eigenschaft. </p> </td> 
+   <td> <p> <span class="codeph">::UserData-</span> </p> </td> 
+   <td> <p>Der Wert einer beliebigen Eigenschaft. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-8505a8525f6948ada3979f68c4081044}
 
-Ein oder mehrere Elemente, getrennt durch |, wobei jedes Element aus zwei oder mehr, kommagetrennten Zeichenfolgenwerten besteht.
+Ein oder mehrere Elemente, getrennt durch |, wobei jedes Element aus zwei oder mehr durch Kommas getrennten Zeichenfolgenwerten besteht.
 
 ## Verwandte Themen {#section-0c0516e4f83d42d38247308cab9b6708}
 

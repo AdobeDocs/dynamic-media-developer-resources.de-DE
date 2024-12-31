@@ -1,5 +1,5 @@
 ---
-description: Graustufen-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, und für bestimmte Graustufenfarbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+description: Graustufen-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Quellbilder verwendet werden soll, in die kein Farbprofil eingebettet ist, sowie für bestimmte Graustufen-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen festgelegt werden, z. B. color=.
 solution: Experience Manager
 title: IccProfileSrcGray
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # IccProfileSrcGray{#iccprofilesrcgray}
 
-Graustufen-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, und für bestimmte Graustufenfarbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+Graustufen-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Quellbilder verwendet werden soll, in die kein Farbprofil eingebettet ist, sowie für bestimmte Graustufen-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen festgelegt werden, z. B. color=.
 
 ## Eigenschaften {#section-8cbb316df6eb463aaca7b308d3568086}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
 
 ## Standard {#section-bcc7250715884412bd0780f60d1cce7b}
 
-Wird von `default::IccProfileSrcGray` übernommen, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcGray` nicht in ein gültiges Profil aufgelöst wird, wird stattdessen `attribute::IccProfileGray` verwendet.
+Von `default::IccProfileSrcGray` geerbt, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcGray` nicht zu einem gültigen Profil aufgelöst wird, wird stattdessen `attribute::IccProfileGray` verwendet.
 
 ## Verwandte Themen {#section-e429b76daf2e4b92b326db2b0bcbd0c5}
 

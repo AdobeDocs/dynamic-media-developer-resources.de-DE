@@ -1,7 +1,7 @@
 ---
-description: Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch über ein .ini-Dateisuffix verfügen. Sie können mit jedem Texteditor problemlos gepflegt werden.
+description: Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch eine Dateiendung .ini aufweisen. Sie können mit jedem Texteditor problemlos gepflegt werden.
 solution: Experience Manager
-title: Katalogattributdateien
+title: Katalog-Attributdateien
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Katalogattributdateien{#catalog-attribute-files}
+# Katalog-Attributdateien{#catalog-attribute-files}
 
-Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch über ein .ini-Dateisuffix verfügen. Sie können mit jedem Texteditor problemlos gepflegt werden.
+Katalogattributdateien können einen beliebigen Namen haben, müssen jedoch eine Dateiendung .ini aufweisen. Sie können mit jedem Texteditor problemlos gepflegt werden.
 
-Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt durch ein einzelnes `<CR>` (ASCII-Code `0xD`), ein einzelnes `<LF>` (ASCII-Code `0xA`) oder ein `<CR><LF>` Paar. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren kommagetrennten Attributwerten:
+Katalogattributdateien bestehen aus einer Reihe von Textdatensätzen, die durch eine einzelne `<CR>` (ASCII-Code-`0xD`), eine einzelne `<LF>` (ASCII-Code-`0xA`) oder ein `<CR><LF>` Paar getrennt sind. Jeder Datensatz besteht aus einem Attributnamen und einem oder mehreren durch Kommas getrennten Attributwerten:
 
 `*`name`*= *`values`*{<CR>|<LF>|<CR><LF }`
 
@@ -26,21 +26,21 @@ Katalogattributdateien bestehen aus einem Satz von Textdatensätzen, getrennt du
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> values</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
-  <td class="stentry"> <p>Attributname. Kann aus einem oder mehreren Buchstaben, einer Zahl, - und _ bestehen. Nicht zwischen Groß- und Kleinschreibung unterscheiden. </p></td> 
+  <td class="stentry"> <p><span class="varname"> Name</span> </p> </td> 
+  <td class="stentry"> <p>Attributname. Kann aus einem oder mehreren Buchstaben, Zahl, - und _ bestehen. Groß-/Kleinschreibung wird nicht berücksichtigt. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Attributwert. Darf keine <span class="codeph"> &lt;CR&gt;</span> - oder <span class="codeph"> &lt;LF&gt;</span> -Zeichen enthalten, es sei denn, dieser Schrägstrich wird durch einen einzelnen umgekehrten Schrägstrich direkt vor dem Zeilenumbruchzeichen maskiert. </p></td> 
+  <td class="stentry"> <p><span class="varname"> Val</span> </p></td> 
+  <td class="stentry"> <p>Attributwert. Darf keine <span class="codeph"> &lt;CR&gt;</span> oder <span class="codeph"> &lt;LF&gt;</span> Zeichen enthalten, es sei denn, sie werden durch einen einfachen umgekehrten Schrägstrich unmittelbar vor dem Zeilenumbruch maskiert. </p></td> 
  </tr> 
 </table>
 
-Leerzeichen zwischen Token sind optional.
+Leerraum zwischen Token ist optional.
 
-Datensätze mit unbekannten Attributnamen werden von der [!DNL Platform Server] ignoriert.
+Datensätze mit unbekannten Attributnamen werden vom [!DNL Platform Server] ignoriert.
 
-Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen sowie &quot;-&quot;, &quot;_&quot;und &quot;.&quot;bestehen.
+Attributnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen sowie aus &quot;-&quot;, „_“ und &quot;.“ bestehen.
 
-Wenn derselbe Attributname mehrmals in derselben Attributdatei vorkommt, hat der zuletzt aufgetretene Name Vorrang.
+Wenn derselbe Attributname mehrmals in derselben Attributdatei vorkommt, hat der zuletzt aufgetretene Vorrang.
 
-Verwenden Sie # als erstes Zeichen, um einen Datensatz als Kommentar zu markieren, was der Parser ignoriert.
+Verwenden Sie # als erstes Zeichen, um einen Datensatz als Kommentar zu markieren, den der Parser ignoriert.

@@ -1,7 +1,7 @@
 ---
-description: Image Serving generiert HTTP/1.1-Antwortheader.
+description: Image Serving generiert HTTP/1.1-Antwort-Header.
 solution: Experience Manager
-title: Reaktionsdaten
+title: Antwortdaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ae1c345-8d55-4efc-b47f-e9dbed905695
@@ -12,9 +12,9 @@ ht-degree: 9%
 
 ---
 
-# Reaktionsdaten{#response-data}
+# Antwortdaten{#response-data}
 
-Image Serving generiert HTTP/1.1-Antwortheader.
+Image Serving generiert HTTP/1.1-Antwort-Header.
 
 * [Bilder](c-images.md)
 * [Eigenschaften](c-properties/c-properties.md)

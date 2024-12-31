@@ -1,5 +1,5 @@
 ---
-description: Kundennachricht. Bietet einen Mechanismus für Clients, um kurze Textnachrichten in das Serverprotokoll einzufügen.
+description: Client-Nachricht. Stellt einen Mechanismus bereit, mit dem Clients kurze Textnachrichten in das Serverprotokoll einfügen können.
 solution: Experience Manager
 title: message
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # message{#message}
 
-Kundennachricht. Bietet einen Mechanismus für Clients, um kurze Textnachrichten in das Serverprotokoll einzufügen.
+Client-Nachricht. Stellt einen Mechanismus bereit, mit dem Clients kurze Textnachrichten in das Serverprotokoll einfügen können.
 
-`req=message&message= *`string`*`
+`req=message&message= *`Zeichenfolge`*`
 
 <table id="simpletable_9AF29AA336C4447BBC2FD4A7D43ED91B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> string</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> Zeichenfolge</span> </p> </td> 
   <td class="stentry"> <p>Nachrichtenzeichenfolge. </p></td> 
  </tr> 
 </table>

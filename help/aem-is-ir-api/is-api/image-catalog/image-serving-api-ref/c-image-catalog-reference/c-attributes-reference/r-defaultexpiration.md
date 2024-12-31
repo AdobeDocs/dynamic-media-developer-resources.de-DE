@@ -1,5 +1,5 @@
 ---
-description: Client-Cache-TTL für standardmäßige Bildantworten. Stellt das Ablaufintervall für Standard-Bildantworten bereit (Antworten, die ein Standardbild zurückgeben, das mit defaultImage= oder dem Attribut DefaultImage angegeben ist).
+description: Client-Cache-TTL für standardmäßige Bildantworten. Stellt das Ablaufintervall für Standardbildantworten bereit (Antworten, die ein Standardbild zurückgeben, das entweder mit defaultImage= oder mit defaultImage= festgelegt wurde).
 solution: Experience Manager
 title: DefaultExpiration
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # DefaultExpiration{#defaultexpiration}
 
-Client-Cache-TTL für standardmäßige Bildantworten. Stellt das Ablaufintervall für Standard-Bildantworten bereit (Antworten, die ein Standardbild zurückgeben, das mit defaultImage= oder attribute::DefaultImage angegeben ist).
+Client-Cache-TTL für standardmäßige Bildantworten. Stellt das Ablaufintervall für standardmäßige Bildantworten bereit (Antworten, die ein Standardbild zurückgeben, das entweder mit defaultImage= oder attribute::DefaultImage angegeben ist).
 
-Wird nur angewendet, wenn das Standardbild keinem Katalogdatensatz zugeordnet ist oder wenn der Standardbildkatalogdatensatz keinen bestimmten `catalog::Expiration` -Wert bereitstellt.
+Wird nur angewendet, wenn das Standardbild nicht mit einem Katalogdatensatz verknüpft ist oder wenn der Standardbildkatalogdatensatz keinen bestimmten `catalog::Expiration` bereitstellt.
 
 ## Eigenschaften {#section-e564512476604fd7b964f9f2903d6d33}
 
-Real number, 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung der Antwortdaten. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching für standardmäßige Bildantworten effektiv deaktiviert wird. Auf `-1` setzen, um als `never expire` zu markieren.
+Reelle Zahl, 0 oder höher. Anzahl der Stunden bis zum Ablauf der Gültigkeit seit Generierung der Antwortdaten. Auf 0 gesetzt, um das Antwortbild immer sofort ablaufen zu lassen, wodurch die Client-Zwischenspeicherung für standardmäßige Bildantworten effektiv deaktiviert wird. Legen Sie die Einstellung auf `-1` fest, um als `never expire` zu markieren.
 
 ## Standard {#section-131cd32c2e214391857dba5af321f8cd}
 
-Wird von `default::DefaultExpiration` übernommen, wenn nicht definiert oder leer.
+Von `default::DefaultExpiration` geerbt, wenn nicht definiert oder leer.
 
-TTL (Time-To-Live) ist die Dauer, bevor der Cache abläuft. Die standardmäßige TTL beträgt 1 Stunde.
+TTL (Time-To-Live) ist die Dauer vor Ablauf des Cache. Die Standard-TTL ist 1 Stunde.
 
 ## Verwandte Themen {#section-d8642c22e3d947129367dd76366963d6}
 

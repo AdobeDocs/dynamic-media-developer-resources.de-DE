@@ -1,6 +1,6 @@
 ---
-title: coord
-description: Pixelkoordinaten. Wird verwendet, um Bildkoordinaten in Form eines Pixelversatzes relativ zur linken oberen Ecke eines Bildes oder Ebenenrechtecks anzugeben. Diese Koordinaten werden häufig in Bildabweichungen oder Zuschnittparametern verwendet.
+title: Koord
+description: Pixel-Koordinaten. Wird verwendet, um Bildkoordinaten in Form eines Pixel-Offsets relativ zur linken oberen Ecke eines Bild- oder Ebenenrechtecks anzugeben. Diese Koordinaten werden häufig in Bild-Offsets oder Zuschnittparametern verwendet.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# coord{#coord}
+# Koord{#coord}
 
-Pixelkoordinaten. Wird verwendet, um Bildkoordinaten in Form eines Pixelversatzes relativ zur linken oberen Ecke eines Bildes oder Ebenenrechtecks anzugeben. Diese Koordinaten werden häufig in Bildabweichungen oder Zuschnittparametern verwendet.
+Pixel-Koordinaten. Wird verwendet, um Bildkoordinaten in Form eines Pixel-Offsets relativ zur linken oberen Ecke eines Bild- oder Ebenenrechtecks anzugeben. Diese Koordinaten werden häufig in Bild-Offsets oder Zuschnittparametern verwendet.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Coord</span> </span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> Werte in Pixel (int) </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span>-Werte in Pixel (int) </p></td> 
  </tr> 
 </table>
 
-Die Koordinate `0,0` bezieht sich auf die obere linke Ecke des Bildes oder Rechtecks. Die Erhöhung der Werte bewegt sich nach unten rechts.
+Die `0,0` bezieht sich auf die obere linke Ecke des Bildes oder Rechtecks. Die Erhöhung der Werte bewegt sich nach unten rechts.

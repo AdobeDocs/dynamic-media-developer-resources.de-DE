@@ -1,5 +1,5 @@
 ---
-description: Medienset-Informationen.
+description: Informationen zu Mediensets.
 solution: Experience Manager
 title: setzen
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # setzen{#set}
 
-Medienset-Informationen.
+Informationen zu Mediensets.
 
-req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]]
+req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 
 <table id="simpletable_02C955F4EBAD4251A728F0FC68F432B5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> encoding</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> Kodierung</span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> UTF-8 | UTF-16 | UTF-16LE | UTF-16BE | ISO-8859-1</span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -29,16 +29,16 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]]
  </tr> 
 </table>
 
-Gibt Informationen zu Bildern, Videos, Farbfeldern und verschiedenen Metadaten zurück, die mit catalog:ImageSet für den im URL-Pfad angegebenen Bildkatalogeintrag verknüpft sind. Diese Antwort ist eine hierarchische Struktur, die durch den Typ des bereitgestellten Sets bestimmt wird. Wenn das Format &quot;xml&quot;oder &quot;json&quot;angefordert wird, wird eine entsprechende Formatierung angewendet.
+Gibt Informationen zu Bildern, Videos, Farbfeldern und verschiedenen Metadaten zurück, die mit „catalog:ImageSet“ für den im URL-Pfad angegebenen Bildkatalogeintrag verknüpft sind. Diese Antwort ist eine hierarchische Struktur, die durch den Typ des bereitgestellten Satzes bestimmt wird. Wenn das Format „xml“ oder „json“ angefordert wird, wird eine entsprechende Formatierung angewendet.
 
-Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::NonImgExpiration` basiert.
+Die HTTP-Antwort kann basierend auf `catalog::NonImgExpiration` mit der TTL zwischengespeichert werden.
 
 >[!NOTE]
 >
->Das Doppelpunkt-Zeichen ist in req=set -Anforderungen nicht zulässig.
+>Der Doppelpunkt ist in req=set-Anforderungen nicht zulässig.
 
-Bei Anforderungen, die das JSON-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
+Bei Anfragen, die das JSON-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mithilfe der erweiterten Syntax `req=` Parameters angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des in der JSONP-Antwort vorhandenen JS-Handlers. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Nur a-z, A-Z und 0-9 Zeichen sind zulässig. Optional. Der Standardwert ist `s7jsonResponse`.

@@ -1,6 +1,6 @@
 ---
 title: JSONP-Eigenschaften
-description: Wenn jsonp als Antwortformat angegeben ist, werden die Antwortdaten mit JSONP (JavaScript Object Notation with Padding) formatiert und in einen JavaScript-Funktionsaufruf eingeschlossen.
+description: Wenn jsonp als Antwortformat angegeben ist, werden die Antwortdaten mithilfe von JSONP (JavaScript Object Notation with Padding) formatiert, die in einen JavaScript-Funktionsaufruf eingeschlossen sind.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # JSONP-Eigenschaften{#jsonp-properties}
 
-Wenn jsonp als Antwortformat angegeben ist, werden die Antwortdaten mit JSONP (JavaScript Object Notation with Padding) formatiert und in einen JavaScript-Funktionsaufruf eingeschlossen.
+Wenn jsonp als Antwortformat angegeben ist, werden die Antwortdaten mithilfe von JSONP (JavaScript Object Notation with Padding) formatiert, die in einen JavaScript-Funktionsaufruf eingeschlossen sind.
 
-Der Client kann eine optionale eindeutige Anforderungskennung ( *`reqId`*) angeben, die in der Antwort zurückgegeben wird und es dem Client ermöglicht, mehrere asynchron empfangene Antworten zu unterscheiden. Eine typische Antwort weist die folgende allgemeine Struktur auf:
+Der Client kann eine optionale eindeutige Anforderungskennung (*`reqId`*) angeben, die in der Antwort zurückgegeben wird und es dem Client ermöglicht, mehrere asynchron empfangene Antworten zu unterscheiden. Eine typische Antwort weist die folgende allgemeine Struktur auf:
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -37,7 +37,7 @@ Der Client kann eine optionale eindeutige Anforderungskennung ( *`reqId`*) angeb
 </varname>" );
 ```
 
-Die Funktion `s7jsonResponse` JavaScript muss vom Client definiert werden. In der einfachsten Form könnte die Funktion wie folgt aussehen:
+Die `s7jsonResponse` JavaScript-Funktion muss vom Client definiert werden. In ihrer einfachsten Form könnte die Funktion wie folgt aussehen:
 
 ```
 var responseData; 
@@ -47,16 +47,16 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
+Bei Anfragen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mithilfe der erweiterten Syntax `req=` Parameters angeben:
 
 `req=...,json [&handler = reqHandler]`
 
-Die Syntax `<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
+Die `<reqHandler>` Syntax ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Nur a-z, A-Z und 0-9 Zeichen sind zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
 
-Das Dynamic Media Image Serving Viewers-Paket enthält ein Dienstprogramm zum Anfordern und Analysieren von JSONP-formatierten Daten aus Image Serving.
+Das Paket Dynamic Media Image Serving Viewers enthält ein Dienstprogramm zum Anfordern und Analysieren von JSONP-formatierten Daten von Image Serving.
 
-Weitere Informationen zum JSONP-Format finden Sie unter [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) .
+Weitere Informationen zum JSONP-](https://en.wikipedia.org/wiki/JSONP) finden Sie unter [https://en.wikipedia.org/wiki/JSONP.
 
-Weitere Informationen zum JSON-Format finden Sie unter [www.json.org](https://www.json.org/json-en.html) .
+Weitere Informationen zum JSON-](https://www.json.org/json-en.html) finden Sie unter [www.json.org.
 
 Siehe auch [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

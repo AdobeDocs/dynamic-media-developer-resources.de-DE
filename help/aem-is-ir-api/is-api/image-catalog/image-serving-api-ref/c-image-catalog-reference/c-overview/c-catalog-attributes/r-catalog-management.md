@@ -43,7 +43,7 @@ Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> RuleSetFile</a> </span> </p></td> 
-  <td class="stentry"> <p>Name der zugehörigen Datei, die URL-Vorverarbeitungsregeln definiert. </p></td> 
+  <td class="stentry"> <p>Name der zugehörigen Datei, die URL-Präprozessorregeln definiert </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546" type="reference" format="dita" scope="local"> RootId</a> </span> </p></td> 
@@ -51,38 +51,38 @@ Katalogattributdateien erkennen diese Katalogverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local"> RootPath</a> </span> </p></td> 
-  <td class="stentry"> <p>Stammpfad für nicht statische Quelldatendateien (Bilder, Profile, Schriftarten). </p></td> 
+  <td class="stentry"> <p>Stammverzeichnis der nicht statischen Quelldatendateien (Bilder, Profile, Schriftarten). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5" type="reference" format="dita" scope="local"> StaticContentRootPath</a> </span> </p></td> 
-  <td class="stentry"> <p>Stammpfad für statische Inhaltsquellendatendateien. </p></td> 
+  <td class="stentry"> <p>Stammpfad für statische Inhaltsquellendatendateien </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> SavePath</a> </span> </p></td> 
-  <td class="stentry"> <p>Stammpfad für Bilder, die in eine Datei auf dem Server geschrieben wurden. </p></td> 
+  <td class="stentry"> <p>Stammverzeichnis der Bilder, die in eine Datei auf dem Server geschrieben werden </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch</a> </span> </p></td> 
-  <td class="stentry"> <p>Option für die Katalogzuordnung. </p></td> 
+  <td class="stentry"> <p>Option zum Katalog-Abgleich. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68" type="reference" format="dita" scope="local"> DigimarcId</a> </span> </p></td> 
-  <td class="stentry"> <p>Digimarc-Benutzerinformationen. </p></td> 
+  <td class="stentry"> <p>In: Digimarc User Info. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-publishinfo.md#reference-3d772f2c98274a37ae7e35706e2db62d" type="reference" format="dita" scope="local"> PublishInfo</a> </span> </p></td> 
-  <td class="stentry"> <p>Kataloganmerkungszeichenfolge. </p></td> 
+  <td class="stentry"> <p>Zeichenfolge der Kataloganmerkung. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57" type="reference" format="dita" scope="local"> CacheValidationPolicy</a> </span> </p></td> 
-  <td class="stentry"> <p>Validierungsrichtlinie für Server-Cache. </p></td> 
+  <td class="stentry"> <p>Validierungsrichtlinie für den Server-Cache. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8" type="reference" format="dita" scope="local"> UseLastModified</a> </span> </p></td> 
-  <td class="stentry"> <p>Zuletzt geänderte HTTP-Antwortheader aktivieren. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8" type="reference" format="dita" scope="local"> useLastModified</a> </span> </p></td> 
+  <td class="stentry"> <p>Zuletzt geänderte HTTP-Antwortkopfzeilen aktivieren. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles</a> </span> </p></td> 
-  <td class="stentry"> <p>Aktivieren Sie synthetische fett/kursiv formatierte Stile. </p></td> 
+  <td class="stentry"> <p>Synthetische Fett-/Kursivformatierung aktivieren. </p></td> 
  </tr> 
 </table>

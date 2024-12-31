@@ -1,6 +1,6 @@
 ---
-title: op_usm
-description: Unschärfemaske. Unschärfe maskiert die Ebene oder das endgültige Ansichtsbild nach der Skalierung, wenn layer=comp.
+title: op_sum
+description: Unschärfemaske. Unschärfemasken maskieren die Ebene oder das endgültige Ansichtsbild, nach allen Skalierungen, wenn Layer=Comp.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,42 +12,42 @@ ht-degree: 1%
 
 ---
 
-# op_usm{#op-usm}
+# op_sum{#op-usm}
 
-Unschärfemaske. Unschärfe maskiert die Ebene oder das endgültige Ansichtsbild nach der Skalierung, wenn layer=comp.
+Unschärfemaske. Unschärfemasken maskieren die Ebene oder das endgültige Ansichtsbild, nach allen Skalierungen, wenn Layer=Comp.
 
-Es wird angenommen, dass die Parameter auf das Bild mit voller Auflösung angewendet und bei der Verarbeitung eines heruntergesampelten Bildes herabskaliert werden.
+Es wird davon ausgegangen, dass die Parameter für das Bild mit voller Auflösung gelten und bei der Verarbeitung eines heruntergesampelten Bildes herunterskaliert werden.
 
 `op_usm= *`amount`*[, *`radius`*[, *`threshold`*[, *`monochrome`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> amount</span></span> </p></td> 
-  <td class="stentry"> <p>Filterstärke (real 0...5). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> Betrag</span></span> </p></td> 
+  <td class="stentry"> <p>Filterstärkefaktor (real 0…5). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p></td> 
-  <td class="stentry"> <p>Filtern Sie den Kernel-Radius in Pixel (real 0...250). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> Radius</span></span> </p></td> 
+  <td class="stentry"> <p>Filterkernradius in Pixeln (real 0…250). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> threshold</span></span> </p></td> 
-  <td class="stentry"> <p>Filterschwellenwert (int 0...255). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> Schwellenwert</span></span> </p></td> 
+  <td class="stentry"> <p>Filterschwellenwert (int 0…255). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> monochrome</span></span> </p></td> 
-  <td class="stentry"> <p>Legen Sie den Wert auf 0 fest, um auf jede Farbkomponente separat anzuwenden, oder auf 1, um nur auf die Bildhelligkeit (Intensität) anzuwenden. </p> <p> <span class="codeph"><span class="varname"> monochrome</span></span> wird bei Graustufenbildern ignoriert. </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> monochrom</span></span> </p></td> 
+  <td class="stentry"> <p>Legen Sie hierfür 0 fest, um sie auf jede Farbkomponente separat anzuwenden, oder 1, um sie nur auf die Bildhelligkeit (Intensität) anzuwenden. </p> <p> <span class="codeph"><span class="varname"> monochrome</span></span> wird für Graustufenbilder ignoriert. </p></td> 
  </tr> 
 </table>
 
-Die Ebenenmaske oder die zusammengesetzte Maske wird ebenfalls scharfgezeichnet.
+Die Ebenenmaske bzw. Verbundmaske wird ebenfalls geschärft.
 
 ## Eigenschaften {#section-fb5311b34d164946b74dadb32359518a}
 
-Ebenenattribut oder Ansichtsattribut. Gilt für die aktuelle Ebene oder für das endgültige Ansichtsbild, wenn `layer=comp`. Wird von Effektebenen ignoriert.
+Ebenenattribut oder Ansichtsattribut. Gilt für die aktuelle Ebene oder, falls `layer=comp`, für das endgültige Ansichtsbild. Von Effektebenen ignoriert.
 
 ## Standard {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usm=0,0,0,0` für keinen unscharfen Maskierungseffekt.
+`op_usm=0,0,0,0` für keinen Unschärfemaskeffekt.
 
 ## Verwandte Themen {#section-63f186b8a1b34ec4bb895230838502a4}
 

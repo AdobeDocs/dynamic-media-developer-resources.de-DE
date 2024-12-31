@@ -1,7 +1,7 @@
 ---
-description: Pfad der Profildatei. Pfad und Name der ICC-Farbprofildatei, einschließlich Dateisuffix.
+description: Pfad der Profildatei. Pfad und Name der ICC-Farbprofildatei einschließlich Dateiendung.
 solution: Experience Manager
-title: ProfilPath
+title: ProfilePath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a7acf07c-3d46-4912-8926-38ca184b6475
@@ -12,13 +12,13 @@ ht-degree: 7%
 
 ---
 
-# ProfilPath{#profilepath}
+# ProfilePath{#profilepath}
 
-Pfad der Profildatei. Pfad und Name der ICC-Farbprofildatei, einschließlich Dateisuffix.
+Pfad der Profildatei. Pfad und Name der ICC-Farbprofildatei einschließlich Dateiendung.
 
 ## Eigenschaften {#section-d342866853f24e168ba44215ef594e29}
 
-Textzeichenfolge. Erforderlich. Muss ein gültiger Image Server-Dateipfad sein, entweder absolut oder relativ zu `attribute::RootPath`.
+Text-String Erforderlich. Muss ein gültiger Bildserver-Dateipfad sein, entweder absolut oder relativ zu `attribute::RootPath`.
 
 ## Standard {#section-838c08a4443648ffb2f5b9255fafa8dc}
 

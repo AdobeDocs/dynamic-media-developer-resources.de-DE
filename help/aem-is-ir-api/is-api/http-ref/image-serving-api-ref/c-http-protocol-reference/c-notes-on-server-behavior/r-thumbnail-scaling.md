@@ -1,6 +1,6 @@
 ---
-title: Skalierung von Miniaturansichten
-description: Schritt 2 der Bildschicht ändert sich für Miniaturansichten wie folgt (d. h. wenn req=tmb ist).
+title: Miniaturansichten skalieren
+description: Schritt 2 der Bildebenen-Transformationen wird für Miniaturen wie folgt geändert (d. h. wenn req=tmb ist).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Skalierung von Miniaturansichten{#thumbnail-scaling}
+# Miniaturansichten skalieren{#thumbnail-scaling}
 
-Schritt 2 der Bildschicht ändert sich für Miniaturansichten wie folgt (d. h. wenn req=tmb ist).
+Schritt 2 der Bildebenen-Transformationen wird für Miniaturen wie folgt geändert (d. h. wenn req=tmb ist).
 
-* `2.` Wenn `size=` angegeben ist, passen Sie das (zugeschnittene) Bild mithilfe von Miniaturregeln in den `size=` -rect an. Wenn `size=` nicht angegeben ist, skalieren Sie basierend auf `res=` oder, wenn `res=` nicht angegeben ist, passen Sie das (zugeschnittene) Bild mithilfe der unten beschriebenen Miniaturregeln in den Arbeitsflächenrect an.
+* `2.` Wenn `size=` angegeben ist, passen Sie das (zugeschnittene) Bild mithilfe von Miniaturansichtsregeln in das `size=` an. Wenn `size=` nicht angegeben ist, skalieren Sie anhand der `res=` oder fügen Sie, falls `res=` nicht angegeben ist, das (zugeschnittene) Bild mithilfe der unten beschriebenen Miniaturansichtsregeln in das Arbeitsflächen-React ein.

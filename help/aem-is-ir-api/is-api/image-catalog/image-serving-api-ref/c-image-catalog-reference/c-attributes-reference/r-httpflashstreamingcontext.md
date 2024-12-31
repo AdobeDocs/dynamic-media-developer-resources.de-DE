@@ -1,6 +1,6 @@
 ---
-title: HTTPFlashStreamingContext
-description: Flash Streaming Server URL-Präfix. Flash Streaming Server URL-Präfix, das beim Generieren von Multi-Bit-Rate von f4m-Antworten mit req=mbrSet verwendet wird.
+title: HttpFlashStreamingContext
+description: Flash-Streaming-Server-URL-Präfix. Flash-Streaming-Server-URL-Präfix, das beim Generieren von F4M-Antworten mit Multibitrate mit req=mbrSet verwendet wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 7%
 
 ---
 
-# HTTPFlashStreamingContext{#httpflashstreamingcontext}
+# HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Flash Streaming Server URL-Präfix. Flash Streaming Server URL-Präfix, das beim Generieren von Multi-Bit-Rate von f4m-Antworten mit req=mbrSet verwendet wird.
+Flash-Streaming-Server-URL-Präfix. Flash-Streaming-Server-URL-Präfix, das beim Generieren von F4M-Antworten mit Multibitrate mit req=mbrSet verwendet wird.
 
 ## Eigenschaften {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

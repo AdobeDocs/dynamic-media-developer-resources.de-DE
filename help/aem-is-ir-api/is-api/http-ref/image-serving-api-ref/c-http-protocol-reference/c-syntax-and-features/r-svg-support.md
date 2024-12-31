@@ -1,5 +1,5 @@
 ---
-description: Image Serving unterstützt skalierbare Vector Graphics (SVG)-Dateien als Quelldaten. Die Konformität mit SVG 1.1 ist erforderlich.
+description: Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Konformität mit SVG 1.1 ist erforderlich.
 solution: Experience Manager
 title: SVG-Unterstützung
 feature: Dynamic Media Classic,SDK/API
@@ -14,47 +14,47 @@ ht-degree: 0%
 
 # SVG-Unterstützung{#svg-support}
 
-Image Serving unterstützt skalierbare Vector Graphics (SVG)-Dateien als Quelldaten. Die Konformität mit SVG 1.1 ist erforderlich.
+Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Konformität mit SVG 1.1 ist erforderlich.
 
-Image Serving erkennt nur statische SVG-Inhalte. Animationen, Skripten und andere interaktive Inhalte werden nicht unterstützt.
+Die Bildbereitstellung erkennt nur statische SVG-Inhalte. Animationen, Skripterstellung und andere interaktive Inhalte werden nicht unterstützt.
 
-SVG kann überall dort angegeben werden, wo Bilddateien zulässig sind (URL-Pfad, `src=` und `mask=`). Nachdem der Inhalt der SVG-Datei gerastert wurde, wird er wie ein Bild behandelt.
+SVG kann überall dort angegeben werden, wo Bilddateien zulässig sind (URL-Pfad, `src=` und `mask=`). Nachdem der Inhalt der SVG-Datei gerastert wurde, wird er wie ein Bild gehandhabt.
 
-Ähnlich wie bei Bildern können SVG-Dateien als Bildkatalogeinträge oder als relative Dateipfade angegeben werden.
+SVG-Dateien können ähnlich wie Bilder als Bildkatalogeinträge oder als relative Dateipfade angegeben werden.
 
-## Ersatzvariablen {#section-83b149f13f244193901df39b204c975b}
+## Substitutionsvariablen {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` Ersatzvariablen können in der SVG-Datei in den Wertesaitenelementen `<text>` und in jedem Elementattribut enthalten sein.
+` $ *[!DNL var]*$` Ersatzvariablen können in der SVG-Datei in den Wert-Zeichenfolgen `<text>` -Elementen und beliebigen Elementattributen enthalten sein.
 
-Wichtige Variablen im Abfrageteil eingebetteter Image-Serving-Anforderungen werden nicht direkt ersetzt. Stattdessen werden alle verfügbaren Variablendefinitionen an die Anfrage angehängt, wodurch das Image Serving Variablen beim Analysieren der Anforderung ersetzen kann.
+Wichtige Variablen im Abfrageteil von eingebetteten Bildbereitstellungsanfragen werden nicht direkt ersetzt. Stattdessen werden alle verfügbaren Variablendefinitionen an die Anfrage angehängt, sodass Image Serving beim Analysieren der Anfrage Variablen ersetzen kann.
 
-Weitere Informationen finden Sie unter [Ersatzvariablen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) .
+Siehe [Substitutionsvariablen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) für weitere Informationen.
 
-## Bildverweise {#section-a7680f9e6aca4b1a83560637cc9fac66}
+## Bildreferenzen {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-Bilder können mit dem Element `<image>` in SVG eingefügt werden. Bilder, die durch das Attribut `xlink::href` des Elements `<image>` referenziert werden, müssen gültige Bildbereitstellungsanfragen sein. Ausländische URLs sind nicht zulässig.
+Bilder können mithilfe des `<image>` in SVG eingefügt werden. Bilder, auf die vom `xlink::href`-Attribut des `<image>`-Elements verwiesen wird, müssen gültige Bildbereitstellungsanfragen sein. Fremde URLs sind nicht zulässig.
 
-Geben Sie entweder eine vollständige Image-Serving-Anfrage (beginnend mit `http://`) oder eine relative URL (beginnend mit `/is/image`) an. Wenn ein vollständiger HTTP-Pfad angegeben ist, wird der Domänenname aus dem Pfad entfernt, um in das relative Format zu konvertieren. Die Verwendung eines vollständigen HTTP-Pfads kann von Vorteil sein, da es die Vorschau der Datei mit einem SVG-Renderer eines Drittanbieters ermöglicht.
-
->[!NOTE]
->
->Die Unterstützung für das Rendern von Bildern in dieser Version von Image Serving ist eingeschränkt. Verweise auf Bilder aus SVG sollten nur in Fällen verwendet werden, in denen die herkömmlichen Bildbereitstellungs-Ebenen und Vorlagenmechanismen nicht ausreichen, um das gewünschte Ergebnis zu erzielen. Unter keinen Umständen sollte SVG zum Generieren von Mehrbild-Composites verwendet werden.
+Geben Sie entweder eine vollständige Image-Serving-Anfrage ab `http://` oder eine relative URL ab `/is/image` an. Wenn ein vollständiger HTTP-Pfad angegeben ist, wird der Domain-Name aus dem Pfad entfernt, um in das relative Format zu konvertieren. Die Verwendung eines vollständigen HTTP-Pfads kann von Vorteil sein, da er die Vorschau der Datei mit einem SVG-Renderer eines Drittanbieters ermöglicht.
 
 >[!NOTE]
 >
->Die Größe von in SVG eingebetteten Bildern wird derzeit nicht automatisch geändert. Stellen Sie sicher, dass alle href die erforderlichen Image Serving-Befehle enthalten, um die gewünschte Bildgröße festzulegen (z. B. `wid=`). Wenn die Bildgröße nicht explizit festgelegt ist, wird `attribute::DefaultPix` angewendet.
+>Die Unterstützung für das Rendern von Bildern in dieser Version von Image Serving ist begrenzt. Referenzieren von Bildern aus dem SVG-Bereich sollte nur in Situationen verwendet werden, in denen die herkömmlichen Image-Serving-Ebenen und -Vorlagenmechanismen nicht ausreichend sind, um das gewünschte Ergebnis zu erzielen. Unter keinen Umständen sollte SVG zur Erzeugung von Mehrbild-Composites verwendet werden.
+
+>[!NOTE]
+>
+>Die Größe von in SVG eingebetteten Bildern wird derzeit nicht automatisch geändert. Stellen Sie sicher, dass alle Bildbereitstellungsbefehle die erforderlichen Image-Serving-Befehle enthalten, um die gewünschte Bildgröße festzulegen (z. B. `wid=`). Wenn die Bildgröße nicht explizit festgelegt ist, wird `attribute::DefaultPix` angewendet.
 
 ## Farbmanagement {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Es wird angenommen, dass alle Farbwerte, die in SVG-Dateien eingebettet und über Ersatzvariablen an SVG-Vorlagen übergeben werden, im Farbraum `sRgb` vorhanden sind.
+Alle in SVG-Dateien eingebetteten und über Substitutionsvariablen an SVG-Vorlagen übergebenen Farbwerte werden als im `sRgb` Farbraum vorhanden angenommen.
 
-Wenn Bilder in die SVG eingebettet werden, erfolgt keine Farbkonvertierung. Um die Farbtreue sicherzustellen, geben Sie für alle eingebetteten Bildanforderungen &quot;`icc=sRgb`&quot;an.
+Beim Einbetten von Bildern in die SVG wird keine Farbkonvertierung durchgeführt. Um die Farbtreue sicherzustellen, müssen Sie `icc=sRgb` für alle eingebetteten Bildanforderungen angeben.
 
-Nach der Rasterung nimmt das SVG-Bild wie jedes andere Bild am Farbmanagement teil.
+Nach der Rasterung ist das SVG-Bild wie jedes andere Bild am Farbmanagement beteiligt.
 
 ## Beispiel {#section-036cdd45abd449849ee00a8f21788c28}
 
-Die folgende SVG-Vorlage zeigt die Bildreferenzen und die Verwendung von Variablen.
+Die folgende SVG-Vorlage veranschaulicht Bildreferenzen und die Verwendung von Variablen.
 
 `<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> <svg width="500" height="500"> <image x="50" y="50" width="400" height="400" xlink:href="/is/image?src=$img$&wid=300&hei=400"/> <text x="150" y="400" style="font-size:$pts$; fill:$color$"> Title: $txt$ </text> </svg>`
 
@@ -64,14 +64,14 @@ Diese SVG-Vorlage kann wie folgt verwendet werden:
 
 ## Einschränkungen {#section-daa5eccd07204aaf993be41e87822d54}
 
-SVG-Dateien müssen eigenständig sein und dürfen keine sekundären Dateien oder Ressourcen referenzieren, mit Ausnahme externer Bilder, die mit Image Serving- oder Image Rendering-Anforderungen referenziert werden (siehe oben).
+SVG-Dateien müssen eigenständig sein und dürfen nicht auf sekundäre Dateien oder Ressourcen verweisen, mit Ausnahme von externen Bildern, auf die mit Image-Serving- oder Image-Rendering-Anfragen verwiesen wird (siehe oben).
 
-Nur statische Inhalte werden gerendert. Animation, interaktive Funktionen wie Schaltflächen usw. vorhanden sein, möglicherweise aber nicht wie erwartet gerendert werden.
+Es werden nur statische Inhalte gerendert. Animation, interaktive Funktionen wie Schaltflächen usw. Kann vorhanden sein, kann aber nicht wie erwartet gerendert werden.
 
 ICC-profilbasierte Farbspezifikationen werden derzeit nicht unterstützt.
 
-`<script>` -Elemente sind zwar vorhanden, werden jedoch immer ignoriert.
+`<script>` Elemente können vorhanden sein, werden jedoch immer ignoriert.
 
 ## Verwandte Themen {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 Specification](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 Spezifikation](https://www.w3.org/TR/SVG11/)

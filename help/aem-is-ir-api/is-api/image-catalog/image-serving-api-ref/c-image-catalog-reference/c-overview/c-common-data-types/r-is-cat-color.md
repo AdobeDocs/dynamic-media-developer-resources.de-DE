@@ -16,4 +16,4 @@ ht-degree: 7%
 
 Farbdatentyp.
 
-Farbwert. Hexadezimaler, gepackter RGB-Wert, optional mit vorangestelltem `0x`. Der RGB-Wert `128,255,0` kann beispielsweise als `0x80ff00` oder `80ff00` angegeben werden.
+Farbwert. Hexadezimaler gepackter RGB-Wert, optional mit vorangestelltem `0x`. Beispielsweise kann der RGB-Wert `128,255,0` als `0x80ff00` oder `80ff00` angegeben werden.

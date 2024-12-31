@@ -1,7 +1,7 @@
 ---
 description: Datentyp Ganzzahl.
 solution: Experience Manager
-title: Ganzzahl
+title: Ganze Zahl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5a4e0acc-bbc5-4cbe-9210-391ea957965e
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Ganzzahl{#integer-number}
+# Ganze Zahl{#integer-number}
 
 Datentyp Ganzzahl.
 
-Signierter Ganzzahlwert (z. B. 0, -12, 34). 0 oder negative Werte können eine besondere Bedeutung haben.
+Ganzzahliger Wert mit Vorzeichen (z. B. 0, -12, 34). 0 oder negative Werte können eine besondere Bedeutung haben.

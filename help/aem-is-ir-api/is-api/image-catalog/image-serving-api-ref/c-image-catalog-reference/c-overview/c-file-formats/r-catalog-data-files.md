@@ -1,5 +1,5 @@
 ---
-description: Katalogdatendateien können einen beliebigen Namen und ein beliebiges Dateisuffix aufweisen (mit Ausnahme von .ini). Sie können einfach mit Anwendungen verwaltet werden, die tabulatorgetrennte Textdatendateien unterstützen, wie z. B. Microsoft Excel und Access.
+description: Katalogdatendateien können einen beliebigen Namen und ein beliebiges Dateisuffix aufweisen (außer .ini). Sie können problemlos mithilfe von Anwendungen gepflegt werden, die tabulatorgetrennte Textdatendateien wie Microsoft Excel und Access unterstützen.
 solution: Experience Manager
 title: Katalogdatendateien
 feature: Dynamic Media Classic,SDK/API
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Katalogdatendateien{#catalog-data-files}
 
-Katalogdatendateien können einen beliebigen Namen und ein beliebiges Dateisuffix aufweisen (mit Ausnahme von .ini). Sie können einfach mit Anwendungen verwaltet werden, die tabulatorgetrennte Textdatendateien unterstützen, wie z. B. Microsoft Excel und Access.
+Katalogdatendateien können einen beliebigen Namen und ein beliebiges Dateisuffix aufweisen (außer .ini). Sie können problemlos mithilfe von Anwendungen gepflegt werden, die tabulatorgetrennte Textdatendateien wie Microsoft Excel und Access unterstützen.
 
-Eine Katalogdatendatei besteht im Wesentlichen aus einer zweidimensionalen Tabelle und einem Header-Datensatz, der die Datenspalten und eine beliebige Anzahl von Datensätzen (Zeilen) identifiziert. Die Felder in der Kopfzeile und in den Datensätzen werden durch einzelne `<TAB>` Zeichen getrennt. Datensätze werden durch einen einzelnen `<CR>` (ASCII-Code `0xD`), einen einzelnen `<LF>` (ASCII-Code `0xA`) oder ein `<CR><LF>` -Paar getrennt.
+Eine Katalogdatendatei besteht im Wesentlichen aus einer zweidimensionalen Tabelle und einem Kopfzeilendatensatz, der die Datenspalten und eine beliebige Anzahl von Datensätzen (Zeilen) identifiziert. Felder sowohl in der Kopfzeile als auch in den Datensätzen werden durch einzelne `<TAB>` getrennt. Datensätze werden durch ein einzelnes `<CR>` (ASCII-Code `0xD`), ein einzelnes `<LF>` (ASCII-Code `0xA`) oder ein `<CR><LF>` Paar getrennt.
 
-Der Header-Datensatz muss die genauen Namen für jedes Datenfeld enthalten. Leere Felder sind in der Kopfzeile nicht zulässig. Bei Datenfeldnamen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Alle Feldnamen müssen eindeutig sein.
+Der Kopfzeilendatensatz muss die genauen Namen für jedes Datenfeld enthalten. Leere Felder sind in der Kopfzeile nicht zulässig. Bei den Namen der Datenfelder wird nicht zwischen Groß- und Kleinschreibung unterschieden. Alle Feldnamen müssen eindeutig sein.
 
-Leerzeichen können nicht als Feldtrennzeichen verwendet werden. Im Header-Datensatz sind keine Leerzeichen zulässig. In Datensätzen werden Leerzeichen am Anfang oder Ende eines Datenfelds als Teil dieses Datenfelds betrachtet.
+Leerzeichen können nicht als Feldtrennzeichen verwendet werden. Im Kopfzeilendatensatz sind keine Leerzeichen zulässig. In Datensätzen werden alle Leerzeichen am Anfang oder Ende eines Datenfelds als Teil dieses Datenfelds betrachtet.
 
-In den Datensätzen zeigen zwei aufeinander folgende `<TAB>` Zeichen ein leeres Feld an. Leere Felder können Standardwerte entweder aus den Katalogattributen oder aus den Standardeinstellungen des Servers übernehmen.
+In den Datensätzen geben zwei benachbarte `<TAB>` ein leeres Feld an. Leere Felder können die Standardwerte entweder von den Katalogattributen oder von den Server-Standardwerten übernehmen.
 
-Datenfelder können optional durch doppelte Anführungszeichen eingeschlossen werden. Sie dürfen keine `<CR>`-, `<LF>`- oder `<TAB>`-Zeichen enthalten, es sei denn, der Datenwert ist vom Typ text und wird durch doppelte Anführungszeichen eingeschlossen. Datenfelder dürfen nicht HTTP-kodiert sein.
+Datenfelder können optional in Anführungszeichen gesetzt werden. Sie dürfen keine `<CR>`, `<LF>` oder `<TAB>` Zeichen enthalten, es sei denn, der Datenwert ist vom Typ Text und wird durch doppelte Anführungszeichen eingeschlossen. Datenfelder dürfen nicht HTTP-kodiert sein.
 
-Wenn nicht anders angegeben, werden mehrere Datenwerte im selben Feld durch Kommas getrennt.
+Mehrere Datenwerte im selben Feld werden durch Kommas getrennt, sofern nicht anders angegeben.
 
-Spalten, deren Namen mit &quot;.&quot;beginnen. werden ignoriert. Dies ermöglicht das Speichern von Daten in Bildkatalogen, was für Image Serving von Interesse ist. Spalten mit unbekannten Header-Namen werden ignoriert und eine Warnung in die Protokolldatei geschrieben.
+Spalten, deren Namen mit &quot;.“ beginnen werden ignoriert. Dies ermöglicht das Speichern von Daten in Bildkatalogen, was für Image Serving nicht von Interesse ist. Spalten mit unbekannten Kopfzeilennamen werden ignoriert und in die Protokolldatei wird eine Warnung geschrieben.
 
-Feldnamen können aus einer beliebigen Kombination von ASCII-Buchstaben und -Zahlen sowie &quot;-&quot;und &quot;_&quot;bestehen.
+Feldnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen sowie aus &quot;-&quot; und „_“ bestehen.
 
-Eine oder mehrere Spalten können als Indexschlüssel verwendet werden. Wenn derselbe Schlüssel in derselben Datendatei mehrmals vorkommt, hat die neuere Instanz Vorrang.
+Eine oder mehrere Spalten können als Indexschlüssel verwendet werden. Wenn derselbe Schlüssel mehrmals in derselben Datendatei auftritt, hat die spätere Instanz Vorrang.

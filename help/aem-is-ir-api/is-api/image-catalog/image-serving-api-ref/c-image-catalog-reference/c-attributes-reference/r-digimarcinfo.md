@@ -14,17 +14,17 @@ ht-degree: 5%
 
 # DigimarcInfo{#digimarcinfo}
 
-Standardmäßige Digimarc-Bildinformationen. Stellt einen Standardwert für catalog bereit::DigimarcInfo.
+Standardmäßige Digimarc-Bildinformationen. Stellt einen Standardwert für catalog:DigimarcInfo bereit.
 
 ## Eigenschaften {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
 
 Vier kommagetrennte Ganzzahlen.
 
-Weitere Informationen finden Sie unter [catalog::DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md) .
+Weitere [ finden Sie unter ](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md):DigimarcInfo.
 
 ## Standard {#section-c77d2620f90148d5ad9041131180d611}
 
-Wird von `default::DigimarcInfo` übernommen, wenn das Feld nicht angegeben oder leer ist.
+Von `default::DigimarcInfo` übernommen, wenn das Feld nicht angegeben oder leer ist.
 
 ## Verwandte Themen {#section-543464e27f0a43249860a883b1ebfa15}
 

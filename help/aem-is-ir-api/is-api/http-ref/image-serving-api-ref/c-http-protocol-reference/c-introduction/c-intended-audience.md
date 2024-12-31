@@ -1,5 +1,5 @@
 ---
-description: Erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Website oder eine benutzerdefinierte Anwendung nutzen möchten.
+description: Erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Website oder ein benutzerdefiniertes Programm nutzen möchten.
 solution: Experience Manager
 title: Vorgesehene Zielgruppe
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Vorgesehene Zielgruppe{#intended-audience}
 
-Erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Website oder eine benutzerdefinierte Anwendung nutzen möchten.
+Erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Website oder ein benutzerdefiniertes Programm nutzen möchten.
 
-Es wird davon ausgegangen, dass der Leser im Allgemeinen mit dem Dynamic Media Image Serving-System, allgemeinen HTTP-Protokollstandards und -Konventionen sowie der grundlegenden Imaging-Terminologie vertraut ist.
+Es wird davon ausgegangen, dass der Leser im Allgemeinen mit dem Dynamic Media Image Serving-System, allgemeinen HTTP-Protokollstandards und -Konventionen und grundlegender Bildterminologie vertraut ist.

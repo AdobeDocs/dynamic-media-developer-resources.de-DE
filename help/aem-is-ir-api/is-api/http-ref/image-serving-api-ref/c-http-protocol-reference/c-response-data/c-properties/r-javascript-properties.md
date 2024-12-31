@@ -1,6 +1,6 @@
 ---
 title: JavaScript-Eigenschaften
-description: Wenn JavaScript als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als JavaScript&trade;include-Datei geparst werden.
+description: Wenn JavaScript als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als JavaScript&trade; include-Datei geparst werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # JavaScript-Eigenschaften{#javascript-properties}
 
-Wenn JavaScript als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als JavaScript-Include-Datei analysiert werden.
+Wenn JavaScript als Antwortformat angegeben ist, werden die Antwortdaten so formatiert, dass sie als JavaScript Include-Datei geparst werden.
 
-Eine typische JavaScript-Eigenschaftenantwort weist diese allgemeine Struktur auf:
+Eine typische JavaScript-Eigenschaftsantwort weist diese allgemeine Struktur auf:
 
 ```
            
@@ -29,9 +29,9 @@ Eine typische JavaScript-Eigenschaftenantwort weist diese allgemeine Struktur au
 ...
 ```
 
-Die *`propertyValue`* kann leer sein. Leerzeichen sind am Anfang und Ende jeder Zeile sowie vor und nach dem Trennzeichen = optional. Alle Werte sind durch einfache Anführungszeichen eingeschlossen. Einzelne Anführungszeichen in Zeichenfolgen werden mit zwei aufeinander folgenden einfachen Anführungszeichen maskiert.
+Die *`propertyValue`* kann leer sein. Leerzeichen sind am Anfang und am Ende jeder Zeile sowie vor und nach dem Trennzeichen = optional. Alle Werte werden in einfache Anführungszeichen gesetzt. Einfache Anführungszeichen in Zeichenfolgen werden mit zwei aufeinander folgenden einfachen Anführungszeichen maskiert.
 
-Um eine JavaScript-Eigenschaftenantwort zu analysieren, müssen alle Objekte oder Objekte, auf die in der Antwort verwiesen wird, erstellt werden, bevor die Eigenschaftendatei geladen wird. Im Folgenden finden Sie ein Beispiel für die Verwendung von `req=props` zum Abrufen der Größe des Antwortbilds in JavaScript:
+Um eine JavaScript-Eigenschaftenantwort zu analysieren, müssen alle Objekte, auf die in der Antwort verwiesen wird, erstellt werden, bevor die Eigenschaftendatei geladen wird. Im Folgenden finden Sie ein Beispiel für die Verwendung von `req=props` zum Abrufen der Größe des Antwortbildes in JavaScript:
 
 ```
 <script> image = new Object; </script> 

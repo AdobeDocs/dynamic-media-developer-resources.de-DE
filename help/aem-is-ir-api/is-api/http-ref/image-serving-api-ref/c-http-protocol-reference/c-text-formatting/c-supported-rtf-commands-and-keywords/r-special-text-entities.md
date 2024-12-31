@@ -1,7 +1,7 @@
 ---
 description: Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
 solution: Experience Manager
-title: Spezielle Textelemente
+title: Spezielle Textentitäten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# Spezielle Textelemente{#special-text-entities}
+# Spezielle Textentitäten{#special-text-entities}
 
 Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
 
@@ -27,7 +27,7 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \par</span> </td> 
-   <td> <p>Absatzunterbrechung. </p> </td> 
+   <td> <p>Absatzumbruch. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -37,33 +37,33 @@ Verwenden Sie beim Formatieren von Text die folgenden speziellen Entitäten.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \\ </span> </td> 
-   <td> <p>Schrägstrich. </p> </td> 
+   <td> <p>Schrägstrich hinten. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> &amp;lbrace; </span> </td> 
-   <td> <p>Geschweifte Klammer. </p> </td> 
-   <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
+   <td> <p>Geschweifte, offene Klammer. </p> </td> 
+   <td> <p>Die geschweifte Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> &amp;rbrace; </span> </td> 
-   <td> <p>Geschweifte Klammer. </p> </td> 
-   <td> <p>Die Klammer muss HTTP-kodiert sein. </p> </td> 
+   <td> <p>Geschweifte Klammer schließen. </p> </td> 
+   <td> <p>Die geschweifte Klammer muss HTTP-kodiert sein. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
    <td> <p>Geschütztes Leerzeichen. </p> </td> 
-   <td> <p>Nur <span class="codeph"> textPs=</span>. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>Ununterbrochene Bindestriche. </p> </td> 
-   <td> <p>Nur <span class="codeph"> textPs=</span>. </p> </td> 
+   <td> <p>Bindestrich ohne Umbruch. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
    <td> <p>Optionaler Bindestrich. </p> </td> 
-   <td> <p>Nur <span class="codeph"> textPs=</span>. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

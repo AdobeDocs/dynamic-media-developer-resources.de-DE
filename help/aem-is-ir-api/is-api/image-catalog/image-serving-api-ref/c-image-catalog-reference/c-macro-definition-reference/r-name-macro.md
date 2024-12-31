@@ -16,11 +16,11 @@ ht-degree: 10%
 
 Makroname.
 
-Makronamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen, -Zeichen, -Zeichen, -Zeichen und -Zeichen bestehen.
+Makronamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen, &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen.
 
 ## Eigenschaften {#section-3952a070c21646ab914cc76f289ed8ce}
 
-Textzeichenfolge. Erforderlich. Jeder macro::Name -Wert muss innerhalb der Tabelle eindeutig sein. Bei Makronamen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+Text-String Erforderlich. Jeder Wert für „makro:name“ muss innerhalb der Tabelle eindeutig sein. Bei Makronamen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
 ## Standard {#section-031d1931a7694da88c3f7d623eabcb78}
 

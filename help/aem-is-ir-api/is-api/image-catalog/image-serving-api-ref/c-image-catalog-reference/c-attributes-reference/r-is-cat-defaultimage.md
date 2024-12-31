@@ -1,7 +1,7 @@
 ---
-description: Standardbild für Antworten. Gibt den Bild- oder Katalogeintrag an, der verwendet werden soll, falls eine Bilddatei nicht gefunden werden kann und defaultImage= in der Anfrage nicht angegeben ist.
+description: Standardantwortbild. Gibt den Bild- oder Katalogeintrag an, der verwendet werden soll, wenn keine Bilddatei gefunden werden kann und defaultImage= in der Anfrage nicht angegeben ist.
 solution: Experience Manager
-title: DefaultImage
+title: Standardbild
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2044b447-0ee1-4964-b751-8637c5e115d1
@@ -12,23 +12,23 @@ ht-degree: 1%
 
 ---
 
-# DefaultImage{#defaultimage}
+# Standardbild{#defaultimage}
 
-Standardbild für Antworten. Gibt den Bild- oder Katalogeintrag an, der verwendet werden soll, falls eine Bilddatei nicht gefunden werden kann und defaultImage= in der Anfrage nicht angegeben ist.
+Standardantwortbild. Gibt den Bild- oder Katalogeintrag an, der verwendet werden soll, wenn keine Bilddatei gefunden werden kann und defaultImage= in der Anfrage nicht angegeben ist.
 
-Kann entweder ein Katalogeintrag (einschließlich einer Vorlage), ein relativer Pfad (zu `attribute::RootPath`) oder ein absoluter Pfad für eine Bilddatei sein. Nützlich zum Ersetzen fehlender Bilder durch Standardbilder.
+Kann entweder ein Katalogeintrag (einschließlich einer Vorlage) oder ein relativer (zu `attribute::RootPath`) oder absoluter Bilddateipfad sein. Nützlich zum Ersetzen fehlender Bilder durch Standardbilder.
 
 ## Eigenschaften {#section-b6d8193827c34e5f948792aba8b8daaf}
 
-Textzeichenfolge. Wenn angegeben, muss entweder ein gültiger `catalog::Id` -Wert in diesem Bildkatalog oder ein relativer (auf `attribute::RootPath`) Pfad zu einer Bilddatei sein, auf die der Image-Server zugreifen kann.
+Text-String Wenn angegeben, muss entweder ein gültiger `catalog::Id` in diesem Bildkatalog oder ein relativer (zu `attribute::RootPath`) oder absoluter Pfad zu einer Bilddatei sein, auf die der Bildserver zugreifen kann.
 
 ## Einschränkungen {#section-5d8ea872f0b0415fbd3a83410bbcf512}
 
-Ausländische Bildquellen werden vom standardmäßigen Bildmechanismus nicht abgedeckt. Wenn eine ausländische Bildquelle ungültig ist, wird ein Fehler zurückgegeben.
+Fremdbildquellen werden nicht vom Standardbildmechanismus abgedeckt. Wenn eine Fremdbildquelle ungültig ist, wird ein Fehler zurückgegeben.
 
 ## Standard {#section-d88bc8fc71bd413e8f70281d57e1ba1c}
 
-Wird von `default::DefaultImage` übernommen, falls nicht definiert. Wenn definiert, aber leer, wird das standardmäßige Bildverhalten deaktiviert, auch wenn `default::DefaultImage` definiert ist.
+Von `default::DefaultImage` geerbt, wenn nicht definiert. Wenn definiert, aber leer, wird das Standardbildverhalten deaktiviert, auch wenn `default::DefaultImage` definiert ist.
 
 ## Verwandte Themen {#section-dc0fb4e72294442882b33a479fbc2b82}
 

@@ -1,5 +1,5 @@
 ---
-description: Statischer Stammpfad für Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
+description: Stammverzeichnis der statischen Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
 solution: Experience Manager
 title: StaticContentRootPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # StaticContentRootPath{#staticcontentrootpath}
 
-Statischer Stammpfad für Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
+Stammverzeichnis der statischen Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
 
-Weitere Informationen zu Serverstammpfaden finden Sie unter [Verwalten von Source-Daten](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) .
+Weitere [ zu Serverstammpfaden finden ](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) unter „Verwalten von Source-&quot;.
 
 ## Eigenschaften {#section-f8e3986096294b36948d43aafdc3e795}
 
-Textzeichenfolge. Muss leer, ein gültiges relatives Dateipfadsegment oder ein absoluter Pfad sein. Sollte keine Trennzeichen für vorangehende und nachfolgende Pfadelemente enthalten.
+Text-String Muss leer sein, ein gültiges relatives Dateipfadsegment oder ein absoluter Pfad. Sollte keine Trennzeichen für Pfad-Elemente am Anfang und am Ende enthalten.
 
 ## Standard {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
-Wird von `default::StaticContentsRootPath` übernommen, falls nicht definiert. Wenn definiert, aber leer, trägt es nicht zum Stammverzeichnis der Quelldatei bei.
+Von `default::StaticContentsRootPath` geerbt, wenn nicht definiert. Wenn er definiert, aber leer ist, trägt er nicht zum Stammverzeichnis der Quelldatei bei.
 
 ## Verwandte Themen {#section-9af8846d20d242789df67877f84ed8a7}
 

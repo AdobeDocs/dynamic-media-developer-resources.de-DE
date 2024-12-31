@@ -1,5 +1,5 @@
 ---
-description: Standardmäßige Hintergrundfarbe für Miniaturen. RGB-Wert, der zum Ausfüllen des Bereichs eines Ausgabeminiaturbilds verwendet wird, das keine tatsächlichen Bilddaten enthält.
+description: Standardhintergrundfarbe für Miniaturen. RGB-Wert, der zum Ausfüllen des Bereichs eines Ausgabeminiaturbilds verwendet wird, das keine Bilddaten enthält.
 solution: Experience Manager
 title: ThumbBkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 3%
 
 # ThumbBkgColor{#thumbbkgcolor}
 
-Standardmäßige Hintergrundfarbe für Miniaturen. RGB-Wert, der zum Ausfüllen des Bereichs eines Ausgabeminiaturbilds verwendet wird, das keine tatsächlichen Bilddaten enthält.
+Standardhintergrundfarbe für Miniaturen. RGB-Wert, der zum Ausfüllen des Bereichs eines Ausgabeminiaturbilds verwendet wird, das keine Bilddaten enthält.
 
-Wird nur für Miniaturansichten ( `req=tmb`) und wenn `catalog::ThumbType` auf 2 oder 3 festgelegt ist verwendet.
+Wird nur für Anforderungen von Miniaturansichten (`req=tmb`) verwendet und wenn `catalog::ThumbType` auf 2 oder 3 gesetzt ist.
 
 ## Eigenschaften {#section-a73e82c950cc4319bc3bccec14764c25}
 
@@ -24,7 +24,7 @@ Farbe.
 
 ## Standard {#section-b02bb56dda684ff9969806ce82ba00c2}
 
-Wird von `default::ThumbBkgColor` übernommen, wenn nicht definiert oder leer.
+Von `default::ThumbBkgColor` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-27983dc885424dfbba8c8e4192f3f88d}
 

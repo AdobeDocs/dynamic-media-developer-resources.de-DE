@@ -1,5 +1,5 @@
 ---
-description: Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen req= -Befehl enthält oder wenn req=img oder req=tmb.
+description: Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen Befehl req=oder req=img oder req=tmb enthält.
 solution: Experience Manager
 title: Bilder
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # Bilder{#images}
 
-Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen req= -Befehl enthält oder wenn req=img oder req=tmb.
+Bilddaten werden zurückgegeben, wenn eine Anfrage erfolgreich abgeschlossen wurde und die Anfrage entweder keinen Befehl req=oder req=img oder req=tmb enthält.
 
 Der MIME-Typ der HTTP-Antwort wird durch `fmt=` bestimmt oder, wenn `fmt=` nicht angegeben ist, durch `<image/jpeg>`.
 
-Der HTTP-Antwortstatus lautet &quot;200 OK&quot;, wenn die Anforderungsmethode eine unbedingte `GET` oder `HEAD` war.
+Der HTTP-Antwortstatus ist „200 OK“, wenn die Anfragemethode eine unbedingte `GET` oder `HEAD` war.
 
-Der Server kann mit dem Status &#39;304&#39; (nicht geändert) antworten und keine Bilddaten als Antwort auf eine bedingte `GET` -Anfrage zurückgeben (die eine gültige `If-Modified-Since` - oder `If-None-Match` -Kopfzeile enthält).
+Der Server kann mit dem Status &#39;304&#39; (nicht geändert) antworten und gibt keine Bilddaten als Antwort auf eine bedingte `GET`-Anfrage zurück (die eine gültige `If-Modified-Since` oder `If-None-Match` Kopfzeile enthält).

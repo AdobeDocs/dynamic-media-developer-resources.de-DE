@@ -1,5 +1,5 @@
 ---
-description: Image Serving bietet mehrere Alternativen zum Rendern von Text, auf den die Befehle text= und textPs= zugreifen können.
+description: Image Serving bietet mehrere Alternativen zum Rendern von Text, auf die mit den Befehlen text= und textPs= zugegriffen werden kann.
 solution: Experience Manager
 title: Textformatierung
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 6%
 
 # Textformatierung{#text-formatting}
 
-Image Serving bietet mehrere Alternativen zum Rendern von Text, auf den die Befehle text= und textPs= zugreifen können.
+Image Serving bietet mehrere Alternativen zum Rendern von Text, auf die mit den Befehlen text= und textPs= zugegriffen werden kann.
 
-`textPs=` bietet eine hohe Ähnlichkeit mit in Adobe Photoshop und Illustrator gerendertem Text. `text=` ist mit Text, der mit Windows Wordpad gerendert wird, angemessen kompatibel.
+`textPs=` bietet ein hohes Maß an Ähnlichkeit mit Text, der mit Adobe Photoshop und Illustrator gerendert wird. `text=` ist mit Text kompatibel, der mit Windows WordPad gerendert wird.
 
 >[!NOTE]
 >
->Zusätzlich zu den an anderer Stelle aufgeführten Unterschieden führt `text=` zu geringfügigen Unterschieden im gerenderten Text im Vergleich zu `textPs=`. So weisen beispielsweise Unterstriche nicht die gleiche Dicke und Position auf und werden kursiv synthetisiert und in einem etwas anderen Winkel gerendert. Wenn der Text nicht in den verfügbaren Platz passt, kann `text=` die letzte Zeile teilweise zuschneiden, während `textPs=` nur vollständige Zeilen rendert.
+>Zusätzlich zu den an anderer Stelle aufgeführten Unterschieden führt `text=` zu geringfügigen Unterschieden zwischen gerendertem Text und gerendertem Text im Vergleich zu `textPs=`. Beispielsweise haben Unterstriche nicht die gleiche Dicke und Position und synthetisierte Kursivformatierungen werden in einem etwas anderen Winkel gerendert. Wenn Text nicht in den verfügbaren Platz passt, schneidet `text=` die letzte Zeile möglicherweise teilweise ab, während `textPs=` nur vollständige Zeilen rendert.
 
-Alle Textbefehle akzeptieren formatierten Text basierend auf einer Teilmenge der RTF-Spezifikation (Rich Text Format). Jede Textebene kann einen anderen Textbefehl angeben.
+Alle Textbefehle akzeptieren formatierten Text, der auf einer Teilmenge der RTF-Spezifikation (Rich Text Format) basiert. Jede Textebene kann einen anderen Textbefehl angeben.
 
 In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für jeden Textbefehl verfügbar sind:
 
@@ -43,58 +43,58 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Textfluss in beliebige Formen </p> </td> 
+   <td> <p>Text in beliebige Formen fließen </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>textFlowPath=, textFlowXPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Textfluss entlang beliebiger Pfade </p> </td> 
+   <td> <p>Text entlang beliebiger Pfade fließen </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>textPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nachrüstung </p> </td> 
+   <td> <p>Einpassung </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> Copy-Fitting <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
+   <td> Kopienanpassung <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Textfeldränder </p> </td> 
+   <td> <p>Ränder von Textfeldern </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
+   <td> <p><pre>\Margl</pre>, <pre>\Margr</pre>, <pre>\mrgt</pre>, <pre>\margin</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Vollständige Absatzdarstellung </p> </td> 
+   <td> <p>Vollständige Absatzbegründung </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Letzte Zeile - Begründung </p> </td> 
+   <td> <p>Letzte Zeilenausrichtung </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>\lastql, \lastqr, \lastqc, \lastqj </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Absatzeinrückung </p> </td> 
+   <td> <p>Absatzeinzug </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>\fi, \li, \ri </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Text mit Großbuchstaben und Kleinbuchstaben </p> </td> 
+   <td> <p>Text mit Kapitälchen und Kapitälchen </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>\caps, \scaps </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Image Serving-Farben </p> </td> 
+   <td> <p>Bildbereitstellungsfarben </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> <p>\*\iscolortbl </p> </td> 
+   <td> <p>\*\isColorTbl </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Mehrere Anti-Aliasing-Modi </p> </td> 
@@ -103,7 +103,7 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Textfluss oben unten/rechts links </p> </td> 
+   <td> <p>Textfluss von oben nach unten/rechts nach links </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>\stextFlow </p> </td> 
@@ -115,7 +115,7 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
    <td> Schriftverarbeitung </td> 
   </tr> 
   <tr> 
-   <td> <p>Ebene automatisch an Textgröße anpassen </p> </td> 
+   <td> <p>Ebene automatisch an Text anpassen </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>text=, textId=, size= </p> </td> 
@@ -124,22 +124,22 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
    <td> <p>CMYK-Unterstützung </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> <p>\cmykcolortbl, \*\iscolortbl </p> </td> 
+   <td> <p>\CMYKCOLORTBL, \*\isColorTBL </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Zeichenfluss von rechts nach links </p> </td> 
+   <td> <p>Rechts-nach-links-Zeichenfluss </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>\rtlch </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Wortumbruch deaktivieren </p> </td> 
+   <td> <p>Zeilenumbruch deaktivieren </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Text automatisch an die Ebene anpassen (durch variierende Auflösung) </p> </td> 
+   <td> <p>Text automatisch skalieren, um Ebene anzupassen (durch unterschiedliche Auflösung) </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p>nein </p> </td> 
    <td> <p>textAttr= </p> </td> 
@@ -147,23 +147,23 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
  </tbody> 
 </table>
 
-RTF-konforme Zeichenfolgen können manuell oder durch Formatierung des gewünschten Textes in einem Texteditor oder Textverarbeitungsprogramm zusammengestellt werden, der RTF-Dateien speichern kann. Die RTF-Datei kann dann in einem Nur-Text-Editor geöffnet werden und der relevante RTF-Rohinhalt der Datei wird in die Anfrage-URL kopiert.
+RTF-konforme Zeichenfolgen können manuell oder durch Formatieren des gewünschten Textes in einem Texteditor oder Textprozessor zusammengestellt werden, der RTF-Dateien speichern kann. Die RTF-Datei kann dann in einem Texteditor geöffnet werden, und der entsprechende rohe RTF-Inhalt der Datei kann in die Anfrage-URL kopiert werden.
 
-Einige Textverarbeitungen erzeugen recht große Dateien, die wesentliche Präambel enthalten, die nicht von Dynamic Media Image Serving verwendet werden. Es wird empfohlen, die nicht verwendeten RTF-Elemente aus der Zeichenfolge zu entfernen, bevor die Zeichenfolge an die Textbefehle übergeben wird.
+Einige Textverarbeitungssysteme generieren recht große Dateien, die umfangreiche Präambeln enthalten, die von Dynamic Media Image Serving nicht verwendet werden. Es wird empfohlen, die nicht verwendeten RTF-Elemente aus der Zeichenfolge zu entfernen, bevor die Zeichenfolge an die Textbefehle übergeben wird.
 
-Sprachkodierung basierend auf UTF-8- und ISO-Standards wird in RTF-Zeichenfolgen als Alternative zu den Standard-RTF-Zeichenkodierungsmechanismen unterstützt. Dadurch können Anwendungen nicht-englischsprachigen Text ohne Kenntnisse der RTF-Kodierung an den Server senden.
+Sprachkodierung basierend auf UTF-8- und ISO-Standards wird in RTF-Zeichenfolgen als Alternative zu den standardmäßigen RTF-Zeichenkodierungsmechanismen unterstützt. Dadurch können Anwendungen nicht-englischen Text ohne Kenntnisse der RTF-Kodierung an den Server senden.
 
-Alle nicht HTTP-konformen Zeichen müssen ordnungsgemäß maskiert sein, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen maskiert werden, wenn die Zeichenfolge in das Feld `catalog::Modifiers` eines Bildkatalogdatensatzes integriert ist. Kontrollzeichen wie `<CR>`, `<LF>` und `<TAB>` sollten immer entfernt werden.
+Alle nicht HTTP-konformen Zeichen müssen ordnungsgemäß maskiert sein, wenn die Zeichenfolge über HTTP übertragen werden soll. Nur &#39;=&#39;, &#39;&amp;&#39; und &#39;%&#39; müssen maskiert werden, wenn die Zeichenfolge in das `catalog::Modifiers` Feld eines Bildkatalogdatensatzes integriert ist. Steuerzeichen wie `<CR>`, `<LF>` und `<TAB>` sollten immer entfernt werden.
 
-Die Image Serving-Text-Engines interpretieren einen Teil der Befehle, die durch die Rich Text Format (RTF)-Spezifikation, Version 1.6 definiert wurden. Diese Untergruppe konzentriert sich auf die Schriftart-/Zeichenformatierung, die einfache Absatzformatierung und die Unterstützung für internationale Schriftarten und Zeichensätze. Erweiterte Formatierungskonstrukte wie Stylesheets und Tabellen werden derzeit nicht unterstützt.
+Die Image-Serving-Text-Engines interpretieren eine Untergruppe von Befehlen, die in der Rich-Text-Format-Spezifikation (RTF), Version 1.6, definiert sind. Diese Untergruppe konzentriert sich auf die Schriftart-/Zeichenformatierung, die einfache Absatzformatierung und die Unterstützung internationaler Schriftarten und Zeichensätze. Erweiterte Formatierungskonstrukte wie Stylesheets und Tabellen werden derzeit nicht unterstützt.
 
-Wenn Sie versuchen, RTF-kodierte Textzeichenfolgen manuell zu erstellen, müssen Sie mit der von Microsoft veröffentlichten Rich Text Format (RTF)-Spezifikation vertraut sein.
+Wenn Sie versuchen, RTF-kodierte Textzeichenfolgen manuell zu erstellen, müssen Sie mit der von Microsoft veröffentlichten Rich-Text-Format-Spezifikation (RTF) vertraut sein.
 
-* [Schriftverarbeitung](r-font-handling.md)
-* [Farbhandhabung](r-color-handling.md)
-* [Nachrüstung](r-copy-fitting.md)
+* [Schriftbehandlung](r-font-handling.md)
+* [Farbverarbeitung](r-color-handling.md)
+* [Einpassung](r-copy-fitting.md)
 * [Textebenen](r-text-layers.md)
 * [Textpositionierung](r-text-positioning.md)
 * [Reservierte Zeichen](r-reserved-characters.md)
-* [Unterstützte RTF-Befehle und Keywords](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
-* [RTF-Kodierungsbeispiele](r-rtf-encoding-examples.md)
+* [Unterstützte RTF-Befehle und -Schlüsselwörter](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
+* [Beispiele für RTF-Kodierung](r-rtf-encoding-examples.md)

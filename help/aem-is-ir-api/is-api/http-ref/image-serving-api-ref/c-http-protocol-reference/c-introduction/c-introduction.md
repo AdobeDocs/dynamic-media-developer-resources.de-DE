@@ -16,4 +16,4 @@ ht-degree: 4%
 
 In diesem Dokument wird das HTTP-Protokoll für Dynamic Media Image Serving beschrieben.
 
-Nur die öffentlich zugänglichen Aspekte des Protokolls werden beschrieben. Der Server unterstützt möglicherweise zusätzliche Befehle, die für die Verwendung durch die Dynamic Media-Clientsoftware reserviert sind.
+Es werden nur die öffentlich zugänglichen Aspekte des Protokolls beschrieben. Der Server kann zusätzliche Befehle unterstützen, die für die Verwendung durch die Client-Software von Dynamic Media reserviert sind.

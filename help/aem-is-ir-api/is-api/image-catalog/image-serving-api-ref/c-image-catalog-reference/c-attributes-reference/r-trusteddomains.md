@@ -1,7 +1,7 @@
 ---
-description: Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die mit fmt=swf oder fmt=swf3 bereitgestellt werden.
+description: Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften der Bilder zugegriffen werden, die mit FMT=SWF oder FMT=SWF3 bereitgestellt werden.
 solution: Experience Manager
-title: TrustedDomains
+title: Vertrauenswürdige Domains
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 925ac9d1-203c-4814-a701-71060bf47c20
@@ -12,19 +12,19 @@ ht-degree: 2%
 
 ---
 
-# TrustedDomains{#trusteddomains}
+# Vertrauenswürdige Domains{#trusteddomains}
 
-Webdomänen der Flash-Anwendung. Adobe Flash-Anwendungen benötigen möglicherweise Zugriff auf die Eigenschaften von Bildern, die mit fmt=swf oder fmt=swf3 bereitgestellt werden.
+Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften der Bilder zugegriffen werden, die mit FMT=SWF oder FMT=SWF3 bereitgestellt werden.
 
-Der swf muss den Zugriff explizit gewähren, indem er den Namen der Anwendungsdomänen registriert, denen er vertraut.
+Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
 
 ## Eigenschaften {#section-e7f95bbb749f441e83e90c2bc3d5a6e0}
 
-Zeichenfolge, die eine kommagetrennte Liste mit Webdomänennamen enthält. Wenn dieses Feld leer ist, müssen Anwendungen von derselben Domäne wie das Bild-Rendering bereitgestellt werden, damit sie auf die Eigenschaften von Bildern in swf-formatierten Antworten zugreifen können.
+Zeichenfolge, die eine kommagetrennte Liste von Web-Domain-Namen enthält. Wenn leer, müssen Programme von derselben Domain wie das Bild-Rendering bereitgestellt werden, um in SWF-formatierten Antworten auf die Eigenschaften von Bildern zugreifen zu können.
 
 ## Standard {#section-5c52ed3c7310488380f5a6f9540bf981}
 
-Wird von `default::TrustedDomains` vererbt, falls nicht vorhanden.
+Von `default::TrustedDomains` übernommen, falls nicht vorhanden.
 
 ## Verwandte Themen {#section-65d0846e41674882a4d0d56a8f6d524b}
 

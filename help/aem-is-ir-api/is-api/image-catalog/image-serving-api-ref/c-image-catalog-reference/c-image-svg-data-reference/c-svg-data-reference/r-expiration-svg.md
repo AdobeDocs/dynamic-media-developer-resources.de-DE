@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # Ablauf{#expiration}
 
-Dient zum Verwalten der Zwischenspeicherung von Client- und Proxyservern. Der Server berechnet die Ablaufzeit/das Ablaufdatum der HTTP-Antwortdaten, indem er diesen Wert zum Übertragungszeitpunkt/Übertragungsdatum hinzufügt.
+Wird für die Verwaltung der Zwischenspeicherung von Client- und Proxy-Servern verwendet. Der Server berechnet die Ablaufzeit/das Ablaufdatum der HTTP-Antwortdaten, indem er diesen Wert zu Übertragungszeit/Übertragungsdatum hinzufügt.
 
-Browser verwalten Caches anhand der Ablaufzeiten von Dateien. Bevor eine Anforderung an den Server übergeben wird, prüft der Browser seinen Cache, um festzustellen, ob die Datei bereits heruntergeladen wurde. Wenn dies der Fall ist und die Datei noch nicht abgelaufen ist, sendet der Browser anstelle einer normalen GET-Anfrage eine bedingte GET (z. B. mit dem im Anfrageheader festgelegten Feld If-Modified-Since ). Der Server hat die Möglichkeit, mit dem Status &#39;304&#39; zu antworten und das Bild nicht zu senden. Der Browser lädt die Datei dann aus dem Cache. Dies kann die Gesamtleistung für häufig aufgerufene Daten erheblich steigern.
+Browser verwalten Caches mit Gültigkeitsdauern von Dateien. Bevor eine Anfrage an den Server übergeben wird, prüft der Browser seinen Cache, um festzustellen, ob die Datei bereits heruntergeladen wurde. Wenn dies der Fall ist und die Datei noch nicht abgelaufen ist, sendet der Browser eine bedingte GET-Anfrage (z. B. mit dem in der Anfragekopfzeile festgelegten Feld If-Modified-Since ) anstelle einer normalen GET-Anfrage. Der Server hat die Möglichkeit, mit einem „304“-Status zu antworten und das Bild nicht zu übertragen. Der Browser lädt dann die Datei aus dem Cache. Dies kann die Gesamtleistung für häufig aufgerufene Daten erheblich steigern.
 
-Für diese Antworttypen wird Ablauf verwendet:
+Die Gültigkeit wird für die folgenden Antworttypen verwendet:
 
 * `req=img`
 * `req=mask`
@@ -26,15 +26,15 @@ Für diese Antworttypen wird Ablauf verwendet:
 * `req=userdata`
 * `req=map`
 
-Bestimmte Arten von Antworten (z. B. Fehlerantworten) werden immer für den sofortigen Ablauf markiert (oder als nicht zwischenspeicherbar markiert), während andere (z. B. Eigenschaften oder standardmäßige Bildantworten) spezielle Ablaufeinstellungen ( `attribute::NonImgExpiration` und `attribute::DefaultExpiration`) verwenden.
+Bestimmte Antworttypen (z. B. Fehlerantworten) sind immer für den sofortigen Ablauf markiert (oder als nicht zwischenspeicherbar getaggt), während andere (z. B. Eigenschafts- oder Standardbildantworten) spezielle Ablaufeinstellungen verwenden ( `attribute::NonImgExpiration` und `attribute::DefaultExpiration`).
 
 ## Eigenschaften {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Real number, -2, -1 oder 0 oder höher. Anzahl der Stunden bis Ablauf seit der Erstellung des Antwortbilds. Auf 0 setzen, damit das Antwortbild immer sofort abläuft, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 setzen, um als *`never expire`* zu markieren. In diesem Fall gibt der Server bei bedingten GET immer den Status 304 (nicht geändert) zurück, ohne zu überprüfen, ob sich die Datei tatsächlich geändert hat. Auf -2 setzen, um den Standardwert von `attribute::Expiration` zu verwenden.
+Reelle Zahl, -2, -1 oder 0 oder höher. Anzahl der Stunden bis zum Ablauf seit der Erstellung des Antwortbildes. Auf 0 gesetzt, um das Antwortbild immer sofort ablaufen zu lassen, wodurch das Client-Caching effektiv deaktiviert wird. Auf -1 gesetzt, um als *`never expire`* zu markieren. In diesem Fall gibt der Server als Reaktion auf bedingte GET-Anfragen immer den Status 304 (Nicht geändert) zurück, ohne zu überprüfen, ob die Datei tatsächlich geändert wurde. Legen Sie dies auf -2 fest, um den von `attribute::Expiration` bereitgestellten Standardwert zu verwenden.
 
 ## Standard {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
-`attribute::Expiration` wird verwendet, wenn das Feld nicht vorhanden ist, wenn der Wert -2 ist oder wenn das Feld leer ist.
+`attribute::Expiration` wird verwendet, wenn das Feld nicht vorhanden ist, der Wert -2 ist oder das Feld leer ist.
 
 ## Verwandte Themen {#section-0e5e8595aad641c689726828712a8902}
 

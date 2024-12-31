@@ -1,6 +1,6 @@
 ---
 title: hei
-description: Ansichthöhe. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
+description: Höhe anzeigen. Gibt die Höhe des Antwortbildes (Ansichtsbild) an, wenn in der Anfrage keine Anpassung vorhanden ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 1%
 
 # hei{#hei}
 
-Ansichthöhe. Gibt die Höhe des Antwortbilds (Ansichtsbild) an, wenn die Anpassung in der Anforderung nicht vorhanden ist.
+Höhe anzeigen. Gibt die Höhe des Antwortbildes (Ansichtsbild) an, wenn in der Anfrage keine Anpassung vorhanden ist.
 
 ` hei= *`val`*`
 
 <table id="simpletable_1A36827B6E6647888A4E6E868975D716"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> var </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Var </span> </span> </p> </td> 
   <td class="stentry"> <p>Bildhöhe in Pixel (int größer als 0). </p> </td> 
  </tr> 
 </table>
 
-Wenn sowohl `wid=` als auch `scl=` angegeben sind, kann das zusammengesetzte Bild gemäß dem Attribut `align=` zugeschnitten werden. Wenn `fit=` vorhanden ist, gibt `hei=` die genaue, minimale oder maximale Höhe des Antwortbilds an. Weitere Informationen finden Sie in der Beschreibung von [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) .
+Wenn sowohl `wid=` als auch `scl=` angegeben sind, kann das zusammengesetzte Bild gemäß dem Attribut `align=`zugeschnitten werden. Wenn `fit=` vorhanden ist, gibt `hei=` die genaue, die minimale oder die maximale Ansprechbildhöhe an. Weitere Informationen finden Sie in der Beschreibung von [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md).
 
-Wenn `scl=` nicht angegeben ist, wird das Composite-Bild skaliert, um passend zu sein. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar gemacht wird. In diesem Fall wird das Bild im Ansichtsrechteck gemäß dem Attribut `align=` positioniert. Der Hintergrundbereich wird mit `bgc=` oder, falls nicht mit `attribute::BkgColor` angegeben, mit  gefüllt.
+Wenn `scl=` nicht angegeben ist, wird das zusammengesetzte Bild so skaliert, dass es passt. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das wid/hei-Rechteck passt, sodass möglichst wenig Hintergrundbereich belichtet wird. In diesem Fall wird das Bild entsprechend dem `align=`-Attribut innerhalb des Ansichtsrechtecks positioniert. Der Hintergrundbereich wird mit `bgc=` ausgefüllt, oder, falls nicht mit `attribute::BkgColor` angegeben.
 
 >[!NOTE]
 >
->Wenn die berechnete Größe des Antwortbilds größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
+>Wenn die berechnete Größe des Antwortbildes größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
 
 ## Eigenschaften {#section-534923644a1e464496eeba83dedcbd3c}
 
@@ -43,11 +43,11 @@ Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entwed
 
 ## Beispiele {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben links aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor` gefüllt.
+Fordern Sie ein Bild an, damit es in ein Rechteck von 200 x 200 passt. Wenn es nicht quadratisch ist, richten Sie es links oben aus. Jeder Hintergrundbereich ist mit `attribute::BkgColor` gefüllt.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-Das gleiche Bild, das mit einer festen Höhe von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Breite, die dem Seitenverhältnis des Bildes entspricht. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. Und in diesem Fall hätte `align=` überhaupt keine Auswirkung.
+Gleiches Bild, bereitgestellt in einer festen Höhe von 200 Pixel, aber mit einer variablen Breite, die dem Seitenverhältnis des Bildes entspricht. In diesem Fall hat das zurückgegebene Bild keine Hintergrundfüllbereiche. Und in diesem Fall hätten `align=` keinerlei Wirkung.
 
 `http://server/myRootId/myImageId?hei=200`
 

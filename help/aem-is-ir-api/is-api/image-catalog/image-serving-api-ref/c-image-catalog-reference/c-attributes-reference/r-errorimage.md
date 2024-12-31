@@ -1,5 +1,5 @@
 ---
-description: Fehlerreaktionsbild. Image Serving gibt normalerweise einen Fehlerstatus mit einer Textmeldung zurück, wenn ein Fehler auftritt.
+description: Bild der Fehlerantwort. Image Serving gibt normalerweise einen Fehlerstatus mit einer Textmeldung zurück, wenn ein Fehler auftritt.
 solution: Experience Manager
 title: ErrorImage
 feature: Dynamic Media Classic,SDK/API
@@ -14,37 +14,37 @@ ht-degree: 1%
 
 # ErrorImage{#errorimage}
 
-Fehlerreaktionsbild. Image Serving gibt normalerweise einen Fehlerstatus mit einer Textmeldung zurück, wenn ein Fehler auftritt.
+Bild der Fehlerantwort. Image Serving gibt normalerweise einen Fehlerstatus mit einer Textmeldung zurück, wenn ein Fehler auftritt.
 
-Mit `attribute::ErrorImage` können Bilder, Katalogeinträge oder Vorlagen im Fehlerfall zurückgegeben werden.
+`attribute::ErrorImage` können Sie ein Bild, einen Katalogeintrag oder eine Vorlage konfigurieren, die im Fehlerfall zurückgegeben werden soll.
 
 >[!NOTE]
 >
 >Fehlende Bilder können auch mit `attribute::DefaultImage` verarbeitet werden.
 
-Es kann eine Image Serving-Vorlage konfiguriert werden, die den Text der Fehlermeldung im Antwortbild wiedergibt. Die folgenden vordefinierten Variablen können in die Vorlage `$error.title` eingefügt werden, die durch eine kurze Fehlerbeschreibung ersetzt wird, und `$error.message`, die durch eine detailliertere Fehlerbeschreibung ersetzt wird (die Detailtiefe wird mit `attribute::ErrorDetail` konfiguriert).
+Es kann eine Bildbereitstellungsvorlage konfiguriert werden, die den Fehlermeldungstext im Antwortbild rendert. Die folgenden vordefinierten Variablen können in der `$error.title`-Vorlage, die durch eine kurze Fehlerbeschreibung ersetzt wird, und in `$error.message`, die durch eine detailliertere Fehlerbeschreibung ersetzt wird (die Detailgenauigkeit wird mit `attribute::ErrorDetail` konfiguriert), enthalten sein.
 
-HTTP-Status 200 wird zurückgegeben, wenn das Fehlerbild/die Fehlervorlage erfolgreich verarbeitet werden kann. Tritt während dieser Verarbeitung ein Fehler auf, werden der HTTP-Fehlerstatus und eine Textmeldung zurückgegeben.
+Der HTTP-Status 200 wird zurückgegeben, wenn das Fehlerbild/die Fehlervorlage erfolgreich verarbeitet werden kann. Wenn während dieser Verarbeitung ein Fehler auftritt, werden der HTTP-Fehlerstatus und eine Textmeldung zurückgegeben.
 
 ## Eigenschaften {#section-f460c6c2dd1f46b29f9a79b093575f45}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger Katalog::Id -Wert in einem Bildkatalog oder ein relativer Pfad (zu `attribute::RootPath`) oder ein absoluter Pfad zu einer Bilddatei sein, auf die der Image-Server zugreifen kann.
+Text-String Wenn angegeben, muss ein gültiger Wert für catalog:id in einem Bildkatalog oder ein relativer (zu `attribute::RootPath`) oder absoluter Pfad zu einer Bilddatei sein, auf den der Bildserver zugreifen kann.
 
 ## Standard {#section-2885f289e5714ddca665a6aee401967f}
 
-Wird von `default::ErrorImage` übernommen, falls nicht definiert. Wenn definiert, aber leer, ist das Verhalten des Fehlerbilds deaktiviert, auch wenn `default::ErrorImage` definiert ist, und es werden ein HTTP-Fehlerstatus und eine Textmeldung zurückgegeben.
+Von `default::ErrorImage` geerbt, wenn nicht definiert. Wenn das Fehlerbildverhalten definiert, aber leer ist, wird es deaktiviert, selbst wenn `default::ErrorImage` definiert ist, und ein HTTP-Fehlerstatus und eine Textmeldung werden zurückgegeben.
 
 ## Beispiel {#section-c92090abe1d247529542a8dd4960c2e6}
 
-Um Antwortbilder mit der in das Bild gerenderten Fehlermeldung zu erhalten, müssen wir zunächst die Vorlage im Bildkatalog definieren. In diesem Fall erstellen wir einen Eintrag in unserem Bildkatalog mit dem Namen `onError`, der Folgendes in `catalog::Modifier` enthält:
+Um Antwortbilder mit der im Bild gerenderten Fehlermeldung zu erhalten, müssen wir zunächst die Vorlage im Bildkatalog definieren. In diesem Fall erstellen wir einen Eintrag in unserem Bildkatalog namens `onError`, der Folgendes in `catalog::Modifier` enthält:
 
 `size=300,300&bgc=ffffff&text=$error.message$`
 
-Die Vorlage ist bei `attribute::ErrorImage` registriert:
+Die Vorlage ist registriert bei `attribute::ErrorImage`:
 
 `ErrorImage=myCatalog/onError`
 
-In diesem Beispiel wird der Text mit der Standardschrift, der Schriftfarbe und der Schriftgröße gerendert.
+In diesem Beispiel wird der Text mit der Standardschriftart, der Schriftfarbe und der Schriftgröße gerendert.
 
 ## Verwandte Themen {#section-bbf1f85fc0a34033bdda1dd3e4e0bbb6}
 

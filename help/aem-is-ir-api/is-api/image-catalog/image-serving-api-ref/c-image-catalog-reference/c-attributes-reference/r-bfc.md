@@ -1,6 +1,6 @@
 ---
-title: Bfc
-description: Browserformatkonvertierung. Gibt an, ob die Konvertierungsfunktion für das Browserformat aktiviert oder deaktiviert ist.
+title: bfc
+description: Browser-Formatkonvertierung. Gibt an, ob die Browser-Formatkonvertierungsfunktion aktiviert oder deaktiviert ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 4%
 
 ---
 
-# Bfc{#bfc}
+# bfc{#bfc}
 
-Browserformatkonvertierung. Gibt an, ob die Konvertierungsfunktion für das Browserformat aktiviert oder deaktiviert ist.
+Browser-Formatkonvertierung. Gibt an, ob die Browser-Formatkonvertierungsfunktion aktiviert oder deaktiviert ist.
 
 <!--<a id="section_2768B2BEEE214676AA32F17E2A0E3343"></a>-->
 
@@ -23,7 +23,7 @@ Browserformatkonvertierung. Gibt an, ob die Konvertierungsfunktion für das Brow
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> true|false </span> </p> </td> 
-  <td class="stentry"> <p>Gibt an, ob die Konvertierungsfunktion für das Browserformat (Konvertieren von JPEG- oder PNG-Bildern in kleinere browserspezifische Dateiformate) aktiviert ( <span class="codeph"> true </span>) oder deaktiviert ( <span class="codeph"> false </span>) ist. </p> </td> 
+  <td class="stentry"> <p>Gibt an, ob die Browser-Formatkonvertierungsfunktion zum Konvertieren von JPEG- oder PNG-Bildern in kleinere browserspezifische Dateiformate aktiviert ( <span class="codeph"> true </span>) oder deaktiviert ( <span class="codeph"> false </span>) ist. </p> </td> 
  </tr> 
 </table>
 

@@ -1,6 +1,6 @@
 ---
 title: pscan
-description: Progressiver JPEG-Scan. Progressives JPEG zeigt ein Bild so an, dass es zunächst ein unscharfes/minderwertiges Foto anzeigt.
+description: Progressiver JPEG-Scan. Progressive JPEG zeigt ein Bild so an, dass zunächst ein unscharfes Bild mit niedriger Bildqualität vollständig angezeigt wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # pscan{#pscan}
 
-Progressiver JPEG-Scan. Progressives JPEG zeigt ein Bild so an, dass es zunächst ein unscharfes/minderwertiges Foto anzeigt. Wenn das Scannen fortgesetzt wird, wird es klarer, wenn die Bilddaten umfassender heruntergeladen werden. Mit diesem Parameter können Sie die Anzahl der Prüfungen festlegen, die zum Anzeigen des gesamten Bildes erforderlich sind (3, 4 oder 5).
+Progressiver JPEG-Scan. Progressive JPEG zeigt ein Bild so an, dass zunächst ein unscharfes Bild mit niedriger Bildqualität vollständig angezeigt wird. Mit dem Fortfahren des Scannens wird es klarer, da die Bilddaten umfassender heruntergeladen werden. Mit diesem Parameter können Sie festlegen, wie viele Scans erforderlich sind (3, 4 oder 5), damit das gesamte Bild angezeigt wird.
 
 `pscan=auto|3|4|5`
 
 Die tatsächliche Geschwindigkeit jedes Scans hängt von der Übertragungsgeschwindigkeit des Systems des Benutzers und des Computers ab, der die Daten empfängt und dekomprimiert.
 
-`Auto` verwendet die Scan-Einstellungen, die von der unabhängigen JPEG-Bibliothek berechnet werden und vom Farbmodell abhängen. Die Werte `3`, `4`, `5` entsprechen der Scan-Einstellung, die in Adobe Photoshop beim Speichern einer JPEG-Datei als PJPEG (progressives JPEG) gefunden wird.
+`Auto` verwendet die Scaneinstellungen, die von der unabhängigen JPEG-Bibliothek berechnet werden und vom Farbmodell abhängen. Die Werte `3`, `4` `5` der Scan-Einstellung in Adobe Photoshop entsprechen, wenn Sie eine JPEG-Datei als PJPEG (Progressive JPEG) speichern.
 
-Wenn `pscan` nicht gesetzt ist, wird standardmäßig `auto` verwendet.
+Wenn `pscan` nicht festgelegt ist, wird standardmäßig `auto` verwendet.
 
 ## Eigenschaften {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Anforderungsattribut. Gilt unabhängig von der aktuellen Ebeneneinstellung. Wird ignoriert, wenn das Ausgabeformat kein progressives JPEG ist.
+Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angewendet. Wird ignoriert, wenn das Ausgabeformat kein progressives JPEG ist.
 
 ## Standard {#section-01948f6cd7a2415091004cd7526436c7}
 

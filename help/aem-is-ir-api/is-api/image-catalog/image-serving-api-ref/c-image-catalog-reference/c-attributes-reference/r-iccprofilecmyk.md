@@ -1,7 +1,7 @@
 ---
-description: CMYK-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist, und für bestimmte CMYK-Farbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+description: CMYK-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Antwortbilder verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben ist, sowie für bestimmte CMYK-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
 solution: Experience Manager
-title: IccProfileCmyk
+title: IccProfileCMYK
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2bf83cf5-3fc9-42aa-a143-4b56e43ee4d1
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# IccProfileCmyk{#iccprofilecmyk}
+# IccProfileCMYK{#iccprofilecmyk}
 
-CMYK-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist, und für bestimmte CMYK-Farbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+CMYK-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Antwortbilder verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben ist, sowie für bestimmte CMYK-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
 
 ## Eigenschaften {#section-d8b6102cc1c744d482f99808ccfcaa24}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
 
 ## Standard {#section-62442df09a724950bfbdd0640b3e6678}
 
-Wird von `default::IccProfileCmyk` übernommen, wenn nicht definiert oder leer.
+Von `default::IccProfileCmyk` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-17071d1ed5ad469490fd715ba8f4d30d}
 

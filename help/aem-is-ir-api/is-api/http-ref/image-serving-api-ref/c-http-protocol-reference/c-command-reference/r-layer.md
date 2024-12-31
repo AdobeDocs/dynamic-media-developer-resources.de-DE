@@ -1,6 +1,6 @@
 ---
-title: Layer
-description: Wählen Sie Ebene aus. Wählt eine Ebene aus und startet ein neues Ebenendefinitionssegment in der Befehlssequenz.
+title: Schicht
+description: Ebene auswählen. Wählt eine Ebene aus und startet ein neues Ebenendefinitionssegment in der Befehlssequenz.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Layer{#layer}
+# Schicht{#layer}
 
-Wählen Sie Ebene aus. Wählt eine Ebene aus und startet ein neues Ebenendefinitionssegment in der Befehlssequenz.
+Ebene auswählen. Wählt eine Ebene aus und startet ein neues Ebenendefinitionssegment in der Befehlssequenz.
 
 `layer= *`n`*|comp[, *`name`*]`
 
@@ -22,56 +22,56 @@ Wählen Sie Ebene aus. Wählt eine Ebene aus und startet ein neues Ebenendefinit
 
 <table id="simpletable_22DE3365A6454949B0D30C6D7110476E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p></td> 
-  <td class="stentry"> <p>Anzahl der auszuwählenden Ebenen (0 oder mehr int). </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> N</span></span> </p></td> 
+  <td class="stentry"> <p>Anzahl der auszuwählenden Ebenen (0 oder höher int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> comp</span> </p></td> 
-  <td class="stentry"> <p>Wählen Sie das Composite-Bild aus. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> Abschl</span> </p></td> 
+  <td class="stentry"> <p>Wählen Sie das zusammengesetzte Bild aus. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Name</span></span> </p></td> 
   <td class="stentry"> <p>Ebenenname. </p></td> 
  </tr> 
 </table>
 
-Alle Befehle im Ebenensegment werden auf die angegebene Ebene angewendet. Ein Ebenensegment wird durch den nächsten Befehl `layer=` oder `effect=` oder das Ende der Anforderung beendet.
+Alle Befehle innerhalb des Ebenensegments werden auf die angegebene Ebene angewendet. Ein Ebenensegment wird durch den nächsten `layer=`- oder `effect=`-Befehl oder das Ende der Anfrage beendet.
 
-Geben Sie &quot;`layer=comp`&quot;an, um das zusammengesetzte Bild (oder für einige Befehle die Ansicht) auszuwählen.
+Geben Sie `layer=comp` an, um das zusammengesetzte Bild (oder bei einigen Befehlen die Ansicht) auszuwählen.
 
-Die Ebenennummer gibt effektiv die z-Reihenfolge für die Ebene an. Höhere Ebenen werden auf unternummerierten Ebenen platziert.
+Die Ebenennummer gibt effektiv die z-Reihenfolge für die Ebene an. Ebenen mit höheren Nummern werden auf Ebenen mit niedrigeren Nummern platziert.
 
-Ebenennummern müssen nicht aufeinander folgen. Ebene 0 ist erforderlich.
+Ebenennummern müssen nicht aufeinander folgend sein. Ebene 0 ist erforderlich.
 
-Ein Name kann einer Ebene mit der Befehlsvariante `layer= *`n`*, *`name`*` zugewiesen werden. Nachdem eine benannte Ebene definiert wurde, kann sie mit ` layer= *`Name`*` referenziert werden, ohne die Ebenennummer kennen zu müssen. Dieselbe Ebene kann mit mehreren `layer= *`n`*, *`name`*` -Befehlen mehrere Namen erhalten.
+Einer Ebene kann ein Name mit der Befehlsvariante `layer= *`n`*, *`name`*` zugewiesen werden. Sobald eine benannte Ebene definiert ist, kann sie mit &quot;` layer= *`&quot; `*` werden, ohne die Ebenennummer kennen zu müssen. Der gleichen Ebene können mehrere Namen zugewiesen werden, indem mehrere `layer= *`n`*, *`name`*`-Befehle verwendet werden.
 
 >[!NOTE]
 >
->Ebene 0 bestimmt die Gesamtgröße der Arbeitsfläche. Alle Teile von Schichten, die außerhalb der Grenzen der Ebene 0 fallen, werden bei der Erstellung des Composite abgeschnitten.
+>Ebene 0 bestimmt die Gesamtgröße der Arbeitsfläche für die Komposition. Alle Teile von Schichten, die außerhalb der Grenzen der Schicht 0 liegen, werden beim Aufbau des Verbundes abgeschnitten.
 
 ## Eigenschaften {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-Ebenenbefehl. Ersatzvariablenverweise werden in `layer=` nicht unterstützt.
+Ebenenbefehl. Verweise auf Substitutionsvariablen werden in `layer=` nicht unterstützt.
 
-`comp` ist nicht als *`name`*-Zeichenfolge erlaubt. Ein Fehler wird zurückgegeben, wenn dieselbe *`name`* mehr als einer Ebene zugewiesen ist oder wenn eine Ebene durch *`name`* referenziert wird, die zuvor nicht definiert wurde.
+`comp` ist als *`name`* nicht zulässig. Ein Fehler wird zurückgegeben, wenn dieselbe *`name`* mehr als einer Ebene zugewiesen ist oder wenn eine Ebene von *`name`* referenziert wird, die zuvor nicht definiert wurde.
 
 ## Standard {#section-091859a03f8048c2b7092f0fec9c1006}
 
-`layer=comp`. Viele Befehle und Attribute gelten für Ebene 0, wenn `layer=comp`.
+`layer=comp`. Viele Befehle und Attribute gelten für Ebene 0, falls `layer=comp`.
 
 ## Sonderfälle {#section-e087cb2e3562473e8d391abfa3b9489f}
 
-* Wenn derselbe Name mehreren Ebenen zugeordnet ist (z. B. `layer=1,image&layer=2,image`), tritt ein Fehler auf.
-* Wenn derselbe Name mehrmals einer einzelnen Ebene zugeordnet wird (z. B. `layer=1,image&layer=1,image`), wird der Umfang wie gewohnt ohne Fehler festgelegt.
+* Wenn derselbe Name mehreren Ebenen zugeordnet wird (z. B.: `layer=1,image&layer=2,image`), tritt ein Fehler auf.
+* Wenn derselbe Name einer einzelnen Ebene mehrmals zugeordnet wird (z. B.: `layer=1,image&layer=1,image`), wird der Umfang wie gewohnt und ohne Fehler festgelegt.
 * Es werden mehrere Namen für dieselbe Ebene unterstützt.
 
-  Jeder Name kann verwendet werden, um auf die Ebene zu verweisen (z. B. `layer=1,image&layer=1,picture`).
-* Wenn ein referenzierter Name nie einer Ebenennummer zugeordnet wird (z. B. `layer=1,image&layer=picture`), tritt ein Fehler auf.
-* Ersatzvariablen werden in Ebenen-Modifikatoren nicht unterstützt (z. B. `layer=$image$`).
+  Beide Namen können für Verweise auf die Ebene verwendet werden (z. B.: `layer=1,image&layer=1,picture`).
+* Wenn ein referenzierter Name nie einer Ebenennummer zugeordnet wird (z. B.: `layer=1,image&layer=picture`), tritt ein Fehler auf.
+* Substitutionsvariablen werden in Ebenenmodifikatoren nicht unterstützt (z. B.: `layer=$image$`).
 
-  Dies gilt für alle Permutationen, nicht nur für Ebenennamen, sondern auch für allgemeine Ebenenmodifikatoren.
+  Dies gilt für alle Permutationen, nicht nur für Ebenennamen, sondern für Ebenenmodifikatoren im Allgemeinen.
 
-* Alle Zusammenführungs- und Überschreibungsregeln sollten genau so funktionieren, wie wenn dieselbe Ebene in mehreren Quellen referenziert wird (Katalogdatensätze vor oder nach dem Modifikator, Makros usw.).
+* Alle Zusammenführungs- und Überschreibungsregeln sollten genau so funktionieren wie wenn dieselbe Ebene in mehreren Quellen referenziert wird (Anfrage, Datensätze im Pre- oder Post-Modifikator-Katalog, Makros usw.).
 
 ## Beispiel {#section-cc40de6a0a754178aa752601539c815b}
 

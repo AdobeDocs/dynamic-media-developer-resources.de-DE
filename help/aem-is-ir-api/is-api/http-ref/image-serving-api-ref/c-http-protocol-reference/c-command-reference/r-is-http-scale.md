@@ -1,6 +1,6 @@
 ---
-title: scale
-description: Bild skalieren. Skaliert ein Ebenenquellenbild nach Faktor im Verhältnis zum Bild mit voller Auflösung.
+title: Skala
+description: Bild skalieren. Skaliert ein Ebenenquellbild relativ zum Bild mit voller Auflösung nach Faktor.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# scale{#scale}
+# Skala{#scale}
 
-Bild skalieren. Skaliert ein Ebenenquellenbild nach Faktor im Verhältnis zum Bild mit voller Auflösung.
+Bild skalieren. Skaliert ein Ebenenquellbild relativ zum Bild mit voller Auflösung nach Faktor.
 
 `scale= *`Faktor`*`
 
@@ -25,15 +25,15 @@ Bild skalieren. Skaliert ein Ebenenquellenbild nach Faktor im Verhältnis zum Bi
  </tr> 
 </table>
 
-Bei `scale=1` wird keine Skalierung angewendet. *`factor`* kleiner als 1,0 Downskala und größer als 1,0 vergrößert das Quellbild.
+Bei der `scale=1` wird keine Skalierung vorgenommen. *`factor`* kleiner als 1,0 wird das Quellbild herunterskaliert und größer als 1,0 vergrößert.
 
 ## Eigenschaften {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Source-Attribut image/mask. Wird ignoriert, wenn `size=` auch für die aktuelle Ebene angegeben ist. Überschreibt `res=`. Gilt für Ebene 0, wenn für `layer=comp` angegeben. Wird ignoriert, wenn die Ebene nicht mit einem Bild oder einer Maske verknüpft ist.
+Source-Bild-/Maskenattribut. Wird ignoriert, wenn `size=` auch für die aktuelle Ebene angegeben ist. Überschreibt `res=`. Gilt für Ebene 0, wenn für `layer=comp` angegeben. Wird ignoriert, wenn die Ebene keinem Bild oder keiner Maske zugeordnet ist.
 
 ## Standard {#section-26e64904362342a5a62c5f6598f330c4}
 
-Wenn nicht angegeben, wird `res=` verwendet. Wenn `res=` nicht angegeben ist, wird das Bild ohne Skalierung verwendet.
+Wenn nichts angegeben ist, wird `res=` verwendet. Wenn `res=` nicht angegeben ist, wird das Bild ohne Skalierung verwendet.
 
 ## Verwandte Themen {#section-61a11f30d37341d58c10df759bfff951}
 

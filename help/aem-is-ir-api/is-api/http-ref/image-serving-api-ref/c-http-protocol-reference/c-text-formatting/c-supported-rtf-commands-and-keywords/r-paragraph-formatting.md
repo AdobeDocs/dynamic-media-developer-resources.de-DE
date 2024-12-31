@@ -27,83 +27,83 @@ Die folgenden Absatzformatierungsbefehle werden unterstützt.
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \pard </span> </td> 
-   <td> <p>Absatzformatierung auf Standard zurücksetzen </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> nur </p> </td> 
+   <td> <p>Absatzformatierung auf Standard zurücksetzen. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= nur </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ql </span> </td> 
-   <td> <p>Text linksbündig ausrichten </p> </td> 
+   <td> <p>Linksbündiger Text. </p> </td> 
    <td> <p>Standard. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qr </span> </td> 
-   <td> <p>Text rechtsbündig ausrichten </p> </td> 
+   <td> <p>Text rechts ausrichten. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qc </span> </td> 
-   <td> <p>Text horizontal zentrieren </p> </td> 
+   <td> <p>Text horizontal zentrieren. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qj </span> </td> 
-   <td> <p>Text horizontal ausrichten </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> nur </p> </td> 
+   <td> <p>Text horizontal ausrichten. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= nur </span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastql </span> </td> 
-   <td> <p>Richten Sie die letzte Zeile eines Absatzes links aus. </p> </td> 
-   <td> <p>Standard; <span class="codeph"> textPs= </span> nur; wird ignoriert, wenn <span class="codeph"> \qj </span> nicht aktiv ist. </p> </td> 
+   <td> <span class="codeph"> \lastQL-</span> </td> 
+   <td> <p>Linke Ausrichtung der letzten Zeile eines Absatzes. </p> </td> 
+   <td> <p>Standard; nur <span class="codeph"> textPs= </span>; wird ignoriert, wenn <span class="codeph"> \qj </span>nicht aktiv ist. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqr </span> </td> 
-   <td> <p>Richten Sie die letzte Zeile eines gerechtfertigten Absatzes rechtsbündig aus. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> nur; wird ignoriert, wenn <span class="codeph"> \qj </span> nicht aktiv ist. </p> </td> 
+   <td> <span class="codeph"> \lastQr </span> </td> 
+   <td> <p>Richten Sie die letzte Zeile eines gerechtfertigten Absatzes rechts aus. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span>; wird ignoriert, wenn <span class="codeph"> \qj </span> nicht aktiv ist. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqc </span> </td> 
-   <td> <p>Zentrieren Sie die letzte Zeile eines begründeten Absatzes. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> nur; wird ignoriert, wenn <span class="codeph"> \qj </span>nicht aktiv ist. </p> </td> 
+   <td> <span class="codeph"> \lastQC </span> </td> 
+   <td> <p>Zentriert die letzte Zeile eines gerechtfertigten Absatzes. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span>; wird ignoriert, wenn <span class="codeph"> \qj </span>nicht aktiv ist. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqj </span> </td> 
-   <td> <p>Die letzte Zeile eines begründeten Absatzes verlängern (ausdehnen). </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> nur; wird ignoriert, wenn <span class="codeph"> \qj </span>nicht aktiv ist. </p> </td> 
+   <td> <span class="codeph"> \lastQJ </span> </td> 
+   <td> <p>Richten Sie die letzte Zeile eines gerechtfertigten Absatzes aus (dehnen Sie sie). </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span>; wird ignoriert, wenn <span class="codeph"> \qj </span>nicht aktiv ist. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fi <span class="varname"> n </span> </span> </td> 
    <td> <p>Einzug der ersten Zeile. </p> </td> 
-   <td> <p>Twips; nur <span class="codeph"> textPs= </span>. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= nur </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \li <span class="varname"> n </span> </span> </td> 
+   <td> <span class="codeph"> \li <span class="varname"> N </span> </span> </td> 
    <td> <p>Linker Einzug. </p> </td> 
-   <td> <p>Twips; nur <span class="codeph"> textPs= </span>. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= nur </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \ri <span class="varname"> n </span> </span> </td> 
+   <td> <span class="codeph"> \ri <span class="varname"> N </span> </span> </td> 
    <td> <p>Rechter Einzug. </p> </td> 
-   <td> <p>Twips; nur <span class="codeph"> textPs= </span>. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= nur </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \sl <span class="varname"> n </span> </span> </td> 
+   <td> <span class="codeph"> \sl <span class="varname"> N </span> </span> </td> 
    <td> <p>Abstand zwischen den Zeilen. </p> </td> 
-   <td> <p>0 (Standard) für den automatischen Zeilenabstand; positive Werte verwenden nur den Wert, wenn größer als der standardmäßige Zeilenabstand, negative Werte, um den Abstand zu erzwingen. </p> </td> 
+   <td> <p>0 (Standard) für automatischen Zeilenabstand; positive Werte nur verwenden, wenn der Wert größer als der standardmäßige Zeilenabstand ist; negativer Wert für den erzwungenen Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \slmult <span class="varname"> n </span> </span> </td> 
-   <td> <p>Zeilenabstand mehrere Flag. </p> </td> 
-   <td> <p>Setzen Sie den Wert auf 0 (Standard), wenn sich <span class="codeph"> \sl </span> in Verzweigungen befindet, auf 1, wenn <span class="codeph"> \sl </span> das Vielfache des Standardabstands aufweist. </p> </td> 
+   <td> <span class="codeph"> \slmult <span class="varname"> N </span> </span> </td> 
+   <td> <p>Mehrfachkennzeichnung für Zeilenabstand. </p> </td> 
+   <td> <p>Setzen Sie auf 0 (Standard), wenn <span class="codeph"> \sl </span> in Twips vorliegt, auf 1, wenn <span class="codeph"> \sl </span> im Vielfachen des Standardabstands liegt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \sb <span class="varname"> n </span> </span> </td> 
-   <td> <p>Zusätzlicher Abstand vor Absatz. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> text= </span>wendet <span class="codeph"> \sb </span> auf den ersten Absatz im Textfeld an, <span class="codeph"> textPs= </span> nicht. </p> </td> 
+   <td> <span class="codeph"> \sb <span class="varname"> N </span> </span> </td> 
+   <td> <p>Zusätzliches Leerzeichen vor dem Absatz. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> text= </span>gilt <span class="codeph"> \sb </span> für den ersten Absatz im Textfeld, <span class="codeph"> textPs= </span> nicht. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sa <span class="varname"> n </span> </span> </td> 
-   <td> <p>Zusätzlicher Abstand nach Absatz. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> text= </span> wendet <span class="codeph"> \sa </span> auf den letzten Absatz im Textfeld an, <span class="codeph"> textPs= </span> nicht. </p> </td> 
+   <td> <p>Zusätzliches Leerzeichen nach Absatz. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> text= </span> gilt <span class="codeph"> \sa </span> für den letzten Absatz im Textfeld, <span class="codeph"> textPs= </span> nicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>

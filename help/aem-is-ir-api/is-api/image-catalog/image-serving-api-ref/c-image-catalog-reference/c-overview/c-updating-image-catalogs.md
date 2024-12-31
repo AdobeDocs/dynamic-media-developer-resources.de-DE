@@ -1,5 +1,5 @@
 ---
-description: Der Server überwacht kontinuierlich den Katalogordner und lädt automatisch einen Bildkatalog einschließlich der zugehörigen Katalogdatendateien neu, wenn er feststellt, dass die Hauptkatalogattributdatei geändert wurde.
+description: Der Server überwacht kontinuierlich den Katalogordner und lädt automatisch einen Bildkatalog einschließlich der zugehörigen Katalogdatendateien neu, wenn er erkennt, dass die Hauptkatalogattributdatei geändert wurde.
 solution: Experience Manager
 title: Aktualisieren von Bildkatalogen
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Aktualisieren von Bildkatalogen{#updating-image-catalogs}
 
-Der Server überwacht kontinuierlich den Katalogordner und lädt automatisch einen Bildkatalog einschließlich der zugehörigen Katalogdatendateien neu, wenn er feststellt, dass die Hauptkatalogattributdatei geändert wurde.
+Der Server überwacht kontinuierlich den Katalogordner und lädt automatisch einen Bildkatalog einschließlich der zugehörigen Katalogdatendateien neu, wenn er erkennt, dass die Hauptkatalogattributdatei geändert wurde.
 
-Um Bildkataloge auf dem Server zu aktualisieren, ersetzen Sie zunächst alle Katalogdatendateien, die geändert werden müssen, und ersetzen Sie dann die Katalogattributdatei (bzw. &quot;berühren&quot;, um das Dateidatum zu aktualisieren), sodass sie Trigger wird, dass der Katalog neu geladen wird.
+Um die Bildkataloge auf dem Server zu aktualisieren, ersetzen Sie zunächst alle zu ändernden Katalogdatendateien und ersetzen Sie dann die Katalogattributdatei, um das Katalogdatum zu aktualisieren (bzw. berühren Sie diese, um sie zu aktualisieren), sodass der Trigger den Katalog neu lädt.
 
 ## Inkrementelle Aktualisierungen {#section-2c0f2c1b8480486d86920b5f2cfe72d2}
 
-Das Laden und Verarbeiten großer Bildkataloge kann den Server erheblich belasten und sich negativ auf Live-Serving-Vorgänge auswirken. Um diese Auswirkungen zu minimieren, wird empfohlen, einen inkrementellen Katalogaktualisierungsmechanismus zu implementieren, der wie folgt funktioniert:
+Das Laden und Verarbeiten großer Bildkataloge kann den Server erheblich belasten und sich negativ auf die Live-Serving-Vorgänge auswirken. Um diese Auswirkungen zu minimieren, wird empfohlen, einen inkrementellen Katalogaktualisierungsmechanismus zu implementieren, der wie folgt funktioniert:
 
-Eine primäre Katalogdatei, die alle Bilder enthält, wird nächtlich während geringer Traffic-Zeiten geladen. Wenn es tagsüber erforderlich ist, Datensätze im Bildkatalog hinzuzufügen oder zu ändern, wird eine weitere Bilddatendatei erstellt, die nur die neuen oder geänderten Datensätze enthält. Diese Datei wird als sekundäre Bilddatendatei in `attribute::CatalogFile` registriert. Der Server erkennt, dass sich die Katalogattributdatei geändert hat, und überprüft dann, welche Katalogdatendateien sich geändert haben. Wenn die Hauptbilddatendatei nicht berührt wurde, lädt oder lädt der Server nur die inkrementelle Datendatei neu. Da diese Datei in der Regel viel kleiner ist als die Hauptkatalogdatei, sind die Auswirkungen auf den Server im Vergleich zum Neuladen des Hauptkatalogs erheblich geringer.
+Eine primäre Katalogdatei, die alle Bilder enthält, wird jede Nacht während der Stunden mit geringem Traffic geladen. Wenn es tagsüber erforderlich ist, Datensätze im Bildkatalog hinzuzufügen oder zu ändern, wird eine andere Bilddatendatei erstellt, die nur die neuen oder geänderten Datensätze enthält. Diese Datei wird in `attribute::CatalogFile` als sekundäre Bilddatendatei registriert. Der Server erkennt, dass die Katalogattributdatei geändert wurde, und prüft dann, welche Katalogdatendateien geändert wurden. Wenn die Hauptbilddatendatei nicht berührt wurde, lädt der Server nur die inkrementelle Datendatei oder lädt sie neu. Da diese Datei in der Regel viel kleiner ist als die Hauptkatalogdatei, sind die Auswirkungen auf den Server viel geringer, verglichen mit dem Neuladen des Hauptkatalogs.
 
-Inkrementelle Aktualisierungen können die Auswirkungen auf den Server bei hohem Traffic erheblich reduzieren. Es wird empfohlen, die inkrementelle Katalogdatendatei regelmäßig während wenig Traffic-Stunden in der Hauptkatalogdatendatei zusammenzuführen, um eine optimale Serverleistung zu gewährleisten.
+Inkrementelle Aktualisierungen können die Auswirkungen auf den Server bei starkem Traffic erheblich reduzieren. Es wird empfohlen, die inkrementelle Katalogdatendatei während verkehrsarmer Stunden regelmäßig mit der Hauptkatalogdatendatei zusammenzuführen, um eine optimale Server-Leistung zu gewährleisten.

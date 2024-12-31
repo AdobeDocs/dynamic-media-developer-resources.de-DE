@@ -1,5 +1,5 @@
 ---
-description: Maximale Antwortbildgröße. Maximale Breite und Höhe des Antwortbilds, das an den Client zurückgegeben werden kann.
+description: Maximale Größe des Antwortbildes. Maximale Breite und Höhe des Antwortbildes, das an den Client zurückgegeben werden kann.
 solution: Experience Manager
 title: MaxPix
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # MaxPix{#maxpix}
 
-Maximale Antwortbildgröße. Maximale Breite und Höhe des Antwortbilds, das an den Client zurückgegeben werden kann.
+Maximale Größe des Antwortbildes. Maximale Breite und Höhe des Antwortbildes, das an den Client zurückgegeben werden kann.
 
-Der Server gibt einen Fehler zurück, wenn eine Anfrage dazu führen würde, dass ein Antwortbild mit einer Breite oder Höhe größer als `attribute::MaxPix` ist.
+Der Server gibt einen Fehler zurück, wenn eine Anfrage zu einem Antwortbild führen würde, dessen Breite oder Höhe größer als `attribute::MaxPix` ist.
 
 ## Eigenschaften {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-Zwei ganze Zahlen, größer als 0, durch Kommas getrennt. Breite und Höhe in Pixel. Kann auch auf `0,0` gesetzt werden, um die Größe des Antwortbilds ohne Einschränkungen zuzulassen.
+Zwei ganze Zahlen, größer als 0, durch ein Komma getrennt. Breite und Höhe in Pixel. Kann auch auf `0,0` gesetzt werden, um eine beliebige Größe des Antwortbildes ohne Einschränkungen zuzulassen.
 
 ## Standard {#section-1003537434da432fb2af100ecdbf9d72}
 
-Wird von `default::MaxPix` übernommen, wenn nicht definiert oder leer.
+Von `default::MaxPix` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-7385697a1b86482bba19db894f7af95b}
 

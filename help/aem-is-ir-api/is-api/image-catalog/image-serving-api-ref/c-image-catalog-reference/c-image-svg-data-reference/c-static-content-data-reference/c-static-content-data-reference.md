@@ -1,7 +1,7 @@
 ---
 description: In diesem Abschnitt werden die statischen Inhaltsdatenattribute beschrieben.
 solution: Experience Manager
-title: Datenreferenz für statische Inhalte
+title: Referenz für statische Inhaltsdaten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1e1c2a8b-aa25-4452-bf46-c99cd37a4e86
@@ -12,11 +12,11 @@ ht-degree: 7%
 
 ---
 
-# Datenreferenz für statische Inhalte{#static-content-data-reference}
+# Referenz für statische Inhaltsdaten{#static-content-data-reference}
 
 In diesem Abschnitt werden die statischen Inhaltsdatenattribute beschrieben.
 
 * [Ablauf](r-expiration-static.md)
 * [Id](r-id-static.md)
 * [Pfad](r-path-static.md)
-* [TimeStamp](r-timestamp-static.md)
+* [Zeitstempel](r-timestamp-static.md)

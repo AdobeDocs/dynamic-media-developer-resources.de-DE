@@ -1,7 +1,7 @@
 ---
-description: Auflistungsdatentyp.
+description: Datentyp der Auflistung.
 solution: Experience Manager
-title: Enum
+title: Aufzählung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: df7170f5-652c-422a-9f2a-3cb02aa1eaa0
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Enum{#enum}
+# Aufzählung{#enum}
 
-Auflistungsdatentyp.
+Datentyp der Auflistung.
 
-Auflistungswerte sind Ganzzahlen, normalerweise positiv, aufeinander folgen und beginnen bei 0 oder 1.
+Auflistungswerte sind ganze Zahlen, normalerweise positiv, aufeinander folgend und beginnend bei 0 oder 1.

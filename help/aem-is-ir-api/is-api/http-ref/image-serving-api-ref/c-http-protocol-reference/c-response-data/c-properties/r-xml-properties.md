@@ -1,5 +1,5 @@
 ---
-description: Wenn xml als Antwortformat angegeben ist, werden die Antwortdaten als XML-Dokument formatiert, das von jedem XML-Standardparser analysiert werden kann.
+description: Wenn xml als Antwortformat angegeben ist, werden die Antwortdaten als XML-Dokument formatiert, das von jedem standardmäßigen XML-Parser geparst werden kann.
 solution: Experience Manager
 title: XML-Eigenschaften
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # XML-Eigenschaften{#xml-properties}
 
-Wenn xml als Antwortformat angegeben ist, werden die Antwortdaten als XML-Dokument formatiert, das von jedem XML-Standardparser analysiert werden kann.
+Wenn xml als Antwortformat angegeben ist, werden die Antwortdaten als XML-Dokument formatiert, das von jedem standardmäßigen XML-Parser geparst werden kann.
 
-Ein typisches Eigenschaftsantwort-Dokument weist folgende allgemeine Struktur auf:
+Ein typisches Eigenschaftenantwortdokument weist diese allgemeine Struktur auf:
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -38,8 +38,8 @@ Ein typisches Eigenschaftsantwort-Dokument weist folgende allgemeine Struktur au
 </prop-group>
 ```
 
-Das Element `<prop-group>` wird als der äußere Container und für die Gruppierung von Eigenschaften verwendet. Wenn eine Gruppe benannt ist, entspricht der Name dem Java/JavaScript-Objektnamen.
+Das `<prop-group>`-Element wird als äußerster Container und für die Gruppierung von Eigenschaften verwendet. Wenn eine Gruppe benannt ist, entspricht der Name dem Java-/JavaScript-Objektnamen.
 
 >[!NOTE]
 >
->Für einige `req=` -Typen kann eine Zeichenkodierung angegeben werden. Weitere Informationen finden Sie in der Beschreibung des jeweiligen `req=`Befehls.
+>Die Zeichenkodierung kann für einige `req=` angegeben werden. Weitere Informationen finden Sie in der Beschreibung `req=` spezifischen Befehls .

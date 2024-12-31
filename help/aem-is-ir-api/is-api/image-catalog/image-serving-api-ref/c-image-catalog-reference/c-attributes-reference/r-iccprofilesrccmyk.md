@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcCmyk
-description: CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, und für bestimmte CMYK-Farbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+description: CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, sowie für bestimmte CMYK-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
-CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, und für bestimmte CMYK-Farbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben wurden.
+CMYK-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für CMYK-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, sowie für bestimmte CMYK-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
 
 ## Eigenschaften {#section-fc2ad12a3c6e4c7cab495f1878638e66}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein CMYK-Profil sein.
 
 ## Standard {#section-c1f63b4bd32a4f38bf5d68decb9e25da}
 
-Wird von `default::IccProfileSrcCmyk` übernommen, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcCmyk` nicht in ein gültiges Profil aufgelöst wird, wird stattdessen `attribute::IccProfileCmyk` verwendet.
+Von `default::IccProfileSrcCmyk` geerbt, wenn nicht definiert oder leer. Wenn `attribute::IccProfileSrcCmyk` nicht zu einem gültigen Profil aufgelöst wird, wird stattdessen `attribute::IccProfileCmyk` verwendet.
 
 ## Verwandte Themen {#section-a6623bd4277e43b084ec0fb9e02069dc}
 

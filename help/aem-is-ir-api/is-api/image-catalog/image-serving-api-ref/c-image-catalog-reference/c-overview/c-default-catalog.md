@@ -1,5 +1,5 @@
 ---
-description: Der Standardkatalog enthält Standardwerte für alle Katalogattribute für alle Bildkataloge.
+description: Der Standardkatalog stellt Standardwerte für alle Katalogattribute für alle Bildkataloge bereit.
 solution: Experience Manager
 title: Standardkatalog
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Standardkatalog{#default-catalog}
 
-Der Standardkatalog enthält Standardwerte für alle Katalogattribute für alle Bildkataloge.
+Der Standardkatalog stellt Standardwerte für alle Katalogattribute für alle Bildkataloge bereit.
 
-Wenn ein bestimmtes Attribut in einem bestimmten Bildkatalog nicht gefunden werden kann, verwendet der Server stattdessen den entsprechenden Wert aus dem Standardkatalog. Ebenso kann der Standardkatalog verwendet werden, um Standardwerte für bestimmte Katalogdatensätze (Bilder, Makrodefinitionen, Schriftarten und ICC-Profile) bereitzustellen. Wenn ein bestimmter Datensatz nicht in einem bestimmten Bildkatalog gefunden werden kann, versucht der Server, ihn stattdessen im Standardkatalog zu finden. Dadurch können Bildkataloge dünn befüllt werden und die Verwaltung globaler Attribute und Daten, wie freigegebene Vorlagen, Makros, Schriftarten usw., wird vereinfacht.
+Wenn ein bestimmtes Attribut in einem bestimmten Bildkatalog nicht gefunden werden kann, verwendet der Server stattdessen den entsprechenden Wert aus dem Standardkatalog. Ebenso kann der Standardkatalog verwendet werden, um Standardwerte für bestimmte Katalogdatensätze (Bilder, Makrodefinitionen, Schriftarten und ICC-Profile) bereitzustellen. Wenn ein bestimmter Datensatz nicht in einem bestimmten Bildkatalog gefunden werden kann, versucht der Server stattdessen, ihn im Standardkatalog zu finden. Dadurch können Bildkataloge spärlich gefüllt werden und die Verwaltung globaler Attribute und Daten, wie freigegebene Vorlagen, Makros, Schriftarten usw. wird vereinfacht.
 
-Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (Makros, Schriftarten, ICC-Profile, Vorab-Verarbeitungsregeln anfordern) bereit, wenn kein bestimmter Bildkatalog an einem Vorgang beteiligt ist.
+Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze bereit (Makros, Schriftarten, ICC-Profile, Regeln für die Anfragevorverarbeitung), wenn an einem Vorgang kein bestimmter Bildkatalog beteiligt ist.
 
-Damit die Variable &quot;[!DNL Platform Server]&quot; ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog den Namen &quot;[!DNL default.ini]&quot;, immer im Katalogordner vorhanden sein und mit allen erforderlichen Attributen gefüllt werden, mit Ausnahme von &quot;`attribute::RootId`&quot; und den Verweisen auf die verschiedenen Katalogdatendateien, die alle optional sind.
+Damit die [!DNL Platform Server] ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog [!DNL default.ini] benannt sein, immer im Katalogordner vorhanden sein und vollständig mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme von `attribute::RootId` und den Verweisen auf die verschiedenen Katalogdatendateien, die alle optional sind.
 
 >[!NOTE]
 >
->Alle Katalogattributdateien mit Ausnahme von [!DNL default.ini] müssen einen eindeutigen `attribute::RootId` -Wert enthalten. `attribute::RootId` in [!DNL default.ini] muss leer sein.
+>Alle Katalogattributdateien außer [!DNL default.ini] müssen einen eindeutigen `attribute::RootId` enthalten. `attribute::RootId` in [!DNL default.ini] muss leer sein.

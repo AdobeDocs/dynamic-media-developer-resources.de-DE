@@ -1,5 +1,5 @@
 ---
-description: Themen in diesem Abschnitt beschreiben die Syntax und Funktionen der HTTP-Protokolle.
+description: In den Themen in diesem Abschnitt werden die Syntax und die Funktionen der HTTP-Protokolle beschrieben.
 solution: Experience Manager
 title: Syntax und Funktionen
 feature: Dynamic Media Classic,SDK/API
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # Syntax und Funktionen{#syntax-and-features}
 
-Themen in diesem Abschnitt beschreiben die Syntax und Funktionen der HTTP-Protokolle.
+In den Themen in diesem Abschnitt werden die Syntax und die Funktionen der HTTP-Protokolle beschrieben.
 
 * [Grundlegende Syntax des Image Serving-HTTP-Protokolls](r-basic-syntax.md)
-* [Image Serving HTTP-Protokoll, Befehl   Übersicht](c-command-overview/c-command-overview.md)
+* [Image Serving-HTTP-Protokollbefehl   Übersicht](c-command-overview/c-command-overview.md)
 * [Ebenenübersicht](c-layering-overview/c-layering-overview.md)
-* [Ebenenvorgänge](c-layering-overview/c-layer-operations.md)
+* [Layer-Vorgänge](c-layering-overview/c-layer-operations.md)
 * [Ebeneneffekte](r-layer-effects.md)
 * [Verschachtelung und Einbettung anfordern](r-request-nesting-and-embedding.md)
-* [Ersatzvariablen](r-is-http-substitution-variables.md)
+* [Substitutionsvariablen](r-is-http-substitution-variables.md)
 * [Befehlsmakros](r-is-http-command-macros.md)
 * [Bildkataloge](r-image-catalogs.md)
-* [Objekt-ID-Übersetzung](r-object-id-translation.md)
+* [Übersetzung der Objekt-ID](r-object-id-translation.md)
 * [Lokalisierung von Textzeichenfolgen](r-text-string-localization.md)
 * [SVG-Unterstützung](r-svg-support.md)
-* [Vorverarbeitung anfordern](r-request-preprocessing.md)
+* [Vorab-Bearbeitung einer Anfrage](r-request-preprocessing.md)
 * [Imagemaps](r-image-maps.md)
-* [Image Serving-Farbmanagement](r-color-management.md)
-* [Image Serving HTTP-Kodierung](r-http-encoding.md)
-* [Sperren von Anforderungen](r-request-locking.md)
-* [Verschleierung von Anfragen](r-request-obfuscation.md)
+* [Farbmanagement für Bildbereitstellung](r-color-management.md)
+* [HTTP-Codierung der Bildbereitstellung](r-http-encoding.md)
+* [Anforderungssperre](r-request-locking.md)
+* [Verschleierung anfordern](r-request-obfuscation.md)
 * [Wasserzeichen](r-watermarks.md)
-* [Bereitstellen von statischen (Nicht-Bild-)Inhalten](r-serving-static-non-image-content.md)
-* [Medienset-Anforderungen](r-media-set-requests.md)
+* [Bereitstellen von statischem (Nicht-Bild-)Inhalt](r-serving-static-non-image-content.md)
+* [Medienset-Anfragen](r-media-set-requests.md)

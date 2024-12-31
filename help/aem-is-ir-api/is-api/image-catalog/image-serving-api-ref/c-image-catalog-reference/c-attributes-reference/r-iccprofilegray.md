@@ -1,6 +1,6 @@
 ---
 title: IccProfileGray
-description: Graustufen-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist, und für bestimmte Graustufenfarbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben werden.
+description: Graustufen-Standardfarbprofil für die Ausgabe. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben wurde, sowie für bestimmte Graustufen-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen festgelegt wurden, z. B. color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileGray{#iccprofilegray}
 
-Graustufen-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn kein Ausgabefarbraum mit icc= angegeben ist, und für bestimmte Graustufenfarbwerte, die mit verschiedenen Image Serving-Befehlen wie color= angegeben werden.
+Graustufen-Standardfarbprofil für die Ausgabe. Gibt den Namen des ICC-Farbprofils an, das für Graustufen-Antwortbilder verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben wurde, sowie für bestimmte Graustufen-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen festgelegt wurden, z. B. color=.
 
 ## Eigenschaften {#section-03f090ee2acf4537b83f78840d23ecab}
 
-Textzeichenfolge. Wenn angegeben, muss ein gültiger `icc::Name` -Wert aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein Graustufenprofil sein.
 
 ## Standard {#section-95ba3ab15edc4259b657c6ebf8783d61}
 
-Wird von `default::IccProfileGray` übernommen, wenn nicht definiert oder leer.
+Von `default::IccProfileGray` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-b737b9a6a8bd4997b660292301ba967b}
 

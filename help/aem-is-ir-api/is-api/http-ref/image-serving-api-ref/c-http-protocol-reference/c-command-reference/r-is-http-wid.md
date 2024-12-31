@@ -1,6 +1,6 @@
 ---
-title: wid
-description: Anzeigebreite. Gibt die Breite des Antwortbilds (Ansichtsbild) an, wenn fit= in der Anforderung nicht vorhanden ist.
+title: WID
+description: Breite anzeigen. Gibt die Breite des Antwortbildes (Ansichtsbild) an, wenn fit= in der Anfrage nicht vorhanden ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,26 +12,26 @@ ht-degree: 1%
 
 ---
 
-# wid{#wid}
+# WID{#wid}
 
-Anzeigebreite. Gibt die Breite des Antwortbilds (Ansichtsbild) an, wenn fit= in der Anforderung nicht vorhanden ist.
+Breite anzeigen. Gibt die Breite des Antwortbildes (Ansichtsbild) an, wenn fit= in der Anfrage nicht vorhanden ist.
 
 `wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> Val </span> </p> </td> 
   <td class="stentry"> <p>Bildbreite in Pixel (int größer als 0). </p> </td> 
  </tr> 
 </table>
 
-Wenn sowohl `hei=` als auch `scl=` angegeben sind, kann das zusammengesetzte Bild gemäß dem Attribut `align=` zugeschnitten werden. Wenn `fit=` vorhanden ist, gibt `wid=` die genaue, minimale oder maximale Breite des Antwortbilds an. Weitere Informationen finden Sie in der Beschreibung von `fit=`.
+Wenn sowohl `hei=` als auch `scl=` angegeben sind, kann das zusammengesetzte Bild gemäß dem `align=`-Attribut abgeschnitten werden. Wenn `fit=` vorhanden ist, gibt `wid=` die genaue, die minimale oder die maximale Breite des Antwortbildes an. Weitere Informationen finden Sie in der Beschreibung von `fit=`.
 
-Wenn `scl=` nicht angegeben ist, wird das Composite-Bild skaliert, um passend zu sein. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das Breite/Höhe-Rechteck passt, wobei so wenig Hintergrundbereich wie möglich verfügbar gemacht wird. In diesem Fall wird das Bild im Ansichtsrechteck gemäß dem Attribut `align=` positioniert.
+Wenn `scl=` nicht angegeben ist, wird das zusammengesetzte Bild so skaliert, dass es passt. Wenn sowohl `wid=` als auch `hei=` angegeben sind und `scl=` nicht angegeben ist, wird das Bild so skaliert, dass es vollständig in das wid/hei-Rechteck passt, sodass möglichst wenig Hintergrundbereich belichtet wird. In diesem Fall wird das Bild entsprechend dem `align=`-Attribut innerhalb des Ansichtsrechtecks positioniert.
 
 >[!NOTE]
 >
->Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
+>Ein Fehler wird zurückgegeben, wenn die berechnete oder standardmäßige Größe des Antwortbildes größer als `attribute::MaxPix` ist.
 
 ## Standard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
@@ -43,11 +43,11 @@ Attribut anzeigen. Sie gilt unabhängig von der aktuellen Ebeneneinstellung.
 
 ## Beispiel {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Fordern Sie ein Bild an, damit es in ein 200 x 200-Rechteck passt. Richten Sie es oben rechts aus, wenn es nicht quadratisch ist. Jeder Hintergrundbereich wird mit `attribute::BkgColor` gefüllt.
+Fordern Sie ein Bild an, damit es in ein Rechteck von 200 x 200 passt. Wenn es nicht quadratisch ist, richten Sie es nach oben rechts aus. Jeder Hintergrundbereich ist mit `attribute::BkgColor` gefüllt.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Das gleiche Bild, das mit einer festen Breite von 200 Pixel bereitgestellt wird, jedoch mit einer variablen Höhe, um das Seitenverhältnis des Bildes beizubehalten. In diesem Fall hat das zurückgegebene Bild nie Hintergrundfüllbereiche. In diesem Fall hätte `align=` überhaupt keine Auswirkung.
+Gleiches Bild, bereitgestellt mit einer festen Breite von 200 Pixel, aber mit einer variablen Höhe, um das Seitenverhältnis des Bildes beizubehalten. In diesem Fall hat das zurückgegebene Bild keine Hintergrundfüllbereiche. In diesem Fall hätten `align=` keinerlei Wirkung.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200`
 

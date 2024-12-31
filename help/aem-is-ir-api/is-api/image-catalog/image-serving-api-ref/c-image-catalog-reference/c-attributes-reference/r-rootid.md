@@ -1,5 +1,5 @@
 ---
-description: Katalogkennung. Das HTTP-Pfadelement, das zur Identifikation dieses Katalogs in der Bildobjektspezifikation einer Anfrage verwendet wird.
+description: Katalogkennung. Das HTTP-Pfadelement, das zur Identifizierung dieses Katalogs im Bildobjektbezeichner einer Anfrage verwendet wird.
 solution: Experience Manager
 title: RootId
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # RootId{#rootid}
 
-Katalogkennung. Das HTTP-Pfadelement, das zur Identifikation dieses Katalogs in der Bildobjektspezifikation einer Anfrage verwendet wird.
+Katalogkennung. Das HTTP-Pfadelement, das zur Identifizierung dieses Katalogs im Bildobjektbezeichner einer Anfrage verwendet wird.
 
 ## Eigenschaften {#section-9a49da71de634378a06d2347790898a0}
 
-Textzeichenfolgenwert. Darf nur Zeichen enthalten, die in HTTP-Pfaden gültig sind.
+Text-Zeichenfolgenwert. Darf nur Zeichen enthalten, die in HTTP-Pfaden gültig sind.
 
 ## Standard {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Keine. Jeder Katalog muss einen eindeutigen `attribute::RootId` -Wert aufweisen. [!DNL default.ini] hat normalerweise eine leere `attribute::RootId`.
+Keine. Jeder Katalog muss einen eindeutigen `attribute::RootId` haben. [!DNL default.ini] hat in der Regel eine leere `attribute::RootId`.
 
 ## Verwandte Themen {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

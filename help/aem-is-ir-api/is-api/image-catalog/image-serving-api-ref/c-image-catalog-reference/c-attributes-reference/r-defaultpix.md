@@ -1,5 +1,5 @@
 ---
-description: Standardansichtsgröße.
+description: Standard-Ansichtsgröße.
 solution: Experience Manager
 title: DefaultPix
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 3%
 
 # DefaultPix{#defaultpix}
 
-Standardansichtsgröße.
+Standard-Ansichtsgröße.
 
-Der Server beschränkt die Größe der Antwortbilder auf diese Breite und Höhe, wenn die Anforderung die Anzeigegröße nicht explizit mit `wid=`, `hei=` oder `scl=` angibt.
+Der Server schränkt Antwortbilder dahingehend ein, dass sie nicht größer sind als diese Breite und Höhe, wenn die Anfrage die Anzeigegröße nicht explizit mithilfe von `wid=`, `hei=` oder `scl=` angibt.
 
 ## Eigenschaften {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
-Zwei ganzzahlige Zahlen, 0 oder größer, durch Kommas getrennt. Breite und Höhe in Pixel. Einer oder beide Werte können auf 0 gesetzt werden, damit sie nicht eingeschränkt werden.
+Zwei ganze Zahlen, 0 oder höher, durch ein Komma getrennt. Breite und Höhe in Pixel. Einer oder beide Werte können auf 0 gesetzt werden, um sie nicht einzuschränken.
 
-Gilt nicht für verschachtelte/eingebettete Anforderungen.
+Gilt nicht für verschachtelte oder eingebettete Anforderungen.
 
 ## Standard {#section-b7338b2bf5114fff83b0714a57b20639}
 
-Wird von `default::DefaultPix` übernommen, wenn nicht definiert oder leer.
+Von `default::DefaultPix` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-59088cd41da940e8ac0e74e2b049c6e9}
 

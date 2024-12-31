@@ -1,5 +1,5 @@
 ---
-description: Benutzerdaten. Der Server gibt den Inhalt dieses Felds als Antwort auf req=userdata an den Client zurück.
+description: Benutzerdaten. Der Server gibt den Inhalt dieses Felds als Antwort auf „req=userdata“ an den Client zurück.
 solution: Experience Manager
 title: UserData
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # UserData{#userdata}
 
-Benutzerdaten. Der Server gibt den Inhalt dieses Felds als Antwort auf req=userdata an den Client zurück.
+Benutzerdaten. Der Server gibt den Inhalt dieses Felds als Antwort auf „req=userdata“ an den Client zurück.
 
 ## Eigenschaften {#section-06f2002b77d54a64be07f12fff54ad13}
 
-Textzeichenfolgenwert. Es wird empfohlen, die Formatierung mit [Eigenschaftsdaten](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) zu verwenden. Wenn die Formatierung der Eigenschaftsdaten nicht verwendet wird, darf die Textzeichenfolge das Zeichen &#39;=&#39; nicht enthalten.
+Text-Zeichenfolgenwert. Es wird empfohlen, die Formatierung [Eigenschaftsdaten](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) zu verwenden. Wenn die Eigenschaftsdatenformatierung nicht verwendet wird, darf die Textzeichenfolge nicht das Zeichen &quot;=&quot; enthalten.
 
-Die Viewer-Clients für Zoom, Rotation und Broschüren gehen davon aus, dass dieses Feld die Formatierung der Eigenschaftsdaten verwendet. Diese Clients verwenden dieses Feld für die Viewer-Konfiguration und -Anpassung. Weitere Informationen finden Sie in der Viewer-Dokumentation .
+Die Viewer-Clients für Zoom, Rotation und Broschüren gehen davon aus, dass dieses Feld die Eigenschaftsdatenformatierung verwendet. Diese Clients verwenden dieses Feld für die Viewer-Konfiguration und -Anpassung. Weitere Informationen finden Sie in der Viewer-Dokumentation .
 
-Dieses Feld nimmt an der Lokalisierung von Textzeichenfolgen teil. Weitere Informationen finden Sie unter [Lokalisierung von Textzeichenfolgen](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in der *HTTP-Protokollreferenz*.
+Dieses Feld ist an der Lokalisierung von Textzeichenfolgen beteiligt. Siehe [Lokalisierung von Textzeichenfolgen](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in der *HTTP-Protokollreferenz* für Details.
 
 ## Standard {#section-7ee879762130467199745f2abc662f1e}
 

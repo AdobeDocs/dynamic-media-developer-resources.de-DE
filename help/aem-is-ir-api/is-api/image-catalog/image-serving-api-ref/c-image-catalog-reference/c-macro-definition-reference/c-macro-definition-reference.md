@@ -1,5 +1,5 @@
 ---
-description: Informationen zu Makronamen und Definitionsparametern.
+description: Informationen zum Makronamen und zu den Definitionsparametern.
 solution: Experience Manager
 title: Referenz zur Makrodefinition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # Referenz zur Makrodefinition{#macro-definition-reference}
 
-Informationen zu Makronamen und Definitionsparametern.
+Informationen zum Makronamen und zu den Definitionsparametern.
 
 * [Name](r-name-macro.md)
 * [Definition](r-definition-macro.md)

@@ -1,5 +1,5 @@
 ---
-description: Katalogdatensatzkennung
+description: Kennung des Katalogdatensatzes
 solution: Experience Manager
 title: Id
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # Id {#id}
 
-Indexschlüsselwert, anhand dessen Einträge in der Bilddatendatei von [!DNL Platform Server] nachgeschlagen werden.
+Indexschlüsselwert, mit dem Datensätze in der Bilddatendatei von der [!DNL Platform Server] nachgeschlagen werden.
 
-In der Regel eine kurze und eindeutige Bild-ID, z. B. eine SKU-Nummer, möglicherweise mit einer Art Bildsuffix, wenn eine SKU mehrere Bilder hat. Kann auch eine komplexere Zeichenfolge sein, die eher wie ein Dateipfad aussieht, um eine einfache Rückverfolgung von Websites mit Image Serving zu unterstützen.
+In der Regel eine kurze und eindeutige Bildkennung, z. B. eine SKU-Nummer, möglicherweise mit einer Art Bildsuffix, wenn eine SKU mehrere Bilder hat. Kann auch eine komplexere Zeichenfolge sein, die mehr wie ein Dateipfad aussieht, um das einfache Nachrüsten von Websites mit Bildbereitstellung zu unterstützen.
 
 ## Eigenschaften {#id-properties}
 
-Textzeichenfolge. Erforderlich. Primärer Indexschlüssel für die Bilddatentabelle. Jeder catalog::Id -Wert muss innerhalb der Tabelle eindeutig sein.
+Text-String Erforderlich. Primärer Indexschlüssel für die Bilddatentabelle. Jeder Wert für catalog:id muss innerhalb der Tabelle eindeutig sein.
 
 ## Standard {#id-default}
 

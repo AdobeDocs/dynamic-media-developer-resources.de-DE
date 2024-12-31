@@ -1,5 +1,5 @@
 ---
-description: Pfad der Schriftdatei. Pfad und Name für die Hauptschriftartdatei, einschließlich Dateisuffix.
+description: Pfad der Schriftdatei. Pfad und Name der Prinzipalschriftartdatei, einschließlich Dateiendung.
 solution: Experience Manager
 title: FontPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # FontPath{#fontpath}
 
-Pfad der Schriftdatei. Pfad und Name für die Hauptschriftartdatei, einschließlich Dateisuffix.
+Pfad der Schriftdatei. Pfad und Name der Prinzipalschriftartdatei, einschließlich Dateiendung.
 
 ## Eigenschaften {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
 
-Textzeichenfolge. Erforderlich. Muss einen gültigen Image Server-Dateipfad aufweisen, entweder absolut oder relativ zu `attribute::RootPath`.
+Text-String Erforderlich. Muss einen gültigen Bildserver-Dateipfad enthalten, entweder absolut oder relativ zu `attribute::RootPath`.
 
 ## Standard {#section-3fb42f362de84fdb8ba9fe4cc9628aa3}
 

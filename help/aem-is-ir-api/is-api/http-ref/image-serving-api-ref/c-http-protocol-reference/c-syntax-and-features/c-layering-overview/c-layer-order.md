@@ -1,7 +1,7 @@
 ---
 description: Die Ebenennummer bestimmt auch die z-Reihenfolge.
 solution: Experience Manager
-title: Ebenenfolge
+title: Ebenenreihenfolge
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a8fdd55-6ac1-4bc9-935d-188ee60946d9
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Ebenenfolge{#layer-order}
+# Ebenenreihenfolge{#layer-order}
 
 Die Ebenennummer bestimmt auch die z-Reihenfolge.
 
-Ebene 0 (die Hintergrundebene) ist erforderlich. Andere Ebenennummern müssen nicht aufeinander folgen und auf die Hintergrundebene gezogen werden, um die aufsteigende Ebenennummer zu erhalten. Die Ebene mit der höchsten Ebenennummer wird oben gerendert und nie von anderen Ebenen ausgeschlossen.
+Ebene 0 (die Hintergrundebene) ist erforderlich. Andere Ebenennummern müssen nicht aufeinander folgen und werden auf die Hintergrundebene in aufsteigender Reihenfolge der Ebenennummern gezeichnet. Die Ebene mit der höchsten Ebenennummer wird oben gerendert und nie von anderen Ebenen verdeckt.

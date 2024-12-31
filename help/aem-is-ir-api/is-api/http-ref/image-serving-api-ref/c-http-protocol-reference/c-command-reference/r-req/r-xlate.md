@@ -1,7 +1,7 @@
 ---
-description: Verfügbare gebietsschemaspezifische Versionen. Gibt eine Liste der verfügbaren gebietsschemaspezifischen Versionen der im Anfragepfad angegebenen Katalog-ID zurück.
+description: Verfügbare gebietsschemaspezifische Versionen Gibt eine Liste der verfügbaren gebietsschemaspezifischen Versionen der im Anfragepfad angegebenen Katalog-ID zurück.
 solution: Experience Manager
-title: xlate
+title: spätplattieren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# xlate{#xlate}
+# spätplattieren{#xlate}
 
-Verfügbare gebietsschemaspezifische Versionen. Gibt eine Liste der verfügbaren gebietsschemaspezifischen Versionen der im Anfragepfad angegebenen Katalog-ID zurück.
+Verfügbare gebietsschemaspezifische Versionen Gibt eine Liste der verfügbaren gebietsschemaspezifischen Versionen der im Anfragepfad angegebenen Katalog-ID zurück.
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,16 +25,16 @@ Verfügbare gebietsschemaspezifische Versionen. Gibt eine Liste der verfügbaren
  </tr> 
 </table>
 
-Siehe [Übersetzung der Objekt-ID](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Siehe [Objekt-ID-](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Beispiel:
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `catalog::Expiration` basiert.
+Die HTTP-Antwort kann basierend auf `catalog::Expiration` mit der TTL zwischengespeichert werden.
 
-Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
+Bei Anfragen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mithilfe der erweiterten Syntax `req=` Parameters angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Nur a-z, A-Z und 0-9 Zeichen sind zulässig. Optional. Der Standardwert ist `s7jsonResponse`.

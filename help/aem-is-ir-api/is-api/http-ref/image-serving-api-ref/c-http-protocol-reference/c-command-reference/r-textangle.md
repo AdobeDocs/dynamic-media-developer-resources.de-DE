@@ -1,6 +1,6 @@
 ---
 title: textAngle
-description: Text-Renderrichtung. Gibt den Winkel an, bei dem mit textPs= angegebener Text im Textfeld angeordnet und gerendert wird (definiert mit size= oder textFlowPath=).
+description: Textwiedergaberichtung. Gibt den Winkel an, in dem mit textPs= angegebener Text im Textfeld angeordnet und gerendert wird (definiert mit size= oder textFlowPath=).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,26 +14,26 @@ ht-degree: 2%
 
 # textAngle{#textangle}
 
-Text-Renderrichtung. Gibt den Winkel an, bei dem mit textPs= angegebener Text im Textfeld angeordnet und gerendert wird (definiert mit size= oder textFlowPath=).
+Textwiedergaberichtung. Gibt den Winkel an, in dem mit textPs= angegebener Text im Textfeld angeordnet und gerendert wird (definiert mit size= oder textFlowPath=).
 
-` textAngle= *`angle`*`
+` textAngle= *`Winkel`*`
 
 <table id="simpletable_40832AC4B43A458CA69B225768124F58"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> Winkel </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">-</span> </p> </td> 
   <td class="stentry"> <p>Richtungswinkel (Grad). </p> </td> 
  </tr> 
 </table>
 
-Positive Werte drehen den Text im Uhrzeigersinn; `textAngle=90` zeichnet den Text von oben nach unten.
+Bei positiven Werten wird der Text im Uhrzeigersinn gedreht; `textAngle=90` zeichnet den Text von oben nach unten.
 
 ## Eigenschaften {#section-6d586a632daa4261a8ce62db56140b36}
 
-Ebenenattribut. Gilt für `layer=0` , wenn `layer=comp`. Wird ignoriert, wenn `textPs=` nicht für diese Ebene angegeben ist oder `textPath=` angegeben ist.
+Ebenenattribut. Gilt für `layer=0`, falls `layer=comp`. Ignoriert, wenn `textPs=` für diese Ebene nicht angegeben oder `textPath=` angegeben ist.
 
 ## Standard {#section-49a9f5819c994c27928282c14b2bb2a7}
 
-`textAngle=0` für keine Drehung.
+`textAngle=0` für keine Rotation.
 
 ## Verwandte Themen {#section-dccc29ff33704061b2519b56b7be45fd}
 

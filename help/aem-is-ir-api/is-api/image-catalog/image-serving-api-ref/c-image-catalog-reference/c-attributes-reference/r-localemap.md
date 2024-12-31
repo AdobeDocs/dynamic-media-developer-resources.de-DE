@@ -1,5 +1,5 @@
 ---
-description: ID-Übersetzungszuordnung. Gibt die Regeln an, die für die Übersetzung generischer Bild-IDs in gebietsschemaspezifische IDs verwendet werden.
+description: Übersetzungskarte der ID. Gibt die Regeln an, die für die Übersetzung generischer Bild-IDs in gebietsschemaspezifische IDs verwendet werden.
 solution: Experience Manager
 title: LocaleMap
 feature: Dynamic Media Classic,SDK/API
@@ -14,38 +14,38 @@ ht-degree: 0%
 
 # LocaleMap{#localemap}
 
-ID-Übersetzungszuordnung. Gibt die Regeln an, die für die Übersetzung generischer Bild-IDs in gebietsschemaspezifische IDs verwendet werden.
+Übersetzungskarte der ID. Gibt die Regeln an, die für die Übersetzung generischer Bild-IDs in gebietsschemaspezifische IDs verwendet werden.
 
 `*`item`*&#42;['|' *`item`*]`
 
 <table id="simpletable_A6DD1A28F8ED4178A8ADDB2F3AEFC402"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> item</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> Element</span> </p></td> 
   <td class="stentry"> <p><span class="varname"> locId</span>,<span class="varname"> locSuffix</span>*[','<span class="varname"> locSuffix</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locId</span> </p></td> 
-  <td class="stentry"> <p>Locale ID (nicht zwischen Groß- und Kleinschreibung unterscheiden). </p></td> 
+  <td class="stentry"> <p>Gebietsschema-ID (nicht von Schreibweise abhängig). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locSuffix</span> </p></td> 
-  <td class="stentry"> <p>Gebietsschema-Suffix </p></td> 
+  <td class="stentry"> <p>Gebietsschema-Suffix. </p></td> 
  </tr> 
 </table>
 
 `LocaleMap` bezieht sich auf eine `locId`, die einer beliebigen Anzahl von `locSuffix` zugeordnet werden kann.
 
-Leere *`locSuffix`* -Werte sind zulässig. *`locSuffix`* -Werte müssen in der Reihenfolge sortiert werden, in der sie gesucht werden sollen. Die erste Übereinstimmung wird zurückgegeben.
+Leere *`locSuffix`* sind zulässig. *`locSuffix`* Werte müssen in der Reihenfolge sortiert werden, in der sie durchsucht werden sollen. Die erste Übereinstimmung wird zurückgegeben.
 
-Image Serving sucht die *`locId`* -Werte nach einer Übereinstimmung, bei der die Groß-/Kleinschreibung nicht berücksichtigt wird, mit dem in der Anfrage angegebenen `locale=` -Wert. Wenn eine Übereinstimmung gefunden wird, wird der erste zugeordnete *`locSuffix`* -Wert an die ursprüngliche Katalog-ID angehängt. Wenn dieser Katalogeintrag vorhanden ist, wird er verwendet. Andernfalls wird der nächste *`locSuffix`* -Wert versucht. Wenn keiner der *`locSuffix`* -Werte mit einem Katalogeintrag übereinstimmt, gibt Image Serving einen Fehler oder ein Standardbild zurück.
+Die Bildbereitstellung durchsucht die *`locId`* nach einer Übereinstimmung, bei der nicht zwischen Groß- und Kleinschreibung unterschieden wird, mit dem in der Anfrage angegebenen `locale=`. Wenn eine Übereinstimmung gefunden wird, wird der erste verknüpfte *`locSuffix`* an die ursprüngliche Katalog-ID angehängt. Wenn dieser Katalogeintrag vorhanden ist, wird er verwendet, andernfalls wird der nächste *`locSuffix`* versucht. Wenn keiner der *`locSuffix`* Werte mit einem Katalogeintrag übereinstimmt, gibt Image Serving einen Fehler oder ein Standardbild zurück.
 
-Ein leerer *`locId`* -Wert entspricht leeren und unbekannten `locale=` -Zeichenfolgen. Dadurch kann eine Standardregel für unbekannte Gebietsschemata definiert werden.
+Ein leerer *`locId`* entspricht leeren und unbekannten `locale=`. Dies ermöglicht die Definition einer Standardregel für unbekannte Gebietsschemata.
 
-Wenn die ID-Übersetzung aktiviert ist, wird sie auf alle IDs angewendet, die auf den Bildkatalog und statische Inhaltskatalogeinträge verweisen.
+Wenn die ID-Übersetzung aktiviert ist, wird sie auf alle IDs angewendet, die auf Bildkatalogeinträge und Katalogeinträge für statische Inhalte verweisen.
 
 ## Eigenschaften {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-Ein oder mehrere Elemente, getrennt durch |, wobei jedes Element aus zwei oder mehr durch Kommas getrennten Zeichenfolgenwerten besteht. *`locId`* und `locale=` werden verglichen. Nicht zwischen Groß- und Kleinschreibung unterscheiden.
+Ein oder mehrere Elemente, getrennt durch |, wobei jedes Element aus zwei oder mehr kommagetrennten Zeichenfolgenwerten besteht. *`locId`* und `locale=` werden verglichen. Groß-/Kleinschreibung wird nicht berücksichtigt.
 
 ## Verwandte Themen {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 

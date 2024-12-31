@@ -1,7 +1,7 @@
 ---
-description: Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anfragepfad angegebenen Bildkatalogs zurück.
+description: Bildkatalogeigenschaften. Gibt allgemeine Attribute des im Anfragepfad angegebenen Bildkatalogs zurück.
 solution: Experience Manager
-title: Katalogproben
+title: catalogProps
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
@@ -12,9 +12,9 @@ ht-degree: 4%
 
 ---
 
-# Katalogproben{#catalogprops}
+# catalogProps{#catalogprops}
 
-Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anfragepfad angegebenen Bildkatalogs zurück.
+Bildkatalogeigenschaften. Gibt allgemeine Attribute des im Anfragepfad angegebenen Bildkatalogs zurück.
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,13 +25,13 @@ Eigenschaften des Bildkatalogs. Gibt allgemeine Attribute des im Anfragepfad ang
  </tr> 
 </table>
 
-Um die standardmäßigen Katalogeigenschaften ( [!DNL default.ini]) abzurufen, lassen Sie die Katalog-ID weg. Die HTTP-Antwort kann zwischengespeichert werden, wobei die TTL auf `attribute::NonImgExpiration` basiert.
+Um die Standardkatalogeigenschaften abzurufen ([!DNL default.ini]), lassen Sie die Katalog-ID weg. Die HTTP-Antwort kann basierend auf `attribute::NonImgExpiration` mit der TTL zwischengespeichert werden.
 
-Bei Anforderungen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mit der erweiterten Syntax des Parameters `req=` angeben:
+Bei Anfragen, die das JSONP-Antwortformat unterstützen, können Sie den Namen des JS-Callback-Handlers mithilfe der erweiterten Syntax `req=` Parameters angeben:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Es sind nur a-z, A-Z und 0-9 Zeichen zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
+`<reqHandler>` ist der Name des JS-Handlers, der in der JSONP-Antwort vorhanden ist. Nur a-z, A-Z und 0-9 Zeichen sind zulässig. Optional. Der Standardwert ist `s7jsonResponse`.
 
 Die folgenden Eigenschaftswerte werden zurückgegeben:
 
@@ -40,107 +40,107 @@ Die folgenden Eigenschaftswerte werden zurückgegeben:
   <tr> 
    <td> <b> Eigenschaft</b> </td> 
    <td> <b> Typ</b> </td> 
-   <td> <b> Entsprechendes Katalogattribut</b> </td> 
+   <td> <b> entsprechende Katalogattribut</b> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
-   <td> <p> hex </p> </td> 
-   <td> <p> <span class="codeph"> attribute::BkgColor</span> </p> </td> 
+   <td> <p> Hexagon </p> </td> 
+   <td> <p> <span class="codeph">::BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog::defaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph">::defaultExt</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph">::DefaultExt</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
+   <td> <p> int, int </p> </td> 
+   <td> <p> <span class="codeph">::DefaultPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultThumbPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultThumbPix</span> </p> </td> 
+   <td> <p> int, int </p> </td> 
+   <td> <p> <span class="codeph">::DefaultThumbPix</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.expiration</span> </p> </td> 
+   <td> <p> <span class="codeph">.expiration</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
+   <td> <p> <span class="codeph">::Expiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph">::DefaultExpiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.nonImgExpiration</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> attribute::NonImgExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph">-Attribut::NonImgExpiration</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span> oder, falls nicht vorhanden, die letzte Änderungszeit der Datei <span class="varname"> catalog</span><span class="filepath"> .ini</span> </p> </td> 
+   <td> <p> <span class="codeph"> Attribut::LastModified</span> oder, falls nicht vorhanden, die letzte Änderungszeit der <span class="varname"> Katalog</span><span class="filepath"> .ini</span> Datei </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
    <td> <p> int,bool </p> </td> 
-   <td> <p> <span class="codeph"> attribute::JpegQuality</span> </p> </td> 
+   <td> <p> <span class="codeph">::JpegQuality</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.maxPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::MaxPix</span> </p> </td> 
+   <td> <p> int, int </p> </td> 
+   <td> <p> <span class="codeph">::MaxPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.printResolution</span> </p> </td> 
    <td> <p> int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::PrintResolution</span> </p> </td> 
+   <td> <p> <span class="codeph">-Attribut::PrintResolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.publishInfo</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::PublishInfo</span> </p> </td> 
+   <td> <p> <span class="codeph">::PublishInfo</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ResMode</span> </p> </td> 
+   <td> <p> Aufzählung </p> </td> 
+   <td> <p> <span class="codeph">-Attribut::ResMode</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resolution</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
+   <td> <p> <span class="codeph">::Resolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
-   <td> <p> hex </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbBkgColor</span> </p> </td> 
+   <td> <p> Hexagon </p> </td> 
+   <td> <p> <span class="codeph">::ThumbBkgColor</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbHorizAlign</span> </p> </td> 
+   <td> <p> Aufzählung </p> </td> 
+   <td> <p> <span class="codeph">::ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbRes</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbRes</span> </p> </td> 
+   <td> <p> <span class="codeph">::ThumbRes</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbType</span> </p> </td> 
+   <td> <p> Aufzählung </p> </td> 
+   <td> <p> <span class="codeph">::ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbVertAlign</span> </p> </td> 
+   <td> <p> Aufzählung </p> </td> 
+   <td> <p> <span class="codeph">::ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog::watermark</span> </p> </td> 
+   <td> <p> <span class="codeph">::watermark</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> <span class="codeph"> attribute::Watermark</span> </p> </td> 
+   <td> <p> <span class="codeph">::Watermark</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

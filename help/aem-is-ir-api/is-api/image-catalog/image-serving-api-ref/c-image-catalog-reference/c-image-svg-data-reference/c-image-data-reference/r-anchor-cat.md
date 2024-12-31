@@ -1,5 +1,5 @@
 ---
-description: Bild-Anker. Ausgangspunkt, wenn dieses Bild als Ebene in einer Vorlage oder einem zusammengesetzten Bild verwendet wird.
+description: Bildanker. Ausgangspunkt, wenn dieses Bild als Ebene in einer Vorlage oder einem zusammengesetzten Bild verwendet wird.
 solution: Experience Manager
 title: Anker
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 4%
 
 # Anker{#anchor}
 
-Bild-Anker. Ausgangspunkt, wenn dieses Bild als Ebene in einer Vorlage oder einem zusammengesetzten Bild verwendet wird.
+Bildanker. Ausgangspunkt, wenn dieses Bild als Ebene in einer Vorlage oder einem zusammengesetzten Bild verwendet wird.
 
-Definiert auch den standardmäßigen Mittelpunkt für die Drehung.
+Definiert auch den Standardmittelpunkt für die Drehung.
 
 ## Eigenschaften {#section-95740f14160744e7bc763094b8be40d8}
 
-Zwei Ganzzahlen, durch Kommas getrennt. Pixel-Versatz relativ zur oberen linken Ecke des Vollbildbilds.
+Zwei ganze Zahlen, durch ein Komma getrennt. Pixel-Versatz relativ zur oberen linken Ecke des Bildes mit voller Auflösung.
 
-Überschrieben durch `anchor=` (was wiederum mit `origin=` überschrieben werden kann).
+Von `anchor=` überschrieben (was wiederum mit `origin=` überschrieben werden kann).
 
 ## Standard {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-Der Mittelpunkt des Bildes wird verwendet, wenn dieses Feld nicht vorhanden oder leer ist und es ein gültiger Bilddatensatz ist (d. h. wenn `catalog::Path` gültig ist).
+Der Mittelpunkt des Bildes wird verwendet, wenn dieses Feld nicht vorhanden oder leer ist und wenn es sich um einen gültigen Bilddatensatz handelt (d. h. wenn `catalog::Path` gültig ist).
 
 ## Verwandte Themen {#section-f605d29c3f5d48ad8e2a374f11886f19}
 

@@ -1,6 +1,6 @@
 ---
-title: op_sound
-description: Rauschen hinzufügen. Fügt zufällige Geräusche zu den Vordergrundbilddaten oder zum Vordergrund einer Effektebene hinzu.
+title: op_rauschen
+description: Rauschen hinzufügen. Fügt den Vordergrundbilddaten oder dem Vordergrund einer Effektebene Rauschen hinzu.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,29 +12,29 @@ ht-degree: 1%
 
 ---
 
-# op_sound{#op-noise}
+# op_rauschen{#op-noise}
 
-Rauschen hinzufügen. Fügt zufällige Geräusche zu den Vordergrundbilddaten oder zum Vordergrund einer Effektebene hinzu.
+Rauschen hinzufügen. Fügt den Vordergrundbilddaten oder dem Vordergrund einer Effektebene Rauschen hinzu.
 
 `op_noise= *`val`*[,uniform|gaussian[, *`monochrome`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> val</span> </p> </td> 
-   <td colname="col2"> <p>Rauschmenge in Prozent (0...100 int). </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Val</span> </p> </td> 
+   <td colname="col2"> <p>Geräuschmenge in Prozent (0…100 int). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> uniform</span> </p> </td> 
-   <td colname="col2"> <p>Wählen Sie die gleichmäßige Rauschverteilung aus. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Uniform</span> </p> </td> 
+   <td colname="col2"> <p>Wählen Sie eine gleichmäßige Rauschverteilung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> gaussian</span> </p> </td> 
-   <td colname="col2"> <p>Wählen Sie die gaussische Rauschverteilung aus. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Gaussian</span> </p> </td> 
+   <td colname="col2"> <p>Gaußsche Rauschverteilung auswählen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> monochrome</span> </p> </td> 
-   <td colname="col2"> <p>Für Farbrauschen auf 0, für Grauschärfe auf 1 gesetzt. </p> </td> 
+   <td colname="col1"> <p><span class="varname"> monochrom</span> </p> </td> 
+   <td colname="col2"> <p>Festlegung auf 0 für Farbrauschen, 1 für Grauraurauschen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,8 +43,8 @@ Rauschen hinzufügen. Fügt zufällige Geräusche zu den Vordergrundbilddaten od
 
 ## Eigenschaften {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder für das zusammengesetzte Bild, wenn `layer=comp`
+Ebenenbefehl. Gilt für die aktuelle Ebene oder das zusammengesetzte Bild, falls `layer=comp`.
 
 ## Standard {#section-d548868fa4b64a60bcb481cad1f8113e}
 
-`op_noise=0,uniform,0`, ohne Rauschen.
+`op_noise=0,uniform,0`, für keinen Lärm.

@@ -1,5 +1,5 @@
 ---
-description: Regelsatzdateien sind XML-formatierte Textdateien und müssen den entsprechenden Standards und Konventionen entsprechen.
+description: Regelsatzdateien sind Textdateien im XML-Format und müssen den entsprechenden Standards und Konventionen entsprechen.
 solution: Experience Manager
 title: Regelsatzdateien
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Regelsatzdateien{#rule-set-files}
 
-Regelsatzdateien sind XML-formatierte Textdateien und müssen den entsprechenden Standards und Konventionen entsprechen.
+Regelsatzdateien sind Textdateien im XML-Format und müssen den entsprechenden Standards und Konventionen entsprechen.
 
-[!DNL RuleSet.xsd] ist im Standardkatalogordner installiert und sollte verwendet werden, um Regelsatzdateien zu validieren, bevor sie an Image Serving gesendet werden. Es wird striktes Parsen angewendet und Regelsatzdateien, die nicht mit [!DNL RuleSet.xsd] übereinstimmen, werden nicht geladen.
+[!DNL RuleSet.xsd] wird im Standardkatalogordner installiert und sollte verwendet werden, um Regelsatzdateien zu validieren, bevor sie an Image Serving übermittelt werden. Es wird ein striktes Parsing angewendet, und Regelsatzdateien, die nicht den [!DNL RuleSet.xsd] entsprechen, werden nicht geladen.

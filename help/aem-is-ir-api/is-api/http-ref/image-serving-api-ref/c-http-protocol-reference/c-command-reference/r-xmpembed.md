@@ -1,6 +1,6 @@
 ---
 title: xmpEmbed
-description: Betten Sie XMP Metadaten ein. Gibt an, ob XMP Metadaten im Antwortbild enthalten sein sollen.
+description: XMP-Metadaten einbetten. Gibt an, ob XMP-Metadaten in das Antwortbild aufgenommen werden sollen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 # xmpEmbed{#xmpembed}
 
-Betten Sie XMP Metadaten ein. Gibt an, ob XMP Metadaten im Antwortbild enthalten sein sollen.
+XMP-Metadaten einbetten. Gibt an, ob XMP-Metadaten in das Antwortbild aufgenommen werden sollen.
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->XMP Daten werden vom Quellbild ohne Änderung an das Antwortbild übergeben. Dies kann dazu führen, dass falsche Daten in das Antwortbild eingebettet werden.
+>XMP-Daten werden ohne Änderung vom Quellbild an das Antwortbild übergeben. Dies kann dazu führen, dass falsche Daten in das Antwortbild eingebettet werden.
 
 ## Eigenschaften {#section-27024c4272f44d9a8c264a0629193af2}
 
-Anforderungsattribut. Wird ignoriert, wenn das Quellbild keine XMP Daten enthält. Nur XMP Daten aus dem Quellbild von `layer=0` werden verarbeitet. XMP Daten aus anderen Ebenenbildern werden ignoriert.
+Anforderungsattribut. Ignoriert, wenn das Quellbild keine XMP-Daten enthält. Es werden nur XMP-Daten aus dem Quellbild von `layer=0` verarbeitet. XMP-Daten aus anderen Ebenenbildern werden ignoriert.
 
-Wird ignoriert, wenn das Ausgabebildformat das Einbetten XMP nicht unterstützt. Eine Liste der Ausgabebildformate, die XMP Einbetten unterstützen, finden Sie in der Beschreibung von `fmt=` .
+Wird ignoriert, wenn das Ausgabebildformat keine XMP-Einbettung unterstützt. Unter der Beschreibung von `fmt=` finden Sie eine Liste der Ausgabebildformate, die die XMP-Einbettung unterstützen.
 
 ## Standard {#section-aedbedd04d664ba184b2cfe35644b960}
 
-`xmpEmbed=0`, um keine Pfade in Ausgabebilder einzubetten.
+`xmpEmbed=0`, für keine Einbettung von Pfaden in die Ausgabebilder.
 
 ## Verwandte Themen {#section-0b5b7d0a19564101ba7102e667e29828}
 

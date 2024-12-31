@@ -1,6 +1,6 @@
 ---
 title: HttpAppleStreamingContext
-description: URL-Präfix des Apple-Streaming-Servers Das Apple Streaming Server-URL-Präfix, das beim Generieren von m3u8-Antworten mit mehreren Bit-Raten mit req=mbrSet verwendet wird.
+description: Apple Streaming-Server-URL-Präfix. Das Apple Streaming-Server-URL-Präfix, das beim Generieren von m3u8-Antworten mit Mehrbitrate mit req=mbrSet verwendet wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-URL-Präfix des Apple-Streaming-Servers Das Apple Streaming Server-URL-Präfix, das beim Generieren von m3u8-Antworten mit mehreren Bit-Raten mit `req=mbrSet` verwendet wird.
+Apple Streaming-Server-URL-Präfix. Das Apple Streaming-Server-URL-Präfix, das beim Generieren von m3u8-Antworten mit Mehrbitrate mit `req=mbrSet` verwendet wird.
 
 ## Eigenschaften {#properties}
 

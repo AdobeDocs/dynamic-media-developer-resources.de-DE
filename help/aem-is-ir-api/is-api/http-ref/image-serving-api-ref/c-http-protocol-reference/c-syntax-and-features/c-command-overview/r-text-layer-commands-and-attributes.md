@@ -1,7 +1,7 @@
 ---
-description: Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen für Textebenen.
+description: Diese Befehle gelten für Textebenen zusätzlich zu den gebräuchlichen Ebenenbefehlen.
 solution: Experience Manager
-title: Textebenen-Befehle
+title: Befehle der Textebene
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Textebenen-Befehle{#text-layer-commands}
+# Befehle der Textebene{#text-layer-commands}
 
-Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen für Textebenen.
+Diese Befehle gelten für Textebenen zusätzlich zu den gebräuchlichen Ebenenbefehlen.
 
 <table id="simpletable_DBCF90E140684FD19098EA810369337B"> 
  <tr class="strow"> 
@@ -39,14 +39,14 @@ Diese Befehle gelten zusätzlich zu den allgemeinen Ebenenbefehlen für Texteben
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowxpath.md#reference-c55d4e41a28f40aca6a24ca218c28542" type="reference" format="dita" scope="local"> textFlowXpath</a> </p></td> 
-  <td class="stentry"> <p>Gibt Textflussausschlussbereiche an. </p></td> 
+  <td class="stentry"> <p>Gibt Ausschlussbereiche für Textflüsse an. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textangle.md#reference-447f624c0e764d0cb5c75846d1b44d15" type="reference" format="dita" scope="local"> textAngle</a> </p></td> 
-  <td class="stentry"> <p>Legt den Grundwinkel des Textes fest. </p></td> 
+  <td class="stentry"> <p>Legt den Grundlinienwinkel des Textes fest. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f" type="reference" format="dita" scope="local"> text</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f" type="reference" format="dita" scope="local"> Text</a> </p></td> 
   <td class="stentry"> <p>Stellt Ebenentext für den herkömmlichen Text-Renderer bereit. </p></td> 
  </tr> 
 </table>

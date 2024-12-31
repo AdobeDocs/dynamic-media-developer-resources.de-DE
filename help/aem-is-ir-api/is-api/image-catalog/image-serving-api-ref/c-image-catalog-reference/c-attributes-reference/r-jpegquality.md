@@ -1,5 +1,5 @@
 ---
-description: Standardmäßige JPEG-Kodierungsattribute. Gibt die Standardattribute für JPEG von Antwortbildern an.
+description: Standard-JPEG-Kodierungsattribute. Gibt die Standardattribute für das JPEG von Antwortbildern an.
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # JpegQuality{#jpegquality}
 
-Standardmäßige JPEG-Kodierungsattribute. Gibt die Standardattribute für JPEG von Antwortbildern an.
+Standard-JPEG-Kodierungsattribute. Gibt die Standardattribute für das JPEG von Antwortbildern an.
 
 ## Eigenschaften {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Ganzzahl und Markierung, durch Kommas getrennt. Der erste Wert liegt im Bereich 1.100 und definiert die Qualität. Der zweite Wert kann 0 für normales Verhalten oder 1 für die Deaktivierung der RGB-Chromatizitäts-Downsampling sein, die normalerweise von JPEG-Kodierern verwendet wird.
+Ganze Zahl und Flag, getrennt durch ein Komma. Der erste Wert liegt im Bereich 1 bis 100 und definiert die Qualität. Der zweite Wert kann 0 für Normalverhalten oder 1 sein, um die RGB-Chromatizitäts-Downsampling zu deaktivieren, die bei JPEG-Codierern üblicherweise verwendet wird.
 
 ## Standard {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
-Wird von `default::JpegQuality` übernommen, wenn nicht definiert oder leer.
+Von `default::JpegQuality` geerbt, wenn nicht definiert oder leer.
 
 ## Verwandte Themen {#section-aa994afc02ea4f799655233ea32d36c9}
 

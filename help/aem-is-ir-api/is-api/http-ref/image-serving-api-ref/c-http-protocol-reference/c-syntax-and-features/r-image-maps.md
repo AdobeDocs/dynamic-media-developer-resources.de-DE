@@ -1,5 +1,5 @@
 ---
-description: IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA-basierten und Flash-basierten Viewer in IS unterstützen ebenfalls nur begrenzte Imagemaps.
+description: IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA- und Flash-basierten Viewer in IMS bieten ebenfalls eingeschränkte Unterstützung für Imagemaps.
 solution: Experience Manager
 title: Imagemaps
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Imagemaps{#image-maps}
 
-IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA-basierten und Flash-basierten Viewer in IS unterstützen ebenfalls nur begrenzte Imagemaps.
+IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA- und Flash-basierten Viewer in IMS bieten ebenfalls eingeschränkte Unterstützung für Imagemaps.
 
-Source-Imagemaps werden entweder über den Befehl `catalog::Map` oder mit dem Befehl `map=` an IS bereitgestellt und verarbeitete Maps werden mit dem Befehl `req=map` abgerufen.
+Source-Imagemaps werden dem IS entweder über `catalog::Map` oder mit dem Befehl `map=` bereitgestellt und verarbeitete Karten werden mit dem Befehl `req=map` abgerufen.
 
-Eine Imagemap besteht aus einem oder mehreren HTML-AREA-Elementen, die durch &#39;&lt;&#39; und &#39;>&#39; ordnungsgemäß getrennt sind. Wenn dies über catalog::Map bereitgestellt wird, wird angenommen, dass alle Pixelkoordinatenwerte in der Originalbildauflösung und relativ zur oberen linken Ecke des (unveränderten) Quellbilds liegen. Wenn die Koordinatenwerte über einen `map=` -Befehl bereitgestellt werden, werden sie als Ebenenkoordinaten im Verhältnis zur oberen linken Ecke der Ebene (nach `rotate=` und `extend=`) angenommen.
+Eine Imagemap besteht aus einem oder mehreren HTML-AREA-Elementen, die ordnungsgemäß mit &quot;&lt;&quot; und &quot;>&quot; abgegrenzt sind. Bei Angabe über catalog:map werden alle Pixelkoordinatenwerte in der Originalbildauflösung und relativ zur oberen linken Ecke des (unveränderten) Quellbilds angenommen. Bei Bereitstellung über einen `map=` werden die Koordinatenwerte als Ebenenkoordinaten relativ zur linken oberen Ecke der Ebene angenommen (nach `rotate=` und `extend=`).
 
 >[!NOTE]
 >
->%-Koordinaten sind derzeit nicht erlaubt und können falsch verarbeitet werden.
+>%-Koordinaten sind derzeit nicht zulässig und können falsch verarbeitet werden.
 
-IS generiert eine zusammengesetzte Imagemap aus den Quellbildkarten jeder einzelnen Schicht, indem die räumlichen Transformationen (z. B. Skalierung und Rotation) auf die Kartenkoordinaten angewendet und dann die verarbeiteten Ebenenkarten in der entsprechenden z-Reihenfolge (von vorne nach hinten) und mit der entsprechenden Positionierung zusammengestellt werden.
+IS erzeugt aus den Quell-Imagemaps jeder Einzelschicht eine zusammengesetzte Imagemap, indem die räumlichen Transformationen (wie Skalierung und Rotation) auf die Map-Koordinaten angewendet werden und dann die verarbeiteten Layer-Maps in der entsprechenden z-Reihenfolge (von vorne nach hinten) und mit der entsprechenden Positionierung zusammengestellt werden.
 
-Die folgenden Befehle werden bei der Verarbeitung von Imagemaps berücksichtigt, wenn sie in Verbindung mit `req=map` bereitgestellt werden (entweder direkt in der Anfrage, über Katalogvorlagen oder in `catalog::Modifier` -Zeichenfolgen):
+Die folgenden Befehle werden für die Verarbeitung von Imagemaps berücksichtigt, wenn sie in Verbindung mit `req=map` bereitgestellt werden (entweder direkt in der Anfrage, über Katalogvorlagen oder in `catalog::Modifier` Zeichenfolgen):
 
 * `align=`
 * `wid=`
@@ -47,12 +47,12 @@ Die folgenden Befehle werden bei der Verarbeitung von Imagemaps berücksichtigt,
 
 Alle anderen Befehle werden effektiv ignoriert.
 
-Die Attribute `SHAPE` und `COORDS` eines `AREA` können während der Verarbeitung einer `req=map` -Anfrage geändert werden. Alle anderen Attribute des `AREA` -Elements werden ohne Änderung übergeben. In den meisten Fällen umfasst dies eine Änderung des `SHAPE` -Werts von `DEFAULT` in `RECT` (dadurch wird auch das Attribut `COORDS` hinzugefügt) oder eine Änderung der `COORDS` -Werte.
+Die `SHAPE`- und `COORDS`-Attribute eines `AREA` können während der Verarbeitung einer `req=map`-Anfrage geändert werden. Alle anderen Attribute des `AREA`-Elements werden unverändert weitergeleitet. In den meisten Fällen umfasst dies das Ändern des `SHAPE` von `DEFAULT` in `RECT` (dies würde auch das Attribut `COORDS` hinzufügen) oder das Ändern der `COORDS`.
 
-Alle `AREA` -Elemente, die während der Verarbeitung leer werden, werden vollständig entfernt. Wenn eine Karte mit `layer=comp` verknüpft ist, wird sie hinter allen anderen Karten platziert. Die Daten werden in Textform von einem oder mehreren HTML `AREA` -Elementen zurückgegeben. Eine leere Antwortzeichenfolge gibt an, dass für die angegebenen Objekte keine Imagemap vorhanden ist.
+Alle `AREA` Elemente, die während der Verarbeitung leer werden, werden vollständig entfernt. Wenn eine Karte mit `layer=comp` verknüpft ist, wird sie hinter allen anderen Karten platziert. Die Daten werden im Textformular als ein oder mehrere HTML-`AREA` zurückgegeben. Eine leere Antwortzeichenfolge gibt an, dass für das/die angegebene(n) Objekt(e) keine Imagemap vorhanden ist.
 
-Ebenentransparenz wird bei der Kartenverarbeitung nicht berücksichtigt. Eine vollständig transparente Ebene kann weiterhin mit einer Imagemap verknüpft sein. Die Karte einer teilweise transparenten Ebene wird nicht an die transparenten Bereiche gekürzt.
+Ebenentransparenz wird bei der Kartenverarbeitung nicht berücksichtigt. Einer vollständig transparenten Ebene kann immer noch eine Imagemap zugeordnet sein. Die Karte einer teilweise transparenten Ebene wird nicht auf die transparenten Bereiche abgeschnitten.
 
 ## Verwandte Themen {#see-also}
 
-[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) , [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [HTML 4.01 Specification](https://www.w3.org/TR/html401/)
+[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) , [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [HTML 4.01 Spezifikation](https://www.w3.org/TR/html401/)

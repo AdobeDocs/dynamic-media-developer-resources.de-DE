@@ -1,6 +1,6 @@
 ---
-title: scl
-description: Skalierungsansicht. Skaliert das zusammengesetzte Bild um das Gegenteil von invFactor.
+title: SCL
+description: Ansicht skalieren. Skaliert das zusammengesetzte Bild um das InvFactor-Inverse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,26 +12,26 @@ ht-degree: 2%
 
 ---
 
-# scl{#scl}
+# SCL{#scl}
 
-Skalierungsansicht. Skaliert das zusammengesetzte Bild um das Gegenteil von invFactor.
+Ansicht skalieren. Skaliert das zusammengesetzte Bild um das InvFactor-Inverse.
 
 `scl= *`invFactor`*`
 
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> invFactor</span> </p> </td> 
-  <td class="stentry"> <p>Umgekehrter Skalierungsfaktor (real größer als 0,0). </p></td> 
+  <td class="stentry"> <p>Inverse Skalierungsfaktor (real größer als 0,0). </p></td> 
  </tr> 
 </table>
 
-Bei `scl=1` wird keine Skalierung angewendet. Ein *`invFactor`* -Wert, der größer als 1,0 Downskala und kleiner als 1,0 ist, vergrößert das zusammengesetzte Bild.
+Bei der `scl=1` wird keine Skalierung vorgenommen. Ein *`invFactor`*, der größer als 1,0 ist, wird herunterskaliert und kleiner als 1,0 vergrößert das zusammengesetzte Bild.
 
 Wenn `scl=` angegeben ist und auch `wid=` und/oder `hei=` vorhanden sind, wird das Bild nach der Skalierung auf `wid=` und/oder `hei=` zugeschnitten.
 
 >[!NOTE]
 >
->Wenn die berechnete oder standardmäßige Antwortbildgröße größer als `attribute::MaxPix` ist, wird ein Fehler zurückgegeben.
+>Ein Fehler wird zurückgegeben, wenn die berechnete oder standardmäßige Größe des Antwortbildes größer als `attribute::MaxPix` ist.
 
 ## Eigenschaften {#section-60af012719db477db4a4703e9a6da5f5}
 
@@ -43,7 +43,7 @@ Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entwed
 
 ## Beispiel {#section-a33f6239476a4b438d939656ad99aa76}
 
-Eine gängige Anwendung von `scl=` finden Sie im Beispiel unter [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) .
+Eine allgemeine Anwendung von `scl=` finden Sie [ Beispiel in &quot;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)=&quot;.
 
 ## Verwandte Themen {#section-ccefd5de59924059903d66d4974ce317}
 

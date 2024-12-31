@@ -1,7 +1,7 @@
 ---
-description: Datentyp mit Echtzahl.
+description: Datentyp der reellen Zahl.
 solution: Experience Manager
-title: Real number
+title: Reelle Zahl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 04534c0f-12b7-4560-974b-918b081164ce
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Real number{#real-number}
+# Reelle Zahl{#real-number}
 
-Datentyp mit Echtzahl.
+Datentyp der reellen Zahl.
 
-Signierter Gleitkommawert (z. B. 0, 12.5, 245, -2.34e4). 0 oder negative Werte können eine besondere Bedeutung haben.
+Vorzeichenmäßiger Gleitkommawert (z. B. 0, 12,5, 245, -2,34e4). 0 oder negative Werte können eine besondere Bedeutung haben.

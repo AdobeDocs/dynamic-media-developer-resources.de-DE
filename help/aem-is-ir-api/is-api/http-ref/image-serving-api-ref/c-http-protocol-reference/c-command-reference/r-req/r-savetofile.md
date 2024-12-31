@@ -1,5 +1,5 @@
 ---
-description: Speichern Sie das Bild in der Datei.
+description: Bild in Datei speichern.
 solution: Experience Manager
 title: saveToFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 1%
 
 # saveToFile{#savetofile}
 
-Speichern Sie das Bild in der Datei.
+Bild in Datei speichern.
 
 `req=saveToFile&name= *`file`*[&timeout= *`val`*]`
 
 <table id="simpletable_5674FD9655FE4CDDB0E5DC8655890A66"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> file</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> Datei</span> </p> </td> 
   <td class="stentry"> <p>Relativer Pfad zur Zielbilddatei. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> Val</span> </p></td> 
   <td class="stentry"> <p>Zeitüberschreitungsintervall (Millisekunden). </p></td> 
  </tr> 
 </table>
@@ -53,17 +53,17 @@ Wenn die Speicheranfrage erfolgreich abgeschlossen wurde, gibt die Anfrage mehre
    <td> <p> Anzahl der Pixel im gespeicherten Bild. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> status</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> done</span> bei Erfolg. </p> </td> 
+   <td> <p> <span class="codeph"> Status</span> </p> </td> 
+   <td> <p> Aufzählung </p> </td> 
+   <td> <p> <span class="codeph"> erledigt</span> wenn erfolgreich. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Gibt den HTTP-Antwortstatus 200 bei Erfolg zurück und 403, wenn die Anfrage fehlschlägt oder eine Zeitüberschreitung aufweist. Die Antwort hat den MIME-Typ `text/plain` und ist nicht zwischenspeicherbar.
+Gibt den HTTP-Antwortstatus 200 bei Erfolg und 403 bei Fehler oder Zeitüberschreitung der Anfrage zurück. Die Antwort hat den MIME-Typ `text/plain` und kann nicht zwischengespeichert werden.
 
-&quot;Wichtiges Speichern in Dateien&quot;muss aktiviert sein, indem der Pfad zu einem vorhandenen beschreibbaren Ordner in `attribute::SavePath` angegeben wird. `saveToFile=` schlägt fehl, wenn `attribute::SavePath` leer ist.
+Wichtig: Das Speichern in Dateien muss aktiviert sein, indem der Pfad zu einem vorhandenen überschreibbaren Ordner in `attribute::SavePath` angegeben wird. `saveToFile=` schlägt fehl, wenn `attribute::SavePath` leer ist.
 
-*`file`* ist erforderlich und muss ein relativer Pfad sein, der mit `attribute::SavePath` kombiniert wird. Image Serving erstellt keine Ordner. Der Zielordner muss auf dem Server vorhanden sein und über die entsprechenden Berechtigungseinstellungen für Image Serving verfügen, um Dateien zu erstellen.
+*`file`* ist erforderlich und muss ein relativer Pfad sein, der mit `attribute::SavePath` kombiniert wird. Die Bereitstellung von Bildern erstellt keine Ordner. Der Zielordner muss auf dem Server vorhanden sein und über die entsprechenden Berechtigungseinstellungen für Image-Serving verfügen, um Dateien zu erstellen.
 
-`timeout=` ist optional. Der Standardwert für die Zeitüberschreitung beträgt 60.000 ms oder der Wert, der mit `PS::SaveTimeout` konfiguriert ist.
+`timeout=` ist optional. Die standardmäßige maximale Wartezeit beträgt 60.000 ms oder der Wert, der mit `PS::SaveTimeout` konfiguriert wird.
