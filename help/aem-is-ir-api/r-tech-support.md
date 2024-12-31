@@ -1,5 +1,5 @@
 ---
-description: Wenden Sie sich wie folgt an den technischen Support.
+description: Verwenden Sie Folgendes, um den technischen Support zu kontaktieren.
 solution: Experience Manager
 title: Technischer Support
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Technischer Support{#technical-support}
 
-Wenden Sie sich wie folgt an den technischen Support.
+Verwenden Sie Folgendes, um den technischen Support zu kontaktieren.
 
-* **Telefon** - 800-898-9743 von 06:00 bis 18:00 Uhr, US-Pazifikzeit, Montag bis Freitag, außer Feiertagen.
-* **Erstellen Sie einen Support-Fall** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **Telefon** - 800-898-9743 von 06:00 bis 18:00 Uhr, United States Pacific Time, Montag bis Freitag, außer an Feiertagen.
+* **Erstellen eines Support-Falls** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

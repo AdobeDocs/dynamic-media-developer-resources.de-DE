@@ -1,6 +1,6 @@
 ---
 title: CallToAction.enabledragging
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # CallToAction.enabledragging{#calltoaction-enabledragging}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 ` [CallToAction.|<containerId>_callToAction.]enabledragging=0|1[, *`overdragvalue`*]`
 
@@ -22,11 +22,11 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert oder deaktiviert die Möglichkeit für einen Benutzer, mit einer Maus oder durch Berührungsgesten in den Miniaturansichten zu blättern. </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die Möglichkeit für einen Benutzer, mit der Maus oder durch Verwendung von Touch-Gesten durch die Miniaturen zu scrollen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> Liegt im Bereich <span class="codeph"> 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Wenn der Wert auf <span class="codeph"> 1 </span> gesetzt ist, bewegt er sich mit der Maus. </p> <p>Wenn der Wert auf <span class="codeph"> 0 </span> gesetzt ist, lässt er dich nicht in die falsche Richtung bewegen. </p> </td> 
+   <td colname="col2"> <p> liegt im <span class="codeph"> 0-1 </span> und ist ein Prozentwert für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. </p> <p>Ist hierfür <span class="codeph"> 1 </span> festgelegt, wird die Maus mitbewegt. </p> <p>Wenn Sie auf <span class="codeph"> 0 </span> festgelegt sind, können Sie sich nicht in die falsche Richtung bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

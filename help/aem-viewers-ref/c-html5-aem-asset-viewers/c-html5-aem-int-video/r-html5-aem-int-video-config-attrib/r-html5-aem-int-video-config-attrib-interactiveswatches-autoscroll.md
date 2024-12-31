@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.autoscroll
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # InteractiveSwatches.autoscroll{#interactiveswatches-autoscroll}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]autoscroll=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert bzw. deaktiviert die Möglichkeit, dass interaktive Muster zusammen mit jeder Medientransition automatisch gescrollt werden, z. B. während der Videowiedergabe. </p> </td> 
+   <td colname="col2"> <p> Aktiviert oder deaktiviert die Möglichkeit, dass interaktive Farbfelder automatisch mit jeder Medienübergabe gescrollt werden, z. B. während der Videowiedergabe. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Enthält Plattformservereinstellungen.
+description: Enthält Plattform-Server-Einstellungen.
 solution: Experience Manager
 title: server.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # server.xml{#server-xml}
 
-Enthält Plattformservereinstellungen.
+Enthält Plattform-Server-Einstellungen.
 
-Beim Ändern dieser XML-Datei muss darauf geachtet werden, dass die gültige XML-Syntax beibehalten wird. Andernfalls kann der Start von [!DNL Platform Server] fehlschlagen.
+Beim Ändern dieser XML-Datei muss darauf geachtet werden, dass die gültige XML-Syntax beibehalten wird. Andernfalls kann es dazu kommen, dass die [!DNL Platform Server] nicht gestartet wird.
 
 Damit Änderungen wirksam werden, muss der [!DNL Platform Server] nach der Bearbeitung dieser Datei neu gestartet werden.
 
-Das folgende Diagramm zeigt, welche Einstellungen in dieser Datei geändert werden können. Eine Beschreibung dieser Einstellungen finden Sie in den entsprechenden Abschnitten weiter oben in diesem Dokument. Beachten Sie, dass dieses Diagramm keine vollständige Darstellung von [!DNL server.xml] ist.
+Die folgende Abbildung zeigt, welche Einstellungen in dieser Datei geändert werden können. Eine Beschreibung dieser Einstellungen finden Sie in den entsprechenden Abschnitten weiter oben in diesem Dokument. Beachten Sie, dass dieses Diagramm [!DNL server.xml] nicht vollständig darstellt.
 
 ```
 <Server>

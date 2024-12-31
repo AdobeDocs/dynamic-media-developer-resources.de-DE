@@ -1,6 +1,6 @@
 ---
 title: Hotspots
-description: Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - erstellt wurden.
+description: Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets erstellt wurden - On-Demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Hotspots{#hotspots}
 
-Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - erstellt wurden.
+Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets erstellt wurden - On-Demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Hotspot-Symbols wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Hotspot-Symbols wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon
@@ -35,25 +35,25 @@ Das Erscheinungsbild des Hotspot-Symbols wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>Hotspot-Symbolgrafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p>Hotspot-Symbol für Bildmaterial. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p>Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Hotspot-Symbolbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des Hotspot-Symbols </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Hotspot-Symbolhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe des Hotspot-Symbols </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie ein Hotspot-Symbol mit 56 x 56 Pixel ein, das für jeden der beiden Symbolstatus ein anderes Bild anzeigt:
+Beispiel : Richten Sie ein Hotspot-Symbol mit 56 x 56 Pixeln ein, das für jeden der beiden verschiedenen Symbolstatus ein anderes Bild anzeigt:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

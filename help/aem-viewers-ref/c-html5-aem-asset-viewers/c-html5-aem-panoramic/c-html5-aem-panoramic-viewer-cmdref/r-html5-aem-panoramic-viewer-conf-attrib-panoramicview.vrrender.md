@@ -1,6 +1,6 @@
 ---
 title: PanoramicView.vrrender
-description: Konfigurationsattribut für Panorama-Viewer.
+description: Konfigurationsattribut für den Panorama-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,7 +13,7 @@ ht-degree: 11%
 
 # PanoramicView.vrrender{#panoramicview-vrrender}
 
-Konfigurationsattribut für Panorama-Viewer.
+Konfigurationsattribut für den Panorama-Viewer.
 
 `[PanoramicView.|<containerId>_panoramicView.]vrrender=false|true`
 
@@ -21,7 +21,7 @@ Konfigurationsattribut für Panorama-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> false|true</span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob der virtuelle Reality-Rendermodus aktiviert ist.</p> </td> 
+   <td colname="col2"> <p> Gibt an, ob der Virtual-Reality-Rendermodus aktiviert ist.</p> </td> 
   </tr> 
  </tbody> 
 </table>

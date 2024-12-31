@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anfrage an einen konfigurierten Image-Server mit Viewer-Typ und Versionsinformationen.
+Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anfrage mit Viewer-Typ und Versionsinformationen an einen konfigurierten Bild-Server.
 
-## Benutzerdefinierte Verfolgung {#section-cda48fc9730142d0bb3326bac7df3271}
+## Benutzerdefiniertes Tracking {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration in Analytics-Systeme von Drittanbietern ist es erforderlich, das `trackEvent` Viewer-Callback zu überwachen und das `eventInfo` -Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, auf `trackEvent` Viewer-Callback zu lauschen und `eventInfo` Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -48,7 +48,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK-Benutzerereignis </p> </th> 
-   <th colname="col2" class="entry"> <p>Gesendet... </p> </th> 
+   <th colname="col2" class="entry"> <p>Gesendet… </p> </th> 
   </tr> 
  </thead>
  <tbody> 

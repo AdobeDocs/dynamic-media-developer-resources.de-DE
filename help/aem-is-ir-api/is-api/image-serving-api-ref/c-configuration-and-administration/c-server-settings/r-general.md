@@ -1,5 +1,5 @@
 ---
-description: Allgemeine Servereinstellungen
+description: Allgemeine Server-Einstellungen
 solution: Experience Manager
 title: Allgemein
 feature: Dynamic Media Classic,SDK/API
@@ -14,32 +14,32 @@ ht-degree: 0%
 
 # Allgemein{#general}
 
-Allgemeine Servereinstellungen
+Allgemeine Server-Einstellungen
 
-## TC::PsPort - Haupt-Listening-Port {#section-d31d3051aa994a76b60b70c3d9f7e89f}
+## TC::PSport - Haupt-Überwachungs-Port {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Gibt den Haupt-Listening-Anschluss für den [!DNL Platform Server] an. Dieser Anschluss wird auch verwendet, um auf die Dokumentations- und Beispielseiten für Image Serving, Image Rendering und die Dynamic Media-Viewer zuzugreifen (falls installiert).
+Gibt den Haupt-Listening-Port für die [!DNL Platform Server] an. Über diesen Port können Sie auch auf die Dokumentations- und Beispielseiten für Image Serving, Image Rendering und Dynamic Media Viewer (falls installiert) zugreifen.
 
-## IS::CacheServerUrl - Caching Service Root Url {#section-bcca227a1f91453b834db4ea050968e2}
+## IS:CacheServerUrl - Zwischenspeicherung der Dienststamm-URL {#section-bcca227a1f91453b834db4ea050968e2}
 
-Gibt den HTTP-Stammpfad an, um dem Image-Server Zugriff auf den Caching-Dienst zu gewähren. Muss auf [!DNL http://localhost:TC::PsPort /is/cache/secondary] gesetzt werden, wobei die Portnummer mit `TC::PsPort` übereinstimmt.
+Gibt den HTTP-Stammpfad an, der dem Bildserver Zugriff auf den Caching-Service gewährt. Muss auf [!DNL http://localhost:TC::PsPort /is/cache/secondary] gesetzt werden, wobei die Port-Nummer mit `TC::PsPort` übereinstimmt.
 
-## IS::RemoteUrlDefaultExpiration - Remote Image Source Default TTL {#section-e4c31228b459492cacd2f482d9575f71}
+## IS::RemoteUrlDefaultExpiration - Standard-TTL für Remote-Image Source {#section-e4c31228b459492cacd2f482d9575f71}
 
-Die TTL für zwischengespeicherte Bilder, die über HTTP von einer Remote-Quelle mit dem `src={…}` -Konstrukt abgerufen werden. Wird nur verwendet, wenn der Remote-Server in seiner HTTP-Antwort keinen Ablaufheader enthält. Ganzzahlwert in Sekunden.
+Die TTL für zwischengespeicherte Bilder, die über HTTP aus einer Remote-Quelle unter Verwendung des `src={…}` abgerufen wurden. Wird nur verwendet, wenn der Remote-Server in seiner HTTP-Antwort keine Ablaufkopfzeile enthält. Ganzzahliger Wert in Sekunden.
 
-## IS::RemoteUrlTimeout - Remote Image Source Timeout {#section-437646c479cc4bea81dae42100a3c50a}
+## IS::RemoteUrlTimeout - Zeitüberschreitung bei Remote-Image Source {#section-437646c479cc4bea81dae42100a3c50a}
 
-Die Zeit, die der Image-Server darauf wartet, dass ein Remote-Server die angeforderte Bilddatei über HTTP bereitstellt, bevor ein Fehler zurückgibt. Ganzzahlwert in Sekunden.
+Die Zeit, die der Bild-Server wartet, bis ein Remote-Server die angeforderte Bilddatei per HTTP bereitstellt, bevor ein Fehler zurückgegeben wird. Ganzzahliger Wert in Sekunden.
 
-## PS::allowDefaultCatalogRequests - Enable/Disable Default Catalog Requests {#section-484e442a115a49b4ac269d1718b351e1}
+## PS::allowDefaultCatalogRequests - Standardkataloganforderungen aktivieren/deaktivieren {#section-484e442a115a49b4ac269d1718b351e1}
 
-Auf false gesetzt, um Anfragen zu verweigern, die keine gültige Katalogkennung im Pfad enthalten. Der Standardwert ist `true`. Wenn der Wert auf `false` gesetzt ist, wird bei Anforderungen ohne Katalogkennung ein Fehler zurückgegeben.
+Legen Sie dies auf „false“ fest, um Anfragen zu verbieten, die keine gültige Katalog-ID im Pfad enthalten. Der Standardwert ist `true`. Bei Festlegung auf `false` wird bei Anfragen ohne Katalog-ID ein Fehler zurückgegeben.
 
 >[!NOTE]
 >
->`req=catalogprops` unterliegt dieser Einstellung nicht.
+>`req=catalogprops` ist von dieser Einstellung nicht betroffen.
 
 ## PS::saveToFile.saveTimeout - Zeitüberschreitung bei Dateispeicherung {#section-d22afd8ad86144b28684ed95a59db40e}
 
-Standardwert für die Zeitüberschreitung für `req=saveToFile` , wenn `timeout=` nicht angegeben ist. `msec`. Wenn der Speichervorgang nicht innerhalb der angegebenen Zeit abgeschlossen ist, wird ein Fehler zurückgegeben.
+Standardwert für die maximale Wartezeit für `req=saveToFile`, wenn `timeout=`nicht angegeben ist. `msec`. Wenn der Speichervorgang nicht innerhalb der angegebenen Zeitspanne abgeschlossen wird, wird ein Fehler zurückgegeben.

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Enthält Einstellungen für das Überwachungs-/Warnsystem.
 
-Diese Datei ist eine JAVA-Eigenschaftendatei. Es ist darauf zu achten, dass die entsprechenden Konventionen eingehalten werden. Andernfalls kann der [!DNL Platform Server] nicht starten. Beachten Sie insbesondere, dass in Windows-Dateipfaden ein doppelter umgekehrter Schrägstrich &quot;\&quot;oder ein einfacher Schrägstrich &quot;/&quot;anstelle eines umgekehrten Schrägstrichs &quot;\&quot;verwendet werden muss, da der umgekehrte Schrägstrich in diesem Dateityp als Escape-Zeichen verwendet wird.
+Diese Datei ist eine JAVA-Eigenschaftendatei. Es muss darauf geachtet werden, dass die entsprechenden Konventionen eingehalten werden. Andernfalls kann es sein, dass der [!DNL Platform Server] nicht startet. Beachten Sie insbesondere, dass in Windows-Dateipfaden anstelle eines umgekehrten Schrägstrichs ein doppelter umgekehrter Schrägstrich &#39;\\&#39; oder ein einzelner Schrägstrich &#39;/&#39; verwendet werden muss, da der umgekehrte Schrägstrich in diesem Dateityp als Escape-Zeichen verwendet wird.
 
 Änderungen an dieser Datei werden kurz nach dem Speichern der Datei wirksam.
 

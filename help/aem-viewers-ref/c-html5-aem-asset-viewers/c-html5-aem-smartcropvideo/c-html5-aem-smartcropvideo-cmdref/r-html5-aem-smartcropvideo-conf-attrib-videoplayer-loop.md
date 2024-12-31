@@ -1,6 +1,6 @@
 ---
 title: SmartCropVideoPlayer.loop
-description: Konfigurationsattribut für Smart Crop Video Viewer.
+description: Konfigurationsattribut für den Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # SmartCropVideoPlayer.loop{#smartcropvideoplayer-loop}
 
-Konfigurationsattribut für Smart Crop Video Viewer.
+Konfigurationsattribut für den Smart Crop Video Viewer.
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob das Video nach Abschluss der Wiedergabe erneut wiedergegeben werden soll. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, ob das Video nach Abschluss der Wiedergabe erneut wiedergegeben werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

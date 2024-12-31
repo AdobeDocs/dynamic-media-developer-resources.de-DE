@@ -1,5 +1,5 @@
 ---
-description: Adressenfilterelement. Optional in <Regel> - und <Pfadregel> -Elementen.
+description: Filterelement der Adresse. Optional in den Elementen <rule> und <pathrule>.
 solution: Experience Manager
 title: addressFilter
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # addressFilter{#addressfilter}
 
-Adressenfilterelement. Optional in den Elementen `<rule>` und `<pathrule>` .
+Filterelement der Adresse. Optional in `<rule>`- und `<pathrule>`.
 
 Überschreibt `attribute::ClientAddressFilter` bei Anwendung der Regel.
 
@@ -24,15 +24,15 @@ Keine.
 
 ## Daten {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-Kommagetrennte Liste von IP-Adressen. Jede einzelne Adresse kann ein optionales Suffix für die Netmask enthalten, um die Angabe von IP-Adressbereichen zu ermöglichen. Weitere Informationen finden Sie unter `attribute::ClientAddressFilter` .
+Liste der IP-Adressen (durch Kommata getrennt) Jede einzelne Adresse kann ein optionales Netzmasken-Suffix enthalten, um die Angabe von IP-Adressbereichen zu ermöglichen. Weitere Informationen finden Sie unter `attribute::ClientAddressFilter` .
 
 ## Beschreibung {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-Der Zugriff auf diesen Bildkatalog kann auf eine oder mehrere bestimmte Client-IP-Adressen beschränkt werden, indem sie in einem `<addressfilter>` -Element angegeben werden. Der Fehler &quot;Anfrage verweigert&quot;wird an den Client zurückgegeben, wenn die Client-IP-Adresse nicht übereinstimmt.
+Der Zugriff auf diesen Bildkatalog kann auf eine oder mehrere bestimmte Client-IP-Adressen beschränkt werden, indem diese in einem `<addressfilter>` angegeben werden. Der Fehler „Anfrage abgelehnt“ wird an den Client zurückgegeben, wenn die Client-IP-Adresse nicht übereinstimmt.
 
 Der Zugriff ist nicht eingeschränkt, wenn `<addressfilter>` leer oder nicht angegeben ist.
 
-Wenn die `<expression>` im Element `<rule>` fehlt oder leer ist, wird die `<addressfilter>` auf alle Anforderungen angewendet.
+Wenn die `<expression>` im `<rule>` fehlt oder leer ist, wird die `<addressfilter>` auf alle Anfragen angewendet.
 
 ## Verwandte Themen {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

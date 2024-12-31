@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.loop
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, ob das Video nach Abschluss der Wiedergabe erneut wiedergegeben werden soll. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, ob das Video nach Abschluss der Wiedergabe erneut wiedergegeben werden soll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

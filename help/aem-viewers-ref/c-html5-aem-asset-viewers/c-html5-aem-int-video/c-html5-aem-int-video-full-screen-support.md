@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Der Viewer unterstützt den Vollbildmodus.
 
-In modernen Desktopbrowsern mit Ausnahme von Internet Explorer 10 und älter sowie auf einigen Touch-Geräten verwendet der Viewer den &quot;nativen&quot;Vollbildmodus. Dieser Modus bedeutet, dass der gesamte Gerätebildschirm vom Viewer-Inhalt belegt wird.
+In modernen Desktop-Browsern mit Ausnahme von Internet Explorer 10 und älter und auf einigen Touch-Geräten verwendet der Viewer den „nativen“ Vollbildmodus. Dieser Modus bedeutet, dass der gesamte Gerätebildschirm vom Viewer-Inhalt eingenommen wird.
 
-Auf iOS-Geräten und älteren Internet Explorer-Browsern verwendet der Viewer stattdessen den &quot;simulierten&quot;Vollbildmodus. In diesem Modus nimmt der Viewer die Größe des gesamten Bereichs des Webbrowserfensters an. Außerdem sind die Benutzeroberfläche des Webbrowsers und andere Fenster weiterhin auf dem Bildschirm sichtbar.
+Auf iOS-Geräten und in älteren Internet Explorer-Browsern verwendet der Viewer stattdessen den „simulierten“ Vollbildmodus. In diesem Modus wird die Größe des Viewers so geändert, dass er den gesamten Bereich des Webbrowser-Fensters einnimmt. Außerdem sind die Benutzeroberfläche des Webbrowsers und andere Fenster weiterhin auf dem Bildschirm sichtbar.
 
-Ein Benutzer öffnet den Vollbildmodus und verlässt ihn, indem er in der Viewer-Benutzeroberfläche auf die Schaltfläche für den Vollbildmodus klickt. Wenn der &quot;native&quot;Vollbildmodus auf dem Desktop verwendet wird, kann er auch durch Drücken von **Esc** beendet werden.
+Ein Benutzer wechselt in den Vollbildmodus und verlässt diesen, indem er in der Viewer-Benutzeroberfläche auf die Schaltfläche für den Vollbildmodus klickt. Wenn der „native“ Vollbildmodus auf dem Desktop verwendet wird, ist es auch möglich, ihn durch Drücken von **Esc** zu beenden.

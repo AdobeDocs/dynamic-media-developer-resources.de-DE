@@ -1,6 +1,6 @@
 ---
 title: CallToAction.scrollbar
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # CallToAction.scrollbar{#calltoaction-scrollbar}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[CallToAction.|<containerId>_callToAction.]scrollbar=0|1`
 

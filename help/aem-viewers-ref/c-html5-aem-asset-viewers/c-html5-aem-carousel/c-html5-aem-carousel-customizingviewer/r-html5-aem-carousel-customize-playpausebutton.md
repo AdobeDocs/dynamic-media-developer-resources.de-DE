@@ -1,6 +1,6 @@
 ---
-title: PlayPause-Schaltfläche
-description: Mit der Schaltfläche Wiedergabe/Pause kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
+title: Schaltfläche „PlayPause“
+description: Mit der Schaltfläche „Wiedergabe/Pause“ kann ein Benutzer das Karussell zur automatischen Wiedergabe anhalten oder fortsetzen.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# PlayPause-Schaltfläche{#playpause-button}
+# Schaltfläche „PlayPause“{#playpause-button}
 
-Mit der Schaltfläche Wiedergabe/Pause kann ein Benutzer das automatische Abspielen des Karussells anhalten oder fortsetzen.
+Mit der Schaltfläche „Wiedergabe/Pause“ kann ein Benutzer das Karussell zur automatischen Wiedergabe anhalten oder fortsetzen.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Die Schaltfläche ist nur sichtbar, wenn der Parameter `CarouselViewer.autoplay` auf `1` gesetzt ist; andernfalls wird sie ausgeblendet. Mithilfe von CSS können Sie diese Schaltfläche in Bezug auf die sie enthaltende Steuerleiste anpassen, ausblenden und positionieren.
+Die Schaltfläche ist nur sichtbar, wenn der `CarouselViewer.autoplay` auf `1` gesetzt ist, andernfalls ist sie ausgeblendet. Mithilfe von CSS können Sie diese Schaltfläche in der Größe, im Design und in der Position relativ zur darin enthaltenen Steuerleiste anpassen.
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Schaltfläche wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7carouselviewer .s7playpausebutton`
 
@@ -35,23 +35,23 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Position am oberen Rand der Viewer-Begrenzung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Position oben am Viewer-Rahmen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position rechts neben der Viewer-Begrenzung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p>Position rechts vom Viewer-Rahmen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>Position links neben dem Viewer. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> linker </span> </p> </td> 
+   <td colname="col2"> <p>Position von links im Viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position am unteren Rand der Viewer-Begrenzung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p>Position am unteren Rand des Viewer-Rahmens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -59,15 +59,15 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
    <td colname="col2"> <p>Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p>Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor-</span> </p> </td> 
    <td colname="col2"> <p>Cursortyp. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,11 +75,11 @@ Das Erscheinungsbild der Schaltfläche wird mit der folgenden CSS-Klassenauswahl
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) für weitere Informationen.
 
-Angenommen, Sie möchten eine Wiedergabepause-Schaltfläche mit einer Größe von 28 x 28 Pixel einrichten. Sie möchten, dass die Schaltfläche 17 Pixel vom unteren Rand und 12 Pixel vom linken Rand des Viewers entfernt wird. Außerdem soll ein anderes Bild für jeden der vier Schaltflächenstatus angezeigt werden, wenn diese ausgewählt oder nicht ausgewählt sind.
+Angenommen, Sie möchten eine Pause-Wiedergabeschaltfläche von 28 x 28 Pixel einrichten. Die Schaltfläche soll 17 Pixel vom unteren Rand und 12 Pixel vom linken Rand des Viewers entfernt platziert werden. Außerdem soll ein anderes Bild für jeden der vier verschiedenen Schaltflächenstatus angezeigt werden, wenn diese ausgewählt oder nicht ausgewählt sind.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

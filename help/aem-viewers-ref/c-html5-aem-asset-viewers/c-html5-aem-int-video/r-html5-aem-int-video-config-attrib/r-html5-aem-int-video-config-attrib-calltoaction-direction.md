@@ -1,6 +1,6 @@
 ---
 title: CallToAction.direction
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # CallToAction.direction{#calltoaction-direction}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[CallToAction.|<containerId>_callToAction.]direction=auto|left|right`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Gibt an, wie Miniaturansichten in der Ansicht gefüllt werden. </p> <p>Setzen Sie dies auf <span class="codeph"> left </span> , um die Füllreihenfolge von links nach rechts festzulegen. </p> <p>Wird auf <span class="codeph"> rechts </span> gesetzt, wird die Reihenfolge umgekehrt, sodass die Ansicht von rechts nach links von oben nach unten gefüllt wird. </p> <p>Auf <span class="codeph"> auto </span> setzen, damit die Komponente den rechten Modus anwendet, wenn das Gebietsschema auf <span class="codeph"> "ja" </span> festgelegt ist; andernfalls wird <span class="codeph"> left </span> verwendet. </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie Miniaturen in der Ansicht gefüllt werden. </p> <p>Auf <span class="codeph"> linke </span> festlegen, um die Füllreihenfolge von links nach rechts festzulegen. </p> <p>Wenn auf <span class="codeph"> rechte </span> festgelegt, wird die Reihenfolge umgekehrt, sodass die Ansicht von rechts nach links und von oben nach unten gefüllt wird. </p> <p>Wenn auf <span class="codeph"> automatische </span> festgelegt, wird die Komponente im Rechtsmodus angewendet, wenn das Gebietsschema auf <span class="codeph"> „ja“-</span> festgelegt ist. Andernfalls wird <span class="codeph"> linke </span> verwendet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

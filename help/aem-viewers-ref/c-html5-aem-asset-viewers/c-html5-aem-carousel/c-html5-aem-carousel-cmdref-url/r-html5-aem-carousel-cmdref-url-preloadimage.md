@@ -1,6 +1,6 @@
 ---
-title: preloadImage
-description: URL-Befehl für Karussell-Viewer.
+title: Bild vorausfüllen
+description: URL-Befehl für den Karussell-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 10%
 
 ---
 
-# preloadImage {#preloadimage}
+# Bild vorausfüllen {#preloadimage}
 
-URL-Befehl für Karussell-Viewer.
+URL-Befehl für den Karussell-Viewer.
 
 `preloadImage=0|1`
 
@@ -22,7 +22,7 @@ URL-Befehl für Karussell-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktivieren (<span class="codeph"> 1</span>) oder deaktivieren Sie die Funktion zum Vorausfüllen des Bildes (<span class="codeph"> 0</span>). </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Bild vorab laden</a>. </p> </td> 
+   <td colname="col2"> <p> Aktivieren (<span class="codeph"> 1</span>) oder Deaktivieren (<span class="codeph"> 0</span>) der Funktion „Bild vorausfüllen“. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Vorabladen von Bildern</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

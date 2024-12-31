@@ -1,6 +1,6 @@
 ---
 title: init
-description: JavaScript-API-Referenz für Karussell-Viewer.
+description: JavaScript-API-Referenz für den Karussell-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # init{#init}
 
-JavaScript-API-Referenz für Karussell-Viewer.
+JavaScript-API-Referenz für den Karussell-Viewer.
 
 `init()`
 
-Startet die Initialisierung des Karussell-Viewers. Ab diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
+Startet die Initialisierung des Karussell-Viewers. Zu diesem Zeitpunkt muss das Container-DOM-Element erstellt werden, damit der Viewer-Code es anhand seiner ID finden kann.
 
-Wenn das Containerelement noch nicht Teil des Webseitenlayouts ist - z. B. kann es mit dem `display:none` -Stil ausgeblendet werden -, setzt der Viewer den Initialisierungsprozess aus. Sie wird ausgesetzt, bis die Webseite das Containerelement wieder in das Layout bringt. Ab diesem Zeitpunkt wird das Laden des Viewers automatisch fortgesetzt.
+Wenn das Container-Element noch nicht Teil des Web-Seiten-Layouts ist - es kann beispielsweise mithilfe `display:none` Stils ausgeblendet werden - setzt der Viewer seinen Initialisierungsprozess aus. Sie wird ausgesetzt, bis die Web-Seite das Container-Element wieder an das Layout anpasst. Ab diesem Zeitpunkt wird das Laden des Viewers automatisch fortgesetzt.
 
 Rufen Sie diese Methode nur einmal während des Lebenszyklus des Viewers auf. Nachfolgende Aufrufe werden ignoriert.
 

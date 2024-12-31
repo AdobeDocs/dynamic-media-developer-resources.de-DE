@@ -1,5 +1,5 @@
 ---
-description: Das Cache-Clustering ermöglicht es mehreren Servern mit Lastenausgleich, Cache-Einträge im primären Antwort-Cache und im sekundären Daten-Cache (für verschachtelte/eingebettete Anforderungen) auszutauschen, wodurch die Reaktionsfähigkeit des Servers erheblich gesteigert werden kann, da nicht derselbe Cache-Eintrag auf mehreren Servern generiert werden muss.
+description: Cache-Clustering ermöglicht es mehreren Servern mit Lastenausgleich, Cache-Einträge im primären Antwort-Cache und im sekundären Daten-Cache (für verschachtelte/eingebettete Anforderungen) auszutauschen, wodurch die Reaktionsgeschwindigkeit des Servers erheblich gesteigert werden kann, da nicht mehr derselbe Cache-Eintrag auf mehreren Servern generiert werden muss.
 solution: Experience Manager
 title: Cache-Clustering
 feature: Dynamic Media Classic,SDK/API
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # Cache-Clustering{#cache-clustering}
 
-Das Cache-Clustering ermöglicht es mehreren Servern mit Lastenausgleich, Cache-Einträge im primären Antwort-Cache und im sekundären Daten-Cache (für verschachtelte/eingebettete Anforderungen) auszutauschen, wodurch die Reaktionsfähigkeit des Servers erheblich gesteigert werden kann, da nicht derselbe Cache-Eintrag auf mehreren Servern generiert werden muss.
+Cache-Clustering ermöglicht es mehreren Servern mit Lastenausgleich, Cache-Einträge im primären Antwort-Cache und im sekundären Daten-Cache (für verschachtelte/eingebettete Anforderungen) auszutauschen, wodurch die Reaktionsgeschwindigkeit des Servers erheblich gesteigert werden kann, da nicht mehr derselbe Cache-Eintrag auf mehreren Servern generiert werden muss.
 
-Wenn dies konfiguriert ist und ein Server eine Anforderung für ein Element erhält, das sich nicht im lokalen Cache befindet, kontaktiert er die Peer-Server im Cluster. Er prüft, ob das Datenelement bereits vorhanden ist, bevor der Image-Server aufgefordert wird, das Element zu generieren.
+Wenn dies konfiguriert ist und ein Server eine Anfrage für ein Element empfängt, das sich nicht im lokalen Cache befindet, kontaktiert er die Peer-Server im Cluster. Dabei wird geprüft, ob das Datenelement bereits vorhanden ist, bevor der Bildserver aufgefordert wird, das Element zu generieren.
 
-Das Cache-Clustering profitiert in erster Linie von Anwendungen mit hochgradig zwischenspeicherbaren Inhalten. Das Laden von Servern sollte während der ersten Bereitstellung und beim Einsatz neuer Inhalte erheblich reduziert werden.
+Das Cache-Clustering kommt in erster Linie Anwendungen zugute, die hochgradig zwischengespeicherte Inhalte enthalten. Die Serverauslastung sollte bei der erstmaligen Bereitstellung und der Live-Schaltung mit neuen Inhalten erheblich reduziert werden.
 
-Timeouts und andere Sicherheitsmaßnahmen gewährleisten, dass das System auch dann weiterhin mit voller Kapazität funktioniert, wenn mindestens ein Peer-Server offline ist.
+Zeitüberschreitungen und andere Sicherheitsmaßnahmen stellen sicher, dass das System weiterhin mit voller Kapazität funktioniert, auch wenn einer oder mehrere der Peer-Server offline sind.
 
 Der Cache-Cluster kann in einer von zwei grundlegenden Konfigurationen ausgeführt werden:
 
-* Wenn `PS::cacheCluster.updateLocalCache` aktiviert ist (Standard), wird jeder Cache-Eintrag, der auf einem Peer-Server gefunden wird, in den lokalen Cache kopiert.
+* Wenn `PS::cacheCluster.updateLocalCache` aktiviert ist (Standard), wird jeder auf einem Peer-Server gefundene Cache-Eintrag in den lokalen Cache kopiert.
 
-  Diese Konfiguration reduziert den Traffic zwischen den Peer-Servern. Es bietet außerdem die schnellsten Reaktionszeiten, um alle Cache-Einträge auf alle Server im Cluster replizieren zu können. Dies ist die empfohlene Konfiguration.
+  Diese Konfiguration reduziert den Traffic zwischen den Peer-Servern. Außerdem werden die schnellsten Antwortzeiten geboten, während alle Cache-Einträge auf alle Server im Cluster repliziert werden. Dies ist die empfohlene Konfiguration.
 
 * Wenn `PS::cacheCluster.updateLocalCache` deaktiviert ist, werden Daten von anderen Servern nicht in den lokalen Cache kopiert.
 
-  Dadurch wird der verfügbare Speicherplatz für Cache-Daten multipliziert. Es erhöht jedoch den Traffic zwischen den Peer-Servern und reduziert die Gesamtansprechzeiten. Verwenden Sie diese Konfiguration nur, wenn Sie niedrige Cache-Trefferraten sehen.
+  Dadurch wird der verfügbare Speicherplatz für Cache-Daten multipliziert. Dadurch wird jedoch der Traffic zwischen den Peer-Servern erhöht und die Antwortzeiten insgesamt verringert. Verwenden Sie diese Konfiguration nur, wenn Sie niedrige Cache-Trefferraten sehen.

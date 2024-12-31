@@ -1,6 +1,6 @@
 ---
-title: Serverkonfigurationsdateien
-description: Alle Konfigurationsdateien befinden sich im Ordner install_folder/conf und können mit den meisten Texteditoren bearbeitet werden. Starten Sie den Server neu, damit die Änderungen wirksam werden.
+title: Server-Konfigurationsdateien
+description: Alle Konfigurationsdateien befinden sich im Installationsordner/conf und können mit den meisten Texteditoren bearbeitet werden. Starten Sie den Server neu, damit die Änderungen wirksam werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Serverkonfigurationsdateien{#server-configuration-files}
+# Server-Konfigurationsdateien{#server-configuration-files}
 
-Alle Konfigurationsdateien befinden sich im Ordner &quot;`install_folder/conf`&quot; und können mit den meisten Texteditoren bearbeitet werden. Starten Sie den Server neu, damit die Änderungen wirksam werden.
+Alle Konfigurationsdateien befinden sich im `install_folder/conf` und können mit den meisten Texteditoren bearbeitet werden. Starten Sie den Server neu, damit die Änderungen wirksam werden.
 
 >[!NOTE]
 >
->Die meisten Serverkonfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Diese Eigenschaften sind für die interne Verwendung des Servers bestimmt und dürfen nur geändert werden, wenn dies vom technischen Support von Dynamic Media angewiesen wurde.
+>Die meisten Server-Konfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Solche Eigenschaften sind für die interne Verwendung durch den Server bestimmt und dürfen nur geändert werden, wenn dies vom technischen Support von Dynamic Media angewiesen wird.
 
-In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdateien erläutert:
+In diesem Dokument werden Einstellungen für die folgenden Konfigurationsdateien erläutert:
 
 <table id="table_D307B20E65B742A7AC3DEBF1E650719E"> 
  <thead> 
@@ -31,7 +31,7 @@ In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdat
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
+   <td> <p> <span class="filepath"> SupervisorRegistry.</span> </p> </td> 
    <td> <p>Server-Supervisor-Konfiguration. </p> </td> 
   </tr> 
   <tr> 
@@ -44,10 +44,10 @@ In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdat
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
-   <td> <p>Konfiguration des Katalogdienstes . </p> </td> 
+   <td> <p>Konfiguration des Katalog-Service. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="filepath"> monitor.conf</span> </p> </td> 
+   <td> <p> <span class="filepath"> monitor.conf </span> </p> </td> 
    <td> <p>Konfiguration der Serverüberwachung. </p> </td> 
   </tr> 
   <tr> 
@@ -57,4 +57,4 @@ In diesem Dokument werden die Einstellungen für die folgenden Konfigurationsdat
  </tbody> 
 </table>
 
-Die Konfigurationsdateien werden weiter unten in diesem Dokument erläutert.
+Die Konfigurationsdateien werden später in diesem Dokument detaillierter erläutert.

@@ -1,6 +1,6 @@
 ---
 title: Befehlsreferenz - URL
-description: Dokumentation zur Befehlsreferenz für Video-Viewer.
+description: Referenzdokumentation zu Befehlen für Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Befehlsreferenz - URL{#command-reference-url}
 
-Dokumentation zur Befehlsreferenz für Video-Viewer.
+Referenzdokumentation zu Befehlen für Video Viewer.

@@ -1,5 +1,5 @@
 ---
-description: Zu den Quelldatendateien für Image Serving gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
+description: Zu den Quelldatendateien der Bildbereitstellung gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
 solution: Experience Manager
 title: Source-Daten
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Source-Daten{#source-data}
 
-Zu den Quelldatendateien für Image Serving gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
+Zu den Quelldatendateien der Bildbereitstellung gehören Bild- und Maskendateien, Schriftarten und ICC-Profile.
 
-Alle Quelldatendateien müssen für den Image-Server verfügbar sein. Image Serving bietet eine Reihe von Alternativen zum Festlegen des Speicherorts von Datendateien:
+Alle Quelldatendateien müssen für den Bildserver zugänglich sein. Die Bildbereitstellung bietet eine Reihe von Alternativen zum Angeben des Speicherorts von Datendateien:
 
 `*`install_folder`*/ *`rootPath`*/ *`filePath`*`
 
@@ -26,25 +26,25 @@ Alle Quelldatendateien müssen für den Image-Server verfügbar sein. Image Serv
   <td class="stentry"> <p><span class="codeph"> IS::RootPath/attribute::RootPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath-</span></span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> catalogPath|requestPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> catalogPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> catalog::Path|catalog::MaskPath|icc::ProfilePath|font::FontPath|font::MetricsPath</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">::Path|catalog::MaskPath|icc::ProfilePath|font::FontPath|font::MetricsPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> requestPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> relativer Pfad und Name der Bilddatei, der in einer Image Serving HTTP-Anforderung angegeben ist</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> in einer Image-Serving-HTTP-Anfrage angegebene relative Bilddateipfad und -name</span> </p></td> 
  </tr> 
 </table>
 
-Der Server kombiniert Pfadsegmente von rechts nach links, bis ein absoluter Dateipfad festgelegt ist.
+Der Server kombiniert Pfadsegmente von rechts nach links, bis ein absoluter Dateipfad festgelegt wird.
 
-Alle `*`rootPath`*` -Segmente können leere, relative oder absolute Pfadsegmente sein.
+Alle `*`rootPath`*`-Segmente können leere, relative oder absolute Pfadsegmente sein.
 
-`*`catalogPath`*` ist entweder ein absoluter oder relativer Dateipfad/-name. `*`requestPath`*` muss ein relativer Dateipfad/Dateiname sein.
+`*`catalogPath`*` ist entweder ein absoluter oder relativer Dateipfad/Name. `*`requestPath`*` muss ein relativer Dateipfad/Name sein.
 
-`Multiple IS::RootPath` -Werte können in ImageServerRegistry.xml (oder über die Admin-Oberfläche) definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Image-Server versucht alternative Pfade in der angegebenen Reihenfolge, bis die Datendatei gefunden wird.
+`Multiple IS::RootPath` können in ImageServerRegistry.xml (oder über die Admin-Schnittstelle) definiert werden. Dadurch können Quelldatendateien über mehrere Dateisysteme verteilt werden. Der Bild-Server versucht alternative Pfade in der angegebenen Reihenfolge, bis die Datendatei gefunden wird.
 
-Neue Datendateien jeder Art können jederzeit hinzugefügt werden, ohne den Server zu stoppen.
+Neue Datendateien jeglicher Art können jederzeit hinzugefügt werden, ohne den Server anzuhalten.

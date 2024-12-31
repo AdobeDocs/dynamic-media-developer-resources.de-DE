@@ -1,6 +1,6 @@
 ---
 title: Hotspots und Imagemaps
-description: Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - erstellt wurden.
+description: Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets erstellt wurden - On-Demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Hotspots und Imagemaps{#hotspots-and-image-maps}
 
-Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an Orten an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets - On-Demand - erstellt wurden.
+Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets erstellt wurden - On-Demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Hotspot-Symbols wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Hotspot-Symbols wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7icon
@@ -35,25 +35,25 @@ Das Erscheinungsbild des Hotspot-Symbols wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>Hotspot-Symbolgrafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p>Hotspot-Symbol für Bildmaterial. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p>Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Hotspot-Symbolbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des Hotspot-Symbols </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Hotspot-Symbolhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe des Hotspot-Symbols </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie ein Hotspot-Symbol mit 56 x 56 Pixel ein, das für jeden der beiden Symbolstatus ein anderes Bild anzeigt:
+Beispiel : Richten Sie ein Hotspot-Symbol mit 56 x 56 Pixeln ein, das für jeden der beiden verschiedenen Symbolstatus ein anderes Bild anzeigt:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -70,7 +70,7 @@ Beispiel: Richten Sie ein Hotspot-Symbol mit 56 x 56 Pixel ein, das für jeden d
 
 **CSS-Eigenschaften des Imagemap-Bereichs**
 
-Das Erscheinungsbild des Imagemap-Bereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Imagemap-Bereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7carouselviewer .s7imagemapeffect .s7region`
 
@@ -83,21 +83,21 @@ Das Erscheinungsbild des Imagemap-Bereichs wird mit der folgenden CSS-Klassenaus
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
-   <td colname="col2"> <p>Füllfarbe für Imagemap-Bereich. </p> <p>Geben Sie diese Farbe in den Formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> an. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Füllfarbe des Imagemap-Bereichs. </p> <p>Geben Sie diese Farbe in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B)-</span> oder <span class="codeph"> RGBA(R,G,B,A)-</span> an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Füllfarbe für Imagemap-Bereich. </p> <p>Geben Sie diese Farbe in den Formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> an. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Füllfarbe des Imagemap-Bereichs. </p> <p>Geben Sie diese Farbe in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B)-</span> oder <span class="codeph"> RGBA(R,G,B,A)-</span> an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> Randstil der Imagemap Sollte als "<span class="codeph"> width </span> <span class="codeph"> solid color </span>"angegeben werden, wobei <span class="codeph"> width </span> in Pixel angegeben wird und <span class="codeph"> color </span> als <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> 3}. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Rahmenstil der Imagemap-Region. Sollte als "<span class="codeph"> Breite </span> <span class="codeph"> einfarbigen </span>" angegeben werden, wobei <span class="codeph"> Breite </span> in Pixel ausgedrückt wird und <span class="codeph"> Farbe </span> als <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oder <span class="codeph"> RGBA(R,G,B,A) </span> festgelegt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie einen transparenten Imagemap-Bereich mit einem schwarzen Rahmen von einem Pixel ein:
+Beispiel: Einrichten eines transparenten Imagemap-Bereichs mit einem schwarzen Rahmen von einem Pixel:
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 

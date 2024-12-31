@@ -1,5 +1,5 @@
 ---
-description: Bildkataloge bieten viele Serverkonfigurationseinstellungen, Schriftarten, ICC-Profile und Befehlsmakros.
+description: Bildkataloge bieten viele Server-Konfigurationseinstellungen sowie Schriftarten, ICC-Profile und Befehlsmakros.
 solution: Experience Manager
 title: Bildkataloge
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Bildkataloge{#image-catalogs}
 
-Bildkataloge bieten viele Serverkonfigurationseinstellungen, Schriftarten, ICC-Profile und Befehlsmakros.
+Bildkataloge bieten viele Server-Konfigurationseinstellungen sowie Schriftarten, ICC-Profile und Befehlsmakros.
 
-Sie ordnen Bild- und statische Inhalts-IDs, die in Anforderungen verwendet werden, den tatsächlichen Dateipfaden zu, speichern verschiedene Bild-Metadaten wie Imagemaps und stellen Container für Vorlagen und Bildsets bereit.
+Sie ordnen Bild- und statische Inhalts-IDs, die in -Anfragen verwendet werden, tatsächlichen Dateipfaden zu, speichern verschiedene Bildmetadaten, z. B. Imagemaps, und stellen Container für Vorlagen und Bildsets bereit.
 
-Auf Bildkataloge kann nur mit dem Wert &quot;[!DNL Platform Server]&quot; zugegriffen werden, nie mit dem Image-Server. Katalogattributdateien müssen das Suffix .ini aufweisen und im Katalogordner [!DNL Platform Server] ( `PS::CatalogFolder`) abgelegt werden. Mindestens der standardmäßige Bildkatalog ist erforderlich und muss mit allen Attributen gefüllt werden, damit der [!DNL Platform Server] ordnungsgemäß funktioniert.
+Auf Bildkataloge kann nur über den [!DNL Platform Server] zugegriffen werden, nicht über den Bildserver. Katalogattributdateien müssen das Suffix &quot;.ini“ aufweisen und im Katalogordner des [!DNL Platform Server] platziert werden ( `PS::CatalogFolder`). Zumindest der Standardbildkatalog ist erforderlich und muss mit allen Attributen ausgefüllt werden, damit das [!DNL Platform Server] ordnungsgemäß funktioniert.

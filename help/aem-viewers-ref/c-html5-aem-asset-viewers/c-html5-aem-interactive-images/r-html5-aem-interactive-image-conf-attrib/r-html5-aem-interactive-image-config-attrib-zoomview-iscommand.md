@@ -1,6 +1,6 @@
 ---
 title: ZoomView.iscommand
-description: Die Image Serving-Befehlszeichenfolge, die auf das Zoom-Bild angewendet wird.
+description: Die Befehlszeichenfolge für die Bildbereitstellung, die auf das Zoom-Bild angewendet wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 6%
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
-Die Image Serving-Befehlszeichenfolge, die auf das Zoom-Bild angewendet wird.
+Die Befehlszeichenfolge für die Bildbereitstellung, die auf das Zoom-Bild angewendet wird.
 
 ` [ZoomView.|<containerId>_zoomView.]iscommand= *`isCommand`*`
 
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> HTTP-kodiert sein als <span class="codeph"> %26</span> bzw. <span class="codeph"> %3D</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> IsCommand</span></span> </p> </td> 
+   <td colname="col2"> <p> Wenn in der URL angegeben, müssen alle Vorkommen von <span class="codeph"> &amp;</span> und <span class="codeph"> =</span> als <span class="codeph"> %26 bzw</span> <span class="codeph"> %3D</span> HTTP-codiert sein. </p> </td> 
   </tr> 
  </tbody> 
 </table>

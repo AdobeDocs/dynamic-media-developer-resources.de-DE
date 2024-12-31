@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: URL-Befehl für Smart Crop Video Viewer.
+description: URL-Befehl für den Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # videoServerUrl{#videoserverurl}
 
-URL-Befehl für Smart Crop Video Viewer.
+URL-Befehl für den Smart Crop Video Viewer.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -22,14 +22,14 @@ URL-Befehl für Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Der Stammpfad des Videoservers. Wenn keine Domäne angegeben ist, wird stattdessen die Domäne angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
+   <td colname="col2"> <p> Den Stammverzeichnis des Videoservers. Wenn keine Domain angegeben ist, wird stattdessen die Domain angewendet, von der die Seite bereitgestellt wird. Es gilt die standardmäßige URI-Pfadauflösung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Optional. Nicht für die standardmäßige SaaS-Nutzung erforderlich.
+Optional. Wird für die standardmäßige SaaS-Nutzung nicht benötigt.
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 

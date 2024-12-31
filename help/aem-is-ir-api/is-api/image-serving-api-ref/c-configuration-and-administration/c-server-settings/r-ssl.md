@@ -1,5 +1,5 @@
 ---
-description: Verwenden Sie diese Servereinstellungen für SSL.
+description: Verwenden Sie diese Server-Einstellungen für SSL.
 solution: Experience Manager
 title: SSL
 feature: Dynamic Media Classic,SDK/API
@@ -14,20 +14,20 @@ ht-degree: 5%
 
 # SSL{#ssl}
 
-Verwenden Sie diese Servereinstellungen für SSL.
+Verwenden Sie diese Server-Einstellungen für SSL.
 
-## TC::SslPort - Listening Port {#section-c80eb582bf684b3fa7313a77cc606769}
+## TC::SSLport - Listening-Port {#section-c80eb582bf684b3fa7313a77cc606769}
 
-Gibt den Listening-Anschluss für die [!DNL Platform Server] für SSL-Verbindungen an. Die Standardgrenze ist 8443.
+Gibt den Überwachungs-Port für die [!DNL Platform Server] für SSL-Verbindungen an. Die Standardgrenze ist 8443.
 
 ## TC::keystoreFile - Keystore-Dateipfad {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
-Geben Sie den Pfad/Namen der SSL-Keystore-Datei an. Kann ein absoluter Pfad oder ein Pfad relativ zu [!DNL *[!DNL install_folder]*/conf] sein. Der Standardwert ist *install_folder*/conf/scene7keystore.
+Geben Sie den Pfad/Namen der SSL-Keystore-Datei an. Kann ein absoluter Pfad oder ein Pfad relativ zu [!DNL *[!DNL install_folder]*/conf] sein. Die Standardeinstellung ist *install_folder*/conf/scene7keystore.
 
-## TC::keystorePass - Keystore Password {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
+## TC::keystorePass - Keystore-Kennwort {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
 
-Das Kennwort für die Keystore-Datei. Der Standardwert ist `scene7`.
+Das Kennwort für die KeyStore-Datei. Der Standardwert ist `scene7`.
 
-## TC::keystoreType - Keystore Type {#section-8f263e1ba67740728cd39181960d7c7d}
+## TC::keystoreType - Keystore-Typ {#section-8f263e1ba67740728cd39181960d7c7d}
 
-Wählen Sie den Keystore-Typ aus. &#39; `Java'` (Standard) und &#39; `PKCS12`&#39; werden unterstützt.
+Typ des Keystores auswählen. &#39; `Java'` (Standard) und &#39; `PKCS12`&#39; werden unterstützt.

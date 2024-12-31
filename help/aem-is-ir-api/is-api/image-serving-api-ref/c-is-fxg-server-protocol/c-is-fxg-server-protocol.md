@@ -1,7 +1,7 @@
 ---
-description: Dieses Dokument enthält Informationen zu FXG-Serverprotokollen und deren Syntax.
+description: Dieses Dokument enthält Informationen über FXG-Serverprotokolle und deren Syntax.
 solution: Experience Manager
-title: Referenz zum FXG-Serverprotokoll
+title: FXG Server-Protokollreferenz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3a0490a-2f98-42d7-a37f-ff9f2377ecee
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Referenz zum FXG-Serverprotokoll{#fxg-server-protocol-reference}
+# FXG Server-Protokollreferenz{#fxg-server-protocol-reference}
 
-Dieses Dokument enthält Informationen zu FXG-Serverprotokollen und deren Syntax.
+Dieses Dokument enthält Informationen über FXG-Serverprotokolle und deren Syntax.

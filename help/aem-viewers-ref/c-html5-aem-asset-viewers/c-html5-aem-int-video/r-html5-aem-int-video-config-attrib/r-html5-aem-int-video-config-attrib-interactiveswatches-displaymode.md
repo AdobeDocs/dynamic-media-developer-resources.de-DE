@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.displaymode
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 7%
 
 # InteractiveSwatches.displaymode{#interactiveswatches-displaymode}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]displaymode=continuous|segment`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|segment</span> </p> </td> 
-   <td colname="col2"> <p> Füllt interaktive Muster kontinuierlich mit Miniaturansichten, unabhängig von den Segmentgrenzen, oder lässt den leeren Bereich zu, die Segmentgrenzen zu beachten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Continuous|Segment</span> </p> </td> 
+   <td colname="col2"> <p> Füllt interaktive Farbfelder unabhängig von Segmentgrenzen kontinuierlich mit Miniaturansichten oder lässt den leeren Raum die Segmentgrenzen zu. </p> </td> 
   </tr> 
  </tbody> 
 </table>

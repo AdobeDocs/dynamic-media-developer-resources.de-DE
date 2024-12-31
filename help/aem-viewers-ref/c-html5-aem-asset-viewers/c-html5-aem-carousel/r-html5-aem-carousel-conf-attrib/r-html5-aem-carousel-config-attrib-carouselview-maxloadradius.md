@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Wenn der Wert auf <span class="codeph"> -1</span> festgelegt ist, lädt die Komponente alle Karussellrahmen im Leerlauf vorab. </p> <p>Wenn der Wert auf <span class="codeph"> 0</span> festgelegt ist, lädt die Komponente nur den derzeit sichtbaren Frame, den vorherigen und den nächsten Frame. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>definiert, wie viele unsichtbare Rahmen um den aktuell angezeigten Frame vorab geladen werden, wenn sie sich im Leerlauf befinden. </p> </td> 
+   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadNbr</span></span> </p> </td> 
+   <td> <p>Gibt das Verhalten beim Vorausfüllen der Komponente an. </p> <p>Bei <span class="codeph"> -1 lädt </span> Komponente alle Karussellrahmen vorab, wenn sie sich im Leerlauf befindet. </p> <p>Bei <span class="codeph"> 0 lädt </span> Komponente nur den aktuell sichtbaren, den vorherigen und den nächsten Frame. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>definiert, wie viele unsichtbare Frames um den aktuell angezeigten Frame vorgeladen werden, wenn er sich im Leerlauf befindet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

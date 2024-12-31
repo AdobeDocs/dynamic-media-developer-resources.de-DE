@@ -1,6 +1,6 @@
 ---
-title: Barrierefreiheit und Navigation der Tastatur
-description: Auf alle Funktionen der Viewer-Benutzeroberfläche kann über die Tastatur zugegriffen werden.
+title: Tastaturzugriff und Navigation
+description: Auf alle Funktionen, die in der Viewer-Benutzeroberfläche verfügbar gemacht werden, kann über die Tastatur zugegriffen werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Barrierefreiheit und Navigation der Tastatur{#keyboard-accessibility-and-navigation}
+# Tastaturzugriff und Navigation{#keyboard-accessibility-and-navigation}
 
-Auf alle Funktionen der Viewer-Benutzeroberfläche kann über die Tastatur zugegriffen werden.
-Endbenutzer können die Tasten `Left`, `Right`, `UP` und `DOWN` verwenden, um das Bild zu schwenken.
-Mit dem Tasten `Esc` können Sie das Bild zurücksetzen.
+Auf alle Funktionen, die in der Viewer-Benutzeroberfläche verfügbar gemacht werden, kann über die Tastatur zugegriffen werden.
+Endbenutzer können `Left`, `Right`, `UP` und `DOWN` Tastenkombinationen verwenden, um das Bild zu schwenken.
+Der `Esc` Tastenanschlag kann zum Zurücksetzen des Bildes verwendet werden.
 

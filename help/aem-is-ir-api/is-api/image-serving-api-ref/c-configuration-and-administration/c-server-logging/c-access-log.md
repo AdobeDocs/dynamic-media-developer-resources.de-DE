@@ -1,5 +1,5 @@
 ---
-description: Dies ist das primäre Protokoll, das alle HTTP-Anfragen verfolgt, die an den  [!DNL Platform Server] gesendet wurden. Wenn das Image Rendering aktiviert ist, werden die Zugriffsprotokolldaten in dieselbe Datei geschrieben.
+description: Dies ist das primäre Protokoll, in dem alle HTTP-Anfragen an das  [!DNL Platform Server] protokolliert werden. Image Rendering schreibt, sofern aktiviert, die Zugriffsprotokolldaten in dieselbe Datei.
 solution: Experience Manager
 title: Zugriffsprotokoll
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Zugriffsprotokoll{#access-log}
 
-Dies ist das primäre Protokoll, das alle HTTP-Anfragen verfolgt, die an die [!DNL Platform Server] gesendet werden. Wenn das Image Rendering aktiviert ist, werden die Zugriffsprotokolldaten in dieselbe Datei geschrieben.
+Dies ist das primäre Protokoll, in dem alle HTTP-Anfragen, die an den [!DNL Platform Server] gesendet werden, protokolliert werden. Image Rendering schreibt, sofern aktiviert, die Zugriffsprotokolldaten in dieselbe Datei.
 
 Das Zugriffsprotokoll wird in server.xml konfiguriert.
 
 >[!NOTE]
 >
->Zusätzlich zum Client-Traffic für Image Serving ( [!DNL /is/image/*]) und Image Rendering ( [!DNL /ir/render/*]) kann das Zugriffsprotokoll bestimmten internen Traffic enthalten: Zugriff auf das [!DNL Platform Server] -Katalogsystem ( [!DNL /is-catalog/*]), Cache-Freigabe- und Fehler-Weiterleitungsanfragen ( [!DNL /is/cache/*]), Zugriff auf andere Pakete, die für [!DNL Platform Server] bereitgestellt werden, wie z. B. die Dynamic Media-Viewer ( [!DNL /is-viewers/*]), statischer Traffic und statische Inhaltsanforderungen, die von [!DNL Platform Server] , [!DNL /is-docs/*]).
+>Zusätzlich zum Client-Traffic für Image Serving ([!DNL /is/image/*]) und Image Rendering ([!DNL /ir/render/*]) kann das Zugriffsprotokoll bestimmten internen Traffic enthalten: Zugriff auf das [!DNL Platform Server]-Katalogsystem ( [!DNL /is-catalog/*]), Cache-Freigabe- und Fehlerumleitungsanfragen ( [!DNL /is/cache/*]), Zugriff auf andere Pakete, die für die [!DNL Platform Server] bereitgestellt werden, wie die Dynamic Media Viewer ( [!DNL /is-viewers/*]), statischer Traffic und statische Inhaltsanfragen, die vom [!DNL Platform Server] bedient werden (z. B. [!DNL /is-docs/*]).
 
-Anforderungen mit den Stammpfaden [!DNL /is-catalog] und [!DNL /is/cache] sollten immer von jeder Client-Traffic-Analyse ausgeschlossen werden.
+Anfragen mit [!DNL /is-catalog] und [!DNL /is/cache] Stammverzeichnis-Pfaden sollten immer aus jeder Client-Traffic-Analyse ausgeschlossen werden.

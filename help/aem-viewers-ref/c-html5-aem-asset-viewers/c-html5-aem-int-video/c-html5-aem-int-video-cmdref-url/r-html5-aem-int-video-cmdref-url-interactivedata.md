@@ -1,6 +1,6 @@
 ---
-title: interactivedata
-description: URL-Befehl für interaktiven Video-Viewer.
+title: InteractiveData
+description: URL-Befehl für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 4%
 
 ---
 
-# interactivedata{#interactivedata}
+# InteractiveData{#interactivedata}
 
-URL-Befehl für interaktiven Video-Viewer.
+URL-Befehl für den interaktiven Video-Viewer.
 
-`interactivedata= *`file`*`
+`interactivedata= *`Datei`*`
 
-Interaktive Daten ordnen bestimmte Zeitbereiche im Videoinhalt den Produktdaten zu, die später in interaktiven Farbfeldern neben dem Video angezeigt werden. Sie ist auch im Aktionsaufruf-Bedienfeld enthalten, das am Ende der Videowiedergabe angezeigt wird. Außerdem wird ein Titel für das interaktive Video bereitgestellt, das im Aktionsaufruf-Bedienfeld angezeigt wird.
+Interaktive Daten verknüpfen bestimmte Zeitbereiche im Videoinhalt mit den Produktdaten, die später in interaktiven Farb-/Bildmustern neben dem Video angezeigt werden. Er wird auch im Bedienfeld für Aktionsaufrufe zugeordnet, das am Ende der Videowiedergabe angezeigt wird. Es enthält auch einen Titel für das interaktive Video, das im Bedienfeld für Aktionsaufrufe angezeigt wird.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Datei</span> </span> </p> </td> 
    <td colname="col2"> <p> Gibt eine URL oder einen Pfad zum interaktiven WebVTT-Dateninhalt an. Die WebVTT-Datei muss von Image Serving bereitgestellt werden. </p> </td> 
   </tr> 
  </tbody> 

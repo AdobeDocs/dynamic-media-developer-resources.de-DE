@@ -1,6 +1,6 @@
 ---
 title: CarouselView.autoplay
-description: Konfigurationsattribut für Karussell-Viewer.
+description: Konfigurationsattribut für den Karussell-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # CarouselView.autoplay{#carouselview-autoplay}
 
-Konfigurationsattribut für Karussell-Viewer.
+Konfigurationsattribut für den Karussell-Viewer.
 
 `[CarouselView.|<containerId>_carouselView.]autoplay=[0|1][,duration][,direction]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die An-/Ausschaltzeit, die Dauer für die Anzeige der einzelnen Banner im Karussell und die Richtung der automatischen Schleife an. </p> <p>Für die automatische Schleife auf <span class="codeph"> 0</span> setzen. </p> <p>Setzen Sie <span class="codeph"> 1</span> auf die automatische Schleife mit der Übergangsdauer in Sekunden, die durch die <span class="codeph"> Dauer</span> gesteuert wird. </p> <p>Die Richtung der automatischen Schleife wird mit <span class="codeph"> Richtung</span> gesteuert. Die <span class="codeph"> Richtung</span> hat den Bereich zwischen <span class="codeph"> 1</span> von rechts nach links und <span class="codeph"> 0</span> von links nach rechts. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">[0|1][,Dauer][,Richtung]</span> </p> </td> 
+   <td colname="col2"> <p> Gibt an, wie lange ein Banner im Karussell angezeigt werden soll, und gibt die Richtung der automatischen Schleife an. </p> <p>Einstellung auf <span class="codeph"> 0</span> für automatische Schleifenabschaltung. </p> <p>Stellen Sie <span class="codeph"> 1</span> auf „Auto-Loop Ein“ mit einer Übergangsdauer in Sekunden ein, die durch <span class="codeph"> Dauer gesteuert wird</span>. </p> <p>Die Richtung der automatischen Schleife wird mit <span class="codeph"> Richtung gesteuert</span>. Die <span class="codeph"> Richtung </span> den Bereich zwischen <span class="codeph"> 1</span> rechts nach links und <span class="codeph"> 0</span> links nach rechts. </p> </td> 
   </tr> 
  </tbody> 
 </table>

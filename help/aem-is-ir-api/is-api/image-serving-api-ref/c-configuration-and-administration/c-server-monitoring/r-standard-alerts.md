@@ -1,7 +1,7 @@
 ---
-description: Standardwarnungen werden mit einer konsolidierten E-Mail-Nachricht am Ende des konfigurierten Durchschnitts gesendet.
+description: Standardwarnungen werden am Ende des konfigurierten Mittelungsintervalls mit einer konsolidierten E-Mail-Nachricht gesendet.
 solution: Experience Manager
-title: Standardmäßige Warnungen
+title: Standardwarnungen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
@@ -12,45 +12,45 @@ ht-degree: 0%
 
 ---
 
-# Standardmäßige Warnungen{#standard-alerts}
+# Standardwarnungen{#standard-alerts}
 
-Standardwarnungen werden mit einer konsolidierten E-Mail-Nachricht am Ende des konfigurierten Durchschnitts gesendet.
+Standardwarnungen werden am Ende des konfigurierten Mittelungsintervalls mit einer konsolidierten E-Mail-Nachricht gesendet.
 
-In der folgenden Tabelle werden die einzelnen Typen von Standardwarnungen beschrieben.
+In der folgenden Tabelle werden die einzelnen Arten von Standardwarnhinweisen beschrieben.
 
 <table id="table_02611F1B920E48A6973BFA969CA564EB"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Warnungstyp</b> </th> 
+   <th class="entry"> <b>Warnhinweistyp</b> </th> 
    <th class="entry"> <b>Titel-ID</b> </th> 
    <th class="entry"> <b>Beschreibung</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>Gesperrte Anforderung </p> </td> 
+   <td> <p>Gesperrte Anfrage </p> </td> 
    <td> <p>Sperren </p> </td> 
-   <td> <p>Wird gesendet, wenn eine Anfrage innerhalb des angegebenen Schwellenwerts keine Antwort an den Client zurückgibt. Kann auf hängende Anfragen hinweisen, was zu einer Erschöpfung des Java-Thread-Pools führen kann. </p> </td> 
+   <td> <p>Wird gesendet, wenn eine Anfrage innerhalb des angegebenen Schwellenwerts keine Antwort an den Client zurückgibt. Kann ein Hinweis auf hängende Anfragen sein, die zu einer Deaktivierung des Java-Thread-Pools führen können. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Hohe Gleichzeitigkeit </p> </td> 
-   <td> <p>Conc </p> </td> 
-   <td> Wird ausgegeben, wenn die Anzahl der gleichzeitig verarbeiteten Anforderungen (die <i>überlappung</i>) den festgelegten Schwellenwert überschreitet. Kann auf eine Überlastungsbedingung des Servers hinweisen. </td> 
+   <td> <p>Hohe gleichzeitige Nutzung </p> </td> 
+   <td> <p>Konz </p> </td> 
+   <td> Wird ausgegeben, wenn die Anzahl der gleichzeitig verarbeiteten Anfragen (die <i>Überschneidung</i>) den angegebenen Schwellenwert überschreitet. Kann auf eine Serverüberlastung hinweisen. </td> 
   </tr> 
   <tr> 
    <td> <p>Mindestverkehr </p> </td> 
    <td> <p>Traf </p> </td> 
-   <td> <p>Wird generiert, wenn die Gesamtanfragerate unter den angegebenen Schwellenwert fällt. Gibt typischerweise ein Problem mit der Serverkommunikation an (z. B. wenn ein Server ausgeschaltet wird). </p> </td> 
+   <td> <p>Wird generiert, wenn die Gesamtanfragerate unter den angegebenen Schwellenwert fällt. Zeigt normalerweise ein Problem mit der Server-Kommunikation an (z. B. wenn ein Server offline geschaltet wird). </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fehlerrate </p> </td> 
    <td> <p>Fehler </p> </td> 
-   <td> <p>Wird ausgegeben, wenn die durchschnittliche Rate von HTTP-Fehlerantworten während des Sampling-Intervalls den festgelegten Schwellenwert überschreitet. Kann auf Konfigurationsprobleme, fehlende Bilder, Website-Programmierung oder Datenbankfehler hinweisen. </p> </td> 
+   <td> <p>Wird ausgegeben, wenn die durchschnittliche Rate von HTTP-Fehlerantworten während des Sampling-Intervalls den angegebenen Schwellenwert überschreitet. Kann ein Hinweis auf Konfigurationsprobleme, fehlende Bilder oder Website-Programmierung oder Datenbankfehler sein. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Reaktionszeit </p> </td> 
-   <td> <p>RTime </p> </td> 
-   <td> <p>Wird gesendet, wenn die durchschnittliche Verarbeitungszeit für Anfragen während des Stichprobenintervalls über dem festgelegten Schwellenwert liegt. Gibt normalerweise eine vorübergehende oder dauerhafte Überlastungsbedingung des Server- oder Backend-Bildspeichersystems an. </p> <p>Fehlerantworten werden bei der Berechnung der durchschnittlichen Antwortzeit nicht berücksichtigt. </p> </td> 
+   <td> <p>Antwortzeit </p> </td> 
+   <td> <p>Time </p> </td> 
+   <td> <p>Wird gesendet, wenn die durchschnittliche Verarbeitungszeit für Anfragen während des Sampling-Intervalls den angegebenen Schwellenwert überschreitet. Zeigt normalerweise eine temporäre oder persistente Überlastung des Server- oder Backend-Bildspeichersystems an. </p> <p>Fehlerantworten werden bei der Berechnung der durchschnittlichen Antwortzeit nicht berücksichtigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

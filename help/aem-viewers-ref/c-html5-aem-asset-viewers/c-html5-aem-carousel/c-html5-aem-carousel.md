@@ -1,6 +1,6 @@
 ---
 title: Karussell
-description: Karussell-Viewer ist ein Viewer, der ein Karussell nicht zoombarer Bannerbilder mit klickbaren Hotspots oder Regionen anzeigt. Mit diesem Viewer können Sie ein Karussellerlebnis mit Shopping-Funktion implementieren, bei dem Benutzer einen Hotspot oder eine Region über dem Bannerbild auswählen können. Sie können zu einer Schnellansichts- oder Produktdetailseite auf der Website des Kunden weitergeleitet werden. Es wurde für Desktops und Mobilgeräte entwickelt.
+description: Der Karussell-Viewer ist ein Viewer, der ein Karussell nicht zoombarer Bannerbilder mit klickbaren Hotspots oder Regionen anzeigt. Dieser Viewer kann Ihnen dabei helfen, ein „Karussell mit Shopping-Funktion“ zu implementieren, bei dem Benutzer einen Hotspot oder eine Region über dem Bannerbild auswählen können. Sie können zu einer Schnellansicht oder Produktdetailseite auf der Website des Kunden umgeleitet werden. Es wurde für Desktop-PCs und mobile Geräte entwickelt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Karussell{#carousel}
 
-Karussell-Viewer ist ein Viewer, der ein Karussell nicht zoombarer Bannerbilder mit klickbaren Hotspots oder Regionen anzeigt. Mit diesem Viewer können Sie ein Karussellerlebnis mit Shopping-Funktion implementieren, bei dem Benutzer einen Hotspot oder eine Region über dem Bannerbild auswählen können. Sie können zu einer Schnellansichts- oder Produktdetailseite auf der Website des Kunden weitergeleitet werden. Es wurde für Desktops und Mobilgeräte entwickelt.
+Der Karussell-Viewer ist ein Viewer, der ein Karussell nicht zoombarer Bannerbilder mit klickbaren Hotspots oder Regionen anzeigt. Dieser Viewer kann Ihnen dabei helfen, ein „Karussell mit Shopping-Funktion“ zu implementieren, bei dem Benutzer einen Hotspot oder eine Region über dem Bannerbild auswählen können. Sie können zu einer Schnellansicht oder Produktdetailseite auf der Website des Kunden umgeleitet werden. Es wurde für Desktop-PCs und mobile Geräte entwickelt.
 
 >[!NOTE]
 >
->Bilder, die Image Rendering oder benutzergenerierte Inhalte (UGC) verwenden, werden von diesem Viewer nicht unterstützt.
+>Bilder, die Bild-Rendering oder benutzergenerierte Inhalte (UGC) verwenden, werden von diesem Viewer nicht unterstützt.
 
-Der Viewer-Typ ist 511.
+Viewer-Typ ist 511.
 
 ## Demo-URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
@@ -30,41 +30,41 @@ Der Viewer-Typ ist 511.
 
 Siehe [Systemanforderungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Verwenden des Karussellanzeige {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Verwenden des Karussell-Viewers {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Der Karussell-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar (eine JavaScript-Datei enthält alle Viewer-SDK-Komponenten, die von diesem Viewer, den Assets und CSS verwendet werden), die vom Viewer zur Laufzeit heruntergeladen wurden.
+Der Karussell-Viewer stellt eine JavaScript-Hauptdatei und einen Satz Hilfsdateien (ein einzelnes JavaScript-Include mit allen Viewer-SDK-Komponenten, die von diesem bestimmten Viewer verwendet werden, Assets, CSS) dar, die vom Viewer zur Laufzeit heruntergeladen wurden.
 
-Karussell-Viewer können sowohl im Popup-Modus mit einer produktionsbereiten HTML-Seite mit IS-Viewern verwendet werden als auch im eingebetteten Modus, wo sie mithilfe einer dokumentierten API in die Ziel-Web-Seite integriert wird.
+Der Karussell-Viewer kann sowohl im Popup-Modus mit einer produktionsbereiten HTML-Seite verwendet werden, die mit IMS-Viewern bereitgestellt wird, als auch im eingebetteten Modus, wenn er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
-Die Konfiguration und das Skinning ähneln denen der anderen in dieser Hilfe beschriebenen Viewer. Die gesamte Skinning-Funktion wird über benutzerdefiniertes CSS erreicht.
+Konfiguration und Skinning ähneln denen der anderen Viewer, die in dieser Hilfe beschrieben werden. Die gesamte Skin-Verwaltung erfolgt über benutzerdefiniertes CSS.
 
-Siehe [Befehlsreferenz für alle Viewer - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Befehlsreferenz für alle Viewer - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Siehe [Für alle Viewer gemeinsame Befehlsreferenz - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Für alle Viewer gemeinsame Befehlsreferenz - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagieren mit Karussellansicht {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interagieren mit dem Karussell-Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Das Navigieren durch das Karussellset erfolgt über eine horizontale Wischbewegung über die Hauptansicht oder mit zwei Pfeiltasten, die auf dem Desktop-Gerät verfügbar sind. Anzeigepunkte festlegen zeigt die aktuelle Position im Satz an.
+Die Navigation durch das Karussellset erfolgt über ein horizontales Wischen über die Hauptansicht oder mit zwei Pfeilschaltflächen, die auf dem Desktop-Gerät verfügbar sind. Set-Indikatorpunkte zeigen die aktuelle Position innerhalb des Sets an.
 
-Der Viewer kann Hotspots oder Regionen über dem Bannerbild rendern, um den interaktiven Bereich im Produkt anzuzeigen.
+Der Viewer kann Hotspots oder Bereiche oberhalb des Bannerbilds rendern, um den interaktiven Bereich auf dem Produkt anzuzeigen.
 
-Durch Klicken oder Tippen auf einen Hotspot oder eine Region wird während der Autorenzeit eine mit ihm verknüpfte Aktion Trigger. Die Aktion kann auf eine andere Seite der Website umgeleitet werden oder sie kann Produktinformationen zurück an die Webseitenlogik übergeben, wodurch wiederum eine Schnellansicht mit zugehörigen Produktinhalten Trigger werden kann.
+Durch Klicken oder Tippen auf einen Hotspot oder eine Region wird eine damit verknüpfte Aktion während der Autorenzeit in Trigger gesetzt. Die Aktion kann zu einer anderen Seite auf der Website umgeleitet werden oder Produktinformationen werden zurück an die Webseitenlogik übergeben, die wiederum eine Schnellansicht mit zugehörigen Produktinhalten Trigger.
 
-Der Viewer ist vollständig über die Tastatur zugänglich.
+Der Viewer ist vollständig mit der Tastatur zugänglich.
 
-Siehe [Barrierefreiheit und Navigation auf der Tastatur](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Siehe [Tastaturzugriff und Navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Einbetten von Karussell-Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Einbetten des Karussell-Viewers {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **Über den Popup-Modus**
 
-Im Popup-Modus wird der Viewer in einem separaten Webbrowser-Fenster oder einer separaten Registerkarte geöffnet. Es nimmt den gesamten Bereich des Browser-Fensters und passt sich an, falls die Größe des Browsers geändert wird oder die Ausrichtung eines Mobilgeräts geändert wird.
+Im Popup-Modus wird der Viewer in einem separaten Fenster oder einer separaten Registerkarte des Webbrowsers geöffnet. Sie nimmt den gesamten Browser-Fensterbereich und passt sich an, falls die Größe des Browsers geändert oder die Ausrichtung eines Mobilgeräts geändert wird.
 
-Der Pop-up-Modus ist der häufigste für Mobilgeräte. Die Webseite lädt den Viewer mit dem Aufruf `window.open()` JavaScript , dem ordnungsgemäß konfigurierten Element `A` HTML oder einer anderen geeigneten Methode.
+Der Popup-Modus ist der gängigste für Mobilgeräte. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, eines ordnungsgemäß konfigurierten HTML-Elements `A` einer anderen geeigneten Methode.
 
-Es wird empfohlen, eine vordefinierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. In diesem Fall wird es als `CarouselViewer.html` bezeichnet und befindet sich im Unterordner `html5/` Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. In diesem Fall wird sie als `CarouselViewer.html` bezeichnet und befindet sich im `html5/` Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
 `<s7viewers_root>/html5/CarouselViewer.html`
 
-Sie können visuelle Anpassungen durch Anwendung von benutzerdefiniertem CSS erreichen.
+Sie können die visuelle Anpassung erreichen, indem Sie benutzerdefiniertes CSS anwenden.
 
 Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
@@ -72,36 +72,36 @@ Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neu
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
 
-**Über den Einbettungsmodus mit fester Größe und den Einbettungsmodus für responsives Design**
+**Über den Einbettungsmodus für feste Größe und den Einbettungsmodus für responsives Design**
 
-Im eingebetteten Modus wird der Viewer der vorhandenen Webseite hinzugefügt. Diese Webseite kann bereits über Kundeninhalte verfügen, die nicht mit dem Viewer in Verbindung stehen. Der Viewer belegt normalerweise nur einen Teil der Immobilien einer Web-Seite.
+Im eingebetteten Modus wird der Viewer zur vorhandenen Webseite hinzugefügt. Möglicherweise enthält diese Web-Seite bereits Kundeninhalte, die sich nicht auf den Viewer beziehen. Der Viewer belegt normalerweise nur einen Teil des Grundbesitzes einer Web-Seite.
 
-Die wichtigsten Anwendungsfälle sind Web-Seiten, die auf Desktops oder Tablets ausgerichtet sind, sowie responsive Seiten, auf denen das Layout automatisch an den Gerätetyp angepasst wird.
+Die wichtigsten Anwendungsfälle sind Web-Seiten, die für Desktops oder Tablet-Geräte ausgerichtet sind, und responsiv gestaltete Seiten, die das Layout automatisch je nach Gerätetyp anpassen.
 
-Die Einbettung fester Größe wird verwendet, wenn die Größe des Viewers nach dem ersten Laden nicht geändert wird. Diese Methode eignet sich am besten für Webseiten mit statischem Layout.
+Einbetten in fester Größe wird verwendet, wenn der Viewer seine Größe nach dem ersten Laden nicht ändert. Diese Methode ist die beste Wahl für Web-Seiten mit statischem Layout.
 
-Responsives Einbetten von Design setzt voraus, dass die Größe des Viewers zur Laufzeit geändert werden muss, um auf die Größenänderung des Containers `DIV` reagieren zu können. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Webseite, die ein flexibles Seitenlayout verwendet.
+Beim Einbetten eines responsiven Designs wird davon ausgegangen, dass die Größe des Viewers zur Laufzeit entsprechend der Größenänderung seiner Container-`DIV` geändert werden muss. Der häufigste Anwendungsfall ist das Hinzufügen eines Viewers zu einer Web-Seite, die ein flexibles Seiten-Layout verwendet.
 
-Im Einbettungsmodus für responsive Designs verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe des Containers auf der Webseite angepasst wird `DIV`. Wenn die Webseite nur die Breite des Containers &quot;`DIV`&quot; festlegt und die Höhe nicht eingeschränkt bleibt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass die Seiten einen Abstand aufweisen. Dieser Anwendungsfall ist der häufigste für Webseiten, die responsive Webdesign-Layoutrahmen wie Bootstrap und Foundation verwenden.
+Im responsiven Design-Einbettungsmodus verhält sich der Viewer unterschiedlich, je nachdem, wie die Größe der Web-Seite seinen Container-`DIV` bestimmt. Wenn die Web-Seite nur die Breite des Container-`DIV` festlegt und seine Höhe nicht beschränkt, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktion stellt sicher, dass das Asset perfekt in die Ansicht passt, ohne dass an den Seiten ein Abstand vorhanden ist. Dieser Anwendungsfall ist der häufigste bei Web-Seiten, die responsive Web-Design-Layout-Frameworks wie Bootstrap und Foundation verwenden.
 
-Andernfalls füllt der Viewer nur diesen Bereich aus, wenn die Web-Seite sowohl die Breite als auch die Höhe für den Container des Viewers `DIV` festlegt. Es folgt auch der Größe, die das Webseitenlayout bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Überlagerung entsprechend der Fenstergröße des Webbrowsers skaliert wird.
+Wenn die Web-Seite jedoch sowohl die Breite als auch die Höhe für die Container-`DIV` des Viewers festlegt, füllt der Viewer nur diesen Bereich aus. Dies entspricht auch der Größe, die das Web-Seiten-Layout bietet. Ein gutes Beispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung an die Fenstergröße des Webbrowsers angepasst ist.
 
-**Einbettung fester Größe**
+**Einbetten in fester Größe**
 
-Sie fügen den Viewer zu einer Web-Seite hinzu, indem Sie Folgendes ausführen:
+Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
-1. Definieren des Containers `DIV`.
-1. Festlegen der Viewer-Größe
-1. Erstellen und Initialisieren des Viewers.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
+1. Container-`DIV` definieren.
+1. Festlegen der Viewer-Größe.
+1. Viewer erstellen und initialisieren.
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie ein Skript-Tag im HTML-Kopf hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL CarouselViewer.js] einbeziehen. Die Datei [!DNL CarouselViewer.js] befindet sich im Unterordner [!DNL html5/js/] Ihrer standardmäßigen IS-Viewer-Bereitstellung:
+   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL CarouselViewer.js] einbeziehen. Die [!DNL CarouselViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/CarouselViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und von derselben Domäne bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf dem die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und er von derselben Domain bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf denen die IS-Viewer installiert sind.
 
 Der relative Pfad sieht wie folgt aus:
 
@@ -111,30 +111,30 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Referenzieren Sie nur die JavaScript `include` -Hauptdatei des Viewers auf Ihrer Seite. Referenzieren Sie keine zusätzlichen JavaScript-Dateien im Webseitencode, die möglicherweise von der Viewer-Logik zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus dem Kontextpfad `/s7viewers` geladene HTML5 SDK `Utils.js`-Bibliothek (das so genannte konsolidierte SDK `include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Laufzeit-Viewer-Bibliotheken vollständig durch die Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe hält ältere Versionen des sekundären Viewers `includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
 >
 >
->Infolgedessen wird die Viewer-Funktion bei der Bereitstellung einer neuen Produktversion durch direkte Referenzierung auf alle sekundären JavaScript `include`, die vom Viewer auf der Seite verwendet werden, in Zukunft beeinträchtigt.
+>Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
 
-1. Definieren des Containers `DIV`.
+1. Container-`DIV` definieren.
 
-   Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres `DIV` -Element hinzu. Für das Element `DIV` muss die Kennung definiert sein, da diese ID später an die Viewer-API übergeben wird. Die DIV-Größe wird über CSS angegeben.
+   Fügen Sie der Seite, auf der der Viewer angezeigt werden soll, ein leeres `DIV` hinzu. Für das `DIV`-Element muss eine ID definiert sein, da diese ID später an die Viewer-API übergeben wird. Die Größe des DIV wird durch CSS angegeben.
 
-   Der Platzhalter `DIV` ist ein positioniertes Element, d. h. die CSS-Eigenschaft `position` ist auf `relative` oder `absolute` festgelegt.
+   Der `DIV` ist ein positioniertes Element, d. h. die `position` CSS-Eigenschaft ist auf `relative` oder `absolute` festgelegt.
 
-   Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalterelement `DIV` :
+   Im Folgenden finden Sie ein Beispiel für ein definiertes Platzhalter-`DIV`:
 
    ```CSS {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
-1. Viewer-Größe festlegen
+1. Festlegen der Viewer-Größe
 
-   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für die CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.`.s7carouselviewer`
+   Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für `.s7carouselviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder `stagesize` Modifikator verwenden.
 
-   Sie können die Größenanpassung in CSS direkt auf die HTML-Seite setzen. Oder Sie können die Größe in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die später in AEM Assets einem Viewer-Vorgabendatensatz zugewiesen - On-Demand oder explizit mit dem Befehl `style` übergeben wird.
+   Sie können die Größenanpassung in CSS direkt auf der HTML-Seite festlegen. Sie können die Größenanpassung auch in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die dann später in AEM Assets On-Demand einem Viewer-Vorgabeneintrag zugewiesen oder explizit mit dem Befehl `style` übergeben wird.
 
-   Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter [Anpassen des Karussell-Viewers](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)Anpassen des Karussell-Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
@@ -145,23 +145,23 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können den Modifikator `stagesize` explizit mit dem Viewer-Initialisierungscode mit der Sammlung `params` oder als API-Aufruf übergeben, wie im Abschnitt &quot;Befehlsreferenz&quot;beschrieben:
+   Sie können den `stagesize`-Modifikator explizit mit dem Viewer-Initialisierungs-Code mit `params` Sammlung oder als API-Aufruf übergeben, wie im Abschnitt „Befehlsreferenz“ beschrieben, wie hier zu sehen:
 
    ```CSS {.line-numbers}
    carouselViewer.setParam("stagesize", "1174,500");
    ```
 
-   Es wird ein CSS-basierter Ansatz empfohlen, der in diesem Beispiel verwendet wird.
+   Ein CSS-basierter Ansatz wird empfohlen und wird in diesem Beispiel verwendet.
 
-1. Erstellen und Initialisieren des Viewers.
+1. Viewer erstellen und initialisieren.
 
-   Wenn Sie die oben genannten Schritte ausgeführt haben, erstellen Sie eine Instanz der Klasse `s7viewers.CarouselViewer`, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen die Methode `init()` in einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über das Feld `containerId` verfügen, das den Namen der Viewer-Container-ID und das verschachtelte JSON-Objekt `params` mit Konfigurationsparametern enthält, die vom Viewer unterstützt werden. In diesem Fall muss für das Objekt `params` mindestens die Image Serving-URL als `serverUrl`-Eigenschaft und das anfängliche Asset als `asset`-Parameter übergeben werden. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzelnen Codezeile erstellen und starten.
+   Wenn Sie die obigen Schritte ausgeführt haben, erstellen Sie eine Instanz `s7viewers.CarouselViewer` Klasse, übergeben alle Konfigurationsinformationen an ihren Konstruktor und rufen `init()` Methode in einer Viewer-Instanz auf. Konfigurationsinformationen werden als JSON-Objekt an den Konstruktor übergeben. Dieses Objekt sollte mindestens über `containerId` Feld verfügen, das den Namen der Viewer-Container-ID enthält und `params` JSON-Objekt mit Konfigurationsparametern verschachtelt ist, die vom Viewer unterstützt werden. In diesem Fall muss für das `params`-Objekt mindestens die Bildbereitstellungs-URL als `serverUrl`-Eigenschaft übergeben werden und das anfängliche Asset muss `asset` Parameter sein. Mit der JSON-basierten Initialisierungs-API können Sie den Viewer mit einer einzigen Codezeile erstellen und starten.
 
-   Der Viewer-Container muss dem DOM hinzugefügt werden, damit der Viewer-Code das Container-Element anhand seiner Kennung finden kann. Einige Browser verzögern das Erstellen von DOM bis zum Ende der Webseite. Rufen Sie für maximale Kompatibilität die `init()` -Methode direkt vor dem schließenden `BODY` -Tag oder das body `onload()` -Ereignis auf.
+   Es ist wichtig, dass der Viewer-Container zum DOM hinzugefügt wird, damit der Viewer-Code das Container-Element anhand seiner ID finden kann. Einige Browser verzögern die Erstellung von DOM bis zum Ende der Web-Seite. Um maximale Kompatibilität zu erzielen, rufen Sie die `init()`-Methode unmittelbar vor dem schließenden `BODY`-Tag oder im body-`onload()` auf.
 
-   Gleichzeitig sollte das Containerelement nicht unbedingt Teil des Web-Seiten-Layouts sein. Sie kann beispielsweise mit dem ihm zugewiesenen `display:none` -Stil ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess so lange, bis die Webseite das Containerelement wieder in das Layout bringt. Wenn diese Funktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
+   Gleichzeitig sollte das Container-Element noch nicht unbedingt Teil des Web-Seiten-Layouts sein. Beispielsweise kann sie mithilfe `display:none` ihr zugewiesenen Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Moment, an dem die Web-Seite das Container-Element wieder zum Layout zurückbringt. Wenn diese Funktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()` -Methode. Im Beispiel wird angenommen, dass `carouselViewer` die Viewer-Instanz ist; `s7viewer` der Name des Platzhalters `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` die Image Serving-URL und `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` das Asset ist:
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. Im Beispiel wird davon ausgegangen, `carouselViewer` die Viewer-Instanz ist. `s7viewer` ist der Name des Platzhalters `DIV`. `https://adobedemo62-h.assetsadobe.com/is/image` ist die Bildbereitstellungs-URL und `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` ist das Asset:
 
    ```javascript {.line-numbers}
    <script type="text/javascript"> 
@@ -175,7 +175,7 @@ Der relative Pfad sieht wie folgt aus:
    </script>
    ```
 
-   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, die den Karussell-Viewer mit einer festen Größe einbettet:
+   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, bei der der Karussell-Viewer mit einer festen Größe eingebettet wird:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -204,9 +204,9 @@ Der relative Pfad sieht wie folgt aus:
    </html>
    ```
 
-**Responsives Design, eingebettet in unbeschränkte Höhe**
+**Responsives Design mit unbegrenzter Höhe**
 
-Bei der Einbettung responsiver Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße des Containers des Viewers `DIV` vorgibt. Für das folgende Beispiel nehmen Sie an, dass die Webseite es dem Container `DIV` des Viewers ermöglicht, 40 % der Fenstergröße des Webbrowsers zu übernehmen. Und seine Höhe bleibt unbegrenzt. Der HTML-Code der Webseite würde wie folgt aussehen:
+Beim Einbetten eines responsiven Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße der Container-`DIV` des Viewers bestimmt. Nehmen wir für das folgende Beispiel an, dass die Web-Seite dem Container-`DIV` des Viewers ermöglicht, 40 % der Fenstergröße des Webbrowsers zu verwenden. Und seine Höhe ist unbegrenzt. Der Web-Seiten-HTML-Code würde wie folgt aussehen:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -224,13 +224,13 @@ Bei der Einbettung responsiver Designs verfügt die Web-Seite normalerweise übe
 </html>
 ```
 
-Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten zum Einbetten fester Größe. Der einzige Unterschied besteht darin, dass Sie die Viewer-Größe nicht explizit definieren müssen.
+Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten für Einbetten in fester Größe. Der einzige Unterschied besteht darin, dass Sie die Viewer-Größe nicht explizit definieren müssen.
 
-1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Webseite.
-1. Definieren des Containers `DIV`.
-1. Erstellen und Initialisieren des Viewers.
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
+1. Container-`DIV` definieren.
+1. Viewer erstellen und initialisieren.
 
-Alle oben genannten Schritte sind mit der Einbettung fester Größe identisch. Fügen Sie den Container `DIV` der vorhandenen `"holder"` `DIV` hinzu. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn die Größe des Browsers geändert wird, und wie das Viewer-Seitenverhältnis mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind dieselben wie bei der Einbettung in fester Größe. Fügen Sie die Container-`DIV` zum vorhandenen `"holder"`-`DIV` hinzu. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn der Browser skaliert wird, und wie das Seitenverhältnis des Viewers mit dem Asset übereinstimmt.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -260,13 +260,13 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-Die folgende Beispielseite zeigt die reale Nutzung responsiver Designs, die mit unbegrenzter Höhe eingebettet werden:
+Die folgende Beispielseite zeigt weitere reale Verwendungen der responsiven Designeinbettung mit unbegrenzter Höhe:
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
-**Flexible Größe Einbetten mit definierter Breite und Höhe**
+**Flexible Einbettungsgröße mit definierter Breite und Höhe**
 
-Bei der Einbettung in flexibler Größe mit definierter Breite und Höhe unterscheidet sich der Webseitenstil. Es bietet beide Größen für den DIV `"holder"` und zentriert ihn im Browserfenster. Außerdem setzt die Webseite die Größe der Elemente `HTML` und `BODY` auf 100 Prozent.
+Bei Einbettungen mit flexibler Größe und definierter Breite und Höhe ist der Stil der Web-Seite unterschiedlich. Es bietet beide Größen für den `"holder"` DIV und zentriert ihn im Browser-Fenster. Außerdem legt die Web-Seite die Größe des `HTML`- und `BODY` auf 100 Prozent fest.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -292,7 +292,7 @@ height: 60%;
 </html>
 ```
 
-Die übrigen Schritte zum Einbetten sind mit den Schritten identisch, die für das responsive Einbetten mit uneingeschränkter Höhe verwendet werden. Das folgende Beispiel zeigt:
+Die übrigen Einbettungsschritte sind identisch mit den Schritten für responsives Einbetten mit unbegrenzter Höhe. Das daraus resultierende Beispiel lautet:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,11 +330,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-**Einbetten mit setFilter-basierter API**
+**Einbetten mithilfe der Setter-basierten API**
 
-Statt eine JSON-basierte Initialisierung zu verwenden, ist es möglich, setter-basierte API und den no-args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors werden keine Parameter verwendet und Konfigurationsparameter werden mit den API-Methoden `setContainerId()`, `setParam()` und `setAsset()` mit separaten JavaScript-Aufrufen angegeben.
+Anstatt die JSON-basierte Initialisierung zu verwenden, ist es möglich, eine Setter-basierte API und einen Nicht-Args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors sind keine Parameter erforderlich und Konfigurationsparameter werden mithilfe von `setContainerId()`-, `setParam()`- und `setAsset()`-API-Methoden mit separaten JavaScript-Aufrufen angegeben.
 
-Das folgende Beispiel zeigt die Verwendung der Einbettung mit fester Größe in die setter-basierte API:
+Das folgende Beispiel veranschaulicht die Verwendung der Einbettung fester Größe mit der Setter-basierten API:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

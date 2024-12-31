@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertime
-description: Konfigurationsattribut für interaktiven Video-Viewer.
+description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-Konfigurationsattribut für interaktiven Video-Viewer.
+Konfigurationsattribut für den interaktiven Video-Viewer.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
@@ -22,7 +22,7 @@ Konfigurationsattribut für interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiviert/deaktiviert die Kapitelzeit in der Titelleiste der Kapitelbeschriftung. </p> </td> 
+   <td colname="col2"> <p> Aktiviert/deaktiviert die Kapitelzeit in der Titelleiste der Kapitelbezeichnung. </p> </td> 
   </tr> 
  </tbody> 
 </table>

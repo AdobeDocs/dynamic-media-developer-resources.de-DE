@@ -1,6 +1,6 @@
 ---
 title: JavaScript-API-Referenz für Karussell-Viewer
-description: Die Hauptklasse des Karussell-Viewers ist CarouselViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
+description: Die Hauptklasse des Karussell-Viewers ist CarouselViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # JavaScript-API-Referenz für Karussell-Viewer{#javascript-api-reference-for-carousel-viewer}
 
-Die Hauptklasse des Karussell-Viewers ist CarouselViewer. Sie wird im Namespace s7viewers deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Rückrufe dieser bestimmten Klasse.
+Die Hauptklasse des Karussell-Viewers ist CarouselViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
-In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das aus der `s7viewers.CarouselViewer`-Klasse instanziiert wird.
+In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.CarouselViewer` instanziiert wird.

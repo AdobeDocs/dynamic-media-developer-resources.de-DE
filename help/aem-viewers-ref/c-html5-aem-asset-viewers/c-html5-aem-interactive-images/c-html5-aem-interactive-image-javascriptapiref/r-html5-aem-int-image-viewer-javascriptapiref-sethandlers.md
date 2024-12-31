@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: JavaScript-API-Referenz für interaktiven Bild-Viewer
+description: JavaScript-API-Referenz für den interaktiven Bild-Viewer
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # setHandlers{#sethandlers}
 
-JavaScript-API-Referenz für interaktiven Bild-Viewer
+JavaScript-API-Referenz für den interaktiven Bild-Viewer
 
 `setHandlers(handlers)`
 
-Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt vollständig die Ereignishandler, die zuvor für diese Viewer-Instanz zugewiesen wurden. Muss vor `init()` aufgerufen werden.
+Gibt keinen oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt Ereignis-Handler, die zuvor für diese Viewer-Instanz zugewiesen wurden, vollständig. Muss vor dem `init()` aufgerufen werden.
 
 ## Parameter {#section-b60f082cca1542748b605689b1d43f8a}
 
@@ -26,7 +26,7 @@ Gibt null oder mehr Callback-Handler an. Ein Aufruf dieser Methode überschreibt
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Handler </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-Objekt mit Viewer-Ereignis-Rückrufen. Der Eigenschaftsname ist der Name des unterstützten Viewer-Ereignisses. Der Eigenschaftswert ist eine JavaScript-Funktionsreferenz zu einem entsprechenden Rückruf. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Ereignisrückrufe </a> . </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-Objekt mit Callbacks für Viewer-Ereignisse. Der Eigenschaftsname ist der Name des unterstützten Viewer-Ereignisses. Der Eigenschaftswert ist ein Verweis der JavaScript-Funktion auf einen entsprechenden Callback. </p> <p>Weitere Informationen zu Viewer-Ereignissen finden Sie unter <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> </a> zu Ereignis-Callbacks . </p> </td> 
   </tr> 
  </tbody> 
 </table>

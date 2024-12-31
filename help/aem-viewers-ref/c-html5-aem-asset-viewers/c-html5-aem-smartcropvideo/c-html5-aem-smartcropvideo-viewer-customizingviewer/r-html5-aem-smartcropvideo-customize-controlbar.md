@@ -1,6 +1,6 @@
 ---
-title: Kontrollleiste
-description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Smart Crop Video-Viewer verfügbaren UI-Steuerelemente enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche und die Lautstärkeregler.
+title: Steuerleiste
+description: Die Steuerleiste ist der rechteckige Bereich, der alle für den Viewer für smartes Zuschneiden verfügbaren UI-Steuerelemente (z. B. die Steuerelemente Wiedergabe/Pause und Lautstärke) enthält und sich hinter diesen befindet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Kontrollleiste{#control-bar}
+# Steuerleiste{#control-bar}
 
-Die Steuerleiste ist der rechteckige Bereich, der alle für den Smart Crop Video-Viewer verfügbaren UI-Steuerelemente enthält und sich darunter befindet, wie z. B. die Wiedergabe-/Pause-Schaltfläche und die Lautstärkeregler.
+Die Steuerleiste ist der rechteckige Bereich, der alle für den Viewer für smartes Zuschneiden verfügbaren UI-Steuerelemente (z. B. die Steuerelemente Wiedergabe/Pause und Lautstärke) enthält und sich hinter diesen befindet.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Die Steuerleiste nimmt immer die gesamte verfügbare Viewer-Breite ein. Es ist möglich, die Farbe, Höhe und vertikale Position durch CSS in Bezug auf den Viewer-Container für Smart Crop-Video zu ändern.
+Die Steuerleiste nimmt immer die gesamte verfügbare Viewer-Breite ein. Es ist möglich, Farbe, Höhe und vertikale Position durch CSS relativ zum Viewer-Container für das intelligente Zuschneiden-Video zu ändern.
 
 Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 
@@ -31,19 +31,19 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Position ab dem oberen Rahmen, einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p> Position ab dem unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der Steuerleiste. </p> </td> 
+   <td colname="col2"> <p>Höhe des Steuerstabs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Hintergrundfarbe der Steuerleiste. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ Der folgende CSS-Klassenselektor steuert das Erscheinungsbild der Steuerleiste:
 
 ## Beispiel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Um einen Viewer für smartes Zuschneiden von Videos mit einer grauen Steuerleiste einzurichten, die 30 Pixel groß ist und sich oben im Viewer-Container für Smart Crop-Video befindet.
+So richten Sie einen Smart Crop Video-Viewer mit einer grauen Steuerleiste ein, die 30 Pixel hoch ist und sich oben im Viewer-Container für Smart Crop-Videos befindet.
 
 ```
 .s7smartcropvideoviewer .s7controlbar {  

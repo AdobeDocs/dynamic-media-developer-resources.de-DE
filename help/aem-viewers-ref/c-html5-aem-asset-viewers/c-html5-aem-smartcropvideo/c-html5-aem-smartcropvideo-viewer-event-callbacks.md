@@ -1,6 +1,6 @@
 ---
-title: Ereignisrückrufe
-description: Ereignisrückrufe
+title: Ereignis-Callbacks
+description: Ereignis-Callbacks
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# Ereignisrückrufe{#event-callbacks}
+# Ereignis-Callbacks{#event-callbacks}
 
-Der Viewer unterstützt JavaScript-Ereignisrückrufe, die die Webseite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
+Der Viewer unterstützt JavaScript-Ereignisrückrufe, die die Web-Seite verwendet, um den Viewer-Initialisierungsprozess oder das Laufzeitverhalten zu verfolgen.
 
-Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der Eigenschaft `handlers` an das JSON-Objekt `config` im Konstruktor des Viewers übergeben werden. Alternativ kann die API-Methode `setHandlers()` verwendet werden.
+Callback-Handler werden zugewiesen, indem Ereignisnamen und entsprechende Handler-Funktionen mit der `handlers`-Eigenschaft an `config` JSON-Objekt im Konstruktor des Viewers übergeben werden. Alternativ ist es möglich, `setHandlers()` API-Methode zu verwenden.
 
-Zu den unterstützten Viewer-Ereignissen zählen:
+Zu den unterstützten Viewer-Ereignissen gehören die folgenden:
 
-* `initComplete` - Trigger, in denen die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt werden, sodass die `getComponent()` -API verwendet werden kann. Der Callback-Handler nimmt keine Argumente an.
+* `initComplete` : Trigger, wenn die Viewer-Initialisierung abgeschlossen ist und alle internen Komponenten erstellt wurden, sodass `getComponent()` API verwendet werden kann. Der Callback-Handler akzeptiert keine Argumente.
 
-* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignis-Tracking-System wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
+* `trackEvent` - Trigger jedes Mal, wenn ein Ereignis im Viewer auftritt, das von einem Ereignisverfolgungssystem wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente:
 
-   * `objID {String}` wird derzeit nicht verwendet.
-   * `compClass {String}` wird derzeit nicht verwendet.
-   * `instName {String}` ein Instanzname der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat.
-   * `eventInfo {String}` Ereignis-Payload.
+   * `objID {String}` wird zurzeit nicht verwendet.
+   * `compClass {String}` wird zurzeit nicht verwendet.
+   * `instName {String}` einen Instanznamen der Viewer-SDK-Komponente an, die das Ereignis ausgelöst hat.
+   * Payload des `eventInfo {String}`.
 
 Siehe auch [SmartCropVideoViewer]
 (/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-smartcropvideoviewer.md) und [setHandlers](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-sethandlers.md).
