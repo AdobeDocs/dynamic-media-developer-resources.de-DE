@@ -1,6 +1,6 @@
 ---
-title: Favoriten, Menü
-description: Die Dropdownliste Favoriten-Menü wird in der Symbolleiste angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn ein Benutzer auf eine Schaltfläche klickt oder tippt. Der Bereich enthält die einzelnen Favoriten-Tools.
+title: Favoritenmenü
+description: Die Dropdown-Liste Favoritenmenü wird in der Steuerleiste angezeigt. Es besteht aus einer Schaltfläche und einem Bedienfeld, das sich erweitert, wenn Benutzende auf eine Schaltfläche klicken oder tippen. Das Bedienfeld enthält Tools für einzelne Favoriten.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# Favoriten, Menü{#favorites-menu}
+# Favoritenmenü{#favorites-menu}
 
-Die Dropdownliste Favoriten-Menü wird in der Symbolleiste angezeigt. Er besteht aus einer Schaltfläche und einem Bereich, der sich erweitert, wenn ein Benutzer auf eine Schaltfläche klickt oder tippt. Der Bereich enthält die einzelnen Favoriten-Tools.
+Die Dropdown-Liste Favoritenmenü wird in der Steuerleiste angezeigt. Es besteht aus einer Schaltfläche und einem Bedienfeld, das sich erweitert, wenn Benutzende auf eine Schaltfläche klicken oder tippen. Das Bedienfeld enthält Tools für einzelne Favoriten.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Die Position und Größe des Favoriten-Menüs in der Viewer-Benutzeroberfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Position und Größe des Favoritenmenüs in der Viewer-Benutzeroberfläche werden mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu
 ```
 
-**CSS-Eigenschaften der Menüschaltfläche &quot;Favoriten&quot;**
+**CSS-Eigenschaften der Menüschaltfläche „Favoriten“**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p> Der Versatz am oberen Rand der Steuerleiste. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Der Versatz vom oberen Rand der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> Der Abstand zur nächsten Schaltfläche auf der linken Seite oder zur linken Seite der Steuerleiste, wenn diese Schaltfläche der erste in einer Zeile ist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand links </span> </p> </td> 
+   <td colname="col2"> <p> Der Abstand zur nächsten Schaltfläche auf der linken Seite oder zur linken Seite der Steuerleiste, wenn diese Schaltfläche die erste in einer Zeile ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Die Position und Größe des Favoriten-Menüs in der Viewer-Benutzeroberfläche 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie ein Favoritenmenü ein, das vier Pixel vom oberen Rand der Steuerleiste und zehn Pixel von der nächsten Schaltfläche links und 28 x 28 Pixel groß ist.
+Beispiel - Richten Sie ein Favoritenmenü ein, das vier Pixel oben in der Steuerleiste und zehn Pixel links von der nächsten Schaltfläche positioniert ist und eine Größe von 28 x 28 Pixel aufweist.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu { 
@@ -58,34 +58,34 @@ margin-left: 10px;
 }
 ```
 
-Das Erscheinungsbild der Menüschaltfläche &quot;Favoriten&quot;wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Menüschaltfläche Favoriten wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton
 ```
 
-**CSS-Eigenschaften der Favoriten-Schaltfläche**
+**CSS-Eigenschaften der Schaltfläche Favoriten**
 
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Richten Sie eine Favoriten-Menüschaltfläche ein, die für jeden der vier Schaltflächenstatus ein anderes Bild anzeigt.
+Beispiel: Richten Sie eine Menüschaltfläche Favoriten ein, die für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton[state='up'] { 
@@ -102,24 +102,24 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
 }
 ```
 
-Das Erscheinungsbild des Bedienfelds, das einzelne Favoritensymbole enthält, wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Bedienfelds, das einzelne Favoritensymbole enthält, wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesmenupanel
 ```
 
-**CSS-Eigenschaften des Menübereichs &quot;Favoriten&quot;**
+**CSS-Eigenschaften des Menübereichs „Favoriten“**
 
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Die Hintergrundfarbe des Bedienfelds. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie ein Bedienfeld ein, das eine transparente Farbe hat.
+Beispiel - Richten Sie ein Bedienfeld so ein, dass es eine transparente Farbe hat.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesmenupanel { 

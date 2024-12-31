@@ -19,24 +19,24 @@ ht-degree: 2%
 <table id="table_A6B1B446A7AE4A4A8B552C07EC88E518"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> template</span></span> </p> </td> 
-   <td> <p>Die Inhaltsvorlage, in der die vom Infoserver zurückgegebenen Daten zusammengeführt werden. </p> <p>Die Inhaltsvorlage ist eine XML-Datei, die dieser DTD folgt: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p> <span class="codeph"><span class="varname"> Vorlage</span></span> </p> </td> 
+   <td> <p>Die Inhaltsvorlage, in der die vom Info-Server zurückgegebenen Daten zusammengeführt werden. </p> <p>Die Inhaltsvorlage ist eine XML, die dieser DTD folgt: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      ]&gt;</code> </p> <p>Die eigentliche Syntax für die Inhaltsvorlage lautet: </p> <p> <code>&lt;info&gt;
+      ]&gt;</code> </p> <p>Die tatsächliche Syntax für die Inhaltsvorlage lautet wie folgt: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>Das heißt, die Vorlage muss mit dem Element <span class="codeph"> &lt;info&gt;</span> beginnen, das optionale standardmäßige Elemente <span class="codeph"> &lt;var&gt;</span> enthalten kann. Der Vorlageninhalt selbst, <span class="codeph"> TEMPLATE_CONTENT</span>, ist HTML-Text. Darüber hinaus kann die Inhaltsvorlage Variablennamen enthalten, die in <span class="codeph"> $</span> -Zeichen eingeschlossen sind und durch die vom Infoserver zurückgegebenen Variablenwerte oder durch Standardwerte ersetzt werden. </p> <p>Standardvariablen, die in der Vorlage definiert sind, können entweder global (wenn das Rollover-Attribut nicht festgelegt ist) oder spezifisch für einen bestimmten Rollover-Schlüssel sein (wenn das Rollover-Attribut vorhanden ist). </p> <p>Während der Vorlagenverarbeitung haben Variablen, die spezifisch für das Rollout von Schlüsseln sind, Vorrang vor globalen Variablen. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Das heißt, die Vorlage muss mit dem <span class="codeph"> &lt;info&gt;</span> beginnen, das optionale <span class="codeph"> &lt;var&gt;</span> enthalten kann. Der Vorlageninhalt selbst, <span class="codeph"> TEMPLATE_CONTENT, </span> aus HTML. Darüber hinaus kann die Inhaltsvorlage Variablennamen enthalten, die in <span class="codeph"> $</span>-Zeichen eingeschlossen sind und durch die Variablenwerte ersetzt werden, die der Info-Server zurückgibt, oder durch Standardwerte. </p> <p>Standardvariablen, die in der Vorlage definiert sind, können entweder global (wenn das rollover-Attribut nicht festgelegt ist) oder spezifisch für einen bestimmten rollover-Schlüssel (wenn das rollover-Attribut vorhanden ist) sein. </p> <p>Bei der Vorlagenverarbeitung haben Variablen, die für Rollover-Schlüssel spezifisch sind, Vorrang vor globalen Variablen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Wenn Sie das Popup für das Infofeld konfigurieren, werden der HTML-Code und der an das Infofeld übergebene JavaScript-Code auf dem Clientcomputer ausgeführt. Stellen Sie daher sicher, dass dieser HTML-Code und JavaScript-Code sicher sind.
+>Beim Konfigurieren des Infobedienfeld-Popup werden der HTML-Code und der JavaScript-Code, die an das Infobedienfeld übergeben werden, auf dem Client-Computer ausgeführt. Stellen Sie daher sicher, dass dieser HTML-Code und JavaScript-Code sicher sind.
 
 ## Eigenschaften {#section-6dd7785357d740d095fa9f7fd0f67da4}
 
@@ -48,6 +48,6 @@ Keine.
 
 ## Beispiel {#section-16d184665c484964af9a22f79ff3f840}
 
-Angenommen, die Infoserver-Antwort gibt den Produktnamen als Variable &quot;`$1$`&quot;zurück und die Produktbild-URL wird als Variable &quot;`$2$`&quot;zurückgegeben.
+Angenommen, die Antwort des Info-Servers gibt den Produktnamen als Variable `$1$` und die Produktbild-URL wird als Variable `$2$` zurückgegeben.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`

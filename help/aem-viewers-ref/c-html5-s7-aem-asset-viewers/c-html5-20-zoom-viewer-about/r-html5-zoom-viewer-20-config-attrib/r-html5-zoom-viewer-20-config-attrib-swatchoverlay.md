@@ -1,6 +1,6 @@
 ---
-title: swatchoverlay
-description: swatchoverlay
+title: Farbfeld-Überlagerung
+description: Farbfeld-Überlagerung
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 ---
 
-# swatchoverlay{#swatchoverlay}
+# Farbfeld-Überlagerung{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Gibt das Viewer-Layout auf Touch-fähigen Geräten an. Wenn der Parameter auf <span class="codeph"> 1 </span> festgelegt ist, zeigt der Viewer Farbfelder unter der Hauptansicht auf dem Desktop an. Auf Touch-fähigen Geräten werden Farbfelder über der Hauptansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 </span> festgelegt ist, werden Muster bei allen Gerätetypen unter der Hauptansicht dargestellt. </p> </td> 
+   <td colname="col2"> <p>Gibt das Viewer-Layout auf Touch-optimierten Geräten an. Wenn der Parameter auf <span class="codeph"> 1 </span> festgelegt ist, zeigt der Viewer Farbfelder unter der Hauptansicht auf dem Desktop an; auf Touch-fähigen Geräten werden Farbfelder über der Hauptansicht überlagert. </p> <p>Wenn der Parameter auf <span class="codeph"> 0 </span> gesetzt ist, werden Farbfelder unter der Hauptansicht auf allen Gerätetypen dargestellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

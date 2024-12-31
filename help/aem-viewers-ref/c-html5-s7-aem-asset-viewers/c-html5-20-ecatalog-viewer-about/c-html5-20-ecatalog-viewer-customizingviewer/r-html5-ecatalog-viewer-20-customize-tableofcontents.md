@@ -1,6 +1,6 @@
 ---
 title: Inhaltsverzeichnis
-description: Das Inhaltsverzeichnis ist eine Schaltfläche in der Hauptsteuerleiste. Wenn diese Option aktiviert ist, wird ein Dropdown-Fenster mit einer Liste von Seitenindizes und -beschriftungen angezeigt.
+description: Das Inhaltsverzeichnis ist eine Schaltfläche, die in der Hauptsteuerleiste positioniert wird. Wenn aktiviert, wird ein Dropdown-Bedienfeld mit einer Liste von Seitenindizes und Beschriftungen angezeigt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Inhaltsverzeichnis{#table-of-contents}
 
-Das Inhaltsverzeichnis ist eine Schaltfläche in der Hauptsteuerleiste. Wenn diese Option aktiviert ist, wird ein Dropdown-Fenster mit einer Liste von Seitenindizes und -beschriftungen angezeigt.
+Das Inhaltsverzeichnis ist eine Schaltfläche, die in der Hauptsteuerleiste positioniert wird. Wenn aktiviert, wird ein Dropdown-Bedienfeld mit einer Liste von Seitenindizes und Beschriftungen angezeigt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Basierend auf der Konfiguration kann die Liste alle Seiten enthalten, die im Katalog vorhanden sind, oder nur die Seiten, für die explizite Beschriftungen definiert sind. Auf Desktop-Systemen wird rechts eine Bildlaufleiste angezeigt, wenn die Liste länger als die verfügbare Bildschirmgröße ist.
+Basierend auf der Konfiguration kann die Liste alle Seiten enthalten, die im Katalog vorhanden sind, oder nur die Seiten, für die explizite Kennzeichnungen definiert sind. Auf Desktop-Systemen wird rechts eine Bildlaufleiste angezeigt, wenn die Liste länger ist als die verfügbare Bildschirmgröße.
 
-Die Position und Größe der Inhaltsverzeichnisschaltfläche in der Viewer-Benutzeroberfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Die Position und Größe der Inhaltsverzeichnisschaltfläche in der Viewer-Benutzeroberfläche werden mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogviewer .s7tableofcontents
@@ -31,39 +31,39 @@ Die Position und Größe der Inhaltsverzeichnisschaltfläche in der Viewer-Benut
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p> Der Versatz am oberen Rand der Steuerleiste. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Der Versatz vom oberen Rand der Steuerleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Rand links </span> </p> </td> 
    <td colname="col2"> <p> Der Abstand zur nächsten Schaltfläche auf der linken Seite oder zur linken Seite der Steuerleiste, wenn es sich um die erste Schaltfläche in einer Zeile handelt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Die Breite der Inhaltsverzeichnisschaltfläche. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p> Die Breite der Schaltfläche für das Inhaltsverzeichnis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p> Die Höhe der Inhaltsverzeichnisschaltfläche. </p> </td> 
+   <td colname="col2"> <p> Die Höhe der Schaltfläche für das Inhaltsverzeichnis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Diese Schaltfläche unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf unterschiedliche Schaltflächenzustände angewendet werden können.
+>Diese Schaltfläche unterstützt die `state`-Attributauswahl, mit der verschiedene Skins auf verschiedene Schaltflächenzustände angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Um eine Inhaltsverzeichnisschaltfläche einzurichten, die 4 Pixel vom unteren Rand und 43 Pixel vom linken Rand der Hauptsteuerungsleiste entfernt angeordnet ist. Die Größe beträgt 28 x 28 Pixel, und für jeden der vier Schaltflächenstatus wird ein anderes Bild angezeigt:
+Beispiel : Zum Einrichten einer Schaltfläche für das Inhaltsverzeichnis, die 4 Pixel vom unteren Rand und 43 Pixel vom linken Rand der Hauptsteuerleiste entfernt positioniert wird. Die Größe beträgt 28 x 28 Pixel, und für jeden der vier verschiedenen Schaltflächenstatus wird ein anderes Bild angezeigt:
 
 ```
 .s7ecatalogviewer .s7tableofcontents { 
@@ -85,7 +85,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 }
 ```
 
-Das Erscheinungsbild des Dropdown-Bedienfelds wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Dropdown-Bedienfelds wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel
@@ -96,25 +96,25 @@ Das Erscheinungsbild des Dropdown-Bedienfelds wird mit der folgenden CSS-Klassen
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe des Dropdown-Bereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe des Dropdown-Bedienfelds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p> Interner Versatz zwischen den Bereichsgrenzen und dem Inhalt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
-   <td colname="col2"> <p> Schlagschatten um das Bedienfeld herum. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Legen Sie Schatten um das Bedienfeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Es ist nicht möglich, die Größe oder Position des Dropdown-Bedienfelds über CSS zu steuern. Die Komponente verwaltet ihr Layout programmgesteuert.
+>Es ist nicht möglich, die Größe oder Position des Dropdown-Bedienfelds aus CSS zu steuern. Die Komponente verwaltet ihr Layout programmgesteuert.
 
-Beispiel: Einrichten eines Dropdown-Bedienfelds mit einem halbtransparenten schwarzen Hintergrund, einer 5-Pixel-Ränder um den Inhalt und einem Schlagschatten:
+Beispiel: Ein Dropdown-Bedienfeld mit einem halbtransparenten schwarzen Hintergrund, einem 5-Pixel-Rand um den Inhalt und einem Schlagschatten wird eingerichtet:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel { 
@@ -124,7 +124,7 @@ Beispiel: Einrichten eines Dropdown-Bedienfelds mit einem halbtransparenten schw
 }
 ```
 
-Das Erscheinungsbild des einzelnen Elements wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der einzelnen Elemente wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7item
@@ -135,19 +135,19 @@ Das Erscheinungsbild des einzelnen Elements wird mit der folgenden CSS-Klassenau
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftname. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Elements. </p> </td> 
+   <td colname="col2"> <p>Die Höhe des Elements. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Interner Abstand. </p> </td> 
   </tr> 
  </tbody> 
@@ -155,9 +155,9 @@ Das Erscheinungsbild des einzelnen Elements wird mit der folgenden CSS-Klassenau
 
 >[!NOTE]
 >
->Das Dropdown-Listenelement unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Skins auf den Mauszeiger und die ausgewählten Elementstatus anzuwenden.
+>Ein Dropdown-Listenelement unterstützt den `state`-Attributselektor , der verwendet werden kann, um verschiedene Skins auf den Mauszeiger und ausgewählte Elementzustände anzuwenden.
 
-Beispiel: Richten Sie ein Dropdown-Element mit einer Helvetica® 14-Pixel-Schriftart und einer 19-Pixel-Höhe ein. Ein Element hat beim Bewegen des Mauszeigers einen dunkelgrauen Hintergrund und bei Auswahl einen hellgrauen Hintergrund:
+Beispiel: Ein Dropdown-Element mit einer Helvetica®-Schriftart von 14 Pixel und einer Höhe von 19 Pixel einrichten. Ein Element hat beim Bewegen des Mauszeigers einen dunkelgrauen Hintergrund und bei Auswahl einen hellgrauen Hintergrund:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -173,7 +173,7 @@ background-color: rgb(178, 178, 178);
 }
 ```
 
-Ein Element, das den Seitenindex anzeigt, wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Ein -Element, das den Seitenindex anzeigt, wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index
@@ -192,17 +192,17 @@ Ein Element, das den Seitenindex anzeigt, wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p> Maximale Elementbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
-   <td colname="col2"> <p> Abstand zwischen dem Seitenindex und dem Seitentitel. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Abstand rechts </span> </p> </td> 
+   <td colname="col2"> <p> Abstand zwischen Seitenindex und Seitenbeschriftung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Es ist möglich, den Seitenindex vollständig auszublenden, indem Sie `display:none` für die CSS-Klasse `s7index` festlegen.
+>Es ist möglich, den Seitenindex vollständig auszublenden, indem Sie `display:none` für die `s7index` CSS-Klasse festlegen.
 
-Beispiel 1: Richten Sie einen Seitenindex mit einer Mindestbreite von 40 Pixel, einer maximalen Breite von 70 Pixel und einem Rand von 5 Pixel auf der rechten Seite ein:
+Beispiel 1: Einrichten eines Seitenindexes mit einer Mindestbreite von 40 Pixel, einer maximalen Breite von 70 Pixel und einem 5-Pixel-Rand auf der rechten Seite:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index { 
@@ -212,7 +212,7 @@ padding-right: 5px;
 }
 ```
 
-Beispiel 2 - Seiten-Index ausblenden:
+Beispiel 2: Ausblenden des Seitenindex:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index { 
@@ -241,7 +241,7 @@ Die Seitenbeschriftung wird mit dem folgenden CSS-Klassenselektor gesteuert:
  </tbody> 
 </table>
 
-Beispiel: Richten Sie einen Seitenindex mit einer Mindestbreite von 40 Pixel und einer maximalen Breite von 240 Pixel ein:
+Beispiel - Richten Sie einen Seitenindex mit einer Mindestbreite von 40 Pixel und einer maximalen Breite von 240 Pixel ein:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7label { 
@@ -250,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-Wenn im Dropdown-Bedienfeld mehr Elemente vorhanden sind, als vertikal angepasst werden können, und das System ein Desktop ist, rendert die Komponente eine vertikale Bildlaufleiste auf der rechten Seite des Bedienfelds. Das Erscheinungsbild des Bildlaufleistenbereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Wenn es mehr Elemente gibt, als vertikal in das Dropdown-Bedienfeld passen können, und das System ein Desktop ist, rendert die Komponente eine vertikale Bildlaufleiste auf der rechten Seite des Bedienfelds. Das Erscheinungsbild des Bildlaufleistenbereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -261,25 +261,25 @@ Wenn im Dropdown-Bedienfeld mehr Elemente vorhanden sind, als vertikal angepasst
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p> Die Breite der Bildlaufleiste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am oberen Rand des Bedienfeldbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p> Die vertikale Bildlaufleiste, die vom oberen Rand des Bedienfeldbereichs versetzt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Der Versatz der vertikalen Bildlaufleiste am unteren Rand des Bedienfeldbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p> Die vertikale Bildlaufleiste, die vom unteren Rand des Bedienfeldbereichs versetzt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p> Der horizontale Versatz der Bildlaufleiste vom rechten Rand des Bedienfeldbereichs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p> Der horizontale Bildlaufbalken, der vom rechten Rand des Bedienfeldbereichs versetzt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie eine Bildlaufleiste ein, die 28 Pixel breit ist und keinen Rand für den oberen, rechten oder unteren Bereich des Bedienfelds hat:
+Beispiel - Richten Sie eine Bildlaufleiste ein, die 28 Pixel breit ist und keinen Rand für den oberen, rechten oder unteren Bereich des Bedienfelds hat:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar { 
@@ -290,28 +290,28 @@ Beispiel: Richten Sie eine Bildlaufleiste ein, die 28 Pixel breit ist und keinen
 }
 ```
 
-Die Bildlaufleisten-Spur ist der Bereich zwischen den oberen und unteren Bildlauftasten. Die Komponente legt automatisch die Position und Höhe der Spur fest. Die Verfolgung wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Die Bildlaufleistenspur ist der Bereich zwischen den oberen und unteren Bildlaufschaltflächen. Die Komponente legt automatisch die Position und Höhe der Spur fest. Die Spur wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
 ```
 
-**CSS-Eigenschaften des Scroll-Tracks**
+**CSS-Eigenschaften der Scroll-Spur**
 
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Die Spurbreite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Hintergrundfarbe der Verfolgung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Die Hintergrundfarbe der Spur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Richten Sie eine Bildlaufleiste ein, die 28 Pixel breit ist und einen halbtransparenten grauen Hintergrund hat:
+Beispiel: Richten Sie eine Bildlaufleistenspur ein, die 28 Pixel breit ist und einen halbtransparenten grauen Hintergrund hat:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack { 
@@ -320,48 +320,48 @@ Beispiel: Richten Sie eine Bildlaufleiste ein, die 28 Pixel breit ist und einen 
 }
 ```
 
-Der Bildlaufleisten-Daumen bewegt sich innerhalb des Bildlaufverfolgungsbereichs vertikal. Seine vertikale Position wird durch die Komponentenlogik gesteuert. Die Thumb-Höhe ändert sich jedoch nicht dynamisch in Abhängigkeit von der Menge des Inhalts. Sie können die Daumenhöhe und andere Aspekte mit dem folgenden CSS-Klassenselektor konfigurieren:
+Der Daumen der Bildlaufleiste bewegt sich vertikal innerhalb des Bereichs der Bildlaufspur. Seine vertikale Position wird durch die Komponentenlogik gesteuert. Die Höhe der Daumen ändert sich jedoch nicht dynamisch je nach Inhaltsmenge. Sie können die Höhe der Miniaturen und andere Aspekte mit dem folgenden CSS-Klassenselektor konfigurieren:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
 ```
 
-**CSS-Eigenschaften des Bildlaufleisten-Thumbs**
+**CSS-Eigenschaften des Thumb der Bildlaufleiste**
 
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Die Daumenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Die Breite des Daumens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
    <td colname="col2"> <p>Die Daumenhöhe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
-   <td colname="col2"> <p> Der vertikale Abstand zwischen dem oberen Ende des Gleises. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Der vertikale Abstand zwischen dem oberen Ende der Spur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
-   <td colname="col2"> <p>Der vertikale Abstand zwischen dem unteren Ende des Gleises. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Der vertikale Abstand zwischen dem unteren Ende der Spur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Daumenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb unterstützt die &quot;`state`&quot;-Attributauswahl, die verwendet werden kann, um verschiedene Skins auf die Daumenzustände `up`, `down`, `over` und `disabled` anzuwenden.
+>Thumb unterstützt den `state`-Attributselektor , mit dem verschiedene Skins auf die `up`-, `down`-, `over`- und `disabled` angewendet werden können.
 
-Beispiel: Richten Sie einen Bildlaufleisten-Daumen ein, der 28 x 45 Pixel groß ist, oben und unten 10 Pixel Ränder aufweist und für jeden Status unterschiedliche Grafiken aufweist:
+Beispiel: Richten Sie einen Thumb für die Bildlaufleiste ein, der 28 x 45 Pixel groß ist, oben und unten 10 Pixelränder aufweist und für jeden Status unterschiedliche Grafiken aufweist:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb { 
@@ -386,7 +386,7 @@ Beispiel: Richten Sie einen Bildlaufleisten-Daumen ein, der 28 x 45 Pixel groß 
 }
 ```
 
-Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe der folgenden CSS-Klassenselektoren gesteuert:
+Die Darstellung der oberen und unteren Bildlaufschaltflächen wird mit den folgenden CSS-Klassenselektoren gesteuert:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton
@@ -398,36 +398,36 @@ Das Erscheinungsbild der oberen und unteren Bildlaufschaltflächen wird mithilfe
 
 Es ist nicht möglich, die Bildlaufschaltflächen mit den Eigenschaften CSS `top`, `left`, `bottom` und `right` zu positionieren. Stattdessen werden sie von der Viewer-Logik automatisch positioniert.
 
-**CSS-Eigenschaften der Schaltfläche &quot;Nach oben scrollen und nach unten scrollen&quot;**
+**CSS-Eigenschaften der Schaltfläche Nach oben scrollen und Nach unten scrollen**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Die Schaltflächenbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Die Breite der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Die Schaltflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Die Höhe der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
    <td colname="col2"> <p> Das Bild, das für einen bestimmten Schaltflächenstatus angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Button unterstützt die &quot;`state`&quot;-Attributauswahl, mit der verschiedene Skins auf die Schaltflächenzustände `up`, `down`, `over` und `disabled` angewendet werden können.
+>Button unterstützt die `state` Attributauswahl, mit der verschiedene Skins auf die Schaltflächenzustände `up`, `down`, `over` und `disabled` angewendet werden können.
 
-Die QuickInfo der Schaltfläche kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: Richten Sie Bildlaufschaltflächen ein, die 28 x 32 Pixel groß sind und für jeden Status unterschiedliche Grafiken aufweisen:
+Beispiel - Richten Sie Scroll-Schaltflächen ein, die eine Größe von 28 x 32 Pixeln haben und unterschiedliche Grafiken für jeden Status aufweisen:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton { 

@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: JavaScript-API-Referenz für Video-Viewer.
+description: JavaScript-API-Referenz für Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-JavaScript-API-Referenz für Video-Viewer.
+JavaScript-API-Referenz für Video Viewer.
 
 ` setParam( *`name, value`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> Name des Parameters. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Name </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Parametername. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Wert </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> Wert des Parameters. Der Wert kann nicht prozentual kodiert werden. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> Parameterwert. Der Wert darf nicht prozentual kodiert sein. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Legt den Viewer-Parameter auf einen angegebenen Wert fest. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Software Development Kit-Modifikator. Dieser Parameter wird vor `init()` aufgerufen.
+Setzt den Viewer-Parameter auf einen angegebenen Wert. Der Parameter ist entweder eine Viewer-spezifische Konfigurationsoption oder ein Software Development Kit-Modifikator. Dieser Parameter wird vor dem `init()` aufgerufen.
 
-Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit dem JSON-Objekt `config` an den Konstruktor übergeben wurden.
+Diese Methode ist optional, wenn die Viewer-Konfigurationsinformationen mit `config` JSON-Objekt an den -Konstruktor übergeben wurden.
 
-Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

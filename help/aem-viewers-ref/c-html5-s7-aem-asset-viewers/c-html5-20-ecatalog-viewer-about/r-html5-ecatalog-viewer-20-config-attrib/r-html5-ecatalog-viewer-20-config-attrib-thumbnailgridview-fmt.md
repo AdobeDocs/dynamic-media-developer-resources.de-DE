@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Image-Server verwendet. Es kann sich um einen beliebigen Wert handeln, den Image Server und der Client-Browser unterstützen. Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Bei allen anderen Bildformaten behandelt die Komponente Bilder als deckend. </p> </td> 
+   <td> <p>Gibt das Bildformat an, das die Komponente zum Laden von Bildern vom Bildserver verwendet. Dabei kann es sich um einen beliebigen Wert handeln, den Image-Server und der Client-Browser unterstützen. Wenn das angegebene Format mit <span class="codeph"> -alpha</span> endet, rendert die Komponente Bilder als transparenten Inhalt. Für alle anderen Bildformate behandelt die Komponente Bilder als undurchsichtig. </p> </td> 
   </tr> 
  </tbody> 
 </table>

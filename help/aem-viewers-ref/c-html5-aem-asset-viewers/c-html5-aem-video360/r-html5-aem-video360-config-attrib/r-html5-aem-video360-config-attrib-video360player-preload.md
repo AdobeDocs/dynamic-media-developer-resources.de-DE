@@ -1,6 +1,6 @@
 ---
 title: Video360Player.preload
-description: Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wiedergabe beginnt.
+description: Gibt an, ob der Viewer vor dem Start der Wiedergabe mit dem Laden von Videoinhalten beginnt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Video360Player.preload{#video-player-preload}
 
-Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wiedergabe beginnt.
+Gibt an, ob der Viewer vor dem Start der Wiedergabe mit dem Laden von Videoinhalten beginnt.
 
 `[Video360Player.|<containerId>_video360Player.]preload=0|1`
 
@@ -22,7 +22,7 @@ Gibt an, ob der Viewer beginnt, Videoinhalte zu laden, bevor die Wiedergabe begi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Wenn der Wert auf <span class="codeph"> 1 </span> gesetzt ist, beginnt das Video, direkt nach dem Festlegen des Assets herunterzuladen. Andernfalls beginnt das Vorausfüllen erst, nachdem die Wiedergabe vom Endbenutzer oder einem API-Aufruf initiiert wurde. </p> <p>Wenn der Wert auf <span class="codeph"> 0 </span> festgelegt ist, funktionieren bestimmte Funktionen möglicherweise erst nach dem Start der Wiedergabe. Insbesondere aktualisiert der Suchvorgang den Video-Frame nicht. Wenn das Standbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Video-Frames angezeigt. </p> <p>Die Deaktivierung der Videovorladung kann bei bestimmten Versionen von Internet Explorer 11 und Edge ignoriert werden. </p> </td> 
+   <td colname="col2"> <p> Wenn auf <span class="codeph"> 1 </span> festgelegt, beginnt das Video direkt nach dem Festlegen des Assets herunterzuladen. Andernfalls beginnt der Vorabladevorgang erst, nachdem die Wiedergabe vom Endbenutzer oder einem API-Aufruf initiiert wurde. </p> <p>Bei einer Einstellung von <span class="codeph"> 0 </span> funktionieren bestimmte Funktionen möglicherweise erst, wenn die Wiedergabe gestartet wird. Insbesondere wird bei Suchvorgängen der Videoframe nicht aktualisiert. Wenn das Posterbild deaktiviert ist, wird der Viewer als leerer Bereich anstelle des ersten Videoframes angezeigt. </p> <p>Die Deaktivierung der Videovorausladung kann bei bestimmten Versionen von Internet Explorer 11 und Edge-Browsern ignoriert werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

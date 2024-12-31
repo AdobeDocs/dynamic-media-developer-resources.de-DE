@@ -19,8 +19,8 @@ ht-degree: 11%
 <table id="table_F17148BDB468488AA0AF0F64D5DD1978"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Anfänglicher Bereich von Interesse an normalisierten Koordinaten. Wenn diese Werte nicht angegeben sind, wird das gesamte Bild im ersten Viewport platziert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> X,Y,W,H</span> </p> </td> 
+   <td colname="col2"> <p> Anfänglicher Interessenbereich in normalisierten Koordinaten. Wenn diese Werte nicht angegeben sind, wird das gesamte Bild in das ursprüngliche Darstellungsfeld eingefügt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: JavaScript API-Referenz für Video360-Viewer.
+description: JavaScript-API-Referenz für Video360-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,18 +14,18 @@ ht-degree: 3%
 
 # setAsset{#setasset}
 
-JavaScript API-Referenz für Video360-Viewer.
+JavaScript-API-Referenz für Video360-Viewer.
 
 `setAsset(asset)`
 
-Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach `init()` aufrufen. Wenn es nach `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
+Legt das neue Asset fest. Sie können diesen Parameter jederzeit vor oder nach der `init()` aufrufen. Wenn es nach dem `init()` aufgerufen wird, tauscht der Viewer das Asset zur Laufzeit aus.
 
-Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+Siehe auch [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Asset </span> </p> </td> 
    <td colname="col2"> <p>{<span class="codeph"> String</span>} neue Asset-ID. </p> </td> 
   </tr> 
  </tbody> 

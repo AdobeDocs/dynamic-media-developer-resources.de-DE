@@ -1,6 +1,6 @@
 ---
 title: Symboleffekt
-description: Der Zoom-Indikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet und auch vom iconffekt-Parameter abhängig ist.
+description: Die Zoomanzeige wird im Hauptansichtsbereich überlagert. Es wird angezeigt, wenn das Bild in einem zurückgesetzten Zustand ist, und es hängt auch von iconeffect-Parameter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Symboleffekt{#icon-effect}
 
-Der Zoom-Indikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet und auch vom iconffekt-Parameter abhängig ist.
+Die Zoomanzeige wird im Hauptansichtsbereich überlagert. Es wird angezeigt, wenn das Bild in einem zurückgesetzten Zustand ist, und es hängt auch von iconeffect-Parameter.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogviewer .s7pageview .s7iconeffect
@@ -33,29 +33,29 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Zoom-Indikatorgrafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p> Grafik der Zoom-Anzeige. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe auch <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites-</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Zoom-Anzeigebreite in Pixel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Zoom-Indikatorhöhe in Pixel. </p> </td> 
+   <td colname="col2"> <p>Zoom-Anzeigehöhe in Pixel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Der Symboleffekt unterstützt die Attributauswahl `media-type` , mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen normalerweise die Maus-Eingabe verwendet wird, und `media-type='multitouch'` Geräten mit Touch-Eingabe.
+>Icon Effect unterstützt den `media-type`-Attributselektor, mit dem Sie verschiedene Icon-Effekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen normalerweise Mauseingaben verwendet werden, und `media-type='multitouch'` Geräten mit Touch-Eingabe.
 
-Beispiel: Einrichten eines Zoom-Indikators mit 100 x 100 Pixel und unterschiedlicher Grafik für Desktop-Systeme und Touch-Geräte.
+Beispiel: So richten Sie eine Zoomanzeige mit 100 x 100 Pixeln mit verschiedenen Grafiken für Desktop-Systeme und Touch-Geräte ein.
 
 ```
 .s7ecatalogviewer .s7pageview .s7iconeffect { 

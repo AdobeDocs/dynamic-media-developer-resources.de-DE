@@ -1,6 +1,6 @@
 ---
-title: Favoriten-Funktion
-description: Favoriten-Funktion
+title: Favoritenfunktion
+description: Favoritenfunktion
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Favoriten-Funktion{#favorites-feature}
+# Favoritenfunktion{#favorites-feature}
 
-Ein Endbenutzer kann die Favoriten-Funktion verwenden, um Produkte von Interesse direkt im E-Katalog zu markieren, indem er den E-Katalog-Bildern Symbole vom Typ &quot;Herz&quot;hinzufügt. Der Viewer speichert alle Favoriten im System des Kunden und zeigt sie erneut an, wenn derselbe Benutzer den E-Katalog erneut besucht.
+Ein Endbenutzer kann die Favoritenfunktion verwenden, um Produkte von Interesse direkt im E-Katalog zu markieren, indem er den E-Katalog-Bildern „Herz“-Symbole hinzufügt. Der Viewer speichert alle Favoriten auf dem System des Kunden und zeigt sie erneut an, wenn derselbe Benutzer den E-Katalog erneut besucht.
 
-Darüber hinaus können Sie mit dem Viewer alle zum E-Katalog hinzugefügten Favoriten als Raster mit Miniaturbildern überprüfen.
+Darüber hinaus können Sie mit dem Viewer alle Favoriten überprüfen, die dem E-Katalog als Raster von Miniaturbildern hinzugefügt wurden.
 
-Alle Favoriten-Tools werden in der Symbolleiste unter einer Dropdown-Liste gruppiert.
+Alle Favoritenwerkzeuge sind in der Symbolleiste in einer Dropdown-Liste gruppiert.

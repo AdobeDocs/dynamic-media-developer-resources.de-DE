@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_1BEBE260769B4A0C9E9F5016D2FA68A0"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Gibt an, wo der Titel relativ zum Miniaturbild gezeichnet wird. Das heißt, die Bezeichnung wird an der angegebenen Stelle relativ zur Miniaturansicht zentriert. </p> <p>Wenn <span class="codeph"> tooltip</span> angegeben ist, wird der Beschriftungstext als schwebende QuickInfo über das Miniaturbild angezeigt. Auf <span class="codeph"> none</span> setzen, um den Titel zu deaktivieren. </p> </td> 
+   <td> <p> <span class="codeph"> Unten|Oben|Links|Rechts|Keine|QuickInfo</span> </p> </td> 
+   <td> <p> Gibt an, wo die Beschriftung relativ zum Miniaturbild gezeichnet wird. Das heißt, die Beschriftung wird an der angegebenen Position relativ zur Miniatur zentriert. </p> <p>Wenn <span class="codeph"> QuickInfo</span> angegeben ist, wird der Titeltext als unverankerte QuickInfo über dem Miniaturbild angezeigt. Auf „Keine“ <span class="codeph">, </span> die Bezeichnung zu deaktivieren. </p> </td> 
   </tr> 
  </tbody> 
 </table>

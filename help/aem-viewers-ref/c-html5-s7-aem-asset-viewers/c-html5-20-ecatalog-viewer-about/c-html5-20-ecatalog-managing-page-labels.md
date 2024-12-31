@@ -1,6 +1,6 @@
 ---
-title: Seitenbezeichnungen verwalten
-description: Seitenbezeichnungen verwalten
+title: Verwalten von Seitenbeschriftungen
+description: Verwalten von Seitenbeschriftungen
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# Seitenbezeichnungen verwalten{#managing-page-labels}
+# Verwalten von Seitenbeschriftungen{#managing-page-labels}
 
-Es gibt zwei Stellen in der Viewer-Benutzeroberfläche, an denen Seitenbezeichnungen angezeigt werden: den Modus Miniaturansichten und das Dropdown-Menü Inhaltsverzeichnis.
+In der Viewer-Benutzeroberfläche gibt es zwei Stellen, an denen Seitenbeschriftungen angezeigt werden: im Miniaturansichtsmodus und in der Dropdown-Liste Inhaltsverzeichnis .
 
 Es gibt drei Arten von Beschriftungen, die definiert werden können:
 
 * Vom Autor mithilfe des SYMBOL-Lokalisierungsmechanismus definierte Beschriftungen.
-* Beschriftungen, die vom Autor im Backend in Dynamic Media Classic definiert werden.
-* Vom Viewer automatisch generierte Beschriftungen.
+* Vom Autor definierte Kennzeichnungen im Backend innerhalb von Dynamic Media Classic.
+* Vom Viewer automatisch generierte Kennzeichnungen.
 
-SYMBOL-basierte Beschriftungen werden mit &quot;`MediaSet.LABEL_XX[_YY]`&quot; und &quot;`MediaSet.LABEL_DELIM` SYMBOLs definiert, wie unter &quot;[Lokalisierung von Elementen der Benutzeroberfläche](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)&quot; beschrieben. Sie können diese Beschriftungen entweder für den gesamten E-Katalog definieren. In diesem Fall sollten Sie die kurze Syntax von SYMBOL ( `MediaSet.LABEL_XX`) verwenden. Oder geben Sie es für jede Seite einzeln mithilfe der vollständigen SYMBOL-Syntax ( `MediaSet.LABEL_XX_YY`) an.
+SYMBOL-basierte Kennzeichnungen werden mithilfe von `MediaSet.LABEL_XX[_YY]` und `MediaSet.LABEL_DELIM`-SYMBOLEN definiert, wie in [Lokalisierung von Benutzeroberflächenelementen“ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). Sie können solche Kennzeichnungen entweder für den gesamten eCatalog-Spread definieren. In diesem Fall sollten Sie die kurze SYMBOL-Syntax ( `MediaSet.LABEL_XX`) verwenden. Oder geben Sie sie für jede Seite einzeln mit der vollständigen SYMBOL-Syntax ( `MediaSet.LABEL_XX_YY`) an.
 
-Wenn Sie Beschriftungen für beide Seiten im E-Katalog definieren, verkettet der Viewer diese Beschriftungen mithilfe der SYMBOL `MediaSet.LABEL_DELIM` in einer Zeichenfolge. SYMBOL-basierte Beschriftungen haben Vorrang vor Beschriftungen, die im Backend definiert sind oder vom Viewer automatisch generierte Beschriftungen.
+Wenn Sie Beschriftungen für beide Seiten im E-Katalog-Spread definieren, verkettet der Viewer diese Beschriftungen mithilfe `MediaSet.LABEL_DELIM` SYMBOLS zu einer Zeichenfolge. SYMBOLBASIERTE Beschriftungen haben Vorrang vor Beschriftungen, die im Backend definiert oder automatisch vom Viewer generiert werden.
 
-In Dynamic Media Classic definierte Beschriftungen werden im UserData-Datensatz einzelner Seitenbilder gespeichert. Wie bei SYMBOL-basierten Bezeichnungen. Das heißt, wenn für beide Seiten im E-Katalog Beschriftungen definiert sind, werden sie im Querformat mit `MediaSet.LABEL_DELIM` SYMBOL verkettet. Dynamic Media Classic-Beschriftungen haben Vorrang vor automatisch generierten Beschriftungen, werden jedoch durch SYMBOL-basierte Beschriftungen überschrieben.
+In Dynamic Media Classic definierte Kennzeichnungen werden im Benutzerdatensatz der einzelnen Seitenbilder gespeichert. Wie bei SYMBOL-basierten Kennzeichnungen. Das heißt, wenn auf beiden Seiten im E-Katalog-Spread Beschriftungen definiert sind, werden sie mit `MediaSet.LABEL_DELIM` SYMBOL im Querformat verkettet. Dynamic Media Classic-Kennzeichnungen haben Vorrang vor automatisch generierten Kennzeichnungen, werden jedoch durch SYMBOL-basierte Kennzeichnungen überschrieben.
 
-Automatisch generierte Bezeichnungen sind sequenzielle Zahlen, die allen Seiten im Katalog zugewiesen werden. Automatisch generierte Bezeichnungen werden für den angegebenen Spread ignoriert, wenn SYMBOL-basierte Bezeichnungen definiert oder Dynamic Media Classic-Bezeichnungen definiert sind.
+Automatisch generierte Beschriftungen sind fortlaufende Nummern, die allen Seiten im E-Katalog zugewiesen werden. Automatisch generierte Kennzeichnungen werden für den angegebenen Spread ignoriert, wenn SYMBOL-basierte Kennzeichnungen oder Dynamic Media Classic-Kennzeichnungen definiert sind.
 
-Im Inhaltsverzeichnis ist es möglich, die Anzeige automatisch generierter Bezeichnungen mithilfe des Parameters `showdefault` zu deaktivieren.
+Im Inhaltsverzeichnis ist es möglich, die Anzeige automatisch generierter Kennzeichnungen mit `showdefault` Parameter zu deaktivieren.

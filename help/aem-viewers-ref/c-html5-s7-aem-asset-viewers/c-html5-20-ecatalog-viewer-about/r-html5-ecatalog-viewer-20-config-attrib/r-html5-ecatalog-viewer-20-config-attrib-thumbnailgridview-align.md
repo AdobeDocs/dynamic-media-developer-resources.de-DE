@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Gibt die interne horizontale Ausrichtung (Verankerung) des Containers für Miniaturansichten innerhalb des Komponentenbereichs an. In ThumbnailGridView wird der interne Miniaturansichtsbehälter so skaliert, dass nur eine ganze Anzahl von Miniaturansichten angezeigt wird. Infolgedessen besteht ein gewisser Abstand zwischen dem internen Container und den externen Komponentengrenzen. Dieser Modifikator gibt an, wie der interne Container für Miniaturansichten horizontal in der Komponente platziert wird. </p> </td> 
+   <td> <p> <span class="codeph"> links|Mitte|rechts</span> </p> </td> 
+   <td> <p> Gibt die interne horizontale Ausrichtung (Verankerung) des Miniatur-Containers im Komponentenbereich an. In ThumbnailGridView wird der interne Miniaturansichts-Container so dimensioniert, dass nur eine ganze Anzahl an Miniaturansichten angezeigt wird. Infolgedessen gibt es einen gewissen Abstand zwischen dem internen Container und den Begrenzungen der externen Komponente. Dieser Modifikator gibt an, wie der Container Interne Miniaturen horizontal innerhalb der Komponente positioniert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

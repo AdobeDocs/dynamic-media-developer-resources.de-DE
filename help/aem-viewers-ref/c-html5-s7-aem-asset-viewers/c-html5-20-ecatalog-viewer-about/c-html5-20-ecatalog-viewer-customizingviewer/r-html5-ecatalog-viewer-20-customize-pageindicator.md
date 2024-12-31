@@ -1,6 +1,6 @@
 ---
 title: Seitenanzeige
-description: Die Seitenanzeige zeigt den aktuellen Seitenindex und die Seitenzahl insgesamt an. Sie wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt, auf Mobiltelefonen wird sie zur sekundären Steuerleiste hinzugefügt. Die Seitenanzeige kann von CSS skaliert, gehärtet und positioniert werden.
+description: Der Seitenindikator zeigt den aktuellen Seitenindex und die Gesamtzahl der Seiten an. Es wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt, auf Mobiltelefonen wird es zur sekundären Steuerleiste hinzugefügt. Die Seitenanzeige kann über CSS skaliert, mit Haut versehen und positioniert werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Seitenanzeige{#page-indicator}
 
-Die Seitenanzeige zeigt den aktuellen Seitenindex und die Seitenzahl insgesamt an. Sie wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt, auf Mobiltelefonen wird sie zur sekundären Steuerleiste hinzugefügt. Die Seitenanzeige kann von CSS skaliert, gehärtet und positioniert werden.
+Der Seitenindikator zeigt den aktuellen Seitenindex und die Gesamtzahl der Seiten an. Es wird in der Hauptsteuerleiste auf Desktop-Systemen und Tablets angezeigt, auf Mobiltelefonen wird es zur sekundären Steuerleiste hinzugefügt. Die Seitenanzeige kann über CSS skaliert, mit Haut versehen und positioniert werden.
 
-Das Erscheinungsbild des Seitenindikators wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild der Seitenanzeige wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7ecatalogviewer .s7pageindicator`
 
@@ -29,23 +29,23 @@ Das Erscheinungsbild des Seitenindikators wird mit der folgenden CSS-Klassenausw
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Position am oberen Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rechts </span> </p> </td> 
-   <td colname="col2"> <p>Position vom rechten Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rechte </span> </p> </td> 
+   <td colname="col2"> <p>Position am rechten Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>Position vom linken Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> linker </span> </p> </td> 
+   <td colname="col2"> <p>Position vom linken Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p>Position vom unteren Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Abstandflächen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p>Position am unteren Rand der Hauptsteuerleiste (auf Desktop-Systemen und Tablets) oder der sekundären Steuerleiste (auf Mobiltelefonen), einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite der Seitenanzeige. </p> </td> 
   </tr> 
   <tr> 
@@ -53,21 +53,21 @@ Das Erscheinungsbild des Seitenindikators wird mit der folgenden CSS-Klassenausw
    <td colname="col2"> <p>Höhe der Seitenanzeige. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
-   <td colname="col2"> <p>Schriftname. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Schriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Zum Einrichten einer Seitenanzeige mit einer Größe von 56 x 28 Pixel, einer horizontalen Zentrierung und Positionierung von 4 Pixel vom unteren Rand der Hauptsteuerleiste und der Verwendung einer Helvetica®-Schrift mit einer Größe von 14 Pixel.
+Beispiel : Zum Einrichten einer Seitenanzeige mit 56 x 28 Pixel, horizontal zentriert und 4 Pixel vom unteren Rand der Hauptsteuerleiste entfernt, und Verwenden einer 14-Pixel-Schriftart von Helvetica®.
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 

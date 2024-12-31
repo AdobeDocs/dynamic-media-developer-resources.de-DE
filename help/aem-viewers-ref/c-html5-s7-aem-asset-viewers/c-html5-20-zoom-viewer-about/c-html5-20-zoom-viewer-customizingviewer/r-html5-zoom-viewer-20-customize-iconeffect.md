@@ -1,6 +1,6 @@
 ---
 title: Symboleffekt
-description: Der Zoom-Indikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet und auch vom iconffekt-Parameter abhängig ist.
+description: Die Zoomanzeige wird im Hauptansichtsbereich überlagert. Es wird angezeigt, wenn das Bild in einem zurückgesetzten Zustand ist, und es hängt auch von iconeffect-Parameter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Symboleffekt{#icon-effect}
 
-Der Zoom-Indikator wird im Hauptansichtsbereich überlagert. Sie wird angezeigt, wenn das Bild sich in einem Reset-Status befindet und auch vom iconffekt-Parameter abhängig ist.
+Die Zoomanzeige wird im Hauptansichtsbereich überlagert. Es wird angezeigt, wenn das Bild in einem zurückgesetzten Zustand ist, und es hängt auch von iconeffect-Parameter.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7zoomviewer .s7zoomview .s7iconeffect
@@ -35,29 +35,29 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Zoom-Indikatorgrafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p> Grafik der Zoom-Anzeige. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Zoom-Indikatorbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Zoom-Anzeigebreite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Zoomanzeigenhöhe. </p> </td> 
+   <td colname="col2"> <p>Zoom-Anzeige. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Der Symboleffekt unterstützt die Attributauswahl `media-type` , mit der Sie verschiedene Symboleffekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen normalerweise die Maus-Eingabe verwendet wird, und `media-type='multitouch'` Geräten mit Touch-Eingabe.
+>Icon Effect unterstützt den `media-type`-Attributselektor, mit dem Sie verschiedene Icon-Effekte auf verschiedene Geräte anwenden können. Insbesondere entspricht `media-type='standard'` Desktop-Systemen, bei denen normalerweise Mauseingaben verwendet werden, und `media-type='multitouch'` Geräten mit Touch-Eingabe.
 
-Beispiel: Einrichten eines Zoom-Indikators mit 100 x 100 Pixel und unterschiedlicher Grafik für Desktop-Systeme und Touch-Geräte.
+Beispiel: So richten Sie eine Zoomanzeige mit 100 x 100 Pixeln mit verschiedenen Grafiken für Desktop-Systeme und Touch-Geräte ein.
 
 ```
 .s7zoomviewer .s7zoomview .s7iconeffect { 

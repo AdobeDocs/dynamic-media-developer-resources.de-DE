@@ -1,6 +1,6 @@
 ---
 title: Seitenansicht
-description: Die Hauptansicht besteht aus dem Katalogbild. Es kann wischt werden, um zu einer anderen Seite zu gelangen oder zu zoomen.
+description: Die Hauptansicht besteht aus dem Katalogbild. Sie kann gewischt werden, um zu einer anderen Seite zu gelangen, oder gezoomt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Seitenansicht{#page-view}
 
-Die Hauptansicht besteht aus dem Katalogbild. Es kann wischt werden, um zu einer anderen Seite zu gelangen oder zu zoomen.
+Die Hauptansicht besteht aus dem Katalogbild. Sie kann gewischt werden, um zu einer anderen Seite zu gelangen, oder gezoomt werden.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7ecatalogviewer .s7pageview
@@ -35,17 +35,17 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe der Hauptansicht im hexadezimalen Format. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe der Hauptansicht im Hexadezimalformat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor-</span> </p> </td> 
    <td colname="col2"> <p>Cursor, der über der Hauptansicht angezeigt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um die Hauptansicht transparent zu machen.
+Beispiel - um die Hauptansicht transparent zu gestalten.
 
 ```
 .s7ecatalogviewer .s7pageview { 
@@ -53,7 +53,7 @@ Beispiel - um die Hauptansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7pageview` angewendet werden kann, und steuert den Typ des Cursors basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente den `cursortype`-Attributselektor , der auf `.s7pageview` Klasse angewendet werden kann und den Cursortyp basierend auf dem Komponentenstatus und der Benutzeraktion steuert. Die folgenden `cursortype` werden unterstützt:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -64,29 +64,29 @@ Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p>Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht vergrößert werden kann. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht zoombar ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Zoom-</span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
-   <td colname="col2"> <p>Wird angezeigt, wenn sich das Bild auf dem maximalen Zoomfaktor befindet und auf den anfänglichen Status zurückgesetzt werden kann. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Wird angezeigt, wenn sich das Bild im maximalen Zoombereich befindet und auf den Ausgangszustand zurückgesetzt werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ziehen </span> </p> </td> 
-   <td colname="col2"> <p>Wird angezeigt, wenn der Benutzer das Bild schaltet, das gezoomt ist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Drag </span> </p> </td> 
+   <td colname="col2"> <p>Wird angezeigt, wenn Benutzende das Bild schwenken, das vergrößert ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Folie </span> </p> </td> 
-   <td colname="col2"> <p>Wird angezeigt, wenn der Benutzer einen Bildtausch durch horizontales Wischen oder Klick durchführt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Wird angezeigt, wenn Benutzende durch horizontales Wischen oder Klicken ein Bild austauschen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der Seitenaufteiler, der die linke und rechte Seite des Katalogaufschlags visuell trennt, wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Der Seitenteiler, der die linken und rechten Seiten der Katalogausbreitung visuell trennt, wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 `.s7ecatalogviewer .s7pageview .s7pagedivider`
 
@@ -99,17 +99,17 @@ Der Seitenaufteiler, der die linke und rechte Seite des Katalogaufschlags visuel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Die Breite des Seiten-Dividers. Setzen Sie sie auf <span class="codeph"> 0 </span> px , um die Trennlinie vollständig auszublenden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p> Die Breite des Seitenteilers. Legen Sie auf <span class="codeph"> 0 </span> px fest, um die Trennlinie vollständig auszublenden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>Das Bild, das Sie als Seitenaufteilung verwenden möchten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p>Das Bild, das Sie als Seitenteiler verwenden möchten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um einen Seitenaufleger mit einer Breite von 40 Pixel mit halbtransparentem Bild zu haben.
+Beispiel: eine 40 Pixel breite Seitenteilung mit halbtransparentem Bild.
 
 ```
 .s7ecatalogviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ Beispiel - um einen Seitenaufleger mit einer Breite von 40 Pixel mit halbtranspa
 
 >[!NOTE]
 >
->Wenn der Modifikator `frametransition` auf `turn` oder `auto` (auf Desktop-Systemen) gesetzt ist, wird das Erscheinungsbild des Seitenunterteilers mit dem Modifikator `pageturnstyle` gesteuert und die CSS-Klasse `.s7pagedivider` wird ignoriert.
+>Wenn der Modifikator `frametransition` auf `turn` oder `auto` (auf Desktop-Systemen) festgelegt ist, wird das Erscheinungsbild des Seitenteils mit dem Modifikator `pageturnstyle` gesteuert und die `.s7pagedivider` CSS-Klasse wird ignoriert.
 
-Es ist möglich, die Anzeige der benutzerdefinierten Mauszeiger über dem Hauptanzeige-Bereich zu konfigurieren. Diese Funktion wird durch die zusätzlichen Attributselektoren gesteuert, die auf die CSS-Klasse `.s7ecatalogviewer .s7pageview` angewendet werden:
+Es ist möglich, die Anzeige der benutzerdefinierten Mauszeiger über dem Haupt-Viewer-Bereich zu konfigurieren. Diese Funktion wird mit den zusätzlichen Attributauswahlen gesteuert, die auf `.s7ecatalogviewer .s7pageview` CSS-Klasse angewendet werden:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,29 +133,29 @@ Es ist möglich, die Anzeige der benutzerdefinierten Mauszeiger über dem Haupta
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p> Normalerweise wird ein Pfeil für ein Bild angezeigt, das nicht vergrößert werden kann. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Normalerweise wird für nicht zoombare Bilder ein Pfeil angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Zoom-</span> </p> </td> 
    <td colname="col2"> <p> Zeigt an, wann ein Bild vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
-   <td colname="col2"> <p>Zeigt an, wann ein Bild maximal zoomt und zurückgesetzt werden kann. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Zeigt an, wann ein Bild im maximalen Zoom ist und zurückgesetzt werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ziehen </span> </p> </td> 
-   <td colname="col2"> <p>Zeigt an, wann der Benutzer beim Zoomen des Bildes den Ziehvorgang durchführt </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Drag </span> </p> </td> 
+   <td colname="col2"> <p>Zeigt an, wann der Benutzer einen Ziehvorgang für ein vergrößertes Bild durchführt </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Folie </span> </p> </td> 
-   <td colname="col2"> <p>Zeigt an, wann der Benutzer einen Bildtausch mithilfe einer Foliengeste durchführt </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Zeigt an, wann der Benutzer den Bildaustausch mit der Foliengeste durchführt </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel: Für jeden Komponententyp gibt es unterschiedliche Mauszeiger.
+Beispiel: Für jeden Komponententyp stehen unterschiedliche Mauszeiger zur Verfügung.
 
 ```
 .s7ecatalogviewer .s7pageview[cursortype="default"] { 

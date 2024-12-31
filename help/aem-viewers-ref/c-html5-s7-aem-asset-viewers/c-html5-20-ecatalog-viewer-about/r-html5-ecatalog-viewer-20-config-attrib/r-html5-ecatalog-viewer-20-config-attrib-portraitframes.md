@@ -1,6 +1,6 @@
 ---
-title: portraitFrames
-description: portraitFrames
+title: PortraitFrames
+description: PortraitFrames
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 ---
 
-# portraitFrames{#portraitframes}
+# PortraitFrames{#portraitframes}
 
 `portraitFrames=split|solid`
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Setzen Sie dies auf <span class="codeph"> split</span> , damit der Viewer doppelseitige Tabellen als separate Seite anzeigen kann, wenn sie auf Mobilgeräten im Hochformat verwendet werden. Legen Sie den Wert <span class="codeph"> solid</span> fest, um doppelseitige Druckbögen unabhängig von der Geräteausrichtung immer als Vollbild anzuzeigen. </p> </td> 
+   <td colname="col2"> <p>Wenn auf <span class="codeph"> Aufspaltung eingestellt</span>, können doppelseitige Doppelseiten als separate Seite angezeigt werden, wenn sie auf Mobilgeräten im Hochformat verwendet werden. Wenn auf <span class="codeph"> Volumenkörper eingestellt</span> werden Doppelseiten unabhängig von der Ausrichtung des Geräts immer als Vollbild angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

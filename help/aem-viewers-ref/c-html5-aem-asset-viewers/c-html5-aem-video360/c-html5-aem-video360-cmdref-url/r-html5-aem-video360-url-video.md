@@ -1,6 +1,6 @@
 ---
 title: Video
-description: URL-Befehl für Video360-Viewer.
+description: URL-Befehl für Video360 Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # Video{#video}
 
-URL-Befehl für Video360-Viewer.
+URL-Befehl für Video360 Viewer.
 
 ` video= *`videoURL`*`
 
@@ -29,7 +29,7 @@ URL-Befehl für Video360-Viewer.
 
 ## Eigenschaften {#section-f42369774e2740dcb399626a0e4e930e}
 
-Erforderlich. (Sofern nicht der Parameter `asset` verwendet wird. Siehe [Unterstützung für externe Videos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+Erforderlich. (Außer `asset` Parameter wird verwendet. Siehe [Unterstützung externer Videos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # FavoritesEffect.expiration{#favoriteseffect-expiration}
 
-` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`days`*`
+` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`Tage`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Tage</span></span> </p> </td> 
-   <td colname="col2"> <p> Anzahl der Tage, in denen die Favoritensammlung auf dem System des Kunden aufbewahrt wird, bevor sie ablaufen. Jedes Mal, wenn ein Benutzer den Katalog besucht und einen Favoriten ändert (z. B. Hinzufügen oder Entfernen), wird der Ablaufzeitgeber zurückgesetzt. </p> </td> 
+   <td colname="col2"> <p> Anzahl der Tage, die die Favoritensammlung im System des Kunden aufbewahrt wird, bevor sie abläuft. Jedes Mal, wenn ein(e) Benutzende(r) den Katalog besucht und einen Favoriten ändert, z. B. ein(e) Hinzufügen oder Entfernen, wird der Ablaufzeitgeber zurückgesetzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

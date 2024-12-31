@@ -19,8 +19,8 @@ ht-degree: 11%
 <table id="table_68D8AADB572F4C2095967D12162F8991"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Anfänglicher Interessensbereich in Pixelkoordinaten. Wenn diese Werte nicht angegeben sind, wird das gesamte Bild im ersten Viewport platziert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> X,Y,W,H</span> </p> </td> 
+   <td colname="col2"> <p> Anfänglicher interessierender Bereich in Pixel-Koordinaten. Wenn diese Werte nicht angegeben sind, wird das gesamte Bild in das ursprüngliche Darstellungsfeld eingefügt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

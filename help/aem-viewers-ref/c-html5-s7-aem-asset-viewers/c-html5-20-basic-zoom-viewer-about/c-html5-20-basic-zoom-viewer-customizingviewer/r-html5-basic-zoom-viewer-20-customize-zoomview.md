@@ -1,6 +1,6 @@
 ---
 title: Zoom-Ansicht
-description: Die Hauptansicht besteht aus dem zoombaren Bild.
+description: Die Hauptansicht besteht aus dem vergrößerbaren Bild.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Zoom-Ansicht{#zoom-view}
 
-Die Hauptansicht besteht aus dem zoombaren Bild.
+Die Hauptansicht besteht aus dem vergrößerbaren Bild.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS-Eigenschaften des Haupt-Viewer-Bereichs**
 
-Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das Erscheinungsbild des Anzeigebereichs wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7basiczoomviewer .s7zoomview
@@ -35,17 +35,17 @@ Das Erscheinungsbild des Anzeigebereichs wird mit der folgenden CSS-Klassenauswa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Hintergrundfarbe im hexadezimalen Format der Hauptansicht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Hintergrundfarbe im Hexadezimalformat der Hauptansicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Cursor-</span> </p> </td> 
    <td colname="col2"> <p>Der Cursor wird über der Hauptansicht angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Beispiel - um die Hauptansicht transparent zu machen.
+Beispiel - um die Hauptansicht transparent zu gestalten.
 
 ```
 .s7basiczoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ Beispiel - um die Hauptansicht transparent zu machen.
 }
 ```
 
-Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype` , die auf die Klasse `.s7zoomview` angewendet werden kann, und steuert den Cursortyp basierend auf dem Komponentenstatus und der Benutzeraktion. Die folgenden `cursortype` -Werte werden unterstützt:
+Auf Desktop-Systemen unterstützt die Komponente den `cursortype`-Attributselektor , der auf die `.s7zoomview` angewendet werden kann und den Cursortyp basierend auf dem Komponentenstatus und der Benutzeraktion steuert. Die folgenden `cursortype` werden unterstützt:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -64,20 +64,20 @@ Auf Desktop-Systemen unterstützt die Komponente die Attributauswahl `cursortype
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p>Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht vergrößert werden kann. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Wird angezeigt, wenn das Bild aufgrund einer geringen Bildauflösung, Komponenteneinstellungen oder beidem nicht zoombar ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Zoom-</span> </p> </td> 
    <td colname="col2"> <p>Wird angezeigt, wenn das Bild vergrößert werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
-   <td colname="col2"> <p>Wird angezeigt, wenn sich das Bild auf einem maximalen Zoomfaktor befindet und auf seinen ursprünglichen Status zurückgesetzt werden kann. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Wird angezeigt, wenn sich das Bild im maximalen Zoombereich befindet und auf den Ausgangszustand zurückgesetzt werden kann. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ziehen </span> </p> </td> 
-   <td colname="col2"> <p>Wird angezeigt, wenn ein Benutzer das Bild schaltet, das gezoomt ist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Drag </span> </p> </td> 
+   <td colname="col2"> <p>Wird angezeigt, wenn Benutzende das Bild schwenken, das vergrößert ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

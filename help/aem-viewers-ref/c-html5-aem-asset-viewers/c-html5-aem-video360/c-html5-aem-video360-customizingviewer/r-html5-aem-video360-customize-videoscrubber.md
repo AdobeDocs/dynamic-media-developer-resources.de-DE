@@ -1,6 +1,6 @@
 ---
-title: Videobauktor
-description: Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
+title: Video-Scrubber
+description: Der Video-Scrubber ist der horizontale Schieberegler, mit dem Benutzende dynamisch nach einer beliebigen Position innerhalb des aktuell wiedergegebenen Videos suchen können.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Videobauktor{#video-scrubber}
+# Video-Scrubber{#video-scrubber}
 
-Der Video-Scrubber ist das horizontale Regler-Steuerelement, mit dem ein Benutzer dynamisch an eine beliebige Zeitposition innerhalb des derzeit wiedergegebenen Videos suchen kann.
+Der Video-Scrubber ist der horizontale Schieberegler, mit dem Benutzende dynamisch nach einer beliebigen Position innerhalb des aktuell wiedergegebenen Videos suchen können.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Der Scrubber-Knopf bewegt sich auch, während das Video abgespielt wird, um die aktuelle Zeitposition des Videos während der Wiedergabe anzugeben. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber zu entlüften. Ändern Sie die Höhe und die vertikale Position durch CSS.
+Der Scrubber-Regler bewegt sich während der Videowiedergabe auch, um die aktuelle Zeitposition des Videos während der Wiedergabe anzuzeigen. Der Video-Scrubber nimmt immer die gesamte Breite der Steuerleiste ein. Es ist möglich, den Video-Scrubber mit Haut zu versehen. Ändern Sie die Höhe und vertikale Position des Fensters mithilfe von CSS.
 
-Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-Klassenauswahl gesteuert:
+Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit dem folgenden CSS-Klassenselektor gesteuert:
 
 ```
 .s7video360viewer .s7videoscrubber 
@@ -33,20 +33,20 @@ Das allgemeine Erscheinungsbild des Video-Scrubbers wird mit der folgenden CSS-K
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Position vom oberen Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Position ab dem oberen Rahmen, einschließlich Auffüllung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> unten </span> </p> </td> 
-   <td colname="col2"> <p> Position vom unteren Rand, einschließlich Abstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> untere </span> </p> </td> 
+   <td colname="col2"> <p> Position ab dem unteren Rand, einschließlich Abstand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Video-Scrubbers </p> </td> 
+   <td colname="col2"> <p>Höhe des Video-Scrubbers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Die Farbe des Video-Scrubbers </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Die Farbe des Video-Scrubbers. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,106 +59,106 @@ Die folgenden CSS-Klassenselektoren verfolgen Hintergrund-, Wiedergabe- und Last
 .s7video360viewer .s7videoscrubber .s7trackplayed
 ```
 
-**CSS-Eigenschaften des track**
+**CSS-Eigenschaften der Spur**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe der entsprechenden Strecke. </p> </td> 
+   <td colname="col2"> <p>Höhe des entsprechenden Gleises. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p>Die Farbe der entsprechenden Spur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der folgende CSS-Klassenselektor steuert den Knoten:
+Der folgende CSS-Klassenselektor steuert den Regler:
 
 ```
 .s7video360viewer .s7videoscrubber .s7knob
 ```
 
-**CSS-Eigenschaften des Knotens**
+**CSS-Eigenschaften des Reglers**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Vertikaler Drehversatz. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Top-</span> </p> </td> 
+   <td colname="col2"> <p>Vertikaler Knopfversatz. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
    <td colname="col2"> <p>Breite des Knopfes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Höhe des Knopfes. </p> </td> 
+   <td colname="col2"> <p>Höhe des Drehknopfs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>Knob-Grafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p>Knopf-Bildmaterial. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Der folgende CSS-Klassenselektor steuert die Wiedergabedauer:
+Der folgende CSS-Klassenselektor steuert die wiedergegebene Zeitblase:
 
 ```
 .s7video360viewer .s7videoscrubber .s7videotime
 ```
 
-**CSS-Eigenschaften der Wiedergabedauer**
+**CSS-Eigenschaften der wiedergegebenen Zeitblase**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
    <td colname="col2"> <p> Die Schriftfamilie, die für die Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p> Die Schriftgröße, die für die Zeitanzeige verwendet wird. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Die Schriftgröße, die für den Text der Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Die Schriftfarbe für die Zeitanzeige. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p> Die Schriftfarbe, die für die Zeitanzeige verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Blasenbereichbreite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Breite </span> </p> </td> 
+   <td colname="col2"> <p>Breite des Blasenbereichs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Höhe </span> </p> </td> 
-   <td colname="col2"> <p>Blasenflächenhöhe. </p> </td> 
+   <td colname="col2"> <p>Höhe des Blasenbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Auffüllung </span> </p> </td> 
-   <td colname="col2"> <p>Blasenflächen-Umrandung. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
+   <td colname="col2"> <p>Auffüllung des Blasenbereichs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>Blasengrafik. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundbild-</span> </p> </td> 
+   <td colname="col2"> <p>Bubble-Grafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position innerhalb des Bildsprites, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Hintergrundposition </span> </p> </td> 
+   <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
-   <td colname="col2"> <p>Ausrichtung von Text am Blasenbereich. </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Ausrichtung des Textes am Blasenbereich. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die QuickInfo für Video-Scrubber kann lokalisiert werden. Weitere Informationen finden Sie unter [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
+Die QuickInfo des Video-Scrubbers kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) für weitere Informationen.
 
-**Beispiel** - Um einen Video-Viewer mit einem Video-Scrubber mit benutzerdefinierten Tracking-Farben einzurichten, die zehn Pixel groß sind. Positionieren Sie sie zehn Pixel und 35 Pixel von den oberen und linken Kanten der Steuerleiste.
+**Beispiel** - Zum Einrichten eines Video-Viewers mit einem Video-Scrubber mit benutzerdefinierten Spurfarben, der zehn Pixel hoch ist. Positionieren Sie sie zehn Pixel und 35 Pixel vom oberen und linken Rand der Steuerleiste.
 
 ```
 .s7video360viewer .s7videoscrubber  { 
