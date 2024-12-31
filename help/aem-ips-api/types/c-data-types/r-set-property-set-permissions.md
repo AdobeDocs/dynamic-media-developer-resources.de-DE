@@ -20,5 +20,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| setHandle | `xsd:string` | Behandeln Sie den Eigenschaftssatz. |
+| setHandle | `xsd:string` | Verarbeiten Sie den Eigenschaftensatz. |
 | permissionsArray | `types:PermissionUpdateArray` | Ein Array von Berechtigungen. |

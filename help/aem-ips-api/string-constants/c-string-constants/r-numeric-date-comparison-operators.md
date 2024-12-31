@@ -1,7 +1,7 @@
 ---
-description: Wird von SystemFieldCondition/op verwendet.
+description: Verwendet von SystemFieldCondition/op.
 solution: Experience Manager
-title: Numerische Operatoren/Datumsvergleich
+title: Numerische/Datumsvergleichsoperatoren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 96fb9661-f911-4476-a848-ef5256ddbeaf
@@ -12,9 +12,9 @@ ht-degree: 11%
 
 ---
 
-# Numerische Operatoren/Datumsvergleich{#numeric-date-comparison-operators}
+# Numerische/Datumsvergleichsoperatoren{#numeric-date-comparison-operators}
 
-Wird von SystemFieldCondition/op verwendet.
+Verwendet von SystemFieldCondition/op.
 
 Syntax
 

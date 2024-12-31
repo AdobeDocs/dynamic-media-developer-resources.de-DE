@@ -27,20 +27,20 @@ Syntax
 
 ## Parameter {#section-3930dc6a016140178631083563598104}
 
-**Input (setCompanyMembershipParam)**
+**Eingabe (setCompanyMembershipParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| userHandle | `xsd:sting` | Nein | Benutzerhandbuch. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Array von Unternehmen. |
+| userHandle | `xsd:sting` | Nein | Benutzerhandle. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Eine Reihe von Unternehmen. |
 
-**Output (setCompanyMembershipParam)**
+**Ausgabe (setCompanyMembershipParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-862c0cc32ce0407ab248028e690a8386}
 
-Mit diesem Codebeispiel wird ein Benutzer zu einem Unternehmen hinzugefügt. Geben Sie bei Bedarf mehrere Unternehmen im Handle-Array des Unternehmens an.
+Dieses Code-Beispiel fügt einen Benutzer zu einer Firma hinzu. Geben Sie bei Bedarf mehrere Unternehmen im Unternehmens-Handle-Array an.
 
 **Anfrage**
 

@@ -1,7 +1,7 @@
 ---
 description: Wird von JobLogDetail/logType und JobLog/logType verwendet.
 solution: Experience Manager
-title: Auftragsprotokolltypen
+title: Vorgangslog-Typen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# Auftragsprotokolltypen{#job-log-types}
+# Vorgangslog-Typen{#job-log-types}
 
 Wird von JobLogDetail/logType und JobLog/logType verwendet.
 

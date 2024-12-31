@@ -1,7 +1,7 @@
 ---
-description: Wird von FontFieldUpdate/type verwendet.
+description: Verwendet von FontFieldUpdate/type.
 solution: Experience Manager
-title: Schrifttypen
+title: Schriftarten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3a127244-89b9-45ed-bf25-23395a89d20e
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# Schrifttypen{#font-types}
+# Schriftarten{#font-types}
 
-Wird von FontFieldUpdate/type verwendet.
+Verwendet von FontFieldUpdate/type.
 
 Syntax
 

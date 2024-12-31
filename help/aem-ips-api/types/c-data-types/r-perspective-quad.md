@@ -1,5 +1,5 @@
 ---
-description: Bildstandortkoordinaten, die vom getFotoshopPath -Vorgang zurückgegeben werden.
+description: Die vom Vorgang getFotoshopPath zurückgegebenen Bildortkoordinaten.
 solution: Experience Manager
 title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL PerspectiveQuad]{#perspectivequad}
 
-Bildstandortkoordinaten, die vom getFotoshopPath -Vorgang zurückgegeben werden.
+Die vom Vorgang getFotoshopPath zurückgegebenen Bildortkoordinaten.
 
 Syntax
 
@@ -22,18 +22,18 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| x0 | `xsd:double` | X-Achsen-Koordinate oben links. |
-| y0 | `xsd:double` | Koordinate der Y-Achse oben links. |
-| x1 | `xsd:double` | Koordinate der X-Achse oben rechts. |
-| y1 | `xsd:double` | Koordinate der y-Achse oben rechts. |
+| x0 | `xsd:double` | Koordinate der oberen linken X-Achse. |
+| Y0 | `xsd:double` | Koordinate der oberen linken Y-Achse. |
+| x1 | `xsd:double` | Obere rechte X-Achsen-Koordinate. |
+| Y1 | `xsd:double` | Obere rechte Y-Achsen-Koordinate. |
 | x2 | `xsd:double` | Koordinate der X-Achse unten rechts. |
-| y2 | `xsd:double` | Koordinate der Y-Achse unten rechts. |
-| x3 | `xsd:double` | X-Achsen-Koordinate unten links. |
-| y3 | `xsd:double` | Koordinate der Y-Achse unten links. |
+| Y2 | `xsd:double` | Koordinate der unteren rechten Y-Achse. |
+| x3 | `xsd:double` | Linke untere X-Achsen-Koordinate. |
+| Y3 | `xsd:double` | Koordinate der unteren linken Y-Achse. |
 
 ## Beispiel {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Der Typ `PerspectiveQuad` gibt Daten in dieser Reihenfolge zurück:
+Der `PerspectiveQuad` gibt Daten in dieser Reihenfolge zurück:
 
 ```
 <complexType name="PerspectiveQuad">

@@ -1,5 +1,5 @@
 ---
-description: Ein Array, das den Urheber bezeichnet, oder eine Liste mit bis zu fünf E-Mail-Adressen, an die die Benachrichtigung zur Bestätigung gesendet werden soll.
+description: Ein Array, das verwendet wird, um den Absender zu bestimmen, oder eine Liste von bis zu 5 E-Mail-Adressen, um die Bestätigungsbenachrichtigung zu erhalten.
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL EmailArray]{#emailarray}
 
-Ein Array, das den Urheber bezeichnet, oder eine Liste mit bis zu fünf E-Mail-Adressen, an die die Benachrichtigung zur Bestätigung gesendet werden soll.
+Ein Array, das verwendet wird, um den Absender zu bestimmen, oder eine Liste von bis zu 5 E-Mail-Adressen, um die Bestätigungsbenachrichtigung zu erhalten.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `xsd:string` | E-Mail-Adressen. |
+| Elemente | `xsd:string` | E-Mail-Adressen |

@@ -22,9 +22,9 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| verarbeiten | `xsd:string` | Auswahl von &quot;PDF-Prozessen&quot;. |
+| verarbeiten | `xsd:string` | Auswahl von &quot;PDF-Prozessen“. |
 | Auflösung | `xsd:double` | Dateiauflösung. |
-| colorspace | `xsd:string` | Auswahl des Farbmodus nach dem Skript. |
-| pdfCatalog | `xsd:boolean` | Ob nach dem Rendern eine mehrseitige PDF in einen E-Katalog kombiniert werden soll (Standard ist &quot;true&quot;). |
+| Farbraum | `xsd:string` | Auswahl des Post-Script-Farbraummodus. |
+| pdfCatalog | `xsd:boolean` | Gibt an, ob ein mehrseitiges PDF nach dem Rendern zu einem E-Katalog kombiniert werden soll (Standard ist „true„). |
 | extractSearchWords | `xsd:boolean` | Ob Suchbegriffe aus der PDF-Datei extrahiert werden sollen. |
-| extractLinks | `xsd:boolean` | Ob PDF-Links in Imagemaps extrahiert werden sollen, die den gerasterten Seiten innerhalb von IPS zugewiesen sind. |
+| extractLinks | `xsd:boolean` | Gibt an, ob PDF-Links in Imagemaps extrahiert werden sollen, die den gerasterten Seiten in IPS zugewiesen wurden. |

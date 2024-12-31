@@ -1,6 +1,6 @@
 ---
 title: SystemFieldConditionArray
-description: Ein Bedingungs-Array für Systemfelder.
+description: Ein Array mit Systemfeldbedingungen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL SystemFieldConditionArray]{#systemfieldconditionarray}
 
-Ein Bedingungs-Array für Systemfelder.
+Ein Array mit Systemfeldbedingungen.
 
 Syntax
 

@@ -1,6 +1,6 @@
 ---
-title: UnCompressOptions
-description: Upload-Einstellung zur Verarbeitung von ZIP- und TAR-Dateien als primäre Assets (Keine) oder zum Extrahieren und Hochladen ihrer Inhalte (UnCompress).
+title: UncompressOptions
+description: Upload-Einstellung für die Verarbeitung von ZIP- und TAR-Dateien als primäre Assets (keine) oder für die Extraktion und den Upload ihrer Inhalte (Uncompress).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # [!DNL UnCompressOptions]{#uncompressoptions}
 
-Upload-Einstellung zur Verarbeitung von ZIP- und TAR-Dateien als primäre Assets (Keine) oder zum Extrahieren und Hochladen ihrer Inhalte (UnCompress).
+Upload-Einstellung für die Verarbeitung von ZIP- und TAR-Dateien als primäre Assets (keine) oder für die Extraktion und den Upload ihrer Inhalte (Uncompress).
 
 >[!NOTE]
 >
->Die Einstellung &quot;`None`&quot; ist die Standardeinstellung.
+>Die Einstellung `None` ist die Standardeinstellung.
 
 ## Parameter {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -32,13 +32,13 @@ Upload-Einstellung zur Verarbeitung von ZIP- und TAR-Dateien als primäre Assets
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> process</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Prozess</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Steuert die Verarbeitung von ZIP- und TAR-Archivdateien. Es bietet zwei Optionen: 
+   <td colname="col3"> <p>Steuert die ZIP- und TAR-Archivdateiverarbeitung. Es stehen zwei Optionen zur Verfügung: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> None:</span> Verarbeiten Sie als primäre Assets. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress:</span> Extrahieren und verarbeiten Sie den Inhalt. </li>
-     </ul><p>Hinweis: Bei Zeichenfolgenkonstanten wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie <span class="codeph"> UnCompress</span>, nicht <span class="codeph"> uncompress</span> oder <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB">Keine <span class="codeph">: </span> als primäre Assets verarbeiten. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress</span> Extrahieren und Verarbeiten des Inhalts. </li>
+     </ul><p>Hinweis: Bei Zeichenfolgenkonstanten wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie <span class="codeph"> Uncompress</span>, nicht <span class="codeph"> Uncompress</span>, oder <span class="codeph"> uncompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Upload-Einstellung zur Verarbeitung von ZIP- und TAR-Dateien als primäre Assets
 
 ## Verwendet von {#section-b2a829cf5511412e968bb2000f85cc31}
 
-Der Typ `unCompressionOptions` wird wie folgt verwendet:
+Der `unCompressionOptions` wird verwendet von:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

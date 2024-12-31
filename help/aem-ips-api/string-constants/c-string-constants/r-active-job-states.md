@@ -1,7 +1,7 @@
 ---
-description: Wird von ActiveJobs/state verwendet.
+description: Wird von ActiveJobs/State verwendet.
 solution: Experience Manager
-title: Aktive Auftragsstatus
+title: Status aktiver Aufträge
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# Aktive Auftragsstatus{#active-job-states}
+# Status aktiver Aufträge{#active-job-states}
 
-Wird von ActiveJobs/state verwendet.
+Wird von ActiveJobs/State verwendet.
 
 Syntax
 

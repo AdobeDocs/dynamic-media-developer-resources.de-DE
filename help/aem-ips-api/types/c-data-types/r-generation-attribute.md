@@ -1,7 +1,7 @@
 ---
 description: Ein Name-Wert-Paar, das Informationen zu einem Asset-Generierungsschritt enthält. Siehe getGenerationInfo.
 solution: Experience Manager
-title: GenerationAttribute
+title: generateAttribute
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5

@@ -1,5 +1,5 @@
 ---
-description: Warn- oder Fehlerdetails für ein Sling-Update in einem batchSetAssetMetadata-Vorgang.
+description: Warn- oder Fehlerdetails für eine Verwendung der Aktualisierung in einem batchSetAssetMetadata-Vorgang.
 solution: Experience Manager
 title: SetMetadataFault
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL SetMetadataFault]{#setmetadatafault}
 
-Warn- oder Fehlerdetails für ein Sling-Update in einem batchSetAssetMetadata-Vorgang.
+Warn- oder Fehlerdetails für eine Verwendung der Aktualisierung in einem batchSetAssetMetadata-Vorgang.
 
 Syntax
 
@@ -23,6 +23,6 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | assetHandle | `xsd:string` | Das Asset, dessen Metadaten nicht erfolgreich festgelegt wurden. |
-| fieldHandle | `xsd:string` | Der Handle für das Metadatenfeld, dessen Wert nicht erfolgreich festgelegt wurde. |
-| Code | `xsd:int` | Fehler-Code. |
+| fieldHandle | `xsd:string` | Das Handle zum Metadatenfeld, dessen Wert nicht erfolgreich festgelegt wurde. |
+| Code | `xsd:int` | Fehlercode. |
 | Grund | `xsd:string` | Fehlerbeschreibung (Nur-Text). |

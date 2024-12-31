@@ -1,5 +1,5 @@
 ---
-description: Dateieigenschaften von PostScript.
+description: PostScript-Dateieigenschaften.
 solution: Experience Manager
 title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL GenerationInfo]{#generationinfo}
 
-Dateieigenschaften von PostScript.
+PostScript-Dateieigenschaften.
 
 Syntax
 
@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| [!DNL engine] | `xsd:string` | Verwendete Generierungs-Engine (Werte finden Sie unter &quot;Generierungsinformationen&quot;). |
+| [!DNL engine] | `xsd:string` | Verwendete Erzeugungs-Engine (Werte finden Sie unter „Erzeugungsinfo„). |
 | [!DNL originator] | `types:Asset` | Asset-Datensatz des bei der Generierung verwendeten primären Assets. |
-| [!DNL generated] | `types:Asset` | Asset-Datensatz des generierten Assets. |
+| [!DNL generated] | `types:Asset` | Asset-Eintrag des generierten Assets. |
 | attributeArray | `types:GenerationAttributeArray` | Array von Attributen, die mit dem Generierungsprozess verknüpft sind. |

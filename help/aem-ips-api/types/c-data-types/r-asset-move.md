@@ -1,6 +1,6 @@
 ---
-title: AssetMove
-description: Ein Handle für ein Asset und das Handle, an das es verschoben wird.
+title: Asset verschieben
+description: Ein Handle für ein Asset und das Handle, in das es verschoben wird.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMove]{#assetmove}
 
-Ein Handle für ein Asset und das Handle, an das es verschoben wird.
+Ein Handle für ein Asset und das Handle, in das es verschoben wird.
 
 Syntax
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| assetHandle | `xsd:string` | Das Handle zum Asset, das Sie verschieben möchten. |
-| folderHandle | `xsd:string` | Der Handle zum Zielordner. |
+| assetHandle | `xsd:string` | Der Ziehgriff auf das Asset, das Sie verschieben möchten. |
+| folderHandle | `xsd:string` | Das Handle zum Zielordner. |

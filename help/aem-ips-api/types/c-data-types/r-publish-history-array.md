@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Veröffentlichungsverhalten.
+description: Ein Array von Veröffentlichungsverlaufen.
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-Ein Array von Veröffentlichungsverhalten.
+Ein Array von Veröffentlichungsverlaufen.
 
 Syntax
 

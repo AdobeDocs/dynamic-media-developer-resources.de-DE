@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Batch-Metadaten wird aktualisiert.
+description: Ein Array von Batch-Metadatenaktualisierungen.
 solution: Experience Manager
 title: BatchMetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL BatchMetadataUpdateArray]{#batchmetadataupdatearray}
 
-Ein Array von Batch-Metadaten wird aktualisiert.
+Ein Array von Batch-Metadatenaktualisierungen.
 
 Syntax
 

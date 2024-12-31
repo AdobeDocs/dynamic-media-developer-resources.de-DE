@@ -1,5 +1,5 @@
 ---
-description: Enthält zusätzliche Nachrichten, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Enthält Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
+description: Enthält zusätzliche Meldungen, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Enthält Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
 solution: Experience Manager
 title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL JobLogDetailAux]{#joblogdetailaux}
 
-Enthält zusätzliche Nachrichten, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Enthält Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
+Enthält zusätzliche Meldungen, die mit der Hauptauftragsprotokollmeldung (JobDetail) verknüpft sind. Enthält Warnungen und andere Details, die mit dem aktuell verarbeiteten Asset verknüpft sind.
 
 Syntax
 
@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| logMessage | `xsd:string` | Eine Hilfsnachricht. |
+| LogMessage | `xsd:string` | Eine Zusatzmeldung. |
 | logType | `xsd:string` | Protokolltyp: `IPSJobLog.gcUploadWarning` oder `IPSJobLog.gcUploadError`. |
-| dateCreated | `xsd:dateTime` | Zusätzliches Erstellungsdatum des Auftragsprotokolls. |
+| dateCreated | `xsd:dateTime` | Datum der Erstellung des Zusatzauftragsprotokolls. |

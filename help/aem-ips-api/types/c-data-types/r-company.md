@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| companyHandle | `xsd:string` | Handle des Unternehmens. |
+| companyHandle | `xsd:string` | Firmengriff. |
 | [!DNL name] | `xsd:string` | Firmenname. |
 | rootPath | `xsd:string` | Stammverzeichnis des Unternehmens. |
-| [!DNL expires] | `xsd:dateTime` | Datum und Uhrzeit des Ablaufs des Unternehmens. |
+| [!DNL expires] | `xsd:dateTime` | Datum und Uhrzeit des Ablaufs der Firma. |

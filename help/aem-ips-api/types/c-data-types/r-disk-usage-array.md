@@ -1,5 +1,5 @@
 ---
-description: Ein Array der Festplattenauslastung.
+description: Ein Array zur Festplattenauslastung.
 solution: Experience Manager
 title: DiskUsageArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL DiskUsageArray]{#diskusagearray}
 
-Ein Array der Festplattenauslastung.
+Ein Array zur Festplattenauslastung.
 
 Syntax
 

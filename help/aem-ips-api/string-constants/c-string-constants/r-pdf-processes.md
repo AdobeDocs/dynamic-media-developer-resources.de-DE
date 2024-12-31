@@ -1,5 +1,5 @@
 ---
-description: Wird von PDFOptions/type verwendet.
+description: Verwendet von PDFOoptions/type.
 solution: Experience Manager
 title: PDF-Prozesse
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # PDF-Prozesse{#pdf-processes}
 
-Wird von PDFOptions/type verwendet.
+Verwendet von PDFOoptions/type.
 
 Syntax
 

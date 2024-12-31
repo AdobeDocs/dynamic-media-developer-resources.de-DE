@@ -1,7 +1,7 @@
 ---
 description: Wird von getUsersParam und getUserCharsParam/charField verwendet.
 solution: Experience Manager
-title: Felder für Benutzerzeichenfilter
+title: User Char Filter-Felder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# Felder für Benutzerzeichenfilter{#user-char-filter-fields}
+# User Char Filter-Felder{#user-char-filter-fields}
 
 Wird von getUsersParam und getUserCharsParam/charField verwendet.
 

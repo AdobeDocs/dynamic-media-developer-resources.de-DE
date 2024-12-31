@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines Kabinett-Assets.
+description: Eigenschaften eines Ablage-Assets.
 solution: Experience Manager
 title: CabinetInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL CabinetInfo]{#cabinetinfo}
 
-Eigenschaften eines Kabinett-Assets.
+Eigenschaften eines Ablage-Assets.
 
 Syntax
 
@@ -22,10 +22,10 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| originalPath | `xsd:string` | Relativer Weg zum ursprünglichen Kabinett. |
-| originalFile | `xsd:string` | Name des Kabinetts |
+| originalPath | `xsd:string` | Relativer Pfad zum ursprünglichen Schrank. |
+| originalFile | `xsd:string` | Name der Ablage. |
 | fileSize | `xsd:int` | Kabinettgröße. |
-| imagePath | `xsd:string` | Relativer Pfad zum Kabinett, das mit der Vignette verbunden ist. |
-| imageFile | `xsd:string` | Dateiname des mit der Vignette verknüpften Kabinetts. |
-| optimizedPath | `xsd:string` | Pfad zum IPS-optimierten Gehäuse. |
-| optimizedFile | `xsd:string` | IPS-optimierte Kabinendatei. |
+| imagePath | `xsd:string` | Relativer Pfad zum Schrank, der mit der Vignette verknüpft ist. |
+| imageFile | `xsd:string` | Dateiname des mit der Vignette verknüpften Schranks. |
+| optimizedPath | `xsd:string` | Pfad zum IPS-optimierten Schrank. |
+| optimizedFile | `xsd:string` | IPS-optimierte Kabinettdatei. |

@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Eigenschaftssätzen.
+description: Ein Array von Eigenschaftensätzen.
 solution: Experience Manager
 title: PropertySetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetArray]{#propertysetarray}
 
-Ein Array von Eigenschaftssätzen.
+Ein Array von Eigenschaftensätzen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:PropertySet` | Eigenschaftenset-Array. |
+| Elemente | `types:PropertySet` | Array von Eigenschaftensätzen. |

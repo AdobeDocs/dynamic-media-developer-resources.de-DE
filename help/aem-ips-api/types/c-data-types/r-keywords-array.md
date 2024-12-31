@@ -1,7 +1,7 @@
 ---
-description: Ein Array von Suchbegriffen.
+description: Ein Array von Schlüsselwörtern.
 solution: Experience Manager
-title: KeywordsArray
+title: SchlüsselwörterArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ec87de9e-f3d0-404e-b16f-4c5d373e5a6f
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL KeywordsArray]{#keywordsarray}
 
-Ein Array von Suchbegriffen.
+Ein Array von Schlüsselwörtern.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:Keywords` | Ein Array von Suchbegriffen. |
+| Elemente | `types:Keywords` | Ein Array von Schlüsselwörtern. |

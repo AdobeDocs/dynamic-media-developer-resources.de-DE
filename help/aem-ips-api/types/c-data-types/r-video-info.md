@@ -23,7 +23,7 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | originalPath | `xsd:string` | Relativer Pfad zum hochgeladenen Video. |
-| originalFile | `xsd:string` | Name der ursprünglichen Videodatei. |
+| originalFile | `xsd:string` | Name der Originalvideodatei. |
 | fileSize | `xsd:int` | Dateigröße. |
 | imagePath | `xsd:string` | Relativer Pfad zur Videodatei. |
 | imageFile | `xsd:string` | Dateiname der Videodatei. |

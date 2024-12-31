@@ -1,5 +1,5 @@
 ---
-description: Fügt Viewer-Konfigurationseinstellungen an ein Asset an. Dabei kann es sich um eine Viewer-Vorgabe oder um das Quell-Asset für den Viewer handeln.
+description: Fügt einem Asset Viewer-Konfigurationseinstellungen hinzu. Dabei kann es sich um eine Viewer-Vorgabe oder um das Quell-Asset für den Viewer handeln.
 solution: Experience Manager
 title: setViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # setViewerConfigSettings{#setviewerconfigsettings}
 
-Fügt Viewer-Konfigurationseinstellungen an ein Asset an. Dabei kann es sich um eine Viewer-Vorgabe oder um das Quell-Asset für den Viewer handeln.
+Fügt einem Asset Viewer-Konfigurationseinstellungen hinzu. Dabei kann es sich um eine Viewer-Vorgabe oder um das Quell-Asset für den Viewer handeln.
 
 Syntax
 
@@ -31,12 +31,12 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
 | name | `xsd:string` | Ja | Asset-Name. |
-| Typ | `xsd:string` | Ja | Der Asset-Typ, auf den Sie die Viewer-Konfiguration anwenden möchten. |
-| configSettingArray | `types:ConfigSettingArray` | Ja | Das Array von &quot;`ConfigSettings`&quot;, das auf das Asset angewendet wird. |
+| Typ | `xsd:string` | Ja | Der Typ des Assets, auf das Sie die Viewer-Konfiguration anwenden möchten. |
+| configSettingArray | `types:ConfigSettingArray` | Ja | Das Array von `ConfigSettings`, die auf das Asset angewendet wurden. |
 
-**Output (setViewerConfigSettingsParam)**
+**Ausgabe (setViewerConfigSettingsParam)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.

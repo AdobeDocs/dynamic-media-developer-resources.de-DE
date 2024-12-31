@@ -1,5 +1,5 @@
 ---
-description: Durchsucht das Metadatenindex-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
+description: Durchsucht das Metadaten-Index-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
 solution: Experience Manager
 title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-Durchsucht das Metadatenindex-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
+Durchsucht das Metadaten-Index-Repository nach den angegebenen Suchbegriffen. Gibt Asset-Daten wie die searchAssets-Methode zurück.
 
-Während Sie mit `searchAssetsByMetadata` nach benutzerdefinierten Metadatenfeldern suchen können, werden diese Felder nicht zurückgegeben, wenn sie in `responseMetadataArray` angegeben sind. Zur Veranschaulichung dieses Punkts finden Sie im folgenden Codebeispiel:
+`searchAssetsByMetadata` können Sie zwar nach benutzerdefinierten Metadatenfeldern suchen, diese Felder werden jedoch nicht zurückgegeben, wenn sie im `responseMetadataArray` angegeben sind. Um diesen Punkt zu veranschaulichen, führen Sie folgendes Codebeispiel aus:
 
 ```java
 <ns:responseMetadataArray>
@@ -24,7 +24,7 @@ Während Sie mit `searchAssetsByMetadata` nach benutzerdefinierten Metadatenfeld
 </ns:responseMetadataArray>
 ```
 
-gibt einen Nullwert zurück:
+Gibt einen Nullwert zurück:
 
 ```java
 <items>
@@ -33,7 +33,7 @@ gibt einen Nullwert zurück:
 </items>
 ```
 
-Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwenden, die von der Suche zurückgegeben werden, um `getAssets` auszuführen (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte für benutzerdefinierte Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
+Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwenden, die von der Suche zurückgegeben werden, um `getAssets` auszuführen (siehe auch [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Diese Methode ruft die Werte der benutzerdefinierten Felder für die betreffenden Assets ab. Verwenden Sie das folgende Syntaxbeispiel, um nach benutzerdefinierten Metadatenfeldern zu suchen:
 
 ```java
 <ns:metadataConditionArray>
@@ -57,7 +57,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwende
 
 ## Parameter {#section-5f1edb9c5b914160ab361f4364b8aa8d}
 
-**Input (searchAssetsByMetadataParam)**
+**Eingabe (searchAssetsByMetadataParam)**
 
 <table id="table_8FF228D6279241849F3D9E5BA080580C"> 
  <thead> 
@@ -73,25 +73,25 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwende
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Der Handle für das Unternehmen. </p> </td> 
+   <td colname="col4"> <p>Der Griff zum Unternehmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filter</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Filter, mit denen Sie Suchkriterien definieren können. </p> <p>Siehe <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
    <td colname="col4"> <p>Bedingungen, die Suchkriterien definieren. Weitere Informationen finden Sie unten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ResponseMetadataArray</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Zusätzliche Felder, die in der Antwort in der Asset-Zusammenfassung ausgefüllt werden sollen. Die Felder müssen im normalisierten Format angegeben werden. </p> </td> 
+   <td colname="col4"> <p>Zusätzliche Felder, die mit der Antwort in der Asset-Zusammenfassung ausgefüllt werden sollen. Die Felder müssen im normalisierten Format angegeben werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
@@ -103,7 +103,7 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwende
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Gibt die Seite der zurückzugebenden Ergebnisse basierend auf der Seitengröße von <span class="codeph"> recordsPerPage</span> an. </p> </td> 
+   <td colname="col4"> <p>Gibt die zurückzugebende Ergebnisseite basierend auf der Seitengröße <span class="codeph"> recordsPerPage </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -115,23 +115,23 @@ Um dieses Problem zu umgehen, können Sie die `fieldHandles` der Assets verwende
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Auswahl der Sortierrichtung. Aufsteigend ist die Standardeinstellung. </p> </td> 
+   <td colname="col4"> <p>Auswahl der Sortierrichtung. Aufsteigend ist Standard. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (searchAssetsByMetadataReturn)**
+**Ausgabe (searchAssetsByMetadataReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| totalRows | `xsd:int` | Nein | Anzahl der Treffer. |
+| totalRows | `xsd:int` | Nein | Anzahl Übereinstimmungen. |
 | assetArray | `types:AssetArray` | Nein | Array von Assets, die von der Suche zurückgegeben werden. |
 
 ## metadataConditionArray-Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
-**Elementstruktur**
+**Artikelstruktur**
 
-Die Struktur `metadataConditionArray` lautet wie folgt:
+`metadataConditionArray` Struktur sieht wie folgt aus:
 
 ```java
 <ns1:items>
@@ -156,13 +156,13 @@ Die Struktur `metadataConditionArray` lautet wie folgt:
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (entspricht `modified_at` (Datum im Formular: 25. Juli 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (wie `modified_at` (Datum im Formular: Fr. Jul 25 2014 22:13:45 GMT-0500 (CDT)))
 
 * `created_by`
 
-**Zulässige Operatoren**
+**Zulässige Benutzer**
 
-Der [!DNL operator] definiert, wie der Wert verglichen und Folgendes eingeschlossen wird:
+Die [!DNL operator] definiert, wie der Wert verglichen und einbezogen wird:
 
 * `Equals`
 * `NotEquals`
@@ -177,9 +177,9 @@ Der `comparison_value` ist der Begriff, nach dem gesucht werden soll.
 
 Dieses Codebeispiel führt eine Suche mit den folgenden Metadatenkriterien durch:
 
-* `name` -Feld enthält `1000801`.
+* `name` Feld enthält `1000801`.
 
-* `dc.rights` field gleich `Per Jessen Schmidt`.
+* `dc.rights` Feld ist gleich `Per Jessen Schmidt`.
 
 **Anfrage**
 

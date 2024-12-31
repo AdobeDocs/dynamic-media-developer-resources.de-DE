@@ -1,7 +1,7 @@
 ---
 description: Wird von searchAssetsParam/sortBy verwendet.
 solution: Experience Manager
-title: Asset-Sortierungsfelder
+title: Asset-Sortierfelder
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6652fe0e-4042-40b0-b5ec-e8533ee42aa2
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# Asset-Sortierungsfelder{#asset-sort-fields}
+# Asset-Sortierfelder{#asset-sort-fields}
 
 Wird von searchAssetsParam/sortBy verwendet.
 

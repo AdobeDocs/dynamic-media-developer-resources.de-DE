@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-0a3a4bab026746238c9d4009caf42e94}
 
-**Input (updateTagFieldValuesParam)**
+**Eingabe (updateTagFieldValuesParam)**
 
 <table id="table_15F354FBC043464080BC975AE35E03A4"> 
  <thead> 
@@ -42,32 +42,32 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Handle des Unternehmens. </td> 
+   <td colname="col4"> Firmengriff. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Tag-Feld-Handle. </td> 
+   <td colname="col4"> Handle des Tag-Felds. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Array von Tag-Feldwerten, die Sie aktualisieren möchten. <p>Hinweis: Aktualisiert nur Tag-Zeichenfolgenwerte. Die Asset-Zuordnungen sind davon nicht betroffen. </p> </td> 
+   <td colname="col4">Array von Tag-Feldwerten, die Sie aktualisieren möchten. <p>Hinweis: Aktualisiert nur Tag-Zeichenfolgenwerte. Wirkt sich nicht auf Asset-Zuordnungen aus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (updateTagFieldValuesReturn)**
+**Ausgabe (updateTagFieldValuesReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | successCount | `xsd:int` | Ja | Die Anzahl der erfolgreich aktualisierten Tag-Felder. |
-| warningCount | `xsd:int` | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn der Vorgang versuchte, Tag-Felder zu aktualisieren. |
-| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die bei dem Versuch erzeugt wurden, Tag-Felder zu aktualisieren. |
-| warningDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
-| errorDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind, die beim Versuch, Tag-Felder zu aktualisieren, Fehler generiert haben. |
+| warningCount | `xsd:int` | Ja | Die Anzahl der Warnhinweise, die generiert wurden, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| errorCount | `xsd:int` | Ja | Die Anzahl der Fehler, die generiert wurden, als der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Warnungen generiert haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | Nein | Das Array von Details, die mit den Assets verknüpft sind und Fehler erzeugt haben, wenn der Vorgang versucht hat, Tag-Felder zu aktualisieren. |
 
 ## Beispiele {#section-bb4dcf97044c4675974c9b8d27674001}
 

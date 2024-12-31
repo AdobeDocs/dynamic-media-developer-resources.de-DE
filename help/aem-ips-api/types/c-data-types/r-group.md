@@ -1,5 +1,5 @@
 ---
-description: Spezifischer Satz von Benutzern, die zum Zuweisen von Berechtigungen verwendet werden.
+description: Benannte Benutzergruppe für die Zuweisung von Berechtigungen.
 solution: Experience Manager
 title: Gruppe
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL Group]{#group}
 
-Spezifischer Satz von Benutzern, die zum Zuweisen von Berechtigungen verwendet werden.
+Benannte Benutzergruppe für die Zuweisung von Berechtigungen.
 
 Syntax
 
@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| groupHandle | `xsd:string` | Gruppieren. |
-| companyHandle | `xsd:string` | Handle des Unternehmens. |
+| groupHandle | `xsd:string` | Gruppen-Handle. |
+| companyHandle | `xsd:string` | Firmengriff. |
 | [!DNL name] | `xsd:string` | Gruppenname. |
 | [!DNL is SystemDefined] | `xsd:string` | Gibt an, ob die Gruppe vom System definiert wird. |

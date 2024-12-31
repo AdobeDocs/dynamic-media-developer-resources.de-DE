@@ -1,6 +1,6 @@
 ---
 title: AssetCount
-description: Asset-Typen und -Anzahl für ein Unternehmen.
+description: Asset-Typen und Anzahl für eine Firma.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # [!DNL AssetCount]{#assetcount}
 
-Asset-Typen und -Anzahl für ein Unternehmen.
+Asset-Typen und Anzahl für eine Firma.
 
 Zu den Asset-Typen gehören [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] und andere.
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| assetType | `xsd:string` | Typ des mit der Zählung verknüpften Assets. |
+| assetType | `xsd:string` | Typ des der Zählung zugeordneten Assets. |
 | Zähler | `sd:int` | Anzahl der `assetType` Assets im Unternehmen. |

@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Generierungseigenschaften.
+description: Ein Array von Erzeugungseigenschaften.
 solution: Experience Manager
 title: GenerationInfoArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL GenerationInfoArray]{#generationinfoarray}
 
-Ein Array von Generierungseigenschaften.
+Ein Array von Erzeugungseigenschaften.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:GenerationInfo` | Ein Array von Generierungseigenschaften. |
+| Elemente | `types:GenerationInfo` | Ein Array von Erzeugungseigenschaften. |

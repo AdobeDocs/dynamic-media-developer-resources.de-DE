@@ -1,6 +1,6 @@
 ---
 title: AssetMetadataFields
-description: Gibt Metadatenfelddefinitionen für bestimmte Asset-Typen zurück.
+description: Gibt Metadatenfelddefinitionen für angegebene Asset-Typen zurück.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMetadataFields]{#assetmetadatafields}
 
-Gibt Metadatenfelddefinitionen für bestimmte Asset-Typen zurück.
+Gibt Metadatenfelddefinitionen für angegebene Asset-Typen zurück.
 
 Syntax
 
@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| assetType | `xsd:string` | Asset-Typ, der mit Felddefinitionen verknüpft ist (Werte finden Sie unter &quot;Asset-Typen&quot;). |
+| assetType | `xsd:string` | Mit Felddefinitionen verknüpfter Asset-Typ (Werte finden Sie unter „Asset-Typen„). |
 | fieldArray | `types:MetadataFieldArray` | Array von Metadatenfelddefinitionen, die mit dem in `assetType` angegebenen Asset-Typ verknüpft sind. |

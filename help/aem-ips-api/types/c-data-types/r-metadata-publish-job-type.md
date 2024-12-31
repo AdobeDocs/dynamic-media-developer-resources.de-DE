@@ -31,8 +31,8 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Setzen Sie dies auf <span class="codeph"> True</span> , um <i>alle</i> Daten erneut auf den Metadaten-Server zu veröffentlichen. <p>Hinweis: Je nach Datenmenge kann dies mehrere Minuten bis zu einigen Stunden dauern. </p><p>Legen Sie diesen Parameter nicht fest, wenn Sie nur neue oder geänderte Metadaten veröffentlichen möchten. </p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3">Legen Sie <span class="codeph"> auf </span> fest, um <i>alle</i> Daten erneut auf dem Metadatenserver zu veröffentlichen. <p>Hinweis: Je nach Datenmenge kann dies mehrere Minuten bis zu ein paar Stunden dauern. </p><p>Legen Sie diesen Parameter nicht fest, wenn Sie nur neue oder geänderte Metadaten veröffentlichen möchten. </p></td> 
   </tr> 
  </tbody> 
 </table>

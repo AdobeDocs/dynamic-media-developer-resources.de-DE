@@ -1,5 +1,5 @@
 ---
-title: MetadataField
+title: metadataField
 description: Benutzerdefinierte Felddefinitionen für bestimmte Assets.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Benutzerdefinierte Felddefinitionen für bestimmte Assets.
 
-Rufen Sie Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getAssetMetadataField` ab.
+Abrufen von Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getAssetMetadataField`.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,17 +32,17 @@ Rufen Sie Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getA
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle für Metadatenfelder. </td> 
+   <td colname="col3"> Handle der Metadatenfelder. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Name des Metadatenfelds. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Typ</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Metadatenfeldtyp. </td> 
+   <td colname="col3"> Metadaten-Feldtyp. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -51,28 +51,28 @@ Rufen Sie Tag-Felddefinitionen mit den Vorgängen `getMetadataFields` oder `getA
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Legt den erforderlichen Status fest. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Bestimmt, ob das Metadatenfeld vom Benutzer definiert wurde. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3"> Bestimmt, ob das Metadatenfeld vom Benutzer definiert wird oder nicht. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. Wird von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a> zurückgegeben. </td> 
+   <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3">IPS-systemspezifische Metadaten aus- oder einblenden. Zurückgegeben von <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> und <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob der Metadatenfeldtyp erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforce</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3"> <p>Eine boolesche Markierung, die angibt, ob der Metadatenfeldtyp erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn auf „true“ gesetzt, wird ein Fehler ausgelöst, wenn in <span class="codeph"> setAssetMetadata/</span><span class="codeph"> batchSetAssetMetadata</span> ein unzulässiger Wert festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Damit können Sie eine Reihe gemeinsam genutzter angegebener Werte erstellen, auf die ausgewählte Tags verweisen können. </td> 
+   <td colname="col3"> Damit können Sie einen Satz gemeinsam genutzter spezifizierter Werte erstellen, auf die ausgewählte Tags verweisen können. </td> 
   </tr> 
  </tbody> 
 </table>

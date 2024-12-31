@@ -1,5 +1,5 @@
 ---
-description: Array vom Typ Eigenschaftssatz.
+description: Array vom Typ „Eigenschaftensatz“.
 solution: Experience Manager
 title: PropertySetTypeArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetTypeArray]{#propertysettypearray}
 
-Array vom Typ Eigenschaftssatz.
+Array vom Typ „Eigenschaftensatz“.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:PropertySetType` | Das Eigenschaftssatztyp-Array. |
+| Elemente | `types:PropertySetType` | Die Eigenschaft legt den Typ Array fest. |

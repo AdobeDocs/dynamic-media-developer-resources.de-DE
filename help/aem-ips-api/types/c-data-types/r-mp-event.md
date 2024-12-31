@@ -22,24 +22,24 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| eventType | `xsd:string` | Media Portal-Ereignistyp. |
-| createDate | `xsd:dateTime` | Erstellungsdatum des Ereignisses. |
-| ipsUser | `xsd:string` | System oder Benutzer, der das Ereignis auslöst. |
-| companyId | `xsd:int` | Firmen-ID. |
-| companyName | `xsd:string` | Unternehmensname. |
+| eventType | `xsd:string` | Medienportal-Ereignistyp. |
+| createDate | `xsd:dateTime` | Datum der Ereigniserstellung. |
+| ipsUser | `xsd:string` | System oder Benutzer, das das Ereignis auslöst. |
+| companyId | `xsd:int` | Unternehmens-ID. |
+| companyName | `xsd:string` | Firmenname. |
 | jobName | `xsd:string` | Ein eindeutiger Auftragsname. |
 | jobDescription | `xsd:string` | Eine nützliche Beschreibung für den Auftrag. |
-| string1 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
-| string2 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
-| string3 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
-| string4 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
-| string5 | `xsd:string` | Inhaber für Zeichenfolgeninformationen (optional). |
-| int1 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
-| int2 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
-| int3 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
-| int4 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
-| int5 | `xsd:int` | Inhaber für Ganzzahlinformationen (optional). |
-| float1 | `xsd:double` | Inhaber von Float-Informationen (optional). |
-| float2 | `xsd:double` | Inhaber von Float-Informationen (optional). |
-| float3 | `xsd:double` | Inhaber von Float-Informationen (optional). |
-| time1 | `xsd:dateTime` | Inhaber für Datum-/Zeitstempelinformationen (optional). |
+| Zeichenfolge 1 | `xsd:string` | Halter für Zeichenfolgen-Informationen (optional). |
+| Zeichenfolge2 | `xsd:string` | Halter für Zeichenfolgen-Informationen (optional). |
+| Zeichenfolge3 | `xsd:string` | Halter für Zeichenfolgen-Informationen (optional). |
+| Zeichenfolge4 | `xsd:string` | Halter für Zeichenfolgen-Informationen (optional). |
+| Zeichenfolge5 | `xsd:string` | Halter für Zeichenfolgen-Informationen (optional). |
+| int1 | `xsd:int` | Halter für Ganzzahlinformationen (optional). |
+| int2 | `xsd:int` | Halter für Ganzzahlinformationen (optional). |
+| int3 | `xsd:int` | Halter für Ganzzahlinformationen (optional). |
+| int4 | `xsd:int` | Halter für Ganzzahlinformationen (optional). |
+| int5 | `xsd:int` | Halter für Ganzzahlinformationen (optional). |
+| Gleitkommazahl1 | `xsd:double` | Halter für Schwimmer-Information (optional). |
+| Gleitkommazahl2 | `xsd:double` | Halter für Schwimmer-Information (optional). |
+| Gleitkommazahl3 | `xsd:double` | Halter für Schwimmer-Information (optional). |
+| Zeit1 | `xsd:dateTime` | Inhaber für Datums-/Zeitstempelinformationen (optional). |

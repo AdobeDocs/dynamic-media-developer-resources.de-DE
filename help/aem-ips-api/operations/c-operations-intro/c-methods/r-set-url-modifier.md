@@ -1,5 +1,5 @@
 ---
-description: Legt die Protokollbefehle für Image Serving oder Image Rendering für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
+description: Legt die Bildbereitstellungs- oder Bildrenderingprotokoll-Befehle für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 6%
 
 # setUrlModifier{#seturlmodifier}
 
-Legt die Protokollbefehle für Image Serving oder Image Rendering für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
+Legt die Bildbereitstellungs- oder Bildrenderingprotokoll-Befehle für das angegebene Asset fest. Diese Befehle ändern die Darstellung des Assets, ohne es zu zerstören.
 
-Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Katalog veröffentlicht und vor allen Befehlen angewendet, die in der Anfrage-URL angegeben sind. Befehle in `urlPostApplyModifier` werden im Katalogfeld `PostModifier` veröffentlicht und überschreiben alle Befehle in der Anforderungs-URL oder in `urlModifier`. Beim Rendern von Bildern werden die Befehle in `urlModifier` und `urlPostApplyModifier` verkettet und im Feld Modifikatorkatalog veröffentlicht.
+Für die Bildbereitstellung werden Befehle im `urlModifier` im Feld Modifikatorkatalog veröffentlicht und vor allen Befehlen angewendet, die in der Anfrage-URL angegeben sind. Befehle in `urlPostApplyModifier` werden im `PostModifier` Katalogfeld veröffentlicht und überschreiben alle Befehle auf der Anfrage-URL oder in `urlModifier`. Für das Rendern von Bildern werden die Befehle in `urlModifier` und `urlPostApplyModifier` verkettet und im Feld Modifikatorkatalog veröffentlicht.
 
 ## Autorisierte Benutzertypen {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -33,12 +33,12 @@ Für Image Serving werden Befehle im Parameter `urlModifier` im Feld Modifier-Ka
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
-| urlModifier | `xsd:string` | Nein | Image Serving- oder Image Rendering-Protokollbefehle, die vor der Anforderung oder vor den Befehlen `urlPostApplyModifier` angewendet werden. |
-| urlPostApplyModifier | `xsd:string` | Nein | Image Serving - oder Image Rendering -Protokollbefehle, die nach `urlModifier` angewendet werden und Befehle anfordern. |
+| urlModifier | `xsd:string` | Nein | Befehle für das Image-Serving- oder Image-Rendering-Protokoll, die vor Anfrage- oder `urlPostApplyModifier` angewendet werden sollen. |
+| urlPostApplyModifier | `xsd:string` | Nein | Befehle für das Image-Serving- oder Image-Rendering-Protokoll, die nach `urlModifier`- und Anforderungsbefehlen angewendet werden sollen. |
 
-**Output (setUrlModifierReturn)**
+**Ausgabe (setUrlModifierReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 

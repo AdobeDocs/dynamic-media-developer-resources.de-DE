@@ -1,5 +1,5 @@
 ---
-description: Definiert ein Veröffentlichungsziel für ein Unternehmen.
+description: Definiert ein Veröffentlichungsziel für eine Firma.
 solution: Experience Manager
 title: PublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 8%
 
 # [!DNL PublishContext]{#publishcontext}
 
-Definiert ein Veröffentlichungsziel für ein Unternehmen.
+Definiert ein Veröffentlichungsziel für eine Firma.
 
 Syntax
 
 ## Parameter {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Assets verwaltet eine separate Markierung für jeden Veröffentlichungsstatus und -kontext. Legen Sie den Veröffentlichungsstatus mit [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7) fest.
+Assets verwaltet für jeden Veröffentlichungsstatus und -kontext eine separate Markierung. Legen Sie den Veröffentlichungsstatus mit [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7) fest.
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -34,7 +34,7 @@ Assets verwaltet eine separate Markierung für jeden Veröffentlichungsstatus un
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Umgang mit dem Veröffentlichungskontext. </td>
+   <td colname="col3"> Verarbeiten Sie den Veröffentlichungskontext. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
@@ -44,9 +44,9 @@ Assets verwaltet eine separate Markierung für jeden Veröffentlichungsstatus un
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextType</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">Typ des Veröffentlichungskontexts. Umfasst: 
+   <td colname="col3">Typ des Veröffentlichungskontexts. Beinhaltet: 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
-     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServing</span></li>
+     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> Bildbereitstellung</span></li>
      <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
      <li id="li_9430D600FA4343F6951F9AE8EA7F9530"><span class="codeph"> Video</span></li>
      <li id="li_4122D853BE1B4ED3B412CFA7B659EB1D"><span class="codeph"> ServerDirectory</span></li>

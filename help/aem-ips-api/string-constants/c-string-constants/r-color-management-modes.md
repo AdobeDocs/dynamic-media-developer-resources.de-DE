@@ -1,7 +1,7 @@
 ---
 description: Wird von ColorManagementOptions/colorManagement verwendet.
 solution: Experience Manager
-title: Farbmanagement-Modi
+title: Farbmanagementmodi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10e50e6b-7c20-4a31-8e1b-9fa48de74237
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# Farbmanagement-Modi{#color-management-modes}
+# Farbmanagementmodi{#color-management-modes}
 
 Wird von ColorManagementOptions/colorManagement verwendet.
 

@@ -22,8 +22,8 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| name | `xsd:string` | Name der Einsendung. |
+| name | `xsd:string` | Name des Eintrags. |
 | isDirectory | `xsd:boolean` | Bestimmt, ob der Eintrag ein Verzeichnis ist. |
-| lastModified | `xsd:dateTime` | Datum und Uhrzeit der letzten Änderung. |
+| lastModify | `xsd:dateTime` | Datum und Uhrzeit der letzten Änderung. |
 | compressionSize | `xsd:long` | Komprimierte Größe. |
-| uncompressionSize | `xsd:long` | Unkomprimierte Größe. |
+| unkomprimiertGröße | `xsd:long` | Unkomprimierte Größe. |

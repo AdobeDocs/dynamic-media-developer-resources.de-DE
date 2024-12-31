@@ -1,5 +1,5 @@
 ---
-description: Wird von PropertySetType verwendet
+description: Von PropertySetType verwendet
 solution: Experience Manager
 title: Eigenschaftssatztypen
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # Eigenschaftssatztypen{#property-set-types}
 
-Wird von PropertySetType verwendet
+Von PropertySetType verwendet
 
 Syntax
 

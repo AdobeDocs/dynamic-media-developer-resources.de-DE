@@ -1,7 +1,7 @@
 ---
 description: Wird nur von Dynamic Media-Entwicklern verwendet.
 solution: Experience Manager
-title: ConfigSetting
+title: configSetting
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
@@ -24,4 +24,4 @@ Syntax
 |---|---|---|
 | [!DNL name] | `xsd:string` | Konfigurationsname. |
 | [!DNL value] | `xsd:string` | Konfigurationswert. |
-| [!DNL handle] | `xsd:string` | Behandeln Sie die gespeicherte Konfiguration. |
+| [!DNL handle] | `xsd:string` | Verarbeiten Sie die gespeicherte Konfiguration. |

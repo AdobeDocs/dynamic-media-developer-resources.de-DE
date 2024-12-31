@@ -23,4 +23,4 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | assetHandle | `xsd:string` | Asset-Handle. |
-| thumbAssetHandle | `xsd:string` | Handle für Thumb-Assets. |
+| thumbAssetHandle | `xsd:string` | Miniatur-Asset-Handle. |

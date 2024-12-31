@@ -1,7 +1,7 @@
 ---
-description: Eine Reihe von Unternehmen
+description: Eine Vielzahl von Unternehmen
 solution: Experience Manager
-title: CompanyArray
+title: FirmaArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c3a6849d-f17b-481c-a67c-a239af0a3d10
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL CompanyArray]{#companyarray}
 
-Eine Reihe von Unternehmen
+Eine Vielzahl von Unternehmen
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:Company` | Eine Reihe von Unternehmen. |
+| Elemente | `types:Company` | Eine Vielzahl von Unternehmen. |

@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Tag-Wert-Aktualisierungsfehlern.
+description: Ein Array von Aktualisierungsfehlern für Tag-Werte.
 solution: Experience Manager
 title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFaultArray]{#tagvalueupdatefaultarray}
 
-Ein Array von Tag-Wert-Aktualisierungsfehlern.
+Ein Array von Aktualisierungsfehlern für Tag-Werte.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:TagValueUpdateFault` | Ein Array von Tag-Wert-Aktualisierungsfehlern (Fehlermeldungen). |
+| Elemente | `types:TagValueUpdateFault` | Ein Array von Fehlern bei der Aktualisierung von Tag-Werten (Fehlermeldungen). |

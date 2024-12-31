@@ -1,7 +1,7 @@
 ---
-description: Eigenschaften eines Wasserzeichen-Assets.
+description: Eigenschaften eines Wasserzeichen-Assets
 solution: Experience Manager
-title: WatermarkInfo
+title: Wasserzeichen-Info
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL WatermarkInfo]{#watermarkinfo}
 
-Eigenschaften eines Wasserzeichen-Assets.
+Eigenschaften eines Wasserzeichen-Assets
 
 Syntax
 

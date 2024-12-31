@@ -1,5 +1,5 @@
 ---
-description: Legt die Berechtigungen eines einzelnen Assets mithilfe eines Berechtigungs-Assets fest.
+description: Legt die Berechtigungen für ein einzelnes Asset mithilfe eines Berechtigungs-Assets fest.
 solution: Experience Manager
 title: setAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 8%
 
 # setAssetPermissions{#setassetpermissions}
 
-Legt die Berechtigungen eines einzelnen Assets mithilfe eines Berechtigungs-Assets fest.
+Legt die Berechtigungen für ein einzelnes Asset mithilfe eines Berechtigungs-Assets fest.
 
-Assets erbt standardmäßig die Berechtigungen des übergeordneten Ordners. Nachdem Sie Berechtigungen für ein Asset festgelegt haben, erbt es nicht mehr die Berechtigungen seines übergeordneten Elements, es sei denn, Sie rufen `removeAssetPermissions` auf.
+Assets übernimmt standardmäßig die Berechtigungen des übergeordneten Ordners. Nachdem Sie Berechtigungen für ein Asset festgelegt haben, erbt es die Berechtigungen des übergeordneten Assets nicht mehr, es sei denn, Sie rufen `removeAssetPermissions` auf.
 
 ## Autorisierte Benutzertypen {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -26,21 +26,21 @@ Assets erbt standardmäßig die Berechtigungen des übergeordneten Ordners. Nach
 
 ## Parameter {#section-e05abbce6453450fb38747101cb5e228}
 
-**Input (setAssetPermissonsParam)**
+**Eingabe (setAssetPermissionsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen, das den Ordner enthält, mit dem Sie arbeiten möchten. |
-| assetHandle | `xsd:string` | Ja | Ordner-Handle. |
-| permissionArray | `types:PermissionsUpdateArray` | Ja | Berechtigungsarray. |
+| companyHandle | `xsd:string` | Ja | Das -Handle an das Unternehmen, das den Ordner enthält, mit dem Sie arbeiten möchten. |
+| assetHandle | `xsd:string` | Ja | Ordner-Handle |
+| permissionArray | `types:PermissionsUpdateArray` | Ja | Berechtigungs-Array |
 
-**Output (setAssetPermissonsReturn)**
+**Ausgabe (setAssetPermissionsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-38955bc330bb4909b6b06027ef2b143e}
 
-In diesem Codebeispiel werden Berechtigungen für ein Asset festgelegt. Es enthält das Unternehmen und das Asset-Handle sowie ein Berechtigungs-Array.
+Dieses Codebeispiel legt Berechtigungen für ein Asset fest. Sie enthält das Unternehmens- und Asset-Handle sowie ein Berechtigungs-Array.
 
 **Anfrage**
 

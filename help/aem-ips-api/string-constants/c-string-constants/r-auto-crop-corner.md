@@ -1,7 +1,7 @@
 ---
-description: Wird von AutoCropColorOptions/corner verwendet.
+description: Wird von AutoCropColorOptions/Corner verwendet.
 solution: Experience Manager
-title: AutoCrop Corner
+title: Ecke für automatisches Zuschneiden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a9ed9cfa-a11e-4e71-9e46-9589451cdad9
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# AutoCrop Corner{#autocrop-corner}
+# Ecke für automatisches Zuschneiden{#autocrop-corner}
 
-Wird von AutoCropColorOptions/corner verwendet.
+Wird von AutoCropColorOptions/Corner verwendet.
 
 Syntax
 

@@ -1,7 +1,7 @@
 ---
 description: PDF-Dateieigenschaften.
 solution: Experience Manager
-title: PdfInfo
+title: PDF-Info
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 033bdcf2-ddb2-48c2-97ab-2f72cc7780c8

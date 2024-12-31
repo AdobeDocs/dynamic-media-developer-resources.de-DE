@@ -26,7 +26,7 @@ Syntax
 
 ## Parameter {#section-69681ed1ddff437ca1c73f46fe835c96}
 
-**Input (updateMetadataFieldParam)**
+**Eingabe (updateMetadataFieldParam)**
 
 <table id="table_65D6EE6C402E4F01819822A855B6BB7F"> 
  <thead> 
@@ -42,16 +42,16 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Handle des Unternehmens. </td> 
+   <td colname="col4"> Firmengriff. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Handle für Metadatenfelder. </td> 
+   <td colname="col4"> Handle der Metadatenfelder. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Name des Metadatenfelds. </td> 
@@ -60,38 +60,38 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Metadatenfeldwert. </td> 
+   <td colname="col4"> Wert des Metadatenfelds. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Ausblenden oder Anzeigen von IPS-systemspezifischen Metadaten. </td> 
+   <td colname="col4"> IPS-systemspezifische Metadaten aus- oder einblenden. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforce</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nein </p> </td> 
-   <td colname="col4"> <p>Eine boolesche Kennzeichnung, die anzeigt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn der Wert auf "true"gesetzt ist, wird ein Fehler ausgegeben, wenn ein illegaler Wert in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> festgelegt ist. </p> </td> 
+   <td colname="col4"> <p>Ein boolesches Flag, das angibt, ob das Metadatenfeld erzwungen (validiert) wird, wenn der Wert festgelegt wird. </p> <p>Wenn auf „true“ gesetzt, wird ein Fehler ausgelöst, wenn in <span class="codeph"> setAssetMetadata/</span><span class="codeph"> batchSetAssetMetadata</span> ein unzulässiger Wert festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Ermöglicht die Erstellung eines Satzes gemeinsamer Auflistungswerte, auf den ausgewählte Tags verweisen können. </td> 
+   <td colname="col4"> Ermöglicht die Erstellung eines Satzes von freigegebenen Aufzählungswerten, auf die ausgewählte Tags verweisen können. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (updateMetadataFieldReturn)**
+**Ausgabe (updateMetadataFieldReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | Ja | Handle für Metadatenfelder. |
+| fieldHandle | `xsd:string` | Ja | Handle der Metadatenfelder. |
 
 ## Beispiele {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-Diese Codebeispielaktualisierungen weisen einem Metadatenfeld einen neuen Namen und einen neuen Standardwert zu. Die Antwort gibt ein Handle an das aktualisierte Feld zurück.
+Dieses Code-Beispiel wird aktualisiert und weist einem Metadatenfeld einen neuen Namen und einen Standardwert zu. Die Antwort gibt ein -Handle zum aktualisierten Feld zurück.
 
 **Anfrage**
 

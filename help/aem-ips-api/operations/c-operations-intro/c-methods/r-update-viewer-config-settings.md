@@ -1,5 +1,5 @@
 ---
-description: Aktualisiert die SWF-Viewer-Konfigurationseinstellungen.
+description: Aktualisiert die Konfigurationseinstellungen des SWF-Viewers.
 solution: Experience Manager
 title: updateViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-Aktualisiert die SWF-Viewer-Konfigurationseinstellungen.
+Aktualisiert die Konfigurationseinstellungen des SWF-Viewers.
 
 Syntax
 
@@ -27,14 +27,14 @@ Syntax
 
 ## Parameter {#section-29790d933fb24aa392d0cb2d52d1310f}
 
-**Input (updateViewerConfigSettingsParam)**
+**Eingabe (updateViewerConfigSettingsParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle mit dem Unternehmen. |
+| companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
 | assetHandle | `xsd:string` | Ja | Asset-Handle. |
-| configSettingArray | `types:ConfigSettingArray` | Ja | Array von Konfigurationseinstellungen, die Sie auf den Viewer anwenden möchten. |
+| configSettingArray | `types:ConfigSettingArray` | Ja | Array von Konfigurationseinstellungen, die auf den Viewer angewendet werden sollen. |
 
-**Output (updateViewerConfigSettingsReturn)**
+**Ausgabe (updateViewerConfigSettingsReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.

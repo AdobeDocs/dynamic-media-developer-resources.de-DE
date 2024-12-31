@@ -1,5 +1,5 @@
 ---
-description: Beschreibt die von verschiedenen Eingabeparametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+description: Beschreibt die von verschiedenen Eingabeparametern verwendeten Werte. Einzelheiten finden Sie in der Liste in diesem Artikel.
 solution: Experience Manager
 title: Asset-Typen
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # Asset-Typen{#asset-types}
 
-Beschreibt die von verschiedenen Eingabeparametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+Beschreibt die von verschiedenen Eingabeparametern verwendeten Werte. Einzelheiten finden Sie in der Liste in diesem Artikel.
 
 Syntax
 

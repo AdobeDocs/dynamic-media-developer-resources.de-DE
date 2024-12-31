@@ -20,20 +20,20 @@ Syntax
 
 ## Parameter {#section-3be47dbbce474ce78676b05e163492e3}
 
-**Input (updateImageSetParam)**
+**Eingabe (updateImageSetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das zu ändernde Bildset enthält. |
-| assetHandle | `xsd:string` | JS | Das Handle für das Bildset, das Sie ändern möchten. |
-| memberArray | `types:ImageSetMemberUpdateArray` | Nein | Setzt Bildset-Mitglieder zurück. |
-| thumbAssetHandle | `xsd:string` | Nein | Der Handle des Assets, das als Miniaturansicht für das Bildset dient. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das Bildset enthält, das Sie ändern möchten. |
+| assetHandle | `xsd:string` | Ja | Das Handle für das Bildset, das Sie ändern möchten. |
+| memberArray | `types:ImageSetMemberUpdateArray` | Nein | Setzt die Mitglieder des Bildsets zurück. |
+| thumbAssetHandle | `xsd:string` | Nein | Das Handle des Assets, das als Miniatur für das Bildset fungiert. |
 
-**Output (updateImageSetReturn)**
+**Ausgabe (updateImageSetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| Sequenz |  |  |  |
+| Ablauf |  |  |  |
 
 ## Beispiele {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

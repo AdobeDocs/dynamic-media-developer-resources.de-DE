@@ -1,5 +1,5 @@
 ---
-description: Legt die Gruppenmitgliedschaft von Benutzern fest, die zu einem bestimmten Unternehmen gehören.
+description: Legt die Gruppenmitgliedschaft von Benutzenden fest, die zu einer bestimmten Firma gehören.
 solution: Experience Manager
 title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # setGroupMembers{#setgroupmembers}
 
-Legt die Gruppenmitgliedschaft von Benutzern fest, die zu einem bestimmten Unternehmen gehören.
+Legt die Gruppenmitgliedschaft von Benutzenden fest, die zu einer bestimmten Firma gehören.
 
-Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die erforderlichen Berechtigungen zum Ausführen dieses Vorgangs verfügen. Dies trifft auch zu, wenn einer der Benutzer im Benutzerhandle-Array nicht zu dem im Unternehmens-Handle angegebenen Unternehmen gehört.
+Der Vorgang löst einen Authentifizierungsfehler aus, wenn Sie keine Berechtigungen zum Ausführen dieses Vorgangs haben. Dies gilt auch, wenn einer der Benutzer im Benutzerhandle-Array nicht zu dem im Firmen-Handle angegebenen Unternehmen gehört,
 
 ## Autorisierte Benutzertypen {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -30,17 +30,17 @@ Der Vorgang gibt einen Authentifizierungsfehler aus, wenn Sie nicht über die er
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
-| groupHandle | `xsd:string` | Ja | Gruppieren. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
+| groupHandle | `xsd:string` | Ja | Gruppen-Handle. |
 | userHandleArray | `types:HandleArray` | Ja | Array von Handles für Benutzer, deren Gruppenmitgliedschaft Sie festlegen möchten. |
 
-**Output (setGroupMemberReturn)**
+**Ausgabe (setGroupMembersReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-In diesem Codebeispiel wird die Gruppenmitgliedschaft für einen einzelnen Benutzer festgelegt.
+In diesem Code-Beispiel wird die Gruppenmitgliedschaft für einen einzelnen Benutzer festgelegt.
 
 **Anfrage**
 

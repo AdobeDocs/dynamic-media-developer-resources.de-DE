@@ -1,7 +1,7 @@
 ---
 description: Wird von searchAssetsParam/conditionMatchMode, searchAssetsParam/systemFieldMatchMode und searchAssetsParam/metadataMatchMode verwendet.
 solution: Experience Manager
-title: Suchübereinstimmungsmodi
+title: Match-Modus suchen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 67f3b0a9-2e4b-428d-bceb-28a0599da5ce
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 ---
 
-# Suchübereinstimmungsmodi{#search-match-modes}
+# Match-Modus suchen{#search-match-modes}
 
 Wird von searchAssetsParam/conditionMatchMode, searchAssetsParam/systemFieldMatchMode und searchAssetsParam/metadataMatchMode verwendet.
 

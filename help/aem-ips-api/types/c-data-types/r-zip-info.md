@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines ZIP-Archivierungs-Assets.
+description: Eigenschaften eines ZIP-Archiv-Assets.
 solution: Experience Manager
 title: ZipInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL ZipInfo]{#zipinfo}
 
-Eigenschaften eines ZIP-Archivierungs-Assets.
+Eigenschaften eines ZIP-Archiv-Assets.
 
 Syntax
 

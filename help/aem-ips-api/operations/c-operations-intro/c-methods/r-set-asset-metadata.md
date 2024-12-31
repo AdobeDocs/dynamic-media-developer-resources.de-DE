@@ -1,5 +1,5 @@
 ---
-description: Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Updates, um Werte in einem Batch festzulegen.
+description: Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadatenaktualisierungen, um Werte in einem Batch festzulegen.
 solution: Experience Manager
 title: setAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # setAssetMetadata{#setassetmetadata}
 
-Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadaten-Updates, um Werte in einem Batch festzulegen.
+Legt Metadatenwerte für ein Asset fest. Funktioniert mit einem Array von Metadatenaktualisierungen, um Werte in einem Batch festzulegen.
 
 Syntax
 
@@ -37,17 +37,17 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Der Handle für das Unternehmen mit dem Asset, das Sie aktualisieren möchten. |
-| assetHandle | `xsd:string` | Ja | Das Handle für das Asset. |
+| companyHandle | `xsd:string` | Ja | Das -Handle an die Firma mit dem Asset, das Sie aktualisieren möchten. |
+| assetHandle | `xsd:string` | Ja | Das Handle zum Asset. |
 | updateArray | `types:MetadataUpdateArray` | Ja | Aktualisierungen in einem Metadaten-Update-Array. |
 
-**Output (setAssetMetadataReturn)**
+**Ausgabe (setAssetMetadataReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-Dieses Codebeispiel verwendet ein Array von Metadaten-Updates, um die Metadaten des angegebenen Assets festzulegen.
+Dieses Codebeispiel verwendet ein Array von Metadatenaktualisierungen, um die Metadaten des angegebenen Assets festzulegen.
 
 **Anfrage**
 

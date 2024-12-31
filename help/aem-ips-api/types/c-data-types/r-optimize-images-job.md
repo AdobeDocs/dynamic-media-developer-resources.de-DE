@@ -1,5 +1,5 @@
 ---
-description: Details für einen Optimierungsbildauftrag.
+description: Details für einen Auftrag zum Optimieren von Bildern.
 solution: Experience Manager
 title: OptimizeImagesJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL OptimizeImagesJob]{#optimizeimagesjob}
 
-Details für einen Optimierungsbildauftrag.
+Details für einen Auftrag zum Optimieren von Bildern.
 
 Syntax
 

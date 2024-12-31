@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| setHandle | `xsd:string` | Eigenschaftensatz-Handle. |
-| typeHandle | `xsd:string` | Behandeln Sie den Eigenschaftssatz-Typ. |
-| propertyArray | `types:PropertyArray` | Name-Wert-Paar. Kann keine Elemente enthalten. |
+| setHandle | `xsd:string` | Handle des Eigenschaftensatzes. |
+| typeHandle | `xsd:string` | Verarbeiten Sie den Eigenschaftssatztyp. |
+| propertyArray | `types:PropertyArray` | Name-Wert-Paar. Kann null Elemente enthalten. |

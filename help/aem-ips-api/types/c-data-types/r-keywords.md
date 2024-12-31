@@ -20,9 +20,9 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| keyword | `xsd:string` | Suchbegriff. |
-| status | `xsd:boolean` | Gültigkeit des Suchbegriffs. |
-| x | `xsd:int` | Suchbegriffposition auf der X-Achse (in Pixel). |
-| y | `xsd:int` | Suchbegriffposition auf der y-Achse (in Pixel). |
-| Breite | `xsd:int` | Suchbegriffsbreite in Pixel. |
-| Höhe | `xsd:int` | Höhe des Suchbegriffs in Pixel. |
+| keyword | `xsd:string` | Keyword. |
+| status | `xsd:boolean` | Gültigkeit des Schlüsselworts. |
+| x | `xsd:int` | Schlüsselwortposition auf der X-Achse (in Pixel). |
+| y | `xsd:int` | Schlüsselwortposition auf der Y-Achse (in Pixel). |
+| Breite | `xsd:int` | Breite des Schlüsselworts in Pixel. |
+| Höhe | `xsd:int` | Schlüsselworthöhe in Pixel. |

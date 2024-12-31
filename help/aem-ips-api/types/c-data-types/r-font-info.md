@@ -1,5 +1,5 @@
 ---
-description: Schrift-Asset-Eigenschaften.
+description: Schriftart-Asset-Eigenschaften.
 solution: Experience Manager
 title: FontInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL FontInfo]{#fontinfo}
 
-Schrift-Asset-Eigenschaften.
+Schriftart-Asset-Eigenschaften.
 
 Syntax
 
@@ -23,5 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | originalPath | `xsd:string` | Schriftpfad. |
-| originalFile | `xsd:string` | Schriftname. |
+| originalFile | `xsd:string` | Schriftart. |
 | fileSize | `xsd:int` | Schriftgröße. |

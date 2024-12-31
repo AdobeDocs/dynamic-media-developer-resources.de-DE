@@ -1,6 +1,6 @@
 ---
 title: AssetJobLogArray
-description: Array von Asset-Auftragsprotokollen.
+description: Array von Asset-Vorgangslogs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL AssetJobLogArray]{#assetjoblogarray}
 
-Array von Asset-Auftragsprotokollen.
+Array von Asset-Vorgangslogs.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:AssetJobLog` | Array von Asset-Auftragsprotokollen. |
+| Elemente | `types:AssetJobLog` | Array von Asset-Vorgangslogs. |

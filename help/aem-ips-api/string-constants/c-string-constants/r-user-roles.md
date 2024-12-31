@@ -1,5 +1,5 @@
 ---
-description: Beschreibt die von verschiedenen Parametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+description: Beschreibt die von verschiedenen Parametern verwendeten Werte. Einzelheiten finden Sie in der Liste in diesem Artikel
 solution: Experience Manager
 title: Benutzerrollen
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Benutzerrollen{#user-roles}
 
-Beschreibt die von verschiedenen Parametern verwendeten Werte. Weitere Informationen finden Sie in der Liste in diesem Artikel .
+Beschreibt die von verschiedenen Parametern verwendeten Werte. Einzelheiten finden Sie in der Liste in diesem Artikel
 
 Syntax
 

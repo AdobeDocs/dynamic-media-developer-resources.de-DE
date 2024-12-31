@@ -1,7 +1,7 @@
 ---
-description: Wird von ActiveJob/Typ und ScheduledJob/Typ verwendet.
+description: Wird von „ActiveJob/type“ und „ScheduledJob/type“ verwendet.
 solution: Experience Manager
-title: Auftragstypen
+title: Vorgangstypen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c833c6f7-0f72-485d-8ad1-3620db7c320a
@@ -12,9 +12,9 @@ ht-degree: 10%
 
 ---
 
-# Auftragstypen{#job-types}
+# Vorgangstypen{#job-types}
 
-Wird von ActiveJob/Typ und ScheduledJob/Typ verwendet.
+Wird von „ActiveJob/type“ und „ScheduledJob/type“ verwendet.
 
 Syntax
 

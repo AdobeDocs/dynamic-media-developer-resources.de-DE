@@ -1,7 +1,7 @@
 ---
-description: Eine Reihe von Projekten.
+description: Ein Array von Projekten.
 solution: Experience Manager
-title: ProjectArray
+title: Projekt-Array
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6f9b5a38-49b1-4975-8ab9-c129a8e07d05
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL ProjectArray]{#projectarray}
 
-Eine Reihe von Projekten.
+Ein Array von Projekten.
 
 Syntax
 

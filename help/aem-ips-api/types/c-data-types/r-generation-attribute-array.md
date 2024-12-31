@@ -1,5 +1,5 @@
 ---
-description: Array von Generierungsattributen.
+description: Array von Erzeugungsattributen.
 solution: Experience Manager
 title: GenerationAttributeArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL GenerationAttributeArray]{#generationattributearray}
 
-Array von Generierungsattributen.
+Array von Erzeugungsattributen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:GenerationAttribute` | Das Array der Generierungsattribute. |
+| Elemente | `types:GenerationAttribute` | Das Array von Erzeugungsattributen. |

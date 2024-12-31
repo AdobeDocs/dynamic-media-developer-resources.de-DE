@@ -22,10 +22,10 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| folderHandle | `xsd:string` | Ordner-Handle. |
+| folderHandle | `xsd:string` | Ordner-Handle |
 | [!DNL path] | `xsd:string` | Ordnerpfad. |
-| lastModified | `xsd:dateTime` | Datum der letzten Änderung. |
+| lastModify | `xsd:dateTime` | Datum der letzten Änderung. |
 | childLastModified | `xsd:dateTime` | Datum der letzten Änderung für Unterordner und untergeordnete Ordner-Assets. |
-| permissionsSetHandle | `xsd:string` | Umgang mit Ordnerberechtigungen |
-| hasSubfolder | `types:Boolean` | Bestimmt, ob ein Ordner Unterordner enthält. |
+| permissionsSetHandle | `xsd:string` | Handhabung von Ordnerberechtigungen. |
+| hasSubfolder | `types:Boolean` | Legt fest, ob ein Ordner Unterordner enthält. |
 | subfolderArray | `types:FolderArray` | Ein Array von Unterordnern in einem Ordner. |

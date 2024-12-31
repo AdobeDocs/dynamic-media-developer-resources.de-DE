@@ -1,5 +1,5 @@
 ---
-description: Dateieigenschaften von Photoshop.
+description: Photoshop-Dateieigenschaften.
 solution: Experience Manager
 title: PsdInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL PsdInfo]{#psdinfo}
 
-Dateieigenschaften von Photoshop.
+Photoshop-Dateieigenschaften.
 
 Syntax
 

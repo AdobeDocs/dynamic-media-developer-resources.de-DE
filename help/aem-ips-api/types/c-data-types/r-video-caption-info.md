@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften von Videobeschriftungen
+description: Videobeschriftungs-Eigenschaften
 title: VideoCaptionInfo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # [!DNL VideoCaptionInfo]{#videocaptioninfo}
 
-Eigenschaften von Videobeschriftungen
+Videobeschriftungs-Eigenschaften
 
 ## Parameter {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 

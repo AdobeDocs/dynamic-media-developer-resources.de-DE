@@ -1,5 +1,5 @@
 ---
-description: Ein Array von ICC-Profilfeldern aktualisiert Elemente.
+description: Ein Array von ICC-Profilfeld-Aktualisierungselementen.
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL IccProfileFieldUpdateArray]{#iccprofilefieldupdatearray}
 
-Ein Array von ICC-Profilfeldern aktualisiert Elemente.
+Ein Array von ICC-Profilfeld-Aktualisierungselementen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:IccProfileUpdate` | `IccProfileFieldUpdate` Array-Element. |
+| Elemente | `types:IccProfileUpdate` | Array-Element `IccProfileFieldUpdate`. |

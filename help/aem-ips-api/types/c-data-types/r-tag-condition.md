@@ -32,26 +32,26 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Tag-Feld-Handle. </td> 
+   <td colname="col3"> Handle des Tag-Felds. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Hängt vom Tag-Feldtyp ab und davon, ob das Feld value oder valueArray verwendet wird. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Wenn <span class="codeph"> value</span> übergeben wird, muss <span class="codeph"> op</span> die Zeichenfolgenkonstante Matches sein. Die Bedingung stimmt mit jedem Asset überein, das mit dem Tag-Wert verknüpft ist. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Wenn <span class="codeph"> valueArray</span> übergeben wird, kann das Feld op die Konstante <span class="codeph"> MatchesAny</span> für einzelne oder mehrwertige Tag-Felder sein. Eine <span class="codeph"> MatchesAny</span> -Bedingung stimmt mit jedem Asset überein, das mit mindestens einem der Tag-Werte in <span class="codeph"> valueArray</span> verknüpft ist. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Bei Tagfeldern mit mehreren Werten kann das Feld op auf die Konstante <span class="codeph"> MatchesAll</span> mit dem Feld <span class="codeph"> valueArray</span> eingestellt werden. In diesem Fall stimmt die Bedingung nur mit Assets überein, die mit allen Tag-Werten in <span class="codeph"> valueArray</span> verknüpft sind (möglicherweise zusätzlich zu anderen Tag-Werten). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Wenn <span class="codeph"> Wert </span> wird, muss <span class="codeph"> op</span> die Zeichenfolgenkonstante Matches sein. Die Bedingung entspricht allen Assets, die mit dem Tag-Wert verknüpft sind. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Wenn <span class="codeph"> valueArray</span> übergeben wird, kann das oberste Feld die Konstante <span class="codeph"> MatchesAny</span> für einzelne oder mehrwertige Tag-Felder sein. Eine <span class="codeph"> MatchesAny</span>-Bedingung entspricht jedem Asset, das mit mindestens einem der Tag-Werte in <span class="codeph"> valueArray verknüpft ist</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Bei Tag-Feldern mit mehreren Werten kann für das Feld op die Konstante <span class="codeph"> MatchesAll</span> mit dem Feld <span class="codeph"> valueArray</span> festgelegt werden. In diesem Fall entspricht die Bedingung nur Assets, die mit allen Tag-Werten in <span class="codeph"> valueArray</span> verknüpft sind (möglicherweise zusätzlich zu anderen Tag-Werten). </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Wert</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ein übereinstimmender Wert. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:StringArray</span> </td> 
    <td colname="col3"> Mehrere übereinstimmende Werte. </td> 
   </tr> 
  </tbody> 

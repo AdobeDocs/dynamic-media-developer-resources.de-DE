@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:FontFieldUpdate` | Ein Element im Feld &quot;font&quot;aktualisiert das Array. |
+| Elemente | `types:FontFieldUpdate` | Ein Element im Aktualisierungs-Array des Schriftartenfelds. |

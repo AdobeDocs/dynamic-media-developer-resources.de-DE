@@ -1,7 +1,7 @@
 ---
-description: Wird von ImageMap/shapeType und saveImageMapParam/shapType verwendet.
+description: Wird von ImageMap/ShapeType und saveImageMapParam/shapType verwendet.
 solution: Experience Manager
-title: Regionsform
+title: Bereichsform
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 84a27a16-23fc-4e58-ba05-49882dd72174
@@ -12,9 +12,9 @@ ht-degree: 10%
 
 ---
 
-# Regionsform{#region-shape}
+# Bereichsform{#region-shape}
 
-Wird von ImageMap/shapeType und saveImageMapParam/shapType verwendet.
+Wird von ImageMap/ShapeType und saveImageMapParam/shapType verwendet.
 
 Syntax
 

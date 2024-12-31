@@ -1,5 +1,5 @@
 ---
-description: Unstrukturierter benannter Satz von Bildausgabeeinstellungen.
+description: Nicht strukturierter benannter Satz von Bildausgabeeinstellungen.
 solution: Experience Manager
 title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageFormat]{#imageformat}
 
-Unstrukturierter benannter Satz von Bildausgabeeinstellungen.
+Nicht strukturierter benannter Satz von Bildausgabeeinstellungen.
 
 Kein Asset-Typ.
 

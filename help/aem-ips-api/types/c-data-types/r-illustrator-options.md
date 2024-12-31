@@ -22,7 +22,7 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| [!DNL process] | `xsd:string` | Auswahl der Illustrator-Prozesse. |
+| [!DNL process] | `xsd:string` | Auswahl von Illustrator-Prozessen. |
 | [!DNL resolution] | `xsd:string` | Dateiauflösung. |
 | colorSpace | `xsd:string` | Zielfarbraum. |
-| [!DNL alpha] | `xsd:boolean` | Ob die Datei in ein Bild gerastert werden soll. Wenn dies der Fall ist, erstellen Sie einen transparenten Hintergrund, wenn die Originaldatei so definiert ist, dass sie Logos überlagert. |
+| [!DNL alpha] | `xsd:boolean` | Gibt an, ob die Datei in einem Bild gerastert werden soll. Wenn ja, erstellen Sie einen transparenten Hintergrund, wenn die Originaldatei auf diese Weise zum Erstellen von Überlagerungen von Logos definiert ist. |

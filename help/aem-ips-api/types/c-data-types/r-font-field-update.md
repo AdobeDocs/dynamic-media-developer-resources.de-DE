@@ -1,5 +1,5 @@
 ---
-description: Aktualisieren Sie die Informationen für die Schrifteigenschaften.
+description: Informationen zu den Schriftarteigenschaften aktualisieren.
 solution: Experience Manager
 title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL FontFieldUpdate]{#fontfieldupdate}
 
-Aktualisieren Sie die Informationen für die Schrifteigenschaften.
+Informationen zu den Schriftarteigenschaften aktualisieren.
 
 Syntax
 
@@ -22,11 +22,11 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| assetHandle | `xsd:string` | Schrift-Asset-Handle. |
-| fontName | `xsd:string` | Schriftname. |
+| assetHandle | `xsd:string` | Schriftarten-Asset-Handle. |
+| fontName | `xsd:string` | Schriftart. |
 | postscriptName | `xsd:string` | PostScript-Schriftart. |
 | rtfName | `xsd:string` | Rich-Text-Schriftartname. |
-| [!DNL fontFamily] | `xsd:string` | Schriftfamilienname. |
+| [!DNL fontFamily] | `xsd:string` | Name der Schriftfamilie. |
 | [!DNL style] | `xsd:string` | Schriftstil (Werte finden Sie unter Schriftstile ). |
 | typeName | `xsd:string` | Schriftartname. |
-| [!DNL type] | `xsd:string` | Schriftart (Werte finden Sie unter Schrifttypen ). |
+| [!DNL type] | `xsd:string` | Schriftart (Werte finden Sie unter Schriftarten). |

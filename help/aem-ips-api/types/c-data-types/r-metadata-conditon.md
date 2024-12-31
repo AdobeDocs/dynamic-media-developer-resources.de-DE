@@ -32,72 +32,72 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Feldgriff. </td> 
+   <td colname="col3"> Feld-Handle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Auswahl der Operatoren für den Zeichenfolgenvergleich. </td> 
+   <td colname="col3"> Auswahl von Operatoren für Zeichenfolgenvergleiche. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Wert</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Zu testender Wert. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Boolescher Vergleichswert (nur für boolesche Felder). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3"> Boolescher Vergleichswert (nur für Felder mit booleschem Wert). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Long-Vergleichswert (nur für int-typisierte Felder). </td> 
+   <td colname="col3"> Langer Vergleichswert (nur für int-typisierte Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Minimaler Langwert im Bereichsvergleich (nur für int-typisierte Felder). </td> 
+   <td colname="col3"> Minimaler long-Wert im Bereichsvergleich (nur für int-typisierte Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Maximaler Long-Wert im Bereichsvergleich (nur für int-typisierte Felder). </td> 
+   <td colname="col3"> Maximaler long-Wert im Bereichsvergleich (nur für int-typisierte Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Doppelter Vergleichswert (nur für Felder mit Fließtext). </td> 
+   <td colname="col3"> Doppelter Vergleichswert (nur für schwebende Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Doppelter Mindestwert im Bereichsvergleich (nur für Felder mit Float-Typ). </td> 
+   <td colname="col3"> Minimaler doppelter Wert im Bereichsvergleich (nur für Gleitkomma-Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Maximaler doppelter Wert im Bereichsvergleich (nur bei Feldern mit Gleitkommatyp). </td> 
+   <td colname="col3"> Maximaler doppelter Wert im Bereichsvergleich (nur für Gleitkomma-Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Datumsvergleichswert (nur für Datumsfeld-Felder). </td> 
+   <td colname="col3"> Datumsvergleichswert (nur für Felder vom Typ Datum). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Minimaler Datumswert im Bereichsvergleich (nur für Datumsfeld-Felder). </td> 
+   <td colname="col3"> Minimaler Datumswert im Bereichsvergleich (nur für datentypisierte Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Maximaler Datumswert im Bereichsvergleich (nur für Datumsfeld-Felder). </td> 
+   <td colname="col3"> Maximaler Datumswert im Bereichsvergleich (nur für datentypisierte Felder). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Legt die Groß-/Kleinschreibung für den Metadaten-Server fest. Wird im Aufruf <span class="codeph"> searchAssetsByMetadata</span> verwendet. </p> <p>Siehe <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Legt die Groß-/Kleinschreibung für den Metadaten-Server fest. Wird im <span class="codeph"> searchAssetsByMetadata</span>-Aufruf verwendet. </p> <p>Siehe <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

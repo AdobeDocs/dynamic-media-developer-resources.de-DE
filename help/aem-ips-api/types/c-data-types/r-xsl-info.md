@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines XML-Transformationsdatei-Assets.
+description: Eigenschaften eines Assets einer XML-Umwandlungsdatei.
 solution: Experience Manager
 title: XslInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL XslInfo]{#xslinfo}
 
-Eigenschaften eines XML-Transformationsdatei-Assets.
+Eigenschaften eines Assets einer XML-Umwandlungsdatei.
 
 Syntax
 

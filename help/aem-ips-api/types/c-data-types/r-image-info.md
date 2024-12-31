@@ -77,7 +77,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> <p>Pixel pro Zoll </p> </td> 
+   <td colname="col3"> <p>Pixel pro Zoll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL sku]</span> </span> </td> 
@@ -92,7 +92,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL comments]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Kommentare (nicht mehr unterstützt). </p> </td> 
+   <td colname="col3"> <p>Kommentare (veraltet). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL userData]</span> </span> </td> 
@@ -107,32 +107,32 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorY]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>Vertikaler Ankerpunkt in Piexeln. </p> </td> 
+   <td colname="col3"> <p>Vertikaler Ankerpunkt in Pixel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>URL-Parameter des Bildservers. </p> </td> 
+   <td colname="col3"> <p>Image-Server-URL-Parameter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Am Ende des <span class="codeph"> urlModifier</span> verkettete Parameter. Liste der Parameter im Abfragezeichenfolgenformat, die Befehle zum Bildserver sind. Die Werte finden Sie im Protokoll-Handbuch zum Image-Server. </p> </td> 
+   <td colname="col3"> <p>Parameter, verkettet mit dem Ende des <span class="codeph"> urlModifier</span>. Liste der Parameter im Format von Abfragezeichenfolgen, die Befehle für den Bild-Server sind. Die Werte finden Sie im Handbuch zum Image-Server-Protokoll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>Array von Zoomzielen (5 max.). </p> </td> 
+   <td colname="col2"> <span class="codeph">:ZoomTargetArray</span> </td> 
+   <td colname="col3"> <p>Array von Zoom-Zielen (max. 5). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:MaskArray</span> </td> 
-   <td colname="col3"> <p>Maskiert ein Array. </p> </td> 
+   <td colname="col2"> <span class="codeph">:MaskArray</span> </td> 
+   <td colname="col3"> <p>Masken-Array. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageMaps]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageMapsArray</span> </td> 
-   <td colname="col3"> <p>Bild ordnet Array zu. </p> </td> 
+   <td colname="col2"> <span class="codeph">:ImageMapsArray</span> </td> 
+   <td colname="col3"> <p>Array für Imagemaps. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Legt die Liste der mit einem Bildset verknüpften Assets fest.
 
-Bei diesem Vorgang wird der Parameter `pageReset` für `ImageSets` und `SpinSets` ignoriert und der Wert auf &quot;true&quot;erzwungen.
+Dieser Vorgang ignoriert den `pageReset` Parameter für `ImageSets` und `SpinSets` und erzwingt den Wert auf „true“.
 
 ## Autorisierte Benutzertypen {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -49,30 +49,30 @@ Bei diesem Vorgang wird der Parameter `pageReset` für `ImageSets` und `SpinSets
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Handle des Unternehmens. </p> </td> 
+   <td colname="col4"> <p>Firmengriff. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> AssetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Bildset-Handle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph">:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Array von Asset-Elementen, die zum Bildset gehören. </td> 
+   <td colname="col4"> Array von Asset-Mitgliedern, die zum Bildset gehören. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (setImageSetMembersReturn)**
+**Ausgabe (setImageSetMembersReturn)**
 
 Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-7b87219034464aa98524178ccee27738}
 
-In diesem Codebeispiel wird ein Member-Array verwendet, um die Mitglieder eines Bildsets festzulegen.
+In diesem Codebeispiel wird ein Member-Array verwendet, um die Member eines Bildsets festzulegen.
 
 **Anfrage**
 

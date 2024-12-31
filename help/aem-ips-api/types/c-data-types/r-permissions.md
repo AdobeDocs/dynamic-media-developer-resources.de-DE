@@ -1,7 +1,7 @@
 ---
-description: Verwaltet Berechtigungen zum Zugriff auf, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
+description: Verwaltet Rechte zum Zugreifen auf, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
 solution: Experience Manager
-title: Berechtigung
+title: Erlaubnis
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL Permission]{#permission}
 
-Verwaltet Berechtigungen zum Zugriff auf, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
+Verwaltet Rechte zum Zugreifen auf, Ändern, Erstellen oder Löschen von Assets nach Gruppe.
 
 Syntax
 
@@ -22,8 +22,8 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| groupHandle | `xsd:string` | Gruppieren. |
+| groupHandle | `xsd:string` | Gruppen-Handle. |
 | groupName | `xsd:string` | Gruppenname. |
 | permissionType | `xsd:string` | Auswahl des Berechtigungstyps. |
 | isAllowed | `xsd:boolean` | Bestimmt, ob die Berechtigung zulässig ist. |
-| isOverride | `xsd:boolean` | Bestimmt, ob die Berechtigung eine andere überschreibt. |
+| isOverride | `xsd:boolean` | Legt fest, ob die Berechtigung eine andere überschreibt. |

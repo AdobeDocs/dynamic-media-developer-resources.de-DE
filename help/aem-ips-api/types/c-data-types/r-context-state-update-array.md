@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Kontextstatusaktualisierungen.
+description: Ein Array von Statusaktualisierungen für den Kontext.
 solution: Experience Manager
 title: ContextStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL ContextStateUpdateArray]{#contextstateupdatearray}
 
-Ein Array von Kontextstatusaktualisierungen.
+Ein Array von Statusaktualisierungen für den Kontext.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| ContextStateUpdateArray | `types:ContextStateUpdate` | Ein Array von Kontextstatusaktualisierungen. |
+| ContextStateUpdateArray | `types:ContextStateUpdate` | Ein Array von Statusaktualisierungen für den Kontext. |

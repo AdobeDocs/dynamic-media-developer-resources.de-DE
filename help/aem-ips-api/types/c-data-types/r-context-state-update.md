@@ -1,5 +1,5 @@
 ---
-description: Aktualisiert den Veröffentlichungskontextstatus für ein Asset.
+description: Aktualisiert den Status des Veröffentlichungskontexts für ein Asset.
 solution: Experience Manager
 title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 9%
 
 # [!DNL ContextStateUpdate]{#contextstateupdate}
 
-Aktualisiert den Veröffentlichungskontextstatus für ein Asset.
+Aktualisiert den Status des Veröffentlichungskontexts für ein Asset.
 
 Syntax
 
 ## Parameter {#section-9f747df071854c6896fdbb95684ad947}
 
-Legen Sie den Veröffentlichungskontextstatus eines Assets mit `setAssetsContextState` fest.
+Festlegen des Veröffentlichungskontextstatus eines Assets mit `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -34,15 +34,15 @@ Legen Sie den Veröffentlichungskontextstatus eines Assets mit `setAssetsContext
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Umgang mit dem Veröffentlichungskontext. </td>
+   <td colname="col3"> Verarbeiten Sie den Veröffentlichungskontext. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> publishState</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">Der aktualisierte Veröffentlichungsstatus des Assets für den angegebenen Veröffentlichungskontext. Umfasst: 
+   <td colname="col3">Der aktualisierte Veröffentlichungsstatus des Assets für den angegebenen Veröffentlichungskontext. Beinhaltet: 
     <ul id="ul_CF6019C4CA3648B687C252F1A7C2EAAF">
-     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> MarkedForPublish</span></li>
-     <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarkedForPublish</span></li>
+     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> Zur Veröffentlichung markiert</span></li>
+     <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarked for Publish</span></li>
      <li id="li_5145CFA39F5249C48DBD0A37543AF055"><span class="codeph"></span></li>
     </ul></td>
   </tr>
@@ -51,4 +51,4 @@ Legen Sie den Veröffentlichungskontextstatus eines Assets mit `setAssetsContext
 
 >[!MORELIKETHIS]
 >
->* [Publish-Status](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [Status von Publish](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

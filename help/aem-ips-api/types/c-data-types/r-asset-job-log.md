@@ -1,6 +1,6 @@
 ---
 title: AssetJobLog
-description: Die Details eines Auftragsprotokolleintrags, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
+description: Die Details eines Vorgangslog-Eintrags, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # [!DNL AssetJobLog]{#assetjoblog}
 
-Die Details eines Auftragsprotokolleintrags, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
+Die Details eines Vorgangslog-Eintrags, der mit einem bestimmten Asset verknüpft ist. Von getAssetJobLogs zurückgegebene Daten.
 
 Syntax
 
@@ -32,22 +32,22 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Auftragshandle. </td> 
+   <td colname="col3"> Auftragsverarbeitung. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Auftragsname. </td> 
+   <td colname="col3"> Vorgangsname. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Meldung im Auftragsprotokoll <p>Das Antwortfeld <span class="codeph"> [!DNL logMessage]</span> wird basierend auf dem Gebietsschema-Feld <span class="codeph"> authHeader</span> lokalisiert. </p></td> 
+   <td colname="col3">Meldung im Vorgangslog. <p><span class="codeph"> [!DNL logMessage]</span> Antwortfeld wird anhand <span class="codeph"> authHeader</span>-Gebietsschemafelds lokalisiert. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Auftragstyp im Protokolleintrag. </td> 
+   <td colname="col3"> Art des Vorgangs im Protokolleintrag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL submitUserEmail]</span> </span> </td> 
@@ -61,8 +61,8 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL auxArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:JobLogDetailArray</span> </td> 
-   <td colname="col3"> Array von Protokollnachrichten für Hilfsaufträge für jedes Auftragsprotokoll. </td> 
+   <td colname="col2"> <span class="codeph">:JobLogDetailArray</span> </td> 
+   <td colname="col3"> Array von zusätzlichen Vorgangslog-Meldungen für jedes Vorgangslog. </td> 
   </tr> 
  </tbody> 
 </table>

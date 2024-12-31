@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Metadaten, die aus dem Asset gelöscht werden.
+description: Ein Array von Metadaten, die aus dem Asset gelöscht werden sollen.
 solution: Experience Manager
 title: MetadataDeleteArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL MetadataDeleteArray]{#metadatadeletearray}
 
-Ein Array von Metadaten, die aus dem Asset gelöscht werden.
+Ein Array von Metadaten, die aus dem Asset gelöscht werden sollen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `type:Metadata` | Ein Array von Metadatenparametern, die gelöscht werden sollen. |
+| Elemente | `type:Metadata` | Ein Array von zu löschenden Metadatenparametern. |

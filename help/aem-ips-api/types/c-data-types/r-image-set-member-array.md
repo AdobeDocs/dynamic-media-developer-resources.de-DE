@@ -1,5 +1,5 @@
 ---
-description: Ein Array von Bildset-Mitgliedern.
+description: Ein Array von Bildset-Elementen.
 solution: Experience Manager
 title: ImageSetMemberArray
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ImageSetMemberArray]{#imagesetmemberarray}
 
-Ein Array von Bildset-Mitgliedern.
+Ein Array von Bildset-Elementen.
 
 Syntax
 

@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| setDefinition | `xsd:string` | Asset-Set-Definition entsprechend den Anforderungen des zielgerichteten IS-Viewers formatiert. Kann optionale IPS-Ersatzparameter enthalten. |
+| setDefinition | `xsd:string` | Asset-Set-Definition, formatiert gemäß den Anforderungen des ausgewählten IMS-Viewers. Kann optionale IPS-Substitutionsparameter enthalten. |

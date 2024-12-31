@@ -20,5 +20,5 @@ Legen Sie einen neuen Satz von Veröffentlichungsstatus-Flags für den Veröffen
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| assetHandle | `xsd:string` | Behandeln Sie das Asset, das Sie aktualisieren möchten. |
-| contextStateUpdateArray | `types:ContextStateUpdateArray` | Ein Array von Veröffentlichungskontaktstatus für das Asset, das Sie aktualisieren möchten. |
+| assetHandle | `xsd:string` | Verarbeiten Sie das Asset, das Sie aktualisieren möchten. |
+| contextStateUpdateArray | `types:ContextStateUpdateArray` | Ein Array von Status der Veröffentlichungskontakte für das Asset, das Sie aktualisieren möchten. |

@@ -22,7 +22,7 @@ Syntax
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Ein Sonderfall von [!DNL `SingleFixedTag`] mit einem nicht änderbaren Wörterbuch, das auf die Werte [!DNL `True`] und [!DNL `False`] initialisiert wurde.
+* [!DNL `BooleanTag`]: Ein Sonderfall von [!DNL `SingleFixedTag`] mit einem nicht veränderbaren Wörterbuch, das mit den Werten [!DNL `True`] und [!DNL `False`] initialisiert wurde.
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -32,7 +32,7 @@ Syntax
 * [!DNL `Int`]
 * [!DNL `MultiFixedTag`]: Null oder mehr Zeichenfolgenwerte aus einem geschlossenen Wörterbuch. Nur Admin-Benutzer können das Wörterbuch ändern.
 * [!DNL `MultiTag`]: Null oder mehr Zeichenfolgenwerte.
-* [!DNL `SingleFixedTag`]: Ein einzelner Zeichenfolgenwert aus einem geschlossenen Wörterbuch. Wenn `setAssetMetadata` oder `batchSetAssetMetadata` mit einem Wert aufgerufen werden, der nicht im Wörterbuch enthalten ist, wird ein Fehler zurückgegeben. Nur Admin-Benutzer können das Wörterbuch ändern.
+* [!DNL `SingleFixedTag`]: Ein einzelner Zeichenfolgenwert aus einem geschlossenen Wörterbuch. Wenn `setAssetMetadata` oder `batchSetAssetMetadata` mit einem Wert aufgerufen werden, der nicht im Wörterbuch steht, wird ein Fehler zurückgegeben. Nur Admin-Benutzer können das Wörterbuch ändern.
 
 * [!DNL `SingleTag`]: Jeder einzelne Zeichenfolgenwert.
 * [!DNL `String`]

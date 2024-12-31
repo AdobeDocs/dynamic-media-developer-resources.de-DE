@@ -1,5 +1,5 @@
 ---
-description: Aktualisiert die Einstellungen für das Vignettenveröffentlichungsformat.
+description: Aktualisiert die Vignettenveröffentlichungsformateinstellungen.
 solution: Experience Manager
 title: updateVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # updateVignettePublishFormat{#updatevignettepublishformat}
 
-Aktualisiert die Einstellungen für das Vignettenveröffentlichungsformat.
+Aktualisiert die Vignettenveröffentlichungsformateinstellungen.
 
 ## Autorisierte Benutzertypen {#section-2f2ad136d2884dc9bfef6da008196ed0}
 
@@ -25,33 +25,33 @@ Aktualisiert die Einstellungen für das Vignettenveröffentlichungsformat.
 
 ## Parameter {#section-8c7ba8d2bce14071b21fccb11f44749f}
 
-**Input (updateVignettePublishFormatParam)**
+**Eingabe (updateVignettePublishFormatParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Handle des Unternehmens. |
-| vignetteFormatHandle | `xsd:string` | Ja | Handle im Publish-Format. |
+| companyHandle | `xsd:string` | Ja | Firmengriff. |
+| vignetteFormatHandle | `xsd:string` | Ja | Publish-Formatgriff. |
 | name | `xsd:string` | Nein | Publish-Formatname. |
-| targetWidth | `xsd:int` | Ja | Gibt die Zielbreite der resultierenden Vignettenansicht in Pixel an. Verwenden Sie null, damit die Ausgabemignette dieselbe Größe wie die primäre Vignette hat. |
-| targetHeight | `xsd:int` | Ja | Gibt die Zielhöhe der resultierenden Vignettenansicht in Pixel an. Verwenden Sie null, damit die Ausgabemignette dieselbe Größe wie die primäre Vignette hat. |
-| createPyramid | `xsd:boolean` | Ja | Erstellt eine Pyramidenvignette, die für das Zoomen auf dem Image Rendering-Server optimiert ist. Beginnend mit der Maximalgröße, die durch die Felder für die Vignettengröße der Zielgruppe festgelegt wird, erstellt dies Ansichten mit mehreren Größen in einer Vignettenausgabedatei. Jede nachfolgende Anzeigegröße wird um die Hälfte reduziert, bis die Breite und Höhe 128 x 128 Pixel beträgt. |
-| thumbWidth | `xsd:int` | Ja | Gibt die Breite jeder resultierenden Miniaturansicht in Pixel an. Diese Einstellung ist optional. Lassen Sie den Wert null für keine Miniaturansicht-Datei. |
-| saveAsVersion | `xsd:int` | Ja | Gibt das Dateiformat für die veröffentlichten Vignetten an. Bei einer neuen Version von Image Authoring und einer älteren Version des Image Rendering Server müssen Sie eine Vignettenversion angeben, die Ihr ImageRendering Server lesen kann. Wenn Sie eine höhere Version angeben, kann der Image Rendering-Server die veröffentlichten Vignetten nicht lesen. Auf null setzen, um Vignetten in der neuesten Version zu veröffentlichen. |
-| sizeSuffixSeparator | `xsd:string` | Ja | Gibt das Zeichen an, das den Vignettennamen und das Suffix mit seiner Breite trennt. |
-| Scharfzeichnen | `xsd:int` | Nein | Wendet die Scharfzeichnung auf das Hauptansichtsbild für jede Veröffentlichungsvignettengröße an. Durch Scharfzeichnen können bei Skalierung der Vignetten verschwommene Stellen kompensiert werden. |
-| usmAmount | `xsd:double` | Ja | Die digitale Unschärfemaske ist eine flexible und leistungsstarke Methode, um die Schärfe zu erhöhen, insbesondere bei gescannten Bildern. Dies steuert die Größe jedes Überschießens (wie viel dunkler und heller die Kantengrenzen werden). |
-| usmRadius | `xsd:double` | Ja | Betrifft die Größe der zu verbessernden Kanten oder die Breite der Kantenrimen, sodass ein kleinerer Radius die Detailgenauigkeit vergrößert. Höhere Radiuswerte können Halos an den Kanten verursachen. Für feine Details ist ein kleinerer Radius erforderlich, da winzige Details derselben Größe oder kleiner als der Radius verloren gehen. |
-| usmThreshold | `xsd:int` | Ja | Steuert die minimale Helligkeitsänderung, die scharfgezeichnet werden soll, oder die Entfernung zwischen benachbarten Tonwerten, bevor der Filter funktioniert. Mit dieser Einstellung können ausgeprägtere Kanten scharfgezeichnet werden, während feinere Kanten unberührt bleiben. Der zulässige Schwellenwert beträgt 0 bis 255. |
+| targetWidth | `xsd:int` | Ja | Gibt die Zielbreite der resultierenden Vignettenansicht in Pixel an. Verwenden Sie Null, damit die Ausgabe-Vignette dieselbe Größe wie die primäre Vignette hat. |
+| targetHeight | `xsd:int` | Ja | Gibt die Zielhöhe der resultierenden Vignettenansicht in Pixel an. Verwenden Sie Null, damit die Ausgabe-Vignette dieselbe Größe wie die primäre Vignette hat. |
+| createPyramid | `xsd:boolean` | Ja | Erstellt eine Pyramidenvignette, die für das Zoomen auf dem Bild-Rendering-Server optimiert ist. Beginnend mit der maximalen Größe, die durch die Felder Zielgröße der Vignette festgelegt wird, erstellt dies mehrere Größenansichten in einer einzigen Vignetten-Ausgabedatei. Jede darauffolgende Ansichtsgröße wird halbiert, bis die Breite und Höhe innerhalb von 128x128 Pixeln liegen. |
+| thumbWidth | `xsd:int` | Ja | Gibt die Breite der einzelnen resultierenden Miniaturen in Pixel an. Diese Einstellung ist optional. Belassen Sie Null für keine Miniaturbilddatei. |
+| saveAsVersion | `xsd:int` | Ja | Gibt das Dateiformat für die veröffentlichten Vignetten an. Bei einer neuen Version der Bildbearbeitung und einer älteren Version des Bild-Rendering-Servers müssen Sie eine Vignettenversion angeben, die Ihr Bild-Rendering-Server lesen kann. Wenn Sie eine höhere Version angeben, kann der Bild-Rendering-Server die veröffentlichten Vignetten nicht lesen. Auf null gesetzt, um Vignetten mit der neuesten Version zu veröffentlichen. |
+| sizeSuffixSeparator | `xsd:string` | Ja | Gibt das Zeichen an, das den Namen der Vignette vom Suffix für die Breite trennt. |
+| schärfen | `xsd:int` | Nein | Wendet für jede Veröffentlichungs-Vignettengröße eine Scharfzeichnung auf das Hauptansichtsbild an. Durch die Scharfzeichnung können Unschärfen ausgeglichen werden, wenn die Vignetten skaliert werden. |
+| sumAmount | `xsd:double` | Ja | Die digitale Unschärfemaske ist eine flexible und leistungsstarke Methode, um die Schärfe zu erhöhen, insbesondere bei gescannten Bildern. Damit wird die Größe jeder Überschreitung festgelegt (wie viel dunkler und heller die Randkanten werden). |
+| sumRadius | `xsd:double` | Ja | Beeinflusst die Größe der zu vergrößernden Kanten oder die Breite der Kantenränder, sodass ein kleinerer Radius die Detailgenauigkeit in kleinerem Maßstab verbessert. Höhere Radiuswerte können zu Lichthöfen an den Kanten führen. Feines Detail benötigt einen kleineren Radius, da winziges Detail der gleichen Größe oder kleiner als der Radius verloren geht. |
+| Summenschwellenwert | `xsd:int` | Ja | Steuert die minimale Helligkeitsänderung, die geschärft werden soll, oder den Abstand benachbarter Farbwerte, bevor der Filter funktioniert. Diese Einstellung kann ausgeprägtere Kanten schärfen, während subtilere Kanten unberührt bleiben. Der zulässige Schwellenwert liegt zwischen 0 und 255. |
 
 **Ausgabe (updateVignettePublishFormatReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| vignetteFormatHandle | `xsd:string` | Ja | Zum aktualisierten Vignetten-Veröffentlichungsformat wechseln. |
+| vignetteFormatHandle | `xsd:string` | Ja | Verarbeiten Sie das aktualisierte Vignettenveröffentlichungsformat. |
 
 ## Beispiel {#section-fcba4bf2b7264786a676e315a35dbe43}
 
-Dieses Codebeispiel aktualisiert ein Vignetten-Veröffentlichungsformat und gibt den Handle in das aktualisierte Format zurück.
+Dieses Codebeispiel aktualisiert ein Vignettenveröffentlichungsformat und gibt den Ziehgriff auf das aktualisierte Format zurück.
 
 **Anfrage**
 

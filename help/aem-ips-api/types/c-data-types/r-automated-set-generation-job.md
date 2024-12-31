@@ -1,5 +1,5 @@
 ---
-description: Gruppieren Sie Dateien mithilfe eines Listen-Arrays für das Asset-Handle in Sets.
+description: Gruppieren Sie Dateien mithilfe eines Asset-Handle-Listen-Arrays in Sets.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
-Gruppieren Sie Dateien mithilfe eines Listen-Arrays für das Asset-Handle in Sets.
+Gruppieren Sie Dateien mithilfe eines Asset-Handle-Listen-Arrays in Sets.
 
 Syntax
 
@@ -31,42 +31,42 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">Ein Array von Asset-Handles, die zum Erstellen des Sets verwendet werden. <p>Standardmäßig ist 1000 die maximale Anzahl von Assets, die Sie im Array haben können. </p></td> 
+   <td colname="col2"> <span class="codeph">:HandleArray</span> </td> 
+   <td colname="col3">Ein Array von Asset-Handles, die zum Erstellen des Sets verwendet werden. <p>Standardmäßig entspricht 1.000 der maximalen Anzahl von Assets, die Sie im Array haben können. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Pfad zum Ordner, in dem Sie die Sets speichern möchten. Speichert standardmäßig im Stammordner des Unternehmens. </td> 
+   <td colname="col3"> Pfad zum Ordner, in dem die Sets gespeichert werden sollen. Speichert standardmäßig im Stammordner des Unternehmens. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Legt eine Markierung fest, die angibt, ob die Assets veröffentlicht werden sollen oder nicht. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3"> Legt eine Markierung fest, die angibt, ob die Assets veröffentlicht werden sollen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Ein Array von Skripten zur Set-Generierung, die Sie für die hochgeladenen Dateien ausführen können. Siehe <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col2"> <span class="codeph">:AutoSetCreationOptions</span> </td> 
+   <td colname="col3">Ein Array von Skripten zur Satzgenerierung, die Sie für die hochgeladenen Dateien ausführen können. Siehe <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Richten Sie eine automatische E-Mail-Benachrichtigung für den Auftrag ein. </p> </td> 
+   <td colname="col3"> <p>Richten Sie eine automatisierte E-Mail-Benachrichtigung für den Auftrag ein. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**emailSetting Options**
+**emailSetting-Optionen**
 
-Der Parameter `emailSetting` enthält die folgenden Optionen:
+Der `emailSetting` Parameter umfasst die folgenden Optionen:
 
 | Option | Rückgabe |
 |---|---|
 | `All` | Alle Auftragsbenachrichtigungen (Fehler, Warnungen, Abschluss) an den angegebenen Empfänger. |
 | `Error` | Auftragsfehler an den angegebenen Empfänger. |
-| `ErrorAndWarning` | Auftragsfehler und -warnungen an den angegebenen Empfänger. |
-| `JobCompletion` | Eine Benachrichtigung zum Abschluss eines Vorgangs an den angegebenen Empfänger. |
+| `ErrorAndWarning` | Auftragsfehler und Warnungen für den angegebenen Empfänger. |
+| `JobCompletion` | Benachrichtigung über den Abschluss eines Vorgangs an den angegebenen Empfänger. |
 | `None` | Der Auftrag sendet keine Auftragsbenachrichtigungen an den angegebenen Empfänger. |
 
 ## Beispiel {#section-d01ee7671f274a1fa12737e8df91d2cf}

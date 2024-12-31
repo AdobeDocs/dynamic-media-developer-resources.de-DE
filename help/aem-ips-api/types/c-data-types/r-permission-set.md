@@ -20,5 +20,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| PermissionSetHandle | `xsd:string` | Umgang mit einem Berechtigungssatz. |
+| PermissionSetHandle | `xsd:string` | Verarbeiten eines Berechtigungssatzes. |
 | permissionArray | `types:PermissionArray` | Ein Array von Berechtigungen. |

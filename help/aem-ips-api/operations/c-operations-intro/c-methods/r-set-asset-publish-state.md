@@ -1,5 +1,5 @@
 ---
-description: Bestimmt, ob ein Asset veröffentlicht werden kann.
+description: Bestimmt, ob ein Asset zur Veröffentlichung bereit ist.
 solution: Experience Manager
 title: setAssetPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # setAssetPublishState{#setassetpublishstate}
 
-Bestimmt, ob ein Asset veröffentlicht werden kann.
+Bestimmt, ob ein Asset zur Veröffentlichung bereit ist.
 
 Syntax
 
@@ -32,7 +32,7 @@ Syntax
 
 ## Parameter {#section-09d2ba001a2a455a9102550272f3eecb}
 
-**Input (setAssetPublishStateParam)**
+**Eingabe (setAssetPublishStateParam)**
 
 <table id="table_23CB72BFB8984CDF82D7207E7D82FC43"> 
  <thead> 
@@ -48,10 +48,10 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Der Handle für das Unternehmen. </td> 
+   <td colname="col4"> Der Griff zum Unternehmen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> AssetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Asset-Handle. </td> 
@@ -62,13 +62,13 @@ Syntax
    <td colname="col3"> Ja </td> 
    <td colname="col4">Verfügbare Status: 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
-     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> MarkedForPublish</span> </li> 
-     <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
+     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> markedForPublish</span> </li> 
+     <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph">NotMarkedForPublish</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codeausdruck </span> </td> 
+   <td colname="col2"> <span class="codeph"> Code-Satz </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Die IPS-API gibt keine Antwort für diesen Vorgang zurück.
 
 ## Beispiele {#section-c31ead6d0e594317a12c120509527792}
 
-In diesem Codebeispiel wird der Veröffentlichungsstatus eines Assets mit `NotMarkedForPublish` festgelegt.
+Dieses Code-Beispiel legt den Veröffentlichungsstatus eines Assets mithilfe von `NotMarkedForPublish` fest.
 
 **Anfrage**
 

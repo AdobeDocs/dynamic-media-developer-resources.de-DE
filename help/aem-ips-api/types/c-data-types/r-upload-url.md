@@ -23,4 +23,4 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | sourceUrl | `xsd:string` | Die Quell-URL, von der das Asset hochgeladen wird. |
-| destPath | `xsd:string` | Der IPS-Dateipfad und der Name der Datei, in die Sie hochladen möchten. |
+| destPath | `xsd:string` | Der IPS-Dateipfad und der Name der Datei, die Sie hochladen möchten. |

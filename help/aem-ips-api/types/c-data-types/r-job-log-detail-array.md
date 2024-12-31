@@ -1,5 +1,5 @@
 ---
-description: Array von Auftragsprotokolldetails.
+description: Array von Vorgangslog-Details.
 solution: Experience Manager
 title: JobLogDetailArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL JobLogDetailArray]{#joblogdetailarray}
 
-Array von Auftragsprotokolldetails.
+Array von Vorgangslog-Details.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `types:JobLogDetail` | Ein Array von Auftragsprotokolldetails. |
+| Elemente | `types:JobLogDetail` | Ein Array von Vorgangslog-Details. |

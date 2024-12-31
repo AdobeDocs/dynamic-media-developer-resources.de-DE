@@ -1,5 +1,5 @@
 ---
-description: Die Eigenschaften eines PDF-Einstellungsdatei-Assets.
+description: Die Eigenschaften einer PDF-Einstellungsdatei.
 solution: Experience Manager
 title: PdfSettingsInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL PdfSettingsInfo]{#pdfsettingsinfo}
 
-Die Eigenschaften eines PDF-Einstellungsdatei-Assets.
+Die Eigenschaften einer PDF-Einstellungsdatei.
 
 Syntax
 

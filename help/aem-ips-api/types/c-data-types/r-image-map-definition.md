@@ -1,5 +1,5 @@
 ---
-description: Zieldefinition für eine Klickaktion im Browser.
+description: Zieldefinition für eine Klick-Aktion im Browser.
 solution: Experience Manager
 title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageMapDefinition]{#imagemapdefinition}
 
-Zieldefinition für eine Klickaktion im Browser.
+Zieldefinition für eine Klick-Aktion im Browser.
 
 Syntax
 
@@ -23,7 +23,7 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | name | `xsd:string` | Der Name der Imagemap-Definition. |
-| shapeType | `xsd:string` | Einer der Regionsformwerte. |
-| Region | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf den Tag-Attributen HTML `<area>` . |
-| Aktion | `xsd:string` | Andere Attribute, die in das HTML `<area>` -Tag aufgenommen werden sollen, einschließlich der `href`-URL. |
-| aktiviert | `xsd:boolean` | True , wenn die Imagemap aktiviert ist. |
+| formType | `xsd:string` | Einer der Bereichsformwerte. |
+| Region | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf den HTML-`<area>`-Tag-Attributen. |
+| Aktion | `xsd:string` | Andere Attribute, die in das HTML-`<area>`-Tag aufgenommen werden sollen, einschließlich der `href` URL. |
+| aktiviert | `xsd:boolean` | True, wenn die Imagemap aktiviert ist. |

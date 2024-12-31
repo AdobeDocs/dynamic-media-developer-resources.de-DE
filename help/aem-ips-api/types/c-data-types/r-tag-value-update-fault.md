@@ -1,5 +1,5 @@
 ---
-description: Der Fehler, der ausgelöst wird, wenn die Aktualisierung eines Tag-Werts fehlschlägt.
+description: Der Fehler, der ausgelöst wird, wenn eine Aktualisierung des Tag-Werts fehlschlägt.
 solution: Experience Manager
 title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFault]{#tagvalueupdatefault}
 
-Der Fehler, der ausgelöst wird, wenn die Aktualisierung eines Tag-Werts fehlschlägt.
+Der Fehler, der ausgelöst wird, wenn eine Aktualisierung des Tag-Werts fehlschlägt.
 
 Syntax
 
@@ -23,5 +23,5 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | value | `xsd:string` | Tag-Wert, für den die Aktualisierung fehlgeschlagen ist. |
-| Code | `xsd:int` | Fehlercode-Nummer. |
-| Grund | `xsd:string` | Fehlermeldung (Klartext). |
+| Code | `xsd:int` | Fehler-Code-Nummer. |
+| Grund | `xsd:string` | Fehlermeldung (Nur-Text). |

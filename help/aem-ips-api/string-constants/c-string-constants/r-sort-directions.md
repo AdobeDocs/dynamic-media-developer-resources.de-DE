@@ -1,7 +1,7 @@
 ---
 description: Wird von searchAssetsParam/sortDirection und getJobLogsParam/sortDirection verwendet.
 solution: Experience Manager
-title: Sortierrichtung
+title: Sortierrichtungen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0f31d017-3750-43e7-9c86-7c87fb6407a3
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# Sortierrichtung{#sort-directions}
+# Sortierrichtungen{#sort-directions}
 
 Wird von searchAssetsParam/sortDirection und getJobLogsParam/sortDirection verwendet.
 

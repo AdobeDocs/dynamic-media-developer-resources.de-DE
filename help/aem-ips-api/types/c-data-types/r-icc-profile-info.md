@@ -1,5 +1,5 @@
 ---
-description: Eigenschaften eines ICC-Profil-Assets.
+description: Eigenschaften eines ICC-Profil-Assets
 solution: Experience Manager
 title: IccProfileInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL IccProfileInfo]{#iccprofileinfo}
 
-Eigenschaften eines ICC-Profil-Assets.
+Eigenschaften eines ICC-Profil-Assets
 
 Syntax
 

@@ -23,4 +23,4 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | Typ | `xsd:string` | Auswahl des Viewer-Typs. |
-| configSettingArray | `types:ConfigSettingArray` | Array mit Viewer-Konfigurationseinstellungen. |
+| configSettingArray | `types:ConfigSettingArray` | Array der Viewer-Konfigurationseinstellungen. |

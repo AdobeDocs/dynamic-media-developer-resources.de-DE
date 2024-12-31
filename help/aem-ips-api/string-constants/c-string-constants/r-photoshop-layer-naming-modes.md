@@ -1,7 +1,7 @@
 ---
 description: Wird von FotoshopOptions/layerNaming verwendet.
 solution: Experience Manager
-title: Photoshop-Ebenenbenennungsmodi
+title: Benennungsmodi für Photoshop-Ebenen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# Photoshop-Ebenenbenennungsmodi{#photoshop-layer-naming-modes}
+# Benennungsmodi für Photoshop-Ebenen{#photoshop-layer-naming-modes}
 
 Wird von FotoshopOptions/layerNaming verwendet.
 

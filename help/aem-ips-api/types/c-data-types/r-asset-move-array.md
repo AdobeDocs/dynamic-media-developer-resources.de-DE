@@ -1,6 +1,6 @@
 ---
 title: AssetMoveArray
-description: Array von Asset-Bewegungen.
+description: Array von Asset-Verschiebungen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL AssetMoveArray]{#assetmovearray}
 
-Array von Asset-Bewegungen.
+Array von Asset-Verschiebungen.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Elemente | `type:AssetMove` | Array von Asset-Bewegungen. |
+| Elemente | `type:AssetMove` | Array von Asset-Verschiebungen. |

@@ -20,16 +20,16 @@ Syntax
 
 ## Parameter {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**Input (updateAssetSetParam)**
+**Eingabe (updateAssetSetParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das zu ändernde Bildset enthält. |
+| companyHandle | `xsd:string` | Ja | Das Handle für das Unternehmen, das das Bildset enthält, das Sie ändern möchten. |
 | assetHandle | `xsd:string` | Ja | Das Handle für das Bildset, das Sie ändern möchten. |
-| setDefinition | `xsd:string` | Nein | Setzt Bildset-Mitglieder zurück. |
-| thumbAssetHandle | `xsd:string` | Nein | Der Handle des Assets, das als Miniaturansicht für das Bildset dient. |
+| setDefinition | `xsd:string` | Nein | Setzt die Mitglieder des Bildsets zurück. |
+| thumbAssetHandle | `xsd:string` | Nein | Das Handle des Assets, das als Miniatur für das Bildset fungiert. |
 
-**Output (updateAssetSetReturn)**
+**Ausgabe (updateAssetSetReturn)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|

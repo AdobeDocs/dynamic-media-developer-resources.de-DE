@@ -1,5 +1,5 @@
 ---
-description: Veröffentlicht Dateien auf den Image Rendering-Servern.
+description: Veröffentlicht Dateien auf den Image-Rendering-Servern.
 solution: Experience Manager
 title: ImageRenderingPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL ImageRenderingPublishJob]{#imagerenderingpublishjob}
 
-Veröffentlicht Dateien auf den Image Rendering-Servern.
+Veröffentlicht Dateien auf den Image-Rendering-Servern.
 
 Syntax
 
@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| emailSetting | `xsd:string` | Auswahl der E-Mail-Einstellungen. |
-| httpCompletionURL | `xsd:string` | URL zum Senden einer Fertigstellungsbenachrichtigung. |
-| contextHandle | `xsd:string` | Umgang mit dem Veröffentlichungskontext. |
+| emailSetting | `xsd:string` | Auswahl von E-Mail-Einstellungen. |
+| httpCompletionUrl | `xsd:string` | URL zum Senden einer Abschlussbenachrichtigung. |
+| contextHandle | `xsd:string` | Verarbeiten Sie den Veröffentlichungskontext. |

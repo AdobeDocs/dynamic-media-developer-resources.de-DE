@@ -1,5 +1,5 @@
 ---
-description: Beim Hochladen angegebene Optionen. Beeinflusst die Farbverwaltung für den Upload.
+description: Beim Hochladen angegebene Optionen. Wirkt sich darauf aus, wie Farben beim Hochladen verwaltet werden.
 solution: Experience Manager
 title: ColorManagementOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ColorManagementOptions]{#colormanagementoptions}
 
-Beim Hochladen angegebene Optionen. Beeinflusst die Farbverwaltung für den Upload.
+Beim Hochladen angegebene Optionen. Wirkt sich darauf aus, wie Farben beim Hochladen verwaltet werden.
 
 Syntax
 
@@ -22,6 +22,6 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| colorManagement | `xsd:string` | Wahl des Farbmanagementmodus. |
-| sourceProfileHandle | `xsd:string` | Source-Profilhandbuch. |
-| outputProfileHandle | `xsd:string` | Handle für das Ausgabeprofil. |
+| colorManagement | `xsd:string` | Auswahl des Farbmanagementmodus. |
+| sourceProfileHandle | `xsd:string` | Source-Profilhandle. |
+| outputProfileHandle | `xsd:string` | Profil-Handle für die Ausgabe. |

@@ -22,5 +22,5 @@ Syntax
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| Projekt-Handle | `xsd:string` | Projekthandle. |
+| Projekthandler | `xsd:string` | Projekt-Handle. |
 | name | `xsd:string` | Projektname. |
