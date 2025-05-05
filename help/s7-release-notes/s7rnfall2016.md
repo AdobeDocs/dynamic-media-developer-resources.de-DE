@@ -32,11 +32,11 @@ Die neuesten Versionshinweise für [!DNL Adobe Scene7] Herbst 2016 sind Teil der
 
 Adobe freut sich, die Verfügbarkeit der Bereitstellung von Inhalten per HTTP/2 mit dem allgemeinen Vorteil einer verbesserten Leistung bekannt geben zu können.
 
-Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=de#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=de](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=de)
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen**
 
@@ -58,7 +58,7 @@ Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe
 
 ## Viewer (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
 
 **Fehlerbehebungen für Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 ## Viewer (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
 
 **Fehlerbehebungen für Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 ## Viewer (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen für Image Serving 5.5.1**
 

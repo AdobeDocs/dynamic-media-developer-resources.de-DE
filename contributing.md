@@ -58,4 +58,4 @@ Wir freuen uns über jeden Beitrag und prüfen ihn, ob er im öffentlichen Repos
 
 ## Weitere Informationen
 
-Weitere Informationen zur Verwendung der GitHub-Autorenplattform [&#128279;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) Sie im Handbuch für Mitwirkende an Adobe-Dokumenten.
+Weitere Informationen zur Verwendung der GitHub-Autorenplattform [&#128279;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de) Sie im Handbuch für Mitwirkende an Adobe-Dokumenten.

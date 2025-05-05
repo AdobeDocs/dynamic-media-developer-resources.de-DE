@@ -53,7 +53,7 @@ ExportJob unterstützt nicht die folgenden Asset-Typen:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Gibt die Rendering</span>URL-Zeichenfolge des <span class="codeph"> ImageServer an, die an die Anfrage „ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html">-Modifikatoren finden </a> in der Dokumentation zu IIS. </p> </td> 
+   <td colname="col3"> <p>Gibt die Rendering</span>URL-Zeichenfolge des <span class="codeph"> ImageServer an, die an die Anfrage „ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=de" scope="external" format="html">-Modifikatoren finden </a> in der Dokumentation zu IIS. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

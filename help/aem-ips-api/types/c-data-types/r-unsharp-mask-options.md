@@ -92,4 +92,4 @@ Der `unsharpMaskOptions` wird verwendet von:
 
 >[!MORELIKETHIS]
 >
->* [Image-Serving-API-Referenz: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+>* [Image-Serving-API-Referenz: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=de)
