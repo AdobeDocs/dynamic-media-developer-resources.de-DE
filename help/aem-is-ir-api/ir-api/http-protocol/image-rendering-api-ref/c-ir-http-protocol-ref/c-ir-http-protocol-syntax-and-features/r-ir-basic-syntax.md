@@ -46,7 +46,7 @@ In diesem Abschnitt wird die Grundsyntax des Dynamic Media Image Rendering HTTP-
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">-</span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> Wert</span> ] </p> </td> 
+   <td colname="col2"> <p>&lbrace; <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> Wert</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p></span> <span class="varname"> </p> </td> 

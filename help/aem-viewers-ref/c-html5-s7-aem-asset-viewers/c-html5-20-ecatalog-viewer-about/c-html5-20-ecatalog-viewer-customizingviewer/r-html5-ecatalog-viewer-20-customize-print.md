@@ -328,7 +328,7 @@ Die Fußzeile des Dialogfelds besteht aus den Schaltflächen Abbrechen und An Dr
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
+**CSS-Eigenschaften des &#x200B;** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -644,7 +644,7 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit dem folgenden CS
 
 Diese Klasse ist nicht zur Steuerung der Größe oder Position der Beschriftung geeignet, da Sie sie auf Texte an verschiedenen Stellen in der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbezeichnung. **
+**CSS-Eigenschaften der Dialogfeldbezeichnung. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

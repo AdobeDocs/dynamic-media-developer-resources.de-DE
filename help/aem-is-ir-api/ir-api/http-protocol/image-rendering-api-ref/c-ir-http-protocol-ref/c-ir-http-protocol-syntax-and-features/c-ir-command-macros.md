@@ -18,7 +18,7 @@ Befehlsmakros bieten benannte Tastaturbefehle für Befehlssätze.
 
 `$ *[!DNL name]*$`
 
-** *[!DNL name]* ** Makronamen
+**&#x200B; *[!DNL name]* &#x200B;** Makronamen
 
 Makros werden in separaten Makrodefinitionsdateien definiert, die an Materialkataloge oder den Standardkatalog angehängt werden können.
 

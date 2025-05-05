@@ -28,25 +28,25 @@ Während `text=` für einfache Anwendungen etwas einfacher zu bedienen sein mag,
 
 Die folgenden Beispiele sind für Text in vorab festgelegter Größe. Das Verhalten bei der Größenanpassung von Text ist anders.
 
-** `Text=` bietet immer einen schmalen Rand oben:**
+**&#x200B; `Text=` bietet immer einen schmalen Rand oben:**
 
 ![Beispiel für Textpositionierung mit einem Bild](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` rendert Text eng am oberen Rand des Textfelds, was zu einem leichten Abschneiden führt, selbst für gängige Schriftarten wie Arial®:**
+**&#x200B; `textPs=` rendert Text eng am oberen Rand des Textfelds, was zu einem leichten Abschneiden führt, selbst für gängige Schriftarten wie Arial®:**
 
 ![Beispiel für Textpositionierung, Bild zwei](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` verschiebt gerenderten Text automatisch nach unten, um das Zuschneiden zu vermeiden:**
+**&#x200B; `text=` verschiebt gerenderten Text automatisch nach unten, um das Zuschneiden zu vermeiden:**
 
 ![Beispiel für Textpositionierung - drei Bilder](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` verschiebt keinen Text mit erhabenen Bereichen, was zu einem erheblichen Zuschnitt führt, wenn der Text auf Ebene 0:** liegt
+**&#x200B; `textPs=` verschiebt keinen Text mit erhabenen Bereichen, was zu einem erheblichen Zuschnitt führt, wenn der Text auf Ebene 0:** liegt
 
 ![Beispiel für Textpositionierung - vier Bilder](assets/tp04.png)
 

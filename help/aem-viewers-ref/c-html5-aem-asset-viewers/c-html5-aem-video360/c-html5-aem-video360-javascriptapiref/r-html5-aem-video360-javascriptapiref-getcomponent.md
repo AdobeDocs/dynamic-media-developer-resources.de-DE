@@ -97,7 +97,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
 
 Bei der Arbeit mit SDK-APIs ist es wichtig, den richtigen, vollständig qualifizierten SDK-Namespace zu verwenden, wie in [Viewer-SDK-Namespace](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621) beschrieben.
 
-Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur *-Viewer-SDK-API für* HTML5}.
+Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur *-Viewer-SDK-API für* HTML5&rbrace;.
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

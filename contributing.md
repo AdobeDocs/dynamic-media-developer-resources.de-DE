@@ -42,7 +42,7 @@ Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach
 
 Wenn Sie ein Problem sehen und genau wissen, wie es behoben werden kann, sollten Sie eine Pull-Anfrage erstellen. Mithilfe von Pull-Anfragen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, die dann von einem Mitglied des Dokumentations-Teams zur Aufnahme geprüft werden. Um die vorgeschlagenen Änderungen vorzunehmen und die Pull-Anfrage zu erstellen **wählen Sie &quot;** bearbeiten“ oben im rechten Navigationsbereich auf einer beliebigen Seite aus.
 
-Allen Pull-Anforderungen muss eine unterzeichnete Lizenzvereinbarung [ Mitwirkende oder CLA beigefügt sein](https://opensource.adobe.com/cla.html. Dieser Prozess gibt Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu verteilen. Senden Sie eine Adobe-CLA nur einmal. Wenn Sie bereits eine eingereicht haben, sind Sie bereit zu gehen!
+Allen Pull-Anforderungen muss eine unterzeichnete Lizenzvereinbarung [ Mitwirkende oder CLA beigefügt sein] (https://opensource.adobe.com/cla.html. Dieser Prozess gibt Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu verteilen. Senden Sie eine Adobe-CLA nur einmal. Wenn Sie bereits eine eingereicht haben, sind Sie bereit zu gehen!
 
 ### Schnelle Videoeinführung
 
@@ -58,4 +58,4 @@ Wir freuen uns über jeden Beitrag und prüfen ihn, ob er im öffentlichen Repos
 
 ## Weitere Informationen
 
-Weitere Informationen zur Verwendung der GitHub-Autorenplattform ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) Sie im [Handbuch für Mitwirkende an Adobe-Dokumenten.
+Weitere Informationen zur Verwendung der GitHub-Autorenplattform [&#128279;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) Sie im Handbuch für Mitwirkende an Adobe-Dokumenten.

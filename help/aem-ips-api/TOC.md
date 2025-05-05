@@ -16,9 +16,9 @@ ht-degree: 3%
 + [Über die Dynamic Media Image Production System-API](c-overview.md)
 + [Veraltete Aufrufe](c-deprecated-calls.md)
 + [WSDL-Versionen des IPS-Webdienstes](c-wsdl-versions.md)
-+ {#operation-methods} der Betriebsmethoden
++ der Betriebsmethoden{#operation-methods}
    + [Betriebsmethoden](operations/c-operations-intro/c-operations-intro.md)
-   + {#operation-parameters} der Betriebsparameter
+   + der Betriebsparameter{#operation-parameters}
       + [Übersicht über Betriebsparameter](operations/c-operations-intro/c-methods/c-methods.md)
       + [Firma hinzufügen](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMitgliedschaft](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -443,7 +443,7 @@ ht-degree: 3%
    + [Authentifizierungsfehler](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ {#change-log} ändern
++ ändern{#change-log}
    + [Änderungsprotokoll](change-log/c-change-log.md)
    + Version 6.0 {#version-6-0}
       + [Version 6.0](change-log/c-change-log/c-6/c-6.md)
