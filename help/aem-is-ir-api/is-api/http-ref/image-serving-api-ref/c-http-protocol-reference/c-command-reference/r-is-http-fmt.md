@@ -25,27 +25,27 @@ Format des Antwortbildes.
 | `avif-alpha` | Verlust- und verlustfreies AVIF mit Alphakanal. |
 | `avif` | Verlustbehaftete und verlustfreie AVIF. |
 | `eps` | Unkomprimierte binär verkapselte PostScript. |
-| `f4m` | Flash-Streaming-Server-Manifestformat. |
+| `f4m` | Manifestformat des Flash-Streaming-Servers. |
 | `gif-alpha` | GIF mit 2 bis 255 Farben plus Key-Color-Transparenz. |
 | `gif` | GIF mit 2 bis 256 Farben. |
 | `heic` | Verlustfreie HEIC. Dieses Format wird standardmäßig vom Browser heruntergeladen, wenn es nicht unterstützt wird. |
-| `jpeg` | Verlustbehaftetes JPEG. |
-| `jpeg2000-alpha` | Verlustbehaftete und verlustfreie JPEG 2000 mit Alphakanal. |
-| `jpeg2000` | Verlustbehaftete und verlustfreie JPEG 2000. |
-| `jpegxr-alpha` | Verlustbehaftete und verlustfreie JPEG XR mit Alphakanal. |
+| `jpeg` | Verlorene JPEG. |
+| `jpeg2000-alpha` | Verlustbehaftetes und verlustfreies JPEG 2000 mit Alphakanal. |
+| `jpeg2000` | Verlustbehaftetes und verlustfreies JPEG 2000. |
+| `jpegxr-alpha` | Verlorene und verlustfreie JPEG XR mit Alphakanal. |
 | `jpegxr` | Verlustbehaftetes und verlustfreies JPEG XR. |
-| `jpg` | Verlustbehaftete JPG. |
+| `jpg` | Verlorene JPG. |
 | `m3u8` | Apple-Streaming-Server-Manifestformat. |
-| `pdf` | Bild eingebettet in PDF. |
-| `pjpeg` | Progressives JPEG. |
+| `pdf` | In PDF eingebettetes Bild. |
+| `pjpeg` | Progressive JPEG. |
 | `png-alpha` | 24-Bit-verlustfreies PNG mit Alphakanal. |
 | `png` | 24-Bit-verlustfreies PNG. |
 | `png8-alpha` | 8-Bit-verlustfreies PNG mit Alphakanal. |
 | `png8` | 8-Bit-verlustfreies PNG. |
-| `swf-alpha` | Verlustbehaftetes JPEG und eine Deflate-komprimierte Maske, eingebettet in eine Adobe AS2 SWF-Datei. |
-| `swf` | Verlorene JPEG eingebettet in eine Adobe AS2 SWF-Datei. |
-| `swf3-alpha` | Verlustbehaftetes JPEG und eine Deflate-komprimierte Maske, eingebettet in eine Adobe AS3 SWF-Datei. **Hinweis:** swf- und swf-alpha-Formate eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). Die Formate swf3 und swf3-alpha werden für ActionScript3-Anwendungen (Flash Player 9 und höher) empfohlen. |
-| `swf3` | Verlorene JPEG eingebettet in eine Adobe AS3 SWF-Datei. |
+| `swf-alpha` | Eine verlustbehaftete JPEG und eine Deflate-komprimierte Maske, die in eine Adobe AS2-SWF-Datei eingebettet sind. |
+| `swf` | Verlorene JPEG in eine Adobe AS2-SWF-Datei eingebettet. |
+| `swf3-alpha` | Eine verlustbehaftete JPEG und eine Deflate-komprimierte Maske, die in eine Adobe AS3-SWF-Datei eingebettet sind. **Hinweis:** SWF- und SWF-Alpha-Formate eignen sich am besten für ActionScript 2-Anwendungen (Flash Player 8 und früher). Die Formate swf3 und swf3-alpha werden für ActionScript3-Anwendungen (Flash Player 9 und höher) empfohlen. |
+| `swf3` | Verlorene JPEG in eine Adobe AS3-SWF-Datei eingebettet. |
 | `tif-alpha` | TIFF mit Alphakanal. |
 | `tif` | TIFF. |
 | `webp-alpha` | Verlorenes und verlustfreies WebP mit Alphakanal. |
@@ -63,7 +63,7 @@ Format des Antwortbildes.
 
 | *`compression`* | Beschreibung |
 |---|---|
-| `jpeg` | JPEG-Komprimierung (verlustbehaftet) |
+| `jpeg` | JPEG-Komprimierung (verlustreich). |
 | `lossy` | JPEG 2000 und JPEG XR-Komprimierung (verlustbehaftet) und WebP. |
 | `lossless` | HEIC, JPEG 2000 und JPEG XR-Komprimierung (verlustfrei) und WebP. |
 | `lzw` | LZW (Lempel-Ziv-Welch) Kompression (verlustfrei). |
@@ -168,7 +168,7 @@ In der folgenden Tabelle sind die gültigen Kombinationen von *`format`* und *`p
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>RGB, grau </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nein </p> <p> <p>Hinweis: Die Adobe-Flash Player ignoriert eingebettete ICC-Profile. </p> </p> </td> 
+   <td colname="col4"> <p>Nein </p> <p> <p>Hinweis: Der Adobe Flash Player ignoriert eingebettete ICC-Profile. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> Attribut::TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -196,7 +196,7 @@ Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angew
 
 ## Standard {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, bei dem die *`defaultType`* wie folgt behandelt wird: Wenn `icc=` angegeben ist, entspricht *`defaultType`* dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, wird *`defaultType`* bei `req=mask` `gray`, andernfalls `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, bei dem die *`defaultType`* wie folgt behandelt wird: Wenn `icc=` angegeben ist, entspricht *`defaultType`* dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, wird *`defaultType`* bei `gray` `req=mask`, andernfalls `rgb`.
 
 ## Beispiele {#section-b93222e652df404a84c69025247f07df}
 
@@ -212,7 +212,7 @@ Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angew
 
 ` http:// *`server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**Anfordern des Alphakanals für dasselbe Bild wie ein Graustufen-TIFF-Bild:**
+**Fordern Sie den Alphakanal für dasselbe Bild wie ein TIFF-Graustufenbild an:**
 
 ` http:// *`server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
@@ -228,7 +228,7 @@ Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angew
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Konvertieren Sie das Bild in eine zweifarbige GIF mit Schlüsselfarbtransparenz und erzwingen Sie Farben in Schwarzweiß:**
+**Konvertieren Sie das Bild in ein zweifarbiges GIF mit Schlüsselfarbtransparenz und erzwingen Sie Farben in Schwarzweiß:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

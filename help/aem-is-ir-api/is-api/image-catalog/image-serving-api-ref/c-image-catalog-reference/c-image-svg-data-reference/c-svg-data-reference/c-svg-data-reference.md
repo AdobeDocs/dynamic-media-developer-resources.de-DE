@@ -1,5 +1,5 @@
 ---
-description: In diesem Abschnitt werden die SVG-Datenattribute beschrieben.
+description: In diesem Abschnitt werden die Datenattribute von SVG beschrieben.
 solution: Experience Manager
 title: SVG-Datenreferenz
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # SVG-Datenreferenz{#svg-data-reference}
 
-In diesem Abschnitt werden die SVG-Datenattribute beschrieben.
+In diesem Abschnitt werden die Datenattribute von SVG beschrieben.
 
 * [Ablauf](r-expiration-svg.md)
 * [Id](r-id-svg.md)

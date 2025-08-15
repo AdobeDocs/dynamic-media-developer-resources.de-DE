@@ -20,7 +20,7 @@ Text-auf-Pfad-Attribute.
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> </span> <span class="varname"> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph">-</span> | <span class="codeph">-</span> </p> </td> 
  </tr> 
  <tr class="strow"> 

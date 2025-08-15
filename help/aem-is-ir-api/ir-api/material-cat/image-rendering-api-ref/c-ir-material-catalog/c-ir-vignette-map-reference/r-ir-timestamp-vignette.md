@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,11 @@ Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*&#x200B;GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* liegt im Bereich von 0-23.
 * *[!DNL zzz]* ist ein drei- oder vierstelliger Zeitzonencode wie „GMT“ oder „PST“. Die Sommerzeit muss im Zeitzonencode berücksichtigt werden (z. B. „PST“ für Pacific Standard Time im Vergleich zu „PDT“ für Pacific Daylight Savings Time).
-* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten, relativ zu GMT. „PDT“ entspricht beispielsweise „GMT -7“.
+* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:minutes relativ zum GMT. „PDT“ entspricht beispielsweise „GMT -7“.
 
 Alle Elemente von zeichenfolgenformatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei [!DNL *[!DNL catalog]*.ini] verwendet.
 

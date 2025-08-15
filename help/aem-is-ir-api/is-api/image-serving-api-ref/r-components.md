@@ -1,6 +1,6 @@
 ---
 title: Image-Serving-Komponenten
-description: Dynamic Media Image Serving besteht aus den folgenden Komponenten.
+description: Die Dynamic Media-Bildbereitstellung besteht aus den folgenden Komponenten.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Image-Serving-Komponenten{#image-serving-components}
 
-Dynamic Media Image Serving umfasst die folgenden Komponenten:
+Die Dynamic Media-Bildbereitstellung besteht aus den folgenden Komponenten:
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -53,11 +53,11 @@ Dynamic Media Image Serving umfasst die folgenden Komponenten:
    <td colname="col2"> <p>Eine oder mehrere Instanzen des Text-Rendering-Services können aktiv sein, wenn <span class="codeph"> Vorgänge des Typs textPs=</span> ausgeführt werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SVG-Render-Komponente </p> </td> 
+   <td colname="col1"> <p>SVG Render-Komponente </p> </td> 
    <td colname="col2"> <p>Eigenständige Java™-Anwendung (nicht von Tomcat gehostet) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media Image Rendering (auch: Render-Server) </p> </td> 
+   <td colname="col1"> <p>Dynamic Media Image Rendering (auch bekannt als Render-Server) </p> </td> 
    <td colname="col2"> <p>Zur Aktivierung ist eine separate Lizenz erforderlich. HTTP-Zugriff unter <span class="filepath"> /ir/render</span>. Alle Image-Rendering-Funktionen sind in die [!DNL Platform Server] und den Image-Server integriert, ohne separate ausführbare Komponenten. </p> </td> 
   </tr> 
  </tbody> 

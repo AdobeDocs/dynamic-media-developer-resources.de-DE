@@ -25,7 +25,7 @@ Source-Objektbezeichner. Bild-, SVG- und ICC-Profilobjekte können als Bildkatal
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId </span> </span> </p> </td> 
-  <td class="stentry"> <p>ID des Bild-, SVG-, Vorlagen- oder ICC-Profildatensatzes im angegebenen, Haupt- oder Standardbildkatalog </p> </td> 
+  <td class="stentry"> <p>Kennung des Bildes, SVG, der Vorlage oder des ICC-Profildatensatzes im angegebenen, Haupt- oder Standardbildkatalog </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Pfad </span> </span> </p> </td> 
@@ -59,7 +59,7 @@ Unter *Verwalten von Inhalten* im *Server-Konfigurationshandbuch* finden Sie Ein
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Beschreibung des Dienstprogramms IC (Image Converter) .
 
-Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, erzielen die besten Ergebnisse, wenn das Dynamic Media Pyramid TIFF (PTIF)-Multiauflösungsformat verwendet wird. Das IC-Dienstprogramm wird verwendet, um PTIF-Bilder aus einem beliebigen unterstützten Bildformat zu erstellen.
+Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, erzielen die besten Ergebnisse, wenn das PTIF-Format (Dynamic Media Pyramid TIFF) mit mehreren Auflösungen verwendet wird. Das IC-Dienstprogramm wird verwendet, um PTIF-Bilder aus einem beliebigen unterstützten Bildformat zu erstellen.
 
 ## Beispiele {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

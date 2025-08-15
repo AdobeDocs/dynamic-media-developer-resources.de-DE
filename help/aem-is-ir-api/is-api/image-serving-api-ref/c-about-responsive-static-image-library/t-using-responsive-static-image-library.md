@@ -18,7 +18,7 @@ Um einer Web-Seite die Bibliothek „Responsive Image“ hinzuzufügen und vorha
 
 **So verwenden Sie die Bibliothek responsiver Bilder**
 
-1. Erstellen Sie [ Dynamic Media Classic eine Bildvorgabe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=de#image-sizing) falls Sie die Bibliothek für responsive Bilder mit Vorgaben verwenden möchten.
+1. Erstellen Sie [ Dynamic Media Classic eine Bildvorgabe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) falls Sie die Bibliothek für responsive Bilder mit Vorgaben verwenden möchten.
 
    Verwenden Sie beim Definieren von Bildvorgaben, die mit der Bibliothek für responsive Bilder verwendet werden, keine Einstellungen wie `wid=`, `hei=` oder `scl=`, die die Bildgröße beeinflussen. Geben Sie in der Bildvorgabe keine Größenfelder an. Lassen Sie sie stattdessen als leere Werte.
 1. Fügen Sie die JavaScript-Bibliotheksdatei zu Ihrer Webseite hinzu.
@@ -30,7 +30,7 @@ Um einer Web-Seite die Bibliothek „Responsive Image“ hinzuzufügen und vorha
 
    Die -Bibliothek liest bestimmte Konfigurationsattribute aus einer Bildinstanz, mit der sie arbeitet. Definieren Sie Attribute, bevor die `s7responsiveImage`-API-Funktion für ein solches Bild aufgerufen wird.
 
-   Es wird auch empfohlen, die vorhandene Bild-URL in das `data-src`-Attribut einzufügen. Richten Sie dann das vorhandene `src` so ein, dass ein 1x1-GIF-Bild als Daten-URI kodiert ist. Dadurch wird die Anzahl der HTTP-Anfragen reduziert, die von der Web-Seite zum Ladezeitpunkt gesendet werden. Beachten Sie jedoch, dass es bei Bedarf an SEO (Suchmaschinenoptimierung) besser ist, ein `title` Attribut in der Bildinstanz einzurichten.
+   Es wird auch empfohlen, die vorhandene Bild-URL in das `data-src`-Attribut einzufügen. Richten Sie dann das vorhandene `src` so ein, dass ein 1x1-GIF-Bild als Daten-URI codiert ist. Dadurch wird die Anzahl der HTTP-Anfragen reduziert, die von der Web-Seite zum Ladezeitpunkt gesendet werden. Beachten Sie jedoch, dass es bei Bedarf an SEO (Suchmaschinenoptimierung) besser ist, ein `title` Attribut in der Bildinstanz einzurichten.
 
    Im Folgenden finden Sie ein Beispiel für die Definition `data-breakpoints` Attributs für das Bild und die Verwendung einer 1x1-GIF, die als Daten-URI kodiert ist:
 
@@ -85,7 +85,7 @@ Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite m
 
 **Verwenden von smartem Zuschneiden**
 
-In AEM 6.4 und Dynamic Media Viewer 5.9 stehen zwei Modi für smartes Zuschneiden zur Verfügung:
+In AEM 6.4 und Dynamic Media Viewers 5.9 stehen zwei Modi für smartes Zuschneiden zur Verfügung:
 
 * **Manuell** - Benutzerdefinierte Haltepunkte und entsprechende Bilddienstbefehle werden in einem -Attribut im Bildelement definiert.
 * **Smartes Zuschneiden** - Berechnete Ausgabedarstellungen für smartes Zuschneiden werden automatisch vom Versandserver abgerufen. Die beste Ausgabedarstellung wird anhand der Laufzeitgröße des Bildelements ausgewählt.

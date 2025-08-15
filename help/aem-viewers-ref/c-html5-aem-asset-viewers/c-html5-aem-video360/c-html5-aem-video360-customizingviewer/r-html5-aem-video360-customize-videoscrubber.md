@@ -150,7 +150,7 @@ Der folgende CSS-Klassenselektor steuert die wiedergegebene Zeitblase:
    <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
    <td colname="col2"> <p>Ausrichtung des Textes am Blasenbereich. </p> </td> 
   </tr> 
  </tbody> 

@@ -120,7 +120,7 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
   <td class="stentry"> <p>Standardmäßige erweiterte Render-Einstellungen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p></a> der <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> der </a> </p></td> 
   <td class="stentry"> <p>Standardmäßige Textur-/Abziehbildauflösung. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -171,7 +171,7 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRGB-</a> </p></td> 
-  <td class="stentry"> Standardfarbprofil der RGB-Ausgabe.</td> 
+  <td class="stentry"> Standardfarbprofil für die RGB-Ausgabe.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk-</a> </p></td> 

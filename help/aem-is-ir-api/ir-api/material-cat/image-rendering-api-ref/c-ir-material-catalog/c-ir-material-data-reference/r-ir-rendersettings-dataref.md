@@ -18,7 +18,7 @@ Erweiterte Render-Einstellungen. Erweiterte Render-Einstellungen werden verwende
 
 ## Eigenschaften {#section-b4c8fe595efc4838ac598659bc820607}
 
-Text-String Optional für alle Materialien. Wenn angegeben, muss es sich um eine gültige Render-Einstellungs-Zeichenfolge handeln, wie mit dem Vignette Authoring Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
+Text-String Optional für alle Materialien. Wenn angegeben, muss es sich um eine gültige Zeichenfolge für Render-Einstellungen handeln, wie mit dem Vignette Authoring Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
 
 ## Standard {#section-6a4d2013c1d34284b4ff21bb07485d28}
 

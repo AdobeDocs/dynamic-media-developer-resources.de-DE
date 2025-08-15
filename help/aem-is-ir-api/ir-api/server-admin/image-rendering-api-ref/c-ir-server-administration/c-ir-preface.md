@@ -1,5 +1,5 @@
 ---
-description: In dieser Dokumentation werden Probleme mit der Serververwaltung erläutert und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
+description: In dieser Dokumentation werden Probleme mit der Serververwaltung erläutert und die Konfigurationseinstellungen für das Dynamic Media-Bild-Rendering beschrieben.
 solution: Experience Manager
 title: Server-Administrations-Vorwort
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Server-Administrations-Vorwort{#server-administration-preface}
 
-In dieser Dokumentation werden Probleme mit der Serververwaltung erläutert und die Konfigurationseinstellungen für das Dynamic Media Image Rendering beschrieben.
+In dieser Dokumentation werden Probleme mit der Serververwaltung erläutert und die Konfigurationseinstellungen für das Dynamic Media-Bild-Rendering beschrieben.
 
 **Vorgesehene Zielgruppe**
 
-Diese Dokumentation richtet sich an Systemadministratoren und Webmaster, die das Dynamic Media Image Rendering installieren, konfigurieren und verwalten müssen.
+Diese Dokumentation richtet sich an Systemadministratoren und Webmaster, die Dynamic Media Image Rendering installieren, konfigurieren und verwalten müssen.
 
 **Dokumentkonventionen**
 

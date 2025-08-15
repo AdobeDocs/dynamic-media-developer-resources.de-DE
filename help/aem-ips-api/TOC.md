@@ -6,7 +6,7 @@ user-guide-description: Die IPS (Image Production System)-Webservice-API ermögl
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 3%
 + [Über die Dynamic Media Image Production System-API](c-overview.md)
 + [Veraltete Aufrufe](c-deprecated-calls.md)
 + [WSDL-Versionen des IPS-Webdienstes](c-wsdl-versions.md)
-+ der Betriebsmethoden{#operation-methods}
++ Operationsmethoden {#operation-methods}
    + [Betriebsmethoden](operations/c-operations-intro/c-operations-intro.md)
-   + der Betriebsparameter{#operation-parameters}
+   + Betriebsparameter {#operation-parameters}
       + [Übersicht über Betriebsparameter](operations/c-operations-intro/c-methods/c-methods.md)
       + [Firma hinzufügen](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMitgliedschaft](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -425,10 +425,10 @@ ht-degree: 3%
    + [Benennungsmodi für Photoshop-Ebenen](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript-Farbraummodi](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Profilklassen](string-constants/c-string-constants/r-profile-classes.md)
-   + [Staat Publish](string-constants/c-string-constants/r-publish-state.md)
+   + [Veröffentlichungsstatus](string-constants/c-string-constants/r-publish-state.md)
    + [Eigenschaftssatztypen](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publish-Kontext](string-constants/c-string-constants/r-publish-context.md)
-   + [Publish-Typen](string-constants/c-string-constants/r-publish-types.md)
+   + [Veröffentlichungskontext](string-constants/c-string-constants/r-publish-context.md)
+   + [Veröffentlichungstypen](string-constants/c-string-constants/r-publish-types.md)
    + [Bereichsform](string-constants/c-string-constants/r-region-shape.md)
    + [Match-Modus suchen](string-constants/c-string-constants/r-search-match-modes.md)
    + [Sortierrichtungen](string-constants/c-string-constants/r-sort-directions.md)
@@ -443,7 +443,7 @@ ht-degree: 3%
    + [Authentifizierungsfehler](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ ändern{#change-log}
++ Änderungsprotokoll {#change-log}
    + [Änderungsprotokoll](change-log/c-change-log.md)
    + Version 6.0 {#version-6-0}
       + [Version 6.0](change-log/c-change-log/c-6/c-6.md)

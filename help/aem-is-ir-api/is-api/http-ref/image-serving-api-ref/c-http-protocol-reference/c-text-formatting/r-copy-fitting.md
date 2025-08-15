@@ -46,7 +46,7 @@ Bei den folgenden Beispielen wird davon ausgegangen, dass Textkörper mit Variab
 
 `{\copyfit100\fs10 $A${\fs20 $B$}$C$}`
 
-Am kleinsten Ende des Bereichs wird *[!DNL $B$]* mit `\fs20` gerendert, die doppelt so groß wie *[!DNL $A$]* sind und `\fs10` *[!DNL $C$]*. Der gesamte Text wird am gegenüberliegenden Ende des Bereichs in `\fs100` (50 Punkte) gezeichnet.
+Am kleinsten Ende des Bereichs wird *[!DNL $B$]* mit `\fs20` gerendert, die doppelt so groß wie *[!DNL $A$]* sind und *[!DNL $C$]* `\fs10`. Der gesamte Text wird am gegenüberliegenden Ende des Bereichs in `\fs100` (50 Punkte) gezeichnet.
 
 **Konvertieren Sie in eine gemeinsame kleine Schriftgröße, wenn ein großer Teil des Textes gerendert werden soll:**
 

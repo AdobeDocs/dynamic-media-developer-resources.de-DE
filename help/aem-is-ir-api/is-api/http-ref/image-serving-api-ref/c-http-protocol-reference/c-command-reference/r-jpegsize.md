@@ -25,7 +25,7 @@ JPEG-Größe in Kilobyte. Gibt die Maximalgröße der JPEG-Antwort in Kilobyte a
  </tr> 
 </table>
 
-Wenn dieser Wert positiv ist und die JPEG-Antwort mit der angegebenen JPEG-Qualität diesen Wert nicht überschreitet, wird dieses Bild als Antwort zurückgegeben. Andernfalls sinkt die JPEG-Qualität, bis entweder ein Bild erzeugt wird, das der angegebenen Größe entspricht, oder bis festgestellt wird, dass es nicht mehr passt. Im zweiten Fall schlägt die Anfrage mit einem Fehler fehl.
+Wenn dieser Wert auf einen positiven Wert festgelegt ist und die JPEG-Antwort mit der angegebenen JPEG-Qualität diesen Wert nicht überschreitet, wird dieses Bild als Antwort zurückgegeben. Andernfalls verringert sich die JPEG-Qualität, bis entweder ein Bild erzeugt wird, das der angegebenen Größe entspricht, oder bis festgestellt wird, dass es nicht mehr passt. Im zweiten Fall schlägt die Anfrage mit einem Fehler fehl.
 
 Der Wert 0 bedeutet, dass die Antwort nicht durch die Größe beschränkt ist.
 

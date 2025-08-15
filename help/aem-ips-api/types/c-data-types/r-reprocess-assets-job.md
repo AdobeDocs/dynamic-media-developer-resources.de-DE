@@ -1,5 +1,5 @@
 ---
-description: Vorgangstyp, um die Neuverarbeitung zuvor hochgeladener Primärdateien zu ermöglichen, einschließlich Neukomprimierung von PDF und Neuoptimierung von Bildern.
+description: Vorgangstyp, um die Neuverarbeitung zuvor hochgeladener Primärdateien zu ermöglichen, einschließlich Neukomprimierung von PDFs und Neuoptimierung von Bildern.
 solution: Experience Manager
 title: AssetsJob neu verarbeiten
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Vorgangstyp, um die Neuverarbeitung zuvor hochgeladener Primärdateien zu ermöglichen, einschließlich Neukomprimierung von PDF und Neuoptimierung von Bildern.
+Vorgangstyp, um die Neuverarbeitung zuvor hochgeladener Primärdateien zu ermöglichen, einschließlich Neukomprimierung von PDFs und Neuoptimierung von Bildern.
 
 Syntax
 
@@ -152,7 +152,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unSharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph">:UnSharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen für Unschärfemasken beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=de"> UnschärfemaskenOptionen</a>. </p> </td> 
+   <td colname="col3"> <p>Optionen, mit denen Sie die Einstellungen für Unschärfemasken beim Erstellen einer optimierten Pyramid TIF-Datei steuern können. Verwenden Sie diese Einstellungen, um die Bildschärfe zu verbessern. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnschärfemaskenOptionen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

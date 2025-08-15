@@ -27,7 +27,7 @@ Konfigurationsattribut für Video360-Viewer.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> als <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> als <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> wie <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> Dieser Modifikator funktioniert für Videoinhalte, die auf Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media gehostet werden. </p> <p>Um die Anzeige des standardmäßigen Posterbildes zu verhindern, geben Sie <span class="codeph"> Wert none</span> als Wert für das Posterbild an. </p> </td> 
+     </ul> </p> <p> Dieser Modifikator funktioniert für Videoinhalte, die auf Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media, gehostet werden. </p> <p>Um die Anzeige des standardmäßigen Posterbildes zu verhindern, geben Sie <span class="codeph"> Wert none</span> als Wert für das Posterbild an. </p> </td> 
   </tr> 
  </tbody> 
 </table>

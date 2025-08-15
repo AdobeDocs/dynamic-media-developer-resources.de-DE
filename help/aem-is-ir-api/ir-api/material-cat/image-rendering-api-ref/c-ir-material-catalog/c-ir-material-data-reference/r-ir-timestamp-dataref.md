@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Datums-/Uhrzeitwert im Java™-Format. Dies kann entweder die ganzzahlige Anzahl
 
 * *[!DNL hh]* liegt im Bereich von 0-23.
 * *[!DNL zzz]* ist ein drei- oder vierstelliger Zeitzonencode wie „GMT“ oder „PST“. Die Sommerzeit muss im Zeitzonen-Code berücksichtigt werden. Beispiel: „PST“ für Pacific Standard Time im Vergleich zu „PDT“ für Pacific Daylight Saving Time.
-* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten, relativ zu GMT. „PDT“ entspricht beispielsweise „GMT -7“.
+* *[!DNL offset]* ist ein Zeitzonenversatz in Stunden oder Stunden:minutes relativ zum GMT. „PDT“ entspricht beispielsweise „GMT -7“.
 
 Alle Elemente von zeichenfolgenformatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei *catalog*.ini verwendet.
 

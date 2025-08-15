@@ -21,7 +21,7 @@ Hintergrundfarbe anzeigen. Gibt die Hintergrundfarbe für das zusammengesetzte B
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Farbe</span></span> </p> </td> 
-  <td class="stentry"> <p>Grau-, RGB- oder CMYK-Farbwert. </p></td> 
+  <td class="stentry"> <p>Farbwert Grau, RGB oder CMYK. </p></td> 
  </tr> 
 </table>
 

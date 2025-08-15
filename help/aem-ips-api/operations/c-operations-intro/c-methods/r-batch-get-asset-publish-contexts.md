@@ -43,7 +43,7 @@ Syntax
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Übernehmen Sie die Firma. |
-| assetHandleArray | ` `types:HandleArray“ | Ja | Eine Liste der Assets, die Sie nach aktiven (für die Veröffentlichung markierten) Kontexten abfragen möchten. |
+| assetHandleArray | ` `types:HandleArray&quot; | Ja | Eine Liste der Assets, die Sie nach aktiven (für die Veröffentlichung markierten) Kontexten abfragen möchten. |
 
 **Ausgabe (batchGetAssetPublishContextsReturn)**
 

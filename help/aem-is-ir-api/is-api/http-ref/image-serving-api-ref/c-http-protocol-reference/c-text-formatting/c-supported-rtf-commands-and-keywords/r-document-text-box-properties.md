@@ -68,22 +68,22 @@ Die folgenden Dokumenteigenschaften werden in Textfeldern unterstützt.
   <tr> 
    <td> <span class="codeph"> \cyan <span class="varname"> N </span> </span> </td> 
    <td> <p>Cyan-Farbkomponente. </p> </td> 
-   <td> <p>Dynamic Media-Erweiterung; darf nur in <span class="codeph"> \CMYKColortBL </span>; 0…100 angezeigt werden </p> </td> 
+   <td> <p>Dynamic Media-Erweiterung; wird möglicherweise nur in der <span class="codeph"> \cmykcolortbl </span>; 0…100 angezeigt </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta <span class="varname"> N </span> </span> </td> 
    <td> <p>Magentafarbkomponente. </p> </td> 
-   <td> <p>Dynamic Media-Erweiterung; darf nur in <span class="codeph"> \CMYKColortBL </span>; 0…100 angezeigt werden </p> </td> 
+   <td> <p>Dynamic Media-Erweiterung; wird möglicherweise nur in der <span class="codeph"> \cmykcolortbl </span>; 0…100 angezeigt </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \Yellow <span class="varname"> N </span> </span> </td> 
    <td> <p>Gelbe Farbkomponente. </p> </td> 
-   <td> <p>Dynamic Media-Erweiterung; darf nur in <span class="codeph"> \CMYKColortBL </span>; 0…100 angezeigt werden </p> </td> 
+   <td> <p>Dynamic Media-Erweiterung; wird möglicherweise nur in der <span class="codeph"> \cmykcolortbl </span>; 0…100 angezeigt </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \schwarz <span class="varname"> N </span> </span> </td> 
    <td> <p>Schwarzfarbkomponente. </p> </td> 
-   <td> <p>Dynamic Media-Erweiterung; darf nur in <span class="codeph"> \CMYKColortBL </span>; 0…100 angezeigt werden </p> </td> 
+   <td> <p>Dynamic Media-Erweiterung; wird möglicherweise nur in der <span class="codeph"> \cmykcolortbl </span>; 0…100 angezeigt </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 

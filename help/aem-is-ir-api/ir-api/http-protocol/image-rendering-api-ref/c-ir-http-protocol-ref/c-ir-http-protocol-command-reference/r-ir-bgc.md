@@ -27,7 +27,7 @@ Hintergrundfarbe. Gibt die subtraktive Farbe für färbbare Texturen und Abziehb
 
 Der Textur-Farbalgorithmus des Bild-Renderings ist einfach. Die Komponentenwerte von `bgc=` werden von den Werten der Textur-Pixel subtrahiert. `color=` wird hinzugefügt und das Ergebnis wird schließlich auf `0,0,0` und `255,255,255` abgeschnitten.
 
-Für typische Anwendungen der Texturfärbung kann der Wert für `bgc=` die wichtigste oder dominanteste Farbe im Texturbild sein. Die Dynamic Media-Bildbearbeitung bietet halbautomatische Tools, die angemessene `bgc=` aus Bildtexturen extrahieren.
+Für typische Anwendungen der Texturfärbung kann der Wert für `bgc=` die wichtigste oder dominanteste Farbe im Texturbild sein. Die Dynamic Media-Bildbearbeitung bietet halbautomatische Tools zum Extrahieren angemessener `bgc=`-Farbwerte aus Texturen und Bildern.
 
 Wenn ein Texturmaterial auf ein nicht texturierbares Vignettenobjekt angewendet wird, wird `bgc=` als Vordergrundfarbe angewendet, wenn `color=` nicht angegeben ist.
 
@@ -41,7 +41,7 @@ Materialattribut. Wird von einfarbigen und Schrankmaterialien ignoriert.
 
 ## Beispiel {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-Färben Sie ein Bekleidungsgewebe, dessen Textur die dominante RGB-Farbe hat 120,34,193:
+Färben Sie ein Bekleidungsgewebe, dessen Textur die dominierende RGB-Farbe hat 120,34,193:
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 

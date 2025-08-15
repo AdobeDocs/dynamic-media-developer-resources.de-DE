@@ -33,7 +33,7 @@ Materialdatei Gibt Materialdaten an, entweder in Form einer einzelnen Materialka
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;lbrace;'<span class="varname"> ForeignReq</span>'&rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -93,7 +93,7 @@ Wenn *`catId`* nicht angegeben ist, wird der Sitzungskatalog verwendet.
 
 Das Bild-Rendering unterstützt dieselben Quellbildformate wie Dynamic Media Image Serving.
 
-Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, eignen sich am besten, wenn das Scene7 Pyramid TIFF (PTIFF)-Multiauflösungsformat verwendet wird. Image Serving beinhaltet das Image Converter-Dienstprogramm (IC), das PTIFF-Bilder aus jedem unterstützten Format erstellt.
+Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, erzielen die besten Ergebnisse, wenn das Scene7 Pyramid TIFF (PTIFF)-Multiauflösungsformat verwendet wird. Image Serving beinhaltet das Image Converter-Dienstprogramm (IC), das PTIFF-Bilder aus jedem unterstützten Format erstellt.
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Beschreibung des IC-Dienstprogramms in der Dokumentation zu Image-Serving .
 

@@ -21,7 +21,7 @@ Hintergrundfarbe der Ebene. Gibt die Hintergrundfarbe und Deckkraft der aktuelle
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Farbe</span></span> </p> </td> 
-  <td class="stentry"> <p>Grau-, RGB- oder CMYK-Farbwert, mit oder ohne Alpha. </p></td> 
+  <td class="stentry"> <p>Grau, RGB oder CMYK-Farbwert, mit oder ohne Alpha. </p></td> 
  </tr> 
 </table>
 

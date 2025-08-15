@@ -1,7 +1,7 @@
 ---
-description: Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Konformität mit SVG 1.1 ist erforderlich.
+description: Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Die Konformität mit SVG 1.1 ist erforderlich.
 solution: Experience Manager
-title: SVG-Unterstützung
+title: SVG-Support
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# SVG-Unterstützung{#svg-support}
+# SVG-Support{#svg-support}
 
-Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Konformität mit SVG 1.1 ist erforderlich.
+Image Serving unterstützt SVG-Dateien (Scalable Vector Graphics) als Quelldaten. Die Konformität mit SVG 1.1 ist erforderlich.
 
 Die Bildbereitstellung erkennt nur statische SVG-Inhalte. Animationen, Skripterstellung und andere interaktive Inhalte werden nicht unterstützt.
 
 SVG kann überall dort angegeben werden, wo Bilddateien zulässig sind (URL-Pfad, `src=` und `mask=`). Nachdem der Inhalt der SVG-Datei gerastert wurde, wird er wie ein Bild gehandhabt.
 
-SVG-Dateien können ähnlich wie Bilder als Bildkatalogeinträge oder als relative Dateipfade angegeben werden.
+Ähnlich wie Bilder können SVG-Dateien als Bildkatalogeinträge oder als relative Dateipfade angegeben werden.
 
 ## Substitutionsvariablen {#section-83b149f13f244193901df39b204c975b}
 
@@ -38,7 +38,7 @@ Geben Sie entweder eine vollständige Image-Serving-Anfrage ab `http://` oder ei
 
 >[!NOTE]
 >
->Die Unterstützung für das Rendern von Bildern in dieser Version von Image Serving ist begrenzt. Referenzieren von Bildern aus dem SVG-Bereich sollte nur in Situationen verwendet werden, in denen die herkömmlichen Image-Serving-Ebenen und -Vorlagenmechanismen nicht ausreichend sind, um das gewünschte Ergebnis zu erzielen. Unter keinen Umständen sollte SVG zur Erzeugung von Mehrbild-Composites verwendet werden.
+>Die Unterstützung für das Rendern von Bildern in dieser Version von Image Serving ist begrenzt. Referenzieren von Bildern aus SVG sollte nur in Situationen verwendet werden, in denen die herkömmlichen Bildbereitstellungs-Ebenen und Vorlagenmechanismen nicht ausreichend sind, um das gewünschte Ergebnis zu erzielen. Unter keinen Umständen sollte SVG verwendet werden, um Verbunde mit mehreren Bildern zu erzeugen.
 
 >[!NOTE]
 >
@@ -46,15 +46,15 @@ Geben Sie entweder eine vollständige Image-Serving-Anfrage ab `http://` oder ei
 
 ## Farbmanagement {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Alle in SVG-Dateien eingebetteten und über Substitutionsvariablen an SVG-Vorlagen übergebenen Farbwerte werden als im `sRgb` Farbraum vorhanden angenommen.
+Alle Farbwerte, die in SVG-Dateien eingebettet und über Substitutionsvariablen an SVG-Vorlagen übergeben werden, werden als im `sRgb` Farbraum vorhanden angenommen.
 
-Beim Einbetten von Bildern in die SVG wird keine Farbkonvertierung durchgeführt. Um die Farbtreue sicherzustellen, müssen Sie `icc=sRgb` für alle eingebetteten Bildanforderungen angeben.
+Beim Einbetten von Bildern in SVG wird keine Farbkonvertierung durchgeführt. Um die Farbtreue sicherzustellen, müssen Sie `icc=sRgb` für alle eingebetteten Bildanforderungen angeben.
 
 Nach der Rasterung ist das SVG-Bild wie jedes andere Bild am Farbmanagement beteiligt.
 
 ## Beispiel {#section-036cdd45abd449849ee00a8f21788c28}
 
-Die folgende SVG-Vorlage veranschaulicht Bildreferenzen und die Verwendung von Variablen.
+Die folgende SVG-Vorlage veranschaulicht Bildverweise und die Verwendung von Variablen.
 
 `<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> <svg width="500" height="500"> <image x="50" y="50" width="400" height="400" xlink:href="/is/image?src=$img$&wid=300&hei=400"/> <text x="150" y="400" style="font-size:$pts$; fill:$color$"> Title: $txt$ </text> </svg>`
 
@@ -64,7 +64,7 @@ Diese SVG-Vorlage kann wie folgt verwendet werden:
 
 ## Einschränkungen {#section-daa5eccd07204aaf993be41e87822d54}
 
-SVG-Dateien müssen eigenständig sein und dürfen nicht auf sekundäre Dateien oder Ressourcen verweisen, mit Ausnahme von externen Bildern, auf die mit Image-Serving- oder Image-Rendering-Anfragen verwiesen wird (siehe oben).
+SVG-Dateien müssen eigenständig sein und dürfen keine sekundären Dateien oder Ressourcen referenzieren, mit Ausnahme von externen Bildern, auf die mit Bildbereitstellungs- oder Bildbereitstellungsanfragen verwiesen wird (siehe oben).
 
 Es werden nur statische Inhalte gerendert. Animation, interaktive Funktionen wie Schaltflächen usw. Kann vorhanden sein, kann aber nicht wie erwartet gerendert werden.
 
@@ -74,4 +74,4 @@ ICC-profilbasierte Farbspezifikationen werden derzeit nicht unterstützt.
 
 ## Verwandte Themen {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 Spezifikation](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Spezifikation für SVG 1.1](https://www.w3.org/TR/SVG11/)

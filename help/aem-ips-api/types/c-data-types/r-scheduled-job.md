@@ -36,14 +36,14 @@ Syntax
 | triggerState | `xsd:int` | Auswahl des Status des Job-Triggers. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | Auftragsdetails für einen Image-Serving-Veröffentlichungsauftrag. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Auftragsdetails für einen Bild-Rendering-Auftrag. |
-| videoPublishJob | `types:VideoPublishJob` | Auftragsdetails für einen Videoveröffentlichungsauftrag. Siehe [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=de). |
+| videoPublishJob | `types:VideoPublishJob` | Auftragsdetails für einen Videoveröffentlichungsauftrag. Siehe [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Auftragsdetails für einen Veröffentlichungsauftrag für ein Serververzeichnis. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Auftragsdetails für einen Upload-Verzeichnisauftrag. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Auftragsdetails für einen Upload-URL-Auftrag. |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | RIPpdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Zulassen des autorisierten Exports zuvor hochgeladener Dateien. Siehe [Exportvorgang](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=de). |
+| exportJob | `types:ExportJob` | Zulassen des autorisierten Exports zuvor hochgeladener Dateien. Siehe [Exportvorgang](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Anmerkungen {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

@@ -58,12 +58,12 @@ Andernfalls gelten die standardmäßigen HTTP-Kodierungsregeln. Die HTTP-Spezifi
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&brace; </p> </td> 
+   <td colname="col1"> <p>&amp;brace; </p> </td> 
    <td colname="col2"> <p>7b </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&brace; </p> </td> 
+   <td colname="col1"> <p>&amp;brace; </p> </td> 
    <td colname="col2"> <p>7 T </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,17 +88,17 @@ Andernfalls gelten die standardmäßigen HTTP-Kodierungsregeln. Die HTTP-Spezifi
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&Black; </p> </td> 
+   <td colname="col1"> <p>&amp;Black; </p> </td> 
    <td colname="col2"> <p>5b </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&brack; </p> </td> 
+   <td colname="col1"> <p>&amp;brack; </p> </td> 
    <td colname="col2"> <p>5T </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&grave; </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 

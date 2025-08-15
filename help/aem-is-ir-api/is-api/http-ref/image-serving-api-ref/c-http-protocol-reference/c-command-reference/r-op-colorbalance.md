@@ -37,7 +37,7 @@ Graue und CMYK-Eingabebilddaten werden mithilfe der naiven Konvertierung in RGB 
 
 ## Eigenschaften {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Ebenenbefehl. Gilt für die aktuelle Ebene oder das zusammengesetzte Bild, falls `layer=comp`. Von Effektebenen ignoriert. CMYK-Bilder und -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
+Ebenenbefehl. Gilt für die aktuelle Ebene oder das zusammengesetzte Bild, falls `layer=comp`. Von Effektebenen ignoriert. CMYK-Bilder und -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
 
 ## Standard {#section-08d84ef715964f7daea86f5ef237d199}
 

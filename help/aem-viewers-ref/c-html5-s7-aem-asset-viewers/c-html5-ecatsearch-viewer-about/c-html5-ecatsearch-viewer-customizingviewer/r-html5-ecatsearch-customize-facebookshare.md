@@ -1,6 +1,6 @@
 ---
 title: Facebook-Freigabe
-description: Das facebook-Freigabetool besteht aus einer Schaltfläche, die dem Social-Media-Freigabebereich hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+description: Das Facebook-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Facebook-Freigabe{#facebook-share}
 
-Das facebook-Freigabetool besteht aus einer Schaltfläche, die dem Social-Media-Freigabebereich hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+Das Facebook-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Das Erscheinungsbild der Facebook-Freigabeschaltfläche wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Das Erscheinungsbild der Facebook-Freigabe-Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7ecatalogsearchviewer .s7facebookshare
@@ -55,7 +55,7 @@ Sie können die Schaltfläche aus dem Bedienfeld Social-Freigabe entfernen, inde
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) für weitere Informationen.
 
-Beispiel: So richten Sie eine Facebook-Freigabeschaltfläche ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
+Beispiel: So richten Sie eine Facebook-Freigabe-Schaltfläche ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
 ```
 .s7ecatalogsearchviewer .s7facebookshare { 

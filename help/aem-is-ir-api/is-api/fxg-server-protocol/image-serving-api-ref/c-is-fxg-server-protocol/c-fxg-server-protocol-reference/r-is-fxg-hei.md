@@ -25,7 +25,7 @@ Höhe anzeigen. Gibt die Höhe des Antwortbildes an.
  </tr> 
 </table>
 
-Rasterformate werden mit der standardmäßigen Ansichtsgröße (oder der Einstellung „DefaultPix„) gerendert. Wählen Sie **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Publish-]** > **[!UICONTROL Bildserver]** aus und geben Sie dann Ihre Werte für Breite und Höhe ein. Kleinere Größen bieten eine bessere Leistung. Speichern Sie Ihre Einstellungen und führen Sie eine Image-Serving-Publish durch, um eine Änderung anzuwenden.
+Rasterformate werden mit der standardmäßigen Ansichtsgröße (oder der Einstellung „DefaultPix„) gerendert. Wählen Sie **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinrichtung]** > **[!UICONTROL Image-Server]** aus und geben Sie dann Ihre Werte für Breite und Höhe ein. Kleinere Größen bieten eine bessere Leistung. Speichern Sie Ihre Einstellungen und führen Sie eine Image-Serving-Veröffentlichung durch, um eine Änderung anzuwenden.
 
 Wenn Sie einen `scale=1`-Befehl anwenden, wird eine Rasterformatanforderung in der in der FXG angegebenen Größe gerendert.
 
@@ -37,13 +37,13 @@ Wenn `wid=`, `hei=` oder `scale=` nicht angegeben sind, entspricht das Antwortbi
 
 [!DNL `http://server/is/agm/myRootId/myImageId?hei=200`]
 
-Sofern kein Format angegeben ist, wird das Bild als SWF-Datei gerendert. In diesem Fall haben Höhe und Breite keine Bedeutung, da der SWF normalerweise an die Größe des Browserfensters angepasst wird. Daher gelten hei und wid nur für Raster- oder PDF-Formate. Zu den Rasterformaten gehören:
+Sofern kein Format angegeben ist, wird das Bild als SWF-Datei gerendert. In diesem Fall haben Höhe und Breite keine Bedeutung, da der SWF normalerweise an die Größe des Browserfensters angepasst wird. Daher gelten hei und wid nur für Rasterformate oder PDF. Zu den Rasterformaten gehören:
 
 * GIF
 * TIF
 * PNG
 * JPG
 * JPEG
-* GIF-alpha
+* GIF-Alpha
 * TIF-Alpha
 * PNG-Alpha

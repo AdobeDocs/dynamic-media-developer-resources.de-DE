@@ -29,7 +29,7 @@ Zu den unterstützten Viewer-Ereignissen gehören die folgenden:
    * Zeitstempel des `timeStamp {Number}`.
    * Payload des `eventInfo {String}`.
 
-* `quickViewActivate` : Trigger, wenn ein Benutzer in der interaktiven Farbfeldkomponente oder im Bildschirm „Aktionsaufruf“ am Ende der Videowiedergabe auf ein interaktives Farbfeld klickt oder tippt. Der Callback-Handler verwendet als einziges Argument ein JSON-Objekt mit den folgenden Feldern:
+* `quickViewActivate` : Trigger, wenn ein Benutzer in der interaktiven Farbfeldkomponente oder auf dem Bildschirm &quot;call to action&quot; am Ende der Videowiedergabe auf ein interaktives Farbfeld klickt oder tippt. Der Callback-Handler verwendet als einziges Argument ein JSON-Objekt mit den folgenden Feldern:
 
    * `sku` { `String`} SKU-Wert, der mit dem interaktiven Farbfeld verknüpft ist.
    * `<additionalVariable>` { `String`} Null oder mehr zusätzliche Variablen, die mit dem interaktiven Farb-/Bildmuster verknüpft sind.

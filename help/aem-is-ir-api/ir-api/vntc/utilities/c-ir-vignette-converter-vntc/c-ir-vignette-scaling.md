@@ -24,7 +24,7 @@ Es werden vier allgemeine Arten von Produktionsvignetten unterstützt.
   Wird empfohlen, wenn alle gewünschten Render-Bildgrößen bekannt sind. Bietet eine bessere Qualität und schnelleres Rendering als Einzelauflösungs- und Pyramidenvignetten, da das Bild nach dem Rendering nicht skaliert werden muss.
 * Pyramide
 
-  Am besten geeignet. Dies wird empfohlen, wenn mehrere Bildgrößen erforderlich sind und die genauen Größen nicht vorab festgelegt sind und wenn der Dynamic Media Zoom-Viewer verwendet wird.
+  Am besten geeignet. Wird empfohlen, wenn mehrere Bildgrößen erforderlich sind und die genauen Größen nicht vorab festgelegt sind und wenn der Dynamic Media Zoom-Viewer verwendet wird.
 * Pyramide mit einer oder mehreren zusätzlichen Auflösungen
 
   Bietet hohe Qualität für bestimmte Größen und bietet dennoch Flexibilität und Zoom-Viewer-Unterstützung.

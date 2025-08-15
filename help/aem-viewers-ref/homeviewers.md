@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Viewer-Referenzhandbuch
-description: Adobe Dynamic Media Viewer-Referenzhandbuch für Basic Zoom, eCatalog, Zoom, eCatalog Search, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Karussell, Dimensional, interaktives Video, interaktives Bild und 360-Grad-Video-Viewer.
+title: Adobe Dynamic Media Viewers-Referenzhandbuch
+description: Adobe Dynamic Media Viewers-Referenzhandbuch für grundlegende Zoom-, eCatalog-, Zoom-, eCatalog-Suche, Flyout, Inline-Zoom, gemischte Medien, Rotation, Video, Karussell, Dimensional, interaktives Video, interaktives Bild und 360-Grad-Video-Viewer.
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f

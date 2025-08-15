@@ -254,11 +254,11 @@ Die folgenden SYMBOLE werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Facebook-Freigabeschaltfläche. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Facebook-Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>QuickInfo für die Twitter-Freigabeschaltfläche. </p> </td> 
+   <td colname="col2"> <p>QuickInfo für die Twitter-Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

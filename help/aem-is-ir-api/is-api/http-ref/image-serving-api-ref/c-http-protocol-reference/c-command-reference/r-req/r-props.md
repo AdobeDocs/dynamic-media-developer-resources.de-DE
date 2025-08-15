@@ -75,7 +75,7 @@ Die folgenden Eigenschaften werden für &quot;/is/image“-Anfragen zurückgegeb
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> Antwortbildtyp, kann <span class="codeph"> CMYK-</span>, <span class="codeph"> RGB-</span> oder <span class="codeph"> BW-</span> (für Graustufenbilder) sein. </p> </td> 
+   <td> <p> Typ des Antwortbildes, kann <span class="codeph"> CMYK-</span>, <span class="codeph"> RGB </span> oder <span class="codeph"> BW-</span> (für Graustufenbilder) sein. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pathEmbed-</span> </p> </td> 

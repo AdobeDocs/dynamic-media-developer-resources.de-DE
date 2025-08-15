@@ -1,6 +1,6 @@
 ---
 title: IccProfileRGB
-description: RGB-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für das RGB von Antwortbildern verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image-Rendering-Befehlen angegeben werden, z. B. bgc= und color=.
+description: RGB-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Antwortbilder verwendet werden soll, wenn mit icc= kein Ausgabefarbraum angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image-Rendering-Befehlen angegeben werden, z. B. bgc= und color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # IccProfileRGB{#iccprofilergb}
 
-RGB-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für das RGB von Antwortbildern verwendet werden soll, wenn bei `icc=` kein Ausgabefarbraum angegeben ist. Auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image-Rendering-Befehlen angegeben werden, wie `bgc=` und `color=`.
+RGB-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Antwortbilder verwendet werden soll, wenn bei `icc=` kein Ausgabefarbraum angegeben ist. Dies gilt auch für bestimmte RGB-Farbwerte, die mit verschiedenen Image-Rendering-Befehlen wie `bgc=` und `color=` festgelegt werden.
 
 ## Eigenschaften {#section-b4a1bd92e99047479a5036413525a6d9}
 
-Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Materialkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
 
 ## Standard {#section-5809772f8e96438ab7626d323c66a4ba}
 

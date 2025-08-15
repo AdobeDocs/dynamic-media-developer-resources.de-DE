@@ -1,6 +1,6 @@
 ---
 title: RipPDFsJob
-description: Ein Prozess, der ein vorhandenes PDF-Asset neu lädt.
+description: Ein Prozess, der ein vorhandenes PDF-Asset zurückgibt.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-Ein Prozess, der ein vorhandenes PDF-Asset neu lädt.
+Ein Prozess, der ein vorhandenes PDF-Asset zurückgibt.
 
 >[!NOTE]
 >

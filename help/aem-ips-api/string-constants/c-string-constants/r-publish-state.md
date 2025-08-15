@@ -1,7 +1,7 @@
 ---
 description: Wird von searchAssetsParam/publishState, setAssetPublishStateParam/publishState und ContextStateUpdate/publishState verwendet.
 solution: Experience Manager
-title: Staat Publish
+title: Veröffentlichungsstatus
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 ---
 
-# Staat Publish{#publish-state}
+# Veröffentlichungsstatus{#publish-state}
 
 Wird von searchAssetsParam/publishState, setAssetPublishStateParam/publishState und ContextStateUpdate/publishState verwendet.
 

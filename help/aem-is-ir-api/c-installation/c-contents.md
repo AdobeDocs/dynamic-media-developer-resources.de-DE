@@ -164,7 +164,7 @@ Nach der Installation enthält die Ordnerhierarchie in install_root die unten au
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> Bilder/</span> <span class="filepath"> </p> </td> 
+   <td colname="col2"> <p> Bilder/<span class="filepath"> </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Ordner mit Image-Serving-Quelldaten; manuelles Bearbeiten von Konfigurationsdateien. </p> </td> 
   </tr> 

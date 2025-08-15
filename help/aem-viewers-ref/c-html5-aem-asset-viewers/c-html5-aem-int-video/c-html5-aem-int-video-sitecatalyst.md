@@ -1,6 +1,6 @@
 ---
 title: Unterstützung für Adobe Analytics-Tracking
-description: Der HTML5-Video360-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
+description: Der HTML5 Video360 Viewer unterstützt standardmäßig das Tracking von Adobe Analytics.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Unterstützung für Adobe Analytics-Tracking{#support-for-adobe-analytics-tracking}
 
-Der HTML5-Video360-Viewer unterstützt standardmäßig das Adobe Analytics-Tracking.
+Der HTML5 Video360 Viewer unterstützt standardmäßig das Tracking von Adobe Analytics.
 
 Um das Tracking zu aktivieren, übergeben Sie den richtigen Namen der Unternehmensvorgabe als `config2`.
 

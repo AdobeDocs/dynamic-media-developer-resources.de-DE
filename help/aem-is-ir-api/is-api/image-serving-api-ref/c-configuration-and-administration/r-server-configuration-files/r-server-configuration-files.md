@@ -18,7 +18,7 @@ Alle Konfigurationsdateien befinden sich im `install_folder/conf` und können mi
 
 >[!NOTE]
 >
->Die meisten Server-Konfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Solche Eigenschaften sind für die interne Verwendung durch den Server bestimmt und dürfen nur geändert werden, wenn dies vom technischen Support von Dynamic Media angewiesen wird.
+>Die meisten Server-Konfigurationsdateien enthalten zusätzliche Eigenschaften und Werte, die in diesem Dokument nicht beschrieben werden. Solche Eigenschaften sind für die interne Verwendung durch den Server bestimmt und dürfen nur geändert werden, wenn der technische Support von Dynamic Media dies anweist.
 
 In diesem Dokument werden Einstellungen für die folgenden Konfigurationsdateien erläutert:
 

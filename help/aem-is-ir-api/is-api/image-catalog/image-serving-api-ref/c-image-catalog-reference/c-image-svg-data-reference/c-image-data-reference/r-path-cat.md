@@ -26,7 +26,7 @@ Text-String Erforderlich für Bilddatensätze, darf für Vorlagendatensätze lee
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Beschreibung des Image Converter-Dienstprogramms (IC).
 
-Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, bieten die beste Leistung bei Verwendung des PTIFF-Formats (Dynamic Media Pyramid TIFF) mit mehreren Auflösungen. Das IC-Dienstprogramm wird verwendet, um PTIFF-Bilder aus jedem unterstützten Bildformat zu erstellen.
+Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, erzielen die besten Ergebnisse, wenn das PTIFF-Format (Dynamic Media Pyramid TIFF) mit mehreren Auflösungen verwendet wird. Das IC-Dienstprogramm wird verwendet, um PTIFF-Bilder aus jedem unterstützten Bildformat zu erstellen.
 
 ## Standard {#path-default}
 

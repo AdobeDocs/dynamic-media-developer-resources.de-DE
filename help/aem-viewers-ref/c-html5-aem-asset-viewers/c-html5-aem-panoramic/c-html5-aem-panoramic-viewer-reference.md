@@ -27,15 +27,15 @@ Viewer-Typ 514.
 
 ## Verwenden des Panorama-Viewers {#section-f21ac23d3f6449ad9765588d69584772}
 
-Der HTML5-Panorama-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar, die vom Viewer zur Laufzeit heruntergeladen werden. Der Satz von Hilfsdateien ist ein einzelnes JavaScript-Include in allen HTML5-Viewer-SDK-Komponenten, die von diesem bestimmten Viewer verwendet werden, Assets, CSS.
-HTML5 Panoramic Viewer können sowohl im Popup-Modus mit der produktionsbereiten HTML-Seite, die mit IS-Viewers bereitgestellt wird, als auch im eingebetteten Modus verwendet werden, wo er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
-Die Konfiguration und das Design ähneln denen der anderen HTML5-Viewer. Die gesamte Skin-Erstellung kann mithilfe von benutzerdefiniertem CSS erfolgen.
+Der HTML5-Panorama-Viewer stellt eine JavaScript-Hauptdatei und eine Reihe von Hilfsdateien dar, die der Viewer zur Laufzeit heruntergeladen hat. Der Satz von Hilfsdateien ist ein einzelnes JavaScript-Include in allen HTML5 Viewer-SDK-Komponenten, die von diesem bestimmten Viewer verwendet werden, Assets, CSS.
+Der HTML5-Panoramabilder kann sowohl im Popup-Modus mit der produktionsbereiten HTML-Seite, die mit IS-Viewers bereitgestellt wird, als auch im eingebetteten Modus verwendet werden, wo er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
+Die Konfiguration und Skinning ähneln denen der anderen HTML5-Viewer. Die gesamte Skin-Erstellung kann mithilfe von benutzerdefiniertem CSS erfolgen.
 
 Siehe [Für alle Viewer gemeinsame Befehlsreferenz - Konfigurationsattribute](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) und [Für alle Viewer gemeinsame Befehlsreferenz - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interagieren mit dem HTML5-Panorama-Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-Der HTML5 Panoramic Viewer unterstützt das automatische Schwenken und Navigieren durch Ziehen oder Kreiselbewegungen.
+Der HTML5 Panoramic Viewer unterstützt das automatische Schwenken und Navigieren durch Ziehen oder gyroskopische Bewegungen.
 
 <table id="table_panoramic"> 
  <thead> 
@@ -76,7 +76,7 @@ Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus
 
 Visuelle Anpassung kann durch Anwenden von benutzerdefiniertem CSS erreicht werden.
 
-Im Folgenden finden Sie ein Beispiel für das HTML von Code, durch das der Viewer im neuen Fenster geöffnet wird:
+Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer im neuen Fenster öffnet:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
@@ -107,7 +107,7 @@ Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL PanoramicViewer.js] einbeziehen. Die [!DNL PanoramicViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
+   Um einen Viewer zu erstellen, müssen Sie ein -Skript-Tag in der Kopfzeile von HTML hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL PanoramicViewer.js] einbeziehen. Die [!DNL PanoramicViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,7 +121,7 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek, die vom Viewer aus `/s7viewers` Kontextpfad geladen wird (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert keine älteren Versionen der sekundären Viewer-`includes` auf dem Server.
 >
 >
 >Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
@@ -143,7 +143,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die statische Größe für den Viewer festlegen, indem Sie sie entweder für `.s7panoramicviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten deklarieren oder den Modifikator `stagesize` verwenden.
 
-   Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festgelegt werden, die später einem Viewer-Vorgabeneintrag in AOD zugewiesen oder explizit mit dem Stilbefehl übergeben wird. Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter Anpassen des Viewers . Nachfolgend finden Sie ein Beispiel für die Definition der statischen Viewer-Größe auf der HTML-Seite:
+   Die Größe in CSS kann direkt auf der HTML-Seite oder in der benutzerdefinierten CSS-Viewer-Datei festgelegt werden, die später einem Viewer-Vorgabeneintrag in AOD zugewiesen oder explizit mit dem Stilbefehl übergeben wird. Weitere Informationen zum Formatieren des Viewers mit CSS finden Sie unter Anpassen des Viewers . Nachfolgend finden Sie ein Beispiel für die Definition der statischen Viewer-Größe auf der HTML-Seite:
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -271,7 +271,7 @@ Die folgende Beispielseite veranschaulicht eine praktischere Verwendung der resp
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
+[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsives Design Einbetten mit definierter Breite und Höhe**
 

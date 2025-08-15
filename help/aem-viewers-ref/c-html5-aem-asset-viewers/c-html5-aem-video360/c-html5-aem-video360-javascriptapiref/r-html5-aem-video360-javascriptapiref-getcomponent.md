@@ -41,7 +41,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container-</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> MediaSet-</span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> MediaSet-<span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet-</span> </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime-</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar-</span> </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
 
 Bei der Arbeit mit SDK-APIs ist es wichtig, den richtigen, vollständig qualifizierten SDK-Namespace zu verwenden, wie in [Viewer-SDK-Namespace](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621) beschrieben.
 
-Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur *-Viewer-SDK-API für* HTML5&rbrace;.
+Weitere Informationen zu einer bestimmten Komponente finden Sie in der *zur HTML5-Viewer-SDK-API.*
 
 ## Rückgabe {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

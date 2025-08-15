@@ -18,11 +18,11 @@ Normalerweise eine kurze und eindeutige Kennung wie eine SKU-Nummer, möglicherw
 
 >[!NOTE]
 >
->Die Bild- und SVG-Tabellen werden beim Laden des Bildkatalogs zu einer einzigen Tabelle zusammengeführt. Die ID-Werte müssen in beiden Tabellen eindeutig sein. Der SVG-Eintrag wird verworfen, wenn die Bildtabelle einen Eintrag mit demselben ID-Wert enthält. Statische Inhalte werden mit einer separaten Tabelle verwaltet. Statische Inhaltselemente und Bild-/SVG-Elemente können daher dieselben ID-Werte aufweisen.
+>Die Bildtabellen und SVG-Tabellen werden beim Laden des Bildkatalogs in einer einzigen Tabelle zusammengeführt. Die ID-Werte müssen in beiden Tabellen eindeutig sein. Der SVG-Datensatz wird verworfen, wenn die Bildtabelle einen Datensatz mit demselben ID-Wert enthält. Statische Inhalte werden mit einer separaten Tabelle verwaltet. Statische Inhaltselemente und Bild-/SVG-Elemente können daher dieselben ID-Werte aufweisen.
 
 ## Eigenschaften {#section-874a6853f67b4b229341ca76682884ae}
 
-Text-String Erforderlich. Datensatzkennung für das Bild/die SVG oder die statische Inhaltsdatentabelle. Jeder `catalog::Id` in diesem Bildkatalog/SVG-Katalog oder in diesem statischen Inhaltskatalog muss eindeutig sein und darf keine &quot;,“-Zeichen enthalten.
+Text-String Erforderlich. Datensatzkennung für das Bild/SVG oder die statische Inhaltsdatentabelle. Jeder `catalog::Id` in diesem Bildkatalog/SVG-Katalog oder in diesem statischen Inhaltskatalog muss eindeutig sein und darf keine &quot;,“-Zeichen enthalten.
 
 ## Standard {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

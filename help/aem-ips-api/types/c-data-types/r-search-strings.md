@@ -1,5 +1,5 @@
 ---
-description: Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Eintrag.
+description: Aus einer PDF-Datei extrahierter Suchzeichenfolgeneintrag.
 solution: Experience Manager
 title: Suchzeichenfolgen
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Aus einer PDF-Datei extrahierter Suchzeichenfolgen-Eintrag.
+Aus einer PDF-Datei extrahierter Suchzeichenfolgeneintrag.
 
 Syntax
 

@@ -1,5 +1,5 @@
 ---
-description: Name der Schriftart. Der Name der Schriftart, genau wie im Befehl RTF fonttbl angegeben.
+description: Name der Schriftart. Der Name der Schriftart, genau wie im Befehl RTF \fonttbl angegeben.
 solution: Experience Manager
 title: Name
 feature: Dynamic Media Classic,SDK/API

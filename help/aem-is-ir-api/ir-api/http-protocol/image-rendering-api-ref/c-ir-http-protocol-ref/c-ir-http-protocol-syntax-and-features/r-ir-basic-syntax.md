@@ -1,6 +1,6 @@
 ---
 title: Grundlegende Syntax des HTTP-Protokolls zum Rendern von Bildern
-description: In diesem Abschnitt wird die Grundsyntax des Dynamic Media Image Rendering HTTP-Protokolls beschrieben.
+description: In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Rendering-HTTP-Protokolls beschrieben.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Grundlegende Syntax des HTTP-Protokolls zum Rendern von Bildern{#image-rendering-http-protocol-basic-syntax}
 
-In diesem Abschnitt wird die Grundsyntax des Dynamic Media Image Rendering HTTP-Protokolls beschrieben.
+In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Rendering-HTTP-Protokolls beschrieben.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -46,14 +46,14 @@ In diesem Abschnitt wird die Grundsyntax des Dynamic Media Image Rendering HTTP-
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">-</span> </p> </td> 
-   <td colname="col2"> <p>&lbrace; <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> Wert</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> Wert</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p></span> <span class="varname"> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> </span> </p> </td> 
    <td colname="col2"> <p>Name eines Befehlsmakros. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p></span> <span class="varname"> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> </span> </p> </td> 
    <td colname="col2"> <p>Kommentarzeichenfolge (vom Server ignoriert). </p> </td> 
   </tr> 
   <tr> 

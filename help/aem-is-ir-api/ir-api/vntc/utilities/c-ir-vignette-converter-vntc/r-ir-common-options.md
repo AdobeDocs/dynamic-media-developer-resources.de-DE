@@ -31,7 +31,7 @@ Die folgenden Optionen können unabhängig vom Typ der Quelldatei angewendet wer
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> Konkurrenzprodukt </span> </span> </p> </td> 
-  <td class="stentry"> <p>Wählt verlustbehaftete JPEG-Kodierung für RGB- und Graustufen-Bilddaten, die in die Ausgabedatei eingebettet sind, anstelle von verlustfreiem PNG. Bilder mit Alpha (RGBA) werden immer mit PNG-Kodierung gespeichert. <span class="varname"> ival </span> gibt die JPEG-Qualität an (1…100); empfohlen wird eine Qualität von mindestens 85. Der Standardwert ist <span class="codeph"> -jpegquality 0 </span>, die die PNG-Codierung auswählt. </p> </td> 
+  <td class="stentry"> <p>Wählt die verlustbehaftete JPEG-Kodierung für RGB und Graustufen-Bilddaten, die in die Ausgabedatei eingebettet sind, anstelle von verlustfreiem PNG. Bilder mit Alpha (RGBA) werden immer mit PNG-Kodierung gespeichert. <span class="varname"> ival </span> gibt die JPEG-Qualität (1…100) an. Es wird empfohlen, mindestens 85 zu verwenden. Der Standardwert ist <span class="codeph"> -jpegquality 0 </span>, die die PNG-Codierung auswählt. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> Pfad </span> </span> </p> </td> 

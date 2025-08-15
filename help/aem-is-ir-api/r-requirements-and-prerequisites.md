@@ -1,6 +1,6 @@
 ---
 title: Systemanforderungen und Voraussetzungen
-description: Stellen Sie vor der Verwendung von Dynamic Media Image Serving sicher, dass Ihr System die Systemanforderungen erfüllt.
+description: Stellen Sie vor der Verwendung von Dynamic Media-Bildbereitstellung sicher, dass Ihr System die Systemanforderungen erfüllt.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Systemanforderungen und Voraussetzungen{#system-requirements-and-prerequisites}
 
-Stellen Sie vor der Verwendung von Dynamic Media Image Serving sicher, dass Ihr System die Systemanforderungen erfüllt.
+Stellen Sie vor der Verwendung von Dynamic Media-Bildbereitstellung sicher, dass Ihr System die Systemanforderungen erfüllt.
 
 ## Serverhardware {#section-f3c14a7bc1b745118602659628df779f}
 
@@ -54,7 +54,7 @@ bis
 
 ## Serversoftware {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Dynamic Media Image Serving erfordert die folgende Serversoftware.
+Für die Dynamic Media-Bildbereitstellung ist die folgende Serversoftware erforderlich.
 
 **Windows**
 

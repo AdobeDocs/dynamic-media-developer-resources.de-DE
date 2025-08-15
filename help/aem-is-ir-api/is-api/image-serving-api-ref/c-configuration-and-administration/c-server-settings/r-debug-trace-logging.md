@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Verwenden Sie diese Server-Einstellungen, um die Ablaufverfolgungsprotokollierun
 
 ## SV::log - Dateipfad für Trace-Protokolle des Server-Verantwortlichen {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Ordner- und Basisdateiname für Server Supervisor-Protokolldateien. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]* sein. Der Server Supervisor fügt einen Bindestrich und das aktuelle Datum ( *[!DNL -yyyy-mm-dd]*) an den Dateinamen an (vor dem Dateisuffix, falls vorhanden). Adobe empfiehlt, alle Protokolldateien in denselben Ordner wie [!DNL Platform Server] Protokolldateien ( `PS::LogFolder`) zu senden, um die von [!DNL Platform Server] (`PS::LogDays`) implementierte Protokolldateiverwaltung zu verwenden. Der Standardwert lautet [!DNL logs/Supervisor.log].
+Ordner- und Basisdateiname für Server Supervisor-Protokolldateien. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]* sein. Der Server Supervisor fügt einen Bindestrich und das aktuelle Datum ( *[!DNL -yyyy-mm-dd]*) an den Dateinamen an (vor dem Dateisuffix, falls vorhanden). Adobe empfiehlt, alle Protokolldateien an denselben Ordner wie [!DNL Platform Server] Protokolldateien ( `PS::LogFolder`) zu senden, um die von [!DNL Platform Server] (`PS::LogDays`) implementierte Protokolldateiverwaltung zu verwenden. Der Standardwert lautet [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ Die Protokollebene kann 1, 2, 3 oder 4 sein. Der Standardwert ist 2.
 
 ## IS::log - Pfad der Debugging-Protokolldatei des Image-Servers {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Ordner- und Basisdateiname für Trace-Protokolldateien des Bildservers. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]* sein. ImageServer fügt einen Bindestrich und das aktuelle Datum ( *[!DNL -yyyy-mm-dd]*) an den Dateinamen an (vor dem Dateisuffix, falls vorhanden). Adobe empfiehlt, die Protokolldateien des Image-Servers an denselben Ordner zu senden wie [!DNL Platform Server] Protokolldateien ( `PS::LogFolder`), um die vom [!DNL Platform Server] implementierte Protokolldateiverwaltung zu verwenden (siehe `PS::LogDays`).
+Ordner- und Basisdateiname für Trace-Protokolldateien des Bildservers. Der Pfad kann absolut oder relativ zu *[!DNL install_folder]* sein. ImageServer fügt einen Bindestrich und das aktuelle Datum ( *[!DNL -yyyy-mm-dd]*) an den Dateinamen an (vor dem Dateisuffix, falls vorhanden). Adobe empfiehlt, die Protokolldateien des Bildservers an denselben Ordner wie [!DNL Platform Server] Protokolldateien ( `PS::LogFolder`) zu senden, um die vom [!DNL Platform Server] implementierte Protokolldateiverwaltung zu verwenden (siehe `PS::LogDays`).
 
 >[!NOTE]
 >
 >Der neue Ordner muss erstellt werden, bevor diese Einstellung geändert werden kann. Stellen Sie sicher, dass die Zugriffsberechtigungen so festgelegt sind, dass Image Serving über die erforderlichen Berechtigungen zum Erstellen, Lesen und Schreiben verfügt.
 
-## IS:TraceClient - Debugging-Protokollebene des Bildservers {#section-3851f1f68e404430985c629ac80534db}
+## IS:TraceClient - Debugging-Protokollebene des Image-Servers {#section-3851f1f68e404430985c629ac80534db}
 
 Protokollebene kann 1, 2, 3 oder 4 sein (Standard ist 2)
 

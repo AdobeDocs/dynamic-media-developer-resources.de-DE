@@ -55,7 +55,7 @@ Diese Befehle gelten unabhängig davon, wo in der Anfrage sie angezeigt werden.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> quantisieren</a> </p> </td> 
-  <td class="stentry"> <p>Legt Farbquantifizierungsattribute für die GIF-Ausgabe fest. </p></td> 
+  <td class="stentry"> <p>Gibt Farbquantifizierungsattribute für die GIF-Ausgabe an. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 

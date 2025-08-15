@@ -1,5 +1,5 @@
 ---
-description: In diesem Dokument wird der Materialkatalog für das Rendern von Dynamic Media-Bildern beschrieben.
+description: In diesem Dokument wird der Materialkatalog für das Dynamic Media-Bild-Rendering beschrieben.
 solution: Experience Manager
 title: Einführung
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Einführung{#introduction}
 
-In diesem Dokument wird der Materialkatalog für das Rendern von Dynamic Media-Bildern beschrieben.
+In diesem Dokument wird der Materialkatalog für das Dynamic Media-Bild-Rendering beschrieben.
 
 **Vorgesehene Zielgruppe**
 
 Dieses Dokument richtet sich an erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Rendering für eine Website oder ein benutzerdefiniertes Programm nutzen möchten.
 
-Es wird davon ausgegangen, dass der Leser mit Dynamic Media Image Authoring und Image Rendering, allgemeinen HTTP-Protokollstandards und -Konventionen und grundlegender Bildterminologie vertraut ist.
+Es wird davon ausgegangen, dass der Leser mit der Dynamic Media-Bildbearbeitung und dem Bild-Rendering, den allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Bildterminologie vertraut ist.
 
 **Dokumentkonventionen**
 

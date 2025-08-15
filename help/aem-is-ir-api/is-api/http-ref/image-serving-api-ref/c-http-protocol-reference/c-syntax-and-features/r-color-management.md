@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Die Bildbereitstellung versucht im Allgemeinen, Farbkonvertierungen während der
 
 >[!NOTE]
 >
->Die Befehle `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` und `op_saturation=` sind RGB-Vorgänge. Diese Vorgänge behalten die Farbtreue nur bei, wenn der Ebenenfarbraum vom Typ RGB-Pixel ist. Wenn es sich nicht um RGB handelt, werden die Daten mithilfe der naiven Farbkonvertierung in RGB konvertiert, und das Ergebnis weist eine eingeschränkte Farbtreue auf. Der Ebenenfarbraum für solche Ebenen sollte als unbestimmt betrachtet werden.
+>Die Befehle `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` und `op_saturation=` sind RGB-Vorgänge. Diese Vorgänge behalten die Farbtreue nur bei, wenn der Ebenenfarbraum vom RGB-Pixeltyp ist. Wenn es sich nicht um RGB handelt, werden die Daten mithilfe der naiven Farbkonvertierung in RGB konvertiert, und das Ergebnis weist eine eingeschränkte Farbtreue auf. Der Ebenenfarbraum für solche Ebenen sollte als unbestimmt betrachtet werden.
 
 Die Farbkonvertierungsoptionen werden mit `icc=` oder, falls `icc=` nicht angegeben ist, mit `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation` und `attribute::IccDither` bereitgestellt.
 
@@ -72,11 +72,11 @@ Alle in `catalog::IccProfile` und in `attribute::IccProfile*` referenzierten ICC
 
 ## Einschränkungen {#section-fb50ede40b124b89b30679da29782ab5}
 
-Derzeit werden nur CMYK-, RGB- und Graustufen-Farbräume unterstützt.
+Derzeit werden nur CMYK, RGB und Graustufen-Farbräume unterstützt.
 
 ## Eingeschlossene ICC-Farbprofile {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-Die Bildbereitstellung umfasst die meisten standardmäßigen Adobe-ICC-Profile im Standardbildkatalog. Auf diese Profile kann entweder über ihre allgemeinen Namen (wie in Photoshop zu sehen) oder mit einer etwas kürzeren Kennung zugegriffen werden. In der folgenden Tabelle sind alle standardmäßigen ICC-Profile aufgeführt. Wenn im `icc=`-Befehl über den allgemeinen Namen auf ein Profil verwiesen wird, müssen Leerzeichen als `%20` codiert werden.
+Die Bildbereitstellung umfasst die meisten standardmäßigen Adobe ICC-Profile im Standardbildkatalog. Auf diese Profile kann entweder über ihre allgemeinen Namen (wie in Photoshop zu sehen) oder mit einer etwas kürzeren Kennung zugegriffen werden. In der folgenden Tabelle sind alle standardmäßigen ICC-Profile aufgeführt. Wenn im `icc=`-Befehl über den allgemeinen Namen auf ein Profil verwiesen wird, müssen Leerzeichen als `%20` codiert werden.
 
 Zusätzliche Profile können entweder zum Standardkatalog oder zu einem bestimmten Bildkatalog zu den Standardprofilen hinzugefügt werden. Weitere Informationen finden Sie in [ICC-](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)-Referenz“.
 
@@ -162,4 +162,4 @@ Die folgende Tabelle gilt für *Dynamic Media Classic Image Serving* und *Dynami
 
 ## Verwandte Themen {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[International Color Consortium](https://www.color.org/index.xalter), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [attribute::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;, [attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;, [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [attribute::IccPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f): IccDither[&#128279;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b),ICC Profile Map[&#128279;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), bgc=, [&#128279;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88) [*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[International Color Consortium](https://www.color.org/index.xalter), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [attribute::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;, [attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;, [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [attribute::IccPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f): IccDither[,ICC Profile Map](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [color=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [bgc=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88) [*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

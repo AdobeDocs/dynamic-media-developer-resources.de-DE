@@ -1,6 +1,6 @@
 ---
 title: Aktualisierung von IS 4.7.4 oder höher
-description: Gehen Sie wie folgt vor, wenn Sie ein Upgrade von Dynamic Media Image Serving unter Linux® durchführen.
+description: Gehen Sie wie folgt vor, wenn Sie Dynamic Media Image Serving unter Linux® aktualisieren.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aktualisierung von IS 4.7.4 oder höher{#updating-from-is-or-later}
 
-Gehen Sie wie folgt vor, wenn Sie ein Upgrade von Dynamic Media Image Serving unter Linux® durchführen.
+Gehen Sie wie folgt vor, wenn Sie Dynamic Media Image Serving unter Linux® aktualisieren.
 
 Wenn Sie von einer älteren Version von Image Serving aktualisieren, wenden Sie sich für den richtigen Prozess an den Support.
 

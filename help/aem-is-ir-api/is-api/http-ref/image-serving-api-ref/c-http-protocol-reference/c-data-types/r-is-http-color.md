@@ -19,7 +19,7 @@ Farbwerte. Sie können Farbwerte entweder mit Hexadezimalnotation, einer kommage
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Farbe</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&lub;&lub;<span class="varname"> grau</span>[,<span class="varname"> alpha</span>][g]&rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rot</span>,<span class="varname"> grün</span>,<span class="varname"> blau</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> gelb</span>, <span class="varname"> schwarz</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&rcub;[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lub;&amp;lub;<span class="varname"> grau</span>[,<span class="varname"> alpha</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rot</span>,<span class="varname"> grün</span>,<span class="varname"> blau</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> gelb</span>, <span class="varname"> schwarz</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> rot</span>, <span class="varname"> grün</span>, <span class="varname"> blau</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
@@ -61,7 +61,7 @@ Farbkomponentenwerte werden als unabhängig vom Alpha-Wert angenommen (nicht vor
 
 Bei allen Farbwerten, Präfixen und Suffixen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-Für CMYK-Farbwerte ist das Typsuffix &#39;k&#39; erforderlich. Für RGB- und Grauwerte kann optional ein Typsuffix angegeben werden.
+Für CMYK-Farbwerte ist das Typsuffix &#39;k&#39; erforderlich. Ein Typsuffix kann optional für RGB- und Grauwerte angegeben werden.
 
 Das Präfix &#39;0x&#39; ist für hexadezimale Grauwerte erforderlich.
 

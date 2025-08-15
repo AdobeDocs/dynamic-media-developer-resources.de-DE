@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Der Zeitwert *`hh`* liegt im Bereich von 0 bis 23.
 
 Der Zeitwert *`zzz`* ist ein drei- oder vierstelliger Zeitzonencode, z. B. `GMT` oder `PST`. Die Sommerzeit muss im Zeitzonen-Code berücksichtigt werden (z. B. `PST` für Pacific Standard Time oder `PDT` für Pacific Daylight Savings Time).
 
-Der Zeitwert *`offset`* ist ein Zeitzonenversatz in Stunden oder Stunden:Minuten, relativ zu GMT. `PDT` entspricht beispielsweise `GMT -7`.
+Der Zeitwert *`offset`* ist ein Zeitzonenversatz in Stunden oder Stunden:minutes relativ zum GMT. `PDT` entspricht beispielsweise `GMT -7`.
 
 Alle Elemente von zeichenfolgenformatierten Datums-/Uhrzeitwerten müssen vorhanden sein. Wenn der Datums-/Uhrzeitwert nicht korrekt formatiert ist, wird er ignoriert und stattdessen die Änderungszeit der Datei [!DNL *`catalog`*.ini] verwendet.
 

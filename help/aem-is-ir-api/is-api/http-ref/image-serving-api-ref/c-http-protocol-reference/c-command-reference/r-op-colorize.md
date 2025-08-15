@@ -21,7 +21,7 @@ Bild einfärben. Färbt die Bilddaten unter Beibehaltung von Schatten und Hervor
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">-</span> </p> </td> 
-  <td class="stentry"> <p>Ersatz-RGB-Farbe. </p> </td> 
+  <td class="stentry"> <p>RGB-Ersatzfarbe. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> von </span> </p> </td> 

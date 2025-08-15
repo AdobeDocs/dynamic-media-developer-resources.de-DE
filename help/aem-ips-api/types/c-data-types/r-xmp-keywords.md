@@ -32,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Elemente</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Eine kommagetrennte Liste von Schlüsselwörtern, die im <span class="codeph"> dc:subject=</span> XMP-Eigenschaftenknoten zusammengeführt werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, muss es mit einem umgekehrten Schrägstrich (\) escaped werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden. </p> </td> 
+   <td colname="col3"> <p>Eine kommagetrennte Liste von Schlüsselwörtern, die im <span class="codeph"> Eigenschaftenknoten dc:subject=</span> XMP zusammengeführt werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, muss es mit einem umgekehrten Schrägstrich (\) escaped werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

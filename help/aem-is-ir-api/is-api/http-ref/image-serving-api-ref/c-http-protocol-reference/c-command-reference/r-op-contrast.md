@@ -31,7 +31,7 @@ Ebenenbefehl. Gilt für die aktuelle Ebene oder das zusammengesetzte Bild, falls
 
 ## Standard {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, für keine Kontraständerung. CMYK-Bilder oder -Ebenen werden vor dem Anwenden des Vorgangs in RGB konvertiert.
+`op_contrast=0`, für keine Kontraständerung. CMYK-Bilder oder -Ebenen werden in RGB konvertiert, bevor der Vorgang angewendet wird.
 
 ## Beispiel {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 

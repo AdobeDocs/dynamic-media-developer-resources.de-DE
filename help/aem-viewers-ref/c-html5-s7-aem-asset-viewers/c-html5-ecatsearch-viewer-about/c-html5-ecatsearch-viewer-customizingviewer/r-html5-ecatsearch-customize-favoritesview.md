@@ -130,7 +130,7 @@ Das Erscheinungsbild der Miniaturbildbeschriftung wird mit dem folgenden CSS-Kla
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> </span> der Schriftfamilie <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> der Schriftfamilie </span> </p> </td> 
    <td colname="col2"> <p>Schriftart. </p> </td> 
   </tr> 
   <tr> 

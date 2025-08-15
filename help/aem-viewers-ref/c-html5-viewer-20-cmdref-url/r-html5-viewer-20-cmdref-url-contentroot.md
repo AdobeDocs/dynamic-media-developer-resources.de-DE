@@ -22,7 +22,7 @@ Für alle Viewer gemeinsamer Parameter.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt den Basispfad zu benutzerdefinierten CSS-Dateien, Untertitelinhalten oder Navigationsinhalten an. </p> <p>Wenn der Pfad keinen <span class="filepath"> /</span> hat, ist er relativ zum Speicherort der Viewer-HTML-Seite. Wenn der Pfad ein vorangestelltes <span class="filepath"> /</span> aufweist, wird ein absoluter Pfad auf demselben Server angegeben. </p> <p> Wirkt sich nicht auf das Laden der standardmäßigen CSS-Datei aus, wenn Sie keinen Stilbefehl angeben. </p> </td> 
+   <td colname="col2"> <p>Gibt den Basispfad zu benutzerdefinierten CSS-Dateien, Untertitelinhalten oder Navigationsinhalten an. </p> <p>Wenn der Pfad keinen <span class="filepath"> /</span> hat, ist er relativ zum Speicherort der HTML-Seite des Viewers. Wenn der Pfad ein vorangestelltes <span class="filepath"> /</span> aufweist, wird ein absoluter Pfad auf demselben Server angegeben. </p> <p> Wirkt sich nicht auf das Laden der standardmäßigen CSS-Datei aus, wenn Sie keinen Stilbefehl angeben. </p> </td> 
   </tr> 
  </tbody> 
 </table>

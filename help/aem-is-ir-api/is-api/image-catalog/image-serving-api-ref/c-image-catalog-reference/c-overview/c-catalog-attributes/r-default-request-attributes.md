@@ -44,7 +44,7 @@ Katalogattributdateien erkennen diese Standardattribute für Anfragen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality</a></span> </p> </td> 
-   <td colname="col2"> <p> Standard-JPEG-Encoder-Einstellungen. </p> </td> 
+   <td colname="col2"> <p> Standardeinstellungen des JPEG-Encoders. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 

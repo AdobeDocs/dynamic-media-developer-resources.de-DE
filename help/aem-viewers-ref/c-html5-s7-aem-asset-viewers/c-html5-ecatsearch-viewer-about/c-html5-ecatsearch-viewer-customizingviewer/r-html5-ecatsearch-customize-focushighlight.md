@@ -29,7 +29,7 @@ Das Erscheinungsbild der Fokushervorhebung wird mit dem folgenden CSS-Klassensel
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> Fokushervorhebung - Stil. </p> </td> 
   </tr> 
  </tbody> 

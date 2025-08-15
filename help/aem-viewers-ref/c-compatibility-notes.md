@@ -53,7 +53,7 @@ Kompatibilitätshinweise für Betriebssysteme, Browser und Mobilgeräte.
 
 ## HTML5-Video-Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` Modifikator wird nur mit Software HLS und Flash HDS-Wiedergabe unterstützt. Dies funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
+* `IntialBitRate` Modifikator wird nur mit Software HLS und Flash HDS Wiedergabe unterstützt. Dies funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
 * Die progressive Wiedergabe von OGG und WebM wird nicht unterstützt.
 * Durch die Browser-Skalierung wird der Video-Player in einer falschen Größe angezeigt (einschließlich Anzeigeeinstellungen in der Windows®-Systemsteuerung).
 * Videosuchvorgänge mit HLS-Streaming in Safari sind inkonsistent.

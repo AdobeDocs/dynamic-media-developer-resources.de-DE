@@ -1,6 +1,6 @@
 ---
 title: Vertrauenswürdige Domains
-description: Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften von Bildern zugegriffen werden, die im SWF-Format bereitgestellt werden. Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
+description: Web-Domains von Flash-Anwendungen. Für Adobe Flash-Anwendungen ist möglicherweise der Zugriff auf die Eigenschaften von Bildern erforderlich, die im SWF-Format bereitgestellt werden. Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Vertrauenswürdige Domains{#trusteddomains}
 
-Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften von Bildern zugegriffen werden, die im SWF-Format bereitgestellt werden. Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
+Web-Domains von Flash-Anwendungen. Für Adobe Flash-Anwendungen ist möglicherweise der Zugriff auf die Eigenschaften von Bildern erforderlich, die im SWF-Format bereitgestellt werden. Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
 
 ## Eigenschaften {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 

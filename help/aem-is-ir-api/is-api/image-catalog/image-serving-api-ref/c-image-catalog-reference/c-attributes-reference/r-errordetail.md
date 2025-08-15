@@ -33,7 +33,7 @@ Die folgenden Werte sind zulässig:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Vollständige Debug-Informationen. Fügt ggf. Java-Stacktraces hinzu. Fehlerbilder enthalten nie Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. Diese Informationen können beim Melden von Problemen an den technischen Support von Dynamic Media hilfreich sein. </p></td> 
+  <td class="stentry"> <p>Vollständige Debug-Informationen. Fügt ggf. Java-Stacktraces hinzu. Fehlerbilder enthalten nie Stacktraces und geben stattdessen Informationen der Stufe 2 in <span class="codeph"> $error.message</span> zurück. Diese Informationen können beim Melden von Problemen an den technischen Support von Dynamic Media nützlich sein. </p></td> 
  </tr> 
 </table>
 

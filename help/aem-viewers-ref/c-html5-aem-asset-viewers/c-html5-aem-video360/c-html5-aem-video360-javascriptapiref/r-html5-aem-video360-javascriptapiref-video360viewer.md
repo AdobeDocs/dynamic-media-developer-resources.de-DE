@@ -18,7 +18,7 @@ JavaScript-API-Referenz für Video360-Viewer.
 
 `Video360Viewer([config])`
 
-Erstellt eine neue HTML5-Video360-Viewer-Instanz.
+Erstellt eine neue HTML5 Video360-Viewer-Instanz.
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

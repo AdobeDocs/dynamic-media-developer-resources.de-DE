@@ -1,6 +1,6 @@
 ---
 title: Farbwerte
-description: Farbwerte für die Attribute color= und bgc= können entweder mit einer Liste von dezimalen, kommagetrennten Komponentenwerten oder einer Hexadezimalnotation angegeben werden, ähnlich wie beim HTML.
+description: Farbwerte für die Attribute color= und bgc= können entweder mithilfe einer Liste von dezimalen, kommagetrennten Komponentenwerten oder einer Hexadezimalnotation angegeben werden, ähnlich wie in HTML.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Farbwerte{#color-values}
 
-Farbwerte für `color=`- und `bgc=` können entweder mithilfe einer Liste von dezimalen, kommagetrennten Komponentenwerten oder einer Hexadezimalnotation angegeben werden, ähnlich wie beim HTML.
+Farbwerte für `color=`- und `bgc=` können entweder mithilfe einer Liste von dezimalen, kommagetrennten Komponentenwerten oder einer Hexadezimalnotation angegeben werden, ähnlich wie in HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -37,7 +37,7 @@ Farbwerte für `color=`- und `bgc=` können entweder mithilfe einer Liste von de
 
 ## Beispiele {#section-a78732151d584e84abeb99f9ce8d7c24}
 
-Beispiele für gültige Farbspezifikatoren und ihre entsprechende Interpretation der RGB-Farbwerte:
+Einige Beispiele für gültige Farbspezifikatoren und ihre entsprechende RGB-Farbwertinterpretation:
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 

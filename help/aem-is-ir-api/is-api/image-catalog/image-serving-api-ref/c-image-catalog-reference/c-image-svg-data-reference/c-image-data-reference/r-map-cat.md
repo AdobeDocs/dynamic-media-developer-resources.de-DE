@@ -1,5 +1,5 @@
 ---
-description: Imagemap-Daten. Keine oder mehr vollständige HTML <AREA>-Elemente, sortiert von vorn nach hinten.
+description: Imagemap-Daten. Keine oder mehrere vollständige HTML <AREA>-Elemente, von vorn nach hinten sortiert.
 solution: Experience Manager
 title: Zuordnen
 feature: Dynamic Media Classic,SDK/API
@@ -20,7 +20,7 @@ Der Server interpretiert die Attribute SHAPE und COORDS und kann sie ändern (SH
 
 ## Eigenschaften {#section-f52d89fd399b4356ac05277e6c12f956}
 
-Text-Zeichenfolgenwert. Falls angegeben, muss es sich um ein oder mehrere vollständige HTML-`<AREA>` handeln.
+Text-Zeichenfolgenwert. Wenn angegeben, muss es sich um ein oder mehrere vollständige HTML-`<AREA>` handeln.
 
 Dieses Feld ist an der Lokalisierung von Textzeichenfolgen beteiligt. Siehe [Lokalisierung von Textzeichenfolgen](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in der *HTTP-Protokollreferenz* für Details.
 

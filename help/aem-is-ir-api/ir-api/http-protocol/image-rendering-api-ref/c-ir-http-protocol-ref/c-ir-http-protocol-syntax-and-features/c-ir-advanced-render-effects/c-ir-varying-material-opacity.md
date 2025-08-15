@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Die variable Deckkraft wird für Volltonfarben und wiederholbare Texturen unterstützt, die auf überlappende Objekte angewendet werden, sowie für Abziehbilder und Fensterabdeckungsmaterialien.
 
-Opazitätsinformationen können einfach über ein RGB-Bild mit einem Alphakanal bereitgestellt werden. Zusätzlich kann die Gesamtdeckkraft mit dem Befehl `opacity=` variiert werden (sowohl für RGB- als auch für RGBA-Bilder).
+Opazitätsinformationen können einfach mithilfe eines RGB-Bildes mit einem Alphakanal bereitgestellt werden. Darüber hinaus kann die Gesamtdeckkraft mit dem Befehl `opacity=` variiert werden (sowohl für RGB- als auch für RGBA-Bilder).
 
 Wandränder unterstützen auch RGBA-Bilder, vor allem um gestanzte Ränder zu unterstützen.
 

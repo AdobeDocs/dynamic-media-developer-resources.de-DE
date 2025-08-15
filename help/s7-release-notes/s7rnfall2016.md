@@ -1,6 +1,6 @@
 ---
 title: Scene7-Version Herbst 2016
-description: Die neuesten Versionshinweise für Adobe Scene7 Version Herbst 2016, Teil der Adobe Experience Manager-Lösung in der Adobe Experience Cloud.
+description: Die neuesten Versionshinweise für Adobe Scene7 Version vom Herbst 2016, Teil der Adobe Experience Manager-Lösung in Adobe Experience Cloud.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Scene7-Version Herbst 2016{#scene-fall-release}
 
-Die neuesten Versionshinweise für Adobe Scene7 Herbst 2016 sind Teil der Adobe Experience Manager-Lösung in Adobe Experience Cloud.
+Die neuesten Versionshinweise für Adobe Scene7 vom Herbst 2016 sind Teil der Adobe Experience Manager-Lösung in Adobe Experience Cloud.
 
 ## Scene7-Version Herbst 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -25,23 +25,23 @@ Die neuesten Versionshinweise für [!DNL Adobe Scene7] Herbst 2016 sind Teil der
 * [Viewer (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Viewer (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Viewer (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [HTML5-Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
 * [Dynamic Media Classic Image Serving 6.3.2 und Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Allgemein {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe freut sich, die Verfügbarkeit der Bereitstellung von Inhalten per HTTP/2 mit dem allgemeinen Vorteil einer verbesserten Leistung bekannt geben zu können.
+Adobe freut sich, die Verfügbarkeit der Bereitstellung von Inhalten per HTTP/2 bekannt geben zu können, was insgesamt den Vorteil einer verbesserten Leistung bietet.
 
-Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=de#dynamic).
+Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=de](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=de)
+Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen**
 
 * Die Videoausschnittfunktion wurde aus [!DNL Adobe Scene7 Publishing System] Benutzeroberfläche entfernt.
-* Authentifizierung wurde, wo erforderlich und möglich, zu allen Scene7-Servlets hinzugefügt
+* Authentifizierung wurde nach Bedarf und Möglichkeit zu allen Scene7-Servlets hinzugefügt
 * Fehlerbehebung bei der Listenansicht im Papierkorb.
 * Die **&quot;Dynamic Media Classic (Scene7) Admin erstellen** wurde aus Sicherheitsgründen aus der Benutzerverwaltung entfernt.
 * FTP WebAdmin unterstützt jetzt die OKTA-Authentifizierung.
@@ -50,15 +50,15 @@ Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe
 * Gelöste Probleme mit vollständigem WebAdmin-Stammdatenträger.
 * Fehlerbehebung, bei der ein Benutzer deaktiviert wurde, wird nicht sofort in der Benutzeroberfläche angezeigt.
 * Fehlerkorrektur - Beim Löschen eines Benutzers kann der Benutzer später nicht neu erstellt werden.
-* Fehlerbehebung bei der Begrüßungs-E-Mail, die an neue Scene7-Benutzende gesendet wurde, die zur Steuerung bestimmter Einstellungen keine Authentifizierung enthielten.
+* Fehlerbehebung bei der Begrüßungs-E-Mail, die an neue Scene7-Benutzer gesendet wurde, aber keine Authentifizierung zur Steuerung bestimmter Einstellungen enthielt.
 * Fehlerbehebung, durch die eine FTP-Ordnerliste nicht abgerufen werden konnte, wenn ein Ordner Sonderzeichen im Namen enthielt.
 * Konfigurieren Sie OKTA-Service-Provider für Scene7-Umgebungen.
-* Unterstützung für Experience Cloud-Organisations-ID für Viewer Analytics hinzugefügt.
-* Scene7 SAML Consumer implementiert.
+* Es wurde Unterstützung für die Experience Cloud-Organisations-ID für Viewer Analytics hinzugefügt.
+* Scene7 SAML-Verbraucher implementiert.
 
 ## Viewer (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerbehebungen für Image Serving 5.5.3**
 
@@ -68,20 +68,20 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 ## Viewer (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerbehebungen für Image Serving 5.5.2**
 
 * Das Video konnte in Internet Explorer 11 unter Windows 7 nicht wiedergegeben werden.
-* `initialframe` hat den Hochformat-Modus auf Mobilgeräten für den HTML5-E-Katalog nicht beeinflusst.
+* `initialframe` hat den Hochformat-Modus auf Mobilgeräten für den HTML5 eCatalog nicht beeinflusst.
 
 ## Viewer (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen für Image Serving 5.5.1**
 
-* HTML5 eCatalog Viewer mit Suchfunktion.
+* HTML5 E-Katalog-Viewer mit Suchfunktion.
 * HLS-Streaming-Videowiedergabe wurde als Standardmethode für die Videobereitstellung für die meisten Desktop-Systeme hinzugefügt. Flash-basiertes HDS-Video-Streaming ist weiterhin als alternative Wiedergabeoption verfügbar.
 * Es wurde Unterstützung für Geräte mit Maus- und Touch-Eingabe hinzugefügt, auf denen der Chrome-Browser ausgeführt wird.
 * Unterstützung der Experience Cloud-Organisations-ID zur Analytics-Integration hinzugefügt.
@@ -121,13 +121,13 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 * HTC-Mobilgeräte
 
-   * Die Ergebnisse der Adobe von HTC-Mobilgeräten zeigen, dass die Unfähigkeit, den nativen Pinch-Zoom zu deaktivieren, eine „Funktion“ des HTC-UI-Wrappers (HTC Sense) ist. Dieses Problem kann dazu führen, dass die gesamte Seite vergrößert wird, wenn die Geste „Zum Zoomen drücken“ im Viewer verwendet wird. Schlagen Sie stattdessen vor, doppelt zu tippen.
+   * HTC-Mobilgeräte Die Ergebnisse von Adobe zeigen, dass die Unfähigkeit, den nativen Pinch-Zoom zu deaktivieren, eine „Funktion“ von HTC UI Wrapper (HTC Sense) ist. Dieses Problem kann dazu führen, dass die gesamte Seite vergrößert wird, wenn die Geste „Zum Zoomen drücken“ im Viewer verwendet wird. Schlagen Sie stattdessen vor, doppelt zu tippen.
    * Imagemap-Symbole können sich überschneiden, wenn die Imagemaps klein sind und nahe beieinander liegen.
 
 * HTML5-Video
 
    * Internet Explorer 9: Benutzerdefinierte Posterbilder werden nicht angezeigt.
-   * `IntialBitRate` Modifikator wird nur mit Software HLS und Flash HDS-Wiedergabe unterstützt. Dies funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
+   * `IntialBitRate` Modifikator wird nur mit Software HLS und Flash HDS Wiedergabe unterstützt. Dies funktioniert nicht, wenn die Wiedergabe den nativen Player verwendet.
    * Die progressive Wiedergabe von OGG und WebM wird derzeit nicht unterstützt.
    * Die Browser-Skalierung kann dazu führen, dass der Video-Player in einer falschen Größe angezeigt wird (einschließlich Anzeigeeinstellungen in der Systemsteuerung des Windows-Betriebssystems).
    * Videosuchvorgänge mit HLS-Streaming in Safari können inkonsistent sein.
@@ -164,7 +164,7 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
    * Bildvorgaben werden nicht unterstützt.
    * Das Hinzufügen oder Entfernen eines Viewers aus dem DOM mithilfe `display:none` CSS oder durch dynamisches Trennen vom übergeordneten Knoten wird derzeit nicht unterstützt.
 
-* HTML5 Alle Viewer
+* HTML5 - Alle Betrachter
 
    * Das Einbetten des Viewers in die Tabelle kann dazu führen, dass die Größe des Viewers falsch eingestellt oder der Viewer im nicht nativen Vollbildmodus platziert wird. Schlagen Sie vor, stattdessen DIVs zu verwenden.
    * Parameter mit expliziten Instanznamen im Code erfordern, dass Instanznamen in der URL ebenfalls überschrieben werden (z. B. `zoomView.iconfeffect=0`).
@@ -190,8 +190,8 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 * HTML5-Video
 
-   * Auf dem Posterbild kann der Fehler „max size“ auftreten. Das Unternehmen muss die Limiteinstellung für Image Serving Publish erhöhen.
-   * Videountertitel erfordern einen Regelsatz des Unternehmens, wenn das Hosten der HTML-Seite von einem externen Server (kein Scene7-Server) bereitgestellt wird. Wenden Sie sich an den Adobe-Support.
+   * Auf dem Posterbild kann der Fehler „max size“ auftreten. Das Unternehmen muss die Einstellung für das Limit für die Image-Serving-Veröffentlichung erhöhen.
+   * Für Videobeschriftungen ist ein Regelsatz des Unternehmens erforderlich, wenn das Hosten der HTML-Seite von einem externen Server (kein Scene7-Server) erfolgt. Wenden Sie sich an den Adobe-Support.
    * Das Analytics-Tracking meldet möglicherweise einen falschen Wiedergabeprozentsatz aufgrund der Pufferung
    * Auf iPad- oder Android™-Geräten wird möglicherweise ein schwarzer Rahmen anstelle eines Posterbilds angezeigt.
    * Beim Laden des Viewers auf iPad- oder Android™-Geräten wird ein schwarzer Frame möglicherweise auf dem Bildschirm blinkt.
@@ -203,12 +203,12 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 ## Scene7 HTML5-Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-Installation. Die Dokumentation zur Komponenten-API befindet sich im Unterordner „docs“ der Client-Installation.
+Das Benutzerhandbuch befindet sich im Adobe HTML5 Viewer SDK-Ordner der Client-Installation. Die Dokumentation zur Komponenten-API befindet sich im Unterordner „docs“ der Client-Installation.
 
 **Fehlerbehebungen für 3.0.2**
 
 * VideoPlayer - Video konnte in Internet Explorer 11 unter Windows 7 nicht wiedergegeben werden.
-* TableOfContents : `initialframe` hat den Hochformat-Modus auf Mobilgeräten für den HTML5-E-Katalog-Viewer nicht beeinflusst.
+* TableOfContents - `initialframe` hat den Hochformat-Modus auf Mobilgeräten für den HTML5 eCatalog-Viewer nicht beeinflusst.
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen für 3.0.1**
 
@@ -302,7 +302,7 @@ Das Benutzerhandbuch befindet sich im Ordner Adobe HTML5 Viewer SDK der Client-I
 
 * Behälter
 
-   * Rahmen, Auffüllung und Ränder auf dem Container werden nicht unterstützt. Adobe schlägt vor, dem übergeordneten DIV Stilelemente hinzuzufügen.
+   * Rahmen, Auffüllung und Ränder auf dem Container werden nicht unterstützt. Adobe empfiehlt, dem übergeordneten DIV Stilelemente hinzuzufügen.
    * Muss die Container-Größe explizit festlegen, da ansonsten die Größe der Komponenten korrekt sein kann.
 
 * Komponente drucken

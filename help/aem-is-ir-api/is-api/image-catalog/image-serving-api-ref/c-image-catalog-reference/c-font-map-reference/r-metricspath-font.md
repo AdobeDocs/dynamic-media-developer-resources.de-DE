@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Dateipfad für Schriftmetriken. Pfad und Name einer Schriftmetrikdatei, einschließlich Dateisuffix.
 
-Wird für Schriftarten der Adobe Type 1 verwendet. Wenn nicht anders angegeben, versucht der Server, eine Schriftmetrikdatei im selben Ordner zu finden, in dem sich die Prinzipalschriftdatei befindet. Ein Fehler tritt auf, wenn eine erforderliche Schriftmetrikdatei zum Zeitpunkt des Renderns nicht gefunden werden kann.
+Wird für Adobe Type 1-Schriftarten verwendet. Wenn nicht anders angegeben, versucht der Server, eine Schriftmetrikdatei im selben Ordner zu finden, in dem sich die Prinzipalschriftdatei befindet. Ein Fehler tritt auf, wenn eine erforderliche Schriftmetrikdatei zum Zeitpunkt des Renderns nicht gefunden werden kann.
 
 ## Eigenschaften {#section-955268c581574875b05253d9e14544f3}
 
-Text-String Optional für Dateien der Adobe Type 1. Muss leer oder ein gültiger Bildserver-Dateipfad sein, entweder absolut oder relativ zu `attribute::RootPath`.
+Text-String Optional für Adobe Type 1-Dateien. Muss leer oder ein gültiger Bildserver-Dateipfad sein, entweder absolut oder relativ zu `attribute::RootPath`.
 
 ## Standard {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

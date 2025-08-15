@@ -33,7 +33,7 @@ Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-
 
 Der Zoom-Viewer stellt eine JavaScript-Hauptdatei und einen Satz Hilfsdateien (ein einzelnes JavaScript-Include mit allen Viewer-SDK-Komponenten, die von diesem bestimmten Viewer verwendet werden, Assets, CSS) dar, die vom Viewer zur Laufzeit heruntergeladen wurden.
 
-Sie können den Zoom-Viewer im Popup-Modus mit einer produktionsbereiten HTML-Seite verwenden, die mit IS-Viewers bereitgestellt wird, oder im eingebetteten Modus, wo er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
+Sie können den Zoom-Viewer im Popup-Modus mit einer produktionsbereiten HTML-Seite verwenden, die mit IS-Viewers bereitgestellt wird, oder im eingebetteten Modus, wo sie mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
 Konfiguration und Skinning sind mit denen der anderen Viewer vergleichbar. Die gesamte Skin-Verwaltung erfolgt über benutzerdefiniertes CSS.
 
@@ -65,7 +65,7 @@ Der Zoom-Viewer unterstützt die folgenden Touch-Gesten, die in anderen Mobile A
   </tr> 
   <tr> 
    <td colname="col1"> <p>Horizontales Wischen oder Schnipsen </p> </td> 
-   <td colname="col2"> <p> Scrollt durch die Liste der Farbfelder in der Farbfeldleiste. </p> <p> Wenn sich das Bild in einem zurückgesetzten Zustand befindet und der </span> für die <span class="codeph"> Bildübergänge auf „Folie“ gesetzt ist, wird das Asset mit der Folienanimation geändert. Für andere <span class="codeph"> Frametransition-</span> führt die Geste einen nativen Bildlauf der Seite durch. </p> <p> Wenn das Bild vergrößert wird, wird es horizontal verschoben. Wenn das Bild an den Ansichtsrand verschoben wird und ein Wischen in die gleiche Richtung ausgeführt wird, führt die Geste einen nativen Bildlauf der Seite durch. </p> </td> 
+   <td colname="col2"> <p> Scrollt durch die Liste der Farbfelder in der Farbfeldleiste. </p> <p> Wenn sich das Bild in einem zurückgesetzten Zustand befindet und der <span class="codeph"> für die </span> Bildübergänge auf „Folie“ gesetzt ist, wird das Asset mit der Folienanimation geändert. Für andere <span class="codeph"> Frametransition-</span> führt die Geste einen nativen Bildlauf der Seite durch. </p> <p> Wenn das Bild vergrößert wird, wird es horizontal verschoben. Wenn das Bild an den Ansichtsrand verschoben wird und ein Wischen in die gleiche Richtung ausgeführt wird, führt die Geste einen nativen Bildlauf der Seite durch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertikales Wischen </p> </td> 
@@ -88,7 +88,7 @@ Verschiedene Web-Seiten haben unterschiedliche Anforderungen an das Viewer-Verha
 
 Im Popup-Modus wird der Viewer in einem separaten Fenster oder einer separaten Registerkarte des Webbrowsers geöffnet. Sie nimmt den gesamten Browser-Fensterbereich in Anspruch und passt sich an, falls die Größe des Browsers geändert oder die Ausrichtung des Geräts geändert wird.
 
-Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, eines ordnungsgemäß konfigurierten HTML-Elements `A` einer anderen geeigneten Methode.
+Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, `A` ordnungsgemäß konfigurierten HTML-Elements oder einer anderen geeigneten Methode.
 
 Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Die vorkonfigurierte HTML-Seite heißt `ZoomViewer.html` und befindet sich im `html5/` Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung wie folgt:
 
@@ -96,7 +96,7 @@ Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus
 
 Wenden Sie benutzerdefiniertes CSS an, um ein benutzerdefiniertes Erscheinungsbild für die Seite zu erzielen.
 
-Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
+Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer im neuen Fenster öffnet:
 
 ```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
@@ -128,7 +128,7 @@ Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL ZoomViewer.js] einbeziehen. Die [!DNL ZoomViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
+   Um einen Viewer zu erstellen, müssen Sie ein -Skript-Tag in der Kopfzeile von HTML hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL ZoomViewer.js] einbeziehen. Die [!DNL ZoomViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
@@ -142,7 +142,7 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek, die vom Viewer aus `/s7viewers` Kontextpfad geladen wird (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert keine älteren Versionen der sekundären Viewer-`includes` auf dem Server.
 >
 >
 >Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
@@ -178,7 +178,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im folgenden Beispiel sehen Sie das Verhalten mit einem festen äußeren Viewer. Beachten Sie, dass sich beim Wechseln zwischen Sets die Größe des äußeren Viewers nicht ändert:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
    Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe des `.s7zoomviewer`- `.s7container` CSS-Selektors oder durch Verwendung `stagesize` Modifikators.
 
@@ -193,7 +193,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Die folgende Demoseite zeigt das Viewer-Verhalten mit einer festen Hauptansichtsgröße. Beachten Sie, dass beim Wechseln zwischen Sets die Hauptansicht statisch bleibt und der Webseiteninhalt vertikal verschoben wird.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    Sie können den Modifikator &quot;`stagesize`&quot; im Datensatz „Viewer-Vorgabe“ in Dynamic Media Classic festlegen. Sie können sie auch explizit mit dem Viewer-Initialisierungs-Code mit der `params`-Sammlung oder als API-Aufruf übergeben, wie im Abschnitt „Befehlsreferenz“ dieser Hilfe beschrieben, wie in der folgenden Abbildung dargestellt:
 

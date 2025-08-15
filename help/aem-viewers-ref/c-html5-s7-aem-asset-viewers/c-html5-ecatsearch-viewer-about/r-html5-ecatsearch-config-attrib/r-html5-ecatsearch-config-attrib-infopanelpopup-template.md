@@ -20,23 +20,23 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> Vorlage</span></span> </p> </td> 
-   <td> <p>Die Inhaltsvorlage, in der die vom Info-Server zurückgegebenen Daten zusammengeführt werden. </p> <p>Die Inhaltsvorlage ist eine XML, die dieser DTD folgt: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
+   <td> <p>Die Inhaltsvorlage, in der die vom Info-Server zurückgegebenen Daten zusammengeführt werden. </p> <p>Die Inhaltsvorlage ist eine XML, die dieser DTD folgt: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      &rbrack;&gt;</code> </p> <p>Die tatsächliche Syntax für die Inhaltsvorlage lautet wie folgt: </p> <p> <code>&lt;info&gt;
+      ]&gt;</code> </p> <p>Die tatsächliche Syntax für die Inhaltsvorlage lautet wie folgt: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
-      &lt;!&lbrack;CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>Das heißt, die Vorlage muss mit dem <span class="codeph"> &lt;info&gt;</span> beginnen, das optionale <span class="codeph"> &lt;var&gt;</span> enthalten kann. Der Vorlageninhalt selbst, <span class="codeph"> TEMPLATE_CONTENT, </span> aus HTML. Darüber hinaus kann die Inhaltsvorlage Variablennamen enthalten, die in <span class="codeph"> $</span>-Zeichen eingeschlossen sind. Diese Zeichen werden durch die Variablenwerte ersetzt, die der Info-Server zurückgibt, oder durch Standardwerte. </p> <p>Standardvariablen, die in der Vorlage definiert sind, können entweder global (wenn das rollover-Attribut nicht festgelegt ist) oder spezifisch für einen bestimmten rollover-Schlüssel (wenn das rollover-Attribut vorhanden ist) sein. </p> <p>Bei der Vorlagenverarbeitung haben Variablen, die für Rollover-Schlüssel spezifisch sind, Vorrang vor globalen Variablen. </p> </td> 
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
+      &lt;/info&gt;</code> </p> <p>Das heißt, die Vorlage muss mit dem <span class="codeph"> &lt;info&gt;</span> beginnen, das optionale <span class="codeph"> &lt;var&gt;</span> enthalten kann. Der Vorlageninhalt selbst, <span class="codeph"> TEMPLATE_CONTENT</span> ist HTML-Text. Darüber hinaus kann die Inhaltsvorlage Variablennamen enthalten, die in <span class="codeph"> $</span>-Zeichen eingeschlossen sind. Diese Zeichen werden durch die Variablenwerte ersetzt, die der Info-Server zurückgibt, oder durch Standardwerte. </p> <p>Standardvariablen, die in der Vorlage definiert sind, können entweder global (wenn das rollover-Attribut nicht festgelegt ist) oder spezifisch für einen bestimmten rollover-Schlüssel (wenn das rollover-Attribut vorhanden ist) sein. </p> <p>Bei der Vorlagenverarbeitung haben Variablen, die für Rollover-Schlüssel spezifisch sind, Vorrang vor globalen Variablen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Beachten Sie, dass beim Konfigurieren des Infobedienfeld-Popup der HTML-Code und der JavaScript-Code, die an das Infobedienfeld übergeben werden, auf dem Client-Computer ausgeführt werden. Stellen Sie daher sicher, dass dieser HTML-Code und JavaScript-Code sicher sind.
+>Beachten Sie, dass beim Konfigurieren des Infobedienfeld-Popup der an das Infobedienfeld übergebene HTML- und JavaScript-Code auf dem Client-Computer ausgeführt wird. Stellen Sie daher sicher, dass dieser HTML- und JavaScript-Code sicher sind.
 
 ## Eigenschaften {#section-6dd7785357d740d095fa9f7fd0f67da4}
 

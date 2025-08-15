@@ -30,8 +30,8 @@ Aktualisiert die Vignettenveröffentlichungsformateinstellungen.
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Firmengriff. |
-| vignetteFormatHandle | `xsd:string` | Ja | Publish-Formatgriff. |
-| name | `xsd:string` | Nein | Publish-Formatname. |
+| vignetteFormatHandle | `xsd:string` | Ja | Veröffentlichungsformat-Handle. |
+| name | `xsd:string` | Nein | Name des Veröffentlichungsformats. |
 | targetWidth | `xsd:int` | Ja | Gibt die Zielbreite der resultierenden Vignettenansicht in Pixel an. Verwenden Sie Null, damit die Ausgabe-Vignette dieselbe Größe wie die primäre Vignette hat. |
 | targetHeight | `xsd:int` | Ja | Gibt die Zielhöhe der resultierenden Vignettenansicht in Pixel an. Verwenden Sie Null, damit die Ausgabe-Vignette dieselbe Größe wie die primäre Vignette hat. |
 | createPyramid | `xsd:boolean` | Ja | Erstellt eine Pyramidenvignette, die für das Zoomen auf dem Bild-Rendering-Server optimiert ist. Beginnend mit der maximalen Größe, die durch die Felder Zielgröße der Vignette festgelegt wird, erstellt dies mehrere Größenansichten in einer einzigen Vignetten-Ausgabedatei. Jede darauffolgende Ansichtsgröße wird halbiert, bis die Breite und Höhe innerhalb von 128x128 Pixeln liegen. |

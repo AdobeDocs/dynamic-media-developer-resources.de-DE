@@ -18,7 +18,7 @@ JavaScript-API-Referenz für den Karussell-Viewer.
 
 `CarouselViewer([config])`
 
-Der -Konstruktor erstellt eine HTML 5-Karussell-Viewer-Instanz.
+Erstellt eine HTML 5-Karussell-Viewer-Instanz.
 
 ## Parameter {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

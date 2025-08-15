@@ -174,7 +174,7 @@ Die folgenden SYMBOLE werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Lautstärkeregler-Beschriftung, die über das </span>-Attribut ARIA <span class="codeph"> aria-value angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Lautstärkeregler-Beschriftung, die über das <span class="codeph">-Attribut ARIA </span> aria-value angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

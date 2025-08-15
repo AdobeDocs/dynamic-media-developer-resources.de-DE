@@ -64,7 +64,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der </span>-API <span class="codeph"> setAsset() getauscht. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der <span class="codeph">-API </span> setAsset() getauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -83,7 +83,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p> Ein aktueller Rahmen wird in der Hauptansicht geändert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Ein Infobedienfeld-Popup ist aktiviert. </p> </td> 
   </tr> 
   <tr> 

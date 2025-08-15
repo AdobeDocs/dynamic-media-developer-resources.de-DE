@@ -26,7 +26,7 @@ Ein Endbenutzer kann mit den Tastenkombinationen **[!UICONTROL Tab]** und **[!UI
 
 Je nach Betriebssystem und Webbrowser-Einstellungen erhält das Benutzeroberflächenelement mit Eingabefokus eine visuelle Fokusanzeige. Der visuelle Indikator kann beispielsweise ein dünner Rahmen sein, der um das Benutzeroberflächenelement gerendert wird.
 
-Es ist möglich, diese Fokushervorhebung im Viewer-CSS zu deaktivieren oder anzupassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. Basic Zoom oder Interaktives Video) auf **Anpassen *Viewer*** >**&#x200B; Fokushervorhebung &#x200B;**.
+Es ist möglich, diese Fokushervorhebung im Viewer-CSS zu deaktivieren oder anzupassen. Klicken Sie im Inhaltsverzeichnis dieses Hilfesystems unter einem bestimmten Viewer-Namen (z. B. Basic Zoom oder Interaktives Video) auf **Anpassen *Viewer*** >** Fokushervorhebung **.
 
 Tastenkombinationen, die von einzelnen Elementen der Viewer-Benutzeroberfläche unterstützt werden, sind - in den meisten Fällen - offensichtlich und einfach zu entdecken.
 

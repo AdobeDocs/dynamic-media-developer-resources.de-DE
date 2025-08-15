@@ -24,9 +24,9 @@ Immer mit einem Bild verknüpft. Sie können eine `ImageMap` Zielgruppe von `Ima
 |---|---|---|
 | imageMapHandle | `xsd:string` | Imagemap-Handle. |
 | [!DNL name] | `xsd:string` | Name der Imagemap. |
-| [!DNL region] | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf dem Tag-Attribut HTML `<area>` . |
-| [!DNL action] | `xsd:string` | Andere Attribute, die in das HTML-`<area>`-Tag aufgenommen werden sollen, einschließlich der `href` URL. |
+| [!DNL region] | `xsd:string` | Imagemap-Koordinaten. Das Format basiert auf dem `<area>`-Tag-Attribut von HTML. |
+| [!DNL action] | `xsd:string` | Andere Attribute, die in das HTML-`<area>`-Tag aufgenommen werden sollen, einschließlich der `href`-URL. |
 | formType | `xsd:boolean` | Ein [!DNL RegionShape]. |
-| [!DNL position] | `xsd:string` | Position im Format des [!DNL coords] des HTML-`<area>`. Beispiel: `coords ="0,0,84,128"`. |
+| [!DNL position] | `xsd:string` | Position im Format des `<area>`-Attributs des HTML-[!DNL coords]. Beispiel: `coords ="0,0,84,128"`. |
 | [!DNL enabled] | `xsd:boolean` | True, wenn die Imagemap aktiviert ist. |
 | lastModify | `xsd:dateTime` | Datum und Uhrzeit der letzten Änderung der Imagemap. |

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '252'
 ht-degree: 6%
 
 ---
@@ -34,17 +34,17 @@ Assets leben im Papierkorb, bis sie manuell geleert werden oder bis sie aus dem 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | companyHandle | xsd:string | Ja | Das -Handle an das Unternehmen, dem die Assets gehören. |
-| assetHandleArray | types:HandleArray | Ja | Das Array von Handles, die die Elemente darstellen, die aus dem Papierkorb geleert werden sollen. |
+| assetHandleArray | Typen:HandleArray | Ja | Das Array von Handles, die die Elemente darstellen, die aus dem Papierkorb geleert werden sollen. |
 
 **Ausgabe (emptyAssetsFromTrashParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| successCount | xsd:int | Ja | Die Anzahl der Assets, die erfolgreich aus dem Papierkorb geleert wurden. |
-| warningCount | xsd:int | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn versucht wurde, Assets aus dem Papierkorb zu leeren. |
-| errorCount | xsd:int | Ja | Die Anzahl der Fehler, die generiert wurden, als der Vorgang versucht hat, Assets aus dem Papierkorb zu leeren. |
-| warningDetailArray | types:AssetOperationFaultArray | Nein | Das Array von Details, die mit den Assets verknüpft sind und Warnungen generiert haben, wenn der Vorgang versucht hat, sie aus dem Papierkorb zu leeren. |
-| errorDetailArray | types:AssetOperationFaultArray | Nein | Das Array von Details, die mit den Assets verknüpft sind und Fehler generiert haben, als der Vorgang versucht hat, sie aus dem Papierkorb zu leeren. |
+| successCount | xsd:Int | Ja | Die Anzahl der Assets, die erfolgreich aus dem Papierkorb geleert wurden. |
+| warningCount | xsd:Int | Ja | Die Anzahl der Warnungen, die generiert wurden, wenn versucht wurde, Assets aus dem Papierkorb zu leeren. |
+| errorCount | xsd:Int | Ja | Die Anzahl der Fehler, die generiert wurden, als der Vorgang versucht hat, Assets aus dem Papierkorb zu leeren. |
+| warningDetailArray | Typen:AssetOperationFaultArray | Nein | Das Array von Details, die mit den Assets verknüpft sind und Warnungen generiert haben, wenn der Vorgang versucht hat, sie aus dem Papierkorb zu leeren. |
+| errorDetailArray | Typen:AssetOperationFaultArray | Nein | Das Array von Details, die mit den Assets verknüpft sind und Fehler generiert haben, als der Vorgang versucht hat, sie aus dem Papierkorb zu leeren. |
 
 ## Beispiele {#section-6154a873b6c342bf92e2036280cafdcf}
 

@@ -22,7 +22,7 @@ Vorlagen werden als Datensätze in Bildkatalogen gespeichert, wobei der Vorlagen
 
 Vorlagen werden mit dem Befehl `template=` oder in der Pfadkomponente der Anfrage-URL angegeben. Für die meisten Anwendungen wird empfohlen, den Befehl `template=` zum Angeben von Vorlagen zu verwenden. Der `template=`Befehl darf nicht im Feld &quot;`catalog::PostModifier`&quot; auftreten und darf nur im Feld &quot;`catalog::Modifier`&quot; in einer verschachtelten IS-Anfrage auftreten (d. h. in einem `src=is{...}`). Vorlagendatensätze dürfen in `src=`- oder `mask=`Befehlen nicht referenziert werden.
 
-Alle in `mask=` Vorlage eingebetteten `src=` oder Befehle können in den Hauptkatalog der Anfrage oder in einen anderen Bildkatalog aufgelöst werden. Wenn kein `rootId` explizit angegeben ist, wird der Hauptkatalog angenommen. Die mit `template=` angegebene Vorlage kann sich auch im Hauptkatalog oder einem anderen Bildkatalog befinden.
+Alle in `src=` Vorlage eingebetteten `mask=` oder Befehle können in den Hauptkatalog der Anfrage oder in einen anderen Bildkatalog aufgelöst werden. Wenn kein `rootId` explizit angegeben ist, wird der Hauptkatalog angenommen. Die mit `template=` angegebene Vorlage kann sich auch im Hauptkatalog oder einem anderen Bildkatalog befinden.
 
 Es wird dringend empfohlen, immer Standarddefinitionen für alle in einer Vorlage verwendeten Variablen einzuschließen. Auf diese Weise kann die Bildausgabe der Vorlage immer einfach durch Angabe von `attribute::RootId` und `catalog::Id` angezeigt werden, ohne wissen zu müssen, welche Variablen in der Vorlage verwendet werden.
 

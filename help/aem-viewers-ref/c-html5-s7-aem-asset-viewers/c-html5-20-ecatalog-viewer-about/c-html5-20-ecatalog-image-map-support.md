@@ -42,7 +42,7 @@ Stellen Sie abschließend sicher, dass die Viewer-Konfiguration die entsprechend
 
 >[!NOTE]
 >
->Beim Konfigurieren des Infobedienfeld-Popup werden der HTML-Code und der JavaScript-Code, die an das Infobedienfeld übergeben werden, auf dem Client-Computer ausgeführt. Stellen Sie daher sicher, dass dieser HTML-Code und JavaScript-Code sicher sind.
+>Wenn Sie das Infobedienfeld-Popup konfigurieren, werden der HTML-Code und der JavaScript-Code, die an das Infobedienfeld übergeben werden, auf dem Client-Computer ausgeführt. Stellen Sie daher sicher, dass dieser HTML- und JavaScript-Code sicher sind.
 
 ## Interne Hyperlinks {#section-6afa4fb2fe564c429e0201f019a95849}
 

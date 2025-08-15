@@ -43,7 +43,7 @@ Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entwed
 
 ## Beispiel {#section-a33f6239476a4b438d939656ad99aa76}
 
-Eine allgemeine Anwendung von `scl=` finden Sie [ Beispiel in &quot;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)=&quot;.
+Eine allgemeine Anwendung von [ finden Sie ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) Beispiel in &quot;`scl=`=&quot;.
 
 ## Verwandte Themen {#section-ccefd5de59924059903d66d4974ce317}
 

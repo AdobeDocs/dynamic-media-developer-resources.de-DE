@@ -176,7 +176,7 @@ Die bevorzugte Methode zum Übergeben von Authentifizierungsdaten in API-Anfrage
    <td colname="col2"> <p> Gültige IP-Benutzer-E-Mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Kennwort für Benutzerkonto. </p> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ Die bevorzugte Methode zum Übergeben von Authentifizierungsdaten in API-Anfrage
    <td colname="col2"> <p> Optionales Gebietsschema für die Anfrage. Siehe <b>Gebietsschema</b> für Details. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AppName-</span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> AppName-<span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> Aufrufender Anwendungsname. Dieser Parameter ist optional, es wird jedoch empfohlen, ihn in alle Anfragen aufzunehmen. </p> </td> 
   </tr> 
   <tr> 
@@ -197,14 +197,14 @@ Die bevorzugte Methode zum Übergeben von Authentifizierungsdaten in API-Anfrage
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
-   <td colname="col2"> <p> Optionaler Parameter zum Überschreiben des HTTP-Status-Codes für Fehlerantworten. Standardmäßig geben Fehlerantworten den HTTP-Status-Code 500 zurück (Interner Server-Fehler). Einige Client-Plattformen, einschließlich Adobe-Flash, können den Antworttext nur lesen, wenn der Statuscode 200 (OK) zurückgegeben wird. </p> </td> 
+   <td colname="col2"> <p> Optionaler Parameter zum Überschreiben des HTTP-Status-Codes für Fehlerantworten. Standardmäßig geben Fehlerantworten den HTTP-Status-Code 500 zurück (Interner Server-Fehler). Einige Client-Plattformen, einschließlich Adobe Flash, können den Antworttext nur lesen, wenn der Status-Code 200 (OK) zurückgegeben wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Das `authHeader`-Element wird unabhängig von der API-Version immer im Namespace-`http://www.scene7.com/IpsApi/xsd` definiert.
 
-Im Folgenden finden Sie ein Beispiel für die Verwendung des `authHeader`-Elements in einem Anfrage-SOAP-Header:
+Im Folgenden finden Sie ein Beispiel für die Verwendung des `authHeader`-Elements in einer SOAP-Header-Anfrage:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,7 +219,7 @@ Im Folgenden finden Sie ein Beispiel für die Verwendung des `authHeader`-Elemen
 
 **Andere Authentifizierungsmethoden für Anfragen**
 
-Wenn es aus irgendeinem Grund für Ihre Client-Anwendung nicht möglich ist, den `authHeader`-SOAP-Header zu übergeben, können API-Anfragen auch Anmeldeinformationen mithilfe der HTTP-Standardauthentifizierung angeben (wie in RFC 2617 angegeben).
+Wenn es aus irgendeinem Grund für Ihre Client-Anwendung nicht möglich ist, den `authHeader` SOAP-Header zu übergeben, können API-Anfragen auch Anmeldeinformationen mithilfe der HTTP-Standardauthentifizierung angeben (wie in RFC 2617 angegeben).
 
 Für die HTTP-Standardauthentifizierung muss der HTTP-Header-Abschnitt jeder SOAP-POST-Anfrage eine Kopfzeile des Formulars enthalten:
 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP-Fehler**
 
-Wenn bei einem Vorgang eine Ausnahmebedingung auftritt, wird anstelle der normalen -Antwort ein SOAP-Fehler als Text der SOAP-Nachricht zurückgegeben. Wenn beispielsweise ein Benutzer ohne Administratorrechte versucht, die vorherige `addCompany`-Anfrage zu senden, wird die folgende Antwort zurückgegeben:
+Wenn bei einem Vorgang eine Ausnahmebedingung auftritt, wird ein SOAP-Fehler als Text der SOAP-Nachricht anstelle der normalen Antwort zurückgegeben. Wenn beispielsweise ein Benutzer ohne Administratorrechte versucht, die vorherige `addCompany`-Anfrage zu senden, wird die folgende Antwort zurückgegeben:
 
 ```
 HTTP/1.1 500 Internal Server Error 

@@ -68,7 +68,7 @@ Verwenden Sie die folgenden Befehle für erweiterte Textformatierung.
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>Vertikale Zeichenskalierung. </p> </td> 
-   <td> <p>Positiver oder negativer Prozentsatz; Standardwert ist 100; Dynamic Media-Erweiterung. </p> <p> <span class="codeph"> \CharScaley </span> auch den Zeilenabstand skalieren, wenn er mit <span class="codeph"> text= </span> angewendet wird. <span class="codeph"> textPs= </span> behält den Zeilenabstand bei, unabhängig vom Umfang der vertikalen Zeichenskalierung. </p> </td> 
+   <td> <p>Positiver oder negativer Prozentsatz; Standard ist 100; Dynamic Media-Erweiterung. </p> <p> <span class="codeph"> \CharScaley </span> auch den Zeilenabstand skalieren, wenn er mit <span class="codeph"> text= </span> angewendet wird. <span class="codeph"> textPs= </span> behält den Zeilenabstand bei, unabhängig vom Umfang der vertikalen Zeichenskalierung. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 

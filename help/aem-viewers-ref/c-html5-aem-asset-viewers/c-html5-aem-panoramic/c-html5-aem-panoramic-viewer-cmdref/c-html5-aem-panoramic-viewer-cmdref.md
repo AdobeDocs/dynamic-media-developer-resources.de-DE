@@ -17,7 +17,7 @@ Dokumentation zu Konfigurationsattributen für den Panorama-Viewer.
 
 Jeder Konfigurationsbefehl kann in der URL oder mithilfe von `setParam()`- und/oder `setParams()`-API-Methoden festgelegt werden. Jedes Konfigurationsattribut kann auch im serverseitigen Konfigurationsdatensatz angegeben werden.
 
-Einigen Konfigurationsbefehlen kann der Klassenname oder der Instanzname der entsprechenden HTML5-SDK-Komponente vorangestellt werden. Ein Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an `setContainerId()` API-Methode übergeben wird. Die Dokumentation enthält ein optionales Präfix für solche Befehle. Beispielsweise wird `vrrender` Befehl wie folgt dokumentiert:
+Einigen Konfigurationsbefehlen kann der Klassenname oder der Instanzname der entsprechenden HTML5 SDK-Komponente vorangestellt werden. Ein Instanzname der Komponente ist dynamisch und hängt von der ID des Viewer-Container-DOM-Elements ab, das an `setContainerId()` API-Methode übergeben wird. Die Dokumentation enthält ein optionales Präfix für solche Befehle. Beispielsweise wird `vrrender` Befehl wie folgt dokumentiert:
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

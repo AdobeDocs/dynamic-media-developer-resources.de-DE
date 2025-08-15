@@ -1,6 +1,6 @@
 ---
 title: Twitter-Freigabe
-description: Das twitter-Freigabetool besteht aus einer Schaltfläche, die dem Social-Sharing-Bedienfeld hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+description: Das Twitter-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Twitter-Freigabe{#twitter-share}
 
-Das twitter-Freigabetool besteht aus einer Schaltfläche, die dem Social-Sharing-Bedienfeld hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+Das Twitter-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Das Erscheinungsbild der Twitter-Freigabeschaltfläche wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Das Erscheinungsbild der Twitter-Freigabe-Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7smartcropvideoviewer .s7twittershare
@@ -55,7 +55,7 @@ Sie können die Schaltfläche aus dem Bedienfeld Social-Freigabe entfernen, inde
 
 Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung von Benutzeroberflächenelementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) für weitere Informationen.
 
-Beispiel: So richten Sie eine Twitter-Freigabeschaltfläche ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
+Beispiel: So richten Sie eine Twitter-Freigabe-Schaltfläche mit einer Größe von 28 x 28 Pixel ein, die für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
 ```
 .s7smartcropvideoviewer .s7twittershare { 

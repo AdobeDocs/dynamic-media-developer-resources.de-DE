@@ -25,7 +25,7 @@ Erweiterte Render-Einstellungen. Gibt beim Rendern der aktuellen Auswahl anzuwen
  </tr> 
 </table>
 
-Wird zur Feinabstimmung des Render-Erscheinungsbilds verwendet. Verwenden Sie zum Erstellen von Zeichenfolgen für Render-Einstellungen die Render-Funktion des Vignette Authoring Tool (Teil des Dynamic Media Image Authoring-Pakets).
+Wird zur Feinabstimmung des Render-Erscheinungsbilds verwendet. Um Zeichenfolgen für Render-Einstellungen zu erstellen, verwenden Sie die Render-Funktion des Vignette Authoring-Tools (Teil des Dynamic Media Image Authoring-Pakets).
 
 ## Eigenschaften {#section-9a2b2228789046658cb80eddf343af75}
 

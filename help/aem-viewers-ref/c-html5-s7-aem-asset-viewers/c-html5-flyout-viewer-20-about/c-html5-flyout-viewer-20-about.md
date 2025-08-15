@@ -82,7 +82,7 @@ Beim responsiven Design-Einbettungsmodus wird davon ausgegangen, dass die Größ
 
 Wenn Sie den responsiven Design-Einbettungsmodus mit dem Flyout-Viewer verwenden, stellen Sie sicher, dass Sie explizite Haltepunkte für das Hauptansichtsbild mithilfe des `imagereload` angeben. Idealerweise sollten Sie Ihre Breakpoints entsprechend den Viewer-Breitenhaltepunkten der Web-Seiten-CSS anpassen.
 
-Im responsiven Design-Einbettungsmodus verhält sich der Viewer je nach der Größe eines Web-Seiten-Containers anders `DIV`. Wenn die Web-Seite nur die Breite des Container-`DIV` festlegt und seine Höhe nicht beschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktionalität bedeutet, dass das Asset perfekt in die Ansicht passt, ohne dass an den Seiten ein Abstand vorhanden ist. Dieser spezielle Anwendungsfall ist der häufigste für Web-Seiten, die responsive Layout-Frameworks wie Bootstrap und Foundation verwenden.
+Im responsiven Design-Einbettungsmodus verhält sich der Viewer je nach der Größe eines Web-Seiten-Containers anders `DIV`. Wenn die Web-Seite nur die Breite des Container-`DIV` festlegt und seine Höhe nicht beschränkt wird, wählt der Viewer automatisch seine Höhe entsprechend dem Seitenverhältnis des verwendeten Assets aus. Diese Funktionalität bedeutet, dass das Asset perfekt in die Ansicht passt, ohne dass an den Seiten ein Abstand vorhanden ist. Dieser spezielle Anwendungsfall ist der häufigste für Web-Seiten, die responsive Design-Layout-Frameworks wie Bootstrap und Foundation verwenden.
 
 Wenn die Web-Seite jedoch sowohl die Breite als auch die Höhe für die Container-`DIV` des Viewers festlegt, füllt der Viewer nur diesen Bereich aus und folgt der vom Web-Seiten-Layout bereitgestellten Größe. Ein gutes Anwendungsbeispiel ist das Einbetten des Viewers in eine modale Überlagerung, bei der die Größe der Überlagerung an die Fenstergröße des Webbrowsers angepasst ist.
 
@@ -97,11 +97,11 @@ Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie `FlyoutViewer.js` einbeziehen. `FlyoutViewer.js` befindet sich im folgenden [!DNL html5/js/]-Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
+   Um einen Viewer zu erstellen, müssen Sie ein -Skript-Tag in der Kopfzeile von HTML hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie `FlyoutViewer.js` einbeziehen. `FlyoutViewer.js` befindet sich im folgenden [!DNL html5/js/]-Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe-Dynamic Media-Server bereitgestellt wird und er von derselben Domain bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe-Dynamic Media-Server an, auf denen die IS-Viewer installiert sind.
+Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media-Server bereitgestellt wird und er von derselben Domain bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media-Server an, auf denen die IS-Viewer installiert sind.
 
 Ein relativer Pfad sieht wie folgt aus:
 
@@ -111,7 +111,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek, die vom Viewer aus `/s7viewers` Kontextpfad geladen wird (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert keine älteren Versionen der sekundären Viewer-`includes` auf dem Server.
 >
 >
 >Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
@@ -134,7 +134,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Dieser Viewer zeigt Miniaturen bei der Arbeit mit Sets mit mehreren Elementen an. Auf Desktop-Systemen werden Miniaturansichten unter der Hauptansicht platziert. Gleichzeitig ermöglicht der Viewer den Austausch des Haupt-Assets während der Laufzeit mithilfe `setAsset()` API. Als Entwickler haben Sie die Kontrolle darüber, wie der Viewer den Bereich mit den Miniaturen im unteren Bereich verwaltet, wenn das neue Asset nur ein Element enthält. Es ist möglich, die äußere Viewer-Größe intakt zu halten und die Hauptansicht ihre Höhe erhöhen und den Bereich für Miniaturen belegen zu lassen. Sie können auch die Größe der Hauptansicht unverändert lassen und den äußeren Viewer-Bereich reduzieren, sodass der Webseiteninhalt nach oben verschoben wird, und dann die freie Seitenumgebung links von den Miniaturen verwenden.
 
-   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe für `.s7flyoutviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festgelegt, später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mit dem Stilbefehl übergeben werden.
+   Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe für `.s7flyoutviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größenanpassung in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei vorgenommen, später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mit dem Stilbefehl übergeben werden.
 
    Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) Flyout-Viewers“ .
 
@@ -149,7 +149,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Sie können das Verhalten mit einem festen äußeren Viewer-Bereich auf der folgenden Beispielseite sehen. Beachten Sie, dass sich beim Wechseln zwischen Sets die Größe des äußeren Viewers nicht ändert:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=de)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
    Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe `.s7flyoutviewer .s7container` CSS-Selektors. Darüber hinaus sollten Sie die feste Größe überschreiben, die für die `.s7flyoutviewer` CSS-Klasse der obersten Ebene in der Standard-Viewer-CSS definiert ist, indem Sie sie auf `auto` setzen.
 
@@ -168,7 +168,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Die folgende Beispielseite zeigt das Viewer-Verhalten mit einer festen Hauptansichtsgröße. Beachten Sie, dass beim Wechseln zwischen Sets die Hauptansicht statisch bleibt und der Webseiteninhalt vertikal verschoben wird:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=de)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    Außerdem bietet das standardmäßige Viewer-CSS vorkonfiguriert eine feste Größe für den äußeren Bereich.
 
@@ -302,7 +302,7 @@ Die folgende Beispielseite zeigt weitere reale Verwendungen der responsiven Desi
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
+[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Flexible Einbettungsgröße mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 

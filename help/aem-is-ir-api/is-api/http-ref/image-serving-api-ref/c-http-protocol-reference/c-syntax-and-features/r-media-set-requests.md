@@ -138,7 +138,7 @@ Verschachtelte Mediensets werden nicht unterstützt. Ein verschachteltes Mediens
 
 ## Beispiele {#section-588c9d33aa05482c86cd2b1936887228}
 
-XML-Beispielantworten für `req=set` Anfrage finden Sie auf der Seite „Eigenschaften“ unter der Überschrift &quot;HTML-Beispiele“.
+XML-Beispielantworten für `req=set` Anfrage finden Sie auf der Seite „Eigenschaften“ unter der Kopfzeile &quot;HTML-Beispiele“.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

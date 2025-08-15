@@ -48,7 +48,7 @@ Dieser Viewer unterstützt verdeckte Untertitel über gehostete WebVTT-Dateien. 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Testausrichtung </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> links|rechts|Mitte|Start|Ende </span> </p> </td> 
    <td colname="col4"> <p> Steuert die Ausrichtung von Text. </p> <p>Der Standardwert ist <span class="codeph"> Middle </span>. </p> </td> 

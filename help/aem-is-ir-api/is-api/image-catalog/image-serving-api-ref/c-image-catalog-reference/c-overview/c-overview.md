@@ -31,6 +31,6 @@ Katalogdatendateien werden über Dateiverweise in der Katalogattributdatei mit B
 
 Katalogattributdateien müssen ein [!DNL .ini] Dateisuffix aufweisen und sich im Katalogordner des [!DNL Platform Server] befinden ( `PlatformServer::catalog.rootPath`). Katalogdatendateien können sich im selben Ordner oder in einem anderen Ordner befinden, auf den die [!DNL Platform Server] zugreifen kann.
 
-In diesem Dokument wird das Dateiformat des Bildkatalogs für das Dynamic Media Image Serving-System beschrieben. Die Zielgruppe sind erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für eine Web- oder benutzerdefinierte Anwendung nutzen möchten.
+In diesem Dokument wird das Bildkatalogdateiformat für das Dynamic Media-Bildbereitstellungssystem beschrieben. Die Zielgruppe sind erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Serving für ein Web- oder benutzerdefiniertes Programm nutzen möchten.
 
 Es wird davon ausgegangen, dass der Leser im Allgemeinen mit dem Dynamic Media Image Serving-System, allgemeinen HTTP-Protokollstandards und -Konventionen und grundlegender Bildterminologie vertraut ist.

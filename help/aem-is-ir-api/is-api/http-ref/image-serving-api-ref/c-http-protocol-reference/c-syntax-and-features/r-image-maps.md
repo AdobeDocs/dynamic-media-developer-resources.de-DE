@@ -1,5 +1,5 @@
 ---
-description: IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA- und Flash-basierten Viewer in IMS bieten ebenfalls eingeschränkte Unterstützung für Imagemaps.
+description: IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA- und Flash-basierten Viewer in IIS bieten auch eingeschränkte Unterstützung für Imagemaps.
 solution: Experience Manager
 title: Imagemaps
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Imagemaps{#image-maps}
 
-IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA- und Flash-basierten Viewer in IMS bieten ebenfalls eingeschränkte Unterstützung für Imagemaps.
+IS bietet Mechanismen zur Vereinfachung der Verwendung von HTML-Imagemaps. Die JAVA- und Flash-basierten Viewer in IIS bieten auch eingeschränkte Unterstützung für Imagemaps.
 
 Source-Imagemaps werden dem IS entweder über `catalog::Map` oder mit dem Befehl `map=` bereitgestellt und verarbeitete Karten werden mit dem Befehl `req=map` abgerufen.
 
@@ -55,4 +55,4 @@ Ebenentransparenz wird bei der Kartenverarbeitung nicht berücksichtigt. Einer v
 
 ## Verwandte Themen {#see-also}
 
-[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) , [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [HTML 4.01 Spezifikation](https://www.w3.org/TR/html401/)
+[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) , [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [Spezifikation für HTML 4.01](https://www.w3.org/TR/html401/)

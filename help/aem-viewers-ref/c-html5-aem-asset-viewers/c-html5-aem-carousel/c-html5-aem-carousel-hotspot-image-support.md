@@ -22,7 +22,7 @@ Hotspots und Regionen können entweder eine Schnellansichtsfunktion auf der Host
 
 ## Schnellansichts-Hotspots {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp „Schnellansicht“ in Dynamic Media von Adobe Experience Manager erstellt werden. Wenn ein(e) Benutzende(r) einen solchen Hotspot oder eine solche Imagemap aktiviert, führt der Viewer den `quickViewActivate` JavaScript-Callback aus und übergibt ihm die Hotspot- oder Imagemap-Daten. Es wird erwartet, dass die einbettende Web-Seite auf diesen Callback wartet. Beim Trigger der Seite wird eine eigene Schnellansichtsimplementierung geöffnet.
+Diese Arten von Hotspots oder Imagemaps sollten mit dem Aktionstyp „Schnellansicht“ in Dynamic Media oder Adobe Experience Manager erstellt werden. Wenn ein(e) Benutzende(r) einen solchen Hotspot oder eine solche Imagemap aktiviert, führt der Viewer den `quickViewActivate` JavaScript-Callback aus und übergibt ihm die Hotspot- oder Imagemap-Daten. Es wird erwartet, dass die einbettende Web-Seite auf diesen Callback wartet. Beim Trigger der Seite wird eine eigene Schnellansichtsimplementierung geöffnet.
 
 ## Zu externer Webseite umleiten {#section-ef820c71251e4215800bb99c0c9ebe16}
 

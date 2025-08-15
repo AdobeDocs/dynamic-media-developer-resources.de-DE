@@ -22,7 +22,7 @@ Konfigurationsattribut für Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Legt den Wiedergabetyp fest, der vom Viewer verwendet wird. Wenn <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format. Auf bestimmten Systemen wie dem älteren Internet Explorer und Android™ wird die progressive HTML5-Wiedergabe verwendet. </p> <p>Wenn <span class="codeph"> Progressive</span> angegeben ist, verlässt sich der Viewer nur auf die HTML5-Wiedergabe, wie sie nativ von Browsern unterstützt wird, und gibt Videos progressiv auf allen Systemen wieder. </p> <p>Weiterführende Informationen zur Wiedergabeauswahl im automatischen und progressiven Modus finden Sie im Benutzerhandbuch zum Viewer-SDK. </p> </td> 
+   <td colname="col2"> <p> Legt den Wiedergabetyp fest, der vom Viewer verwendet wird. Wenn <span class="codeph"> auto</span> festgelegt ist, verwendet der Viewer in den meisten Desktop-Browsern und auf allen iOS-Geräten HTML5-Streaming-Videos im HLS-Format. Es wird auf die progressive HTML5-Wiedergabe auf bestimmten Systemen wie dem älteren Internet Explorer und Android™ zurückgegriffen. </p> <p>Wenn <span class="codeph"> Progressive</span> angegeben ist, verlässt sich der Viewer nur auf die HTML5-Wiedergabe, wie sie nativ von Browsern unterstützt wird, und gibt Videos progressiv auf allen Systemen wieder. </p> <p>Weiterführende Informationen zur Wiedergabeauswahl im automatischen und progressiven Modus finden Sie im Benutzerhandbuch zum Viewer-SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

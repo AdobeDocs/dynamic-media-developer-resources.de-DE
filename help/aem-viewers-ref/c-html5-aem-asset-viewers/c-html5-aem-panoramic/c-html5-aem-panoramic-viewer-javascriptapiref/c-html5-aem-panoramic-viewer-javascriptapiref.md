@@ -1,6 +1,6 @@
 ---
 title: JavaScript-API-Referenz für Panorama-Viewer
-description: Die Hauptklasse des HTML5 Panoramic Viewer ist PanoramicViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
+description: Die Hauptklasse des HTML5 PanoramicViewer ist PanoramicViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 # JavaScript-API-Referenz für Panorama-Viewer{#javascript-api-reference-for-panoramic-viewer}
 
-Die Hauptklasse des HTML5 Panoramic Viewer ist PanoramicViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
+Die Hauptklasse des HTML5 PanoramicViewer ist PanoramicViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
 
 In allen folgenden Beispielen steht `<instance>` für den tatsächlichen Namen des JavaScript-Viewer-Objekts, das von der `s7viewers.PanoramicViewer`-Klasse instanziiert wird.

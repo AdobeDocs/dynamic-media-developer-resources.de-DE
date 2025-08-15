@@ -1,6 +1,6 @@
 ---
 title: Facebook-Freigabe
-description: Das facebook-Freigabetool besteht aus einer Schaltfläche, die dem Social-Media-Freigabebereich hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+description: Das Facebook-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Facebook-Freigabe{#facebook-share}
 
-Das facebook-Freigabetool besteht aus einer Schaltfläche, die dem Social-Media-Freigabebereich hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+Das Facebook-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Das Erscheinungsbild der Facebook-Freigabeschaltfläche wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Das Erscheinungsbild der Facebook-Freigabe-Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7interactivevideoviewer .s7facebookshare
@@ -57,7 +57,7 @@ Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung vo
 
 ## Beispiel {#section-01cbe0096b1443e0a7d91956bd264465}
 
-So richten Sie eine Facebook-Freigabeschaltfläche ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
+So richten Sie eine Facebook-Freigabe-Schaltfläche ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
 ```
 .s7interactivevideoviewer .s7facebookshare { 

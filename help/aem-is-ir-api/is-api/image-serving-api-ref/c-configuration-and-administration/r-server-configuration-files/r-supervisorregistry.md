@@ -18,7 +18,7 @@ Enthält Konfigurationseinstellungen für den Server-Supervisor.
 
 Achten Sie beim Bearbeiten dieser XML-Datei darauf, eine gültige XML-Syntax beizubehalten, da der Bildserver sonst möglicherweise nicht gestartet wird.
 
-Starten Sie die Bildbereitstellung neu, nachdem Sie diese Datei bearbeitet haben, um sicherzustellen, dass die Änderungen wirksam werden. Nur die unten hervorgehobenen Element-/Attributwerte können geändert werden. Bearbeiten Sie alle anderen Inhalte dieser Datei nur, wenn Sie vom technischen Support von Dynamic Media dazu aufgefordert werden.
+Starten Sie die Bildbereitstellung neu, nachdem Sie diese Datei bearbeitet haben, um sicherzustellen, dass die Änderungen wirksam werden. Nur die unten hervorgehobenen Element-/Attributwerte können geändert werden. Bearbeiten Sie alle anderen Inhalte dieser Datei nur, wenn Sie vom technischen Support für Dynamic Media dazu aufgefordert werden.
 
 ```
 <supervisor>

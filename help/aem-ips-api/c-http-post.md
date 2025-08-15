@@ -1,6 +1,6 @@
 ---
 title: Hochladen von Assets über HTTP-POSTs zum UploadFile-Servlet
-description: Das Hochladen von Assets in  [!DNL Dynamic Media] Classic umfasst eine oder mehrere HTTP-Dateianfragen, die einen Vorgang einrichten, um die gesamte mit den hochgeladenen POST verknüpfte Protokollaktivität zu koordinieren.
+description: Das Hochladen von Assets in  [!DNL Dynamic Media] Classic umfasst eine oder mehrere HTTP-POST-Anfragen, die einen Vorgang einrichten, um die gesamte mit den hochgeladenen Dateien verknüpfte Protokollaktivität zu koordinieren.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Hochladen von Assets über HTTP-POSTs zum UploadFile-Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Das Hochladen von Assets in Dynamic Media Classic umfasst eine oder mehrere HTTP-Dateianfragen, die einen Vorgang einrichten, um die gesamte mit den hochgeladenen POST verknüpfte Protokollaktivität zu koordinieren.
+Das Hochladen von Assets in Dynamic Media Classic umfasst eine oder mehrere HTTP-POST-Anfragen, die einen Vorgang einrichten, um die gesamte mit den hochgeladenen Dateien verknüpfte Protokollaktivität zu koordinieren.
 
 Verwenden Sie die folgende URL, um auf das UploadFile-Servlet zuzugreifen:
 
@@ -66,7 +66,7 @@ Der Upload-Auftrag besteht aus einem oder mehreren HTTP-POSTs, die eine gemeinsa
 |  HTTP-POST-Formularteil  |  Beschreibung  |
 |---|---|
 | `auth`  |   Erforderlich. Ein XML-AuthHeader-Dokument, das Authentifizierung und Client-Informationen angibt. Siehe **Authentifizierung anfordern** unter [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   Optional. Sie können bei jeder POST-Anfrage eine oder mehrere Dateien zum Hochladen hinzufügen. Jeder Dateiteil kann einen Dateinamenparameter in den Content-Disposition-Header aufnehmen, der als Zieldateiname in IPS verwendet wird, wenn kein `uploadPostParams/fileName` angegeben ist. |
+| `file params`  |   Optional. Sie können zu jeder POST-Anfrage eine oder mehrere Dateien hinzufügen, die hochgeladen werden sollen. Jeder Dateiteil kann einen Dateinamenparameter in den Content-Disposition-Header aufnehmen, der als Zieldateiname in IPS verwendet wird, wenn kein `uploadPostParams/fileName` angegeben ist. |
 
 |  HTTP-POST-Formularteil   |  uploadPostParams-Elementname   |  Typ   |  Beschreibung   |
 |---|---|---|---|
@@ -86,9 +86,9 @@ Siehe [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b
 
 Auch wenn Sie davon ausgehen können, dass sich der `uploadParams`-Parameter für einzelne Dateien als Teil desselben Auftrags ändern kann, ist dies nicht der Fall. Verwenden Sie dieselben `uploadParams` für den gesamten Auftrag.
 
-In der anfänglichen POST-Anfrage für einen neuen Upload-Auftrag sollte der `jobName` angegeben werden. Vorzugsweise sollte ein eindeutiger Auftragsname verwendet werden, um nachfolgende Auftragsstatusabfragen und Vorgangslog-Abfragen zu vereinfachen. In zusätzlichen POST-Anfragen für denselben Upload-Auftrag sollte der `jobHandle`-Parameter anstelle von `jobName` angegeben werden, wobei der von der ursprünglichen Anfrage zurückgegebene `jobHandle`-Wert zu verwenden ist.
+In der ersten POST-Anfrage für einen neuen Upload-Auftrag sollte der `jobName`-Parameter angegeben werden. Vorzugsweise sollte ein eindeutiger Auftragsname verwendet werden, um nachfolgende Auftragsstatusabfragen und Vorgangslog-Abfragen zu vereinfachen. Zusätzliche POST-Anfragen für denselben Upload-Auftrag sollten den `jobHandle`-Parameter anstelle von `jobName` angeben und dabei den von der ursprünglichen Anfrage zurückgegebenen `jobHandle`-Wert verwenden.
 
-In der endgültigen Dateianforderung für einen Upload-Auftrag sollte der `endJob` auf „true“ gesetzt werden, damit keine weiteren POST für diesen Auftrag gepostet werden. Dadurch kann der Vorgang unmittelbar nach der Aufnahme aller POST-Dateien abgeschlossen werden. Andernfalls tritt ein Timeout des Auftrags auf, wenn innerhalb von 30 Minuten keine weiteren POST-Anfragen empfangen werden.
+In der endgültigen POST-Anfrage für einen Upload-Auftrag sollte der `endJob`-Parameter auf „true“ gesetzt werden, damit für diesen Auftrag keine zukünftigen Dateien veröffentlicht werden. Dadurch kann der Vorgang unmittelbar nach der Aufnahme aller POST-Dateien abgeschlossen werden. Andernfalls tritt ein Timeout des Auftrags auf, wenn innerhalb von 30 Minuten keine zusätzlichen POST-Anfragen empfangen werden.
 
 ## UploadPOST-Antwort {#section-421df5cc04d44e23a464059aad86d64e}
 
@@ -104,11 +104,11 @@ Bei einer erfolgreichen POST-Anfrage ist der Antworttext ein XML-`uploadPostRetu
     </element>
 ```
 
-Die zurückgegebene `jobHandle` wird für alle nachfolgenden POST-Anfragen für denselben Auftrag im `uploadPostParams`-/`jobHandle`-Parameter übergeben. Sie können damit auch den Auftragsstatus mit dem `getActiveJobs` abfragen oder die Auftragsprotokolle mit dem `getJobLogDetails` abfragen.
+Die zurückgegebene `jobHandle` wird für alle nachfolgenden POST-Anfragen für denselben Auftrag im Parameter `uploadPostParams`/`jobHandle` übergeben. Sie können damit auch den Auftragsstatus mit dem `getActiveJobs` abfragen oder die Auftragsprotokolle mit dem `getJobLogDetails` abfragen.
 
 Wenn bei der Verarbeitung der POST-Anfrage ein Fehler auftritt, besteht der Antworttext aus einem der API-Fehlertypen, wie unter [ beschrieben](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
-## Beispiel für eine POST-Anfrage {#section-810fe32abdb9426ba0fea488dffadd1e}
+## Beispiel einer POST-Anfrage {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 
@@ -178,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Beispiel für eine erfolgreiche POST {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Beispiel einer POST-Antwort - Erfolg {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 
@@ -192,7 +192,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## Beispiel für eine Fehlerantwort in POST {#section-efc32bb371554982858b8690b05090ec}
+## Beispiel einer POST-Antwort - Fehler {#section-efc32bb371554982858b8690b05090ec}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 

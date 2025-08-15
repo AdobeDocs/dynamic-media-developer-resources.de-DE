@@ -1,6 +1,6 @@
 ---
 title: Referenz zur Image-Serving-API
-description: Sehen Sie sich die Referenzhilfe zur Image-Serving-API von Dynamic Media an.
+description: Sehen Sie sich die Referenzhilfe zur Dynamic Media Image Serving-API an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Referenz zur Image-Serving-API {#image-serving-api-reference}
 
-Sehen Sie sich die Referenzhilfe zur Image-Serving-API von Dynamic Media an.
+Sehen Sie sich die Referenzhilfe zur Dynamic Media Image Serving-API an.

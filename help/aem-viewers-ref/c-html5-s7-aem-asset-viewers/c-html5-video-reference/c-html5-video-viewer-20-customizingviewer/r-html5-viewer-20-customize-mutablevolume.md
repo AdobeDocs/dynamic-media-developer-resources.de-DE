@@ -242,4 +242,4 @@ Im Folgenden finden Sie ein Beispiel dafür, wie Sie den Video-Player so anpasse
                 }
 ```
 
-Im obigen Code-Beispiel wird der Lautstärkepegel auf der `mutableVolume` auf `0` festgelegt. Anschließend wird dieselbe Komponente deaktiviert, sodass sie vom Endbenutzer nicht mehr verwendet werden kann.
+Im obigen Code-Beispiel wird der Lautstärkepegel auf der `0` auf `mutableVolume` festgelegt. Anschließend wird dieselbe Komponente deaktiviert, sodass sie vom Endbenutzer nicht mehr verwendet werden kann.

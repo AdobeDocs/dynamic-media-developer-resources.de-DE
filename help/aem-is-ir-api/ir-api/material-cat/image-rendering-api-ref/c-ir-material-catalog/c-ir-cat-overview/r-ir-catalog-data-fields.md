@@ -49,7 +49,7 @@ Die folgenden Katalogdatenfelder sind verfügbar.
   <td class="stentry"> <p>Sekundärer Datendateipfad oder URL. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p></a> der <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> der </a> </p></td> 
   <td class="stentry"> <p>Bildauflösung. </p></td> 
  </tr> 
  <tr class="strow"> 

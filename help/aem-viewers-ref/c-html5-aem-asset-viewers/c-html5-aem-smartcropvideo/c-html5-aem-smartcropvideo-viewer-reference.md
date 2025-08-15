@@ -1,6 +1,6 @@
 ---
 title: Smart Crop Video Viewer
-description: Der Smart Crop Video Viewer gibt Streaming- und progressive Videos wieder, die im H.264-Format kodiert sind, einschließlich Unterstützung für smartes Zuschneiden. Es wird von Dynamic Media Classic oder Adobe Experience Manager mit Dynamic Media bereitgestellt.
+description: Der Smart Crop Video Viewer gibt Streaming- und progressive Videos wieder, die im H.264-Format kodiert sind, einschließlich Unterstützung für smartes Zuschneiden. Sie wird von Dynamic Media Classic oder Adobe Experience Manager mit Dynamic Media bereitgestellt.
 keywords: Responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Video zu smartem Zuschneiden{#smart-crop-video}
 
-Der Smart Crop Video Viewer gibt Streaming- und progressive Videos wieder, die im H.264-Format kodiert sind, einschließlich Unterstützung für smartes Zuschneiden. Es wird von Dynamic Media Classic oder Experience Manager mit Dynamic Media bereitgestellt.
+Der Smart Crop Video Viewer gibt Streaming- und progressive Videos wieder, die im H.264-Format kodiert sind, einschließlich Unterstützung für smartes Zuschneiden. Sie wird von Dynamic Media Classic oder Experience Manager mit Dynamic Media bereitgestellt.
 
 Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 Es werden sowohl einzelne als auch adaptive Videosets unterstützt. Außerdem unterstützt der Viewer das Arbeiten mit progressiven Video- und HLS-Streams, die an externen Speicherorten gehostet werden. Es wurde für Desktop- und mobile Webbrowser entwickelt, die HTML5-Videos unterstützen. Dieser Viewer unterstützt auch optionale Untertitel, die über Videoinhalten, der Videokapitelnavigation und Tools zur Freigabe in Social Media angezeigt werden.
 
-Der Smart Crop Video Viewer verwendet die HTML5-Streaming-Videowiedergabe im HLS-Format in der Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, wird der Viewer auf die progressive HTML5-Videobereitstellung zurückgesetzt.
+Der Smart Crop Video Viewer verwendet HTML5-Streaming-Videowiedergabe im HLS-Format in der Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, wird der Viewer auf die progressive Videobereitstellung von HTML5 zurückgesetzt.
 
 Viewer-Typ 518.
 
@@ -82,7 +82,7 @@ Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilger�
 
 Im Popup-Modus wird der Viewer in einem separaten Fenster oder einer separaten Registerkarte des Webbrowsers geöffnet. Sie nimmt den gesamten Browser-Fensterbereich und passt sich an, falls die Größe des Browsers geändert oder die Ausrichtung des Geräts geändert wird.
 
-Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, eines ordnungsgemäß konfigurierten HTML-Elements `A` einer anderen geeigneten Methode.
+Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, `A` ordnungsgemäß konfigurierten HTML-Elements oder einer anderen geeigneten Methode.
 
 Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Sie wird als [!DNL SmartCropVideoViewer.html] bezeichnet und befindet sich im [!DNL html5/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
@@ -121,7 +121,7 @@ Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL SmartCropVideoViewer.js] einbeziehen. Die [!DNL SmartCropVideoViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
+   Um einen Viewer zu erstellen, müssen Sie ein -Skript-Tag in der Kopfzeile von HTML hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL SmartCropVideoViewer.js] einbeziehen. Die [!DNL SmartCropVideoViewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
@@ -135,7 +135,7 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek, die vom Viewer aus `/s7viewers` Kontextpfad geladen wird (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert keine älteren Versionen der sekundären Viewer-`includes` auf dem Server.
 >
 >
 >Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
@@ -293,7 +293,7 @@ Die folgende Beispielseite veranschaulicht eine praktischere Verwendung der resp
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
+[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsives Design Einbetten mit definierter Breite und Höhe**
 

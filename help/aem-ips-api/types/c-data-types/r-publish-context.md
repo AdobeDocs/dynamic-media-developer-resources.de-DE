@@ -57,4 +57,4 @@ Assets verwaltet für jeden Veröffentlichungsstatus und -kontext eine separate 
 
 >[!MORELIKETHIS]
 >
->* [Publish-Kontext](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [Veröffentlichungskontext](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

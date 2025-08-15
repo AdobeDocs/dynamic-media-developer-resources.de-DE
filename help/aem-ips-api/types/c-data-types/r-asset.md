@@ -177,7 +177,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfSettingsInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph">:PdfSettingsInfo</span> </td> 
-   <td colname="col3"> Eigenschaften eines PDF-Einstellungsassets. </td> 
+   <td colname="col3"> Eigenschaften eines PDF-Einstellungselements. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 

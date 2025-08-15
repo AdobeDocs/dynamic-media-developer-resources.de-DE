@@ -1,28 +1,28 @@
 ---
 title: Video360
-description: Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos im H.264-Format wiedergibt, die von Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media, bereitgestellt werden.
+description: Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert und von Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media, bereitgestellt werden.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2562'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos im H.264-Format wiedergibt, die von Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media, bereitgestellt werden.
+Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert und von Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media, bereitgestellt werden.
 
 360-Grad-Videos, auch als immersive Videos oder sphärische Videos bezeichnet, sind Videoaufnahmen, bei denen eine Ansicht in jede Richtung gleichzeitig aufgezeichnet wird, und zwar mit einer omnidirektionalen Kamera oder einer Sammlung von Kameras. Es werden sowohl einzelne als auch adaptive Videosets unterstützt. Der Viewer unterstützt auch das Arbeiten mit progressiven Video- und HLS-Streams, die an einem externen Speicherort gehostet werden.
 
-Das empfohlene Seitenverhältnis für 360-Grad-Videos lautet 2:1. Räumlicher Klang wird nicht unterstützt. Der Viewer ist nur für die Verwendung mit 360-Grad-Videos konzipiert. Der Versuch, ein Nicht-360-Grad-Video abzuspielen, führt zu einer verzerrten Videowiedergabe.
+Das empfohlene Seitenverhältnis für 360-Grad-Videos beträgt 2:1. Räumlicher Klang wird nicht unterstützt. Der Viewer ist nur für die Verwendung mit 360-Grad-Videos konzipiert. Der Versuch, ein Nicht-360-Grad-Video abzuspielen, führt zu einer verzerrten Videowiedergabe.
 
 Der Viewer wurde für Desktop- und mobile Webbrowser entwickelt, die HTML5-Videos unterstützen. Der Viewer unterstützt optionale Social-Sharing-Tools.
 
-Der Video360-Viewer verwendet die HTML5-Streaming-Videowiedergabe im HLS-Format in der Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, wird der Viewer auf die progressive HTML5-Videobereitstellung zurückgesetzt.
+Der Video360-Viewer verwendet HTML5-Streaming-Videowiedergabe im HLS-Format in der Standardkonfiguration, wenn das zugrunde liegende System dies unterstützt. Auf Systemen, die HTML5-Streaming nicht unterstützen, wird der Viewer auf die progressive Videobereitstellung von HTML5 zurückgesetzt.
 
 Viewer-Typ ist 517.
 
@@ -38,7 +38,7 @@ Siehe [Systemanforderungen](../../c-system-requirements-and-prerequisites.md#con
 
 Der HTML5-Video360-Viewer stellt eine JavaScript-Hauptdatei und einen Satz Hilfsdateien (ein einziges JavaScript-Include mit allen von diesem Viewer verwendeten HTML5-Viewer-SDK-Komponenten, Assets, CSS) dar, die der Viewer zur Laufzeit heruntergeladen hat.
 
-Der HTML5 Video360 Viewer kann sowohl im Popup-Modus mit der produktionsbereiten HTML-Seite von IS-Viewers als auch im eingebetteten Modus verwendet werden, wo er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
+Der HTML5 Video360 Viewer kann sowohl im Popup-Modus mit der produktionsbereiten HTML-Seite, die mit IS-Viewers bereitgestellt wird, als auch im eingebetteten Modus verwendet werden, wo er mithilfe der dokumentierten API in die Ziel-Web-Seite integriert wird.
 
 Konfiguration und Skinning ähneln denen der anderen Viewer, die in diesem Handbuch beschrieben werden. Die gesamte Gestaltung erfolgt über benutzerdefinierte Cascading Style Sheets (CSS).
 
@@ -54,13 +54,13 @@ Beachten Sie jedoch, dass für die Bereitstellung von mit solchen hochwertigen E
 
 ## Interagieren mit dem Video360-Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Der HTML5 Video360 Viewer bietet eine Reihe von Standardbenutzeroberflächensteuerelementen für die Videowiedergabe, z. B. die Wiedergabe-/Pausentaste, die Video-Scrubber-Videozeitblase, die Anzeige der wiedergegebenen Zeit/Gesamtzeit, die Lautstärkeregelung und die Vollbildtaste. Alle diese Steuerelemente werden in einer Steuerleiste am unteren Rand der Viewer-Benutzeroberfläche gruppiert.
+Der HTML5 Video360 Viewer bietet eine Reihe von Standardbenutzeroberflächensteuerelementen für die Videowiedergabe, z. B. die Wiedergabe-/Pausenschaltfläche, die Video-Scrubber-Videozeitblase, die Anzeige der wiedergegebenen Zeit/Gesamtzeit, die Lautstärkeregelung und die Vollbildschaltfläche. Alle diese Steuerelemente werden in einer Steuerleiste am unteren Rand der Viewer-Benutzeroberfläche gruppiert.
 
 Auf Touch-Geräten wird die Lautstärkeregelung in der Benutzeroberfläche ausgeblendet, da die Lautstärkeregelung nur über die Hardwaretasten des Geräts gesteuert werden kann.
 
 Wenn der Viewer im Popup-Modus ausgeführt wird, ist in der Benutzeroberfläche keine Vollbildschaltfläche verfügbar.
 
-Der Viewer unterstützt auch verschiedene Tools zur Freigabe in Social Media. Sie sind in der Benutzeroberfläche als einzelne Schaltfläche verfügbar, die in eine Freigabesymbolleiste erweitert wird, wenn Benutzende darauf klicken oder tippen. Die Freigabesymbolleiste enthält ein Symbol für jeden unterstützten Freigabekanaltyp wie Facebook, Twitter, E-Mail-Freigabe, Einbettungs-Code-Freigabe und Link-Freigabe. Wenn die Tools E-Mail-Freigabe, Einbettungsfreigabe oder Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen werden, leitet der Viewer den Benutzer von einem Social-Media-Service zu einem Standarddialogfeld für die Freigabe um. Außerdem wird die Videowiedergabe automatisch angehalten, wenn ein Freigabetool aktiviert ist. Freigabetools sind aufgrund von Sicherheitsbeschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
+Der Viewer unterstützt auch verschiedene Tools zur Freigabe in Social Media. Sie sind in der Benutzeroberfläche als einzelne Schaltfläche verfügbar, die in eine Freigabesymbolleiste erweitert wird, wenn Benutzende darauf klicken oder tippen. Die Freigabesymbolleiste enthält ein Symbol für jeden unterstützten Typ von Freigabekanal wie Facebook, Twitter, E-Mail-Freigabe, Einbettungs-Code-Freigabe und Link-Freigabe. Wenn die Tools E-Mail-Freigabe, Einbettungsfreigabe oder Linkfreigabe aktiviert sind, zeigt der Viewer ein modales Dialogfeld mit einem entsprechenden Dateneingabeformular an. Wenn Facebook oder Twitter aufgerufen werden, leitet der Viewer den Benutzer von einem Social-Media-Service zu einem Standarddialogfeld für die Freigabe um. Außerdem wird die Videowiedergabe automatisch angehalten, wenn ein Freigabetool aktiviert ist. Freigabetools sind aufgrund von Sicherheitsbeschränkungen des Webbrowsers nicht im Vollbildmodus verfügbar.
 
 Der Viewer unterstützt 360-Grad-Videowiedergabe für Folgendes:
 
@@ -90,7 +90,7 @@ Das Einbetten mehrerer Videos auf derselben Seite wird auf Tablets und Mobilger�
 
 Im Popup-Modus wird der Viewer in einem separaten Fenster oder einer separaten Registerkarte des Webbrowsers geöffnet. Sie nimmt den gesamten Browser-Fensterbereich und passt sich an, falls die Größe des Browsers geändert oder die Ausrichtung des Geräts geändert wird.
 
-Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, eines ordnungsgemäß konfigurierten HTML-Elements `A` einer anderen geeigneten Methode.
+Dieser Modus ist bei Mobilgeräten am häufigsten. Die Web-Seite lädt den Viewer mithilfe `window.open()` JavaScript-Aufrufs, `A` ordnungsgemäß konfigurierten HTML-Elements oder einer anderen geeigneten Methode.
 
 Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus zu verwenden. Sie wird als [!DNL Video360Viewer.html] bezeichnet und befindet sich im [!DNL html5/] Unterordner Ihrer standardmäßigen IS-Viewer-Bereitstellung:
 
@@ -129,7 +129,7 @@ Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
 1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
 
-   Zum Erstellen eines Viewers müssen Sie dem HTML-Head ein Script-Tag hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL Video360Viewer.js] einbeziehen. Die [!DNL Video360Viewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
+   Um einen Viewer zu erstellen, müssen Sie ein -Skript-Tag in der Kopfzeile von HTML hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL Video360Viewer.js] einbeziehen. Die [!DNL Video360Viewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -143,7 +143,7 @@ Der relative Pfad sieht wie folgt aus:
 
 >[!NOTE]
 >
->Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die vom Viewer aus `/s7viewers` Kontextpfad geladene HTML5 SDK `Utils.js`-Bibliothek (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert ältere Versionen der sekundären Viewer-`includes` nicht auf dem Server.
+>Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek, die vom Viewer aus `/s7viewers` Kontextpfad geladen wird (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert keine älteren Versionen der sekundären Viewer-`includes` auf dem Server.
 >
 >
 >Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.

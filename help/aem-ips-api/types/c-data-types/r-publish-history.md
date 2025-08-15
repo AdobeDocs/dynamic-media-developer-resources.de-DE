@@ -23,6 +23,6 @@ Syntax
 | Name | Typ | Beschreibung |
 |---|---|---|
 | serverName | `xsd:string` | Name des Servers, dem der Veröffentlichungsverlauf gehört. |
-| contextName | `xsd:string` | Kontextname für Publish-Verlauf. |
-| publishFormat | `xsd:string` | Publish-Format. |
+| contextName | `xsd:string` | Kontextname für Veröffentlichungsverlauf. |
+| publishFormat | `xsd:string` | Veröffentlichungsformat. |
 | lastPublished | `xsd:dateTime` | Datum und Uhrzeit der letzten Veröffentlichung des Assets. |

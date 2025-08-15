@@ -1,5 +1,5 @@
 ---
-description: Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften der Bilder zugegriffen werden, die mit FMT=SWF oder FMT=SWF3 bereitgestellt werden.
+description: Web-Domains von Flash-Anwendungen. Für Adobe Flash-Anwendungen ist möglicherweise der Zugriff auf die Eigenschaften von Bildern erforderlich, die mit fmt=swf oder fmt=swf3 bereitgestellt werden.
 solution: Experience Manager
 title: Vertrauenswürdige Domains
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Vertrauenswürdige Domains{#trusteddomains}
 
-Flash von Anwendungs-Webdomains. Beim Adobe von Flash-Anwendungen muss möglicherweise auf die Eigenschaften der Bilder zugegriffen werden, die mit FMT=SWF oder FMT=SWF3 bereitgestellt werden.
+Web-Domains von Flash-Anwendungen. Für Adobe Flash-Anwendungen ist möglicherweise der Zugriff auf die Eigenschaften von Bildern erforderlich, die mit fmt=swf oder fmt=swf3 bereitgestellt werden.
 
 Der SWF muss explizit Zugriff gewähren, indem er den Namen der vertrauenswürdigen Anwendungsdomänen registriert.
 

@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Adobe Dynamic Media Image Serving- und Image Rendering-API - Startseite{#adobe-scene-image-serving-and-image-rendering-api-home}
 
-Diese Dokumentation enthält Informationen zu Bildbereitstellungs- und Bild-Rendering-APIs und zugehörigen Technologien. Wenn Sie an der Integration von Dynamic Media Classic mit AEM arbeiten, sollten Sie sich den Abschnitt Image-Serving dieser API ansehen.
+Diese Dokumentation enthält Informationen zu Bildbereitstellungs- und Bild-Rendering-APIs und zugehörigen Technologien. Wenn Sie an der Integration von Dynamic Media Classic mit AEM arbeiten, sollten Sie sich den Abschnitt „Image-Serving“ dieser API ansehen.

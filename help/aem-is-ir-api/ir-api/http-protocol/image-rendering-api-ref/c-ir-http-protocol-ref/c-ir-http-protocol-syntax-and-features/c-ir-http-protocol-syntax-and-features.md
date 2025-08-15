@@ -1,6 +1,6 @@
 ---
 title: Syntax und Funktionen des HTTP-Protokolls
-description: In diesem Abschnitt werden die HTTP-Protokollsyntax und -Funktionen für das Rendern von Dynamic Media-Bildern beschrieben.
+description: In diesem Abschnitt werden die HTTP-Protokollsyntax und -Funktionen für das Rendern von Bildern in Dynamic Media beschrieben.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Syntax und Funktionen des HTTP-Protokolls{#http-protocol-syntax-and-features}
 
-In diesem Abschnitt werden die HTTP-Protokollsyntax und -Funktionen für das Rendern von Dynamic Media-Bildern beschrieben.
+In diesem Abschnitt werden die HTTP-Protokollsyntax und -Funktionen für das Rendern von Bildern in Dynamic Media beschrieben.
 
 * [Grundlegende Syntax des HTTP-Protokolls zum Rendern von Bildern](r-ir-basic-syntax.md)
 * [Image Rendering - HTTP-Protokollbefehl - Übersicht](c-ir-command-overview/c-ir-command-overview.md)

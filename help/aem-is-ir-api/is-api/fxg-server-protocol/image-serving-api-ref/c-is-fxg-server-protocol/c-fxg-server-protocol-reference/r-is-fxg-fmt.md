@@ -25,7 +25,7 @@ Format des Antwortbildes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Gibt das Bildcodierungsformat für Bilddaten an, die an den Client gesendet werden, und den entsprechenden Antwort-MIME-Typ für den HTTP-Antwort-Header an. </p> <p> <span class="codeph"> JPEG-</span>: verlustbehaftetes JPEG </p> <p> <span class="codeph"> PNG </span>: verlustfreies PNG </p> <p> <span class="codeph"> png-alpha </span>: verlustfreies PNG mit Alphakanal </p> <p> <span class="codeph"> TIF-</span>: TIFF </p> <p> <span class="codeph"> TIF-Alpha-</span>: TIFF mit Alphakanal </p> <p> <span class="codeph"> SWF </span>: verlustbehaftetes JPEG eingebettet in eine Adobe SWF-Datei </p> <p> <span class="codeph"> PDF </span>: Bild eingebettet in PDF </p> <p> <span class="codeph"> GIF </span>: GIF mit 2 bis 256 Farben </p> <p> <span class="codeph"> GIF-Alpha </span>: GIF mit 2 bis 255 Farben plus Schlüsselfarbtransparenz </p> <p> <span class="codeph"> fxg </span>: FXG mit Variablen und angewendeter DOM-Manipulation </p> <p> <span class="codeph"> fxgraw </span>: Original-FXG auf dem Server gespeichert </p> </td> 
+  <td class="stentry"> <p> Gibt das Bildcodierungsformat für Bilddaten an, die an den Client gesendet werden, und den entsprechenden Antwort-MIME-Typ für den HTTP-Antwort-Header an. </p> <p> <span class="codeph"> JPEG-</span>: Verlorene JPEG </p> <p> <span class="codeph"> PNG </span>: verlustfreies PNG </p> <p> <span class="codeph"> png-alpha </span>: verlustfreies PNG mit Alphakanal </p> <p> <span class="codeph"> TIF-</span>: TIFF </p> <p> <span class="codeph"> TIF-Alpha-</span>: TIFF mit Alphakanal </p> <p> <span class="codeph"> SWF-</span>: verlustbehaftetes JPEG, das in eine Adobe-SWF-Datei eingebettet ist </p> <p> <span class="codeph"> PDF </span>: Bild eingebettet in PDF </p> <p> <span class="codeph"> GIF </span>: GIF mit 2 bis 256 Farben </p> <p> <span class="codeph"> GIF-Alpha </span>: GIF mit 2 bis 255 Farben plus Schlüsselfarbtransparenz </p> <p> <span class="codeph"> fxg </span>: FXG mit Variablen und angewendeter DOM-Manipulation </p> <p> <span class="codeph"> fxgraw </span>: Original-FXG auf dem Server gespeichert </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -33,7 +33,7 @@ Format des Antwortbildes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Kann verwendet werden, um den Ausgabefarbraum zu beeinflussen. </p> <p> <span class="codeph"> RGB </span>: Rückgabe von RGB-Bilddaten </p> <p> <span class="codeph">-</span>: Gibt Bilddaten mit Graustufen zurück </p> <p> <span class="codeph"> CMYK-</span>: Gibt CMYK-Bilddaten zurück </p> </td> 
+  <td class="stentry"> <p> Kann verwendet werden, um den Ausgabefarbraum zu beeinflussen. </p> <p> RGB-<span class="codeph"> </span>: RGB-Bilddaten zurückgeben </p> <p> <span class="codeph">-</span>: Gibt Bilddaten mit Graustufen zurück </p> <p> <span class="codeph"> CMYK-</span>: Gibt CMYK-Bilddaten zurück </p> </td> 
  </tr> 
 </table>
 

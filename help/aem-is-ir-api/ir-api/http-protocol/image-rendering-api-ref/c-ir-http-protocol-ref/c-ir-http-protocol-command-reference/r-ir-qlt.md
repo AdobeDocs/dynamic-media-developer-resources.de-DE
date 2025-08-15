@@ -21,11 +21,11 @@ JPEG-Qualität. Gibt JPEG-Kodierungsattribute zur Steuerung des Komprimierungsgr
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">-</span> </p> </td> 
-  <td class="stentry"> <p>JPEG-Kodierungsqualität (1…100) </p> </td> 
+  <td class="stentry"> <p>Qualität der JPEG-Kodierung (1…100) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> Chroma </span> </p> </td> 
-  <td class="stentry"> <p>JPEG-Chromatizitäts-Downsampling (0=normal, 1=disable); optional, Standard ist 0. </p> </td> 
+  <td class="stentry"> <p>JPEG-Chromatizitäts-Downsampling (0=normal, 1=disable); optional, der Standardwert ist 0. </p> </td> 
  </tr> 
 </table>
 
@@ -33,13 +33,13 @@ Gibt JPEG-Kodierungsattribute zur Steuerung des Komprimierungsgrads an. Dies wie
 
 Höhere *`quality`* erhöhen die Dateigröße und -qualität, niedrigere Werte verringern die Dateigrößen und verringern die wahrgenommene Bildqualität. Bei Werten über 90 entstehen oft Bilder, die vom nicht komprimierten Bild kaum zu unterscheiden sind.
 
-Setzen Sie das *`chroma`* Flag, um das Chromatizitäts-Downsampling zu deaktivieren, das bei herkömmlichen JPEG-Encodern verwendet wird. Diese Einstellung kann die wahrgenommene Schärfe von Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung des Farbtons statt der Helligkeit definiert ist. Das Setzen dieses Flags kann zu einer leichten Erhöhung der Dateigröße führen. Experimentieren Sie mit dieser Einstellung, wenn der Text leicht unscharf erscheint.
+Setzen Sie das Flag *`chroma`* , um die Chromatizitäts-Downsampling zu deaktivieren, die bei typischen JPEG-Encodern verwendet wird. Diese Einstellung kann die wahrgenommene Schärfe von Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung des Farbtons statt der Helligkeit definiert ist. Das Setzen dieses Flags kann zu einer leichten Erhöhung der Dateigröße führen. Experimentieren Sie mit dieser Einstellung, wenn der Text leicht unscharf erscheint.
 
 ## Eigenschaften {#section-897b61c786dd4230a2c5807f2f40e722}
 
 Kann überall in der Anfrage auftreten.
 
-Wird ignoriert, wenn das Ausgabebildformat keine JPEG-Komprimierung unterstützt. Unter der Beschreibung von `fmt=` finden Sie eine Liste der Ausgabebildformate, die die JPEG-Komprimierung unterstützen.
+Wird ignoriert, wenn das Bildformat der Ausgabe die JPEG-Komprimierung nicht unterstützt. Unter der Beschreibung von `fmt=` finden Sie eine Liste der Ausgabebildformate, die die JPEG-Komprimierung unterstützen.
 
 ## Standard {#section-1c1257df843c475bbac6aadaffcb6347}
 

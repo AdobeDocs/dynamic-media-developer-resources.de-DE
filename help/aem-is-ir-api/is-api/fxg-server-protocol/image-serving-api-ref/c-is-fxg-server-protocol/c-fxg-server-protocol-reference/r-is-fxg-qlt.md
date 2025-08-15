@@ -21,11 +21,11 @@ JPEG-Qualität. Gibt JPEG-Kodierungsattribute zur Steuerung des Komprimierungsgr
 <table id="simpletable_D080D15922CE4EF4B707282A4D45739A"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Qualität </span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG-Kodierungsqualität (1…100 int). </p> </td> 
+  <td class="stentry"> <p>Qualität der JPEG-Kodierung (1…100 int). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Chroma </span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG-Chromatizitäts-Downsampling (0=normal, 1=disable); optional, Standard ist 0. </p> </td> 
+  <td class="stentry"> <p>JPEG-Chromatizitäts-Downsampling (0=normal, 1=disable); optional, der Standardwert ist 0. </p> </td> 
  </tr> 
 </table>
 
@@ -33,7 +33,7 @@ Wird nur verwendet, wenn `fmt=jpg`. Andernfalls ignoriert
 
 Höhere Qualitätswerte erhöhen Dateigröße und Qualität, geringere Werte verringern die Dateigröße und die wahrgenommene Bildqualität. Bei Werten über 90 entstehen oft Bilder, die vom nicht komprimierten Bild kaum zu unterscheiden sind.
 
-Setzen Sie das `chroma` Flag, um das RGB-Chromatizitäts-Downsampling zu deaktivieren, das bei typischen JPEG-Encodern verwendet wird. Dies kann die wahrgenommene Schärfe von Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung des Farbtons anstatt der Helligkeit definiert ist. Das Setzen dieses Flags kann zu einer leichten Erhöhung der Dateigröße führen. Experimentieren Sie mit dieser Einstellung, wenn der Text leicht unscharf erscheint.
+Setzen Sie das Flag `chroma` , um die RGB-Chromatizitäts-Downsampling zu deaktivieren, die bei typischen JPEG-Codierern verwendet wird. Dies kann die wahrgenommene Schärfe von Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung des Farbtons anstatt der Helligkeit definiert ist. Das Setzen dieses Flags kann zu einer leichten Erhöhung der Dateigröße führen. Experimentieren Sie mit dieser Einstellung, wenn der Text leicht unscharf erscheint.
 
 Die `chroma` wird ignoriert, wenn der Ausgabe-Pixeltyp CMYK oder Grau ist.
 

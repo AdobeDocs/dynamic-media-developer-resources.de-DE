@@ -74,7 +74,7 @@ Die Bildlauffunktion ist für die Hauptsteuerleiste aktiviert und für die sekun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Bei <span class="codeph"> statischen </span> ist die Bildlauffunktion deaktiviert. </p> <p>Legen Sie diese Eigenschaft auf <span class="codeph"> absolute </span> fest, um die Bildlauffunktion zu aktivieren. </p> </td> 
   </tr> 
  </tbody> 

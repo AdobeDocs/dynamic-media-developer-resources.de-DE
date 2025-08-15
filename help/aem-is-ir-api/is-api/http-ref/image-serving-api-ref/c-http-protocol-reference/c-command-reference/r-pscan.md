@@ -26,7 +26,7 @@ Wenn `pscan` nicht festgelegt ist, wird standardmäßig `auto` verwendet.
 
 ## Eigenschaften {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angewendet. Wird ignoriert, wenn das Ausgabeformat kein progressives JPEG ist.
+Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angewendet. Ignoriert, wenn das Ausgabeformat nicht progressiv für JPEG ist.
 
 ## Standard {#section-01948f6cd7a2415091004cd7526436c7}
 

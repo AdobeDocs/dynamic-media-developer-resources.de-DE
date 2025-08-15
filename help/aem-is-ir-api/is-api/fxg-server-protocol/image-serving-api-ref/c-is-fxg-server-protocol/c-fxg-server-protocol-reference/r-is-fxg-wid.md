@@ -29,7 +29,7 @@ Breite anzeigen. Gibt die Breite des Antwortbildes (Ansichtsbild) an.
 
 Wenn weder `wid=`, `hei=` noch `scale=` angegeben sind, entspricht das Antwortbild der standardmäßigen Ansichtsgröße, die in der FXG-Datei angegeben ist.
 
-Rasterformate werden mit der standardmäßigen Ansichtsgröße (oder der Einstellung „DefaultPix„) gerendert. Klicken Sie auf **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Publish-]** > **[!UICONTROL Bildserver]** und geben Sie dann Ihre Werte für Breite und Höhe ein. Kleinere Größen bieten eine bessere Leistung. Speichern Sie Ihre Einstellungen und führen Sie eine Image-Serving-Publish durch, um eine Änderung anzuwenden.
+Rasterformate werden mit der standardmäßigen Ansichtsgröße (oder der Einstellung „DefaultPix„) gerendert. Klicken Sie auf **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]** und geben Sie dann Ihre Werte für Breite und Höhe ein. Kleinere Größen bieten eine bessere Leistung. Speichern Sie Ihre Einstellungen und führen Sie eine Image-Serving-Veröffentlichung durch, um eine Änderung anzuwenden.
 
 Wenn Sie einen `scale=1`-Befehl anwenden, wird eine Rasterformatanforderung in der in der FXG angegebenen Größe gerendert.
 
@@ -44,6 +44,6 @@ Sofern kein Format angegeben ist, wird das Bild als SWF-Datei gerendert. In dies
 * PNG
 * JPG
 * JPEG
-* GIF-alpha
+* GIF-Alpha
 * TIF-Alpha
 * PNG-Alpha

@@ -24,7 +24,7 @@ Abziehbildgröße. Gibt die Größe eines Abziehbilds an.
   <td class="stentry"> <p>Größe des Abziehbildobjekts in Szenenkoordinateneinheiten (normalerweise Zoll) (real, real). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> </span> <span class="varname"> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> </span> </p> </td> 
   <td class="stentry"> <p>Die Dicke des Abziehbilds in Szenenkoordinateneinheiten (normalerweise in Zoll) (real). </p> </td> 
  </tr> 
 </table>

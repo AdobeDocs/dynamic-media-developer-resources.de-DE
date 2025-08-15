@@ -18,7 +18,7 @@ RGB-Standardausgabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für R
 
 ## Eigenschaften {#section-3dd55c954d4d4ad4bb715ed7cee31025}
 
-Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
 
 ## Standard {#section-dfe08dd7b851453ca816623a4179955b}
 

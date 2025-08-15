@@ -26,7 +26,7 @@ Syntax
 
 * Werte: `Rectangle` und `Polygon`.
 
-**Status von Publish**
+**Veröffentlichungsstatus**
 
 * Verwendet von: `searchAssetsParam/publishState` und `setAssetPublishStateParam/publishState`.
 

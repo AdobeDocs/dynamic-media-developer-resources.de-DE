@@ -1,5 +1,5 @@
 ---
-description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Dynamic Media Image Serving berücksichtigt werden sollten.
+description: Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Dynamic Media-Bildbereitstellung berücksichtigt werden sollten.
 solution: Experience Manager
 title: Einschränkungen und bekannte Probleme
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 # Einschränkungen und bekannte Probleme{#restrictions-and-known-issues}
 
-Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Dynamic Media Image Serving berücksichtigt werden sollten.
+Es gibt einige Einschränkungen und bekannte Probleme, die bei der Verwendung von Dynamic Media-Bildbereitstellung berücksichtigt werden sollten.
 
 ## Dokumentationsfehler {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -88,17 +88,17 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 
   Erhöhen Sie für das Rendern von nicht pyramidenförmigen Vignetten im Bild den Eigenschaftswert für IrMaxNonPyrVignetteSize in der [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] Konfigurationsdatei.
 
-  Erhöhen Sie für nicht pyramidenförmige TIFF von Image Serving den Eigenschaftswert für `MaxNonDsfSize` in der [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
+  Erhöhen Sie für nicht pyramidenförmige TIFFs zur Bildbereitstellung den Eigenschaftswert für `MaxNonDsfSize` in der [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] Konfigurationsdatei.
 
 * Adobe [!DNL Photoshop] CS3 speichert mehrschichtige PSD-Dateien nicht standardmäßig als zusammengesetztes Bild.
 
   *Symptome*:
 
-  Die Adobe [!DNL Photoshop] CS3 Layered PSD-Datei wird schwarz mit folgendem Text angezeigt: „Diese Layered [!DNL Photoshop]-Datei wurde nicht mit einem Composite Image gespeichert.“ für das Image-Serving-Antwortbild oder in IPS.
+  Die PSD-Datei mit Adobe [!DNL Photoshop] CS3-Schicht wird schwarz angezeigt, wobei der Text lautet: „Diese [!DNL Photoshop] wurde nicht mit einem zusammengesetzten Bild gespeichert.“ für das Image-Serving-Antwortbild oder in IPS.
 
   *Behelfslösung*:
 
-  Speichern Sie die Adobe [!DNL Photoshop] CS3-Datei unter eingeschalteter Option „Kompatibilität maximieren“.
+  Speichern Sie die Adobe [!DNL Photoshop] CS3-Datei unter aktivierter Option „Kompatibilität maximieren“.
 
 * Wenn Sie einem CMYK/JPEG-Antwortbild ein ICC-Profil zuweisen, werden die Farben in einigen Browsern invertiert.*Umgehen*:
 
@@ -117,7 +117,7 @@ Die Digimarc-Bibliothek weigert sich, ein Digimarc-Wasserzeichen auf ein Bild an
 * Farbkorrekturen für PNG-Bilder mit eingebetteten Farbprofilen verwenden hartcodierte Optionen. Die Render-Absicht ist relativ farbmetrisch, und die Blackpoint-Kompensation für FotoFont-Text ist aktiviert.
 * Die dateibasierte Suche wird nicht unterstützt, wenn die Gebietsschema-Übersetzung in der [!DNL ini]-Datei des Unternehmens aktiviert ist.
 * Die Bildbereitstellung schreibt nicht geschlossene [!DNL Photoshop] nicht korrekt.
-* Image Serving unterstützt derzeit nicht die Verarbeitung von TIFF-Dateien, die mit Adobe Media Encoder 4.0.1 oder früher exportiert wurden. Adobe Media Encoder ist in Premiere Pro CS4, After Effects CS4 und Creative Suite 4 Production Premium enthalten.
+* Die Bildbereitstellung unterstützt derzeit nicht die Verarbeitung von TIFF-Dateien, die mit Adobe Media Encoder 4.0.1 oder früher exportiert wurden. Adobe Media Encoder ist in Premiere Pro CS4, After Effects CS4 und Creative Suite 4 Production Premium enthalten.
 * Die Verwendung von `text=` mit Ebenen mit Selbstgrößenanpassung unterstützt keine RTF-Zeichenfolgen, die mehr als eine Einstellung für die Zeilenausrichtung verwenden.
 
   *Beispiel*

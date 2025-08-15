@@ -22,12 +22,12 @@ Bildformat der Antwort. Gibt das Bildcodierungsformat für an den Client gesende
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">-</span> </p> </td> 
   <td class="stentry"> <p>JPEG </p> </td> 
-  <td class="stentry"> <p>Verlustbehaftetes JPEG. </p> </td> 
+  <td class="stentry"> <p>Verlorene JPEG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>Verlustbehaftete JPG. </p> </td> 
+  <td class="stentry"> <p>Verlorene JPG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -57,12 +57,12 @@ Bildformat der Antwort. Gibt das Bildcodierungsformat für an den Client gesende
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>Verlustbehaftetes JPEG und eine in eine Macromedia SWF-Datei eingebettete Deflate-komprimierte Maske. </p> </td> 
+  <td class="stentry"> <p>Eine verlustbehaftete JPEG und eine Deflate-komprimierte Maske, die in eine Macromedia SWF-Datei eingebettet ist. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>pdf </p> </td> 
-  <td class="stentry"> <p>Bild eingebettet in PDF. </p> </td> 
+  <td class="stentry"> <p>In PDF eingebettetes Bild. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -112,13 +112,13 @@ Bildformat der Antwort. Gibt das Bildcodierungsformat für an den Client gesende
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>JPEG </p> </td> 
-  <td class="stentry"> <p>JPEG-Komprimierung (verlustbehaftet) </p> </td> 
+  <td class="stentry"> <p>JPEG-Komprimierung (verlustreich). </p> </td> 
  </tr> 
 </table>
 
 *`pixelType`* Bewirkt die Konvertierung des Ausgabefarbraums, wenn `icc=` nicht angegeben ist. Das Standardfarbprofil, das *`pixelType`* entspricht, wird angewendet. Wenn das Farbmanagement deaktiviert ist, wird eine naive Konvertierung angewendet. *`pixelType`* Wird ignoriert, wenn `icc=` angegeben wird. Dies bestimmt den Pixel-Typ der Ausgabe.
 
-*`compression`* Nur zulässig, wenn tif, tif-alpha oder PDF als *`format`* angegeben ist. In der folgenden Tabelle finden Sie die Komprimierungsoptionen, die für diese Bildformate unterstützt werden.
+*`compression`* Nur zulässig, wenn TIF, TIF-Alpha oder PDF als *`format`* angegeben ist. In der folgenden Tabelle finden Sie die Komprimierungsoptionen, die für diese Bildformate unterstützt werden.
 
 `qlt-` Legt die JPEG-Kodierungsoptionen für die folgenden Formate fest: JPEG, TIFF mit JPEG-Komprimierung, PDF mit JPEG-Komprimierung und SWF-Datei. Verwenden Sie `quantize=`, wenn `fmt=gif` oder `fmt=gif-alpha`. Einzelheiten finden Sie in den Befehlsbeschreibungen. Für die anderen Formate gibt es keine einstellbaren Optionen.
 
@@ -169,7 +169,7 @@ In der folgenden Tabelle sind die gültigen Kombinationen von *`format`* und *`p
    <td colname="col1"> <p>SWF, SWF-Alpha </p> </td> 
    <td colname="col2"> <p>RGB, grau </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nein </p> <p>(Die Flash Player ignoriert eingebettete ICC-Profile.) </p> </td> 
+   <td colname="col4"> <p>Nein </p> <p>(Der Flash Player ignoriert eingebettete ICC-Profile.) </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> Attribut::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 

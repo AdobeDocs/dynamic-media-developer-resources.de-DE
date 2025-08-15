@@ -22,7 +22,7 @@ Detailmeldung, die auf eine der in der CDN-Invalidierungsanfrage angegebenen URL
 
 ## Parameter {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| **&#x200B; Name** | **&#x200B; Typ** | **&#x200B; Beschreibung** |
+| ** Name** | ** Typ** | ** Beschreibung** |
 |---|---|---|
 | Code | `xsd:int` | Vom CDN bereitgestellter Fehler-Code |
 | Grund | `xsd:string` | Vom CDN bereitgestellte Fehlermeldung |

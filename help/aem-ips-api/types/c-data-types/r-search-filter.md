@@ -69,7 +69,7 @@ Syntax
    <td colname="col3">Legen Sie auf fest: 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
      <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>: Gibt nur Original-Assets zurück. </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>: Gibt den generierten Inhalt zurück. Beispielsweise Bilder von einer hochgeladenen PDF. </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>: Gibt den generierten Inhalt zurück. Beispielsweise Bilder aus einer hochgeladenen PDF. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -203,7 +203,7 @@ background-position: -0px -1120px;
 
 ## Allgemeine Hinweise und Hinweise zu Stilen {#section-097418bd618740bba36352629e4d88e1}
 
-* Alle Pfade zu externen Assets innerhalb von CSS werden anhand des CSS-Speicherorts und nicht anhand des Speicherorts der Viewer-HTML-Seite aufgelöst. Merken Sie sich diese Regel, wenn Sie das Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie die Standard-Assets oder aktualisieren Sie die Pfade innerhalb des benutzerdefinierten CSS.
+* Alle Pfade zu externen Assets innerhalb von CSS werden für den CSS-Speicherort und nicht für den Speicherort der HTML-Seite des Viewers aufgelöst. Merken Sie sich diese Regel, wenn Sie das Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie die Standard-Assets oder aktualisieren Sie die Pfade innerhalb des benutzerdefinierten CSS.
 * Das bevorzugte Format für Bitmap-Grafiken ist PNG.
 * Bitmap-Grafiken werden Benutzeroberflächenelementen mithilfe der `background-image`-Eigenschaft zugewiesen.
 * Die `width`- und `height` eines Benutzeroberflächenelements definieren dessen logische Größe. Die Größe der an `background-image` übergebenen Bitmap hat keine Auswirkungen auf die logische Größe.

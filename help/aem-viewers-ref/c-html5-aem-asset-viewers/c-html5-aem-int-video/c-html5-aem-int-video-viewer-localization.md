@@ -154,15 +154,15 @@ Die folgenden SYMBOLE werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook-Freigabeschaltfläche. </p> </td> 
+   <td colname="col2"> <p>Facebook-Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Twitter Freigabe-Schaltfläche. </p> </td> 
+   <td colname="col2"> <p>Freigabe-Schaltfläche in Twitter </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> closeButton.TOOLTIP-</span> </p> </td> 
-   <td colname="col2"> <p>Schaltfläche zum Schließen des Aktionsbereichs aufrufen. </p> </td> 
+   <td colname="col2"> <p>Schaltfläche zum Schließen des call to action-Bedienfelds. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

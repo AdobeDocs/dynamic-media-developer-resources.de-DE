@@ -42,4 +42,4 @@ Syntax
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Ja | Das Array aktiver Veröffentlichungskontexte, das null oder mehr Werte aus Publish Context enthalten kann. |
+| contextArray | `types:StringArray` | Ja | Das Array aktiver Veröffentlichungskontexte, das null oder mehr Werte aus dem Veröffentlichungskontext enthalten kann. |

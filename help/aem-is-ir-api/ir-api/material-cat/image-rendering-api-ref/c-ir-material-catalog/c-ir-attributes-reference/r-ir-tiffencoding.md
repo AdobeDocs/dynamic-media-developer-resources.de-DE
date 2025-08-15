@@ -16,7 +16,7 @@ ht-degree: 4%
 
 TIFF-Kodierungsformat. Gibt das Komprimierungsformat für TIFF-Bilder an (im Prinzip der Standard für den dritten Wert des `fmt=`).
 
-Auf `0` für keine Komprimierung, `1` für LZW, `2` für Deflate (ZIP) und `3` für JPEG-Komprimierung eingestellt.
+Legen Sie hierfür `0` für keine Komprimierung, `1` für LZW, `2` für Deflate (ZIP) und `3` für JPEG-Komprimierung fest.
 
 ## Eigenschaften {#section-469f5a1225464542866f5353edd92db3}
 

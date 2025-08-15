@@ -170,7 +170,7 @@ Um den Vorgangstyp zurückzugeben, geben Sie einen Vorgangstypwert an. Sie könn
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph">:ExportJob</span> </td> 
-   <td colname="col3">Zulassen des autorisierten Exports zuvor hochgeladener Dateien. Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=de" format="http" scope="external"> Exportvorgang</a>. </td> 
+   <td colname="col3">Zulassen des autorisierten Exports zuvor hochgeladener Dateien. Siehe <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportvorgang</a>. </td> 
   </tr> 
  </tbody> 
 </table>

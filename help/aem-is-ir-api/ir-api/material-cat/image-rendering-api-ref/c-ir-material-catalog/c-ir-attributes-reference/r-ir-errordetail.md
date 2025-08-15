@@ -41,7 +41,7 @@ Die folgenden Werte sind zulässig:
 
 * Stufe 0 wird für Live-Server empfohlen, auf die öffentlich zugegriffen werden kann.
 * Stufe 2 wird für Staging-, Qualitätssicherungs- und Anwendungsentwicklungsserver empfohlen.
-* Informationen der Stufe 3 können beim Melden von Problemen an den technischen Support von Dynamic Media hilfreich sein.
+* Informationen der Stufe 3 können beim Melden von Problemen an den technischen Support von Dynamic Media nützlich sein.
 
 ## Eigenschaften {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 

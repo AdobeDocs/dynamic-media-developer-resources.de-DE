@@ -96,7 +96,7 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den `responseFieldArray`- oder `
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Publish State Choice. </td> 
+   <td colname="col4"> Auswahl des Veröffentlichungsstatus. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
@@ -174,13 +174,13 @@ Begrenzen Sie die Größe Ihres Datensatzes mit den `responseFieldArray`- oder `
    <td colname="col1"> <span class="codeph"> <span class="varname"> rictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4">Wenn <span class="codeph"> „true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer ist, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. Wenn „false</span> (Standard)“ <span class="codeph">, werden Assets ohne definierten Untertyp zurückgegeben. </td> 
+   <td colname="col4">Wenn <span class="codeph"> „true</span> und <span class="codeph"> assetSubTypeArray</span> nicht leer ist, werden nur Assets zurückgegeben, deren Untertypen sich in <span class="codeph"> assetSubTypeArray</span> befinden. Wenn „false<span class="codeph"> (Standard)“ </span>, werden Assets ohne definierten Untertyp zurückgegeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nein </td> 
-   <td colname="col4"> Wenn „true“, werden Nebenprodukt-Assets, die während der Aufnahme eines primären Assets generiert werden, wie z. B. ausgelöste PDF-Seitenbilder, aus den Suchergebnissen ausgeschlossen. Der Standardwert ist „false“. </td> 
+   <td colname="col4"> Wenn „true“, werden während der Aufnahme eines primären Assets generierte Nebenprodukt-Assets, wie z. B. ausgelöste PDF-Seitenbilder, aus den Suchergebnissen ausgeschlossen. Der Standardwert ist „false“. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproductArray</span> </span> </td> 

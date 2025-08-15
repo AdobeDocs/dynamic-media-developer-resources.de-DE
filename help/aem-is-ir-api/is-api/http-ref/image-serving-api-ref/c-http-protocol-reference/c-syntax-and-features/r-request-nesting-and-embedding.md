@@ -54,7 +54,7 @@ Das Bildergebnis einer verschachtelten IS-Anfrage kann optional zwischengespeich
 
 ## Render-Anfragen für eingebettete Bilder {#section-69c5548db930412b9b90d9b2951a6969}
 
-Wenn das Dynamic Media-Bild-Rendering auf dem Server aktiviert ist, können Render-Anfragen als Ebenenquellen verwendet werden, indem sie im Befehl src= (oder mask=) angegeben werden. Verwenden Sie die folgende Syntax:
+Wenn das Dynamic Media-Bild-Rendering auf dem Server aktiviert ist, können Render-Anforderungen als Ebenenquellen verwendet werden, indem sie im Befehl src= (oder mask=) angegeben werden. Verwenden Sie die folgende Syntax:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -89,7 +89,7 @@ Beim `fxg`-Token wird zwischen Groß- und Kleinschreibung unterschieden.
 
 >[!NOTE]
 >
->Das FXG-Grafik-Rendering ist nur in der gehosteten Umgebung von Dynamic Media verfügbar und erfordert möglicherweise eine zusätzliche Lizenzierung. Wenden Sie sich an den technischen Support von Dynamic Media, um weitere Informationen zu erhalten.
+>Das FXG-Grafik-Rendering ist nur in der gehosteten Dynamic Media-Umgebung verfügbar und erfordert möglicherweise zusätzliche Lizenzen. Wenden Sie sich an den technischen Support für Dynamic Media, um weitere Informationen zu erhalten.
 
 *[!DNL renderRequest]* ist die übliche FXG-Render-Anfrage, mit Ausnahme des HTTP-Stammpfads ` http:// *[!DNL server]*/agm/render/`.
 
@@ -151,7 +151,7 @@ Mit geringfügigen Änderungen können wir das Bild der Ebene 0 vorab skalieren 
 
 **Einbetten von Anfragen für das Dynamic Media-Bild-Rendering**
 
-Erstellen Sie mithilfe einer in [!DNL myCatalog/myTemplate] gespeicherten Vorlage das Bild für Layer2 der Vorlage mithilfe von Dynamic Media Image Rendering:
+Verwenden einer in [!DNL myCatalog/myTemplate] gespeicherten Vorlage; Generieren des Bildes für Ebene2 der Vorlage mithilfe von Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

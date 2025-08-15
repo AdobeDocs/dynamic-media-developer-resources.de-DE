@@ -1,6 +1,6 @@
 ---
 title: xmpEmbed
-description: XMP-Metadaten einbetten. Gibt an, ob XMP-Metadaten in das Antwortbild aufgenommen werden sollen.
+description: Einbetten von XMP-Metadaten. Gibt an, ob XMP-Metadaten in das Antwortbild aufgenommen werden sollen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # xmpEmbed{#xmpembed}
 
-XMP-Metadaten einbetten. Gibt an, ob XMP-Metadaten in das Antwortbild aufgenommen werden sollen.
+Einbetten von XMP-Metadaten. Gibt an, ob XMP-Metadaten in das Antwortbild aufgenommen werden sollen.
 
 `xmpEmbed=0|1`
 
@@ -26,7 +26,7 @@ XMP-Metadaten einbetten. Gibt an, ob XMP-Metadaten in das Antwortbild aufgenomme
 
 Anforderungsattribut. Ignoriert, wenn das Quellbild keine XMP-Daten enthält. Es werden nur XMP-Daten aus dem Quellbild von `layer=0` verarbeitet. XMP-Daten aus anderen Ebenenbildern werden ignoriert.
 
-Wird ignoriert, wenn das Ausgabebildformat keine XMP-Einbettung unterstützt. Unter der Beschreibung von `fmt=` finden Sie eine Liste der Ausgabebildformate, die die XMP-Einbettung unterstützen.
+Wird ignoriert, wenn das Ausgabebildformat die XMP-Einbettung nicht unterstützt. Unter der Beschreibung von `fmt=` finden Sie eine Liste der Ausgabebildformate, die die XMP-Einbettung unterstützen.
 
 ## Standard {#section-aedbedd04d664ba184b2cfe35644b960}
 

@@ -28,7 +28,7 @@ Text-String Erforderlich für Textur- und Abziehmaterialien, optional für Schra
 
 Das Bild-Rendering unterstützt dieselben Quellbildformate wie Dynamic Media Image Serving.
 
-Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, bieten die beste Leistung bei Verwendung des PTIFF-Formats (Dynamic Media Pyramid TIFF) mit mehreren Auflösungen. Image Serving beinhaltet das Image Converter-Dienstprogramm (IC), das PTIFF-Bilder aus jedem unterstützten Format erstellt.
+Anwendungen, für die Bilddaten in mehreren Auflösungen erforderlich sind, erzielen die besten Ergebnisse, wenn das PTIFF-Format (Dynamic Media Pyramid TIFF) mit mehreren Auflösungen verwendet wird. Image Serving beinhaltet das Image Converter-Dienstprogramm (IC), das PTIFF-Bilder aus jedem unterstützten Format erstellt.
 
 Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Beschreibung des IC-Dienstprogramms in der Dokumentation zu Image-Serving .
 

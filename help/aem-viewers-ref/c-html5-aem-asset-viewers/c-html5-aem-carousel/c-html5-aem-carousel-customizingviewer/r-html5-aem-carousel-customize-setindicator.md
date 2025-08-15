@@ -110,11 +110,11 @@ Das Erscheinungsbild eines einzelnen Punkts für die Set-Anzeige wird mit dem CS
    <td colname="col2"> <p>Schriftfarbe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> zur vertikalen Ausrichtung <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zur vertikalen Ausrichtung </span> </p> </td> 
    <td colname="col2"> <p>Vertikale Ausrichtung des Bannerindexes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p>Texthöhe für den Bannerindex. </p> </td> 
   </tr> 
  </tbody> 

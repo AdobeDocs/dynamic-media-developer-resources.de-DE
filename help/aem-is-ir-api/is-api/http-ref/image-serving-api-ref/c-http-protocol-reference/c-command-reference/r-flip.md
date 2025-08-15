@@ -35,7 +35,7 @@ Ebene spiegeln. Spiegelt die Ebene horizontal, vertikal oder beides nach dem Anw
 
 Sie kann auch auf Textebenen angewendet werden.
 
-Einige Befehle, einschließlich `extend=`, gelten implizit für Ebene 0 anstelle der zusammengesetzten Ebene, wenn `layer=comp` ausgewählt ist. In solchen Szenarien werden alle Befehle, die automatisch Ebene 0 zugeordnet sind, vor den Befehlen angewendet, die für `layer=comp` gelten. Daher wird `extend=` beim `layer=comp` vor der `flip=` angewendet.
+Einige Befehle, einschließlich `extend=`, gelten implizit für Ebene 0 anstelle der zusammengesetzten Ebene, wenn `layer=comp` ausgewählt ist. In solchen Szenarien werden alle Befehle, die automatisch Ebene 0 zugeordnet sind, vor den Befehlen angewendet, die für `layer=comp` gelten. Daher wird `layer=comp` beim `extend=` vor der `flip=` angewendet.
 
 >[!NOTE]
 >

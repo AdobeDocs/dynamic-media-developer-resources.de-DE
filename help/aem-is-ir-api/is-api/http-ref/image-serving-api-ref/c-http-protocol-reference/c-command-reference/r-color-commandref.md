@@ -21,7 +21,7 @@ Ebenenfarbe. Gibt die Vordergrundfarbe und Deckkraft von Volltonfarbe- und Effek
 <table id="simpletable_68645167998A42229CEF858909FD447E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> Farbe </span> </span> </p> </td> 
-  <td class="stentry"> <p>Grau-, RGB- oder CMYK-Farbwert, mit oder ohne Alpha. </p> </td> 
+  <td class="stentry"> <p>Grau, RGB oder CMYK-Farbwert, mit oder ohne Alpha. </p> </td> 
  </tr> 
 </table>
 

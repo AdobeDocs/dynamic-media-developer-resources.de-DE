@@ -25,8 +25,8 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe von Dynamic Media Image Serving 6.7.1 oder höher.
-* Für HTML5-Viewer sind SDK JavaScript-Server-seitige Bibliotheken 3.11.5 oder höher erforderlich.
+* Adobe Dynamic Media Image Serving 6.7.1 oder höher.
+* HTML5-Viewer erfordern SDK JavaScript Server-seitige Bibliotheken 3.11.5 oder höher.
 * *E-Mail an einen Freund* Für Social-Media-Funktionen ist s7ondemand 5.0.9 oder höher erforderlich.
 * E-Katalog-Viewer - [Info-Panel-Popup](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) Für die Unterstützung ist Info-Server 2.1.8 oder höher erforderlich.
 * Für Komponenten von Suchfunktionen ist s7search 2.3.0 oder höher erforderlich.
@@ -78,7 +78,7 @@ Systemanforderungen für Dynamic Media HTML5-Viewer.
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media Viewers hat am 30. September 2022 die Unterstützung für Folgendes beendet:
+Zum 30. September 2022 haben Adobe Dynamic Media Viewers die Unterstützung für Folgendes beendet:
 
 * TLS (Transport Layer Security) 1.0 und 1.1
 * Die folgenden schwachen Chiffren in TLS 1.2:
@@ -97,11 +97,11 @@ Adobe Dynamic Media Viewers hat am 30. September 2022 die Unterstützung für Fo
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDGE_CBC_SHA
 
-## Nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media Viewer {#browser-os-support}
+## Nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media-Viewer {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media Viewer unterstützen nicht die folgenden Kombinationen aus Webbrowser und Betriebssystem:
+Adobe Dynamic Media Viewers unterstützt nicht die folgenden Kombinationen aus Webbrowser und Betriebssystem:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1

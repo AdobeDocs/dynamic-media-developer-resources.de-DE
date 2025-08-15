@@ -25,7 +25,7 @@ Vignette Converter (vntc) ist ein Befehlszeilenprogramm, mit dem mit Image Autho
 * Extrahiert Ansichtsbilder aus Vignetten, entweder in voller Auflösung oder Miniaturen (siehe `-thumbwidth` und `-image`).
 * Extrahiert relevante Eigenschaften aus der Quelldatei (siehe `-info`) und sendet sie an `stdout` oder eine optionale Protokolldatei (siehe `-log`).
 
-Obwohl die Verwendung von [!DNL vntc] optional ist, empfiehlt Adobe die Verwendung von für eine optimale Server-Leistung. Der Vignette Converter führt außerdem umfangreiche Fehlerprüfungen durch und kann bei sorgfältigem Einsatz schwerwiegende Serverprobleme wie Abstürze verhindern.
+Auch wenn die Verwendung von [!DNL vntc] optional ist, empfiehlt Adobe seine Verwendung für eine optimale Server-Leistung. Der Vignette Converter führt außerdem umfangreiche Fehlerprüfungen durch und kann bei sorgfältigem Einsatz schwerwiegende Serverprobleme wie Abstürze verhindern.
 
 Beim Generieren von Produktionsvignetten wird die Pixelbreite der Ausgangsvignette (bzw. 0 bei Pyramiden- oder Vignetten mit mehreren Auflösungen) an den Namen der generierten Ausgangsvignettendatei angehängt. Bei der Verarbeitung von CAB-Style-Dateien wird die Ausgabedateiauflösung an den Namen der Ausgabedatei angehängt. Alle Ausgabedateien, einschließlich der optionalen Miniatur-, Bild- und Protokolldateien sowie der Produktionsvignetten- oder Kabinettstil-Datei, werden im selben Verzeichnis abgelegt, in dem sich *[!DNL sourceFile]* befindet (sofern nicht `-destPath` angegeben ist).
 

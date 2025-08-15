@@ -61,7 +61,7 @@ Zielgruppe. *`num`*.rect ist für jedes Zoomziel erforderlich und muss ein Recht
 
 Bei Anwendungen, die die Clients zum Anzeigen von Rotationen und Broschüren beinhalten, müssen die Zoom-Ziele im selben Katalogdatensatz definiert werden, der das Bildset definiert. Alle Zoom-Zieldefinitionen in den Katalogdatensätzen der Mitglieder des Bildsets werden vom Viewer ignoriert.
 
-Die Dynamic Media Viewer erwarten Zoom-Ziele in den Koordinaten des Bildes mit voller Auflösung, die bereits durch die Befehle von `catalog::Modifier` angepasst wurden.
+Die Dynamic Media-Viewer erwarten Zoom-Ziele in den Koordinaten des Bildes mit voller Auflösung, die bereits durch die Befehle von `catalog::Modifier` angepasst wurden.
 
 ## Eigenschaften {#section-b3f8eba4985f4b00bb935d592fe770f9}
 

@@ -1,6 +1,6 @@
 ---
 title: quanteln
-description: Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonvertierung fest.
+description: Farbquantisierung. Gibt Farbquantisierungsattribute für die Konvertierung der GIF-Ausgabe an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # quanteln{#quantize}
 
-Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonvertierung fest.
+Farbquantisierung. Gibt Farbquantisierungsattribute für die Konvertierung der GIF-Ausgabe an.
 
 ` quantize= *`type`*[, *`dither`*[, *`numColors`*[, *`colorList`*]]]`
 
@@ -22,7 +22,7 @@ Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonverti
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Typ </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Gibt den Palettentyp an. </p> <p>Legen Sie <span class="codeph"> adaptives </span> fest, um eine optimale Palette für das Bild zu berechnen. </p> <p>Auf <span class="codeph"> Web-</span> oder <span class="codeph"> Mac-</span> einstellen, um eine vordefinierte Palette auszuwählen. </p> <p> <p>Hinweis: Der <span class="codeph"> mac </span> Palettentyp wird nur für die Formate GIF und PNG8 unterstützt, nicht aber für die Formate GIF-Alpha und PNG8-Alpha.</p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Gibt den Palettentyp an. </p> <p>Legen Sie <span class="codeph"> adaptives </span> fest, um eine optimale Palette für das Bild zu berechnen. </p> <p>Auf <span class="codeph"> Web-</span> oder <span class="codeph"> Mac-</span> einstellen, um eine vordefinierte Palette auszuwählen. </p> <p> <p>Hinweis: Der <span class="codeph"> mac </span> Palettentyp wird nur für die Formate GIF und PNG8 unterstützt, jedoch nicht für die Formate GIF-Alpha und PNG8-Alpha.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Dither </span> </span> </p> </td> 
@@ -43,7 +43,7 @@ Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonverti
 
 Anforderungsattribut. Sie gilt unabhängig von der aktuellen Ebeneneinstellung. Wird nur verwendet, wenn `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` oder `fmt=png8-alpha`. Andernfalls ignoriert.
 
-Die mit *`colorList`* angegebenen Farben müssen aus RGB-Werten im Hex6-Format bestehen (siehe [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) ohne `0x`. Andere Farbspezifikatoren sind nicht zulässig. Der Modifikator *`numColors`* muss 2-256 sein.
+Die mit *`colorList`* angegebenen Farben müssen aus RGB-Werten im Hexadezimalformat 6 bestehen (siehe [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) ohne `0x`. Andere Farbspezifikatoren sind nicht zulässig. Der Modifikator *`numColors`* muss 2-256 sein.
 
 ## Standard {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -51,11 +51,11 @@ Die mit *`colorList`* angegebenen Farben müssen aus RGB-Werten im Hex6-Format b
 
 ## Beispiel {#section-e34aca7587d548a7ae9d4266b80c9451}
 
-Generieren eines GIF-Miniaturbilds mithilfe der `web`-Palette ohne Dithering:
+Generieren Sie eine GIF-Miniaturansicht mithilfe der `web`-Palette ohne Dithering:
 
 `http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Konvertieren Sie das Bild in eine zweifarbige GIF mit Key-Color-Transparenz. Erzwingen Sie die Farben auf Schwarz und Weiß:
+Konvertieren Sie das Bild in eine zweifarbige GIF mit Schlüsselfarbtransparenz. Erzwingen Sie die Farben auf Schwarz und Weiß:
 
 `http:// *`*Server*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

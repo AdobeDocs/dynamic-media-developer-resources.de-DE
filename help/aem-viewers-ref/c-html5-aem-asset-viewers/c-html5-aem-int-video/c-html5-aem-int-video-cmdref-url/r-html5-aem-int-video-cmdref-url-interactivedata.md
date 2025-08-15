@@ -18,7 +18,7 @@ URL-Befehl für den interaktiven Video-Viewer.
 
 `interactivedata= *`Datei`*`
 
-Interaktive Daten verknüpfen bestimmte Zeitbereiche im Videoinhalt mit den Produktdaten, die später in interaktiven Farb-/Bildmustern neben dem Video angezeigt werden. Er wird auch im Bedienfeld für Aktionsaufrufe zugeordnet, das am Ende der Videowiedergabe angezeigt wird. Es enthält auch einen Titel für das interaktive Video, das im Bedienfeld für Aktionsaufrufe angezeigt wird.
+Interaktive Daten verknüpfen bestimmte Zeitbereiche im Videoinhalt mit den Produktdaten, die später in interaktiven Farb-/Bildmustern neben dem Video angezeigt werden. Es ist auch im call-to-action-Bedienfeld verknüpft, das nach Abschluss der Videowiedergabe angezeigt wird. Es enthält auch einen Titel für das interaktive Video, das im call-to-action-Bedienfeld angezeigt wird.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 

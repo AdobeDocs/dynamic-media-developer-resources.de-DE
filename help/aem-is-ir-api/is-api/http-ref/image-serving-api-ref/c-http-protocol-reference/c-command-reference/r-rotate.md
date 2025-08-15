@@ -45,7 +45,7 @@ Wenden Sie `size=` auf Ebene 0 an, um die Ansichtsgröße festzulegen, anstatt `
 
 Der Ursprung für beide Ebenen wird auf die obere linke Ecke eingestellt, um die gewünschte Ausrichtung zu erreichen. Der Ausgangspunkt für Ebene 1 gilt für `labelImage`nachdem sie gedreht wurde.
 
-Ein Beispiel für gedrehten Text finden [&#128279;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)Beispiel A[ unter Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Ein Beispiel für gedrehten Text finden [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)Beispiel A[ unter Vorlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Verwandte Themen {#section-c371ee0845994b7382c02e782d1bc595}
 

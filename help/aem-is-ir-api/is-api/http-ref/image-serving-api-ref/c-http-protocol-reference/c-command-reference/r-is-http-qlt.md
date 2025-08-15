@@ -21,21 +21,21 @@ JPEG-Qualität. Gibt JPEG-Kodierungsattribute zur Steuerung des Komprimierungsgr
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">-</span> </p> </td> 
-  <td class="stentry"> <p>JPEG-Kodierungsqualität (1…100 int). </p> </td> 
+  <td class="stentry"> <p>Qualität der JPEG-Kodierung (1…100 int). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> Chroma </span> </p> </td> 
-  <td class="stentry"> <p>JPEG-Chromatizitäts-Downsampling (0=normal, 1=disable); optional, Standard ist 0. </p> </td> 
+  <td class="stentry"> <p>JPEG-Chromatizitäts-Downsampling (0=normal, 1=disable); optional, der Standardwert ist 0. </p> </td> 
  </tr> 
 </table>
 
 Höhere *`quality`* erhöhen die Dateigröße und -qualität, niedrigere Werte verringern die Dateigrößen und verringern die wahrgenommene Bildqualität. Bei Werten über 90 entstehen oft Bilder, die vom nicht komprimierten Bild kaum zu unterscheiden sind.
 
-Setzen Sie das *`chroma`* Flag, um das RGB-Chromatizitäts-Downsampling zu deaktivieren, das bei typischen JPEG-Encodern verwendet wird. Dies kann die wahrgenommene Schärfe von Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung des Farbtons anstatt der Helligkeit definiert ist. Das Setzen dieses Flags kann zu einer leichten Erhöhung der Dateigröße führen. Experimentieren Sie mit dieser Einstellung, wenn der Text leicht unscharf erscheint.
+Setzen Sie das Flag *`chroma`* , um die RGB-Chromatizitäts-Downsampling zu deaktivieren, die bei typischen JPEG-Codierern verwendet wird. Dies kann die wahrgenommene Schärfe von Kanten in einem Bild erhöhen, wenn die Kante durch eine Änderung des Farbtons anstatt der Helligkeit definiert ist. Das Setzen dieses Flags kann zu einer leichten Erhöhung der Dateigröße führen. Experimentieren Sie mit dieser Einstellung, wenn der Text leicht unscharf erscheint.
 
 ## Eigenschaften {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angewendet. Wird ignoriert, wenn das Ausgabebilddateiformat keine JPEG-Kodierung unterstützt. Unter der Beschreibung von `fmt=` finden Sie Informationen darüber, welche Ausgabebildformate `qlt=` unterstützen.
+Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angewendet. Wird ignoriert, wenn das Ausgabebilddateiformat die JPEG-Kodierung nicht unterstützt. Unter der Beschreibung von `fmt=` finden Sie Informationen darüber, welche Ausgabebildformate `qlt=` unterstützen.
 
 *`chroma`* wird ignoriert, wenn der Ausgabepixeltyp CMYK oder Grau ist.
 

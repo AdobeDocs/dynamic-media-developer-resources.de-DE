@@ -20,7 +20,7 @@ ht-degree: 0%
 # Versionshinweise zu Dynamic Media {#release-notes}
 
 + [Aktuelle Versionshinweise](s7rn2017.md)
-+ archivieren{#archive-release-notes}
++ Archivieren {#archive-release-notes}
    + [Scene7-Version Herbst 2016](s7rnfall2016.md)
    + [Versionshinweise zu Scene7 Publishing System 6.10 (Mai 2015)](s7rn610.md)
    + [Versionshinweise zu Scene7 Publishing System 6.9 (Oktober 2014)](s7rn69.md)

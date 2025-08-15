@@ -149,7 +149,7 @@ In der folgenden Tabelle sind die wichtigsten Funktionen aufgeführt, die für j
 
 RTF-konforme Zeichenfolgen können manuell oder durch Formatieren des gewünschten Textes in einem Texteditor oder Textprozessor zusammengestellt werden, der RTF-Dateien speichern kann. Die RTF-Datei kann dann in einem Texteditor geöffnet werden, und der entsprechende rohe RTF-Inhalt der Datei kann in die Anfrage-URL kopiert werden.
 
-Einige Textverarbeitungssysteme generieren recht große Dateien, die umfangreiche Präambeln enthalten, die von Dynamic Media Image Serving nicht verwendet werden. Es wird empfohlen, die nicht verwendeten RTF-Elemente aus der Zeichenfolge zu entfernen, bevor die Zeichenfolge an die Textbefehle übergeben wird.
+Einige Textverarbeitungsgeräte generieren recht große Dateien, die umfangreiche Präambeln enthalten, die von Dynamic Media Image Serving nicht verwendet werden. Es wird empfohlen, die nicht verwendeten RTF-Elemente aus der Zeichenfolge zu entfernen, bevor die Zeichenfolge an die Textbefehle übergeben wird.
 
 Sprachkodierung basierend auf UTF-8- und ISO-Standards wird in RTF-Zeichenfolgen als Alternative zu den standardmäßigen RTF-Zeichenkodierungsmechanismen unterstützt. Dadurch können Anwendungen nicht-englischen Text ohne Kenntnisse der RTF-Kodierung an den Server senden.
 

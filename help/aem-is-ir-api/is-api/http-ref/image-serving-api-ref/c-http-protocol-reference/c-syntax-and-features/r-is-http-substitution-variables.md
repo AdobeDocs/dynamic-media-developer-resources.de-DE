@@ -37,7 +37,7 @@ Beim Variablennamen *`var`* wird nicht zwischen Groß- und Kleinschreibung unter
 
 >[!NOTE]
 >
->*`value`* muss für eine sichere HTTP-Übertragung URL-kodiert sein. Bei einer erneuten Übertragung von *`value`* über HTTP ist eine doppelte Kodierung erforderlich. Dies ist der Fall, wenn *`value`* in eine verschachtelte Fremdanforderung oder in das href-Attribut eines SVG-`<image>` ersetzt wird.
+>*`value`* muss für eine sichere HTTP-Übertragung URL-kodiert sein. Bei einer erneuten Übertragung von *`value`* über HTTP ist eine doppelte Kodierung erforderlich. Dies ist der Fall, wenn *`value`* in eine verschachtelte Fremdanfrage oder in das href-Attribut eines SVG-`<image>` ersetzt wird.
 
 Variablenverweise bestehen aus dem Variablennamen, der durch &quot;$&quot; ($*var*$) am Anfang und Ende getrennt ist. Verweise können an jeder beliebigen Stelle im Wertteil eines beliebigen IS-Befehls auftreten (d. h. zwischen dem &quot;=&quot;, das dem Befehlsnamen folgt, und dem nachfolgenden &quot;&amp;&quot; oder dem Ende der Anfrage). Benutzerdefinierte Variablen können nicht auf die Befehle `layer=` und `effect=` angewendet werden. Im selben Befehlswert sind mehrere Variablen zulässig. Der Server ersetzt jedes Vorkommen von ` $ *`var`*$` durch *`value`*.
 
@@ -69,9 +69,9 @@ Unabhängig von der Verschachtelungsebene muss bei Variablenwerten, die an einer
 
 Variablenwerte, die in fremde Anforderungen ersetzt werden sollen, müssen in der Regel doppelt kodiert werden, da keine erneute Kodierung erfolgt, bevor der Server versucht, die endgültige fremde URL zu übertragen.
 
-## Variablenverarbeitung beim SVG von Dateien {#section-a8359f9909764142b6a18ae778dca913}
+## Variablenverarbeitung in SVG-Dateien {#section-a8359f9909764142b6a18ae778dca913}
 
-` $ *`var`*$`-Verweise können beim SVG von Dateien in Attributwerten und in `<text>` auftreten. Die Bildbereitstellung ersetzt diese durch die entsprechenden ` $ *`var`*=`-Definitionen, die auf der Anfrageverschachtelungsebene bekannt sind, auf der die SVG-Datei angegeben ist.
+` $ *`var`*$`-Verweise können in SVG-Dateien in Attributwerten und in `<text>` Zeichenfolgen auftreten. Die Bildbereitstellung ersetzt diese durch die entsprechenden ` $ *`var`*=`-Definitionen, die auf der Anfrageverschachtelungsebene bekannt sind, auf der die SVG-Datei angegeben ist.
 
 >[!NOTE]
 >

@@ -18,7 +18,7 @@ Allgemeine Server-Einstellungen
 
 ## TC::PSport - Haupt-Überwachungs-Port {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Gibt den Haupt-Listening-Port für die [!DNL Platform Server] an. Über diesen Port können Sie auch auf die Dokumentations- und Beispielseiten für Image Serving, Image Rendering und Dynamic Media Viewer (falls installiert) zugreifen.
+Gibt den Haupt-Listening-Port für die [!DNL Platform Server] an. Über diesen Port können Sie auch auf die Dokumentation und Beispielseiten für Bildbereitstellung, Bildrendering und die Dynamic Media-Viewer (falls installiert) zugreifen.
 
 ## IS:CacheServerUrl - Zwischenspeicherung der Dienststamm-URL {#section-bcca227a1f91453b834db4ea050968e2}
 

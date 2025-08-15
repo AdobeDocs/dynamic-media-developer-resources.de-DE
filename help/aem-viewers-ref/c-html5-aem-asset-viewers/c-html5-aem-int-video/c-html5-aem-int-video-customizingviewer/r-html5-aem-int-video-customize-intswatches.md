@@ -127,7 +127,7 @@ Der folgende CSS-Klassenselektor steuert die Darstellung des Bannerbereichs:
    <td colname="col2"> <p>Die Schriftfamilie, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> für die <span class="codeph">-Ausrichtung </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> für die </span>-Ausrichtung </p> </td> 
    <td colname="col2"> <p>Die Schriftausrichtung, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
   </tr> 
  </tbody> 
@@ -255,7 +255,7 @@ Der folgende CSS-Klassenselektor steuert die Darstellung der Miniaturbildbeschri
    <td colname="col2"> <p>Rahmen kennzeichnen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 

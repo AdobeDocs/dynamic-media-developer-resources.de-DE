@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Der SDK-Viewer bietet eine Reihe von JavaScript-basierten Komponenten für die Entwicklung benutzerdefinierter Viewer. Die Viewer sind Web-basierte Programme, mit denen Rich-Media-Inhalte, die von Adobe Dynamic Media bereitgestellt werden, in Web-Seiten eingebettet werden können.
 
-Beispielsweise bietet der SDK interaktives Zoomen und Schwenken. Es bietet außerdem eine 360-Grad-Ansicht und Videowiedergabe von Assets, die über die Backend-Anwendung namens Dynamic Media Classic auf Adobe Dynamic Media hochgeladen wurden.
+Beispielsweise bietet der SDK interaktives Zoomen und Schwenken. Es bietet außerdem eine 360-Grad-Ansicht und Videowiedergabe von Assets, die über das Backend-Programm namens Dynamic Media Classic in Adobe Dynamic Media hochgeladen wurden.
 
-Obwohl die Komponenten auf HTML5-Funktionalität angewiesen sind, sind sie für die Verwendung auf Android™- und Apple iOS-Geräten und -Desktops konzipiert, einschließlich Internet Explorer und höher. Diese Art von Erlebnis bedeutet, dass Sie in der Lage sind, einen einzigen Workflow für alle unterstützten Plattformen bereitzustellen.
+Obwohl die Komponenten auf HTML5-Funktionen angewiesen sind, sind sie für die Verwendung auf Android™- und Apple iOS-Geräten und -Desktops konzipiert, einschließlich Internet Explorer und höher. Diese Art von Erlebnis bedeutet, dass Sie in der Lage sind, einen einzigen Workflow für alle unterstützten Plattformen bereitzustellen.
 
 SDK besteht aus Benutzeroberflächenkomponenten, aus denen Viewer-Inhalte bestehen. Sie können diese Komponenten durch CSS formatieren, und Nicht-UI-Komponenten, die eine Art unterstützende Rolle haben, z. B. Abrufen von Set-Definitionen und Analysieren oder Tracking. Alle Komponentenverhaltensweisen können über Modifikatoren angepasst werden, die Sie auf verschiedene Weise angeben können, z. B. als `name=value` in der URL.
 
@@ -389,4 +389,4 @@ Fügen Sie jetzt die Schaltflächen „Einzoomen“, „Auszoomen“ und „Zur�
 
    Ihr einfacher Zoom-Viewer ist jetzt abgeschlossen.
 
-   Dieses Viewer-Tutorial berührt die Grundlagen von Dynamic Media Viewer SDK. Bei der Arbeit mit SDK können Sie die verschiedenen Standardkomponenten verwenden, um einfach umfassende Anzeigeerlebnisse für Ihre Zielgruppen zu erstellen und zu gestalten.
+   Dieses Viewer-Tutorial berührt die Grundlagen von Dynamic Media Viewer, die SDK bereitstellt. Bei der Arbeit mit SDK können Sie die verschiedenen Standardkomponenten verwenden, um einfach umfassende Anzeigeerlebnisse für Ihre Zielgruppen zu erstellen und zu gestalten.

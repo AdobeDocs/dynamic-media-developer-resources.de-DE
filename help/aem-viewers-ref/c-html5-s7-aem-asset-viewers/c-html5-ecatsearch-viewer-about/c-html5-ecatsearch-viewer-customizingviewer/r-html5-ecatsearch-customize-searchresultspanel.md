@@ -202,7 +202,7 @@ Das Suchergebnisfenster zeigt möglicherweise eine Eingabeaufforderung in Textfo
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> für die <span class="codeph">-Ausrichtung </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> für die </span>-Ausrichtung </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 

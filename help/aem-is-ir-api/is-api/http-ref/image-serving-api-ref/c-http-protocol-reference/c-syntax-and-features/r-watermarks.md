@@ -30,7 +30,7 @@ Im Gegensatz zu Standardbildern können `sizeN=` für Ebene=0 oder Ebene=Komp de
 
 Anforderungsbefehle (z. B. `fmt=`) und Anzeigebefehle (z. B. `wid=`) werden in Wasserzeicheneinträgen ignoriert, mit Ausnahme von `align=`. `align=` können verwendet werden, um das Wasserzeichenbild relativ zum Wasserzeichenbild relativ zum Zielbild zu positionieren. Dies ermöglicht die Positionierung des Wasserzeichens relativ zu einer Ecke oder Kante des Zielbilds.
 
-Nach dem Skalieren und Ausrichten legt der Server das Wasserzeichenbild mithilfe der für die `layer=0` oder `layer=comp` des Wasserzeichenbildes angegebenen `blendMode=`- und `opac=` über das Zielbild. Schließlich werden die für das Zielbild angegebenen Anforderungs- und Ansichtsbefehle angewendet, um das Antwortbild zu erstellen.
+Nach dem Skalieren und Ausrichten legt der Server das Wasserzeichenbild mithilfe der für die `blendMode=` oder `opac=` des Wasserzeichenbildes angegebenen `layer=0`- und `layer=comp` über das Zielbild. Schließlich werden die für das Zielbild angegebenen Anforderungs- und Ansichtsbefehle angewendet, um das Antwortbild zu erstellen.
 
 Beachten Sie, dass sich das Wasserzeichenbild niemals über Leerzeichen erstreckt, die dem Antwortbild durch die Befehle `wid=` und `hei=` hinzugefügt werden.
 

@@ -1,6 +1,6 @@
 ---
 title: Twitter-Freigabe
-description: Das twitter-Freigabetool besteht aus einer Schaltfläche, die dem Social-Sharing-Bedienfeld hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+description: Das Twitter-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Twitter-Freigabe{#twitter-share}
 
-Das twitter-Freigabetool besteht aus einer Schaltfläche, die dem Social-Sharing-Bedienfeld hinzugefügt wurde. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
+Das Twitter-Share-Tool besteht aus einer Schaltfläche, die zum Social-Sharing-Bedienfeld hinzugefügt wird. Wenn die Schaltfläche ausgewählt ist, wird der Benutzer zu einem Freigabedialogfeld weitergeleitet, das von einem Social-Media-Service bereitgestellt wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Das Erscheinungsbild der Twitter-Freigabeschaltfläche wird mit dem folgenden CSS-Klassenselektor gesteuert:
+Das Erscheinungsbild der Twitter-Freigabe-Schaltfläche wird mit der folgenden CSS-Klassenauswahl gesteuert:
 
 ```
 .s7interactivevideoviewer .s7twittershare
@@ -57,7 +57,7 @@ Die QuickInfo der Schaltfläche kann lokalisiert werden. Siehe [Lokalisierung vo
 
 ## Beispiel {#section-5a8837ea208e48ed8dfa6a3c1a514492}
 
-So richten Sie eine Twitter-Freigabetaste ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Tastenstatus ein anderes Bild anzeigt:
+So richten Sie eine Twitter-Freigabe-Schaltfläche ein, die 28 x 28 Pixel groß ist und für jeden der vier verschiedenen Schaltflächenstatus ein anderes Bild anzeigt:
 
 ```
 .s7interactivevideoviewer .s7twittershare { 

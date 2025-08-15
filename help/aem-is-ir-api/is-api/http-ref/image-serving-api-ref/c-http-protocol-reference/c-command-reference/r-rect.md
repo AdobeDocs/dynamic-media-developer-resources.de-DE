@@ -37,7 +37,7 @@ Mit diesem Befehl kann Image Serving große Bilder über HTTP bereitstellen, die
 
 >[!NOTE]
 >
->Für optimale Ergebnisse sollte bei Verwendung der JPEG-Komprimierung die Streifen- oder Kachelgröße ein Vielfaches der JPEG-Kodierkachelgröße (16x16 Pixel) betragen.
+>Für optimale Ergebnisse sollte bei Verwendung der JPEG-Komprimierung die Streifen- oder Kachelgröße ein Vielfaches der JPEG-Kodierungs-Kachelgröße (16x16 Pixel) betragen.
 
 ## Beispiel {#section-932fcfcb41d74a29bc929e4430c49601}
 

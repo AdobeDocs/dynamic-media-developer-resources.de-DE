@@ -86,7 +86,7 @@ Die folgenden SYMBOLE werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Lautstärkeregler-Beschriftung, die über das </span>-Attribut ARIA <span class="codeph"> aria-value angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Lautstärkeregler-Beschriftung, die über das <span class="codeph">-Attribut ARIA </span> aria-value angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> fullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -174,11 +174,11 @@ Die folgenden SYMBOLE werden unterstützt:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Die Facebook-Freigabeschaltfläche. </p> </td> 
+   <td colname="col2"> <p>Die Facebook-Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Die Twitter-Freigabetaste. </p> </td> 
+   <td colname="col2"> <p>Die Twitter-Freigabe-Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> video360player.ERROR </span> </p> </td> 

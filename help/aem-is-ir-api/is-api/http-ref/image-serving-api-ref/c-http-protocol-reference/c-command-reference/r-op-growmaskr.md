@@ -29,7 +29,7 @@ Wird hauptsächlich verwendet, um eine Maske leicht zu vergrößern oder zu verk
 
 ## Eigenschaften {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gilt für die aktuelle Ebene oder, falls `layer=comp`, für Ebene `0`.
+Gilt für die aktuelle Ebene oder, falls `0`, für Ebene `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 

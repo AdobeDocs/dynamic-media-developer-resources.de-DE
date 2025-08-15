@@ -19,7 +19,7 @@ Materialkataloge bieten mehrere Funktionen.
 * Persistente Definition von Materialien einschließlich aller Materialeigenschaften zulassen.
 
   Im Materialkatalog definierte Materialien können mit einer einfachen ID referenziert werden, anstatt mit einer Reihe von Materialeigenschaften.
-* Geben Sie Standardwerte für bestimmte Anforderungsattribute an, z. B. die JPEG-Qualität oder eine standardmäßige Größe des Antwortbildes.
+* Geben Sie Standardwerte für bestimmte Anfrageattribute an, z. B. die JPEG-Qualität oder eine standardmäßige Größe des Antwortbildes.
 * Verwalten von Vignetten, ICC-Profilen und Anfragevorlagen.
 
 Auch wenn keine spezifischen Materialkataloge definiert sind, stehen alle Features der Materialkataloge über den Standardkatalog zur Verfügung ( [!DNL default.ini]).

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Suchfunktion{#search-feature}
 
-Der Viewer unterstützt die Textsuche über den Kataloginhalt. Damit die Suchfunktion funktioniert, muss die Funktion „Suchbegriffe extrahieren“ aktiviert sein, wenn die Quell-PDF-Datei in Dynamic Media Classic hochgeladen wird.
+Der Viewer unterstützt die Textsuche über den Kataloginhalt. Damit die Suchfunktion funktioniert, muss die Funktion „Suchbegriffe extrahieren“ aktiviert sein, wenn die PDF-Quelldatei in Dynamic Media Classic hochgeladen wird.
 
 Die Suchfunktion wird durch Aktivieren einer Suchschaltfläche in der Hauptwerkzeugleiste ausgelöst. Diese Aktion öffnet ein Suchergebnisfeld mit einem Texteingabefeld. Ein Benutzer kann eine Suche ausführen, indem er Schlüsselwörter verwendet, die durch Leerzeichen getrennt sind, oder indem er die Phrasen verwendet, die von doppelten Anführungszeichen umgeben sind.
 

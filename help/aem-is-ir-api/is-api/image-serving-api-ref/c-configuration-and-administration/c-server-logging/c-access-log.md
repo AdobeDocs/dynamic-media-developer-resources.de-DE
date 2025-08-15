@@ -20,6 +20,6 @@ Das Zugriffsprotokoll wird in server.xml konfiguriert.
 
 >[!NOTE]
 >
->Zusätzlich zum Client-Traffic für Image Serving ([!DNL /is/image/*]) und Image Rendering ([!DNL /ir/render/*]) kann das Zugriffsprotokoll bestimmten internen Traffic enthalten: Zugriff auf das [!DNL Platform Server]-Katalogsystem ( [!DNL /is-catalog/*]), Cache-Freigabe- und Fehlerumleitungsanfragen ( [!DNL /is/cache/*]), Zugriff auf andere Pakete, die für die [!DNL Platform Server] bereitgestellt werden, wie die Dynamic Media Viewer ( [!DNL /is-viewers/*]), statischer Traffic und statische Inhaltsanfragen, die vom [!DNL Platform Server] bedient werden (z. B. [!DNL /is-docs/*]).
+>Zusätzlich zum Client-Traffic für Image-Serving ([!DNL /is/image/*]) und Image-Rendering ([!DNL /ir/render/*]) kann das Zugriffsprotokoll bestimmten internen Traffic enthalten: Zugriff auf das [!DNL Platform Server]-Katalogsystem ([!DNL /is-catalog/*]), Cache-Freigabe- und Fehler-Umleitungsanfragen ([!DNL /is/cache/*]), Zugriff auf andere Pakete, die für die [!DNL Platform Server] bereitgestellt werden, wie die Dynamic Media-Viewer ( [!DNL /is-viewers/*]), statischer Traffic und statische Inhaltsanfragen, die vom [!DNL Platform Server] bedient werden (z. B. [!DNL /is-docs/*]).
 
 Anfragen mit [!DNL /is-catalog] und [!DNL /is/cache] Stammverzeichnis-Pfaden sollten immer aus jeder Client-Traffic-Analyse ausgeschlossen werden.

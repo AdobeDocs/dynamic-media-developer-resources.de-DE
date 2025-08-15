@@ -1,6 +1,6 @@
 ---
 title: Hotspots
-description: Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets erstellt wurden - On-Demand.
+description: Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media oder AEM Assets erstellt wurden - On-Demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Hotspots{#hotspots}
 
-Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media von AEM Assets erstellt wurden - On-Demand.
+Der Viewer zeigt Hotspot-Symbole über der Hauptansicht an den Stellen an, an denen Hotspots ursprünglich in Dynamic Media oder AEM Assets erstellt wurden - On-Demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

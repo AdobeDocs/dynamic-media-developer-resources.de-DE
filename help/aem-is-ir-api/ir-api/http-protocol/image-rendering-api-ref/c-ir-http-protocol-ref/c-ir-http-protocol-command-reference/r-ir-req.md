@@ -36,7 +36,7 @@ Anfragetyp. Gibt den Typ der angeforderten Daten an.
   <td class="stentry"> <p>Gibt die Eigenschaften der angegebenen Vignette zurück. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> </span> <span class="codeph"> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> </span> </p> </td> 
   <td class="stentry"> <p>Gibt die in die Vignette eingebetteten Imagemap-Daten zurück. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -236,7 +236,7 @@ Die Antwort kann die folgenden Eigenschaften enthalten:
   <tr> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p>Ganze Zahl, boolesch </p> </td> 
-   <td> <p> JPEG-Qualität und Chroma-Flag (siehe <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
+   <td> <p> JPEG-Qualitäts- und Chroma-Flag (siehe <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 

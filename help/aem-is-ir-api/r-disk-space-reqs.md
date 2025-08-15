@@ -62,7 +62,7 @@ Wenn Sie PTIFF-Dateien verwenden, können die folgenden Faustregeln helfen, den 
 *`total_space`* (Bytes) = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
 * *`avg_pixel_count`* Die durchschnittliche Pixelgröße (Breite x Höhe) aller Quellbilder im Original. Wenn die Originalbilder beispielsweise etwa 2K × 2K Pixel groß sind, wären dies 4 Megapixel.
-* *`avg_num_components`* hängt vom Typ der Bilder ab. Für meist RGB-Images ist es 3, für meist CMYK- oder RGBA-Images ist es 4. Verwenden Sie 3.5, wenn die Hälfte der Bilder RGB und die andere Hälfte RGBA sind.
+* *`avg_num_components`* hängt vom Typ der Bilder ab. Für RGB-Images sind es 3, für CMYK- oder RGBA-Images 4. Verwenden Sie 3.5, wenn die Hälfte der Bilder RGB und die andere Hälfte RGBA sind.
 * *`p_factor`* Abhängig vom Komprimierungstyp und der Qualitätseinstellung bei der Konvertierung der Bilder mit IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -83,7 +83,7 @@ Wenn Sie PTIFF-Dateien verwenden, können die folgenden Faustregeln helfen, den 
   </tr> 
   <tr> 
    <td> <p>JPEG-Komprimierung </p> </td> 
-   <td> <p> 1 (typisch für JPEG-Qualität 95) </p> </td> 
+   <td> <p> 1 (typisch für JPEG Quality 95) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Wenn Sie PTIFF-Dateien verwenden, können die folgenden Faustregeln helfen, den 
 
 **Beispiel**
 
-Bei einer Image-Serving-Bereitstellung wird erwartet, dass 30.000 ältere -Images mit niedriger Auflösung und einer durchschnittlichen Größe von 500 × 500 RGB-Pixel verwendet werden. Neue Bilddaten in Druckqualität werden mit einer Rate von 10.000 pro Jahr hinzugefügt. Die typische CMYK-Bildgröße beträgt 4K × 6K Byte. Alle Daten sind JPEG-komprimiert in hoher Qualität. Der gesamte Speicherplatz nach dreijähriger Nutzung wird wie folgt geschätzt:
+Bei einer Image-Serving-Bereitstellung wird erwartet, dass 30.000 ältere Bilder mit niedriger Auflösung mit einer durchschnittlichen Größe von 500 × 500 RGB-Pixel verwendet werden. Neue Bilddaten in Druckqualität werden mit einer Rate von 10.000 pro Jahr hinzugefügt. Die typische CMYK-Bildgröße beträgt 4K × 6K Byte. Alle Daten werden in JPEG in hoher Qualität komprimiert. Der gesamte Speicherplatz nach dreijähriger Nutzung wird wie folgt geschätzt:
 
 *`total_space`* = 30.000 × (2 K + 0,5 K × 0,5 K × 3 × 0,1) + 3 × 10.000 × (2 K + 4 K × 6 K × 4 × 0,1) = 2,2 G + 268 GB = ca. 270 GB
 

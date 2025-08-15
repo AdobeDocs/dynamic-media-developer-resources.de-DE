@@ -22,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> links|Mitte|rechts</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Miniatur-Containers im Komponentenbereich an. </p> <p>Bei einem Aktionsaufruf wird der interne Miniatur-Container so dimensioniert, dass nur eine ganze Anzahl von Miniaturen angezeigt wird. Infolgedessen gibt es einen gewissen Abstand zwischen dem internen Container und den Begrenzungen der externen Komponente. </p> <p>Dieser Modifikator gibt an, wie der Container Interne Miniaturen horizontal innerhalb der Komponente positioniert wird. </p> </td> 
+   <td colname="col2"> <p> Gibt die interne horizontale Ausrichtung (oder Verankerung) des Miniatur-Containers im Komponentenbereich an. </p> <p>In call-to-action hat der interne Miniatur-Container die Größe so, dass nur eine ganze Anzahl von Miniaturen angezeigt wird. Infolgedessen gibt es einen gewissen Abstand zwischen dem internen Container und den Begrenzungen der externen Komponente. </p> <p>Dieser Modifikator gibt an, wie der Container Interne Miniaturen horizontal innerhalb der Komponente positioniert wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

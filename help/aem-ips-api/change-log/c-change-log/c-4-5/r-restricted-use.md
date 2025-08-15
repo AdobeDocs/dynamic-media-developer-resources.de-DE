@@ -1,5 +1,5 @@
 ---
-description: Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb von in Dynamic Media entwickelten Programmen verwendet werden.
+description: Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb von in Dynamic Media entwickelten Anwendungen verwendet werden.
 solution: Experience Manager
 title: Eingeschränkte Verwendung
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Eingeschränkte Verwendung{#restricted-use}
 
-Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb von in Dynamic Media entwickelten Programmen verwendet werden.
+Diese neuen oder geänderten Vorgänge und Datentypen, die in der Beta-WSDL verfügbar sind, dürfen nicht außerhalb von in Dynamic Media entwickelten Anwendungen verwendet werden.
 
 Diese Vorgänge und Typen können bei späteren Systemaktualisierungen deaktiviert, geändert oder eingestellt werden.
 
@@ -86,14 +86,14 @@ Diese Vorgänge und Typen können bei späteren Systemaktualisierungen deaktivie
 
 * `searchAssetsByFullText` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
-   * Als `filters` Parameter `SearchFilter`
+   * Als `SearchFilter` Parameter `filters`
 
    * `sortBy`
    * `sortDirection`
 
 * `searchAssetsByMetadata` wurde geändert, um eine Reihe optionaler Parameter einzuschließen:
 
-   * Als `filters` Parameter `SearchFilter`
+   * Als `SearchFilter` Parameter `filters`
 
    * `sortBy`
    * `sortDirection`

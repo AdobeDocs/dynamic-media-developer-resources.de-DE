@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 3%
 
 ---
 
 # RootUrl{#rooturl}
 
-Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. Der `attribute::RootUrl` wird anstelle von `attribute::RootPath` verwendet, wenn ein `src=` von { geschweiften Klammern } eingeschlossen ist.
+Stamm-URL für relative Bild-URLs. Gibt die Stamm-URL für relative Bild-URLs an. Die `attribute::RootUrl` wird anstelle von `attribute::RootPath` verwendet, wenn ein `src=` Wert von {curly braces} eingeschlossen ist.
 
 ## Eigenschaften {#section-69cd0f71ea614770a8778c745d23197a}
 

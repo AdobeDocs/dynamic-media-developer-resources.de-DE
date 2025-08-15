@@ -330,7 +330,7 @@ Die Fußzeile des Dialogfelds besteht aus einer Schaltfläche Abbrechen . Der Fu
 .s7video360viewer .s7linkdialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften des &#x200B;** für die Dialogfeldfußzeile
+**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -449,7 +449,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
    <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
@@ -593,7 +593,7 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit
 
 Diese Klasse ist nicht zur Steuerung der Größe oder Position der Beschriftung geeignet, da Sie sie auf Texte an verschiedenen Stellen der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbezeichnung. &#x200B;**
+**CSS-Eigenschaften der Dialogfeldbezeichnung. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

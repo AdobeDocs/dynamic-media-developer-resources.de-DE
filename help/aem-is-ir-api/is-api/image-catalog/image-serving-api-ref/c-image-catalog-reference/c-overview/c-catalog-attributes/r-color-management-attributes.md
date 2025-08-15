@@ -27,7 +27,7 @@ Katalogattributdateien erkennen diese Farbverwaltungsattribute.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md#reference-3479e7daac54404f84b06b98ca07b9df" type="reference" format="dita" scope="local"> IccProfileRGB</a> </span> </p></td> 
-  <td class="stentry"> <p>Standardfarbprofil der RGB-Ausgabe. </p></td> 
+  <td class="stentry"> <p>Standardfarbprofil für die RGB-Ausgabe. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md#reference-b57196dfe5db41fe88bd0828ed4ec728" type="reference" format="dita" scope="local"> IccProfileSrcCmyk</a> </span> </p></td> 

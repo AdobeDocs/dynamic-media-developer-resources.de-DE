@@ -1,6 +1,6 @@
 ---
 title: Erweiterte Render-Einstellungen
-description: Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Low-Level-Aspekten der Vignetten-Render-Engine.
+description: Das Vignetten-Authoring-Tool (Teil des Dynamic Media-Bildbearbeitungspakets) bietet Mechanismen zur Steuerung von Low-Level-Aspekten der Vignetten-Render-Engine.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # Erweiterte Render-Einstellungen{#advanced-render-settings}
 
-Das Vignette Authoring-Tool (Teil des Dynamic Media Image Authoring-Pakets) bietet Mechanismen zur Steuerung von Low-Level-Aspekten der Vignetten-Render-Engine.
+Das Vignetten-Authoring-Tool (Teil des Dynamic Media-Bildbearbeitungspakets) bietet Mechanismen zur Steuerung von Low-Level-Aspekten der Vignetten-Render-Engine.
 
 >[!NOTE]
 >
->Render Settings ist eine erweiterte Funktion für das Rendern und Erstellen von Bildern. Wenden Sie sich an den technischen Support von Adobe oder an Ihren Adobe-Berater, um Schulungen, Beratungen oder beides zur Verwendung der Render-Einstellungen durchzuführen.
+>Render Settings ist eine erweiterte Funktion für das Rendern und Erstellen von Bildern. Wenden Sie sich an den technischen Support von Adobe oder Ihren Adobe-Berater, um Schulungen, Beratungen oder beides zur Verwendung der Render-Einstellungen durchzuführen.
 
 Diese Einstellungen werden beim Erstellen von Bildern interaktiv gesteuert. Es ist möglich, dieselben Einstellungen beim Rendern von Bildern mit dem Befehl `rs=` (oder mit dem Wert `catalog::RenderSettings`) anzuwenden. Mit diesem Mechanismus können Sie verschiedene Scharfzeichnungsoptionen für jedes Material auswählen und das Verhalten der Beleuchtungs-Rendering-Algorithmen ändern, z. B. die Sättigung von Spitzlichtern oder den Kontrast in Schatten ändern.
 

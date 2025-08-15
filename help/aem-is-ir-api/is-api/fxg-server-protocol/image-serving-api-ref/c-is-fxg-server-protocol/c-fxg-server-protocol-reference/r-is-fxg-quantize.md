@@ -1,6 +1,6 @@
 ---
 title: quanteln
-description: Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonvertierung fest.
+description: Farbquantisierung. Gibt Farbquantisierungsattribute für die Konvertierung der GIF-Ausgabe an.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # quanteln{#quantize}
 
-Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonvertierung fest.
+Farbquantisierung. Gibt Farbquantisierungsattribute für die Konvertierung der GIF-Ausgabe an.
 
 ` quantize= *`type`*[, *`dither`*[, *`numColors`*[, *`colorList`*]]]`
 
@@ -33,7 +33,7 @@ Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonverti
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>Durch Kommas getrennte Liste erzwungener RGB-Farben im Hex6-Format. Hier können Sie erzwungene Farben angeben, die in die Palette "<span class="codeph"> adaptive </span>" aufgenommen werden sollen. Wenn die Anzahl der angegebenen Farben kleiner als <span class="codeph"> numColors-</span> ist, werden zusätzliche Farben anhand des Bildinhalts berechnet. </p> <p>Wird nur verwendet, wenn <span class="codeph"> fmt=gif </span> oder <span class="codeph"> fmt=gif-alpha </span>. Andernfalls ignoriert. Die mit <span class="codeph"> <span class="varname"> colorList </span> </span> angegebenen Farben müssen RGB-Werte im Hex6-Format sein (siehe <span class="codeph">-</span>); andere Farbspezifikatoren sind nicht zulässig. </p> </td> 
+  <td class="stentry"> <p>Kommagetrennte Liste erzwungener RGB-Farben im Hex6-Format. Hier können Sie erzwungene Farben angeben, die in die Palette "<span class="codeph"> adaptive </span>" aufgenommen werden sollen. Wenn die Anzahl der angegebenen Farben kleiner als <span class="codeph"> numColors-</span> ist, werden zusätzliche Farben anhand des Bildinhalts berechnet. </p> <p>Wird nur verwendet, wenn <span class="codeph"> fmt=gif </span> oder <span class="codeph"> fmt=gif-alpha </span>. Andernfalls ignoriert. Die mit <span class="codeph"> <span class="varname"> colorList </span> </span> angegebenen Farben müssen RGB-Werte im Hex6-Format sein (siehe <span class="codeph">-</span>). Andere Farbspezifikatoren sind nicht zulässig. </p> </td> 
  </tr> 
 </table>
 
@@ -43,10 +43,10 @@ Farbquantisierung. Legt Farbquantisierungsattribute für die GIF-Ausgabekonverti
 
 ## Beispiel {#section-b3a979dc9ae3459baa093bf17310988f}
 
-Generieren eines GIF-Miniaturbilds mit der Palette &quot;`web`&quot; ohne Dithering:
+Generieren einer GIF-Miniaturansicht mit der Palette &quot;`web`&quot; ohne Dithering:
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Konvertieren Sie das Bild in eine zweifarbige GIF mit Key-Color-Transparenz und erzwingen Sie Farben in Schwarzweiß:
+Konvertieren Sie das Bild in eine zweifarbige GIF mit Schlüsselfarbtransparenz und erzwingen Sie Farben in Schwarzweiß:
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

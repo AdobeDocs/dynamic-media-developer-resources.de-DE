@@ -18,7 +18,7 @@ Das Bild-Rendering unterstützt Farbraumkonvertierungen auf der Grundlage von Fa
 
 **Einschränkungen**
 
-Derzeit werden nur CMYK-, RGB- und Graustufen-Farbräume unterstützt.
+Derzeit werden nur CMYK, RGB und Graustufen-Farbräume unterstützt.
 
 Kabinettstildateien (.vnc) und Fensterabdeckungs-Stildateien (.[!DNL .vnw]) werden nicht farbverwaltet und es wird davon ausgegangen, dass sie im Arbeitsfarbraum vorhanden sind.
 
@@ -38,7 +38,7 @@ Materialbilder können ICC-Profile einbetten, um den Eingabefarbraum zu definier
 
 ## Arbeitsfarbraum {#section-645d9cfa5b0347a190a0ece218f5b5e1}
 
-Normalerweise wird der Arbeitsfarbraum durch das in die Vignette eingebettete ICC-Farbprofil definiert. Wenn die Vignette kein Profil enthält, wird das standardmäßige RGB-Eingabeprofil ( `attribute::IccProfileSrcRgb` des Sitzungskatalogs) für den Arbeitsfarbraum verwendet.
+Normalerweise wird der Arbeitsfarbraum durch das in die Vignette eingebettete ICC-Farbprofil definiert. Wenn die Vignette kein Profil enthält, wird das standardmäßige RGB-Eingabeprofil (`attribute::IccProfileSrcRgb` des Sitzungskatalogs) für den Arbeitsfarbraum verwendet.
 
 Alle Render-Vorgänge werden im Arbeitsfarbraum ausgeführt.
 

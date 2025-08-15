@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> </span> <span class="varname"> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> </span> </p> </td> 
   <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
  </tr> 
  <tr class="strow"> 

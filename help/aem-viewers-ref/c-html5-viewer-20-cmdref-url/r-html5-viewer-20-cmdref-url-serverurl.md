@@ -22,7 +22,7 @@ Für alle Viewer gemeinsamer Parameter.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Relativer oder absoluter Stammpfad zur Bildbereitstellung. </p> <p> Gibt einen relativen oder absoluten Pfad zur Bildbereitstellung an, von dem der Viewer Bilder abruft. Wenn der Pfad keinen <span class="filepath"> /</span> hat, ist er relativ zum Speicherort der Viewer-HTML-Seite. Wenn der Pfad ein vorangestelltes <span class="filepath"> /</span> aufweist, wird ein absoluter Pfad auf demselben Server angegeben. </p> <p> Verwenden Sie nur einen absoluten Pfad, wenn das E-Mail-Freigabemodul im Viewer aktiviert ist. </p> </td> 
+   <td colname="col2"> <p>Relativer oder absoluter Stammpfad zur Bildbereitstellung. </p> <p> Gibt einen relativen oder absoluten Pfad zur Bildbereitstellung an, von dem der Viewer Bilder abruft. Wenn der Pfad keinen <span class="filepath"> /</span> hat, ist er relativ zum Speicherort der HTML-Seite des Viewers. Wenn der Pfad ein vorangestelltes <span class="filepath"> /</span> aufweist, wird ein absoluter Pfad auf demselben Server angegeben. </p> <p> Verwenden Sie nur einen absoluten Pfad, wenn das E-Mail-Freigabemodul im Viewer aktiviert ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

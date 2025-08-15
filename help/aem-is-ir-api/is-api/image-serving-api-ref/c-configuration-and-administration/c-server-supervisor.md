@@ -1,5 +1,5 @@
 ---
-description: Bildbereitstellungskomponenten werden vom Server-Supervisor verwaltet, der ein Linux-Daemon oder Windows-Service ist (S7Supervisor.exe, in der Systemsteuerung unter "Dynamic Media-Bildbereitstellung“ aufgeführt).
+description: Bildbereitstellungskomponenten werden vom Server-Supervisor verwaltet, der ein Linux-Daemon oder Windows-Service ist (S7Supervisor.exe, im Control Panel „Dienste“ als „Dynamic Media Bildbereitstellung“ aufgeführt).
 solution: Experience Manager
 title: Server-Verantwortlicher
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Server-Verantwortlicher{#server-supervisor}
 
-Bildbereitstellungskomponenten werden vom Server-Supervisor verwaltet, der ein Linux-Daemon oder Windows-Service ist (S7Supervisor.exe, in der Systemsteuerung unter &quot;Dynamic Media-Bildbereitstellung“ aufgeführt).
+Bildbereitstellungskomponenten werden vom Server-Supervisor verwaltet, der ein Linux-Daemon oder Windows-Service ist (S7Supervisor.exe, im Control Panel „Dienste“ als „Dynamic Media Bildbereitstellung“ aufgeführt).
 
 Zusätzlich zum Starten und Beenden anderer Bildbereitstellungskomponenten ist der Server-Supervisor dafür verantwortlich, den Zustand dieser anderen Komponenten sicherzustellen. Sollte eine Komponente abstürzen, wird sie automatisch neu gestartet, um Service-Unterbrechungen zu minimieren.
 

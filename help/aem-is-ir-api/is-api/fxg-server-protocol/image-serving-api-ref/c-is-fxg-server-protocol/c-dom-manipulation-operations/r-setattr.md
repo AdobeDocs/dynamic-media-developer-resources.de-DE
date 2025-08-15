@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: e4a51b97-ba5f-42a9-8d7b-8dc42ad5fe24
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '98'
 ht-degree: 1%
 
 ---
 
 # setAttr{#setattr}
 
-Beliebiges Attribut für eine bestimmte s7:elementID festlegen.
+Legen Sie ein beliebiges Attribut für ein bestimmtes s7:elementID fest.
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
@@ -22,7 +22,7 @@ Wenn für ein FXG-Knotenelement ein `s7:elementID` definiert ist, können Sie di
 
 ## Beispiel {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
-Angenommen, für einen `BitmapGraphic` Knoten ist ein `s7:elementID="Group1"` definiert, dann ist Folgendes gültig:
+Angenommen, für einen `s7:elementID="Group1"` Knoten ist ein `BitmapGraphic` definiert, dann ist Folgendes gültig:
 
 `&setAttr.Group1={x=250%26y=170%26rotation=90%26scaleX=1%26scaleY=0.5}`
 

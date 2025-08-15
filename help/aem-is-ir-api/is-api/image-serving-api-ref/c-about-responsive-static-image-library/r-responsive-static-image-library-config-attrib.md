@@ -72,7 +72,7 @@ Mehrere Bildbereitstellungsbefehle oder Bildvorgabennamen werden durch das Zeich
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Die folgenden beiden Modi für smartes Zuschneiden sind in AEM 6.4 und höher und Dynamic Media Viewer 5.9 und höher verfügbar:
+Die folgenden beiden Modi für smartes Zuschneiden sind in AEM 6.4 und höher und Dynamic Media Viewers 5.9 und höher verfügbar:
 
 * **Manuell** - Benutzerdefinierte Haltepunkte und entsprechende Bilddienstbefehle werden in einem -Attribut im Bildelement definiert.
 * **Smartes Zuschneiden** - Berechnete Ausgabedarstellungen für smartes Zuschneiden werden automatisch vom Versandserver abgerufen. Die beste Ausgabedarstellung wird anhand der Laufzeitgröße des Bildelements ausgewählt.

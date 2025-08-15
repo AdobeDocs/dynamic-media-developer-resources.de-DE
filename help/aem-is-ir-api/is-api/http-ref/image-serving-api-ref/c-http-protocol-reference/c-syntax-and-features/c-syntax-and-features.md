@@ -27,7 +27,7 @@ In den Themen in diesem Abschnitt werden die Syntax und die Funktionen der HTTP-
 * [Bildkataloge](r-image-catalogs.md)
 * [Übersetzung der Objekt-ID](r-object-id-translation.md)
 * [Lokalisierung von Textzeichenfolgen](r-text-string-localization.md)
-* [SVG-Unterstützung](r-svg-support.md)
+* [SVG-Support](r-svg-support.md)
 * [Vorab-Bearbeitung einer Anfrage](r-request-preprocessing.md)
 * [Imagemaps](r-image-maps.md)
 * [Farbmanagement für Bildbereitstellung](r-color-management.md)

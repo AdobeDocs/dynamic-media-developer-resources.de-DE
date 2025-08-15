@@ -39,7 +39,7 @@ Es wurde `'Asset'` Konstante vom Typ Asset-Zeichenfolge hinzugefügt, um Asset-�
 
 `getAssetPublishHistory` Vorgang implementiert.
 
-Es wurde ein optionaler `faultHttpStatusCode`-SOAP-Header hinzugefügt, um die Fehlerbehandlung in Flex zu aktivieren. Verwenden Sie für Flex `<faultHttpStatusCode>200</faultHttpStatusCode>`. Der Standardstatus-Code für Fehlerantworten lautet `500 (Internal Server Error)`.
+Es wurde eine optionale Kopfzeile `faultHttpStatusCode` SOAP hinzugefügt, um die Fehlerbehandlung in Flex zu aktivieren. Verwenden Sie für Flex `<faultHttpStatusCode>200</faultHttpStatusCode>`. Der Standardstatus-Code für Fehlerantworten lautet `500 (Internal Server Error)`.
 
 Es wurden Vorgänge zum Wiederherstellen von Assets aus dem Papierkorb und zum Leeren von Assets aus dem Papierkorb hinzugefügt.
 
@@ -79,7 +79,7 @@ Es wurden `setUrlModifier` Vorgangs- und `urlModifier/urlPostApplyModifier` für
 
 IPS-Unternehmenseinstellungen, `CompanySettings`, portiert in die Web-Services-API.
 
-Filterflag `excludeByproducts` `searchAssets` Vorgang hinzugefügt. Wenn Sie dieses Flag auf „true“ setzen, werden `PSDlayer` Bilder und PDF-zerlegten Bilder ausgeführt.
+Filterflag `excludeByproducts` `searchAssets` Vorgang hinzugefügt. Wenn Sie dieses Flag auf „true“ setzen, werden `PSDlayer` Bilder und in PDF ausgeschnittene Bilder ausgeführt.
 
 `getGenerationInfo` Vorgang hinzugefügt.
 
@@ -115,7 +115,7 @@ Viewer-Designs unterstützen zwei Parameter: `skinFg` und `skinBg`. Der Backend-
 
 `getAssociatedAssets` Vorgang implementiert.
 
-Es wurde `ReprocessAssets` Auftragstyp hinzugefügt, um die Neuverarbeitung von zuvor hochgeladenen Primärquelldateien zu ermöglichen, einschließlich des Neurippens von PDF und der Neuoptimierung von Bildern.
+Es wurde `ReprocessAssets` Auftragstyp hinzugefügt, um die Neuverarbeitung zuvor hochgeladener Primärquelldateien zu ermöglichen, einschließlich des Neukomprimierens von PDFs und der Neuoptimierung von Bildern.
 
 `PropertySetType` Feldtyp wurde in `propertyType` umbenannt. Diese Umbenennung wirkt sich auf den `createPropertySetType` und `getPropertySetType/getPropertySetTypes` Antwort aus.
 
@@ -160,7 +160,7 @@ Es wurde `batchSetImageFields` Vorgang implementiert, um das Festlegen von Bildb
 
 Es wurden Gebietsschema-Parameter für Aufträge und ein Mechanismus zum Festlegen des Gebietsschemas für API-Vorgänge hinzugefügt. Die Zeichenfolge des Gebietsschemas sollte als `<language_code>[-<country_code>]` formatiert sein. Der Sprach-Code ist ein Code mit zwei Kleinbuchstaben gemäß ISO-639, und der optionale Ländercode ist ein Code mit zwei Großbuchstaben gemäß ISO-3166.
 
-Dem `authHeader`-SOAP-Header wurde ein optionaler Gebietsschemaparameter hinzugefügt, um das Gebietsschema für API-Vorgänge festzulegen. Wenn dieser Parameter nicht vorhanden ist, wird der HTTP-Header `Accept-Language` verwendet. Wenn auch dieser Header nicht vorhanden ist, wird das Standardgebietsschema für den IPS-Server verwendet.
+Es wurde ein optionaler Gebietsschema-Parameter zum `authHeader` SOAP-Header hinzugefügt, um das Gebietsschema für API-Vorgänge festzulegen. Wenn dieser Parameter nicht vorhanden ist, wird der HTTP-Header `Accept-Language` verwendet. Wenn auch dieser Header nicht vorhanden ist, wird das Standardgebietsschema für den IPS-Server verwendet.
 
 Es wurde Unterstützung für GET/SET für stark typisierte Metadatenfelder hinzugefügt.
 
@@ -185,8 +185,8 @@ Es wurden die Felder Beschreibung, `jobSubType` und `originalJobName` zum `JobLo
 Darüber hinaus sind die folgenden Felder nicht in `getJobLogs` und `getJobLogDetails` enthalten. In früheren Versionen waren sie nur mit `getJobLogDetails` verfügbar.
 
 * `endDate` (wenn der Vorgang abgeschlossen ist).
-* `fileDuplicateCount` (zuvor war es immer mit `getJobLogs` `0`)
-* `fileUpdateCount` (wurde zuvor immer mit `getJobLogs` `0` und in `fileSuccessCount` eingeschlossen; jetzt ist er in separate Felder unterteilt).
+* `fileDuplicateCount` (zuvor war es immer mit `0` `getJobLogs`)
+* `fileUpdateCount` (wurde zuvor immer mit `0` `getJobLogs` und in `fileSuccessCount` eingeschlossen; jetzt ist er in separate Felder unterteilt).
 
 Das Feld assetHandle wurde zum `JobLogDetail` hinzugefügt.
 
@@ -268,11 +268,11 @@ Es wurden zusätzliche Optionen zum `UploadDirectoryJob` und `UploadUrlsJob` hin
   </tr> 
   <tr> 
    <td colname="col1" morerows="3"> <p> <span class="codeph"> [!DNL IllustratorOptions] </span> </p> </td> 
-   <td colname="col2"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
       <li id="li_53749049B383441A81CB427A5B5F26A8"> <span class="codeph"> keine </span> </li> 
-      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> </span> <span class="codeph"> (Standard) </li> 
+      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> </span> (Standard) </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_41924574773542B7BFC4989667C14E97"> 
@@ -297,11 +297,11 @@ Es wurden zusätzliche Optionen zum `UploadDirectoryJob` und `UploadUrlsJob` hin
   </tr> 
   <tr> 
    <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions-</span> </p> </td> 
-   <td colname="col2"> <p> </span> <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EF9C27EE7A154DA890CB9E6BA174D767"> 
       <li id="li_0BB0FC1BA43043EEA1EA257E5D603978"> <p> <span class="codeph"> keine </span> </p> </li> 
-      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> </span> <span class="codeph"> (Standard) </p> </li> 
+      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> </span> (Standard) </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_84EE74454FF5434087A895F915E68103"> 
@@ -322,12 +322,12 @@ Es wurden zusätzliche Optionen zum `UploadDirectoryJob` und `UploadUrlsJob` hin
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog-</span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Definiert, ob nach dem Rendering ein mehrseitiges PDF zu einem E-Katalog kombiniert werden soll (der Standardwert ist „true„). </p> </td> 
+   <td colname="col4"> <p>Definiert, ob eine mehrseitige PDF nach dem Rendering in einem E-Katalog kombiniert werden soll (der Standardwert ist „true„). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords-</span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Legt fest, ob Wörter von der PDF in die Datenbank extrahiert werden, damit sie später an einen Suchserver übergeben werden (Standard ist „false„). </p> </td> 
+   <td colname="col4"> <p>Definiert, ob Wörter aus der PDF in die Datenbank extrahiert werden, damit sie später an einen Suchserver übergeben werden (der Standardwert lautet „false„). </p> </td> 
   </tr> 
  </tbody> 
 </table>

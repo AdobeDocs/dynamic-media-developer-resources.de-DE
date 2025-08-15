@@ -51,4 +51,4 @@ Festlegen des Veröffentlichungskontextstatus eines Assets mit `setAssetsContext
 
 >[!MORELIKETHIS]
 >
->* [Status von Publish](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [Veröffentlichungsstatus](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

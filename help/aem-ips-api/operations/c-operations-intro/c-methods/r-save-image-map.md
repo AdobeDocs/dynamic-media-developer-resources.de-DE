@@ -85,7 +85,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> Aktion </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Der <span class="codeph"> href </span> Wert, der mit der Imagemap verknüpft ist, wie in der IPS-Schnittstelle angegeben. </p> <p>Um den <span class="codeph"> href-</span>-Wert zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL, fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als richtige URL. Beispielsweise wird <span class="codeph"> &amp; </span> zu <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col4"> <p>Der <span class="codeph"> href </span> Wert, der mit der Imagemap verknüpft ist, wie in der IPS-Schnittstelle angegeben. </p> <p>Um den <span class="codeph"> href-</span>-Wert zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL, fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als richtige URL. Beispielsweise wird <span class="codeph"> &amp; </span> zu <span class="codeph"> &amp;amp;</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Position </span> </span> </td> 

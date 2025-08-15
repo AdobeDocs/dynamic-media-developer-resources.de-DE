@@ -95,11 +95,11 @@ Das Erscheinungsbild des Imagemap-Bereichs wird mit dem folgenden CSS-Klassensel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
-   <td colname="col2"> <p> Füllfarbe des Imagemap-Bereichs. </p> <p>Wird im Format #RRGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) angegeben. </p> </td> 
+   <td colname="col2"> <p> Füllfarbe des Imagemap-Bereichs. </p> <p>Wird im #RRGGBB-, RGB(R,G,B)- oder RGBA(R,G,B,A)-Format angegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
-   <td colname="col2"> <p> Füllfarbe des Imagemap-Bereichs. </p> <p>Wird im Format #RRGGBB, RGB(R,G,B) oder RGBA(R,G,B,A) angegeben. </p> </td> 
+   <td colname="col2"> <p> Füllfarbe des Imagemap-Bereichs. </p> <p>Wird im #RRGGBB-, RGB(R,G,B)- oder RGBA(R,G,B,A)-Format angegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 

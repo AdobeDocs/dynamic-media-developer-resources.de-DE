@@ -1,6 +1,6 @@
 ---
 title: Überprüfen der Installation
-description: Nachdem Sie Dynamic Media Image Serving installiert haben, sollten Sie die Installation überprüfen.
+description: Nach der Installation von Dynamic Media Image Serving sollten Sie die Installation überprüfen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Überprüfen der Installation {#verifying-the-installation}
 
-Nachdem Sie Dynamic Media Image Serving installiert haben, sollten Sie die Installation überprüfen.
+Nach der Installation von Dynamic Media Image Serving sollten Sie die Installation überprüfen.
 
 Der Image-Server wird als Windows-Dienst installiert.
 
@@ -23,7 +23,7 @@ Der Image-Server wird als Windows-Dienst installiert.
 
    `http:// server:port /is/image`
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
 Überprüfen Sie, ob in der Antwort &quot;`imageServer.`&quot;-Elemente vorhanden sind, die darauf hinweisen, dass der Bild-Server wartet.
 >Zusätzliche Verifizierungen können mit den Beispielseiten der Dokumentations- und Demopakete durchgeführt werden, sofern diese installiert sind.

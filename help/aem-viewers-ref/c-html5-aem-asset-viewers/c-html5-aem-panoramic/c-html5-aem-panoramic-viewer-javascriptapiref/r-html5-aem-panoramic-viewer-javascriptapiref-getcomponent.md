@@ -42,7 +42,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container-</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> MediaSet-</span> <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> MediaSet-<span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet-</span> </p> </td> 
   </tr> 
   <tr> 

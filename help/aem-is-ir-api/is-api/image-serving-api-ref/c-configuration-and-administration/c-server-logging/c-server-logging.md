@@ -22,7 +22,7 @@ WICHTIG Es muss ausreichend Speicherplatz für Protokolldateien reserviert werde
 
 Der [!DNL Platform Server] und der Bildserver erstellen die drei unten beschriebenen Arten von Protokolldateien.
 
-Andere Image-Serving-Komponenten und bestimmte andere Dynamic Media-Pakete, wie die Dynamic Media-Viewer, können ebenfalls Protokolldateien im selben Ordner erstellen. Diese Protokolldateien dienen der internen Verwendung in Dynamic Media und können vom technischen Support von Dynamic Media zur Fehlerbehebung angefordert werden.
+Andere Image-Serving-Komponenten und bestimmte andere Dynamic Media-Pakete, wie die Dynamic Media-Viewer, können ebenfalls Protokolldateien im selben Ordner erstellen. Diese Protokolldateien dienen der internen Verwendung von Dynamic Media und können vom technischen Support für Dynamic Media zur Fehlerbehebung angefordert werden.
 
 * [Zugriffsprotokoll](c-access-log.md)
 * [Trackinglog](c-trace-log.md)

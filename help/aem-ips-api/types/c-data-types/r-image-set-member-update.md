@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Innerhalb dieses Typs ist das Feld „pageReset“ für die Asset-Typen „renderSet“ und „Catalog image“ aussagekräftig:
 
-* `pageReset` gibt `RenderSet` den Beginn einer neuen Render-Ansicht/Farbfeldgruppe an.
+* `RenderSet` gibt `pageReset` den Beginn einer neuen Render-Ansicht/Farbfeldgruppe an.
 
 * Für den Katalog gibt `pageReset` den Beginn einer neuen Seitenansicht an. In der Regel gibt es zwei Seitenbilder pro Seitenansicht, es können aber auch mehr oder weniger vorhanden sein.
 

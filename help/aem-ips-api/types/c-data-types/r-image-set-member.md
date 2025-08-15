@@ -16,11 +16,11 @@ ht-degree: 7%
 
 Assets, die zu einem Bildset gehören.
 
-Das Zurücksetzen einer Seite bedeutet, dass ein [!DNL eCatalog] eine neue Seite starten sollte. `RenderSet` gibt an, dass es Teil eines `RenderSet` Farbfelds ist. Der Wert wird gezwungen, für `eCatalog` und `RenderSet` Sets zu `true`.
+Das Zurücksetzen einer Seite bedeutet, dass ein [!DNL eCatalog] eine neue Seite starten sollte. `RenderSet` gibt an, dass es Teil eines `RenderSet` Farbfelds ist. Der Wert wird gezwungen, für `true` und `eCatalog` Sets zu `RenderSet`.
 
 ## Parameter {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Name | Typ | Beschreibung |
 |---|---|---|
 | asset | `type:Asset` | Assets im Bildset-Array. |
-| pageReset | `xsd:boolean` | Startet eine neue Seite. Die Einstellung wird ignoriert, und der Wert wird gezwungen, für `eCatalog`- und `RenderSet`-Sets zu `true`. |
+| pageReset | `xsd:boolean` | Startet eine neue Seite. Die Einstellung wird ignoriert, und der Wert wird gezwungen, für `true`- und `eCatalog`-Sets zu `RenderSet`. |

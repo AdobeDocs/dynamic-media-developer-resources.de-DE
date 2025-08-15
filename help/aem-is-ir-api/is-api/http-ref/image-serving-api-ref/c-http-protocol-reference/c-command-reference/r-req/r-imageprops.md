@@ -77,7 +77,7 @@ Die folgenden Eigenschaften werden zurückgegeben:
   <tr> 
    <td> <p> Bild <span class="codeph">. embeddedXmpData</span> </p> </td> 
    <td> <p> boolesch </p> </td> 
-   <td> <p> 1 wenn das Bild XMP-Daten enthält </p> </td> 
+   <td> <p> 1 Wenn das Bild XMP-Daten enthält </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
@@ -137,7 +137,7 @@ Die folgenden Eigenschaften werden zurückgegeben:
   <tr> 
    <td> <p> <span class="codeph"> image.translatedId</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> Katalog-ID, zu der das im </span> angegebene <span class="varname"> aufgelöst wird (siehe <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Objekt-ID-Übersetzung</a>). </p> </td> 
+   <td> <p> Katalog-ID, zu der das im <span class="varname"> angegebene </span> aufgelöst wird (siehe <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Objekt-ID-Übersetzung</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

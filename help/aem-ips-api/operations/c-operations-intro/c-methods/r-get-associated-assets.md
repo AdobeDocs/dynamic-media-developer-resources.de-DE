@@ -134,11 +134,11 @@ Syntax
  </tbody> 
 </table>
 
-Sie können die Parameter `responseFieldArray` oder `excludeFieldArray` verwenden, um die Antwortgröße zu begrenzen. Insbesondere enthalten die in `generatorArray` oder `generatedArray` zurückgegebenen `GenerationInfo` standardmäßig sowohl die ursprünglichen als auch die generierten Asset-Datensätze. Bei einem PDF-Asset-Typ führt dieses Verhalten zu unerwünschten mehreren Kopien des PDF-Asset-Originator-Datensatzes in der Antwort. Sie können dieses Problem beheben, indem Sie `generatedArray/items/originator` zu `excludeFieldArray` hinzufügen. Sie können auch eine explizite Liste von Antwortfeldern angeben, die Sie in `responseFieldArray` einbeziehen möchten.
+Sie können die Parameter `responseFieldArray` oder `excludeFieldArray` verwenden, um die Antwortgröße zu begrenzen. Insbesondere enthalten die in `GenerationInfo` oder `generatorArray` zurückgegebenen `generatedArray` standardmäßig sowohl die ursprünglichen als auch die generierten Asset-Datensätze. Bei einem PDF-Asset-Typ führt dieses Verhalten zu unerwünschten mehreren Kopien des PDF-Asset-Datensatzes „Originator“ in der Antwort. Sie können dieses Problem beheben, indem Sie `generatedArray/items/originator` zu `excludeFieldArray` hinzufügen. Sie können auch eine explizite Liste von Antwortfeldern angeben, die Sie in `responseFieldArray` einbeziehen möchten.
 
 ## Beispiele {#section-8946ea4b9cb94912a8408249c897f192}
 
-Das folgende grundlegende Beispiel ist eine Anfrage für das Handle des Generators für ein Bild, das von einer PDF extrahiert wird. Es enthält eine `containerArray` von der Länge eins mit einem Element einschließlich der `assetHandle` der PDF.
+Das folgende grundlegende Beispiel ist eine Anfrage für das Handle des Generators für ein Bild, das aus einer PDF extrahiert wird. Sie enthält eine `containerArray` der Länge 1 mit einem Element, das die `assetHandle` der PDF enthält.
 
 **Anfrage**
 

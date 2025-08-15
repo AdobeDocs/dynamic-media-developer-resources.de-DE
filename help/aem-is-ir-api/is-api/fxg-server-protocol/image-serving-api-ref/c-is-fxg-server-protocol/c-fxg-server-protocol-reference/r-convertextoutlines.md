@@ -23,6 +23,6 @@ Konvertieren von Text in einer PDF-Datei in Pfade.
  </tr> 
 </table>
 
-Verwenden Sie den URL-`convertTextToOutlines=1`, um den gesamten Text in einer PDF-Datei in umrissene Pfade zu ändern.
+Verwenden Sie den URL-`convertTextToOutlines=1`, um den gesamten Text in einer PDF-Datei in die angegebenen Pfade zu ändern.
 
 Wenn ein Effekt auf Text in einer PDF-Datei angewendet wird, z. B. wenn Text in Pfade konvertiert wird, wird das endgültige gerenderte Bild verkleinert oder „reduziert“.

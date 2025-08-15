@@ -18,7 +18,7 @@ Enthält Image-Server-Konfigurationseinstellungen.
 
 Beim Ändern dieser XML-Datei muss darauf geachtet werden, dass die gültige XML-Syntax beibehalten wird. Andernfalls kann es vorkommen, dass der Image-Server nicht gestartet wird.
 
-Damit die Änderungen wirksam werden, starten Sie den Bildserver neu, nachdem Sie diese Datei bearbeitet haben. Nur die unten aufgeführten Elementwerte werden zur Änderung unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur, wenn Sie vom technischen Support von Dynamic Media dazu aufgefordert werden.
+Damit die Änderungen wirksam werden, starten Sie den Bildserver neu, nachdem Sie diese Datei bearbeitet haben. Nur die unten aufgeführten Elementwerte werden zur Änderung unterstützt. Bearbeiten Sie alle anderen Inhalte dieser Datei nur, wenn Sie vom technischen Support für Dynamic Media dazu aufgefordert werden.
 
 >[!NOTE]
 >

@@ -28,7 +28,7 @@ Regeln zur Anfragevorverarbeitung eignen sich für eine Vielzahl von Anwendungen
 * Erzwungene Anwendung von Befehlen wie `defaultImage=` auf alle Anfragen oder auf Anfragen, die ein bestimmtes Muster im URL-Pfad oder in Abfragezeichenfolgen aufweisen.
 * Deaktivieren der Verwendung von CPU-intensiven Befehlen, um Servermissbrauch zu verhindern.
 * Quellbilder können auf HTTP- oder FTP-Servern gespeichert werden, während sie weiterhin im Anfragepfad und nicht mit `src=` angegeben werden.
-* Steuern der Bildqualitätseinstellungen (z. B. JPEG-Qualität oder Scharfzeichnung) in Abhängigkeit vom Anfragepfad oder Bildnamen.
+* Steuern der Bildqualitätseinstellungen (z. B. JPEG-Qualität oder Scharfzeichnung) je nach Anfragepfad oder Bildname.
 
 Ausführliche Informationen zum Erstellen, Verwenden und Verwalten von Regelsätzen finden Sie [ „Regelsatzreferenz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 

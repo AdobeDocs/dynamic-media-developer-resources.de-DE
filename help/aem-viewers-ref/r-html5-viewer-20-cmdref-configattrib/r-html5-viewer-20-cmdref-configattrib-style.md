@@ -22,7 +22,7 @@ Sie können den folgenden Befehl sowohl in der URL-Abfragezeichenfolge als auch 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er gegen den Speicherort der Viewer-HTML-Seite und den Wert <span class="codeph"> Parameters contentUrl=</span> aufgelöst. </p> </td> 
+   <td colname="col2"> <p> Relativer oder absoluter CSS-Speicherort. </p> <p>Gibt den Speicherort der benutzerdefinierten CSS-Datei an. Wenn der <span class="codeph"><span class="varname"> cssPath</span></span> relativ ist, wird er gegen den Seitenspeicherort des HTML-Viewers und den Wert <span class="codeph"> Parameters contentUrl=</span> aufgelöst. </p> </td> 
   </tr> 
  </tbody> 
 </table>

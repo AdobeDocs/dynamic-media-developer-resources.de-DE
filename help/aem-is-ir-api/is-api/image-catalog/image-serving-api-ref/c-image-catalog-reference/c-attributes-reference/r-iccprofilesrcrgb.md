@@ -1,5 +1,5 @@
 ---
-description: RGB-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für das RGB von Quellbildern ohne Einbettung eines Farbprofils und für bestimmte RGB-Farbwerte verwendet werden soll, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
+description: RGB-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, sowie für bestimmte RGB-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
 solution: Experience Manager
 title: IccProfileSrcRGB
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # IccProfileSrcRGB{#iccprofilesrcrgb}
 
-RGB-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für das RGB von Quellbildern ohne Einbettung eines Farbprofils und für bestimmte RGB-Farbwerte verwendet werden soll, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
+RGB-Standardeingabefarbprofil. Gibt den Namen des ICC-Farbprofils an, das für RGB-Quellbilder verwendet werden soll, die kein Farbprofil einbetten, sowie für bestimmte RGB-Farbwerte, die mit verschiedenen Bildbereitstellungsbefehlen angegeben werden, z. B. color=.
 
 ## Eigenschaften {#section-3cd753196959462e9e674dab0b033d08}
 
-Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB sein.
+Text-String Falls angegeben, muss ein gültiger `icc::Name` aus der ICC-Profilzuordnung dieses Bildkatalogs oder des Standardkatalogs oder ein Dateipfad relativ zu `attribute::RootPath` sein. Das referenzierte ICC-Profil muss ein RGB-Profil sein.
 
 ## Standard {#section-2c3cb2d9c9bf4aa7896e51b5d444ddee}
 

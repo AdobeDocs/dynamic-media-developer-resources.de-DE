@@ -34,7 +34,7 @@ Beachten Sie beim Erstellen von benutzerdefiniertem CSS, dass der Viewer `.s7pan
 
 ## Allgemeine Hinweise und Hinweise zu Stilen {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Alle Pfade zu externen Assets innerhalb von CSS werden anhand des CSS-Speicherorts aufgelöst, nicht anhand des Speicherorts der Viewer-HTML-Seite. Berücksichtigen Sie dies, wenn Sie das Standard-CSS an einen anderen Speicherort kopieren: Es kann erforderlich sein, entweder auch die Standard-Assets zu kopieren oder Pfade innerhalb des benutzerdefinierten CSS zu aktualisieren.
+* Alle Pfade zu externen Assets innerhalb von CSS werden gegen den CSS-Speicherort aufgelöst, nicht gegen den HTML-Seitenspeicherort des Viewers. Berücksichtigen Sie dies, wenn Sie das Standard-CSS an einen anderen Speicherort kopieren: Es kann erforderlich sein, entweder auch die Standard-Assets zu kopieren oder Pfade innerhalb des benutzerdefinierten CSS zu aktualisieren.
 * Sie können verschiedene Formate für Farbwerte verwenden, die von CSS unterstützt werden. Wenn Transparenz erforderlich ist, wird `rgba(R,G,B,A)` Format empfohlen. Andernfalls ist keine Transparenz erforderlich `#RRGGBB` kann verwendet werden.
 
 Beim Anpassen der Viewer-Benutzeroberfläche mit CSS wird die Verwendung `!IMPORTANT` Regel nicht unterstützt, um Viewer-Elemente zu gestalten. Insbesondere sollte `!IMPORTANT` Regel nicht verwendet werden, um vom Viewer oder Viewer-SDK bereitgestellte Standard- oder Laufzeitstile zu überschreiben, da dies das ordnungsgemäße Komponentenverhalten beeinflussen kann. Stattdessen sollten CSS-Selektoren mit der richtigen Spezifität verwendet werden, um CSS-Eigenschaften festzulegen, die in diesem Referenzhandbuch dokumentiert sind.

@@ -18,7 +18,7 @@ Standardmäßige erweiterte Render-Einstellungen. Standard für `catalog::Render
 
 ## Eigenschaften {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Text-String Wenn angegeben, muss es sich um eine gültige Render-Einstellungs-Zeichenfolge handeln, wie mit dem Vignette Authoring Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
+Text-String Wenn angegeben, muss es sich um eine gültige Zeichenfolge für Render-Einstellungen handeln, wie mit dem Vignette Authoring Tool (Teil des Dynamic Media Image Authoring-Pakets) definiert.
 
 ## Standard {#section-4e76784aeecd4f09a33124aded7406cb}
 

@@ -24,7 +24,7 @@ Durch Kommas getrennte Liste von IP-Adressen mit optionalen Netzmasken ([CIDR-No
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* IP-Adresse im *[!DNL ddd.ddd.ddd.ddd]* Format *[!DNL ipAddress]*
+* IP-Adresse im *[!DNL ipAddress]* Format *[!DNL ddd.ddd.ddd.ddd]*
 
 * *[!DNL netmask]* Netzmaske (0…32)
 

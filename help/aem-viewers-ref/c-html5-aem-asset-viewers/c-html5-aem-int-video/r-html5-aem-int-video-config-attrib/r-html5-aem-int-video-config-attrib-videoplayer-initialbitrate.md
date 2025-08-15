@@ -22,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Wert</span> </p> </td> 
-   <td colname="col2"> <p> Legt die Video-Bitrate (in Kilobit pro Sekunde oder kbps) fest, die für die anfängliche Wiedergabe von Videos auf einem Desktop verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, beginnt der Video-Player mit dem Video, das die nächstniedrigere Bitrate aufweist. </p> <p>Bei <span class="codeph"> 0</span> beginnt der Video-Player mit der niedrigstmöglichen Bitrate. </p> <p>Gilt nur für Systeme, die keine native Unterstützung für HTML5-HLS-Videos haben (z. B. Firefox, Chrome und Internet Explorer 11-Browser unter Windows 10) und wenn der Wiedergabemodus auf „auto“ eingestellt ist. </p> </td> 
+   <td colname="col2"> <p> Legt die Video-Bitrate (in Kilobit pro Sekunde oder kbps) fest, die für die anfängliche Wiedergabe von Videos auf einem Desktop verwendet wird. </p> <p>Wenn dieser Bitratenwert nicht im adaptiven Videoset vorhanden ist, beginnt der Video-Player mit dem Video, das die nächstniedrigere Bitrate aufweist. </p> <p>Bei <span class="codeph"> 0</span> beginnt der Video-Player mit der niedrigstmöglichen Bitrate. </p> <p>Gilt nur für Systeme, die keine native Unterstützung für HTML5 HLS-Videos haben (z. B. Browser Firefox, Chrome und Internet Explorer 11 unter Windows 10), und wenn der Wiedergabemodus auf „Auto“ eingestellt ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

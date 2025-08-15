@@ -449,7 +449,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
    <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 

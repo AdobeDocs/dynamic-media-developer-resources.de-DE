@@ -1,6 +1,6 @@
 ---
 title: Lizenzierung
-description: Ein Dynamic Media Image Rendering-Lizenzschlüssel ist erforderlich und muss auf jedem System installiert sein, auf dem Image Rendering installiert ist.
+description: Ein Lizenzschlüssel für das Dynamic Media-Bild-Rendering ist erforderlich und muss auf jedem System installiert sein, auf dem Bild-Rendering installiert ist.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Lizenzierung{#licensing}
 
-Ein Dynamic Media Image Rendering-Lizenzschlüssel ist erforderlich und muss auf jedem System installiert sein, auf dem Image Rendering installiert ist.
+Ein Lizenzschlüssel für das Dynamic Media-Bild-Rendering ist erforderlich und muss auf jedem System installiert sein, auf dem Bild-Rendering installiert ist.
 
 Das Rendern von Bildern wird ohne gültige Lizenz nicht ausgeführt. Das Installationsverfahren umfasst Schritte zum Abrufen und Installieren des Lizenzschlüssels.

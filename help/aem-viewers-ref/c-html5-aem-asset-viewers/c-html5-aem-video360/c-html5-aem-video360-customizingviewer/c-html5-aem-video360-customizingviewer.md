@@ -77,7 +77,7 @@ Sie können die standardmäßige Viewer-CSS-Datei als Beispiel für einen Ansatz
 
 Sie können die Geräteerkennung auch durchführen, indem Sie reine CSS-Medienabfragen verwenden. Alles, was in einem bestimmten Medienabfrageblock eingeschlossen ist, wird nur angewendet, wenn es auf einem entsprechenden Gerät ausgeführt wird.
 
-Bei der Anwendung auf HTML5-Mobile-Viewer verwenden Sie vier CSS-Medienabfragen, die in Ihrem CSS definiert sind, in der unten aufgeführten Reihenfolge:
+Bei der Anwendung auf HTML5 Mobile-Viewer verwenden Sie vier CSS-Medienabfragen, die in Ihrem CSS definiert sind, in der unten aufgeführten Reihenfolge:
 
 1. Enthält nur für alle Touch-Geräte spezifische Regeln.
 
@@ -205,7 +205,7 @@ background-position: -0px -1120px;
 
 ## Allgemeine Hinweise und Hinweise zu Stilen {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Alle Pfade zu externen Assets innerhalb von CSS werden anhand des CSS-Speicherorts aufgelöst, nicht anhand des Speicherorts der Viewer-HTML-Seite. Beachten Sie diese Regel, wenn Sie das Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie entweder die Standard-Assets oder aktualisieren Sie die Pfade innerhalb des benutzerdefinierten CSS.
+* Alle Pfade zu externen Assets innerhalb von CSS werden gegen den CSS-Speicherort aufgelöst, nicht gegen den HTML-Seitenspeicherort des Viewers. Beachten Sie diese Regel, wenn Sie das Standard-CSS an einen anderen Speicherort kopieren. Kopieren Sie entweder die Standard-Assets oder aktualisieren Sie die Pfade innerhalb des benutzerdefinierten CSS.
 * Das bevorzugte Format für Bitmap-Grafiken ist PNG.
 * Bitmap-Grafiken werden Benutzeroberflächenelementen mithilfe der `background-image`-Eigenschaft zugewiesen.
 * Die `width`- und `height` eines Benutzeroberflächenelements definieren dessen logische Größe. Die Größe der an `background-image` übergebenen Bitmap hat keine Auswirkungen auf die logische Größe.

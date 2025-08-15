@@ -18,7 +18,7 @@ Katalogattribute und -felder können Daten eines der folgenden Typen enthalten.
 
 **color**
 
-Farbwert. Hexadezimaler gepackter RGB-Wert, optional mit vorangestelltem 0x. Beispielsweise kann der RGB-Wert `128,255,0` als `0x80ff00` oder `80ff00` angegeben werden.
+Farbwert. Hexadezimaler, gepackter RGB-Wert, optional mit vorangestelltem 0x. Beispielsweise kann der RGB-`128,255,0` als `0x80ff00` oder `80ff00` angegeben werden.
 
 **Flag**
 

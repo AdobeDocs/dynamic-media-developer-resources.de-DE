@@ -1,6 +1,6 @@
 ---
 title: Installieren mehrerer Dynamic Media-Viewer auf demselben Server
-description: Anleitung zur Installation der Dynamic Media Viewers-API.
+description: Anweisungen zur Installation der Dynamic Media Viewers-API.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-Anleitung zur Installation der Dynamic Media Viewers-API.
+Anweisungen zur Installation der Dynamic Media-Viewer-API.
 
 Installieren und testen Sie Image-Serving, bevor Sie die Image-Serving-Viewer installieren.
 
@@ -24,7 +24,7 @@ Kopieren Sie die IMS-Viewer-Dateien auf Ihre Festplatte und stellen Sie dann die
 
 >[!NOTE]
 >
->Es gibt keine Upgrade-Installation für die Image-Serving-Viewer. Adobe empfiehlt, ein vorhandenes Dynamic Media Viewer-Verzeichnis (s7viewers) zu sichern, bevor Sie mit der Installation fortfahren.
+>Es gibt keine Upgrade-Installation für die Image-Serving-Viewer. Adobe empfiehlt, ein vorhandenes Dynamic Media-Viewer-Verzeichnis (s7viewers) zu sichern, bevor Sie mit der Installation fortfahren.
 
 **So installieren Sie mehrere Viewer auf demselben Server:**
 

@@ -47,11 +47,11 @@ Die folgenden Optionen steuern die Verarbeitung von Vignettendateien. Sie werden
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -pyramide</span> </p></td> 
-  <td class="stentry"> <p>Erstellt eine Pyramidenvignette. Erforderlich, wenn gerenderte Bilder mit Dynamic Media Zoom-Viewern angezeigt werden sollen. Siehe <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vignettenskalierung</a> für weitere Informationen. </p></td> 
+  <td class="stentry"> <p>Erstellt eine Pyramidenvignette. Erforderlich, wenn gerenderte Bilder mit Dynamic Media-Zoom-Viewern angezeigt werden sollen. Siehe <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vignettenskalierung</a> für weitere Informationen. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> ThumbWidth <span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Pixelbreite und -höhe für das Miniaturbild. Falls angegeben, wird aus dem Vignettenansichtsbild, einem Bereichsbild der Schrankstil-Datei oder der Beleuchtungskarte <span class="varname"> ersten Stils in der Fensterabdeckungs-Stildatei ein JPEG-Bild erzeugt, das nicht breiter und nicht größer als ival</span> ist. </p></td> 
+  <td class="stentry"> <p>Pixelbreite und -höhe für das Miniaturbild. Wenn angegeben, wird aus dem Vignettenansichtsbild, einem Bereichsbild der Schrankstildatei oder der Beleuchtungskarte <span class="varname"> ersten Stils in der Fensterabdeckungsstildatei ein JPEG-Bild generiert, das nicht breiter und nicht größer als Rival </span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-width <span class="varname"> ival</span> *[,<span class="varname"> ival</span>]</span> </p></td> 

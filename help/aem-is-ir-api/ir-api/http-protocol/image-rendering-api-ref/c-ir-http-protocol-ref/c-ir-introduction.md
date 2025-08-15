@@ -16,13 +16,13 @@ ht-degree: 0%
 
 In diesem Dokument wird das HTTP-Protokoll für das Dynamic Media Image Rendering beschrieben.
 
-Es werden nur die öffentlich zugänglichen Aspekte des Protokolls beschrieben. Der Server kann zusätzliche Befehle unterstützen, die für die Verwendung durch die Client-Software von Dynamic Media reserviert sind.
+Es werden nur die öffentlich zugänglichen Aspekte des Protokolls beschrieben. Der Server unterstützt möglicherweise zusätzliche Befehle, die für die Verwendung durch die Dynamic Media-Client-Software reserviert sind.
 
 **Vorgesehene Zielgruppe**
 
 Dieses Dokument richtet sich an erfahrene Programmierer und Website-Entwickler, die Dynamic Media Image Rendering für eine Website oder ein benutzerdefiniertes Programm verwenden möchten.
 
-Es wird davon ausgegangen, dass der Leser mit Dynamic Media Image Authoring und Image Rendering, allgemeinen HTTP-Protokollstandards und -Konventionen und grundlegender Bildterminologie vertraut ist.
+Es wird davon ausgegangen, dass der Leser mit der Dynamic Media-Bildbearbeitung und dem Bild-Rendering, den allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Bildterminologie vertraut ist.
 
 **Dokumentkonventionen**
 
@@ -95,6 +95,6 @@ Es wird davon ausgegangen, dass der Leser mit Dynamic Media Image Authoring und 
 
 **Allgemeine Begriffe**
 
-**&#x200B; *`MSS`* &#x200B;** Materialspezifikationssegment : Ein Satz von Materialattributen zwischen zwei Auswahlbefehlen in der Anforderung.
+** *`MSS`* ** Materialspezifikationssegment : Ein Satz von Materialattributen zwischen zwei Auswahlbefehlen in der Anforderung.
 
-**&#x200B; *`vignette`* &#x200B;** Ein Bild, das in der Dynamic Media-Bildbearbeitung für die Verwendung mit dem Bild-Rendering vorbereitet wurde.
+** *`vignette`* ** Ein Bild, das in der Dynamic Media-Bildbearbeitung für die Verwendung mit dem Bild-Rendering vorbereitet wurde.

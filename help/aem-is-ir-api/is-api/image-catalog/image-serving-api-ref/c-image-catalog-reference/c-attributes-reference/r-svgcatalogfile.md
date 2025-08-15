@@ -1,5 +1,5 @@
 ---
-description: SVG von Datendateipfaden. Gibt die Dateien an, die die SVG-Daten für diesen Katalog enthalten.
+description: SVG-Datendateipfade. Gibt die Dateien an, die die SVG-Daten für diesen Katalog enthalten.
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-SVG von Datendateipfaden. Gibt die Dateien an, die die SVG-Daten für diesen Katalog enthalten.
+SVG-Datendateipfade. Gibt die Dateien an, die die SVG-Daten für diesen Katalog enthalten.
 
-SVG-Datendateien werden nach allen Bilddatendateien in der angegebenen exakten Reihenfolge geladen. Wenn derselbe `catalog::Id` in mehr als einem Datensatz auftritt (entweder im selben oder in anderen Bild- oder SVG-Katalogdateien), hat die letzte Instanz Vorrang.
+SVG-Datendateien werden nach allen Bilddatendateien in der exakt angegebenen Reihenfolge geladen. Wenn derselbe `catalog::Id` in mehr als einem Datensatz auftritt (entweder im selben oder in anderen Bilddateien oder SVG-Katalogdateien), hat die letzte Instanz Vorrang.
 
 ## Eigenschaften {#section-fc2d549f76474792837b2b92ec2087ea}
 

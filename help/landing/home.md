@@ -1,6 +1,6 @@
 ---
-title: Adobe von Dynamic Media-Entwicklungsressourcen
-description: Adobe von Dynamic Media-Entwicklungsressourcen
+title: Entwicklerressourcen für Adobe Dynamic Media
+description: Entwicklerressourcen für Adobe Dynamic Media
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Dynamic Media] von Entwicklerressourcen{#dynamic-media-developer-resource}
 
-* [Viewer-Referenzhandbuch](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de) -->
+* [Viewer-Referenzhandbuch](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
 Passen Sie [!DNL Dynamic Media] Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Zu den Medientypen, mit denen Sie arbeiten können, gehören interaktive Bilder und Videos, 360-Grad-Videos, Karussells, Bildzoom, Videos, E-Kataloge, Flyouts, gemischte Medien und Rotationssets.
-* [Image Serving-/Image Rendering-API](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=de) -->
+* [Image Serving-/Image Rendering-API](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 Dokumentation zu IS (Image Serving)- und IR (Image Rendering)-APIs und zugehörigen Technologien. Wenn Sie an [!DNL Dynamic Media] Classic-Integration mit Adobe Experience Manager arbeiten, sollten Sie sich den IIS-Teil der API ansehen.
 * [Image Production System-API](/help/aem-ips-api/c-overview.md)
 Die IPS (Image Production System)-Webservice-API ermöglicht es externen Anwendungen und Drittanbieterentwicklern, programmgesteuert auf IPS-Assets und -Funktionen zuzugreifen.

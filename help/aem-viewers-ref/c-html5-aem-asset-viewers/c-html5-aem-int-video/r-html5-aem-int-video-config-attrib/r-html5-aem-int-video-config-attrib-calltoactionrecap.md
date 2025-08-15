@@ -22,7 +22,7 @@ Konfigurationsattribut für den interaktiven Video-Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Zeigt an, ob der Viewer das Bedienfeld „Handlungsaufforderung“ am Ende der Videowiedergabe anzeigt. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, ob der Viewer das Bedienfeld "call-to-action" am Ende der Videowiedergabe anzeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

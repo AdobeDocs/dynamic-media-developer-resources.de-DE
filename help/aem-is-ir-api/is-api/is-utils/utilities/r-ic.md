@@ -18,7 +18,7 @@ Dienstprogramm zur Bildkonvertierung.
 
 `ic` ist ein Befehlszeilen-Tool, das Bilddateien in das optimierte Pyramid TIFF-Format (PTIFF) konvertiert. Obwohl die Bildbereitstellung Bilder ohne Konvertierung verarbeiten kann, empfehlen wir, alle Bilder mit einer Größe von mehr als 512 x 512 Pixel in PTIFF zu konvertieren. Diese Konvertierung sorgt für eine optimale Server-Leistung und Ressourcennutzung und minimiert die Reaktionszeiten.
 
-Es wird empfohlen, PTIFF-Dateien, die fotografischen Inhalt enthalten, mit JPEG zu codieren (geben Sie `-jpegcompress` an). Computergenerierte Inhalte können von der verlustfreien Komprimierung profitieren (entweder `-deflatecompress` oder `-lzwcompress`). Sofern keine Farbkonvertierung oder Pixeltypkonvertierung erforderlich ist, werden JPEG-Quellbilddaten ohne Decodierung auf PTIFF übertragen, um eine Qualitätsverschlechterung zu vermeiden. In diesem Fall gelten die angegebenen Komprimierungsoptionen nur für die Pyramidenebenen mit niedrigerer Auflösung.
+Es wird empfohlen, PTIFF-Dateien, die fotografischen Inhalt enthalten, mit JPEG zu kodieren (geben Sie `-jpegcompress` an). Computergenerierte Inhalte können von der verlustfreien Komprimierung profitieren (entweder `-deflatecompress` oder `-lzwcompress`). Sofern keine Farbkonvertierung oder Pixeltypkonvertierung erforderlich ist, werden JPEG-Quellbilddaten ohne Decodierung an den PTIFF übertragen, um eine Qualitätsverschlechterung zu vermeiden. In diesem Fall gelten die angegebenen Komprimierungsoptionen nur für die Pyramidenebenen mit niedrigerer Auflösung.
 
 Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter festlegen, die steuern, wie viel Speicher verwendet werden soll. Falls doch, geben Sie `ic` mehr Speicher, indem Sie die unten beschriebene `-maxmem` verwenden. Eine gute Faustregel für die Berechnung der benötigten Speichermenge ist die Multiplikation der Breite des Bildes mit der Höhe des Bildes mit der Anzahl der Kanäle. Beispiel: vier für ein RGB-Bild mit der dreifachen Alpha-Rate. Außerdem, wenn die Kanäle 16-Bit pro Komponente statt 8 doppelt so groß sind wie das Endergebnis.
 
@@ -77,7 +77,7 @@ Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter fest
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegcompress </span> </p> </td> 
-   <td colname="col2"> <p>JPEG-Kodierung verwenden. Ignoriert, wenn <span class="codeph"> <span class="varname"> sourceFile </span> </span> Alpha-Daten enthält. </p> </td> 
+   <td colname="col2"> <p>Verwenden Sie die JPEG-Kodierung. Ignoriert, wenn <span class="codeph"> <span class="varname"> sourceFile </span> </span> Alpha-Daten enthält. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -JpegQuality &lt; <span class="varname"> Quality </span>&gt; </span> </p> </td> 
@@ -115,7 +115,7 @@ Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter fest
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData-</span> </p> </td> 
-   <td colname="col2"> <p>Kopieren Sie XMP-Metadaten, falls verfügbar, aus <span class="codeph"> <span class="varname"> sourceFile </span> </span> ohne Änderung in <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
+   <td colname="col2"> <p>Kopieren Sie die XMP-Metadaten, falls verfügbar, aus <span class="codeph"> <span class="varname">-</span> </span> ohne Änderung in <span class="codeph"> <span class="varname"> destFile-</span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile-</span> </p> </td> 
@@ -159,7 +159,7 @@ Wenn Sie keine großen Bilder konvertieren, müssen Sie nicht die Parameter fest
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress-</span> </p> </td> 
-   <td colname="col2"> <p>Dekodierung und Neukodierung von JPEG-Eingabebildern erzwingen. </p> <p> <b>Achtung:</b> diese Option kann die Bildqualität beeinträchtigen. </p> </td> 
+   <td colname="col2"> <p>Erzwingen der Dekodierung und Neukodierung von JPEG-Eingabebildern. </p> <p> <b>Achtung:</b> diese Option kann die Bildqualität beeinträchtigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
@@ -255,7 +255,7 @@ In der folgenden Tabelle sind die Bilddateiformate und Formatoptionen aufgeführ
    <td> <p> RGB | indiziert </p> </td> 
    <td> <p> 1 | 05/6 | 8 </p> </td> 
    <td> <p> unkomprimiert | ROLLE </p> </td> 
-   <td> <p> 5/6 bit/channel bedeutet Unterstützung für 16-bit RGB (5-5-5 und 5-6-5 bit/channel). </p> </td> 
+   <td> <p> 5/6 Bit/Kanal bedeutet Unterstützung für 16 Bit RGB (5-5-5 und 5-6-5 Bit/Kanal). </p> </td> 
   </tr> 
   <tr> 
    <td> <b> EPS</b> <p> (Encapsulated PostScript) </p> </td> 
@@ -326,10 +326,10 @@ Konvertieren Sie ein einzelnes Bild in der besten Qualität und behalten Sie es 
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-Konvertieren Sie alle Bilder in *`srcFolder`* in JPEG-kodierte Pyramiden-TIFF und platzieren Sie sie in *`destFolder`*:
+Konvertieren Sie alle Bilder in *`srcFolder`* in JPEG-kodierte Pyramid-TIFFs und platzieren Sie sie in *`destFolder`*:
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-Konvertieren Sie alle Bilder in *`srcFolder`*. Die kodierten Bilddaten von JPG-Dateien werden für die verlustfreie LZW-Komprimierung der Vollauflösungsstufe für die übrige Bildpyramide dieser Bilder sowie für das gesamte Ausgabebild aller Nicht-JPG-Eingabedateien verwendet. Die Pixeltypen, eingebetteten Farbprofile, XMP-Metadaten usw. gepflegt werden.
+Konvertieren Sie alle Bilder in *`srcFolder`*. Die kodierten Bilddaten von JPG-Dateien werden für die verlustfreie LZW-Komprimierung auf voller Auflösungsebene für die übrige Bildpyramide dieser Bilder sowie für das gesamte Ausgabebild aller nicht von JPG stammenden Eingabedateien verwendet. Die Pixeltypen, eingebetteten Farbprofile, XMP-Metadaten usw. gepflegt werden.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`
