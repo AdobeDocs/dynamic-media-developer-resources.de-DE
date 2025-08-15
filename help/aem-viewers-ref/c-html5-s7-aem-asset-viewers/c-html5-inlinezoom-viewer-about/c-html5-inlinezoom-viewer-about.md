@@ -173,7 +173,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Sie können das Verhalten mit einem festen äußeren Viewer-Bereich auf der folgenden Beispielseite sehen. Beachten Sie, dass sich beim Wechseln zwischen Sets die Größe des äußeren Viewers nicht ändert:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=de)
 
    Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe `.s7flyoutviewer .s7container` CSS-Selektors. Darüber hinaus sollten Sie die feste Größe überschreiben, die für die `.s7flyoutviewer` CSS-Klasse der obersten Ebene in der Standard-Viewer-CSS definiert ist, indem Sie sie auf `auto` setzen.
 
@@ -192,7 +192,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Die folgende Beispielseite zeigt das Viewer-Verhalten mit einer festen Hauptansichtsgröße. Beachten Sie, dass beim Wechseln zwischen Sets die Hauptansicht statisch bleibt und der Webseiteninhalt vertikal verschoben wird:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=de)
 
    Außerdem bietet das standardmäßige Viewer-CSS vorkonfiguriert eine feste Größe für den äußeren Bereich.
 
@@ -331,7 +331,7 @@ Die folgende Beispielseite zeigt weitere reale Verwendungen der responsiven Desi
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
 
 ## Flexible Einbettungsgröße mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 

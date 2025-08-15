@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Dynamic Media Image Serving and Rendering-API {#image-serving-api}
 
-+ [Startseite der Dynamic Media Image Serving and Image Rendering-API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [Startseite der Dynamic Media Image Serving and Image Rendering-API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=de) -->
 + [Über diese Version](r-about-this-release.md)
 + [Systemanforderungen und Voraussetzungen](r-requirements-and-prerequisites.md)
 + [Anforderungen und Empfehlungen an den Festplattenspeicher](r-disk-space-reqs.md)

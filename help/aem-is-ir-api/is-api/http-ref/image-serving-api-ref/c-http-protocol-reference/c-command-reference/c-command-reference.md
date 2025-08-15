@@ -25,7 +25,7 @@ In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 >* Netzwerkbandbreite
 >* DPR (Device Pixel Ratio)
 >
->Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 Minuten und 17 Sekunden).
+>Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=de) (3 Minuten und 17 Sekunden).
 
 
 **Nur für Dynamic Media in Adobe Experience Manager** - Über die grundlegenden Bildeinstellungen, die in der Benutzeroberfläche verfügbar sind, hinaus unterstützt [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) zahlreiche erweiterte Bildänderungen, die Sie im Feld **Bildmodifikatoren“** können. Diese Parameter werden unten definiert. Beachten Sie jedoch, dass die folgenden Funktionen in Dynamic Media in AEM nicht unterstützt werden.
@@ -42,7 +42,7 @@ In diesem Abschnitt werden die HTTP-Protokollbefehle beschrieben.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Siehe auch Dynamic Media [Bildvorgabenoptionen) in ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) Dokumentation zu AEM 6.5.
+Siehe auch Dynamic Media [Bildvorgabenoptionen) in ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=de#dynamic) Dokumentation zu AEM 6.5.
 
 * [in eine Linie bringen](r-align.md)
 * [anchor](r-anchor.md)

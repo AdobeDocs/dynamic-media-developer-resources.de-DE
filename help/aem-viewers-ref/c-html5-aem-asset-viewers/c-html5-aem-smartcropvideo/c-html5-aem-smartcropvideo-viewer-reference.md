@@ -293,7 +293,7 @@ Die folgende Beispielseite veranschaulicht eine praktischere Verwendung der resp
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
 
 **Responsives Design Einbetten mit definierter Breite und Höhe**
 
