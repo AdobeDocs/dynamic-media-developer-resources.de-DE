@@ -67,7 +67,7 @@ Das Ablaufdatum des Kennworts ist optional. Wenn es weggelassen wird, läuft das
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Englisch-Kleinbuchstaben. Beispiel: <span class="codeph"> a b c d e </span> usw </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Englische Großbuchstaben. Beispiel: <span class="codeph"> A B C D E </span> und so weiter. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Zahlen. Zum Beispiel <span class="codeph"> 1 2 3 4 5 </span> und so weiter. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Sonderzeichen. Sie können beispielsweise eine der folgenden Optionen verwenden: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Sonderzeichen. Sie können beispielsweise eine der folgenden Optionen verwenden: <span class="codeph"> &grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

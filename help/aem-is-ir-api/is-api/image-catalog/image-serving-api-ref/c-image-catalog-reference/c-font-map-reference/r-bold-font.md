@@ -1,5 +1,5 @@
 ---
-description: Fett markiert. Gibt an, ob die Schriftartendatei, auf die dieser Schriftartenzuordnungseintrag verweist, verwendet werden soll, wenn der RTF-Befehl fett gedruckt wird (\b).
+description: Fett markiert. Gibt an, ob die Schriftartendatei, auf die dieser Schriftartenzuordnungseintrag verweist, verwendet werden soll, wenn der RTF-Befehl fett gedruckt wird (b).
 solution: Experience Manager
 title: Fett
 feature: Dynamic Media Classic,SDK/API

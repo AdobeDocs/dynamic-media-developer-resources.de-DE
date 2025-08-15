@@ -95,6 +95,6 @@ Es wird davon ausgegangen, dass der Leser mit der Dynamic Media-Bildbearbeitung 
 
 **Allgemeine Begriffe**
 
-** *`MSS`* ** Materialspezifikationssegment : Ein Satz von Materialattributen zwischen zwei Auswahlbefehlen in der Anforderung.
+**&#x200B; *`MSS`* &#x200B;** Materialspezifikationssegment : Ein Satz von Materialattributen zwischen zwei Auswahlbefehlen in der Anforderung.
 
-** *`vignette`* ** Ein Bild, das in der Dynamic Media-Bildbearbeitung für die Verwendung mit dem Bild-Rendering vorbereitet wurde.
+**&#x200B; *`vignette`* &#x200B;** Ein Bild, das in der Dynamic Media-Bildbearbeitung für die Verwendung mit dem Bild-Rendering vorbereitet wurde.

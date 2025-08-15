@@ -20,7 +20,7 @@ Syntax
 
 ## TC::directory - Protokolldateiordner {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Der Ordner, in den der [!DNL Platform Server] Protokolldateien schreibt. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`* sein. Der Standardwert lautet [!DNL  *`install_folder`*/logs].
+Der Ordner, in den der [!DNL Platform Server] Protokolldateien schreibt. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`* sein. Der Standardwert lautet [!DNL &#x200B; *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Die Anzahl der Tage, die Protokolldateien beibehalten werden sollen. Täglich um
 
 ## TC::prefix - Zugriff auf Protokolldateiname {#section-1003856323b844049632710a5a056aa7}
 
-Namenspräfix für die Datei, in die die Zugriffsprotokolldaten geschrieben werden. Datum und Dateiendung ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Trace-Protokolldatei unterscheiden. Der Standardwert lautet &quot;`access-`&quot;.
+Namenspräfix für die Datei, in die die Zugriffsprotokolldaten geschrieben werden. Datum und Dateiendung ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Trace-Protokolldatei unterscheiden. Der Standardwert lautet &quot;`access-`&quot;.
 
 ## TC::pattern - Zugriffsprotokoll-Muster {#section-22775ea85cee444d8a7d7336a3b1feef}
 
