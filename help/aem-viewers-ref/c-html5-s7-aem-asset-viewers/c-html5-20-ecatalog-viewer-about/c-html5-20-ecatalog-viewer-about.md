@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-
 
 Dieser Viewer arbeitet mit E-Katalogen und unterstützt optionale Imagemaps und Tools für die Freigabe in sozialen Netzwerken. Es verfügt über Zoom-Tools, Katalog-Navigations-Tools, Vollbildunterstützung, Miniaturansichten und eine optionale Schaltfläche zum Schließen. Der Viewer unterstützt auch Tools zur gemeinsamen Nutzung in sozialen Netzwerken sowie die Optionen Drucken, Herunterladen und Favoriten. Es wurde für Desktop-PCs und mobile Geräte entwickelt.
 
-## Demo-URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+<!--
+## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+-->
 
 ## Verwenden des E-Katalog-Viewers {#section-e6c68406ecdc4de781df182bbd8088b4}
 

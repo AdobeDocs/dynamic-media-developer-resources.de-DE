@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Die neuesten Versionshinweise für [!DNL Adobe Scene7] Herbst 2016 sind Teil der
 
 Adobe freut sich, die Verfügbarkeit der Bereitstellung von Inhalten per HTTP/2 bekannt geben zu können, was insgesamt den Vorteil einer verbesserten Leistung bietet.
 
-Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=de#dynamic).
+Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=de](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=de)
+Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen**
 
@@ -58,7 +58,7 @@ Die vollständige Dokumentation finden Sie unter [https://experienceleague.adobe
 
 ## Viewer (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerbehebungen für Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 ## Viewer (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Fehlerbehebungen für Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 ## Viewer (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de).
+Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Neue Funktionen, Verbesserungen und Fehlerbehebungen für Image Serving 5.5.1**
 
@@ -151,10 +151,7 @@ Eine vollständige Dokumentation finden Sie [Viewer-Referenzhandbuch](https://ex
 
 **Bekannte Probleme und Einschränkungen**
 
-* Die Image-Serving-Modifikatoren von `iscommands` werden nicht standardmäßig zur `req=set` hinzugefügt. Modifikatoren, die sich nur auf die Bildanzeige auswirken, funktionieren einwandfrei. Modifikatoren, die sich auf die Größe auswirken, müssen in einem komplexen Asset verwendet werden. Beispiel:
-
-  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
-
+* Die Image-Serving-Modifikatoren von `iscommands` werden nicht standardmäßig zur `req=set` hinzugefügt. Modifikatoren, die sich nur auf die Bildanzeige auswirken, funktionieren einwandfrei. Modifikatoren, die sich auf die Größe auswirken, müssen in einem komplexen Asset verwendet werden.
 * [Flyout] IE9 bleibt manchmal auf dem Bildschirm, nachdem die Maus ausgeschaltet wurde.
 * Die Browser-Skalierung führt zu einer falschen Größenanpassung.
 * iPad 2: Safari in iOS stürzt durch großes E-Katalog-Asset ab.

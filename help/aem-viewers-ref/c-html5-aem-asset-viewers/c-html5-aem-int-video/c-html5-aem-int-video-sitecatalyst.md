@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,10 @@ Standardmäßig sendet der Viewer eine einzelne Tracking-HTTP-Anfrage mit den Vi
 
 ## Benutzerdefiniertes Tracking {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, auf den `trackEvent` Viewer-Callback zu lauschen und das `eventInfo` Argument der Callback-Funktion nach Bedarf zu verarbeiten. Der folgende Code ist ein Beispiel für eine solche Handler-Funktion:
+Zur Integration mit Analysesystemen von Drittanbietern ist es erforderlich, auf den `trackEvent` Viewer-Callback zu lauschen und das `eventInfo` Argument der Callback-Funktion nach Bedarf zu verarbeiten.
+
+<!--
+The following code is an example of such handler function:
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -46,6 +49,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 } 
 });
 ```
+-->
 
 Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
 
