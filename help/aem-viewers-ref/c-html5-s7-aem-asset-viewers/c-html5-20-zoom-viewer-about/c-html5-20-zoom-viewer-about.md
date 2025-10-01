@@ -178,7 +178,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Im folgenden Beispiel sehen Sie das Verhalten mit einem festen äußeren Viewer. Beachten Sie, dass sich beim Wechseln zwischen Sets die Größe des äußeren Viewers nicht ändert:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de)
 
    Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe des `.s7zoomviewer`- `.s7container` CSS-Selektors oder durch Verwendung `stagesize` Modifikators.
 
@@ -193,7 +193,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Die folgende Demoseite zeigt das Viewer-Verhalten mit einer festen Hauptansichtsgröße. Beachten Sie, dass beim Wechseln zwischen Sets die Hauptansicht statisch bleibt und der Webseiteninhalt vertikal verschoben wird.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de)
 
    Sie können den Modifikator &quot;`stagesize`&quot; im Datensatz „Viewer-Vorgabe“ in Dynamic Media Classic festlegen. Sie können sie auch explizit mit dem Viewer-Initialisierungs-Code mit der `params`-Sammlung oder als API-Aufruf übergeben, wie im Abschnitt „Befehlsreferenz“ dieser Hilfe beschrieben, wie in der folgenden Abbildung dargestellt:
 
