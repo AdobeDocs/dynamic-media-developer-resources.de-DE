@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: 4964c2ac68b4baab7347d6d0e26e2237995720e8
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2511'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe für `.s7mixedmediaviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größe in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festgelegt und später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mithilfe des Stilbefehls übergeben werden.
 
-   Weitere [&#x200B; zum Formatieren des Viewers mit CSS finden Sie unter „Anpassen &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) Viewers für gemischte Medien“.
+   Weitere [ zum Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) Viewers für gemischte Medien“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition der statischen äußeren Viewer-Größe auf einer HTML-Seite:
 
@@ -185,32 +185,41 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Sie können das Verhalten mit einem festen äußeren Viewer-Bereich auf der folgenden Beispielseite sehen. Beachten Sie, dass sich beim Wechseln zwischen Sets die Größe des äußeren Viewers nicht ändert:
+<!-- You can see the behavior with a fixed outer viewer area on the following sample page. Notice that when you switch between sets, the outer viewer size does not change:-->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=de)
+<!--
 
-   Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe `.s7mixedmediaviewer .s7container` CSS-Selektors oder mithilfe `stagesize` Modifikators.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Im Folgenden finden Sie ein Beispiel dafür, wie Sie die Viewer-Größe für die SDK-Komponente des inneren `Container` definieren, sodass der Hauptansichtsbereich beim Wechseln des Assets seine Größe nicht ändert:
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7mixedmediaviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
 
-   Die folgende Beispielseite zeigt das Viewer-Verhalten mit einer festen Hauptansichtsgröße. Beachten Sie, dass beim Wechseln zwischen Sets die Hauptansicht statisch bleibt und der Webseiteninhalt vertikal verschoben wird:
+Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe `.s7mixedmediaviewer .s7container` CSS-Selektors oder mithilfe `stagesize` Modifikators.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=de)
+Im Folgenden finden Sie ein Beispiel dafür, wie Sie die Viewer-Größe für die SDK-Komponente des inneren `Container` definieren, sodass der Hauptansichtsbereich beim Wechseln des Assets seine Größe nicht ändert:
 
-   Sie können den `stagesize`-Modifikator entweder im Viewer-Vorgabeneintrag in Dynamic Media Classic festlegen oder ihn explizit mit dem Viewer-Initialisierungs-Code mit `params` Sammlung übergeben. Oder rufen Sie als API-Aufruf wie im Abschnitt Befehlsreferenz dieser Hilfe beschrieben auf, wie in der folgenden Abbildung dargestellt:
+```html {.line-numbers}
+#s7viewer.s7mixedmediaviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   ```html {.line-numbers}
-   mixedMediaViewer.setParam("stagesize", "640,480");
-   ```
+<!-- The following sample page shows viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically: -->
 
-   Ein CSS-basierter Ansatz wird empfohlen und wird in diesem Beispiel verwendet.
+<!--
+
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
+
+   -->
+
+Sie können den `stagesize`-Modifikator entweder im Viewer-Vorgabeneintrag in Dynamic Media Classic festlegen oder ihn explizit mit dem Viewer-Initialisierungs-Code mit `params` Sammlung übergeben. Oder rufen Sie als API-Aufruf wie im Abschnitt Befehlsreferenz dieser Hilfe beschrieben auf, wie in der folgenden Abbildung dargestellt:
+
+```html {.line-numbers}
+mixedMediaViewer.setParam("stagesize", "640,480");
+```
+
+Ein CSS-basierter Ansatz wird empfohlen und wird in diesem Beispiel verwendet.
 
 1. Viewer erstellen und initialisieren.
 
@@ -329,7 +338,11 @@ Die folgende Beispielseite zeigt weitere reale Verwendungen der responsiven Desi
 
 [Live-Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativer Demo-Speicherort](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 ## Flexible Einbettungsgröße mit definierter Breite und Höhe {#section-0a329016f9414d199039776645c693de}
 

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -165,7 +165,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe für die `.s7zoomviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größenanpassung in CSS kann direkt auf der HTML-Seite vorgenommen werden. Sie kann auch in eine benutzerdefinierte Viewer-CSS-Datei eingefügt werden, die später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
 
-   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden Sie unter „Anpassen &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) Zoom-Viewers“ .
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) Zoom-Viewers“ .
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen äußeren Viewer-Größe auf der HTML-Seite:
 
@@ -176,33 +176,41 @@ Der relative Pfad sieht wie folgt aus:
    }
    ```
 
-   Im folgenden Beispiel sehen Sie das Verhalten mit einem festen äußeren Viewer. Beachten Sie, dass sich beim Wechseln zwischen Sets die Größe des äußeren Viewers nicht ändert:
+<!-- You can see the behavior with a fixed outer viewer in the following example. Notice that when you switch between sets, the outer viewer size does not change: -->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de)
+<!--
 
-   Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe des `.s7zoomviewer`- `.s7container` CSS-Selektors oder durch Verwendung `stagesize` Modifikators.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   Im Folgenden finden Sie ein Beispiel dafür, wie Sie die Viewer-Größe für die SDK-Komponente des inneren `Container` definieren, sodass der Hauptansichtsbereich beim Wechseln des Assets seine Größe nicht ändert:
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7zoomviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
+Um die Hauptansichtsdimensionen statisch zu machen, definieren Sie die Viewer-Größe in absoluten Einheiten für die SDK-Komponente des inneren `Container` mithilfe des `.s7zoomviewer`- `.s7container` CSS-Selektors oder durch Verwendung `stagesize` Modifikators.
 
-   Die folgende Demoseite zeigt das Viewer-Verhalten mit einer festen Hauptansichtsgröße. Beachten Sie, dass beim Wechseln zwischen Sets die Hauptansicht statisch bleibt und der Webseiteninhalt vertikal verschoben wird.
+Im Folgenden finden Sie ein Beispiel dafür, wie Sie die Viewer-Größe für die SDK-Komponente des inneren `Container` definieren, sodass der Hauptansichtsbereich beim Wechseln des Assets seine Größe nicht ändert:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de)
+```html {.line-numbers}
+#s7viewer.s7zoomviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   Sie können den Modifikator &quot;`stagesize`&quot; im Datensatz „Viewer-Vorgabe“ in Dynamic Media Classic festlegen. Sie können sie auch explizit mit dem Viewer-Initialisierungs-Code mit der `params`-Sammlung oder als API-Aufruf übergeben, wie im Abschnitt „Befehlsreferenz“ dieser Hilfe beschrieben, wie in der folgenden Abbildung dargestellt:
+<!-- The following demo page shows the viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically. -->
 
-   ```html {.line-numbers}
-    zoomViewer.setParam("stagesize", 
-   "640,480");
-   ```
+<!--
 
-   Ein CSS-basierter Ansatz wird empfohlen und wird in diesem Beispiel verwendet.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+
+-->
+
+Sie können den Modifikator &quot;`stagesize`&quot; im Datensatz „Viewer-Vorgabe“ in Dynamic Media Classic festlegen. Sie können sie auch explizit mit dem Viewer-Initialisierungs-Code mit der `params`-Sammlung oder als API-Aufruf übergeben, wie im Abschnitt „Befehlsreferenz“ dieser Hilfe beschrieben, wie in der folgenden Abbildung dargestellt:
+
+```html {.line-numbers}
+ zoomViewer.setParam("stagesize", 
+"640,480");
+```
+
+Ein CSS-basierter Ansatz wird empfohlen und wird in diesem Beispiel verwendet.
 
 1. Viewer erstellen und initialisieren.
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Um einer Web-Seite die Bibliothek „Responsive Image“ hinzuzufügen und vorha
 
 **So verwenden Sie die Bibliothek responsiver Bilder**
 
-1. Erstellen Sie [&#x200B; Dynamic Media Classic eine Bildvorgabe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=de#image-sizing) falls Sie die Bibliothek für responsive Bilder mit Vorgaben verwenden möchten.
+1. Erstellen Sie [ Dynamic Media Classic eine Bildvorgabe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) falls Sie die Bibliothek für responsive Bilder mit Vorgaben verwenden möchten.
 
    Verwenden Sie beim Definieren von Bildvorgaben, die mit der Bibliothek für responsive Bilder verwendet werden, keine Einstellungen wie `wid=`, `hei=` oder `scl=`, die die Bildgröße beeinflussen. Geben Sie in der Bildvorgabe keine Größenfelder an. Lassen Sie sie stattdessen als leere Werte.
 1. Fügen Sie die JavaScript-Bibliotheksdatei zu Ihrer Webseite hinzu.
@@ -32,13 +32,13 @@ Um einer Web-Seite die Bibliothek „Responsive Image“ hinzuzufügen und vorha
 
    Es wird auch empfohlen, die vorhandene Bild-URL in das `data-src`-Attribut einzufügen. Richten Sie dann das vorhandene `src` so ein, dass ein 1x1-GIF-Bild als Daten-URI codiert ist. Dadurch wird die Anzahl der HTTP-Anfragen reduziert, die von der Web-Seite zum Ladezeitpunkt gesendet werden. Beachten Sie jedoch, dass es bei Bedarf an SEO (Suchmaschinenoptimierung) besser ist, ein `title` Attribut in der Bildinstanz einzurichten.
 
-<!--
-   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
+
+   Im Folgenden finden Sie ein Beispiel für die Definition `data-breakpoints` Attributs für das Bild und die Verwendung einer 1x1-GIF, die als Daten-URI kodiert ist:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
--->
+
 
 1. Rufen Sie die `s7responsiveImage`-API-Funktion für jede Bildinstanz auf, die von der Bibliothek verwaltet wird.
 
@@ -58,8 +58,8 @@ Die -Bibliothek unterstützt die gleichzeitige Arbeit mit vielen Bildinstanzen a
 
 Es liegt in der Verantwortung der Web-Seite, das Bildelement zu formatieren, um seine Größe flexibel zu gestalten. Die Bibliothek für responsive Bilder unterscheidet nicht zwischen Bildern mit fester Größe und „flüssigen“ Bildern. Wenn es auf ein Bild fester Größe angewendet wird, wird das neue Bild nur einmal geladen.
 
-<!--
-The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
+
+Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite mit einem einzigen fließenden Bild, das von der Bibliothek Responsive Image verwaltet wird. Das Beispiel enthält einen zusätzlichen CSS-Stil, damit das Bild auf die Fenstergröße des Webbrowsers „reagiert“:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -84,9 +84,8 @@ The following code is a complete example of a trivial web page that has a single
   </script> 
  </body> 
 </html>
-
 ```
--->
+
 
 **Verwenden von smartem Zuschneiden**
 

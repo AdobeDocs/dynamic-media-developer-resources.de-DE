@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Siehe [Systemanforderungen und Voraussetzungen](../../c-system-requirements-and-
 
 Dieser Viewer arbeitet mit E-Katalogen und unterstützt optionale Imagemaps und Tools für die Freigabe in sozialen Netzwerken. Es verfügt über Zoom-Tools, Katalog-Navigations-Tools, Vollbildunterstützung, Miniaturansichten und eine optionale Schaltfläche zum Schließen. Der Viewer unterstützt auch Tools zur gemeinsamen Nutzung in sozialen Netzwerken sowie die Optionen Drucken, Herunterladen und Favoriten. Es wurde für Desktop-PCs und mobile Geräte entwickelt.
 
-<!--
-## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+
+## Demo-URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
--->
+
 
 ## Verwenden des E-Katalog-Viewers {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -174,7 +174,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite festlegen. Oder fügen Sie die Größenanpassung in eine benutzerdefinierte Viewer-CSS-Datei ein, die später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen wird, oder übergeben Sie sie explizit mit einem Stilbefehl.
 
-   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden Sie unter &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)Anpassen des E-Katalog-Viewers .
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)Anpassen des E-Katalog-Viewers .
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf einer HTML-Seite:
 

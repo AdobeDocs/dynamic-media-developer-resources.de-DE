@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 2d4a26d04e11f544b4cbabaca592d77cfa2241d3
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,10 @@ Der Video360-Viewer verwendet HTML5-Streaming-Videowiedergabe im HLS-Format in d
 
 Viewer-Typ ist 517.
 
-<!--
-## Demo URLs {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## Demo-URLs {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS](https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS)
 
--->
 
 ## Systemanforderungen {#section-b7270cc4290043399681dc504f043609}
 
@@ -101,15 +99,12 @@ Es wird empfohlen, eine vorkonfigurierte HTML-Seite für den Popup-Betriebsmodus
 
 Sie können die visuelle Anpassung erreichen, indem Sie benutzerdefiniertes CSS anwenden.
 
-<!--
-The following is an example of HTML code that opens the viewer in a new window:
--->
+Im Folgenden finden Sie ein Beispiel für HTML-Code, der den Viewer in einem neuen Fenster öffnet:
 
-<!--
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
--->
+
 
 **Über den Einbettungsmodus für feste Größe und den Einbettungsmodus für responsives Design**
 
@@ -175,7 +170,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festlegen, die später einem Viewer-Vorgabeneintrag in Adobe Experience Manager Assets zugewiesen wird - On-Demand oder explizit mit `style` Befehl übergeben wird.
 
-   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) unter „Anpassen des Video360-Viewers“.
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden ](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) unter „Anpassen des Video360-Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
@@ -204,17 +199,15 @@ Der relative Pfad sieht wie folgt aus:
 
    Gleichzeitig sollte das Container-Element noch nicht unbedingt Teil des Web-Seiten-Layouts sein. Beispielsweise kann sie mithilfe `display:none` ihr zugewiesenen Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Moment, an dem die Web-Seite das Container-Element wieder zum Layout zurückbringt. In diesem Fall wird das Laden des Viewers automatisch fortgesetzt.
 
-<!--
-   The following is an example of creating a viewer instance, passing the minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes the following:
 
-    * The viewer instance is `video360Viewer`. 
-    * The name of placeholder `DIV` is `s7viewer`. 
-    * The Image Serving URL is `https://s7d9.scene7.com/is/image`. 
-    * The video server URL is `https://s7d9.scene7.com/is/content`. 
-    * The asset is `Viewers/space_station_360-AVS`.
--->
+   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. Das Beispiel setzt Folgendes voraus:
 
-<!--
+   * Die Viewer-Instanz ist `video360Viewer`.
+   * Der Name des Platzhalters `DIV` ist `s7viewer`.
+   * Die Bildbereitstellungs-URL ist `https://s7d9.scene7.com/is/image`.
+   * Die Videoserver-URL ist `https://s7d9.scene7.com/is/content`.
+   * Das Asset ist `Viewers/space_station_360-AVS`.
+
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -229,13 +222,10 @@ Der relative Pfad sieht wie folgt aus:
    </script>
    ```
 
--->
 
-<!--
-   The following code is a complete example of a trivial web page that embeds the Video360 Viewer with a fixed size:
--->
+   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, in die der Video360-Viewer mit einer festen Größe eingebettet ist:
 
-<!--
+
    ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
@@ -262,16 +252,13 @@ Der relative Pfad sieht wie folgt aus:
    </script> 
    </body> 
    </html>
- ```
- -->
+   ```
 
-<!--  
-**Responsive design embedding with unrestricted height**
 
-With responsive design embedding, the web page normally has some kind of flexible layout in place that dictates the runtime size of the viewer's container `DIV`. For the following example, assume that the web page allows the viewer's container `DIV` to take 40% of the web browser window size, leaving its height unrestricted. The web page HTML code would look like the following:
--->
+**Responsives Design mit unbegrenzter Höhe**
 
-<!--
+Beim Einbetten eines responsiven Designs verfügt die Web-Seite normalerweise über ein flexibles Layout, das die Laufzeitgröße der Container-`DIV` des Viewers bestimmt. Nehmen wir für das folgende Beispiel an, dass die Web-Seite dem Container-`DIV` des Viewers ermöglicht, 40 % der Fenstergröße des Webbrowsers zu verwenden, wobei seine Höhe nicht beschränkt wird. Der Web-Seiten-HTML-Code würde wie folgt aussehen:
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -287,21 +274,18 @@ With responsive design embedding, the web page normally has some kind of flexibl
 </body> 
 </html>
 ```
--->
 
-<!--
-Adding the viewer to such a page is similar to the steps for fixed size embedding. The only difference is that you do not need to explicitly define the viewer size.
 
-1. Adding the viewer JavaScript file to your web page. 
-1. Defining the container DIV. 
-1. Creating and initializing the viewer.
+Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten für Einbetten in fester Größe. Der einzige Unterschied besteht darin, dass Sie die Viewer-Größe nicht explizit definieren müssen.
 
-All the steps above are the same as with the fixed size embedding. Add the container DIV to the existing `"holder"` DIV. 
+1. Hinzufügen der Viewer-JavaScript-Datei zu Ihrer Web-Seite.
+1. Definieren des Container-DIV.
+1. Viewer erstellen und initialisieren.
 
-The following code is a complete example. Notice how viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset.
--->
+Alle oben genannten Schritte sind dieselben wie bei der Einbettung in fester Größe. Fügen Sie das Container-DIV zum vorhandenen `"holder"`-DIV hinzu.
 
-<!--
+Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn der Browser skaliert wird, und wie das Seitenverhältnis des Viewers mit dem Asset übereinstimmt.
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -330,15 +314,13 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </body> 
 </html>
 ```
--->
 
-<!--
-**Responsive Embedding with Width and Height Defined**
 
-If there is responsive embedding with width and height defined, the web page styling is different. It provides both sizes to the `"holder"` DIV and center it in the browser window. Also, the web page sets the size of the `HTML` and `BODY` element to 100 percent.
--->
+**Responsive Einbettung mit definierter Breite und Höhe**
 
-<!--
+Wenn eine responsive Einbettung mit definierter Breite und Höhe vorliegt, ist der Stil der Web-Seite anders. Es bietet beide Größen für den `"holder"` DIV und zentriert ihn im Browser-Fenster. Außerdem legt die Web-Seite die Größe des `HTML`- und `BODY` auf 100 Prozent fest.
+
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -362,12 +344,11 @@ height: 60%;
 </body> 
 </html>
 ```
--->
 
-<!--
-The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. 
 
-The resulting example is the following:
+Die übrigen Einbettungsschritte sind identisch mit den Schritten für responsives Einbetten mit unbegrenzter Höhe.
+
+Das daraus resultierende Beispiel lautet:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -406,19 +387,13 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
--->
+**Einbetten mithilfe der Setter-basierten API**
+
+Anstatt die JSON-basierte Initialisierung zu verwenden, ist es möglich, eine Setter-basierte API und einen Nicht-Args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors sind keine Parameter erforderlich und Konfigurationsparameter werden mithilfe von `setContainerId()`-, `setParam()`- und `setAsset()`-API-Methoden mit separaten JavaScript-Aufrufen angegeben.
+
+Das folgende Beispiel veranschaulicht die Verwendung der Einbettung fester Größe mit der Setter-basierten API:
 
 
-<!--
-**Embedding Using Setter-based API**
-
-Instead of using JSON-based initialization, it is possible to use setter-based API and no-args constructor. Using this API constructor does not take any parameters and configuration parameters are specified using `setContainerId()`, `setParam()`, and `setAsset()` API methods with separate JavaScript calls.
-
-The following example illustrates using fixed size embedding with the setter-based API:
-
--->
-
-<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -446,5 +421,4 @@ video360Viewer.init();
 </html>
 ```
 
--->
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Viewer-Typ ist 511.
 [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=de)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 -->
 
 ## Systemanforderungen {#section-b7270cc4290043399681dc504f043609}
@@ -140,7 +140,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite festlegen. Sie können die Größenanpassung auch in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die dann später in AEM Assets On-Demand einem Viewer-Vorgabeneintrag zugewiesen oder explizit mit dem Befehl `style` übergeben wird.
 
-   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden Sie unter &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)Anpassen des Karussell-Viewers“.
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)Anpassen des Karussell-Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
@@ -167,8 +167,13 @@ Der relative Pfad sieht wie folgt aus:
 
    Gleichzeitig sollte das Container-Element noch nicht unbedingt Teil des Web-Seiten-Layouts sein. Beispielsweise kann sie mithilfe `display:none` ihr zugewiesenen Stils ausgeblendet werden. In diesem Fall verzögert der Viewer den Initialisierungsprozess bis zu dem Moment, an dem die Web-Seite das Container-Element wieder zum Layout zurückbringt. Wenn diese Funktion auftritt, wird das Laden des Viewers automatisch fortgesetzt.
 
+<!--
 
-   Im Folgenden finden Sie ein Beispiel für das Erstellen einer Viewer-Instanz, das Übergeben der erforderlichen Mindestkonfigurationsoptionen an den Konstruktor und das Aufrufen der `init()`-Methode. Im Beispiel wird davon ausgegangen, `carouselViewer` die Viewer-Instanz ist. `s7viewer` ist der Name des Platzhalters `DIV`. `https://adobedemo62-h.assetsadobe.com/is/image` ist die Bildbereitstellungs-URL und `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` ist das Asset:
+   The following is an example of creating a viewer instance, passing minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes `carouselViewer` is the viewer instance; `s7viewer` is the name of placeholder `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` is the Image Serving URL, and `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` is the asset:
+
+-->
+
+<!--
 
    ```javascript {.line-numbers}
    <script type="text/javascript"> 
@@ -182,8 +187,13 @@ Der relative Pfad sieht wie folgt aus:
    </script>
    ```
 
+-->
 
-   Der folgende Code ist ein vollständiges Beispiel für eine triviale Web-Seite, bei der der Karussell-Viewer mit einer festen Größe eingebettet wird:
+<!--
+   The following code is a complete example of a trivial web page that embeds the Carousel Viewer with a fixed size:
+-->
+
+<!--
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -211,6 +221,8 @@ Der relative Pfad sieht wie folgt aus:
    </body> 
    </html>
    ```
+-->
+
 
 **Responsives Design mit unbegrenzter Höhe**
 
@@ -240,7 +252,11 @@ Das Hinzufügen des Viewers zu einer solchen Seite ähnelt den Schritten für Ei
 1. Container-`DIV` definieren.
 1. Viewer erstellen und initialisieren.
 
-Alle oben genannten Schritte sind dieselben wie bei der Einbettung in fester Größe. Fügen Sie die Container-`DIV` zum vorhandenen `"holder"`-`DIV` hinzu. Der folgende Code ist ein vollständiges Beispiel. Beachten Sie, wie sich die Viewer-Größe ändert, wenn der Browser skaliert wird, und wie das Seitenverhältnis des Viewers mit dem Asset übereinstimmt.
+Alle oben genannten Schritte sind dieselben wie bei der Einbettung in fester Größe. Fügen Sie die Container-`DIV` zum vorhandenen `"holder"`-`DIV` hinzu.
+
+<!-- The following code is a complete example. Notice how the viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset. -->
+
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -270,14 +286,21 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-Die folgende Beispielseite zeigt weitere reale Verwendungen der responsiven Designeinbettung mit unbegrenzter Höhe:
+-->
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=de)
+<!-- The following examples page illustrates more real-life uses of responsive design embedding with unrestricted height: -->
+
+<!--
+
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
+
+-->
 
 **Flexible Einbettungsgröße mit definierter Breite und Höhe**
 
-Bei Einbettungen mit flexibler Größe und definierter Breite und Höhe ist der Stil der Web-Seite unterschiedlich. Es bietet beide Größen für den `"holder"` DIV und zentriert ihn im Browser-Fenster. Außerdem legt die Web-Seite die Größe des `HTML`- und `BODY` auf 100 Prozent fest.
+Bei Einbettungen mit flexibler Größe und definierter Breite und Höhe ist der Stil der Web-Seite unterschiedlich. Es stellt dem `"holder"`-DIV beide Größen zur Verfügung und zentriert ihn im Browser-Fenster. Außerdem legt die Web-Seite die Größe des `HTML`- und `BODY` auf 100 Prozent fest.
 
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -303,7 +326,7 @@ height: 60%;
 </html>
 ```
 
-Die übrigen Einbettungsschritte sind identisch mit den Schritten für responsives Einbetten mit unbegrenzter Höhe. Das daraus resultierende Beispiel lautet:
+The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. The resulting example is the following:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -341,13 +364,16 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+-->
+
 
 **Einbetten mithilfe der Setter-basierten API**
 
 Anstatt die JSON-basierte Initialisierung zu verwenden, ist es möglich, eine Setter-basierte API und einen Nicht-Args-Konstruktor zu verwenden. Bei Verwendung dieses API-Konstruktors sind keine Parameter erforderlich und Konfigurationsparameter werden mithilfe von `setContainerId()`-, `setParam()`- und `setAsset()`-API-Methoden mit separaten JavaScript-Aufrufen angegeben.
 
+<!-- The following example illustrates using fixed size embedding with the setter-based API: -->
 
-Das folgende Beispiel veranschaulicht die Verwendung der Einbettung fester Größe mit der Setter-basierten API:
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -373,4 +399,6 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+
+-->
 
