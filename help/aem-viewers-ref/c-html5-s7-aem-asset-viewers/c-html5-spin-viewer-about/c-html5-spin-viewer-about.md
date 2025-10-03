@@ -296,7 +296,7 @@ Die folgende Beispielseite zeigt weitere Anwendungsfälle responsiven Designs mi
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
 
 -->
 

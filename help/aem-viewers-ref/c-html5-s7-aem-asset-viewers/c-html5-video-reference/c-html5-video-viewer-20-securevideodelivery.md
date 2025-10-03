@@ -34,7 +34,7 @@ Je nach der Methode zum Veröffentlichen von Dynamic Media-Videos, die Sie in Ad
 
 -->
 
-Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=de#dynamic).
 
 * Wenn Sie ein Dynamic Media-Video mit Einbettungs-Code veröffentlichen, fügen Sie `VideoPlayer.ssl` zur Liste der anderen Viewer-Konfigurationsparameter im Einbettungs-Code-Snippet hinzu.
 
@@ -69,4 +69,4 @@ Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleag
 
 -->
 
-Siehe auch [Einbetten des Videos auf einer Web-Seite](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Siehe auch [Einbetten des Videos auf einer Web-Seite](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=de#dynamic).
