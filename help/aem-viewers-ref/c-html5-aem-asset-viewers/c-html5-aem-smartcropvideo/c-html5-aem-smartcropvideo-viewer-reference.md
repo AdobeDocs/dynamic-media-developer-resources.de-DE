@@ -162,7 +162,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festlegen. Sie wird später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mit einem Stilbefehl übergeben.
 
-   Weitere [ zum Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) Smart Crop Video Viewers“.
+   Weitere [&#x200B; zum Formatieren des Viewers mit CSS finden Sie unter „Anpassen &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) Smart Crop Video Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf einer HTML-Seite:
 

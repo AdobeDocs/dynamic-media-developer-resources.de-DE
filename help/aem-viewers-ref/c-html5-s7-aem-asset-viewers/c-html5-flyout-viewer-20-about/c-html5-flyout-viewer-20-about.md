@@ -136,7 +136,7 @@ Ein relativer Pfad sieht wie folgt aus:
 
    Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe für `.s7flyoutviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größenanpassung in CSS kann direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei vorgenommen, später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mit dem Stilbefehl übergeben werden.
 
-   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) Flyout-Viewers“ .
+   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden Sie unter „Anpassen &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) Flyout-Viewers“ .
 
    Im Folgenden finden Sie ein Beispiel für die Definition der statischen äußeren Viewer-Größe auf einer HTML-Seite:
 

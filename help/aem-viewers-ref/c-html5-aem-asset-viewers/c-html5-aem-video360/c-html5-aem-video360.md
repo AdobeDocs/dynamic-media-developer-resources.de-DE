@@ -170,7 +170,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festlegen, die später einem Viewer-Vorgabeneintrag in Adobe Experience Manager Assets zugewiesen wird - On-Demand oder explizit mit `style` Befehl übergeben wird.
 
-   Weitere Informationen [ Formatieren des Viewers mit CSS finden ](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) unter „Anpassen des Video360-Viewers“.
+   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) unter „Anpassen des Video360-Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 

@@ -140,7 +140,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite festlegen. Sie können die Größenanpassung auch in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die dann später in AEM Assets On-Demand einem Viewer-Vorgabeneintrag zugewiesen oder explizit mit dem Befehl `style` übergeben wird.
 
-   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)Anpassen des Karussell-Viewers“.
+   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden Sie unter &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)Anpassen des Karussell-Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
