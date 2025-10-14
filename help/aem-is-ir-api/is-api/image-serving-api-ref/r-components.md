@@ -63,4 +63,4 @@ Die Dynamic Media-Bildbereitstellung besteht aus den folgenden Komponenten:
  </tbody> 
 </table>
 
-Weitere Konfigurationseinstellungen sind über den Standardkatalog ([!DNL default.ini]) oder bestimmte Bildkataloge verfügbar (weitere Informationen finden [ unter ](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)).
+Weitere Konfigurationseinstellungen sind über den Standardkatalog ([!DNL default.ini]) oder bestimmte Bildkataloge verfügbar (weitere Informationen finden [&#x200B; unter &#x200B;](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)).

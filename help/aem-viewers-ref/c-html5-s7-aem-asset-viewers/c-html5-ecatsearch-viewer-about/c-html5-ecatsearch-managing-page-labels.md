@@ -22,7 +22,7 @@ Es gibt drei Arten von Beschriftungen, die definiert werden können:
 * Vom Autor definierte Kennzeichnungen im Backend innerhalb von Dynamic Media Classic.
 * Vom Viewer automatisch generierte Kennzeichnungen.
 
-SYMBOL-basierte Kennzeichnungen werden mithilfe von `MediaSet.LABEL_XX[_YY]` und `MediaSet.LABEL_DELIM`-SYMBOLEN definiert, wie in [Lokalisierung von Benutzeroberflächenelementen“ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). Sie können solche Kennzeichnungen entweder für den gesamten eCatalog-Spread definieren. In diesem Fall sollten Sie die kurze SYMBOL-Syntax ( `MediaSet.LABEL_XX`) verwenden. Oder geben Sie sie für jede Seite einzeln mit der vollständigen SYMBOL-Syntax ( `MediaSet.LABEL_XX_YY`) an.
+SYMBOL-basierte Kennzeichnungen werden mithilfe von `MediaSet.LABEL_XX[_YY]` und `MediaSet.LABEL_DELIM`-SYMBOLEN definiert, wie in [Lokalisierung von Benutzeroberflächenelementen“ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). Sie können solche Kennzeichnungen entweder für den gesamten eCatalog-Spread definieren. In diesem Fall sollten Sie die kurze SYMBOL-Syntax ( `MediaSet.LABEL_XX`) verwenden. Oder geben Sie sie für jede Seite einzeln mit der vollständigen SYMBOL-Syntax ( `MediaSet.LABEL_XX_YY`) an.
 
 Wenn Sie Beschriftungen für beide Seiten im E-Katalog-Spread definieren, verkettet der Viewer diese Beschriftungen mithilfe `MediaSet.LABEL_DELIM` SYMBOLS zu einer Zeichenfolge. SYMBOLBASIERTE Beschriftungen haben Vorrang vor Beschriftungen, die im Backend definiert oder automatisch vom Viewer generiert werden.
 

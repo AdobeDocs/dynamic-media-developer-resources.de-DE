@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Stammverzeichnis der Source-Daten. Absoluter oder relativer Pfad für den Stammordner für die Quelldaten dieses Bildkatalogs.
 
-Der `RootPath` ist ein Text-Zeichenfolgenwert. Weitere [ zu Serverstammpfaden finden ](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) unter „Verwalten von Source-&quot;.
+Der `RootPath` ist ein Text-Zeichenfolgenwert. Weitere [&#x200B; zu Serverstammpfaden finden &#x200B;](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) unter „Verwalten von Source-&quot;.
 
 ## Eigenschaften {#section-b41d7e0ea63143eb8034569706cad0c0}
 

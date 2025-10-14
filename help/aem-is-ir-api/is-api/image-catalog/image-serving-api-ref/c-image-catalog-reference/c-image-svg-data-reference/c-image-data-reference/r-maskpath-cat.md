@@ -18,7 +18,7 @@ Dateipfad maskieren. Relativer oder absoluter Pfad und Name für eine Maskenbild
 
 Ermöglicht das Anhängen separater Masken an Bilder.
 
-Der Server verwendet die unter „Verwalten von Source-Daten[ beschriebenen Regeln ](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) Pfadauflösung, um die Datendatei zu finden.
+Der Server verwendet die unter „Verwalten von Source-Daten[&#x200B; beschriebenen Regeln &#x200B;](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) Pfadauflösung, um die Datendatei zu finden.
 
 ## Eigenschaften {#section-cdc3b7e2811e41008479cd97887c01b7}
 

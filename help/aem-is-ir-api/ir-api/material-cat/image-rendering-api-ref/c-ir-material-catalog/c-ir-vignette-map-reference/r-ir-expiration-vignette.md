@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Client-Cache-Lebensdauer. Anzahl der Stunden bis zum Ablauf. Wird für die Verwaltung der Zwischenspeicherung von Client- und Proxy-Servern verwendet.
 
-Weitere Informationen [ Sie unter ](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md):Expiration.
+Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md):Expiration.
 
 ## Eigenschaften {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 

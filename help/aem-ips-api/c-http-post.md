@@ -106,7 +106,7 @@ Bei einer erfolgreichen POST-Anfrage ist der Antworttext ein XML-`uploadPostRetu
 
 Die zurückgegebene `jobHandle` wird für alle nachfolgenden POST-Anfragen für denselben Auftrag im Parameter `uploadPostParams`/`jobHandle` übergeben. Sie können damit auch den Auftragsstatus mit dem `getActiveJobs` abfragen oder die Auftragsprotokolle mit dem `getJobLogDetails` abfragen.
 
-Wenn bei der Verarbeitung der POST-Anfrage ein Fehler auftritt, besteht der Antworttext aus einem der API-Fehlertypen, wie unter [ beschrieben](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+Wenn bei der Verarbeitung der POST-Anfrage ein Fehler auftritt, besteht der Antworttext aus einem der API-Fehlertypen, wie unter [&#x200B; beschrieben](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
 ## Beispiel einer POST-Anfrage {#section-810fe32abdb9426ba0fea488dffadd1e}
 

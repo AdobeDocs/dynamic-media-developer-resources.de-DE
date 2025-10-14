@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Stammverzeichnis der statischen Inhaltsdaten. Absoluter Pfad oder relatives Pfadsegment für den Stammordner für die statischen Inhaltsdaten dieses Bildkatalogs.
 
-Weitere [ zu Serverstammpfaden finden ](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) unter „Verwalten von Source-&quot;.
+Weitere [&#x200B; zu Serverstammpfaden finden &#x200B;](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) unter „Verwalten von Source-&quot;.
 
 ## Eigenschaften {#section-f8e3986096294b36948d43aafdc3e795}
 

@@ -37,7 +37,7 @@ Source-Objektbezeichner. Bild-, SVG- und ICC-Profilobjekte können als Bildkatal
  </tr> 
 </table>
 
-*`rootId`* identifiziert einen Bildkatalog. (Weitere Informationen finden [ unter ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)Bildkatalog“.) Wenn *`rootId`* im URL-Pfad angegeben ist, wird dieser Katalog zum *Hauptkatalog* für diese Anfrage. Andernfalls wird der Standardkatalog als Hauptkatalog verwendet. In derselben Anfrage können mehrere verschiedene Bildkataloge verwendet werden.
+*`rootId`* identifiziert einen Bildkatalog. (Weitere Informationen finden [&#x200B; unter &#x200B;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)Bildkatalog“.) Wenn *`rootId`* im URL-Pfad angegeben ist, wird dieser Katalog zum *Hauptkatalog* für diese Anfrage. Andernfalls wird der Standardkatalog als Hauptkatalog verwendet. In derselben Anfrage können mehrere verschiedene Bildkataloge verwendet werden.
 
 Der Server geht zunächst davon aus, dass *`rootId`* in `src=`-, `mask=`- und `icc=`-Befehlen weggelassen wird, und versucht, einen Katalogeintrag im Hauptkatalog zu finden. Effektiv versucht der Server, die gesamte *`object`* als *`objId.`* zu verwenden
 

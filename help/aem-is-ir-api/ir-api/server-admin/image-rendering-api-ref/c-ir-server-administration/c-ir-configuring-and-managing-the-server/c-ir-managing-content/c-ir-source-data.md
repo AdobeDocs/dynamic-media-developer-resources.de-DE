@@ -23,7 +23,7 @@ Wenn es sich um einen Materialkatalog handelt, wird die im Materialkatalog angeg
 * Wenn der Pfad absolut ist, wird er unverändert verwendet.
 * Wenn der Pfad relativ ist, wird ihm das Präfix `catalog::RootPath` (aus einem benannten Materialkatalog) vorangestellt.
 * Wenn der Pfad absolut ist, wird er verwendet. Andernfalls wird ihm das Präfix `default::RootPath` (aus dem Standardkatalog) vorangestellt.
-* Wenn der Pfad absolut ist, wird er verwendet. Andernfalls wird er vom Server mit dem in „ir.resourceRootPaths[ angegebenen Pfad ](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2).
+* Wenn der Pfad absolut ist, wird er verwendet. Andernfalls wird er vom Server mit dem in „ir.resourceRootPaths[&#x200B; angegebenen Pfad &#x200B;](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2).
 * Wenn der Pfad jetzt absolut ist, wird er verwendet. Andernfalls wird er als relativ zu [!DNL *[!DNL install_folder]*] angenommen.
 
 Wenn kein Bildkatalog involviert ist, wird der Pfad mit `default::RootPath` kombiniert und dann wie oben beschrieben verarbeitet.

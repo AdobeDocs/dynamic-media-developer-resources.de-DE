@@ -17,7 +17,7 @@ Dieses Projekt hat den [Adobe Open Source-Verhaltenskodex](code-of-conduct.md) a
 
 ## Richtlinien für Beiträge
 
-Wir freuen uns zwar über jeden Beitrag zur Verbesserung der Dokumentation, bitten jedoch darum, dass die Beiträge nach Möglichkeit bestimmte Richtlinien und Standards einhalten. Weitere Informationen finden [ in den Richtlinien für Beiträge zur Dokumentation ](guidelines.md) Adobe Dynamic Media Classic .
+Wir freuen uns zwar über jeden Beitrag zur Verbesserung der Dokumentation, bitten jedoch darum, dass die Beiträge nach Möglichkeit bestimmte Richtlinien und Standards einhalten. Weitere Informationen finden [&#x200B; in den Richtlinien für Beiträge zur Dokumentation &#x200B;](guidelines.md) Adobe Dynamic Media Classic .
 
 ## Anleitung zu Contribute
 

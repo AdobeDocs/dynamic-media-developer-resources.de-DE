@@ -37,7 +37,7 @@ Wenn das Quellbild einen Alphakanal hat, wird es in allen Fällen verwendet. And
 
 Wenn eine Maske an eine einfarbige Ebene angehängt ist, kann sie mit denselben Regeln zugeschnitten und skaliert werden, die für Bilder in Bildebenen verwendet werden. `size=`, `scale=` oder `res=` können zum Skalieren der Maske verwendet werden.
 
-Ebenenmasken können auch in Form eines *`nestedRequest`* angegeben werden. Verschachtelte oder eingebettete Anforderungen sind von geschweiften Klammern umgeben. Stellen Sie einer Anforderung zur Bereitstellung eines eingebetteten Bildes das Präfix `is` und einer Anforderung zum Rendern eines eingebetteten Bildes das Präfix `ir`. Eine Anfrage an einen Fremdserver wird angenommen, wenn kein Präfix angegeben ist. Weitere Informationen finden [ unter „Verschachtelung und Einbettung ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
+Ebenenmasken können auch in Form eines *`nestedRequest`* angegeben werden. Verschachtelte oder eingebettete Anforderungen sind von geschweiften Klammern umgeben. Stellen Sie einer Anforderung zur Bereitstellung eines eingebetteten Bildes das Präfix `is` und einer Anforderung zum Rendern eines eingebetteten Bildes das Präfix `ir`. Eine Anfrage an einen Fremdserver wird angenommen, wenn kein Präfix angegeben ist. Weitere Informationen finden [&#x200B; unter „Verschachtelung und Einbettung &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
 
 ## Eigenschaften {#section-a093043dc249423b8ae322cefb0d545d}
 

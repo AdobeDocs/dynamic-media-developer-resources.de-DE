@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Im Folgenden finden Sie eine Liste der Keywords und Befehle, die von der Scene7 Image Serving-Text-Engine unterstützt werden.
 
-Einzelheiten zu den einzelnen Keywords [ Befehlen finden Sie in der veröffentlichten Spezifikation ](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)RTF 1.6).
+Einzelheiten zu den einzelnen Keywords [&#x200B; Befehlen finden Sie in der veröffentlichten Spezifikation &#x200B;](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)RTF 1.6).
 
 Nicht unten aufgeführte RTF-Befehle werden vom Parser ignoriert.
 

@@ -30,7 +30,7 @@ Regeln zur Anfragevorverarbeitung eignen sich für eine Vielzahl von Anwendungen
 * Quellbilder können auf HTTP- oder FTP-Servern gespeichert werden, während sie weiterhin im Anfragepfad und nicht mit `src=` angegeben werden.
 * Steuern der Bildqualitätseinstellungen (z. B. JPEG-Qualität oder Scharfzeichnung) je nach Anfragepfad oder Bildname.
 
-Ausführliche Informationen zum Erstellen, Verwenden und Verwalten von Regelsätzen finden Sie [ „Regelsatzreferenz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
+Ausführliche Informationen zum Erstellen, Verwenden und Verwalten von Regelsätzen finden Sie [&#x200B; „Regelsatzreferenz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 
 ## Verwandte Themen {#see-also}
 

@@ -20,7 +20,7 @@ Standardmäßige Digimarc-Bildinformationen. Stellt einen Standardwert für cata
 
 Vier kommagetrennte Ganzzahlen.
 
-Weitere [ finden Sie unter ](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md):DigimarcInfo.
+Weitere [&#x200B; finden Sie unter &#x200B;](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md):DigimarcInfo.
 
 ## Standard {#section-c77d2620f90148d5ad9041131180d611}
 

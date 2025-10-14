@@ -55,8 +55,8 @@ Die `<reqHandler>` Syntax ist der Name des JS-Handlers, der in der JSONP-Antwort
 
 Das Paket Dynamic Media Image Serving Viewers enthält ein Dienstprogramm zum Anfordern und Analysieren von JSONP-formatierten Daten von Image Serving.
 
-Weitere Informationen zum JSONP-[ finden Sie unter ](https://en.wikipedia.org/wiki/JSONP)https://en.wikipedia.org/wiki/JSONP.
+Weitere Informationen zum JSONP-[&#x200B; finden Sie unter &#x200B;](https://en.wikipedia.org/wiki/JSONP)https://en.wikipedia.org/wiki/JSONP.
 
-Weitere Informationen zum JSON-[ finden Sie unter ](https://www.json.org/json-en.html)www.json.org.
+Weitere Informationen zum JSON-[&#x200B; finden Sie unter &#x200B;](https://www.json.org/json-en.html)www.json.org.
 
 Siehe auch [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).
