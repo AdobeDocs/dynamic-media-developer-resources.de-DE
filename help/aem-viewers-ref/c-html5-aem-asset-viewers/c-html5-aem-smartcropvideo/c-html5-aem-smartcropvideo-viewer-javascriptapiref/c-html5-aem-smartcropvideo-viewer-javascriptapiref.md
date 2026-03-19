@@ -1,11 +1,12 @@
 ---
 title: JavaScript-API-Referenz für Smart Crop Video Viewer
 description: Die Hauptklasse des Smart Crop Video Viewers ist SmartCropVideoViewer. Sie wird im s7viewers-Namespace deklariert. Diese JavaScript-API behandelt Konstruktoren, Methoden und Callbacks dieser bestimmten Klasse.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 92c25a5a-2103-4906-8ff7-ffc8e0541464
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%

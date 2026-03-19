@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 1%
@@ -22,7 +22,8 @@ Die mit `attribute::DefaultFont` angegebene Schriftart wird verwendet, wenn in d
 
 Image Serving unterstützt TrueType-, OpenType®-, Adobe Type 1-Schriftarten (nur Windows).
 
-<!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
+<!--
+ THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
 Photofont&reg; fonts support `textPs=`, with the following restrictions:
 
@@ -34,7 +35,8 @@ Photofont&reg; fonts support `textPs=`, with the following restrictions:
 * Photofont fonts with multiple glyphs per image are not supported 
 * Naïve color conversion is applied unless the Photofont glyph images embed color profiles; in this case, relative colorimetric render intent and blackpoint compensation are always applied
 
-See [https://www.photofont.com](https://www.photofont.com) for additional information. -->
+See [https://www.photofont.com](https://www.photofont.com) for additional information.
+-->
 
 ## Verwandte Themen {#section-6cb8a802aa044836bbe449d559093f3a}
 

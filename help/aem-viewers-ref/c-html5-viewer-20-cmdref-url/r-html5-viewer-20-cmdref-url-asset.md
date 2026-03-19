@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ oder
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt ein explizites mehrdimensionales Rotationsset mit der folgenden Syntax an: </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>) [,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> Dabei ist <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> eine kommagetrennte Liste von Rahmen für eine bestimmte horizontale Achse. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> sollten dieselbe Anzahl von Frames aufweisen. </p> <p> <p>Hinweis: Diese Funktion wird in Adobe Dynamic Media Classic unterstützt, in Adobe Experience Manager Assets jedoch nicht. </p> </p> </td> 
+   <td colname="col2"> <p>Gibt ein explizites mehrdimensionales Rotationsset mit der folgenden Syntax an: </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> Dabei ist <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> eine kommagetrennte Liste von Rahmen für eine bestimmte horizontale Achse. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> sollten dieselbe Anzahl von Frames aufweisen. </p> <p> <p>Hinweis: Diese Funktion wird in Adobe Dynamic Media Classic unterstützt, in Adobe Experience Manager Assets jedoch nicht. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Modifikatoren </span> </span> </p> </td> 

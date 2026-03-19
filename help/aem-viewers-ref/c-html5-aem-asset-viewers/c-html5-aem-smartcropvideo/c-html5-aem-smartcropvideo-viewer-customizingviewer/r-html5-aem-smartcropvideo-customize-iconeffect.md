@@ -1,11 +1,12 @@
 ---
 title: Symboleffekt
 description: Das Spielsymbol wird im Hauptansichtsbereich überlagert. Er wird angezeigt, wenn das Video angehalten oder das Ende des Videos erreicht wird, und hängt auch vom IconEffect-Parameter ab.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 2d8d60e8-9ab6-44fa-af50-b96910a87dee
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

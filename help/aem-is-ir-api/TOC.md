@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media Image Serving and Rendering-API
 breadcrumb-title: Dynamic Media Image Serving and Rendering-API
 feature-set: Experience Manager Assets
 user-guide-description: Hier finden Sie Dokumentationen zu IS (Image Serving)- und IR (Image Rendering)-APIs und zugehörigen Technologien.
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Dynamic Media Image Serving and Rendering-API {#image-serving-api}
 
-+ [Startseite der Dynamic Media Image Serving and Image Rendering-API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=de) -->
++ [Dynamic Media-API zur Bereitstellung und Wiedergabe von Bildern - Startseite](homeisir.md)
 + [Über diese Version](r-about-this-release.md)
 + [Systemanforderungen und Voraussetzungen](r-requirements-and-prerequisites.md)
 + [Anforderungen und Empfehlungen an den Festplattenspeicher](r-disk-space-reqs.md)
@@ -32,8 +32,8 @@ ht-degree: 7%
       + [Installation unter einem anderen Benutzerkonto als Administrator](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [Aktualisierung von IS 4.7.4 oder höher](c-installation/t-installing-on-windows/t-update-win.md)
       + [Überprüfen der Installation](c-installation/t-installing-on-windows/t-verify-win.md)
-   + Installieren unter Linux {#linux-install}
-      + [Installieren unter Linux](c-installation/c-installing-linux/c-installing-linux.md)
+   + Installing on Linux {#linux-install}
+      + [Installing on Linux](c-installation/c-installing-linux/c-installing-linux.md)
       + [Erstmalige Installation](c-installation/c-installing-linux/t-first-install-lin.md)
       + [Aktualisierung von IS 4.7.4 oder höher](c-installation/c-installing-linux/t-update-lin.md)
       + [Überprüfen der Installation](c-installation/c-installing-linux/t-verify-install-lin.md)
@@ -153,7 +153,7 @@ ht-degree: 7%
          + [Textebenen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md)
          + [Textpositionierung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md)
          + [Reservierte Zeichen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-reserved-characters.md)
-         + RTF-Unterstützung {#rtf-support}
+         + RTF support {#rtf-support}
             + [Unterstützte RTF-Befehle und -Schlüsselwörter](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
             + [Eigenschaften des Dokuments (Textfeld)](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-document-text-box-properties.md)
             + [Absatzformatierung](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-paragraph-formatting.md)
@@ -516,7 +516,7 @@ ht-degree: 7%
       + [Verwenden der Bibliothek für responsive Bilder](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
       + [Befehlsreferenz - Konfigurationsattribute](is-api/image-serving-api-ref/c-about-responsive-static-image-library/r-responsive-static-image-library-config-attrib.md)
 + Image Rendering-API {#image-rendering-api}
-   + [Image Rendering-API](ir-api/image-rendering-api-ref/c-ir-home.md)
+   + [Image Rendering API](ir-api/image-rendering-api-ref/c-ir-home.md)
    + Konfiguration {#configuration}
       + [Konfiguration](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-installation.md)
       + [Lizenzierung](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
@@ -578,7 +578,7 @@ ht-degree: 7%
             + [Verwenden mehrerer Beleuchtungskarten](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
             + [Färbemittel](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
             + [Unterschiedliche Trübung des Materials](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-varying-material-opacity.md)
-            + [Reflexionen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
+            + [Reflections](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [Glanzeffekte](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [Erweiterte Render-Einstellungen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
          + Verschachtelung und Einbettung anfordern {#request-nesting-and-embedding}
@@ -758,10 +758,16 @@ ht-degree: 7%
    + Vignettenkonverter (vntc){#vignette-converter-vntc}
       + [Vignettenkonverter (vntc)](utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)
       + [Vignettenkonverter](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
-      + [Vignettenskalierung](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
+      + [Vignette scaling](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
       + [Nutzung](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-usage.md)
       + [Allgemeine Optionen](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-common-options.md)
       + [Optionen für Vignetten](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-vignettes.md)
       + [Optionen für CAB-Stildateien](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [Rückgabe](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [Ausgabe](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

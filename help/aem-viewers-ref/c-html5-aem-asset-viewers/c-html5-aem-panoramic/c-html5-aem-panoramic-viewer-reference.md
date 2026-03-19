@@ -2,10 +2,11 @@
 title: Panorama-Betrachter
 description: HTML5 Panoramic Viewer ist ein Bild-Viewer, der ein Panoramabild anzeigt. Der Zweck dieses Viewers ist es, ein kugelförmiges Panorama, auch als äquirektanguläres Bild bekannt, anzuzeigen. Es unterstützt das automatische Schwenken und Schwenken durch gyroskopische Bewegung. Es wurde für Desktop-PCs und mobile Geräte entwickelt. Der Virtual-Reality-Anzeigemodus ist auf unterstützenden Mobilgeräten verfügbar.
 keywords: Responsiv
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -275,7 +276,7 @@ Die folgende Beispielseite veranschaulicht eine praktischere Verwendung der resp
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

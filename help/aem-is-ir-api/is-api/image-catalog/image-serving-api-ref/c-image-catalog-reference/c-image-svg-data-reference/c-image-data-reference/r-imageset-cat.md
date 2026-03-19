@@ -5,9 +5,9 @@ title: Bildsatz
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Jedes Element in einem grundlegenden Musterset besteht aus einem Verweis auf ein
 | `*`basicSwatchSet`*` | `*`swatchItem`*&#42;[',' *`swatchItem`*]` |
 |---|---|
 | `*`swatchItem`*` | `*`imageId`*[';' *`swatch`*]` |
-| `*`swatch`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`swatch`*` | `*`swatchId`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | IS-Bildreferenz (Katalog/ID) |
 | `*`swatchId`*` | IS-Bildreferenz (Katalog/ID) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`label`*]'}'` |
@@ -61,7 +61,7 @@ Jedes Element in einem hierarchischen Mustersatz kann aus einem grundlegenden Mu
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`swatch`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`swatchItem`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | IS-Verweis (Katalog/ID) auf einen Katalogdatensatz, der einen grundlegenden Mustersatz definiert |
 
 **Einfache Rotationssets**
@@ -76,7 +76,7 @@ Jedes Element in einem zweidimensionalen Rotationsset kann aus einem einfachen B
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | IS-Verweis (Katalog/ID) auf einen Katalogdatensatz, der ein grundlegendes Rotationsset definiert |
 
 **Seitensätze**
@@ -93,12 +93,12 @@ Jedes Element in einem Medienset kann aus einem Bild, einem grundlegenden Muster
 
 | `*`mediaSet`*` | `*`item`* &#42;[ , *`item`* ]` |
 |---|---|
-| `*`item`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`reserviert`* ] ] ]` |
+| `*`item`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`videoItem`*` | `*`video`* ; *`swatchId`*` |
 | `*`recutItem`*` | `*`recut`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \| Einfach \| Advanced_Image \| img \| img_set \| Advanced_ImageSet \| Advanced_Swatchset \| Rotation \| `]` |
 | `*`swatchId`*` | IS-Bild-ID |
 | `*`video`*` | Pfad der Video-/Animationsdatei oder statische Katalog-ID |
 | `*`neu schneiden`*` | XML-Dateipfad für Neuausschnittdefinition oder statische Katalog-ID |

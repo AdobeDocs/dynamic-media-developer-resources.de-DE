@@ -2,11 +2,12 @@
 title: Smart Crop Video Viewer
 description: Der Smart Crop Video Viewer gibt Streaming- und progressive Videos wieder, die im H.264-Format kodiert sind, einschließlich Unterstützung für smartes Zuschneiden. Sie wird von Dynamic Media Classic oder Adobe Experience Manager mit Dynamic Media bereitgestellt.
 keywords: Responsiv
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2364'
 ht-degree: 0%
@@ -162,7 +163,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festlegen. Sie wird später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mit einem Stilbefehl übergeben.
 
-   Weitere [&#x200B; zum Formatieren des Viewers mit CSS finden Sie unter „Anpassen &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) Smart Crop Video Viewers“.
+   Weitere [ zum Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) Smart Crop Video Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf einer HTML-Seite:
 
@@ -297,7 +298,7 @@ Die folgende Beispielseite veranschaulicht eine praktischere Verwendung der resp
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

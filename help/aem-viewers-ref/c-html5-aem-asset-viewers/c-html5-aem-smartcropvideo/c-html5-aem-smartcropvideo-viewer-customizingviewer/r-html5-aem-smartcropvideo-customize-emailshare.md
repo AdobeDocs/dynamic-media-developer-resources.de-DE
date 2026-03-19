@@ -1,11 +1,12 @@
 ---
 title: E-Mail-Freigabe
 description: Das Tool zur E-Mail-Freigabe besteht aus einer Schaltfläche, die zum Bedienfeld Social-Media-Freigabe und zum modalen Dialogfeld hinzugefügt wird und angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '3029'
 ht-degree: 0%
@@ -328,7 +329,7 @@ Die Fußzeile besteht aus den Schaltflächen „Abbrechen“ und „E-Mail sende
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften des &#x200B;** für die Dialogfeldfußzeile
+**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -623,7 +624,7 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit
 
 Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position von Beschriftungen, da Sie sie auf Texte an verschiedenen Stellen der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbezeichnung. &#x200B;**
+**CSS-Eigenschaften der Dialogfeldbezeichnung. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +960,7 @@ Der freigegebene Inhalt wird unten im Dialogfeld angezeigt und enthält eine Min
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**CSS-Eigenschaften des &#x200B;**
+**CSS-Eigenschaften des **
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1095,7 @@ Der Inhaltsursprung wird mit dem folgenden CSS-Klassenselektor gesteuert:
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**CSS-Eigenschaften des Inhaltsursprungs &#x200B;** Dialogfelds
+**CSS-Eigenschaften des Inhaltsursprungs ** Dialogfelds
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

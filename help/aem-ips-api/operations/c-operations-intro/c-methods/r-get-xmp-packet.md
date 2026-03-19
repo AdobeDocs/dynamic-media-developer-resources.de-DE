@@ -5,7 +5,7 @@ title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 20%
@@ -30,11 +30,11 @@ Syntax
 
 ## Parameter {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Eingabe (getXMPPacketParam**
+**Eingabe (getXMPPacketParam)**
 
 | Name | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Ja | Das Firmen-Handle mit dem Paket, das Sie zurückgeben möchten (z. B. `c|656`). |
+| companyHandle | `xsd:string` | Ja | Das Unternehmen behandelt das Paket, das Sie zurückgeben möchten (z. B. `c`\|`656`). |
 | assetHandle | `xsd:string` | Ja | Das Asset, für das das XMP-Paket abgerufen werden soll. |
 
 **Ausgabe (getXMPPacketReturn)**

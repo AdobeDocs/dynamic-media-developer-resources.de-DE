@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d26371da-e992-4f63-a5be-190ce60eca2f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -39,6 +39,8 @@ Darüber hinaus stellt der Standardkatalog alle Attribute und Datensätze (ICC-P
 
 Damit der Render-Server ordnungsgemäß funktioniert, muss die Katalogattributdatei für den Standardkatalog [!DNL default.ini] benannt sein. Sie muss auch immer im Katalogordner vorhanden sein und vollständig mit allen erforderlichen Attributen gefüllt sein, mit Ausnahme von `attribute::RootId` und den Verweisen auf die verschiedenen Katalogdatendateien, die alle optional sind.
 
-<!-- **See also**
+<!--
+ **See also**
 
-`PlatformServer::ir.catalogRootPath` -->
+`PlatformServer::ir.catalogRootPath`
+-->

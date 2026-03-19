@@ -1,11 +1,12 @@
 ---
 title: Video-Scrubber
 description: Der Video-Scrubber ist der horizontale Schieberegler, mit dem Benutzende dynamisch nach einer beliebigen Position innerhalb des aktuell wiedergegebenen Videos suchen können.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d64ca9ed-7d8e-4a13-9c9d-acb7de3e31ed
-source-git-commit: 63c0e3b494b6d583117dad01643946900855802e
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Aufgrund der DPR-Optimierung wird die MaxPix-Breite immer erkannt, wenn das resu
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
-DPR-Werte basieren auf den erkannten Client-seitigen Werten des gebündelten CDN. Diese Werte sind manchmal ungenau. Zum Beispiel zeigen sowohl iPhone5 mit `dpr=2` als auch iPhone12 mit DPR=3 `dpr=2` an. Bei Geräten mit hoher Auflösung ist es jedoch immer noch besser, `dpr=2` zu senden als `dpr=1`. Die beste Möglichkeit, diese Ungenauigkeit zu überwinden, besteht jedoch darin, das Client-seitige Gerätepixelverhältnis zu verwenden, um 100 % genaue Werte zu erhalten. Und es funktioniert für jedes Gerät, ob es sich um Apple oder ein anderes Gerät handelt, das gestartet wurde. Siehe [Verwenden der intelligenten Bildbearbeitung mit dem Client-seitigen Gerätepixelverhältnis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=de).
+DPR-Werte basieren auf den erkannten Client-seitigen Werten des gebündelten CDN. Diese Werte sind manchmal ungenau. Zum Beispiel zeigen sowohl iPhone5 mit `dpr=2` als auch iPhone12 mit DPR=3 `dpr=2` an. Bei Geräten mit hoher Auflösung ist es jedoch immer noch besser, `dpr=2` zu senden als `dpr=1`. Die beste Möglichkeit, diese Ungenauigkeit zu überwinden, besteht jedoch darin, das Client-seitige Gerätepixelverhältnis zu verwenden, um 100 % genaue Werte zu erhalten. Und es funktioniert für jedes Gerät, ob es sich um Apple oder ein anderes Gerät handelt, das gestartet wurde. Siehe [Verwenden der intelligenten Bildbearbeitung mit dem Client-seitigen Gerätepixelverhältnis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
 
 ## Eigenschaften
 
@@ -63,4 +63,4 @@ Ein Anforderungsattribut. Dies hat keine Auswirkung, wenn `dpr` deaktiviert oder
 
 ## Verwandte Themen
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=de)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

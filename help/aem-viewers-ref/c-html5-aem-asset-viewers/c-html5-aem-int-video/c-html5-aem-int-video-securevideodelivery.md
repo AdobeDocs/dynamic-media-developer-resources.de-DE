@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -14,9 +14,11 @@ ht-degree: 0%
 
 # HTTPS-Videobereitstellung{#https-video-delivery}
 
-<!-- >[!NOTE]
+<!--
+ >[!NOTE]
 >
->Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
+>Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+-->
 
 Wenn der Viewer in der Konfiguration funktioniert, wie am Anfang dieses Abschnitts beschrieben, kann die Bereitstellung veröffentlichter Videos sowohl im HTTPS-Modus (sicher) als auch im HTTP-Modus (unsicher) erfolgen. In einer Standardkonfiguration folgt das Videobereitstellungsprotokoll streng dem Bereitstellungsprotokoll der einbettenden Web-Seite. Es ist jedoch möglich, die HTTPS-Videobereitstellung unabhängig vom verwendeten Protokoll zu erzwingen, indem die Web-Seite mit dem Konfigurationsattribut [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) eingebettet wird. (Die Videovorschau im Autorenmodus wird immer sicher über HTTPS bereitgestellt.)
 
@@ -34,7 +36,7 @@ Je nach der Veröffentlichungsmethode [!DNL Dynamic Media] Videos, die Sie in Ad
 
 -->
 
-Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=de#dynamic)
+Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
 * Wenn Sie ein [!DNL Dynamic Media] Video mit Einbettungs-Code veröffentlichen, fügen Sie `VideoPlayer.ssl` zur Liste der anderen Viewer-Konfigurationsparameter im Einbettungs-Code-Snippet hinzu.
 
@@ -88,4 +90,4 @@ Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleag
   ```
 -->
 
-Siehe auch [Einbetten des Videos auf einer Web-Seite](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=de#dynamic).
+Siehe auch [Einbetten des Videos auf einer Web-Seite](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

@@ -5,9 +5,9 @@ title: Grundlegende Syntax des Image Serving-HTTP-Protokolls
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Die grundlegende Syntax des HTTP-Protokolls sieht wie folgt aus:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Befehl</span> </span> </p> </td> 
-  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}}[=<span class="varname"> Wert</span>] </p></td> 
+  <td class="stentry"> <p><code>{</code><span class="varname"> cmdName</span>|<code>{$</code><span class="varname"> var</span><code>}}[=</code><span class="varname">-Wert</span><code>]</code> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Makro</span> </span> </p> </td> 

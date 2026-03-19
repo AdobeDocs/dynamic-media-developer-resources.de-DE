@@ -1,11 +1,12 @@
 ---
 title: Link-Freigabe
 description: Das Tool zur Link-Freigabe besteht aus einer Schaltfläche, die zum Bedienfeld Social-Media-Freigabe und zum modalen Dialogfeld hinzugefügt wird und angezeigt wird, wenn das Tool aktiviert wird. Die Position der Schaltfläche wird vollständig vom Tool Social Share verwaltet.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -330,7 +331,7 @@ Die Fußzeile des Dialogfelds besteht aus der Schaltfläche „Abbrechen“. Der
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften des &#x200B;** für die Dialogfeldfußzeile
+**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -593,7 +594,7 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit
 
 Diese Klasse ist nicht zur Steuerung der Größe oder Position der Beschriftung geeignet, da Sie sie auf Texte an verschiedenen Stellen der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbezeichnung. &#x200B;**
+**CSS-Eigenschaften der Dialogfeldbezeichnung. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

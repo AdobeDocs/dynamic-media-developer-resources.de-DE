@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -136,5 +136,6 @@ Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support 
 * Baidu January 2015
 
 NOTE
-FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform. -->
+FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform.
+-->
 

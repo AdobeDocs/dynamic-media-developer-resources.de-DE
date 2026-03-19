@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Viewers-Referenzhandbuch
 feature-set: Experience Manager Assets
 user-guide-description: Passen Sie Dynamic Media-Viewer für die Verwendung auf Desktop- und Touchscreen-Geräten an. Interaktive Bilder und Videos, Karussells, Rotationssets und mehr einschließen.
-source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Dynamic Media Viewers-Referenzhandbuch {#library}
 
-+ [Dynamic Media Viewers-Referenzhandbuch](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=de) -->
++ [Dynamic Media Viewers-Referenzhandbuch](homeviewers.md)
 + [Viewer-Bibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemanforderungen](c-system-requirements-and-prerequisites.md)
 + [Installieren mehrerer Viewer auf demselben Server](t-installing-the-viewers.md)
@@ -1012,3 +1012,4 @@ ht-degree: 1%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
