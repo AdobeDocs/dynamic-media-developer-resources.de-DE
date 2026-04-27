@@ -1,13 +1,13 @@
 ---
 source-git-commit: 8bb72078ad582e6a23e9048a9daa152b7cd5bb54
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-# Adobe Dokumentation zu Dynamic Media-Entwicklungsressourcen
+# Entwicklerressourcen für Adobe Dynamic Media
 
-Dies ist das Repository für das Adobe der Dokumentation für Dynamic Media-Entwicklungsressourcen.
+Dies ist das Repository für die Dokumentation zu Adobe Dynamic Media-Entwicklungsressourcen.
 
 Ihre Beiträge zur Dokumentation sind willkommen. Siehe die folgenden Ressourcen:
 
