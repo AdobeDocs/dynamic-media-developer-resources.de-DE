@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/VVRqhgxbkQOHlerVRDGNaHL-tM6elPDs-Vqotij43mg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: 955
 ht-degree: 0%
 
 ---
@@ -202,7 +210,7 @@ Das Suchergebnisfenster zeigt möglicherweise eine Eingabeaufforderung in Textfo
    <td colname="col2"> <p>Name der Textschriftart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> für die </span>-Ausrichtung </p> </td> 
+   <td colname="col1"> <p> </span> für die <span class="codeph">-Ausrichtung </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 

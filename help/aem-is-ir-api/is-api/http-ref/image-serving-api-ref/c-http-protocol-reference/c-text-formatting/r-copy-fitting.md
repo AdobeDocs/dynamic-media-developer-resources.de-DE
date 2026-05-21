@@ -5,9 +5,17 @@ title: Einpassung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/9SthkANFoXF9ANPH2-3Yk9P--7VBJoZy-zscJ0rkTnE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 527
 ht-degree: 0%
 
 ---
@@ -46,7 +54,7 @@ Bei den folgenden Beispielen wird davon ausgegangen, dass Textkörper mit Variab
 
 `{\copyfit100\fs10 $A${\fs20 $B$}$C$}`
 
-Am kleinsten Ende des Bereichs wird *[!DNL $B$]* mit `\fs20` gerendert, die doppelt so groß wie *[!DNL $A$]* sind und *[!DNL $C$]* `\fs10`. Der gesamte Text wird am gegenüberliegenden Ende des Bereichs in `\fs100` (50 Punkte) gezeichnet.
+Am kleinsten Ende des Bereichs wird *[!DNL $B$]* mit `\fs20` gerendert, die doppelt so groß wie *[!DNL $A$]* sind und `\fs10` *[!DNL $C$]*. Der gesamte Text wird am gegenüberliegenden Ende des Bereichs in `\fs100` (50 Punkte) gezeichnet.
 
 **Konvertieren Sie in eine gemeinsame kleine Schriftgröße, wenn ein großer Teil des Textes gerendert werden soll:**
 

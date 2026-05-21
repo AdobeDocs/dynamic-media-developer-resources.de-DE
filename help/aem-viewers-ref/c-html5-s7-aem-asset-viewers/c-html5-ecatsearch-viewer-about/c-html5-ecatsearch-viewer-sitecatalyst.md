@@ -5,9 +5,17 @@ title: Unterstützung für Adobe Analytics-Tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/BTbIoL0j1AsfXhknzS4cc72ltTAB15Yvj81nvLQHnJg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -64,7 +72,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-</span> </p> </td> 
-   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der <span class="codeph">-API </span> setAsset() getauscht. </p> </td> 
+   <td colname="col2"> <p>Ein Asset wird im Viewer mithilfe der </span>-API <span class="codeph"> setAsset() getauscht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -83,7 +91,7 @@ Der Viewer verfolgt die folgenden SDK-Benutzerereignisse:
    <td colname="col2"> <p> Ein aktueller Rahmen wird in der Hauptansicht geändert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Ein Infobedienfeld-Popup ist aktiviert. </p> </td> 
   </tr> 
   <tr> 

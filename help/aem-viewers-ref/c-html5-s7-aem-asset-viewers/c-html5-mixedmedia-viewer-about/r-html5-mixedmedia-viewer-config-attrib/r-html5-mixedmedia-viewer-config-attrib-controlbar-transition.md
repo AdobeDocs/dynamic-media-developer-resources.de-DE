@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: c8792f02-ae15-4b47-8727-089691d5316a
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/DdA-vV5n5DBimwmGsWGbaQHH8UofaKAURyyzLRuk3DY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: 111
 ht-degree: 2%
 
 ---
@@ -24,7 +32,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> DelaytoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touch-Ereignis an, das die Steuerleiste registriert, und der Zeit, die die Steuerleiste ausblendet. </p> <p> Trigger Bei <span class="codeph"> -1</span> ändert die Komponente ihren Effekt zum automatischen Ausblenden nicht und bleibt immer auf dem Bildschirm sichtbar. </p> </td> 
+   <td colname="col2"> <p>Gibt die Zeit in Sekunden zwischen dem letzten Maus-/Touch-Ereignis an, das die Steuerleiste registriert, und der Zeit, die die Steuerleiste ausblendet. </p> <p> Bei <span class="codeph"> -1</span> ändert die Komponente ihren Effekt zum automatischen Ausblenden nicht und bleibt immer auf dem Bildschirm sichtbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Dauer</span> </span> </p> </td> 

@@ -4,9 +4,19 @@ description: Bestimmte Inhalte, die der interaktive Bild-Viewer anzeigt, unterli
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+autotag-review: '2026-05-13T22:17:15.458Z'
+TQID: 'https://experienceleague.adobe.com/XYvxUsA4fiBhf5gT35bxHZTo9Tn6QvT5ld89zNnHiOo'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 308
 ht-degree: 0%
 
 ---

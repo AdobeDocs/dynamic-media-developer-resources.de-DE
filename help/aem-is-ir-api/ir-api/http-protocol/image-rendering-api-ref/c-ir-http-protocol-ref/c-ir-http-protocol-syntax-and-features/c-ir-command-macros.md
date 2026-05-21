@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/cXLJJQ5CS-Apmq-8qYV-ew-lcvfRjoNfIbl2qyyKB6U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -22,7 +30,7 @@ Befehlsmakros bieten benannte Tastaturbefehle für Befehlssätze.
 
 Makros werden in separaten Makrodefinitionsdateien definiert, die an Materialkataloge oder den Standardkatalog angehängt werden können.
 
-*[!DNL name]* wird nicht zwischen Groß- und Kleinschreibung unterschieden und kann aus einer beliebigen Kombination von ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen. Zeichen.
+*[!DNL name]* wird nicht zwischen Groß- und Kleinschreibung unterschieden und kann aus einer beliebigen Kombination von ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39;-Zeichen bestehen.
 
 Makros an einer beliebigen Stelle in einer Anfrage nach dem &quot;?“ oder an einer beliebigen Stelle in einem `vignette::Modifier` Feld aufrufen. Makros können nur einen oder mehrere Image-Rendering-Befehle darstellen und müssen von anderen Befehlen mit &quot;&amp;&quot;-Trennzeichen getrennt werden.
 

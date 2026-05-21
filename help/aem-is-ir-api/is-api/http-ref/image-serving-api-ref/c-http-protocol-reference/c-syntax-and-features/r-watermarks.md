@@ -5,9 +5,17 @@ title: Wasserzeichen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/5gqAaM5kFHj67LxcMVGeEU2uus6mA-BT9kCewY1cZOw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -30,7 +38,7 @@ Im Gegensatz zu Standardbildern können `sizeN=` für Ebene=0 oder Ebene=Komp de
 
 Anforderungsbefehle (z. B. `fmt=`) und Anzeigebefehle (z. B. `wid=`) werden in Wasserzeicheneinträgen ignoriert, mit Ausnahme von `align=`. `align=` können verwendet werden, um das Wasserzeichenbild relativ zum Wasserzeichenbild relativ zum Zielbild zu positionieren. Dies ermöglicht die Positionierung des Wasserzeichens relativ zu einer Ecke oder Kante des Zielbilds.
 
-Nach dem Skalieren und Ausrichten legt der Server das Wasserzeichenbild mithilfe der für die `blendMode=` oder `opac=` des Wasserzeichenbildes angegebenen `layer=0`- und `layer=comp` über das Zielbild. Schließlich werden die für das Zielbild angegebenen Anforderungs- und Ansichtsbefehle angewendet, um das Antwortbild zu erstellen.
+Nach dem Skalieren und Ausrichten legt der Server das Wasserzeichenbild mithilfe der für die `layer=0` oder `layer=comp` des Wasserzeichenbildes angegebenen `blendMode=`- und `opac=` über das Zielbild. Schließlich werden die für das Zielbild angegebenen Anforderungs- und Ansichtsbefehle angewendet, um das Antwortbild zu erstellen.
 
 Beachten Sie, dass sich das Wasserzeichenbild niemals über Leerzeichen erstreckt, die dem Antwortbild durch die Befehle `wid=` und `hei=` hinzugefügt werden.
 

@@ -5,9 +5,17 @@ title: Substitutionsvariablen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZjLvcRUPDVBv8QsWoQGz2j6X0sjxnUL-MTTJNyDDRUs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -57,7 +65,7 @@ löst auf:
 
 ## Variablenverarbeitung in verschachtelten Anfragen {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-` $ *`var`*$`-Verweise können überall in den geschweiften Klammern einer verschachtelten Bildbereitstellungs- oder Bildbereitstellungsanfrage auftreten, auch links neben &quot;?“ Trennen des Pfads von der Abfrage Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `catalog::Modifier` des Hauptbildkatalogs), bevor die verschachtelte Anfrage weiter analysiert und verarbeitet wird.
+` $ *`var`*$`-Verweise können überall in den geschweiften Klammern einer verschachtelten Bildbereitstellungs- oder Bild-Rendering-Anfrage auftreten, einschließlich links neben dem &quot;?“, das den Pfad von der Abfrage trennt. Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `catalog::Modifier` des Hauptbildkatalogs), bevor die verschachtelte Anfrage weiter analysiert und verarbeitet wird.
 
 Darüber hinaus werden alle ` $ *`var`*=`-Definitionen aus der URL oder `catalog::Modifier` an alle verschachtelten Bildbereitstellungs- und Bildrendering-Anfragen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen für alle Vorlagen verfügbar sind, unabhängig von der Verschachtelungsebene.
 

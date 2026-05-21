@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/v-ucFAnnoq6ywaB97QSXodqnO4VWFvaK6I2HJ2-a4Fc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 227
 ht-degree: 0%
 
 ---
@@ -46,14 +54,14 @@ In diesem Abschnitt wird die grundlegende Syntax des Dynamic Media Image Renderi
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">-</span> </p> </td> 
-   <td colname="col2"> <p>&lbrace; <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> Wert</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> Wert</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> </span> </p> </td> 
+   <td colname="col1"> <p></span> <span class="varname"> </p> </td> 
    <td colname="col2"> <p>Name eines Befehlsmakros. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> </span> </p> </td> 
+   <td colname="col1"> <p></span> <span class="varname"> </p> </td> 
    <td colname="col2"> <p>Kommentarzeichenfolge (vom Server ignoriert). </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +87,7 @@ Der Stammkontext `/ir/render` ist für alle HTTP-Anfragen an das Bild-Rendering 
 
 **Kommentare**
 
-Kommentare können an beliebiger Stelle in Anfragezeichenfolgen eingebettet werden und werden durch einen Punkt (.) unmittelbar nach dem Befehlstrennzeichen (&amp;) gekennzeichnet. Der Kommentar wird beim nächsten Auftreten eines (nicht kodierten) Befehlstrennzeichens beendet. Mit dieser Funktion können Sie der Anfrage Informationen hinzufügen, die nicht für die Verwendung in der Bildbereitstellung vorgesehen sind, z. B. Zeitstempel und Datenbank-IDs.
+Kommentare können überall in Anfragezeichenfolgen eingebettet werden und werden durch einen Punkt (.) gekennzeichnet. unmittelbar nach dem Befehlstrennzeichen (&amp;). Der Kommentar wird beim nächsten Auftreten eines (nicht kodierten) Befehlstrennzeichens beendet. Mit dieser Funktion können Sie der Anfrage Informationen hinzufügen, die nicht für die Verwendung in der Bildbereitstellung vorgesehen sind, z. B. Zeitstempel und Datenbank-IDs.
 
 **HTTP-Dekodierung**
 

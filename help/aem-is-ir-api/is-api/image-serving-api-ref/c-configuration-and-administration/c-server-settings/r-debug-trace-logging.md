@@ -5,9 +5,20 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/vkvp3WTt-nSSAQPaHUgXvMCuEkD-vEno-ot3Nxn9ReE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: 407
 ht-degree: 0%
 
 ---
@@ -30,7 +41,7 @@ Ordner- und Basisdateiname für Server Supervisor-Protokolldateien. Der Pfad kan
 
 ## SV::traceLevel - Trace-Protokollebene des Server-Verantwortlichen {#section-36f8634741da4c618d67aa628b5fe474}
 
-Die Protokollebene kann 1, 2, 3 oder 4 sein. Der Standardwert ist 2.
+Die Protokollebene kann 1, 2, 3 oder 4 sein. Der Standardwert lautet 2.
 
 ## IS::log - Pfad der Debugging-Protokolldatei des Image-Servers {#section-73a3f09b77f2446c9f82207b7d8aec39}
 

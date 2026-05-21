@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: eeb5b2c7-688e-42a1-bfe6-3f29e509baed
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/OBII3LErw5aXaWZXKhY-EQijZDG58WhaI-ans3tLlGI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: 1425
 ht-degree: 0%
 
 ---
@@ -449,7 +457,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
    <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 

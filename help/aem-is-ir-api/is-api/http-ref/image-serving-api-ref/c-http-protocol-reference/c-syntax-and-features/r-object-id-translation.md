@@ -5,10 +5,18 @@ title: Übersetzung der Objekt-ID
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jeFY6jJ5HJ4mPK6ng93G9PZ6ENSlk7Wtj8S-GTdMJbM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 5%
 
 ---
 
@@ -58,7 +66,7 @@ Wenn eine Übersetzungszuordnung keine standardmäßige Übersetzungsregel angib
 
 Es ist oft wünschenswert, Gebietsschemata (z. B. Europa, Naher Osten, Nordamerika) zu gruppieren, um regionale Standards zu berücksichtigen. Dies kann mit einer mehrstufigen Suche erreicht werden.
 
-Für dieses Beispiel möchten wir Sammlungen für die Verwendung im Westen und Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden dann für bestimmte Gebietsschemata weiter verfeinert ( `m1`, `m2` für zwei Varianten des Mittleren Ostens und `w1`, `w2` und `w3` für drei westliche Gebietsschemata), mit der Ausnahme, dass Bilder für `w1` und `w3` freigegeben werden. Unbekannte Gebietsschemata werden nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf gebietsschemaspezifische Bilder.
+Für dieses Beispiel möchten wir Sammlungen für die Verwendung im Westen und Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden dann für bestimmte Gebietsschemata weiter verfeinert ( `m1`, `m2` für zwei Varianten des Mittleren Ostens und `w1`, `w2` und `w3` für drei westliche Gebietsschemata), mit der Ausnahme, dass Bilder für `w1` und `w3` freigegeben werden. Unbekannte Gebietsschemas sind nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf Gebietsschema-spezifische Bilder.
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 

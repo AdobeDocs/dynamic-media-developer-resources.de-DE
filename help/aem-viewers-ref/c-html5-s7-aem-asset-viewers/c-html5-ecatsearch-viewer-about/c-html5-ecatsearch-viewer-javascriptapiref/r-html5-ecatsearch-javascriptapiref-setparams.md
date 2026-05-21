@@ -5,9 +5,17 @@ title: setParams
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cbd7987b-5e47-4ac0-8235-a217e5e6dee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/NOaYrj9ntatmLob6D2xY-MxJEGBMGkZYHoo04HXMeOY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 98
 ht-degree: 2%
 
 ---
@@ -28,7 +36,7 @@ Siehe auch [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-view
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> Parameter</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value-Parameterpaare, die durch <span class="codeph"> und </span> getrennt sind. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value-Parameterpaare, die durch <span class="codeph"> &amp;</span> getrennt sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>

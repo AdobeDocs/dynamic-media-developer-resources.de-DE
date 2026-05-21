@@ -5,9 +5,17 @@ title: Grundlegende Syntax des Image Serving-HTTP-Protokolls
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
+TQID: 'https://experienceleague.adobe.com/fB60CyCuBYstiJJesDefrK1DW7w-2t0PJqqt-iLgZOA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 275
 ht-degree: 1%
 
 ---
@@ -19,7 +27,7 @@ Die grundlegende Syntax des HTTP-Protokolls sieht wie folgt aus:
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Anfrage</span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> Modifikatoren</span>]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> Modifiers</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Server </span> </span> </p></td> 
@@ -35,7 +43,7 @@ Die grundlegende Syntax des HTTP-Protokolls sieht wie folgt aus:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Modifikator</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">Befehl|{$<span class="varname"> Makro</span>$}|{.<span class="varname"> Kommentar</span>}</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">Befehl|{$<span class="varname"> Makro</span>$}|{.<span class="varname"> comment</span>}</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Befehl</span> </span> </p> </td> 
@@ -81,7 +89,7 @@ Die Bildbereitstellung extrahiert zunächst *`object`* und *`modifiers`* aus der
 
 ## Kommentare {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Kommentare können überall in Anfragezeichenfolgen eingebettet werden und werden durch einen Punkt (.) unmittelbar nach dem Befehlstrennzeichen (&amp;) identifiziert. Der Kommentar wird beim nächsten Auftreten eines (nicht kodierten) Befehlstrennzeichens beendet. Mit dieser Funktion können Sie der Anfrage Informationen hinzufügen, die nicht für die Bildbereitstellung vorgesehen sind, z. B. Zeitstempel und Datenbank-IDs.
+Kommentare können überall in Anfragezeichenfolgen eingebettet werden und werden durch einen Punkt (.) gekennzeichnet. unmittelbar nach dem Befehl separator(&amp;). Der Kommentar wird beim nächsten Auftreten eines (nicht kodierten) Befehlstrennzeichens beendet. Mit dieser Funktion können Sie der Anfrage Informationen hinzufügen, die nicht für die Bildbereitstellung vorgesehen sind, z. B. Zeitstempel und Datenbank-IDs.
 
 ## Verwandte Themen {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

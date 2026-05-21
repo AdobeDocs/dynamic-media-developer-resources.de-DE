@@ -1,18 +1,26 @@
 ---
-title: CarouselView.autoplay
+title: CarouselView.AutoPlay
 description: Konfigurationsattribut für den Karussell-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
-source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
+TQID: 'https://experienceleague.adobe.com/LEeJUVIHLhplymrvp9IdNUWcfJz-Tl0kLffkik1GvkY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: 81
+ht-degree: 3%
 
 ---
 
-# CarouselView.autoplay{#carouselview-autoplay}
+# CarouselView.AutoPlay{#carouselview-autoplay}
 
 Konfigurationsattribut für den Karussell-Viewer.
 

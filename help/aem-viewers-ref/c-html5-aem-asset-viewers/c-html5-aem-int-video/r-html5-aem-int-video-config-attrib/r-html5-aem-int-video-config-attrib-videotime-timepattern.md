@@ -1,18 +1,26 @@
 ---
-title: VideoTime.timepattern
+title: VideoTime.timePattern
 description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/T2S4fAjAry5waLTPztxZjvDzVBVCoBqbfJXSZK-5SAQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: 118
 ht-degree: 2%
 
 ---
 
-# VideoTime.timepattern{#videotime-timepattern}
+# VideoTime.timePattern{#videotime-timepattern}
 
 Konfigurationsattribut für den interaktiven Video-Viewer.
 

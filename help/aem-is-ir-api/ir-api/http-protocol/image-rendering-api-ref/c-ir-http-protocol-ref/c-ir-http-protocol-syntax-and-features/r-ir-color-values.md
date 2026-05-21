@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/KZibvornkiv7U3dfqaJQncz-dBNtrF2a58oENB36ojg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: 121
+ht-degree: 7%
 
 ---
 
@@ -19,7 +27,7 @@ Farbwerte für `color=`- und `bgc=` können entweder mithilfe einer Liste von de
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> Farbe</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{ {red , green , blue} | grau } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">{ {red , grün , blau} | grau } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>rot, grün, blau, grau</i> </p></td> 
@@ -41,12 +49,12 @@ Einige Beispiele für gültige Farbspezifikatoren und ihre entsprechende RGB-Far
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0.100.200 </p></td> 
-  <td class="stentry"> <p>(0 100 200) </p></td> 
+  <td class="stentry"> <p>0,100,200 </p></td> 
+  <td class="stentry"> <p>(0,100,200) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>128 </p></td> 
-  <td class="stentry"> <p>(128 128 128) </p></td> 
+  <td class="stentry"> <p>(128,128,128) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 
@@ -54,7 +62,7 @@ Einige Beispiele für gültige Farbspezifikatoren und ihre entsprechende RGB-Far
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>00b1c2 </p></td> 
-  <td class="stentry"> <p>(160 177 194) </p></td> 
+  <td class="stentry"> <p>(160,177,194) </p></td> 
  </tr> 
 </table>
 

@@ -5,9 +5,17 @@ title: Verschleierung anfordern
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/77Q5rV3cP4KoBz3rFKlEmBlumS0TBthuLbLQBETPitE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 220
 ht-degree: 1%
 
 ---
@@ -20,7 +28,7 @@ Der Server versucht zu decodieren, wenn `attribute::RequestObfuscation` festgele
 
 >[!IMPORTANT]
 >
->Wenn Sie diese Funktion aktivieren, beachten Sie, dass es bestimmte Einschränkungen bei ihrer Verwendung gibt, darunter die folgenden:<br>- Auf der Benutzeroberfläche von Dynamic Media werden möglicherweise nicht die richtigen Details für das Feld **[!UICONTROL Zuletzt veröffentlicht]** angezeigt. Dies wirkt sich jedoch nicht auf die Veröffentlichung aus.<br>- Derzeit funktioniert das HLS-Video-Streaming nicht, wenn **[!UICONTROL Anfrageverschleierung]** und **[!UICONTROL Anfragesperre]** aktiviert sind.<br>- Derzeit funktionieren einige Dynamic Media-Viewer nicht, wenn **[!UICONTROL Anfragenverschleierung]** und **[!UICONTROL Anfragensperrung]** aktiviert sind.
+>Wenn Sie diese Funktion aktivieren, beachten Sie, dass es bestimmte Einschränkungen bei ihrer Verwendung gibt, darunter die folgenden:<br>- Auf der Benutzeroberfläche von Dynamic Media werden möglicherweise nicht die richtigen Details für das Feld **[!UICONTROL Zuletzt veröffentlicht]** angezeigt. Dies wirkt sich jedoch nicht auf die Veröffentlichung aus.<br>- Derzeit funktioniert HLS-Video-Streaming nicht, wenn **[!UICONTROL Anfrageverschleierung]** und **[!UICONTROL Anfragensperrung]** aktiviert sind.<br>- Derzeit funktionieren einige Dynamic Media-Viewer nicht, wenn **[!UICONTROL Anfragenverschleierung]** und **[!UICONTROL Anfragensperrung]** aktiviert sind.
 
 ## Beispiel {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

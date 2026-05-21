@@ -5,9 +5,19 @@ title: LocaleStrMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 48a1c71c-78a9-43db-8b1a-4189d34b0982
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/tEpdZ-AEabQKLIV1Zkwh9JG7-LHV4gABlmv9PLPqz08'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: 237
 ht-degree: 0%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 0%
 
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> </span> </p> </td> 
+  <td class="stentry"> <p> </span> <span class="varname"> </p> </td> 
   <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -57,7 +67,7 @@ Wenn die Zeichenfolgenübersetzung aktiviert ist, wird sie auf Textzeichenfolgen
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph">::Targets-</span> </p> </td> 
-   <td> <p>Der Wert eines beliebigen <span class="filepath">.*.label </span> und <span class="filepath"> Target.*.UserData-</span>. </p> </td> 
+   <td> <p>Der Wert einer beliebigen <span class="filepath"> target.*.label-</span> und <span class="filepath"> target.*.userdata-</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph">::UserData-</span> </p> </td> 
@@ -68,7 +78,7 @@ Wenn die Zeichenfolgenübersetzung aktiviert ist, wird sie auf Textzeichenfolgen
 
 ## Eigenschaften {#section-8505a8525f6948ada3979f68c4081044}
 
-Ein oder mehrere Elemente, getrennt durch |, wobei jedes Element aus zwei oder mehr durch Kommas getrennten Zeichenfolgenwerten besteht.
+Ein oder mehrere durch | getrennte Elemente, wobei jedes Element aus zwei oder mehr durch Kommas getrennten Zeichenfolgenwerten besteht.
 
 ## Verwandte Themen {#section-0c0516e4f83d42d38247308cab9b6708}
 

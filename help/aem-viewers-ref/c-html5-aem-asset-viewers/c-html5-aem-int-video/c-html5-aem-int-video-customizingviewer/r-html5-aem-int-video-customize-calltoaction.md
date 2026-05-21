@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/kE-njiX1mPckPrdPtrY8rRh-TRP4uhydWiDQ1TdlOpk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: 1325
 ht-degree: 1%
 
 ---
@@ -111,7 +119,7 @@ Der folgende CSS-Klassenselektor steuert die Darstellung des Kopfzeilentitels im
    <td colname="col2"> <p>Schriftgröße. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p>Zeilenhöhe. </p> </td> 
   </tr> 
   <tr> 
@@ -119,7 +127,7 @@ Der folgende CSS-Klassenselektor steuert die Darstellung des Kopfzeilentitels im
    <td colname="col2"> <p> Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Ausrichtung des Texts im Banner. </p> </td> 
   </tr> 
   <tr> 
@@ -338,7 +346,7 @@ Der folgende CSS-Klassenselektor steuert die Darstellung der Miniaturbildbeschri
    <td colname="col2"> <p> Textfarbe des Titels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Horizontale Ausrichtung des Titels. </p> </td> 
   </tr> 
   <tr> 

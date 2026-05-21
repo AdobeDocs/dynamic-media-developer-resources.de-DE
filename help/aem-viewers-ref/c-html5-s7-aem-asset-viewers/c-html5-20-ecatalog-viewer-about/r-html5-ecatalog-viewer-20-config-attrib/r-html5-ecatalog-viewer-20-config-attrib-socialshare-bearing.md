@@ -1,18 +1,26 @@
 ---
-title: SocialShare.bearing
-description: SocialShare.bearing
+title: SocialShare.Bearing
+description: SocialShare.Bearing
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 026b5921-53ae-436f-bf82-dee2e699405f
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/sWilQyllf5wtlr-tP1kKtK4L0taRA6HWQW2Yh0MSefQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 184
 ht-degree: 1%
 
 ---
 
-# SocialShare.bearing{#socialshare-bearing}
+# SocialShare.Bearing{#socialshare-bearing}
 
 `[SocialShare.|<containerId>_socialShare.]bearing= up|down|left|right|fit-vertical|fit-lateral`
 
@@ -20,7 +28,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oben|unten|links|rechts|vertikal|seitlich anpassen</span> </p> </td> 
-   <td colname="col2"> <p> Gibt die Richtung der Folienanimation für den Schaltflächen-Container an. </p> <p> Wenn auf <span class="codeph"> </span>, <span class="codeph"> nach unten </span>, <span class="codeph"> nach </span> oder <span class="codeph"> nach </span> festgelegt, wird das Bedienfeld ohne zusätzliche Begrenzungsprüfung in eine bestimmte Richtung ausgerollt. Dieses Verhalten kann dazu führen, dass Bedienfelder durch einen externen Container abgeschnitten werden. </p> <p>Bei Festlegung auf <span class="codeph"> vertikale </span> verschiebt die Komponente zunächst die Position des Basispanels nach unten in SocialShare und versucht, das Bedienfeld entweder von unten, rechts oder links von dieser Basisposition aus einzuführen. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld von einem externen Container abgeschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbereichs nach oben zu verschieben und die Rollout-Versuche von oben, rechts und links zu wiederholen. </p> <p>Bei <span class="codeph"> Einstellung „Seitliches </span> anpassen“ verwendet die Komponente eine ähnliche Logik wie bei „Vertikal anpassen“. Die Basis wird jedoch nach rechts verschoben, zuerst nach rechts, nach unten und nach oben. Anschließend wird die Basis nach links verschoben und nach links, nach unten und nach oben verschoben. </p> </td> 
+   <td colname="col2"> <p> Gibt die Richtung der Folienanimation für den Schaltflächen-Container an. </p> <p> Wenn auf </span> <span class="codeph">, </span> nach unten <span class="codeph">, </span> nach <span class="codeph"> oder </span> nach <span class="codeph"> festgelegt, wird das Bedienfeld ohne zusätzliche Begrenzungsprüfung in eine bestimmte Richtung ausgerollt. Dieses Verhalten kann dazu führen, dass Bedienfelder durch einen externen Container abgeschnitten werden. </p> <p>Bei Festlegung auf <span class="codeph"> vertikale </span> verschiebt die Komponente zunächst die Position des Basispanels nach unten in SocialShare und versucht, das Bedienfeld entweder von unten, rechts oder links von dieser Basisposition aus einzuführen. Bei jedem Versuch prüft die Komponente, ob das Bedienfeld von einem externen Container abgeschnitten wird. Wenn alle Versuche fehlschlagen, versucht die Komponente, die Position des Basisbereichs nach oben zu verschieben und die Rollout-Versuche von oben, rechts und links zu wiederholen. </p> <p>Bei <span class="codeph"> Einstellung „Seitliches </span> anpassen“ verwendet die Komponente eine ähnliche Logik wie bei „Vertikal anpassen“. Die Basis wird jedoch nach rechts verschoben, zuerst nach rechts, nach unten und nach oben. Anschließend wird die Basis nach links verschoben und nach links, nach unten und nach oben verschoben. </p> </td> 
   </tr> 
  </tbody> 
 </table>

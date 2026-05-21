@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/x5Qk6K5pRcjcPmwxGPVr8CKkf7J-pmlc2FRwpoqZ3ng'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 371
 ht-degree: 0%
 
 ---
@@ -151,7 +159,7 @@ Der folgende CSS-Klassenselektor steuert die wiedergegebene Zeitblase:
    <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Ausrichtung des Textes am Blasenbereich. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,18 +1,26 @@
 ---
-title: CallToAction.enabledragging
+title: CallToAction.enableDragging
 description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/eiQujFJFBcZ5zd0tOLP8wekg3f8j9ssSCNx05tGoW-A'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 3%
+source-wordcount: 88
+ht-degree: 5%
 
 ---
 
-# CallToAction.enabledragging{#calltoaction-enabledragging}
+# CallToAction.enableDragging{#calltoaction-enabledragging}
 
 Konfigurationsattribut für den interaktiven Video-Viewer.
 

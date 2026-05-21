@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 76e028b5-e7d6-4cd8-b532-c54c82fd3ebb
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/HwrU-TQ4yyJD-MKB7d9iGVG9yJmwzwqh0LmT1715Rv0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 217
 ht-degree: 0%
 
 ---
@@ -42,11 +50,11 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container-</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> MediaSet-<span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> MediaSet-</span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet-</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> SmartCropVideoPlayer-<span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> SmartCropVideoPlayer-</span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.SmartCropVideoPlayer-</span> </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +82,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton-</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar-</span> </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +112,7 @@ Gibt einen Verweis auf die Viewer-SDK-Komponente zurück, die vom Viewer verwend
  </tbody> 
 </table>
 
-Bei der Arbeit mit SDK-APIs ist es wichtig, den richtigen, vollständig qualifizierten SDK-Namespace zu verwenden, wie in [Viewer-SDK-Namespace] beschrieben
+Bei der Arbeit mit SDK-APIs ist es wichtig, den richtigen, vollständig qualifizierten SDK-Namespace zu verwenden, wie unter [Viewer-SDK-Namespace beschrieben]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
 Weitere Informationen zu einer bestimmten Komponente finden Sie in der Dokumentation zur Viewer-SDK-API .

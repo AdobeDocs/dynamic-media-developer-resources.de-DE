@@ -5,10 +5,18 @@ title: printerMark
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/tit-a3stXGj0fZoMgi15lPIk-MtZSvUDOqlcayfNlwk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 18%
+source-wordcount: 123
+ht-degree: 24%
 
 ---
 
@@ -26,27 +34,27 @@ Im Folgenden finden Sie die gültigen Werte:
  <tr class="strow"> 
   <td class="stentry"> <p>Trimmmarken= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
-  <td class="stentry"> <p>Die Standardgrenze ist 0. </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist „0“. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Anzapfungsmarkierungen= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
-  <td class="stentry"> <p>Die Standardgrenze ist 0. </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist „0“. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Passmarken= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
-  <td class="stentry"> <p>Die Standardgrenze ist 0. </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist „0“. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Farbbalken= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
-  <td class="stentry"> <p>Die Standardgrenze ist 0. </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist „0“. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Seiteninformationen= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
-  <td class="stentry"> <p>Die Standardgrenze ist 0. </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist „0“. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
@@ -56,12 +64,12 @@ Im Folgenden finden Sie die gültigen Werte:
  <tr class="strow"> 
   <td class="stentry"> <p>Zeilengewicht </p></td> 
   <td class="stentry"> <p>Beliebiger Wert im Bereich von 0,125 bis 2,0, beide Werte inklusive. </p></td> 
-  <td class="stentry"> <p>Die Standardgrenze ist 0,25. </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist 0,25. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Ebene einbetten= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
-  <td class="stentry"> <p>Die Standardgrenze ist 1. </p></td> 
+  <td class="stentry"> <p>Der Standardwert ist 1. </p></td> 
  </tr> 
 </table>
 

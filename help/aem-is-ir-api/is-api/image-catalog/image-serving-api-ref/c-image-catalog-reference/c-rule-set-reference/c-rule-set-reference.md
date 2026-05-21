@@ -5,9 +5,20 @@ title: Referenz zum Regelsatz
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/ZRyGq2UXh41F4IpGudN48CV0LxzrDjZKk2yaOQnUP3o'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -132,7 +143,7 @@ Der Regelausdruck gibt eine Übereinstimmung (ohne Berücksichtigung der Groß-/
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**Beispiel B** Eine bestimmte Web-Anwendung lässt keine Abfragezeichenfolgen zu. Definieren Sie eine Regel, die das nachgestellte Pfadelement `small`, `medium` oder `large` in eine Vorlage übersetzt, wobei der Rest des Pfads als Bildname verwendet wird. `myCat/myImage/small` würde beispielsweise in `myCat/smallTemplate?src=myCat/myImage` übersetzt werden.
+**Beispiel B.** Eine bestimmte Web-Anwendung lässt keine Abfragezeichenfolgen zu. Definieren Sie eine Regel, die das nachgestellte Pfadelement `small`, `medium` oder `large` in eine Vorlage übersetzt, wobei der Rest des Pfads als Bildname verwendet wird. `myCat/myImage/small` würde beispielsweise in `myCat/smallTemplate?src=myCat/myImage` übersetzt werden.
 
 Wir können Teilzeichenfolgen verwenden, um die Anfrage neu zu strukturieren:
 
@@ -145,4 +156,4 @@ Wir können Teilzeichenfolgen verwenden, um die Anfrage neu zu strukturieren:
 
 ## Verwandte Themen {#section-9b748e7c5cff4759a70f96657bd43352}
 
-[package java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)
+[Paket java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)

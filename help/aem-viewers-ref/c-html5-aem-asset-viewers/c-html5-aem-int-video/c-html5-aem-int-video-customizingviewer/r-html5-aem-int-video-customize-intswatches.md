@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/40q8-9AJ1jcuAURbTj3HGo-dihtEX-UOzkwcWf0UapY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: 900
 ht-degree: 0%
 
 ---
@@ -127,7 +135,7 @@ Der folgende CSS-Klassenselektor steuert die Darstellung des Bannerbereichs:
    <td colname="col2"> <p>Die Schriftfamilie, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> für die </span>-Ausrichtung </p> </td> 
+   <td colname="col1"> <p> </span> für die <span class="codeph">-Ausrichtung </p> </td> 
    <td colname="col2"> <p>Die Schriftausrichtung, die für den Text im Bannerbereich verwendet werden soll. </p> </td> 
   </tr> 
  </tbody> 
@@ -255,7 +263,7 @@ Der folgende CSS-Klassenselektor steuert die Darstellung der Miniaturbildbeschri
    <td colname="col2"> <p>Rahmen kennzeichnen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 

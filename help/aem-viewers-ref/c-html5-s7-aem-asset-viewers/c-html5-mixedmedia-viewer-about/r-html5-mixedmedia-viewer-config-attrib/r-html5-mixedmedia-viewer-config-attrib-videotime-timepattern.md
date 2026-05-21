@@ -1,18 +1,26 @@
 ---
-title: VideoTime.timepattern
-description: VideoTime.timepattern
+title: VideoTime.timePattern
+description: VideoTime.timePattern
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0c79b3e2-ac5a-43c3-ac52-8240e7ed3cc1
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/J4UIyQ4XxB0ASY8Yhso0nO45JKrnK9n2hncqqz8JFqs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: 107
 ht-degree: 2%
 
 ---
 
-# VideoTime.timepattern{#videotime-timepattern}
+# VideoTime.timePattern{#videotime-timepattern}
 
 `[VideoTime.|<containerId>_videoTime.]timepattern=[h:]m|mm:s|ss`
 

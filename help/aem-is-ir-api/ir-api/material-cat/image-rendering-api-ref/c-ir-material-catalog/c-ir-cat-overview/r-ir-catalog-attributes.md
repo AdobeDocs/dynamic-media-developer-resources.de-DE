@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/P9BzsjyNdKRnbyGUFIy-ALtM7nDPl97G7DSnhgOhIYo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 292
 ht-degree: 1%
 
 ---
@@ -120,7 +128,7 @@ Die folgenden Attribute werden in Katalogattributdateien erkannt.
   <td class="stentry"> <p>Standardmäßige erweiterte Render-Einstellungen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> der </a> </p></td> 
+  <td class="stentry"> <p></a> der <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> </p></td> 
   <td class="stentry"> <p>Standardmäßige Textur-/Abziehbildauflösung. </p></td> 
  </tr> 
  <tr class="strow"> 

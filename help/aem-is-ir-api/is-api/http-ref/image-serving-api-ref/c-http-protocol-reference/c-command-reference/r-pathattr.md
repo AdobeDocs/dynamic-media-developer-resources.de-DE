@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/A7uOgsYtOH6AmVOtbUfQDVJHwJEkCSXqBYavY9CbRkw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: 154
 ht-degree: 1%
 
 ---
@@ -20,8 +28,8 @@ Text-auf-Pfad-Attribute.
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph">-</span> | <span class="codeph">-</span> </p> </td> 
+  <td class="stentry"> <p> </span> <span class="varname"> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> Norm </span> | <span class="codeph"> umgekehrte </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos-</span> </p> </td> 

@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+TQID: 'https://experienceleague.adobe.com/q50ZkCNO7xYJVVyfWgqu-BgxEd8HEZkI7uDX4jv8-ps'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 2%
+source-wordcount: 242
+ht-degree: 9%
 
 ---
 
@@ -49,7 +57,7 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
    <td> <p>Transaktionskennung. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>4 </b> </p> </td> 
+   <td> <p><b>4</b> </p> </td> 
    <td> <p>Jahre des Urheberrechts. </p> </td> 
   </tr> 
  </tbody> 
@@ -82,19 +90,19 @@ Vier Ganzzahlwerte, durch Kommas getrennt.
    <td> <p>Kopiergeschützt, eingeschränkt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>4 </b> </p> </td> 
+   <td> <p><b>4</b> </p> </td> 
    <td> <p>Reife Inhalte. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>5 </b> </p> </td> 
+   <td> <p><b>5</b> </p> </td> 
    <td> <p>Kopieren geschützter, nicht jugendfreier Inhalte. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>6 </b> </p> </td> 
+   <td> <p><b>6</b> </p> </td> 
    <td> <p>Eingeschränkte, für Erwachsene bestimmte Inhalte. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>7 </b> </p> </td> 
+   <td> <p><b>7</b> </p> </td> 
    <td> <p>Kopiergeschützte, eingeschränkte, reife Inhalte. </p> </td> 
   </tr> 
  </tbody> 
@@ -132,7 +140,7 @@ Die Interpretation von `*`val1`*` und `*`val2`*` hängt von `*`type`*` ab:
    <td> <p>Nicht verwendet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>4 </b> </p> </td> 
+   <td> <p><b>4</b> </p> </td> 
    <td> <p>Erstes Jahr des Urheberrechts. </p> </td> 
    <td> <p>Zweites Jahr des Urheberrechts. </p> </td> 
   </tr> 

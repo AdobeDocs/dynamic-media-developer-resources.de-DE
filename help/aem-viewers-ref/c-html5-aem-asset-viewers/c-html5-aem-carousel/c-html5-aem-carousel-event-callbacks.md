@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+TQID: 'https://experienceleague.adobe.com/VTILhyWja7ccpZeTREmdVA02kApt5VsJPNA-WevQWcM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 212
 ht-degree: 1%
 
 ---
@@ -37,9 +45,9 @@ Zu den unterstützten Viewer-Ereignissen gehören die folgenden:
    <td colname="col2"> <p> Trigger jedes Mal, wenn im Viewer ein Ereignis auftritt, das von einem Ereignisverfolgungssystem wie Adobe Analytics verarbeitet werden kann. Der Callback-Handler akzeptiert die folgenden Argumente: </p> <p> 
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
       <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String} </span> - wird derzeit nicht verwendet. </p> </li> 
-      <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String} </span> - wird derzeit nicht verwendet. </p> </li> 
-      <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String} </span> : Ein Instanzname der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat. </p> </li> 
-      <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph"> timeStamp {Number} </span> - Ereigniszeitstempel. </p> </li> 
+      <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String}-</span> - wird derzeit nicht verwendet. </p> </li> 
+      <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String} </span> - ein Instanzname der Viewer-SDK-Komponente, die das Ereignis ausgelöst hat. </p> </li> 
+      <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph">-Zeitstempel {Number} </span> - Ereigniszeitstempel. </p> </li> 
       <li id="li_05A1C45826AC4D1192CB72FE07EE4C29"> <p> <span class="codeph"> eventInfo {String} </span> - Ereignis-Payload. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -47,7 +55,7 @@ Zu den unterstützten Viewer-Ereignissen gehören die folgenden:
    <td colname="col1"> <p> <span class="codeph"> QuickViewActivate-</span> </p> </td> 
    <td colname="col2"> <p> Trigger, wenn der/die Benutzende einen Hotspot mit zugehörigen Schnellansichtsdaten aktiviert. Der Callback-Handler verwendet das folgende Argument: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
-      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object} </span> - ein JSON-Objekt, das Daten aus der Hotspot-Definition enthält. Das Feld <span class="codeph"> SKU-</span> ist obligatorisch, während andere Felder optional sind und von der Hotspot-Quelldefinition abhängen. </p> </li> 
+      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> {object} </span> - ein JSON-Objekt, das Daten aus der Hotspot-Definition enthält. Das Feld <span class="codeph"> SKU-</span> ist obligatorisch, während andere Felder optional sind und von der Hotspot-Quelldefinition abhängen. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

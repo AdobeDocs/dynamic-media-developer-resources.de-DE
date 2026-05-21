@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/tcVFYRTmobtTJo01ub86IgjoYzHvfIpbl9YN1-azHjE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: 2667
 ht-degree: 0%
 
 ---
@@ -450,7 +458,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
    <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
@@ -757,7 +765,7 @@ Die Größe und Ausrichtung der Beschriftung für die Einbettungsgröße wird mi
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur vertikalen Ausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur vertikalen Ausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Vertikale Ausrichtung des Titels. </p> </td> 
   </tr> 
   <tr> 

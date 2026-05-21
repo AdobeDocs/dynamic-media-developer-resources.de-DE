@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/-PushPHP2ZvNu2IFmB-1akxSvlXtDvxStXgFTAw1t-w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 444
 ht-degree: 1%
 
 ---
@@ -33,7 +41,7 @@ Materialdatei Gibt Materialdaten an, entweder in Form einer einzelnen Materialka
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;lbrace;'<span class="varname"> ForeignReq</span>'&rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;'<span class="varname"> ForeignReq</span>'&rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -99,7 +107,7 @@ Eine vollständige Liste der unterstützten Dateiformate finden Sie in der Besch
 
 ## Eigenschaften {#section-e68d03788d534e2184147987d51dfd0f}
 
-Materialattribut. Erforderlich für alle Materialien außer Vollfarben (nicht zulässig für Vollfarbmaterialien). Bei allen Zeichenfolgen wird zwischen Groß- und Kleinschreibung unterschieden. *`index`* muss 0 oder größer sein.
+Materialattribut. Erforderlich für alle Materialien außer Vollfarben (nicht zulässig für Vollfarbmaterialien). Bei allen Zeichenfolgen wird zwischen Groß- und Kleinschreibung unterschieden. *`index`* Muss 0 oder größer sein.
 
 ## Standard {#section-dde549c1917540dc8f9555962202da3c}
 

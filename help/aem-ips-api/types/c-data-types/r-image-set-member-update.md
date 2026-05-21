@@ -5,10 +5,18 @@ title: ImageSetMemberUpdate
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/c9-ANQJjBlcpQYnSmrD8nQQ08Vllqt3ZcpW6IBJ9-4I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: 100
+ht-degree: 4%
 
 ---
 
@@ -16,7 +24,7 @@ ht-degree: 3%
 
 Innerhalb dieses Typs ist das Feld „pageReset“ für die Asset-Typen „renderSet“ und „Catalog image“ aussagekräftig:
 
-* `RenderSet` gibt `pageReset` den Beginn einer neuen Render-Ansicht/Farbfeldgruppe an.
+* `pageReset` gibt `RenderSet` den Beginn einer neuen Render-Ansicht/Farbfeldgruppe an.
 
 * Für den Katalog gibt `pageReset` den Beginn einer neuen Seitenansicht an. In der Regel gibt es zwei Seitenbilder pro Seitenansicht, es können aber auch mehr oder weniger vorhanden sein.
 

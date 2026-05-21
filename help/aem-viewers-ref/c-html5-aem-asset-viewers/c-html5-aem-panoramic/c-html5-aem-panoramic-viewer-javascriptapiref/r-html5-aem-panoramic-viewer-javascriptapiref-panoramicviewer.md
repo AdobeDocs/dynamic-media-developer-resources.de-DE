@@ -5,10 +5,16 @@ solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+autotag-review: '2026-05-13T22:09:54.686Z'
+TQID: 'https://experienceleague.adobe.com/zSYqLmLn-LQhkIIrPe31JIouevTWijICBcrmY3fol1M'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 3%
+source-wordcount: 162
+ht-degree: 4%
 
 ---
 
@@ -19,7 +25,7 @@ Der -Konstruktor erstellt eine HTML5-Instanz des Panorama-Viewers.
 
 ## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
 
-Konfiguration
+config
 {Object} optionalem JSON-Konfigurationsobjekt können Sie alle Viewer-Einstellungen an den Konstruktor übergeben und den Aufruf einzelner Setter-Methoden vermeiden. Sie enthält die folgenden Eigenschaften:
 
 * containerId - {String} ID des DOM-Containers (normalerweise ein DIV), in den der Viewer eingefügt wird. Es ist nicht erforderlich, dass das Container-Element zum Zeitpunkt des Aufrufs dieser Methode erstellt wird. Der Container muss jedoch vorhanden sein, wenn init() ausgeführt wird. Erforderlich

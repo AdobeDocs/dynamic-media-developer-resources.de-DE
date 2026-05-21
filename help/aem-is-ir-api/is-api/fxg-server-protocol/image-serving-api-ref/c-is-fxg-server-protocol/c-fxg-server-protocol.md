@@ -1,27 +1,35 @@
 ---
 title: FXG-Serverprotokoll
-description: Um eine Grafik zu bearbeiten, können Sie Referenzpunkte verwenden, die Kompasspunkten ähneln.
+description: Zur Manipulation von Grafiken können Sie Referenzpunkte verwenden, die den Orientierungspunkten auf einem Kompass gleichen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/DXmhIshiUYoP-BlVe5cJFXbII9sEIdyo5YDkoKP-t0w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 18%
+source-wordcount: 275
+ht-degree: 28%
 
 ---
 
 # FXG-Serverprotokoll{#fxg-server-protocol}
 
-Um eine Grafik zu bearbeiten, können Sie Referenzpunkte verwenden, die Kompasspunkten ähneln.
+Zur Manipulation von Grafiken können Sie Referenzpunkte verwenden, die den Orientierungspunkten auf einem Kompass gleichen.
 
 Mit Referenzpunkten können Sie eine Grafik in Relation zu einem Referenzpunkt drehen, skalieren oder ihre Größe ändern. Die Referenzpunkte sind `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` und `southeast`. Beispielsweise können Sie eine Grafik mithilfe des Bezugspunkts des Mittelpunkts um 45° in der Mitte drehen. Die folgende Abbildung zeigt, wo sich die Referenzpunkte befinden, eine Grafik, die Grafik um 20° von ihrem `northWest` Referenzpunkt gedreht, und die Grafik um 20° von ihrem `east` Referenzpunkt gedreht.
 
 ![Referenzpunktbild](assets/wp_ref_points.png)
 
 * A. Positionen der Referenzpunkte
-* B. Grafik
+* B. Eine Grafik
 * C. Die Grafik rotierte um 20° von ihrem `northWest` Bezugspunkt
 * D. Die Grafik rotierte um 20° von ihrem `east` Bezugspunkt
 

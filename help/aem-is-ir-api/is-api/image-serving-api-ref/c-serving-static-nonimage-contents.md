@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/bC4s5gEY2HaVRGv37BToYmWINn7ZG1JMVp1wSIF60l4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: 475
 ht-degree: 0%
 
 ---
@@ -106,7 +116,7 @@ Statische Inhaltskataloge ähneln Bildkatalogen, unterstützen jedoch weniger Da
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Optionaler Datentyp; kann zum Filtern von Anfragen nach statischen Inhalten mit der <span class="codeph"> </span> type= verwendet werden. </p> </td> 
+   <td colname="col2"> <p>Optionaler Datentyp; kann zum Filtern von Anfragen nach statischen Inhalten mit der </span> <span class="codeph"> type= verwendet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,9 +135,9 @@ Sie können Videountertiteldateien (WebVTT), CSS oder eine beliebige Textdatei i
 
 Sie können auch Tracks für andere Arten von zeitgesteuerten Metadaten verwenden. Die Quelldaten für jedes Spurelement sind eine Textdatei, die aus einer Liste von zeitlich begrenzten Hinweisen besteht. Hinweise können Daten in Formaten wie JSON oder CSV enthalten.
 
-Weitere Informationen zum JSONP-[&#x200B; finden Sie unter &#x200B;](https://en.wikipedia.org/wiki/JSONP)https://en.wikipedia.org/wiki/JSONP.
+Weitere Informationen zum JSONP-[&#128279;](https://en.wikipedia.org/wiki/JSONP) finden Sie unter https://en.wikipedia.org/wiki/JSONP.
 
-Weitere Informationen zum JSON-[&#x200B; finden Sie unter &#x200B;](https://www.json.org/json-en.html)www.json.org.
+Weitere Informationen zum JSON-[&#128279;](https://www.json.org/json-en.html) finden Sie unter www.json.org.
 
 ## Verwandte Themen {#section-7b28631016044a22a3a6762fd64771e9}
 

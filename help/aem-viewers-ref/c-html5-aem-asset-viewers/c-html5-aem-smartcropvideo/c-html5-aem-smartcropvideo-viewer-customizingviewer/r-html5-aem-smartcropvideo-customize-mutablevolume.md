@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: e0a3e849-842b-4137-acc2-34301e89518f
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/r9LkEbCmQVwUk6CkNR3Hc6b--4-wniFauWcTULMqNoU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: 541
 ht-degree: 0%
 
 ---
@@ -243,4 +251,4 @@ Im Folgenden finden Sie ein Beispiel dafür, wie Sie den Video-Player so anpasse
                 }
 ```
 
-Im obigen Code-Beispiel wird der Lautstärkepegel auf der `0` auf `mutableVolume` festgelegt. Anschließend wird dieselbe Komponente deaktiviert, sodass sie vom Endbenutzer nicht mehr verwendet werden kann.
+Im obigen Code-Beispiel wird der Lautstärkepegel auf der `mutableVolume` auf `0` festgelegt. Anschließend wird dieselbe Komponente deaktiviert, sodass sie vom Endbenutzer nicht mehr verwendet werden kann.

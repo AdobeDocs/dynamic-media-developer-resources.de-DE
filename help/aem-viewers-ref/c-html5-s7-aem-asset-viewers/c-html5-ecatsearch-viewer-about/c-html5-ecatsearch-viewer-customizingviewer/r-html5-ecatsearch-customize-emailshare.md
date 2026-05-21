@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/26Wnmtp2hMt26oBq0IQ-VBr-t2n8vQE6WgllzGjC2kA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: 3145
 ht-degree: 0%
 
 ---
@@ -447,7 +455,7 @@ Darüber hinaus verwenden beide Schaltflächen eine gemeinsame CSS-Klasse, die C
    <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Schaltfläche. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
@@ -675,7 +683,7 @@ Alle statischen Beschriftungen, die links neben den Formulareingabefeldern angez
    <td colname="col2"> <p>Die Breite der statischen Beschriftung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Die horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
@@ -848,11 +856,11 @@ Mit der Schaltfläche Weitere E-Mail-Adresse hinzufügen können Benutzende mehr
    <td colname="col2"> <p>Schriftfamilie der Schaltfläche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p>Texthöhe innerhalb der Schaltfläche. Wirkt sich auf die vertikale Ausrichtung aus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Horizontale Textausrichtung. </p> </td> 
   </tr> 
   <tr> 
@@ -1006,7 +1014,7 @@ Die `background-image`-Eigenschaft wird durch die Komponentenlogik festgelegt.
    <td colname="col2"> <p>Höhe des Miniaturbilds. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur vertikalen Ausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur vertikalen Ausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Miniaturansicht für vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 
@@ -1200,7 +1208,7 @@ Wenn Benutzende falsche Eingabedaten eingeben und die Inline-Validierung fehlsch
    <td colname="col2"> <p>Schriftfamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p> Texthöhe innerhalb der Nachricht. Beeinflusst die vertikale Ausrichtung. </p> </td> 
   </tr> 
   <tr> 

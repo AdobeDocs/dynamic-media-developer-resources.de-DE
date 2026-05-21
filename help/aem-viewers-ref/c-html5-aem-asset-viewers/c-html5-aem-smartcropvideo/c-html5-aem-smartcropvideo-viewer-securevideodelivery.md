@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: b809a11f-3c2d-4abd-b317-fabb36245b1b
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/GEFBNZe72VvcI9VXDusYjbDghMmsaFaIAWJWcFuwFps'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 202
 ht-degree: 0%
 
 ---
@@ -37,7 +45,7 @@ Je nach der Methode zum Veröffentlichen von Dynamic Media-Videos, die Sie in Ad
 
   -->
 
-Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=de#dynamic).
+Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
 * Wenn Sie ein Dynamic Media-Video mit Einbettungs-Code veröffentlichen, fügen Sie `SmartCropVideoPlayer.ssl` zur Liste der anderen Viewer-Konfigurationsparameter im Einbettungs-Code-Snippet hinzu.
 
@@ -72,4 +80,4 @@ Siehe auch [Verknüpfen von URLs mit einer Web-Anwendung](https://experienceleag
 
   -->
 
-Siehe auch [Einbetten des Videos auf einer Web-Seite](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=de#dynamic).
+Siehe auch [Einbetten des Videos auf einer Web-Seite](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

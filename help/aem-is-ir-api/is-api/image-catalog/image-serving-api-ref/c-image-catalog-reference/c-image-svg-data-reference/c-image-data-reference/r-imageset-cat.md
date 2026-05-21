@@ -5,9 +5,17 @@ title: Bildsatz
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/wh25AlzBQv0W-lEugybS8B-cIYYFoK8o9I2uGb52Ui4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 681
 ht-degree: 1%
 
 ---
@@ -93,12 +101,12 @@ Jedes Element in einem Medienset kann aus einem Bild, einem grundlegenden Muster
 
 | `*`mediaSet`*` | `*`item`* &#42;[ , *`item`* ]` |
 |---|---|
-| `*`item`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
+| `*`item`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[` `] ] ]`*`reserved`* |
 | `*`videoItem`*` | `*`video`* ; *`swatchId`*` |
 | `*`recutItem`*` | `*`recut`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
 | `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
-| `*`ID`*` | `media type identifier` `[` img \| Einfach \| Advanced_Image \| img \| img_set \| Advanced_ImageSet \| Advanced_Swatchset \| Rotation \| `]` |
+| `*`ID`*` | `media type identifier` `[` img \| basic \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| Spin \| `]` |
 | `*`swatchId`*` | IS-Bild-ID |
 | `*`video`*` | Pfad der Video-/Animationsdatei oder statische Katalog-ID |
 | `*`neu schneiden`*` | XML-Dateipfad für Neuausschnittdefinition oder statische Katalog-ID |
