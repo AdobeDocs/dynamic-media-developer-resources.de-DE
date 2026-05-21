@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/H3e7HZb3M8vz338CV6xNjROxITz0HLLHz1B5fIiDfWo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2173'
+source-wordcount: 2224
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Viewer-Typ ist 510.
 [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=de)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 -->
 
 ## Systemanforderungen {#section-b7270cc4290043399681dc504f043609}
@@ -51,7 +56,7 @@ Auf Touch-Geräten wird die Lautstärkeregelung in der Benutzeroberfläche ausge
 
 Wenn der Viewer im Popup-Modus ausgeführt wird, ist in der Benutzeroberfläche keine Vollbildschaltfläche verfügbar.
 
-Der Viewer zeigt rechts neben dem Video-Anzeigebereich ein Bedienfeld mit interaktiven Farbfeldern an. Die Liste der Farbfelder wird während der Videowiedergabe automatisch fortgeschrieben, sodass Farbfelder angezeigt werden, die dem aktuellen Videobereich entsprechen. Trigger Durch Klicken oder Tippen auf einen Musterabschnitt wird eine Aktion ausgelöst, die während der Erstellungszeit mit einem solchen Musterabschnitt verknüpft war. Je nach Einrichtung kann der Trigger zu einer anderen Seite der Website umleiten. Oder es übergibt Produktinformationen zurück an die Web-Seitenlogik, die wiederum das Öffnen einer Schnellansicht Trigger, die zugehörige Produktinhalte anzeigt.
+Der Viewer zeigt rechts neben dem Video-Anzeigebereich ein Bedienfeld mit interaktiven Farbfeldern an. Die Liste der Farbfelder wird während der Videowiedergabe automatisch fortgeschrieben, sodass Farbfelder angezeigt werden, die dem aktuellen Videobereich entsprechen. Durch Klicken oder Tippen auf einen Musterabschnitt wird eine Aktion ausgelöst, die während der Erstellungszeit mit einem solchen Musterabschnitt verknüpft war. Je nach Einrichtung kann der Trigger zu einer anderen Seite der Website umleiten. Oder es übergibt Produktinformationen zurück an die Web-Seitenlogik, die wiederum das Öffnen einer Schnellansicht Trigger, die zugehörige Produktinhalte anzeigt.
 
 Es ist möglich, schnell durch den Videoinhalt zu navigieren, wenn das Videokapitel aktiviert ist. Videokapitel werden als Markierungen in der Video-Scrubber-Spur angezeigt und zeigen den Kapiteltitel und die Beschreibung beim Rollover (oder bei einem einzigen Tippen auf Touch-Systeme) an. Der Kunde kann ein bestimmtes Kapitel „suchen“, indem er auf eine Kapitelmarkierung klickt oder auf eine Kapitelbeschreibungsblase tippt.
 
@@ -129,7 +134,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite festlegen. Sie können sie auch in eine benutzerdefinierte Viewer-CSS-Datei einfügen, die später in Adobe Experience Manager Assets „On-Demand“ einem Viewer-Vorgabeneintrag zugewiesen oder explizit mit `style` Befehl übergeben wird.
 
-   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden Sie unter „Anpassen &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) interaktiven Video-Viewers“ .
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) interaktiven Video-Viewers“ .
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
@@ -283,7 +288,7 @@ Die folgende Beispielseite zeigt weitere reale Verwendungen der responsiven Desi
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=de)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

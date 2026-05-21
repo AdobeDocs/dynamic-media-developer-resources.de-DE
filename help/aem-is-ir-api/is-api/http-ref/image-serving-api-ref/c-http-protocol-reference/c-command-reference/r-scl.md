@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/Evu9NXhBJE-Z4inLuaWJkiJikd2yslhec5q7C2azxKw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 138
 ht-degree: 2%
 
 ---
@@ -43,7 +47,7 @@ Wenn weder `wid=`, `hei=` noch `scl=` angegeben sind, hat das Antwortbild entwed
 
 ## Beispiel {#section-a33f6239476a4b438d939656ad99aa76}
 
-Eine allgemeine Anwendung von [&#x200B; finden Sie &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) Beispiel in &quot;`scl=`=&quot;.
+Eine allgemeine Anwendung von `scl=` finden Sie [ Beispiel in &quot;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)=&quot;.
 
 ## Verwandte Themen {#section-ccefd5de59924059903d66d4974ce317}
 

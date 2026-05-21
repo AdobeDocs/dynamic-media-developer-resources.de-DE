@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/Dlc-HhO8gjpNds-8-cv3vCxILlTePVblpu1D1MP8eN0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 220
 ht-degree: 2%
 
 ---
@@ -24,7 +28,7 @@ Abziehbildgröße. Gibt die Größe eines Abziehbilds an.
   <td class="stentry"> <p>Größe des Abziehbildobjekts in Szenenkoordinateneinheiten (normalerweise Zoll) (real, real). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> </span> </p> </td> 
+  <td class="stentry"> <p> </span> <span class="varname"> </p> </td> 
   <td class="stentry"> <p>Die Dicke des Abziehbilds in Szenenkoordinateneinheiten (normalerweise in Zoll) (real). </p> </td> 
  </tr> 
 </table>

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+TQID: 'https://experienceleague.adobe.com/pMirwhZ5n0mVuK2If4kJz3XDQZPDhORJCZBLsDf2C8I'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -55,8 +59,8 @@ Die `<reqHandler>` Syntax ist der Name des JS-Handlers, der in der JSONP-Antwort
 
 Das Paket Dynamic Media Image Serving Viewers enthält ein Dienstprogramm zum Anfordern und Analysieren von JSONP-formatierten Daten von Image Serving.
 
-Weitere Informationen zum JSONP-[&#x200B; finden Sie unter &#x200B;](https://en.wikipedia.org/wiki/JSONP)https://en.wikipedia.org/wiki/JSONP.
+Weitere Informationen zum JSONP-](https://en.wikipedia.org/wiki/JSONP) finden Sie unter [https://en.wikipedia.org/wiki/JSONP.
 
-Weitere Informationen zum JSON-[&#x200B; finden Sie unter &#x200B;](https://www.json.org/json-en.html)www.json.org.
+Weitere Informationen zum JSON-](https://www.json.org/json-en.html) finden Sie unter [www.json.org.
 
 Siehe auch [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

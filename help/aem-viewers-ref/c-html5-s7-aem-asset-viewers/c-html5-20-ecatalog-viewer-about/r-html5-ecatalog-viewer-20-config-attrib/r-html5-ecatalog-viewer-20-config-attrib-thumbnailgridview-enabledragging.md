@@ -1,18 +1,22 @@
 ---
-title: ThumbnailGridView.enabledragging
-description: ThumbnailGridView.enabledragging
+title: ThumbnailGridView.enableDragging
+description: ThumbnailGridView.enableDragging
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3615e82-d8f0-427e-ab32-f7d0f2b6cbf3
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/zdDZOJxd9p7pOlbP9XPEBl27AILe8fvINca8lbsnImI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 3%
+source-wordcount: 80
+ht-degree: 6%
 
 ---
 
-# ThumbnailGridView.enabledragging{#thumbnailgridview-enabledragging}
+# ThumbnailGridView.enableDragging{#thumbnailgridview-enabledragging}
 
 ` [ThumbnailGridView.|<containerId>_gridView.]enabledragging=0|1[, *`overdragvalue`*]`
 
@@ -24,7 +28,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Funktioniert im <span class="codeph"> 0-1 </span>. Es handelt sich um einen <span class="codeph"> von </span> % für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. Wenn er auf <span class="codeph"> 1 </span> eingestellt ist, bewegt er sich mit der Maus. Wenn sie auf <span class="codeph"> 0 </span> eingestellt ist, können Sie sich überhaupt nicht in die falsche Richtung bewegen. </p> </td> 
+   <td> <p> Funktioniert im <span class="codeph"> 0-1 </span>. Es handelt sich um einen </span> von <span class="codeph"> % für die Bewegung in die falsche Richtung der tatsächlichen Geschwindigkeit. Wenn er auf <span class="codeph"> 1 </span> eingestellt ist, bewegt er sich mit der Maus. Wenn sie auf <span class="codeph"> 0 </span> eingestellt ist, können Sie sich überhaupt nicht in die falsche Richtung bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

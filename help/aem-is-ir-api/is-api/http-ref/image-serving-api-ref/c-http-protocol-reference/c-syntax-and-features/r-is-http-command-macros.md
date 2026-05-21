@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/a7vbT8heEkiWfmxn3wPudnzYTRN-H-I5D22038P4mJE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ Befehlsmakros bieten benannte Tastaturbefehle für Befehlssätze. Makros werden 
  </tr> 
 </table>
 
-`*`name`*` unterscheidet nicht zwischen Groß- und Kleinschreibung und kann aus einer beliebigen Kombination von ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39; bestehen. Zeichen.
+`*`name`*` unterscheidet nicht zwischen Groß- und Kleinschreibung und kann aus einer beliebigen Kombination von ASCII-Buchstaben, Zahlen , &#39;-&#39;, &#39;_&#39; und &#39;.&#39;-Zeichen bestehen.
 
 Makros können in einer Anfrage an einer beliebigen Stelle nach dem &quot;?“ und an einer beliebigen Stelle innerhalb eines `catalog::Modifier`- oder `catalog::PostModifier` aufgerufen werden. Makros können nur einen oder mehrere vollständige Image-Serving-Befehle darstellen und müssen von anderen Befehlen durch `&` Trennzeichen getrennt werden.
 

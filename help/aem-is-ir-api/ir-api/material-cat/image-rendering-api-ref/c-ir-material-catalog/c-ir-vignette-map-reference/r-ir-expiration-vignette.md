@@ -5,9 +5,13 @@ title: Ablauf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5717d568-467e-495b-b963-9b3d42e866a6
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+TQID: 'https://experienceleague.adobe.com/VHARdBKoak-pB54FrPO6u0Gpmd-1sQZUF-78j3ixB2U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: 141
 ht-degree: 3%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 3%
 
 Client-Cache-Lebensdauer. Anzahl der Stunden bis zum Ablauf. Wird für die Verwaltung der Zwischenspeicherung von Client- und Proxy-Servern verwendet.
 
-Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md):Expiration.
+Weitere Informationen [ Sie unter ](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md):Expiration.
 
 ## Eigenschaften {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 

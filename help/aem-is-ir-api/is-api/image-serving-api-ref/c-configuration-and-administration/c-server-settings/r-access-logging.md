@@ -5,9 +5,14 @@ title: Zugriffsprotokollierung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/YY1vKXzVCe8TRK0lYsdkH5ds5EHCGkBOz1TaMx5IMi4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ Syntax
 
 ## TC::directory - Protokolldateiordner {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Der Ordner, in den der [!DNL Platform Server] Protokolldateien schreibt. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`* sein. Der Standardwert lautet [!DNL &#x200B; *`install_folder`*/logs].
+Der Ordner, in den der [!DNL Platform Server] Protokolldateien schreibt. Dies kann ein absoluter Pfad oder ein Pfad relativ zu *`install_folder`* sein. Der Standardwert lautet [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -28,11 +33,11 @@ Der Ordner, in den der [!DNL Platform Server] Protokolldateien schreibt. Dies ka
 
 ## TC::maxDays - Anzahl der Tage, die Protokolldateien aufbewahrt werden {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Die Anzahl der Tage, die Protokolldateien beibehalten werden sollen. Täglich um Mitternacht werden neue Protokolldateien erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der vom Bild-Server oder Render-Server geschriebenen Dateien. Die Standardgrenze ist 10.
+Die Anzahl der Tage, die Protokolldateien beibehalten werden sollen. Täglich um Mitternacht werden neue Protokolldateien erstellt. Zu diesem Zeitpunkt löscht der Server alle Dateien im Protokolldateiordner, die älter als die angegebene Anzahl von Tagen sind, einschließlich der vom Bild-Server oder Render-Server geschriebenen Dateien. Der Standardwert ist 10.
 
 ## TC::prefix - Zugriff auf Protokolldateiname {#section-1003856323b844049632710a5a056aa7}
 
-Namenspräfix für die Datei, in die die Zugriffsprotokolldaten geschrieben werden. Datum und Dateiendung ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Trace-Protokolldatei unterscheiden. Der Standardwert lautet &quot;`access-`&quot;.
+Namenspräfix für die Datei, in die die Zugriffsprotokolldaten geschrieben werden. Datum und Dateiendung ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) werden an die angegebene Zeichenfolge angehängt. Der Name der Zugriffsprotokolldatei muss sich von dem der Trace-Protokolldatei unterscheiden. Der Standardwert lautet &quot;`access-`&quot;.
 
 ## TC::pattern - Zugriffsprotokoll-Muster {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -67,7 +72,7 @@ Die folgenden Mustervariablen werden unterstützt:
    <td> <p>Byteanzahl der Antwort ohne HTTP-Kopfzeilen. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %d </span> </p> </td> 
+   <td> <p> <span class="codeph"> %D </span> </p> </td> 
    <td> <p>Verarbeitungszeit der Anfrage in Millisekunden. </p> </td> 
   </tr> 
   <tr> 
@@ -92,7 +97,7 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>Abfragezeichenfolge (mit vorangestelltem "?“ falls vorhanden). </p> </td> 
+   <td> <p>Abfragezeichenfolge (mit vorangestelltem "?“, falls vorhanden). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
@@ -107,7 +112,7 @@ Die folgenden Mustervariablen werden unterstützt:
    <td> <p>HTTP-Antwort-Status-Code. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %s </span> </p> </td> 
+   <td> <p> <span class="codeph"> %S </span> </p> </td> 
    <td> <p>Benutzer-Sitzungs-ID. </p> </td> 
   </tr> 
   <tr> 
@@ -136,14 +141,14 @@ Die folgenden Mustervariablen werden unterstützt:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] Schlüsselwort für die Cache-Verwaltung: <span class="codeph"> { REUSED | ERSTELLT | AKTUALISIERT | ENTFERNT | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDIERT | IGNORIERT | UNDEFINED } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] Cache-Management-Schlüsselwort: <span class="codeph"> { WIEDERVERWENDET | ERSTELLT | AKTUALISIERT | ENTFERNT | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDIERT | IGNORIERT | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ContentType}r-</span> </p> </td> 
    <td> <p>Der Antwort-MIME-Typ. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>%{Context}r </p> </td> 
+   <td> <p>%{context}r </p> </td> 
    <td> <p>Der Zielkontext, wenn ein Weiterleitungskontext auftritt. </p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +176,7 @@ Die folgenden Mustervariablen werden unterstützt:
    <td> <p>IP-Adresse des Peer-Servers im Cache-Cluster, der den Cache-Eintrag bereitgestellt hat, oder '-', wenn <span class="codeph"> CacheUse-</span> weder <span class="codeph"> REMOTE_CREATED-</span> noch <span class="codeph"> REMOTE_UPDATED-</span> ist. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{processingStatus}r </span> </p> </td> 
    <td> <p>Fehlerkategorie: </p> <p> 
      <ul id="ul_BA2A18337D374939AC9BF2424247E40F"> 
       <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0=kein Fehler. </p> </li> 
@@ -186,7 +191,7 @@ Die folgenden Mustervariablen werden unterstützt:
    <td> <p>Der Wert in Großbuchstaben <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{rootId}r </span> </p> </td> 
    <td> <p>Die Stamm-ID des Hauptkatalogs der Anfrage. </p> </td> 
   </tr> 
   <tr> 
@@ -194,7 +199,7 @@ Die folgenden Mustervariablen werden unterstützt:
    <td> <p>Die Zeit, die [!DNL Platform Server] zum Senden der Antwort nach dem Schreiben von Daten in den Ausgabestream benötigt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{size}r </span> </p> </td> 
    <td> <p>Wie <span class="codeph"> %B </span>, enthält jedoch Werte für 304-Antworten (nicht modifiziert). </p> </td> 
   </tr> 
   <tr> 

@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/ydZxVPE4iwQMlJLnmCFXeAzkVX2cSGiuDzeNeEi5iaU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 2%
+source-wordcount: 272
+ht-degree: 5%
 
 ---
 
@@ -48,7 +52,7 @@ Dieser Viewer unterstützt verdeckte Untertitel über gehostete WebVTT-Dateien. 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Testausrichtung </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> links|rechts|Mitte|Start|Ende </span> </p> </td> 
    <td colname="col4"> <p> Steuert die Ausrichtung von Text. </p> <p>Der Standardwert ist <span class="codeph"> Middle </span>. </p> </td> 
@@ -56,13 +60,13 @@ Dieser Viewer unterstützt verdeckte Untertitel über gehostete WebVTT-Dateien. 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>Textposition </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Prozentsatz der Einfügung in die VideoPlayer-Komponente für den Anfang des Untertiteltextes. </p> <p>Der Standardwert ist <span class="codeph"> 0 % </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>Zeilengröße </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Prozentsatz der für Untertitel verwendeten Videobreite. </p> <p>Der Standardwert lautet <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
   <tr> 

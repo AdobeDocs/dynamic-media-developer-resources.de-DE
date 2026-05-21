@@ -5,9 +5,13 @@ title: Das Dienstprogramm „playlog“
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/z8SkpY0A2aAo5ULL61m5uUiesuovSrcVjhzNRGbkAUQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: 437
 ht-degree: 0%
 
 ---
@@ -47,7 +51,7 @@ Zusätzlich zum Vorbereiten des HTTP-Antwort-Caches nach der Upgrade-Installatio
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname"> Suffix </span> </span> </p> </td> 
-  <td class="stentry"> <p>Suffix, der an die aus der Protokolldatei extrahierte Anfrage angehängt werden soll. Kann verwendet werden, um die wiedergegebenen Anforderungen von den Live-Anforderungen in den Protokolldateien zu trennen. Ein "?“ oder das Trennzeichen '&amp;' wird automatisch eingefügt. Das Suffix kann innerhalb geschweifter Klammern positionsbezogen auf jedes Protokollfeld verweisen. Standard entspricht dem MD5-Signaturfeld. </p> <p>Standard: <span class="codeph"> playlog={25} </span>) </p> </td> 
+  <td class="stentry"> <p>Suffix, das an die aus der Protokolldatei extrahierte Anforderung angehängt werden soll. Kann verwendet werden, um die wiedergegebenen Anforderungen von Live-Anforderungen in den Protokolldateien zu trennen. Ein "?“- oder "&amp;"-Trennzeichen wird automatisch eingefügt. Das Suffix kann jedes Protokollfeld an jeder Position in geschweiften Klammern referenzieren, standardmäßig entspricht dem MD5-Signaturfeld. </p> <p>Standard: <span class="codeph"> playlog={25} </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 

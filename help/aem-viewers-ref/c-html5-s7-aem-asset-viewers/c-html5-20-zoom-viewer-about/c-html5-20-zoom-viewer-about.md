@@ -6,9 +6,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/L-Dy2JpWs29wOU5v-sAqS2DO9uAtbo93hNLDWThMAmk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: 2337
 ht-degree: 0%
 
 ---
@@ -65,7 +70,7 @@ Der Zoom-Viewer unterstützt die folgenden Touch-Gesten, die in anderen Mobile A
   </tr> 
   <tr> 
    <td colname="col1"> <p>Horizontales Wischen oder Schnipsen </p> </td> 
-   <td colname="col2"> <p> Scrollt durch die Liste der Farbfelder in der Farbfeldleiste. </p> <p> Wenn sich das Bild in einem zurückgesetzten Zustand befindet und der <span class="codeph"> für die </span> Bildübergänge auf „Folie“ gesetzt ist, wird das Asset mit der Folienanimation geändert. Für andere <span class="codeph"> Frametransition-</span> führt die Geste einen nativen Bildlauf der Seite durch. </p> <p> Wenn das Bild vergrößert wird, wird es horizontal verschoben. Wenn das Bild an den Ansichtsrand verschoben wird und ein Wischen in die gleiche Richtung ausgeführt wird, führt die Geste einen nativen Bildlauf der Seite durch. </p> </td> 
+   <td colname="col2"> <p> Scrollt durch die Liste der Farbfelder in der Farbfeldleiste. </p> <p> Wenn sich das Bild in einem zurückgesetzten Zustand befindet und der </span> für die <span class="codeph"> Bildübergänge auf „Folie“ gesetzt ist, wird das Asset mit der Folienanimation geändert. Für andere <span class="codeph"> Frametransition-</span> führt die Geste einen nativen Bildlauf der Seite durch. </p> <p> Wenn das Bild vergrößert wird, wird es horizontal verschoben. Wenn das Bild an den Ansichtsrand verschoben wird und ein Wischen in die gleiche Richtung ausgeführt wird, führt die Geste einen nativen Bildlauf der Seite durch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertikales Wischen </p> </td> 
@@ -165,7 +170,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Um die äußeren Viewer-Grenzen intakt zu halten, definieren Sie die Größe für die `.s7zoomviewer` CSS-Klasse der obersten Ebene in absoluten Einheiten. Die Größenanpassung in CSS kann direkt auf der HTML-Seite vorgenommen werden. Sie kann auch in eine benutzerdefinierte Viewer-CSS-Datei eingefügt werden, die später einem Viewer-Vorgabeneintrag in Dynamic Media Classic zugewiesen oder explizit mithilfe eines Stilbefehls übergeben wird.
 
-   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden Sie unter „Anpassen &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) Zoom-Viewers“ .
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden Sie unter „Anpassen ](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) Zoom-Viewers“ .
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen äußeren Viewer-Größe auf der HTML-Seite:
 
@@ -180,7 +185,7 @@ Der relative Pfad sieht wie folgt aus:
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=de)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
 -->
 
@@ -199,7 +204,7 @@ Im Folgenden finden Sie ein Beispiel dafür, wie Sie die Viewer-Größe für die
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=de)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
 -->
 

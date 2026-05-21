@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/iT-q5yLQijvkYDB0xOq3E6r1k3DIbU9BWu3Jkqs8wUI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 672
 ht-degree: 1%
 
 ---
@@ -40,7 +44,7 @@ Die Lokalisierung von Textzeichenfolgen wird auf alle Zeichenfolgenelemente ange
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">::Targets-</span> </p> </td> 
-   <td> <p>Der Wert eines beliebigen <span class="codeph">.*.label </span> und <span class="codeph"> Target.*.UserData-</span>. </p> </td> 
+   <td> <p>Der Wert einer beliebigen <span class="codeph"> target.*.label-</span> und <span class="codeph"> target.*.userdata-</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">::UserData-</span> </p> </td> 
@@ -97,7 +101,7 @@ Weitere Informationen finden Sie in der Beschreibung von `attribute::LocaleStrMa
 
 ## Der Übersetzungsprozess {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-Angesichts der obigen beispielhaften Übersetzungszuordnung und der Anfrage-`/is/image/myCat/myItem?req=&locale=nl` sucht der Server zunächst in der Gebietsschema-Zuordnung nach &quot;`nl`&quot;. Der übereinstimmende `nl,N` gibt an, dass für jeden *`stringElement`* der mit *`localizedString`* markierte `^loc=N^` zurückgegeben werden soll. Wenn diese *`localizationToken`* nicht in der *`stringElement`* vorhanden ist, wird ein leerer Wert zurückgegeben.
+Angesichts der obigen beispielhaften Übersetzungszuordnung und der Anfrage-`/is/image/myCat/myItem?req=&locale=nl` sucht der Server zunächst in der Gebietsschema-Zuordnung nach &quot;`nl`&quot;. Der übereinstimmende `nl,N` gibt an, dass für jeden *`stringElement`* der mit `^loc=N^` markierte *`localizedString`* zurückgegeben werden soll. Wenn diese *`localizationToken`* nicht in der *`stringElement`* vorhanden ist, wird ein leerer Wert zurückgegeben.
 
 Nehmen wir an, `catalog::UserData` für `myCat/myItem` enthält Folgendes (Zeilenumbrüche wurden aus Gründen der Klarheit eingefügt):
 
@@ -119,7 +123,7 @@ Die beispielhafte Übersetzungszuordnung gibt an, dass in einem solchen Fall die
 
 **Sprachfamilien**
 
-Jedem *`locId`* in der Übersetzungs-Map können mehrere *`locale`* Werte zugeordnet werden. Der Grund dafür ist, dass es die Unterstützung länder- oder regionsspezifischer Variationen (z. B. US-Englisch versus britisches Englisch) für ausgewählte *`stringElements`* ermöglicht, während die meisten Inhalte mit gängigen Basisgebietsschemata (z. B. internationales Englisch) verarbeitet werden.
+Jedem *`locale`* in der Übersetzungs-Map können mehrere *`locId`* Werte zugeordnet werden. Der Grund dafür ist, dass es die Unterstützung länder- oder regionsspezifischer Variationen (z. B. US-Englisch versus britisches Englisch) für ausgewählte *`stringElements`* ermöglicht, während die meisten Inhalte mit gängigen Basisgebietsschemata (z. B. internationales Englisch) verarbeitet werden.
 
 Im Beispiel werden US-spezifisches Englisch ( `*`locId`* EUS`) und UK-spezifisches Englisch ( `*`locId`* EUK`) unterstützt, um die gelegentliche alternative Rechtschreibung zu unterstützen. Wenn es kein EUK oder EUS gibt, so fällt es auf E zurück. Ebenso könnten österreichische spezifische deutsche Varianten ( `DAT`) bei Bedarf zur Verfügung gestellt werden, während die meisten Zeit gemeinsame deutsche *`localizedStrings`* (mit `D` gekennzeichnet) zurückgegeben werden.
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/prSGGMuV4SpFfhd8uCVzMRGpr-VBpowxE-UagKtpnqI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 4%
 
 ---
@@ -35,7 +39,7 @@ Positive Winkel drehen sich im Uhrzeigersinn. Die Textur oder das Abziehbild wir
 
 ## Eigenschaften {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Materialattribut. Wird von einfarbigen Materialien, Tapeten, Schränken und Fensterbehandlungen ignoriert. *`angle`* Wiederholbare Texturen müssen ein Vielfaches von 45 haben, es sei denn, sie werden auf Fließlinien- oder Skizzenobjekte angewendet.
+Materialattribut. Wird von einfarbigen Materialien, Tapeten, Schränken und Fensterbehandlungen ignoriert. *`angle`* Muss ein Vielfaches von 45 für wiederholbare Texturen sein, es sei denn, diese werden auf Fließlinien- oder Skizzenobjekte angewendet.
 
 ## Standard {#section-14c991e71b74449db8ff18a775949b28}
 

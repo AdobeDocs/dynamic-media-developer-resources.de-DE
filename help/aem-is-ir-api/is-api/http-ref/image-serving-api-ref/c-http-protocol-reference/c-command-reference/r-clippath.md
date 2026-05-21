@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/K4w8R8Ke-0GXFdhfpxgAcltyN3icVsJJdRGfx1OiSjg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 556
 ht-degree: 0%
 
 ---
@@ -83,14 +87,14 @@ Die folgenden Pfadbefehle werden in „pathDefinition`*` unterstützt`*`:
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
    <td> <p> Kurve zu absolut </p> </td> 
-   <td> <p> Zeichnen Sie eine Bézierkurve von der aktuellen Position auf x,y. x1,y1 ist der Steuerpunkt am Anfang der Kurve und x2,y2 ist der Steuerpunkt am Ende der Kurve. </p> </td> 
+   <td> <p> Zeichnen Sie eine Bézierkurve von der aktuellen Position zu x,y. X1,Y1 ist der Steuerpunkt am Anfang der Kurve und X2,Y2 ist der Steuerpunkt am Ende der Kurve. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
    <td> <p> Kennlinie </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> Z</b> | <b>Z</b> </td> 
+   <td> <b> Z</b> | <b>z</b> </td> 
    <td> <p> closePath </p> </td> 
    <td> <p> Schließt den aktuellen Unterpfad mit einer geraden Linie. </p> </td> 
   </tr> 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/L4j9Svu1H5DOc55iImhT1g6hRQT6svB0V2kuRsU37GE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -30,7 +34,7 @@ Datenfelder dürfen keine `<CR>`, `<LF>` oder `<TAB>` Zeichen enthalten, es sei 
 
 Mehrere Datenwerte im selben Feld werden durch Kommas (&#39;,&#39;) getrennt, sofern nicht anders angegeben.
 
-Spalten, deren Namen mit &quot;.“ beginnen werden ignoriert; dies ermöglicht das Speichern von Daten in Materialkatalogen, die für das Bild-Rendering nicht von Interesse sind. Spalten mit unbekannten Kopfzeilennamen werden ignoriert und in die Protokolldatei wird eine Warnung geschrieben.
+Spalten, deren Namen mit &quot;.“ beginnen, werden ignoriert. Dies ermöglicht das Speichern von Daten in Materialkatalogen, die für das Rendern von Bildern nicht von Interesse sind. Spalten mit unbekannten Kopfzeilennamen werden ignoriert und in die Protokolldatei wird eine Warnung geschrieben.
 
 Feldnamen können aus einer beliebigen Kombination von ASCII-Buchstaben, -Zahlen und &quot;-&quot; und „_“ bestehen.
 

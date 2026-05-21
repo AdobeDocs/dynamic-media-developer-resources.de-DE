@@ -1,18 +1,22 @@
 ---
 description: Gibt die Richtung der Folienanimation für den Schaltflächen-Container an.
 solution: Experience Manager
-title: FavoritesMenu.bearing
+title: FavoritenMenü.Peilung
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2466a288-59c2-4a5e-b0bd-ff5b42dcacdb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Pe9frhI8cmIorx5zE-cdC-frEP77UOksMwyM9PvUCdo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 189
 ht-degree: 1%
 
 ---
 
-# FavoritesMenu.bearing{#favoritesmenu-bearing}
+# FavoritenMenü.Peilung{#favoritesmenu-bearing}
 
 Gibt die Richtung der Folienanimation für den Schaltflächen-Container an.
 

@@ -5,10 +5,14 @@ title: Joboption
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/YZk3XGX8gY3M3yQjcK8CLabeVYJTiseH1Li4ZhntUTE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 38%
+source-wordcount: 244
+ht-degree: 43%
 
 ---
 
@@ -44,7 +48,7 @@ Die folgenden Optionen werden derzeit unterstützt:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Farbe </p></td> 
-  <td class="stentry"> <p> Farbstrategie (Nur Tag-Bilder werden als Tag-Elemente behandelt) </p> <p> Dokument-Renderpriorität </p> <p> Für 4.2.5 werden nur die folgenden Arbeitsbereiche unterstützt. </p> <p> 
+  <td class="stentry"> <p> Farbstrategie (Nur Tag-Bilder werden als Tag-Elemente behandelt) </p> <p> Dokument-Renderpriorität </p> <p> Nur die folgenden Arbeitsfarbräume werden für 4.2.5 unterstützt. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 

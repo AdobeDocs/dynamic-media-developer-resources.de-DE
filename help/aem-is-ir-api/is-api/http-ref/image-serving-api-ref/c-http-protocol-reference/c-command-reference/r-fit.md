@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/qCi-M0u1lJZ2SSc3bnezs1jjpXhcqsv-pKCvQ60XSo8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: 488
 ht-degree: 1%
 
 ---
@@ -44,7 +48,7 @@ Bei der folgenden Beschreibung der Modusoptionen wird davon ausgegangen, dass *`
    <td colname="col2"> <p>Skaliert das zusammengesetzte Bild so, dass es in den mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> belegten Raum passt, mit minimalem Leerraum und ohne Zuschneiden. Das Antwortbild hat die exakte Größe, die mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben wurde. Der kleinere von <span class="varname"> xScale-</span> und <span class="varname"> yScale-</span> wird angewendet. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Skaliert das zusammengesetzte Bild wie <span class="codeph"> Fit </span>, sodass es in den mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> belegten Raum passt, aber das tatsächliche Antwortbild kann kleiner sein als mit <span class="codeph"> wid= </span> und <span class="codeph"> hei= </span> angegeben, um Leerzeichen zu vermeiden. Der kleinere von <span class="varname"> xScale-</span> und <span class="varname"> yScale-</span> wird angewendet. </p> </td> 
   </tr> 
   <tr valign="top"> 

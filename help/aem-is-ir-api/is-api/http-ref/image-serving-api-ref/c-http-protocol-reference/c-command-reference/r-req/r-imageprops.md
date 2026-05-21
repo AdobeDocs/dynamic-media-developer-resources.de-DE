@@ -5,10 +5,14 @@ title: imageProps
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/idRlUDsoqYYoak6kMyqn9-IeJHBShjjqaHvtDKgRUhw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 4%
+source-wordcount: 340
+ht-degree: 5%
 
 ---
 
@@ -137,7 +141,7 @@ Die folgenden Eigenschaften werden zurückgegeben:
   <tr> 
    <td> <p> <span class="codeph"> image.translatedId</span> </p> </td> 
    <td> <p> Zeichenfolge </p> </td> 
-   <td> <p> Katalog-ID, zu der das im <span class="varname"> angegebene </span> aufgelöst wird (siehe <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Objekt-ID-Übersetzung</a>). </p> </td> 
+   <td> <p> Katalog-ID, zu der das im </span> angegebene <span class="varname"> aufgelöst wird (siehe <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Objekt-ID-Übersetzung</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

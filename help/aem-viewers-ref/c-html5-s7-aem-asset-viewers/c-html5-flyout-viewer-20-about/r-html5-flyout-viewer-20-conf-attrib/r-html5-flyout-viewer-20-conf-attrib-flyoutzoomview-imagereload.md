@@ -1,18 +1,22 @@
 ---
-title: FlyoutZoomView.imagereload
-description: FlyoutZoomView.imagereload
+title: FlyoutZoomView.ImageLoad
+description: FlyoutZoomView.ImageLoad
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 483fa64b-5196-4477-8ea6-0f32c6557f72
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/nkYQwtTb1AUBLBbnN2HwMZLIjyolj5l-6CxEy-yEo3k'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 2%
+source-wordcount: 120
+ht-degree: 4%
 
 ---
 
-# FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
+# FlyoutZoomView.ImageLoad{#flyoutzoomview-imagereload}
 
 ` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`width`*[; *`width`*]]`
 

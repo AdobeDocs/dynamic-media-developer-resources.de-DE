@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/TZi2AdS9MK2A2WtCCJMmMRvwZ70Kdt2aeHOP--QtA4U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: 1061
 ht-degree: 2%
 
 ---
@@ -18,7 +22,7 @@ Format des Antwortbildes.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - AVIF-Alpha | AVIF | EPS | F4M | gif-alpha | GIF | heic | JPEG | jpeg2000-alpha | JPEG2000 | jpegxr-alpha | JPEGXR | jpg | M3u8 | PDF | PJPEG | png-alpha | PNG | png8-alpha | png8 | swf-alpha | SWF | swf3-alpha | swf3 | TIF-Alpha | TIF | web-alpha | WebP
+*`format`* - AVIF-Alpha | AVIF | EPS | F4M | GIF-Alpha | GIF | HEIC | JPEG | JPEG2000-Alpha | JPEG2000 | JPEGXR-Alpha | JPEGXR | JPG | M3U8 | PDF | PJPEG | PNG-Alpha | PNG8-Alpha | PNG8 | SWF-Alpha | SWF | SWF3-Alpha | SWF3 | TIF-Alpha | TIF | Web-Alpha | Web-P
 
 | *`format`* | Beschreibung |
 |---|---|
@@ -51,7 +55,7 @@ Format des Antwortbildes.
 | `webp-alpha` | Verlorenes und verlustfreies WebP mit Alphakanal. |
 | `webp` | Verlust- und verlustfreies WebP. |
 
-*`pixelType`* - rgb | grau | CMYK
+*`pixelType`* - RGB | Grau | CMYK
 
 | *`pixelType`* | Beschreibung |
 |---|---|
@@ -59,7 +63,7 @@ Format des Antwortbildes.
 | `gray` | Gibt Bilddaten mit Graustufen zurück. |
 | `rgb` | Gibt RGB-Bilddaten zurück. |
 
-*`compression`* - JPEG | verlustreich | verlustfrei | Gesetz | Keine | PLZ
+*`compression`* - JPEG | Verloren | Verlustfrei | LZW | Keine | ZIP
 
 | *`compression`* | Beschreibung |
 |---|---|
@@ -196,7 +200,7 @@ Anforderungsattribut. Wird unabhängig von der aktuellen Ebeneneinstellung angew
 
 ## Standard {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, bei dem die *`defaultType`* wie folgt behandelt wird: Wenn `icc=` angegeben ist, entspricht *`defaultType`* dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, wird *`defaultType`* bei `gray` `req=mask`, andernfalls `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, bei dem die *`defaultType`* wie folgt behandelt wird: Wenn `icc=` angegeben ist, entspricht *`defaultType`* dem Pixeltyp des angegebenen ICC-Profils. Wenn `icc=` nicht angegeben ist, wird *`defaultType`* bei `req=mask` `gray`, andernfalls `rgb`.
 
 ## Beispiele {#section-b93222e652df404a84c69025247f07df}
 

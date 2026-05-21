@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/5AJ1XTWCH3I5HEZPLTOSNfXDg-GqHOF7fRrhOdSq0kA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 3%
+source-wordcount: 208
+ht-degree: 6%
 
 ---
 
@@ -31,7 +35,7 @@ Der Viewer unterstützt verdeckte Untertitel durch gehostete WebVTT-Dateien. Üb
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Textausrichtung </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> links|rechts|Mitte|Start|Ende </span> </p> </td> 
    <td colname="col4"> <p> Steuern der Textausrichtung. </p> <p>Der Standardwert ist <span class="codeph"> Middle </span>. </p> </td> 
@@ -39,13 +43,13 @@ Der Viewer unterstützt verdeckte Untertitel durch gehostete WebVTT-Dateien. Üb
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>Textposition </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Prozentsatz der Einfügung in die VideoPlayer-Komponente für den Anfang des Untertiteltextes. </p> <p>Der Standardwert ist 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>Zeilengröße </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Prozentsatz der für Untertitel verwendeten Videobreite. </p> <p>Der Standardwert lautet 100 %. </p> </td> 
   </tr> 
   <tr> 

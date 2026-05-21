@@ -5,9 +5,13 @@ title: Exportvorgang
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/h-GfeigJEitlDHdIGUYv-Trj3fhk5Lp9hcWxeL-A3qA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 198
 ht-degree: 10%
 
 ---
@@ -44,7 +48,7 @@ ExportJob unterstützt nicht die folgenden Asset-Typen:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL fmt]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Gibt den Typ des <span class="codeph">-Exports an.Mögliche Werte</span>: [orig, convert] </p> <p> 
+   <td colname="col3"> <p>Gibt den Typ des <span class="codeph"> an.Mögliche Werte</span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Wenn <span class="codeph"> fmt=</span>ist, werden die Assets als Original exportiert </li> 
       <li id="li_07F2F8D159934D889FDC1022AB12B564">Wenn <span class="codeph">fmt=convert</span> werden die Assets in das Format konvertiert, das in den <span class="codeph">-Eingabeparametern </span>_modifier oder <span class="codeph"> Makro angegeben </span> </li> 
@@ -53,7 +57,7 @@ ExportJob unterstützt nicht die folgenden Asset-Typen:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Gibt die Rendering<span class="codeph">URL-Zeichenfolge des </span> ImageServer an, die an die Anfrage „ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=de" scope="external" format="html">-Modifikatoren finden </a> in der Dokumentation zu IIS. </p> </td> 
+   <td colname="col3"> <p>Gibt die Rendering</span>URL-Zeichenfolge des <span class="codeph"> ImageServer an, die an die Anfrage „ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html">-Modifikatoren finden </a> in der Dokumentation zu IIS. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

@@ -1,18 +1,22 @@
 ---
-title: FlyoutZoomView.flyouttransition
-description: FlyoutZoomView.flyouttransition
+title: FlyoutZoomView.flyoutTransition
+description: FlyoutZoomView.flyoutTransition
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: a15723fe-a8be-49c5-bad3-1a1360eeb232
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/iruR3DHgjvkhRkUii2qvRjpbFSxRHsbT4hKfwSMqXtg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: 118
 ht-degree: 2%
 
 ---
 
-# FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
+# FlyoutZoomView.flyoutTransition{#flyoutzoomview-flyouttransition}
 
 ` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showTime`*[, *`showDelay`*[, *`hideTime`*[, *`hideDelay`*]]]]`
 

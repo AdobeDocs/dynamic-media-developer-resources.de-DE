@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+TQID: 'https://experienceleague.adobe.com/JXCFGSsY9dmtktxFk4oexcONUMspp9hUNhbaB1nacyE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: 1066
 ht-degree: 0%
 
 ---
@@ -150,7 +154,7 @@ Der folgende CSS-Klassenselektor steuert die wiedergegebene Zeitblase:
    <td colname="col2"> <p> Positionieren Sie sie innerhalb des Bildsets, wenn CSS-Sprites verwendet werden. </p> <p>Siehe <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> von CSS-Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zur Textausrichtung </span> </p> </td> 
+   <td colname="col1"> <p> </span> zur Textausrichtung <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Ausrichtung des Textes am Blasenbereich. </p> </td> 
   </tr> 
  </tbody> 
@@ -288,7 +292,7 @@ Der Header wird durch den folgenden CSS-Klassenselektor gesteuert:
    <td colname="col2"> <p>Hintergrundfarbe des Videokapitels für die Sprechblase. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p>Bubble-Header-Text der Videokapitelhöhe </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +424,7 @@ Die Beschreibung des Videokapitels wird durch den folgenden CSS-Klassenselektor 
    <td colname="col2"> <p>Schriftfamilie der Videokapitelbeschreibung. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mit </span> Zeilenhöhe </p> </td> 
+   <td colname="col1"> <p> </span> mit <span class="codeph"> Zeilenhöhe </p> </td> 
    <td colname="col2"> <p>Zeilenhöhe der Videokapitelbeschreibung </p> </td> 
   </tr> 
   <tr> 

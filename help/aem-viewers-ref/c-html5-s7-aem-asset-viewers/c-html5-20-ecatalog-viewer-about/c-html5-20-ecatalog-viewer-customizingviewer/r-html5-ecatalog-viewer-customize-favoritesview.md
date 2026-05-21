@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jOrrq3rLoXwGWAKAcafCkv2twn-N-PE5jbEqQpZI9WQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: 295
 ht-degree: 0%
 
 ---
@@ -130,7 +134,7 @@ Das Erscheinungsbild der Miniaturbildbeschriftung wird mit dem folgenden CSS-Kla
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> der Schriftfamilie </span> </p> </td> 
+   <td colname="col1"> <p> </span> der Schriftfamilie <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Schriftart. </p> </td> 
   </tr> 
   <tr> 

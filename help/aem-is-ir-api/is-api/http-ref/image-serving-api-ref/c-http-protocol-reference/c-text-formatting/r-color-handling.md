@@ -1,13 +1,17 @@
 ---
 title: Farbverarbeitung
-description: Die RTF-Spezifikation lässt RGB-Farbwerte zu, die mit &bsol;colortbl angegeben sind. Jede Komponente wird separat mit den Befehlen &bsol;rot, &bsol;grün und &bsol;blau bereitgestellt.
+description: Die RTF-Spezifikation lässt die mit &bsol;colorTbl angegebenen RGB-Farbwerte zu. Jede Komponente wird separat mit den Befehlen &bsol;rot, &bsol;grün und &bsol;blau bereitgestellt.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/w5IfFwmdMegueJbDMjwvb5XCPuemRcJ1XTqcJFgdEMQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ Der proprietäre RTF-Erweiterungsbefehl `\cmykcolortbl` die Angabe von CMYK-Farb
 
 Die Werte der Farbkomponenten für `\colortbl` liegen im Bereich von 0 bis 255. Die Komponentenwerte für `\cmykcolortbl` liegen im Bereich von 0 bis 100.
 
-Der von `\*\iscolortbl` unterstützte RTF-Erweiterungsbefehl `textPs=` bietet die Möglichkeit, eine Farbtabelle mit standardmäßigen Bildbereitstellungsfarbwerten anzugeben, wobei RGB, Grau, CMYK und Alpha vollständig unterstützt werden. Sie weist die folgende Syntax auf:
+Der von `textPs=` unterstützte RTF-Erweiterungsbefehl `\*\iscolortbl` bietet die Möglichkeit, eine Farbtabelle mit standardmäßigen Bildbereitstellungsfarbwerten anzugeben, wobei RGB, Grau, CMYK und Alpha vollständig unterstützt werden. Sie weist die folgende Syntax auf:
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 

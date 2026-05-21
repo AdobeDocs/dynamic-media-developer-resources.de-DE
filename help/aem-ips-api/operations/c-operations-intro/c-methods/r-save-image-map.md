@@ -5,9 +5,13 @@ title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/ZSA0CvygWjE-RgySjcXudpqzrfaYZ2LUqeqbnlRLWbc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: 244
 ht-degree: 8%
 
 ---
@@ -85,7 +89,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> Aktion </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Der <span class="codeph"> href </span> Wert, der mit der Imagemap verknüpft ist, wie in der IPS-Schnittstelle angegeben. </p> <p>Um den <span class="codeph"> href-</span>-Wert zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL, fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als richtige URL. Beispielsweise wird <span class="codeph"> &amp; </span> zu <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col4"> <p>Der <span class="codeph"> href </span> Wert, der mit der Imagemap verknüpft ist, wie in der IPS-Schnittstelle angegeben. </p> <p>Um den <span class="codeph"> href-</span>-Wert zu erhalten, klicken Sie auf das Bild in der IPS-Oberfläche, kopieren Sie die URL, fügen Sie sie in dieses Element ein und formatieren Sie dann die IPS-URL als richtige URL. Beispielsweise wird <span class="codeph"> &amp; </span> zu <span class="codeph"> &amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Position </span> </span> </td> 

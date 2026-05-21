@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/QuVnFsc1R-WcjFpnyENi6n9US7Y7V-cETwitnVsmMss'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -185,8 +190,8 @@ Es wurden die Felder Beschreibung, `jobSubType` und `originalJobName` zum `JobLo
 Darüber hinaus sind die folgenden Felder nicht in `getJobLogs` und `getJobLogDetails` enthalten. In früheren Versionen waren sie nur mit `getJobLogDetails` verfügbar.
 
 * `endDate` (wenn der Vorgang abgeschlossen ist).
-* `fileDuplicateCount` (zuvor war es immer mit `0` `getJobLogs`)
-* `fileUpdateCount` (wurde zuvor immer mit `0` `getJobLogs` und in `fileSuccessCount` eingeschlossen; jetzt ist er in separate Felder unterteilt).
+* `fileDuplicateCount` (zuvor war es immer mit `getJobLogs` `0`)
+* `fileUpdateCount` (wurde zuvor immer mit `getJobLogs` `0` und in `fileSuccessCount` eingeschlossen; jetzt ist er in separate Felder unterteilt).
 
 Das Feld assetHandle wurde zum `JobLogDetail` hinzugefügt.
 
@@ -268,11 +273,11 @@ Es wurden zusätzliche Optionen zum `UploadDirectoryJob` und `UploadUrlsJob` hin
   </tr> 
   <tr> 
    <td colname="col1" morerows="3"> <p> <span class="codeph"> [!DNL IllustratorOptions] </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col2"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
       <li id="li_53749049B383441A81CB427A5B5F26A8"> <span class="codeph"> keine </span> </li> 
-      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> </span> (Standard) </li> 
+      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> </span> <span class="codeph"> (Standard) </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_41924574773542B7BFC4989667C14E97"> 
@@ -297,11 +302,11 @@ Es wurden zusätzliche Optionen zum `UploadDirectoryJob` und `UploadUrlsJob` hin
   </tr> 
   <tr> 
    <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions-</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col2"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EF9C27EE7A154DA890CB9E6BA174D767"> 
       <li id="li_0BB0FC1BA43043EEA1EA257E5D603978"> <p> <span class="codeph"> keine </span> </p> </li> 
-      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> </span> (Standard) </p> </li> 
+      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> </span> <span class="codeph"> (Standard) </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_84EE74454FF5434087A895F915E68103"> 

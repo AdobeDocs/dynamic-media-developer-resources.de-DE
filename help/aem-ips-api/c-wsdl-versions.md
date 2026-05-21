@@ -5,10 +5,14 @@ title: WSDL-Versionen des IPS-Webdienstes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/S-g6J7oZiuEbw-Y8Wk7IMy6vQmAQJiBVV7d-f8ZyrE0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: 1003
+ht-degree: 0%
 
 ---
 
@@ -94,22 +98,22 @@ Denken Sie daran, dass Sie möglicherweise Ihren Code ändern müssen, wenn Sie 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4,5 </p> </td> 
+   <td colname="col1"> <p>4.5 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsAPI-2010-01-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4,4 </p> </td> 
+   <td colname="col1"> <p>4.4 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsAPI-2009-07-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4,2 </p> </td> 
+   <td colname="col1"> <p>4.2 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsAPI-2008-09-10.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4,0 </p> </td> 
+   <td colname="col1"> <p>4.0 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsAPI-2008-01-15.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
   </tr> 
@@ -176,7 +180,7 @@ Die bevorzugte Methode zum Übergeben von Authentifizierungsdaten in API-Anfrage
    <td colname="col2"> <p> Gültige IP-Benutzer-E-Mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Kennwort für Benutzerkonto. </p> </td> 
   </tr> 
   <tr> 
@@ -184,7 +188,7 @@ Die bevorzugte Methode zum Übergeben von Authentifizierungsdaten in API-Anfrage
    <td colname="col2"> <p> Optionales Gebietsschema für die Anfrage. Siehe <b>Gebietsschema</b> für Details. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AppName-<span class="codeph"> </span> </p> </td> 
+   <td colname="col1"> <p> AppName-</span> <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Aufrufender Anwendungsname. Dieser Parameter ist optional, es wird jedoch empfohlen, ihn in alle Anfragen aufzunehmen. </p> </td> 
   </tr> 
   <tr> 

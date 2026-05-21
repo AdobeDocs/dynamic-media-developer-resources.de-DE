@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/QV2kCpSVhXdG59s5WjrQ7ENp-F5qkDuHCJeL-nkwuP4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 342
 ht-degree: 1%
 
 ---
@@ -37,7 +41,7 @@ Wenn das Quellbild einen Alphakanal hat, wird es in allen Fällen verwendet. And
 
 Wenn eine Maske an eine einfarbige Ebene angehängt ist, kann sie mit denselben Regeln zugeschnitten und skaliert werden, die für Bilder in Bildebenen verwendet werden. `size=`, `scale=` oder `res=` können zum Skalieren der Maske verwendet werden.
 
-Ebenenmasken können auch in Form eines *`nestedRequest`* angegeben werden. Verschachtelte oder eingebettete Anforderungen sind von geschweiften Klammern umgeben. Stellen Sie einer Anforderung zur Bereitstellung eines eingebetteten Bildes das Präfix `is` und einer Anforderung zum Rendern eines eingebetteten Bildes das Präfix `ir`. Eine Anfrage an einen Fremdserver wird angenommen, wenn kein Präfix angegeben ist. Weitere Informationen finden [&#x200B; unter „Verschachtelung und Einbettung &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
+Ebenenmasken können auch in Form eines *`nestedRequest`* angegeben werden. Verschachtelte oder eingebettete Anforderungen sind von geschweiften Klammern umgeben. Stellen Sie einer Anforderung zur Bereitstellung eines eingebetteten Bildes das Präfix `is` und einer Anforderung zum Rendern eines eingebetteten Bildes das Präfix `ir`. Eine Anfrage an einen Fremdserver wird angenommen, wenn kein Präfix angegeben ist. Weitere Informationen finden [ unter „Verschachtelung und Einbettung ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
 
 ## Eigenschaften {#section-a093043dc249423b8ae322cefb0d545d}
 

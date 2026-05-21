@@ -1,18 +1,22 @@
 ---
-title: VideoPlayer.singleclick
+title: VideoPlayer.singleClick
 description: Konfigurationsattribut für den interaktiven Video-Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 038640c7-ae8c-43e0-979b-6010bb5e40fb
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/Vg05yIAO5E-vWvJdcuQTR0hHQjO9ZNJ2-jJXckvUxxs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: 72
 ht-degree: 4%
 
 ---
 
-# VideoPlayer.singleclick{#videoplayer-singleclick}
+# VideoPlayer.singleClick{#videoplayer-singleclick}
 
 Konfigurationsattribut für den interaktiven Video-Viewer.
 

@@ -5,9 +5,13 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e179fc51-0461-4000-99eb-4390c35d5606
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/tqpsn2LTwuUX-SDJTtMKhfpF391ZjjxohgfJn4a-Mdo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 307
 ht-degree: 3%
 
 ---
@@ -21,7 +25,7 @@ Format des Antwortbildes.
 <table id="simpletable_66FAABB7BD7A4BBB815A570BEA4C1AE8"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> Format</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> JPEG | PNG | png-alpha | TIF | TIF-Alpha | SWF | PDF | GIF | gif-alpha | FXG | fxgraw</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> JPEG | PNG | PNG-ALPHA | TIF | TIF-ALPHA | SWF | PDF | GIF | GIF-ALPHA | FXG | FXGRAW</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
@@ -29,11 +33,11 @@ Format des Antwortbildes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> RGB | grau | CMYK</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> RGB | Grau | CMYK</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Kann verwendet werden, um den Ausgabefarbraum zu beeinflussen. </p> <p> RGB-<span class="codeph"> </span>: RGB-Bilddaten zurückgeben </p> <p> <span class="codeph">-</span>: Gibt Bilddaten mit Graustufen zurück </p> <p> <span class="codeph"> CMYK-</span>: Gibt CMYK-Bilddaten zurück </p> </td> 
+  <td class="stentry"> <p> Kann verwendet werden, um den Ausgabefarbraum zu beeinflussen. </p> <p> RGB-</span> <span class="codeph">: RGB-Bilddaten zurückgeben </p> <p> <span class="codeph">-</span>: Gibt Bilddaten mit Graustufen zurück </p> <p> <span class="codeph"> CMYK-</span>: Gibt CMYK-Bilddaten zurück </p> </td> 
  </tr> 
 </table>
 
@@ -75,7 +79,7 @@ In der folgenden Tabelle sind die gültigen Kombinationen aus Format und `pixelT
    <td> <p>RGB, Grau, CMYK </p> </td> 
    <td> <p>&lt;image/tiff&gt; </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> ( keine | Gesetz | PLZ | jpeg), qlt=</span> </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> ( Keine | lzw | zip | jpeg), qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>SWF, SWF-Alpha </p> </td> 
