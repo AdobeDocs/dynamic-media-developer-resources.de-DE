@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
 TQID: 'https://experienceleague.adobe.com/f6ZcI9qxgd90LVq6KM1VeTU1avNX-eWmqLhIMNeitoU'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 1428
@@ -334,7 +338,7 @@ Die Fußzeile des Dialogfelds besteht aus einer Schaltfläche Abbrechen . Der Fu
 .s7video360viewer .s7linkdialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
+**CSS-Eigenschaften des &#x200B;** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -597,7 +601,7 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit
 
 Diese Klasse ist nicht zur Steuerung der Größe oder Position der Beschriftung geeignet, da Sie sie auf Texte an verschiedenen Stellen der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbezeichnung. **
+**CSS-Eigenschaften der Dialogfeldbezeichnung. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

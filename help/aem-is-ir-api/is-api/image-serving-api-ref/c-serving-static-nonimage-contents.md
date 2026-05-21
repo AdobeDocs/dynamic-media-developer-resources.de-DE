@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
 TQID: 'https://experienceleague.adobe.com/bC4s5gEY2HaVRGv37BToYmWINn7ZG1JMVp1wSIF60l4'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 475
@@ -130,9 +135,9 @@ Sie können Videountertiteldateien (WebVTT), CSS oder eine beliebige Textdatei i
 
 Sie können auch Tracks für andere Arten von zeitgesteuerten Metadaten verwenden. Die Quelldaten für jedes Spurelement sind eine Textdatei, die aus einer Liste von zeitlich begrenzten Hinweisen besteht. Hinweise können Daten in Formaten wie JSON oder CSV enthalten.
 
-Weitere Informationen zum JSONP-](https://en.wikipedia.org/wiki/JSONP) finden Sie unter [https://en.wikipedia.org/wiki/JSONP.
+Weitere Informationen zum JSONP-[&#128279;](https://en.wikipedia.org/wiki/JSONP) finden Sie unter https://en.wikipedia.org/wiki/JSONP.
 
-Weitere Informationen zum JSON-](https://www.json.org/json-en.html) finden Sie unter [www.json.org.
+Weitere Informationen zum JSON-[&#128279;](https://www.json.org/json-en.html) finden Sie unter www.json.org.
 
 ## Verwandte Themen {#section-7b28631016044a22a3a6762fd64771e9}
 

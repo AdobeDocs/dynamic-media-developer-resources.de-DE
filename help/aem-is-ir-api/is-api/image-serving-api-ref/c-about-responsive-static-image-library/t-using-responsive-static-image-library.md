@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
 TQID: 'https://experienceleague.adobe.com/06qs3B4mQcS7CSQs46RYnhTTpSa2xONlzN4Nfg0oU0g'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 567
@@ -23,7 +28,7 @@ Um einer Web-Seite die Bibliothek „Responsive Image“ hinzuzufügen und vorha
 
 **So verwenden Sie die Bibliothek responsiver Bilder**
 
-1. Erstellen Sie [ Dynamic Media Classic eine Bildvorgabe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) falls Sie die Bibliothek für responsive Bilder mit Vorgaben verwenden möchten.
+1. Erstellen Sie [&#x200B; Dynamic Media Classic eine Bildvorgabe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) falls Sie die Bibliothek für responsive Bilder mit Vorgaben verwenden möchten.
 
    Verwenden Sie beim Definieren von Bildvorgaben, die mit der Bibliothek für responsive Bilder verwendet werden, keine Einstellungen wie `wid=`, `hei=` oder `scl=`, die die Bildgröße beeinflussen. Geben Sie in der Bildvorgabe keine Größenfelder an. Lassen Sie sie stattdessen als leere Werte.
 1. Fügen Sie die JavaScript-Bibliotheksdatei zu Ihrer Webseite hinzu.
