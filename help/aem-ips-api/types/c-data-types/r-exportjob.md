@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: null
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 198
 ht-degree: 10%
@@ -61,7 +61,7 @@ ExportJob unterstützt nicht die folgenden Asset-Typen:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Gibt die Rendering</span>URL-Zeichenfolge des <span class="codeph"> ImageServer an, die an die Anfrage „ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html">-Modifikatoren finden </a> in der Dokumentation zu IIS. </p> </td> 
+   <td colname="col3"> <p>Gibt die Rendering</span>URL-Zeichenfolge des <span class="codeph"> ImageServer an, die an die Anfrage „ExportJob <span class="codeph"> convert</span> angehängt wird. </p> <p>Einzelheiten zum Senden der <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=de" scope="external" format="html">-Modifikatoren finden </a> in der Dokumentation zu IIS. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 
