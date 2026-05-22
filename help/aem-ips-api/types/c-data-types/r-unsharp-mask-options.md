@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 TQID: 'https://experienceleague.adobe.com/J9LoVO0ZOapo0ao5gJoyNXc5qu3A3fNDD8ALRAiHudg'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: null
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 8%
@@ -100,4 +96,4 @@ Der `unsharpMaskOptions` wird verwendet von:
 
 >[!MORELIKETHIS]
 >
->* [Image-Serving-API-Referenz: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=de)
+>* [Image-Serving-API-Referenz: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
