@@ -5,8 +5,8 @@ feature-set: Experience Manager Assets
 user-guide-description: Die IPS (Image Production System)-Webservice-API ermöglicht es externen Anwendungen und Drittanbieterentwicklern, programmgesteuert auf IPS-Assets und -Funktionen zuzugreifen.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 5%
+source-wordcount: '662'
+ht-degree: 1%
 
 ---
 
