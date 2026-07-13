@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 TQID: 'https://experienceleague.adobe.com/IzqnNnq7aFgXgEYQ6MJwxqnajYSJlULdEKxaa0OtGWI'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 3%
@@ -61,3 +57,4 @@ Wenn dies der Fall ist, werden die folgenden Materialattribute verwendet, um die
 Der Renderer passt den Bereich des `gloss=`- und `rough=` entsprechend den `type=` an. Einige Materialtypen wie Gewebe sind weniger reflektierend als Materialtypen wie Stein oder Metall. Außerdem führt die gleiche für eine bestimmte Glanzmenge oft zu einem anderen Reflexionseffekt als die andere. Das Attribut `gloss=` und die Rauigkeit haben einen ziemlich breiten Farbraum, wenn `type=` nicht angegeben oder auf `0` gesetzt ist.
 
 `glossmap=` Wird verwendet, um den Glanz eines Materials Pixel für Pixel zu steuern.
+
