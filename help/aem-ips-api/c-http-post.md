@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 2%
@@ -78,12 +74,12 @@ Der Upload-Auftrag besteht aus einem oder mehreren HTTP-POSTs, die eine gemeinsa
 
 |  HTTP-POST-Formularteil   |  uploadPostParams-Elementname   |  Typ   |  Beschreibung   |
 |---|---|---|---|
-| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter)   |   `companyHandle`  |  `xsd:string`  | Erforderlich. Verarbeiten Sie das Unternehmen, in das die Datei hochgeladen wird.  |
-| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `jobName`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Name des Upload-Auftrags.  |
-| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `jobHandle`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Handhabung eines Upload-Auftrags, der mit einer vorherigen Anfrage gestartet wurde.  |
-| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `locale`  |  `xsd:string`  | Optional. Sprache und Ländercode für die Lokalisierung.  |
-| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `description`  |  `xsd:string`  | Optional. Beschreibung des Vorgangs.  |
-| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `destFolder`  |  `xsd:string`  | Optional. Zielordnerpfad, der einer Dateinameneigenschaft das Präfix voranstellt, insbesondere für Browser und andere Clients, die möglicherweise nicht vollständige Pfade in einem Dateinamen unterstützen.  |
+| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter)   |   `companyHandle`  |  `xsd:string`  | Erforderlich. Verarbeiten Sie das Unternehmen, in das die Datei hochgeladen wird. |
+| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `jobName`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Name des Upload-Auftrags. |
+| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `jobHandle`  |  `xsd:string`  | Entweder `jobName` oder `jobHandle` ist erforderlich. Handhabung eines Upload-Auftrags, der mit einer vorherigen Anfrage gestartet wurde. |
+| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `locale`  |  `xsd:string`  | Optional. Sprache und Ländercode für die Lokalisierung. |
+| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `description`  |  `xsd:string`  | Optional. Beschreibung des Vorgangs. |
+| `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `destFolder`  |  `xsd:string`  | Optional. Zielordnerpfad, der einer Dateinameneigenschaft das Präfix voranstellt, insbesondere für Browser und andere Clients, die möglicherweise nicht vollständige Pfade in einem Dateinamen unterstützen. |
 | `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `fileName`  |  `xsd:string`  | Optional. Name der Zieldatei. Überschreibt die Eigenschaft filename . |
 | `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `endJob`  |  `xsd:boolean`  | Optional. Der Standardwert ist „false“. |
 | `uploadParams` (erforderlich) Ein XML-`uploadParams` (mit Angabe der Upload-Parameter) | `uploadParams`  |  `types:UploadPostJob`  | Optional, wenn dies eine nachfolgende Anfrage für einen vorhandenen aktiven Auftrag ist. Wenn ein Auftrag vorhanden ist, wird `uploadParams` ignoriert und die vorhandenen Auftrags-Upload-Parameter werden verwendet. Siehe [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
@@ -114,7 +110,7 @@ Bei einer erfolgreichen POST-Anfrage ist der Antworttext ein XML-`uploadPostRetu
 
 Die zurückgegebene `jobHandle` wird für alle nachfolgenden POST-Anfragen für denselben Auftrag im Parameter `uploadPostParams`/`jobHandle` übergeben. Sie können damit auch den Auftragsstatus mit dem `getActiveJobs` abfragen oder die Auftragsprotokolle mit dem `getJobLogDetails` abfragen.
 
-Wenn bei der Verarbeitung der POST-Anfrage ein Fehler auftritt, besteht der Antworttext aus einem der API-Fehlertypen, wie unter [&#x200B; beschrieben](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+Wenn bei der Verarbeitung der POST-Anfrage ein Fehler auftritt, besteht der Antworttext aus einem der API-Fehlertypen, wie unter [ beschrieben](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
 ## Beispiel einer POST-Anfrage {#section-810fe32abdb9426ba0fea488dffadd1e}
 
@@ -212,3 +208,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+
