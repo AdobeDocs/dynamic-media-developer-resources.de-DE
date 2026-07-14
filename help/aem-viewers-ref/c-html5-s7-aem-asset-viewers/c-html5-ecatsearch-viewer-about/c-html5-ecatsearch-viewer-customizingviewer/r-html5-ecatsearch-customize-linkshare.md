@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
 TQID: 'https://experienceleague.adobe.com/aBphMcWJdGVpUx57KLiEvgrIRKAGVK-2UVecGaHwgVk'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 1425
 ht-degree: 0%
@@ -338,7 +334,7 @@ Die Fußzeile des Dialogfelds besteht aus einer Schaltfläche Abbrechen . Der Fu
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften des &#x200B;** für die Dialogfeldfußzeile
+**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -601,7 +597,7 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit
 
 Diese Klasse ist nicht zur Steuerung der Größe oder Position der Beschriftung geeignet, da Sie sie auf Texte an verschiedenen Stellen der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbezeichnung. &#x200B;**
+**CSS-Eigenschaften der Dialogfeldbezeichnung. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -720,3 +716,4 @@ Beispiel: , um die Breite des Freigabe-Links auf 450 Pixel festzulegen:
     width: 450px; 
 }
 ```
+
