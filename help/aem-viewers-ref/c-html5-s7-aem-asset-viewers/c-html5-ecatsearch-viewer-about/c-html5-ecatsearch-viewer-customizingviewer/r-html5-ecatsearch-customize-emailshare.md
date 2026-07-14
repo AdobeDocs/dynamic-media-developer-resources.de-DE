@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
 TQID: 'https://experienceleague.adobe.com/26Wnmtp2hMt26oBq0IQ-VBr-t2n8vQE6WgllzGjC2kA'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 3145
 ht-degree: 0%
@@ -338,7 +334,7 @@ Die Fußzeile des Dialogfelds besteht aus den Schaltflächen Abbrechen und E-Mai
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter
 ```
 
-**CSS-Eigenschaften des &#x200B;** für die Dialogfeldfußzeile
+**CSS-Eigenschaften des ** für die Dialogfeldfußzeile
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -633,7 +629,7 @@ Alle statischen Beschriftungen im Dialogfeldformular werden mit dem folgenden CS
 
 Diese Klasse eignet sich nicht zur Steuerung der Größe oder Position von Beschriftungen, da Sie sie auf Texte an verschiedenen Stellen der Benutzeroberfläche des Formulars anwenden können.
 
-**CSS-Eigenschaften der Dialogfeldbezeichnung. &#x200B;**
+**CSS-Eigenschaften der Dialogfeldbezeichnung. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -969,7 +965,7 @@ Der freigegebene Inhalt wird unten im Dialogfeld angezeigt und enthält eine Min
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**CSS-Eigenschaften des &#x200B;**
+**CSS-Eigenschaften des **
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1104,7 +1100,7 @@ Der Inhaltsursprung wird mit dem folgenden CSS-Klassenselektor gesteuert:
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin
 ```
 
-**CSS-Eigenschaften des Inhaltsursprungs &#x200B;** Dialogfelds
+**CSS-Eigenschaften des Inhaltsursprungs ** Dialogfelds
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
@@ -1486,3 +1482,4 @@ background-image:url(images/sdk/scroll_up_up.png);
  background-image:url(images/sdk/scroll_down_disabled.png); 
 }
 ```
+
