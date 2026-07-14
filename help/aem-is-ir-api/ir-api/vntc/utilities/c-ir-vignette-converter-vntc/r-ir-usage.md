@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 161
 ht-degree: 1%
@@ -35,3 +35,4 @@ In diesem Thema wird die Syntax der vntc-Verwendung beschrieben.
 Erforderlich.
 
 *[!DNL destFile]* ist der Pfad und der Name der Vignettenausgabedatei. Wenn nicht anders angegeben, wird die Ausgabedatei in dem Ordner abgelegt, der mit `-destpath` angegeben wurde. In diesem Szenario wird der Dateiname automatisch aus dem Namen der Eingabedatei und einem Größensuffix generiert, getrennt durch die mit `-separator` angegebene Zeichenfolge. Bei Vignetten ist das Größensuffix die Pixelbreite der Ausgabevignette mit einfacher Auflösung, die Breite der ersten Ansicht einer Ausgabevignette mit mehreren Auflösungen oder „0“, wenn eine Pyramidenvignette vorhanden ist. Bei Dateien im Kabinettstil wird die Ausgabeauflösung als Dateisuffix verwendet. *[!DNL destFile]* wird ignoriert, wenn `-info` angegeben wird.
+

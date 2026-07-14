@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 Eine Liste von Pfaden, durch Semikolons getrennt, dient als Stamm für alle Datendateien mit relativen Dateipfaden.
 
 Es kann sich entweder um absolute Pfade oder um Pfade relativ zu *[!DNL install_folder]* handeln. Wenn mehrere Pfade angegeben sind, versucht der Server jeden Stamm in der angegebenen Reihenfolge, bis die Datei gefunden wird. Der Standardwert lautet [!DNL ./resources] für einen standardmäßigen Stammpfad von [!DNL install_folder/resources].
+

@@ -14,7 +14,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 124
 ht-degree: 0%
@@ -33,3 +33,4 @@ Aufrufe der Image Production System-API und die zugehörigen Parameter, die in [
 * `addMediaPortalEvent` - Veraltet von [Vorgänge](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Mit diesem Parameter können Sie ein Medienportalereignis zu IPS hinzufügen.
 * `getMediaPortalEvent` - Veraltet von [Vorgänge](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Mit diesem Parameter können Sie Medienportalereignisse abrufen, die bestimmten Kriterien entsprechen.
 * `getCdnCacheInvalidationStatus` - Veraltet von [Vorgänge](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Dieser Parameter wird jetzt nicht mehr unterstützt, da der `cdnCacheInvalidation` den Cache fast sofort ungültig macht (~5 Sekunden). Daher ist das Abrufen des Invalidierungsstatus nicht mehr erforderlich.
+

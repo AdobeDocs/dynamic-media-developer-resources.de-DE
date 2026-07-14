@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 0%
@@ -39,3 +39,4 @@ Das Rendern von Bildern nutzt viele Server-Funktionen gemeinsam mit der Bildbere
 Der Installationsordner für das Rendern von Bildern (*[!DNL install_folder]*) ist [!DNL *[!DNL install_root]*/ImageRendering]. Unter Windows ist der *[!DNL install_root]* `C:\Program Files\Scene7`. Während der Installation kann ein anderer Ordner angegeben werden. Unter Linux muss *[!DNL install_root]* immer [!DNL /usr/local/scene7] sein. Es können symbolische Links verwendet werden.
 
 Bei allen Dateipfaden wird unter UNIX zwischen Groß- und Kleinschreibung unterschieden und unter Windows nicht zwischen Groß- und Kleinschreibung.
+

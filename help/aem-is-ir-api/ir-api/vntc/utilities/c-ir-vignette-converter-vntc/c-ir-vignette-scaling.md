@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 345
 ht-degree: 0%
@@ -46,3 +46,4 @@ Effektiv gelten dieselben Regeln für Vignetten mit mehreren Auflösungen, wobei
 Eine Pyramidenvignette wird durch Angabe von `-pyramid` erstellt. Der größte Auflösungspegel einer solchen Vignette wird genau wie bei einer Vignette mit einfacher Auflösung bestimmt. Die zusätzlichen Auflösungsstufen werden automatisch bestimmt, indem jeder Pegel auf das 0,5fache des vorherigen Niveaus skaliert wird, wobei der kleinste Pegel 128x128 Pixel nicht überschreitet.
 
 Für eine Pyramidenvignette können zusätzliche Auflösungsstufen festgelegt werden, ebenso wie für eine Vignette mit mehreren Auflösungen.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 144
 ht-degree: 0%
@@ -29,3 +29,4 @@ In modernen Desktop-Browsern mit Ausnahme von Internet Explorer 10 und älter un
 Auf iOS-Geräten und in älteren Internet Explorer-Browsern verwendet der Viewer stattdessen den „simulierten“ Vollbildmodus. In diesem Modus ändert der Viewer einfach die Größe, um den gesamten Bereich des Webbrowser-Fensters einzunehmen. Außerdem sind die Benutzeroberfläche des Webbrowsers und andere Fenster weiterhin auf dem Bildschirm sichtbar.
 
 Ein Endbenutzer wechselt in den Vollbildmodus und verlässt diesen, indem er in der Viewer-Benutzeroberfläche die Vollbildschaltfläche drückt. Wenn der „native“ Vollbildmodus auf dem Desktop verwendet wird, ist es auch möglich, ihn durch Drücken von **Esc** zu beenden.
+

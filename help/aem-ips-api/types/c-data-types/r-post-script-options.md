@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 65
 ht-degree: 12%
@@ -35,3 +35,4 @@ Syntax
 | Farbraum | `xsd:string` | PostScript-Farbraummodus. |
 | alpha | `xsd:boolean` | Gibt an, ob die Datei in einem Bild gerastert werden soll. Wenn ja, wird ein transparenter Hintergrund erstellt, wenn die Originaldatei auf diese Weise definiert ist. Wird im Allgemeinen zum Erstellen von Überlagerungslogos verwendet. |
 | extractSearchWords | `xsd:boolean` | Ob Suchbegriffe aus der PostScript-Datei extrahiert werden sollen. |
+

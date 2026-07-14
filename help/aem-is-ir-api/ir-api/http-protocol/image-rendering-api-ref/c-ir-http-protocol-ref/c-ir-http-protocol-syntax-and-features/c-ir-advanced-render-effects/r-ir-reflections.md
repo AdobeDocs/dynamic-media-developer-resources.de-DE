@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 3%
@@ -61,3 +61,4 @@ Wenn dies der Fall ist, werden die folgenden Materialattribute verwendet, um die
 Der Renderer passt den Bereich des `gloss=`- und `rough=` entsprechend den `type=` an. Einige Materialtypen wie Gewebe sind weniger reflektierend als Materialtypen wie Stein oder Metall. Außerdem führt die gleiche für eine bestimmte Glanzmenge oft zu einem anderen Reflexionseffekt als die andere. Das Attribut `gloss=` und die Rauigkeit haben einen ziemlich breiten Farbraum, wenn `type=` nicht angegeben oder auf `0` gesetzt ist.
 
 `glossmap=` Wird verwendet, um den Glanz eines Materials Pixel für Pixel zu steuern.
+

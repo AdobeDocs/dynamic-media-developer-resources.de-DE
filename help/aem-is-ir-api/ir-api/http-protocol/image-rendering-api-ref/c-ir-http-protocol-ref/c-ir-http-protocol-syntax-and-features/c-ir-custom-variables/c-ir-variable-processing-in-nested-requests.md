@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 162
 ht-degree: 0%
@@ -29,3 +29,4 @@ Der Server ersetzt diese Verweise durch Werte (entweder aus der URL oder aus `ca
 Darüber hinaus werden alle `$ *[!DNL var]*=` Definitionen aus der URL und den `catalog::Modifier` an alle verschachtelten Bildbereitstellungs- und Bildrendering-Anfragen weitergeleitet. Dadurch wird sichergestellt, dass alle Variablendefinitionen für alle Vorlagen verfügbar sind, unabhängig von der Verschachtelungsebene.
 
 Unabhängig von der Verschachtelungsebene muss bei Variablenwerten, die in verschachtelten Bildrendering- oder Bildbereitstellungsanfragen an einer beliebigen Stelle ersetzt werden sollen, nur eine HTTP-Kodierung mit einem Durchgang angewendet werden.
+

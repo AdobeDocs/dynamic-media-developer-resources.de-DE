@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 138
 ht-degree: 0%
@@ -29,3 +29,4 @@ Opazitätsinformationen können einfach mithilfe eines RGB-Bildes mit einem Alph
 Wandränder unterstützen auch RGBA-Bilder, vor allem um gestanzte Ränder zu unterstützen.
 
 Die [!DNL vnw] Dateien, die Fensterabdeckungen definieren, können einen Opazitätskanal enthalten. Es wird vom Renderer mit dem Alphakanal der wiederholbaren Textur und dem `opacity=` Wert kombiniert, um eine vollständige Palette von Deckkrafteffekten für schiere und durchsichtige Fensterbehandlungen zu bieten.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 0%
@@ -29,3 +29,4 @@ Die Suchfunktion wird durch Aktivieren einer Suchschaltfläche in der Hauptwerkz
 Suchergebnisse werden als Miniaturansichten von Seiten angezeigt, auf denen Suchtext gefunden wurde. Darüber hinaus zeigt der Viewer die Gesamtzahl der bei der Suche gefundenen Seiten und Treffer an. Der/die Benutzende kann auf eine Suchergebnis-Miniaturansicht klicken oder tippen, um zur entsprechenden Seite des Katalogs zu navigieren.
 
 Schließlich hebt der Viewer Suchtreffer in der Hauptansicht mithilfe halbtransparenter gelber Bereiche hervor.
+

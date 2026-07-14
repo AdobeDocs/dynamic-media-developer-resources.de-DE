@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 9%
@@ -26,8 +26,7 @@ ht-degree: 9%
 
 Ruft die Assets und die Anzahl der mit einem bestimmten Unternehmen verknüpften Assets ab.
 
-Die zurückgegebene `countArray` besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`) mit jeweils einem eigenen Zählfeld (Datentyp `xsd:int`), sodass mehrere Asset-Typen pro Element des Arrays dargestellt werden können.
-Syntax
+Die zurückgegebene `countArray` besteht aus einem Array von `assetTypes` (Datentyp `xsd:string`) mit jeweils einem eigenen Zählfeld (Datentyp `xsd:int`), sodass mehrere Asset-Typen pro Element des Arrays dargestellt werden können.Syntax
 
 ## Autorisierte Benutzertypen {#section-6234754722184e828352f10eb18fbce9}
 
@@ -83,3 +82,4 @@ Dieses Codebeispiel verwendet das -Handle des Unternehmens als Feld in der `getA
    </countArray>
 </getAssetCountsReturn>
 ```
+

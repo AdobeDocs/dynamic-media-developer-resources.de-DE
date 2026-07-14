@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 387
 ht-degree: 0%
@@ -106,3 +106,4 @@ Es wird davon ausgegangen, dass der Leser mit der Dynamic Media-Bildbearbeitung 
 **&#x200B; *`MSS`* &#x200B;** Materialspezifikationssegment : Ein Satz von Materialattributen zwischen zwei Auswahlbefehlen in der Anforderung.
 
 **&#x200B; *`vignette`* &#x200B;** Ein Bild, das in der Dynamic Media-Bildbearbeitung für die Verwendung mit dem Bild-Rendering vorbereitet wurde.
+

@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 0%
@@ -43,3 +43,4 @@ Dropdown-Listen werden durch Schaltflächen aktiviert, wobei das zusätzliche `a
 Die Benutzeroberfläche für die Suche ist in dem Element mit der Rolle `search` gruppiert. Das Sucheingabefeld hat die Rolle `searchbox` und verweist auf die informative Beschriftung, die durch `SearchPanel.INFO_PROMPT` Lokalisierungssymbol mit `aria-describedby` Attribut gesteuert wird.
 
 Modale Dialogfelder haben die Rolle `dialog`. Das Kopfzeilenelement des Dialogfelds wird durch das Attribut `aria-labelledby` referenziert.
+

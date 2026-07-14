@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 91
 ht-degree: 4%
@@ -38,3 +38,4 @@ Immer mit einem Bild verknüpft. Sie können eine `ImageMap` Zielgruppe von `Ima
 | [!DNL position] | `xsd:string` | Position im Format des [!DNL coords]-Attributs des HTML-`<area>`. Beispiel: `coords ="0,0,84,128"`. |
 | [!DNL enabled] | `xsd:boolean` | True, wenn die Imagemap aktiviert ist. |
 | lastModify | `xsd:dateTime` | Datum und Uhrzeit der letzten Änderung der Imagemap. |
+

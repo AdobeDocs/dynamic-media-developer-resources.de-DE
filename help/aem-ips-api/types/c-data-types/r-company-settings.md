@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 244
 ht-degree: 2%
@@ -41,3 +41,4 @@ Syntax
 | diskSpaceWarningMin | `xsd:int` | Mindestmenge an freiem Speicherplatz im Image-Verzeichnis, bevor eine Warnung gesendet wird. |
 | emailTrashCleanupWarning | `xsd:boolean` | Bestimmt, ob E-Mails gesendet werden, bevor Papierkorb-Elemente automatisch gelöscht werden. |
 | javascriptUploadEnabled | `types:Asset` | Legt fest, ob JavaScript-Dateien hochgeladen werden. Diese Option stellt ein potenzielles Sicherheitsrisiko dar. Seien Sie daher vorsichtig. |
+

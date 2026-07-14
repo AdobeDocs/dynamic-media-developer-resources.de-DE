@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 0%
@@ -30,3 +30,4 @@ Die Konfigurationseinstellungen für das Rendern von Bildern werden in der [!DNL
 Die Konfigurationsdatei des Platform-Servers befindet sich unter [!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]. Diese Datei ist eine JAVA-Eigenschaftendatei. Es muss darauf geachtet werden, dass die entsprechenden Konventionen eingehalten werden. Andernfalls kann es sein, dass der [!DNL Platform Server] nicht startet. In Windows-Dateipfaden muss anstelle eines einfachen umgekehrten Schrägstrichs (\) ein doppelter umgekehrter Schrägstrich (`\\`) oder ein einfacher Schrägstrich (/) verwendet werden, da der umgekehrte Schrägstrich in diesem Dateityp als Escape-Zeichen verwendet wird. Die Datei enthält nicht dokumentierte Eigenschaften, die für die interne Verwendung durch den Server bestimmt sind und nicht geändert werden dürfen.
 
 Unter [Konfigurationseinstellungen“ finden Sie &#x200B;](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81) Liste aller Image-Rendering-Konfigurationseinstellungen.
+

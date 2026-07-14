@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 240
 ht-degree: 7%
@@ -26,8 +26,7 @@ Gibt alle Ordner und Unterordner ausgehend vom Ordnerpfad aus zurück. Die getFo
 
 ## Zweck der Ordner {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Mit einem Ordner können Sie Unterordner und Assets organisieren. Alle Ordner- und Asset-Namen müssen eindeutig sein. Ordner und Assets mit demselben Namen verursachen einen Namespace-Konflikt, auch wenn sie sich in unterschiedlichen Ordnerhierarchien befinden.
-Syntax
+Mit einem Ordner können Sie Unterordner und Assets organisieren. Alle Ordner- und Asset-Namen müssen eindeutig sein. Ordner und Assets mit demselben Namen verursachen einen Namespace-Konflikt, auch wenn sie sich in unterschiedlichen Ordnerhierarchien befinden.Syntax
 
 ## Autorisierte Benutzertypen {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
@@ -101,3 +100,4 @@ Dieses Codebeispiel gibt ein -Array zurück, das alle Ordner für ein Unternehme
    </folderArray>
 </getFoldersReturn>
 ```
+

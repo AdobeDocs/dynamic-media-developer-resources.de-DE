@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 97
 ht-degree: 5%
@@ -42,8 +42,7 @@ Upload-Einstellung für die Verarbeitung von ZIP- und TAR-Dateien als primäre A
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Prozess</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Steuert die ZIP- und TAR-Archivdateiverarbeitung. Es stehen zwei Optionen zur Verfügung: 
-     <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
+   <td colname="col3"> <p>Steuert die ZIP- und TAR-Archivdateiverarbeitung. Es stehen zwei Optionen zur Verfügung: <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB">Keine <span class="codeph">: </span> als primäre Assets verarbeiten. </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress</span> Extrahieren und Verarbeiten des Inhalts. </li>
      </ul><p>Hinweis: Bei Zeichenfolgenkonstanten wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie <span class="codeph"> Uncompress</span>, nicht <span class="codeph"> Uncompress</span>, oder <span class="codeph"> uncompress</span>. </p></p> </td> 
@@ -71,3 +70,4 @@ Der `unCompressionOptions` wird verwendet von:
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
+

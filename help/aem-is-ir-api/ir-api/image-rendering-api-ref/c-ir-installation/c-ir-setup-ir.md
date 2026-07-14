@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 81
 ht-degree: 0%
@@ -27,3 +27,4 @@ Das Bild-Rendering wird mit `fileinstall_folder/conf/ImageRendering.conf` konfig
 Weitere Informationen finden Sie im Abschnitt Konfiguration der Dokumentation. Diese Datei kann nur unter Windows über das Startmenü aufgerufen werden: **[!UICONTROL Startmenü]** > **[!UICONTROL Programme]** > **[!UICONTROL Scene7]** > **[!UICONTROL Konfigurationsdatei für das Rendern von Bildern bearbeiten]**.
 
 Informationen zum Anhalten und Starten des Bild-Renderings finden Sie in der Dokumentation zu Image-Serving . Das Rendern von Bildern kann nicht separat angehalten oder von der Bildbereitstellung gestartet werden.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 0%
@@ -27,3 +27,4 @@ Wenn dies erforderlich wird, können Sie das Bild-Rendering deinstallieren.
 Bei einer Deinstallation werden möglicherweise einige Benutzerdokumente aus dem Installationsordner entfernt. Sichern Sie vor der Deinstallation alle Dateien, die Sie behalten möchten.
 
 Melden Sie sich vor der Deinstallation mit Administrator- oder Stammberechtigungen bei Ihrem Serverhost an.
+
