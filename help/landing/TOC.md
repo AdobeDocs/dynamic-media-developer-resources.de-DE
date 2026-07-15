@@ -9,7 +9,8 @@ breadcrumb-title: Entwicklerressourcen für Dynamic Media
 user-guide-description: Greifen Sie auf Dynamic Media-Entwicklerressourcen zu, z. B. das Viewer-Referenzhandbuch, die Image Production System-API, die Image Serving- und Rendering-API und die archivierten Versionshinweise zu Scene7.
 feature-set: Experience Manager Assets
 index: true
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+nudge: true
+source-git-commit: 6b86b624461759c511dad9a939e258a2f0cc8552
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 # Entwicklerressourcen für Dynamic Media{#landing}
 
-+ [Startseite](home.md)
++ [Home](home.md)
 
 <!--
 This TOC may not be necessary. Not sure, so leaving it in.
