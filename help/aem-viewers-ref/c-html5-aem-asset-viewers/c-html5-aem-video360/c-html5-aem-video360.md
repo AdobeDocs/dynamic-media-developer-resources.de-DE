@@ -8,28 +8,32 @@ exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 TQID: 'https://experienceleague.adobe.com/exFQtdLDWST-H5pFv3m-q7eGCgtjrYe-TgxQal6VA48'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Security
+source-git-commit: dd9621ba856ee23cfaab63ba430118bccdf0b515
 workflow-type: tm+mt
-source-wordcount: 2620
+source-wordcount: '2621'
 ht-degree: 0%
-
 ---
-
 # Video360{#video}
 
 Der HTML5 Video360 Viewer ist ein 360-Grad-Videoplayer, der Streaming- und progressive 360-Grad-Videos wiedergibt, die im H.264-Format kodiert und von Dynamic Media Classic oder Adobe Experience Manager, Dynamic Media, bereitgestellt werden.
 
 360-Grad-Videos, auch als immersive Videos oder sphärische Videos bezeichnet, sind Videoaufnahmen, bei denen eine Ansicht in jede Richtung gleichzeitig aufgezeichnet wird, und zwar mit einer omnidirektionalen Kamera oder einer Sammlung von Kameras. Es werden sowohl einzelne als auch adaptive Videosets unterstützt. Der Viewer unterstützt auch das Arbeiten mit progressiven Video- und HLS-Streams, die an einem externen Speicherort gehostet werden.
 
-Das empfohlene Seitenverhältnis für 360-Grad-Videos beträgt 2:1. Räumlicher Klang wird nicht unterstützt. Der Viewer ist nur für die Verwendung mit 360-Grad-Videos konzipiert. Der Versuch, ein Nicht-360-Grad-Video abzuspielen, führt zu einer verzerrten Videowiedergabe.
+Das empfohlene Seitenverhältnis für 360-Grad-Videos lautet 2:1. Räumlicher Klang wird nicht unterstützt. Der Viewer ist nur für die Verwendung mit 360-Grad-Videos konzipiert. Der Versuch, ein Nicht-360-Grad-Video abzuspielen, führt zu einer verzerrten Videowiedergabe.
 
 Der Viewer wurde für Desktop- und mobile Webbrowser entwickelt, die HTML5-Videos unterstützen. Der Viewer unterstützt optionale Social-Sharing-Tools.
 
@@ -144,22 +148,22 @@ Sie können den Viewer wie folgt zu einer Web-Seite hinzufügen:
 
    Um einen Viewer zu erstellen, müssen Sie ein -Skript-Tag in der Kopfzeile von HTML hinzufügen. Bevor Sie die Viewer-API verwenden können, stellen Sie sicher, dass Sie [!DNL Video360Viewer.js] einbeziehen. Die [!DNL Video360Viewer.js]-Datei befindet sich im [!DNL html5/js/] Unterordner Ihrer standardmäßigen IS-Viewers-Bereitstellung:
 
-[!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
+   [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und er von derselben Domain bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf denen die IS-Viewer installiert sind.
+   Sie können einen relativen Pfad verwenden, wenn der Viewer auf einem der Adobe Dynamic Media Classic-Server bereitgestellt wird und er von derselben Domain bereitgestellt wird. Andernfalls geben Sie einen vollständigen Pfad zu einem der Adobe Dynamic Media Classic-Server an, auf denen die IS-Viewer installiert sind.
 
-Der relative Pfad sieht wie folgt aus:
+   Der relative Pfad sieht wie folgt aus:
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
+   ```
 
->[!NOTE]
->
->Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek, die vom Viewer aus `/s7viewers` Kontextpfad geladen wird (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert keine älteren Versionen der sekundären Viewer-`includes` auf dem Server.
->
->
->Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
+   >[!NOTE]
+   >
+   >Verweisen Sie auf Ihrer Seite nur auf die JavaScript-`include`-Datei des Haupt-Viewers. Verweisen Sie nicht auf zusätzliche JavaScript-Dateien im Web-Seiten-Code, die möglicherweise von der Logik des Viewers zur Laufzeit heruntergeladen werden. Verweisen Sie insbesondere nicht direkt auf die HTML5 SDK `Utils.js`-Bibliothek, die vom Viewer aus `/s7viewers` Kontextpfad geladen wird (so genannte konsolidierte SDK-`include`). Der Grund dafür ist, dass der Speicherort von `Utils.js` oder ähnlichen Runtime-Viewer-Bibliotheken vollständig von der Logik des Viewers verwaltet wird und sich der Speicherort zwischen den Viewer-Versionen ändert. Adobe speichert keine älteren Versionen der sekundären Viewer-`includes` auf dem Server.
+   >
+   >
+   >Wenn Sie also auf der Seite einen direkten Verweis auf eine sekundäre JavaScript-`include` einfügen, die vom Viewer verwendet wird, wird die Viewer-Funktionalität in Zukunft unterbrochen, wenn eine neue Produktversion bereitgestellt wird.
 
 1. Container-`DIV` definieren.
 
@@ -181,7 +185,7 @@ Der relative Pfad sieht wie folgt aus:
 
    Sie können die Größenanpassung in CSS direkt auf der HTML-Seite oder in einer benutzerdefinierten CSS-Viewer-Datei festlegen, die später einem Viewer-Vorgabeneintrag in Adobe Experience Manager Assets zugewiesen wird - On-Demand oder explizit mit `style` Befehl übergeben wird.
 
-   Weitere Informationen [&#x200B; Formatieren des Viewers mit CSS finden &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) unter „Anpassen des Video360-Viewers“.
+   Weitere Informationen [ Formatieren des Viewers mit CSS finden ](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) unter „Anpassen des Video360-Viewers“.
 
    Im Folgenden finden Sie ein Beispiel für die Definition einer statischen Viewer-Größe auf der HTML-Seite:
 
