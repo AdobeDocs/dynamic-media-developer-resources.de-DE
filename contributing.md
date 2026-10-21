@@ -30,7 +30,7 @@ Welche Methode Sie wählen, hängt davon ab, wie komfortabel Sie die Dokumentati
 
 >[!NOTE]
 >
->Beiträge, die Sie einreichen, werden durch die [Adobe-Nutzungsbedingungen abgedeckt.](https://www.adobe.com/legal/terms.html)
+>Beiträge, die Sie einreichen, werden durch die [Adobe-Nutzungsbedingungen abgedeckt.](https://www.adobe.com/de/legal/terms.html)
 
 ### Anfrage erstellen {#create-an-issue}
 

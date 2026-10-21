@@ -34,11 +34,11 @@ Das `href`-Attribut der Imagemap weist eine URL zu der externen Ressource auf, d
 
 Im Folgenden finden Sie ein Beispiel für eine einfache URL-Umleitung:
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/de`
 
 In diesem Beispiel wird dieselbe URL von der `loadProduct()` umschlossen:
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/de");void(0);`
 
 Beachten Sie, dass beim Hinzufügen des JavaScript-Codes zum `HREF`-Attribut Ihrer Imagemap der Code auf dem Computer des Clients ausgeführt wird. Stellen Sie daher sicher, dass der JavaScript-Code sicher ist.
 
